@@ -1,4 +1,4 @@
-import { BOOKS, getReferenceName, type BookId } from '../../../src/core/bible/books.ts';
+import { BOOKS, type BookId } from '../../../src/core/bible/books.ts';
 import { toOsisId, type VerseIndex } from '../../../src/core/bible/verse-ref.ts';
 import { CANONICAL_VERSIFICATION } from '../../../src/core/bible/versification.ts';
 import {
@@ -22,8 +22,9 @@ const VERSE_LINE_PATTERN = /^(.+) (\d+):(\d+)\t(.*)$/;
 
 const BOOK_IDS_BY_NAME: ReadonlyMap<string, BookId> = new Map(
   BOOKS.flatMap((book) => [
-    [book.name, book.id],
-    [getReferenceName(book), book.id],
+    // The source file names books in English, whatever the interface language of the build.
+    [book.englishName, book.id],
+    [book.englishReferenceName, book.id],
   ]),
 );
 

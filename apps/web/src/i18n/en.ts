@@ -43,7 +43,6 @@ export const en = {
     arcsNote: 'Every verse on one line, with its cross-references drawn as arcs.',
     threadsLink: 'Read with threads',
     threadsNote: 'Read a chapter while each verse shows where its references land.',
-    explorerLanguageNote: 'The explorer’s interface and verse text are in English for now.',
     methodHeading: 'How sources are weighed',
     methodIntro:
       'Every page says where its claims come from. When sources differ in authority, we rank them in this order:',

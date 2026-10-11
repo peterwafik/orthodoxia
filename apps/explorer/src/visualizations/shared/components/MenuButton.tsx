@@ -1,6 +1,7 @@
 import { useEffect, useId, useLayoutEffect, useRef, useState, type ReactNode } from 'react';
 import type { IconComponent } from '../../../shared/ui/icons.tsx';
 import styles from './controls.module.css';
+import { t } from '../../../i18n/messages.ts';
 
 interface MenuButtonProps {
   readonly label: string;
@@ -8,6 +9,8 @@ interface MenuButtonProps {
   readonly icon: IconComponent;
   /** Shows a small dot on the button, e.g. when the menu's settings differ from the defaults. */
   readonly indicator?: boolean;
+  /** Shows only the icon, at every width (the label still names the button). */
+  readonly iconOnly?: boolean;
   /** The popover's content. */
   readonly children: ReactNode;
 }
@@ -29,7 +32,13 @@ function keepInViewport(popover: HTMLElement): void {
 }
 
 /** A header button that opens a small popover; closes on outside click or Escape. */
-export function MenuButton({ label, icon: Icon, indicator = false, children }: MenuButtonProps) {
+export function MenuButton({
+  label,
+  icon: Icon,
+  indicator = false,
+  iconOnly = false,
+  children,
+}: MenuButtonProps) {
   const [open, setOpen] = useState(false);
   const menuRef = useRef<HTMLDivElement>(null);
   const popoverRef = useRef<HTMLDivElement>(null);
@@ -79,7 +88,7 @@ export function MenuButton({ label, icon: Icon, indicator = false, children }: M
         type="button"
         className={`${styles.button} ${styles.menuButton}`}
         // Named explicitly: on phones the label is hidden and only the icon shows.
-        aria-label={indicator ? `${label} (changed)` : label}
+        aria-label={indicator ? t.filters.changed(label) : label}
         aria-expanded={open}
         aria-controls={popoverId}
         onClick={() => {
@@ -87,7 +96,7 @@ export function MenuButton({ label, icon: Icon, indicator = false, children }: M
         }}
       >
         <Icon />
-        <span className={styles.menuLabel}>{label}</span>
+        {!iconOnly && <span className={styles.menuLabel}>{label}</span>}
         {indicator && <span className={styles.indicator} />}
       </button>
       {open && (

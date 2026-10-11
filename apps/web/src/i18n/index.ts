@@ -34,10 +34,7 @@ export function localePath(locale: Locale, path = ''): string {
   return trimmed === '' ? `/${locale}/` : `/${locale}/${trimmed}/`;
 }
 
-/**
- * The cross-reference explorer's address for a locale. Only the English build exists until its
- * interface is localized (backlog P1-02), so every locale links there for now.
- */
-export function explorerPath(_locale: Locale, view: '' | 'threads' = ''): string {
-  return view === '' ? '/en/explore/' : `/en/explore/${view}/`;
+/** The cross-reference explorer's address in a language (it is built once per language). */
+export function explorerPath(locale: Locale, view: '' | 'threads' = ''): string {
+  return view === '' ? `/${locale}/explore/` : `/${locale}/explore/${view}/`;
 }

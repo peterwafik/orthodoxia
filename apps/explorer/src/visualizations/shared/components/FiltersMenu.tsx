@@ -8,6 +8,7 @@ import {
 } from '../link-filter.ts';
 import styles from './controls.module.css';
 import { MenuButton } from './MenuButton.tsx';
+import { t } from '../../../i18n/messages.ts';
 
 interface FiltersMenuProps {
   readonly filter: LinkFilter;
@@ -20,7 +21,7 @@ interface FiltersMenuProps {
 
 /** Short option labels: the minimum is included, hence ≥ (e.g. "≥ 4" keeps links with 4 votes). */
 function thresholdLabel(minVotes: number): string {
-  return minVotes === -Infinity ? 'All' : `≥ ${String(minVotes)}`;
+  return minVotes === -Infinity ? t.filters.all : `≥ ${String(minVotes)}`;
 }
 
 /** Low-key link filters: a button that opens a small popover. */
@@ -33,9 +34,9 @@ export function FiltersMenu({
 }: FiltersMenuProps) {
   const isDefault = isDefaultFilter(filter, defaults);
   return (
-    <MenuButton label="Filters" icon={FiltersIcon} indicator={!isDefault}>
+    <MenuButton label={t.filters.label} icon={FiltersIcon} indicator={!isDefault}>
       <label className={styles.field}>
-        Community votes
+        {t.filters.votes}
         <select
           className={styles.select}
           value={String(filter.minVotes)}
@@ -51,12 +52,16 @@ export function FiltersMenu({
         </select>
       </label>
       <p className={styles.hint}>
-        Votes rank how helpful OpenBible.info readers found a link; they don’t prove it right or
-        wrong. Showing {formatInteger(shownLinks)} of {formatInteger(totalLinks)} links (
-        {describeThreshold(filter.minVotes)}
-        {filter.hiddenGenres.size > 0 && `, ${filter.hiddenGenres.size} genres hidden`}).
+        {t.filters.explanation(
+          formatInteger(shownLinks),
+          formatInteger(totalLinks),
+          describeThreshold(filter.minVotes),
+          filter.hiddenGenres.size > 0
+            ? t.filters.genresHidden(String(filter.hiddenGenres.size))
+            : '',
+        )}
       </p>
-      <p className={styles.hint}>Tip: tap a genre in the legend to hide or show it.</p>
+      <p className={styles.hint}>{t.filters.tip}</p>
       <button
         type="button"
         className={styles.button}
@@ -66,7 +71,7 @@ export function FiltersMenu({
         }}
       >
         <ResetIcon />
-        Reset filters
+        {t.filters.reset}
       </button>
     </MenuButton>
   );

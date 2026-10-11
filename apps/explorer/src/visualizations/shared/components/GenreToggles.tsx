@@ -2,6 +2,7 @@ import type { Testament } from '../../../core/bible/books.ts';
 import { GENRES, type GenreId } from '../../../core/bible/genres.ts';
 import { GENRE_COLORS } from '../palette.ts';
 import styles from './GenreLegend.module.css';
+import { t } from '../../../i18n/messages.ts';
 
 export interface GenreTogglesProps {
   readonly hiddenGenres: ReadonlySet<GenreId>;
@@ -9,8 +10,8 @@ export interface GenreTogglesProps {
 }
 
 const TESTAMENTS: readonly { readonly id: Testament; readonly label: string }[] = [
-  { id: 'OT', label: 'Old Testament' },
-  { id: 'NT', label: 'New Testament' },
+  { id: 'OT', label: t.testament.OT },
+  { id: 'NT', label: t.testament.NT },
 ];
 
 /** The genre color keys, grouped by testament; each also toggles its genre's links. */
@@ -26,7 +27,11 @@ export function GenreToggles({ hiddenGenres, onToggle }: GenreTogglesProps) {
               type="button"
               className={styles.item}
               aria-pressed={!hiddenGenres.has(genre.id)}
-              title={hiddenGenres.has(genre.id) ? `Show ${genre.name}` : `Hide ${genre.name}`}
+              title={
+                hiddenGenres.has(genre.id)
+                  ? t.genres.showOne(genre.name)
+                  : t.genres.hideOne(genre.name)
+              }
               onClick={() => {
                 onToggle(genre.id);
               }}

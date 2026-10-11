@@ -7,6 +7,7 @@ import type {
   CrossReferenceLink,
 } from '../../cross-references/cross-reference-index.ts';
 import { compileLinkFilter, type LinkFilter } from './link-filter.ts';
+import { t } from '../../i18n/messages.ts';
 
 export type LinkDirection = 'outgoing' | 'incoming';
 
@@ -98,13 +99,17 @@ export function landingNote(
 ): string | null {
   const { link, direction } = connection;
   if (direction === 'incoming' && link.targetEnd !== link.targetStart) {
-    return `to ${formatVerseIndexRange(versification, link.targetStart, link.targetEnd)}`;
+    return t.connections.toRange(
+      formatVerseIndexRange(versification, link.targetStart, link.targetEnd),
+    );
   }
   if (!inChapter) {
     return null;
   }
   const verse = versification.refAt(connection.here).verse;
-  return `${direction === 'outgoing' ? 'from' : 'to'} v. ${String(verse)}`;
+  return direction === 'outgoing'
+    ? t.connections.fromVerse(String(verse))
+    : t.connections.toVerse(String(verse));
 }
 
 /** Groups connections (already sorted by their other end) by the book of the other end. */

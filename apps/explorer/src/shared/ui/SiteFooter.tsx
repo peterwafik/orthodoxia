@@ -1,7 +1,7 @@
 import type { ReactNode } from 'react';
+import { LOCALE } from '../../i18n/locale.ts';
+import { t } from '../../i18n/messages.ts';
 import styles from './SiteFooter.module.css';
-
-const YEAR = new Date().getFullYear();
 
 interface SiteFooterProps {
   /** Page-specific credits, such as data attribution. */
@@ -10,12 +10,14 @@ interface SiteFooterProps {
   readonly className?: string | undefined;
 }
 
-/** The minimal site-wide footer: year and a link to the author's site, plus credits. */
+/** The footer: the site and the upstream project credited, plus the page's data credits. */
 export function SiteFooter({ children, className }: SiteFooterProps) {
   return (
     <footer className={className ? `${styles.footer} ${className}` : styles.footer}>
       <span className={styles.owner}>
-        © {YEAR} · <a href="https://trekhleb.dev">trekhleb.dev</a>
+        <a href={`/${LOCALE}/`}>{t.siteName}</a> · {t.credits.basedOn}{' '}
+        <a href="https://github.com/trekhleb/bible-cross-references">Bible Cross-References</a>{' '}
+        {t.credits.upstreamAuthor}
       </span>
       {children !== undefined && <span className={styles.credits}>{children}</span>}
     </footer>

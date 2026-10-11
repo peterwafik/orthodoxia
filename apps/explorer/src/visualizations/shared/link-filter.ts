@@ -2,6 +2,7 @@ import { GENRES, type GenreId } from '../../core/bible/genres.ts';
 import type { VerseIndex } from '../../core/bible/verse-ref.ts';
 import { elementAt } from '../../core/lib/array.ts';
 import type { CrossReferenceIndex } from '../../cross-references/cross-reference-index.ts';
+import { t } from '../../i18n/messages.ts';
 
 /** Which links a visualization shows, set with optional, low-key controls. */
 export interface LinkFilter {
@@ -32,9 +33,9 @@ export function isDefaultFilter(filter: LinkFilter, defaults: LinkFilter): boole
 
 export function describeThreshold(minVotes: number): string {
   if (minVotes === -Infinity) {
-    return 'all links';
+    return t.filters.allLinks;
   }
-  return minVotes === 0 ? 'links voted down are hidden' : `≥ ${minVotes} votes`;
+  return minVotes === 0 ? t.filters.votedDownHidden : t.filters.atLeast(String(minVotes));
 }
 
 /**

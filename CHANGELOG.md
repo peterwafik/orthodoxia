@@ -25,3 +25,8 @@
 
 ### Changed (explorer)
 - Removed Google Analytics. Removed the nested lockfile.
+- Integrated into the site: navy/ivory/gold palette and site fonts, the site's brand,
+  navigation, language switch and footer.
+- Full Arabic version at `/ar/explore/`: every interface string, Arabic book and genre names (also
+  on the canvas), Arabic search ("يوحنا 3: 16", "مزمور ٢٣"), and the Smith–Van Dyck text. The axis
+  stays Genesis→Revelation left to right. See `apps/explorer/PATCHES.md`.

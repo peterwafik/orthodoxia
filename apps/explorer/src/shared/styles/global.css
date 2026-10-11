@@ -5,19 +5,19 @@
 :root {
   color-scheme: light dark;
 
-  --color-background: light-dark(#fafaf9, #0d0d0d);
-  --color-surface: light-dark(#ffffff, #161615);
-  --color-surface-muted: light-dark(#f5f5f4, #201f1d);
-  --color-text: light-dark(#1c1917, #ecebe6);
-  --color-text-muted: light-dark(#78716c, #9a9890);
-  --color-border: light-dark(#e7e5e4, #2c2b28);
-  --color-accent: light-dark(#b45309, #f59e0b);
-  --color-accent-soft: light-dark(#fef3c7, #3a2604);
+  --color-background: light-dark(#f5f1e6, #0e1a33);
+  --color-surface: light-dark(#fffdf8, #16244a);
+  --color-surface-muted: light-dark(#ece6d6, #1c2c57);
+  --color-text: light-dark(#1a2340, #ede7d8);
+  --color-text-muted: light-dark(#4b5567, #aeb6c6);
+  --color-border: light-dark(#ddd5c3, #2a3a60);
+  --color-accent: light-dark(#7a5a12, #d9b45a);
+  --color-accent-soft: light-dark(#f1e6c8, #3a3320);
   --color-danger: light-dark(#b91c1c, #f87171);
   --color-danger-soft: light-dark(#fee2e2, #3b0f0f);
 
-  --font-sans: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
-  --font-serif: 'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, serif;
+  --font-sans: 'Inter Variable', 'Noto Sans Arabic Variable', system-ui, sans-serif;
+  --font-serif: 'Source Serif 4 Variable', 'Noto Naskh Arabic Variable', Georgia, serif;
   --font-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
 
   --space-1: 0.25rem;

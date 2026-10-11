@@ -14,6 +14,8 @@ import { FrameScheduler, MAX_PIXEL_RATIO } from '../shared/frames.ts';
 import { computeSpineLayout } from './spine-layout.ts';
 import { drawThreads, spineBar, type VerseAnchor } from './threads-drawing.ts';
 import styles from './ThreadsStage.module.css';
+import { DIRECTION } from '../../i18n/locale.ts';
+import { t } from '../../i18n/messages.ts';
 
 export type ThreadDirection = 'outgoing' | 'incoming' | 'both';
 
@@ -237,14 +239,19 @@ export function ThreadsStage({
     end + 1 < versification.verseCount ? chapterPassageOf(end + 1, versification) : null;
 
   return (
-    <div className={styles.stage}>
+    <div className={styles.stage} dir="ltr">
       {/* Keyed by chapter: a new chapter is a new scroll container, so it starts at the top. */}
       <div key={`${book}.${chapter}`} ref={readingRef} className={styles.reading}>
-        <header ref={chapterHeaderRef} className={styles.chapterHeader} data-condensed={condensed}>
+        <header
+          ref={chapterHeaderRef}
+          className={styles.chapterHeader}
+          data-condensed={condensed}
+          dir={DIRECTION}
+        >
           <div className={styles.column}>
             <p className={styles.eyebrow}>
               <span className={styles.key} style={{ background: GENRE_COLORS[genre.id] }} />
-              {genre.name} · {genre.testament === 'OT' ? 'Old Testament' : 'New Testament'}
+              {genre.name} · {t.testament[genre.testament]}
             </p>
             <div className={styles.titleRow}>
               <h2 className={styles.title}>
@@ -253,27 +260,27 @@ export function ThreadsStage({
                   <span className={styles.position}>:{versification.refAt(topVerse).verse}</span>
                 )}
               </h2>
-              <nav className={styles.chapterNav} aria-label="Chapters">
+              <nav className={styles.chapterNav} aria-label={t.threads.chapters}>
                 <button
                   type="button"
                   disabled={!previousChapter}
-                  aria-label="Previous chapter"
+                  aria-label={t.threads.previousChapter}
                   onClick={() => {
                     if (previousChapter) onSelect(previousChapter);
                   }}
                 >
                   <PreviousIcon />
-                  <span className={styles.navLabel}>Previous chapter</span>
+                  <span className={styles.navLabel}>{t.threads.previousChapter}</span>
                 </button>
                 <button
                   type="button"
                   disabled={!nextChapter}
-                  aria-label="Next chapter"
+                  aria-label={t.threads.nextChapter}
                   onClick={() => {
                     if (nextChapter) onSelect(nextChapter);
                   }}
                 >
-                  <span className={styles.navLabel}>Next chapter</span>
+                  <span className={styles.navLabel}>{t.threads.nextChapter}</span>
                   <NextIcon />
                 </button>
               </nav>
@@ -315,16 +322,19 @@ export function ThreadsStage({
                   <button
                     type="button"
                     className={styles.number}
-                    aria-label={`Verse ${offset + 1}: show its connections`}
+                    aria-label={t.threads.verseButton(String(offset + 1))}
                     aria-pressed={verse === selectedVerse}
                   >
                     {offset + 1}
                   </button>
-                  <span className={text ? styles.text : `${styles.text} ${styles.omitted}`}>
-                    {text ||
-                      `Omitted in the ${translation.manifest.abbreviation} (not in the earliest manuscripts).`}
+                  <span
+                    className={text ? styles.text : `${styles.text} ${styles.omitted}`}
+                    lang={translation.manifest.language}
+                    dir={translation.manifest.direction}
+                  >
+                    {text || t.panel.omitted(translation.manifest.abbreviation)}
                   </span>
-                  <span className={styles.count} title={`${count} connections`}>
+                  <span className={styles.count} title={t.threads.connections(String(count))}>
                     {count > 0 ? formatInteger(count) : ''}
                   </span>
                 </li>
@@ -364,14 +374,13 @@ export function ThreadsStage({
           ref={canvasRef}
           className={styles.canvas}
           role="img"
-          aria-label="Threads from the verses of this chapter to where their cross-references land in the Bible, shown as a vertical bar of all 66 books."
+          aria-label={t.threads.canvas}
         />
         {spineHover && (
           <div className={styles.tooltip} style={{ top: spineHover.y }}>
             {getBook(spineHover.book).name}{' '}
             <span>
-              · {formatInteger(spineHover.count)} {spineHover.count === 1 ? 'thread' : 'threads'}{' '}
-              from here · click to read
+              {t.threads.spineHint(formatInteger(spineHover.count), spineHover.count === 1)}
             </span>
           </div>
         )}

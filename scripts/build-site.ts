@@ -1,7 +1,8 @@
 /**
  * Builds the whole static site into `dist/`:
  *   1. the Bible data (scripts/bible) and the content site (apps/web, Astro) → dist/
- *   2. the cross-reference explorer (apps/explorer, upstream Vite app) → dist/en/explore/
+ *   2. the cross-reference explorer (apps/explorer, upstream Vite app), once per language →
+ *      dist/en/explore/ and dist/ar/explore/
  * then checks the output against the free hosting limits (docs/phase-0/05-hosting-evaluation.md).
  *
  * SITE_ORIGIN (e.g. https://orthodoxia.example.workers.dev) sets canonical and share URLs.
@@ -14,8 +15,14 @@ const ROOT = resolve(import.meta.dirname, '..');
 const DIST = join(ROOT, 'dist');
 const SITE_ORIGIN = process.env['SITE_ORIGIN'] ?? 'http://localhost:8787';
 
-/** The explorer is mounted per locale; only English exists until its UI is localized (P1-02). */
-const EXPLORER_MOUNTS = ['/en/explore/'];
+/**
+ * The explorer is built once per language. Each build reads only its own translation (BSB or Van
+ * Dyck), so the other one is removed from that copy to keep the deployment small.
+ */
+const EXPLORER_MOUNTS = [
+  { base: '/en/explore/', locale: 'en', unusedTranslation: 'svd' },
+  { base: '/ar/explore/', locale: 'ar', unusedTranslation: 'bsb' },
+] as const;
 
 /** Cloudflare Workers static assets, Free plan (verified 2026-10-11). */
 const MAX_FILE_BYTES = 25 * 1024 * 1024;
@@ -40,10 +47,10 @@ run('npm run build -w apps/web', { SITE_ORIGIN });
 cpSync(join(ROOT, 'apps', 'web', 'dist'), DIST, { recursive: true });
 
 for (const mount of EXPLORER_MOUNTS) {
-  run('npm run build -w apps/explorer', { BASE_PATH: mount, SITE_ORIGIN });
-  cpSync(join(ROOT, 'apps', 'explorer', 'dist'), join(DIST, ...mount.split('/').filter(Boolean)), {
-    recursive: true,
-  });
+  run('npm run build -w apps/explorer', { BASE_PATH: mount.base, SITE_ORIGIN, LOCALE: mount.locale });
+  const target = join(DIST, ...mount.base.split('/').filter(Boolean));
+  cpSync(join(ROOT, 'apps', 'explorer', 'dist'), target, { recursive: true });
+  rmSync(join(target, 'data', 'translations', `${mount.unusedTranslation}.json`), { force: true });
 }
 
 const files = listFiles(DIST);

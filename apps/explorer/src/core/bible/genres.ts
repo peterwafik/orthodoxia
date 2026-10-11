@@ -1,4 +1,6 @@
+import { LOCALE } from '../../i18n/locale.ts';
 import { BOOKS, type BookId, type Testament } from './books.ts';
+import { ARABIC_GENRE_NAMES } from './names-ar.ts';
 
 interface GenreDefinition {
   readonly id: string;
@@ -33,6 +35,7 @@ export interface Genre extends GenreDefinition {
 
 export const GENRES: readonly Genre[] = GENRE_DEFINITIONS.map((definition, ordinal) => ({
   ...definition,
+  name: LOCALE === 'ar' ? (ARABIC_GENRE_NAMES[definition.id] ?? definition.name) : definition.name,
   ordinal,
 }));
 

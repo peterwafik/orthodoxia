@@ -11,7 +11,8 @@ content/sources/*.yaml ─┐                                                   
 packages/content-schema ─┼─► apps/web (Astro 7, static) ──► dist/                     │
 apps/web/src/data/hero-arcs.json ┘                         ├── index.html (bilingual landing)
                                                            ├── en/, ar/  (home, about, sources)
-apps/explorer (upstream Vite app) ── BASE_PATH=/en/explore/ ► dist/en/explore/  (Arcs, Threads, data)
+apps/explorer (upstream Vite app) ── LOCALE=en BASE_PATH=/en/explore/ ► dist/en/explore/  (BSB text)
+                                  └─ LOCALE=ar BASE_PATH=/ar/explore/ ► dist/ar/explore/  (Van Dyck text)
                                                                                       │
                                        guards: file ≤ 25 MiB, ≤ 20,000 files ◄─────────┘
 dist/ ──► Cloudflare Workers static assets (wrangler.jsonc, no Worker script)
@@ -37,7 +38,6 @@ dist/ ──► Cloudflare Workers static assets (wrangler.jsonc, no Worker scri
 
 ## Known gaps
 
-- The explorer's UI is English only and lives at `/en/explore/`. Arabic pages link there with a note.
-- The explorer keeps upstream's header and footer. It does not link back to the home page yet (P1-04).
+- The explorer is always shown in the dark (navy) theme: its genre palette is validated for a dark surface only.
 - There is no ESLint/Prettier config for `apps/web` or `packages/` yet. Type checks and tests cover them.
 - There are no automated accessibility or end-to-end tests yet (P1-09).

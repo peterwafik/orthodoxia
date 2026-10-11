@@ -10,7 +10,9 @@ import type { HtmlTagDescriptor } from 'vite';
 export const ROOT_DIR = resolve(import.meta.dirname, '..');
 
 /** The site's name: `import.meta.env.SITE_NAME` in code, `%SITE_NAME%` in the HTML entries. */
-export const SITE_NAME = 'Bible Cross-References';
+// Orthodoxia patch: the explorer is a section of the Orthodoxia site, named in the build's language.
+export const SITE_NAME =
+  process.env['LOCALE'] === 'ar' ? 'الشواهد · أرثوذكسيا' : 'Cross-references · Orthodoxia';
 
 /**
  * Where the built site is served. GitHub Pages serves this repository (bible-cross-references) at
@@ -25,10 +27,11 @@ export const SITE_ORIGIN = process.env['SITE_ORIGIN'] ?? 'https://trekhleb.dev';
  */
 export const SITE_URL = new URL(process.env['BASE_PATH'] ?? DEPLOY_BASE, SITE_ORIGIN).href;
 
+// Orthodoxia patch: the published pages belong to the Orthodoxia project (the code's upstream author
+// is credited in the footer and in PATCHES.md).
 export const AUTHOR = {
-  name: 'Oleksii Trekhleb',
-  url: 'https://trekhleb.dev',
-  twitter: '@Trekhleb',
+  name: 'Orthodoxia',
+  url: 'https://github.com/peterwafik/orthodoxia',
 };
 
 /**

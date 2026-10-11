@@ -1,4 +1,8 @@
+import { t } from '../../../i18n/messages.ts';
+import { DEFAULT_TRANSLATION_ID, getTranslationManifest } from '../../../translations/registry.ts';
 import styles from './Credits.module.css';
+
+const TEXT = getTranslationManifest(DEFAULT_TRANSLATION_ID);
 
 interface CreditsProps {
   /** The work that inspired the visualization, credited by name with a link. */
@@ -12,21 +16,25 @@ interface CreditsProps {
 export function Credits({ inspiration }: CreditsProps) {
   return (
     <>
-      <span className={styles.detail}>Links: </span>
+      <span className={styles.detail}>{t.credits.links} </span>
       <a href="https://www.openbible.info/labs/cross-references/" target="_blank" rel="noreferrer">
         OpenBible.info
       </a>{' '}
       (CC BY 4.0
-      <span className={styles.detail}>, from the Treasury of Scripture Knowledge</span>) · Text: BSB
-      <span className={styles.detail}> (public domain)</span>
+      <span className={styles.detail}>{t.credits.tsk}</span>) ·{' '}
+      <a href={TEXT.homepage} target="_blank" rel="noreferrer">
+        {t.credits.text(TEXT.abbreviation)}
+      </a>
+      <span className={styles.detail}>{t.credits.publicDomain}</span> ·{' '}
+      <span className={styles.detail}>{t.site.coverage}</span>
       {inspiration && (
         <span className={styles.detail}>
           {' '}
-          · Inspired by{' '}
+          · {t.credits.inspiredBy}{' '}
           <a href={inspiration.url} target="_blank" rel="noreferrer">
             {inspiration.title}
           </a>{' '}
-          by {inspiration.author}
+          {t.credits.by} {inspiration.author}
         </span>
       )}
     </>

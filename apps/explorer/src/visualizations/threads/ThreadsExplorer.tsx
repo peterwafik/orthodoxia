@@ -15,6 +15,7 @@ import { DEFAULT_LINK_FILTER, selectLinks } from '../shared/link-filter.ts';
 import type { VizData } from '../shared/viz-data.ts';
 import type { VisualizationProps } from '../visualization.ts';
 import { ThreadsStage, type ThreadDirection } from './ThreadsStage.tsx';
+import { t } from '../../i18n/messages.ts';
 
 /** Where reading starts without a `?ref=`: the Bible's own statement of connection. */
 const DEFAULT_CHAPTER = { book: 'John', chapter: 1 } as const satisfies {
@@ -23,9 +24,9 @@ const DEFAULT_CHAPTER = { book: 'John', chapter: 1 } as const satisfies {
 };
 
 const DIRECTIONS = [
-  { value: 'outgoing', label: 'Points to', icon: OutgoingIcon },
-  { value: 'incoming', label: 'Pointed from', icon: IncomingIcon },
-  { value: 'both', label: 'Both', icon: BothDirectionsIcon },
+  { value: 'outgoing', label: t.threads.outgoing, icon: OutgoingIcon },
+  { value: 'incoming', label: t.threads.incoming, icon: IncomingIcon },
+  { value: 'both', label: t.threads.both, icon: BothDirectionsIcon },
 ] as const;
 
 function chapterOf(passage: Passage | null, data: VizData): { book: BookId; chapter: number } {
@@ -79,7 +80,7 @@ export function ThreadsExplorer({
         <>
           <ReferenceSearch versification={data.versification} onSelect={onNavigate} />
           <SegmentedControl
-            label="Thread direction"
+            label={t.threads.direction}
             options={DIRECTIONS}
             value={direction}
             onChange={setDirection}

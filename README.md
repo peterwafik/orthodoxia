@@ -14,8 +14,8 @@ traceable to its source.
 | Phase 0: research, licensing audit, architecture | **Done**: see [`docs/phase-0/`](docs/phase-0/README.md) and [ADRs](docs/adr/README.md) |
 | Bilingual site shell (`/en/`, `/ar/`): home, about, sources | **Implemented** |
 | **Bible reader**: Arabic (Van Dyck) and English (KJV or Septuagint), with the deuterocanon, at `/{en,ar}/bible/` | **Implemented**. See [docs/BIBLE.md](docs/BIBLE.md). Arabic deuterocanon provenance is under review |
-| Cross-reference explorer (Arcs + Threads) at `/en/explore/` | **Implemented**, vendored from upstream. English UI only for now |
-| Explorer in Arabic, shared header, parity verification | Planned (Phase 1) |
+| Cross-reference explorer (Arcs + Threads) at `/en/explore/` and `/ar/explore/` | **Implemented**, vendored from upstream and integrated: site theme and navigation, full Arabic interface with the Van Dyck text and Arabic search |
+| Explorer parity verification, accessibility and end-to-end tests | Planned (Phase 1) |
 | Bible search, side-by-side view, bookmarks | Planned (Phase 2) |
 | Apologetics, doctrine, Fathers, history content | Planned (Phases 3–4). **Requires theological reviewers** |
 | Deuterocanonical books / Coptic canon profile | Planned (Phase 5). **Requires reviewer sign-off and data** |

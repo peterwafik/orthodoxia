@@ -6,3 +6,8 @@
   block-size: 1.15em;
   vertical-align: -0.2em;
 }
+
+/* Directional glyphs (previous/next) face the reading direction. */
+:global(:root[dir='rtl']) .mirrored {
+  transform: scaleX(-1);
+}

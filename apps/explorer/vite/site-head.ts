@@ -10,6 +10,7 @@ import {
   SITE_ORIGIN,
   SOCIAL_IMAGE,
 } from './site.ts';
+import { BUILD_LOCALE } from './locale.ts';
 
 /**
  * Completes every page's head: icons and theme color; for listed pages, the canonical URL, Open
@@ -28,7 +29,7 @@ export function siteHead(): Plugin {
         { tag: 'link', attrs: { rel: 'icon', href: `${base}favicon.ico`, sizes: '32x32' } },
         { tag: 'link', attrs: { rel: 'icon', href: `${base}favicon.svg`, type: 'image/svg+xml' } },
         { tag: 'link', attrs: { rel: 'apple-touch-icon', href: `${base}apple-touch-icon.png` } },
-        { tag: 'meta', attrs: { name: 'theme-color', content: '#0d0d0d' } },
+        { tag: 'meta', attrs: { name: 'theme-color', content: '#0e1a33' } },
       ];
       // The datasets start downloading with the page instead of after the scripts have run. Not
       // when the offline cache serves the page: it has them already, and Chrome can't hand a
@@ -63,7 +64,7 @@ export function siteHead(): Plugin {
         meta('name', 'author', AUTHOR.name),
         meta('property', 'og:type', 'website'),
         meta('property', 'og:site_name', SITE_NAME),
-        meta('property', 'og:locale', 'en_US'),
+        meta('property', 'og:locale', BUILD_LOCALE === 'ar' ? 'ar_EG' : 'en_US'),
         meta('property', 'og:title', title),
         meta('property', 'og:description', description),
         meta('property', 'og:url', url),
@@ -72,7 +73,6 @@ export function siteHead(): Plugin {
         meta('property', 'og:image:height', String(SOCIAL_IMAGE.height)),
         meta('property', 'og:image:alt', SOCIAL_IMAGE.alt),
         meta('name', 'twitter:card', 'summary_large_image'),
-        meta('name', 'twitter:creator', AUTHOR.twitter),
         meta('name', 'twitter:title', title),
         meta('name', 'twitter:description', description),
         meta('name', 'twitter:image', image),
@@ -90,8 +90,8 @@ export function siteHead(): Plugin {
           operatingSystem: 'Any',
           browserRequirements: 'Requires JavaScript and WebGL 2',
           isAccessibleForFree: true,
-          inLanguage: 'en',
-          author: { '@type': 'Person', name: AUTHOR.name, url: AUTHOR.url },
+          inLanguage: BUILD_LOCALE,
+          author: { '@type': 'Organization', name: AUTHOR.name, url: AUTHOR.url },
         };
         tags.push({
           tag: 'script',

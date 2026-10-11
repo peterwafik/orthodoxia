@@ -21,6 +21,7 @@ import type { Passage } from '../../core/bible/passage.ts';
 import type { Connection } from '../shared/connections.ts';
 import type { VisualizationProps } from '../visualization.ts';
 import { ArcsStage } from './ArcsStage.tsx';
+import { t } from '../../i18n/messages.ts';
 
 const INSPIRATION = {
   title: 'Bible Cross-References',
@@ -106,12 +107,14 @@ export function ArcsExplorer({
         hint={{
           pointer: (
             <>
-              <ScrollIcon /> to zoom · <DragIcon /> to pan · <ClickIcon /> to focus
+              <ScrollIcon /> {t.stats.pointerHint[0]} · <DragIcon /> {t.stats.pointerHint[1]} ·{' '}
+              <ClickIcon /> {t.stats.pointerHint[2]}
             </>
           ),
           touch: (
             <>
-              <HoldAndSlideIcon /> hold to preview · <TapIcon /> to focus · <PinchIcon /> to zoom
+              <HoldAndSlideIcon /> {t.stats.touchHint[0]} · <TapIcon /> {t.stats.touchHint[1]} ·{' '}
+              <PinchIcon /> {t.stats.touchHint[2]}
             </>
           ),
         }}

@@ -1,5 +1,7 @@
 import type { ReactNode } from 'react';
+import { t } from '../../../i18n/messages.ts';
 import { SiteFooter } from '../../../shared/ui/SiteFooter.tsx';
+import { SiteNav } from '../../../shared/ui/SiteNav.tsx';
 import { useBottomSheet } from '../use-bottom-sheet.ts';
 import styles from './VizPage.module.css';
 
@@ -37,7 +39,10 @@ export function VizPage({
     <div className={styles.page}>
       <header className={styles.header}>
         <div className={styles.masthead}>{masthead}</div>
-        <div className={styles.controls}>{controls}</div>
+        <div className={styles.controls}>
+          {controls}
+          <SiteNav />
+        </div>
       </header>
       <div
         ref={containerRef}
@@ -57,11 +62,11 @@ export function VizPage({
                 setExpanded(false);
               }}
             />
-            <aside ref={sheetRef} className={styles.panel} aria-label="Details">
+            <aside ref={sheetRef} className={styles.panel} aria-label={t.panel.details}>
               <button
                 type="button"
                 className={styles.sheetHandle}
-                aria-label={expanded ? 'Collapse details' : 'Expand details'}
+                aria-label={expanded ? t.panel.collapse : t.panel.expand}
                 aria-expanded={expanded}
                 onClick={() => {
                   setExpanded(!expanded);

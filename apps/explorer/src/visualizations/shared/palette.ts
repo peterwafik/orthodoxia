@@ -1,7 +1,7 @@
 import { GENRES, type GenreId } from '../../core/bible/genres.ts';
 
 /** Background of every visualization (the dark theme's `--color-background`). */
-export const VIZ_SURFACE = '#0d0d0d';
+export const VIZ_SURFACE = '#0e1a33';
 
 /**
  * Genre colors for the dark surface, in canonical genre order: warm Old Testament, cool New
@@ -18,12 +18,12 @@ export const VIZ_SURFACE = '#0d0d0d';
  */
 export const GENRE_COLORS: Readonly<Record<GenreId, string>> = {
   law: '#eb568f',
-  history: '#cd4805',
+  history: '#d5652d',
   poetry: '#b48f05',
-  'major-prophets': '#cd489d',
+  'major-prophets': '#d157a5',
   'minor-prophets': '#88a00d',
   gospels: '#17a7b4',
-  acts: '#119245',
+  acts: '#249b54',
   'pauline-epistles': '#0593e6',
   'general-epistles': '#03ac8f',
   revelation: '#a06aec',

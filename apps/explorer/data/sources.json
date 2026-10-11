@@ -19,6 +19,16 @@
       "retrievedAt": "2026-09-25",
       "license": "CC BY 4.0",
       "homepage": "https://www.openbible.info/labs/cross-references/"
+    },
+    {
+      "id": "arb-vd",
+      "description": "Smith–Van Dyck Arabic Bible (1865), USFM (one file per book) in a ZIP archive",
+      "url": "https://ebible.org/Scriptures/arb-vd_usfm.zip",
+      "fileName": "arb-vd_usfm.zip",
+      "sha256": "21097759376591c9d1c4b07440e36cd870e44ec5f44e4a84b215b35f17c7b150",
+      "retrievedAt": "2026-10-11",
+      "license": "Public domain",
+      "homepage": "https://ebible.org/Scriptures/details.php?id=arb-vd"
     }
   ]
 }

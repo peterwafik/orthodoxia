@@ -12,6 +12,7 @@ import {
   LuCopy,
   LuHand,
   LuMouse,
+  LuMenu,
   LuMousePointerClick,
   LuPalette,
   LuRainbow,
@@ -36,13 +37,11 @@ export type IconComponent = (props: IconProps) => ReactElement;
  * technology, because that text, or the accessible name of its control, already says what it
  * means.
  */
-function decorative(Glyph: IconType): IconComponent {
+function decorative(Glyph: IconType, mirrored = false): IconComponent {
+  const base = mirrored ? `${styles.icon} ${styles.mirrored}` : styles.icon;
   return function DecorativeIcon({ className }: IconProps) {
     return (
-      <Glyph
-        aria-hidden
-        className={className === undefined ? styles.icon : `${styles.icon} ${className}`}
-      />
+      <Glyph aria-hidden className={className === undefined ? base : `${base} ${className}`} />
     );
   };
 }
@@ -54,9 +53,10 @@ function decorative(Glyph: IconType): IconComponent {
 export const ArcsIcon = decorative(LuRainbow);
 export const ReadingIcon = decorative(LuBookOpenText);
 
-// Navigation
-export const PreviousIcon = decorative(LuChevronLeft);
-export const NextIcon = decorative(LuChevronRight);
+// Navigation. Previous/next point the other way in right-to-left (Arabic) pages.
+export const PreviousIcon = decorative(LuChevronLeft, true);
+export const NextIcon = decorative(LuChevronRight, true);
+export const SiteMenuIcon = decorative(LuMenu);
 export const ExpandIcon = decorative(LuChevronDown);
 export const CloseIcon = decorative(LuX);
 

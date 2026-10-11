@@ -4,6 +4,7 @@ import { parseReference } from '../../../core/bible/reference-parse.ts';
 import type { Versification } from '../../../core/bible/versification.ts';
 import { SearchIcon } from '../../../shared/ui/icons.tsx';
 import styles from './controls.module.css';
+import { t } from '../../../i18n/messages.ts';
 
 interface ReferenceSearchProps {
   readonly versification: Versification;
@@ -39,8 +40,8 @@ export function ReferenceSearch({ versification, onSelect }: ReferenceSearchProp
         name="reference"
         type="search"
         className={styles.input}
-        placeholder="Go to… John 3:16, Ps 23"
-        aria-label="Go to a Bible reference"
+        placeholder={t.search.placeholder}
+        aria-label={t.search.label}
         aria-invalid={error !== null}
         aria-describedby={error === null ? undefined : errorId}
         autoComplete="off"

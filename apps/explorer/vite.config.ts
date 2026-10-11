@@ -3,6 +3,7 @@ import { resolve } from 'node:path';
 import react from '@vitejs/plugin-react';
 import { defineConfig } from 'vite';
 import { firstFrame } from './vite/first-frame.ts';
+import { locale } from './vite/locale.ts';
 import { offline } from './vite/offline.ts';
 import { DEPLOY_BASE, PAGES, ROOT_DIR, SITE_NAME, SITE_URL } from './vite/site.ts';
 import { siteHead } from './vite/site-head.ts';
@@ -14,10 +15,12 @@ export default defineConfig(({ command, isPreview = false }) => ({
   // builds every URL from `import.meta.env.BASE_URL`.
   base: process.env['BASE_PATH'] ?? (command === 'build' || isPreview ? DEPLOY_BASE : '/'),
   define: {
+    // The interface language of this build (src/i18n/locale.ts): `LOCALE=ar npm run build`.
+    __LOCALE__: JSON.stringify(process.env['LOCALE'] === 'ar' ? 'ar' : 'en'),
     'import.meta.env.SITE_NAME': JSON.stringify(SITE_NAME),
     'import.meta.env.SITE_URL': JSON.stringify(SITE_URL),
   },
-  plugins: [react(), siteHead(), firstFrame(), offline()],
+  plugins: [react(), locale(), siteHead(), firstFrame(), offline()],
   build: {
     // Three.js alone is ~550 kB minified (~140 kB gzipped); only the WebGL pages load it.
     chunkSizeWarningLimit: 600,

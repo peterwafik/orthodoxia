@@ -4,6 +4,7 @@ import { RetryIcon } from '../../../shared/ui/icons.tsx';
 import { vizDataLoader, type VizData } from '../viz-data.ts';
 import styles from './controls.module.css';
 import { LoadingArcs } from './LoadingArcs.tsx';
+import { t } from '../../../i18n/messages.ts';
 
 interface VizDataBoundaryProps {
   readonly children: (data: VizData) => ReactNode;
@@ -29,14 +30,12 @@ export function VizDataBoundary({ children }: VizDataBoundaryProps) {
             }}
           >
             <RetryIcon />
-            Retry
+            {t.retry}
           </button>
         </div>
       )}
     >
-      <Suspense
-        fallback={<LoadingArcs label="Loading 31,102 verses and 344,799 cross-references…" />}
-      >
+      <Suspense fallback={<LoadingArcs label={t.loading} />}>
         <Loaded>{children}</Loaded>
       </Suspense>
     </ErrorBoundary>

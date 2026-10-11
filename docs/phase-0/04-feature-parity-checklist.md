@@ -37,8 +37,9 @@ Status column is filled during Phase 1 verification.
 
 | Upstream behavior | Our change | Reason |
 |---|---|---|
-| Google Analytics injected for trekhleb.dev origin (`vite/analytics.ts`) | Remove plugin | Privacy-by-default; no third-party tracking in Phase 1 |
-| English-only UI strings, `<html lang="en">` | Externalize strings; add `ar` locale with `dir="rtl"` for chrome only | Arabic is first-class (§5.8). The axis itself stays canonical left→right in both locales until user-tested (§5.8 last rule) |
-| Branding, footer, base path `/bible-cross-references/` | Our branding; base path `/{lang}/explore/` | Integration into the platform shell |
+| Google Analytics injected for trekhleb.dev origin (`vite/analytics.ts`) | **Done:** removed | Privacy-by-default; no third-party tracking in Phase 1 |
+| English-only UI strings, `<html lang="en">` | **Done (2026-10-11):** all strings in `src/i18n/messages.ts`; Arabic build at `/ar/explore/` with Van Dyck text, Arabic book/genre names and Arabic search | Arabic is first-class (§5.8). The axis stays canonical left→right in both locales until user-tested (§5.8 last rule) |
+| Branding, footer, base path `/bible-cross-references/` | **Done:** site brand, navigation, language switch, footer; site palette and fonts; base path `/{lang}/explore/` | Integration into the platform shell |
+| The site name links to the explorer home and resets every view | **Changed:** the brand links to the site home (`/{lang}/`); view state resets on a new visit instead | The explorer is now a section of the site |
 | "66 books" / "31,102 verses" strings | Data-driven counts + visible **canon coverage notice** | §3.1 "Do not present the original dataset as complete coverage of the Coptic Orthodox canon" |
 | Protestant genre grouping | Kept in Phase 1 (labeled as the dataset's grouping); replaced by canon-profile genres in Phase 5 | Requires reviewed canon profile first |

@@ -1,4 +1,5 @@
 import { BOOKS, getReferenceName, type Book } from './books.ts';
+import { ARABIC_BOOK_NAMES, normalizeArabic } from './names-ar.ts';
 
 export type BookLookupResult =
   | { readonly kind: 'found'; readonly book: Book }
@@ -10,15 +11,19 @@ export type BookLookupResult =
  * into a digit ("II Kings" → "2kings"), spaces and dots removed.
  */
 export function normalizeBookName(value: string): string {
-  return value
+  return normalizeArabic(value)
     .trim()
     .toLowerCase()
     .replace(/^(i{1,3})\s+/, (_match: string, numeral: string) => String(numeral.length))
     .replace(/[\s.]+/g, '');
 }
 
+/** English and Arabic names are both accepted, whatever the interface language. */
 function bookNames(book: Book): string[] {
-  return [book.name, getReferenceName(book)];
+  const arabic = ARABIC_BOOK_NAMES[book.id];
+  const names = [book.name, getReferenceName(book), book.englishName, book.englishReferenceName];
+  if (arabic !== undefined) names.push(arabic.name, arabic.reference ?? arabic.name);
+  return [...new Set(names)];
 }
 
 function buildExactIndex(): ReadonlyMap<string, Book> {

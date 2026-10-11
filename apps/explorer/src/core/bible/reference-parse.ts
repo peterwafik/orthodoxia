@@ -1,6 +1,8 @@
 import { lookupBook } from './book-lookup.ts';
 import { getReferenceName, type BookId } from './books.ts';
 import type { Versification } from './versification.ts';
+import { t } from '../../i18n/messages.ts';
+import { normalizeArabic } from './names-ar.ts';
 
 /** A reference entered by a user: a whole chapter (no verse) or a single verse. */
 export interface ParsedReference {
@@ -18,7 +20,7 @@ export type ReferenceParseResult =
  * the separator is `:`, `.` or whitespace. Matches e.g. `John 3:16`, `1 Cor 13`, `Gen.1.1`.
  */
 const REFERENCE_PATTERN =
-  /^(?<book>(?:[1-3]\s*)?[a-z][a-z\s.]*?)\s*(?<chapter>\d+)(?:\s*[:.\s]\s*(?<verse>\d+))?$/i;
+  /^(?<book>(?:[1-3]\s*)?[a-z\u0621-\u064A][a-z\u0621-\u064A\s.]*?)\s*(?<chapter>\d+)(?:\s*[:.\s]\s*(?<verse>\d+))?$/i;
 
 function failure(error: string): ReferenceParseResult {
   return { ok: false, error };
@@ -27,7 +29,7 @@ function failure(error: string): ReferenceParseResult {
 function formatCandidates(names: readonly string[]): string {
   return names.length <= 1
     ? names.join('')
-    : `${names.slice(0, -1).join(', ')} or ${names.slice(-1).join('')}`;
+    : `${names.slice(0, -1).join(', ')} ${t.search.or} ${names.slice(-1).join('')}`;
 }
 
 /**
@@ -35,19 +37,22 @@ function formatCandidates(names: readonly string[]): string {
  * checks that the chapter and verse exist in the given versification.
  */
 export function parseReference(input: string, versification: Versification): ReferenceParseResult {
-  const match = REFERENCE_PATTERN.exec(input.trim());
+  const match = REFERENCE_PATTERN.exec(normalizeArabic(input).replace(/[،؛]/g, ' ').trim());
   if (!match?.groups) {
-    return failure('Enter a reference like "John 3:16" or "Ps 23".');
+    return failure(t.search.invalid);
   }
   const { book: bookQuery = '', chapter: chapterText = '', verse: verseText } = match.groups;
 
   const lookup = lookupBook(bookQuery);
   switch (lookup.kind) {
     case 'unknown':
-      return failure(`Unknown book "${bookQuery.trim()}".`);
+      return failure(t.search.unknownBook(bookQuery.trim()));
     case 'ambiguous':
       return failure(
-        `"${bookQuery.trim()}" could be ${formatCandidates(lookup.candidates.map((book) => book.name))}.`,
+        t.search.ambiguous(
+          bookQuery.trim(),
+          formatCandidates(lookup.candidates.map((book) => book.name)),
+        ),
       );
     case 'found':
       break;
@@ -57,7 +62,7 @@ export function parseReference(input: string, versification: Versification): Ref
   const chapter = Number(chapterText);
   const verseCount = versification.verseCountOf(book.id, chapter);
   if (verseCount === undefined) {
-    return failure(`${book.name} has ${versification.chapterCountOf(book.id)} chapters.`);
+    return failure(t.search.chapters(book.name, String(versification.chapterCountOf(book.id))));
   }
 
   if (verseText === undefined) {
@@ -65,7 +70,7 @@ export function parseReference(input: string, versification: Versification): Ref
   }
   const verse = Number(verseText);
   if (verse < 1 || verse > verseCount) {
-    return failure(`${getReferenceName(book)} ${chapter} has ${verseCount} verses.`);
+    return failure(t.search.verses(`${getReferenceName(book)} ${chapter}`, String(verseCount)));
   }
   return { ok: true, reference: { book: book.id, chapter, verse } };
 }

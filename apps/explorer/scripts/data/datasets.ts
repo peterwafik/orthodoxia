@@ -6,6 +6,7 @@ import {
 } from '../../src/core/datasets/paths.ts';
 import { importBsbText } from './importers/bsb.ts';
 import { importOpenBibleCrossReferences } from './importers/openbible.ts';
+import { importVanDyckText } from './importers/vandyck.ts';
 import { extractZipTextEntry } from './lib/files.ts';
 import type { RawSource } from './lib/sources.ts';
 
@@ -39,6 +40,13 @@ const TRANSLATION_BUILDERS: Readonly<Record<TranslationId, DatasetBuilder>> = {
         ...provenanceOf(source),
         snapshotDate: null,
       });
+    },
+  },
+  svd: {
+    outputPath: translationDatasetPath('svd'),
+    build: async (readSource) => {
+      const { source, content } = await readSource('arb-vd');
+      return importVanDyckText(content, { ...provenanceOf(source), snapshotDate: null });
     },
   },
 };

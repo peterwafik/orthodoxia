@@ -12,7 +12,7 @@ The machine-readable registry is `content/sources/*.yaml`, validated in CI and r
 | Berean Standard Bible | English verse text in the explorer | Public domain |
 | KJV with Apocrypha (eBible) | English Bible reader, default edition | Public domain |
 | Brenton Septuagint (eBible) | English Septuagint edition; Psalm 151 in the KJV edition | Public domain |
-| Arabic Van Dyck (eBible `arb-vd`) | Arabic Bible reader (66 books) | Public domain |
+| Arabic Van Dyck (eBible `arb-vd`) | Arabic Bible reader (66 books); Arabic explorer text | Public domain |
 | Arabic Wikisource deuterocanon | Arabic deuterocanonical books | CC BY-SA 4.0. **Provenance under review** (see BIBLE.md) |
 | trekhleb/bible-cross-references | Explorer code | MIT |
 

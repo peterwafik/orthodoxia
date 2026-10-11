@@ -30,7 +30,6 @@ const strings = t(locale);
       <div>
         <h2>{strings.home.exploreHeading}</h2>
         <p class="prose">{strings.home.exploreBody}</p>
-        {locale !== 'en' && <p class="muted">{strings.home.explorerLanguageNote}</p>}
       </div>
       <dl class="views">
         <dt><a href={localePath(locale, 'bible')}>{strings.home.readLink}</a></dt>

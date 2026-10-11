@@ -2,6 +2,7 @@ import { BOOKS } from '../../core/bible/books.ts';
 import { GENRES, getBookGenre, getGenreBooks } from '../../core/bible/genres.ts';
 import type { VerseIndexRange, Versification } from '../../core/bible/versification.ts';
 import { elementAt } from '../../core/lib/array.ts';
+import { LOCALE } from '../../i18n/locale.ts';
 import { GENRE_HEX } from '../shared/palette.ts';
 import { verseToAlong, type ArcLayout } from './arc-layout.ts';
 import type { AxisView } from './axis-view.ts';
@@ -16,9 +17,9 @@ export interface AxisPaint {
   readonly passage: VerseIndexRange | null;
 }
 
-const TEXT = '#ecebe6';
-const MUTED = '#9a9890';
-const AXIS = '#3a3935';
+const TEXT = '#ede7d8';
+const MUTED = '#aeb6c6';
+const AXIS = '#2a3a60';
 const BAR_OFFSET = 3;
 const BAR_THICKNESS = 8;
 const LABEL_FONT = '11px system-ui, -apple-system, "Segoe UI", sans-serif';
@@ -138,7 +139,7 @@ function paintBookLabels(
     const to = Math.min(along(range.end + 1), layout.axisEnd);
     const room = to - from;
     if (room <= 0) continue;
-    const candidates = [book.name, book.id];
+    const candidates = LOCALE === 'ar' ? [book.name] : [book.name, book.id];
     const label = horizontal
       ? candidates.find((text) => context.measureText(text).width + 8 <= room)
       : room >= 12

@@ -1,3 +1,6 @@
+import { LOCALE } from '../../i18n/locale.ts';
+import { ARABIC_BOOK_NAMES } from './names-ar.ts';
+
 export type Testament = 'OT' | 'NT';
 
 interface BookDefinition {
@@ -102,14 +105,32 @@ export type BookId = (typeof BOOK_DEFINITIONS)[number]['id'];
 
 export interface Book extends BookDefinition {
   readonly id: BookId;
+  /** The English name, whatever the interface language (`name` is localized). */
+  readonly englishName: string;
+  /** The English citation name, e.g. `Psalm`, whatever the interface language. */
+  readonly englishReferenceName: string;
   /** Zero-based position of the book in canonical order. */
   readonly ordinal: number;
 }
 
-export const BOOKS: readonly Book[] = BOOK_DEFINITIONS.map((definition, ordinal) => ({
-  ...definition,
-  ordinal,
-}));
+export const BOOKS: readonly Book[] = BOOK_DEFINITIONS.map((definition, ordinal) => {
+  const arabic = ARABIC_BOOK_NAMES[definition.id];
+  const english = {
+    englishName: definition.name,
+    englishReferenceName:
+      'referenceName' in definition ? definition.referenceName : definition.name,
+  };
+  if (LOCALE === 'ar' && arabic !== undefined) {
+    return {
+      ...definition,
+      ...english,
+      name: arabic.name,
+      referenceName: arabic.reference ?? arabic.name,
+      ordinal,
+    };
+  }
+  return { ...definition, ...english, ordinal };
+});
 
 const BOOKS_BY_ID: ReadonlyMap<string, Book> = new Map(BOOKS.map((book) => [book.id, book]));
 

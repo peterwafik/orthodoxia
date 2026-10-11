@@ -9,6 +9,7 @@ import type { VizData } from '../shared/viz-data.ts';
 import { buildArcInstances } from './arc-instances.ts';
 import { ArcsController, type ArcHover } from './arcs-controller.ts';
 import styles from './ArcsStage.module.css';
+import { t } from '../../i18n/messages.ts';
 
 interface ArcsStageProps {
   readonly data: VizData;
@@ -117,11 +118,12 @@ export function ArcsStage({
 
   return (
     <div
+      dir="ltr"
       ref={containerRef}
       className={styles.stage}
       tabIndex={0}
       role="application"
-      aria-label="Arc diagram of cross-references. Drag or use the arrow keys to pan, scroll or +/- to zoom, click to focus a passage, Escape to clear. On a touch screen, touch and hold to preview a passage."
+      aria-label={t.arcs.stage}
     >
       <canvas ref={glCanvasRef} className={styles.canvas} />
       <canvas ref={overlayCanvasRef} className={styles.canvas} aria-hidden="true" />

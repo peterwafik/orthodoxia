@@ -2,16 +2,53 @@
 
 `apps/explorer/` is a `git subtree` of
 [trekhleb/bible-cross-references](https://github.com/trekhleb/bible-cross-references) (MIT),
-imported at upstream commit `23e7f90` (2026-09-28). Keep this list current: every change here is
-a merge conflict waiting to happen when upstream is pulled, so keep patches small.
+imported at upstream commit `23e7f90` (2026-09-28). Every change here is a potential merge conflict
+when upstream is pulled, so each one is listed with the files it touches. New files are prefixed
+with an Orthodoxia comment.
 
-| #   | Change                                    | Files                                           | Reason                                                                   |
-| --- | ----------------------------------------- | ----------------------------------------------- | ------------------------------------------------------------------------ |
-| 1   | Removed the Google Analytics build plugin | `vite/analytics.ts` (deleted), `vite.config.ts` | No third-party tracking (privacy-by-default, master prompt §13)          |
-| 2   | Removed `package-lock.json`               | `package-lock.json` (deleted)                   | The monorepo's root lockfile manages dependencies through npm workspaces |
+## 1. Privacy and packaging
 
-Not patched, configured instead: the deploy path and origin come from the existing `BASE_PATH` and
-`SITE_ORIGIN` environment variables (set by `scripts/build-site.ts`).
+| Change                                    | Files                                           | Reason                                                |
+| ----------------------------------------- | ----------------------------------------------- | ----------------------------------------------------- |
+| Removed the Google Analytics build plugin | `vite/analytics.ts` (deleted), `vite.config.ts` | No third-party tracking (privacy by default)          |
+| Removed `package-lock.json`               | `package-lock.json` (deleted)                   | The monorepo's root lockfile manages the dependencies |
+
+## 2. Site theme (navy, ivory, gold; site fonts)
+
+| Change                                                                                                 | Files                                                                                                  |
+| ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ |
+| Design tokens remapped to the site palette; fonts Inter / Source Serif 4 / Noto Sans & Naskh Arabic    | `src/shared/styles/global.css`, `src/shared/lib/mount.tsx` (font imports), `package.json` (Fontsource) |
+| Visualization surface `#0d0d0d` → navy `#0e1a33`; axis colors                                          | `src/visualizations/shared/palette.ts`, `src/visualizations/arcs/axis-painter.ts`                      |
+| Genre colors History, Major Prophets, Acts lightened 8–16% to keep ≥ 4.5:1 contrast on navy (same hue) | `src/visualizations/shared/palette.ts`                                                                 |
+| Translucent overlays and first frame, manifest, theme-color: navy                                      | `*.module.css` in arcs/threads/legend, `vite/first-frame.ts`, `vite/offline.ts`, `vite/site-head.ts`   |
+
+## 3. Site shell
+
+| Change                                                                                             | Files                                                                                    |
+| -------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
+| The site's brand (Coptic cross + name, links to the site home) and the page name replace the title | `src/app/Explorer.tsx`, `src/app/Explorer.module.css`, `src/shared/ui/SiteNav.tsx` (new) |
+| Header gets the site navigation: language switch (keeps view and passage) and a site menu          | `src/visualizations/shared/components/VizPage.tsx`, `src/shared/ui/SiteNav.*` (new)      |
+| `MenuButton` gains `iconOnly`; new `SiteMenuIcon`; previous/next chevrons mirror in RTL            | `MenuButton.tsx`, `src/shared/ui/icons.tsx`, `icons.module.css`                          |
+| Footer credits the site and the upstream project; credits name the text actually shown             | `src/shared/ui/SiteFooter.tsx`, `src/visualizations/shared/components/Credits.tsx`       |
+| Site name, author and `og:locale` / structured data are the site's                                 | `vite/site.ts`, `vite/site-head.ts`                                                      |
+
+## 4. Arabic
+
+The explorer is built once per language: `LOCALE=ar` gives `/ar/explore/` (see
+`scripts/build-site.ts` at the repository root).
+
+| Change                                                                                                                  | Files                                                                                                                                 |
+| ----------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
+| Build-time locale (`__LOCALE__` define, `LOCALE` env fallback in Node)                                                  | `src/i18n/locale.ts` (new), `vite.config.ts`                                                                                          |
+| Every UI string in an English/Arabic catalogue                                                                          | `src/i18n/messages.ts` (new); string edits in ~20 components under `src/app/` and `src/visualizations/`                               |
+| HTML `lang`/`dir`, titles, descriptions, noscript per language                                                          | `vite/locale.ts` (new), `vite.config.ts`                                                                                              |
+| Arabic book and genre names; `Book.englishName`/`englishReferenceName` keep English for importers                       | `src/core/bible/names-ar.ts` (new), `books.ts`, `genres.ts`                                                                           |
+| Search accepts Arabic and English names (diacritics, hamza, article, "سفر/إنجيل" ignored; Arabic-Indic digits)          | `src/core/bible/book-lookup.ts`, `reference-parse.ts`, tests in `names-ar.test.ts` (new)                                              |
+| Smith–Van Dyck Arabic text as translation `svd` (default in Arabic), pinned in `data/sources.json`                      | `data/raw/arb-vd_usfm.zip`, `scripts/data/importers/vandyck.ts` (+test, new), `datasets.ts`, `ids.ts`, `src/translations/registry.ts` |
+| BSB importer matches English names regardless of locale                                                                 | `scripts/data/importers/bsb.ts`                                                                                                       |
+| The visualizations keep left-to-right geometry (Genesis → Revelation) in Arabic; Threads' verse text and header are RTL | `ArcsStage.tsx`, `ThreadsStage.tsx`; canvas labels without Latin fallbacks in `axis-painter.ts`, `threads-drawing.ts`                 |
+
+Not patched, configured instead: deploy path and origin come from `BASE_PATH` and `SITE_ORIGIN`.
 
 ## Updating from upstream
 
@@ -19,7 +56,9 @@ Not patched, configured instead: the deploy path and origin come from the existi
 git subtree pull --prefix=apps/explorer https://github.com/trekhleb/bible-cross-references.git main --squash
 npm install
 npm run check -w apps/explorer
+LOCALE=ar npm run build -w apps/explorer   # the Arabic build must still work
 ```
 
-Then re-apply or verify each patch above, re-run the parity checklist
-(`docs/phase-0/04-feature-parity-checklist.md`), and record the new upstream commit here.
+Resolve conflicts with the tables above. New upstream UI strings must be added to
+`src/i18n/messages.ts` (search for string literals in changed components). Re-run the parity
+checklist (`docs/phase-0/04-feature-parity-checklist.md`) and record the new upstream commit here.
