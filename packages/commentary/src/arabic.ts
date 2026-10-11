@@ -39,6 +39,8 @@ export function polishArabicText(input: string): string {
     .replace(/\s+\.(?![.\d])/g, '.')
     .replace(/([،؛:!؟,])(?=[ء-ي("«])/g, '$1 ')
     .replace(/\.(?=[ء-ي])/g, '. ')
+    // Kings with its letters reversed by the PDF ligature: "(2لم18: 4)" → "(2مل18: 4)".
+    .replace(/([12])لم(?=\s?\d)/g, '$1مل')
     // The number of a numbered book belongs to it: "راجع1 تى3: 16" → "راجع 1تى3: 16".
     .replace(/([ء-ي])([1-3]) ([ء-ي]{1,3}\d)/g, '$1 $2$3')
     // A bracket before a scripture reference opens it: ")أف5: 29" / ") "مز34: 8" → "(أف5: 29".

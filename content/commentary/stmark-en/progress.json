@@ -1,4 +1,8 @@
 {
+ "1CH": {
+  "entries": 125,
+  "translated": 125
+ },
  "1CO": {
   "entries": 405,
   "translated": 405
@@ -7,9 +11,17 @@
   "entries": 98,
   "translated": 98
  },
+ "1KI": {
+  "entries": 626,
+  "translated": 626
+ },
  "1PE": {
   "entries": 96,
   "translated": 96
+ },
+ "1SA": {
+  "entries": 613,
+  "translated": 613
  },
  "1TH": {
   "entries": 87,
@@ -19,6 +31,10 @@
   "entries": 102,
   "translated": 102
  },
+ "2CH": {
+  "entries": 313,
+  "translated": 313
+ },
  "2CO": {
   "entries": 230,
   "translated": 230
@@ -27,9 +43,17 @@
   "entries": 12,
   "translated": 12
  },
+ "2KI": {
+  "entries": 613,
+  "translated": 613
+ },
  "2PE": {
   "entries": 58,
   "translated": 58
+ },
+ "2SA": {
+  "entries": 606,
+  "translated": 606
  },
  "2TH": {
   "entries": 40,
@@ -51,13 +75,21 @@
   "entries": 90,
   "translated": 90
  },
+ "DEU": {
+  "entries": 757,
+  "translated": 757
+ },
  "EPH": {
   "entries": 149,
   "translated": 149
  },
  "EXO": {
   "entries": 738,
-  "translated": 407
+  "translated": 738
+ },
+ "EZR": {
+  "entries": 116,
+  "translated": 116
  },
  "GAL": {
   "entries": 112,
@@ -65,7 +97,7 @@
  },
  "GEN": {
   "entries": 805,
-  "translated": 710
+  "translated": 805
  },
  "HEB": {
   "entries": 268,
@@ -75,17 +107,37 @@
   "entries": 86,
   "translated": 86
  },
+ "JDG": {
+  "entries": 566,
+  "translated": 566
+ },
+ "JDT": {
+  "entries": 251,
+  "translated": 251
+ },
+ "JER": {
+  "entries": 1202,
+  "translated": 1202
+ },
  "JHN": {
   "entries": 506,
   "translated": 506
+ },
+ "JOS": {
+  "entries": 325,
+  "translated": 325
  },
  "JUD": {
   "entries": 24,
   "translated": 24
  },
+ "LAM": {
+  "entries": 152,
+  "translated": 152
+ },
  "LEV": {
   "entries": 560,
-  "translated": 138
+  "translated": 560
  },
  "LUK": {
   "entries": 799,
@@ -99,9 +151,13 @@
   "entries": 372,
   "translated": 372
  },
+ "NEH": {
+  "entries": 207,
+  "translated": 207
+ },
  "NUM": {
   "entries": 664,
-  "translated": 22
+  "translated": 664
  },
  "PHM": {
   "entries": 25,
@@ -113,7 +169,7 @@
  },
  "PSA": {
   "entries": 1829,
-  "translated": 1791
+  "translated": 1829
  },
  "REV": {
   "entries": 355,
@@ -123,8 +179,16 @@
   "entries": 374,
   "translated": 374
  },
+ "RUT": {
+  "entries": 73,
+  "translated": 73
+ },
  "TIT": {
   "entries": 44,
   "translated": 44
+ },
+ "TOB": {
+  "entries": 250,
+  "translated": 250
  }
 }

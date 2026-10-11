@@ -40,7 +40,8 @@ the translation must say what the Arabic says. Nothing is added, nothing is left
    Col, 1 Thess, 2 Thess, 1 Tim, 2 Tim, Titus, Phlm, Heb, Jas, 1 Pet, 2 Pet, 1 Jn, 2 Jn, 3 Jn, Jude,
    Rev. (مز Ps, أم Prov, جا Eccl, نش Song, إش Isa, حز Ezek, دا Dan, أع Acts, رؤ Rev, عب Heb,
    يع Jas, تك Gen, خر Ex, لا Lev, عد Num, تث Deut, يش Josh, قض Judg, را Ruth, صم Sam, مل Kgs,
-   أخ Chr, نح Neh, أس Esth, أى Job, إر Jer, مرا Lam.)
+   أخ Chr, نح Neh, أس Esth, أى Job, إر Jer, مرا Lam. The source sometimes has the letters of مل
+   reversed: "1لم" / "2لم" before a chapter number is 1 / 2 Kgs.)
 6. **Names** use the forms of the King James Version (Isaac, Elisha, Nebuchadnezzar, Holofernes);
    Coptic saints and fathers use their usual English names (St. Athanasius the Apostolic, St. Cyril
    the Great, St. John Chrysostom, St. Anthony, St. Pishoy, H.H. Pope Shenouda III).
