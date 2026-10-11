@@ -86,6 +86,35 @@ The site build reads only the committed JSON. It never downloads anything.
 - **Results** per book (chapters, entries, verse coverage, alignment, unattested words, anything
   dropped) are in `content/commentary/stmark/report.json`. 17,430 verse entries are imported.
 
+## English
+
+English readers get the same interpretation as Arabic readers: the St. Mark commentary, translated.
+
+- `npm run translate:prepare` splits the Arabic into chunks of about 2,500–5,000 words:
+  `content/translations/stmark-en/<BOOK>/<nnn>.ar.json` (git-ignored, regenerated), units with
+  stable ids (`<chapter>.<entry>.<paragraph>`, `.s` for a section title) and a hash of their Arabic.
+- Each chunk is translated into `<nnn>.en.json` (committed) following
+  [translation/INSTRUCTIONS.md](translation/INSTRUCTIONS.md): faithful and complete, a glossary of
+  Coptic and theological terms, King James wording for Bible quotations, English references.
+  The translation was made by AI models (Claude), chunk by chunk.
+- `npm run translate:check` verifies every chunk: all units present with the current hash, no
+  Arabic left, plausible length.
+- `npm run translate:merge` builds `content/commentary/stmark-en/<BOOK>.json`. An entry is included
+  only when all its paragraphs are translated from the current Arabic, so a reader never sees half
+  an entry or a translation of older text. `progress.json` counts translated entries per book.
+- The site shows the English entries on English editions (KJV, LXX), with the note "Machine
+  translation from the Arabic, not yet reviewed" and a link to the Arabic original.
+
+### Chapters without St. Mark text
+
+No other Coptic Orthodox commentary is licensed for republication: St-Takla.org publishes Fr.
+Tadros Malaty's books by his permission to that site, and the same holds for other modern
+commentaries; public-domain English translations of the Fathers cover almost none of the missing
+books. These chapters therefore link to Fr. Tadros Malaty's commentary, in both languages, until
+permission is granted — the request is drafted in
+[translation/PERMISSION-REQUEST-MALATY.md](translation/PERMISSION-REQUEST-MALATY.md). With it, his
+commentary would be imported verse by verse and translated through the same pipeline.
+
 ## Known limitations
 - **Job and Esther** need OCR or the source documents; they are linked as PDFs for now.
 - **Low verse coverage** in some books reflects the source, not missing data. 1 Chronicles is 23%
@@ -96,6 +125,8 @@ The site build reads only the committed JSON. It never downloads anything.
   grammar are kept as written. A few hundred doubtful words remain (out of about 4 million).
 - **Source documents would fix the rest.** The original Word files from the St. Mark team would
   remove every extraction limitation, including the two image-only PDFs.
-- **English is not done yet.** English readers have no interpretation in their language yet: a
-  reviewed translation and public-domain Church Fathers (St. Cyril of Alexandria, St. John
-  Chrysostom) are the next step.
+- **The English translation is machine-made and not yet reviewed.** It is marked so on every entry,
+  with a link to the Arabic original. A reviewer can correct any unit in its chunk file; the
+  review workflow is in docs/THEOLOGICAL_REVIEW.md.
+- **Chapters without St. Mark text** (447 of 1,336) link to Fr. Tadros Malaty's commentary in both
+  languages until he grants permission to show it (docs/translation/PERMISSION-REQUEST-MALATY.md).

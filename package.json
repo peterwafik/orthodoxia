@@ -22,7 +22,10 @@
     "check": "npm run bible && npm run check -w apps/explorer && npm run check -w packages/content-schema && npm run check -w packages/bible && npm run check -w packages/commentary && npm run check -w apps/web && npm run validate:content",
     "build": "node scripts/build-site.ts",
     "preview": "npx wrangler dev --local",
-    "commentary:import": "node scripts/commentary/stmark-fetch.ts && node scripts/commentary/stmark-build.ts && node scripts/commentary/malaty-links.ts"
+    "commentary:import": "node scripts/commentary/stmark-fetch.ts && node scripts/commentary/stmark-build.ts && node scripts/commentary/malaty-links.ts",
+    "translate:prepare": "node scripts/commentary/translate-prepare.ts",
+    "translate:check": "node scripts/commentary/translate-check.ts all",
+    "translate:merge": "node scripts/commentary/translate-merge.ts"
   },
   "devDependencies": {
     "@types/node": "^24.13.6",

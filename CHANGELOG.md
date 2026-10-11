@@ -28,6 +28,11 @@
   Fr. Tadros Malaty's commentary linked for the books it does not cover; select a verse to read its
   interpretation in a bubble beneath it. `@orthodoxia/commentary` package and
   `npm run commentary:import`.
+- English interpretation: the St. Mark commentary translated from Arabic (AI translation, marked
+  as not yet reviewed, linked to the Arabic original), chunked with stable ids and hashes, checked
+  and merged by `npm run translate:prepare|check|merge`; glossary and rules in
+  docs/translation/INSTRUCTIONS.md. Chapters without St. Mark text link to Fr. Tadros Malaty in
+  both languages; a permission request is drafted (docs/translation/PERMISSION-REQUEST-MALATY.md).
 - Minimal reading page: the chapter alone, notes behind an info button, a one-line footer.
 - Commentary text quality: the Gospels are read with Poppler; reversed ligatures, displaced
   punctuation, quotation marks and brackets, page numbers and headings in the text are corrected in

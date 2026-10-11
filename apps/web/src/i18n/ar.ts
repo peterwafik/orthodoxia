@@ -162,6 +162,8 @@ export const ar: Dictionary = {
     readArabicVerse: 'اقرأ تفسيرها بالعربية',
     crossReferences: 'الشواهد',
     close: 'إغلاق',
+    machineTranslation: 'ترجمة آلية من العربية، لم تُراجَع بعد.',
+    arabicOriginal: 'اقرأ الأصل العربي',
     aboutText: 'عن هذا النص',
     verses: (start: number, end: number) => (start === end ? `ع ${start}` : `ع ${start}-${end}`),
     original: (page: number) => `اقرأ في الأصل (PDF، صفحة ${page})`,

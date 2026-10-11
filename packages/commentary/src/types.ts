@@ -38,7 +38,12 @@ export interface CommentaryBook {
   readonly source: CommentarySourceId;
   /** USFM book code (packages/bible). */
   readonly book: string;
-  readonly language: 'ar';
+  readonly language: 'ar' | 'en';
+  /**
+   * For a translated book: from which language, how, and whether a person has reviewed it. Only
+   * entries translated completely are included (scripts/commentary/translate-merge.ts).
+   */
+  readonly translation?: { readonly from: 'ar'; readonly method: 'machine' | 'human'; readonly reviewed: boolean };
   /** The source document(s), in order, with where each chapter range came from. */
   readonly documents: readonly { readonly url: string; readonly sha256: string; readonly chapters: readonly [number, number] }[];
   /**
