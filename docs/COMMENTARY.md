@@ -5,13 +5,18 @@ the Arabic commentary for now; an English translation and public-domain Church F
 
 ## What a reader sees
 
-On a chapter of the Arabic edition (`/ar/bible/svd/…`), the interpretation sits beside the text on
-wide screens and below it on phones. Selecting a verse (its number or the verse itself) shows only
-the entries that cover it, with the address updated to `#v16` so the link can be shared. "Show the
-whole chapter" lists everything again. Without JavaScript, the whole chapter's interpretation is
-listed.
+The reading page shows only the chapter: title, edition switch, text, and previous/next. Notes about
+the text (its source and license, psalm numbering, deuterocanon notices, automatic-extraction
+notice) are folded behind an ⓘ button. The footer is a single line linking to Sources & licenses,
+where the attributions the licenses require are given.
 
-| Situation | What is shown |
+The interpretation is shown **only when the reader selects a verse** (its number or the verse
+itself). A bubble opens just below the verse, with an arrow pointing at the tap. It holds the
+entries that cover that verse, a link to the page of the original, and the verse's cross-references.
+It closes with ✕, Escape, a tap elsewhere, or a second tap on the verse. The address becomes
+, so a shared link opens the same bubble. Without JavaScript, the chapter text is shown alone.
+
+| Situation | What the bubble shows |
 |---|---|
 | St. Mark text available (50 books) | The St. Mark Church commentary, entry by entry, with a link to the PDF page it came from |
 | Matthew, Mark, Luke, John | The same, plus a notice that the text was extracted automatically from PDFs whose fonts scramble some letters |

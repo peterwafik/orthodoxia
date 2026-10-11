@@ -11,12 +11,12 @@ import {
 } from '@orthodoxia/bible';
 import Base from '../../../../../../layouts/Base.astro';
 import ChapterText from '../../../../../../components/bible/ChapterText.astro';
-import CommentaryPanel from '../../../../../../components/bible/CommentaryPanel.astro';
+import VerseBubble from '../../../../../../components/bible/VerseBubble.astro';
 import { chapterCommentary } from '../../../../../../lib/commentary.ts';
 import EditionSwitch from '../../../../../../components/bible/EditionSwitch.astro';
 import { biblePath, bookName, editionBooks, equivalentPath, loadBook } from '../../../../../../lib/bible.ts';
 import { LICENSE_LABELS, getSource } from '../../../../../../lib/sources.ts';
-import { explorerPath, localePath, otherLocale, t, type Locale } from '../../../../../../i18n/index.ts';
+import { explorerPath, otherLocale, t, type Locale } from '../../../../../../i18n/index.ts';
 
 export function getStaticPaths() {
   return EDITIONS.flatMap((edition) =>
@@ -83,9 +83,21 @@ const explorerReady =
   info.section !== 'deuterocanon' && (edition.explorerCompatible || (info.section === 'nt' && book.source === 'ebible-eng-kjv'));
 const explorerHref = `${explorerPath(locale, 'threads')}?ref=${info.osis}.${number}`;
 
+const verseExplorerHref = explorerReady ? `${explorerHref}.{verse}` : undefined;
+
 const other = otherLocale(locale);
 const licenseLabel =
   source.license.id === 'public-domain' ? strings.licenses['public-domain'] : source.license.id === 'CC-BY-SA-4.0' ? strings.licenses['cc-by-sa'] : LICENSE_LABELS[source.license.id];
+// Everything a reader may want to know about the text, folded behind the ⓘ button.
+const notes = [
+  psalmNote,
+  book.note?.[locale] ?? null,
+  book.source === 'wikisource-ar-dc' ? strings.arabicDeuterocanonNotice : null,
+  info.section === 'deuterocanon' && book.source !== 'wikisource-ar-dc' ? strings.deuterocanonNote : null,
+  editionId === 'svd' && commentary?.stMark?.repaired ? t(locale).commentary.repairedNotice : null,
+  editionId === 'svd' && commentary?.stMark && info.section === 'deuterocanon' ? t(locale).commentary.numberingNotice : null,
+  `${strings.source}: ${source.title} (${licenseLabel})`,
+].filter((note): note is string => note !== null);
 ---
 
 <Base
@@ -93,6 +105,7 @@ const licenseLabel =
   title={`${heading} (${edition.shortName})`}
   description={chapter.verses[0]?.content.map((inline) => inline.text).join('').slice(0, 155) ?? name}
   alternates={{ [other]: equivalentPath(editionId, DEFAULT_EDITION[other], info.code, number) }}
+  minimalFooter
 >
   <article class="wrap section reader">
     <p class="crumbs">
@@ -104,26 +117,27 @@ const licenseLabel =
         </>
       )}
     </p>
-    <h1>{heading}</h1>
+    <div class="title-row">
+      <h1>{heading}</h1>
+      {notes.length > 0 && (
+        <details class="about">
+          <summary aria-label={t(locale).commentary.aboutText} title={t(locale).commentary.aboutText}>
+            <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
+              <circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.6"></circle>
+              <path d="M12 11v6M12 7.5v.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"></path>
+            </svg>
+          </summary>
+          <div class="about-body">
+            {notes.map((note) => <p>{note}</p>)}
+          </div>
+        </details>
+      )}
+    </div>
     <EditionSwitch locale={locale} edition={editionId} book={info.code} chapter={number} />
 
-    <div class="notices">
-      {psalmNote !== null && <p class="muted">{psalmNote}</p>}
-      {book.note !== null && <p class="muted">{book.note[locale]}</p>}
-      {book.source === 'wikisource-ar-dc' && <p class="notice">{strings.arabicDeuterocanonNotice}</p>}
-      {info.section === 'deuterocanon' && book.source !== 'wikisource-ar-dc' && <p class="notice">{strings.deuterocanonNote}</p>}
-    </div>
-
-    <div class="reading" data-has-commentary={commentary?.stMark ? '' : undefined}>
+    <div class="text-host" data-has-commentary="">
       <ChapterText chapter={chapter} lang={edition.locale} notesLabel={strings.notes} />
-      {commentary !== null && (
-        <CommentaryPanel
-          locale={locale}
-          commentary={commentary}
-          arabicHref={arabicHref}
-          differentNumbering={info.section === 'deuterocanon'}
-        />
-      )}
+      <VerseBubble locale={locale} commentary={commentary} arabicHref={arabicHref} explorerHref={verseExplorerHref} />
     </div>
 
     <nav class="pager" aria-label={strings.chapters}>
@@ -155,44 +169,18 @@ const licenseLabel =
         </ol>
       </details>
     )}
-
-    <footer class="meta">
-      {explorerReady && <p><a href={explorerHref}>{strings.crossReferences}</a></p>}
-      <p>
-        {strings.source}: <span lang="en" dir="ltr">{source.title}</span> ({licenseLabel}).
-        {source.attribution !== null && <span lang="en" dir="ltr"> {source.attribution}</span>}
-        {' '}<a href={localePath(locale, 'sources')}>{t(locale).nav.sources}</a>
-      </p>
-    </footer>
   </article>
 </Base>
 
 <style>
-  .reading {
-    display: grid;
-    gap: 2.5rem;
-  }
-
-  /* Wide screens: the text and its interpretation side by side; the panel scrolls on its own. */
-  @media (min-width: 64rem) {
-    .reading {
-      grid-template-columns: minmax(0, 38rem) minmax(0, 1fr);
-      align-items: start;
-      gap: 3.5rem;
-    }
-
-    .reading :global(.commentary) {
-      position: sticky;
-      inset-block-start: 1rem;
-      max-block-size: calc(100vh - 2rem);
-      overflow-y: auto;
-      padding-inline-end: 0.5rem;
-    }
+  /* One focused column: the chapter and nothing else. */
+  .reader {
+    max-inline-size: 44rem;
   }
 
   .reader h1 {
     font-size: var(--step-3);
-    margin-block-end: 1rem;
+    margin: 0;
   }
 
   .crumbs {
@@ -200,14 +188,62 @@ const licenseLabel =
     margin-block-end: 0.5rem;
   }
 
-  .notices {
-    margin-block: 1.5rem 2rem;
-    max-inline-size: var(--measure);
-    font-size: var(--step--1);
+  .title-row {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-block-end: 1rem;
   }
 
-  .notices p {
-    margin-block-end: 0.75rem;
+  .about summary {
+    display: inline-grid;
+    place-items: center;
+    inline-size: 36px;
+    block-size: 36px;
+    border-radius: 50%;
+    color: var(--ink-muted);
+    cursor: pointer;
+    list-style: none;
+  }
+
+  .about summary::-webkit-details-marker {
+    display: none;
+  }
+
+  .about summary:hover,
+  .about[open] summary {
+    background: var(--line);
+    color: var(--ink);
+  }
+
+  .about-body {
+    position: absolute;
+    inset-inline: 0;
+    inset-block-start: calc(100% + 0.25rem);
+    z-index: 6;
+    max-inline-size: 34rem;
+    padding: 0.9rem 1rem;
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    background: var(--surface-raised);
+    box-shadow: 0 12px 32px rgb(14 26 51 / 0.15);
+    font-size: var(--step--1);
+    color: var(--ink-muted);
+  }
+
+  .about-body p {
+    margin-block: 0 0.6rem;
+  }
+
+  .about-body p:last-child {
+    margin-block-end: 0;
+  }
+
+  /* Positioning context for the verse bubble. */
+  .text-host {
+    position: relative;
+    margin-block-start: 2rem;
   }
 
   .pager {
@@ -278,10 +314,4 @@ const licenseLabel =
     color: var(--surface);
   }
 
-  .meta {
-    margin-block-start: 2.5rem;
-    max-inline-size: var(--measure);
-    font-size: var(--step--1);
-    color: var(--ink-muted);
-  }
 </style>

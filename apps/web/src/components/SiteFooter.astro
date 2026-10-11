@@ -4,13 +4,27 @@ import { localePath, t, type Locale } from '../i18n/index.ts';
 
 interface Props {
   locale: Locale;
+  /**
+   * Reading pages: one quiet line. The attributions the licenses require (e.g. CC BY-SA for the
+   * Arabic deuterocanon) stay one link away, on the Sources page.
+   */
+  minimal?: boolean;
 }
 
-const { locale } = Astro.props;
+const { locale, minimal = false } = Astro.props;
 const strings = t(locale);
 const REPOSITORY_URL = 'https://github.com/peterwafik/orthodoxia';
 ---
 
+{minimal ? (
+  <footer class="site-footer minimal">
+    <div class="wrap">
+      <a href={localePath(locale, 'sources')}>{strings.footer.sourcesAndLicenses}</a>
+      <span aria-hidden="true">·</span>
+      <a href={localePath(locale, 'about')}>{strings.nav.about}</a>
+    </div>
+  </footer>
+) : (
 <footer class="site-footer">
   <div class="wrap">
     <p class="notice">{strings.home.disclaimer}</p>
@@ -39,8 +53,24 @@ const REPOSITORY_URL = 'https://github.com/peterwafik/orthodoxia';
     </p>
   </div>
 </footer>
+)}
 
 <style>
+  .minimal {
+    margin-block-start: 3rem;
+    padding-block: 1.25rem 1.75rem;
+  }
+
+  .minimal .wrap {
+    display: flex;
+    gap: 0.6rem;
+    justify-content: center;
+  }
+
+  .minimal a {
+    color: var(--ink-muted);
+  }
+
   .site-footer {
     margin-block-start: 4rem;
     padding-block: 2.5rem 3rem;

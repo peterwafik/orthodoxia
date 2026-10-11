@@ -113,6 +113,7 @@ export const ar: Dictionary = {
     content: 'المقالات الأصلية: CC BY-SA 4.0.',
     fonts: 'الخطوط: Inter وSource Serif 4 وNoto Sans Arabic وNoto Naskh Arabic (رخصة SIL المفتوحة للخطوط).',
     repo: 'الشيفرة المصدرية',
+    sourcesAndLicenses: 'المصادر والتراخيص',
   },
   bible: {
     title: 'الكتاب المقدس',
@@ -156,7 +157,12 @@ export const ar: Dictionary = {
     chooseVerse: 'اختر رقم آية لقراءة تفسيرها، أو اقرأ تفسير الأصحاح كله بالأسفل.',
     forVerse: (verse: string) => `تفسير الآية ${verse}`,
     showAll: 'اعرض تفسير الأصحاح كله',
-    noEntryForVerse: 'لا يوجد تفسير منفصل لهذه الآية. تفسير الأصحاح كله بالأسفل.',
+    noEntryForVerse: 'لا يوجد تفسير منفصل لهذه الآية.',
+    originalShort: 'اقرأ في الأصل',
+    readArabicVerse: 'اقرأ تفسيرها بالعربية',
+    crossReferences: 'الشواهد',
+    close: 'إغلاق',
+    aboutText: 'عن هذا النص',
     verses: (start: number, end: number) => (start === end ? `ع ${start}` : `ع ${start}-${end}`),
     original: (page: number) => `اقرأ في الأصل (PDF، صفحة ${page})`,
     repairedNotice:

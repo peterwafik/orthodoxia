@@ -111,6 +111,7 @@ export const en = {
     content: 'Original articles: CC BY-SA 4.0.',
     fonts: 'Fonts: Inter, Source Serif 4, Noto Sans Arabic and Noto Naskh Arabic (SIL Open Font License).',
     repo: 'Source code',
+    sourcesAndLicenses: 'Sources & licenses',
   },
   bible: {
     title: 'The Bible',
@@ -154,7 +155,12 @@ export const en = {
     chooseVerse: 'Select a verse number to read its interpretation, or read the whole chapter below.',
     forVerse: (verse: string) => `Interpretation of verse ${verse}`,
     showAll: 'Show the whole chapter',
-    noEntryForVerse: 'This verse has no separate entry. The interpretation of the whole chapter is below.',
+    noEntryForVerse: 'This verse has no separate interpretation.',
+    originalShort: 'Read in the original',
+    readArabicVerse: 'Read its interpretation (in Arabic)',
+    crossReferences: 'Cross-references',
+    close: 'Close',
+    aboutText: 'About this text',
     verses: (start: number, end: number) => (start === end ? `Verse ${start}` : `Verses ${start}–${end}`),
     original: (page: number) => `Read in the original (PDF, page ${page})`,
     repairedNotice:
