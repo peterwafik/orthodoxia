@@ -1,11 +1,83 @@
 {
+ "1CO": {
+  "entries": 405,
+  "translated": 405
+ },
+ "1JN": {
+  "entries": 98,
+  "translated": 98
+ },
+ "1PE": {
+  "entries": 96,
+  "translated": 96
+ },
+ "1TH": {
+  "entries": 87,
+  "translated": 87
+ },
+ "1TI": {
+  "entries": 102,
+  "translated": 102
+ },
+ "2CO": {
+  "entries": 230,
+  "translated": 230
+ },
+ "2JN": {
+  "entries": 12,
+  "translated": 12
+ },
+ "2PE": {
+  "entries": 58,
+  "translated": 58
+ },
+ "2TH": {
+  "entries": 40,
+  "translated": 40
+ },
+ "2TI": {
+  "entries": 79,
+  "translated": 79
+ },
+ "3JN": {
+  "entries": 14,
+  "translated": 14
+ },
+ "ACT": {
+  "entries": 838,
+  "translated": 838
+ },
+ "COL": {
+  "entries": 90,
+  "translated": 90
+ },
+ "EPH": {
+  "entries": 149,
+  "translated": 149
+ },
+ "GAL": {
+  "entries": 112,
+  "translated": 112
+ },
+ "HEB": {
+  "entries": 268,
+  "translated": 268
+ },
+ "JAS": {
+  "entries": 86,
+  "translated": 86
+ },
  "JHN": {
   "entries": 506,
-  "translated": 74
+  "translated": 506
+ },
+ "JUD": {
+  "entries": 24,
+  "translated": 24
  },
  "LUK": {
   "entries": 799,
-  "translated": 570
+  "translated": 799
  },
  "MAT": {
   "entries": 674,
@@ -14,5 +86,29 @@
  "MRK": {
   "entries": 372,
   "translated": 372
+ },
+ "PHM": {
+  "entries": 25,
+  "translated": 25
+ },
+ "PHP": {
+  "entries": 102,
+  "translated": 102
+ },
+ "PSA": {
+  "entries": 1829,
+  "translated": 859
+ },
+ "REV": {
+  "entries": 355,
+  "translated": 355
+ },
+ "ROM": {
+  "entries": 374,
+  "translated": 374
+ },
+ "TIT": {
+  "entries": 44,
+  "translated": 44
  }
 }
