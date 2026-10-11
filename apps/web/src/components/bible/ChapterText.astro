@@ -1,0 +1,217 @@
+---
+/**
+ * One chapter's text. Prose verses run together in paragraphs; poetry verses are lines with their
+ * indent level. Every verse has an anchor (`#v16`) whose number is a link to itself, for sharing.
+ * Footnotes are numbered per chapter and listed after the text.
+ */
+import type { Chapter, Verse } from '@orthodoxia/bible';
+
+interface Props {
+  chapter: Chapter;
+  lang: 'en' | 'ar';
+  notesLabel: string;
+}
+
+const { chapter, lang, notesLabel } = Astro.props;
+
+interface Block {
+  kind: 'prose' | 'poetry';
+  heading: readonly string[];
+  verses: { verse: Verse; level: number; noteStart: number }[];
+}
+
+const blocks: Block[] = [];
+const notes: { verse: string; text: string }[] = [];
+for (const verse of chapter.verses) {
+  const kind = verse.poetry > 0 ? 'poetry' : 'prose';
+  const current = blocks.at(-1);
+  if (current === undefined || verse.paragraph || verse.headings.length > 0 || current.kind !== kind) {
+    blocks.push({ kind, heading: verse.headings, verses: [] });
+  }
+  blocks.at(-1)!.verses.push({ verse, level: verse.poetry, noteStart: notes.length });
+  for (const text of verse.notes) notes.push({ verse: verse.number, text });
+}
+
+const classFor = (styles: readonly string[]): string | undefined =>
+  styles.length === 0 ? undefined : styles.map((style) => `s-${style}`).join(' ');
+---
+
+<div class="chapter-text" lang={lang} dir={lang === 'ar' ? 'rtl' : 'ltr'}>
+  {chapter.superscription !== null && <p class="superscription">{chapter.superscription}</p>}
+  {
+    blocks.map((block) => (
+      <>
+        {block.heading.map((heading) => (
+          <h3 class="heading">{heading}</h3>
+        ))}
+        {block.kind === 'prose' ? (
+          <p>
+            {block.verses.map(({ verse, noteStart }) => (
+              <span class="verse" id={`v${verse.number}`}>
+                <a class="vn" href={`#v${verse.number}`}>{verse.number}</a>
+                {verse.content.map((inline) => (inline.styles.length === 0 ? inline.text : <span class={classFor(inline.styles)}>{inline.text}</span>))}
+                {verse.notes.map((_note, index) => (
+                  <sup class="fn"><a href={`#note-${noteStart + index + 1}`} id={`ref-${noteStart + index + 1}`}>{noteStart + index + 1}</a></sup>
+                ))}{' '}
+              </span>
+            ))}
+          </p>
+        ) : (
+          <div class="poetry">
+            {block.verses.map(({ verse, level, noteStart }) => (
+              <p class={`line q${Math.min(level, 3)}`} id={`v${verse.number}`}>
+                <a class="vn" href={`#v${verse.number}`}>{verse.number}</a>
+                {verse.content.map((inline) => (inline.styles.length === 0 ? inline.text : <span class={classFor(inline.styles)}>{inline.text}</span>))}
+                {verse.notes.map((_note, index) => (
+                  <sup class="fn"><a href={`#note-${noteStart + index + 1}`} id={`ref-${noteStart + index + 1}`}>{noteStart + index + 1}</a></sup>
+                ))}
+              </p>
+            ))}
+          </div>
+        )}
+      </>
+    ))
+  }
+  {
+    notes.length > 0 && (
+      <section class="notes" aria-label={notesLabel}>
+        <h2>{notesLabel}</h2>
+        <ol>
+          {notes.map((note, index) => (
+            <li id={`note-${index + 1}`}>
+              <a href={`#ref-${index + 1}`} class="back">{note.verse}</a> {note.text}
+            </li>
+          ))}
+        </ol>
+      </section>
+    )
+  }
+</div>
+
+<style is:global>
+  /* Global (prefixed with .chapter-text) so Astro does not add a scoping attribute to every verse. */
+  .chapter-text {
+    max-inline-size: var(--measure);
+    font-family: 'Source Serif 4 Variable', Georgia, serif;
+    font-size: 1.1875rem;
+    line-height: 1.75;
+  }
+
+  .chapter-text:lang(ar) {
+    font-family: 'Noto Naskh Arabic Variable', serif;
+    font-size: 1.375rem;
+    line-height: 2.1;
+    max-inline-size: 36rem;
+  }
+
+  .chapter-text p {
+    margin-block: 0 1.1em;
+  }
+
+  .chapter-text .superscription {
+    font-style: italic;
+    color: var(--ink-muted);
+  }
+
+  .chapter-text:lang(ar) .superscription {
+    font-style: normal;
+  }
+
+  .chapter-text .heading {
+    font-family: var(--font-ui);
+    font-size: var(--step-0);
+    font-weight: 650;
+    margin-block: 1.75rem 0.5rem;
+    color: var(--ink);
+  }
+
+  .chapter-text .vn {
+    font-family: var(--font-ui);
+    font-size: 0.62em;
+    font-weight: 650;
+    color: var(--accent);
+    text-decoration: none;
+    vertical-align: 0.45em;
+    margin-inline-end: 0.2em;
+    padding-inline: 0.1em;
+    font-variant-numeric: lining-nums;
+  }
+
+  .chapter-text .vn:hover {
+    text-decoration: underline;
+  }
+
+  .chapter-text .verse:target,
+  .chapter-text .line:target {
+    background: color-mix(in srgb, var(--accent) 16%, transparent);
+    border-radius: 3px;
+  }
+
+  .chapter-text .poetry {
+    margin-block-end: 1.1em;
+  }
+
+  .chapter-text .line {
+    margin: 0;
+    padding-inline-start: 2.5em;
+    text-indent: -1.5em;
+  }
+
+  .chapter-text .line.q2 {
+    padding-inline-start: 3.5em;
+  }
+
+  .chapter-text .line.q3 {
+    padding-inline-start: 4.5em;
+  }
+
+  /* Words supplied by the translators (italic in the printed KJV and Brenton). */
+  .chapter-text .s-add {
+    font-style: italic;
+  }
+
+  .chapter-text:lang(ar) .s-add {
+    font-style: normal;
+  }
+
+  /* The divine name (LORD), printed in small capitals. */
+  .chapter-text .s-nd {
+    font-variant-caps: small-caps;
+  }
+
+  .chapter-text .fn {
+    font-family: var(--font-ui);
+    font-size: 0.6em;
+    line-height: 0;
+  }
+
+  .chapter-text .fn a {
+    text-decoration: none;
+    padding-inline: 0.15em;
+  }
+
+  .chapter-text .notes {
+    margin-block-start: 2.5rem;
+    padding-block-start: 1rem;
+    border-block-start: 1px solid var(--line);
+    font-family: var(--font-ui);
+    font-size: var(--step--1);
+    line-height: 1.6;
+    color: var(--ink-muted);
+  }
+
+  .chapter-text .notes h2 {
+    font-family: var(--font-ui);
+    font-size: var(--step-0);
+    color: var(--ink);
+  }
+
+  .chapter-text .notes ol {
+    padding-inline-start: 1.5rem;
+  }
+
+  .chapter-text .back {
+    font-weight: 650;
+    margin-inline-end: 0.3em;
+  }
+</style>

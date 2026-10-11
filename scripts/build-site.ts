@@ -1,6 +1,6 @@
 /**
  * Builds the whole static site into `dist/`:
- *   1. the content site (apps/web, Astro) → dist/
+ *   1. the Bible data (scripts/bible) and the content site (apps/web, Astro) → dist/
  *   2. the cross-reference explorer (apps/explorer, upstream Vite app) → dist/en/explore/
  * then checks the output against the free hosting limits (docs/phase-0/05-hosting-evaluation.md).
  *
@@ -35,6 +35,7 @@ function listFiles(dir: string): string[] {
 
 rmSync(DIST, { recursive: true, force: true });
 
+run('npm run bible');
 run('npm run build -w apps/web', { SITE_ORIGIN });
 cpSync(join(ROOT, 'apps', 'web', 'dist'), DIST, { recursive: true });
 
@@ -54,3 +55,5 @@ if (oversized.length > 0 || files.length > MAX_FILES) {
   if (files.length > MAX_FILES) console.error(`  ✗ ${files.length} files exceeds ${MAX_FILES}`);
   process.exit(1);
 }
+
+run('node scripts/check-links.ts');

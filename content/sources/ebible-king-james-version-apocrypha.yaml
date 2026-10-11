@@ -1,0 +1,20 @@
+id: ebible-king-james-version-apocrypha
+title: King James Version with Apocrypha (1769 text)
+organization: eBible.org / CrossWire Bible Society
+url: https://ebible.org/Scriptures/details.php?id=eng-kjv
+publicationDate: "1611; standardized text 1769"
+languages: [en]
+contentType: bible-text
+license:
+  id: public-domain
+  statement: "Public Domain ... This royal decree has no effect outside of the UK, where this work is firmly in the Public Domain."
+  verifiedUrl: https://ebible.org/Scriptures/details.php?id=eng-kjv
+inUse: true
+usage: import
+redistributionAllowed: true
+attribution: null
+commercialUse: allowed
+modification: allowed
+lastVerifiedAt: "2026-10-11"
+coversDeuterocanon: true
+notes: Default English edition of the Bible reader (Old Testament, deuterocanon, New Testament). In the United Kingdom, printing the KJV is subject to the Crown's letters patent; eBible.org states this has no effect elsewhere, and online display is not printing. Raw file pinned by SHA-256 in data/bible/sources.json. The 1 Esdras, 2 Esdras and Prayer of Manasseh books it contains are not used, because they are outside the Coptic Orthodox canon.

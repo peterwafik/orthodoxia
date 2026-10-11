@@ -8,7 +8,7 @@ license:
   id: public-domain
   statement: "Arabic Van Dyck translation of the Holy Bible Public Domain"
   verifiedUrl: https://ebible.org/Scriptures/details.php?id=arb-vd
-inUse: false
+inUse: true
 usage: import
 redistributionAllowed: true
 attribution: null
@@ -16,4 +16,4 @@ commercialUse: allowed
 modification: allowed
 lastVerifiedAt: "2026-10-11"
 coversDeuterocanon: false
-notes: Planned for Phase 2. Use this copy, not CrossWire's AraSVD module, whose terms forbid conversion to other formats. No openly licensed Arabic text of the deuterocanonical books has been found.
+notes: Arabic edition of the Bible reader (66 books). Use this copy, not CrossWire's AraSVD module, whose terms forbid conversion to other formats. It has no deuterocanonical books; the Arabic reader takes those from Arabic Wikisource (see wikisource-arabic-deuterocanon).

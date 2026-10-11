@@ -21,6 +21,7 @@ dist/ ──► Cloudflare Workers static assets (wrangler.jsonc, no Worker scri
 |---|---|---|
 | `apps/web` | Every content page. Typed EN/AR dictionaries, RTL via `dir` and logical CSS, hreflang/canonical tags, a source registry page | `src/layouts/Base.astro`, `src/i18n/`, `src/lib/sources.ts` |
 | `apps/explorer` | The upstream cross-reference visualization, nearly unmodified | `PATCHES.md`, `src/core/`, `src/visualizations/` |
+| `packages/bible` + `scripts/bible` | Bible texts: pinned sources → parsed per-edition JSON → static chapter pages (see BIBLE.md) | `editions.ts`, `locate.ts`, `usfm.ts` |
 | `packages/content-schema` | Zod schemas; TypeScript types are inferred from them | `src/source.ts`, `src/review.ts`, `src/article.ts` |
 | `content/sources` | The source registry: license, verification URL and date, usage rule | one YAML per source |
 | `scripts/` | Build orchestration, content validation, hero-image data generation | `build-site.ts`, `validate-content.ts`, `generate-hero-arcs.ts` |

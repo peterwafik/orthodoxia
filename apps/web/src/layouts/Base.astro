@@ -6,19 +6,24 @@ import '@fontsource-variable/noto-naskh-arabic';
 import '../styles/global.css';
 import SiteHeader from '../components/SiteHeader.astro';
 import SiteFooter from '../components/SiteFooter.astro';
-import { LOCALES, dir, switchLocalePath, t, type Locale } from '../i18n/index.ts';
+import { LOCALES, dir, otherLocale, switchLocalePath, t, type Locale } from '../i18n/index.ts';
 
 interface Props {
   locale: Locale;
   title?: string;
   description?: string;
+  /** The same page in each language, when it is not simply /en/… ↔ /ar/… (e.g. Bible chapters). */
+  alternates?: Partial<Record<Locale, string>>;
+  /** The canonical address, when this page duplicates another (e.g. /en/bible/ shows the KJV index). */
+  canonicalPath?: string;
 }
 
-const { locale, title, description } = Astro.props;
+const { locale, title, description, alternates = {}, canonicalPath } = Astro.props;
+const alternatePath = (other: Locale): string => alternates[other] ?? switchLocalePath(Astro.url.pathname, other);
 const strings = t(locale);
 const pageTitle = title === undefined ? strings.meta.siteName : `${title} | ${strings.meta.siteName}`;
 const pageDescription = description ?? strings.meta.description;
-const canonical = new URL(Astro.url.pathname, Astro.site);
+const canonical = new URL(canonicalPath ?? Astro.url.pathname, Astro.site);
 ---
 
 <!doctype html>
@@ -31,7 +36,7 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
     <link rel="canonical" href={canonical} />
     {
       LOCALES.map((other) => (
-        <link rel="alternate" hreflang={other} href={new URL(switchLocalePath(Astro.url.pathname, other), Astro.site)} />
+        <link rel="alternate" hreflang={other} href={new URL(alternatePath(other), Astro.site)} />
       ))
     }
     <link rel="alternate" hreflang="x-default" href={new URL('/', Astro.site)} />
@@ -52,7 +57,7 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
   </head>
   <body>
     <a class="skip-link" href="#content">{strings.a11y.skipToContent}</a>
-    <SiteHeader locale={locale} />
+    <SiteHeader locale={locale} alternate={alternatePath(otherLocale(locale))} />
     <main id="content" tabindex="-1">
       <slot />
     </main>

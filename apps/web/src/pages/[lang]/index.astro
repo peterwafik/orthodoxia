@@ -1,7 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import HeroArcs from '../../components/HeroArcs.astro';
-import { LOCALES, explorerPath, t, type Locale } from '../../i18n/index.ts';
+import { LOCALES, explorerPath, localePath, t, type Locale } from '../../i18n/index.ts';
 
 export function getStaticPaths() {
   return LOCALES.map((lang) => ({ params: { lang } }));
@@ -33,6 +33,8 @@ const strings = t(locale);
         {locale !== 'en' && <p class="muted">{strings.home.explorerLanguageNote}</p>}
       </div>
       <dl class="views">
+        <dt><a href={localePath(locale, 'bible')}>{strings.home.readLink}</a></dt>
+        <dd>{strings.home.readNote}</dd>
         <dt><a href={explorerPath(locale)}>{strings.home.arcsLink}</a></dt>
         <dd>{strings.home.arcsNote}</dd>
         <dt><a href={explorerPath(locale, 'threads')}>{strings.home.threadsLink}</a></dt>

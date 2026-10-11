@@ -14,6 +14,14 @@
   arcs, About, Sources, and a 404 page.
 - Build script that merges both apps and enforces hosting limits. Cloudflare static-assets config.
   GitHub Actions CI.
+- Bible reader: three editions (KJV with the deuterocanon and Psalm 151; Brenton Septuagint
+  with the KJV NT; Arabic Van Dyck with the Wikisource deuterocanon). About 4,000 static chapter
+  pages, verse anchors, footnotes, and edition and language switching that keeps your place
+  (including Septuagint/Hebrew psalm numbering). The raw sources are pinned by SHA-256 and
+  Wikisource revision ID.
+- `@orthodoxia/bible` package: USFM and Wikisource parsers, canon profile (draft), editions,
+  psalm mapping, and cross-edition location mapping, with 22 tests.
+- Build-time internal link checker.
 
 ### Changed (explorer)
 - Removed Google Analytics. Removed the nested lockfile.

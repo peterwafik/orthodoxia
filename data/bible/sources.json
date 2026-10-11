@@ -1,0 +1,106 @@
+{
+  "files": [
+    {
+      "source": "ebible-eng-kjv",
+      "file": "ebible/eng-kjv_usfm.zip",
+      "url": "https://ebible.org/Scriptures/eng-kjv_usfm.zip",
+      "retrievedAt": "2026-10-11",
+      "sha256": "80bb0add46d3a648e6f68239d2721c259df23e3f247065bb12f2819c8c23728d"
+    },
+    {
+      "source": "ebible-eng-brenton",
+      "file": "ebible/eng-Brenton_usfm.zip",
+      "url": "https://ebible.org/Scriptures/eng-Brenton_usfm.zip",
+      "retrievedAt": "2026-10-11",
+      "sha256": "5813078f2213e472a3d4946ccf468a6e17cf145f7b0f7afd154dced36203c6d3"
+    },
+    {
+      "source": "ebible-arb-vd",
+      "file": "ebible/arb-vd_usfm.zip",
+      "url": "https://ebible.org/Scriptures/arb-vd_usfm.zip",
+      "retrievedAt": "2026-10-11",
+      "sha256": "21097759376591c9d1c4b07440e36cd870e44ec5f44e4a84b215b35f17c7b150"
+    },
+    {
+      "source": "wikisource-ar-dc",
+      "file": "wikisource/TOB.wikitext",
+      "url": "https://ar.wikisource.org/w/index.php?oldid=136843&action=raw",
+      "retrievedAt": "2026-10-11",
+      "revision": 136843,
+      "title": "سفر طوبيا",
+      "sha256": "3d29eca7f94a0478174ab245a52960a5d5c51388784f9414ea5a241b479d4982"
+    },
+    {
+      "source": "wikisource-ar-dc",
+      "file": "wikisource/JDT.wikitext",
+      "url": "https://ar.wikisource.org/w/index.php?oldid=136845&action=raw",
+      "retrievedAt": "2026-10-11",
+      "revision": 136845,
+      "title": "سفر يهوديت",
+      "sha256": "fc4a823b81a4e3bf11077f85ee6a41ed4fac79e60d211ddd8bbcaf69fd7eec0c"
+    },
+    {
+      "source": "wikisource-ar-dc",
+      "file": "wikisource/ESG.wikitext",
+      "url": "https://ar.wikisource.org/w/index.php?oldid=136774&action=raw",
+      "retrievedAt": "2026-10-11",
+      "revision": 136774,
+      "title": "تتمة سفر أستير",
+      "sha256": "b9cba2ec6b8bb00a50fefc634f35e4dd1fb2ecef14b3c22c138343e1e4e06886"
+    },
+    {
+      "source": "wikisource-ar-dc",
+      "file": "wikisource/WIS.wikitext",
+      "url": "https://ar.wikisource.org/w/index.php?oldid=232069&action=raw",
+      "retrievedAt": "2026-10-11",
+      "revision": 232069,
+      "title": "سفر الحكمة",
+      "sha256": "e74463b3531ad30606c40486524a34eb68df672e46be98a68f92629bb2b29113"
+    },
+    {
+      "source": "wikisource-ar-dc",
+      "file": "wikisource/SIR.wikitext",
+      "url": "https://ar.wikisource.org/w/index.php?oldid=487187&action=raw",
+      "retrievedAt": "2026-10-11",
+      "revision": 487187,
+      "title": "سفر يشوع بن سيراخ",
+      "sha256": "5617a22cf9f56cf34e8ab5c78fe54690ea2c84bfea5167ea6e95f9b72a268e5a"
+    },
+    {
+      "source": "wikisource-ar-dc",
+      "file": "wikisource/BAR.wikitext",
+      "url": "https://ar.wikisource.org/w/index.php?oldid=136838&action=raw",
+      "retrievedAt": "2026-10-11",
+      "revision": 136838,
+      "title": "سفر باروخ",
+      "sha256": "db1258668c0c03293e4bb0bffd1c85ab3f20202716a55d5e904d2ceb417d0a32"
+    },
+    {
+      "source": "wikisource-ar-dc",
+      "file": "wikisource/DAG.wikitext",
+      "url": "https://ar.wikisource.org/w/index.php?oldid=136839&action=raw",
+      "retrievedAt": "2026-10-11",
+      "revision": 136839,
+      "title": "تتمة سفر دانيال",
+      "sha256": "737c37a990b8de6a8586bbf45efb2844c371669114a5e693862d6af143e5bdf3"
+    },
+    {
+      "source": "wikisource-ar-dc",
+      "file": "wikisource/1MA.wikitext",
+      "url": "https://ar.wikisource.org/w/index.php?oldid=136841&action=raw",
+      "retrievedAt": "2026-10-11",
+      "revision": 136841,
+      "title": "سفر المكابيين الأول",
+      "sha256": "2d5a6bdebd075bd7eeda22bd3de2ce308059d55ed6e03835e995bd0cfba89a4b"
+    },
+    {
+      "source": "wikisource-ar-dc",
+      "file": "wikisource/2MA.wikitext",
+      "url": "https://ar.wikisource.org/w/index.php?oldid=136842&action=raw",
+      "retrievedAt": "2026-10-11",
+      "revision": 136842,
+      "title": "سفر المكابيين الثانى",
+      "sha256": "d7dc3968d5cc5f013b69007319fbd7edbbd62abd1f75ad4cc6dfa635b20c71d2"
+    }
+  ]
+}

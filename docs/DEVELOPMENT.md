@@ -13,6 +13,7 @@
 | `npm run dev:web` | Astro dev server for the content site (http://localhost:4321/en/) |
 | `npm run dev:explorer` | The explorer's own dev server (http://localhost:5173/) |
 | `npm run check` | Explorer: typecheck, lint, format, 162 tests. Schema: typecheck + tests. Web: `astro check` + tests. Then content validation |
+| `npm run bible` | Verifies the pinned Bible sources and rebuilds `data/bible/build/` (`bible:update` re-downloads and re-pins) |
 | `npm run validate:content` | Validates `content/sources/*.yaml` only |
 | `npm run build` | Builds the whole site into `dist/` and enforces hosting limits |
 | `npm run preview` | Serves `dist/` with Wrangler at http://localhost:8787 |

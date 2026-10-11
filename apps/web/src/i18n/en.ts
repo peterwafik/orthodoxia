@@ -16,6 +16,7 @@ export const en = {
   },
   nav: {
     home: 'Home',
+    bible: 'Bible',
     explore: 'Cross-references',
     about: 'About',
     sources: 'Sources',
@@ -36,6 +37,8 @@ export const en = {
     exploreHeading: 'Follow a passage across the whole Bible',
     exploreBody:
       'Start from the full picture and zoom to a single verse, or read a chapter with its connections in view. Every connection opens the passage it points to.',
+    readLink: 'Read the Bible',
+    readNote: 'Arabic (Van Dyck) and English (KJV or Septuagint), including the deuterocanonical books.',
     arcsLink: 'Open the arcs view',
     arcsNote: 'Every verse on one line, with its cross-references drawn as arcs.',
     threadsLink: 'Read with threads',
@@ -109,6 +112,42 @@ export const en = {
     content: 'Original articles: CC BY-SA 4.0.',
     fonts: 'Fonts: Inter, Source Serif 4, Noto Sans Arabic and Noto Naskh Arabic (SIL Open Font License).',
     repo: 'Source code',
+  },
+  bible: {
+    title: 'The Bible',
+    intro:
+      'Read the Old Testament, the deuterocanonical books, and the New Testament in Arabic and English. Every text here is in the public domain or openly licensed.',
+    edition: 'Edition',
+    editions: 'Editions',
+    otherLanguage: 'Read in Arabic',
+    sections: {
+      ot: 'Old Testament',
+      deuterocanon: 'Deuterocanonical books',
+      nt: 'New Testament',
+    },
+    deuterocanonNote:
+      'The list of deuterocanonical books, their names and their order follow common Coptic Orthodox usage and are awaiting confirmation by our reviewers.',
+    chapter: 'Chapter',
+    chapters: 'Chapters',
+    psalm: 'Psalm',
+    previous: 'Previous chapter',
+    next: 'Next chapter',
+    chooseChapter: 'Choose a chapter',
+    allBooks: 'All books',
+    crossReferences: 'See this chapter’s cross-references',
+    notes: 'Notes',
+    source: 'Text',
+    notInEdition: 'This book is not in this edition.',
+    lxxPsalm: (lxx: number, hebrew: string) =>
+      `Psalm ${lxx} in the Septuagint numbering used in the Agpeya${hebrew === '' ? '' : `; Psalm ${hebrew} in Hebrew numbering`}.`,
+    hebrewPsalm: (hebrew: number, lxx: string) =>
+      `Psalm ${hebrew} in Hebrew numbering${lxx === '' ? '' : `; Psalm ${lxx} in the Septuagint numbering used in the Agpeya`}.`,
+    licenses: {
+      'public-domain': 'Public domain',
+      'cc-by-sa': 'CC BY-SA 4.0',
+    },
+    arabicDeuterocanonNotice:
+      'The Arabic text of this book comes from Arabic Wikisource, where it was added without naming its source. Its wording and numbering follow the Latin Vulgate tradition (likely the 19th-century Jesuit translation), which differs in places from the Septuagint text the Coptic Orthodox Church follows. Its provenance is under review.',
   },
   notFound: {
     title: 'Page not found',

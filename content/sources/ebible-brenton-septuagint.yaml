@@ -10,7 +10,7 @@ license:
   id: public-domain
   statement: "Published in 1851, and now in the Public Domain."
   verifiedUrl: https://ebible.org/Scriptures/details.php?id=eng-Brenton
-inUse: false
+inUse: true
 usage: import
 redistributionAllowed: true
 attribution: null
@@ -18,4 +18,4 @@ commercialUse: allowed
 modification: allowed
 lastVerifiedAt: "2026-10-11"
 coversDeuterocanon: true
-notes: Planned (Phase 2/5). Old Testament and deuterocanon only; no New Testament.
+notes: "Septuagint (LXX) edition of the Bible reader: Old Testament and deuterocanon, with Septuagint psalm numbering. Also supplies Psalm 151 to the KJV edition. It has no New Testament; the reader uses the KJV for it."

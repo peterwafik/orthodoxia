@@ -5,6 +5,7 @@
 | Project code | MIT | `LICENSE` |
 | Explorer code (`apps/explorer`) | MIT, © 2026 Oleksii Trekhleb | `apps/explorer/LICENSE` |
 | Original content | CC BY-SA 4.0 | `LICENSE-CONTENT.md` |
+| Arabic deuterocanon data (derived from Arabic Wikisource) | CC BY-SA 4.0: share-alike applies to that derived data | `content/sources/wikisource-arabic-deuterocanon.yaml` |
 | Third-party data and texts | Their own licenses | `content/sources/*.yaml`, `/sources/` page |
 | Fonts: Inter, Source Serif 4, Noto Sans Arabic, Noto Naskh Arabic | SIL Open Font License 1.1 | Packaged by Fontsource and self-hosted. Credited in the footer |
 | Icons in the explorer (Lucide ISC, Material Design Apache-2.0, via react-icons MIT) | As stated | `apps/explorer/README.md` |

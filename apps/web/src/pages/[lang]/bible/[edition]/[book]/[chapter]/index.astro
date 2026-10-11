@@ -1,0 +1,246 @@
+---
+import {
+  DEFAULT_EDITION,
+  EDITIONS,
+  bookBySlug,
+  convertPsalm,
+  getEdition,
+  type BookInfo,
+  type TextSourceId,
+} from '@orthodoxia/bible';
+import Base from '../../../../../../layouts/Base.astro';
+import ChapterText from '../../../../../../components/bible/ChapterText.astro';
+import EditionSwitch from '../../../../../../components/bible/EditionSwitch.astro';
+import { biblePath, bookName, editionBooks, equivalentPath, loadBook } from '../../../../../../lib/bible.ts';
+import { LICENSE_LABELS, getSource } from '../../../../../../lib/sources.ts';
+import { localePath, otherLocale, t, type Locale } from '../../../../../../i18n/index.ts';
+
+export function getStaticPaths() {
+  return EDITIONS.flatMap((edition) =>
+    editionBooks(edition.id).flatMap(({ info, chapters }) =>
+      chapters.map((chapter) => ({
+        params: { lang: edition.locale, edition: edition.id, book: info.slug, chapter: String(chapter) },
+      })),
+    ),
+  );
+}
+
+/** Registry entries (content/sources) behind each raw text source. */
+const REGISTRY: Readonly<Record<TextSourceId, string>> = {
+  'ebible-eng-kjv': 'ebible-king-james-version-apocrypha',
+  'ebible-eng-brenton': 'ebible-brenton-septuagint',
+  'ebible-arb-vd': 'ebible-arabic-van-dyck',
+  'wikisource-ar-dc': 'wikisource-arabic-deuterocanon',
+};
+
+const locale = Astro.params.lang as Locale;
+const editionId = Astro.params.edition!;
+const edition = getEdition(editionId)!;
+const info = bookBySlug(Astro.params.book!)!;
+const number = Number(Astro.params.chapter);
+const strings = t(locale).bible;
+const book = loadBook(editionId, info.code);
+const chapter = book.chapters.find((candidate) => candidate.number === number)!;
+const source = getSource(REGISTRY[book.source]);
+
+// Previous and next chapters, continuing across books in this edition's order.
+const sequence = editionBooks(editionId).flatMap(({ info: entry, chapters }) =>
+  chapters.map((chapterNumber) => ({ info: entry, chapter: chapterNumber })),
+);
+const position = sequence.findIndex((entry) => entry.info.code === info.code && entry.chapter === number);
+const previous = sequence[position - 1];
+const next = sequence[position + 1];
+const chapters = editionBooks(editionId).find((entry) => entry.info.code === info.code)!.chapters;
+const single = chapters.length === 1;
+
+const name = bookName(info, locale);
+const heading = single ? name : info.code === 'PSA' ? `${strings.psalm} ${number}` : `${name} ${number}`;
+const label = (entry: { info: BookInfo; chapter: number }): string =>
+  `${bookName(entry.info, locale)} ${entry.chapter}`;
+
+let psalmNote: string | null = null;
+if (info.code === 'PSA') {
+  if (edition.psalms === 'lxx') {
+    const hebrew = convertPsalm(number, 'lxx', 'hebrew');
+    psalmNote = strings.lxxPsalm(number, hebrew === undefined ? '' : String(hebrew));
+  } else {
+    const lxx = convertPsalm(number, 'hebrew', 'lxx');
+    psalmNote = strings.hebrewPsalm(number, lxx === undefined ? '' : String(lxx));
+  }
+}
+
+// The cross-reference explorer uses KJV numbering for the 66 books.
+const explorerReady =
+  info.section !== 'deuterocanon' && (edition.explorerCompatible || (info.section === 'nt' && book.source === 'ebible-eng-kjv'));
+const explorerHref = `/en/explore/threads/?ref=${info.osis}.${number}`;
+
+const other = otherLocale(locale);
+const licenseLabel =
+  source.license.id === 'public-domain' ? strings.licenses['public-domain'] : source.license.id === 'CC-BY-SA-4.0' ? strings.licenses['cc-by-sa'] : LICENSE_LABELS[source.license.id];
+---
+
+<Base
+  locale={locale}
+  title={`${heading} (${edition.shortName})`}
+  description={chapter.verses[0]?.content.map((inline) => inline.text).join('').slice(0, 155) ?? name}
+  alternates={{ [other]: equivalentPath(editionId, DEFAULT_EDITION[other], info.code, number) }}
+>
+  <article class="wrap section reader">
+    <p class="crumbs">
+      <a href={biblePath(locale, editionId)}>{strings.allBooks}</a>
+      {!single && (
+        <>
+          <span aria-hidden="true"> / </span>
+          <a href={biblePath(locale, editionId, info)}>{name}</a>
+        </>
+      )}
+    </p>
+    <h1>{heading}</h1>
+    <EditionSwitch locale={locale} edition={editionId} book={info.code} chapter={number} />
+
+    <div class="notices">
+      {psalmNote !== null && <p class="muted">{psalmNote}</p>}
+      {book.note !== null && <p class="muted">{book.note[locale]}</p>}
+      {book.source === 'wikisource-ar-dc' && <p class="notice">{strings.arabicDeuterocanonNotice}</p>}
+      {info.section === 'deuterocanon' && book.source !== 'wikisource-ar-dc' && <p class="notice">{strings.deuterocanonNote}</p>}
+    </div>
+
+    <ChapterText chapter={chapter} lang={edition.locale} notesLabel={strings.notes} />
+
+    <nav class="pager" aria-label={strings.chapters}>
+      {previous !== undefined ? (
+        <a class="prev" href={biblePath(locale, editionId, previous.info, previous.chapter)} rel="prev">
+          <span class="muted">{strings.previous}</span>
+          <span>{label(previous)}</span>
+        </a>
+      ) : <span />}
+      {next !== undefined && (
+        <a class="next" href={biblePath(locale, editionId, next.info, next.chapter)} rel="next">
+          <span class="muted">{strings.next}</span>
+          <span>{label(next)}</span>
+        </a>
+      )}
+    </nav>
+
+    {!single && (
+      <details class="picker">
+        <summary>{strings.chooseChapter}</summary>
+        <ol>
+          {chapters.map((candidate) => (
+            <li>
+              <a href={biblePath(locale, editionId, info, candidate)} aria-current={candidate === number ? 'page' : undefined}>
+                {candidate}
+              </a>
+            </li>
+          ))}
+        </ol>
+      </details>
+    )}
+
+    <footer class="meta">
+      {explorerReady && <p><a href={explorerHref}>{strings.crossReferences}</a></p>}
+      <p>
+        {strings.source}: <span lang="en" dir="ltr">{source.title}</span> ({licenseLabel}).
+        {source.attribution !== null && <span lang="en" dir="ltr"> {source.attribution}</span>}
+        {' '}<a href={localePath(locale, 'sources')}>{t(locale).nav.sources}</a>
+      </p>
+    </footer>
+  </article>
+</Base>
+
+<style>
+  .reader h1 {
+    font-size: var(--step-3);
+    margin-block-end: 1rem;
+  }
+
+  .crumbs {
+    font-size: var(--step--1);
+    margin-block-end: 0.5rem;
+  }
+
+  .notices {
+    margin-block: 1.5rem 2rem;
+    max-inline-size: var(--measure);
+    font-size: var(--step--1);
+  }
+
+  .notices p {
+    margin-block-end: 0.75rem;
+  }
+
+  .pager {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    max-inline-size: var(--measure);
+    margin-block-start: 3rem;
+    padding-block-start: 1.5rem;
+    border-block-start: 1px solid var(--line);
+  }
+
+  .pager a {
+    display: grid;
+    gap: 0.15rem;
+    text-decoration: none;
+    color: var(--ink);
+    min-block-size: 44px;
+  }
+
+  .pager a:hover span:last-child {
+    color: var(--accent);
+    text-decoration: underline;
+  }
+
+  .pager .muted {
+    font-size: var(--step--1);
+  }
+
+  .next {
+    text-align: end;
+  }
+
+  .picker {
+    margin-block-start: 2rem;
+    max-inline-size: var(--measure);
+  }
+
+  .picker summary {
+    cursor: pointer;
+    min-block-size: 44px;
+    display: flex;
+    align-items: center;
+    color: var(--accent);
+  }
+
+  .picker ol {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(2.75rem, 1fr));
+    gap: 0.35rem;
+    padding: 0;
+    list-style: none;
+  }
+
+  .picker a {
+    display: grid;
+    place-items: center;
+    block-size: 2.75rem;
+    border: 1px solid var(--line);
+    border-radius: 4px;
+    text-decoration: none;
+    color: var(--ink);
+    font-variant-numeric: tabular-nums;
+  }
+
+  .picker a[aria-current='page'] {
+    background: var(--ink);
+    color: var(--surface);
+  }
+
+  .meta {
+    margin-block-start: 2.5rem;
+    max-inline-size: var(--measure);
+    font-size: var(--step--1);
+    color: var(--ink-muted);
+  }
+</style>

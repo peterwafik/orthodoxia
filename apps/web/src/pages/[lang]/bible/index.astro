@@ -1,0 +1,18 @@
+---
+import { DEFAULT_EDITION } from '@orthodoxia/bible';
+import Base from '../../../layouts/Base.astro';
+import BookIndex from '../../../components/bible/BookIndex.astro';
+import { biblePath } from '../../../lib/bible.ts';
+import { LOCALES, t, type Locale } from '../../../i18n/index.ts';
+
+export function getStaticPaths() {
+  return LOCALES.map((lang) => ({ params: { lang } }));
+}
+
+const locale = Astro.params.lang as Locale;
+const edition = DEFAULT_EDITION[locale];
+---
+
+<Base locale={locale} title={t(locale).bible.title} canonicalPath={biblePath(locale, edition)}>
+  <BookIndex locale={locale} edition={edition} />
+</Base>

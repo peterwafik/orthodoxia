@@ -5,10 +5,10 @@
 imported at upstream commit `23e7f90` (2026-09-28). Keep this list current: every change here is
 a merge conflict waiting to happen when upstream is pulled, so keep patches small.
 
-| # | Change | Files | Reason |
-|---|---|---|---|
-| 1 | Removed the Google Analytics build plugin | `vite/analytics.ts` (deleted), `vite.config.ts` | No third-party tracking (privacy-by-default, master prompt §13) |
-| 2 | Removed `package-lock.json` | `package-lock.json` (deleted) | The monorepo's root lockfile manages dependencies through npm workspaces |
+| #   | Change                                    | Files                                           | Reason                                                                   |
+| --- | ----------------------------------------- | ----------------------------------------------- | ------------------------------------------------------------------------ |
+| 1   | Removed the Google Analytics build plugin | `vite/analytics.ts` (deleted), `vite.config.ts` | No third-party tracking (privacy-by-default, master prompt §13)          |
+| 2   | Removed `package-lock.json`               | `package-lock.json` (deleted)                   | The monorepo's root lockfile manages dependencies through npm workspaces |
 
 Not patched, configured instead: the deploy path and origin come from the existing `BASE_PATH` and
 `SITE_ORIGIN` environment variables (set by `scripts/build-site.ts`).

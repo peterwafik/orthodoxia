@@ -9,3 +9,4 @@ apps/explorer/public/data/
 !.env.example
 .DS_Store
 .playwright-mcp/
+data/bible/build/

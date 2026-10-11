@@ -1,0 +1,26 @@
+id: wikisource-arabic-deuterocanon
+title: الأسفار القانونية الثانية (Arabic Wikisource)
+organization: Arabic Wikisource contributors
+url: https://ar.wikisource.org/wiki/تصنيف:الأسفار_القانونية_الثانية
+languages: [ar]
+contentType: bible-text
+license:
+  id: CC-BY-SA-4.0
+  statement: "النصوص منشورة وفق هذه الرخصة (CC BY-SA 4.0)"
+  verifiedUrl: https://ar.wikisource.org/wiki/سفر_طوبيا
+inUse: true
+usage: import
+redistributionAllowed: true
+attribution: "Arabic deuterocanonical text: Arabic Wikisource contributors (https://ar.wikisource.org/wiki/تصنيف:الأسفار_القانونية_الثانية), CC BY-SA 4.0, pinned page revisions listed in data/bible/sources.json. Modified: wiki markup removed, wrapped lines joined, Daniel 3:24–90, 13 and 14 presented as separate books."
+commercialUse: allowed
+modification: allowed
+lastVerifiedAt: "2026-10-11"
+coversDeuterocanon: true
+notes: >-
+  PROVENANCE UNDER REVIEW. The pages were added anonymously in 2011 without naming their source.
+  The wording and numbering follow the Latin Vulgate tradition (e.g. Tobit 1:1 mentions Sephet/صفت,
+  and Sirach has about 1,590 verses against about 1,370 in the Septuagint), which suggests the 19th-century
+  Jesuit Arabic translation (Beirut, 1876–1880). That translation would itself be public domain. It
+  differs in places from the Septuagint text the Coptic Orthodox Church follows, and the reader says
+  so on every page that uses it. The derived dataset is shared under CC BY-SA 4.0. Sirach 29:16–17 are
+  absent from the source. There is no Psalm 151 and no separate Letter of Jeremiah (it is Baruch 6).

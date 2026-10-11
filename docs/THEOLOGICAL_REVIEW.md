@@ -6,6 +6,11 @@ apologetics, patristic or historical content (Phase 3+). It also blocks presenti
 Orthodox canon profile as authoritative (Phase 5). It does not block Phases 1–2, which ship no
 theological content.
 
+## Open items awaiting a reviewer
+- The deuterocanonical book list, Arabic book names and book order (`packages/bible/src/books.ts`). See `docs/BIBLE.md`.
+- Whether to keep the Vulgate-based Arabic deuterocanon until a Septuagint-based Arabic text is licensed.
+- The default English edition (KJV or Septuagint).
+
 ## Reviewers
 
 | Name | Role / qualification | Areas | Since |

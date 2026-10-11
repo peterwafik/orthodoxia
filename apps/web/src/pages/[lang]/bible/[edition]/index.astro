@@ -1,0 +1,25 @@
+---
+import { DEFAULT_EDITION, EDITIONS } from '@orthodoxia/bible';
+import Base from '../../../../layouts/Base.astro';
+import BookIndex from '../../../../components/bible/BookIndex.astro';
+import { biblePath } from '../../../../lib/bible.ts';
+import { otherLocale, t, type Locale } from '../../../../i18n/index.ts';
+
+export function getStaticPaths() {
+  return EDITIONS.map((edition) => ({ params: { lang: edition.locale, edition: edition.id } }));
+}
+
+const locale = Astro.params.lang as Locale;
+const edition = Astro.params.edition!;
+const other = otherLocale(locale);
+const strings = t(locale).bible;
+const name = EDITIONS.find((candidate) => candidate.id === edition)!.shortName;
+---
+
+<Base
+  locale={locale}
+  title={`${strings.title} (${name})`}
+  alternates={{ [other]: biblePath(other, DEFAULT_EDITION[other]) }}
+>
+  <BookIndex locale={locale} edition={edition} />
+</Base>
