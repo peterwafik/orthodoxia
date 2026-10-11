@@ -23,6 +23,11 @@
   psalm mapping, and cross-edition location mapping, with 22 tests.
 - Build-time internal link checker.
 
+- Bible interpretation in the reader: the St. Mark Church commentary (stmarkos.org, used with
+  permission) imported verse by verse from 52 PDFs (16,967 entries), validated against the Bible;
+  Fr. Tadros Malaty's commentary linked for the books it does not cover; select a verse to read its
+  interpretation. `@orthodoxia/commentary` package and `npm run commentary:import`.
+
 ### Changed (explorer)
 - Removed Google Analytics. Removed the nested lockfile.
 - Integrated into the site: navy/ivory/gold palette and site fonts, the site's brand,

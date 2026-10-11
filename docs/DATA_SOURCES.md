@@ -14,6 +14,8 @@ The machine-readable registry is `content/sources/*.yaml`, validated in CI and r
 | Brenton Septuagint (eBible) | English Septuagint edition; Psalm 151 in the KJV edition | Public domain |
 | Arabic Van Dyck (eBible `arb-vd`) | Arabic Bible reader (66 books); Arabic explorer text | Public domain |
 | Arabic Wikisource deuterocanon | Arabic deuterocanonical books | CC BY-SA 4.0. **Provenance under review** (see BIBLE.md) |
+| St. Mark Church Bible commentary (stmarkos.org) | Arabic verse-by-verse interpretation | Used with permission (written confirmation pending) |
+| Fr. Tadros Malaty (St-Takla.org) | Linked from the reader, chapter by chapter | All rights reserved, link only |
 | trekhleb/bible-cross-references | Explorer code | MIT |
 
 Raw upstream files are pinned by SHA-256 in `apps/explorer/data/sources.json` (explorer) and `data/bible/sources.json` (Bible reader).

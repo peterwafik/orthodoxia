@@ -10,6 +10,8 @@ theological content.
 - The deuterocanonical book list, Arabic book names and book order (`packages/bible/src/books.ts`). See `docs/BIBLE.md`.
 - Whether to keep the Vulgate-based Arabic deuterocanon until a Septuagint-based Arabic text is licensed.
 - The default English edition (KJV or Septuagint).
+- The commentary sources shown in the reader (St. Mark Church; Fr. Tadros Malaty linked), and any
+  English translation of them before publication (docs/COMMENTARY.md).
 - Arabic book and genre names in the cross-reference explorer (`apps/explorer/src/core/bible/names-ar.ts`).
 
 ## Reviewers

@@ -4,12 +4,15 @@ import {
   EDITIONS,
   bookBySlug,
   convertPsalm,
+  equivalentLocation,
   getEdition,
   type BookInfo,
   type TextSourceId,
 } from '@orthodoxia/bible';
 import Base from '../../../../../../layouts/Base.astro';
 import ChapterText from '../../../../../../components/bible/ChapterText.astro';
+import CommentaryPanel from '../../../../../../components/bible/CommentaryPanel.astro';
+import { chapterCommentary } from '../../../../../../lib/commentary.ts';
 import EditionSwitch from '../../../../../../components/bible/EditionSwitch.astro';
 import { biblePath, bookName, editionBooks, equivalentPath, loadBook } from '../../../../../../lib/bible.ts';
 import { LICENSE_LABELS, getSource } from '../../../../../../lib/sources.ts';
@@ -70,6 +73,12 @@ if (info.code === 'PSA') {
 }
 
 // The cross-reference explorer uses KJV numbering for the 66 books.
+// Interpretation: the commentary is keyed to the Arabic (Van Dyck) edition's books and chapters.
+const arabicLocation = editionId === 'svd' ? { book: info.code, chapter: number } : equivalentLocation(editionId, 'svd', { book: info.code, chapter: number });
+const commentary =
+  arabicLocation !== null && arabicLocation.chapter !== null ? chapterCommentary(arabicLocation.book, arabicLocation.chapter) : null;
+const arabicHref = editionId === 'svd' ? undefined : equivalentPath(editionId, 'svd', info.code, number);
+
 const explorerReady =
   info.section !== 'deuterocanon' && (edition.explorerCompatible || (info.section === 'nt' && book.source === 'ebible-eng-kjv'));
 const explorerHref = `${explorerPath(locale, 'threads')}?ref=${info.osis}.${number}`;
@@ -105,7 +114,17 @@ const licenseLabel =
       {info.section === 'deuterocanon' && book.source !== 'wikisource-ar-dc' && <p class="notice">{strings.deuterocanonNote}</p>}
     </div>
 
-    <ChapterText chapter={chapter} lang={edition.locale} notesLabel={strings.notes} />
+    <div class="reading" data-has-commentary={commentary?.stMark ? '' : undefined}>
+      <ChapterText chapter={chapter} lang={edition.locale} notesLabel={strings.notes} />
+      {commentary !== null && (
+        <CommentaryPanel
+          locale={locale}
+          commentary={commentary}
+          arabicHref={arabicHref}
+          differentNumbering={info.section === 'deuterocanon'}
+        />
+      )}
+    </div>
 
     <nav class="pager" aria-label={strings.chapters}>
       {previous !== undefined ? (
@@ -149,6 +168,28 @@ const licenseLabel =
 </Base>
 
 <style>
+  .reading {
+    display: grid;
+    gap: 2.5rem;
+  }
+
+  /* Wide screens: the text and its interpretation side by side; the panel scrolls on its own. */
+  @media (min-width: 64rem) {
+    .reading {
+      grid-template-columns: minmax(0, 38rem) minmax(0, 1fr);
+      align-items: start;
+      gap: 3.5rem;
+    }
+
+    .reading :global(.commentary) {
+      position: sticky;
+      inset-block-start: 1rem;
+      max-block-size: calc(100vh - 2rem);
+      overflow-y: auto;
+      padding-inline-end: 0.5rem;
+    }
+  }
+
   .reader h1 {
     font-size: var(--step-3);
     margin-block-end: 1rem;

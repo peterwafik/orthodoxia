@@ -19,13 +19,15 @@
     "bible": "node scripts/bible/fetch.ts && node scripts/bible/build.ts",
     "bible:update": "node scripts/bible/fetch.ts --update && node scripts/bible/build.ts",
     "validate:content": "node scripts/validate-content.ts",
-    "check": "npm run bible && npm run check -w apps/explorer && npm run check -w packages/content-schema && npm run check -w packages/bible && npm run check -w apps/web && npm run validate:content",
+    "check": "npm run bible && npm run check -w apps/explorer && npm run check -w packages/content-schema && npm run check -w packages/bible && npm run check -w packages/commentary && npm run check -w apps/web && npm run validate:content",
     "build": "node scripts/build-site.ts",
-    "preview": "npx wrangler dev --local"
+    "preview": "npx wrangler dev --local",
+    "commentary:import": "node scripts/commentary/stmark-fetch.ts && node scripts/commentary/stmark-build.ts && node scripts/commentary/malaty-links.ts"
   },
   "devDependencies": {
     "@types/node": "^24.13.6",
     "fflate": "^0.8.3",
+    "pdfjs-dist": "^4.10.38",
     "typescript": "~6.0.2",
     "wrangler": "^4.149.0",
     "yaml": "^2.9.1"

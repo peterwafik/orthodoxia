@@ -1,0 +1,442 @@
+{
+  "retrievedAt": "2026-10-11",
+  "books": {
+    "EST": {
+      "index": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/19-Sefr-Astir/Tafseer-Sefr-Esteer__00-index.html",
+      "chapters": {
+        "1": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/19-Sefr-Astir/Tafseer-Sefr-Esteer__01-Chapter-01.html",
+        "2": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/19-Sefr-Astir/Tafseer-Sefr-Esteer__01-Chapter-02.html",
+        "3": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/19-Sefr-Astir/Tafseer-Sefr-Esteer__01-Chapter-03.html",
+        "4": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/19-Sefr-Astir/Tafseer-Sefr-Esteer__01-Chapter-04.html",
+        "5": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/19-Sefr-Astir/Tafseer-Sefr-Esteer__01-Chapter-05.html",
+        "6": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/19-Sefr-Astir/Tafseer-Sefr-Esteer__01-Chapter-06.html",
+        "7": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/19-Sefr-Astir/Tafseer-Sefr-Esteer__01-Chapter-07.html",
+        "8": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/19-Sefr-Astir/Tafseer-Sefr-Esteer__01-Chapter-08.html",
+        "9": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/19-Sefr-Astir/Tafseer-Sefr-Esteer__01-Chapter-09.html",
+        "10": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/19-Sefr-Astir/Tafseer-Sefr-Esteer__01-Chapter-10.html",
+        "11": "https://st-takla.org/pub_Bible-Interpretations/Tafaseer-index/1-Al-3ahd-Al-Kadim/19-Esther/Esther-Chapter-11.html",
+        "12": "https://st-takla.org/pub_Bible-Interpretations/Tafaseer-index/1-Al-3ahd-Al-Kadim/19-Esther/Esther-Chapter-12.html",
+        "13": "https://st-takla.org/pub_Bible-Interpretations/Tafaseer-index/1-Al-3ahd-Al-Kadim/19-Esther/Esther-Chapter-13.html",
+        "14": "https://st-takla.org/pub_Bible-Interpretations/Tafaseer-index/1-Al-3ahd-Al-Kadim/19-Esther/Esther-Chapter-14.html",
+        "15": "https://st-takla.org/pub_Bible-Interpretations/Tafaseer-index/1-Al-3ahd-Al-Kadim/19-Esther/Esther-Chapter-15.html",
+        "16": "https://st-takla.org/pub_Bible-Interpretations/Tafaseer-index/1-Al-3ahd-Al-Kadim/19-Esther/Esther-Chapter-16.html"
+      }
+    },
+    "PRO": {
+      "index": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/22-Sefr-El-Amthal/Tafseer-Sefr-El-Amthal__00-index.html",
+      "chapters": {
+        "1": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/22-Sefr-El-Amthal/Tafseer-Sefr-El-Amthal__01-Chapter-01.html",
+        "2": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/22-Sefr-El-Amthal/Tafseer-Sefr-El-Amthal__01-Chapter-02.html",
+        "3": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/22-Sefr-El-Amthal/Tafseer-Sefr-El-Amthal__01-Chapter-03.html",
+        "4": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/22-Sefr-El-Amthal/Tafseer-Sefr-El-Amthal__01-Chapter-04.html",
+        "5": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/22-Sefr-El-Amthal/Tafseer-Sefr-El-Amthal__01-Chapter-05.html",
+        "6": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/22-Sefr-El-Amthal/Tafseer-Sefr-El-Amthal__01-Chapter-06.html",
+        "7": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/22-Sefr-El-Amthal/Tafseer-Sefr-El-Amthal__01-Chapter-07.html",
+        "8": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/22-Sefr-El-Amthal/Tafseer-Sefr-El-Amthal__01-Chapter-08.html",
+        "9": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/22-Sefr-El-Amthal/Tafseer-Sefr-El-Amthal__01-Chapter-09.html",
+        "10": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/22-Sefr-El-Amthal/Tafseer-Sefr-El-Amthal__01-Chapter-10.html",
+        "11": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/22-Sefr-El-Amthal/Tafseer-Sefr-El-Amthal__01-Chapter-11.html",
+        "12": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/22-Sefr-El-Amthal/Tafseer-Sefr-El-Amthal__01-Chapter-12.html",
+        "13": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/22-Sefr-El-Amthal/Tafseer-Sefr-El-Amthal__01-Chapter-13.html",
+        "14": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/22-Sefr-El-Amthal/Tafseer-Sefr-El-Amthal__01-Chapter-14.html",
+        "15": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/22-Sefr-El-Amthal/Tafseer-Sefr-El-Amthal__01-Chapter-15.html",
+        "16": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/22-Sefr-El-Amthal/Tafseer-Sefr-El-Amthal__01-Chapter-16.html",
+        "17": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/22-Sefr-El-Amthal/Tafseer-Sefr-El-Amthal__01-Chapter-17.html",
+        "18": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/22-Sefr-El-Amthal/Tafseer-Sefr-El-Amthal__01-Chapter-18.html",
+        "19": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/22-Sefr-El-Amthal/Tafseer-Sefr-El-Amthal__01-Chapter-19.html",
+        "20": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/22-Sefr-El-Amthal/Tafseer-Sefr-El-Amthal__01-Chapter-20.html",
+        "21": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/22-Sefr-El-Amthal/Tafseer-Sefr-El-Amthal__01-Chapter-21.html",
+        "22": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/22-Sefr-El-Amthal/Tafseer-Sefr-El-Amthal__01-Chapter-22.html",
+        "23": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/22-Sefr-El-Amthal/Tafseer-Sefr-El-Amthal__01-Chapter-23.html",
+        "24": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/22-Sefr-El-Amthal/Tafseer-Sefr-El-Amthal__01-Chapter-24.html",
+        "25": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/22-Sefr-El-Amthal/Tafseer-Sefr-El-Amthal__01-Chapter-25.html",
+        "26": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/22-Sefr-El-Amthal/Tafseer-Sefr-El-Amthal__01-Chapter-26.html",
+        "27": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/22-Sefr-El-Amthal/Tafseer-Sefr-El-Amthal__01-Chapter-27.html",
+        "28": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/22-Sefr-El-Amthal/Tafseer-Sefr-El-Amthal__01-Chapter-28.html",
+        "29": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/22-Sefr-El-Amthal/Tafseer-Sefr-El-Amthal__01-Chapter-29.html",
+        "30": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/22-Sefr-El-Amthal/Tafseer-Sefr-El-Amthal__01-Chapter-30.html",
+        "31": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/22-Sefr-El-Amthal/Tafseer-Sefr-El-Amthal__01-Chapter-31.html"
+      }
+    },
+    "ECC": {
+      "index": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/23-Sefr-El-Gamaa/Tafseer-Sefr-El-Gam3a__00-index.html",
+      "chapters": {
+        "1": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/23-Sefr-El-Gamaa/Tafseer-Sefr-El-Gam3a__01-Chapter-01.html",
+        "2": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/23-Sefr-El-Gamaa/Tafseer-Sefr-El-Gam3a__01-Chapter-02.html",
+        "3": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/23-Sefr-El-Gamaa/Tafseer-Sefr-El-Gam3a__01-Chapter-03.html",
+        "4": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/23-Sefr-El-Gamaa/Tafseer-Sefr-El-Gam3a__01-Chapter-04.html",
+        "5": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/23-Sefr-El-Gamaa/Tafseer-Sefr-El-Gam3a__01-Chapter-05.html",
+        "6": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/23-Sefr-El-Gamaa/Tafseer-Sefr-El-Gam3a__01-Chapter-06.html",
+        "7": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/23-Sefr-El-Gamaa/Tafseer-Sefr-El-Gam3a__01-Chapter-07.html",
+        "8": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/23-Sefr-El-Gamaa/Tafseer-Sefr-El-Gam3a__01-Chapter-08.html",
+        "9": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/23-Sefr-El-Gamaa/Tafseer-Sefr-El-Gam3a__01-Chapter-09.html",
+        "10": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/23-Sefr-El-Gamaa/Tafseer-Sefr-El-Gam3a__01-Chapter-10.html",
+        "11": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/23-Sefr-El-Gamaa/Tafseer-Sefr-El-Gam3a__01-Chapter-11.html",
+        "12": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/23-Sefr-El-Gamaa/Tafseer-Sefr-El-Gam3a__01-Chapter-12.html"
+      }
+    },
+    "SNG": {
+      "index": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/24-Seft-Nashid-El-Anshad/Tafseer-Sefr-Nasheed-El-Anasheed__00-index.html",
+      "chapters": {
+        "1": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/24-Seft-Nashid-El-Anshad/Tafseer-Sefr-Nasheed-El-Anasheed__01-Chapter-01.html",
+        "2": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/24-Seft-Nashid-El-Anshad/Tafseer-Sefr-Nasheed-El-Anasheed__01-Chapter-02.html",
+        "3": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/24-Seft-Nashid-El-Anshad/Tafseer-Sefr-Nasheed-El-Anasheed__01-Chapter-03.html",
+        "4": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/24-Seft-Nashid-El-Anshad/Tafseer-Sefr-Nasheed-El-Anasheed__01-Chapter-04.html",
+        "5": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/24-Seft-Nashid-El-Anshad/Tafseer-Sefr-Nasheed-El-Anasheed__01-Chapter-05.html",
+        "6": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/24-Seft-Nashid-El-Anshad/Tafseer-Sefr-Nasheed-El-Anasheed__01-Chapter-06.html",
+        "7": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/24-Seft-Nashid-El-Anshad/Tafseer-Sefr-Nasheed-El-Anasheed__01-Chapter-07.html",
+        "8": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/24-Seft-Nashid-El-Anshad/Tafseer-Sefr-Nasheed-El-Anasheed__01-Chapter-08.html"
+      }
+    },
+    "WIS": {
+      "index": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/25-Sefr-El-Hekma/Tafseer-Sefr-El-Hekmet-Solaiman__00-index.html",
+      "chapters": {
+        "1": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/25-Sefr-El-Hekma/Tafseer-Sefr-El-Hekmet-Solaiman__01-Chapter-01.html",
+        "2": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/25-Sefr-El-Hekma/Tafseer-Sefr-El-Hekmet-Solaiman__01-Chapter-02.html",
+        "3": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/25-Sefr-El-Hekma/Tafseer-Sefr-El-Hekmet-Solaiman__01-Chapter-03.html",
+        "4": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/25-Sefr-El-Hekma/Tafseer-Sefr-El-Hekmet-Solaiman__01-Chapter-04.html",
+        "5": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/25-Sefr-El-Hekma/Tafseer-Sefr-El-Hekmet-Solaiman__01-Chapter-05.html",
+        "6": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/25-Sefr-El-Hekma/Tafseer-Sefr-El-Hekmet-Solaiman__01-Chapter-06.html",
+        "7": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/25-Sefr-El-Hekma/Tafseer-Sefr-El-Hekmet-Solaiman__01-Chapter-07.html",
+        "8": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/25-Sefr-El-Hekma/Tafseer-Sefr-El-Hekmet-Solaiman__01-Chapter-08.html",
+        "9": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/25-Sefr-El-Hekma/Tafseer-Sefr-El-Hekmet-Solaiman__01-Chapter-09.html",
+        "10": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/25-Sefr-El-Hekma/Tafseer-Sefr-El-Hekmet-Solaiman__01-Chapter-10.html",
+        "11": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/25-Sefr-El-Hekma/Tafseer-Sefr-El-Hekmet-Solaiman__01-Chapter-11.html",
+        "12": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/25-Sefr-El-Hekma/Tafseer-Sefr-El-Hekmet-Solaiman__01-Chapter-12.html",
+        "13": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/25-Sefr-El-Hekma/Tafseer-Sefr-El-Hekmet-Solaiman__01-Chapter-13.html",
+        "14": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/25-Sefr-El-Hekma/Tafseer-Sefr-El-Hekmet-Solaiman__01-Chapter-14.html",
+        "15": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/25-Sefr-El-Hekma/Tafseer-Sefr-El-Hekmet-Solaiman__01-Chapter-15.html",
+        "16": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/25-Sefr-El-Hekma/Tafseer-Sefr-El-Hekmet-Solaiman__01-Chapter-16.html",
+        "17": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/25-Sefr-El-Hekma/Tafseer-Sefr-El-Hekmet-Solaiman__01-Chapter-17.html",
+        "18": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/25-Sefr-El-Hekma/Tafseer-Sefr-El-Hekmet-Solaiman__01-Chapter-18.html",
+        "19": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/25-Sefr-El-Hekma/Tafseer-Sefr-El-Hekmet-Solaiman__01-Chapter-19.html"
+      }
+    },
+    "SIR": {
+      "index": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/26-Sefr-Yashoue-Ebn-Sirakh/Tafseer-Sefr-Yasho3-Ibn-Sira5__00-index.html",
+      "chapters": {
+        "1": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/26-Sefr-Yashoue-Ebn-Sirakh/Tafseer-Sefr-Yasho3-Ibn-Sira5__01-Chapter-01.html",
+        "2": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/26-Sefr-Yashoue-Ebn-Sirakh/Tafseer-Sefr-Yasho3-Ibn-Sira5__01-Chapter-02.html",
+        "3": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/26-Sefr-Yashoue-Ebn-Sirakh/Tafseer-Sefr-Yasho3-Ibn-Sira5__01-Chapter-03.html",
+        "4": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/26-Sefr-Yashoue-Ebn-Sirakh/Tafseer-Sefr-Yasho3-Ibn-Sira5__01-Chapter-04.html",
+        "5": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/26-Sefr-Yashoue-Ebn-Sirakh/Tafseer-Sefr-Yasho3-Ibn-Sira5__01-Chapter-05.html",
+        "6": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/26-Sefr-Yashoue-Ebn-Sirakh/Tafseer-Sefr-Yasho3-Ibn-Sira5__01-Chapter-06.html",
+        "7": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/26-Sefr-Yashoue-Ebn-Sirakh/Tafseer-Sefr-Yasho3-Ibn-Sira5__01-Chapter-07.html",
+        "8": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/26-Sefr-Yashoue-Ebn-Sirakh/Tafseer-Sefr-Yasho3-Ibn-Sira5__01-Chapter-08.html",
+        "9": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/26-Sefr-Yashoue-Ebn-Sirakh/Tafseer-Sefr-Yasho3-Ibn-Sira5__01-Chapter-09.html",
+        "10": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/26-Sefr-Yashoue-Ebn-Sirakh/Tafseer-Sefr-Yasho3-Ibn-Sira5__01-Chapter-10.html",
+        "11": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/26-Sefr-Yashoue-Ebn-Sirakh/Tafseer-Sefr-Yasho3-Ibn-Sira5__01-Chapter-11.html",
+        "12": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/26-Sefr-Yashoue-Ebn-Sirakh/Tafseer-Sefr-Yasho3-Ibn-Sira5__01-Chapter-12.html",
+        "13": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/26-Sefr-Yashoue-Ebn-Sirakh/Tafseer-Sefr-Yasho3-Ibn-Sira5__01-Chapter-13.html",
+        "14": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/26-Sefr-Yashoue-Ebn-Sirakh/Tafseer-Sefr-Yasho3-Ibn-Sira5__01-Chapter-14.html",
+        "15": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/26-Sefr-Yashoue-Ebn-Sirakh/Tafseer-Sefr-Yasho3-Ibn-Sira5__01-Chapter-15.html",
+        "16": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/26-Sefr-Yashoue-Ebn-Sirakh/Tafseer-Sefr-Yasho3-Ibn-Sira5__01-Chapter-16.html",
+        "17": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/26-Sefr-Yashoue-Ebn-Sirakh/Tafseer-Sefr-Yasho3-Ibn-Sira5__01-Chapter-17.html",
+        "18": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/26-Sefr-Yashoue-Ebn-Sirakh/Tafseer-Sefr-Yasho3-Ibn-Sira5__01-Chapter-18.html",
+        "19": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/26-Sefr-Yashoue-Ebn-Sirakh/Tafseer-Sefr-Yasho3-Ibn-Sira5__01-Chapter-19.html",
+        "20": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/26-Sefr-Yashoue-Ebn-Sirakh/Tafseer-Sefr-Yasho3-Ibn-Sira5__01-Chapter-20.html",
+        "21": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/26-Sefr-Yashoue-Ebn-Sirakh/Tafseer-Sefr-Yasho3-Ibn-Sira5__01-Chapter-21.html",
+        "22": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/26-Sefr-Yashoue-Ebn-Sirakh/Tafseer-Sefr-Yasho3-Ibn-Sira5__01-Chapter-22.html",
+        "23": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/26-Sefr-Yashoue-Ebn-Sirakh/Tafseer-Sefr-Yasho3-Ibn-Sira5__01-Chapter-23.html",
+        "24": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/26-Sefr-Yashoue-Ebn-Sirakh/Tafseer-Sefr-Yasho3-Ibn-Sira5__01-Chapter-24.html",
+        "25": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/26-Sefr-Yashoue-Ebn-Sirakh/Tafseer-Sefr-Yasho3-Ibn-Sira5__01-Chapter-25.html",
+        "26": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/26-Sefr-Yashoue-Ebn-Sirakh/Tafseer-Sefr-Yasho3-Ibn-Sira5__01-Chapter-26.html",
+        "27": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/26-Sefr-Yashoue-Ebn-Sirakh/Tafseer-Sefr-Yasho3-Ibn-Sira5__01-Chapter-27.html",
+        "28": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/26-Sefr-Yashoue-Ebn-Sirakh/Tafseer-Sefr-Yasho3-Ibn-Sira5__01-Chapter-28.html",
+        "29": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/26-Sefr-Yashoue-Ebn-Sirakh/Tafseer-Sefr-Yasho3-Ibn-Sira5__01-Chapter-29.html",
+        "30": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/26-Sefr-Yashoue-Ebn-Sirakh/Tafseer-Sefr-Yasho3-Ibn-Sira5__01-Chapter-30.html",
+        "31": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/26-Sefr-Yashoue-Ebn-Sirakh/Tafseer-Sefr-Yasho3-Ibn-Sira5__01-Chapter-31.html",
+        "32": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/26-Sefr-Yashoue-Ebn-Sirakh/Tafseer-Sefr-Yasho3-Ibn-Sira5__01-Chapter-32.html",
+        "33": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/26-Sefr-Yashoue-Ebn-Sirakh/Tafseer-Sefr-Yasho3-Ibn-Sira5__01-Chapter-33.html",
+        "34": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/26-Sefr-Yashoue-Ebn-Sirakh/Tafseer-Sefr-Yasho3-Ibn-Sira5__01-Chapter-34.html",
+        "35": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/26-Sefr-Yashoue-Ebn-Sirakh/Tafseer-Sefr-Yasho3-Ibn-Sira5__01-Chapter-35.html",
+        "36": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/26-Sefr-Yashoue-Ebn-Sirakh/Tafseer-Sefr-Yasho3-Ibn-Sira5__01-Chapter-36.html",
+        "37": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/26-Sefr-Yashoue-Ebn-Sirakh/Tafseer-Sefr-Yasho3-Ibn-Sira5__01-Chapter-37.html",
+        "38": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/26-Sefr-Yashoue-Ebn-Sirakh/Tafseer-Sefr-Yasho3-Ibn-Sira5__01-Chapter-38.html",
+        "39": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/26-Sefr-Yashoue-Ebn-Sirakh/Tafseer-Sefr-Yasho3-Ibn-Sira5__01-Chapter-39.html",
+        "40": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/26-Sefr-Yashoue-Ebn-Sirakh/Tafseer-Sefr-Yasho3-Ibn-Sira5__01-Chapter-40.html",
+        "41": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/26-Sefr-Yashoue-Ebn-Sirakh/Tafseer-Sefr-Yasho3-Ibn-Sira5__01-Chapter-41.html",
+        "42": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/26-Sefr-Yashoue-Ebn-Sirakh/Tafseer-Sefr-Yasho3-Ibn-Sira5__01-Chapter-42.html",
+        "43": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/26-Sefr-Yashoue-Ebn-Sirakh/Tafseer-Sefr-Yasho3-Ibn-Sira5__01-Chapter-43.html",
+        "44": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/26-Sefr-Yashoue-Ebn-Sirakh/Tafseer-Sefr-Yasho3-Ibn-Sira5__01-Chapter-44.html",
+        "45": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/26-Sefr-Yashoue-Ebn-Sirakh/Tafseer-Sefr-Yasho3-Ibn-Sira5__01-Chapter-45.html",
+        "46": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/26-Sefr-Yashoue-Ebn-Sirakh/Tafseer-Sefr-Yasho3-Ibn-Sira5__01-Chapter-46.html",
+        "47": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/26-Sefr-Yashoue-Ebn-Sirakh/Tafseer-Sefr-Yasho3-Ibn-Sira5__01-Chapter-47.html",
+        "48": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/26-Sefr-Yashoue-Ebn-Sirakh/Tafseer-Sefr-Yasho3-Ibn-Sira5__01-Chapter-48.html",
+        "49": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/26-Sefr-Yashoue-Ebn-Sirakh/Tafseer-Sefr-Yasho3-Ibn-Sira5__01-Chapter-49.html",
+        "50": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/26-Sefr-Yashoue-Ebn-Sirakh/Tafseer-Sefr-Yasho3-Ibn-Sira5__01-Chapter-50.html",
+        "51": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/26-Sefr-Yashoue-Ebn-Sirakh/Tafseer-Sefr-Yasho3-Ibn-Sira5__01-Chapter-51.html"
+      }
+    },
+    "ISA": {
+      "index": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/27-Sefr-Asheia/Tafseer-Sefr-Ash3eia2__00-index.html",
+      "chapters": {
+        "1": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/27-Sefr-Asheia/Tafseer-Sefr-Ash3eia2__01-Chapter-01.html",
+        "2": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/27-Sefr-Asheia/Tafseer-Sefr-Ash3eia2__01-Chapter-02.html",
+        "3": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/27-Sefr-Asheia/Tafseer-Sefr-Ash3eia2__01-Chapter-03.html",
+        "4": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/27-Sefr-Asheia/Tafseer-Sefr-Ash3eia2__01-Chapter-04.html",
+        "5": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/27-Sefr-Asheia/Tafseer-Sefr-Ash3eia2__01-Chapter-05.html",
+        "6": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/27-Sefr-Asheia/Tafseer-Sefr-Ash3eia2__01-Chapter-06.html",
+        "7": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/27-Sefr-Asheia/Tafseer-Sefr-Ash3eia2__01-Chapter-07.html",
+        "8": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/27-Sefr-Asheia/Tafseer-Sefr-Ash3eia2__01-Chapter-08.html",
+        "9": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/27-Sefr-Asheia/Tafseer-Sefr-Ash3eia2__01-Chapter-09.html",
+        "10": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/27-Sefr-Asheia/Tafseer-Sefr-Ash3eia2__01-Chapter-10.html",
+        "11": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/27-Sefr-Asheia/Tafseer-Sefr-Ash3eia2__01-Chapter-11.html",
+        "12": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/27-Sefr-Asheia/Tafseer-Sefr-Ash3eia2__01-Chapter-12.html",
+        "13": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/27-Sefr-Asheia/Tafseer-Sefr-Ash3eia2__01-Chapter-13.html",
+        "14": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/27-Sefr-Asheia/Tafseer-Sefr-Ash3eia2__01-Chapter-14.html",
+        "15": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/27-Sefr-Asheia/Tafseer-Sefr-Ash3eia2__01-Chapter-15.html",
+        "16": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/27-Sefr-Asheia/Tafseer-Sefr-Ash3eia2__01-Chapter-16.html",
+        "17": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/27-Sefr-Asheia/Tafseer-Sefr-Ash3eia2__01-Chapter-17.html",
+        "18": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/27-Sefr-Asheia/Tafseer-Sefr-Ash3eia2__01-Chapter-18.html",
+        "19": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/27-Sefr-Asheia/Tafseer-Sefr-Ash3eia2__01-Chapter-19.html",
+        "20": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/27-Sefr-Asheia/Tafseer-Sefr-Ash3eia2__01-Chapter-20.html",
+        "21": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/27-Sefr-Asheia/Tafseer-Sefr-Ash3eia2__01-Chapter-21.html",
+        "22": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/27-Sefr-Asheia/Tafseer-Sefr-Ash3eia2__01-Chapter-22.html",
+        "23": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/27-Sefr-Asheia/Tafseer-Sefr-Ash3eia2__01-Chapter-23.html",
+        "24": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/27-Sefr-Asheia/Tafseer-Sefr-Ash3eia2__01-Chapter-24.html",
+        "25": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/27-Sefr-Asheia/Tafseer-Sefr-Ash3eia2__01-Chapter-25.html",
+        "26": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/27-Sefr-Asheia/Tafseer-Sefr-Ash3eia2__01-Chapter-26.html",
+        "27": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/27-Sefr-Asheia/Tafseer-Sefr-Ash3eia2__01-Chapter-27.html",
+        "28": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/27-Sefr-Asheia/Tafseer-Sefr-Ash3eia2__01-Chapter-28.html",
+        "29": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/27-Sefr-Asheia/Tafseer-Sefr-Ash3eia2__01-Chapter-29.html",
+        "30": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/27-Sefr-Asheia/Tafseer-Sefr-Ash3eia2__01-Chapter-30.html",
+        "31": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/27-Sefr-Asheia/Tafseer-Sefr-Ash3eia2__01-Chapter-31.html",
+        "32": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/27-Sefr-Asheia/Tafseer-Sefr-Ash3eia2__01-Chapter-32.html",
+        "33": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/27-Sefr-Asheia/Tafseer-Sefr-Ash3eia2__01-Chapter-33.html",
+        "34": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/27-Sefr-Asheia/Tafseer-Sefr-Ash3eia2__01-Chapter-34.html",
+        "35": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/27-Sefr-Asheia/Tafseer-Sefr-Ash3eia2__01-Chapter-35.html",
+        "36": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/27-Sefr-Asheia/Tafseer-Sefr-Ash3eia2__01-Chapter-36.html",
+        "37": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/27-Sefr-Asheia/Tafseer-Sefr-Ash3eia2__01-Chapter-37.html",
+        "38": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/27-Sefr-Asheia/Tafseer-Sefr-Ash3eia2__01-Chapter-38.html",
+        "39": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/27-Sefr-Asheia/Tafseer-Sefr-Ash3eia2__01-Chapter-39.html",
+        "40": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/27-Sefr-Asheia/Tafseer-Sefr-Ash3eia2__01-Chapter-40.html",
+        "41": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/27-Sefr-Asheia/Tafseer-Sefr-Ash3eia2__01-Chapter-41.html",
+        "42": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/27-Sefr-Asheia/Tafseer-Sefr-Ash3eia2__01-Chapter-42.html",
+        "43": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/27-Sefr-Asheia/Tafseer-Sefr-Ash3eia2__01-Chapter-43.html",
+        "44": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/27-Sefr-Asheia/Tafseer-Sefr-Ash3eia2__01-Chapter-44.html",
+        "45": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/27-Sefr-Asheia/Tafseer-Sefr-Ash3eia2__01-Chapter-45.html",
+        "46": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/27-Sefr-Asheia/Tafseer-Sefr-Ash3eia2__01-Chapter-46.html",
+        "47": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/27-Sefr-Asheia/Tafseer-Sefr-Ash3eia2__01-Chapter-47.html",
+        "48": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/27-Sefr-Asheia/Tafseer-Sefr-Ash3eia2__01-Chapter-48.html",
+        "49": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/27-Sefr-Asheia/Tafseer-Sefr-Ash3eia2__01-Chapter-49.html",
+        "50": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/27-Sefr-Asheia/Tafseer-Sefr-Ash3eia2__01-Chapter-50.html",
+        "51": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/27-Sefr-Asheia/Tafseer-Sefr-Ash3eia2__01-Chapter-51.html",
+        "52": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/27-Sefr-Asheia/Tafseer-Sefr-Ash3eia2__01-Chapter-52.html",
+        "53": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/27-Sefr-Asheia/Tafseer-Sefr-Ash3eia2__01-Chapter-53.html",
+        "54": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/27-Sefr-Asheia/Tafseer-Sefr-Ash3eia2__01-Chapter-54.html",
+        "55": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/27-Sefr-Asheia/Tafseer-Sefr-Ash3eia2__01-Chapter-55.html",
+        "56": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/27-Sefr-Asheia/Tafseer-Sefr-Ash3eia2__01-Chapter-56.html",
+        "57": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/27-Sefr-Asheia/Tafseer-Sefr-Ash3eia2__01-Chapter-57.html",
+        "58": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/27-Sefr-Asheia/Tafseer-Sefr-Ash3eia2__01-Chapter-58.html",
+        "59": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/27-Sefr-Asheia/Tafseer-Sefr-Ash3eia2__01-Chapter-59.html",
+        "60": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/27-Sefr-Asheia/Tafseer-Sefr-Ash3eia2__01-Chapter-60.html",
+        "61": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/27-Sefr-Asheia/Tafseer-Sefr-Ash3eia2__01-Chapter-61.html",
+        "62": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/27-Sefr-Asheia/Tafseer-Sefr-Ash3eia2__01-Chapter-62.html",
+        "63": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/27-Sefr-Asheia/Tafseer-Sefr-Ash3eia2__01-Chapter-63.html",
+        "64": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/27-Sefr-Asheia/Tafseer-Sefr-Ash3eia2__01-Chapter-64.html",
+        "65": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/27-Sefr-Asheia/Tafseer-Sefr-Ash3eia2__01-Chapter-65.html",
+        "66": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/27-Sefr-Asheia/Tafseer-Sefr-Ash3eia2__01-Chapter-66.html"
+      }
+    },
+    "EZK": {
+      "index": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/31-Sefr-Hazkyal/Tafseer-Sefr-Hazkial__00-index.html",
+      "chapters": {
+        "1": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/31-Sefr-Hazkyal/Tafseer-Sefr-Hazkial__01-Chapter-01.html",
+        "2": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/31-Sefr-Hazkyal/Tafseer-Sefr-Hazkial__01-Chapter-02.html",
+        "3": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/31-Sefr-Hazkyal/Tafseer-Sefr-Hazkial__01-Chapter-03.html",
+        "4": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/31-Sefr-Hazkyal/Tafseer-Sefr-Hazkial__01-Chapter-04.html",
+        "5": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/31-Sefr-Hazkyal/Tafseer-Sefr-Hazkial__01-Chapter-05.html",
+        "6": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/31-Sefr-Hazkyal/Tafseer-Sefr-Hazkial__01-Chapter-06.html",
+        "7": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/31-Sefr-Hazkyal/Tafseer-Sefr-Hazkial__01-Chapter-07.html",
+        "8": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/31-Sefr-Hazkyal/Tafseer-Sefr-Hazkial__01-Chapter-08.html",
+        "9": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/31-Sefr-Hazkyal/Tafseer-Sefr-Hazkial__01-Chapter-09.html",
+        "10": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/31-Sefr-Hazkyal/Tafseer-Sefr-Hazkial__01-Chapter-10.html",
+        "11": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/31-Sefr-Hazkyal/Tafseer-Sefr-Hazkial__01-Chapter-11.html",
+        "12": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/31-Sefr-Hazkyal/Tafseer-Sefr-Hazkial__01-Chapter-12.html",
+        "13": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/31-Sefr-Hazkyal/Tafseer-Sefr-Hazkial__01-Chapter-13.html",
+        "14": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/31-Sefr-Hazkyal/Tafseer-Sefr-Hazkial__01-Chapter-14.html",
+        "15": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/31-Sefr-Hazkyal/Tafseer-Sefr-Hazkial__01-Chapter-15.html",
+        "16": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/31-Sefr-Hazkyal/Tafseer-Sefr-Hazkial__01-Chapter-16.html",
+        "17": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/31-Sefr-Hazkyal/Tafseer-Sefr-Hazkial__01-Chapter-17.html",
+        "18": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/31-Sefr-Hazkyal/Tafseer-Sefr-Hazkial__01-Chapter-18.html",
+        "19": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/31-Sefr-Hazkyal/Tafseer-Sefr-Hazkial__01-Chapter-19.html",
+        "20": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/31-Sefr-Hazkyal/Tafseer-Sefr-Hazkial__01-Chapter-20.html",
+        "21": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/31-Sefr-Hazkyal/Tafseer-Sefr-Hazkial__01-Chapter-21.html",
+        "22": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/31-Sefr-Hazkyal/Tafseer-Sefr-Hazkial__01-Chapter-22.html",
+        "23": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/31-Sefr-Hazkyal/Tafseer-Sefr-Hazkial__01-Chapter-23.html",
+        "24": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/31-Sefr-Hazkyal/Tafseer-Sefr-Hazkial__01-Chapter-24.html",
+        "25": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/31-Sefr-Hazkyal/Tafseer-Sefr-Hazkial__01-Chapter-25.html",
+        "26": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/31-Sefr-Hazkyal/Tafseer-Sefr-Hazkial__01-Chapter-26.html",
+        "27": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/31-Sefr-Hazkyal/Tafseer-Sefr-Hazkial__01-Chapter-27.html",
+        "28": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/31-Sefr-Hazkyal/Tafseer-Sefr-Hazkial__01-Chapter-28.html",
+        "29": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/31-Sefr-Hazkyal/Tafseer-Sefr-Hazkial__01-Chapter-29.html",
+        "30": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/31-Sefr-Hazkyal/Tafseer-Sefr-Hazkial__01-Chapter-30.html",
+        "31": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/31-Sefr-Hazkyal/Tafseer-Sefr-Hazkial__01-Chapter-31.html",
+        "32": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/31-Sefr-Hazkyal/Tafseer-Sefr-Hazkial__01-Chapter-32.html",
+        "33": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/31-Sefr-Hazkyal/Tafseer-Sefr-Hazkial__01-Chapter-33.html",
+        "34": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/31-Sefr-Hazkyal/Tafseer-Sefr-Hazkial__01-Chapter-34.html",
+        "35": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/31-Sefr-Hazkyal/Tafseer-Sefr-Hazkial__01-Chapter-35.html",
+        "36": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/31-Sefr-Hazkyal/Tafseer-Sefr-Hazkial__01-Chapter-36.html",
+        "37": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/31-Sefr-Hazkyal/Tafseer-Sefr-Hazkial__01-Chapter-37.html",
+        "38": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/31-Sefr-Hazkyal/Tafseer-Sefr-Hazkial__01-Chapter-38.html",
+        "39": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/31-Sefr-Hazkyal/Tafseer-Sefr-Hazkial__01-Chapter-39.html",
+        "40": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/31-Sefr-Hazkyal/Tafseer-Sefr-Hazkial__01-Chapter-40.html",
+        "41": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/31-Sefr-Hazkyal/Tafseer-Sefr-Hazkial__01-Chapter-41.html",
+        "42": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/31-Sefr-Hazkyal/Tafseer-Sefr-Hazkial__01-Chapter-42.html",
+        "43": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/31-Sefr-Hazkyal/Tafseer-Sefr-Hazkial__01-Chapter-43.html",
+        "44": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/31-Sefr-Hazkyal/Tafseer-Sefr-Hazkial__01-Chapter-44.html",
+        "45": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/31-Sefr-Hazkyal/Tafseer-Sefr-Hazkial__01-Chapter-45.html",
+        "46": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/31-Sefr-Hazkyal/Tafseer-Sefr-Hazkial__01-Chapter-46.html",
+        "47": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/31-Sefr-Hazkyal/Tafseer-Sefr-Hazkial__01-Chapter-47.html",
+        "48": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/31-Sefr-Hazkyal/Tafseer-Sefr-Hazkial__01-Chapter-48.html"
+      }
+    },
+    "DAN": {
+      "index": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/32-Sefr-Danial/Tafseer-Sefr-Daniel__00-index.html",
+      "chapters": {
+        "1": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/32-Sefr-Danial/Tafseer-Sefr-Daniel__01-Chapter-01.html",
+        "2": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/32-Sefr-Danial/Tafseer-Sefr-Daniel__01-Chapter-02.html",
+        "3": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/32-Sefr-Danial/Tafseer-Sefr-Daniel__01-Chapter-03.html",
+        "4": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/32-Sefr-Danial/Tafseer-Sefr-Daniel__01-Chapter-04.html",
+        "5": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/32-Sefr-Danial/Tafseer-Sefr-Daniel__01-Chapter-05.html",
+        "6": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/32-Sefr-Danial/Tafseer-Sefr-Daniel__01-Chapter-06.html",
+        "7": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/32-Sefr-Danial/Tafseer-Sefr-Daniel__01-Chapter-07.html",
+        "8": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/32-Sefr-Danial/Tafseer-Sefr-Daniel__01-Chapter-08.html",
+        "9": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/32-Sefr-Danial/Tafseer-Sefr-Daniel__01-Chapter-09.html",
+        "10": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/32-Sefr-Danial/Tafseer-Sefr-Daniel__01-Chapter-10.html",
+        "11": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/32-Sefr-Danial/Tafseer-Sefr-Daniel__01-Chapter-11.html",
+        "12": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/32-Sefr-Danial/Tafseer-Sefr-Daniel__01-Chapter-12.html",
+        "13": "https://st-takla.org/pub_Bible-Interpretations/Tafaseer-index/1-Al-3ahd-Al-Kadim/32-Daniel/Daniel-Chapter-13.html",
+        "14": "https://st-takla.org/pub_Bible-Interpretations/Tafaseer-index/1-Al-3ahd-Al-Kadim/32-Daniel/Daniel-Chapter-14.html"
+      }
+    },
+    "HOS": {
+      "index": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/33-Sefr-Hoshae/Tafseer-Sefr-Hosha3__00-index.html",
+      "chapters": {
+        "1": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/33-Sefr-Hoshae/Tafseer-Sefr-Hosha3__01-Chapter-01.html",
+        "2": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/33-Sefr-Hoshae/Tafseer-Sefr-Hosha3__01-Chapter-02.html",
+        "3": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/33-Sefr-Hoshae/Tafseer-Sefr-Hosha3__01-Chapter-03.html",
+        "4": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/33-Sefr-Hoshae/Tafseer-Sefr-Hosha3__01-Chapter-04.html",
+        "5": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/33-Sefr-Hoshae/Tafseer-Sefr-Hosha3__01-Chapter-05.html",
+        "6": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/33-Sefr-Hoshae/Tafseer-Sefr-Hosha3__01-Chapter-06.html",
+        "7": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/33-Sefr-Hoshae/Tafseer-Sefr-Hosha3__01-Chapter-07.html",
+        "8": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/33-Sefr-Hoshae/Tafseer-Sefr-Hosha3__01-Chapter-08.html",
+        "9": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/33-Sefr-Hoshae/Tafseer-Sefr-Hosha3__01-Chapter-09.html",
+        "10": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/33-Sefr-Hoshae/Tafseer-Sefr-Hosha3__01-Chapter-10.html",
+        "11": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/33-Sefr-Hoshae/Tafseer-Sefr-Hosha3__01-Chapter-11.html",
+        "12": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/33-Sefr-Hoshae/Tafseer-Sefr-Hosha3__01-Chapter-12.html",
+        "13": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/33-Sefr-Hoshae/Tafseer-Sefr-Hosha3__01-Chapter-13.html",
+        "14": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/33-Sefr-Hoshae/Tafseer-Sefr-Hosha3__01-Chapter-14.html"
+      }
+    },
+    "JOL": {
+      "index": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/34-Sefr-Youil/Tafseer-Sefr-Yo2il__00-index.html",
+      "chapters": {
+        "1": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/34-Sefr-Youil/Tafseer-Sefr-Yo2il__01-Chapter-01.html",
+        "2": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/34-Sefr-Youil/Tafseer-Sefr-Yo2il__01-Chapter-02.html",
+        "3": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/34-Sefr-Youil/Tafseer-Sefr-Yo2il__01-Chapter-03.html"
+      }
+    },
+    "AMO": {
+      "index": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/35-Sefr-Amos/Tafseer-Sefr-3amoos__00-index.html",
+      "chapters": {
+        "1": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/35-Sefr-Amos/Tafseer-Sefr-3amoos__01-Chapter-01.html",
+        "2": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/35-Sefr-Amos/Tafseer-Sefr-3amoos__01-Chapter-02.html",
+        "3": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/35-Sefr-Amos/Tafseer-Sefr-3amoos__01-Chapter-03.html",
+        "4": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/35-Sefr-Amos/Tafseer-Sefr-3amoos__01-Chapter-04.html",
+        "5": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/35-Sefr-Amos/Tafseer-Sefr-3amoos__01-Chapter-05.html",
+        "6": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/35-Sefr-Amos/Tafseer-Sefr-3amoos__01-Chapter-06.html",
+        "7": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/35-Sefr-Amos/Tafseer-Sefr-3amoos__01-Chapter-07.html",
+        "8": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/35-Sefr-Amos/Tafseer-Sefr-3amoos__01-Chapter-08.html",
+        "9": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/35-Sefr-Amos/Tafseer-Sefr-3amoos__01-Chapter-09.html"
+      }
+    },
+    "OBA": {
+      "index": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/36-Sefr-Obedia/Tafseer-Sefr-Obedya__00-index.html",
+      "chapters": {
+        "1": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/36-Sefr-Obedia/Tafseer-Sefr-Obedya__01-Chapter-01.html"
+      }
+    },
+    "JON": {
+      "index": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/37-Sefr-Younan/Tafseer-Sefr-Yonan__00-index.html",
+      "chapters": {
+        "1": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/37-Sefr-Younan/Tafseer-Sefr-Yonan__01-Chapter-01.html",
+        "2": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/37-Sefr-Younan/Tafseer-Sefr-Yonan__01-Chapter-02.html",
+        "3": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/37-Sefr-Younan/Tafseer-Sefr-Yonan__01-Chapter-03.html",
+        "4": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/37-Sefr-Younan/Tafseer-Sefr-Yonan__01-Chapter-04.html"
+      }
+    },
+    "MIC": {
+      "index": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/38-Sefr-Mikha/Tafseer-Sefr-Mikha__00-index.html",
+      "chapters": {
+        "1": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/38-Sefr-Mikha/Tafseer-Sefr-Mikha__01-Chapter-01.html",
+        "2": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/38-Sefr-Mikha/Tafseer-Sefr-Mikha__01-Chapter-02.html",
+        "3": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/38-Sefr-Mikha/Tafseer-Sefr-Mikha__01-Chapter-03.html",
+        "4": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/38-Sefr-Mikha/Tafseer-Sefr-Mikha__01-Chapter-04.html",
+        "5": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/38-Sefr-Mikha/Tafseer-Sefr-Mikha__01-Chapter-05.html",
+        "6": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/38-Sefr-Mikha/Tafseer-Sefr-Mikha__01-Chapter-06.html",
+        "7": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/38-Sefr-Mikha/Tafseer-Sefr-Mikha__01-Chapter-07.html"
+      }
+    },
+    "NAM": {
+      "index": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/39-Sefr-Nahoum/Tafseer-Sefr-Nahoom__00-index.html",
+      "chapters": {
+        "1": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/39-Sefr-Nahoum/Tafseer-Sefr-Nahoom__01-Chapter-01.html",
+        "2": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/39-Sefr-Nahoum/Tafseer-Sefr-Nahoom__01-Chapter-02.html",
+        "3": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/39-Sefr-Nahoum/Tafseer-Sefr-Nahoom__01-Chapter-03.html"
+      }
+    },
+    "HAB": {
+      "index": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/40-Sefr-Habkouk/Tafseer-Sefr-Habakouk__00-index.html",
+      "chapters": {
+        "1": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/40-Sefr-Habkouk/Tafseer-Sefr-Habakouk__01-Chapter-01.html",
+        "2": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/40-Sefr-Habkouk/Tafseer-Sefr-Habakouk__01-Chapter-02.html",
+        "3": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/40-Sefr-Habkouk/Tafseer-Sefr-Habakouk__01-Chapter-03.html"
+      }
+    },
+    "ZEP": {
+      "index": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/41-Sefr-Safania/Tafseer-Sefr-Safanya__00-index.html",
+      "chapters": {
+        "1": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/41-Sefr-Safania/Tafseer-Sefr-Safanya__01-Chapter-01.html",
+        "2": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/41-Sefr-Safania/Tafseer-Sefr-Safanya__01-Chapter-02.html",
+        "3": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/41-Sefr-Safania/Tafseer-Sefr-Safanya__01-Chapter-03.html"
+      }
+    },
+    "HAG": {
+      "index": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/42-Sefr-Hegy/Tafseer-Sefr-Heggi__00-index.html",
+      "chapters": {
+        "1": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/42-Sefr-Hegy/Tafseer-Sefr-Heggi__01-Chapter-01.html",
+        "2": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/42-Sefr-Hegy/Tafseer-Sefr-Heggi__01-Chapter-02.html"
+      }
+    },
+    "ZEC": {
+      "index": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/43-Sefr-Zakarya/Tafseer-Sefr-Zakaria__00-index.html",
+      "chapters": {
+        "1": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/43-Sefr-Zakarya/Tafseer-Sefr-Zakaria__01-Chapter-01.html",
+        "2": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/43-Sefr-Zakarya/Tafseer-Sefr-Zakaria__01-Chapter-02.html",
+        "3": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/43-Sefr-Zakarya/Tafseer-Sefr-Zakaria__01-Chapter-03.html",
+        "4": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/43-Sefr-Zakarya/Tafseer-Sefr-Zakaria__01-Chapter-04.html",
+        "5": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/43-Sefr-Zakarya/Tafseer-Sefr-Zakaria__01-Chapter-05.html",
+        "6": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/43-Sefr-Zakarya/Tafseer-Sefr-Zakaria__01-Chapter-06.html",
+        "7": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/43-Sefr-Zakarya/Tafseer-Sefr-Zakaria__01-Chapter-07.html",
+        "8": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/43-Sefr-Zakarya/Tafseer-Sefr-Zakaria__01-Chapter-08.html",
+        "9": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/43-Sefr-Zakarya/Tafseer-Sefr-Zakaria__01-Chapter-09.html",
+        "10": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/43-Sefr-Zakarya/Tafseer-Sefr-Zakaria__01-Chapter-10.html",
+        "11": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/43-Sefr-Zakarya/Tafseer-Sefr-Zakaria__01-Chapter-11.html",
+        "12": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/43-Sefr-Zakarya/Tafseer-Sefr-Zakaria__01-Chapter-12.html",
+        "13": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/43-Sefr-Zakarya/Tafseer-Sefr-Zakaria__01-Chapter-13.html",
+        "14": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/43-Sefr-Zakarya/Tafseer-Sefr-Zakaria__01-Chapter-14.html"
+      }
+    },
+    "MAL": {
+      "index": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/44-Sefr-Malakhi/Tafseer-Sefr-Malakhy__00-index.html",
+      "chapters": {
+        "1": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/44-Sefr-Malakhi/Tafseer-Sefr-Malakhy__01-Chapter-01.html",
+        "2": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/44-Sefr-Malakhi/Tafseer-Sefr-Malakhy__01-Chapter-02.html",
+        "3": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/44-Sefr-Malakhi/Tafseer-Sefr-Malakhy__01-Chapter-03.html",
+        "4": "https://st-takla.org/pub_Bible-Interpretations/Holy-Bible-Tafsir-01-Old-Testament/Father-Tadros-Yacoub-Malaty/44-Sefr-Malakhi/Tafseer-Sefr-Malakhy__01-Chapter-04.html"
+      }
+    }
+  }
+}

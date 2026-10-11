@@ -1,0 +1,27 @@
+id: stmark-church-commentary
+title: تفسير الكتاب المقدس — كنيسة مارمرقس (St. Mark Church Bible commentary)
+organization: St. Mark Coptic Orthodox Church (stmarkos.org)
+url: https://www.stmarkos.org/index.php/ar/2013-12-28-16-52-18/2013-12-28-17-02-27
+publicationDate: 2006–2014 (dates in the books' prefaces)
+languages: [ar]
+contentType: commentary
+license:
+  id: custom
+  statement: "Use authorized by a member of the St. Mark website team on 2026-10-11, in the project owner's words: \"these are faith teachings that should be preached, not copyrighted\". Written confirmation from the church is pending."
+  verifiedUrl: https://www.stmarkos.org/index.php/ar/2013-12-28-16-52-18/2013-12-28-17-02-27
+inUse: true
+usage: import
+redistributionAllowed: true
+attribution: "تفسير الكتاب المقدس، كنيسة مارمرقس (stmarkos.org). St. Mark Church Bible commentary, used with permission."
+commercialUse: unknown
+modification: restricted
+lastVerifiedAt: "2026-10-11"
+coversDeuterocanon: true
+notes: >-
+  Arabic only. 52 PDFs pinned by SHA-256 in data/commentary/stmark/sources.json, covering all 27 New
+  Testament books, 23 Old Testament books, Tobit and Judith. Text is extracted from the PDFs
+  (scripts/commentary). The Matthew, Mark, Luke and John PDFs use fonts that scramble some letter
+  pairs; their text is repaired automatically and marked as such. The Job and Esther PDFs have no
+  text layer, so the site links to them. The text is shown unmodified apart from extraction repairs,
+  and is never translated or summarized without review. The church's own page links RomansFull-Ar.pdf
+  and JohnThirdFull-Ar.pdf, which return 404; the files are at the -AR names.

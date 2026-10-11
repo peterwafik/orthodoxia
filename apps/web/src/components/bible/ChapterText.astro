@@ -141,10 +141,17 @@ const classFor = (styles: readonly string[]): string | undefined =>
     text-decoration: underline;
   }
 
+  /* The verse whose interpretation is shown (see CommentaryPanel). */
+  .chapter-text .selected,
   .chapter-text .verse:target,
   .chapter-text .line:target {
     background: color-mix(in srgb, var(--accent) 16%, transparent);
     border-radius: 3px;
+  }
+
+  [data-has-commentary] .chapter-text .verse,
+  [data-has-commentary] .chapter-text .line {
+    cursor: pointer;
   }
 
   .chapter-text .poetry {

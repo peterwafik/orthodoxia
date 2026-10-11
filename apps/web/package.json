@@ -19,6 +19,7 @@
     "@fontsource-variable/noto-sans-arabic": "^5.3.0",
     "@fontsource-variable/source-serif-4": "^5.3.1",
     "@orthodoxia/bible": "0.1.0",
+    "@orthodoxia/commentary": "0.1.0",
     "@orthodoxia/content-schema": "0.1.0",
     "astro": "^7.3.8",
     "yaml": "^2.9.1"

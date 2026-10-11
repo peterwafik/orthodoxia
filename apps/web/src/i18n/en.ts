@@ -148,6 +148,29 @@ export const en = {
     arabicDeuterocanonNotice:
       'The Arabic text of this book comes from Arabic Wikisource, where it was added without naming its source. Its wording and numbering follow the Latin Vulgate tradition (likely the 19th-century Jesuit translation), which differs in places from the Septuagint text the Coptic Orthodox Church follows. Its provenance is under review.',
   },
+  commentary: {
+    title: 'Interpretation',
+    stMark: 'St. Mark Church commentary',
+    chooseVerse: 'Select a verse number to read its interpretation, or read the whole chapter below.',
+    forVerse: (verse: string) => `Interpretation of verse ${verse}`,
+    showAll: 'Show the whole chapter',
+    noEntryForVerse: 'This verse has no separate entry. The interpretation of the whole chapter is below.',
+    verses: (start: number, end: number) => (start === end ? `Verse ${start}` : `Verses ${start}–${end}`),
+    original: (page: number) => `Read in the original (PDF, page ${page})`,
+    repairedNotice:
+      'This book’s text was extracted automatically from the church’s PDF, whose fonts scramble some letters. A few words may contain errors; check the original when in doubt.',
+    numberingNotice:
+      'The commentary follows the verse numbering of the Church’s edition of this book, which can differ from the text shown here.',
+    pdfOnly: 'The St. Mark Church commentary on this book is available as a PDF.',
+    openPdf: 'Open the commentary (PDF)',
+    malaty: 'Fr. Tadros Yacoub Malaty’s commentary on this chapter',
+    malatyNote: 'In Arabic, on St-Takla.org.',
+    arabicOnly: 'The St. Mark Church commentary on this chapter is in Arabic.',
+    readArabic: 'Read this chapter with its interpretation in Arabic',
+    englishPending: 'An English translation is in preparation and will be published only after review.',
+    none: 'No interpretation is available for this chapter yet.',
+    attribution: 'Used with the permission of the St. Mark Church website team.',
+  },
   notFound: {
     title: 'Page not found',
     body: 'This address does not match any page. It may have moved, or the link may contain a typo.',

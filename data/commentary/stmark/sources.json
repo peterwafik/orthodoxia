@@ -1,0 +1,368 @@
+{
+  "files": [
+    {
+      "file": "sefr-takween.pdf",
+      "url": "https://www.stmarkos.org/explainbible/sefr-takween.pdf",
+      "sha256": "f8ecc7b7fc7f573da9250ff692321db1489acb34d851d63057f97e86e65b7a93",
+      "bytes": 4756851,
+      "retrievedAt": "2026-10-11"
+    },
+    {
+      "file": "sefr-alkhroug.pdf",
+      "url": "https://www.stmarkos.org/explainbible/sefr-alkhroug.pdf",
+      "sha256": "b638bb6aa1ac499f06e632333830e564e0ee73fe812e813d751c72d52d4b4814",
+      "bytes": 4072750,
+      "retrievedAt": "2026-10-11"
+    },
+    {
+      "file": "sefr-alaoeen.pdf",
+      "url": "https://www.stmarkos.org/explainbible/sefr-alaoeen.pdf",
+      "sha256": "af31b6c039f7acb584fe4ab2c09f85e15a01059a91d90f724c33d4af8515a938",
+      "bytes": 2129668,
+      "retrievedAt": "2026-10-11"
+    },
+    {
+      "file": "sefr-al3ded.pdf",
+      "url": "https://www.stmarkos.org/explainbible/sefr-al3ded.pdf",
+      "sha256": "881d413ae747a88626accffbfc1c53aea593269a39b2ebd97f3268f5e4e1185b",
+      "bytes": 3226088,
+      "retrievedAt": "2026-10-11"
+    },
+    {
+      "file": "sefr-altathnea.pdf",
+      "url": "https://www.stmarkos.org/explainbible/sefr-altathnea.pdf",
+      "sha256": "aee4209d352ad1a24167a642cc59614523f3db243c16fba24b97dcf7fc06ad37",
+      "bytes": 2624460,
+      "retrievedAt": "2026-10-11"
+    },
+    {
+      "file": "sefr-easho3.pdf",
+      "url": "https://www.stmarkos.org/explainbible/sefr-easho3.pdf",
+      "sha256": "13600f1e25f24cf91b7bc59e56ba97d71641270a8e72082e6df2d18ae6422bf4",
+      "bytes": 1809794,
+      "retrievedAt": "2026-10-11"
+    },
+    {
+      "file": "sefr-alkodah.pdf",
+      "url": "https://www.stmarkos.org/explainbible/sefr-alkodah.pdf",
+      "sha256": "a287d91372671b17d84a9e2ee3bec29cf3d22b15e34796dfdd66fca3b6daf421",
+      "bytes": 1691845,
+      "retrievedAt": "2026-10-11"
+    },
+    {
+      "file": "sefr-ra3outh.pdf",
+      "url": "https://www.stmarkos.org/explainbible/sefr-ra3outh.pdf",
+      "sha256": "4b2afb3bfaeec25b58f4fa2f1e134af8105dfb6af3097da87ebb3ad85d635a5c",
+      "bytes": 372796,
+      "retrievedAt": "2026-10-11"
+    },
+    {
+      "file": "sefr-samuel-al2ol.pdf",
+      "url": "https://www.stmarkos.org/explainbible/sefr-samuel-al2ol.pdf",
+      "sha256": "0fffebc8232b6cf05d60908ebdaa000692a52a07956955d5cbcb0b55e10531dc",
+      "bytes": 2130074,
+      "retrievedAt": "2026-10-11"
+    },
+    {
+      "file": "sefr-samuel-althane.pdf",
+      "url": "https://www.stmarkos.org/explainbible/sefr-samuel-althane.pdf",
+      "sha256": "c062bdcace9ab1a4cdc340a4a368c606c24f3c943a1eb052a8ca16918cf53611",
+      "bytes": 1849827,
+      "retrievedAt": "2026-10-11"
+    },
+    {
+      "file": "sefr-almolok-al2ol.pdf",
+      "url": "https://www.stmarkos.org/explainbible/sefr-almolok-al2ol.pdf",
+      "sha256": "e60cdcc694ada19c4778177528c93db4a7e2914e0cb8fc45d015484e0fc9142f",
+      "bytes": 1859363,
+      "retrievedAt": "2026-10-11"
+    },
+    {
+      "file": "sefr-almolok-althane.pdf",
+      "url": "https://www.stmarkos.org/explainbible/sefr-almolok-althane.pdf",
+      "sha256": "6884af73dfcb46da3100ffa06847ec0aaf002d2a73bae5e394037a0549cd20b7",
+      "bytes": 3285341,
+      "retrievedAt": "2026-10-11"
+    },
+    {
+      "file": "sefr-akhbar_al_ayam-awal.pdf",
+      "url": "https://www.stmarkos.org/explainbible/sefr-akhbar_al_ayam-awal.pdf",
+      "sha256": "a19b4e844bd8dffcadc118eb2fa519cad3d9a11761c01edd2bc8eb07f343dcac",
+      "bytes": 1226974,
+      "retrievedAt": "2026-10-11"
+    },
+    {
+      "file": "sefr-akhbar_al_ayam-thany.pdf",
+      "url": "https://www.stmarkos.org/explainbible/sefr-akhbar_al_ayam-thany.pdf",
+      "sha256": "2cc94d83dedfd81e8cc3acb826b51454d1210a4ef0bcd6c5d57bb85449294a7b",
+      "bytes": 1567107,
+      "retrievedAt": "2026-10-11"
+    },
+    {
+      "file": "sefr-3zra.pdf",
+      "url": "https://www.stmarkos.org/explainbible/sefr-3zra.pdf",
+      "sha256": "a2b0feee421ded7262e4538c40ea54dd3e44e838e9a9f2cf70bc6217579cc5d7",
+      "bytes": 897977,
+      "retrievedAt": "2026-10-11"
+    },
+    {
+      "file": "sefr-na7mea.pdf",
+      "url": "https://www.stmarkos.org/explainbible/sefr-na7mea.pdf",
+      "sha256": "00e4177ab8be7d1e38e2446db3d9492c9dbc79cad552170a79de161d66240148",
+      "bytes": 1112365,
+      "retrievedAt": "2026-10-11"
+    },
+    {
+      "file": "sefr-ester.pdf",
+      "url": "https://www.stmarkos.org/explainbible/sefr-ester.pdf",
+      "sha256": "5c847cfececea8ec979496a8c4ca73fe2ea0175124adb89c3361a0a865e9f033",
+      "bytes": 16110722,
+      "retrievedAt": "2026-10-11"
+    },
+    {
+      "file": "sefr-ayoub.pdf",
+      "url": "https://www.stmarkos.org/explainbible/sefr-ayoub.pdf",
+      "sha256": "08fee398722ff2c1f95fb36af3d3d1cfa204f4cb52b154d35f8d4a3302781953",
+      "bytes": 46439702,
+      "retrievedAt": "2026-10-11"
+    },
+    {
+      "file": "sefr-mazamir1.pdf",
+      "url": "https://www.stmarkos.org/explainbible/sefr-mazamir1.pdf",
+      "sha256": "3f397d4bb2cad0234d22161dc891b757fdac88d84240d65323776c1fd414ca48",
+      "bytes": 5523663,
+      "retrievedAt": "2026-10-11"
+    },
+    {
+      "file": "sefr-mazamir2.pdf",
+      "url": "https://www.stmarkos.org/explainbible/sefr-mazamir2.pdf",
+      "sha256": "5434e458ac1cd2d3626d1574c019f1bf2bf82ac0ca650fc443fa7089d52b0a3b",
+      "bytes": 2327001,
+      "retrievedAt": "2026-10-11"
+    },
+    {
+      "file": "sefr-mazamir3.pdf",
+      "url": "https://www.stmarkos.org/explainbible/sefr-mazamir3.pdf",
+      "sha256": "d4f2cb70c09d03992278fbc4058ce27889ac3ccb9e7c23d0ef939e9c37d3147e",
+      "bytes": 2533289,
+      "retrievedAt": "2026-10-11"
+    },
+    {
+      "file": "sefr-armia.pdf",
+      "url": "https://www.stmarkos.org/explainbible/sefr-armia.pdf",
+      "sha256": "5135dc6fa007be0ed280478e9d2b2822b74818e241164779afca90023a16791f",
+      "bytes": 5077892,
+      "retrievedAt": "2026-10-11"
+    },
+    {
+      "file": "sefr-marathy.pdf",
+      "url": "https://www.stmarkos.org/explainbible/sefr-marathy.pdf",
+      "sha256": "1f6b329356235d7f7ad06f5c0ce7b5a149a1206e1d89388594aef7b9f31b5d33",
+      "bytes": 581396,
+      "retrievedAt": "2026-10-11"
+    },
+    {
+      "file": "sefr-tobia.pdf",
+      "url": "https://www.stmarkos.org/explainbible/sefr-tobia.pdf",
+      "sha256": "c67f3baaa5dc9e4c4a9dc59591a205ea52b4b96137e22112c8cb62531626b601",
+      "bytes": 1275807,
+      "retrievedAt": "2026-10-11"
+    },
+    {
+      "file": "sefr-eahodet.pdf",
+      "url": "https://www.stmarkos.org/explainbible/sefr-eahodet.pdf",
+      "sha256": "f852f6f9a8775a6b76c43635f10b02f86c834ae3bf694ebc43ae49963bc35c73",
+      "bytes": 1143941,
+      "retrievedAt": "2026-10-11"
+    },
+    {
+      "file": "MathewFullBible-Ar.pdf",
+      "url": "https://www.stmarkos.org/explainbible/MathewFullBible-Ar.pdf",
+      "sha256": "e52e08be72a888a516391f8f53e8d1b08424a7959dc1f255e23d4a089676223e",
+      "bytes": 2580488,
+      "retrievedAt": "2026-10-11"
+    },
+    {
+      "file": "MarkosFull-Ar.pdf",
+      "url": "https://www.stmarkos.org/explainbible/MarkosFull-Ar.pdf",
+      "sha256": "e077107e1885a0c4a60c0785721b007f83a3b6d50b8905bc7a266509ccf16467",
+      "bytes": 1378542,
+      "retrievedAt": "2026-10-11"
+    },
+    {
+      "file": "LukeFull-Ar.pdf",
+      "url": "https://www.stmarkos.org/explainbible/LukeFull-Ar.pdf",
+      "sha256": "a5b024a2de6ec8f248a1a15ca0f35d4b8abe0836e703dab71196052920856013",
+      "bytes": 2229167,
+      "retrievedAt": "2026-10-11"
+    },
+    {
+      "file": "JohnFull-Ar.pdf",
+      "url": "https://www.stmarkos.org/explainbible/JohnFull-Ar.pdf",
+      "sha256": "82af10b3182e88cc07ec88ffa8272e0786e0030bb4d95bf6c3cb1b7fd06946b7",
+      "bytes": 1873422,
+      "retrievedAt": "2026-10-11"
+    },
+    {
+      "file": "ActsoftheApostlesFull-AR.pdf",
+      "url": "https://www.stmarkos.org/explainbible/ActsoftheApostlesFull-AR.pdf",
+      "sha256": "3c3cf142ee43106788cd809dba9556cd93c892d4411e27e1374c4f918eec903c",
+      "bytes": 2073037,
+      "retrievedAt": "2026-10-11"
+    },
+    {
+      "file": "RomansFull-AR.pdf",
+      "url": "https://www.stmarkos.org/explainbible/RomansFull-AR.pdf",
+      "sha256": "391f64a8460c6f38a999bbdd2168c7898b14b82eb5529ae826bd2c98d3ae3ef0",
+      "bytes": 1093821,
+      "retrievedAt": "2026-10-11"
+    },
+    {
+      "file": "CorinthiansFirstFull-AR.pdf",
+      "url": "https://www.stmarkos.org/explainbible/CorinthiansFirstFull-AR.pdf",
+      "sha256": "12e2859d928d9a28c6b33e159463fdb53c94a86f093b792940997db98e2c728c",
+      "bytes": 1178174,
+      "retrievedAt": "2026-10-11"
+    },
+    {
+      "file": "CorinthiansSecondFull-AR.pdf",
+      "url": "https://www.stmarkos.org/explainbible/CorinthiansSecondFull-AR.pdf",
+      "sha256": "a6ccc2d84445a0f94811b62d426b2e784c15679168b1d24f1eec8d7faa4595b0",
+      "bytes": 928825,
+      "retrievedAt": "2026-10-11"
+    },
+    {
+      "file": "GalatiansFull-AR.pdf",
+      "url": "https://www.stmarkos.org/explainbible/GalatiansFull-AR.pdf",
+      "sha256": "86cf38166e748e57ff63b371a5e34b35cd2ebfeafc505eb695cf2db92bb67593",
+      "bytes": 511602,
+      "retrievedAt": "2026-10-11"
+    },
+    {
+      "file": "EphesiansFull-Ar.pdf",
+      "url": "https://www.stmarkos.org/explainbible/EphesiansFull-Ar.pdf",
+      "sha256": "93231065f547c39e94bfd8c9fbb5771f4d1ac8018d0b60a8dfafa9059d219a00",
+      "bytes": 451621,
+      "retrievedAt": "2026-10-11"
+    },
+    {
+      "file": "PhilippiansFull-Ar.pdf",
+      "url": "https://www.stmarkos.org/explainbible/PhilippiansFull-Ar.pdf",
+      "sha256": "989840ded496d20e33ec311df6e28bd6dbbf2f4a24f7a297f7cbd2a694ed5db9",
+      "bytes": 328814,
+      "retrievedAt": "2026-10-11"
+    },
+    {
+      "file": "ColossiansFull-Ar.pdf",
+      "url": "https://www.stmarkos.org/explainbible/ColossiansFull-Ar.pdf",
+      "sha256": "c0e2f2d3deeaba2e58a8157c5d39ad91914cac8cf428e8b7ec8702199dcec7ac",
+      "bytes": 348195,
+      "retrievedAt": "2026-10-11"
+    },
+    {
+      "file": "ThessaloniansFirstFull-Ar.pdf",
+      "url": "https://www.stmarkos.org/explainbible/ThessaloniansFirstFull-Ar.pdf",
+      "sha256": "ebfbe01b9b395f411f2515d27367b14c1c4751f5ab2729532eadeb94ab52e607",
+      "bytes": 365195,
+      "retrievedAt": "2026-10-11"
+    },
+    {
+      "file": "ThessaloniansSecondFull-Ar.pdf",
+      "url": "https://www.stmarkos.org/explainbible/ThessaloniansSecondFull-Ar.pdf",
+      "sha256": "f4627db6265a05eaa8bf7070d92cc322f74bbf71e9c3d76c73a69eeab4c8e054",
+      "bytes": 227281,
+      "retrievedAt": "2026-10-11"
+    },
+    {
+      "file": "TimothyFirstFull-Ar.pdf",
+      "url": "https://www.stmarkos.org/explainbible/TimothyFirstFull-Ar.pdf",
+      "sha256": "45dc116eccf600e319b5c81071a5d8c56643ad9d01278bb9eb53e58005f0414b",
+      "bytes": 437339,
+      "retrievedAt": "2026-10-11"
+    },
+    {
+      "file": "TimothySecondFull-Ar.pdf",
+      "url": "https://www.stmarkos.org/explainbible/TimothySecondFull-Ar.pdf",
+      "sha256": "fdcf18c0b6596af6cf30e901a1c92b3ad3a7429d4d930240d21494497929b605",
+      "bytes": 393455,
+      "retrievedAt": "2026-10-11"
+    },
+    {
+      "file": "TitusFull-Ar.pdf",
+      "url": "https://www.stmarkos.org/explainbible/TitusFull-Ar.pdf",
+      "sha256": "5b8de61486b90c6bf9e8b4c0873cf44aa5a5b8199c5bd1d976c5c8c862ed22b4",
+      "bytes": 276791,
+      "retrievedAt": "2026-10-11"
+    },
+    {
+      "file": "PhilemonFull-Ar.pdf",
+      "url": "https://www.stmarkos.org/explainbible/PhilemonFull-Ar.pdf",
+      "sha256": "ce0ede4bb15286fb06a6f84c5a09f3d19d7f63ee10c0f30b71865d1c230b786b",
+      "bytes": 188275,
+      "retrievedAt": "2026-10-11"
+    },
+    {
+      "file": "HebrewsFull-Ar.pdf",
+      "url": "https://www.stmarkos.org/explainbible/HebrewsFull-Ar.pdf",
+      "sha256": "4cc3806527af117011e8c3e4241c2a2497da69764fdd286c9127c2d45004ba5c",
+      "bytes": 934029,
+      "retrievedAt": "2026-10-11"
+    },
+    {
+      "file": "JamesFull-Ar.pdf",
+      "url": "https://www.stmarkos.org/explainbible/JamesFull-Ar.pdf",
+      "sha256": "117ccdedabc0bb48cecf43073702889db34d93cadd6b45fa8091738c8aa4b8f2",
+      "bytes": 423252,
+      "retrievedAt": "2026-10-11"
+    },
+    {
+      "file": "PeterFirstFull-Ar.pdf",
+      "url": "https://www.stmarkos.org/explainbible/PeterFirstFull-Ar.pdf",
+      "sha256": "8171de106e6784658f0cccaa686127021e323270a5edf64ae7cbec930ab5fc7b",
+      "bytes": 344606,
+      "retrievedAt": "2026-10-11"
+    },
+    {
+      "file": "PeterSecondFull-Ar.pdf",
+      "url": "https://www.stmarkos.org/explainbible/PeterSecondFull-Ar.pdf",
+      "sha256": "a6c0b242c61dce143496f881a8658f7bdec021f6c92210520c1fc4792cfdf28c",
+      "bytes": 260267,
+      "retrievedAt": "2026-10-11"
+    },
+    {
+      "file": "JohnFirstFull-Ar.pdf",
+      "url": "https://www.stmarkos.org/explainbible/JohnFirstFull-Ar.pdf",
+      "sha256": "e9b91514dedf7246d24b94b7de85f65feabeef8de428bfde36a1228906f0fd79",
+      "bytes": 352975,
+      "retrievedAt": "2026-10-11"
+    },
+    {
+      "file": "JohnSecondFull-Ar.pdf",
+      "url": "https://www.stmarkos.org/explainbible/JohnSecondFull-Ar.pdf",
+      "sha256": "bd6a8d7acf02bf9d225af91aa6c86547d44bc14d55c3e7acacb6cc670c507b26",
+      "bytes": 158600,
+      "retrievedAt": "2026-10-11"
+    },
+    {
+      "file": "JohnThirdFull-AR.pdf",
+      "url": "https://www.stmarkos.org/explainbible/JohnThirdFull-AR.pdf",
+      "sha256": "0d1da7da5b9675fbeb6fddc65ee77c8f4e7bafea31e187ab48f047852a6edb60",
+      "bytes": 157833,
+      "retrievedAt": "2026-10-11"
+    },
+    {
+      "file": "JudahFull-Ar.pdf",
+      "url": "https://www.stmarkos.org/explainbible/JudahFull-Ar.pdf",
+      "sha256": "136ced9931a8bd4a945258715c9def1657df9d6178ed6dbfb100d34a586f474e",
+      "bytes": 198099,
+      "retrievedAt": "2026-10-11"
+    },
+    {
+      "file": "RevelationFull-Ar.pdf",
+      "url": "https://www.stmarkos.org/explainbible/RevelationFull-Ar.pdf",
+      "sha256": "8e778f6ba0478741549593a3b204e5f6f28d196e2fa2716508ec83172d18ba94",
+      "bytes": 1880790,
+      "retrievedAt": "2026-10-11"
+    }
+  ]
+}

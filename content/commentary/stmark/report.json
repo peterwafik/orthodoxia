@@ -1,0 +1,743 @@
+{
+  "generatedFrom": "data/commentary/stmark/sources.json",
+  "swappedPairs": [
+    "جل",
+    "مه",
+    "مل",
+    "جت",
+    "مي",
+    "هب",
+    "هن",
+    "خل",
+    "خي",
+    "مح",
+    "جن",
+    "مس",
+    "خت",
+    "أل",
+    "حم",
+    "حل",
+    "ري",
+    "ني",
+    "حي",
+    "مت",
+    "حب",
+    "جي",
+    "هل",
+    "خب",
+    "حت",
+    "مب",
+    "جب",
+    "رب",
+    "هت",
+    "جم",
+    "مش",
+    "ال",
+    "مج",
+    "نا",
+    "خم",
+    "مث",
+    "دي",
+    "لأ"
+  ],
+  "books": {
+    "GEN": {
+      "extraction": "pdf-text",
+      "chapters": "50/50",
+      "entries": 805,
+      "verseCoverage": "90.5%",
+      "chapterDetection": [
+        "headings"
+      ],
+      "unattestedWords": "0.0%",
+      "contentAlignment": "76% of keyed entries match their verse text",
+      "problems": [
+        "chapter 49: 1 entr(ies) past verse 33 dropped"
+      ]
+    },
+    "EXO": {
+      "extraction": "pdf-text",
+      "chapters": "36/40",
+      "entries": 738,
+      "verseCoverage": "82.9%",
+      "chapterDetection": [
+        "headings"
+      ],
+      "unattestedWords": "0.0%",
+      "contentAlignment": "67% of keyed entries match their verse text",
+      "problems": []
+    },
+    "LEV": {
+      "extraction": "pdf-text",
+      "chapters": "27/27",
+      "entries": 560,
+      "verseCoverage": "97.4%",
+      "chapterDetection": [
+        "headings"
+      ],
+      "unattestedWords": "0.0%",
+      "contentAlignment": "57% of keyed entries match their verse text",
+      "problems": [
+        "chapter 2: 1 entr(ies) past verse 16 dropped"
+      ]
+    },
+    "NUM": {
+      "extraction": "pdf-text",
+      "chapters": "36/36",
+      "entries": 664,
+      "verseCoverage": "93.5%",
+      "chapterDetection": [
+        "headings"
+      ],
+      "unattestedWords": "0.0%",
+      "contentAlignment": "82% of keyed entries match their verse text",
+      "problems": []
+    },
+    "DEU": {
+      "extraction": "pdf-text",
+      "chapters": "34/34",
+      "entries": 757,
+      "verseCoverage": "99.8%",
+      "chapterDetection": [
+        "headings"
+      ],
+      "unattestedWords": "0.0%",
+      "contentAlignment": "74% of keyed entries match their verse text",
+      "problems": [
+        "chapter 3: 1 entr(ies) past verse 29 dropped"
+      ]
+    },
+    "JOS": {
+      "extraction": "pdf-text",
+      "chapters": "24/24",
+      "entries": 325,
+      "verseCoverage": "98.6%",
+      "chapterDetection": [
+        "headings"
+      ],
+      "unattestedWords": "0.0%",
+      "contentAlignment": "75% of keyed entries match their verse text",
+      "problems": []
+    },
+    "JDG": {
+      "extraction": "pdf-text",
+      "chapters": "21/21",
+      "entries": 566,
+      "verseCoverage": "99.4%",
+      "chapterDetection": [
+        "headings"
+      ],
+      "unattestedWords": "0.1%",
+      "contentAlignment": "92% of keyed entries match their verse text",
+      "problems": []
+    },
+    "RUT": {
+      "extraction": "pdf-text",
+      "chapters": "4/4",
+      "entries": 73,
+      "verseCoverage": "100.0%",
+      "chapterDetection": [
+        "headings"
+      ],
+      "unattestedWords": "0.1%",
+      "contentAlignment": "64% of keyed entries match their verse text",
+      "problems": []
+    },
+    "1SA": {
+      "extraction": "pdf-text",
+      "chapters": "31/31",
+      "entries": 613,
+      "verseCoverage": "99.6%",
+      "chapterDetection": [
+        "headings"
+      ],
+      "unattestedWords": "0.1%",
+      "contentAlignment": "89% of keyed entries match their verse text",
+      "problems": []
+    },
+    "2SA": {
+      "extraction": "pdf-text",
+      "chapters": "24/24",
+      "entries": 606,
+      "verseCoverage": "99.9%",
+      "chapterDetection": [
+        "headings"
+      ],
+      "unattestedWords": "0.0%",
+      "contentAlignment": "91% of keyed entries match their verse text",
+      "problems": []
+    },
+    "1KI": {
+      "extraction": "pdf-text",
+      "chapters": "22/22",
+      "entries": 626,
+      "verseCoverage": "98.9%",
+      "chapterDetection": [
+        "headings"
+      ],
+      "unattestedWords": "0.0%",
+      "contentAlignment": "84% of keyed entries match their verse text",
+      "problems": []
+    },
+    "2KI": {
+      "extraction": "pdf-text",
+      "chapters": "25/25",
+      "entries": 613,
+      "verseCoverage": "97.5%",
+      "chapterDetection": [
+        "headings"
+      ],
+      "unattestedWords": "0.0%",
+      "contentAlignment": "72% of keyed entries match their verse text",
+      "problems": [
+        "chapter 25: 1 entr(ies) past verse 30 dropped",
+        "chapter 26 does not exist (13 entries dropped)"
+      ]
+    },
+    "1CH": {
+      "extraction": "pdf-text",
+      "chapters": "13/29",
+      "entries": 125,
+      "verseCoverage": "22.5%",
+      "chapterDetection": [
+        "headings"
+      ],
+      "unattestedWords": "0.1%",
+      "contentAlignment": "38% of keyed entries match their verse text",
+      "problems": [
+        "chapter 20: 1 entr(ies) past verse 8 dropped"
+      ]
+    },
+    "2CH": {
+      "extraction": "pdf-text",
+      "chapters": "25/36",
+      "entries": 313,
+      "verseCoverage": "53.6%",
+      "chapterDetection": [
+        "headings"
+      ],
+      "unattestedWords": "0.0%",
+      "contentAlignment": "54% of keyed entries match their verse text",
+      "problems": [
+        "chapter 7: 1 entr(ies) past verse 22 dropped"
+      ]
+    },
+    "EZR": {
+      "extraction": "pdf-text",
+      "chapters": "9/10",
+      "entries": 116,
+      "verseCoverage": "56.1%",
+      "chapterDetection": [
+        "headings"
+      ],
+      "unattestedWords": "0.1%",
+      "contentAlignment": "56% of keyed entries match their verse text",
+      "problems": [
+        "chapter 11 does not exist (5 entries dropped)"
+      ]
+    },
+    "NEH": {
+      "extraction": "pdf-text",
+      "chapters": "13/13",
+      "entries": 207,
+      "verseCoverage": "94.8%",
+      "chapterDetection": [
+        "headings"
+      ],
+      "unattestedWords": "0.1%",
+      "contentAlignment": "60% of keyed entries match their verse text",
+      "problems": []
+    },
+    "EST": {
+      "extraction": "pdf-link",
+      "note": "no extractable text layer: linked to the PDF"
+    },
+    "JOB": {
+      "extraction": "pdf-link",
+      "note": "no extractable text layer: linked to the PDF"
+    },
+    "PSA": {
+      "extraction": "pdf-text",
+      "chapters": "149/150",
+      "entries": 1433,
+      "verseCoverage": "74.5%",
+      "chapterDetection": [
+        "restarts",
+        "restarts",
+        "headings"
+      ],
+      "unattestedWords": "0.5%",
+      "contentAlignment": "49% of keyed entries match their verse text",
+      "problems": [
+        "chapter 42: 5 entr(ies) past verse 11 dropped",
+        "chapter 43: 6 entr(ies) past verse 5 dropped",
+        "chapter 46: 6 entr(ies) past verse 11 dropped",
+        "chapter 47: 1 entr(ies) past verse 9 dropped",
+        "chapter 51: 2 entr(ies) past verse 19 dropped",
+        "chapter 51 found twice (17 entries dropped)",
+        "chapter 53: 1 entr(ies) past verse 6 dropped",
+        "chapter 54: 10 entr(ies) past verse 7 dropped",
+        "chapter 58: 5 entr(ies) past verse 11 dropped",
+        "chapter 61: 3 entr(ies) past verse 8 dropped",
+        "chapter 64: 3 entr(ies) past verse 10 dropped",
+        "chapter 65: 3 entr(ies) past verse 13 dropped",
+        "chapter 67: 23 entr(ies) past verse 7 dropped",
+        "chapter 70: 16 entr(ies) past verse 5 dropped",
+        "chapter 72: 6 entr(ies) past verse 20 dropped",
+        "chapter 75: 2 entr(ies) past verse 10 dropped",
+        "chapter 76: 5 entr(ies) past verse 12 dropped",
+        "chapter 77: 24 entr(ies) past verse 20 dropped",
+        "chapter 79: 6 entr(ies) past verse 13 dropped",
+        "chapter 82: 4 entr(ies) past verse 8 dropped",
+        "chapter 84: 1 entr(ies) past verse 12 dropped",
+        "chapter 85: 4 entr(ies) past verse 13 dropped",
+        "chapter 87: 6 entr(ies) past verse 7 dropped",
+        "chapter 88: 18 entr(ies) past verse 18 dropped",
+        "chapter 93: 13 entr(ies) past verse 5 dropped",
+        "chapter 95: 1 entr(ies) past verse 11 dropped",
+        "chapter 107: 1 entr(ies) past verse 43 dropped",
+        "chapter 108: 9 entr(ies) past verse 13 dropped",
+        "chapter 120: 68 entr(ies) past verse 7 dropped",
+        "chapter 121: 47 entr(ies) past verse 8 dropped",
+        "chapter 122: 7 entr(ies) past verse 9 dropped",
+        "chapter 123: 2 entr(ies) past verse 4 dropped",
+        "chapter 125: 2 entr(ies) past verse 5 dropped",
+        "chapter 127: 3 entr(ies) past verse 5 dropped",
+        "chapter 131: 3 entr(ies) past verse 3 dropped",
+        "chapter 133: 3 entr(ies) past verse 3 dropped",
+        "chapter 134: 11 entr(ies) past verse 3 dropped",
+        "chapter 137: 6 entr(ies) past verse 9 dropped",
+        "chapter 138: 5 entr(ies) past verse 8 dropped",
+        "chapter 141: 6 entr(ies) past verse 10 dropped",
+        "chapter 142: 4 entr(ies) past verse 7 dropped",
+        "chapter 146: 4 entr(ies) past verse 10 dropped",
+        "chapter 147: 1 entr(ies) past verse 20 dropped",
+        "chapter 149: 6 entr(ies) past verse 9 dropped",
+        "chapter 150: 6 entr(ies) past verse 6 dropped",
+        "chapter 151 does not exist (8 entries dropped)",
+        "chapter 152 does not exist (5 entries dropped)",
+        "chapter 153 does not exist (7 entries dropped)",
+        "chapter 46: content matches chapter 45 better (0/4 here)",
+        "chapter 47: content matches chapter 46 better (0/5 here)",
+        "chapter 48: content matches chapter 47 better (0/5 here)",
+        "chapter 50: content matches chapter 49 better (0/4 here)",
+        "chapter 51: content matches chapter 50 better (0/5 here)",
+        "chapter 53: content matches chapter 54 better (0/5 here)",
+        "chapter 54: content matches chapter 55 better (0/5 here)",
+        "chapter 55: content matches chapter 56 better (0/6 here)",
+        "chapter 56: content matches chapter 57 better (0/7 here)",
+        "chapter 57: content matches chapter 58 better (0/6 here)",
+        "chapter 58: content matches chapter 59 better (0/7 here)",
+        "chapter 59: content matches chapter 60 better (0/8 here)",
+        "chapter 62: content matches chapter 63 better (0/6 here)",
+        "chapter 63: content matches chapter 64 better (0/8 here)",
+        "chapter 64: content matches chapter 65 better (0/6 here)",
+        "chapter 65: content matches chapter 66 better (0/4 here)",
+        "chapter 66: content matches chapter 67 better (0/6 here)",
+        "chapter 68: content matches chapter 69 better (0/9 here)",
+        "chapter 70: content matches chapter 71 better (0/4 here)",
+        "chapter 71: content matches chapter 72 better (0/11 here)",
+        "chapter 72: content matches chapter 73 better (0/6 here)",
+        "chapter 74: content matches chapter 75 better (0/4 here)",
+        "chapter 75: content matches chapter 76 better (0/6 here)",
+        "chapter 76: content matches chapter 77 better (0/6 here)",
+        "chapter 79: content matches chapter 80 better (0/8 here)",
+        "chapter 80: content matches chapter 81 better (0/7 here)",
+        "chapter 81: content matches chapter 82 better (0/6 here)",
+        "chapter 83: content matches chapter 84 better (0/6 here)",
+        "chapter 84: content matches chapter 85 better (0/7 here)",
+        "chapter 85: content matches chapter 86 better (0/10 here)",
+        "chapter 86: content matches chapter 87 better (0/5 here)",
+        "chapter 87: content matches chapter 88 better (0/6 here)",
+        "chapter 88: content matches chapter 89 better (0/6 here)",
+        "chapter 89: content matches chapter 90 better (0/5 here)",
+        "chapter 90: content matches chapter 91 better (0/10 here)",
+        "chapter 91: content matches chapter 92 better (0/9 here)",
+        "chapter 93: content matches chapter 94 better (0/5 here)",
+        "chapter 95: content matches chapter 96 better (0/8 here)",
+        "chapter 96: content matches chapter 97 better (0/8 here)",
+        "chapter 97: content matches chapter 98 better (0/4 here)",
+        "chapter 99: content matches chapter 100 better (0/4 here)"
+      ]
+    },
+    "JER": {
+      "extraction": "pdf-text",
+      "chapters": "52/52",
+      "entries": 1174,
+      "verseCoverage": "95.5%",
+      "chapterDetection": [
+        "headings"
+      ],
+      "unattestedWords": "0.2%",
+      "contentAlignment": "74% of keyed entries match their verse text",
+      "problems": [
+        "chapter 4 found twice (28 entries dropped)"
+      ]
+    },
+    "LAM": {
+      "extraction": "pdf-text",
+      "chapters": "5/5",
+      "entries": 152,
+      "verseCoverage": "98.1%",
+      "chapterDetection": [
+        "headings"
+      ],
+      "unattestedWords": "0.2%",
+      "contentAlignment": "83% of keyed entries match their verse text",
+      "problems": []
+    },
+    "TOB": {
+      "extraction": "pdf-text",
+      "chapters": "14/14",
+      "entries": 250,
+      "verseCoverage": "98.7%",
+      "chapterDetection": [
+        "headings"
+      ],
+      "unattestedWords": "0.2%",
+      "contentAlignment": "11% of keyed entries match their verse text",
+      "problems": [
+        "chapter 1: 1 entr(ies) past verse 25 dropped",
+        "chapter 3: 1 entr(ies) past verse 25 dropped"
+      ]
+    },
+    "JDT": {
+      "extraction": "pdf-text",
+      "chapters": "16/16",
+      "entries": 251,
+      "verseCoverage": "99.1%",
+      "chapterDetection": [
+        "headings"
+      ],
+      "unattestedWords": "0.2%",
+      "contentAlignment": "88% of keyed entries match their verse text",
+      "problems": []
+    },
+    "MAT": {
+      "extraction": "pdf-text-repaired",
+      "chapters": "28/28",
+      "entries": 674,
+      "verseCoverage": "96.4%",
+      "chapterDetection": [
+        "headings"
+      ],
+      "unattestedWords": "4.5%",
+      "contentAlignment": "64% of keyed entries match their verse text",
+      "problems": []
+    },
+    "MRK": {
+      "extraction": "pdf-text-repaired",
+      "chapters": "16/16",
+      "entries": 373,
+      "verseCoverage": "97.1%",
+      "chapterDetection": [
+        "headings"
+      ],
+      "unattestedWords": "5.3%",
+      "contentAlignment": "62% of keyed entries match their verse text",
+      "problems": []
+    },
+    "LUK": {
+      "extraction": "pdf-text-repaired",
+      "chapters": "24/24",
+      "entries": 799,
+      "verseCoverage": "96.6%",
+      "chapterDetection": [
+        "headings"
+      ],
+      "unattestedWords": "4.3%",
+      "contentAlignment": "21% of keyed entries match their verse text",
+      "problems": []
+    },
+    "JHN": {
+      "extraction": "pdf-text-repaired",
+      "chapters": "20/21",
+      "entries": 466,
+      "verseCoverage": "90.6%",
+      "chapterDetection": [
+        "headings"
+      ],
+      "unattestedWords": "4.9%",
+      "contentAlignment": "64% of keyed entries match their verse text",
+      "problems": []
+    },
+    "ACT": {
+      "extraction": "pdf-text",
+      "chapters": "28/28",
+      "entries": 838,
+      "verseCoverage": "99.6%",
+      "chapterDetection": [
+        "headings"
+      ],
+      "unattestedWords": "0.0%",
+      "contentAlignment": "82% of keyed entries match their verse text",
+      "problems": [
+        "chapter 2: 1 entr(ies) past verse 47 dropped"
+      ]
+    },
+    "ROM": {
+      "extraction": "pdf-text",
+      "chapters": "16/16",
+      "entries": 374,
+      "verseCoverage": "100.0%",
+      "chapterDetection": [
+        "headings"
+      ],
+      "unattestedWords": "0.1%",
+      "contentAlignment": "56% of keyed entries match their verse text",
+      "problems": []
+    },
+    "1CO": {
+      "extraction": "pdf-text",
+      "chapters": "16/16",
+      "entries": 405,
+      "verseCoverage": "99.3%",
+      "chapterDetection": [
+        "headings"
+      ],
+      "unattestedWords": "0.1%",
+      "contentAlignment": "39% of keyed entries match their verse text",
+      "problems": []
+    },
+    "2CO": {
+      "extraction": "pdf-text",
+      "chapters": "13/13",
+      "entries": 230,
+      "verseCoverage": "100.0%",
+      "chapterDetection": [
+        "restarts"
+      ],
+      "unattestedWords": "0.1%",
+      "contentAlignment": "85% of keyed entries match their verse text",
+      "problems": []
+    },
+    "GAL": {
+      "extraction": "pdf-text",
+      "chapters": "6/6",
+      "entries": 112,
+      "verseCoverage": "98.7%",
+      "chapterDetection": [
+        "headings"
+      ],
+      "unattestedWords": "0.0%",
+      "contentAlignment": "100% of keyed entries match their verse text",
+      "problems": []
+    },
+    "EPH": {
+      "extraction": "pdf-text",
+      "chapters": "6/6",
+      "entries": 149,
+      "verseCoverage": "100.0%",
+      "chapterDetection": [
+        "headings"
+      ],
+      "unattestedWords": "0.1%",
+      "contentAlignment": "81% of keyed entries match their verse text",
+      "problems": []
+    },
+    "PHP": {
+      "extraction": "pdf-text",
+      "chapters": "4/4",
+      "entries": 102,
+      "verseCoverage": "100.0%",
+      "chapterDetection": [
+        "headings"
+      ],
+      "unattestedWords": "0.0%",
+      "contentAlignment": "67% of keyed entries match their verse text",
+      "problems": []
+    },
+    "COL": {
+      "extraction": "pdf-text",
+      "chapters": "4/4",
+      "entries": 90,
+      "verseCoverage": "100.0%",
+      "chapterDetection": [
+        "headings"
+      ],
+      "unattestedWords": "0.1%",
+      "contentAlignment": "86% of keyed entries match their verse text",
+      "problems": []
+    },
+    "1TH": {
+      "extraction": "pdf-text",
+      "chapters": "5/5",
+      "entries": 87,
+      "verseCoverage": "100.0%",
+      "chapterDetection": [
+        "headings"
+      ],
+      "unattestedWords": "0.1%",
+      "contentAlignment": "89% of keyed entries match their verse text",
+      "problems": []
+    },
+    "2TH": {
+      "extraction": "pdf-text",
+      "chapters": "3/3",
+      "entries": 40,
+      "verseCoverage": "97.9%",
+      "chapterDetection": [
+        "restarts"
+      ],
+      "unattestedWords": "0.0%",
+      "contentAlignment": "90% of keyed entries match their verse text",
+      "problems": []
+    },
+    "1TI": {
+      "extraction": "pdf-text",
+      "chapters": "6/6",
+      "entries": 102,
+      "verseCoverage": "98.2%",
+      "chapterDetection": [
+        "headings"
+      ],
+      "unattestedWords": "0.1%",
+      "contentAlignment": "60% of keyed entries match their verse text",
+      "problems": []
+    },
+    "2TI": {
+      "extraction": "pdf-text",
+      "chapters": "4/4",
+      "entries": 79,
+      "verseCoverage": "100.0%",
+      "chapterDetection": [
+        "restarts"
+      ],
+      "unattestedWords": "0.0%",
+      "contentAlignment": "95% of keyed entries match their verse text",
+      "problems": []
+    },
+    "TIT": {
+      "extraction": "pdf-text",
+      "chapters": "3/3",
+      "entries": 44,
+      "verseCoverage": "100.0%",
+      "chapterDetection": [
+        "restarts"
+      ],
+      "unattestedWords": "0.1%",
+      "contentAlignment": "88% of keyed entries match their verse text",
+      "problems": []
+    },
+    "PHM": {
+      "extraction": "pdf-text",
+      "chapters": "1/1",
+      "entries": 25,
+      "verseCoverage": "100.0%",
+      "chapterDetection": [
+        "headings"
+      ],
+      "unattestedWords": "0.0%",
+      "contentAlignment": "75% of keyed entries match their verse text",
+      "problems": []
+    },
+    "HEB": {
+      "extraction": "pdf-text",
+      "chapters": "13/13",
+      "entries": 268,
+      "verseCoverage": "100.0%",
+      "chapterDetection": [
+        "headings"
+      ],
+      "unattestedWords": "0.1%",
+      "contentAlignment": "83% of keyed entries match their verse text",
+      "problems": []
+    },
+    "JAS": {
+      "extraction": "pdf-text",
+      "chapters": "5/5",
+      "entries": 86,
+      "verseCoverage": "96.3%",
+      "chapterDetection": [
+        "headings"
+      ],
+      "unattestedWords": "0.0%",
+      "contentAlignment": "48% of keyed entries match their verse text",
+      "problems": []
+    },
+    "1PE": {
+      "extraction": "pdf-text",
+      "chapters": "5/5",
+      "entries": 96,
+      "verseCoverage": "100.0%",
+      "chapterDetection": [
+        "headings"
+      ],
+      "unattestedWords": "0.1%",
+      "contentAlignment": "35% of keyed entries match their verse text",
+      "problems": []
+    },
+    "2PE": {
+      "extraction": "pdf-text",
+      "chapters": "3/3",
+      "entries": 58,
+      "verseCoverage": "100.0%",
+      "chapterDetection": [
+        "restarts"
+      ],
+      "unattestedWords": "0.1%",
+      "contentAlignment": "21% of keyed entries match their verse text",
+      "problems": []
+    },
+    "1JN": {
+      "extraction": "pdf-text",
+      "chapters": "5/5",
+      "entries": 98,
+      "verseCoverage": "100.0%",
+      "chapterDetection": [
+        "headings"
+      ],
+      "unattestedWords": "0.1%",
+      "contentAlignment": "56% of keyed entries match their verse text",
+      "problems": []
+    },
+    "2JN": {
+      "extraction": "pdf-text",
+      "chapters": "1/1",
+      "entries": 12,
+      "verseCoverage": "100.0%",
+      "chapterDetection": [
+        "headings"
+      ],
+      "unattestedWords": "0.0%",
+      "contentAlignment": null,
+      "problems": []
+    },
+    "3JN": {
+      "extraction": "pdf-text",
+      "chapters": "1/1",
+      "entries": 14,
+      "verseCoverage": "100.0%",
+      "chapterDetection": [
+        "headings"
+      ],
+      "unattestedWords": "0.0%",
+      "contentAlignment": null,
+      "problems": []
+    },
+    "JUD": {
+      "extraction": "pdf-text",
+      "chapters": "1/1",
+      "entries": 24,
+      "verseCoverage": "100.0%",
+      "chapterDetection": [
+        "headings"
+      ],
+      "unattestedWords": "0.0%",
+      "contentAlignment": "100% of keyed entries match their verse text",
+      "problems": []
+    },
+    "REV": {
+      "extraction": "pdf-text",
+      "chapters": "22/22",
+      "entries": 355,
+      "verseCoverage": "99.5%",
+      "chapterDetection": [
+        "restarts"
+      ],
+      "unattestedWords": "0.0%",
+      "contentAlignment": "89% of keyed entries match their verse text",
+      "problems": []
+    }
+  }
+}

@@ -10,3 +10,5 @@ apps/explorer/public/data/
 .DS_Store
 .playwright-mcp/
 data/bible/build/
+data/commentary/stmark/pdf/
+data/commentary/stmark/text/

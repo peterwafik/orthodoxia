@@ -14,6 +14,7 @@ traceable to its source.
 | Phase 0: research, licensing audit, architecture | **Done**: see [`docs/phase-0/`](docs/phase-0/README.md) and [ADRs](docs/adr/README.md) |
 | Bilingual site shell (`/en/`, `/ar/`): home, about, sources | **Implemented** |
 | **Bible reader**: Arabic (Van Dyck) and English (KJV or Septuagint), with the deuterocanon, at `/{en,ar}/bible/` | **Implemented**. See [docs/BIBLE.md](docs/BIBLE.md). Arabic deuterocanon provenance is under review |
+| **Bible interpretation** (التفسير): St. Mark Church commentary, verse by verse, in Arabic; Fr. Tadros Malaty linked for the remaining books | **Implemented (Arabic)**. See [docs/COMMENTARY.md](docs/COMMENTARY.md). English: next |
 | Cross-reference explorer (Arcs + Threads) at `/en/explore/` and `/ar/explore/` | **Implemented**, vendored from upstream and integrated: site theme and navigation, full Arabic interface with the Van Dyck text and Arabic search |
 | Explorer parity verification, accessibility and end-to-end tests | Planned (Phase 1) |
 | Bible search, side-by-side view, bookmarks | Planned (Phase 2) |
@@ -43,6 +44,7 @@ See [`docs/DEVELOPMENT.md`](docs/DEVELOPMENT.md) for the per-app dev servers.
 apps/web/                 Astro content site (home, about, sources; later all content pages)
 apps/explorer/            Upstream Bible Cross-References explorer (git subtree, see PATCHES.md)
 packages/bible/           Bible model: USFM/Wikisource parsers, canon, editions, psalm numbering
+packages/commentary/      Commentary model, Arabic PDF text repair, St. Mark parser
 packages/content-schema/  Zod schemas for sources, articles and review status
 data/bible/               Pinned raw Bible texts (SHA-256) and their build output
 content/sources/          Source registry: one YAML per source, with verified license
@@ -54,6 +56,7 @@ docs/                     Architecture, decisions, guides, Phase 0 reports
 
 [Architecture](docs/ARCHITECTURE.md) ·
 [Bible reader](docs/BIBLE.md) ·
+[Interpretation](docs/COMMENTARY.md) ·
 [Development](docs/DEVELOPMENT.md) ·
 [Deployment](docs/DEPLOYMENT.md) ·
 [Data sources](docs/DATA_SOURCES.md) ·
