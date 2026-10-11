@@ -13,15 +13,20 @@ import {
   ARABIC_WORD,
   COMMENTARY_SCHEMA_VERSION,
   createLigatureRepair,
+  fixReversedSuffix,
   dictionaryKey,
+  strictKey,
   learnSwappedPairs,
+  LIGATURE_PAIRS,
   parseStMarkCommentary,
+  polishArabicText,
   type CommentaryBook,
   type CommentaryChapter,
+  type CommentaryEntry,
   type CommentaryParagraph,
   type PdfPage,
 } from '../../packages/commentary/src/index.ts';
-import { extractPdfLines } from './pdf-lines.ts';
+import { extractPdfLines, extractWithPoppler } from './pdf-lines.ts';
 import { STMARK_DOCUMENTS, type StMarkDocument } from './stmark-sources.ts';
 
 const ROOT = resolve(import.meta.dirname, '../..');
@@ -41,37 +46,73 @@ const texts = new Map<string, PdfPage[]>();
 for (const document of STMARK_DOCUMENTS) {
   if (document.textLayer === false) continue;
   const { sha256 } = pinOf(document.file);
-  const cachePath = join(CACHE, `${document.file}.${sha256.slice(0, 12)}.json`);
+  // The older Gospel PDFs are read with Poppler, which keeps their ligatures in order (pdf-lines.ts).
+  const engine = document.scrambledLigatures ? 'poppler' : 'pdfjs';
+  const cachePath = join(CACHE, `${document.file}.${engine}.${sha256.slice(0, 12)}.json`);
   if (!existsSync(cachePath)) {
     process.stdout.write(`extracting ${document.file}… `);
-    writeFileSync(cachePath, JSON.stringify(await extractPdfLines(join(DATA, 'pdf', document.file))));
+    const path = join(DATA, 'pdf', document.file);
+    writeFileSync(cachePath, JSON.stringify(engine === 'poppler' ? extractWithPoppler(path) : await extractPdfLines(path)));
     console.log('done');
   }
   texts.set(document.file, JSON.parse(readFileSync(cachePath, 'utf8')) as PdfPage[]);
 }
 
-// 2. Dictionary (Van Dyck + documents without scrambled fonts) and the scrambled pairs.
+// 2. Letter-order repair. Some PDFs write ligatures (نه, به, لم, لح, لأ, لا, تي …) in reverse
+// order: أهنم for أنهم, امللك for الملك. Documents showing these unambiguous misspellings are
+// repaired; the dictionary is built from Van Dyck and the documents without them, so it never
+// contains the misspellings it corrects.
+const SCRAMBLE_SIGNATURES = /^(?:[وفبل]?(?:أهنم|أهنا|إهنم|هناية|هبذا|هبذه|امللك|اليت|احلق|احلياة|التالميذ|األرض|األول|اإلنسان|اإلميان|اجملد))$/;
+const allWords = (pages: PdfPage[]) => pages.flatMap((page) => page.lines.flatMap((line) => line.match(ARABIC_WORD) ?? []));
+const scrambledDocuments = new Set(
+  STMARK_DOCUMENTS.filter((document) => texts.has(document.file) && allWords(texts.get(document.file)!).filter((word) => SCRAMBLE_SIGNATURES.test(word)).length >= 5).map(
+    (document) => document.file,
+  ),
+);
 const frequencies = new Map<string, number>();
+const strictFrequencies = new Map<string, number>();
 const count = (word: string) => {
   const key = dictionaryKey(word.replace(/ى([ء-ي])/g, '$1ي'));
   frequencies.set(key, (frequencies.get(key) ?? 0) + 1);
+  const strict = strictKey(word);
+  strictFrequencies.set(strict, (strictFrequencies.get(strict) ?? 0) + 1);
 };
 const bibleZip = unzipSync(new Uint8Array(readFileSync(join(ROOT, 'data/bible/raw/ebible/arb-vd_usfm.zip'))));
-for (const data of Object.values(bibleZip)) strFromU8(data).match(ARABIC_WORD)?.forEach(count);
-const allWords = (pages: PdfPage[]) => pages.flatMap((page) => page.lines.flatMap((line) => line.match(ARABIC_WORD) ?? []));
+const bibleFrequencies = new Map<string, number>();
+for (const data of Object.values(bibleZip)) {
+  for (const word of strFromU8(data).match(ARABIC_WORD) ?? []) {
+    count(word);
+    bibleFrequencies.set(strictKey(word), (bibleFrequencies.get(strictKey(word)) ?? 0) + 1);
+  }
+}
 for (const document of STMARK_DOCUMENTS) {
-  if (!document.scrambledLigatures && texts.has(document.file)) allWords(texts.get(document.file)!).forEach(count);
+  if (texts.has(document.file) && !scrambledDocuments.has(document.file)) allWords(texts.get(document.file)!).forEach(count);
 }
 const frequency = (key: string) => frequencies.get(key) ?? 0;
-const scrambledWords = STMARK_DOCUMENTS.filter((document) => document.scrambledLigatures).flatMap((document) => allWords(texts.get(document.file)!));
-const swappedPairs = learnSwappedPairs(scrambledWords, frequency, 6);
-const repair = createLigatureRepair(frequency, swappedPairs);
+const scrambledWords = [...scrambledDocuments].flatMap((file) => allWords(texts.get(file)!));
+// Only real ligature pairs are swapped; the pairs learned from the text are reported for review.
+const swappedPairs = LIGATURE_PAIRS;
+const learnedPairs = learnSwappedPairs(scrambledWords, frequency, 6);
+const ligatureRepair = createLigatureRepair(
+  frequency,
+  swappedPairs,
+  (key) => strictFrequencies.get(key) ?? 0,
+  (key) => bibleFrequencies.get(key) ?? 0,
+);
+// Every correction is logged (content/commentary/stmark/corrections.json) for review.
+const corrections = new Map<string, number>();
+const repairIn = (scrambled: boolean) => (word: string) => {
+  let fixed = ligatureRepair(word);
+  if (fixed === word && scrambled) fixed = fixReversedSuffix(word);
+  if (fixed !== word) corrections.set(`${word} → ${fixed}`, (corrections.get(`${word} → ${fixed}`) ?? 0) + 1);
+  return fixed;
+};
 const PREFIXES = ['', 'وال', 'بال', 'فال', 'كال', 'لل', 'ال', 'و', 'ف', 'ب', 'ل'];
 const stemFrequency = (word: string) => {
   const key = dictionaryKey(word);
   return Math.max(...PREFIXES.filter((prefix) => key.startsWith(prefix)).map((prefix) => frequency(key.slice(prefix.length))));
 };
-console.log(`dictionary: ${frequencies.size} words; scrambled pairs learned: ${[...swappedPairs].join(' ')}`);
+console.log(`dictionary: ${frequencies.size} words; repaired documents: ${[...scrambledDocuments].join(', ')}; scrambled pairs learned: ${[...swappedPairs].join(' ')}`);
 
 // 3. Parse, validate and write each book.
 const manifest = JSON.parse(readFileSync(join(ROOT, 'data/bible/build/manifest.json'), 'utf8')) as {
@@ -115,7 +156,7 @@ for (const book of books) {
   for (const document of documents) {
     const pages = texts.get(document.file)!.map((page) => ({
       page: page.page,
-      lines: page.lines.map((line) => line.replace(ARABIC_WORD, repair)),
+      lines: page.lines.map((line) => line.replace(ARABIC_WORD, repairIn(scrambledDocuments.has(document.file)))),
     }));
     // Parse both ways and keep the reading that agrees best with the Bible's chapters and verses.
     const candidates = (['headings', 'restarts'] as const).map((mode) => {
@@ -166,7 +207,7 @@ for (const book of books) {
     if (beyond.length > 0) problems.push(`chapter ${chapter.chapter}: ${beyond.length} entr(ies) past verse ${verses} dropped`);
     valid.push({
       ...chapter,
-      entries: chapter.entries
+      entries: placeUnnumbered(chapter.entries, verses, verseTexts(book).get(chapter.chapter))
         .filter((entry) => entry.verses[0] <= verses)
         .map((entry) => ({ ...entry, verses: [entry.verses[0], Math.min(entry.verses[1], verses)] as const })),
     });
@@ -177,6 +218,7 @@ for (const book of books) {
   // يسوع المسيح :"). Those words should occur in the Van Dyck text of the entry's verses; a chapter
   // whose entries match a neighboring chapter better is misaligned.
   const bibleText = verseTexts(book);
+  const rawVerses = rawVerseTexts(book);
   const keyOf = (entry: CommentaryChapter['entries'][number]) => {
     const head = entry.paragraphs[0]?.text.split(/[:：]/)[0] ?? '';
     const words = normalizeForMatch(head).split(' ').filter((word) => word.length > 2);
@@ -219,7 +261,7 @@ for (const book of books) {
       for (const paragraph of entry.paragraphs) {
         for (const word of paragraph.text.match(ARABIC_WORD) ?? []) {
           wordsTotal++;
-          if (repair(word) === word && stemFrequency(word) === 0) wordsUnknown++;
+          if (ligatureRepair(word) === word && stemFrequency(word) === 0) wordsUnknown++;
         }
       }
     }
@@ -230,16 +272,23 @@ for (const book of books) {
     return sum + set.size;
   }, 0);
   const totalVerses = [...expected.values()].reduce((sum, verses) => sum + verses, 0);
-  const scrambled = documents.some((document) => document.scrambledLigatures);
   const output: CommentaryBook = {
     schemaVersion: COMMENTARY_SCHEMA_VERSION,
     source: 'stmark',
     book,
     language: 'ar',
     documents: outputDocuments,
-    extraction: scrambled ? 'pdf-text-repaired' : 'pdf-text',
-    intro,
-    chapters: valid,
+    extraction: documents.some((document) => scrambledDocuments.has(document.file)) ? 'pdf-text-repaired' : 'pdf-text',
+    intro: polishParagraphs(intro),
+    chapters: valid.map((chapter) => ({
+      ...chapter,
+      intro: polishParagraphs(chapter.intro),
+      entries: chapter.entries.map((entry) => ({
+        ...entry,
+        section: entry.section === null ? null : polishArabicText(entry.section),
+        paragraphs: quoteVerses(polishParagraphs(entry.paragraphs), rawVerses.get(chapter.chapter), entry.verses),
+      })),
+    })),
   };
   writeFileSync(join(OUT, `${book}.json`), `${JSON.stringify(output)}\n`);
   const entries = valid.reduce((sum, chapter) => sum + chapter.entries.length, 0);
@@ -256,7 +305,11 @@ for (const book of books) {
   const flag = valid.length === expected.size && problems.length === 0 ? '✓' : '!';
   console.log(`${flag} ${book}: ${valid.length}/${expected.size} chapters, ${entries} entries, ${((covered / totalVerses) * 100).toFixed(0)}% of verses, aligned ${alignment === null ? '–' : (alignment * 100).toFixed(0) + '%'}, unattested ${wordsTotal === 0 ? '–' : ((wordsUnknown / wordsTotal) * 100).toFixed(1) + '%'}${problems.length ? ` — ${problems.slice(0, 3).join('; ')}` : ''}`);
 }
-writeFileSync(join(OUT, 'report.json'), `${JSON.stringify({ generatedFrom: 'data/commentary/stmark/sources.json', swappedPairs: [...swappedPairs], books: report }, null, 2)}\n`);
+writeFileSync(
+  join(OUT, 'corrections.json'),
+  `${JSON.stringify(Object.fromEntries([...corrections].sort((a, b) => b[1] - a[1])), null, 1)}\n`,
+);
+writeFileSync(join(OUT, 'report.json'), `${JSON.stringify({ generatedFrom: 'data/commentary/stmark/sources.json', repairedDocuments: [...scrambledDocuments], swappedPairs: [...swappedPairs], learnedPairsNotRepaired: [...learnedPairs].filter((pair) => !swappedPairs.has(pair)), books: report }, null, 2)}\n`);
 
 /** Arabic text normalized for loose matching: no diacritics, unified letter variants. */
 function normalizeForMatch(text: string): string {
@@ -283,8 +336,83 @@ function verseTexts(book: string): Map<number, Map<number, string>> {
   );
 }
 
+/** Van Dyck verse texts of a book as printed: chapter → verse → text. */
+function rawVerseTexts(book: string): Map<number, Map<number, string>> {
+  const file = JSON.parse(readFileSync(join(ROOT, 'data/bible/build/svd', `${book}.json`), 'utf8')) as {
+    chapters: { number: number; verses: { number: string; content: { text: string }[] }[] }[];
+  };
+  return new Map(
+    file.chapters.map((chapter) => [
+      chapter.number,
+      new Map(chapter.verses.map((verse) => [Number.parseInt(verse.number, 10), verse.content.map((inline) => inline.text).join('').replace(/\s+/g, ' ').trim()])),
+    ]),
+  );
+}
+
+/**
+ * Some books quote the verse before commenting on it ("1- طوبى للرجل الذي لم يسلك يف مشورة
+ * الاشرار"), from a copy of the Bible with its own misspellings. A paragraph that quotes one of
+ * its entry's verses — most of its words are that verse's words — is replaced by the Van Dyck text.
+ */
+function quoteVerses(
+  paragraphs: CommentaryParagraph[],
+  verses: Map<number, string> | undefined,
+  [first, last]: readonly [number, number],
+): CommentaryParagraph[] {
+  if (verses === undefined) return paragraphs;
+  return paragraphs.map((paragraph) => {
+    const match = /^(\d+)\s*-\s*/.exec(paragraph.text);
+    if (match === null) return paragraph;
+    const number = Number(match[1]);
+    const verse = verses.get(number);
+    if (verse === undefined || number < first || number > last) return paragraph;
+    const quoted = normalizeForMatch(paragraph.text.slice(match[0].length)).split(' ');
+    const reference = normalizeForMatch(verse).split(' ');
+    const shared = quoted.filter((word) => reference.includes(word)).length;
+    const similar = shared >= 0.6 * quoted.length && shared >= 0.6 * reference.length;
+    return similar ? { ...paragraph, text: `${number}- ${verse}` } : paragraph;
+  });
+}
+
 function urlAndHash(document: StMarkDocument) {
   const { url, sha256 } = pinOf(document.file);
   return { url, sha256 };
 }
 void manifest;
+
+function polishParagraphs(paragraphs: readonly CommentaryParagraph[]): CommentaryParagraph[] {
+  return paragraphs.map((paragraph) => ({ ...paragraph, text: polishArabicText(paragraph.text) }));
+}
+
+/**
+ * Entries whose verse number the PDF lost (verses [0, 0]) are placed in the gap between their
+ * neighbors, at the verse whose words they quote; with no gap they belong to the entry before.
+ */
+function placeUnnumbered(entries: readonly CommentaryEntry[], lastVerse: number, verses: Map<number, string> | undefined): CommentaryEntry[] {
+  const out: CommentaryEntry[] = [];
+  for (let index = 0; index < entries.length; index++) {
+    const entry = entries[index]!;
+    if (entry.verses[0] !== 0) {
+      out.push(entry);
+      continue;
+    }
+    const previous = out.at(-1);
+    const next = entries.slice(index + 1).find((candidate) => candidate.verses[0] !== 0);
+    const from = (previous?.verses[1] ?? 0) + 1;
+    const to = (next?.verses[0] ?? lastVerse + 1) - 1;
+    if (from > to) {
+      if (previous !== undefined) out[out.length - 1] = { ...previous, paragraphs: [...previous.paragraphs, ...entry.paragraphs] };
+      continue;
+    }
+    const head = normalizeForMatch(entry.paragraphs[0]?.text.split(':')[0] ?? '').split(' ').filter((word) => word.length > 2);
+    let best = -1;
+    let bestScore = 0;
+    for (let verse = from; verse <= to; verse++) {
+      const text = verses?.get(verse) ?? '';
+      const score = head.filter((word) => text.includes(word)).length;
+      if (score > bestScore) [best, bestScore] = [verse, score];
+    }
+    out.push({ ...entry, verses: best === -1 ? [from, to] : [best, best] });
+  }
+  return out;
+}

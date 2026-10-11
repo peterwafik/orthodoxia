@@ -42,8 +42,8 @@ export interface CommentaryBook {
   /** The source document(s), in order, with where each chapter range came from. */
   readonly documents: readonly { readonly url: string; readonly sha256: string; readonly chapters: readonly [number, number] }[];
   /**
-   * How the text was obtained. `pdf-text-repaired` means letter-order repairs were applied to
-   * a PDF whose fonts scramble ligatures; such books carry a visible notice. `pdf-link`: the PDF has
+   * How the text was obtained. `pdf-text-repaired`: the PDF's fonts reverse ligatures, and the
+   * letter order was corrected automatically (logged in corrections.json); such books carry a notice. `pdf-link`: the PDF has
    * no extractable text, so the site links to it.
    */
   readonly extraction: 'pdf-text' | 'pdf-text-repaired' | 'pdf-link';

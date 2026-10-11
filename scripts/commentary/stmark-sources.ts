@@ -4,8 +4,9 @@
  * Use is authorized by a member of the St. Mark website team (see
  * content/sources/stmark-heliopolis-commentary.yaml).
  *
- * `scrambledLigatures`: PDFs whose fonts emit some letter pairs in reverse order; their text is
- * repaired (packages/commentary/src/arabic.ts) and the site marks it as automatically extracted.
+ * `scrambledLigatures`: the older Gospel PDFs, whose fonts map ligatures to code points that pdfjs
+ * scrambles; they are read with Poppler's pdftotext instead (scripts/commentary/pdf-lines.ts).
+ * Reversed ligatures in any PDF are then repaired by stmark-build.ts, and logged.
  * `textLayer: false`: PDFs whose body text cannot be extracted (only headings); the site links to
  * the PDF instead.
  */

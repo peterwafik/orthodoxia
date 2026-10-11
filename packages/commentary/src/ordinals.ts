@@ -47,7 +47,10 @@ for (let number = 1; number <= 150; number++) {
  * "المزمور الخمسون", or `null` when the text is not a chapter heading.
  */
 export function chapterHeadingNumber(heading: string): number | null {
-  const compact = compactArabic(heading).replace(/[^ء-ي0-9]/g, '');
+  // The article before م/ح/خ/ج may extract swapped too (املزمور املئة واخلامس).
+  const compact = compactArabic(heading)
+    .replace(/[^ء-ي0-9]/g, '')
+    .replace(/ا([محخج])ل/g, 'ال$1');
   // The article's lam-alef ligature often extracts swapped (األصحاح), in the ordinal too (األول).
   const match = /^[ال]{0,3}(?:صحاح|مزمور)(.+)$/.exec(compact);
   if (match === null) return null;

@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { cleanExtractedArabic, createLigatureRepair, dictionaryKey, learnSwappedPairs } from './arabic.ts';
+import { cleanExtractedArabic, createLigatureRepair, fixReversedSuffix, dictionaryKey, learnSwappedPairs, polishArabicText } from './arabic.ts';
 import { parseStMarkCommentary, toParagraphs } from './stmark.ts';
 import { entriesForVerse } from './types.ts';
 
@@ -9,14 +9,52 @@ describe('cleanExtractedArabic', () => {
   });
 });
 
+describe('polishArabicText', () => {
+  it.each([
+    ['البدء :َ أى بدء خلقة العالم', 'البدء: أى بدء خلقة العالم'],
+    ['يكمل بطرس حديثه ،فى إعلانه', 'يكمل بطرس حديثه، فى إعلانه'],
+    ['كما يقصد فى (يو1: 1.( وهو ليس', 'كما يقصد فى (يو1: 1). وهو ليس'],
+    ['قارن )يو 3: 8) وكان', 'قارن (يو 3: 8) وكان'],
+    ['حسـن .وتكرار', 'حسـن. وتكرار'],
+    ['ونادى قائلا" :هذا هو الذى قلت عنه".', 'ونادى قائلا: "هذا هو الذى قلت عنه".'],
+    ['جسده قط" )أف5: 29).', 'جسده قط" (أف5: 29).'],
+    ['الكامل (راجع1 تى3: 16).', 'الكامل (راجع 1تى3: 16).'],
+    ['ما أطيب الرب) "مز34: 8)، فظروف', 'ما أطيب الرب" (مز34: 8)، فظروف'],
+    ['"طوبى": يا سعادة', '"طوبى": يا سعادة'],
+    ['لم يسلك يف مشورة و يف طريق', 'لم يسلك يف مشورة ويف طريق'],
+  ])('%s → %s', (input, output) => {
+    expect(polishArabicText(input)).toBe(output);
+  });
+
+  it('leaves well-formed text alone', () => {
+    const text = 'خلق: تعنى أن الله هو خالق العالم من العدم (تك1: 1)، وهذا ضد نظرية أزلية العالم.';
+    expect(polishArabicText(text)).toBe(text);
+  });
+});
+
+describe('fixReversedSuffix', () => {
+  it.each([
+    ['شخصياهتم', 'شخصياتهم'],
+    ['كتاهبم', 'كتابهم'],
+    ['يخافوهنم', 'يخافونهم'],
+    ['قوهتا', 'قوتها'],
+    ['ويهتم', 'ويهتم'],
+    ['مهتما', 'مهتما'],
+    ['اهتمام', 'اهتمام'],
+    ['وجهنم', 'وجهنم'],
+  ])('%s → %s', (word, expected) => {
+    expect(fixReversedSuffix(word)).toBe(expected);
+  });
+});
+
 describe('ligature repair', () => {
   const counts = new Map(
-    Object.entries({ الحسن: 300, الجميع: 248, المؤمن: 200, في: 5000, لم: 4000, ملا: 80, لما: 900, عمل: 600, علم: 300, إيمانهم: 40, تفسيره: 30, يسلمني: 4 }).map(
+    Object.entries({ الحسن: 300, الجميع: 248, المؤمن: 200, في: 5000, لم: 4000, ملا: 80, لما: 900, عمل: 600, علم: 300, إيمانهم: 40, تفسيره: 30, يسلمني: 4, المجتمع: 25, إلى: 5000, المسكين: 50, الحاكم: 30, حاكم: 40, شىء: 300, حتى: 900, يبكون: 12, يكون: 2000, مسكن: 300, قدميك: 4, قديم: 200, بالرجال: 3, رجلا: 300, والعين: 2, عني: 400, فى: 3000, نهاية: 200, الأولى: 400 }).map(
       ([word, count]) => [dictionaryKey(word), count],
     ),
   );
-  const frequency = (key: string) => counts.get(key) ?? 0;
-  const repair = createLigatureRepair(frequency, new Set(['حل', 'جل', 'مل', 'مي', 'هن', 'ري']));
+  const frequency = (key: string) => counts.get(dictionaryKey(key)) ?? 0;
+  const repair = createLigatureRepair(frequency, new Set(['حل', 'جل', 'مل', 'جم', 'مي', 'هن', 'ري', 'ين', 'ني', 'ال', 'ىل', 'ىت', 'يب', 'دم']));
 
   it.each([
     ['احلسن', 'الحسن'],
@@ -28,11 +66,17 @@ describe('ligature repair', () => {
     ['تفسريه', 'تفسيره'],
     ['يسلمىن', 'يسلمني'],
     ['واحلسن', 'والحسن'],
+    ['اجملتمع', 'المجتمع'],
+    ['إىل', 'إلى'],
+    ['حىت', 'حتى'],
+    ['فىنهاية', 'فى نهاية'],
+    ['األولى', 'الأولى'],
+    ['يف', 'في'],
   ])('repairs %s → %s', (broken, fixed) => {
     expect(repair(broken)).toBe(fixed);
   });
 
-  it.each(['عمل', 'ملأ', 'كلمة'])('leaves a genuine word alone: %s', (word) => {
+  it.each(['عمل', 'ملأ', 'كلمة', 'المسكين', 'الحاكم', 'شىء', 'يبكون', 'قدميك', 'ىوالسبعون', 'بالرجال', 'والعين'])('leaves a genuine word alone: %s', (word) => {
     expect(repair(word)).toBe(word);
   });
 

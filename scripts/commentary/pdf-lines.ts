@@ -4,6 +4,7 @@
  * rebuilt from positions: items right to left, brackets mirrored, and digit runs kept left to
  * right inside each number.
  */
+import { execFileSync } from 'node:child_process';
 import { readFileSync } from 'node:fs';
 import { getDocument } from 'pdfjs-dist/legacy/build/pdf.mjs';
 import { cleanExtractedArabic } from '../../packages/commentary/src/arabic.ts';
@@ -59,6 +60,60 @@ function lineText(items: Item[]): string {
     if (item.width > 0) previousLeft = item.x;
   }
   return cleanExtractedArabic(out.join(''));
+}
+
+/**
+ * Extraction with Poppler's `pdftotext`, for PDFs whose fonts map ligatures to presentation-form
+ * code points in reading order (the older Gospel commentaries): Poppler keeps them in order, and
+ * NFKC expands them correctly, where pdfjs's bidi reordering scrambles them. Poppler writes some
+ * things visually, which is undone here: verse markers come out as "ع :41-40" (→ "ع40-41:"), and
+ * punctuation lands before the space instead of after it. Requires `pdftotext` on the PATH or in
+ * the POPPLER_PDFTOTEXT environment variable.
+ */
+const NUMBER_RUN = /[0-9\s()[\]{}«»:.,،؛\-–/"']*[0-9][0-9\s()[\]{}«»:.,،؛\-–/"']*/g;
+
+/**
+ * Poppler writes the runs of digits and punctuation between Arabic words in visual order
+ * ("(مر3: 17)." comes out as ")مر .(17 :3", "ع12-13: "" as "ع" :13-12"). Each such run is put
+ * back in logical order: its tokens (numbers, single characters) reversed, brackets mirrored. The
+ * lone bracket left before the letters is restored by polishArabicText.
+ */
+export function logicalNumberRuns(line: string): string {
+  return line.replace(NUMBER_RUN, (run) =>
+    (run.match(/[0-9]+|[^0-9]/g) ?? [])
+      .reverse()
+      .map((token) => MIRROR[token] ?? token)
+      .join(''),
+  );
+}
+
+export function extractWithPoppler(path: string): PdfPage[] {
+  const executable = process.env['POPPLER_PDFTOTEXT'] ?? 'pdftotext';
+  const output = execFileSync(executable, ['-enc', 'UTF-8', path, '-'], { maxBuffer: 1 << 28 }).toString('utf8');
+  return output
+    .split('\f')
+    .map((text, index) => ({
+      page: index + 1,
+      lines: text
+        .split('\n')
+        .map((line) =>
+          logicalNumberRuns(
+            cleanExtractedArabic(
+              line
+                .replace(/[‎‏‪-‮]/g, '')
+                // Some fonts map digits to the private-use area.
+                .replace(/[-]/g, (digit) => String(digit.charCodeAt(0) - 0xf030)),
+            ),
+          )
+            // A numbered heading or footnote, ") (3تجسد المسيح" → "(3) تجسد المسيح".
+            .replace(/^(\d+)\) \(/, '($1) ')
+            // A marker whose digits are missing altogether: "ع :-" / "ع -:" → "ع؟:".
+            .replace(/^ع\s*:\s*-?\s*(?=[ء-ي])/, 'ع؟: ')
+            .replace(/^ع\s*-\s*:\s*/, 'ع؟: '),
+        )
+        .filter((line) => line !== '' && !/^[\d()\s]+$/.test(line)),
+    }))
+    .filter((page) => page.lines.length > 0 || page.page === 1);
 }
 
 export async function extractPdfLines(path: string): Promise<PdfPage[]> {

@@ -33,8 +33,9 @@ const CHAPTER_HEADING = /^(?:ال)?(?:اصحاح|مزمور)\s+\S+(?:\s+\S+){0,3
 const CHAPTER_HEADING_COMPACT = /^(?:ال)?(?:اصحاح|مزمور)[ء-ي]{2,22}$/;
 const PAGE_NUMBER = /^\(?\s*\d+\s*\)?$/;
 
+// Private-use characters (decorations, and a mark some fonts put before page numbers) are ignored.
 const plain = (line: string) =>
-  line.replace(/[ً-ْٰ]/g, '').replace(/[أإآٱ]/g, 'ا').replace(/\s+/g, ' ').trim();
+  line.replace(/[-]/g, '').replace(/[ً-ْٰ]/g, '').replace(/[أإآٱ]/g, 'ا').replace(/\s+/g, ' ').trim();
 
 /** Lines repeated at the top or bottom of many pages: running headers and footers. */
 function runningLines(pages: readonly PdfPage[]): Set<string> {
@@ -57,6 +58,23 @@ function parseMarker(line: string): { verses: [number, number]; rest: string } |
   else if (match[3] !== undefined) last = Math.max(first, ...(match[3].match(/\d+/g) ?? []).map(Number));
   if (last < first || last - first > 60) last = first;
   return { verses: [first, last], rest: line.slice(match[0].length) };
+}
+
+/**
+ * A heading printed on the same line as the chapter's subtitle, or after a page number
+ * ("األَصْ حَ احُ الثَالِ ث شفاء يابس اليد", "232 املزمورالثَانِويالعِشرون آلام المسيح"): the number
+ * read from the longest leading run of words that forms a heading. The line is a heading line.
+ */
+export function headingPrefixNumber(line: string): number | null {
+  const words = line.replace(/^\s*\d+\s+/, '').trim().split(/\s+/);
+  if (!/(?:صحاح|مزمور)/.test(plain(words.slice(0, 4).join('')).replace(/[أإآ]/g, 'ا'))) return null;
+  for (let count = Math.min(words.length, 12); count >= 1; count--) {
+    const prefix = words.slice(0, count).join(' ');
+    // Printed headings are vowelled; prose that merely starts with "المزمور 23" is not one.
+    const number = /[ً-ْ]/.test(prefix) ? chapterHeadingNumber(prefix) : null;
+    if (number !== null) return number;
+  }
+  return null;
 }
 
 interface Draft {
@@ -145,7 +163,7 @@ export function parseStMarkCommentary(
       // matters when it names a chapter other than the current one, and it never interrupts an
       // entry that continues across the page.
       const compact = text.replace(/\s+/g, '');
-      const headingNumber = chapterHeadingNumber(line);
+      const headingNumber = chapterHeadingNumber(line) ?? headingPrefixNumber(line);
       if (headingNumber !== null || CHAPTER_HEADING_COMPACT.test(compact) || (CHAPTER_HEADING.test(text) && text.split(' ').length <= 4)) {
         if (mode === 'headings' && headingNumber !== null && headingNumber !== chapter()?.chapter && headingNumber >= firstChapter) {
           pendingChapter = headingNumber;
@@ -161,6 +179,16 @@ export function parseStMarkCommentary(
           .trim();
         inScripture = true;
         current = null;
+        continue;
+      }
+      // A marker whose verse number the PDF lost ("ع؟:"): an entry with verses [0, 0], which the
+      // importer places by matching its words against the chapter's verses.
+      if (/^ع\s*؟\s*:/.test(text) && chapters.length > 0) {
+        inScripture = false;
+        current = { verses: [0, 0], page, section, lines: [] };
+        chapter()!.drafts.push(current);
+        const rest = line.replace(/^[^:]*:\s*/, '');
+        if (rest.trim() !== '') current.lines.push(rest);
         continue;
       }
       const marker = parseMarker(text);

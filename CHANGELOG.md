@@ -24,9 +24,15 @@
 - Build-time internal link checker.
 
 - Bible interpretation in the reader: the St. Mark Church commentary (stmarkos.org, used with
-  permission) imported verse by verse from 52 PDFs (16,967 entries), validated against the Bible;
+  permission) imported verse by verse from 52 PDFs (17,430 entries), validated against the Bible;
   Fr. Tadros Malaty's commentary linked for the books it does not cover; select a verse to read its
-  interpretation. `@orthodoxia/commentary` package and `npm run commentary:import`.
+  interpretation in a bubble beneath it. `@orthodoxia/commentary` package and
+  `npm run commentary:import`.
+- Minimal reading page: the chapter alone, notes behind an info button, a one-line footer.
+- Commentary text quality: the Gospels are read with Poppler; reversed ligatures, displaced
+  punctuation, quotation marks and brackets, page numbers and headings in the text are corrected in
+  all books, every correction logged in `content/commentary/stmark/corrections.json`; verse
+  quotations are replaced by the Van Dyck text. Psalms verse coverage rose from 74% to 98%.
 
 ### Changed (explorer)
 - Removed Google Analytics. Removed the nested lockfile.

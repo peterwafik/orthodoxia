@@ -46,20 +46,35 @@ npm run commentary:import      # needs the network; then commit content/commenta
 The site build reads only the committed JSON. It never downloads anything.
 
 ### Extraction
-- **Reading order.** PDF.js returns positioned text items. Arabic lines are rebuilt from positions:
-  right to left, with brackets mirrored and digits kept left to right
-  (`scripts/commentary/pdf-lines.ts`).
-- **Clean-up.** Presentation forms are normalized, the ﷲ ligature is expanded, and Arabic-Indic
-  digits are converted (`packages/commentary/src/arabic.ts`).
-- **Scrambled ligatures** (Matthew, Mark, Luke, John). Their fonts emit some letter pairs in
-  reverse (احلسن for الحسن). The build learns which pairs are affected from the text itself, then
-  swaps them only with strong dictionary evidence, from Van Dyck plus the clean books, counting
-  attested stems such as والموصوفة → موصوفة. Genuine words like عمل are left alone. About 5% of
-  words in these books remain unattested; that count includes names and rare words.
+- **Engines.** PDF.js returns positioned text items; Arabic lines are rebuilt from positions, right
+  to left, with brackets mirrored and digits kept left to right (`scripts/commentary/pdf-lines.ts`).
+  The older Gospel PDFs (Matthew, Mark, Luke, John) map ligatures to code points PDF.js scrambles;
+  they are read with Poppler's `pdftotext` instead, which keeps letters in order. Poppler writes
+  runs of digits and punctuation in visual order (`)مر .(17 :3` for `(مر3: 17).`); those runs are
+  put back in logical order. Re-importing therefore needs `pdftotext` on the PATH or in
+  `POPPLER_PDFTOTEXT` (Poppler is free: poppler.freedesktop.org; Windows builds:
+  github.com/oschwartz10612/poppler-windows).
+- **Clean-up.** Presentation forms are normalized, the ﷲ ligature is expanded, digits (Arabic-Indic
+  and private-use) are converted, Persian letter forms are mapped to Arabic ones, and punctuation is
+  set: no space before ، : . and one after; brackets and quotation marks the extraction displaced
+  are put back (`packages/commentary/src/arabic.ts`, `polishArabicText`).
+- **Reversed ligatures.** Some PDFs write ligatures in reverse (أهنم for أنهم, امللك for الملك,
+  حياهتم for حياتهم, إىل for إلى). The documents showing these misspellings are detected (13 of
+  52), and the dictionary of evidence is built from Van Dyck and the other documents. Only real
+  ligature pairs are ever swapped back, and a word changes only with strong evidence: a word the
+  Bible attests needs a replacement 100× more frequent; a word attested only in the commentary, a
+  Bible word or one 50× more frequent; unknown words, an attested replacement. Vowelled words
+  (quotations) and pairs whose two readings are both common (المساء/السماء) are left alone.
+  Reversed pronoun suffixes in the affected documents (شخصياهتم → شخصياتهم) and lost spaces after ى
+  (فىنهاية → فى نهاية) are fixed too.
+- **Every correction is logged** in `content/commentary/stmark/corrections.json` (original →
+  corrected, with counts), for review. The rules were checked against that log; the regressions
+  found (e.g. المسكين, الحاكم, يبكون, قدميك changed wrongly by an earlier version) are unit tests.
 
 ### Structure and validation
 - **Entries** are found from verse markers (ع1:, ع1-3:, ع1، 2:) and sections from "(n) title (ع…)".
-  Quoted Bible text is skipped.
+  Quoted Bible text is skipped. Where a book quotes the verse inside an entry ("1- طوبى للرجل …",
+  from a Bible copy with its own misspellings), the quotation is replaced by the Van Dyck verse.
 - **Chapters** are read from headings ("الأصحاح الحادى والعشرون", including spacing-broken and
   swapped forms) or from the verse numbering restarting. Each PDF is parsed both ways, and the build
   keeps the reading that agrees best with the Bible.
@@ -69,15 +84,18 @@ The site build reads only the committed JSON. It never downloads anything.
 - **A content check** tests whether each entry's opening words appear in its verses, and flags any
   chapter whose entries match a neighboring chapter better. None are flagged.
 - **Results** per book (chapters, entries, verse coverage, alignment, unattested words, anything
-  dropped) are in `content/commentary/stmark/report.json`. 16,967 verse entries are imported.
+  dropped) are in `content/commentary/stmark/report.json`. 17,430 verse entries are imported.
 
 ## Known limitations
 - **Job and Esther** need OCR or the source documents; they are linked as PDFs for now.
 - **Low verse coverage** in some books reflects the source, not missing data. 1 Chronicles is 23%
   because its genealogies are summarized rather than commented verse by verse; 2 Chronicles is 54%;
   Ezra is 56%.
+- **Automatic, not proofread.** Extraction errors are corrected by the rules above, and every
+  correction is logged; the text has not been proofread by a person, and the books' own spelling and
+  grammar are kept as written. A few hundred doubtful words remain (out of about 4 million).
 - **Source documents would fix the rest.** The original Word files from the St. Mark team would
-  remove every extraction limitation, including the scrambled Gospels and the two image-only PDFs.
+  remove every extraction limitation, including the two image-only PDFs.
 - **English is not done yet.** English readers have no interpretation in their language yet: a
   reviewed translation and public-domain Church Fathers (St. Cyril of Alexandria, St. John
   Chrysostom) are the next step.

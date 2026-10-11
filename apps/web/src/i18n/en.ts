@@ -164,7 +164,7 @@ export const en = {
     verses: (start: number, end: number) => (start === end ? `Verse ${start}` : `Verses ${start}–${end}`),
     original: (page: number) => `Read in the original (PDF, page ${page})`,
     repairedNotice:
-      'This book’s text was extracted automatically from the church’s PDF, whose fonts scramble some letters. A few words may contain errors; check the original when in doubt.',
+      'This book’s text was extracted automatically from the church’s PDF, and the letters its fonts scramble were put back in order automatically. If something looks wrong, check the original.',
     numberingNotice:
       'The commentary follows the verse numbering of the Church’s edition of this book, which can differ from the text shown here.',
     pdfOnly: 'The St. Mark Church commentary on this book is available as a PDF.',
