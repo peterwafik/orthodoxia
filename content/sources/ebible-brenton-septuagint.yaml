@@ -1,0 +1,21 @@
+id: ebible-brenton-septuagint
+title: Brenton English Septuagint (1851)
+author: Sir Lancelot C. L. Brenton
+organization: eBible.org
+url: https://ebible.org/Scriptures/details.php?id=eng-Brenton
+publicationDate: "1851"
+languages: [en]
+contentType: bible-text
+license:
+  id: public-domain
+  statement: "Published in 1851, and now in the Public Domain."
+  verifiedUrl: https://ebible.org/Scriptures/details.php?id=eng-Brenton
+inUse: false
+usage: import
+redistributionAllowed: true
+attribution: null
+commercialUse: allowed
+modification: allowed
+lastVerifiedAt: "2026-10-11"
+coversDeuterocanon: true
+notes: Planned (Phase 2/5). Old Testament and deuterocanon only; no New Testament.

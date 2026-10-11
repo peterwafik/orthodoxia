@@ -1,0 +1,30 @@
+{
+  "name": "orthodoxia",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A bilingual (Arabic/English) Coptic Orthodox biblical research and apologetics platform.",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "workspaces": [
+    "apps/explorer",
+    "apps/web",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:web": "npm run dev -w apps/web",
+    "dev:explorer": "npm run dev -w apps/explorer",
+    "validate:content": "node scripts/validate-content.ts",
+    "check": "npm run check -w apps/explorer && npm run check -w packages/content-schema && npm run check -w apps/web && npm run validate:content",
+    "build": "node scripts/build-site.ts",
+    "preview": "npx wrangler dev --local"
+  },
+  "devDependencies": {
+    "@types/node": "^24.13.6",
+    "typescript": "~6.0.2",
+    "wrangler": "^4.149.0",
+    "yaml": "^2.9.1"
+  }
+}

@@ -1,0 +1,17 @@
+id: new-advent-fathers
+title: New Advent — Fathers of the Church
+organization: New Advent LLC
+url: https://www.newadvent.org/fathers/
+languages: [en]
+contentType: patristic-text
+license:
+  id: all-rights-reserved
+  statement: "Revised and edited for New Advent by Kevin Knight. Copyright © 2026 by New Advent LLC."
+  verifiedUrl: https://www.newadvent.org/fathers/0103.htm
+inUse: false
+usage: link-only
+redistributionAllowed: false
+attribution: null
+commercialUse: restricted
+modification: restricted
+lastVerifiedAt: "2026-10-11"

@@ -1,0 +1,16 @@
+id: biblegateway
+title: BibleGateway
+url: https://www.biblegateway.com/
+languages: [en, ar]
+contentType: reference-site
+license:
+  id: all-rights-reserved
+  statement: "may not copy, download, stream capture, reproduce, duplicate, archive, upload, modify, translate"
+  verifiedUrl: https://www.biblegateway.com/legal/terms/
+inUse: false
+usage: do-not-use
+redistributionAllowed: false
+attribution: null
+commercialUse: restricted
+modification: restricted
+lastVerifiedAt: "2026-10-11"

@@ -1,0 +1,23 @@
+{
+  "name": "@orthodoxia/content-schema",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Zod schemas for every content record (sources, articles, review status). Types are inferred from the schemas.",
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "check": "npm run typecheck && npm run test"
+  },
+  "dependencies": {
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "typescript": "~6.0.2",
+    "vitest": "^5.0.3"
+  }
+}

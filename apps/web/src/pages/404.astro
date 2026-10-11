@@ -1,0 +1,20 @@
+---
+import Base from '../layouts/Base.astro';
+import { ar } from '../i18n/ar.ts';
+import { t } from '../i18n/index.ts';
+
+const strings = t('en').notFound;
+---
+
+<Base locale="en" title={strings.title}>
+  <div class="wrap section prose">
+    <h1>{strings.title}</h1>
+    <p>{strings.body}</p>
+    <p><a href="/en/">{strings.home}</a></p>
+    <div lang="ar" dir="rtl">
+      <h2>{ar.notFound.title}</h2>
+      <p>{ar.notFound.body}</p>
+      <p><a href="/ar/">{ar.notFound.home}</a></p>
+    </div>
+  </div>
+</Base>

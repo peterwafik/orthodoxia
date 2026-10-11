@@ -1,0 +1,18 @@
+id: st-takla-org
+title: St-Takla.org (Coptic Orthodox articles, commentaries and books)
+organization: St-Takla Haymanout Coptic Orthodox Church, Alexandria
+url: https://st-takla.org/
+languages: [ar, en]
+contentType: commentary
+license:
+  id: all-rights-reserved
+  statement: "gave us the permission to publish their works ... we noted that in each book or author's page"
+  verifiedUrl: https://st-takla.org/books/en/
+inUse: false
+usage: link-only
+redistributionAllowed: false
+attribution: null
+commercialUse: restricted
+modification: restricted
+lastVerifiedAt: "2026-10-11"
+notes: Permission was granted to St-Takla only, not to third parties. Link and quote briefly with citation; written permission is needed for anything more.

@@ -1,6 +1,6 @@
 # Phase 0 · Step 3 — Architecture Proposal
 
-Status: **Proposed** — awaiting owner decisions listed in §8.
+Status: **Accepted** 2026-10-11. The owner chose Cloudflare, subtree + Astro, a public repo, and MIT + CC BY-SA. See ../adr/.
 
 ## 1. Recommendation in one paragraph
 

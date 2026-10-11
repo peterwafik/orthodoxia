@@ -1,0 +1,117 @@
+---
+/**
+ * The bilingual entry page. A static host cannot pick a language from Accept-Language without a
+ * server function (docs/phase-0/05-hosting-evaluation.md), so the reader chooses.
+ */
+import '@fontsource-variable/inter';
+import '@fontsource-variable/source-serif-4';
+import '@fontsource-variable/noto-naskh-arabic';
+import '../styles/global.css';
+import CopticCross from '../components/CopticCross.astro';
+import { ar } from '../i18n/ar.ts';
+import { en } from '../i18n/en.ts';
+---
+
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{en.meta.siteName} | {ar.meta.siteName}</title>
+    <meta name="description" content={en.meta.description} />
+    <link rel="canonical" href={new URL('/', Astro.site)} />
+    <link rel="alternate" hreflang="en" href={new URL('/en/', Astro.site)} />
+    <link rel="alternate" hreflang="ar" href={new URL('/ar/', Astro.site)} />
+    <link rel="alternate" hreflang="x-default" href={new URL('/', Astro.site)} />
+    <meta name="theme-color" content="#0e1a33" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  </head>
+  <body class="landing">
+    <main>
+      <CopticCross size={44} />
+      <div class="choices">
+        <a href="/en/" hreflang="en" lang="en">
+          <span class="name">{en.meta.siteName}</span>
+          <span class="lede">{en.meta.description}</span>
+          <span class="go">Continue in English</span>
+        </a>
+        <a href="/ar/" hreflang="ar" lang="ar" dir="rtl">
+          <span class="name">{ar.meta.siteName}</span>
+          <span class="lede">{ar.meta.description}</span>
+          <span class="go">المتابعة بالعربية</span>
+        </a>
+      </div>
+    </main>
+  </body>
+</html>
+
+<style>
+  .landing {
+    background: var(--navy);
+    color: var(--ivory);
+  }
+
+  main {
+    display: grid;
+    align-content: center;
+    justify-items: center;
+    gap: 2.5rem;
+    min-block-size: 100vh;
+    padding: 2rem var(--gutter);
+    --accent: var(--gold);
+  }
+
+  .choices {
+    display: grid;
+    gap: 1px;
+    inline-size: min(100%, 56rem);
+    background: rgb(245 241 230 / 0.2);
+  }
+
+  @media (min-width: 44rem) {
+    .choices {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  a {
+    display: grid;
+    gap: 0.75rem;
+    align-content: start;
+    padding: 2rem;
+    background: var(--navy);
+    color: var(--ivory);
+    text-decoration: none;
+  }
+
+  a:hover .go {
+    text-decoration: underline;
+  }
+
+  a:focus-visible {
+    outline: 3px solid var(--gold);
+    outline-offset: -3px;
+  }
+
+  .name {
+    font-family: var(--font-reading);
+    font-size: var(--step-3);
+    font-weight: 560;
+  }
+
+  [lang='ar'] .name,
+  [lang='ar'] .lede {
+    font-family: 'Noto Naskh Arabic Variable', serif;
+  }
+
+  .lede {
+    font-family: var(--font-reading);
+    color: rgb(245 241 230 / 0.82);
+  }
+
+  .go {
+    color: var(--gold);
+    font-weight: 600;
+    margin-block-start: 0.5rem;
+  }
+</style>

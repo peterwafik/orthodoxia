@@ -1,0 +1,19 @@
+id: openbible-cross-references
+title: OpenBible.info Cross-References
+organization: OpenBible.info
+url: https://www.openbible.info/labs/cross-references/
+languages: [en]
+contentType: cross-references
+license:
+  id: CC-BY-4.0
+  statement: "Unless otherwise indicated, all content is licensed under a Creative Commons Attribution License."
+  verifiedUrl: https://www.openbible.info/labs/cross-references/
+inUse: true
+usage: import
+redistributionAllowed: true
+attribution: "Cross-reference data: OpenBible.info (https://www.openbible.info/labs/cross-references/), licensed under CC BY 4.0. Modified: re-indexed to KJV verse numbering."
+commercialUse: allowed
+modification: allowed
+lastVerifiedAt: "2026-10-11"
+coversDeuterocanon: false
+notes: About 344,800 vote-weighted links, drawn largely from the public-domain Treasury of Scripture Knowledge. Covers the 66 books only (book codes verified in the downloaded file).

@@ -1,0 +1,16 @@
+id: blue-letter-bible
+title: Blue Letter Bible
+url: https://www.blueletterbible.org/
+languages: [en]
+contentType: reference-site
+license:
+  id: all-rights-reserved
+  statement: "Blue Letter Bible does not give permission to scrape any content from BLB's websites."
+  verifiedUrl: https://www.blueletterbible.org/about/permissions.cfm
+inUse: false
+usage: do-not-use
+redistributionAllowed: false
+attribution: null
+commercialUse: restricted
+modification: restricted
+lastVerifiedAt: "2026-10-11"

@@ -1,0 +1,142 @@
+---
+import Base from '../../layouts/Base.astro';
+import { LICENSE_LABELS, SOURCES } from '../../lib/sources.ts';
+import { LOCALES, t, type Locale } from '../../i18n/index.ts';
+
+export function getStaticPaths() {
+  return LOCALES.map((lang) => ({ params: { lang } }));
+}
+
+const locale = Astro.params.lang as Locale;
+const strings = t(locale).sources;
+const groups = (['import', 'link-only', 'do-not-use'] as const).map((usage) => ({
+  usage,
+  heading: strings.groups[usage],
+  sources: SOURCES.filter((source) => source.usage === usage),
+}));
+---
+
+<Base locale={locale} title={strings.title}>
+  <div class="wrap section">
+    <h1>{strings.title}</h1>
+    <p class="prose">{strings.intro}</p>
+    {
+      groups.map(({ usage, heading, sources }) => (
+        <section aria-labelledby={`group-${usage}`}>
+          <h2 id={`group-${usage}`}>{heading}</h2>
+          <ul class="sources">
+            {sources.map((source) => (
+              <li>
+                <h3 lang="en" dir="ltr">
+                  <a href={source.url}>{source.title}</a>
+                  {usage === 'import' && (
+                    <span class="badge" lang={locale} dir="auto">
+                      {source.inUse ? strings.inUse : strings.planned}
+                    </span>
+                  )}
+                </h3>
+                <dl>
+                  <dt>{strings.license}</dt>
+                  <dd>
+                    <a href={source.license.verifiedUrl} lang="en">{LICENSE_LABELS[source.license.id]}</a>
+                  </dd>
+                  <dt>{strings.licenseStatement}</dt>
+                  <dd lang="en" dir="ltr">
+                    <q>{source.license.statement}</q>
+                  </dd>
+                  {source.attribution !== null && (
+                    <>
+                      <dt>{strings.attribution}</dt>
+                      <dd lang="en" dir="ltr">{source.attribution}</dd>
+                    </>
+                  )}
+                  {source.coversDeuterocanon !== undefined && (
+                    <>
+                      <dt>{strings.deuterocanon}</dt>
+                      <dd>{source.coversDeuterocanon ? strings.yes : strings.no}</dd>
+                    </>
+                  )}
+                  <dt>{strings.verified}</dt>
+                  <dd>
+                    <time datetime={source.lastVerifiedAt}>{source.lastVerifiedAt}</time>
+                  </dd>
+                </dl>
+                {source.notes !== undefined && <p class="notes" lang="en" dir="ltr">{source.notes}</p>}
+              </li>
+            ))}
+          </ul>
+        </section>
+      ))
+    }
+  </div>
+</Base>
+
+<style>
+  h1 {
+    font-size: var(--step-3);
+  }
+
+  section {
+    margin-block-start: 3rem;
+  }
+
+  .sources {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .sources > li {
+    padding-block: 1.25rem;
+    border-block-start: 1px solid var(--line);
+  }
+
+  h3 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.25rem 0.75rem;
+    font-size: var(--step-1);
+  }
+
+  .badge {
+    font-family: var(--font-ui);
+    font-size: var(--step--1);
+    font-weight: 600;
+    color: var(--accent);
+  }
+
+  dl {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    gap: 0.3rem 1.25rem;
+    margin: 0.5rem 0 0;
+    font-size: var(--step--1);
+  }
+
+  dt {
+    color: var(--ink-muted);
+  }
+
+  dd {
+    margin: 0;
+    overflow-wrap: anywhere;
+  }
+
+  .notes {
+    margin-block: 0.75rem 0;
+    max-inline-size: 48rem;
+    font-size: var(--step--1);
+    color: var(--ink-muted);
+  }
+
+  @media (max-width: 36rem) {
+    dl {
+      grid-template-columns: 1fr;
+    }
+
+    dd {
+      margin-block-end: 0.4rem;
+    }
+  }
+</style>

@@ -8,3 +8,4 @@ apps/explorer/public/data/
 .env.*
 !.env.example
 .DS_Store
+.playwright-mcp/

@@ -1,0 +1,19 @@
+id: wikisource-ante-nicene-fathers
+title: Ante-Nicene Fathers and Nicene and Post-Nicene Fathers (Schaff et al., 1885–1900)
+organization: Wikisource
+url: https://en.wikisource.org/wiki/Ante-Nicene_Fathers
+publicationDate: 1885–1900
+languages: [en]
+contentType: patristic-text
+license:
+  id: public-domain
+  statement: "published before January 1, 1931 ... public domain worldwide"
+  verifiedUrl: https://en.wikisource.org/wiki/Ante-Nicene_Fathers
+inUse: false
+usage: import
+redistributionAllowed: true
+attribution: null
+commercialUse: allowed
+modification: allowed
+lastVerifiedAt: "2026-10-11"
+notes: Planned (Phase 4). The 19th-century texts are public domain. Wikisource's own additions are CC BY-SA, so credit Wikisource if any of its formatting is kept. Prefer this or archive.org scans over CCEL or New Advent files.

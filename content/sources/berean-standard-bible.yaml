@@ -1,0 +1,19 @@
+id: berean-standard-bible
+title: Berean Standard Bible (BSB)
+organization: Bible Hub / Berean Bible
+url: https://berean.bible/
+languages: [en]
+contentType: bible-text
+license:
+  id: public-domain
+  statement: "The Berean Bible and Majority Bible texts are officially dedicated to the public domain as of April 30, 2023."
+  verifiedUrl: https://berean.bible/terms.htm
+inUse: true
+usage: import
+redistributionAllowed: true
+attribution: null
+commercialUse: allowed
+modification: allowed
+lastVerifiedAt: "2026-10-11"
+coversDeuterocanon: false
+notes: Used as the English verse text of the cross-reference explorer (inherited from upstream; raw file pinned by SHA-256 in apps/explorer/data/sources.json). If the text is modified, the publisher asks that the Berean name not be used.

@@ -1,0 +1,18 @@
+id: stepbible-data
+title: STEPBible Data (TAHOT, TAGNT, lexicons, TVTMS versification)
+organization: Tyndale House, Cambridge (STEP Bible)
+url: https://github.com/STEPBible/STEPBible-Data
+languages: [he, grc, en]
+contentType: lexical-data
+license:
+  id: CC-BY-4.0
+  statement: "CC BY 4.0 ... Include any part of STEPBible-Data in any software or publications without requesting permission"
+  verifiedUrl: https://github.com/STEPBible/STEPBible-Data/blob/master/README.md
+inUse: false
+usage: import
+redistributionAllowed: true
+attribution: "STEP Bible (www.STEPBible.org), CC BY 4.0."
+commercialUse: allowed
+modification: allowed
+lastVerifiedAt: "2026-10-11"
+notes: Planned. The README asks that changes to the data be recorded and made available. TVTMS is the candidate versification mapping (KJV, LXX, Arabic).

@@ -2,7 +2,6 @@
 import { resolve } from 'node:path';
 import react from '@vitejs/plugin-react';
 import { defineConfig } from 'vite';
-import { analytics } from './vite/analytics.ts';
 import { firstFrame } from './vite/first-frame.ts';
 import { offline } from './vite/offline.ts';
 import { DEPLOY_BASE, PAGES, ROOT_DIR, SITE_NAME, SITE_URL } from './vite/site.ts';
@@ -18,7 +17,7 @@ export default defineConfig(({ command, isPreview = false }) => ({
     'import.meta.env.SITE_NAME': JSON.stringify(SITE_NAME),
     'import.meta.env.SITE_URL': JSON.stringify(SITE_URL),
   },
-  plugins: [react(), siteHead(), firstFrame(), offline(), analytics()],
+  plugins: [react(), siteHead(), firstFrame(), offline()],
   build: {
     // Three.js alone is ~550 kB minified (~140 kB gzipped); only the WebGL pages load it.
     chunkSizeWarningLimit: 600,

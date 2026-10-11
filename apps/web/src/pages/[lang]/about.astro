@@ -1,0 +1,59 @@
+---
+import Base from '../../layouts/Base.astro';
+import { LOCALES, localePath, t, type Locale } from '../../i18n/index.ts';
+
+export function getStaticPaths() {
+  return LOCALES.map((lang) => ({ params: { lang } }));
+}
+
+const locale = Astro.params.lang as Locale;
+const strings = t(locale);
+const { about, coverage } = strings;
+---
+
+<Base locale={locale} title={about.title}>
+  <article class="wrap section prose">
+    <h1>{about.title}</h1>
+    <p>{about.intro}</p>
+    <p class="notice">{strings.home.disclaimer}</p>
+
+    <h2>{about.nowHeading}</h2>
+    <p>{about.now}</p>
+    <aside class="notice">
+      <p><strong>{coverage.heading}.</strong> {coverage.body}</p>
+    </aside>
+
+    <h2>{about.nextHeading}</h2>
+    <ul>{about.next.map((item) => <li>{item}</li>)}</ul>
+
+    <h2>{about.reviewHeading}</h2>
+    <p>{about.review}</p>
+
+    <h2>{strings.home.methodHeading}</h2>
+    <ol>{strings.hierarchy.map(([name, detail]) => <li><strong>{name}</strong> {detail}</li>)}</ol>
+    <p class="muted">{strings.hierarchyNote}</p>
+
+    <h2>{about.methodHeading}</h2>
+    <p>{about.method}</p>
+    <p><a href={localePath(locale, 'sources')}>{about.sourcesLink}</a></p>
+  </article>
+</Base>
+
+<style>
+  h1 {
+    font-size: var(--step-3);
+  }
+
+  h2 {
+    font-size: var(--step-2);
+    margin-block-start: 2.5rem;
+  }
+
+  .notice {
+    margin-block: 1.5rem;
+  }
+
+  li + li {
+    margin-block-start: 0.35rem;
+  }
+</style>

@@ -1,0 +1,227 @@
+/*
+ * Design tokens and base styles. Contrast of every text pair is ≥ 4.5:1 (checked 2026-10-11:
+ * lowest is accent on ivory, 5.64:1). Only CSS logical properties are used, so the same rules
+ * serve left-to-right English and right-to-left Arabic.
+ */
+
+:root {
+  color-scheme: light;
+  --navy: #0e1a33;
+  --gold: #d9b45a;
+  --ivory: #f5f1e6;
+
+  --surface: var(--ivory);
+  --surface-raised: #fffdf8;
+  --ink: #1a2340;
+  --ink-muted: #4b5567;
+  --accent: #7a5a12;
+  --line: #ddd5c3;
+  --focus: #7a5a12;
+
+  --font-ui: 'Inter Variable', system-ui, sans-serif;
+  --font-reading: 'Source Serif 4 Variable', Georgia, serif;
+
+  /* Modular scale, ratio 1.25. */
+  --step--1: 0.875rem;
+  --step-0: 1rem;
+  --step-1: 1.25rem;
+  --step-2: 1.5625rem;
+  --step-3: 1.953rem;
+  --step-hero: clamp(2.1rem, 1.4rem + 3.4vw, 3.6rem);
+
+  --gutter: 1rem;
+  --measure: 38rem;
+  --page: 72rem;
+}
+
+:root:lang(ar) {
+  --font-ui: 'Noto Sans Arabic Variable', 'Inter Variable', system-ui, sans-serif;
+  --font-reading: 'Noto Naskh Arabic Variable', 'Source Serif 4 Variable', serif;
+  /* Arabic script needs a narrower measure and more line height to read comfortably. */
+  --measure: 34rem;
+}
+
+@media (min-width: 48rem) {
+  :root {
+    --gutter: 2rem;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+    color-scheme: dark;
+    --surface: var(--navy);
+    --surface-raised: #16244a;
+    --ink: #ede7d8;
+    --ink-muted: #aeb6c6;
+    --accent: var(--gold);
+    --line: #2a3a60;
+    --focus: var(--gold);
+  }
+}
+
+:root[data-theme='dark'] {
+  color-scheme: dark;
+  --surface: var(--navy);
+  --surface-raised: #16244a;
+  --ink: #ede7d8;
+  --ink-muted: #aeb6c6;
+  --accent: var(--gold);
+  --line: #2a3a60;
+  --focus: var(--gold);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--surface);
+  color: var(--ink);
+  font-family: var(--font-ui);
+  font-size: var(--step-0);
+  line-height: 1.55;
+  min-block-size: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+:lang(ar) body {
+  line-height: 1.8;
+}
+
+main {
+  flex: 1;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-reading);
+  font-weight: 560;
+  line-height: 1.2;
+  margin-block: 0 0.5em;
+  text-wrap: balance;
+}
+
+:lang(ar) :is(h1, h2, h3) {
+  line-height: 1.5;
+  font-weight: 650;
+}
+
+h2 {
+  font-size: var(--step-3);
+}
+
+h3 {
+  font-size: var(--step-1);
+}
+
+p {
+  margin-block: 0 1em;
+  text-wrap: pretty;
+}
+
+a {
+  color: var(--accent);
+  text-underline-offset: 0.18em;
+  text-decoration-thickness: 1px;
+}
+
+a:hover {
+  text-decoration-thickness: 2px;
+}
+
+:focus-visible {
+  outline: 3px solid var(--focus);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+.wrap {
+  max-inline-size: var(--page);
+  margin-inline: auto;
+  padding-inline: var(--gutter);
+}
+
+.prose {
+  max-inline-size: var(--measure);
+  font-family: var(--font-reading);
+  font-size: 1.0625rem;
+  line-height: 1.65;
+}
+
+:lang(ar) .prose {
+  font-size: 1.125rem;
+  line-height: 1.95;
+}
+
+.muted {
+  color: var(--ink-muted);
+}
+
+.section {
+  padding-block: 3.5rem;
+}
+
+.section + .section {
+  border-block-start: 1px solid var(--line);
+}
+
+.skip-link {
+  position: absolute;
+  inset-inline-start: var(--gutter);
+  inset-block-start: -4rem;
+  z-index: 10;
+  padding: 0.5rem 1rem;
+  background: var(--surface-raised);
+  color: var(--ink);
+}
+
+.skip-link:focus {
+  inset-block-start: 0.5rem;
+}
+
+.visually-hidden {
+  position: absolute;
+  inline-size: 1px;
+  block-size: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+/* A note that changes how the reader should interpret what follows (coverage, disclaimers). */
+.notice {
+  border-inline-start: 3px solid var(--accent);
+  padding-block: 0.25rem;
+  padding-inline-start: 1rem;
+  max-inline-size: var(--measure);
+}
+
+.notice > :last-child {
+  margin-block-end: 0;
+}
+
+/* Scripture references and other left-to-right fragments inside Arabic text. */
+bdi {
+  unicode-bidi: isolate;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

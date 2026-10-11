@@ -1,0 +1,18 @@
+id: treasury-of-scripture-knowledge-website
+title: thetreasuryofscriptureknowledge.com
+organization: MasonSoft Technology Ltd
+url: https://www.thetreasuryofscriptureknowledge.com/
+languages: [en]
+contentType: reference-site
+license:
+  id: all-rights-reserved
+  statement: "no part of this Website may be reproduced or stored in any other website"
+  verifiedUrl: https://www.thetreasuryofscriptureknowledge.com/Home/Terms
+inUse: false
+usage: do-not-use
+redistributionAllowed: false
+attribution: null
+commercialUse: restricted
+modification: restricted
+lastVerifiedAt: "2026-10-11"
+notes: The underlying 19th-century TSK is public domain (e.g. CrossWire's TSK module); this website's presentation is not.

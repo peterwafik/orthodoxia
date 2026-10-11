@@ -1,0 +1,17 @@
+id: crossrefviz
+title: CrossRefViz
+url: https://github.com/lggcs/crossrefviz
+languages: [en]
+contentType: software
+license:
+  id: custom
+  statement: "GNU AFFERO GENERAL PUBLIC LICENSE Version 3"
+  verifiedUrl: https://github.com/lggcs/crossrefviz/blob/main/LICENSE
+inUse: false
+usage: do-not-use
+redistributionAllowed: true
+attribution: null
+commercialUse: allowed
+modification: allowed
+lastVerifiedAt: "2026-10-11"
+notes: Evaluated in Phase 0 and not adopted. AGPL-3.0 copyleft would extend to the whole served app, and its theme data is unreviewed AI classification.

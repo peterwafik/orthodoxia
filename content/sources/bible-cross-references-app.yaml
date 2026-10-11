@@ -1,0 +1,18 @@
+id: bible-cross-references-app
+title: Bible Cross-References (interactive explorer source code)
+author: Oleksii Trekhleb
+url: https://github.com/trekhleb/bible-cross-references
+languages: [en]
+contentType: software
+license:
+  id: MIT
+  statement: "Permission is hereby granted, free of charge, to any person obtaining a copy of this software ..."
+  verifiedUrl: https://github.com/trekhleb/bible-cross-references/blob/main/LICENSE
+inUse: true
+usage: import
+redistributionAllowed: true
+attribution: "Cross-reference explorer based on Bible Cross-References by Oleksii Trekhleb (MIT License)."
+commercialUse: allowed
+modification: allowed
+lastVerifiedAt: "2026-10-11"
+notes: Vendored with git subtree into apps/explorer at upstream commit 23e7f90. Local changes are listed in apps/explorer/PATCHES.md.

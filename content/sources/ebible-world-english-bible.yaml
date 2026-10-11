@@ -1,0 +1,19 @@
+id: ebible-world-english-bible
+title: World English Bible (with deuterocanon)
+organization: eBible.org
+url: https://ebible.org/Scriptures/details.php?id=eng-web
+languages: [en]
+contentType: bible-text
+license:
+  id: public-domain
+  statement: "Public Domain. However, 'World English Bible' is a Trademark of eBible.org."
+  verifiedUrl: https://ebible.org/Scriptures/details.php?id=eng-web
+inUse: false
+usage: import
+redistributionAllowed: true
+attribution: null
+commercialUse: allowed
+modification: allowed
+lastVerifiedAt: "2026-10-11"
+coversDeuterocanon: true
+notes: Planned candidate for deuterocanonical English text. Do not call a modified text "World English Bible".
