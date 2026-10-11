@@ -55,9 +55,17 @@
   "entries": 149,
   "translated": 149
  },
+ "EXO": {
+  "entries": 738,
+  "translated": 407
+ },
  "GAL": {
   "entries": 112,
   "translated": 112
+ },
+ "GEN": {
+  "entries": 805,
+  "translated": 710
  },
  "HEB": {
   "entries": 268,
@@ -75,6 +83,10 @@
   "entries": 24,
   "translated": 24
  },
+ "LEV": {
+  "entries": 560,
+  "translated": 138
+ },
  "LUK": {
   "entries": 799,
   "translated": 799
@@ -87,6 +99,10 @@
   "entries": 372,
   "translated": 372
  },
+ "NUM": {
+  "entries": 664,
+  "translated": 22
+ },
  "PHM": {
   "entries": 25,
   "translated": 25
@@ -97,7 +113,7 @@
  },
  "PSA": {
   "entries": 1829,
-  "translated": 859
+  "translated": 1791
  },
  "REV": {
   "entries": 355,
