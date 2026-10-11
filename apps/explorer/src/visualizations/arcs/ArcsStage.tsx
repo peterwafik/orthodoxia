@@ -7,6 +7,7 @@ import type { LinkFilter } from '../shared/link-filter.ts';
 import { useElementSize } from '../shared/use-element-size.ts';
 import type { VizData } from '../shared/viz-data.ts';
 import { buildArcInstances } from './arc-instances.ts';
+import { useTheme } from '../../shared/lib/theme.ts';
 import { ArcsController, type ArcHover } from './arcs-controller.ts';
 import styles from './ArcsStage.module.css';
 import { t } from '../../i18n/messages.ts';
@@ -74,6 +75,11 @@ export function ArcsStage({
   useEffect(() => {
     controllerRef.current?.setActive(active);
   }, [active]);
+
+  const theme = useTheme();
+  useEffect(() => {
+    controllerRef.current?.setTheme(theme);
+  }, [theme]);
 
   useEffect(() => {
     controllerRef.current?.setSize(size.width, size.height);

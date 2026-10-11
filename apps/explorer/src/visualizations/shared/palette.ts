@@ -1,7 +1,39 @@
 import { GENRES, type GenreId } from '../../core/bible/genres.ts';
+import type { Theme } from '../../shared/lib/theme.ts';
 
-/** Background of every visualization (the dark theme's `--color-background`). */
+/** Background of every visualization in the dark theme (the site's navy). */
 export const VIZ_SURFACE = '#0e1a33';
+
+/** The neutral colors a visualization paints with, per theme (the site's palette). */
+export interface VizColors {
+  /** Genre colors, indexed by genre ordinal. */
+  readonly genres: readonly string[];
+  readonly surface: string;
+  readonly text: string;
+  readonly muted: string;
+  readonly axis: string;
+}
+
+export const VIZ_COLORS: Readonly<Record<Theme, VizColors>> = {
+  get dark(): VizColors {
+    return {
+      genres: genreHex('dark'),
+      surface: VIZ_SURFACE,
+      text: '#ede7d8',
+      muted: '#aeb6c6',
+      axis: '#2a3a60',
+    };
+  },
+  get light(): VizColors {
+    return {
+      genres: genreHex('light'),
+      surface: '#f5f1e6',
+      text: '#1a2340',
+      muted: '#4b5567',
+      axis: '#d6ccb6',
+    };
+  },
+};
 
 /**
  * Genre colors for the dark surface, in canonical genre order: warm Old Testament, cool New
@@ -46,3 +78,36 @@ export const GENRE_RGB: readonly Rgb[] = GENRES.map((genre) => hexToRgb(GENRE_CO
 
 /** Genre colors as hex strings, indexed by genre ordinal (for Canvas 2D). */
 export const GENRE_HEX: readonly string[] = GENRES.map((genre) => GENRE_COLORS[genre.id]);
+
+/**
+ * The same genre colors for the light (ivory) surface: each deepened to 80% so it keeps at least
+ * 3.8:1 contrast on ivory (the dark-surface colors fall to ~2.6:1 there), with unchanged hues.
+ * Mirrored as `--genre-*` custom properties in global.css for HTML swatches.
+ */
+export const GENRE_COLORS_LIGHT: Readonly<Record<GenreId, string>> = {
+  law: '#bc4572',
+  history: '#aa5124',
+  poetry: '#907204',
+  'major-prophets': '#a74684',
+  'minor-prophets': '#6d800a',
+  gospels: '#128690',
+  acts: '#1d7c43',
+  'pauline-epistles': '#0476b8',
+  'general-epistles': '#028a72',
+  revelation: '#8055bd',
+};
+
+/** Genre colors for a theme, indexed by genre ordinal. */
+export function genreHex(theme: Theme): readonly string[] {
+  const colors = theme === 'light' ? GENRE_COLORS_LIGHT : GENRE_COLORS;
+  return GENRES.map((genre) => colors[genre.id]);
+}
+
+export function genreRgb(theme: Theme): readonly Rgb[] {
+  return genreHex(theme).map(hexToRgb);
+}
+
+/** A genre's color for HTML, following the page's theme (see `--genre-*` in global.css). */
+export function genreCssColor(genre: GenreId): string {
+  return `var(--genre-${genre})`;
+}

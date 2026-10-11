@@ -1,6 +1,7 @@
 /*
  * Design tokens. Every color is a light-dark() pair, so a page follows the operating system's
- * theme by default, and a page can force a theme with <html data-theme="dark"> (or "light").
+ * theme by default, and the reader's choice on the site (<html data-theme="dark"> or "light",
+ * see src/shared/lib/theme.ts) overrides it.
  */
 :root {
   color-scheme: light dark;
@@ -28,6 +29,18 @@
   --space-8: 2rem;
 
   --radius: 0.5rem;
+
+  /* Genre colors (palette.ts): light-surface variant, dark-surface variant. */
+  --genre-law: light-dark(#bc4572, #eb568f);
+  --genre-history: light-dark(#aa5124, #d5652d);
+  --genre-poetry: light-dark(#907204, #b48f05);
+  --genre-major-prophets: light-dark(#a74684, #d157a5);
+  --genre-minor-prophets: light-dark(#6d800a, #88a00d);
+  --genre-gospels: light-dark(#128690, #17a7b4);
+  --genre-acts: light-dark(#1d7c43, #249b54);
+  --genre-pauline-epistles: light-dark(#0476b8, #0593e6);
+  --genre-general-epistles: light-dark(#028a72, #03ac8f);
+  --genre-revelation: light-dark(#8055bd, #a06aec);
   --content-width: 72rem;
 }
 

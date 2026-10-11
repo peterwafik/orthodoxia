@@ -7,11 +7,12 @@ import { formatInteger } from '../../shared/lib/format.ts';
 import { NextIcon, PreviousIcon } from '../../shared/ui/icons.tsx';
 import { collectConnections, type Connection } from '../shared/connections.ts';
 import type { LinkFilter } from '../shared/link-filter.ts';
-import { GENRE_COLORS } from '../shared/palette.ts';
 import { useElementSize } from '../shared/use-element-size.ts';
 import type { VizData } from '../shared/viz-data.ts';
 import { FrameScheduler, MAX_PIXEL_RATIO } from '../shared/frames.ts';
 import { computeSpineLayout } from './spine-layout.ts';
+import { useTheme } from '../../shared/lib/theme.ts';
+import { genreCssColor, VIZ_COLORS } from '../shared/palette.ts';
 import { drawThreads, spineBar, type VerseAnchor } from './threads-drawing.ts';
 import styles from './ThreadsStage.module.css';
 import { DIRECTION } from '../../i18n/locale.ts';
@@ -59,6 +60,7 @@ export function ThreadsStage({
   preview,
   onSelect,
 }: ThreadsStageProps) {
+  const theme = useTheme();
   const { versification, translation, crossReferences, verseGenres } = data;
   const readingRef = useRef<HTMLDivElement>(null);
   const canvasHostRef = useRef<HTMLDivElement>(null);
@@ -143,6 +145,7 @@ export function ThreadsStage({
         }
       }
       drawThreads(context, {
+        colors: VIZ_COLORS[theme],
         width: canvasSize.width,
         height: canvasSize.height,
         gutterWidth,
@@ -178,6 +181,7 @@ export function ThreadsStage({
     emphasizedVerse,
     emphasizedBook,
     emphasizedLink,
+    theme,
   ]);
 
   // Condense the chapter header once the reader scrolls, and track the verse at the top.
@@ -250,7 +254,7 @@ export function ThreadsStage({
         >
           <div className={styles.column}>
             <p className={styles.eyebrow}>
-              <span className={styles.key} style={{ background: GENRE_COLORS[genre.id] }} />
+              <span className={styles.key} style={{ background: genreCssColor(genre.id) }} />
               {genre.name} · {t.testament[genre.testament]}
             </p>
             <div className={styles.titleRow}>

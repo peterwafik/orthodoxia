@@ -1,13 +1,15 @@
 import { LOCALE } from '../../i18n/locale.ts';
 import { t } from '../../i18n/messages.ts';
 import { MenuButton } from '../../visualizations/shared/components/MenuButton.tsx';
+import { setTheme, useTheme } from '../lib/theme.ts';
 import { SiteMenuIcon } from './icons.tsx';
 import styles from './SiteNav.module.css';
 
 /**
  * Orthodoxia patch (PATCHES.md): the site's own navigation inside the explorer's header. The brand
- * leads home, the language link opens the same view and passage in the other language, and the
- * menu holds the rest of the site.
+ * leads home, the language link opens the same view and passage in the other language, the theme
+ * button switches light/dark for the whole site (the same control and icon as on every other page),
+ * and the menu holds the rest of the site.
  */
 
 const OTHER_LOCALE = LOCALE === 'ar' ? 'en' : 'ar';
@@ -49,6 +51,7 @@ export function SiteNav() {
       >
         {t.site.otherLanguage}
       </a>
+      <ThemeToggle />
       <MenuButton label={t.site.menu} icon={SiteMenuIcon} iconOnly>
         <nav aria-label={t.site.menu}>
           <ul className={styles.links}>
@@ -61,6 +64,27 @@ export function SiteNav() {
         </nav>
       </MenuButton>
     </div>
+  );
+}
+
+/** The site's light/dark switch: a circle half filled, as in the site header. */
+function ThemeToggle() {
+  const theme = useTheme();
+  return (
+    <button
+      type="button"
+      className={styles.theme}
+      aria-label={t.site.themeToggle}
+      title={t.site.themeToggle}
+      onClick={() => {
+        setTheme(theme === 'dark' ? 'light' : 'dark');
+      }}
+    >
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <circle cx="12" cy="12" r="8" fill="none" stroke="currentColor" strokeWidth="1.8" />
+        <path d="M12 4a8 8 0 0 1 0 16Z" fill="currentColor" />
+      </svg>
+    </button>
   );
 }
 

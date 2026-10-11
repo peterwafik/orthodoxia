@@ -30,7 +30,7 @@ import type { Translation } from '../../../translations/translation.ts';
 import { collectConnections, groupByBook, landingNote, type Connection } from '../connections.ts';
 import type { LinkFilter } from '../link-filter.ts';
 import { canCopy, copyQuote, quotePassage, type PassageQuote } from '../passage-quote.ts';
-import { GENRE_COLORS, GENRE_HEX } from '../palette.ts';
+import { genreCssColor } from '../palette.ts';
 import type { VizData } from '../viz-data.ts';
 import styles from './PassagePanel.module.css';
 import { t } from '../../../i18n/messages.ts';
@@ -210,7 +210,7 @@ export function PassagePanel({
       <header className={styles.header}>
         <div className={styles.heading}>
           <p className={styles.eyebrow}>
-            <span className={styles.key} style={{ background: GENRE_COLORS[genre.id] }} />
+            <span className={styles.key} style={{ background: genreCssColor(genre.id) }} />
             {genre.name} · {t.testament[book.testament]}
           </p>
           <h2 className={styles.title}>{formatPassage(passage, versification)}</h2>
@@ -395,7 +395,7 @@ function GenreBreakdown({
               key={genre.id}
               style={{
                 flexGrow: counts[genre.ordinal] ?? 0,
-                background: elementAt(GENRE_HEX, genre.ordinal),
+                background: genreCssColor(genre.id),
               }}
             />
           ))}
@@ -420,7 +420,7 @@ function GenreBreakdown({
                   className={styles.bar}
                   style={{
                     inlineSize: `${Math.max((count / max) * 100, 2)}%`,
-                    background: elementAt(GENRE_HEX, genre.ordinal),
+                    background: genreCssColor(genre.id),
                   }}
                 />
                 <span className={styles.count}>{formatInteger(count)}</span>
@@ -473,7 +473,7 @@ function ConnectionSection({
           <p className={styles.groupHeader}>
             <span
               className={styles.key}
-              style={{ background: GENRE_COLORS[getBookGenre(group.book).id] }}
+              style={{ background: genreCssColor(getBookGenre(group.book).id) }}
             />
             {getBook(group.book).name}
             <span className={styles.count}>{formatInteger(group.connections.length)}</span>

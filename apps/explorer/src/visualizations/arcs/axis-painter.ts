@@ -3,11 +3,13 @@ import { GENRES, getBookGenre, getGenreBooks } from '../../core/bible/genres.ts'
 import type { VerseIndexRange, Versification } from '../../core/bible/versification.ts';
 import { elementAt } from '../../core/lib/array.ts';
 import { LOCALE } from '../../i18n/locale.ts';
-import { GENRE_HEX } from '../shared/palette.ts';
+import type { VizColors } from '../shared/palette.ts';
 import { verseToAlong, type ArcLayout } from './arc-layout.ts';
 import type { AxisView } from './axis-view.ts';
 
 export interface AxisPaint {
+  /** Neutral colors for the site's current theme. */
+  readonly colors: VizColors;
   readonly layout: ArcLayout;
   readonly view: AxisView;
   readonly versification: Versification;
@@ -17,9 +19,6 @@ export interface AxisPaint {
   readonly passage: VerseIndexRange | null;
 }
 
-const TEXT = '#ede7d8';
-const MUTED = '#aeb6c6';
-const AXIS = '#2a3a60';
 const BAR_OFFSET = 3;
 const BAR_THICKNESS = 8;
 const LABEL_FONT = '11px system-ui, -apple-system, "Segoe UI", sans-serif';
@@ -51,6 +50,7 @@ function fillAlong(
  */
 export function paintAxis(context: CanvasRenderingContext2D, paint: AxisPaint): void {
   const { layout, view, versification } = paint;
+  const { text: TEXT, muted: MUTED, axis: AXIS } = paint.colors;
   context.clearRect(0, 0, layout.width, layout.height);
   const along = (verse: number) => verseToAlong(layout, view, verse);
   const visible = (from: number, to: number) => to >= layout.axisStart && from <= layout.axisEnd;
@@ -77,7 +77,7 @@ export function paintAxis(context: CanvasRenderingContext2D, paint: AxisPaint): 
     if (!visible(from, to)) continue;
     const gap = to - from > 4 ? 1 : 0;
     context.globalAlpha = book.ordinal % 2 === 0 ? 1 : 0.72;
-    context.fillStyle = elementAt(GENRE_HEX, getBookGenre(book.id).ordinal);
+    context.fillStyle = elementAt(paint.colors.genres, getBookGenre(book.id).ordinal);
     fillAlong(context, layout, clampAlong(from) + gap, clampAlong(to) - gap, barFrom, barTo);
   }
   context.globalAlpha = 1;
@@ -120,7 +120,7 @@ export function paintAxis(context: CanvasRenderingContext2D, paint: AxisPaint): 
 
 function paintBookLabels(
   context: CanvasRenderingContext2D,
-  { layout, versification, focus, hover, passage }: AxisPaint,
+  { layout, versification, focus, hover, passage, colors }: AxisPaint,
   along: (verse: number) => number,
 ): void {
   const horizontal = layout.orientation === 'horizontal';
@@ -150,7 +150,7 @@ function paintBookLabels(
       touches(focus, range.start, range.end) ||
       touches(hover, range.start, range.end) ||
       touches(passage, range.start, range.end);
-    context.fillStyle = isActive ? TEXT : MUTED;
+    context.fillStyle = isActive ? colors.text : colors.muted;
     const center = (from + to) / 2;
     if (horizontal) {
       context.fillText(label, center, layout.baseline + labelOffset + 12);
@@ -162,7 +162,7 @@ function paintBookLabels(
 
 function paintGenreLabels(
   context: CanvasRenderingContext2D,
-  { layout, versification }: AxisPaint,
+  { layout, versification, colors }: AxisPaint,
   along: (verse: number) => number,
 ): void {
   context.font = GENRE_FONT;
@@ -179,16 +179,16 @@ function paintGenreLabels(
     if (to - from < context.measureText(label).width + 16) continue;
     const center = (from + to) / 2;
     const textWidth = context.measureText(label).width;
-    context.fillStyle = elementAt(GENRE_HEX, genre.ordinal);
+    context.fillStyle = elementAt(colors.genres, genre.ordinal);
     context.fillRect(center - textWidth / 2 - 12, y - 1, 8, 2);
-    context.fillStyle = MUTED;
+    context.fillStyle = colors.muted;
     context.fillText(label, center + 2, y);
   }
 }
 
 function paintOverview(
   context: CanvasRenderingContext2D,
-  { layout, view, versification }: AxisPaint,
+  { layout, view, versification, colors }: AxisPaint,
 ): void {
   const total = versification.verseCount;
   if (view.end - view.start >= total - 0.5) return;
@@ -203,11 +203,11 @@ function paintOverview(
     if (!first || !last) continue;
     const from = position(versification.bookRange(first).start);
     const to = position(versification.bookRange(last).end + 1);
-    context.fillStyle = elementAt(GENRE_HEX, genre.ordinal);
+    context.fillStyle = elementAt(colors.genres, genre.ordinal);
     if (horizontal) context.fillRect(from, 6, to - from, 3);
     else context.fillRect(layout.width - 9, from, 3, to - from);
   }
-  context.strokeStyle = TEXT;
+  context.strokeStyle = colors.text;
   context.lineWidth = 1;
   const from = position(view.start);
   const to = position(view.end);

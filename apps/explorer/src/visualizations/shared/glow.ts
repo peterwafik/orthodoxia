@@ -13,7 +13,8 @@ import {
   type Camera,
   type WebGLRenderer,
 } from 'three';
-import { hexToRgb, VIZ_SURFACE } from './palette.ts';
+import type { Theme } from '../../shared/lib/theme.ts';
+import { hexToRgb, VIZ_COLORS } from './palette.ts';
 
 const COMPOSITE_VERTEX_SHADER = /* glsl */ `
   precision highp float;
@@ -37,6 +38,7 @@ const COMPOSITE_FRAGMENT_SHADER = /* glsl */ `
   uniform vec3 u_surface;
   uniform float u_ceiling;   // light at which the glow reaches full intensity
   uniform float u_dim;       // 1: normal; lower while something is focused
+  uniform float u_light;     // 0: light on a dark surface; 1: ink on a light surface
   in vec2 v_uv;
   out vec4 fragColor;
   void main() {
@@ -44,7 +46,12 @@ const COMPOSITE_FRAGMENT_SHADER = /* glsl */ `
     float peak = max(max(light.r, light.g), light.b);
     float intensity = clamp(log(1.0 + peak) / log(1.0 + u_ceiling), 0.0, 1.0) * u_dim;
     vec3 glow = peak > 0.0 ? light / peak * intensity : vec3(0.0);
-    fragColor = vec4(u_surface + glow * (1.0 - u_surface), 1.0);
+    vec3 lit = u_surface + glow * (1.0 - u_surface);
+    // On a light surface the same accumulation reads as ink: the hue, slightly deepened, laid over
+    // the paper in proportion to the intensity.
+    vec3 hue = peak > 0.0 ? light / peak : vec3(0.0);
+    vec3 inked = mix(u_surface, hue * 0.8, intensity);
+    fragColor = vec4(mix(lit, inked, u_light), 1.0);
   }
 `;
 
@@ -73,7 +80,7 @@ export class GlowCompositor {
       type: canRenderHalfFloat ? HalfFloatType : UnsignedByteType,
       depthBuffer: false,
     });
-    const [red, green, blue] = hexToRgb(VIZ_SURFACE);
+    const [red, green, blue] = hexToRgb(VIZ_COLORS.dark.surface);
     this.#quad = new Mesh(
       new PlaneGeometry(2, 2),
       new RawShaderMaterial({
@@ -85,6 +92,7 @@ export class GlowCompositor {
           u_surface: { value: new Vector3(red, green, blue) },
           u_ceiling: { value: 100 },
           u_dim: { value: 1 },
+          u_light: { value: 0 },
         },
         depthTest: false,
         depthWrite: false,
@@ -117,6 +125,16 @@ export class GlowCompositor {
     this.#setUniform('u_dim', dim);
   }
 
+  /** Composites for the given theme's surface (only the cheap composite pass is affected). */
+  setTheme(theme: Theme): void {
+    const [red, green, blue] = hexToRgb(VIZ_COLORS[theme].surface);
+    const surface = this.#quad.material.uniforms['u_surface'];
+    if (surface) {
+      (surface.value as Vector3).set(red, green, blue);
+    }
+    this.#setUniform('u_light', theme === 'light' ? 1 : 0);
+  }
+
   /** Draws the glow onto the current (screen) framebuffer, re-accumulating it if stale. */
   render(glowScene: Scene, camera: Camera): void {
     const renderer = this.#renderer;
@@ -137,7 +155,7 @@ export class GlowCompositor {
     this.#target.dispose();
   }
 
-  #setUniform(name: 'u_ceiling' | 'u_dim', value: number): void {
+  #setUniform(name: 'u_ceiling' | 'u_dim' | 'u_light', value: number): void {
     const uniform = this.#quad.material.uniforms[name];
     if (uniform) {
       uniform.value = value;

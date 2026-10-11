@@ -3,7 +3,7 @@ import type { VerseIndex } from '../../core/bible/verse-ref.ts';
 import type { VerseIndexRange } from '../../core/bible/versification.ts';
 import { elementAt } from '../../core/lib/array.ts';
 import type { Connection } from '../shared/connections.ts';
-import { GENRE_HEX } from '../shared/palette.ts';
+import type { VizColors } from '../shared/palette.ts';
 import { voteWeight } from '../shared/vote-weight.ts';
 import type { SpineLayout } from './spine-layout.ts';
 import { LOCALE } from '../../i18n/locale.ts';
@@ -15,6 +15,8 @@ export interface VerseAnchor {
 }
 
 export interface ThreadsDrawing {
+  /** Neutral colors for the site's current theme. */
+  readonly colors: VizColors;
   readonly width: number;
   readonly height: number;
   /** Width of the thread area; the spine bar starts right after it. */
@@ -34,8 +36,6 @@ export interface ThreadsDrawing {
   readonly emphasizedLink: number | null;
 }
 
-const TEXT = '#ecebe6';
-const MUTED = '#9a9890';
 const LABEL_FONT = '10px system-ui, -apple-system, "Segoe UI", sans-serif';
 
 /** Horizontal position of the spine bar and its width. */
@@ -84,7 +84,10 @@ function drawConnections(context: CanvasRenderingContext2D, drawing: ThreadsDraw
       threads.push({
         y: anchor.y,
         target: spine.yOf((connection.otherStart + connection.otherEnd) / 2),
-        color: elementAt(GENRE_HEX, elementAt(drawing.verseGenres, connection.otherStart)),
+        color: elementAt(
+          drawing.colors.genres,
+          elementAt(drawing.verseGenres, connection.otherStart),
+        ),
         alpha: emphasized ? 0.95 : hasEmphasis ? 0.06 + 0.1 * weight : 0.18 + 0.5 * weight,
         emphasized,
       });
@@ -125,7 +128,7 @@ function drawSpine(context: CanvasRenderingContext2D, drawing: ThreadsDrawing): 
 
   for (const [index, segment] of spine.segments.entries()) {
     context.globalAlpha = index % 2 === 0 ? 1 : 0.72;
-    context.fillStyle = elementAt(GENRE_HEX, segment.genreOrdinal);
+    context.fillStyle = elementAt(drawing.colors.genres, segment.genreOrdinal);
     context.fillRect(bar.left, segment.top, bar.width, Math.max(segment.bottom - segment.top, 0.5));
   }
   context.globalAlpha = 1;
@@ -140,14 +143,14 @@ function drawSpine(context: CanvasRenderingContext2D, drawing: ThreadsDrawing): 
       (text) => context.measureText(text).width <= room,
     );
     if (label === undefined) continue;
-    context.fillStyle = isHovered ? TEXT : MUTED;
+    context.fillStyle = isHovered ? drawing.colors.text : drawing.colors.muted;
     context.fillText(label, labelX, (segment.top + segment.bottom) / 2);
   }
 
   // "You are here": a bracket around the current chapter.
   const top = spine.yOf(chapter.start) - 2;
   const bottom = Math.max(spine.yOf(chapter.end) + 2, top + 4);
-  context.fillStyle = TEXT;
+  context.fillStyle = drawing.colors.text;
   context.fillRect(bar.left - 3, top, 2, bottom - top);
   context.beginPath();
   context.moveTo(bar.left - 3, (top + bottom) / 2 - 4);

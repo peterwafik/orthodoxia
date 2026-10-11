@@ -12,9 +12,10 @@ import {
   type Blending,
   type WebGLRenderer,
 } from 'three';
+import type { Theme } from '../../shared/lib/theme.ts';
 import { GlowCompositor } from '../shared/glow.ts';
 import { createCurveGeometry, type CurveKind } from '../shared/instanced-templates.ts';
-import { createRenderer, genrePaletteUniform } from '../shared/webgl.ts';
+import { applyTheme, createRenderer, genrePaletteUniform } from '../shared/webgl.ts';
 import type { ArcInstances } from './arc-instances.ts';
 import type { ArcLayout } from './arc-layout.ts';
 import {
@@ -118,6 +119,12 @@ export class ArcScene {
     this.#common.u_baseline.value = layout.baseline;
     this.#common.u_maxHeight.value = layout.maxArcHeight;
     this.#common.u_vertical.value = layout.orientation === 'vertical' ? 1 : 0;
+    this.#glow.invalidate();
+  }
+
+  setTheme(theme: Theme): void {
+    applyTheme(this.#renderer, this.#common.u_palette.value, theme);
+    this.#glow.setTheme(theme);
     this.#glow.invalidate();
   }
 

@@ -22,7 +22,27 @@ with an Orthodoxia comment.
 | Genre colors History, Major Prophets, Acts lightened 8–16% to keep ≥ 4.5:1 contrast on navy (same hue) | `src/visualizations/shared/palette.ts`                                                                 |
 | Translucent overlays and first frame, manifest, theme-color: navy                                      | `*.module.css` in arcs/threads/legend, `vite/first-frame.ts`, `vite/offline.ts`, `vite/site-head.ts`   |
 
-## 3. Site shell
+## 3. Light and dark theme
+
+The explorer follows the site's theme: the reader's choice (saved by any page under
+`orthodoxia:theme`) or else the system preference, and switches live from the same header icon as
+the rest of the site.
+
+- `src/shared/lib/theme.ts`, `theme-script.ts` (new): current theme, `useTheme()`, `setTheme()`, and the
+  inline script that applies the saved theme before first paint (injected by `vite/locale.ts`).
+- `index.html`, `threads/index.html`, `debug/index.html`: no longer force `data-theme="dark"`.
+- `palette.ts`: `VIZ_COLORS` per theme, and a light genre palette (each color deepened to 80%:
+  ≥ 3.8:1 on ivory). It is mirrored as `--genre-*` CSS variables in `global.css` for the HTML swatches
+  (`GenreToggles`, `PassagePanel`, `ThreadsStage`), and `palette.test.ts` (new) checks both themes' contrast.
+- `glow.ts`: the compositor has a light mode, which lays the accumulated light over ivory as ink
+  instead of screen-blending it over navy. `arc-scene.ts`, `webgl.ts`, `arcs-controller.ts` and
+  `ArcsStage.tsx` have a `setTheme` path that updates the clear color, the palette uniform and the axis.
+- `axis-painter.ts`, `threads-drawing.ts`, `ThreadsStage.tsx`: colors come from the theme.
+- `LoadingArcs.tsx`: multiplied color in light mode instead of additive white light.
+- CSS overlays use `color-mix()` with theme tokens; `vite/first-frame.ts` uses `light-dark()`.
+- `SiteNav.tsx`: the theme toggle (the site's half-filled circle icon).
+
+## 4. Site shell
 
 | Change                                                                                             | Files                                                                                    |
 | -------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
@@ -32,7 +52,7 @@ with an Orthodoxia comment.
 | Footer credits the site and the upstream project; credits name the text actually shown             | `src/shared/ui/SiteFooter.tsx`, `src/visualizations/shared/components/Credits.tsx`       |
 | Site name, author and `og:locale` / structured data are the site's                                 | `vite/site.ts`, `vite/site-head.ts`                                                      |
 
-## 4. Arabic
+## 5. Arabic
 
 The explorer is built once per language: `LOCALE=ar` gives `/ar/explore/` (see
 `scripts/build-site.ts` at the repository root).

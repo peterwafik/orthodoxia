@@ -1,10 +1,12 @@
 import type { Plugin } from 'vite';
 import { MESSAGES } from '../src/i18n/messages.ts';
+import { APPLY_SAVED_THEME_SCRIPT } from '../src/shared/lib/theme-script.ts';
 import { pageOf, PAGES } from './site.ts';
 
 /**
  * Orthodoxia patch (PATCHES.md): localizes the HTML entries for the build's language (`LOCALE`):
- * `<html lang dir>`, the page title and description, and the no-JavaScript message. Runs before
+ * `<html lang dir>`, the page title and description, and the no-JavaScript message; and applies
+ * the reader's saved light/dark theme before first paint (src/shared/lib/theme.ts). Runs before
  * the other HTML plugins, so the head they build from the title and description is localized too.
  */
 export const BUILD_LOCALE: 'en' | 'ar' = process.env['LOCALE'] === 'ar' ? 'ar' : 'en';
@@ -47,7 +49,10 @@ export function locale(): Plugin {
               `<noscript>${messages.page.noscript}</noscript>`,
             );
         }
-        return result;
+        return {
+          html: result,
+          tags: [{ tag: 'script', children: APPLY_SAVED_THEME_SCRIPT, injectTo: 'head-prepend' }],
+        };
       },
     },
   };

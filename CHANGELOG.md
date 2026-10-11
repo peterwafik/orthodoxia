@@ -30,3 +30,6 @@
 - Full Arabic version at `/ar/explore/`: every interface string, Arabic book and genre names (also
   on the canvas), Arabic search ("يوحنا 3: 16", "مزمور ٢٣"), and the Smith–Van Dyck text. The axis
   stays Genesis→Revelation left to right. See `apps/explorer/PATCHES.md`.
+- The explorer follows the light/dark theme chosen anywhere on the site (or the system's), with the
+  site's theme icon in its header. Light mode draws the arcs as ink on ivory with a deepened genre
+  palette (≥ 3.8:1 contrast).

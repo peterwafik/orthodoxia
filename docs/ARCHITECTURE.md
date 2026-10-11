@@ -38,6 +38,5 @@ dist/ ──► Cloudflare Workers static assets (wrangler.jsonc, no Worker scri
 
 ## Known gaps
 
-- The explorer is always shown in the dark (navy) theme: its genre palette is validated for a dark surface only.
 - There is no ESLint/Prettier config for `apps/web` or `packages/` yet. Type checks and tests cover them.
 - There are no automated accessibility or end-to-end tests yet (P1-09).

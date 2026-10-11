@@ -10,15 +10,17 @@ const LOGO_PATHS = [
 
 /** Styles for the first frame, inlined so that it needs no stylesheet or script. */
 const FIRST_FRAME_CSS = `
-html{background:#0e1a33;color-scheme:dark}
+html{background:light-dark(#f5f1e6,#0e1a33);color-scheme:light dark}
+html[data-theme=dark]{color-scheme:dark}
+html[data-theme=light]{color-scheme:light}
 body{margin:0}
-.first-frame{position:fixed;inset:0;display:grid;place-content:center;justify-items:center;gap:18px;color:#ede7d8;font:500 19px/1.3 'Source Serif 4 Variable','Noto Naskh Arabic Variable',Georgia,serif}
+.first-frame{position:fixed;inset:0;display:grid;place-content:center;justify-items:center;gap:18px;color:light-dark(#1a2340,#ede7d8);font:500 19px/1.3 'Source Serif 4 Variable','Noto Naskh Arabic Variable',Georgia,serif}
 .first-frame svg{width:76px;height:76px;fill:none;stroke:currentColor;stroke-width:2.4;stroke-linecap:round}
 .first-frame .arc{stroke-dasharray:1;animation:first-frame-draw 2s ease-in-out infinite}
 .first-frame .arc+.arc{animation-delay:.3s}
 @keyframes first-frame-draw{0%{stroke-dashoffset:1}45%,65%{stroke-dashoffset:0}100%{stroke-dashoffset:-1}}
 @media (prefers-reduced-motion:reduce){.first-frame .arc{animation:none}}
-noscript{position:fixed;inset-inline:0;bottom:32px;padding:0 24px;color:#aeb6c6;font:14px/1.5 system-ui,sans-serif;text-align:center}
+noscript{position:fixed;inset-inline:0;bottom:32px;padding:0 24px;color:light-dark(#4b5567,#aeb6c6);font:14px/1.5 system-ui,sans-serif;text-align:center}
 `.trim();
 
 /**

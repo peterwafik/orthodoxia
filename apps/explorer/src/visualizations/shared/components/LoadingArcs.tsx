@@ -9,10 +9,11 @@ import {
   type BookSegment,
   type FlightFrame,
 } from '../loading-arcs.ts';
-import { GENRE_HEX, GENRE_RGB, type Rgb } from '../palette.ts';
+import { genreHex as paletteHex, genreRgb as paletteRgb, type Rgb } from '../palette.ts';
 import { MAX_PIXEL_RATIO } from '../frames.ts';
 import { computeVerseGenres } from '../verse-genres.ts';
 import styles from './LoadingArcs.module.css';
+import { currentTheme } from '../../../shared/lib/theme.ts';
 
 interface LoadingArcsProps {
   /** What is loading: the status line under the animation, also read by screen readers. */
@@ -49,8 +50,8 @@ const mix = (a: Rgb, b: Rgb, t: number): Rgb => [
   a[2] + (b[2] - a[2]) * t,
 ];
 
-const genreHex = (genre: number) => GENRE_HEX[genre] ?? '#ffffff';
-const genreRgb = (genre: number): Rgb => GENRE_RGB[genre] ?? [1, 1, 1];
+const genreHex = (genre: number) => paletteHex(currentTheme())[genre] ?? '#ffffff';
+const genreRgb = (genre: number): Rgb => paletteRgb(currentTheme())[genre] ?? [1, 1, 1];
 
 /** Strokes the part of an arc between `from` and `to` (0–1 along it). */
 function strokeArc(
@@ -82,7 +83,12 @@ function glow(
   intensity: number,
 ): void {
   const gradient = context.createRadialGradient(x, y, 0, x, y, radius);
-  gradient.addColorStop(0, `rgb(255 255 255 / ${String(0.9 * intensity)})`);
+  gradient.addColorStop(
+    0,
+    currentTheme() === 'light'
+      ? rgba(color, 0.9 * intensity)
+      : `rgb(255 255 255 / ${String(0.9 * intensity)})`,
+  );
   gradient.addColorStop(0.25, rgba(color, 0.55 * intensity));
   gradient.addColorStop(1, rgba(color, 0));
   context.globalAlpha = 1;
@@ -149,7 +155,7 @@ function paint(
     );
   }
   // Additive light: where arcs cross they brighten, like the glow of the Arcs view.
-  context.globalCompositeOperation = 'lighter';
+  context.globalCompositeOperation = currentTheme() === 'light' ? 'multiply' : 'lighter';
   context.lineCap = 'round';
   for (const [flight, frame] of flights) {
     paintFlight(context, layout, flight, frame);

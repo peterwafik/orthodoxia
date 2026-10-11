@@ -19,6 +19,8 @@ import {
   zoomView,
   type AxisView,
 } from './axis-view.ts';
+import { currentTheme, type Theme } from '../../shared/lib/theme.ts';
+import { VIZ_COLORS } from '../shared/palette.ts';
 import { paintAxis } from './axis-painter.ts';
 
 export interface ArcHover {
@@ -145,6 +147,15 @@ export class ArcsController {
     options.container.addEventListener('keydown', this.#onKeyDown);
   }
 
+  #theme: Theme = currentTheme();
+
+  /** Repaints for the site's light or dark theme. */
+  setTheme(theme: Theme): void {
+    this.#theme = theme;
+    this.#scene.setTheme(theme);
+    this.#scheduler.request();
+  }
+
   setSize(width: number, height: number): void {
     this.#layout = computeArcLayout(width, height);
     this.#scene.setSize(width, height);
@@ -249,6 +260,7 @@ export class ArcsController {
     this.#scene.setView(this.#view);
     this.#scene.render();
     paintAxis(this.#overlay, {
+      colors: VIZ_COLORS[this.#theme],
       layout: this.#layout,
       view: this.#view,
       versification: this.#options.versification,

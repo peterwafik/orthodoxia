@@ -1,6 +1,6 @@
 import type { Testament } from '../../../core/bible/books.ts';
 import { GENRES, type GenreId } from '../../../core/bible/genres.ts';
-import { GENRE_COLORS } from '../palette.ts';
+import { genreCssColor } from '../palette.ts';
 import styles from './GenreLegend.module.css';
 import { t } from '../../../i18n/messages.ts';
 
@@ -36,7 +36,7 @@ export function GenreToggles({ hiddenGenres, onToggle }: GenreTogglesProps) {
                 onToggle(genre.id);
               }}
             >
-              <span className={styles.key} style={{ background: GENRE_COLORS[genre.id] }} />
+              <span className={styles.key} style={{ background: genreCssColor(genre.id) }} />
               {genre.name}
             </button>
           ))}

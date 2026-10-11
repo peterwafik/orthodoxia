@@ -15,6 +15,7 @@ const en = {
     about: 'About',
     sources: 'Sources',
     menu: 'Site menu',
+    themeToggle: 'Switch between light and dark theme',
     otherLanguage: 'العربية',
     coverage:
       'Covers the 66 books in the OpenBible.info dataset; the deuterocanonical books are not included yet.',
@@ -151,6 +152,7 @@ const ar: Messages = {
     about: 'عن المشروع',
     sources: 'المصادر',
     menu: 'قائمة الموقع',
+    themeToggle: 'التبديل بين المظهر الفاتح والداكن',
     otherLanguage: 'English',
     coverage:
       'تغطي الأسفار الستة والستين الموجودة في بيانات OpenBible.info، ولم تُضَف الأسفار القانونية الثانية بعد.',
