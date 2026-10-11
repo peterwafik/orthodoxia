@@ -1,0 +1,373 @@
+.panel {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  min-block-size: 0;
+}
+
+.header {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-2);
+  padding: var(--space-3) var(--space-4);
+  border-block-end: 1px solid var(--color-border);
+}
+
+.heading {
+  flex: 1;
+  min-inline-size: 0;
+}
+
+.eyebrow {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  margin: 0;
+  color: var(--color-text-muted);
+  font-size: 0.75rem;
+}
+
+.title {
+  margin: 2px 0 0;
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+.iconButton {
+  display: inline-flex;
+  flex: none;
+  align-items: center;
+  justify-content: center;
+  min-inline-size: 2rem;
+  block-size: 2rem;
+  padding: 0 var(--space-2);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  background: none;
+  color: var(--color-text-muted);
+  cursor: pointer;
+}
+
+@media (pointer: coarse) {
+  .iconButton {
+    min-inline-size: 2.5rem;
+    block-size: 2.5rem;
+  }
+}
+
+.iconButton:hover:not(:disabled),
+.iconButton:focus-visible {
+  color: var(--color-text);
+}
+
+.iconButton:disabled {
+  opacity: 0.35;
+  cursor: default;
+}
+
+.scroll {
+  display: grid;
+  gap: var(--space-4);
+  align-content: start;
+  padding: var(--space-3) var(--space-4) var(--space-6);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+
+.verseText {
+  margin: 0;
+  font-family: var(--font-serif);
+  font-size: 1.0625rem;
+  line-height: 1.6;
+}
+
+.muted {
+  margin: 0;
+  color: var(--color-text-muted);
+  font-size: 0.8125rem;
+}
+
+.sectionTitle {
+  margin: 0 0 var(--space-2);
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.sectionTitle span {
+  color: var(--color-text-muted);
+  font-weight: 400;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.sectionIcon {
+  margin-inline-end: var(--space-1);
+  color: var(--color-text-muted);
+}
+
+.key {
+  flex: none;
+  inline-size: 0.75rem;
+  block-size: 0.1875rem;
+  border-radius: 999px;
+}
+
+/* A quiet, set-apart summary, so the connections below stay the focus. */
+.genres {
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+}
+
+.genresToggle {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  inline-size: 100%;
+  padding: var(--space-2) var(--space-3);
+  border: 0;
+  background: none;
+  color: inherit;
+  cursor: pointer;
+  text-align: start;
+}
+
+.genresToggle:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: -2px;
+  border-radius: var(--radius);
+}
+
+.genresLabel {
+  flex: none;
+  color: var(--color-text-muted);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+/* The genres' shares of the links, in their colors. */
+.strip {
+  display: flex;
+  flex: 1;
+  gap: 2px;
+  block-size: 0.375rem;
+  overflow: hidden;
+  border-radius: 999px;
+}
+
+.strip > span {
+  min-inline-size: 2px;
+}
+
+.chevron {
+  flex: none;
+  color: var(--color-text-muted);
+  transition: rotate 150ms ease;
+}
+
+.genresToggle[aria-expanded='true'] .chevron {
+  rotate: 180deg;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .chevron {
+    transition: none;
+  }
+}
+
+.visuallyHidden {
+  position: absolute;
+  inline-size: 1px;
+  block-size: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.breakdown {
+  display: grid;
+  grid-template-columns: max-content minmax(0, 1fr) max-content;
+  gap: var(--space-1) var(--space-2);
+  align-items: center;
+  padding: var(--space-1) var(--space-3) var(--space-3);
+  font-size: 0.8125rem;
+}
+
+.bar {
+  block-size: 0.375rem;
+  border-radius: 999px;
+}
+
+.count {
+  color: var(--color-text-muted);
+  font-variant-numeric: tabular-nums;
+  text-align: end;
+}
+
+.group {
+  display: grid;
+  gap: 2px;
+  margin-block-end: var(--space-3);
+}
+
+.groupHeader {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  margin: 0;
+  font-size: 0.8125rem;
+  font-weight: 600;
+}
+
+.item {
+  display: grid;
+  gap: 1px;
+  padding: var(--space-1) var(--space-2);
+  border: 0;
+  border-radius: calc(var(--radius) - 2px);
+  background: none;
+  color: inherit;
+  cursor: pointer;
+  text-align: start;
+}
+
+.item:hover,
+.item:focus-visible {
+  background: var(--color-surface-muted);
+}
+
+/* A verse or passage that can be copied: its copy button shows on hover, top right. */
+.quotable {
+  position: relative;
+}
+
+.quotable .itemRef,
+.quotable .verseText {
+  padding-inline-end: 2rem;
+}
+
+/* On the reference's line, clear of the verse text below. */
+.copy {
+  position: absolute;
+  inset-block-start: 2px;
+  inset-inline-end: var(--space-1);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  inline-size: 1.5rem;
+  block-size: 1.5rem;
+  padding: 0;
+  border: 1px solid var(--color-border);
+  border-radius: calc(var(--radius) - 2px);
+  background: var(--color-surface);
+  color: var(--color-text-muted);
+  cursor: pointer;
+  opacity: 0;
+  transition:
+    opacity 0.15s,
+    color 0.15s;
+}
+
+.quotable:hover .copy,
+.copy:focus-visible,
+.copy[data-copied='true'] {
+  opacity: 1;
+}
+
+.copy:hover,
+.copy[data-copied='true'] {
+  color: var(--color-text);
+}
+
+/* No hover on touch screens: always there, but quiet. */
+@media (hover: none) {
+  .copy {
+    border-color: transparent;
+    background: none;
+    opacity: 0.7;
+  }
+}
+
+.itemRef {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 var(--space-2);
+  align-items: baseline;
+  font-size: 0.875rem;
+}
+
+.itemRef strong {
+  font-weight: 600;
+}
+
+/* Verses in full: a cut-off verse loses the context that makes the link make sense. */
+.snippet {
+  color: var(--color-text-muted);
+  font-family: var(--font-serif);
+  font-size: 0.875rem;
+  line-height: 1.45;
+}
+
+/* Verse numbers inside a passage, as in a printed Bible. */
+.verseMark {
+  margin-inline-end: 0.2em;
+  font-family: var(--font-sans);
+  font-size: 0.65em;
+  font-variant-numeric: tabular-nums;
+  vertical-align: super;
+  line-height: 0;
+}
+
+.moreVerses {
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+  white-space: nowrap;
+}
+
+.more {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-1);
+  justify-self: start;
+  padding: var(--space-1) var(--space-3);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  background: none;
+  color: var(--color-text);
+  cursor: pointer;
+}
+
+.verseRow {
+  display: grid;
+  grid-template-columns: 2rem minmax(0, 1fr) max-content;
+  gap: var(--space-2);
+  align-items: baseline;
+  padding: var(--space-1) var(--space-2);
+  border: 0;
+  border-radius: calc(var(--radius) - 2px);
+  background: none;
+  color: inherit;
+  cursor: pointer;
+  text-align: start;
+}
+
+.verseRow:hover,
+.verseRow:focus-visible {
+  background: var(--color-surface-muted);
+}
+
+.verseNumber {
+  color: var(--color-text-muted);
+  font-size: 0.75rem;
+  font-variant-numeric: tabular-nums;
+  text-align: end;
+}
