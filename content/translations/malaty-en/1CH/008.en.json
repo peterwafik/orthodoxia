@@ -1,0 +1,1174 @@
+{
+ "book": "1CH",
+ "chunk": 8,
+ "units": {
+  "7.39.3": {
+   "hash": "9c211e7ff9",
+   "en": "Jehubbah: a Hebrew name, meaning \"he hides\". An Asherite chief. This name appears in some copies as \"Hubbah\"."
+  },
+  "7.40.0": {
+   "hash": "1116e9b34a",
+   "en": "And the sons of Helem his brother; Zophah, and Imna, and Shelesh, and Amal. [35]"
+  },
+  "7.40.1": {
+   "hash": "47a50851d6",
+   "en": "Helem: a Hebrew name, meaning \"strength\". Perhaps he was \"Hotham\" mentioned in (1 Chr 7:32)."
+  },
+  "7.40.2": {
+   "hash": "e935f7fe75",
+   "en": "Zophah: a Hebrew name, meaning \"pitcher or jar\". He was a chief of the tribe of Asher."
+  },
+  "7.40.3": {
+   "hash": "cf8ce0e4f5",
+   "en": "Imna: a Hebrew name, meaning \"he prevents\". An Asherite, son of Helem (1 Chr 7:35)."
+  },
+  "7.40.4": {
+   "hash": "374f36f0a0",
+   "en": "Shelesh: a Hebrew name, meaning \"obedient\". He was one of the heroes of the tribe of Asher, son of Helem (1 Chr 7:35)."
+  },
+  "7.40.5": {
+   "hash": "496f91fd80",
+   "en": "Amal: a Hebrew name, meaning \"work\". He was a son of Helem, an Asherite, a contemporary of David."
+  },
+  "7.41.0": {
+   "hash": "551f77043e",
+   "en": "The sons of Zophah; Suah, and Harnepher, and Shual, and Beri, and Imrah [36]"
+  },
+  "7.41.1": {
+   "hash": "9b295c1861",
+   "en": "Suah: a Hebrew name, meaning \"sweepings\". A son of Zophah of the tribe of Asher (1 Chr 7:36)."
+  },
+  "7.41.2": {
+   "hash": "40c0481769",
+   "en": "Harnepher: perhaps an Egyptian name, meaning \"Horus is peace\". An Asherite, son of Zophah."
+  },
+  "7.41.3": {
+   "hash": "7daa96bc81",
+   "en": "Shual: a Hebrew name, meaning \"fox\". An Asherite, son of Zophah (1 Chr 7:36)."
+  },
+  "7.41.4": {
+   "hash": "74575aae9b",
+   "en": "Imrah: a Hebrew name, meaning \"he resists\". A man of Asher and son of Zophah (1 Chr 7:36)."
+  },
+  "7.42.0": {
+   "hash": "63a1ffee75",
+   "en": "Bezer, and Hod, and Shamma, and Shilshah, and Ithran, and Beera. [37]"
+  },
+  "7.42.1": {
+   "hash": "5da6b9e65a",
+   "en": "Bezer: a Hebrew name, meaning \"fortress\"."
+  },
+  "7.42.2": {
+   "hash": "453ed8b2d9",
+   "en": "Hod: a Hebrew name, meaning \"glory\". Of the sons of Asher, and he was the son of Zophah. He was a head of a house, a mighty man of valour and a commander of a division in war (1 Chr 7:37)."
+  },
+  "7.42.3": {
+   "hash": "9e607acffc",
+   "en": "Shamma: a Hebrew name, meaning \"destruction\". He was the son of Zophah, a chief in Asher (1 Chr 7:37)."
+  },
+  "7.42.4": {
+   "hash": "437a742896",
+   "en": "Shilshah: a Hebrew name, meaning \"triple or triangular\". He was the son of Zophah, a chief of the Asherites."
+  },
+  "7.42.5": {
+   "hash": "66b372f9e3",
+   "en": "Ithran: a Semitic name, meaning \"excellence\". He is Jether himself (1 Chr 7:38)."
+  },
+  "7.42.6": {
+   "hash": "94dcf62c40",
+   "en": "Beera: a Hebrew name, meaning \"well\"."
+  },
+  "7.43.0": {
+   "hash": "5007095850",
+   "en": "And the sons of Jether; Jephunneh, and Pispah, and Ara. [38]"
+  },
+  "7.43.1": {
+   "hash": "28414598c1",
+   "en": "Jether: a Hebrew name, meaning \"excellence\". Two bore this name, and they are: 1. A man whose name was entered in the genealogy of Judah, whose trace disappeared after Ezra (1 Chr 4:17). 2. One of the sons of Asher (1 Chr 7:30, 38). It is likely that he is Ithran son of Zophah (1 Chr 7:37)."
+  },
+  "7.43.2": {
+   "hash": "2d0d4f0293",
+   "en": "Jephunneh: a Hebrew name, meaning \"he prepares\". An Asherite chief (1 Chr 7:38)."
+  },
+  "7.43.3": {
+   "hash": "b781564412",
+   "en": "Ara: a Hebrew name, perhaps meaning \"lion\". A man among the chiefs in the tribe of Asher (1 Chr 7:38)."
+  },
+  "7.44.0": {
+   "hash": "e69b2278db",
+   "en": "And the sons of Ulla; Arah, and Haniel, and Rezia. [39]"
+  },
+  "7.44.1": {
+   "hash": "8e854dd071",
+   "en": "Ulla: a head in a house in Asher (1 Chr 7:39), of the sons of Helem (1 Chr 7:35)."
+  },
+  "7.44.2": {
+   "hash": "4e481635f3",
+   "en": "Arah: a Hebrew name, meaning \"traveler\". The name of a chief of Asher, and he was one of the sons of Ulla."
+  },
+  "7.44.3": {
+   "hash": "01acb39e40",
+   "en": "Haniel: a Hebrew name, meaning \"grace of God, tenderness of God\". An Asherite, son of Ulla (1 Chr 7:39)."
+  },
+  "7.44.4": {
+   "hash": "276d3c3b34",
+   "en": "Rezia: a Hebrew name, meaning \"delightful\". A chief of the sons of Asher (1 Chr 7:39)."
+  },
+  "7.45.0": {
+   "hash": "d849f1a2d3",
+   "en": "All these were the children of Asher, heads of their father's house, choice and mighty men of valour, chief of the princes. And the number throughout the genealogy of them that were apt to the war and to battle was twenty and six thousand men. [40]"
+  },
+  "7.45.1": {
+   "hash": "ba873354cd",
+   "en": "Beyut: a Hebrew name, meaning \"owner of a well\"."
+  },
+  "7.45.2": {
+   "hash": "f76d2418fa",
+   "en": "The number of fighting men of the whole tribe cannot be compared with the numbers of fighting men in the other tribes. However, some see that the tribe of Asher was marked by wisdom, for what concerned them was that their heads were chosen and mighty men of valour, and not that the number be large."
+  },
+  "7.45.3": {
+   "hash": "4ef1fe5e46",
+   "en": "Your comforts delight my soul!"
+  },
+  "7.45.4": {
+   "hash": "5caa836c5c",
+   "en": "v The tribe of Issachar was marked by strength together with diligence in work."
+  },
+  "7.45.5": {
+   "hash": "8162934060",
+   "en": "It is no shame to him that his father likened him to an ass."
+  },
+  "7.45.6": {
+   "hash": "91c4eac41a",
+   "en": "For he is strong, and does not cease from work."
+  },
+  "7.45.7": {
+   "hash": "8b1984c02d",
+   "en": "None of them knows the spirit of idleness and sloth."
+  },
+  "7.45.8": {
+   "hash": "4aa447f02c",
+   "en": "I do not ask for a particular work."
+  },
+  "7.45.9": {
+   "hash": "09c81482b9",
+   "en": "But grant me constant faithfulness in my practice of work."
+  },
+  "7.45.10": {
+   "hash": "0677beda14",
+   "en": "That I may hear Your voice: You have been faithful over a few things, I will make you ruler over many things."
+  },
+  "7.45.11": {
+   "hash": "2f26d6dca6",
+   "en": "v You do not disdain the work of any person, but You set at Your right hand in Your Kingdom him who is faithful and sincere!"
+  },
+  "7.45.12": {
+   "hash": "4786293cee",
+   "en": "Let me work by Your Holy Spirit, that He may grant me the spirit of faithfulness."
+  },
+  "7.45.13": {
+   "hash": "680dbe9c6f",
+   "en": "v I will not suffer discouragement because of my position in society or in the Church."
+  },
+  "7.45.14": {
+   "hash": "5cb647e38a",
+   "en": "Nor will I fall into pride because of an authority You have given me."
+  },
+  "7.45.15": {
+   "hash": "50cbf690bb",
+   "en": "Rather I take pride in faithfulness and sincerity, in love and fellowship."
+  },
+  "7.45.16": {
+   "hash": "2ed29fe457",
+   "en": "I take pride in You, O Source of every virtue!"
+  },
+  "7.45.17": {
+   "hash": "90ce3bec4a",
+   "en": "v If King Saul turned into a ravening wolf, by sincere love without hypocrisy David won Jonathan son of Saul."
+  },
+  "7.45.18": {
+   "hash": "b1bd12d9ad",
+   "en": "As he also won many men of valour, kinsmen of Saul."
+  },
+  "7.45.19": {
+   "hash": "950b4e5da5",
+   "en": "Grant me, O Lord, to love all humanity."
+  },
+  "7.45.20": {
+   "hash": "b8ca6a2963",
+   "en": "For You are able to turn ravening wolves into gentle lambs."
+  },
+  "7.45.21": {
+   "hash": "b1c87ba8ff",
+   "en": "Let me trust in Your grace, that it brings forth meat out of the eater, and sweetness out of the harsh."
+  },
+  "7.45.22": {
+   "hash": "4ae6ccd993",
+   "en": "Grant me not to judge anyone hastily."
+  },
+  "7.45.23": {
+   "hash": "947847f831",
+   "en": "For many have become like Your angels in the last moments."
+  },
+  "7.45.24": {
+   "hash": "b7a7d861eb",
+   "en": "Grant me to imitate You, O Son of David."
+  },
+  "7.45.25": {
+   "hash": "bfdc02eac1",
+   "en": "So that I may not shut the door of friendship before anyone!"
+  },
+  "7.45.26": {
+   "hash": "d0a252facf",
+   "en": "In You I leap with love into the hearts of many, that they may truly become friends to You and to me!"
+  },
+  "7.45.27": {
+   "hash": "6a062e70a3",
+   "en": "v The brothers of Ephraim could not comfort their brother when his sons were killed."
+  },
+  "7.45.28": {
+   "hash": "0a575628ec",
+   "en": "You gave him a son, not as a compensation for his slain sons."
+  },
+  "7.45.29": {
+   "hash": "47f7ceac17",
+   "en": "For they are alive; death does not kill their souls."
+  },
+  "7.45.30": {
+   "hash": "3e438ecc7a",
+   "en": "v How wonderful! Wild beasts often cooperate with others of their kind."
+  },
+  "7.45.31": {
+   "hash": "5c74132268",
+   "en": "They cooperate together and support one another."
+  },
+  "7.45.32": {
+   "hash": "90917d0d13",
+   "en": "But the sons of men prey upon one another."
+  },
+  "7.45.33": {
+   "hash": "ea175fc01d",
+   "en": "In Your tenderness You did not give us the fangs of lions, lest we destroy one another."
+  },
+  "7.45.34": {
+   "hash": "d834bee732",
+   "en": "Nor did You grant us the hugeness of elephants, lest we smother one another's breath."
+  },
+  "7.45.35": {
+   "hash": "fa32e0ae2b",
+   "en": "Wild beasts live in peace with their own kind, but man's enemies are those of his own household!"
+  },
+  "7.45.36": {
+   "hash": "a799ca7f7b",
+   "en": "v Grant me, O Lord, true freedom, together with the tribe of Naphtali."
+  },
+  "7.45.37": {
+   "hash": "030dcdbe03",
+   "en": "May I soar with the wings of the Spirit as though to heaven."
+  },
+  "7.45.38": {
+   "hash": "cce8c5b311",
+   "en": "The ancient serpent cannot leap to swallow me, nor can the love of the world hinder me."
+  },
+  "7.45.39": {
+   "hash": "083136b285",
+   "en": "That I may fly to You with my brethren, and that we may all rest in Your divine embrace."
+  },
+  "7.45.40": {
+   "hash": "6c403a5d3d",
+   "en": "v Grant me, together with the daughters of Zelophehad of the descendants of Manasseh, to claim the eternal inheritance."
+  },
+  "7.45.41": {
+   "hash": "963cbe4079",
+   "en": "Nothing occupies You now except that I settle in Your embrace forever."
+  },
+  "7.45.42": {
+   "hash": "6e4a40a2f6",
+   "en": "v Grant me, together with Joshua son of Nun of the tribe of Ephraim, to hear Your voice: As I was with Moses, so I will be with you."
+  },
+  "7.45.43": {
+   "hash": "dd3ddf7dea",
+   "en": "I will not be disturbed by tribulations, nor confused because of the weak."
+  },
+  "7.45.44": {
+   "hash": "6dc0ba1f0f",
+   "en": "For the Church is Your body, through which You cross to Your heavens."
+  },
+  "7.45.45": {
+   "hash": "df9940ad80",
+   "en": "You pour out Your radiance upon her, so that she becomes a wonder and amazement in the eyes of the heavenly ones."
+  },
+  "7.45.46": {
+   "hash": "6a1ac835d2",
+   "en": "v Let me cleave to You, for Your fatherly embrace radiates warmth in my life."
+  },
+  "7.45.47": {
+   "hash": "78302b82dd",
+   "en": "You pour the oil of Your grace into my depths."
+  },
+  "7.45.48": {
+   "hash": "38726cfe47",
+   "en": "Like a mother to me, You do not leave me in want of anything."
+  },
+  "7.45.49": {
+   "hash": "31aed40c46",
+   "en": "The motherhood of Your grace is wonderful; it embraces every true believer as though he were her only son."
+  },
+  "7.45.50": {
+   "hash": "9043b538e4",
+   "en": "Let Your grace work in me, that I may bear a spirit of tender motherhood toward people!"
+  },
+  "8.0.s": {
+   "hash": "1e31369ff5",
+   "en": "1. The tribe of Benjamin"
+  },
+  "8.0.0": {
+   "hash": "6872cc6a64",
+   "en": "1 Now Benjamin begat Bela his firstborn, Ashbel the second, and Aharah the third, 2 Nohah the fourth, and Rapha the fifth. 3 And the sons of Bela were, Addar, and Gera, and Abihud, 4 And Abishua, and Naaman, and Ahoah, 5 And Gera, and Shephuphan, and Huram. 6 And these are the sons of Ehud: these are the heads of the fathers of the inhabitants of Geba, and they removed them to Manahath: 7 That is, Naaman, and Ahiah. And Gera, he removed them, and begat Uzza, and Ahihud. 8 And Shaharaim begat children in the country of Moab, after he had sent away his two wives, Hushim and Baara. 9 And he begat of Hodesh his wife, Jobab, and Zibia, and Mesha, and Malcham, 10 And Jeuz, and Shachia, and Mirma. These were his sons, heads of the fathers. 11 And of Hushim he begat Abitub, and Elpaal. 12 And the sons of Elpaal; Eber, and Misham, and Shamer, who built Ono, and Lod, with the towns thereof: 13 Beriah also, and Shema. These were heads of the fathers of the inhabitants of Aijalon, who drove away the inhabitants of Gath. 14 And Ahio, Shashak, and Jeremoth, 15 And Zebadiah, and Arad, and Ader, 16 And Michael, and Ispah, and Joha, the sons of Beriah; 17 And Zebadiah, and Meshullam, and Hezeki, and Heber, 18 Ishmerai also, and Jezliah, and Jobab, the sons of Elpaal; 19 And Jakim, and Zichri, and Zabdi, 20 And Elienai, and Zilthai, and Eliel, 21 And Adaiah, and Beraiah, and Shimrath, the sons of Shimhi; 22 And Ishpan, and Heber, and Eliel, 23 And Abdon, and Zichri, and Hanan, 24 And Hananiah, and Elam, and Antothijah, 25 And Iphedeiah, and Penuel, the sons of Shashak; 26 And Shamsherai, and Shehariah, and Athaliah, 27 And Jaresiah, and Eliah, and Zichri, the sons of Jeroham. 28 These were heads of the fathers, by their generations, chief men. These dwelt in Jerusalem. 29 And at Gibeon dwelt the father of Gibeon; and his wife's name was Maachah: 30 And his firstborn son Abdon, and Zur, and Kish, and Baal, and Nadab, 31 And Gedor, and Ahio, and Zacher. 32 And Mikloth begat Shimeah. And these also dwelt with their brethren in Jerusalem, over against their brethren."
+  },
+  "8.0.1": {
+   "hash": "99d8d528f1",
+   "en": "Now Benjamin begat Bela his firstborn, Ashbel the second, and Aharah the third [1]"
+  },
+  "8.0.2": {
+   "hash": "5ac6d16f09",
+   "en": "Bela: a Hebrew name, meaning \"swallowing\" or \"the ark\"."
+  },
+  "8.0.3": {
+   "hash": "60828815a4",
+   "en": "Ashbel: a Hebrew name, perhaps meaning a form of the name \"Eshbaal\", and he was a son of Benjamin and the founder of a family bearing his name (1 Chr 8:1)."
+  },
+  "8.0.4": {
+   "hash": "190a1b8b9f",
+   "en": "Aharah: a Hebrew name, perhaps meaning \"follower of the brother\", and he was the third son of Benjamin (1 Chr 8:1)."
+  },
+  "8.1.0": {
+   "hash": "c620de0c67",
+   "en": "Nohah the fourth, and Rapha the fifth. [2]"
+  },
+  "8.1.1": {
+   "hash": "d6f0024f57",
+   "en": "Nohah: a Hebrew name, meaning \"rest\". He was the fourth son of Benjamin (1 Chr 8:2). He did not found a clan as his brothers did. His name is not mentioned among those who accompanied Jacob to Egypt, and perhaps he was born in Egypt."
+  },
+  "8.1.2": {
+   "hash": "49798b29f8",
+   "en": "Rapha: a Hebrew name, meaning \"he has healed, that is, God has healed\". A man of the descendants of Benjamin (1 Chr 8:2)."
+  },
+  "8.2.0": {
+   "hash": "1c7bf1f36b",
+   "en": "And the sons of Bela were, Addar, and Gera, and Abihud [3]"
+  },
+  "8.2.1": {
+   "hash": "39b1644fb0",
+   "en": "Addar: a Hebrew word, perhaps meaning \"breadth or greatness\". It is the name of a Benjamite man, son of Bela (1 Chr 8:3). This name appears in some Hebrew and Greek manuscripts as \"Ard,\" and it is likely that this is the correct form."
+  },
+  "8.2.2": {
+   "hash": "a628809a35",
+   "en": "Gera: a Hebrew name, perhaps meaning \"sojourner with God\". The name of a man among the sons of Benjamin, and the name of a grandson of Benjamin son of Bela (1 Chr 8:3, 5, 7)."
+  },
+  "8.2.3": {
+   "hash": "d97835a073",
+   "en": "Abihud: a Hebrew name, meaning \"my father is majesty or the Father is majesty\". He was the son of Bela, the firstborn of Benjamin."
+  },
+  "8.3.0": {
+   "hash": "2f9a71754a",
+   "en": "And Abishua, and Naaman, and Ahoah [4]"
+  },
+  "8.3.1": {
+   "hash": "4a8499553e",
+   "en": "Abishua: a Hebrew name, meaning \"father of salvation\". The name of a Benjamite man of the house of Bela."
+  },
+  "8.3.2": {
+   "hash": "d800c69a8f",
+   "en": "Naaman: a Hebrew name, meaning \"pleasantness\"."
+  },
+  "8.4.0": {
+   "hash": "dbd63234a4",
+   "en": "Ahoah: a Hebrew name, perhaps meaning \"brotherly\". It is the name of a son of Bela of the tribe of Benjamin (1 Chr 8:4). It is possible that he is the same person mentioned as Ahiah in [7] of the same chapter."
+  },
+  "8.5.0": {
+   "hash": "2cce2e0ba9",
+   "en": "And Gera, and Shephuphan, and Huram. [5]"
+  },
+  "8.5.1": {
+   "hash": "023ce2eaac",
+   "en": "Shephuphan or Shupham: a Hebrew name, meaning \"serpent\". He was a Benjamite, head of the clan of the Shuphamites."
+  },
+  "8.5.2": {
+   "hash": "acbeea7c29",
+   "en": "Huram: a Phoenician and Hebrew name, meaning \"the brother is exalted\". A Benjamite, perhaps the son of Bela."
+  },
+  "8.6.0": {
+   "hash": "8d167ffc67",
+   "en": "And these are the sons of Ehud."
+  },
+  "8.6.1": {
+   "hash": "b7fb300566",
+   "en": "These are the heads of the fathers of the inhabitants of Geba, and they removed them to Manahath: [6]"
+  },
+  "8.6.2": {
+   "hash": "a7314dda81",
+   "en": "Ehud or Ahud: a Hebrew name, meaning \"union\". He was a left-handed judge, of the tribe of the sons of the right hand, \"Benjamin\" (Judg 3:12-30)."
+  },
+  "8.6.3": {
+   "hash": "c0ecef2082",
+   "en": "The scholar Origen links the cry of the people after eighteen years with God's sending Ehud the left-handed as a deliverer for them, saying:"
+  },
+  "8.6.4": {
+   "hash": "e2dd600c6b",
+   "en": "v It is written: \"So the children of Israel served Eglon the king of Moab eighteen years\" (Judg 3:14). Note that the Scripture points to the measure of the punishment when it mentions \"eight years\" (Judg 3:8) the first time, and here \"eighteen years\". It is certain that the duration of the punishment was fixed according to the measure of the sin and the delay of repentance. As for the eighteen years in bondage, it is not mentioned during this period that they cried to the Lord, or turned from their evils. But it is said again that after these eighteen years \"the children of Israel cried unto the LORD, the LORD raised them up a deliverer, Ehud the son of Gera, a Benjamite, a man lefthanded\" (Judg 3:15)."
+  },
+  "8.6.5": {
+   "hash": "b07c6ed41f",
+   "en": "What kind of man is this who was raised up to deliver the people of Israel?"
+  },
+  "8.6.6": {
+   "hash": "8e255934f6",
+   "en": "He has nothing in himself that is of the left to do. Rather he has a right hand on both sides that work, and for this reason he was called left-handed: he has a right hand on both sides[1]."
+  },
+  "8.6.7": {
+   "hash": "cf89918751",
+   "en": "He was qualified to be a leader of the people and a judge of the Church. He does not do what is of the left, and also [his left hand does not know what his right hand does] (Mt 6:3); he is right-handed in faith and in works. He has nothing of what belongs to those on the left, of whom it is written: \"Depart from me, ye cursed, into everlasting fire, prepared for the devil and his angels\" (Mt 25:41). If we consider the possibility of connecting what preceded[2], I believe, from the point of view of spiritual understanding, that all the saints should be called \"left-handed,\" and on the contrary Satan and his princes can be called \"those of the left,\" because everything they do is of the left and leads to the eternal fire which belongs to those on the left..."
+  },
+  "8.6.8": {
+   "hash": "b79ecccb2a",
+   "en": "Let us see what this left-handed judge did. \"And by him the children of Israel sent a present unto Eglon the king of Moab. But Ehud made him a dagger which had two edges, of a cubit length; and he did gird it under his raiment upon his right thigh\" (Judg 3:15-16)."
+  },
+  "8.6.9": {
+   "hash": "41b24bf6ce",
+   "en": "Behold, you see that everything done by \"this left-handed Ehud\" is \"right-handed\"[3], is good in both hands and in the foot. For he carries the sword on his right thigh to come to \"the king of Moab\" and kill him. As we said before, these are the ones whom their God raised up for the deliverance of the people, and these deliverers or judges, who bear the image of leaders from \"the heavenly host\" (Lk 2:13) and of the higher powers whom God sends to help those who cry to Him with all their heart, set the people of Israel free; these are the ones who, through their change by repentance, are overtaken by divine mercy."
+  },
+  "8.6.10": {
+   "hash": "3fe2ec836c",
+   "en": "This agrees with other events in the Bible; in the book of Exodus, when our fathers the people of Israel were serving the Egyptians and the very cruel king Pharaoh for a long time in making \"mortar and brick\" (Ex 1:14), [they cried to the Lord] (Ex 2:23), \"and their cry came up unto God\" (Ex 2:23)."
+  },
+  "8.6.11": {
+   "hash": "563d53753f",
+   "en": "God brought them out by means of Moses before all, and the Bible mentions that the destroying angel was sent to destroy all the firstborn in Egypt, and did not touch any of the Israelites (Ex 11:5-7). It was made known that there was a heavenly power that led the people away from the yoke of bondage and destruction and overthrew the Egyptians. And something similar happened through history in the days of the Assyrians with King Sennacherib; where \"an angel of God\" was sent, and delivered the people from the siege and from imminent annihilation; the angel of the Lord smote 185,000 of the enemies in a single night (2 Kgs 19:35)."
+  },
+  "8.6.12": {
+   "hash": "8a297a28bc",
+   "en": "Therefore now, for the same reasons, we must take heed when we are delivered to captivity because of our sins, \"we must cry to the Lord.\" But we do not cry with the mouth but from the heart[4], so that even if our heart grieves, [a fountain of tears may be produced from the eyes] (Jer 9:1), \"All the night make I my bed to swim; I water my couch with my tears\" (Ps 6:6). If we turn from the ways of evil so that we do not touch works of evil again, if we cease from pride, so that there is no more pride and we know no vanity, then God sends us His heavenly power by which we are freed from the grip of the Satan of bondage; this power provides us with everything good and useful, and we forsake \"the broad way that leads to destruction\" (Mt 7:13). God calls us to the right way, of which He said of Himself: \"I am the way, the truth, and the life\" (Jn 14:6), Jesus Christ our Lord, \"to whom be praise and dominion for ever and ever. Amen\" (1 Pet 4:11)[5]."
+  },
+  "8.6.13": {
+   "hash": "de3a6e1e02",
+   "en": "Origen Geba: a Hebrew name, meaning \"hill\"."
+  },
+  "8.7.0": {
+   "hash": "b67a268ae0",
+   "en": "That is, Naaman, and Ahiah. And Gera, he removed them, and begat Uzza, and Ahihud. [7]"
+  },
+  "8.7.1": {
+   "hash": "7cfd6160c8",
+   "en": "Ahiah: a Hebrew name, meaning \"my brother\"."
+  },
+  "8.7.2": {
+   "hash": "961875a1cd",
+   "en": "Uzza: a Hebrew name, meaning \"strength, that Jehovah is strength\". He is the name of a son of Gera, of the descendants of Ehud the Benjamite (1 Chr 8:7)."
+  },
+  "8.7.3": {
+   "hash": "b6ff31d783",
+   "en": "Ahihud: a Hebrew name, meaning \"brother of union\". He was of the descendants of Ehud of the tribe of Benjamin, from the town of Gibnah (1 Chr 8:7). This man is mentioned in some manuscripts as Ahihod."
+  },
+  "8.8.0": {
+   "hash": "2bf8f8c850",
+   "en": "And Shaharaim begat children in the country of Moab, after he had sent away his two wives, Hushim and Baara. [8]"
+  },
+  "8.8.1": {
+   "hash": "ae7a792656",
+   "en": "(Shajrayim) or Shaharaim: a Hebrew name, meaning \"the two dawns\". A Benjamite, father of a large family (1 Chr 8:8)."
+  },
+  "8.8.2": {
+   "hash": "91152fa68e",
+   "en": "The Old Testament sometimes refers to divorce and polygamy without comment, but this does not mean God's pleasure in it. For He declared that He hates divorce (Mal 2:15-16), and the Lord Christ affirms: \"Moses because of the hardness of your hearts suffered you to put away your wives: but from the beginning it was not so\" (Mt 19:8)."
+  },
+  "8.8.3": {
+   "hash": "d3124dc240",
+   "en": "Hushim: a Hebrew name, meaning \"haste, agitation\". One of the wives of Shaharaim the Benjamite (1 Chr 8:8, 11)."
+  },
+  "8.8.4": {
+   "hash": "fd677890e9",
+   "en": "Baara: a Hebrew name, meaning \"burning\". She was a wife of Shaharaim of the tribe of Benjamin."
+  },
+  "8.9.0": {
+   "hash": "b8b9c2ae39",
+   "en": "And he begat of Hodesh his wife, Jobab, and Zibia, and Mesha, and Malcham. [9]"
+  },
+  "8.9.1": {
+   "hash": "7a37378b42",
+   "en": "Hodesh: a Hebrew name, meaning \"the crescent\". It is the name of the wife of Shaharaim (1 Chr 8:9)."
+  },
+  "8.9.2": {
+   "hash": "1dffb3060e",
+   "en": "Jobab: a Hebrew name, perhaps meaning \"shouting\". It is the name of two Benjamite chiefs (1 Chr 8:9, 18)."
+  },
+  "8.9.3": {
+   "hash": "846ebbb5a3",
+   "en": "Zibia: a Hebrew name, meaning \"gazelle\". A Benjamite, son of Shaharaim (1 Chr 8:9)."
+  },
+  "8.9.4": {
+   "hash": "0ef7a76d45",
+   "en": "Malcham: a Hebrew name, meaning \"their king\". He was a Benjamite chief (1 Chr 8:9)."
+  },
+  "8.10.0": {
+   "hash": "2b99adc0fc",
+   "en": "And Jeuz, and Shachia, and Mirma. These were his sons, heads of the fathers. [10]"
+  },
+  "8.10.1": {
+   "hash": "fe5d132011",
+   "en": "Jeuz: a Hebrew name, meaning \"the admonished\". A Benjamite chief, son of Shaharaim by his wife Hodesh."
+  },
+  "8.10.2": {
+   "hash": "51cdf51592",
+   "en": "Shachia: a Hebrew name, likely meaning \"Return, O Jehovah,\" and he is a Benjamite, son of Shaharaim (1 Chr 8:10), and this name appears in the form \"Sakia\" in some manuscripts."
+  },
+  "8.10.3": {
+   "hash": "9175a0dc23",
+   "en": "Mirma: a Hebrew name, meaning \"deceit\". He was a Benjamite born to Shaharaim in Moab by his wife Hodesh."
+  },
+  "8.11.0": {
+   "hash": "7bb5732295",
+   "en": "And of Hushim he begat Abitub, and Elpaal. [11]"
+  },
+  "8.11.1": {
+   "hash": "3a38672e49",
+   "en": "Abitub: a Hebrew name, meaning \"my father is good, or goodness\". It is the name of a Benjamite man, son of Shaharaim, whose mother's name was Hushim (1 Chr 8:11)."
+  },
+  "8.11.2": {
+   "hash": "55269663e0",
+   "en": "Elpaal: a Hebrew name, meaning \"God has done\". He was a Benjamite man, son of Shaharaim, and a head of a house among the houses of the fathers (1 Chr 8:1, 8, 11, 12, 18)."
+  },
+  "8.12.0": {
+   "hash": "89acf2d818",
+   "en": "And the sons of Elpaal; Eber, and Misham, and Shamer, who built Ono, and Lod, with the towns thereof: [12]"
+  },
+  "8.12.1": {
+   "hash": "ada6ad6b33",
+   "en": "Eber: a Hebrew name, meaning \"crossing\". There are two Benjamites with the same name: one the son of Elpaal, the other the son of Shashak (1 Chr 8:12, 22, 25)."
+  },
+  "8.12.2": {
+   "hash": "4ced44c3f7",
+   "en": "Misham: a Hebrew name, meaning \"swift,\" and he was a Benjamite (1 Chr 8:12)."
+  },
+  "8.12.3": {
+   "hash": "5871f9bc78",
+   "en": "Shamer: a Hebrew name, meaning \"guard\". He was of the sons of Benjamin (1 Chr 8:12)."
+  },
+  "8.12.4": {
+   "hash": "bbbcd6b7bf",
+   "en": "Ono: a Hebrew name, meaning \"strong\". The name of a city in Benjamin. It was built by a Benjamite called Shamer."
+  },
+  "8.12.5": {
+   "hash": "2aa6aedafb",
+   "en": "Ono and Lod: they are not mentioned with the cities of Benjamin in (Josh 18:21-28). Lod is Lydda in (Acts 9:32)."
+  },
+  "8.13.0": {
+   "hash": "984435e7c2",
+   "en": "Beriah also, and Shema. Temple, they were heads of the fathers of the inhabitants of Aijalon, who drove away the inhabitants of Gath. [13]"
+  },
+  "8.13.1": {
+   "hash": "11b809e596",
+   "en": "Shema: a Hebrew name, meaning \"report\". A Benjamite, one of the heads of the fathers who drove away the inhabitants of Gath."
+  },
+  "8.13.2": {
+   "hash": "8ed47bbec2",
+   "en": "Aijalon: a Hebrew name, meaning \"oak\". It belonged to the tribe of Dan (Josh 19:40-43), then became Benjamin's, then Judah's and Benjamin's in the time of Rehoboam (2 Chr 11:10)."
+  },
+  "8.14.0": {
+   "hash": "5540fc7386",
+   "en": "And Ahio, Shashak, and Jeremoth [14]"
+  },
+  "8.14.1": {
+   "hash": "f34a5cca89",
+   "en": "Ahio: a Hebrew name, meaning \"brotherly or brother of Jehovah\". More than one person bears this name, among them: 1. A man of Benjamin, of the sons of Elpaal (1 Chr 8:14). 2. Another man of Benjamin, the son of Jeuel (Jeiel), by his wife Maachah (1 Chr 8:29-31)."
+  },
+  "8.14.2": {
+   "hash": "4af894bb46",
+   "en": "Shashak: a Hebrew name, meaning \"desire\". He was one of the sons of Elpaal of the tribe of Benjamin (1 Chr 8:14, 25)."
+  },
+  "8.14.3": {
+   "hash": "a5250ab2ce",
+   "en": "Jeremoth: a Hebrew name, meaning \"swollen, huge, tall,\" and he was the head of a Benjamite family (1 Chr 8:14). Perhaps he was the same as Jeroham."
+  },
+  "8.15.0": {
+   "hash": "b1c055ebd8",
+   "en": "And Zebadiah, and Arad, and Ader [15]"
+  },
+  "8.15.1": {
+   "hash": "c3be2c845e",
+   "en": "Zebadiah: a Hebrew name, meaning \"Jehovah has given,\" a name borne by nine persons in the Old Testament, who were of little importance. Two of them are of the sons of Benjamin: the son of Beriah [15-16] and the son of Elpaal [17]."
+  },
+  "8.15.2": {
+   "hash": "96cb7b50db",
+   "en": "Arad: a Hebrew name, meaning \"wild ass,\" and he was a man of the line of Benjamin (1 Chr 8:15)."
+  },
+  "8.15.3": {
+   "hash": "c18f40e462",
+   "en": "Ader: a Hebrew name, meaning \"flock,\" and he was the son of Elpaal, of the sons of Benjamin (1 Chr 8:15)."
+  },
+  "8.16.0": {
+   "hash": "1937de624a",
+   "en": "And Michael, and Ispah, and Joha, the sons of Beriah; [16]"
+  },
+  "8.16.1": {
+   "hash": "7d123f26e5",
+   "en": "Michael: a Hebrew name, meaning \"Who is like God\". It is the name of a Benjamite (1 Chr 8:16)."
+  },
+  "8.16.2": {
+   "hash": "d231e481f5",
+   "en": "Ispah: a Benjamite chief, the son of Beriah (1 Chr 8:16)."
+  },
+  "8.16.3": {
+   "hash": "6752aa236c",
+   "en": "Joha: he is the son of Beriah and a Benjamite chief (1 Chr 8:16), and his name appears in some translations in the form Yoha."
+  },
+  "8.16.4": {
+   "hash": "f91112325f",
+   "en": "Beriah: a Hebrew name, meaning \"excellent\". It is the name of a Benjamite chief (1 Chr 8:13)."
+  },
+  "8.17.0": {
+   "hash": "ba638e8d24",
+   "en": "And Zebadiah, and Meshullam, and Hezeki, and Heber [17]"
+  },
+  "8.17.1": {
+   "hash": "17d624c748",
+   "en": "Meshullam: a Hebrew name, meaning \"one who has received his recompense\". It is the name of three persons of the descendants of Benjamin."
+  },
+  "8.17.2": {
+   "hash": "e080201001",
+   "en": "Hezeki: a Hebrew name, meaning \"my strength,\" or an abbreviation of Hezekiah. A Benjamite, the son of Elpaal."
+  },
+  "8.17.3": {
+   "hash": "924fb2392b",
+   "en": "Heber: a Hebrew name, meaning \"fellowship, partner\". A Benjamite, the son of Shaharaim by Elpaal."
+  },
+  "8.18.0": {
+   "hash": "dc9ecbdea2",
+   "en": "Ishmerai also, and Jezliah, and Jobab, the sons of Elpaal. [18]"
+  },
+  "8.18.1": {
+   "hash": "15423b46f3",
+   "en": "Ishmerai: a Hebrew name, meaning \"Jehovah guards\". A Benjamite, the son of Elpaal (1 Chr 8:18)."
+  },
+  "8.18.2": {
+   "hash": "d89a8b8472",
+   "en": "Jezliah or Jezlia: a Hebrew name, meaning \"eternal\". He was a Benjamite who dwelt in Jerusalem."
+  },
+  "8.18.3": {
+   "hash": "8e3dcc9072",
+   "en": "Jobab: a Hebrew name, perhaps meaning \"shouting,\" the name of two Benjamite chiefs."
+  },
+  "8.19.0": {
+   "hash": "3610929a2a",
+   "en": "And Jakim, and Zichri, and Zabdi [19]"
+  },
+  "8.19.1": {
+   "hash": "458a9a6979",
+   "en": "Jakim: a Hebrew name, meaning \"he raises up\". He was a Benjamite (1 Chr 8:19)."
+  },
+  "8.19.2": {
+   "hash": "ea13855ccd",
+   "en": "Zabdi: a Hebrew name, meaning \"God has given,\" and he was a man among the Benjamites (1 Chr 8:19)."
+  },
+  "8.20.0": {
+   "hash": "fc0c78ff73",
+   "en": "And Elienai, and Zilthai, and Eliel [20]"
+  },
+  "8.20.1": {
+   "hash": "eac087f848",
+   "en": "Elienai: a Hebrew name, and it is likely an abbreviation of \"Elihoenai,\" meaning \"his eyes are toward Jehovah\". He was the son of Shimhi, one of the chiefs of the sons of Benjamin (1 Chr 8:20)."
+  },
+  "8.20.2": {
+   "hash": "c45c4299d4",
+   "en": "Zilthai: a Hebrew name, meaning \"Jehovah is shade or refuge\". A Benjamite of the sons of Shimhi (1 Chr 8:20)."
+  },
+  "8.20.3": {
+   "hash": "5e626617ef",
+   "en": "Eliel or Elieel: they are one name in the original Hebrew, meaning \"El is God\": the name of a Benjamite man, the son of Shimhi (1 Chr 8:21-22)."
+  },
+  "8.21.0": {
+   "hash": "3ec807631f",
+   "en": "And Adaiah, and Beraiah, and Shimrath, the sons of Shimhi. [21]"
+  },
+  "8.21.1": {
+   "hash": "f022a76170",
+   "en": "Adaiah or Adaia: a Hebrew name, meaning \"adornment of Jehovah\". He was a son of Shimhi, of the sons of Benjamin."
+  },
+  "8.21.2": {
+   "hash": "7553653ddb",
+   "en": "Beraiah: a Hebrew name, meaning \"whom Jehovah created\". He was a Benjamite chief and a son of Shimhi."
+  },
+  "8.21.3": {
+   "hash": "938a31b60b",
+   "en": "Shimrath: a Hebrew name, meaning \"the watcher or the guard\". A Benjamite, the son of Shimhi (1 Chr 8:21)."
+  },
+  "8.21.4": {
+   "hash": "b05830ebfe",
+   "en": "Shimhi: (with a kasra under the ain) a Hebrew name, meaning \"Jehovah hears\". He was a Benjamite, head of a house in Eglon (1 Chr 8:21). He is called Shema in (1 Chr 8:13)."
+  },
+  "8.22.0": {
+   "hash": "5a97d0105b",
+   "en": "And Ishpan, and Heber, and Eliel [22]"
+  },
+  "8.22.1": {
+   "hash": "45b4f6425c",
+   "en": "Ishpan: a Hebrew name, perhaps meaning \"he is bald\". He was a Benjamite chief, the son of Shashak."
+  },
+  "8.23.0": {
+   "hash": "7cbeab53c6",
+   "en": "And Abdon, and Zichri, and Hanan [23]"
+  },
+  "8.23.1": {
+   "hash": "c709bd5804",
+   "en": "Abdon: a Hebrew name, meaning \"the enslaved,\" and two bear the same name: 1. A Benjamite, the son of Shashak (1 Chr 8:23). 2. A Benjamite, the son of Jeuel the Gibeonite (1 Chr 8:30; 9:36)."
+  },
+  "8.24.0": {
+   "hash": "a3485af0bb",
+   "en": "And Hananiah, and Elam, and Antothijah [24]"
+  },
+  "8.24.1": {
+   "hash": "ae740d93c5",
+   "en": "Hananiah: a Hebrew name, meaning \"Jehovah has shown favour\" or \"has been gracious\". A Benjamite, the son of Shashak."
+  },
+  "8.24.2": {
+   "hash": "8bb40edd54",
+   "en": "Elam: a Hebrew name, of Akkadian origin, meaning \"highlands\". He was a son of Shashak, a head of a house in Benjamin (1 Chr 8:24)."
+  },
+  "8.24.3": {
+   "hash": "b8b73da17b",
+   "en": "Antothijah: a Hebrew name, perhaps ascribed to \"Anathoth\". He was a son of Shashak, of the sons of Benjamin."
+  },
+  "8.25.0": {
+   "hash": "906334804d",
+   "en": "And Iphedeiah, and Penuel, the sons of Shashak. [25]"
+  },
+  "8.25.1": {
+   "hash": "dc00b32ba9",
+   "en": "Iphedeiah: a Hebrew name, meaning \"Jehovah redeems\". He was a Benjamite, the son of Shashak (1 Chr 8:25)."
+  },
+  "8.25.2": {
+   "hash": "84aa5d2fba",
+   "en": "Penuel: a Hebrew name, meaning \"face of God\". It is the name of a Benjamite man, of the sons of Shashak."
+  },
+  "8.26.0": {
+   "hash": "16819cb5f8",
+   "en": "And Shamsherai, and Shehariah, and Athaliah [26]"
+  },
+  "8.26.1": {
+   "hash": "71fb9aac08",
+   "en": "Shamsherai: a Benjamite, of the sons of Jeroham (1 Chr 8:26)."
+  },
+  "8.26.2": {
+   "hash": "82b03f4e8d",
+   "en": "Shehariah: a Hebrew name, meaning \"Jehovah is the dawn\". He was a Benjamite, the son of Jeroham (1 Chr 8:26)."
+  },
+  "8.26.3": {
+   "hash": "25ec815081",
+   "en": "Athaliah: a Hebrew name, meaning \"Jehovah is exalted\". It is the name of a son of Jeroham, of the sons of Benjamin."
+  },
+  "8.27.0": {
+   "hash": "d3562353e3",
+   "en": "And Jaresiah, and Eliah, and Zichri, the sons of Jeroham. [27]"
+  },
+  "8.27.1": {
+   "hash": "ccfe98556e",
+   "en": "Jaresiah: a Hebrew name, meaning \"Jehovah plants\". He was a Benjamite, the son of Jeroham (1 Chr 8:27)."
+  },
+  "8.27.2": {
+   "hash": "9d7c0a2796",
+   "en": "Eliah: a Hebrew name, meaning \"my God is Jehovah\". The Greek form of this name is Elias, and it is sometimes used in Arabic. It is the name of a son of Jeroham of the tribe of Benjamin (1 Chr 8:27)."
+  },
+  "8.27.3": {
+   "hash": "1a95527250",
+   "en": "Zichri: a Hebrew name, meaning \"remembered,\" and it is the name of three of the chiefs of Benjamin (1 Chr 8:19; 23:27)."
+  },
+  "8.27.4": {
+   "hash": "23e5a8aa7e",
+   "en": "Jeroham: a Hebrew name, meaning \"he whom God has mercy upon, or whom He pleases\". He was a Benjamite, two of whose sons were leaders, and he dwelt in Jerusalem (1 Chr 8:27)."
+  },
+  "8.28.0": {
+   "hash": "dbe84e928b",
+   "en": "These were heads of the fathers, by their generations, chief men."
+  },
+  "8.28.1": {
+   "hash": "0563dd36cc",
+   "en": "These dwelt in Jerusalem. [28]"
+  },
+  "8.29.0": {
+   "hash": "48e6510df3",
+   "en": "Here, as in [32], he referred to Jerusalem, and will speak of it in detail in the next chapter."
+  },
+  "8.30.0": {
+   "hash": "c625684a87",
+   "en": "And at Gibeon dwelt the father of Gibeon; and his wife's name was Maachah: [29]"
+  },
+  "8.30.1": {
+   "hash": "a1a7c8fb12",
+   "en": "What the writer aimed at here is to speak of the ancestors of Saul and his descendants indirectly. The relation that links the names mentioned here is to present the family that was rejected, and in whose place the family of David took over."
+  },
+  "8.30.2": {
+   "hash": "58f4924377",
+   "en": "Gibeon: a Hebrew name, meaning \"hill\". The ancestors of Saul dwelt there for a time, and they had influence."
+  },
+  "8.30.3": {
+   "hash": "20e517b948",
+   "en": "The father of Gibeon: that is, the chief of the city of Gibeon (1 Chr 9:35). Gibeon is mentioned in (Josh 9-10)."
+  },
+  "8.30.4": {
+   "hash": "10134e8e49",
+   "en": "Maachah: a Semitic name, meaning \"injustice,\" and she was the wife of Jeuel the father of Gibeon, from whom Saul descended."
+  },
+  "8.31.0": {
+   "hash": "bbf5140495",
+   "en": "And his firstborn son Abdon, and Zur, and Kish, and Baal, and Nadab [30]"
+  },
+  "8.31.1": {
+   "hash": "2bfe12efcb",
+   "en": "Zur: a Semitic name, meaning \"rock\". He was a son of the founder of Gibeon (1 Chr 8:30)."
+  },
+  "8.31.2": {
+   "hash": "3242717a36",
+   "en": "Nadab: a Hebrew name, meaning \"generous\". He was a son of Jeuel, and his mother's name was Maachah. He was of the sons of Benjamin. He used to live in Gibeon. He was the head of his house (1 Chr 8:30)."
+  },
+  "8.32.0": {
+   "hash": "6e760dcf26",
+   "en": "And Gedor, and Ahio, and Zacher. [31]"
+  },
+  "8.32.1": {
+   "hash": "3b4eb20f50",
+   "en": "Gedor: a Hebrew name, meaning \"fortress\" or \"walled place\". He was a son of Jeuel, and the brother of Ner and Kish, ancestors of Saul (1 Chr 8:30-31)."
+  },
+  "8.32.2": {
+   "hash": "c2d39cded0",
+   "en": "Zacher: a Hebrew name, meaning \"remembrance,\" a man of the sons of Benjamin (1 Chr 8:31)."
+  },
+  "8.33.0": {
+   "hash": "5c48355cb6",
+   "en": "And Mikloth begat Shimeah."
+  },
+  "8.33.1": {
+   "hash": "b68e545e81",
+   "en": "And these also dwelt with their brethren in Jerusalem, over against their brethren. [32]"
+  },
+  "8.33.2": {
+   "hash": "448509d279",
+   "en": "Mikloth: a Hebrew name, meaning \"staff\". It is the name of a Benjamite (1 Chr 8:32)."
+  },
+  "8.33.3": {
+   "hash": "7370111329",
+   "en": "Shimeah or Shimeam: a Benjamite, the son of Mikloth. He was dwelling in Jerusalem."
+  },
+  "8.34.s": {
+   "hash": "1f56fb958b",
+   "en": "2. The descendants of Saul"
+  },
+  "8.34.0": {
+   "hash": "a91a97d735",
+   "en": "33 And Ner begat Kish, and Kish begat Saul, and Saul begat Jonathan, and Malchishua, and Abinadab, and Esh-baal. 34 And the son of Jonathan was Merib-baal; and Merib-baal begat Micah. 35 And the sons of Micah were, Pithon, and Melech, and Tarea, and Ahaz. 36 And Ahaz begat Jehoadah; and Jehoadah begat Alemeth, and Azmaveth, and Zimri; and Zimri begat Moza, 37 And Moza begat Binea: Rapha was his son, Eleasah his son, Azel his son: 38 And Azel had six sons, whose names are these, Azrikam, Bocheru, and Ishmael, and Sheariah, and Obadiah, and Hanan. All these were the sons of Azel. 39 And the sons of Eshek his brother were, Ulam his firstborn, Jehush the second, and Eliphelet the third. 40 And the sons of Ulam were mighty men of valour, archers, and had many sons, and sons' sons, an hundred and fifty. All these are of the sons of Benjamin."
+  },
+  "8.34.1": {
+   "hash": "73412bb061",
+   "en": "And Ner begat Kish, and Kish begat Saul, and Saul begat Jonathan, and Malchishua, and Abinadab, and Esh-baal. [33]"
+  },
+  "8.34.2": {
+   "hash": "98da071249",
+   "en": "Ner: a Hebrew name, meaning \"light, lamp\". He was a Benjamite, the son of Jeuel and Maachah, and the father of Kish the father of Saul (1 Chr 8:33)."
+  },
+  "8.34.3": {
+   "hash": "0613307a69",
+   "en": "Saul: Saul son of Kish was appointed the first king over Israel. He had an ideal appearance as a king in stature and bodily form, and he showed a kind of humility, courage and generosity when he was chosen king (1 Sam 9)."
+  },
+  "8.34.4": {
+   "hash": "247a58fe8e",
+   "en": "As king he obeyed God at the beginning of his reign, so he achieved great victories and success. He soon fell into pride, and usurped the work of the priesthood. His reliance on himself and his concern for his popularity rather than for conduct according to God's will isolated him from his people and cost him much, and even shattered his personality."
+  },
+  "8.34.5": {
+   "hash": "869c3e2761",
+   "en": "He tried to draw every man of valour to work with him, but not for the glory of God, rather for the sake of the growth of his popularity, so even some of his relatives turned away from him."
+  },
+  "8.34.6": {
+   "hash": "c65980d012",
+   "en": "He tried to kill David more than once. His envy of David and his directing all his energies and capabilities to get rid of him led to the failure of Saul, not of David."
+  },
+  "8.34.7": {
+   "hash": "6d55077ec6",
+   "en": "Jehonathan or Jonathan son of Saul: a Hebrew name, meaning \"Jehovah has given\". He was the opposite of his father; he was the lawful heir to the throne, and he was convinced that God had chosen David for the throne, and he became his close friend, and saved his life from his father's attempts to kill him (1 Sam 14-31). His soul was knit to David and he loved him greatly as his own soul. Despite Saul's warning to him about David, that he would take the throne, he did not envy David his victories and popularity."
+  },
+  "8.34.8": {
+   "hash": "5930b97597",
+   "en": "He was marked by courage, loyalty and good leadership together with reliance on God."
+  },
+  "8.34.9": {
+   "hash": "11a9315c44",
+   "en": "Malchishua: a Hebrew name, meaning \"the king is salvation\"."
+  },
+  "8.34.10": {
+   "hash": "fc74884ccd",
+   "en": "Abinadab: a Hebrew name, meaning \"the father is generous or delegated\"."
+  },
+  "8.34.11": {
+   "hash": "916dcf8473",
+   "en": "Esh-baal: a Hebrew name meaning \"man of Baal,\" and it is the first name of Ish-bosheth son of Saul (1 Chr 8:33), that is, \"man of shame\". The purpose of changing the name was contempt for Baal."
+  },
+  "8.35.0": {
+   "hash": "5559315663",
+   "en": "And the son of Jonathan was Merib-baal; and Merib-baal begat Micah. [34]"
+  },
+  "8.35.1": {
+   "hash": "c5d16fd330",
+   "en": "Merib-baal, who is Mephibosheth son of Jonathan and grandson of Saul, because the word Baal was replaced by the word \"bosheth\" out of contempt. Mephibosheth: a Hebrew name, meaning \"removal of idols\"."
+  },
+  "8.35.2": {
+   "hash": "b6caac7080",
+   "en": "There are two names connected with the idol god \"Baal,\" namely Esh-baal and Merib-baal. These two names were changed in (2 Sam 2:8; 9:6), and they are Ish-bosheth and Mephibosheth[6]."
+  },
+  "8.35.3": {
+   "hash": "6875c7ab18",
+   "en": "When he was five years old he fell from the hands of his nurse, and was lamed, which stayed with him all his life. David sought out this Mephibosheth after he became king, and made him dwell in his palace, and restored to him what had belonged to his father; but since some signs of treachery appeared from him during the rebellion of Absalom, he took back from him at first all that he had, and gave it to Ziba his servant. Then afterward he took pity on him, and gave half to Ziba and restored to him the other half. He is also called Meribaal (1 Chr 8:34)."
+  },
+  "8.35.4": {
+   "hash": "b090724a13",
+   "en": "Why was the change of the two names mentioned in Second Samuel, and not in Chronicles?"
+  },
+  "8.35.5": {
+   "hash": "c6efc9b90f",
+   "en": "Second Samuel was in the Hebrew Bible in the second division, Nebiim (the Prophets) Nebiwim. These books were read in the synagogue, where it is not fitting to mention the name of a pagan god, \"Baal,\" so the reader replaces the word \"Baal\" with \"bosheth,\" which means \"naked\". This change was used in the text of the book, whereas in the two books of Chronicles there was no need for this change, since the two books were in the third division, \"Ketubim,\" meaning \"the Writings.\" The books of this division were not read in the synagogue until a late time. This explains that the texts of the Bible were connected with worship."
+  },
+  "8.35.6": {
+   "hash": "cf9a88b773",
+   "en": "Micah: a Hebrew name, meaning \"like Jehovah\". He was the son of Mephibosheth or Meribaal and a grandson of Jonathan."
+  },
+  "8.36.0": {
+   "hash": "17b3de7af6",
+   "en": "And the sons of Micah were, Pithon, and Melech, and Tarea, and Ahaz. [35]"
+  },
+  "8.36.1": {
+   "hash": "f8332a14bc",
+   "en": "Pithon: the son of Jonathan son of Saul (1 Chr 8:35)."
+  },
+  "8.36.2": {
+   "hash": "26b95039ff",
+   "en": "Melech: a Hebrew name, meaning \"king\"."
+  },
+  "8.36.3": {
+   "hash": "b6ec0d61be",
+   "en": "Tarea or Tahrim: a Hebrew name, meaning \"crafty\". He was a man of the descendants of Saul through Jonathan."
+  },
+  "8.36.4": {
+   "hash": "9ffcbb0d4c",
+   "en": "Ahaz: a Hebrew name, meaning \"he held,\" that is, \"the Lord held\". He was the son of Micah, of the descendants of Jonathan."
+  },
+  "8.37.0": {
+   "hash": "00ab9f91a8",
+   "en": "And Ahaz begat Jehoadah; and Jehoadah begat Alemeth, and Azmaveth, and Zimri."
+  },
+  "8.37.1": {
+   "hash": "6ea73f03e7",
+   "en": "And Zimri begat Moza [36]"
+  },
+  "8.37.2": {
+   "hash": "1d813246ac",
+   "en": "Jehoadah: a Hebrew name, perhaps meaning \"Jehovah has numbered\". He was the son of Ahaz, of the descendants of Jonathan son of Saul (1 Chr 8:36)."
+  },
+  "8.37.3": {
+   "hash": "ac669b0315",
+   "en": "Alemeth: a Hebrew name, meaning \"concealment,\" and he was the son of Jehoadah, of the sons of Benjamin, of the grandsons of King Saul (1 Chr 8:36; 9:42)."
+  },
+  "8.37.4": {
+   "hash": "c47bd21ad5",
+   "en": "Azmaveth: a Hebrew name, meaning \"death is strong\". He was the son of Jehoadah, and one of the grandsons of Jehonathan."
+  },
+  "8.37.5": {
+   "hash": "7af16bab75",
+   "en": "Zimri: a Hebrew name, perhaps meaning \"he who resembles the wild ox\". More than one person bears this name, among them: 1. A Benjamite of the descendants of Jonathan son of Saul (1 Chr 8:36). 2. A commander in the army of Israel, who was over half of the chariots of Elah son of Baasha king of Israel. Then he conspired against his lord and killed him, fulfilling the divine judgment on the house of Baasha. Some thought that he was of the descendants of Saul, trying to recover the old kingship (1 Kgs 16:10-11)."
+  },
+  "8.37.6": {
+   "hash": "ba2f6ac084",
+   "en": "Moza: a Hebrew name, meaning \"exit,\" the name of a man of the descendants of Saul."
+  },
+  "8.38.0": {
+   "hash": "33b79945db",
+   "en": "And Moza begat Binea: and Rapha was his son, Eleasah his son, Azel his son [37]"
+  },
+  "8.38.1": {
+   "hash": "11110abf2e",
+   "en": "Binea: he is the son of Moza, of the descendants of Jonathan son of Saul (1 Chr 8:37)."
+  },
+  "8.38.2": {
+   "hash": "e0c49a1fa1",
+   "en": "Rapha: a Hebrew name, meaning \"Jehovah has healed, that is, God has healed\". He was a man of the descendants of Saul."
+  },
+  "8.38.3": {
+   "hash": "5b50864667",
+   "en": "Eleasah: a Hebrew name, meaning \"God has made\". He is the name of a man of the descendants of Saul and of his son Jonathan (1 Chr 8:33-37). His name appears in this latter text in the form \"Elasah\"."
+  },
+  "8.39.0": {
+   "hash": "c04feac5cb",
+   "en": "And Azel had six sons, whose names are these:"
+  },
+  "8.39.1": {
+   "hash": "58a56b7480",
+   "en": "Azrikam, Bocheru, and Ishmael, and Sheariah, and Obadiah, and Hanan."
+  },
+  "8.39.2": {
+   "hash": "62ffe60a47",
+   "en": "All these were the sons of Azel. [38]"
+  },
+  "8.39.3": {
+   "hash": "887aa57261",
+   "en": "Azel: a Hebrew name, meaning \"noble or well-born\". It is the name of a man of the descendants of Jonathan son of Saul."
+  },
+  "8.39.4": {
+   "hash": "d3bf2e53da",
+   "en": "Azrikam: a Hebrew name, meaning \"my help has risen\". More than one person bears this name, among them: 1. A son of Azel, one of the descendants of Jehonathan son of Saul (1 Chr 8:38). 2. A son of Gera, of the descendants of Ehud the Benjamite (1 Chr 8:6)."
+  },
+  "8.39.5": {
+   "hash": "c52ae3ca3f",
+   "en": "Bocheru: a Hebrew name, meaning \"firstborn\". He was a son of Azel (1 Chr 8:38)."
+  },
+  "8.39.6": {
+   "hash": "49ca5a1dac",
+   "en": "Ishmael: a Hebrew name, meaning \"God hears\". He was a Benjamite called Ishmael son of Azel."
+  },
+  "8.39.7": {
+   "hash": "a2fbb4c7b9",
+   "en": "Sheariah: a Hebrew name, meaning \"power of Jehovah\". He was a man of the descendants of Saul (1 Chr 8:38)."
+  },
+  "8.39.8": {
+   "hash": "8cb18d2247",
+   "en": "Obadiah: a Hebrew name, meaning \"servant of Jehovah,\" and he was the son of Azel, of the grandsons of Jehoshaphat son of Saul (1 Chr 8:38; 9:44)."
+  },
+  "8.39.9": {
+   "hash": "018384b1a1",
+   "en": "Hanan: a Hebrew name, meaning \"gracious, compassionate, generous\". More than one person bears this name, among them: 1. A famous man of Benjamin, the son of Shashak (1 Chr 8:23). 2. A son of Azel, of the descendants of Jonathan son of Saul (1 Chr 8:38)."
+  },
+  "8.40.0": {
+   "hash": "bec6deb041",
+   "en": "And the sons of Eshek his brother were, Ulam his firstborn, Jehush the second, and Eliphelet the third. [39]"
+  },
+  "8.40.1": {
+   "hash": "f98af4259f",
+   "en": "Eshek: a Hebrew name, meaning \"cruelty\". He was a man of the line of Saul, of the Benjamites."
+  },
+  "8.40.2": {
+   "hash": "01afb86b94",
+   "en": "Ulam: a Hebrew name, meaning \"first\". He was the son of Eshek of the tribe of Benjamin (1 Chr 8:39). The sons of Ulam were heroes of war (1 Chr 8:40)."
+  },
+  "8.40.3": {
+   "hash": "f7d94618f8",
+   "en": "Jehush: a Semitic name, meaning \"God helps,\" and he was the head of a Benjamite house of the descendants of Saul."
+  },
+  "8.40.4": {
+   "hash": "b974d8999e",
+   "en": "Eliphelet: a Hebrew name, meaning \"God has delivered him\". He was the son of Eshek of the tribe of Benjamin (1 Chr 8:39)."
+  },
+  "8.41.0": {
+   "hash": "af96eaf575",
+   "en": "And the sons of Ulam were mighty men of valour, archers, and had many sons, and sons' sons, an hundred and fifty."
+  },
+  "8.41.1": {
+   "hash": "82278d0736",
+   "en": "All these are of the sons of Benjamin. [40] 1. It is noted in the genealogies of all the tribes that there is no reference to any king of Israel after the split from the house of David. Nor did it say anything about the house of Jeroboam, Baasha, Omri and Jehu, because all of these were idolaters. 2. He took care of the descendants of Jonathan son of Saul, perhaps because of his loyalty and faithfulness in his friendship with David. 3. The genealogies ended with Ulam and his sons, whose family became especially famous in the tribe of Benjamin because of the multitude of his sons and his sons' sons, who numbered a hundred and fifty, known as mighty men of valour. The secret of their greatness is not in their authority or social positions or wealth, but in their service to their country, because they were mighty men of valour in battles."
+  },
+  "8.41.2": {
+   "hash": "7b25259752",
+   "en": "In the midst of dense thorns You present to us beautiful roses!"
+  },
+  "8.41.3": {
+   "hash": "72b708f68f",
+   "en": "v It was not possible for the tribes of Israel to imagine the corruption that Benjamin had reached (Judg 19-20)."
+  },
+  "8.41.4": {
+   "hash": "057fcf0c33",
+   "en": "The sons of Benjamin became the corrupt sons of Belial."
+  },
+  "8.41.5": {
+   "hash": "2c0dd12d25",
+   "en": "In foulness they abused the Levite's concubine all night long."
+  },
+  "8.41.6": {
+   "hash": "118900b34c",
+   "en": "In the morning they found her fallen at the door of the house, dead, with her hands upon the threshold."
+  },
+  "8.41.7": {
+   "hash": "3deea3c3b7",
+   "en": "The Levite divided her body and distributed it among the tribes."
+  },
+  "8.41.8": {
+   "hash": "078fa94e04",
+   "en": "The tribes rushed upon Benjamin, and almost destroyed the whole tribe (Judg 21:3)."
+  },
+  "8.41.9": {
+   "hash": "071ab41021",
+   "en": "v From this tribe arose King Saul, who disobeyed the Lord."
+  },
+  "8.41.10": {
+   "hash": "3da848f541",
+   "en": "He neglected the ark of the covenant, and in his distress consulted the spirits, not the Lord."
+  },
+  "8.41.11": {
+   "hash": "cf879638a9",
+   "en": "What bitterness came upon all the people of God because of this tribe!"
+  },
+  "8.41.12": {
+   "hash": "442d9a0f4c",
+   "en": "v In the midst of these dangerous thorns God tended beautiful roses, bearing the fragrance of love and holiness."
+  },
+  "8.41.13": {
+   "hash": "5fa61615ad",
+   "en": "What a flower God cared for, like Jonathan son of Saul."
+  },
+  "8.41.14": {
+   "hash": "b6c9451537",
+   "en": "He did not care to inherit the throne from his father, since the Lord had chosen David, the man of God, as heir to the throne!"
+  },
+  "8.41.15": {
+   "hash": "a35b45e96c",
+   "en": "He loved David as his own soul, and gave him his robe and his sword."
+  },
+  "8.41.16": {
+   "hash": "bdd8d0a3ad",
+   "en": "He spared no effort to rescue the sweet psalmist of Israel from the hands of Saul his wicked father!"
+  },
+  "8.41.17": {
+   "hash": "3fae4d1e7a",
+   "en": "v Many of Saul's relatives, men of valour, for the sake of the Lord left Saul and clung to David."
+  },
+  "8.41.18": {
+   "hash": "ef9fbe502f",
+   "en": "They preceded many of the tribes in making David king over all Israel."
+  },
+  "8.41.19": {
+   "hash": "ebd535844c",
+   "en": "They became David's men and his guard, because he is a man of God."
+  },
+  "8.41.20": {
+   "hash": "07dec12590",
+   "en": "v When the tribes ran after Jeroboam, who split the kingdom of Israel,"
+  },
+  "8.41.21": {
+   "hash": "9c0f92b348",
+   "en": "Benjamin was determined to cling to the kingdom of Judah."
+  },
+  "8.41.22": {
+   "hash": "3439c5e24c",
+   "en": "What roses of love, sincerity and faithfulness to God and to His commandments and His dispensations they were."
+  },
+  "8.41.23": {
+   "hash": "0179bdb357",
+   "en": "v Truly Benjamin bears witness on the great Day of the Lord that the Lord planted them as a delightful garden bearing the sweet fragrance of Christ, in the midst of a tribe with its errors and grave sins!"
+  },
+  "8.41.24": {
+   "hash": "acd43ac593",
+   "en": "v Teach me not to despise any community because of the corrupt in it."
+  },
+  "8.41.25": {
+   "hash": "1b01d717ed",
+   "en": "For in the midst of pitch darkness the light of Your grace shines on many!"
+  },
+  "8.41.26": {
+   "hash": "9b40893bca",
+   "en": "In the midst of deep darkness brilliant stars glitter, bearing witness to Your grace."
+  }
+ }
+}

@@ -1,11 +1,11 @@
 {
  "1CH": {
   "entries": 668,
-  "translated": 355
+  "translated": 668
  },
  "2CH": {
   "entries": 248,
-  "translated": 183
+  "translated": 248
  },
  "AMO": {
   "entries": 81,
@@ -13,15 +13,19 @@
  },
  "DAN": {
   "entries": 243,
-  "translated": 143
+  "translated": 186
  },
  "ECC": {
   "entries": 168,
-  "translated": 93
+  "translated": 111
+ },
+ "ESG": {
+  "entries": 2,
+  "translated": 2
  },
  "EST": {
   "entries": 63,
-  "translated": 46
+  "translated": 63
  },
  "EXO": {
   "entries": 24,
@@ -29,6 +33,30 @@
  },
  "EZK": {
   "entries": 416,
-  "translated": 71
+  "translated": 416
+ },
+ "EZR": {
+  "entries": 69,
+  "translated": 69
+ },
+ "HAB": {
+  "entries": 46,
+  "translated": 46
+ },
+ "HAG": {
+  "entries": 18,
+  "translated": 18
+ },
+ "HOS": {
+  "entries": 132,
+  "translated": 132
+ },
+ "ISA": {
+  "entries": 778,
+  "translated": 778
+ },
+ "JOB": {
+  "entries": 1057,
+  "translated": 675
  }
 }
