@@ -24,6 +24,10 @@ const strings = t(locale).commentary;
 const text = arabicHref === undefined ? (commentary?.stMark ?? null) : null;
 // English editions: the St. Mark commentary in its English translation, where translated.
 const english = arabicHref !== undefined ? (commentary?.stMarkEnglish ?? null) : null;
+// Where St. Mark has no text: Fr. Tadros Malaty's commentary, credited on every entry.
+const malaty = arabicHref === undefined && text === null ? (commentary?.malaty ?? null) : null;
+const malatyEnglish = arabicHref !== undefined && english === null && commentary?.malaty ? commentary.malatyEnglish : null;
+const hasText = text !== null || english !== null || malaty !== null || malatyEnglish !== null;
 const kindClass = (kind: string | undefined) => (kind === undefined ? undefined : `p-${kind}`);
 ---
 
@@ -43,6 +47,34 @@ const kindClass = (kind: string | undefined) => (kind === undefined ? undefined 
       ))
   }
   {
+    malatyEnglish !== null &&
+      malatyEnglish.entries.map((entry) => (
+        <article class="entry" data-start={entry.verses[0]} data-end={entry.verses[1]} lang="en" dir="ltr">
+          {entry.verses[0] !== entry.verses[1] && <p class="range">{t('en').commentary.verses(entry.verses[0], entry.verses[1])}</p>}
+          {entry.paragraphs.map((paragraph) => (
+            <p class={kindClass(paragraph.kind)}>{paragraph.text}</p>
+          ))}
+          <p class="translation-note" lang={locale}>
+            {strings.malatyCredit}. {strings.machineTranslation} <a href={`${arabicHref}#v{verse}`} hreflang="ar">{strings.arabicOriginal}</a>
+          </p>
+        </article>
+      ))
+  }
+  {
+    malaty !== null &&
+      malaty.chapter.entries.map((entry) => (
+        <article class="entry" data-start={entry.verses[0]} data-end={entry.verses[1]} lang="ar" dir="rtl">
+          {entry.verses[0] !== entry.verses[1] && <p class="range">{t('ar').commentary.verses(entry.verses[0], entry.verses[1])}</p>}
+          {entry.paragraphs.map((paragraph) => (
+            <p class={kindClass(paragraph.kind)}>{paragraph.text}</p>
+          ))}
+          <a class="original" href={`${malaty.pageUrl}#{verse}`} rel="noopener" target="_blank" lang={locale}>
+            {strings.malatyOriginal}
+          </a>
+        </article>
+      ))
+  }
+  {
     text !== null &&
       text.chapter.entries.map((entry) => (
         <article class="entry" data-start={entry.verses[0]} data-end={entry.verses[1]} lang="ar" dir="rtl">
@@ -57,14 +89,14 @@ const kindClass = (kind: string | undefined) => (kind === undefined ? undefined 
       ))
   }
   <div class="fallback">
-    {arabicHref !== undefined && commentary?.stMark && <a class="action" href={`${arabicHref}#v{verse}`} hreflang="ar">{strings.readArabicVerse}</a>}
+    {arabicHref !== undefined && (commentary?.stMark || commentary?.malaty) && <a class="action" href={`${arabicHref}#v{verse}`} hreflang="ar">{strings.readArabicVerse}</a>}
     {text === null && commentary?.stMark === null && commentary.stMarkPdf !== null && (
       <a class="action" href={commentary.stMarkPdf} rel="noopener" target="_blank">{strings.openPdf}</a>
     )}
-    {text === null && commentary?.stMark === null && commentary.malatyUrl !== null && (
+    {text === null && commentary?.stMark === null && commentary.malaty === null && commentary.malatyUrl !== null && (
       <a class="action" href={commentary.malatyUrl} rel="noopener" target="_blank">{strings.malaty}</a>
     )}
-    {(text !== null || english !== null) && <p class="muted">{strings.noEntryForVerse}</p>}
+    {hasText && <p class="muted">{strings.noEntryForVerse}</p>}
   </div>
   {explorerHref !== undefined && <a class="action explore" href={explorerHref}>{strings.crossReferences}</a>}
 </template>
@@ -76,7 +108,7 @@ const kindClass = (kind: string | undefined) => (kind === undefined ? undefined 
   tabindex="-1"
   hidden
   data-title={strings.forVerse('{verse}')}
-  data-has-text={text !== null || english !== null ? '' : undefined}
+  data-has-text={hasText ? '' : undefined}
 >
   <span class="arrow" aria-hidden="true"></span>
   <header>

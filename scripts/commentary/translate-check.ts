@@ -1,7 +1,7 @@
 /**
  * Checks translated chunks against their Arabic sources (checkChunk in translate-prepare-lib.ts).
  *
- *   node scripts/commentary/translate-check.ts <chunk.en.json | BOOK | all>
+ *   node scripts/commentary/translate-check.ts [--source=malaty] <chunk.en.json | BOOK | all>
  * Prints "ok" or the problems; exits 1 on problems.
  */
 import { readdirSync } from 'node:fs';
@@ -9,9 +9,10 @@ import { join, resolve } from 'node:path';
 import { checkChunk } from './translate-prepare-lib.ts';
 
 const ROOT = resolve(import.meta.dirname, '../..');
-const DIR = join(ROOT, 'content/translations/stmark-en');
+const source = process.argv.find((arg) => arg.startsWith('--source='))?.slice('--source='.length) ?? 'stmark';
+const DIR = join(ROOT, 'content/translations', `${source}-en`);
 
-const target = process.argv[2] ?? 'all';
+const target = process.argv.slice(2).find((arg) => !arg.startsWith('--')) ?? 'all';
 const paths = target.endsWith('.json')
   ? [resolve(target)]
   : readdirSync(DIR)

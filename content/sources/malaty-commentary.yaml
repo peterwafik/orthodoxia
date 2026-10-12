@@ -1,0 +1,28 @@
+id: malaty-commentary
+title: من تفسير وتأملات الآباء الأولين — القمص تادرس يعقوب ملطي (Fr. Tadros Yacoub Malaty's Bible commentary)
+author: Fr. Tadros Yacoub Malaty
+organization: St. George Coptic Orthodox Church, Sporting, Alexandria
+url: https://st-takla.org/pub_Bible-Interpretations/Tafseer-Al-Keta-Al-Mokadas-index-1-Father-Tadros-Yaacoub-Malaty.html
+languages: [ar]
+contentType: commentary
+license:
+  id: custom
+  statement: "Fr. Tadros Yacoub Malaty agreed, in Arabic and in English, to the publication of his commentary and of an English translation of it on this site, as reported by the project owner on 2026-10-12 (request: docs/translation/PERMISSION-REQUEST-MALATY.md)."
+  verifiedUrl: https://st-takla.org/pub_Bible-Interpretations/Tafseer-Al-Keta-Al-Mokadas-index-1-Father-Tadros-Yaacoub-Malaty.html
+inUse: true
+usage: import
+redistributionAllowed: true
+attribution: "تفسير القمص تادرس يعقوب ملطي (St-Takla.org). Commentary by Fr. Tadros Yacoub Malaty, used with his permission."
+commercialUse: restricted
+modification: restricted
+lastVerifiedAt: "2026-10-12"
+coversDeuterocanon: true
+notes: >-
+  Used only for the chapters of the Arabic Bible that the St. Mark Church commentary does not cover
+  (402 chapters). Text taken from his chapter pages on St-Takla.org (pages listed with SHA-256 in
+  data/commentary/malaty/sources.json), divided by the verse anchors of each page, shown unmodified
+  except that the site's navigation, image captions, printed page numbers and footnote markers are
+  left out; appendices after a chapter's closing meditation are left on the original page. Every
+  entry is credited and links to his page. Not on St-Takla.org, so still without commentary: Baruch,
+  1–2 Maccabees, the Greek additions to Esther (11–16), Susanna, and Bel and the Dragon. Translated
+  into English by machine, unreviewed (content/commentary/malaty-en). No commercial use.

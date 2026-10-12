@@ -9,7 +9,10 @@
  * so a re-import that changes a unit makes its old translation stale rather than wrong.
  * Existing chunk files are never overwritten (translations in progress are kept).
  *
- *   node scripts/commentary/translate-prepare.ts [BOOK …]
+ * The same pipeline translates Fr. Tadros Malaty's commentary (--source=malaty: content/commentary/malaty →
+ * content/translations/malaty-en).
+ *
+ *   node scripts/commentary/translate-prepare.ts [--source=malaty] [BOOK …]
  */
 import { existsSync, mkdirSync, readFileSync, readdirSync, writeFileSync } from 'node:fs';
 import { join, resolve } from 'node:path';
@@ -17,13 +20,14 @@ import type { CommentaryBook } from '../../packages/commentary/src/index.ts';
 import { unitsOf, type TranslationUnit } from './translate-prepare-lib.ts';
 
 const ROOT = resolve(import.meta.dirname, '../..');
-const SOURCE = join(ROOT, 'content/commentary/stmark');
-const OUT = join(ROOT, 'content/translations/stmark-en');
+const source = process.argv.find((arg) => arg.startsWith('--source='))?.slice('--source='.length) ?? 'stmark';
+const SOURCE = join(ROOT, 'content/commentary', source);
+const OUT = join(ROOT, 'content/translations', `${source}-en`);
 const CHUNK_WORDS = 3500;
 
 const words = (text: string) => text.split(/\s+/).length;
 
-const requested = process.argv.slice(2);
+const requested = process.argv.slice(2).filter((arg) => !arg.startsWith('--'));
 const files = readdirSync(SOURCE).filter((file) => /^[A-Z0-9]{3}\.json$/.test(file));
 let chunks = 0;
 let created = 0;
@@ -62,4 +66,4 @@ for (const file of files) {
   }
   flush();
 }
-console.log(`${chunks} chunks (${created} new) in content/translations/stmark-en/`);
+console.log(`${chunks} chunks (${created} new) in content/translations/${source}-en/`);

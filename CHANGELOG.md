@@ -3,6 +3,12 @@
 ## Unreleased
 
 ### Added
+- Fr. Tadros Yacoub Malaty's commentary, published with his permission, for the 402 chapters
+  without St. Mark text (Job, Proverbs to Malachi, Wisdom, Sirach, Esther, parts of Exodus,
+  Chronicles, Ezra and Psalms). It is shown verse by verse in Arabic, credited and linked to his
+  page on every entry, and translated into English by machine (unreviewed) through the same
+  pipeline (`--source=malaty`). Baruch, 1–2 Maccabees and the Greek additions to Esther and
+  Daniel remain without commentary (45 chapters).
 - Phase 0 research: an audit of the upstream explorer and CrossRefViz, a data-source and licensing
   audit, a hosting evaluation, an architecture proposal, a UI/UX proposal, MVP scope, a backlog,
   and four ADRs.

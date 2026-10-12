@@ -25,7 +25,9 @@
     "commentary:import": "node scripts/commentary/stmark-fetch.ts && node scripts/commentary/stmark-build.ts && node scripts/commentary/malaty-links.ts",
     "translate:prepare": "node scripts/commentary/translate-prepare.ts",
     "translate:check": "node scripts/commentary/translate-check.ts all",
-    "translate:merge": "node scripts/commentary/translate-merge.ts"
+    "translate:merge": "node scripts/commentary/translate-merge.ts",
+    "malaty:fetch": "node scripts/commentary/malaty-fetch.ts",
+    "malaty:build": "node scripts/commentary/malaty-build.ts"
   },
   "devDependencies": {
     "@types/node": "^24.13.6",

@@ -10,7 +10,7 @@ theological content.
 - The deuterocanonical book list, Arabic book names and book order (`packages/bible/src/books.ts`). See `docs/BIBLE.md`.
 - Whether to keep the Vulgate-based Arabic deuterocanon until a Septuagint-based Arabic text is licensed.
 - The default English edition (KJV or Septuagint).
-- The commentary sources shown in the reader (St. Mark Church; Fr. Tadros Malaty linked).
+- The commentary sources shown in the reader (St. Mark Church; Fr. Tadros Malaty, with his permission, where St. Mark has no text).
 - The English translation of the St. Mark commentary (AI translation, docs/translation/). At the
   owner's request (2026-10-11) it is published before review, marked on every entry as "machine
   translation from the Arabic, not yet reviewed" with a link to the Arabic original. A reviewer

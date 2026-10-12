@@ -105,18 +105,33 @@ English readers get the same interpretation as Arabic readers: the St. Mark comm
 - The site shows the English entries on English editions (KJV, LXX), with the note "Machine
   translation from the Arabic, not yet reviewed" and a link to the Arabic original.
 
-### Chapters without St. Mark text
+### Chapters without St. Mark text: Fr. Tadros Malaty
 
-No other Coptic Orthodox commentary is licensed for republication: St-Takla.org publishes Fr.
-Tadros Malaty's books by his permission to that site, and the same holds for other modern
-commentaries; public-domain English translations of the Fathers cover almost none of the missing
-books. These chapters therefore link to Fr. Tadros Malaty's commentary, in both languages, until
-permission is granted — the request is drafted in
-[translation/PERMISSION-REQUEST-MALATY.md](translation/PERMISSION-REQUEST-MALATY.md). With it, his
-commentary would be imported verse by verse and translated through the same pipeline.
+Fr. Tadros Yacoub Malaty gave this project permission (reported by the owner on 2026-10-12;
+[translation/PERMISSION-REQUEST-MALATY.md](translation/PERMISSION-REQUEST-MALATY.md)) to publish his
+commentary in Arabic and in English translation. It fills the 447 chapters of the Arabic Bible that
+the St. Mark commentary does not cover, from his chapter pages on St-Takla.org:
+
+- `node scripts/commentary/malaty-fetch.ts` downloads the pages into `data/commentary/malaty/html/`
+  (git-ignored) and records each URL and SHA-256 in `data/commentary/malaty/sources.json`.
+- `node scripts/commentary/malaty-build.ts` writes `content/commentary/malaty/<BOOK>.json` (same
+  structure as St. Mark, `source: "malaty"`, `extraction: "html"`) and `report.json`. Each
+  section heading of a page carries anchors for the verses it explains, and becomes an entry for
+  them; within a section, a paragraph quoting a later verse ("… [5]") starts an entry for that verse.
+  Entries are extended so that every verse of the chapter has its commentary. The site's navigation,
+  image captions, printed page numbers and footnote markers are left out; the closing meditation
+  ("من وحي …") is kept as the chapter's last reflection; appendices after it (homilies, studies)
+  stay on the original page. Exodus 35–40 is one thematic page, shown for each of those chapters.
+- Coverage: 402 chapters, 7,207 entries. St-Takla.org has no Malaty commentary on Baruch,
+  1–2 Maccabees, the Greek additions to Esther (11–16), Susanna, or Bel and the Dragon; those 45
+  chapters have none yet. The Song of the Three comes from his commentary on Daniel 3.
+- The reader shows it only where St. Mark has no text; every entry names Fr. Tadros and links to
+  the same verse on his page.
+- English: the same translation pipeline with `--source=malaty` (`content/translations/malaty-en`
+  → `content/commentary/malaty-en`), marked as an unreviewed machine translation.
 
 ## Known limitations
-- **Job and Esther** need OCR or the source documents; they are linked as PDFs for now.
+- **Job and Esther**: the St. Mark PDFs have no text layer; Fr. Tadros Malaty's commentary is shown instead.
 - **Low verse coverage** in some books reflects the source, not missing data. 1 Chronicles is 23%
   because its genealogies are summarized rather than commented verse by verse; 2 Chronicles is 54%;
   Ezra is 56%.
@@ -128,5 +143,5 @@ commentary would be imported verse by verse and translated through the same pipe
 - **The English translation is machine-made and not yet reviewed.** It is marked so on every entry,
   with a link to the Arabic original. A reviewer can correct any unit in its chunk file; the
   review workflow is in docs/THEOLOGICAL_REVIEW.md.
-- **Chapters without St. Mark text** (447 of 1,336) link to Fr. Tadros Malaty's commentary in both
-  languages until he grants permission to show it (docs/translation/PERMISSION-REQUEST-MALATY.md).
+- **Chapters without any commentary text** (45 of 1,336): Baruch, 1–2 Maccabees, Esther 11–16,
+  Susanna, and Bel and the Dragon.

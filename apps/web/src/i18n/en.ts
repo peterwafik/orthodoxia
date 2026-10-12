@@ -173,6 +173,8 @@ export const en = {
     openPdf: 'Open the commentary (PDF)',
     malaty: 'Fr. Tadros Yacoub Malaty’s commentary on this chapter (Arabic)',
     malatyNote: 'In Arabic, on St-Takla.org.',
+    malatyCredit: 'Fr. Tadros Yacoub Malaty',
+    malatyOriginal: 'Fr. Tadros Yacoub Malaty, on St-Takla.org',
     arabicOnly: 'The St. Mark Church commentary on this chapter is in Arabic.',
     readArabic: 'Read this chapter with its interpretation in Arabic',
     englishPending: 'An English translation is in preparation and will be published only after review.',

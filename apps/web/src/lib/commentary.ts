@@ -4,8 +4,11 @@
  * For each chapter the reader offers, in order of preference:
  *  1. the St. Mark Church commentary text, verse by verse (Arabic; in English, its translation,
  *     content/commentary/stmark-en, where translated);
- *  2. the St. Mark PDF, where a book has no extractable text (Job, Esther);
- *  3. Fr. Tadros Malaty's commentary on St-Takla.org, linked, for books St. Mark does not cover.
+ *  2. Fr. Tadros Malaty's commentary, verse by verse, for chapters St. Mark does not cover
+ *     (content/commentary/malaty, published with his permission; in English, its translation,
+ *     content/commentary/malaty-en, where translated);
+ *  3. the St. Mark PDF, where a book has no extractable text;
+ *  4. a link to Fr. Tadros's chapter page on St-Takla.org.
  */
 import { existsSync, readFileSync } from 'node:fs';
 import { join, resolve } from 'node:path';
@@ -14,7 +17,7 @@ import type { CommentaryBook, CommentaryChapter } from '@orthodoxia/commentary';
 const CONTENT = resolve(process.cwd(), '../../content/commentary');
 
 const bookCache = new Map<string, CommentaryBook | null>();
-function loadBook(source: 'stmark' | 'stmark-en', code: string): CommentaryBook | null {
+function loadBook(source: 'stmark' | 'stmark-en' | 'malaty' | 'malaty-en', code: string): CommentaryBook | null {
   const key = `${source}/${code}`;
   if (!bookCache.has(key)) {
     const path = join(CONTENT, source, `${code}.json`);
@@ -56,6 +59,10 @@ export interface ChapterCommentary {
   } | null;
   /** The English translation of the St. Mark text for this chapter (entries translated so far). */
   readonly stMarkEnglish: CommentaryChapter | null;
+  /** Fr. Tadros Malaty's commentary on this chapter, where St. Mark has no text. */
+  readonly malaty: { readonly chapter: CommentaryChapter; readonly pageUrl: string } | null;
+  /** Its English translation (entries translated so far). */
+  readonly malatyEnglish: CommentaryChapter | null;
   /** The St. Mark PDF for books whose text could not be extracted. */
   readonly stMarkPdf: string | null;
   /** Fr. Tadros Malaty's chapter page on St-Takla.org. */
@@ -79,10 +86,21 @@ export function chapterCommentary(book: string, chapter: number): ChapterComment
   const links = malatyLinks().books[malatyBook];
   const malatyUrl = links?.chapters[String(malatyChapter)] ?? null;
   const english = text === null ? null : (loadBook('stmark-en', book)?.chapters.find((candidate) => candidate.chapter === chapter) ?? null);
-  return { stMark: text, stMarkEnglish: english, stMarkPdf: pdf, malatyUrl };
+  let malaty: ChapterCommentary['malaty'] = null;
+  let malatyEnglish: CommentaryChapter | null = null;
+  if (text === null) {
+    const malatyBook = loadBook('malaty', book);
+    const found = malatyBook?.chapters.find((candidate) => candidate.chapter === chapter);
+    const document = malatyBook?.documents.find(({ chapters: [first, last] }) => chapter >= first && chapter <= last);
+    if (found !== undefined && document !== undefined) {
+      malaty = { chapter: found, pageUrl: document.url };
+      malatyEnglish = loadBook('malaty-en', book)?.chapters.find((candidate) => candidate.chapter === chapter) ?? null;
+    }
+  }
+  return { stMark: text, stMarkEnglish: english, malaty, malatyEnglish, stMarkPdf: pdf, malatyUrl };
 }
 
 /** Whether any commentary is available for a chapter. */
 export function hasCommentary(commentary: ChapterCommentary): boolean {
-  return commentary.stMark !== null || commentary.stMarkPdf !== null || commentary.malatyUrl !== null;
+  return commentary.stMark !== null || commentary.malaty !== null || commentary.stMarkPdf !== null || commentary.malatyUrl !== null;
 }

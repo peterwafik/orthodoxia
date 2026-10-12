@@ -7,7 +7,7 @@
 /** Bump on any breaking change to the committed commentary files. */
 export const COMMENTARY_SCHEMA_VERSION = 1;
 
-export type CommentarySourceId = 'stmark';
+export type CommentarySourceId = 'stmark' | 'malaty';
 
 /** A run of commentary text. `reflection` marks the closing spiritual application (✦ in print). */
 export interface CommentaryParagraph {
@@ -18,7 +18,7 @@ export interface CommentaryParagraph {
 /** Commentary on one verse or an inclusive range of verses. */
 export interface CommentaryEntry {
   readonly verses: readonly [number, number];
-  /** Page of the source PDF where the entry starts (1-based), for "read in the original". */
+  /** Page of the source PDF where the entry starts (1-based), for "read in the original"; 0 for web pages. */
   readonly page: number;
   /** The section (e.g. "(1) التحية الرسولية") the entry belongs to, if any. */
   readonly section: string | null;
@@ -49,9 +49,9 @@ export interface CommentaryBook {
   /**
    * How the text was obtained. `pdf-text-repaired`: the PDF's fonts reverse ligatures, and the
    * letter order was corrected automatically (logged in corrections.json); such books carry a notice. `pdf-link`: the PDF has
-   * no extractable text, so the site links to it.
+   * no extractable text, so the site links to it. `html`: taken from the text of web pages.
    */
-  readonly extraction: 'pdf-text' | 'pdf-text-repaired' | 'pdf-link';
+  readonly extraction: 'pdf-text' | 'pdf-text-repaired' | 'pdf-link' | 'html';
   readonly intro: readonly CommentaryParagraph[];
   readonly chapters: readonly CommentaryChapter[];
 }

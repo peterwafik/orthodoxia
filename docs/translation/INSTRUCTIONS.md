@@ -97,3 +97,24 @@ the translation must say what the Arabic says. Nothing is added, nothing is left
 | المعنى الروحى | the spiritual meaning |
 | ع | verse (v.) |
 | ص / الأصحاح | chapter |
+
+## Fr. Tadros Malaty's commentary
+
+The same rules apply to Fr. Tadros Yacoub Malaty's commentary (`content/translations/malaty-en/`,
+published and translated with his permission). What differs:
+
+- **Verse marks in square brackets** refer to verses of the chapter being explained: keep them as
+  they are, `[4]` → `[4]`, `[4-7]` → `[4-7]`. Other references in parentheses follow rule 5.
+- **Quotations of the Fathers** are in square brackets, `[يقول …]`: keep the brackets and translate
+  the quotation faithfully. Name the Father as usual in English: القديس چيروم / جيروم St. Jerome,
+  القديس يوحنا الذهبي الفم St. John Chrysostom, القديس أغسطينوس St. Augustine, القديس غريغوريوس
+  النيسي St. Gregory of Nyssa, القديس أمبروسيوس St. Ambrose, العلامة أوريجينوس Origen, القديس كيرلس
+  الكبير St. Cyril the Great, القديس يوحنا كليماكوس St. John Climacus, الأب ثيؤدورت Theodoret.
+- **A verse quotation with verse numbers** ("4 فَأَرْسَلَ الرَّبُّ …"): the King James wording of those
+  verses, keeping the numbers.
+- **Words in English or Latin** in the Arabic (a term, a title, a proverb) stay as they are.
+- **Units of kind `reflection`** are his closing meditation, a prayer addressed to God ("You…"):
+  keep the voice of prayer. Its first unit is usually its title.
+- **Glossary additions:** الترجمة السبعينية the Septuagint; السبعينية LXX (in references);
+  من وحي … Inspired by …; يوناننا الحقيقي our true Jonah; الكنيسة الأولى the early Church;
+  الآباء الأولون the early Fathers.
