@@ -1,0 +1,742 @@
+{
+ "book": "PRO",
+ "chunk": 18,
+ "units": {
+  "14.15.2": {
+   "hash": "9a4d47f697",
+   "en": "The wise man knows the gravity of evil and its deceptions; therefore he fears evil and flees from it. The fool, however, makes light of evil and trusts in himself that he will never go astray, so he becomes arrogant, and by pride he falls."
+  },
+  "14.15.3": {
+   "hash": "ea59c0cb5c",
+   "en": "* The fear of falling is a desire for incorruption and a longing for freedom from the passions."
+  },
+  "14.15.4": {
+   "hash": "8a6d59a773",
+   "en": "St. Clement of Alexandria * The head of wisdom is the fear of God. Just as light, when it enters a dark house, drives out its darkness and illumines it, so the fear of God, when it enters a man's heart, drives ignorance out of him and teaches him all the virtues and wisdom."
+  },
+  "14.15.5": {
+   "hash": "d45a36f657",
+   "en": "* Let the fear of God be always before your eyes, and remember Him who puts to death and gives life; hate the world and all the comfort of the body that is in it, and die to this passing life that you may live to God. Remember what you promised God, for He will require it of you on the day of judgment."
+  },
+  "14.15.6": {
+   "hash": "04f9e89220",
+   "en": "* If anyone loves Christ with all his heart and all his strength, he bears the fruit of the fear of God; fear begets tears, tears beget spiritual joy, spiritual joy begets the angelic life, and the angelic life begets the power of consolation. The soul receives justification so that it may yield delightful fruits. And when Christ, who fortifies the soul, sees a man's courage and patience in everything, He receives him with joy, and so the soul is in heavenly bliss in the places of rest that never end."
+  },
+  "14.15.7": {
+   "hash": "e6d94bed5b",
+   "en": "St. Abba Anthony the Great * Nothing is higher than the fear of God, for \"the fear of the Lord is above all things\" (Sir 25:14), and by the fear of God everyone turns away from all evils. I ask you that we acquire it and turn away from everything that is not pleasing to God. Whatever does not please Him, let us take care not to do it in any way, and whatever we do, let us do it considering that He sees all, for nothing in creation is hidden from His eyes. So \"whatsoever ye do in word or deed\" (Col 3:17), or in thought, examine whether this matter is pleasing to God, knowing that He sees it, and then do it. And we know that we are pleasing to Him when we keep the uprightness in which we were created, and that we grieve Him when we corrupt what He Himself created. For although the soul was created in the image of God, we have corrupted it; and while it is able to see God and speak freely with its Master, we have made it go astray (far from Him), so that it no longer stands firm in the service of God but in the service of our lusts. It is truly a terrible thing for us to be in the service of lusts. One of the wise men said: [As many as are the passions of the soul, so many are its (that is, the soul's) masters.] When Father Nistereon went to the great assembly, he said: [If anyone is held back by sufferings, he is a slave to the suffering and not to God.]"
+  },
+  "14.15.8": {
+   "hash": "cc71865d31",
+   "en": "Stand firm and rooted in the fear of God and keep your souls blameless. Take care that your feet are not caught in one of the snares of the enemy set (before you), for the enemy casts his nets to catch innocent souls if he finds them given over to drowsiness. But you, \"be sober, be vigilant\" (1 Pet 5:8) with the eyes of a pure soul, as you chant the saying of the Psalm: \"Sinners fall into his net, while I am alone until I pass by\" (Ps 140:10), and add also this saying: \"Through fear of You, O Lord, we have conceived, and been in labor, and have brought forth the spirit of Your salvation on the earth\" (Isa 26:17)."
+  },
+  "14.15.9": {
+   "hash": "45c6a236a4",
+   "en": "St. Abba Macarius the Great"
+  },
+  "14.16.s": {
+   "hash": "a784747cac",
+   "en": "11. Anger"
+  },
+  "14.16.0": {
+   "hash": "74a7c01224",
+   "en": "He that is soon angry dealeth foolishly: and a man of wicked devices is hated (detested) [17]."
+  },
+  "14.16.1": {
+   "hash": "b551678143",
+   "en": "The hot-tempered man does not know wisdom, but walks in folly, and he who devises wicked schemes will be hated, even by those who flatter him."
+  },
+  "14.16.2": {
+   "hash": "c7435ad648",
+   "en": "* Every effort that the hot-tempered man makes is lost to him every day."
+  },
+  "14.16.3": {
+   "hash": "6439a995bb",
+   "en": "St. Abba Anthony the Great * The hot-tempered man, even if he raises the dead, is not acceptable to God, and no one draws near to him."
+  },
+  "14.16.4": {
+   "hash": "e9e2ae0017",
+   "en": "St. Abba Agathon * The man of strife, who does not cease from contention, is the one who is not satisfied with the first quarrel but flares up in anger again. But the one who is the opposite is not a man of strife: when his anger is kindled, he returns to himself at once, blames himself, and asks forgiveness of the brother with whom he was angry, and so the strife in him subsides, because he has condemned himself and been reconciled with his brother, and the struggle will find no place in him, as I have said. But the hot-tempered man, within whom the discord does not subside, who when he is angry does not condemn himself but his anger rages all the more without his ever repenting of his anger, and who is not even content with what he said in his anger but adds to it; this one is called a man of strife, and anger does not subside within him, because rancor, bitterness and malice follow anger. May the Lord Jesus Christ save us from the fate of such men, and grant us the lot of the meek and the humble!"
+  },
+  "14.16.5": {
+   "hash": "87ff885eb6",
+   "en": "St. Abba Zosimas"
+  },
+  "14.17.s": {
+   "hash": "a19714aa19",
+   "en": "12. Knowledge and ignorance"
+  },
+  "14.17.0": {
+   "hash": "def2e73534",
+   "en": "\"The simple inherit folly: but the prudent are crowned with knowledge\" [18]."
+  },
+  "14.17.1": {
+   "hash": "3cabc2fae7",
+   "en": "He who does not walk in wisdom acquires folly as an inheritance that stays with him, and he who acquires wisdom receives the glory of knowledge and its honor."
+  },
+  "14.17.2": {
+   "hash": "0ebbf20353",
+   "en": "* David the prophet said before: \"My wounds stink and are corrupt\" (the marks of my stripes, that is, my wounds). From where? \"Because of my foolishness\" (Ps 38:5). Foolishness, then, is a storehouse of all evils, for foolishness gave birth to disobedience, and disobedience gave birth to a wound, and after the wound foolishness gave birth to neglect, and neglect led to stench and rottenness."
+  },
+  "14.17.3": {
+   "hash": "0774025fa1",
+   "en": "St. Barsanuphius * It is necessary for a man to approach God in a moderate and devout way, advancing spiritually according to his ability and within the limits permitted to men. Therefore the will of those who seek God must be free from all other concerns, for the Scripture says: \"Be still, and know that I am God\" (Ps 46:10). Accordingly, he who is granted a partial knowledge of God - for it is impossible to attain it in full - reaches also the knowledge of all other things. He beholds mysteries, because God shows them to him; he foresees what concerns the future; he contemplates visions as he gazed with the saints; he does great things; he becomes a friend of God and receives from God everything he asks."
+  },
+  "14.17.4": {
+   "hash": "5f03303ad8",
+   "en": "St. John of Assiut * Do not be without knowledge, and do not be empty of the remembrance of God, but fear God and keep His commandments (Eccl 12:13)."
+  },
+  "14.17.5": {
+   "hash": "9972e1f7ac",
+   "en": "St. Stephen of Thebes * The foundation of the monk's life is true knowledge, and the ignorance of the monk darkens his soul."
+  },
+  "14.17.6": {
+   "hash": "a95750ebf4",
+   "en": "St. Hesychius the Priest * Ignorance is the mother of most evils."
+  },
+  "14.17.7": {
+   "hash": "1148c73c41",
+   "en": "* Ignorance is the mother of all evils; it springs from neglect and laziness, and it thrives, grows and takes root in man's senses through neglect."
+  },
+  "14.17.8": {
+   "hash": "da86afe4c1",
+   "en": "* Ignorance is nothing but not knowing what is good for us; once we know it, ignorance is dispelled. Therefore we must search zealously for the knowledge of the truth. No one can grant it except the true Prophet (perhaps he means the Lord Christ). For this is the door of life for those who enter, and the way of good works for those who go to the city of salvation."
+  },
+  "14.17.9": {
+   "hash": "0d77a152bc",
+   "en": "The Clementines"
+  },
+  "14.18.s": {
+   "hash": "ddc67357ea",
+   "en": "13. The downfall of the wicked"
+  },
+  "14.18.0": {
+   "hash": "86949117ad",
+   "en": "\"The evil bow before the good; and the wicked at the gates of the righteous\" [19]"
+  },
+  "14.18.1": {
+   "hash": "cdf4efe10b",
+   "en": "The wicked think that they subdue the righteous by their violence and deceptions and so humiliate them, but soon they fall down before them. The wicked feel their need of the blessing of the righteous, and come to their gates in great weakness. But on the great day of the Lord the wicked will collapse, not only because they are deprived of enjoying eternal glory, but also because they will see their companions, whom they used to mock, together with their faith and the simplicity of their hearts, having become their judges. The wicked will be terrified because of the opportunities that were offered to them during their life on earth and that they despised."
+  },
+  "14.18.2": {
+   "hash": "50233cde8e",
+   "en": "They stand like those at the gates of the righteous, asking, with the foolish virgins, that they give them oil for their vessels, but it was lost at the time of giving!"
+  },
+  "14.18.3": {
+   "hash": "78987c024b",
+   "en": "* It is said that when Abba Anthony was sitting alone on the mountain and was amazed in his contemplations, some visions were revealed to him by divine providence, and this blessed man was taught by God, as it is written (Isa 54:13; Jn 6:45)."
+  },
+  "14.18.4": {
+   "hash": "1f3e673535",
+   "en": "St. Cronius said of him that he said: [I was praying for a whole year in order to know the places of the righteous and the places of the sinners. And one night someone called to him from above, saying: Arise, Anthony, and rejoice and behold. And when he went out he looked up and saw a giant standing, whose height reached the clouds, tall, terrifying and disturbing... and his hands were stretched out to heaven, and beneath him was a great lake the size of the sea, and he saw souls flying as though they had wings like birds. And the giant stretched out his hands, and some of those ascending fell, while the rest flew upward, avoiding the head and hands of the giant, and so were saved; and since the way of the air to heaven was clear for them, they were carried upward without toil. But those whom his hands encircled fell into the lake. At that the giant gnashed his teeth, but he rejoiced over those who fell. And immediately the voice came to Abba Anthony: Do you understand what you see? Then his mind was opened and he heard a great voice saying to him: These are the souls of the righteous that you saw flying; they passed over into Paradise and were saved, and that tall being is the enemy who envies the faithful, and those whom he seized and prevented from passing over are his followers who followed the lusts of the flesh, so they sank into hell, and this is their judgment. But those whom he was unable to seize as they passed upward are those who did not submit to him.]"
+  },
+  "14.18.5": {
+   "hash": "409e245dbf",
+   "en": "When he saw this, and whenever he remembered it, he grew in striving every day to press on toward what was before."
+  },
+  "14.18.6": {
+   "hash": "3d03d4bb0d",
+   "en": "The saint did not want to speak about these visions, but when he spent a long time in prayer, marveling and perplexed, and those who were with him pressed him with questions, he was compelled to speak, as a father who cannot hide anything from his children, and he believed that, as long as his conscience was pure, explaining these matters would benefit them, so that they might know that asceticism had brought forth good fruits, and that visions are often a consolation for their labors."
+  },
+  "14.18.7": {
+   "hash": "cdbd815538",
+   "en": "The Garden of the Monks"
+  },
+  "14.19.s": {
+   "hash": "9c60a51557",
+   "en": "14. Partiality"
+  },
+  "14.19.0": {
+   "hash": "86cc50ca74",
+   "en": "20 The poor is hated even of his own neighbour: but the rich hath many friends. 21 He that despiseth his neighbour sinneth: but he that hath mercy on the poor, happy is he."
+  },
+  "14.19.1": {
+   "hash": "2d1ab81a35",
+   "en": "\"The poor is hated even of his own neighbour: but the rich hath many friends\" [20]."
+  },
+  "14.19.2": {
+   "hash": "c39a1d5b0c",
+   "en": "Since corruption has come upon man, his standards have become material: he hates the poor merely because of his poverty, even if he is his neighbor, and he flatters the rich and loves him for no reason except his wealth. For this reason the divine commandment came to defend the wronged poor, and forbids partiality toward the rich."
+  },
+  "14.19.3": {
+   "hash": "98eac9d11b",
+   "en": "\"Thou shalt not wrest the judgment of thy poor in his cause\" (Ex 23:6)."
+  },
+  "14.19.4": {
+   "hash": "11a956e0c5",
+   "en": "\"If there be among you a poor man of one of thy brethren within any of thy gates in thy land which the LORD thy God giveth thee, thou shalt not harden thine heart, nor shut thine hand from thy poor brother\" (Deut 15:7)."
+  },
+  "14.19.5": {
+   "hash": "395dc9806e",
+   "en": "\"Thou shalt not oppress an hired servant that is poor and needy, whether he be of thy brethren, or of thy strangers that are in thy land within thy gates\" (Deut 24:14)."
+  },
+  "14.19.6": {
+   "hash": "a67b0ac001",
+   "en": "\"He raiseth up the poor out of the dust, and lifteth up the beggar from the dunghill, to set them among princes, and to make them inherit the throne of glory: for the pillars of the earth are the LORD'S, and he hath set the world upon them\" (1 Sam 2:8)."
+  },
+  "14.19.7": {
+   "hash": "82080973ba",
+   "en": "\"For he shall deliver the needy when he crieth; the poor also, and him that hath no helper\" (Ps 72:12)."
+  },
+  "14.19.8": {
+   "hash": "4910bbe749",
+   "en": "\"Deliver the poor and needy: rid them out of the hand of the wicked\" (Ps 82:4)."
+  },
+  "14.19.9": {
+   "hash": "b1a5ddca1a",
+   "en": "\"Better is the poor that walketh in his uprightness, than he that is perverse in his ways, though he be rich\" (Prov 28:6)."
+  },
+  "14.19.10": {
+   "hash": "79f1926cd7",
+   "en": "\"The poor is honored for his work, and the rich is honored for his riches\" (Sir 10:33)."
+  },
+  "14.19.11": {
+   "hash": "c3a1b8c767",
+   "en": "\"The supplication of the poor reaches the ears of the Lord, and his judgment comes speedily\" (Sir 21:6)."
+  },
+  "14.19.12": {
+   "hash": "974081f42c",
+   "en": "\"He does not show partiality in judging the poor, but hears the prayer of the wronged\" (Sir 35:16)."
+  },
+  "14.19.13": {
+   "hash": "26594326ad",
+   "en": "\"And oppress not the widow, nor the fatherless, the stranger, nor the poor; and let none of you imagine evil against his brother in your heart\" (Zech 7:10)."
+  },
+  "14.19.14": {
+   "hash": "f22abd7c44",
+   "en": "\"My brethren, have not the faith of our Lord Jesus Christ, the Lord of glory, with respect of persons. For if there come unto your assembly a man with a gold ring, in goodly apparel, and there come in also a poor man in vile raiment; and ye have respect to him that weareth the gay clothing, and say unto him, Sit thou here in a good place; and say to the poor, Stand thou there, or sit here under my footstool: are ye not then partial in yourselves, and are become judges of evil thoughts? Hearken, my beloved brethren, Hath not God chosen the poor of this world rich in faith, and heirs of the kingdom which he hath promised to them that love him? But ye have despised the poor. Do not rich men oppress you, and draw you before the judgment seats?\" (Jas 2:1-6)."
+  },
+  "14.19.15": {
+   "hash": "4904811cb8",
+   "en": "* What benefit comes to you from honoring (showing partiality to) the rich man? Is it because he is better prepared to keep the love of others for him? We do a kindness to those from whom we expect that they will repay us for it. We must think rather of the weak and the needy, because it is on account of these that we hope for the reward from the Lord Jesus, who in the example of the wedding feast (Lk 14:12-13) gave us a general picture of virtue. For He asked us to offer our works rather to those who are not able to repay them to us."
+  },
+  "14.19.16": {
+   "hash": "a22706111d",
+   "en": "St. Ambrose * All are equal before God; rather the rank of each one is exalted according to his faith, not according to his wealth."
+  },
+  "14.19.17": {
+   "hash": "b1c3c7dae2",
+   "en": "St. Augustine * Many rebuke me, saying: You are always pressing hard on the rich, and they, in turn, press hard on the poor."
+  },
+  "14.19.18": {
+   "hash": "2bf29d1571",
+   "en": "Well, I do press hard on the rich, or rather not on the rich, but on those who misuse their wealth. I am not attacking their persons but their greed. To be rich is one thing, and greed is another; to have a surplus is one thing, and covetousness is another."
+  },
+  "14.19.19": {
+   "hash": "a1d5dce277",
+   "en": "Are you rich? I do not forbid you this. Be rich. Are you greedy? I threaten you... I will not keep silent."
+  },
+  "14.19.20": {
+   "hash": "45b92c0027",
+   "en": "Do you attack me because of this? I am ready for my blood to be shed, but I want to keep you from sinning. I do not hold hatred toward you, nor do I wage war against you; I want only one thing, the benefit of those who listen to me."
+  },
+  "14.19.21": {
+   "hash": "7df6b5aba3",
+   "en": "The rich are my children, and the poor too are my children. One womb (Baptism) bore them in great travail. All of them are the offspring of her who bore them in travail. If you heap insults on the poor man, I threaten you, because in this case the poor man suffers no loss such as yours. For he does not fall into error, and the loss that befalls him is merely the loss of money, whereas you, as a rich man, suffer loss in your soul."
+  },
+  "14.19.22": {
+   "hash": "6a33c40a9e",
+   "en": "St. John Chrysostom * It is said that the governor once wished to see Abba Pimen, but the elder refused, so the governor seized his sister's son and imprisoned him as an evildoer, saying: If the elder comes and asks me about him, I will release him. His sister came to him and knocked at his door weeping, but he did not answer her at all. She reproached him, saying: O hard of heart, O iron of bowels, have mercy on me, for he is my only son and I have no one else! He said to her: Pimen has not begotten children, and she went away. The governor heard of this and said: Even if he asks me by writing, I will release him. But Father Pimen sent to the governor, saying: Examine the young man's case according to the law; if he deserves punishment, let him be punished, and if not, do as you see fit. The governor marveled at his virtue and released the young man."
+  },
+  "14.19.23": {
+   "hash": "4f28a4f247",
+   "en": "* It once happened that the governor seized a man from Abba Pimen's native town, and many went to the elder begging him to intercede for his release. He said to them: Leave me three days, and then I will go. Then the saint prayed to the Lord, saying: Do not give me, O Lord, this grace (before the governor), or else they will not let me stay in this place. Then the elder went to intercede with the governor, who answered him: Do you intercede, Father, for a thief? And the elder rejoiced because he had not been granted this grace."
+  },
+  "14.19.24": {
+   "hash": "820ae77a4d",
+   "en": "The Paradise of the Fathers St. John Chrysostom says: [He who is not rich in himself cannot be rich, just as he cannot be poor who is not poor in his mind. For if the soul is higher than the body, the less exalted members have no authority by which to influence even themselves, but that which is higher influences them and changes them], as he also says: [Wealth is of no benefit if the soul is poor, and poverty does no harm if the soul is rich.]"
+  },
+  "14.19.25": {
+   "hash": "37f2b637e0",
+   "en": "St. Cyril the Great comments on the two women grinding at the mill, one of whom is taken and the other left, saying: [It seems that these two women refer to those who live in poverty and hardship, for even among these there is a great difference. Some of them bear poverty with maturity and strength in a virtuous life, while the others have different characters, walking with cunning in a wicked and base life.]"
+  },
+  "14.20.0": {
+   "hash": "8628c3ce2d",
+   "en": "\"He that despiseth his neighbour sinneth: but he that hath mercy on the poor, happy is he\" [21]"
+  },
+  "14.20.1": {
+   "hash": "866a10dc4f",
+   "en": "He who despises his brother in pride sins, but he who has mercy on the poor man, since he expects no reward from him, receives a share in the blessed life, because he imitates the merciful God, the God of the poor, of the outcast, of the despised, and of those who have no one to ask after them."
+  },
+  "14.20.2": {
+   "hash": "71b7e5aba0",
+   "en": "* If the Kingdom of God belongs to the poor, who is richer than they?"
+  },
+  "14.20.3": {
+   "hash": "8902d576b5",
+   "en": "St. Ambrose"
+  },
+  "14.21.s": {
+   "hash": "4ad01f46fc",
+   "en": "15. The end of evil"
+  },
+  "14.21.0": {
+   "hash": "ed269b5348",
+   "en": "\"Do they not err that devise evil?!"
+  },
+  "14.21.1": {
+   "hash": "a1ae16b0ef",
+   "en": "But mercy and truth shall guide them that devise good\" [22]"
+  },
+  "14.21.2": {
+   "hash": "78c465d72a",
+   "en": "Those who are skilled in evil miss the way, but mercy and truth lead those who care for good in the royal road."
+  },
+  "14.21.3": {
+   "hash": "a077080823",
+   "en": "* Nothing makes us equal to God except doing good (mercy)."
+  },
+  "14.21.4": {
+   "hash": "c939f94317",
+   "en": "* Let us bring ourselves, our children and all who are ours to the school of mercy, and let man learn it above all things, for mercy is man... Let us count ourselves as those who are not alive if we do not yet show mercy!"
+  },
+  "14.21.5": {
+   "hash": "1bbb1d15fb",
+   "en": "* Love (mercy) is, as it were, the highest of crafts, and a protector of those who practice it. It is dear to God, always standing beside Him and asking Him on behalf of those who desire it, if we practice it in a way that is not sinful...!"
+  },
+  "14.21.6": {
+   "hash": "ca675ff5cc",
+   "en": "It intercedes even for those who hate! Great is its authority even for those who sin!"
+  },
+  "14.21.7": {
+   "hash": "aeacb318ca",
+   "en": "It looses the chains, dispels the darkness, quenches the fire, kills the worm, and removes the gnashing of teeth."
+  },
+  "14.21.8": {
+   "hash": "d0da5a903f",
+   "en": "Before it the gates of heaven open with great assurance, and it enters like a queen, and none of the doorkeepers at the gates dares to ask her who she is, but all receive her at once."
+  },
+  "14.21.9": {
+   "hash": "1daeb88279",
+   "en": "Such also is the case of mercy, for she is truly a real queen, who makes men like God. She is winged and light, with golden wings on which she flies, and by them she greatly delights the angels."
+  },
+  "14.21.10": {
+   "hash": "e357856efa",
+   "en": "St. John Chrysostom"
+  },
+  "14.22.s": {
+   "hash": "1908772c6e",
+   "en": "16. Work and toil"
+  },
+  "14.22.0": {
+   "hash": "63ac250e9e",
+   "en": "\"In all labour there is profit: but the talk of the lips tendeth only to penury\" [23]"
+  },
+  "14.22.1": {
+   "hash": "130750d5b5",
+   "en": "God does not forget the labor of love, and He does not deprive a man of the fruit of his striving, but he who speaks and does not work walks in the way of poverty and receives nothing."
+  },
+  "14.22.2": {
+   "hash": "eb495e84e0",
+   "en": "* To know what is good is not enough for attaining blessedness, if one does not put the good into practice by action! Godliness is the practical beginning of knowledge."
+  },
+  "14.22.3": {
+   "hash": "629b5026bf",
+   "en": "St. Didymus the Blind * Godliness is the beginning (of discernment). It acts as a fountain and source for the perception of divine things according to our inner man, so that we may see the true light, hear the secret divine revelation, be refreshed with the bread of life, receive the fragrance of Christ, and learn the manner of this life. When we have godliness, our senses ally themselves with us, so that our eyes do not see evil and our tongue does not utter it."
+  },
+  "14.22.4": {
+   "hash": "1c520c6b9e",
+   "en": "St. John Chrysostom * The wisest of men, that is, Solomon, tells you: \"Give strong drink unto him that is ready to perish, and wine unto those that be of heavy hearts. Let him drink, and forget his poverty, and remember his toil no more\" (Prov 31:6-7). That is, those who have come into the distress of grief and sorrow because of their past deeds, support them abundantly with the joys of spiritual knowledge, like \"wine that maketh glad the heart of man, to make his face shine more than oil, and bread which strengtheneth man's heart\" (Ps 104:15). These he restores by the strong drink of the word of salvation, lest they be drowned in continual sorrow and fall into the despair that leads to death, lest they be \"swallowed up with overmuch sorrow\" (2 Cor 2:7). But those who are still in coldness and indifference, not stricken with sorrow of heart, of these we read: \"The talk of the lips tendeth only to penury\" (Prov 14:23)."
+  },
+  "14.22.5": {
+   "hash": "9324170c33",
+   "en": "Thus we avoid with all possible care being puffed up with vainglory, and in this way we become partakers with the one whom the prophet praises, saying: \"He putteth not out his silver to usury\" (Ps 15:5). For everyone who distributes the words of God out of love for the praise of men... is like one who gives out his money at usury, and deserves not only to go unrewarded but to receive severe punishment."
+  },
+  "14.22.6": {
+   "hash": "bd03212eb5",
+   "en": "Father Nestor * Our Lord Jesus Christ says: \"Worthy of his meat\" - not everyone at all, however it may be, but the worker only (Mt 10:10), and the Apostle Paul commands that we labor and work with our hands the thing which is good, that we may have something to share with him that needeth (Eph 4:28). It is clear from this that we must work diligently, for it is not permissible for us to make worship a pretext for idleness and for fleeing from responsibility. Rather, we must make it a subject of striving and of great labors, and of patience in hardships, so that it may be given to us also to say: \"In weariness and painfulness, in watchings often, in hunger and thirst\" (2 Cor 11:27). Such a course profits not only for mortifying the body, but also for practicing love of neighbor, that we may support the needy brethren and provide them with what suffices by the work of our hands, according to what the Apostle taught in the Book of Acts, saying: \"I have shewed you all things, how that so labouring (with your hands) ye ought to support the weak\" (Acts 20:35). And also: \"But rather let him labour, working with his hands the thing which is good, that he may have to give to him that needeth\" (Eph 4:28). And so you will deserve to hear His saying: \"Come, ye blessed of my Father, inherit the kingdom prepared for you from the foundation of the world: for I was an hungred, and ye gave me meat: I was thirsty, and ye gave me drink...\" (Mt 25:34)."
+  },
+  "14.22.7": {
+   "hash": "be25164968",
+   "en": "And I have no need to describe to you the gravity of the evil of idleness, when the Apostle commanded plainly: \"If any would not work, neither should he eat\" (2 Thess 3:10). For just as daily bread is necessary for every man, so also toil according to his ability is necessary for him."
+  },
+  "14.22.8": {
+   "hash": "03eb00de30",
+   "en": "Solomon did not write in vain in praise of the diligent woman: \"She eateth not the bread of idleness\" (Prov 31:27). And the Apostle also says of himself: \"Neither did we eat any man's bread for nought; but wrought with labour and travail night and day, that we might not be chargeable to any of you\" (2 Thess 3:8), although he had the authority, as a preacher of the Gospel, to live of the Gospel (1 Cor 9:4, 14)."
+  },
+  "14.22.9": {
+   "hash": "54575457ef",
+   "en": "The Lord joins laziness with wickedness, saying: \"Thou wicked and slothful servant\" (Mt 25:26). Moreover, Solomon the Wise not only praised the worker in the way we have mentioned (Prov 31:27), but also rebuked the sluggard, comparing him to the lowest of animals, saying: \"Go to the ant, thou sluggard\" (Prov 6:6). Therefore we must fear lest we too be rebuked on the day of judgment, for He who gave us the ability to work asks of us works that suit this ability. For He said: \"To whom men have committed much, of him they will ask the more\" (Lk 12:48)."
+  },
+  "14.22.10": {
+   "hash": "eb85333256",
+   "en": "And since some shrink from work on the pretext of devoting themselves to prayers and the chanting of psalms, such men should know that everything has its own time, as the Preacher said: for every matter there is a season (Eccl 3:1)."
+  },
+  "14.22.11": {
+   "hash": "910786562c",
+   "en": "We must work as far as possible in order to share resources with those who lack them... There is no excuse for the lazy man who lives in idleness while he is able to work. Let him imitate those fish that cross the seas in a wonderful way in search of food."
+  },
+  "14.22.12": {
+   "hash": "ac087506a5",
+   "en": "St. Basil the Great"
+  },
+  "14.23.s": {
+   "hash": "1a1accda49",
+   "en": "17. The wealth of knowledge"
+  },
+  "14.23.0": {
+   "hash": "932ace8b51",
+   "en": "\"The crown of the wise is their riches."
+  },
+  "14.23.1": {
+   "hash": "e4f129adc7",
+   "en": "The progress of fools is folly\" [24]"
+  },
+  "14.23.2": {
+   "hash": "6026b5a2ca",
+   "en": "The wise man is honored with the crown of the wealth of true knowledge, which cannot be taken from him, but the fool increases in folly and loses all honor."
+  },
+  "14.24.s": {
+   "hash": "7eb3b81df1",
+   "en": "18. Faithful witness"
+  },
+  "14.24.0": {
+   "hash": "94cfc5918e",
+   "en": "\"A true witness delivereth souls: but he that speaketh lies is deceit\" [25]"
+  },
+  "14.24.1": {
+   "hash": "be34925772",
+   "en": "Holy Scripture, in both its Testaments, gave special importance to testimony, so it is not fitting for the believer to utter false testimony, but he bears witness to the truth. On the one hand, as a child of God and His ambassador, he is bound to the truth and hates lying. Moreover, true testimony rescues the innocent who are wrongly accused, whereas false testimony may lead to the killing of the innocent."
+  },
+  "14.24.2": {
+   "hash": "980bffe30a",
+   "en": "The wicked Jezebel used two false witnesses against Naboth the Jezreelite in order to kill him and inherit his vineyard adjoining the royal palace (1 Kgs 21)."
+  },
+  "14.25.s": {
+   "hash": "4e23cc0edb",
+   "en": "19. The fear of the Lord"
+  },
+  "14.25.0": {
+   "hash": "77e35519b5",
+   "en": "26 In the fear of the LORD is strong confidence: and his children shall have a place of refuge. 27 The fear of the LORD is a fountain of life, to depart from the snares of death."
+  },
+  "14.25.1": {
+   "hash": "0373a00d8c",
+   "en": "\"In the fear of the LORD is strong confidence: and his children shall have a place of refuge\" [26]"
+  },
+  "14.25.2": {
+   "hash": "5cba501e6a",
+   "en": "The Book of Proverbs as a whole carries a hidden thread, namely that the believer needs the Spirit of God, the Holy One, who gives him the fear of the Lord, so that he practices a life of godliness and enjoys great confidence in God, the guide of his life, and finds in Him a refuge from all the attacks of the evil enemy, the lusts of the flesh and the love of the wicked world."
+  },
+  "14.25.3": {
+   "hash": "094b86d84c",
+   "en": "Whoever holds fast to the divine fear is fortified by it, he and his offspring after him, for whoever is faithful to the Lord enjoys God's surpassing care. The fear of the Lord is the steering wheel of the soul, given to us by the Holy Spirit of God, who alone is able to bring us in from glory to glory, and to grant us grace upon grace, through our fellowship with the Lord of glory, the holy Jesus. The fear of the Lord brings us into the royal road, so that we turn aside neither toward sin nor toward self-righteousness. It keeps us from blows on the left and on the right, until we enter into the bosom of the holy heavenly Father."
+  },
+  "14.25.4": {
+   "hash": "6d4edd152b",
+   "en": "* The fear of the Lord urges the soul to keep the commandments, and through keeping the commandments the house of the soul is built up... May we fear the Lord and build houses for ourselves, so that we may find shelter in winter, when there is rain and thunder, for whoever has no house suffers great dangers in the time of winter."
+  },
+  "14.25.5": {
+   "hash": "8e6556cd73",
+   "en": "Father Dorotheus * The fear of the Lord contains all those requirements (for continual joy). For the man who fears the Lord as he ought and trusts in Him gathers all the sources of happiness and acquires the perfect fountain of delight. Just as a drop of water falling into a wide ocean quickly disappears, so whatever befalls the man who fears the Lord is dissolved and vanishes in the immense ocean of joy."
+  },
+  "14.25.6": {
+   "hash": "ea13647221",
+   "en": "It is truly a most wonderful thing that, even when there is something that causes grief, you find the man rejoicing. For since there is nothing that brings sorrow, this matter is worth nothing to him compared with his enjoyment of constant joy."
+  },
+  "14.25.7": {
+   "hash": "1cf980651b",
+   "en": "St. John Chrysostom * When you fear the punishment that threatens, you learn to love the reward that is promised. Thus, through the fear of punishment you are careful to walk in the good life, and by walking in the good life you seek a good conscience, until finally, with a good conscience, you no longer fear any punishment. Therefore, if you wish not to fear, learn to fear."
+  },
+  "14.25.8": {
+   "hash": "bc7b860f18",
+   "en": "St. Augustine * Fear the Lord and keep His commandments. For by keeping the commandments of God you become strong in every work, and your works become higher than all criticism. Fear the Lord, and then you will do something good."
+  },
+  "14.26.0": {
+   "hash": "9a6e1978cc",
+   "en": "Hermas The fear of the LORD is a fountain of life, to depart from the snares of death [27]"
+  },
+  "14.26.1": {
+   "hash": "04a476b07a",
+   "en": "* Whoever acquires the Lord's fear enjoys the indwelling of the Lord in him, and so he bears a fountain of life overflowing in his depths, which waters many, and his soul is delivered from the snares of death that the enemy sets for it."
+  },
+  "14.26.2": {
+   "hash": "e6e3c6e5c4",
+   "en": "* Fear the Lord, and keep His commandments, which strengthen you in all your affairs, so that your works have no equal... Do not fear Satan if you fear the Lord, for your fear of God gives you authority over Satan."
+  },
+  "14.26.3": {
+   "hash": "85a2b53bdb",
+   "en": "Hermas * He who fears the Lord withdraws from error and directs his ways toward virtue. Unless a man fears the Lord, he cannot renounce sin."
+  },
+  "14.26.4": {
+   "hash": "8902d576b5",
+   "en": "St. Ambrose"
+  },
+  "14.27.s": {
+   "hash": "5a13cd0511",
+   "en": "20. Leadership of the people"
+  },
+  "14.27.0": {
+   "hash": "20948261d3",
+   "en": "\"In the multitude of people is the king's honour: but in the want of people is the destruction of the prince\" [28]"
+  },
+  "14.27.1": {
+   "hash": "ad81342339",
+   "en": "If a man occupies a position of spiritual, civil or military leadership... let him not be puffed up or proud, for a king is not counted a king without a people, and a prince has no honor without the people around him. The successful leader is the one who wins the crowds by his practical love, his service to them and his humility before them, and so receives honor and glory."
+  },
+  "14.27.2": {
+   "hash": "8411fe7d29",
+   "en": "St. John Chrysostom used to say to the priest: \"You are the father of all mankind,\" for his priesthood and his leadership lie in the breadth of his heart toward all mankind. He also required of bishops that they not boast of their positions, for the bishop has no existence as a bishop without the people; his honor lies in the honor of his people."
+  },
+  "14.28.s": {
+   "hash": "c024ff456b",
+   "en": "21. Longsuffering"
+  },
+  "14.28.0": {
+   "hash": "ff43cb658e",
+   "en": "\"He that is slow to wrath is of great understanding: but he that is hasty of spirit exalteth folly\" [29]"
+  },
+  "14.28.1": {
+   "hash": "0372427800",
+   "en": "* If anger dims the eyes, or causes a man to lose his inner sight, then the one who is slow to anger enjoys understanding and perceives the truth, whereas the one who is hasty in his anger increases in folly and ignorance."
+  },
+  "14.28.2": {
+   "hash": "0f5339556f",
+   "en": "* Do you not see the wrestlers, how they train when they fill bags with sand? But you have no need to practice this, for life is full of things that make you train and become strong... For it has been said: \"He who is longsuffering abounds in wisdom, but he who is short of spirit is utterly foolish.\""
+  },
+  "14.28.3": {
+   "hash": "18ad5bb541",
+   "en": "St. John Chrysostom * Since everyone knows that \"patience\" takes its name from suffering and endurance, it is clear by this that no one can be called patient except the one who bears everything that befalls him of troubles without being vexed. Thus Solomon did not praise such a man without reason, when he says: \"He that is slow to anger is better than the mighty; and he that ruleth his spirit than he that taketh a city\" (Prov 32:16). And also \"He that is slow to wrath is of great understanding: but he that is hasty of spirit exalteth folly\" (Prov 14:29)."
+  },
+  "14.28.4": {
+   "hash": "18982d9fea",
+   "en": "If a man is defeated by a fault and the fires of anger are kindled in him, he must not consider that the bitterness of the insult directed at him is the cause of his sin, but rather the appearance of his hidden weakness, according to the parable of our Lord and Savior Jesus Christ, in which He spoke of the two houses (Mt 7:24, 26). One was founded on the rock and the other on the sand. He said of both that the storms of rain, the floods and the winds beat upon them equally, but the one founded on the rock and the solid ground was not affected at all by the severity of the blow, while the one founded on the soft, shifting sand collapsed and fell at once, and the cause of its fall certainly was not its collision with the storms and floods, but that it had been built unwisely on the sand."
+  },
+  "14.28.5": {
+   "hash": "4f925a0a45",
+   "en": "Father Piamoun"
+  },
+  "14.29.s": {
+   "hash": "933ba4a89f",
+   "en": "22. The body"
+  },
+  "14.29.0": {
+   "hash": "958ca932e2",
+   "en": "\"The life of the flesh is a calm heart, but envy is the rottenness of the bones\" [30]"
+  },
+  "14.29.1": {
+   "hash": "4caad727c7",
+   "en": "* Let the envious know that if this destructive, hidden envy takes hold of them, they destroy everything that is good and upright within them. Therefore it is said in the Scripture: \"The life of the flesh is a calm heart, but envy is the rottenness of the bones\" (Prov 14:30)."
+  },
+  "14.29.2": {
+   "hash": "4b6262f08d",
+   "en": "The flesh here signifies weakness and feebleness, and the bones are nothing but valiant, strong deeds..."
+  },
+  "14.29.3": {
+   "hash": "96fba62a48",
+   "en": "Well does the Book of Proverbs say that: \"The life of the flesh is a calm heart.\""
+  },
+  "14.29.4": {
+   "hash": "53c481dde7",
+   "en": "For when we preserve the innocence of the mind, even deeds that seem feeble outwardly are sometimes strengthened. Therefore the book rightly adds: \"and envy is the rottenness of the bones.\" The vice of envy makes deeds that seem impressive in the eyes of men to be as nothing in the eyes of God. The rottenness of the bones that envy causes means that some things, although they seem impressive and effective, end in nothing."
+  },
+  "14.29.5": {
+   "hash": "af82b149a8",
+   "en": "Pope Gregory (the Great)"
+  },
+  "14.29.6": {
+   "hash": "687c0c6d9e",
+   "en": "* In all our conduct we need to be free from hidden rancor; this applies even more in the choice of a bishop, whose life is a model for the whole flock. Calm and sober judgment are called for, if you prefer that the one who is above all be chosen by all and heal every dispute. \"The meek man is the physician of the heart.\" The Lord declares in the Gospel that He is the physician of the heart, when He says: \"They that be whole need not a physician, but they that are sick\" (Mt 9:12; Mk 2:17; Lk 5:31)."
+  },
+  "14.29.7": {
+   "hash": "8902d576b5",
+   "en": "St. Ambrose"
+  },
+  "14.30.s": {
+   "hash": "bad37e9c03",
+   "en": "23. Care for the poor"
+  },
+  "14.30.0": {
+   "hash": "575627c873",
+   "en": "\"He that oppresseth the poor reproacheth his Maker: but he that hath mercy on the needy honoureth him\" [31]"
+  },
+  "14.30.1": {
+   "hash": "ecefc6ec4a",
+   "en": "* \"He who slanders the poor reproacheth his Maker.\" Here there are two sins: slander and opposition to the poor man. Why does he reproach his Maker? Surely because He created him, and made him as though he could easily fall under the tongue of the slanderer. \"He who truly honors God has mercy on the needy.\""
+  },
+  "14.30.2": {
+   "hash": "05cc5d2e27",
+   "en": "If God created the poor man, why is it necessary to show compassion to him?"
+  },
+  "14.30.3": {
+   "hash": "6f34649ee8",
+   "en": "I have heard many say: Is there any need to show compassion to this poor man, whom God could have kept from being poor if He loved him? How long shall we make sport of our salvation? How long shall we laugh at matters that should make the wicked man, burdened with them, tremble and fear and be terrified? Tell me, who did a kindness to whom: Lazarus or the rich man? This is what truly destroys us, that we slip easily into (wicked) jesting."
+  },
+  "14.30.4": {
+   "hash": "e357856efa",
+   "en": "St. John Chrysostom"
+  },
+  "14.31.s": {
+   "hash": "588e48784c",
+   "en": "24. Virtue carries its own reward"
+  },
+  "14.31.0": {
+   "hash": "3f3005cf56",
+   "en": "\"The wicked is driven away in his wickedness: but the righteous is confident in his death\" [32]"
+  },
+  "14.31.1": {
+   "hash": "8f3102a561",
+   "en": "In the moments of death the wicked man departs accompanied by the evils he committed, which condemn and reproach him. And the righteous man departs accompanied by his faith, his love and his godliness in the Lord, so he does not fear death, nor is he confused at the meeting with the Judge."
+  },
+  "14.31.2": {
+   "hash": "2a36a8c69b",
+   "en": "In bitterness Balaam spoke, wishing that he had walked in the spirit of godliness and so departed with the righteous to eternal life: \"Let my soul die the death of the righteous, and let my last end be like theirs\" (Num 23:10). But Stephen, in the moments of his death, said: \"Behold, I see the heavens opened, and the Son of man standing on the right hand of God\" (Acts 7:56)."
+  },
+  "14.31.3": {
+   "hash": "36406df243",
+   "en": "* Death, for those who understand it, is immortality, but for the foolish who do not understand it, it is death."
+  },
+  "14.31.4": {
+   "hash": "5f4447a5f5",
+   "en": "We must not fear this death, but fear the perishing of the soul, which is ignorance of God. This is what truly terrifies the soul!"
+  },
+  "14.31.5": {
+   "hash": "098fb16d0d",
+   "en": "* It is impossible for us to flee from death by any means. And since the truly wise know this, they practice the virtues and think of the love of God, and face death without sighs or fear or tears, considering that death is, on the one hand, inevitable, and on the other hand, that it frees us from the diseases to which we are subject in this life."
+  },
+  "14.31.6": {
+   "hash": "426270d575",
+   "en": "St. Abba Anthony the Great"
+  },
+  "14.32.s": {
+   "hash": "53be849aa7",
+   "en": "25. Nothing hidden that will not be made known"
+  },
+  "14.32.0": {
+   "hash": "b8bcd99d8f",
+   "en": "\"Wisdom resteth in the heart of him that hath understanding: but that which is in the midst of fools is made known\" [33]"
+  },
+  "14.32.1": {
+   "hash": "b5903573ca",
+   "en": "Wisdom shines forth in the heart of the man of understanding who has the spirit of discernment, and becomes the cause of his inner glory. But the fool reveals by his evil conduct the folly that has reigned in his depths and that he tries to hide."
+  },
+  "14.33.s": {
+   "hash": "3cf6eaa032",
+   "en": "26. Righteousness exalts a nation"
+  },
+  "14.33.0": {
+   "hash": "2533acf132",
+   "en": "\"Righteousness exalteth a nation: but sin is a reproach to any people\" [34]"
+  },
+  "14.33.1": {
+   "hash": "a59fc62e6e",
+   "en": "History bears witness throughout all ages that nations, like individuals, are exalted by righteousness and shattered by the corruption of evil. Even if nations often exalt themselves in their military capabilities, history still bears witness to the power of righteousness and its ability."
+  },
+  "14.33.2": {
+   "hash": "1a0daf69cb",
+   "en": "What righteousness is is not written in the letters of the Law (that is, the Holy Scripture), but a pure heart is man's righteousness."
+  },
+  "14.33.3": {
+   "hash": "426270d575",
+   "en": "St. Abba Anthony the Great"
+  },
+  "14.34.s": {
+   "hash": "e101f73696",
+   "en": "27. The honor of the wise"
+  },
+  "14.34.0": {
+   "hash": "a2aab1e0fb",
+   "en": "\"The king's favour is toward a wise servant: but his wrath is against him that causeth shame\" [35]"
+  },
+  "14.34.1": {
+   "hash": "e8be64807c",
+   "en": "If kings and rulers look for their ambassadors to be men of wisdom and knowledge, then the King of kings presents the Second Hypostasis, the Wisdom of God, to raise up from the believers wise ambassadors who are fit to bear witness to God, His care and His heavenly glories."
+  },
+  "14.34.2": {
+   "hash": "48c27887a8",
+   "en": "Your fear leads me to the treasure of Your wisdom!"
+  },
+  "14.34.3": {
+   "hash": "af3622b979",
+   "en": "* Let Your fear lead the depths of my heart, and make of my soul the wise bride, who builds her house by the Holy Spirit of God, a holy temple for Him."
+  },
+  "14.34.4": {
+   "hash": "9e5ad06801",
+   "en": "* Your fear opens for me the royal road."
+  },
+  "14.34.5": {
+   "hash": "f949bdd4f8",
+   "en": "I walk in You, and do not turn to the right or to the left."
+  },
+  "14.34.6": {
+   "hash": "1a2eceb0cc",
+   "en": "I go forth to You and enjoy fellowship with You forever."
+  },
+  "14.34.7": {
+   "hash": "973587b1a3",
+   "en": "* Your fear sanctifies my words, so that they bear a spirit of love, tenderness and kindness."
+  },
+  "14.34.8": {
+   "hash": "daadb98f51",
+   "en": "You grant me earnestness in work without ceasing."
+  },
+  "14.34.9": {
+   "hash": "2d5b50a52c",
+   "en": "* I cling to those who fear You, and rejoice in them."
+  },
+  "14.34.10": {
+   "hash": "087cfeb628",
+   "en": "I learn from them, and join them in praising You!"
+  },
+  "14.34.11": {
+   "hash": "17938eaa63",
+   "en": "* Your fear makes of my heart a wedding, and my soul is filled with unceasing joy."
+  },
+  "14.34.12": {
+   "hash": "f4898fff0e",
+   "en": "I enjoy the inner treasure and am enriched by it."
+  },
+  "14.34.13": {
+   "hash": "67c5b5dd71",
+   "en": "* Your fear supports the tent of my life, so that storms and whirlwinds do not shatter it."
+  },
+  "14.34.14": {
+   "hash": "16f64e74c6",
+   "en": "Rather, You carry me through in glory, until I go forth to the eternal dwelling."
+  },
+  "14.34.15": {
+   "hash": "6cd5bf9dee",
+   "en": "* Your fear grants me the spirit of discernment, so that the way of death does not deceive me."
+  },
+  "14.34.16": {
+   "hash": "eade12d3e5",
+   "en": "I seek the inner joy of the Spirit, not laughter filled with frivolity."
+  },
+  "14.34.17": {
+   "hash": "e2548090c7",
+   "en": "With the spirit of discernment I rightly divide the word of truth."
+  },
+  "14.34.18": {
+   "hash": "9d3aeb1698",
+   "en": "With the spirit of humility I turn away from evil."
+  },
+  "14.34.19": {
+   "hash": "43e77f4d98",
+   "en": "With the spirit of love anger does not creep into my heart."
+  },
+  "14.34.20": {
+   "hash": "bac9217f1b",
+   "en": "With the spirit of wisdom I enjoy true knowledge, not folly."
+  },
+  "14.34.21": {
+   "hash": "1806926c13",
+   "en": "With the spirit of truth I show no partiality to the rich, nor do I despise the poor; with the spirit of holiness I bear no false witness, and I utter no word of lying or guile or deceit."
+  },
+  "14.34.22": {
+   "hash": "31c2321e48",
+   "en": "* Your fear is my refuge; in it I am fortified and settled."
+  },
+  "14.34.23": {
+   "hash": "61880f82dd",
+   "en": "In it I enjoy the fountain of life, and I do not fear death."
+  },
+  "14.34.24": {
+   "hash": "ffc5fee608",
+   "en": "In it I desire to serve everyone, and I seek the edification of every human soul."
+  },
+  "14.34.25": {
+   "hash": "df6512b915",
+   "en": "In it I am clothed with Your divine righteousness, and it supports me all the days of my life, until I pass over and go forth to You, to see You face to face, and to live with You forever!"
+  }
+ }
+}

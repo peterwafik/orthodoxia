@@ -13,11 +13,11 @@
  },
  "DAN": {
   "entries": 243,
-  "translated": 186
+  "translated": 243
  },
  "ECC": {
   "entries": 168,
-  "translated": 111
+  "translated": 168
  },
  "ESG": {
   "entries": 2,
@@ -57,6 +57,46 @@
  },
  "JOB": {
   "entries": 1057,
-  "translated": 675
+  "translated": 1057
+ },
+ "JOL": {
+  "entries": 43,
+  "translated": 43
+ },
+ "JON": {
+  "entries": 29,
+  "translated": 29
+ },
+ "MAL": {
+  "entries": 55,
+  "translated": 55
+ },
+ "MIC": {
+  "entries": 106,
+  "translated": 106
+ },
+ "NAM": {
+  "entries": 48,
+  "translated": 48
+ },
+ "OBA": {
+  "entries": 12,
+  "translated": 12
+ },
+ "PRO": {
+  "entries": 841,
+  "translated": 691
+ },
+ "PSA": {
+  "entries": 39,
+  "translated": 39
+ },
+ "S3Y": {
+  "entries": 1,
+  "translated": 1
+ },
+ "SIR": {
+  "entries": 1278,
+  "translated": 67
  }
 }
