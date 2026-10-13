@@ -85,7 +85,7 @@
  },
  "PRO": {
   "entries": 841,
-  "translated": 691
+  "translated": 841
  },
  "PSA": {
   "entries": 39,
@@ -97,6 +97,22 @@
  },
  "SIR": {
   "entries": 1278,
-  "translated": 67
+  "translated": 1278
+ },
+ "SNG": {
+  "entries": 132,
+  "translated": 113
+ },
+ "WIS": {
+  "entries": 436,
+  "translated": 318
+ },
+ "ZEC": {
+  "entries": 118,
+  "translated": 71
+ },
+ "ZEP": {
+  "entries": 56,
+  "translated": 15
  }
 }

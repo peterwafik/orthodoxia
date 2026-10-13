@@ -1,0 +1,462 @@
+{
+ "book": "SIR",
+ "chunk": 35,
+ "units": {
+  "30.0.s": {
+   "hash": "580f1f967d",
+   "en": "1. The right upbringing in raising children"
+  },
+  "30.0.0": {
+   "hash": "978554b5cd",
+   "en": "1 He who loves his son multiplies the rod for him, that he may be glad at his latter end. 2 He who disciplines his son will reap the fruit of his discipline, and will boast of him among the notable. 3 He who teaches his son makes his enemy envious, and will rejoice in him before his friends. 4 When his father dies, it is as though he had not died, for he has left behind one like himself. 5 In his life he saw and rejoiced, and at his death he did not grieve. 6 He left behind an avenger against his enemies, and one to repay his friends with kindness. 7 He who spoils his son will bind up his wounds, and at every cry his bowels are troubled. 8 A horse that is not tamed becomes headstrong, and a son who is not restrained becomes foolish. 9 If you pamper your son, he will terrify you, and if you play with him, he will grieve you. 10 Do not laugh with him, lest he bring you sorrow, and in your latter end you will gnash your teeth. 11 Do not give him authority in his youth, and do not overlook his follies. 12 Bow down his neck in his youth, and beat his ribs while he is young, lest he become stubborn and disobey you, and heartache take hold of you. 13 Discipline your son and labor at his instruction, lest he fall into what will shame you."
+  },
+  "30.0.1": {
+   "hash": "b65459203b",
+   "en": "He offers practical advice on the upbringing of children, and he has already spoken of this matter several times. The father is concerned with three things in the life of his son: he loves him (agapon), disciplines him (paidevon), and teaches him (didaskon). These three elements, that is, love, discipline and teaching, make up one unity in the building up of the new generation. In correction true love must be shown, in discipline godliness, and in teaching the desire that the son grow in spiritual and secular knowledge. Love supports discipline, and discipline leads to teaching."
+  },
+  "30.0.2": {
+   "hash": "c38e438332",
+   "en": "The man who loves his son multiplies his discipline of him, that he may be glad in him in his last years [1]."
+  },
+  "30.0.3": {
+   "hash": "8a4836f074",
+   "en": "He who loves his son is firm with him, so that he becomes a cause of delight and joy to his parents (Prov 10:1; 22:6). The heavenly Father cares for His children: \"For whom the Lord loveth he chasteneth, and scourgeth every son whom he receiveth. If ye endure chastening, God dealeth with you as with sons; for what son is he whom the father chasteneth not?\" (Heb 12:6-7)."
+  },
+  "30.0.4": {
+   "hash": "7052cf886e",
+   "en": "Discipline, the rod or the staff is not understood as bodily punishment alone, but means the use of firmness mixed with love and kindness, with wisdom and balance, for he who is excessive in beating his children and in using harshness may lose them."
+  },
+  "30.0.5": {
+   "hash": "21545404d8",
+   "en": "v No one who is disciplined and corrected as to his state loses hope, for he who loves his son disciplines him (see Sir 30:1). It befits that no one lose hope of a cure [1]."
+  },
+  "30.1.0": {
+   "hash": "edef776105",
+   "en": "St. Ambrose He who disciplines his son will reap comfort in him, and will boast of him among his acquaintances [2]."
+  },
+  "30.1.1": {
+   "hash": "43ce8531f8",
+   "en": "What St. John Chrysostom laments is that what concerns many in raising their children is not the salvation of their children and their inner edification and true success, but they look at their children through their own vainglory, wanting their success in their works and wealth and their attaining great social positions, with no aim except to boast of them, so that the children become a means of vainglory for their fathers [2]. What concerns Sirach here, however, is the fathers' pride in their enjoying a leading personality able to achieve continual growth in all aspects of life."
+  },
+  "30.2.0": {
+   "hash": "636d55e1ff",
+   "en": "He who teaches his son stirs the envy of his enemies, and rejoices greatly in him before his friends [3]."
+  },
+  "30.2.1": {
+   "hash": "c33937a3b6",
+   "en": "The stirring of the enemy referred to here because of good upbringing means not giving any enemy the opportunity to gloat over the corruption of the children."
+  },
+  "30.3.0": {
+   "hash": "0ab7c660ad",
+   "en": "When his father dies it is as though he had not died, for he has left behind one like himself [4]."
+  },
+  "30.3.1": {
+   "hash": "f1fd9b88c7",
+   "en": "The son whom his parents have disciplined is qualified to occupy his father's place (Tob 9:6). It is as though the role of the parents is to qualify their children to occupy their places with a good reputation (41:13; 44:8). Therefore the good father dies with a peaceful mind, because he has left behind a good, godly, successful son who walks as a man of God."
+  },
+  "30.4.0": {
+   "hash": "1f7b7ed3ab",
+   "en": "In his life he saw him and rejoiced in him, and at his death he did not grieve [5]."
+  },
+  "30.5.0": {
+   "hash": "91be8b84de",
+   "en": "Against his enemies he left behind an avenger, and one who repays his friends for their services [6]."
+  },
+  "30.5.1": {
+   "hash": "a9d1b2a9d6",
+   "en": "At his death the father leaves behind a courageous son who challenges the devil his enemy, and does not allow the works of darkness to creep into his mind, and at the same time offers all love to his father's friends, in maturity and in the spirit of strength [6]."
+  },
+  "30.5.2": {
+   "hash": "b08ae3a912",
+   "en": "Tobias the son is considered a wonderful example, for he resembled his father in every respect, according to the testimony of both Raguel his father-in-law and Gabael who owed his father silver. He was equal to the responsibility, for he bore the hardships of the journey in order to carry out his father's commandment while still a young lad, and became a blessing to his parents; he carried the medicine to his father and restored joy to his mother (Tob 9:6) [3]."
+  },
+  "30.6.0": {
+   "hash": "50458fc1b1",
+   "en": "He who spoils his son will bind up his wounds, and at every cry his heart is pained [7]."
+  },
+  "30.6.1": {
+   "hash": "3260017ad5",
+   "en": "Ben Sira warns parents against pampering their children. For pampering causes wounds in the souls of children. The father who pampers his son drinks of the fruit of his pampering before he dies, that is, he touches his son's failure. So it happened with Eli the priest, who pampered his two sons, and they were slain in the battle, and their father fell dead, and the people were defeated (1 Sam 4)."
+  },
+  "30.6.2": {
+   "hash": "f38d9239aa",
+   "en": "St. John Chrysostom reveals the danger of a life of pampering, whether a man pampers himself or his son or those under him. True love moves us to strive and to be firm with wisdom and love."
+  },
+  "30.6.3": {
+   "hash": "6cc000a4c9",
+   "en": "The father has compassion on his son as he disciplines him, fearing for him, so he binds up his wounds and is tender toward him, and his bowels groan over him. Even when compelled to use discipline, he is also tender with him; he strikes with one hand and bandages with the other, for the purpose of discipline is training and not vengeance."
+  },
+  "30.6.4": {
+   "hash": "1c25adbd49",
+   "en": "v \"Whosoever will save his life shall lose it: and whosoever will lose his life for my sake shall find it. For what is a man profited, if he shall gain the whole world, and lose his own soul? or what shall a man give in exchange for his soul?\" (Mt 16:25-26). This means: I decide these things not because I do not care for you, but because I care for you very much."
+  },
+  "30.6.5": {
+   "hash": "f6cdf64262",
+   "en": "In fact he who supports his child constantly destroys him, but he who does not so support him saves him. The wise man says the same thing: \"If you beat (your son) with the rod, he shall not die; you shall rather deliver him from Hades\" (see Prov 23:13-14). And also: \"He who pampers his son will bind up his wounds\" [7]."
+  },
+  "30.6.6": {
+   "hash": "94307264e7",
+   "en": "This is also the case in the army. The commander who cares for his soldiers and orders them to stay constantly in the city (without military training) causes the death not of them alone but of the others in the city as well..."
+  },
+  "30.6.7": {
+   "hash": "8586328870",
+   "en": "Do not remain inside, but go out and fight. For even if you fall in the battle you will live. If in earthly wars the person who is ready to be killed has a special esteem above others, is not conquered and is terrifying to the enemy, for even after his death the king who gave him arms cannot bring him back to life, how much more does it befit a person to offer his life to death and find it (Mt 16:15). First, his life is not taken quickly, and second, even if he falls, a higher life is given to him [4]."
+  },
+  "30.7.0": {
+   "hash": "c71ff6833e",
+   "en": "St. John Chrysostom A horse that is not tamed becomes headstrong, and a son who is allowed to run in debauchery becomes stubborn [8]."
+  },
+  "30.7.1": {
+   "hash": "1e4ca057b0",
+   "en": "The successful horseman is the one who knows how to train horses and lead them and deal with them as in a common language. The rider is pleased when he finds the horse he trains doing its part as it should. How much more does the son need his parents to train him in a spirit of love and tenderness and in kindness without laxity."
+  },
+  "30.7.2": {
+   "hash": "403020b13e",
+   "en": "v There are two kinds of fear, one kind connected with respect. This kind the citizens feel toward their rulers if they are good, and we feel it toward God as children dealing with their father. The Scripture says: \"A horse not broken becomes headstrong, and a son left to himself becomes impudent\" (see Sir 30:8)."
+  },
+  "30.7.3": {
+   "hash": "f72fffc71d",
+   "en": "The other kind of fear is mixed with hatred; this is the fear of slaves, which they feel toward their masters, and which the Hebrews felt when they looked upon God as their master and not as their Father [5]."
+  },
+  "30.8.0": {
+   "hash": "27a0712cd4",
+   "en": "St. Clement of Alexandria If you pamper your son, he will terrify you, and if you play with him, he will grieve you [9]."
+  },
+  "30.8.1": {
+   "hash": "47afd7df79",
+   "en": "How wonderful it is for children to feel that their parents are their friends or like elder brothers to them, and for parents and children to speak with frankness and openness. But pampering or jesting is a kind of extreme opposed to harshness, and both extremes present a danger to the whole family. St. Augustine says that love has its order. The father's love has its limits, and the mother's love also has its limits. Love and openness do not mean laxity or jesting in an unseemly manner."
+  },
+  "30.8.2": {
+   "hash": "1702b62994",
+   "en": "v This obligation belongs to fathers as it does to mothers also. There are fathers who sacrifice everything to secure for their children teachers of pleasures, and make of them rich heirs. But that the children become Christians and practice godliness they do not care much. What a blindness that must be counted a crime!"
+  },
+  "30.8.3": {
+   "hash": "2e4a423962",
+   "en": "It is a foolish neglect, responsible for the confusion that makes society bitter. Suppose you prepare great possessions for them. If they do not know how to conduct their lives, these possessions will certainly not last with them. Rather they are scattered, and perish with their owners, and become a most dangerous inheritance!"
+  },
+  "30.9.0": {
+   "hash": "a2fbda6247",
+   "en": "St. John Chrysostom Do not laugh with him, lest you be grieved with him, and in your latter end the gnashing of teeth take hold of you because of him [10]."
+  },
+  "30.9.1": {
+   "hash": "9074231829",
+   "en": "What does he mean by \"laugh with him\"? It is good for parents to be affectionate with their children in a cheerful spirit through a smile and kindness, but exaggerated laughter corrupts the life of children and parents, where the person loses the spirit of wisdom and moderation under the pretext of creating a pleasant atmosphere. We hear of children who drove out their fathers and mothers in their old age, and disowned them and mistreated them, and that is the fruit of excessive pampering and bad upbringing, so that they reaped thorns in their latter end instead of grapes and thistles instead of figs."
+  },
+  "30.9.2": {
+   "hash": "bc9186ae35",
+   "en": "The father needs wisdom and God's guidance so that he knows when to give and when to refrain, when to let his son go out and when to forbid him, when to punish him and when to caress him; for if he gives him money excessively he may spoil him, and if he does not give him he may feel deprived. If he allows him to go out, bad friends may surround him and draw him to what harms him, and if he is not allowed, how will his personality grow and develop practically through society? And if he is harsh with him his personality may weaken and he may become a defeated, withdrawn personality; and if he caresses him pampering may spoil him! [6]"
+  },
+  "30.10.0": {
+   "hash": "827272b661",
+   "en": "And do not give him authority in his youth [11]."
+  },
+  "30.10.1": {
+   "hash": "9d611e49b0",
+   "en": "It is good for parents to instill in their children the spirit of leadership and self-confidence together with faith in God, the giver of wisdom, strength and understanding. But exaggeration in the spirit of leadership and falling into the love of domination and insistence on one's own opinion corrupts the soul."
+  },
+  "30.10.2": {
+   "hash": "e18647d83c",
+   "en": "Press upon his ribs in his youth, lest he become stubborn and disobey you (and cause you grief [7]) [12]."
+  },
+  "30.11.0": {
+   "hash": "ecd2e9b94b",
+   "en": "Discipline your son and labor with him, lest he confuse you by his conduct [13]."
+  },
+  "30.11.1": {
+   "hash": "b2498361c6",
+   "en": "v Let us use the authority of Holy Scripture: \"Beat his ribs while he is young, lest he rebel...\" (see Sir 30:12). Lest he become unruly and untamed. The aim of such human punishments is to help rid us of ignorance, and to curb our untamed desires [8]."
+  },
+  "30.11.2": {
+   "hash": "3e2f504611",
+   "en": "St. Augustine"
+  },
+  "30.12.s": {
+   "hash": "2dc49afe22",
+   "en": "2. Bodily health"
+  },
+  "30.12.0": {
+   "hash": "9d3e2121d2",
+   "en": "14 A poor man who is in good health and sound in body is better than a rich man worn out with sicknesses. 15 Health and soundness of body are better than all gold, and strength of body is better than countless wealth. 16 There is no wealth better than health of body, and no pleasure that exceeds joy of heart. 17 Death is better than a bitter life, or continual illness. 18 Good things poured upon a closed mouth are like foods laid upon a grave. 19 What use is an offering to an idol? For it neither eats nor smells. 20 So is he whom the Lord afflicts, and repays for his iniquities. 21 He sees with his eyes and sighs, like a eunuch who embraces a virgin and sighs. 22 Do not grieve your soul, and do not distress your heart with your thoughts. 23 Gladness of heart is the life of man, and the rejoicing of a man is length of days. 24 Love your soul, and comfort your heart, and drive sorrow far from you; 25 for sorrow has killed many, and there is no profit in it. 26 Jealousy and anger shorten the days, and anxiety brings old age before its time. 27 A cheerful and good heart is always at feasts, and his banquets are prepared with care."
+  },
+  "30.12.1": {
+   "hash": "ebcafeeccd",
+   "en": "Ben Sira feared that a person might be concerned with providing his children with a huge fortune while neglecting their health."
+  },
+  "30.12.2": {
+   "hash": "c91521008c",
+   "en": "The Lord Christ highlighted man's responsibility regarding bodily health, saying: \"Is not the life more than meat, and the body than raiment?\" (Mt 6:25). Sadly some destroy their health by excessive work for the sake of increasing wealth. The health of the spirit has its role in the health of the body, though the health of the body can also support the health of the spirit. The wise man can benefit from the health of the body as from its sickness, and he may not destroy the body, because the weakness of the body often affects work for the edification of the spirit."
+  },
+  "30.12.3": {
+   "hash": "1b1db5d191",
+   "en": "A poor man who is in good health and sound in body is better than a rich man afflicted in his body [14]."
+  },
+  "30.12.4": {
+   "hash": "71821dbdde",
+   "en": "It befits the poor to thank God for bodily health, which many of the rich long for. For the sick rich man longs for the food of the simple and their work."
+  },
+  "30.13.0": {
+   "hash": "d0e052b143",
+   "en": "Health and soundness of body are better than all gold, and strength of body is better than enormous wealth [15]."
+  },
+  "30.13.1": {
+   "hash": "ae55254e57",
+   "en": "The body is a talent given to us by God, and care for bodily health is necessary. The Apostle says: \"For no man ever yet hated his own flesh; but nourisheth and cherisheth it, even as the Lord the church\" (Eph 5:29). The Church prays in her liturgies for spiritual, psychological and bodily health."
+  },
+  "30.14.0": {
+   "hash": "7a1ef8ff13",
+   "en": "There is no wealth greater than health of body, and no pleasure that exceeds joy of heart [16]."
+  },
+  "30.14.1": {
+   "hash": "9521304bbc",
+   "en": "Here he links the soundness of the body with the gladness of the spirit, so we thank God for the health of our body and the rejoicing of our hearts in Him."
+  },
+  "30.15.0": {
+   "hash": "4d75529cf1",
+   "en": "Death is better than a wretched life, and eternal rest than chronic illness [17]."
+  },
+  "30.15.1": {
+   "hash": "a0905f5de2",
+   "en": "The loss of health sometimes deprives a man of happiness, so that he longs for death as better than a life full of suffering from sickness."
+  },
+  "30.15.2": {
+   "hash": "d1b11f90ff",
+   "en": "v Death, for those who understand it, is immortality; but for the foolish who do not understand it, it is death."
+  },
+  "30.15.3": {
+   "hash": "3d26b47c61",
+   "en": "We must not fear this death, but fear the perdition of the soul, which is ignorance of God. This is what truly terrifies the soul! [9]"
+  },
+  "30.15.4": {
+   "hash": "49fedbb94e",
+   "en": "v Just as when you left the womb you no longer remember what happened to you in it, so when you leave the body you will no longer remember what happened while you were in it [10]."
+  },
+  "30.15.5": {
+   "hash": "e6971c72db",
+   "en": "v And just as by leaving the womb you came into a better state and your body grew, so when you leave the body pure and undefiled you come into a better state that is incorruptible [11]."
+  },
+  "30.15.6": {
+   "hash": "3311414002",
+   "en": "v And just as the body must be born when its growth in the womb is complete, so the soul must leave the body when it reaches the end of life in the body at the time appointed by God [12]."
+  },
+  "30.15.7": {
+   "hash": "05b13bb74c",
+   "en": "v Just as you treat the soul while it is in the body, so it will treat you when it leaves the body."
+  },
+  "30.15.8": {
+   "hash": "5c5f029702",
+   "en": "The man who is lax with his body in this life, giving it every kind of comfort, only prepares for himself sickness after death, bringing judgment upon himself through foolishness [13]."
+  },
+  "30.15.9": {
+   "hash": "57f18bfb35",
+   "en": "v Just as the body cannot live if it leaves the womb before it is complete, so the soul cannot be saved or have fellowship with God when it leaves the body unless it has attained, by its good life (while in the body), the gaze toward God [14]."
+  },
+  "30.16.0": {
+   "hash": "31ea8570f0",
+   "en": "St. Anthony the Great Good things set before a closed mouth are like offerings of food placed upon a grave [18]."
+  },
+  "30.16.1": {
+   "hash": "c16de67e0e",
+   "en": "For one who is sick and unable to eat, abundant good things are of no benefit; foods become for him as though placed upon a grave, with no one to eat them."
+  },
+  "30.16.2": {
+   "hash": "3d6065d75b",
+   "en": "St. Augustine criticized the pagan customs in which they bring offerings and place them on the grave of the dead; for just as the closed mouth does not benefit from the good things offered to a man, so the idol worshiper does not benefit from the offerings on his grave [15]."
+  },
+  "30.16.3": {
+   "hash": "2591c98f7a",
+   "en": "What benefit is an offering of fruit to an idol, for it can neither eat nor smell."
+  },
+  "30.17.0": {
+   "hash": "f861b67604",
+   "en": "So is he whom the Lord grieves [19]."
+  },
+  "30.17.1": {
+   "hash": "0e0b9ee279",
+   "en": "He who does not enjoy the Lord's pleasure in him is like one who offers fruit to an idol that neither eats it nor smells its fragrance. Daniel mocked the idol Bel, whom the king of Babylon supposed ate and drank what the priests of Bel offered to him [16]."
+  },
+  "30.18.0": {
+   "hash": "e71bcceaf8",
+   "en": "He sees with his eyes and sighs, like a eunuch embracing a virgin [20]."
+  },
+  "30.18.1": {
+   "hash": "6e3de629e6",
+   "en": "What does the eunuch who embraces a virgin and sighs mean, except that he cannot proceed to marry her? Such is the state of one who sees wealth and riches and precious goods and cannot use them."
+  },
+  "30.18.2": {
+   "hash": "46924c971e",
+   "en": "v Why do you heap up gold, O mortal? Why do you seek for yourself a bitter slavery? A hard prison? Why do you bring upon yourself harsh anxiety? You think that the veins of gold in the mines or the gold in the palaces can be yours. In truth, even if you have an abundance of wealth, all you do is hide it away. It does not serve you, for if you do not use what you have now, but do not touch it as though it belonged to another than you, what will you do if you get more of it? Usually for the greedy, the more wealth increases and they gather it around them, the more they seek to store it up. Perhaps you will say: \"I know that it is mine.\" In that case your possessions are in your thoughts and not for enjoyment. You may object: \"I am great before others.\" In truth you will appear weak before the rich and the poor and robbers and slanderers and servants, in truth before all who conspire against you..."
+  },
+  "30.18.3": {
+   "hash": "63c668bec6",
+   "en": "He who wants to embrace a girl he loves while unable to satisfy his desire suffers the bitterest torments. So does the rich man, who has abundant wealth and it is with him, yet he is unable to satisfy his desire [17]."
+  },
+  "30.19.0": {
+   "hash": "82d51cc623",
+   "en": "St. John Chrysostom Do not give yourself over to sorrow, and do not trouble your soul on purpose [21]."
+  },
+  "30.19.1": {
+   "hash": "8bda0afe33",
+   "en": "The happy life: a man's happiness springs from within him, not from the outward circumstances surrounding him. He who surrenders to sorrow and is confused by his thoughts does not enjoy happiness."
+  },
+  "30.20.0": {
+   "hash": "9ec6371e53",
+   "en": "The gladness of the heart is the life of man, and the joy of man lengthens his days [22]."
+  },
+  "30.20.1": {
+   "hash": "75664bc649",
+   "en": "Inner gladness gives life a taste, so the days of his life are lengthened."
+  },
+  "30.20.2": {
+   "hash": "0059ee4d31",
+   "en": "Love your soul, and give rest to your heart, and drive sorrow far away from you."
+  },
+  "30.21.0": {
+   "hash": "dde28b077f",
+   "en": "For sorrow has destroyed many, and there is no profit in it [23]."
+  },
+  "30.21.1": {
+   "hash": "1c1fabf82a",
+   "en": "What is the profit of sorrow? It has killed many, and has profited no one. Many complain of their falling under the bitterness of sorrow, as though it storms our hearts or steals into them. Here Ben Sira assures us that sorrow is the fruit of our negligence or our faults. It befits the believer to love his soul and relieve his heart by clinging to the Savior who makes hearts glad. By this he enjoys authority to strip sorrow from his depths."
+  },
+  "30.21.2": {
+   "hash": "23c120ae0b",
+   "en": "The Fathers of the Church speak of deadly sorrow, distinguishing between holy sorrow accompanied by inner peace, which the Lord Christ blesses, saying: \"Blessed are they that mourn: for they shall be comforted\" (Mt 5:4), and destructive sorrow springing from lack of hope."
+  },
+  "30.21.3": {
+   "hash": "936942b1cb",
+   "en": "Amma Syncletica sees in lust, temporal pleasure and destructive sorrow three springs of evil. They are connected with one another, each spring opening the way for the other. If a man allows lust to proceed from within, and finds it pleasant even in thought, it develops into temporary worldly joy, and so instead of enjoying the joy of the Spirit and longing for the heavenly Bridegroom, he falls into destructive sorrow. He who controls lust by the work of divine grace will not have a fleshly, temporary pleasure, and so deadly sorrow does not shatter him."
+  },
+  "30.21.4": {
+   "hash": "9fa92e2d43",
+   "en": "v There are three springs of the enemy from which every evil wells up: lust, pleasure and sorrow. They are connected one with another, and each follows the other. It is possible to control pleasure to some degree, but it is impossible to control lust, for the satisfaction of pleasure is accomplished by the body, but lust begins from the soul, whereas sorrow can dwell in both. So do not allow lust to become active, and thus you will dispel the last two (that is, evil pleasure and sorrow). But if you allow the first to emerge, it develops into the second, and then together they form a \"vicious circle\" from which the soul cannot escape."
+  },
+  "30.21.5": {
+   "hash": "1621637f17",
+   "en": "Amma Syncletica St. Augustine sees in every work of love offered to the brethren for God's sake that what occupies the believer's heart is that this work touches his own salvation, and this love is love for the person himself, for what he offers is for the account of his own spiritual edification. He who does not love himself spiritually, how can he fulfill the commandment: \"Love your neighbor as yourself\"?"
+  },
+  "30.22.0": {
+   "hash": "eea4f822dc",
+   "en": "v Every person who gives alms for the atonement of his sins begins first with love for himself. Let a person remember the saying of the Lord: \"Thou shalt love thy neighbour as thyself\" (Mt 22:39), to realize that it is not fitting to give alms to his neighbor without showing mercy to himself. There is also another reminder: \"Love your soul\" [24]. How can anyone give alms in return for his sins if he does not give alms to himself that please God? In the same sense: \"He that is evil to himself, to whom will he be good?\" (see Sir 14:5)."
+  },
+  "30.22.1": {
+   "hash": "645675a3c1",
+   "en": "And of course prayers have their role with respect to alms. Here appears the importance of the words: \"My son, hast thou sinned? do so no more, but pray for thy former sins\" (see Sir 21:1) [18]."
+  },
+  "30.22.2": {
+   "hash": "a2f7b1e3ba",
+   "en": "St. Augustine Envy and anger shorten the number of your days, and anxiety brings old age before its time [24]."
+  },
+  "30.22.3": {
+   "hash": "5a55abfc7f",
+   "en": "Jealousy and anger and care corrupt life, so that a man grows old before his time."
+  },
+  "30.23.0": {
+   "hash": "b2f59aa1a1",
+   "en": "He who has a cheerful and good heart benefits from the food he eats [25]."
+  },
+  "30.23.1": {
+   "hash": "5be60bd16f",
+   "en": "The rejoicing man benefits from the food he eats, whatever its kind!"
+  },
+  "30.23.2": {
+   "hash": "db3fe9dd08",
+   "en": "Inspired by Sirach 30"
+  },
+  "30.24.s": {
+   "hash": "7da71a3c74",
+   "en": "Sanctify the new generation and cleanse it from our faults!"
+  },
+  "30.24.0": {
+   "hash": "c65c98782f",
+   "en": "v O Holy One, sanctify our view of the new generation."
+  },
+  "30.24.1": {
+   "hash": "97e3c67d08",
+   "en": "We desire that they be holier and better than we."
+  },
+  "30.24.2": {
+   "hash": "f7f6b8c71c",
+   "en": "If the coming generations are not higher than we, the Church is counted stagnant and sick and bearing the smell of death."
+  },
+  "30.24.3": {
+   "hash": "55a6887ec8",
+   "en": "v O Savior, lead us in raising the new generation."
+  },
+  "30.24.4": {
+   "hash": "d07a1db459",
+   "en": "Grant us the spirit of love, care and knowledge."
+  },
+  "30.24.5": {
+   "hash": "edaab25458",
+   "en": "We love the new generation without pampering and corrupting laxity."
+  },
+  "30.24.6": {
+   "hash": "ea3f99ed1e",
+   "en": "With firmness and seriousness we wish to see them successful leaders."
+  },
+  "30.24.7": {
+   "hash": "ae1c6d8aa2",
+   "en": "They realize that they are ambassadors for You, bearing witness to Your divine love."
+  },
+  "30.24.8": {
+   "hash": "f75b553321",
+   "en": "Who trains them but Your Holy Spirit, that they may not stumble over our weaknesses."
+  },
+  "30.24.9": {
+   "hash": "96891e64a5",
+   "en": "We rejoice in their trust in the power of Your grace and their striving to be an icon of You."
+  },
+  "30.24.10": {
+   "hash": "7b193c42fe",
+   "en": "v We thank You, O Physician of souls and bodies."
+  },
+  "30.24.11": {
+   "hash": "08dcd30bf6",
+   "en": "By You our souls challenge the world with all its allurements and sorrows."
+  },
+  "30.24.12": {
+   "hash": "a4a581ef42",
+   "en": "Its possessions cannot enslave us, nor enslave our children."
+  },
+  "30.24.13": {
+   "hash": "93ad3f2193",
+   "en": "Whether in bodily health or sickness we bless You, for You lead us to Yourself, and with every morning we and our children experience Your glories; our wealth or our poverty will not turn our eyes from looking to You."
+  },
+  "30.24.14": {
+   "hash": "db19f45a1a",
+   "en": "v If the enemy attacks us with sorrow, he will not draw the joy of the Spirit from our hearts."
+  },
+  "30.24.15": {
+   "hash": "0444f95cd4",
+   "en": "Our sojourn in this world is joyful, for You are our companion all the more in sorrows."
+  },
+  "30.24.16": {
+   "hash": "b76f21c6d2",
+   "en": "Our days are very few, as though they were thousands of years, for You bless every day and make it like a thousand years."
+  },
+  "30.24.17": {
+   "hash": "d9d9537a9b",
+   "en": "v You are the gladness of our heart; You are the door through which we enter into clinging to You."
+  },
+  "30.24.18": {
+   "hash": "a813b6d8ad",
+   "en": "You are our treasure, so we need nothing else but You."
+  },
+  "30.24.19": {
+   "hash": "072effcb58",
+   "en": "v O Holy One, sanctify the new generation by Your grace."
+  },
+  "30.24.20": {
+   "hash": "04fcfda333",
+   "en": "Sanctify our body, that we may strive by Your grace, and thank You for the gift of bodily health."
+  },
+  "30.24.21": {
+   "hash": "b00d079c69",
+   "en": "Sanctify our spirits, that we may be made worthy of Your dwelling in them."
+  },
+  "30.24.22": {
+   "hash": "2b880083e4",
+   "en": "Sanctify our joy and rejoicing, that You may accept it as a sacrifice of thanksgiving for Your wondrous works with us."
+  }
+ }
+}

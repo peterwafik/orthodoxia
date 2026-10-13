@@ -1,0 +1,790 @@
+{
+ "book": "PRO",
+ "chunk": 23,
+ "units": {
+  "17.28.16": {
+   "hash": "8b27302fea",
+   "en": "I enjoy Your sublime mind, so I honor every poor man, and do not despise anyone."
+  },
+  "17.28.17": {
+   "hash": "8a7c981a0c",
+   "en": "I do not rejoice at anyone's calamity, but desire to bear his burdens!"
+  },
+  "17.28.18": {
+   "hash": "5e25e56884",
+   "en": "I see You transfigured in the lives of my fathers, and my soul exults."
+  },
+  "17.28.19": {
+   "hash": "9d9afdd977",
+   "en": "And I look to You working in the new generation, and I am filled with hope."
+  },
+  "17.28.20": {
+   "hash": "ea1022ce05",
+   "en": "* My heart is opened to give to all."
+  },
+  "17.28.21": {
+   "hash": "c84f3264e4",
+   "en": "As for the bribe, my soul abhors it!"
+  },
+  "17.28.22": {
+   "hash": "f44f87a6a4",
+   "en": "I see You covering over me, so I desire to cover over my brethren."
+  },
+  "17.28.23": {
+   "hash": "7027a7e3bb",
+   "en": "Not a word of slander goes out from my lips."
+  },
+  "17.28.24": {
+   "hash": "a56c2bdf3b",
+   "en": "* I feel Your tenderness in Your hands, even in the midst of my pains and tribulations."
+  },
+  "17.28.25": {
+   "hash": "144e36205d",
+   "en": "I sense the warmth of Your fatherhood amid all events."
+  },
+  "17.28.26": {
+   "hash": "966318511f",
+   "en": "My heart is always drawn to You, Your gifts overwhelm me!"
+  },
+  "17.28.27": {
+   "hash": "823c5c764e",
+   "en": "* I come to know You, O Truth, so I do not confuse light with darkness, nor mix righteousness with evil!"
+  },
+  "17.28.28": {
+   "hash": "b2fda17d2a",
+   "en": "I possess You, O Wisdom of God, and ignorance flees from my depths."
+  },
+  "17.28.29": {
+   "hash": "215938d0b4",
+   "en": "I possess You, not with money, but by responding to Your love."
+  },
+  "17.28.30": {
+   "hash": "6cef7309ea",
+   "en": "I possess You by the blood of Your Cross, You who suffered and bore the shame, to grant me the blessed, glorious life!"
+  },
+  "17.28.31": {
+   "hash": "c5688fd138",
+   "en": "* I possess You, and my heart is turned into a joyful feast."
+  },
+  "17.28.32": {
+   "hash": "132f7bffce",
+   "en": "My soul exults in You, and my body is sanctified by Your grace."
+  },
+  "17.28.33": {
+   "hash": "5815d311d9",
+   "en": "And my insight is drawn up into Your heavens."
+  },
+  "17.28.34": {
+   "hash": "e95b3708a5",
+   "en": "And I draw from Your mysteries without limit!"
+  },
+  "18.0.s": {
+   "hash": "8ff00446d5",
+   "en": "1. Evil isolation"
+  },
+  "18.0.0": {
+   "hash": "32a998fee4",
+   "en": "1 He that separateth himself seeketh his own desire; he is enraged at every counsel. 2 A fool hath no delight in understanding, but in the uncovering of his own heart. 3 When the wicked cometh, then cometh also contempt, and with ignominy reproach."
+  },
+  "18.0.1": {
+   "hash": "a35fae73de",
+   "en": "\"He that separateth himself seeketh his own desire; he is enraged at every counsel\" [1]."
+  },
+  "18.0.2": {
+   "hash": "3156d45b03",
+   "en": "The Apostle Jude speaks to us of these separatists who in pride exalt themselves above their brethren, and seek to fulfill their desires and pleasures. \"These are they who separate themselves, having no spirit (they do not have the Holy Spirit)\" (Jude 19). These separate themselves from the divine truth and the holy congregation for the glory of themselves or to satisfy their desires, and not for the glory of God; these are stubborn, fanatical for their own ideas."
+  },
+  "18.0.3": {
+   "hash": "0a8ae14b07",
+   "en": "What occupies the thought of these separatists is to display their skill or intelligence or work, and not the edification of their souls and their progress, even in their study of the word of God."
+  },
+  "18.0.4": {
+   "hash": "b1f5707c2b",
+   "en": "These who separate themselves for the sake of their pleasures reject true wisdom, unlike those who separate themselves from evil and from sharing the wicked in their evils, for the sake of their purity in the Lord through their Church membership. As the Apostle Paul says: \"Wherefore come out from among them, and be ye separate, saith the Lord, and touch not the unclean thing; and I will receive you, and will be a Father unto you, and ye shall be my sons and daughters, saith the Lord Almighty\" (2 Cor 6:17-18)."
+  },
+  "18.0.5": {
+   "hash": "b24f54fed6",
+   "en": "* These (separatists) are those who divide the believers from one another, under the influence of their unbelief. They cannot distinguish holy things on the one hand from dogs on the other."
+  },
+  "18.0.6": {
+   "hash": "bb593b959d",
+   "en": "St. Clement of Alexandria * The enemy of unity has no share in the love of God. Those who are outside the Church do not have the Holy Spirit."
+  },
+  "18.0.7": {
+   "hash": "7fee3a8aa6",
+   "en": "St. Augustine It is fitting for the believer to separate himself from evil itself, not only by not committing it, but by not allowing his thought to converse with it."
+  },
+  "18.0.8": {
+   "hash": "159222a9a2",
+   "en": "* Some brethren asked an elder concerning the two previous sayings, saying: \"If a man does not complete unclean thoughts, do they become void?\" The elder said: \"He means not only that he should not carry them out in his body, but also that he should not discuss them, for Abba Poemen taught that thoughts are not accomplished in deed except by negotiating with them and obeying them; so if a man abandons the cause and occasion that leads to the deed, he is freed from the thoughts and overcomes them, and so after a time of striving his heart is purified, his mind is enlightened, he is delivered from the sicknesses and rejoices in God.\""
+  },
+  "18.0.9": {
+   "hash": "018604c619",
+   "en": "* Abba Ammon of \"Raithu\" asked Abba Poemen about the unclean thoughts and vain desires that assail a man, and Abba Poemen said to him: \"It is Satan's part to sow them in us, but our part is not to accept them.\""
+  },
+  "18.0.10": {
+   "hash": "aa794cb28f",
+   "en": "Paradise of the Fathers * My children, flee from sin and endure unto death in keeping the Lord's commandments, and do not accept the counsel of the enemy to break any commandment however small, for the breaking of any commandment, small or great, angers God. I want your souls, my children, to be a perpetual dwelling place for God, so that you always think well of your neighbor, and none of you remembers evil against his brother or is moved with hatred against him, for the heart that thinks of evil and hatred cannot be a dwelling place for God."
+  },
+  "18.1.0": {
+   "hash": "dfd57862f8",
+   "en": "St. Macarius the Great \"A fool hath no delight in understanding, but in the uncovering of his own heart\" [2]"
+  },
+  "18.1.1": {
+   "hash": "dc2492db4b",
+   "en": "If he who separates himself to satisfy his desires does not accept wise counsel, but relies on his own opinion alone, then he finds no pleasure in understanding; his pleasure is rather to carry out what is in his heart. Such a fool does not accept dialogue, and does not care for what profits him and what edifies others."
+  },
+  "18.1.2": {
+   "hash": "a84fa7ed99",
+   "en": "* In all that you do take counsel for yourself, for it is written: \"It is folly to act without counsel\" (cf. Prov 15:22), and if anyone asks you answer him, otherwise silence is better."
+  },
+  "18.1.3": {
+   "hash": "dd2b6e6782",
+   "en": "Abba Poemen * Some brethren with laymen visited Father \"Felix\" and begged him to say a word to them, but the elder remained silent. When they pressed him for a long time he said to them: \"Do you want to hear a word?\""
+  },
+  "18.1.4": {
+   "hash": "706ad230d3",
+   "en": "They said: \"Yes, Father.\""
+  },
+  "18.1.5": {
+   "hash": "26603366d4",
+   "en": "He said to them: \"There is no more speech in these days, for when the brethren used to ask the counsel of the elders and do what was told them, God inspired the fathers with what to say; but now, because they ask and do not do what they hear, God has withdrawn the grace of speech from the elders, and they find nothing to say, because there is none who does, for the Psalmist says: \"The LORD looked down from heaven upon the children of men, to see if there were any that did understand, and seek God\" (Ps 14:2)."
+  },
+  "18.1.6": {
+   "hash": "e9df3daac9",
+   "en": "When the brethren heard this they sighed and said: \"Pray for us, our father.\""
+  },
+  "18.2.0": {
+   "hash": "c0cb607368",
+   "en": "Paradise of the Fathers \"When the wicked cometh, then cometh also contempt, and with ignominy reproach\" [3]"
+  },
+  "18.2.1": {
+   "hash": "c909ea5520",
+   "en": "As the wicked fool clings to his opinion and refuses dialogue, he brings upon himself shame and reproach. For since he despises the opinions of others, others find no pleasure in him. But he who respects others and values their thoughts, and converses with them in love and in humility, the Holy Spirit of God, who works in the humble, gives him honor in the eyes of his brethren and those around him."
+  },
+  "18.2.2": {
+   "hash": "690102fc6d",
+   "en": "If sin is a reproach to any people (Prov 14:34), it is the shame of every man who insists on committing it. Sin is the way that brings down peoples as well as individuals to the shame of the pit."
+  },
+  "18.2.3": {
+   "hash": "e106d5ff04",
+   "en": "When the hand of Pashur the son of Immer the priest was stretched out to smite Jeremiah the prophet and put him in the stocks, the divine sentence was issued against him that he be filled with fear and terror at what would befall him and his loved ones, and that they would fall into the Babylonian captivity, and there be buried in disgrace and shame (Jer 20:1-6)."
+  },
+  "18.2.4": {
+   "hash": "87664e0506",
+   "en": "* Believe this with piety and steadfastness: God does not forsake a person unless the person has indeed forsaken God. And although a person commits grave sins once and twice and three times, God continues to seek him, as the prophet says that by his returning he lives (Ex 33:11)."
+  },
+  "18.2.5": {
+   "hash": "45bf454594",
+   "en": "In any case, as he continues in his sins, despair is brought upon him by the multitude of his sins, and hardness occurs because of the despair. While inspired people despair because of their sins since they are small, these slight offenses increase, and crimes are even added to them, and they become a heap that swallows them, and when this happens what is written is fulfilled: \"With the wicked cometh reproach.\""
+  },
+  "18.2.6": {
+   "hash": "0acee2b1ef",
+   "en": "Fr. Caesarius, Bishop of Arles * It is written: \"When the sinner cometh into the depth of evil, he behaves with contempt\" (Prov 18:3). They (the wicked) do not believe, as you see, so that what they have done cannot be forgiven them, and by this stone of despair they sink into deeper depths than they were in."
+  },
+  "18.2.7": {
+   "hash": "509ae1f6d1",
+   "en": "St. Augustine * When the wicked fall into the depths of evil, they lose all sense of decorum.\" It is a terrible thing, as you see, beloved, it is a terrible thing to fall between the teeth of Satan, I mean that the soul becomes like one who has fallen into a net, and like a wild boar falling into a snare of mire, caught by pleasure, it returns to its evil habits, and loses the full sense of the foul smell of sin. Therefore we must wake up and take heed, so that we do not allow an evil devil to find an entrance from the beginning, and put a cloud over our mind, and blind the keen insight of our understanding, as though he robbed us of the light of the sun, so that we do not see the rays of the Sun of righteousness, and so we fall into the pit."
+  },
+  "18.2.8": {
+   "hash": "28d27dd818",
+   "en": "St. John Chrysostom * The wicked mind is always in pain and weariness, for it either suffers calamities that come upon it or fears that they will come upon it from others. While it plans against relatives it is the more in terror that its relatives may plan against it... Even when it is at peace it suspects the plans which it deals with craftily, reckoning that there is no man who deals with it faithfully."
+  },
+  "18.2.9": {
+   "hash": "af82b149a8",
+   "en": "Pope Gregory (the Great)"
+  },
+  "18.2.10": {
+   "hash": "7ccf8a3048",
+   "en": "* The more these grave sins increase, the more the soul grows accustomed to them, and makes light of them. For it is said: \"When the wicked has reached the depth of evils, he thinks of them with contempt.\""
+  },
+  "18.2.11": {
+   "hash": "7b4ac93481",
+   "en": "Fr. John of Damascus"
+  },
+  "18.3.s": {
+   "hash": "e6c91bb879",
+   "en": "2. The tongue, a flowing river"
+  },
+  "18.3.0": {
+   "hash": "095d7bff32",
+   "en": "4 The words of a man's mouth are as deep waters, and the wellspring of wisdom as a flowing brook. 5 It is not good to accept the person of the wicked, to overthrow the righteous in judgment. 6 A fool's lips enter into contention, and his mouth calleth for strokes. 7 A fool's mouth is his destruction, and his lips are the snare of his soul. 8 The words of a talebearer are as sweet morsels, and they go down into the innermost parts of the belly. 9 He also that is slothful in his work is brother to him that is a great waster."
+  },
+  "18.3.1": {
+   "hash": "7b4bcee4d4",
+   "en": "\"The words of a man's mouth are as deep waters, and the wellspring of wisdom as a flowing brook\" [4]"
+  },
+  "18.3.2": {
+   "hash": "adb478711e",
+   "en": "When the Spirit of God dwells in the true believer in our Lord Jesus Christ, rivers of living water flow from his belly (Jn 7:38); this is the wellspring of wisdom that will never run dry. God reproached His people of old, saying: \"For my people have committed two evils; they have forsaken me the fountain of living waters, and hewed them out cisterns, broken cisterns, that can hold no water\" (Jer 2:13)."
+  },
+  "18.3.3": {
+   "hash": "809c70fe52",
+   "en": "* The word in the heart of man is deep waters, and a river and a flowing spring. Solomon means by deep waters \"abundant waters.\" Many rivers can always overflow instead of one river. Or he says: they contain what is hidden and deep in them. Just as waters cannot be measured, so the word in the heart of the person who lives in the Lord is without limit. Therefore he uses \"the word\" in connection with knowledge. This is the person in whose heart a spring of water has gushed forth at the words of Jesus. He (Solomon) speaks of it as flowing, raining on the fields and watering them, so that they become fruitful."
+  },
+  "18.4.0": {
+   "hash": "b22858bb65",
+   "en": "St. John Chrysostom \"It is not good to accept the person of the wicked, to overthrow the righteous in judgment\" [5]."
+  },
+  "18.4.1": {
+   "hash": "fdfe3af888",
+   "en": "Since God wishes the Church to be an icon of heaven, and men to be ambassadors for Him, He insists on no partiality in judgment, so it is not permissible to justify the wicked, and fabricate charges against the righteous just; both are an abomination to the Lord, the just Judge. It is stated in Deuteronomy: \"And I charged your judges at that time, saying, Hear your brethren, and judge righteously between every man and his brother, and the stranger that is with him. Ye shall not respect persons in judgment; but ye shall hear the small as well as the great; ye shall not be afraid of the face of man; for the judgment is God's\" (Deut 1:16-17)."
+  },
+  "18.4.2": {
+   "hash": "88000cb47c",
+   "en": "* Those who hear cases must judge with justice, and not accept bribes at the expense of the innocent, \"for a gift doth blind the eyes of the wise, and pervert the words of the righteous\" (Deut 16:19). Lest while seeking money they lose the soul. No one gets unjust gain without a just loss coming upon him. Where there is gain there is loss; the gain is in the money chest, but the loss is in the conscience."
+  },
+  "18.4.3": {
+   "hash": "f1105ab9bc",
+   "en": "Fr. Caesarius, Bishop of Arles This is what the Jewish people committed when they lifted up the face of the wicked Barabbas, for nothing but to condemn the Lord of glory, Jesus the Righteous, to crucifixion unjustly."
+  },
+  "18.5.0": {
+   "hash": "22fa014820",
+   "en": "\"A fool's lips enter into contention, and his mouth calleth for strokes\" [6]."
+  },
+  "18.5.1": {
+   "hash": "af9ea6af29",
+   "en": "The lips of the fool (the foolish man) have no work but to call for the stirring up of contentions, so if the mouth of the righteous is a fountain of living waters, anointed with the anointing of the Holy Spirit, quenching the fires of anger, and pouring peace and coolness on stormy souls, then on the contrary the mouth of the fool is a source of troubles and disturbances, finding pleasure in stirring up quarrels and disputes."
+  },
+  "18.6.0": {
+   "hash": "2fb5052b35",
+   "en": "\"A fool's mouth is his destruction, and his lips are the snare of his soul\" [7]"
+  },
+  "18.6.1": {
+   "hash": "c2a75ca893",
+   "en": "These contentions which the mouth of the fool stirs up in the lives of those around him recoil upon him, so that he suffers destruction, and falls into the nets he set for his brethren."
+  },
+  "18.7.0": {
+   "hash": "d9b2a70c2e",
+   "en": "\"The words of a talebearer are as sweet morsels, and they go down into the innermost parts of the belly\" [8]"
+  },
+  "18.7.1": {
+   "hash": "ca12a0971b",
+   "en": "The talebearer presents his words as a sweet morsel, so some find pleasure in listening to him, perhaps as a kind of amusement or to flatter the talebearer, but the listener suffers from these words, for they go down as into the chambers of his belly, and he does not know deliverance from their poisons."
+  },
+  "18.7.2": {
+   "hash": "93d7f63a29",
+   "en": "* Abba Mark said: \"Everything you say about your brother behind his back and cannot say in front of him is slander and defamation, and every concern that does not lead to the good of worship is a worldly concern.\""
+  },
+  "18.7.3": {
+   "hash": "a53577400d",
+   "en": "* (Abba Isaiah) was asked what slander is, and he answered: \"It is ignorance of the glory of God and hatred of others.\""
+  },
+  "18.8.0": {
+   "hash": "a1b30145ec",
+   "en": "Paradise of the Fathers \"He also that is slothful in his work is brother to him that is a great waster\" [9]."
+  },
+  "18.8.1": {
+   "hash": "6fbf6394c0",
+   "en": "Just as the wasteful or prodigal man squanders his money and spends it in the wrong places, so the careless or lazy or slack man squanders his precious time, counting it as dust of no value."
+  },
+  "18.8.2": {
+   "hash": "a397bdd799",
+   "en": "* Likewise, if strong hands do not try to carry the good works they have begun to the point of perfection, then mere slackness in diligence does not agree with what was accomplished at the beginning. Therefore Solomon says: \"He also that is slothful in his work is brother to him that is a great waster\" (Prov 18:9)."
+  },
+  "18.8.3": {
+   "hash": "af82b149a8",
+   "en": "Pope Gregory (the Great)"
+  },
+  "18.9.s": {
+   "hash": "1a9f557bd6",
+   "en": "3. Spiritual wealth"
+  },
+  "18.9.0": {
+   "hash": "360ad24e1b",
+   "en": "10 The name of the LORD is a strong tower: the righteous runneth into it, and is safe. 11 The rich man's wealth is his strong city, and as an high wall in his own conceit."
+  },
+  "18.9.1": {
+   "hash": "352ccf213b",
+   "en": "\"The name of the LORD is a strong tower: the righteous runneth into it, and is safe\" [10]"
+  },
+  "18.9.2": {
+   "hash": "6a37ca30df",
+   "en": "Taking refuge in the name of the Lord is entering the divine fortress, in which he who accepts God's work in him takes shelter. But the unrepentant wicked man does not profit from the name of the Lord, because he uses it not for the edification of his soul, but for the accomplishment of earthly aims. As it is written in the Book of Acts: \"Then certain of the vagabond Jews, exorcists, took upon them to call over them which had evil spirits the name of the Lord Jesus, saying, We adjure you by Jesus whom Paul preacheth... And the evil spirit answered and said, Jesus I know, and Paul I know; but who are ye? And the man in whom the evil spirit was leaped on them, and overcame them, and prevailed against them, so that they fled out of that house naked and wounded\" (Acts 19:13-16)."
+  },
+  "18.9.3": {
+   "hash": "46f0b1f93f",
+   "en": "* The word \"Jesus\" is glorious and worthy of all worship and adoration. It is the name which is above every name."
+  },
+  "18.9.4": {
+   "hash": "1d7b702e38",
+   "en": "Origen * The Head suffered in the place of a skull. What a great prophetic name! The same name reminds you to think of the Crucified One as not a mere man. He is the Head that has the power."
+  },
+  "18.9.5": {
+   "hash": "8e939e2a19",
+   "en": "St. Cyril of Jerusalem * \"Tell me, O thou whom my soul loveth.\" I call You so, because Your name is above every name (Phil 2:9). It is ineffable, and not comprehended by the human mind. Therefore Your name reveals Your goodness, and my relationship with You is spiritual."
+  },
+  "18.10.0": {
+   "hash": "3738e9428e",
+   "en": "St. Gregory of Nyssa \"The rich man's wealth is his strong city, and as an high wall in his own conceit\" [11]."
+  },
+  "18.10.1": {
+   "hash": "f2f3f78acf",
+   "en": "While the true believer fortifies himself in the name of the Lord as in an impregnable stronghold, and clings to it as his treasure and his riches that satisfy his soul, the heart of the unbelieving rich man is bound to money, imagining that it gives him security and peace and satisfies all his needs forever. But soon wealth leaves its owner, or the man leaves it to depart from the world naked. As the Lord Christ says: \"But woe unto you that are rich! for ye have received your consolation. Woe unto you that are full! for ye shall hunger\" (Lk 6:24-25). As He also said: \"How hard is it for them that trust in riches to enter into the kingdom of God! It is easier for a camel to go through the eye of a needle, than for a rich man to enter into the kingdom of God\" (Mk 10:24-25)."
+  },
+  "18.11.s": {
+   "hash": "07ec89dd2b",
+   "en": "4. The blessing of humility"
+  },
+  "18.11.0": {
+   "hash": "956565ddad",
+   "en": "\"Before destruction the heart of man is haughty, and before honour is humility\" [12]."
+  },
+  "18.11.1": {
+   "hash": "1617a0c20f",
+   "en": "It is fitting for the believer to fix his eyes on God's gifts to him, for what he receives of spiritual or practical or material abilities, gifts and possibilities are holy gifts, so he thanks God and glorifies Him. As Mar Isaac the Syrian says: \"There is no gift without increase except that which is without thanks.\" But he who counts what he has as the work of his own hands, denying the favor of God and His grace, loses himself as he may lose what is in his hands."
+  },
+  "18.11.2": {
+   "hash": "8c0c7f2094",
+   "en": "Humility is the fixing of the eyes on God who dwells in us, so we realize that through Him we enjoy everything and without Him we become nothing at all."
+  },
+  "18.11.3": {
+   "hash": "fa0feb633c",
+   "en": "* Observe the tree, how it first inclines downward (the root) so that it may go upward. If it strikes its root down into the soil, it can raise its top toward heaven. Is it not through humility that you seek to rise? Without humility you will not reach the heights. Do you want to grow in the air without a root? Such is not growth but collapse."
+  },
+  "18.11.4": {
+   "hash": "3e2f504611",
+   "en": "St. Augustine"
+  },
+  "18.12.s": {
+   "hash": "22eab65564",
+   "en": "5. The gift of listening"
+  },
+  "18.12.0": {
+   "hash": "26415f2f19",
+   "en": "\"He that answereth a matter before he heareth it, it is folly and shame unto him\" [13]"
+  },
+  "18.12.1": {
+   "hash": "18c6130816",
+   "en": "The wise man often warns us against hasty judgments caused by rashness, by much speaking and by not listening to others."
+  },
+  "18.12.2": {
+   "hash": "29a1dc6cde",
+   "en": "How can we give a sound answer without listening carefully to the question put to us?"
+  },
+  "18.12.3": {
+   "hash": "79f333e3a4",
+   "en": "How can we win the one we speak with without attending to him with care?"
+  },
+  "18.12.4": {
+   "hash": "014817fcdf",
+   "en": "The Word of God, who calls us to listen, came down to us to reveal that He listens to our petitions, and His longing to enter into dialogue with us. The Lord Christ listened to the Samaritan woman with long-suffering and gentleness without wounding her feelings. And He listened to the thief on the right who had formerly reproached Him. And He entered into dialogue with Abraham before the burning of Sodom and Gomorrah. And He called us: \"Come now, and let us reason together, saith the LORD\" (Isa 1:18)."
+  },
+  "18.13.s": {
+   "hash": "f3b092554b",
+   "en": "6. The gift of hope"
+  },
+  "18.13.0": {
+   "hash": "312ce7eaac",
+   "en": "\"The spirit of a man will sustain his infirmity; but a wounded spirit who can bear?\" [14]"
+  },
+  "18.13.1": {
+   "hash": "b419a76b05",
+   "en": "If a member of the body is struck by an illness it can be cured, but if the soul is broken by despair or anxiety or pride and so on, the whole man is shattered, and needs the intervention of the hand of the Creator Himself to heal him and raise him up anew."
+  },
+  "18.13.2": {
+   "hash": "7e765264ab",
+   "en": "In the days of Nehemiah the walls of Jerusalem were broken down and its gates burned with fire, and also the walls of the hearts of the people and their inner gates were shattered. They needed a divine intervention, so all the people gathered themselves together as one man into the street, and Ezra the scribe read the Law from the morning until midday (Neh 8:3), and the ears of all the people were attentive unto the book of the Law, and Ezra blessed the LORD, the great God, and all the people answered, Amen, Amen. Nehemiah and Ezra the priest and the Levites that taught the people said: \"Be not sorry: for the joy of the LORD is your strength\" (Neh 8:10). Men, as sinners, need the presence of the word of God in their midst, and even within them, so that His joy becomes our strength!"
+  },
+  "18.13.3": {
+   "hash": "617fdd1d8d",
+   "en": "There is no danger that strikes the being of man like deadly gloom, and there is no power that lifts up his whole being like the joy of the Spirit and the gladness of the divine presence."
+  },
+  "18.13.4": {
+   "hash": "83899f4cdd",
+   "en": "* To hope in God from God, this is to love God, the possessor of grace."
+  },
+  "18.13.5": {
+   "hash": "c86505452f",
+   "en": "* Hope drives man toward eternity, toward the future, in practical faith, and perseverance with joy and gladness amid sufferings."
+  },
+  "18.13.6": {
+   "hash": "1c6e963f78",
+   "en": "* Let us listen and rejoice in hope even if the present is a life not loved but endured, for you will have strength to bear all its trials."
+  },
+  "18.13.7": {
+   "hash": "c239f13dfc",
+   "en": "* We rejoice in hope, looking to the rest to come, so we walk with gladness amid the troubles."
+  },
+  "18.13.8": {
+   "hash": "4f19eec448",
+   "en": "St. Augustine * What is the hope of the Gospel but Christ? For He is our peace, who works all these things... and whoever does not believe in Christ loses everything."
+  },
+  "18.13.9": {
+   "hash": "c123ca6bbf",
+   "en": "* Hope is certainly like a strong rope let down from the heavens that helps our spirits, lifting him who holds it firmly above this world and the trials of this evil life; but if a man is weak and lets go of this holy cable, he falls at once, and is choked in the pit of evil."
+  },
+  "18.13.10": {
+   "hash": "5591ddd20e",
+   "en": "* Nothing makes the soul so courageous and so fond of venturing as hope! And before we obtain the things we hope for, it gives us a reward, namely: \"patient in tribulation.\" Before we obtain the things to come, you enjoy in the present life a great good through trials, for you become a patient and proven man..."
+  },
+  "18.13.11": {
+   "hash": "a24eff24fb",
+   "en": "Love makes things easy, and the Spirit helps, and hope enlightens, and trials refine you, making you proven, able to bear everything nobly, and with all this goes a very great weapon, which is prayer."
+  },
+  "18.13.12": {
+   "hash": "42fef53b6b",
+   "en": "St. John Chrysostom * Hope lifts itself more firmly in God with regard to the hard things that a man suffers for God's sake. The joy of the reward in eternity cannot be gathered unless it is first sown here in godly sorrow. The Psalmist says: \"He that goeth forth and weepeth, bearing precious seed, shall doubtless come again with rejoicing, bringing his sheaves with him\" (Ps 126:6). So Paul says: \"For if we be dead with him, we shall also live with him: if we suffer, we shall also reign with him\" (2 Tim 2:11-12). Likewise he warns his disciples, saying: \"We must through much tribulation enter into the kingdom of God\" (Acts 14:22)."
+  },
+  "18.13.13": {
+   "hash": "af82b149a8",
+   "en": "Pope Gregory (the Great)"
+  },
+  "18.14.s": {
+   "hash": "b32191cb86",
+   "en": "7. More wisdom"
+  },
+  "18.14.0": {
+   "hash": "659529b718",
+   "en": "\"The heart of the prudent getteth knowledge; and the ear of the wise seeketh knowledge.\"[15]"
+  },
+  "18.14.1": {
+   "hash": "b422d9d2ba",
+   "en": "The Lord Christ says: \"Blessed are they which do hunger and thirst after righteousness: for they shall be filled\" (Mt 5:6). The more the believer possesses the righteousness of Christ the more his thirst and hunger for it increase, and he keeps drawing from the overflow of His surpassing grace until he meets Him face to face. So he who possesses knowledge becomes prudent, with a thirst for ever more, and his ear thirsts to listen to knowledge without weariness. Therefore the Apostle Paul says: \"Forgetting those things which are behind, and reaching forth unto those things which are before\" (Phil 3:13)."
+  },
+  "18.15.s": {
+   "hash": "ab40fcd708",
+   "en": "8. The remedy of quarrels"
+  },
+  "18.15.0": {
+   "hash": "30953471da",
+   "en": "16 A man's gift maketh room for him, and bringeth him before great men. 17 He that is first in his own cause seemeth just; but his neighbour cometh and searcheth him. 18 The lot causeth contentions to cease, and parteth between the mighty. 19 A brother is more impregnable than a fortified city, and quarrels are like the bar of a castle."
+  },
+  "18.15.1": {
+   "hash": "ec59206490",
+   "en": "\"A man's gift maketh room for him, and bringeth him before great men\" [16]"
+  },
+  "18.15.2": {
+   "hash": "255c2256e0",
+   "en": "The wise Solomon is passionately fond of giving: the giving of the heart and the soul, as well as the giving of feelings and sentiments, the giving of practical, self-sacrificing love."
+  },
+  "18.15.3": {
+   "hash": "5f25be1f0f",
+   "en": "Giving is offered to the poor and needy and despised, as giving is offered to the family, and offered in love to superiors as to subordinates, and offered to those who bear a quarrel or a misunderstanding concerning the man. But the main line in the gift is not its material value, nor is it for the purpose of bribery, but in expressing love and submission and gratitude."
+  },
+  "18.15.4": {
+   "hash": "d9e7683136",
+   "en": "The world needs to take, and the Church needs to give. She gives the fruits of the Spirit: love, joy, peace... For a man's smile, welling up from the depths of the heart by the work of the Holy Spirit of God, is far more precious than many material gifts!"
+  },
+  "18.15.5": {
+   "hash": "eae740a3c6",
+   "en": "And giving solves many problems and quarrels without resorting to courts and judgment."
+  },
+  "18.16.0": {
+   "hash": "d0111f9bdb",
+   "en": "\"He that is first in his own cause seemeth just; but his neighbour cometh and searcheth him\" [17]"
+  },
+  "18.16.1": {
+   "hash": "863b57034c",
+   "en": "The giving of the heart removes many quarrels, but many resort to the court to settle disputes. It is fitting for the judge or leader to listen to both parties. When he listens to him who comes first and complains he thinks he is in the right in his case, but he is bound to examine the matter with the other party, even if a man is confident in the truthfulness of the first. For each party looks at the matter from his own viewpoint, justifying his conduct, casting the blame on the other party."
+  },
+  "18.16.2": {
+   "hash": "2bf0a12607",
+   "en": "It is neither wise nor just to pass a judgment, even in our mind, without examining the matter from all sides."
+  },
+  "18.16.3": {
+   "hash": "438b6856b8",
+   "en": "* He who accuses himself at the beginning of his speech is righteous (cf. Prov 18:17). Behold, you see that confession has a very effective power to correct faults. So denying the crime after committing the sin is worse than the sins themselves."
+  },
+  "18.16.4": {
+   "hash": "85ccacf095",
+   "en": "St. John Chrysostom \"* If the righteous man is prepared to accuse himself, how much more the sinner?"
+  },
+  "18.16.5": {
+   "hash": "2d87f22f9f",
+   "en": "* If the Apostle made such a confession (1 Cor 15:9), how much more is it fitting for the sinner to confess? Scripture says: \"The righteous man accuses himself when he begins to speak\" (cf. Prov 19:17)."
+  },
+  "18.16.6": {
+   "hash": "aac23a1d77",
+   "en": "St. Jerome * Let us tremble at the majesty of His ineffable appearance and at the voice that unceasingly proclaims the praise of that invisible Being. And let us be filled with fear and trembling, falling on our faces for fear before Him. Let us realize our earthly nature, knowing the foundation of the dust from which we are, that we may share the prophet's saying with feeling and a contrite heart: \"Woe is me!\" (Isa 6:5). Let us uncover our sins and condemn ourselves sharply, as it is said: \"He that is first in his own cause seemeth just\" (Prov 18:17)."
+  },
+  "18.17.0": {
+   "hash": "f629ba89ce",
+   "en": "Martyrius - Sahdona \"The lot causeth contentions to cease, and parteth between the mighty\" [18]"
+  },
+  "18.17.1": {
+   "hash": "54dbec46b8",
+   "en": "The use of the lot was spoken of earlier (Prov 16:33). In ancient times they resorted to the lot when discussions reached a dead end, as the only way to settle disputes."
+  },
+  "18.17.2": {
+   "hash": "dd4abd3822",
+   "en": "Because of her sin Jerusalem was left in ruin and there was not even one to cast a cord or a lot to decide disputes (Mic 2:5). Now that we have enjoyed the Holy Spirit of God, He has become our leader and trainer that we may come to know the truth, and accept the will of God with joy. God Himself \"trains (guides) the meek in the truth, and teaches the meek His ways\" (Ps 25:9)."
+  },
+  "18.18.0": {
+   "hash": "cdb0916fdc",
+   "en": "\"A brother is more impregnable than a fortified city, and quarrels are like the bar of a castle\" [19]"
+  },
+  "18.18.1": {
+   "hash": "4c3573df46",
+   "en": "Friendship is a strong support for a man, so if two friends lose love and enter into quarrel, they are like those who have lost their fortress, and lost the stronghold of love, and both parties lose the gift of friendship. The dispute began between Judah and Israel in the days of Jeroboam the son of Solomon, and it could have been healed by gentle words of love, but pride on both sides led to destructive results throughout the ages, and the two kingdoms lost the blessing of unity and love."
+  },
+  "18.18.2": {
+   "hash": "35c191ec0e",
+   "en": "* There the Lord gives the blessing, where? In such a dwelling, in such harmony together, in such agreement in dwelling together, in fellowship. This is a blessing and the opposite of this is a curse. Someone praises this by saying: \"Three things my soul desires... the agreement of brethren, and friendship between neighbors, and a husband and wife who agree\" (cf. Sir 25:1-2). Another writer points to the power of that by a riddle in words: [If two lie down they keep warm, and a threefold cord is not quickly broken] (cf. Eccl 4:11-12). Here both the delight and the strength appear clearly, showing the truth of the great delight that befalls those who sleep together, and the great strength brought to those who work (together). Again, a brother who helps a brother is a strong city (cf. Prov 18:19). And Christ said: \"For where two or three are gathered together in my name, there am I in the midst of them\" (Mt 18:20). Now nature itself requires this, for even at the beginning of the creation of man God said: [It is not good that man should be alone] (cf. Gen 2:18)."
+  },
+  "18.18.3": {
+   "hash": "e357856efa",
+   "en": "St. John Chrysostom"
+  },
+  "18.19.s": {
+   "hash": "f915820403",
+   "en": "9. The fruits of the tongue"
+  },
+  "18.19.0": {
+   "hash": "19bfc88333",
+   "en": "20 A man's belly shall be satisfied with the fruit of his mouth; and with the increase of his lips shall he be filled. 21 Death and life are in the power of the tongue: and they that love it shall eat the fruit thereof."
+  },
+  "18.19.1": {
+   "hash": "20274dc55e",
+   "en": "\"A man's belly shall be satisfied with the fruit of his mouth; and with the increase of his lips shall he be filled\" [20]"
+  },
+  "18.19.2": {
+   "hash": "a0a5bb788b",
+   "en": "The holy tongue is a fountain of deep waters (Prov 18:4), which can water the soul, turning its wilderness into a fruitful garden, and it is a holy garden overflowing with good things for its owner and for those around him, so his depths (his belly) are satisfied and he feeds his brethren with love."
+  },
+  "18.20.0": {
+   "hash": "7ae947c9e9",
+   "en": "\"Death and life are in the power of the tongue: and they that love it shall eat the fruit thereof\" [21]"
+  },
+  "18.20.1": {
+   "hash": "f92623a5b8",
+   "en": "By the tongue we sow either love that gives life, or quarrels and disputes that bring death. There is not a word we utter that does not bear fruit, even if it is passing."
+  },
+  "18.20.2": {
+   "hash": "eda4c0ac0a",
+   "en": "* Beware of the babbling tongue and of ears eager to hear the news. Do not belittle others, and do not listen to one who belittles another."
+  },
+  "18.20.3": {
+   "hash": "0a2c2b1363",
+   "en": "* The garrulous old woman, and the old man who speaks fables, and the sophist in his words, all these confiscate the Holy Scriptures, and tear them to pieces, and they may teach with them without learning them."
+  },
+  "18.20.4": {
+   "hash": "d8afaa72c8",
+   "en": "* The more the tongue sins, the more wretched it becomes!"
+  },
+  "18.20.5": {
+   "hash": "f1d289a642",
+   "en": "St. Jerome * How can the body be a sacrifice? Do not let your eye look at anything evil, and it becomes a sacrifice indeed (Mt 5:29; 6:22; 18:9). May your tongue not utter a defiled word, and it becomes an offering. And let your hand not do a wicked thing, and it becomes a whole burnt offering. But even this is not enough, for we are also bound to practice good works (2 Tim 2:21). The hand is bound to give alms, and the mouth to bless those who curse it, and the two ears to find time to listen to the reading of Holy Scripture. These are the firstfruits of all works."
+  },
+  "18.20.6": {
+   "hash": "2223a6b9e1",
+   "en": "St. John Chrysostom The sanctification of the tongue is accomplished not only by the sanctification of the words that come out of it, but by the sanctification of silence, when it lets holy works speak in the language of love and tenderness, and their words reach the hearts of the hearers."
+  },
+  "18.20.7": {
+   "hash": "6b3c7be18f",
+   "en": "* Abba Poemen said of Abba Nesteros that he was like the bronze serpent that Moses the prophet lifted up for the healing of the people, for he possessed every virtue, and without speaking he healed everyone."
+  },
+  "18.20.8": {
+   "hash": "6f9e080609",
+   "en": "Paradise of the Fathers"
+  },
+  "18.21.s": {
+   "hash": "489efe5f77",
+   "en": "10. Choosing a life partner"
+  },
+  "18.21.0": {
+   "hash": "e5d8f3521c",
+   "en": "\"Whoso findeth a wife findeth a good thing, and obtaineth favour of the LORD\"[22]"
+  },
+  "18.21.1": {
+   "hash": "8101cc51d7",
+   "en": "Not every wife (or husband) is from God, but he who commits his life into the hand of the Lord, and seeks what is for his edification and the edification of the community, the Lord guides him to the holy wife (or husband), and the family becomes a Church pleasing and beloved to the Lord, the object of His delight."
+  },
+  "18.21.2": {
+   "hash": "06401554a9",
+   "en": "* There is nothing more precious, and nothing more precious can be found, than for a man to be loved by his wife and to love her!"
+  },
+  "18.21.3": {
+   "hash": "468085b029",
+   "en": "Scripture says: \"A wife who agrees with her husband\" (as one of the three blessings that the wise man mentioned) (Sir 25:1-2), for where this (love) exists there is wealth and prosperity overflows, and where this is absent nothing else avails, but all things go in a wrong way, and life becomes misery and anxiety."
+  },
+  "18.21.4": {
+   "hash": "79fb1a1697",
+   "en": "Let us seek this before everything!"
+  },
+  "18.21.5": {
+   "hash": "698059d5bc",
+   "en": "He who seeks money seeks nothing. Seek what endures!"
+  },
+  "18.21.6": {
+   "hash": "1a9e75a3cc",
+   "en": "Do not seek a wife from among the rich, lest the excess of wealth on her side cause arrogance."
+  },
+  "18.21.7": {
+   "hash": "e9cd68ea31",
+   "en": "It is fitting for us not to seek a wife for her wealth, but to seek her as a partner for us in life for the sake of the household management, that she may be a helper for the begetting of children."
+  },
+  "18.21.8": {
+   "hash": "b8028f2a52",
+   "en": "God gave woman not to bring money but to be a helper!"
+  },
+  "18.21.9": {
+   "hash": "612006cca3",
+   "en": "* Husband and wife are one as wine and water are one when mixed together. Just as an unbelieving partner corrupts the believer. For this reason he who is not yet married must take all care either not to marry at all or to marry in the Lord."
+  },
+  "18.21.10": {
+   "hash": "17eb0dc77f",
+   "en": "Origen"
+  },
+  "18.22.s": {
+   "hash": "26d7f3ce67",
+   "en": "11. The poor and the rich"
+  },
+  "18.22.0": {
+   "hash": "6b7f279c3e",
+   "en": "\"The poor useth intreaties; but the rich answereth roughly.\" [23]"
+  },
+  "18.22.1": {
+   "hash": "47d446d8b0",
+   "en": "The rich man often relies on his possessions, and speaks in a spirit of loftiness like one who leans on his wealth, but it is fitting for him to realize that the Lord Himself listens to the supplications of the wronged poor man and his hidden cries."
+  },
+  "18.23.s": {
+   "hash": "961d23f964",
+   "en": "12. Friendship"
+  },
+  "18.23.0": {
+   "hash": "b067037665",
+   "en": "\"He that multiplieth friends destroyeth himself: but there is a friend that sticketh closer than a brother.\" [24]"
+  },
+  "18.23.1": {
+   "hash": "14a265368a",
+   "en": "The wise man fears a multitude of unwise friends, who waste his time, but while showing love to all, especially colleagues, a man must choose a spiritual friend who will be closer than his brother according to the flesh."
+  },
+  "18.23.2": {
+   "hash": "edaac78849",
+   "en": "* Imagine a circle from whose center rays or lines go out. The farther the lines get from the center the farther apart they are from one another... and on the contrary, the nearer they come to the center the nearer they come to one another. Suppose that this circle is the world and the center of the circle is God. And the lines from the center to the circumference or from the circumference to the center are the way of the life of men; we find the same thing, for as the saints move within the circle toward the center, wishing to draw near to God, each of them draws near to the other."
+  },
+  "18.23.3": {
+   "hash": "0221ea15be",
+   "en": "St. Dorotheus * Let us befriend the righteous and live with them for long periods, not that others may reckon us saints like them, but with the aim of imitating them and receiving their blessing. For the friendship of those who strive kindles the heart with zeal and striving. But let us realize that they are men, liable to fall, and not gods immune from error, so that if they err we do not err like them nor despair of our own salvation!"
+  },
+  "18.23.4": {
+   "hash": "a401dc6d46",
+   "en": "* Just as those who sit with sellers of musk and fragrant perfumes acquire sweet scents, so we ought to keep company with the wise and the teachers and the masters of virtue, to follow their example in good things."
+  },
+  "18.23.5": {
+   "hash": "e357856efa",
+   "en": "St. John Chrysostom"
+  },
+  "18.23.6": {
+   "hash": "418a6b3c49",
+   "en": "Let me live in Your house and separate myself from evil!"
+  },
+  "18.23.7": {
+   "hash": "6203c9025c",
+   "en": "* What refuge have I but You? In Your house I dwell and with Your children I enjoy You."
+  },
+  "18.23.8": {
+   "hash": "00f7bd5e72",
+   "en": "I live in the spirit of love and unity, and so enjoy Your salvation."
+  },
+  "18.23.9": {
+   "hash": "d671c47f9d",
+   "en": "And I separate myself from evil and vanity."
+  },
+  "18.23.10": {
+   "hash": "3506a37203",
+   "en": "My heart is wide open to all men, but I have no fellowship with shattering corruption!"
+  },
+  "18.23.11": {
+   "hash": "5dd2c901f3",
+   "en": "* In Your house I accept wise, holy counsel."
+  },
+  "18.23.12": {
+   "hash": "1bb310023c",
+   "en": "I enjoy the dialogue of love with my brethren."
+  },
+  "18.23.13": {
+   "hash": "fac3b46e61",
+   "en": "And I feel the work of Your Holy Spirit in Your Church."
+  },
+  "18.23.14": {
+   "hash": "cd03410c5f",
+   "en": "* Your Holy Spirit, the Giver of unity and wisdom, leads Your Church."
+  },
+  "18.23.15": {
+   "hash": "bb6122a609",
+   "en": "He turns our tongues into rivers of deep waters, and a wellspring of true wisdom."
+  },
+  "18.23.16": {
+   "hash": "7691c1f51a",
+   "en": "* Your Church is the icon of heaven!"
+  },
+  "18.23.17": {
+   "hash": "99755b7c31",
+   "en": "And Your people are the ambassadors of Your kingdom."
+  },
+  "18.23.18": {
+   "hash": "79f8b0edfe",
+   "en": "Grant righteousness and justice to become the law of every member in her."
+  },
+  "18.23.19": {
+   "hash": "3624ff2b34",
+   "en": "And grant every heart to bear no hatred and ill will, so that there is no place for quarrel in her."
+  },
+  "18.23.20": {
+   "hash": "90c8d36b32",
+   "en": "Nor for a wounding word to come out of the lips of any of her members."
+  },
+  "18.23.21": {
+   "hash": "408339dabb",
+   "en": "Let slander not creep in among them."
+  },
+  "18.23.22": {
+   "hash": "f6d5989d5b",
+   "en": "Let all work in the spirit of strength, not of failure."
+  },
+  "18.23.23": {
+   "hash": "5a21a75015",
+   "en": "Let all be in the spirit of earnestness, knowing no slackness or sloth."
+  },
+  "18.23.24": {
+   "hash": "2e750e559a",
+   "en": "* You are the Church's capital, her wealth and her fortress."
+  },
+  "18.23.25": {
+   "hash": "a60aa68eb2",
+   "en": "Your name is sweet, the Giver of strength and victory."
+  },
+  "18.23.26": {
+   "hash": "f1fac45948",
+   "en": "In the spirit of humility Your children hide in You."
+  },
+  "18.23.27": {
+   "hash": "901d95ea99",
+   "en": "They glorify You, and You glorify them!"
+  },
+  "18.23.28": {
+   "hash": "5d8caf13b2",
+   "en": "They honor You, and You honor them!"
+  },
+  "18.23.29": {
+   "hash": "dc12a4ef3e",
+   "en": "They are filled with the spirit of hope, for You are a Father full of tenderness, wise and almighty!"
+  },
+  "18.23.30": {
+   "hash": "82388a5123",
+   "en": "* Grant me the spirit of true wisdom."
+  },
+  "18.23.31": {
+   "hash": "9e5907488c",
+   "en": "By Your wisdom I do not enter into quarrel, but by love and giving I win, if possible, all men!"
+  },
+  "18.23.32": {
+   "hash": "295edafe9d",
+   "en": "* I have learned how to take refuge in You in Your Church."
+  },
+  "18.23.33": {
+   "hash": "47f7667b4a",
+   "en": "And I flee to You from every error and evil!"
+  },
+  "18.23.34": {
+   "hash": "085077e625",
+   "en": "And I walk in everything according to Your good pleasure."
+  },
+  "18.23.35": {
+   "hash": "4c5f8bdd0d",
+   "en": "Finally, let my house arise as a holy Church for You, so that I with my family become the object of Your delight!"
+  }
+ }
+}

@@ -1,0 +1,882 @@
+{
+ "book": "PRO",
+ "chunk": 25,
+ "units": {
+  "20.0.s": {
+   "hash": "040f2cd992",
+   "en": "1. A life of drunkenness"
+  },
+  "20.0.0": {
+   "hash": "2435ae61be",
+   "en": "\"Wine is a mocker, strong drink is raging: and whosoever is deceived thereby is not wise\" [1]"
+  },
+  "20.0.1": {
+   "hash": "d2918902e0",
+   "en": "Here for the first time we find a commandment warning against intoxicating wine, and the wise man returns to warn on other occasions (Prov 23:20-21, 29-35; 31:4-5)."
+  },
+  "20.0.2": {
+   "hash": "a1aaba2e3c",
+   "en": "Despite the medicinal benefits of wine, and though it is a holy creature, the enemy of good found no difficulty in drawing millions toward addiction to wine and drunkenness, and the destruction of their spiritual, psychological and physical lives. When Noah became drunk he was uncovered, and fell into shame, and when Lot became drunk he lay with his two daughters."
+  },
+  "20.0.3": {
+   "hash": "0a24a94570",
+   "en": "The destructive fruits of drunkenness are evident in all societies, and yet many are drawn to it, if not openly, then in secret. Wine mocks the man who drinks it excessively, and treats him with contempt, and the strange thing is that it makes him a fool, so that he mocks those around him, and they mock him."
+  },
+  "20.0.4": {
+   "hash": "1db554a29f",
+   "en": "* Above all, the monk must forbid gatherings with women and the drinking of wine, for wine and women drive even the wise to fall (Sir 19:2)."
+  },
+  "20.0.5": {
+   "hash": "1768784d4b",
+   "en": "St. Basil the Great * A brother was warred upon by his thoughts to leave his monastery, so he told Abba Anthony about it, and the elder said to him: \"Go, sit in your cell and pledge your body to the walls of your cell and do not leave it, and let the thought go wherever it wishes, only do not allow your body to go out of the cell... It will say to you: 'Drink a little wine like the blessed Timothy' (1 Tim 5:23); answer it also: 'Remember the sons of Jonadab who kept the commandments of their father' (Jer 35:6)."
+  },
+  "20.0.6": {
+   "hash": "2fe611ac83",
+   "en": "* Nothing renews the soul that has grown old like the fear of God and pure prayer and continual meditation on the words of the Lord, with supplying the soul with the provision of prayer, and persistence in vigils, and not excess in drinking water. In truth the monk must be abstemious in drinking water as he is completely abstemious in wine, for just as the tree that is watered with water is the only one that is laden with fruit, so also the body that is filled with water becomes soft and sluggish, and from softness comes slackness and sloth, and slackness begets drowsiness, and from drowsiness luxury is begotten, and so little by little the sicknesses of the soul increase and cast us into the depth of hell, and our bodies become a dwelling place for unclean spirits and our thoughts enslaved to shameful passions."
+  },
+  "20.0.7": {
+   "hash": "6dd8101ef5",
+   "en": "St. Anthony the Great * For it is certain that the souls of sinners are like different springs: the gluttons and lovers of wine are like springs that have been defiled, and the greedy and the swindlers are like springs full of frogs..."
+  },
+  "20.0.8": {
+   "hash": "4ff5f4046a",
+   "en": "St. Paphnutius"
+  },
+  "20.1.s": {
+   "hash": "10adeffe47",
+   "en": "2. Provoking the ruler"
+  },
+  "20.1.0": {
+   "hash": "a232b3d31f",
+   "en": "\"The fear of a king is as the roaring of a lion:"
+  },
+  "20.1.1": {
+   "hash": "e18985a222",
+   "en": "whoso provoketh him to anger sinneth against his own soul\" [2]"
+  },
+  "20.1.2": {
+   "hash": "146432a71d",
+   "en": "It is fitting for us to acknowledge the authority of those in leading positions, especially the king or president, and to submit to every human ordinance for the Lord's sake (Rom 13:1; 1 Pet 2:13)."
+  },
+  "20.1.3": {
+   "hash": "3afcec5f97",
+   "en": "He who provokes the king sins against his own soul, for his anger is poured out upon those who oppose him and trouble him."
+  },
+  "20.1.4": {
+   "hash": "c1828072d9",
+   "en": "He who walks in godliness does not fear the ruler, for the Apostle says: \"He that resisteth the power resisteth God, and they that resist shall receive to themselves damnation. For rulers are not a terror to good works, but to the evil. Wilt thou then not be afraid of the power? do that which is good, and thou shalt have praise of the same: for he is the minister of God to thee for good\" (Rom 13:2-4)."
+  },
+  "20.2.s": {
+   "hash": "12e3a07b07",
+   "en": "3. Keeping peace"
+  },
+  "20.2.0": {
+   "hash": "7fed0490b0",
+   "en": "\"It is an honour for a man to cease from strife: but every fool will be meddling\"[3]"
+  },
+  "20.2.1": {
+   "hash": "8789f807ee",
+   "en": "Nothing pours glory and honor and dignity upon a man like his gentleness and long-suffering. \"Let your moderation be known unto all men\" (Phil 4:5)."
+  },
+  "20.2.2": {
+   "hash": "32d49cce6d",
+   "en": "The wise man keeps away as far as he can from quarrels and disputes for the sake of his inner peace, and in order to practice positive, edifying works, and leaves the work to be the witness for the truth, and turns opponents into friends, but the fool is pleased with disputes, and sports in them."
+  },
+  "20.2.3": {
+   "hash": "5e62e28b45",
+   "en": "* He who seeks peace seeks Christ, for He is our peace (Col 1:20), who makes both one (Eph 2:14), making peace by the blood of His Cross whether on earth or in heaven."
+  },
+  "20.2.4": {
+   "hash": "f15c025b51",
+   "en": "St. Basil the Great * Do not place enmity in your heart against any man, and do not hate him who is hostile to his neighbor nor condemn his enmity, and do not be angry with a brother who is angry with his neighbor, for this is true peace: that you encourage yourself with this thought: affliction continues for a short time, while peace is eternal by the grace of God the Word."
+  },
+  "20.2.5": {
+   "hash": "077154725f",
+   "en": "Abba Moses"
+  },
+  "20.3.s": {
+   "hash": "4dc3515de2",
+   "en": "4. The fruit of sloth"
+  },
+  "20.3.0": {
+   "hash": "5c971ce26b",
+   "en": "\"The sluggard will not plow by reason of the cold; therefore shall he beg in harvest, and shall not be given\" [4]"
+  },
+  "20.3.1": {
+   "hash": "11a3039c14",
+   "en": "The sluggard looks for any pretext to find himself an excuse not to work; he neglects his field while his neighbors spare no effort to cultivate their fields. And when harvest time comes, the neighbors are busy harvesting their fields, while he begs from them their leftovers and they do not give him."
+  },
+  "20.3.2": {
+   "hash": "593b19ee0a",
+   "en": "The plowing season in the Middle East is November and December, so the sluggard excuses himself that it is winter and he cannot bear the cold, so it is no wonder that when the harvest season comes he finds his field without fruit."
+  },
+  "20.3.3": {
+   "hash": "8ea02fe272",
+   "en": "* The slothful must be exhorted in one way, and the venturesome in another. The slothful must be persuaded not to lose the doing of good by putting it off, and the venturesome must not spoil the merits of their good deeds by a haste that lacks the deliberation of watching for the right times for these deeds."
+  },
+  "20.3.4": {
+   "hash": "e572884462",
+   "en": "Let the slothful realize that unwillingness may prevent doing, at the fitting time when this desire comes, the good we are able to do. The dull mind, when it is not moved by true zeal at its appointed time, entirely loses every sense of desire to do good, for this negligence grows and increases strongly, but without our feeling it. Therefore Solomon says plainly: \"Slothfulness casteth into a deep sleep\" (Prov 19:15)."
+  },
+  "20.3.5": {
+   "hash": "a331c690a6",
+   "en": "The slothful man, although he may be awake with true feelings, yet his sloth increases negligence, and therefore it was said that sloth casts a man into a deep sleep. For when the striving in doing good ceases, he begins gradually to lose the sense of true feelings. It was well added to this passage: \"and an idle soul shall suffer hunger\" (Prov 19:15), for when the soul neglects itself and is not restrained by force, and does not direct its effort toward heavenly things, worldly desires harm it, and so when it ignores the bonds of discipline, it rather loses its way as it pursues pleasures, therefore also it is written in the Book of Proverbs on the tongue of Solomon: \"The desire of the slothful killeth him\" (Prov 21:25)."
+  },
+  "20.3.6": {
+   "hash": "0dc3706171",
+   "en": "For this reason the Truth Himself teaches us that the house becomes clean when the evil spirit goes out, but when it remains empty he returns to it with other spirits to take possession of it."
+  },
+  "20.3.7": {
+   "hash": "6b2ed94618",
+   "en": "The sluggard usually neglects what he ought to do, imagining obstacles and groundless fears, and he rests on excuses he invents because of his inertia and dullness. To these Solomon truly says: \"The sluggard will not plow by reason of the cold; therefore shall he beg in harvest, and shall not be given\" (Prov 20:4). Those who do not labor in works of righteousness now will reap nothing (in the summer), and this means that when the burning sun of judgment appears he will beg to enter the Kingdom but in vain."
+  },
+  "20.3.8": {
+   "hash": "0624ed4b8c",
+   "en": "Therefore Solomon says also: \"He that observeth the wind shall not sow; and he that regardeth the clouds shall not reap\" (Eccl 11:4). The wind is nothing but the temptations of the evil spirits, and the clouds that it drives are nothing but the calamities in which the wicked involve us. Yes, the winds drive the clouds when the blows of the evil spirits move the wicked, and so he that observeth the wind shall not sow, and he that regardeth the clouds shall not reap, for those who fear the temptations of the evil spirits and the injustice of the wicked do not now sow good seed, and do not afterward reap the holy reward."
+  },
+  "20.3.9": {
+   "hash": "af82b149a8",
+   "en": "Pope Gregory (the Great)"
+  },
+  "20.4.s": {
+   "hash": "c5e19b35b1",
+   "en": "5. Deep counsel"
+  },
+  "20.4.0": {
+   "hash": "d47920c8e9",
+   "en": "\"Counsel in the heart of man is like deep water; but a man of understanding will draw it out\" [5]."
+  },
+  "20.4.1": {
+   "hash": "38e89682cd",
+   "en": "The man of wisdom and counsel is patient, and listens, and stores up in his depths, so his heart becomes like a deep well in which true knowledge is stored. But fools, being by nature talkative, ascribe to the wise man ignorance and folly because of his few words. But as soon as he draws, that is, draws up the waters of knowledge at the right time, as from the well of his heart, all realize that he is a man of understanding."
+  },
+  "20.4.2": {
+   "hash": "98457bfb01",
+   "en": "* Do not do any work in the time of your repentance without counsel, and you will pass the days of your life in all rest."
+  },
+  "20.4.3": {
+   "hash": "56f5b8d18b",
+   "en": "Abba Isaiah * A monk must take counsel from a wise man, and not let the counsel of a fool dwell in his heart."
+  },
+  "20.4.4": {
+   "hash": "4e9a0ed37d",
+   "en": "St. Hyperechius the Priest"
+  },
+  "20.5.s": {
+   "hash": "cc4ef08cc3",
+   "en": "6. Godliness and purity"
+  },
+  "20.5.0": {
+   "hash": "27f9aa971d",
+   "en": "6 Most men will proclaim every one his own goodness: but a faithful man who can find? 7 The just man walketh in his integrity: his children are blessed after him. 8 A king that sitteth in the throne of judgment scattereth away all evil with his eyes. 9 Who can say, I have made my heart clean, I am pure from my sin? 10 Divers weights, and divers measures, both of them are alike abomination to the LORD. 11 Even a child is known by his doings, whether his work be pure, and whether it be right. 12 The hearing ear, and the seeing eye, the LORD hath made even both of them."
+  },
+  "20.5.1": {
+   "hash": "59daaacdc0",
+   "en": "In these proverbs [6-12] we see a living picture of the wise, godly man, who walks in purity and wants to live perfect."
+  },
+  "20.5.2": {
+   "hash": "256e4ffa4c",
+   "en": "\"Most men will proclaim every one his own goodness: but a faithful man who can find?\" [6]"
+  },
+  "20.5.3": {
+   "hash": "b999d19eef",
+   "en": "Many people think they are good, but how great is the difference between what a man sees from outside and the true inner reality."
+  },
+  "20.5.4": {
+   "hash": "ef3aa38004",
+   "en": "How hard it is to find a man who is faithful and sincere with himself. It is fitting for us not to be deceived by men's praise of us, for no one knows a man except the spirit of man. We must examine ourselves by the light of the Spirit of God, so that we are enlightened and sanctified by Him."
+  },
+  "20.6.0": {
+   "hash": "6896add214",
+   "en": "\"The just man walketh in his integrity: his children are blessed after him\" [7]"
+  },
+  "20.6.1": {
+   "hash": "0d25bb6da7",
+   "en": "The just man is not deluded by men's praise of him, nor shaken by the biting blame and criticism of others; what concerns him is the perfection which God gives him as an inner treasure, which he enjoys, and offers as an inheritance to his children, who benefit from his prayers for them, and imitate him."
+  },
+  "20.6.2": {
+   "hash": "f4fd948b17",
+   "en": "Fathers teach their children by practical life and conduct and secret prayers for them; that is better than presenting them with advice and instructions in words."
+  },
+  "20.6.3": {
+   "hash": "977a331081",
+   "en": "Children can touch the work of God in the lives of their fathers, as they also discover their hypocrisy and deceit if they put on a false appearance. The hearts of children can penetrate the hearts of their fathers, and come to know their secrets and uncover the truth of their relationship with God!"
+  },
+  "20.6.4": {
+   "hash": "c4656fad39",
+   "en": "* Do not count one who is changeable and weak as father of your children, but it is fitting for you to make the eternal, unchangeable God father of your spiritual children. Entrust to Him your wealth which you want to save for them. Make Him a guard over them and a guarantor and keeper of them by His divine power, against all the misfortunes of time. For when you commit it into the hand of God no one takes away its ownership, nor does the public treasury seize it, nor does judicial injustice touch it, but the inheritance is safe when it is kept under the guard of God."
+  },
+  "20.6.5": {
+   "hash": "77f7c1a4c2",
+   "en": "By this you furnish your dear heirs with the beatitudes of the future."
+  },
+  "20.6.6": {
+   "hash": "947334e022",
+   "en": "This is what fatherly affection dictates to you concerning the care of your heirs, relying on the saying of Scripture: \"I have been young, and now am old; yet have I not seen the righteous forsaken, nor his seed begging bread.\" And its saying: \"The just man walketh in his integrity: his children are blessed after him\" (Prov 20:7)."
+  },
+  "20.6.7": {
+   "hash": "86e0872bcd",
+   "en": "Therefore if you do not care to guide your children and keep them in faith and godliness you do not deserve to be called a father but are a traitor father, you who are more careful of their earthly possessions than of their heavenly possessions, so you commend them to Satan and not to Christ. Thereby you sin two sins, and commit a double crime:"
+  },
+  "20.6.8": {
+   "hash": "a138d3fa98",
+   "en": "a. You have not furnished your children with the help of God their Father."
+  },
+  "20.6.9": {
+   "hash": "a587ac35ee",
+   "en": "b. You teach them to love their possessions more than Christ."
+  },
+  "20.7.0": {
+   "hash": "6d035eb141",
+   "en": "St. Cyprian the Martyr \"A king that sitteth in the throne of judgment scattereth away all evil with his eyes\" [8]."
+  },
+  "20.7.1": {
+   "hash": "791154b6d1",
+   "en": "When the wise king sits on the throne of judgment he is able by the glances of his eyes to sift the wicked, and separate them from the righteous. Here the wise man warns the wicked against trying to deceive the king the judge, for he will surely discover their deceit, and they add to their evils a new evil, lying to the king. This is true of the weak earthly king when the spirit of wisdom is given him and he wants to practice justice, so what of the King of kings when He comes on the clouds to judge the living and the dead? Everything is open before Him, even the hidden thoughts and the intents of the heart!"
+  },
+  "20.7.2": {
+   "hash": "b61a33c87e",
+   "en": "Origen believes that at the resurrection men are divided into two parts: the righteous who are saved, and the wicked who deserve judgment. The latter will be filled with grief befitting the life and works of those who made light of the Lord's commandments while in this life, and cast off all fear of judgment, and practiced uncleanness and covetousness."
+  },
+  "20.7.3": {
+   "hash": "1fd06b18a5",
+   "en": "The learned Origen says that the judgment will take place at the end of the world, and then the decisive distinction between the good and the wicked will be made."
+  },
+  "20.7.4": {
+   "hash": "f0634a7a68",
+   "en": "* On the day of judgment, there is no doubt that the good will be separated from the bad, and the righteous from the wicked. And to every soul, through the judgment of God, a place will be assigned fitting its worth and desert, if God wills.\""
+  },
+  "20.7.5": {
+   "hash": "0d4f0485f1",
+   "en": "Origen * Since (God) sees everything, and hears everything, let us fear Him and abandon the evil works that spring from unclean lusts, so that His mercy may protect us from the judgment to come."
+  },
+  "20.8.0": {
+   "hash": "a4939b48a4",
+   "en": "St. Clement of Rome \"Who can say, I have made my heart clean, I am pure from my sin?\" [9]"
+  },
+  "20.8.1": {
+   "hash": "f3b180511f",
+   "en": "If the wicked cannot be justified before a human king, which of men can be justified before the King of kings? Who can keep himself free from error? Whoever thinks himself pure without sin, deceives himself and the truth is not in him. Here there is urgent need of Him who by His blood can wash us from our sins. \"These are they which came out of great tribulation, and have washed their robes, and made them white in the blood of the Lamb\" (Rev 7:14). Truly \"They are all gone aside, they are together become corrupt; there is none that doeth good, no, not one\" (Rom 3:12)."
+  },
+  "20.8.2": {
+   "hash": "21dc799273",
+   "en": "* Then let us, beloved brethren, know that gift of healing that belongs to the divine mercy, we who cannot be found without wounds in respect of conscience."
+  },
+  "20.8.3": {
+   "hash": "aa2eb43446",
+   "en": "Let not a man flatter himself, imagining that his heart is pure and circumcised, relying on his own righteousness, reckoning that his wounds need no medicine, when it is written: \"Who can say, I have made my heart clean, I am pure from my sin?!\" (Prov 20:9), and it is said in the epistle of John: \"If we say that we have no sin, we deceive ourselves, and the truth is not in us\" (1 Jn 1:8). If there is no man without sin, and he who says he is without sin is proud or foolish, then how tender is the divine mercy, for we know that there are still wounds in those who are healed even after they have received healing; for this reason healing medicines have been provided to heal the wounds that arise anew!"
+  },
+  "20.8.4": {
+   "hash": "12fed26b64",
+   "en": "St. Cyprian the Martyr * Therefore all the saints grieve with daily sighs for this weakness of their nature. And while they search out their wandering thoughts and the hidden things of their consciences and their deep retreats they cry out in supplication: \"And enter not into judgment with thy servant: for in thy sight shall no man living be justified\" (Ps 143:2), \"Who can say, I have made my heart clean, I am pure from my sin?\" (Prov 20:9). And also: \"For there is not a just man upon earth, that doeth good, and sinneth not\" (Eccl 7:20). And also: \"Who is aware of his inadvertent sins?\" (Ps 19:12). And so they realized that man's righteousness is sick and imperfect and always needs the mercy of God, so that one of them, after seeing the seraphim on high and discovering the heavenly secrets, said: \"Woe is me... for I am a man of unclean lips, and I dwell in the midst of a people of unclean lips\" (Isa 6:5). I think he would not have felt the uncleanness of his lips unless it had been granted him to perceive the purity of true, complete perfection by the vision of God, so that he suddenly became aware of his uncleanness of which he had been ignorant before and the uncleanness of those around him... including in his general supplication not only the company of the wicked but also the company of the good, saying: \"Behold, thou art wroth; for we have sinned: in those is continuance for ever, and we shall be saved; and we are all as an unclean thing, and as filthy rags\" (Isa 64:5-6)."
+  },
+  "20.8.5": {
+   "hash": "437562c1cd",
+   "en": "Abba Theonas * \"If we say that we have no sin, we deceive ourselves, and the truth is not in us\" (1 Jn 1:8)."
+  },
+  "20.8.6": {
+   "hash": "c565af2965",
+   "en": "What sermon can declare the swarm of sins of the soul and of free will. He says: \"From within proceed evil thoughts\" (Mk 7:21; Mt 15:19). And he adds a list of the thoughts that defile us. If the nets of sins are spread around us on every side through all the senses and the inner movements of the soul, who can boast that his heart is clean, as Wisdom says (Prov 20:9) LXX? Or as Job testifies to the same thing: \"Who is clean from stain?\" (Job 14:4) LXX? The stain that touches the purity of the soul is sensual pleasure, which mingles with human life in various ways through soul and body, by thoughts and senses and deliberate movements and bodily behaviors."
+  },
+  "20.8.7": {
+   "hash": "8d5f859ddb",
+   "en": "Then whose soul is pure of this stain?"
+  },
+  "20.8.8": {
+   "hash": "9ff897f363",
+   "en": "How can anyone be found who is not struck by conceit and trodden under the foot of pride?"
+  },
+  "20.8.9": {
+   "hash": "be5ea662e8",
+   "en": "Who has never been shaken by sinful hands, and whose foot has never run to evil?"
+  },
+  "20.8.10": {
+   "hash": "daaba83e22",
+   "en": "Who has never been corrupted by the wandering of his eyes toward corruption or his uncontrolled ears?"
+  },
+  "20.8.11": {
+   "hash": "6262f82b48",
+   "en": "Who has never been engaged in tasting with pleasure, and whose heart has never been moved by vain affections?"
+  },
+  "20.9.0": {
+   "hash": "06ace7b418",
+   "en": "St. Gregory of Nyssa \"Divers weights, and divers measures, both of them are alike abomination to the LORD\" [10]."
+  },
+  "20.9.1": {
+   "hash": "7a006da853",
+   "en": "He who carries purity within him, and walks in the way of perfection, his measures become true and faithful, so that he does not measure for one man with one measure, and for another with another measure. The holy God hates deceit in measures and weights and standards, and so His holy children in Him cannot bear deceit, whatever its motives."
+  },
+  "20.9.2": {
+   "hash": "473f60888e",
+   "en": "He has already spoken of deceit with balances (Prov 11:1; 16:11), and will speak of them again (Prov 20:23)."
+  },
+  "20.9.3": {
+   "hash": "17d23140cb",
+   "en": "* Take heed, my children, for the salvation of your souls and return to the Lord with a repentance pure from deceit, and with weeping and supplication confess your shortcomings."
+  },
+  "20.9.4": {
+   "hash": "e5d67e0e48",
+   "en": "St. Macarius the Great * My son, do not show your word to one who does not know it. Make all men your friends, but do not make them all your counselors, but first of all take for yourself a trial (that is, a test). Do not make all men friends, and if they become your friends do not trust all of them, for the world is established in craftiness. But make for yourself one brother who fears the Lord, and cleave you to God alone like a child with his father. For men altogether walk in deceit, except a very few of them; and the earth is full of vanity and toils and griefs. So if you, my son, love to live in quiet do not mingle with those who busy themselves with vanity. And if you come to be in a midst where there is a mingling with many, be as one who is not mingled with them if you love to please God."
+  },
+  "20.10.0": {
+   "hash": "fed1c1419e",
+   "en": "St. Anthony the Great \"Even a child is known by his doings, whether his work be pure, and whether it be right\" [11]."
+  },
+  "20.10.1": {
+   "hash": "cd3911e07a",
+   "en": "Not only adults, but even little children are known for their purity and uprightness by their practical conduct, as in the case of the little boy Samuel in the temple (1 Sam 3:18-21)."
+  },
+  "20.11.0": {
+   "hash": "39854a0e2e",
+   "en": "\"The hearing ear, and the seeing eye, the LORD hath made even both of them\" [12]."
+  },
+  "20.11.1": {
+   "hash": "6cd87122c2",
+   "en": "If all are not justified, since they need the divine work to cleanse them, sin crept into us and is not the Creator's making. God created the ear to listen to the commandment and the eyes to behold heavenly things, all His creation is good. Evil entered into us by our will, where we accepted the counsel of the devil."
+  },
+  "20.12.s": {
+   "hash": "99f728b44a",
+   "en": "7. Watchfulness"
+  },
+  "20.12.0": {
+   "hash": "6355860fd0",
+   "en": "\"Love not sleep, lest thou come to poverty;"
+  },
+  "20.12.1": {
+   "hash": "2d8f648fc1",
+   "en": "open thine eyes, and thou shalt be satisfied with bread\" [13]"
+  },
+  "20.12.2": {
+   "hash": "4906cb3388",
+   "en": "The wise man often warns us of sloth, for when a man practices it spiritual poverty comes upon him as well as social and material poverty. He loses everything and becomes poor, and finds nothing to satisfy him. But he who labors and watches, for him the night turns into day, fulfilling the commandment of the Apostle: \"Awake thou that sleepest, and arise from the dead, and Christ shall give thee light\" (Eph 5:14)."
+  },
+  "20.12.3": {
+   "hash": "9b53d168d4",
+   "en": "The watchful heart awaits the coming of the Lord Christ with joy."
+  },
+  "20.12.4": {
+   "hash": "a2bd68b781",
+   "en": "* The watchful eye purifies the mind, and much sleep darkens the soul."
+  },
+  "20.12.5": {
+   "hash": "488b385fd9",
+   "en": "* Much sleep causes forgetfulness, and watchfulness purifies the memory."
+  },
+  "20.12.6": {
+   "hash": "8467c6789d",
+   "en": "St. John Climacus"
+  },
+  "20.13.s": {
+   "hash": "285269061f",
+   "en": "8. Deceit"
+  },
+  "20.13.0": {
+   "hash": "559fd835e4",
+   "en": "\"It is naught, it is naught, saith the buyer: but when he is gone his way, then he boasteth!\" [14]"
+  },
+  "20.13.1": {
+   "hash": "5c8761c57a",
+   "en": "The deceitful buyer belittles the qualities of the goods, claiming that they are poor so that he may be able to buy them at a low price. And when he attains his end he rejoices that he was able to deceive the seller, boasting of it before his family and friends."
+  },
+  "20.14.s": {
+   "hash": "031df3039c",
+   "en": "9. The lips of the wise"
+  },
+  "20.14.0": {
+   "hash": "51b31b3e8c",
+   "en": "\"There is gold, and a multitude of rubies: but the lips of knowledge are a precious jewel.\" [15]"
+  },
+  "20.14.1": {
+   "hash": "0e09f2e26c",
+   "en": "The word of truth that comes from true knowledge is more precious than gold and a multitude of rubies."
+  },
+  "20.15.s": {
+   "hash": "779cb52265",
+   "en": "10. Rashness in surety"
+  },
+  "20.15.0": {
+   "hash": "8177219de1",
+   "en": "\"Take his garment that is surety for a stranger: and for strangers take a pledge of him.\" [16]"
+  },
+  "20.15.1": {
+   "hash": "f40e5c0aa0",
+   "en": "The wise man has already warned the believer against rashness in becoming surety for a stranger whom he does not know, and who cannot pay the creditor what he has guaranteed, so that he loses even his garment that covers him. It is fitting for the believer to be careful in reckoning the cost, and not to decide to stand surety for anyone hastily, and without study and deliberation."
+  },
+  "20.16.s": {
+   "hash": "5310a257cc",
+   "en": "11. Lying"
+  },
+  "20.16.0": {
+   "hash": "91a125a302",
+   "en": "\"Bread of deceit is sweet to a man; but afterwards his mouth shall be filled with gravel\"[17]"
+  },
+  "20.16.1": {
+   "hash": "88097838d3",
+   "en": "Lying and deceit may succeed, and men may be pleased with it, but soon the truth is exposed, and they look at the liar's mouth as though it were full of gravel."
+  },
+  "20.16.2": {
+   "hash": "53bec37eda",
+   "en": "* Lying is the destruction and absence of love, and perjury is the denial of God."
+  },
+  "20.16.3": {
+   "hash": "66fd5c4a29",
+   "en": "* He who has acquired the fear of the Lord has put lying away from him, for he has his conscience as an upright judge."
+  },
+  "20.16.4": {
+   "hash": "8467c6789d",
+   "en": "St. John Climacus"
+  },
+  "20.17.s": {
+   "hash": "610af2406a",
+   "en": "12. Rashness and impulsiveness"
+  },
+  "20.17.0": {
+   "hash": "43054287ed",
+   "en": "\"Every purpose is established by counsel: and with good advice make war\" [18]"
+  },
+  "20.17.1": {
+   "hash": "a118a46495",
+   "en": "The Lord Christ asks us not to be rash, but in every decision we must first count the cost. \"Or what king, going to make war against another king, sitteth not down first, and consulteth whether he be able with ten thousand to meet him that cometh against him with twenty thousand? Or else, while the other is yet a great way off, he sendeth an ambassage, and desireth conditions of peace\" (Lk 14:31-32)."
+  },
+  "20.18.s": {
+   "hash": "5429ed3f5e",
+   "en": "13. Talebearing"
+  },
+  "20.18.0": {
+   "hash": "76c3e94f91",
+   "en": "\"He that goeth about as a talebearer revealeth secrets: therefore meddle not with him that openeth wide his lips\" [19]"
+  },
+  "20.18.1": {
+   "hash": "dec44b2f39",
+   "en": "He who engages in talebearing against a person, showing kindness to his face while disfiguring his image before others, is a deceitful man who knows no love. It is not fitting for us to trust such a flatterer, nor to listen to his words."
+  },
+  "20.18.2": {
+   "hash": "a6daba3183",
+   "en": "* I heard some slandering their neighbor, and I rebuked them. And the doers of evil answered me, defending themselves by saying that they were doing this out of their love and concern for the one they were slandering. And I said to them: \"Stop such love, otherwise you give the lie to him who said: 'Whoso privily slandereth his neighbour, him I used to cast out' (Ps 101:5). For this is the kind of love that God accepts.\""
+  },
+  "20.18.3": {
+   "hash": "efa0426ef3",
+   "en": "* Judging others is a shameless usurpation of an authority that belongs to God alone; condemning a companion is the destruction of the soul."
+  },
+  "20.18.4": {
+   "hash": "8467c6789d",
+   "en": "St. John Climacus"
+  },
+  "20.19.s": {
+   "hash": "97b3f17947",
+   "en": "14. Dishonoring parents"
+  },
+  "20.19.0": {
+   "hash": "e161a73223",
+   "en": "\"Whoso curseth his father or his mother, his lamp shall be put out in obscure darkness\" [20]"
+  },
+  "20.19.1": {
+   "hash": "dbcdd0912f",
+   "en": "He who dishonors his parents finds his light put out, and darkness surrounds him. For even if the parents err it is fitting for the children to cover over them, as Shem and Japheth did when Noah was uncovered because of his drunkenness (Gen 9:23)."
+  },
+  "20.20.s": {
+   "hash": "97fc40ef0a",
+   "en": "15. Hoarding wealth and possessions"
+  },
+  "20.20.0": {
+   "hash": "16c9b7eddd",
+   "en": "\"An inheritance may be gotten hastily at the beginning; but the end thereof shall not be blessed.\"[21]"
+  },
+  "20.20.1": {
+   "hash": "498904682a",
+   "en": "Hoarding wealth by an unlawful way causes a man to lose the blessing of the Lord (Prov 21:6; 28:20)."
+  },
+  "20.20.2": {
+   "hash": "7fd65848b2",
+   "en": "* When these burn with the desire to be filled and satisfied with every kind of wealth and quickly, to these Scripture says: \"He that maketh haste to be rich shall not be innocent\" (Prov 28:20), and it is clear that those who strive to increase their riches by effort do not care to avoid sin, and imitate the birds when they watch greedily for the earthly bait."
+  },
+  "20.20.3": {
+   "hash": "d12d303c42",
+   "en": "They do not realize that they are being choked in the snares of sin, and they long for worldly gains, and ignore the loss they will suffer in the future; these must hear Scripture that says: \"An inheritance may be gotten hastily at the beginning; but the end thereof shall not be blessed\" (Prov 20:21)."
+  },
+  "20.20.4": {
+   "hash": "5d7ba839e8",
+   "en": "This life is in truth a beginning, so that in the end we may enter the land of the chosen. For when we desire riches here by love of evil, we strip ourselves of the eternal Fatherly inheritance. To those who wish to gain much and are able to achieve all they desire, Scripture says: \"For what is a man profited, if he shall gain the whole world, and lose his own soul?\" (Mt 16:26). It is as though the Truth were saying plainly: \"What does a man gain if he can gather everything around him and curse his own soul?\""
+  },
+  "20.20.5": {
+   "hash": "ddf77ec9a9",
+   "en": "And the desire of the wicked plunderers is usually quickly corrected when they are assured by admonition that this life is passing and perishing. We remind those who persevere in being rich in this world that their wealth will not last long and swift death will surprise them to strip them of all that they gathered by evil means. For so they carry with them to judgment an accusation of robbery. Let them contemplate examples of men whom they used to curse. They examined their consciences and were ashamed, because they were imitating persons whom they had formerly cursed for committing the very same evil deeds themselves."
+  },
+  "20.20.6": {
+   "hash": "af82b149a8",
+   "en": "Pope Gregory (the Great)"
+  },
+  "20.21.s": {
+   "hash": "80056e62c2",
+   "en": "16. No revenge"
+  },
+  "20.21.0": {
+   "hash": "cfd56e8cf7",
+   "en": "\"Say not thou, I will recompense evil;"
+  },
+  "20.21.1": {
+   "hash": "2455e85090",
+   "en": "but wait on the LORD, and he shall save thee.\" [22]"
+  },
+  "20.21.2": {
+   "hash": "9f50f2e38c",
+   "en": "The believer feels that his whole life is in the hand of the Lord his God, so he does not avenge himself, nor even desire vengeance on his opponents through others, but desires their salvation, and believes that God turns all things to his good and theirs. The Apostle says: \"Recompense to no man evil for evil. Provide things honest in the sight of all men. If it be possible, as much as lieth in you, live peaceably with all men. Dearly beloved, avenge not yourselves, but rather give place unto wrath: for it is written, Vengeance is mine; I will repay, saith the Lord\" (Rom 12:17-19)."
+  },
+  "20.22.s": {
+   "hash": "ff7f337b46",
+   "en": "17. False balances"
+  },
+  "20.22.0": {
+   "hash": "030d9afdb8",
+   "en": "\"Divers weights are an abomination unto the LORD; and a false balance is not good\" [23]"
+  },
+  "20.22.1": {
+   "hash": "e9cc091d53",
+   "en": "It has been spoken of before (Prov 20:10)."
+  },
+  "20.23.s": {
+   "hash": "017d60181c",
+   "en": "18. Divine grace"
+  },
+  "20.23.0": {
+   "hash": "985ff9f365",
+   "en": "\"Man's goings are of the LORD; how can a man then understand his own way?\" [24]"
+  },
+  "20.23.1": {
+   "hash": "91ff8b3962",
+   "en": "Man cannot by his own understanding, nor by his personal effort, recognize the way of truth and walk in it. He needs a divine intervention, the grace of God. The prophet Jeremiah says: \"O LORD, I know that the way of man is not in himself: it is not in man that walketh to direct his steps.\" As he also says: \"O LORD, correct me, but in truth; not in thine anger, lest thou bring me to nothing\" (Jer 10:23-24)."
+  },
+  "20.23.2": {
+   "hash": "7944969fb1",
+   "en": "God is ready to guide His children and lead them and uphold them: \"I will instruct thee and teach thee in the way which thou shalt go: I will counsel thee, mine eye shall be upon thee\" (Ps 32:8)."
+  },
+  "20.23.3": {
+   "hash": "63f237eb44",
+   "en": "It was not possible for Moses or any other of the prophets to walk the way without God's leading him. He often assured him: \"I will be with thee\" (Ex 3:12), \"Now therefore go, and I will be with thy mouth, and teach thee what thou shalt say\" (Ex 4:12)."
+  },
+  "20.23.4": {
+   "hash": "94d3cfc6c5",
+   "en": "* These things which God has commanded will not be accomplished except as a gift from the Giver of the commandments and by His help, for it is in vain that we ask for them if we are able to accomplish them without the help of His grace."
+  },
+  "20.23.5": {
+   "hash": "9c9d236e4f",
+   "en": "St. Augustine * To the Lord belong the firstfruits (the beginning of the work) and the achievements (its completion). That I may begin to walk in the way I must be called, for: \"Man's goings are of the LORD; how can a man then understand his own way?\" (Prov 24:20). And that I may not turn aside from the straight ways and may not walk in a crooked way, I say by way of wish: \"O that my ways were directed to keep thy statutes!\" For I do not keep Your statutes unless my ways are under Your guidance and management."
+  },
+  "20.23.6": {
+   "hash": "a6270fb24d",
+   "en": "Origen * Do we still dare to boast of free will and insult the blessings of God, the Giver of gifts, if the chosen vessel (Paul) writes plainly: \"But we have this treasure in earthen vessels, that the excellency of the power may be of God, and not of us\" (2 Cor 4:7)?"
+  },
+  "20.23.7": {
+   "hash": "d538227f58",
+   "en": "St. Jerome * Who is it that writes in hearts? It is God who writes with His finger in all consciences the natural law which He gave to the human race. In it we begin and receive the seeds of truth to enter by it into the depth. These seeds, if we take care to sow them, bring forth in us good fruits in Christ Jesus."
+  },
+  "20.23.8": {
+   "hash": "f684a5d9c3",
+   "en": "Origen * It was Paul's custom to ask that the grace of Christ be with those to whom he wrote."
+  },
+  "20.23.9": {
+   "hash": "d6abdf74c8",
+   "en": "Theodoret, Bishop of Cyrus"
+  },
+  "20.24.s": {
+   "hash": "8c0a1b8ca7",
+   "en": "19. Rashness"
+  },
+  "20.24.0": {
+   "hash": "2142f0d994",
+   "en": "\"It is a snare to the man who speaketh rashly, saying, It is holy, and after the vows to make enquiry!\"[25]"
+  },
+  "20.24.1": {
+   "hash": "92034ee668",
+   "en": "It is not fitting for us to be hasty in judging that a thing is holy without examining it and inquiring into it, just as it is not permitted to be hasty in vowing."
+  },
+  "20.24.2": {
+   "hash": "05c0d6d01c",
+   "en": "Jephthah was hasty in his vow, and offered his only daughter as a sacrifice (Judg 11:30-40)."
+  },
+  "20.25.s": {
+   "hash": "99f6d7267f",
+   "en": "20. Separation from evil"
+  },
+  "20.25.0": {
+   "hash": "8bc314a0ea",
+   "en": "\"A wise king scattereth the wicked, and bringeth the threshing wheel over them\" [26]"
+  },
+  "20.25.1": {
+   "hash": "d87d196496",
+   "en": "The wise king removes the wicked from his palace, and surrounds himself with faithful men who love truth and righteousness, so he is assured of their loyalty as of their counsel, and can rely on them in many matters. By this the king, like the kingdom, enjoys a kind of stability."
+  },
+  "20.25.2": {
+   "hash": "127aeaf933",
+   "en": "What we say of the king and the temporal kingdom applies also to the Kingdom of God which He establishes in our souls, for in order to enjoy this Kingdom we must leave no trace of evil and corruption in us. We cannot practice good unless we cease from evil, for there is no fellowship between light and darkness, and between Christ and Belial."
+  },
+  "20.25.3": {
+   "hash": "06056110c6",
+   "en": "The Apostle Paul demanded of the Church of Corinth that they remove the wicked person from among them, lest he be a corrupt leaven that corrupts the whole lump!"
+  },
+  "20.26.s": {
+   "hash": "432705ccb7",
+   "en": "21. The inner light"
+  },
+  "20.26.0": {
+   "hash": "edc4b60d4c",
+   "en": "\"The spirit of man is the candle of the LORD, searching all the inward parts of the belly\" [27]"
+  },
+  "20.26.1": {
+   "hash": "6cd9f0e071",
+   "en": "God gives the spirit of man the light of knowledge, \"For what man knoweth the things of a man, save the spirit of man which is in him?\" (1 Cor 2:11). The Spirit is here called \"the candle of the Lord,\" giving light not of itself, but by the work of God in it, therefore he did not say: \"the light of the Lord\" but His candle. Through the spirit God speaks with man, and draws him to Himself, and reveals to him His secrets."
+  },
+  "20.26.2": {
+   "hash": "fd3e2ffa24",
+   "en": "\"They conceive woe, and bring forth iniquity, and their womb prepareth deceit\" (Job 15:35) [Vulgate]."
+  },
+  "20.26.3": {
+   "hash": "dc0ad24145",
+   "en": "(Man) conceives woe when he devises evil things, and brings forth iniquity when he begins to carry out what he devised."
+  },
+  "20.26.4": {
+   "hash": "39dbca3050",
+   "en": "By indulging in envy he conceives woe, and by uttering slanders he brings forth iniquity."
+  },
+  "20.26.5": {
+   "hash": "812a59c269",
+   "en": "It is a great evil when the wicked man strives to show others as wicked, so that he himself may seem holy, by showing others as unholy."
+  },
+  "20.26.6": {
+   "hash": "82615a91a9",
+   "en": "* We must bear in mind that the title \"belly\" or \"womb\" is used in Holy Scripture to mean \"the mind.\" It was said of Solomon: \"The candle of the LORD is the ways of men, searching all the inward parts of the mind (understanding)\" (Prov 20:27)."
+  },
+  "20.26.7": {
+   "hash": "55ece34551",
+   "en": "By the title \"womb\" is meant \"the mind.\" For just as offspring are conceived in the womb, so thought is generated in the mind. And just as flesh is found in the belly so are thoughts in the mind. So the womb of the hypocrite prepares deceits, for he always conceives in his mind great evils against his neighbors, proportioned to his aims regarding himself, to appear innocent before all men."
+  },
+  "20.26.8": {
+   "hash": "fe3be9ffb5",
+   "en": "* The pains of the body are a great grace which the sick man must realize, for they cleanse from iniquities, and restrain the sins that may be committed. Likewise the mind suffers from wounds hard to bear that dominate it from outward blows. Therefore Holy Scripture says: \"The bruises of a wound are cleansing to the wicked, and stripes reach the chambers of the belly\" (Prov 20:30). Yes, the bruises of wounds cleanse from evils; that is, the pains of purification cleanse from evils, whether in thought or deed. Bellies usually denote minds, because as bellies consume food the mind takes in cares by contemplating and thinking on them. We learn that the mind is denoted by the belly from the passage that is written: \"The spirit of man is the candle of the LORD, searching all the inward parts of the belly\" (Prov 20:27), that is, that the candle of divine inspiration enters into the human soul and enlightens it, revealing it to itself as a mirror. For before the coming of the Holy Spirit the soul used to sport with iniquities, but it did not know how to appraise their dangers."
+  },
+  "20.26.9": {
+   "hash": "af82b149a8",
+   "en": "Pope Gregory (the Great)"
+  },
+  "20.27.s": {
+   "hash": "34addeca0f",
+   "en": "22. Mercy"
+  },
+  "20.27.0": {
+   "hash": "818c02ed27",
+   "en": "\"Mercy and truth preserve the king: and his throne is upholden by mercy\" [28]"
+  },
+  "20.27.1": {
+   "hash": "75817e80df",
+   "en": "Nothing gives stability to the king's throne like the work of mercy and holding fast to truth. By this he becomes like the Lord Christ, who offered His mercy to the whole world by the Cross, and gave us Himself as the Truth."
+  },
+  "20.27.2": {
+   "hash": "a077080823",
+   "en": "* Nothing makes us equal to God except doing good (mercy)."
+  },
+  "20.27.3": {
+   "hash": "c939f94317",
+   "en": "* Let us bring ourselves and our children and all that are ours to the school of mercy, and let a man learn it above all things, for mercy is man... Let us count ourselves as not alive if we do not yet show mercy!"
+  },
+  "20.27.4": {
+   "hash": "fa572f0cc4",
+   "en": "* This is the work of God... God created the heavens and the earth and the sea. Great are these works and worthy of His wisdom! But none of these has the power to draw human nature to Him like His mercy and His love for mankind!"
+  },
+  "20.27.5": {
+   "hash": "1bbb1d15fb",
+   "en": "* Charity (mercy) is like the highest of crafts, and a protector of him who practices it. It is dear to God, and always stands by Him asking Him on behalf of those who desire it, if we practice it in a way that is not mistaken...!"
+  },
+  "20.27.6": {
+   "hash": "01aa72c387",
+   "en": "It intercedes even for those who hate, great is its authority even for those who sin!"
+  },
+  "20.27.7": {
+   "hash": "aeacb318ca",
+   "en": "It looses bonds, and scatters darkness and quenches fire, and kills the worm, and removes the gnashing of teeth."
+  },
+  "20.27.8": {
+   "hash": "2b7f66efe7",
+   "en": "Before it the gates of heaven open with great assurance, and it enters as a queen and none of the doorkeepers at the gates dares to ask her who she is, but all receive her at once."
+  },
+  "20.27.9": {
+   "hash": "48bf7fa9b1",
+   "en": "So also is the case with mercy, for she is in truth a true queen, who makes men like God. She is winged and light, with golden wings on which she flies, greatly delighting the angels."
+  },
+  "20.27.10": {
+   "hash": "e357856efa",
+   "en": "St. John Chrysostom"
+  },
+  "20.28.s": {
+   "hash": "0a5e8ffca9",
+   "en": "23. Strength and wisdom"
+  },
+  "20.28.0": {
+   "hash": "89453bca96",
+   "en": "\"The glory of young men is their strength: and the beauty of old men is the grey head\"[29]"
+  },
+  "20.28.1": {
+   "hash": "6789d8ad56",
+   "en": "* The work of wisdom is righteousness, for she turns her gift from the stubborn and unbelieving to the believers, the obedient people of God. In any case it is useful here to observe carefully this remark: [Wisdom is known by her works] (cf. Mt 11:19)."
+  },
+  "20.28.2": {
+   "hash": "c0047bf677",
+   "en": "St. Hilary, Bishop of Poitiers * \"Wisdom is with the grey hairs, and understanding with length of days.\" That is because we acquire wisdom by study, and learning is planted in the mind by the lessons of men. But with God it is otherwise, for He Himself is Wisdom in His person, and it is He who teaches the lessons of wisdom."
+  },
+  "20.28.3": {
+   "hash": "67659f621a",
+   "en": "Fr. Hesychius of Jerusalem"
+  },
+  "20.29.s": {
+   "hash": "4cc79142d8",
+   "en": "24. The wounds of discipline"
+  },
+  "20.29.0": {
+   "hash": "1fa1cf61a3",
+   "en": "\"The blueness of a wound cleanseth away evil: so do stripes the inward parts of the belly.\" [30]"
+  },
+  "20.29.1": {
+   "hash": "2b36f3cc46",
+   "en": "Discipline is the mark of sonship, for the father cares for the edification of his legitimate son, and does not care for bastards (illegitimate children): \"But if ye be without chastisement, whereof all are partakers, then are ye bastards, and not sons.\" And as St. John Chrysostom said: [If lack of discipline is a mark peculiar to bastards, then it is fitting for us to rejoice in discipline as a sign of the legitimacy of our sonship.]"
+  },
+  "20.29.2": {
+   "hash": "3b2f967d3a",
+   "en": "* A father does not discipline his son if he does not love him, and the good teacher does not correct his pupil unless he sees in him signs of obtaining the promise. When the physician withdraws his care from a sick man, this is a sign of his despair of his healing."
+  },
+  "20.29.3": {
+   "hash": "038392ac88",
+   "en": "St. Jerome * Yes, \"the bruises of a wound are cleansing to the wicked, and stripes reach the chambers of the belly.\" That is, when we are struck from outside, we are called in silence, tormented, to remember our sins and see them with our eyes. And in the measure that we suffer outwardly, in that measure we grieve inwardly over our deeds. So the outward wounds of the body coincide with the secret sufferings that cleanse the chambers of the belly completely. Grief over hidden wounds heals the malice of evil deeds."
+  },
+  "20.29.4": {
+   "hash": "d6a01826d3",
+   "en": "We must exhort the sick man to keep the virtue of gentleness, and to consider how great were the torments that our Savior bore at the hands of those whom He formed. And how grievous and dreadful were those insults, how many were the blows on the pure face at the hands of mockers. All this while the Savior was every day snatching souls from the captives in the grip of the ancient enemy. And while He was washing us with the water of salvation, He did not wipe His face of the spittle of the treacherous. He bore in silence our insults to free us from eternal torment through His role as Mediator, He bore the blows to grant us immortal glory with the choirs of angels. And while He saved us from the reproach of sins, He did not fear to expose His head to the thorns. He accepted the bitterness of gall in His thirst that He might make us drink the sweetness of the eternal water. And when they offered Him worship in mockery He kept silent, and offered on our behalf the worship of love to the Father although He is equal to Him in essence. And although He is the Life, He passed over to death so as to prepare life for the dead. Why then should it be hard for man to receive the divine blows for his evil deeds, if God bore such evil as this in return for His good deeds? And who is that wise and prudent man who denies kindness because suffering has struck him, while the Savior who lived without sin was not spared the beating of the whips?"
+  },
+  "20.29.5": {
+   "hash": "af82b149a8",
+   "en": "Pope Gregory (the Great)"
+  },
+  "20.29.6": {
+   "hash": "856e349f66",
+   "en": "Let Your wisdom lead me in all the paths of life!"
+  },
+  "20.29.7": {
+   "hash": "9f6c79faa4",
+   "en": "* Let me be drunk with Your love, so that I do not seek the pleasures of the body."
+  },
+  "20.29.8": {
+   "hash": "112b6136bd",
+   "en": "My mind is lifted up with my heart to behold Your mysteries!"
+  },
+  "20.29.9": {
+   "hash": "72976982ab",
+   "en": "So my body does not seek the wine of this world."
+  },
+  "20.29.10": {
+   "hash": "7c69bbd1da",
+   "en": "And I do not enslave myself to any addiction!"
+  },
+  "20.29.11": {
+   "hash": "e4b7972e50",
+   "en": "* By Your wisdom I respect every man, I submit to the authorities by Your fear."
+  },
+  "20.29.12": {
+   "hash": "81c364df64",
+   "en": "And I give honor to whom honor is due."
+  },
+  "20.29.13": {
+   "hash": "3164b7d29c",
+   "en": "Fear will not occupy my heart, for I carry Your fear, the giver of joy!"
+  },
+  "20.29.14": {
+   "hash": "61c53b883c",
+   "en": "* I possess You, for You are my peace."
+  },
+  "20.29.15": {
+   "hash": "ba4dc64f5e",
+   "en": "Peace dwells within me, and I enjoy reconciliation with heaven, and I long for the whole earth to become heaven, its law true peace."
+  },
+  "20.29.16": {
+   "hash": "8f02ddf6e5",
+   "en": "* My God... You are working on my behalf until now."
+  },
+  "20.29.17": {
+   "hash": "cbd71d4778",
+   "en": "How can I open a door to sloth and slackness?"
+  },
+  "20.29.18": {
+   "hash": "cfba9923eb",
+   "en": "How can I deliver my life through sloth to the enemy of good?"
+  },
+  "20.29.19": {
+   "hash": "736c2d2007",
+   "en": "* Let me work by You until I meet You."
+  },
+  "20.29.20": {
+   "hash": "bbbcf90fc5",
+   "en": "Grant me the spirit of humility, so that I seek for myself a counselor who upholds me by Your Spirit."
+  },
+  "20.29.21": {
+   "hash": "b5e5934b4f",
+   "en": "I see You working in the humble, and delighting in those who walk in the spirit of obedience."
+  },
+  "20.29.22": {
+   "hash": "06089b3e19",
+   "en": "* Expose me before myself, lest I be exposed on the great day of the Lord."
+  },
+  "20.29.23": {
+   "hash": "76f788355f",
+   "en": "Let me not be occupied with men's praise or blame."
+  },
+  "20.29.24": {
+   "hash": "b0eccea17d",
+   "en": "But let me take shelter in Your mercy and Your righteousness."
+  },
+  "20.29.25": {
+   "hash": "4428d30d99",
+   "en": "Who is justified before You?"
+  },
+  "20.29.26": {
+   "hash": "82a82a620b",
+   "en": "Your grace covers me!"
+  },
+  "20.29.27": {
+   "hash": "7d7a89b1e6",
+   "en": "* Your grace sanctifies my concepts, so that I enjoy true standards."
+  },
+  "20.29.28": {
+   "hash": "d4a9449198",
+   "en": "My senses and my feelings and all my conduct are sanctified by You."
+  },
+  "20.29.29": {
+   "hash": "b615adba81",
+   "en": "My soul keeps watch to work on behalf of Your Kingdom."
+  },
+  "20.29.30": {
+   "hash": "3866756bf5",
+   "en": "I walk in the spirit of wisdom and balance."
+  },
+  "20.29.31": {
+   "hash": "caae58cb7f",
+   "en": "The truth works in me, so that I do not know lying."
+  },
+  "20.29.32": {
+   "hash": "4126260460",
+   "en": "I love all, and do not practice talebearing against anyone."
+  },
+  "20.29.33": {
+   "hash": "96582d938f",
+   "en": "I respect all the members of my family."
+  },
+  "20.29.34": {
+   "hash": "34aee0962a",
+   "en": "And I show compassion to every man."
+  },
+  "20.29.35": {
+   "hash": "fb50650874",
+   "en": "I accept all discipline from Your hands!"
+  },
+  "20.29.36": {
+   "hash": "7d00a9e1ba",
+   "en": "And You work all things for the edification of my soul."
+  }
+ }
+}
