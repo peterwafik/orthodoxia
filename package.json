@@ -14,7 +14,7 @@
     "packages/*"
   ],
   "scripts": {
-    "dev:web": "npm run bible && npm run dev -w apps/web",
+    "dev:web": "npm run bible && node scripts/holy-mass/tiles.ts && npm run dev -w apps/web",
     "dev:explorer": "npm run dev -w apps/explorer",
     "bible": "node scripts/bible/fetch.ts && node scripts/bible/build.ts",
     "bible:update": "node scripts/bible/fetch.ts --update && node scripts/bible/build.ts",
@@ -27,12 +27,14 @@
     "translate:check": "node scripts/commentary/translate-check.ts all",
     "translate:merge": "node scripts/commentary/translate-merge.ts",
     "malaty:fetch": "node scripts/commentary/malaty-fetch.ts",
-    "malaty:build": "node scripts/commentary/malaty-build.ts"
+    "malaty:build": "node scripts/commentary/malaty-build.ts",
+    "holymass:tiles": "node scripts/holy-mass/tiles.ts"
   },
   "devDependencies": {
     "@types/node": "^24.13.6",
     "fflate": "^0.8.3",
     "pdfjs-dist": "^4.10.38",
+    "sharp": "^0.35.5",
     "typescript": "~6.0.2",
     "wrangler": "^4.149.0",
     "yaml": "^2.9.1"

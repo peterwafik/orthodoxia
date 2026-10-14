@@ -3,6 +3,12 @@
 ## Unreleased
 
 ### Added
+- Holy Mass journey (`/en/holy-mass/`, `/ar/holy-mass/`): the Divine Liturgy as one continuous
+  picture. The master artwork is enlarged six times into a deep-zoom tile pyramid, and a camera moves
+  over it as the reader scrolls through 52 stops in five chapters, from the earthly church to a view
+  where only heaven fills the picture, on desktop and phone, in Arabic and English. Deep links,
+  resume, liturgy selector, both-languages toggle and reduced-motion support. Content is draft:
+  prayer texts are pending an authorized translation. See docs/HOLY_MASS.md.
 - Fr. Tadros Yacoub Malaty's commentary, published with his permission, for the 402 chapters
   without St. Mark text (Job, Proverbs to Malachi, Wisdom, Sirach, Esther, parts of Exodus,
   Chronicles, Ezra and Psalms). It is shown verse by verse in Arabic, credited and linked to his

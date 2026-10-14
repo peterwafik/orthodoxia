@@ -19,6 +19,7 @@ export const ar: Dictionary = {
   nav: {
     home: 'الرئيسية',
     bible: 'الكتاب المقدس',
+    holyMass: 'القداس الإلهي',
     explore: 'الشواهد',
     about: 'عن المشروع',
     sources: 'المصادر',

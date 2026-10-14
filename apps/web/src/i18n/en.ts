@@ -17,6 +17,7 @@ export const en = {
   nav: {
     home: 'Home',
     bible: 'Bible',
+    holyMass: 'Holy Mass',
     explore: 'Cross-references',
     about: 'About',
     sources: 'Sources',
