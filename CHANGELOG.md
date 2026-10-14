@@ -9,9 +9,10 @@
   where only heaven fills the picture, on desktop and phone, in Arabic and English. Deep links,
   resume, liturgy selector, both-languages toggle and reduced-motion support. Content is draft:
   prayer texts are pending an authorized translation. See docs/HOLY_MASS.md.
-- Holy Mass artwork regenerated with Higgsfield at 3312 × 2480 with far more Coptic detail (iconostasis,
-  ostrich eggs, the four living creatures, the twenty-four elders, Coptic fathers); camera regions
-  re-tuned to it.
+- Holy Mass artwork regenerated twice more with Higgsfield: the scene pulled back to three times its
+  width with the sides filled in, in the original luminous style, at 3312 × 2480, with eight regions
+  enhanced by an upscaler and the tile pyramid built at 10,240 px, so the journey zooms all the way in to
+  Christ's face without pixelating. Camera regions re-tuned; deep links hold while the page lays out.
 - Fr. Tadros Yacoub Malaty's commentary, published with his permission, for the 402 chapters
   without St. Mark text (Job, Proverbs to Malachi, Wisdom, Sirach, Esther, parts of Exodus,
   Chronicles, Ezra and Psalms). It is shown verse by verse in Arabic, credited and linked to his

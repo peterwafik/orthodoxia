@@ -1,0 +1,61 @@
+{
+  "note": "Master cut in overlapping 1280x960 regions, each upscaled by Higgsfield (bytedance_image_upscale, 4k).",
+  "regions": [
+    {
+      "file": "r0c1.jpg",
+      "x": 1016,
+      "y": 0,
+      "w": 1280,
+      "h": 960
+    },
+    {
+      "file": "r0c2.jpg",
+      "x": 2032,
+      "y": 0,
+      "w": 1280,
+      "h": 960
+    },
+    {
+      "file": "r1c0.jpg",
+      "x": 0,
+      "y": 760,
+      "w": 1280,
+      "h": 960
+    },
+    {
+      "file": "r1c1.jpg",
+      "x": 1016,
+      "y": 760,
+      "w": 1280,
+      "h": 960
+    },
+    {
+      "file": "r1c2.jpg",
+      "x": 2032,
+      "y": 760,
+      "w": 1280,
+      "h": 960
+    },
+    {
+      "file": "r2c0.jpg",
+      "x": 0,
+      "y": 1520,
+      "w": 1280,
+      "h": 960
+    },
+    {
+      "file": "r2c1.jpg",
+      "x": 1016,
+      "y": 1520,
+      "w": 1280,
+      "h": 960
+    },
+    {
+      "file": "r2c2.jpg",
+      "x": 2032,
+      "y": 1520,
+      "w": 1280,
+      "h": 960
+    }
+  ]
+}
