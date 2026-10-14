@@ -332,6 +332,7 @@ const clientStops = STOPS.map((stop) => ({ n: stop.n, hash: stopHash(stop), box:
       .then((response) => response.json() as Promise<PyramidMeta & { format: string }>)
       .then((value) => {
         meta = value;
+        IMAGE = { width: value.width, height: value.height };
         resize();
       })
       .catch(() => undefined);
@@ -366,7 +367,7 @@ const clientStops = STOPS.map((stop) => ({ n: stop.n, hash: stopHash(stop), box:
     let frames: Frame[] = [];
     let k = 1;
     let current: Frame = { cx: 0.5, cy: 0.5, vw: 1 };
-    const IMAGE = { width: 1280, height: 960 };
+    let IMAGE = { width: 4, height: 3 };
 
     function resize() {
       const rect = stage.getBoundingClientRect();
@@ -601,6 +602,11 @@ const clientStops = STOPS.map((stop) => ({ n: stop.n, hash: stopHash(stop), box:
         goTo(savedStop - 1);
       });
     }
+    // Back, Forward, or a changed address moves the camera to that stop.
+    window.addEventListener('hashchange', () => {
+      const index = stops.findIndex((stop) => stop.hash === decodeURIComponent(location.hash.slice(1)));
+      if (index >= 0 && index !== Math.round(position())) goTo(index);
+    });
     // Fonts and wrapping change the panel's height after load.
     if (typeof ResizeObserver !== 'undefined') new ResizeObserver(() => {
       measure();
