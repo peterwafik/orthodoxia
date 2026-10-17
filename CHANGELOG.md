@@ -9,6 +9,11 @@
   where only heaven fills the picture, on desktop and phone, in Arabic and English. Deep links,
   resume, liturgy selector, both-languages toggle and reduced-motion support. Content is draft:
   prayer texts are pending an authorized translation. See docs/HOLY_MASS.md.
+- Holy Mass artwork regenerated again with Higgsfield as a tall 9:16 picture: the haikal screen now follows
+  Coptic practice (Christ and the apostles above, saints below) with the altar inside the sanctuary behind the
+  curtains, and heaven is lengthened into tiers of saints and angels up to Christ enthroned at the top. Ten
+  regions enhanced by an upscaler, a 6,912 × 12,288 px tile pyramid, and all 52 camera regions re-tuned, so the
+  journey is a long zoom and climb ending at the icon of Christ.
 - Holy Mass artwork regenerated twice more with Higgsfield: the scene pulled back to three times its
   width with the sides filled in, in the original luminous style, at 3312 × 2480, with eight regions
   enhanced by an upscaler and the tile pyramid built at 10,240 px, so the journey zooms all the way in to

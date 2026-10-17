@@ -3,7 +3,7 @@ import { describe, expect, it } from 'vitest';
 import { frameFor, heightPerWidth } from '../lib/holy-mass/camera.ts';
 import { CHAPTERS, REGIONS, STOPS, stopHash } from './holy-mass.ts';
 
-const image = { width: 1280, height: 960 };
+const image = { width: 2160, height: 3840 };
 
 describe('the Holy Mass journey', () => {
   it('has 52 stops in the five chapters of the approved design', () => {
@@ -63,7 +63,7 @@ describe('the Holy Mass journey', () => {
     expect(STOPS[0]!.box).toEqual([0.5, 0.5, 1, 1]);
   });
 
-  it('ends with only the heavenly half of the picture in view, on every screen shape', () => {
+  it('ends with only the heavenly top of the picture in view, on every screen shape', () => {
     const last = STOPS.at(-1)!;
     for (const view of [
       { width: 760, height: 900 },
@@ -73,7 +73,7 @@ describe('the Holy Mass journey', () => {
     ]) {
       const frame = frameFor(last.box, view, image);
       const visibleHeight = frame.vw * heightPerWidth(view, image);
-      expect(frame.cy + visibleHeight / 2, `${view.width}x${view.height}`).toBeLessThanOrEqual(0.5 + 1e-9);
+      expect(frame.cy + visibleHeight / 2, `${view.width}x${view.height}`).toBeLessThanOrEqual(0.25 + 1e-9);
     }
   });
 

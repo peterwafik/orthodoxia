@@ -95,8 +95,8 @@ export const REGIONS: Readonly<Record<RegionId, { title: Bilingual; note: Biling
   iconostasis: {
     title: { en: 'The iconostasis', ar: 'حامل الأيقونات' },
     note: {
-      en: 'The screen of icons stands before the sanctuary, with the Virgin Mary holding Christ and the icon of Christ among the saints.',
-      ar: 'حامل الأيقونات أمام الهيكل، وعليه العذراء مريم حاملة المسيح وأيقونة السيد المسيح بين القديسين.',
+      en: 'The screen of icons stands before the sanctuary: Christ at its centre, the apostles in a row above the curtains, and below them the Virgin holding Christ, St John the Baptist, the archangels Michael and Gabriel, St George and St Anthony.',
+      ar: 'حامل الأيقونات أمام الهيكل: السيد المسيح في وسطه، والرسل في صف فوق الستائر، وتحتهم العذراء حاملة المسيح، ويوحنا المعمدان، والملاكان ميخائيل وغبريال، ومار جرجس، والأنبا أنطونيوس.',
     },
   },
   veil: {
@@ -230,7 +230,7 @@ const SOURCE: readonly (readonly [Chapter['id'], readonly Row[]])[] = [
         meditate: ['What do I offer: the best of my time, or what is left over?', 'ماذا أقدّم: أفضل وقتي أم ما يتبقّى منه؟'],
         scripture: [ref('1PE', 1, '18-19'), ref('EXO', 12, '5')],
         region: 'altar',
-        box: [0.5, 0.78, 0.5, 0.34],
+        box: [0.5, 0.86, 0.9, 0.24],
       },
       {
         slug: 'procession-of-the-lamb',
@@ -240,7 +240,7 @@ const SOURCE: readonly (readonly [Chapter['id'], readonly Row[]])[] = [
         meditate: ['Follow Him: ask where He is leading you today.', 'اتبعه: اسأله إلى أين يقودك اليوم.'],
         scripture: [ref('JHN', 1, '29'), ref('ISA', 53, '7')],
         region: 'altar',
-        box: [0.46, 0.8, 0.26, 0.2],
+        box: [0.5, 0.88, 0.3, 0.12],
       },
       {
         slug: 'blessing-of-the-oblations',
@@ -250,7 +250,7 @@ const SOURCE: readonly (readonly [Chapter['id'], readonly Row[]])[] = [
         meditate: ['Place something of your own life beside the bread and wine.', 'ضع شيئًا من حياتك بجانب الخبز والخمر.'],
         scripture: [ref('ROM', 12, '1')],
         region: 'altar',
-        box: [0.5, 0.82, 0.18, 0.16],
+        box: [0.5, 0.9, 0.16, 0.09],
       },
       {
         slug: 'thanksgiving',
@@ -260,7 +260,7 @@ const SOURCE: readonly (readonly [Chapter['id'], readonly Row[]])[] = [
         meditate: ['Name three things you are grateful for before you ask for anything.', 'سمِّ ثلاثة أشياء تشكر عليها قبل أن تطلب شيئًا.'],
         scripture: [ref('1TH', 5, '18'), ref('PSA', 100, '4')],
         region: 'altar',
-        box: [0.52, 0.8, 0.14, 0.14],
+        box: [0.5, 0.885, 0.1, 0.06],
       },
       {
         slug: 'absolutions',
@@ -270,7 +270,7 @@ const SOURCE: readonly (readonly [Chapter['id'], readonly Row[]])[] = [
         meditate: ['Ask for forgiveness, then begin again with a clear heart.', 'اطلب المغفرة ثم ابدأ من جديد بقلب صافٍ.'],
         scripture: [ref('ISA', 6, '5-7')],
         region: 'altar',
-        box: [0.5, 0.76, 0.3, 0.3],
+        box: [0.5, 0.88, 0.28, 0.14],
       },
     ],
   ],
@@ -285,7 +285,7 @@ const SOURCE: readonly (readonly [Chapter['id'], readonly Row[]])[] = [
         meditate: ['Ask: Lord, what do You want to say to me today?', 'اسأل: يا رب، ماذا تريد أن تقول لي اليوم؟'],
         scripture: [ref('LUK', 24, '27-32')],
         region: 'church',
-        box: [0.5, 0.7, 0.6, 0.5],
+        box: [0.5, 0.8, 0.8, 0.4],
         basis: 'general',
       },
       {
@@ -296,7 +296,7 @@ const SOURCE: readonly (readonly [Chapter['id'], readonly Row[]])[] = [
         meditate: ['Let one prayer you carry rise with the incense.', 'دع صلاة تحملها تصعد مع البخور.'],
         scripture: [ref('PSA', 141, '2'), ref('REV', 8, '3-4')],
         region: 'incense',
-        box: [0.49, 0.62, 0.2, 0.3],
+        box: [0.5, 0.8, 0.16, 0.12],
       },
       {
         slug: 'procession-of-incense',
@@ -306,7 +306,7 @@ const SOURCE: readonly (readonly [Chapter['id'], readonly Row[]])[] = [
         meditate: ['Receive the incense as a blessing on your whole day.', 'اقبل البخور كبركة على يومك كله.'],
         scripture: [ref('MAL', 1, '11'), ref('2CO', 2, '14-15')],
         region: 'incense',
-        box: [0.3, 0.74, 0.34, 0.24],
+        box: [0.28, 0.86, 0.34, 0.16],
       },
       {
         slug: 'prayers-during-the-procession',
@@ -316,7 +316,7 @@ const SOURCE: readonly (readonly [Chapter['id'], readonly Row[]])[] = [
         meditate: ['Pray for someone by name while the incense moves.', 'صلِّ عن شخص بالاسم بينما يتحرك البخور.'],
         scripture: [ref('1TI', 2, '1-2')],
         region: 'incense',
-        box: [0.7, 0.74, 0.34, 0.24],
+        box: [0.72, 0.86, 0.34, 0.16],
       },
       {
         slug: 'hymn-of-the-censer',
@@ -326,7 +326,7 @@ const SOURCE: readonly (readonly [Chapter['id'], readonly Row[]])[] = [
         meditate: ['What do you carry that others can smell: peace or hurry?', 'ماذا تحمل مما يشمّه الآخرون: سلامًا أم عجلة؟'],
         scripture: [ref('REV', 8, '3-4')],
         region: 'incense',
-        box: [0.48, 0.55, 0.18, 0.24],
+        box: [0.5, 0.62, 0.16, 0.1],
       },
       {
         slug: 'hymn-of-the-intercessions',
@@ -336,7 +336,7 @@ const SOURCE: readonly (readonly [Chapter['id'], readonly Row[]])[] = [
         meditate: ['Remember a saint whose life has helped you.', 'تذكّر قديسًا ساعدتك حياته.'],
         scripture: [ref('HEB', 12, '1'), ref('JAS', 5, '16')],
         region: 'incense',
-        box: [0.5, 0.48, 0.24, 0.2],
+        box: [0.5, 0.68, 0.3, 0.12],
       },
       {
         slug: 'trisagion',
@@ -346,7 +346,7 @@ const SOURCE: readonly (readonly [Chapter['id'], readonly Row[]])[] = [
         meditate: ['Say the three holies slowly, once each.', 'قل «قدوس» ثلاث مرات ببطء.'],
         scripture: [ref('ISA', 6, '3')],
         region: 'threshold',
-        box: [0.5, 0.4, 0.3, 0.24],
+        box: [0.5, 0.68, 0.7, 0.2],
         basis: 'general',
       },
       {
@@ -357,7 +357,7 @@ const SOURCE: readonly (readonly [Chapter['id'], readonly Row[]])[] = [
         meditate: ['Listen for one sentence to carry out of church.', 'أنصت لجملة واحدة تحملها معك خارج الكنيسة.'],
         scripture: [ref('2TI', 3, '16-17')],
         region: 'iconostasis',
-        box: [0.31, 0.73, 0.2, 0.2],
+        box: [0.3, 0.765, 0.2, 0.07],
       },
       {
         slug: 'catholic-epistle',
@@ -367,7 +367,7 @@ const SOURCE: readonly (readonly [Chapter['id'], readonly Row[]])[] = [
         meditate: ['Where is faith asking to become action in your week?', 'أين يطلب الإيمان أن يصير عملًا في أسبوعك؟'],
         scripture: [ref('JAS', 1, '22')],
         region: 'iconostasis',
-        box: [0.22, 0.73, 0.2, 0.2],
+        box: [0.22, 0.765, 0.2, 0.07],
       },
       {
         slug: 'acts',
@@ -377,7 +377,7 @@ const SOURCE: readonly (readonly [Chapter['id'], readonly Row[]])[] = [
         meditate: ['The same Spirit is at work in this gathering.', 'الروح نفسه يعمل في هذا الاجتماع.'],
         scripture: [ref('ACT', 2, '42')],
         region: 'iconostasis',
-        box: [0.78, 0.73, 0.2, 0.2],
+        box: [0.78, 0.765, 0.2, 0.07],
       },
       {
         slug: 'synaxarion',
@@ -387,7 +387,7 @@ const SOURCE: readonly (readonly [Chapter['id'], readonly Row[]])[] = [
         meditate: ['What would it look like to live that life in your circumstances?', 'كيف تبدو هذه الحياة في ظروفك أنت؟'],
         scripture: [ref('HEB', 12, '1')],
         region: 'iconostasis',
-        box: [0.64, 0.73, 0.2, 0.2],
+        box: [0.64, 0.765, 0.2, 0.07],
       },
       {
         slug: 'psalm-and-alleluia',
@@ -397,7 +397,7 @@ const SOURCE: readonly (readonly [Chapter['id'], readonly Row[]])[] = [
         meditate: ['Let your voice join the others; the psalm is sung together.', 'دع صوتك ينضم إلى الباقين؛ المزمور يُرتَّل معًا.'],
         scripture: [ref('PSA', 95, '1-2')],
         region: 'stair',
-        box: [0.5, 0.4, 0.22, 0.3],
+        box: [0.5, 0.64, 0.2, 0.14],
         basis: 'general',
       },
       {
@@ -408,7 +408,7 @@ const SOURCE: readonly (readonly [Chapter['id'], readonly Row[]])[] = [
         meditate: ['Hear the passage as addressed to you, by name.', 'اسمع الفصل كأنه موجّه إليك أنت بالاسم.'],
         scripture: [ref('JHN', 20, '31')],
         region: 'christ',
-        box: [0.5, 0.14, 0.3, 0.26],
+        box: [0.5, 0.1, 0.26, 0.16],
       },
       {
         slug: 'homily',
@@ -418,7 +418,7 @@ const SOURCE: readonly (readonly [Chapter['id'], readonly Row[]])[] = [
         meditate: ['Choose one small thing from the readings to do this week.', 'اختر أمرًا صغيرًا من القراءات لتعمله هذا الأسبوع.'],
         scripture: [ref('NEH', 8, '8')],
         region: 'church',
-        box: [0.5, 0.62, 0.5, 0.4],
+        box: [0.5, 0.8, 0.7, 0.3],
         basis: 'general',
       },
     ],
@@ -434,7 +434,7 @@ const SOURCE: readonly (readonly [Chapter['id'], readonly Row[]])[] = [
         meditate: ['Come near with reverence and with confidence together.', 'اقترب بخشوع وبثقة معًا.'],
         scripture: [ref('HEB', 10, '19-20')],
         region: 'veil',
-        box: [0.5, 0.72, 0.18, 0.2],
+        box: [0.5, 0.88, 0.2, 0.12],
       },
       {
         slug: 'litany-of-peace',
@@ -444,7 +444,7 @@ const SOURCE: readonly (readonly [Chapter['id'], readonly Row[]])[] = [
         meditate: ['Name a place that needs peace.', 'سمِّ مكانًا يحتاج إلى السلام.'],
         scripture: [ref('1TI', 2, '1-4')],
         region: 'threshold',
-        box: [0.5, 0.56, 0.45, 0.3],
+        box: [0.5, 0.62, 0.6, 0.25],
       },
       {
         slug: 'litany-of-the-fathers',
@@ -454,7 +454,7 @@ const SOURCE: readonly (readonly [Chapter['id'], readonly Row[]])[] = [
         meditate: ['Pray for your priest by name.', 'صلِّ عن كاهنك بالاسم.'],
         scripture: [ref('HEB', 13, '17')],
         region: 'iconostasis',
-        box: [0.25, 0.62, 0.4, 0.3],
+        box: [0.3, 0.43, 0.4, 0.12],
       },
       {
         slug: 'litany-of-the-assemblies',
@@ -464,7 +464,7 @@ const SOURCE: readonly (readonly [Chapter['id'], readonly Row[]])[] = [
         meditate: ['Remember another parish or country at prayer this hour.', 'تذكّر كنيسة أو بلدًا آخر يصلي في هذه الساعة.'],
         scripture: [ref('1CO', 12, '12-13'), ref('MAT', 18, '20')],
         region: 'congregation',
-        box: [0.5, 0.66, 0.6, 0.3],
+        box: [0.5, 0.82, 0.95, 0.2],
       },
       {
         slug: 'creed',
@@ -474,7 +474,7 @@ const SOURCE: readonly (readonly [Chapter['id'], readonly Row[]])[] = [
         meditate: ['Say each line as your own confession.', 'قل كل سطر كاعترافك أنت.'],
         scripture: [ref('JUD', 1, '3')],
         region: 'church',
-        box: [0.5, 0.5, 0.55, 0.4],
+        box: [0.5, 0.52, 0.6, 0.3],
       },
       {
         slug: 'washing-of-hands',
@@ -484,7 +484,7 @@ const SOURCE: readonly (readonly [Chapter['id'], readonly Row[]])[] = [
         meditate: ['Ask for a clean heart.', 'اطلب قلبًا نقيًّا.'],
         scripture: [ref('PSA', 26, '6'), ref('PSA', 51, '2')],
         region: 'altar',
-        box: [0.5, 0.78, 0.2, 0.2],
+        box: [0.5, 0.9, 0.16, 0.08],
       },
       {
         slug: 'prayer-of-reconciliation',
@@ -494,7 +494,7 @@ const SOURCE: readonly (readonly [Chapter['id'], readonly Row[]])[] = [
         meditate: ['Is there someone you must forgive before you receive?', 'هل من شخص عليك أن تسامحه قبل أن تتناول؟'],
         scripture: [ref('MAT', 5, '23-24')],
         region: 'threshold',
-        box: [0.5, 0.45, 0.4, 0.3],
+        box: [0.5, 0.55, 0.5, 0.2],
       },
       {
         slug: 'kiss-of-peace',
@@ -504,7 +504,7 @@ const SOURCE: readonly (readonly [Chapter['id'], readonly Row[]])[] = [
         meditate: ['Greet your neighbour with real peace.', 'حيِّ جارك بسلام حقيقي.'],
         scripture: [ref('ROM', 16, '16'), ref('1PE', 5, '14')],
         region: 'congregation',
-        box: [0.5, 0.6, 0.5, 0.35],
+        box: [0.5, 0.8, 0.7, 0.2],
       },
     ],
   ],
@@ -519,7 +519,7 @@ const SOURCE: readonly (readonly [Chapter['id'], readonly Row[]])[] = [
         meditate: ['Lord, draw my heart to You.', 'يا رب، اجذب قلبي إليك.'],
         scripture: [ref('COL', 3, '1-2'), ref('LAM', 3, '41')],
         region: 'stair',
-        box: [0.5, 0.4, 0.3, 0.3],
+        box: [0.5, 0.62, 0.24, 0.16],
         dialogue: LIFT,
       },
       {
@@ -530,7 +530,7 @@ const SOURCE: readonly (readonly [Chapter['id'], readonly Row[]])[] = [
         meditate: ['Give thanks aloud, even if quietly.', 'اشكر بصوت مسموع ولو خافتًا.'],
         scripture: [ref('PSA', 136, '1'), ref('EPH', 5, '20')],
         region: 'choir',
-        box: [0.5, 0.32, 0.4, 0.24],
+        box: [0.5, 0.5, 0.6, 0.14],
         dialogue: THANKS,
       },
       {
@@ -541,7 +541,7 @@ const SOURCE: readonly (readonly [Chapter['id'], readonly Row[]])[] = [
         meditate: ['Let the chant carry you; you do not need to understand every word.', 'دع اللحن يحملك؛ لا تحتاج أن تفهم كل كلمة.'],
         scripture: [ref('PSA', 150, '1-2')],
         region: 'angels',
-        box: [0.28, 0.22, 0.3, 0.26],
+        box: [0.25, 0.65, 0.3, 0.1],
         varies: true,
       },
       {
@@ -552,7 +552,7 @@ const SOURCE: readonly (readonly [Chapter['id'], readonly Row[]])[] = [
         meditate: ['Find your own story inside this one.', 'اكتشف قصتك أنت داخل هذه القصة.'],
         scripture: [ref('HEB', 1, '1-2')],
         region: 'angels',
-        box: [0.72, 0.22, 0.3, 0.26],
+        box: [0.75, 0.65, 0.3, 0.1],
         varies: true,
       },
       {
@@ -563,7 +563,7 @@ const SOURCE: readonly (readonly [Chapter['id'], readonly Row[]])[] = [
         meditate: ['For a moment, simply wonder.', 'لحظة واحدة، تعجّب فقط.'],
         scripture: [ref('ISA', 6, '2-3'), ref('REV', 4, '8')],
         region: 'angels',
-        box: [0.5, 0.17, 0.6, 0.3],
+        box: [0.5, 0.2, 0.7, 0.1],
       },
       {
         slug: 'institution-narrative',
@@ -573,7 +573,7 @@ const SOURCE: readonly (readonly [Chapter['id'], readonly Row[]])[] = [
         meditate: ['“Do this in remembrance of Me”: say Amen with your whole heart.', '«اصنعوا هذا لذكري»: قل آمين من كل قلبك.'],
         scripture: [ref('LUK', 22, '19-20'), ref('1CO', 11, '23-26')],
         region: 'christ',
-        box: [0.5, 0.12, 0.24, 0.22],
+        box: [0.5, 0.1, 0.22, 0.14],
         varies: true,
       },
       {
@@ -584,7 +584,7 @@ const SOURCE: readonly (readonly [Chapter['id'], readonly Row[]])[] = [
         meditate: ['Hold the cross and the empty tomb together.', 'اجمع الصليب والقبر الفارغ معًا.'],
         scripture: [ref('1CO', 11, '26')],
         region: 'christ',
-        box: [0.5, 0.09, 0.16, 0.18],
+        box: [0.5, 0.085, 0.14, 0.1],
         varies: true,
       },
       {
@@ -595,7 +595,7 @@ const SOURCE: readonly (readonly [Chapter['id'], readonly Row[]])[] = [
         meditate: ['Ask for the Spirit: not for what you want, but for what He gives.', 'اطلب الروح: لا ما تريده أنت بل ما يعطيه هو.'],
         scripture: [ref('LUK', 11, '13'), ref('JHN', 6, '53-56')],
         region: 'sky',
-        box: [0.5, 0.06, 0.3, 0.12],
+        box: [0.5, 0.045, 0.3, 0.07],
         varies: true,
       },
       {
@@ -606,7 +606,7 @@ const SOURCE: readonly (readonly [Chapter['id'], readonly Row[]])[] = [
         meditate: ['Bring one burden of the world to this altar.', 'احمل إلى هذا المذبح همًّا واحدًا من هموم العالم.'],
         scripture: [ref('1TI', 2, '1-4')],
         region: 'choir',
-        box: [0.25, 0.3, 0.34, 0.24],
+        box: [0.25, 0.3, 0.4, 0.1],
         varies: true,
       },
       {
@@ -617,7 +617,7 @@ const SOURCE: readonly (readonly [Chapter['id'], readonly Row[]])[] = [
         meditate: ['Thank God for the saints you know.', 'اشكر الله على القديسين الذين تعرفهم.'],
         scripture: [ref('HEB', 12, '1'), ref('REV', 7, '9-10')],
         region: 'saints',
-        box: [0.2, 0.36, 0.3, 0.24],
+        box: [0.2, 0.42, 0.3, 0.12],
         varies: true,
       },
       {
@@ -628,7 +628,7 @@ const SOURCE: readonly (readonly [Chapter['id'], readonly Row[]])[] = [
         meditate: ['Say the name of someone you miss.', 'اذكر اسم شخص تشتاق إليه.'],
         scripture: [ref('ROM', 14, '8'), ref('LUK', 20, '38')],
         region: 'saints',
-        box: [0.8, 0.36, 0.3, 0.24],
+        box: [0.8, 0.42, 0.3, 0.12],
         varies: true,
       },
       {
@@ -639,7 +639,7 @@ const SOURCE: readonly (readonly [Chapter['id'], readonly Row[]])[] = [
         meditate: ['Quiet your heart; the Lamb is near.', 'اهدئ قلبك؛ الحمل قريب.'],
         scripture: [ref('PSA', 34, '8')],
         region: 'choir',
-        box: [0.5, 0.35, 0.4, 0.26],
+        box: [0.5, 0.3, 0.5, 0.12],
       },
       {
         slug: 'prayer-of-the-fraction',
@@ -649,7 +649,7 @@ const SOURCE: readonly (readonly [Chapter['id'], readonly Row[]])[] = [
         meditate: ['You are not receiving alone.', 'أنت لا تتناول وحدك.'],
         scripture: [ref('1CO', 10, '16-17')],
         region: 'christ',
-        box: [0.5, 0.24, 0.22, 0.22],
+        box: [0.5, 0.22, 0.3, 0.14],
       },
       {
         slug: 'the-lords-prayer',
@@ -659,7 +659,7 @@ const SOURCE: readonly (readonly [Chapter['id'], readonly Row[]])[] = [
         meditate: ['Pray it slowly, as if for the first time.', 'صلِّها ببطء، كأنك تصليها لأول مرة.'],
         scripture: [ref('MAT', 6, '9-13'), ref('LUK', 11, '2-4')],
         region: 'christ',
-        box: [0.5, 0.13, 0.4, 0.26],
+        box: [0.5, 0.11, 0.44, 0.18],
       },
       {
         slug: 'prayer-of-submission',
@@ -669,7 +669,7 @@ const SOURCE: readonly (readonly [Chapter['id'], readonly Row[]])[] = [
         meditate: ['Bow your head and leave one worry in His hands.', 'أحنِ رأسك واترك همًّا واحدًا في يديه.'],
         scripture: [ref('PSA', 95, '6')],
         region: 'saints',
-        box: [0.36, 0.14, 0.2, 0.2],
+        box: [0.35, 0.1, 0.16, 0.16],
       },
       {
         slug: 'prayer-of-absolution',
@@ -679,7 +679,7 @@ const SOURCE: readonly (readonly [Chapter['id'], readonly Row[]])[] = [
         meditate: ['Receive the forgiveness offered here.', 'اقبل المغفرة المقدَّمة هنا.'],
         scripture: [ref('1JN', 1, '9'), ref('1CO', 11, '28')],
         region: 'christ',
-        box: [0.5, 0.1, 0.2, 0.2],
+        box: [0.5, 0.09, 0.22, 0.14],
       },
       {
         slug: 'the-holies-for-the-holy',
@@ -689,7 +689,7 @@ const SOURCE: readonly (readonly [Chapter['id'], readonly Row[]])[] = [
         meditate: ['Do not ask “am I worthy?”; ask “Lord, make me holy.”', 'لا تسأل «هل أنا مستحق؟» بل قل «يا رب قدّسني».'],
         scripture: [ref('1PE', 1, '15-16')],
         region: 'christ',
-        box: [0.5, 0.08, 0.14, 0.16],
+        box: [0.5, 0.07, 0.14, 0.1],
       },
       {
         slug: 'the-confession',
@@ -699,7 +699,7 @@ const SOURCE: readonly (readonly [Chapter['id'], readonly Row[]])[] = [
         meditate: ['Say “Amen” as your own “I believe”.', 'قل «آمين» كأنها «أؤمن» الخاصة بك.'],
         scripture: [ref('JHN', 6, '54-55'), ref('MAT', 16, '16')],
         region: 'christ',
-        box: [0.5, 0.075, 0.1, 0.14],
+        box: [0.5, 0.06, 0.1, 0.08],
       },
     ],
   ],
@@ -714,7 +714,7 @@ const SOURCE: readonly (readonly [Chapter['id'], readonly Row[]])[] = [
         meditate: ['Be still; He is coming to you.', 'اسكن؛ هو آتٍ إليك.'],
         scripture: [ref('PSA', 34, '8')],
         region: 'choir',
-        box: [0.5, 0.22, 0.34, 0.3],
+        box: [0.5, 0.23, 0.4, 0.12],
       },
       {
         slug: 'the-distribution',
@@ -724,7 +724,7 @@ const SOURCE: readonly (readonly [Chapter['id'], readonly Row[]])[] = [
         meditate: ['Receive Him, and then simply stay with Him.', 'تناولْه ثم ابقَ معه فحسب.'],
         scripture: [ref('JHN', 6, '56'), ref('1CO', 10, '16')],
         region: 'stair',
-        box: [0.5, 0.4, 0.24, 0.2],
+        box: [0.5, 0.17, 0.3, 0.1],
       },
       {
         slug: 'psalm-150',
@@ -734,7 +734,7 @@ const SOURCE: readonly (readonly [Chapter['id'], readonly Row[]])[] = [
         meditate: ['Let your thanks become praise.', 'دع شكرك يصير تسبيحًا.'],
         scripture: [ref('PSA', 150)],
         region: 'angels',
-        box: [0.7, 0.2, 0.3, 0.26],
+        box: [0.72, 0.15, 0.3, 0.1],
       },
       {
         slug: 'thanksgiving-after-communion',
@@ -744,7 +744,7 @@ const SOURCE: readonly (readonly [Chapter['id'], readonly Row[]])[] = [
         meditate: ['“What shall I render to the Lord?”', '«ماذا أرد للرب؟»'],
         scripture: [ref('PSA', 116, '12-13')],
         region: 'angels',
-        box: [0.3, 0.2, 0.3, 0.26],
+        box: [0.28, 0.15, 0.3, 0.1],
       },
       {
         slug: 'dismissal',
@@ -754,7 +754,7 @@ const SOURCE: readonly (readonly [Chapter['id'], readonly Row[]])[] = [
         meditate: ['Take one thing from this hour into your home.', 'احمل شيئًا من هذه الساعة إلى بيتك.'],
         scripture: [ref('MRK', 5, '19')],
         region: 'heaven',
-        box: [0.5, 0.2, 0.5, 0.36],
+        box: [0.5, 0.12, 0.5, 0.24],
       },
       {
         slug: 'the-blessing',
@@ -764,7 +764,7 @@ const SOURCE: readonly (readonly [Chapter['id'], readonly Row[]])[] = [
         meditate: ['Go in peace, and be a blessing.', 'امضِ بسلام وكن بركة.'],
         scripture: [ref('NUM', 6, '24-26'), ref('LUK', 24, '50-53')],
         region: 'heaven',
-        box: [0.5, 0.1, 0.14, 0.2],
+        box: [0.5, 0.085, 0.2, 0.16],
       },
     ],
   ],

@@ -11,8 +11,8 @@ artwork in the centre and a parchment prayer panel, with 52 stops in five chapte
 
 | Part | Where | What it does |
 | --- | --- | --- |
-| Artwork | `content/art/holy-mass/source.jpg` + `detail/` | The master picture (3312 × 2480, generated with Higgsfield, see `content/art/holy-mass/README.md`) and eight regions of it enhanced to 3.2× by an upscaler. |
-| Tiles | `scripts/holy-mass/tiles.ts` → `apps/web/public/holy-mass/` | Enlarges the master to 10,240 px wide with Lanczos resampling and a light sharpen, lays the enhanced regions over it with soft edges, and cuts a Deep Zoom pyramid of 512 px tiles (about 430 files, 15 MB). Generated, git-ignored; `npm run holymass:tiles`; runs in `npm run build` and `dev:web`. |
+| Artwork | `content/art/holy-mass/source.jpg` + `detail/` | The tall master picture (2160 × 3840, generated with Higgsfield, see `content/art/holy-mass/README.md`) and ten regions of it enhanced to 3.2× by an upscaler. |
+| Tiles | `scripts/holy-mass/tiles.ts` → `apps/web/public/holy-mass/` | Enlarges the master to 6,912 × 12,288 px with Lanczos resampling and a light sharpen, lays the enhanced regions over it with soft edges, and cuts a Deep Zoom pyramid of 512 px tiles (about 460 files, 18 MB). Generated, git-ignored; `npm run holymass:tiles`; runs in `npm run build` and `dev:web`. |
 | Camera | `apps/web/src/lib/holy-mass/camera.ts` | A stop names a *focus box*; the camera frames that box for any window shape (wide desktop, tall phone), interpolates between stops (centre linearly, zoom in log space, eased), and picks the tiles to draw. Pure arithmetic, tested. |
 | Stops | `apps/web/src/data/holy-mass.ts` | The 52 stops: titles, what happens, what it means, scripture, camera region. |
 | Page | `apps/web/src/pages/[lang]/holy-mass.astro` | Layout, canvas renderer, scroll → camera, deep links, options. |
@@ -33,27 +33,26 @@ artwork in the centre and a parchment prayer panel, with 52 stops in five chapte
 
 ## The artwork and its resolution
 
-The picture is the third version, and it is pulled back: the original scene is about a third of the
-width, with the nave, the side arches, the iconostasis and tiers of saints, monks and angels filling the
-sides and the heights, in the bright, luminous style of the very first picture (the second version had
-drifted to a darker, fresco-like look and was dropped). Details and the generation record:
-`content/art/holy-mass/README.md`.
+The picture is the fourth version and is tall (9:16): the church is the bottom quarter and heaven fills the
+rest, so the journey is a long climb. The haikal screen follows Coptic practice (Christ and the apostles
+above, saints below) and the altar is inside the sanctuary, behind the curtains as the people see it.
+Heaven is built as tiers of saints and angels rising to Christ enthroned at the top. Details and the
+generation record: `content/art/holy-mass/README.md`.
 
-**Zoom range.** The journey now runs from the whole picture (stop 1) to Christ's face (stops 45–46) and
-the enthroned Christ with the Gospel book (stop 52): at the end the camera shows about a tenth of the
-picture's width. Each stop's region is in `apps/web/src/data/holy-mass.ts`.
+**Zoom range.** Stop 1 shows the whole picture; the last stop (52) shows only Christ on his throne with
+the Gospel book, about a fifth of the picture's width. Each stop's region is in
+`apps/web/src/data/holy-mass.ts`, tuned as fractions of the tall picture.
 
-**Resolution.** The master is 3312 × 2480. Plain enlargement cannot invent detail, so the master was cut
-into nine overlapping regions and each was upscaled to 4096 × 3072 (3.2×) by Higgsfield's upscaler,
-which adds real detail while keeping alignment. The tile pyramid is built at 10,240 px so those
-regions are used at close to their full resolution. In the browser at the final stop the face, hair
-strands, halo letters and the Gospel book's jewels are crisp. One region (the top-left corner of the
-heavens) was refused by the service's moderation and shows the plain enlargement.
+**Resolution.** The master is 2160 × 3840. It was cut into ten overlapping regions and each upscaled to
+4096 × 3072 (3.2×) by Higgsfield's upscaler, which adds real detail while keeping alignment. The tile
+pyramid is built at 6,912 × 12,288 px so those regions are used at close to their full resolution.
+In the browser the final stop (Christ's face, hair, halo letters, the Gospel book) and the altar stop
+are crisp.
 
 For more, replace `source.jpg` (or set `HOLY_MASS_MASTER`; `HOLY_MASS_WIDTH` sets the pyramid's
 width), regenerate or add regions in `detail/`, and run `npm run holymass:tiles -- --force`. Camera
-regions are fractions of the picture, so a different composition needs them re-checked (the tests
-check that they stay inside the picture and that the last stop shows only heaven).
+regions are fractions of the picture, so a different composition needs them re-checked (the tests check
+that they stay inside the picture and that the last stop shows only the top of heaven).
 
 The artwork is **not yet approved**: every religious detail needs the review below.
 

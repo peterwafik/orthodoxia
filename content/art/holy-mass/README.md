@@ -1,41 +1,44 @@
 # Holy Mass artwork
 
-`source.jpg` is the master picture of the Holy Mass journey (`/en/holy-mass/`): the Coptic Orthodox
-sanctuary below, the threshold of incense and clouds in the middle, and the heavenly worship above,
-pulled back so the scene is about three times as wide as the first version, with the sides filled in.
+`source.jpg` is the master picture of the Holy Mass journey (`/en/holy-mass/`). It is a tall picture
+(2160 × 3840, 9:16): the Coptic Orthodox church at the bottom, then tier upon tier of heaven rising above
+it, up to Christ enthroned at the very top.
+
+## What it shows
+
+- **The church (bottom quarter).** The haikal screen as a Coptic church has it: Christ at the centre of
+  the top row, the apostles in a row on either side, and below them the Virgin holding Christ, St John the
+  Baptist, the archangels Michael and Gabriel, St George and St Anthony. The altar stands *inside* the
+  sanctuary, seen through the open red curtains, with the priest at it and the deacon beside him; the
+  men (left) and the veiled women (right) are in the nave.
+- **Heaven (the rest).** A golden stair and a hanging censer lead up through tiers of angels with censers,
+  Coptic desert fathers, martyrs and soldier saints, bishops and patriarchs, apostles, prophets, and
+  crowned elders; then the four living creatures and seraphim, and at the top Christ enthroned in a
+  mandorla (halo Ω O N, IC XC) with the Virgin and St John the Baptist beside him and archangels above.
+  The Father and the Holy Spirit are not depicted.
 
 ## Where it came from
 
-- **Generated with** Higgsfield, model `gpt_image_2_5` (4K, quality "max", 15 credits), from a text
-  description, on 2026-10-14: job `60990fd1-0932-45b4-9593-c2b642eba838`, 3312 × 2480 px. It was one of
-  three variants; the others (`ecabee47-…`, `2b5e3fcd-…`) were not used. A was chosen because its
-  Christ is the largest and cleanest and his halo letters (Ω, O, N, IC XC) are correct.
-- **Style:** the prompt asks for the bright, luminous, high-key painting style of the first picture
-  (pearly white and golden clouds, jewel colours, serene faces), not the darker fresco look of the
-  second one. The first picture was refused as a reference by the service's moderation (a false
-  positive), so the style was described in words.
-- **Content asked for:** a priest and deacon at the single altar before an iconostasis, the faithful
-  (men left, veiled women right) in the nave; incense rising up a golden stair; tiers of saints, Coptic
-  desert fathers and angels curving outward to the sides; Christ enthroned in a mandorla flanked by
-  archangels with censers; the Father and the Holy Spirit are not depicted.
+- **Generated with** Higgsfield, model `gpt_image_2_5` (4K, quality "max", 9:16), from a text description
+  inspired by Coptic heaven paintings, on 2026-10-14: job `784df7c4-7487-4a02-9c1a-bf5a07b34762`. It was
+  one of four variants (`909a020a-…`, `941a015a-…`, `dc40523c-…`); this one was kept because its
+  church screen, tiers and Christ are the cleanest. The style is the bright, luminous Coptic painting
+  style of the earlier pictures.
 - **Review status:** not yet approved. Every religious detail needs the review in docs/HOLY_MASS.md.
 - **Rights:** AI-generated; confirm the generating service's terms for the intended use before wide
   publication.
 
 ## Enhanced detail (`detail/`)
 
-The master is cut into nine overlapping 1280 × 960 regions (columns at x = 0, 1016, 2032; rows at
-y = 0, 760, 1520). Each was upscaled with Higgsfield's upscaler (`bytedance_image_upscale`, 4k, 2
-credits each) to 4096 × 3072, which gives real extra detail (eyes, hair strands, gold texture, lettering)
-and keeps alignment with the master. `detail/detail.json` lists the regions; `scripts/holy-mass/tiles.ts`
-lays them over the enlarged master with soft edges.
+The master is cut into ten overlapping 1280 × 960 regions (columns at x = 0, 880; rows at
+y = 0, 720, 1440, 2160, 2880). Each was upscaled with Higgsfield's upscaler (`bytedance_image_upscale`,
+4k, 2 credits each, 20 in all) to 4096 × 3072, which adds real detail (eyes, hair, gold texture,
+lettering) and keeps alignment with the master. `detail/detail.json` lists the regions;
+`scripts/holy-mass/tiles.ts` lays them over the enlarged master with soft edges. All ten regions were
+accepted; none was refused.
 
-- Eight of the nine regions are enhanced. The top-left region (`r0c0`, the saints at the upper left)
-  was refused by the service's moderation (a false positive) and was not worked around, so that corner
-  shows the plain enlargement.
-- Two regions failed on the first attempt (a transient error) and succeeded on one retry.
-
-Previous pictures are kept for comparison: `previous-source-1280.jpg` (the first, 1280 × 960) and
-`previous-source-3312-v2.jpg` (the second, with more Coptic detail but a different style).
+Previous pictures are kept for comparison: `previous-source-1280.jpg` (the first),
+`previous-source-3312-v2.jpg` (the second) and `previous-source-3312-v3.jpg` (the wide third version
+that this one replaces).
 
 The tiles are built by `npm run holymass:tiles`.

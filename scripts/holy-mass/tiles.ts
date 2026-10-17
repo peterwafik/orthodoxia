@@ -27,7 +27,7 @@ const ART = join(ROOT, 'content/art/holy-mass');
 const DETAIL = join(ART, 'detail');
 const OUT = join(ROOT, 'apps/web/public/holy-mass');
 const TILE = 512;
-const TARGET_WIDTH = Number(process.env['HOLY_MASS_WIDTH'] ?? 10240);
+const TARGET_WIDTH = Number(process.env['HOLY_MASS_WIDTH'] ?? 6912);
 
 interface DetailRegion {
   readonly file: string;
