@@ -1,0 +1,14 @@
+source: The Divine Liturgies of Saints Basil, Gregory and Cyril (Coptic, English and Arabic), Fr. Jacob Nadian, St. Bishoy Coptic Orthodox Church of Toronto, Stouffville, Ontario, Canada.
+source-ar: الثلاثة قداسات للقديسين باسيليوس واغريغوريوس وكيرلس (قبطي وإنجليزي وعربي)، الأب يعقوب نادين، كنيسة الأنبا بيشوي القبطية الأرثوذكسية بتورونتو، ستوفيل، أونتاريو، كندا.
+
+@priest
+en| That as in this, so also in all things, Your Great and holy name be glorified, blessed and exalted in everything, honored and blessed, with Jesus Christ, Your beloved Son, and the Holy Spirit. Peace be with You all.
+ar| لكيْ وبهذا، كما أيضا في كل شئ، يتمجد ويتبارك، ويرتفع اسمك العظيم القدوس، في كل شئ، كريم ومبارك، مع يسوع المسيح ابنك الحبيب والروح القدس. السلام للكل.
+
+@people
+en| And with your spirit.
+ar| ولروحك أيضًا.
+
+@priest
+en| Aga in, let us give thanks to God the Pantocrator, the Father of our Lord, God, and Savior Jesus Christ. For He also has made us worthy now to stand in this Holy Place, to lift up our hands and to serve His holy name. Let us also ask Him to make us worthy of the communion and partaking of His divine and immortal mysteries.
+ar| وأيضا فلنشكر الله ضابط الكل، أبا ربنا وإلهنا ومخلصنا يسوع المسيح. لأنه جعلنا أهلا الآن ان نقف في هذا الموضع المقدس، ونرفع أيدينا إلي فوق، ونخدم اسمه القدوس. هو أيضا فلنسأله أن يجعلنا مستحقين لشركة واصعاد أسراره الالهية غير المائتة.

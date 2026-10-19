@@ -1,0 +1,46 @@
+source: The Divine Liturgies of Saints Basil, Gregory and Cyril (Coptic, English and Arabic), Fr. Jacob Nadian, St. Bishoy Coptic Orthodox Church of Toronto, Stouffville, Ontario, Canada.
+source-ar: الثلاثة قداسات للقديسين باسيليوس واغريغوريوس وكيرلس (قبطي وإنجليزي وعربي)، الأب يعقوب نادين، كنيسة الأنبا بيشوي القبطية الأرثوذكسية بتورونتو، ستوفيل، أونتاريو، كندا.
+
+@priest
+en| Again, let us ask God the Pantocrator, the Father of our Lord, God, and Savior Jesus Christ. We ask and entreat Your goodness, O Lover of Mankind, remember, O Lord, our honored patriarch and father, the high priest, Pope Abba (…), and his spiritual brothers, the Patriarch of Antioch Mar Ignatius (…) and the Patriarch of Eritrea Abouna (…).
+ar| وأيضاً فلنسألُ الله الضابط الكل، أبا ربنا وإلهنا ومخلصنا يسوع المسيح. نسأل ونطلبُ من صلاحك يا محب البشر، اذكر يا رب بطريركنا الأب المكرم رئيس الكهنة البابا أنبا )...( وأخويه الروحيين مار أغناطيوس )...( بطريرك أنطاكية وأبونا )...( بطريرك أريتريا.
+
+@rubric
+en| If a metropolitan or a bishop is present:
+ar| في وجود مطران أو أسقفً:
+
+@priest
+en| And his partner in the apostolic liturgy, our father the metropolitan (bishop), Abba (…) . D eacon: Pray for our high priest, Papa Abba (…) , pope and patriarch and archbishop of the great city of Alexandria, and his spiritual brothers the Patriarch of Antioch Mar Ignatius (…) and the Patriarch of Eritrea Abouna (…) .
+ar| وشريكه في الخدمة الرسولية أبينا المطران (الأسقف) المكرم الأنبا (...). صلوا من أجل رئيس كهنتنا البابا أنبا )...( ، بابا وبطريرك ورئيس أساقفة المدينة العظمي الإسكندرية، وأخويه الروحيين مار أغناطيوس )...( بطريرك أنطاكية وأبونا )...( بطريرك أريتريا.
+
+@rubric
+en| If a metropolitan or a bishop is present:
+ar| في وجود مطران أو أسقفً:
+
+@priest
+en| And his partner in the liturgy, our father the metropolitan (bishop), Abba (…) .
+ar| وشريكه في الخدمة الرسولية أبينا المطران (الأسقف) المكرم الأنبا (...).
+
+@rubric
+en| Then he c oncludes:
+ar| ثم يكمل:
+
+@priest
+en| And for our orthodox bishops.
+ar| وسائر أساقفتنا الأرثوذكسيين.
+
+@people
+en| Lord have mercy.
+ar| يا ربُ إرحم.
+
+@priest
+en| In keeping keep them for us for many years and peaceful times. Fulfilling that holy high priesthood with wh ich You have entrusted them f o r Yourself, according to Your holy and blessed will , r ightly dividing the w ord of truth, shepherding Your people in purity and righteousness, and all the orthodox bishops, hegumens, priests, and deacons, and all the fullness of Your one, only, holy, catholic, and apostolic Church. Grant them and us peace and safety in every place. Their prayers which they offer on our behalf, (and on behalf of all Your people)*, as well as ours on their behalf,
+ar| حفظاً إحفظهم لنا سنين كثيرة وأزمنة سلامية. مكملين رئاسة الكهنوت المقدسة التي ائتمنتهم عليها من قبـلك، كإرادتك المقدسة الطوباوية. مفصلين كلمة الحق باستقامة، راعين شعبك بطهارة وبر. وجميع الأساقفة الأرثوذكسيين، والقمامصة والقـسوس والشمامسة، وكـل امتـلاء كنيستك الواحدة الوحيدة المقدسة الجامعة الرسولية. أنعـم عليـهم وعلينا بالسلام والعافية في كل مـوضــع. وصلواتهم التي يقدمونها عنا، (وعن كل شعبك)* وصلواتنا نحن أيضا عنهم.
+
+@rubric
+en| * Said by the pope, a metropolitan or a bishop, if present. The deacon presents the censer to the priest, who puts a spoonful of incense into it, while saying:
+ar| * يقولها الآب البابا أو المطران أو الأسقف إن كان حاضراً. هنا يقدم الشماس المجمرة إلي الكاهن فيضع فيها يد بخور واحدة وهو يقول:
+
+@priest
+en| Receive them upon Your holy, rational a ltar of heaven, as a sweet savor of incense. All their enemies, visible and invisible, trample and humiliate under their feet speedily. As for them, keep them in peace and righteousness in Your holy Church.
+ar| إقبلها إليك علي مذبحك المقدس الناطق السمائى رائحة بخور. فسائر أعدائهم الذين يرون والذين لا يرون، اسحقهم وأذلهم تحت أرجلهم سريعاً. وأما هم فاحفظهم في سلام وعدل في كنيستك المقدسة.

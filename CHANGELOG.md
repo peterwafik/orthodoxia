@@ -1,23 +1,40 @@
 # Changelog
 
+## Unreleased: home page
+
+- Home page redesigned as six cards (Bible, Cross-references, Read with threads, Holy Mass, About, Sources) under a line drawing of an open book, a Coptic cross and arcs, in the light and dark themes. The credits and disclaimer block is removed from the home page (it stays on Sources). Light is now the default theme on every page, including the explorer; the system dark preference is no longer followed, and a saved choice still wins.
+
+## Unreleased: topic markers
+
+- Bible reader: an optional floating button opens a panel of 43 topic families with about 1,300 subtopics in English and Arabic; ticking a topic colours the verses of the chapter that belong to it. Verses come from Nave's Topical Bible (1903, public domain) plus hand-listed passages, so every subtopic has verses (see docs/TOPICS.md; rebuild with `npm run topics`). Ticking a main topic selects all its subtopics, and unticking it restores the subtopics ticked before. Not reviewed by clergy.
+
 ## Unreleased
 
 ### Added
-- Holy Mass journey (`/en/holy-mass/`, `/ar/holy-mass/`): the Divine Liturgy as one continuous
-  picture. The master artwork is enlarged six times into a deep-zoom tile pyramid, and a camera moves
-  over it as the reader scrolls through 52 stops in five chapters, from the earthly church to a view
-  where only heaven fills the picture, on desktop and phone, in Arabic and English. Deep links,
-  resume, liturgy selector, both-languages toggle and reduced-motion support. Content is draft:
-  prayer texts are pending an authorized translation. See docs/HOLY_MASS.md.
-- Holy Mass artwork regenerated again with Higgsfield as a tall 9:16 picture: the haikal screen now follows
-  Coptic practice (Christ and the apostles above, saints below) with the altar inside the sanctuary behind the
-  curtains, and heaven is lengthened into tiers of saints and angels up to Christ enthroned at the top. Ten
-  regions enhanced by an upscaler, a 6,912 × 12,288 px tile pyramid, and all 52 camera regions re-tuned, so the
-  journey is a long zoom and climb ending at the icon of Christ.
-- Holy Mass artwork regenerated twice more with Higgsfield: the scene pulled back to three times its
-  width with the sides filled in, in the original luminous style, at 3312 × 2480, with eight regions
-  enhanced by an upscaler and the tile pyramid built at 10,240 px, so the journey zooms all the way in to
-  Christ's face without pixelating. Camera regions re-tuned; deep links hold while the page lays out.
+- Holy Mass journey (`/en/holy-mass/`, `/ar/holy-mass/`): the Divine Liturgy as a scroll-driven flight.
+  Scrolling 52 stops in five chapters plays a film of five clay-diorama scenes of a Coptic church (the
+  sanctuary screen, the choir and the Word, the nave at the kiss of peace, the haikal and the altar,
+  communion and heaven), joined by camera flights from one scene to the next and ending on Christ
+  enthroned. Lighter clips for phones, Arabic and English, deep links, resume, liturgy selector,
+  both-languages toggle and reduced-motion support. The scenes were generated with Higgsfield and rebuilt
+  to follow Coptic practice (solid iconostasis, ciborium over the altar, raised khorus, barefoot clergy);
+  they are unreviewed by clergy. The earlier deep-zoom picture and its tile build are removed. Content is
+  draft: prayer texts are pending an authorized translation. See docs/HOLY_MASS.md.
+- Holy Mass panel simplified: five icon switches (Steps, Priest, Deacon, People, Meaning) choose what is shown,
+  each as a row with a round icon so the step sits beside the words, and the choice is remembered. Draft
+  one-sentence summaries of what the priest, deacon and people do or say at every stop, in Arabic and English
+  (not prayer texts; unreviewed). The silent meditation, scripture and notes moved under "More"; the stops,
+  options and liturgy picker are icon buttons; a shorter picture area on phones.
+- Holy Mass full texts: the page can show everything said at each stop, as a script in the order it is said
+  (steps, priest, deacon, people), in Arabic and English (Coptic and transliteration ready), with a language
+  picker, a text-size control, and the source of every text. The texts are plain files in `content/liturgy/`
+  checked by `npm run liturgy`; a file without a `source:` line fails the build. Stops without text keep
+  their draft summaries. Only the short dialogue of stops 29 and 30 is included so far.
+- Holy Mass page redesigned to be minimal: the film plays softly behind the page, the list of stops hides
+  behind a hamburger button, and each stop is a chat (priest, deacon and people bubbles, then the steps in
+  the altar and the meaning behind). Five switches at the bottom show or hide each aspect. One language at
+  a time: the English page shows no Arabic and the Arabic page no English, including the credit line (new
+  optional `source-ar:` line in the text files).
 - Fr. Tadros Yacoub Malaty's commentary, published with his permission, for the 402 chapters
   without St. Mark text (Job, Proverbs to Malachi, Wisdom, Sirach, Esther, parts of Exodus,
   Chronicles, Ezra and Psalms). It is shown verse by verse in Arabic, credited and linked to his

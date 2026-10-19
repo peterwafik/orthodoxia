@@ -1,0 +1,41 @@
+import type { FamilyMap } from './types.ts';
+
+/** 19. God's existence, identity, and attributes. (Nave's GOD topic has a heading for almost every attribute.) */
+export const F19: FamilyMap = {
+  nave: {
+    'God as Creator': 'GOD>CREATOR',
+    "God's eternal nature": 'GOD>ETERNITY OF',
+    "God's omnipotence": 'GOD>OMNIPOTENT|POWER OF',
+    "God's omniscience": 'GOD>KNOWLEDGE OF',
+    "God's omnipresence": 'GOD>ONNIPRESENT|UBIQUITOUS',
+    "God's holiness": 'GOD>HOLINESS OF',
+    "God's goodness": 'GOD>GOODNESS OF',
+    "God's love": 'GOD>LOVE OF',
+    "God's mercy": 'GOD>MERCY OF',
+    "God's justice": 'GOD>JUDGE, AND HIS JUSTICE',
+    "God's righteousness": 'GOD>RIGHTEOUSNESS OF',
+    "God's faithfulness": 'GOD>FAITHFULNESS OF',
+    "God's unchanging nature": 'GOD>IMMUTABLE|UNCHANGEABLE',
+    "God's wisdom": 'GOD>WISDOM OF',
+    "God's sovereignty": 'GOD>SOVEREIGN',
+    "God's providence": 'GOD>PROVIDENCE OF',
+    "God's glory": 'GOD>GLORY OF',
+    "God's patience": 'GOD>LONGSUFFERING OF',
+    "God's anger against evil": 'ANGER>ANGER OF GOD',
+    "God's forgiveness": 'SIN>FORGIVENESS OF',
+    "God's presence with humanity": 'GOD>PRESENCE OF',
+    'God as Father': 'GOD>FATHERHOOD OF',
+    "God's relationship with creation": 'GOD>CREATOR|WORKS OF|PRESERVER',
+    'The unknowability and knowability of God': 'GOD>INCOMPREHENSIBLE|UNSEARCHABLE|INVISIBLE',
+    'God as the source of life': 'GOD>CREATOR OF MAN',
+  },
+  passages: {
+    'The existence of God': 'Genesis 1:1; Psalm 14:1; Romans 1:19–20; Hebrews 11:6; Psalm 19:1–4',
+    "God's compassion": 'Exodus 34:6; Psalm 103:8–13; Lamentations 3:22–23; Psalm 145:8–9',
+    "God's transcendence": 'Isaiah 55:8–9; Isaiah 57:15; 1 Kings 8:27; Psalm 113:4–6',
+    "God's presence with humanity": 'Matthew 1:23; Revelation 21:3; Exodus 25:8; John 1:14',
+    "God's names and titles": 'Exodus 3:13–15; Exodus 6:2–3; Genesis 17:1; Psalm 83:18; Isaiah 9:6',
+    "God's revelation to humanity": 'Hebrews 1:1–2; Romans 1:19–20; Psalm 19:1–4; 2 Timothy 3:16',
+    'God as the source of life': 'Psalm 36:9; Acts 17:25–28; Job 33:4',
+  },
+};

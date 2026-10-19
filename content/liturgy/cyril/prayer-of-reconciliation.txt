@@ -1,0 +1,50 @@
+source: The Divine Liturgies of Saints Basil, Gregory and Cyril (Coptic, English and Arabic), Fr. Jacob Nadian, St. Bishoy Coptic Orthodox Church of Toronto, Stouffville, Ontario, Canada.
+source-ar: الثلاثة قداسات للقديسين باسيليوس واغريغوريوس وكيرلس (قبطي وإنجليزي وعربي)، الأب يعقوب نادين، كنيسة الأنبا بيشوي القبطية الأرثوذكسية بتورونتو، ستوفيل، أونتاريو، كندا.
+
+@priest
+en| Pray.
+ar| صلوا.
+
+@deacon
+en| Stand up for prayer.
+ar| للصلاة قفوا.
+
+@priest
+en| Peace be with all.
+ar| السلام للكل.
+
+@people
+en| And with your spirit.
+ar| ولروحك ايضاً.
+
+@priest
+en| O Author of life and King of the ages. O God, unto whom every knee bows, those in the heavens, those on earth, and those under the earth. To whom all are humbled and under the yoke of servitude, bowing the head to the scepter of His kingship. Who is glorified by the angelic hosts and the heavenly orders and the rational natures with unceasing voices declaring His Godhead. And You were pleased that we frail earthly men should also serve You, not on account of the purity of our hands, since we have wrought no goodness on earth. But rather desiring to give to us, we undeserving wretches, of Your purity. Receive us unto Yourself, O Good One and Lover of Mankind, as we draw near to Your holy altar, according to the multitude of Your mercy. And make us worthy of the heavenly peace which befits Your divinity and is full of salvation, that we may give the same to one another in perfect love. And greet one another with a holy kiss.
+ar| يا رئيس الحياة وملك الدهور. اللهم الذي تجثو له كل ركبة، ما في السموات وما على الأرض وما تحت الأرض. الذي الكل مذلول وخاضع بعُنق العبودية تحت خضوع قضيب ملكه. الذي تمجده الأجناد الملائكية، والطغمات السمائية، والطبائع العقلية، بصوت لا يسكت ناطق بألوهيته. وإذ سُررت بنا نحن أيضاً الضعفاء الأرضيين أن نخدمك، لا من أجل نقاوة أيدينا، لأننا لم نفعل الصلاح على الأرض. بل مريداً أن تعطينا نحن البائسين غير المستحقين من طهرك. اقبلنا إليك أيها الصالح محب البشر، إذ ندنو من مذبحك المقدس ككثرة رحمتك. واجعلنا أهلًا للسلام السمائي اللائق بلاهوتك والمملوء خلاصاً، لنعطيه بعضنا لبعض بمحبة كاملة. ونقبل بعضنا بعضاً بقبلة مقدسة.
+
+@deacon
+en| Pray for perfect peace, love, and the holy apostolic kisses.
+ar| صلوا من أجل السلام الكامل، والمحبة، والقبلة الطاهرة الرسولية.
+
+@people
+en| Lord have mercy.
+ar| يا ربُ إرحم.
+
+@priest
+en| Not with a vile sense that defies Your fear, nor with thoughts of guile filled with the wickedness of the traitor. Nor with consciences bent on malice. But rather by the gladness of our souls and the rejoicing of our hearts. Having the great and perfect sign of the love of Your only-begotten Son. And cast us not behind, we Your servants, on account of the defilement of our sins. For You know, as creator of our being, that no one born of a woman can be justified before You. So make us worthy, O our Master, with a holy heart and a soul filled with Your grace, to stand before You. And bring in unto You this holy sacrifice, which is rational, spiritual, and bloodless. Unto the remission of our transgressions and the forgiveness of the ignorances of Your people. For You are a merciful and a compassionate God. And unto You we send up the glory, the honor, the dom inion, and the worship, O Father, Son and Holy Spirit. N ow and at all times and unto the ages of all age s. Amen.
+ar| لا بحاسة مرذولة رافضة لمخافتك، ولا بفكر غاش مملوء من شر الخائن. غير متفقة نياتنا في الخبث. بل برغبة نفوسنا وتهليل قلوبنا. إذ لنا العلامة العظيمة الكاملة التي لمحبة إبنك الوحيد. ولا تطرحنا نحن عبيدك من أجل دنس خطايانا. لأنك أنت العارف كخالق جبلتنا، انه ليس مولود إمرأة يتزكي أمامك. فاجعلنا إذاً أهلًا يا سيدنا بقلب طاهر ونفس مملوءة من نعمتك، أن نقف أمامك. ونقدم لك هذه الصعيدة المقدسة الناطقة الروحانية غير الدموية. صفحاً لزلاتنا، وغفراناً لجهالات شعبك. لأنك أنت إله رؤوف متحنن. وأنت الذي نرسل لك إلي فوق المجد والكرامة والعز والسجود، أيها الآب والإبن والروح القدس. الآن وكل أوان وإلى دهر الدهور كلها. آمين.
+
+@deacon
+en| Greet one another with a Holy kiss. Lord have mercy. Lord have mercy. Lord have mercy Yea, Lord, who are Jesus Christ, the Son of God, hear us and have mercy upon us. Offer. Offer. Offer, in order. Stand with trembling. Look toward the East. Let us attend.
+ar| قبلوا بعضكم بعضا بقبلة مقدسة. يارب ارحم. يارب ارحم. يارب ارحم. نعم يارب الذي هو يسوع المسيح ابن الله، اسمعنا وارحمنا. تقدموا. تقدموا. تقدموا. على الرسم قفوا برعدة، والي الشرق أنظروا. ننصت.
+
+@people
+en| Through the intercessions of the Theotokos, Saint Mary, O Lord, grant us the forgiveness of our sins. We worship You, O Christ, with Your good Father and the Holy Spirit, for you hav e come (risen) and saved us. A mercy of peace, a sacrifice of praise.
+ar| بشفاعات والدة الاله القديسة مريم، يارب انعم لنا بمغفرة خطايانا. نسجد لك أيها المسيح، مع أبيك الصالح و الروح القدس، لأنك أتيت (قمت) وخلصتنا. رحمة السلام، ذبيحة التسبيح.
+
+@priest
+en| O God of love and Giver of the oneness of heart, Provider of the oneness of mind t hat is of virtue. Who have granted to us the new commandment through Your only - begotten Son. That we should love one another even as You have loved us, we the undeserving and the lost. And gave Your beloved Son for our life and salvation. We ask You, O our Master, to grant us Your servants, all the days of our life on earth and most particularly now. A sense that remembers not the earlier evils, and a conscience without hypocrisy, truthful thoughts, and a heart th at loves the brethren. That as we give a spiritual kiss, we may flee from the likeness of Judas the traitor. But having been reconciled to one another in the likeness of Y our holy disciples and apostles, in purity we are purified, and become sanctified through the mediation of Your Holy Spirit. Through the grace, compassion and love-of-mankind of Your only-begotten Son, our Lord, God and Savior, Jesus Christ. Through whom the glory, the honor, the dominion, and the worship are due unto You, with Him and the Holy Spirit, the Giver of life, who is of one essence with You. Now and at all times, and unto the ages of all ages. Amen.
+ar| يا إله المحبة ومُعطي وحدانية القلب، ورازق الرأيْ الواحد الذي للفضيلة. الذي أنعم علينا بالوصية الجديدة بإبنك الوحيد. لكيْ نحب بعضنا بعضاً كما أحببتنا أنت، نحن غير المستحقين والضالين. وبذلت ابنك الحبيب عن حياتنا وخلاصنا. نسألك يا سيدنا، أنعم علينا نحن عبيدك في كل زمان حياتنا التي على الأرض، ولاسيما بالأكثر الآن. بحاسة غير ذاكرة للشرور الأولى، ونية بغير رياء، وأفكار صادقة، وقلب محب للإخوة. لكيْ نهرب من شبه يهوذا الخائن، إذ نُعطي قبلة روحية. وإذ صالحنا بعضناً بعضاً بالطهارة مثل تلاميذك القديسين الرسل، بالطهارة نتطهر، ونتقدس من قِبَل وساطة روحك القدوس. بالنعمة والرأفات ومحبة البشر، اللواتي لإبنك الوحيد ربنا وإلهنا ومخلصنا يسوع المسيح. هذا الذي من قبله المجد والإكرام والعز والسجود تليق بك معه، ومع الروح القدس المحيي المساوي لك. الآن وكل أوان وإلى دهر الدهور كلها. آمين.
+
+@deacon
+en| Greet one another with a Holy kiss. Lord have mercy. Lord have mercy. Lord have mercy Yea, Lord, who are Jesus Christ, the Son of God, hear us and have mercy upon us. Offer. Offer. Offer, in order. Stand with trembling. Look toward the East. Let us attend.
+ar| قبلوا بعضكم بعضا بقبلة مقدسة. يارب ارحم. يارب ارحم. يارب ارحم. نعم يارب الذي هو يسوع المسيح ابن الله، اسمعنا وارحمنا. تقدموا. تقدموا. تقدموا. على الرسم قفوا برعدة، والي الشرق أنظروا. ننصت.

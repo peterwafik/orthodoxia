@@ -1,6 +1,6 @@
 /**
  * Builds the whole static site into `dist/`:
- *   1. the Bible data (scripts/bible), the Holy Mass artwork tiles (scripts/holy-mass) and the content site (apps/web, Astro) → dist/
+ *   1. the Bible data (scripts/bible), the Holy Mass texts (scripts/liturgy) and the content site (apps/web, Astro) → dist/
  *   2. the cross-reference explorer (apps/explorer, upstream Vite app), once per language →
  *      dist/en/explore/ and dist/ar/explore/
  * then checks the output against the free hosting limits (docs/phase-0/05-hosting-evaluation.md).
@@ -43,7 +43,7 @@ function listFiles(dir: string): string[] {
 rmSync(DIST, { recursive: true, force: true });
 
 run('npm run bible');
-run('node scripts/holy-mass/tiles.ts');
+run('npm run liturgy');
 run('npm run build -w apps/web', { SITE_ORIGIN });
 cpSync(join(ROOT, 'apps', 'web', 'dist'), DIST, { recursive: true });
 

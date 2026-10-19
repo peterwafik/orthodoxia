@@ -1,23 +1,25 @@
 ---
 /**
- * The Holy Mass journey: the Divine Liturgy as one continuous picture. Scrolling the prayer panel
- * moves a camera over a single enlarged artwork (a tiled deep-zoom pyramid), from the earthly church
- * toward the heavenly assembly. The camera maths are in lib/holy-mass/camera.ts; the stops and their
- * camera regions are in data/holy-mass.ts.
+ * The Holy Mass journey: the Divine Liturgy as one continuous flight. A film of five clay-diorama scenes
+ * (the sanctuary screen, the choir, the nave, the haikal and communion with heaven), one per chapter,
+ * joined by flights from one scene to the next, plays softly behind the page as you scroll. In front of
+ * it each stop is a short chat: what the priest, the deacon and the people say, then the steps in the
+ * altar and the meaning behind. The list of stops hides behind a hamburger button.
+ *
+ * ONE language at a time: /en/ shows English only and /ar/ shows Arabic only (the header's language link
+ * switches). The timeline is in lib/holy-mass/film.ts, the player in film-player.ts, the stops and scenes
+ * in data/holy-mass.ts, the prayer texts in content/liturgy/ (loaded per liturgy).
  */
-import { bookByCode } from '@orthodoxia/bible';
 import Base from '../../layouts/Base.astro';
-import { bookName, biblePath } from '../../lib/bible.ts';
-import { LOCALES, localePath, otherLocale, t, type Locale } from '../../i18n/index.ts';
-import { CHAPTERS, LITURGIES, REGIONS, STOPS, stopHash } from '../../data/holy-mass.ts';
+import Icon from '../../components/holy-mass/Icon.astro';
+import { LOCALES, localePath, t, type Locale } from '../../i18n/index.ts';
+import { CHAPTERS, LITURGIES, STOPS, stopHash } from '../../data/holy-mass.ts';
 
 export function getStaticPaths() {
   return LOCALES.map((lang) => ({ params: { lang } }));
 }
 
 const locale = Astro.params.lang as Locale;
-const other = otherLocale(locale);
-const edition = locale === 'ar' ? 'svd' : 'kjv';
 
 const UI = {
   en: {
@@ -27,32 +29,37 @@ const UI = {
     sub: 'The Coptic Orthodox Divine Liturgy: from earthly worship to heavenly communion',
     begin: 'Scroll to begin',
     journey: 'The Liturgy journey',
+    menu: 'The journey: all stops',
     stopsCount: (n: number) => `${n} stops`,
     stopOf: (n: number, total: number) => `Stop ${n} of ${total}`,
     previous: 'Previous',
     next: 'Next',
     liturgy: 'Liturgy',
-    both: 'Both languages',
-    prayAlong: 'Pray along',
     priest: 'Priest',
+    deacon: 'Deacon',
     people: 'People',
-    prayerPending: 'The text of this prayer will be added from an authorized translation.',
-    what: 'What is happening',
-    meaning: 'What it means',
-    silently: 'Pray silently',
-    meditationNote: 'A personal meditation, not a liturgical text.',
-    artwork: 'In the artwork',
-    scripture: 'Scripture',
+    layersLabel: 'What to show',
+    steps: 'Steps',
+    meaningLayer: 'Meaning',
+    stepsTitle: 'Steps happening in the altar',
+    meaningTitle: 'Meaning behind',
+    draftTag: 'Draft',
+    hiddenAll: 'Everything is hidden. Use the buttons below to show the priest, the deacon, the people, the steps or the meaning.',
+    textPending: 'The text of this prayer has not been added yet.',
+    notInLanguage: 'Part of this text is not yet available in English.',
+    textSource: 'Text',
+    seeSources: 'see the Sources page',
+    textSize: 'Text size',
+    smaller: 'Smaller text',
+    larger: 'Larger text',
     varies: (liturgy: string) => `This part differs in each of the three liturgies. The text for ${liturgy} will be added from an authorized translation.`,
-    draftOutline: 'Draft. The order follows the outline of copticorthodoxliturgy.com; the explanation has not yet been reviewed by clergy.',
-    draftGeneral: 'Draft. A connecting stop added for the journey; not yet reviewed by clergy.',
     resume: (n: number) => `Resume at stop ${n}`,
-    stopsButton: 'Stops',
     options: 'Options',
     close: 'Close',
     disclaimer: 'The artwork is a symbolic visual meditation inspired by Coptic Orthodox worship, not a literal picture of heaven.',
-    viewportLabel: 'Artwork of the Divine Liturgy. The camera follows the prayer you are reading.',
-    imageNote: 'The artwork is AI-generated and enlarged region by region for the deepest zoom; it is a symbolic meditation awaiting review, not an official icon.',
+    viewportLabel: 'A film of the Divine Liturgy. The camera flies on as you read each prayer.',
+    imageNote: 'The scenes and the flights between them are AI-generated clay dioramas, a symbolic meditation inspired by Coptic churches that awaits review by clergy; they are not official icons.',
+    meaningCredit: 'The “Meaning behind” notes summarise, in the site’s own words, two books: The Spirituality of the Rites of the Holy Liturgy in the Coptic Orthodox Church (introduction by Bishop Mettaous) and the lecture notes Analysis and Explanation of the Consecration Prayers in the Three Liturgies by Michael Mina (Clerical College, Port Said). They have not been reviewed by clergy.',
   },
   ar: {
     title: 'القداس الإلهي',
@@ -61,32 +68,37 @@ const UI = {
     sub: 'القداس الإلهي القبطي الأرثوذكسي: من العبادة الأرضية إلى الشركة السماوية',
     begin: 'مرّر للأسفل لتبدأ',
     journey: 'رحلة القداس',
+    menu: 'الرحلة: كل المحطات',
     stopsCount: (n: number) => `${n} محطة`,
     stopOf: (n: number, total: number) => `المحطة ${n} من ${total}`,
     previous: 'السابق',
     next: 'التالي',
     liturgy: 'القداس',
-    both: 'اللغتان معًا',
-    prayAlong: 'صلِّ معنا',
     priest: 'الكاهن',
+    deacon: 'الشماس',
     people: 'الشعب',
-    prayerPending: 'سيُضاف نص هذه الصلاة من ترجمة معتمدة.',
-    what: 'ماذا يحدث',
-    meaning: 'ماذا يعني',
-    silently: 'صلاة صامتة',
-    meditationNote: 'تأمل شخصي وليس نصًّا ليتورجيًّا.',
-    artwork: 'في اللوحة',
-    scripture: 'من الكتاب المقدس',
+    layersLabel: 'ما الذي تريد إظهاره',
+    steps: 'الخطوات',
+    meaningLayer: 'المعنى',
+    stepsTitle: 'ما يحدث في المذبح',
+    meaningTitle: 'المعنى وراء ذلك',
+    draftTag: 'مسودة',
+    hiddenAll: 'كل شيء مخفي. استخدم الأزرار في الأسفل لإظهار الكاهن أو الشماس أو الشعب أو الخطوات أو المعنى.',
+    textPending: 'لم يُضَف نص هذه الصلاة بعد.',
+    notInLanguage: 'جزء من هذا النص غير متاح بالعربية بعد.',
+    textSource: 'النص',
+    seeSources: 'انظر صفحة المصادر',
+    textSize: 'حجم النص',
+    smaller: 'نص أصغر',
+    larger: 'نص أكبر',
     varies: (liturgy: string) => `يختلف هذا الجزء في كل من القداسات الثلاثة. سيُضاف نص ${liturgy} من ترجمة معتمدة.`,
-    draftOutline: 'مسودة. الترتيب يتبع مخطط موقع copticorthodoxliturgy.com، ولم يُراجَع الشرح من الآباء الكهنة بعد.',
-    draftGeneral: 'مسودة. محطة وصل أُضيفت للرحلة ولم تُراجَع من الآباء الكهنة بعد.',
     resume: (n: number) => `تابع من المحطة ${n}`,
-    stopsButton: 'المحطات',
     options: 'خيارات',
     close: 'إغلاق',
     disclaimer: 'اللوحة تأمل بصري رمزي مستوحى من العبادة القبطية الأرثوذكسية، وليست صورة حرفية للسماء.',
-    viewportLabel: 'لوحة القداس الإلهي. تتبع الكاميرا الصلاة التي تقرؤها.',
-    imageNote: 'اللوحة مولَّدة بالذكاء الاصطناعي ومكبَّرة منطقة بعد منطقة لأعمق تقريب؛ وهي تأمل رمزي بانتظار المراجعة وليست أيقونة رسمية.',
+    viewportLabel: 'فيلم عن القداس الإلهي. تتحرك الكاميرا مع كل صلاة تقرؤها.',
+    imageNote: 'المشاهد والرحلات بينها مجسّمات من الصلصال مولَّدة بالذكاء الاصطناعي، وهي تأمل رمزي مستوحى من الكنائس القبطية ينتظر مراجعة الآباء الكهنة؛ وليست أيقونات رسمية.',
+    meaningCredit: 'ملاحظات «المعنى وراء» ملخَّصة بكلمات الموقع من كتابين: «روحانية طقوس القداس الإلهي في الكنيسة القبطية الأرثوذكسية» (مقدمة الأنبا متاؤس)، ومذكرات محاضرات «تحليل وشرح صلوات التقديس بالقداسات الثلاثة» للأستاذ ميخائيل مينا (الكلية الإكليريكية، فرع بورسعيد). ولم يراجعها الآباء الكهنة بعد.',
   },
 } as const;
 const ui = UI[locale];
@@ -94,22 +106,130 @@ const ui = UI[locale];
 const total = STOPS.length;
 const stopsByChapter = CHAPTERS.map((chapter) => ({ chapter, stops: STOPS.filter((stop) => stop.chapter === chapter.id) }));
 
-function scriptureLinks(stop: (typeof STOPS)[number]) {
-  return stop.scripture.flatMap((reference) => {
-    const info = bookByCode(reference.book);
-    if (info === undefined) return [];
-    const verse = reference.verses === undefined ? '' : `#v${reference.verses.split(/[-,]/)[0]}`;
-    const label = `${bookName(info, locale)} ${reference.chapter}${reference.verses === undefined ? '' : `: ${reference.verses}`}`;
-    return [{ href: `${biblePath(locale, edition, info, reference.chapter)}${verse}`, label }];
-  });
+const SPEAKERS = ['priest', 'deacon', 'people'] as const;
+/** The speakers who have a draft summary at a stop. */
+function speakersOf(stop: (typeof STOPS)[number]) {
+  return SPEAKERS.filter((role) => stop.says[role] !== undefined);
 }
-
-const clientStops = STOPS.map((stop) => ({ n: stop.n, hash: stopHash(stop), box: stop.box, region: stop.region }));
+const clientStops = STOPS.map((stop) => ({ n: stop.n, hash: stopHash(stop), chapter: stop.chapter, speakers: speakersOf(stop) }));
 ---
 
 <Base locale={locale} title={ui.title} description={ui.description} minimalFooter>
   <div class="journey" data-journey data-total={total} data-locale={locale}>
-    <aside class="rail" id="hm-rail" aria-label={ui.journey}>
+    <section class="stage" aria-label={ui.viewportLabel}>
+      <div class="film" data-film role="img" aria-label={ui.viewportLabel}></div>
+      <div class="wash" aria-hidden="true"></div>
+    </section>
+
+    <header class="topbar">
+      <button type="button" class="icon-button" data-rail-open aria-controls="hm-rail" aria-expanded="false" aria-label={ui.menu} title={ui.menu}>
+        <Icon name="menu" />
+      </button>
+      <p class="where" data-where aria-live="polite"></p>
+      <button type="button" class="icon-button" data-options-toggle aria-controls="hm-options" aria-expanded="false" aria-label={ui.options} title={ui.options}>
+        <Icon name="options" />
+      </button>
+      <div class="nav">
+        <button type="button" class="icon-button step" data-prev aria-label={ui.previous} title={ui.previous}>
+          <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="m14 6-6 6 6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+        </button>
+        <button type="button" class="icon-button step" data-next aria-label={ui.next} title={ui.next}>
+          <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="m10 6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+        </button>
+      </div>
+      <div class="progress" aria-hidden="true"><span data-progress></span></div>
+      <div class="options" id="hm-options" data-options>
+        <div class="liturgies" role="radiogroup" aria-label={ui.liturgy}>
+          {
+            LITURGIES.map((liturgy, index) => (
+              <button type="button" role="radio" aria-checked={index === 0 ? 'true' : 'false'} data-liturgy={liturgy.id} data-name={liturgy.title[locale]}>
+                {liturgy.title[locale]}
+              </button>
+            ))
+          }
+        </div>
+        <div class="sizer" role="group" aria-label={ui.textSize}>
+          <button type="button" class="icon-button" dir="ltr" data-size="-1" aria-label={ui.smaller} title={ui.smaller}>A−</button>
+          <button type="button" class="icon-button" dir="ltr" data-size="1" aria-label={ui.larger} title={ui.larger}>A+</button>
+        </div>
+      </div>
+    </header>
+    <p class="resume" data-resume hidden><a href="#" data-resume-link></a></p>
+
+    <div class="panel-scroll" data-scroller tabindex="0">
+      {
+        STOPS.map((stop) => {
+          const drafts = SPEAKERS.flatMap((role) => {
+            const summary = stop.says[role];
+            return summary === undefined ? [] : [{ role, text: summary[locale] }];
+          });
+          return (
+            <article class="stop" id={`stop-${stopHash(stop)}`} data-n={stop.n} data-chapter={stop.chapter} aria-labelledby={`h-${stop.n}`}>
+              {stop.n === 1 && (
+                <div class="opening">
+                  <p class="eyebrow">{ui.sub}</p>
+                  <h1>{ui.heading}</h1>
+                  <p class="begin">{ui.begin}</p>
+                </div>
+              )}
+              <p class="chapter-label">
+                {CHAPTERS[stop.chapter - 1]!.title[locale]} · {ui.stopOf(stop.n, total)}
+              </p>
+              <h2 id={`h-${stop.n}`}>{stop.title[locale]}</h2>
+
+              <div class="chat">
+                <div class="drafts">
+                  {drafts.map((draft) => (
+                    <div class={`bubble bubble-${draft.role} draft`}>
+                      <p class="who">
+                        <Icon name={draft.role} size={16} /> {ui[draft.role]} <span class="draft-tag">{ui.draftTag}</span>
+                      </p>
+                      <p class="line">{draft.text}</p>
+                    </div>
+                  ))}
+                </div>
+                <div class="script" data-script></div>
+                <p class="lang-note" data-lang-note hidden>{ui.notInLanguage}</p>
+                <p class="pending-note">{ui.textPending}</p>
+              </div>
+
+              <div class="asides">
+                <section class="aside aside-steps">
+                  <h3><Icon name="steps" size={18} /> {ui.stepsTitle}</h3>
+                  <p>{stop.what[locale]}</p>
+                </section>
+                <section class="aside aside-meaning">
+                  <h3><Icon name="meaning" size={18} /> {ui.meaningTitle}</h3>
+                  {stop.meaning[locale].split('\n\n').map((paragraph) => <p>{paragraph}</p>)}
+                </section>
+              </div>
+              <p class="all-hidden">{ui.hiddenAll}</p>
+
+            </article>
+          );
+        })
+      }
+      <footer class="panel-foot">
+        <p>{ui.disclaimer}</p>
+        <p>{ui.imageNote}</p>
+        <p>{ui.meaningCredit}</p>
+        <p><a href={localePath(locale, 'sources')}>{t(locale).nav.sources}</a></p>
+      </footer>
+    </div>
+
+    <div class="dock" role="group" aria-label={ui.layersLabel}>
+      {
+        (['priest', 'deacon', 'people', 'steps', 'meaning'] as const).map((layer) => (
+          <button type="button" class={`layer layer-${layer}`} data-layer-toggle={layer} aria-pressed="true" title={layer === 'meaning' ? ui.meaningTitle : layer === 'steps' ? ui.stepsTitle : ui[layer]}>
+            <Icon name={layer} />
+            <span>{layer === 'meaning' ? ui.meaningLayer : ui[layer]}</span>
+          </button>
+        ))
+      }
+    </div>
+
+    <div class="scrim" data-scrim hidden></div>
+    <aside class="rail" id="hm-rail" data-open="false" inert aria-label={ui.journey}>
       <div class="rail-head">
         <p class="rail-title">{ui.journey}</p>
         <p class="rail-count">{ui.stopsCount(total)}</p>
@@ -143,175 +263,44 @@ const clientStops = STOPS.map((stop) => ({ n: stop.n, hash: stopHash(stop), box:
         }
       </ol>
     </aside>
-
-    <section class="stage" aria-label={ui.viewportLabel}>
-      <canvas class="art" data-art role="img" aria-label={ui.viewportLabel}></canvas>
-      <div class="vignette" aria-hidden="true"></div>
-      <div class="grain" aria-hidden="true"></div>
-      <div class="opening" data-opening>
-        <p class="eyebrow">{ui.sub}</p>
-        <h1>{ui.heading}</h1>
-        <p class="begin">{ui.begin}</p>
-      </div>
-      <p class="stage-note" data-stage-note>
-        <strong data-region-title></strong>
-      </p>
-    </section>
-
-    <section class="panel" aria-label={ui.journey}>
-      <header class="panel-head">
-        <div class="head-row">
-          <button type="button" class="stops-button" data-rail-open aria-controls="hm-rail" aria-expanded="false">{ui.stopsButton}</button>
-          <p class="where" data-where aria-live="polite"></p>
-          <button type="button" class="stops-button" data-options-toggle aria-controls="hm-options" aria-expanded="false">{ui.options}</button>
-          <div class="nav">
-            <button type="button" class="step" data-prev aria-label={ui.previous}>
-              <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="m14 6-6 6 6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
-            </button>
-            <button type="button" class="step" data-next aria-label={ui.next}>
-              <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="m10 6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
-            </button>
-          </div>
-        </div>
-        <div class="progress" aria-hidden="true"><span data-progress></span></div>
-        <div class="options" id="hm-options" data-options>
-          <div class="liturgies" role="radiogroup" aria-label={ui.liturgy}>
-            {
-              LITURGIES.map((liturgy, index) => (
-                <button type="button" role="radio" aria-checked={index === 0 ? 'true' : 'false'} data-liturgy={liturgy.id} data-name={liturgy.title[locale]}>
-                  {liturgy.title[locale]}
-                </button>
-              ))
-            }
-          </div>
-          <label class="both"><input type="checkbox" data-both /> <span>{ui.both}</span></label>
-        </div>
-        <p class="resume" data-resume hidden><a href="#" data-resume-link></a></p>
-      </header>
-
-      <div class="panel-scroll" data-scroller tabindex="0">
-        {
-          STOPS.map((stop) => {
-            const region = REGIONS[stop.region];
-            const links = scriptureLinks(stop);
-            return (
-              <article class="stop" id={`stop-${stopHash(stop)}`} data-n={stop.n} data-region={stop.region} aria-labelledby={`h-${stop.n}`}>
-                <p class="chapter-label">
-                  {CHAPTERS[stop.chapter - 1]!.title[locale]} · {ui.stopOf(stop.n, total)}
-                </p>
-                <h2 id={`h-${stop.n}`}>{stop.title[locale]}</h2>
-                <p class="alt-title" lang={other} dir={other === 'ar' ? 'rtl' : 'ltr'}>
-                  {stop.title[other]}
-                </p>
-
-                {stop.dialogue !== undefined ? (
-                  <section class="prayer">
-                    <h3>{ui.prayAlong}</h3>
-                    {stop.dialogue.map((line) => (
-                      <p class={`line ${line.role}`}>
-                        <span class="role">{line.role === 'priest' ? ui.priest : ui.people}</span>
-                        <span class="text">{line.text[locale]}</span>
-                        <span class="text other-lang" lang={other} dir={other === 'ar' ? 'rtl' : 'ltr'}>
-                          {line.text[other]}
-                        </span>
-                      </p>
-                    ))}
-                  </section>
-                ) : (
-                  <p class="pending">{ui.prayerPending}</p>
-                )}
-
-                <section>
-                  <h3>{ui.what}</h3>
-                  <p>{stop.what[locale]}</p>
-                  <p class="other-lang" lang={other} dir={other === 'ar' ? 'rtl' : 'ltr'}>
-                    {stop.what[other]}
-                  </p>
-                </section>
-                <section>
-                  <h3>{ui.meaning}</h3>
-                  <p>{stop.meaning[locale]}</p>
-                  <p class="other-lang" lang={other} dir={other === 'ar' ? 'rtl' : 'ltr'}>
-                    {stop.meaning[other]}
-                  </p>
-                </section>
-                <section class="silent">
-                  <h3>{ui.silently}</h3>
-                  <p class="quote">{stop.meditate[locale]}</p>
-                  <p class="quote other-lang" lang={other} dir={other === 'ar' ? 'rtl' : 'ltr'}>
-                    {stop.meditate[other]}
-                  </p>
-                  <p class="tiny">{ui.meditationNote}</p>
-                </section>
-                <section class="artnote">
-                  <h3>{ui.artwork}</h3>
-                  <p>
-                    <strong>{region.title[locale]}.</strong> {region.note[locale]}
-                  </p>
-                  <p class="other-lang" lang={other} dir={other === 'ar' ? 'rtl' : 'ltr'}>
-                    <strong>{region.title[other]}.</strong> {region.note[other]}
-                  </p>
-                </section>
-                {links.length > 0 && (
-                  <section class="refs">
-                    <h3>{ui.scripture}</h3>
-                    <ul>
-                      {links.map((link) => (
-                        <li>
-                          <a href={link.href}>{link.label}</a>
-                        </li>
-                      ))}
-                    </ul>
-                  </section>
-                )}
-                {stop.varies === true && <p class="varies" data-varies>{ui.varies('…')}</p>}
-                <p class="tiny draft">{stop.basis === 'outline' ? ui.draftOutline : ui.draftGeneral}</p>
-              </article>
-            );
-          })
-        }
-        <footer class="panel-foot">
-          <p>{ui.disclaimer}</p>
-          <p>{ui.imageNote}</p>
-          <p><a href={localePath(locale, 'sources')}>{t(locale).nav.sources}</a></p>
-        </footer>
-      </div>
-    </section>
   </div>
 
   <script type="application/json" id="hm-stops" set:html={JSON.stringify(clientStops)}></script>
-  <script type="application/json" id="hm-regions" set:html={JSON.stringify(Object.fromEntries(Object.entries(REGIONS).map(([id, region]) => [id, region.title[locale]])))}></script>
-  <script type="application/json" id="hm-ui" set:html={JSON.stringify({ stopOf: ui.stopOf(0, total).replace('0', '{n}'), varies: ui.varies('{liturgy}'), resume: ui.resume(0).replace('0', '{n}') })}></script>
+  <script type="application/json" id="hm-ui" set:html={JSON.stringify({ stopOf: ui.stopOf(0, total).replace('0', '{n}'), varies: ui.varies('{liturgy}'), resume: ui.resume(0).replace('0', '{n}'), roles: { rubric: ui.steps, priest: ui.priest, deacon: ui.deacon, people: ui.people }, source: ui.textSource, seeSources: ui.seeSources, sourcesHref: localePath(locale, 'sources') })}></script>
 </Base>
 
 <script>
-  import { frameAt, frameFor, heightPerWidth, visibleTiles, type Frame, type FocusBox, type PyramidMeta } from '../../lib/holy-mass/camera.ts';
+  import { createFilm } from '../../lib/holy-mass/film-player.ts';
+  import type { ChapterRange } from '../../lib/holy-mass/film.ts';
+  import { LAYERS, LAYERS_KEY, parseLayers, serializeLayers, toggleLayer, type Layer, type LayerState } from '../../lib/holy-mass/layers.ts';
+  import { loadLiturgy } from '../../lib/holy-mass/load.ts';
+  import { parseReading, READING_KEY, serializeReading, stepSize, type Reading } from '../../lib/holy-mass/reading.ts';
+  import { creditFor, hasRubric, scriptItems } from '../../lib/holy-mass/script-view.ts';
+  import type { LiturgyJson } from '../../lib/liturgy/build-core.ts';
+  import type { LiturgyId } from '../../lib/liturgy/resolve.ts';
 
   interface ClientStop {
     n: number;
     hash: string;
-    box: FocusBox;
-    region: string;
+    chapter: number;
+    speakers: string[];
   }
 
   const root = document.querySelector<HTMLElement>('[data-journey]');
   if (root !== null) {
     const stops = JSON.parse(document.getElementById('hm-stops')!.textContent!) as ClientStop[];
-    const regions = JSON.parse(document.getElementById('hm-regions')!.textContent!) as Record<string, string>;
-    const text = JSON.parse(document.getElementById('hm-ui')!.textContent!) as { stopOf: string; varies: string; resume: string };
+    const text = JSON.parse(document.getElementById('hm-ui')!.textContent!) as { stopOf: string; varies: string; resume: string; roles: Record<string, string>; source: string; seeSources: string; sourcesHref: string };
+    const pageLocale: 'en' | 'ar' = root.dataset['locale'] === 'ar' ? 'ar' : 'en';
     const total = stops.length;
-    const canvas = root.querySelector<HTMLCanvasElement>('[data-art]')!;
-    const stage = root.querySelector<HTMLElement>('.stage')!;
+    const filmBox = root.querySelector<HTMLElement>('[data-film]')!;
     const scroller = root.querySelector<HTMLElement>('[data-scroller]')!;
     const articles = [...scroller.querySelectorAll<HTMLElement>('.stop')];
     const railLinks = [...root.querySelectorAll<HTMLAnchorElement>('[data-stop]')];
-    const opening = root.querySelector<HTMLElement>('[data-opening]')!;
     const where = root.querySelector<HTMLElement>('[data-where]')!;
     const progress = root.querySelector<HTMLElement>('[data-progress]')!;
-    const regionTitle = root.querySelector<HTMLElement>('[data-region-title]')!;
     const rail = root.querySelector<HTMLElement>('#hm-rail')!;
+    const scrim = root.querySelector<HTMLElement>('[data-scrim]')!;
     const reduced = matchMedia('(prefers-reduced-motion: reduce)');
-    const ctx = canvas.getContext('2d', { alpha: false })!;
 
     // ---- layout: fit the journey under the site header ----------------------------------------
     const header = document.querySelector<HTMLElement>('.site-header');
@@ -319,108 +308,19 @@ const clientStops = STOPS.map((stop) => ({ n: stop.n, hash: stopHash(stop), box:
     fit();
     if (header !== null && typeof ResizeObserver !== 'undefined') new ResizeObserver(fit).observe(header);
 
-    // ---- the artwork: a tile pyramid over a preview --------------------------------------------
-    let meta: PyramidMeta | null = null;
-    const preview = new Image();
-    let previewReady = false;
-    preview.onload = () => {
-      previewReady = true;
-      requestRender();
-    };
-    preview.src = '/holy-mass/preview.jpg';
-    fetch('/holy-mass/meta.json')
-      .then((response) => response.json() as Promise<PyramidMeta & { format: string }>)
-      .then((value) => {
-        meta = value;
-        IMAGE = { width: value.width, height: value.height };
-        resize();
-      })
-      .catch(() => undefined);
+    // ---- the film: five scenes and the flights between them ---------------------------------------
+    const ranges: ChapterRange[] = [];
+    stops.forEach((stop, index) => {
+      const range = ranges[stop.chapter - 1];
+      if (range === undefined) ranges[stop.chapter - 1] = { first: index, last: index };
+      else ranges[stop.chapter - 1] = { first: range.first, last: index };
+    });
+    // The fourth scene has no flight into the fifth (the video service refused to make one), so
+    // those two dissolve into each other.
+    const film = createFilm({ container: filmBox, ranges, links: new Set([1, 2, 3]), base: '/holy-mass-film', reducedMotion: () => reduced.matches });
+    film.warm();
 
-    const tiles = new Map<string, HTMLImageElement>();
-    const MAX_TILES = 220;
-    function tile(level: number, col: number, row: number): HTMLImageElement {
-      const key = `${level}/${col}_${row}`;
-      let image = tiles.get(key);
-      if (image === undefined) {
-        image = new Image();
-        image.decoding = 'async';
-        image.onload = requestRender;
-        image.src = `/holy-mass/tiles/${key}.jpeg`;
-        tiles.set(key, image);
-        if (tiles.size > MAX_TILES) {
-          // Drop the least recently requested tiles (Map keeps insertion order).
-          for (const stale of tiles.keys()) {
-            tiles.delete(stale);
-            if (tiles.size <= MAX_TILES * 0.8) break;
-          }
-        }
-      } else {
-        tiles.delete(key);
-        tiles.set(key, image);
-      }
-      return image;
-    }
-
-    let view = { width: 1, height: 1 };
-    let dpr = 1;
-    let frames: Frame[] = [];
-    let k = 1;
-    let current: Frame = { cx: 0.5, cy: 0.5, vw: 1 };
-    let IMAGE = { width: 4, height: 3 };
-
-    function resize() {
-      const rect = stage.getBoundingClientRect();
-      view = { width: Math.max(1, rect.width), height: Math.max(1, rect.height) };
-      dpr = Math.min(window.devicePixelRatio || 1, 2.5);
-      canvas.width = Math.round(view.width * dpr);
-      canvas.height = Math.round(view.height * dpr);
-      k = heightPerWidth(view, IMAGE);
-      frames = stops.map((stop) => frameFor(stop.box, view, IMAGE));
-      measure();
-      update();
-    }
-
-    let frameRequested = false;
-    function requestRender() {
-      if (frameRequested) return;
-      frameRequested = true;
-      requestAnimationFrame(() => {
-        frameRequested = false;
-        draw();
-      });
-    }
-
-    function draw() {
-      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
-      ctx.fillStyle = '#07172c';
-      ctx.fillRect(0, 0, view.width, view.height);
-      ctx.imageSmoothingEnabled = true;
-      ctx.imageSmoothingQuality = 'high';
-      const vh = current.vw * k;
-      const left = current.cx - current.vw / 2;
-      const top = current.cy - vh / 2;
-      // Where the whole picture lands in the window: the base layer, and the margin if any.
-      const scale = view.width / current.vw; // px per image-width
-      const full = IMAGE.width / IMAGE.height;
-      const imgW = scale;
-      const imgH = scale / full;
-      const dx = -left * imgW;
-      const dy = -top * imgH; // top is a fraction of the image height
-      if (previewReady) ctx.drawImage(preview, dx, dy, imgW, imgH);
-      if (meta !== null) {
-        const wanted = visibleTiles(current, view, dpr, meta);
-        for (const draw of wanted) {
-          const image = tile(draw.level, draw.col, draw.row);
-          if (image.complete && image.naturalWidth > 0) {
-            // A hair of overlap hides the seams between neighbouring tiles.
-            ctx.drawImage(image, 0, 0, draw.tw, draw.th, draw.x - 0.25, draw.y - 0.25, draw.w + 0.5, draw.h + 0.5);
-          }
-        }
-      }
-    }
-
-    // ---- scroll → camera ----------------------------------------------------------------------
+    // ---- scroll → film ----------------------------------------------------------------------
     let tops: number[] = [];
     function measure() {
       tops = articles.map((article) => article.offsetTop - articles[0]!.offsetTop);
@@ -451,17 +351,14 @@ const clientStops = STOPS.map((stop) => ({ n: stop.n, hash: stopHash(stop), box:
     function update() {
       const p = position();
       const nearest = Math.round(p);
-      current = frames.length === 0 ? current : reduced.matches ? frames[nearest]! : frameAt(frames, p, k);
-      // The title fades as the camera leaves the wide opening view.
-      opening.style.opacity = String(Math.min(1, Math.max(0, (current.vw - 0.8) / 0.17)));
-      requestRender();
+      film.show(p);
       if (nearest !== active) {
         active = nearest;
         visitedMax = Math.max(visitedMax, active);
         const stop = stops[active]!;
         where.textContent = text.stopOf.replace('{n}', String(stop.n));
+        dimSilent(stop);
         progress.style.inlineSize = `${((active + 1) / total) * 100}%`;
-        regionTitle.textContent = regions[stop.region] ?? '';
         for (const link of railLinks) {
           const n = Number(link.dataset['stop']);
           if (n === stop.n) {
@@ -473,7 +370,7 @@ const clientStops = STOPS.map((stop) => ({ n: stop.n, hash: stopHash(stop), box:
           link.classList.toggle('done', n <= visitedMax && n !== stop.n);
         }
         const note = railLinks.find((link) => Number(link.dataset['stop']) === stop.n);
-        // Keep the active stop in view inside the rail without scrolling the whole page.
+        // Keep the active stop in view inside the list without scrolling the whole page.
         if (note !== undefined && rail.scrollHeight > rail.clientHeight) {
           const box = rail.getBoundingClientRect();
           const at = note.getBoundingClientRect();
@@ -487,9 +384,6 @@ const clientStops = STOPS.map((stop) => ({ n: stop.n, hash: stopHash(stop), box:
         } catch {
           // Storage or history unavailable: the journey still works.
         }
-        // Warm the tiles of the next stop so the camera arrives on sharp ground.
-        const upcoming = frames[active + 1];
-        if (upcoming !== undefined && meta !== null) for (const draw of visibleTiles(upcoming, view, dpr, meta)) tile(draw.level, draw.col, draw.row);
       }
     }
 
@@ -515,48 +409,178 @@ const clientStops = STOPS.map((stop) => ({ n: stop.n, hash: stopHash(stop), box:
 
     root.querySelector('[data-next]')?.addEventListener('click', () => goTo(Math.round(position()) + 1));
     root.querySelector('[data-prev]')?.addEventListener('click', () => goTo(Math.round(position()) - 1));
+
+    // ---- the hamburger: the list of stops slides over the film -----------------------------------
+    const openButton = root.querySelector<HTMLButtonElement>('[data-rail-open]')!;
+    function setRail(open: boolean) {
+      rail.dataset['open'] = String(open);
+      rail.inert = !open;
+      scrim.hidden = !open;
+      openButton.setAttribute('aria-expanded', String(open));
+      if (open) rail.querySelector<HTMLElement>('[data-rail-close]')?.focus();
+      else if (rail.contains(document.activeElement)) openButton.focus();
+    }
+    openButton.addEventListener('click', () => setRail(rail.dataset['open'] !== 'true'));
+    root.querySelector('[data-rail-close]')?.addEventListener('click', () => setRail(false));
+    scrim.addEventListener('click', () => {
+      setRail(false);
+      setOptions(false);
+    });
     for (const link of railLinks) {
       link.addEventListener('click', (event) => {
         event.preventDefault();
         goTo(Number(link.dataset['stop']) - 1);
-        closeRail();
+        setRail(false);
       });
     }
 
-    // ---- rail on small screens ----------------------------------------------------------------
-    const openButton = root.querySelector<HTMLButtonElement>('[data-rail-open]')!;
-    function closeRail() {
-      rail.dataset['open'] = 'false';
-      openButton.setAttribute('aria-expanded', 'false');
-    }
-    openButton.addEventListener('click', () => {
-      rail.dataset['open'] = 'true';
-      openButton.setAttribute('aria-expanded', 'true');
-    });
-    root.querySelector('[data-rail-close]')?.addEventListener('click', closeRail);
-    window.addEventListener('keydown', (event) => {
-      if (event.key === 'Escape') closeRail();
-    });
-
     const optionsBox = root.querySelector<HTMLElement>('[data-options]')!;
     const optionsToggle = root.querySelector<HTMLButtonElement>('[data-options-toggle]')!;
-    optionsToggle.addEventListener('click', () => {
-      const open = optionsBox.dataset['open'] !== 'true';
+    function setOptions(open: boolean) {
       optionsBox.dataset['open'] = String(open);
       optionsToggle.setAttribute('aria-expanded', String(open));
+    }
+    optionsToggle.addEventListener('click', () => setOptions(optionsBox.dataset['open'] !== 'true'));
+    window.addEventListener('keydown', (event) => {
+      if (event.key !== 'Escape') return;
+      setRail(false);
+      setOptions(false);
+    });
+
+    // ---- layers: what the reader chooses to see -------------------------------------------------
+    const layerButtons = [...root.querySelectorAll<HTMLButtonElement>('[data-layer-toggle]')];
+    let layers: LayerState = parseLayers(null);
+    try {
+      layers = parseLayers(localStorage.getItem(LAYERS_KEY));
+    } catch {
+      // Defaults.
+    }
+    function applyLayers() {
+      for (const button of layerButtons) {
+        const layer = button.dataset['layerToggle'] as Layer;
+        button.setAttribute('aria-pressed', String(layers[layer]));
+        root!.classList.toggle(`no-${layer}`, !layers[layer]);
+      }
+      root!.classList.toggle('no-layers', LAYERS.every((layer) => !layers[layer]));
+      // Hidden parts change the height of every stop.
       requestAnimationFrame(() => {
         measure();
         update();
       });
-    });
+    }
+    for (const button of layerButtons) {
+      button.addEventListener('click', () => {
+        layers = toggleLayer(layers, button.dataset['layerToggle'] as Layer);
+        try {
+          localStorage.setItem(LAYERS_KEY, serializeLayers(layers));
+        } catch {
+          // Not saved.
+        }
+        applyLayers();
+      });
+    }
+    // The speakers who say nothing at the current stop are dimmed.
+    function dimSilent(stop: ClientStop) {
+      for (const button of layerButtons) {
+        const layer = button.dataset['layerToggle']!;
+        if (layer === 'priest' || layer === 'deacon' || layer === 'people') button.dataset['silent'] = String(!stop.speakers.includes(layer));
+      }
+    }
 
-    // ---- liturgy and language options ---------------------------------------------------------
+    // ---- the prayers: the chat of each stop -------------------------------------------------------
+    let scripts: LiturgyJson | null = null;
+    let wantedLiturgy: LiturgyId = 'basil';
+    let reading: Reading = parseReading(null);
+    try {
+      reading = parseReading(localStorage.getItem(READING_KEY));
+    } catch {
+      // Defaults.
+    }
+    const slugOf = (stop: ClientStop) => stop.hash.replace(/^\d+-/, '');
+    const roleIcon = (role: string) => layerButtons.find((button) => button.dataset['layerToggle'] === role)?.querySelector('svg') ?? null;
+
+    function renderScripts() {
+      articles.forEach((article, index) => {
+        const box = article.querySelector<HTMLElement>('[data-script]')!;
+        const languageNote = article.querySelector<HTMLElement>('[data-lang-note]')!;
+        box.replaceChildren();
+        const entry = scripts?.stops[slugOf(stops[index]!)];
+        // Only the page's language is ever shown. A stop whose text is missing in it (or unusable)
+        // keeps its draft summaries, and says so.
+        const items = entry === undefined ? [] : scriptItems(entry.blocks, pageLocale);
+        languageNote.hidden = entry === undefined || items.length > 0;
+        article.classList.toggle('has-script', items.length > 0);
+        article.classList.toggle('has-rubric', entry !== undefined && hasRubric(entry.blocks) && items.some((item) => item.role === 'rubric'));
+        if (entry === undefined || items.length === 0) return;
+        for (const item of items) {
+          const element = document.createElement('div');
+          const line = document.createElement('p');
+          line.className = 'line';
+          line.textContent = item.text;
+          if (item.role === 'rubric') {
+            element.className = 'rubric';
+            element.append(line);
+          } else {
+            element.className = `bubble bubble-${item.role}`;
+            const who = document.createElement('p');
+            who.className = 'who';
+            const icon = roleIcon(item.role)?.cloneNode(true);
+            if (icon !== undefined && icon !== null) who.append(icon, ' ');
+            who.append(text.roles[item.role] ?? '');
+            element.append(who, line);
+            if (item.note !== undefined) {
+              const note = document.createElement('p');
+              note.className = 'note';
+              note.textContent = item.note;
+              element.append(note);
+            }
+          }
+          box.append(element);
+        }
+        const credit = document.createElement('p');
+        credit.className = 'tiny credit';
+        // The credit is in the page's language too; a source in the other language is never shown.
+        const { label, url } = creditFor(entry, pageLocale);
+        if (label === null) {
+          credit.append(`${text.source}: `);
+          const sources = document.createElement('a');
+          sources.href = text.sourcesHref;
+          sources.textContent = text.seeSources;
+          credit.append(sources);
+        } else {
+          credit.append(`${text.source}: ${label}`);
+          if (url !== undefined) {
+            credit.append(' ');
+            const link = document.createElement('a');
+            link.href = url;
+            link.textContent = url;
+            credit.append(link);
+          }
+        }
+        box.append(credit);
+      });
+      requestAnimationFrame(() => {
+        measure();
+        update();
+      });
+    }
+
+    async function showLiturgy(id: LiturgyId) {
+      wantedLiturgy = id;
+      const loaded = await loadLiturgy(id);
+      if (wantedLiturgy !== id) return; // the reader picked another meanwhile
+      scripts = loaded;
+      renderScripts();
+    }
+
+    // ---- liturgy and text size ------------------------------------------------------------------
     const liturgyButtons = [...root.querySelectorAll<HTMLButtonElement>('[data-liturgy]')];
     function setLiturgy(id: string) {
       const chosen = liturgyButtons.find((button) => button.dataset['liturgy'] === id) ?? liturgyButtons[0]!;
       for (const button of liturgyButtons) button.setAttribute('aria-checked', String(button === chosen));
       const name = chosen.dataset['name'] ?? '';
       for (const note of root!.querySelectorAll<HTMLElement>('[data-varies]')) note.textContent = text.varies.replace('{liturgy}', name);
+      void showLiturgy(chosen.dataset['liturgy'] as LiturgyId);
       try {
         localStorage.setItem('orthodoxia:holy-mass:liturgy', chosen.dataset['liturgy']!);
       } catch {
@@ -565,36 +589,47 @@ const clientStops = STOPS.map((stop) => ({ n: stop.n, hash: stopHash(stop), box:
     }
     for (const button of liturgyButtons) button.addEventListener('click', () => setLiturgy(button.dataset['liturgy']!));
     let savedLiturgy = 'basil';
-    let savedBoth = false;
     let savedStop = 0;
     try {
       savedLiturgy = localStorage.getItem('orthodoxia:holy-mass:liturgy') ?? 'basil';
-      savedBoth = localStorage.getItem('orthodoxia:holy-mass:both') === '1';
       savedStop = Number(localStorage.getItem('orthodoxia:holy-mass') ?? '0');
     } catch {
       // Defaults.
     }
     setLiturgy(savedLiturgy);
-    const both = root.querySelector<HTMLInputElement>('[data-both]')!;
-    both.checked = savedBoth;
-    const applyBoth = () => {
-      root.classList.toggle('show-both', both.checked);
+    applyLayers();
+    const sizeButtons = [...root.querySelectorAll<HTMLButtonElement>('[data-size]')];
+    function applyReading() {
+      root!.dataset['size'] = reading.size;
+      sizeButtons[0]!.setAttribute('aria-disabled', String(reading.size === 'small'));
+      sizeButtons[1]!.setAttribute('aria-disabled', String(reading.size === 'large'));
       try {
-        localStorage.setItem('orthodoxia:holy-mass:both', both.checked ? '1' : '0');
+        localStorage.setItem(READING_KEY, serializeReading(reading));
       } catch {
         // Not saved.
       }
-      measure();
-    };
-    both.addEventListener('change', applyBoth);
-    root.classList.toggle('show-both', both.checked);
+      requestAnimationFrame(() => {
+        measure();
+        update();
+      });
+    }
+    for (const button of sizeButtons) {
+      button.addEventListener('click', () => {
+        if (button.getAttribute('aria-disabled') === 'true') return;
+        reading = stepSize(reading, Number(button.dataset['size']) as -1 | 1);
+        applyReading();
+      });
+    }
+    applyReading();
 
     // ---- start: deep link, or offer to resume ---------------------------------------------------
-    // The stage changes size when fonts load, the header wraps, or the phone turns.
-    if (typeof ResizeObserver === 'undefined') window.addEventListener('resize', resize);
-    else new ResizeObserver(resize).observe(stage);
+    if (typeof ResizeObserver === 'undefined') window.addEventListener('resize', () => {
+      measure();
+      update();
+    });
     reduced.addEventListener('change', update);
-    resize();
+    measure();
+    update();
     const fromHash = stops.findIndex((stop) => stop.hash === initialHash);
     if (fromHash > 0) {
       anchor = fromHash;
@@ -615,7 +650,7 @@ const clientStops = STOPS.map((stop) => ({ n: stop.n, hash: stopHash(stop), box:
       const index = stops.findIndex((stop) => stop.hash === decodeURIComponent(location.hash.slice(1)));
       if (index >= 0 && index !== Math.round(position())) goTo(index);
     });
-    // Fonts and wrapping change the panel's height after load.
+    // Fonts and wrapping change the page's height after load.
     const settle = () => {
       measure();
       if (anchor !== null) scroller.scrollTop = tops[anchor] ?? 0;
@@ -631,52 +666,472 @@ const clientStops = STOPS.map((stop) => ({ n: stop.n, hash: stopHash(stop), box:
 <style>
   .journey {
     --hm-header: 4.5rem;
+    --bar: 3.9rem;
     --navy: #07172c;
-    --sapphire: #102b4b;
     --gold: #c49a50;
     --gold-bright: #e8c67d;
     --parchment: #f7f0e3;
     --ivory: #fff9ef;
+    --paper: #f5f1e6;
     --burgundy: #6b2430;
     --ink: #18243a;
-    display: grid;
-    grid-template-rows: minmax(0, 42%) minmax(0, 1fr);
+    position: relative;
     block-size: calc(100dvh - var(--hm-header));
-    min-block-size: 30rem;
-    background: var(--navy);
-    color: var(--parchment);
+    min-block-size: 28rem;
+    background: var(--paper);
+    color: var(--ink);
     overflow: hidden;
   }
 
-  @media (min-width: 62rem) {
-    .journey {
-      grid-template-rows: none;
-      grid-template-columns: minmax(13rem, 15%) minmax(0, 1fr) minmax(24rem, 32%);
-    }
+  /* --- the film behind everything ----------------------------------------------------------- */
+  .stage {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
   }
 
-  /* --- rail --------------------------------------------------------------------------------- */
-  .rail {
-    position: fixed;
+  .film {
+    position: absolute;
     inset: 0;
-    z-index: 30;
+    background: var(--paper) url('/holy-mass-film/scene-1.jpg') center / cover no-repeat;
+    opacity: 0.55;
+  }
+
+  .film :global(.film-still),
+  .film :global(.film-clip) {
+    position: absolute;
+    inset: 0;
+    inline-size: 100%;
+    block-size: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .film :global(.film-clip) {
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  /* A soft wash so the words stay readable over the scenes. */
+  .wash {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background: linear-gradient(to bottom, rgba(245, 241, 230, 0.8), rgba(245, 241, 230, 0.15) 28%, rgba(245, 241, 230, 0.15) 62%, rgba(245, 241, 230, 0.85));
+  }
+
+  /* --- the top bar ---------------------------------------------------------------------------- */
+  .topbar {
+    position: absolute;
+    inset-block-start: 0;
+    inset-inline: 0;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    min-block-size: var(--bar);
+    padding: 0.4rem 0.75rem 0.55rem;
+    background: color-mix(in srgb, var(--ivory) 82%, transparent);
+    backdrop-filter: blur(8px);
+    border-block-end: 1px solid #e3d6b8;
+  }
+
+  .where {
+    flex: 1;
+    margin: 0;
+    font-family: var(--font-reading);
+    color: var(--burgundy);
+    font-size: 0.95rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .nav {
+    display: flex;
+    gap: 0.4rem;
+  }
+
+  .icon-button,
+  .rail-close,
+  .liturgies button {
+    min-block-size: 44px;
+    border: 1px solid color-mix(in srgb, var(--gold) 60%, transparent);
+    border-radius: 0.6rem;
+    background: transparent;
+    color: inherit;
+    font: inherit;
+    cursor: pointer;
+    padding-inline: 0.8rem;
+  }
+
+  .icon-button {
+    inline-size: 44px;
+    padding: 0;
+    display: grid;
+    place-items: center;
+    color: var(--ink);
+  }
+
+  .rail-close {
+    color: var(--parchment);
+  }
+
+  :global([dir='rtl']) .step svg {
+    transform: scaleX(-1);
+  }
+
+  .progress {
+    position: absolute;
+    inset-inline: 0;
+    inset-block-end: 0;
+    block-size: 3px;
+    background: #e3d6b8;
+    overflow: hidden;
+  }
+
+  .progress span {
+    display: block;
+    block-size: 100%;
+    inline-size: 0;
+    background: linear-gradient(90deg, var(--gold), var(--gold-bright));
+    transition: inline-size 0.3s ease;
+  }
+
+  /* --- the options (liturgy and text size) ---------------------------------------------------- */
+  .options {
+    position: absolute;
+    inset-block-start: calc(100% + 0.4rem);
+    inset-inline-end: 0.75rem;
     display: none;
     flex-direction: column;
-    background: var(--navy);
-    padding: 1rem;
-    overflow-y: auto;
+    gap: 0.6rem;
+    padding: 0.75rem;
+    border: 1px solid #e3d6b8;
+    border-radius: 0.8rem;
+    background: var(--ivory);
+    box-shadow: 0 8px 24px rgba(24, 36, 58, 0.18);
   }
 
-  .rail[data-open='true'] {
+  .options[data-open='true'] {
     display: flex;
   }
 
-  @media (min-width: 62rem) {
-    .rail {
-      position: static;
-      display: flex;
-      border-inline-end: 1px solid color-mix(in srgb, var(--gold) 35%, transparent);
-    }
+  .liturgies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+  }
+
+  .liturgies button {
+    font-size: 0.85rem;
+    color: var(--ink);
+  }
+
+  .liturgies button[aria-checked='true'] {
+    background: var(--ink);
+    border-color: var(--ink);
+    color: var(--gold-bright);
+  }
+
+  .sizer {
+    display: flex;
+    gap: 0.35rem;
+  }
+
+  .sizer button[aria-disabled='true'] {
+    opacity: 0.45;
+    cursor: default;
+  }
+
+  .journey[data-size='small'] {
+    --script-scale: 0.92;
+  }
+
+  .journey[data-size='large'] {
+    --script-scale: 1.25;
+  }
+
+  .resume {
+    position: absolute;
+    inset-block-start: calc(var(--bar) + 0.5rem);
+    inset-inline: 0;
+    z-index: 3;
+    inline-size: fit-content;
+    margin: 0 auto;
+    padding: 0.3rem 0.9rem;
+    border-radius: 999px;
+    background: var(--ivory);
+    box-shadow: 0 2px 8px rgba(24, 36, 58, 0.15);
+    font-size: 0.9rem;
+  }
+
+  .resume[hidden] {
+    display: none;
+  }
+
+  .resume a {
+    color: var(--burgundy);
+  }
+
+  /* --- the stops, in front of the film ----------------------------------------------------------- */
+  .panel-scroll {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    overflow-y: auto;
+    scroll-snap-type: y proximity;
+    scroll-padding-block-start: var(--bar);
+    overscroll-behavior: contain;
+    padding-block: var(--bar) 55%;
+  }
+
+  .stop {
+    min-block-size: 78%;
+    max-inline-size: 42rem;
+    margin-inline: auto;
+    padding: 1.4rem clamp(1rem, 4vw, 1.5rem) 6.5rem;
+    scroll-snap-align: start;
+    font-family: var(--font-reading);
+    font-size: calc(1.05rem * var(--script-scale, 1));
+    line-height: 1.55;
+  }
+
+  .opening {
+    margin-block-end: 1.6rem;
+    text-align: center;
+  }
+
+  .opening .eyebrow {
+    margin: 0;
+    font-family: var(--font-ui);
+    font-size: 0.82rem;
+    color: #4b4638;
+  }
+
+  .opening h1 {
+    margin: 0.25rem 0 0;
+    font-size: clamp(1.7rem, 1.2rem + 2.4vw, 2.6rem);
+    line-height: 1.15;
+    color: var(--burgundy);
+  }
+
+  .opening .begin {
+    margin: 0.4rem 0 0;
+    font-family: var(--font-ui);
+    font-size: 0.85rem;
+    color: #6b5f48;
+  }
+
+  .chapter-label {
+    margin: 0;
+    font-family: var(--font-ui);
+    font-size: 0.78rem;
+    color: var(--burgundy);
+  }
+
+  .stop h2 {
+    margin: 0.2rem 0 1rem;
+    font-size: clamp(1.45rem, 1.1rem + 1.1vw, 2rem);
+    line-height: 1.2;
+    color: #101c33;
+  }
+
+  /* The notes under the chat: the steps in the altar and the meaning behind. */
+  .asides {
+    display: grid;
+    gap: 0.9rem;
+    margin-block-start: 1.3rem;
+  }
+
+  .aside {
+    padding: 0.2rem 0.9rem 0.4rem;
+    border-inline-start: 3px solid color-mix(in srgb, var(--tone) 55%, transparent);
+    background: color-mix(in srgb, var(--ivory) 70%, transparent);
+    border-radius: 0.3rem 0.8rem 0.8rem 0.3rem;
+  }
+
+  .aside-steps {
+    --tone: #5b4a2b;
+  }
+
+  .aside-meaning {
+    --tone: #7a5a12;
+  }
+
+  .aside h3 {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    margin: 0.4rem 0 0.1rem;
+    font-family: var(--font-ui);
+    font-size: 0.78rem;
+    font-weight: 600;
+    color: var(--tone);
+  }
+
+  .aside p {
+    margin: 0.15rem 0;
+  }
+
+  .aside-meaning p + p {
+    margin-block-start: 0.7rem;
+  }
+
+  .no-steps .aside-steps,
+  .no-meaning .aside-meaning,
+  .has-rubric .aside-steps {
+    display: none;
+  }
+
+  .all-hidden {
+    display: none;
+    margin-block-start: 1rem;
+    padding: 0.7rem 0.9rem;
+    border-inline-start: 3px solid var(--gold);
+    background: #fbf5e6;
+    font-family: var(--font-ui);
+    font-size: 0.92rem;
+    color: #5a4a22;
+  }
+
+  .no-layers .all-hidden {
+    display: block;
+  }
+
+  /* A stop with text hides its draft summaries, which stay as the fallback for stops without. */
+  .has-script .drafts,
+  .has-script .pending-note {
+    display: none;
+  }
+
+  .pending-note,
+  .lang-note {
+    margin: 0.6rem 0 0;
+    padding: 0.4rem 0.8rem;
+    border-inline-start: 3px solid var(--gold);
+    background: #fbf5e6;
+    font-family: var(--font-ui);
+    font-size: 0.88rem;
+    color: #5a4a22;
+  }
+
+  .lang-note[hidden] {
+    display: none;
+  }
+
+  .panel-foot {
+    max-inline-size: 42rem;
+    margin-inline: auto;
+    padding: 1.5rem clamp(1rem, 4vw, 1.5rem) 7rem;
+    font-family: var(--font-ui);
+    font-size: 0.85rem;
+    color: #4b4638;
+  }
+
+  /* --- the five switches ----------------------------------------------------------------------- */
+  .dock {
+    position: absolute;
+    inset-block-end: max(0.7rem, env(safe-area-inset-bottom));
+    inset-inline: 0;
+    z-index: 3;
+    inline-size: fit-content;
+    max-inline-size: calc(100% - 1rem);
+    margin-inline: auto;
+    display: flex;
+    gap: 0.35rem;
+    padding: 0.4rem;
+    border: 1px solid #e3d6b8;
+    border-radius: 1.1rem;
+    background: color-mix(in srgb, var(--ivory) 90%, transparent);
+    backdrop-filter: blur(8px);
+    box-shadow: 0 6px 20px rgba(24, 36, 58, 0.18);
+  }
+
+  .layer {
+    --tone: #5b4a2b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.15rem;
+    min-inline-size: 58px;
+    min-block-size: 54px;
+    padding: 0.3rem 0.35rem;
+    border: 1.5px solid color-mix(in srgb, var(--tone) 40%, transparent);
+    border-radius: 0.8rem;
+    background: transparent;
+    color: var(--tone);
+    font: 600 0.7rem/1.1 var(--font-ui);
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .layer[aria-pressed='true'] {
+    border-color: var(--tone);
+    background: var(--tone);
+    color: #fff9ef;
+  }
+
+  /* A speaker with nothing to say at this stop stays usable but looks quieter. */
+  .layer[data-silent='true'] {
+    border-style: dashed;
+    opacity: 0.65;
+  }
+
+  .layer-priest {
+    --tone: #6b2430;
+  }
+
+  .layer-deacon {
+    --tone: #1f4e79;
+  }
+
+  .layer-people {
+    --tone: #2f6a3a;
+  }
+
+  .layer-meaning {
+    --tone: #7a5a12;
+  }
+
+  /* --- the hamburger drawer -------------------------------------------------------------------- */
+  .scrim {
+    position: absolute;
+    inset: 0;
+    z-index: 5;
+    background: rgba(7, 23, 44, 0.45);
+  }
+
+  .scrim[hidden] {
+    display: none;
+  }
+
+  .rail {
+    position: absolute;
+    inset-block: 0;
+    inset-inline-start: 0;
+    z-index: 6;
+    inline-size: min(22rem, 88vw);
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    overflow-y: auto;
+    background: var(--navy);
+    color: var(--parchment);
+    translate: -100% 0;
+    visibility: hidden;
+    transition: translate 0.25s ease, visibility 0s linear 0.25s;
+  }
+
+  :global([dir='rtl']) .rail {
+    translate: 100% 0;
+  }
+
+  .rail[data-open='true'] {
+    translate: 0 0;
+    visibility: visible;
+    transition: translate 0.25s ease;
   }
 
   .rail-head {
@@ -696,508 +1151,234 @@ const clientStops = STOPS.map((stop) => ({ n: stop.n, hash: stopHash(stop), box:
 
   .rail-count {
     margin: 0;
+    flex: 1;
     color: color-mix(in srgb, var(--parchment) 70%, transparent);
     font-size: 0.85rem;
   }
 
-  .rail-close {
-    margin-inline-start: auto;
-  }
-
-  @media (min-width: 62rem) {
-    .rail-close {
-      display: none;
-    }
-  }
-
-  .rail ol {
+  .rail-chapters,
+  .rail-stops {
     list-style: none;
     margin: 0;
     padding: 0;
   }
 
-  .rail-chapters > li + li {
-    margin-block-start: 0.25rem;
-  }
-
-  summary {
-    display: grid;
-    grid-template-columns: 1.6rem 1fr auto;
-    gap: 0.5rem;
+  .rail summary {
+    display: flex;
     align-items: baseline;
-    padding: 0.6rem 0.25rem;
+    gap: 0.6rem;
+    min-block-size: 44px;
+    padding-block: 0.4rem;
     cursor: pointer;
-    border-block-start: 1px solid color-mix(in srgb, var(--gold) 25%, transparent);
-    list-style: none;
-  }
-
-  summary::-webkit-details-marker {
-    display: none;
-  }
-
-  .num {
+    font-family: var(--font-reading);
     color: var(--gold-bright);
-    font-family: var(--font-reading);
   }
 
-  .name {
-    font-family: var(--font-reading);
+  .rail .num {
+    min-inline-size: 1.6rem;
+    font-weight: 600;
   }
 
-  .range {
+  .rail .name {
+    flex: 1;
+  }
+
+  .rail .range {
     font-size: 0.8rem;
-    color: color-mix(in srgb, var(--parchment) 60%, transparent);
+    color: color-mix(in srgb, var(--parchment) 65%, transparent);
   }
 
   .rail-stops a {
-    display: grid;
-    grid-template-columns: 1.6rem 1fr;
-    gap: 0.5rem;
-    padding: 0.35rem 0.5rem;
-    border-radius: 0.4rem;
-    color: color-mix(in srgb, var(--parchment) 78%, transparent);
-    text-decoration: none;
-    font-size: 0.9rem;
-    line-height: 1.35;
-  }
-
-  .rail-stops a .n {
-    font-variant-numeric: tabular-nums;
-    color: color-mix(in srgb, var(--parchment) 55%, transparent);
-  }
-
-  .rail-stops a.done .n {
-    color: var(--gold);
-  }
-
-  .rail-stops a:hover {
-    background: color-mix(in srgb, var(--gold) 14%, transparent);
-  }
-
-  .rail-stops a[aria-current='step'] {
-    background: color-mix(in srgb, var(--gold) 24%, transparent);
-    color: var(--ivory);
-    box-shadow: inset 3px 0 0 var(--gold-bright);
-  }
-
-  :global([dir='rtl']) .rail-stops a[aria-current='step'] {
-    box-shadow: inset -3px 0 0 var(--gold-bright);
-  }
-
-  /* --- stage -------------------------------------------------------------------------------- */
-  .stage {
-    position: relative;
-    min-inline-size: 0;
-    min-block-size: 0;
-    background: var(--navy) url('/holy-mass/preview.jpg') center / cover no-repeat;
-    overflow: hidden;
-  }
-
-  .art {
-    position: absolute;
-    inset: 0;
-    inline-size: 100%;
-    block-size: 100%;
-    display: block;
-  }
-
-  .vignette {
-    position: absolute;
-    inset: 0;
-    pointer-events: none;
-    background: radial-gradient(ellipse at center, transparent 55%, rgba(7, 23, 44, 0.55) 100%);
-  }
-
-  .grain {
-    position: absolute;
-    inset: 0;
-    pointer-events: none;
-    opacity: 0.09;
-    mix-blend-mode: soft-light;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
-  }
-
-  .opening {
-    position: absolute;
-    inset-inline: 0;
-    inset-block-start: 0;
-    padding: clamp(0.75rem, 3vw, 2rem) 1.25rem 3rem;
-    text-align: center;
-    background: linear-gradient(to bottom, rgba(7, 23, 44, 0.92), rgba(7, 23, 44, 0));
-    pointer-events: none;
-  }
-
-  .opening .eyebrow {
-    margin: 0;
-    font-size: 0.8rem;
-    letter-spacing: 0.04em;
-    color: color-mix(in srgb, var(--parchment) 78%, transparent);
-  }
-
-  .opening h1 {
-    margin: 0.25rem 0 0;
-    font-family: var(--font-reading);
-    font-size: clamp(1.5rem, 1rem + 2.4vw, 2.6rem);
-    font-weight: 600;
-    color: var(--gold-bright);
-    line-height: 1.15;
-  }
-
-  .opening .begin {
-    margin: 0.5rem 0 0;
-    font-size: 0.85rem;
-    color: color-mix(in srgb, var(--parchment) 70%, transparent);
-  }
-
-  .stage-note {
-    position: absolute;
-    inset-inline: 0.75rem;
-    inset-block-end: 0.6rem;
-    margin: 0;
-    padding: 0.25rem 0.6rem;
-    inline-size: fit-content;
-    border-radius: 0.4rem;
-    background: rgba(7, 23, 44, 0.62);
-    font-size: 0.8rem;
+    display: flex;
+    gap: 0.7rem;
+    align-items: baseline;
+    min-block-size: 44px;
+    padding: 0.5rem 0.6rem;
+    border-radius: 0.5rem;
     color: var(--parchment);
-    pointer-events: none;
-  }
-
-  /* --- panel -------------------------------------------------------------------------------- */
-  .panel {
-    display: flex;
-    flex-direction: column;
-    min-inline-size: 0;
-    min-block-size: 0;
-    background: var(--parchment);
-    color: var(--ink);
-  }
-
-  .panel-head {
-    padding: 0.6rem 1rem 0.5rem;
-    background: var(--ivory);
-    border-block-end: 1px solid #e3d6b8;
-  }
-
-  .head-row {
-    display: flex;
-    align-items: center;
-    gap: 0.6rem;
-  }
-
-  .where {
-    flex: 1;
-    margin: 0;
-    font-family: var(--font-reading);
-    color: var(--burgundy);
+    text-decoration: none;
     font-size: 0.95rem;
   }
 
-  .stops-button,
-  .rail-close,
-  .step,
-  .liturgies button {
-    min-block-size: 44px;
-    border: 1px solid color-mix(in srgb, var(--gold) 60%, transparent);
-    border-radius: 0.5rem;
-    background: transparent;
-    color: inherit;
-    font: inherit;
-    cursor: pointer;
-    padding-inline: 0.8rem;
+  .rail-stops a:hover {
+    background: rgba(255, 255, 255, 0.07);
   }
 
-  .stops-button {
-    color: var(--ink);
+  .rail-stops a[aria-current='step'] {
+    background: rgba(232, 198, 125, 0.18);
+    outline: 1px solid color-mix(in srgb, var(--gold) 60%, transparent);
   }
 
-  .rail-close {
-    color: var(--parchment);
-  }
-
-  @media (min-width: 62rem) {
-    .stops-button {
-      display: none;
-    }
-  }
-
-  .nav {
-    display: flex;
-    gap: 0.4rem;
-  }
-
-  .step {
-    inline-size: 44px;
-    padding: 0;
-    display: grid;
-    place-items: center;
-    color: var(--ink);
-  }
-
-  :global([dir='rtl']) .step svg {
-    transform: scaleX(-1);
-  }
-
-  .progress {
-    margin-block-start: 0.45rem;
-    block-size: 3px;
-    background: #e3d6b8;
-    border-radius: 2px;
-    overflow: hidden;
-  }
-
-  .progress span {
-    display: block;
-    block-size: 100%;
-    inline-size: 0;
-    background: linear-gradient(90deg, var(--gold), var(--gold-bright));
-    transition: inline-size 0.3s ease;
-  }
-
-  .options {
-    display: none;
-    flex-wrap: wrap;
-    gap: 0.4rem 0.9rem;
-    align-items: center;
-    margin-block-start: 0.5rem;
-  }
-
-  .options[data-open='true'] {
-    display: flex;
-  }
-
-  @media (min-width: 62rem) {
-    .options {
-      display: flex;
-    }
-  }
-
-  .liturgies {
-    display: flex;
-    gap: 0.35rem;
-    flex-wrap: wrap;
-  }
-
-  .liturgies button {
-    min-block-size: 36px;
-    font-size: 0.85rem;
-    color: var(--ink);
-  }
-
-  .liturgies button[aria-checked='true'] {
-    background: var(--ink);
-    border-color: var(--ink);
+  .rail-stops a.done .n {
     color: var(--gold-bright);
   }
 
-  .both {
-    display: inline-flex;
-    gap: 0.4rem;
-    align-items: center;
-    font-size: 0.85rem;
-    min-block-size: 36px;
-  }
-
-  .resume {
-    margin: 0.4rem 0 0;
-    font-size: 0.9rem;
-  }
-
-  .resume a {
-    color: var(--burgundy);
-  }
-
-  .panel-scroll {
-    flex: 1;
-    min-block-size: 0;
-    overflow-y: auto;
-    scroll-snap-type: y proximity;
-    overscroll-behavior: contain;
-    padding-block-end: 55%;
-  }
-
-  .stop {
-    min-block-size: 78%;
-    padding: 1.4rem clamp(1rem, 3vw, 2rem) 1.25rem;
-    scroll-snap-align: start;
-    font-family: var(--font-reading);
-    font-size: 1.05rem;
-    line-height: 1.6;
-  }
-
-  .stop + .stop {
-    border-block-start: 1px solid #e3d6b8;
-  }
-
-  .chapter-label {
-    margin: 0;
-    font-family: var(--font-ui);
-    font-size: 0.8rem;
-    color: var(--burgundy);
-  }
-
-  .stop h2 {
-    margin: 0.3rem 0 0;
-    font-size: clamp(1.5rem, 1.1rem + 1.2vw, 2.1rem);
-    line-height: 1.2;
-    color: #101c33;
-  }
-
-  .alt-title {
-    margin: 0.2rem 0 0.9rem;
-    font-size: 1.3rem;
-    color: #9a7430;
-  }
-
-  .stop h3 {
-    margin: 1.1rem 0 0.25rem;
-    font-family: var(--font-ui);
-    font-size: 0.8rem;
-    font-weight: 600;
-    letter-spacing: 0.02em;
-    color: var(--burgundy);
-  }
-
-  .stop p {
-    margin: 0.2rem 0;
-    max-inline-size: 38rem;
-  }
-
-  .prayer {
-    margin-block-start: 0.6rem;
-    padding: 0.6rem 0.9rem 0.8rem;
-    border-radius: 0.7rem;
-    background: var(--ivory);
-    border: 1px solid #e3d6b8;
-  }
-
-  .prayer h3 {
-    margin-block-start: 0.2rem;
-  }
-
-  .line {
-    display: grid;
-    grid-template-columns: 5.2rem 1fr;
-    gap: 0.1rem 0.6rem;
-    align-items: baseline;
-    padding-block: 0.25rem;
-  }
-
-  .line .role {
-    font-family: var(--font-ui);
-    font-size: 0.78rem;
-    font-weight: 600;
-  }
-
-  .line.priest .role {
-    color: #8a6a22;
-  }
-
-  .line.people .role {
-    color: #1d3c6e;
-  }
-
-  .line .other-lang {
-    grid-column: 2;
-  }
-
-  .pending {
-    margin-block-start: 0.4rem;
-    padding: 0.5rem 0.8rem;
-    border-inline-start: 3px solid var(--gold);
-    background: #fbf5e6;
-    color: #5a4a22;
-    font-size: 0.92rem;
-    font-family: var(--font-ui);
-  }
-
-  .silent {
-    margin-block-start: 0.4rem;
-    padding: 0.2rem 0.9rem 0.6rem;
-    border-radius: 0.7rem;
-    background: #f1e4c4;
-  }
-
-  .quote {
-    font-style: italic;
-  }
-
-  .tiny {
-    font-family: var(--font-ui);
-    font-size: 0.78rem;
-    color: #6b5f48;
-  }
-
-  .draft {
-    margin-block-start: 1rem;
-  }
-
-  .refs ul {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.4rem 0.9rem;
-    margin: 0.2rem 0 0;
-    padding: 0;
-    list-style: none;
-    font-family: var(--font-ui);
-    font-size: 0.9rem;
-  }
-
-  .refs a {
-    color: #6b2430;
-  }
-
-  .varies {
-    padding: 0.5rem 0.8rem;
-    border-inline-start: 3px solid var(--burgundy);
-    background: #f6e9e6;
-    font-family: var(--font-ui);
-    font-size: 0.88rem;
-  }
-
-  .other-lang {
-    display: none;
-    color: #3a4660;
-  }
-
-  .show-both .other-lang {
-    display: block;
-  }
-
-  .show-both .line .other-lang {
-    display: block;
-  }
-
-  .panel-foot {
-    padding: 1.5rem clamp(1rem, 3vw, 2rem);
-    font-family: var(--font-ui);
-    font-size: 0.85rem;
-    color: #4b4638;
+  .rail-stops .n {
+    min-inline-size: 1.6rem;
+    color: color-mix(in srgb, var(--parchment) 60%, transparent);
+    font-variant-numeric: tabular-nums;
   }
 
   a:focus-visible,
   button:focus-visible,
   summary:focus-visible,
-  [tabindex]:focus-visible,
-  input:focus-visible {
+  [tabindex]:focus-visible {
     outline: 3px solid var(--gold-bright);
     outline-offset: 2px;
   }
 
-  .panel a:focus-visible,
-  .panel button:focus-visible,
-  .panel [tabindex]:focus-visible,
-  .panel input:focus-visible {
+  .topbar button:focus-visible,
+  .dock button:focus-visible,
+  .options button:focus-visible,
+  .panel-scroll a:focus-visible,
+  .panel-scroll summary:focus-visible,
+  .panel-scroll:focus-visible {
     outline-color: var(--burgundy);
   }
 
+  @media (max-width: 30rem) {
+    .layer {
+      min-inline-size: 0;
+      flex: 1;
+    }
+
+    .dock {
+      inline-size: calc(100% - 1rem);
+    }
+  }
+
   @media (prefers-reduced-motion: reduce) {
-    .progress span {
+    .progress span,
+    .rail,
+    .rail[data-open='true'] {
       transition: none;
     }
 
     .panel-scroll {
       scroll-behavior: auto;
     }
+  }
+</style>
+
+<!-- The prayers are drawn in the browser, so their elements do not carry Astro's scoping attribute.
+     The draft bubbles drawn by the server use the same rules. -->
+<style is:global>
+  .chat {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+  }
+
+  .chat .drafts,
+  .chat .script {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+  }
+
+  .chat .script:empty {
+    display: none;
+  }
+
+  .chat .bubble {
+    --tone: #5b4a2b;
+    max-inline-size: min(34rem, 90%);
+    padding: 0.55rem 0.85rem 0.65rem;
+    border: 1px solid color-mix(in srgb, var(--tone) 30%, transparent);
+    border-radius: 1.1rem;
+    background: rgba(255, 249, 239, 0.94);
+    box-shadow: 0 1px 3px rgba(24, 36, 58, 0.1);
+  }
+
+  .chat .bubble-priest {
+    --tone: #6b2430;
+    margin-inline-end: auto;
+    border-start-start-radius: 0.25rem;
+  }
+
+  .chat .bubble-deacon {
+    --tone: #1f4e79;
+    margin-inline-end: auto;
+    border-start-start-radius: 0.25rem;
+  }
+
+  .chat .bubble-people {
+    --tone: #2f6a3a;
+    margin-inline-start: auto;
+    border-start-end-radius: 0.25rem;
+    background: color-mix(in srgb, #2f6a3a 9%, #fff9ef);
+  }
+
+  .chat .bubble.draft {
+    border-style: dashed;
+  }
+
+  .chat .bubble .who {
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+    margin: 0 0 0.1rem;
+    font-family: var(--font-ui);
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--tone);
+  }
+
+  .chat .bubble .who svg {
+    inline-size: 1rem;
+    block-size: 1rem;
+  }
+
+  .chat .draft-tag {
+    margin-inline-start: auto;
+    padding: 0 0.4rem;
+    border: 1px solid color-mix(in srgb, var(--tone) 40%, transparent);
+    border-radius: 999px;
+    font-size: 0.68rem;
+    font-weight: 500;
+  }
+
+  .chat .line {
+    margin: 0.1rem 0;
+    white-space: pre-line;
+  }
+
+  .chat .rubric {
+    align-self: center;
+    max-inline-size: 32rem;
+    padding: 0.2rem 0.8rem;
+    border-radius: 999px;
+    background: rgba(255, 249, 239, 0.75);
+    text-align: center;
+    font-style: italic;
+    font-size: 0.9em;
+    color: #4b4638;
+  }
+
+  .chat .rubric .line {
+    margin: 0;
+  }
+
+  .chat .note {
+    margin: 0.35rem 0 0;
+    padding: 0.35rem 0.6rem;
+    border-radius: 0.6rem;
+    background: color-mix(in srgb, var(--tone) 8%, #fff9ef);
+    font-size: 0.9em;
+  }
+
+  .chat .credit {
+    margin: 0.2rem 0 0;
+    font-family: var(--font-ui);
+    font-size: 0.78rem;
+    color: #6b5f48;
+  }
+
+  .no-priest .chat .bubble-priest,
+  .no-deacon .chat .bubble-deacon,
+  .no-people .chat .bubble-people,
+  .no-steps .chat .rubric,
+  .no-meaning .chat .note {
+    display: none;
   }
 </style>

@@ -1,0 +1,404 @@
+/** Families 33 to 43 of the topical study taxonomy. Format: see taxonomy.ts. */
+export const TAXONOMY_4 = `
+# 33 | Christian ethics and moral questions | الأخلاق المسيحية والقضايا السلوكية
+> Matthew 5–7; Romans 12–13; 1 Corinthians 6; Micah 6:8
+- Human dignity | كرامة الإنسان
+- Sanctity of life | قدسية الحياة
+- Truth and honesty | الصدق والأمانة
+- Justice | العدل
+- Mercy | الرحمة
+- Sexual ethics | الأخلاق الجنسية
+- Marriage fidelity | الأمانة الزوجية
+- Purity | الطهارة
+- Modesty | الاحتشام
+- Protecting the vulnerable | حماية الضعفاء
+- Poverty and social responsibility | الفقر والمسؤولية الاجتماعية
+- Caring for widows and orphans | رعاية الأرامل والأيتام
+- Caring for immigrants and strangers | رعاية الغرباء
+- Honoring authorities | احترام السلطات
+- Obeying God above human commands | طاعة الله فوق أوامر البشر
+- Peace and non-retaliation | السلام وعدم الانتقام
+- Violence | العنف
+- War and peace | الحرب والسلام
+- Slavery in biblical history | العبودية في التاريخ الكتابي
+- Freedom and responsibility | الحرية والمسؤولية
+- Justice for the oppressed | إنصاف المظلومين
+- Corruption | الفساد
+- Bribery | الرشوة
+- Dishonesty | الغش
+- Moral responsibility | المسؤولية الأخلاقية
+- Conscience | الضمير
+- Moral discernment | التمييز الأخلاقي
+- The golden rule | القاعدة الذهبية
+- Christian witness in society | الشهادة المسيحية في المجتمع
+- Loving opponents | محبة المخالفين
+
+# 34 | Death, resurrection, judgment, and eternity | الموت والقيامة والدينونة والأبدية
+> John 5:24–29; John 11:17–27; 1 Corinthians 15; Revelation 20–22
+- Meaning of death | معنى الموت
+- Why humans die | لماذا يموت الإنسان؟
+- The soul | النفس
+- The body | الجسد
+- Death as an enemy | الموت كعدو
+- Christ's victory over death | انتصار المسيح على الموت
+- Resurrection of Christ | قيامة المسيح
+- Resurrection of the dead | قيامة الأموات
+- The resurrected body | الجسد المقام
+- Eternal life | الحياة الأبدية
+- Eternal judgment | الدينونة الأبدية
+- The Second Coming | المجيء الثاني
+- Signs of the end | علامات النهاية
+- The Antichrist | ضد المسيح
+- Final judgment | الدينونة الأخيرة
+- Heaven | السماء
+- Paradise | الفردوس
+- Hades | الهاوية
+- Gehenna | جهنم
+- New heaven and new earth | السماء الجديدة والأرض الجديدة
+- Heavenly Jerusalem | أورشليم السمائية
+- The Book of Life | سفر الحياة
+- The Kingdom of God | ملكوت الله
+- Eternal communion with God | الشركة الأبدية مع الله
+- Hope beyond death | الرجاء بعد الموت
+- Comfort for those who mourn | تعزية الحزانى
+- Watchfulness and readiness | السهر والاستعداد
+- Living in light of eternity | الحياة في ضوء الأبدية
+- Resurrection and the Eucharist | القيامة والإفخارستيا
+- Christ's final victory | نصرة المسيح النهائية
+
+# 35 | Biblical prophecy and the Messiah | النبوات والمسيح المنتظر
+> Genesis 3:15; Isaiah 7:14; Isaiah 9:1–7; Isaiah 53; Micah 5:2; Psalm 22; Luke 24:44–47
+- Meaning of biblical prophecy | معنى النبوة الكتابية
+- Prophecy and fulfillment | النبوة وتحقيقها
+- Messianic prophecies | النبوات المسيانية
+- The promised seed | النسل الموعود
+- The seed of Abraham | نسل إبراهيم
+- The promised son of David | ابن داود الموعود
+- The suffering servant | العبد المتألم
+- The virgin birth prophecy | نبوة الميلاد البتولي
+- Prophecy of Bethlehem | نبوة بيت لحم
+- The Messiah's kingship | مُلك المسيا
+- The Messiah's priesthood | كهنوت المسيا
+- The Messiah's suffering | آلام المسيا
+- Prophecies of the Crucifixion | نبوات الصلب
+- Prophecies of the Resurrection | نبوات القيامة
+- Prophecies of the New Covenant | نبوات العهد الجديد
+- Prophecies of the outpouring of the Spirit | نبوات حلول الروح القدس
+- Prophecies concerning the nations | النبوات عن الأمم
+- Prophetic visions | الرؤى النبوية
+- Dreams in biblical prophecy | الأحلام النبوية
+- Symbolic prophetic language | اللغة النبوية الرمزية
+- Prophetic warnings | التحذيرات النبوية
+- Prophetic promises | الوعود النبوية
+- Prophecy and historical context | النبوة والسياق التاريخي
+- Prophecy and typology | النبوة والرمز
+- New Testament interpretations of prophecy | تفسير العهد الجديد للنبوات
+- False prophets | الأنبياء الكذبة
+- Testing prophetic claims | اختبار ادعاءات النبوة
+- Future prophecy | النبوات المستقبلية
+- The Day of the Lord | يوم الرب
+- The Messianic Kingdom | الملكوت المسياني
+
+# 36 | Old Testament types and symbols fulfilled in Christ | رموز العهد القديم وإتمامها في المسيح
+> Luke 24:25–27; John 3:14–15; 1 Corinthians 10:1–11; Hebrews 8–10
+- Adam as a type of Christ | آدم كرمز للمسيح
+- Abel's sacrifice | ذبيحة هابيل
+- Noah's ark | فلك نوح
+- Melchizedek | ملكي صادق
+- Isaac as a type of Christ | إسحاق كرمز للمسيح
+- Joseph as a type of Christ | يوسف كرمز للمسيح
+- Moses as a type of Christ | موسى كرمز للمسيح
+- The Passover lamb | حمل الفصح
+- The Exodus | الخروج
+- The Red Sea crossing | عبور البحر الأحمر
+- Manna from heaven | المن السماوي
+- Water from the rock | الماء من الصخرة
+- The bronze serpent | الحية النحاسية
+- The tabernacle | خيمة الاجتماع
+- The Ark of the Covenant | تابوت العهد
+- The mercy seat | كرسي الرحمة
+- The priesthood of Aaron | كهنوت هارون
+- The Day of Atonement | يوم الكفارة
+- Sacrificial offerings | الذبائح
+- The Temple | الهيكل
+- The veil of the Temple | حجاب الهيكل
+- The altar | المذبح
+- Incense | البخور
+- The lampstand | المنارة
+- The table of showbread | مائدة خبز الوجوه
+- The scapegoat | تيس عزازيل
+- Jonah's three days | أيام يونان الثلاثة
+- The promised land | أرض الموعد
+- Sabbath rest | راحة السبت
+- The New Covenant as fulfillment | العهد الجديد كإتمام
+
+# 37 | Biblical covenants and God's plan through history | العهود الإلهية وتدبير الخلاص عبر التاريخ
+> Genesis 9; Genesis 12 and 15; Exodus 19–24; 2 Samuel 7; Jeremiah 31:31–34; Hebrews 8
+- God's covenant with Noah | عهد الله مع نوح
+- God's covenant with Abraham | عهد الله مع إبراهيم
+- God's covenant at Sinai | عهد سيناء
+- God's covenant with David | عهد الله مع داود
+- The New Covenant | العهد الجديد
+- Covenant promises | وعود العهد
+- Covenant faithfulness | الأمانة للعهد
+- Covenant disobedience | العصيان للعهد
+- Covenant blessings | بركات العهد
+- Covenant curses | لعنات العهد
+- Covenant signs | علامات العهد
+- Circumcision | الختان
+- Passover | الفصح
+- The Law of Moses | شريعة موسى
+- Grace and the Law | النعمة والناموس
+- Fulfillment of the Law in Christ | إتمام الناموس في المسيح
+- God's promises to Abraham | مواعيد الله لإبراهيم
+- The kingdom of David | مملكة داود
+- Israel and the nations | إسرائيل والأمم
+- The Church and the New Covenant | الكنيسة والعهد الجديد
+- Christ as mediator of the New Covenant | المسيح وسيط العهد الجديد
+- The history of redemption | تاريخ الفداء
+- Promise and fulfillment | الوعد والإتمام
+- Covenant and salvation | العهد والخلاص
+- The unity of God's plan | وحدة تدبير الله
+
+# 38 | Creation, humanity, and the fallen world | الخليقة والإنسان والسقوط
+> Genesis 1–3; Psalm 8; Romans 5:12–21; Romans 8:18–25
+- God as Creator | الله الخالق
+- Creation of the heavens and earth | خلق السماوات والأرض
+- Creation of humanity | خلق الإنسان
+- Humanity in God's image | الإنسان على صورة الله
+- Human dignity | كرامة الإنسان
+- Male and female | الذكر والأنثى
+- The Garden of Eden | جنة عدن
+- Adam and Eve | آدم وحواء
+- Free will | حرية الإرادة
+- The Tree of Knowledge | شجرة معرفة الخير والشر
+- The Fall | السقوط
+- The serpent in Eden | الحية في عدن
+- Sin entering the world | دخول الخطية إلى العالم
+- Death entering the world | دخول الموت إلى العالم
+- Human alienation from God | انفصال الإنسان عن الله
+- The curse on creation | اللعنة على الخليقة
+- Creation under corruption | فساد الخليقة
+- Stewardship of creation | رعاية الخليقة
+- Nature and God's glory | الطبيعة ومجد الله
+- God's providence in nature | عناية الله بالطبيعة
+- Human responsibility for the earth | مسؤولية الإنسان عن الأرض
+- Restoration of creation | تجديد الخليقة
+- The new creation in Christ | الخليقة الجديدة في المسيح
+- Biblical creation and scientific questions | الخلق الكتابي والأسئلة العلمية
+- The ultimate renewal of all things | تجديد كل شيء في النهاية
+
+# 39 | Biblical people and character studies | شخصيات الكتاب المقدس ودراسة حياتها
+> Hebrews 11; James 5:10–18; 1 Corinthians 10:1–13
+- Adam | آدم
+- Eve | حواء
+- Abel | هابيل
+- Cain | قايين
+- Enoch | أخنوخ
+- Noah | نوح
+- Abraham | إبراهيم
+- Sarah | سارة
+- Hagar | هاجر
+- Isaac | إسحاق
+- Rebekah | رفقة
+- Jacob | يعقوب
+- Esau | عيسو
+- Joseph | يوسف
+- Moses | موسى
+- Aaron | هارون
+- Miriam | مريم أخت موسى
+- Joshua | يشوع
+- Rahab | راحاب
+- Deborah | دبورة
+- Gideon | جدعون
+- Samson | شمشون
+- Ruth | راعوث
+- Hannah | حنة
+- Samuel | صموئيل
+- Saul | شاول الملك
+- David | داود
+- Solomon | سليمان
+- Elijah | إيليا
+- Elisha | أليشع
+- Isaiah | إشعياء
+- Jeremiah | إرميا
+- Ezekiel | حزقيال
+- Daniel | دانيال
+- Esther | أستير
+- Job | أيوب
+- Jonah | يونان
+- John the Baptist | يوحنا المعمدان
+- Virgin Mary | السيدة العذراء
+- Joseph the Betrothed | يوسف النجار
+- Peter | بطرس
+- Andrew | أندراوس
+- John the Apostle | يوحنا الرسول
+- James | يعقوب
+- Thomas | توما
+- Matthew | متى
+- Mary Magdalene | مريم المجدلية
+- Martha and Mary | مرثا ومريم
+- Lazarus | لعازر
+- Zacchaeus | زكا
+- Nicodemus | نيقوديموس
+- The Samaritan woman | المرأة السامرية
+- Judas Iscariot | يهوذا الإسخريوطي
+- Stephen | استفانوس
+- Philip the Evangelist | فيلبس المبشر
+- Paul | بولس
+- Barnabas | برنابا
+- Timothy | تيموثاوس
+- Titus | تيطس
+- Priscilla and Aquila | بريسكلا وأكيلا
+- Lydia | ليدية
+- Cornelius | كرنيليوس
+
+# 40 | Places, objects, numbers, and biblical symbols | الأماكن والأشياء والأرقام والرموز الكتابية
+> Genesis 28; Exodus 25–27; John 2:13–22; Revelation 21–22
+- Jerusalem | أورشليم
+- Bethlehem | بيت لحم
+- Nazareth | الناصرة
+- Egypt | مصر
+- Sinai | سيناء
+- The wilderness | البرية
+- Mount Zion | جبل صهيون
+- Mount Moriah | جبل المريا
+- Mount Tabor | جبل طابور
+- The Jordan River | نهر الأردن
+- The Sea of Galilee | بحر الجليل
+- Gethsemane | جثسيماني
+- Golgotha | الجلجثة
+- The empty tomb | القبر الفارغ
+- The Cross | الصليب
+- The crown | الإكليل
+- The lamb | الحمل
+- The lion | الأسد
+- The dove | الحمامة
+- The serpent | الحية
+- The olive tree | شجرة الزيتون
+- The vine | الكرمة
+- The fig tree | شجرة التين
+- Bread | الخبز
+- Wine | الخمر
+- Water | الماء
+- Fire | النار
+- Light | النور
+- Darkness | الظلمة
+- Oil | الزيت
+- Incense | البخور
+- Blood | الدم
+- The garment | الثوب
+- The seal | الختم
+- The number three | الرقم ثلاثة
+- The number seven | الرقم سبعة
+- The number twelve | الرقم اثنا عشر
+- The number forty | الرقم أربعون
+- The number one thousand | الألف
+- The number 666 | الرقم ٦٦٦
+- Symbolic dreams | الأحلام الرمزية
+- Parabolic symbolism | رموز الأمثال
+- Apocalyptic imagery | رموز الرؤيا
+
+# 41 | Biblical apologetics and difficult questions | الدفاعيات المسيحية والأسئلة الصعبة
+> 1 Peter 3:15; Acts 17:16–34; 1 Corinthians 15:1–19; Luke 24:36–48
+- Does God exist? | هل الله موجود؟
+- Can God be known? | هل يمكن معرفة الله؟
+- Why believe in Christianity? | لماذا أؤمن بالمسيحية؟
+- Why believe the Bible? | لماذا أؤمن بالكتاب المقدس؟
+- Is the Bible historically reliable? | هل الكتاب المقدس موثوق تاريخيًا؟
+- Has the Bible been corrupted? | هل تحرف الكتاب المقدس؟
+- How was the biblical canon formed? | كيف تشكل قانون الكتاب المقدس؟
+- Why are there four Gospels? | لماذا توجد أربعة أناجيل؟
+- Are the Gospels contradictory? | هل تتناقض الأناجيل؟
+- Did Jesus exist historically? | هل عاش المسيح تاريخيًا؟
+- Did Jesus claim to be God? | هل أعلن المسيح أنه الله؟
+- Did the disciples believe Jesus was God? | هل آمن التلاميذ بلاهوت المسيح؟
+- Why did God become human? | لماذا تجسد الله؟
+- Why did Jesus have to die? | لماذا كان يجب أن يموت المسيح؟
+- Did Jesus really rise from the dead? | هل قام المسيح من الموت حقًا؟
+- What evidence supports the Resurrection? | ما أدلة القيامة؟
+- Why does God allow suffering? | لماذا يسمح الله بالألم؟
+- Why does God allow evil? | لماذا يسمح الله بالشر؟
+- How can God be loving and just? | كيف يكون الله محبًا وعادلًا؟
+- Why are some prayers unanswered? | لماذا لا تستجاب بعض الصلوات؟
+- Can faith and reason coexist? | هل يتوافق الإيمان والعقل؟
+- Is Christianity compatible with science? | هل تتوافق المسيحية مع العلم؟
+- What about evolution? | ماذا عن التطور؟
+- Is the Trinity biblical? | هل الثالوث كتابي؟
+- Does the Trinity contradict monotheism? | هل الثالوث يناقض التوحيد؟
+- Why worship Jesus? | لماذا نعبد المسيح؟
+- Why call Mary Theotokos? | لماذا ندعو مريم والدة الإله؟
+- Why pray for the intercession of saints? | لماذا نطلب شفاعة القديسين؟
+- Why confess before a priest? | لماذا نعترف أمام الكاهن؟
+- Why baptize infants? | لماذا تعمد الكنيسة الأطفال؟
+- Is the Eucharist truly Christ's Body and Blood? | هل الإفخارستيا حقًا جسد المسيح ودمه؟
+- Why does the Church have sacraments? | لماذا للكنيسة أسرار؟
+- Why does the Church use liturgy? | لماذا تصلي الكنيسة طقوسًا ليتورجية؟
+- Why do Christians use icons? | لماذا يستخدم المسيحيون الأيقونات؟
+- Why do Christians fast? | لماذا يصوم المسيحيون؟
+- Why is the Old Testament sometimes violent? | لماذا يوجد عنف في العهد القديم؟
+- What about slavery in the Bible? | ماذا عن العبودية في الكتاب المقدس؟
+- What about difficult moral laws? | ماذا عن الشرائع الأخلاقية الصعبة؟
+- Why does God judge nations? | لماذا يدين الله الأمم؟
+- What about those who never heard the Gospel? | ماذا عن الذين لم يسمعوا الإنجيل؟
+- What happens after death? | ماذا يحدث بعد الموت؟
+- Why would a loving God allow hell? | لماذا يسمح الله المحب بجهنم؟
+- Do miracles really happen? | هل تحدث المعجزات بالفعل؟
+- How should apparent biblical contradictions be examined? | كيف نفحص التناقضات الظاهرية؟
+- Why are there different Christian denominations? | لماذا توجد طوائف مسيحية مختلفة؟
+- What makes the Coptic Orthodox tradition distinct? | ما الذي يميز التقليد القبطي الأرثوذكسي؟
+
+# 42 | Wisdom literature, parables, and life lessons | الحكمة والأمثال والدروس الحياتية
+> Proverbs 1–9; Ecclesiastes 3; Matthew 13; Luke 15; James 3
+- The fear of the Lord as wisdom | مخافة الرب بداية الحكمة
+- Wisdom versus foolishness | الحكمة والجهالة
+- Proverbs about speech | أمثال الكلام
+- Proverbs about friendship | أمثال الصداقة
+- Proverbs about money | أمثال المال
+- Proverbs about work | أمثال العمل
+- Proverbs about parenting | أمثال التربية
+- Proverbs about discipline | أمثال التأديب
+- Wisdom in conflict | الحكمة في الخلاف
+- Wisdom in leadership | الحكمة في القيادة
+- Wisdom in making decisions | الحكمة في اتخاذ القرار
+- The meaning of life | معنى الحياة
+- Vanity of worldly achievements | بطلان أمجاد العالم
+- Time and seasons | الوقت والمواسم
+- Enjoying God's gifts | الفرح بعطايا الله
+- The suffering of the righteous | ألم الأبرار
+- Parable of the Sower | مثل الزارع
+- Parable of the Good Samaritan | مثل السامري الصالح
+- Parable of the Prodigal Son | مثل الابن الضال
+- Parable of the Lost Sheep | مثل الخروف الضال
+- Parable of the Talents | مثل الوزنات
+- Parable of the Ten Virgins | مثل العذارى العشر
+- Parable of the Pharisee and Tax Collector | مثل الفريسي والعشار
+- Parable of the Rich Fool | مثل الغني الغبي
+- Parable of the Workers in the Vineyard | مثل فعلة الكرم
+- Parable of the Wise and Foolish Builders | مثل البنائين الحكيم والجاهل
+- Understanding parables in context | تفسير الأمثال في سياقها
+- Christ as the wisdom of God | المسيح حكمة الله
+
+# 43 | Christian mission, witness, and interaction with the world | الإرسالية والشهادة للمسيح والعالم
+> Matthew 5:13–16; Matthew 28:18–20; Acts 1:8; 1 Peter 3:13–17
+- The Great Commission | الإرسالية العظمى
+- Sharing the Gospel | مشاركة الإنجيل
+- Witnessing through actions | الشهادة بالأعمال
+- Witnessing through words | الشهادة بالكلام
+- Explaining Christian faith | شرح الإيمان المسيحي
+- Respectful dialogue | الحوار باحترام
+- Serving non-Christians | خدمة غير المسيحيين
+- Loving those who disagree | محبة المخالفين
+- Religious freedom | الحرية الدينية
+- Persecution | الاضطهاد
+- Faith under pressure | الإيمان تحت الضغط
+- Martyrdom and witness | الاستشهاد والشهادة
+- Being salt and light | أن نكون ملحًا ونورًا
+- Defending the faith with gentleness | الدفاع عن الإيمان بوداعة
+- Christian identity in society | الهوية المسيحية في المجتمع
+- Citizenship and responsibility | المواطنة والمسؤولية
+- Serving the poor | خدمة الفقراء
+- Reconciling divided communities | مصالحة المجتمعات المنقسمة
+- Praying for the world | الصلاة من أجل العالم
+- Christ's love for all nations | محبة المسيح لكل الأمم
+`;

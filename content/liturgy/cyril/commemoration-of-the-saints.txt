@@ -1,0 +1,58 @@
+source: The Divine Liturgies of Saints Basil, Gregory and Cyril (Coptic, English and Arabic), Fr. Jacob Nadian, St. Bishoy Coptic Orthodox Church of Toronto, Stouffville, Ontario, Canada.
+source-ar: الثلاثة قداسات للقديسين باسيليوس واغريغوريوس وكيرلس (قبطي وإنجليزي وعربي)، الأب يعقوب نادين، كنيسة الأنبا بيشوي القبطية الأرثوذكسية بتورونتو، ستوفيل، أونتاريو، كندا.
+
+@priest
+en| Speak in his heart for the peace of Your one only holy catholic and apostolic Church. Grant him to think peacefully toward us and toward Your Holy Name. So that we may lead a quiet and peaceful life, and may dwell in all godliness and all dignity in You.
+ar| تكلم فى قلبه من أجل سلام كنيستك الواحدة الوحيدة المقدسة الجامعة الرسولية. أعطيه أن يفكر بالسلام فينا وفى اسمك القدوس. لكى نعيش نحن أيضا فى سيرة هادئة، ونوجد ساكنين بكل تقوى وكل عفاف بك.
+
+@people
+en| Lord have mercy.
+ar| يا رب إرحم.
+
+@priest
+en| Our fathers and our brethren who have fallen asleep, whose souls You have taken, repose them, remembering also all the saints who have pleased You since the beginning. Our holy fathers the patriarchs, the prophets, the apostles, the preachers, the evangelists, the martyrs, the confessors, and all the spirits of the righteous perfected in the faith. Most of all, the pure, full-of- glory, ever-virgin, holy Theotokos, Saint Mary, who truly gave birth to God the Logos. And Saint John the forerunner, Baptist, and martyr; Saint Stephen the archdeacon and protomartyr; the beholder-of-God Saint Mark the evangelist, the apostle and martyr. The patriarch Saint Severus; Saint Cyril; Saint Basil; Saint Gregory; our righteous father, the great Abba Anthony; the righteous Abba Paul; the three saints Abba Macarii Our father Abba John; our father Abba Pishoy, our Roman fathers Saints Maximus and Dometius; the Forty-nine Martyrs; the strong saint Abba Moses. Our father Abba Pachom, the father of the Koinonia, our father Abba Shenoute the archimandrite, our father Abba Nopher the anchorite, and our father Abba Samuel the confessor. And all the choir of Your saints.
+ar| آباؤنا وإخوتنا الذين رقدوا، إذ أخذت نفوسهم نيحهم. ذاكراً أيضاً جميع القديسين الذين أرضوك منذ البدء. آباءنا الأطهار رؤساء الآباء والأنبياء، والرسل والمبشرين والإنجيليين، والشهداء والمعترفين، وكل أرواح الصديقين، الذين كملوا في الإيمان. وبالأكثر القديسة المملوءة مجداً، العذراء كل حين والدة الإله القديسة الطاهرة مريم، التي ولدت الله الكلمة بالحقيقة. والقديس يوحنا السابق الصابغ والشهيد، والقديس استفانوس رئيس الشمامسة وأول الشهداء، وناظر الإله الإنجيلى مرقس الرسول الطاهر والشهيد. والبطريرك القديس ساويرس، والقديس كيرلس، والقديس باسيليوس، والقديس اغريغوريوس. وأبانا الصديق العظيم أنبا أنطونيوس، والبار أنبا بولا، والثلاثة أنبا مقارات القديسين. ز وأبانا أنبا يحنس، وأبانا أنبا بيشوي، وأبوينا القديسين الروميين مكسيموس ودوماديوس، والتسعة والأربعين شهيدا، والقوي أنبا موسىً. وأبانا أنبا باخوم أب الشركة، وأبانا أنبا شنودة رئيس المتوحدين، وابانا نفر السائح، وأبانا أنبا صموئيل المعترف. وكل مصاف قديسيك.
+
+@rubric
+en| The priest says the following in mourning tune:
+ar| يقول الكاهن الآتي بلحن الحزن:
+
+@priest
+en| Not that we are worthy, O our Master, of the intercession for the blessedness of those who are there, but rather they are standing before the throne of Your only-begotten Son. That they may be interceding for our poverty and our frailty. May You be a forgiver of our iniquities, for the sake of their holy prayers and for the sake of Your holy name which is called upon us.
+ar| إننا يا سيدنا لسنا أهلًا أن نتشفع في طوباوية أولئك. بل هم قيام أمام منبر إبنك الوحيد. ليكونوا عوضاً عنا، يتشفعون في مسكنتنا وضعفنا. كُن غافراً لأثامنا، من أجل طلباتهم المقدسة، ومن أجل إسمك المبارك الذي دعي علينا.
+
+@deacon
+en| Let those who read, recite the names of our holy fathers, the patriarchs who have fallen asleep: O Lord, repose their souls and forgive us our sins.
+ar| القارئون فليقولوا أسماء آبائنا البطاركة القديسين الذين رقدوا. الرب ينيح نفوسهم أجمعين، ويغفر لنا خطايانا.
+
+@priest
+en| Remember, O Lord, ou r holy fathers the orthodox archbishops who have already fallen asleep, those who have rightly divided the word of truth. And give us, we too, a share and an inherit ance with them, remembering also those whom we mention this very day.
+ar| اذكر يا رب آبائنا القديسين الأرثوذكسيين رؤساء الأساقفة الذين سبقوا فرقدوا، هؤلاء الذين فصّلوا كلمة الحق بإستقامة. وأعطنا نحن أيضاً حظاً ونصيباً معهم، ذاكراً أيضاً هؤلاء الذين نذكرهم في يومنا هذا.
+
+@rubric
+en| Here, the priest says the commemoration of the departed, mentioning the names of those who have fallen asleep, whom he desires to mention.
+ar| هنا يقول الكاهن الترحيم، ذاكراً أسماء من يرغب في ذكرهم من الذين رقدوا.
+
+@deacon
+en| Pray for our fathers and brethren who have fallen asleep and reposed in the faith of Christ since the beginning: our holy fathers the archbishops, our fathers the bishops, our fathers the hegumens, our fathers the priests, our brethren the deacons, our fathers the monks, and our fathers the laymen, and for the full repose of all Christians, that Christ our God may repose all their souls in the paradise of joy, and we too, accord mercy unto us, and forgive us our sins.
+ar| اطلبوا عن آبائنا وإخوتنا الذين رقدوا، وتنيحوا في الإيمان بالمسيح منذ البدء. آبائنا القديسين رؤساء الأساقفة، وآبائنا الأساقفة، وآبائنا القمامصة، وآبائنا القسوس وإخوتنا الشمامسة، وآبائنا الرهبان، وآبائنا العلمانيين، وعن نياح كل المسيحيين. لكي المسيح إلهنا ينيح نفوسهم أجمعين في فردوس النعيم، ونحن أيضاً يصنع معنا رحمةً، ويغفر لنا خطايانا.
+
+@people
+en| Lord have mercy.
+ar| يا رب ارحم.
+
+@rubric
+en| The deacons may say the commomeration of the early fathers the patriarchs.
+ar| يمكن أن يقول الشمامسة تذكارات الآباء البطاركة السالفين، إن أرادوا.
+
+@deacon
+en| Through the prayers and intercessions of our lady, the all - holy, full of glorif y , pure and most blessed Theotokos and ever - v irgin Mary. And the holy prophet, forerunner and baptizer, John the martyr. And St. Stephen, the arch deacons, and proto martyr. And th e holy and glori ous a postles, prophets, and victorious martyrs, and all the choirs of Your saints. Abba (…) the master and archbishop of the great city of Alexandria, and of our grateful Orthodox Bishops. And for the sake of the departed and their departure, and our fathers the saints. First, Saint Mark the Apostle, the evangelist, the archbishop, and martyr. And all those who have rightly taught the word of truth: the Orthodox bishops, priests, deacons, clergy, laity, and all the Orthodox people. Amen.
+ar| الشماس: بصلوات وشفاعات ذات كل قداسة، الممجدة الطاهرة المباركة سيدتنا والدة الإله الدائمة البتولية مريم. والقديس النبي السابق المعمدان الشهيد يوحنا. والقديس إستفانوس رئيس الشمامسة وأول الشهداء. والقديسين الرسل الممجدين والأنبياء والحسني الظفر الشهداء وكل مصاف القديسين. أنبا )...( السيد رئيس أساقفة المدينة العظمي الاسكندرية، وأساقفتنا الأرثوذكسيين، المشكورين. ومن أجل الراقدين ونياحتهم وآبائنا القديسين. الأول، القديس مرقس الرسول الإنجيلي ورئيس الأساقفة والشهيد. وجميع الذين علموا كلمة الحق باستقامة، الأساقفة الارثوذكسيين والقسوس والإكليروس والعلمانيون. هؤلاء وجميع الارثوذكسيين. آمين.
+
+@deacon
+en| The great Abba Anthony, and the righteous Abba Paul, the three saints Abba Macarii, Abba John the short, Abba Pishoy, Abba Paul, our holy Roman fathers Maximus and Dometius, Abba Moses, Abba John Kame, Abba Daniel, Abba Isidore, Abba Pachom, Abba Shenoute and Abba Paphnoute, Abba Parsoma, Abba Teji. And all those who have rightly taught the word of truth: the Orthodox bishops, priests, deacons, clergy, laity, and all the Orthodox people. Amen.
+ar| الشماس: العظيم أنبا أنطونيوس، والبار أنبا بولا، والقديسون الثلاثة مقارات، أنبا يؤنس القصير، أنبا بيشوي، أنبا بولا، أبوانا القديسان الروميان مكسيموس ودوماديوس، أنبا موسى، أنبا يؤانس كاما، أنبا دانيال، أنبا ايسيذوروس، أنبا باخوم، أنبا شنودة، وأنبا بفنوتى، أنبا برسوم، أنبا رويس. وجميع الذين علموا كلمة الحق باستقامة، الأساقفة الارثوذكسيين والقسوس والإكليروس والعلمانيون. هؤلاء وجميع الارثوذكسيين. آمين.
+
+@priest
+en| Those, O Lord, and everyone whose names we have mentioned; and those we have not mentioned. Those whom each one of us has in mind and those who are not in mind. Those who have fallen asleep and reposed in the faith of Christ. Graciously accord, O Lord, repose all their souls in the bosom of our Holy fathers, Abraham, Isaac and Jacob. Sustain them in a green pasture, by the water of rest in the paradise of joy. The place out of which grief, sorrow and groaning have fled away, in the light of Your saints. Raise up their bodies also on the Day which You have appointed, according to Your true promises, which are without lie. Grant them the good things of Your promises, that which an eye has not seen nor ear heard, neither have come upon the heart of man, the things which You, O God, have prepared for those who love Your holy name. For there is no death for Your servants, but a departure. Even if any negligence or heedlessness has overtaken them as men, since they were clothed in flesh and dwelt in this world, O God, as the Good One and Lover of Mankind, graciously accord, O Lord,Your servants, the Orthodox Christians who are in the whole world, from the east to the west and from the north to the south. Each one according to his name and each one according to her name, O Lord repose and forgive them.
+ar| وهؤلاء وكل أحد، يا رب، الذين ذكرنا أسماءهم، والذين لم نذكرهم الذين في فكر كل واحد منا، والذين ليسوا فينا. الذين رقدوا وتنيحوا في الايمان بالمسيح. تفضل يا رب نيح نفوسهم جميعاً في حضن آبائنا القديسين، ابراهيم وإسحق ويعقوب. عُلهُم في موضعِ خضرة، علي ماءِ الراحةِ في فردوسِ النعيمِ. الموضع الذي هرب منه الحزنُ والكآبةُ والتنهدُ في نوِر قديسيك. أقم أجسادهم أيضاً في اليوم الذي رسمته كمواعيدِكَ الحقيقية غير الكاذبة. هب لهم خيرات مواعيدك، ما لم تره عينٌ ولم تسمع به أذنٌ، ولم يخطر علي قلبِ بشرٍ. ما أعددته يا الله لمحبي اسمِكَ القدوسِ. لأنه لا يكون موتٌ لعبيدك، بل هو انتقال. وان كان لحقهم توانٍ، أو تفريطٌ كبشرٍ، وقد لبسوا جسداً. وسكنوا في هذا العالم. فأنت كصالح ومحب البشر، اللهم تفضل عبيدك المسيحيين الارثوذكسيين الذين في المسكونة كلها، من مشارق الشمس إلي مغارِبها، ومن الشمال إلي الجنوب. كلَّ واحدٍ باسمِه وكلَّ واحدةٍ باسمها، يا ربُ نيحهم، واغفر لهم.

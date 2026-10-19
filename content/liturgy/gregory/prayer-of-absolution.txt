@@ -1,0 +1,82 @@
+source: The Divine Liturgies of Saints Basil, Gregory and Cyril (Coptic, English and Arabic), Fr. Jacob Nadian, St. Bishoy Coptic Orthodox Church of Toronto, Stouffville, Ontario, Canada.
+source-ar: الثلاثة قداسات للقديسين باسيليوس واغريغوريوس وكيرلس (قبطي وإنجليزي وعربي)، الأب يعقوب نادين، كنيسة الأنبا بيشوي القبطية الأرثوذكسية بتورونتو، ستوفيل، أونتاريو، كندا.
+
+@rubric
+en| The Prayer of Absolution to the Son
+ar| صلاة التحليل للابن
+
+@priest
+en| O Master, Lord Jesus Christ, the Only - begotten Son and Logos of God the Father, Who has broken every bond of our sins through His saving, life - giving sufferings. Who breathed into the face of His holy disciples and saintly apostles, and said to them: “Receive the Holy Spirit. If you forgive the sins of any, they are forgiven; if you retain the sins of any, they are retained.” You also now, O our Master, have given grace through Your holy apostles to those who for a time labor in the Priesthood in Your Holy Church, to forgive sin upon the earth, and to bind and to loose every bond of iniquity. Now, also we ask and entreat Your goodness, O Lover of Mankind, for Your servants, my fathers, and my brethren, and my weakness; those who bow their heads before Your holy glory. Dispense to us Your mercy, and loose every bond of our sins and, if we have committed any sin against You, knowingly or unknowingly, or through anguish of heart, or in deed, or word, or from faint-heartedness, O Master, Who knows the weakness of men, as a Good One and Lover of Mankind, O God, grant us the forgiveness of our sins. Bless us, purify us; absolve us, and all Your people.
+ar| أيها السيد الرب يسوع المسيح ابن الله الوحيد وكلمة الله الآب الذي قطع كل رباطات خطايانا من قبل آلامه المخلصة المحيية. الذي نفخ في وجه تلاميذه القديسين ورسله الأطهار وقال لهم: اقبلوا الروح القدس، من غفرتم لهم خطاياهم غفرت، ومن أمسكتموها عليهم أمسكت. أنت الآن أيضاً يا سيدنا من قبل رسلك الأطهار أنعمت على الذين يعملون في الكهنوت كل زمان في كنيستك المقدسة أن يغفروا الخطايا على الأرض ويربطوا ويحلوا كل رباطات الظلم. الآن أيضاً نسأل ونطلب من صلاحك يا محب البشر عن عبيدك أبائي وأخوتي وضعفي هؤلاء المنحنين برؤوسهم أمام مجدك المقدس. ارزقنا رحمتك وأقطع كل رباطات خطايانا. وإن كنا أخطأنا إليك في شيء بعلم أو بغير علم أو بجزع القلب أو بالفعل أو بالقول أو بصغر القلب فأنت أيها السيد العارف بضعف البشر كصالح ومحب للبشر، اللهم أنعم علينا بغفران خطايانا. باركنا، طهرنا، حاللنا وحالل كل شعبك.
+
+@rubric
+en| Here the priest remembers those whom he wishes to remember from the living and the dead, then continues saying:
+ar| هنا يذكر من يريد أن يذكره من الأحياء والراقدين. ثم يكمل قائلًا:
+
+@priest
+en| Fill us with Your fear, and straighten us for Your holy good will, for You are our God, and the glory, the honor, the dominion, and the worship are due unto You, with Your good Father and the Holy Spirit, the Giver of Life, Who is of one essence with You. Now, and at all times and unto the ages of all ages. Amen.
+ar| املأنا من خوفك وقومنا إلى إرادتك المقدسة الصالحة لأنك أنت إلهنا ويليق بك المجد والكرامة والعز والسجود مع أبيك الصالح والروح القدس المحيي المساوي لك. الآن وكل أوان وإلى دهر الدهور كلها. آمين.
+
+@rubric
+en| The priest says inaudibly the short litanies for the peace of the church and for the fathers. Then he exclaims aloud:
+ar| ثم يقول الكاهن أوشيتي السلام والآباء الصغيرتين سراً. ثم يقول جهراً:
+
+@priest
+en| Remember, O Lord, our assemblies; bless them.
+ar| أذكر يا رب اجتماعاتنا، باركها.
+
+@rubric
+en| The deacon raises the cross, and says:
+ar| يرفع الشماس الصليب ويقول:
+
+@deacon
+en| Saved. Amen. And with your spirit. In the fear of God, let us attend. Peop le: Amen Lord have mercy. Lord have mercy. Lord have mercy.
+ar| خلصت حقاً، ومع روحك، ننصت بخوف الله. آمين. يا ربُ إرحم، يا ربُ إرحم، يا ربُ إرحم.
+
+@rubric
+en| The priest takes in his hands the Despotikon and raises It up and with bowed head, he exclaims aloud:
+ar| يأخذ الكاهن الأسباديقون بيديه ويرفعه إلي فوق وهو مطامن الرأس صارخاً قائلًا:
+
+@priest
+en| The holies for the holy. * Blessed be the Lord Jesus Christ, the Son of God; the sanctification is by the Holy Spirit. Amen.
+ar| القدسات للقديسين. * مبارك الرب يسوع المسيح ابن الله، وقدوس الروح القدس. آمين.
+
+@rubric
+en| * The people worship before the Lord with fear and trembling, praying for the forgiveness of their sins with tears and supplications. Then the priest takes the Despotikon between the tips of two fingers of his right hand, and with It he signs the precious Blood inside the chalice in the form of the cross. Then he dips the extremity of It inside the chalice and carefully raises It soaked in the Blood, and with It signs, in the form of the cross, the pure Body which is all on the paten. Then he takes the Despotikon and signs with It the Blood inside the chalice in the form of the cross. He then carefully places the Despotikon upside down in the Blood W inside the chalice, all the while with his left hand cupped
+ar| * يسجد الشعب أمام الرب بخوف ورعدة طالبين غفران خطاياهم بدموع وابتهال. ثم يأخذ الكاهن الأسباديقون بيده اليمني بطرف أصبعين، ويرشم به الدم الكريم في الكأس بمثال الصليب. ثم يغمس طرفه داخل الكأس، ويرفعه مغموساً بالدم باحتراس، ويرشم به الجسد الطاهر الذي في الصينية جميعه بمثال الصليب. ثم يعود به أيضاً إلي الدم، ويرشم به علي وجه الدم داخل الكأس بمثال الصليب. ثم يضع الأسباديقون في الدم داخل الكأس مقلوباً . وتكون يده اليسري مبسوطة تحت الأسباديقون، لئلا تقع منه
+
+@rubric
+en| under the Despotikon lest any of the pearls should fall or drip, while saying:
+ar| جوهرة أو ينقط منه شيئ. كل ذلك وهو يقول:
+
+@priest
+en| Blessed be the Lord Jesus Christ, the Son of God; the sanctification is by the Holy Spirit. Amen.
+ar| مبارك الرب يسوع المسيح ابن الله، وقدوس الروح القدس. آمين.
+
+@rubric
+en| The people raise their heads, and respond in a loud voice saying:
+ar| ثم ينهض الشعب من سجودهم، ويجاوبونه بأعلي أصواتهم قائلين:
+
+@priest
+en| One is the Holy Father, one is the Holy Son,one is the Holy Spirit.Amen
+ar| واحد هو الآب القدوس، واحد هو الابن القدوس، واحد هو الروح القدوس.امين.
+
+@rubric
+en| Or, they may say:
+ar| أو يقولون:
+
+@people
+en| One is the all-holy Father, one is the all-holy Son, one is the all-holy Spirit. Amen.
+ar| واحد هو الآب الكلي القدس. واحد هو الابن الكلي القدس. واحد هو الروح الكلي القدس. آمين.
+
+@priest
+en| Peace be with all.
+ar| السلام للكل.
+
+@people
+en| And with your spirit.
+ar| ولروحك أيضًا.
+
+@priest
+en| The holy Body and the precious, true Blood of Jesus Christ, the Son of our God. Amen.
+ar| جسد مقدس، ودم كريم حقيقي، ليسوع المسيح ابن إلهنا. آمين.

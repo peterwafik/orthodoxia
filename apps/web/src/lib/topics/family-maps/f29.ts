@@ -1,0 +1,42 @@
+import type { FamilyMap } from './types.ts';
+
+/** 29. The Divine Liturgy and the Eucharist. The Scripture behind each part of the Liturgy. */
+export const F29: FamilyMap = {
+  nave: {
+    'The Last Supper': 'JESUS, THE CHRIST>His last Passover meal',
+    'Institution of the Eucharist': 'JESUS, THE CHRIST>His last Passover meal',
+  },
+  passages: {
+    'Meaning of the Divine Liturgy': 'Acts 13:2; Hebrews 8:1–6; Romans 15:16; Luke 1:23',
+    'Eucharist as thanksgiving': 'Luke 22:17–19; 1 Corinthians 11:24; 1 Corinthians 10:16; Matthew 26:27',
+    'The Last Supper': 'Luke 22:14–20; Matthew 26:26–29; John 13:1–17',
+    'Institution of the Eucharist': 'Matthew 26:26–28; Mark 14:22–24; Luke 22:19–20; 1 Corinthians 11:23–25',
+    'Christ as the Bread of Life': 'John 6:35; John 6:48–58',
+    'Christ as the Lamb of God': 'John 1:29; Isaiah 53:7; Revelation 5:6–12; 1 Peter 1:18–19',
+    'The Eucharist and sacrifice': 'Hebrews 9:11–14; Hebrews 13:10–15; 1 Corinthians 10:16–21; Malachi 1:11',
+    'Offering of the Lamb': 'John 1:29; Exodus 12:3–7; Isaiah 53:7; 1 Corinthians 5:7',
+    'Preparing the altar': 'Mark 14:12–16; Luke 22:7–13; Hebrews 13:10',
+    'The liturgy of the Word': 'Luke 4:16–21; Acts 13:14–16; Nehemiah 8:1–8; 1 Timothy 4:13',
+    'Scripture readings in worship': 'Nehemiah 8:1–8; Colossians 4:16; 1 Thessalonians 5:27; 1 Timothy 4:13; Luke 4:16',
+    'The Gospel procession': 'Isaiah 52:7; Luke 4:18–21; Psalm 119:105',
+    'The Orthodox Creed': '1 Corinthians 15:3–8; Romans 10:9–10; 1 Timothy 3:16; 1 John 4:2; Ephesians 4:4–6',
+    'Prayer of Reconciliation': '2 Corinthians 5:18–20; Colossians 1:20–22; Matthew 5:23–24; Ephesians 2:14–18',
+    'Kiss of Peace': 'Romans 16:16; 1 Corinthians 16:20; 2 Corinthians 13:12; 1 Peter 5:14',
+    Anaphora: 'Colossians 3:1–2; Psalm 141:2; Hebrews 13:15; Romans 12:1',
+    Sanctus: 'Isaiah 6:1–3; Revelation 4:8; Matthew 21:9; Psalm 118:26',
+    'Institution Narrative': 'Matthew 26:26–28; Mark 14:22–24; Luke 22:19–20; 1 Corinthians 11:23–25',
+    Anamnesis: 'Luke 22:19; 1 Corinthians 11:24–26; Exodus 12:14',
+    Epiclesis: 'Luke 11:13; Acts 2:1–4; Luke 1:35; Romans 8:26',
+    'Intercessory litanies': '1 Timothy 2:1–4; Ephesians 6:18; Philippians 4:6; Colossians 4:2–3',
+    'Commemoration of saints': 'Hebrews 12:1; Hebrews 11:1–40; Revelation 6:9–11; Luke 20:37–38',
+    Fraction: 'Luke 24:30–35; Acts 2:42; Acts 20:7; 1 Corinthians 10:16–17; Matthew 26:26',
+    'Holy Confession': '1 Timothy 6:12–13; Matthew 16:15–17; John 6:68–69; Romans 10:9',
+    'Receiving Communion': '1 Corinthians 11:27–29; John 6:53–57; Acts 2:46; 1 Corinthians 10:16–17',
+    'Thanksgiving after Communion': 'Luke 24:30–35; Psalm 116:12–14; Psalm 34:1–3; Luke 1:68–79',
+    'Dismissal and blessing': 'Numbers 6:24–26; 2 Corinthians 13:14; Luke 24:50–51; Philippians 4:7',
+    'Heavenly worship and earthly Liturgy': 'Hebrews 12:22–24; Revelation 4–5; Isaiah 6:1–4; Hebrews 8:1–5',
+    "St. Basil's Liturgy": 'Acts 2:42; 1 Corinthians 11:23–26; 2 Thessalonians 2:15',
+    "St. Gregory's Liturgy": 'Acts 2:42; 1 Corinthians 11:23–26; 2 Thessalonians 2:15',
+    "St. Cyril's Liturgy": 'Acts 2:42; 1 Corinthians 11:23–26; 2 Thessalonians 2:15',
+  },
+};

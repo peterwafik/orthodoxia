@@ -1,0 +1,18 @@
+source: The Divine Liturgies of Saints Basil, Gregory and Cyril (Coptic, English and Arabic), Fr. Jacob Nadian, St. Bishoy Coptic Orthodox Church of Toronto, Stouffville, Ontario, Canada.
+source-ar: الثلاثة قداسات للقديسين باسيليوس واغريغوريوس وكيرلس (قبطي وإنجليزي وعربي)، الأب يعقوب نادين، كنيسة الأنبا بيشوي القبطية الأرثوذكسية بتورونتو، ستوفيل، أونتاريو، كندا.
+
+@rubric
+en| The Prayer of Preparation (By Patriarch Severus of Antioch)
+ar| صلاة الاستعداد للقديس ساويرس بطريرك أنطاكية
+
+@priest
+en| O Lord, who knows the hearts of all, who is holy, and who rests in His saints; who alone is without sin and who has power to forgive sins. You, O Lord, know my unworthiness and my unpreparedness, and my lack of meetness for this Your holy service. And I do not have the countenance to draw near and open my mouth before Your holy glory, but according to the multitude of Your tender mercies pardon me, a sinner. And grant to me that I may find grace and mercy at this hour.
+ar| أيها الرب العارف قلب كل أحد، القدوس المستريح فى قديسيه، الذى بلا خطية وحده، القادر على مغفرة الخطايا. أنت يا سيد تعلم أنى غير مستحق ولا مستعد ولا مستوجب لهذه الخدمة المقدسة التى لك. وليس لى وجه أن أقترب وأفتح فمى أمام مجدك المقدس، بل بكثرة رأفتك أغفر لى أنا الخاطئ. وأمنحنى أن أجد نعمة ورحمة فى هذه الساعة.
+
+@rubric
+en| Here, as the priest continues to pray, he uncovers the chalice and arranges it on the altar, together with the paten and the spo on.
+ar| هنا يكشف الكاهن الكأس ويضعها علي المذبح مع الصينية والمستير، بينما يستمر في تلاوة الصلاة قائلا:
+
+@priest
+en| And send me strength from on high that I may begin and make ready and accomplish Your holy service after Your pleasure, according to the ascent of Your will, for a sweet savor of incense.
+ar| وأرسل لى قوة من العلاء، لكى أبتدئ وأهيئ وأكمل، كما يرضيك، خدمتك المقدسة، كمسرة ارادتك، رائحة بخور.

@@ -1,0 +1,40 @@
+import type { FamilyMap } from './types.ts';
+
+/** 11. Family, marriage, and parenting. */
+export const F11: FamilyMap = {
+  nave: {
+    Marriage: 'MARRIAGE',
+    Celibacy: 'CELIBACY',
+    Divorce: 'DIVORCE',
+    Adultery: 'ADULTERY',
+  },
+  passages: {
+    "God's design for family": 'Genesis 1:27–28; Genesis 2:18–24; Psalm 127:3–5; Ephesians 3:14–15',
+    'Christian marriage': 'Ephesians 5:22–33; Colossians 3:18–19; 1 Peter 3:1–7; Hebrews 13:4',
+    'Marriage as a covenant': 'Malachi 2:14; Proverbs 2:17; Genesis 2:24; Matthew 19:4–6',
+    'Love between spouses': 'Ephesians 5:25–33; Song of Songs 8:6–7; Proverbs 5:18–19; 1 Corinthians 13',
+    'Mutual submission and respect': 'Ephesians 5:21–33; 1 Peter 3:1–7; 1 Corinthians 7:3–4',
+    'Faithfulness in marriage': 'Hebrews 13:4; Proverbs 5:15–20; Malachi 2:15; Matthew 5:27–28',
+    'Marriage difficulties': '1 Corinthians 7:10–16; 1 Peter 3:1–7; Proverbs 21:9; Proverbs 19:13',
+    'Marital reconciliation': '1 Corinthians 7:10–11; Hosea 3:1–3; Matthew 5:23–24',
+    'Communication between spouses': 'Proverbs 15:1; Ephesians 4:29; James 1:19; Proverbs 31:26',
+    'Preparing for marriage': 'Genesis 24; Proverbs 18:22; 2 Corinthians 6:14; Proverbs 31:10–31',
+    'Choosing a spouse': 'Genesis 24:1–4; 2 Corinthians 6:14; Proverbs 31:30; Proverbs 18:22',
+    Singleness: '1 Corinthians 7:7–9; 1 Corinthians 7:32–35; Matthew 19:10–12',
+    Celibacy: '1 Corinthians 7:7–8; 1 Corinthians 7:32–38; Matthew 19:12',
+    'Raising children': 'Proverbs 22:6; Deuteronomy 6:6–9; Ephesians 6:4; Psalm 78:4–6',
+    'Parenting with love': 'Ephesians 6:4; Colossians 3:21; Psalm 103:13; Luke 15:20',
+    'Discipline in parenting': 'Proverbs 13:24; Proverbs 22:15; Hebrews 12:5–11; Proverbs 29:17',
+    'Honoring parents': 'Exodus 20:12; Ephesians 6:2–3; Proverbs 23:22; Mark 7:10–13',
+    'Obeying parents': 'Ephesians 6:1; Colossians 3:20; Proverbs 6:20–22; Luke 2:51',
+    'Responsibilities of fathers': 'Ephesians 6:4; Deuteronomy 6:6–7; Genesis 18:19; 1 Timothy 3:4–5',
+    'Responsibilities of mothers': 'Proverbs 31:26–28; Titus 2:3–5; 2 Timothy 1:5; Proverbs 1:8',
+    'Sibling relationships': 'Genesis 33; Genesis 45:1–15; Psalm 133',
+    'Family conflict': 'Genesis 37:1–11; Luke 15:25–32; Proverbs 15:18',
+    'Caring for elderly parents': '1 Timothy 5:3–4; 1 Timothy 5:8; Mark 7:9–13; John 19:26–27; Proverbs 23:22',
+    'Family prayer': 'Acts 10:2; Joshua 24:15; Job 1:5; Matthew 18:19–20',
+    'Teaching children Scripture': 'Deuteronomy 6:6–9; 2 Timothy 3:14–15; Psalm 78:5–7; Proverbs 22:6',
+    'Generational faithfulness': '2 Timothy 1:5; Psalm 78:4–7; Deuteronomy 4:9; Psalm 145:4',
+    'Family unity': 'Psalm 133; Colossians 3:12–15; Joshua 24:15; Ephesians 4:2–3',
+  },
+};

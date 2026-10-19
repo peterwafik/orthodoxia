@@ -1,0 +1,10 @@
+source: The Divine Liturgies of Saints Basil, Gregory and Cyril (Coptic, English and Arabic), Fr. Jacob Nadian, St. Bishoy Coptic Orthodox Church of Toronto, Stouffville, Ontario, Canada.
+source-ar: الثلاثة قداسات للقديسين باسيليوس واغريغوريوس وكيرلس (قبطي وإنجليزي وعربي)، الأب يعقوب نادين، كنيسة الأنبا بيشوي القبطية الأرثوذكسية بتورونتو، ستوفيل، أونتاريو، كندا.
+
+@priest
+en| Giver of Life, Who is of one essence with You. N ow and at all times and unto the ages of all ages. Amen.
+ar| الآن وكل أوان وإلى دهر الدهور كلها. آمين.
+
+@priest
+en| The graces of the beneficence of Your only - begotten Son, our Lord, Go d, and Savior Jesus Christ, are now fulfilled. We have confessed His saving Pass ion; we have . proclaimed His Death; we have believed in His Resurrection; and the Mystery is accomplished. We give thanks to You, O Lord God the Pantocrator, for Your mercy is great upon us, for You . have prepared for us those things which the angels desire to behold. We ask and entreat Your goodness, O Lover of Manki nd, that, since You have purified us all, You join us to Yourself through our partaking of Your divine Mysteries,
+ar| كمُلَتْ نعم إحسان ابنك الوحيد ربنا وإلهنا ومخلصنا يسوع المسيح. اعترفنا بآلامه المخلِّصة، بشَّرنا بموته، آمنا بقيامته وكمُل السر نشكرك أيها الرب الإله ضابط الكل لأن رحمتك عظيمة علينا إذ أعددت لنا ما تشتهى الملائكة أن تطَّلع عليه نسأل ونطلب من صلاحك يا مُحـب البشر إذ طهرتنا كلنا تؤلفنا بك من جهة تناولنا من أسرارك الإلهية.

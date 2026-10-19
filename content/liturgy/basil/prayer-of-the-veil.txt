@@ -1,0 +1,18 @@
+source: The Divine Liturgies of Saints Basil, Gregory and Cyril (Coptic, English and Arabic), Fr. Jacob Nadian, St. Bishoy Coptic Orthodox Church of Toronto, Stouffville, Ontario, Canada.
+source-ar: الثلاثة قداسات للقديسين باسيليوس واغريغوريوس وكيرلس (قبطي وإنجليزي وعربي)، الأب يعقوب نادين، كنيسة الأنبا بيشوي القبطية الأرثوذكسية بتورونتو، ستوفيل، أونتاريو، كندا.
+
+@rubric
+en| Liturgy of the Faithful The serving priest says the following Prayer of the Veil inaudibly as he stands before the veil of the sanctuary with his head bowed toward the East. The Prayer of the Veil
+ar| قداس المؤمنين يقول الكاهن الخديم نفسه صلاة الحجاب سراً وهو واقف مقابل حجاب المذبح مطامن الرأس إلى الشرق وهي هذه: صلاة الحجاب
+
+@priest
+en| O God, who in Your ineffable love toward man kind sent Your only - begotten Son into the world that He m ay return the lost sheep to You . We ask You, O our Master, turn us not back when we put our ha n ds on this awesome and bloodless sacrifice . For we put no trust in our righteousness, but in Your mercy, whereby You have given life to our race . We ask and entreat Your goodness, O Lover of Mankind, that this mystery which You ha v e administered to us for salvation may not be u nto condemnation to us or to any of Your people . But unt o the washing away of our sins and the forgiveness of our negligence, and unto the glory and honor of Your holy name, O Father and Son and Holy Spirit . Now and at all times and unto the ages of all ages. Amen.
+ar| يا الله الذي من أجل محبته للبشر التي لا ينطق بها، أرسلت ابنك الوحيد إلى العالم ليرد إليك الخروف الضال. نسألك يا سيدنا، لا تردنا إلى خلف إذ نضع أيدينا على هذه الذبيحة المخوفة غير الدموية. لأننا لا نتكل على برنا بل على رحمتك، هذه التي بها أحييت جنسنا. نسأل ونتضرع إلي صلاحك يا محب البشر، أن لا يكون هذا السر الذي دبرته لخلاصنا، دينونة لنا ولا لشعبك أجمع. ولكن محواً لخطايانا وغفراناً لتكاسلنا، ومجداً وإكراماً لإسمك القدوس أيها الآب والابن والروح القدس. الآن وكل أوان وإلى دهر الدهور كلها. آمين.
+
+@rubric
+en| Annual Response to the Gospel
+ar| مرد الإنجيل السنوي
+
+@priest
+en| Blessed are they in truth, the saints of this day, each one according to his name, the beloved of Christ. Intercede on our behalf, O our Lady, the Lady of us all, the Theotokos, Mary, the Mother of God, the Mother of our Savior, that He may forgive us our sins. Pray to the Lord on our behalf, O beholder of God the Evangelist, Abba Mark the Apostle, that He may forgive us our sins. Pray to the Lord on our behalf, O my masters and fathers, the lovers of their children, Abba Antony and Abba Paul, that He may forgive us our sins. Pray to the Lord on our behalf, O my masters and fathers, the lovers of their children, Abba Bishoy and Abba Paul, that He may forgive us our sins.
+ar| طوباهم بالحقيقة قديسو هذا اليوم، كل واحد بإسمه أحباء المسيح. إشفعى فينا يا سيدتنا، سيدتنا كلنا، السيدة والدة الإله مريم أم مخلصنا، ليغفر لنا خطايانا. أطلب من الرب عنا يا ناظر الإله الانجيلي مرقس الرسول، ليغفر لنا خطايانا. أطلبوا من الرب عنا يا سادتنا الآباء محبي أولادهما، أنبا أنطونيوس وأنبا بولا، ليغفر لنا خطايانا. أطلبوا من الرب عنا يا سادتنا الآباء محبي أولادهما، أنبا بيشوي وأنبا بولا، ليغفر لنا خطايانا.

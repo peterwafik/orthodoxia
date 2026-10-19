@@ -1,0 +1,106 @@
+source: The Divine Liturgies of Saints Basil, Gregory and Cyril (Coptic, English and Arabic), Fr. Jacob Nadian, St. Bishoy Coptic Orthodox Church of Toronto, Stouffville, Ontario, Canada.
+source-ar: الثلاثة قداسات للقديسين باسيليوس واغريغوريوس وكيرلس (قبطي وإنجليزي وعربي)، الأب يعقوب نادين، كنيسة الأنبا بيشوي القبطية الأرثوذكسية بتورونتو، ستوفيل، أونتاريو، كندا.
+
+@priest
+en| Graciously accord, O Lord, to remember all the saints who have pleased You since the beginning. Our holy fathers the patriarchs, the prophets, the apostles, the preachers, the evangelists, the martyrs, the confessors, and all the spirits of the righteous perfected in the faith. Most of all, the pure, full-of- glory, ever-virgin, holy Theotokos, Saint Mary. And Saint John the forerunner, Baptist, and martyr. Saint Stephen the archdeacon and protomartyr. The beholder-of-God Saint Mark the evangelist, the apostle and martyr. The patriarch Saint Severus; Saint Cyril; Saint Basil; Saint Gregory; our righteous father, the great Abba Anthony; the righteous Abba Paul; the three saints Abba Macarii Our father Abba John; our father Abba Pishoy, our Roman fathers Saints Maximus and Dometius; the Forty-nine Martyrs; the strong saint Abba Moses. Our father Abba Pachom, the father of the Koinonia, our father Abba Shenoute the archimandrite, our father Abba Nopher the anchorite, and our father Abba Samuel the confessor. And all the choir of Your saints, through whose prayers and supplications have mercy on us all and save us, for the sake of Your holy name, which is called upon us.
+ar| تفضل يا رب، أن تذكر جميع القديسين الذين أرضوك منذ البدء. آباءنا القديسين رؤساء الآباء والأنبياء، والرسل والمبشرين والإنجيليين، والشهداء والمعترفين، وكل أرواح الصديقين، الذين كملوا في الايمان. وبالأكثر القديسة المملوءة مجداً، العذراء كل حين والدة الإله القديسة الطاهرة مريم. والقديس يوحنا السابق الصابغ والشهيد، والقديس استفانوس رئيس الشمامسة وأول الشهداء. وناظر الإله الإنجيلى مرقس الرسول الطاهر والشهيد. والبطريرك القديس ساويرس، والقديس كيرلس، والقديس باسيليوس، والقديس اغريغوريوس وأبانا الصديق العظيم أنبا أنطونيوس، والبار أنبا بولا، والثلاثة أنبا مقارات القديسين. ز وأبانا أنبا يؤأنس، وأبانا أنبا بيشوي، وأبوينا القديسين الروميين مكسيموس ودوماديوس، والتسعة والأربعين شهيدا، والقوي أنبا موسىً. وأبانا أنبا باخوم أب الشركة، وأبانا أنبا شنودة رئيس المتوحدين، وابانا أنبا نفر السائح، وأبانا أنبا صموئيل المعترف. وكل مصاف قديسيك، هؤلاء الذين بسؤالاتهم وطلباتهم، ارحمنا كلنا معا. وانقذنا من أجل اسمك القدوس الذي دعي علينا.
+
+@deacon
+en| Let those who read, recite the names of our holy fathers, the patriarchs who have fallen asleep: O Lord, repose their souls and forgive us our sins.
+ar| القارئون فليقولوا أسماء آبائنا البطاركة القديسين الذين رقدوا. الرب ينيح نفوسهم أجمعين، ويغفر لنا خطايانا.
+
+@rubric
+en| The priest say the following commemoration of the departed inaudibly.
+ar| يقول الكاهن هذا الترحيم سرا.
+
+@priest
+en| Remember also, O Lord, our fathers and brethren who have fallen asleep in the Orthodox faith. Repose them all with Your saints, together with those whose names we mention.
+ar| اذكر أيضاً يا رب آبائنا وإخوتنا الذين سبق رقادهم في الإيمان الأرثوذكسي، نيحهم جميعهم مع قديسيك، مع هؤلاء الذين نذكر أسماءهم.
+
+@rubric
+en| If it is the time when a patriarch, a metropolitan or a bishop has fallen asleep, the following prayer is said. This prayer also replaces the Litany for the Fathers.
+ar| وفي زمان نياحة البطريرك أو المطران أو الأسقف، تقال هذه في الترحيم (كما تقال أيضاً عوض أوشية الآباء):
+
+@priest
+en| Remember, O Lord, the soul of our father the patriarch (metropolitan/ bishop) Abba (...). Deacon : Pray for the soul of our blessed father Abba (…) that the Lord God may repose his it in the bosom of our holy fathers, Abraham, Isaac and Jacob in the paradise of joy, and forgive us our sins.
+ar| اذكر يا رب نفس أبينا البطريرك (المطران / الأسقف) أنبا (...). اطلبوا عن نفس أبينا الطوباوى المكرم أنبا ،)...( لكى ينيحها الرب الإله في حضن أبائنا القديسين إبراهيم واسحق ويعقوب في فردوس النعيم، ويغفر لنا خطايانا.
+
+@people
+en| Lord have mercy.
+ar| يا ربُ إرحم.
+
+@priest
+en| Graciously accord O Lord, repose it with your saints. Grant to appoint for us a good shepherd to shepherd Your people in purity and righteousness.
+ar| تفضل يا رب نيحها مع قديسيك. أنعم بأن تقيم لنا راعياً صالحاً ليرعي شعبك بالطهارة والعدل.
+
+@rubric
+en| If this prayer is said instead of the Litany for the Fathers, the priest continues with “and all the orthodox bishops, hegumens, priests…” The priest may say the following commemoration of the departed from the Liturgy of St. Cyril in its known tune in the liturgy for the departed.
+ar| وإذا قيلت عوض أوشية الآباء، يكمل الكاهن الصلاة من هذه الأوشية كما يلي: "وجميع الاساقفة الارثوذكسيين، والقمامصة والقـسوس"... يقول الكاهن هذا الترحيم من قداس القديس كيرلس باللحن في يوم الترحيم والقداس للراقدين.
+
+@priest
+en| Those, O Lord, and everyone whose names we have mentioned; and those we have not mentioned. Those whom each one of us has in mind and those who are not in mind. Those who have fallen asleep and reposed in the faith of Christ.
+ar| وهؤلاء وكل أحد، يا رب، الذين ذكرنا أسماءهم، والذين لم نذكرهم الذين في فكر كل واحد منا، والذين ليسوا فينا. الذين رقدوا وتنيحوا في الايمان بالمسيح.
+
+@rubric
+en| The priest mentions the name(s) of the departed and, with his hand covered with a veil, puts a spoonful of incense in the censer.
+ar| هنا يذكر الكاهن اسم المتنيح ويضع يد بخور في المجمرة ويده مستورة بلفافة.
+
+@priest
+en| Then the deacon says : Pray for our fathers and brethren who have fallen asleep and reposed in the faith of Christ since the beginning. Our holy fathers, the archbishops, our fathers the bishops, our fathers the hegumens, our fathers the priests, our brothers the deacons, our fathers the monks, and our fathers the laymen, and for the full repose of all Christians. That Christ our God may repose all their souls in the paradise of joy, and we too, accord mercy unto us, and forgive us our sins.
+ar| ثم يقول الشماس: اطلبوا عن آبائنا وإخوتنا الذين رقدوا، وتنيحوا في الإيمان بالمسيح منذ البدء. آبائنا القديسين رؤساء الأساقفة، وآبائنا الأساقفة، وآبائنا القمامصة، وآبائنا القسوس وإخوتنا الشمامسة، وآبائنا الرهبان، وآبائنا العلمانيين، وعن نياح كل المسيحيين. لكي المسيح إلهنا ينيح نفوسهم أجمعين في فردوس النعيم، ونحن أيضاً يصنع معنا رحمةً، ويغفر لنا خطايانا.
+
+@people
+en| Lord have mercy.
+ar| يا ربُ إرحم.
+
+@rubric
+en| The n the priest say s the following commemoration of the departed.
+ar| ثم يقول الكاهن هذا الترحيم.
+
+@people
+en| Graciously, O Lord, repose all their souls in the bosom of our Holy fathers, Abraham, Isaac and Jacob. Sustain them in a green pasture, by the water of rest in the paradise of joy. The place out of which grief, sorrow and groaning have fled away, in the light of Your saints.
+ar| تفضل يا رب نيح نفوسهم أجمعين في حضن آبائنا القديسين، ابراهيم وإسحق ويعقوب. عُلهُم في موضعِ خضرة، علي ماءِ الراحةِ في فردوسِ النعيمِ. الموضع الذي هرب منه الحزنُ والكآبةُ والتنهدُ في نوِر قديسيك.
+
+@rubric
+en| The deacon can say the following:
+ar| وممكن للشماس أن يقول الآتي:
+
+@deacon
+en| The great Abba Anthony, and the righteous Abba Paul, the three saints Abba Macarii, Abba John the short, Abba Pishoy, Abba Paul, our holy Roman fathers Maximus and Dometius, Abba Moses, Abba John Kame, Abba Daniel, Abba Isidore, Abba Pachom, Abba Shenoute and Abba Paphnoute, Abba Parsoma, Abba Teji. And all those who have rightly taught the word of truth: the Orthodox bishops, priests, deacons, clergy, laity, and all the Orthodox people. Amen.
+ar| الشماس: العظيم أنبا أنطونيوس، والبار أنبا بولا، والقديسون الثلاثة مقارات، أنبا يؤنس القصير، أنبا بيشوي، أنبا بولا، أبوانا القديسان الروميان مكسيموس ودوماديوس، أنبا موسى، أنبا يؤانس كاما، أنبا دانيال، أنبا ايسيذوروس، أنبا باخوم، أنبا شنودة، وأنبا بفنوتى، أنبا برسوم، أنبا رويس. وجميع الذين علموا كلمة الحق باستقامة، الأساقفة الارثوذكسيين والقسوس والإكليروس والعلمانيون. هؤلاء وجميع الارثوذكسيين. آمين.
+
+@people
+en| May their Holy blessings be with us. Amen. Glory to You, O Lord. Lord have mercy. Lord have mercy. Lord, bless us. Lord, repose them. Amen.
+ar| بركتهم المقدسة تكون معنا. آمين. المجد لك يا رب، يا رب لك المجد. يا رب ارحم. يا رب ارحم. يا رب باركنا. يا رب نيحهم. آمين.
+
+@rubric
+en| After the commomeration of the departed, the priest, with his hands extended on high, continues saying:
+ar| وبعد الترحيم، يقول الكاهن ما يلي، ويداه مبسوطتان إلي العلو:
+
+@priest
+en| Remember, O Lord, the others; those of the faithful whom we have remembered and those of the orthodox whom we have not remembered; All of them and us O Lord; as a Good One and Lover of Mankind.
+ar| أذكر يا رب الآخرين الذين ذكرناهم المؤمنين، وأيضاً الذين لم نذكرهم الأرثوذوكسيين. هؤلاء ونحن معهم، يا الله كصالح ومحب للبشر.
+
+@people
+en| Loose, remit, and forgive us, O God, our iniquities which we have committed willingly and which we have committed unwillingly, which we have committed knowingly, and which we have committed unknowingly; the hidden and the manifest, O Lord, remit for us.
+ar| حل و أغفر وإصفح لنا يا الله عن ذلاتنا، التي صنعناها بإرادتنا والتي صنعناها بغير إرادتنا. والتي فعلناها بمعرفة والتي فعلناها بغير بمعرفة. الخفيات والظاهرات، يا رب اغفرها لنا.
+
+@priest
+en| For You are God the Merciful, who desire not the death of a sinner, but rather that he returns and lives. Restore us, O God, to Your salvation. Deal with us according to Your goodness, O You who do more than we ask or understand.
+ar| لأنك أنت هو الله الرحوم الذي لا يشاء موت الخاطئ مثل ما يرجع ويحيا. ردَّنا يا الله إلي خلاصك، وأصنع معنا كصلاحك، يا من يصنع أكثر مما نسأل أو نفهم.
+
+@people
+en| As it was and shall be, it is from generations to generations, and unto all the ages of the ages. Amen.
+ar| كما كان فهو كائن وهكذا يكون إلي أجيال الأجيال، وإلي سائر دهور الدهور. آمين.
+
+@rubric
+en| Or they say the following response from the Liturgy of St. Basil:
+ar| أو يقولوا المرد التالي من القداس الباسيلي:
+
+@people
+en| As it was so shall be, it is from generation to g eneration, and unto all the ages of the ages. Amen.
+ar| كما كان وهكذا يكون، من جيل إلي جيل، وإلي دهر الدهور. آمين.
+
+@priest
+en| That as in this, so also in all things, Your Great and holy name be glorified, blessed and exalted in everything, honored and blessed with Jesus Christ, Your beloved Son, and the Holy Spirit. Peace be with You all.
+ar| كي وبهذا، كما أيضا في كل شئ، يتمجد ويتبارك، ويرتفع اسمك العظيم القدوس، في كل شئ، كريم ومبارك، مع يسوع المسيح ابنك الحبيب والروح القدس. السلام للكل.

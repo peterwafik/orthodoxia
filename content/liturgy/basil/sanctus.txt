@@ -1,0 +1,81 @@
+source: The Divine Liturgies of Saints Basil, Gregory and Cyril (Coptic, English and Arabic), Fr. Jacob Nadian, St. Bishoy Coptic Orthodox Church of Toronto, Stouffville, Ontario, Canada.
+source-ar: الثلاثة قداسات للقديسين باسيليوس واغريغوريوس وكيرلس (قبطي وإنجليزي وعربي)، الأب يعقوب نادين، كنيسة الأنبا بيشوي القبطية الأرثوذكسية بتورونتو، ستوفيل، أونتاريو، كندا.
+
+@priest
+en| “ Holy, holy, holy, Lord of hosts. Heaven and earth are full of Your holy glory.”
+ar| قدوس. قدوس. قدوس. رب الصاباؤت. السماء والأرض مملوءتان من مجدك الاقدس.
+
+@rubric
+en| The people may chant the appropriate Aspasmos Watos hymn for annual days (or another Aspasmos according to the feast and season of the year).
+ar| أو يقول الشعب هذا الاسبسمس الواطس السنوي (أو غيره من الاسبسمسات الموافقة للعيد أو الموسم).
+
+@priest
+en| O Lord, God of hosts, return and behold from heaven, and look and visit this vine, restore and establish her, this which Your right hand has planted. Alleluia. Alleluia . Alleluia. ( Bless the seeds and the herbs. ) * May Your mercy and peace be a fortress to Your Peopl e. Holy. Holy . Holy . Lord of h osts, heaven and earth are full of Your holy glory.
+ar| ايها الرب إله القوات، إرجع واطلع من السماء، انظر وتعهد هذه الكرمة، أصلحها و ثبتها، هذه التي غرستها يمينك. هلليلويا، هلليلويا، هلليلويا، (بارك الزروع والعشب)*، فلتكن رحمتك وسلامك حصناً لشعبك. قدوس. قدوس. قدوس. رب الصاباؤوت. السماء والأرض مملوءتان من مجدك الاقدس.
+
+@rubric
+en| * During the times identified below, the following prayers are said instead of the one between the parentheses above.
+ar| * تقال الجمل الآتية في الأوقات المبينة بعد في مكان الجملة التي بين القوسين أعلاه.
+
+@priest
+en| 19 9 12
+ar| من بؤونة إلي بابة ( يونية إلي
+
+@rubric
+en| From Paoni 12 to Paapi 9 (June 19 to October 19/20):
+
+@priest
+en| 20 19 Bless the waters of the river.
+ar| / أكتوبر). بارك مياه النهر.
+
+@rubric
+en| From Paapi 10 to Tobi 10 (October 20/21 to January 21 20 10 10 18/19): 19 18
+ar| ومن بابة إلي طوبة ( / أكتوبر إلي / يناير).
+
+@priest
+en| Bless the seeds and the herbs.
+ar| بارك الزروع والعشب.
+
+@rubric
+en| From Tobi 11 to Paoni 11 (January 19/20 to June 18): 20 19 11 11
+ar| ومن طوبة إلي بؤونة ( / يناير
+
+@priest
+en| 18 Bless the air of heaven.
+ar| إلي يونية). بارك أهوية السماء.
+
+@rubric
+en| The priest takes in his right hand the veil that is upon the chalice, and with it makes the sign of the cross three times; firstly, upon himself, his face being turned toward the East, then upon the deacons on his right hand, and lastly towards the west, upon the people, saying “Holy ” each time:
+ar| ثم يأخذ الكاهن اللفافة الموضوعة علي الكأس بيده اليمني ويرشم بها ثلاثة رشوم، الأول علي ذاته وهو متجه إلي الشرق. والثاني علي الخدام عن يمينه. والثالث علي الشعب إلي الغرب. وكل رشم يقول "أجيوس ."
+
+@priest
+en| Holy, holy, holy, indeed, O Lord our God. Who formed us, created us, and placed us in the paradise of joy When we disobeyed Your commandment by the deception of the serpent, we fell from eternal life and were exiled from the paradise of joy. You have not abandoned us to the end, but have always visited us through Your holy prophets. And in the last days You manifested Yourself to us, who were sitting in darkness and the shadow of death. Through Your only-begotten Son, our Lord, God, and Savior Jesus Christ, who, of the Holy Spirit and of the holy Virgin Mary.
+ar| قدوس، قدوس، قدوس، بالحقيقة أيها الرب إلهنا. الذي جبلنا وخلقنا ووضعنا في فردوس النعيم. وعندما خالفنا وصيتك بغواية الحية، سقطنا من الحياة الأبدية، ونفينا من فردوس النعيم. لم تتركنا عنك أيضا إلي الانقضاء، بل تعهدتنا دائما بأنبيائك القديسين. وفي آخر الايام ظهرت لنا، نحن الجلوس في الظلمة وظلال الموت. بابنك الوحيد ربنا وإلهنا ومخلصنا يسوع المسيح. هذا الذى من الروح القدس ومن العذراء القديسة مريم.
+
+@people
+en| Amen.
+ar| آمين.
+
+@rubric
+en| The deacon present s the censer to the priest, who p u ts a spo onful of incense into it.
+ar| يقدم الشماس المجمرة إلي الكاهن فيضع فيها يد بخور.
+
+@priest
+en| Was incarnate and becam e man, and taught us the ways of salvation. He granted us the birth from on high through water and Spirit. He made us unto Himself a n assembled people , and sanctified us by Your Holy Spirit. He loved His own who are in the world, and gave Himself up for our salvation unto death, which reigned over us, whereby we were bound and sold on account of our sins. He descended into Hades through the Cross.
+ar| تجسد وتأنس وعلمنا طرق الخلاص. وأنعم لنا بالميلاد الذى من فوق بواسطة الماء والروح. وجعلنا له شعباً مجتمعا، وصيرناً أطهاراً بروحك القدوس. هذا الذي أحب خاصته الذين في العالم، وسلم ذاته فداءً عنا، إلي الموت الذي تملك علينا، هذا الذى كنا ممسكين به، مبيعين من قبل خطايانا. نزل إلي الجحيم من قبل الصليب.
+
+@people
+en| Amen. I believe.
+ar| حقا أؤمن.
+
+@priest
+en| He rose from the dead on the third day. He ascended into the heavens and sat at Your right hand, O Father. He has appointed a Day for recompense, on which He will appear to judge the world in righteousness, and give each one according to his deeds.
+ar| وقام من الأموات في اليوم الثالث. وصعد إلي السموات، وجلس عن يمينك أيها الآب. ورسم يوما للمجازاة، هذا الذي يظهر فيه ليدين المسكونة بالعدل، ويعطى كل واحد حسب أعماله.
+
+@people
+en| According to Your mercy, O Lord, and not according to our sins.
+ar| كرحمتك يا رب، وليس كخطايانا.
+
+@rubric
+en| The priest censes his hands three times and then censes the bread, followed by the wine, with his hands, while saying:
+ar| يبخر الكاهن يديه علي المجمرة ثلاث مرات ثم يبخر بيديه إلي القربانة ثم إلي الخمر وهو يقول:

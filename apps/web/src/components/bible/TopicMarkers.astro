@@ -1,0 +1,728 @@
+---
+/**
+ * Optional colour markers for a chapter: a floating button that opens a panel of topics (families and
+ * their subtopics, loaded the first time the panel opens). Ticking a topic colours the verses of this
+ * chapter that belong to it. Ticking a family selects all its subtopics; unticking it puts back what was
+ * ticked before. The verses come from one small file per book (`/topics/marks/<BOOK>.json`), loaded when
+ * they are first needed. `chapterKey` is the chapter's number in the Hebrew/KJV numbering the topics use;
+ * `lenient` is true where the verse numbers may not line up (Septuagint psalms), so whole chapters are marked.
+ * The choice is remembered in the browser. Nothing is shown without JavaScript.
+ */
+import { t, type Locale } from '../../i18n/index.ts';
+
+interface Props {
+  locale: Locale;
+  book: string;
+  chapterKey: number | null;
+  lenient: boolean;
+}
+
+const { locale, book, chapterKey, lenient } = Astro.props;
+const ui = t(locale).topics;
+const strings = {
+  none: ui.none,
+  nothingHere: ui.nothingHere,
+  noMatch: ui.noMatch,
+  loading: ui.loading,
+  failed: ui.failed,
+  expand: ui.expand,
+  collapse: ui.collapse,
+  remove: ui.remove,
+  noPassages: ui.noPassages,
+  shortList: ui.shortList,
+  familyHint: ui.familyHint,
+  verses: ui.verses(2).replace('2', '{n}'),
+  verseOne: ui.verses(1),
+};
+const config = { book, chapterKey, lenient };
+---
+
+<div class="tm-root" data-topics data-locale={locale} hidden>
+  <button type="button" class="tm-fab" data-topics-open aria-expanded="false" aria-controls="tm-panel" title={ui.button}>
+    <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true">
+      <path d="M12 3a9 9 0 1 0 0 18c1.2 0 1.8-.8 1.8-1.7 0-.5-.2-.9-.5-1.3-.3-.4-.5-.8-.5-1.3 0-.9.7-1.7 1.7-1.7H17a4 4 0 0 0 4-4C21 6.5 17 3 12 3Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"></path>
+      <circle cx="7.5" cy="11.5" r="1.3" fill="currentColor"></circle>
+      <circle cx="10.5" cy="7.5" r="1.3" fill="currentColor"></circle>
+      <circle cx="15" cy="7.5" r="1.3" fill="currentColor"></circle>
+    </svg>
+    <span class="tm-fab-label">{ui.button}</span>
+    <span class="tm-fab-count" data-topics-count hidden></span>
+  </button>
+
+  <section class="tm-panel" id="tm-panel" role="dialog" aria-label={ui.title} hidden>
+    <header class="tm-head">
+      <h2>{ui.title}</h2>
+      <button type="button" class="tm-close" data-topics-close aria-label={ui.close} title={ui.close}>
+        <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path></svg>
+      </button>
+    </header>
+    <p class="tm-intro">{ui.intro}</p>
+    <div class="tm-tools">
+      <input type="search" class="tm-search" data-topics-search placeholder={ui.search} aria-label={ui.search} autocomplete="off" />
+      <label class="tm-only"><input type="checkbox" data-topics-only /> <span>{ui.onlyHere}</span></label>
+    </div>
+    <div class="tm-selected" data-topics-selected></div>
+    <div class="tm-list" data-topics-list></div>
+    <p class="tm-source">{ui.sourceNote}</p>
+  </section>
+
+  <script type="application/json" data-topics-config set:html={JSON.stringify(config)} />
+  <script type="application/json" data-topics-strings set:html={JSON.stringify(strings)} />
+</div>
+
+<script>
+  import { familyColor } from '../../lib/topics/color.ts';
+  import { countUnits, isSome, toggleTopic as applyToggle, type Selection } from '../../lib/topics/selection.ts';
+
+  interface Topic { id: string; name: string; h: 0 | 1; o: string }
+  interface Family { id: string; name: string; color: string; h: 0 | 1; topics: Topic[] }
+  type Marks = Record<string, [number, number | null][]>;
+
+  const root = document.querySelector<HTMLElement>('[data-topics]');
+  if (root !== null) {
+    const locale = root.dataset.locale ?? 'en';
+    const config = JSON.parse(root.querySelector('[data-topics-config]')!.textContent ?? '{}') as { book: string; chapterKey: number | null; lenient: boolean };
+    const text = JSON.parse(root.querySelector('[data-topics-strings]')!.textContent ?? '{}') as Record<string, string>;
+    const open = root.querySelector<HTMLButtonElement>('[data-topics-open]')!;
+    const close = root.querySelector<HTMLButtonElement>('[data-topics-close]')!;
+    const panel = root.querySelector<HTMLElement>('.tm-panel')!;
+    const list = root.querySelector<HTMLElement>('[data-topics-list]')!;
+    const selectedBox = root.querySelector<HTMLElement>('[data-topics-selected]')!;
+    const search = root.querySelector<HTMLInputElement>('[data-topics-search]')!;
+    const only = root.querySelector<HTMLInputElement>('[data-topics-only]')!;
+    const count = root.querySelector<HTMLElement>('[data-topics-count]')!;
+
+    const KEY = 'orthodoxia:topics';
+    const BEFORE_KEY = 'orthodoxia:topics:before';
+    /** What is ticked. A family id is in the set while the family is ticked as a whole. */
+    const selected = new Set<string>();
+    /** For a family ticked as a whole: the subtopics that were ticked before, to put back when it is unticked. */
+    const before = new Map<string, string[]>();
+    const selection: Selection = { selected, before };
+    const expanded = new Set<string>();
+    let families: Family[] | null = null;
+    let names = new Map<string, string>();
+    let familyOf = new Map<string, Family>();
+    let loadingNames: Promise<void> | null = null;
+    let chapterMarks: Marks | null = null;
+    let loadingMarks: Promise<void> | null = null;
+    let here = new Map<string, number[]>();
+
+    const validId = (id: unknown): id is string => typeof id === 'string' && /^\d+(\.\d+)?$/.test(id);
+    try {
+      const saved = JSON.parse(localStorage.getItem(KEY) ?? '[]') as unknown;
+      if (Array.isArray(saved)) for (const id of saved) if (validId(id)) selected.add(id);
+      const savedBefore = JSON.parse(localStorage.getItem(BEFORE_KEY) ?? '{}') as Record<string, unknown>;
+      for (const [id, subs] of Object.entries(savedBefore)) if (validId(id) && Array.isArray(subs)) before.set(id, subs.filter(validId));
+    } catch {
+      /* private window or blocked storage: the choice just is not remembered */
+    }
+    const save = () => {
+      try {
+        localStorage.setItem(KEY, JSON.stringify([...selected]));
+        localStorage.setItem(BEFORE_KEY, JSON.stringify(Object.fromEntries(before)));
+      } catch {
+        /* ignore */
+      }
+    };
+
+    const colorOf = (id: string): string => familyColor(Number(id.split('.')[0]) - 1);
+    const verseNumbers = [...document.querySelectorAll<HTMLElement>('.chapter-text [id^="v"]')]
+      .map((el) => /^v(\d+)$/.exec(el.id))
+      .flatMap((match) => (match === null ? [] : [Number(match[1])]));
+    const versesOf = (spans: Marks[string]): number[] =>
+      config.lenient ? verseNumbers : verseNumbers.filter((n) => spans.some(([first, last]) => n >= first && (last === null || n <= last)));
+    const hereCount = (id: string): number => here.get(id)?.length ?? 0;
+    const label = (n: number): string => (n === 1 ? text.verseOne! : text.verses!.replace('{n}', String(n)));
+
+    /** Colours the verses of the chapter for every ticked topic that has passages here. */
+    const apply = () => {
+      for (const el of document.querySelectorAll<HTMLElement>('.chapter-text .tm')) {
+        el.classList.remove('tm');
+        for (const property of ['background-image', 'background-size', 'background-repeat', 'background-position', 'background-color']) el.style.removeProperty(property);
+      }
+      const colors = new Map<number, string[]>();
+      for (const id of selected) {
+        for (const n of here.get(id) ?? []) {
+          const colorList = colors.get(n) ?? [];
+          const color = colorOf(id);
+          if (!colorList.includes(color)) colorList.push(color);
+          colors.set(n, colorList);
+        }
+      }
+      for (const [n, colorList] of colors) {
+        const el = document.getElementById(`v${n}`);
+        if (el === null) continue;
+        const stripes = colorList.slice(0, 4);
+        el.classList.add('tm');
+        el.style.backgroundImage = stripes.map((c) => `linear-gradient(${c},${c})`).join(',');
+        el.style.backgroundSize = '100% 3px';
+        el.style.backgroundRepeat = 'no-repeat';
+        el.style.backgroundPosition = stripes.map((_, i) => `0 calc(100% - ${i * 4}px)`).join(',');
+        el.style.backgroundColor = `color-mix(in srgb, ${stripes[0]} 15%, transparent)`;
+      }
+    };
+
+    /** The verses of this chapter, from the book's file. */
+    const ensureMarks = (): Promise<void> => {
+      if (loadingMarks !== null) return loadingMarks;
+      loadingMarks = fetch(`/topics/marks/${config.book}.json`)
+        .then((response) => {
+          if (!response.ok) throw new Error(String(response.status));
+          return response.json() as Promise<Record<string, Marks>>;
+        })
+        .then((book) => {
+          chapterMarks = config.chapterKey === null ? {} : (book[String(config.chapterKey)] ?? {});
+          here = new Map(Object.entries(chapterMarks).map(([id, spans]) => [id, versesOf(spans)] as const));
+          apply();
+          if (families !== null) {
+            renderSelected();
+            renderList();
+          }
+        })
+        .catch(() => {
+          loadingMarks = null;
+        });
+      return loadingMarks;
+    };
+
+    const enabledSubs = (family: Family): string[] => family.topics.filter((topic) => topic.h === 1).map((topic) => topic.id);
+    const subsOf = (familyId: string): string[] => {
+      const family = familyOf.get(familyId);
+      return family === undefined ? [] : enabledSubs(family);
+    };
+
+    const updateCount = () => {
+      const units = countUnits(selection);
+      count.textContent = String(units);
+      count.hidden = units === 0;
+    };
+
+    const renderSelected = () => {
+      selectedBox.replaceChildren();
+      const chip = (id: string) => {
+        const button = document.createElement('button');
+        button.type = 'button';
+        button.className = 'tm-chip';
+        if (chapterMarks !== null && hereCount(id) === 0) button.classList.add('tm-chip-off');
+        button.title = text.remove!;
+        button.dataset.remove = id;
+        const dot = document.createElement('span');
+        dot.className = 'tm-dot';
+        dot.style.background = colorOf(id);
+        const name = document.createElement('span');
+        name.textContent = names.get(id) ?? id;
+        const x = document.createElement('span');
+        x.className = 'tm-x';
+        x.textContent = '×';
+        x.setAttribute('aria-hidden', '1');
+        button.append(dot, name, x);
+        selectedBox.append(button);
+      };
+      for (const id of selected) {
+        if (!id.includes('.')) chip(id);
+        else if (!selected.has(id.split('.')[0]!)) chip(id);
+      }
+    };
+
+    const row = (id: string, name: string, level: 0 | 1, hasPassages: boolean, origin = ''): HTMLElement => {
+      const wrap = document.createElement('div');
+      wrap.className = level === 0 ? 'tm-row tm-family' : 'tm-row tm-topic';
+      const labelEl = document.createElement('label');
+      labelEl.className = 'tm-label';
+      const box = document.createElement('input');
+      box.type = 'checkbox';
+      box.dataset.topic = id;
+      box.checked = selected.has(id);
+      if (!hasPassages) {
+        box.disabled = true;
+        labelEl.classList.add('tm-grey');
+        labelEl.title = text.noPassages!;
+      } else if (level === 0) {
+        labelEl.title = text.familyHint!;
+      } else if (!origin.includes('n')) {
+        labelEl.classList.add('tm-short');
+        labelEl.title = text.shortList!;
+      }
+      const dot = document.createElement('span');
+      dot.className = 'tm-dot';
+      dot.style.background = colorOf(id);
+      const nameEl = document.createElement('span');
+      nameEl.className = 'tm-name';
+      nameEl.textContent = name;
+      labelEl.append(box, dot, nameEl);
+      const n = hereCount(id);
+      if (n > 0) {
+        const badge = document.createElement('span');
+        badge.className = 'tm-badge';
+        badge.textContent = label(n);
+        labelEl.append(badge);
+        wrap.classList.add('tm-has');
+      }
+      wrap.append(labelEl);
+      return wrap;
+    };
+
+    /** Ticks, un-ticks and "some of them" for every box on screen, from the state. */
+    const syncBoxes = () => {
+      for (const box of list.querySelectorAll<HTMLInputElement>('input[data-topic]')) {
+        const id = box.dataset.topic!;
+        box.checked = selected.has(id);
+        if (!id.includes('.')) {
+          box.indeterminate = isSome(selection, id, subsOf);
+        }
+      }
+    };
+
+    const renderList = () => {
+      if (families === null) return;
+      const query = search.value.trim().toLowerCase();
+      const onlyHere = only.checked;
+      const fragment = document.createDocumentFragment();
+      let shown = 0;
+      for (const family of families) {
+        const familyHit = query === '' || family.name.toLowerCase().includes(query);
+        const topics = family.topics.filter(
+          (topic) => (query === '' || topic.name.toLowerCase().includes(query)) && (!onlyHere || hereCount(topic.id) > 0),
+        );
+        const visibleFamily = (familyHit || topics.length > 0) && (!onlyHere || hereCount(family.id) > 0 || topics.length > 0);
+        if (!visibleFamily) continue;
+        shown += 1;
+        const block = document.createElement('div');
+        block.className = 'tm-block';
+        const head = row(family.id, family.name, 0, family.h === 1);
+        const isOpen = query !== '' ? topics.length > 0 : expanded.has(family.id);
+        const toggle = document.createElement('button');
+        toggle.type = 'button';
+        toggle.className = 'tm-toggle';
+        toggle.dataset.expand = family.id;
+        toggle.setAttribute('aria-expanded', String(isOpen));
+        toggle.title = isOpen ? text.collapse! : text.expand!;
+        toggle.setAttribute('aria-label', toggle.title);
+        const total = document.createElement('span');
+        total.className = 'tm-total';
+        total.textContent = String(family.topics.length);
+        const chevron = document.createElement('span');
+        chevron.className = 'tm-chevron';
+        chevron.setAttribute('aria-hidden', '1');
+        toggle.append(total, chevron);
+        head.append(toggle);
+        block.append(head);
+        if (isOpen) {
+          const sub = document.createElement('div');
+          sub.className = 'tm-sub';
+          for (const topic of topics) sub.append(row(topic.id, topic.name, 1, topic.h === 1, topic.o));
+          block.append(sub);
+        }
+        fragment.append(block);
+      }
+      list.replaceChildren(fragment);
+      if (shown === 0) {
+        const empty = document.createElement('p');
+        empty.className = 'tm-empty';
+        empty.textContent = onlyHere && query === '' ? text.nothingHere! : text.noMatch!;
+        list.append(empty);
+      }
+      syncBoxes();
+    };
+
+    const loadNames = (): Promise<void> => {
+      if (loadingNames !== null) return loadingNames;
+      list.textContent = text.loading!;
+      loadingNames = fetch(`/${locale}/topics.json`)
+        .then((response) => {
+          if (!response.ok) throw new Error(String(response.status));
+          return response.json() as Promise<{ families: Family[] }>;
+        })
+        .then((data) => {
+          families = data.families;
+          familyOf = new Map(families.map((family) => [family.id, family] as const));
+          names = new Map(families.flatMap((family) => [[family.id, family.name] as const, ...family.topics.map((topic) => [topic.id, topic.name] as const)]));
+          if (chapterMarks !== null) for (const family of families) if (hereCount(family.id) > 0 && selected.size === 0) expanded.add(family.id);
+          renderSelected();
+          renderList();
+        })
+        .catch(() => {
+          loadingNames = null;
+          list.textContent = text.failed!;
+        });
+      return loadingNames;
+    };
+
+    const setOpen = (value: boolean) => {
+      panel.hidden = !value;
+      open.setAttribute('aria-expanded', String(value));
+      if (value) {
+        void ensureMarks();
+        void loadNames().then(() => search.focus({ preventScroll: true }));
+      } else {
+        open.focus({ preventScroll: true });
+      }
+    };
+
+    const changed = () => {
+      save();
+      apply();
+      updateCount();
+      renderSelected();
+      syncBoxes();
+    };
+
+    /** Ticks or unticks one topic (a family takes all its subtopics with it, and gives back what was ticked before). */
+    const toggleTopic = (id: string, on: boolean) => {
+      applyToggle(selection, id, on, subsOf);
+      changed();
+    };
+
+    open.addEventListener('click', () => setOpen(panel.hidden === true));
+    close.addEventListener('click', () => setOpen(false));
+    document.addEventListener('keydown', (event) => {
+      if (event.key === 'Escape' && !panel.hidden) setOpen(false);
+    });
+    search.addEventListener('input', renderList);
+    only.addEventListener('change', renderList);
+    list.addEventListener('change', (event) => {
+      const box = event.target as HTMLInputElement;
+      if (box.dataset.topic !== undefined) toggleTopic(box.dataset.topic, box.checked);
+    });
+    list.addEventListener('click', (event) => {
+      const toggle = (event.target as HTMLElement).closest<HTMLElement>('[data-expand]');
+      if (toggle === null) return;
+      const id = toggle.dataset.expand!;
+      if (expanded.has(id)) expanded.delete(id);
+      else expanded.add(id);
+      search.value = '';
+      renderList();
+    });
+    selectedBox.addEventListener('click', (event) => {
+      const chip = (event.target as HTMLElement).closest<HTMLElement>('[data-remove]');
+      if (chip !== null) toggleTopic(chip.dataset.remove!, false);
+    });
+
+    root.hidden = false;
+    updateCount();
+    if (selected.size > 0) {
+      // the choice was remembered: colour this chapter, and learn the families (to untick them properly)
+      void ensureMarks();
+      void loadNames();
+    }
+  }
+</script>
+
+<style is:global>
+  .tm-root {
+    position: fixed;
+    inset-inline-end: 1rem;
+    inset-block-end: 1rem;
+    z-index: 30;
+  }
+
+  .tm-fab {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    min-block-size: 48px;
+    padding: 0 1rem;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    background: var(--surface-raised);
+    color: var(--ink);
+    box-shadow: 0 6px 22px rgb(14 26 51 / 0.18);
+    font: inherit;
+    font-size: var(--step--1);
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  .tm-fab:hover,
+  .tm-fab[aria-expanded='true'] {
+    border-color: var(--accent);
+    color: var(--accent);
+  }
+
+  .tm-fab-count {
+    display: inline-grid;
+    place-items: center;
+    min-inline-size: 1.4rem;
+    block-size: 1.4rem;
+    padding-inline: 0.3rem;
+    border-radius: 999px;
+    background: var(--accent);
+    color: var(--surface);
+    font-size: 0.75rem;
+  }
+
+  .tm-fab-count[hidden],
+  .tm-panel[hidden] {
+    display: none;
+  }
+
+  .tm-panel {
+    position: absolute;
+    inset-inline-end: 0;
+    inset-block-end: calc(100% + 0.6rem);
+    inline-size: min(31rem, calc(100vw - 2rem));
+    max-block-size: min(40rem, 78vh);
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    padding: 0.9rem 1rem 0.7rem;
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    background: var(--surface-raised);
+    color: var(--ink);
+    box-shadow: 0 18px 48px rgb(14 26 51 / 0.28);
+  }
+
+  .tm-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+  }
+
+  .tm-head h2 {
+    margin: 0;
+    font-size: var(--step-0);
+  }
+
+  .tm-close {
+    display: grid;
+    place-items: center;
+    inline-size: 40px;
+    block-size: 40px;
+    border: 0;
+    border-radius: 50%;
+    background: transparent;
+    color: var(--ink-muted);
+    cursor: pointer;
+  }
+
+  .tm-close:hover {
+    background: var(--line);
+    color: var(--ink);
+  }
+
+  .tm-intro,
+  .tm-source {
+    margin: 0;
+    font-size: 0.8rem;
+    line-height: 1.45;
+    color: var(--ink-muted);
+  }
+
+  .tm-tools {
+    display: grid;
+    gap: 0.4rem;
+  }
+
+  .tm-search {
+    inline-size: 100%;
+    min-block-size: 44px;
+    padding: 0 0.8rem;
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    background: var(--surface);
+    color: var(--ink);
+    font: inherit;
+  }
+
+  .tm-only {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    min-block-size: 36px;
+    font-size: 0.85rem;
+    cursor: pointer;
+  }
+
+  .tm-selected {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+  }
+
+  .tm-selected:empty {
+    display: none;
+  }
+
+  .tm-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    max-inline-size: 100%;
+    min-block-size: 34px;
+    padding: 0 0.6rem;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    background: var(--surface);
+    color: var(--ink);
+    font: inherit;
+    font-size: 0.8rem;
+    cursor: pointer;
+  }
+
+  .tm-chip-off {
+    opacity: 0.55;
+  }
+
+  .tm-x {
+    color: var(--ink-muted);
+  }
+
+  .tm-list {
+    flex: 1;
+    min-block-size: 8rem;
+    overflow-y: auto;
+    margin-inline: -0.4rem;
+    padding-inline: 0.4rem;
+    padding-block-end: 0.5rem;
+    overscroll-behavior: contain;
+  }
+
+  .tm-block + .tm-block {
+    border-block-start: 1px solid var(--line);
+  }
+
+  .tm-row {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    min-block-size: 44px;
+  }
+
+  .tm-label {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 0.55rem;
+    min-block-size: 44px;
+    cursor: pointer;
+    font-size: 0.92rem;
+  }
+
+  .tm-short .tm-name {
+    text-decoration: underline dotted;
+    text-underline-offset: 3px;
+    text-decoration-color: var(--ink-muted);
+  }
+
+  .tm-grey {
+    color: var(--ink-muted);
+    opacity: 0.6;
+    cursor: default;
+  }
+
+  .tm-family .tm-name {
+    font-weight: 600;
+  }
+
+  .tm-name {
+    flex: 1;
+  }
+
+  .tm-dot {
+    flex: none;
+    inline-size: 0.85rem;
+    block-size: 0.85rem;
+    border-radius: 50%;
+  }
+
+  .tm-badge {
+    flex: none;
+    padding: 0.1rem 0.5rem;
+    border-radius: 999px;
+    background: color-mix(in srgb, var(--accent) 14%, transparent);
+    color: var(--accent);
+    font-size: 0.74rem;
+    font-weight: 600;
+  }
+
+  .tm-toggle {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    min-inline-size: 44px;
+    min-block-size: 44px;
+    padding: 0 0.4rem;
+    border: 0;
+    border-radius: 8px;
+    background: transparent;
+    color: var(--ink-muted);
+    font: inherit;
+    font-size: 0.75rem;
+    cursor: pointer;
+  }
+
+  .tm-toggle:hover {
+    background: var(--line);
+  }
+
+  .tm-chevron {
+    inline-size: 0.5rem;
+    block-size: 0.5rem;
+    border-inline-end: 2px solid currentColor;
+    border-block-end: 2px solid currentColor;
+    transform: rotate(45deg);
+    transition: transform 0.15s;
+  }
+
+  .tm-toggle[aria-expanded='true'] .tm-chevron {
+    transform: rotate(-135deg);
+  }
+
+  .tm-sub {
+    padding-inline-start: 1.6rem;
+    padding-block-end: 0.4rem;
+  }
+
+  .tm-topic .tm-label {
+    font-size: 0.88rem;
+  }
+
+  .tm-empty {
+    color: var(--ink-muted);
+    font-size: 0.9rem;
+  }
+
+  .tm-label input[type='checkbox'],
+  .tm-only input[type='checkbox'] {
+    inline-size: 1.1rem;
+    block-size: 1.1rem;
+    accent-color: var(--accent);
+  }
+
+  @media (max-width: 40rem) {
+    .tm-fab-label {
+      display: none;
+    }
+
+    .tm-fab {
+      padding: 0 0.85rem;
+    }
+
+    .tm-root {
+      inset-inline-end: 0.75rem;
+      inset-block-end: 0.75rem;
+    }
+
+    .tm-panel {
+      position: fixed;
+      inset-inline: 0.5rem;
+      inset-block-end: 4.25rem;
+      inline-size: auto;
+      max-block-size: 76vh;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .tm-chevron {
+      transition: none;
+    }
+  }
+
+  /* Coloured verses: a tint and stripes along the foot, set from the script. */
+  .chapter-text .tm {
+    border-radius: 2px;
+  }
+</style>

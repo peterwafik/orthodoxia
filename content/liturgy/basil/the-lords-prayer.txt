@@ -1,0 +1,10 @@
+source: The Divine Liturgies of Saints Basil, Gregory and Cyril (Coptic, English and Arabic), Fr. Jacob Nadian, St. Bishoy Coptic Orthodox Church of Toronto, Stouffville, Ontario, Canada.
+source-ar: الثلاثة قداسات للقديسين باسيليوس واغريغوريوس وكيرلس (قبطي وإنجليزي وعربي)، الأب يعقوب نادين، كنيسة الأنبا بيشوي القبطية الأرثوذكسية بتورونتو، ستوفيل، أونتاريو، كندا.
+
+@rubric
+en| While the deacon and the people exchange the above responses, the pries prays the folloing inaudibly. The Prayer after “Our Father” addressed to the Father
+ar| بينما يرتل الشماس والشعب المردات أعلاه، يقول الكاهن سراً هذه الصلوات. صلاة من بعد "أبانا الذي في السموات" للآب
+
+@priest
+en| Yes, we ask You, O holy Father, the good One who loves goodness, lead us not into temptation, nor let any iniquity rule over us. But deliver us from worthless works and from the thoughts, motions, sights, and touches thereof. Destroy the tempter and drive him away. Rebuke also his movements implanted in us, and cut off from us all impulses which drag us into sin. And deliver us by Your holy power in Christ Jesus our Lord. Through Whom the glory, the honor, the dominion, and the worship are due unto You, with Him and the Holy Spirit, the
+ar| نعم نسألك أيها الآب القدوس الصالح محب الصالح، لا تدخلنا في تجربة ولا يتسلط علينا كل إثم. لكن نجنا من الأعمال الغير النافعة وأفكارها وحركاتـها ومناظرها وملامسها. والمجرب أبطله واطرده عنا، وانتهر أيضاً حركاته المغروسة فينا. وأقطع عنا الأسباب التي تسوقنا إلى الخطية. ونجنا بقوتك المقدسة بالمسيح يسوع ربنا. هذا الذي من قبله المجد والكرامة والعز والسجود تليق بك معه مع الروح القدس المحيي المساوي لك.

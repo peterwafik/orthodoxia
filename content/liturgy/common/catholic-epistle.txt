@@ -1,0 +1,70 @@
+source: The Divine Liturgies of Saints Basil, Gregory and Cyril (Coptic, English and Arabic), Fr. Jacob Nadian, St. Bishoy Coptic Orthodox Church of Toronto, Stouffville, Ontario, Canada.
+source-ar: الثلاثة قداسات للقديسين باسيليوس واغريغوريوس وكيرلس (قبطي وإنجليزي وعربي)، الأب يعقوب نادين، كنيسة الأنبا بيشوي القبطية الأرثوذكسية بتورونتو، ستوفيل، أونتاريو، كندا.
+
+@priest
+en| You also now, O Good One and Lover of Mankind, we ask You, grant us and all Your people a mind free from wandering and a clear understanding, that we may learn and understand how profitable are Your holy teachings which are now read to us through him. And as he followed Your example, O You, Author of life, so make us also worthy to be like him in deed and in faith that we may glorify Your holy name and glory in Your Cross at all times. And unto You we send up glory, honor, and worship with Your good Father and the Holy Spirit, the Giver of Life, who is of one essence with You, now and at all times and unto the age of all ages. Amen.
+ar| انت الآن أيضاً أيها الصالح محب البشر، نسألك أنعم علينا وعلى شعبك كله بعقل غير منشغل وفهم نقي، لكي نعلم ونفهم ما هي منفعة تعاليمك المقدسة التي قرئت علينا الآن من قبله. وكما تشبه بك أنت يا رئيس الحياة، هكذا نحن أيضاً إجعلنا مستحقين أن نكون متشبهين به في العمل والإيمان ممجدين إسمك القدوس، ومفتخرين بصليبك كل حين. وأنت الذي نرسل لك إلى فوق المجد والاكرام والسجود، مع أبيك الصالح والروح القدس، المحيي المساوي لك الآن وكل أوان وإلى دهر الدهور كلها. آمين.
+
+@rubric
+en| The Catholic Epistle If the Catholic Epistle is read in Coptic, the following introduction is said .
+ar| الكاثوليكون إذا قرأ الكاثوليكون قبطياً تقال مقدمته وهي هذه.
+
+@priest
+en| The C atholic E pistle of our father (St. James/ St. Judah/ St. Peter/ St. John), my beloved.
+ar| الكاثوليكون من ابينا (يعقوب، يهوذا، بطرس، يوحنا)، يا أحبائى.
+
+@rubric
+en| After the reading, the following conclusion is said.
+ar| وفي ختامه يقول.
+
+@priest
+en| Do not love the world nor the things in the world. The world is passing away, and its lust; but he who does the will of God abides forever. Amen.
+ar| لا تحبوا العالم ولا الأشياء التي في العالم، العالم يزول وشهوته، وأما الذي يصنع إرادة الله يدوم إلى الأبد. آمين.
+
+@rubric
+en| If the Catho lic Epistle is read in English , the following introduction is said .
+ar| إذا قرأ الكاثوليكون عربيا، تقال مقدمته وهي هذه.
+
+@rubric
+en| The Catholic Epistle from the (first/second/third) epistle of our teacher (St . James/ St. Judah/ St. Peter/ St. John ), May his bl essings be with us. Amen. After the reading, the following conclusion is said. Do not love the world nor the things in the world. The world is passing away, and its lust; but he who does the will of God abides forever. Amen. During the reading of the Catholic Epistle, the fellow priest (or if there is no fellow priest, then the serving priest himself) says inaudibly the following prayer to the Father:
+ar| الكاثوليكون من الرسالة (الاولي، الثانية، الثالثة) لمعلمنا (يعقوب، يهوذا، بطرس، يوحنا)، بركته علينا. آمين. وفي ختامه يقول. لا تحبوا العالم ولا الأشياء التي في العالم، العالم يزول وشهوته، وأما الذي يصنع إرادة الله يدوم إلى الأبد. آمين. وفي أثناء قراءة الكاثوليكون، يقول الكاهن الشريك هذه الأوشية سرا للاب وإن لم يكن حاضرا كاهن معه فيقولها هو:
+
+@deacon
+en| O Lord our God, who through Your holy apostles have revealed to us the mystery of the Gospel of the glory of Your Christ, and have given to them according to the great immeasurable gift of Your grace that they should proclaim among all nations the good news of the riches of Your mercy, we ask You, O our Master, make us worthy of their share and inheritance. Grant to us at all times to walk in their footsteps and to imitate their struggle, and to have communion with them in the sweat which they accepted for the sake of godliness. Watch over Your holy Church which You have founded through them, and bless the sheep of Your flock and make this vine to increase, which Your right hand has planted, in Christ Jesus our Lord. Through whom the glory, the honor, the dominion, and the worship are due unto You, with Him and the Holy Spirit, the Giver of Life, who is of one essence with You. Now and at all times and unto the ages of all ages. Amen.
+ar| أيها الرب إلهنا الذي من قبل رسلك القديسين اظهرت لنا سر إنجيل مجد مسيحك. وأعطيتهم، كعظيم الموهبة التي لا تحد التي لنعمتك، أن يبشروا في كل الأمم بالغني الذي لا يستقصي لرحمتك. نسألك يا سيدنا إجعلنا مستحقين نصيبهم وميراثهم. وانعم لنا كل حين أن نسلك في آثارهم ونكون متشبهين بجهادهم ونشترك معهم في الأعراق التي قبلوها على التقوي. حارسا بيعتك المقدسة، هذه التي أسستها من قبلهم، وبارك خراف قطيعك. وإجعل هذه الكرمة تكثر، هذه التي غرستها يمينك بالمسيح يسوع ربنا. هذا الذي من قبله المجد والكرامة والعز والسجود تليق بك معه ومع الروح القدس المحيي المساوي لك. الآن وكل أوان وإلى دهر الدهور كلها. آمين.
+
+@rubric
+en| Then the priest, holding in his hand the censer, prays inaudibly at the altar the following Litany of the Oblations. On Sundays and feasts of the Lord, it is not prayed here, but during the Offering of Morning Incense.
+ar| ثم يصلي الكاهن وبيده المجمرة أوشية القرابين علي المذبح سراً. أما في الأحاد والأعياد السيدية فلا تقال هنا بل تقال في صلاة رفع بخور باكر، وهي هذه:
+
+@priest
+en| Again, let us ask God the Pantocrator, the Father of our Lord, God, and Savior Jes us Christ. We ask and entreat Your goodness, O Lover of Mankind, remember, O Lord, the sacrifices, the offerings and the thanksgivings of those who have o ffered * to the honor and glory of Your holy name.
+ar| وأيضاً فلنسأل الله ضابط الكل أبا ربنا والهنا ومخلصنا يسوع المسيح. نسأل ونطلب من صلاحك يا محب البشر، أذكر يا رب صعائد وقرابين وشكر الذين يقربون، * كرامة ومجدا لاسمك القدوس.
+
+@rubric
+en| * The priest places a spoonful of incense in the censer without making the sign of the cross over it, saying:
+ar| * هنا يضع في المجمرة يد بخور من غير رشم ويقول:
+
+@deacon
+en| Pray for those who tend to the sacrifices, offerings, first-fruits, oil, incense, coverings, reading books, and altar vessels, that Christ our God may reward them in the heavenly Jerusalem, and forgive us our sins.
+ar| اطلبوا عن المهتمين بالصعائد، والقرابين، والبكور، والزيت، والبخور، والستور، وكتب القراءة، وأواني المذبح، لكي المسيح إلهنا يكافئهم في أورشليم السمائية، ويغفر لنا خطايانا.
+
+@people
+en| Lord have mercy.
+ar| يا رب ارحم.
+
+@rubric
+en| The priest censes the altar and continues saying:
+ar| يقول الكاهن وهو يرفع البخور علي المذبح:
+
+@priest
+en| Receive them upon Your holy, rational altar of heaven as a sweet savor of incense before Your greatness in the heavens, through the service of Your holy angels and archangels. As You have received the gifts o f the righteous Abel, the sacrifice of our father Abraham, and the two mites of the widow , so also rec eive the thank offerings of Your servants, those in abundance or those in scarcity, hidden or manifest. Those who desire to offer to You but have none, and those who have offered these gifts to You this very day. Give them the incorruptible instead of the corruptible, the heavenly i nstead of the earthly, and the eternal instead of the temporal. Their houses and their stores, fill them with every good thing. Surround them, O Lord, by the power of Your holy angels and archangels. And as they remembered Your holy name on earth, remember them also, O Lord, in Your kingdom, and in this age too, leave them not behind. By the grace, compassion, and love of mankind, of Your only - begotten Son, our Lord, God and Savior Jesus Christ. Through Whom the glory, the honor, the dominion, and the worship are due unto You, with Him and the Holy Spirit, the Giver of Life, Who is of one essence with You. N ow and at all times and unto the ages of all ages. Amen.
+ar| اقبلها إليك علي مذبحك المقدس، الناطق السمائي رائحة بخور، تدخل إلي عظمتك التي في السموات. بواسطة خدمة ملائكتك ورؤساء ملائكتك القديسين. وكما قبلت إليك قرابين هابيل الصديق وذبيحة أبينا إبراهيم وفلسي الأرملة. هكذا أيضا نذور عبيدك، اقبلها إليك، أصحاب الكثير وأصحاب القليل، الخفيات والظاهرات. والذين يريدون أن يقدموا لك وليس لهم، والذين قدموا لك في هذا اليوم هذه القرابين. أعطهم الباقيات عوض الفانيات، السمائيات عِوَض الأرضيات، الأبديات عِوَض الزمنيات، بيوتهم ومخازنهم أملأها من كل الخيرات. أحطهم يا رب بقوة ملائكتك، ورؤساء ملائكتك الاطهار. وكما ذكروا اسمك القدوس علي الأرض أذكرهـم هم أيضاً يا رب في ملكوتك، وفي هذا الدهر لا تتركهم عنك. بالنعمة والرأفات ومحبة البشر اللواتي لابنك الوحيد ربنا وإلهنا ومخلصنا يسوع المسيح. هذا الذي ينبغي من قبله المجد والإكرام والعز والسجود يليق بك معه،و مع الروح القدس المحيي المساوي لك. الآن وكل أوان وإلى دهر الدهور آمين.
+
+@rubric
+en| Af ter the reading of the Catholic Epistle, the people chant the following Response to the Praxis
+ar| وبعد قراءة الكاثوليكون، يرتل الشعب مرد الابركسيس التالي:
+
+@priest
+en| Hail to you, O Mary, the beautiful dove, who has born to us God the Logos. Blessed are You indeed, with Your good Father and the Holy S pirit, for Y ou have come and saved us. Have mercy on us.
+ar| السلام لك يا مريم الحمامة الحسنة التي ولدت لنا الله الكلمة. مبارك أنت بالحقيقة مع أبيك الصالح والروح القدس، لأنك أتيت وخلصتنا. ارحمنا.

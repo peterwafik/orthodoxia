@@ -10,7 +10,7 @@ const LOGO_PATHS = [
 
 /** Styles for the first frame, inlined so that it needs no stylesheet or script. */
 const FIRST_FRAME_CSS = `
-html{background:light-dark(#f5f1e6,#0e1a33);color-scheme:light dark}
+html{background:light-dark(#f5f1e6,#0e1a33);color-scheme:light}
 html[data-theme=dark]{color-scheme:dark}
 html[data-theme=light]{color-scheme:light}
 body{margin:0}

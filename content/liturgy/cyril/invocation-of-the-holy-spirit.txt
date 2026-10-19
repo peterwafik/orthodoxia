@@ -1,0 +1,70 @@
+source: The Divine Liturgies of Saints Basil, Gregory and Cyril (Coptic, English and Arabic), Fr. Jacob Nadian, St. Bishoy Coptic Orthodox Church of Toronto, Stouffville, Ontario, Canada.
+source-ar: الثلاثة قداسات للقديسين باسيليوس واغريغوريوس وكيرلس (قبطي وإنجليزي وعربي)، الأب يعقوب نادين، كنيسة الأنبا بيشوي القبطية الأرثوذكسية بتورونتو، ستوفيل، أونتاريو، كندا.
+
+@priest
+en| Because of my own sins and the abominations of my heart, deprive not Your people of the coming down of Your Holy Spirit.
+ar| ومن أجل خطاياي خاصة ونجاسات قلبي لا تحرم شعبك من حلول روحك القدوس.
+
+@people
+en| Have mercy upon us, O 3 God, the Father, the Pantocrator. (3 times)
+ar| أرحمنا يا الله الآب ضابط الكل. ( مرات)
+
+@rubric
+en| The priest takes the veil on his hand, turns toward the congregation, points to them with his hand, then turns back to the East, saying:
+ar| يأخذ الكاهن اللفافة علي يده ويلتفت إلي الشعب ويشير إليهم بيده ثم يلتفت إلي الشرق ويقول:
+
+@priest
+en| For Your people and Your Church entreat You, saying, "Have mercy upon us, O God, the Father, the 3 Pantocrator." (3 times)
+ar| لأن شعبك وبيعتك يطلبون إليك قائلين: "أرحمنا يا الله الآب ضابط الكل." ( مرات)
+
+@deacon
+en| Worship God, the Father, the Pantocrator.
+ar| إسجدوا هلل الآب ضابط الكل.
+
+@rubric
+en| While kneeling with hands stretched forth , the priest says the following Prayer of the Descent of the Holy Spirit (the Epiclesis) inaudibly.
+ar| يقول الكاهن أوشية حلول الروح القدس سراً وهو ساجد وباسط يديه، وهي هذه:
+
+@deacon
+en| The Epiclesis Priest (Inaudibly): And send down from Your holy highest, and from Your prepared mansion, and from Your boundless bosom, and from the throne of the kingdom of Your glory. The Paraclete, Your Holy Spirit who is a hypostasis, the immutable, the unchangeable, the Lord, the Giver of life, who spoke in the Law, the prophets, and the apostles. Who is in every place and who fills every place, yet no place can contain Him. Who, by His own authority, and not as ervice, works sanctification upon those whom He loves, according to Your good pleasure. Who is single in His nature and manifold in His working, the fountain of divine graces. Who is of one essence with You, who proceeds from You, the companion of the throne of the kingdom of Your glory, with Your only-begotten Son, our Lord, God, Savior, and King of us all, Jesus Christ. Upon us, we Your servants, and upon these precious gifts which have been set forth before You.
+ar| صلاة استدعاء الروح القدس الكاهن (سراً): وإرسل إلى أسفل من علوَك المقدس، ومن مسكنك المستعد، ومن حضنك غير المحصور، ومن عرش مملكة مجدك. البارقليط، روحك القدوس، الأقنوم غير المستحيل، ولا متغير، الرب المحيي. الناطق في الناموس والأنبياء والرسل. الحال في كل مكان، المالئ كل مكان ولا يحويه مكان. واهب القداسة بسلطة بمسرتك للذين يحبهم، وليس علي سبيل خدمة العبودية. البسيط في طبيعته، الكثير الأنواع في فعله، ينبوع النعم الإلهية. المساوي لك، المنبثق منك، شريك عرش مملكة مجدك، وإبنك الوحيد ربنا وإلهنا ومخلصنا وملكنا كلنا يسوع المسيح. علينا نحن عبيدك وعلى هذه القرابين التي لك المكرّمة السابق وضعها أمامك.
+
+@rubric
+en| The priest points with his hands to the Body and the Blood, saying:
+ar| يشير الكاهن بيديه إلي الجسد والدم وهو يقول:
+
+@priest
+en| Upon this bread and this cup, that they may be sanctified and changed.
+ar| على هذا الخبز وعلى هذه الكأس، لكي يتطهرا وينتقلا.
+
+@deacon
+en| Let us attend. Amen.
+ar| ننصت. آمين.
+
+@people
+en| Amen.
+ar| آمين.
+
+@rubric
+en| The priest quickly signs the bread three times, and says:
+ar| يرشم علي الجسد ثلاثة رشومات بسرعة ويقول:
+
+@priest
+en| And this bread He makes into the holy Body of Christ.
+ar| وهذا الخبز يجعله جسداً مقدساً للمسيح.
+
+@people
+en| Amen.
+ar| آمين.
+
+@rubric
+en| The priest quickly signs the chalice three times, and says:
+ar| يرشم الكاهن الكأس أيضاً ثلاثة رشومات بسرعة ويقول:
+
+@priest
+en| And this cup also, into the precious blood of His New Covenant.
+ar| وهذه الكأس أيضا دماً كريماً للعهد الجديد الذي له.
+
+@people
+en| Amen.
+ar| آمين.

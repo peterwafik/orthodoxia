@@ -1,0 +1,18 @@
+source: The Divine Liturgies of Saints Basil, Gregory and Cyril (Coptic, English and Arabic), Fr. Jacob Nadian, St. Bishoy Coptic Orthodox Church of Toronto, Stouffville, Ontario, Canada.
+source-ar: الثلاثة قداسات للقديسين باسيليوس واغريغوريوس وكيرلس (قبطي وإنجليزي وعربي)، الأب يعقوب نادين، كنيسة الأنبا بيشوي القبطية الأرثوذكسية بتورونتو، ستوفيل، أونتاريو، كندا.
+
+@people
+en| Glory to You, O Lord. Glory to You.
+ar| المجد لك يا رب، المجد لك.
+
+@rubric
+en| During the distribution of the Holy Mysteries, the 150 people chant Psalm 150 , “Alleluia. Praise God …” Then the people chant what is appropriate for the day. The priest kisses the holy Body and partakes of It. Then he gives the Body to the other priests (if there are any), the deacon and the rest of the communicants. When he gives the fellow priests and the people the pure Body without the Blood, he says, “This is the Body of Im manuel our God. Amen.” When he gives the precious Blood, he says, “ This is truly the Blood of I mmanuel our God. Amen.” If he gives the Body dipped in the blood, as in the case of the sick, he says, “These are truly the Body and Blood of Immanuel our God. A men.” The communicant responds each time, saying, “Amen .” While bearing the paten with the Body of Christ, the priest begins distributing the Holy Mysteries to the people by turning to the west and, with the paten, blessing the people with the sign of the cross, saying:
+ar| ثم يرتل الشعب المزمور (هلليلويا. سبحوا الله...) ثم يرتلون ما يناسب اليوم. يقبل الكاهن الجسد المقدس ويتناول منه. ثم يناول الكهنة الشركاء، إن وجدوا، ثم الشمامسة وبقية المتناولين. وعندما يناول الكهنة الشركاء، والشمامسة وجميع الشعب من الجسد الطاهر بدون الدم يقول "الجسد الذي لعمانوئيل الهنا. هذا هو بالحقيقة. آمين". وعندما يناول الدم الكريم يقول "الدم الذي لعمانوئيل الهنا. هذا هو بالحقيقة. آمين". وإذا ناول الجسد مصبوغا بالدم (كما في حالات المرضي) يقول "الجسد والدم الذين لعمانوئيل الهنا. هذا هو بالحقيقة. آمين." ويقول المتناول في كل مرة "آمين". ثم يذهب فيناول الشعب إذ يلتفت الكاهن حامل الصينية بجسد السيد المسيح إلي الغرب ويبارك الشعب مثال الصليب بالصينية ويقول:
+
+@priest
+en| The holies for the holy. Blessed be the Lord Jesus Christ, the Son of God; the sanctification is by the Holy Spirit. Amen.
+ar| القدسات للقديسين. مبارك الرب يسوع المسيح ابن الله، وقدوس الروح القدس. آمين.
+
+@rubric
+en| And the people, along with the deacon, bow, saying:
+ar| فيسجدون جميعهم ويقول الشماس والشعب:

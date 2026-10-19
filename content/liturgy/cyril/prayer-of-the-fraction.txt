@@ -1,0 +1,62 @@
+source: The Divine Liturgies of Saints Basil, Gregory and Cyril (Coptic, English and Arabic), Fr. Jacob Nadian, St. Bishoy Coptic Orthodox Church of Toronto, Stouffville, Ontario, Canada.
+source-ar: الثلاثة قداسات للقديسين باسيليوس واغريغوريوس وكيرلس (قبطي وإنجليزي وعربي)، الأب يعقوب نادين، كنيسة الأنبا بيشوي القبطية الأرثوذكسية بتورونتو، ستوفيل، أونتاريو، كندا.
+
+@people
+en| Amen.
+ar| الشعب: آمين.
+
+@rubric
+en| The priest takes the pure Body in his right hand and says:
+ar| يأخذ الكاهن الجسد الطاهر علي يديه ويقول:
+
+@priest
+en| The holy body and the precious blood of His Christ, the Pantocrator, the Lord our God.
+ar| الجسد المقدس والدم الكريم اللذين لمسيحه، الضابط الكل الرب إلهنا.
+
+@deacon
+en| Amen. Amen. Pray.
+ar| آمين. آمين. صلوا.
+
+@people
+en| Lord have mercy.
+ar| يا ربُ إرحم.
+
+@priest
+en| Peace be with You all.
+ar| السلام للكل.
+
+@people
+en| And with your spirit.
+ar| ولروحك أيضًا.
+
+@rubric
+en| While breaking the holy Body, the priest says the following Prayer of the Fraction to the Father ( or one of the other appointed fraction prayers ) .
+ar| يقول الكاهن وهو يقسم الجسد المقدس، صلاة القسمة الآتية للآب (أو غيرها من القسم المذكورة فيما بعد).
+
+@priest
+en| O God, who foreordained us to sonship through Jesus Christ our Lord, according to the good pleasure of Your will, unto the honor of the glory of Your grace, which You have granted to us through Your Beloved. This is He by whom we had our salvation, through His holy Blood, unto the forgiveness of our sins. We give thanks to You, O Lord God the Pantocrator, for You have made us, who are sinners, worthy to stand in this holy place and fulfill this holy, heavenly mystery. So that, as You have made us worthy to fulfill them, so also may we be worthy of the communion and partaking of them. O You, who opened the eyes of the blind, open the eyes of our hearts. So that we may cast away from us all the darkness of evil and malice, which is the likeness of defilement. That we may be able to raise up our eyes towards the splendor of Your holy glory. And even as You have cleansed the lips of Your servant Isaiah the prophet, as one of the seraphim took an ember with the tongs from the altar, cast it into his mouth, and said to him: "Behold, this has touched your lips, it shall take away your iniquities and cleanse all your sins." Likewise we too, Your weak and sinful servants, who ask for Your mercy. Graciously cleanse our souls, our bodies, our lips, and our hearts. And give us this true Ember that is life-giving to soul, body, and spirit. Which is the holy Body and the precious Blood of Your Christ. Not unto judgment, nor unto falling into condemnation, nor unto shame and reproof of our transgressions. Lest, partaking of them unworthily, we become guilty of them. So that the multitude of Your graciousness, O our Master, may not be for us a cause of excess burden towards falling into condemnation, having become ungrateful toward You, O You, the beneficent One. But rather grant us Your Holy Spirit, that with a pure heart, an enlightened conscience, an unashamed face, a faith unfeigned, a perfect love, and a firm hope, we may dare with boldness, without fear, to say the holy prayer. Which Your beloved Son gave to His holy disciples and saintly apostles, saying to them: “ At all times, whenever you pray, entreat in this manner, and say: Our Father ...
+ar| يا الله الذي سبق فوسمنا للبنوة بيسوع المسيح ربنا كمسرة إرادتك، كرامة لمجد نعمتك التي أنعمت بها علينا بحبيبك. هذا الذي صار لنا به خلاصنا، بدمه الطاهر لغفران الخطايا. نشكرك أيها الرب الإله ضابط الكل، لأنك جعلتنا مستحقين نحن الخطاة، أن نقف في هذا الموضع المقدس، ونكمل هذا السر المقدس السمائي. لكيْ كما جعلتنا أهلًا أن نكملهما، هكذا أيضاً فلنستحق شركتهما والتناول منهما. يا مَنْ فتح أعين العميان افتح عيون قلوبنا. إذ نطرح عنا كل ظلمه الشر، والخبث الذي شبه الدنس. نستطيع أن نرفع أعيننا إلي فوق نحو بهاء مجدك القدوس. وكما طهرت شفتي عبدك إشعياء النبي. إذ أخذ أحد السارافيم جمرة بملقط من على المذبح وطرحها في فيه وقال له: "إن هذه قد لمست شفتيك فترفع آثامك، وتطهر جميع خطاياك." هكذا نحن أيضاً الضعفاء الخطاة، عبيدك الطالبين رحمتك. تفضل طهِّر أنفسنا، وأجسادنا، وشفاهنا، وقلوبنا. وأعطنا هذه الجمرة الحقيقية المعطية الحياة للنفس والجسد والروح. التي هي الجسد المقدس، والدم الكريم اللذان لمسيحك. لا للدينونة ولا للوقوع في الدينونة، ولا خزياً وتبكيتاً لزلاتنا. لئلا إذا تناولنا منهما بغير إستحقاق، نكون مدانين بهما. ولئلا يكون لنا كثرة إكرامك يا سيدنا علة ثقل بالأكثر للوقوع في الدينونة، اذ نصير غير شاكرين لك أنت المحسن. بل أنعم علينا بروحك القدوس. لكيْ بقلب طاهر، وسريرة مستنيرة، بوجه غير مخزي، وإيمان بغير رياء، بمحبة كاملة ورجاء ثابت. نجسر بدالة، بغير خوف، أن نقول الصلاة المقدسة. التي أعطاها ابنك الحبيب لتلاميذه القديسين، ورسله الأطهار قائلًا لهم: إنه في كل زمان متي صليتم فإطلبوا هكذا وقولوا: يا أبانا...
+
+@people
+en| Our Father who art in heaven; hallowed be Thy name. Thy kingdom come. Thy will be done on earth as it is in heaven. Give us this day our daily bread. And forgive us our trespasses, as we forgive those who trespass against us. And lead us not into temptation, but deliver us from the evil one.
+ar| أبانا الذي في السموات. ليتقدس اسمك. ليأت ملكوتك. لتكن مشيئتك. كما في السماء كذلك على الأرض. خبزنا كفافنا أعطنا اليوم. وأغفر لنا ذنوبنا كما نغفر نحن أيضا للمذنبين إلينا. ولا تدخلنا في تجربة. لكن نجنا من الشرير.
+
+@rubric
+en| The deacon inside the altar and the people outside exchange the following responses.
+ar| يتبادل الشماس داخل الهيكل والشعب خارجه هذه المردات.
+
+@people
+en| In Christ Jesus our Lord.
+ar| بالمسيح يسوع ربنا،
+
+@deacon
+en| Bow your heads to the Lord.
+ar| إحنوا رؤوسكم للربِ.
+
+@people
+en| Before You, O Lord D eacon: Let us attend in the fear of God. Amen.
+ar| أمامك يا ربُ. أنصتوا بخوف هللا.آمين.
+
+@rubric
+en| While the deacon and the people exchange the above responses, the pries prays the folloing inaudibly.
+ar| بينما يرتل الشماس والشعب المردات أعلاه، يقول الكاهن سراً هذه الصلوات.

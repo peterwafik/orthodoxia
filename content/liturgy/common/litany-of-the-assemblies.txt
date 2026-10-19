@@ -1,0 +1,74 @@
+source: The Divine Liturgies of Saints Basil, Gregory and Cyril (Coptic, English and Arabic), Fr. Jacob Nadian, St. Bishoy Coptic Orthodox Church of Toronto, Stouffville, Ontario, Canada.
+source-ar: الثلاثة قداسات للقديسين باسيليوس واغريغوريوس وكيرلس (قبطي وإنجليزي وعربي)، الأب يعقوب نادين، كنيسة الأنبا بيشوي القبطية الأرثوذكسية بتورونتو، ستوفيل، أونتاريو، كندا.
+
+@people
+en| Lord have mercy.
+ar| يا ربُ إرحم.
+
+@rubric
+en| This prayer is said by the pope, a metropolitan or a bishop, if present.
+ar| يقولها الآب البابا أو المطران أو الأسقف إن كان حاضراً.
+
+@priest
+en| Again, let us ask God the Pantocrator, the Father of our Lord, God and Savior Jesus Christ. We ask and entreat Your goodness, O Lover of Mankind, remember , O Lord, our assemblies , * b less them .
+ar| وأيضاً فلنسأل الله ضابط الكل، أبا ربنا وإلهنا ومخلصنا يسوع المسيح. نسأل ونطلب من صلاحك يا محب البشر، اذكر يا رب اجتماعاتنا،* باركها.
+
+@rubric
+en| * The priest makes the sign of the cross once on the people, saying:
+ar| * هنا يرشم الشعب رشما واحداً وهو يقول:
+
+@deacon
+en| Pray for this holy church and for our assemblies.
+ar| صلوا من أجل هذه الكنيسة المقدسة واجتماعاتنا.
+
+@people
+en| Lord have mercy.
+ar| يا ربُ إرحم.
+
+@rubric
+en| The priest takes the censer and says:
+ar| يأخذ المجمرة ويقول:
+
+@priest
+en| Grant that they may be to us without obstacle or hindrance, that we may hold them according to Your Holy and blessed will:
+ar| اعط أن تكون لنا بغير مانع ولا عائق، لنصنعها كمشيئتك المقدسة الطوباوية.
+
+@rubric
+en| The priest stretches forth his hand with the censer over the altar toward the four corners, first to the East, then to the west, the north, and the south, while saying:
+ar| يمد الكاهن يده بالمجمرة فوق المذبح إلي الجهات الأربع بمثال الصليب أي إلي الشرق ثم الغرب ثم الشمال ثم الجنوب وهو يقول:
+
+@priest
+en| Houses of prayer, houses of purity, houses of blessing. Grant them to us, O Lord, and Your servants who will come after us, forever.
+ar| بيوت صلاة، بيوت طهارة، بيوت بركة. انعم بها لنـا يـارب ولعبيدِك الآتين بعدنا إلي الأبد.
+
+@rubric
+en| The following litany may be said.
+ar| هنا تقال هذه الأوشية أو تترك:
+
+@priest
+en| The worship of idols, utterly uproot from the world. Satan and all his evil powers, trample and humiliate under our feet speedily. All offenses and their instigators, abolish. Let the dissensions of corrupt heresies cease. The enemies of Your Holy Church, O Lord, as at all times, now also humiliate. Strip their vanity, show them their weakness speedily. Bring to naught their envy, their intrigues, their madness, their wickedness, and their slander, which they commit against us. O Lord, bring them all to no avail. Disperse their counsel, O God, who dispersed the counsel of Ahithophel.
+ar| عبادة الأوثان بالتمام، اقلعها من العالم. الشيطان وكل قواته الشريرة، اسحقهم وأذلهم تحت أقـدامنا سريعا. الشكوك وفاعليها ابطلهم، ولينقض افتراقات فساد البدع. أعداء كنيستك المقدسة يارب، مثل كل زمان، الآن أيضـاً أذلهم. حل تعاظمهم، عرفهم ضعفهم سريعا. ابطل حسدهم، وسعايتهم، وجنونهم، وشرهم، ونميمتهم التي يصنعونها فينا. يا رب اجعلهم كلهم كلا شئ، وبدد مشورتهم يا الله الذي بدد مشورة أخيتوفل.
+
+@people
+en| Amen. Lord have mercy.
+ar| آمين. يا ربُ إرحم.
+
+@rubric
+en| The priest censes towards the East three times above the altar, saying:
+ar| ثم يرفع الكاهن يده ويبخر شرقاً فوق المذبح ثلاث مرات وهو يقول:
+
+@priest
+en| Arise, O Lord God, let all Your enemies be scattered, and let all who hate Your holy name flee before Your face.
+ar| قم أيها الـرب الاله، وليتبدد جميع أعدائك، وليهرب من قدام وجهك كل مبغضي إسمك القدوس.
+
+@rubric
+en| The priest turns to the west and censes the priests, the deacons, and the people three times, saying:
+ar| ثم يلتفت إلي الغرب ويعطي البخور ثلاث مرات للكهنة والشمامسة والشعب وهو يقول:
+
+@priest
+en| But let Your people be in blessing, thousands of thousands and ten thousand times ten thousand, doing Your will.
+ar| وأما شعبك فليكن بالبركة، ألوفَ ألوفٍ وربواتِ ربواتٍ، يصنعون إرادَتك.
+
+@rubric
+en| The priest turns to the East, saying inaudibly:
+ar| ثم يلتفت إلي الشرق وهو يقول سراً:

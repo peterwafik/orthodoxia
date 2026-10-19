@@ -1,0 +1,171 @@
+source: The Divine Liturgies of Saints Basil, Gregory and Cyril (Coptic, English and Arabic), Fr. Jacob Nadian, St. Bishoy Coptic Orthodox Church of Toronto, Stouffville, Ontario, Canada.
+source-ar: الثلاثة قداسات للقديسين باسيليوس واغريغوريوس وكيرلس (قبطي وإنجليزي وعربي)، الأب يعقوب نادين، كنيسة الأنبا بيشوي القبطية الأرثوذكسية بتورونتو، ستوفيل، أونتاريو، كندا.
+
+@priest
+en| O Master, Lord Jesus Christ our God, who said to His saintly , honored disciples and holy a postles : : “Many prophets and righteous men have desired to see the things which you see, and have not seen them, and to hea r the things which you hear, and have not heard them. But blessed ar e your eyes, for they see, and your ears for they hear.” May we be worthy to hear and to act according to Your Holy Gospels, through the prayers of Your saints.
+ar| أيها السيد الرب يسوع المسيح إلهنا، الذي خاطب تلاميذه القديسين ورسله الأطهار المكرمين قائلًا إن أنبياءً وأبرارا كثيرين اشتهوا أن يروا ما أنتم ترون ولم يروا، وأن يسمعوا ما أنتم تسمعون ولم يسمعوا. أما أنتم فطوبى لأعينكم لأنها تبصر ولآذانكم لأنها تسمع. فلنستحق أن نسمع ونعمل بأناجيلك المقدسة بطلبات قديسيك.
+
+@deacon
+en| Pray for the Holy Gospel
+ar| صلوا من أجل الإنجيل المقدس
+
+@people
+en| Lord have mercy.
+ar| يا رب ارحم
+
+@priest
+en| Remember also, O our Master all those who have bidden us to remember them in our supplications and prayers, which we offer up unto You, O Lord our God. Those who have already fallen asleep, repose them, those who are sick heal them. For You are the life of us all, the salvation of us all, the hope of us all, the healing of us all, and the resurrection of us all. And to You we send up the glory, the honor and the worship , together with Your good Father, and the Holy Spirit, the Giver of Life, who is of One Essence with You. Now and at all times and unto the ages of all ages, Amen.
+ar| اذكر أيضاً يا سيدنا، كل الذين أمرونا وأوصونا أن نذكرهم في سؤلاتنا وتضرعاتنا التي نرفعها إليك أيها الرب إلهنا. الذين سبقوا فرقدوا يا رب نيحهم، المرضى اشفهم. لأنك أنت هو حياتنا كلنا وخلاصنا كلنا ورجائنا كلنا وشفائنا كلنا وقيامتنا كلنا. وأنت الذي نرسل لك إلى فوق المجد والكرامة والسجود مع أبيك الصالح والروح القدس المحيي المساوي لك. الآن وكل أوان وإلى دهر الدهور كلها. أمين.
+
+@people
+en| Alleluia The Gospel
+ar| هلليلويا الإنجيل
+
+@rubric
+en| The Psalm is read, beginning with the deacon saying:
+ar| يطرح المزمور ويقال في بدايته:
+
+@deacon
+en| A psalm of David. Alleluia.
+ar| مزمور لداود. هلليلويا.
+
+@rubric
+en| After praying the Psalm, the deacon s ays the following if the pope or a metropolitan or a bishop is present:
+ar| وإذا كان الآب البابا أو المطران أو الأسقف موجودا، يقال اللحن الآتي بعد قراءة المزمور:
+
+@rubric
+en| Hymn “ = Let Them Exalt Him”
+ar| لحن "مارو تشاسف = فليرفعوه في كنيسة شعبه"
+
+@deacon
+en| Let them exalt Him in the church of His people, and praise Him in the seat of the elders, fo r He has made His families like a flock o f sheep, that the upright may see and rejoice. The Lord has sworn and will not repent, "You are a priest forever, after the order of Melchizedek." The Lord is at your right hand, our saintly father, the patriarch, Pope Abba (...). And our father the bishop (metropolitan), Abba (…). May t he Lord keep your lives. Alleluia.
+ar| فليرفعوه في كنيسة شعبه وليباركوه علي منابر الشيوخ لأنة جعل أبوة مثل الخراف. يُبصِرُ المستقيمون ويفرحون. أقسم الرب و لن يندم أنك أنت هو الكاهن إلي الأبد علي طقس ملكي صادق. الرب عن يمينك يا أبانا القديس البطريرك البابا المعظم الأنبا (....) وأبينا الأسقف (المطران) الأنبا .)...( الرب يحفظ حياتكما. هلليلويا.
+
+@rubric
+en| The priest turns towards the Gospel and offers incense to it while saying inaudibly .
+ar| يلتفت الكاهن نحو الإنجيل ويعطي البخور له وهو يقول سراً:
+
+@deacon
+en| Bow down before the Gospel of Jesus Christ. Through the prayers of the Psalmist David the Prophet, O Lord, grant us the forgiveness of our sins.
+ar| اسجدوا لأنجيل يسوع المسيح. بصلوات المرتل داود النبي، يا رب انعم لنا بمغفرة خطايانا.
+
+@rubric
+en| The priest goes up to the sanctuary and makes the sign of the cross over the incense box and puts a spoonful of incense into the censer, saying “Glory and honor…
+ar| ثم يصعد إلي الهيكل ويرشم درج البخور رشماً واحداً بمثال الصليب ويضع يد بخور في المجمرة وهو يقول "مجداً وإكراماً...
+
+@rubric
+en| ” to the end. The deacon goes up to the sanctuary with the Gospel, and the priest offers incense to it as they both go around the altar once counterclockwise, while the priest says the Prayer of Simeon the Priest inaudibly.
+ar| " بكاملها. ويصعد الشماس بالبشارة إلي الهيكل ويعطي البخور أمام البشارة وهو دائر حول المذبح دورة واحدة يميناً و حامل البشارة والكاهن يقول صلاة سمعان الكاهن التالية سراً:
+
+@deacon
+en| Lord, now You are letting Yo ur servant depart in peace, according to Your word; for my eyes have seen Your salvation which You have prepared before the face of all peoples, a
+ar| الآن يا سيدى تطلق عبدك بسلام حسب قولك، لأن عيني قد ابصرتا خلاصك الذى أعددته قدام جميع الشعوب نوراً تجلى للأمم ومجداً لشعبك إسرائيل.
+
+@rubric
+en| . light for revelation to the
+
+@deacon
+en| Gentiles, and for glory t o Your people Israel.
+
+@rubric
+en| After encircling the altar, the priest offers incense to the Gospel three times, white saying inaudibly:
+ar| وبعد انتهاء الدورة، يعطي الكاهن البخور للإنجيل ثلاث مرات وهو يقول سراً:
+
+@deacon
+en| Bow down before the Gospel of Jesus Christ , the Son of the living God; to Him be the glory forever.
+ar| اسجدوا لأنجيل يسوع المسيح ابن الله الحي، له المجد إلي الأبد.
+
+@rubric
+en| The priest takes the Gospel from the deacon, turns to the west, and offers it to the other priests while saying,
+ar| ثم يأخذ البشارة من الشماس ويلتفت به إلي الغرب ويعطيه للأباء الكهنة وهو يقول:
+
+@deacon
+en| But as for you, blessed are your eyes for they see, and your ears for they hear. May we be worthy to hear and to act according to Your Holy Gospels, through the prayers of Your saints .
+ar| أما انتم فطوبى لأعينكم لأنها تبصر ولآذانكم لأنها تسمع. فلنستحق أن نسمع ونعمل بأناجيلك المقدسة بطلبات قديسيك.
+
+@rubric
+en| The priests come forward to kiss the Gospel, saying to the end. Then the serving priest kisses the Gospel himself and offers the censer to the partner priest or any non-serving priest to cense the Gospel. He approaches the lectern and reads the Gospel. However, if the pope, a metropolitan, or a bishop is present, then the one of highest rank reads the Gospel at the sanctuary door facing west while the serving priest offers incense. After chanting the Psalm, the deacon, while still standing at the door of the sanctary, says:
+ar| ويأتي الكهنة ويقبلون الإنجيل وهم يقولون أيضاً بكاملها. ثم يقبله هو بعدهم أيضاً ويسلم المجمرة للكاهن الشريك أو الكاهن غير الخديم ليبخر للإنجيل. وهو يتقدم إلي المنجلية ليقرأ الإنجيل. أما إذا كان البابا أو المطران أو الأسقف حاضراً فهو الذي يقرأ الإنجيل علي باب الهيكل ووجهه إلي الغرب، والكاهن الخديم يبخر للإنجيل. وبعد قراءة المزمور يقول الشماس، وهو واقف داخل الهيكل:
+
+@deacon
+en| Stand in fear of God, let us hear the Holy Gospel.
+ar| قفوا بخوف الله لسماع الإنجيل المقدس.
+
+@priest
+en| Blessed is He who comes in the name of the Lord of hosts . Bless, O Lord, the reading of the Holy, Gospel according to St. (...) the evangelist.
+ar| مبارك الآتي باسم رب القوات. يا رب بارك الفصل من الإنجيل المقدس بحسب القديس (...) الانجيلى.
+
+@people
+en| Glory to You, O Lord.
+ar| المجد لك يا رب.
+
+@rubric
+en| Stand up in the fear of God and listen to the Holy Gospel. A reading from the Gospel according to our teacher Saint Matthew (Mark, Luk e or John) the Evangelist . May his blessings …
+ar| قفوا بخوف الله لسماع الإنجيل المقدس، فصل من الإنجيل لمعلمنا مار متى (أو مرقس أو لوقا أو يوحنا) البشير، التلميذ الطاهر بركته...
+
+@rubric
+en| Be with us all .
+ar| على جميعنا.
+
+@people
+en| .
+ar| وإذا كان الأب البابا هو القارئ، يقول : قفوا بخوف أمام الله لنسمع الإنجيل المقدس من فم أبينا المكرم البار المثلث الطوبى، أبينا أبي الأباء راعي الرعاة، رئيس رؤساء كهنتنا، خليفة القديس مرقس الرسول الإنجيلي، العظيم في البطاركة، حبيب المسيح
+
+@rubric
+en| …
+ar| أبينا الطاهر أنبا (...) بابا وبطريرك المدينة العظمى الإسكندرية وكل كورة مصر، وما لها من مدن [وكل أراضي المهجر]. إله السماء يثبته على كرسيه سنين كثيرة وأزمنة سالمة. ويخضع جميع أعدائه تحت قدميه سريعاً. ويعطيه زماناً هادئاً لذيذاً
+
+@people
+en| . … .
+ar| ويعطينا نعمة ورحمة بصلواته وطلباته الأنجيل لمعلمنا مار متى (أو مرقس أو لوقا أو يوحنا) البشير بركته علينا. آمين وإذا كان الأب المطران أو الأسقف هو ، يقول الشماس: قفوا بخوف أمام الله لنسمع الإنجيل المقدس من فم أبينا المكرم البار المثلث الطوبى، أبينا المكرم الأسقف (المطران) أنبا (...) أسقف
+
+@rubric
+en| … …
+ar| المدينة المحبة للمسيح ...) وتخومها. إله السماء يثبته على كرسيه سنين كثيرة وأزمنة سالمة. ويخضع جميع أعدائه تحت قدميه سريعاً. ويعطيه زماناً هادئاً لذيذاً
+
+@people
+en| . .
+ar| ويعطينا نعمة ورحمة بصلواته وطلباته الأنجيل لمعلمنا مار متى (أو مرقس أو لوقا أو يوحنا) البشير بركته علينا. آمين
+
+@priest
+ar| يقرأ الإنجيل، وفي مقدمته يقول: ربنا وإلهنا ومخلصنا وملكنا كلنا، يسوع المسيح، ابن الله الحي، الذي له المجد إلي الأبد.
+
+@rubric
+en| After the reading, the priest concludes saying:
+ar| وفي ختامه يقول:
+
+@priest
+en| Glory be to our God unto the age of the ages. Amen.
+ar| المجد لإلهنا إلي أبد الآبدين. آمين.
+
+@rubric
+en| At the conclusion of the Gospel, the priest censes it three times and says:
+ar| وعند ختام قراءة الإنجيل، يبخر الكاهن نحوه ثلاث أياد ويقول:
+
+@priest
+en| You are He to whom praise is du e from everyone with one voice, a long with glory, honor, majesty, and worship with Your Good Father and the Holy Spirit, the Giver of Life , who is of one essence with You, now and at all times and unto the age of all ages. Amen.
+ar| وأنت الذي ينبغي لك التمجيد بصوت واحد من كل أحد، المجد والإكرام والعظمة والسجود، مع أبيك الصالح والروح القدس المحيي المساوي لك الآن وكل أوان وإلى دهر الدهور كلها. آمين.
+
+@people
+en| Glory to You, O Lord.
+ar| المجد لك يا رب.
+
+@rubric
+en| From the Psalms of our teacher David, the prophet and king . M ay his blessings be with us all. The Psalm is read
+ar| من مزامير معلمنا داود النبي. بركاته على جميعنا. ويقرأ المزمور
+
+@rubric
+en| Blessed is He who comes in the Name of the Lord, our Lord, God, Savior, and King of us all, Jesus Christ the Son of the Living God, to Whom be glory forever. Amen.
+ar| مبارك الآتي باسم الرب. ربنا وإلهنا ومخلصنا يسوع المسيح ابن الله الحي. الذي له المجد الدائم...إلى الأبد. آمين.
+
+@rubric
+en| The Gospel is read
+ar| ويقرأ الإنجيل
+
+@rubric
+en| Glory be to God forever. During the reading of the Gospel, the fellow priest or serving priest says the following prayer to the Father inaudibly while holding the censer in his hand:
+ar| والمجد هلل دائماً. وأثناء تلاوة الإنجيل، يقول الكاهن الشريك أو الخديم هذه الصلاة للآب سراً والمجمرة في يده:
+
+@people
+en| O You who are longsuffering, abundant in mercy and true, receive from us our prayers and supplications, receive from us our petitions, repentance, and confession upon Your holy, undefiled altar in heaven. May we be made worthy to hear Your Holy Gospels, and may we keep Your precepts and commandments and bring forth fruit therein, a hundredfold, sixtyfold, and thirtyfold, in Christ Jesus our Lord. Remember, O Lord, the sick among Your people; visit them with mercy and compassion; heal them. Remember, O Lord, our fathers and brethren who are traveling; bring them back to their homes in peace and safety. Remember, O Lord, the air of heaven and the fruits of the earth; bless them. Remember, O Lord, the waters of the river; bless them; raise them up to their measure according to Your grace. Remember, O Lord, the seeds, the herbs, and the plants of the field; bless them. Remember, O Lord, the safety of the men and the beasts. Remember, O Lord, the salvation of this, Your holy place, and every place and every monastery of our orthodox fathers. Remember, O Lord the president (king) of our land, Your servant; keep him in peace, truth, and strength. Remember, O Lord, those who are in captivity; save them all. Remember, O Lord, our fathers and brethren who have fallen asleep and reposed in the orthodox faith; repose all their souls. Remember, O Lord, those who have brought to You these gifts and those on whose behalf they have been brought, and those by whom they have been brought. Give them all the heavenly reward. Remember, O Lord, those who are distressed in hardships and oppressions; save them from all their hardships. Remember, O Lord the catechumens of Your people; have mercy upon them; confirm their faith in You; uproot all traces of idolatry from their hearts. Your law, Your fear, Your commandments, Your truths, and Your holy precepts, establish in their hearts. Grant that they may know the certainty of the words they have received. And in the set time, may they be worthy of the washing of the new birth for the remission of their sins, as You prepare them to be a temple of Your Holy Spirit. By the grace, compassion, and love of mankind, of Your only-begotten Son, our Lord, God and Savior Jesus Christ. Through Whom the glory, the honor, the dominion, and the worship are due unto You, with Him and the Holy Spirit, the Giver of Life, Who is of one essence with You. Now and at all times and unto the ages of all ages. Amen.
+ar| أيها الطويل الأناة، الكثير الرحمة الحقيقي، إقبل سؤالاتنا وطلباتنا منا، إقبل إبتهالاتنا وتوبتنا وإعترافنا على مذبحك المقدس غير الدنس السمائي. فلنستحق سماع أناجيلك المقدسة ونحفظ وصاياك وأوامرك ونثمر فيها بمائة وستين وثلاثين بالمسيح يسوع ربنا. أذكر يا رب مرضي شعبك، إفتقدهم بالمراحم والرأفات إشفهم. أذكر يا رب آباءنا وأخوتنا المسافرين، ردهم إلى أوطانهم بسلام وعافية. أذكر يا رب أهوية السماء وثمرات الأرض، باركها. أذكر يا رب مياه النهر، باركها، أصعدها كمقدارها كنعمتك. أذكر يا رب الزروع والعشب ونبات الحقل، باركها. اذكر يا رب خلاص الناس والدواب. أذكر يا رب خلاص هذا الموضع المقدس الذي لك وكل المواضع وكل أديرة آبائنا الأرثوذكسيين. أذكر يا رب رئيس (ملك) أرضنا عبدك، إحفظه في سلام وعدل وقوة. أذكر يا رب المسبيين نجهم جميعاً. أذكر يا رب آبائنا وإخواتنا الذين رقدوا وتنيحوا في الإيمان الأرثوذكسي، نيح نفوسهم أجمعين. أذكر يا رب الذين قدموا لك هذه القرابين، والذين قدمت عنهم، والذين قدمت بواسطتهم، أعطهم كلهم الأجر السمائي. أذكر يا رب المتضايقين في الشدائد والضيقات، خلصهم من جميع شدائدهم. اذكر يا رب موعوظي شعبك، ارحمهم، ثبتهم في الإيمان بك. كل بقية عبادة الأوثان، إنزعها من قلوبهم. ناموسك، خوفك، وصاياك، حقوقك، اوامرك المقدسة، ثبتها في قلوبهم. امنحهم ان يعرفوا ثبات الكلام الذي وعظوا به، وفي الزمان المحدد فليستحقوا حميم الميلاد الجديد لغفران خطاياهم، إذ تعدهم هيكلًا لروحك القدوس. بالنعمة والرأفات ومحبة البشر اللواتي لابنك الوحيد ربنا وإلهنا ومخلصنا يسوع المسيح. هذا الذي ينبغي من قبله المجد والإكرام والعز والسجود يليق بك معه، ومع الروح القدس المحيي المساوي لك. الآن وكل أوان وإلى دهر الدهور كلها. آمين.

@@ -1,0 +1,34 @@
+source: The Divine Liturgies of Saints Basil, Gregory and Cyril (Coptic, English and Arabic), Fr. Jacob Nadian, St. Bishoy Coptic Orthodox Church of Toronto, Stouffville, Ontario, Canada.
+source-ar: الثلاثة قداسات للقديسين باسيليوس واغريغوريوس وكيرلس (قبطي وإنجليزي وعربي)، الأب يعقوب نادين، كنيسة الأنبا بيشوي القبطية الأرثوذكسية بتورونتو، ستوفيل، أونتاريو، كندا.
+
+@priest
+en| The place out of which grief, sorrow and groaning have fled away, in the light of Your saints.
+ar| الموضع الذي هرب منه الحزنُ والكآبةُ والتنهدُ في نوِر قديسيك.
+
+@rubric
+en| The deacons may say the commomeration of the early fathers the patriarchs.
+ar| يمكن أن يقول الشمامسة تذكارات الآباء البطاركة السالفين، إن أرادوا.
+
+@deacon
+en| Through the prayers and intercessions of our lady, the all-holy, full of glorify, pure and most blessed Theotokos and ever-virgin Mary. And the holy prophet, forerunner and baptizer, John the martyr. And St. Stephen, the archdeacons, and protomartyr. And the holy and glorious apostles, prophets, and victorious martyrs, and all the choirs of Your saints. Abba ( … ) the master and archbishop of the great city of Alexandria, and of our grateful Orthodox Bishops. And for the sake of the departed and their departure, and our fathers the saints. First, Saint Mark the Apostle, the evangelist, the archbishop, and martyr. And all those who have rightly taught the word of truth: the Orthodox bishops, priests, deacons, clergy, laity, and all the Orthodox people. Amen.
+ar| الشماس: بصلوات وشفاعات ذات كل قداسة، الممجدة الطاهرة المباركة سيدتنا والدة الإله الدائمة البتولية مريم. والقديس النبي السابق المعمدان الشهيد يوحنا. والقديس إستفانوس رئيس الشمامسة وأول الشهداء. والقديسين الرسل الممجدين والأنبياء والحسني الظفر الشهداء وكل مصاف القديسين. أنبا (...) السيد رئيس أساقفة المدينة العظمي الاسكندرية، وأساقفتنا الأرثوذكسيين، المشكورين. ومن أجل الراقدين ونياحتهم وآبائنا القديسين. الأول، القديس مرقس الرسول الإنجيلي ورئيس الأساقفة والشهيد. وجميع الذين علموا كلمة الحق باستقامة، الأساقفة الارثوذكسيين والقسوس والإكليروس والعلمانيون. هؤلاء وجميع الارثوذكسيين. آمين.
+
+@deacon
+en| The great Abba Anthony, and the righteous Abba Paul, the three saints Abba Macarii, Abba John the short, Abba Pishoy, Abba Paul, our holy Roman fathers Maximus and Dometius, Abba Moses, Abba John Kame, Abba Daniel, Abba Isidore, Abba Pachom, Abba Shenoute and Abba Paphnoute, Abba Parsoma, Abba Teji. And all those who have rightly taught the word of truth: the Orthodox bishops, priests, deacons, clergy, laity, and all the Orthodox people. Amen.
+ar| الشماس: العظيم أنبا أنطونيوس، والبار أنبا بولا، والقديسون الثلاثة مقارات، أنبا يؤنس القصير، أنبا بيشوي، أنبا بولا، أبوانا القديسان الروميان مكسيموس ودوماديوس، أنبا موسى، أنبا يؤانس كاما، أنبا دانيال، أنبا ايسيذوروس، أنبا باخوم، أنبا شنودة، وأنبا بفنوتى، أنبا برسوم، أنبا رويس. وجميع الذين علموا كلمة الحق باستقامة، الأساقفة الارثوذكسيين والقسوس والإكليروس والعلمانيون. هؤلاء وجميع الارثوذكسيين. آمين.
+
+@people
+en| May their Holy blessings be with us. Amen. Glory to You, O Lord. Lord have mercy. Lord have mercy. Lord, bless us. Lord, repose them. Amen.
+ar| بركتهم المقدسة تكون معنا. آمين. المجد لك يا رب، يا رب لك المجد. يا رب ارحم. يا رب ارحم. يا رب باركنا. يا رب نيحهم. آمين.
+
+@rubric
+en| After the commomeration of the departed, the priest, with his hands extended on high, continues saying:
+ar| وبعد الترحيم، يقول الكاهن ما يلي، ويداه مبسوطتان إلي العلو:
+
+@priest
+en| Those, O Lord, whose souls You have taken, repose them in the paradise of joy, in the region of the living forever, in the heavenly Jerusalem in that place. And we too, who are sojourners in this place, keep us in Your faith, and grant us Your peace unto the end.
+ar| أولئك يا رب، الذين أخذت نفوسهم، نيحهم في فردوس النعيم، في كورة الأحياء إلي الأبد، في أورشليم السمائية، في ذلك الموضع. ونحن أيضاً الغرباء في هذا المكان، احفظنا في ايمانك، وأنعم لنا بسلامك إلى التمام.
+
+@people
+en| As it was and shall be, it is from generation to generation, and unto all the ages of the ages. Amen.
+ar| كما كان وهكذا يكون، من جيل إلي جيل، وإلي دهر الدهور. آمين.

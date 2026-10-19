@@ -1,0 +1,600 @@
+source: The Divine Liturgies of Saints Basil, Gregory and Cyril (Coptic, English and Arabic), Fr. Jacob Nadian, St. Bishoy Coptic Orthodox Church of Toronto, Stouffville, Ontario, Canada.
+source-ar: الثلاثة قداسات للقديسين باسيليوس واغريغوريوس وكيرلس (قبطي وإنجليزي وعربي)، الأب يعقوب نادين، كنيسة الأنبا بيشوي القبطية الأرثوذكسية بتورونتو، ستوفيل، أونتاريو، كندا.
+
+@rubric
+en| Here, the priest signs on gifts on the altar with the censer, from East to West and from North to South, saying:
+ar| هنا يرشم الكاهن بالمجمرة علي التقدمات فوق المذبح من الشرق إلي الغرب ومن الشمال إلي الجنوب وهو يقول:
+
+@priest
+en| From the east to the west and from the north to the south.
+ar| من مشارق الشمس إلي مغاربها، ومن الشمال إلى الجنوب.
+
+@rubric
+en| Here, the priest offers incense over the gifts, saying:
+ar| هنا يرفع الكاهن البخور فوق التقدمات (في الصينية والكأس) وهو يقول:
+
+@priest
+en| For great is Your name, O Lord, among all the nations, and in every place incense is offered unto Your holy name, and a pure sacrifice, and unto this sacrifice and this off ering.
+ar| لأن اسمك عظيم يا رب في جميع الأمم. وفي كل مكان يقدَّم بخور لإسمك القدوس، وصعيدة طاهرة، وعلى هذه الذبيحة وهذا القربان.
+
+@people
+en| Lord have mercy.
+ar| يا ربُ إرحم.
+
+@priest
+en| We ask and entreat Your goodness, O Lover of Mankind, remember, O Lord, the peace of your one, only, holy, catholic, and apostolic Church.
+ar| نسأل ونطلبُ من صلاحك يا محب البشر، اذكر يا رب سلام كنيستك الواحدة الوحيدة المقدسة الجامعة الرسولية.
+
+@deacon
+en| Pray for the peace of the one, only, holy, catholic, and apostolic Church, for God’s salvation among the people, for stability in all places, that He may forgive us our sins.
+ar| اطلبوا عن سلام الكنيسة الواحدة الوحيدة المقدسة الجامعة الرسولية، وخلاص الله في الشعوب، والهدوء في كل مكان، ويغفر لنا خطايانا.
+
+@people
+en| Lord have mercy.
+ar| يا ربُ إرحم.
+
+@priest
+en| This which exists from one end of the world to the other. All peoples and all flocks, bless. The heavenly peace, send down into all our hearts; even the peace of this life, graciously grant to us. The king (president), the armies, the rulers, the counselors, the multitudes, our neighbors, our coming in and our going out, adorn them with all peace. O King of Peace, grant us Your peace; for You have given us all things. Acquire us to Yourself, O God our Savior, for we know none other but You. Your Holy name we utter. May our souls live by Your Holy Spirit. And let not the death of sin have dominion over us, we Your servants, (nor over all Your people.) *
+ar| هذه الكائنة من أقاصى المسكونة إلى أقاصيها. كل الشعوب وكل القطعان. باركهم. السلام الذى من السموات انزله على قلوبنا جميعا. بل وسلام هذا العمر أنعم به علينا إنعاما. الملك (الرئيس) والجند والأراخنة والمشيرين والجموع وجيراننا ومداخلنا ومخارجنا، زينهم بكل سلام. يا ملك السلام، أعطنا سلامك، لان كل شئ قد أعطيتنا. اقتننا لك يا الله مخلصنا لاننا لا نعرفُ آخرَ سواك، إسمُك القدوس هو الذى نقوله. فلتحي نفوسُنا بروحِّك القدوس. ولا تدع موت الخطية يقوى علينا، نحنُ عبيدك، (ولا على كلِّ شعـِبك.)*
+
+@people
+en| Lord have mercy.
+ar| يا ربُ إرحم.
+
+@rubric
+en| * Said by the pope or a metropolitan or a bishop , if present:
+ar| * يقولها الآب البابا أو المطران أو الأسقف إذا كان حاضراً.
+
+@priest
+en| T he sick among Your people.
+ar| مرضي شعبك.
+
+@deacon
+en| Pray for our fathers and our brethren who are sick with any sickness, whether in this place or in any place, that Christ our God may grant us, with them, health and healing, and forgive us our sins.
+ar| : أطلبوا عن آبائنا وأخوتنا المرضي بكلَّ مرضٍ، إن كان في هذا المسكن أو بكلَّ موضع، لكي المسيح إلهنا ينعم لنا ولهم بالعافية والشفاء ويغفر لنا خطايانا.
+
+@people
+en| Lord have mercy.
+ar| يا رب ارحم.
+
+@priest
+en| You have visited them with mercies and compassion, heal them. Take away from them, and from us, all sickness and all disease; the spirit of sickness, chase away. Those who have long lain in sickness raise up and comfort. Those who are afflicted by unclean spirits, set them all free. Those who are in prisons or dungeons, those who are in exile or captivity, and those who are held in bitter bondage, O Lord, set them all free and have mercy upon them. For You are He who loosens the bound and uplifts the fallen; the hope of those who have no hope and the help of those who have no helper; the comfort of the fainthearted; the harbor of those in the storm. All souls that are distressed or bound, gr ant them mercy, O Lord; grant them rest, grant them refreshment, grant them grace, grant them help, grant them salvation, grant them the forgiveness of their sins and their iniquities. As for us also, O Lord, the maladies of our souls, heal; and those of our bodies too, do cure. O You, the true Physician of our souls and our bodies, the Bishop of all flesh, visit us with Your salvation.
+ar| تعهّدهم بالمراحم والرأفات إشفهم. إنزع عنهم وعنا كلّ مرضٍ وكلّ سقمٍ، وروح الأمراض أطرده. والذين أبطأوا مطروحين في الأمراض أقمهم وعزهم. والمعذبين من الأرواح النجسة، اعتقهم جميعاً. الذين في السجون أو المطابق أو الذين في النفي أو السبي أو المقبوض عليهم في عبودية مرة، يا رب اعتقهم جميعهم وارحمهم. لأنك أنت الذي تحل المربوطين وتقيم الساقطين. رجاء من ليس له رجاء، ومعين من ليس له معين. عزاء صغيري القلوب، ميناء الذين في العاصف. كل الأنفس المتضايقة، والمقبوض عليها، أعطها يا رب رحمةَ، أعطها نياحاً، أعطها برودة، أعطها نعمة، أعطها معونة، أعطها خلاصاً، أعطها غفران خطاياها وآثامها. ونحن أيضا يا رب، أمراض نفوسنا، اشفها والتي لأجسادنا، عافها. أيها الطبيب الحقيقي الذي لأنفسنا، وأجسادنا، يا مدبر كلّ جسدٍ تعهدنا بخلاصك.
+
+@people
+en| Lord have mercy.
+ar| يا رب ارحم.
+
+@priest
+en| O ur fathers and brethren who are traveling.
+ar| آباءنا وإخوتنا المسـافرين.
+
+@deacon
+en| Pray for our fathers and our brethren who are traveling, or those w ho intend to travel anywhere, that God may straighten all their ways, whether by sea, rivers, lakes, roads, (air), or those who are traveling by any other means, that Christ our God may bring them back to their own homes in peace, and forgive us our sins.
+ar| أطلبوا عن آبائنا وإخوتنا المسافرين، والذين يضمرون السفر في كل موضع، لكي يُسهل طرقهم أجمعين، إن كان في البحر أو الأنهار أو البحيرات أو الطرق المسلوكة (أو الجو) أو المسافرين بكل نوع، لكي المسيح إلهنا يردهم إلى مساكنهم سالمين، ويغفر لنا خطايانا.
+
+@people
+en| Lord have mercy.
+ar| يا رب ارحم.
+
+@priest
+en| And those who intend to travel anywhere, straighten all their ways, whether by sea, rivers, lakes, roads, (air) or those who are traveling by any other means, everyone anywhere. Lead them into a haven of calm, a haven of safety. Graciously accompany them in their departure and be their companion in their travel. Bring them back to their own, rejoicing with joy and safe in security. In work, be a partner with Your servants in every good deed. As for us, O Lord, keep our sojourn in this life without harm, without storm, and undisturbed to the end.
+ar| والذين يضمرون السفر في كل مكان سهل طرقهم أجمعين، إن كان في البحر أو الأنهار أو البحيرات أو الطرق المسلوكة (أو الجو) أو السالكين بكل نوع، كل أحد بكل موضع، ردهم إلى ميناء هادئة، ميناء الخلاص. تفضل اصحبهم في الإقلاع، واصحبهم في المسير. ردهم إلى منازلهم بالفرح فرحين، وبالعافية معافين. اشترك في العمل مع عبيدك في كل عمل صالح. ونحن أيضاً يا رب غربتنا في هذا العمر، احفظها بغير مضرة ولا عاصف ولا قلق إلى الانقضاء.
+
+@people
+en| Lord have mercy.
+ar| يا رب ارحم.
+
+@rubric
+en| The priest says the appropriate prayer according to the season, either the Litany of the Waters, the Litany of the seed, or the Litany of the Fruits.
+ar| هنا يقول الكاهن ما يوافق الوقت من أوشية المياه أو أوشية الزروع أو أوشية الثمار.
+
+@people
+en| 19 9 12
+ar| من بؤونة إلي بابة ( يونية إلي
+
+@rubric
+en| From Paoni 12 to Paapi 9 (June 19 to October 19/20,
+
+@people
+en| 20 19
+ar| / أكتوبر) يقول أوشية المياه هذه.
+
+@rubric
+en| the Litany of the Waters is said:
+
+@priest
+en| Graciously accord, O Lord to bless the waters of the river this year.
+ar| تفضل يا رب مياه النهر في هذه السنة، باركها.
+
+@deacon
+en| Pray for the rising of the waters of the rivers this year, that Christ our God may bless them and raise them according to their measure, that He may give joy to the face of the earth, sustain us, the sons of men, save the cattle, and forgive us our sins.
+ar| اطلبوا عن صعود مياه الأنهار في هذه السنة لكي يباركها المسيح إلهنا ويصعدها كمقدارها ويفرح وجه الأرض ويعولنا نحن البشر ويعطي النجاة للبهائم ويغفر لنا خطايانا.
+
+@people
+en| Lord have mercy. Lord have mercy. Lord have mercy.
+ar| يا رب إرحم. يا رب إرحم. يا رب إرحم.
+
+@rubric
+en| From Paapi 10 to Tobi 10 (October 20/21 to January 21 20 10 10 18/19), the Litany of the Plants is said: 19 18
+ar| ومن بابة إلي طوبة ( / أكتوبر إلي / يناير) يقول أوشية الزروع.
+
+@priest
+en| Graciously accord, O Lord to bless the seeds, the herbs, and the plants of the field this year.
+ar| تفضل يا رب الزروع والعشب ونبات الحقل في هذه السنة، باركها.
+
+@deacon
+en| Pray for the seeds, the herbs, and the plants of the field this year, that Christ our God may bless them to grow and multiply to perfection with great fruit, have compassion on His creation which His Hands have made, and forgive us our sins.
+ar| اطلبوا عن الزروع والعشب ونبات الحقل في هذه السنة، لكي يباركها المسيح إلهنا، لتنمو وتكثر إلي أن تكمل بثمرة عظيمة، ويتحنن علي جبلته التي صنعتها يداه، ويغفر لنا خطايانا.
+
+@people
+en| Lord have mercy. Lord have mercy. Lord have mercy.
+ar| يا رب إرحم. يا رب إرحم. يا رب إرحم.
+
+@rubric
+en| From Tobi 11 to Paoni 11 (January 19/20 to June 18), 20 19 11 11 the Litany of the Fruits is said: 18
+ar| ومن طوبة إلي بؤونة ( / يناير إلي يونية)، يقول أوشية أهوية الثمار.
+
+@people
+en| Priest : Graciously accord, O Lord to bless the air of heaven and the fruits of the earth this year.
+ar| تفضل يا رب أهوية السماء وثمرات الأرض في هذه السنة، باركها.
+
+@deacon
+en| Pray for the air of heaven, the fruits of the earth, the trees, the vines, and for every fruit-bearing tree in all the world, that Christ our God may bless them, bring them to perfection in peace without harm, and forgive us our sins.
+ar| اطلبوا عن أهوية السماء وثمرات الأرض والشجر والكروم، وكل شجرة مثمرة في كل المسكونة، لكي يباركها المسيح إلهنا، ويكملها سالمة بغير آلم، ويغفر لنا خطايانا.
+
+@people
+en| Lord have mercy. Lord have mercy. Lord have mercy.
+ar| يا رب إرحم. يا رب إرحم. يا رب إرحم.
+
+@rubric
+en| The three litanies may be combined as follows :
+ar| ويمكن أن يقال الثلاثة أواشي معا.
+
+@priest
+en| Graciously accord, O Lord, to bless the air of heaven and the fruits of the earth, the waters of the rivers, the seeds, the herbs, and the plants of the field this year.
+ar| تفضل يا رب أهوية السماء وثمرات الأرض ومياه النهر والزروع والعشب ونبات الحقل في هذه السنة، باركها.
+
+@deacon
+en| Pray for the air of heaven, the fruits of the earth, the rising of the waters of the rivers, the seeds, the herbs, and the plants of the field, that Christ our God may bless them, have compassion on His creation which His hands have made, and forgive us our sins.
+ar| اطلبوا عن أهوية السماء وثمرات الأرض وصعود مياه الأنهار والزروع والعشب ونبات الحقل في هذه السنة لكي يباركها المسيح إلهنا ويتحنن على جبلته التي صنعتها يداه ويغفر لنا خطايانا.
+
+@people
+en| Lord have mercy. Lord have mercy. Lord have mercy.
+ar| يا رب إرحم. يا رب إرحم. يا رب إرحم.
+
+@rubric
+en| After any one of these three litanies, or the combined litany, the priest continues with the following:
+ar| وبعد كل أوشية من هذه الثلاثة، أو الاوشية الموحدة، يكمل الكاهن قائلًا:
+
+@priest
+en| Raise them to their measure according to Your grace. Give joy to the face of the earth. May its furrows be abundantly watered and its fruits be plentiful. Prepare it for sowing and harvesting. Manage our lives as deemed fit. Bless the crown of the year with Your goodness for the sake of the poor of Your people, the widow, the orphan, the traveler, the stranger, and for the sake of us all who entreat You and seek Your Holy Name. For the eyes of everyone wait upon You, for You give them their food in due season. Deal with us according to Your goodness, O You who give food to all flesh. Fill our hearts with joy and gladness that we too, having sufficiency in every thing always, may abound in every good deed.
+ar| اصعدها كمقدارها كنعمتك، فرح وجه الأرض ليرو حرثها ولتكثر أثمارها. أعدها للزرع والحصاد، ودبر حياتنا كما يليق. بارك اكليل السنة بصلاحك من أجل فقراء شعبك، من أجل الارملة واليتيم، والغريب والضيف، ومن أجلنا كلنا نحن الذين نرجوك ونطلب اسمك القدوس. لأن أعين الكل تترجاك، لأنك أنت الذي تعطيهم طعامهم في حين حسن. اصنع معنا حسب صلاحك، يا معطيا طعاما لكل جسد. املأ قلوبنا فرحا ونعيم، لكي نحن أيضا إذ يكون لنا الكفاية في كل شئ، كل حين نزداد في كل عمل صالح.
+
+@people
+en| Lord have mercy.
+ar| يا ربُ إرحم.
+
+@priest
+en| The president (king) of our land, Your servant .
+ar| رئيس (ملك) أرضنا عبدك.
+
+@deacon
+en| Pray that Christ our God may grant us mercy and compassion before the ruling authorities, and soften their heart toward us for th at which is good at all times , and forgive us our sins.
+ar| اطلبوا لكى يعطينا المسيح الهنا رحمة ورأفة أمام الرؤساء الأعزاء، ويعطف قلوبهم علينا بالصلاح فى كل حين، ويغفر لنا خطايانا.
+
+@people
+en| Lord have mercy.
+ar| يا رب إرحم.
+
+@priest
+en| Keep him in peace, justice and strength . Subdue all the barbarians and nations that desire war against all our prosperity .
+ar| احفظة فى سلام وعدل وقوة. ولتخضع له كل البربر والأمم الذين يريدون الحرب فى جميع ما لنا من الخصب.
+
+@priest
+en| For no one is pure and without blemish even though his life on earth be a single day. As for those, O Lord, whose souls You have taken, repose them, and may they be worthy of the kingdom of the heavens. As for us all, grant us our Christian perfection that would be pleasing to You, and give them and us a share and an inheritance with all Your saints.
+ar| فانه ليس أحدٌ طاهراً من دنس، ولو كانت حياتُه يوماً واحداً علي الأرض. أما هم يا ربُ الذين أخذت نفوسَهم، نيحهم وليستحقوا ملكوت السمواتِ. وأما نحنُ كلُّنا فهب لنا كماَلنا المسيحي الذي يرضيك أمامك. وأعطهم وإيانا نصيباً وميراثاً مع كافة قديسيكَ.
+
+@people
+en| Lord have mercy.
+ar| يا رب ارحم.
+
+@rubric
+en| The priest puts in cense into the censer, and censes over the paten and the chalice, saying:
+ar| يقول الكاهن وهو يضع البخور في المجمرة ويبخر فوق الصينية والكأس:
+
+@priest
+en| The sacrifices, the offerings.
+ar| الصعائد والقرابين.
+
+@deacon
+en| Pray for those who tend to the sacrifices, offerings, first-fruits, oil, incense, coverings, reading books, and altar vessels, that Christ our God may reward them in the heavenly Jerusalem, and forgive us our sins.
+ar| اطلبوا عن المهتمين بالصعائد، والقرابين، والبكور، والزيت، والبخور، والستور، وكتب القراءة، وأواني المذبح، لكي المسيح إلهنا يكافئهم في أورشليم السمائية، ويغفر لنا خطايانا.
+
+@people
+en| Lord have mercy.
+ar| يا رب ارحم.
+
+@priest
+en| And the thanksgivings of those who have offered to the honor and glory of Your holy name. Receive them upon Your holy, rational altar of heaven as a sweet savor of incense before Your greatness in the heavens, through the service of Your holy angels and archangels. As You have received the gifts of the righteous Abel, the sacrifice of our father Abraham, and the two mites of the widow, so also receive the thank offerings of Your servants, those in abundance or those in scarcity, hidden or manifest. Those who desire to offer to You but have none, and those who have offered these gifts to You this very day. Give them the incorruptible instead of the corruptible, the heavenly instead of the earthly, and the eternal instead of the temporal. Their houses and their stores, fill them with every good thing.
+ar| وتشكرات الذين قرّبوا كرامة ومجداّ لاسمك القدوس. اقبلها إليك علي مذبحك المقدس، الناطق السمائي رائحة بخور، تدخل إلي عظمتك التي في السموات. بواسطة خدمة ملائكتك ورؤساء ملائكتك القديسين. وكما قبلت إليك قرابين هابيل الصديق وذبيحة أبينا إبراهيم وفلسي الأرملة. هكذا أيضا نذور عبيدك، اقبلها إليك، أصحاب الكثير وأصحاب القليل، الخفيات والظاهرات. والذين يريدون أن يقدموا لك وليس لهـم، والذين قدموا لك في هذا اليوم هذه القرابين. أعطهم الباقيات عوض الفـانيـات، السمائيــات عِــوَض الأرضيات، الأبـديـات عِوَض الزمنيات، بيوتهم ومخازنهم أملأها من كل الخيرات.
+
+@rubric
+en| The priest faces west and censes the people, saying:
+ar| يحول الكاهن وجهه إلي الغرب ويبخر الشعب قائلًا:
+
+@priest
+en| Surround them, O Lord, by the power of Your holy angels and archangels. And as they remembered Your holy name on earth, remember them also, O Lord, in Your kingdom, and in this age too, leave them not behind.
+ar| أحطهم يا رب بقوة ملائكتك، ورؤساء ملائكتك الاطهار. وكما ذكروا اسمك القدوس علي الأرض أذكرهـم هم أيضـاً يا رب فـي ملكوتك، وفـي هـذا الـدهر لا تتركهم عنـك.
+
+@people
+en| Lord have mercy.
+ar| يا رب ارحم.
+
+@priest
+en| Our honored patriarch and father, the high priest, Pope Abba (…), and his spiritual brothers, the Patriarch of Antioch Mar Ignatius (…) and the Patriarch of Eritrea Abouna (…).
+ar| بطريركنا الأب المكرم رئيس الكهنة البابا أنبا (...) وأخويه الروحيين مار أغناطيوس (...) بطريرك أنطاكية وأبونا (...) بطريرك أريتريا.
+
+@deacon
+en| Pray for the life and standing of our honored father, the high priest, Pope Abba (…), and his spiritual brothers the Patriarch of Antioch Mar Ignatius (…) and the Patriarch of Eritrea Abouna (…) , that Christ our God may keep their life for us for many years and peaceful times, and forgive us our sins.
+ar| أطلبوا عن حياة وقيام أبينا المكرم رئيس الكهنة البابا أنبا (...) وأخويه الروحيين مار أغناطيوس (...) بطريرك أنطاكية وأبونا (...) بطريرك أريتريا. لكي المسيح إلهنا يحفظ لنا حياتهم سنين عديدة وأزمنة سالمة ويغفر لنا خطايانا.
+
+@priest
+en| In keeping keep them for us for many years and peaceful times. Fulfilling that holy high priesthood with which You have entrusted them for Yourself, according to Your holy and blessed will, rightly dividing the word of truth, shepherding Your people in purity and righteousness, Grant them and us peace and safety in every place. Their prayers which they offer on our behalf, (and on behalf of all Your people)*, as well as ours on their behalf,
+ar| حفظاً إحفظهم لنا سنين كثيرة وأزمنة سلامية. مكملين رئاسة الكهنوت المقدسة التي ائتمنتهم عليها من قبـلك، كإرادتك المقدسة الطوباوية. مفصلين كلمة الحق باستقامة، راعين شعبك بطهارة وبر. أنعم عليهم وعلينا بالسلام والعافية في كل موضع. وصلواتهم التي يقدمونها عنا، (وعن كل شعبك)* وصلواتنا نحن أيضا عنهم.
+
+@rubric
+en| * Said by the pope, a metropolitan or a bishop, if present. The deacon presents the censer to the priest, who puts a spoonful of incense into it, while saying:
+ar| * يقولها الأب البابا أو المطران أو الأسقف إن كان حاضراً. هنا يقدم الشماس المجمرة إلي الكاهن فيضع فيها يد بخور واحدة وهو يقول:
+
+@priest
+en| Receive them upon Your holy, rational a ltar of heaven, as a sweet savor of incense. All their enemies, visible and invisible, trample and humiliate under their feet speedily. As for them, keep them in peace and righteousness in Your holy Church.
+ar| إقبلها إليك علي مذبحك المقدس الناطق السمائى رائحة بخور. فسائر أعدائهم الذين يرون والذين لا يرون، اسحقهم وأذلهم تحت أرجلهم سريعا. وأما هم فاحفظهم في سلام وعدل في كنيستك المقدسة.
+
+@people
+en| Lord have mercy.
+ar| يا ربُ إرحم.
+
+@rubric
+en| If a metropolitan or a bishop is present:
+ar| في وجود الأب المطران أو الأسقفً:
+
+@priest
+en| Remember, O Lord, our father the metropolitan (bishop), Abba (…) . And all the orthodox bishops in all places.
+ar| الكاهن: اذكر يا رب أبانا المطران (الأسقف) المكرم الأنبا (...). وسائر الأساقفة الأرثوذكسيين الذين في كل موضع.
+
+@deacon
+en| Pray for our father the metropolitan (bishop), Abba (…), and our fathers the orthodox bishops in every place of the whole world, and the hegumens, the priests, the deacons, and all the orders of the Church, that Christ our God may keep them from every evil, and forgive us our sin.
+ar| أطلبوا عن أبينا المطران (الأسقف) المكرم الأنبا (...) وعن كل آبائنا الأساقفة الأرثوذكسيين الذين في كل مواضع المسكونة، والقمامصة والقسوس والشمامسة، وكل طغمات الكنيسة، لكيْ يحفظهم المسيح إلهنا من كل شر، ويغفر لنا خطايانا.
+
+@rubric
+en| In the absence of a metropolitan or a bishop:
+ar| في عدم وجود الأب المطران أو الأسقفً:
+
+@priest
+en| Remember, O Lord, all the orthodox bishops in all places.
+ar| اذكر يا رب سائر الأساقفة الأرثوذكسيين الذين في كل موضع.
+
+@deacon
+en| Pray for our father orthodox bishops in every place of the whole world, and the hegumens, the priests, the deacons, and all the orders of the Church, that Christ our God may keep them from every evil, and forgive us our sin.
+ar| أطلبوا عن آبائنا الأساقفة الأرثوذكسيين الذين في كل مواضع المسكونة، والقمامصة والقسوس والشمامسة، وكل طغمات الكنيسة، لكيْ يحفظهم المسيح إلهنا من كل شر، ويغفر لنا خطايانا.
+
+@priest
+en| And the priests, the deacons, the subdeacons, the readers, the chanters, the exorcists, the monks, the virgins, the widows, the orphans, the ascetics, and the laity. Those who are bound by wedlock and those who rear children. Those who said to us, "Remember us," and those who said not. Those whom we know and those whom we know not. Our enemies and our loved ones, O God, have mercy upon them.
+ar| والقسوس، والشمامسة، والابوذياكونيين، والاغنسطسيين، والمرتلين، والقُرَّاء، والرهبان، والعذارى، والأرامل، والأيتام، والنُساك، والعِلمانيين. والمتزوجين ومربي الأولاد. الذين قالوا لنا أذكرونا والذين لم يقولوا. الذين نعرفهم والذين لا نعرفهم. أعداءنا وأحباءنا، أللهم أرحمهم.
+
+@people
+en| Lord have mercy.
+ar| يا ربُ إرحم.
+
+@priest
+en| Remember, O Lord, the rest of the orthodox in every place of the world.
+ar| أذكر يا رب باقي الأرثوذكسيين الذين في كل موضع من المسكونة.
+
+@deacon
+en| Pray for the rest of the orthodox in every place of the whole world, that Christ our God may confirm t hem in the orthodox faith and keep them from every evil all the days of their lives, and forgive us our sins.
+ar| اطلبوا عن باقي الأرثوذكسيين الذين في كل مواضع المسكونة كلها، لكي المسيح إلهنا يثبتهم في الإيمان الأرثوذكسي، ويحفظهم من كل شر جميع أيام حياتهم، ويغفر لنا خطايانا.
+
+@people
+en| Lord have mercy.
+ar| يا ربُ إرحم.
+
+@priest
+en| Remember, O Lord , this Your holy place, and every place, every monastery of our orthodox fathers.
+ar| اذكر يا رب هذا الموضع المقدس الذي لك، وكل المواضع، وكل أديرة آبائنا الأرثوذكسيين.
+
+@deacon
+en| Pray for the safety of this holy place and every place, and every monastery of our orthodox fathers; the deserts and the elders who dwell therein; and for the safety of the world altogether, that Christ our God may keep them from every evil, and forgive us our sins.
+ar| الشماس: أطلبوا عن طمأنينة هذا الموضع المقدس وكل موضع وكل دير لآبائنا الأرثوذكسيين والبراري والشيوخ السكان فيها وطمأنينية العالم أجمع معاً لكي يحفظهم المسيح إلهنا من كل شر ويغفر لنا خطايانا.
+
+@priest
+en| And every city and every region and village, and every house of the faithful. And keep us all in the orthodox faith to the last breath, for this alone is our hope.
+ar| وكل مدينة وكل كورة والقرى وكل بيوت المؤمنين. وإحفظنا كلنا في الإيمان الأرثوذكسي إلى النفس الأخير لأن هذا هو رجاؤنا.
+
+@people
+en| Lord have mercy.
+ar| يا رب إرحم.
+
+@priest
+en| Remember, O Lord, those who are standing in this place and who are participating with us in prayer.
+ar| أذكر يا رب القيام ههنا، والمشاركين لنا في الطلبة.
+
+@deacon
+en| Pray for those who are standing in this place and who are participating with us in prayer, that Christ our God may keep them and guard them, receive their prayers to Himself, and have mercy upon them, and forgive us our sins.
+ar| اطلبوا عن القيام في هذا الموضع، والمشتركين في الطلبة معنا، لكيْ يحفظهم المسيح إلهنا ويحرسهم، ويقبل إليه طلباتهم ويرحمهم، ويغفر لنا خطايانا.
+
+@priest
+en| Our fathers and our brethren, and the rest who are in every place of the world. And keep them with us by the hosts of the holy powers. And save us from the fiery, blazing darts of the Devil. From every diabolic wile, and from the snare of false justification.
+ar| آبائنا وإخوتنا وبقية الذين في كل موضع من المسكونة. إحفظهم، وإيانا بمعسكر القوات المقدسة. ونجنا من سهام إبليس المتقدة ناراً. وكل المصائد الشيطانية، ومن فخ التزكية الكاذبة.
+
+@people
+en| Lord have mercy.
+ar| يا رب إرحم.
+
+@priest
+en| Remember, O Lord, all those who have bidden us to remember them.
+ar| أذكر يا رب كل الذين أوصونا أن نذكرهم.
+
+@deacon
+en| Pray for those who have bidden us to remember them in our supplications and prayers, each one according to his name, that Christ our God may remember them in goodness at all times, and forgive us our sins.
+ar| اطلبوا عن كل الذين أوصونا أن نذكرهم في سؤالاتنا، وطلباتنا، كل أحد بإسمه، لكي المسيح إلهنا يذكرهم بالخير في كل حين، ويغفر لنا خطايانا.
+
+@priest
+en| In our prayers and supplications which we offer up unto You, O Lord our God. At this time of this holy liturgy. Those whom we remember at all times, as well as those in the mind of each one of us. And their memorial which has now taken place, may it be for them like a steadfast fortress, overcoming every harm of the demons and the counsel of wicked men.
+ar| في صلواتنا وطلباتنا التي نصنعها إليك أيها الرب إلهنا. كهذا الوقت الذي لهذا القداس الطاهر. الذين نذكرهم كل حين، والذين في فكر كل واحد منا. وتذكارهم الذي صار الآن، فليكن لهم مثل سور ثابت غالب لكل مضرات الشياطين، ومؤامرة الناس الأشرار.
+
+@people
+en| Lord have mercy.
+ar| يا رب إرحم.
+
+@deacon
+en| Worship God in fear and trembling.
+ar| اسجدوا هلل بخوف ورعدة.
+
+@deacon
+en| Priest (inaudibly): Remember, O Lord, my weak and wretched soul. Give me to understand the greatness of my standing before Your holy altar. Cut away from me all the pleasures of ignorance and those of youth. That th is might not be a burden to me at the defense of that fearful Day of Judgment. Save me from all the work of the adverse powers. Destroy me not with my iniquities, nor be angry forever, by reserving my evils against me. But rather show me also Your goodness in me, and save me; even I, the unworthy according to the multitude of Your mercy upon me.
+ar| (سراً): اذكر يا رب نفسي الضعيفة الشقية. وامنحني أن أفهم ما هو عظم قيامي أمام مذبحك المقدس. واقطع عني كل لذات الجهل والصبا. لكي لا يكون لي هذا ثقلًا في جواب يوم الدينونة المرهوبة. ونجني من كل أفعال القوات المضادة. ولا تهلكني بآثامي، ولا تغضب إلي الأبد فتحفظ لي شروري. بل أرني أنا أيضاً صلاحك فيّ، ونجني أنا غير المستحق ككثرة رحمتك عليَّ.
+
+@rubric
+en| The priest cries out in the ancient tune, saying :
+ar| ويصيح الكاهن هنا قائلًا بلحن العتيقة:
+
+@deacon
+en| (In Moses tune) That I may bless You at all times, all the days of my life.
+ar| (بلحن العتيقة) لكي أباركك كل حين جميع أيام حياتي.
+
+@people
+en| Lord have mercy.
+ar| يا ربُ إرحم.
+
+@priest
+en| Remember, O Lord, this, Your holy priesthood.
+ar| اذكر يا رب هذا الكهنوت المقدس، الذي لك.
+
+@deacon
+en| Pray for this holy priesthood and all the orthodox priestly orders, that Christ our God may hearken unto them, guard them, strengthen them, have mercy on them, and forgive us our sins.
+ar| اطلبوا عن هذا الكهنوت المقدس، وكل الرتب الكهنوتية الأرثوذكسية، لكيْ يستجيب لهم المسيح إلهنا، ويحرسهم ويقويهم ويرحمهم، ويغفر لنا خطايانا.
+
+@priest
+en| And all the orthodox holy orders, and all Your people who are standing before You. Remember us also, O Lord; O Lord of mercies and compassions, and blot out our iniquities as a good One and Lover of mankind. O God, be a partner residing with us that we may serve Your holy name.
+ar| وكل الرتب الكهنوتية الأرثوذكسية، وكل شعبك الواقف أمامك. اذكرنا نحن أيضاً يا رب، يا رب بالمراحم والرأفات، وامح آثامنا كصالح ومحب البشر. أللهم شاركنا الحلول معنا لنخدم اسمك القدوس.
+
+@people
+en| Lord have mercy.
+ar| يا ربُ إرحم.
+
+@rubric
+en| The priest makes the sign of the cross once on the people, saying:
+ar| هنا يرشم الشعب رشما واحداً وهو يقول:
+
+@priest
+en| Our assemblies , b less them.
+ar| اجتماعاتنا باركها.
+
+@deacon
+en| Pray for this assembly of ours, and for every assembly of the orthodox people , that Christ our God may bless them and perfect them in peace, and forgive us our sins.
+ar| أطلبوا عن اجتماعاتنا هذه وعن كل اجتماع الشعوب الأرثوذكسيين لكي يباركها المسيح إلهنا ويكملها بسلام ويغفر لنا خطايانا.
+
+@people
+en| Lord have mercy.
+ar| يا ربُ إرحم.
+
+@rubric
+en| The priest takes the censer and says:
+ar| يأخذ المجمرة ويقول:
+
+@people
+en| The worship of idols, utterly uproot from the world. Satan and all his evil powers, trample and humiliate under our feet speedily. All offenses and their instigators, abolish. Let the dissensions of corrupt heresies cease. The enemies of Your Holy Church, O Lord, as at all times, now also humiliate. Strip their vanity, show them their weakness speedily. Bring to naught their envy, their intrigues, their madness, their wickedness, and their slander, which they commit against us. O Lord, bring them all to no avail. Disperse their counsel, (In Moses tune) O God, who dispersed the counsel of Ahithophel.
+ar| عبادة الأوثان بتمامها، اقلعها من العالم. الشيطان وكل قواته الشريرة، اسحقهم وأذلهم تحت أقـدامنا سريعا. الشكوك وفاعليها ابطلهم، ولينقض افتراقات فساد البدع. أعداء كنيستك المقدسة يارب، مثل كل زمان، الآن أيضـاً أذلهم. حل تعاظمهم، عرفهم ضعفهم سريعا. ابطل حسدهم، وسعايتهم، وجنونهم، وشرهم، ونميمتهم التي يصنعونها فينا. يا رب اجعلهم كلهم كلا شئ، وبدد مشورتهم. (بلحن العتيقة) يا الله الذي بدد مشورة أخيتوفل.
+
+@people
+en| Amen. Lord have mercy.
+ar| آمين. يا ربُ إرحم.
+
+@rubric
+en| The priest censes towards the East above the altar, saying:
+ar| ثم يرفع الكاهن يده ويبخر شرقاً فوق المذبح وهو يقول:
+
+@priest
+en| Arise, O Lord God, let all Your enemies be scattered, and let all who hate Your holy name flee before Your face.
+ar| قم أيها الـرب الاله. وليتبدد جميع أعدائك. وليهرب من قدام وجهك كل مبغضي إسمك القدوس.
+
+@rubric
+en| The priest turns to the west and censes the the people, saying:
+ar| ثم يلتفت إلي الغرب ويعطي البخور للشعب وهو يقول:
+
+@priest
+en| But let Your people be in blessing, thousands of thousands and ten thousand times ten thousand, doing Your will.
+ar| وأما شعبك فليكن بالبركة، ألوفَ ألوفٍ وربواتِ ربواتٍ، يصنعون إرادَتك.
+
+@deacon
+en| You who are seated, stand. The First Litany
+ar| أيها الجلوس قفوا. الطلبة الأولى
+
+@priest
+en| Loose the bound. Save those who are in distress.
+ar| حِلَّ المربوطين. خلِّص الذين في الشدائد.
+
+@people
+en| Lord have mercy.
+ar| يا ربُ إرحم.
+
+@priest
+en| Satisfy the hungry. Comfort the faint-hearted.
+ar| الجياع أشبعهم. صغيري القلوب عزهم.
+
+@people
+en| Lord have mercy.
+ar| يا ربُ إرحم.
+
+@priest
+en| Raise the fallen. Confirm the upright.
+ar| الساقطين أقِمهم. القيام ثبتهم.
+
+@people
+en| Lord have mercy.
+ar| يا ربُ إرحم.
+
+@priest
+en| Return those who have strayed. Bring them all into the way of Your salvation.
+ar| الضالين ردهم. أدخلهم جميعاً إلى طريق خلاصك.
+
+@people
+en| Lord have mercy.
+ar| يا ربُ إرحم.
+
+@priest
+en| Count them with Your people. And we too, redeem us from our sins.
+ar| عدَّهم مع شعبك. ونحن أيضاً أنقذنا من خطايانا.
+
+@people
+en| Lord have mercy.
+ar| يا ربُ إرحم.
+
+@priest
+en| Guard us and cover us in all things.
+ar| صائراً حارساً وساتراً علينا في كل شئ.
+
+@people
+en| Lord have mercy.
+ar| يا ربُ إرحم.
+
+@deacon
+en| Look towards the east.
+ar| إلى الشرق أنظروا.
+
+@priest
+en| For You are God, who are above every principality and every authority, and every power and every dominion, and every name that is named, not only in this age, but also in that which is to come. You are He before whom stand thousands of thousands and ten thousand times ten thousand of holy angels and archangels, serving You. You are He before whom stand Your two most honored creatures, with their six wings and many e yes, the Seraphim and the Cherubim. With two wings they cover their faces on account of Your divinity that cannot be seen or comprehended, and with two they cover their feet, and with the other two they fly. Here thr p riest cries out saying: For at all times, every one of them hallows You. But with every one that hallows You, receive from us, we too, our hallowing O Lord, as we praise You with them saying:
+ar| لأنك أنت هو الله الذي فوق كل رئاسة وكل سلطان وكل قوة وكل سيادة وكل إسم يُسمى ليس في هذا الدهر فقط بل وفي الآتي. أنت الذي يقف أمامك ألوف ألوف، وربوات ربوات الملائكة، ورؤساء الملائكة، القديسين يخدمونك. أنت الذي يقوم أمامك كائناك الكريمان جداً، ذوا الستة الأجنحة، الكثيرا الأعين، السارافيم والشاروبيم. فبجناحين يغطون وجوههم من أجل لاهوتك الذي لا يستطاع النظر إليه ولا التفكر فيه، وبإثنين يغطون أرجلهم، ويطيرون بالإثنين الأخرين. هنا يصرخ الكاهن ويقول: لأن في كل زمان يقدسك كل أحد. لكن مع كل من يقدسك، إقبل تقديسنا منا نحن أيضاً يا رب، إذ نسبحك معهم قائلين:
+
+@deacon
+en| Let us attend.
+ar| فلننصت.
+
+@rubric
+en| The people may chant the for following short Aspasmos for annual days.
+ar| يقول الشعب هذا الاسبسمس المختصر السنوي.
+
+@people
+en| Holy , holy , holy, Lord of hosts . H eaven and earth are full of Your holy glory.
+ar| قدوس قدوس قدوس، رب الصاباؤت، السماء والأرض، مملوءتان من مجدك الأقدس.
+
+@rubric
+en| During the chanting of the above hymn, t he priest washes his hands three times, reciting the three verses of the Psalms mentioned in the Liturgy of St. Basil. The priest takes in his right hand the veil that is upon the chalice, and with it makes the sign of the cross three times; firstly, upon himself, his face being turned toward the East, then upon the deacons on his right hand, and lastly towards the west, upon the peo ple, saying “Holy ” each time:
+ar| وفي أثناء تلحينها، يغسل الكاهن يديه ثلاث دفعات مردداً قطع المزامير كما ذكر في القداس الباسيلي. ثم يأخذ الكاهن اللفافة الموضوعة علي الكأس بيده اليمني ويرشم بها ثلاثة رشوم، الأول علي ذاته وهو متجه إلي الشرق. والثاني علي الخدام عن يمينه. والثالث علي الشعب إلي الغرب. وفي كل رشم يقول "أجيوس ."
+
+@priest
+en| Holy, O Lord of hosts, heaven and earth are full of Your holy glory, O Lord our God. Truly, heaven and earth are full of Your holy glory. Through Your only-begotten Son, our Lord, God, Savior, and King of us all, Jesus Christ. Fill this, Your sacrifice, O Lord, with the blessing,
+ar| قدوس رب الجنود. السماء والأرض مملوءتان من مجدك الأقدس. أيها الرب إلهنا. بالحقيقة السماء والأرض مملوءتان من مجدك الأقدس. من قِبَل ابنك الوحيد ربنا وإلهنا ومخلصنا وملكنا كلنا يسوع المسيح. إملأ هذه الصعيدة التي لك يا رب بالبركة،
+
+@rubric
+en| He signs the paten and the chalice together once, and says:
+ar| هنا يرشم الكاهن علي الصينية والكأس معاً رشماً واحداً ويقول:
+
+@priest
+en| which is from You. By the coming down upon it of Your Holy Spirit.
+ar| التي من قبلك. بحلول روحك القدوس عليها.
+
+@people
+en| Amen.
+ar| آمين.
+
+@rubric
+en| Signing a second time, the priest says:
+ar| ويرشم ثانياُ:
+
+@priest
+en| And with blessing, bless.
+ar| وبالبركة بارك.
+
+@people
+en| Amen.
+ar| آمين.
+
+@rubric
+en| Signing a third time, the priest says:
+ar| ويرشم ثالثاُ:
+
+@priest
+en| And with sanctification, sanctify.
+ar| وبالتقديس قدس.
+
+@priest
+en| Our Lord, God, and Savior and King of us all, Jesus Christ.
+ar| يقول الكاهن: ربنا وإلهنا ومخلصنا وملكنا يسوع المسيح.
+
+@people
+en| Amen.
+ar| آمين.
+
+@rubric
+en| The priest prays the following litanies and the people responds saying “ ” after each verse
+ar| يقول الكاهن هذه الطلبات ويجاوبه الشعب بعد كل ربع قائلين " ."
+
+@priest
+en| That they may be unto all of us who partake of them, faith without searching; love without hypocrisy.
+ar| لكيْ يكون لنا نحن جميعاً المتناولين منهما، إيماناً بغير فحص، ومحبة بغير رياء.
+
+@people
+en| Lord have mercy.
+ar| يا ربُ إرحم.
+
+@priest
+en| Perfect patience, firm hope.
+ar| وصبراً كاملًا، ورجاء ثابتاً.
+
+@people
+en| Lord have mercy.
+ar| يا ربُ إرحم.
+
+@priest
+en| Faith and watchfulness, health and joy.
+ar| وإيماناً وحراسةً، وعافيةً وفرحاً.
+
+@people
+en| Lord have mercy.
+ar| يا ربُ إرحم.
+
+@priest
+en| Renewal for the soul, body, and spirit; glory to Your holy name.
+ar| وتجديداً للنفس والجسد والروح، ومجداً لإسمك القدوس.
+
+@people
+en| Lord have mercy.
+ar| يا ربُ إرحم.
+
+@priest
+en| Sharing in the blessedness of eternal life and incorruption, and forgiveness of sins.
+ar| شركة سعادة الحياة الأبدية، وعدم الفساد، وغفرانا للخطايا.
+
+@people
+en| As it was and is, it shall also be unto generations and unto all the ages of the ages. Amen.
+ar| كما كان فهو كائن وهكذا يكون إلي أجيال الأجيال، وإلي سائر دهور الدهور. آمين.
+
+@rubric
+en| Or they say the following response from the Liturgy of St. Basil:
+ar| أو يقولوا المرد التالي من القداس الباسيلي:
+
+@people
+en| As it was so shall it be, from generation to generation , and unto all the ages of the ages. Amen.
+ar| كما كان وهكذا يكون، من جيل إلي جيل، وإلي دهر الدهور. آمين.

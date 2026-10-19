@@ -1,0 +1,38 @@
+source: The Divine Liturgies of Saints Basil, Gregory and Cyril (Coptic, English and Arabic), Fr. Jacob Nadian, St. Bishoy Coptic Orthodox Church of Toronto, Stouffville, Ontario, Canada.
+source-ar: الثلاثة قداسات للقديسين باسيليوس واغريغوريوس وكيرلس (قبطي وإنجليزي وعربي)، الأب يعقوب نادين، كنيسة الأنبا بيشوي القبطية الأرثوذكسية بتورونتو، ستوفيل، أونتاريو، كندا.
+
+@rubric
+en| The Divine Liturgy of St. Gregory The Theologian The priest begins with the Prayer of Preparation from the Liturgy of St. Basil and continues to the Pra yer of the Veil that is replaced by the following: The Prayer of the Veil
+ar| القداس الالهي للقديس اغريغوريوس الناطق بالإلهيات يبدأ الكاهن بسر الاستعداد من قداس القديس باسيليوس ويستمر حتي صلاة الحجاب التالية: صلاة الحجاب
+
+@priest
+en| O Lord God the Pantocrator, who knows the thoughts of men and search es the hearts an d inward parts, although I a m unworthy, You have called me to this , Your holy service. Despise me not, neither turn Your face away from me, but rather wipe away all of my iniquities and wash away the spots of my body and the blemishes of my soul. Purif me to be perfect , lest, as I entreat Your, goodness to grant the forgiveness of sins to others, I myself should be a castaway. Yea, Lord, turn me not away humiliated and ashamed, but rather send upon me the grace of Your Holy Spirit. And make me worthy to stand at Your holy altar without falling into condemnation. And to offer unto You this rational, bloodless sacraice with a pure conscience, for the remission of my sins and iniquities, and for the forgiveness of the ignorances of Your people, and for the repose and rest of our fathers and our brethren who have already fallen asleep in the orthodox faith, and for the edification of all Your people. Glory to You, with Your only-begotten Son and the Holy Spirit, the Giver of Life, who is of one essence with You. Now and at all times and unto the ages of all ages. Amen.
+ar| أيها الرب الإله ضابط الكل، العارف أفكار البشر والفاحص القلوب والكلي. إذ وأنا غير مستحق دعوتني إلى خدمتك المقدسة هذه. لا ترذلني، ولا تصرف وجهك عني، بل أمح جميع سيئاتي، وإغسل عيب جسدي، ودنس نفسي، وطهرني لأكون كاملًا. لكي لا أطلب من صلاحك أن تعطي غفران الخطايا لآخرين وأكون أنا غير مستحق. نعم يا رب لا تردني ذليلًا مخزياً بل أرسل على نعمة روحك القدوس، وإجعلني مستحقاً أن أقف أمام مذبحك المقدس بغير وقوع في دينونة. وأقرب لك هذه الذبيحة الناطقة غير الدموية بسريرة نقية. صفحاً لخطاياي وسيئاتي وغفراناً لجهالات شعبك. ونياحة وراحة لآبائنا وإخوتنا الذين سبقوا فرقدوا في الإيمان الأرثوذكسي وبنياناً لشعبك أجمع. ومجداً لك ولابنك الوحيد والروح القدس المحيي المساوي لك. الآن وكل أوان وإلى دهر الدهور كلها. آمين.
+
+@rubric
+en| Another Prayer of the Veil
+ar| صلاة أخري للحجاب
+
+@priest
+en| Again, we return to You, O God, the Good One, through approaching Your holy altar. And we ask You, O eternal Logos. Purify us at this time when we come to You. O You who came to us in Your unchangeable flesh and filled all by Your boundless divinity. The bitterness of envy that is full of blemish, may it be far from us, together wit h the stench of abominable slander. Purify our hearts from every blemish and our souls f rom every vice and our bodies from every defilement. And send d own upon us the abundance of Your Holy Spirit, that we may be able, through Your help, to come to Your holy altar. And to complete this service according to what is pleasing before You. And may our sacrifice be acceptable before You for the forgiveness of our sins and to the glory of Your holy name. For You are kind to everyone who entreats You. And unto You is due the kingdom, the authority, and the worship, with Your Good Father and the Holy Spirit. Now and at all times and unto the ages of all ages. Amen.
+ar| وأيضاً نرجع إليك يا الله الصالح باقترابنا إلي مذبحك المقدس. ونسألك أيها الكلمة الذاتي. طهرنا في هذا الوقت الذي نأتي إليك فيه. أنت الذي أتي إلينا بجسده الغير المتغير، وملأت الكل بلاهوتك غير المحصور. فلتبعد عنا مرارة الحسد المملوءة عيباً، ونتن النميمة المرزولة. وطهر قلوبنا من كل دنس، وأنفسنا من كل شر، وأجسادنا من كل نجس. وارسل لنا فيض معونة روحك القدوس، لكي نستطيع بمعونتك أن ندنو من مذبحك المقدس. ونكمل هذه الخدمة كما يرضيك أمامك. فلتكن ذبيحتنا مقبولة أمامك لغفران خطايانا. ومجداً لاسمك القدوس. لأنك صالح لكل الذين يدعونك. وأنت الذي ينبغي لك الملك والسلطان والسجود مع أبيك الصالح والروح القدس. الآن وكل أوان وإلى دهر الدهور كلها. آمين.
+
+@rubric
+en| The priest then prays the three Long Litanies and the people recites the Creed while the priest washes his hands reciting the three verses of the Psalms mentioned in the Liturgy of St. Basil. Then the priests prayd the following Prayer of Reconciliation:
+ar| يصلي الثلاثة أواشي الكبار ويتلو الشعب قانون الايمان بينما يغسل الكاهن يديه مردداً قطع المزامير كما ذكر في القداس الباسيلي. ثم يبدأ صلاة الصلح التالية:
+
+@priest
+en| Pray.
+ar| صلوا.
+
+@deacon
+en| Stand up for prayer.
+ar| للصلاة قفوا.
+
+@priest
+en| Peace be with all.
+ar| السلام للكل.
+
+@people
+en| And with your spirit.
+ar| ولروحك ايضاً.

@@ -1,0 +1,30 @@
+source: The Divine Liturgies of Saints Basil, Gregory and Cyril (Coptic, English and Arabic), Fr. Jacob Nadian, St. Bishoy Coptic Orthodox Church of Toronto, Stouffville, Ontario, Canada.
+source-ar: الثلاثة قداسات للقديسين باسيليوس واغريغوريوس وكيرلس (قبطي وإنجليزي وعربي)، الأب يعقوب نادين، كنيسة الأنبا بيشوي القبطية الأرثوذكسية بتورونتو، ستوفيل، أونتاريو، كندا.
+
+@priest
+en| which is called upon us. . According to Your mercy, O Lord, and not according to our sins.
+ar| كخطايانا
+
+@rubric
+en| The priest encircles the altar once, comes down from the sanctuary, and offers incense a second time before the door of the sanctuary. Then he censes the priests only or the pope or bishop, if either is present.
+ar| ثم يدور حول المذبح دورة واحدة وينزل من الهيكل ويبخر ثانية أمام بابه ويعطي البخور للكهنة فقط أو للأب البابا أو المطران أو الأسقف، إن كان حاضرا.
+
+@priest
+en| Hymn
+ar| لحن هذه المجمرة الذهب النقي
+
+@rubric
+en| After the Absolution, the people chant the following hymn for the Virgin on Saturdays and Sundays (except during the Great Fast), the major feasts, the fifty joyful days of Pentecost , and all non - fasting days .
+ar| أما الشعب فإنه يرتل أثناء ذلك – بعد قراءة تحليل الخدام - لحن العذراء التالي، وهو يقال في أيام السبوت والآحاد (ما عدا سبوت وأحاد الصوم الكبير) وفي الأعياد السيدية والخمسين وكل أيام الافطار.
+
+@priest
+en| This censer of pure gold , bearing the aroma, is in the hands of Aaron the priest, offering up incense on the altar.
+ar| هذه المجمرة الذهب النقي الحاملة العنبر، التي في يدي هارون ، يرفع بخوراً علي المذبح.
+
+@rubric
+en| On all fasting days (ex cept during Jonah’s Fast and the Great Fast), Saturdays and Sundays of the Great Fast, and on the two Feasts of the Cross, the following is chanted :
+ar| وفي كل أيام الصوم (ما عدا أيام الصوم الكبير وصوم يونان) وفي سبوت وأحاد الصوم الكبير وفي عيدي الصليب، تقال هذه عوضا عن السابقة.
+
+@priest
+en| Hymn The golden censer is the Virgin, her aroma is our Savior. She gave birth to Him; He saved us and forgave us our sins.
+ar| لحن المجمرة الذهب هي العذراء المجمرة الذهب هي العذراء، وعنبرها هو مخلصنا، قد ولدته وخلصنا، وغفر لنا خطايانا.

@@ -1,0 +1,42 @@
+import type { FamilyMap } from './types.ts';
+
+/** 30. The Church, apostolicity, and Christian community. */
+export const F30: FamilyMap = {
+  nave: {
+    'What is the Church?': 'CHURCH>UNCLASSIFIED SCRIPTURES RELATING TO',
+    'Christ as Head of the Church': 'CHURCH>CHRIST, HEAD OF',
+    "The Church as God's household": 'CHURCH>HOUSE OF GOD',
+    'Unity of the Church': 'CHURCH>UNITY OF',
+    'Church discipline': 'CHURCH>RULES OF DISCIPLINE IN, MOSAIC AND CHRISTIAN',
+    'The Church and spiritual authority': 'CHURCH>GOVERNMENT OF, MOSAIC AND CHRISTIAN',
+    'The Church and fellowship': 'COMMUNION>OF SAINTS',
+    'Membership in the Church': 'CHURCH>MEMBERSHIP IN',
+  },
+  passages: {
+    'What is the Church?': 'Matthew 16:18; Acts 2:41–47',
+    'The Church as the Body of Christ': '1 Corinthians 12:12–27; Ephesians 1:22–23; Colossians 1:18; Romans 12:4–5',
+    'The Church as the Bride of Christ': 'Ephesians 5:25–32; Revelation 19:7–9; Revelation 21:2; 2 Corinthians 11:2',
+    "The Church as God's household": 'Ephesians 2:19–22; 1 Timothy 3:15; Hebrews 3:6; 1 Peter 4:17',
+    'The Church as the temple of the Spirit': '1 Corinthians 3:16–17; Ephesians 2:21–22; 1 Peter 2:5; 2 Corinthians 6:16',
+    'Unity of the Church': 'John 17:20–23; Ephesians 4:3–6',
+    'Holiness of the Church': 'Ephesians 5:25–27; 1 Peter 2:9; 1 Corinthians 3:17',
+    'Catholicity of the Church': 'Matthew 28:19–20; Acts 1:8; Revelation 7:9; Colossians 1:6',
+    'Apostolicity of the Church': 'Ephesians 2:20; Acts 2:42; Revelation 21:14; Matthew 16:18–19',
+    'Apostolic succession': '2 Timothy 2:2; Titus 1:5; Acts 14:23; 1 Timothy 4:14; Acts 1:20–26',
+    'Apostolic teaching': 'Acts 2:42; 2 Thessalonians 2:15; Jude 1:3; 2 John 1:9–10',
+    'The role of bishops': '1 Timothy 3:1–7; Titus 1:7–9; Acts 20:28; 1 Peter 5:1–4',
+    'The role of priests': 'Titus 1:5–9; Acts 14:23; James 5:14; 1 Timothy 5:17',
+    'The role of deacons': 'Acts 6:1–6; 1 Timothy 3:8–13; Philippians 1:1; Romans 16:1',
+    'The role of the laity': '1 Peter 2:9; Romans 12:4–8; Ephesians 4:11–16; 1 Corinthians 12:7',
+    'Church discipline': 'Matthew 18:15–17; 1 Corinthians 5:1–13',
+    'Church councils': 'Acts 15:1–29; Galatians 2:1–10; Acts 16:4',
+    'The Church and spiritual authority': 'Matthew 18:18; John 20:23; Hebrews 13:17; 2 Corinthians 10:8',
+    'The Church and fellowship': 'Acts 2:42; 1 John 1:3; 1 John 1:7; Galatians 2:9',
+    'The early Christian community': 'Acts 2:42–47; Acts 4:32–35',
+    'The Church in persecution': 'Acts 8:1–4; Acts 12:1–5; Revelation 2:10; 1 Peter 4:12–16',
+    'The Church and mission': 'Matthew 28:19–20; Acts 1:8; Acts 13:1–3',
+    'The Church and the poor': 'Acts 4:34–35; Acts 6:1–3; Galatians 2:10',
+    'The unity of believers': 'John 17:20–23; Ephesians 4:1–6; Philippians 2:1–2; 1 Corinthians 1:10',
+    'The Church as witness': 'Acts 1:8; Matthew 5:14–16; 1 Peter 2:9–12',
+  },
+};

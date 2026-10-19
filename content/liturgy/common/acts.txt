@@ -1,0 +1,46 @@
+source: The Divine Liturgies of Saints Basil, Gregory and Cyril (Coptic, English and Arabic), Fr. Jacob Nadian, St. Bishoy Coptic Orthodox Church of Toronto, Stouffville, Ontario, Canada.
+source-ar: الثلاثة قداسات للقديسين باسيليوس واغريغوريوس وكيرلس (قبطي وإنجليزي وعربي)، الأب يعقوب نادين، كنيسة الأنبا بيشوي القبطية الأرثوذكسية بتورونتو، ستوفيل، أونتاريو، كندا.
+
+@priest
+en| The Praxis
+ar| الابركسيس
+
+@rubric
+en| If the Praxis is read in Coptic, the following introduction is said.
+ar| إذا قرأ الابركسيس قبطياً تقال مقدمته وهي هذه.
+
+@priest
+en| The Acts of our father the apostles, may their blessing be with us.
+ar| اعمال آبائنا الرسل، بركتهم المقدسة تكون معنا.
+
+@rubric
+en| After the reading, the following conclusion is said.
+ar| وفي ختامه يقول.
+
+@priest
+en| The word of the Lord shall grow, multiply, be mighty, and be confirmed in the holy Church of God. Amen.
+ar| وكلمة الرب تنمو وتزداد وتعتز وتثبت في كنيسة الله المقدسة. آمين.
+
+@rubric
+en| If the Praxis is read in English , the following introduction is said .
+ar| إذا قرأ الابركسيس عربيا، تقال مقدمته وهي هذه.
+
+@rubric
+en| A reading from the Acts of our fathers the pure apostles, who were invested with the grace of the Holy Spirit. May their blessing be with us all. Amen. After the reading, the following conclusion is said . The word of the Lord shall grow, multi ply, be mighty, and be confirmed in the holy Church of God. Amen. After completing the Litany of Oblations, and d uring the reading of the Acts, the priest makes a sign of the cross over the incense box, and says:
+ar| فصل من أعمال آبائنا الرسل الأطهار، المشمولين بنعمة الروح القدس، بركتهم تكون معنا. آمين. وفي ختامه يقول. لم تزل كلمة الرب تنمو وتزداد وتعتز وتثبت في كنيسة الله المقدسة. آمين. وبعد إتمام أوشية القرابين وفي أثناء تلاوة الإبركسيس، يرشم الكاهن درج البخور رشما واحداً وهو يقول:
+
+@priest
+en| Glory and honor, honor and glory to the All - holy Trinity, the Father and the Son and the Holy Spirit, now and at all times and unto the age of all ages. Amen.
+ar| : مجداً وإكراماً إكراماً ومجداً للثالوث القدوس الآب والإبن والروح القدس. الآن وكل اوان وإلي دهر الدهور كلها. آمين.
+
+@rubric
+en| He puts one spoonful of incense into the censer, and while standing before the altar and censing it, says this Prayer of the Acts inaudibly:
+ar| ويضع يداً واحدة من البخور في المجمرة ويقف قدام المذبح ويبخر وهو يقول سر الإبركسيس التالي:
+
+@priest
+en| O God, who accepted the burnt offering of Abraham and prepared for him a sheep in place of Isaac, even so, again accept at our hand also, O our Master, the burnt offering of this incense, and send down upon us in return Your abundant mercy, cleansing us from every stench of sin, and make us worthy to serve in holiness and righteousness before Your goodness, O Lover of Mankind, all the days of our life. And we ask You, O our Master …
+ar| : يا الله الذي قبل إليه محرقة إبراهيم وبدلًا عن اسحق اعددت له خروفاً، هكذا إقبل منا أيضاً يا سيدنا محرقة هذا البخور. وأرسل لنا عوضه رحمتك ذات الغني، إجعلنا ان نكون أنقياء من كل نتن الخطية. وإجعلنا مستحقين ان نخدم أمام صلاحك يا محب البشر بطهارة وبر كل أيام حياتنا. ونسألك يا سيدنا ...
+
+@rubric
+en| As mentioned in the offering of incense in the Vespers and Matins prayers, the priest says the prayer above and the Three Small Litanies for the peace of the Church, the P ope, and the A ssemblies, while encircling the altar three times and offering incense. The deacon s ays the appropriate responses while facing the priest. Then the priest descends from the sanctuary and offers
+ar| ثم يقول الأواشي الثلاثة الصغار (السلامة والآباء والاجتماعات) كما تقدم في رفع البخور وهو يدور حول المذبح ثلاثة دورات ويبخر، ويقول الشماس ابروساتها وهو دائر مقابل الكاهن. وينزل من الهيكل ويعطي البخور امام باب الهيكل ويبخر للانجيل وللأب البابا أو المطران أو الأسقف إن كان

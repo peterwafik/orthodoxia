@@ -1,0 +1,40 @@
+import type { FamilyMap } from './types.ts';
+
+/** 18. Leadership, service, and ministry. */
+export const F18: FamilyMap = {
+  nave: {
+    'Responsibility of leaders': 'MINISTER, Christian>DUTIES OF|CHARGE DELIVERED TO',
+    "Shepherding God's people": 'SHEPHERD',
+    'Obedience to God': 'OBEDIENCE',
+    'Serving the poor': 'POOR>DUTY TO',
+    Discipleship: 'DISCIPLESHIP',
+    'Prayer for leaders': 'MINISTER, Christian>PRAYER FOR',
+  },
+  passages: {
+    'Servant leadership': 'Mark 10:42–45; John 13:1–17; Luke 22:25–27; Philippians 2:5–8',
+    'Humility in leadership': '1 Peter 5:1–3; Numbers 12:3; Philippians 2:3–4; Matthew 20:25–28',
+    'Responsibility of leaders': 'Hebrews 13:17; James 3:1; Ezekiel 34:1–10',
+    "Shepherding God's people": 'John 21:15–17; 1 Peter 5:1–4; Acts 20:28; Ezekiel 34:1–16',
+    'Spiritual authority': 'Matthew 28:18–20; Luke 10:19; 2 Corinthians 10:8; Titus 2:15',
+    'Obedience to God': 'Acts 5:29; 1 Samuel 15:22; John 14:15',
+    'Serving the Church': '1 Peter 4:10–11; Romans 12:4–8; Acts 6:1–7; 1 Corinthians 12:4–7',
+    'Serving the poor': 'Matthew 25:35–40; Acts 6:1–3; Galatians 2:10; James 2:14–17',
+    'Teaching Scripture': '2 Timothy 2:2; 2 Timothy 4:2; Nehemiah 8:7–8; Matthew 28:20; Colossians 3:16',
+    Evangelism: 'Matthew 28:19–20; Acts 1:8; Romans 10:14–15; Mark 16:15; 2 Timothy 4:5',
+    Discipleship: 'Matthew 28:19–20; 2 Timothy 2:2; Luke 9:23',
+    Mentorship: '2 Timothy 2:2; Titus 2:1–8; 1 Corinthians 4:15–17; Acts 18:24–26',
+    'Spiritual gifts': '1 Corinthians 12:4–11; Romans 12:6–8; Ephesians 4:11–13; 1 Peter 4:10',
+    'Working as one body': '1 Corinthians 12:12–27; Ephesians 4:11–16; Romans 12:4–5',
+    'Conflict in ministry': 'Acts 15:36–41; Galatians 2:11–14; Philippians 4:2–3; Acts 6:1',
+    'Faithfulness in ministry': '1 Corinthians 4:1–2; 2 Timothy 4:5–7; Matthew 25:21; Acts 20:24',
+    Accountability: 'Hebrews 13:17; Galatians 6:1–2; James 5:16; Proverbs 27:17; Romans 14:12',
+    'Humility in service': 'John 13:12–17; Philippians 2:3–8; 1 Peter 5:5; Luke 17:7–10',
+    'Prayer for leaders': '1 Timothy 2:1–2; Hebrews 13:18; 1 Thessalonians 5:25',
+    'Ministry of reconciliation': '2 Corinthians 5:18–20; Romans 5:10–11; Matthew 5:9',
+    'Caring for new believers': '1 Thessalonians 2:7–12; 1 Peter 2:2; Acts 14:21–23; Hebrews 5:12–14',
+    'Protecting the vulnerable': 'Psalm 82:3–4; Matthew 18:6; Isaiah 1:17; Proverbs 31:8–9; James 1:27',
+    'Teaching children': 'Mark 10:13–16; Deuteronomy 6:6–7; 2 Timothy 3:15; Proverbs 22:6',
+    'Christian mission': 'Matthew 28:18–20; Acts 1:8; John 20:21; Romans 10:14–15',
+    "Following Christ's example": 'John 13:15; 1 Peter 2:21; Philippians 2:5; Ephesians 5:1–2',
+  },
+};

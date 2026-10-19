@@ -47,19 +47,6 @@
   }
 }
 
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme='light']) {
-    color-scheme: dark;
-    --surface: var(--navy);
-    --surface-raised: #16244a;
-    --ink: #ede7d8;
-    --ink-muted: #aeb6c6;
-    --accent: var(--gold);
-    --line: #2a3a60;
-    --focus: var(--gold);
-  }
-}
-
 :root[data-theme='dark'] {
   color-scheme: dark;
   --surface: var(--navy);

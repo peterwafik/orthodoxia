@@ -1,60 +1,88 @@
 # Holy Mass: the Liturgy journey
 
-`/en/holy-mass/` and `/ar/holy-mass/`. The Divine Liturgy as one continuous picture: scrolling the
-prayer panel moves a camera over a single enlarged artwork, from the earthly church toward the
-heavenly assembly, until only heaven fills the picture.
+`/en/holy-mass/` and `/ar/holy-mass/`. The Divine Liturgy as one continuous flight: scrolling the
+page plays a film of five clay-diorama scenes, one per chapter, and the camera flies from each
+scene into the next, from the sanctuary screen to Christ enthroned in heaven.
 
-The page follows the approved design (`docs/design/holy-mass-mockup.jpg`): a navy journey rail, the
-artwork in the centre and a parchment prayer panel, with 52 stops in five chapters.
+The page is minimal: the film plays softly behind the page, each stop is a short chat in front of it,
+and the list of the 52 stops (in five chapters) hides behind a hamburger button.
 
 ## How it works
 
 | Part | Where | What it does |
 | --- | --- | --- |
-| Artwork | `content/art/holy-mass/source.jpg` + `detail/` | The tall master picture (2160 × 3840, generated with Higgsfield, see `content/art/holy-mass/README.md`) and ten regions of it enhanced to 3.2× by an upscaler. |
-| Tiles | `scripts/holy-mass/tiles.ts` → `apps/web/public/holy-mass/` | Enlarges the master to 6,912 × 12,288 px with Lanczos resampling and a light sharpen, lays the enhanced regions over it with soft edges, and cuts a Deep Zoom pyramid of 512 px tiles (about 460 files, 18 MB). Generated, git-ignored; `npm run holymass:tiles`; runs in `npm run build` and `dev:web`. |
-| Camera | `apps/web/src/lib/holy-mass/camera.ts` | A stop names a *focus box*; the camera frames that box for any window shape (wide desktop, tall phone), interpolates between stops (centre linearly, zoom in log space, eased), and picks the tiles to draw. Pure arithmetic, tested. |
-| Stops | `apps/web/src/data/holy-mass.ts` | The 52 stops: titles, what happens, what it means, scripture, camera region. |
-| Page | `apps/web/src/pages/[lang]/holy-mass.astro` | Layout, canvas renderer, scroll → camera, deep links, options. |
+| Scenes and clips | `content/art/holy-mass-film/` (sources, prompts, job ids) and `apps/web/public/holy-mass-film/` (what the site serves) | Five stills (generated with Higgsfield), five "dive" clips and three "link" clips, each encoded for desktop (1280 × 720) and phone (854 × 480). About 33 MB in all; a visitor downloads one set, about 11 MB on a phone. |
+| Timeline | `apps/web/src/lib/holy-mass/film.ts` | Maps a fractional stop position to a clip and a time in it. Inside a chapter its dive plays from first to last frame; between the last stop of a chapter and the first of the next its link plays. Pure arithmetic, tested. |
+| Player | `apps/web/src/lib/holy-mass/film-player.ts` | Fetches each clip whole as a blob (always seekable), seeks it by scroll without ever queueing a seek, fetches neighbours early, and keeps the scene's still underneath until a clip paints. |
+| Stops | `apps/web/src/data/holy-mass.ts`, `holy-mass-says.ts` | The 52 stops (titles, what happens, what it means, scripture), the five scenes' captions and notes, and one draft sentence per speaker per stop (what the priest, the deacon and the people do or say). |
+| Texts | `content/liturgy/` (format in its README), `scripts/liturgy/build.ts` → `apps/web/public/liturgy/<liturgy>.json` | The prayers, one plain-text file per stop (`common/` or a liturgy's own folder), each with a required `source:` line. The build checks every file, names the file and line of a problem, and prints how many stops each liturgy has text for. |
+| Reading | `apps/web/src/lib/liturgy/`, `apps/web/src/lib/holy-mass/reading.ts`, `script-view.ts`, `load.ts` | The parser, the resolution of a liturgy, the saved language and size choice, the lines shown for a stop, and the loader. All pure and tested. |
+| Layers | `apps/web/src/lib/holy-mass/layers.ts` | Which of the five layers the reader shows: steps, priest, deacon, people, meaning. Saved in the browser. Pure logic, tested. |
+| Page | `apps/web/src/pages/[lang]/holy-mass.astro` (icons in `components/holy-mass/Icon.astro`) | Layout, scroll → film, layers, deep links, options. |
 
 - **Scroll drives the camera.** A stop is "settled" when its section is at the top of the panel; in
-  between, the camera is part-way to the next stop. Rail clicks and Next/Previous scroll smoothly, so a
-  long jump is a flight through the artwork.
-- **Opening and ending.** Stop 1 is the whole picture (zoomed out, with the title over it). The last
-  stop is framed so the visible area never goes below the middle of the picture: only heaven shows, on
-  every window shape (tested). The text of the last stops keeps the Liturgy's dismissal and says the
-  worshipper returns to the world.
+  between, the film is part-way to the next stop. Rail clicks and Next/Previous scroll smoothly, so a
+  long jump is a flight through the scenes.
+- **Five scenes.** I the sanctuary screen (the iconostasis, with the priest entering barefoot), II the
+  choir and the Word (the raised khorus, lecterns, cymbals and triangle), III the nave at the kiss of
+  peace, IV the haikal and the altar (ciborium, apse with Christ and the four living creatures), V
+  communion and heaven (the cloud staircase up to Christ enthroned).
+- **Seams.** Each link clip starts on the real last frame of one dive and ends on the real first frame of
+  the next, so the cuts are invisible. There is no link between scenes IV and V (the video services
+  refused to make one), so those two dissolve into each other. Scene V's dive is not a generated video:
+  it is a slow zoom of its still, made locally with ffmpeg.
+- **The film is the background.** The scenes and their flights fill the screen behind the text, dimmed and
+  softened by a cream wash so the words stay readable. Scrolling plays them.
+- **A hamburger for the journey.** The list of stops is hidden. The hamburger button (top corner) slides it
+  over the film as a drawer; choosing a stop, the close button, Escape or a tap outside closes it.
+- **Each stop is a chat.** What the **priest**, the **deacon** and the **people** say appears as chat
+  bubbles (priest and deacon at the start side, the people at the end side, mirrored in Arabic), each with
+  its icon and colour. Under the bubbles are the **steps happening in the altar** and the **meaning behind**: one paragraph per stop, in the page language only, summarising two books (see `apps/web/src/data/holy-mass-meaning.ts`: the whole-Mass book on the rites, and Michael Mina's lecture notes, which cover only the consecration, stops 21, 34 and 35). There is no "In the picture" line and no "More" section. The liturgy picker (St. Basil, St. Gregory, St. Cyril) and the text size are behind the options button.
+- **Five switches.** A bar at the bottom has five buttons: **Priest**, **Deacon**, **People**, **Steps**
+  and **Meaning**. Each shows or hides its aspect on its own, and the choice is remembered; all five
+  start on. A speaker who says nothing at the current stop has a dashed, dimmer button.
+- **The prayers and the drafts.** A stop with a text file shows its **script** in the order it is said: the
+  steps as small italic rubrics, and each speaker's lines as bubbles. The five switches filter the script, the
+  text-size control (Options) makes the text larger or smaller; both are saved. Each script is credited
+  to its source under the text, and the Sources page lists the sources. A stop **without** a text file keeps
+  the one-sentence draft summaries (not prayer texts, not reviewed by clergy) and says the text has not been
+  added yet. At first only stops 29 and 30 have text files (their short standard dialogue).
+- **Adding texts.** Put a file in `content/liturgy/common/` (or a liturgy's folder when it differs), as in
+  `content/liturgy/README.md`, and run `npm run liturgy`. The texts' source and permission are the
+  responsibility of whoever adds them; the `source:` line makes them visible.
+- **Importing a whole book.** `scripts/liturgy/import/` turns a book with a text layer into these files. It was
+  written for *The Divine Liturgies of Saints Basil, Gregory and Cyril* (Coptic, English and Arabic, Fr. Jacob
+  Nadian, St. Bishoy Coptic Orthodox Church of Toronto), which prints "Priest:", "Deacon:" and "People:" (and the
+  Arabic "الكاهن:", "الشماس:", "الشعب:") before every part. Three steps, each run by hand:
+  `rites-extract.cjs` saves every page's text pieces with their position; `rites-gen.cjs` splits each page into
+  rubrics and speaker blocks (English and Arabic of the same part together), repairs the PDF's reversed lam+alef
+  letters against the words the older reader (`pdftotext`) finds on the same page, and writes the files; then
+  `npm run liturgy`. The page ranges of each stop (from the book's contents list, for all three liturgies) are in
+  `rites-gen.cjs`; edit them to move a prayer. The files are credited to the book; the right to use the book is
+  the responsibility of whoever publishes the result. The generated files in `content/liturgy/` should not be
+  committed or deployed until that is settled.
 - **Deep links.** `#29-lift-up-your-hearts` opens that stop; the address and the place are kept as the
   reader moves, and a "resume" link is offered on the next visit.
-- **Reduced motion.** With `prefers-reduced-motion` the camera snaps to each stop instead of gliding.
-- **No script.** The picture is the stage's background and the whole text is in the page.
-- **Languages.** Arabic and English pages; the other language can be shown beside it ("Both
-  languages"). The artwork has no text in it.
+- **Reduced motion.** The stage shows the still of the current scene, with no video.
+- **Phones.** The lighter 854 × 480 clips with a short GOP are served on narrow or touch screens.
+- **One language at a time.** `/en/` shows English only and `/ar/` shows Arabic only; the language link in
+  the site header switches. Nothing of the other language is shown: no second title, no second text, and
+  the credit line is in the page language too (a text file can give `source-ar:` for the Arabic page,
+  otherwise the page points to the Sources page). A prayer part that exists only in the other language is
+  left out, and the stop says "Part of this text is not yet available in English" (or Arabic). The film has
+  no text in it.
 
-## The artwork and its resolution
+## The film and its provenance
 
-The picture is the fourth version and is tall (9:16): the church is the bottom quarter and heaven fills the
-rest, so the journey is a long climb. The haikal screen follows Coptic practice (Christ and the apostles
-above, saints below) and the altar is inside the sanctuary, behind the curtains as the people see it.
-Heaven is built as tiers of saints and angels rising to Christ enthroned at the top. Details and the
-generation record: `content/art/holy-mass/README.md`.
+All five scenes are AI-generated clay dioramas, rebuilt after a first set was judged not faithful to a
+Coptic church. They follow the features described by copticheritage.org and ukmidcopts.org: the solid
+wooden iconostasis with three curtained doors, the Last Supper and the apostles above, the free-standing
+altar under its ciborium, the raised khorus, the apse with Christ and the four living creatures, barefoot
+clergy, and cymbals and a triangle as the only instruments. Details, prompts, job ids and which clips were
+refused: `content/art/holy-mass-film/README.md`.
 
-**Zoom range.** Stop 1 shows the whole picture; the last stop (52) shows only Christ on his throne with
-the Gospel book, about a fifth of the picture's width. Each stop's region is in
-`apps/web/src/data/holy-mass.ts`, tuned as fractions of the tall picture.
-
-**Resolution.** The master is 2160 × 3840. It was cut into ten overlapping regions and each upscaled to
-4096 × 3072 (3.2×) by Higgsfield's upscaler, which adds real detail while keeping alignment. The tile
-pyramid is built at 6,912 × 12,288 px so those regions are used at close to their full resolution.
-In the browser the final stop (Christ's face, hair, halo letters, the Gospel book) and the altar stop
-are crisp.
-
-For more, replace `source.jpg` (or set `HOLY_MASS_MASTER`; `HOLY_MASS_WIDTH` sets the pyramid's
-width), regenerate or add regions in `detail/`, and run `npm run holymass:tiles -- --force`. Camera
-regions are fractions of the picture, so a different composition needs them re-checked (the tests check
-that they stay inside the picture and that the last stop shows only the top of heaven).
-
-The artwork is **not yet approved**: every religious detail needs the review below.
+The film is **not yet approved**: every religious detail needs the review below. (The earlier single
+deep-zoom picture, `content/art/holy-mass/`, is retired and no longer used by the site.)
 
 ## Content status
 
@@ -64,7 +92,7 @@ Every stop is a **draft**, marked as such on the page.
   read on 2026-10-14). Four connecting stops are marked "general" (7, 13, 18, 20). The mock-up's list
   of stops 27–34 was not in liturgical order (it put the Institution Narrative after the Memorial),
   so the sequence follows the reference outline and the Liturgy instead.
-- **Explanations** (what happens, what it means, the silent meditation, the notes on the artwork) are
+- **Explanations** (what happens, what it means, the silent meditation, the notes on the scenes) are
   original short texts written for this site, with scripture references. None has been reviewed by
   clergy. The "Pray silently" lines are labelled as personal meditations, not liturgical texts.
 - **Prayer texts are not included.** Only the short standard dialogue of stops 29 and 30 ("The Lord be
@@ -96,11 +124,11 @@ on every stop until it is).
 
 These are in the master prompt and are the natural next steps:
 
-- Hotspots on the artwork (censer, altar, Gospel book, …), with a "show all" toggle.
+- Hotspots on the scenes (censer, altar, Gospel book, …), with a "show all" toggle.
 - "Follow the Mass" mode (large text, no animation) and a fuller "Study" mode.
 - Prayer texts, transliteration and Coptic, from an authorized translation, per liturgy.
 - Fathers' commentary and per-stop sources.
 - Separate URLs per liturgy and stop (`/liturgy/basil/29-…`); today the stop is in the address fragment.
-- A full-screen artwork mode.
+- A full-screen film mode.
 - Bookmarks of a prayer beyond the remembered place.
-- New artwork regions drawn with real detail (the master-artwork pipeline of the prompt, stages 2–5).
+- A generated flight from scene IV into scene V, and a generated dive for scene V (both were refused by the video filters).

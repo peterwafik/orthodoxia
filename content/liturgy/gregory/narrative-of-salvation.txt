@@ -1,0 +1,137 @@
+source: The Divine Liturgies of Saints Basil, Gregory and Cyril (Coptic, English and Arabic), Fr. Jacob Nadian, St. Bishoy Coptic Orthodox Church of Toronto, Stouffville, Ontario, Canada.
+source-ar: الثلاثة قداسات للقديسين باسيليوس واغريغوريوس وكيرلس (قبطي وإنجليزي وعربي)، الأب يعقوب نادين، كنيسة الأنبا بيشوي القبطية الأرثوذكسية بتورونتو، ستوفيل، أونتاريو، كندا.
+
+@priest
+en| The Anaphora
+ar| الأنافورا
+
+@rubric
+en| Turning to the west, the priest signs the people once with the sign of the cross, saying:
+ar| يرشم الكاهن الشعب غرباً رشماً واحداً بمثال الصليب وهو يقول:
+
+@priest
+en| The love of God the Father and the grace of the only - begotten Son, our Lord, God, and Savior Jesus Christ, and the communion and t he gift of the Holy Spirit, be with you all.
+ar| محبة الله الآب، ونعمة الابن الوحيد، ربنا وإلهنا ومخلصنا يسوع المسيح، وشركة وموهبة الروح القدس، تكون مع جميعكم.
+
+@people
+en| And with your spirit.
+ar| ومع روحك أيضاً.
+
+@rubric
+en| The priest turns to the East and signs the d eacons on his right once with the sign of the cross, saying:
+ar| يرشم الكاهن الشعب شرقاً عن يمينه رشماً واحداً وهو يقول:
+
+@priest
+en| Lift up your hearts.
+ar| إرفعوا قلوبكم.
+
+@people
+en| We have them with the Lord.
+ar| هي عند الرب.
+
+@rubric
+en| The priest signs himself once with the sign of the cross, saying:
+ar| ثم يرشم الكاهن ذاته رشماً واحداً وهو يقول:
+
+@priest
+en| Let us give thanks to the Lord.
+ar| فلنشكر الرب.
+
+@people
+en| It is meet and right.
+ar| مستحقٌ وعادل.
+
+@priest
+en| Meet and right, meet and right, meet and right. It is fitting indeed, and right, that we praise You, bless You, serve You, worship You, and glorify You; the one, only, true God, the Lover of Mankind, ineffable, invisible, infinite, without beginning; everlasting, timeless, immeasurable, incomprehensible, unchangeable, creator of all; savior of everyone. Who forgive our sins, who save our life from corruption, who crowns us with mercies and compassions. You are He whom the angels praise and the archangels worship. You are He whom the principalities bless and to whom the dominions cry. You are He whose glory the authorities declare. You are He unto whom the thrones send up the honor. Thousands of thousands stand before You and Ten thousands times ten thousands offer You service. You are He whom the invisible bless and the visible worship. They all do Your word, O our Master.
+ar| مستحقٌ وعادل، مستحقٌ وعادل، مستحقٌ وعادل. مستحقٌ بالحقيقة وعادل أن نسبحك، ونباركك، ونخدمك، ونسجد لك، ونمجدك أيها الواحد وحده الحقيقي، الله محب البشر. الذي لا ينطق به، غير المرئي، غير المحوي، غير المبتدئ، الأبدي، غير الزمني، الذي لا يحد، غير المفحوص، غير المستحيل، خالق الكّل، مخلص الجميع. غافر خطايانا، منقذ حياتنا من الفساد. مكللنا بالمراحم والرأفات. انت الذي تسبحك الملائكة، وتسجد لك رؤساء الملائكة. أنت الذي تباركك الرؤساء، وتصرخ نحوك الأرباب. أنت الذي تنطق السلاطين بمجدك. أنت الذي ترسل لك الكراسي الكرامة. ألوف ألوف وقوف قدامك، وربوات ربوات يقدمون لك الخدمة. أنت الذي يباركك غير المرئيين. وأنت الذي يسجد لك الظاهرون. ويصنعون كلهم كلمتك يا سيدّنا.
+
+@deacon
+en| You who are seated, stand.
+ar| أيها الجلوس قفوا.
+
+@priest
+en| O You, The Being, Master, Lord, true God of true God, who have manifested to us the light of the Father, who have granted us the true knowledge of the Holy Spirit. Who have manifested to us this mystery of life, who have established the rising of choir of the incorporeal among men, who have given to the earthly the praising of the seraphim, receive from us also our voices, together with the invisible. Count us with the heavenly hosts. Let us also say with them, having cast away from us all the thoughts of evil imagination. And proclaim that which they send up with unceasing voices and unfailing lips, and praise Your greatness.
+ar| ايها الكائن السيد الرب، الإله الحق من الإله الحق. الذي أظهر لنا نور الآب. الذي أنعم علينا بمعرفة الروح القدس الحقيقية. الذي أظهر لنا هذا السر العظيم الذي للحياة. الذي ثبت قيام صفوف غير المتجسدين في الشر. الذي أعطي الذين علي الأرض تسبيح السارافيم. اقبل منا أيضاً أصواتنا مع غير المرئيين. إحسبنا مع القوات السمائية. ولنقل نحن أيضاً مع أولئك، إذ قد طرحنا عنا كل أفكار الخواطر الشريرة. ونصرخ بما يرسله اولئك، بأصوات لا تسكت، وأفواه لا تفتر، ونبارك عظمتك.
+
+@deacon
+en| Look toward the East.
+ar| الشماس: وإلي الشرق أنظروا.
+
+@priest
+en| You are He around whom stand the Cherubim and the Seraphim, six wings to the one and six wings to the other, with two they cover their faces and with two they cover their feet, and with two they fly. And one cries to another. They send up the hymn of victory and salvation which is ours, with a voice full of glory. They praise, they sing, they proclaim, they cry out, saying:
+ar| الكاهن: انت هو القيام حولك الشاروبيم والسارافيم، ستة أجنحة للواحد، وستة أجنحة للآخر. فبجناحين يغطون وجوههم، وباثنين يغطون أرجلهم، ويطيرون باثنين، ويصرخون واحد قبالة واحد منهم. يرسلون تسبحة الغلبة والخلاص الذي لنا بصوت ممتلئ مجداً. يسبحون، وينشدون. ويصرخون، ويصوتون قائلين:
+
+@deacon
+en| Let us attend.
+ar| ننصت.
+
+@people
+en| The cherubim worship You, and the seraphim glorify You, proclaiming and saying: “Holy, holy, holy, Lord of hosts. Heaven and earth are full of Your holy glory.”
+ar| الشاروبيم يسجدون لك، والسارافيم يمجدونك، صارخين قائلين: "قدوس. قدوس. قدوس. رب الصاباؤت. السماء والأرض مملوءتان من مجدك الاقدس."
+
+@rubric
+en| The people may chant the appropriate Aspasmos Watos hymn for annual days (or another Aspasmos according to the feast and season of the year).
+ar| أو يقول الشعب هذا الاسبسمس الواطس السنوي (أو غيره من الاسبسمسات الموافقة للعيد أو الموسم).
+
+@people
+en| O Lord, God of hosts, return and behold from heaven, and look and visit this vine, restore and establish her, this which Your right hand has planted. Alleluia. Alleluia. Alleluia. (Bless the seeds * and the herbs.) May Your mercy and peace be a fortress to Your People. Holy. Holy., Holy. Lord of hosts, heaven and earth are full of Your holy glory.
+ar| ايها الرب إله القوات، إرجع واطلع من السماء، انظر وتعهد هذه الكرمة، أصلحها وثبتها، هذه التي غرستها يمينك. هلليلويا، هلليلويا، هلليلويا، * (بارك الزروع والعشب) ، فلتكن رحمتك وسلامك حصناً لشعبك. قدوس. قدوس. قدوس. رب الصاباؤوت. السماء والأرض مملوءتان من مجدك الاقدس.
+
+@rubric
+en| * During th e times identified below, the following prayers are said instead of the one between the parentheses above.
+ar| * تقال الجمل الآتية في الأوقات المبينة بعد في مكان الجملة التي بين القوسين أعلاه.
+
+@people
+en| 19 9 12
+ar| من بؤونة إلي بابة ( يونية إلي
+
+@rubric
+en| From Paoni 12 to Paapi 9 (June 19 to October 19/20):
+
+@people
+en| 20 19 Bless the waters of the river.
+ar| / أكتوبر). بارك مياه النهر.
+
+@rubric
+en| From Paapi 10 to Tobi 10 (October 20/21 to January 21 20 10 10 18/19): 19 18
+ar| ومن بابة إلي طوبة ( / أكتوبر إلي / يناير).
+
+@people
+en| Bless the seeds and the herbs.
+ar| بارك الزروع والعشب.
+
+@rubric
+en| From Tobi 11 to Paoni 11 (January 19/20 to June 18): 20 19 11 11
+ar| ومن طوبة إلي بؤونة ( / يناير
+
+@people
+en| 18 Bless the air of heaven.
+ar| إلي يونية). بارك أهوية السماء.
+
+@rubric
+en| The priest takes in his right hand the veil that is upon the chalice, and with it makes the sign of the cross three times; firstly, upon himself, his face being turned toward the East, then upon the deacons on his right hand, and lastly towards the west, upon the people, saying “Holy ” each time:
+ar| ثم يأخذ الكاهن اللفافة الموضوعة علي الكأس بيده اليمني ويرشم بها ثلاثة رشوم، الأول علي ذاته وهو متجه إلي الشرق. والثاني علي الخدام عن يمينه. والثالث علي الشعب إلي الغرب. وكل رشم يقول "أجيوس ."
+
+@priest
+en| Holy, holy, O Lord, and holy are you in everything, and most excellent is the light of Your essence. Ineffable is the power of Your wisdom, and no manner of speech can measure the depth of Your love towards mankind. You, as Lover of Mankind, have created me, as man. You had no need of my servitude, but rather I had need of Your lordship. Because of the multitude of Your tender mercies, You have brought me into existence when I was not. You have raised heaven as a roof for me, and established the earth for me to walk upon. For my sake, you have bound the sea. For my sake, You have manifested the nature of animals. You have subjected all things under my feet. You have not left me in need of any of the works of Your honor. You are He who formed me, and laid Your hand upon me. And inscribed in me the image of Your authority. You have placed in me the gift of speech, and opened for me paradise to enjoy, and have given to me the learning of Your knowledge. You have manifested to me the tree of life, and made known to me the sting of death. Of one plant have You forbidden me to eat, that of which You have said to me, “Of it only do not eat.” But according to my will, I did eat. I put Your law behind me by my own counsel, and became slothful toward Your commandments. I plucked for myself the sentence of death.
+ar| قدوس قدوس، أنت أيها الرب، وقدوس في كل شئ، وبالأكثر مختار هو نور جوهريتك. وغير موصوفة هي قوة حكمتك، وليس شئ من النطق يستطيع أن يحد لجة محبتك للبشر. خلقتني إنساناً كمحب للبشر، ولم تكن أنت محتاجاً إلي عبوديتي، بل أنا المحتاج إلي ربوبيتك. من أجل تعطفاتك الجزيلة، كوَنتني أذ لم أكن. أقمت السماء لي سقفاً. وثبت لي الأرض لأمشي عليها. من أجلي ألجمت البحر. من أجلي أظهرت طبيعة الحيوان. اخضعت كل شئ تحت قدميَّ. لم تدعني معوزاً شيئاً من أعمال كرامتك. أنت الذي جبلتني، ووضعت يدك عليَّ. وكتبت فيَّ صورة سلطانك. ووضعت فيَّ موهبة النطق. وفتحت لي الفردوس لأتنعم. واعطيتني علم معرفتك. أظهرت لي شجرة الحياة. وعرفتني شوكة الموت. غرسٌ واحدٌ نهيتني أن أكل منه. هذا الذي قلت لي لا تأكل منه وحده. فأكلت بإرادتي. وتركت عني ناموسك برأيي، وتكاسلت عن وصاياك. أنا اختطفت لي قضية الموت.
+
+@people
+en| Lord have mercy.
+ar| يا ربُ إرحم.
+
+@priest
+en| You, O my Master, have turned for me the punishment into salvation. As a good shepherd, You have sought after that which had gone astray. As a true father, you have labored with me, I who had fallen. You have bound me with all the remedies that lead to life. You are He who have sent to me the prophets for my sake, I the sick. You have given me the Law as a help. You are He who ministered salvation to me when I disobeyed Your Law. As true light, You have shone upon the lost and the ignorant.
+ar| أنت يا سيدي حولت لي العقوبة خلاصاً. كراعٍ صالح سعيت في طلب الضال. كأبٍ حقيقي تعبت معي أنا الذي سقط. ربطتني بكل الأدوية المؤدية إلي الحياة. أنت الذي ارسلت لي الأنبياء من أجلي أنا المريض. أعطيتني الناموس عوناً. أنت الذي خدمت لي الخلاص لما خالفت ناموسك. كنورٍ حقيقيٍ أشرقت للضالين وغير العارفين.
+
+@people
+en| Lord have mercy.
+ar| الشعب: يا ربُ إرحم.
+
+@priest
+en| O You, THE BEING at all times, have come to us on earth. You have come into the womb of the Virgin. You, the Infinite, being God, did not consider equality with God a thing to be grasped. But emptied Yourself, and took the form of a servant, and blessed my nature in Yourself. And fulfilled your Law on my behalf. You have shown me the rising up from my fall. You have given release to those who were bound in Hades. You have lifted the curse of the Law. You have abolished sin in the flesh. You have shown me the power of Your authority. You have given sight to the blind. You have raised the dead from the tombs. You have established nature by the word. You have manifested to me the economy of your tender mercy. You have borne the oppression of the wicked. You have given Your back to the scourge. Your cheeks You have left open to those who smite. For my sake, O my Master, You have not hidden Your face from the shame of spitting.
+ar| أنت الكائن في كل زمان، أتيت إلينا علي الارض، اتيت إلي بطن العذراء. أيها الغير المحوي، إذ أنت الإله لم تضمِر اختطافاً أن تكونُ مساوياً هلل. لكن وضعت ذاتك. وأخذت شكل العبد. وباركت طبيعتي فيك. وأكملت ناموسك عني. وعرفتني القيام من سقطتي. أعطيت إطلاقاً لمن قبُضَ عليهم في الجحيم. أزلت لعنة الناموس. ابطلت الخطية بالجسد. عرفتني قوة سلطانك. وهبت النظر للعميان. أقمت الموتي من القبور. أقمت الطبيعة بالكلمة. أظهرت ليَّ تدبير تعطفك. إحتملت ظلم الأشرار. بذلت ظهرك للسياط، وخديك أهملتهما للَّطم. لأجلي يا سيدي، لم ترد وجهك عن خزي البصاق.
+
+@people
+en| Lord have mercy.
+ar| يا ربُ إرحم.

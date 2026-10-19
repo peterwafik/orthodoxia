@@ -27,28 +27,19 @@ export const en = {
   home: {
     title: 'Explore Scripture. Discover its connections. Understand the Orthodox faith.',
     lede: 'An interconnected library of Scripture, early Christian history, Church Fathers, and Coptic Orthodox apologetics.',
-    ctaExplore: 'Explore the Bible',
-    ctaMethod: 'See how we source and review',
-    figureLabel:
-      'Arcs over a line of the Bible from Genesis to Revelation. Each arc joins two passages in different books that cite or echo each other.',
-    figureCaption:
-      'The 1,200 most-voted connections between different books. Brighter arcs cross between the Old and New Testaments. The full explorer includes all 344,799.',
-    axisOld: 'Old Testament',
-    axisNew: 'New Testament',
-    exploreHeading: 'Follow a passage across the whole Bible',
-    exploreBody:
-      'Start from the full picture and zoom to a single verse, or read a chapter with its connections in view. Every connection opens the passage it points to.',
-    readLink: 'Read the Bible',
-    readNote: 'Arabic (Van Dyck) and English (KJV or Septuagint), including the deuterocanonical books.',
-    arcsLink: 'Open the arcs view',
-    arcsNote: 'Every verse on one line, with its cross-references drawn as arcs.',
-    threadsLink: 'Read with threads',
-    threadsNote: 'Read a chapter while each verse shows where its references land.',
     methodHeading: 'How sources are weighed',
     methodIntro:
       'Every page says where its claims come from. When sources differ in authority, we rank them in this order:',
     disclaimer:
       'This is an independent study project. It is not an official publication of the Coptic Orthodox Church, and nothing here claims the Church’s endorsement.',
+    cards: {
+      bible: { title: 'Read the Bible', note: 'Arabic (Van Dyck) and English (KJV or Septuagint), with the deuterocanonical books and optional topic markers.' },
+      explore: { title: 'Cross-references', note: 'Every verse on one line, with its connections to the rest of the Bible drawn as arcs.' },
+      threads: { title: 'Read with threads', note: 'Read a chapter while each verse shows where its references land.' },
+      holyMass: { title: 'The Holy Mass', note: 'The Divine Liturgy step by step, with the prayers and the meaning behind each part.' },
+      about: { title: 'About', note: 'What this project is, how sources are ranked and what the connections cover.' },
+      sources: { title: 'Sources and licenses', note: 'Where every text comes from, with credits and permissions.' },
+    },
   },
   hierarchy: [
     ['Holy Scripture', 'as received in the Coptic Orthodox biblical tradition.'],
@@ -89,6 +80,9 @@ export const en = {
   },
   sources: {
     title: 'Sources and licenses',
+    liturgyHeading: 'Holy Mass texts',
+    liturgyIntro: 'The prayers shown on the Holy Mass page come from these sources, each credited as its file states.',
+    liturgyNone: 'No prayer texts have been added yet; the page shows short draft summaries.',
     intro:
       'Every dataset, text and reference site we use or have evaluated, with its license as we verified it. Licenses can change, so each entry shows when we last checked.',
     groups: {
@@ -181,6 +175,30 @@ export const en = {
     englishPending: 'An English translation is in preparation and will be published only after review.',
     none: 'No interpretation is available for this chapter yet.',
     attribution: 'Used with the permission of the St. Mark Church website team.',
+  },
+  topics: {
+    button: 'Topic markers',
+    title: 'Mark verses by topic',
+    intro: 'Choose topics to colour the verses in this chapter that belong to them. Tick a main topic to select all of its subtopics; untick it to return to what you had ticked before.',
+    sourceNote: 'Verses come from Nave’s Topical Bible (1903, public domain) and from passages listed by hand. They have not been reviewed by clergy. Topics in grey have no passages yet. A dotted underline means the topic lists only a short selection of key passages, not a full index.',
+    shortList: 'A short selection of key passages',
+    noPassages: 'No passages yet',
+    familyHint: 'Select all the subtopics',
+    search: 'Search topics',
+    onlyHere: 'Only topics in this chapter',
+    clear: 'Clear all',
+    selected: 'Showing',
+    none: 'Nothing is marked yet. Open a topic and tick it.',
+    nothingHere: 'No topic is tagged in this chapter yet.',
+    noMatch: 'No topic matches your search.',
+    loading: 'Loading the topics…',
+    failed: 'The topics could not be loaded. Try again later.',
+    expand: 'Show the subtopics',
+    collapse: 'Hide the subtopics',
+    remove: 'Stop marking this topic',
+    close: 'Close',
+    verses: (count: number) => (count === 1 ? '1 verse' : `${count} verses`),
+    topicCount: (count: number) => (count === 1 ? '1 topic' : `${count} topics`),
   },
   notFound: {
     title: 'Page not found',

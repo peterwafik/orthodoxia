@@ -1,0 +1,114 @@
+source: The Divine Liturgies of Saints Basil, Gregory and Cyril (Coptic, English and Arabic), Fr. Jacob Nadian, St. Bishoy Coptic Orthodox Church of Toronto, Stouffville, Ontario, Canada.
+source-ar: الثلاثة قداسات للقديسين باسيليوس واغريغوريوس وكيرلس (قبطي وإنجليزي وعربي)، الأب يعقوب نادين، كنيسة الأنبا بيشوي القبطية الأرثوذكسية بتورونتو، ستوفيل، أونتاريو، كندا.
+
+@rubric
+en| The priest continues saying:
+ar| ثم يكمل قائلًا:
+
+@priest
+en| You proclaim My Death, confess My Resurrection, and remember Me till I come.
+ar| تبشرون بموتي وتعترفون بقيامتي وتذكروني إلي أن أجئ.
+
+@people
+en| Amen. Amen. Amen. Your death, O Lord, we proclaim. Your holy Resurrection and Ascension into the heavens, we confess. We praise You, we bless You, we thank You, O Lord, and we entreat You, O our God.
+ar| آمين. آمين. آمين. بموتك يا رب نبشر، وبقيامتك المقدسة وصعودك إلي السموات، نعترف. نسبحك، نباركك، نشكرك يا رب ونتضرع إليك يا إلهنا.
+
+@priest
+en| Therefore, as we also commemorate His holy Passion, His Resurrection from the dead, His Ascension into the heavens, His sitting at Your right hand, O Father. And His Second Coming from the heavens, awesome and full of glory, we offer unto You Your gifts from what is Yours, for everything, concerning everything, and in everything.
+ar| ففيما نحن أيضا نصنع ذكر آلامه المقدسة، وقيامته من الأموات، وصُعوده إلي السموات، وجلوسه عن يمينك أيها الآب. وظهوره الثاني الآتي من السموات، المخوف المملوء مجداً. نقرب لك قرابينك من الذي لك، علي كل حال، ومن أجل كل حال وفى كل حال.
+
+@deacon
+en| Worship God in fear and trembling.
+ar| اسجدوا هلل بخوف ورعدة.
+
+@rubric
+en| While all the people bow their heads, they say:
+ar| يسجد جميع الشعب هلل ويقولون وهم مطامنون رؤوسهم.
+
+@people
+en| We praise You, we bless You, we serve You, we worship You.
+ar| نسبحك. نباركك. نخدمك يارب. نسجد لك.
+
+@rubric
+en| While kneeling with hands stretched forth , the priest says the following Prayer of the Descent of the Holy Spirit (the Epiclesis) inaudibly.
+ar| يقول الكاهن أوشية حلول الروح القدس سراً وهو ساجد وباسط يديه، وهي هذه:
+
+@priest
+en| And we ask You, O Lord our God , we Your sinful and unworthy servants, we worship You by the pleasure of Yo ur goodness ; that Your Holy Spirit may descend
+ar| نسألك أيها الرب إلهنا نحن عبيدك الخطاة غير المستحقين. نسجد لك بمسرة صلاحك، ليحل روحك القدوس.
+
+@rubric
+en| He points to himself with his hands and then to the oblations present before him and says:
+ar| يشير بيديه إلى ذاته ثم إلى القرابين الموضوعة أمامه ويقول:
+
+@priest
+en| upon us and upon these gifts set forth, and purify them, change them, and manifest them as a sanctification of Your saints.
+ar| علينا وعلى هذه القرابين الموضوعة، ويطهرها وينقلها ويظهرها قدساً لقديسيك.
+
+@deacon
+en| Let us attend. Amen.
+ar| نُنصت. أمين.
+
+@rubric
+en| Everyone raises his head, and , three times , the priest quickly signs wit h the sign of the cross the oblation whic h i s upon the pat e n , and says aloud:
+ar| يرفع الجميع رؤوسهم، ويرشم الكاهن القربان ثلاثة رشوم بسرعة وهو موضوع في الصينية ويصرخ ويقول:
+
+@priest
+en| And this bread He makes into His holy Body.
+ar| وهذا الخبز يجعله جسداً مقدساً له.
+
+@rubric
+en| The people bow down and say:
+ar| يسجد الشعب ويقولون:
+
+@people
+en| I believe. Amen.
+ar| أؤمن.
+
+@rubric
+en| Meanwhile, the priest stretches forth his hands and bows his head to the Lord , saying inaudibly :
+ar| يبسط الكاهن يديه ويخضع برأسه للرب ويقول سراً:
+
+@priest
+en| Our Lord, God, and Savior Jesus Christ, given for the rem ission of sins and eternal life to those who partake of Him.
+ar| يقول الكاهن: ربنا وإلهنا ومخلصنا يسوع المسيح. يعطى لغفران الخطايا وحياة أبدية لمن يتناول منه.
+
+@rubric
+en| T hree times , the priest quickly signs the chalice wit h the sign of the cross , and says aloud:
+ar| يرشم الكاهن الكأس أيضاً ثلاثة رشوم بسرعة ويصرخ ويقول:
+
+@priest
+en| And this cup also, into the precious blood of His N ew C ovenant.
+ar| وهذه الكأس أيضا دماً كريماً للعهد الجديد الذي له.
+
+@rubric
+en| The people bow down and say:
+ar| يسجد الشعب أيضا ويقول:
+
+@people
+en| Again, I believe.
+ar| وأيضاً أؤمن.
+
+@rubric
+en| The priest stretches forth his hands and bows his head to the Lord, saying:
+ar| يبسط الكاهن يديه ويخضع برأسه للرب ويقول:
+
+@priest
+en| Our Lord, God, and Savior Jesus Christ, given for the remission of sins and eternal life to those who partake of Him.
+ar| يقول الكاهن: ربنا وإلهنا ومخلصنا يسوع المسيح. يعطى لغفران الخطايا وحياة أبدية لمن يتناول منه.
+
+@rubric
+en| Now indeed the bread has become the Body of Christ and the wine the Blood of Christ. After this, the signing, of both of Them shall be through Them and by Them.
+ar| الآن فقد صار القربان جسد المسيح والخمر دم المسيح وصار رشمهما في ما بعد منهما وبهما.
+
+@people
+en| Amen. Lord have mercy, Lord have mercy, Lord have mercy.
+ar| آمين. يا ربُ إرحم، يا ربُ إرحم، يا ربُ إرحم.
+
+@rubric
+en| The priest takes a veil in his right hand and another one in his left hand, and says:
+ar| ثم يأخذ الكاهن لفافة علي يده اليمني ولفافة أخري علي يده اليسري ويقول:
+
+@priest
+en| Make us all worthy, O our Master, to partake of Your holies, unto the purification of our souls, our bodies, and our spirits,
+ar| اجعلنا مستحقين كلنا، يا سيدنا، أن نتناول من قُدساتك طهارةً لأنفسنا وأجسادنا وأرواحنا.

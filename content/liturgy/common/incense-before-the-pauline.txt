@@ -1,0 +1,34 @@
+source: The Divine Liturgies of Saints Basil, Gregory and Cyril (Coptic, English and Arabic), Fr. Jacob Nadian, St. Bishoy Coptic Orthodox Church of Toronto, Stouffville, Ontario, Canada.
+source-ar: الثلاثة قداسات للقديسين باسيليوس واغريغوريوس وكيرلس (قبطي وإنجليزي وعربي)، الأب يعقوب نادين، كنيسة الأنبا بيشوي القبطية الأرثوذكسية بتورونتو، ستوفيل، أونتاريو، كندا.
+
+@rubric
+en| At the conc l usion of this prayer, a ll rise, the priests kiss each other, and the serving priest makes a prostration before the door of the sanctuary towards the East, before going up to the altar and kissing it. Then the deacon gives the censor to the priest, who faces eastwards and offers the incense of the prayer of the Pauline Epistle. He makes the sign of the cross on the incense box th ree times, put ting five spoonfuls of incense into the censer, and then he say s “ … Let us Pray ” and “ … Peace be with all” . Then he says the following Prayer of Incense of the Pauline Epistle to the Father.
+ar| ثم ينهض الجميع ويصافح الكاهن أخوته ويصعد إلى الهيكل ويقف أمام المذبح ويقدم له الشماس المجمرة فيرشم درج البخور ثلاثة رشوم ويضع خمس أياد بخور في المجمرة ويقول "صل " وأيضاً "السلام لجميعكم " ثم يقول أوشية بخور البولس للآب وهي هذه:
+
+@priest
+en| O God the great, the eternal, without beginning and without end, great in His counsel and mighty in His works, who is in all places, dwells with everyone. Be with us also, O our Master, in this hour and stand in the midst of us all. Purify our hearts and sanctify our souls. Cleanse us from all sins which we have done willingly and unwillingly and grant to us to offer before you rational sacrifices and sacrifices of blessing.
+ar| يا الله العظيم الأبدي الذي بلا نهاية العظيم في مشورته والقوى في أفعاله الذي هو في كل مكان وكائن مع كل أحد. كن معنا نحن أيضاً يا سيدنا في هذه الساعة وقف في وسطنا كلنا. طهر قلوبنا وقدس انفسنا ونقنا من كل الخطايا التي صنعناها بإرادتنا وبغير إرادتنا وإمنحنا ان نقدم أمامك ذبائح ناطقة وصعائد بركة.
+
+@deacon
+en| Pray for our sacsrifice and for those who have brought it.
+ar| صلوا من أجل ذبيحتنا والذين قدموها.
+
+@priest
+en| And a spiritual incense entering within the veil in the holy place of your holies. And we ask you, O our Master, remember O Lord the peace of your one only holy catholic...
+ar| وبخوراً روحياً يدخل إلى الحجاب في موضع قدس أقداسك. نسألك يا سيدنا أذكر يا رب سلام كنيستك الواحدة الوحيدة المقدسة...
+
+@rubric
+en| Then the priest continues with the prayer of t he Three Small Litanies for the P eace of the Church, the pope, and the A ssemblies, a s mentioned in the Vespers and Matins prayers, while encircling the altar three times. The deacon says the appropriate responses while facing the priest. Then the priest de scends from the sanctuary and offers incense before the door of the sanctuary. He then censes the gospel, the pope, the metropolitan or bishop, if any of them is present, and the priests and the people. As he cense the people, the priest says:
+ar| ثم يكمل الأواشي الثلاثة الصغار (السلامة والآباء والاجتماعات) كما تقدم في رفع البخور وهو يدور حول المذبح ثلاثة دورات ويبخر، ويقول الشماس ابروساتها وهو دائر مقابل الكاهن. وينزل من الهيكل ويعطي البخور امام باب الهيكل ويبخر للإنجيل وللأب البابا أو المطران أو الأسقف إن كان أحد منهم حاضرا، وللكهنة والشعب جميعه، ويقول في بخور الشعب:
+
+@priest
+en| A blessing of Paul, the apostle of Jesus Christ. May his holy blessing be with us. Amen .
+ar| بركة بولس رسول يسوع المسيح، بركته المقدسة تكون معنا. آمين.
+
+@rubric
+en| The priest returns to the sanctuary and recites the following Prayer of Confession of the People inaudibly:
+ar| ويعود إلي الهيكل ويقول سر اعتراف الشعب سرا كما يلي:
+
+@priest
+en| O God, who accepted the confession of the thief . upon the honorable Cross. Accept the confessions of Your people and forgive them all their sins for the sake of Your holy name
+ar| يا الله الذي قبل إليه اعتراف اللص على الصليب المكرم اقبل إليك اعترافات شعبك واغفر لهم جميع خطاياهم من أجل اسمك القدوس المبارك الذي دعى علينا. كرحمتك يارب وليس

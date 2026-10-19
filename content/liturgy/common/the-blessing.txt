@@ -1,0 +1,66 @@
+source: The Divine Liturgies of Saints Basil, Gregory and Cyril (Coptic, English and Arabic), Fr. Jacob Nadian, St. Bishoy Coptic Orthodox Church of Toronto, Stouffville, Ontario, Canada.
+source-ar: الثلاثة قداسات للقديسين باسيليوس واغريغوريوس وكيرلس (قبطي وإنجليزي وعربي)، الأب يعقوب نادين، كنيسة الأنبا بيشوي القبطية الأرثوذكسية بتورونتو، ستوفيل، أونتاريو، كندا.
+
+@priest
+en| Lord have mercy, Lord have mercy, Lord bless, Amen, Bless me, Bless me, Behold, the repentance, Forgive me, Say the blessing.
+ar| يا رب إرحم. يا رب إرحم. يا رب بارك. آمين. باركوا علي. باركوا علي. ها مطانية. اغفروا لي. قُل البركة.
+
+@priest
+en| May God have compassion upon us, bless us, manifest His face up o n us, and have mercy upon us. O Lord, save Your people, bless Your inheritance, shepherd th em, and raise them u p forever. Exalt the ho rn of Christians through the power of the life - giving Cross. A nd through the supplications and prayers which our Lady, the Lady of us all, the holy Theotokos, Saint Mary, makes for us at all times And through the supplications and prayers of the three great holy luminaries Michael, Gabriel, and Raphael ; the four incorporeal living creatures; the twenty four presbyters; and all the heavenly orders. Saint John the Baptist; the hundred and forty four thousand; my masters and fathers the apostles; the three holy youths; Saint Stephen; the beholder of God Saint Mark the Evangelist, the apostle and martyr. Saint George; Saint Theodore; Philopater Mercurius; Saint Abba Mina; and the whole choir of the martyrs; our righteous father, the great Abba Anthony; the righteous Abba Paul; the three saints Abba Macarii; our father Abba John; our father Abba Pishoi; our father Abba Paul of Tammoh; our Roman fathers Maximus and Dometius; our father Abba Moses; the Forty nine Martyrs of Shiheet; the whole choir of the cross-bearers; the just; the righteous; all the wise virgins; the angel of this blessed day, and the angel of this blessed sacrifice.
+ar| ليتراءف الله علينا ويباركنا، ويظهر وجهه علينا ويرحمنا. يا رب خلص شعبك. بارك ميراثك. ارعهم وارفعهم إلى الأبد. ارفع شأن المسيحيين بقوة الصليب المحيي. بالسؤالات والطلبات التي ترفعها عنا كل حين سيدتنا، سيدتنا كلنا والدة الإله القديسة الطاهرة مريم. والثلاثة العظماء المنيرون الأطهار ميخائيل وغبريال وروفائيل. والأربعة الحيوانات غير المتجسدين، والأربعة والعشرون قسيساً، وكل الطغمات السمائية. والقديس يوحنا المعمدان، والمائة والأربعة والأربعون ألفاً، وسادتي الآباء الرسل، والثلاثة فتية القديسين، والقديس استفانوس. وناظر الإله الإنجيلي مرقس الرسول القديس والشهيد. والقديس جيؤرجيوس، والقديس تادرس، وفيلوباتير مرقوريوس، والقديس أبا مينا، وكل مصاف الشهداء. وأبونا الصديق العظيم أنبا أنطونيوس، والبار أنبا بولا، والثلاثة أنبا مقارات القديسين. وأبونا أنبا يوحنا، وأبونا أنبا بيشوي، وأبونا أنبا بولا الطموهي، وأبوانا الروميان مكسيموس ودوماديوس، وأبونا أنبا موسى، والتسعة والأربعين شهيدا شيوخ شيهيت. وكل مصاف لباس الصليب الأبرار والصديقين، وجميع العذاري الحكيمات، وملاك هذا اليوم المبارك وملاك هذه الذبيحة المباركة.
+
+@rubric
+en| Here, the patron saint of the church is mentioned, followed by the saint(s) of the day, then he says
+ar| هنا يذكر اسم صاحب الكنيسة وقديسي اليوم، ثم يقول:
+
+@priest
+en| And the blessing of the holy Theotokos, Saint Mary, first and last.
+ar| وبركة والدة الإله القديسة الطاهرة مريم أولًا وآخراً.
+
+@rubric
+en| On Sunday, he adds:
+ar| وأيضاً، إذا كان يوم الأحد فيقول:
+
+@priest
+en| And the blessing of the Lord ’ s Day of our good Savior.
+ar| وبركة يوم الأحد الذي لمخلصنا الصالح.
+
+@rubric
+en| On the feasts of our Lord and the fasts, the priest says here the appropriate conclusion for each feast or fast. And he continues:
+ar| وفي الأعياد السيدية والأصوام يقول الكاهن هنا ختام البركة المناسب للعيد أو الصوم. ثم يكمل قائلًا:
+
+@priest
+en| May their holy blessing, their grace, their power, their gift, their love, and their help rest upon us all forever. Amen.
+ar| بركتهم المقدسة، ونعمتهم، وقوتهم، وهبتهم، ومحبتهم، ومعونتهم تكون معنا كلنا إلي الأبد. آمين.
+
+@rubric
+en| The priest sprinkles water on the people, saying:
+ar| ويرش الكاهن الشعب بالماء، ويقول:
+
+@priest
+en| O Christ our God. People : Amen. So be it.
+ar| أيها المسيح الهنا. آمين. يكون.
+
+@priest
+en| O King of Peace, grant us Your peace, establish for us Your peace, and forgive us our sins. For Yours is the power, the glory, the blessing , and the might, forever. Amen. Make us worthy to pray thankfully:
+ar| يا ملك السلام. أعطنا سلامك قرر لنا سلامك واغفر لنا خطايانا. لأن لك القوة والمجد والبركة والعز إلى الآبد. آمين. اللهم اجعلنا مستحقين أن نقول بشكر:
+
+@people
+en| Our Father who art in heaven...
+ar| أبانا الذي في السموات...
+
+@priest
+en| The love of God the Father; the grace of the only-begotten Son, our Lord, God, and Savior Jesus Christ; and the communion and gift of the Holy Spirit be with you all. Go in peace. The peace of the Lord be with you all. Amen.
+ar| محبة الله الآب، ونعمة الابن الوحيد، ربنا وإلهنا ومخلصنا يسوع المسيح، وشركة وموهبة الروح القدس تكون مع جميعكم. امضوا بسلام، سلام الرب مع جميعكم.
+
+@people
+en| And with Your spirit.
+ar| ومع روحك أيضا.
+
+@rubric
+en| The priest turns an d kisses the a l tar, and encircles it once, saying Psalm 46. Then he descends from the altar 46 and takes off his service vestments and distributes the e u l ogia, that is, the b le ss e d bread. And he dismisses the people in peace from the Lord. May His grac e, merc y, and blessing be upon u s forever. Amen.
+ar| وبعد أن ينتهي، يلتفت الكاهن ويقبل المذبح. ويدور دورة واحدة ويقول المزمور بتمامه. ثم ينزل من المذبح، ويخلع ثياب الخدمة، ويفرق الأولوجية، أي لقمة البركة. ويصرف الشعب بسلام من الرب. لتكن نعمته ورحمته وبركته معنا إلي الأبد. آمين.
+
+@rubric
+en| Psalm 46 (47 in Latin): 47 46 Oh, clap your hands, all you peoples! Shout to God with the voice of triumph. For the Lord Most High is awesome; He is a great King over all the earth. He will subdue the peoples under us, and the nations under our feet. He will choose our inheritance for us, the excellence of Jacob whom He loves. God has gone up with a shout, the Lord with the sound of a trumpet . Sing praises to God, sing praises! Sing praises to our King, sing praises . For God is the King of all the earth . Sing praises with understanding . God reigns over the nations; God sits on His holy throne . The princes of the peop le have gathered together, t he people of the God of Abraham . For the shields of the earth belong to God; He is greatly exalted . Alleluia.
+ar| المزمور ( في الترجمة اللاتينية): يا جميع الأمم صفقوا بأيديكم، هللوا هلل بصوت الابتهاج. لأن الرب عال ومرهوب، ملك كبير على كافة الأرض. أخضع الشعوب لنا، والأمم تحت أقدامنا، اختارنا ميراثا له، جمال يعقوب الذي أحبه. صعد الله بتهليل، والرب بصوت البوق. رتلوا لإلهنا رتلوا، رتلوا لمليكنا رتلوا، لأن الرب هو ملك الأرض كلها. رتلوا بفهم لأن الرب قد ملك على جميع الأمم. الله جلس على كرسيه المقدس. رؤساء الشعوب اجتمعوا مع إله إبراهيم، لأن أعزاء الله قد ارتفعوا في الأرض جدا. هلليًلويا.

@@ -1,0 +1,72 @@
+source: The Divine Liturgies of Saints Basil, Gregory and Cyril (Coptic, English and Arabic), Fr. Jacob Nadian, St. Bishoy Coptic Orthodox Church of Toronto, Stouffville, Ontario, Canada.
+source-ar: الثلاثة قداسات للقديسين باسيليوس واغريغوريوس وكيرلس (قبطي وإنجليزي وعربي)، الأب يعقوب نادين، كنيسة الأنبا بيشوي القبطية الأرثوذكسية بتورونتو، ستوفيل، أونتاريو، كندا.
+
+@priest
+en| Yes so, O our Master, be with us; be a partner working with us. Bless us. for You are the forgiveness of our sins, the light of our souls, our strength, and our boldness. And unto You, we send up glory, honor and worship, O Father and Son and Holy Spirit, now and at all times and unto the age of all ages. Amen.
+ar| نعم يا سيدنا، كن معنا، اشترك في العمل معنا: باركنا. لأنك أنت هو غفران خطايانا، ضياء أنفسنا، حياتنا، قوتنا ودالتنا. وأنت الذي نرسل لك إلي فوق، المجد والاكرام والسجود، أيها الآب والابن والرُّوح القدس، الآن وكلّ أوان، وإلى دهر الدهور كلها. آمين.
+
+@rubric
+en| While reciting the Prayer of Preparation, the priest wipes the vessels and arranges them in their places. Then he says the following prayer inaudibly. The Prayer after Preparation
+ar| وفي أثناء تلاوة صلاة الاستعداد يمسح الكاهن الأواني ويضع كلًا في مكانه. وإذا انتهي من ذلك يقول هذه الصلاة سراً: صلاة بعد الاستعداد
+
+@priest
+en| O Lord, You have taught us this great mystery of salvation. You have called us, Your lowly and unworthy servants, to be servants of Your holy altar. O our Master, You make us worthy in the power of Your Holy Spirit to accomplish this service; so that, without falling into condemnation before Your great glory, we may bring to You a sacrifice of praise, glory, and great beauty in Your sanctuary. O God, who gives grace, who sends forth salvation, who works all in all; grant, O Lord, that our sacrifice may be accepted before You for my own sins, and for the ignorances of Your people. For behold, it is pure according to the gift of Your Holy Spirit, in Christ Jesus our Lord. Through whom the glory, the honor and worship are due unto You, with Him and the Holy Spirit, the Giver of Life, who is of one essence with You, now and at all times and unto the age of all ages. Amen.
+ar| أنت ياربُّ، علمتَنا هذا السرَّ العظيم، الذي للخلاص. أنت دعوتَنا، نحن الأذلاء غير المستحقين عبيدك، لنكون خداماً لمذبحك المقدس. أنت يا سيدنا اجعلنا مستوجبين، بقوة روحك القدُّوس، أن نكمل هذه الخدمة، لكي بغير وقوع في دينونة أمام مجدك العظيم، نقدم لك صعيدة البركة، مجداً وعظم بهاء في قدسك. اللهم معطي النعمة، مرسل الخلاص، الذى يفعل كل شئ فى كل أحد. اعط يا رب أن تكون مقبولة أمامك ذبيحتنا عن خطاياي وجهالات شعبك. لأنها طاهرة كموهبة روحك القدوس، بالمسيح يسوع ربنا. هذا الذي من قبله المجد والكرامة والعز والسجود تليق بك معه مع الروح القدس المحيي المساوي لك. الآن وكلّ أوان، وإلى دهر الدهور كلها. آمين.
+
+@rubric
+en| The priest kisses the altar. The prayers of the hours are now prayed. The priest then washes his hands three times, saying the first time:
+ar| ثم يقبل الكاهن المذبح، وبعد ذلك تصلي مزامير الساعات. ثم يغسل الكاهن يديه ثلاث دفعات وهو يقول في الدفعة الأولي:
+
+@priest
+en| Purge me with hyssop and I shall be clean, wa sh me and I shall be whiter than snow. (Psalm (50) 51:7)
+ar| تنضح على بزوفاك فأطهر، تغسلني فأبيض أكثر من الثلج.
+
+@rubric
+en| And the Second Time:
+ar| وفي الدفعة الثانية:
+
+@priest
+en| Make me hear joy and gladn ess, that the bo nes You have broken may rejoice. (Psalm (50) 51:8)
+ar| تسمعني سروراً وفرحاً فتبتهج عظامي المنسحقة.
+
+@rubric
+en| And t he Third Time:
+ar| وفي الدفعة الثالثة:
+
+@priest
+en| I will wash my hands in innocence; so I will go about Your altar, O Lord, that I may proclaim with the voice of thanksgiving, and tell of all Your wondrous works. Alleluia (Psalm (25) 26:6,7)
+ar| أغسل يدي بالنقاوة وأطوف بمذبحك يا رب. لأسمع صوت تسبيحك وانطق بجميع عجائبك. هلليلويا.
+
+@rubric
+en| Then the priest wipes his hands slightly with a white linen veil. During the Offering of the Lamb, he stands at the door of the sanctuary facing west, holding in his hand a silk veil. Then the loaves and the wine a re presented to him, which he examines carefully. The loaves are
+ar| ثم ينشف يديه قليلًا في ستر كتان ابيض نظيف. وعند تقديم الحمل، يقف في باب الهيكل متجهاً إلى الغرب وبيده لفافة حرير. ويقدم له الحمل والخمر فيستبرئ ذلك جيداً.
+
+@priest
+en| 3
+ar| ويقدم قربان الحمل دائما بعدد مفرد، أي أو
+
+@rubric
+en| presented in an odd number, e.g., 3 or 5, etc. The deacon
+
+@priest
+en| 5
+
+@rubric
+en| stands beside him, having in his right hand a silk veil on which to receive the vessel of wine, and light in his left hand to shed li ght on the loaves and the wine while the priest examines them. Before the priest chooses the Lamb, which is the offering bread , he makes the sign of the cross three times over the loaves and the wine, saying, “In the name of the Father… ) ” and “Blessed be God the Father… ) . ” He takes the Lamb in the palm of his left hand and wipes the top and the bottom with his right hand, saying:
+ar| ... الخ. ويقف الشماس بجانبه وبيده اليمني لفافة حرير لأخذ قارورة الخمر، وبيدة اليسري نور ينير به علي الحمل والخمر حين يستبرئهما الكاهن. فيختار الحمل الذي هو خبز التقدمة، وقبل اختياره يرشم الكاهن الحمل والخمر ثلاثة رشوم وهو يقول: باسم الآب... و مبارك الله الآب... بكاملها. ويأخذ الحمل علي راحة كفه اليسري ويمسحه بيده اليمني فوق وأسفل وهو يقول من صلاة بعد الاستعداد:
+
+@priest
+en| G rant, O Lord, that our sacrifice may be accepted before You for my own sins, and for the ignorance s of Your people. For behold, it is pure according to the gift of Your Holy Spirit, in Christ Jesus our Lord. Through whom the glory, the honor and worship are due unto You, with Him and the Holy Spirit, the Giver of Life, who is of one essence with You, now and at all times and unto the age of all ages. Amen.
+ar| اعط يا رب أن تكون مقبولة أمامك ذبيحتنا عن خطاياي وجهالات شعبك. لأنها طاهرة كموهبة روحك القدوس، بالمسيح يسوع ربنا. هذا الذي من قبله المجد والكرامة والعز والسجود تليق بك معه مع الروح القدس المحيي المساوي لك. الآن وكلّ أوان، وإلى دهر الدهور كلها. آمين.
+
+@rubric
+en| Then he mentions those whom he desires to remember, especially those on whose behalf the offering is made. And for Chr istians in general, and for his family and kin in particular, he says :
+ar| ثم يذكر من يريد أن يذكره، وبالأخص من يكون القربان قد قدم عنه. وعن المسيحيين عموما، وعن أهله وأقاربه خصوصاًً يقول:
+
+@priest
+en| Remember, O Lord, Your orthodox Christian servants, each one by his name and each one by her name. Remember, O Lord, m y father, my mother, my brethren , and my kin in the flesh, and my spiritual fathers. Keep those who are living, by the angel of peace, and repose those who ha v e departed.
+ar| اذكر يا رب عبيدك المسيحيين الأرثوذكسيين، كل واحد باسمه وكل واحدة باسمها. اذكر يا رب أبي وأمي وأخوتي وأقربائي الجسديين، وآبائي الروحيين، فالاحياء منهم احفظهم بملاك السلام والراقدين نيحهم.
+
+@rubric
+en| As for himself, he says:
+ar| وعن ذاته يقول:

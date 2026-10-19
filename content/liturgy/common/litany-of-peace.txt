@@ -1,0 +1,26 @@
+source: The Divine Liturgies of Saints Basil, Gregory and Cyril (Coptic, English and Arabic), Fr. Jacob Nadian, St. Bishoy Coptic Orthodox Church of Toronto, Stouffville, Ontario, Canada.
+source-ar: الثلاثة قداسات للقديسين باسيليوس واغريغوريوس وكيرلس (قبطي وإنجليزي وعربي)، الأب يعقوب نادين، كنيسة الأنبا بيشوي القبطية الأرثوذكسية بتورونتو، ستوفيل، أونتاريو، كندا.
+
+@priest
+en| Again, let us ask God the Pantocrator, the Father of our Lord, God, and Savior Jesus Christ. We ask and entreat Your goodness, O Lover of Mankind, remember, O Lord, the peace of your one, only, holy, catholic, and apostolic Church.
+ar| وأيضاً فلنسألُ الله الضابط الكل، أبا ربنا وإلهنا ومخلصنا يسوع المسيح. نسأل ونطلبُ من صلاحك يا محب البشر، اذكر يا رب سلام كنيستك الواحدة الوحيدة المقدسة الجامعة الرسولية.
+
+@deacon
+en| Pray for the peace of the one, holy, catholic, and apostolic Orthodox Church of God.
+ar| صلوا من اجل سلام الواحدة المقدسة الجامعة الرسولية كنيسة الله الارثوذكسية.
+
+@people
+en| Lord have mercy.
+ar| يا ربُ إرحم.
+
+@priest
+en| This which exists from one end of the world to the other. All peoples and all flocks, bless. The heavenly peace, send down into all our hearts; even the peace of this life, graciously grant to us. The king [president], the armies, the rulers, the counselors, the multitudes, our neighbors, our coming in and our going out, adorn them with all peace. O King of Peace, grant us Your peace; for You have given us all things. Acquire us to Yourself, O God our Savior, for we know none other but You. Your Holy name we utter. May our souls live by Your Holy Spirit. And let not the death of sin have dominion over us, we Your servants, (nor over all Your people.)*
+ar| هذه الكائنة من أقاصى المسكونة إلى أقاصيها. كل الشعوب وكل القطعان. باركهم. السلام الذى من السموات إنزله على قلوبنا جميعا. بل وسلام هذا العمر أنعم به علينا إنعاماً. الملك (الرئيس) والجند والأراخنة والمشيرين والجموع وجيراننا ومداخلنا ومخارجنا، زينهم بكل سلام. يا ملك السلام، أعطنا سلامك، لان كل شئ قد أعطيتنا. اقتننا لك يا الله مخلصنا لأننا لا نعرفُ آخرَ سواك، إسمُك القدوس هو الذى نقوله. فلتحي نفوسُنا بروحِّك القدوس. ولا تدع موت الخطية يقوى علينا، نحنُ عبيدك، (ولا على كلِّ شعـِبك.)*
+
+@people
+en| Lord have mercy.
+ar| يا ربُ إرحم.
+
+@rubric
+en| * Said by the pope or a metropolitan or a bishop , if present:
+ar| * يقولها الآب البابا أو المطران أو الأسقف إذا كان حاضراً.

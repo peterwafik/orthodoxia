@@ -12,6 +12,8 @@ import {
 import Base from '../../../../../../layouts/Base.astro';
 import ChapterText from '../../../../../../components/bible/ChapterText.astro';
 import VerseBubble from '../../../../../../components/bible/VerseBubble.astro';
+import TopicMarkers from '../../../../../../components/bible/TopicMarkers.astro';
+import { chapterKey } from '../../../../../../lib/topics/marks.ts';
 import { chapterCommentary } from '../../../../../../lib/commentary.ts';
 import EditionSwitch from '../../../../../../components/bible/EditionSwitch.astro';
 import { biblePath, bookName, editionBooks, equivalentPath, loadBook } from '../../../../../../lib/bible.ts';
@@ -83,6 +85,8 @@ const explorerReady =
   info.section !== 'deuterocanon' && (edition.explorerCompatible || (info.section === 'nt' && book.source === 'ebible-eng-kjv'));
 const explorerHref = `${explorerPath(locale, 'threads')}?ref=${info.osis}.${number}`;
 
+const topicChapter = chapterKey(info.code, number, edition.psalms) ?? null;
+const topicsLenient = info.code === 'PSA' && edition.psalms === 'lxx';
 const verseExplorerHref = explorerReady ? `${explorerHref}.{verse}` : undefined;
 
 const other = otherLocale(locale);
@@ -139,6 +143,8 @@ const notes = [
       <ChapterText chapter={chapter} lang={edition.locale} notesLabel={strings.notes} />
       <VerseBubble locale={locale} commentary={commentary} arabicHref={arabicHref} explorerHref={verseExplorerHref} />
     </div>
+
+    <TopicMarkers locale={locale} book={info.code} chapterKey={topicChapter} lenient={topicsLenient} />
 
     <nav class="pager" aria-label={strings.chapters}>
       {previous !== undefined ? (

@@ -1,0 +1,62 @@
+source: The Divine Liturgies of Saints Basil, Gregory and Cyril (Coptic, English and Arabic), Fr. Jacob Nadian, St. Bishoy Coptic Orthodox Church of Toronto, Stouffville, Ontario, Canada.
+source-ar: الثلاثة قداسات للقديسين باسيليوس واغريغوريوس وكيرلس (قبطي وإنجليزي وعربي)، الأب يعقوب نادين، كنيسة الأنبا بيشوي القبطية الأرثوذكسية بتورونتو، ستوفيل، أونتاريو، كندا.
+
+@priest
+en| O You, THE BEING, who was and who abides forever, the eternal, co-essential, co-enthroned, and co-creator with the Father. Who for the sake of goodness only brought man into existence out of nonexistence, and put him in the paradise of joy. And when he fell through the deception of the enemy and the disobedience of Your holy commandment, You desired to renew him and to restore him to his first estate. Neither an angel nor an archangel, neither a patriarch nor a prophet, have You entrusted with our salvation, but You, without change, were incarnate and became man and resembled us in everything, except for sin alone, and became for us a mediator with the Father, and the middle wall You have broken down and the old enmity You have abolished. You have reconciled the earthly with the heavenly and made the two into one, and fulfilled the economy in the flesh. And at Your ascension into the heavens in the body, having filled all with Your divinity. You said to Your holy disciples and apostles: “ My peace I give to you; My peace I leave with you. ” The same also, now grant to us, O our Master. And cleanse us from all blemish, all guile, all hypocrisy, all evil, all malice, and the remembrance of evil entailing death.
+ar| ايها الكائن الذي كان، الدائم إلي الابد، الذاتي، والمساوي، والجليس، والخالق الشريك مع الآب. الذي من أجلّ الصلاح وحده، مما لم يكن كونت الانسان، وجعلته في فردوس النعيم. وعندما سقط بغواية العدو ومخالفة وصيتّك المقدسة، وأردت أن تجدّده، وتردّه إلي رتبته الأولي. لا ملاك ولا رئيس ملائكة ولا رئيس آباء ولا نبياً ائتمنته علي خلاصنا. بل أنت بغير استحالة، تجسدت وتأنست، وشابهتنا في كلّ شئ ما خلا الخطية وحدها. وصرت لنا وسيطاً لدى الآب، والحاجز المتوسط نقضته، والعداوة القديمة هدمتها. وصالحت الأرضيين مع السمائيين، وجعلت الإثنين واحداً، وأكملت التدبير بالجسد. وعند صعودك إلي السموات جسدياً، إذ ملأت الكلّ بلاهوتكَّ، قلت لتلاميذك ورسلك القديسين: ”سلامي أعطيكم، سلامي أنا أتركه لكم.“ هذا أيضاً الآن، أنعِم به لنا يا سيدَّنا. وطهرنا من كل دنس، ومن كل غش، ومن كل رياء، ومن كل شر، ومن كل مكيدةٍ، ومن تذكار الشر الملبس الموت.
+
+@deacon
+en| Pray for perfect peace, love, and the holy apostolic kisses.
+ar| صلوا من أجل السلام الكامل، والمحبة، والقبلة الطاهرة الرسولية.
+
+@people
+en| Lord have mercy.
+ar| يا ربُ إرحم.
+
+@priest
+en| And make us all worthy, O our Master, to greet one another with a holy kiss. That without falling into condemnation, we may partake of Your immortal and heavenly gift. Through Your grace and the goodwill of Your good Father and the work of Your Holy Spirit. For You are the provider and giver of all goodness. And to You we send u p the glory, the honor and the worship , together with Your good Father, and the Holy Spirit, the Giver of Life, who is of One Essence with You. N ow and at all times and unto the ages of all ages. Amen.
+ar| واجعلنا مستحقين كلنا يا سيدنا، أن نقًّبل بعضُنا بعضاً بقبلةٍ طاهرة. لنتناول بغير أنطراح في الحكم، من موهبتك غير المائتة السمائية. بنعمتك ومسرة أبيك الصالح وفعل روحِّك القدوس. لأنك انت الرازق، ومعطي جميع الخيرات. وأنت الذي نرسل لك إلى فوق المجد والكرامة والسجود مع أبيك الصالح والروح القدس المحيي المساوي لك. الآن وكل أوان وإلى دهر الدهور آمين.
+
+@rubric
+en| The people may chant the Aspasmos Adam Rejoice O Mary (if they so desire).
+ar| يقول الشعب هذا الاسبسمس الآدام السنوي إفرحي يا مريم (إن أرادوا).
+
+@priest
+en| Rejoice O Mary, handmaid en and mother, for the angels praise Him who is on your arms . And the Cherubim worthily worship Him, and the Seraphim too, without ceasing. We have no boldness before our Lord Jesus Christ apart from your prayers and intercessions, O our Lady, the Lady of us all, the Theotokos. That we may praise You with the Cherubim and the Seraphim, proclaiming and saying: Holy, holy, holy, O Lord, the Pantocrator, heaven and earth are full of Your glory and honor. We ask You, O Son of God, to keep the life of our Patriarch, Abba … , the high priest. Confirm him upon his throne. And his partner in the liturgy, our holy and righteous father, Abba (…) the metropolitan (bishop), confirm him upon his throne.
+ar| إفرحي يا مريم، العبدة والأم، لأن الذي في حجرك، الملائكة تسبحه. والشاروبيم يسجدون له باستحقاق والسارافيم، بغير فتور. ليس لنا دالة عند ربنا يسوع المسيح، سوي طلباتك وشفاعتك، يا سيدتنا كلنا السيدة والدة الإله. لكي نسبحك مع الشاروبيم، والسارافيم صارخين قائلين: قدوس قدوس قدوس، أيها الرب الضابط الكل، السماء والارض مملوءتان من مجدك وكرامتك. نسألك يا أبن الله ان تحفظ حياة بطريركنا البابا أنبا (...) رئيسُ الكهنة، ثبته علي كرسيه. وشريكه في الخدمة أبينا الطاهر البار أنبا (...) المطران (الأسقف)، ثبته علي كرسيه.
+
+@deacon
+en| Greet one another with a Holy kiss. Lord have mercy. Lord have mercy. Lord have mercy Yea, Lord, who are Jesus Christ, the Son of God, hear us and have mercy upon us. Offer. Offer. Offer, in order. Stand with trembling. Look toward the East. Let us attend.
+ar| قبلوا بعضكم بعضا بقبلة مقدسة. يارب ارحم. يارب ارحم. يارب ارحم. نعم يارب الذي هو يسوع المسيح ابن الله، اسمعنا وارحمنا. تقدموا تقدموا تقدموا على الرسم، قفوا برعدة، والي الشرق أنظروا. ننصت.
+
+@people
+en| Through the intercessions of the Theotokos, Saint Mary, O Lord, grant us the forgiveness of our sins. We worship You, O Christ, with Your good Father and the Holy Spirit, for you have come (risen) and saved us. Have mercy on us. A mercy of peace, a sacrifice of praise.
+ar| بشفاعات والدة الإله القديسة مريم، يارب انعم لنا بمغفرة خطايانا. نسجد لك أيها المسيح، مع أبيك الصالح و الروح القدس، لأنك أتيت (قمت) وخلصتنا. ارحمنا. رحمة السلام، ذبيحة التسبيح.
+
+@people
+en| Pri est: O Christ, our God, the fearful and incomprehensible power of God the Father, who sits upon the flaming throne of the cherubim, who is served by the fiery powers; and You, as God, are a consuming fire. Because of the ineffable condescension and love towards mankind, You did not burn the guileful traitor when he drew near to You. But You greeted him with a greeting of fellowship, drawing him unto repentance and the recognition of his presumptuousness. Make us all worthy, O our Master, we also at this fearsome hour, that with one mind and without double heartedness, and the rest of the evil, to greet one another with a holy kiss. And cast us not into condemnation, even if, according to the pleasure of Your goodness, we are not perfectly pure from the mire of sin, malice, and the deadly remembrance of evil. But rather through Your ineffable and indestructible compassion, knowing the frailty and the downfall of our form, wipe away all the stain of our iniquities, that we may not be under condemnation nor fall into judgment concerning this mystery of Your divinity.
+ar| أيها المسيح إلهنا القوة المخوفة، غير المفهومة التي هلل الآب. الجالس فوق العرش الملتهب الشاروبيمي، والمخدوم من القوات النارية. وأنت نارٌ آكلةٌ كإله. من أجل تنازلك غير الموصوف، ومحبتك للبشر، لم تحرق الدافع الغاش عندما دنا منك. بل قبّلته قبلة المصاحبة، جاذباً إياه إلي التوبة ومعرفة جسارته. إجعلنا مستحقين نحن أيضاً يا سيدنا في هذه الساعة المخوفة، بفكر واحدٍ بغير شئٍ من التشكك وبقية الشر، أن نقَّبل بعضنا بعضاً بقبلة مقدسة. ولا تطرحنا في الحكم - إن لم نكن حسبما يرضي صلاحك - أنقياء بالكمال من حمأة الخطية، والخبث وتذكار الشر القاتل. لكن أنت بتعطفك غير الموصوف، ولا مخبر به إذ تعرف ضعف وانغماس جبلتنا إلي أسفل. أمح كلَّ أدناس سيئاتنا. لكي لا يكون لنا دينونة ولا وقوعاً في دينونة هذا السر الذي للاهوتك.
+
+@deacon
+en| Pray for perfect peace, love, and the holy apostolic kisses.
+ar| صلوا من أجل السلام الكامل، والمحبة، والقبلة الطاهرة الرسولية.
+
+@people
+en| Lord have mercy.
+ar| يا ربُ إرحم.
+
+@priest
+en| For You are He who is able to take away all sins and to remove all the unrighteousness and iniquity of wretched people. Behold, You are the purity of the whole world. And unto You is due the glorification with one voice from everyone saying: G lory, honor, dominion, and worship, with Your Good Father and the Holy Spirit the Giver of Life, who is of one essence with You. N ow and at all times and unto the ages of all ages. Amen.
+ar| لانك أنت القادر أن ترفع كل الخطايا، وتنقل الظلم والآثام التي للناس الاشقياء، إذ أنت طهر العالم كله. وأنت الذي ينبغي لك التمجيد، بصوت واحد من كل أحد قائلين: المجد والكرامة والعظمة والسجود، مع أبيك الصالح والروح القدس المحيي المساوي لك. الآن وكل أوان وإلى دهر الدهور آمين.
+
+@deacon
+en| Greet one another with a Holy kiss. Lord have mercy. Lord have mercy. Lord have mercy Yea, Lord, who are Jesus Christ, the Son of God, hear us and have mercy upon us. Offer. Offer. Offer, in order. Stand with trembling. Look toward the East. Let us attend.
+ar| قبلوا بعضكم بعضا بقبلة مقدسة. يارب ارحم. يارب ارحم. يارب ارحم. نعم يارب الذي هو يسوع المسيح ابن الله، اسمعنا وارحمنا. تقدموا تقدموا تقدموا على الرسم، قفوا برعدة، والي الشرق أنظروا. ننصت.
+
+@people
+en| Through the intercessions of the Theotokos, Saint Mary, O Lord, grant us the forgiveness of our sins. We worship You, O Christ, with Your good Father and the Holy Spirit, for you have come (risen) and saved us. Have mercy on us. A mercy of peace, a sacrifice of praise.
+ar| بشفاعات والدة الاله القديسة مريم، يارب انعم لنا بمغفرة خطايانا. نسجد لك أيها المسيح، مع أبيك الصالح و الروح القدس، لأنك أتيت (قمت) وخلصتنا. ارحمنا. رحمة السلام، ذبيحة التسبيح.
+
+@rubric
+en| The priest transfers to his left hand the veil which he is holding, and he takes in his right hand the veil which is upon the oblation, and with it he makes the following three signs of the cross while keeping the two veils in his hands.
+ar| ثم يضع الكاهن اللفافة التي معه علي يده اليسري. ويأخذ بيده اليمني اللفافى التي علي القربانة ويرشم بها الثلاثة الرشوم الآتية. وبعد ذلك يبقي اللفافتين علي يديه.

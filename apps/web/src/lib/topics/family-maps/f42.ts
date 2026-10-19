@@ -1,0 +1,36 @@
+import type { FamilyMap } from './types.ts';
+
+/** 42. Wisdom literature, parables, and life lessons. */
+export const F42: FamilyMap = {
+  nave: {},
+  passages: {
+    'The fear of the Lord as wisdom': 'Proverbs 1:7; Proverbs 9:10; Psalm 111:10; Job 28:28',
+    'Wisdom versus foolishness': 'Proverbs 1:20–33; Proverbs 9:1–18; Proverbs 14:1; James 3:13–17',
+    'Proverbs about speech': 'Proverbs 10:19–21; Proverbs 12:18; Proverbs 15:1–4; Proverbs 18:21; James 3:1–12',
+    'Proverbs about friendship': 'Proverbs 17:17; Proverbs 18:24; Proverbs 27:5–6; Proverbs 27:17',
+    'Proverbs about money': 'Proverbs 11:28; Proverbs 13:11; Proverbs 22:7; Proverbs 23:4–5; Proverbs 28:20',
+    'Proverbs about work': 'Proverbs 6:6–11; Proverbs 10:4–5; Proverbs 12:24; Proverbs 14:23; Proverbs 24:30–34',
+    'Proverbs about parenting': 'Proverbs 22:6; Proverbs 13:24; Proverbs 19:18; Proverbs 29:15; Proverbs 29:17',
+    'Proverbs about discipline': 'Proverbs 3:11–12; Proverbs 12:1; Proverbs 15:32; Proverbs 13:24',
+    'Wisdom in conflict': 'Proverbs 15:1; Proverbs 17:14; Proverbs 20:3; Proverbs 25:15; Proverbs 26:20',
+    'Wisdom in leadership': 'Proverbs 11:14; Proverbs 14:28; Proverbs 16:12–13; Proverbs 29:2; Proverbs 29:14',
+    'Wisdom in making decisions': 'Proverbs 3:5–6; Proverbs 11:14; Proverbs 15:22; Proverbs 16:9; Proverbs 19:20–21',
+    'The meaning of life': 'Ecclesiastes 1:2–11; Ecclesiastes 12:13–14; Psalm 90:12; Ecclesiastes 2:24–26',
+    'Vanity of worldly achievements': 'Ecclesiastes 1:2; Ecclesiastes 2:1–11; 1 John 2:15–17; Mark 8:36',
+    'Time and seasons': 'Ecclesiastes 3:1–11; Psalm 31:15; Galatians 4:4',
+    "Enjoying God's gifts": 'Ecclesiastes 2:24–25; Ecclesiastes 3:12–13; Ecclesiastes 5:18–20; Ecclesiastes 9:7–9; 1 Timothy 6:17',
+    'The suffering of the righteous': 'Job 1–2; Psalm 73; Ecclesiastes 7:15; Habakkuk 1:2–4',
+    'Parable of the Sower': 'Matthew 13:1–23',
+    'Parable of the Good Samaritan': 'Luke 10:25–37',
+    'Parable of the Prodigal Son': 'Luke 15:11–32',
+    'Parable of the Lost Sheep': 'Luke 15:1–7',
+    'Parable of the Talents': 'Matthew 25:14–30',
+    'Parable of the Ten Virgins': 'Matthew 25:1–13',
+    'Parable of the Pharisee and Tax Collector': 'Luke 18:9–14',
+    'Parable of the Rich Fool': 'Luke 12:13–21',
+    'Parable of the Workers in the Vineyard': 'Matthew 20:1–16',
+    'Parable of the Wise and Foolish Builders': 'Matthew 7:24–27',
+    'Understanding parables in context': 'Matthew 13:10–17; Matthew 13:34–35; Mark 4:10–12; Luke 8:9–10',
+    'Christ as the wisdom of God': '1 Corinthians 1:24; 1 Corinthians 1:30; Colossians 2:2–3; Proverbs 8:22–31',
+  },
+};

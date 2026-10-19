@@ -1,0 +1,22 @@
+source: The Divine Liturgies of Saints Basil, Gregory and Cyril (Coptic, English and Arabic), Fr. Jacob Nadian, St. Bishoy Coptic Orthodox Church of Toronto, Stouffville, Ontario, Canada.
+source-ar: الثلاثة قداسات للقديسين باسيليوس واغريغوريوس وكيرلس (قبطي وإنجليزي وعربي)، الأب يعقوب نادين، كنيسة الأنبا بيشوي القبطية الأرثوذكسية بتورونتو، ستوفيل، أونتاريو، كندا.
+
+@priest
+en| The Dismissal
+ar| التسريح
+
+@rubric
+en| The Priest wipes his face with his hands, and he turns to his br o th e r s the p riests, and makes them partners with him by the touch of his ha nds, and they do likewise . Then he places his hand upon the heads of the people and blesses them (this is now done through sprinkling them with the holy water instead of laying the hand on each one). He then dismisses them and concludes with the blessing.
+ar| ثم يمسح وجهه بيديه ويلتفت إلي أخوته الكهنة ويشاركهم بيديه. وكل من شاركه يمسح هو بيديه علي وجهه. وهم أيضاً يعملون كذلك. ثم يضع يده علي رؤوس الشعب ويباركهم (ولكن هذا يتم حالياً عن طريق رشهم بماء مقدس بدلًا من وضع اليد علي كل واحد) ثم يعطيهم التسريح. ويختم ذلك بقراءة البركة.
+
+@people
+en| Amen. Alleluia: Glory be to the Father and to the Son and to the Holy Spirit: now and forever and unto the ages of ages: Amen. We cry out saying: O our Lord Jesus Christ: bless the air of heaven (bless the waters of the river/ bless the seeds and the herbs). May Your mercy and Your peace be a fortress to Your people. Save us and have mercy on us.* Lord have mercy. Lord have mercy. Lord bless us. Amen. Bless me: Bless me: Behold, the repentance: Forgive me: Say the blessing.
+ar| امين هلليلويا. المجد للآب والابن والروح القدس، الآن و كل أوان وإلي دهر الدهور كلها. آمين. نصرخ قائلين: يا ربنا يسوع المسيح، بارك اهوية السماء، [مياه النهر / الزروع والعشب]. ولتكن رحمتك وسلامك حصنا لشعبك. خلصنا وإرحمنا.* يا رب إرحم. يا رب إرحم. يا رب بارك. آمين. باركوا علي. باركوا علي. ها مطانية. اغفروا لي. قُل البركة.
+
+@rubric
+en| Hymn * Conclusion of the prayer in the presence of the Pope, a Metropolitan or a Bishop
+ar| * وفي حضور الآب البطرك أو المطران أو الأسقف يقال الآتي
+
+@people
+en| You were granted the grace of Moses, the priesthood of Melchizedek, the old age of Jacob, the long life of Methuselah, the excellent understanding of David, the wisdom of Solomon, and the Spirit, the Paraclete who came down upon the apostles. May the Lord preserve the life and rising of our honored father, the high priest Pope Abba ( … ). And our father(s) the metropolitan/bishop(s), Abba ( … ) (who are with us). May the God of heaven confirm them on their thrones for many years and peaceful times, and humiliate all their enemies under their feet speedily. Ask Christ on our behalf, to forgive our sins in peace, according to His great mercy.
+ar| نلت نعمة موسى وكهنوت ملكي صادق. وشيخوخة يعقوب وطول عمر متوشالح. والفهم المختار الذي لداود وحكمة سليمان. والروح المعزى الذي حل على الرسل. الرب يحفظ حياة وقيام أبينا المكرم رئيس الكهنة البابا أنبا (....) وأبينا المطران (الأسقف) الأنبا )...( (أو أبائنا المطارنة / الأساقفة الكائنين معنا). إله السماء يثبتهم على كراسيهم سنين عديدة وأزمنة سالمة. ويخضع أعداءه تحت قدميه سريعاً. اطلب من المسيح عنا ليغفر خطايانا بسلام كعظيم رحمته. مبارك الرب الإله إلى الأبد، آمين

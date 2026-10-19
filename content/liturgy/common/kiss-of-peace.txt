@@ -1,0 +1,25 @@
+source: The Divine Liturgies of Saints Basil, Gregory and Cyril (Coptic, English and Arabic), Fr. Jacob Nadian, St. Bishoy Coptic Orthodox Church of Toronto, Stouffville, Ontario, Canada.
+source-ar: الثلاثة قداسات للقديسين باسيليوس واغريغوريوس وكيرلس (قبطي وإنجليزي وعربي)، الأب يعقوب نادين، كنيسة الأنبا بيشوي القبطية الأرثوذكسية بتورونتو، ستوفيل، أونتاريو، كندا.
+
+@rubric
+en| Hymn “ Rejoice O Mary ”
+
+@priest
+en| " Rejoice O Mary, handmaiden and mother, for the angels praise Him who is on your arms. And the Cherubim worthily worship Him, and the Seraphim too, without ceasing. We have no boldness before our Lord Jesus Christ apart from your prayers and intercessions, O our Lady, the Lady of us all, the Theotokos. That we may praise You with the Cherubim and the Seraphim, proclaiming and saying: Holy, holy, holy, O Lord, the Pantocrator, heaven and earth are full of Your glory and honor. We ask You, O Son of God, to keep the life of our Patriarch, Abba … , the high priest. Confirm him upon his throne. And his partner in the liturgy, our holy and righteous father, Abba (…) the metropolitan (bishop), confirm him upon his throne.
+ar| لحن " إفرحي يا مريم إفرحي يا مريم، العبدة والأم، لأن الذي في حجرك، الملائكة تسبحه. والشاروبيم يسجدون له باستحقاق والسارافيم، بغير فتور. ليس لنا دالة عند ربنا يسوع المسيح، سوي طلباتك وشفاعتك، يا سيدتنا كلنا السيدة والدة الإله. لكي نسبحك مع الشاروبيم، والسارافيم صارخين قائلين: قدوس قدوس قدوس، أيها الرب الضابط الكل، السماء والارض مملوءتان من مجدك وكرامتك. نسألك يا أبن الله ان تحفظ حياة بطريركنا البابا أنبا (...) رئيسُ الكهنة، ثبته علي كرسيه. وشريكه في الخدمة أبينا الطاهر البار أنبا (...) المطران (الأسقف)، ثبته علي كرسيه.
+
+@deacon
+en| Greet one another with a Holy kiss. Lord have mercy. Lord have mercy. Lord have mercy Yea, Lord, who are Jesus Christ, the Son of God, hear us and have mercy upon us. Offer. Offer. Offer, in order. Stand with trembling. Look toward the East. Let us attend.
+ar| قبلوا بعضكم بعضا بقبلة مقدسة. يا رب ارحم. يا رب ارحم. يا رب ارحم. نعم يا رب الذي هو يسوع المسيح ابن الله، اسمعنا وارحمنا. تقدموا تقدموا تقدموا على الرسم، قفوا برعدة، والي الشرق أنظروا. ننصت.
+
+@rubric
+en| Hymn “ = Greet One Another” (Long Tune)
+ar| لحن اسبازيستي الطويل
+
+@deacon
+en| Greet one another with a Holy kiss. Amen. Lord have m ercy . Lord have m ercy . Lord have m ercy. O Lord Jesus Christ, Son of God, hear us and have mercy upon us. Let us stand well , stand reverently , stand earnestly, stand in peace, stand in the fear of God, in trembling and humbleness. O clergy and all the people, with prayer and thanksgiving, with calmness and silence. Raise your eyes toward the East to see the altar, and the Body and Blood of Immanuel our Lord placed on it. The angels and archangels are standing. The Seraphim with sixwings and the Cherubim, full of eyes covering their faces because of the splendor of His great glory, which is invisible and ineffable; Praising in one voice, proclaiming and saying: Holy, Holy, Holy, Lord of Hosts. Heaven and Earth are full of your Holy Glory.
+ar| قبلوا بعضكم بعضا بقبلة مقدسة. آمين. يا رب ارحم، يا رب ارحم، يا رب ارحم. نعم يا رب الذي هو يسوع المسيح ابن الله اسمعنا وارحمنا. فلنقف حسنا. لنقف بتقوي. نقف باتصال. نقف بسلام. نقف بخوف الله ورعدة وخشوع. أيها الاكليروس وكل الشعب، بطلبة وشكر، بهدوء وسكوت، ارفعوا أعينكم ناحية المشرق، لتنظروا المذبح وجسد ودم عمانوئيل إلهنا موضوعين عليه. والملائكة ورؤساء الملائكة قيام. السارافيم ذوو الستة الأجنحة، والشاروبيم الممتلئون أعيناً، يسترون وجوههم من بهاء عظمة مجده غير المنظور ولا منطوق به. يسبحون بصوت واحد صارخين قائلين: قدوس، قدوس، قدوس، رب الصباؤوت، السماء والأرض مملوءتان من مجدك الأقدس.
+
+@rubric
+en| The priests kiss one a nother with a holy kiss, as do the deacons and the people . Then the priest and the deacon who stands opp osite to him raise the prosphero n. (The raising of the prospher o n is a symbo l of the angel moving the stone from the tomb after the resurrection.)
+ar| يقبل الكهنة بعضهم بعضاً قبلة روحية. وكذلك يفعل الشمامسة والشعب. ثم يرفع الكاهن والشماس الواقف مقابله الإبروسفارين. (رفع الإبروسفارين يشير إلي دحرجة الملاك للحجر عن القبر بعد القيامة).

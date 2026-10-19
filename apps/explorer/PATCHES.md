@@ -25,7 +25,7 @@ with an Orthodoxia comment.
 ## 3. Light and dark theme
 
 The explorer follows the site's theme: the reader's choice (saved by any page under
-`orthodoxia:theme`) or else the system preference, and switches live from the same header icon as
+`orthodoxia:theme`) or else light (the default), and switches live from the same header icon as
 the rest of the site.
 
 - `src/shared/lib/theme.ts`, `theme-script.ts` (new): current theme, `useTheme()`, `setTheme()`, and the

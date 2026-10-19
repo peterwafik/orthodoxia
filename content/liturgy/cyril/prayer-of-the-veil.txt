@@ -1,0 +1,30 @@
+source: The Divine Liturgies of Saints Basil, Gregory and Cyril (Coptic, English and Arabic), Fr. Jacob Nadian, St. Bishoy Coptic Orthodox Church of Toronto, Stouffville, Ontario, Canada.
+source-ar: الثلاثة قداسات للقديسين باسيليوس واغريغوريوس وكيرلس (قبطي وإنجليزي وعربي)، الأب يعقوب نادين، كنيسة الأنبا بيشوي القبطية الأرثوذكسية بتورونتو، ستوفيل، أونتاريو، كندا.
+
+@rubric
+en| The Divine Liturgy of St. Cyril the Grea t Th is Liturgy was instituted by our father, Saint Mark the Apostle, the evangelist of the land of Egypt . It was
+ar| القداس الالهي للقديس كيرلس الكبير هذا القداس وضعه أبينا القديس مرقس
+
+@priest
+en| th
+ar| الرسول كاروز الديار المصرية. وقد ترجمه
+
+@rubric
+en| translated from Greek into Coptic by Saint Cyril, the 24 pope , who is called the Pillar of the Faith. The Coptic version of the Liturgy of St. Mark is known as the Liturgy of Saint Cyril the Great . T he priest begins as in the Liturgy of Saint Basil until the end of Liturgy of the Catechumens. Then he says the following Prayer of the Veil to the Father inaudibly (from our father saint John, the thrice blessed) as he stands before the veil of the sanctuary with his head bowed toward the East. The Prayer of the Veil
+ar| من اللغة اليونانية إلي اللغة القبطية القديس كيرلس الكبير، البابا الرابع والعشرين في عداد البطاركة الملقب بعمود الدين. ولهذا، فان النسخة القبطية تعرف بالقداس الالهي للقديس كيرلس الكبير. يبدأ الكاهن كما جاء في القداس الباسيلي إلي نهاية قداس الموعوظين ثم يقول صلاة الحجاب للآب سراً (وهي لأبينا القديس يوحنا المثلث الطوبي) وهو واقف مقابل حجاب المذبح مطامن الرأس إلى الشرق وهي هذه: صلاة الحجاب
+
+@priest
+en| O Creator of the whole creation, visible and invisible, who provide for all things because they are Yours, O our Master, the Lover of Souls. I entreat You, O Lord, You who are Omnipotent -- even I, the weak, the impotent, and unprofitable among all Your servants -- that wh ile I am com ing forward unto Your Holies of Holies to this holy mystagogy, give me, O Lord, Your Holy Spirit, the immaterial, incomprehensible fire who devours all infirmities and consumes wicked inventions. May He mortify the members of the flesh that are upon the earth, and bridle the movements of the thought that lead into the fantasies, full of passion and pain. And, as is befitting priests, may He make me to be above all deadly thoughts. And may He let the consecrating words be within me to perfect this oblation set forth, which is the Mystery of all mysteries, in the fellowship and the communion of Your Christ. To whom is due the glory, with Him and the Holy Spirit, the Giver of Life, who is of one essence with You. Now and at all times and unto the ages of all ages. Amen.
+ar| يا خالق البرية كلها التي تري والتي لا تري، المعتني بكل الأشياء لأنها لك يا سيدنا محب الأنفس. استعطفك أيها الرب القادر على كل شيء، أنا الضعيف العاجز، غير المفلح بين جميع خدامك. عندما اتقدم إلى قدس أقداسك، وألمس هذا السر الخفي المقدس. أعطني يا رب روحك القدوس، النار غير الهيولية، التي لا يفكر فيها. التي تأكل كل الطغمات وتحرق الموجودات الرديئة. ليميت حواس الجسد التي على الأرض، ويلجم حركات الفهم التي تقوده إلى الخيالات المملوءة اوجاعاً وآلاماً. وكما يليق بالكهنة يجعلني فوق كل فكر ميت. وليجعل فيّ الكلمات المطهِّرة، لكي أكمل هذا القربان الموضوع الذي هو سر جميع الأسرار، بصحبة وشركة مسيحك. هذا الذي يليق بك معه المجد، مع الروح القدس المحيي المساوي لك. الآن وكل أوان وإلى دهر الدهور كلها. آمين.
+
+@rubric
+en| Another Prayer of the Veil
+ar| صلاة أخري للحجاب
+
+@priest
+en| O Lord, God of host s, King of glory, who alone do es wonders, the Good One, being gentle to all who call upon You in truth. Be mindful of our supplications , and give us power towards this awesome service of the great heavenly Mystery of this rational blo odless sacrifice set forth, so that Your will ma y be for the salvation of those who come forward to these Holy Mysteries. You also, O Lord who have mercy on every one, having had compassion on my weakness, put off from me the old man with his corrupt deeds and his lusts. Leave behind me all the sins that I have committed, whether willingly or unwillingly. And make me worthy, with a pure heart and clean lips, to present unto You this awesome sacri fi ce. Cast me not away from Your servants as a servant of sin, but, I beseech You, according to Your compassions, grant me to serve Your holy and honorable name without ceasing that I may gain the wages of the wise and faithful steward on the Day of Your just recompense. May Your people have a share in the eternal good things, which You have promised to those who love You. Through the grace, compassion, and love-of-mankind of Your Christ. This is He with whom You are blessed together with the Holy Spirit, the Giver of Life, who is of one essense with You. Now and at all times and unto the ages of all ages. Amen.
+ar| أيها الرب إله القوات، ملك المجد، صانع العجائب وحده، الصالح الوديع للذين يدعونك بالحق. إطلع على سؤالاتنا، وأعطنا قوة لهذه الخدمة المخوفة، التي للسر العظيم السمائي الذي لهذه الذبيحة الموضوعة غير الدموية والناطقة. لكي تكون إرادتك عن خلاص الذين يتقدمون إلى هذه الأسرار المقدسة. أنت أيضاً أيها الرب الذي ترحم كل أحد، إذ قد تراءفت على ضعفي، عرني من الإنسان العتيق وأعماله الرديئة وشهواته. وأترك عني كل خطية فعلتها، إن كان بإراداتي أو بغير إرادتي. وإجعلني أهلًا بقلب طاهر وشفتين نقيتين ان أقدم لك هذه الذبيحة المخوفة. ولا تطرحني عن عبيدك كعبد للخطية، بل أطلب إليك برأفاتك. اعطني أن أخدم إسمك القدوس المكرم بغير سكوت. لكي أجد أجرة الوكيل الأمين الحكيم في يوم مجازاتك الحقيقية. ويشترك شعبك في الخيرات الأبدية التي وعدت بها محبيك. بالنعمة والرأفات ومحبة البشر اللواتي لمسيحك. هذا الذي انت مبارك معه مع الروح المحيي المساوي لك. الآن وكل أوان وإلى دهر الدهور كلها. آمين.
+
+@rubric
+en| The priest then prays the three Lo ng Litanies and the people recites the Creed while the priest washes his hands reciting the three verses of the Psalms mentioned in the Liturgy of St. Basil. Then the priests prayd the following Prayer of Reconciliation by St. Severus, Patriarch of Antioch :
+ar| يصلي الثلاثة أواشي الكبار ويتلو الشعب قانون الايمان بينما يغسل الكاهن يديه مردداً قطع المزامير كما ذكر في القداس الباسيلي. ثم يبدأ صلاة الصلح التالية للقديس ساويرس، بطريرك أنطاكية:

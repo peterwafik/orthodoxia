@@ -1,0 +1,78 @@
+source: The Divine Liturgies of Saints Basil, Gregory and Cyril (Coptic, English and Arabic), Fr. Jacob Nadian, St. Bishoy Coptic Orthodox Church of Toronto, Stouffville, Ontario, Canada.
+source-ar: الثلاثة قداسات للقديسين باسيليوس واغريغوريوس وكيرلس (قبطي وإنجليزي وعربي)، الأب يعقوب نادين، كنيسة الأنبا بيشوي القبطية الأرثوذكسية بتورونتو، ستوفيل، أونتاريو، كندا.
+
+@people
+en| And with your spirit.
+ar| ولروحك أيضًا.
+
+@priest
+en| O our Master and our Savior, the Good One and Lover of Mankind, Life - giver to our souls, God who gave Himself up for our salvation from sin, who through the multitude of His mercies have loosed the enmity of mankind, the only - begotten God wh o is in the bosom of His Father, O Lord, bless.
+ar| يا سيدنا ومخلصنا محب البشر الصالح محيي أنفسنا. يا الله الذي سّلم ذاته عنا خلاصاً من أجل خطايانا. الذي بكثرة رحمتهِ حلَّ عداوة البشر. أيها الإله الوحيد الذي في حضن أبيه. يا رب بارك.
+
+@people
+en| Amen.
+ar| آمين.
+
+@rubric
+en| The priest takes the pure Body with his right hand and places It in his teft hand, and places the index finger of his right hand upon the Despotikon. He then dips the tip of his finger into the precious Blood and raises his finger from the Blood and signs with It in the form of the cross over the Blood, while saying:
+ar| يأخذ الكاهن الجسد الطاهر بيده اليمني ويضعه علي يده اليسري، ويضع إصبعه السبابة اليمني علي الاسباديقون، ثم يغمس طرف إصبعه في الدم الكريم ويرفع إصبعه من الدم ويرشم به علي الدم مثال الصليب وهو يقول:
+
+@priest
+en| O You who did bless at that time, now also bless.
+ar| يا الذي بارك في ذلك الزمان، الآن أيضاً بارك.
+
+@people
+en| Amen.
+ar| آمين.
+
+@rubric
+en| The priest raises his finger from the chalice and with the Blood makes the sign of the cross on the Body, above and below , while saying:
+ar| يرفع إصبعه من الكأس ويرشم وجه الجسد وأسفله بالدم وهو يقول:
+
+@priest
+en| O You who did sanctify at that time, now also sanctify.
+ar| يا الذي قدَّس في ذلك الزمان، الآن أيضاً قدَّس.
+
+@people
+en| Amen.
+ar| آمين.
+
+@rubric
+en| The priest breaks the Body into a two - thirds and a one - third part without separating Them, while saying:
+ar| يقسم الجسد ثلثين وثلثا من غير أن يفصله وهو يقول:
+
+@priest
+en| O You who did break at that time, now also break.
+ar| يا الذي قسَّم في ذلك الزمان، الآن أيضاً قسَّم.
+
+@people
+en| Amen.
+ar| آمين.
+
+@rubric
+en| The priest separates the two parts, placing the one - third part upon the two - thirds part i n the shape of the cross, and says:
+ar| هنا يفصل الجسد ويضع الثلث علي الثلثين علي مثال الصليب ويقول:
+
+@priest
+en| O You who gave to His holy disciples and saintly apostles at that time, now also give to us and to all Your people, O our Master, the Pantocrator, the Lord our God.
+ar| يا الذي أعطي تلاميذه القديسين، ورسله الأطهار في ذلك الزمان. الآن أيضاً يا سيدنا أعطنا وكل شعبك، يا ضابط الكل أيها الرب إلهنا.
+
+@people
+en| We worship Your holy body. and Your precious blood.
+ar| نسجد لجسدك المقدس. ولدمك الكريم.
+
+@deacon
+en| Amen. Amen. Pray.
+ar| آمين. آمين. صلوا.
+
+@people
+en| Lord have mercy.
+ar| يا ربُ إرحم.
+
+@priest
+en| Peace be with all.
+ar| السلام للكل.
+
+@people
+en| And with your spirit.
+ar| ولروحك أيضًا.

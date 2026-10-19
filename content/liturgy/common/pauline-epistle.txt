@@ -1,0 +1,74 @@
+source: The Divine Liturgies of Saints Basil, Gregory and Cyril (Coptic, English and Arabic), Fr. Jacob Nadian, St. Bishoy Coptic Orthodox Church of Toronto, Stouffville, Ontario, Canada.
+source-ar: الثلاثة قداسات للقديسين باسيليوس واغريغوريوس وكيرلس (قبطي وإنجليزي وعربي)، الأب يعقوب نادين، كنيسة الأنبا بيشوي القبطية الأرثوذكسية بتورونتو، ستوفيل، أونتاريو، كندا.
+
+@priest
+en| forgiveness of our sins. Through their prayers: keep the life of our honored father: the high priest Papa Abba ( … ): O Lord, Grant us the forgiveness of our sins. Through their prayers: keep the life of our honored father: and righteous father, Abba ( … ) the metropolitan (bishop): O Lord, Grant us the forgiveness of our sins. We worship You, O Christ, with Your good Father and the Holy Spirit, for you have come (risen) and saved us. Have mercy on us.
+ar| بصلواتهم احفظ حياة أبينا المكرم رئيس الكهنة البابا الأنبا يا .)...( رب أنعم لنا بمغفرة خطايانا. بصلواتهم احفظ حياة أبينا المكرم البار أنبا )...( المطران (الأسقف). يا رب أنعم لنا بمغفرة خطايانا. نسجد لك أيها المسيح، مع أبيك الصالح و الروح القدس، لأنك أتيت (قمت) وخلصتنا. ارحمنا.
+
+@rubric
+en| The Pauline Epistle If the Pauline Epistle is read in Coptic, the following introduction is chanted.
+ar| البولس إذا قرأ البولس قبطياً تقال مقدمته وهي هذه.
+
+@priest
+en| Paul, the servant of our Lord Jesus Christ, called to be an apostle, appointed to the Gospel of God.
+ar| بولس عبد ربنا يسوع المسيح. الرسول المدعو المفرز لكرازة الله.
+
+@rubric
+en| After the reading, the following conclusion is said.
+ar| وفي ختامه يقول.
+
+@priest
+en| Grace and peace of God be with you. Amen. So be it. Pe ople : The gr ace of our Lord Jesus Christ be with your saintly spirit, my lord, the honored father, the high priest, Pope Abba (…).
+ar| النعمة معكم والسلام معا. آمين. يكون. الشعب: نعمة ربنا يسوع المسيح تكون مع روحك الطاهرة يا سيدى الأب المكرم رئيس الكهنة البابا أنبا (....)
+
+@rubric
+en| If a metropolitan is present, the following is added:
+ar| وإن كان حاضرا مطران، فيزاد له:
+
+@priest
+en| And our father the Metropolitan Abba (…).
+ar| وأبينا المطران الأنبا (...).
+
+@rubric
+en| If a bishop is present, the following is added:
+ar| وإن كان حاضرا أسقف، فيزاد له:
+
+@priest
+en| And our father the Bishop Abba (…) .
+ar| وأبينا الأسقف الأنبا (...).
+
+@rubric
+en| If more than one metropolitan is present, the following is added:
+ar| وإن كان حاضرا أكثر من مطران، فيزاد لهم:
+
+@priest
+en| And our fathers th e metropolitans who are with us.
+ar| وآباءنا المطارنة الكائنين معنا.
+
+@rubric
+en| If more than one bishop is present, the following is added:
+ar| وإن كان حاضرا أكثر من أسقف، فيزاد لهم:
+
+@priest
+en| And our fath ers the bishops who are with us .
+ar| وآباءنا الأساقفة الكائنين معنا.
+
+@rubric
+en| After any of the previous hymns is said, they conclude by :
+ar| وبعد أية جملة من الجمل السابقة، يقول:
+
+@priest
+en| May the clergy and all the people be safe in the Lord. Amen. So be it.
+ar| فليكن الإكليروس وكل الشعب معافين في الرب. آمين يكون.
+
+@rubric
+en| If the Pauline Epistle is read in English, the following introduction is said.
+ar| إذا قرأ البولس عربيا، تقال مقدمته وهي هذه.
+
+@rubric
+en| A chapter from the (first/second) of our teacher St. Pau l to …, May his blessings be with us. Amen. After the reading, the following conclusion is said. The grace of God the Father be with you all. Amen. During the reading of the Pauline Epistle, the fellow priest (or if there is no fellow priest, then the serving priest himself) says inaudibly the following prayer to the Son:
+ar| فصل من رسالة معلمنا بولس الرسول (األولي/الثانية) إلي ...، بركته المقدس تكون معنا. آمين. وفي ختام البولس يقول. نعمة الله الآب تكون مع جميعكم. آمين. وفي أثناء قراءته، يقول الكاهن الشريك هذه الأوشية سرا للابن وإن لم يكن حاضرا كاهن معه فيقولها هو:
+
+@deacon
+en| O Lord of knowledge and provider of wisdom, who reveals the deep things out of darkness, and gives a word to those who preach with a great power; who of Your goodness has called upon Paul, who was for some time a persecutor, to be a chosen vessel; and in this You were pleased that he should be called to be an apostle and a preacher of the Gospel of Your kingdom, O Christ our God.
+ar| يا رب المعرفة ورازق الحكمة الذي يكشف الأعماق من الظلمة والمعطي كلمة للمبشرين بقوة عظيمة. الذي من قبل صلاحك دعوت بولس هذا الذي كان طارداً زماناً، إناء مختاراً. وبهذا سررت أن يكون رسولًا مدعواً وكارزاً بإنجيل ملكوتك أيها المسيح إلهنا.

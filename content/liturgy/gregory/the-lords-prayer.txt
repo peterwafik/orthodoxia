@@ -1,0 +1,34 @@
+source: The Divine Liturgies of Saints Basil, Gregory and Cyril (Coptic, English and Arabic), Fr. Jacob Nadian, St. Bishoy Coptic Orthodox Church of Toronto, Stouffville, Ontario, Canada.
+source-ar: الثلاثة قداسات للقديسين باسيليوس واغريغوريوس وكيرلس (قبطي وإنجليزي وعربي)، الأب يعقوب نادين، كنيسة الأنبا بيشوي القبطية الأرثوذكسية بتورونتو، ستوفيل، أونتاريو، كندا.
+
+@priest
+en| And forgive us our trespasses, as we forgive those who trespass against us. And lead us not into temptation, but deliver us from the evil one.
+ar| وأغفر لنا ذنوبنا كما نغفر نحن أيضا للمذنبين إلينا. ولا تدخلنا في تجربة. لكن نجنا من الشرير.
+
+@rubric
+en| The deacon inside the altar and the people outside exchange the following responses.
+ar| يتبادل الشماس داخل الهيكل والشعب خارجه هذه المردات.
+
+@people
+en| In Christ Jesus our Lord.
+ar| بالمسيح يسوع ربنا.
+
+@deacon
+en| Bow your heads to the Lord.
+ar| إحنوا رؤوسكم للربِ.
+
+@people
+en| Before You, O Lord
+ar| أمامك يا ربُ.
+
+@deacon
+en| Let us attend in the fear of God. Amen.
+ar| أنصتوا بخوف هللا.آمين.
+
+@rubric
+en| While the deacon and the people exchange the above responses, the pries prays the folloing inaudibly. The Prayer after “Our Father” addressed to the Father
+ar| بينما يرتل الشماس والشعب المردات أعلاه، يقول الكاهن سراً هذه الصلوات. صلاة من بعد "أبانا الذي في السموات" للآب
+
+@priest
+en| Yes, O Lord, the Lord who have given us authority to tread on serpents and scorpions and upon all the power of the enemy,
+ar| نعم يا رب الذي أعطانا السلطان أن ندوس الحيات والعقارب وكل قوة العدو.

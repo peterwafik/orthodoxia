@@ -1,0 +1,40 @@
+import type { FamilyMap } from './types.ts';
+
+/** 14. Work, education, and daily responsibilities. */
+export const F14: FamilyMap = {
+  nave: {
+    'Diligence at work': 'DILIGENCE',
+    Responsibility: 'RESPONSIBILITY',
+    Laziness: 'SLOTHFULNESS; IDLENESS',
+    'Fair wages': 'WAGES',
+    'Seeking knowledge': 'KNOWLEDGE',
+    'Rest and Sabbath principles': 'SABBATH',
+    'Using talents wisely': 'TALENT',
+  },
+  passages: {
+    'Diligence at work': 'Proverbs 10:4; Proverbs 12:24; Ecclesiastes 9:10; Romans 12:11; Colossians 3:23',
+    'Honesty at work': 'Proverbs 11:1; Leviticus 19:35–36; Ephesians 4:28; Luke 16:10',
+    'Work as service to God': 'Colossians 3:23–24; Ephesians 6:5–8; 1 Corinthians 10:31; Genesis 2:15',
+    'Time management': 'Psalm 90:12; Ephesians 5:15–16; Ecclesiastes 3:1; James 4:13–15',
+    Productivity: 'Proverbs 14:23; Proverbs 6:6–8; Proverbs 21:5; Ecclesiastes 11:6',
+    Laziness: 'Proverbs 6:6–11; Proverbs 13:4; Proverbs 24:30–34; 2 Thessalonians 3:10',
+    Excellence: 'Daniel 6:3; Colossians 3:23; Proverbs 22:29; Ecclesiastes 9:10',
+    'Working under pressure': 'Exodus 18:17–23; Matthew 11:28–30; Psalm 127:2; Nehemiah 4:6–23',
+    'Career decisions': 'Proverbs 16:3; Proverbs 3:5–6; 1 Corinthians 7:20–24; Psalm 37:4–5',
+    Unemployment: 'Matthew 20:1–7; Proverbs 10:4; 2 Thessalonians 3:10–12; Philippians 4:19',
+    'Difficult coworkers': 'Genesis 31:38–42; Romans 12:17–21; Colossians 3:22–25; 1 Peter 2:18–20',
+    'Workplace injustice': 'Colossians 4:1; James 5:4; Leviticus 19:13; 1 Peter 2:18–20; Genesis 31:41',
+    'Fair wages': 'Leviticus 19:13; Deuteronomy 24:14–15; James 5:4; Luke 10:7; 1 Timothy 5:18',
+    'Leadership at work': 'Mark 10:42–45; Exodus 18:21; Nehemiah 2:17–18',
+    'Ethical business': 'Proverbs 11:1; Proverbs 20:10; Micah 6:11; Leviticus 19:35–36',
+    Education: 'Proverbs 1:5; Proverbs 4:7; Daniel 1:3–5; Daniel 1:17; Proverbs 9:9; Acts 7:22',
+    'Studying diligently': '2 Timothy 2:15; Proverbs 18:15; Ecclesiastes 12:12; Daniel 1:17; Proverbs 2:1–6',
+    'Seeking knowledge': 'Proverbs 2:1–6; Proverbs 18:15; Hosea 4:6; Proverbs 1:7',
+    'Wisdom versus knowledge': '1 Corinthians 8:1; Proverbs 2:6; James 3:13–17; Colossians 2:2–3',
+    'Examinations and preparation': 'Proverbs 21:5; 2 Timothy 2:15; Luke 14:28–30; Proverbs 16:1',
+    'Learning from mistakes': 'Proverbs 24:16; Proverbs 15:32; Psalm 119:71; Proverbs 12:1',
+    'Balancing work and worship': 'Exodus 20:8–11; Luke 10:38–42; Mark 6:31; Psalm 127:2',
+    'Rest and Sabbath principles': 'Exodus 20:8–11; Mark 2:27–28; Hebrews 4:9–11; Genesis 2:2–3',
+    'Using talents wisely': 'Matthew 25:14–30; 1 Peter 4:10; Romans 12:6–8; Exodus 31:1–6',
+  },
+};

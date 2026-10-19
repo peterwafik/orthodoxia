@@ -1,0 +1,173 @@
+source: The Divine Liturgies of Saints Basil, Gregory and Cyril (Coptic, English and Arabic), Fr. Jacob Nadian, St. Bishoy Coptic Orthodox Church of Toronto, Stouffville, Ontario, Canada.
+source-ar: الثلاثة قداسات للقديسين باسيليوس واغريغوريوس وكيرلس (قبطي وإنجليزي وعربي)، الأب يعقوب نادين، كنيسة الأنبا بيشوي القبطية الأرثوذكسية بتورونتو، ستوفيل، أونتاريو، كندا.
+
+@priest
+en| Remember, O Lord, my weakness – even I the poor – and forgive me my many sins.
+ar| اذكر يا رب ضعفي أنا المسكين واغفر لي خطاياي الكثيرة.
+
+@rubric
+en| After completing the above, the priest covers the bread with a silk veil and holds it to the top of his forehead, and the deacon does the sa me with the vessel of wine. Then they encircle the altar once preceded by a deacon bearing a light.
+ar| ومتي أكمل ذلك، يلف الحمل (القربان) في لفافة حرير ويرفعه علي رأسه. كذلك الشماس يلف وعاء الخمر في لفافة حرير ويرفعه علي رأسه أيضا. ويكون قدام شماس بيده نور، ويدورون حول المذبح دورة واحدة.
+
+@priest
+en| Glory and honor, honor and glory to the All - holy Trinity, th e Father and the Son and the Holy Spirit. Peace and edification to the on e, only, holy, Catholic, and Apostolic Orthodox Church of God. Amen. Remember, O Lord, those who have brought to You these gifts and those on whose behalf they have been brought, and those by whom they have been brought. Give them all the heavenly reward.
+ar| : مجداً وإكراماً إكراماً ومجداً للثالوث القدوس الآب والابن والروح القدس. سلاما وبنياناً لكنيسة الله الواحدة الوحيدة المقدسة الجامعة الرسولية. آمين. أذكر يا رب الذين قدموا لك هذه القرابين والذين قدمت عنهم، والذين قدمت بواسطتهم أعطهم كلهم الأجر السمائي.
+
+@deacon
+en| Pray for these holy and Precious gifts, our sacrifice s, and those who have brought them. Lord have mercy. The Priest says inaudibly : Remember, O Lord, all who have bidden us to remember them in our prayers and supplications. May the Lord remember them in His heavenly kingdom.
+ar| صلوا من أجل هذه القرابين المقدسة الكريمة وضحايانا والذين قدموها. يا رب ارحم. ويقول سراً: أذكر يا رب كل الذين أوصونا أن نذكرهم في سؤالاتنا وطلباتنا. الرب يذكرهم في ملكوته الذي في السموات.
+
+@rubric
+en| On Saturdays and Sundays (except during the Great Fast), on feasts of oaur Lord, on fifty joful days and on all non fasting days, the people chant from Psalm 118: 24-26 (Psalm 117: 24-26 in Coptic copy):
+ar| يقول الشعب في أيام السبوت والآحاد (ما عدا في سبوت وآحاد الصوم الكبير) وفي الأعياد السيدية والخمسين وكل أيام الافطار
+
+@deacon
+en| 117 26 24 11 8 26 24
+ar| من مزمور : - (مزمور : - في النسخة القبطية):
+
+@people
+en| Alleluia. This is the day that the Lord has made. Let us rejoice and be glad in it. O Lord, save us. O Lord, straighten our ways. Blessed is He, who comes in the name of the Lord. Alleluia.
+ar| : هلليلويا هذا هو اليوم الذي صنعه الرب. فلنفرح ونبتهج فيه. يا رب خلصنا. يا رب سهل سبلنا. مبارك الآتي باسم الرب. هلليلويا.
+
+@rubric
+en| On fasting days (except the weekdays of the Great Fast and Jonah’s Fast) and on Saturdays and Sundays during the Great Fast, the people chant the following; first part from Psalm 76: 10 (Psalm 75: 10 in Coptic
+ar| وفي أيام الأصوام (ما عدا أيام الصوم الكبير وصوم يونان) وفي سبوت وآحاد الصوم الكبير، يقولون الآتي حيث جزء منه من
+
+@people
+en| 10 75 10 76
+ar| مزمور : (مزمور : في
+
+@rubric
+en| copy):
+ar| النسخة القبطية):
+
+@people
+en| Alleluia. The thought of man shall confess to You O Lord, and the remainder of thought shall keep a feast to You. The sacrifices and the offerings receive them to Yourself. Alleluia.
+ar| هلليلويا. إن فكر الإنسان يعترف لك يا رب، وبقية الفكر تعيد لك. الذبائح والقرابين اقبلها إليك. هلليلويا.
+
+@rubric
+en| On fasting days of Jonah’s Fast and the Great Fast and, not including Saturdays and Sundays , the people 4 3 chant the following from Psalm 4 3 : 4 and Psalm 13 2 : 1
+ar| وفي صوم يونان وأيام الصوم الكبير، دون سبوته وأحاده، يقال ما يلي من مزمور :
+
+@people
+en| 4 42 1 13 2 4
+ar| ، مزمور : (مزمور : ، مزمور
+
+@rubric
+en| ( Psalm 42: 4 and Psalm 131 in Coptic copy) :
+
+@people
+en| 1 131
+ar| : في النسخة القبطية)
+
+@people
+en| Alleluia. I will go into the Altar of God, before the face of God, who gladdens my youth. I will confess to You with the harp, O God, my God. Remember David, O Lord, and all his meekness. Alleluia.
+ar| هلليلويا. ادخل إلي مذبح الله، تجاه وجه الله الذي يفرح شبابي. أعترف لك يا الله إلهي بالقيثارة. أذكر يا رب داود و كل دعته. هلليلويا.
+
+@rubric
+en| The priest, having come around to the front of the altar, faces East, and uncovers the bread and places it in his left hand. Then he inclines his head toward his brothers the priests, asking them to bless. Then he brings the bread close to the vessels of wine and water in the deacons ’ right hand and carried in silk veil s The priest then makes the si gn of the cross three t imes over them , saying:
+ar| واذا أكمل الدورة السابق ذكرها، يقف مكانه أولا غربي المذبح ووجهه نحو الشرق ويضع الحمل (القربانة) على يده اليسرى. ويطامن برأسه لإخوته الكهنة ملتمسا منهم أن يباركوا ثم يلتفت إلي القربانة ويقرب إليها وعاء الخمر ووعاء الماء الذين يكونا بيد الشمامسة اليمني ملفوفة بلفافة من حرير ويرشمهم الكاهن ثلاثة رشوم بمثال الصليب كالعادة. فأول ذلك يبتدئ قائلا:
+
+@priest
+en| In the name of the Father and the Son and the Holy Spirit, one God.
+ar| الكاهن: باسم الآب والابن والروح القدس إله واحد.
+
+@rubric
+en| At the first signing, he says:
+ar| ثم يرشم الرشم الأول وهو يقول:
+
+@priest
+en| Blessed be God the Father, the Pantocrator. Amen.
+ar| مبارك الله الآب ضابط الكل. آمين.
+
+@deacon
+en| Amen.
+ar| آمين.
+
+@rubric
+en| At the second signing, he says :
+ar| ثم يرشم الرشم الثاني وهو يقول:
+
+@priest
+en| Blessed be His only-begotten Son, Jesus Christ our Lord. Amen.
+ar| مبارك ابنه الوحيد يسوع المسيح ربنا. آمين.
+
+@deacon
+en| Amen.
+ar| آمين.
+
+@rubric
+en| At the third signing, he says :
+ar| ثم يرشم الرشم الثالث وهو يقول:
+
+@priest
+en| Blessed be the Holy Spirit, the Paraclete. Amen.
+ar| مبارك الروح القدس المعزى. آمين.
+
+@deacon
+en| Amen.
+ar| آمين.
+
+@deacon
+en| One is the holy Father, One is the holy Son . One is the holy Spirit. Amen. Blessed be the Lord God forever. Amen. Praise the Lord, all you nations, praise Him all you peoples, for His mercy is confirmed upon us, and the truth of the Lord endures forever. Amen. Alleluia.
+ar| واحد هو الآب القدوس، واحد هو الابن القدوس، واحد هو الروح القدس. آمين. مبارك الرب الإله إلي الأبد. آمين. يا جميع الامم باركوا الرب. ولتباركه جميع الشعوب. لان رحمته ثبتت علينا. و حق الرب يدوم إلي الأبد. آمين. هلليلويا.
+
+@rubric
+en| The following response could be said instead of the previous one.
+ar| ويمكن أن يقال هذا اللحن بدلا من السابق
+
+@deacon
+en| Amen. One is the holy Father, One is the holy Son, One is the holy Spirit. Amen. To You is dominion in the day of Your power, in the light of the saints, from the womb before the morning star, have I begotten You. The Lord swore and will not repent, “ You are a priest forever according to the order of Melchizedek." 3 (Our holy father, the high priest) [3 times], Pope Abba (...).
+ar| آمين واحد هو الآب القدوس، واحد هو الابن القدوس، واحد هو الروح القدوس. آمين. معك الرئاسة في يوم قوتك في بهاء القديسين، من البطن قبل كوكب الصبح ولدتك. أقسم الرب ولن يندم أنك أنت الكاهن على طقس ملكي صادق. (يا أبانا القديس رئيس الكهنة) ( مرات) البابا أنبا (....)
+
+@rubric
+en| … If a metropolitan or a bishop is present, the following is said:
+ar| في حضور مطران أو أسقف يقال:
+
+@deacon
+en| And his partner in the apostolic liturgy, our holy father Abba (…).
+ar| وشريكه في الخدمة الرسولية أبينا القديس أنبا (....)
+
+@rubric
+en| Then the deacon continues with the following:
+ar| ثم يكمل الشماس قائلًا:
+
+@deacon
+en| May the God of heaven confirm him (them) on his (their) throne for many years and peaceful times. And subdue all his (their) enemies under his (their) feet speedily. Ask Christ on our behalf to forgive us our sins, in peace, according to His great mercy. Blessed be the Lord God forever. Amen. Praise the Lord all you nations, praise Him all you peoples, for His mercy is confirmed upon us, and the truth of the Lord endures forever. Amen Alleluia.
+ar| إله السماء يثبته (يثبتهم) علي كرسيه (كراسيهم)، سنين كثيرة وأزمنة سالمة. ويخضع جميع أعدائه (أعدائهم) تحت أقدامه (أقدامهم) سريعاً. أطلب (اطلبوا) من المسيح عنا ليغفر لنا خطايانا بسلام كعظيم رحمته. مبارك الرب الإله إلي الأبد. آمين. يا جميع الأمم باركوا الرب. ولتباركه جميع الشعوب. لأن رحمته ثُبِتَت علينا. وحق الرب يدوم إلي الأبد. آمين. هلليلويا.
+
+@people
+en| Glory to the Father and to the Son and to the Holy Spirit, now and ever and unto the ages of the ages. Amen. Alleluia.
+ar| المجد للآب والابن والروح القدس، الآن وكل اوان وإلي دهر الدهور. آمين. هلليلويا.
+
+@rubric
+en| During this time, the priest places the bread on the paten, beneath which is a silk veil; while saying the following inaudibly:
+ar| وفي أثناء ذلك يضع الكاهن القربانة في الصينية وتحتها لفافة حرير ويقول الآتي سراً:
+
+@people
+en| Glory and honor, honor and glory to the All-holy Trinity, the Father and the Son and the Holy Spirit. Now and at all times and unto the ages of all ages. Amen.
+ar| مجداً وإكراماً، إكراماً ومجداً للثالوث القدوس الآب والابن والروح القدس. الآن وكل أوان وإلى دهر الدهور. آمين.
+
+@rubric
+en| After this, the pri est pours wine into the chalice, emptying the vessel . Then he pours water into the empty wine vessel and from it he adds a water to the wine in the cha l ic e ( the proportion of water to wine being not less than a tenth, normally a quarter but not more than a third) . The priest wipes the mouth of the vessel with a white vei l and removes it from the altar . He then starts the prayer saying:
+ar| ثم يصب الخمر في الكأس ويصفي القارورة جيداً ويضيف إلي الخمر قليلًا من الماء نحو ثلثه أو ربعه، ولا يقل عن العشر، ثم يمسح فم القارورة بلفافة بيضاء وينزلها من المذبح. ويبدأ الصلاة فيقول:
+
+@priest
+en| Pray.
+ar| صلوا.
+
+@deacon
+en| Stand up for prayer.
+ar| للصلاة قفوا.
+
+@rubric
+en| The priest then turns to his brothers the priests before turning to the west and making the sign of the cross over the people, saying:
+ar| ويلتفت الكاهن إلي إخوته الكهنة، ثم إلي الغرب، ويرشم الشعب رشماً واحداً بمثال الصليب وهو يقول:
+
+@priest
+en| Peace be with all.
+ar| السلام للكل.
+
+@people
+en| And with your spirit.
+ar| الشعب: ولروحك ايضاً.

@@ -1,6 +1,6 @@
 ---
 import Base from '../../layouts/Base.astro';
-import HeroArcs from '../../components/HeroArcs.astro';
+import HomeArt from '../../components/HomeArt.astro';
 import { LOCALES, explorerPath, localePath, t, type Locale } from '../../i18n/index.ts';
 
 export function getStaticPaths() {
@@ -9,66 +9,47 @@ export function getStaticPaths() {
 
 const locale = Astro.params.lang as Locale;
 const strings = t(locale);
+const cards = [
+  { ...strings.home.cards.bible, href: localePath(locale, 'bible') },
+  { ...strings.home.cards.explore, href: explorerPath(locale) },
+  { ...strings.home.cards.threads, href: explorerPath(locale, 'threads') },
+  { ...strings.home.cards.holyMass, href: localePath(locale, 'holy-mass') },
+  { ...strings.home.cards.about, href: localePath(locale, 'about') },
+  { ...strings.home.cards.sources, href: localePath(locale, 'sources') },
+];
 ---
 
-<Base locale={locale}>
+<Base locale={locale} minimalFooter simpleHeader>
   <section class="hero">
     <div class="wrap">
       <h1>{strings.home.title}</h1>
       <p class="lede">{strings.home.lede}</p>
-      <p class="actions">
-        <a class="primary" href={explorerPath(locale)}>{strings.home.ctaExplore}</a>
-        <a class="secondary" href="#method">{strings.home.ctaMethod}</a>
-      </p>
-      <HeroArcs locale={locale} />
-      <p class="caption">{strings.home.figureCaption}</p>
     </div>
   </section>
 
-  <section class="section">
-    <div class="wrap explore">
-      <div>
-        <h2>{strings.home.exploreHeading}</h2>
-        <p class="prose">{strings.home.exploreBody}</p>
-      </div>
-      <dl class="views">
-        <dt><a href={localePath(locale, 'bible')}>{strings.home.readLink}</a></dt>
-        <dd>{strings.home.readNote}</dd>
-        <dt><a href={explorerPath(locale)}>{strings.home.arcsLink}</a></dt>
-        <dd>{strings.home.arcsNote}</dd>
-        <dt><a href={explorerPath(locale, 'threads')}>{strings.home.threadsLink}</a></dt>
-        <dd>{strings.home.threadsNote}</dd>
-      </dl>
-      <aside class="notice coverage">
-        <h3>{strings.coverage.heading}</h3>
-        <p>{strings.coverage.body}</p>
-      </aside>
-    </div>
-  </section>
-
-  <section class="section" id="method">
+  <section class="cards-section">
     <div class="wrap">
-      <h2>{strings.home.methodHeading}</h2>
-      <p class="prose">{strings.home.methodIntro}</p>
-      <ol class="hierarchy">
+      <ul class="cards">
         {
-          strings.hierarchy.map(([name, detail]) => (
+          cards.map(({ title, note, href }) => (
             <li>
-              <strong>{name}</strong> {detail}
+              <a class="card" href={href}>
+                <span class="card-title">{title}</span>
+                <span class="card-note">{note}</span>
+              </a>
             </li>
           ))
         }
-      </ol>
-      <p class="muted note">{strings.hierarchyNote}</p>
+      </ul>
     </div>
   </section>
+
+  <HomeArt />
 </Base>
 
 <style>
   .hero {
-    background: var(--navy);
-    color: var(--ivory);
-    padding-block: clamp(2.5rem, 6vw, 5rem) 2rem;
+    padding-block: clamp(2.5rem, 6vw, 4.5rem) 1rem;
   }
 
   h1 {
@@ -86,105 +67,53 @@ const strings = t(locale);
     font-family: var(--font-reading);
     font-size: var(--step-1);
     max-inline-size: 32em;
-    color: rgb(245 241 230 / 0.86);
-  }
-
-  .actions {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 0.75rem 1.75rem;
-    margin-block: 2rem 2.5rem;
-  }
-
-  .primary {
-    display: inline-flex;
-    align-items: center;
-    min-block-size: 48px;
-    padding-inline: 1.4rem;
-    border-radius: 3px;
-    background: var(--gold);
-    color: var(--navy);
-    font-weight: 600;
-    text-decoration: none;
-  }
-
-  .primary:hover {
-    background: #e6c776;
-  }
-
-  .secondary {
-    color: var(--ivory);
-    min-block-size: 44px;
-    display: inline-flex;
-    align-items: center;
-  }
-
-  .hero :focus-visible {
-    outline-color: var(--gold);
-  }
-
-  .caption {
-    margin-block: 0.75rem 0;
-    font-size: var(--step--1);
-    color: rgb(245 241 230 / 0.78);
-    max-inline-size: 46rem;
-  }
-
-  .explore {
-    display: grid;
-    gap: 2rem 4rem;
-  }
-
-  .views {
     margin: 0;
-  }
-
-  .views dt {
-    font-size: var(--step-1);
-    font-family: var(--font-reading);
-  }
-
-  .views dd {
-    margin: 0.25rem 0 1.5rem;
     color: var(--ink-muted);
   }
 
-  .coverage h3 {
-    font-size: var(--step-0);
-    font-family: var(--font-ui);
-    font-weight: 650;
+  .cards-section {
+    padding-block: 2rem clamp(2rem, 5vw, 3.5rem);
   }
 
-  @media (min-width: 56rem) {
-    .explore {
-      grid-template-columns: 1.2fr 1fr;
-    }
-
-    .coverage {
-      grid-column: 1 / -1;
-    }
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 17rem), 1fr));
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
   }
 
-  .hierarchy {
-    max-inline-size: var(--measure);
-    padding-inline-start: 1.6rem;
+  .card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    block-size: 100%;
+    padding: 1.4rem 1.4rem 1.6rem;
+    border: 1px solid var(--line);
+    border-block-start: 3px solid var(--accent);
+    border-radius: 4px;
+    background: var(--surface-raised);
+    color: var(--ink);
+    text-decoration: none;
+  }
+
+  .card:hover {
+    border-color: var(--accent);
+  }
+
+  .card-title {
     font-family: var(--font-reading);
-    font-size: 1.0625rem;
-  }
-
-  .hierarchy li {
-    padding-block: 0.4rem;
-    padding-inline-start: 0.4rem;
-  }
-
-  .hierarchy li::marker {
-    color: var(--accent);
+    font-size: var(--step-2);
     font-weight: 600;
   }
 
-  .note {
-    max-inline-size: var(--measure);
-    font-size: var(--step--1);
+  .card:hover .card-title {
+    text-decoration: underline;
+    text-underline-offset: 0.25em;
+  }
+
+  .card-note {
+    color: var(--ink-muted);
   }
 </style>

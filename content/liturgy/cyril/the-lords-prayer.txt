@@ -1,0 +1,14 @@
+source: The Divine Liturgies of Saints Basil, Gregory and Cyril (Coptic, English and Arabic), Fr. Jacob Nadian, St. Bishoy Coptic Orthodox Church of Toronto, Stouffville, Ontario, Canada.
+source-ar: الثلاثة قداسات للقديسين باسيليوس واغريغوريوس وكيرلس (قبطي وإنجليزي وعربي)، الأب يعقوب نادين، كنيسة الأنبا بيشوي القبطية الأرثوذكسية بتورونتو، ستوفيل، أونتاريو، كندا.
+
+@rubric
+en| The Prayer after “Our Father” addressed to the Father
+ar| صلاة من بعد "أبانا الذي في السموات" للآب
+
+@priest
+en| Yes, we ask You, O God, the Father, the Pantocrator, lead us not into temptation, but deliver us from the evil one. Take away from us the manifold works of Satan, and the intrigues that are from the counsel of wicked men. O Lord, bring them all to no avail. And fortify us at all times by Your life-giving right hand, for You are our helper and our defender in Christ Jesus our Lord. Through Whom the glory, the honor, the dominion, and the worship are due unto You, with Him and the Holy Spirit, the Giver of Life, Who is of one essence with You. N ow and at all times and unto the ages of all ages. Amen.
+ar| نعم نسألك يا الله الآب ضابط الكل، لا تدخلنا في تجربة لكن نجنا من الشرير. والأفعال المتنوعة التي لإبليس، إطرحها عنا. والسعايات الكائنة بمشورة الناس الأشرار، إجعلها كلها كلا شئ. وحصِّنا كل حين بيمينك المحيية. لأنك أنت هو معيننا وناصِرُنا، بالمسيح يسوع ربنا. هذا الذي من قبله المجد والكرامة والعز والسجود تليق بك معه مع الروح القدس المحيي المساوي لك. الآن وكل أوان وإلى دهر الدهور كلها. آمين.
+
+@priest
+en| Yes, we ask You, O Lord our God, lead none of us into temptation; this which we cannot endure on account of our weakness. But grant us also to walk out of the temptation that we may be able to quench all the fiery blazing darts of the Devil. And deliver us from the evil one and his deeds in Christ our Lord. Through Whom the glory, the honor, the dominion, and the worship are due unto You, with Him and the Holy Spirit, the Giver of Life, Who is of one essence with You. N ow and at all times and unto the ages of all ages. Amen.
+ar| نعم نسألك أيها الرب إلهنا، لا تُدخل أحداً منا في تجربة. هذه التي لا نستطيع أن نحتملها من أجل ضعفنا. بل أعطنا أن نخرج من التجربة أيضاً، لكيْ نستطيع أن نطفئ جميع السهام المتقدة ناراً التي لإبليس. ونجنا من الشرير وأعماله، بالمسيح يسوع ربنا. هذا الذي من قبله المجد والكرامة والعز والسجود تليق بك معه مع الروح القدس المحيي المساوي لك. الآن وكل أوان وإلى دهر الدهور آمين.

@@ -1,5 +1,6 @@
 ---
 import Base from '../../layouts/Base.astro';
+import liturgySources from '../../data/liturgy-sources.json';
 import { LICENSE_LABELS, SOURCES } from '../../lib/sources.ts';
 import { LOCALES, t, type Locale } from '../../i18n/index.ts';
 
@@ -68,6 +69,21 @@ const groups = (['import', 'link-only', 'do-not-use'] as const).map((usage) => (
         </section>
       ))
     }
+    <section aria-labelledby="group-liturgy">
+      <h2 id="group-liturgy">{strings.liturgyHeading}</h2>
+      <p class="prose">{strings.liturgyIntro}</p>
+      {
+        liturgySources.length === 0 ? (
+          <p>{strings.liturgyNone}</p>
+        ) : (
+          <ul class="liturgy-sources">
+            {liturgySources.map((source) => (
+              <li lang="en" dir="ltr">{source}</li>
+            ))}
+          </ul>
+        )
+      }
+    </section>
   </div>
 </Base>
 

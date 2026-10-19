@@ -1,0 +1,42 @@
+import type { FamilyMap } from './types.ts';
+
+/** 6. Sin, repentance, and forgiveness. */
+export const F06: FamilyMap = {
+  nave: {
+    'Nature of sin': 'SIN>UNCLASSIFIED SCRIPTURES RELATING TO',
+    'Original/ancestral sin': 'FALL OF MAN',
+    Temptation: 'TEMPTATION>General scriptures',
+    'Consequences of sin': 'SIN>FRUITS OF|PUNISHMENT OF',
+    'Conviction of sin': 'CONVICTION>OF SIN',
+    Shame: 'SHAME',
+    'True repentance': 'REPENTANCE',
+    'Confession of sins': 'SIN>CONFESSION OF',
+    'Forgiveness from God': 'SIN>FORGIVENESS OF',
+    'Forgiving others': 'FORGIVENESS>OF ENEMIES',
+    'Receiving forgiveness': 'SIN>FORGIVENESS OF',
+    "God's mercy toward sinners": 'GOD>MERCY OF',
+  },
+  passages: {
+    'Original/ancestral sin': 'Genesis 3; Romans 5:12–19; 1 Corinthians 15:21–22',
+    'Falling into sin': 'James 1:13–15; Romans 7:15–24; Galatians 6:1',
+    Guilt: 'Psalm 32:3–5; Psalm 38:4; Psalm 51:3–4; Romans 3:19',
+    'False repentance': 'Matthew 27:3–5; 2 Corinthians 7:10; Hebrews 12:17; Isaiah 29:13',
+    'Confession of sins': '1 John 1:9; Proverbs 28:13; Psalm 32:5',
+    'Forgiving others': 'Matthew 6:14–15; Matthew 18:21–35; Colossians 3:13; Ephesians 4:32',
+    'Forgiving repeatedly': 'Matthew 18:21–22; Luke 17:3–4',
+    'Returning to God': 'Joel 2:12–13; Hosea 14:1–2; Isaiah 55:6–7; Luke 15:17–20; Malachi 3:7',
+    'Spiritual restoration': 'Psalm 51:10–12; Psalm 23:3; Joel 2:25; Galatians 6:1; John 21:15–17',
+    'Overcoming recurring sins': 'Romans 6:11–14; Romans 7:24–25; Galatians 5:16; Hebrews 12:1; Proverbs 24:16',
+    'Repentance of the heart': 'Joel 2:12–13; Psalm 51:17; 2 Corinthians 7:10; Ezekiel 36:26',
+    'Repentance and spiritual healing': '2 Chronicles 7:14; Psalm 103:3; James 5:16; Isaiah 53:5',
+    'Freedom from sin': 'Romans 6:6–7; Romans 6:18; John 8:34–36; Galatians 5:1; Romans 8:1–2',
+    'The prodigal son': 'Luke 15:11–32',
+    'Zacchaeus and repentance': 'Luke 19:1–10',
+    "Peter's repentance": 'Luke 22:54–62; John 21:15–19',
+    'Repentance before judgment': 'Acts 3:19; Acts 17:30–31; Luke 13:1–5; Romans 2:4–5; Isaiah 55:6–7',
+    'Bearing fruits of repentance': 'Matthew 3:8; Luke 3:7–14; Acts 26:20',
+    'Reconciling with others after sin': 'Matthew 5:23–24; Matthew 18:15; Luke 19:8; 2 Corinthians 5:18–19',
+    'Restoring broken relationships': 'Genesis 33:1–11; Matthew 5:23–24; Romans 12:18; Philemon 1:15–17',
+    'Living a repentant life': 'Luke 9:23; Acts 26:20; 1 John 1:7–9; Revelation 3:19; Romans 12:1–2',
+  },
+};

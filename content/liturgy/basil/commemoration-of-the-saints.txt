@@ -1,0 +1,74 @@
+source: The Divine Liturgies of Saints Basil, Gregory and Cyril (Coptic, English and Arabic), Fr. Jacob Nadian, St. Bishoy Coptic Orthodox Church of Toronto, Stouffville, Ontario, Canada.
+source-ar: الثلاثة قداسات للقديسين باسيليوس واغريغوريوس وكيرلس (قبطي وإنجليزي وعربي)، الأب يعقوب نادين، كنيسة الأنبا بيشوي القبطية الأرثوذكسية بتورونتو، ستوفيل، أونتاريو، كندا.
+
+@rubric
+en| The priest points with his hands to the oblations set before him, saying the following (which is said by the pope, the metropolitan or the bishop, if present):
+ar| وبعد ذلك يشير الكاهن بيديه إلي القرابين الموضوعة أمامه وهو يقول (يقولها الأب البابا أو المطران أو الاسقف، إذا كان حاضراً):
+
+@priest
+en| Remember, O Lord, those who have brought unto You these gifts, those on whose behalf they have been brought, and those by whom they have been brought. Give them all the heavenly reward.
+ar| أذكر يا رب الذين قدموا لك هذه القرابين، والذين قدمت عنهم، والذين قدمت بواسطتهم، اعطهم كلهم الأجر السمائي.
+
+@deacon
+en| Pray for these holy and precious gifts, our sacrifices and those who have brought them.
+ar| صلوا من أجل هذه القرابين المقدسة الكريمة، وضحايانا، والذين قدموها.
+
+@people
+en| Lord have mercy.
+ar| يا ربُ إرحم.
+
+@priest
+en| As this, O Lord, is the command of Your only-begotten Son, that we share in the commemoration of Your saints. Graciously accord, O Lord, to remember all the saints who have pleased You since the beginning. Our holy fathers the patriarchs, the prophets, the apostles, the preachers, the evangelists, the martyrs, the confessors, and all the spirits of the righteous perfected in the faith. Most of all, the pure, full-of- glory, ever-virgin, holy Theotokos, Saint Mary, who truly gave birth to God the Logos. And Saint John the forerunner, Baptist, and martyr; Saint Stephen the archdeacon and protomartyr; the beholder-of-God Saint Mark the evangelist, the apostle and martyr. The patriarch Saint Severus; our teacher Dioscorus; Saint Athanasius the Apostolic; Saint Peter, the Holy martyr and high priest Saint John Chrysostom; Saint Theodosius; Saint Theophilus; Saint Demetrius; Saint Cyril; Saint Basil; Saint Gregory the Theologian; Gregory the wonder worker; Saint Gregory the Armenian. The three hundred and eighteen assembled at Nicea; the one hundred and fifty at Constantinople; and the two hundred at Ephesus. our righteous father, the great Abba Anthony; the righteous Abba Paul; the three saints Abba Macarii and all their children, the cross-bearers. Our father Abba John the hegumen; our righteous father Abba Pishoy, the perfect man, the beloved of our good Savior. Our father Abba Paul of Tammoh and Ezekiel his disciple; my masters, the Roman fathers Saints Maximus and Dometius; the Forty-nine Martyrs; elders of Shiheet; the strong saint Abba Moses; John Kame the priest. Our father Abba Daniel the hegumen; our father Abba Isidore the priest; our father Abba Pachom of the Koinonia, and Theodore his disciple; our father Abba Shenoute the archimandrite, and Abba Wesa his disciple. And all the choir of Your saints, through whose prayers and supplications have mercy on us all and save us, for the sake of Your holy name, which is called upon us.
+ar| لأن هذا يا رب هو أمر ابنك الوحيد، أن نشترك في تذكار قديسيك. تفضل يا رب، أن تذكر جميع القديسين الذين أرضوك منذ البدء. آباءنا الاطهار رؤساء الآباء والأنبياء، والرسل والمبشرين والإنجيليين، والشهداء والمعترفين، وكل أرواح الصديقين، الذين كملوا في الايمان. وبالأكثر القديسة المملوءة مجداً، العذراء كل حين والدة الإله القديسة الطاهرة مريم، التي ولدت الله الكلمة بالحقيقة. والقديس يوحنا السابق الصابغ والشهيد، والقديس استفانوس رئيس الشمامسة وأول الشهداء، وناظر الإله الإنجيلى مرقس الرسول الطاهر والشهيد. والبطريرك القديس ساويرس، ومعلمنا ديوسقورس، والقديس أثناسيوس الرسولى، والقديس بطرس الشهيد الطاهر ورئيس الكهنة. والقديس يوحنا ذهبي الفم، والقديس ثاودوسيوس، والقديس ثيئوفيلوس، والقديس ديمتريوس، والقديس كيرلس، والقديس باسيليوس، والقديس اغريغوريوس الناطق بالالهيات، والقديس اغريغوريوس صانع العجائب، والقديس اغريغوريوس الارمني. والثلاثمائة والثمانية عشر المجتمعين بنيقية، والمئة والخمسين بمدينة القسطنطينية، والمائتين بأفسس. وأبانا الصديق العظيم أنبا أنطونيوس، والبار أنبا بولا، والثلاثة أنبا مقارات القديسين، وجميع أولادهم لُباس الصليب. وأبانا أنبا يؤأنس القمص، وأبانا أنبا بيشوي البار الرجل الكامل، حبيب مخلصنا الصالح. وأبانا أنبا بولا الطموهي، وحزقيال تلميذه ، وسيدي الأبوين القديسين الروميين مكسيموس ودوماديوس، والتسعة والأربعين شهيدا شيوخ شيهيت، والقوي القديس أنبا موسى، ويحنس كاما القس. وأبانا أنبا دانيال القمص، وأبانا أنبا ايسيذوروس القس، وأبانا أنبا باخوم أب الشركة، وتادرس تلميذه، وأبانا أنبا شنودة رئيس المتوحدين، وأنبا ويصا تلميذه. وكل مصاف قديسيك، هؤلاء الذين بسؤالاتهم وطلباتهم، ارحمنا كلنا معا. وانقذنا من أجل اسمك القدوس الذي دعي علينا.
+
+@deacon
+en| Let those who read, recite the names of our holy fathers, the patriarchs who have fallen asleep: O Lord, repose their souls and forgive us our sins.
+ar| القارئون فليقولوا أسماء آبائنا البطاركة القديسين الذين رقدوا. الرب ينيح نفوسهم أجمعين، ويغفر لنا خطايانا.
+
+@rubric
+en| The priest say the following commemoration of the departed inaudibly.
+ar| يقول الكاهن هذا الترحيم سراً.
+
+@priest
+en| Remember also, O Lord, all those who have fallen asleep and reposed in the priesthood and in all the orders of the laity. Graciously, O Lord, repose all their souls in the bosom of our Holy fathers, Abraham, Isaac and Jacob. Sustain them in a green pasture, by the water of rest in the paradise of joy. The place out of which grief, sorrow and groaning have fled away, in the light of Your saints.
+ar| اذكر أيضاً يا رب كل الذين رقدوا، وتنيحوا في الكهنوت، والذين في كل طغمة العلمانيين. تفضل يا رب نيح نفوسهم أجمعين في حضن آبائنا القديسين، ابراهيم وإسحق ويعقوب. عُلهُم في موضعِ خضرة، علي ماءِ الراحةِ في فردوسِ النعيمِ. الموضع الذي هرب منه الحزنُ والكآبةُ والتنهدُ في نوِر قديسيك.
+
+@rubric
+en| If it is the time when a patriarch, a metropolitan or a bishop has fallen asleep, the following prayer is said. This prayer also replaces the Litany for the Fathers.
+ar| وفي زمان نياحة البطريرك أو المطران أو الأسقف، تقال هذه في الترحيم (كما تقال أيضاً عوض أوشية الآباء):
+
+@priest
+en| Remember, O Lord, the soul of our father the patriarch (metropolitan/ bishop) Abba (...) Deacon : Pray for the soul of our blessed father Abba ( … ) that the Lord God may repose his it in the bosom of our holy fathers, Abraham, Isaac and Jacob in the paradise of joy, and forgive us our sins.
+ar| اذكر يا رب نفس أبينا البطريرك (المطران / الأسقف) أنبا (...) اطلبوا عن نفس أبينا الطوباوى المكرم أنبا (...)، لكى ينيحها الرب الإله في حضن أبائنا القديسين إبراهيم واسحق ويعقوب في فردوس النعيم، ويغفر لنا خطايانا.
+
+@people
+en| Lord have mercy.
+ar| يا ربُ إرحم.
+
+@priest
+en| Graciously accord O Lord, repose it with your saints. Grant to appoint for us a good shepherd to shepherd Your people in purity and righteousness.
+ar| تفضل يا رب نيحها مع قديسيك. أنعم بأن تقيم لنا راعياً صالحاً ليرعي شعبك بالطهارة والعدل.
+
+@rubric
+en| If this prayer is said instead of the Litany for the Fathers, the priest continues with “and all the orthodox b ishops, hegumens, priests…” The priest may say the following commemoration of the departed from the Liturgy of St. Cyril in its known tune in the liturgy for the departed.
+ar| وإذا قيلت عوض أوشية الآباء، يكمل الكاهن الصلاة من هذه الأوشية كما يلي: "وجميع الاساقفة الارثوذكسيين، والقمامصة والقـسوس"... يقول الكاهن هذا الترحيم من قداس القديس كيرلس باللحن في يوم الترحيم والقداس للراقدين.
+
+@priest
+en| Those, O Lord, and everyone whose names we have mentioned; and those we have not mentioned. Those whom each one of us has in mind and those who are not in mind. Those who have fallen asleep and reposed in the faith of Christ.
+ar| وهؤلاء وكل أحد، يا رب، الذين ذكرنا أسماءهم، والذين لم نذكرهم الذين في فكر كل واحد منا، والذين ليسوا فينا. الذين رقدوا وتنيحوا في الايمان بالمسيح.
+
+@rubric
+en| The priest mentions the name(s) of the departed and, with his hand covered with a veil, puts a spoonful of incense in the censer.
+ar| هنا يذكر اسم المتنيح ويضع يد بخور في المجمرة ويده مستورة بلفافة.
+
+@priest
+en| Then the deacon says : Pray for our fathers and brethren who have fallen asleep and reposed in the faith of Christ since the beginning. Our holy fathers, the archbishops, our fathers the bishops, our fathers the hegumens, our fathers the priests, our brothers the deacons, our fathers the monks, and our fathers the laymen, and for the full repose of all Christians. That Christ our God may repose all their souls in the paradise of joy, and we too, accord mercy unto us, and forgive us our sins.
+ar| ثم يقول اطلبوا عن آبائنا وإخوتنا الذين رقدوا، وتنيحوا في الإيمان بالمسيح منذ البدء. آبائنا القديسين رؤساء الأساقفة، وآبائنا الأساقفة، وآبائنا القمامصة، وآبائنا القسوس وإخوتنا الشمامسة، وآبائنا الرهبان، وآبائنا العلمانيين، وعن نياح كل المسيحيين. لكي المسيح إلهنا ينيح نفوسهم أجمعين في فردوس النعيم، ونحن أيضاً يصنع معنا رحمة، ويغفرً لنا خطايانا.
+
+@people
+en| Lord have mercy.
+ar| يا ربُ إرحم.
+
+@priest
+en| Graciously accord , O Lord, repose all their souls in the bosom of our Holy fathers, Abraham, Isaac and Jacob . S ustain them i n a green pasture, by the water of rest in the paradise of joy .
+ar| تفضل يا رب نيح نفوسهم جميعا في حضن آبائنا القديسين، ابراهيم وإسحق ويعقوب. عُلهُم في موضعِ خضرة، علي ماءِ الراحةِ في فردوسِ النعيمِ.

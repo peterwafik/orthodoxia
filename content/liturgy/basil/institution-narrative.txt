@@ -1,0 +1,182 @@
+source: The Divine Liturgies of Saints Basil, Gregory and Cyril (Coptic, English and Arabic), Fr. Jacob Nadian, St. Bishoy Coptic Orthodox Church of Toronto, Stouffville, Ontario, Canada.
+source-ar: الثلاثة قداسات للقديسين باسيليوس واغريغوريوس وكيرلس (قبطي وإنجليزي وعربي)، الأب يعقوب نادين، كنيسة الأنبا بيشوي القبطية الأرثوذكسية بتورونتو، ستوفيل، أونتاريو، كندا.
+
+@priest
+en| He instituted for us this great mystery of godliness.
+ar| ووضع لنا هذا السر العظيم الذي للتقوي.
+
+@rubric
+en| The priest takes away his smoke-filled hands from the censer, and says:
+ar| ثم يرفع الكاهن يديه من فوق المجمرة بالبخور ويقول:
+
+@priest
+en| For being determined to give Himself up to death for the life of the world.
+ar| لأنه فيما هو راسم أن يسلم نفسه للموت عن حياة العالم.
+
+@people
+en| We believe.
+ar| نؤمن.
+
+@rubric
+en| The priest takes the bread into his left hand, raises the silk veil which was beneath it on the paten and kisses it, then places it on the altar, saying:
+ar| يأخذ القربانة ويضعها علي يده اليسري، ويرفع اللفافة الحرير التي تحتها في الصينية ويقبلها بفيه ويتركها علي المذبح وهو يقول:
+
+@priest
+en| He took bread into His holy hands, which are without spot or blemish, blessed, and life-giving.
+ar| أخذ خبزا علي يديه الطاهرتين، اللتين بلا عيب ولا دنس، الطوباويتين المحييتين.
+
+@people
+en| We believe that this is true. Amen.
+ar| نؤمن أن هذا هو بالحقيقة. آمين.
+
+@rubric
+en| The priest places his right hand upon the bread that is in his left hand, raises his eyes upward, and says:
+ar| يضع الكاهن يده اليمني علي القربانة التي علي يده اليسري، ويرفع نظره إلي فوق ويقول:
+
+@priest
+en| He looked up toward Heaven to You, O God, who are His Father and Master of everyone.
+ar| ونظر إلي فوق نحو السماء، إليك يا الله أباه وسيد كل أحد.
+
+@rubric
+en| The priest makes the sign of the cross with his finger three times, and each time the people responds, saying, “Amen. ” At the first signing, the priest says:
+ar| يرشم الخبز بأصبعه ثلاثة رشوم وفي كل رشم يجاوبه الشعب قائلين "آمين". في أول رشم يقول الكاهن:
+
+@priest
+en| And when He had given thanks.
+ar| وشكر.
+
+@people
+en| Amen.
+ar| آمين.
+
+@rubric
+en| And at the se cond signing:
+ar| وثاني رشم:
+
+@priest
+en| He blessed it.
+ar| وباركه.
+
+@people
+en| Amen.
+ar| آمين.
+
+@rubric
+en| And at the third signing:
+ar| وثالث رشم:
+
+@priest
+en| And He sanctified it.
+ar| وقدسه.
+
+@people
+en| Amen. We believe, we confess, and we glorify.
+ar| آمين. نؤمن ونعترف ونمجد.
+
+@rubric
+en| The priest breaks the oblation into a two - thirds and a one - third part, carefully, slightly, and without separating one part from the other, and without touching the Despotikon. The fraction must be made with his right thumb, and not with the nail. Making the fraction from the top to the bottom wi th the one - third part on his right and the two - thi rds part on his left, he says:
+ar| ثم يقسم القربانة ثلثين وثلثاً بعناية من غير فصل بعضهما عن بعض. ومن غير أن يمس الاسباديقون. وتكون القسمة بإبهام يده اليمني وليس بالظفر. ويجعل القسمة من فوق إلي أسفل ويكون الثلث عن يمينه والثلثان عن يساره، وهو يقول:
+
+@priest
+en| He broke it, and gave it to His own holy disciples and saintly apostles, saying, “ Take, eat of it, all of you. For this is My Body,
+ar| الكاهن: وقسمه، وأعطاه لتلاميذه القديسين ورسله الأطهار قائلا: "خذوا كلوا منه كلكم، لأن هذا هو جسدي.
+
+@rubric
+en| The priest slightly and gently breaks the top of the oblation with the tips of his fingers, without completely separating it. He places it in the pa ten , and c leans his hands inside the paten so that nothing of the oblation should adhere to them. He does this while saying:
+ar| هنا يفرق رأس القربانة من فوق قليلًا بأطراف أصابعه بعناية من غير فصل ويضعها في الصينية. وينظف يديه داخل الصينية لئلا يكون قد التصق بهما شيئ من القربانة، وهو يقول:
+
+@priest
+en| w hich is broken for you and for many, to be given for the remission of sins. This do , in remembrance of Me.”
+ar| الذي يقسم عنكم وعن كثيرين، يعطي لمغفرة الخطايا، هذا اصنعوه لذكرى."
+
+@people
+en| This is true. Amen.
+ar| هذا هو بالحقيقة. آمين.
+
+@rubric
+en| The priest places his hand upon the rim of the chalice, and says:
+ar| يضع الكاهن يده علي حافة الكأس ويقول:
+
+@priest
+en| Likewise also, the cup, after supper, He mixed it of wine and water.
+ar| هكذا الكأس أيضا، بعد العشاءً، مزجها من خمر وماء.
+
+@rubric
+en| T he priest makes the sign of the cross on the chalice t hree times, and each time the people responds, saying, “Amen. ” At the first signing, the priest says:
+ar| يرشم الكاهن الكأس ثلاثة رشوم وفي كل رشم يجاوبه الشعب قائلين "آمين". في أول رشم يقول الكاهن:
+
+@priest
+en| And when He had given thanks.
+ar| وشكر.
+
+@people
+en| Amen.
+ar| آمين.
+
+@rubric
+en| And at the second signing:
+ar| وثاني رشم:
+
+@priest
+en| He blessed it.
+ar| وباركها.
+
+@people
+en| Amen.
+ar| آمين.
+
+@rubric
+en| And at the third signing:
+ar| وثالث رشم:
+
+@priest
+en| And He sanctified it.
+ar| وقدسها.
+
+@people
+en| Amen. Again, we believe, we confess, and we glorify.
+ar| آمين. وأيضاً نؤمن ونعترف ونمجد.
+
+@rubric
+en| The priest holds the rim of the chalice with his hands , say ing :
+ar| يمسك الكاهن حافة الكأس بيده ويقول:
+
+@priest
+en| He tasted, and gave it also to His own holy disciples and saintly apostles, saying:
+ar| وذاق، وأعطاها أيضاً لتلاميذه القديسين ورسله الأطهار قائلا:
+
+@rubric
+en| The priest moves the chalice in the form of the cross, inclining it carefully first to the west, then to the East, to the north, and to the south, while saying:
+ar| يحرك الكأس مثال الصليب، أي يميلها باحتراس إلي الغرب أولًا ثم الشرق والشمال والجنوب، وهو يقول:
+
+@priest
+en| “ Take, drink of it all of you.
+ar| "خذوا اشربوا منه كلكم.
+
+@rubric
+en| The priest points with his hand to the chalice, and says:
+ar| ثم يشير بيديه إلي الكأس ويقول:
+
+@priest
+en| For this is My blood of the new covenant which is shed for you and for many, to be given for the remission of sins . This do in remembrance of Me.”
+ar| لأن هذا هو دمي الذي للعهد الجديد، الذي يُسفَك عنكم وعن كثيرين يعطي لمغفرة الخطايا. هذا اصنعوه لذكري."
+
+@people
+en| This is also true. Amen.
+ar| هذا هو أيضاً بالحقيقة. آمين.
+
+@rubric
+en| The priest points with his hand to the Body , say ing :
+ar| يشير بيديه إلي الجسد وهو يقول:
+
+@priest
+en| For every time you eat of this bread
+ar| لأن كل مرة تأكلون من هذا الخبز.
+
+@rubric
+en| The priest points with his hand to the chalice, and says:
+ar| ثم يشير بيديه إلي الكأس وهو يقول:
+
+@priest
+en| And drink of this cu p,
+ar| وتشربون من هذه الكأس.

@@ -6,9 +6,11 @@ interface Props {
   locale: Locale;
   /** The current page in the other language. */
   alternate: string;
+  /** Brand and tools only. */
+  simple?: boolean;
 }
 
-const { locale, alternate } = Astro.props;
+const { locale, alternate, simple = false } = Astro.props;
 const strings = t(locale);
 const other = otherLocale(locale);
 const current = Astro.url.pathname;
@@ -27,6 +29,7 @@ const links = [
       <CopticCross />
       <span>{strings.meta.siteName}</span>
     </a>
+    {!simple && (
     <nav aria-label={strings.a11y.primaryNav}>
       <ul>
         {
@@ -40,6 +43,7 @@ const links = [
         }
       </ul>
     </nav>
+    )}
     <div class="tools">
       <a class="lang" href={alternate} hreflang={other} lang={other}>
         {strings.nav.otherLanguage}
@@ -58,7 +62,7 @@ const links = [
   const button = document.querySelector<HTMLButtonElement>('[data-theme-toggle]');
   button?.addEventListener('click', () => {
     const root = document.documentElement;
-    const current = root.dataset['theme'] ?? (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    const current = root.dataset['theme'] ?? 'light';
     const next = current === 'dark' ? 'light' : 'dark';
     root.dataset['theme'] = next;
     try {

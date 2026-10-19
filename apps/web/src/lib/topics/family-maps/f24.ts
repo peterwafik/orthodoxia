@@ -1,0 +1,42 @@
+import type { FamilyMap } from './types.ts';
+
+/** 24. Miracles of Jesus and their meaning. */
+export const F24: FamilyMap = {
+  nave: {
+    'Purpose of miracles': 'MIRACLES>DESIGN OF|CONVINCING EFFECT OF',
+    'Healing the blind': 'JESUS, THE CHRIST>Heals a blind man|Heals two blind men',
+    'Healing the lame': 'JESUS, THE CHRIST>Heals a paralyzed man|Heals an immobile man',
+    'Cleansing lepers': 'JESUS, THE CHRIST>Heals a leper|Heals ten lepers',
+    'Healing the deaf': 'JESUS, THE CHRIST>Heals a deaf man',
+    "Raising the widow's son": 'JESUS, THE CHRIST>Raises the widow',
+    'Casting out demons': 'JESUS, THE CHRIST>demoniac|evil spirit|Miracle of the swine',
+    'Walking on water': 'JESUS, THE CHRIST>Walks on the lake',
+    'Calming the sea': 'JESUS, THE CHRIST>quiets the squall',
+    'The withered fig tree': 'JESUS, THE CHRIST>Performs the miracle of causing the barren fig tree',
+    'Feeding the four thousand': 'JESUS, THE CHRIST>Feeds more than four',
+    'Water into wine': 'JESUS, THE CHRIST>Miracle at Cana',
+  },
+  passages: {
+    'Miracles as signs of divinity': 'John 20:30–31; John 2:11; John 10:37–38; Matthew 11:2–5',
+    'Healing the blind': 'Matthew 9:27–31; Mark 10:46–52; John 9:1–41; Mark 8:22–26',
+    'Healing the lame': 'Mark 2:1–12; John 5:1–9; Acts 3:1–10',
+    'Cleansing lepers': 'Matthew 8:1–4; Luke 17:11–19; Mark 1:40–45',
+    'Healing the deaf': 'Mark 7:31–37; Matthew 9:32–33',
+    'Healing at a distance': 'Matthew 8:5–13; John 4:46–54; Matthew 15:21–28',
+    "Raising Jairus's daughter": 'Mark 5:21–43',
+    "Raising the widow's son": 'Luke 7:11–17',
+    'Raising Lazarus': 'John 11:1–44',
+    'Feeding the five thousand': 'Matthew 14:13–21; Mark 6:30–44; Luke 9:10–17; John 6:1–15',
+    'Feeding the four thousand': 'Matthew 15:32–39; Mark 8:1–10',
+    'Water into wine': 'John 2:1–11',
+    'Walking on water': 'Matthew 14:22–33; Mark 6:45–52; John 6:16–21',
+    'Calming the sea': 'Mark 4:35–41; Matthew 8:23–27; Luke 8:22–25',
+    'Miraculous catch of fish': 'Luke 5:1–11; John 21:1–14',
+    'Casting out demons': 'Mark 1:21–28; Mark 5:1–20; Luke 11:14',
+    'The withered fig tree': 'Matthew 21:18–22; Mark 11:12–14; Mark 11:20–25',
+    'Miracles and faith': 'Matthew 9:22; Mark 6:5–6; Matthew 17:20; Mark 9:23–24',
+    'Spiritual meanings of miracles': 'John 6:26–35; John 9:39–41; John 11:25–26; Mark 8:17–21',
+    "Miracles in John's Gospel": 'John 2:1–11; John 4:46–54; John 5:1–15; John 6:1–14; John 6:16–21; John 9:1–7; John 11:1–44',
+    'Miracles and Old Testament fulfillment': 'Matthew 8:16–17; Matthew 11:2–5; Isaiah 35:5–6; Luke 4:16–21',
+  },
+};

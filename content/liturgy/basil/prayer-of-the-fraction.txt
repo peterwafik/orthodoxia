@@ -1,0 +1,50 @@
+source: The Divine Liturgies of Saints Basil, Gregory and Cyril (Coptic, English and Arabic), Fr. Jacob Nadian, St. Bishoy Coptic Orthodox Church of Toronto, Stouffville, Ontario, Canada.
+source-ar: الثلاثة قداسات للقديسين باسيليوس واغريغوريوس وكيرلس (قبطي وإنجليزي وعربي)، الأب يعقوب نادين، كنيسة الأنبا بيشوي القبطية الأرثوذكسية بتورونتو، ستوفيل، أونتاريو، كندا.
+
+@deacon
+en| Amen. Amen. Pray.
+ar| آمين. آمين. صلوا.
+
+@people
+en| Lord have mercy.
+ar| يا ربُ إرحم.
+
+@priest
+en| Peace be with You all.
+ar| السلام للكل.
+
+@people
+en| And with your spirit.
+ar| ولروحك أيضًا.
+
+@rubric
+en| While breaking the holy Body, the priest says the fol lowing Prayer of the Fraction to the Father ( or one of the other appointed fraction prayers ) .
+ar| يقول الكاهن وهو يقسم الجسد المقدس، صلاة القسمة الآتية للآب (أو غيرها من القسم المذكورة فيما بعد).
+
+@people
+en| O Master, Lord our God, the great, the eternal, wondrous in glory. Who keeps His covenant and His mercy to those who love Him with all their heart. Who has given to us redemption from sins through His only-begotten Son, Jesus Christ our Lord, the life of everyone. The help of those who flee to Him, the hope of those who cry out to Him. Before whom stand thousands of thousands and ten thousand times ten thousand holy angels and archangels. The Cherubim and the Seraphim, and all the innumerable host of the heavenly powers. O God, You have sanctified these gifts which are set forth through the coming down of Your Holy Spirit upon them, and You have purified them. Purify us also, O our Master, from our sins, the hidden and manifest, and every thought which is not pleasing to Your goodness; O God, the Lover of mankind, may it be far from us. Purify our souls, our bodies, our spirits, our hearts, our eyes, our understanding, our thoughts, and our consciences. So that, with a pure heart, an enlightened soul, an unashamed face, a faith unfeigned, a perfect love, and a firm hope. We may dare with boldness, without fear, to pray to You, O God, the holy Father who are in the heavens, and say: Our Father...
+ar| أيها السيد الرب، إلهنا العظيم الابدى، والمتعجب منه بالمجد. حافظ عهده ورحمته للذين يحبونه بكل قلبهم. الذي أعطانا الخلاص من خطايانا، بابنه الوحيد يسوع المسيح ربنا حياة كل أحد. يا معين الملتجئين إليه، ورجاء الذين يصرخون نحوه. الذي يقف أمامه ألوف ألوف وربوات ربوات الملائكة ورؤساء الملائكة القديسين. الشاروبيم والسارافيم وكل الجمع غير المحصي الذي للقوات السمائية. اللهم الذي قدس هذه القرابين الموضوعة بحلول روحك القدوس عليها وطهرتها. طهرنا نحن أيضا يا سيدنا، من خطايانا الخفية والظاهرة، وكل فكر لا يرضي صلاحك، يا الله محب البشر، فليبعد عنا. طهر نفوسنا، وأجسادنا، وأرواحنا، وقلوبنا، وعيوننا، وأفهامنا، وافكارنا، ونياتنا. لكي بقلب طاهر، ونفس مستنيرة، ووجه غير مخزى، وإيمان بلا رياء، ومحبة كاملة، ورجاء ثابت. نجسر بدالة، بغير خوف، أن نطلب إليك، يا الله الآب القدوس الذى في السموات، ونقول: أبانا...
+
+@people
+en| Our Father who art in heaven; hallowed be Thy name. Thy kingdom come. Thy will be done on earth as it is in heaven. Give us this day our daily bread. And forgive us our trespasses, as we forgive those who trespass against us. And lead us not into temptation, but deliver us from the evil one.
+ar| أبانا الذي في السموات. ليتقدس اسمك. ليأت ملكوتك. لتكن مشيئتك. كما في السماء كذلك على الأرض. خبزنا كفافنا أعطنا اليوم. وأغفر لنا ذنوبنا كما نغفر نحن أيضا للمذنبين إلينا. ولا تدخلنا في تجربة. لكن نجنا من الشرير.
+
+@rubric
+en| The deacon inside the altar and the people outside exchange the following responses.
+ar| يتبادل الشماس داخل الهيكل والشعب خارجه هذه المردات.
+
+@people
+en| In Christ Jesus our Lord.
+ar| بالمسيح يسوع ربنا.
+
+@deacon
+en| Bow your heads to the Lord.
+ar| إحنوا رؤوسكم للربِ.
+
+@people
+en| Before You, O Lord
+ar| الشعب: أمامك يا رب.
+
+@deacon
+en| Let us attend in the fear of God. Amen.
+ar| أنصتوا بخوف الله. آمين.

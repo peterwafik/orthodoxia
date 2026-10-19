@@ -18,9 +18,11 @@ interface Props {
   canonicalPath?: string;
   /** A quiet one-line footer, for reading pages. */
   minimalFooter?: boolean;
+  /** The home page: the cards are the navigation, so the header keeps only the brand and the tools. */
+  simpleHeader?: boolean;
 }
 
-const { locale, title, description, alternates = {}, canonicalPath, minimalFooter = false } = Astro.props;
+const { locale, title, description, alternates = {}, canonicalPath, minimalFooter = false, simpleHeader = false } = Astro.props;
 const alternatePath = (other: Locale): string => alternates[other] ?? switchLocalePath(Astro.url.pathname, other);
 const strings = t(locale);
 const pageTitle = title === undefined ? strings.meta.siteName : `${title} | ${strings.meta.siteName}`;
@@ -59,7 +61,7 @@ const canonical = new URL(canonicalPath ?? Astro.url.pathname, Astro.site);
   </head>
   <body>
     <a class="skip-link" href="#content">{strings.a11y.skipToContent}</a>
-    <SiteHeader locale={locale} alternate={alternatePath(otherLocale(locale))} />
+    <SiteHeader locale={locale} alternate={alternatePath(otherLocale(locale))} simple={simpleHeader} />
     <main id="content" tabindex="-1">
       <slot />
     </main>

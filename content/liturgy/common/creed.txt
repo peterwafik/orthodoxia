@@ -1,0 +1,74 @@
+source: The Divine Liturgies of Saints Basil, Gregory and Cyril (Coptic, English and Arabic), Fr. Jacob Nadian, St. Bishoy Coptic Orthodox Church of Toronto, Stouffville, Ontario, Canada.
+source-ar: الثلاثة قداسات للقديسين باسيليوس واغريغوريوس وكيرلس (قبطي وإنجليزي وعربي)، الأب يعقوب نادين، كنيسة الأنبا بيشوي القبطية الأرثوذكسية بتورونتو، ستوفيل، أونتاريو، كندا.
+
+@priest
+en| Through the grace, compassion, and love of mankind, of Your only - begotten Son, our Lord, God and Savior Jesus Christ. Through w hom the glory, the honor, the dominion, and the worship are due unto You, with Him and the Holy Spirit, the Giver of Life, w ho is of one essence with You. N ow and at all times and unto the ages of all ages. Amen.
+ar| بالنعمة والرأفات ومحبة البشر اللواتي لابنك الوحيد ربنا وإلهنا ومخلصنا يسوع المسيح. هذا الذي من قبله المجد والإكرام والعزة والسجود تليق بك معه، مع الروح القدس المحيي المساوي لك. الآن وكل أوان وإلى دهر الدهور كلها. آمين.
+
+@rubric
+en| At the words ‘Through whom the glory... ” the priest again censes three times toward the East, then gives the censer to the deacon.
+ar| وعندما يقول " هذا الذي من قبله المجد... " يعطي البخور إلي الشرق ثلاث مرات، ثم يعطي المجمرة للشماس.
+
+@deacon
+en| In the wisdom of God, let us attend. Lord have mercy. Lord have mercy. Truly …
+ar| يقول الشماس: أنصتوا بحكمة الله، يارب ارحم، يارب ارحم. بالحقيقة...
+
+@deacon
+en| We believe in one God, God the Father, the Pantocrator, Who created heaven and earth, and all things, seen and unseen. We believe in one Lord Jesus Christ, the only - begotten Son of God, begotten of the Father before all ages. Light of light; true God of true God; begotten not created; of one essence with the Father; by Whom all things were made. Who, for us men and for our salvation, came down from heaven, and was incarnate of the Holy Spirit and of the Virgin Mary, and became man. And He was crucified for us under Pontius Pilate; suffered and was buried. And on the third day He rose from the dead, according to the scriptures. He ascended into the heavens and sat at the right hand of His Father; and He is coming again in His Glory to judge the living and the dead; Whose Kingdom shall have no end. Yes, we believe in the Holy Spirit, the Lord, the Giver of Life, Who proceeds from the Father; Who, with the Father and the Son, is worshipped and glorified; Who spoke by the prophets. And in one, holy, catholic (universal) and apostolic church, we confess one baptism for the remission of sins.
+ar| نؤمن بإله واحد، الله الآب، ضابط الكل، خالق السماء والأرض، ما يُرَى وما لا يرى. نؤمن برب واحد يسوع المسيح، ابن الله الوحيد، المولود من الآب قبل كل الدهور. نور من نور، إله حق من إله حق، مولود غير مخلوق، مساو للآب في الجوهر، الذي به كان كل شيء. هذا الذي من أجلنا نحن البشر، ومن أجل خلاصنا، نزل من السماء، وتجسد من الروح القدس ومن مريم العذراء، وتأنس. وصلب عنا على عهد بيلاطس البنطي، وتألم وقبر. وقام من بين الأموات في اليوم الثالث كما في الكتب. وصعد إلى السموات، وجلس عن يمين أبيه، وأيضا يأتي في مجده ليدين الأحياء والأموات، الذي ليس لملكه انقضاء. نعم نؤمن بالروح القدس، الرب المحيى المنبثق من الآب. نسجد له ونمجده مع الآب والابن، الناطق في الأنبياء. وبكنيسة واحدة مقدسة جامعة رسولية. ونعترف بمعمودية واحدة لمغفرة الخطايا.
+
+@rubric
+en| The congregation chants the following
+ar| ثم يرتل الشعب
+
+@deacon
+en| We look for the resurrection of the dead, and the life of the age to come. Amen.
+ar| وننتظر قيامة الأموات وحياة الدهر الآتي. أمين.
+
+@rubric
+en| Daring the above chant, the priest washes his hands three times at the north side of the sanctuary, saying the first time (inaudibly):
+ar| وفي أثناء تلحينها، يغسل الكاهن يديه في جانب المذبح البحري ثلاث مرات وهو يقول في المرة الأولي (سراً):
+
+@deacon
+en| Purge me with hyssop, and I shall be clean. Wash me, and I shall be whiter 7 50 7 5 1 than snow (Psalm 51: 7 - Psalm 50: 7 in Coptic copy).
+ar| تنضح على بزوفاك فأطهر، تغسلني فأبيض أكثر من الثلج (مزمور : - مزمور : في النسخة القبطية).
+
+@rubric
+en| The second time , he says :
+ar| وفي المرة الثانية يقول:
+
+@deacon
+en| Make me hear joy and gladness that the bones You 5 1 have broken may rejoice 8 5 0 8 (Psalm 50: 8 - Psalm 51: 8 in Coptic copy).
+ar| تسمعني سرورا وفرحا، فتبتهجً عظامي المنسحقة (مزمور : - مزمور : في النسخة القبطية).
+
+@rubric
+en| The third time , he says :
+ar| وفي المرة الثالثة يقول:
+
+@deacon
+en| I will wash my hands in innocence . So I will go about Your altar, O Lord . Alleluia (Psalm 25: 6 , 7 - 7 6 2 5 7 6 2 6 Psalm 26: 6 , 7 in Coptic copy ) .
+ar| اغسل يدي بالنقاوة واطوف بمذبحك يا رب لكي ما اسمع صوت تسبيحك. هلليلويا (مزمور : - - مزمور : - في النسخة القبطية).
+
+@rubric
+en| Now the priest turns toward the west, shakes the water off his hands before al l the peopte, then dries his hands with a clean towel.
+ar| ثم يلتقت إلي الغرب وينفض يديه أمام جميع الشعب وينشفها في ستر نظيف.
+
+@priest
+en| Pray.
+ar| صلوا.
+
+@deacon
+en| Stand up f or prayer.
+ar| للصلاة قفوا.
+
+@rubric
+en| The priest bows to the other priests, and turns to the west and signs the people with the sign of the cross once, saying:
+ar| ويخضع الكاهن لإخوته الكهنة ويلتفت إلي الغرب ويرشم رشماً واحداً وهو يقول:
+
+@priest
+en| Peace be with all.
+ar| السلام للكل.
+
+@people
+en| And with your spirit.
+ar| ولروحك ايضاً.

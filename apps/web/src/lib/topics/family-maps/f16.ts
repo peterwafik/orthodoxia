@@ -1,0 +1,42 @@
+import type { FamilyMap } from './types.ts';
+
+/** 16. Suffering, illness, grief, and recovery. */
+export const F16: FamilyMap = {
+  nave: {
+    'Suffering of the righteous': 'PERSECUTION>OF THE RIGHTEOUS',
+    'Suffering and faith': 'AFFLICTIONS AND ADVERSITIES>DESIGN OF|BENEFITS OF',
+    'Physical illness': 'DISEASE',
+    "God's comfort": 'AFFLICTIONS AND ADVERSITIES>CONSOLATION IN',
+    Grief: 'GRIEF',
+    'Mourning the departed': 'MOURNING',
+    'Suffering for Christ': 'SUFFERING>FOR CHRIST',
+    Martyrdom: 'MARTYRDOM',
+    'Trials and spiritual growth': 'AFFLICTIONS AND ADVERSITIES>BENEFITS OF',
+    'The suffering of Christ': 'SUFFERING>OF CHRIST',
+  },
+  passages: {
+    'Why does suffering exist?': 'Genesis 3:16–19; Romans 8:20–22; John 9:1–3; Romans 5:12',
+    'Suffering of the righteous': 'Psalm 34:19; Job 1–2; 2 Timothy 3:12; 1 Peter 3:14',
+    'Suffering and faith': '1 Peter 1:6–7; James 1:2–4; Romans 5:3–5; Hebrews 12:5–11',
+    'Physical illness': '2 Kings 20:1–7; Psalm 41:3; Matthew 8:14–17',
+    'Chronic suffering': '2 Corinthians 12:7–10; Psalm 38; Romans 8:18',
+    'Spiritual healing': 'Psalm 103:2–3; Isaiah 53:5; Psalm 147:3; Luke 4:18',
+    'Praying for healing': 'James 5:14–16; 2 Kings 20:1–6; Psalm 30:2',
+    "God's comfort": '2 Corinthians 1:3–4; Psalm 23:4; Isaiah 66:13',
+    'Mourning the departed': 'John 11:35; 1 Thessalonians 4:13–18; Genesis 23:1–2',
+    'Loss of a loved one': '2 Samuel 12:15–23; John 11:1–44; 1 Thessalonians 4:13–14; Psalm 116:15',
+    'Disability and human dignity': 'John 9:1–3; Exodus 4:11; 2 Samuel 9:1–13; Luke 14:12–14',
+    'Suffering and patience': 'James 5:7–11; Romans 5:3–4; Hebrews 10:36',
+    'Finding meaning in hardship': 'Romans 8:28; Genesis 50:20; 2 Corinthians 4:16–18; Hebrews 12:11',
+    "God's presence in pain": 'Psalm 34:18; Isaiah 43:2; Psalm 23:4; 2 Corinthians 1:5',
+    'Comforting the sick': 'Matthew 25:36; James 5:14–15; Job 2:11–13; Proverbs 12:25',
+    'Caring for the suffering': 'Luke 10:30–37; Matthew 25:35–40; Galatians 6:2; 2 Corinthians 1:4',
+    'Suffering for Christ': '1 Peter 4:12–16; Philippians 1:29; Matthew 5:10–12',
+    'Trials and spiritual growth': 'Romans 5:3–5; James 1:2–4; 1 Peter 1:6–7',
+    'The suffering of Job': 'Job 1–2; Job 42:10–17',
+    'The suffering of Christ': 'Isaiah 53; Psalm 22; 1 Peter 2:21–24',
+    'Death and resurrection hope': '1 Thessalonians 4:13–18; 1 Corinthians 15:51–58; John 11:25–26',
+    'Hope of eternal life': 'John 3:16; 1 Peter 1:3–4; Titus 1:2; Romans 6:23',
+    'Enduring with Christ': '2 Timothy 2:11–12; Romans 8:17; Philippians 3:10; 1 Peter 4:13',
+  },
+};

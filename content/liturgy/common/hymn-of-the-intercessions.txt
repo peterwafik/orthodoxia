@@ -1,0 +1,18 @@
+source: The Divine Liturgies of Saints Basil, Gregory and Cyril (Coptic, English and Arabic), Fr. Jacob Nadian, St. Bishoy Coptic Orthodox Church of Toronto, Stouffville, Ontario, Canada.
+source-ar: الثلاثة قداسات للقديسين باسيليوس واغريغوريوس وكيرلس (قبطي وإنجليزي وعربي)، الأب يعقوب نادين، كنيسة الأنبا بيشوي القبطية الأرثوذكسية بتورونتو، ستوفيل، أونتاريو، كندا.
+
+@rubric
+en| On weekdays of the Great Fast and during Jonah’s Fast, the following is chanted.
+ar| وفي أيام الصوم الكبير وصوم يونان يقولون.
+
+@priest
+en| You are the censer of pure gold: bearing the blessed ember.
+ar| أنت هي المجمرة الذهب النقي الحاملة جمر النار المبارك.
+
+@rubric
+en| Hymn of the Intercessions
+ar| لحن الهيتينيات
+
+@priest
+en| Through the intercessions: of the Mother of God: Saint Mary: O Lord, Grant us the forgiveness of our sins. Through the intercessions: of the seven archangels: and the heavenly orders: O Lord, Grant us the forgiveness of our sins. Through the intercessions: of the forerunner and baptizer: John the Baptist: O Lord, Grant us the forgiveness of our sins. Through the prayers: of my masters and fathers, the apo stles: and the rest of the disciples: O Lord, Grant us the forgiveness of our sins. Through the prayers: of the beholder of God, the evangelist: Mark the apostle: O Lord, Grant us the forgiveness of our sins. Through the prayers: of the blessed archdeacon: Stephen the first martyr: O Lord, Grant us the forgiveness of our sins. Through the prayers: of the struggle mantled martyr: my master King George: O Lord, Grant us the forgiveness of our sins. Through the prayers: of the struggle mantled martyr: Philopateer Mercurius: O Lord, Grant us the forgiveness of our sins. Through the prayers: of the struggle mantled martyr: Saint Abba Mena: O Lord, Grant us the forgiveness of our sins. Through the prayers, of my masters the fathers who loved their children, Abba Anthony and Abba Paul: O Lord, Grant us the forgiveness of our sins. Through the prayers, of my masters the fathers who loved their children, Abba Bishoy and Abba Paul: O Lord, Grant us the forgiveness of our sins. Through the prayers: of the saints of this day: each one according to his name: O Lord, Grant us the
+ar| بشفاعات والدة الإله القديسة مريم، يا رب أنعم لنا بمغفرة خطايانا. بشفاعات رؤساء الملائكة السبعة والطغمات السمائية. يا رب أنعم لنا بمغفرة خطايانا. بشفاعات السابق الصابغ يوحنا المعمدان. يا رب أنعم لنا بمغفرة خطايانا. بصلوات سادتي الآباء الرسل وبقية التلاميذ. يا رب أنعم لنا بمغفرة خطايانا. بصلوات ناظر الإله الإنجيلي مرقس الرسول. يا رب أنعم لنا بمغفرة خطايانا. بصلوات رئيس الشمامسة المبارك اسطفانوس أول الشهداء. يا رب أنعم لنا بمغفرة خطايانا. بصلوات المجاهد الشهيد سيدي الملك جيؤرجيوس. يا رب أنعم لنا بمغفرة خطايانا. بصلوات المجاهد الشهيد مرقوريوس محب الآب. يا رب أنعم لنا بمغفرة خطايانا. بصلوات المجاهد الشهيد القديس ابا مينا. يا رب انعم لنا بمغفرة خطايانا. بصلوات سيدي الأبوين محبي أولادهم، أنبا أنطونيوس وأنبا بولا، يا رب انعم لنا بمغفرة خطايانا. بصلوات سيدي الأبوين محبي أولادهم، أنبا بيشوي وأنبا بولا، يا رب انعم لنا بمغفرة خطايانا. بصلوات قديسي هذا اليوم كل واحد باسمه. يا رب أنعم لنا بمغفرة خطايانا.

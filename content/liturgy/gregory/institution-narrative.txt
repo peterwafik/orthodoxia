@@ -1,0 +1,206 @@
+source: The Divine Liturgies of Saints Basil, Gregory and Cyril (Coptic, English and Arabic), Fr. Jacob Nadian, St. Bishoy Coptic Orthodox Church of Toronto, Stouffville, Ontario, Canada.
+source-ar: الثلاثة قداسات للقديسين باسيليوس واغريغوريوس وكيرلس (قبطي وإنجليزي وعربي)، الأب يعقوب نادين، كنيسة الأنبا بيشوي القبطية الأرثوذكسية بتورونتو، ستوفيل، أونتاريو، كندا.
+
+@priest
+en| You have come to the slaughter as a lamb, even to the Cross. You have manifested the greatness of Your care for me. You have slain my sin in Your tomb. You have brought my first fruit up to heaven. You have shown me the manifestation of Your Coming. Wherein You shall come to judge the living and the dead, and give each one according to his deeds.
+ar| أتيت إلي الذبح مثل حمل، حتي إلي الصليب. أظهرت عظم اهتمامك بي. قتلت خطيتي بقبرك. أصعدت باكورتي إلي السماء. أظهرت لي إعلان مجيئك. هذا الذي تأتي فيه لتدين الأحياء والأموات، وتعطي كل واحد كأعماله.
+
+@people
+en| According to Your mercy, O Lord, and not according to our sins.
+ar| كـرحمتـك يا رب، وليس كخطايانا.
+
+@rubric
+en| The deacon presents the censer to the priest, who puts a spoonful of incense into it.
+ar| يقدم الشماس المجمرة إلي الكاهن فيضع فيها يد بخور.
+
+@priest
+en| I offer You, O my Master, the symbols of my freedom. I write my works according to Your sayings. You are He who has given me this service, full of mystery. You have given me the partaking of Your Flesh, in bread and wine.
+ar| اقدم لك يا سيدي مشورات حريتي. وأكتب أعمالي تبعاً لأقوالك. أنت الذي أعطيتني هذه الخدمة المملؤة سراً. أعطيتني إصعاد جسدك بخبزٍ وخمرٍ.
+
+@people
+en| We believe.
+ar| نؤمن.
+
+@rubric
+en| The priest censes his hands three times and says:
+ar| يبخر الكاهن يديه علي المجمرة ثلاث مرات ويقول:
+
+@priest
+en| For in the same night in which You gave Yourself up of Your own will and authority alone.
+ar| لأنك في اليلة التي سّلمت فيها ذاتك، بإرادتك وسلطانك وحدك.
+
+@rubric
+en| The priest lifts his hands from the censer, takes the bread in his hands, and removes the veil from the patten, while saying:
+ar| يرفع الكاهن يديه من علي المجمرة ويأخذ الخبز علي يديه ويرفع اللفافة من الصينية وهو يقول:
+
+@priest
+en| You took bread into Your holy hands, which are without spot or blemish, blessed, and life-giving.
+ar| أخذت خبزا علي يديك الطاهرتين، اللتين بلا عيب ولا دنس، الطوباويتين المحييتين.
+
+@people
+en| We believe that this is true. Amen.
+ar| نؤمن أن هذا هو بالحقيقة. آمين.
+
+@rubric
+en| The priest raises his eyes upward, and says:
+ar| يرفع الكاهن نظره إلي فوق ويقول:
+
+@priest
+en| You looked up towards heaven to God, who is Your Father and Master of everyone.
+ar| ونظرت إلي فوق، نحو السماء، إلي الله أبيك وسيد كل أحد.
+
+@rubric
+en| The priest makes the sign of the cross with his finger three times, and each time the people responds, saying, “Amen.” At the first signing, the priest says:
+ar| يرشم الكاهن الخبز بأصبعه ثلاثة رشوم وفي كل رشم يجاوبه الشعب قائلين "آمين". في أول رشم يقول الكاهن:
+
+@priest
+en| And when You had given thanks.
+ar| وشكرتَ.
+
+@people
+en| Amen.
+ar| آمين.
+
+@rubric
+en| And at the second signing:
+ar| وثاني رشم:
+
+@priest
+en| You blessed it. Pe ople: Amen.
+ar| وباركته. آمين.
+
+@rubric
+en| And at the third signing:
+ar| وثالث رشم:
+
+@priest
+en| You sanctified it.
+ar| وقدسته.
+
+@people
+en| Amen. We believe, we confess, and we glorify.
+ar| آمين. نؤمن ونعترف ونمجد.
+
+@rubric
+en| The priest breaks the oblation into a two - thirds and a one - third part, carefully, slightly, and without separating one part from the other, and without touching the Despotikon. The fraction must be made with his r ight thumb, and not with the nail. Making the fraction from the top to the bottom with the one - third part on his right and the two - thirds part on his left, he says:
+ar| ثم يقسم القربانة ثلثين وثلثاً بعناية من غير فصل بعضهما عن بعض. ومن غير أن يمس الاسباديقون. وتكون القسمة بإبهام يده اليمني وليس بالظفر. ويجعل القسمة من فوق إلي أسفل ويكون الثلث عن يمينه والثلثان عن يساره، وهو يقول:
+
+@priest
+en| You broke it, and gave it to Your own holy, honorable disciples and saintly apostles, saying: “Take, eat of it, all of you. For this is My Body,
+ar| وقسمته، وأعطيته لتلاميذك المكرمين القديسين ورسلك الأطهار قائلًا: "خذوا كلوا منه كلكم، لأن هذا هو جسدي.
+
+@rubric
+en| The priest slightly and gently breaks the top of the oblation with the tips of his fingers, without completely separating it. He places it in the paten, and cleans his hands inside the paten so that nothing of the oblation should adhere to them. He does this while saying:
+ar| هنا يفرق رأس القربانة من فوق قليلًا بأطراف أصابعه بعناية من غير فصل ويضعها في الصينية. وينظف يديه داخل الصينية لئلا يكون قد التصق بهما شيئ من القربانة، وهو يقول:
+
+@priest
+en| which is broken for you and for many, to be given for the remission of sins. This do in remembrance of Me.”
+ar| الذي يقسم عنكم وعن كثيرين، يعطي لمغفرة الخطايا، هذا اصنعوه لذكرى."
+
+@people
+en| This is true. Amen.
+ar| هذا هو بالحقيقة. آمين.
+
+@rubric
+en| The priest places his hand upon the rim of the chalice, and says:
+ar| يضع الكاهن يده علي حافة الكأس ويقول:
+
+@priest
+en| Likewise also, after they had supper, You took a cup and mixed it of the fruit of the vine and water.
+ar| هكذا أيضاً بعد أن أكلوا أخذتَ كأساً ومزجتها من ثمرة الكرمة والماء.
+
+@rubric
+en| The priest makes the sign of the cross on the chalice three times, and each time the people responds, saying, “Amen.” At the first signing, the priest says:
+ar| يرشم الكاهن الكأس ثلاثة رشوم وفي كل رشم يجاوبه الشعب قائلين "آمين". في أول رشم يقول الكاهن:
+
+@priest
+en| And when You had given thanks.
+ar| وشكرتَ.
+
+@people
+en| Amen.
+ar| آمين.
+
+@rubric
+en| And at the second signing:
+ar| وثاني رشم:
+
+@priest
+en| You blessed it.
+ar| وباركتها.
+
+@people
+en| Amen.
+ar| آمين.
+
+@rubric
+en| And at the third signing:
+ar| وثالث رشم:
+
+@priest
+en| You sanctified it.
+ar| وقدستها.
+
+@people
+en| Amen. Again, we believe, we confess, and we glorify.
+ar| آمين. وأيضاً نؤمن ونعترف ونمجد.
+
+@rubric
+en| The priest holds the chalice with his hands, saying:
+ar| يمسك الكاهن الكأس بيده ويقول:
+
+@priest
+en| You tasted and gave it also to Your own holy, honorable disciples and saintly apostles, saying:
+ar| وذقت وأعطيتها أيضاً لتلاميذك المكرمين القديسين ورسلك الأطهار قائلًا:
+
+@rubric
+en| The priest moves the chalice in the form of the cross, inclining it carefully first to the west, then to the East, to the north, and to the south, while saying:
+ar| يحرك الكأس مثال الصليب، أي يميلها باحتراس إلي الغرب أولًا ثم الشرق والشمال والجنوب، وهو يقول:
+
+@priest
+en| “T ake, drink of it all of you.
+ar| "خذوا اشربوا منه كلكم.
+
+@rubric
+en| The priest points with his hand to the chalice, and says:
+ar| ثم يشير بيديه إلي الكأس ويقول:
+
+@priest
+en| For this is My blood of the New Covenant, which is shed for you and for many, to be given for the remission of sins. This do in remembrance of Me.”
+ar| لأن هذا هو دمي الذي للعهد الجديد، الذي يُسفَك عنكم وعن كثيرين يعطي لمغفرة الخطايا. هذا اصنعوه لذكري."
+
+@people
+en| This is also true. Amen.
+ar| هذا هو أيضاً بالحقيقة. آمين.
+
+@rubric
+en| The priest points with his hand to the Body, saying:
+ar| يشير الكاهن بيديه إلي الجسد وهو يقول:
+
+@priest
+en| For every time you eat of this bread
+ar| لأن كل مرة تأكلون من هذا الخبز.
+
+@rubric
+en| The priest points with his hand to the chalice, and says:
+ar| ثم يشير بيديه إلي الكأس وهو يقول:
+
+@priest
+en| And drink of this cup,
+ar| وتشربون من هذه الكأس.
+
+@rubric
+en| The priest continues saying:
+ar| ثم يكمل قائلًا:
+
+@priest
+en| You proclaim My Death, confess My Resurrection, and remember Me till I come.
+ar| تبشرون بموتي وتعترفون بقيامتي وتذكروني إلي أن أجئ.
+
+@people
+en| Amen. Amen. Amen. Your death, O Lord, we proclaim. Your holy Resurrection and Ascension into the heavens, we confess. We praise You, we bless You, we thank You, O Lord, and we entreat You, O our God.
+ar| آمين. آمين. آمين. بموتك يا رب نبشر، وبقيامتك المقدسة وصعودك إلي السموات، نعترف. نسبحك، نباركك، نشكرك يا رب ونتضرع إليك يا إلهنا.
+
+@priest
+en| Therefore, O our Master, as we commemorate Your Coming to earth, Your life-giving Death, Your Burial for three days. Your Resurrection from the dead, Your Ascension into the heavens, Your Sitting at the right hand of Your Father, and Your Second Coming form the heavens, awesome and full of glory. we offer unto You Your gifts from what is Yours, for everything, concerning
+ar| فإذاً يا سيدنا فيما نحن نصنع ذكر نزولك علي الأرض، وموتك المحيي، وقبرك ثلاثة أيام. وقيامتك من الأموات، وصُعودك إلي السموات، وجلوسك عن يمين أبيك. وظهورك الثاني الآتي من السموات، المخوف المملوء مجداً. نقرب لك قرابينك من الذي لك، علي كل حال، ومن أجل كل حال وفى كل حال.

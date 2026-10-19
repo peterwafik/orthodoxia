@@ -1,0 +1,50 @@
+source: The Divine Liturgies of Saints Basil, Gregory and Cyril (Coptic, English and Arabic), Fr. Jacob Nadian, St. Bishoy Coptic Orthodox Church of Toronto, Stouffville, Ontario, Canada.
+source-ar: الثلاثة قداسات للقديسين باسيليوس واغريغوريوس وكيرلس (قبطي وإنجليزي وعربي)، الأب يعقوب نادين، كنيسة الأنبا بيشوي القبطية الأرثوذكسية بتورونتو، ستوفيل، أونتاريو، كندا.
+
+@priest
+en| Lead us throughout the way into Your kingdom, that as in this, so also in all things, Your Great and holy name be glorified, blessed and exalted in everything, honored and blessed with Jesus Christ, Your beloved Son, and the Holy Spirit. Peace be with You all.
+ar| واهدنا إلي ملكوتك. لكي وبهذا، كما أيضا في كل شئ، يتمجد ويتبارك، ويرتفع اسمك العظيم القدوس، في كل شئ، كريم ومبارك، مع يسوع المسيح ابنك الحبيب والروح القدس. السلام للكل.
+
+@people
+en| And with your spirit.
+ar| ولروحك أيضًا.
+
+@priest
+en| Again, let us give thanks to God the Pantocrator, the Father of our Lord, God, and Savior Jesus Christ. For He also has made us worthy now to stand in this Holy Place, to lift up our hands and to serve His holy name. Let us also ask Him to make us worthy of the communion and partaking of His divine and immortal mysteries.
+ar| وأيضا فلنشكر الله ضابط الكل، أبا ربنا وإلهنا ومخلصنا يسوع المسيح. لأنه جعلنا أهلا الآن ان نقف في هذا الموضع المقدس، ونرفع أيدينا إلي فوق، ونخدم اسمه القدوس. هو أيضا فلنسأله أن يجعلنا مستحقين لشركة واصعاد أسراره الإلهية غير المائتة.
+
+@people
+en| Amen.
+ar| الشعب: آمين.
+
+@rubric
+en| The priest takes the pure Body with his right hand and places It in his left hand, and places the index finger of his right hand on the Body at the side of the Despotikon, at the place of separation, and says:
+ar| يأخذ الكاهن الجسد الطاهر بيده اليمني ويضعه علي اليد اليسري، ويضع إصبعه السبابة اليمني علي الجسد بجانب الأسباديقون من المكان المقسوم، وهو يقول:
+
+@priest
+en| The holy body.
+ar| الجسد المقدس.
+
+@people
+en| We worship Your holy body.
+ar| نسجد لجسدك المقدس.
+
+@rubric
+en| The priest dips his finger into the precious Blood and then raises his finger a little from the Blood and makes one sign of the cross with it above the Blood within the chalice, while saying:
+ar| ثم يغمس إصبعه السبابة في الدم الكريم، ويرفعها قليلًا من الدم، ويرشم بها رشماً واحداً علي الدم داخل الكأس، وهو يقول:
+
+@priest
+en| And the precious blood.
+ar| والدم الكريم.
+
+@people
+en| and Your precious blood.
+ar| ولدمك الكريم.
+
+@rubric
+en| The priest signs the pure Body with the Blood which is on his finger, once on the front and once on the back of It, and says:
+ar| ثم يرشم الجسد بالدم الذي علي إصبعه رشماً فوق، ورشماً أسفل أي علي ظهره، ويقول:
+
+@priest
+en| of His Chri st, the Pantocrator, the Lord our God.
+ar| اللذين لمسيحه، الضابط الكل الرب إلهنا.

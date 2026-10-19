@@ -1,0 +1,61 @@
+source: The Divine Liturgies of Saints Basil, Gregory and Cyril (Coptic, English and Arabic), Fr. Jacob Nadian, St. Bishoy Coptic Orthodox Church of Toronto, Stouffville, Ontario, Canada.
+source-ar: الثلاثة قداسات للقديسين باسيليوس واغريغوريوس وكيرلس (قبطي وإنجليزي وعربي)، الأب يعقوب نادين، كنيسة الأنبا بيشوي القبطية الأرثوذكسية بتورونتو، ستوفيل، أونتاريو، كندا.
+
+@rubric
+en| incense before the door of the sanctuary. He then censes the gospel, the pope, the metropolitan or bishop, if any of them is present, and afterwards the priests and the people, in the inner choir only. As he cense the people, the priest says:
+ar| أحد منهم حاضرا، وللكهنة والشعب في الخورس الداخلي فقط، ويقول في أثناء بخور
+
+@priest
+en| A blessing of my masters and fathers the apostles, namely, our father Peter and our teacher Paul, and the rest of the disciples. May their holy blessings be with us. Amen.
+ar| بركة سادتي الآباء الرسل، أي أبينا بطرس ومعلمنا بولس وبقية التلاميذ، بركتهم المقدسة تكون معنا. آمين.
+
+@rubric
+en| Then the priest returns and stands before the door of the sanctuary and censes three times to the East, saying inaudibly the Prayer of the Confession of the people, (O God, who accepted the confession of the thief … ). Then the priest hands the censer to the deacon and makes a prostration to God. After the reading of the Acts, the Synaxarion is read.
+ar| ثم يعود إلي الهيكل ويقف أمامه ويقول سر اعتراف الشعب (يا الله الذي قبل إليه اعتراف اللص)... سرا ثم يناول المجمرة للشماس، ويسجد هلل. وبعد قراءة الابركسيس يقرأ السنكسار.
+
+@priest
+en| The Synaxarion
+ar| السنكسار
+
+@rubric
+en| In the name of the Father, the Son and the Holy Spirit. Amen. Today is the … day of the blessed month of …; may
+ar| بسم الآب والإبن والروح القدس الإله الواحد. آمين.
+
+@priest
+en| … …
+ar| اليوم ( ) من شهر ( ) أحسن الله (من
+
+@rubric
+en| God begi n/end it in goodness and renew it for us in peace
+
+@priest
+en| 30 16 15 1
+ar| - يقال) استقباله ( من - يقال)
+
+@rubric
+en| and tranquility, while our sins and iniquities are forg iven through the tender mercies of our Lord, O my fathers and my brethren. Amen. Hymn of the Trisagion
+ar| إنقضاءه وأعاده علينا وعليكم ونحن وانتم في هدوء وإطمئنان، مغفوري الخطايا والزلات، من قبل مراحم الرب يا آبائي وإخوتي آمين. لحن آجيوس
+
+@priest
+en| Holy God, holy Mighty, holy Immortal, who was born of the Virgin, have mercy on us. Holy God, holy Mighty, holy Immortal, who was crucified for us, have mercy on us. Holy God, holy Mighty, holy Immortal, who rose from the dead and ascended into the heavens, have mercy on us. Glory to the Father and to the Son and to the Holy Spirit, now and ever and unto the ages of the ages. Amen. O holy Trinity, have mercy upon us.
+ar| قدوس الله، قدوس القوى، قدوس الحي الذي لا يموت، الذي ولد من العذراء، ارحمنا. قدوس الله، قدوس القوى، قدوس الحي الذي لا يموت، الذي صلب عنا، ارحمنا. قدوس الله، قدوس القوى، قدوس الحي الذي لا يموت، الذي قام من الأموات وصعد إلى السموات، ارحمنا. المجد للآب والابن والروح القدس، الآن وكل اوان وإلي دهر الدهور كلها. آمين. أيها الثالوث القدوس، ارحمنا.
+
+@rubric
+en| Then the priest, taking the censer, stands before the door of the sanctuary and says:
+ar| ثم يأخذ الكاهن المجمرة ويقف أمام باب الهيكل ويقول:
+
+@priest
+en| Pray.
+ar| صلوا.
+
+@deacon
+en| Stand up for prayer.
+ar| للصلاة قفوا.
+
+@priest
+en| Peace be with all.
+ar| السلام للكل.
+
+@people
+en| And with your spirit.
+ar| الشعب: ولروحك ايضاً.

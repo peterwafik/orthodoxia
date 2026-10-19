@@ -1,0 +1,34 @@
+source: The Divine Liturgies of Saints Basil, Gregory and Cyril (Coptic, English and Arabic), Fr. Jacob Nadian, St. Bishoy Coptic Orthodox Church of Toronto, Stouffville, Ontario, Canada.
+source-ar: الثلاثة قداسات للقديسين باسيليوس واغريغوريوس وكيرلس (قبطي وإنجليزي وعربي)، الأب يعقوب نادين، كنيسة الأنبا بيشوي القبطية الأرثوذكسية بتورونتو، ستوفيل، أونتاريو، كندا.
+
+@rubric
+en| Hymn “ = Through the intercessions of the Theotokos ”
+ar| لحن بشفاعات والدة الإله
+
+@people
+en| Through the intercessions of the Theotokos, Saint Mary, O Lord, grant us the forgiveness of our sins. We worship You, O Christ, with Your good Father and the Holy Spirit, for you have come (risen) and saved us. Have mercy on us. A mercy of peace, a sacrifice of praise.
+ar| بشفاعات والدة الإله القديسة مريم، يا رب انعم لنا بمغفرة خطايانا. نسجد لك أيها المسيح، مع أبيك الصالح والروح القدس، لأنك أتيت (قمت) وخلصتنا. ارحمنا. رحمة السلام، ذبيحة التسبيح.
+
+@rubric
+en| The priest transfers to his left hand the veil which he is holding, and he takes in his right hand the veil which is upon the oblation, and with it he makes the following three signs of the cross while keeping the two veils in his hands.
+ar| ثم يضع الكاهن اللفافة التي معه علي يده اليسري. ويأخذ بيده اليمني اللفافة التي علي القربانة ويرشم بها الثلاثة الرشوم الآتية. وبعد ذلك يبقي اللفافتين علي يديه.
+
+@people
+en| The Anaphora
+ar| الأنافورا
+
+@rubric
+en| T ur ning to the west, the priest signs the people once with the sign of the cross, saying:
+ar| يرشم الكاهن الشعب غرباً رشماً واحداً بمثال الصليب وهو يقول:
+
+@priest
+en| The Lord be with you all.
+ar| الرب مع جميعكم.
+
+@people
+en| And with your spirit.
+ar| ومع روحك أيضاً.
+
+@rubric
+en| The priest signs the deacons on his right onc e with the sign of the cross, saying:
+ar| يرشم الكاهن الخدام عن يمينه رشماً واحداً وهو يقول:

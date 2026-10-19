@@ -1,0 +1,187 @@
+source: The Divine Liturgies of Saints Basil, Gregory and Cyril (Coptic, English and Arabic), Fr. Jacob Nadian, St. Bishoy Coptic Orthodox Church of Toronto, Stouffville, Ontario, Canada.
+source-ar: الثلاثة قداسات للقديسين باسيليوس واغريغوريوس وكيرلس (قبطي وإنجليزي وعربي)، الأب يعقوب نادين، كنيسة الأنبا بيشوي القبطية الأرثوذكسية بتورونتو، ستوفيل، أونتاريو، كندا.
+
+@priest
+en| that we may become one body, and one spirit, and may have a share and an inheritance with all the saints who have pleased You since the beginning.
+ar| لكي نكون جسداً واحدا، وروحاًً واحدا، ونجد نصيباًً وميراثاً مع جميع القديسين الذين أرضوك منذ البدء.
+
+@priest
+en| Remember, O Lord, the peace of Your one, only, holy, catholic, and Apostolic Church.
+ar| أذكر يا رب سلام كنيستك الواحدة، الوحيدة المقدسة، الجامعة الرسولية.
+
+@deacon
+en| Pray for the peace of the one, holy, catholic, and apostolic Orthodox Church of God.
+ar| صلوا من اجل سلام الواحدة المقدسة الجامعة الرسولية، كنيسة الله الارثوذكسية.
+
+@people
+en| Lord have mercy.
+ar| يا ربُ إرحم.
+
+@priest
+en| This, which You have acquired to Yourself with the precious Blood of Your Christ. Keep her in peace, with all the orthodox bishops who are in her. Foremost remember, O Lord, our blessed and honored father, the archbishop our patriarch, Abba ( … ). And his spiritual brothers the Patriarch of Antioch Mar Ignatius (…) and the Patriarch of Eritrea Abouna (…)
+ar| هذه التي اقتنيتها لك بالدم الكريم الذي لمسيحك. احفظها بسلام، وكل الأساقفة الأرثوذكسيين الذين فيها. وأولًا اذكر يا رب بطريركنا الأب المكرم رئيس الكهنة أنبا (....) وأخويه الروحيين مار أغناطيوس )...( بطريرك أنطاكية وأبونا )...( بطريرك أريتريا.
+
+@rubric
+en| In the presence of a metropolitan or a bishop, the following is added:
+ar| في وجود مطران أو أسقفً:
+
+@priest
+en| And his partner in the liturgy, our father the metropolitan (bishop), Abba (…)
+ar| وشريكه في الخدمة أبينا المطران (الأسقف) المكرم الأنبا (...)
+
+@deacon
+en| Pray for our high priest, Papa Abba (…) , pope and patriarch and archbishop of the great city of Alexandria, and his spiritual brothers the Patriarch of Antioch Mar Ignatius (…) and the Patriarch of Eritrea Abouna (…)
+ar| صلوا من أجل رئيس كهنتنا البابا أنبا )...( ، بابا وبطريرك ورئيس أساقفة المدينة العظمي الإسكندرية، وأخويه الروحيين مار أغناطيوس )...( بطريرك أنطاكية وأبونا )...( بطريرك أريتريا.
+
+@rubric
+en| If a metropolitan (bishop) is present:
+ar| في وجود مطران أو أسقفً:
+
+@deacon
+en| And his partner in the liturgy, our father the metropolitan (bishop), Abba (…) .
+ar| وشريكه في الخدمة أبينا المطران (الأسقف) المكرم الأنبا (...).
+
+@rubric
+en| .
+
+@rubric
+en| Then he concludes:
+ar| ثم يكمل:
+
+@deacon
+en| And for our orthodox bishops.
+ar| وسائر أساقفتنا الأرثوذكسيين.
+
+@people
+en| Lord have mercy.
+ar| يا ربُ إرحم.
+
+@priest
+en| And those who rightly divide the word of truth with him, grant them unto Your holy church to shepherd Your flock in peace. Remember, O Lord, the orthodox hegumens, priests, and deacons.
+ar| والذين يفصلون معه كلمة الحق باستقامة. أنعم بهم علي كنيستك المقدسة يرعون قطيعك بسلام. أذكر يا رب القمامصة، والقسوس الأرثوذكسيين والشمامسة.
+
+@deacon
+en| Pray for the hegumens, priests, deacons, subdeacons, and the seven orders of the Church of God.
+ar| صلوا من أجل القمامصة والقسوس والشمامسة والايبوذياكونيين، وسبع طغمات كنيسة الله.
+
+@people
+en| Lord have mercy.
+ar| يا ربُ إرحم.
+
+@priest
+en| And all the servants and all who are in virginity, and the purity of all Your faithful people. Remember, O Lord, to have mercy upon us all*.
+ar| وكل الخدام، وكل الذين في البتولية وطهارة كل شعبك المؤمن. أذكر يا رب أن ترحمنا كلنا معا*.
+
+@rubric
+en| * To be said by the pope, a metropolitan or a bishop, if present.
+ar| * يقولها الأب البابا أو المطران أو الأسقف، إذا كان حاضراً.
+
+@people
+en| Have mercy upon us, O God, the Father, the Pantocrator.
+ar| ارحمنا يا الله الآب، ضابط الكل.
+
+@priest
+en| Remember, O Lord, the salvation of this, Your holy place, and every place, every monastery of our orthodox fathers.
+ar| اذكر يا رب خلاص هذا الموضع المقدس الذي لك، وكل المواضع، وكل أديرة آبائنا الأرثوذكسيين.
+
+@deacon
+en| Pray for the salvation of the world and of this city of ours* and of all cities, districts, islands, and monasteries. * “This monastery of ours” is said in the monasteries instead of “this city of ours”
+ar| صلوا من أجل خلاص العالم، ومدينتنا هذه *، وسائر المدن والأقاليم والجزائر والأديرة. * في الأديرة يقال "وديرنا هذا" بدلًا من " ومدينتنا هذه."
+
+@people
+en| Lord have mercy.
+ar| يا ربُ إرحم.
+
+@priest
+en| And those who dwell therein in God’s faith.
+ar| والساكنين فيها بإيمان الله.
+
+@rubric
+en| The priest says the appropriate prayer according to the season, either the Litany of the Waters, the Litany of the Plants, or the Litany of the Fruits.
+ar| هنا يقول الكاهن ما يوافق الوقت من أوشية المياه أو أوشية الزروع أو أوشية الثمار.
+
+@priest
+en| 19 9 12
+ar| من بؤونة إلي بابة ( يونية إلي
+
+@rubric
+en| From Paoni 12 to Paapi 9 (June 19 to October 19/20,
+
+@priest
+en| 20 19
+ar| / أكتوبر) يقول أوشية المياه هذه.
+
+@rubric
+en| the Litany of the Waters is said:
+
+@priest
+en| Graciously accord, O Lord to bless the waters of the river this year.
+ar| تفضل يا رب مياه النهر في هذه السنة، باركها.
+
+@deacon
+en| Pray for the rising of the waters of the rivers this year, that Christ our God may bless them and raise them according to their measure, that He may give joy to the face of the earth, sustain us, the sons of men, save the cattle, and forgive us our sins.
+ar| اطلبوا عن صعود مياه الأنهار في هذه السنة لكي يباركها المسيح إلهنا ويصعدها كمقدارها ويفرح وجه الأرض ويعولنا نحن البشر ويعطي النجاة للبهائم ويغفر لنا خطايانا.
+
+@people
+en| Lord have mercy. Lord have mercy. Lord have mercy.
+ar| يا رب إرحم. يا رب إرحم. يا رب إرحم.
+
+@rubric
+en| From Paapi 10 to Tobi 10 ( October 20/21 to January 21 20 10 10 18/19 ) , the Litany of the Plants is said : 19 18
+ar| ومن بابة إلي طوبة ( / أكتوبر إلي / يناير) يقول أوشية الزروع.
+
+@priest
+en| Graciously accord, O Lord to bless the seeds, the herbs, and the plants of the field this year.
+ar| تفضل يا رب الزروع والعشب ونبات الحقل في هذه السنة، باركها.
+
+@deacon
+en| Pray for the seeds, the herbs, and the plants of the field this year, that Christ our God may bless them to grow and multiply to perfection with great fruit, have compassion on His creation which His Hands have made, and forgive us our sins.
+ar| اطلبوا عن الزروع والعشب ونبات الحقل في هذه السنة، لكي يباركها المسيح إلهنا، لتنمو وتكثر إلي أن تكمل بثمرة عظيمة، ويتحنن علي جبلته التي صنعتها يداه، ويغفر لنا خطايانا.
+
+@people
+en| Lord have mercy. Lord have mercy. Lord have mercy.
+ar| يا رب إرحم. يا رب إرحم. يا رب إرحم.
+
+@rubric
+en| From Tobi 11 to Paoni 11 (January 19/20 to June 18 ) , 20 19 11 11 the Litany of the Fruits is said : 18
+ar| ومن طوبة إلي بؤونة ( / يناير إلي يونية)، يقول أوشية الثمار.
+
+@priest
+en| Graciously accord, O Lord to bless the air of heaven and the fruits of the earth this year .
+ar| تفضل يا رب أهوية السماء وثمرات الأرض في هذه السنة، باركها.
+
+@deacon
+en| Pray for the air of heaven, the fruits of the earth, the trees , the vines, and for every fruit - bearing tree in all the world, that Christ our God may bless them, bring them to perfection in peace without harm , and forgi ve us our sins.
+ar| اطلبوا عن أهوية السماء وثمرات الأرض والشجر والكروم، وكل شجرة مثمرة في كل المسكونة، لكي يباركها المسيح إلهنا، ويكملها سالمة بغير آلم، ويغفر لنا خطايانا.
+
+@people
+en| Lord have mercy. Lord have mercy. Lord have mercy.
+ar| يا رب إرحم. يا رب إرحم. يا رب إرحم.
+
+@rubric
+en| The three litanies may be combined as follows :
+ar| ويمكن أن يقال الثلاثة أواشي معا.
+
+@priest
+en| Graciously accord, O Lord , to bless the air of heaven and the fruits of the earth, the waters of the rivers , the seeds, the herbs, and the plants of the field this y ear .
+ar| تفضل يا رب أهوية السماء وثمرات الأرض ومياه النهر والزروع والعشب ونبات الحقل في هذه السنة، باركها.
+
+@deacon
+en| Pray for the air of heaven, the fruits of the earth, the rising of the waters of the rivers, the seeds, the herbs, and the plants of the field, that Christ our God may bless them, have compassion on His creat ion which His h ands have made, and forgive us our sins.
+ar| اطلبوا عن أهوية السماء وثمرات الأرض وصعود مياه الأنهار والزروع والعشب ونبات الحقل في هذه السنة لكي يباركها المسيح إلهنا ويتحنن على جبلته التي صنعتها يداه ويغفر لنا خطايانا.
+
+@people
+en| Lord have mercy. Lord have mercy. Lord have mercy.
+ar| يا رب إرحم. يا رب إرحم. يا رب إرحم.
+
+@rubric
+en| After any one of these three litanies, or the combined litany, the priest continues with the following:
+ar| وبعد كل أوشية من هذه الثلاثة، أو الاوشية الموحدة، يكمل الكاهن قائلًا:
+
+@priest
+en| Raise them to their measure according to Your grace. Give joy to the face of the earth. May its furrows be abundantly watered and its fruits be plentiful. Prepare it for sowing and harvesting. Manage our lives as deemed fit. Bless the crown of the year with Your goodness for the sake of the poor of Your people, the widow, the orphan, the traveler, the stranger, and for the sake of us all who entreat You and seek Your Holy Name. For the eyes of everyone wait upon You, for You give them their food in due season. Deal with us according to Your goodness, O You who give food to all flesh. Fill our hearts with joy and gladness that we too, having sufficiency in every thing always, may abound in every good deed.
+ar| اصعدها كمقدارها كنعمتك، فرح وجه الأرض ليرو حرثها ولتكثر أثمارها. أعدها للزرع والحصاد، ودبر حياتنا كما يليق. بارك اكليل السنة بصلاحك من أجل فقراء شعبك، من أجل الارملة واليتيم، والغريب والضيف، ومن أجلنا كلنا نحن الذين نرجوك ونطلب اسمك القدوس. لأن أعين الكل تترجاك، لأنك أنت الذي تعطيهم طعامهم في حين حسن. اصنع معنا حسب صلاحك، يا معطيا طعاما لكل جسد. املأ قلوبنا فرحا ونعيم، لكي نحن أيضا إذ يكون لنا الكفاية في كل شئ، كل حين نزداد في كل عمل صالح.
+
+@people
+en| Lord have mercy.
+ar| يا ربُ إرحم.

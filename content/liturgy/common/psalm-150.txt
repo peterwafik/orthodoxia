@@ -1,0 +1,61 @@
+source: The Divine Liturgies of Saints Basil, Gregory and Cyril (Coptic, English and Arabic), Fr. Jacob Nadian, St. Bishoy Coptic Orthodox Church of Toronto, Stouffville, Ontario, Canada.
+source-ar: الثلاثة قداسات للقديسين باسيليوس واغريغوريوس وكيرلس (قبطي وإنجليزي وعربي)، الأب يعقوب نادين، كنيسة الأنبا بيشوي القبطية الأرثوذكسية بتورونتو، ستوفيل، أونتاريو، كندا.
+
+@people
+en| Blessed is He who comes in the name of the Lord.
+ar| مبارك الآتي باسم رب.
+
+@rubric
+en| A fter all have communion, t he priest retu rns to the altar and, with the paten, makes the sign of the cross on the people again, whil e saying:
+ar| وبعدما يتناول الجميع، يعود الكاهن إلي المذبح ويرشم الشعب بالصينية وهو يقول:
+
+@priest
+en| The holy B ody and the precious, true B lood of Jesus Christ, the Son of our God. Amen.
+ar| جسد مقدس، ودم كريم حقيقي، ليسوع المسيح ابن إلهنا. آمين.
+
+@rubric
+en| Then he places the paten on the altar and consumes, together with the s ervants, what remains of the holy Body. Again, after all have been given communion from the precious Blood, the priest distributes and consumes what remains in the chalice. Then he washes the vessels, drinking the washing water and giving it also to the se rvants. During the distribution of the Holy Mysteries, the
+ar| ثم يضع الصينية علي المذبح، ويتناول مع الخدام ما يتبقي من الجسد المقدس. وأيضاً بعدما يتناول الجميع من الدم الكريم، فإن الكاهن يوزع ويشرب ما يتبقي في الكأس. ثم يغسل الأواني ويشرب ماء الغسيل، معطياً أيضاً للخدام. وفي أثناء التناول، يقول الشعب المزمور
+
+@priest
+en| 150
+
+@rubric
+en| people chant Psalm 150.
+ar| التالي:
+
+@priest
+en| Psalm 150 150
+ar| المزمور
+
+@people
+en| Alleluia.Praise God in all His saints. Alleluia. Praise Him in the firmament of His power. Alleluia. Praise Him for His mighty acts. Alleluia. Praise Him according to the multitudes of His greatness. Alleluia. Praise Him with the sound of the trumpet. Alleluia. Praise Him with psaltery and harp. Alleluia. Praise Him with timbrels and choruses. Alleluia. Praise Him with strings and organs. Alleluia. Praise Him with pleasant sounding cymbals. Alleluia. Praise Him with cymbals of joy. Alleluia. Let every thing that has breath praise the name of the Lord our God. Alleluia. Glory be to the Father, and the Son and the Holy Spirit. Alleluia. Now and forever and unto the age of all ages Amen. Alleluia. Alleluia, Alleluia, glory to You, our God. Alleluia. Alleluia, Alleluia, glory be to our God. Alleluia. O Jesus Christ, the Son of God, hear us and have mercy upon us.
+ar| هلليلويا. سبحوا الله في جميع قديسيه. هلليلويا. سبحوه في جلد قوته. هلليلويا. سبحوه على مقدرته. هلليلويا. سبحوه ككثرة عظمته. هلليلويا. سبحوه بصوت البوق. هلليلويا. سبحوه بالمزمار والقيثار. هلليلويا. سبحوه بدفوف وصفوف. هلليلويا. سبحوه بأوتار وأرغن. هلليلويا. سبحوه بصنوج حسنة الصوت. هلليلويا. سبحوه بصنوج التهليل. هلليلويا. كل نسمة فلتسبح اسم الرب الهنا. هلليلويا. المجد للآب والابن والروح القدس. هلليلويا. الآن وكل أوان وإلى دهر الداهرين كلها. آمين. هلليلويا. هلليلويا. هلليلويا. المجد لك يا إلهنا. هلليلويا. هلليلويا. هلليلويا. المجد هو لإلهنا. هلليلويا. يا يسوع المسيح ابن الله، إسمعنا وإرحمنا.
+
+@rubric
+en| The people continue wi th what is appropriate for the day, followed by:
+ar| ويكملون حسبما يوافق اليوم. ثم يقال:
+
+@people
+en| Blessed be the Father, and the Son, and the Holy Spirit, the Perfect Trinity, we worship Him and glorify Him.
+ar| لأنه مبارك الآب والابن والروح القدس، الثالوث الكامل، نسجد له ونمجده.
+
+@rubric
+en| Or the follow ing :
+ar| أو يقال:
+
+@people
+en| Blessed are You indeed, with Your good Father and the Holy Spirit, for Y ou have come (risen) and saved us. Have mercy on us.
+ar| مبارك أنت بالحقيقة مع أبيك الصالح والروح القدس، لأنك أتيت (قمت) وخلصتنا. ارحمنا.
+
+@rubric
+en| If the distribution of the Holy Mysteries is not yet completed, a hymn, or the following is during annual days: Hymn “ = The Bread of Life ”
+ar| وإذا لم ينته التوزيع في أثناء ذلك فتقال مديحة أو تقال أيضاً هذه القطعة في الأيام السنوي:
+
+@people
+en| "
+ar| لحن " خبز الحياة
+
+@people
+en| The Bread of life, which came down for us from heaven, has given life to the world. And you too, O Mary, have borne in your womb the rational Manna, which came from the Father. You have brought Him forth without blemish. He gave us His Body and His precious Blood, and we live forever. Around You stand the Cherubim, and the Seraphim, and they cannot look at You. We behold You daily upon the Altar, and we partake of Your Body and Your precious Blood. Therefore we exalt you befittingly, with prophetic hymnology. For they spoke of you with great honor, O Holy City of the great King. We entreat and pray that we may win mercy through your intercession with the Lover of Mankind. Through the intercessions of the Theotokos Saint Mary, O Lord, grant us the forgiveness of our sins. Through the intercessions of the holy archangels Michael and Gabriel, O Lord, grant us the forgiveness of our sins.
+ar| خبز الحياة الذى نزل لنا من السماء، وهب الحياة للعالم. وأنتِ أيضاُ يا مريم حملتِ فى بطنك المن العقلى الذى أتى من الآب. ولدته بغير دنس، وأعطانا جسده ودمه الكريم فحيينا الى الأبـد. يقوم حولك الشاروبيم والسارافيم ولا يستطيعون أن ينظروك. ونحن ننظرك كل يوم على المذبح، ونتناول من جسدك ودمك الكريم. من أجل هذا نعظمك بإستحقاق بتماجيد نبوية. لانهم تكلموا من أجلك بأعمال كريمة، أيتها المدينة المقدسة التى للملك العظيم. نسأل ونطلب أن نفوز برحمة، بشفاعتك عند محب البشر. بشفاعات والدة الاله القديسة مريم، يا رب أنعم لنا بغفران خطايانا. بشفاعات رئيسى الملائكة الطاهرين ميخائيل وغبريال، يا رب أنعم لنا بغفران خطايانا.

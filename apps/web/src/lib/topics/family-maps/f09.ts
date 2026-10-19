@@ -1,0 +1,42 @@
+import type { FamilyMap } from './types.ts';
+
+/** 9. Prayer and personal relationship with God. */
+export const F09: FamilyMap = {
+  nave: {
+    'What is prayer?': 'PRAYER>UNCLASSIFIED SCRIPTURES RELATING TO',
+    'Prayer of repentance': 'PRAYER>CONFESSION IN',
+    'Prayer of intercession': 'INTERCESSION',
+    'Prayer for others': 'INTERCESSION',
+    'Persistent prayer': 'PRAYER>IMPORTUNITY IN',
+    'Worship and adoration': 'WORSHIP',
+    'Fasting and prayer': 'FASTING',
+    "God's response to prayer": 'PRAYER>ANSWER TO, PROMISE|ANSWERED',
+  },
+  passages: {
+    'How to pray': 'Matthew 6:5–13; Luke 11:1–13; Philippians 4:6–7',
+    "The Lord's Prayer": 'Matthew 6:9–13; Luke 11:1–4',
+    'Prayer of thanksgiving': 'Philippians 4:6; Colossians 4:2; 1 Thessalonians 5:17–18; Psalm 100',
+    'Prayer of repentance': 'Psalm 51; Luke 18:13; Daniel 9:3–19',
+    'Prayer for others': 'James 5:16; 1 Timothy 2:1–4; Ephesians 6:18',
+    'Prayer for enemies': 'Matthew 5:44; Luke 6:27–28; Luke 23:34; Acts 7:60',
+    'Prayer during suffering': 'Psalm 142; James 5:13; Hebrews 5:7; 2 Corinthians 12:7–9',
+    'Prayer for healing': 'James 5:14–16; 2 Kings 20:1–6; Psalm 6:2; Psalm 30:2',
+    'Prayer for guidance': 'Proverbs 3:5–6; James 1:5; Psalm 25:4–5; Psalm 143:8',
+    'Prayer of surrender': 'Luke 22:42; Matthew 6:10; Psalm 31:5',
+    'Silent prayer': '1 Samuel 1:12–13; Psalm 62:1; Psalm 4:4; Matthew 6:6',
+    'Private prayer': 'Matthew 6:6; Mark 1:35; Luke 5:16; Daniel 6:10',
+    'Corporate prayer': 'Acts 1:14; Acts 2:42; Matthew 18:19–20; Acts 12:5; Acts 4:24–31',
+    'Praying the Psalms': 'Luke 24:44; Acts 4:24–26; Ephesians 5:19; Colossians 3:16',
+    'Fasting and prayer': 'Acts 13:2–3; Acts 14:23; Luke 2:37; Ezra 8:23',
+    'Unanswered prayers': '2 Corinthians 12:7–9; James 4:3; Psalm 22:1–2; Matthew 26:39; Isaiah 59:1–2',
+    "Praying according to God's will": '1 John 5:14–15; Matthew 6:10; James 4:15; Romans 8:26–27',
+    'Prayer and faith': 'Mark 11:24; James 1:6; Matthew 21:22; Hebrews 11:6',
+    'Prayer and repentance': '2 Chronicles 7:14; Luke 18:9–14; Psalm 51',
+    'Prayer and spiritual warfare': 'Ephesians 6:18; Matthew 26:41; Mark 9:29; Luke 22:31–32',
+    'Prayer for spiritual growth': 'Ephesians 1:17–19; Ephesians 3:14–19; Philippians 1:9–11; Colossians 1:9–12',
+    'Thanksgiving after answered prayer': '1 Samuel 1:27–2:1; Psalm 116:1–2; Luke 17:15–16; Psalm 34:4',
+    'Praying continuously': '1 Thessalonians 5:17; Luke 18:1; Ephesians 6:18; Colossians 4:2',
+    "Jesus' prayers": 'Luke 5:16; Luke 6:12; Mark 1:35; John 17; Matthew 26:36–44; Luke 23:34; John 11:41–42',
+    'Biblical examples of prayer': '1 Samuel 1:10–20; 1 Kings 18:36–38; 2 Chronicles 20:5–12; Nehemiah 1:4–11; Acts 4:24–31',
+  },
+};

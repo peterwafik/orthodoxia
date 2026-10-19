@@ -14,10 +14,11 @@
     "packages/*"
   ],
   "scripts": {
-    "dev:web": "npm run bible && node scripts/holy-mass/tiles.ts && npm run dev -w apps/web",
+    "dev:web": "npm run bible && npm run liturgy && npm run dev -w apps/web",
     "dev:explorer": "npm run dev -w apps/explorer",
     "bible": "node scripts/bible/fetch.ts && node scripts/bible/build.ts",
     "bible:update": "node scripts/bible/fetch.ts --update && node scripts/bible/build.ts",
+    "liturgy": "node scripts/liturgy/build.ts",
     "validate:content": "node scripts/validate-content.ts",
     "check": "npm run bible && npm run check -w apps/explorer && npm run check -w packages/content-schema && npm run check -w packages/bible && npm run check -w packages/commentary && npm run check -w apps/web && npm run validate:content",
     "build": "node scripts/build-site.ts",
@@ -28,7 +29,7 @@
     "translate:merge": "node scripts/commentary/translate-merge.ts",
     "malaty:fetch": "node scripts/commentary/malaty-fetch.ts",
     "malaty:build": "node scripts/commentary/malaty-build.ts",
-    "holymass:tiles": "node scripts/holy-mass/tiles.ts"
+    "topics": "node scripts/topics/fetch.ts && node scripts/topics/build.ts"
   },
   "devDependencies": {
     "@types/node": "^24.13.6",

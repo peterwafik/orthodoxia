@@ -1,0 +1,50 @@
+source: The Divine Liturgies of Saints Basil, Gregory and Cyril (Coptic, English and Arabic), Fr. Jacob Nadian, St. Bishoy Coptic Orthodox Church of Toronto, Stouffville, Ontario, Canada.
+source-ar: الثلاثة قداسات للقديسين باسيليوس واغريغوريوس وكيرلس (قبطي وإنجليزي وعربي)، الأب يعقوب نادين، كنيسة الأنبا بيشوي القبطية الأرثوذكسية بتورونتو، ستوفيل، أونتاريو، كندا.
+
+@priest
+en| Lift up your hearts.
+ar| إرفعوا قلوبكم.
+
+@people
+en| We have them with the Lord.
+ar| هي عند الرب.
+
+@rubric
+en| The priest signs himself once with the sign of the cross, saying:
+ar| ثم يرشم الكاهن ذاته رشماً واحداً وهو يقول:
+
+@priest
+en| Let us give thanks to the Lord.
+ar| فلنشكر الرب.
+
+@people
+en| It is meet and right.
+ar| مستحقٌ وعادل.
+
+@priest
+en| Meet and right, meet and right, truly indeed, it i s meet and right. O You, The Being , Master, Lord, God of Truth, being before the ages and reigning forever. Who dwell s in the highest and look upon the lowly; who have created the heaven, the earth, the sea, and all that is therein. The Father of our Lord, God, and Savior Jesus Christ. By whom You have created all things, visible and invisible. Who sits upon the throne of His glory; and who is worshipped by all the holy powers.
+ar| مستحقٌ وعادل، مستحقٌ وعادل، لأنه حقاً بالحقيقة مستحقٌ وعادل. أيها الكائن السيد الرب الإله الحق. الكائن قبل الدهور والمالك إلي الأبد. الساكـن في الأعالي والناظر إلي المتواضعات. الـذي خلق السماء والأرض والبحر وكل ما فيها. أبو ربنا وإلهنا ومخلصنا يسوع المسيح. هذا الذي خلقت الكل به، ما يري وما لا يري. الجالس علي كرسى مجده، المسجود له من جميع القوات المقدسة.
+
+@deacon
+en| You who are seated, stand.
+ar| أيها الجلوس قفوا.
+
+@priest
+en| Before whom stand the angels, the archangels, the principalities, the authorities, the thrones, the dominions, and the powers.
+ar| الذي يقف أمامه الملائكة ورؤساء الملائكة، والرئاسات والسلطات والكراسى، والربوبيات والقوات.
+
+@deacon
+en| Look towards the East.
+ar| الشماس: وإلي الشرق أنظروا.
+
+@priest
+en| You are He around whom stand the Cherubim full of eyes, and the Seraphim with six wings, praising continuously, without ceasing, saying:
+ar| أنت هو الذي يقف حولك الشاروبيم الممتلئون أعينا، والسارافيم ذوو الستة الأجنحـة، يسبحون على الـدوام بغير سكوت قائلين:
+
+@deacon
+en| Let us attend.
+ar| ننصت.
+
+@people
+en| The cherubim worship You, and the seraphim glorify You, proclaiming and saying:
+ar| الشاروبيم يسجدون لك، والسارافيم يمجدونك، صارخين قائلين:

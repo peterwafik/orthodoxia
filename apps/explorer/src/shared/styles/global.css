@@ -1,10 +1,9 @@
 /*
- * Design tokens. Every color is a light-dark() pair, so a page follows the operating system's
- * theme by default, and the reader's choice on the site (<html data-theme="dark"> or "light",
+ * Design tokens. Every color is a light-dark() pair, so a page is light by default, and the reader's choice on the site (<html data-theme="dark"> or "light",
  * see src/shared/lib/theme.ts) overrides it.
  */
 :root {
-  color-scheme: light dark;
+  color-scheme: light;
 
   --color-background: light-dark(#f5f1e6, #0e1a33);
   --color-surface: light-dark(#fffdf8, #16244a);

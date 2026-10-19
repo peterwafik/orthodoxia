@@ -1,3 +1,5 @@
+> **Retired.** The site no longer uses this deep-zoom picture; the Holy Mass journey now plays the film in `content/art/holy-mass-film/`. Kept for the record.
+
 # Holy Mass artwork
 
 `source.jpg` is the master picture of the Holy Mass journey (`/en/holy-mass/`). It is a tall picture

@@ -1,0 +1,42 @@
+import type { FamilyMap } from './types.ts';
+
+/** 27. The Holy Bible itself. Topics that name groups of books mark those whole books. */
+export const F27: FamilyMap = {
+  nave: {
+    'Divine inspiration': 'WORD OF GOD>INSPIRATION OF',
+    'Authority of Scripture': 'WORD OF GOD>UNCLASSIFIED SCRIPTURES RELATING TO',
+    'The Word of God': 'WORD OF GOD>UNCLASSIFIED SCRIPTURES RELATING TO',
+    'Meditating on Scripture': 'WORD OF GOD>Searched|Searching of, commanded',
+  },
+  passages: {
+    'Divine inspiration': '2 Timothy 3:16–17; 2 Peter 1:20–21; 1 Thessalonians 2:13',
+    'Authority of Scripture': 'Matthew 4:4; Isaiah 8:20; John 10:35; Matthew 5:17–18; Psalm 119:89',
+    'Old Testament': 'Luke 24:44; Romans 15:4; 2 Timothy 3:15; Matthew 5:17',
+    'New Testament': 'Luke 22:20; Hebrews 8:6–13; 2 Peter 3:15–16; 1 Corinthians 11:25',
+    'Unity of Scripture': 'Luke 24:27; Luke 24:44; John 5:39; Acts 28:23',
+    'Fulfillment of Scripture': 'Luke 24:44; Matthew 5:17; Luke 4:21; John 19:28',
+    'Biblical interpretation': 'Acts 8:30–35; Nehemiah 8:8; Luke 24:25–27; 2 Peter 1:20',
+    'Literal meaning': 'Nehemiah 8:8; Acts 8:30–35; Luke 4:16–21',
+    'Spiritual meaning': '1 Corinthians 2:13–14; Galatians 4:21–26; 2 Corinthians 3:6; Luke 24:45',
+    Typology: '1 Corinthians 10:1–6; Hebrews 8:5; Romans 5:14; Galatians 4:21–31; Colossians 2:16–17',
+    'Biblical prophecy': '2 Peter 1:19–21; Luke 24:44; Isaiah 46:9–10; Acts 3:18',
+    'Biblical symbolism': 'Revelation 1:12–20; Daniel 7:1–8; Genesis 41:1–7',
+    'Bible translations': 'Acts 2:5–11; Nehemiah 8:8',
+    'Biblical languages': 'Acts 21:40; John 19:20; Daniel 2:4; Ezra 4:7; Mark 15:34',
+    'Biblical canon': 'Luke 24:44; 2 Peter 3:15–16; Revelation 22:18–19; Deuteronomy 4:2; Jude 1:3',
+    'Deuterocanonical books': 'Hebrews 11:35; Romans 3:1–2',
+    'Scripture and Church Tradition': '2 Thessalonians 2:15; 1 Corinthians 11:2; 2 Timothy 2:2; John 21:25',
+    'Memorizing Scripture': 'Psalm 119:11; Deuteronomy 6:6–9; Proverbs 7:1–3; Colossians 3:16',
+    'Meditating on Scripture': 'Psalm 1:2–3; Joshua 1:8; Psalm 119:15; Psalm 119:97',
+    'Practicing Scripture': 'James 1:22–25; Matthew 7:24–27; Luke 11:28',
+    'Scripture and spiritual growth': '1 Peter 2:2; Psalm 119:105; Hebrews 4:12; Matthew 4:4',
+    'The Gospels': 'Matthew 1–28; Mark 1–16; Luke 1–24; John 1–21',
+    'The Pauline Epistles': 'Romans 1–16; 1 Corinthians 1–16; 2 Corinthians 1–13; Galatians 1–6; Ephesians 1–6; Philippians 1–4; Colossians 1–4; 1 Thessalonians 1–5; 2 Thessalonians 1–3; 1 Timothy 1–6; 2 Timothy 1–4; Titus 1–3; Philemon 1; Hebrews 1–13',
+    'Wisdom literature': 'Job 1–42; Proverbs 1–31; Ecclesiastes 1–12; Song of Songs 1–8',
+    'Prophetic books': 'Isaiah 1–66; Jeremiah 1–52; Lamentations 1–5; Ezekiel 1–48; Daniel 1–12; Hosea 1–14; Joel 1–3; Amos 1–9; Obadiah 1; Jonah 1–4; Micah 1–7; Nahum 1–3; Habakkuk 1–3; Zephaniah 1–3; Haggai 1–2; Zechariah 1–14; Malachi 1–4',
+    'Historical books': 'Joshua 1–24; Judges 1–21; Ruth 1–4; 1 Samuel 1–31; 2 Samuel 1–24; 1 Kings 1–22; 2 Kings 1–25; 1 Chronicles 1–29; 2 Chronicles 1–36; Ezra 1–10; Nehemiah 1–13; Esther 1–10; Acts 1–28',
+    Psalms: 'Psalms 1–150',
+    Revelation: 'Revelation 1–22',
+    'Christ throughout Scripture': 'Luke 24:27; Luke 24:44; John 5:39; Acts 10:43; Hebrews 1:1–3',
+  },
+};

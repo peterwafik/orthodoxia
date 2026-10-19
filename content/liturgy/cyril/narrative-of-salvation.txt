@@ -1,0 +1,62 @@
+source: The Divine Liturgies of Saints Basil, Gregory and Cyril (Coptic, English and Arabic), Fr. Jacob Nadian, St. Bishoy Coptic Orthodox Church of Toronto, Stouffville, Ontario, Canada.
+source-ar: الثلاثة قداسات للقديسين باسيليوس واغريغوريوس وكيرلس (قبطي وإنجليزي وعربي)، الأب يعقوب نادين، كنيسة الأنبا بيشوي القبطية الأرثوذكسية بتورونتو، ستوفيل، أونتاريو، كندا.
+
+@people
+en| Through the intercessions of the Theotokos, Saint Mary, O Lord, grant us the forgiveness of our sins. We worship You, O Christ, with Your good Father and the Holy Spirit, for you have come (risen) and saved us. A mercy of peace, a sacrifice of praise.
+ar| بشفاعات والدة الاله القديسة مريم، يارب انعم لنا بمغفرة خطايانا. نسجد لك أيها المسيح، مع أبيك الصالح و الروح القدس، لأنك أتيت (قمت) وخلصتنا. رحمة السلام، ذبيحة التسبيح.
+
+@rubric
+en| The priest transfers to his left hand the veil which he is holding, and he takes in his right hand the veil which is upon the oblation, and with it he makes the following three signs of the cross while keeping the two veils in his hands.
+ar| ثم يضع الكاهن اللفافة التي معه علي يده اليسري. ويأخذ بيده اليمني اللفافى التي علي القربانة ويرشم بها الثلاثة الرشوم الآتية. وبعد ذلك يبقي اللفافتين علي يديه.
+
+@people
+en| The Anaphora
+ar| الأنافورا
+
+@rubric
+en| T ur ning to the west, the priest signs the people once with the sign of the cross, saying:
+ar| يرشم الكاهن الشعب غرباً رشماً واحداً بمثال الصليب وهو يقول:
+
+@priest
+en| The Lord be with you all.
+ar| الرب مع جميعكم.
+
+@people
+en| And with your spirit.
+ar| الشعب: ومع روحك أيضاً.
+
+@rubric
+en| The priest turns to the East and signs the deacons on his right once with the sign of the cross, saying:
+ar| يرشم الكاهن الخدام شرقاً عن يمينه رشماً واحداً وهو يقول:
+
+@priest
+en| Lift up your hearts.
+ar| إرفعوا قلوبكم.
+
+@people
+en| We have them with the Lord.
+ar| هي عند الرب.
+
+@rubric
+en| The priest signs himself once with the sign of the cross, saying:
+ar| ثم يرشم الكاهن ذاته رشماً واحداً وهو يقول:
+
+@priest
+en| Let us give thanks to the Lord.
+ar| فلنشكر الرب.
+
+@people
+en| It is meet and right.
+ar| مستحقٌ وعادل.
+
+@priest
+en| Meet and right, meet and right, meet and right. For truly it is fitting and right , a nd holy an d becoming, and profitable to our souls, our bodies, and our spirits. O You, The Being , M aster, Lord, God, the Father, the Pantocrator, at all times and in all places of Your dominion. To praise You, hymn You, bless You, serve You, worship You, thank You, and glorify You. And confess to You night and day, with incessant lips, with a heart that keeps not silent, and with unceasing glorifications. You are He who has created the heavens and that which is in the heavens, the earth and everything that is therein. The seas, the rivers, the springs, the lakes, and that which is in all of them. You are He who have created man according to Your image and Your likeness. And You have created everything through Your wisdom. Your true Light, Your only-begotten Son, our Lord, God, Savior, and King of us all, Jesus Christ. Through whom we give thanks and offer unto You, with Him and the Holy Spirit, the holy, co - essential, and indivisible Trinity, this rational sacrifice and this bloodless service.
+ar| مستحقٌ وعادل، مستحقٌ وعادل، مستحقٌ وعادل. لأنه بالحقيقة مستحقٌ وعادل، ومقدس ولائق ونافع لنفوسنا وأجسادنا وأرواحنا. أيها الكائن السيد الرب الله الآب ضابط الكل، في كل زمان وبكل مكان لربوبيتك. أن نسبحك، ونرتل لك، ونباركك، ونخدمك، ونسجد لك، ونشكرك، ونمجدك. ونعترف لك ليلًا ونهاراً بشفاة غير هادئة، وقلب لا يسكت، وتمجيدات لا تنقطع. أنت الذي خلق السموات وما في السموات، والأرض وكل ما فيها. البحار والأنهار والينابيع والبحيرات وما في جميعها. أنت هو الذي خلقت الإنسان كصورتك وكشبهك. وخلقت كل الأشياء بحكمتك. نورك الحقيقي، ابنك الوحيد ربنا وإلهنا ومخلصنا وملكنا كلنا يسوع المسيح. هذا الذي من قِبَله نشكر، ونقرب لك معه ومع الروح القدس، الثالوث القدوس المساوي غير المفترق، هذه الذبيحة الناطقة، وهذه الخدمة غير الدموية.
+
+@rubric
+en| The priest signs the incense box, puts a spoonful of incense into the center, takes it in his hands, and says:
+ar| هنا يرشم الكاهن درج البخور ويضع يد بخور في المجمرة، ثم يأخذها بيده ويقول:
+
+@priest
+en| This, which all nations offer unto You.
+ar| هذه التي تقربها لك جميع الأمم.
