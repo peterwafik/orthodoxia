@@ -21,3 +21,6 @@ data/commentary/malaty/html/
 
 # Third-party books used as sources are not redistributed
 /*.pdf
+
+.vercel
+.env*
