@@ -109,7 +109,6 @@ const notes = [
   title={`${heading} (${edition.shortName})`}
   description={chapter.verses[0]?.content.map((inline) => inline.text).join('').slice(0, 155) ?? name}
   alternates={{ [other]: equivalentPath(editionId, DEFAULT_EDITION[other], info.code, number) }}
-  minimalFooter
 >
   <article class="wrap section reader">
     <p class="crumbs">
@@ -179,9 +178,9 @@ const notes = [
 </Base>
 
 <style>
-  /* One focused column: the chapter and nothing else. */
+  /* The chapter and nothing else, across the whole page width. */
   .reader {
-    max-inline-size: 44rem;
+    max-inline-size: none;
   }
 
   .reader h1 {

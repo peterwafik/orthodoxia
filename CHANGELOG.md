@@ -1,5 +1,27 @@
 # Changelog
 
+## Unreleased: church-history comparison and Coptic evidence
+
+- The church-history comparison now covers 29 points of faith in seven groups, starting with the faith every church
+  holds in common. Each point is written in one frame in all churches, so agreement shows as identical words and
+  difference as different bold words; rows are marked "In common" or "Differs", there is a "Show only the differences"
+  switch, and the popup of each church lists where it agrees and differs with the Coptic Orthodox Church.
+- New family 44 in the Bible reader's topics: the Bible verses and early witnesses (writings, councils, manuscripts)
+  the Coptic Orthodox Church cites for each point of faith, with links to the chapters, and a link from each row of the
+  comparison. Draft text, not reviewed by clergy.
+
+## Unreleased: Holy Mass chooser
+
+- Holy Mass now opens a page with three cards (St. Cyril, St. Gregory, St. Basil); each opens the journey for that liturgy at /en/holy-mass/<liturgy>/. The liturgy switch inside the journey is removed (the choice is made first). "Sources" is removed from the header menu; it stays reachable from the footer and the About page.
+
+## Unreleased: full-width pages
+
+- Every page, and its header, now spans the whole window with side margins that scale with it (they used to stop at 72rem), so content follows the window when it is resized or zoomed out. Reading text (the Bible, About, Sources) fills that width instead of a narrow column. The church-history timeline scales with the window, and every group title sits at the same corner of its band.
+
+## Unreleased: church history
+
+- New page /en/church-history/ and /ar/church-history/: an interactive timeline from AD 33 to today with the Coptic Orthodox Church as the centre line and 14 other churches branching from it, each in its own colour. Threads light up on hover; clicking one opens a popup (closed with ✕) with its date, the reason for the division, what changed in belief and the Coptic Orthodox view, with a grapevine drawn in the margin, and churches close in faith grouped in tinted bands (also in the comparison chips and table); below the timeline a table compares any churches you choose. In the top menu and on the home page. Draft texts, not reviewed by clergy (docs/CHURCH_HISTORY.md).
+
 ## Unreleased: home page
 
 - Home page redesigned as six cards (Bible, Cross-references, Read with threads, Holy Mass, About, Sources) under a line drawing of an open book, a Coptic cross and arcs, in the light and dark themes. The credits and disclaimer block is removed from the home page (it stays on Sources). Light is now the default theme on every page, including the explorer; the system dark preference is no longer followed, and a saved choice still wins.

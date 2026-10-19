@@ -1,0 +1,1390 @@
+---
+import Base from '../../layouts/Base.astro';
+import ChurchHistoryArt from '../../components/church-history/ChurchHistoryArt.astro';
+import { CHURCHES, COMPARE_GROUPS, COMPARE_POINTS, EVENTS, GROUPS, POSITIONS } from '../../data/church-history/index.ts';
+import { layoutTimeline, DEFAULT_LAYOUT } from '../../lib/church-history/layout.ts';
+import { COPTIC_EVIDENCE } from '../../data/coptic-evidence.ts';
+import { evidenceRefs } from '../../lib/topics/evidence.ts';
+import { FAMILIES } from '../../lib/topics/topics.ts';
+import { LOCALES, localePath, t, type Locale } from '../../i18n/index.ts';
+
+export function getStaticPaths() {
+  return LOCALES.map((lang) => ({ params: { lang } }));
+}
+
+const locale = Astro.params.lang as Locale;
+const strings = t(locale);
+const copy = strings.churchHistory;
+
+const layout = layoutTimeline(CHURCHES, EVENTS);
+const threads = new Map(layout.threads.map((thread) => [thread.id, thread]));
+/** Threads from the top lane to the bottom lane, which is also the order of the keyboard arrows. */
+const ordered = [...CHURCHES].sort((a, b) => a.lane - b.lane);
+
+const positionText = (pointId: string, positionId: string): string =>
+  COMPARE_POINTS.find((point) => point.id === pointId)!.positions.find((position) => position.id === positionId)!.text[locale];
+/** The text of a position as pieces, so the words that make it differ can be shown in bold (marked ** in the data). */
+const pieces = (text: string) => text.split('**').map((piece, index) => ({ piece, bold: index % 2 === 1 }));
+const copticPositions = POSITIONS['coptic-orthodox']!;
+/** Where a church agrees with the Coptic Orthodox Church and where it differs, point by point. */
+const versus = (churchId: string) => {
+  const own = POSITIONS[churchId]!;
+  const same: string[] = [];
+  const differ: { label: string; text: string }[] = [];
+  for (const point of COMPARE_POINTS) {
+    const key = point.id as keyof typeof own;
+    if (own[key] === copticPositions[key]) same.push(point.label[locale]);
+    else differ.push({ label: point.label[locale], text: positionText(point.id, own[key]!) });
+  }
+  return { same, differ };
+};
+/** A link into the Bible reader, to the first verse the Coptic Church cites for a point, with its evidence open. */
+const evidenceFamily = FAMILIES.find((family) => family.id === '44')!;
+const evidenceHref = (pointId: string): string | undefined => {
+  const point = COMPARE_POINTS.find((candidate) => candidate.id === pointId)!;
+  const entry = COPTIC_EVIDENCE.find((candidate) => candidate.point === pointId);
+  const topic = evidenceFamily.topics.find((candidate) => candidate.en === point.label.en);
+  const first = entry === undefined ? undefined : evidenceRefs(entry.verses, locale)[0];
+  if (topic === undefined || first === undefined) return undefined;
+  const [path, hash = ''] = first.href.split('#');
+  return `${path}?topic=${topic.id}${hash === '' ? '' : `#${hash}`}`;
+};
+const groupById = new Map(GROUPS.map((group) => [group.id, group]));
+/** The chips and table columns, grouped in the order of the timeline. */
+const chipGroups = GROUPS.map((group) => ({ group, churches: ordered.filter((church) => church.group === group.id) }));
+
+/** What the page script needs: the text of the current language only. */
+const data = {
+  ui: {
+    reason: copy.panel.reason,
+    reasonTrunk: copy.panel.reasonTrunk,
+    leavesFrom: copy.panel.leavesFrom,
+    addToCompare: copy.panel.addToCompare,
+    removeFromCompare: copy.panel.removeFromCompare,
+    kindNote: copy.kindNote,
+    vsCoptic: copy.panel.vsCoptic,
+    vsSame: copy.panel.vsSame,
+    vsDiffer: copy.panel.vsDiffer,
+    vsCount: copy.panel.vsCount,
+    common: copy.compare.common,
+    differs: copy.compare.differs,
+    summary: copy.compare.summary,
+  },
+  groups: GROUPS.map((group) => ({ id: group.id, hue: group.hue, name: group.name[locale], note: group.note[locale] })),
+  churches: ordered.map((church) => ({
+    id: church.id,
+    group: church.group,
+    parent: church.parent,
+    hue: church.hue,
+    kind: church.kind,
+    name: church.name[locale],
+    short: church.short[locale],
+    when: church.when[locale],
+    summary: church.summary[locale],
+    reason: church.reason[locale],
+    changes: church.changes[locale],
+    coptic: church.coptic[locale],
+    vs: church.parent === null ? null : versus(church.id),
+  })),
+};
+
+const axisLabelRow = (index: number): number => layout.axisY + 18 + (index % 3) * 32;
+---
+
+<Base locale={locale} title={copy.title} description={copy.metaDescription}>
+  <div class="page-stage">
+    <ChurchHistoryArt />
+
+    <section class="intro">
+      <div class="wrap">
+        <h1>{copy.title}</h1>
+        <p class="lede">{copy.lede}</p>
+      </div>
+    </section>
+
+    <section class="timeline-section" data-church-history>
+      <div class="wrap">
+        <p class="hint">{copy.hint}</p>
+        <p class="scroll-hint">{copy.scrollHint}</p>
+        <div class="scroller">
+          <div class="stage" data-stage>
+            <svg class="timeline" viewBox={`0 0 ${layout.width} ${layout.height}`} role="group" aria-label={copy.timelineLabel}>
+              <g class="grid" aria-hidden="true">
+                {
+                  layout.ticks.map((tick) => (
+                    <line x1={tick.x} x2={tick.x} y1={DEFAULT_LAYOUT.top - 18} y2={layout.axisY} />
+                  ))
+                }
+                <line class="axis" x1={DEFAULT_LAYOUT.left} x2={DEFAULT_LAYOUT.left + DEFAULT_LAYOUT.plotWidth} y1={layout.axisY} y2={layout.axisY} />
+                {
+                  EVENTS.map((event, index) => {
+                    const x = layout.ticks[index]!.x;
+                    return (
+                      <g>
+                        <text class="axis-year" x={x} y={axisLabelRow(index)} text-anchor="middle">{event.year}</text>
+                        <text class="axis-event" x={x} y={axisLabelRow(index) + 13} text-anchor="middle">{event.label[locale]}</text>
+                      </g>
+                    );
+                  })
+                }
+              </g>
+              <g class="bands" aria-hidden="true">
+                {
+                  layout.bands.map((band) => {
+                    const group = groupById.get(band.group as (typeof GROUPS)[number]['id'])!;
+                    return (
+                      <g class="band" style={`--gh:${group.hue}`}>
+                        <rect class="band-fill" x="6" y={band.y0} width={layout.width - 12} height={band.y1 - band.y0} rx="10" />
+                        <rect class="band-edge" x="6" y={band.y0} width="4" height={band.y1 - band.y0} rx="2" />
+                      </g>
+                    );
+                  })
+                }
+              </g>
+              <g class="threads">
+                {
+                  ordered.map((church) => {
+                    const thread = threads.get(church.id)!;
+                    const parent = church.parent === null ? null : threads.get(church.parent)!;
+                    return (
+                      <g
+                        class={`thread${church.parent === null ? ' trunk' : ''}`}
+                        data-id={church.id}
+                        data-kind={church.kind}
+                        style={`--h:${church.hue}`}
+                        role="button"
+                        tabindex="0"
+                        aria-pressed="false"
+                        aria-haspopup="dialog"
+                        aria-label={`${church.name[locale]}, ${church.when[locale]}`}
+                      >
+                        <path class="halo" d={thread.path} />
+                        <path class="line" d={thread.path} />
+                        <path class="hit" d={thread.path} />
+                        {parent !== null && <circle class="dot" cx={thread.branchX} cy={parent.y} r="4.5" />}
+                        <text class="label" x={thread.labelX} y={thread.labelY - 2}>{church.short[locale]}</text>
+                        <text class="when" x={thread.labelX} y={thread.labelY + 13}>{church.year}</text>
+                      </g>
+                    );
+                  })
+                }
+              </g>
+              <g class="band-titles" aria-hidden="true">
+                {
+                  layout.bands.map((band) => {
+                    const group = groupById.get(band.group as (typeof GROUPS)[number]['id'])!;
+                    return (
+                      <text class="band-title" style={`--gh:${group.hue}`} x="20" y={band.y0 + 17}>{group.name[locale]}</text>
+                    );
+                  })
+                }
+              </g>
+            </svg>
+
+            <article class="popup" role="dialog" aria-labelledby="ch-popup-title" data-popup hidden>
+              <div class="popup-top">
+                <p class="eyebrow"><span class="eyebrow-dash" aria-hidden="true"></span><span data-kind-note></span></p>
+                <button type="button" class="close" data-close aria-label={copy.panel.close}>✕</button>
+              </div>
+              <h2 id="ch-popup-title" data-name></h2>
+              <p class="when-line" data-when></p>
+              <p class="group-line"><span class="group-swatch" aria-hidden="true"></span><span data-group></span></p>
+              <p class="summary" data-summary></p>
+              <p class="leaves" data-leaves hidden></p>
+              <h3 data-reason-heading></h3>
+              <p data-reason></p>
+              <h3>{copy.panel.changes}</h3>
+              <ul class="changes" data-changes></ul>
+              <div class="vs" data-vs hidden>
+                <h3 data-vs-heading></h3>
+                <p class="vs-count" data-vs-count></p>
+                <h4 data-vs-differ-heading></h4>
+                <ul class="vs-list" data-vs-differ></ul>
+                <h4 data-vs-same-heading></h4>
+                <p class="vs-same" data-vs-same></p>
+              </div>
+              <div class="coptic">
+                <h3>{copy.panel.coptic}</h3>
+                <p data-coptic></p>
+              </div>
+              <button type="button" class="compare-toggle" data-compare-toggle></button>
+              <p class="draft">{copy.panel.draft}</p>
+            </article>
+          </div>
+        </div>
+        <p class="trunk-note">{copy.trunkNote}</p>
+      </div>
+    </section>
+
+    <section class="compare-section" aria-labelledby="compare-heading">
+      <div class="wrap">
+        <h2 id="compare-heading">{copy.compare.heading}</h2>
+        <p class="compare-intro">{copy.compare.intro}</p>
+        <div class="chips" role="group" aria-label={copy.compare.pick}>
+          {
+            chipGroups.map(({ group, churches }) => (
+              <div class="chip-group" style={`--gh:${group.hue}`} role="group" aria-label={group.name[locale]}>
+                <p class="chip-group-title" title={group.note[locale]}>{group.name[locale]}</p>
+                <div class="chip-row">
+                  {
+                    churches.map((church) => (
+                      <button type="button" class="chip" data-chip={church.id} aria-pressed="false" style={`--h:${church.hue}`}>
+                        <span class={`chip-dot${church.parent === null ? ' trunk' : ''}`} aria-hidden="true"></span>
+                        {church.short[locale]}
+                      </button>
+                    ))
+                  }
+                </div>
+              </div>
+            ))
+          }
+          <button type="button" class="clear" data-clear hidden>{copy.compare.clear}</button>
+        </div>
+        <p class="compare-empty" data-empty>{copy.compare.empty}</p>
+        <div class="compare-tools" data-tools hidden>
+          <p class="compare-summary" data-compare-summary></p>
+          <label class="only-differences"><input type="checkbox" data-diff-only /> {copy.compare.onlyDifferences}</label>
+        </div>
+        <div class="table-scroll" data-table-wrap hidden>
+          <table class="compare">
+            <thead>
+              <tr>
+                <th scope="col" class="corner">{copy.compare.church}</th>
+                {
+                  ordered.map((church) => (
+                    <th scope="col" data-col={church.id} style={`--h:${church.hue}`} class={church.parent === null ? 'trunk' : ''}>
+                      <span class="col-group" style={`--gh:${groupById.get(church.group)!.hue}`}>{groupById.get(church.group)!.name[locale]}</span>
+                      <span class="col-name"><span class="col-dot" aria-hidden="true"></span>{church.short[locale]}</span>
+                    </th>
+                  ))
+                }
+              </tr>
+            </thead>
+            <tbody>
+              {
+                COMPARE_GROUPS.map((group) => (
+                  <>
+                    <tr class="group-row">
+                      <th scope="colgroup" colspan="99">{group.label[locale]}</th>
+                    </tr>
+                    {
+                      COMPARE_POINTS.filter((point) => point.group === group.id).map((point) => (
+                        <tr class="point-row" data-point={point.id}>
+                          <th scope="row">
+                            <span class="point-label">{point.label[locale]}</span>
+                            <span class="row-status" data-status></span>
+                            {evidenceHref(point.id) !== undefined && <a class="ev-link" href={evidenceHref(point.id)}>{copy.compare.evidence}</a>}
+                          </th>
+                          {
+                            ordered.map((church) => {
+                              const positionId = POSITIONS[church.id]![point.id as keyof (typeof POSITIONS)[string]];
+                              const index = point.positions.findIndex((position) => position.id === positionId);
+                              return (
+                                <td data-col={church.id} data-pos={positionId} style={`--pt:${(index * 67 + 20) % 360}`}>
+                                  {pieces(positionText(point.id, positionId!)).map(({ piece, bold }) => (bold ? <strong>{piece}</strong> : piece))}
+                                </td>
+                              );
+                            })
+                          }
+                        </tr>
+                      ))
+                    }
+                  </>
+                ))
+              }
+            </tbody>
+          </table>
+        </div>
+        <p class="page-note">{copy.note}</p>
+        <p class="back"><a href={localePath(locale)}>{strings.nav.home}</a></p>
+      </div>
+    </section>
+  </div>
+
+  <script type="application/json" id="church-history-data" set:html={JSON.stringify(data)} />
+</Base>
+
+<script>
+  interface ChurchData {
+    id: string;
+    group: string;
+    parent: string | null;
+    hue: number;
+    kind: 'division' | 'communion' | 'daughter';
+    name: string;
+    short: string;
+    when: string;
+    summary: string;
+    reason: string;
+    changes: string[];
+    coptic: string;
+    vs: { same: string[]; differ: { label: string; text: string }[] } | null;
+  }
+  interface Data {
+    ui: {
+      reason: string;
+      reasonTrunk: string;
+      leavesFrom: string;
+      addToCompare: string;
+      removeFromCompare: string;
+      kindNote: Record<ChurchData['kind'], string>;
+      vsCoptic: string;
+      vsSame: string;
+      vsDiffer: string;
+      vsCount: string;
+      common: string;
+      differs: string;
+      summary: string;
+    };
+    groups: { id: string; hue: number; name: string; note: string }[];
+    churches: ChurchData[];
+  }
+
+  const root = document.querySelector<HTMLElement>('[data-church-history]');
+  const dataEl = document.getElementById('church-history-data');
+  if (root && dataEl) init(root, JSON.parse(dataEl.textContent ?? '{}') as Data);
+
+  function init(root: HTMLElement, data: Data): void {
+    const churches = data.churches;
+    const byId = new Map(churches.map((church) => [church.id, church]));
+    const q = <T extends Element>(selector: string, scope: ParentNode = document): T => {
+      const found = scope.querySelector<T>(selector);
+      if (!found) throw new Error(`church-history: missing ${selector}`);
+      return found;
+    };
+
+    const stage = q<HTMLElement>('[data-stage]', root);
+    const svg = q<SVGSVGElement>('svg.timeline', root);
+    const threadEls = new Map(
+      [...svg.querySelectorAll<SVGGElement>('.thread')].map((el) => [el.dataset['id'] ?? '', el] as const),
+    );
+    const popup = {
+      el: q<HTMLElement>('[data-popup]', root),
+      kind: q<HTMLElement>('[data-kind-note]', root),
+      name: q<HTMLElement>('[data-name]', root),
+      when: q<HTMLElement>('[data-when]', root),
+      group: q<HTMLElement>('[data-group]', root),
+      summary: q<HTMLElement>('[data-summary]', root),
+      leaves: q<HTMLElement>('[data-leaves]', root),
+      reasonHeading: q<HTMLElement>('[data-reason-heading]', root),
+      reason: q<HTMLElement>('[data-reason]', root),
+      changes: q<HTMLElement>('[data-changes]', root),
+      coptic: q<HTMLElement>('[data-coptic]', root),
+      toggle: q<HTMLButtonElement>('[data-compare-toggle]', root),
+      vs: q<HTMLElement>('[data-vs]', root),
+      vsHeading: q<HTMLElement>('[data-vs-heading]', root),
+      vsCount: q<HTMLElement>('[data-vs-count]', root),
+      vsDifferHeading: q<HTMLElement>('[data-vs-differ-heading]', root),
+      vsDiffer: q<HTMLElement>('[data-vs-differ]', root),
+      vsSameHeading: q<HTMLElement>('[data-vs-same-heading]', root),
+      vsSame: q<HTMLElement>('[data-vs-same]', root),
+      close: q<HTMLButtonElement>('[data-close]', root),
+    };
+    const chips = [...document.querySelectorAll<HTMLButtonElement>('[data-chip]')];
+    const clearButton = q<HTMLButtonElement>('[data-clear]');
+    const empty = q<HTMLElement>('[data-empty]');
+    const tableWrap = q<HTMLElement>('[data-table-wrap]');
+    const columns = [...document.querySelectorAll<HTMLElement>('[data-col]')];
+    const tools = q<HTMLElement>('[data-tools]');
+    const summary = q<HTMLElement>("[data-compare-summary]");
+    const diffOnly = q<HTMLInputElement>('[data-diff-only]');
+    const pointRows = [...document.querySelectorAll<HTMLTableRowElement>('tr[data-point]')];
+    const groupRows = [...document.querySelectorAll<HTMLTableRowElement>('tr.group-row')];
+
+    /** Text with **bold** marks, as nodes (so the words that differ stand out). */
+    const boldNodes = (text: string): Node[] =>
+      text.split('**').map((piece, index) => {
+        if (index % 2 === 0) return document.createTextNode(piece);
+        const strong = document.createElement('strong');
+        strong.textContent = piece;
+        return strong;
+      });
+
+    let selected: string | null = null;
+    const compared = new Set<string>();
+
+    const ancestors = (id: string): string[] => {
+      const chain: string[] = [];
+      for (let current = byId.get(id); current; current = current.parent ? byId.get(current.parent) : undefined) chain.push(current.id);
+      return chain;
+    };
+    const below = (id: string): string[] => {
+      const out: string[] = [];
+      const queue = [id];
+      while (queue.length > 0) {
+        const head = queue.shift();
+        for (const church of churches) {
+          if (church.parent === head) {
+            out.push(church.id);
+            queue.push(church.id);
+          }
+        }
+      }
+      return out;
+    };
+
+    function paintTimeline(): void {
+      const family = selected ? new Set([...ancestors(selected), ...below(selected)]) : null;
+      svg.classList.toggle('has-selection', family !== null);
+      for (const [id, el] of threadEls) {
+        el.classList.toggle('selected', id === selected);
+        el.classList.toggle('related', family !== null && id !== selected && family.has(id));
+        el.classList.toggle('compared', compared.has(id));
+        el.setAttribute('aria-pressed', String(id === selected));
+      }
+    }
+
+    function fillPopup(church: ChurchData): void {
+      popup.el.style.setProperty('--h', String(church.hue));
+      popup.el.classList.toggle('is-trunk', church.parent === null);
+      popup.kind.textContent = church.parent === null ? data.ui.reasonTrunk : data.ui.kindNote[church.kind];
+      popup.name.textContent = church.name;
+      popup.when.textContent = church.when;
+      const group = data.groups.find((g) => g.id === church.group);
+      popup.group.textContent = group?.name ?? '';
+      popup.el.style.setProperty('--gh', String(group?.hue ?? 0));
+      popup.summary.textContent = church.summary;
+      const parent = church.parent ? byId.get(church.parent) : undefined;
+      popup.leaves.hidden = parent === undefined;
+      popup.leaves.textContent = parent ? `${data.ui.leavesFrom}: ${parent.short}` : '';
+      popup.reasonHeading.textContent = church.parent === null ? data.ui.reasonTrunk : data.ui.reason;
+      popup.reason.textContent = church.reason;
+      popup.changes.replaceChildren(
+        ...church.changes.map((text) => {
+          const li = document.createElement('li');
+          li.textContent = text;
+          return li;
+        }),
+      );
+      popup.coptic.textContent = church.coptic;
+      popup.vs.hidden = church.vs === null;
+      if (church.vs !== null) {
+        popup.vsHeading.textContent = data.ui.vsCoptic;
+        popup.vsCount.textContent = data.ui.vsCount.replace('{same}', String(church.vs.same.length)).replace('{differ}', String(church.vs.differ.length));
+        popup.vsDifferHeading.textContent = data.ui.vsDiffer;
+        popup.vsDiffer.replaceChildren(
+          ...church.vs.differ.map((item) => {
+            const li = document.createElement('li');
+            const label = document.createElement('span');
+            label.className = 'vs-label';
+            label.textContent = item.label;
+            const text = document.createElement('span');
+            text.append(...boldNodes(item.text));
+            li.append(label, text);
+            return li;
+          }),
+        );
+        popup.vsSameHeading.textContent = data.ui.vsSame;
+        popup.vsSame.textContent = church.vs.same.join(' · ');
+      }
+      paintToggle();
+    }
+
+    function paintToggle(): void {
+      if (!selected) return;
+      const on = compared.has(selected);
+      popup.toggle.textContent = on ? data.ui.removeFromCompare : data.ui.addToCompare;
+      popup.toggle.setAttribute('aria-pressed', String(on));
+    }
+
+    /** Puts the popup beside the point that was clicked, inside the timeline; on a phone it is a sheet at the bottom. */
+    function placePopup(point: { x: number; y: number }): void {
+      if (!matchMedia('(min-width: 48rem)').matches) {
+        popup.el.style.left = '';
+        popup.el.style.top = '';
+        return;
+      }
+      const area = stage.getBoundingClientRect();
+      const width = popup.el.offsetWidth;
+      const height = popup.el.offsetHeight;
+      let left = point.x - area.left + 20;
+      if (left + width > area.width) left = point.x - area.left - width - 20;
+      left = Math.min(Math.max(left, 0), Math.max(0, area.width - width));
+      const top = Math.min(Math.max(point.y - area.top - 36, 0), Math.max(0, area.height - height));
+      popup.el.style.left = `${left}px`;
+      popup.el.style.top = `${top}px`;
+    }
+
+    function paintCompare(): void {
+      for (const chip of chips) chip.setAttribute('aria-pressed', String(compared.has(chip.dataset['chip'] ?? '')));
+      for (const el of columns) el.hidden = !compared.has(el.dataset['col'] ?? '');
+      const enough = compared.size >= 2;
+      tableWrap.hidden = !enough;
+      tools.hidden = !enough;
+      empty.hidden = enough;
+      if (enough) paintRows();
+      clearButton.hidden = compared.size === 0;
+      paintToggle();
+    }
+
+    /** For every point of faith: is it the same in all the churches shown, or does it differ? */
+    function paintRows(): void {
+      let common = 0;
+      let differ = 0;
+      const visibleGroups = new Set<Element>();
+      pointRows.forEach((row) => {
+        const positions = new Set<string>();
+        for (const cell of row.querySelectorAll<HTMLElement>('td[data-col]')) if (!cell.hidden) positions.add(cell.dataset['pos'] ?? '');
+        const same = positions.size === 1;
+        row.classList.toggle('common', same);
+        row.classList.toggle('differs', !same);
+        const status = row.querySelector<HTMLElement>('[data-status]');
+        if (status) status.textContent = same ? data.ui.common : data.ui.differs;
+        if (same) common += 1;
+        else differ += 1;
+        row.hidden = diffOnly.checked && same;
+        if (!row.hidden) {
+          let group = row.previousElementSibling;
+          while (group && !group.classList.contains('group-row')) group = group.previousElementSibling;
+          if (group) visibleGroups.add(group);
+        }
+      });
+      for (const group of groupRows) group.hidden = !visibleGroups.has(group);
+      summary.textContent = data.ui.summary.replace('{common}', String(common)).replace('{differ}', String(differ));
+    }
+
+    function syncUrl(): void {
+      const params = new URLSearchParams();
+      if (selected) params.set('church', selected);
+      if (compared.size > 0) params.set('compare', [...compared].join(','));
+      const query = params.toString();
+      history.replaceState(null, '', query ? `?${query}` : location.pathname);
+    }
+
+    function open(id: string, point?: { x: number; y: number }, moveFocus = false): void {
+      const church = byId.get(id);
+      const el = threadEls.get(id);
+      if (!church || !el) return;
+      selected = id;
+      fillPopup(church);
+      popup.el.hidden = false;
+      const box = el.querySelector('.label')?.getBoundingClientRect() ?? el.getBoundingClientRect();
+      placePopup(point ?? { x: box.left, y: box.top + box.height / 2 });
+      paintTimeline();
+      syncUrl();
+      if (moveFocus) popup.close.focus({ preventScroll: true });
+    }
+
+    function close(returnFocus = true): void {
+      const previous = selected;
+      selected = null;
+      popup.el.hidden = true;
+      paintTimeline();
+      syncUrl();
+      if (returnFocus && previous) threadEls.get(previous)?.focus({ preventScroll: true });
+    }
+
+    function toggleCompare(id: string): void {
+      if (compared.has(id)) compared.delete(id);
+      else compared.add(id);
+      paintTimeline();
+      paintCompare();
+      syncUrl();
+    }
+
+    const order = churches.map((church) => church.id);
+
+    for (const [id, el] of threadEls) {
+      el.addEventListener('click', (event) => open(id, { x: event.clientX, y: event.clientY }));
+      el.addEventListener('keydown', (event) => {
+        if (event.key === 'Enter' || event.key === ' ') {
+          event.preventDefault();
+          open(id, undefined, true);
+        } else if (event.key === 'ArrowDown' || event.key === 'ArrowRight') {
+          event.preventDefault();
+          const next = order[order.indexOf(id) + 1];
+          if (next) threadEls.get(next)?.focus();
+        } else if (event.key === 'ArrowUp' || event.key === 'ArrowLeft') {
+          event.preventDefault();
+          const previous = order[order.indexOf(id) - 1];
+          if (previous) threadEls.get(previous)?.focus();
+        }
+      });
+    }
+    popup.close.addEventListener('click', () => close());
+    popup.toggle.addEventListener('click', () => {
+      if (selected) toggleCompare(selected);
+    });
+    diffOnly.addEventListener('change', paintRows);
+    for (const chip of chips) chip.addEventListener('click', () => toggleCompare(chip.dataset['chip'] ?? ''));
+    clearButton.addEventListener('click', () => {
+      compared.clear();
+      paintTimeline();
+      paintCompare();
+      syncUrl();
+    });
+    document.addEventListener('keydown', (event) => {
+      if (event.key === 'Escape' && selected) close();
+    });
+
+    const params = new URLSearchParams(location.search);
+    for (const id of (params.get('compare') ?? '').split(',')) if (byId.has(id)) compared.add(id);
+    paintCompare();
+    const first = params.get('church');
+    if (first && byId.has(first)) open(first);
+  }
+</script>
+
+<style>
+  .page-stage {
+    position: relative;
+    isolation: isolate;
+  }
+
+  /* Room for the vine in the margin at the start of the page. */
+  @media (min-width: 64rem) {
+    .page-stage {
+      padding-inline-start: 4.5rem;
+    }
+  }
+
+  .intro,
+  .timeline-section,
+  .compare-section {
+    position: relative;
+    z-index: 1;
+  }
+
+  .intro {
+    padding-block: clamp(2.25rem, 5vw, 3.75rem) 0.5rem;
+  }
+
+  h1 {
+    font-size: var(--step-hero);
+    margin-block-end: 0.6rem;
+  }
+
+  .lede {
+    font-family: var(--font-reading);
+    font-size: var(--step-1);
+    max-inline-size: 42em;
+    margin: 0;
+    color: var(--ink-muted);
+  }
+
+  .timeline-section {
+    padding-block: 1rem 1.5rem;
+  }
+
+  .hint,
+  .trunk-note,
+  .scroll-hint {
+    margin: 0 0 0.5rem;
+    font-size: var(--step--1);
+    color: var(--ink-muted);
+    max-inline-size: 62em;
+  }
+
+  .hint {
+    color: var(--ink);
+    font-size: var(--step-0);
+  }
+
+  .scroll-hint {
+    font-size: 0.8rem;
+  }
+
+  .trunk-note {
+    margin-block-start: 0.75rem;
+  }
+
+  @media (min-width: 52rem) {
+    .scroll-hint {
+      display: none;
+    }
+  }
+
+  .scroller {
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+  }
+
+  .stage {
+    position: relative;
+    inline-size: 100%;
+    min-inline-size: 38rem;
+  }
+
+  .timeline {
+    display: block;
+    inline-size: 100%;
+    block-size: auto;
+    font-family: var(--font-ui);
+    direction: ltr;
+    user-select: none;
+  }
+
+  /* Thread colours: one hue per church, tuned for each theme. The trunk is the accent colour. */
+  .thread,
+  .chip,
+  .popup,
+  th[data-col] {
+    --c: hsl(var(--h) 55% 38%);
+  }
+
+  :global(:root[data-theme='dark']) .thread,
+  :global(:root[data-theme='dark']) .chip,
+  :global(:root[data-theme='dark']) .popup,
+  :global(:root[data-theme='dark']) th[data-col] {
+    --c: hsl(var(--h) 62% 66%);
+  }
+
+  .trunk,
+  .is-trunk {
+    --c: var(--accent);
+  }
+
+  .grid line {
+    stroke: var(--line);
+    stroke-width: 1;
+    stroke-dasharray: 2 5;
+  }
+
+  /* Groups of churches that are close in faith share a tinted band. */
+  .band {
+    --gc: hsl(var(--gh) 50% 40%);
+  }
+
+  :global(:root[data-theme='dark']) .band {
+    --gc: hsl(var(--gh) 60% 68%);
+  }
+
+  .band-fill {
+    fill: var(--gc);
+    opacity: 0.09;
+  }
+
+  .band-edge {
+    fill: var(--gc);
+    opacity: 0.75;
+  }
+
+  /* Every title sits in the same corner of its band, above the threads, with a halo so a thread crossing it stays readable. */
+  .band-title {
+    --gc: hsl(var(--gh) 50% 36%);
+    font-size: 13.5px;
+    font-weight: 700;
+    fill: var(--gc);
+    stroke: var(--surface);
+    stroke-width: 5px;
+    paint-order: stroke;
+    stroke-linejoin: round;
+    pointer-events: none;
+  }
+
+  :global(:root[data-theme='dark']) .band-title {
+    --gc: hsl(var(--gh) 60% 72%);
+  }
+
+  .grid .axis {
+    stroke-dasharray: none;
+    stroke: var(--ink-muted);
+    opacity: 0.6;
+  }
+
+  .axis-year {
+    font-size: 14px;
+    font-weight: 600;
+    fill: var(--ink);
+  }
+
+  .axis-event {
+    font-size: 12.5px;
+    fill: var(--ink-muted);
+  }
+
+  /* Threads rest at medium brightness and light up when hovered or selected, as on the Threads page. */
+  .thread {
+    cursor: pointer;
+    outline: none;
+  }
+
+  .thread .halo {
+    fill: none;
+    stroke: var(--surface);
+    stroke-width: 8;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+
+  .thread .line {
+    fill: none;
+    stroke: var(--c);
+    stroke-width: 3;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    opacity: 0.55;
+    transition: stroke-width 140ms, opacity 140ms;
+  }
+
+  .thread.trunk .line {
+    stroke-width: 5;
+    opacity: 0.8;
+  }
+
+  .thread[data-kind='communion'] .line {
+    stroke-dasharray: 9 4;
+  }
+
+  .thread .hit {
+    fill: none;
+    stroke: transparent;
+    stroke-width: 22;
+    pointer-events: stroke;
+  }
+
+  .thread .dot {
+    fill: var(--c);
+    stroke: var(--surface);
+    stroke-width: 2;
+    opacity: 0.7;
+  }
+
+  .thread .label {
+    font-size: 16.5px;
+    font-weight: 600;
+    fill: var(--ink-muted);
+    transition: fill 140ms;
+  }
+
+  .thread .when {
+    font-size: 13.5px;
+    fill: var(--ink-muted);
+    opacity: 0.8;
+  }
+
+  .thread:hover .line,
+  .thread:focus-visible .line,
+  .thread.selected .line {
+    opacity: 1;
+    stroke-width: 5.5;
+    filter: drop-shadow(0 0 5px var(--c));
+  }
+
+  .thread:hover .dot,
+  .thread:focus-visible .dot,
+  .thread.selected .dot {
+    opacity: 1;
+  }
+
+  .thread:hover .label,
+  .thread:focus-visible .label,
+  .thread.selected .label {
+    fill: var(--ink);
+  }
+
+  .thread:focus-visible .label {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+
+  .thread.selected .label {
+    font-weight: 800;
+  }
+
+  .has-selection .thread:not(.selected):not(.related) {
+    opacity: 0.4;
+  }
+
+  .has-selection .thread.related .line {
+    opacity: 0.9;
+    stroke-width: 4;
+  }
+
+  .thread.compared .label {
+    text-decoration: underline;
+    text-decoration-color: var(--c);
+    text-decoration-thickness: 3px;
+    text-underline-offset: 4px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .thread .line,
+    .thread .label {
+      transition: none;
+    }
+  }
+
+  /* The popup, opened by clicking a thread: a card beside the click, or a sheet at the bottom on a phone. */
+  .popup {
+    position: fixed;
+    inset-inline: 0.5rem;
+    inset-block-end: 0.5rem;
+    z-index: 30;
+    max-block-size: 72vh;
+    overflow-y: auto;
+    padding: 1rem 1.15rem 1.25rem;
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    background: var(--surface-raised);
+    box-shadow: 0 12px 40px rgb(0 0 0 / 0.28);
+    animation: pop 160ms ease-out;
+  }
+
+  .popup[hidden] {
+    display: none;
+  }
+
+  @media (min-width: 48rem) {
+    .popup {
+      position: absolute;
+      inset-inline: auto;
+      inset-block-end: auto;
+      inline-size: 26rem;
+      max-block-size: min(40rem, 86vh);
+    }
+  }
+
+  @keyframes pop {
+    from {
+      opacity: 0;
+      transform: translateY(6px);
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .popup {
+      animation: none;
+    }
+  }
+
+  .popup-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem;
+  }
+
+  .eyebrow {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 0;
+    font-size: 0.85rem;
+    color: var(--ink-muted);
+  }
+
+  .eyebrow-dash {
+    inline-size: 1.1rem;
+    block-size: 4px;
+    border-radius: 2px;
+    background: var(--c);
+  }
+
+  .close {
+    inline-size: 2.5rem;
+    block-size: 2.5rem;
+    flex: none;
+    border: 1px solid var(--line);
+    border-radius: 50%;
+    background: var(--surface);
+    color: var(--ink);
+    font-size: 1rem;
+    cursor: pointer;
+  }
+
+  .close:hover {
+    border-color: var(--accent);
+  }
+
+  .popup h2 {
+    margin-block: 0.5rem 0.1rem;
+    font-size: var(--step-2);
+  }
+
+  .popup h3 {
+    margin-block: 1rem 0.3rem;
+    font-family: var(--font-ui);
+    font-size: 0.82rem;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+    color: var(--ink-muted);
+  }
+
+  .popup p {
+    margin-block: 0.3rem;
+  }
+
+  .when-line {
+    color: var(--ink-muted);
+    font-size: 0.9rem;
+  }
+
+  .summary {
+    font-family: var(--font-reading);
+  }
+
+  .leaves {
+    font-size: 0.85rem;
+    color: var(--ink-muted);
+  }
+
+  .changes {
+    margin: 0;
+    padding-inline-start: 1.2rem;
+  }
+
+  .changes :global(li) {
+    margin-block: 0.3rem;
+  }
+
+  .coptic {
+    margin-block-start: 1rem;
+    padding: 0.2rem 0.9rem 0.6rem;
+    border-inline-start: 3px solid var(--accent);
+    background: var(--surface);
+    border-radius: 4px;
+  }
+
+  .compare-toggle {
+    margin-block-start: 1rem;
+    min-block-size: 44px;
+    padding-inline: 1.1rem;
+    border: 1px solid var(--accent);
+    border-radius: 999px;
+    background: var(--surface);
+    color: var(--ink);
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  .compare-toggle[aria-pressed='true'] {
+    background: var(--accent);
+    color: var(--surface);
+  }
+
+  .draft {
+    margin-block-start: 0.9rem;
+    font-size: 0.8rem;
+    color: var(--ink-muted);
+  }
+
+  /* Compare. */
+  .compare-section {
+    padding-block: 1rem 3rem;
+  }
+
+  .compare-section h2 {
+    font-size: var(--step-2);
+    margin-block-end: 0.3rem;
+  }
+
+  .compare-intro {
+    margin-block: 0 1rem;
+    color: var(--ink-muted);
+  }
+
+  .chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem 1rem;
+    align-items: flex-start;
+    margin-block-end: 1rem;
+  }
+
+  .chip-group {
+    --gc: hsl(var(--gh) 50% 40%);
+    padding: 0.45rem 0.6rem 0.6rem;
+    border: 1px solid hsl(var(--gh) 50% 50% / 0.35);
+    border-inline-start: 4px solid var(--gc);
+    border-radius: 10px;
+    background: hsl(var(--gh) 50% 50% / 0.07);
+  }
+
+  :global(:root[data-theme='dark']) .chip-group {
+    --gc: hsl(var(--gh) 60% 68%);
+  }
+
+  .chip-group-title {
+    margin: 0 0 0.4rem;
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: var(--gc);
+  }
+
+  .chip-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+  }
+
+  .chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    min-block-size: 44px;
+    padding-inline: 0.9rem;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    background: var(--surface);
+    color: var(--ink);
+    font-size: 0.95rem;
+    cursor: pointer;
+  }
+
+  .chip:hover {
+    border-color: var(--c);
+  }
+
+  .chip[aria-pressed='true'] {
+    border-color: var(--c);
+    background: var(--surface-raised);
+    box-shadow: inset 0 0 0 1px var(--c);
+    font-weight: 600;
+  }
+
+  .group-line {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.85rem;
+    color: var(--ink-muted);
+  }
+
+  .group-swatch {
+    inline-size: 0.8rem;
+    block-size: 0.8rem;
+    border-radius: 3px;
+    background: hsl(var(--gh) 50% 45%);
+  }
+
+  .col-group {
+    display: block;
+    margin-block-end: 0.15rem;
+    font-size: 0.72rem;
+    font-weight: 700;
+    color: hsl(var(--gh) 50% 40%);
+  }
+
+  :global(:root[data-theme='dark']) .col-group {
+    color: hsl(var(--gh) 60% 68%);
+  }
+
+  .chip-dot,
+  .col-dot {
+    display: inline-block;
+    inline-size: 0.75rem;
+    block-size: 0.75rem;
+    border-radius: 50%;
+    background: var(--c);
+  }
+
+  .chip-dot.trunk {
+    background: var(--accent);
+  }
+
+  .clear {
+    min-block-size: 44px;
+    padding-inline: 0.9rem;
+    border: 0;
+    background: none;
+    color: var(--accent);
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  .compare-empty {
+    color: var(--ink-muted);
+  }
+
+  .table-scroll {
+    overflow-x: auto;
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    background: var(--surface-raised);
+  }
+
+  table.compare {
+    inline-size: 100%;
+    border-collapse: collapse;
+    font-size: 0.92rem;
+  }
+
+  table.compare th,
+  table.compare td {
+    padding: 0.7rem 0.85rem;
+    border-block-end: 1px solid var(--line);
+    text-align: start;
+    vertical-align: top;
+    min-inline-size: 13rem;
+  }
+
+  table.compare tbody tr:last-child th,
+  table.compare tbody tr:last-child td {
+    border-block-end: 0;
+  }
+
+  table.compare thead th {
+    background: var(--surface-raised);
+    font-weight: 700;
+    white-space: nowrap;
+  }
+
+  table.compare th[data-col] {
+    border-block-end: 3px solid var(--c);
+  }
+
+  table.compare .corner,
+  table.compare tbody th {
+    position: sticky;
+    inset-inline-start: 0;
+    min-inline-size: 9rem;
+    max-inline-size: 11rem;
+    background: var(--surface-raised);
+    font-family: var(--font-ui);
+    font-size: 0.85rem;
+    color: var(--ink-muted);
+    z-index: 1;
+  }
+
+  table.compare .corner {
+    z-index: 2;
+  }
+
+  /* The comparison: points that agree show the same words and the same tint; points that differ change only the bold words. */
+  .compare-tools {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem 1.5rem;
+    margin-block-end: 0.75rem;
+  }
+
+  .compare-summary {
+    margin: 0;
+    font-weight: 700;
+  }
+
+  .only-differences {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    min-block-size: 44px;
+    cursor: pointer;
+  }
+
+  table.compare .group-row th {
+    position: sticky;
+    inset-inline-start: 0;
+    max-inline-size: none;
+    padding-block: 0.55rem;
+    background: var(--surface);
+    border-block-end: 2px solid var(--accent);
+    font-family: var(--font-ui);
+    font-size: 0.85rem;
+    font-weight: 800;
+    color: var(--accent);
+    text-align: start;
+    white-space: nowrap;
+  }
+
+  table.compare .point-label {
+    display: block;
+  }
+
+  .ev-link {
+    display: block;
+    margin-block-start: 0.35rem;
+    font-size: 0.72rem;
+    font-weight: 600;
+    line-height: 1.3;
+    color: var(--accent);
+  }
+
+  .row-status {
+    display: block;
+    margin-block-start: 0.2rem;
+    font-size: 0.7rem;
+    font-weight: 800;
+  }
+
+  tr.common .row-status {
+    color: hsl(145 50% 30%);
+  }
+
+  tr.differs .row-status {
+    color: hsl(20 75% 40%);
+  }
+
+  :global(:root[data-theme='dark']) tr.common .row-status {
+    color: hsl(145 50% 70%);
+  }
+
+  :global(:root[data-theme='dark']) tr.differs .row-status {
+    color: hsl(20 85% 72%);
+  }
+
+  tr.common td {
+    background: hsl(145 45% 50% / 0.12);
+  }
+
+  tr.differs td {
+    background: hsl(var(--pt) 60% 50% / 0.12);
+  }
+
+  table.compare td strong {
+    font-weight: 800;
+    padding-inline: 0.12em;
+    border-radius: 3px;
+    background: hsl(var(--pt) 85% 55% / 0.28);
+  }
+
+  tr.common td strong {
+    background: hsl(145 60% 45% / 0.25);
+  }
+
+  /* In the popup: how the church compares with the Coptic Orthodox faith. */
+  .vs h4 {
+    margin-block: 0.8rem 0.3rem;
+    font-family: var(--font-ui);
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: var(--ink);
+  }
+
+  .vs-count {
+    font-weight: 700;
+  }
+
+  .vs-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .vs-list :global(li) {
+    display: grid;
+    gap: 0.1rem;
+    padding-block: 0.4rem;
+    border-block-end: 1px solid var(--line);
+  }
+
+  .vs-list :global(.vs-label) {
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: var(--ink-muted);
+  }
+
+  .vs-list :global(strong) {
+    padding-inline: 0.12em;
+    border-radius: 3px;
+    background: hsl(20 85% 55% / 0.25);
+  }
+
+  .vs-same {
+    margin: 0;
+    font-size: 0.85rem;
+    color: var(--ink-muted);
+  }
+
+  .page-note {
+    margin-block: 1.25rem 0.5rem;
+    max-inline-size: 48em;
+    font-size: 0.85rem;
+    color: var(--ink-muted);
+  }
+
+  .back {
+    margin: 0;
+  }
+</style>

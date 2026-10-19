@@ -31,6 +31,10 @@ const strings = {
   noPassages: ui.noPassages,
   shortList: ui.shortList,
   familyHint: ui.familyHint,
+  evidence: ui.evidence,
+  evidenceVerses: ui.evidenceVerses,
+  evidenceWitnesses: ui.evidenceWitnesses,
+  evidenceDraft: ui.evidenceDraft,
   verses: ui.verses(2).replace('2', '{n}'),
   verseOne: ui.verses(1),
 };
@@ -74,7 +78,12 @@ const config = { book, chapterKey, lenient };
   import { familyColor } from '../../lib/topics/color.ts';
   import { countUnits, isSome, toggleTopic as applyToggle, type Selection } from '../../lib/topics/selection.ts';
 
-  interface Topic { id: string; name: string; h: 0 | 1; o: string }
+  interface Evidence {
+    claim: string;
+    refs: { label: string; href: string }[];
+    witnesses: { title: string; when: string; note?: string }[];
+  }
+  interface Topic { id: string; name: string; h: 0 | 1; o: string; ev?: Evidence }
   interface Family { id: string; name: string; color: string; h: 0 | 1; topics: Topic[] }
   type Marks = Record<string, [number, number | null][]>;
 
@@ -100,6 +109,8 @@ const config = { book, chapterKey, lenient };
     const before = new Map<string, string[]>();
     const selection: Selection = { selected, before };
     const expanded = new Set<string>();
+    /** The topics whose evidence is open. */
+    const evidenceOpen = new Set<string>();
     let families: Family[] | null = null;
     let names = new Map<string, string>();
     let familyOf = new Map<string, Family>();
@@ -225,7 +236,65 @@ const config = { book, chapterKey, lenient };
       }
     };
 
-    const row = (id: string, name: string, level: 0 | 1, hasPassages: boolean, origin = ''): HTMLElement => {
+    /** The verses and early witnesses for a point of the Coptic faith: links to the verses, and the writings and manuscripts. */
+    const evidenceBlock = (id: string, ev: Evidence): HTMLElement => {
+      const details = document.createElement('details');
+      details.className = 'tm-ev';
+      if (evidenceOpen.has(id)) details.open = true;
+      details.addEventListener('toggle', () => {
+        if (details.open) evidenceOpen.add(id);
+        else evidenceOpen.delete(id);
+      });
+      const summary = document.createElement('summary');
+      summary.textContent = text.evidence!;
+      const claim = document.createElement('p');
+      claim.className = 'tm-ev-claim';
+      claim.textContent = ev.claim;
+      const versesHeading = document.createElement('p');
+      versesHeading.className = 'tm-ev-heading';
+      versesHeading.textContent = text.evidenceVerses!;
+      const links = document.createElement('p');
+      links.className = 'tm-ev-links';
+      for (const ref of ev.refs) {
+        const link = document.createElement('a');
+        link.href = ref.href;
+        link.textContent = ref.label;
+        link.dataset.evTopic = id;
+        links.append(link);
+      }
+      details.append(summary, claim, versesHeading, links);
+      if (ev.witnesses.length > 0) {
+        const witnessesHeading = document.createElement('p');
+        witnessesHeading.className = 'tm-ev-heading';
+        witnessesHeading.textContent = text.evidenceWitnesses!;
+        const items = document.createElement('ul');
+        items.className = 'tm-ev-witnesses';
+        for (const witness of ev.witnesses) {
+          const item = document.createElement('li');
+          const title = document.createElement('strong');
+          title.textContent = witness.title;
+          const when = document.createElement('span');
+          when.className = 'tm-ev-when';
+          when.textContent = witness.when;
+          item.append(title, when);
+          if (witness.note !== undefined) {
+            const note = document.createElement('span');
+            note.className = 'tm-ev-note';
+            note.textContent = witness.note;
+            item.append(note);
+          }
+          items.append(item);
+        }
+        details.append(witnessesHeading, items);
+      }
+      const draft = document.createElement('p');
+      draft.className = 'tm-ev-draft';
+      draft.textContent = text.evidenceDraft!;
+      details.append(draft);
+      return details;
+    };
+
+    const row = (id: string, name: string, level: 0 | 1, hasPassages: boolean, origin = '', ev?: Evidence): HTMLElement => {
       const wrap = document.createElement('div');
       wrap.className = level === 0 ? 'tm-row tm-family' : 'tm-row tm-topic';
       const labelEl = document.createElement('label');
@@ -260,6 +329,7 @@ const config = { book, chapterKey, lenient };
         wrap.classList.add('tm-has');
       }
       wrap.append(labelEl);
+      if (ev !== undefined) wrap.append(evidenceBlock(id, ev));
       return wrap;
     };
 
@@ -311,7 +381,7 @@ const config = { book, chapterKey, lenient };
         if (isOpen) {
           const sub = document.createElement('div');
           sub.className = 'tm-sub';
-          for (const topic of topics) sub.append(row(topic.id, topic.name, 1, topic.h === 1, topic.o));
+          for (const topic of topics) sub.append(row(topic.id, topic.name, 1, topic.h === 1, topic.o, topic.ev));
           block.append(sub);
         }
         fragment.append(block);
@@ -394,6 +464,16 @@ const config = { book, chapterKey, lenient };
       search.value = '';
       renderList();
     });
+    // Following a verse from the evidence ticks its topic, so the verses are marked where they lead.
+    list.addEventListener('click', (event) => {
+      const link = (event.target as HTMLElement).closest<HTMLElement>('a[data-ev-topic]');
+      if (link === null) return;
+      const topicId = link.dataset.evTopic!;
+      if (!selected.has(topicId)) {
+        applyToggle(selection, topicId, true, subsOf);
+        save();
+      }
+    });
     selectedBox.addEventListener('click', (event) => {
       const chip = (event.target as HTMLElement).closest<HTMLElement>('[data-remove]');
       if (chip !== null) toggleTopic(chip.dataset.remove!, false);
@@ -401,6 +481,19 @@ const config = { book, chapterKey, lenient };
 
     root.hidden = false;
     updateCount();
+    // A link such as ?topic=44.12 (from the church-history page) ticks that topic and opens the panel on its evidence.
+    const wanted = new URLSearchParams(location.search).get('topic');
+    if (wanted !== null && validId(wanted)) {
+      if (!selected.has(wanted)) {
+        selected.add(wanted);
+        save();
+        updateCount();
+      }
+      expanded.add(wanted.split('.')[0]!);
+      evidenceOpen.add(wanted);
+      setOpen(true);
+      void loadNames().then(() => requestAnimationFrame(() => list.querySelector('details.tm-ev[open]')?.scrollIntoView({ block: 'center' })));
+    }
     if (selected.size > 0) {
       // the choice was remembered: colour this chapter, and learn the families (to untick them properly)
       void ensureMarks();
@@ -586,6 +679,7 @@ const config = { book, chapterKey, lenient };
 
   .tm-row {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     gap: 0.25rem;
     min-block-size: 44px;
@@ -724,5 +818,78 @@ const config = { book, chapterKey, lenient };
   /* Coloured verses: a tint and stripes along the foot, set from the script. */
   .chapter-text .tm {
     border-radius: 2px;
+  }
+
+  /* The evidence for a point of the Coptic faith: the verses it cites and the early witnesses. */
+  .tm-ev {
+    flex: 0 0 calc(100% - 1.7rem);
+    box-sizing: border-box;
+    margin-block: 0.1rem 0.5rem;
+    margin-inline-start: 1.7rem;
+    padding: 0.3rem 0.6rem 0.5rem;
+    border-inline-start: 3px solid var(--accent);
+    background: var(--surface);
+    border-radius: 6px;
+    font-size: 0.85rem;
+  }
+
+  .tm-ev summary {
+    cursor: pointer;
+    font-weight: 700;
+    color: var(--accent);
+  }
+
+  .tm-ev-claim {
+    margin: 0.5rem 0;
+  }
+
+  .tm-ev-heading {
+    margin: 0.6rem 0 0.2rem;
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: var(--ink-muted);
+  }
+
+  .tm-ev-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+    margin: 0;
+  }
+
+  .tm-ev-links a {
+    padding: 0.15rem 0.55rem;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    background: var(--surface-raised);
+    color: var(--ink);
+    font-size: 0.8rem;
+    text-decoration: none;
+  }
+
+  .tm-ev-links a:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+  }
+
+  .tm-ev-witnesses {
+    margin: 0;
+    padding-inline-start: 1.1rem;
+  }
+
+  .tm-ev-witnesses li {
+    margin-block: 0.35rem;
+  }
+
+  .tm-ev-when,
+  .tm-ev-note {
+    display: block;
+    color: var(--ink-muted);
+  }
+
+  .tm-ev-draft {
+    margin: 0.6rem 0 0;
+    font-size: 0.75rem;
+    color: var(--ink-muted);
   }
 </style>

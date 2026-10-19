@@ -41,6 +41,21 @@ have verses. Other maintainer tools in `scripts/topics/`: `find`, `outline`, `sk
 Current coverage: all 1,207 subtopics have verses (Nave only 276, hand-listed only 753, both 178). References use
 Hebrew/KJV numbering; Septuagint psalm numbers are converted.
 
+## Family 44: the Coptic faith in Scripture and the early witnesses
+
+The last family is not from the original list. For each point of faith of the church-history comparison (29 of them)
+it gives the Bible verses the Coptic Orthodox Church cites, with a one-sentence claim, and the early witnesses it points
+to: writings, councils and manuscripts, named by title, author and approximate date (for example the Didache, Ignatius of
+Antioch, Justin Martyr, Irenaeus, Origen, Cyprian, Athanasius, Cyril of Alexandria, Codex Vaticanus and Codex Sinaiticus,
+Rylands Papyrus 470, the Euchologion of Serapion, the Bawit icon of Christ and Abbot Mena). In the topic panel each of its
+subtopics has a "Verses and early witnesses" section with links to the chapters; following a link ticks the topic, so
+its verses are marked where it leads. A link such as `?topic=44.19` ticks a topic and opens the panel on its evidence;
+the church-history page uses it.
+
+The data is in `apps/web/src/data/coptic-evidence.ts`; the family and its verses are built from it
+(`taxonomy-source-5.ts`, `family-maps/f44.ts`) and the links by `lib/topics/evidence.ts`. Only works that exist are
+named, no chapter numbers are given unless well known, and everything is a draft for review by clergy.
+
 ## Limits
 
 - Nave is a 1903 index of the KJV, so it can miss verses that other translations or the Septuagint phrase

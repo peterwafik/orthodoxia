@@ -5,12 +5,12 @@ import { TOPIC_PASSAGES } from './topic-passages.ts';
 import { parsePassages } from './reference.ts';
 
 describe('the topical study taxonomy', () => {
-  it('has the 43 families, each with topics and starting passages', () => {
-    expect(FAMILIES).toHaveLength(43);
+  it('has the 44 families, each with topics and starting passages (family 44 gets its verses from its topics)', () => {
+    expect(FAMILIES).toHaveLength(44);
     FAMILIES.forEach((family, index) => {
       expect(family.id, family.en).toBe(String(index + 1));
       expect(family.topics.length, family.en).toBeGreaterThanOrEqual(15);
-      expect(family.passages.length, family.en).toBeGreaterThan(0);
+      if (family.id !== '44') expect(family.passages.length, family.en).toBeGreaterThan(0);
     });
   });
 

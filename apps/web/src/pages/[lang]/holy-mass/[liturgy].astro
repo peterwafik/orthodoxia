@@ -7,19 +7,20 @@
  * altar and the meaning behind. The list of stops hides behind a hamburger button.
  *
  * ONE language at a time: /en/ shows English only and /ar/ shows Arabic only (the header's language link
- * switches). The timeline is in lib/holy-mass/film.ts, the player in film-player.ts, the stops and scenes
+ * switches). One page per liturgy (/en/holy-mass/basil/, /gregory/, /cyril/), chosen on the page before. The timeline is in lib/holy-mass/film.ts, the player in film-player.ts, the stops and scenes
  * in data/holy-mass.ts, the prayer texts in content/liturgy/ (loaded per liturgy).
  */
-import Base from '../../layouts/Base.astro';
-import Icon from '../../components/holy-mass/Icon.astro';
-import { LOCALES, localePath, t, type Locale } from '../../i18n/index.ts';
-import { CHAPTERS, LITURGIES, STOPS, stopHash } from '../../data/holy-mass.ts';
+import Base from '../../../layouts/Base.astro';
+import Icon from '../../../components/holy-mass/Icon.astro';
+import { LOCALES, localePath, t, type Locale } from '../../../i18n/index.ts';
+import { CHAPTERS, LITURGIES, STOPS, stopHash } from '../../../data/holy-mass.ts';
 
 export function getStaticPaths() {
-  return LOCALES.map((lang) => ({ params: { lang } }));
+  return LOCALES.flatMap((lang) => LITURGIES.map((liturgy) => ({ params: { lang, liturgy: liturgy.id } })));
 }
 
 const locale = Astro.params.lang as Locale;
+const liturgy = LITURGIES.find((candidate) => candidate.id === Astro.params.liturgy)!;
 
 const UI = {
   en: {
@@ -34,7 +35,7 @@ const UI = {
     stopOf: (n: number, total: number) => `Stop ${n} of ${total}`,
     previous: 'Previous',
     next: 'Next',
-    liturgy: 'Liturgy',
+    otherLiturgy: 'Choose another liturgy',
     priest: 'Priest',
     deacon: 'Deacon',
     people: 'People',
@@ -73,7 +74,7 @@ const UI = {
     stopOf: (n: number, total: number) => `المحطة ${n} من ${total}`,
     previous: 'السابق',
     next: 'التالي',
-    liturgy: 'القداس',
+    otherLiturgy: 'اختر قداسًا آخر',
     priest: 'الكاهن',
     deacon: 'الشماس',
     people: 'الشعب',
@@ -114,8 +115,8 @@ function speakersOf(stop: (typeof STOPS)[number]) {
 const clientStops = STOPS.map((stop) => ({ n: stop.n, hash: stopHash(stop), chapter: stop.chapter, speakers: speakersOf(stop) }));
 ---
 
-<Base locale={locale} title={ui.title} description={ui.description} minimalFooter>
-  <div class="journey" data-journey data-total={total} data-locale={locale}>
+<Base locale={locale} title={`${ui.title}: ${liturgy.title[locale]}`} description={ui.description}>
+  <div class="journey" data-journey data-total={total} data-locale={locale} data-liturgy={liturgy.id} data-liturgy-name={liturgy.title[locale]}>
     <section class="stage" aria-label={ui.viewportLabel}>
       <div class="film" data-film role="img" aria-label={ui.viewportLabel}></div>
       <div class="wash" aria-hidden="true"></div>
@@ -139,15 +140,7 @@ const clientStops = STOPS.map((stop) => ({ n: stop.n, hash: stopHash(stop), chap
       </div>
       <div class="progress" aria-hidden="true"><span data-progress></span></div>
       <div class="options" id="hm-options" data-options>
-        <div class="liturgies" role="radiogroup" aria-label={ui.liturgy}>
-          {
-            LITURGIES.map((liturgy, index) => (
-              <button type="button" role="radio" aria-checked={index === 0 ? 'true' : 'false'} data-liturgy={liturgy.id} data-name={liturgy.title[locale]}>
-                {liturgy.title[locale]}
-              </button>
-            ))
-          }
-        </div>
+        <a class="other-liturgy" href={localePath(locale, 'holy-mass')}>{ui.otherLiturgy}</a>
         <div class="sizer" role="group" aria-label={ui.textSize}>
           <button type="button" class="icon-button" dir="ltr" data-size="-1" aria-label={ui.smaller} title={ui.smaller}>A−</button>
           <button type="button" class="icon-button" dir="ltr" data-size="1" aria-label={ui.larger} title={ui.larger}>A+</button>
@@ -270,14 +263,14 @@ const clientStops = STOPS.map((stop) => ({ n: stop.n, hash: stopHash(stop), chap
 </Base>
 
 <script>
-  import { createFilm } from '../../lib/holy-mass/film-player.ts';
-  import type { ChapterRange } from '../../lib/holy-mass/film.ts';
-  import { LAYERS, LAYERS_KEY, parseLayers, serializeLayers, toggleLayer, type Layer, type LayerState } from '../../lib/holy-mass/layers.ts';
-  import { loadLiturgy } from '../../lib/holy-mass/load.ts';
-  import { parseReading, READING_KEY, serializeReading, stepSize, type Reading } from '../../lib/holy-mass/reading.ts';
-  import { creditFor, hasRubric, scriptItems } from '../../lib/holy-mass/script-view.ts';
-  import type { LiturgyJson } from '../../lib/liturgy/build-core.ts';
-  import type { LiturgyId } from '../../lib/liturgy/resolve.ts';
+  import { createFilm } from '../../../lib/holy-mass/film-player.ts';
+  import type { ChapterRange } from '../../../lib/holy-mass/film.ts';
+  import { LAYERS, LAYERS_KEY, parseLayers, serializeLayers, toggleLayer, type Layer, type LayerState } from '../../../lib/holy-mass/layers.ts';
+  import { loadLiturgy } from '../../../lib/holy-mass/load.ts';
+  import { parseReading, READING_KEY, serializeReading, stepSize, type Reading } from '../../../lib/holy-mass/reading.ts';
+  import { creditFor, hasRubric, scriptItems } from '../../../lib/holy-mass/script-view.ts';
+  import type { LiturgyJson } from '../../../lib/liturgy/build-core.ts';
+  import type { LiturgyId } from '../../../lib/liturgy/resolve.ts';
 
   interface ClientStop {
     n: number;
@@ -489,7 +482,7 @@ const clientStops = STOPS.map((stop) => ({ n: stop.n, hash: stopHash(stop), chap
 
     // ---- the prayers: the chat of each stop -------------------------------------------------------
     let scripts: LiturgyJson | null = null;
-    let wantedLiturgy: LiturgyId = 'basil';
+    const liturgyId = (root.dataset['liturgy'] ?? 'basil') as LiturgyId;
     let reading: Reading = parseReading(null);
     try {
       reading = parseReading(localStorage.getItem(READING_KEY));
@@ -566,37 +559,19 @@ const clientStops = STOPS.map((stop) => ({ n: stop.n, hash: stopHash(stop), chap
     }
 
     async function showLiturgy(id: LiturgyId) {
-      wantedLiturgy = id;
-      const loaded = await loadLiturgy(id);
-      if (wantedLiturgy !== id) return; // the reader picked another meanwhile
-      scripts = loaded;
+      scripts = await loadLiturgy(id);
       renderScripts();
     }
 
-    // ---- liturgy and text size ------------------------------------------------------------------
-    const liturgyButtons = [...root.querySelectorAll<HTMLButtonElement>('[data-liturgy]')];
-    function setLiturgy(id: string) {
-      const chosen = liturgyButtons.find((button) => button.dataset['liturgy'] === id) ?? liturgyButtons[0]!;
-      for (const button of liturgyButtons) button.setAttribute('aria-checked', String(button === chosen));
-      const name = chosen.dataset['name'] ?? '';
-      for (const note of root!.querySelectorAll<HTMLElement>('[data-varies]')) note.textContent = text.varies.replace('{liturgy}', name);
-      void showLiturgy(chosen.dataset['liturgy'] as LiturgyId);
-      try {
-        localStorage.setItem('orthodoxia:holy-mass:liturgy', chosen.dataset['liturgy']!);
-      } catch {
-        // Not saved.
-      }
-    }
-    for (const button of liturgyButtons) button.addEventListener('click', () => setLiturgy(button.dataset['liturgy']!));
-    let savedLiturgy = 'basil';
+    // ---- the liturgy was chosen on the page before; here are the text size and the saved place ----
+    for (const note of root.querySelectorAll<HTMLElement>('[data-varies]')) note.textContent = text.varies.replace('{liturgy}', root.dataset['liturgyName'] ?? '');
+    void showLiturgy(liturgyId);
     let savedStop = 0;
     try {
-      savedLiturgy = localStorage.getItem('orthodoxia:holy-mass:liturgy') ?? 'basil';
       savedStop = Number(localStorage.getItem('orthodoxia:holy-mass') ?? '0');
     } catch {
       // Defaults.
     }
-    setLiturgy(savedLiturgy);
     applyLayers();
     const sizeButtons = [...root.querySelectorAll<HTMLButtonElement>('[data-size]')];
     function applyReading() {
@@ -754,7 +729,7 @@ const clientStops = STOPS.map((stop) => ({ n: stop.n, hash: stopHash(stop), chap
 
   .icon-button,
   .rail-close,
-  .liturgies button {
+  .other-liturgy {
     min-block-size: 44px;
     border: 1px solid color-mix(in srgb, var(--gold) 60%, transparent);
     border-radius: 0.6rem;
@@ -798,7 +773,7 @@ const clientStops = STOPS.map((stop) => ({ n: stop.n, hash: stopHash(stop), chap
     transition: inline-size 0.3s ease;
   }
 
-  /* --- the options (liturgy and text size) ---------------------------------------------------- */
+  /* --- the options (text size and the link to the other liturgies) ---------------------------------------------------- */
   .options {
     position: absolute;
     inset-block-start: calc(100% + 0.4rem);
@@ -817,20 +792,16 @@ const clientStops = STOPS.map((stop) => ({ n: stop.n, hash: stopHash(stop), chap
     display: flex;
   }
 
-  .liturgies {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.35rem;
-  }
-
-  .liturgies button {
+  .other-liturgy {
+    display: inline-flex;
+    align-items: center;
     font-size: 0.85rem;
     color: var(--ink);
+    text-decoration: none;
   }
 
-  .liturgies button[aria-checked='true'] {
+  .other-liturgy:hover {
     background: var(--ink);
-    border-color: var(--ink);
     color: var(--gold-bright);
   }
 

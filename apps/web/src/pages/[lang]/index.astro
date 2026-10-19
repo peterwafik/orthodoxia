@@ -14,12 +14,13 @@ const cards = [
   { ...strings.home.cards.explore, href: explorerPath(locale) },
   { ...strings.home.cards.threads, href: explorerPath(locale, 'threads') },
   { ...strings.home.cards.holyMass, href: localePath(locale, 'holy-mass') },
+  { ...strings.home.cards.churchHistory, href: localePath(locale, 'church-history') },
   { ...strings.home.cards.about, href: localePath(locale, 'about') },
   { ...strings.home.cards.sources, href: localePath(locale, 'sources') },
 ];
 ---
 
-<Base locale={locale} minimalFooter simpleHeader>
+<Base locale={locale} simpleHeader>
   <section class="hero">
     <div class="wrap">
       <h1>{strings.home.title}</h1>

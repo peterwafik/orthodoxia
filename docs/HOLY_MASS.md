@@ -1,6 +1,6 @@
 # Holy Mass: the Liturgy journey
 
-`/en/holy-mass/` and `/ar/holy-mass/`. The Divine Liturgy as one continuous flight: scrolling the
+`/en/holy-mass/` and `/ar/holy-mass/` open a page with three cards (the Liturgies of St. Cyril, St. Gregory and St. Basil); each card opens the journey for that liturgy at `/en/holy-mass/cyril/`, `/gregory/` or `/basil/` (and the same in `/ar/`). There is no liturgy switch inside the journey, only a link back to the cards. The Divine Liturgy as one continuous flight: scrolling the
 page plays a film of five clay-diorama scenes, one per chapter, and the camera flies from each
 scene into the next, from the sanctuary screen to Christ enthroned in heaven.
 
@@ -18,7 +18,7 @@ and the list of the 52 stops (in five chapters) hides behind a hamburger button.
 | Texts | `content/liturgy/` (format in its README), `scripts/liturgy/build.ts` → `apps/web/public/liturgy/<liturgy>.json` | The prayers, one plain-text file per stop (`common/` or a liturgy's own folder), each with a required `source:` line. The build checks every file, names the file and line of a problem, and prints how many stops each liturgy has text for. |
 | Reading | `apps/web/src/lib/liturgy/`, `apps/web/src/lib/holy-mass/reading.ts`, `script-view.ts`, `load.ts` | The parser, the resolution of a liturgy, the saved language and size choice, the lines shown for a stop, and the loader. All pure and tested. |
 | Layers | `apps/web/src/lib/holy-mass/layers.ts` | Which of the five layers the reader shows: steps, priest, deacon, people, meaning. Saved in the browser. Pure logic, tested. |
-| Page | `apps/web/src/pages/[lang]/holy-mass.astro` (icons in `components/holy-mass/Icon.astro`) | Layout, scroll → film, layers, deep links, options. |
+| Page | `apps/web/src/pages/[lang]/holy-mass/index.astro` (the three cards) and `holy-mass/[liturgy].astro` (the journey; icons in `components/holy-mass/Icon.astro`) | Layout, scroll → film, layers, deep links, options. |
 
 - **Scroll drives the camera.** A stop is "settled" when its section is at the top of the panel; in
   between, the film is part-way to the next stop. Rail clicks and Next/Previous scroll smoothly, so a

@@ -3,7 +3,7 @@
  * `node scripts/bible/build.ts`). Pages read it while being pre-rendered; nothing is fetched by the
  * browser.
  */
-import { readFileSync } from 'node:fs';
+import { existsSync, readFileSync } from 'node:fs';
 import { join, resolve } from 'node:path';
 import {
   BOOKS,
@@ -18,8 +18,12 @@ import {
 } from '@orthodoxia/bible';
 import { localePath, type Locale } from '../i18n/index.ts';
 
-// Astro runs builds from apps/web; the data lives at the repository root.
-const DATA = resolve(process.cwd(), '../../data/bible/build');
+// Astro runs builds from apps/web and the tests run from the repository root; the data lives at the root.
+const DATA = [
+  resolve(process.cwd(), '../../data/bible/build'),
+  resolve(process.cwd(), 'data/bible/build'),
+  resolve(import.meta.dirname, '../../../../data/bible/build'),
+].find((directory) => existsSync(join(directory, 'manifest.json'))) ?? resolve(process.cwd(), '../../data/bible/build');
 
 interface Manifest {
   readonly editions: Record<string, { books: { code: string; chapters: number[] }[] }>;

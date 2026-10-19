@@ -29,22 +29,18 @@
   --step-3: 1.953rem;
   --step-hero: clamp(2.1rem, 1.4rem + 3.4vw, 3.6rem);
 
-  --gutter: 1rem;
-  --measure: 38rem;
-  --page: 72rem;
+  --gutter: clamp(1rem, 3vw, 4.5rem);
+  /* Reading text fills the page width, so it follows the window when it is resized or zoomed out. */
+  --measure: 100%;
+  /* The page and its header use the whole width, so they follow the window when it is resized or zoomed. */
+  --page: none;
 }
 
 :root:lang(ar) {
   --font-ui: 'Noto Sans Arabic Variable', 'Inter Variable', system-ui, sans-serif;
   --font-reading: 'Noto Naskh Arabic Variable', 'Source Serif 4 Variable', serif;
-  /* Arabic script needs a narrower measure and more line height to read comfortably. */
-  --measure: 34rem;
-}
-
-@media (min-width: 48rem) {
-  :root {
-    --gutter: 2rem;
-  }
+  /* Arabic script needs more line height to read comfortably. */
+  --measure: 100%;
 }
 
 :root[data-theme='dark'] {

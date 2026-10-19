@@ -45,6 +45,7 @@ import { F40 } from './f40.ts';
 import { F41 } from './f41.ts';
 import { F42 } from './f42.ts';
 import { F43 } from './f43.ts';
+import { F44 } from './f44.ts';
 import type { FamilyMap } from './types.ts';
 
 export const FAMILY_MAPS: Readonly<Record<string, FamilyMap>> = {
@@ -91,6 +92,7 @@ export const FAMILY_MAPS: Readonly<Record<string, FamilyMap>> = {
   '41': F41,
   '42': F42,
   '43': F43,
+  '44': F44,
 };
 
 const join = (pick: (map: FamilyMap) => Readonly<Record<string, string>>): Readonly<Record<string, string>> =>

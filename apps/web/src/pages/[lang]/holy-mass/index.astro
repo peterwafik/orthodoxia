@@ -1,0 +1,178 @@
+---
+/**
+ * The page before the Holy Mass journey: the reader picks one of the three liturgies, and the journey
+ * (holy-mass/[liturgy].astro) opens for that liturgy alone.
+ */
+import Base from '../../../layouts/Base.astro';
+import { LITURGIES } from '../../../data/holy-mass.ts';
+import { LOCALES, localePath, type Locale } from '../../../i18n/index.ts';
+
+export function getStaticPaths() {
+  return LOCALES.map((lang) => ({ params: { lang } }));
+}
+
+const locale = Astro.params.lang as Locale;
+
+const UI = {
+  en: {
+    title: 'Holy Mass',
+    description: 'Choose one of the three liturgies of the Coptic Orthodox Church, then follow its prayers stop by stop.',
+    heading: 'Holy Mass',
+    lede: 'The Coptic Orthodox Church prays three liturgies. Choose one to follow its prayers stop by stop, from the earthly church toward the heavenly worship.',
+    note: 'The descriptions are short drafts and have not been reviewed by clergy.',
+    open: 'Open the liturgy',
+    cards: {
+      cyril: {
+        title: 'The Liturgy of St. Cyril',
+        note: 'Traditionally ascribed to St. Mark the Evangelist and later arranged by St. Cyril of Alexandria; also called the Liturgy of St. Mark.',
+      },
+      gregory: {
+        title: 'The Liturgy of St. Gregory',
+        note: 'Attributed to St. Gregory of Nazianzus, called “the Theologian”; its prayers are addressed mainly to Christ.',
+      },
+      basil: {
+        title: 'The Liturgy of St. Basil',
+        note: 'Attributed to St. Basil the Great, Archbishop of Caesarea; the liturgy the Coptic Church prays most often.',
+      },
+    },
+  },
+  ar: {
+    title: 'القداس الإلهي',
+    description: 'اختر واحدًا من القداسات الثلاثة في الكنيسة القبطية الأرثوذكسية، ثم تابع صلواته محطةً محطة.',
+    heading: 'القداس الإلهي',
+    lede: 'تصلّي الكنيسة القبطية الأرثوذكسية ثلاثة قداسات. اختر واحدًا لتتابع صلواته محطةً محطة، من الكنيسة الأرضية نحو العبادة السماوية.',
+    note: 'الأوصاف مسودات قصيرة لم يراجعها الآباء الكهنة بعد.',
+    open: 'افتح القداس',
+    cards: {
+      cyril: {
+        title: 'القداس الكيرلسي',
+        note: 'يُنسب تقليديًا إلى مار مرقس الإنجيلي، ورتّبه لاحقًا القديس كيرلس الإسكندري؛ ويُسمى أيضًا قداس مار مرقس.',
+      },
+      gregory: {
+        title: 'القداس الغريغوري',
+        note: 'يُنسب إلى القديس غريغوريوس النزينزي الملقب بالناطق بالإلهيات؛ وصلواته موجهة في معظمها إلى المسيح.',
+      },
+      basil: {
+        title: 'القداس الباسيلي',
+        note: 'يُنسب إلى القديس باسيليوس الكبير رئيس أساقفة قيصرية؛ وهو القداس الذي تصليه الكنيسة القبطية في أغلب الأوقات.',
+      },
+    },
+  },
+} as const;
+const ui = UI[locale];
+
+/** Cyril, Gregory, Basil: the order of the page. */
+const ORDER = ['cyril', 'gregory', 'basil'] as const;
+const cards = ORDER.map((id) => ({
+  id,
+  ...ui.cards[id],
+  href: localePath(locale, `holy-mass/${id}`),
+  name: LITURGIES.find((liturgy) => liturgy.id === id)!.title[locale],
+}));
+---
+
+<Base locale={locale} title={ui.title} description={ui.description}>
+  <section class="intro">
+    <div class="wrap">
+      <h1>{ui.heading}</h1>
+      <p class="lede">{ui.lede}</p>
+    </div>
+  </section>
+
+  <section class="choices">
+    <div class="wrap">
+      <ul class="cards">
+        {
+          cards.map((card) => (
+            <li>
+              <a class="card" href={card.href} aria-label={`${ui.open}: ${card.name}`}>
+                <span class="card-title">{card.title}</span>
+                <span class="card-note">{card.note}</span>
+                <span class="card-open">{ui.open}</span>
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+      <p class="draft">{ui.note}</p>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .intro {
+    padding-block: clamp(2.25rem, 5vw, 3.75rem) 0.5rem;
+  }
+
+  h1 {
+    font-size: var(--step-hero);
+    margin-block-end: 0.6rem;
+  }
+
+  .lede {
+    font-family: var(--font-reading);
+    font-size: var(--step-1);
+    max-inline-size: 42em;
+    margin: 0;
+    color: var(--ink-muted);
+  }
+
+  .choices {
+    padding-block: 1.75rem 3rem;
+  }
+
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 18rem), 1fr));
+    gap: 1.25rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    block-size: 100%;
+    padding: 1.75rem 1.6rem 1.6rem;
+    border: 1px solid var(--line);
+    border-block-start: 3px solid var(--accent);
+    border-radius: 6px;
+    background: var(--surface-raised);
+    color: var(--ink);
+    text-decoration: none;
+  }
+
+  .card:hover,
+  .card:focus-visible {
+    border-color: var(--accent);
+  }
+
+  .card-title {
+    font-family: var(--font-reading);
+    font-size: var(--step-2);
+    font-weight: 600;
+  }
+
+  .card:hover .card-title {
+    text-decoration: underline;
+    text-underline-offset: 0.25em;
+  }
+
+  .card-note {
+    color: var(--ink-muted);
+    flex: 1;
+  }
+
+  .card-open {
+    color: var(--accent);
+    font-weight: 600;
+  }
+
+  .draft {
+    margin-block: 1.25rem 0;
+    font-size: 0.85rem;
+    color: var(--ink-muted);
+  }
+</style>

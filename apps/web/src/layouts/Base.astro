@@ -16,13 +16,11 @@ interface Props {
   alternates?: Partial<Record<Locale, string>>;
   /** The canonical address, when this page duplicates another (e.g. /en/bible/ shows the KJV index). */
   canonicalPath?: string;
-  /** A quiet one-line footer, for reading pages. */
-  minimalFooter?: boolean;
   /** The home page: the cards are the navigation, so the header keeps only the brand and the tools. */
   simpleHeader?: boolean;
 }
 
-const { locale, title, description, alternates = {}, canonicalPath, minimalFooter = false, simpleHeader = false } = Astro.props;
+const { locale, title, description, alternates = {}, canonicalPath, simpleHeader = false } = Astro.props;
 const alternatePath = (other: Locale): string => alternates[other] ?? switchLocalePath(Astro.url.pathname, other);
 const strings = t(locale);
 const pageTitle = title === undefined ? strings.meta.siteName : `${title} | ${strings.meta.siteName}`;
@@ -65,6 +63,6 @@ const canonical = new URL(canonicalPath ?? Astro.url.pathname, Astro.site);
     <main id="content" tabindex="-1">
       <slot />
     </main>
-    <SiteFooter locale={locale} minimal={minimalFooter} />
+    <SiteFooter locale={locale} />
   </body>
 </html>
