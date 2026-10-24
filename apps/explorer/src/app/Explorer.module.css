@@ -1,8 +1,13 @@
 /* Every view fills the window. Inactive ones stay laid out at full size (so the arcs keep their
    WebGL canvas and zoom) but are invisible, and `inert` keeps them out of focus and assistive
    technology. */
+.app {
+  position: relative;
+  block-size: 100dvh;
+}
+
 .view {
-  position: fixed;
+  position: absolute;
   inset: 0;
 }
 

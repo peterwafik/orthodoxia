@@ -119,15 +119,17 @@ const en = {
     spineHint: (count: string, one: boolean) =>
       `· ${count} ${one ? 'thread' : 'threads'} from here · click to read`,
   },
-  credits: {
-    links: 'Links:',
-    tsk: ', from the Treasury of Scripture Knowledge',
-    text: (translation: string) => `Text: ${translation}`,
-    publicDomain: ' (public domain)',
-    inspiredBy: 'Inspired by',
-    by: 'by',
-    basedOn: 'Explorer based on',
-    upstreamAuthor: 'by Oleksii Trekhleb (MIT)',
+  footer: {
+    bible: 'Bible',
+    holyMass: 'Holy Mass',
+    churchHistory: 'Church history',
+    crossReferences: 'Cross-references',
+    threads: 'Read with threads',
+    about: 'About',
+    sources: 'Sources & licenses',
+    pages: 'Sections',
+    project: 'The project',
+    online: 'An online study project in English and Arabic',
   },
   page: {
     description:
@@ -253,15 +255,17 @@ const ar: Messages = {
       'خيوط من آيات هذا الأصحاح إلى حيث تقع شواهدها في الكتاب المقدس، معروضة على شريط عمودي للأسفار الستة والستين.',
     spineHint: (count, one) => `· ${count} ${one ? 'خيط' : 'خيوط'} من هنا · انقر للقراءة`,
   },
-  credits: {
-    links: 'الروابط:',
-    tsk: '، من «كنز معرفة الكتاب المقدس»',
-    text: (translation) => `النص: ${translation}`,
-    publicDomain: ' (ملك عام)',
-    inspiredBy: 'مستوحى من',
-    by: 'لـ',
-    basedOn: 'المستكشف مبني على',
-    upstreamAuthor: 'لأوليكسي تريخليب (MIT)',
+  footer: {
+    bible: 'الكتاب المقدس',
+    holyMass: 'القداس الإلهي',
+    churchHistory: 'تاريخ الكنيسة',
+    crossReferences: 'الشواهد',
+    threads: 'اقرأ مع الخيوط',
+    about: 'عن المشروع',
+    sources: 'المصادر والتراخيص',
+    pages: 'الأقسام',
+    project: 'المشروع',
+    online: 'مشروع دراسي على الإنترنت بالعربية والإنجليزية',
   },
   page: {
     description:

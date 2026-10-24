@@ -1,0 +1,32 @@
+---
+/**
+ * The drawing at the top of each Holy Mass card: the saint the liturgy is named after, in the manner of the reference
+ * icons (halo, hair, thick flowing beard, robes, hands holding a book) with the face left empty. The outlines are in
+ * saint-paths.ts. Decorative only; the card's title names the saint.
+ */
+import { SAINTS } from './saint-paths.ts';
+
+type Saint = 'cyril' | 'gregory' | 'basil';
+interface Props {
+  saint: Saint;
+}
+const { saint } = Astro.props;
+const { width, height, d } = SAINTS[saint];
+// St. Basil is the monk figure turned to face the other way, so that all three saints look to the left.
+const transform = saint === 'basil' ? `matrix(-1 0 0 1 ${width} 0)` : undefined;
+---
+
+<svg class="saint" viewBox={`0 0 ${width} ${height}`} aria-hidden="true">
+  <path d={d} fill="currentColor" fill-rule="evenodd" transform={transform}></path>
+</svg>
+
+<style>
+  .saint {
+    display: block;
+    inline-size: 100%;
+    block-size: 15rem;
+    margin-block-end: 0.5rem;
+    color: var(--accent);
+    pointer-events: none;
+  }
+</style>

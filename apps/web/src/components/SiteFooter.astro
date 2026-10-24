@@ -1,5 +1,12 @@
 ---
-import { localePath, t, type Locale } from '../i18n/index.ts';
+/**
+ * The footer of every page, identical everywhere (the cross-reference explorer has the same one, built in React in
+ * apps/explorer/src/shared/ui/SiteFooter.tsx: keep the two in step). Two slim rows: the site's name with its pages, the
+ * project pages (About, Sources) set apart from them by a vertical divider, and below, what the site is and its
+ * copyright line. Nothing else goes in it: no credits, licences or disclaimers.
+ */
+import CopticCross from './CopticCross.astro';
+import { explorerPath, localePath, t, type Locale } from '../i18n/index.ts';
 
 interface Props {
   locale: Locale;
@@ -7,32 +14,129 @@ interface Props {
 
 const { locale } = Astro.props;
 const strings = t(locale);
+const pages = [
+  { href: localePath(locale, 'bible'), label: strings.nav.bible },
+  { href: localePath(locale, 'holy-mass'), label: strings.nav.holyMass },
+  { href: localePath(locale, 'church-history'), label: strings.nav.churchHistory },
+  { href: explorerPath(locale), label: strings.nav.explore },
+  { href: explorerPath(locale, 'threads'), label: strings.home.cards.threads.title },
+];
+const project = [
+  { href: localePath(locale, 'about'), label: strings.nav.about },
+  { href: localePath(locale, 'sources'), label: strings.footer.sourcesAndLicenses },
+];
+const year = new Date().getFullYear();
 ---
 
-<footer class="site-footer">
-  <div class="wrap">
-    <a href={localePath(locale, 'sources')}>{strings.footer.sourcesAndLicenses}</a>
-    <span aria-hidden="true">·</span>
-    <a href={localePath(locale, 'about')}>{strings.nav.about}</a>
+<footer class="sf">
+  <div class="sf-inner">
+    <a class="sf-logo" href={localePath(locale)}>
+      <CopticCross size={22} />
+      <span>{strings.meta.siteName}</span>
+    </a>
+    <div class="sf-links">
+      <nav aria-label={strings.footer.pages}>
+        <ul>
+          {pages.map((link) => <li><a href={link.href}>{link.label}</a></li>)}
+        </ul>
+      </nav>
+      <span class="sf-divider" aria-hidden="true"></span>
+      <nav aria-label={strings.footer.project}>
+        <ul>
+          {project.map((link) => <li><a href={link.href}>{link.label}</a></li>)}
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <div class="sf-note">
+    <p>{strings.footer.online}</p>
+    <p>© {year} {strings.meta.siteName}</p>
   </div>
 </footer>
 
 <style>
-  .site-footer {
-    margin-block-start: 3rem;
-    padding-block: 1.25rem 1.75rem;
-    border-block-start: 1px solid var(--line);
+  .sf {
+    margin-block-start: 2.5rem;
+    background: var(--surface-raised);
     color: var(--ink-muted);
-    font-size: var(--step--1);
   }
 
-  .wrap {
+  .sf-inner {
     display: flex;
-    gap: 0.6rem;
-    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.25rem 2rem;
+    padding: 0.8rem var(--gutter) 0.3rem;
   }
 
-  a {
+  .sf-logo {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    color: var(--ink);
+    font-family: var(--font-reading);
+    font-size: 1.05rem;
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .sf-links {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0 1.25rem;
+    margin-inline-start: auto;
+  }
+
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 1.25rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  /* The project pages are set apart from the sections by a thin vertical divider. */
+  .sf-divider {
+    inline-size: 1px;
+    block-size: 1.3rem;
+    background: var(--line);
+  }
+
+  nav a {
+    display: inline-block;
+    padding-block: 0.3rem;
     color: var(--ink-muted);
+    font-size: 0.875rem;
+    text-decoration: none;
+  }
+
+  nav a:hover,
+  nav a:focus-visible {
+    color: var(--ink);
+    text-decoration: underline;
+    text-decoration-color: var(--accent);
+    text-decoration-thickness: 2px;
+    text-underline-offset: 0.3em;
+  }
+
+  .sf-note {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 0.1rem 1.5rem;
+    padding: 0.15rem var(--gutter) 0.8rem;
+    font-size: 0.8rem;
+  }
+
+  .sf-note p {
+    margin: 0;
+  }
+
+  @media (max-width: 40rem) {
+    .sf-divider {
+      display: none;
+    }
   }
 </style>

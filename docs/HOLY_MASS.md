@@ -1,19 +1,19 @@
 # Holy Mass: the Liturgy journey
 
 `/en/holy-mass/` and `/ar/holy-mass/` open a page with three cards (the Liturgies of St. Cyril, St. Gregory and St. Basil); each card opens the journey for that liturgy at `/en/holy-mass/cyril/`, `/gregory/` or `/basil/` (and the same in `/ar/`). There is no liturgy switch inside the journey, only a link back to the cards. The Divine Liturgy as one continuous flight: scrolling the
-page plays a film of five clay-diorama scenes, one per chapter, and the camera flies from each
-scene into the next, from the sanctuary screen to Christ enthroned in heaven.
+page lays 31 line drawings softly behind the text; as you scroll, each one dissolves into the next at the stop where the scene changes.
 
-The page is minimal: the film plays softly behind the page, each stop is a short chat in front of it,
+
+The page is minimal: the drawings sit softly behind the page, each stop is a short chat in front of it,
 and the list of the 52 stops (in five chapters) hides behind a hamburger button.
 
 ## How it works
 
 | Part | Where | What it does |
 | --- | --- | --- |
-| Scenes and clips | `content/art/holy-mass-film/` (sources, prompts, job ids) and `apps/web/public/holy-mass-film/` (what the site serves) | Five stills (generated with Higgsfield), five "dive" clips and three "link" clips, each encoded for desktop (1280 × 720) and phone (854 × 480). About 33 MB in all; a visitor downloads one set, about 11 MB on a phone. |
-| Timeline | `apps/web/src/lib/holy-mass/film.ts` | Maps a fractional stop position to a clip and a time in it. Inside a chapter its dive plays from first to last frame; between the last stop of a chapter and the first of the next its link plays. Pure arithmetic, tested. |
-| Player | `apps/web/src/lib/holy-mass/film-player.ts` | Fetches each clip whole as a blob (always seekable), seeks it by scroll without ever queueing a seek, fetches neighbours early, and keeps the scene's still underneath until a clip paints. |
+| Artwork | `Holy Mass/Holy Mass Background Images/` (the 31 PNG sources) and `apps/web/public/holy-mass-bg/01.webp`–`31.webp` (what the site serves, about 4 MB in all) | Fetched only when the reader is near them. The earlier film (`content/art/holy-mass-film/`) is no longer served. |
+| Timeline | `apps/web/src/lib/holy-mass/backdrop.ts` | Which stop each of the 31 pictures opens at (`STARTS`, a fraction means part-way down a stop) and how visible each one is at a scroll position: a dissolve that finishes as the new stop reaches the top. Pure arithmetic, tested. |
+| Player | `apps/web/src/lib/holy-mass/backdrop-player.ts` | One stacked `<img>` per picture, opacity set by the timeline, the two neighbours on each side fetched early. |
 | Stops | `apps/web/src/data/holy-mass.ts`, `holy-mass-says.ts` | The 52 stops (titles, what happens, what it means, scripture), the five scenes' captions and notes, and one draft sentence per speaker per stop (what the priest, the deacon and the people do or say). |
 | Texts | `content/liturgy/` (format in its README), `scripts/liturgy/build.ts` → `apps/web/public/liturgy/<liturgy>.json` | The prayers, one plain-text file per stop (`common/` or a liturgy's own folder), each with a required `source:` line. The build checks every file, names the file and line of a problem, and prints how many stops each liturgy has text for. |
 | Reading | `apps/web/src/lib/liturgy/`, `apps/web/src/lib/holy-mass/reading.ts`, `script-view.ts`, `load.ts` | The parser, the resolution of a liturgy, the saved language and size choice, the lines shown for a stop, and the loader. All pure and tested. |

@@ -2,10 +2,10 @@ import { useEffect, useRef, useState } from 'react';
 import { formatPassage, type Passage } from '../core/bible/passage.ts';
 import { t } from '../i18n/messages.ts';
 import { ErrorBoundary } from '../shared/ui/ErrorBoundary.tsx';
+import { SiteFooter } from '../shared/ui/SiteFooter.tsx';
 import { Brand } from '../shared/ui/SiteNav.tsx';
 import controls from '../visualizations/shared/components/controls.module.css';
 import { DEFAULT_LINK_FILTER } from '../visualizations/shared/link-filter.ts';
-import { Credits } from '../visualizations/shared/components/Credits.tsx';
 import { VizPage } from '../visualizations/shared/components/VizPage.tsx';
 import type { VizData } from '../visualizations/shared/viz-data.ts';
 import styles from './Explorer.module.css';
@@ -76,7 +76,7 @@ export function Explorer({ data }: { readonly data: VizData }) {
     </>
   );
 
-  return VIEWS.map((view) => {
+  const pages = VIEWS.map((view) => {
     const isActive = view === active;
     return (
       <div
@@ -90,7 +90,7 @@ export function Explorer({ data }: { readonly data: VizData }) {
             switch away. */}
         <ErrorBoundary
           fallback={(error) => (
-            <VizPage masthead={masthead} credits={<Credits />}>
+            <VizPage masthead={masthead}>
               <p role="alert" className={styles.error}>
                 {t.views.failed(view.title, error.message)}
               </p>
@@ -141,4 +141,12 @@ export function Explorer({ data }: { readonly data: VizData }) {
       </div>
     );
   });
+
+  // The views fill the window; the footer of the site is below them, one scroll away.
+  return (
+    <>
+      <div className={styles.app}>{pages}</div>
+      <SiteFooter />
+    </>
+  );
 }

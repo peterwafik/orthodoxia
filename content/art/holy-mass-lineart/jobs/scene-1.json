@@ -1,0 +1,40 @@
+[
+  {
+    "created_at": "2026-10-20T22:10:05.127087Z",
+    "display_name": "GPT Image 2",
+    "id": "62837e79-1ec7-49b7-8d3c-d7e084574a2b",
+    "job_type": "gpt_image_2",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3GfTqXrVMBCRPS13H0zNDTDeuAv/hf_20261020_221005_62837e79-1ec7-49b7-8d3c-d7e084574a2b_min.webp",
+    "params": {
+      "aspect_ratio": "3:2",
+      "height": 1360,
+      "medias": [
+        {
+          "data": {
+            "id": "02dd8788-9ec3-49b0-b7ac-b815ee8cca4a",
+            "type": "media_input",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GfTqXrVMBCRPS13H0zNDTDeuAv/02dd8788-9ec3-49b0-b7ac-b815ee8cca4a.png"
+          },
+          "role": "image"
+        },
+        {
+          "data": {
+            "id": "44aff9c6-bdff-4922-bc9c-286a2bdbbdb5",
+            "type": "media_input",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GfTqXrVMBCRPS13H0zNDTDeuAv/44aff9c6-bdff-4922-bc9c-286a2bdbbdb5.jpg"
+          },
+          "role": "image"
+        }
+      ],
+      "model": "videotape-alpha",
+      "prompt": "Drawing style: copy the two attached reference drawings exactly in their way of drawing. Clean black ink outline drawing of a Coptic Orthodox icon, like a coloring-book page: bold, even, smooth black outlines on a pure white background, no shading, no gray, no color, no photographic or 3D look, no clay. Rich in detail: every garment has flowing drapery folds, embroidered borders and crosses; every halo is a thin circle; hair and beards are drawn as many flowing lines; architecture has carved ornaments, rosettes, arches and crosses. Small solid black accents are allowed (for example the large crosses on a bishop's omophorion). IMPORTANT: every human and angelic face is left completely blank, a smooth empty oval with no eyes, no eyebrows, no nose and no mouth; hair, beards, ears, hands, halos and clothes are drawn in full detail. No text, no letters, no lettering anywhere, no frame, no border, no signature.\nScene: Preparation, seen from the nave. The full-width solid wooden Coptic iconostasis (screen of icons) with three arched doors, each with a drawn-back curtain tied with a tassel. Top row: the Last Supper in the centre with six apostles on each side, all with halos, seated behind a long table with a chalice and plates. Above it the Crucifixion with the Virgin Mary and St John, crowned with crosses on the posts. Lower row: arched icons of the Virgin with the Child, St Mark holding a Gospel, the Baptism of Christ in the Jordan with a dove, and Archangel Michael with a spear and wings. Carved rosettes and crosses on every post and panel. Two deacons in tunics with crossing stoles stand on the three-step raised area in front beside two tall candelabra; a priest in a phelonion with a cross, seen from behind, takes off his sandals and steps barefoot toward the central door; the sandals lie on the floor at the step. Stone floor tiles in perspective.",
+      "quality": "high",
+      "reference_elements": [],
+      "remove_bg": false,
+      "resolution": "2k",
+      "width": 2048
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3GfTqXrVMBCRPS13H0zNDTDeuAv/hf_20261020_221005_62837e79-1ec7-49b7-8d3c-d7e084574a2b.png",
+    "status": "completed"
+  }
+]

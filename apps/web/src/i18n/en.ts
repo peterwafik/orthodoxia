@@ -32,13 +32,12 @@ export const en = {
     methodIntro:
       'Every page says where its claims come from. When sources differ in authority, we rank them in this order:',
     cards: {
-      bible: { title: 'Read the Bible', note: 'Arabic (Van Dyck) and English (KJV or Septuagint), with the deuterocanonical books and optional topic markers.' },
+      bible: { title: 'Read the Bible', note: 'Arabic (Van Dyck) and English (KJV), with the deuterocanonical books and optional topic markers.' },
       explore: { title: 'Cross-references', note: 'Every verse on one line, with its connections to the rest of the Bible drawn as arcs.' },
       threads: { title: 'Read with threads', note: 'Read a chapter while each verse shows where its references land.' },
       holyMass: { title: 'The Holy Mass', note: 'The Divine Liturgy step by step, with the prayers and the meaning behind each part.' },
       churchHistory: { title: 'Church history', note: 'How the early church divided into today’s churches, on an interactive timeline you can compare.' },
       about: { title: 'About', note: 'What this project is, how sources are ranked and what the connections cover.' },
-      sources: { title: 'Sources and licenses', note: 'Where every text comes from, with credits and permissions.' },
     },
   },
   churchHistory: {
@@ -86,6 +85,13 @@ export const en = {
       summary: '{common} in common, {differ} different',
       pointsHeading: 'Points of faith',
       evidence: 'Verses and early witnesses the Coptic Church cites',
+      evVerses: 'Verses the Coptic Orthodox Church cites',
+      evWitnesses: 'Early witnesses and manuscripts',
+      evOpen: 'Open this point in the Bible reader',
+      evLoading: 'Loading the verses…',
+      evFailed: 'The verses could not be loaded here. You can open them in the Bible reader instead.',
+      evClose: 'Close',
+      evDraft: 'Draft, not yet reviewed by clergy. Select a verse to read it in the Bible.',
     },
     note: 'These summaries aim to describe each church as it describes itself, and are drafts for review. They are not a substitute for reading each church’s own documents.',
   },
@@ -150,11 +156,14 @@ export const en = {
   },
   footer: {
     sourcesAndLicenses: 'Sources & licenses',
+    pages: 'Sections',
+    project: 'The project',
+    online: 'An online study project in English and Arabic',
   },
   bible: {
     title: 'The Bible',
     intro:
-      'Read the Old Testament, the deuterocanonical books, and the New Testament in Arabic and English. Every text here is in the public domain or openly licensed.',
+      'Read the Old Testament, the deuterocanonical books, and the New Testament in Arabic and English.',
     edition: 'Edition',
     editions: 'Editions',
     otherLanguage: 'Read in Arabic',
@@ -163,8 +172,6 @@ export const en = {
       deuterocanon: 'Deuterocanonical books',
       nt: 'New Testament',
     },
-    deuterocanonNote:
-      'The list of deuterocanonical books, their names and their order follow common Coptic Orthodox usage and are awaiting confirmation by our reviewers.',
     chapter: 'Chapter',
     chapters: 'Chapters',
     psalm: 'Psalm',

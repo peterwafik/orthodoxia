@@ -7,7 +7,6 @@ import {
   ScrollIcon,
   TapIcon,
 } from '../../shared/ui/icons.tsx';
-import { Credits } from '../shared/components/Credits.tsx';
 import { FiltersMenu } from '../shared/components/FiltersMenu.tsx';
 import { GenreLegend } from '../shared/components/GenreLegend.tsx';
 import { toggleGenre } from '../shared/components/GenreToggles.tsx';
@@ -22,12 +21,6 @@ import type { Connection } from '../shared/connections.ts';
 import type { VisualizationProps } from '../visualization.ts';
 import { ArcsStage } from './ArcsStage.tsx';
 import { t } from '../../i18n/messages.ts';
-
-const INSPIRATION = {
-  title: 'Bible Cross-References',
-  author: 'Chris Harrison and Christoph Römhild',
-  url: 'https://www.chrisharrison.net/index.php/visualizations/BibleViz',
-};
 
 export function ArcsExplorer({
   data,
@@ -62,7 +55,6 @@ export function ArcsExplorer({
   return (
     <VizPage
       masthead={masthead}
-      credits={<Credits inspiration={INSPIRATION} />}
       onPanelClose={closePanel}
       controls={
         <>

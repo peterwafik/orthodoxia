@@ -2,7 +2,6 @@ import { useMemo, useState } from 'react';
 import type { BookId } from '../../core/bible/books.ts';
 import { passageRange, type Passage } from '../../core/bible/passage.ts';
 import { BothDirectionsIcon, IncomingIcon, OutgoingIcon } from '../../shared/ui/icons.tsx';
-import { Credits } from '../shared/components/Credits.tsx';
 import { FiltersMenu } from '../shared/components/FiltersMenu.tsx';
 import { GenreMenu } from '../shared/components/GenreMenu.tsx';
 import { toggleGenre } from '../shared/components/GenreToggles.tsx';
@@ -74,7 +73,6 @@ export function ThreadsExplorer({
   return (
     <VizPage
       masthead={masthead}
-      credits={<Credits />}
       onPanelClose={closePanel}
       controls={
         <>

@@ -4,6 +4,7 @@
  * (holy-mass/[liturgy].astro) opens for that liturgy alone.
  */
 import Base from '../../../layouts/Base.astro';
+import SaintArt from '../../../components/SaintArt.astro';
 import { LITURGIES } from '../../../data/holy-mass.ts';
 import { LOCALES, localePath, type Locale } from '../../../i18n/index.ts';
 
@@ -86,6 +87,7 @@ const cards = ORDER.map((id) => ({
           cards.map((card) => (
             <li>
               <a class="card" href={card.href} aria-label={`${ui.open}: ${card.name}`}>
+                <SaintArt saint={card.id} />
                 <span class="card-title">{card.title}</span>
                 <span class="card-note">{card.note}</span>
                 <span class="card-open">{ui.open}</span>

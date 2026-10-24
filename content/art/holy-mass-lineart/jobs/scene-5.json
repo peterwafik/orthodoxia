@@ -1,0 +1,40 @@
+[
+  {
+    "created_at": "2026-10-20T22:11:56.120334Z",
+    "display_name": "GPT Image 2",
+    "id": "97720cb7-d2b5-415f-911b-ecb4ef7307ea",
+    "job_type": "gpt_image_2",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3GfTqXrVMBCRPS13H0zNDTDeuAv/hf_20261020_221156_97720cb7-d2b5-415f-911b-ecb4ef7307ea_min.webp",
+    "params": {
+      "aspect_ratio": "3:2",
+      "height": 1360,
+      "medias": [
+        {
+          "data": {
+            "id": "9ef87332-d872-418b-8b42-47d360755c45",
+            "type": "media_input",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GfTqXrVMBCRPS13H0zNDTDeuAv/9ef87332-d872-418b-8b42-47d360755c45.png"
+          },
+          "role": "image"
+        },
+        {
+          "data": {
+            "id": "677694dc-85ae-41ec-8c2f-a7a969c783d7",
+            "type": "media_input",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GfTqXrVMBCRPS13H0zNDTDeuAv/677694dc-85ae-41ec-8c2f-a7a969c783d7.jpg"
+          },
+          "role": "image"
+        }
+      ],
+      "model": "videotape-alpha",
+      "prompt": "Drawing style: copy the two attached reference drawings exactly in their way of drawing. Clean black ink outline drawing of a Coptic Orthodox icon, like a coloring-book page: bold, even, smooth black outlines on a pure white background, no shading, no gray, no color, no photographic or 3D look, no clay. Rich in detail: every garment has flowing drapery folds, embroidered borders and crosses; every halo is a thin circle; hair and beards are drawn as many flowing lines; architecture has carved ornaments, rosettes, arches and crosses. Small solid black accents are allowed (for example the large crosses on a bishop's omophorion). IMPORTANT: every human and angelic face is left completely blank, a smooth empty oval with no eyes, no eyebrows, no nose and no mouth; hair, beards, ears, hands, halos and clothes are drawn in full detail. No text, no letters, no lettering anywhere, no frame, no border, no signature.\nScene: Communion and heaven. The lower half is the church: at the central arched door of the sanctuary with drawn-back curtains and a hanging lamp, the priest in a phelonion holds the chalice to give communion; deacons with a censer and a candle stand beside him; believers (men, veiled women and children) come forward from both sides with their arms crossed on their chests, between tall columns topped with crosses and hanging lamps. The upper half, above the church, is heaven opening in a great arch of scalloped clouds with rays: Christ enthroned in a mandorla at the centre, blessing and holding a Gospel, with the Virgin Mary on one side and St John the Baptist on the other, both praying; around them the four living creatures (man, lion, ox and eagle) with many wings and eyes, six-winged seraphim, angels with censers in flight, and the twenty-four elders in two rows on each side, wearing crowns and holding bowls of incense. A symbolic meditation, richly detailed.",
+      "quality": "high",
+      "reference_elements": [],
+      "remove_bg": false,
+      "resolution": "2k",
+      "width": 2048
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3GfTqXrVMBCRPS13H0zNDTDeuAv/hf_20261020_221156_97720cb7-d2b5-415f-911b-ecb4ef7307ea.png",
+    "status": "completed"
+  }
+]

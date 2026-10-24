@@ -1,0 +1,40 @@
+[
+  {
+    "created_at": "2026-10-20T22:10:05.935612Z",
+    "display_name": "GPT Image 2",
+    "id": "4dcf05b5-e3d3-41cd-8912-14d5b6e730c4",
+    "job_type": "gpt_image_2",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3GfTqXrVMBCRPS13H0zNDTDeuAv/hf_20261020_221005_4dcf05b5-e3d3-41cd-8912-14d5b6e730c4_min.webp",
+    "params": {
+      "aspect_ratio": "3:2",
+      "height": 1360,
+      "medias": [
+        {
+          "data": {
+            "id": "ee1399a3-5ac4-44a9-bef5-744980c68789",
+            "type": "media_input",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GfTqXrVMBCRPS13H0zNDTDeuAv/ee1399a3-5ac4-44a9-bef5-744980c68789.png"
+          },
+          "role": "image"
+        },
+        {
+          "data": {
+            "id": "9d25f660-8919-4aed-9e22-ba20116c2580",
+            "type": "media_input",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GfTqXrVMBCRPS13H0zNDTDeuAv/9d25f660-8919-4aed-9e22-ba20116c2580.jpg"
+          },
+          "role": "image"
+        }
+      ],
+      "model": "videotape-alpha",
+      "prompt": "Drawing style: copy the two attached reference drawings exactly in their way of drawing. Clean black ink outline drawing of a Coptic Orthodox icon, like a coloring-book page: bold, even, smooth black outlines on a pure white background, no shading, no gray, no color, no photographic or 3D look, no clay. Rich in detail: every garment has flowing drapery folds, embroidered borders and crosses; every halo is a thin circle; hair and beards are drawn as many flowing lines; architecture has carved ornaments, rosettes, arches and crosses. Small solid black accents are allowed (for example the large crosses on a bishop's omophorion). IMPORTANT: every human and angelic face is left completely blank, a smooth empty oval with no eyes, no eyebrows, no nose and no mouth; hair, beards, ears, hands, halos and clothes are drawn in full detail. No text, no letters, no lettering anywhere, no frame, no border, no signature.\nScene: The kiss of peace, the nave seen from the entrance door in one-point perspective. Two colonnades of tall columns with carved capitals topped with crosses, arches between them, a beamed ceiling, many hanging lamps down the aisle, framed icons on the side walls. Men on the left and women (veiled) on the right turn to one another and clasp hands in peace, in several pairs at different distances. Two deacons in tunics with crossing stoles carry censers with rising smoke and a processional cross down the aisle. At the far end the sanctuary screen with a central arched door and drawn-back curtains: the priest in a phelonion lifts a cross at the open door, with two deacons holding censers beside him. Stone floor tiles in perspective and a long carpet down the aisle.",
+      "quality": "high",
+      "reference_elements": [],
+      "remove_bg": false,
+      "resolution": "2k",
+      "width": 2048
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3GfTqXrVMBCRPS13H0zNDTDeuAv/hf_20261020_221005_4dcf05b5-e3d3-41cd-8912-14d5b6e730c4.png",
+    "status": "completed"
+  }
+]

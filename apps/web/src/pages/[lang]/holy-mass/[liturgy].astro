@@ -1,13 +1,12 @@
 ---
 /**
- * The Holy Mass journey: the Divine Liturgy as one continuous flight. A film of five clay-diorama scenes
- * (the sanctuary screen, the choir, the nave, the haikal and communion with heaven), one per chapter,
- * joined by flights from one scene to the next, plays softly behind the page as you scroll. In front of
+ * The Holy Mass journey: the Divine Liturgy stop by stop. 31 line drawings (public/holy-mass-bg, timeline in
+ * lib/holy-mass/backdrop.ts) lie softly behind the page and dissolve into one another as you scroll. In front of
  * it each stop is a short chat: what the priest, the deacon and the people say, then the steps in the
  * altar and the meaning behind. The list of stops hides behind a hamburger button.
  *
  * ONE language at a time: /en/ shows English only and /ar/ shows Arabic only (the header's language link
- * switches). One page per liturgy (/en/holy-mass/basil/, /gregory/, /cyril/), chosen on the page before. The timeline is in lib/holy-mass/film.ts, the player in film-player.ts, the stops and scenes
+ * switches). One page per liturgy (/en/holy-mass/basil/, /gregory/, /cyril/), chosen on the page before. The player is lib/holy-mass/backdrop-player.ts, the stops
  * in data/holy-mass.ts, the prayer texts in content/liturgy/ (loaded per liturgy).
  */
 import Base from '../../../layouts/Base.astro';
@@ -58,8 +57,8 @@ const UI = {
     options: 'Options',
     close: 'Close',
     disclaimer: 'The artwork is a symbolic visual meditation inspired by Coptic Orthodox worship, not a literal picture of heaven.',
-    viewportLabel: 'A film of the Divine Liturgy. The camera flies on as you read each prayer.',
-    imageNote: 'The scenes and the flights between them are AI-generated clay dioramas, a symbolic meditation inspired by Coptic churches that awaits review by clergy; they are not official icons.',
+    viewportLabel: 'Drawings of the Divine Liturgy that change as you read each prayer.',
+    imageNote: 'The drawings behind the page are a symbolic illustration inspired by the Coptic liturgy that awaits review by clergy; they are not official icons.',
     meaningCredit: 'The “Meaning behind” notes summarise, in the site’s own words, two books: The Spirituality of the Rites of the Holy Liturgy in the Coptic Orthodox Church (introduction by Bishop Mettaous) and the lecture notes Analysis and Explanation of the Consecration Prayers in the Three Liturgies by Michael Mina (Clerical College, Port Said). They have not been reviewed by clergy.',
   },
   ar: {
@@ -97,8 +96,8 @@ const UI = {
     options: 'خيارات',
     close: 'إغلاق',
     disclaimer: 'اللوحة تأمل بصري رمزي مستوحى من العبادة القبطية الأرثوذكسية، وليست صورة حرفية للسماء.',
-    viewportLabel: 'فيلم عن القداس الإلهي. تتحرك الكاميرا مع كل صلاة تقرؤها.',
-    imageNote: 'المشاهد والرحلات بينها مجسّمات من الصلصال مولَّدة بالذكاء الاصطناعي، وهي تأمل رمزي مستوحى من الكنائس القبطية ينتظر مراجعة الآباء الكهنة؛ وليست أيقونات رسمية.',
+    viewportLabel: 'رسومات للقداس الإلهي تتغير مع كل صلاة تقرؤها.',
+    imageNote: 'الرسومات خلف الصفحة توضيح رمزي مستوحى من القداس القبطي ينتظر مراجعة الآباء الكهنة؛ وليست أيقونات رسمية.',
     meaningCredit: 'ملاحظات «المعنى وراء» ملخَّصة بكلمات الموقع من كتابين: «روحانية طقوس القداس الإلهي في الكنيسة القبطية الأرثوذكسية» (مقدمة الأنبا متاؤس)، ومذكرات محاضرات «تحليل وشرح صلوات التقديس بالقداسات الثلاثة» للأستاذ ميخائيل مينا (الكلية الإكليريكية، فرع بورسعيد). ولم يراجعها الآباء الكهنة بعد.',
   },
 } as const;
@@ -263,8 +262,7 @@ const clientStops = STOPS.map((stop) => ({ n: stop.n, hash: stopHash(stop), chap
 </Base>
 
 <script>
-  import { createFilm } from '../../../lib/holy-mass/film-player.ts';
-  import type { ChapterRange } from '../../../lib/holy-mass/film.ts';
+  import { createBackdrop } from '../../../lib/holy-mass/backdrop-player.ts';
   import { LAYERS, LAYERS_KEY, parseLayers, serializeLayers, toggleLayer, type Layer, type LayerState } from '../../../lib/holy-mass/layers.ts';
   import { loadLiturgy } from '../../../lib/holy-mass/load.ts';
   import { parseReading, READING_KEY, serializeReading, stepSize, type Reading } from '../../../lib/holy-mass/reading.ts';
@@ -301,19 +299,11 @@ const clientStops = STOPS.map((stop) => ({ n: stop.n, hash: stopHash(stop), chap
     fit();
     if (header !== null && typeof ResizeObserver !== 'undefined') new ResizeObserver(fit).observe(header);
 
-    // ---- the film: five scenes and the flights between them ---------------------------------------
-    const ranges: ChapterRange[] = [];
-    stops.forEach((stop, index) => {
-      const range = ranges[stop.chapter - 1];
-      if (range === undefined) ranges[stop.chapter - 1] = { first: index, last: index };
-      else ranges[stop.chapter - 1] = { first: range.first, last: index };
-    });
-    // The fourth scene has no flight into the fifth (the video service refused to make one), so
-    // those two dissolve into each other.
-    const film = createFilm({ container: filmBox, ranges, links: new Set([1, 2, 3]), base: '/holy-mass-film', reducedMotion: () => reduced.matches });
+    // ---- the artwork: 31 drawings that dissolve into one another as the stops go by -----------------
+    const film = createBackdrop({ container: filmBox, base: '/holy-mass-bg', reducedMotion: () => reduced.matches });
     film.warm();
 
-    // ---- scroll → film ----------------------------------------------------------------------
+    // ---- scroll → artwork ----------------------------------------------------------------------
     let tops: number[] = [];
     function measure() {
       tops = articles.map((article) => article.offsetTop - articles[0]!.offsetTop);
@@ -661,30 +651,32 @@ const clientStops = STOPS.map((stop) => ({ n: stop.n, hash: stopHash(stop), chap
   /* --- the film behind everything ----------------------------------------------------------- */
   .stage {
     position: absolute;
-    inset: 0;
+    /* Starts under the top bar, so the whole drawing is in view below it. */
+    inset: var(--bar) 0 0;
     z-index: 0;
   }
 
   .film {
     position: absolute;
     inset: 0;
-    background: var(--paper) url('/holy-mass-film/scene-1.jpg') center / cover no-repeat;
-    opacity: 0.55;
+    isolation: isolate;
+    background: var(--paper);
+    /* Transparent: the text stays the main thing. */
+    opacity: 0.42;
   }
 
-  .film :global(.film-still),
-  .film :global(.film-clip) {
+  /* The drawings are laid on the paper like a watermark: each one is shown whole, centred, and multiplied so
+     its cream ground melts into the paper. The fade to the paper colour at its edges is part of the image file. */
+  .film :global(.backdrop-image) {
     position: absolute;
     inset: 0;
     inline-size: 100%;
     block-size: 100%;
-    object-fit: cover;
+    object-fit: contain;
+    object-position: center;
     display: block;
-  }
-
-  .film :global(.film-clip) {
-    opacity: 0;
     pointer-events: none;
+    mix-blend-mode: multiply;
   }
 
   /* A soft wash so the words stay readable over the scenes. */

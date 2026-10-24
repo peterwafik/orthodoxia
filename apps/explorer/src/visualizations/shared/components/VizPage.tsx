@@ -1,6 +1,5 @@
 import type { ReactNode } from 'react';
 import { t } from '../../../i18n/messages.ts';
-import { SiteFooter } from '../../../shared/ui/SiteFooter.tsx';
 import { SiteNav } from '../../../shared/ui/SiteNav.tsx';
 import { useBottomSheet } from '../use-bottom-sheet.ts';
 import styles from './VizPage.module.css';
@@ -15,21 +14,12 @@ interface VizPageProps {
   readonly panel?: ReactNode;
   /** Closes the panel; on phones, pulling its sheet down from the collapsed height calls it. */
   readonly onPanelClose?: () => void;
-  /** Data attribution and inspiration, shown in the footer. */
-  readonly credits: ReactNode;
   /** The visualization itself. */
   readonly children: ReactNode;
 }
 
 /** The shared frame of every visualization page. */
-export function VizPage({
-  masthead,
-  controls,
-  panel,
-  onPanelClose,
-  credits,
-  children,
-}: VizPageProps) {
+export function VizPage({ masthead, controls, panel, onPanelClose, children }: VizPageProps) {
   const hasPanel = panel !== undefined && panel !== null && panel !== false;
   const { expanded, setExpanded, containerRef, sheetRef, spaceRef, scrimRef } = useBottomSheet(
     hasPanel,
@@ -77,7 +67,6 @@ export function VizPage({
           </>
         )}
       </div>
-      <SiteFooter className={styles.footer}>{credits}</SiteFooter>
     </div>
   );
 }

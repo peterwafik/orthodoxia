@@ -74,7 +74,7 @@ export function DebugPage() {
           </Suspense>
         </ErrorBoundary>
       </main>
-      <SiteFooter className={styles.footer} />
+      <SiteFooter />
     </div>
   );
 }

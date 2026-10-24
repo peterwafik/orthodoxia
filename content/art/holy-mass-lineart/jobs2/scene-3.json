@@ -1,0 +1,48 @@
+[
+  {
+    "created_at": "2026-10-20T22:24:22.525237Z",
+    "display_name": "GPT Image 2",
+    "id": "067edd80-7f7f-4f34-878b-b483306a2a80",
+    "job_type": "gpt_image_2",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3GfTqXrVMBCRPS13H0zNDTDeuAv/hf_20261020_222422_067edd80-7f7f-4f34-878b-b483306a2a80_min.webp",
+    "params": {
+      "aspect_ratio": "3:2",
+      "height": 1360,
+      "medias": [
+        {
+          "data": {
+            "id": "4bd220df-07cf-4bdf-9921-e4d72866668f",
+            "type": "media_input",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GfTqXrVMBCRPS13H0zNDTDeuAv/4bd220df-07cf-4bdf-9921-e4d72866668f.png"
+          },
+          "role": "image"
+        },
+        {
+          "data": {
+            "id": "a6b24d21-d4e3-4f1f-89b9-614a1bf65195",
+            "type": "media_input",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GfTqXrVMBCRPS13H0zNDTDeuAv/a6b24d21-d4e3-4f1f-89b9-614a1bf65195.jpg"
+          },
+          "role": "image"
+        },
+        {
+          "data": {
+            "id": "38662b94-ad59-4220-99f9-2ff41442bbef",
+            "type": "media_input",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GfTqXrVMBCRPS13H0zNDTDeuAv/38662b94-ad59-4220-99f9-2ff41442bbef.png"
+          },
+          "role": "image"
+        }
+      ],
+      "model": "videotape-alpha",
+      "prompt": "Drawing style: keep exactly the way of drawing of the first two attached reference drawings (bold, even, smooth black ink outlines like an icon coloring page, rich detail, flowing drapery folds, embroidered borders, many small ornaments, thin circular halos), but now fully COLORED with flat, rich, slightly watercolor-like fills inside the black outlines, like an illuminated Coptic icon: warm gold for halos and icon backgrounds, deep ultramarine and crimson for robes and curtains, white and cream vestments with red and gold crosses, dark ebony and warm brown wood with pale ivory and mother-of-pearl geometric inlay, cream limestone walls, terracotta and warm stone floors, soft gold accents on lamps, candlesticks, crosses and the ciborium. Keep the black outlines strong and clear everywhere. IMPORTANT: every human and angelic face is left completely blank, a smooth empty oval in a light skin tone with no eyes, no eyebrows, no nose and no mouth; hair, beards, ears, hands, halos and clothes are drawn and colored in full detail. No text, no letters (except the simple Greek letters Alpha and Omega where requested), no frame, no border, no signature. Accurate to a real Coptic Orthodox church in Egypt: no pews unless stated, no Western or Byzantine styling, no statues. All clergy and deacons are barefoot at the altar.\nScene: The kiss of peace in the nave of a Coptic Orthodox church, seen from the entrance door in one-point perspective, drawn accurately. Two colonnades of columns with carved capitals topped with crosses and arches, a beamed wooden ceiling, many brass hanging lamps down the aisle, framed icons on the side walls. NO pews: the faithful stand: men on the left and veiled women on the right turn to one another and clasp hands in peace, in several pairs at different distances. Two deacons in white tunics with crossing stoles walk down the central aisle, one swinging a censer with rising smoke, the other carrying a processional cross. At the far end the haikal screen of dark wood with ivory inlay and three doors; the central Royal Door is open with its crimson curtain drawn aside, and the priest in white and crimson-and-gold vestments stands in it lifting a cross, with two deacons beside him holding censers. Stone floor tiles in perspective and a long patterned carpet down the aisle.",
+      "quality": "high",
+      "reference_elements": [],
+      "remove_bg": false,
+      "resolution": "2k",
+      "width": 2048
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3GfTqXrVMBCRPS13H0zNDTDeuAv/hf_20261020_222422_067edd80-7f7f-4f34-878b-b483306a2a80.png",
+    "status": "completed"
+  }
+]

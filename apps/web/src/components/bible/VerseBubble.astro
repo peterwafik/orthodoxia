@@ -40,9 +40,6 @@ const kindClass = (kind: string | undefined) => (kind === undefined ? undefined 
           {entry.paragraphs.map((paragraph) => (
             <p class={kindClass(paragraph.kind)}>{paragraph.text}</p>
           ))}
-          <p class="translation-note" lang={locale}>
-            {strings.machineTranslation} <a href={`${arabicHref}#v{verse}`} hreflang="ar">{strings.arabicOriginal}</a>
-          </p>
         </article>
       ))
   }
@@ -54,9 +51,7 @@ const kindClass = (kind: string | undefined) => (kind === undefined ? undefined 
           {entry.paragraphs.map((paragraph) => (
             <p class={kindClass(paragraph.kind)}>{paragraph.text}</p>
           ))}
-          <p class="translation-note" lang={locale}>
-            {strings.malatyCredit}. {strings.machineTranslation} <a href={`${arabicHref}#v{verse}`} hreflang="ar">{strings.arabicOriginal}</a>
-          </p>
+          <p class="translation-note" lang={locale}>{strings.malatyCredit}.</p>
         </article>
       ))
   }
@@ -68,9 +63,7 @@ const kindClass = (kind: string | undefined) => (kind === undefined ? undefined 
           {entry.paragraphs.map((paragraph) => (
             <p class={kindClass(paragraph.kind)}>{paragraph.text}</p>
           ))}
-          <a class="original" href={`${malaty.pageUrl}#{verse}`} rel="noopener" target="_blank" lang={locale}>
-            {strings.malatyOriginal}
-          </a>
+          <p class="translation-note" lang={locale}>{strings.malatyOriginal}</p>
         </article>
       ))
   }
@@ -82,22 +75,10 @@ const kindClass = (kind: string | undefined) => (kind === undefined ? undefined 
           {entry.paragraphs.map((paragraph) => (
             <p class={kindClass(paragraph.kind)}>{paragraph.text}</p>
           ))}
-          <a class="original" href={`${text.documentUrl}#page=${entry.page}`} rel="noopener" target="_blank" lang={locale}>
-            {strings.originalShort}
-          </a>
         </article>
       ))
   }
-  <div class="fallback">
-    {arabicHref !== undefined && (commentary?.stMark || commentary?.malaty) && <a class="action" href={`${arabicHref}#v{verse}`} hreflang="ar">{strings.readArabicVerse}</a>}
-    {text === null && commentary?.stMark === null && commentary.stMarkPdf !== null && (
-      <a class="action" href={commentary.stMarkPdf} rel="noopener" target="_blank">{strings.openPdf}</a>
-    )}
-    {text === null && commentary?.stMark === null && commentary.malaty === null && commentary.malatyUrl !== null && (
-      <a class="action" href={commentary.malatyUrl} rel="noopener" target="_blank">{strings.malaty}</a>
-    )}
-    {hasText && <p class="muted">{strings.noEntryForVerse}</p>}
-  </div>
+  <div class="fallback">{hasText && <p class="muted">{strings.noEntryForVerse}</p>}</div>
   {explorerHref !== undefined && <a class="action explore" href={explorerHref}>{strings.crossReferences}</a>}
 </template>
 

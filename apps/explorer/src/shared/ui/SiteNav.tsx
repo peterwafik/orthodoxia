@@ -35,7 +35,6 @@ export function SiteNav() {
     { href: `/${LOCALE}/`, label: t.site.home },
     { href: `/${LOCALE}/bible/`, label: t.site.bible },
     { href: `/${LOCALE}/about/`, label: t.site.about },
-    { href: `/${LOCALE}/sources/`, label: t.site.sources },
   ];
   return (
     <div className={styles.nav}>

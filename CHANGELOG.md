@@ -1,5 +1,33 @@
 # Changelog
 
+## Unreleased: new artwork behind the Holy Mass journey
+
+- The five clay-diorama scenes and their video flights are replaced by 31 line drawings, laid translucently behind the text and dissolving one into the next as the reader scrolls through the stops (preparation, the Word, the litanies, the Anaphora, the fraction, communion and heaven). Each liturgy page uses the same sequence.
+- Each drawing is shown whole (never cropped) on desktop, centred, with its edges faded into the page colour; empty space beside it is the plain page background.
+- The images ship as WebP (about 4 MB instead of 70 MB of PNG and 33 MB of video).
+
+## Unreleased: verse popup shows only the cross-reference link
+
+- The popup that opens when a verse is selected, in English and Arabic, no longer shows the machine-translation note, the link to the Arabic original, the link to the St. Mark PDF page or the links to Fr. Tadros Malaty's pages. Only the cross-reference link remains. Entries from Fr. Tadros Malaty keep a plain-text credit to him, with no link (the owner's decision; his permission was to credit and link).
+
+## Unreleased: saints on the Holy Mass cards
+
+- Each of the three liturgy cards has a drawing of its saint at the top, traced from the reference icons supplied for the project (halo, hair, thick beard, robes, hands holding a book) with the facial features and lettering erased: St. Cyril the bishop with the cross on his omophorion and a stack of Gospels, St. Gregory with the two large crosses on his omophorion, raising a hand in blessing and holding a book, and St. Basil the monk holding a tablet with a cross.
+
+## Unreleased: drawings on the home cards
+
+- Each home-page card has a small line drawing at its top, in the same thin accent line as the headline drawing: an open Bible, cross-reference arcs, a verse threading out to its references, a chalice with a cross, a branching timeline, and a cross in a circle.
+
+## Unreleased: one footer for the whole site
+
+- A new compact footer, the same on every page including the cross-reference and threads pages: two slim rows: the site name and its sections (Bible, Holy Mass, Church history, Cross-references, Read with threads), a thin vertical divider, then the project pages (About, Sources & licenses); below, "An online study project in English and Arabic" and a copyright line. No dividing line above the footer. The cross-reference explorer's own credits line is removed; its views still fill the window, with the footer one scroll below. The home page card for Sources and licenses is removed (the footer links to it), and the explorer's menu no longer lists Sources.
+
+## Unreleased: evidence window on the church-history page
+
+- In the comparison table, the link to the verses and early witnesses the Coptic Church cites now opens a window on
+  the same page with the claim, the full text of every cited verse (each verse is a link to its place in the Bible) and
+  the early witnesses, instead of leaving for the Bible reader. A link in the window still opens the point there.
+
 ## Unreleased: church-history comparison and Coptic evidence
 
 - The church-history comparison now covers 29 points of faith in seven groups, starting with the faith every church

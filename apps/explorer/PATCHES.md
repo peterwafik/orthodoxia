@@ -44,13 +44,13 @@ the rest of the site.
 
 ## 4. Site shell
 
-| Change                                                                                             | Files                                                                                    |
-| -------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
-| The site's brand (Coptic cross + name, links to the site home) and the page name replace the title | `src/app/Explorer.tsx`, `src/app/Explorer.module.css`, `src/shared/ui/SiteNav.tsx` (new) |
-| Header gets the site navigation: language switch (keeps view and passage) and a site menu          | `src/visualizations/shared/components/VizPage.tsx`, `src/shared/ui/SiteNav.*` (new)      |
-| `MenuButton` gains `iconOnly`; new `SiteMenuIcon`; previous/next chevrons mirror in RTL            | `MenuButton.tsx`, `src/shared/ui/icons.tsx`, `icons.module.css`                          |
-| Footer credits the site and the upstream project; credits name the text actually shown             | `src/shared/ui/SiteFooter.tsx`, `src/visualizations/shared/components/Credits.tsx`       |
-| Site name, author and `og:locale` / structured data are the site's                                 | `vite/site.ts`, `vite/site-head.ts`                                                      |
+| Change                                                                                                                                | Files                                                                                    |
+| ------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
+| The site's brand (Coptic cross + name, links to the site home) and the page name replace the title                                    | `src/app/Explorer.tsx`, `src/app/Explorer.module.css`, `src/shared/ui/SiteNav.tsx` (new) |
+| Header gets the site navigation: language switch (keeps view and passage) and a site menu                                             | `src/visualizations/shared/components/VizPage.tsx`, `src/shared/ui/SiteNav.*` (new)      |
+| `MenuButton` gains `iconOnly`; new `SiteMenuIcon`; previous/next chevrons mirror in RTL                                               | `MenuButton.tsx`, `src/shared/ui/icons.tsx`, `icons.module.css`                          |
+| The footer is the site's own, the same on every page (no credits in the explorer); the explorer's header menu no longer lists Sources | `src/shared/ui/SiteFooter.tsx`, `SiteNav.tsx`, `VizPage.tsx`                             |
+| Site name, author and `og:locale` / structured data are the site's                                                                    | `vite/site.ts`, `vite/site-head.ts`                                                      |
 
 ## 5. Arabic
 

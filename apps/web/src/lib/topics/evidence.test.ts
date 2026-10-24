@@ -2,7 +2,7 @@ import { describe, expect, it } from 'vitest';
 import { COMPARE_POINTS } from '../../data/church-history/compare.ts';
 import { COPTIC_EVIDENCE } from '../../data/coptic-evidence.ts';
 import { FAMILIES, TOPIC_DATA } from './topics.ts';
-import { evidenceForTopic, evidenceRefs, evidenceView } from './evidence.ts';
+import { evidenceForTopic, evidencePassages, evidencePopup, evidenceRefs, evidenceView } from './evidence.ts';
 
 const ARABIC = /[؀-ۿ]/;
 const LATIN = /[A-Za-z]/;
@@ -52,6 +52,29 @@ describe('the Coptic evidence', () => {
         }
       }
     }
+  });
+
+  it('gives the text of every cited passage, verse by verse, in both languages', () => {
+    for (const entry of COPTIC_EVIDENCE) {
+      for (const locale of ['en', 'ar'] as const) {
+        const passages = evidencePassages(entry.verses, locale);
+        expect(passages.length, `${entry.point} (${locale})`).toBeGreaterThanOrEqual(3);
+        for (const passage of passages) {
+          expect(passage.verses.length, `${passage.label}`).toBeGreaterThan(0);
+          for (const verse of passage.verses) expect(verse.text.length, `${passage.label} ${verse.n}`).toBeGreaterThan(3);
+        }
+      }
+    }
+  });
+
+  it('reads a passage as its verses', () => {
+    const [passage] = evidencePassages('John 1:14; John 1:1', 'en');
+    expect(passage!.label).toBe('John 1:14');
+    expect(passage!.verses).toHaveLength(1);
+    expect(passage!.verses[0]!.text).toMatch(/Word was made flesh/);
+    const [range] = evidencePassages('Philippians 2:5–8', 'en');
+    expect(range!.verses.map((verse) => verse.n)).toEqual(['5', '6', '7', '8']);
+    expect(evidencePopup(COPTIC_EVIDENCE[0]!, 'en').passages.length).toBeGreaterThan(0);
   });
 
   it('finds the evidence of a topic by its English name', () => {

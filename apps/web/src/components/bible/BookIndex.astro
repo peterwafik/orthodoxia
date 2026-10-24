@@ -1,6 +1,5 @@
 ---
-import { getEdition, type Section } from '@orthodoxia/bible';
-import EditionSwitch from './EditionSwitch.astro';
+import type { Section } from '@orthodoxia/bible';
 import { biblePath, bookName, editionBooks } from '../../lib/bible.ts';
 import { t, type Locale } from '../../i18n/index.ts';
 
@@ -11,7 +10,6 @@ interface Props {
 
 const { locale, edition: editionId } = Astro.props;
 const strings = t(locale).bible;
-const edition = getEdition(editionId)!;
 const books = editionBooks(editionId);
 const sections = (['ot', 'deuterocanon', 'nt'] as const satisfies readonly Section[])
   .map((section) => ({ section, books: books.filter(({ info }) => info.section === section) }))
@@ -21,16 +19,11 @@ const sections = (['ot', 'deuterocanon', 'nt'] as const satisfies readonly Secti
 <div class="wrap section">
   <h1>{strings.title}</h1>
   <p class="prose">{strings.intro}</p>
-  <EditionSwitch locale={locale} edition={editionId} />
-  <p class="edition-name" lang={edition.locale}>
-    <strong>{edition.name}.</strong>{' '}{edition.description}
-  </p>
 
   {
     sections.map(({ section, books: list }) => (
       <section aria-labelledby={`section-${section}`}>
         <h2 id={`section-${section}`}>{strings.sections[section]}</h2>
-        {section === 'deuterocanon' && <p class="notice">{strings.deuterocanonNote}</p>}
         <ol class="books">
           {list.map(({ info, chapters }) => (
             <li>
@@ -49,13 +42,6 @@ const sections = (['ot', 'deuterocanon', 'nt'] as const satisfies readonly Secti
 <style>
   h1 {
     font-size: var(--step-3);
-  }
-
-  .edition-name {
-    max-inline-size: var(--measure);
-    margin-block: 1rem 0;
-    color: var(--ink-muted);
-    font-size: var(--step--1);
   }
 
   section {

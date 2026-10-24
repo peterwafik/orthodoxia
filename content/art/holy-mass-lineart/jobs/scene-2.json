@@ -1,0 +1,40 @@
+[
+  {
+    "created_at": "2026-10-20T22:10:05.562208Z",
+    "display_name": "GPT Image 2",
+    "id": "77d9b7fe-e3a6-4665-ab87-3031be62d7c0",
+    "job_type": "gpt_image_2",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3GfTqXrVMBCRPS13H0zNDTDeuAv/hf_20261020_221005_77d9b7fe-e3a6-4665-ab87-3031be62d7c0_min.webp",
+    "params": {
+      "aspect_ratio": "3:2",
+      "height": 1360,
+      "medias": [
+        {
+          "data": {
+            "id": "3a0634b9-1bcd-4366-af64-3ccf40b36006",
+            "type": "media_input",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GfTqXrVMBCRPS13H0zNDTDeuAv/3a0634b9-1bcd-4366-af64-3ccf40b36006.png"
+          },
+          "role": "image"
+        },
+        {
+          "data": {
+            "id": "8ec9a03e-db2d-4783-9395-9439e83d740e",
+            "type": "media_input",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GfTqXrVMBCRPS13H0zNDTDeuAv/8ec9a03e-db2d-4783-9395-9439e83d740e.jpg"
+          },
+          "role": "image"
+        }
+      ],
+      "model": "videotape-alpha",
+      "prompt": "Drawing style: copy the two attached reference drawings exactly in their way of drawing. Clean black ink outline drawing of a Coptic Orthodox icon, like a coloring-book page: bold, even, smooth black outlines on a pure white background, no shading, no gray, no color, no photographic or 3D look, no clay. Rich in detail: every garment has flowing drapery folds, embroidered borders and crosses; every halo is a thin circle; hair and beards are drawn as many flowing lines; architecture has carved ornaments, rosettes, arches and crosses. Small solid black accents are allowed (for example the large crosses on a bishop's omophorion). IMPORTANT: every human and angelic face is left completely blank, a smooth empty oval with no eyes, no eyebrows, no nose and no mouth; hair, beards, ears, hands, halos and clothes are drawn in full detail. No text, no letters, no lettering anywhere, no frame, no border, no signature.\nScene: The Liturgy of the Word in the khorus (choir) of a Coptic church. The khorus is raised on three steps behind a lattice fence with a gap for the steps. Three tall arches with painted icons (the Virgin with the Child, Christ Pantocrator holding a Gospel, an archangel) and a star-patterned half-dome in each arch, hanging lamps, tall columns with carved capitals topped with crosses, a beamed ceiling with crosses. On the platform a deacon reads the Gospel at the central lectern with an open book; beside him deacons in tunics with crossing stoles play cymbals and a triangle; two tall seven-branch candelabra with burning candles. In front of the fence, on benches seen from behind, men sit on the left and veiled women on the right. Stone floor tiles.",
+      "quality": "high",
+      "reference_elements": [],
+      "remove_bg": false,
+      "resolution": "2k",
+      "width": 2048
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3GfTqXrVMBCRPS13H0zNDTDeuAv/hf_20261020_221005_77d9b7fe-e3a6-4665-ab87-3031be62d7c0.png",
+    "status": "completed"
+  }
+]

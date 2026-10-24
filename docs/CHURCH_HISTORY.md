@@ -36,8 +36,12 @@ formed today's churches, with a panel for each church and a table to compare chu
   same tint, and churches that differ change only the **bold** words. Each row says "In common" or "Differs" for the
   churches shown, a summary counts them, and "Show only the differences" hides the rows that agree. The popup of a
   church also lists, point by point, where it agrees with the Coptic Orthodox Church and where it differs.
-- Each row links to the Bible reader: "Verses and early witnesses the Coptic Church cites" opens the first verse it
-  cites with its evidence open (see docs/TOPICS.md, family 44).
+- Each row has a link, "Verses and early witnesses the Coptic Church cites", that opens a window on the same page with
+  the Coptic claim for that point, the text of every verse it cites (each reference and verse number is a link to
+  that verse in the Bible reader), and the early witnesses (writings, councils and manuscripts). The reader need not
+  leave the page; Escape, the X or a click outside closes the window, and a link at the bottom opens the point in the
+  Bible reader (family 44 of the topics, see docs/TOPICS.md). The texts come from `/<lang>/coptic-evidence.json`,
+  built from `data/coptic-evidence.ts` and the Bible text, and loaded the first time a window is opened.
 
 ## Where things are
 

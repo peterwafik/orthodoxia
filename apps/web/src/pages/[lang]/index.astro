@@ -1,6 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
-import HomeArt from '../../components/HomeArt.astro';
+import CardArt from '../../components/CardArt.astro';
+import HomeHeroArt from '../../components/HomeHeroArt.astro';
 import { LOCALES, explorerPath, localePath, t, type Locale } from '../../i18n/index.ts';
 
 export function getStaticPaths() {
@@ -10,21 +11,23 @@ export function getStaticPaths() {
 const locale = Astro.params.lang as Locale;
 const strings = t(locale);
 const cards = [
-  { ...strings.home.cards.bible, href: localePath(locale, 'bible') },
-  { ...strings.home.cards.explore, href: explorerPath(locale) },
-  { ...strings.home.cards.threads, href: explorerPath(locale, 'threads') },
-  { ...strings.home.cards.holyMass, href: localePath(locale, 'holy-mass') },
-  { ...strings.home.cards.churchHistory, href: localePath(locale, 'church-history') },
-  { ...strings.home.cards.about, href: localePath(locale, 'about') },
-  { ...strings.home.cards.sources, href: localePath(locale, 'sources') },
+  { art: 'bible' as const, ...strings.home.cards.bible, href: localePath(locale, 'bible') },
+  { art: 'explore' as const, ...strings.home.cards.explore, href: explorerPath(locale) },
+  { art: 'threads' as const, ...strings.home.cards.threads, href: explorerPath(locale, 'threads') },
+  { art: 'holyMass' as const, ...strings.home.cards.holyMass, href: localePath(locale, 'holy-mass') },
+  { art: 'churchHistory' as const, ...strings.home.cards.churchHistory, href: localePath(locale, 'church-history') },
+  { art: 'about' as const, ...strings.home.cards.about, href: localePath(locale, 'about') },
 ];
 ---
 
 <Base locale={locale} simpleHeader>
   <section class="hero">
-    <div class="wrap">
-      <h1>{strings.home.title}</h1>
-      <p class="lede">{strings.home.lede}</p>
+    <div class="wrap hero-grid">
+      <div class="hero-text">
+        <h1>{strings.home.title}</h1>
+        <p class="lede">{strings.home.lede}</p>
+      </div>
+      <HomeHeroArt />
     </div>
   </section>
 
@@ -32,9 +35,10 @@ const cards = [
     <div class="wrap">
       <ul class="cards">
         {
-          cards.map(({ title, note, href }) => (
+          cards.map(({ art, title, note, href }) => (
             <li>
               <a class="card" href={href}>
+                <CardArt name={art} />
                 <span class="card-title">{title}</span>
                 <span class="card-note">{note}</span>
               </a>
@@ -45,12 +49,35 @@ const cards = [
     </div>
   </section>
 
-  <HomeArt />
 </Base>
 
 <style>
   .hero {
     padding-block: clamp(2.5rem, 6vw, 4.5rem) 1rem;
+  }
+
+  /* The text, and the drawing beside it on a wide screen (below it, smaller, on a narrow one). */
+  .hero-grid {
+    display: grid;
+    gap: 1.5rem 3rem;
+    align-items: center;
+  }
+
+  .hero-grid :global(.hero-art) {
+    inline-size: min(100%, 22rem);
+    margin-inline: auto;
+  }
+
+  @media (min-width: 52rem) {
+    .hero-grid {
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    }
+
+    .hero-grid :global(.hero-art) {
+      /* fills the space between the text and the edge of the page */
+      inline-size: 100%;
+      margin: 0;
+    }
   }
 
   h1 {

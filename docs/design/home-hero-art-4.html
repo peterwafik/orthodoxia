@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Home page hero drawing ideas, the Bible and the cross</title>
+<style>
+  body { margin: 0; padding: 2rem 1.5rem 4rem; background: #e6e1d3; font-family: Inter, system-ui, sans-serif; color: #1a2340; }
+  h1 { font-size: 1.4rem; margin: 0 0 .3rem; }
+  .intro { margin: 0 0 1rem; max-width: 62rem; color: #4b5567; }
+  h2 { font-size: 1.1rem; margin: 2.4rem 0 .2rem; }
+  .note { margin: 0 0 .8rem; color: #4b5567; max-width: 62rem; }
+  .pair { display: grid; grid-template-columns: repeat(auto-fit, minmax(680px, 1fr)); gap: 1.25rem; }
+  .label { font-size: .8rem; color: #4b5567; margin: 0 0 .25rem; }
+  .panel { position: relative; width: 680px; height: 430px; overflow: hidden; border: 1px solid rgb(0 0 0 / .18); border-radius: 6px; }
+  .panel.light { --bg: #f5f1e6; --ink: #1a2340; --muted: #4b5567; --accent: #7a5a12; --line: #ddd5c3; }
+  .panel.dark  { --bg: #0e1a33; --ink: #f5f1e6; --muted: #b4bccb; --accent: #d9b45a; --line: #2a3a60; }
+  .panel { background: var(--bg); color: var(--ink); }
+  .head { display: flex; align-items: center; justify-content: space-between; padding: 12px 22px; border-bottom: 1px solid var(--line); font: 600 15px "Source Serif 4", Georgia, serif; }
+  .head .tools { font: 500 12px Inter, sans-serif; color: var(--accent); }
+  .text { position: absolute; left: 28px; top: 100px; width: 320px; }
+  .text h3 { margin: 0 0 12px; font: 600 30px/1.12 "Source Serif 4", Georgia, serif; letter-spacing: -0.01em; }
+  .text p { margin: 0; font: 14px/1.45 "Source Serif 4", Georgia, serif; color: var(--muted); }
+  .art { position: absolute; right: 14px; top: 62px; width: 350px; height: 350px; color: var(--accent); }
+  .bg { fill: var(--bg); }
+</style>
+</head>
+<body>
+<h1>Home page: the Bible and the cross</h1>
+<p class="intro">Eight ideas for the area beside the headline, drawn in the same thin lines as the rest of the site, in the theme's accent colour, in light (default) and dark. Some have the Bible and the cross together, some only the Bible, some only the cross. They are sketches to choose a direction.</p>
+<div id="rows"></div>
+
+<script>
+const NS = 'http://www.w3.org/2000/svg';
+const el = (name, attrs = {}, parent) => { const e = document.createElementNS(NS, name); for (const [k, v] of Object.entries(attrs)) e.setAttribute(k, v); if (parent) parent.append(e); return e; };
+const S = { fill: 'none', stroke: 'currentColor', 'stroke-linecap': 'round', 'stroke-linejoin': 'round' };
+const path = (parent, d, w = 1.5, extra = {}) => el('path', { d, ...S, 'stroke-width': w, ...extra }, parent);
+const circle = (parent, cx, cy, r, w = 1.4, extra = {}) => el('circle', { cx, cy, r, ...S, 'stroke-width': w, ...extra }, parent);
+const rng = (seed) => () => (seed = (seed * 16807) % 2147483647) / 2147483647;
+
+function copticCross(parent, cx, cy, scale, sw = 1.3) {
+  const g = el('g', { transform: `translate(${cx} ${cy}) scale(${scale}) translate(-16 -16)`, ...S, 'stroke-width': sw / scale }, parent);
+  el('rect', { x: 13.5, y: 6, width: 5, height: 20, rx: 0.5 }, g);
+  el('rect', { x: 6, y: 13.5, width: 20, height: 5, rx: 0.5 }, g);
+  for (const angle of [0, 90, 180, 270]) { const a = el('g', { transform: `rotate(${angle} 16 16)` }, g); el('circle', { cx: 16, cy: 2.6, r: 1.9 }, a); el('circle', { cx: 12.7, cy: 4.4, r: 1.6 }, a); el('circle', { cx: 19.3, cy: 4.4, r: 1.6 }, a); }
+}
+const plainCross = (g, x, y, h, w = 1.5) => path(g, `M${x} ${y} v${-h} M${x - h * 0.4} ${y - h * 0.62} h${h * 0.8}`, w);
+const rays = (g, cx, cy, r1, r2, n = 48, from = 0, to = 2 * Math.PI) => { for (let i = 0; i < n; i++) { const a = from + ((to - from) * i) / n; const r = i % 4 === 0 ? r2 + 12 : r2; path(g, `M${cx + r1 * Math.cos(a)} ${cy + r1 * Math.sin(a)} L${cx + r * Math.cos(a)} ${cy + r * Math.sin(a)}`, 0.9, { opacity: 0.65 }); } };
+
+/** An open book seen from the front, centred at (cx, y) where y is the spine's top; w is the half width. */
+function openBook(g, cx, y, w, h = 70) {
+  path(g, `M${cx} ${y + 18} C${cx - w * 0.3} ${y + 2} ${cx - w * 0.75} ${y - 2} ${cx - w} ${y + 6} V${y + h} C${cx - w * 0.75} ${y + h - 8} ${cx - w * 0.3} ${y + h - 4} ${cx} ${y + h + 14} Z`, 1.6);
+  path(g, `M${cx} ${y + 18} C${cx + w * 0.3} ${y + 2} ${cx + w * 0.75} ${y - 2} ${cx + w} ${y + 6} V${y + h} C${cx + w * 0.75} ${y + h - 8} ${cx + w * 0.3} ${y + h - 4} ${cx} ${y + h + 14} Z`, 1.6);
+  path(g, `M${cx - w - 8} ${y + 12} V${y + h + 8} C${cx - w * 0.75} ${y + h + 2} ${cx - w * 0.3} ${y + h + 6} ${cx} ${y + h + 24} C${cx + w * 0.3} ${y + h + 6} ${cx + w * 0.75} ${y + h + 2} ${cx + w + 8} ${y + h + 8} V${y + 12}`, 1.3, { opacity: 0.8 });
+  for (let i = 0; i < 6; i++) {
+    const dy = 16 + i * ((h - 30) / 5);
+    path(g, `M${cx - 12} ${y + dy + 10} C${cx - w * 0.3} ${y + dy - 2} ${cx - w * 0.6} ${y + dy - 4} ${cx - w + 14} ${y + dy + 4}`, 0.9, { opacity: 0.6 });
+    path(g, `M${cx + 12} ${y + dy + 10} C${cx + w * 0.3} ${y + dy - 2} ${cx + w * 0.6} ${y + dy - 4} ${cx + w - 14} ${y + dy + 4}`, 0.9, { opacity: 0.6 });
+  }
+}
+
+/* A: an open Bible with a cross rising from its pages, in a ring of light */
+function artA(svg) {
+  const g = el('g', S, svg); const cx = 175;
+  rays(g, cx, 140, 104, 120, 44, Math.PI * 0.92, Math.PI * 2.08); circle(g, cx, 140, 100, 1.2, { 'stroke-dasharray': '2 6' });
+  copticCross(g, cx, 130, 6.2, 1.5);
+  openBook(g, cx, 238, 128, 60);
+  path(g, `M${cx - 134} 332 H${cx + 134}`, 1.1, { opacity: 0.5 });
+}
+
+/* B: a closed Gospel book with a great cross on its cover (just one of them, framed) */
+function artB(svg) {
+  const g = el('g', S, svg); const cx = 175, x0 = 100, y0 = 46, w = 150, h = 238;
+  rays(g, cx, 165, 160, 174, 48); circle(g, cx, 165, 156, 1.2);
+  el('rect', { x: x0, y: y0, width: w, height: h, rx: 6, class: 'bg' }, g);
+  path(g, `M${x0} ${y0 + 8} a6 6 0 0 1 6 -6 H${x0 + w - 6} a6 6 0 0 1 6 6 V${y0 + h - 8} a6 6 0 0 1 -6 6 H${x0 + 6} a6 6 0 0 1 -6 -6 Z`, 1.7);
+  path(g, `M${x0 + 12} ${y0} V${y0 + h} M${x0 + 18} ${y0 + 5} V${y0 + h - 5}`, 1, { opacity: 0.6 });
+  el('rect', { x: x0 + 26, y: y0 + 14, width: w - 40, height: h - 28, rx: 3, ...S, 'stroke-width': 1.1 }, g);
+  el('rect', { x: x0 + 34, y: y0 + 22, width: w - 56, height: h - 44, rx: 2, ...S, 'stroke-width': 0.8, opacity: 0.6 }, g);
+  for (const [x, y] of [[x0 + 44, y0 + 32], [x0 + w - 22, y0 + 32], [x0 + 44, y0 + h - 32], [x0 + w - 22, y0 + h - 32]]) { circle(g, x, y, 5.5, 1.2); circle(g, x, y, 1.8, 1); }
+  copticCross(g, x0 + 18 + w / 2 - 4, y0 + h / 2, 5.4, 1.4);
+  path(g, `M${cx + 40} ${y0 + h} V${y0 + h + 36} L${cx + 46} ${y0 + h + 30} L${cx + 52} ${y0 + h + 36} V${y0 + h}`, 1.2);
+}
+
+/* C: an open Bible with arcs of connections rising from it to a cross */
+function artC(svg) {
+  const g = el('g', S, svg); const cx = 175, base = 262, r = rng(11);
+  path(g, `M18 ${base + 26} H332`, 1.1, { opacity: 0.5 });
+  for (let i = 0; i < 18; i++) {
+    const a = 24 + Math.floor(r() * 26) * 10, b = Math.min(326, a + 50 + Math.floor(r() * 18) * 10), rad = (b - a) / 2;
+    path(g, `M${a} ${base} A${rad} ${Math.min(rad, 190) * 0.9} 0 0 1 ${b} ${base}`, 0.95, { opacity: 0.5 });
+  }
+  for (const rad of [150, 116, 82]) path(g, `M${cx - rad} ${base} A${rad} ${rad * 0.9} 0 0 1 ${cx + rad} ${base}`, 1.1, { opacity: rad === 116 ? 0.9 : 0.6 });
+  plainCross(g, cx, 156, 74, 1.7);
+  circle(g, cx, 108, 3, 1.3);
+  openBook(g, cx, 222, 96, 40);
+}
+
+/* D: a stack of books topped by a cross: an interconnected library */
+function artD(svg) {
+  const g = el('g', S, svg); const cx = 175;
+  path(g, `M30 330 H320`, 1.3);
+  const books = [[200, 36, 0], [172, 34, 8], [192, 34, -6], [160, 32, 6]];
+  let y = 330;
+  const ends = [];
+  books.forEach(([w, h, dx], i) => {
+    y -= h; const x0 = cx - w / 2 + dx;
+    path(g, `M${x0} ${y} H${x0 + w} V${y + h} H${x0} Z`, 1.6);
+    path(g, `M${x0 + 22} ${y} V${y + h} M${x0 + 28} ${y} V${y + h} M${x0 + w - 28} ${y} V${y + h} M${x0 + w - 22} ${y} V${y + h}`, 1, { opacity: 0.7 });
+    path(g, `M${x0 + 34} ${y + h / 2} H${x0 + w - 34}`, 0.9, { opacity: 0.5 });
+    copticCross(g, x0 + w / 2, y + h / 2, 1.1, 0.9);
+    ends.push([x0, y + h / 2], [x0 + w, y + h / 2]);
+  });
+  // lines of connection between the spines
+  for (let i = 0; i + 2 < ends.length; i += 1) { const [x1, y1] = ends[i], [x2, y2] = ends[i + 2]; const side = i % 2 === 0 ? -1 : 1; path(g, `M${x1} ${y1} C${x1 + side * 46} ${y1} ${x2 + side * 46} ${y2} ${x2} ${y2}`, 1, { opacity: 0.7 }); circle(g, x1, y1, 2.6, 1); }
+  copticCross(g, cx, 96, 3.4, 1.4);
+  rays(g, cx, 96, 52, 62, 24, Math.PI, 2 * Math.PI);
+}
+
+/* E: the lectern: an open Bible on an analogion, two candles and the cross in an arch */
+function artE(svg) {
+  const g = el('g', S, svg); const cx = 175;
+  path(g, `M${cx - 98} 330 V120 C${cx - 98} 30 ${cx + 98} 30 ${cx + 98} 120 V330`, 1.6);
+  path(g, `M${cx - 84} 330 V122 C${cx - 84} 44 ${cx + 84} 44 ${cx + 84} 122 V330`, 0.9, { opacity: 0.6 });
+  plainCross(g, cx, 170, 86, 1.8); circle(g, cx, 76, 3, 1.3);
+  path(g, `M${cx - 104} 330 H${cx + 104}`, 1.4);
+  // the lectern
+  path(g, `M${cx - 58} 258 L${cx + 58} 258 L${cx + 46} 232 L${cx - 46} 232 Z`, 1.5);
+  path(g, `M${cx - 22} 258 V322 M${cx + 22} 258 V322 M${cx - 40} 322 H${cx + 40} M${cx - 34} 330 H${cx + 34}`, 1.4);
+  path(g, `M${cx - 22} 290 H${cx + 22}`, 1, { opacity: 0.6 });
+  // the open Bible on it
+  path(g, `M${cx} 244 C${cx - 14} 232 ${cx - 34} 230 ${cx - 46} 234 V252 C${cx - 34} 248 ${cx - 14} 250 ${cx} 258 Z M${cx} 244 C${cx + 14} 232 ${cx + 34} 230 ${cx + 46} 234 V252 C${cx + 34} 248 ${cx + 14} 250 ${cx} 258 Z`, 1.2);
+  // two candles
+  for (const x of [cx - 74, cx + 74]) {
+    path(g, `M${x - 5} 322 V288 H${x + 5} V322 M${x - 9} 322 H${x + 9} M${x - 12} 330 H${x + 12}`, 1.3);
+    path(g, `M${x} 286 C${x - 7} 276 ${x - 4} 266 ${x} 260 C${x + 4} 266 ${x + 7} 276 ${x} 286 Z`, 1.2);
+  }
+}
+
+/* F: a tree of life that grows from an open Bible, crowned by the cross */
+function artF(svg) {
+  const g = el('g', S, svg); const cx = 175;
+  circle(g, cx, 140, 138, 1, { 'stroke-dasharray': '2 6' });
+  openBook(g, cx, 252, 112, 44);
+  path(g, `M${cx} 262 C${cx - 3} 242 ${cx + 3} 226 ${cx} 208`, 3);
+  const tips = [];
+  const grow = (x, y, a, len, depth) => {
+    const x2 = x + len * Math.sin(a), y2 = y - len * Math.cos(a);
+    const mx = (x + x2) / 2 + len * 0.12 * Math.cos(a), my = (y + y2) / 2 + len * 0.12 * Math.sin(a);
+    path(g, `M${x.toFixed(1)} ${y.toFixed(1)} Q${mx.toFixed(1)} ${my.toFixed(1)} ${x2.toFixed(1)} ${y2.toFixed(1)}`, 0.8 + depth * 0.4);
+    if (depth === 0) { tips.push([x2, y2]); return; }
+    grow(x2, y2, a - 0.5, len * 0.74, depth - 1); grow(x2, y2, a + 0.5, len * 0.74, depth - 1);
+    if (depth === 3) grow(x2, y2, a, len * 0.62, depth - 1);
+  };
+  grow(cx, 208, 0, 52, 4);
+  for (const [x, y] of tips) circle(g, x.toFixed(1), y.toFixed(1), 3, 1.1);
+  copticCross(g, cx, 28, 1.7, 1.2);
+}
+
+/* G: a cross over an unrolled scroll of Scripture, with leaves */
+function artG(svg) {
+  const g = el('g', S, svg); const cx = 175;
+  rays(g, cx, 130, 92, 106, 40, Math.PI * 1.05, Math.PI * 1.95);
+  copticCross(g, cx, 130, 6.4, 1.5);
+  // the scroll
+  const y = 262;
+  path(g, `M${cx - 118} ${y} C${cx - 60} ${y - 14} ${cx + 60} ${y - 14} ${cx + 118} ${y} V${y + 40} C${cx + 60} ${y + 26} ${cx - 60} ${y + 26} ${cx - 118} ${y + 40} Z`, 1.6);
+  for (const k of [-1, 1]) {
+    const x = cx + k * 118;
+    circle(g, x, y + 20, 22, 1.5); circle(g, x, y + 20, 14, 1.1); circle(g, x, y + 20, 6, 1);
+    path(g, `M${x} ${y - 2} H${x + k * 10} M${x} ${y + 42} H${x + k * 10}`, 1.1, { opacity: 0.6 });
+  }
+  for (let i = 0; i < 4; i++) { const dy = 10 + i * 8; path(g, `M${cx - 92} ${y + dy + 6} C${cx - 50} ${y + dy - 6} ${cx + 50} ${y + dy - 6} ${cx + 92} ${y + dy + 6}`, 0.9, { opacity: 0.6 }); }
+  // leaves
+  for (const k of [-1, 1]) {
+    path(g, `M${cx + k * 128} ${y + 54} C${cx + k * 150} ${y + 40} ${cx + k * 150} ${y + 10} ${cx + k * 140} ${y - 20}`, 1.2, { opacity: 0.8 });
+    for (let i = 0; i < 4; i++) { const ly = y + 44 - i * 18, lx = cx + k * (140 + (i % 2 ? 6 : 0)); path(g, `M${lx} ${ly} q${k * 14} -8 ${k * 22} -2 q${-k * 10} 10 ${-k * 22} 2`, 1, { opacity: 0.8 }); }
+  }
+}
+
+/* I: the cross alone, in a rosette of twelve petals */
+function artI(svg) {
+  const g = el('g', S, svg); const cx = 175, cy = 175;
+  for (let i = 0; i < 12; i++) {
+    const a = (i * 30 * Math.PI) / 180, r1 = 70, r2 = 160;
+    const px = (r) => [cx + r * Math.cos(a), cy + r * Math.sin(a)];
+    const [x1, y1] = px(r1), [x2, y2] = px(r2);
+    const nx = -Math.sin(a) * 26, ny = Math.cos(a) * 26;
+    path(g, `M${x1} ${y1} C${x1 + nx + (x2 - x1) * 0.3} ${y1 + ny + (y2 - y1) * 0.3} ${x2 + nx * 0.8} ${y2 + ny * 0.8} ${x2} ${y2} C${x2 - nx * 0.8} ${y2 - ny * 0.8} ${x1 - nx + (x2 - x1) * 0.3} ${y1 - ny + (y2 - y1) * 0.3} ${x1} ${y1}`, 1.2, { opacity: 0.9 });
+  }
+  circle(g, cx, cy, 168, 1.1, { 'stroke-dasharray': '2 6' });
+  circle(g, cx, cy, 64, 1.3);
+  el('circle', { cx, cy, r: 62, class: 'bg' }, g);
+  copticCross(g, cx, cy, 4.2, 1.5);
+}
+
+const OPTIONS = [
+  { title: 'Idea 1: the Bible and the cross in light', note: 'An open Bible with a Coptic cross rising from its pages, in a half-ring of rays.', art: artA },
+  { title: 'Idea 2: the closed Gospel book', note: 'Just the Bible: a closed Gospel book with a great cross on its cover, in a ring of light, with a ribbon marker.', art: artB },
+  { title: 'Idea 3: the Bible and arcs of connections', note: 'An open Bible with arcs of cross-references rising from it around a cross, as in the cross-reference diagram.', art: artC },
+  { title: 'Idea 4: a library with the cross', note: 'A stack of books joined by lines, with a cross and rays on top: an interconnected library.', art: artD },
+  { title: 'Idea 5: the lectern', note: 'An open Bible on a lectern with two candles, and a tall cross inside an arch. A picture of the church.', art: artE },
+  { title: 'Idea 6: the tree of life from the Bible', note: 'A tree growing from an open Bible, its branches ending in points, with the cross at the top.', art: artF },
+  { title: 'Idea 7: the cross and the scroll', note: 'A great Coptic cross with a ring of rays, over an unrolled scroll of Scripture with leaves at the sides.', art: artG },
+  { title: 'Idea 8: the cross alone, in a rosette', note: 'Just the cross: a Coptic cross in a rosette of twelve petals, for the twelve apostles.', art: artI },
+];
+
+function panel(option, theme) {
+  const p = document.createElement('div');
+  p.className = `panel ${theme}`;
+  p.insertAdjacentHTML('beforeend', `<div class="head"><span>Orthodoxia</span><span class="tools">العربية &nbsp; ◐</span></div>
+    <div class="text"><h3>Explore Scripture. Discover its connections. Understand the Orthodox faith.</h3><p>An interconnected library of Scripture, early Christian history, Church Fathers, and Coptic Orthodox apologetics.</p></div>`);
+  const svg = el('svg', { class: 'art', viewBox: '0 0 350 350', width: 350, height: 350 });
+  option.art(svg);
+  p.append(svg);
+  return p;
+}
+
+const only = Number(new URLSearchParams(location.search).get('only') || 0);
+const rows = document.getElementById('rows');
+for (const [index, option] of OPTIONS.entries()) {
+  if (only && index + 1 !== only) continue;
+  const h = document.createElement('h2'); h.textContent = option.title;
+  const note = document.createElement('p'); note.className = 'note'; note.textContent = option.note;
+  const pair = document.createElement('div'); pair.className = 'pair';
+  for (const theme of ['light', 'dark']) {
+    const wrap = document.createElement('div');
+    const label = document.createElement('p'); label.className = 'label'; label.textContent = theme === 'light' ? 'Light (default)' : 'Dark';
+    wrap.append(label, panel(option, theme));
+    pair.append(wrap);
+  }
+  rows.append(h, note, pair);
+}
+</script>
+</body>
+</html>

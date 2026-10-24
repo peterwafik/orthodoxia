@@ -190,8 +190,3 @@
   border-radius: var(--radius);
   background: var(--color-danger-soft);
 }
-
-.footer {
-  margin-block-start: var(--space-8);
-  padding-inline: 0;
-}

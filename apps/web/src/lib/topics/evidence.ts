@@ -6,7 +6,7 @@
 import { BOOKS, DEFAULT_EDITION } from '@orthodoxia/bible';
 import { COMPARE_POINTS } from '../../data/church-history/compare.ts';
 import { COPTIC_EVIDENCE, EVIDENCE_FAMILY, type EvidenceEntry } from '../../data/coptic-evidence.ts';
-import { biblePath, bookName, editionBooks } from '../bible.ts';
+import { biblePath, bookName, editionBooks, loadBook } from '../bible.ts';
 import type { Locale } from '../../i18n/index.ts';
 import { parsePassages, type PassageRange } from './reference.ts';
 
@@ -53,6 +53,38 @@ export function evidenceRefs(verses: string, locale: Locale): EvidenceRef[] {
   return refs;
 }
 
+export interface EvidencePassage extends EvidenceRef {
+  /** The text of the passage, verse by verse, in the edition of the language. */
+  readonly verses: readonly { readonly n: string; readonly text: string }[];
+}
+
+/** The passages of a list with their text, for the church-history popup (so the reader need not leave the page). */
+export function evidencePassages(verses: string, locale: Locale): EvidencePassage[] {
+  const edition = DEFAULT_EDITION[locale];
+  const links = evidenceRefs(verses, locale);
+  const wanted = parsePassages(verses).filter((range) => {
+    const info = BOOKS.find((book) => book.code === range.book);
+    return info !== undefined && chaptersOf(edition).get(info.code)?.has(range.from.chapter) === true;
+  });
+  return wanted.map((range, index) => {
+    const book = loadBook(edition, range.book);
+    const out: { n: string; text: string }[] = [];
+    for (let chapter = range.from.chapter; chapter <= range.to.chapter; chapter++) {
+      const data = book.chapters.find((candidate) => candidate.number === chapter);
+      if (data === undefined) continue;
+      const low = chapter === range.from.chapter ? (range.from.verse ?? 1) : 1;
+      const high = chapter === range.to.chapter ? (range.to.verse ?? Infinity) : Infinity;
+      for (const verse of data.verses) {
+        const number = Number.parseInt(verse.number, 10);
+        if (Number.isNaN(number) || number < low || number > high) continue;
+        const text = verse.content.map((part) => part.text).join('').replace(/\s+/g, ' ').trim();
+        if (text !== '') out.push({ n: range.from.chapter === range.to.chapter ? verse.number : `${chapter}:${verse.number}`, text });
+      }
+    }
+    return { ...links[index]!, verses: out };
+  });
+}
+
 export function evidenceView(entry: EvidenceEntry, locale: Locale): EvidenceView {
   return {
     point: entry.point,
@@ -64,6 +96,12 @@ export function evidenceView(entry: EvidenceEntry, locale: Locale): EvidenceView
       ...(witness.note === undefined ? {} : { note: witness.note[locale] }),
     })),
   };
+}
+
+/** Everything the popup shows for one point: the claim, the passages with their text, and the early witnesses. */
+export function evidencePopup(entry: EvidenceEntry, locale: Locale) {
+  const view = evidenceView(entry, locale);
+  return { point: entry.point, claim: view.claim, passages: evidencePassages(entry.verses, locale), witnesses: view.witnesses };
 }
 
 /** The evidence of a family-44 subtopic, by the English name the taxonomy gives it. */

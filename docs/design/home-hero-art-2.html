@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Home page hero drawing ideas, with the cross and Christ</title>
+<style>
+  body { margin: 0; padding: 2rem 1.5rem 4rem; background: #e6e1d3; font-family: Inter, system-ui, sans-serif; color: #1a2340; }
+  h1 { font-size: 1.4rem; margin: 0 0 .3rem; }
+  .intro { margin: 0 0 1rem; max-width: 62rem; color: #4b5567; }
+  h2 { font-size: 1.1rem; margin: 2.4rem 0 .2rem; }
+  .note { margin: 0 0 .8rem; color: #4b5567; max-width: 62rem; }
+  .pair { display: grid; grid-template-columns: repeat(auto-fit, minmax(680px, 1fr)); gap: 1.25rem; }
+  .label { font-size: .8rem; color: #4b5567; margin: 0 0 .25rem; }
+  .panel { position: relative; width: 680px; height: 430px; overflow: hidden; border: 1px solid rgb(0 0 0 / .18); border-radius: 6px; }
+  .panel.light { --bg: #f5f1e6; --ink: #1a2340; --muted: #4b5567; --accent: #7a5a12; --line: #ddd5c3; }
+  .panel.dark  { --bg: #0e1a33; --ink: #f5f1e6; --muted: #b4bccb; --accent: #d9b45a; --line: #2a3a60; }
+  .panel { background: var(--bg); color: var(--ink); }
+  .head { display: flex; align-items: center; justify-content: space-between; padding: 12px 22px; border-bottom: 1px solid var(--line); font: 600 15px "Source Serif 4", Georgia, serif; }
+  .head .tools { font: 500 12px Inter, sans-serif; color: var(--accent); }
+  .text { position: absolute; left: 28px; top: 100px; width: 320px; }
+  .text h3 { margin: 0 0 12px; font: 600 30px/1.12 "Source Serif 4", Georgia, serif; letter-spacing: -0.01em; }
+  .text p { margin: 0; font: 14px/1.45 "Source Serif 4", Georgia, serif; color: var(--muted); }
+  .art { position: absolute; right: 14px; top: 60px; width: 350px; height: 350px; color: var(--accent); }
+  .bg { fill: var(--bg); }
+</style>
+</head>
+<body>
+<h1>Home page: drawings with the cross and Christ</h1>
+<p class="intro">Six more ideas for the area beside the headline, this time with the cross and Christ. All are drawn in thin lines in the theme's accent colour, in light (default) and dark. They are quick sketches in the style of Coptic icons, to show the idea and the composition; a final picture of Christ should be drawn or approved by an iconographer and reviewed by clergy.</p>
+<div id="rows"></div>
+
+<script>
+const NS = 'http://www.w3.org/2000/svg';
+const el = (name, attrs = {}, parent) => { const e = document.createElementNS(NS, name); for (const [k, v] of Object.entries(attrs)) e.setAttribute(k, v); if (parent) parent.append(e); return e; };
+const S = { fill: 'none', stroke: 'currentColor', 'stroke-linecap': 'round', 'stroke-linejoin': 'round' };
+const path = (parent, d, w = 1.4, extra = {}) => el('path', { d, ...S, 'stroke-width': w, ...extra }, parent);
+const circle = (parent, cx, cy, r, w = 1.3, extra = {}) => el('circle', { cx, cy, r, ...S, 'stroke-width': w, ...extra }, parent);
+
+function copticCross(parent, cx, cy, scale, sw = 1.2) {
+  const g = el('g', { transform: `translate(${cx} ${cy}) scale(${scale}) translate(-16 -16)`, ...S, 'stroke-width': sw / scale }, parent);
+  el('rect', { x: 13.5, y: 6, width: 5, height: 20, rx: 0.5 }, g);
+  el('rect', { x: 6, y: 13.5, width: 20, height: 5, rx: 0.5 }, g);
+  for (const angle of [0, 90, 180, 270]) { const a = el('g', { transform: `rotate(${angle} 16 16)` }, g); el('circle', { cx: 16, cy: 2.6, r: 1.9 }, a); el('circle', { cx: 12.7, cy: 4.4, r: 1.6 }, a); el('circle', { cx: 19.3, cy: 4.4, r: 1.6 }, a); }
+}
+
+/** The cruciform nimbus: a ring with the three arms of a cross showing around the head. */
+function nimbus(g, cx, cy, r) {
+  circle(g, cx, cy, r, 1.5);
+  circle(g, cx, cy, r * 0.9, 1);
+  const w = r * 0.17, inner = r * 0.52;
+  path(g, `M${cx - w} ${cy - r * 0.9} V${cy - inner} M${cx + w} ${cy - r * 0.9} V${cy - inner}`, 1.2);
+  path(g, `M${cx - r * 0.9} ${cy - w} H${cx - inner} M${cx - r * 0.9} ${cy + w} H${cx - inner}`, 1.2);
+  path(g, `M${cx + r * 0.9} ${cy - w} H${cx + inner} M${cx + r * 0.9} ${cy + w} H${cx + inner}`, 1.2);
+}
+
+/** A face in the manner of a Coptic icon: long hair, beard, large almond eyes. s = 1 is about 60 units high. */
+function face(g, cx, cy, s) {
+  const X = (v) => cx + v * s, Y = (v) => cy + v * s;
+  // hair
+  path(g, `M${X(-24)} ${Y(-14)} C${X(-34)} ${Y(8)} ${X(-32)} ${Y(40)} ${X(-24)} ${Y(66)}`, 1.4);
+  path(g, `M${X(24)} ${Y(-14)} C${X(34)} ${Y(8)} ${X(32)} ${Y(40)} ${X(24)} ${Y(66)}`, 1.4);
+  path(g, `M${X(-24)} ${Y(-14)} C${X(-20)} ${Y(-38)} ${X(20)} ${Y(-38)} ${X(24)} ${Y(-14)}`, 1.4);
+  // brow line of the hair and the parting
+  path(g, `M${X(-22)} ${Y(-14)} Q${X(-10)} ${Y(-26)} ${X(0)} ${Y(-20)} Q${X(10)} ${Y(-26)} ${X(22)} ${Y(-14)}`, 1);
+  // face
+  path(g, `M${X(-21)} ${Y(-14)} C${X(-22)} ${Y(12)} ${X(-18)} ${Y(30)} ${X(0)} ${Y(38)} C${X(18)} ${Y(30)} ${X(22)} ${Y(12)} ${X(21)} ${Y(-14)}`, 1.2);
+  // brows and eyes
+  for (const k of [-1, 1]) {
+    path(g, `M${X(k * 4)} ${Y(-11)} Q${X(k * 11)} ${Y(-16)} ${X(k * 19)} ${Y(-11)}`, 1.1);
+    path(g, `M${X(k * 5)} ${Y(-5)} Q${X(k * 11.5)} ${Y(-11)} ${X(k * 18)} ${Y(-5)} Q${X(k * 11.5)} ${Y(-1)} ${X(k * 5)} ${Y(-5)}`, 1);
+    circle(g, X(k * 11.5), Y(-5.6), 1.6 * s, 1);
+  }
+  // nose, moustache and mouth
+  path(g, `M${X(0)} ${Y(-6)} C${X(-1)} ${Y(4)} ${X(-3)} ${Y(8)} ${X(-5)} ${Y(11)} Q${X(0)} ${Y(14)} ${X(5)} ${Y(11)}`, 1);
+  path(g, `M${X(-10)} ${Y(17)} Q${X(-4)} ${Y(14)} ${X(0)} ${Y(17)} Q${X(4)} ${Y(14)} ${X(10)} ${Y(17)}`, 1);
+  path(g, `M${X(-5)} ${Y(21)} Q${X(0)} ${Y(23)} ${X(5)} ${Y(21)}`, 1);
+  // beard
+  path(g, `M${X(-20)} ${Y(16)} C${X(-22)} ${Y(40)} ${X(-10)} ${Y(58)} ${X(0)} ${Y(62)} C${X(10)} ${Y(58)} ${X(22)} ${Y(40)} ${X(20)} ${Y(16)}`, 1.2);
+  path(g, `M${X(0)} ${Y(38)} Q${X(-3)} ${Y(50)} ${X(0)} ${Y(60)} M${X(-9)} ${Y(32)} Q${X(-12)} ${Y(46)} ${X(-6)} ${Y(56)} M${X(9)} ${Y(32)} Q${X(12)} ${Y(46)} ${X(6)} ${Y(56)}`, 0.8, { opacity: 0.7 });
+}
+
+/** A hand raised in blessing, the fingers forming the letters IC XC. Drawn simply. */
+function blessing(g, x, y, s) {
+  const X = (v) => x + v * s, Y = (v) => y + v * s;
+  path(g, `M${X(-8)} ${Y(30)} C${X(-10)} ${Y(14)} ${X(-12)} ${Y(4)} ${X(-8)} ${Y(-6)} L${X(-6)} ${Y(-28)} C${X(-6)} ${Y(-32)} ${X(-1)} ${Y(-32)} ${X(-1)} ${Y(-28)} L${X(-1)} ${Y(-8)}`, 1.2);
+  path(g, `M${X(-1)} ${Y(-24)} L${X(1)} ${Y(-32)} C${X(2)} ${Y(-36)} ${X(7)} ${Y(-35)} ${X(6)} ${Y(-31)} L${X(5)} ${Y(-8)}`, 1.2);
+  path(g, `M${X(5)} ${Y(-14)} C${X(9)} ${Y(-14)} ${X(10)} ${Y(-6)} ${X(7)} ${Y(-2)} C${X(11)} ${Y(-1)} ${X(12)} ${Y(8)} ${X(8)} ${Y(12)}`, 1.1);
+  path(g, `M${X(-8)} ${Y(8)} C${X(-14)} ${Y(4)} ${X(-16)} ${Y(-4)} ${X(-12)} ${Y(-8)} C${X(-9)} ${Y(-6)} ${X(-7)} ${Y(-2)} ${X(-6)} ${Y(2)}`, 1.1);
+  path(g, `M${X(8)} ${Y(12)} C${X(9)} ${Y(22)} ${X(6)} ${Y(30)} ${X(2)} ${Y(34)}`, 1.1);
+}
+
+/* 1: Christ Pantocrator, in a halo of rays, blessing and holding the Gospel */
+function art1(svg) {
+  const g = el('g', S, svg);
+  const cx = 175, cy = 150;
+  for (let i = 0; i < 60; i++) { const a = (i * 6 * Math.PI) / 180; const r1 = 142, r2 = i % 5 === 0 ? 172 : 156; path(g, `M${cx + r1 * Math.cos(a)} ${cy + 20 + r1 * Math.sin(a)} L${cx + r2 * Math.cos(a)} ${cy + 20 + r2 * Math.sin(a)}`, 0.9, { opacity: 0.7 }); }
+  circle(g, cx, cy + 20, 138, 1.2);
+  nimbus(g, cx, cy, 66);
+  face(g, cx, cy + 2, 1.15);
+  // shoulders and tunic
+  path(g, `M${cx - 26} ${cy + 74} C${cx - 52} ${cy + 86} ${cx - 90} ${cy + 96} ${cx - 106} ${cy + 150}`, 1.4);
+  path(g, `M${cx + 26} ${cy + 74} C${cx + 52} ${cy + 86} ${cx + 90} ${cy + 96} ${cx + 106} ${cy + 150}`, 1.4);
+  path(g, `M${cx - 26} ${cy + 76} L${cx} ${cy + 118} L${cx + 26} ${cy + 76}`, 1.1);
+  path(g, `M${cx - 6} ${cy + 118} C${cx - 4} ${cy + 140} ${cx - 10} ${cy + 160} ${cx - 8} ${cy + 180} M${cx + 6} ${cy + 118} C${cx + 4} ${cy + 140} ${cx + 10} ${cy + 160} ${cx + 8} ${cy + 180}`, 0.9, { opacity: 0.7 });
+  // the Gospel book, held on the left
+  const bx = cx - 108, by = cy + 118;
+  path(g, `M${bx} ${by} h58 v62 h-58 Z`, 1.4);
+  path(g, `M${bx + 5} ${by + 5} h48 v52 h-48 Z`, 0.9, { opacity: 0.8 });
+  path(g, `M${bx + 29} ${by + 14} v34 M${bx + 17} ${by + 28} h24`, 1.4);
+  // the blessing hand, on the right
+  blessing(g, cx + 92, cy + 122, 1.2);
+}
+
+/* 2: the Good Shepherd, carrying the lost sheep */
+function art2(svg) {
+  const g = el('g', S, svg);
+  const cx = 160, cy = 96;
+  path(g, `M20 330 Q100 318 180 330 T340 330`, 1.1, { opacity: 0.6 });
+  nimbus(g, cx, cy, 44);
+  face(g, cx, cy + 2, 0.78);
+  // the robe
+  path(g, `M${cx - 16} ${cy + 50} C${cx - 44} ${cy + 62} ${cx - 60} ${cy + 100} ${cx - 64} ${cy + 224} L${cx + 56} ${cy + 224} C${cx + 54} ${cy + 130} ${cx + 44} ${cy + 66} ${cx + 16} ${cy + 50}`, 1.4);
+  path(g, `M${cx - 30} ${cy + 130} C${cx - 28} ${cy + 168} ${cx - 34} ${cy + 200} ${cx - 36} ${cy + 224} M${cx} ${cy + 110} C${cx + 2} ${cy + 160} ${cx - 2} ${cy + 200} ${cx} ${cy + 224} M${cx + 28} ${cy + 130} C${cx + 28} ${cy + 168} ${cx + 32} ${cy + 200} ${cx + 34} ${cy + 224}`, 0.9, { opacity: 0.6 });
+  path(g, `M${cx - 18} ${cy + 76} L${cx} ${cy + 100} L${cx + 18} ${cy + 76}`, 1);
+  path(g, `M${cx - 22} ${cy + 150} Q${cx} ${cy + 160} ${cx + 22} ${cy + 150}`, 1);
+  // the sheep across the shoulders
+  path(g, `M${cx - 58} ${cy + 66} C${cx - 74} ${cy + 46} ${cx - 40} ${cy + 24} ${cx - 6} ${cy + 40} C${cx + 20} ${cy + 26} ${cx + 64} ${cy + 40} ${cx + 62} ${cy + 66} C${cx + 40} ${cy + 78} ${cx + 10} ${cy + 74} ${cx - 6} ${cy + 66} C${cx - 24} ${cy + 78} ${cx - 44} ${cy + 76} ${cx - 58} ${cy + 66} Z`, 1.2);
+  for (const [dx, dy] of [[-40, 52], [-20, 46], [10, 50], [34, 52], [48, 60]]) circle(g, cx + dx, cy + dy, 5, 0.8, { opacity: 0.7 });
+  path(g, `M${cx + 62} ${cy + 58} C${cx + 78} ${cy + 52} ${cx + 84} ${cy + 62} ${cx + 78} ${cy + 72} C${cx + 72} ${cy + 78} ${cx + 66} ${cy + 74} ${cx + 62} ${cy + 66}`, 1.1);
+  circle(g, cx + 75, cy + 62, 1.3, 1);
+  path(g, `M${cx - 50} ${cy + 74} v18 M${cx - 36} ${cy + 76} v20 M${cx + 36} ${cy + 76} v18 M${cx + 48} ${cy + 72} v16`, 1.1);
+  // the shepherd's staff
+  path(g, `M${cx + 92} ${cy + 224} V${cy - 10} C${cx + 92} ${cy - 40} ${cx + 128} ${cy - 40} ${cx + 128} ${cy - 10} C${cx + 128} ${cy} ${cx + 118} ${cy + 6} ${cx + 112} ${cy + 2}`, 1.6);
+  // small sheep at his feet
+  for (const [x, y, k] of [[250, 300, 1], [290, 312, -1]]) {
+    path(g, `M${x - 22} ${y} C${x - 30} ${y - 14} ${x - 8} ${y - 24} ${x + 4} ${y - 16} C${x + 18} ${y - 24} ${x + 34} ${y - 12} ${x + 24} ${y} Z`, 1.1);
+    path(g, `M${x - 16} ${y} v10 M${x + 16} ${y} v10 M${x - 22} ${y - 10} C${x - 34} ${y - 12} ${x - 34} ${y - 2} ${x - 26} ${y - 2}`, 1);
+  }
+}
+
+/* 3: the Crucifixion, with the Virgin and Saint John */
+function art3(svg) {
+  const g = el('g', S, svg);
+  const cx = 175;
+  circle(g, 70, 56, 20, 1.2); for (let i = 0; i < 12; i++) { const a = (i * 30 * Math.PI) / 180; path(g, `M${70 + 24 * Math.cos(a)} ${56 + 24 * Math.sin(a)} L${70 + 31 * Math.cos(a)} ${56 + 31 * Math.sin(a)}`, 1); }
+  path(g, 'M282 40 A20 20 0 1 0 282 76 A15 15 0 1 1 282 40 Z', 1.2);
+  // the hill
+  path(g, `M10 338 C70 318 120 306 ${cx} 304 C230 306 280 318 340 338`, 1.2);
+  path(g, `M30 346 C90 330 140 322 ${cx} 320 C210 322 260 330 320 346`, 0.9, { opacity: 0.6 });
+  // the cross
+  path(g, `M${cx - 8} 304 V44 H${cx + 8} V304`, 1.6);
+  path(g, `M${cx - 8} 112 H70 V128 H${cx - 8} M${cx + 8} 112 H280 V128 H${cx + 8}`, 1.6);
+  path(g, `M${cx - 30} 36 h60 v16 h-60 Z`, 1.1);
+  const t = el('text', { x: cx, y: 48, 'text-anchor': 'middle', 'font-size': 10, 'font-weight': 700, fill: 'currentColor', 'font-family': 'Georgia, serif' }, g); t.textContent = 'INRI';
+  path(g, `M${cx - 22} 262 h44 v10 h-44 Z`, 1.1);
+  // Christ
+  nimbus(g, cx, 88, 26);
+  face(g, cx + 2, 90, 0.5);
+  path(g, `M${cx - 14} 116 C${cx - 30} 118 ${cx - 52} 122 ${cx - 100} 122`, 1.4);
+  path(g, `M${cx + 14} 116 C${cx + 30} 118 ${cx + 52} 122 ${cx + 100} 122`, 1.4);
+  path(g, `M${cx - 14} 116 C${cx - 20} 150 ${cx - 14} 180 ${cx - 18} 200 M${cx + 14} 116 C${cx + 20} 150 ${cx + 14} 180 ${cx + 18} 200`, 1.3);
+  path(g, `M${cx - 18} 190 C${cx - 24} 206 ${cx - 22} 226 ${cx - 20} 250 M${cx + 18} 190 C${cx + 24} 206 ${cx + 22} 226 ${cx + 20} 250`, 1.3);
+  path(g, `M${cx - 18} 190 Q${cx} 204 ${cx + 18} 190`, 1.1);
+  path(g, `M${cx - 6} 140 Q${cx} 148 ${cx + 6} 140 M${cx - 8} 154 Q${cx} 162 ${cx + 8} 154`, 0.9, { opacity: 0.7 });
+  // the Virgin and Saint John
+  for (const [x, k] of [[78, 1], [272, -1]]) {
+    nimbus(g, x, 196, 20);
+    face(g, x, 198, 0.36);
+    path(g, `M${x - 14} 224 C${x - 28} 232 ${x - 34} 270 ${x - 36} 316 L${x + 36} 316 C${x + 34} 270 ${x + 28} 232 ${x + 14} 224`, 1.3);
+    path(g, `M${x - 12} 232 Q${x} 240 ${x + 12} 232`, 1);
+    path(g, `M${x + k * 12} 250 C${x + k * 34} 246 ${x + k * 40} 226 ${x + k * 30} 214`, 1.2);
+  }
+}
+
+/* 4: Christ risen, with the banner of the Resurrection, above the empty tomb */
+function art4(svg) {
+  const g = el('g', S, svg);
+  const cx = 175, cy = 120;
+  for (let i = 0; i < 40; i++) { const a = (i * 9 * Math.PI) / 180; const r1 = 130, r2 = i % 4 === 0 ? 168 : 150; path(g, `M${cx + r1 * Math.cos(a)} ${cy + 40 + r1 * Math.sin(a)} L${cx + r2 * Math.cos(a)} ${cy + 40 + r2 * Math.sin(a)}`, 0.9, { opacity: 0.65 }); }
+  // the mandorla
+  path(g, `M${cx} ${cy - 96} C${cx + 100} ${cy - 40} ${cx + 100} ${cy + 130} ${cx} ${cy + 190} C${cx - 100} ${cy + 130} ${cx - 100} ${cy - 40} ${cx} ${cy - 96} Z`, 1.3);
+  path(g, `M${cx} ${cy - 84} C${cx + 88} ${cy - 36} ${cx + 88} ${cy + 124} ${cx} ${cy + 176} C${cx - 88} ${cy + 124} ${cx - 88} ${cy - 36} ${cx} ${cy - 84} Z`, 0.9, { opacity: 0.6 });
+  nimbus(g, cx, cy - 20, 32);
+  face(g, cx, cy - 18, 0.6);
+  // robe, one hand blessing, one holding the banner
+  path(g, `M${cx - 14} ${cy + 20} C${cx - 36} ${cy + 36} ${cx - 44} ${cy + 80} ${cx - 46} ${cy + 168} L${cx + 46} ${cy + 168} C${cx + 44} ${cy + 80} ${cx + 36} ${cy + 36} ${cx + 14} ${cy + 20}`, 1.3);
+  path(g, `M${cx - 14} ${cy + 26} L${cx} ${cy + 46} L${cx + 14} ${cy + 26}`, 1);
+  path(g, `M${cx - 16} ${cy + 80} C${cx - 14} ${cy + 120} ${cx - 18} ${cy + 150} ${cx - 18} ${cy + 168} M${cx + 16} ${cy + 80} C${cx + 14} ${cy + 120} ${cx + 18} ${cy + 150} ${cx + 18} ${cy + 168}`, 0.9, { opacity: 0.6 });
+  path(g, `M${cx + 40} ${cy + 50} C${cx + 60} ${cy + 40} ${cx + 66} ${cy + 20} ${cx + 62} ${cy + 6}`, 1.2);
+  // the banner of the Resurrection
+  path(g, `M${cx + 70} ${cy + 168} V${cy - 84}`, 1.6);
+  path(g, `M${cx + 70} ${cy - 84} H${cx + 124} L${cx + 112} ${cy - 66} L${cx + 124} ${cy - 48} H${cx + 70}`, 1.2);
+  path(g, `M${cx + 96} ${cy - 80} v26 M${cx + 86} ${cy - 70} h20`, 1.2);
+  // the tomb
+  path(g, `M${cx - 110} 336 V290 C${cx - 110} 262 ${cx - 70} 250 ${cx - 30} 254 L${cx + 30} 254 C${cx + 70} 250 ${cx + 110} 262 ${cx + 110} 290 V336`, 1.4);
+  path(g, `M${cx - 40} 336 V304 C${cx - 40} 286 ${cx + 40} 286 ${cx + 40} 304 V336`, 1.2);
+  circle(g, cx + 118, 316, 24, 1.3);
+  path(g, `M${cx + 100} 316 H${cx + 136} M${cx + 118} 298 V334`, 0.8, { opacity: 0.5 });
+  path(g, 'M10 338 H340', 1.2);
+}
+
+/* 5: Christ in majesty, in a mandorla, with the four living creatures */
+function art5(svg) {
+  const g = el('g', S, svg);
+  const cx = 175, cy = 176;
+  path(g, `M${cx} 30 C${cx + 106} 90 ${cx + 106} 262 ${cx} 322 C${cx - 106} 262 ${cx - 106} 90 ${cx} 30 Z`, 1.5);
+  path(g, `M${cx} 44 C${cx + 94} 98 ${cx + 94} 254 ${cx} 308 C${cx - 94} 254 ${cx - 94} 98 ${cx} 44 Z`, 0.9, { opacity: 0.6 });
+  nimbus(g, cx, 100, 34);
+  face(g, cx, 102, 0.63);
+  // the throne and robe
+  path(g, `M${cx - 14} 140 C${cx - 36} 152 ${cx - 46} 190 ${cx - 50} 250 L${cx + 50} 250 C${cx + 46} 190 ${cx + 36} 152 ${cx + 14} 140`, 1.3);
+  path(g, `M${cx - 14} 146 L${cx} 166 L${cx + 14} 146`, 1);
+  path(g, `M${cx - 70} 218 H${cx + 70} M${cx - 62} 232 H${cx + 62}`, 1.2);
+  path(g, `M${cx - 70} 218 V274 M${cx + 70} 218 V274`, 1.2);
+  path(g, `M${cx - 50} 250 q-4 20 -10 40 M${cx + 50} 250 q4 20 10 40`, 1.1);
+  // the book and the blessing hand
+  path(g, `M${cx - 40} 190 h30 v34 h-30 Z`, 1.2);
+  path(g, `M${cx - 25} 197 v20 M${cx - 33} 205 h16`, 1.1);
+  blessing(g, cx + 44, 176, 0.8);
+  // the four living creatures, in winged roundels at the corners
+  const wings = (x, y) => { for (const k of [-1, 1]) { path(g, `M${x + k * 20} ${y} C${x + k * 38} ${y - 16} ${x + k * 52} ${y - 8} ${x + k * 56} ${y + 4}`, 1.1); path(g, `M${x + k * 20} ${y + 4} C${x + k * 36} ${y - 6} ${x + k * 46} ${y} ${x + k * 48} ${y + 10}`, 0.9, { opacity: 0.7 }); } };
+  const corners = [[48, 52], [302, 52], [48, 300], [302, 300]];
+  corners.forEach(([x, y], i) => { circle(g, x, y, 20, 1.3); circle(g, x, y, 15, 0.8, { opacity: 0.7 }); wings(x, y);
+    if (i === 0) { path(g, `M${x - 8} ${y + 6} Q${x} ${y - 10} ${x + 8} ${y + 6} M${x - 6} ${y - 4} l-3 -6 M${x + 6} ${y - 4} l3 -6`, 1); }
+    if (i === 1) { path(g, `M${x - 9} ${y + 3} L${x} ${y - 9} L${x + 9} ${y + 3} Q${x} ${y + 9} ${x - 9} ${y + 3}`, 1); }
+    if (i === 2) { path(g, `M${x - 9} ${y - 6} q-5 -3 -4 -8 M${x + 9} ${y - 6} q5 -3 4 -8 M${x - 9} ${y - 6} Q${x} ${y - 14} ${x + 9} ${y - 6} V${y + 4} Q${x} ${y + 12} ${x - 9} ${y + 4} Z`, 1); }
+    if (i === 3) { circle(g, x, y - 3, 6, 1); path(g, `M${x - 9} ${y + 10} Q${x} ${y + 2} ${x + 9} ${y + 10}`, 1); } });
+}
+
+/* 6: the face of Christ at the crossing of a great Coptic cross */
+function art6(svg) {
+  const g = el('g', S, svg);
+  const cx = 175, cy = 175, bar = 50, arm = 150;
+  for (let i = 0; i < 48; i++) { const a = (i * 7.5 * Math.PI) / 180; path(g, `M${cx + 100 * Math.cos(a)} ${cy + 100 * Math.sin(a)} L${cx + (i % 2 ? 114 : 124) * Math.cos(a)} ${cy + (i % 2 ? 114 : 124) * Math.sin(a)}`, 0.8, { opacity: 0.55 }); }
+  const arms = `M${cx - bar / 2} ${cy - arm} H${cx + bar / 2} V${cy - bar / 2} H${cx + arm} V${cy + bar / 2} H${cx + bar / 2} V${cy + arm} H${cx - bar / 2} V${cy + bar / 2} H${cx - arm} V${cy - bar / 2} H${cx - bar / 2} Z`;
+  el('path', { d: arms, class: 'bg' }, g);
+  path(g, arms, 1.6);
+  for (const [dx, dy] of [[0, -1], [0, 1], [-1, 0], [1, 0]]) {
+    const ex = cx + dx * (arm + 14), ey = cy + dy * (arm + 14);
+    circle(g, ex, ey, 11, 1.4);
+    circle(g, ex + dy * 22 - dx * 6, ey + dx * 22 - dy * 6, 8, 1.3);
+    circle(g, ex - dy * 22 - dx * 6, ey - dx * 22 - dy * 6, 8, 1.3);
+    path(g, `M${cx + dx * 62} ${cy + dy * 62} L${cx + dx * (arm - 10)} ${cy + dy * (arm - 10)}`, 0.8, { opacity: 0.5 });
+  }
+  el('circle', { cx, cy, r: 68, class: 'bg' }, g);
+  circle(g, cx, cy, 68, 1.6);
+  circle(g, cx, cy, 61, 0.9, { opacity: 0.7 });
+  nimbus(g, cx, cy - 1, 56);
+  face(g, cx, cy, 0.95);
+}
+
+const OPTIONS = [
+  { title: 'Idea 1: Christ Pantocrator', note: 'Christ blessing, with the Gospel in His other hand, in a cruciform halo and a ring of rays. The classic icon of Christ the Almighty.', art: art1 },
+  { title: 'Idea 2: the Good Shepherd', note: 'Christ carrying the lost sheep on His shoulders, with a staff and the flock at His feet. Gentle, and tied to the parables.', art: art2 },
+  { title: 'Idea 3: the Crucifixion', note: 'Christ on the cross with the Virgin and Saint John at its foot, the sun and moon above, and the hill of Golgotha.', art: art3 },
+  { title: 'Idea 4: the Resurrection', note: 'Christ risen, in a mandorla of light with the banner of the Resurrection, above the empty tomb with its stone rolled away.', art: art4 },
+  { title: 'Idea 5: Christ in majesty', note: 'Christ enthroned in a mandorla, holding the Gospel and blessing, with the four living creatures in the corners. It echoes the Holy Mass journey into heaven.', art: art5 },
+  { title: 'Idea 6: the face of Christ in the cross', note: 'A great Coptic cross with the face of Christ at its crossing, inside a ring of rays. The cross and Christ in one picture.', art: art6 },
+];
+
+function panel(option, theme) {
+  const p = document.createElement('div');
+  p.className = `panel ${theme}`;
+  p.insertAdjacentHTML('beforeend', `<div class="head"><span>Orthodoxia</span><span class="tools">العربية &nbsp; ◐</span></div>
+    <div class="text"><h3>Explore Scripture. Discover its connections. Understand the Orthodox faith.</h3><p>An interconnected library of Scripture, early Christian history, Church Fathers, and Coptic Orthodox apologetics.</p></div>`);
+  const svg = el('svg', { class: 'art', viewBox: '0 0 350 350', width: 350, height: 350 });
+  option.art(svg);
+  p.append(svg);
+  return p;
+}
+
+const only = Number(new URLSearchParams(location.search).get('only') || 0);
+const rows = document.getElementById('rows');
+for (const [index, option] of OPTIONS.entries()) {
+  if (only && index + 1 !== only) continue;
+  const h = document.createElement('h2'); h.textContent = option.title;
+  const note = document.createElement('p'); note.className = 'note'; note.textContent = option.note;
+  const pair = document.createElement('div'); pair.className = 'pair';
+  for (const theme of ['light', 'dark']) {
+    const wrap = document.createElement('div');
+    const label = document.createElement('p'); label.className = 'label'; label.textContent = theme === 'light' ? 'Light (default)' : 'Dark';
+    wrap.append(label, panel(option, theme));
+    pair.append(wrap);
+  }
+  rows.append(h, note, pair);
+}
+</script>
+</body>
+</html>

@@ -1,43 +1,95 @@
-.footer {
+/* The footer of the whole site: two slim rows, no dividing line above it. The same design as
+   apps/web/src/components/SiteFooter.astro (same sizes, spacing and colours); keep the two in step. */
+.sf {
+  margin-block-start: 2.5rem;
+  background: var(--color-surface);
+  color: var(--color-text-muted);
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.inner {
   display: flex;
   flex-wrap: wrap;
-  align-items: baseline;
-  gap: var(--space-1) var(--space-4);
-  padding: var(--space-2) var(--space-4) calc(var(--space-2) + env(safe-area-inset-bottom, 0px));
-  color: var(--color-text-muted);
-  font-size: 0.75rem;
-  line-height: 1.4;
+  align-items: center;
+  gap: 0.25rem 2rem;
+  padding: 0.8rem clamp(1rem, 3vw, 4.5rem) 0.3rem;
 }
 
-.footer a {
-  color: inherit;
-}
-
-.footer a:hover,
-.footer a:focus-visible {
+.logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
   color: var(--color-text);
+  font-family: var(--font-serif);
+  font-size: 1.05rem;
+  font-weight: 600;
+  text-decoration: none;
 }
 
-.owner {
-  white-space: nowrap;
+.cross {
+  inline-size: 22px;
+  block-size: 22px;
+  color: var(--color-accent);
+  flex: none;
 }
 
-.credits {
-  flex: 1 1 20rem;
-  text-align: end;
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0 1.25rem;
+  margin-inline-start: auto;
 }
 
-/* Phones: one line, owner on the left and the (shortened) credits on the right, when it fits;
-   otherwise the credits wrap below rather than lose anything. */
-@media (max-width: 47.99rem) {
-  .footer {
-    column-gap: var(--space-2);
-    padding-inline: var(--space-3);
-    font-size: 0.6875rem;
-  }
+.nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 1.25rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
 
-  .credits {
-    flex: 0 1 auto;
-    margin-inline-start: auto;
+/* The project pages are set apart from the sections by a thin vertical divider. */
+.divider {
+  inline-size: 1px;
+  block-size: 1.3rem;
+  background: var(--color-border);
+}
+
+.nav a {
+  display: inline-block;
+  padding-block: 0.3rem;
+  color: var(--color-text-muted);
+  font-size: 0.875rem;
+  text-decoration: none;
+}
+
+.nav a:hover,
+.nav a:focus-visible {
+  color: var(--color-text);
+  text-decoration: underline;
+  text-decoration-color: var(--color-accent);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.3em;
+}
+
+.note {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0.1rem 1.5rem;
+  padding: 0.15rem clamp(1rem, 3vw, 4.5rem) calc(0.8rem + env(safe-area-inset-bottom, 0px));
+  font-size: 0.8rem;
+}
+
+.note p {
+  margin: 0;
+}
+
+@media (max-width: 40rem) {
+  .divider {
+    display: none;
   }
 }

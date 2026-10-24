@@ -10,6 +10,9 @@ import { describe, expect, it } from 'vitest';
 const SRC = join(import.meta.dirname, '..');
 const FORBIDDEN = [
   'independent study project',
+  'Every text here is in the public domain or openly licensed',
+  'awaiting confirmation by our reviewers',
+  'public-domain ancestor of the NKJV',
   'Data and code credits',
   'Site code: MIT License',
   'Original articles: CC BY-SA',
