@@ -20,20 +20,22 @@ const UI = {
     description: 'Choose one of the three liturgies of the Coptic Orthodox Church, then follow its prayers stop by stop.',
     heading: 'Holy Mass',
     lede: 'The Coptic Orthodox Church prays three liturgies. Choose one to follow its prayers stop by stop, from the earthly church toward the heavenly worship.',
-    note: 'The descriptions are short drafts and have not been reviewed by clergy.',
     open: 'Open the liturgy',
     cards: {
       cyril: {
         title: 'The Liturgy of St. Cyril',
         note: 'Traditionally ascribed to St. Mark the Evangelist and later arranged by St. Cyril of Alexandria; also called the Liturgy of St. Mark.',
+        when: 'Prayed in the fasting seasons, mainly Great Lent; used less often today, often in part only.',
       },
       gregory: {
         title: 'The Liturgy of St. Gregory',
         note: 'Attributed to St. Gregory of Nazianzus, called “the Theologian”; its prayers are addressed mainly to Christ.',
+        when: 'The festal liturgy: prayed on the feasts of the Lord and during the fifty days after Easter.',
       },
       basil: {
         title: 'The Liturgy of St. Basil',
         note: 'Attributed to St. Basil the Great, Archbishop of Caesarea; the liturgy the Coptic Church prays most often.',
+        when: 'The usual liturgy: prayed on most days of the year, including most Sundays, unless the priest begins another.',
       },
     },
   },
@@ -42,20 +44,22 @@ const UI = {
     description: 'اختر واحدًا من القداسات الثلاثة في الكنيسة القبطية الأرثوذكسية، ثم تابع صلواته محطةً محطة.',
     heading: 'القداس الإلهي',
     lede: 'تصلّي الكنيسة القبطية الأرثوذكسية ثلاثة قداسات. اختر واحدًا لتتابع صلواته محطةً محطة، من الكنيسة الأرضية نحو العبادة السماوية.',
-    note: 'الأوصاف مسودات قصيرة لم يراجعها الآباء الكهنة بعد.',
     open: 'افتح القداس',
     cards: {
       cyril: {
         title: 'القداس الكيرلسي',
         note: 'يُنسب تقليديًا إلى مار مرقس الإنجيلي، ورتّبه لاحقًا القديس كيرلس الإسكندري؛ ويُسمى أيضًا قداس مار مرقس.',
+        when: 'يُصلّى في أزمنة الصيام، وأكثر ما يُصلّى في الصوم الكبير؛ وقلّ استخدامه اليوم، ويُصلّى غالبًا بعض أجزائه فقط.',
       },
       gregory: {
         title: 'القداس الغريغوري',
         note: 'يُنسب إلى القديس غريغوريوس النزينزي الملقب بالناطق بالإلهيات؛ وصلواته موجهة في معظمها إلى المسيح.',
+        when: 'قداس الأعياد: يُصلّى في الأعياد السيدية وفي الخماسين المقدسة بعد القيامة.',
       },
       basil: {
         title: 'القداس الباسيلي',
         note: 'يُنسب إلى القديس باسيليوس الكبير رئيس أساقفة قيصرية؛ وهو القداس الذي تصليه الكنيسة القبطية في أغلب الأوقات.',
+        when: 'القداس المعتاد: يُصلّى في أغلب أيام السنة ومعظم الآحاد، ما لم يبدأ الكاهن بقداس آخر.',
       },
     },
   },
@@ -90,13 +94,12 @@ const cards = ORDER.map((id) => ({
                 <SaintArt saint={card.id} />
                 <span class="card-title">{card.title}</span>
                 <span class="card-note">{card.note}</span>
-                <span class="card-open">{ui.open}</span>
+                <span class="card-open">{card.when}</span>
               </a>
             </li>
           ))
         }
       </ul>
-      <p class="draft">{ui.note}</p>
     </div>
   </section>
 </Base>
@@ -170,11 +173,7 @@ const cards = ORDER.map((id) => ({
   .card-open {
     color: var(--accent);
     font-weight: 600;
+    line-height: 1.5;
   }
 
-  .draft {
-    margin-block: 1.25rem 0;
-    font-size: 0.85rem;
-    color: var(--ink-muted);
-  }
 </style>

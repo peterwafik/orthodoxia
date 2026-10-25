@@ -139,6 +139,7 @@ export const en = {
     liturgyHeading: 'Holy Mass texts',
     liturgyIntro: 'The prayers shown on the Holy Mass page come from these sources, each credited as its file states.',
     liturgyNone: 'No prayer texts have been added yet; the page shows short draft summaries.',
+    meaningBooks: 'The “Meaning behind” notes on the Holy Mass page summarise, in the site’s own words, two books: The Spirituality of the Rites of the Holy Liturgy in the Coptic Orthodox Church (introduction by Bishop Mettaous) and the lecture notes Analysis and Explanation of the Consecration Prayers in the Three Liturgies by Michael Mina (Clerical College, Port Said).',
     intro:
       'Every dataset, text and reference site we use or have evaluated, with its license as we verified it. Licenses can change, so each entry shows when we last checked.',
     groups: {

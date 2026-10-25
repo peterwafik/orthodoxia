@@ -11,7 +11,7 @@
  */
 import Base from '../../../layouts/Base.astro';
 import Icon from '../../../components/holy-mass/Icon.astro';
-import { LOCALES, localePath, t, type Locale } from '../../../i18n/index.ts';
+import { LOCALES, localePath, type Locale } from '../../../i18n/index.ts';
 import { CHAPTERS, LITURGIES, STOPS, stopHash } from '../../../data/holy-mass.ts';
 
 export function getStaticPaths() {
@@ -47,8 +47,6 @@ const UI = {
     hiddenAll: 'Everything is hidden. Use the buttons below to show the priest, the deacon, the people, the steps or the meaning.',
     textPending: 'The text of this prayer has not been added yet.',
     notInLanguage: 'Part of this text is not yet available in English.',
-    textSource: 'Text',
-    seeSources: 'see the Sources page',
     textSize: 'Text size',
     smaller: 'Smaller text',
     larger: 'Larger text',
@@ -56,10 +54,7 @@ const UI = {
     resume: (n: number) => `Resume at stop ${n}`,
     options: 'Options',
     close: 'Close',
-    disclaimer: 'The artwork is a symbolic visual meditation inspired by Coptic Orthodox worship, not a literal picture of heaven.',
     viewportLabel: 'Drawings of the Divine Liturgy that change as you read each prayer.',
-    imageNote: 'The drawings behind the page are a symbolic illustration inspired by the Coptic liturgy that awaits review by clergy; they are not official icons.',
-    meaningCredit: 'The “Meaning behind” notes summarise, in the site’s own words, two books: The Spirituality of the Rites of the Holy Liturgy in the Coptic Orthodox Church (introduction by Bishop Mettaous) and the lecture notes Analysis and Explanation of the Consecration Prayers in the Three Liturgies by Michael Mina (Clerical College, Port Said). They have not been reviewed by clergy.',
   },
   ar: {
     title: 'القداس الإلهي',
@@ -86,8 +81,6 @@ const UI = {
     hiddenAll: 'كل شيء مخفي. استخدم الأزرار في الأسفل لإظهار الكاهن أو الشماس أو الشعب أو الخطوات أو المعنى.',
     textPending: 'لم يُضَف نص هذه الصلاة بعد.',
     notInLanguage: 'جزء من هذا النص غير متاح بالعربية بعد.',
-    textSource: 'النص',
-    seeSources: 'انظر صفحة المصادر',
     textSize: 'حجم النص',
     smaller: 'نص أصغر',
     larger: 'نص أكبر',
@@ -95,10 +88,7 @@ const UI = {
     resume: (n: number) => `تابع من المحطة ${n}`,
     options: 'خيارات',
     close: 'إغلاق',
-    disclaimer: 'اللوحة تأمل بصري رمزي مستوحى من العبادة القبطية الأرثوذكسية، وليست صورة حرفية للسماء.',
     viewportLabel: 'رسومات للقداس الإلهي تتغير مع كل صلاة تقرؤها.',
-    imageNote: 'الرسومات خلف الصفحة توضيح رمزي مستوحى من القداس القبطي ينتظر مراجعة الآباء الكهنة؛ وليست أيقونات رسمية.',
-    meaningCredit: 'ملاحظات «المعنى وراء» ملخَّصة بكلمات الموقع من كتابين: «روحانية طقوس القداس الإلهي في الكنيسة القبطية الأرثوذكسية» (مقدمة الأنبا متاؤس)، ومذكرات محاضرات «تحليل وشرح صلوات التقديس بالقداسات الثلاثة» للأستاذ ميخائيل مينا (الكلية الإكليريكية، فرع بورسعيد). ولم يراجعها الآباء الكهنة بعد.',
   },
 } as const;
 const ui = UI[locale];
@@ -201,12 +191,6 @@ const clientStops = STOPS.map((stop) => ({ n: stop.n, hash: stopHash(stop), chap
           );
         })
       }
-      <footer class="panel-foot">
-        <p>{ui.disclaimer}</p>
-        <p>{ui.imageNote}</p>
-        <p>{ui.meaningCredit}</p>
-        <p><a href={localePath(locale, 'sources')}>{t(locale).nav.sources}</a></p>
-      </footer>
     </div>
 
     <div class="dock" role="group" aria-label={ui.layersLabel}>
@@ -258,7 +242,7 @@ const clientStops = STOPS.map((stop) => ({ n: stop.n, hash: stopHash(stop), chap
   </div>
 
   <script type="application/json" id="hm-stops" set:html={JSON.stringify(clientStops)}></script>
-  <script type="application/json" id="hm-ui" set:html={JSON.stringify({ stopOf: ui.stopOf(0, total).replace('0', '{n}'), varies: ui.varies('{liturgy}'), resume: ui.resume(0).replace('0', '{n}'), roles: { rubric: ui.steps, priest: ui.priest, deacon: ui.deacon, people: ui.people }, source: ui.textSource, seeSources: ui.seeSources, sourcesHref: localePath(locale, 'sources') })}></script>
+  <script type="application/json" id="hm-ui" set:html={JSON.stringify({ stopOf: ui.stopOf(0, total).replace('0', '{n}'), varies: ui.varies('{liturgy}'), resume: ui.resume(0).replace('0', '{n}'), roles: { rubric: ui.steps, priest: ui.priest, deacon: ui.deacon, people: ui.people } })}></script>
 </Base>
 
 <script>
@@ -266,7 +250,7 @@ const clientStops = STOPS.map((stop) => ({ n: stop.n, hash: stopHash(stop), chap
   import { LAYERS, LAYERS_KEY, parseLayers, serializeLayers, toggleLayer, type Layer, type LayerState } from '../../../lib/holy-mass/layers.ts';
   import { loadLiturgy } from '../../../lib/holy-mass/load.ts';
   import { parseReading, READING_KEY, serializeReading, stepSize, type Reading } from '../../../lib/holy-mass/reading.ts';
-  import { creditFor, hasRubric, scriptItems } from '../../../lib/holy-mass/script-view.ts';
+  import { hasRubric, scriptItems } from '../../../lib/holy-mass/script-view.ts';
   import type { LiturgyJson } from '../../../lib/liturgy/build-core.ts';
   import type { LiturgyId } from '../../../lib/liturgy/resolve.ts';
 
@@ -280,7 +264,7 @@ const clientStops = STOPS.map((stop) => ({ n: stop.n, hash: stopHash(stop), chap
   const root = document.querySelector<HTMLElement>('[data-journey]');
   if (root !== null) {
     const stops = JSON.parse(document.getElementById('hm-stops')!.textContent!) as ClientStop[];
-    const text = JSON.parse(document.getElementById('hm-ui')!.textContent!) as { stopOf: string; varies: string; resume: string; roles: Record<string, string>; source: string; seeSources: string; sourcesHref: string };
+    const text = JSON.parse(document.getElementById('hm-ui')!.textContent!) as { stopOf: string; varies: string; resume: string; roles: Record<string, string> };
     const pageLocale: 'en' | 'ar' = root.dataset['locale'] === 'ar' ? 'ar' : 'en';
     const total = stops.length;
     const filmBox = root.querySelector<HTMLElement>('[data-film]')!;
@@ -515,27 +499,6 @@ const clientStops = STOPS.map((stop) => ({ n: stop.n, hash: stopHash(stop), chap
           }
           box.append(element);
         }
-        const credit = document.createElement('p');
-        credit.className = 'tiny credit';
-        // The credit is in the page's language too; a source in the other language is never shown.
-        const { label, url } = creditFor(entry, pageLocale);
-        if (label === null) {
-          credit.append(`${text.source}: `);
-          const sources = document.createElement('a');
-          sources.href = text.sourcesHref;
-          sources.textContent = text.seeSources;
-          credit.append(sources);
-        } else {
-          credit.append(`${text.source}: ${label}`);
-          if (url !== undefined) {
-            credit.append(' ');
-            const link = document.createElement('a');
-            link.href = url;
-            link.textContent = url;
-            credit.append(link);
-          }
-        }
-        box.append(credit);
       });
       requestAnimationFrame(() => {
         measure();
@@ -907,7 +870,7 @@ const clientStops = STOPS.map((stop) => ({ n: stop.n, hash: stopHash(stop), chap
        the straight edge is on the side of the coloured rule in both languages. */
     padding: 0.8rem 1.15rem 0.9rem;
     border-inline-start: 3px solid color-mix(in srgb, var(--tone) 55%, transparent);
-    background: color-mix(in srgb, var(--tone) 8%, #fffdf8);
+    background: color-mix(in srgb, var(--tone) 17%, #fffdf8);
     border-start-start-radius: 0.3rem;
     border-end-start-radius: 0.3rem;
     border-start-end-radius: 0.9rem;
@@ -916,11 +879,25 @@ const clientStops = STOPS.map((stop) => ({ n: stop.n, hash: stopHash(stop), chap
   }
 
   .aside-steps {
-    --tone: #5b4a2b;
+    --tone: #8a6d47;
+    border-inline-start-color: #b89c70;
+    background: #dcc9a8;
+    color: #3b2a12;
+  }
+
+  .aside.aside-steps h3 {
+    color: #5b4326;
   }
 
   .aside-meaning {
-    --tone: #7a5a12;
+    --tone: #a87d00;
+    border-inline-start-color: #e8c84a;
+    background: #fff8d6;
+    color: #3b2f00;
+  }
+
+  .aside.aside-meaning h3 {
+    color: #6b4f00;
   }
 
   .aside h3 {
@@ -982,15 +959,6 @@ const clientStops = STOPS.map((stop) => ({ n: stop.n, hash: stopHash(stop), chap
 
   .lang-note[hidden] {
     display: none;
-  }
-
-  .panel-foot {
-    max-inline-size: 42rem;
-    margin-inline: auto;
-    padding: 1.5rem clamp(1rem, 4vw, 1.5rem) 7rem;
-    font-family: var(--font-ui);
-    font-size: 0.85rem;
-    color: #4b4638;
   }
 
   /* --- the five switches ----------------------------------------------------------------------- */
@@ -1055,8 +1023,19 @@ const clientStops = STOPS.map((stop) => ({ n: stop.n, hash: stopHash(stop), chap
     --tone: #2f6a3a;
   }
 
+  .layer-steps {
+    --tone: #8a6d47;
+  }
+
+  /* Meaning is yellow everywhere: its button, the notes inside a prayer and the box under it. */
   .layer-meaning {
-    --tone: #7a5a12;
+    --tone: #a87d00;
+  }
+
+  .layer-meaning[aria-pressed='true'] {
+    border-color: #c99a00;
+    background: #f2c200;
+    color: #3b2f00;
   }
 
   /* --- the hamburger drawer -------------------------------------------------------------------- */
@@ -1248,9 +1227,9 @@ const clientStops = STOPS.map((stop) => ({ n: stop.n, hash: stopHash(stop), chap
     --tone: #5b4a2b;
     max-inline-size: min(34rem, 90%);
     padding: 0.55rem 0.85rem 0.65rem;
-    border: 1px solid color-mix(in srgb, var(--tone) 30%, transparent);
+    border: 1px solid color-mix(in srgb, var(--tone) 40%, transparent);
     border-radius: 1.1rem;
-    background: color-mix(in srgb, var(--tone) 7%, #fffdf8);
+    background: color-mix(in srgb, var(--tone) 17%, #fffdf8);
     box-shadow: 0 1px 3px rgba(24, 36, 58, 0.1);
   }
 
@@ -1313,13 +1292,14 @@ const clientStops = STOPS.map((stop) => ({ n: stop.n, hash: stopHash(stop), chap
     padding: 0.5rem 1.15rem 0.55rem;
     border-radius: 1.1rem;
     overflow-wrap: anywhere;
-    --tone: #5b4a2b;
-    border: 1px solid color-mix(in srgb, var(--tone) 22%, transparent);
-    background: color-mix(in srgb, var(--tone) 8%, #fffdf8);
+    /* The steps are a light brown, so they are easy to tell apart from the prayers while scrolling, with dark text that stays readable. */
+    --tone: #8a6d47;
+    border: 1px solid #b89c70;
+    background: #dcc9a8;
     text-align: center;
     font-style: italic;
     font-size: 0.9em;
-    color: #4b4638;
+    color: #3b2a12;
   }
 
   .chat .rubric .line {
@@ -1330,15 +1310,10 @@ const clientStops = STOPS.map((stop) => ({ n: stop.n, hash: stopHash(stop), chap
     margin: 0.35rem 0 0;
     padding: 0.35rem 0.6rem;
     border-radius: 0.6rem;
-    background: color-mix(in srgb, var(--tone) 10%, #fffdf8);
+    border: 1px solid #f0d870;
+    background: #fff8d6;
+    color: #3b2f00;
     font-size: 0.9em;
-  }
-
-  .chat .credit {
-    margin: 0.2rem 0 0;
-    font-family: var(--font-ui);
-    font-size: 0.78rem;
-    color: #6b5f48;
   }
 
   .no-priest .chat .bubble-priest,
