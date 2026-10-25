@@ -1,0 +1,22 @@
+---
+import '../styles/apologetics.css';
+import Base from './Base.astro';
+import type { Locale } from '../i18n/index.ts';
+
+/** The Faith & Evidence pages. Navigation lives in the site header's Faith & Evidence panel, so there is no second bar here. */
+interface Props {
+  locale: Locale;
+  title: string;
+  description?: string | undefined;
+  noindex?: boolean;
+  alternates?: Partial<Record<Locale, string>> | undefined;
+}
+
+const { locale, title, description, noindex = false, alternates } = Astro.props;
+---
+
+<Base locale={locale} title={title} description={description} noindex={noindex} alternates={alternates}>
+  <div class="apo">
+    <slot />
+  </div>
+</Base>

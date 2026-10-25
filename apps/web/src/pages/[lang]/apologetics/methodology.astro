@@ -1,0 +1,42 @@
+---
+import Apo from '../../../layouts/Apo.astro';
+import { LOCALES, type Locale } from '../../../i18n/index.ts';
+import { METHODOLOGY } from '../../../data/apologetics/pages.ts';
+import { ASSESSMENT, ACCESS } from '../../../lib/apologetics/labels.ts';
+import { ui } from '../../../lib/apologetics/ui.ts';
+
+export function getStaticPaths() {
+  return LOCALES.map((lang) => ({ params: { lang } }));
+}
+const locale = Astro.params.lang as Locale;
+const text = ui(locale);
+---
+
+<Apo locale={locale} title={text.nav_method} description={text.methodShort}>
+  <article class="wrap prose">
+    <h1>{text.nav_method}</h1>
+    <p class="lede">{text.perspective}</p>
+    {
+      METHODOLOGY.map((b) => (
+        <section id={b.id}>
+          <h2>{b.heading[locale]}</h2>
+          {b.body[locale].map((p) => <p>{p}</p>)}
+          {
+            b.id === 'labels' && (
+              <dl class="apo-facts" style="grid-template-columns:1fr">
+                {Object.values(ASSESSMENT).map((a) => <><dt>{a.label[locale]}</dt><dd>{a.definition[locale]}</dd></>)}
+              </dl>
+            )
+          }
+          {
+            b.id === 'sources' && (
+              <p class="muted">
+                {text.access}: {Object.values(ACCESS).map((a) => a[locale]).join(' · ')}.
+              </p>
+            )
+          }
+        </section>
+      ))
+    }
+  </article>
+</Apo>

@@ -1,0 +1,54 @@
+---
+import Apo from '../../../../layouts/Apo.astro';
+import { LOCALES, type Locale } from '../../../../i18n/index.ts';
+import { ALL_SOURCES, SOURCE_BY_ID, apoPath, citationsOf } from '../../../../lib/apologetics/index.ts';
+import { ACCESS, GROUP, KIND, STANDPOINT } from '../../../../lib/apologetics/labels.ts';
+import { ui } from '../../../../lib/apologetics/ui.ts';
+
+export function getStaticPaths() {
+  return LOCALES.flatMap((lang) => ALL_SOURCES.map((s) => ({ params: { lang, slug: s.id.toLowerCase() } })));
+}
+const locale = Astro.params.lang as Locale;
+const text = ui(locale);
+const s = SOURCE_BY_ID.get(Astro.params.slug!.toUpperCase())!;
+const cited = citationsOf(s.id);
+const external = s.url.startsWith('http');
+const twin = s.sameWitnessAs === undefined ? undefined : SOURCE_BY_ID.get(s.sameWitnessAs);
+---
+
+<Apo locale={locale} title={s.title} description={s.use[locale]}>
+  <div class="wrap">
+    <p class="apo-crumbs"><a href={apoPath(locale, 'sources')}>{text.sourcesTitle}</a> / {s.id}</p>
+    <h1><bdi>{s.title}</bdi></h1>
+    <p class="lede"><bdi>{s.author}</bdi>{s.locator !== undefined && <> · <bdi>{s.locator}</bdi></>}</p>
+    <h2>{text.whatItIsFor}</h2>
+    <p class="prose">{s.use[locale]}</p>
+    <dl class="apo-facts">
+      <dt>{text.type}</dt><dd>{KIND[s.kind][locale]}</dd>
+      <dt>{text.standpoint}</dt><dd>{STANDPOINT[s.standpoint][locale]}{s.standpointNote !== undefined && <> · <bdi>{s.standpointNote}</bdi></>}</dd>
+      <dt>{text.filterGroup}</dt><dd>{GROUP[s.group][locale]}</dd>
+      {s.composed !== undefined && <><dt>{text.composed}</dt><dd>{s.composed}</dd></>}
+      <dt>{text.access}</dt><dd>{ACCESS[s.access][locale]}</dd>
+      <dt>{text.rights}</dt><dd>{s.rights}</dd>
+      {twin !== undefined && <><dt>{text.sameWitness}</dt><dd><a href={apoPath(locale, `sources/${twin.id.toLowerCase()}`)}>{twin.id}</a></dd></>}
+    </dl>
+    <p><a class="apo-btn" style="display:inline-flex;align-items:center;text-decoration:none" href={s.url} rel={external ? 'noopener noreferrer' : undefined} target={external ? '_blank' : undefined}>{text.openSource}</a></p>
+    <h2>{text.usedIn}</h2>
+    {
+      cited.length === 0 ? (
+        <p>{text.usedInNone}</p>
+      ) : (
+        <ul class="apo-list">
+          {
+            cited.map(({ article, evidence }) => (
+              <li>
+                <a href={apoPath(locale, `questions/${article.questionId}`)}>{article.questionId.replaceAll('-', ' ')}</a>
+                {evidence.map((e) => <> · <a href={`${apoPath(locale, `questions/${article.questionId}`)}#ev-${e.id}`}><bdi>{e.locator}</bdi></a></>)}
+              </li>
+            ))
+          }
+        </ul>
+      )
+    }
+  </div>
+</Apo>

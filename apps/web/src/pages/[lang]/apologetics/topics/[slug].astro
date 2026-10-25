@@ -1,0 +1,44 @@
+---
+import Apo from '../../../../layouts/Apo.astro';
+import { LOCALES, type Locale } from '../../../../i18n/index.ts';
+import { ARTICLE_BY_QUESTION, TOPICS, apoPath, questionsOf, showsDraftNotice } from '../../../../lib/apologetics/index.ts';
+import { DIFFICULTY } from '../../../../lib/apologetics/labels.ts';
+import { ui } from '../../../../lib/apologetics/ui.ts';
+
+export function getStaticPaths() {
+  return LOCALES.flatMap((lang) => TOPICS.map((t) => ({ params: { lang, slug: t.slug } })));
+}
+const locale = Astro.params.lang as Locale;
+const text = ui(locale);
+const topic = TOPICS.find((t) => t.slug === Astro.params.slug)!;
+const questions = questionsOf(topic.id);
+---
+
+<Apo locale={locale} title={topic.title[locale]} description={topic.description[locale]}>
+  <div class="wrap">
+    <p class="apo-crumbs"><a href={apoPath(locale)}>{text.section}</a> / {text.breadcrumbTopics}</p>
+    <h1><bdi>{topic.letter}.</bdi> {topic.title[locale]}</h1>
+    <p class="lede">{topic.description[locale]}</p>
+    <h2>{text.topicQuestions}</h2>
+    <ul class="apo-grid">
+      {
+        questions.map((q) => {
+          const a = ARTICLE_BY_QUESTION.get(q.id);
+          return (
+            <li>
+              <a class="apo-card" href={apoPath(locale, `questions/${q.slug}`)}>
+                <h3>{q.title[locale]}</h3>
+                <span class="badges">
+                  <span class="badge">{DIFFICULTY[q.difficulty][locale]}</span>
+                  <span class={`badge ${a === undefined ? '' : showsDraftNotice(a) ? 'badge--draft' : 'badge--ok'}`}>
+                    {a === undefined ? text.backlogLabel : showsDraftNotice(a) ? text.draftLabel : text.answered}
+                  </span>
+                </span>
+              </a>
+            </li>
+          );
+        })
+      }
+    </ul>
+  </div>
+</Apo>

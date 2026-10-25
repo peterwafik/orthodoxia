@@ -1,19 +1,24 @@
 ---
 import CopticCross from './CopticCross.astro';
+import LineIcon from './LineIcon.astro';
+import { apoPath } from '../lib/apologetics/index.ts';
 import { explorerPath, localePath, otherLocale, t, type Locale } from '../i18n/index.ts';
 
 interface Props {
   locale: Locale;
   /** The current page in the other language. */
   alternate: string;
-  /** Brand and tools only. */
+  /** Kept for the home page; the header is the same everywhere now, so it is not used to hide anything. */
   simple?: boolean;
 }
 
-const { locale, alternate, simple = false } = Astro.props;
+const { locale, alternate } = Astro.props;
 const strings = t(locale);
 const other = otherLocale(locale);
 const current = Astro.url.pathname;
+const ar = locale === 'ar';
+const faithBase = apoPath(locale);
+
 const links = [
   { href: localePath(locale, 'bible'), label: strings.nav.bible },
   { href: localePath(locale, 'holy-mass'), label: strings.nav.holyMass },
@@ -21,36 +26,78 @@ const links = [
   { href: explorerPath(locale), label: strings.nav.explore },
   { href: localePath(locale, 'about'), label: strings.nav.about },
 ];
+
+const faith = [
+  { href: faithBase, icon: 'question' as const, en: ['Questions', 'Ask, search and read the evidence'], ar: ['الأسئلة', 'اسأل وابحث واقرأ الأدلة'] },
+  { href: apoPath(locale, 'journeys'), icon: 'compass' as const, en: ['Journeys', 'Guided, step by step'], ar: ['المسارات', 'مسارات موجَّهة خطوة بخطوة'] },
+  { href: apoPath(locale, 'sources'), icon: 'scroll' as const, en: ['Sources', 'The catalogued works'], ar: ['المصادر', 'الأعمال المفهرسة'] },
+  { href: apoPath(locale, 'timeline'), icon: 'hourglass' as const, en: ['Timeline', 'Walk through history'], ar: ['الخط الزمني', 'امشِ عبر التاريخ'] },
+  { href: apoPath(locale, 'glossary'), icon: 'book' as const, en: ['Glossary', 'Terms explained'], ar: ['المصطلحات', 'شرح المصطلحات'] },
+  { href: apoPath(locale, 'methodology'), icon: 'scale' as const, en: ['Method', 'How evidence is weighed'], ar: ['المنهج', 'كيف تُوزن الأدلة'] },
+  { href: apoPath(locale, 'saved'), icon: 'bookmark' as const, en: ['Saved', 'Kept on this device'], ar: ['المحفوظات', 'تبقى على هذا الجهاز'] },
+  { href: apoPath(locale, 'about'), icon: 'info' as const, en: ['About this section', 'Scope and limits'], ar: ['عن هذا القسم', 'النطاق والحدود'] },
+];
+
+const site = [
+  { href: localePath(locale), icon: 'home' as const, label: strings.nav.home },
+  { href: localePath(locale, 'bible'), icon: 'bible' as const, label: strings.nav.bible },
+  { href: localePath(locale, 'holy-mass'), icon: 'chalice' as const, label: strings.nav.holyMass },
+  { href: localePath(locale, 'church-history'), icon: 'branch' as const, label: strings.nav.churchHistory },
+  { href: explorerPath(locale), icon: 'arcs' as const, label: strings.nav.explore },
+  { href: localePath(locale, 'about'), icon: 'info' as const, label: strings.nav.about },
+];
+
+const text = {
+  search: ar ? 'بحث (Ctrl+K)' : 'Search (Ctrl+K)',
+  searchShort: ar ? 'بحث' : 'Search',
+  menu: ar ? 'القائمة' : 'Menu',
+  faithShort: ar ? 'الأدلة' : 'Evidence',
+  home: ar ? 'الرئيسية' : 'Home',
+  panelFaith: ar ? 'أقسام الإيمان والأدلة' : 'Faith & Evidence sections',
+  panelSite: ar ? 'صفحات الموقع' : 'Site pages',
+  quick: ar ? 'تنقل سريع' : 'Quick navigation',
+};
+const inFaith = current.startsWith(faithBase);
 ---
 
-<header class="site-header">
-  <div class="wrap bar">
-    <a class="brand" href={localePath(locale)}>
+<header class="fh">
+  <div class="fh-bar">
+    <a class="fh-brand" href={localePath(locale)}>
       <CopticCross />
       <span>{strings.meta.siteName}</span>
     </a>
-    {!simple && (
-    <nav aria-label={strings.a11y.primaryNav}>
+    <nav class="fh-links" aria-label={strings.a11y.primaryNav}>
       <ul>
         {
-          links.map(({ href, label }) => (
+          links.slice(0, 3).map(({ href, label }) => (
             <li>
-              <a href={href} aria-current={current.startsWith(href) ? 'page' : undefined}>
-                {label}
-              </a>
+              <a href={href} aria-current={current.startsWith(href) ? 'page' : undefined}>{label}</a>
+            </li>
+          ))
+        }
+        <li>
+          <button type="button" class="fh-faith" aria-expanded="false" aria-controls="fh-panel" data-panel-toggle="faith" aria-current={inFaith ? 'page' : undefined}>
+            {strings.nav.faith}
+            <svg viewBox="0 0 12 12" width="10" height="10" aria-hidden="true"><path d="m2 4 4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"></path></svg>
+          </button>
+        </li>
+        {
+          links.slice(3).map(({ href, label }) => (
+            <li>
+              <a href={href} aria-current={current.startsWith(href) ? 'page' : undefined}>{label}</a>
             </li>
           ))
         }
       </ul>
     </nav>
-    )}
-    <div class="tools">
-      <a class="lang" href={alternate} hreflang={other} lang={other}>
-        {strings.nav.otherLanguage}
-      </a>
-      <button class="theme" type="button" aria-label={strings.a11y.themeToggle} data-theme-toggle>
-        <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
-          <circle cx="12" cy="12" r="8" fill="none" stroke="currentColor" stroke-width="1.8"></circle>
+    <div class="fh-tools">
+      <button type="button" class="fh-icon" data-open-palette aria-label={text.search} title={text.search}>
+        <LineIcon name="search" size={19} />
+      </button>
+      <a class="fh-lang" href={alternate} hreflang={other} lang={other}>{strings.nav.otherLanguage}</a>
+      <button class="fh-icon" type="button" aria-label={strings.a11y.themeToggle} data-theme-toggle>
+        <svg viewBox="0 0 24 24" width="19" height="19" aria-hidden="true">
+          <circle cx="12" cy="12" r="8" fill="none" stroke="currentColor" stroke-width="1.6"></circle>
           <path d="M12 4a8 8 0 0 1 0 16Z" fill="currentColor"></path>
         </svg>
       </button>
@@ -58,12 +105,60 @@ const links = [
   </div>
 </header>
 
+<div class="fh-panel" id="fh-panel" data-show="faith" hidden>
+  <div class="fh-card">
+    <div class="fh-group fh-group-faith">
+      <p class="fh-title">{text.panelFaith}</p>
+      <ul>
+        {
+          faith.map((item) => {
+            const [name, note] = ar ? item.ar : item.en;
+            return (
+              <li>
+                <a href={item.href}>
+                  <span class="fh-glyph"><LineIcon name={item.icon} /></span>
+                  <span><b>{name}</b><small>{note}</small></span>
+                </a>
+              </li>
+            );
+          })
+        }
+      </ul>
+    </div>
+    <div class="fh-group fh-group-site">
+      <p class="fh-title">{text.panelSite}</p>
+      <ul>
+        {
+          site.map((item) => (
+            <li>
+              <a href={item.href}>
+                <span class="fh-glyph"><LineIcon name={item.icon} /></span>
+                <span><b>{item.label}</b></span>
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+  </div>
+</div>
+
+<nav class="fh-dock" aria-label={text.quick}>
+  <div class="fh-dock-inner">
+    <a href={localePath(locale)} aria-current={current === localePath(locale) ? 'page' : undefined}><LineIcon name="home" /><small>{text.home}</small></a>
+    <a href={localePath(locale, 'bible')} aria-current={current.startsWith(localePath(locale, 'bible')) ? 'page' : undefined}><LineIcon name="bible" /><small>{strings.nav.bible}</small></a>
+    <button type="button" data-open-palette aria-label={text.search}><LineIcon name="search" /><small>{text.searchShort}</small></button>
+    <button type="button" data-panel-toggle="faith" aria-controls="fh-panel" aria-expanded="false"><LineIcon name="question" /><small>{text.faithShort}</small></button>
+    <button type="button" data-panel-toggle="site" aria-controls="fh-panel" aria-expanded="false"><LineIcon name="menu" /><small>{text.menu}</small></button>
+  </div>
+</nav>
+
 <script>
-  const button = document.querySelector<HTMLButtonElement>('[data-theme-toggle]');
-  button?.addEventListener('click', () => {
-    const root = document.documentElement;
-    const current = root.dataset['theme'] ?? 'light';
-    const next = current === 'dark' ? 'light' : 'dark';
+  const root = document.documentElement;
+
+  // Theme
+  document.querySelector<HTMLButtonElement>('[data-theme-toggle]')?.addEventListener('click', () => {
+    const next = (root.dataset['theme'] ?? 'light') === 'dark' ? 'light' : 'dark';
     root.dataset['theme'] = next;
     try {
       localStorage.setItem('orthodoxia:theme', next);
@@ -71,99 +166,387 @@ const links = [
       // Storage unavailable: the choice lasts for this page view only.
     }
   });
+
+  // The drop-down panel: "faith" shows the section links, "site" the whole-site links (on a phone).
+  const panel = document.getElementById('fh-panel');
+  const toggles = [...document.querySelectorAll<HTMLElement>('[data-panel-toggle]')];
+  const setPanel = (which: string | null): void => {
+    if (panel === null) return;
+    if (which !== null) panel.dataset['show'] = which;
+    panel.hidden = which === null;
+    root.classList.toggle('fh-open', which !== null);
+    for (const toggle of toggles) toggle.setAttribute('aria-expanded', String(which !== null && toggle.dataset['panelToggle'] === which));
+    if (which !== null) requestAnimationFrame(() => panel.classList.add('is-open'));
+    else panel.classList.remove('is-open');
+  };
+  for (const toggle of toggles) {
+    toggle.addEventListener('click', (event) => {
+      event.stopPropagation();
+      const which = toggle.dataset['panelToggle'] ?? 'faith';
+      setPanel(panel !== null && !panel.hidden && panel.dataset['show'] === which ? null : which);
+    });
+  }
+  document.addEventListener('click', (event) => {
+    if (panel !== null && !panel.hidden && !panel.contains(event.target as Node)) setPanel(null);
+  });
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape') setPanel(null);
+  });
+  panel?.querySelectorAll('a').forEach((link) => link.addEventListener('click', () => setPanel(null)));
+
+  // The header softens once the page scrolls; the phone dock slips away going down and returns going up.
+  const dock = document.querySelector<HTMLElement>('.fh-dock');
+  const header = document.querySelector<HTMLElement>('.fh');
+  let last = window.scrollY;
+  window.addEventListener(
+    'scroll',
+    () => {
+      const y = window.scrollY;
+      header?.classList.toggle('is-scrolled', y > 8);
+      dock?.classList.toggle('is-away', y > last + 4 && y > 240);
+      if (y < last - 4) dock?.classList.remove('is-away');
+      last = y;
+    },
+    { passive: true },
+  );
 </script>
 
 <style>
-  .site-header {
-    border-block-end: 1px solid var(--line);
-    background: var(--surface);
-  }
-
-  .bar {
+  /* One adaptive floating header: brand, the site's pages, the Faith & Evidence panel, then the tools. */
+  .fh {
+    position: fixed;
+    inset-block-start: 0.7rem;
+    inset-inline: 0;
+    z-index: 40;
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 0.25rem 1.5rem;
-    padding-block: 0.75rem;
+    justify-content: center;
+    padding-inline: 0.75rem;
+    pointer-events: none;
   }
 
-  .brand {
+  .fh-bar {
+    pointer-events: auto;
+    inline-size: min(72rem, 100%);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.35rem 0.5rem 0.35rem 1rem;
+    border: 1px solid var(--glass-line);
+    border-radius: 999px;
+    background: var(--glass);
+    backdrop-filter: blur(18px) saturate(1.4);
+    -webkit-backdrop-filter: blur(18px) saturate(1.4);
+    box-shadow: var(--depth-shadow);
+    transition: box-shadow 0.3s, background 0.3s;
+  }
+
+  :global(:lang(ar)) .fh-bar {
+    padding: 0.35rem 1rem 0.35rem 0.5rem;
+  }
+
+  .fh.is-scrolled .fh-bar {
+    box-shadow: var(--depth-shadow-strong);
+  }
+
+  .fh-brand {
     display: inline-flex;
     align-items: center;
-    gap: 0.55rem;
+    gap: 0.5rem;
+    margin-inline-end: auto;
     color: var(--ink);
     text-decoration: none;
     font-family: var(--font-reading);
     font-size: var(--step-1);
     font-weight: 600;
-    min-block-size: 44px;
+    white-space: nowrap;
   }
 
-  nav {
-    order: 3;
-    flex-basis: 100%;
+  .fh-links {
+    display: none;
   }
 
-  nav ul {
+  .fh-links ul {
     display: flex;
-    flex-wrap: wrap;
-    gap: 0 1.25rem;
+    gap: 0.15rem;
     margin: 0;
     padding: 0;
     list-style: none;
   }
 
-  nav a {
+  .fh-links a,
+  .fh-faith {
     display: inline-flex;
     align-items: center;
-    min-block-size: 44px;
+    gap: 0.35rem;
+    min-block-size: 40px;
+    padding-inline: 0.85rem;
+    border: 0;
+    border-radius: 999px;
+    background: none;
     color: var(--ink-muted);
+    font: inherit;
+    font-size: 0.94rem;
     text-decoration: none;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s, transform 0.2s;
   }
 
-  nav a:hover,
-  nav a[aria-current='page'] {
+  .fh-links a:hover,
+  .fh-faith:hover,
+  .fh-faith[aria-expanded='true'] {
+    background: var(--tint);
     color: var(--ink);
-    text-decoration: underline;
-    text-decoration-color: var(--accent);
-    text-decoration-thickness: 2px;
-    text-underline-offset: 0.4em;
+    transform: translateY(-1px);
   }
 
-  .tools {
-    margin-inline-start: auto;
+  .fh-links a[aria-current='page'],
+  .fh-faith[aria-current='page'] {
+    background: var(--ink);
+    color: var(--surface);
+  }
+
+  .fh-tools {
     display: flex;
     align-items: center;
-    gap: 0.5rem;
+    gap: 0.15rem;
   }
 
-  .lang {
-    display: inline-flex;
-    align-items: center;
-    min-block-size: 44px;
-    padding-inline: 0.5rem;
-  }
-
-  .theme {
+  .fh-icon,
+  .fh-lang {
     display: inline-grid;
     place-items: center;
-    inline-size: 44px;
-    block-size: 44px;
+    min-inline-size: 40px;
+    block-size: 40px;
+    padding: 0;
     border: 0;
-    border-radius: 50%;
+    border-radius: 999px;
     background: none;
     color: var(--ink);
+    font: inherit;
+    font-size: 0.94rem;
+    text-decoration: none;
     cursor: pointer;
+    transition: background 0.2s, transform 0.2s;
   }
 
-  .theme:hover {
-    background: var(--line);
+  .fh-lang {
+    padding-inline: 0.6rem;
+    color: var(--accent);
   }
 
-  @media (min-width: 52rem) {
-    nav {
-      order: 0;
-      flex-basis: auto;
+  .fh-icon:hover,
+  .fh-lang:hover {
+    background: var(--tint);
+    transform: translateY(-1px) scale(1.05);
+  }
+
+  @media (min-width: 62rem) {
+    .fh-links {
+      display: block;
+    }
+  }
+
+  /* The drop-down panel */
+  .fh-panel {
+    position: fixed;
+    inset-block-start: 4.6rem;
+    inset-inline: 0;
+    z-index: 39;
+    display: flex;
+    justify-content: center;
+    padding-inline: 0.75rem;
+    pointer-events: none;
+    opacity: 0;
+    transform: translateY(-10px) scale(0.98);
+    transform-origin: top center;
+    transition: opacity 0.25s, transform 0.25s;
+  }
+
+  .fh-panel[hidden] {
+    display: none;
+  }
+
+  .fh-panel.is-open {
+    opacity: 1;
+    transform: none;
+    pointer-events: auto;
+  }
+
+  .fh-card {
+    inline-size: min(60rem, 100%);
+    max-block-size: calc(100vh - 6rem);
+    overflow: auto;
+    padding: 1.1rem;
+    border: 1px solid var(--glass-line);
+    border-radius: 1.6rem;
+    background: var(--glass-strong);
+    backdrop-filter: blur(24px) saturate(1.5);
+    -webkit-backdrop-filter: blur(24px) saturate(1.5);
+    box-shadow: var(--depth-shadow-strong);
+  }
+
+  .fh-title {
+    margin: 0 0 0.4rem;
+    padding-inline: 0.5rem;
+    color: var(--burgundy, var(--accent));
+    font-size: 0.74rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+
+  :global(:lang(ar)) .fh-title {
+    letter-spacing: 0;
+    font-size: 0.85rem;
+    text-transform: none;
+  }
+
+  .fh-group ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 14rem), 1fr));
+    gap: 0.25rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .fh-group a {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.65rem 0.7rem;
+    border-radius: 1rem;
+    color: var(--ink);
+    text-decoration: none;
+    transition: background 0.2s, transform 0.2s;
+  }
+
+  .fh-group a:hover,
+  .fh-group a:focus-visible {
+    background: var(--tint);
+    transform: translateY(-2px);
+  }
+
+  .fh-glyph {
+    display: grid;
+    place-items: center;
+    flex: none;
+    inline-size: 2.4rem;
+    block-size: 2.4rem;
+    border-radius: 0.8rem;
+    background: var(--surface-raised);
+    color: var(--accent);
+    box-shadow: 0 8px 14px -8px rgba(14, 26, 51, 0.4);
+  }
+
+  .fh-group b {
+    display: block;
+    font-weight: 600;
+  }
+
+  .fh-group small {
+    display: block;
+    color: var(--ink-muted);
+    font-size: 0.8rem;
+    line-height: 1.35;
+  }
+
+  /* The whole-site group is for phones, where the top bar has no links. */
+  .fh-group-site {
+    display: none;
+  }
+
+  .fh-panel[data-show='site'] .fh-group-site {
+    display: block;
+  }
+
+  .fh-panel[data-show='site'] .fh-group-faith {
+    display: none;
+  }
+
+  /* The phone dock */
+  .fh-dock {
+    position: fixed;
+    inset-block-end: 0.9rem;
+    inset-inline: 0;
+    z-index: 38;
+    display: flex;
+    justify-content: center;
+    pointer-events: none;
+    transition: transform 0.35s, opacity 0.35s;
+  }
+
+  .fh-dock.is-away {
+    transform: translateY(8rem);
+    opacity: 0;
+  }
+
+  .fh-dock-inner {
+    pointer-events: auto;
+    display: flex;
+    gap: 0.15rem;
+    padding: 0.4rem;
+    border: 1px solid var(--glass-line);
+    border-radius: 1.6rem;
+    background: var(--glass);
+    backdrop-filter: blur(20px) saturate(1.5);
+    -webkit-backdrop-filter: blur(20px) saturate(1.5);
+    box-shadow: var(--depth-shadow-strong);
+  }
+
+  .fh-dock a,
+  .fh-dock button {
+    display: grid;
+    justify-items: center;
+    align-content: center;
+    gap: 0.1rem;
+    inline-size: 3.7rem;
+    block-size: 3.4rem;
+    padding: 0;
+    border: 0;
+    border-radius: 1.1rem;
+    background: none;
+    color: var(--ink);
+    font: inherit;
+    text-decoration: none;
+    cursor: pointer;
+    transition: transform 0.25s, background 0.25s;
+  }
+
+  .fh-dock small {
+    color: var(--ink-muted);
+    font-size: 0.64rem;
+    font-weight: 600;
+  }
+
+  .fh-dock a:hover,
+  .fh-dock button:hover,
+  .fh-dock a[aria-current='page'],
+  .fh-dock button[aria-expanded='true'] {
+    background: var(--tint);
+    transform: translateY(-4px);
+  }
+
+  @media (min-width: 62rem) {
+    .fh-dock {
+      display: none;
+    }
+  }
+
+  @media (max-width: 61.99rem) {
+    .fh-group-site {
+      display: block;
+    }
+
+    .fh-panel[data-show='faith'] .fh-group-site {
+      display: none;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .fh-panel,
+    .fh-dock {
+      transition: none;
     }
   }
 </style>

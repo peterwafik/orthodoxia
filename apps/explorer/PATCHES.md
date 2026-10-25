@@ -82,3 +82,7 @@ LOCALE=ar npm run build -w apps/explorer   # the Arabic build must still work
 Resolve conflicts with the tables above. New upstream UI strings must be added to
 `src/i18n/messages.ts` (search for string literals in changed components). Re-run the parity
 checklist (`docs/phase-0/04-feature-parity-checklist.md`) and record the new upstream commit here.
+
+## Site look (glass header, lit background)
+
+The header is a floating glass bar and the page has the site's lit background, as on every other page. The site menu also lists Holy Mass, Church history and Faith & Evidence. Files: `src/shared/styles/global.css` (glass tokens), `src/visualizations/shared/components/VizPage.module.css`, `src/shared/ui/SiteNav.tsx`, `src/i18n/messages.ts`.

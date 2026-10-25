@@ -34,6 +34,9 @@ export function SiteNav() {
   const links = [
     { href: `/${LOCALE}/`, label: t.site.home },
     { href: `/${LOCALE}/bible/`, label: t.site.bible },
+    { href: `/${LOCALE}/holy-mass/`, label: t.site.holyMass },
+    { href: `/${LOCALE}/church-history/`, label: t.site.churchHistory },
+    { href: `/${LOCALE}/apologetics/`, label: t.site.faith },
     { href: `/${LOCALE}/about/`, label: t.site.about },
   ];
   return (

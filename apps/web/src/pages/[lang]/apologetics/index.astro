@@ -1,0 +1,379 @@
+---
+import Apo from '../../../layouts/Apo.astro';
+import ApoHeroArt from '../../../components/apologetics/ApoHeroArt.astro';
+import SourceCard from '../../../components/apologetics/SourceCard.astro';
+import { LOCALES, type Locale } from '../../../i18n/index.ts';
+import { ARTICLE_BY_QUESTION, ALL_SOURCES, JOURNEYS, QUESTIONS, SOURCE_BY_ID, TOPICS, VISIBLE_ARTICLES, apoPath, questionsOf, showsDraftNotice } from '../../../lib/apologetics/index.ts';
+import { DIFFICULTY } from '../../../lib/apologetics/labels.ts';
+import { STARTING_POINTS } from '../../../data/apologetics/journeys.ts';
+import { START_NOTE } from '../../../lib/apologetics/labels.ts';
+import { fill, ui } from '../../../lib/apologetics/ui.ts';
+
+export function getStaticPaths() {
+  return LOCALES.map((lang) => ({ params: { lang } }));
+}
+
+const locale = Astro.params.lang as Locale;
+const text = ui(locale);
+const evidenceCards = ['S01', 'S04', 'S21', 'S32'].flatMap((id) => {
+  const source = SOURCE_BY_ID.get(id);
+  return source === undefined ? [] : [source];
+});
+const libraryPreview = ALL_SOURCES.filter((s) => ['S05', 'S09', 'S25', 'S38', 'S52', 'S31'].includes(s.id));
+const faq = VISIBLE_ARTICLES.slice(0, 12);
+const clip = (s: string, n = 150): string => (s.length > n ? `${s.slice(0, n).replace(/\s+\S*$/, '')}…` : s);
+const i18n = {
+  loading: text.searchLoading,
+  failed: text.searchFailed,
+  none: text.searchNoResults,
+  count: text.searchCount,
+  matchedIn: text.matchedIn,
+  types: { article: text.typeArticle, question: text.typeQuestion, source: text.typeSource, term: text.typeTerm },
+  fields: Object.fromEntries(Object.entries(text).filter(([k]) => k.startsWith('field_')).map(([k, v]) => [k.slice(6), v])),
+  suggested: text.startSelected,
+};
+---
+
+<Apo locale={locale} title={text.heroTitle} description={text.promise} >
+  <div class="wrap apo-hero">
+    <ApoHeroArt />
+    <h1>{text.heroTitle}</h1>
+    <p class="lede">{text.promise}</p>
+
+    <div class="apo-search" role="search">
+      <label for="apo-q">{text.searchLabel}</label>
+      <input id="apo-q" type="search" autocomplete="off" spellcheck="false" placeholder={text.searchPlaceholder} aria-describedby="apo-hint apo-status" />
+      <p class="apo-hint" id="apo-hint">{text.searchHint}</p>
+      <div class="apo-filters">
+        <label>{text.filterType}
+          <select id="f-type">
+            <option value="">{text.filterAll}</option>
+            <option value="article">{text.typeArticle}</option>
+            <option value="question">{text.typeQuestion}</option>
+            <option value="source">{text.typeSource}</option>
+            <option value="term">{text.typeTerm}</option>
+          </select>
+        </label>
+        <label>{text.filterTopic}
+          <select id="f-topic">
+            <option value="">{text.filterAll}</option>
+            {TOPICS.map((t) => <option value={t.id}>{t.title[locale]}</option>)}
+          </select>
+        </label>
+        <label>{text.filterDifficulty}
+          <select id="f-diff">
+            <option value="">{text.filterAll}</option>
+            {(['introductory', 'intermediate', 'advanced'] as const).map((d) => <option value={d}>{DIFFICULTY[d][locale]}</option>)}
+          </select>
+        </label>
+        <label class="check"><input type="checkbox" id="f-ans" /> {text.filterAnswered}</label>
+      </div>
+      <p class="apo-status" id="apo-status" role="status" aria-live="polite"></p>
+      <ul class="apo-results" id="apo-results"></ul>
+    </div>
+  </div>
+
+  <section class="wrap" aria-labelledby="start-h" id="start">
+    <h2 id="start-h">{text.startHeading}</h2>
+    <p class="muted">{text.startIntro}</p>
+    <ul class="apo-grid" id="apo-starts">
+      {
+        STARTING_POINTS.map((sp) => (
+          <li>
+            <button type="button" class="apo-card apo-card--start" data-start={sp.id} aria-pressed="false">
+              <h3>{sp.label[locale]}</h3>
+              <p>{START_NOTE[sp.id][locale]}</p>
+            </button>
+          </li>
+        ))
+      }
+    </ul>
+    <div class="apo-skip">
+      <a class="apo-btn" href="#topics" id="apo-skip" style="display:inline-flex;align-items:center;text-decoration:none">{text.startSkip}</a>
+      <button type="button" id="apo-reset" hidden>{text.startReset}</button>
+    </div>
+    <p class="apo-hint">{text.startPrivacy}</p>
+    <div class="apo-search" style="margin-block-start:1rem">
+      <label for="apo-big">{text.biggestQuestion}</label>
+      <input id="apo-big" type="search" autocomplete="off" aria-describedby="apo-big-hint" />
+      <p class="apo-hint" id="apo-big-hint">{text.biggestQuestionHint}</p>
+    </div>
+  </section>
+
+  <section class="wrap" aria-labelledby="faq-h">
+    <h2 id="faq-h">{text.faqHeading}</h2>
+    {
+      faq.length === 0 ? (
+        <p class="apo-empty">{text.noAnswerBody}</p>
+      ) : (
+        <ul class="apo-grid">
+          {
+            faq.map((a) => {
+              const q = QUESTIONS.find((x) => x.id === a.questionId)!;
+              return (
+                <li>
+                  <a class="apo-card" href={apoPath(locale, `questions/${q.slug}`)}>
+                    <h3>{q.title[locale]}</h3>
+                    <p>{clip(a.shortAnswer[locale])}</p>
+                    <span class="badges"><span class={`badge ${showsDraftNotice(a) ? 'badge--draft' : 'badge--ok'}`}>{showsDraftNotice(a) ? text.draftLabel : text.answered}</span></span>
+                    <span class="more">{text.reading}</span>
+                  </a>
+                </li>
+              );
+            })
+          }
+        </ul>
+      )
+    }
+  </section>
+
+  <section class="wrap" aria-labelledby="topics-h" id="topics">
+    <h2 id="topics-h">{text.topicsHeading}</h2>
+    <ul class="apo-grid">
+      {
+        TOPICS.map((t) => {
+          const qs = questionsOf(t.id);
+          const written = qs.filter((q) => ARTICLE_BY_QUESTION.has(q.id)).length;
+          return (
+            <li>
+              <a class="apo-card" href={apoPath(locale, `topics/${t.slug}`)}>
+                <h3><bdi>{t.letter}.</bdi> {t.title[locale]}</h3>
+                <p>{t.description[locale]}</p>
+                <span class="more">{fill(text.questionsCount, { n: qs.length, a: written })}</span>
+              </a>
+            </li>
+          );
+        })
+      }
+    </ul>
+  </section>
+
+  <section class="wrap" aria-labelledby="ev-h">
+    <h2 id="ev-h">{text.evidenceHeading}</h2>
+    <p class="muted">{text.evidenceIntro}</p>
+    <ul class="apo-sources">
+      {evidenceCards.map((s) => <li><SourceCard source={s} locale={locale} /></li>)}
+    </ul>
+  </section>
+
+  <section class="wrap" aria-labelledby="jr-h">
+    <h2 id="jr-h">{text.journeysHeading}</h2>
+    <p class="muted">{text.journeysIntro}</p>
+    <ul class="apo-grid" id="apo-journeys">
+      {
+        JOURNEYS.map((j) => (
+          <li data-starts={j.startingPoints.join(' ')}>
+            <a class="apo-card" href={apoPath(locale, `journeys/${j.slug}`)}>
+              <h3>{j.title[locale]}</h3>
+              <p>{j.summary[locale]}</p>
+              <span class="more">{text.openJourney}</span>
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </section>
+
+  <section class="wrap" aria-labelledby="lib-h">
+    <h2 id="lib-h">{text.librarySourcesHeading}</h2>
+    <p class="muted">{text.libraryIntro}</p>
+    <ul class="apo-sources">
+      {libraryPreview.map((s) => <li><SourceCard source={s} locale={locale} compact /></li>)}
+    </ul>
+    <p><a class="apo-btn" style="display:inline-flex;align-items:center;text-decoration:none" href={apoPath(locale, 'sources')}>{text.seeAll} ({ALL_SOURCES.length})</a></p>
+  </section>
+
+  <section class="wrap" aria-labelledby="m-h">
+    <h2 id="m-h">{text.methodHeading}</h2>
+    <p class="prose">{text.perspective}</p>
+    <p class="prose">{text.methodShort}</p>
+    <p><a href={apoPath(locale, 'methodology')}>{text.readMethod}</a></p>
+  </section>
+
+  <script type="application/json" id="apo-i18n" set:html={JSON.stringify({ ...i18n, searchUrl: apoPath(locale, 'search.json') })} />
+</Apo>
+
+<script>
+  import { tokens } from '../../../lib/apologetics/normalize.ts';
+
+  interface Rec {
+    id: string;
+    type: string;
+    url: string;
+    title: string;
+    summary: string;
+    topic?: string;
+    difficulty?: string;
+    state?: string;
+    fields: Record<string, string>;
+  }
+  const conf = JSON.parse(document.getElementById('apo-i18n')!.textContent ?? '{}') as {
+    loading: string;
+    failed: string;
+    none: string;
+    count: string;
+    matchedIn: string;
+    types: Record<string, string>;
+    fields: Record<string, string>;
+    suggested: string;
+    searchUrl: string;
+  };
+  const $ = <T extends HTMLElement>(id: string): T => document.getElementById(id) as T;
+  const input = $<HTMLInputElement>('apo-q');
+  const status = $('apo-status');
+  const list = $('apo-results');
+  const selects = ['f-type', 'f-topic', 'f-diff'].map((id) => $<HTMLSelectElement>(id));
+  const answered = $<HTMLInputElement>('f-ans');
+  let index: Rec[] | null = null;
+  let loading: Promise<void> | null = null;
+
+  const WEIGHT: Record<string, number> = { title: 6, term: 5, author: 3, id: 3, answer: 2, points: 2, claims: 1, sources: 1, references: 3 };
+
+  function load(): Promise<void> {
+    if (index !== null) return Promise.resolve();
+    status.textContent = conf.loading;
+    loading ??= fetch(conf.searchUrl)
+      .then((r) => {
+        if (!r.ok) throw new Error(String(r.status));
+        return r.json() as Promise<Rec[]>;
+      })
+      .then((data) => {
+        index = data;
+      })
+      .catch(() => {
+        status.textContent = conf.failed;
+        loading = null;
+      });
+    return loading;
+  }
+
+  function hit(text: string, token: string): boolean {
+    return text.startsWith(token) || text.includes(` ${token}`);
+  }
+
+  async function run(): Promise<void> {
+    const q = tokens(input.value);
+    const [type, topic, diff] = selects.map((s) => s.value);
+    const filtered = q.length > 0 || type !== '' || topic !== '' || diff !== '' || answered.checked;
+    list.replaceChildren();
+    if (!filtered) {
+      status.textContent = '';
+      return;
+    }
+    await load();
+    if (index === null) return;
+    const results = index
+      .filter((r) => (type === '' || r.type === type) && (topic === '' || r.topic === topic) && (diff === '' || r.difficulty === diff) && (!answered.checked || r.type !== 'question'))
+      .map((r) => {
+        let score = 0;
+        const matched = new Set<string>();
+        for (const token of q) {
+          let found = false;
+          for (const [field, value] of Object.entries(r.fields)) {
+            if (hit(value, token)) {
+              found = true;
+              matched.add(field);
+              score += WEIGHT[field] ?? 1;
+            }
+          }
+          if (!found) return null;
+        }
+        return { r, score, matched: [...matched] };
+      })
+      .filter((x): x is { r: Rec; score: number; matched: string[] } => x !== null)
+      .sort((a, b) => b.score - a.score)
+      .slice(0, 40);
+
+    status.textContent = results.length === 0 ? conf.none : conf.count.replace('{n}', String(results.length));
+    for (const { r, matched } of results) {
+      const li = document.createElement('li');
+      const a = document.createElement('a');
+      a.href = r.url;
+      a.textContent = r.title;
+      const kind = document.createElement('p');
+      kind.textContent = conf.types[r.type] ?? r.type;
+      li.append(a, kind);
+      if (r.summary !== '') {
+        const s = document.createElement('p');
+        s.textContent = r.summary.length > 180 ? `${r.summary.slice(0, 180)}…` : r.summary;
+        li.append(s);
+      }
+      if (q.length > 0) {
+        const why = document.createElement('p');
+        why.className = 'why';
+        why.textContent = `${conf.matchedIn}: ${matched.map((f) => conf.fields[f] ?? f).join(', ')}`;
+        li.append(why);
+      }
+      list.append(li);
+    }
+  }
+
+  let timer: number | undefined;
+  input.addEventListener('input', () => {
+    window.clearTimeout(timer);
+    timer = window.setTimeout(() => void run(), 120);
+  });
+  input.addEventListener('focus', () => void load(), { once: true });
+  for (const el of [...selects, answered]) el.addEventListener('change', () => void run());
+
+  // "What is your biggest question?" only feeds the search box. It is never stored or sent.
+  const big = $<HTMLInputElement>('apo-big');
+  big.addEventListener('keydown', (event) => {
+    if (event.key !== 'Enter') return;
+    event.preventDefault();
+    input.value = big.value;
+    input.focus();
+    input.scrollIntoView({ block: 'center' });
+    void run();
+  });
+
+  // Starting point: kept on this device only; changes the order of suggestions, nothing else.
+  const KEY = 'orthodoxia:apo-start';
+  const cards = [...document.querySelectorAll<HTMLButtonElement>('[data-start]')];
+  const journeys = $('apo-journeys');
+  const reset = $<HTMLButtonElement>('apo-reset');
+  const read = (): string | null => {
+    try {
+      return localStorage.getItem(KEY);
+    } catch {
+      return null;
+    }
+  };
+  function apply(choice: string | null): void {
+    for (const c of cards) c.setAttribute('aria-pressed', String(c.dataset['start'] === choice));
+    reset.hidden = choice === null;
+    const items = [...journeys.children] as HTMLElement[];
+    for (const li of items) {
+      const mine = choice !== null && (li.dataset['starts'] ?? '').split(' ').includes(choice);
+      li.querySelector('.sug')?.remove();
+      if (mine) {
+        const badge = document.createElement('span');
+        badge.className = 'badge badge--burgundy sug';
+        badge.textContent = conf.suggested;
+        li.querySelector('.apo-card')?.prepend(badge);
+      }
+    }
+    items.sort((a, b) => Number(b.querySelector('.sug') !== null) - Number(a.querySelector('.sug') !== null));
+    journeys.append(...items);
+  }
+  for (const c of cards) {
+    c.addEventListener('click', () => {
+      const choice = c.dataset['start'] ?? null;
+      try {
+        if (choice !== null) localStorage.setItem(KEY, choice);
+      } catch {
+        // Storage unavailable: the suggestion lasts for this page view only.
+      }
+      apply(choice);
+    });
+  }
+  reset.addEventListener('click', () => {
+    try {
+      localStorage.removeItem(KEY);
+    } catch {
+      // Nothing to remove.
+    }
+    apply(null);
+  });
+  apply(read());
+</script>

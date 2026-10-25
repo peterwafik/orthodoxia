@@ -29,6 +29,13 @@
 
   --radius: 0.5rem;
 
+  /* The site's glass surfaces (same look as apps/web/src/styles/depth.css). */
+  --glass: light-dark(rgb(255 253 248 / 0.66), rgb(22 36 74 / 0.62));
+  --glass-line: light-dark(rgb(255 255 255 / 0.8), rgb(255 255 255 / 0.1));
+  --glow-a: light-dark(rgb(236 223 191 / 0.75), rgb(40 62 122 / 0.55));
+  --glow-b: light-dark(rgb(244 226 200 / 0.55), rgb(70 40 80 / 0.35));
+  --depth-shadow: light-dark(0 24px 50px -28px rgb(26 35 64 / 0.38), 0 24px 50px -26px rgb(0 0 0 / 0.7));
+
   /* Genre colors (palette.ts): light-surface variant, dark-surface variant. */
   --genre-law: light-dark(#bc4572, #eb568f);
   --genre-history: light-dark(#aa5124, #d5652d);

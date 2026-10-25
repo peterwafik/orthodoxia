@@ -1,0 +1,263 @@
+{
+  "S01": {
+    "status": "ok",
+    "checked": "2026-10-25"
+  },
+  "S02": {
+    "status": "ok",
+    "checked": "2026-10-25"
+  },
+  "S03": {
+    "status": "ok",
+    "checked": "2026-10-25"
+  },
+  "S04": {
+    "status": "ok",
+    "checked": "2026-10-25"
+  },
+  "S05": {
+    "status": "ok",
+    "checked": "2026-10-25"
+  },
+  "S06": {
+    "status": "failed",
+    "checked": "2026-10-25",
+    "note": "fetch failed"
+  },
+  "S07": {
+    "status": "ok",
+    "checked": "2026-10-25"
+  },
+  "S08": {
+    "status": "failed",
+    "checked": "2026-10-25",
+    "note": "fetch failed"
+  },
+  "S09": {
+    "status": "ok",
+    "checked": "2026-10-25"
+  },
+  "S10": {
+    "status": "ok",
+    "checked": "2026-10-25"
+  },
+  "S11": {
+    "status": "ok",
+    "checked": "2026-10-25"
+  },
+  "S12": {
+    "status": "ok",
+    "checked": "2026-10-25"
+  },
+  "S13": {
+    "status": "ok",
+    "checked": "2026-10-25"
+  },
+  "S14": {
+    "status": "ok",
+    "checked": "2026-10-25"
+  },
+  "S15": {
+    "status": "ok",
+    "checked": "2026-10-25"
+  },
+  "S16": {
+    "status": "failed",
+    "checked": "2026-10-25",
+    "note": "fetch failed"
+  },
+  "S17": {
+    "status": "blocked",
+    "checked": "2026-10-25",
+    "note": "HTTP 403"
+  },
+  "S18": {
+    "status": "ok",
+    "checked": "2026-10-25"
+  },
+  "S19": {
+    "status": "failed",
+    "checked": "2026-10-25",
+    "note": "fetch failed"
+  },
+  "S20": {
+    "status": "blocked",
+    "checked": "2026-10-25",
+    "note": "HTTP 403"
+  },
+  "S21": {
+    "status": "ok",
+    "checked": "2026-10-25"
+  },
+  "S22": {
+    "status": "ok",
+    "checked": "2026-10-25"
+  },
+  "S23": {
+    "status": "ok",
+    "checked": "2026-10-25"
+  },
+  "S24": {
+    "status": "ok",
+    "checked": "2026-10-25"
+  },
+  "S25": {
+    "status": "failed",
+    "checked": "2026-10-25",
+    "note": "fetch failed"
+  },
+  "S26": {
+    "status": "blocked",
+    "checked": "2026-10-25",
+    "note": "HTTP 403"
+  },
+  "S27": {
+    "status": "ok",
+    "checked": "2026-10-25"
+  },
+  "S28": {
+    "status": "ok",
+    "checked": "2026-10-25"
+  },
+  "S29": {
+    "status": "failed",
+    "checked": "2026-10-25",
+    "note": "The operation was aborted due to timeout"
+  },
+  "S30": {
+    "status": "ok",
+    "checked": "2026-10-25"
+  },
+  "S31": {
+    "status": "failed",
+    "checked": "2026-10-25",
+    "note": "fetch failed"
+  },
+  "S32": {
+    "status": "blocked",
+    "checked": "2026-10-25",
+    "note": "HTTP 403"
+  },
+  "S33": {
+    "status": "ok",
+    "checked": "2026-10-25"
+  },
+  "S34": {
+    "status": "blocked",
+    "checked": "2026-10-25",
+    "note": "HTTP 403"
+  },
+  "S35": {
+    "status": "ok",
+    "checked": "2026-10-25"
+  },
+  "S36": {
+    "status": "blocked",
+    "checked": "2026-10-25",
+    "note": "HTTP 403"
+  },
+  "S37": {
+    "status": "ok",
+    "checked": "2026-10-25"
+  },
+  "S38": {
+    "status": "blocked",
+    "checked": "2026-10-25",
+    "note": "HTTP 403"
+  },
+  "S39": {
+    "status": "blocked",
+    "checked": "2026-10-25",
+    "note": "HTTP 403"
+  },
+  "S40": {
+    "status": "ok",
+    "checked": "2026-10-25"
+  },
+  "S41": {
+    "status": "failed",
+    "checked": "2026-10-25",
+    "note": "fetch failed"
+  },
+  "S42": {
+    "status": "ok",
+    "checked": "2026-10-25"
+  },
+  "S43": {
+    "status": "ok",
+    "checked": "2026-10-25"
+  },
+  "S44": {
+    "status": "ok",
+    "checked": "2026-10-25"
+  },
+  "S45": {
+    "status": "ok",
+    "checked": "2026-10-25"
+  },
+  "S46": {
+    "status": "ok",
+    "checked": "2026-10-25"
+  },
+  "S47": {
+    "status": "ok",
+    "checked": "2026-10-25"
+  },
+  "S48": {
+    "status": "blocked",
+    "checked": "2026-10-25",
+    "note": "HTTP 429"
+  },
+  "S49": {
+    "status": "ok",
+    "checked": "2026-10-25"
+  },
+  "S50": {
+    "status": "ok",
+    "checked": "2026-10-25"
+  },
+  "S51": {
+    "status": "ok",
+    "checked": "2026-10-25"
+  },
+  "S52": {
+    "status": "ok",
+    "checked": "2026-10-25"
+  },
+  "S53": {
+    "status": "ok",
+    "checked": "2026-10-25"
+  },
+  "S54": {
+    "status": "ok",
+    "checked": "2026-10-25"
+  },
+  "S55": {
+    "status": "ok",
+    "checked": "2026-10-25"
+  },
+  "S56": {
+    "status": "ok",
+    "checked": "2026-10-25"
+  },
+  "S57": {
+    "status": "ok",
+    "checked": "2026-10-25"
+  },
+  "S58": {
+    "status": "ok",
+    "checked": "2026-10-25"
+  },
+  "S59": {
+    "status": "ok",
+    "checked": "2026-10-25"
+  },
+  "S60": {
+    "status": "ok",
+    "checked": "2026-10-25"
+  },
+  "S61": {
+    "status": "ok",
+    "checked": "2026-10-25"
+  }
+}

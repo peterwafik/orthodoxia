@@ -1,0 +1,64 @@
+---
+import Apo from '../../../layouts/Apo.astro';
+import { LOCALES, type Locale } from '../../../i18n/index.ts';
+import { QUESTIONS, apoPath } from '../../../lib/apologetics/index.ts';
+import { ui } from '../../../lib/apologetics/ui.ts';
+
+export function getStaticPaths() {
+  return LOCALES.map((lang) => ({ params: { lang } }));
+}
+const locale = Astro.params.lang as Locale;
+const text = ui(locale);
+const lookup = Object.fromEntries(QUESTIONS.map((q) => [q.id, { title: q.title[locale], href: apoPath(locale, `questions/${q.slug}`) }]));
+---
+
+<Apo locale={locale} title={text.savedHeading} noindex>
+  <div class="wrap">
+    <h1>{text.savedHeading}</h1>
+    <p class="apo-hint">{text.startPrivacy}</p>
+    <ul class="apo-list" id="saved-list"></ul>
+    <p id="saved-empty" class="apo-empty" hidden>{text.savedEmpty}</p>
+    <button type="button" class="apo-btn" id="saved-clear" hidden>{text.savedClear}</button>
+    <script type="application/json" id="saved-lookup" set:html={JSON.stringify(lookup)} />
+  </div>
+</Apo>
+
+<script>
+  const lookup = JSON.parse(document.getElementById('saved-lookup')!.textContent ?? '{}') as Record<string, { title: string; href: string }>;
+  const list = document.getElementById('saved-list')!;
+  const empty = document.getElementById('saved-empty')!;
+  const clear = document.getElementById('saved-clear')!;
+  const KEY = 'orthodoxia:apo-saved';
+  function read(): string[] {
+    try {
+      const parsed: unknown = JSON.parse(localStorage.getItem(KEY) ?? '[]');
+      return Array.isArray(parsed) ? parsed.filter((x): x is string => typeof x === 'string' && x in lookup) : [];
+    } catch {
+      return [];
+    }
+  }
+  function paint(): void {
+    const ids = read();
+    list.replaceChildren(
+      ...ids.map((id) => {
+        const li = document.createElement('li');
+        const a = document.createElement('a');
+        a.href = lookup[id]!.href;
+        a.textContent = lookup[id]!.title;
+        li.append(a);
+        return li;
+      }),
+    );
+    empty.hidden = ids.length > 0;
+    clear.hidden = ids.length === 0;
+  }
+  clear.addEventListener('click', () => {
+    try {
+      localStorage.removeItem(KEY);
+    } catch {
+      // Nothing to clear.
+    }
+    paint();
+  });
+  paint();
+</script>

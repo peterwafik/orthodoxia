@@ -1,0 +1,39 @@
+---
+import Apo from '../../../layouts/Apo.astro';
+import { LOCALES, type Locale } from '../../../i18n/index.ts';
+import { TIMELINE } from '../../../data/apologetics/timeline.ts';
+import { apoPath } from '../../../lib/apologetics/index.ts';
+import { TIMELINE_KIND } from '../../../lib/apologetics/labels.ts';
+import { ui } from '../../../lib/apologetics/ui.ts';
+
+export function getStaticPaths() {
+  return LOCALES.map((lang) => ({ params: { lang } }));
+}
+const locale = Astro.params.lang as Locale;
+const text = ui(locale);
+const entries = [...TIMELINE].sort((a, b) => a.sort - b.sort);
+---
+
+<Apo locale={locale} title={text.timelineTitle} description={text.timelineIntro}>
+  <div class="wrap">
+    <h1>{text.timelineTitle}</h1>
+    <p class="lede">{text.timelineIntro}</p>
+    <p><strong>{text.timelineKey}:</strong>
+      {Object.values(TIMELINE_KIND).map((k) => <span class="badge" style="margin-inline-end:0.4rem"><span aria-hidden="true">{k.symbol}</span> {k.label[locale]}</span>)}
+    </p>
+    <ol class="apo-timeline">
+      {
+        entries.map((e) => (
+          <li id={e.id}>
+            <span class="sym" aria-hidden="true">{TIMELINE_KIND[e.kind].symbol}</span>
+            <p class="when"><bdi>{e.when[locale]}</bdi> · <span class="visually-hidden">{TIMELINE_KIND[e.kind].label[locale]}:</span><span aria-hidden="true">{TIMELINE_KIND[e.kind].label[locale]}</span></p>
+            <h3>{e.title[locale]}</h3>
+            <p>{e.note[locale]}</p>
+            <p class="muted"><small>{text.dateBasis}: {e.basis[locale]}</small></p>
+            <p><small>{e.sources.map((id, i) => <>{i > 0 ? ' · ' : ''}<a href={apoPath(locale, `sources/${id.toLowerCase()}`)}>{id}</a></>)}</small></p>
+          </li>
+        ))
+      }
+    </ol>
+  </div>
+</Apo>

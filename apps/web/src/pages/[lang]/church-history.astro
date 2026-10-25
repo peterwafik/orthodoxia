@@ -1,6 +1,5 @@
 ---
 import Base from '../../layouts/Base.astro';
-import ChurchHistoryArt from '../../components/church-history/ChurchHistoryArt.astro';
 import { CHURCHES, COMPARE_GROUPS, COMPARE_POINTS, EVENTS, GROUPS, POSITIONS } from '../../data/church-history/index.ts';
 import { layoutTimeline, DEFAULT_LAYOUT } from '../../lib/church-history/layout.ts';
 import { COPTIC_EVIDENCE } from '../../data/coptic-evidence.ts';
@@ -93,7 +92,6 @@ const axisLabelRow = (index: number): number => layout.axisY + 18 + (index % 3) 
 
 <Base locale={locale} title={copy.title} description={copy.metaDescription}>
   <div class="page-stage">
-    <ChurchHistoryArt />
 
     <section class="intro">
       <div class="wrap">
@@ -805,13 +803,6 @@ const axisLabelRow = (index: number): number => layout.axisY + 18 + (index % 3) 
     isolation: isolate;
   }
 
-  /* Room for the vine in the margin at the start of the page. */
-  @media (min-width: 64rem) {
-    .page-stage {
-      padding-inline-start: 4.5rem;
-    }
-  }
-
   .intro,
   .timeline-section,
   .compare-section {
@@ -936,8 +927,9 @@ const axisLabelRow = (index: number): number => layout.axisY + 18 + (index % 3) 
   /* Every title sits in the same corner of its band, above the threads, with a halo so a thread crossing it stays readable. */
   .band-title {
     --gc: hsl(var(--gh) 50% 36%);
-    font-size: 13.5px;
-    font-weight: 700;
+    font-family: var(--font-reading);
+    font-size: 11.5px;
+    font-weight: 450;
     fill: var(--gc);
     stroke: var(--surface);
     stroke-width: 5px;
@@ -1015,14 +1007,17 @@ const axisLabelRow = (index: number): number => layout.axisY + 18 + (index % 3) 
   }
 
   .thread .label {
-    font-size: 16.5px;
-    font-weight: 600;
+    font-family: var(--font-reading);
+    font-size: 13.5px;
+    font-weight: 450;
     fill: var(--ink-muted);
     transition: fill 140ms;
   }
 
   .thread .when {
-    font-size: 13.5px;
+    font-family: var(--font-reading);
+    font-size: 11.5px;
+    font-weight: 400;
     fill: var(--ink-muted);
     opacity: 0.8;
   }
@@ -1053,7 +1048,7 @@ const axisLabelRow = (index: number): number => layout.axisY + 18 + (index % 3) 
   }
 
   .thread.selected .label {
-    font-weight: 800;
+    font-weight: 600;
   }
 
   .has-selection .thread:not(.selected):not(.related) {

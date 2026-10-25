@@ -18,6 +18,7 @@ const pages = [
   { href: localePath(locale, 'bible'), label: strings.nav.bible },
   { href: localePath(locale, 'holy-mass'), label: strings.nav.holyMass },
   { href: localePath(locale, 'church-history'), label: strings.nav.churchHistory },
+  { href: localePath(locale, 'apologetics'), label: strings.nav.faith },
   { href: explorerPath(locale), label: strings.nav.explore },
   { href: explorerPath(locale, 'threads'), label: strings.home.cards.threads.title },
 ];
@@ -56,8 +57,12 @@ const year = new Date().getFullYear();
 
 <style>
   .sf {
-    margin-block-start: 2.5rem;
-    background: var(--surface-raised);
+    margin: 2.5rem var(--gutter) 1rem;
+    border: 1px solid var(--glass-line);
+    border-radius: var(--depth-radius);
+    background-color: var(--glass);
+    backdrop-filter: blur(14px);
+    box-shadow: var(--depth-shadow);
     color: var(--ink-muted);
   }
 

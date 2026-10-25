@@ -1,0 +1,296 @@
+---
+import { apoPath } from '../lib/apologetics/index.ts';
+import { explorerPath, localePath, t, type Locale } from '../i18n/index.ts';
+
+interface Props {
+  locale: Locale;
+}
+
+const { locale } = Astro.props;
+const strings = t(locale);
+const ar = locale === 'ar';
+const pages = [
+  { label: strings.nav.bible, href: localePath(locale, 'bible'), kind: ar ? 'صفحة' : 'Page' },
+  { label: strings.nav.holyMass, href: localePath(locale, 'holy-mass'), kind: ar ? 'صفحة' : 'Page' },
+  { label: strings.nav.churchHistory, href: localePath(locale, 'church-history'), kind: ar ? 'صفحة' : 'Page' },
+  { label: strings.nav.explore, href: explorerPath(locale), kind: ar ? 'صفحة' : 'Page' },
+  { label: strings.nav.faith, href: apoPath(locale), kind: ar ? 'صفحة' : 'Page' },
+  { label: ar ? 'مسارات الإيمان والأدلة' : 'Faith & Evidence journeys', href: apoPath(locale, 'journeys'), kind: ar ? 'صفحة' : 'Page' },
+  { label: ar ? 'مصادر الإيمان والأدلة' : 'Faith & Evidence sources', href: apoPath(locale, 'sources'), kind: ar ? 'صفحة' : 'Page' },
+  { label: ar ? 'الخط الزمني' : 'Timeline', href: apoPath(locale, 'timeline'), kind: ar ? 'صفحة' : 'Page' },
+  { label: ar ? 'المصطلحات' : 'Glossary', href: apoPath(locale, 'glossary'), kind: ar ? 'صفحة' : 'Page' },
+  { label: ar ? 'المنهج' : 'Methodology', href: apoPath(locale, 'methodology'), kind: ar ? 'صفحة' : 'Page' },
+  { label: ar ? 'المحفوظات' : 'Saved questions', href: apoPath(locale, 'saved'), kind: ar ? 'صفحة' : 'Page' },
+  { label: strings.nav.about, href: localePath(locale, 'about'), kind: ar ? 'صفحة' : 'Page' },
+];
+const copy = {
+  placeholder: ar ? 'ابحث في الأسئلة والمصادر والمصطلحات، أو انتقل إلى صفحة…' : 'Search questions, sources and terms, or jump to a page…',
+  label: ar ? 'بحث وانتقال' : 'Search and jump',
+  jump: ar ? 'انتقل إلى' : 'Jump to',
+  questions: ar ? 'الأسئلة' : 'Questions',
+  sources: ar ? 'المصادر' : 'Sources',
+  terms: ar ? 'المصطلحات' : 'Glossary',
+  none: ar ? 'لا نتائج. جرّب كلمة أخرى.' : 'No match. Try another word.',
+  move: ar ? 'تنقّل' : 'move',
+  open: ar ? 'فتح' : 'open',
+  close: ar ? 'إغلاق' : 'close',
+  backlog: ar ? 'لم يُجَب بعد' : 'not yet answered',
+};
+const payload = { locale, pages, copy, index: `${apoPath(locale)}search.json` };
+---
+
+<dialog class="cp" aria-label={copy.label} data-palette>
+  <div class="cp-box">
+    <input class="cp-input" type="search" autocomplete="off" spellcheck="false" placeholder={copy.placeholder} aria-label={copy.label} />
+    <ul class="cp-results" role="listbox"></ul>
+    <p class="cp-foot">
+      <span>↑↓ {copy.move}</span><span>↵ {copy.open}</span><span>Esc {copy.close}</span>
+    </p>
+  </div>
+</dialog>
+<script type="application/json" id="cp-data" set:html={JSON.stringify(payload)}></script>
+
+<script>
+  import { matches, normalize, tokens } from '../lib/apologetics/normalize.ts';
+
+  interface Row {
+    title: string;
+    href: string;
+    group: string;
+    note: string;
+    hay: string;
+  }
+  interface IndexRecord {
+    type: 'article' | 'question' | 'source' | 'term';
+    url: string;
+    title: string;
+    state?: string;
+    fields: Record<string, string>;
+  }
+
+  const dialog = document.querySelector<HTMLDialogElement>('[data-palette]');
+  const dataNode = document.getElementById('cp-data');
+  if (dialog !== null && dataNode?.textContent) {
+    const data = JSON.parse(dataNode.textContent) as {
+      pages: { label: string; href: string; kind: string }[];
+      copy: Record<string, string>;
+      index: string;
+    };
+    const input = dialog.querySelector<HTMLInputElement>('.cp-input')!;
+    const list = dialog.querySelector<HTMLUListElement>('.cp-results')!;
+    const pageRows: Row[] = data.pages.map((p) => ({ title: p.label, href: p.href, group: data.copy['jump'] ?? '', note: p.kind, hay: ` ${normalize(p.label)}` }));
+    let indexRows: Row[] = [];
+    let loaded = false;
+    let shown: Row[] = [];
+    let selected = 0;
+
+    const load = async (): Promise<void> => {
+      if (loaded) return;
+      loaded = true;
+      try {
+        const response = await fetch(data.index);
+        if (!response.ok) return;
+        const records = (await response.json()) as IndexRecord[];
+        indexRows = records.map((r) => ({
+          title: r.title,
+          href: r.url,
+          group: r.type === 'source' ? (data.copy['sources'] ?? '') : r.type === 'term' ? (data.copy['terms'] ?? '') : (data.copy['questions'] ?? ''),
+          note: r.type === 'question' ? (data.copy['backlog'] ?? '') : '',
+          hay: ` ${normalize(r.title)} ${Object.values(r.fields).join(' ')}`,
+        }));
+        render();
+      } catch {
+        // Offline or blocked: the page links still work.
+      }
+    };
+
+    const render = (): void => {
+      const q = tokens(input.value);
+      const pool = [...pageRows, ...indexRows];
+      shown =
+        q.length === 0
+          ? [...pageRows.slice(0, 6), ...indexRows.filter((r) => r.group === data.copy['questions'] && r.note !== data.copy['backlog']).slice(0, 4)]
+          : pool.filter((r) => matches(q, new Set(r.hay.split(' ')), r.hay)).slice(0, 24);
+      selected = Math.min(selected, Math.max(0, shown.length - 1));
+      list.replaceChildren();
+      if (shown.length === 0) {
+        const empty = document.createElement('li');
+        empty.className = 'cp-empty';
+        empty.textContent = data.copy['none'] ?? '';
+        list.append(empty);
+        return;
+      }
+      let last = '';
+      shown.forEach((row, i) => {
+        if (row.group !== last) {
+          const head = document.createElement('li');
+          head.className = 'cp-group';
+          head.setAttribute('role', 'presentation');
+          head.textContent = row.group;
+          list.append(head);
+          last = row.group;
+        }
+        const item = document.createElement('li');
+        item.setAttribute('role', 'option');
+        const link = document.createElement('a');
+        link.href = row.href;
+        link.className = i === selected ? 'is-selected' : '';
+        const name = document.createElement('span');
+        name.textContent = row.title;
+        link.append(name);
+        if (row.note !== '') {
+          const note = document.createElement('em');
+          note.textContent = row.note;
+          link.append(note);
+        }
+        item.append(link);
+        list.append(item);
+      });
+    };
+
+    const open = (): void => {
+      if (dialog.open) return;
+      dialog.showModal();
+      input.value = '';
+      selected = 0;
+      render();
+      input.focus();
+      void load();
+    };
+
+    document.addEventListener('click', (event) => {
+      if ((event.target as Element).closest('[data-open-palette]') !== null) open();
+    });
+    document.addEventListener('keydown', (event) => {
+      const typing = /^(input|textarea|select)$/i.test((document.activeElement?.tagName ?? '')) || (document.activeElement as HTMLElement | null)?.isContentEditable === true;
+      if ((event.ctrlKey || event.metaKey) && event.key.toLowerCase() === 'k') {
+        event.preventDefault();
+        open();
+      } else if (event.key === '/' && !typing && !dialog.open) {
+        event.preventDefault();
+        open();
+      }
+    });
+    dialog.addEventListener('click', (event) => {
+      if (event.target === dialog || (event.target as Element).closest('.cp-results a') !== null) dialog.close();
+    });
+    input.addEventListener('input', () => {
+      selected = 0;
+      render();
+    });
+    input.addEventListener('keydown', (event) => {
+      if (event.key === 'ArrowDown' || event.key === 'ArrowUp') {
+        event.preventDefault();
+        selected = Math.max(0, Math.min(shown.length - 1, selected + (event.key === 'ArrowDown' ? 1 : -1)));
+        render();
+        list.querySelector('.is-selected')?.scrollIntoView({ block: 'nearest' });
+      } else if (event.key === 'Enter' && shown[selected] !== undefined) {
+        event.preventDefault();
+        location.href = shown[selected]!.href;
+      }
+    });
+  }
+</script>
+
+<style is:global>
+  dialog.cp {
+    margin: 12vh auto auto;
+    padding: 0;
+    inline-size: min(40rem, calc(100% - 1.5rem));
+    border: 1px solid var(--glass-line);
+    border-radius: 1.6rem;
+    background: var(--surface);
+    color: var(--ink);
+    box-shadow: 0 40px 90px -20px rgba(0, 0, 0, 0.6);
+    overflow: hidden;
+  }
+
+  dialog.cp[open] {
+    animation: cp-pop 0.28s cubic-bezier(0.2, 0.9, 0.25, 1.1);
+  }
+
+  dialog.cp::backdrop {
+    background: rgba(10, 14, 36, 0.5);
+    backdrop-filter: blur(8px);
+  }
+
+  @keyframes cp-pop {
+    from {
+      transform: translateY(18px) scale(0.96);
+      opacity: 0;
+    }
+  }
+
+  .cp-input {
+    inline-size: 100%;
+    padding: 1.15rem 1.3rem;
+    border: 0;
+    border-block-end: 1px solid var(--line);
+    background: none;
+    color: var(--ink);
+    font: inherit;
+    font-size: 1.1rem;
+    outline: none;
+  }
+
+  .cp-results {
+    max-block-size: 52vh;
+    margin: 0;
+    padding: 0.5rem;
+    overflow: auto;
+    list-style: none;
+  }
+
+  .cp-group {
+    padding: 0.6rem 0.9rem 0.2rem;
+    color: var(--burgundy, var(--accent));
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+
+  :lang(ar) .cp-group {
+    letter-spacing: 0;
+    font-size: 0.85rem;
+    text-transform: none;
+  }
+
+  .cp-results a {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.65rem 0.9rem;
+    border-radius: 0.9rem;
+    color: var(--ink);
+    text-decoration: none;
+  }
+
+  .cp-results a:hover,
+  .cp-results a.is-selected {
+    background: var(--tint);
+  }
+
+  .cp-results em {
+    margin-inline-start: auto;
+    color: var(--ink-muted);
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 600;
+  }
+
+  .cp-empty {
+    padding: 1rem;
+    color: var(--ink-muted);
+  }
+
+  .cp-foot {
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0.6rem 1.2rem;
+    border-block-start: 1px solid var(--line);
+    color: var(--ink-muted);
+    font-size: 0.75rem;
+  }
+</style>

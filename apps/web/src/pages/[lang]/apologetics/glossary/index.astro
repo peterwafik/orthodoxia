@@ -1,0 +1,30 @@
+---
+import Apo from '../../../../layouts/Apo.astro';
+import { LOCALES, type Locale } from '../../../../i18n/index.ts';
+import { GLOSSARY_TERMS } from '../../../../lib/apologetics/index.ts';
+import { ui } from '../../../../lib/apologetics/ui.ts';
+
+export function getStaticPaths() {
+  return LOCALES.map((lang) => ({ params: { lang } }));
+}
+const locale = Astro.params.lang as Locale;
+const text = ui(locale);
+const terms = [...GLOSSARY_TERMS].sort((a, b) => a.term[locale].localeCompare(b.term[locale], locale));
+---
+
+<Apo locale={locale} title={text.glossaryTitle} description={text.glossaryIntro}>
+  <div class="wrap">
+    <h1>{text.glossaryTitle}</h1>
+    <p class="lede">{text.glossaryIntro}</p>
+    <dl>
+      {
+        terms.map((g) => (
+          <div id={g.id} style="margin-block:1rem">
+            <dt><h2 style="font-size:var(--step-1);margin:0">{g.term[locale]} <small class="muted"><bdi>{g.term[locale === 'en' ? 'ar' : 'en']}</bdi></small></h2></dt>
+            <dd style="margin:0.2rem 0 0" class="prose">{g.definition[locale]}</dd>
+          </div>
+        ))
+      }
+    </dl>
+  </div>
+</Apo>

@@ -1,0 +1,29 @@
+---
+import Apo from '../../../../layouts/Apo.astro';
+import { LOCALES, type Locale } from '../../../../i18n/index.ts';
+import { GLOSSARY_TERMS, VISIBLE_ARTICLES, QUESTION_BY_ID, apoPath } from '../../../../lib/apologetics/index.ts';
+import { ui } from '../../../../lib/apologetics/ui.ts';
+
+export function getStaticPaths() {
+  return LOCALES.flatMap((lang) => GLOSSARY_TERMS.map((g) => ({ params: { lang, slug: g.id } })));
+}
+const locale = Astro.params.lang as Locale;
+const text = ui(locale);
+const term = GLOSSARY_TERMS.find((g) => g.id === Astro.params.slug)!;
+const articles = VISIBLE_ARTICLES.filter((a) => a.glossary.includes(term.id));
+---
+
+<Apo locale={locale} title={term.term[locale]} description={term.definition[locale]}>
+  <div class="wrap">
+    <p class="apo-crumbs"><a href={apoPath(locale, 'glossary')}>{text.glossaryTitle}</a></p>
+    <h1>{term.term[locale]} <small class="muted"><bdi>{term.term[locale === 'en' ? 'ar' : 'en']}</bdi></small></h1>
+    <p class="lede">{term.definition[locale]}</p>
+    {term.aliases.length > 0 && <p class="muted">{text.alsoCalled}: <bdi>{term.aliases.join(' · ')}</bdi></p>}
+    {articles.length > 0 && (
+      <>
+        <h2>{text.related}</h2>
+        <ul class="apo-list">{articles.map((a) => <li><a href={apoPath(locale, `questions/${a.questionId}`)}>{QUESTION_BY_ID.get(a.questionId)!.title[locale]}</a></li>)}</ul>
+      </>
+    )}
+  </div>
+</Apo>

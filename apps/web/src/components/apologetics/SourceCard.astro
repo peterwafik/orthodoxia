@@ -1,0 +1,40 @@
+---
+import type { SourceWork } from '../../data/apologetics/types.ts';
+import { ACCESS, KIND, STANDPOINT } from '../../lib/apologetics/labels.ts';
+import { apoPath } from '../../lib/apologetics/index.ts';
+import { ui } from '../../lib/apologetics/ui.ts';
+import type { Locale } from '../../i18n/index.ts';
+
+interface Props {
+  source: SourceWork;
+  locale: Locale;
+  compact?: boolean;
+}
+
+const { source, locale, compact = false } = Astro.props;
+const text = ui(locale);
+const external = source.url.startsWith('http');
+const thin = source.access !== 'full_text';
+---
+
+<article class="apo-source" data-source={source.id}>
+  <h3>
+    <a href={apoPath(locale, `sources/${source.id.toLowerCase()}`)}><bdi>{source.title}</bdi></a>
+  </h3>
+  <p class="by"><bdi>{source.author}</bdi>{source.locator !== undefined && <> · <bdi>{source.locator}</bdi></>}</p>
+  <div class="badges">
+    <span class="badge">{KIND[source.kind][locale]}</span>
+    <span class="badge badge--burgundy">{STANDPOINT[source.standpoint][locale]}</span>
+    <span class={`badge ${thin ? '' : 'badge--ok'}`}>{ACCESS[source.access][locale]}</span>
+  </div>
+  {source.composed !== undefined && <p class="by">{text.composed}: {source.composed}</p>}
+  {!compact && <p>{source.use[locale]}</p>}
+  {
+    !compact && external && (
+      <p>
+        <a href={source.url} rel="noopener noreferrer" target="_blank">{text.openSource}</a>
+        <span class="visually-hidden"> ({text.externalLink})</span>
+      </p>
+    )
+  }
+</article>

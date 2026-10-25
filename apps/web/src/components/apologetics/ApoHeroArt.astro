@@ -1,0 +1,59 @@
+---
+/**
+ * The drawing beside the Faith & Evidence headline: nested arches around a cross, a manuscript page of ruled lines
+ * under the cross, and the arcs of references along the ground. Thin lines in the theme's accent colour; the layers
+ * drift against the pointer (depth.css, depth.ts) and draw themselves in once. Decorative only.
+ */
+const CX = 200;
+const BASE = 318;
+const arch = (r: number, k = 1.12) => `M${CX - r} ${BASE} V${BASE - r * 0.55} A${r} ${r * k} 0 0 1 ${CX + r} ${BASE - r * 0.55} V${BASE}`;
+const arches = [150, 118, 86].map((r, i) => ({ d: arch(r), o: 0.45 + i * 0.22 }));
+const arcs = [
+  [24, 150], [60, 230], [110, 190], [150, 300], [200, 270], [236, 350], [280, 330],
+].map(([from, to]) => {
+  const r = ((to ?? 0) - (from ?? 0)) / 2;
+  return `M${from} ${BASE + 18} A${r} ${r * 0.8} 0 0 1 ${to} ${BASE + 18}`;
+});
+// Ruled lines of a manuscript page inside the inner arch.
+const rules = Array.from({ length: 6 }, (_, i) => {
+  const y = 196 + i * 14;
+  const w = 52 - Math.abs(i - 2.5) * 5;
+  return `M${CX - w} ${y} H${CX + w}`;
+});
+let n = 0;
+const next = (): number => n++ * 3;
+---
+
+<div class="apo-hero-art" aria-hidden="true" data-scene>
+  <svg class="draw" viewBox="0 20 400 345" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+    <path d={`M10 ${BASE + 8} H390`} stroke-width="1.1" opacity="0.5" pathLength="1"></path>
+    <g data-depth="6">
+      {arcs.map((d) => <path d={d} stroke-width="0.95" opacity="0.5" pathLength="1" style={`--i:${next()}`} />)}
+    </g>
+    <g data-depth="14">
+      {arches.map((a) => <path d={a.d} stroke-width="1.2" opacity={a.o} pathLength="1" style={`--i:${next()}`} />)}
+    </g>
+    <g data-depth="26" class="breathe">
+      <path d="M200 58 V132 M178 84 H222" stroke-width="1.8" pathLength="1" style="--i:30"></path>
+      <circle cx="200" cy="84" r="3.2" stroke-width="1.3" pathLength="1" style="--i:32"></circle>
+      <circle cx="200" cy="84" r="20" stroke-width="0.9" opacity="0.5" pathLength="1" style="--i:34"></circle>
+    </g>
+    <g data-depth="40">
+      <path d={`M${CX - 62} 178 H${CX + 62} V274 H${CX - 62} Z`} stroke-width="1.4" pathLength="1" style="--i:36"></path>
+      {rules.map((d, i) => <path d={d} stroke-width="0.9" opacity="0.6" pathLength="1" style={`--i:${38 + i}`} />)}
+    </g>
+  </svg>
+</div>
+
+<style>
+  .apo-hero-art {
+    color: var(--accent);
+    pointer-events: none;
+  }
+
+  svg {
+    display: block;
+    inline-size: 100%;
+    block-size: auto;
+  }
+</style>

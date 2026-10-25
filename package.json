@@ -29,7 +29,9 @@
     "translate:merge": "node scripts/commentary/translate-merge.ts",
     "malaty:fetch": "node scripts/commentary/malaty-fetch.ts",
     "malaty:build": "node scripts/commentary/malaty-build.ts",
-    "topics": "node scripts/topics/fetch.ts && node scripts/topics/build.ts"
+    "topics": "node scripts/topics/fetch.ts && node scripts/topics/build.ts",
+    "apologetics:links": "node scripts/apologetics/check-links.ts",
+    "apologetics:coverage": "node scripts/apologetics/coverage.ts"
   },
   "devDependencies": {
     "@types/node": "^24.13.6",

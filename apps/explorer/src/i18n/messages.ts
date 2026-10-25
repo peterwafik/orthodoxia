@@ -11,6 +11,9 @@ const en = {
   site: {
     home: 'Home',
     bible: 'Bible',
+    holyMass: 'Holy Mass',
+    churchHistory: 'Church history',
+    faith: 'Faith & Evidence',
     explore: 'Cross-references',
     about: 'About',
     sources: 'Sources',
@@ -150,6 +153,9 @@ const ar: Messages = {
   site: {
     home: 'الرئيسية',
     bible: 'الكتاب المقدس',
+    holyMass: 'القداس',
+    churchHistory: 'تاريخ الكنيسة',
+    faith: 'الإيمان والأدلة',
     explore: 'الشواهد',
     about: 'عن المشروع',
     sources: 'المصادر',

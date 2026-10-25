@@ -1,0 +1,88 @@
+---
+import Apo from '../../../../layouts/Apo.astro';
+import { LOCALES, type Locale } from '../../../../i18n/index.ts';
+import { ARTICLE_BY_QUESTION, JOURNEYS, apoPath, showsDraftNotice } from '../../../../lib/apologetics/index.ts';
+import { fill, ui } from '../../../../lib/apologetics/ui.ts';
+
+export function getStaticPaths() {
+  return LOCALES.flatMap((lang) => JOURNEYS.map((j) => ({ params: { lang, slug: j.slug } })));
+}
+const locale = Astro.params.lang as Locale;
+const text = ui(locale);
+const journey = JOURNEYS.find((j) => j.slug === Astro.params.slug)!;
+const pages = ['methodology', 'sources', 'timeline'];
+const steps = journey.steps.map((s, i) => {
+  const isPage = pages.includes(s.target);
+  const a = ARTICLE_BY_QUESTION.get(s.target);
+  return {
+    ...s,
+    i,
+    href: isPage ? apoPath(locale, s.target) : apoPath(locale, `questions/${s.target}`),
+    status: isPage ? '' : a === undefined ? text.stepNotWritten : showsDraftNotice(a) ? text.stepDraft : '',
+  };
+});
+---
+
+<Apo locale={locale} title={journey.title[locale]} description={journey.summary[locale]}>
+  <div class="wrap" id="j-root" data-key={journey.id} data-total={steps.length} data-tpl={text.progressText}>
+    <p class="apo-crumbs"><a href={apoPath(locale, 'journeys')}>{text.journeysTitle}</a></p>
+    <h1>{journey.title[locale]}</h1>
+    <p class="lede">{journey.summary[locale]}</p>
+    <div class="apo-meter" role="progressbar" aria-valuemin="0" aria-valuemax={steps.length} aria-valuenow="0" aria-label={text.progress} id="j-meter"><div></div></div>
+    <p class="apo-hint" id="j-text" role="status"></p>
+    <ol class="apo-steps">
+      {
+        steps.map((s) => (
+          <li data-step={s.target} data-done="false">
+            <h3><a href={s.href}>{s.title[locale]}</a> {s.status !== '' && <span class="badge badge--draft">{s.status}</span>}</h3>
+            <p>{s.note[locale]}</p>
+            <p><small class="muted">{fill(text.stepOf, { n: s.i + 1, total: steps.length })}</small></p>
+            <button type="button" class="apo-btn" data-mark aria-pressed="false" data-on={text.done}>{text.markDone}</button>
+          </li>
+        ))
+      }
+    </ol>
+  </div>
+</Apo>
+
+<script>
+  const root = document.getElementById('j-root')!;
+  const KEY = `orthodoxia:apo-journey:${root.dataset['key']}`;
+  const steps = [...document.querySelectorAll<HTMLElement>('[data-step]')];
+  let done: string[] = [];
+  try {
+    const parsed: unknown = JSON.parse(localStorage.getItem(KEY) ?? '[]');
+    if (Array.isArray(parsed)) done = parsed.filter((x): x is string => typeof x === 'string');
+  } catch {
+    done = [];
+  }
+  function paint(): void {
+    for (const li of steps) {
+      const on = done.includes(li.dataset['step']!);
+      li.dataset['done'] = String(on);
+      const b = li.querySelector<HTMLButtonElement>('[data-mark]')!;
+      b.setAttribute('aria-pressed', String(on));
+      b.dataset['off'] ??= b.textContent ?? '';
+      b.textContent = on ? (b.dataset['on'] ?? '') : (b.dataset['off'] ?? '');
+    }
+    const total = Number(root.dataset['total']);
+    const n = steps.filter((li) => li.dataset['done'] === 'true').length;
+    const meter = document.getElementById('j-meter')!;
+    meter.setAttribute('aria-valuenow', String(n));
+    (meter.firstElementChild as HTMLElement).style.inlineSize = `${(n / total) * 100}%`;
+    document.getElementById('j-text')!.textContent = (root.dataset['tpl'] ?? '').replace('{n}', String(n)).replace('{total}', String(total));
+  }
+  for (const li of steps) {
+    li.querySelector('[data-mark]')!.addEventListener('click', () => {
+      const id = li.dataset['step']!;
+      done = done.includes(id) ? done.filter((x) => x !== id) : [...done, id];
+      try {
+        localStorage.setItem(KEY, JSON.stringify(done));
+      } catch {
+        // Storage unavailable: progress lasts for this page view.
+      }
+      paint();
+    });
+  }
+  paint();
+</script>

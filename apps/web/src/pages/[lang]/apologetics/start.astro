@@ -1,0 +1,39 @@
+---
+import { LOCALES, type Locale } from '../../../i18n/index.ts';
+import Apo from '../../../layouts/Apo.astro';
+import { STARTING_POINTS } from '../../../data/apologetics/journeys.ts';
+import { JOURNEYS, apoPath } from '../../../lib/apologetics/index.ts';
+import { START_NOTE } from '../../../lib/apologetics/labels.ts';
+import { ui } from '../../../lib/apologetics/ui.ts';
+
+export function getStaticPaths() {
+  return LOCALES.map((lang) => ({ params: { lang } }));
+}
+const locale = Astro.params.lang as Locale;
+const text = ui(locale);
+---
+
+<Apo locale={locale} title={text.startTitle} description={text.startPageIntro}>
+  <div class="wrap">
+    <h1>{text.startTitle}</h1>
+    <p class="lede">{text.startPageIntro}</p>
+    <ul class="apo-grid">
+      {
+        STARTING_POINTS.map((sp) => {
+          const j = JOURNEYS.find((x) => x.startingPoints.includes(sp.id));
+          return (
+            <li>
+              <a class="apo-card" href={j === undefined ? apoPath(locale) : apoPath(locale, `journeys/${j.slug}`)}>
+                <h3>{sp.label[locale]}</h3>
+                <p>{START_NOTE[sp.id][locale]}</p>
+                <span class="more">{text.suggestedJourney}</span>
+              </a>
+            </li>
+          );
+        })
+      }
+    </ul>
+    <p><a class="apo-btn" style="display:inline-flex;align-items:center;text-decoration:none" href={apoPath(locale)}>{text.startSkip}</a></p>
+    <p class="apo-hint">{text.startPrivacy}</p>
+  </div>
+</Apo>

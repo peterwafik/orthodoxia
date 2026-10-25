@@ -2,6 +2,11 @@
 import Base from '../../layouts/Base.astro';
 import CardArt from '../../components/CardArt.astro';
 import HomeHeroArt from '../../components/HomeHeroArt.astro';
+import { STOPS } from '../../data/holy-mass.ts';
+import { COPTIC_EVIDENCE } from '../../data/coptic-evidence.ts';
+import { bookBySlug } from '@orthodoxia/bible';
+import { VISIBLE_ARTICLES } from '../../lib/apologetics/index.ts';
+import { parsePassages } from '../../lib/topics/reference.ts';
 import { LOCALES, explorerPath, localePath, t, type Locale } from '../../i18n/index.ts';
 
 export function getStaticPaths() {
@@ -10,14 +15,85 @@ export function getStaticPaths() {
 
 const locale = Astro.params.lang as Locale;
 const strings = t(locale);
+const ar = locale === 'ar';
+// Where each card sits on a wide screen: x is the centre as a percentage of the width, y the top in rem, z the depth in px.
+// A fixed arrangement (not random at build time) so every visit and every build looks the same.
 const cards = [
-  { art: 'bible' as const, ...strings.home.cards.bible, href: localePath(locale, 'bible') },
-  { art: 'explore' as const, ...strings.home.cards.explore, href: explorerPath(locale) },
-  { art: 'threads' as const, ...strings.home.cards.threads, href: explorerPath(locale, 'threads') },
-  { art: 'holyMass' as const, ...strings.home.cards.holyMass, href: localePath(locale, 'holy-mass') },
-  { art: 'churchHistory' as const, ...strings.home.cards.churchHistory, href: localePath(locale, 'church-history') },
-  { art: 'about' as const, ...strings.home.cards.about, href: localePath(locale, 'about') },
+  { art: 'bible' as const, ...strings.home.cards.bible, href: localePath(locale, 'bible'), x: 47, y: 16, z: 70 },
+  { art: 'explore' as const, ...strings.home.cards.explore, href: explorerPath(locale), x: 13, y: 2, z: -20 },
+  { art: 'threads' as const, ...strings.home.cards.threads, href: explorerPath(locale, 'threads'), x: 18, y: 32, z: 30 },
+  { art: 'holyMass' as const, ...strings.home.cards.holyMass, href: localePath(locale, 'holy-mass'), x: 82, y: 3, z: 20 },
+  { art: 'churchHistory' as const, ...strings.home.cards.churchHistory, href: localePath(locale, 'church-history'), x: 84, y: 31, z: -30 },
+  { art: 'faith' as const, ...strings.home.cards.faith, href: localePath(locale, 'apologetics'), x: 50, y: 46, z: 50 },
 ];
+
+// ---- The strings between the cards. Every number is counted from the site's own data when the site is built. ----
+// A string runs from the card that makes the references to the card they point into.
+type Key = 'bible' | 'explore' | 'threads' | 'holyMass' | 'churchHistory' | 'faith';
+const chapterKey = (code: string, chapter: number): string => `${code}.${chapter}`;
+
+// The Bible chapters each part cites (a range such as Job 1–2 counts every chapter it spans).
+const massChapters = new Set(STOPS.flatMap((stop) => stop.scripture.map((s) => chapterKey(s.book, s.chapter))));
+const churchRanges = COPTIC_EVIDENCE.flatMap((entry) => parsePassages(entry.verses));
+const churchChapters = new Set(
+  churchRanges.flatMap((range) => Array.from({ length: range.to.chapter - range.from.chapter + 1 }, (_, i) => chapterKey(range.book, range.from.chapter + i))),
+);
+const faithEvidence = VISIBLE_ARTICLES.flatMap((article) => article.evidence.flatMap((e) => (e.bible === undefined ? [] : [e.bible])));
+const faithChapters = new Set(faithEvidence.flatMap((b) => (bookBySlug(b.book) === undefined ? [] : [chapterKey(bookBySlug(b.book)!.code, b.chapter)])));
+const shared = (a: ReadonlySet<string>, b: ReadonlySet<string>): number => [...a].filter((key) => b.has(key)).length;
+
+// Which written pieces mention another part of the site's subject.
+const COUNCILS = /Nicaea|Council of|Chalcedon|Ephesus|Constantinople/i;
+const massMentionsCouncils = STOPS.filter((stop) => COUNCILS.test(JSON.stringify(stop))).length;
+const faithMentionsCouncils = VISIBLE_ARTICLES.filter((article) => COUNCILS.test(JSON.stringify(article))).length;
+const faithMentionsLiturgy = VISIBLE_ARTICLES.filter((article) => /liturg/i.test(JSON.stringify(article))).length;
+const liturgicalWitnesses = COPTIC_EVIDENCE.flatMap((entry) => entry.witnesses).filter((w) => /Liturgy|Euchologion|Eucharistic|Anaphora/i.test(w.title.en)).length;
+
+// The two figures below are those the cross-reference explorer states on its own pages.
+const CROSS_REFERENCES = 344_799;
+const VERSES = 31_102;
+
+const digits = new Intl.NumberFormat(ar ? 'ar-EG' : 'en-US');
+const n = (value: number): string => digits.format(value);
+interface Edge {
+  from: Key;
+  to: Key;
+  count: number;
+  en: string;
+  ar: string;
+}
+const all: Edge[] = [
+  { from: 'holyMass', to: 'bible', count: STOPS.reduce((sum, stop) => sum + stop.scripture.length, 0), en: 'The Holy Mass cites {n} Bible passages', ar: 'القداس يستشهد بـ {n} موضعاً من الكتاب المقدس' },
+  { from: 'churchHistory', to: 'bible', count: churchRanges.length, en: 'Church history rests on {n} Bible passages', ar: 'تاريخ الكنيسة يستند إلى {n} موضعاً من الكتاب المقدس' },
+  { from: 'faith', to: 'bible', count: faithEvidence.length, en: 'Faith & Evidence ties {n} pieces of evidence to Bible passages', ar: 'الإيمان والأدلة يربط {n} دليلاً بمواضع من الكتاب المقدس' },
+  { from: 'explore', to: 'bible', count: CROSS_REFERENCES, en: '{n} cross-references link the verses of the Bible', ar: '{n} شاهد يربط آيات الكتاب المقدس بعضها ببعض' },
+  { from: 'threads', to: 'bible', count: VERSES, en: 'Reading with threads covers all {n} verses of the Bible', ar: 'القراءة بالخيوط تشمل آيات الكتاب المقدس كلها، وعددها {n}' },
+  { from: 'threads', to: 'explore', count: CROSS_REFERENCES, en: 'Reading with threads shows the same {n} cross-references', ar: 'القراءة بالخيوط تعرض الشواهد نفسها، وعددها {n}' },
+  { from: 'churchHistory', to: 'holyMass', count: liturgicalWitnesses, en: '{n} of the early witnesses in the Coptic evidence are liturgical prayers', ar: '{n} من الشواهد المبكرة في الأدلة القبطية صلوات طقسية' },
+  { from: 'holyMass', to: 'churchHistory', count: massMentionsCouncils, en: '{n} stops of the Mass refer to the councils of the early church', ar: '{n} من محطات القداس تشير إلى مجامع الكنيسة الأولى' },
+  { from: 'faith', to: 'churchHistory', count: faithMentionsCouncils, en: '{n} Faith & Evidence answers draw on the early councils', ar: '{n} من إجابات الإيمان والأدلة تستند إلى المجامع الأولى' },
+  { from: 'faith', to: 'holyMass', count: faithMentionsLiturgy, en: '{n} Faith & Evidence answers draw on the liturgy', ar: '{n} من إجابات الإيمان والأدلة تستند إلى الليتورجيا' },
+  { from: 'holyMass', to: 'faith', count: shared(massChapters, faithChapters), en: 'The Mass and Faith & Evidence both cite {n} of the same Bible chapters', ar: 'القداس والإيمان والأدلة يستشهدان معاً بـ {n} من الأصحاحات نفسها' },
+  { from: 'churchHistory', to: 'faith', count: shared(churchChapters, faithChapters), en: 'Church history and Faith & Evidence both cite {n} of the same Bible chapters', ar: 'تاريخ الكنيسة والإيمان والأدلة يستشهدان معاً بـ {n} من الأصحاحات نفسها' },
+  { from: 'churchHistory', to: 'holyMass', count: shared(churchChapters, massChapters), en: 'Church history and the Mass both cite {n} of the same Bible chapters', ar: 'تاريخ الكنيسة والقداس يستشهدان معاً بـ {n} من الأصحاحات نفسها' },
+];
+// A connection with nothing behind it is not drawn. Several strings may join the same two cards: they hang side by side.
+const present = all.filter((edge) => edge.count > 0);
+const pairOf = (edge: Edge): string => [edge.from, edge.to].sort().join('|');
+const edges = present.map((edge) => {
+  const same = present.filter((other) => pairOf(other) === pairOf(edge));
+  return {
+    from: edge.from,
+    to: edge.to,
+    label: n(edge.count),
+    text: (ar ? edge.ar : edge.en).replace('{n}', n(edge.count)),
+    // Thicker for more references, on a logarithmic scale so the biggest does not swamp the rest.
+    weight: Number((1.2 + Math.log10(edge.count + 1) * 0.42).toFixed(2)),
+    lane: same.indexOf(edge),
+    lanes: same.length,
+  };
+});
+const note = ar ? 'كل خيط يربط جزءاً من الموقع بجزء آخر، والرقم عدد المراجع بينهما. وكلما زاد العدد غلُظ الخيط.' : 'Each string joins one part of the site to another; its number is how many references run between them, and the more there are, the thicker the string.';
 ---
 
 <Base locale={locale} simpleHeader>
@@ -33,21 +109,228 @@ const cards = [
 
   <section class="cards-section">
     <div class="wrap">
-      <ul class="cards">
-        {
-          cards.map(({ art, title, note, href }) => (
-            <li>
-              <a class="card" href={href}>
-                <CardArt name={art} />
-                <span class="card-title">{title}</span>
-                <span class="card-note">{note}</span>
-              </a>
-            </li>
-          ))
-        }
+      <div class="web-area" data-web data-edges={JSON.stringify(edges)}>
+        <svg class="strings" aria-hidden="true" focusable="false"></svg>
+        <ul class="web">
+          {
+            cards.map(({ art, title, note, href, x, y, z }) => (
+              <li data-card={art} style={`--x:${x};--y:${y};--z:${z}`}>
+                <a class="card" href={href}>
+                  <CardArt name={art} />
+                  <span class="card-title">{title}</span>
+                  <span class="card-note">{note}</span>
+                </a>
+              </li>
+            ))
+          }
+        </ul>
+      </div>
+      <p class="web-note">{note}</p>
+      <ul class="visually-hidden">
+        {edges.map((edge) => <li>{edge.text}</li>)}
       </ul>
     </div>
   </section>
+
+  <script>
+    // The strings between the cards. They are drawn from the cards' own positions on every frame, so they follow the
+    // cards as these drift with the pointer. Nothing here changes what a card says or where it goes.
+    interface Edge {
+      from: string;
+      to: string;
+      label: string;
+      text: string;
+      weight: number;
+      lane: number;
+      lanes: number;
+    }
+    const area = document.querySelector<HTMLElement>('[data-web]');
+    const svg = area?.querySelector<SVGSVGElement>('svg.strings');
+    if (area !== null && area !== undefined && svg !== null && svg !== undefined) {
+      const NS = 'http://www.w3.org/2000/svg';
+      const edges = JSON.parse(area.dataset['edges'] ?? '[]') as Edge[];
+      const cards = new Map<string, HTMLElement>();
+      for (const li of area.querySelectorAll<HTMLElement>('[data-card]')) cards.set(li.dataset['card'] ?? '', li);
+      const make = <K extends keyof SVGElementTagNameMap>(name: K, attrs: Record<string, string>, parent: Element): SVGElementTagNameMap[K] => {
+        const node = document.createElementNS(NS, name);
+        for (const [key, value] of Object.entries(attrs)) node.setAttribute(key, value);
+        parent.append(node);
+        return node;
+      };
+      const rise = (edge: Edge): string => `${edge.from}>${edge.to}`;
+
+      interface Drawn {
+        edge: Edge;
+        shadow: SVGPathElement;
+        line: SVGPathElement;
+        bead: SVGCircleElement;
+        badge: SVGGElement;
+        pill: SVGRectElement;
+        text: SVGTextElement;
+        phase: number;
+      }
+      const drawn: Drawn[] = edges.map((edge, index) => {
+        const group = make('g', { 'data-edge': rise(edge), style: `--w:${edge.weight}px` }, svg);
+        const shadow = make('path', { class: 'string-shadow' }, group);
+        const line = make('path', { class: 'string-line' }, group);
+        const bead = make('circle', { class: 'string-bead', r: '3.2' }, group);
+        const badge = make('g', { class: 'string-badge' }, group);
+        const pill = make('rect', { height: '26', rx: '13' }, badge);
+        const text = make('text', { 'text-anchor': 'middle', 'dominant-baseline': 'central' }, badge);
+        text.textContent = edge.label;
+        const title = make('title', {}, badge);
+        title.textContent = edge.text;
+        return { edge, shadow, line, bead, badge, pill, text, phase: index * 1.3 };
+      });
+      // The pill is as wide as its number.
+      const sizeBadges = (): void => {
+        for (const d of drawn) {
+          const width = Math.max(30, d.text.getComputedTextLength() + 20);
+          d.pill.setAttribute('width', String(width));
+          d.pill.setAttribute('x', String(-width / 2));
+          d.pill.setAttribute('y', '-13');
+        }
+      };
+
+      const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
+      // Where a string meets a card: the side that faces the other card.
+      type Side = 'l' | 'r' | 't' | 'b';
+      const sideToward = (box: DOMRect, toward: { x: number; y: number }, origin: DOMRect): Side => {
+        const vx = toward.x - (box.left + box.width / 2 - origin.left);
+        const vy = toward.y - (box.top + box.height / 2 - origin.top);
+        if (Math.abs(vx) / box.width > Math.abs(vy) / box.height) return vx > 0 ? 'r' : 'l';
+        return vy > 0 ? 'b' : 't';
+      };
+      const centreOf = (box: DOMRect, origin: DOMRect): { x: number; y: number } => ({
+        x: box.left + box.width / 2 - origin.left,
+        y: box.top + box.height / 2 - origin.top,
+      });
+      const point = (box: DOMRect, side: Side, shift: number, origin: DOMRect): { x: number; y: number; dx: number; dy: number } => {
+        const c = centreOf(box, origin);
+        if (side === 'r') return { x: c.x + box.width / 2, y: c.y + shift, dx: 1, dy: 0 };
+        if (side === 'l') return { x: c.x - box.width / 2, y: c.y + shift, dx: -1, dy: 0 };
+        if (side === 'b') return { x: c.x + shift, y: c.y + box.height / 2, dx: 0, dy: 1 };
+        return { x: c.x + shift, y: c.y - box.height / 2, dx: 0, dy: -1 };
+      };
+
+      let clock = 0;
+      const draw = (time: number): void => {
+        const origin = area.getBoundingClientRect();
+        svg.setAttribute('viewBox', `0 0 ${origin.width} ${origin.height}`);
+        svg.setAttribute('width', String(origin.width));
+        svg.setAttribute('height', String(origin.height));
+        const sway = reduced ? 0 : Math.sin(time / 1400);
+
+        // First, which side of each card every string leaves by. Strings that share a side are spread along it, in the
+        // order of where they are headed, so a card with many connections (the Bible) shows each one on its own.
+        interface End {
+          d: Drawn;
+          end: 'a' | 'b';
+          box: DOMRect;
+          side: Side;
+          other: { x: number; y: number };
+          shift: number;
+        }
+        const ends: End[] = [];
+        for (const d of drawn) {
+          const a = cards.get(d.edge.from);
+          const b = cards.get(d.edge.to);
+          if (a === undefined || b === undefined) continue;
+          const boxA = a.getBoundingClientRect();
+          const boxB = b.getBoundingClientRect();
+          const centreA = centreOf(boxA, origin);
+          const centreB = centreOf(boxB, origin);
+          ends.push({ d, end: 'a', box: boxA, side: sideToward(boxA, centreB, origin), other: centreB, shift: 0 });
+          ends.push({ d, end: 'b', box: boxB, side: sideToward(boxB, centreA, origin), other: centreA, shift: 0 });
+        }
+        const bySide = new Map<string, End[]>();
+        for (const e of ends) {
+          const key = `${e.end === 'a' ? e.d.edge.from : e.d.edge.to}|${e.side}`;
+          bySide.set(key, [...(bySide.get(key) ?? []), e]);
+        }
+        for (const group of bySide.values()) {
+          const horizontal = group[0]?.side === 'l' || group[0]?.side === 'r';
+          group.sort((p, q) => (horizontal ? p.other.y - q.other.y : p.other.x - q.other.x) || p.d.edge.lane - q.d.edge.lane);
+          const room = (horizontal ? (group[0]?.box.height ?? 0) : (group[0]?.box.width ?? 0)) * 0.62;
+          const step = group.length > 1 ? Math.min(34, room / (group.length - 1)) : 0;
+          group.forEach((e, i) => {
+            e.shift = (i - (group.length - 1) / 2) * step;
+          });
+        }
+
+        for (const d of drawn) {
+          const a = ends.find((e) => e.d === d && e.end === 'a');
+          const b = ends.find((e) => e.d === d && e.end === 'b');
+          if (a === undefined || b === undefined) continue;
+          const p = point(a.box, a.side, a.shift, origin);
+          const q = point(b.box, b.side, b.shift, origin);
+          const span = Math.hypot(q.x - p.x, q.y - p.y);
+          const reach = Math.min(170, span * 0.4);
+          // A string hangs a little between its ends and moves slowly, like one on a cork board. Strings that join the same
+          // two cards hang at different depths, so they run side by side.
+          const lane = (d.edge.lane - (d.edge.lanes - 1) / 2) * 46;
+          const sag = Math.min(70, span * 0.12) + lane + sway * 5 * Math.sin(d.phase + 1);
+          const c1 = { x: p.x + p.dx * reach, y: p.y + p.dy * reach + sag };
+          const c2 = { x: q.x + q.dx * reach, y: q.y + q.dy * reach + sag };
+          const path = `M${p.x.toFixed(1)} ${p.y.toFixed(1)} C${c1.x.toFixed(1)} ${c1.y.toFixed(1)} ${c2.x.toFixed(1)} ${c2.y.toFixed(1)} ${q.x.toFixed(1)} ${q.y.toFixed(1)}`;
+          d.line.setAttribute('d', path);
+          d.shadow.setAttribute('d', path);
+          const length = d.line.getTotalLength();
+          // The number sits on the string, a little off the middle where several strings share a pair; a bead travels from
+          // the citing card to the cited one.
+          const at = 0.5 + (d.edge.lanes > 1 ? (d.edge.lane - (d.edge.lanes - 1) / 2) * 0.12 : 0);
+          const mid = d.line.getPointAtLength(length * at);
+          d.badge.setAttribute('transform', `translate(${mid.x.toFixed(1)} ${mid.y.toFixed(1)})`);
+          const t = reduced ? 0.2 : ((time / 5200 + d.phase / 7) % 1 + 1) % 1;
+          const bead = d.line.getPointAtLength(length * t);
+          d.bead.setAttribute('cx', bead.x.toFixed(1));
+          d.bead.setAttribute('cy', bead.y.toFixed(1));
+        }
+      };
+
+      let running = false;
+      const loop = (time: number): void => {
+        draw(time);
+        clock = running ? requestAnimationFrame(loop) : 0;
+      };
+      const start = (): void => {
+        if (running || reduced) return;
+        running = true;
+        clock = requestAnimationFrame(loop);
+      };
+      const stop = (): void => {
+        running = false;
+        if (clock !== 0) cancelAnimationFrame(clock);
+        clock = 0;
+      };
+
+      new IntersectionObserver((entries) => {
+        for (const entry of entries) entry.isIntersecting ? start() : stop();
+      }).observe(area);
+      const redraw = (): void => {
+        sizeBadges();
+        draw(performance.now());
+      };
+      new ResizeObserver(redraw).observe(area);
+      void document.fonts?.ready.then(redraw);
+      redraw();
+
+      // Pointing at a card lights the strings that run to it.
+      for (const [id, li] of cards) {
+        const light = (on: boolean): void => {
+          for (const d of drawn) {
+            const touches = d.edge.from === id || d.edge.to === id;
+            d.line.parentElement?.classList.toggle('is-lit', on && touches);
+            d.line.parentElement?.classList.toggle('is-dim', on && !touches);
+          }
+        };
+        li.addEventListener('pointerenter', () => light(true));
+        li.addEventListener('pointerleave', () => light(false));
+        li.addEventListener('focusin', () => light(true));
+        li.addEventListener('focusout', () => light(false));
+      }
+    }
+  </script>
 
 </Base>
 
@@ -103,31 +386,152 @@ const cards = [
     padding-block: 2rem clamp(2rem, 5vw, 3.5rem);
   }
 
-  .cards {
+  /* The cards hang in a web: scattered across the area at different depths, joined by strings. */
+  .web-area {
+    position: relative;
+    perspective: 1400px;
+  }
+
+  .strings {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    overflow: visible;
+    pointer-events: none;
+  }
+
+  .web {
+    position: relative;
+    z-index: 1;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(min(100%, 17rem), 1fr));
-    gap: 1rem;
+    gap: 3.5rem;
     margin: 0;
     padding: 0;
     list-style: none;
+    transform-style: preserve-3d;
+  }
+
+  .web > li {
+    position: relative;
+    inline-size: min(17rem, 88%);
+    transform-style: preserve-3d;
+    transform: translate3d(calc(var(--mx) * var(--z) * -0.5px), calc(var(--my) * var(--z) * -0.5px), calc(var(--z) * 1px));
+    transition: transform 0.35s cubic-bezier(0.2, 0.7, 0.2, 1);
+  }
+
+  .web > li:nth-child(odd) {
+    justify-self: start;
+  }
+
+  .web > li:nth-child(even) {
+    justify-self: end;
+  }
+
+  @media (min-width: 62rem) {
+    .web {
+      display: block;
+      block-size: 68rem;
+    }
+
+    .web > li {
+      position: absolute;
+      inset-inline-start: calc(var(--x) * 1%);
+      inset-block-start: calc(var(--y) * 1rem);
+      margin-inline-start: -8.5rem;
+      inline-size: 17rem;
+    }
+  }
+
+  .web-note {
+    position: relative;
+    z-index: 2;
+    margin: 2.5rem 0 0;
+    text-align: center;
+    color: var(--ink-muted);
+    font-size: var(--step--1);
+  }
+
+  .strings :global(.string-line) {
+    fill: none;
+    stroke: var(--accent);
+    stroke-width: var(--w, 1.6px);
+    stroke-linecap: round;
+    opacity: 0.75;
+    transition: opacity 0.3s, stroke-width 0.3s;
+  }
+
+  .strings :global(.string-shadow) {
+    fill: none;
+    stroke: var(--ink);
+    stroke-width: 3;
+    stroke-linecap: round;
+    opacity: 0.1;
+    filter: blur(3px);
+    transform: translateY(14px);
+  }
+
+  .strings :global(.string-bead) {
+    fill: var(--accent);
+  }
+
+  .strings :global(.string-badge rect) {
+    fill: var(--surface-raised);
+    stroke: var(--accent);
+    stroke-width: 1.2;
+  }
+
+  .strings :global(.string-badge text) {
+    fill: var(--ink);
+    font-family: var(--font-ui);
+    font-size: 12.5px;
+    font-weight: 700;
+  }
+
+  .strings :global(g.is-lit .string-line) {
+    opacity: 1;
+    stroke-width: calc(var(--w, 1.6px) + 1.2px);
+  }
+
+  .strings :global(g.is-dim) {
+    opacity: 0.3;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .web > li {
+      transform: none;
+    }
   }
 
   .card {
+    position: relative;
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
     block-size: 100%;
     padding: 1.4rem 1.4rem 1.6rem;
-    border: 1px solid var(--line);
-    border-block-start: 3px solid var(--accent);
-    border-radius: 4px;
-    background: var(--surface-raised);
+    border: 1px solid var(--glass-line);
+    border-radius: var(--depth-radius);
+    background-color: var(--glass);
+    backdrop-filter: blur(12px);
     color: var(--ink);
     text-decoration: none;
+    box-shadow: var(--depth-shadow);
   }
 
   .card:hover {
+    box-shadow: var(--depth-shadow-strong);
     border-color: var(--accent);
+  }
+
+  .card::after {
+    content: "";
+    position: absolute;
+    inset-inline: 1.4rem;
+    inset-block-start: 0;
+    block-size: 2px;
+    border-radius: 0 0 2px 2px;
+    background: linear-gradient(90deg, transparent, var(--accent), transparent);
+    opacity: 0.7;
   }
 
   .card-title {

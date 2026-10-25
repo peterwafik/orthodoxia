@@ -1,0 +1,183 @@
+/*
+ * The shared look of every page: soft glass surfaces, depth, a lit background and the pointer-driven 3D of the line
+ * drawings. It sits on top of the tokens in global.css. Only logical properties are used, so English and Arabic share
+ * every rule, and every moving thing stops under prefers-reduced-motion.
+ */
+:root {
+  --burgundy: #7b2d3b;
+  --glass: rgba(255, 253, 248, 0.66);
+  --glass-strong: rgba(255, 253, 248, 0.88);
+  --glass-line: rgba(255, 255, 255, 0.8);
+  --tint: rgba(122, 90, 18, 0.12);
+  --glow-a: rgba(236, 223, 191, 0.75);
+  --glow-b: rgba(244, 226, 200, 0.55);
+  --depth-shadow: 0 24px 50px -28px rgba(26, 35, 64, 0.38), 0 6px 16px -8px rgba(26, 35, 64, 0.16);
+  --depth-shadow-strong: 0 36px 70px -30px rgba(26, 35, 64, 0.5), 0 10px 22px -10px rgba(26, 35, 64, 0.22);
+  --depth-radius: 1.25rem;
+  --header-room: 5.2rem;
+}
+
+:root[data-theme='dark'] {
+  --burgundy: #e7a9b4;
+  --glass: rgba(22, 36, 74, 0.62);
+  --glass-strong: rgba(18, 30, 64, 0.9);
+  --glass-line: rgba(255, 255, 255, 0.1);
+  --tint: rgba(217, 180, 90, 0.14);
+  --glow-a: rgba(40, 62, 122, 0.55);
+  --glow-b: rgba(70, 40, 80, 0.35);
+  --depth-shadow: 0 24px 50px -26px rgba(0, 0, 0, 0.7), 0 6px 16px -8px rgba(0, 0, 0, 0.5);
+  --depth-shadow-strong: 0 36px 70px -28px rgba(0, 0, 0, 0.8), 0 10px 22px -10px rgba(0, 0, 0, 0.55);
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-block-start: var(--header-room);
+}
+
+body {
+  overflow-x: clip;
+}
+
+/* The floating header leaves room above the page; on a phone the dock leaves room below. */
+#content {
+  padding-block-start: var(--header-room);
+}
+
+@media (max-width: 61.99rem) {
+  body {
+    padding-block-end: 5.2rem;
+  }
+
+  body[data-immersive] {
+    padding-block-end: 0;
+  }
+
+  body[data-immersive] .fh-dock {
+    display: none;
+  }
+
+  /* Floating buttons and panels that sit in the bottom corner rise above the dock. */
+  html .tm-root {
+    inset-block-end: 5.6rem;
+  }
+
+  html .tm-panel {
+    inset-block-end: 9rem;
+  }
+}
+
+/* ---------- Pointer-driven depth ---------- */
+
+:root {
+  --mx: 0;
+  --my: 0;
+  --sy: 0;
+}
+
+/* A layer of a line drawing: it drifts against the pointer by its own depth. */
+[data-depth] {
+  transform: translate3d(calc(var(--mx) * var(--depth, 10) * -1px), calc(var(--my) * var(--depth, 10) * -1px), 0);
+  transition: transform 0.35s cubic-bezier(0.2, 0.7, 0.2, 1);
+  will-change: transform;
+}
+
+/* The whole drawing leans a little toward the pointer. */
+[data-scene] {
+  transform-style: preserve-3d;
+  transform: perspective(900px) rotateX(calc(var(--my) * -5deg)) rotateY(calc(var(--mx) * 7deg));
+  transition: transform 0.35s cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+
+/* Lines draw themselves in once on load. */
+.draw :is(path, circle) {
+  stroke-dasharray: 1;
+  stroke-dashoffset: 1;
+  animation: draw-in 1.8s cubic-bezier(0.3, 0.6, 0.2, 1) forwards;
+  animation-delay: calc(var(--i, 0) * 28ms);
+}
+
+@keyframes draw-in {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+/* A slow breath so the drawing never looks frozen. */
+.breathe {
+  animation: breathe 9s ease-in-out infinite;
+}
+
+@keyframes breathe {
+  50% {
+    translate: 0 -5px;
+  }
+}
+
+/* ---------- Surfaces ---------- */
+
+/* Cards across the site: rounded, lifted, and they tilt toward the pointer (the script sets --rx, --ry, --gx, --gy). */
+:is(.card, a.apo-card, .apo-card--start, .apo-source, .hm-card, .ch-card)[data-tilt] {
+  border-radius: var(--depth-radius);
+  box-shadow: var(--depth-shadow);
+  background-image: radial-gradient(260px circle at var(--gx, 50%) var(--gy, 0%), var(--tint), transparent 62%);
+  transform: perspective(900px) rotateX(calc(var(--ry, 0) * 1deg)) rotateY(calc(var(--rx, 0) * 1deg));
+  transform-style: preserve-3d;
+  transition: transform 0.18s ease-out, box-shadow 0.3s, border-color 0.3s;
+}
+
+:is(.card, a.apo-card, .apo-card--start, .apo-source, .hm-card, .ch-card)[data-tilt]:hover {
+  box-shadow: var(--depth-shadow-strong);
+}
+
+[data-tilt] :is(.card-title, h3) {
+  transform: translateZ(28px);
+}
+
+/* The small drawing on a card floats above it, follows the pointer a little and grows on hover. */
+[data-tilt] svg.art {
+  transform: translateZ(36px);
+  translate: calc(var(--rx, 0) * -1.6px) calc(var(--ry, 0) * 1.6px);
+  transition: transform 0.3s, translate 0.18s ease-out;
+}
+
+[data-tilt]:hover svg.art {
+  transform: translateZ(48px) scale(1.05);
+}
+
+/* Brings sections in as they scroll into view, in browsers that support scroll-driven animation. */
+@supports (animation-timeline: view()) {
+  .cards > li,
+  .apo-grid > li,
+  .apo-sources > li,
+  main h2 {
+    animation: rise linear both;
+    animation-timeline: view();
+    animation-range: entry 0% entry 35%;
+  }
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    translate: 0 1.4rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  [data-depth],
+  [data-scene],
+  [data-tilt] {
+    transform: none !important;
+    transition: none;
+  }
+
+  .draw :is(path, circle) {
+    animation: none;
+    stroke-dasharray: none;
+    stroke-dashoffset: 0;
+  }
+
+  .breathe {
+    animation: none;
+  }
+}

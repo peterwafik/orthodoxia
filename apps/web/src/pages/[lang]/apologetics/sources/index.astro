@@ -1,0 +1,91 @@
+---
+import Apo from '../../../../layouts/Apo.astro';
+import SourceCard from '../../../../components/apologetics/SourceCard.astro';
+import { LOCALES, type Locale } from '../../../../i18n/index.ts';
+import { ALL_SOURCES } from '../../../../lib/apologetics/index.ts';
+import { ACCESS, GROUP, KIND, STANDPOINT } from '../../../../lib/apologetics/labels.ts';
+import { normalize } from '../../../../lib/apologetics/normalize.ts';
+import { ui } from '../../../../lib/apologetics/ui.ts';
+
+export function getStaticPaths() {
+  return LOCALES.map((lang) => ({ params: { lang } }));
+}
+const locale = Astro.params.lang as Locale;
+const text = ui(locale);
+const opts = (rec: Record<string, { en: string; ar: string }>): [string, string][] => Object.entries(rec).map(([k, v]) => [k, v[locale]]);
+const selects: [string, string, [string, string][]][] = [
+  ['group', text.filterGroup, opts(GROUP)],
+  ['standpoint', text.filterStandpoint, opts(STANDPOINT)],
+  ['kind', text.filterSourceKind, opts(KIND)],
+  ['access', text.filterAccess, opts(ACCESS)],
+];
+---
+
+<Apo locale={locale} title={text.sourcesTitle} description={text.sourcesIntro}>
+  <div class="wrap">
+    <h1>{text.sourcesTitle}</h1>
+    <p class="lede">{text.sourcesIntro}</p>
+    <form class="apo-filters" role="search" aria-label={text.sourcesFilter} onsubmit="return false">
+      <label style="flex:1 1 16rem">{text.sourcesFilter}
+        <input id="s-q" type="search" style="min-block-size:40px;font:inherit;padding-inline:0.6rem" />
+      </label>
+      {selects.map(([name, label, options]) => (
+        <label>{label}
+          <select data-filter={name}>
+            <option value="">{text.filterAll}</option>
+            {options.map(([value, optionLabel]) => <option value={value}>{optionLabel}</option>)}
+          </select>
+        </label>
+      ))}
+    </form>
+    <p class="apo-hint">{text.quickFilters}:
+      <button type="button" class="apo-btn" data-quick="ancient_non_christian">{text.nonChristianAncient}</button>
+      <button type="button" class="apo-btn" data-quick="modern_non_christian_scholar">{text.nonChristianModern}</button>
+    </p>
+    <p class="apo-status" role="status" aria-live="polite" id="s-count" data-tpl={text.sourceCount} data-total={ALL_SOURCES.length}></p>
+    <ul class="apo-sources" id="s-list">
+      {
+        ALL_SOURCES.map((s) => (
+          <li data-group={s.group} data-standpoint={s.standpoint} data-kind={s.kind} data-access={s.access} data-review={s.review}
+              data-text={normalize(`${s.id} ${s.title} ${s.author} ${s.locator ?? ''} ${s.use.en} ${s.use.ar}`)}>
+            <SourceCard source={s} locale={locale} />
+          </li>
+        ))
+      }
+    </ul>
+    <p class="apo-empty" id="s-empty" hidden>{text.sourceEmpty}</p>
+  </div>
+</Apo>
+
+<script>
+  import { tokens } from '../../../../lib/apologetics/normalize.ts';
+  const items = [...document.querySelectorAll<HTMLElement>('#s-list > li')];
+  const selects = [...document.querySelectorAll<HTMLSelectElement>('[data-filter]')];
+  const q = document.getElementById('s-q') as HTMLInputElement;
+  const count = document.getElementById('s-count')!;
+  const empty = document.getElementById('s-empty')!;
+  function run(): void {
+    const words = tokens(q.value);
+    let n = 0;
+    for (const li of items) {
+      const ok =
+        selects.every((s) => s.value === '' || li.dataset[s.dataset['filter']!] === s.value) &&
+        words.every((w) => (li.dataset['text'] ?? '').split(' ').some((t) => t.startsWith(w)));
+      li.hidden = !ok;
+      if (ok) n++;
+    }
+    count.textContent = (count.dataset['tpl'] ?? '').replace('{n}', String(n)).replace('{total}', count.dataset['total'] ?? '');
+    empty.hidden = n !== 0;
+  }
+  q.addEventListener('input', run);
+  for (const s of selects) s.addEventListener('change', run);
+  for (const b of document.querySelectorAll<HTMLButtonElement>('[data-quick]')) {
+    b.addEventListener('click', () => {
+      for (const s of selects) s.value = '';
+      const sp = selects.find((s) => s.dataset['filter'] === 'standpoint')!;
+      sp.value = b.dataset['quick'] ?? '';
+      run();
+    });
+  }
+  run();
+</script>
