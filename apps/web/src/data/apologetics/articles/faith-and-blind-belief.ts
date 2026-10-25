@@ -290,7 +290,7 @@ export const article: Article = {
       'In the Coptic Orthodox Church faith is lived through the liturgy, the sacraments, fasting and prayer, and is handed on in families and in the Sunday school. Alongside this, the Church has a long tradition of teaching with reasons, from the catechetical school of Alexandria to the writings of her popes. The Church does not set the two against each other: the one who prays also learns to give an account of what he prays.',
     ],
     ar: [
-      'يُعاش الإيمان في الكنيسة القبطية الأرثوذكسية بالليتورجيا والأسرار والصوم والصلاة، ويُسلَّم في الأسر وفي مدارس الأحد. وإلى جانب ذلك للكنيسة تقليد طويل في التعليم بالأسباب، من مدرسة الإسكندرية اللاهوتية إلى كتابات باباواتها. ولا تضع الكنيسة الأمرين أحدهما في مواجهة الآخر: فمن يصلي يتعلم أيضًا أن يقدّم حسابًا عمّا يصلي به.',
+      'يُعاش الإيمان في الكنيسة القبطية الأرثوذكسية بالصلوات الطقسية والأسرار والصوم والصلاة، ويُسلَّم في الأسر وفي مدارس الأحد. وإلى جانب ذلك للكنيسة تقليد طويل في التعليم بالأسباب، من مدرسة الإسكندرية اللاهوتية إلى كتابات باباواتها. ولا تضع الكنيسة الأمرين أحدهما في مواجهة الآخر: فمن يصلي يتعلم أيضًا أن يقدّم حسابًا عمّا يصلي به.',
     ],
   },
   disputed: {

@@ -3,7 +3,7 @@ source-ar: الثلاثة قداسات للقديسين باسيليوس واغ�
 
 @priest
 en| “ Holy, holy, holy, Lord of hosts. Heaven and earth are full of Your holy glory.”
-ar| قدوس. قدوس. قدوس. رب الصاباؤت. السماء والأرض مملوءتان من مجدك الاقدس.
+ar| قدوس. قدوس. قدوس. رب الصاباؤوت. السماء والأرض مملوءتان من مجدك المقدس.
 
 @rubric
 en| The people may chant the appropriate Aspasmos Watos hymn for annual days (or another Aspasmos according to the feast and season of the year).
@@ -11,7 +11,7 @@ ar| أو يقول الشعب هذا الاسبسمس الواطس السنوي (
 
 @priest
 en| O Lord, God of hosts, return and behold from heaven, and look and visit this vine, restore and establish her, this which Your right hand has planted. Alleluia. Alleluia . Alleluia. ( Bless the seeds and the herbs. ) * May Your mercy and peace be a fortress to Your Peopl e. Holy. Holy . Holy . Lord of h osts, heaven and earth are full of Your holy glory.
-ar| ايها الرب إله القوات، إرجع واطلع من السماء، انظر وتعهد هذه الكرمة، أصلحها و ثبتها، هذه التي غرستها يمينك. هلليلويا، هلليلويا، هلليلويا، (بارك الزروع والعشب)*، فلتكن رحمتك وسلامك حصناً لشعبك. قدوس. قدوس. قدوس. رب الصاباؤوت. السماء والأرض مملوءتان من مجدك الاقدس.
+ar| ايها الرب إله القوات، إرجع واطلع من السماء، انظر وتعهد هذه الكرمة، أصلحها و ثبتها، هذه التي غرستها يمينك. هلليلويا، هلليلويا، هلليلويا، (بارك الزروع والعشب)*، فلتكن رحمتك وسلامك حصناً لشعبك. قدوس. قدوس. قدوس. رب الصاباؤوت. السماء والأرض مملوءتان من مجدك المقدس.
 
 @rubric
 en| * During the times identified below, the following prayers are said instead of the one between the parentheses above.

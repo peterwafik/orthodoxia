@@ -296,7 +296,7 @@ export const article: Article = {
       'Creation from nothing is part of the Coptic Orthodox Church’s everyday prayer. The Creed begins by confessing the Father as maker of heaven and earth and of all things seen and unseen, and the liturgy gives thanks to God for creating the world and bringing us from non-existence into being. Athanasius, the great teacher of Alexandria, is a chief witness to this teaching.',
     ],
     ar: [
-      'الخلق من العدم جزء من صلاة الكنيسة القبطية الأرثوذكسية اليومية. فيبدأ قانون الإيمان بالاعتراف بالآب خالق السماء والأرض وكل ما يُرى وما لا يُرى، وتشكر الليتورجيا الله على خلق العالم وإخراجنا من العدم إلى الوجود. وأثناسيوس، معلم الإسكندرية العظيم، شاهد رئيسي على هذا التعليم.',
+      'الخلق من العدم جزء من صلاة الكنيسة القبطية الأرثوذكسية اليومية. فيبدأ قانون الإيمان بالاعتراف بالآب خالق السماء والأرض وكل ما يُرى وما لا يُرى، وتشكر الصلوات الطقسية الله على خلق العالم وإخراجنا من العدم إلى الوجود. وأثناسيوس، معلم الإسكندرية العظيم، شاهد رئيسي على هذا التعليم.',
     ],
   },
   disputed: {

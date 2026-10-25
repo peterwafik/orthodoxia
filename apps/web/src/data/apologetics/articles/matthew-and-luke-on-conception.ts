@@ -212,7 +212,7 @@ export const article: Article = {
       'The Creed the Coptic Orthodox Church prays in every liturgy confesses that the Son was incarnate of the Holy Spirit and of the Virgin Mary. The Church therefore reads Matthew and Luke together as one witness to the incarnation, and calls Mary Theotokos because the one conceived in her is God the Word.',
     ],
     ar: [
-      'قانون الإيمان الذي تصلّيه الكنيسة القبطية الأرثوذكسية في كل ليتورجيا يعترف بأن الابن تجسد من الروح القدس ومن مريم العذراء. فتقرأ الكنيسة متى ولوقا معًا شهادة واحدة للتجسد، وتدعو مريم والدة الإله لأن المحبول به فيها هو الله الكلمة.',
+      'قانون الإيمان الذي تصلّيه الكنيسة القبطية الأرثوذكسية في كل قداس يعترف بأن الابن تجسد من الروح القدس ومن مريم العذراء. فتقرأ الكنيسة متى ولوقا معًا شهادة واحدة للتجسد، وتدعو مريم والدة الإله لأن المحبول به فيها هو الله الكلمة.',
     ],
   },
   disputed: {

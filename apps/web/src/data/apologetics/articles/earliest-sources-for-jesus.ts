@@ -358,7 +358,7 @@ export const article: Article = {
         'The Church does not receive the Gospels only because historians can date them. It receives them as the witness of the Apostles, handed on in the life of the Church and read in her liturgy, and as Scripture inspired by the Holy Spirit. Historical study of the sources is a way of understanding that witness better; it does not replace it.',
       ],
       ar: [
-        'لا تقبل الكنيسة الأناجيل لمجرد أن المؤرخين يستطيعون تأريخها. فهي تقبلها شهادةً للرسل سُلّمت في حياة الكنيسة وتُقرأ في ليتورجيتها، وكتابًا مقدسًا أوحى به الروح القدس. ودراسة المصادر تاريخيًا طريق لفهم تلك الشهادة فهمًا أفضل، وليست بديلًا عنها.',
+        'لا تقبل الكنيسة الأناجيل لمجرد أن المؤرخين يستطيعون تأريخها. فهي تقبلها شهادةً للرسل سُلّمت في حياة الكنيسة وتُقرأ في صلواتها الطقسية، وكتابًا مقدسًا أوحى به الروح القدس. ودراسة المصادر تاريخيًا طريق لفهم تلك الشهادة فهمًا أفضل، وليست بديلًا عنها.',
       ],
     },
   },
@@ -367,7 +367,7 @@ export const article: Article = {
       'The Coptic Church honours St Mark the Evangelist as the founder of the Church of Alexandria and as its first bishop and martyr, and she keeps the Gospel as the centre of her worship: it is chanted and read at every liturgy, and the congregation stands for it. For Copts the Gospels are therefore first of all liturgical and apostolic books, received as the Church’s own memory of Christ. This sits alongside the historical questions above without replacing them.',
     ],
     ar: [
-      'تكرّم الكنيسة القبطية القديس مرقس الإنجيلي مؤسسًا لكنيسة الإسكندرية وأول أساقفتها وشهيدها، وتجعل الإنجيل محور عبادتها: يُرتَّل ويُقرأ في كل قداس ويقف الشعب لسماعه. فالأناجيل عند الأقباط كتب ليتورجية ورسولية أولًا، تُتسلَّم ذاكرةً للكنيسة عن المسيح. وهذا يجتمع مع الأسئلة التاريخية أعلاه ولا يحل محلها.',
+      'تكرّم الكنيسة القبطية القديس مرقس الإنجيلي مؤسسًا لكنيسة الإسكندرية وأول أساقفتها وشهيدها، وتجعل الإنجيل محور عبادتها: يُرتَّل ويُقرأ في كل قداس ويقف الشعب لسماعه. فالأناجيل عند الأقباط كتب طقسية ورسولية أولًا، تُتسلَّم ذاكرةً للكنيسة عن المسيح. وهذا يجتمع مع الأسئلة التاريخية أعلاه ولا يحل محلها.',
     ],
   },
   disputed: {

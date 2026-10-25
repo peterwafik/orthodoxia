@@ -286,7 +286,7 @@ export const TAXONOMY_1 = `
 - Worship in the New Testament | العبادة في العهد الجديد
 - Temple worship | عبادة الهيكل
 - Worship in the early Church | عبادة الكنيسة الأولى
-- Liturgy | الليتورجيا
+- Liturgy | العبادة الطقسية
 - Hymns and spiritual songs | الترانيم والألحان الروحية
 - The Psalms as worship | المزامير كعبادة
 - Sacrifice and worship | الذبيحة والعبادة
@@ -294,5 +294,5 @@ export const TAXONOMY_1 = `
 - Worship and holiness | العبادة والقداسة
 - Idolatry versus true worship | عبادة الأوثان والعبادة الحقيقية
 - Worship during suffering | التسبيح في الألم
-- The heavenly liturgy | الليتورجيا السماوية
+- The heavenly liturgy | العبادة السماوية
 `;

@@ -354,7 +354,7 @@ export const article: Article = {
       'The Coptic Church is a church with a long memory of suffering. Its calendar of years begins with the era of the martyrs, and the martyrs and confessors are remembered in the liturgy and the Synaxarium. The Church’s answer to suffering is lived in prayer: the Psalms, the Hours, the Kyrie eleison, the Anointing of the Sick, and the funeral prayers, which are full of hope in the resurrection. Confession and the pastoral care of a priest are the places where an individual’s pain is brought, and a person who is struggling is encouraged to speak to a spiritual father.',
     ],
     ar: [
-      'الكنيسة القبطية كنيسة ذات ذاكرة طويلة مع الألم. فتقويمها يبدأ بعصر الشهداء، ويُذكر الشهداء والمعترفون في الليتورجيا والسنكسار. وجواب الكنيسة عن الألم يُعاش في الصلاة: المزامير والسواعي وكيرياليصون وسر مسحة المرضى وصلوات الجنازة المملوءة رجاء بالقيامة. والاعتراف والرعاية الكهنوتية هما الموضع الذي يُحمل إليه ألم الفرد، ويُشجَّع المجاهد على أن يكلّم أب اعترافه.',
+      'الكنيسة القبطية كنيسة ذات ذاكرة طويلة مع الألم. فتقويمها يبدأ بعصر الشهداء، ويُذكر الشهداء والمعترفون في الصلوات الطقسية والسنكسار. وجواب الكنيسة عن الألم يُعاش في الصلاة: المزامير والسواعي وكيرياليصون وسر مسحة المرضى وصلوات الجنازة المملوءة رجاء بالقيامة. والاعتراف والرعاية الكهنوتية هما الموضع الذي يُحمل إليه ألم الفرد، ويُشجَّع المجاهد على أن يكلّم أب اعترافه.',
     ],
   },
   disputed: {

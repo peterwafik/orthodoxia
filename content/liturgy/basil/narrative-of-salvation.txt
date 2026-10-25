@@ -3,7 +3,7 @@ source-ar: الثلاثة قداسات للقديسين باسيليوس واغ�
 
 @priest
 en| Lift up your hearts.
-ar| إرفعوا قلوبكم.
+ar| ارفعوا قلوبكم.
 
 @people
 en| We have them with the Lord.
@@ -23,7 +23,7 @@ ar| مستحقٌ وعادل.
 
 @priest
 en| Meet and right, meet and right, truly indeed, it i s meet and right. O You, The Being , Master, Lord, God of Truth, being before the ages and reigning forever. Who dwell s in the highest and look upon the lowly; who have created the heaven, the earth, the sea, and all that is therein. The Father of our Lord, God, and Savior Jesus Christ. By whom You have created all things, visible and invisible. Who sits upon the throne of His glory; and who is worshipped by all the holy powers.
-ar| مستحقٌ وعادل، مستحقٌ وعادل، لأنه حقاً بالحقيقة مستحقٌ وعادل. أيها الكائن السيد الرب الإله الحق. الكائن قبل الدهور والمالك إلي الأبد. الساكـن في الأعالي والناظر إلي المتواضعات. الـذي خلق السماء والأرض والبحر وكل ما فيها. أبو ربنا وإلهنا ومخلصنا يسوع المسيح. هذا الذي خلقت الكل به، ما يري وما لا يري. الجالس علي كرسى مجده، المسجود له من جميع القوات المقدسة.
+ar| مستحقٌ ومستوجبٌ، مستحقٌ ومستوجبٌ، لأنه حقاً بالحقيقة مستحقٌ ومستوجبٌ. أيها الكائن السيد الرب إله الحق. الكائن قبل الدهور، المالك إلي الأبد. الساكـن في الأعالي والناظر المتواضعات. الـذي خلق السماء والأرض والبحر وكل ما فيها. أبو ربنا وإلهنا ومخلصنا يسوع المسيح. هذا الذي خلقت الكل به، ما يري وما لا يري. الجالس علي كرسى مجده، المسجود له من جميع القوات المقدسة.
 
 @deacon
 en| You who are seated, stand.
@@ -35,11 +35,11 @@ ar| الذي يقف أمامه الملائكة ورؤساء الملائكة، 
 
 @deacon
 en| Look towards the East.
-ar| الشماس: وإلي الشرق أنظروا.
+ar| الشماس: إلى الشرق انظروا.
 
 @priest
 en| You are He around whom stand the Cherubim full of eyes, and the Seraphim with six wings, praising continuously, without ceasing, saying:
-ar| أنت هو الذي يقف حولك الشاروبيم الممتلئون أعينا، والسارافيم ذوو الستة الأجنحـة، يسبحون على الـدوام بغير سكوت قائلين:
+ar| أنت هو الذي يقف حولك الشاروبيم الممتلئون أعينا، والسارافيم ذوو الستة الأجنحـة، يسبحون بالدوام بغير سكوت قائلين:
 
 @deacon
 en| Let us attend.

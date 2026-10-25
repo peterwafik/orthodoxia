@@ -333,7 +333,7 @@ export const TAXONOMY_4 = `
 - Why baptize infants? | لماذا تعمد الكنيسة الأطفال؟
 - Is the Eucharist truly Christ's Body and Blood? | هل الإفخارستيا حقًا جسد المسيح ودمه؟
 - Why does the Church have sacraments? | لماذا للكنيسة أسرار؟
-- Why does the Church use liturgy? | لماذا تصلي الكنيسة طقوسًا ليتورجية؟
+- Why does the Church use liturgy? | لماذا تصلّي الكنيسة بالطقوس؟
 - Why do Christians use icons? | لماذا يستخدم المسيحيون الأيقونات؟
 - Why do Christians fast? | لماذا يصوم المسيحيون؟
 - Why is the Old Testament sometimes violent? | لماذا يوجد عنف في العهد القديم؟

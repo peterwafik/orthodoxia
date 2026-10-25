@@ -181,7 +181,7 @@ export const article: Article = {
       },
       inference: {
         en: 'Complaint about an unanswered cry is a recognised form of prayer in Scripture and the liturgy. The Psalms do not treat it as unbelief.',
-        ar: 'الشكوى من صراخ بلا جواب صورة معروفة من الصلاة في الكتاب والليتورجيا. والمزامير لا تعدّها كفرًا.',
+        ar: 'الشكوى من صراخ بلا جواب صورة معروفة من الصلاة في الكتاب والصلوات الطقسية. والمزامير لا تعدّها كفرًا.',
       },
       bible: { book: 'psalms', chapter: 13 },
     },

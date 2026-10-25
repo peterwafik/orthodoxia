@@ -386,7 +386,7 @@ export const article: Article = {
       'The Alexandrian tradition has always answered objections to the resurrection with reasoning. St Athanasius, in On the Incarnation, argues that the change in the lives of believers and their disregard of death show the power of the risen Christ. The Coptic Church holds this reasoning alongside the liturgical experience of the Pascha, in which the Church lives the resurrection as present and does not only prove it as past.',
     ],
     ar: [
-      'دأب التقليد السكندري على أن يجيب عن الاعتراضات على القيامة بالاستدلال. فيحاجّ القديس أثناسيوس في تجسد الكلمة بأن تغير حياة المؤمنين واستخفافهم بالموت يبينان قوة المسيح القائم. وتجمع الكنيسة القبطية هذا الاستدلال مع الخبرة الليتورجية للفصح، التي تعيش فيها الكنيسة القيامة حاضرة ولا تثبتها ماضيًا فحسب.',
+      'دأب التقليد السكندري على أن يجيب عن الاعتراضات على القيامة بالاستدلال. فيحاجّ القديس أثناسيوس في تجسد الكلمة بأن تغير حياة المؤمنين واستخفافهم بالموت يبينان قوة المسيح القائم. وتجمع الكنيسة القبطية هذا الاستدلال مع الخبرة الطقسية للفصح، التي تعيش فيها الكنيسة القيامة حاضرة ولا تثبتها ماضيًا فحسب.',
     ],
   },
   disputed: {

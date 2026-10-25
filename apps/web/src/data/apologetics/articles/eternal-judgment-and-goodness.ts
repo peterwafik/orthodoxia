@@ -115,7 +115,7 @@ export const article: Article = {
       assessment: 'theological_interpretation',
       rationale: {
         en: 'The Church’s liturgy prays for the repose of the departed, and its teaching affirms the judgment. It names saints, whom it believes to be with God, but it does not name anyone as lost. The text of Romans 2 on God’s impartial judgment supports the Church’s reserve.',
-        ar: 'تصلي ليتورجية الكنيسة لراحة الراقدين، ويؤكد تعليمها الدينونة. وهي تسمّي قديسين تؤمن أنهم مع الله، لكنها لا تسمّي أحدًا هالكًا. ويدعم نص رومية ٢ عن دينونة الله بلا محاباة تحفظ الكنيسة.',
+        ar: 'تصلي الكنيسة في قداساتها لراحة الراقدين، ويؤكد تعليمها الدينونة. وهي تسمّي قديسين تؤمن أنهم مع الله، لكنها لا تسمّي أحدًا هالكًا. ويدعم نص رومية ٢ عن دينونة الله بلا محاباة تحفظ الكنيسة.',
       },
       limits: {
         en: 'This describes the Church’s teaching and practice. It does not prove that the teaching is true.',
@@ -298,7 +298,7 @@ export const article: Article = {
       'The Church does not teach a doctrine of purgatory in the Latin form, and it does not claim to know the state of any person. In the tradition of the desert, the Fathers urge a person to look to his own repentance and to treat others with mercy, and not to judge.',
     ],
     ar: [
-      'تعترف الكنيسة القبطية الأرثوذكسية في قانون الإيمان بأن المسيح سيأتي أيضًا بمجد ليدين الأحياء والأموات، وتعطي ليتورجيتها موضعًا مركزيًا للصلاة لأجل الراقدين، في القداس الإلهي وفي التذكارات بعد الوفاة. وتعلّم أن النفس بعد الموت تنتظر الدينونة الأخيرة وقيامة الجسد، وأن صلوات الكنيسة وصدقاتها تنفع الراقدين.',
+      'تعترف الكنيسة القبطية الأرثوذكسية في قانون الإيمان بأن المسيح سيأتي أيضًا بمجد ليدين الأحياء والأموات، وتعطي صلواتها الطقسية موضعًا مركزيًا للصلاة لأجل الراقدين، في القداس الإلهي وفي التذكارات بعد الوفاة. وتعلّم أن النفس بعد الموت تنتظر الدينونة الأخيرة وقيامة الجسد، وأن صلوات الكنيسة وصدقاتها تنفع الراقدين.',
       'ولا تعلّم الكنيسة عقيدة المطهر بالصيغة اللاتينية، ولا تدّعي أنها تعرف حال أي شخص. وفي تقليد البرية يحث الآباء الإنسان على أن ينظر إلى توبته هو وأن يعامل الآخرين بالرحمة وألا يدين.',
     ],
   },

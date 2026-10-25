@@ -72,7 +72,7 @@ const all: Edge[] = [
   { from: 'churchHistory', to: 'holyMass', count: liturgicalWitnesses, en: '{n} of the early witnesses in the Coptic evidence are liturgical prayers', ar: '{n} من الشواهد المبكرة في الأدلة القبطية صلوات طقسية' },
   { from: 'holyMass', to: 'churchHistory', count: massMentionsCouncils, en: '{n} stops of the Mass refer to the councils of the early church', ar: '{n} من محطات القداس تشير إلى مجامع الكنيسة الأولى' },
   { from: 'faith', to: 'churchHistory', count: faithMentionsCouncils, en: '{n} Faith & Evidence answers draw on the early councils', ar: '{n} من إجابات الإيمان والأدلة تستند إلى المجامع الأولى' },
-  { from: 'faith', to: 'holyMass', count: faithMentionsLiturgy, en: '{n} Faith & Evidence answers draw on the liturgy', ar: '{n} من إجابات الإيمان والأدلة تستند إلى الليتورجيا' },
+  { from: 'faith', to: 'holyMass', count: faithMentionsLiturgy, en: '{n} Faith & Evidence answers draw on the liturgy', ar: '{n} من إجابات الإيمان والأدلة تستند إلى الصلوات الطقسية' },
   { from: 'holyMass', to: 'faith', count: shared(massChapters, faithChapters), en: 'The Mass and Faith & Evidence both cite {n} of the same Bible chapters', ar: 'القداس والإيمان والأدلة يستشهدان معاً بـ {n} من الأصحاحات نفسها' },
   { from: 'churchHistory', to: 'faith', count: shared(churchChapters, faithChapters), en: 'Church history and Faith & Evidence both cite {n} of the same Bible chapters', ar: 'تاريخ الكنيسة والإيمان والأدلة يستشهدان معاً بـ {n} من الأصحاحات نفسها' },
   { from: 'churchHistory', to: 'holyMass', count: shared(churchChapters, massChapters), en: 'Church history and the Mass both cite {n} of the same Bible chapters', ar: 'تاريخ الكنيسة والقداس يستشهدان معاً بـ {n} من الأصحاحات نفسها' },

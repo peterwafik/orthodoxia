@@ -265,7 +265,7 @@ export const article: Article = {
       'The Coptic Orthodox liturgy confesses the Son as the one through whom all things were made, and prays to God as the one who sustains all. The doctrine of continuing dependence is therefore familiar in worship, even though the Church does not require believers to hold any particular version of the philosophical argument.',
     ],
     ar: [
-      'تعترف الليتورجيا القبطية الأرثوذكسية بالابن الذي به كان كل شيء، وتصلّي إلى الله الذي يعول الجميع. فتعليم الاعتماد المستمر مألوف في العبادة، وإن لم تشترط الكنيسة على المؤمنين الأخذ بصيغة بعينها من الحجة الفلسفية.',
+      'تعترف الصلوات الطقسية القبطية الأرثوذكسية بالابن الذي به كان كل شيء، وتصلّي إلى الله الذي يعول الجميع. فتعليم الاعتماد المستمر مألوف في العبادة، وإن لم تشترط الكنيسة على المؤمنين الأخذ بصيغة بعينها من الحجة الفلسفية.',
     ],
   },
   disputed: {

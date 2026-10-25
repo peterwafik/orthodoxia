@@ -236,7 +236,7 @@ export const article: Article = {
       'The Coptic Orthodox Church confesses the one incarnate nature of God the Word and prays the Creed in every liturgy. In the Church’s hymns Mary is the Theotokos, the Mother of the Light, and the Church’s worship is always addressed to the Holy Trinity. The title is held in this faith: a confession of who Christ is, not of who Mary is by herself.',
     ],
     ar: [
-      'تعترف الكنيسة القبطية الأرثوذكسية بالطبيعة الواحدة المتجسدة لله الكلمة وتصلّي قانون الإيمان في كل ليتورجيا. وفي تسابيح الكنيسة مريم والدة الإله وأم النور، وعبادة الكنيسة موجهة دائمًا إلى الثالوث القدوس. ويُحفظ اللقب في هذا الإيمان: اعتراف بمن هو المسيح لا بمن هي مريم في ذاتها.',
+      'تعترف الكنيسة القبطية الأرثوذكسية بالطبيعة الواحدة المتجسدة لله الكلمة وتصلّي قانون الإيمان في كل قداس. وفي تسابيح الكنيسة مريم والدة الإله وأم النور، وعبادة الكنيسة موجهة دائمًا إلى الثالوث القدوس. ويُحفظ اللقب في هذا الإيمان: اعتراف بمن هو المسيح لا بمن هي مريم في ذاتها.',
     ],
   },
   disputed: {

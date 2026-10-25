@@ -345,7 +345,7 @@ export const article: Article = {
       'The Coptic Orthodox Church calls Mary Ever-Virgin in her liturgy and hymns and holds that the “brothers” of the Lord are relatives, not sons of Mary. The Church does not make the earlier-marriage account a point of faith. The point of faith is that the Virgin who bore the Word incarnate remained a virgin.',
     ],
     ar: [
-      'تدعو الكنيسة القبطية الأرثوذكسية مريم دائمة البتولية في ليتورجيتها وتسابيحها، وتعلّم أن «إخوة» الرب أقارب لا أبناء لمريم. ولا تجعل الكنيسة رواية الزواج السابق بندًا إيمانيًا؛ فالبند الإيماني أن العذراء التي ولدت الكلمة المتجسد بقيت عذراء.',
+      'تدعو الكنيسة القبطية الأرثوذكسية مريم دائمة البتولية في صلواتها الطقسية وتسابيحها، وتعلّم أن «إخوة» الرب أقارب لا أبناء لمريم. ولا تجعل الكنيسة رواية الزواج السابق بندًا إيمانيًا؛ فالبند الإيماني أن العذراء التي ولدت الكلمة المتجسد بقيت عذراء.',
     ],
   },
   disputed: {

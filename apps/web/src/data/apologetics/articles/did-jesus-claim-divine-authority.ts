@@ -339,7 +339,7 @@ export const article: Article = {
       'In the Coptic liturgy the confession that the Lord is God, and also truly man, is made at the end of the Liturgy before communion, when the priest declares the faith in the Lord who gave himself for us. The Church thus confesses the divinity of Christ in prayer before she defends it in argument. Her teachers, from St Athanasius to Pope Shenouda III, have written on the Creed with this order in view: worship first, definition after.',
     ],
     ar: [
-      'في الليتورجيا القبطية يُعلن الاعتراف بأن الرب إله وإنسان حقًا في ختام القداس قبل التناول، حين يعلن الكاهن الإيمان بالرب الذي بذل نفسه عنا. فتعترف الكنيسة بلاهوت المسيح في الصلاة قبل أن تدافع عنه بالحجة. وكتب معلموها، من القديس أثناسيوس إلى البابا شنودة الثالث، عن قانون الإيمان وفي بالهم هذا الترتيب: العبادة أولًا ثم التحديد.',
+      'في الصلوات الطقسية القبطية يُعلن الاعتراف بأن الرب إله وإنسان حقًا في ختام القداس قبل التناول، حين يعلن الكاهن الإيمان بالرب الذي بذل نفسه عنا. فتعترف الكنيسة بلاهوت المسيح في الصلاة قبل أن تدافع عنه بالحجة. وكتب معلموها، من القديس أثناسيوس إلى البابا شنودة الثالث، عن قانون الإيمان وفي بالهم هذا الترتيب: العبادة أولًا ثم التحديد.',
     ],
   },
   disputed: {

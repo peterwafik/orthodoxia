@@ -16,7 +16,7 @@ export const article: Article = {
   },
   shortAnswer: {
     en: 'The Church holds that God the Word, in his divine nature, does not suffer or die, and that he truly suffered and died in the flesh that he made his own. Because the humanity belongs to the Word, what happens to the humanity happens to him, the one person: the Church can therefore say that the Lord of glory was crucified, and in the Coptic liturgy prays to the Holy God, the Holy Mighty, the Holy Immortal, who was crucified for us. His divinity did not die, and was not separated from his body in the tomb or from his soul in Hades. The Church admits that this is a mystery, and states it carefully so as to avoid saying that the divine nature itself changed.',
-    ar: 'تؤمن الكنيسة بأن الله الكلمة، في لاهوته، لا يتألم ولا يموت، وأنه تألم ومات حقًا في الجسد الذي جعله لنفسه. ولأن الناسوت للكلمة، فما يحدث للناسوت يحدث له، الشخص الواحد: ولذلك تستطيع الكنيسة أن تقول إن رب المجد صُلب، وتصلي في الليتورجيا القبطية: قدوس الله، قدوس القوي، قدوس الحي الذي لا يموت، الذي صُلب عنا. ولم يمت لاهوته ولم ينفصل عن جسده في القبر ولا عن نفسه في الهاوية. وتقر الكنيسة بأن هذا سر، وتصوغه بحذر حتى لا تقول إن الطبيعة الإلهية نفسها تغيرت.',
+    ar: 'تؤمن الكنيسة بأن الله الكلمة، في لاهوته، لا يتألم ولا يموت، وأنه تألم ومات حقًا في الجسد الذي جعله لنفسه. ولأن الناسوت للكلمة، فما يحدث للناسوت يحدث له، الشخص الواحد: ولذلك تستطيع الكنيسة أن تقول إن رب المجد صُلب، وتصلي في الصلوات الطقسية القبطية: قدوس الله، قدوس القوي، قدوس الحي الذي لا يموت، الذي صُلب عنا. ولم يمت لاهوته ولم ينفصل عن جسده في القبر ولا عن نفسه في الهاوية. وتقر الكنيسة بأن هذا سر، وتصوغه بحذر حتى لا تقول إن الطبيعة الإلهية نفسها تغيرت.',
   },
   quickPoints: {
     en: [
@@ -98,7 +98,7 @@ export const article: Article = {
       assessment: 'theological_interpretation',
       rationale: {
         en: 'This is what the Fathers, including Athanasius and Cyril, teach, and what the Coptic liturgy prays. It keeps the person one and the natures distinct.',
-        ar: 'هذا ما يعلّمه الآباء، ومنهم أثناسيوس وكيرلس، وما تصليه الليتورجيا القبطية. فهو يحفظ وحدة الشخص وتمايز الطبيعتين.',
+        ar: 'هذا ما يعلّمه الآباء، ومنهم أثناسيوس وكيرلس، وما تصليه الصلوات الطقسية القبطية. فهو يحفظ وحدة الشخص وتمايز الطبيعتين.',
       },
       limits: {
         en: 'The statement is a doctrine held in faith, and it is not shown by historical argument.',
@@ -298,7 +298,7 @@ export const article: Article = {
       'In the Confession said before communion, the Church declares that the divinity did not part from the humanity for a moment or the twinkling of an eye. The Church also keeps Holy Week with readings and hymns that stress that the one who suffered is the Lord himself.',
     ],
     ar: [
-      'تعطي الليتورجيا القبطية العقيدة كلماتها. ففي التقديسية تصلي الكنيسة: قدوس الله، قدوس القوي، قدوس الحي الذي لا يموت، الذي وُلد من العذراء، ارحمنا؛ الذي صُلب عنا، ارحمنا؛ الذي قام من الأموات وصعد إلى السموات، ارحمنا. فالحي الذي لا يموت نفسه يُقال إنه صُلب، دون إضافة انقسام.',
+      'تعطي الصلوات الطقسية القبطية العقيدة كلماتها. ففي التقديسية تصلي الكنيسة: قدوس الله، قدوس القوي، قدوس الحي الذي لا يموت، الذي وُلد من العذراء، ارحمنا؛ الذي صُلب عنا، ارحمنا؛ الذي قام من الأموات وصعد إلى السموات، ارحمنا. فالحي الذي لا يموت نفسه يُقال إنه صُلب، دون إضافة انقسام.',
       'وفي الاعتراف الذي يُقال قبل التناول تعلن الكنيسة أن اللاهوت لم يفارق الناسوت لحظة ولا طرفة عين. وتحفظ الكنيسة أسبوع الآلام بقراءات وألحان تؤكد أن المتألم هو الرب نفسه.',
     ],
   },
@@ -309,7 +309,7 @@ export const article: Article = {
       'Not disputed here: that the Gospels present a real human suffering and death, and that the Church denies that the divine nature changed or died.',
     ],
     ar: [
-      'مختلف عليه بين التقاليد: أفضل صياغة لأن الكلمة تألم بالجسد، ومدى ما يمكن أن تبلغه لغة تبادل الصفات. وتؤكد الكنائس الخلقيدونية الحق نفسه بلغة طبيعتين في شخص واحد؛ وتتمسك الكنيسة القبطية بصيغة كيرلس وعباراتها الليتورجية.',
+      'مختلف عليه بين التقاليد: أفضل صياغة لأن الكلمة تألم بالجسد، ومدى ما يمكن أن تبلغه لغة تبادل الصفات. وتؤكد الكنائس الخلقيدونية الحق نفسه بلغة طبيعتين في شخص واحد؛ وتتمسك الكنيسة القبطية بصيغة كيرلس وعباراتها الطقسية.',
       'مختلف عليه بين الفلاسفة واللاهوتيين: هل يُحفظ عدم تألم الله بالمعنى الكلاسيكي أم يمكن القول إن الله يتألم بوجه آخر.',
       'غير مختلف عليه هنا: أن الأناجيل تعرض ألمًا بشريًا وموتًا حقيقيين، وأن الكنيسة تنفي أن الطبيعة الإلهية تغيرت أو ماتت.',
     ],

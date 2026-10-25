@@ -61,7 +61,7 @@ export const article: Article = {
       'Intercession. Christians pray for one another, and James 5:16 says the prayer of a righteous person has great power. The Church holds that death does not end this communion in Christ; the elders in heaven offer the prayers of the saints (Revelation 5:8); and Hebrews 12:1 speaks of a cloud of witnesses around us. At the wedding at Cana Mary brings a need to her Son (John 2:1–5). On this basis the Church asks the Virgin and the saints to pray for her, as she asks living Christians to pray.',
     ],
     ar: [
-      'العبادة. يخص الكتاب العبادة بالله. ففي رؤيا ٢٢: ٨–٩ يخر الرائي أمام الملاك الذي يريه الرؤى فيمنعه الملاك ويأمره بأن يسجد لله. وفي أعمال ١٠: ٢٥–٢٦ يقيم بطرس كرنيليوس من الأرض حين يخر عند قدميه. وتأخذ الكنيسة ذلك حدًّا فاصلًا: الذبيحة والسجود وتقديم الإفخارستيا لله وحده، والليتورجيا القبطية توجهها إلى الثالوث القدوس.',
+      'العبادة. يخص الكتاب العبادة بالله. ففي رؤيا ٢٢: ٨–٩ يخر الرائي أمام الملاك الذي يريه الرؤى فيمنعه الملاك ويأمره بأن يسجد لله. وفي أعمال ١٠: ٢٥–٢٦ يقيم بطرس كرنيليوس من الأرض حين يخر عند قدميه. وتأخذ الكنيسة ذلك حدًّا فاصلًا: الذبيحة والسجود وتقديم الإفخارستيا لله وحده، والصلوات الطقسية القبطية توجهها إلى الثالوث القدوس.',
       'الإكرام. وتدعو الكتب نفسها إلى إكرام أشخاص: الوالدين (خروج ٢٠: ١٢) والحكام (رومية ١٣: ٧) والشيوخ (١ تيموثاوس ٥: ١٧). وعن مريم تتكلم أليصابات كأنها أم ربها وتقول مريم إن كل الأجيال تطوّبها (لوقا ١: ٤٢–٤٨). فإكرام الكنيسة لمريم استجابة لما يقوله الإنجيل، وهو أعظم منه لأي قديس آخر بسبب من ولدته. واللفظان اليونانيان دوليا (إكرام) ولاتريا (عبادة) طريقة الآباء والمجامع في بيان الفرق؛ وتستعمل الكنيسة الكاثوليكية هيبردوليا لإكرام مريم، ولا تستعمله الكنيسة القبطية.',
       'الشفاعة. يصلي المسيحيون بعضهم لأجل بعض، ويقول يعقوب ٥: ١٦ إن طلبة البار تقتدر كثيرًا. وترى الكنيسة أن الموت لا ينهي هذه الشركة في المسيح؛ والشيوخ في السماء يقدمون صلوات القديسين (رؤيا ٥: ٨)؛ وتتكلم عبرانيين ١٢: ١ عن سحابة شهود حولنا. وفي عرس قانا تحمل مريم حاجة إلى ابنها (يوحنا ٢: ١–٥). وعلى هذا الأساس تطلب الكنيسة من العذراء والقديسين أن يصلوا من أجلها، كما تطلب من المسيحيين الأحياء أن يصلوا.',
     ],
@@ -79,7 +79,7 @@ export const article: Article = {
       assessment: 'strong_historical_support',
       rationale: {
         en: 'Revelation 22:8–9 and Acts 10:25–26 show the refusal of worship by angel and apostle; the Church’s liturgy is addressed to the Trinity.',
-        ar: 'تبين رؤيا ٢٢: ٨–٩ وأعمال ١٠: ٢٥–٢٦ رفض الملاك والرسول للسجود؛ وليتورجيا الكنيسة موجهة إلى الثالوث.',
+        ar: 'تبين رؤيا ٢٢: ٨–٩ وأعمال ١٠: ٢٥–٢٦ رفض الملاك والرسول للسجود؛ وصلوات الكنيسة الطقسية موجهة إلى الثالوث.',
       },
       limits: {
         en: 'The texts mark the line. Where bowing and veneration fall on either side of it is a question the traditions answer differently.',

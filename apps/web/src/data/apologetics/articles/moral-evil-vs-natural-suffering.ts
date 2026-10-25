@@ -323,7 +323,7 @@ export const article: Article = {
       'The Coptic liturgy keeps creation inside prayer. The Church prays for the waters of the river, the plants of the field and the fruits of the earth, for the good order of the seasons, and for the sick, and it asks God to turn away what harms. This is how the tradition lives the distinction: it does not treat nature as an enemy to be explained away, nor as a thing indifferent to God, but as part of what God made and will renew.',
     ],
     ar: [
-      'تُبقي الليتورجيا القبطية الخليقة داخل الصلاة. فالكنيسة تصلي من أجل مياه النهر ونباتات الحقل وثمار الأرض، ومن أجل حسن نظام الفصول، ومن أجل المرضى، وتسأل الله أن يصرف ما يؤذي. وهكذا يعيش التقليد هذا التمييز: فلا يعامل الطبيعة عدوًّا يُفسَّر بعيدًا ولا شيئًا غير مبالٍ به الله، بل جزءًا مما صنعه الله وسيجدده.',
+      'تُبقي الصلوات الطقسية القبطية الخليقة داخل الصلاة. فالكنيسة تصلي من أجل مياه النهر ونباتات الحقل وثمار الأرض، ومن أجل حسن نظام الفصول، ومن أجل المرضى، وتسأل الله أن يصرف ما يؤذي. وهكذا يعيش التقليد هذا التمييز: فلا يعامل الطبيعة عدوًّا يُفسَّر بعيدًا ولا شيئًا غير مبالٍ به الله، بل جزءًا مما صنعه الله وسيجدده.',
     ],
   },
   disputed: {

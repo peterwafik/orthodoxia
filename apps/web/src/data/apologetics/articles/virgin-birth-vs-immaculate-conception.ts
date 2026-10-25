@@ -260,7 +260,7 @@ export const article: Article = {
       'The Coptic Orthodox Church prays the Creed in every liturgy and confesses the incarnation from the Virgin Mary. She calls Mary Theotokos, Ever-Virgin and all-holy, and keeps her feasts. She does not hold the doctrine of the Immaculate Conception, a teaching that arose in the Latin tradition and was defined by Rome in 1854, but receives the Church’s ancient faith in the sanctification of Mary by the Holy Spirit.',
     ],
     ar: [
-      'تصلّي الكنيسة القبطية الأرثوذكسية قانون الإيمان في كل ليتورجيا وتعترف بالتجسد من مريم العذراء. وتدعو مريم والدة الإله ودائمة البتولية وكلية القداسة، وتحفظ أعيادها. ولا تقول بعقيدة الحبل بلا دنس، وهي تعليم نشأ في التقليد اللاتيني وعرّفته روما سنة ١٨٥٤، بل تتسلم إيمان الكنيسة القديم بتقديس الروح القدس لمريم.',
+      'تصلّي الكنيسة القبطية الأرثوذكسية قانون الإيمان في كل قداس وتعترف بالتجسد من مريم العذراء. وتدعو مريم والدة الإله ودائمة البتولية وكلية القداسة، وتحفظ أعيادها. ولا تقول بعقيدة الحبل بلا دنس، وهي تعليم نشأ في التقليد اللاتيني وعرّفته روما سنة ١٨٥٤، بل تتسلم إيمان الكنيسة القديم بتقديس الروح القدس لمريم.',
     ],
   },
   disputed: {

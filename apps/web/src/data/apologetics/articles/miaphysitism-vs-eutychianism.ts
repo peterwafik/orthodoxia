@@ -82,7 +82,7 @@ export const article: Article = {
       assessment: 'theological_interpretation',
       rationale: {
         en: 'This is the Church’s own statement of its faith, in its liturgy and its teachers, and one that the joint declarations record.',
-        ar: 'هذا بيان الكنيسة لإيمانها، في ليتورجيتها ومعلميها، وتسجله الإعلانات المشتركة.',
+        ar: 'هذا بيان الكنيسة لإيمانها، في صلواتها الطقسية ومعلميها، وتسجله الإعلانات المشتركة.',
       },
       limits: {
         en: 'It states what the Church holds; it is the Church’s witness to itself and does not show how others should judge it.',
@@ -250,7 +250,7 @@ export const article: Article = {
         'A Christian can also say that the facts about Eutyches and about the council of 449 are known mainly from hostile sources, and that care is needed in reading them.',
       ],
       ar: [
-        'يستطيع المسيحي تاريخيًا أن يقول إن صيغة كنيسة الإسكندرية سابقة لأوطيخا، وإن كيرلس وساويرس وليتورجيا الكنيسة تؤكد الناسوت الكامل، وإن لقب «مونوفيزيت» أُطلق من الخارج. وإدانة الكنيسة لأوطيخا مسجلة في كتابات ساويرس.',
+        'يستطيع المسيحي تاريخيًا أن يقول إن صيغة كنيسة الإسكندرية سابقة لأوطيخا، وإن كيرلس وساويرس وصلوات الكنيسة الطقسية تؤكد الناسوت الكامل، وإن لقب «مونوفيزيت» أُطلق من الخارج. وإدانة الكنيسة لأوطيخا مسجلة في كتابات ساويرس.',
         'ويستطيع أن يقول أيضًا إن وقائع أوطيخا ومجمع ٤٤٩م معروفة أساسًا من مصادر معادية، وإن القراءة تحتاج إلى حذر.',
       ],
     },
@@ -271,7 +271,7 @@ export const article: Article = {
       'The dialogues of the twentieth century did not ask the Church to change its teaching. They recorded that the Church’s faith is not the faith of Eutyches, and that the Chalcedonian churches had misunderstood it.',
     ],
     ar: [
-      'تستعمل الكنيسة القبطية الأرثوذكسية كلمة ميافيزيت لتعليمها وترفض اسم مونوفيزيت. وتعترف في ليتورجيتها بأن الرب أخذ من العذراء جسدًا ونفسًا وروحًا، أي ناسوتًا كاملًا. وتحرم أوطيخا، وكرّر البابا شنودة الثالث وقادة آخرون ذلك عند الكلام عن خلقيدونية.',
+      'تستعمل الكنيسة القبطية الأرثوذكسية كلمة ميافيزيت لتعليمها وترفض اسم مونوفيزيت. وتعترف في صلواتها الطقسية بأن الرب أخذ من العذراء جسدًا ونفسًا وروحًا، أي ناسوتًا كاملًا. وتحرم أوطيخا، وكرّر البابا شنودة الثالث وقادة آخرون ذلك عند الكلام عن خلقيدونية.',
       'ولم تطلب حوارات القرن العشرين من الكنيسة أن تغيّر تعليمها. بل سجلت أن إيمان الكنيسة ليس إيمان أوطيخا، وأن الكنائس الخلقيدونية أساءت فهمه.',
     ],
   },

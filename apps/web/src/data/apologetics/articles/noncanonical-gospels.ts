@@ -39,7 +39,7 @@ export const article: Article = {
     label: 'supported_disputed_details',
     explanation: {
       en: 'That most of these writings are later than the four Gospels, are pseudonymous and were not in the churches’ liturgical use is well supported. The exact dates of a few, the extent to which they preserve early traditions, and how varied early Christianity was are disputed among historians.',
-      ar: 'إن كون معظم هذه الكتابات متأخرة عن الأناجيل الأربعة ومنحولة الاسم وغير مستعملة ليتورجيًا في الكنائس أمر مسنود جيدًا. أما التواريخ الدقيقة لقليل منها ومدى حفظها لتقاليد مبكرة ومدى تنوع المسيحية المبكرة فمختلف فيها بين المؤرخين.',
+      ar: 'إن كون معظم هذه الكتابات متأخرة عن الأناجيل الأربعة ومنحولة الاسم وغير مستعملة طقسيًا في الكنائس أمر مسنود جيدًا. أما التواريخ الدقيقة لقليل منها ومدى حفظها لتقاليد مبكرة ومدى تنوع المسيحية المبكرة فمختلف فيها بين المؤرخين.',
     },
   },
 

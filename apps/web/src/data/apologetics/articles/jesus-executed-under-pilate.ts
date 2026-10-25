@@ -367,7 +367,7 @@ export const article: Article = {
       'In the Coptic Orthodox Church the Creed is prayed in the liturgy, and the mention of Pilate belongs to the Church’s confession that God the Word truly suffered in the flesh. The Church holds that the suffering was real in his humanity, which is united to his divinity without mixture, confusion or alteration. Holy Week readings follow the Gospel narratives of the trial, and the Church reads them with attention to what they say about the Lord’s willing self-offering rather than as a court transcript.',
     ],
     ar: [
-      'يُصلّى قانون الإيمان في الكنيسة القبطية الأرثوذكسية في الليتورجيا، وذكر بيلاطس جزء من اعتراف الكنيسة بأن الله الكلمة تألم حقًا بالجسد. وتؤمن الكنيسة أن الألم كان حقيقيًا في ناسوته المتحد بلاهوته بلا اختلاط ولا امتزاج ولا تغيير. وتتبع قراءات البصخة المقدسة روايات الأناجيل عن المحاكمة، وتقرؤها الكنيسة اهتمامًا بما تقوله عن بذل الرب نفسه طوعًا لا بوصفها محضرًا قضائيًا.',
+      'يُصلّى قانون الإيمان في الكنيسة القبطية الأرثوذكسية في الصلوات الطقسية، وذكر بيلاطس جزء من اعتراف الكنيسة بأن الله الكلمة تألم حقًا بالجسد. وتؤمن الكنيسة أن الألم كان حقيقيًا في ناسوته المتحد بلاهوته بلا اختلاط ولا امتزاج ولا تغيير. وتتبع قراءات البصخة المقدسة روايات الأناجيل عن المحاكمة، وتقرؤها الكنيسة اهتمامًا بما تقوله عن بذل الرب نفسه طوعًا لا بوصفها محضرًا قضائيًا.',
     ],
   },
   disputed: {

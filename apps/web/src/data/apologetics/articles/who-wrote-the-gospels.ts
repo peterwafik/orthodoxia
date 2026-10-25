@@ -243,7 +243,7 @@ export const article: Article = {
       },
       inference: {
         en: 'Around the middle of the second century a Christian writer already treats Gospels as books of apostolic origin read in worship. He does not name the four authors in these chapters, so his statement supports early liturgical use, not the particular attributions.',
-        ar: 'في منتصف القرن الثاني تقريبًا كان كاتب مسيحي يعامل الأناجيل أسفارًا رسولية الأصل تُقرأ في العبادة. ولا يسمّي الكتّاب الأربعة في هذين الفصلين، فكلامه يسند الاستعمال الليتورجي المبكر لا النسبة بعينها.',
+        ar: 'في منتصف القرن الثاني تقريبًا كان كاتب مسيحي يعامل الأناجيل أسفارًا رسولية الأصل تُقرأ في العبادة. ولا يسمّي الكتّاب الأربعة في هذين الفصلين، فكلامه يسند الاستعمال الطقسي المبكر لا النسبة بعينها.',
       },
     },
   ],
@@ -343,7 +343,7 @@ export const article: Article = {
       'In the Coptic Mass the Gospel is read with special honour: the people stand, the book is carried in procession and the priest proclaims it. The four Evangelists are commemorated in the Church’s hymns. This practice shows how the Church receives the Gospels: as the Gospel of Christ proclaimed through four witnesses, not as four books whose value depends on a scholarly verdict about their authors.',
     ],
     ar: [
-      'تكرّم الكنيسة القبطية الأرثوذكسية القديس مرقس الإنجيلي كاتب الإنجيل الثاني والرسول الذي كرز في مصر وأسس كنيسة الإسكندرية التي يجلس خلفاؤها على كرسيه. ويطابق تقليد الكنيسة بينه وبين مرقس المذكور في أعمال الرسل. وهذا تقليد الكنيسة، تحفظه وتحتفل به في حياتها الليتورجية.',
+      'تكرّم الكنيسة القبطية الأرثوذكسية القديس مرقس الإنجيلي كاتب الإنجيل الثاني والرسول الذي كرز في مصر وأسس كنيسة الإسكندرية التي يجلس خلفاؤها على كرسيه. ويطابق تقليد الكنيسة بينه وبين مرقس المذكور في أعمال الرسل. وهذا تقليد الكنيسة، تحفظه وتحتفل به في حياتها الطقسية.',
       'وفي القداس القبطي يُقرأ الإنجيل بإكرام خاص: يقف الشعب، ويُحمل الكتاب في موكب، ويعلنه الكاهن. وتُذكر الأناجيل الأربعة وكتّابها في ألحان الكنيسة. وهذه الممارسة تبيّن كيف تتسلم الكنيسة الأناجيل: إنجيل المسيح المعلن بأربعة شهود، لا أربعة كتب تتوقف قيمتها على حكم الباحثين في كتّابها.',
     ],
   },

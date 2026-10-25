@@ -378,7 +378,7 @@ export const article: Article = {
       'The Coptic Church also continues to be a church where many questions of family and women’s roles are lived under pressure from the surrounding society. It teaches the dignity of every person and calls its own members to treat the weak, the servant and the stranger with justice.',
     ],
     ar: [
-      'تكرّم الكنيسة القبطية النساء في قلب عبادتها: فللعذراء مريم موضع في كل ليتورجية، وتحفظ الكنيسة ذكر الشهيدات والناسكات، ومنهن الأمهات المتوحدات. وقد ضمّ التقليد الرهباني للكنيسة جماعات من النساء منذ القرون الأولى.',
+      'تكرّم الكنيسة القبطية النساء في قلب عبادتها: فللعذراء مريم موضع في كل قداس، وتحفظ الكنيسة ذكر الشهيدات والناسكات، ومنهن الأمهات المتوحدات. وقد ضمّ التقليد الرهباني للكنيسة جماعات من النساء منذ القرون الأولى.',
       'وتبقى الكنيسة القبطية كنيسة تعيش فيها مسائل كثيرة عن الأسرة وأدوار المرأة تحت ضغط المجتمع المحيط. وهي تعلّم كرامة كل إنسان وتدعو أبناءها إلى معاملة الضعيف والخادم والغريب بالعدل.',
     ],
   },

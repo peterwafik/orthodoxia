@@ -418,7 +418,7 @@ export const article: Article = {
       'In Holy Week the Coptic Church reads the Gospel accounts of the arrest, the hearings and the trial on Thursday night and Good Friday, hour by hour, in the services of the Pascha. The Church receives all four Gospels as they stand and does not merge them into one script; each hour is read with the hymns and prayers that interpret it. The differences between the Gospels are therefore not hidden in the liturgy, and the focus of the Church\'s reading is the Lord\'s willing offering of himself.',
     ],
     ar: [
-      'تقرأ الكنيسة القبطية في أسبوع الآلام روايات الأناجيل عن القبض والجلسات والمحاكمة ليلة الخميس وفي الجمعة العظيمة، ساعةً ساعة، في خدمات البصخة. وتتسلم الكنيسة الأناجيل الأربعة كما هي ولا تدمجها في نص واحد؛ وتُقرأ كل ساعة مع الألحان والصلوات التي تفسرها. فاختلاف الأناجيل ليس مستورًا في الليتورجيا، ومحور قراءة الكنيسة هو بذل الرب نفسه طوعًا.',
+      'تقرأ الكنيسة القبطية في أسبوع الآلام روايات الأناجيل عن القبض والجلسات والمحاكمة ليلة الخميس وفي الجمعة العظيمة، ساعةً ساعة، في خدمات البصخة. وتتسلم الكنيسة الأناجيل الأربعة كما هي ولا تدمجها في نص واحد؛ وتُقرأ كل ساعة مع الألحان والصلوات التي تفسرها. فاختلاف الأناجيل ليس مستورًا في الصلوات الطقسية، ومحور قراءة الكنيسة هو بذل الرب نفسه طوعًا.',
     ],
   },
   disputed: {

@@ -117,7 +117,7 @@ export const article: Article = {
       assessment: 'theological_interpretation',
       rationale: {
         en: 'The Nicene Creed, which the Coptic Church confesses at every liturgy, states belief in one God and then in the Son and the Holy Spirit. Philosophers have proposed several models of how this can be coherent, and each has critics.',
-        ar: 'يعلن قانون الإيمان النيقاوي، الذي تقرّ به الكنيسة القبطية في كل ليتورجيا، الإيمان بإله واحد ثم بالابن وبالروح القدس. وقد اقترح الفلاسفة نماذج عدة لتوضيح كيف يكون ذلك متسقًا، ولكل نموذج ناقدوه.',
+        ar: 'يعلن قانون الإيمان النيقاوي، الذي تقرّ به الكنيسة القبطية في كل قداس، الإيمان بإله واحد ثم بالابن وبالروح القدس. وقد اقترح الفلاسفة نماذج عدة لتوضيح كيف يكون ذلك متسقًا، ولكل نموذج ناقدوه.',
       },
       limits: {
         en: 'A person can understand the meaning of the doctrine without accepting it, and the arguments for a creator do not by themselves lead to it.',
@@ -339,7 +339,7 @@ export const article: Article = {
       'The Coptic tradition holds that the Son, the Word of God, became incarnate in one incarnate nature of God the Word. This is the Church’s teaching on the person of Christ and it does not change the meaning of “God” given above; it says that the God of the Creed has entered the world in Christ.',
     ],
     ar: [
-      'في الكنيسة القبطية الأرثوذكسية يُتعلَّم معنى الله أولًا في العبادة قبل التعريفات. ففي كل ليتورجيا تعترف الجماعة بقانون الإيمان النيقاوي، مبتدئةً بالإيمان بإله واحد، الآب ضابط الكل، خالق السماء والأرض وكل ما يُرى وما لا يُرى. وتخاطب صلوات الكنيسة الله بوصفه الثالوث القدوس الواحد في الجوهر، وبوصفه الذي لا يُدرَك وهو قريب.',
+      'في الكنيسة القبطية الأرثوذكسية يُتعلَّم معنى الله أولًا في العبادة قبل التعريفات. ففي كل قداس تعترف الجماعة بقانون الإيمان النيقاوي، مبتدئةً بالإيمان بإله واحد، الآب ضابط الكل، خالق السماء والأرض وكل ما يُرى وما لا يُرى. وتخاطب صلوات الكنيسة الله بوصفه الثالوث القدوس الواحد في الجوهر، وبوصفه الذي لا يُدرَك وهو قريب.',
       'وتعلّم الكنيسة القبطية أن الابن، كلمة الله، تجسّد في طبيعة واحدة متجسدة لله الكلمة. وهذا تعليم الكنيسة في شخص السيد المسيح، وهو لا يغيّر معنى «الله» المذكور أعلاه، بل يقول إن إله قانون الإيمان قد دخل العالم في المسيح.',
     ],
   },

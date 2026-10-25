@@ -51,9 +51,9 @@ export interface Stop {
 
 export const CHAPTERS: readonly Chapter[] = [
   { id: 1, title: { en: 'Preparation', ar: 'التحضير' } },
-  { id: 2, title: { en: 'The Liturgy of the Word', ar: 'ليتورجيا الكلمة' } },
+  { id: 2, title: { en: 'The Liturgy of the Word', ar: 'قداس الكلمة' } },
   { id: 3, title: { en: 'Reconciliation and Peace', ar: 'المصالحة والسلام' } },
-  { id: 4, title: { en: 'The Liturgy of the Faithful', ar: 'ليتورجيا المؤمنين' } },
+  { id: 4, title: { en: 'The Liturgy of the Faithful', ar: 'قداس المؤمنين' } },
   { id: 5, title: { en: 'Communion and Thanksgiving', ar: 'التناول والشكر' } },
 ];
 
@@ -70,7 +70,7 @@ export const SCENES: Readonly<Record<Chapter['id'], { title: Bilingual; note: Bi
     title: { en: 'The choir and the Word', ar: 'الخورس والكلمة' },
     note: {
       en: 'The choir area (khorus), raised on three steps behind a lattice fence, with its lecterns and candelabra. A deacon reads the Gospel while others keep time with cymbals and a triangle, the only instruments of the Coptic liturgy. Men sit on the left, women on the right.',
-      ar: 'الخورس مرتفع على ثلاث درجات خلف سياج مشبّك، وفيه المنجليات والشمعدانات. يقرأ الشماس الإنجيل بينما يضبط الآخرون الإيقاع بالدفّ والمثلث، وهما الآلتان الوحيدتان في الليتورجيا القبطية. يجلس الرجال على اليسار والنساء على اليمين.',
+      ar: 'الخورس مرتفع على ثلاث درجات خلف سياج مشبّك، وفيه المنجليات والشمعدانات. يقرأ الشماس الإنجيل بينما يضبط الآخرون الإيقاع بالدفّ والمثلث، وهما الآلتان الوحيدتان في القداس القبطي. يجلس الرجال على اليسار والنساء على اليمين.',
     },
   },
   3: {
@@ -84,14 +84,14 @@ export const SCENES: Readonly<Record<Chapter['id'], { title: Bilingual; note: Bi
     title: { en: 'The haikal and the altar', ar: 'الهيكل والمذبح' },
     note: {
       en: 'The altar stands free beneath its ciborium, a small painted dome on four pillars crowned with a cross, with Christ and the four evangelists painted on it. Behind it, in the apse, Christ is enthroned among the four living creatures, with Alpha and Omega (Revelation 4–5).',
-      ar: 'يقف المذبح حرًّا تحت القبة الصغيرة المحمولة على أربعة أعمدة وعليها صليب، وقد رُسم عليها السيد المسيح والإنجيليون الأربعة. وخلفه في الحنية السيد المسيح جالسًا على العرش بين الأحياء الأربعة، مع الألف والياء (رؤيا ٤–٥).',
+      ar: 'يقف المذبح حرًّا تحت القبة الصغيرة المحمولة على أربعة أعمدة وعليها صليب، وقد رُسم عليها السيد المسيح والإنجيليون الأربعة. وخلفه في الحنية السيد المسيح جالسًا على العرش بين الكائنات الحية الأربعة، مع الألف والياء (رؤيا ٤–٥).',
     },
   },
   5: {
     title: { en: 'Communion and heaven', ar: 'التناول والسماء' },
     note: {
       en: 'Communion at the central door of the sanctuary, and above the church heaven opens: the four living creatures, six-winged seraphim, angels with censers, the twenty-four elders, and Christ enthroned with the Virgin and St John the Baptist. A symbolic meditation, not a literal picture of heaven.',
-      ar: 'التناول عند الباب الأوسط للهيكل، وفوق الكنيسة تنفتح السماء: الأحياء الأربعة والسيرافيم ذوو الستة أجنحة وملائكة بالمجامر والأربعة والعشرون شيخًا، والسيد المسيح جالسًا على العرش مع العذراء ويوحنا المعمدان. تأمل رمزي وليس صورة حرفية للسماء.',
+      ar: 'التناول عند الباب الأوسط للهيكل، وفوق الكنيسة تنفتح السماء: الكائنات الحية الأربعة والسرافيم ذوو الستة أجنحة وملائكة بالمجامر والأربعة والعشرون قسيسًا، والسيد المسيح جالسًا على العرش مع العذراء ويوحنا المعمدان. تأمل رمزي وليس صورة حرفية للسماء.',
     },
   },
 };
@@ -116,8 +116,8 @@ const SOURCE: readonly (readonly [Chapter['id'], readonly Row[]])[] = [
     [
       {
         slug: 'vesting',
-        title: ['Vesting and preparing the altar', 'لبس الملابس وتهيئة المذبح'],
-        what: ['Before the people gather, the priest puts on the vestments and prepares the altar and the vessels in prayer.', 'قبل اجتماع الشعب يلبس الكاهن ملابس الخدمة ويهيّئ المذبح والأواني بالصلاة.'],
+        title: ['Vesting and preparing the altar', 'لبس الثياب الكهنوتية وتهيئة المذبح'],
+        what: ['Before the people gather, the priest puts on the vestments and prepares the altar and the vessels in prayer.', 'قبل اجتماع الشعب يلبس الكاهن الثياب الكهنوتية ويهيّئ المذبح والأواني المقدسة بالصلاة.'],
         meditate: ['Come to this prayer unhurried; ask to be made ready.', 'تعالَ إلى هذه الصلاة بلا عجلة، واطلب أن تكون مستعدًّا.'],
         scripture: [ref('PSA', 132, '9')],
       },
@@ -163,8 +163,8 @@ const SOURCE: readonly (readonly [Chapter['id'], readonly Row[]])[] = [
     [
       {
         slug: 'entering-the-word',
-        title: ['Entering the Liturgy of the Word', 'الدخول إلى ليتورجيا الكلمة'],
-        what: ['The Church gathers for the first half of the Liturgy, in which God speaks through prayer, psalms and the readings.', 'تجتمع الكنيسة للنصف الأول من الليتورجيا، حيث يتكلم الله بالصلاة والمزامير والقراءات.'],
+        title: ['Entering the Liturgy of the Word', 'الدخول إلى قداس الكلمة'],
+        what: ['The Church gathers for the first half of the Liturgy, in which God speaks through prayer, psalms and the readings.', 'تجتمع الكنيسة للنصف الأول من القداس الإلهي، حيث يتكلم الله بالصلاة والمزامير والقراءات.'],
         meditate: ['Ask: Lord, what do You want to say to me today?', 'اسأل: يا رب، ماذا تريد أن تقول لي اليوم؟'],
         scripture: [ref('LUK', 24, '27-32')],
         basis: 'general',
@@ -172,7 +172,7 @@ const SOURCE: readonly (readonly [Chapter['id'], readonly Row[]])[] = [
       {
         slug: 'incense-before-the-pauline',
         title: ['The incense before the Pauline Epistle', 'بخور البولس'],
-        what: ['The priest offers incense and prays that the prayers of the people rise before God.', 'يقدّم الكاهن البخور ويصلي أن ترتفع صلوات الشعب أمام الله.'],
+        what: ['The priest offers incense and prays that the prayers of the people rise before God.', 'يرفع الكاهن البخور ويصلي أن ترتفع صلوات الشعب أمام الله.'],
         meditate: ['Let one prayer you carry rise with the incense.', 'دع صلاة تحملها تصعد مع البخور.'],
         scripture: [ref('PSA', 141, '2'), ref('REV', 8, '3-4')],
       },
@@ -193,7 +193,7 @@ const SOURCE: readonly (readonly [Chapter['id'], readonly Row[]])[] = [
       {
         slug: 'hymn-of-the-censer',
         title: ['The hymn of the censer', 'لحن المبخرة'],
-        what: ['The congregation sings a hymn about the censer, whose fragrance the Church applies to prayer.', 'يرتّل الشعب لحنًا عن المبخرة، وتطبّق الكنيسة عطرها على الصلاة.'],
+        what: ['The congregation sings a hymn about the censer, whose fragrance the Church applies to prayer.', 'يرتّل الشعب لحنًا عن المبخرة، وتشبّه الكنيسة رائحته الزكية بالصلاة.'],
         meditate: ['What do you carry that others can smell: peace or hurry?', 'ماذا تحمل مما يشمّه الآخرون: سلامًا أم عجلة؟'],
         scripture: [ref('REV', 8, '3-4')],
       },
@@ -215,7 +215,7 @@ const SOURCE: readonly (readonly [Chapter['id'], readonly Row[]])[] = [
       {
         slug: 'pauline-epistle',
         title: ['The Pauline Epistle', 'البولس'],
-        what: ['A passage from the epistles of St. Paul is read or chanted.', 'يُقرأ أو يُرتَّل فصل من رسائل القديس بولس.'],
+        what: ['A passage from the epistles of St. Paul is read or chanted.', 'يُقرأ أو يُرتَّل فصل من رسائل معلمنا بولس الرسول.'],
         meditate: ['Listen for one sentence to carry out of church.', 'أنصت لجملة واحدة تحملها معك خارج الكنيسة.'],
         scripture: [ref('2TI', 3, '16-17')],
       },
@@ -229,8 +229,8 @@ const SOURCE: readonly (readonly [Chapter['id'], readonly Row[]])[] = [
       {
         slug: 'acts',
         title: ['The Acts of the Apostles', 'الإبركسيس'],
-        what: ['A passage from the Acts of the Apostles is read.', 'يُقرأ فصل من سفر أعمال الرسل.'],
-        meditate: ['The same Spirit is at work in this gathering.', 'الروح نفسه يعمل في هذا الاجتماع.'],
+        what: ['A passage from the Acts of the Apostles is read.', 'يُقرأ فصل من أعمال آبائنا الرسل الأطهار.'],
+        meditate: ['The same Spirit is at work in this gathering.', 'الروح القدس نفسه يعمل في هذا الاجتماع.'],
         scripture: [ref('ACT', 2, '42')],
       },
       {
@@ -271,14 +271,14 @@ const SOURCE: readonly (readonly [Chapter['id'], readonly Row[]])[] = [
       {
         slug: 'prayer-of-the-veil',
         title: ['The prayer of the veil', 'صلاة الحجاب'],
-        what: ['The priest prays before the sanctuary veil, asking God to accept the people’s prayer and to make the worshippers worthy.', 'يصلي الكاهن أمام ستر الهيكل طالبًا أن يقبل الله صلاة الشعب ويجعل المصلّين مستحقين.'],
+        what: ['The priest prays before the sanctuary veil, asking God to accept the people’s prayer and to make the worshippers worthy.', 'يصلي الكاهن أمام حجاب الهيكل طالبًا أن يقبل الله صلاة الشعب ويجعل المصلّين مستحقين.'],
         meditate: ['Come near with reverence and with confidence together.', 'اقترب بخشوع وبثقة معًا.'],
         scripture: [ref('HEB', 10, '19-20')],
       },
       {
         slug: 'litany-of-peace',
-        title: ['The litany of peace', 'أوشية السلام'],
-        what: ['The deacon invites the people to pray for the peace of the Church and the world, and they answer “Lord, have mercy”.', 'يدعو الشماس الشعب للصلاة من أجل سلام الكنيسة والعالم، فيجيبون «كيريي إليصون».'],
+        title: ['The litany of peace', 'أوشية السلامة'],
+        what: ['The deacon invites the people to pray for the peace of the Church and the world, and they answer “Lord, have mercy”.', 'يدعو الشماس الشعب للصلاة من أجل سلام الكنيسة والعالم، فيجيبون «كيرياليصون».'],
         meditate: ['Name a place that needs peace.', 'سمِّ مكانًا يحتاج إلى السلام.'],
         scripture: [ref('1TI', 2, '1-4')],
       },
@@ -312,8 +312,8 @@ const SOURCE: readonly (readonly [Chapter['id'], readonly Row[]])[] = [
       },
       {
         slug: 'prayer-of-reconciliation',
-        title: ['The prayer of reconciliation', 'صلاة المصالحة'],
-        what: ['The priest prays that God reconcile His people to Himself and to one another, and the deacon calls the people to peace.', 'يصلي الكاهن أن يصالح الله شعبه معه ومع بعضهم، ويدعو الشماس الشعب إلى السلام.'],
+        title: ['The prayer of reconciliation', 'صلاة الصلح'],
+        what: ['The priest prays that God reconcile His people to Himself and to one another, and the deacon calls the people to peace.', 'يصلي الكاهن أن يصالح الله شعبه معه ومع بعضهم بعضًا، ويدعو الشماس الشعب إلى تبادل السلام.'],
         meditate: ['Is there someone you must forgive before you receive?', 'هل من شخص عليك أن تسامحه قبل أن تتناول؟'],
         scripture: [ref('MAT', 5, '23-24')],
       },
@@ -354,7 +354,7 @@ const SOURCE: readonly (readonly [Chapter['id'], readonly Row[]])[] = [
       {
         slug: 'narrative-of-salvation',
         title: ['The narrative of salvation', 'سرد تدبير الخلاص'],
-        what: ['The priest recounts God’s works: creation, the fall, the promises, and the coming of Christ. The wording differs in each liturgy.', 'يسرد الكاهن أعمال الله: الخلق والسقوط والمواعيد ومجيء المسيح. وتختلف الصياغة في كل ليتورجية.'],
+        what: ['The priest recounts God’s works: creation, the fall, the promises, and the coming of Christ. The wording differs in each liturgy.', 'يسرد الكاهن أعمال الله: الخلق والسقوط والمواعيد ومجيء المسيح. وتختلف الصياغة في كل قداس.'],
         meditate: ['Find your own story inside this one.', 'اكتشف قصتك أنت داخل هذه القصة.'],
         scripture: [ref('HEB', 1, '1-2')],
         varies: true,
@@ -362,7 +362,7 @@ const SOURCE: readonly (readonly [Chapter['id'], readonly Row[]])[] = [
       {
         slug: 'sanctus',
         title: ['The Sanctus: Holy, holy, holy', 'قدوس قدوس قدوس'],
-        what: ['The people sing the angelic hymn “Holy, holy, holy”, joining the song of the heavenly hosts.', 'يرتّل الشعب ترنيمة الملائكة «قدوس قدوس قدوس» منضمًّا إلى تسبيح الجند السماوي.'],
+        what: ['The people sing the angelic hymn “Holy, holy, holy”, joining the song of the heavenly hosts.', 'يرتّل الشعب تسبحة الملائكة «قدوس قدوس قدوس» منضمًّا إلى تسبيح الطغمات السمائية.'],
         meditate: ['For a moment, simply wonder.', 'لحظة واحدة، تعجّب فقط.'],
         scripture: [ref('ISA', 6, '2-3'), ref('REV', 4, '8')],
       },
@@ -416,14 +416,14 @@ const SOURCE: readonly (readonly [Chapter['id'], readonly Row[]])[] = [
       },
       {
         slug: 'introduction-to-the-fraction',
-        title: ['Introduction to the fraction', 'مقدمة التقسيم'],
-        what: ['The rite of the fraction begins, with litanies and responses as the priest prepares the Lamb.', 'يبدأ رتبة التقسيم بأواشي وردود بينما يهيّئ الكاهن الحمل.'],
-        meditate: ['Quiet your heart; the Lamb is near.', 'اهدئ قلبك؛ الحمل قريب.'],
+        title: ['Introduction to the fraction', 'مقدمة القسمة'],
+        what: ['The rite of the fraction begins, with litanies and responses as the priest prepares the Lamb.', 'تبدأ رتبة القسمة بأواشٍ وردود بينما يهيّئ الكاهن الحمل.'],
+        meditate: ['Quiet your heart; the Lamb is near.', 'هدِّئ قلبك؛ الحمل قريب.'],
         scripture: [ref('PSA', 34, '8')],
       },
       {
         slug: 'prayer-of-the-fraction',
-        title: ['The prayer of the fraction', 'صلاة التقسيم'],
+        title: ['The prayer of the fraction', 'صلاة القسمة'],
         what: ['The priest breaks the consecrated Lamb for distribution.', 'يقسم الكاهن الحمل المقدس للتوزيع.'],
         meditate: ['You are not receiving alone.', 'أنت لا تتناول وحدك.'],
         scripture: [ref('1CO', 10, '16-17')],
@@ -452,13 +452,13 @@ const SOURCE: readonly (readonly [Chapter['id'], readonly Row[]])[] = [
       {
         slug: 'the-holies-for-the-holy',
         title: ['The holies for the holy', 'القدسات للقديسين'],
-        what: ['The priest raises the Lamb and proclaims “The holies for the holy”, and the people confess the one holiness of the Trinity.', 'يرفع الكاهن الحمل ويعلن «القدسات للقديسين»، ويعترف الشعب بالقداسة الواحدة للثالوث.'],
+        what: ['The priest raises the Lamb and proclaims “The holies for the holy”, and the people confess the one holiness of the Trinity.', 'يرفع الكاهن الحمل ويعلن «القدسات للقديسين»، ويعترف الشعب بالقداسة الواحدة للثالوث القدوس.'],
         meditate: ['Do not ask “am I worthy?”; ask “Lord, make me holy.”', 'لا تسأل «هل أنا مستحق؟» بل قل «يا رب قدّسني».'],
         scripture: [ref('1PE', 1, '15-16')],
       },
       {
         slug: 'the-confession',
-        title: ['The confession', 'الاعتراف'],
+        title: ['The confession', 'الاعتراف الأخير'],
         what: ['Before Communion the priest makes the confession of faith, holding the Lamb, and the people answer “Amen”.', 'قبل التناول يقدّم الكاهن الاعتراف بالإيمان وهو يمسك الحمل، ويجيب الشعب «آمين».'],
         meditate: ['Say “Amen” as your own “I believe”.', 'قل «آمين» كأنها «أؤمن» الخاصة بك.'],
         scripture: [ref('JHN', 6, '54-55'), ref('MAT', 16, '16')],
@@ -470,16 +470,16 @@ const SOURCE: readonly (readonly [Chapter['id'], readonly Row[]])[] = [
     [
       {
         slug: 'before-the-distribution',
-        title: ['Prayers before the distribution', 'صلوات ما قبل التوزيع'],
+        title: ['Prayers before the distribution', 'صلوات قبل التوزيع'],
         what: ['The priest prays for those who will receive, and the Church prepares in silence and awe.', 'يصلي الكاهن من أجل الذين سيتناولون، وتستعد الكنيسة في سكون ورهبة.'],
-        meditate: ['Be still; He is coming to you.', 'اسكن؛ هو آتٍ إليك.'],
+        meditate: ['Be still; He is coming to you.', 'اهدأ؛ هو آتٍ إليك.'],
         scripture: [ref('PSA', 34, '8')],
       },
       {
         slug: 'the-distribution',
         title: ['The distribution of the Holy Mysteries', 'توزيع الأسرار المقدسة'],
-        what: ['Those who have prepared come forward in order and receive the Body and Blood of Christ while the choir sings.', 'يتقدم الذين استعدّوا بترتيب وينالون جسد المسيح ودمه بينما ترتّل الجوقة.'],
-        meditate: ['Receive Him, and then simply stay with Him.', 'تناولْه ثم ابقَ معه فحسب.'],
+        what: ['Those who have prepared come forward in order and receive the Body and Blood of Christ while the choir sings.', 'يتقدم الذين استعدّوا بترتيب ويتناولون جسد المسيح ودمه بينما ترتّل الجوقة.'],
+        meditate: ['Receive Him, and then simply stay with Him.', 'تناول منه ثم ابقَ معه فحسب.'],
         scripture: [ref('JHN', 6, '56'), ref('1CO', 10, '16')],
       },
       {
@@ -491,21 +491,21 @@ const SOURCE: readonly (readonly [Chapter['id'], readonly Row[]])[] = [
       },
       {
         slug: 'thanksgiving-after-communion',
-        title: ['Thanksgiving after Communion', 'الشكر بعد التناول'],
+        title: ['Thanksgiving after Communion', 'صلاة الشكر بعد التناول'],
         what: ['The priest prays quiet prayers of thanksgiving and submission to the Father for the Holy Mysteries.', 'يصلي الكاهن سرًّا صلوات شكر وخضوع للآب على الأسرار المقدسة.'],
         meditate: ['“What shall I render to the Lord?”', '«ماذا أرد للرب؟»'],
         scripture: [ref('PSA', 116, '12-13')],
       },
       {
         slug: 'dismissal',
-        title: ['The dismissal and the concluding canon', 'الانصراف والقانون الختامي'],
+        title: ['The dismissal and the concluding canon', 'الانصراف والصلوات الختامية'],
         what: ['The priest completes the service with the concluding prayers, and the deacons dismiss the people.', 'يختم الكاهن الخدمة بالصلوات الختامية ويصرف الشمامسة الشعب.'],
         meditate: ['Take one thing from this hour into your home.', 'احمل شيئًا من هذه الساعة إلى بيتك.'],
         scripture: [ref('MRK', 5, '19')],
       },
       {
         slug: 'the-blessing',
-        title: ['The blessing: go in peace', 'البركة الأخيرة: امضوا بسلام'],
+        title: ['The blessing: go in peace', 'البركة الختامية: امضوا بسلام'],
         what: ['The priest blesses the people and sends them in peace.', 'يبارك الكاهن الشعب ويصرفهم بسلام.'],
         meditate: ['Go in peace, and be a blessing.', 'امضِ بسلام وكن بركة.'],
         scripture: [ref('NUM', 6, '24-26'), ref('LUK', 24, '50-53')],

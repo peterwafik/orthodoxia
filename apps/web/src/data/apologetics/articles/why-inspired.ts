@@ -314,7 +314,7 @@ export const article: Article = {
       'The Coptic understanding is that Scripture is part of Holy Tradition: the same Spirit who inspired the writers lives in the Church that reads. The monastic tradition, from St Antony and St Pachomius, also treats the Scriptures as the daily food of the soul, to be memorised, prayed and lived.',
     ],
     ar: [
-      'في الكنيسة القبطية تُتسلَّم الكتب في الليتورجيا، حيث يُقرأ الإنجيل وقوفًا بالبخور وبجواب التسبيح، صوتَ المسيح نفسه. ولا تفصل الكنيسة الكتاب عن عبادتها، وتقرؤه مع الآباء، ولا سيما آباء الإسكندرية.',
+      'في الكنيسة القبطية تُتسلَّم الكتب في الصلوات الطقسية، حيث يُقرأ الإنجيل وقوفًا بالبخور وبجواب التسبيح، صوتَ المسيح نفسه. ولا تفصل الكنيسة الكتاب عن عبادتها، وتقرؤه مع الآباء، ولا سيما آباء الإسكندرية.',
       'والفهم القبطي أن الكتاب جزء من التقليد المقدس: فالروح نفسه الذي أوحى إلى الكتّاب يحيا في الكنيسة التي تقرأ. وتعدّ الرهبنة القبطية، منذ القديس أنطونيوس والقديس باخوميوس، الكتب أيضًا غذاء النفس اليومي، يُحفظ ويُصلّى ويُعاش.',
     ],
   },

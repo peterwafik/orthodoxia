@@ -80,7 +80,7 @@ const UI = {
     layersLabel: 'ما الذي تريد إظهاره',
     steps: 'الخطوات',
     meaningLayer: 'المعنى',
-    stepsTitle: 'ما يحدث في المذبح',
+    stepsTitle: 'ما يحدث في الهيكل',
     meaningTitle: 'المعنى وراء ذلك',
     draftTag: 'مسودة',
     hiddenAll: 'كل شيء مخفي. استخدم الأزرار في الأسفل لإظهار الكاهن أو الشماس أو الشعب أو الخطوات أو المعنى.',
@@ -903,10 +903,16 @@ const clientStops = STOPS.map((stop) => ({ n: stop.n, hash: stopHash(stop), chap
   }
 
   .aside {
-    padding: 0.2rem 0.9rem 0.4rem;
+    /* The padding is wider than the corner curve, so no line of text reaches a rounded corner; the radii are logical, so
+       the straight edge is on the side of the coloured rule in both languages. */
+    padding: 0.8rem 1.15rem 0.9rem;
     border-inline-start: 3px solid color-mix(in srgb, var(--tone) 55%, transparent);
-    background: color-mix(in srgb, var(--ivory) 70%, transparent);
-    border-radius: 0.3rem 0.8rem 0.8rem 0.3rem;
+    background: color-mix(in srgb, var(--tone) 8%, #fffdf8);
+    border-start-start-radius: 0.3rem;
+    border-end-start-radius: 0.3rem;
+    border-start-end-radius: 0.9rem;
+    border-end-end-radius: 0.9rem;
+    overflow-wrap: anywhere;
   }
 
   .aside-steps {
@@ -921,7 +927,7 @@ const clientStops = STOPS.map((stop) => ({ n: stop.n, hash: stopHash(stop), chap
     display: flex;
     align-items: center;
     gap: 0.4rem;
-    margin: 0.4rem 0 0.1rem;
+    margin: 0 0 0.3rem;
     font-family: var(--font-ui);
     font-size: 0.78rem;
     font-weight: 600;
@@ -929,7 +935,7 @@ const clientStops = STOPS.map((stop) => ({ n: stop.n, hash: stopHash(stop), chap
   }
 
   .aside p {
-    margin: 0.15rem 0;
+    margin: 0.2rem 0;
   }
 
   .aside-meaning p + p {
@@ -1244,7 +1250,7 @@ const clientStops = STOPS.map((stop) => ({ n: stop.n, hash: stopHash(stop), chap
     padding: 0.55rem 0.85rem 0.65rem;
     border: 1px solid color-mix(in srgb, var(--tone) 30%, transparent);
     border-radius: 1.1rem;
-    background: rgba(255, 249, 239, 0.94);
+    background: color-mix(in srgb, var(--tone) 7%, #fffdf8);
     box-shadow: 0 1px 3px rgba(24, 36, 58, 0.1);
   }
 
@@ -1264,7 +1270,6 @@ const clientStops = STOPS.map((stop) => ({ n: stop.n, hash: stopHash(stop), chap
     --tone: #2f6a3a;
     margin-inline-start: auto;
     border-start-end-radius: 0.25rem;
-    background: color-mix(in srgb, #2f6a3a 9%, #fff9ef);
   }
 
   .chat .bubble.draft {
@@ -1304,9 +1309,13 @@ const clientStops = STOPS.map((stop) => ({ n: stop.n, hash: stopHash(stop), chap
   .chat .rubric {
     align-self: center;
     max-inline-size: 32rem;
-    padding: 0.2rem 0.8rem;
-    border-radius: 999px;
-    background: rgba(255, 249, 239, 0.75);
+    /* A step can run to several lines, so the corners are a fixed curve (not a full pill) and the padding is wider than it. */
+    padding: 0.5rem 1.15rem 0.55rem;
+    border-radius: 1.1rem;
+    overflow-wrap: anywhere;
+    --tone: #5b4a2b;
+    border: 1px solid color-mix(in srgb, var(--tone) 22%, transparent);
+    background: color-mix(in srgb, var(--tone) 8%, #fffdf8);
     text-align: center;
     font-style: italic;
     font-size: 0.9em;
@@ -1321,7 +1330,7 @@ const clientStops = STOPS.map((stop) => ({ n: stop.n, hash: stopHash(stop), chap
     margin: 0.35rem 0 0;
     padding: 0.35rem 0.6rem;
     border-radius: 0.6rem;
-    background: color-mix(in srgb, var(--tone) 8%, #fff9ef);
+    background: color-mix(in srgb, var(--tone) 10%, #fffdf8);
     font-size: 0.9em;
   }
 

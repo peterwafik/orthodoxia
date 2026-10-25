@@ -31,7 +31,7 @@ note| ar: اختياري. شرح قصير لهذه الصلاة.
 
 @people
 en| And with your spirit.
-ar| ومع روحك أيضًا.
+ar| ومع روحك.
 ```
 
 - **`source:`** is required in every file. Nothing is published without saying where it comes from.

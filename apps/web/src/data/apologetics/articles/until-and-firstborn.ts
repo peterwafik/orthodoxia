@@ -299,7 +299,7 @@ export const article: Article = {
       'The Coptic Orthodox Church confesses Mary as Ever-Virgin in her liturgy and hymns. She answers the argument from “until” and “firstborn” by Scripture’s own usage, as above, and does not make her faith depend on a single word. The Church also reads Matthew 1:25 as protecting the truth that the Virgin’s Son is conceived of the Holy Spirit alone.',
     ],
     ar: [
-      'تعترف الكنيسة القبطية الأرثوذكسية بمريم دائمة البتولية في ليتورجيتها وتسابيحها. وتجيب عن الاحتجاج بـ«حتى» و«البكر» باستعمال الكتاب نفسه كما سبق، ولا تجعل إيمانها يتوقف على لفظة واحدة. وتقرأ الكنيسة أيضًا متى ١: ٢٥ حفظًا لحق أن ابن العذراء حُبل به من الروح القدس وحده.',
+      'تعترف الكنيسة القبطية الأرثوذكسية بمريم دائمة البتولية في صلواتها الطقسية وتسابيحها. وتجيب عن الاحتجاج بـ«حتى» و«البكر» باستعمال الكتاب نفسه كما سبق، ولا تجعل إيمانها يتوقف على لفظة واحدة. وتقرأ الكنيسة أيضًا متى ١: ٢٥ حفظًا لحق أن ابن العذراء حُبل به من الروح القدس وحده.',
     ],
   },
   disputed: {

@@ -38,7 +38,7 @@ export const SAYS: Readonly<Record<string, StopSays>> = {
     priest: ['Quietly prays the absolutions for himself and for those who serve at the altar.', 'يصلّي سرًّا التحاليل عن نفسه وعن الخادمين حول المذبح.'],
   },
   'entering-the-word': {
-    priest: ['Leads the opening prayers of the first half of the Liturgy.', 'يقود الصلوات الافتتاحية للنصف الأول من القداس.'],
+    priest: ['Leads the opening prayers of the first half of the Liturgy.', 'يقود الصلوات الافتتاحية لقداس الكلمة.'],
     deacon: ['Lead the responses and the readings.', 'يقودون الردود والقراءات.'],
     people: ['Join in the psalms and the responses.', 'يشتركون في المزامير والردود.'],
   },
@@ -72,15 +72,15 @@ export const SAYS: Readonly<Record<string, StopSays>> = {
     people: ['Listen.', 'يستمعون.'],
   },
   'catholic-epistle': {
-    deacon: ['Reads the passage from the general epistles.', 'يقرأ الفصل من الرسائل الجامعة.'],
+    deacon: ['Reads the passage from the general epistles.', 'يقرأ فصل الكاثوليكون من الرسائل الجامعة.'],
     people: ['Listen.', 'يستمعون.'],
   },
   acts: {
-    deacon: ['Reads the passage from the Acts of the Apostles.', 'يقرأ الفصل من أعمال الرسل.'],
+    deacon: ['Reads the passage from the Acts of the Apostles.', 'يقرأ فصل الإبركسيس من أعمال الرسل.'],
     people: ['Listen.', 'يستمعون.'],
   },
   synaxarion: {
-    deacon: ['Reads the life of the saint of the day.', 'يقرأ سيرة قديس اليوم.'],
+    deacon: ['Reads the life of the saint of the day.', 'يقرأ السنكسار، أي سيرة قديس اليوم.'],
     people: ['Listen.', 'يستمعون.'],
   },
   'psalm-and-alleluia': {
@@ -97,7 +97,7 @@ export const SAYS: Readonly<Record<string, StopSays>> = {
     people: ['Listen.', 'يستمعون.'],
   },
   'prayer-of-the-veil': {
-    priest: ['Prays before the sanctuary veil, asking God to accept the people’s prayer and make the worshippers worthy.', 'يصلّي أمام ستر الهيكل طالبًا أن يقبل الله صلاة الشعب وأن يجعل العابدين مستحقين.'],
+    priest: ['Prays before the sanctuary veil, asking God to accept the people’s prayer and make the worshippers worthy.', 'يصلّي صلاة الستر أمام حجاب الهيكل طالبًا أن يقبل الله صلاة الشعب وأن يجعل العابدين مستحقين.'],
   },
   'litany-of-peace': {
     priest: ['Concludes the litany with a prayer.', 'يختم الأوشية بصلاة.'],
@@ -116,14 +116,14 @@ export const SAYS: Readonly<Record<string, StopSays>> = {
   },
   creed: {
     deacon: ['Calls everyone to stand for the confession of faith.', 'ينادي الجميع أن يقفوا لإعلان الإيمان.'],
-    people: ['Confess the faith together in the Creed.', 'يعترفون معًا بالإيمان في قانون الإيمان.'],
+    people: ['Confess the faith together in the Creed.', 'يعترفون معًا بالإيمان في قانون الإيمان (الاعتقاد).'],
   },
   'washing-of-hands': {
     priest: ['Washes his hands before approaching the offerings.', 'يغسل يديه قبل أن يقترب من القرابين.'],
     deacon: ['Assist with the water.', 'يعاونون بالماء.'],
   },
   'prayer-of-reconciliation': {
-    priest: ['Prays that God reconcile His people to Himself and to one another.', 'يصلّي أن يصالح الله شعبه معه ومع بعضهم البعض.'],
+    priest: ['Prays that God reconcile His people to Himself and to one another.', 'يصلّي صلاة الصلح طالبًا أن يصالح الله شعبه معه وبعضهم مع بعض.'],
     deacon: ['Calls the people to peace.', 'يدعو الشعب إلى السلام.'],
   },
   'kiss-of-peace': {
@@ -153,7 +153,7 @@ export const SAYS: Readonly<Record<string, StopSays>> = {
     people: ['Sing “Holy, holy, holy”, joining the song of the heavenly hosts.', 'يرتّلون «قدوس، قدوس، قدوس» منضمّين إلى تسبيح الجند السماوي.'],
   },
   'institution-narrative': {
-    priest: ['Recalls the Lord’s words at the Last Supper over the bread and the cup.', 'يتذكّر كلمات الرب في العشاء الأخير على الخبز والكأس.'],
+    priest: ['Recalls the Lord’s words at the Last Supper over the bread and the cup.', 'يتلو كلمات التأسيس، كلمات الرب في العشاء الأخير على الخبز والكأس.'],
     people: ['Answer “Amen”.', 'يجاوبون «آمين».'],
   },
   memorial: {
@@ -195,14 +195,14 @@ export const SAYS: Readonly<Record<string, StopSays>> = {
     people: ['Bow their heads.', 'يحنون رؤوسهم.'],
   },
   'prayer-of-absolution': {
-    priest: ['Prays for the forgiveness of sins, so the people may receive the Holy Mysteries worthily.', 'يصلّي لغفران الخطايا ليتناول الشعب الأسرار المقدّسة بإستحقاق.'],
+    priest: ['Prays for the forgiveness of sins, so the people may receive the Holy Mysteries worthily.', 'يصلّي لغفران الخطايا ليتناول الشعب الأسرار المقدّسة باستحقاق.'],
   },
   'the-holies-for-the-holy': {
     priest: ['Raises the Lamb and proclaims “The holies for the holy”.', 'يرفع الحمل ويعلن «القدسات للقديسين».'],
     people: ['Confess the one holiness of the Trinity.', 'يعترفون بقداسة الثالوث الواحدة.'],
   },
   'the-confession': {
-    priest: ['Makes the confession of faith, holding the Lamb.', 'يقدّم الاعتراف بالإيمان وهو ممسك بالحمل.'],
+    priest: ['Makes the confession of faith, holding the Lamb.', 'يقدّم الاعتراف الأخير بالإيمان وهو ممسك بالحمل.'],
     people: ['Answer “Amen”.', 'يجاوبون «آمين».'],
   },
   'before-the-distribution': {

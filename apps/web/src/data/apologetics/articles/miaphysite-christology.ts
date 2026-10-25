@@ -82,7 +82,7 @@ export const article: Article = {
       assessment: 'theological_interpretation',
       rationale: {
         en: 'This is a statement of the Church’s own teaching, found in its liturgy, its Fathers and its modern teachers such as Pope Shenouda III.',
-        ar: 'هذا بيان لتعليم الكنيسة نفسها، يوجد في ليتورجيتها وآبائها ومعلميها المعاصرين مثل البابا شنودة الثالث.',
+        ar: 'هذا بيان لتعليم الكنيسة نفسها، يوجد في صلواتها الطقسية وآبائها ومعلميها المعاصرين مثل البابا شنودة الثالث.',
       },
       limits: {
         en: 'It states the doctrine; it does not argue that other formulations are wrong.',
