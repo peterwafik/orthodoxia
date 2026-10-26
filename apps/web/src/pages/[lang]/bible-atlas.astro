@@ -1,0 +1,1274 @@
+---
+import Base from '../../layouts/Base.astro';
+import { ERAS } from '../../data/bible-atlas/eras.ts';
+import { buildPayload } from '../../lib/bible-atlas/payload.ts';
+import { kindNames, typeNames, ui } from '../../lib/bible-atlas/ui.ts';
+import { LOCALES, type Locale } from '../../i18n/index.ts';
+
+export function getStaticPaths() {
+  return LOCALES.map((lang) => ({ params: { lang } }));
+}
+
+const locale = Astro.params.lang as Locale;
+const text = ui(locale);
+const kinds = kindNames(locale);
+
+const config = {
+  locale,
+  dataUrl: `/${locale}/bible-atlas.json`,
+  landUrl: { coarse: '/atlas/land-110m.json', fine: '/atlas/land-50m.json' },
+  ui: text,
+  types: typeNames(locale),
+  kinds,
+};
+
+// The index of places: the same places as the globe, written out, for readers without scripts and for search engines.
+const payload = buildPayload(locale);
+const certLabel = { secure: text.certSecure, probable: text.certProbable, tradition: text.certTradition } as const;
+const indexGroups = ERAS.map((era) => ({
+  era,
+  places: payload.places.filter((place) => place.eras[0] === era.id).sort((a, b) => a.name.localeCompare(b.name, locale)),
+})).filter((group) => group.places.length > 0);
+---
+
+<Base locale={locale} title={text.title} description={text.metaDescription}>
+  <div class="page-stage">
+    <section class="intro">
+      <div class="wrap">
+        <h1>{text.title}</h1>
+      </div>
+    </section>
+
+    <section class="atlas" data-atlas data-config={JSON.stringify(config)}>
+      <div class="wrap atlas-grid">
+        <div class="atlas-stage" data-stage>
+          <canvas data-canvas tabindex="0" role="application" aria-roledescription="globe" aria-label={text.stageLabel}></canvas>
+          <noscript><p class="needs-script">{text.needsScript}</p></noscript>
+          <p class="status" data-status role="status"></p>
+          <div class="tip" data-tip hidden></div>
+
+          <div class="tools tools-top" role="group" aria-label={text.viewGlobe + ' / ' + text.viewMap}>
+            <button type="button" class="seg" data-view="globe" aria-pressed="true">{text.viewGlobe}</button>
+            <button type="button" class="seg" data-view="map" aria-pressed="false">{text.viewMap}</button>
+          </div>
+
+          <div class="tools tools-side">
+            <button type="button" class="tool" data-zoom="in" aria-label={text.zoomIn} title={text.zoomIn}>
+              <svg viewBox="0 0 20 20" width="18" height="18" aria-hidden="true"><path d="M10 4v12M4 10h12" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"></path></svg>
+            </button>
+            <button type="button" class="tool" data-zoom="out" aria-label={text.zoomOut} title={text.zoomOut}>
+              <svg viewBox="0 0 20 20" width="18" height="18" aria-hidden="true"><path d="M4 10h12" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"></path></svg>
+            </button>
+            <button type="button" class="tool" data-zoom="reset" aria-label={text.reset} title={text.reset}>
+              <svg viewBox="0 0 20 20" width="18" height="18" aria-hidden="true"><circle cx="10" cy="10" r="6.5" fill="none" stroke="currentColor" stroke-width="1.6"></circle><path d="M10 3.5v3M10 13.5v3M3.5 10h3M13.5 10h3" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"></path></svg>
+            </button>
+            <button type="button" class="tool" data-rotate aria-pressed="false" aria-label={text.rotate} title={text.rotate}>
+              <svg viewBox="0 0 20 20" width="18" height="18" aria-hidden="true"><path d="M16 10a6 6 0 1 1-2-4.5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"></path><path d="M14.5 2.5v3.3h-3.3" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+            </button>
+          </div>
+
+          <aside class="popup" data-popup hidden tabindex="-1" role="region" aria-label={text.events}></aside>
+        </div>
+
+        <div class="atlas-panel">
+          <div class="eras" data-eras role="group" aria-label={text.periods}></div>
+
+          <div class="tabs" role="tablist">
+            <button type="button" role="tab" data-tab="journeys" aria-selected="true">{text.tabJourneys}</button>
+            <button type="button" role="tab" data-tab="places" aria-selected="false" tabindex="-1">{text.tabPlaces}</button>
+            <span class="counts" data-counts aria-live="polite"></span>
+          </div>
+
+          <div class="pane" data-pane="journeys" role="tabpanel">
+            <div class="pane-scroll" data-journey-list></div>
+          </div>
+          <div class="pane" data-pane="places" role="tabpanel" hidden>
+            <label class="search">
+              <span class="visually-hidden">{text.search}</span>
+              <svg viewBox="0 0 20 20" width="16" height="16" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5" fill="none" stroke="currentColor" stroke-width="1.7"></circle><path d="m13 13 4 4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"></path></svg>
+              <input type="search" data-search placeholder={text.searchPlaceholder} autocomplete="off" />
+            </label>
+            <div class="pane-scroll" data-place-list></div>
+          </div>
+
+          <details class="layers">
+            <summary>{text.layers}</summary>
+            <label><input type="checkbox" data-layer="journeys" checked /> {text.layerJourneys}</label>
+            <label><input type="checkbox" data-layer="all" checked /> {text.layerAll}</label>
+            <label><input type="checkbox" data-layer="uncertain" /> {text.layerUncertain}</label>
+            <label><input type="checkbox" data-layer="labels" checked /> {text.layerLabels}</label>
+          </details>
+
+          <details class="legend">
+            <summary class="legend-title">{text.legend}</summary>
+            <ul>
+              <li>
+                <svg viewBox="0 0 20 20" width="18" height="18" aria-hidden="true"><circle cx="10" cy="10" r="6" fill="currentColor"></circle></svg>
+                <span><b>{text.certSecure}</b> {text.certSecureNote}</span>
+              </li>
+              <li>
+                <svg viewBox="0 0 20 20" width="18" height="18" aria-hidden="true"><circle cx="10" cy="10" r="6" fill="currentColor"></circle><circle cx="10" cy="10" r="2.2" fill="var(--surface-raised)"></circle></svg>
+                <span><b>{text.certProbable}</b> {text.certProbableNote}</span>
+              </li>
+              <li>
+                <svg viewBox="0 0 20 20" width="18" height="18" aria-hidden="true"><circle cx="10" cy="10" r="5.4" fill="var(--surface-raised)" stroke="currentColor" stroke-width="2.2"></circle></svg>
+                <span><b>{text.certTradition}</b> {text.certTraditionNote}</span>
+              </li>
+            </ul>
+            <p class="shapes">
+              <span><svg viewBox="0 0 20 20" width="14" height="14" aria-hidden="true"><circle cx="10" cy="10" r="6" fill="currentColor"></circle></svg>{kinds['city']}</span>
+              <span><svg viewBox="0 0 20 20" width="14" height="14" aria-hidden="true"><path d="M10 3 17 16H3Z" fill="currentColor"></path></svg>{kinds['mountain']}</span>
+              <span><svg viewBox="0 0 20 20" width="14" height="14" aria-hidden="true"><path d="M10 2.5 16.5 10 10 17.5 3.5 10Z" fill="currentColor"></path></svg>{kinds['water']}</span>
+              <span><svg viewBox="0 0 20 20" width="14" height="14" aria-hidden="true"><rect x="4" y="4" width="12" height="12" rx="3.5" fill="currentColor"></rect></svg>{kinds['region']}</span>
+            </p>
+            <p class="legend-note">{text.mapNote}</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="index">
+      <div class="wrap">
+        <h2>{text.index}</h2>
+        <p class="lede-small">{text.indexLede}</p>
+        {
+          indexGroups.map(({ era, places }) => (
+            <div class="index-group" style={`--h:${era.hue}`}>
+              <h3>
+                <span class="chip-dot"></span>
+                {era.name[locale]} <small>{era.span[locale]}</small>
+              </h3>
+              <ul class="index-grid">
+                {places.map((place) => (
+                  <li>
+                    <article class="index-card" id={`place-${place.id}`}>
+                      <h4>{place.name}</h4>
+                      <p class="index-meta">
+                        <span class={`ap-cert ap-cert-${place.cert}`}>{certLabel[place.cert as keyof typeof certLabel]}</span>
+                        {place.modern !== '' && <span>{place.modern}</span>}
+                      </p>
+                      <p>{place.summary}</p>
+                      <ul class="index-events">
+                        {place.events.map((event) => (
+                          <li>
+                            <span>{event.t}{event.trad && <em class="ap-trad">{text.tradition}</em>}</span>
+                            {event.refs.map((ref) => (
+                              <a href={ref.h}><bdi>{ref.l}</bdi></a>
+                            ))}
+                          </li>
+                        ))}
+                      </ul>
+                    </article>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))
+        }
+      </div>
+    </section>
+  </div>
+
+  <script>
+    import { mountAtlas, type AtlasConfig } from '../../lib/bible-atlas/globe.ts';
+
+    const root = document.querySelector<HTMLElement>('[data-atlas]');
+    if (root !== null) {
+      const config = JSON.parse(root.dataset['config'] ?? '{}') as AtlasConfig;
+      mountAtlas(root, config).catch((error: unknown) => {
+        console.error(error);
+        const status = root.querySelector<HTMLElement>('[data-status]');
+        if (status !== null) status.textContent = config.ui['failed'] ?? '';
+      });
+    }
+  </script>
+</Base>
+
+<style>
+  .page-stage {
+    position: relative;
+    isolation: isolate;
+  }
+
+  .intro {
+    padding-block: clamp(2rem, 4.5vw, 3.25rem) 1rem;
+  }
+
+  h1 {
+    font-size: var(--step-hero);
+    margin-block-end: 0.6rem;
+  }
+
+  /* ───────── The globe and its panel ───────── */
+  .atlas {
+    --atlas-ocean-1: #d3e2ef;
+    --atlas-ocean-2: #8fabc7;
+    --atlas-land: #f3ead2;
+    --atlas-land-line: rgba(122, 90, 18, 0.5);
+    --atlas-grid: rgba(26, 35, 64, 0.1);
+    --atlas-glow: rgba(217, 180, 90, 0.5);
+    --atlas-halo: rgba(255, 253, 248, 0.92);
+    --atlas-water: #4f86b3;
+    --stage-h: clamp(34rem, calc(100vh - 7rem), 68rem);
+    padding-block: 0.5rem 2.5rem;
+  }
+
+  :global(:root[data-theme='dark']) .atlas {
+    --atlas-ocean-1: #1d376d;
+    --atlas-ocean-2: #0a152f;
+    --atlas-land: #2d4778;
+    --atlas-land-line: rgba(217, 180, 90, 0.42);
+    --atlas-grid: rgba(255, 255, 255, 0.07);
+    --atlas-glow: rgba(217, 180, 90, 0.34);
+    --atlas-halo: rgba(14, 26, 51, 0.88);
+    --atlas-water: #6aa5d8;
+  }
+
+  .atlas-grid {
+    display: grid;
+    gap: 1rem;
+  }
+
+  @media (min-width: 62rem) {
+    .atlas-grid {
+      grid-template-columns: minmax(0, 1fr) 25rem;
+      align-items: stretch;
+    }
+  }
+
+  .atlas-stage {
+    position: relative;
+    block-size: var(--stage-h);
+    min-block-size: 26rem;
+    overflow: hidden;
+    border: 1px solid var(--glass-line);
+    border-radius: 1.6rem;
+    box-shadow: var(--depth-shadow-strong);
+    background:
+      radial-gradient(ellipse at 50% 42%, rgba(255, 253, 248, 0.9), transparent 62%),
+      radial-gradient(1.2px 1.2px at 12% 18%, rgba(122, 90, 18, 0.35), transparent),
+      radial-gradient(1px 1px at 82% 26%, rgba(122, 90, 18, 0.3), transparent),
+      radial-gradient(1.2px 1.2px at 22% 78%, rgba(122, 90, 18, 0.28), transparent),
+      radial-gradient(1px 1px at 91% 84%, rgba(122, 90, 18, 0.3), transparent),
+      linear-gradient(160deg, #f1e9d4, #e3d8bc);
+  }
+
+  :global(:root[data-theme='dark']) .atlas-stage {
+    background:
+      radial-gradient(ellipse at 50% 42%, rgba(46, 72, 140, 0.55), transparent 62%),
+      radial-gradient(1.3px 1.3px at 12% 18%, rgba(255, 255, 255, 0.7), transparent),
+      radial-gradient(1px 1px at 82% 26%, rgba(255, 255, 255, 0.55), transparent),
+      radial-gradient(1.4px 1.4px at 22% 78%, rgba(255, 255, 255, 0.6), transparent),
+      radial-gradient(1px 1px at 91% 84%, rgba(255, 255, 255, 0.5), transparent),
+      radial-gradient(1px 1px at 47% 8%, rgba(255, 255, 255, 0.45), transparent),
+      radial-gradient(1.2px 1.2px at 66% 92%, rgba(255, 255, 255, 0.5), transparent),
+      linear-gradient(160deg, #0f1c3b, #070e22);
+  }
+
+  canvas {
+    position: absolute;
+    inset: 0;
+    inline-size: 100%;
+    block-size: 100%;
+    touch-action: none;
+    cursor: grab;
+    outline-offset: -4px;
+  }
+
+  canvas:active {
+    cursor: grabbing;
+  }
+
+  .needs-script,
+  .status {
+    position: absolute;
+    inset-inline: 1rem;
+    inset-block-start: 50%;
+    margin: 0;
+    text-align: center;
+    color: var(--ink-muted);
+    pointer-events: none;
+  }
+
+  .status:empty {
+    display: none;
+  }
+
+  .tip {
+    position: absolute;
+    z-index: 3;
+    display: grid;
+    gap: 0.1rem;
+    max-inline-size: 15rem;
+    padding: 0.4rem 0.65rem;
+    border: 1px solid var(--glass-line);
+    border-radius: 0.8rem;
+    background: var(--glass-strong);
+    backdrop-filter: blur(10px);
+    box-shadow: var(--depth-shadow);
+    font-size: 0.82rem;
+    pointer-events: none;
+  }
+
+  .tip[hidden] {
+    display: none;
+  }
+
+  .tip span {
+    color: var(--ink-muted);
+    font-size: 0.74rem;
+  }
+
+  /* Controls on the globe */
+  .tools {
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    gap: 0.35rem;
+    padding: 0.3rem;
+    border: 1px solid var(--glass-line);
+    border-radius: 999px;
+    background: var(--glass);
+    backdrop-filter: blur(14px) saturate(1.4);
+    box-shadow: var(--depth-shadow);
+  }
+
+  .tools-top {
+    inset-block-start: 0.75rem;
+    inset-inline-end: 0.75rem;
+  }
+
+  .tools-side {
+    inset-block-end: 0.75rem;
+    inset-inline-end: 0.75rem;
+    flex-direction: column;
+    border-radius: 1.4rem;
+  }
+
+  .seg,
+  .tool {
+    display: inline-grid;
+    place-items: center;
+    min-block-size: 36px;
+    border: 0;
+    border-radius: 999px;
+    background: none;
+    color: var(--ink);
+    font: inherit;
+    font-size: 0.86rem;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s, transform 0.2s;
+  }
+
+  .seg {
+    padding-inline: 0.85rem;
+  }
+
+  .tool {
+    inline-size: 36px;
+    padding: 0;
+  }
+
+  .seg:hover,
+  .tool:hover {
+    background: var(--tint);
+    transform: translateY(-1px);
+  }
+
+  .seg[aria-pressed='true'],
+  .tool[aria-pressed='true'] {
+    background: var(--ink);
+    color: var(--surface);
+  }
+
+  /* The popup */
+  .popup {
+    position: absolute;
+    z-index: 4;
+    inset-block: 0.75rem;
+    inset-inline-start: 0.75rem;
+    inline-size: min(25rem, calc(100% - 1.5rem));
+    max-block-size: calc(100% - 1.5rem);
+    block-size: fit-content;
+    overflow: auto;
+    overscroll-behavior: contain;
+    border: 1px solid var(--glass-line);
+    border-radius: 1.3rem;
+    background: var(--glass-strong);
+    backdrop-filter: blur(22px) saturate(1.5);
+    box-shadow: var(--depth-shadow-strong);
+    opacity: 0;
+    transform: translateY(8px) scale(0.985);
+    transition: opacity 0.22s, transform 0.22s;
+    --c: var(--accent);
+  }
+
+  .popup.is-open {
+    opacity: 1;
+    transform: none;
+  }
+
+  .popup[hidden] {
+    display: none;
+  }
+
+  @media (max-width: 61.99rem) {
+    .popup {
+      inset-block: auto 0;
+      inset-inline: 0;
+      inline-size: auto;
+      max-block-size: 56%;
+      border-radius: 1.4rem 1.4rem 0 0;
+      border-inline: 0;
+      border-block-end: 0;
+    }
+
+    .tools-side {
+      inset-block-end: auto;
+      inset-block-start: 4rem;
+    }
+  }
+
+  .popup :global(.ap-head) {
+    position: sticky;
+    inset-block-start: 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 0.75rem;
+    padding: 0.9rem 0.9rem 0.6rem 1.1rem;
+    background: var(--surface-raised);
+    border-block-end: 1px solid var(--line);
+    border-inline-start: 4px solid var(--c);
+  }
+
+  .popup :global(.ap-kind) {
+    display: block;
+    color: var(--c);
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+
+  :global(:lang(ar)) .popup :global(.ap-kind) {
+    letter-spacing: 0;
+    font-size: 0.82rem;
+  }
+
+  .popup :global(.ap-head h3) {
+    margin: 0.1rem 0 0;
+    font-size: var(--step-2);
+  }
+
+  .popup :global(.ap-close) {
+    flex: none;
+    display: grid;
+    place-items: center;
+    inline-size: 34px;
+    block-size: 34px;
+    border: 0;
+    border-radius: 50%;
+    background: var(--tint);
+    color: var(--ink);
+    cursor: pointer;
+  }
+
+  .popup :global(.ap-close:hover) {
+    background: var(--ink);
+    color: var(--surface);
+  }
+
+  .popup :global(.ap-body) {
+    padding: 0.8rem 1.1rem 1.2rem;
+  }
+
+  .popup :global(.ap-body h4),
+  .atlas-panel :global(h4) {
+    margin: 1.1rem 0 0.4rem;
+    color: var(--burgundy);
+    font-family: var(--font-ui);
+    font-size: 0.74rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+
+  :global(:lang(ar)) .popup :global(.ap-body h4),
+  :global(:lang(ar)) .atlas-panel :global(h4) {
+    letter-spacing: 0;
+    font-size: 0.85rem;
+  }
+
+  .popup :global(.ap-modern) {
+    margin: 0 0 0.5rem;
+    color: var(--ink-muted);
+    font-size: 0.88rem;
+  }
+
+  .popup :global(.ap-summary) {
+    margin: 0.6rem 0 0;
+    font-family: var(--font-reading);
+    font-size: 1.02rem;
+  }
+
+  :global(:lang(ar)) .popup :global(.ap-summary) {
+    font-size: 1.08rem;
+    line-height: 1.9;
+  }
+
+  :global(.ap-note) {
+    margin: 0.6rem 0 0;
+    padding: 0.5rem 0.75rem;
+    border-inline-start: 3px solid var(--accent);
+    border-radius: 0 0.6rem 0.6rem 0;
+    background: var(--tint);
+    font-size: 0.86rem;
+  }
+
+  :global(.ap-fine) {
+    margin: 0.4rem 0 0.2rem;
+    color: var(--ink-muted);
+    font-size: 0.78rem;
+  }
+
+  :global(.ap-badges) {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+    margin-block: 0.4rem;
+  }
+
+  :global(.ap-cert),
+  :global(.ap-era),
+  :global(.ap-trad) {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.12rem 0.55rem;
+    border-radius: 999px;
+    font-size: 0.74rem;
+    font-weight: 600;
+    line-height: 1.5;
+    white-space: nowrap;
+  }
+
+  :global(.ap-cert-secure) {
+    background: rgba(46, 125, 80, 0.14);
+    color: #1f6a43;
+  }
+
+  :global(.ap-cert-probable) {
+    background: rgba(160, 110, 20, 0.16);
+    color: #7a5309;
+  }
+
+  :global(.ap-cert-tradition) {
+    background: rgba(123, 45, 59, 0.13);
+    color: var(--burgundy);
+  }
+
+  :global(:root[data-theme='dark']) :global(.ap-cert-secure) {
+    background: rgba(110, 200, 150, 0.16);
+    color: #8fe0b2;
+  }
+
+  :global(:root[data-theme='dark']) :global(.ap-cert-probable) {
+    background: rgba(217, 180, 90, 0.16);
+    color: #e6c675;
+  }
+
+  :global(.ap-era) {
+    background: color-mix(in srgb, var(--c, var(--accent)) 14%, transparent);
+    color: var(--ink);
+    border: 1px solid color-mix(in srgb, var(--c, var(--accent)) 45%, transparent);
+  }
+
+  :global(.ap-trad) {
+    margin-inline: 0.35rem;
+    background: transparent;
+    border: 1px dashed var(--burgundy);
+    color: var(--burgundy);
+    font-size: 0.68rem;
+  }
+
+  :global(.ap-events),
+  :global(.ap-links),
+  :global(.ap-chips),
+  :global(.ap-verses) {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  :global(.ap-events) > :global(li) {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.25rem 0.5rem;
+    padding-block: 0.5rem;
+    border-block-end: 1px solid var(--line);
+  }
+
+  :global(.ap-events) > :global(li:last-child) {
+    border-block-end: 0;
+  }
+
+  :global(.ap-event) {
+    flex: 1 1 11rem;
+    font-size: 0.93rem;
+  }
+
+  :global(.ap-ref) {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    padding: 0.18rem 0.65rem;
+    border-radius: 999px;
+    background: var(--ink);
+    color: var(--surface) !important;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: transform 0.2s, background 0.2s;
+  }
+
+  :global(.ap-ref:hover) {
+    background: var(--c, var(--accent));
+    color: #fff !important;
+    transform: translateY(-1px);
+  }
+
+  :global(.ap-go) {
+    font-size: 0.9em;
+  }
+
+  :global(.ap-more) {
+    margin-block-start: 0.9rem;
+    border: 1px solid var(--line);
+    border-radius: 0.9rem;
+    padding: 0.35rem 0.8rem;
+  }
+
+  :global(.ap-more summary) {
+    cursor: pointer;
+    padding-block: 0.25rem;
+    font-size: 0.86rem;
+    font-weight: 600;
+  }
+
+  :global(.ap-verses) {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+    padding-block: 0.4rem 0.5rem;
+  }
+
+  :global(.ap-verses a) {
+    display: inline-block;
+    padding: 0.1rem 0.55rem;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    font-size: 0.8rem;
+    text-decoration: none;
+  }
+
+  :global(.ap-verses a:hover) {
+    border-color: var(--accent);
+    background: var(--tint);
+  }
+
+  :global(.ap-chips) {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+  }
+
+  :global(.ap-chip) {
+    inline-size: 100%;
+    padding: 0.4rem 0.8rem;
+    border: 1px solid color-mix(in srgb, var(--c) 50%, transparent);
+    border-inline-start: 4px solid var(--c);
+    border-radius: 0.7rem;
+    background: var(--surface-raised);
+    color: var(--ink);
+    font: inherit;
+    font-size: 0.86rem;
+    text-align: start;
+    cursor: pointer;
+  }
+
+  :global(.ap-chip:hover) {
+    background: var(--tint);
+  }
+
+  :global(.ap-links) {
+    display: grid;
+    gap: 0.3rem;
+    font-size: 0.9rem;
+  }
+
+  /* ───────── The panel ───────── */
+  .atlas-panel {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    min-block-size: 0;
+    overflow: hidden;
+    padding: 0.9rem;
+    border: 1px solid var(--glass-line);
+    border-radius: 1.6rem;
+    background: var(--glass);
+    backdrop-filter: blur(16px) saturate(1.4);
+    box-shadow: var(--depth-shadow);
+  }
+
+  @media (min-width: 62rem) {
+    .atlas-panel {
+      block-size: var(--stage-h);
+      min-block-size: 26rem;
+    }
+  }
+
+  .eras {
+    display: flex;
+    flex: none;
+    gap: 0.3rem;
+    overflow-x: auto;
+    padding-block-end: 0.3rem;
+    scrollbar-width: thin;
+  }
+
+  .eras :global(.chip) {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    flex: none;
+    white-space: nowrap;
+    padding: 0.2rem 0.65rem;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    background: var(--surface-raised);
+    color: var(--ink);
+    font: inherit;
+    font-size: 0.78rem;
+    cursor: pointer;
+    transition: background 0.2s, border-color 0.2s, transform 0.2s;
+  }
+
+  .eras :global(.chip:hover) {
+    transform: translateY(-1px);
+    border-color: var(--accent);
+  }
+
+  .eras :global(.chip[aria-pressed='true']) {
+    background: color-mix(in srgb, var(--c, var(--accent)) 18%, var(--surface-raised));
+    border-color: var(--c, var(--accent));
+    font-weight: 600;
+  }
+
+  :global(.chip-dot) {
+    flex: none;
+    inline-size: 0.6rem;
+    block-size: 0.6rem;
+    border-radius: 50%;
+    background: var(--c, var(--accent));
+  }
+
+  .tabs {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    border-block-end: 1px solid var(--line);
+  }
+
+  .tabs button {
+    padding: 0.45rem 0.9rem;
+    border: 0;
+    border-block-end: 3px solid transparent;
+    background: none;
+    color: var(--ink-muted);
+    font: inherit;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  .tabs button[aria-selected='true'] {
+    border-block-end-color: var(--accent);
+    color: var(--ink);
+  }
+
+  .counts {
+    margin-inline-start: auto;
+    color: var(--ink-muted);
+    font-size: 0.78rem;
+  }
+
+  .pane {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 10rem;
+    gap: 0.5rem;
+    min-block-size: 14rem;
+  }
+
+  .pane[hidden] {
+    display: none;
+  }
+
+  .pane-scroll {
+    flex: 1;
+    min-block-size: 0;
+    overflow: auto;
+    overscroll-behavior: contain;
+    padding-inline-end: 0.2rem;
+  }
+
+  @media (max-width: 61.99rem) {
+    .pane-scroll {
+      max-block-size: 40rem;
+    }
+  }
+
+  .search {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.35rem 0.75rem;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    background: var(--surface-raised);
+    color: var(--ink-muted);
+  }
+
+  .search input {
+    flex: 1;
+    min-inline-size: 0;
+    border: 0;
+    background: none;
+    color: var(--ink);
+    font: inherit;
+    font-size: 0.92rem;
+  }
+
+  .search input:focus-visible {
+    outline: none;
+  }
+
+  .search:focus-within {
+    border-color: var(--accent);
+    box-shadow: 0 0 0 3px var(--tint);
+  }
+
+  .atlas-panel :global(.group) {
+    display: flex;
+    align-items: center;
+    gap: 0.45rem;
+    margin: 0.8rem 0 0.3rem;
+    font-family: var(--font-ui);
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: var(--ink);
+  }
+
+  .atlas-panel :global(.items) {
+    display: grid;
+    gap: 0.25rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .atlas-panel :global(.item) {
+    position: relative;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-areas: 'mark title' 'mark sub';
+    align-items: center;
+    column-gap: 0.7rem;
+    inline-size: 100%;
+    padding: 0.5rem 0.7rem;
+    border: 1px solid transparent;
+    border-radius: 0.9rem;
+    background: var(--surface-raised);
+    color: var(--ink);
+    font: inherit;
+    text-align: start;
+    cursor: pointer;
+    transition: transform 0.2s, background 0.2s, border-color 0.2s;
+  }
+
+  .atlas-panel :global(.item:hover),
+  .atlas-panel :global(.item[aria-current='true']) {
+    transform: translateX(2px);
+    border-color: var(--c, var(--accent));
+    background: color-mix(in srgb, var(--c, var(--accent)) 10%, var(--surface-raised));
+  }
+
+  :global(:lang(ar)) .atlas-panel :global(.item:hover) {
+    transform: translateX(-2px);
+  }
+
+  .atlas-panel :global(.item-line) {
+    grid-area: mark;
+    inline-size: 0.28rem;
+    block-size: 2.2rem;
+    border-radius: 2px;
+    background: var(--c);
+  }
+
+  .atlas-panel :global(.item-dot) {
+    grid-area: mark;
+    inline-size: 0.75rem;
+    block-size: 0.75rem;
+    border-radius: 50%;
+    background: var(--c, var(--ink-muted));
+  }
+
+  .atlas-panel :global(.item-other .item-dot) {
+    background: color-mix(in srgb, var(--accent) 50%, transparent);
+    inline-size: 0.5rem;
+    block-size: 0.5rem;
+    justify-self: center;
+  }
+
+  .atlas-panel :global(.item-title) {
+    grid-area: title;
+    font-weight: 600;
+    font-size: 0.92rem;
+    line-height: 1.3;
+  }
+
+  .atlas-panel :global(.item-sub) {
+    grid-area: sub;
+    color: var(--ink-muted);
+    font-size: 0.78rem;
+    line-height: 1.3;
+  }
+
+  .atlas-panel :global(.item .ap-trad) {
+    grid-column: 2;
+    justify-self: start;
+    margin: 0.25rem 0 0;
+  }
+
+  .atlas-panel :global(.none) {
+    color: var(--ink-muted);
+  }
+
+  .atlas-panel :global(.back) {
+    margin-block-end: 0.5rem;
+    padding: 0.3rem 0.8rem;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    background: var(--surface-raised);
+    color: var(--ink);
+    font: inherit;
+    font-size: 0.82rem;
+    cursor: pointer;
+  }
+
+  .atlas-panel :global(.back:hover) {
+    border-color: var(--accent);
+  }
+
+  .atlas-panel :global(.journey-open) {
+    --c: var(--accent);
+    padding: 0.2rem 0.2rem 0.4rem 0.9rem;
+    border-inline-start: 4px solid var(--c);
+  }
+
+  .atlas-panel :global(.jo-person) {
+    margin: 0;
+    color: var(--c);
+    font-size: 0.78rem;
+    font-weight: 700;
+  }
+
+  .atlas-panel :global(.journey-open h3) {
+    margin: 0.1rem 0 0.4rem;
+    font-size: var(--step-1);
+  }
+
+  .atlas-panel :global(.jo-summary) {
+    margin: 0 0 0.4rem;
+    font-size: 0.92rem;
+  }
+
+  .atlas-panel :global(.btn) {
+    margin-block-start: 0.4rem;
+    padding: 0.3rem 0.9rem;
+    border: 0;
+    border-radius: 999px;
+    background: var(--ink);
+    color: var(--surface);
+    font: inherit;
+    font-size: 0.82rem;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  .atlas-panel :global(.steps) {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    counter-reset: none;
+  }
+
+  .atlas-panel :global(.steps > li) {
+    display: flex;
+    gap: 0.7rem;
+    padding-block: 0.55rem;
+    border-block-end: 1px solid var(--line);
+  }
+
+  .atlas-panel :global(.steps > li.is-trad .step-n) {
+    background: var(--surface-raised);
+    color: var(--c);
+    border: 2px dashed var(--c);
+  }
+
+  .atlas-panel :global(.step-n) {
+    flex: none;
+    display: grid;
+    place-items: center;
+    inline-size: 1.6rem;
+    block-size: 1.6rem;
+    border-radius: 50%;
+    background: var(--c);
+    color: #fff;
+    font-size: 0.78rem;
+    font-weight: 700;
+  }
+
+  .atlas-panel :global(.step-body) {
+    min-inline-size: 0;
+    flex: 1;
+  }
+
+  .atlas-panel :global(.step-body p) {
+    margin: 0.15rem 0 0.3rem;
+    font-size: 0.88rem;
+  }
+
+  .atlas-panel :global(.step-place) {
+    padding: 0;
+    border: 0;
+    background: none;
+    color: var(--ink);
+    font: inherit;
+    font-weight: 700;
+    text-align: start;
+    text-decoration: underline;
+    text-decoration-color: var(--c);
+    text-decoration-thickness: 2px;
+    text-underline-offset: 0.2em;
+    cursor: pointer;
+  }
+
+  .atlas-panel :global(.step-refs) {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.3rem;
+  }
+
+  .layers {
+    padding-block: 0.1rem;
+    border-block-start: 1px solid var(--line);
+    font-size: 0.86rem;
+  }
+
+  .layers summary {
+    cursor: pointer;
+    padding-block: 0.4rem;
+    font-weight: 600;
+  }
+
+  .layers label {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding-block: 0.2rem;
+  }
+
+  .layers[open],
+  .legend[open] {
+    flex: 0 1 auto;
+    max-block-size: 8.5rem;
+    overflow: auto;
+    overscroll-behavior: contain;
+  }
+
+  .layers,
+  .legend {
+    flex: none;
+  }
+
+  .legend {
+    border-block-start: 1px solid var(--line);
+    padding-block-start: 0.5rem;
+    font-size: 0.8rem;
+  }
+
+  .legend-title {
+    cursor: pointer;
+    padding-block: 0.1rem 0.3rem;
+    font-weight: 700;
+  }
+
+  .legend ul {
+    display: grid;
+    gap: 0.25rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .legend li {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--ink-muted);
+  }
+
+  .legend li svg,
+  .shapes svg {
+    flex: none;
+    color: var(--accent);
+  }
+
+  .legend b {
+    color: var(--ink);
+  }
+
+  .shapes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.2rem 0.9rem;
+    margin: 0.5rem 0 0;
+    color: var(--ink-muted);
+  }
+
+  .shapes span {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+  }
+
+  .legend-note {
+    margin: 0.5rem 0 0;
+    color: var(--ink-muted);
+    font-size: 0.74rem;
+  }
+
+  /* ───────── The index ───────── */
+  .index {
+    padding-block: 1rem 3rem;
+    border-block-start: 1px solid var(--line);
+  }
+
+  .index h2 {
+    margin-block-start: 2rem;
+  }
+
+  .lede-small {
+    max-inline-size: 44em;
+    color: var(--ink-muted);
+  }
+
+  .index-group h3 {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-block: 2rem 0.8rem;
+    --c: hsl(var(--h) 60% 38%);
+  }
+
+  :global(:root[data-theme='dark']) .index-group h3 {
+    --c: hsl(var(--h) 70% 68%);
+  }
+
+  .index-group h3 small {
+    color: var(--ink-muted);
+    font-family: var(--font-ui);
+    font-size: 0.78rem;
+    font-weight: 400;
+  }
+
+  .index-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 22rem), 1fr));
+    gap: 0.9rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .index-card {
+    block-size: 100%;
+    padding: 1rem 1.1rem;
+    border: 1px solid var(--glass-line);
+    border-radius: var(--depth-radius);
+    background: var(--glass);
+    box-shadow: var(--depth-shadow);
+  }
+
+  .index-card h4 {
+    margin: 0 0 0.3rem;
+    font-family: var(--font-reading);
+    font-size: var(--step-1);
+  }
+
+  .index-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    align-items: center;
+    margin: 0 0 0.5rem;
+    color: var(--ink-muted);
+    font-size: 0.82rem;
+  }
+
+  .index-card p {
+    font-size: 0.94rem;
+  }
+
+  .index-events {
+    display: grid;
+    gap: 0.3rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 0.88rem;
+  }
+
+  .index-events li {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.1rem 0.5rem;
+  }
+
+  .index-events li > span {
+    flex: 1 1 12rem;
+  }
+
+  .index-events a {
+    white-space: nowrap;
+    font-weight: 600;
+  }
+
+  .index :global(.ap-cert),
+  .index :global(.ap-trad) {
+    font-size: 0.72rem;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .popup,
+    .seg,
+    .tool {
+      transition: none;
+    }
+  }
+</style>

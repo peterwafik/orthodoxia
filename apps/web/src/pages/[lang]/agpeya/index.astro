@@ -1,0 +1,325 @@
+---
+import Base from '../../../layouts/Base.astro';
+import { agpeyaPath, hours, sharedSections } from '../../../lib/agpeya/load.ts';
+import { ui } from '../../../lib/agpeya/ui.ts';
+import { LOCALES, type Locale } from '../../../i18n/index.ts';
+
+export function getStaticPaths() {
+  return LOCALES.map((lang) => ({ params: { lang } }));
+}
+
+const locale = Astro.params.lang as Locale;
+const ar = locale === 'ar';
+const text = ui(locale);
+const all = hours();
+const shared = sharedSections();
+
+/** The day dial: midnight at the top, the hours of prayer set round it by the time of day. */
+const R = 150;
+const angle = (hourOfDay: number): number => ((hourOfDay % 24) / 24) * 2 * Math.PI;
+const point = (hourOfDay: number, radius: number): { x: number; y: number } => ({
+  x: Math.round((R + radius * Math.sin(angle(hourOfDay))) * 10) / 10,
+  y: Math.round((R - radius * Math.cos(angle(hourOfDay))) * 10) / 10,
+});
+/** One arm of the Coptic cross (pointed tip, flared shoulders), as offsets from the centre in tip-length units. */
+const ARM: ReadonlyArray<readonly [number, number]> = [
+  [-0.2, -0.5], [-0.443, -0.75], [-0.145, -0.75], [0, -1],
+  [0.145, -0.75], [0.443, -0.75], [0.2, -0.5], [0.2, -0.2],
+];
+/** A small outlined Coptic cross: four such arms, each turned a quarter. `arm` is the centre-to-tip length. */
+const cross = (x: number, y: number, arm: number): string => {
+  const turns: ReadonlyArray<(dx: number, dy: number) => [number, number]> = [
+    (dx, dy) => [dx, dy],
+    (dx, dy) => [-dy, dx],
+    (dx, dy) => [-dx, -dy],
+    (dx, dy) => [dy, -dx],
+  ];
+  const points = turns.flatMap((turn) =>
+    ARM.map(([dx, dy]) => {
+      const [rx, ry] = turn(dx, dy);
+      return `${Math.round((x + rx * arm) * 10) / 10} ${Math.round((y + ry * arm) * 10) / 10}`;
+    }),
+  );
+  return `M${points.join('L')}Z`;
+};
+const marks = all.map((hour) => ({ hour, ...point(hour.at, 112), label: point(hour.at, 138) }));
+const data = JSON.stringify(all.map((hour) => ({ id: hour.id, at: hour.at })));
+---
+
+<Base locale={locale} title={text.title} description={text.metaDescription}>
+  <div class="page-stage">
+    <section class="intro wrap">
+      <div class="intro-text">
+        <h1>{text.title}</h1>
+        <p class="sub">{text.subtitle}</p>
+      </div>
+      <figure class="dial" data-dial data-hours={data} aria-hidden="true">
+        <svg viewBox={`-14 -14 ${R * 2 + 28} ${R * 2 + 28}`} role="presentation">
+          <circle cx={R} cy={R} r="146" class="face"></circle>
+          {Array.from({ length: 24 }, (_, i) => i).map((i) => {
+            const a = point(i, i % 6 === 0 ? 124 : 134);
+            const b = point(i, 143);
+            return <line x1={a.x} y1={a.y} x2={b.x} y2={b.y} class={i % 6 === 0 ? 'tick big' : 'tick'}></line>;
+          })}
+          <g class="hand" data-hand>
+            <line x1={R} y1={R} x2={R} y2="46" class="hand-line"></line>
+            <circle cx={R} cy="46" r="6" class="hand-dot"></circle>
+          </g>
+          <path d={cross(R, R, 16)} class="hub"></path>
+          {marks.map(({ hour, x, y }) => (
+            <path d={cross(x, y, 10)} class="mark" data-mark={hour.id}></path>
+          ))}
+        </svg>
+      </figure>
+    </section>
+
+    <section class="hours wrap" aria-labelledby="hours-title">
+      <h2 id="hours-title">{text.hours}</h2>
+      <ol class="hr-list">
+        {
+          all.map((hour) => {
+            return (
+              <li data-hour-card={hour.id} data-at={hour.at}>
+                <a class="hr" href={agpeyaPath(locale, hour.id)}>
+                  <span class="now" hidden>{text.prayNow}</span>
+                  <span class="hr-time">{hour.time[locale]}</span>
+                  <span class="hr-title">{hour.title[locale]}</span>
+                  <span class="hr-other" lang={ar ? 'en' : 'ar'} dir={ar ? 'ltr' : 'rtl'}>{hour.title[ar ? 'en' : 'ar']}</span>
+                </a>
+              </li>
+            );
+          })
+        }
+      </ol>
+    </section>
+
+    <section class="every wrap" aria-labelledby="every-title">
+      <h2 id="every-title">{text.everyHour}</h2>
+      <p>{text.everyHourNote}</p>
+      <ul>
+        {shared.map((section) => (
+          <li><a href={`${agpeyaPath(locale, 'prime')}#${section.id}`}>{section.title[locale]}</a></li>
+        ))}
+      </ul>
+    </section>
+  </div>
+
+  <script>
+    // The hand shows the time on the reader's clock, and the card of the nearest hour of prayer is marked "Now".
+    const dial = document.querySelector<HTMLElement>('[data-dial]');
+    const hand = document.querySelector<SVGGElement>('[data-hand]');
+    const hours = JSON.parse(dial?.dataset['hours'] ?? '[]') as { id: string; at: number }[];
+    const clock = new Date();
+    const now = clock.getHours() + clock.getMinutes() / 60;
+    hand?.setAttribute('transform', `rotate(${(now / 24) * 360} 150 150)`);
+    // Midnight is 24 and also 0; the Veil follows Compline closely, so it is not offered as "now" unless it is nearest.
+    let best: { id: string; gap: number } | undefined;
+    for (const hour of hours) {
+      const raw = Math.abs(now - hour.at);
+      const gap = Math.min(raw, 24 - raw);
+      if (best === undefined || gap < best.gap) best = { id: hour.id, gap };
+    }
+    if (best !== undefined) {
+      document.querySelector(`[data-hour-card="${best.id}"] .now`)?.removeAttribute('hidden');
+      document.querySelector(`[data-hour-card="${best.id}"] .hr`)?.classList.add('is-now');
+      document.querySelector(`[data-mark="${best.id}"]`)?.classList.add('is-now');
+    }
+  </script>
+</Base>
+
+<style>
+  .intro {
+    display: grid;
+    gap: 1rem 3rem;
+    align-items: center;
+    padding-block: clamp(1.75rem, 4.5vw, 3rem) 1rem;
+  }
+
+  @media (min-width: 52rem) {
+    .intro {
+      grid-template-columns: minmax(0, 1fr) minmax(0, 17rem);
+    }
+  }
+
+  h1 {
+    font-size: var(--step-hero);
+    margin-block-end: 0.3rem;
+  }
+
+  .sub {
+    margin: 0;
+    color: var(--ink-muted);
+    font-family: var(--font-reading);
+    font-size: var(--step-2);
+  }
+
+  /* The dial is drawn in thin lines, like the site's icons. */
+  .dial {
+    margin: 0;
+    justify-self: center;
+    inline-size: min(100%, 17rem);
+  }
+
+  .dial svg {
+    display: block;
+    inline-size: 100%;
+    block-size: auto;
+    overflow: visible;
+  }
+
+  .face {
+    fill: none;
+    stroke: var(--ink);
+    stroke-width: 1.4;
+  }
+
+  .tick {
+    stroke: var(--ink-muted);
+    stroke-width: 1;
+    stroke-linecap: round;
+  }
+
+  .tick.big {
+    stroke: var(--ink);
+    stroke-width: 1.6;
+  }
+
+  .hand-line {
+    stroke: var(--accent);
+    stroke-width: 1.6;
+    stroke-linecap: round;
+  }
+
+  .hand-dot,
+  .hub {
+    fill: none;
+    stroke: var(--accent);
+    stroke-width: 1.6;
+    stroke-linecap: round;
+  }
+
+  /* The hours of prayer are small crosses; the current one is drawn heavier, in burgundy. */
+  .mark {
+    fill: none;
+    stroke: var(--ink);
+    stroke-width: 1.3;
+    stroke-linejoin: miter;
+    transition: stroke 0.3s, stroke-width 0.3s, fill 0.3s;
+  }
+
+  .mark.is-now {
+    fill: var(--burgundy);
+    stroke: var(--burgundy);
+    stroke-width: 1.6;
+  }
+
+  .hub {
+    stroke-linejoin: miter;
+  }
+
+  .hours,
+  .every {
+    padding-block: 1rem 2rem;
+  }
+
+  .hours h2,
+  .every h2 {
+    font-size: var(--step-2);
+  }
+
+  /* The hours: an outline and nothing else; the line darkens on hover. */
+  .hr-list {
+    display: grid;
+    gap: 0.9rem;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 15rem), 1fr));
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .hr {
+    position: relative;
+    display: grid;
+    gap: 0.25rem;
+    align-content: start;
+    block-size: 100%;
+    padding: 1rem 1.1rem 1.1rem;
+    border: 1px solid var(--line);
+    border-radius: 1rem;
+    background: transparent;
+    color: var(--ink);
+    text-decoration: none;
+    transition: border-color 0.2s, background 0.2s;
+  }
+
+  .hr:hover,
+  .hr:focus-visible {
+    border-color: var(--ink);
+    background: var(--tint);
+  }
+
+  .hr.is-now {
+    border-color: var(--burgundy);
+  }
+
+  .now {
+    position: absolute;
+    inset-block-start: 0.85rem;
+    inset-inline-end: 0.9rem;
+    padding: 0 0.55rem;
+    border: 1px solid var(--burgundy);
+    border-radius: 999px;
+    color: var(--burgundy);
+    font-size: 0.7rem;
+    font-weight: 600;
+  }
+
+  .hr-time {
+    color: var(--ink-muted);
+    font-size: 0.78rem;
+    padding-inline-end: 3rem;
+  }
+
+  .hr-title {
+    font-family: var(--font-reading);
+    font-size: var(--step-2);
+    font-weight: 600;
+    line-height: 1.2;
+  }
+
+  .hr-other {
+    color: var(--ink-muted);
+    font-family: var(--font-reading);
+  }
+
+  .every p {
+    max-inline-size: 48em;
+    color: var(--ink-muted);
+  }
+
+  .every ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin: 0.6rem 0 1rem;
+    padding: 0;
+    list-style: none;
+  }
+
+  .every li a {
+    display: inline-block;
+    padding: 0.25rem 0.8rem;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    background: transparent;
+    color: var(--ink);
+    font-size: 0.88rem;
+    text-decoration: none;
+  }
+
+  .every li a:hover {
+    border-color: var(--accent);
+    background: var(--tint);
+  }
+
+</style>

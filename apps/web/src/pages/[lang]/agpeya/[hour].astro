@@ -1,0 +1,686 @@
+---
+import '@fontsource/noto-sans-coptic/coptic-400.css';
+import Base from '../../../layouts/Base.astro';
+import { HOUR_IDS, agpeyaPath, hours, psalmLink, readingLinks, sharedSections, type Hour, type Section } from '../../../lib/agpeya/load.ts';
+import { KIND_NAMES, ui } from '../../../lib/agpeya/ui.ts';
+import { LOCALES, type Locale } from '../../../i18n/index.ts';
+
+export function getStaticPaths() {
+  return LOCALES.flatMap((lang) => HOUR_IDS.map((hour) => ({ params: { lang, hour } })));
+}
+
+const locale = Astro.params.lang as Locale;
+const ar = locale === 'ar';
+const text = ui(locale);
+const all = hours();
+const index = all.findIndex((candidate) => candidate.id === Astro.params.hour);
+const hour = all[index] as Hour;
+const previous = all[index - 1];
+const next = all[index + 1];
+type Lang = 'ar' | 'en' | 'cop';
+const order: Lang[] = ar ? ['ar', 'en', 'cop'] : ['en', 'ar', 'cop'];
+const langName: Record<Lang, string> = { ar: text.langAr, en: text.langEn, cop: text.langCop };
+
+const about = hour.about[locale] !== '' ? hour.about[locale] : hour.about[ar ? 'en' : 'ar'];
+const shared = hour.id === 'prime' ? [] : sharedSections();
+const kindName = (section: Section): string => KIND_NAMES[section.kind]?.[locale] ?? '';
+
+/** The contents: consecutive psalms are one row of numbers, everything else one link. */
+type Entry = { type: 'psalms'; items: Section[] } | { type: 'section'; item: Section };
+const contents: Entry[] = [];
+for (const section of hour.sections) {
+  const last = contents[contents.length - 1];
+  if (section.kind === 'psalm' && last?.type === 'psalms') last.items.push(section);
+  else if (section.kind === 'psalm') contents.push({ type: 'psalms', items: [section] });
+  else contents.push({ type: 'section', item: section });
+}
+const hourName = (id: string): string => all.find((h) => h.id === id)?.title[locale] ?? id;
+const title = `${hour.title[locale]} | ${text.title}`;
+---
+
+<Base locale={locale} title={title} description={about.slice(0, 220)}>
+  <div class="ag" data-agpeya data-show={locale} data-locale={locale} style="--n:1">
+    <header class="ag-head wrap">
+      <nav class="crumbs" aria-label={text.title}>
+        <a href={agpeyaPath(locale)}>{text.title}</a>
+        <span aria-hidden="true">{ar ? '‹' : '›'}</span>
+        <span>{hour.title[locale]}</span>
+      </nav>
+      <h1>{hour.title[locale]}</h1>
+      <p class="time">{hour.time[locale]}</p>
+      {about !== '' && <p class="about">{about}</p>}
+      <ol class="hour-pills" aria-label={text.hours}>
+        {
+          all.map((other) => (
+            <li>
+              <a href={agpeyaPath(locale, other.id)} aria-current={other.id === hour.id ? 'page' : undefined}>{other.title[locale]}</a>
+            </li>
+          ))
+        }
+      </ol>
+    </header>
+
+    <div class="ag-layout wrap">
+      <aside class="ag-side">
+        <div class="box" role="group" aria-label={text.languages}>
+          <p class="box-title">{text.languages}</p>
+          {
+            order.map((lang) => (
+              <label>
+                <input type="checkbox" data-lang={lang} checked={lang === locale} />
+                <span>{langName[lang]}</span>
+              </label>
+            ))
+          }
+        </div>
+        <nav class="box toc" aria-label={text.contents}>
+          <p class="box-title">{text.contents}</p>
+          <ul>
+            {
+              contents.map((entry) =>
+                entry.type === 'section' ? (
+                  <li>
+                    <a href={`#${entry.item.id}`}>{entry.item.title[locale]}</a>
+                  </li>
+                ) : (
+                  <li class="toc-psalms">
+                    <span>{text.psalm}</span>
+                    <span class="chips">
+                      {entry.items.map((psalm) => (
+                        <a href={`#${psalm.id}`}>{psalm.psalm}</a>
+                      ))}
+                    </span>
+                  </li>
+                ),
+              )
+            }
+          </ul>
+        </nav>
+      </aside>
+
+      <div class="ag-main">
+        {
+          shared.length > 0 && (
+            <section class="shared" aria-labelledby="shared-title">
+              <h2 id="shared-title">{text.everyHour}</h2>
+              <p>{text.everyHourNote}</p>
+              <ul>
+                {shared.map((section) => (
+                  <li>
+                    <a href={`${agpeyaPath(locale, 'prime')}#${section.id}`}>{section.title[locale]}</a>
+                  </li>
+                ))}
+              </ul>
+            </section>
+          )
+        }
+
+        {
+          hour.sections.map((section) => {
+            const reading = section.ref === undefined ? [] : readingLinks(section.ref, locale);
+            const psalm = section.psalm === undefined ? undefined : psalmLink(locale, section.psalm);
+            return (
+              <section class="sec" id={section.id} data-kind={section.kind} aria-labelledby={`${section.id}-title`}>
+                <header>
+                  <p class="kind">
+                    {kindName(section)}
+                    {section.shared === true && <span class="badge">{text.sharedBadge}</span>}
+                  </p>
+                  <h2 id={`${section.id}-title`}>{section.title[locale]}</h2>
+                  {section.subtitle !== undefined && <p class="sub">{section.subtitle[locale]}</p>}
+                  {(reading.length > 0 || psalm !== undefined) && (
+                    <p class="bible-links">
+                      {reading.map((link) => (
+                        <a href={link.h}>{text.readInBible}: <bdi>{link.l}</bdi></a>
+                      ))}
+                      {psalm !== undefined && <a href={psalm.href}>{text.readInBible}: <bdi>{psalm.label}</bdi></a>}
+                    </p>
+                  )}
+                </header>
+
+                {section.table !== undefined ? (
+                  <div class="veil-table">
+                    {section.table.map((group) => (
+                      <div class="veil-group">
+                        <h3>{hourName(group.hour)}</h3>
+                        <ul>
+                          {group.items.map((item) => (
+                            <li>
+                              <a class="num" href={`${agpeyaPath(locale, group.hour)}#psalm-${item.psalm}`} title={text.goToPsalm}>{item.psalm}</a>
+                              <span>{item[locale]}</span>
+                              <small lang={ar ? 'en' : 'ar'} dir={ar ? 'ltr' : 'rtl'}>{item[ar ? 'en' : 'ar']}</small>
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    ))}
+                  </div>
+                ) : (
+                  <div class="cols">
+                    {order.map((lang) => (
+                      <div class="col" data-l={lang} lang={lang === 'cop' ? 'cop' : lang} dir={lang === 'ar' ? 'rtl' : 'ltr'}>
+                        <p class="col-name">{langName[lang]}</p>
+                        {section.text[lang].length === 0 ? <p class="missing">{text.missing}</p> : section.text[lang].map((paragraph) => <p>{paragraph}</p>)}
+                      </div>
+                    ))}
+                  </div>
+                )}
+              </section>
+            );
+          })
+        }
+
+        {hour.sections.some((section) => section.kind === 'psalm') && <p class="note">{text.psalmNumbering}</p>}
+
+        <nav class="step" aria-label={text.hours}>
+          {previous !== undefined && (
+            <a class="step-prev" href={agpeyaPath(locale, previous.id)}>
+              <small>{text.previous}</small>
+              <b>{previous.title[locale]}</b>
+            </a>
+          )}
+          <a class="step-all" href={agpeyaPath(locale)}>{text.allHours}</a>
+          {next !== undefined && (
+            <a class="step-next" href={agpeyaPath(locale, next.id)}>
+              <small>{text.next}</small>
+              <b>{next.title[locale]}</b>
+            </a>
+          )}
+        </nav>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Which languages are shown: the reader's choice is kept on this device; the page's own language is the start.
+    const root = document.querySelector<HTMLElement>('[data-agpeya]');
+    if (root !== null) {
+      const boxes = [...root.querySelectorAll<HTMLInputElement>('input[data-lang]')];
+      const key = 'orthodoxia:agpeya-languages';
+      let chosen: string[] = [root.dataset['locale'] ?? 'en'];
+      try {
+        const saved = JSON.parse(localStorage.getItem(key) ?? 'null') as unknown;
+        if (Array.isArray(saved) && saved.length > 0 && saved.every((item) => ['ar', 'en', 'cop'].includes(String(item)))) chosen = saved.map(String);
+      } catch {
+        // storage unavailable: the page's language is shown
+      }
+      const apply = (): void => {
+        root.dataset['show'] = chosen.join(' ');
+        root.style.setProperty('--n', String(chosen.length));
+        for (const box of boxes) box.checked = chosen.includes(box.dataset['lang'] ?? '');
+      };
+      for (const box of boxes) {
+        box.addEventListener('change', () => {
+          const lang = box.dataset['lang'] ?? '';
+          const now = boxes.filter((other) => other.checked).map((other) => other.dataset['lang'] ?? '');
+          chosen = now.length === 0 ? [lang] : now;
+          try {
+            localStorage.setItem(key, JSON.stringify(chosen));
+          } catch {
+            // not remembered
+          }
+          apply();
+        });
+      }
+      apply();
+    }
+  </script>
+</Base>
+
+<style>
+  .ag-head {
+    padding-block: clamp(1.5rem, 4vw, 2.75rem) 1rem;
+  }
+
+  .crumbs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin-block-end: 0.7rem;
+    color: var(--ink-muted);
+    font-size: 0.86rem;
+  }
+
+  .crumbs a {
+    color: var(--accent);
+  }
+
+  h1 {
+    font-size: var(--step-hero);
+    margin-block-end: 0.3rem;
+  }
+
+  .time {
+    margin: 0 0 0.8rem;
+    color: var(--burgundy);
+    font-weight: 600;
+  }
+
+  .about {
+    max-inline-size: 50em;
+    font-family: var(--font-reading);
+    font-size: var(--step-1);
+    color: var(--ink-muted);
+  }
+
+  .hour-pills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin: 1rem 0 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .hour-pills a {
+    display: inline-block;
+    padding: 0.3rem 0.9rem;
+    border: 1px solid var(--glass-line);
+    border-radius: 999px;
+    background: var(--glass);
+    color: var(--ink);
+    font-size: 0.9rem;
+    text-decoration: none;
+    transition: background 0.2s, transform 0.2s;
+  }
+
+  .hour-pills a:hover {
+    background: var(--tint);
+    transform: translateY(-1px);
+  }
+
+  .hour-pills a[aria-current='page'] {
+    background: var(--ink);
+    color: var(--surface);
+  }
+
+  .ag-layout {
+    display: grid;
+    gap: 1.5rem;
+    padding-block: 1rem 3rem;
+  }
+
+  @media (min-width: 62rem) {
+    .ag-layout {
+      grid-template-columns: 15rem minmax(0, 1fr);
+      align-items: start;
+    }
+
+    .ag-side {
+      position: sticky;
+      inset-block-start: 5.5rem;
+      max-block-size: calc(100vh - 7rem);
+      overflow: auto;
+    }
+  }
+
+  .box {
+    margin-block-end: 0.9rem;
+    padding: 0.8rem 0.9rem;
+    border: 1px solid var(--glass-line);
+    border-radius: 1.1rem;
+    background: var(--glass);
+    box-shadow: var(--depth-shadow);
+    font-size: 0.9rem;
+  }
+
+  .box-title {
+    margin: 0 0 0.4rem;
+    color: var(--burgundy);
+    font-size: 0.74rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+
+  :global(:lang(ar)) .box-title {
+    letter-spacing: 0;
+    font-size: 0.85rem;
+  }
+
+  .box label {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding-block: 0.2rem;
+    cursor: pointer;
+  }
+
+  .toc ul {
+    display: grid;
+    gap: 0.15rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .toc a {
+    color: var(--ink);
+    text-decoration: none;
+  }
+
+  .toc li > a {
+    display: block;
+    padding: 0.2rem 0.3rem;
+    border-radius: 0.5rem;
+  }
+
+  .toc li > a:hover {
+    background: var(--tint);
+  }
+
+  .toc-psalms {
+    display: grid;
+    gap: 0.2rem;
+    padding-block: 0.2rem;
+  }
+
+  .toc-psalms > span:first-child {
+    color: var(--ink-muted);
+    font-size: 0.8rem;
+  }
+
+  .chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem;
+  }
+
+  .chips a {
+    min-inline-size: 2rem;
+    padding: 0.1rem 0.4rem;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    background: var(--surface-raised);
+    font-size: 0.8rem;
+    text-align: center;
+  }
+
+  .chips a:hover {
+    border-color: var(--accent);
+    background: var(--tint);
+  }
+
+  .shared {
+    margin-block-end: 1.5rem;
+    padding: 1rem 1.2rem;
+    border: 1px solid var(--glass-line);
+    border-inline-start: 4px solid var(--accent);
+    border-radius: var(--depth-radius);
+    background: var(--glass);
+  }
+
+  .shared h2 {
+    margin-block-end: 0.3rem;
+    font-size: var(--step-1);
+  }
+
+  .shared p {
+    margin: 0 0 0.6rem;
+    color: var(--ink-muted);
+    font-size: 0.92rem;
+  }
+
+  .shared ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .shared a {
+    display: inline-block;
+    padding: 0.2rem 0.7rem;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    background: var(--surface-raised);
+    color: var(--ink);
+    font-size: 0.86rem;
+    text-decoration: none;
+  }
+
+  .shared a:hover {
+    border-color: var(--accent);
+    background: var(--tint);
+  }
+
+  /* One section of the hour. */
+  .sec {
+    margin-block-end: 1.4rem;
+    padding: 1.1rem 1.3rem 1.3rem;
+    border: 1px solid var(--glass-line);
+    border-radius: var(--depth-radius);
+    background: var(--glass);
+    box-shadow: var(--depth-shadow);
+    scroll-margin-block-start: 5.5rem;
+  }
+
+  .sec header {
+    margin-block-end: 0.8rem;
+    padding-block-end: 0.6rem;
+    border-block-end: 1px solid var(--line);
+  }
+
+  .kind {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    margin: 0;
+    color: var(--burgundy);
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+
+  :global(:lang(ar)) .kind {
+    letter-spacing: 0;
+    font-size: 0.85rem;
+  }
+
+  .badge {
+    padding: 0.05rem 0.55rem;
+    border: 1px solid var(--accent);
+    border-radius: 999px;
+    color: var(--accent);
+    font-size: 0.7rem;
+    letter-spacing: 0;
+    text-transform: none;
+  }
+
+  .sec h2 {
+    margin: 0.15rem 0 0;
+    font-size: var(--step-2);
+  }
+
+  .sub {
+    margin: 0.2rem 0 0;
+    color: var(--ink-muted);
+  }
+
+  .bible-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin: 0.5rem 0 0;
+  }
+
+  .bible-links a {
+    display: inline-block;
+    padding: 0.15rem 0.7rem;
+    border-radius: 999px;
+    background: var(--ink);
+    color: var(--surface);
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .bible-links a:hover {
+    background: var(--accent);
+    color: #fff;
+  }
+
+  /* The columns: only the chosen languages show. */
+  .cols {
+    display: grid;
+    gap: 1.2rem 2rem;
+    grid-template-columns: repeat(var(--n), minmax(0, 1fr));
+  }
+
+  @media (max-width: 52rem) {
+    .cols {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .col {
+    display: none;
+  }
+
+  [data-show~='ar'] .col[data-l='ar'],
+  [data-show~='en'] .col[data-l='en'],
+  [data-show~='cop'] .col[data-l='cop'] {
+    display: block;
+  }
+
+  .col-name {
+    display: none;
+    margin: 0 0 0.4rem;
+    color: var(--ink-muted);
+    font-size: 0.74rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+
+  [data-n-multiple] .col-name {
+    display: block;
+  }
+
+  .col p {
+    margin: 0 0 0.9em;
+  }
+
+  .col[data-l='ar'] {
+    font-family: var(--font-reading);
+    font-size: 1.28rem;
+    line-height: 2.05;
+  }
+
+  .col[data-l='ar'] p {
+    font-family: 'Noto Naskh Arabic Variable', var(--font-reading);
+  }
+
+  .col[data-l='en'] {
+    font-family: 'Source Serif 4 Variable', Georgia, serif;
+    font-size: 1.1rem;
+    line-height: 1.7;
+  }
+
+  .col[data-l='cop'] {
+    font-family: 'Noto Sans Coptic', 'Source Serif 4 Variable', serif;
+    font-size: 1.08rem;
+    line-height: 1.85;
+  }
+
+  .missing {
+    color: var(--ink-muted);
+    font-family: var(--font-ui);
+    font-size: 0.85rem;
+    font-style: italic;
+  }
+
+  .note {
+    margin-block: 0 1.5rem;
+    color: var(--ink-muted);
+    font-size: 0.86rem;
+  }
+
+  /* The psalms of the Veil. */
+  .veil-table {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 19rem), 1fr));
+  }
+
+  .veil-group h3 {
+    margin: 0 0 0.4rem;
+    font-size: var(--step-1);
+  }
+
+  .veil-group ul {
+    display: grid;
+    gap: 0.3rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .veil-group li {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    column-gap: 0.7rem;
+    align-items: center;
+    padding: 0.3rem 0.5rem;
+    border-radius: 0.8rem;
+    background: var(--surface-raised);
+  }
+
+  .veil-group .num {
+    grid-row: span 2;
+    min-inline-size: 2.4rem;
+    padding: 0.2rem 0.4rem;
+    border-radius: 999px;
+    background: var(--ink);
+    color: var(--surface);
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .veil-group small {
+    color: var(--ink-muted);
+  }
+
+  .step {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between;
+    gap: 0.75rem;
+    margin-block-start: 1.5rem;
+  }
+
+  .step a {
+    display: grid;
+    padding: 0.7rem 1.1rem;
+    border: 1px solid var(--glass-line);
+    border-radius: 1.1rem;
+    background: var(--glass);
+    color: var(--ink);
+    text-decoration: none;
+    box-shadow: var(--depth-shadow);
+    transition: transform 0.2s;
+  }
+
+  .step a:hover {
+    transform: translateY(-2px);
+  }
+
+  .step small {
+    color: var(--ink-muted);
+  }
+
+  .step-all {
+    align-content: center;
+    font-weight: 600;
+  }
+
+  .step-next {
+    margin-inline-start: auto;
+    text-align: end;
+  }
+</style>

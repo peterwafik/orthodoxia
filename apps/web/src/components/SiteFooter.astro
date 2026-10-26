@@ -14,13 +14,18 @@ interface Props {
 
 const { locale } = Astro.props;
 const strings = t(locale);
-const pages = [
+/** The reading pages are one group: the Bible, the Agpeya and the cross-references. */
+const readings = [
   { href: localePath(locale, 'bible'), label: strings.nav.bible },
-  { href: localePath(locale, 'holy-mass'), label: strings.nav.holyMass },
-  { href: localePath(locale, 'church-history'), label: strings.nav.churchHistory },
-  { href: localePath(locale, 'apologetics'), label: strings.nav.faith },
+  { href: localePath(locale, 'agpeya'), label: strings.nav.agpeya },
   { href: explorerPath(locale), label: strings.nav.explore },
   { href: explorerPath(locale, 'threads'), label: strings.home.cards.threads.title },
+];
+const pages = [
+  { href: localePath(locale, 'holy-mass'), label: strings.nav.holyMass },
+  { href: localePath(locale, 'church-history'), label: strings.nav.churchHistory },
+  { href: localePath(locale, 'bible-atlas'), label: strings.nav.atlas },
+  { href: localePath(locale, 'apologetics'), label: strings.nav.faith },
 ];
 const project = [
   { href: localePath(locale, 'about'), label: strings.nav.about },
@@ -36,7 +41,15 @@ const year = new Date().getFullYear();
       <span>{strings.meta.siteName}</span>
     </a>
     <div class="sf-links">
+      <nav aria-label={strings.nav.readings}>
+        <span class="sf-group">{strings.nav.readings}</span>
+        <ul>
+          {readings.map((link) => <li><a href={link.href}>{link.label}</a></li>)}
+        </ul>
+      </nav>
+      <span class="sf-divider" aria-hidden="true"></span>
       <nav aria-label={strings.footer.pages}>
+        <span class="sf-group">{strings.footer.pages}</span>
         <ul>
           {pages.map((link) => <li><a href={link.href}>{link.label}</a></li>)}
         </ul>
@@ -107,6 +120,20 @@ const year = new Date().getFullYear();
     inline-size: 1px;
     block-size: 1.3rem;
     background: var(--line);
+  }
+
+  /* Each group of links has its name before it. */
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0 0.9rem;
+  }
+
+  .sf-group {
+    color: var(--ink);
+    font-size: 0.8rem;
+    font-weight: 700;
   }
 
   nav a {

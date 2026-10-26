@@ -1,29 +1,37 @@
 ---
 /**
- * The brand mark: an equal-armed Coptic cross whose arms each end in three points (twelve in all,
- * traditionally read as the twelve apostles). Decorative; the site name beside it is the label.
+ * The brand mark: an outlined Coptic cross, the same shape as the hours on the Agpeya dial.
+ * Decorative; the site name beside it is the label.
  */
 interface Props {
   size?: number;
 }
 const { size = 26 } = Astro.props;
-const arms = [0, 90, 180, 270];
+
+/** One arm (pointed tip, flared shoulders) as offsets from the centre, in tip-length units. */
+const ARM: ReadonlyArray<readonly [number, number]> = [
+  [-0.2, -0.5], [-0.443, -0.75], [-0.145, -0.75], [0, -1],
+  [0.145, -0.75], [0.443, -0.75], [0.2, -0.5], [0.2, -0.2],
+];
+const turns: ReadonlyArray<(dx: number, dy: number) => [number, number]> = [
+  (dx, dy) => [dx, dy],
+  (dx, dy) => [-dy, dx],
+  (dx, dy) => [-dx, -dy],
+  (dx, dy) => [dy, -dx],
+];
+const round = (n: number): number => Math.round(n * 100) / 100;
+const outline = `M${turns
+  .flatMap((turn) =>
+    ARM.map(([dx, dy]) => {
+      const [rx, ry] = turn(dx, dy);
+      return `${round(32 + rx * 29)} ${round(32 + ry * 29)}`;
+    }),
+  )
+  .join('L')}Z`;
 ---
 
-<svg class="cross" viewBox="0 0 32 32" width={size} height={size} aria-hidden="true">
-  <g fill="currentColor">
-    <rect x="13.5" y="6" width="5" height="20" rx="0.5"></rect>
-    <rect x="6" y="13.5" width="20" height="5" rx="0.5"></rect>
-    {
-      arms.map((angle) => (
-        <g transform={`rotate(${angle} 16 16)`}>
-          <circle cx="16" cy="2.6" r="1.9" />
-          <circle cx="12.7" cy="4.4" r="1.6" />
-          <circle cx="19.3" cy="4.4" r="1.6" />
-        </g>
-      ))
-    }
-  </g>
+<svg class="cross" viewBox="0 0 64 64" width={size} height={size} aria-hidden="true">
+  <path d={outline} fill="none" stroke="currentColor" stroke-width="2.8" stroke-linejoin="miter"></path>
 </svg>
 
 <style>

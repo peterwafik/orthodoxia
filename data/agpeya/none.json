@@ -1,0 +1,336 @@
+{
+ "id": "none",
+ "order": 4,
+ "title": {
+  "en": "None",
+  "ar": "الساعة التاسعة"
+ },
+ "time": {
+  "en": "The ninth hour (about 3 p.m.)",
+  "ar": "الساعة التاسعة (نحو الثالثة عصرًا)"
+ },
+ "at": 15,
+ "about": {
+  "en": "The Ninth Hour commemorates the redemptive death of Christ in the flesh on the cross, and His acceptance of the repentance of the Thief. We pray that the Savior may mortify out carnal lusts, make us partakers of His grace, and accept our repentance when we cry out with the Thief, \"Remember us, O Lord, when You come into Your Kingdom.\" (Luke 23:42).",
+  "ar": "هذه الصلاة تذكرنا بموت المسيح الخلاصي بالجسد على الصليب، وقبوله توبة اللص اليمين. ونطلب منه أن يميت شهواتنا الجسدية، ويجعلنا شركاء لمجده، وأن يقبل صلواتنا عندما نقول مع اللص: \"اذكرني يا رب متى جئت في ملكوتك.\" (لو32:24)"
+ },
+ "sections": [
+  {
+   "id": "opening",
+   "kind": "opening",
+   "title": {
+    "en": "Opening of the hour",
+    "ar": "مقدمة الساعة"
+   },
+   "text": {
+    "en": [
+     "The prayer of the ninth hour of the blessed day, we offer to Christ our King and our God, beseeching Him to forgive us our sins."
+    ],
+    "ar": [
+     "تسبحة الساعة التاسعة من النهار المبارك أقدمها للمسيح ملكي وإلهي وأرجوه أن يغفر لي خطاياي."
+    ],
+    "cop": [
+     "Ⲡⲓϩⲩⲙⲛⲟⲩⲥ ⲛ̀ⲧⲉ ϯⲁϫⲡ ⲑϯ ⲙ̀ⲡⲓⲉ̀ϩⲟⲟⲩ ⲉⲧⲥ̀ⲙⲁⲣⲱⲟⲩⲧ ϯⲛⲁⲧⲏⲓϥ ⲙ̀Ⲡⲭ̅ⲥ ⲡⲁⲟⲩⲣⲟ ⲟⲩⲟϩ ⲡⲁⲛⲟⲩϯ ϯⲛⲁⲉⲣϩⲉⲗⲡⲓⲥ ⲉⲣⲟϥ ⲛ̀ⲧⲉϥⲭⲁ ⲛⲁⲛⲟⲃⲓ ⲛⲏⲓ ⲉⲃⲟⲗ"
+    ]
+   }
+  },
+  {
+   "id": "psalm-95",
+   "kind": "psalm",
+   "title": {
+    "en": "Psalm 95",
+    "ar": "المزمور الخامس والتسعون"
+   },
+   "psalm": 95,
+   "text": {
+    "en": [
+     "Sing to the Lord a new song; sing to the Lord, all the earth. Sing to the Lord, bless His name: proclaim His salvation day to day. Declare His glory among the Gentiles, and His wonders among all peoples. For the Lord is great, and greatly praised: He is fearful above all the gods. For all the gods of the nations are devils, but the Lord made the heavens. Majesty and splendor are before Him: holiness and great beauty are in His Holy. Bring to the Lord, O the families of the Gentiles, bring to the Lord glory and honor. Bring to the Lord the glory of His name: carry offerings, and go into His court. Worship the Lord in His holy court: let all the earth tremble before His face. Say among the nations, “The Lord reigned on a wood: for He has established the world that it shall not be moved: He will judge the peoples in righteousness.” Let the heavens rejoice, and the earth exult; let the sea be moved: and its fullness. The plains shall rejoice, and all things in them: then all the trees of the forest shall exult before the face of the Lord: for He is coming to judge the earth; He will judge the world in justice, and the peoples with His truth. ALLELUIA."
+    ],
+    "ar": [
+     "سبحوا الرب تسبيحا جديدا، سبحي الرب يا كل الأرض، سبحوا الرب وباركوا اسمه. بشروا من يوم إلى يوم بخلاصه. حدثوا في الأمم بمجده وبين جميع الشعوب بعجائبه، لأن الرب عظيم هو ومسبح جدا. مرهوب على كل الآلهة لأن كل آلهة الأمم شياطين، أما الرب فصنع السموات. الجلال والبهاء قدامه، الطهر والجمال العظيم في قدسه.",
+     "قدموا للرب يا جميع قبائل الأمم، قدموا للرب مجدا وكرامة، قدموا للرب مجدا لاسمه. احملوا الذبائح وادخلوا دياره، اسجدوا للرب في دياره المقدسة. فلتتزلزل الأرض كلها من أمام وجهه. قولوا بين الأمم إن الرب قد ملك على خشبة، وأيضا ثبت المسكونة فلن تتزعزع. يدين الشعوب بالاستقامة. فلتفرح السموات ولتبتهج الأرض وليعج البحر وجميع ملئه، تفرح الوديان وكل ما فيها، حينئذ يبتهج كل شجر الغاب أمام وجه الرب، لأنه يأتي ليدين الأرض، يدين المسكونة بالعدل والشعوب بالاستقامة هلليلويا"
+    ],
+    "cop": [
+     "Ϩⲱⲥ ⲉⲠⲟ̅ⲥ̅ ϧⲉⲛ ⲟⲩϩⲱⲥ ⲙ̀ⲃⲉⲣⲓ· ϩⲱⲥ ⲉⲠⲟ̅ⲥ̅ ⲡ̀ⲕⲁϩⲓ ⲧⲏⲣϥ· ϩⲱⲥ ⲉⲠⲟ̅ⲥ̅ ⲥ̀ⲙⲟⲩ ⲉⲡⲉϥⲣⲁⲛ· ϩⲓϣⲉⲛⲛⲟⲩϥⲓ ⲙ̀ⲡⲉϥⲟⲩϫⲁⲓ ϧⲁⲧϩⲏ ⲛ̀ⲉ̀ϩⲟⲟⲩ. Ⲥⲁϫⲓ ⲙ̀ⲡⲉϥⲱⲟⲩ ϧⲉⲛ ⲛⲓⲉⲑⲛⲟⲥ· ⲛⲉⲙ ⲛⲉϥϣ̀ⲫⲏⲣⲓ ϧⲉⲛ ⲛⲓⲗⲁⲟⲥ ⲧⲏⲣⲟⲩ. Ϫⲉ ⲟⲩⲛⲓϣϯ ⲡⲉ Ⲡⲟ̅ⲥ̅ ⲟⲩⲟϩ ϥ̀ⲥ̀ⲙⲁⲣⲱⲟⲩⲧ ⲉⲙⲁϣⲱ· ϥ̀ⲟⲓ ⲛ̀ϩⲟϯ ⲉϫⲉⲛ ⲛⲓⲛⲟⲩϯ ⲧⲏⲣⲟⲩ. Ϫⲉ ⲛⲓⲛⲟⲩϯ ⲧⲏⲣⲟⲩ ⲛ̀ⲧⲉ ⲛⲓⲉⲑⲛⲟⲥ ϩⲁⲛⲇⲉⲙⲱⲛ ⲛⲉ· Ⲡⲟ̅ⲥ̅ ⲇⲉ ⲛ̀ⲑⲟϥ ⲁϥⲑⲁⲙⲓⲟ ⲛ̀ⲛⲓⲫⲏⲟⲩⲓ. Ⲟⲩⲟⲩⲱⲛϩ ⲉⲃⲟⲗ ⲛⲉⲙ ⲟⲩⲥⲁⲓⲉ̀ ⲥⲉⲭⲏ ⲙ̀ⲡⲉϥⲙ̀ⲑⲟ· ⲟⲩⲧⲟⲩⲃⲟ ⲛⲉⲙ ⲟⲩⲛⲓϣϯ ⲙ̀ⲙⲉⲧⲥⲁⲓⲉ̀ ⲉⲧϧⲉⲛ ⲡⲉⲑⲟⲩⲁⲃ ⲛ̀ⲧⲁϥ. Ⲁⲛⲓⲟⲩⲓ̀ ⲙ̀Ⲡⲟ̅ⲥ̅ ⲛⲓⲙⲉⲧⲓⲱⲧ ⲧⲏⲣⲟⲩ ⲛ̀ⲧⲉ ⲛⲓⲉⲑⲛⲟⲥ· ⲁⲛⲓⲟⲩⲓ̀ ⲙ̀Ⲡⲟ̅ⲥ̅ ⲛ̀ⲟⲩⲱⲟⲩ ⲛⲉⲙ ⲟⲩⲧⲁⲓⲟ· ⲁⲛⲓⲟⲩⲓ̀ ⲙ̀Ⲡⲟ̅ⲥ̅ ⲛ̀ⲟⲩⲱⲟⲩ ⲙ̀ⲡⲉϥⲣⲁⲛ. Ϥⲁⲓ ⲛ̀ϩⲁⲛϣⲟⲩϣⲱⲟⲩϣⲓ ⲙⲁϣⲉⲛⲱⲧⲉⲛ ⲉϧⲟⲩⲛ ⲉⲛⲉϥⲁⲩⲗⲏⲟⲩ· ⲟⲩⲱϣⲧ ⲙ̀Ⲡⲟ̅ⲥ̅ ϧⲉⲛ ⲧⲉϥⲁⲩⲗⲏ ⲉⲑ̅ⲩ. Ⲙⲁⲣⲉϥⲕⲓⲙ ⲉⲃⲟⲗϩⲁ ⲡⲉϥϩⲟ ⲛ̀ϫⲉ ⲡ̀ⲕⲁϩⲓ ⲧⲏⲣϥ. Ⲁϫⲟⲥ ϧⲉⲛ ⲛⲓⲉⲑⲛⲟⲥ ϫⲉ ⲁⲠⲟ̅ⲥ̅ ⲉⲣⲟⲩⲣⲟ ⲉⲃⲟⲗϩⲓ ⲟⲩϣⲉ· ⲕⲉ ⲅⲁⲣ ⲁϥⲧⲁϩⲟ ⲛ̀ϯⲟⲓⲕⲟⲩⲙⲉⲛⲏ ⲉⲣⲁⲧⲥ ⲑⲁⲓ ⲉⲧⲉ ⲛ̀ⲥ̀ⲛⲁⲕⲓⲙ ⲁⲛ· ϥ̀ⲛⲁϯϩⲁⲡ ⲉϩⲁⲛⲗⲁⲟⲥ ϧⲉⲛ ⲟⲩⲥⲱⲟⲩⲧⲉⲛ. Ⲙⲁⲣⲟⲩⲟⲩⲛⲟϥ ⲛ̀ϫⲉ ⲛⲓⲫⲏⲟⲩⲓ̀· ⲟⲩⲟϩ ⲙⲁⲣⲉϥⲑⲉⲗⲏⲗ ⲛ̀ϫⲉ ⲡ̀ⲕⲁϩⲓ· ⲙⲁⲣⲉϥⲕⲓⲙ ⲛ̀ϫⲉ ⲫ̀ⲓⲟⲙ ⲛⲉⲙ ⲡⲉϥⲙⲟϩ ⲧⲏⲣϥ. Ⲉⲩⲉ̀ⲣⲁϣⲓ ⲛ̀ϫⲉ ⲛⲓⲙⲉϣϣⲟϯ ⲛⲉⲙ ϩⲱⲃ ⲛⲓⲃⲉⲛ ⲉⲧⲉ ⲛ̀ϧⲏⲧⲟⲩ· ⲧⲟⲧⲉ ⲉⲩⲉ̀ⲑⲉⲗⲏⲗ ⲛ̀ϫⲉ ⲛⲓϣ̀ϣⲏⲛ ⲧⲏⲣⲟⲩ ⲛ̀ⲧⲉ ⲡⲓⲁϩϣ̀ϣⲏⲛ· ⲉⲃⲟⲗ ϧⲁⲧϩⲏ ⲙ̀ⲡ̀ϩⲟ ⲙ̀Ⲡⲟ̅ⲥ̅ ϫⲉ ϥ̀ⲛⲏⲟⲩ ⲉϯϩⲁⲡ ⲉⲡ̀ⲕⲁϩⲓ. Ϥ̀ⲛⲁϯϩⲁⲡ ⲉϯⲟⲓⲕⲟⲩⲙⲉⲛⲏ ϧⲉⲛ ⲟⲩⲇⲓⲕⲉⲟⲥⲩⲛⲏ ⲛⲉⲙ ϩⲁⲛⲗⲁⲟⲥ ϧⲉⲛ ⲧⲉϥⲙⲉⲑⲙⲏⲓ. ⲁⲗ̅"
+    ]
+   }
+  },
+  {
+   "id": "psalm-96",
+   "kind": "psalm",
+   "title": {
+    "en": "Psalm 96",
+    "ar": "المزمور السادس والتسعون"
+   },
+   "psalm": 96,
+   "text": {
+    "en": [
+     "The Lord reigns, let the earth exult, let the many islands rejoice. Cloud and darkness are round about Him; righteousness and judgement are the uprightness of His throne. Fire shall precede Him, and with a flame shall burn up His enemies who surround Him. His lightings lightened the world; the earth saw, and trembled. The mountains melted like wax before the face of the Lord, before the face of the Lord of the whole earth. The heavens have declared His righteousness, and all the peoples have seen His glory. All those who worship graven images and boast in their idols shall be ashamed. Worship Him all you His angels. Zion heard and rejoiced; and the daughters of Judea exulted, because of Your judgements, O Lord. For You are Lord most high over all the earth; You are greatly exalted above all the gods. You who love the Lord, hate evil; the Lord preserves the souls of His saints; He will deliver them from the hands of the sinners. Light has shined for the righteous, and gladness for the upright in their heart. Rejoice in the Lord, you righteous; and praise the remembrance of His holiness. ALLELUIA."
+    ],
+    "ar": [
+     "الرب قد ملك فلتتهلل الأرض، ولتفرح الجزائر الكثيرة. سحاب وضباب حوله، العدل والقضاء قام كرسيه، النار تسبق فتسلك أمامه، وبلهيب تحرق أعداءه الذين حوله. أضاءت بروقه المسكونة. نظرت الأرض فتزلزلت، ذابت الجبال مثل الشمع من قدام وجه الرب، من أمام وجه رب الأرض كلها. أخبرت السموات بعدله، وعاينت جميع الشعوب مجده. يخزى جميع الساجدين لصنعة الأيدي، المفتخرين بأصنامهم. اسجدوا لله يا جميع ملائكته. سمعت صهيون ففرحت، وتهللت بنات يهوذا، من أجل أحكامك يا رب. لأنك أنت هو الرب العالي على كل الأرض، ارتفعت جدا فوق جميع الآلهة. يا محبي الرب أبغضوا الشر. إن الرب يحفظ نفوس أبراره، وينجيهم من أيدي الخطاة. نور أشرق للصديقين وفرح للمستقيمي القلوب. افرحوا أيها الصديقون بالرب. واعترفوا لذكر قدسه. هلليلويا."
+    ],
+    "cop": [
+     "ⲉⲣⲟⲩⲣⲟ ⲙⲁⲣⲉ ⲡ̀ⲕⲁϩⲓ ⲑⲉⲗⲏⲗ· ⲙⲁⲣⲟⲩⲛⲟϥ ⲙ̀ⲙⲱⲟⲩ ⲛ̀ϫⲉ ⲛⲓⲛⲏⲥⲟⲥ ⲉⲧⲟϣ. Ⲟⲩϭⲏⲡⲓ ⲛⲉⲙ ⲟⲩⲅ̀ⲛⲟⲫⲟⲥ ⲉⲧⲕⲱϯ ⲉⲣⲟϥ· ⲟⲩⲙⲉⲑⲙⲏⲓ ⲛⲉⲙ ⲡ̀ϩⲁⲡ ⲡⲉ ⲡ̀ⲥⲱⲟⲩⲧⲉⲛ ⲙ̀ⲡⲉϥⲑ̀ⲣⲟⲛⲟⲥ. Ⲟⲩⲭ̀ⲣⲱⲙ ⲉϥⲉ̀ⲉⲣϣⲟⲣⲡ ⲙ̀ⲙⲟϣⲓ ⲙ̀ⲡⲉϥⲙ̀ⲑⲟ· ⲟⲩⲟϩ ϧⲉⲛ ⲟⲩϣⲁϩ ⲉϥⲉ̀ⲕⲱⲣϩ ⲛ̀ⲛⲉϥϫⲁϫⲓ ⲉⲧⲕⲱϯ ⲉⲣⲟϥ. Ⲛⲉϥⲥⲉⲧⲉⲃⲣⲏϫ ⲁⲩⲉⲣⲟⲩⲱⲓⲛⲓ ⲉϯⲟⲓⲕⲟⲩⲙⲉⲛⲏ· ⲁϥⲛⲁⲩ ⲛ̀ϫⲉ ⲡ̀ⲕⲁϩⲓ ⲟⲩⲟϩ ⲁϥⲕⲓⲙ. Ⲙ̀ⲫ̀ⲣⲏϯ ⲛ̀ⲟⲩⲙⲟⲩⲗϩ ⲁⲩⲃⲱⲗ ⲉⲃⲟⲗ ⲛ̀ϫⲉ ⲛⲓⲧⲱⲟⲩ ⲉⲃⲟⲗϩⲁ ⲡ̀ϩⲟ ⲙ̀Ⲡⲟ̅ⲥ̅ ⲙ̀ⲡ̀ⲕⲁϩⲓ ⲧⲏⲣϥ. Ⲛⲓⲫⲏⲟⲩⲓ̀ ⲁⲩⲥⲁϫⲓ ⲛ̀ⲧⲉϥⲙⲉⲑⲙⲏⲓ· ⲟⲩⲟϩ ⲁⲩⲛⲁⲩ ⲉⲡⲉϥⲱⲟⲩ ⲛ̀ϫⲉ ⲛⲓⲗⲁⲟⲥ ⲧⲏⲣⲟⲩ. Ⲉⲩⲉ̀ϭⲓϣⲓⲡⲓ ⲧⲏⲣⲟⲩ ⲛ̀ϫⲉ ⲛⲏⲉⲑⲟⲩⲱϣⲧ ⲛ̀ⲛⲓⲙⲟⲛⲕ ⲛ̀ϫⲓϫ· ⲛⲏⲉⲧϣⲟⲩϣⲟⲩ ⲙ̀ⲙⲱⲟⲩ ⲛ̀ϧ̀ⲣⲏⲓ ϧⲉⲛ ⲛⲟⲩⲓ̀ⲇⲱⲗⲟⲛ. Ⲟⲩⲱϣⲧ ⲛⲁϥ ⲛⲉϥⲁⲅⲅⲉⲗⲟⲥ ⲧⲏⲣⲟⲩ· ⲁⲥⲥⲱⲧⲉⲙ ⲛ̀ϫⲉ Ⲥⲓⲱⲛ ⲟⲩⲟϩ ⲁⲥⲟⲩⲛⲟϥ· ⲁⲩⲑⲉⲗⲏⲗ ⲛ̀ϫⲉ ⲛⲓϣⲉⲣⲓ ⲛ̀ⲧⲉ ϯⲒⲟⲩⲇⲉⲁ ⲉⲑⲃⲉ ⲛⲉⲕϩⲁⲡ Ⲡⲟ̅ⲥ̅. Ϫⲉ ⲛ̀ⲑⲟⲕ ⲡⲉ Ⲡⲟ̅ⲥ̅ ⲉⲧϭⲟⲥⲓ ϩⲓϫⲉⲛ ⲡ̀ⲕⲁϩⲓ ⲧⲏⲣϥⲑ ⲁⲕϭⲓⲥⲓ ⲉⲙⲁϣⲱ ⲉϩⲟⲧⲉ ⲛⲓⲛⲟⲩϯ ⲧⲏⲣⲟⲩ· ⲛⲏⲉⲑⲙⲉⲓ ⲙ̀Ⲡⲟ̅ⲥ̅ ⲙⲉⲥⲧⲉ ⲡⲓⲡⲉⲧϩⲱⲟⲩ. Ϫⲉ ϥ̀ⲛⲁⲁⲣⲉϩ ⲛ̀ϫⲉ Ⲡⲟ̅ⲥ̅ ⲉⲛⲓⲯⲩⲭⲏ ⲛ̀ⲧⲉ ⲛⲏⲉ̅ⲑ̅ⲩ ⲛ̀ⲧⲁϥ· ⲟⲩⲟϩ ϥ̀ⲛⲁⲛⲁϩⲙⲟⲩ ⲉⲃⲟⲗϧⲉⲛ ⲛⲉⲛϫⲓϫ ⲛ̀ⲧⲉ ⲛⲓⲣⲉϥⲉⲣⲛⲟⲃⲓ. Ⲟⲩⲟⲩⲱⲓⲛⲓ ⲁϥϣⲁⲓ ⲛ̀ⲛⲓⲑ̀ⲙⲏⲓ ⲛⲉⲙ ⲟⲩⲟⲩⲛⲟϥ ⲛ̀ⲛⲏⲉⲧⲥⲟⲩⲧⲱⲛ ϧⲉⲛ ⲡⲟⲩϩⲏⲧ· ⲟⲩⲛⲟϥ ⲛ̀ⲓⲑ̀ⲙⲏⲓ ϧⲉⲛ Ⲡⲟ̅ⲥ̅· ⲟⲩⲟϩ ⲟⲩⲱⲛϩ ⲉⲃⲟⲗ ⲙ̀ⲫ̀ⲙⲉⲩⲓ ⲛ̀ⲧⲉ ⲧⲉϥⲙⲉⲧⲁⲅⲓⲟⲥ. ⲁ̅ⲗ"
+    ]
+   }
+  },
+  {
+   "id": "psalm-97",
+   "kind": "psalm",
+   "title": {
+    "en": "Psalm 97",
+    "ar": "المزمور السابع والتسعون"
+   },
+   "psalm": 97,
+   "text": {
+    "en": [
+     "Sing to the Lord a new song; for the Lord has wrought wonderful works, His right hand and His holy arm, have wrought life for Him. The Lord has made known His salvation; before the nations He has revealed his righteousness. He has remembered His mercy to Jacob, and His truth to the house of Israel; the ends of all the earth have seen the salvation of our God. Shout to the Lord, all the earth; sing and exult, and sing psalms. Sing to the Lord with a harp, with a harp and a voice of psalm, with directed trumpets, and a sound of a trumpet of horn. Shout joyfully before the Lord King. Let the sea be moved, and its fullness, the world and all who dwell in it. The rivers shall clap their hands together; and the mountains shall exult before the Lord. For He comes to judge the earth: He will judge the world with righteousness, and the nations with uprightness. ALLELUIA."
+    ],
+    "ar": [
+     "سبحوا الرب تسبيحا جديدا لأن الرب قد صنع أعمالا عجيبة، خلصت له يمينه وذراعه القدوس، أعلن الرب خلاصه وكشف قدام الأمم عدله. ذكر رحمته ليعقوب وحقه لبيت إسرائيل. نظرت أقاصي الأرض جميعا خلاص إلهنا. هللوا للرب يا كل الأرض، سبحوا وهللوا ورتلوا. رتلوا للرب بالقيثارة، بالقيثارة وصوت المزمار. بأبواق خافقة وصوت بوق القرن، هللوا أمام الرب الملك. فليعج البحر وكل ملئه، المسكونة وكل الساكنين فيها. تصفق جميع الأنهار، الجبال تبتهج أمام وجه الرب، لأنه أتى ليدين الأرض، يدين المسكونة بالعدل والشعوب بالاستقامة هلليلويا."
+    ],
+    "cop": [
+     "Ⲯⲁⲗⲙⲟⲥ ϥⲍ̅ ⲛ̀ⲧⲉ Ⲇⲁⲩⲓⲇ Ϩⲱⲥ ⲉⲠⲟ̅ⲥ̅ ϧⲉⲛ ⲟⲩϩⲱⲥ ⲙ̀ⲃⲉⲣⲓ· ϫⲉ ⲁϥⲓ̀ⲣⲓ ⲛ̀ϩⲁⲛϩ̀ⲃⲏⲟⲩⲓ̀ ⲉⲩⲟⲓ ⲛ̀ϣ̀ⲫⲏⲣⲓ ⲛ̀ϫⲉ Ⲡⲟ̅ⲥ̅· ⲁⲥⲧⲁⲛϧⲟ ⲛⲁϥ ⲛ̀ϫⲉ ⲧⲉϥⲟⲩⲓ̀ⲛⲁⲙ ⲛⲉⲙ ⲡⲉϥϣⲱⲃϣ ⲉⲑ̅ⲩ. ⲀⲠⲟ̅ⲥ̅ ⲟⲩⲱⲛϩ ⲙ̀ⲡⲉϥⲟⲩϫⲁⲓ ⲉⲃⲟⲗ ⲙ̀ⲡⲉⲙ̀ⲑⲟ ⲛ̀ⲛⲓⲉⲑⲛⲟⲥ· ⲁⲩϭⲱⲣⲡ ⲛ̀ⲧⲉϥⲙⲉⲑⲙⲏⲓ ⲛⲱⲟⲩ ⲉⲃⲟⲗ. Ⲁϥⲉⲣⲫ̀ⲙⲉⲩⲓ ⲙ̀ⲡⲉϥⲛⲁⲓ ⲛ̀Ⲓⲁⲕⲱⲃ· ⲛⲉⲙ ⲧⲉϥⲙⲉⲑⲙⲏⲓ ⲙ̀ⲡ̀ⲏⲓ ⲙ̀ⲡⲓⲒⲥ̅ⲗ̅. Ⲁⲩⲛⲁⲩ ⲉ̀ⲡ̀ⲟⲩϫⲁⲓ ⲙ̀ⲡⲉⲛⲛⲟⲩϯ ⲛ̀ϫⲉ ⲁⲩⲣⲏϫϥ ⲙ̀ⲡ̀ⲕⲁϩⲓ ⲧⲏⲣϥ. Ⲉϣⲗⲏⲗⲟⲩⲓ̀ ⲉⲃⲟⲗ ⲙ̀Ⲡⲟ̅ⲥ̅ ⲡ̀ⲕⲁϩⲓ ⲧⲏⲣϥ· ϩⲱⲥ ⲟⲩⲟϩ ⲑⲉⲗⲏⲗ ⲁⲣⲓⲯⲁⲗⲓⲛ. Ⲁⲣⲓⲯⲁⲗⲓⲛ ⲉⲠⲟ̅ⲥ̅ ϧⲉⲛ ⲟⲩⲕⲩⲑⲁⲣⲁ· ϧⲉⲛ ⲟⲩⲕⲩⲑⲁⲣⲁ ⲛⲉⲙ ⲟⲩⲥ̀ⲙⲏ ⲙ̀ⲯ̀ⲁⲗⲙⲟⲥ· ϧⲉⲛ ϩⲁⲛⲥⲁⲗⲡⲓⲅⲝ ⲉⲩϭⲱⲣⲉⲙ ⲛⲉⲙ ⲟⲩⲥ̀ⲙⲏ ⲛ̀ⲥⲁⲗⲡⲓⲅⲅⲟⲥ ⲛ̀ⲧⲁⲡ. Ⲉϣⲗⲏⲗⲟⲩⲓ̀ ⲉⲃⲟⲗ ⲙ̀ⲡⲉⲙ̀ⲑⲟ ⲙ̀ⲡ̀ⲟⲩⲣⲟ Ⲡⲟ̅ⲥ̅· ⲙⲁⲣⲉϥⲕⲓⲙ ⲛ̀ϫⲉ ⲫ̀ⲓⲟⲙ ⲛⲉⲙ ⲡⲉϥⲙⲟϩ ⲧⲏⲣϥ· ϯⲟⲓⲕⲟⲩⲙⲉⲛⲏ ⲛⲉⲙ ⲟⲩⲟⲛ ⲛⲓⲃⲉⲛ ⲉⲧϣⲟⲡ ⲛ̀ϧⲏⲧⲥ. Ϩⲁⲛⲓⲁⲣⲱⲟⲩ ⲉⲩⲉ̀ⲕⲱⲗϩ ⲛ̀ⲛⲟⲩϫⲓϫ ⲉⲩⲥⲟⲡ· ⲟⲩⲟϩ ⲛⲓⲧⲱⲟⲩ ⲉⲩⲉ̀ⲑⲉⲗⲏⲗ ⲙ̀ⲡⲉⲙ̀ⲑⲟ ⲙ̀Ⲡⲟ̅ⲥ̅ ϫⲉ ⲁϥⲓ̀ ⲉϯϩⲁⲡ ⲉⲡ̀ⲕⲁϩⲓ· ϥ̀ⲛⲁϯϩⲁⲡ ⲉϯⲟⲓⲕⲟⲩⲙⲉⲛⲏ ϧⲉⲛ ⲟⲩⲙⲉⲑⲙⲏⲓ· ⲛⲉⲙ ϩⲁⲛⲗⲁⲟⲥ ϧⲉⲛ ⲟⲩⲥⲱⲟⲩⲧⲉⲛ. ⲁ̅ⲗ̅"
+    ]
+   }
+  },
+  {
+   "id": "psalm-98",
+   "kind": "psalm",
+   "title": {
+    "en": "Psalm 98",
+    "ar": "المزمور الثامن والتسعون"
+   },
+   "psalm": 98,
+   "text": {
+    "en": [
+     "The Lord reigned; let the people rage; He who sits upon the cherubim, let the earth be shaken. The Lord is great in Zion, and is high over all peoples. Let them confess His great name; for it is fearful and holy, and the King's honor loves the judgement. You have prepared uprightness, You have made judgement and justice in Jacob. Exalt the Lord our God, and worship at His footstool; for He is holy. Moses and Aaron among His priests, and Samuel among those who call upon His name; they called upon the Lord, and He heard them. He spoke to them in a pillar of cloud; for they kept His testimonies and the ordinances which He gave them. O Lord our God, You answered them; O God, You became for them a forgiver and an avenger over all their deeds. Exalt you the Lord our God, and worship at His holy mountain; for the Lord our God is holy. ALLELUIA."
+    ],
+    "ar": [
+     "الرب قد ملك فلترتعد الشعوب. الجالس على الشاروبيم فلتتزلزل الأرض. عظيم هو الرب في صهيون ومتعال على كل الشعوب. فليعترفوا لاسمه العظيم لأنه مرهوب وقدوس وكرامة الملك أن يحب العدل أنت هيأت الاستقامة أنت أجريت القضاء والعدل في يعقوب. ارفعوا الرب إلهنا واسجدوا لموطئ قدميه فإنه قدوس هو. موسى وهرون بين كهنته وصموئيل بين الذين يدعون باسمه، كانوا يدعون الرب فيستجيب لهم، بعمود الغمام كان يكلمهم. لأنهم حفظوا شهاداته، والأوامر التي أعطاهم. أيها الرب إلهنا، أنت استجبت لهم. صرت لهم يا الله غفورا، ومنتقما على جميع أعمالهم. ارفعوا الرب إلهنا، واسجدوا في جبله المقدس، فإن الرب إلهنا قدوس. هلليلويا."
+    ],
+    "cop": [
+     "Ⲯⲁⲗⲙⲟⲥ ϥⲏ̅ ⲛ̀ⲧⲉ Ⲇⲁⲩⲓⲇ. ⲁϬⲠⲟ̅ⲥ̅ ⲉⲣⲟⲩⲣⲟ ⲙⲁⲣⲟⲩϫⲱⲛⲧ ⲛ̀ϫⲉ ϩⲁⲛⲗⲁⲟⲥ· ⲫⲏⲉⲧϩⲉⲙⲥⲓ ϩⲓϫⲉⲛ ⲛⲓⲭⲉⲣⲟⲃⲓⲙ ⲙⲁⲣⲉϥⲕⲓⲙ ⲛ̀ϫⲉ ⲡ̀ⲕⲁϩⲓ. Ⲟⲩⲛⲓϣϯ ⲡⲉ Ⲡⲟ̅ⲥ̅ ϧⲉⲛ Ⲥⲓⲱⲛ· ⲟⲩⲟϩ ϥ̀ϭⲟⲥⲓ ⲉϫⲉⲛ ⲛⲓⲗⲁⲟⲥ ⲧⲏⲣⲟⲩ. Ⲙⲁⲣⲟⲩⲟⲩⲱⲛϩ ⲉⲃⲟⲗ ⲙ̀ⲡⲉϥⲛⲓϣϯ ⲛ̀ⲣⲁⲛ ϫⲉ ⲏ̀ⲟⲓ ⲛ̀ϩⲟϯ ⲟⲩⲟϩ ϥ̀ⲟⲩⲁⲃ· ⲟⲩⲟϩ ⲡ̀ⲧⲁⲓⲟ ⲛ̀ⲟⲩⲟⲩⲣⲟ ⲉϥⲙⲉⲓ ⲙ̀ⲡ̀ϩⲁⲡ· ⲛ̀ⲑⲟⲕ ⲁⲕⲥⲟⲃϯ ⲛ̀ⲛⲏⲉⲧⲥⲟⲩⲧⲱⲛ· ⲟⲩϩⲁⲡ ⲛⲉⲙ ⲟⲩⲙⲉⲑⲙⲏⲓ ⲛ̀ⲑⲟⲕ ⲁⲕⲁⲓⲧⲟ ϧⲉⲛ Ⲓⲁⲕⲱⲃ. Ϭⲓⲥⲓ ⲙ̀Ⲡⲟ̅ⲥ̅ ⲟⲉⲛⲛⲟⲩϯ ⲟⲩⲱϣⲧ ⲙ̀ⲫ̀ⲙⲁⲛⲥⲉⲙⲛⲓ ⲛ̀ⲧⲉ ⲛⲉϥϭⲁⲗⲁⲩϫ ϫⲉ ϥ̀ⲟⲩⲁⲃ. Ⲙⲱⲓⲥⲏⲥ ⲛⲉⲙ Ⲁⲁⲣⲱⲛ ϧⲉⲛ ⲛⲉϥⲟⲩⲏⲃ· ⲛⲉⲙ Ⲥⲁⲙⲟⲩⲏⲗ ϧⲉⲛ ⲛⲏⲉⲧⲧⲱⲃϩ ⲙ̀ⲡⲉϥⲣⲁⲛ. Ⲛⲁⲩⲧⲱⲃϩ ⲙ̀Ⲡⲟ̅ⲥ̅ ⲟⲩⲟϩ ⲛ̀ⲑⲟϥ ⲛⲁϥⲥⲱⲧⲉⲙ ⲉⲣⲱⲟⲩ· ϧⲉⲛ ⲟⲩⲥⲧⲩⲗⲗⲟⲥ ⲛ̀ϭⲏⲡⲓ ⲙⲁϥⲥⲁϫⲓ ⲛⲉⲙⲱⲟⲩ· ⲁⲩⲁⲣⲉϩ ⲅⲁⲣ ⲉⲛⲉϥⲙⲉⲧⲙⲉⲑⲣⲉⲩ· ⲛⲉⲙ ⲛⲓϩⲱⲛ ⲉⲧⲁϥⲧⲏⲓⲧⲟⲩ ⲛⲱⲟⲩ. Ⲡⲟ̅ⲥ̅ ⲡⲉⲛⲛⲟⲩϯ ⲛ̀ⲑⲟⲕ ⲛⲁⲕⲥⲱⲧⲉⲙ ⲉⲣⲱⲟⲩ· Ⲫϯ ⲁⲕϣⲱⲡⲓ ⲛⲱⲟⲩ ⲛ̀ⲟⲩⲣⲉϥⲭⲱ ⲉⲃⲟⲗ· ⲛⲉⲙ ⲟⲩⲣⲉϥϭⲓⲙ̀ⲡ̀ϣⲓϣ ⲉ̀ϩ̀ⲣⲏⲓ ⲉϫⲉⲛ ⲛⲟⲩϩ̀ⲃⲏⲟⲩⲓ̀ ⲧⲏⲣⲟⲩ. Ϭⲓⲥⲓ ⲙ̀Ⲡⲟ̅ⲥ̅ ⲡⲉⲛⲛⲟⲩϯ· ⲟⲩⲱϣⲧ ⲙ̀ⲡⲉϥⲧⲱⲟⲩ ⲉ̅ⲑ̅ⲩ· ϫⲉ ϥ̀ⲟⲩⲁⲃ ⲛ̀ϫⲉ Ⲡⲟ̅ⲥ̅ ⲡⲉⲛⲛⲟⲩϯ."
+    ]
+   }
+  },
+  {
+   "id": "psalm-99",
+   "kind": "psalm",
+   "title": {
+    "en": "Psalm 99",
+    "ar": "المزمور التاسع والتسعون"
+   },
+   "psalm": 99,
+   "text": {
+    "en": [
+     "Shout joyfully to the Lord, all the earth. Serve the Lord with gladness; come into His presence with exultation. Know that the Lord Himself is our God; He made us, and not we ourselves; we are His people, and the sheep of His pasture. Enter into His gates with thanksgiving, and His courts with praise; give thanks to Him, praise His name. For the Lord is good, His mercy is forever; and His truth is from generation to generation. ALLELUIA."
+    ],
+    "ar": [
+     "هللوا للرب يا كل الأرض. اعبدوا الرب بالفرح، ادخلوا أمامه بالتهليل. اعلموا أن الرب هو إلهنا، هو صنعنا وليس نحن، ونحن شعبه وغنم رعيته. ادخلوا أبوابه بالاعتراف، ودياره بالتسابيح. اعترفوا له، وباركوا اسمه. فإن الرب صالح هو، والى الأبد رحمته، وإلى جيل فجيل حقه. هلليلويا."
+    ],
+    "cop": [
+     "Ⲉϣⲗⲏⲗⲟⲩⲓ̀ ⲉⲃⲟⲗ ⲙ̀Ⲡⲟ̅ⲥ̅ ⲡ̀ⲕⲁϩⲓ ⲧⲏⲣϥ· ⲁⲣⲓⲃⲱⲕ ⲙ̀Ⲡⲟ̅ⲥ̅ ϧⲉⲛ ⲟⲩⲟⲩⲛⲟϥ· ⲁⲙⲱⲓⲛⲓ ⲙ̀ⲡⲉϥⲙ̀ⲑⲟ ϧⲉⲛ ⲟⲩⲑⲉⲗⲏⲗ. Ⲁⲣⲓⲉⲙⲓ ϫⲉ Ⲡⲟ̅ⲥ̅ ⲛ̀ⲑⲟϥ ⲡⲉ Ⲫϯ· ⲛ̀ⲑⲟϥ ⲁϥⲑⲁⲙⲓⲟⲛ· ⲟⲩⲟϩ ⲁⲛⲟⲛ ⲁⲛ ⲡⲉ· ⲁⲛⲟⲛ ⲇⲉ ⲡⲉ ⲡⲉϥⲗⲁⲟⲥ ⲛⲉⲙ ⲛⲓⲉⲥⲱⲟⲩ ⲛ̀ⲧⲉ ⲡⲉϥⲟ̀ϩⲓ. Ⲁⲙⲱⲓⲛⲓ ⲉϧⲟⲩⲛ ⲉⲛⲉϥⲡⲩⲗⲏⲗ ϧⲉⲛ ⲟⲩⲱⲛϩ ⲉⲃⲟⲗ· ⲛⲉⲙ ⲉϧⲟⲩⲛ ⲉⲛⲉϥⲁⲩⲗⲏⲟⲩ ϧⲉⲛ ϩⲁⲛⲥ̀ⲙⲟⲩ. Ⲟⲩⲱⲛϩ ⲛⲁϥ ⲉⲃⲟⲗ ⲥ̀ⲙⲟⲩ ⲉⲡⲉϥⲣⲁⲛ· ϫⲉ ⲟⲩⲭ̅ⲣ̅ⲥ ⲡⲉ Ⲡⲟ̅ⲥ̅· ϫⲉ ⲡⲉϥⲛⲁⲓ ϣⲟⲡ ϣⲁ ⲉⲛⲉϩ· ⲟⲩⲟϩ ⲧⲉϥⲙⲉⲑⲙⲏⲓ ⲓⲥϫⲉⲛ ϫⲱⲟⲩ ϣⲁ ϫⲱⲟⲩ. ⲁⲗ̅"
+    ]
+   }
+  },
+  {
+   "id": "psalm-100",
+   "kind": "psalm",
+   "title": {
+    "en": "Psalm 100",
+    "ar": "المزمور المائة"
+   },
+   "psalm": 100,
+   "text": {
+    "en": [
+     "I will sing of mercy and judgement, to You, O Lord; I will sing a psalm, and I will have understanding in a blameless way. When will You come to me? I walked in the innocence of my heart, in the midst of my house. I have not set before my eyes any unlawful thing; I have hated transgressors. A perverse heart has not cleaved to me; I have not known the evil one, forasmuch as he turns away from me. He who secretly speaks against his neighbor, him I have driven from me: he who is proud in his eyes and haughty in heart, with him I have not eaten. My eyes were upon all the faithful of the land, that they might sit with me: he who walked in a blameless way, he ministered to me. The proud doer did not dwell in the midst of my house; the unjust speaker did not prosper before my eyes. In the morning I slew all the sinners of the land, that I might wipe out from the city of the Lord all who work iniquity. ALLELUIA."
+    ],
+    "ar": [
+     "رحمة وحكما أسبحك يا رب. أترنم لك. وأتفهم في طريق بلا عيب. متى تأتى إلي؟ لقد كنت أسلك بدعة قلبي في وسط بيتي. لم أضع أمام عيني أمرا يخالف الناموس. صانعي المعصية أبغضت. لم يلصق بي قلب معوج، وعند ميلان الشرير عنى لم أكن أعلم، والذي يغتاب قريبه سرا كنت أطارده، المستكبر بعينيه والمنتفخ القلب لم أوآكله. عيناي على جميع أمناء الأرض لكي أجلسهم معي. السالك في الطريق بلا عيب هذا كان يخدمني. المتكبر لم يسكن في وسط بيتي. المتكلم بالظلم لم يستقم أمام عيني. في أوقات الغدوات كنت أقتل جميع خطاة الأرض، لأبيد من مدينة الرب جميع صانعي الإثم هلليلويا."
+    ],
+    "cop": [
+     "Ⲯⲁⲗⲙⲟⲥ ⲣ Ⲁⲓⲛⲁϩⲱⲥ ⲛⲁⲕ Ⲡⲟ̅ⲥ̅ ⲛ̀ⲟⲩⲛⲁⲓ ⲛⲉⲙ ⲟⲩϩⲁⲡ· ϯⲛⲁⲉⲣⲯⲁⲗⲓⲛ ⲟⲩⲟϩ ⲛ̀ⲧⲁⲕⲁϯ ϧⲉⲛ ⲟⲩⲙⲱⲓⲧ ⲛ̀ⲁⲧⲁⲧϭⲛⲓ· ϫⲉ ⲁⲕⲛⲁⲓ̀ ϣⲁⲣⲟⲓ ⲛ̀ⲑ̀ⲛⲁⲩ. Ⲛⲁⲓⲙⲟϣⲓ ⲡⲉ ϧⲉⲛ ⲑ̀ⲙⲉⲧⲁⲧⲕⲁⲕⲓⲁ ⲛ̀ⲧⲉ ⲡⲁϩⲏⲧ ϧⲉⲛ ⲑ̀ⲙⲏϯ ⲙ̀ⲡⲁⲏⲓ· ⲙ̀ⲡⲓⲭⲱ ⲛ̀ⲟⲩϩⲱⲃ ⲙ̀ⲡⲁⲣⲁⲛⲟⲙⲟⲥ ⲙ̀ⲡⲉⲙ̀ⲑⲟ ⲛ̀ⲛⲁⲃⲁⲗ ⲉⲃⲟⲗ. Ⲁⲓⲙⲉⲥⲧⲉⲥ ⲛⲏⲉⲧⲓ̀ⲣⲓ ⲛ̀ϯⲡⲁⲣⲁⲃⲁⲥⲓⲥ· ⲟⲩϩⲏⲧ ⲉϥⲕⲱⲗϫ ⲙ̀ⲡⲉϥⲧⲟⲙϥ ⲉⲣⲟⲓ· ⲉϥⲛⲁⲣⲓⲕⲓ ⲥⲁⲃⲟⲗ ⲙ̀ⲙⲟⲓ ⲛ̀ϫⲉ ⲡⲓⲡⲉⲧϩⲱⲟⲩ ⲛⲁⲓⲉⲙⲓ ⲁⲛ ⲡⲉ. Ⲫⲏⲉⲧⲥⲁϫⲓ ⲛ̀ⲥⲁ ⲡⲉϥϣ̀ⲫⲏⲣ ⲛ̀ⲭⲱⲡ· ⲫⲁⲓ ⲛⲁⲓϭⲟϫⲓ ⲛ̀ⲥⲱϥ ⲡⲉ· Ⲟⲩⲣⲉϥϩⲓⲡ̀ϩⲟ ϧⲉⲛ ⲛⲉϥⲃⲁⲗ ⲛⲉⲙ ⲟⲩϩⲏⲧ ⲛ̀ⲁⲧⲥⲓ· ⲫⲁⲓ ⲙ̀ⲡⲁⲓⲟⲩⲱⲙ ⲛⲉⲙⲁϥ. Ⲛⲁⲃⲁⲗ ⲉϫⲉⲛ ⲛⲓⲡⲓⲥⲧⲟⲥ ⲧⲏⲣⲟⲩ ⲛ̀ⲧⲉ ⲡ̀ⲕⲁϩⲓ· ⲉⲑⲣⲟⲩⲉⲣϣ̀ⲫⲏⲣ ⲛ̀ϩⲉⲙⲥⲓ ⲛⲉⲙⲏⲓ. Ⲫⲏⲉⲑⲙⲟϣⲓ ϩⲓ ⲟⲩⲙⲱⲓⲧ ⲛ̀ⲁⲧⲁⲧϭⲛⲓ ⲫⲁⲓ ⲛⲁϥϣⲉⲙϣⲓ ⲙ̀ⲙⲟⲓ. Ⲙ̀ⲡⲁϥϣⲱⲡⲓ ϧⲉⲛ ⲑ̀ⲙⲏϯ ⲙ̀ⲡⲁⲏⲓ ⲛ̀ϫⲉ ⲫⲏⲉⲧⲓ̀ⲣⲓ ⲛ̀ⲟⲩⲙⲉⲧⲣⲉϥϩⲓⲡ̀ϩⲟ. Ⲫⲏⲉⲧⲥⲁϫⲓ ⲛ̀ϩⲁⲛϭⲓⲛϫⲟⲛⲥ· ⲙ̀ⲡⲁϥⲥⲱⲟⲩⲧⲉⲛ ⲙ̀ⲡⲉϥⲙ̀ⲑⲟ ⲛ̀ⲛⲁⲃⲁⲗ ⲉⲃⲟⲗ. Ϧⲉⲛ ⲛⲓⲛⲁⲩ ⲛ̀ⲧⲉ ⲧⲟⲟⲩⲓ̀ ⲛⲁⲓϧⲱⲧⲉⲃ ⲛ̀ⲛⲓⲣⲉϥⲉⲣⲛⲟⲃⲓ ⲧⲏⲣⲟⲩ ⲛ̀ⲧⲉ ⲡ̀ⲕⲁϩⲓ· ⲉⲡ̀ϫⲓⲛϥⲱϯ ⲉⲃⲟⲗϧⲉⲛ ⲑ̀ⲃⲁⲕⲓ ⲙ̀Ⲡⲟ̅ⲥ̅ ⲛ̀ⲟⲩⲟⲛ ⲛⲓⲃⲉⲛ ⲉⲧⲉⲣϩⲱⲃ ⲉϯⲁⲛⲟⲙⲓⲁ. ⲁ̅ⲗ̅"
+    ]
+   }
+  },
+  {
+   "id": "psalm-109",
+   "kind": "psalm",
+   "title": {
+    "en": "Psalm 109",
+    "ar": "المزمور المائة والتاسع"
+   },
+   "psalm": 109,
+   "text": {
+    "en": [
+     "The Lord said to my Lord, “Sit on My right hand, until I place Your enemies under Your feet.” A rod of power, the Lord shall send out for You out of Zion: and You shall rule in the midst of Your enemies. With You is dominion in the day of Your power, in the splendor of the saints. From the womb before the morning star I have begotten You. The Lord has sworn and shall not repent: “You are the Priest forever, after the order of Melchizedek.” The Lord is at Your right hand; He dashed kings in the day of His wrath. He shall judge among the nations. He shall fill them with dead bodies, He shall crush the heads of many on the earth. He shall drink of the brook in the way; therefore He shall lift up the head. ALLELUIA."
+    ],
+    "ar": [
+     "قال الرب لربي: اجلس عن يميني حتى أضع أعداءك تحت موطئ قدميك. عصا قوة يرسل لك الرب من صهيون وتسود في وسط أعدائك. معك الرياسة في يوم قوتك، في بهاء القديسين. من البطن قبل كوكب الصبح ولدتك. أقسم الرب ولن يندم أنك أنت هو الكاهن على طقس ملكيصادق. الرب عن يمينك، يحطم في يوم رجزه ملوكا، يقضي بين الأمم ويملأهم جثثا، يسحق رؤوس كثيرين على الأرض. وفي الطريق يشرب الماء من الوادي. لذلك يرفع رأسه هلليلويا."
+    ],
+    "cop": [
+     "Ⲡⲉϫⲉ Ⲡⲟ̅ⲥ̅ ⲙ̀ⲡⲁⲟ̅ⲥ̅ ϫⲉ ϩⲉⲙⲥⲓ ⲥⲁⲧⲁⲟⲩⲓ̀ⲛⲁⲙ· ϣⲁϯⲭⲱ ⲛ̀ⲛⲉⲕϫⲁϫⲓ ⲥⲁⲡⲉⲥⲏⲧ ⲛ̀ⲛⲉⲕϭⲁⲗⲁⲩϫ. Ⲟⲩϣ̀ⲃⲱⲧ ⲛ̀ϫⲟⲙ ⲛ̀ⲧⲁⲕ ⲉϥⲉ̀ⲟⲩⲣⲡϥ ⲛ̀ϫⲉ Ⲡⲟ̅ⲥ̅ ⲉⲃⲟⲗϧⲉⲛ Ⲥⲓⲱⲛ· ⲟⲩⲟϩ ⲉⲕⲉ̀ⲉⲣⲟ̅ⲥ̅ ϧⲉⲛ ⲑ̀ⲙⲏϯ ⲛ̀ⲛⲉⲕϫⲁϫⲓ. Ⲥ̀ϣⲟⲡ ⲛⲉⲙⲁⲕ ⲛ̀ϫⲉ ϯⲁⲣⲭⲏ ϧⲉⲛ ⲡ̀ⲉ̀ϩⲟⲟⲩ ⲛ̀ⲧⲉ ⲧⲉⲕϫⲟⲙ· ϧⲉⲛ ⲫ̀ⲟⲩⲱⲓⲛⲓ ⲛ̀ⲧⲉ ⲛⲏⲉ̅ⲑ̅ⲩ. Ⲉⲃⲟⲗϧⲉⲛ ⲑ̀ⲛⲉϫⲓ ϧⲁϫⲱϥ ⲙ̀ⲡⲓⲥⲓⲟⲩ ⲛ̀ⲧⲉ ϩⲁⲛⲁⲧⲟⲟⲩⲓ̀ ⲁⲛⲟⲕ ⲁⲓϫ̀ⲫⲟⲕ. Ⲁϥⲱⲣⲕ ⲛ̀ϫⲉ Ⲡⲟ̅ⲥ̅ ⲟⲩⲟϩ ⲛ̀ⲛⲉϥⲟⲩⲱⲙ ⲛ̀ϩ̀ⲑⲏϥ· ϫⲉ ⲛ̀ⲑⲟⲕ ⲡⲉ ⲫ̀ⲟⲩⲏⲃ ϣⲁ ⲉⲛⲉϩ. Ⲡⲟ̅ⲥ̅ ⲥⲁⲟⲩⲓ̀ⲛⲁⲙ ⲙ̀ⲙⲟⲕ ⲁϥϧⲟⲙϧⲉⲙ ϧⲉⲛ ⲡ̀ⲉ̀ϩⲟⲟⲩ ⲛ̀ⲧⲉ ⲡⲉϥϫⲱⲛⲧ ⲛ̀ϩⲁⲛⲟⲩⲣⲱⲟⲩ. Ⲉϥⲉ̀ϯϩⲁⲡ ϧⲉⲛ ⲛⲓⲉⲑⲛⲟⲥ ⲉϥⲉ̀ⲙⲁϩⲟⲩ ⲛ̀ϩⲁⲛϩ̀ⲧⲟⲡ· ⲟⲩⲟϩ ⲉϥⲉ̀ϧⲟⲙϧⲉⲙ ⲛ̀ⲧ̀ⲁⲫⲉ ⲛ̀ⲟⲩⲙⲏϣ ϩⲓⲉⲛ ⲡ̀ⲕⲁϩⲓ. Ⲉϥⲉ̀ⲥⲉ ⲙⲱⲟⲩ ϩⲓ ⲫ̀ⲙⲱⲓⲧ ⲉⲃⲟⲗϧⲉⲛ ⲟⲩⲙⲟⲩⲛⲥⲱⲣⲉⲙ· ⲉⲑⲃⲉ ⲫⲁⲓ ⲉϥⲉ̀ϭⲓⲥⲓ ⲛ̀ⲟⲩⲁⲫⲉ. ⲁⲗ̅"
+    ]
+   }
+  },
+  {
+   "id": "psalm-110",
+   "kind": "psalm",
+   "title": {
+    "en": "Psalm 110",
+    "ar": "المزمور المائة والعاشر"
+   },
+   "psalm": 110,
+   "text": {
+    "en": [
+     "I will confess You, O Lord, with my whole heart, in the council of the upright, and in their congregation. Great are the works of the Lord, examined are all His wills. Majesty and splendor are His works: and His righteousness endures forever and ever. He has made a remembrance of all His wonders: the Lord is merciful and compassionate. He has given food to those who fear Him: He shall remember His covenant forever. He has declared to His people the power of His works, to give them the inheritance of nations. The works of His hands are truth and justice: all His commandments are faithful: established forever and ever, made in truth and uprightness. He sent redemption to His people: He commanded His covenant forever: holy and fearful is His name. The fear of the Lord is the beginning of wisdom, and understanding is good to all who do according to it. His praise endures forever and ever. ALLELUIA."
+    ],
+    "ar": [
+     "أعترف لك يا رب من كل قلبي. في مجلس المستقيمين وفي مجمعهم. عظيمة هي أعمال الرب، ومشيئاته كلها مفحوصة، جلال وبهاء عمله، وعدله دائم إلى أبد الأبد. صنع ذكرا لجميع عجائبه. رحيم هو الرب ورؤوف، أعطى طعامه لأتقيائه، يذكر إلى الدهر ميثاقه. خبر شعبه بقوة أعماله، ليعطيهم ميراث الأمم. أعمال يديه حق وعدل. كل وصاياه صادقة، ثابتة إلى دهر الدهور، مصنوعة بالحق والاستقامة. أرسل خلاصا لشعبه، أمر بعهده إلى الأبد. اسمه قدوس ومرهوب. رأس الحكمة مخافة الرب، والفهم صالح لكل من يعمل به، وتسبحته دائمة إلى الأبد هلليلويا."
+    ],
+    "cop": [
+     "Ϯⲛⲁⲟⲩⲱⲛϩ ⲛⲁⲕ ⲉⲃⲟⲗ Ⲡⲟ̅ⲥ̅ ϧⲉⲛ ⲡⲁϩⲏⲧ ⲧⲏⲣϥ· ϧⲉⲛ ⲡ̀ⲥⲟϭⲛⲓ ⲛ̀ⲧⲉ ⲛⲏⲉⲧⲥⲟⲩⲧⲱⲛ ⲛⲉⲙ ⲧⲟⲩⲥⲩⲛⲁⲅⲱⲅⲏ· ϩⲁⲛⲛⲓϣϯ ⲛⲉ ⲛⲓϩ̀ⲃⲏⲟⲩⲓ̀ ⲛ̀ⲧⲉ Ⲡⲟ̅ⲥ̅· ⲥⲉϧⲉⲧϧⲱⲧ ⲛ̀ϫⲉ ⲛⲉϥⲟⲩⲱϣ ⲧⲏⲣⲟⲩ. Ⲟⲩⲱⲛϩ ⲉⲃⲟⲗ ⲛⲉⲙ ⲟⲩⲛⲓϣϯ ⲙ̀ⲙⲉⲧⲥⲁⲓⲉ̀ ⲡⲉ ⲡⲉϥϩⲱⲃ· ⲟⲩⲟϩ ⲧⲉϥⲙⲉⲑⲙⲏⲓ ϣⲟⲡ ϣⲁ ⲉⲛⲉϩ ⲛ̀ⲧⲉ ⲡⲓⲉⲛⲉϩ. Ⲁϥⲉⲣⲫ̀ⲙⲉⲩⲓ ⲛ̀ⲛⲉϥϣ̀ⲫⲏⲣ ⲧⲏⲣⲟⲩ· ⲟⲩⲛⲁⲏⲧ ⲟⲩⲟϩ ⲟⲩⲣⲉϥϣⲉⲛϩⲏⲧ ⲡⲉ Ⲡⲟ̅ⲥ̅· ⲁϥϯ ⲛ̀ⲟⲩϧ̀ⲣⲉ ⲛ̀ⲛⲏⲉⲧⲉⲣϩⲟϯ ϧⲁⲧⲉϥϩⲏ. Ⲉϥⲉ̀ⲉⲣⲫ̀ⲙⲉⲩⲓ ⲛ̀ⲧⲉϥⲇⲓⲁⲑⲏⲕⲏ ϣⲁ ⲉⲛⲉϩ. Ⲧ̀ϫⲟⲙ ⲛ̀ⲧⲉ ⲛⲉϥϩ̀ⲃⲏⲟⲩⲓ̀ ⲁϥⲧⲁⲙⲉ ⲡⲉϥⲗⲁⲟⲥ ⲉⲣⲟⲥ ⲉ̀ⲡ̀ϫⲓⲛϯ ⲛⲱⲟⲩ ⲛ̀ⲟⲩⲕ̀ⲗⲏⲣⲟⲛⲟⲙⲓⲁ ⲛ̀ⲧⲉ ϩⲁⲛⲉⲑⲛⲟⲥ. Ⲛⲓϩ̀ⲃⲏⲟⲩⲓ̀ ⲛ̀ⲧⲉ ⲛⲉϥϫⲓϫ ⲟⲩⲙⲉⲑⲙⲏⲓ ⲧⲉ ⲛⲉⲙ ⲟⲩϩⲁⲡⲑ ⲥⲉⲛ̀ϩⲟⲧ ⲛ̀ϫⲉ ⲛⲉϥⲉⲛⲧⲟⲗⲏ ⲧⲏⲣⲟⲩ. Ⲥⲉⲧⲁϫⲣⲏⲟⲩⲧ ϣⲁ ⲉⲛⲉϩ ⲛ̀ⲧⲉ ⲡⲓⲉⲛⲉϩ· ⲉⲩⲉ̀ⲑⲁⲙⲓⲏⲟⲩⲧ ϧⲉⲛ ⲟⲩⲙⲉⲑⲙⲏⲓ ⲛⲉⲙ ⲟⲩⲥⲱⲟⲩⲧⲉⲛ. Ⲁϥⲧⲁⲟⲩⲟ ⲛ̀ⲟⲩⲥⲱϯ ⲙ̀ⲡⲉϥⲗⲁⲟⲥ· ⲁϥϩⲟⲛϩⲉⲛ ⲛ̀ⲧⲉϥⲇⲓⲁⲑⲏⲕⲏ ϣⲁ ⲉⲛⲉϩ· ϥ̀ⲟⲩⲁⲃ ⲛ̀ϫⲉ ⲡⲉϥⲣⲁⲛ ⲟⲩⲟϩ ϥ̀ⲟⲓ ⲛ̀ϩⲟϯ. Ⲧ̀ⲁⲣⲭⲏ ⲛ̀ϯⲥⲟⲫⲓⲁ ϯϩⲟϯ ⲛ̀ⲧⲉ Ⲡⲟ̅ⲥ̅ ⲧⲉ· ⲡⲓⲕⲁϯ ⲇⲉ ⲛⲁⲛⲉϥ ⲛ̀ⲟⲩⲟⲛ ⲛⲓⲃⲉⲛ ⲉⲧⲓ̀ⲣⲓ ⲙ̀ⲙⲟϥ· ⲟⲩⲟϩ ⲡⲉϥⲥ̀ⲙⲟⲩ ϣⲟⲡ ϣⲁ ⲉⲛⲉϩ ⲛ̀ⲧⲉ ⲡⲓⲉⲛⲉϩ. ⲁⲗ"
+    ]
+   }
+  },
+  {
+   "id": "psalm-111",
+   "kind": "psalm",
+   "title": {
+    "en": "Psalm 111",
+    "ar": "المزمور المائة والحادي عشر"
+   },
+   "psalm": 111,
+   "text": {
+    "en": [
+     "Blessed is the man who fears the Lord, and delights greatly in His commandments. His seed shall be mighty in the earth: the generation of the upright shall be blessed. Glory and riches shall be in His house; and His righteousness endures forever. To the upright, light has sprung up in the darkness. The Lord God is compassionate, merciful, and righteous. A good man is he who pities and lends: he shall direct his words with truth. For he shall not be moved forever. The righteous shall be in everlasting remembrance. He shall not be afraid of any evil tidings: his heart is ready trusting the Lord. His heart is established, he shall not move, till he shall look upon his enemies. He has dispersed abroad; he has given to the poor; his righteousness endures forever and ever: his horn shall be exalted with honor. The sinner shall see and be angry, he shall gnash his teeth, and consume away: the desire of the sinner shall perish. ALLELUIA."
+    ],
+    "ar": [
+     "طوبى للرجل الخائف الرب ويهوى وصاياه جدا. يقوى نسله على الأرض. جيل المستقيمين يبارك. مجد وغنى في بيته، وبره يدوم إلى الأبد. نور أشرق في الظلمة للمستقيمين. رحيم هو الرب الإله ورؤوف وبار. صالح هو الرجل الذي يتراءف ويقرض ويدبر أقواله بالحق، لأنه لا يتزعزع إلى الدهر. ذكر الصديق يدوم إلى الأبد، ولا يخشى من خبر السوء. قلبه مستعد متكل على الرب. قلبه ثابت لا يتزعزع حتى يرى بأعدائه. فرق وأعطى المساكين. بره دائم إلى دهر الدهور. يرتفع قرنه بالمجد. الخاطئ يبصر فيغتاظ ويصر بأسنانه ويذوب، شهوة الخاطئ تبيد. هلليلويا."
+    ],
+    "cop": [
+     "Ⲱⲟⲩⲛⲓⲁⲧϥ ⲙ̀ⲡⲓⲣⲱⲙⲓ ⲉⲧⲉⲣϩⲟϯ ϧⲁⲧϩⲏ ⲙ̀Ⲡⲟ̅ⲥ̅· ⲛ̀ϩ̀ⲣⲏⲓ ϧⲉⲛ ⲛⲉϥⲉⲛⲧⲟⲗⲏ ⲉϥⲉ̀ⲟⲩⲱϣⲥ ⲉⲙⲁϣⲱ· ⲉϥⲉ̀ϫⲉⲙϫⲟⲙ ϩⲓϫⲉⲛ ⲡ̀ⲕⲁϩⲓ ⲛ̀ϫⲉ ⲛⲉϥϫ̀ⲣⲟϫ· ⲉⲩⲉ̀ⲥ̀ⲙⲟⲩ ⲉϯⲅⲉⲛⲉⲁ ⲛ̀ⲧⲉ ⲛϣⲉⲧⲥⲟⲩⲧⲱⲛ. Ⲟⲩⲱⲟⲩ ⲛⲉⲙ ⲟⲩⲙⲉⲧⲣⲁⲙⲁⲟ ⲉⲩⲉ̀ϣⲱⲡⲓ ϧⲉⲛ ⲡⲉϥⲏⲓ· ⲟⲩⲟϩ ⲧⲉϥⲙⲉⲑⲙⲏⲓ ϣⲟⲡ ϣⲁ ⲉⲛⲉϩ ⲛ̀ⲧⲉ ⲡⲓⲉⲛⲉϩ. Ⲟⲩⲛⲁⲏⲧ ⲛ̀ⲣⲉϥϣⲉⲛϩⲏⲧ ⲟⲩⲟϩ ⲟⲩⲑ̀ⲙⲏⲓ ⲡⲉ Ⲡⲟ̅ⲥ̅ Ⲫϯ· ⲟⲩⲭ̅ⲣ̅ⲥ ⲛ̀ⲣⲱⲙⲓ ⲡⲉ ⲫⲏⲉⲧϣⲉⲛϩⲏⲧ ⲟⲩⲟϩ ⲉϥϯ ⲉ̀ⲡ̀ⲟⲩϣⲁⲡ· ⲉϥⲉ̀ⲉⲣⲟⲓⲕⲟⲛⲟⲙⲓⲛ ⲛ̀ⲛⲉϥⲥⲁϫⲓ ϧⲉⲛ ⲟⲩϩⲁⲡ· ϫⲉ ⲛ̀ⲛⲉϥⲕⲓⲙ ϣⲁ ⲉⲛⲉϩ. Ⲉϥⲉ̀ϣⲱⲡⲓ ⲛ̀ϫⲉ ⲡⲓⲑ̀ⲙⲏⲓ ⲉⲩⲙⲉⲩⲓ ⲛ̀ⲉ̀ⲛⲉϩ· ⲟⲩⲟϩ ⲛ̀ⲛⲉϥⲉⲣϩⲟϯ ϧⲁⲧϩⲏ ⲛ̀ⲟⲩⲥ̀ⲙⲏ ⲉⲥϩⲱⲟⲩ. Ϥ̀ⲥⲉⲃⲧⲱⲧ ⲛ̀ϫⲉ ⲡⲉϥϩⲏⲧ ⲉ̀ⲉⲣϩⲉⲗⲡⲓⲥ ⲉⲠⲟ̅ⲥ̅· ϥ̀ⲧⲁϫⲣⲏⲟⲩⲧ ⲛ̀ϫⲉ ⲡⲉϥϩⲏⲧ ⲟⲩⲟϩ ⲛ̀ⲛⲉϥⲕⲓⲙ ϣⲁⲧⲉϥϫⲟⲩϣⲧ ⲉϫⲉⲛ ⲛⲉϥϫⲁϫⲓ. Ⲁϥⲥⲱⲣ ⲉⲃⲟⲗ ⲁϥϯ ⲛ̀ⲛⲓϩⲏⲕⲓ· ⲟⲩⲟϩ ⲧⲉϥⲙⲉⲑⲙⲏⲓ ϣⲟⲡ ϣⲁ ⲉⲛⲉϩ ⲛ̀ⲧⲉ ⲡⲓⲉⲛⲉϩ· ⲉϥⲉ̀ϭⲓⲥⲓ ⲛ̀ϫⲉ ⲡⲉϥⲧⲁⲡ ϧⲉⲛ ⲟⲩⲱⲟⲩ. Ⲉϥⲉ̀ⲛⲁⲩ ⲙ̀ϫⲉ ⲛⲓⲣⲉϥⲉⲣⲛⲟⲃⲓ ⲟⲩⲟϩ ⲉϥⲉ̀ϫⲱⲛⲧ· ⲉϥⲉ̀ϧ̀ⲣⲁϫⲣⲉϫ ⲛ̀ⲛⲉϥⲛⲁϫϩⲓ ⲟⲩⲟϩ ⲉϥⲉ̀ⲃⲱⲗ ⲉⲃⲟⲗ· ⲧ̀ⲉ̀ⲡⲓⲑⲩⲙⲓⲁ ⲛ̀ⲧⲉ ⲡⲓⲣⲉϥⲉⲣⲛⲟⲃⲓ ⲉⲥⲉ̀ⲧⲁⲕⲟ. ⲁⲗ̅"
+    ]
+   }
+  },
+  {
+   "id": "psalm-112",
+   "kind": "psalm",
+   "title": {
+    "en": "Psalm 112",
+    "ar": "المزمور المائة والثاني عشر"
+   },
+   "psalm": 112,
+   "text": {
+    "en": [
+     "Praise the Lord, O the servants, praise the name of the Lord. Let the name of the Lord be blessed, from now and forever. From the risings of the sun to its settings, praise the name of the Lord. The Lord is high above all the nations; upon the heavens is His glory. Who is like the Lord our God? Who dwells in the high places, and looks upon the low things in heaven and on the earth: who lifts up a poor person from the earth, and raises up a needy person from the ash heap; to seat him with the princes, even with the princes of his people: who makes a barren woman in a house, rejoicing as a mother of children. ALLELUIA."
+    ],
+    "ar": [
+     "سبحوا الرب أيها الفتيان، سبحوا اسم الرب. ليكن اسم الرب مباركا من الآن والى الأبد. من مشارق الشمس إلى مغاربها باركوا اسم الرب. الرب عال على كل الأمم وفوق السموات مجده. من مثل الرب إلهنا؟! الساكن في الأعالي الناظر إلى المتواضعين في السماء وعلى الأرض، المقيم المسكين من التراب، الرافع البائس من المزبلة، لكي يجلسه مع رؤساء شعبه. الذي يجعل العاقر ساكنة في بيت أم أولاد فرحة هلليلويا."
+    ],
+    "cop": [
+     "Ⲥ̀ⲙⲟⲩ ⲉ̀Ⲡⲟ̅ⲥ̅ ⲛⲓⲁⲗⲱⲟⲩⲓ· ⲥ̀ⲙⲟⲩ ⲉ̀ⲫ̀ⲣⲁⲛ ⲙ̀Ⲡⲟ̅ⲥ̅· ⲙⲁⲣⲉ ⲫ̀ⲣⲁⲛ ⲙ̀Ⲡⲟ̅ⲥ̅ ϣⲱⲡⲓ ⲉϥ1ⲥⲙⲁⲣⲱⲟⲩⲧ ⲓⲥϫⲉⲛ ϯⲛⲟⲩ ⲛⲉⲙ ϣⲁ ⲉ̀ⲛⲉϩ. Ⲓⲥϫⲉⲛ ⲛⲓⲙⲁⲛϣⲁⲓ ⲛ̀ⲧⲉ ⲫ̀ⲣⲏ ϣⲁ ⲛ̀ⲉϥⲙⲁⲛ̀ϩⲱⲧⲡ ⲥ̀ⲙⲟⲩ ⲉ̀ⲫ̀ⲣⲁⲛ ⲙ̀Ⲡⲟ̅ⲥ̅. Ϥ̀ϭⲟⲥⲓ ⲛ̀ϫⲉ Ⲡⲟ̅ⲥ̅ ⲉϫⲱⲛ ⲛⲓⲉⲑⲛⲟⲥ ⲧⲏⲣⲟⲩ· ⲡⲉϥⲱⲟⲩ ⲛ̀ϩ̀ⲣⲏⲓ ϧⲉⲛ ⲛⲓⲫⲏⲟⲩⲓ̀. Ⲛⲓⲙ ⲉⲧⲟⲓ ⲙ̀ⲫ̀ⲣⲏϯ ⲙ̀Ⲡⲟ̅ⲥ̅ ⲡⲉⲛⲛⲟⲩϯ ⲫⲏⲉⲧϣⲟⲡ ϧⲉⲛ ⲛⲏⲉⲧϭⲟⲥⲓ· ⲟⲩⲟϩ ⲉϥϫⲟⲩϣⲧ ⲉϫⲉⲛ ⲛⲓϫⲁⲛⲉⲩ ⲛ̀ϩ̀ⲣⲏⲓ ϧⲉⲛ ⲧ̀ⲫⲉ ⲛⲉⲙ ϩⲓϫⲉⲛ ⲡⲓⲕⲁϩⲓ. Ⲫⲏⲉⲧⲁϥⲧⲟⲩⲛⲟⲥ ⲟⲩϩⲏⲕⲓ ⲉⲃⲟⲗϩⲁ ⲡ̀ⲕⲁϩⲓ· ⲟⲩⲟϩ ⲉϥϭⲓⲥⲓ ⲛ̀ⲟⲩϣⲁⲧⲙⲉⲑⲛⲁⲓ ⲉⲃⲟⲗϩⲁ ⲟⲩⲕⲟⲡⲣⲓⲁ ⲉⲑⲣⲉϥϩⲉⲙⲥⲓ ⲛⲉⲙ ⲛⲓⲁⲣⲭⲱⲛ· ⲛⲉⲙ ⲛⲓⲁⲣⲭⲱⲛ ⲛ̀ⲧⲉ ⲡⲉϥⲗⲁⲟⲥ. Ⲫⲏⲉⲧⲑ̀ⲣⲟ ⲛ̀ⲟⲩⲁϭⲣⲏⲡ ⲉϣⲱⲡⲓ ϧⲉⲛ ⲟⲩⲏⲓ· ⲟⲩⲙⲁⲩ ⲛ̀ⲧⲉ ϩⲁⲛϣⲏⲣⲓ ⲉⲥⲉ̀ⲟⲩⲛⲟϥ ⲙ̀ⲙⲟⲥ. ⲁⲗ̅"
+    ]
+   }
+  },
+  {
+   "id": "psalm-114",
+   "kind": "psalm",
+   "title": {
+    "en": "Psalm 114",
+    "ar": "المزمور المائة والرابع عشر"
+   },
+   "psalm": 114,
+   "text": {
+    "en": [
+     "I loved, because the Lord will hear the voice of my supplication. Because He has inclined His ear to me, I will call upon Him in all my days. The pains of death grasped me; the dangers of Hades have found me: I found affliction and sorrow. Then I called on the name of the Lord: “O Lord, deliver my soul.” The Lord is merciful and righteous; and our God has mercy. The Lord preserves the infants: I was brought low, and He saved me. Return to your resting place, O my soul, for the Lord has dealt bountifully with you. He has delivered my soul from death, my eyes from tears, and my feet from falling. I shall please the Lord in the land of the living. ALLELUIA."
+    ],
+    "ar": [
+     "أحببت أن يسمع الرب صوت تضرعي. لأنه أمال أذنه إلي فأدعوه كل أيامي. لأن أوجاع الموت اكتنفتني وشدائد الجحيم أصابتني. ضيقا وحزنا وجدت، وباسم الرب دعوت: يا رب نج نفسي. الرب رحيم وصديق وإلهنا يرحم. الذي يحفظ الأطفال هو الرب. اتضعت فخلصني. ارجعي يا نفسي إلى موضع راحتك، لأن الرب قد أحسن إلى، وأنقذ نفسي من الموت وعيني من الدموع ورجلي من الزلل، أرضي الرب أمامه في كورة الأحياء. هلليلويا."
+    ],
+    "cop": [
+     "Ⲁⲓⲉⲣⲁⲅⲁⲡⲁⲛ ϫⲉ ϥ̀ⲛⲁⲥⲱⲧⲉⲙ ⲛ̀ϫⲉ Ⲡⲟ̅ⲥ̅ ⲉⲧ̀ⲥ̀ⲙⲏ ⲛ̀ⲧⲉ ⲡⲁϯϩⲟ· ϫⲉ ⲁϥⲣⲓⲕⲓ ⲙ̀ⲡⲉϥⲙⲁϣϫ ⲉⲣⲟⲓ· ⲟⲩⲟϩ ⲛ̀ϩ̀ⲣⲏⲓ ϧⲉⲛ ⲛⲁⲉϩⲟⲟⲩ ⲁⲓⲧⲱⲃϩ ⲙ̀ⲙⲟϥ. Ϫⲉ ⲁⲩⲁⲙⲟⲛⲓ ⲙ̀ⲙⲟⲓ ⲛ̀ϫⲉ ⲛⲓⲛⲁⲕϩⲓ ⲛ̀ⲧⲉ ⲫ̀ⲙⲟⲩ· ⲛⲓⲕⲩⲛⲇⲓⲛⲟⲥ ⲛ̀ⲧⲉ ⲁⲙⲉⲛϯ ⲡⲉⲧⲁⲩϫⲉ. Ⲟⲩϩⲟϫϩⲉϫ ⲛⲉⲙ ⲟⲩⲙ̀ⲕⲁϩⲛ̀ϩⲏⲧ ⲡⲉⲧⲁⲓϫⲉⲙⲟⲩ· ⲟⲩⲟϩ ⲁⲓⲧⲱⲃϩ ⲙ̀ⲫ̀ⲣⲁⲛ ⲙ̀Ⲡⲟ̅ⲥ̅· ⲱ Ⲡⲟ̅ⲥ̅ ⲛⲟϩⲉⲙ ⲛ̀ⲧⲁⲯⲩⲭⲏ. Ⲟⲩⲛⲁⲏⲧ ⲡⲉ Ⲡⲟ̅ⲥ̅ ⲟⲩⲟϩ ⲟⲩⲑ̀ⲙⲏⲓ ⲡⲉ· ⲟⲩⲟϩ ⲡⲉⲛⲛⲟⲩϯ ϣⲁϥⲛⲁⲓ. Ⲫⲏⲉⲧⲁⲣⲉϩ ⲉⲛⲓⲕⲟⲩϫⲓ ⲛ̀ⲁ̀ⲗⲱⲟⲩⲓ̀ ⲡⲉ Ⲡⲟ̅ⲥ̅· ⲁⲓⲑⲉⲃⲓⲟⲓ ⲟⲩⲟϩ ⲁϥⲛⲁϩⲙⲉⲧ. Ⲕⲟⲧϯ ⲧⲁⲯⲩⲭⲏ ⲉⲡⲉⲙⲁⲛⲉⲙⲧⲟⲛ· ϫⲉ ⲁⲠⲟ̅ⲥ̅ ⲉⲣⲡⲉⲑⲛⲁⲛⲉϥⲛⲏⲓ· ⲟⲩⲟϩ ⲁϥⲛⲟϩⲉⲙ ⲛ̀ⲧⲁⲯⲩⲭⲏ ⲉⲃⲟⲗϧⲉⲛ ⲫ̀ⲙⲟⲩ· ⲛⲉⲙ ⲛⲁⲃⲁⲗ ⲉⲃⲟⲗϩⲁ ϩⲁⲛⲉⲣⲙⲱⲟⲩⲓ̀· ⲛⲉⲙ ⲛⲁϭⲁⲗⲁⲩϫ ⲉⲃⲟⲗϧⲉⲛ ⲡⲓⲥ̀ⲗⲁϯ. Ⲉⲓⲉ̀ⲣⲁⲛⲁϥ ⲙ̀Ⲡⲟ̅ⲥ̅ ⲙ̀ⲡⲉϥⲙ̀ⲑⲟ ϧⲉⲛ ⲧ̀ⲭⲱⲣⲁ ⲛ̀ⲧⲉ ⲛⲏⲉⲧⲟⲛϧ. ⲁⲗ̅"
+    ]
+   }
+  },
+  {
+   "id": "psalm-115",
+   "kind": "psalm",
+   "title": {
+    "en": "Psalm 115",
+    "ar": "المزمور المائة والخامس عشر"
+   },
+   "psalm": 115,
+   "text": {
+    "en": [
+     "I believed, therefore, I have spoken: I was exceedingly humbled. I said in my amazement, “Every man is a liar.” What shall I render to the Lord for everything which He has done unto me? I shall take the cup of salvation, and call upon the name of the Lord. I will pay my vows to the Lord, in the presence of all His people. Precious in the sight of the Lord is the death of His saints. O Lord, I am Your servant; I am Your servant, and the son of Your handmaid: You have broken my bonds. I will sacrifice to You the sacrifice of praise, and will call upon the name of the Lord. I will pay my vows to the Lord in the presence of all His people, in the courts of the Lord's house, in the midst of Jerusalem. ALLELUIA."
+    ],
+    "ar": [
+     "آمنت لذلك تكلمت. وأنا اتضعت جدا. أنا قلت في حيرتي: إن كل الناس كاذبون. بماذا أكافئ الرب عن كل ما أعطانيه؟ كأس الخلاص آخذ وباسم الرب أدعو. أوفي نذوري للرب قدام كل شعبه. كريم أمام الرب موت قديسيه. يا رب أنا عبدك، أنا عبدك وابن أمتك. قطعت قيودي. فلك أذبح ذبيحة التسبيح، وباسم الرب أدعو. أوفي للرب نذوري في ديار بيت الرب، قدام كل شعبه، في وسط أورشليم. هلليلويا."
+    ],
+    "cop": [
+     "Ⲁⲓⲛⲁϩϯ ⲉⲑⲃⲉ ⲫⲁⲓ ⲁⲓⲥⲁϫⲓ· ⲁⲛⲟⲕ ⲇⲉ ⲁⲓⲑⲉⲃⲓⲟⲓ ⲉⲙⲁϣⲱ· ⲁⲛⲟⲕ ⲁⲓϫⲟⲥ ϧⲉⲛ ⲡⲁⲧⲱⲙⲧ ϫⲉ ⲣⲱⲙⲓ ⲛⲓⲃⲉⲛ ϩⲁⲛⲥⲁⲙ̀ⲙⲉⲑⲛⲟⲩϫ ⲛⲉ· ⲟⲩⲏⲉ ϯⲛⲁⲧⲏⲓϥ ⲛ̀ⲧ̀ϣⲉⲃⲓⲱ ⲙ̀Ⲡⲟ̅ⲥ̅ ⲉⲑⲃⲉ ϩⲱⲃ ⲛⲓⲃⲉⲛ ⲉⲧⲁϥⲁⲓⲧⲟⲩ ⲛⲏⲓ. Ⲉⲓⲉ̀ϭⲓ ⲛ̀ⲟⲩⲁⲫⲟⲧ ⲛ̀ⲟⲩϫⲁⲓ· ⲟⲩⲟϩ ⲛ̀ⲧⲁⲧⲱⲃϩ ⲙ̀ⲫ̀ⲣⲁⲛ ⲙ̀Ⲡⲟ̅ⲥ̅· ϯⲛⲁϯ ⲛ̀ⲛⲁⲉⲩⲭⲏ ⲙ̀Ⲡⲟ̅ⲥ̅ ⲙ̀ⲡⲉⲙ̀ⲑⲟ ⲙ̀ⲡⲓⲗⲁⲟⲥ ⲧⲏⲣϥ. Ϥ̀ⲛⲁⲓⲏⲟⲩⲧ ⲙ̀ⲡⲉⲙ̀ⲑⲟ ⲙ̀Ⲡⲟ̅ⲥ̅ ⲛ̀ϫⲉ ⲫ̀ⲙⲟⲩ ⲛ̀ⲧⲉ ⲛⲏⲉ̅ⲑ̅ⲩ ⲛ̀ⲧⲁϥ· ⲱ Ⲡⲟ̅ⲥ̅ ⲁⲛⲟⲕ ⲡⲉ ⲡⲉⲕⲃⲱⲕ· ⲁⲛⲟⲕ ⲡⲉ ⲡ̀ϣⲏⲣⲓ ⲛ̀ⲧⲉ ⲧⲉⲕⲃⲱⲕⲓ· ⲁⲕⲥⲱⲗⲡ ⲛ̀ⲛⲁⲥ̀ⲛⲁⲩϩ ϯⲛⲁϣⲱⲧ ⲛⲁⲕ ⲛ̀ⲟⲩϣⲟⲩϣⲱⲟⲩϣⲓ ⲛ̀ⲥ̀ⲙⲟⲩ. Ⲟⲩⲟϩ ⲛ̀ⲧⲁⲧⲱⲃϩ ⲙ̀ⲫ̀ⲣⲁⲛ ⲙ̀Ⲡⲟ̅ⲥ̅· ϯⲛⲁϯ ⲛ̀ⲛⲁⲉⲩⲭⲏ ⲙ̀Ⲡⲟ̅ⲥ̅ ϧⲉⲛ ⲛⲓⲁⲗⲩⲗⲏⲟⲩ ⲛ̀ⲧⲉ ⲡ̀ⲏⲓ ⲙ̀Ⲡⲟ̅ⲥ̅ ⲙ̀ⲡⲉⲙ̀ⲑⲟ ⲙ̀ⲡⲓⲗⲁⲟⲥ ⲧⲏⲣϥ· ϧⲉⲛ ⲑ̀ⲙⲏϯ ⲛ̀Ⲓⲗ̅ⲏ̅ⲙ. ⲁⲗ̅"
+    ]
+   }
+  },
+  {
+   "id": "gospel",
+   "kind": "gospel",
+   "title": {
+    "en": "The Holy Gospel",
+    "ar": "الإنجيل المقدس"
+   },
+   "subtitle": {
+    "en": "The Holy Gospel according to St. Luke (Luke 9:10–17)",
+    "ar": "من إنجيل القديس لوقا (لوقا ٩: ١٠–١٧)"
+   },
+   "ref": "Luke 9:10–17",
+   "text": {
+    "en": [
+     "And the Apostles, when they had returned, told Him all that they had done. Then He took them, and went aside privately into a deserted place belonging to the city called Bethsaida. And the multitude, when they knew it, followed Him: and He received them, and spoke to them about the kingdom of God, and healed those who had need of healing. And when the day began to wear away, the twelve came, and said to Him, “Send the multitude away, that they may go into the towns and country round about, and lodge, and get provisions: for we are here in a deserted place.” But He said unto them, “You give them to eat.” And they said, “We have no more than five loaves and two fish; unless we go and buy food for all these people.” For they were about five thousand men. And He said to His disciples, “Make them sit down in groups of fifty.” And they did so, and made them all sit down. Then He took the five loaves and the two fish, and looking up to heaven, He blessed them, and broke, and gave to the disciples to set before the multitude. And they ate, and were all filled, and twelve baskets of the remaining fragments were taken by them. Glory to God forever. Amen. Tenoo oasht emmok o piekhristos nem pekyot en aghathos nem pi epnevma ethowab je akee ak soati emmon nai nan We worship You O Christ with Your Good Father and the Holy Spirit, for You have come and saved us.",
+     "O, Who tasted death in the flesh in the ninth hour for our sake, we the sinners, put to death our carnal lusts, O Christ, our God, and deliver us. Let my supplication draw close before You, O Lord; according to Your word give me understanding. Let my petition come before Your presence; according to Your word revive me. Doxa Patri ke Eioa ke Agio Pnevmati Glory to the Father, and the Son, and the Holy Spirit. O You, who commended the spirit into the hands of the Father as You hung on the cross, in the ninth hour, and guided the Thief who was crucified with You into entering the Paradise, do not neglect me, O Good One, nor reject me, I, the lost one; but sanctify my soul and enlighten my understanding, and allow me to be a partaker of the grace of Your life-giving mysteries; that when I taste of Your benevolences, I offer You praise without lukewarmness, longing for Your splendor above all things, O Christ our Lord, and deliver us. Ke nin ke a ee ke ees toos e onas toan e oa noan ameen. Now and forever and unto the ages of all ages, Amen. O, You who was born of the Virgin for our sake, and endured crucifixion, O Good One, and abolished death by Your death, and manifested resurrection by Your resurrection, O God, do not turn away from those whom You have created with Your own hands, but manifest, O Good One, Your love for mankind. Accept from Your mother an intercession on our behalf. Deliver, O Savior, a humble people. Do not leave us to the end, and do not forsake us forever. Do not break Your covenant, and do not take away from us your mercy, for the sake of Abraham, Your beloved, Isaac, Your servant, and Israel, Your saint. Ke nin ke a ee ke ees toos e onas toan e oa noan ameen. Now and forever and unto the ages of all ages, Amen.",
+     "When the Thief saw the Prince of Life hung on the cross, he said: “Had not the One Crucified with us been God Incarnate, the sun would not hide its rays, nor would the earth have quaked trembling. But O, the Almighty One who endures all things, remember me, O Lord, when You come into Your kingdom.” Doxa Patri ke Eioa ke Agio Pnevmati Glory to the Father, and the Son, and the Holy Spirit.",
+     "O, You who accepted unto Him the confession of the Thief on the cross, accept us unto You, O Good One; we who deserve the sentence of death because of our sins. We all confess our sins with him, and acknowledging Your divinity, and cry out with him saying, “Remember us, O Lord, when You come into Your Kingdom.” Ke nin ke a ee ke ees toos e onas toan e oa noan ameen. Now and forever and unto the ages of all ages, Amen. When the mother saw the Lamb and Shepherd, the Savior of the world, hung on the Cross, she said while weeping, “The world rejoices in receiving salvation, while my heart burns as I look at Your crucifixion which You are enduring for the sake of all, my Son and my God.”",
+     "(Lord have mercy) 41 times. Holy Holy Holy… Our Father Who art in heaven..."
+    ],
+    "ar": [
+     "ولما رجع الرسل حدثوه بما فعلوا. فأخذهم معه ودخل على انفراد مدينة تسمى بيت صيدا. فلما علمت الجموع تبعوه فقبلهم وخاطبهم عن ملكوت الله، والمحتاجون إلى الشفاء شفاهم.",
+     "وكان النهار قد بدأ يميل فتقدم إليه الاثنا عشر وقالوا له: اصرف الجموع ليذهبوا إلى القرى المحيطة والحقول، ليستريحوا ويجدوا ما يأكلونه، فإننا ههنا في موضع قفر. فقال لهم: أعطوهم أنتم ليأكلوا. فقالوا: ليس عندنا أكثر من خمس خبزات وسمكتين، إلا أن نمضي نحن ونشتري أطعمة لهذا الشعب جميعه. وكانوا نحو خمسة آلاف رجل. فقال لتلاميذه: ليتكئوا في كل موضع خمسين خمسين. ففعلوا هكذا وأتكأوهم أجمعين. فأخذ الخمس خبزات والسمكتين، ونظر إلى السماء، وباركها وقسمها، وأعطى التلاميذ ليضعوا أمام الجموع. فأكلوا جميعهم وشبعوا. ثم رفعوا ما فضل عنهم اثنتي عشرة قفة مملوءة. (والمجد لله دائما)",
+     "يا من ذاق الموت بالجسد في وقت الساعة التاسعة من أجلنا نحن الخطاة، أمت حواسنا الجسمانية أيها المسيح إلهنا ونجنا. فلتدن وسيلتي قدامك يا رب، كقولك فهمني. لتدخل طلبتي إلى حضرتك، ككلمتك أحيني (ذوكصابتري..)",
+     "يا من أسلم الروح في يدي الآب عندما علقت على الصليب وقت الساعة التاسعة، وهديت اللص المصلوب معك للدخول إلى الفردوس، لا تغفل عني أيها الصالح ولا ترذلني أنا الضال، بل قدس نفسي وأضئ فهمي واجعلني شريكا لنعمة أسرارك المحيية. لكي ما إذا ذقت من إحساناتك، أقدم لك تسبحة بغير فتور، مشتاقا إلى بهائك أفضل من كل شئ، أيها المسيح إلهنا ونجنا (كىنين... .)",
+     "يا من ولدت من البتول من أجلنا، واحتملت الصلب أيها الصالح وقتلت الموت بموتك وأظهرت القيامة بقيامتك، لا تعرض يا الله عن الذين جبلتهم بيديك. أظهر محبتك للبشر أيها الصالح. اقبل من والدتك شفاعة من أجلنا. نج يا مخلص شعبا متواضعا. لا تتركنا إلى الانقضاء ولا تسلمنا إلى الدهر، ولا تنقض عهدك ولا تنزع عنا رحمتك، من أجل إبراهيم حبيبك واسحق عبدك وإسرائيل قديسك. (كي نين..).",
+     "لما أبصر اللص رئيس الحياة على الصليب معلقا، قال: لولا أن المصلوب معنا إله متجسد، ما كانت الشمس أخفت شعاعها ولا الأرض ماجت مرتعدة. لكن أيها القادر على كل شئ، والمحتمل كل شئ، اذكرني يا رب متى جئت في ملكوتك (ذوكصابتري..).",
+     "يا من قبل إليه اعتراف اللص على الصليب، اقبلنا إليك أيها الصالح. نحن المستوجبين حكم الموت من أجل خطايانا. نقر بخطايانا معه معترفين بألوهيتك، ونصرخ معه جميعا: اذكرنا يا رب متى جئت في ملكوتك (كىنين ... .) عندما نظرت الوالدة الحمل والراعي مخلص العالم على الصليب معلقا قالت وهي باكية: أما العالم فيفرح لقبوله الخلاص، وأما أحشائي فتلتهب عند نظري إلى صلبوتك الذي أنت صابر عليه من أجل الكل، يا ابني والهي.",
+     "كيريي ليسون 41 مرة قدوس قدوس قدوس أبانا الذي ..."
+    ],
+    "cop": [
+     "Ευαγγελιον κατα Λουκαν αγιο ν αμην Ⲟⲩⲟϩ ⲉⲧⲁⲩⲧⲁⲥⲑⲟ ⲛ̀ϫⲉ ⲛⲓⲁⲡⲟⲥⲧⲟⲗⲟⲥ ⲁⲩⲥⲁϫⲓ ϧⲁⲧⲟⲧϥ ⲛ̀ⲛⲏⲉⲧⲁⲩⲁⲓⲧⲟⲩ ⲟⲩⲟϩ ⲁϥⲟⲩⲗⲟⲩ ⲛⲉⲙⲁϥ ⲁϥϣⲉⲛⲁϥ ⲉϧⲟⲩⲛ ⲥⲁⲡ̀ⲥⲁ ⲙ̀ⲙⲁⲩⲁⲧϥ ⲉⲟⲩⲃⲁⲕⲓ ⲉⲩⲙⲟⲩϯ ⲉⲣⲥ ϫⲉ ⲃⲏⲑⲤⲁⲓⲇⲁ. Ⲛⲓⲙⲏϣ ⲇⲉ ⲉⲧⲁⲩⲉⲙⲓ ⲛⲁⲩⲙⲟϣⲓ ⲛ̀ⲥⲱϥ ⲟⲩⲟϩ ⲉⲧⲁϥϣⲟⲡⲟⲩ ⲉⲣⲟϥ ⲛⲁϥⲥⲁϫⲓ ⲛⲉⲙⲱⲟⲩ ⲡⲉ ⲉⲑⲃⲉ ϯⲙⲉⲧⲟⲩⲣⲟ ⲛ̀ⲧⲉ Ⲫϯ. Ⲟⲩⲟϩ ⲛⲏⲉⲧⲉⲣⲭⲣⲓⲁ ⲛ̀ⲉⲣⲫⲁϧⲣⲓ ⲉⲣⲱⲟⲩ ⲛⲁϥⲧⲁⲗϭⲟ ⲙ̀ⲙⲱⲟⲩ ⲡⲉ. Ⲡⲓⲉϩⲟⲟⲩ ⲇⲉ ⲛⲉ ⲁϥⲉⲣϩⲏⲧⲥ ⲛ̀ⲣⲓⲕⲓ ⲡⲉ ⲉⲧⲁⲩⲓ̀ ⲇⲉ ϩⲁⲣⲟϥ ⲛ̀ϫⲉ ⲡⲓⲓ̅ⲃ ⲡⲉϫⲱⲟⲩ ⲛⲁϥ ϫⲉ ⲭⲁ ⲛⲓⲙⲏϣ ⲉⲃⲟⲗ ϩⲓⲛⲁ ⲛ̀ⲧⲟⲩϣⲉⲛⲱⲟⲩ ⲉⲛⲓϯⲙⲓ ⲉⲧⲉ ⲙ̀ⲡ̀ⲕⲱϯ ⲛⲉⲙ ⲛⲓⲓⲟϩⲓ ⲛ̀ⲧⲟⲩⲙ̀ⲧⲟⲛ ⲙ̀ⲙⲱⲟⲩ ⲟⲩⲟϩ ⲛ̀ⲧⲟⲩϫⲉⲙ ⲫⲏⲉⲧⲟⲩⲛⲁⲟⲩⲟⲙϥ ϫⲉ ⲧⲉⲛⲭⲏ ⲙ̀ⲡⲁⲓⲙⲁⲓ ϧⲉⲛ ⲟⲩⲙⲁ ⲛ̀ϣⲁϥⲉ. Ⲡⲉϫⲁϥ ⲇⲉ ⲛⲱⲟⲩ ϫⲉ ⲙⲟⲓ ⲛⲱⲟⲩ ⲛ̀ⲑⲱⲧⲉⲛ ⲉⲑⲣⲉⲟⲩⲟⲩⲱⲙ ⲛ̀ⲑⲱⲟⲩ ⲇⲉ ⲡⲉϫⲱⲟⲩ ϫⲉ ⲙ̀ⲙⲟⲛ ϩⲟⲩⲟ ⲉⲉ̅ ⲛ̀ⲱⲓⲕ ⲛ̀ⲧⲟⲧⲉⲛ ⲛⲉⲙ ⲧⲉⲃⲧ ⲃ̅ ⲉⲃⲏⲗ ⲁⲛⲟⲛ ⲛ̀ⲧⲉⲛϣⲉⲛⲁⲛ ⲛ̀ⲧⲉⲛϣⲱⲡ ⲛ̀ϩⲁⲛϣⲣⲏⲟⲩⲓ̀ ⲙ̀ⲡⲁⲓⲗⲁⲟⲥ ⲧⲏⲣϥ ⲛⲁⲩⲟⲓ ⲇⲉ ⲛⲁⲩ ⲉ ⲛ̀ⲣⲱⲙⲓ. Ⲁϥϫⲟⲥ ⲇⲉ ⲛ̀ⲛⲉϥⲙⲁⲑⲏⲧⲏⲥ ϫⲉ ⲙⲁⲣⲟⲩⲣⲱⲧⲉⲃ ⲕⲁⲧⲁ ⲙⲁ ⲛ̀ϩⲁⲛ ⲛ ⲉ̀ⲫ̀ⲙⲁ ⲟⲩⲟϩ ⲁⲩⲓ̀ⲣⲓ ⲙ̀ⲁⲡⲓⲣⲏϯ ⲉⲑⲣⲟⲩⲣⲱⲧⲉⲃ ⲧⲏⲣⲟⲩ. Ⲉⲧⲁⲩϭⲓ ⲇⲉ ⲙ̀ⲡⲓ ⲉ ⲛ̀ⲱⲓⲕ ⲛⲉⲙ ⲡⲓⲧⲉⲃⲧ ⲃ ⲉⲧⲁϥⲥⲟⲙⲥ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ⲧ̀ⲫⲉ ⲉⲫⲥ̀ⲙⲟⲩ ⲉⲣⲱⲟⲩ ⲟⲩⲟϩ ⲁϥⲫⲁϣⲟⲩ ⲟⲩⲟϩ ⲛⲁϥϯ ⲉⲑⲣⲟⲩⲭⲱ ϧⲁⲣⲱⲟⲩ ⲛ̀ⲛⲓⲙⲏϣ ⲟⲩⲟϩ ⲁⲩⲟⲩⲱⲙ ⲟⲩⲟϩ ⲁⲩⲥⲓ ⲧⲏⲣⲟⲩ ⲟⲩⲟϩ ⲁⲩⲱⲗⲓ ⲙ̀ⲏⲫⲉⲧⲁϥⲉⲣϩⲟⲩⲟ ⲉⲣⲱⲟⲩ ⲓⲃ ⲛ̀ⲕⲟⲧ ⲛ̀ⲗⲁⲕϩ ⲉⲩⲙⲉϩ. Ⲡⲓⲱⲟⲩ ⲫⲁ ⲡⲉⲛⲛⲟⲩϯ ⲡⲉ. Ⲧⲉⲛⲟⲩⲱϣⲧ ⲙ̀ⲙⲟⲕ ⲱ Ⲡⲭ̅ⲥ ⲛⲉⲙ ⲡⲉⲕⲓⲱⲧ ⲛ̀ⲁⲅⲁⲑⲟⲥ ⲛⲉⲙ ⲡⲓⲡ̅ⲛ̅ⲁ ⲉⲑ̅ⲩ ϫⲉ ⲁⲕⲓ̀ ⲁⲕⲥⲱϯ ⲙ̀ⲙⲟⲛ ⲛⲁⲓ ⲛⲁⲛ. Ⲱ ⲫⲏⲉⲧⲁϥϫⲉⲙϯⲡⲓ ⲙ̀ⲫ̀ⲙⲟⲩ ϧⲉⲛ ⲧ̀ⲥⲁⲣⲝ ⲙ̀ⲫ̀ⲛⲁⲩ ⲛ̀ⲁϫⲡ ⲑϯ ⲉⲑⲃⲏⲧⲉⲛ ϧⲱⲧⲉⲃ ⲛ̀ⲛⲉⲛⲗⲟⲅⲓⲥⲙⲟⲥ ⲛ̀ⲥⲱⲙⲁⲧⲓⲕⲟⲛ ⲱ Ⲡⲭ̅ⲥ ⲡⲉⲛⲛⲟⲩϯ ⲟⲩⲟϩ ⲛⲁϩⲙⲉⲛ. Ⲙⲁⲣⲉ ⲡⲁϯϩⲟ ϧⲱⲛⲧ ⲙ̀ⲡⲉⲕⲙ̀ⲑⲟ Ⲡⲟ̅ⲥ̅ ⲙⲁⲕⲁϯ ⲛⲏⲓ ⲕⲁⲧⲁ ⲡⲉⲕⲥⲁϫⲓ ⲉϥⲉ̀ⲓ̀ ⲉϧⲟⲩⲛ ⲙ̀ⲡⲉⲕⲙ̀ⲑⲟ ⲛ̀ϫⲉ ⲡⲁⲁⲝⲓⲱⲙⲁ ⲕⲁⲧⲁ ⲡⲉⲕⲥⲁϫⲓ ⲙⲁⲧⲁⲛϧⲟⲓ. Δοξα Πατρι και Υιω και Αγιω πνευματι",
+     "Ⲱ ⲫⲏⲉⲧⲁϥϯ ⲙ̀ⲡⲓⲡ̅ⲛ̅ⲁ ⲉⲛⲉⲛϫⲓϫ ⲙ̀ⲫ̀ⲓⲱⲧ ⲉⲧⲁⲩⲁϣⲕ ⲉⲡⲓ½ ⲙ̀ⲫ̀ⲛⲁⲩ ⲛ̀ⲁϫⲡ ⲑϯ ⲁⲕϭⲓⲙⲱⲓⲧ ⲙ̀ⲡⲓⲥⲟⲛ ⲉⲧⲁ̀ϣⲓ ⲛⲉⲙⲁⲕ ⲉϧⲟⲩⲛ ⲉⲡⲓⲡⲁⲣⲁⲇⲓⲥⲟⲥ. Ⲙ̀ⲡⲉⲣⲟⲃϣⲕ ⲉⲣⲟⲓ ⲱ ⲡⲓⲁⲅⲁⲑⲟⲥ ⲙ̀ⲡⲉⲣϭⲓⲃⲟϯ ⲙ̀ⲙⲟⲓ ⲁⲗⲗⲁ ⲙⲁⲧⲟⲩⲃⲟ ⲛ̀ⲧⲁⲯⲩⲭⲏ ⲁⲣⲓⲟⲩⲱⲓⲛⲓ ⲉⲡⲁⲕⲁϯ· ⲟⲩⲟϩ ⲉⲕⲉ̀ⲁⲓⲧ ⲛ̀ϣ̀ⲫⲏⲣ ⲉⲛⲓϩ̀ⲙⲟⲧ ⲛ̀ⲧⲉ ⲛⲉⲕⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲛ̀ⲁⲑⲙⲟⲩ. Ϩⲓⲛⲁ ⲁⲓϣⲁⲛϫⲉⲙϯⲡⲓ ⲛ̀ⲧⲉⲕⲙⲉⲧⲉⲣⲡⲉⲑⲛⲁⲛⲉϥ ⲛ̀ⲧⲁⲓ̀ⲛⲓ ⲛⲁⲕ ⲉϧⲟⲩⲛ ⲛ̀ⲟⲩϩⲱⲥ ϧⲉⲛ ⲟⲩⲙⲉⲧⲁⲧⲭⲁⲣⲱϥ ⲉⲓϭⲓϣϣⲱⲟⲩ ⲉⲡⲉⲕⲥⲁⲓ ⲉϩⲟⲧⲉ ⲛ̀ⲭⲁⲓ ⲛⲓⲃⲉⲛ ⲱⲠⲭ̅ⲥ ⲡⲉⲛⲛⲟⲩϯ ⲛⲁϩⲙⲉⲛ. Και νυν και αει και ιστους αι ωνας των αιωνων αμην",
+     "Ⲱ ⲫⲏⲉⲧⲁⲩⲙⲁⲥⲕ ⲉⲃⲟⲗϧⲉⲛ ϯⲡⲁⲣⲑⲉⲛⲟⲥ ⲉⲑⲃⲏⲧⲉⲛ ⲟⲩⲟϩ ⲁⲕϥⲁⲓ ϧⲁ ⲡⲓ½ ⲱ ⲡⲓⲁⲅⲁⲑⲟⲥ ⲁⲕϧⲱⲧⲉⲃ ⲙ̀ⲫ̀ⲙⲟⲩ ϩⲓⲧⲉⲛ ⲡⲉⲕⲙⲟⲩ ⲟⲩⲟϩ ⲁⲕⲟⲩⲱⲛϩ ⲉⲃⲟⲗ ⲛ̀ϯⲁⲛⲁⲥⲧⲁⲥⲓⲥ. Ⲫϯ ⲙ̀ⲡⲉⲣⲭⲱ ⲛ̀ⲥⲱⲕ ⲛ̀ⲛⲏⲉⲧⲁⲕⲑⲁⲙⲓⲱⲟⲩ ϧⲉⲛ ⲛⲉⲕϫⲓϫ ⲟⲩⲱⲛϩ ⲉⲃⲟⲗ ⲛ̀ⲧⲉⲕⲙⲉⲧⲙⲁⲓⲣⲱⲙⲓ ⲱ ⲡⲓⲁⲅⲁⲑⲟⲥ ⲟⲩⲟϩ ϣⲱⲡ ⲉⲣⲟⲕ ⲛ̀ⲛⲓϯϩⲟ ⲛ̀ⲧⲉ ⲧⲉⲕⲙⲁⲩ ⲉⲑⲃⲏⲧⲉⲛ ⲛⲟϩⲉⲙ ⲡⲉⲛⲥ̅ⲱ̅ⲣ ⲛ̀ⲟⲩⲗⲁⲟⲥ ⲉϥⲑⲉⲃⲓⲏⲟⲩⲧ. Ⲙ̀ⲡⲉⲣⲭⲱ ⲛ̀ⲥⲱⲕ ϣⲁ ϧⲁⲉ̀ ⲟⲩⲇⲉ ⲙ̀ⲡⲉⲣⲧⲏⲓⲧⲉⲛ ϣⲁ ⲉⲃⲟⲗ ⲙ̀ⲡⲉⲣϫⲱⲣ ⲉⲃⲟⲗ ⲛ̀ⲧⲉⲕⲇⲓⲁⲑⲏⲕⲏ ⲙ̀ⲡⲉⲣⲱⲗⲓ ⲉⲃⲟⲗϩⲁⲣⲟⲛ ⲉⲑⲃⲉ Ⲁⲃⲣⲁⲁⲙ ⲡⲉⲕⲙⲉⲛⲣⲓⲧ ⲛⲉⲙ Ⲓⲥⲁⲁⲕ ⲡⲉⲕⲃⲱⲕ ⲛⲉⲙ ⲡⲓⲒⲥ̅ⲗ ⲡⲉⲑⲟⲩⲁⲃ ⲛ̀ⲧⲁⲕ. Και νυν και αει και ιστους αι ωνας των αιωνων αμην Ⲉⲧⲁϥⲛⲁⲩ ⲛ̀ϫⲉ ⲡⲓⲥⲟⲛⲓ ⲉ̀ⲡ̀ⲁⲭⲏⲅⲟⲥ ⲛ̀ⲧⲉ ⲡ̀ⲱⲛϧ ⲉⲡⲓ½. Ⲡⲉϫⲁϥ ϫⲉ ⲉⲛⲉ ⲫⲏⲉⲧⲁ̀ϣⲓ ⲛⲉⲙⲁⲛ ⲟⲩⲛⲟⲩϯ ⲁⲛ ⲡⲉ ⲉⲁϥϭⲓⲥⲁⲣⲝ ⲛⲁⲣⲉ ⲫ̀ⲣⲏ ⲛⲁϩⲱⲧⲡ ⲁⲛ ⲛ̀ⲛⲉϥⲁⲕⲧⲓⲛ ⲟⲩⲇⲉ ⲛⲁⲣⲉ ⲡ̀ⲕⲁϩⲓ ⲛⲁⲙⲟⲛⲙⲉⲛ ⲁⲛ ⲉϥⲥ̀ⲑⲟⲣⲧⲉⲣ. Ⲁⲗⲗⲁ ⲱ ⲫⲏⲉⲧⲉ ⲟⲩⲟⲛ ϣ̀ϫⲟⲙ ⲙ̀ⲙⲟϥ ϧⲉⲛ ϩⲱⲃ ⲛⲓⲃⲉⲛ ⲟⲩⲟϩ ⲉⲧϥⲁⲓ ϧⲁ ϩⲱⲃ ⲛⲓⲃⲉⲛ ⲁⲣⲓⲡⲁⲙⲉⲩⲓ Ⲡⲟ̅ⲥ̅ ⲁⲕϣⲁⲛⲓ̀ ϧⲉⲛ ⲧⲉⲕⲙⲉⲧⲟⲩⲣⲟ. Δοξα Πατρι και Υιω και Αγιω πνευματι Ⲱ ⲫⲏⲉⲧⲁϥϣⲱⲡ ⲉⲣⲟϥ ⲛ̀ϯⲟⲙⲟⲗⲟⲅⲓⲁ ⲛ̀ⲧⲉ ⲡⲓⲥⲟⲛⲓ ϩⲓϫⲉⲛ ⲡⲓ½ ϣⲟⲡⲧⲉⲛ ⲉⲣⲟⲕ ⲱ ⲡⲓⲁⲅⲁⲑⲟⲥ ⲁⲛⲟⲛ ϧⲁ ⲛⲏⲉⲧϩⲓⲱⲟⲩⲧ ⲉⲡ̀ϩⲁⲡ ⲙ̀ⲫ̀ⲙⲟⲩ ⲉⲑⲃⲉ ⲛⲉⲛⲛⲟⲃⲓ. Ⲧⲉⲛⲟⲩⲱⲛϩ ⲉⲃⲟⲗ ⲛⲉⲙⲁϥ ⲉⲛⲉⲣⲙⲟⲗⲟⲅⲓⲛ ⲛ̀ⲧⲉⲕⲙⲉⲑⲛⲟⲩϯ ⲉⲛⲱϣ ⲟⲩⲃⲏⲕ ⲛⲉⲙⲁϥ ⲉⲩⲥⲟⲡ ϫⲉ ⲁⲣⲓⲡⲉⲛⲙⲉⲩⲓ Ⲡⲟ̅ⲥ̅ ⲁⲕϣⲁⲛⲓ̀ ϧⲉⲛ ⲧⲉⲕⲙⲉⲧⲟⲩⲣⲟ. Και νυν και αει και ιστους αι ωνας των αιωνων αμην Ⲉⲧⲁⲥⲛⲁⲩ ⲛ̀ϫⲉ ϯⲙⲁⲩ ⲉⲡⲓϩⲏⲓⲃ ⲟⲩⲟϩ ⲡⲓⲙⲁⲛⲉⲥⲱⲟⲩ ⲡ̀ⲥ̅ⲱ̅ⲣ ⲙ̀ⲡⲓⲕⲟⲥⲙⲟⲥ ⲉϥⲁ̀ϣⲓ ⲉⲡⲓ½ ⲡⲉϫⲁⲥ ⲉⲥⲣⲓⲙⲓ ϫⲉ ⲡⲓⲕⲟⲥⲙⲟⲥ ⲙⲉⲛ ⲥⲉⲣⲁϣⲓ ϫⲉ ⲁϥϭⲓ ⲙ̀ⲡⲓⲟⲩϫⲁⲓ. Ⲛⲁⲥ̀ⲡ̀ⲗⲁⲭⲛⲟⲛ ⲇⲉ ⲥⲉ ⲣⲱⲕϩ ⲉⲓⲛⲁⲩ ⲉⲡⲉⲕϫⲓⲛⲓ̀ϣⲓ ⲉⲧⲁⲕⲉⲣϩⲩⲡⲟⲙⲟⲛⲓⲛ ⲉⲣⲟϥ ⲉⲑⲃⲉ ⲡ̀ⲧⲏⲣϥ ⲡⲁϣⲏⲣⲓ ⲟⲩⲟϩ ⲡⲁⲛⲟⲩϯ. Κυριε ελεησον ⲙ̅ⲁ̅ ⲛ̀ⲥⲟⲡ... Ⲭ̀ⲟⲩⲁⲃ Ⲭ̀ⲟⲩⲁⲃ Ⲭ̀ⲟⲩⲁⲃ... Ϫⲉ Ⲡⲉⲛⲓⲱⲧ..."
+    ]
+   }
+  },
+  {
+   "id": "absolution",
+   "kind": "absolution",
+   "title": {
+    "en": "The absolution",
+    "ar": "التحليل"
+   },
+   "text": {
+    "en": [
+     "God, Father, the Father of our Lord, God and Savior, Jesus Christ, who, through His manifestation saved us and delivered us from the bondage of the enemy, we ask You, in His blessed and great name, turn our minds away from worldly cares and carnal lusts, to the remembrance of Your heavenly statutes; and reveal to us Your love for mankind, O Good One. May our prayers at all times, and specially the prayer of this ninth hour, be favorably accepted by You. And grant us to walk worthy of the calling with which we were called, so that when we depart from this world, we may be counted with the worshippers worthy of the passions of Your Only- Begotten Son Jesus Christ, our Lord. Thus, we gain mercy, and forgiveness of our sins, and salvation with the choir of saints who truly pleased You since the beginning and forever. Lord, abolish for us the power of the adversary and all his evil armies, as Your Only Begotten Son has trampled on them by the power of His life giving cross. Accept us unto You, O our Lord, Jesus Christ, as You accepted the Thief at Your right, while You were hung on the cross. And shine upon us as You have shone upon those who were in the darkness of Hades, and restore us all to the paradise of joy. For You, our Master, are blessed God, and unto You is due all the glory, honor, majesty, dominion, and worship, with Your good Father and the Holy Spirit, forever. Amen."
+    ],
+    "ar": [
+     "يا الله الآب أب ربنا وإلهنا ومخلصنا يسوع المسيح هوذا الذي بظهوره خلصتنا وأنقذتنا من عبودية العدو. نسألك باسمه المبارك العظيم أنقل عقولنا من الاهتمام العالمي والشهوات الجسدية، إلى تذكار أحكامك السمائية وكمل لنا محبتك للبشر أيها الصالح. ولتكن صلواتنا كل حين وصلاة هذه الساعة التاسعة مقبولة أمامك. وامنحنا أن نسلك كما يليق بالدعوة التي دعينا إليها. لكي إذا خرجنا من هذا الجسد نحسب مع الساجدين المستحقين لآلام ابنك الوحيد يسوع المسيح ربنا، ونظفر بالرحمة وغفران خطايانا والخلاص مع مصاف القديسين الذين أرضوك بالحقيقة منذ الدهر والي الأبد. اللهم أبطل عنا كل قوة المعاند وجميع جنوده الرديئة، كما داسهم ابنك الوحيد بقوة صليبه المحيي. واقبلنا إليك يا سيدي يسوع المسيح كما قبلت اللص اليمين وأنت معلق على عود الصليب. وأنر علينا كما أنرت على الذين كانوا في ظلمة الجحيم. وردنا جميعا إلى فردوس النعيم لأنك يا سيدي إله مبارك. وينبغي لك مع أبيك الصالح والروح القدس، المجد والإكرام والعزة والسلطان والسجود إلى الأبد أمين. -",
+     "-"
+    ],
+    "cop": [
+     "Ⲫϯ ⲫ̀ⲓⲱⲧ ⲙ̀ⲡⲉⲛⲟ̅ⲥ̅ ⲟⲩⲟϩ ⲡⲉⲛⲛⲟⲩϯ ⲟⲩⲟϩ ⲡⲉⲛⲥ̅ⲱ̅ⲣ Ⲓⲏ̅ⲥ Ⲡⲭ̅ⲥ ⲫⲏⲉⲧⲉ ϧⲉⲛ ⲡⲉϥⲟⲩⲱⲛϩ ⲉⲃⲟⲗ ⲁⲕⲥⲟⲧⲧⲉⲛ ⲟⲩⲟϩ ⲁⲕⲧⲟⲩϫⲟⲛ ⲉⲃⲟⲗϩⲁ ϯⲙⲉⲧⲃⲱⲕ ⲛ̀ⲧⲉ ⲡⲓϫⲁϫⲓ. Ⲧⲉⲛⲧⲱⲃϩ ⲙ̀ⲙⲟⲕ ϧⲉⲛ ⲡⲉϥⲣⲁⲛ ⲧ̀ⲥ̀ⲙⲁⲣⲱⲟⲩⲧ ⲉⲧⲟⲓ ⲛ̀ⲛⲓϣϯ ⲟⲩⲱⲧⲉⲃ ⲛ̀ⲛⲉⲛⲛⲟⲩⲥ ⲉⲃⲗϩⲁ ⲛⲓⲣⲱⲟⲩϣ ⲙ̀ⲃⲓⲱⲧⲓⲕⲟⲛ ⲛⲉⲙ ⲛⲓⲉⲡⲓⲑⲩⲙⲓⲁ ⲛ̀ⲕⲟⲥⲙⲓⲕⲟⲛ ⲉϧⲟⲩⲛ ⲉ̀ⲡ̀ⲉⲣⲫ̀ⲙⲉⲩⲓ ⲛ̀ⲛⲉⲕϩⲁⲡ ⲛ̀ⲉⲡⲟⲩⲣⲁⲛⲓⲟⲛ ϫⲱⲕ ⲛⲁⲛ ⲉⲃⲟⲗ ⲛ̀ⲧⲉⲙⲉⲧⲙⲁⲓⲣⲱⲙⲓ ⲱ ⲡⲓⲁⲅⲁⲑⲟⲥ. Ⲟⲩⲟϩ ⲙⲁⲣⲉⲥϣⲱⲡⲓ ⲉⲥϣⲏⲡ ⲛⲁϩⲣⲁⲕ ⲛ̀ⲥⲏⲟⲩ ⲛⲓⲃⲉⲛ ϯⲡⲣⲟⲥⲉⲩⲭⲏ ⲛ̀ⲧⲉ ϯⲁϫⲡ ⲑϯ ⲙ̀ⲡⲉⲕⲙ̀ⲑⲟ. Ⲟⲩⲟϩ ⲙⲏⲓⲥ ⲛⲁⲛ ⲉ̀ⲙⲟϣⲓ ⲕⲁⲧⲁ ⲡ̀ⲉⲙⲡ̀ϣⲁ ⲙ̀ⲡⲓⲑⲱϩⲉⲙ ⲉⲧⲁⲕⲑⲁϩⲙⲉⲛ ⲉⲣⲟϥ· ϩⲓⲛⲁ ⲁⲛϣⲁⲛⲥⲓⲛⲓ ⲉⲃⲟⲗϧⲉⲛ ⲡⲁⲓⲥⲱⲙⲁ ⲛ̀ⲥⲉⲟⲡⲧⲉⲛ ⲛⲉⲙ ⲛⲓⲣⲉϥⲟⲩⲱϣⲧ ⲛ̀ⲧⲁⲫ̀ⲙⲏⲓ ⲛ̀ⲧⲉ ⲡⲉⲕⲙⲟⲛⲓⲅⲉⲛⲏⲥ ⲛ̀ϣⲏⲣⲓ Ⲓⲏ̅ⲥ Ⲡⲭ̅ⲥ ⲡⲉⲛⲟ̅ⲥ̅. Ⲟⲩⲟϩ ⲛ̀ⲧⲉⲛϣⲁϣⲛⲓ ⲉⲟⲩⲛⲁⲓ ⲛⲉⲙ ⲟⲩⲭⲱ ⲉⲃⲟⲗ ⲛ̀ⲧⲉ ⲛⲉⲛⲛⲟⲃⲓ ⲛⲉⲙ ⲟⲩⲛⲟϩⲉⲙ ⲛⲉⲙ ⲡ̀ⲭⲱⲣⲟⲥ ⲛ̀ⲧⲉ ⲛⲏⲉ̅ⲑ̅ⲩ ⲉⲧⲁⲩⲣⲁⲛⲁⲕ ϧⲉⲛ ⲟⲩⲙⲉⲑⲙⲏⲓ ⲓⲥϫⲉⲛ ⲡ̀ⲉⲛⲉϩ ϣⲁ ⲉⲛⲉϩ ⲁⲙⲏⲛ."
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,20 @@
+id: openbible-geocoding
+title: OpenBible.info Bible Geocoding Data
+author: Stephen Smith
+organization: OpenBible.info
+url: https://github.com/openbibleinfo/Bible-Geocoding-Data
+languages: [en]
+contentType: reference-site
+license:
+  id: CC-BY-4.0
+  statement: "This data is licensed under a Creative Commons Attribution 4.0 license."
+  verifiedUrl: https://github.com/openbibleinfo/Bible-Geocoding-Data/blob/main/readme.md
+inUse: true
+usage: import
+redistributionAllowed: true
+attribution: "Place locations and the verses that name them: Bible Geocoding Data, OpenBible.info (https://www.openbible.info/geo/), licensed under CC BY 4.0. Modified: reduced to single-point places, each with its best-scored identification, and a spread of its verses."
+commercialUse: allowed
+modification: allowed
+lastVerifiedAt: "2026-10-25"
+coversDeuterocanon: false
+notes: Every place named in the Protestant Bible with the scholarly identifications and the confidence in each. It supplies the small dots of the Bible atlas and the verse lists of its places. The hand-written places and journeys of the atlas are the project's own and are checked against it and against an independent gazetteer.

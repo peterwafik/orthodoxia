@@ -1,0 +1,20 @@
+id: natural-earth-world-atlas
+title: Natural Earth land outlines (via the world-atlas package)
+author: Natural Earth; Mike Bostock (world-atlas)
+organization: Natural Earth
+url: https://www.naturalearthdata.com/
+languages: [en]
+contentType: reference-site
+license:
+  id: public-domain
+  statement: "All versions of Natural Earth raster + vector map data found on this website are in the public domain."
+  verifiedUrl: https://www.naturalearthdata.com/about/terms-of-use/
+inUse: true
+usage: import
+redistributionAllowed: true
+attribution: null
+commercialUse: allowed
+modification: allowed
+lastVerifiedAt: "2026-10-25"
+coversDeuterocanon: false
+notes: The coastlines of the Bible atlas globe (1:110m and 1:50m land), repackaged as TopoJSON by the world-atlas package (ISC licence). The atlas draws no modern borders.

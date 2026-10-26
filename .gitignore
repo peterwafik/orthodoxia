@@ -24,3 +24,5 @@ data/commentary/malaty/html/
 
 .vercel
 .env*
+data/atlas/raw/
+data/agpeya/raw/

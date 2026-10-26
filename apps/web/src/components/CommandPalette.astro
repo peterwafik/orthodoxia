@@ -11,8 +11,10 @@ const strings = t(locale);
 const ar = locale === 'ar';
 const pages = [
   { label: strings.nav.bible, href: localePath(locale, 'bible'), kind: ar ? 'صفحة' : 'Page' },
+  { label: strings.nav.agpeya, href: localePath(locale, 'agpeya'), kind: ar ? 'صفحة' : 'Page' },
   { label: strings.nav.holyMass, href: localePath(locale, 'holy-mass'), kind: ar ? 'صفحة' : 'Page' },
   { label: strings.nav.churchHistory, href: localePath(locale, 'church-history'), kind: ar ? 'صفحة' : 'Page' },
+  { label: strings.nav.atlas, href: localePath(locale, 'bible-atlas'), kind: ar ? 'صفحة' : 'Page' },
   { label: strings.nav.explore, href: explorerPath(locale), kind: ar ? 'صفحة' : 'Page' },
   { label: strings.nav.faith, href: apoPath(locale), kind: ar ? 'صفحة' : 'Page' },
   { label: ar ? 'مسارات الإيمان والأدلة' : 'Faith & Evidence journeys', href: apoPath(locale, 'journeys'), kind: ar ? 'صفحة' : 'Page' },

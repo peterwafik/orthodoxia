@@ -4,6 +4,8 @@ import CardArt from '../../components/CardArt.astro';
 import HomeHeroArt from '../../components/HomeHeroArt.astro';
 import { STOPS } from '../../data/holy-mass.ts';
 import { COPTIC_EVIDENCE } from '../../data/coptic-evidence.ts';
+import { JOURNEYS as ATLAS_JOURNEYS } from '../../data/bible-atlas/journeys.ts';
+import { PLACES as ATLAS_PLACES } from '../../data/bible-atlas/places.ts';
 import { bookBySlug } from '@orthodoxia/bible';
 import { VISIBLE_ARTICLES } from '../../lib/apologetics/index.ts';
 import { parsePassages } from '../../lib/topics/reference.ts';
@@ -25,11 +27,12 @@ const cards = [
   { art: 'holyMass' as const, ...strings.home.cards.holyMass, href: localePath(locale, 'holy-mass'), x: 82, y: 3, z: 20 },
   { art: 'churchHistory' as const, ...strings.home.cards.churchHistory, href: localePath(locale, 'church-history'), x: 84, y: 31, z: -30 },
   { art: 'faith' as const, ...strings.home.cards.faith, href: localePath(locale, 'apologetics'), x: 50, y: 46, z: 50 },
+  { art: 'atlas' as const, ...strings.home.cards.atlas, href: localePath(locale, 'bible-atlas'), x: 84, y: 57, z: 10 },
 ];
 
 // ---- The strings between the cards. Every number is counted from the site's own data when the site is built. ----
 // A string runs from the card that makes the references to the card they point into.
-type Key = 'bible' | 'explore' | 'threads' | 'holyMass' | 'churchHistory' | 'faith';
+type Key = 'bible' | 'explore' | 'threads' | 'holyMass' | 'churchHistory' | 'faith' | 'atlas';
 const chapterKey = (code: string, chapter: number): string => `${code}.${chapter}`;
 
 // The Bible chapters each part cites (a range such as Job 1–2 counts every chapter it spans).
@@ -38,6 +41,9 @@ const churchRanges = COPTIC_EVIDENCE.flatMap((entry) => parsePassages(entry.vers
 const churchChapters = new Set(
   churchRanges.flatMap((range) => Array.from({ length: range.to.chapter - range.from.chapter + 1 }, (_, i) => chapterKey(range.book, range.from.chapter + i))),
 );
+// What the Bible atlas cites: every passage of its places and journeys, and the Faith & Evidence questions it points to.
+const atlasPassages = new Set([...ATLAS_PLACES.flatMap((place) => place.events.map((event) => event.ref)), ...ATLAS_JOURNEYS.flatMap((journey) => journey.stops.map((stop) => stop.ref))]);
+const atlasQuestions = new Set(ATLAS_PLACES.flatMap((place) => place.evidence ?? []));
 const faithEvidence = VISIBLE_ARTICLES.flatMap((article) => article.evidence.flatMap((e) => (e.bible === undefined ? [] : [e.bible])));
 const faithChapters = new Set(faithEvidence.flatMap((b) => (bookBySlug(b.book) === undefined ? [] : [chapterKey(bookBySlug(b.book)!.code, b.chapter)])));
 const shared = (a: ReadonlySet<string>, b: ReadonlySet<string>): number => [...a].filter((key) => b.has(key)).length;
@@ -66,6 +72,8 @@ const all: Edge[] = [
   { from: 'holyMass', to: 'bible', count: STOPS.reduce((sum, stop) => sum + stop.scripture.length, 0), en: 'The Holy Mass cites {n} Bible passages', ar: 'القداس يستشهد بـ {n} موضعاً من الكتاب المقدس' },
   { from: 'churchHistory', to: 'bible', count: churchRanges.length, en: 'Church history rests on {n} Bible passages', ar: 'تاريخ الكنيسة يستند إلى {n} موضعاً من الكتاب المقدس' },
   { from: 'faith', to: 'bible', count: faithEvidence.length, en: 'Faith & Evidence ties {n} pieces of evidence to Bible passages', ar: 'الإيمان والأدلة يربط {n} دليلاً بمواضع من الكتاب المقدس' },
+  { from: 'atlas', to: 'bible', count: atlasPassages.size, en: 'The Bible atlas opens {n} passages from its places and journeys', ar: 'أطلس الكتاب المقدس يفتح {n} موضعًا من الكتاب من مواضعه ورحلاته' },
+  { from: 'atlas', to: 'faith', count: atlasQuestions.size, en: 'The Bible atlas points to {n} Faith & Evidence questions about its places', ar: 'أطلس الكتاب المقدس يشير إلى {n} من أسئلة الإيمان والأدلة عن مواضعه' },
   { from: 'explore', to: 'bible', count: CROSS_REFERENCES, en: '{n} cross-references link the verses of the Bible', ar: '{n} شاهد يربط آيات الكتاب المقدس بعضها ببعض' },
   { from: 'threads', to: 'bible', count: VERSES, en: 'Reading with threads covers all {n} verses of the Bible', ar: 'القراءة بالخيوط تشمل آيات الكتاب المقدس كلها، وعددها {n}' },
   { from: 'threads', to: 'explore', count: CROSS_REFERENCES, en: 'Reading with threads shows the same {n} cross-references', ar: 'القراءة بالخيوط تعرض الشواهد نفسها، وعددها {n}' },
@@ -430,7 +438,7 @@ const note = ar ? 'كل خيط يربط جزءاً من الموقع بجزء آ
   @media (min-width: 62rem) {
     .web {
       display: block;
-      block-size: 68rem;
+      block-size: 77rem;
     }
 
     .web > li {
