@@ -6,10 +6,10 @@
   "ar": "النوم"
  },
  "time": {
-  "en": "The twelfth hour, before sleep (about 9 p.m.)",
-  "ar": "الساعة الثانية عشرة، قبل النوم (نحو التاسعة مساءً)"
+  "en": "The twelfth hour of the day, at its close (about 6 p.m.)",
+  "ar": "الساعة الثانية عشرة من النهار، عند ختامه (نحو السادسة مساءً)"
  },
- "at": 21,
+ "at": 18,
  "about": {
   "en": "The Compline (Retiring): Twelfth Hour, commemorates the burial of Christ. We remember the passing world and the final judgment. Mindful of our imminent standing before God, we ask forgiveness of our sins and protection through the night.",
   "ar": "صلاة نوم فنتذكر فيها دفن السيد المسيح، والعالم الفاني والحساب الأخير، متيقظين لقدوم الله الوشيك والوقوف قدامه، ونطلب الصفح عن خطايانا، والحماية خلال الليل."

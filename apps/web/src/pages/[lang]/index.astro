@@ -20,14 +20,15 @@ const strings = t(locale);
 const ar = locale === 'ar';
 // Where each card sits on a wide screen: x is the centre as a percentage of the width, y the top in rem, z the depth in px.
 // A fixed arrangement (not random at build time) so every visit and every build looks the same.
+// z is never below 0: a card pushed behind the plane of the list cannot be clicked (the list catches the pointer).
 const cards = [
-  { art: 'bible' as const, ...strings.home.cards.bible, href: localePath(locale, 'bible'), x: 47, y: 16, z: 70 },
-  { art: 'explore' as const, ...strings.home.cards.explore, href: explorerPath(locale), x: 13, y: 2, z: -20 },
-  { art: 'threads' as const, ...strings.home.cards.threads, href: explorerPath(locale, 'threads'), x: 18, y: 32, z: 30 },
-  { art: 'holyMass' as const, ...strings.home.cards.holyMass, href: localePath(locale, 'holy-mass'), x: 82, y: 3, z: 20 },
-  { art: 'churchHistory' as const, ...strings.home.cards.churchHistory, href: localePath(locale, 'church-history'), x: 84, y: 31, z: -30 },
-  { art: 'faith' as const, ...strings.home.cards.faith, href: localePath(locale, 'apologetics'), x: 50, y: 46, z: 50 },
-  { art: 'atlas' as const, ...strings.home.cards.atlas, href: localePath(locale, 'bible-atlas'), x: 84, y: 57, z: 10 },
+  { art: 'bible' as const, ...strings.home.cards.bible, href: localePath(locale, 'bible'), x: 47, y: 16, z: 100 },
+  { art: 'explore' as const, ...strings.home.cards.explore, href: explorerPath(locale), x: 13, y: 2, z: 10 },
+  { art: 'threads' as const, ...strings.home.cards.threads, href: explorerPath(locale, 'threads'), x: 18, y: 32, z: 60 },
+  { art: 'holyMass' as const, ...strings.home.cards.holyMass, href: localePath(locale, 'holy-mass'), x: 82, y: 3, z: 50 },
+  { art: 'churchHistory' as const, ...strings.home.cards.churchHistory, href: localePath(locale, 'church-history'), x: 84, y: 31, z: 0 },
+  { art: 'faith' as const, ...strings.home.cards.faith, href: localePath(locale, 'apologetics'), x: 50, y: 46, z: 80 },
+  { art: 'atlas' as const, ...strings.home.cards.atlas, href: localePath(locale, 'bible-atlas'), x: 84, y: 57, z: 40 },
 ];
 
 // ---- The strings between the cards. Every number is counted from the site's own data when the site is built. ----

@@ -6,10 +6,10 @@
   "ar": "الستار"
  },
  "time": {
-  "en": "At nightfall, for monks and bishops",
-  "ar": "عند دخول الليل، للرهبان والأساقفة"
+  "en": "The first hour of the night, at nightfall, for monks and bishops (about 7 p.m.)",
+  "ar": "الساعة الأولى من الليل، عند دخول الليل، للرهبان والأساقفة (نحو السابعة مساءً)"
  },
- "at": 22,
+ "at": 19,
  "about": {
   "en": "Veil: this prayer is to be read by bishops and priests as a means of examining their hearts. It is also a prayer which concerns Monks and Bishops.",
   "ar": "صلاة ساعة المساء التي تدعى ساعة حجاب الظلمة أو ستار الظلمة (ستار بكسر السين) وميعادها أول دخول عتمة الليل وهي خاصة بالآباء الرهبان والآباء الأساقفة."

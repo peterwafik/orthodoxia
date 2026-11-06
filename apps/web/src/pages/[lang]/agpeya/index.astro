@@ -14,13 +14,27 @@ const text = ui(locale);
 const all = hours();
 const shared = sharedSections();
 
-/** The day dial: midnight at the top, the hours of prayer set round it by the time of day. */
+/**
+ * The day dial, counted the old Jewish way, as the Bible and the Agpeya count the hours: the day has twelve hours from
+ * sunrise to sunset, and the night twelve from sunset to sunrise (sunrise is taken as 6 a.m. and sunset as 6 p.m.). The
+ * day is the upper half (sunrise on the left, the sixth hour, noon, at the top, sunset on the right) and the night the
+ * lower half (its sixth hour, midnight, at the bottom). `h` is the hours since sunrise, 0–24.
+ */
 const R = 150;
-const angle = (hourOfDay: number): number => ((hourOfDay % 24) / 24) * 2 * Math.PI;
-const point = (hourOfDay: number, radius: number): { x: number; y: number } => ({
-  x: Math.round((R + radius * Math.sin(angle(hourOfDay))) * 10) / 10,
-  y: Math.round((R - radius * Math.cos(angle(hourOfDay))) * 10) / 10,
+const sinceSunrise = (clockHour: number): number => (((clockHour - 6) % 24) + 24) % 24;
+const angle = (h: number): number => ((h - 6) / 24) * 2 * Math.PI;
+const point = (h: number, radius: number): { x: number; y: number } => ({
+  x: Math.round((R + radius * Math.sin(angle(h))) * 10) / 10,
+  y: Math.round((R - radius * Math.cos(angle(h))) * 10) / 10,
 });
+const digits = new Intl.NumberFormat(ar ? 'ar-EG' : 'en-US');
+/** Hour n of the day ends n hours after sunrise; hour n of the night, n hours after sunset. */
+const numbers = Array.from({ length: 24 }, (_, i) => ({ label: digits.format((i % 12) + 1), night: i >= 12, ...point(i + 1, 121) }));
+const ORDINALS = {
+  en: ['first', 'second', 'third', 'fourth', 'fifth', 'sixth', 'seventh', 'eighth', 'ninth', 'tenth', 'eleventh', 'twelfth'],
+  ar: ['الأولى', 'الثانية', 'الثالثة', 'الرابعة', 'الخامسة', 'السادسة', 'السابعة', 'الثامنة', 'التاسعة', 'العاشرة', 'الحادية عشرة', 'الثانية عشرة'],
+};
+const nowWords = JSON.stringify({ ordinals: ORDINALS[locale], day: text.nowDay, night: text.nowNight });
 /** One arm of the Coptic cross (pointed tip, flared shoulders), as offsets from the centre in tip-length units. */
 const ARM: ReadonlyArray<readonly [number, number]> = [
   [-0.2, -0.5], [-0.443, -0.75], [-0.145, -0.75], [0, -1],
@@ -42,7 +56,7 @@ const cross = (x: number, y: number, arm: number): string => {
   );
   return `M${points.join('L')}Z`;
 };
-const marks = all.map((hour) => ({ hour, ...point(hour.at, 112), label: point(hour.at, 138) }));
+const marks = all.map((hour) => ({ hour, ...point(sinceSunrise(hour.at), 97) }));
 const data = JSON.stringify(all.map((hour) => ({ id: hour.id, at: hour.at })));
 ---
 
@@ -53,23 +67,32 @@ const data = JSON.stringify(all.map((hour) => ({ id: hour.id, at: hour.at })));
         <h1>{text.title}</h1>
         <p class="sub">{text.subtitle}</p>
       </div>
-      <figure class="dial" data-dial data-hours={data} aria-hidden="true">
-        <svg viewBox={`-14 -14 ${R * 2 + 28} ${R * 2 + 28}`} role="presentation">
+      <figure class="dial" data-dial data-hours={data} data-words={nowWords}>
+        <svg viewBox={`-14 -14 ${R * 2 + 28} ${R * 2 + 28}`} role="presentation" aria-hidden="true">
+          <path d={`M${R - 146} ${R}A146 146 0 0 0 ${R + 146} ${R}Z`} class="night"></path>
           <circle cx={R} cy={R} r="146" class="face"></circle>
+          <line x1={R - 146} y1={R} x2={R + 146} y2={R} class="horizon"></line>
           {Array.from({ length: 24 }, (_, i) => i).map((i) => {
-            const a = point(i, i % 6 === 0 ? 124 : 134);
+            const a = point(i, i % 6 === 0 ? 128 : 136);
             const b = point(i, 143);
             return <line x1={a.x} y1={a.y} x2={b.x} y2={b.y} class={i % 6 === 0 ? 'tick big' : 'tick'}></line>;
           })}
-          <g class="hand" data-hand>
-            <line x1={R} y1={R} x2={R} y2="46" class="hand-line"></line>
-            <circle cx={R} cy="46" r="6" class="hand-dot"></circle>
-          </g>
-          <path d={cross(R, R, 16)} class="hub"></path>
-          {marks.map(({ hour, x, y }) => (
-            <path d={cross(x, y, 10)} class="mark" data-mark={hour.id}></path>
+          {numbers.map(({ label, night, x, y }) => (
+            <text x={x} y={y} class={night ? 'num night-num' : 'num'} text-anchor="middle" dominant-baseline="central">{label}</text>
           ))}
+          {marks.map(({ hour, x, y }) => (
+            <path d={cross(x, y, 9)} class="mark" data-mark={hour.id}></path>
+          ))}
+          <g class="hand" data-hand>
+            <line x1={R} y1={R} x2={R} y2={R - 72} class="hand-line"></line>
+            <circle cx={R} cy={R - 72} r="4.5" class="hand-dot"></circle>
+          </g>
+          <path d={cross(R, R, 13)} class="hub"></path>
         </svg>
+        <figcaption>
+          <span class="now-text" data-now-text></span>
+          <span class="dial-note">{text.dialNote}</span>
+        </figcaption>
       </figure>
     </section>
 
@@ -105,25 +128,39 @@ const data = JSON.stringify(all.map((hour) => ({ id: hour.id, at: hour.at })));
   </div>
 
   <script>
-    // The hand shows the time on the reader's clock, and the card of the nearest hour of prayer is marked "Now".
+    // The hand shows the reader's time on the old Jewish reckoning (hours counted from sunrise at 6 a.m. and from sunset
+    // at 6 p.m.), the caption says which hour of the day or night it is, and the nearest hour of prayer is marked "Now".
     const dial = document.querySelector<HTMLElement>('[data-dial]');
     const hand = document.querySelector<SVGGElement>('[data-hand]');
+    const caption = document.querySelector<HTMLElement>('[data-now-text]');
     const hours = JSON.parse(dial?.dataset['hours'] ?? '[]') as { id: string; at: number }[];
-    const clock = new Date();
-    const now = clock.getHours() + clock.getMinutes() / 60;
-    hand?.setAttribute('transform', `rotate(${(now / 24) * 360} 150 150)`);
-    // Midnight is 24 and also 0; the Veil follows Compline closely, so it is not offered as "now" unless it is nearest.
-    let best: { id: string; gap: number } | undefined;
-    for (const hour of hours) {
-      const raw = Math.abs(now - hour.at);
-      const gap = Math.min(raw, 24 - raw);
-      if (best === undefined || gap < best.gap) best = { id: hour.id, gap };
-    }
-    if (best !== undefined) {
-      document.querySelector(`[data-hour-card="${best.id}"] .now`)?.removeAttribute('hidden');
-      document.querySelector(`[data-hour-card="${best.id}"] .hr`)?.classList.add('is-now');
-      document.querySelector(`[data-mark="${best.id}"]`)?.classList.add('is-now');
-    }
+    const words = JSON.parse(dial?.dataset['words'] ?? '{}') as { ordinals?: string[]; day?: string; night?: string };
+    const show = (): void => {
+      const clock = new Date();
+      const now = clock.getHours() + clock.getMinutes() / 60;
+      const sinceSunrise = (((now - 6) % 24) + 24) % 24;
+      // Noon (the sixth hour) is at the top, so the hand turns from there.
+      hand?.setAttribute('transform', `rotate(${((sinceSunrise - 6) / 24) * 360} 150 150)`);
+      const night = sinceSunrise >= 12;
+      const ordinal = words.ordinals?.[Math.floor(sinceSunrise % 12)] ?? '';
+      if (caption !== null) caption.textContent = (night ? words.night : words.day)?.replace('{n}', ordinal) ?? '';
+      // Midnight is 24 and also 0.
+      let best: { id: string; gap: number } | undefined;
+      for (const hour of hours) {
+        const raw = Math.abs(now - hour.at);
+        const gap = Math.min(raw, 24 - raw);
+        if (best === undefined || gap < best.gap) best = { id: hour.id, gap };
+      }
+      for (const el of document.querySelectorAll('[data-hour-card] .now')) el.setAttribute('hidden', '');
+      for (const el of document.querySelectorAll('.hr.is-now, .mark.is-now')) el.classList.remove('is-now');
+      if (best !== undefined) {
+        document.querySelector(`[data-hour-card="${best.id}"] .now`)?.removeAttribute('hidden');
+        document.querySelector(`[data-hour-card="${best.id}"] .hr`)?.classList.add('is-now');
+        document.querySelector(`[data-mark="${best.id}"]`)?.classList.add('is-now');
+      }
+    };
+    show();
+    setInterval(show, 30_000);
   </script>
 </Base>
 
@@ -171,6 +208,50 @@ const data = JSON.stringify(all.map((hour) => ({ id: hour.id, at: hour.at })));
     fill: none;
     stroke: var(--ink);
     stroke-width: 1.4;
+  }
+
+  /* The night is the lower half, faintly shaded; the horizon divides it from the day. */
+  .night {
+    fill: var(--ink);
+    opacity: 0.06;
+  }
+
+  .horizon {
+    stroke: var(--ink-muted);
+    stroke-width: 1;
+    stroke-dasharray: 3 4;
+  }
+
+  .num {
+    fill: var(--ink);
+    font-family: var(--font-ui);
+    font-size: 11px;
+    font-weight: 600;
+  }
+
+  .night-num {
+    fill: var(--ink-muted);
+  }
+
+  .dial figcaption {
+    display: grid;
+    gap: 0.2rem;
+    margin-block-start: 0.6rem;
+    text-align: center;
+  }
+
+  .now-text {
+    font-weight: 600;
+    color: var(--burgundy);
+  }
+
+  .now-text:empty {
+    display: none;
+  }
+
+  .dial-note {
+    color: var(--ink-muted);
+    font-size: var(--step--1);
   }
 
   .tick {

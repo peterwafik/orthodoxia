@@ -24,14 +24,14 @@ interface Bi {
 }
 
 export const HOUR_META: Record<string, { order: number; title: Bi; time: Bi; at: number; about: RegExp }> = {
-  prime: { order: 1, title: { en: 'Prime', ar: 'باكر' }, time: { en: 'The first hour, at dawn (about 6 a.m.)', ar: 'الساعة الأولى، عند الفجر (نحو السادسة صباحًا)' }, at: 6, about: /^Morning Prayer/ },
-  terce: { order: 2, title: { en: 'Terce', ar: 'الساعة الثالثة' }, time: { en: 'The third hour (about 9 a.m.)', ar: 'الساعة الثالثة (نحو التاسعة صباحًا)' }, at: 9, about: /^The Third Hour/ },
-  sext: { order: 3, title: { en: 'Sext', ar: 'الساعة السادسة' }, time: { en: 'The sixth hour (about noon)', ar: 'الساعة السادسة (نحو الظهر)' }, at: 12, about: /^The Sixth Hour/ },
-  none: { order: 4, title: { en: 'None', ar: 'الساعة التاسعة' }, time: { en: 'The ninth hour (about 3 p.m.)', ar: 'الساعة التاسعة (نحو الثالثة عصرًا)' }, at: 15, about: /^The Ninth Hour/ },
-  vespers: { order: 5, title: { en: 'Vespers', ar: 'الغروب' }, time: { en: 'The eleventh hour, at sunset (about 5 p.m.)', ar: 'الساعة الحادية عشرة، عند الغروب (نحو الخامسة مساءً)' }, at: 17, about: /^The Vespers/ },
-  compline: { order: 6, title: { en: 'Compline', ar: 'النوم' }, time: { en: 'The twelfth hour, before sleep (about 9 p.m.)', ar: 'الساعة الثانية عشرة، قبل النوم (نحو التاسعة مساءً)' }, at: 21, about: /^The Compline/ },
-  veil: { order: 7, title: { en: 'The Veil', ar: 'الستار' }, time: { en: 'At nightfall, for monks and bishops', ar: 'عند دخول الليل، للرهبان والأساقفة' }, at: 22, about: /^Veil:/ },
-  midnight: { order: 8, title: { en: 'Midnight', ar: 'نصف الليل' }, time: { en: 'At midnight, in three watches', ar: 'عند نصف الليل، في ثلاث خدمات' }, at: 24, about: /^The Midnight Hour/ },
+  prime: { order: 1, title: { en: 'Prime', ar: 'باكر' }, time: { en: 'The first hour of the day, at sunrise (about 6 a.m.)', ar: 'الساعة الأولى من النهار، عند شروق الشمس (نحو السادسة صباحًا)' }, at: 6, about: /^Morning Prayer/ },
+  terce: { order: 2, title: { en: 'Terce', ar: 'الساعة الثالثة' }, time: { en: 'The third hour of the day (about 9 a.m.)', ar: 'الساعة الثالثة من النهار (نحو التاسعة صباحًا)' }, at: 9, about: /^The Third Hour/ },
+  sext: { order: 3, title: { en: 'Sext', ar: 'الساعة السادسة' }, time: { en: 'The sixth hour of the day (about noon)', ar: 'الساعة السادسة من النهار (نحو الظهر)' }, at: 12, about: /^The Sixth Hour/ },
+  none: { order: 4, title: { en: 'None', ar: 'الساعة التاسعة' }, time: { en: 'The ninth hour of the day (about 3 p.m.)', ar: 'الساعة التاسعة من النهار (نحو الثالثة عصرًا)' }, at: 15, about: /^The Ninth Hour/ },
+  vespers: { order: 5, title: { en: 'Vespers', ar: 'الغروب' }, time: { en: 'The eleventh hour of the day, before sunset (about 5 p.m.)', ar: 'الساعة الحادية عشرة من النهار، قبيل الغروب (نحو الخامسة مساءً)' }, at: 17, about: /^The Vespers/ },
+  compline: { order: 6, title: { en: 'Compline', ar: 'النوم' }, time: { en: 'The twelfth hour of the day, at its close (about 6 p.m.)', ar: 'الساعة الثانية عشرة من النهار، عند ختامه (نحو السادسة مساءً)' }, at: 18, about: /^The Compline/ },
+  veil: { order: 7, title: { en: 'The Veil', ar: 'الستار' }, time: { en: 'The first hour of the night, at nightfall, for monks and bishops (about 7 p.m.)', ar: 'الساعة الأولى من الليل، عند دخول الليل، للرهبان والأساقفة (نحو السابعة مساءً)' }, at: 19, about: /^Veil:/ },
+  midnight: { order: 8, title: { en: 'Midnight', ar: 'نصف الليل' }, time: { en: 'The sixth hour of the night, at midnight, in three watches', ar: 'الساعة السادسة من الليل، عند نصف الليل، في ثلاث خدمات' }, at: 24, about: /^The Midnight Hour/ },
 };
 
 const GREEK = /[Ͱ-Ͽἀ-῿]/g;
