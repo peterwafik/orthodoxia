@@ -13,7 +13,7 @@ import {
   bibleLink,
   showsDraftNotice,
 } from '../../../../lib/apologetics/index.ts';
-import { ARGUMENT_TYPE, ASSESSMENT, DIFFICULTY, STATE } from '../../../../lib/apologetics/labels.ts';
+import { ARGUMENT_TYPE, DIFFICULTY, STATE } from '../../../../lib/apologetics/labels.ts';
 import { passageVerses } from '../../../../lib/apologetics/passages.ts';
 import { CORRECTIONS_URL, fill, ui } from '../../../../lib/apologetics/ui.ts';
 import { inLocale } from '../../../../lib/apologetics/arabic.ts';
@@ -43,28 +43,21 @@ const passages =
         return verses === null || link === null ? [] : [{ id: e.id, link, verses }];
       });
 const citation = article === undefined ? '' : `Orthodoxia, “${question.title[locale]}”, ${text.section}, ${fill(text.updated, { n: article.revision })} ${article.updated}.`;
+// One path through the answer, in reading order (empty parts are left out).
 const toc = [
-  ['scope', text.scope, 'quick'],
-  ['answer', text.shortAnswer, 'quick'],
-  ['assessment', text.assessment, 'quick'],
-  ['why', text.whyExamine, 'evidence'],
-  ['background', text.background, 'advanced'],
-  ['claims', text.claims, 'evidence'],
-  ['evidence', text.evidence, 'evidence'],
-  ['passages', text.parallelPassages, 'evidence'],
-  ['objections', text.objections, 'evidence'],
-  ['response', text.responses, 'evidence'],
-  ['coptic', text.coptic, 'evidence'],
-  ['disputed', text.disputed, 'evidence'],
-  ['conclusion', text.conclusion, 'quick'],
-  ['related', text.related, 'quick'],
-  ['history', text.correctionHistory, 'advanced'],
+  ['answer', text.answerHeading],
+  ['why', text.whyHeading],
+  ['evidence', text.evidenceSection],
+  ['teaching', text.teachingHeading],
+  ['objections', text.objectionsHeading],
+  ['conclusion', text.conclusion],
+  ['sources', text.sourcesHeading],
+  ['related', text.related],
 ] as const;
 const visibleToc = toc.filter(([id]) => {
   if (article === undefined) return false;
-  if (id === 'coptic') return article.coptic !== null;
-  if (id === 'passages') return passages.length > 0;
-  if (id === 'background') return article.background[locale].length > 0;
+  if (id === 'objections') return article.objections.length > 0;
+  if (id === 'related') return article.related.length > 0;
   return true;
 });
 ---
@@ -106,16 +99,11 @@ const visibleToc = toc.filter(([id]) => {
           <p class="apo-hint" data-report-note hidden>{text.reportNote}</p>
         </>
       ) : (
-        <div id="apo-view" data-view="evidence">
+        <div id="apo-view">
           {isDraft && <div class="apo-banner" role="note"><p>{text.draftBanner}</p></div>}
           <p class="apo-meta">
             <span>{fill(text.updated, { n: article.revision })} <time datetime={article.updated}>{article.updated}</time></span>
           </p>
-          <div class="apo-views" role="group" aria-label={text.viewLabel}>
-            <button type="button" class="apo-btn" data-set-view="quick" aria-pressed="false">{text.viewQuick}</button>
-            <button type="button" class="apo-btn" data-set-view="evidence" aria-pressed="true">{text.viewEvidence}</button>
-            <button type="button" class="apo-btn" data-set-view="advanced" aria-pressed="false">{text.viewAdvanced}</button>
-          </div>
           <div class="apo-actions">
             <button type="button" class="apo-btn" data-save data-aria-saved={text.saved} aria-pressed="false">{text.save}</button>
             <button type="button" class="apo-btn" data-cite data-text={citation} data-done={text.copied}>{text.cite}</button>
@@ -125,82 +113,115 @@ const visibleToc = toc.filter(([id]) => {
             <nav class="apo-toc" aria-label={text.onThisPage}>
               <strong>{text.onThisPage}</strong>
               <ol>
-                {visibleToc.map(([id, label, level]) => <li data-level={level}><a href={`#${id}`}>{label}</a></li>)}
+                {visibleToc.map(([id, label]) => <li><a href={`#${id}`}>{label}</a></li>)}
               </ol>
             </nav>
 
             <div class="apo-article">
-              <section id="scope" data-level="quick">
-                <h2>{text.scope}</h2>
-                <p>{article.scope[locale]}</p>
-              </section>
-
-              <section id="answer" data-level="quick">
-                <h2>{text.shortAnswer}</h2>
+              {/* 1. The answer first. */}
+              <section id="answer">
+                <h2>{text.answerHeading}</h2>
                 <p class="apo-short">{article.shortAnswer[locale]}</p>
                 <ul>{article.quickPoints[locale].map((point) => <li>{point}</li>)}</ul>
               </section>
 
-              <section id="assessment" data-level="quick">
-                <h2>{text.assessment}</h2>
-                <p>
-                  <span class="badge badge--burgundy">{ASSESSMENT[article.assessment.label].label[locale]}{isDraft ? ` (${text.proposed})` : ''}</span>
-                  {' '}
-                  {article.argumentTypes.map((a) => <span class="badge">{text.argumentType}: {ARGUMENT_TYPE[a][locale]}</span>)}
-                </p>
-                <p>{article.assessment.explanation[locale]}</p>
-                <p class="muted"><small>{ASSESSMENT[article.assessment.label].definition[locale]}</small></p>
-              </section>
-
-              <section id="why" data-level="evidence">
-                <h2>{text.whyExamine}</h2>
+              {/* 2. Why the question matters, with the background a reader needs. */}
+              <section id="why">
+                <h2>{text.whyHeading}</h2>
                 {paragraphs(article.whyExamine).map((p) => <p>{p}</p>)}
+                {paragraphs(article.background).map((p) => <p>{p}</p>)}
+                {
+                  terms.length > 0 && (
+                    <>
+                      <h3>{text.glossaryTerms}</h3>
+                      <ul class="apo-list">
+                        {terms.map((g) => <li><a href={`${apoPath(locale, 'glossary')}#${g.id}`}>{g.term[locale]}</a>: {g.definition[locale]}</li>)}
+                      </ul>
+                    </>
+                  )
+                }
               </section>
 
+              {/* 3. The evidence: each point with its reasoning and sources, the historical case, then the Scripture itself. */}
+              <section id="evidence">
+                <h2>{text.evidenceSection}</h2>
+                {
+                  article.claims.map((c) => (
+                    <div class="apo-claim" id={c.id}>
+                      <h3>{c.proposition[locale]}</h3>
+                      <p>
+                        {c.rationale[locale]}
+                        {' '}
+                        <span class="muted">{c.evidence.map((id, i) => <>{i > 0 ? ' ' : ''}<a href={`#ev-${id}`} title={id}>{evidenceNumber(id)}</a></>)}</span>
+                      </p>
+                    </div>
+                  ))
+                }
+                {paragraphs(article.christianResponse.historical).map((p) => <p>{p}</p>)}
+                {
+                  passages.length > 0 && (
+                    <div id="passages">
+                      <h3>{text.inScripture}</h3>
+                      {
+                        passages.map((p) => (
+                          <div>
+                            <h4><a href={p.link.href}><bdi>{p.link.label}</bdi></a></h4>
+                            {/* The page's own language only: King James on English pages, Van Dyck on Arabic ones. */}
+                            <div class="apo-passage" lang={locale} dir={locale === 'ar' ? 'rtl' : 'ltr'}>
+                              <p class="muted"><small>{locale === 'ar' ? 'ترجمة فان دايك' : 'King James Version'}</small></p>
+                              {p.verses[locale].map((v) => <p><sup>{v.n}</sup> {v.text}</p>)}
+                            </div>
+                          </div>
+                        ))
+                      }
+                    </div>
+                  )
+                }
+              </section>
+
+              {/* 4. What the Church teaches, and how the Coptic Orthodox Church lives it. */}
+              <section id="teaching">
+                <h2>{text.teachingHeading}</h2>
+                {paragraphs(article.christianResponse.theological).map((p) => <p>{p}</p>)}
+                {article.coptic !== null && paragraphs(article.coptic).map((p) => <p>{p}</p>)}
+              </section>
+
+              {/* 5. The usual objections, each answered. */}
               {
-                article.background[locale].length > 0 && (
-                  <section id="background" data-level="advanced">
-                    <h2>{text.background}</h2>
-                    {paragraphs(article.background).map((p) => <p>{p}</p>)}
+                article.objections.length > 0 && (
+                  <section id="objections">
+                    <h2>{text.objectionsHeading}</h2>
                     {
-                      terms.length > 0 && (
-                        <>
-                          <h3>{text.glossaryTerms}</h3>
-                          <ul class="apo-list">
-                            {terms.map((g) => <li><a href={`${apoPath(locale, 'glossary')}#${g.id}`}>{g.term[locale]}</a>: {g.definition[locale]}</li>)}
-                          </ul>
-                        </>
-                      )
+                      article.objections.map((o) => (
+                        <details class="apo-objection" id={o.id}>
+                          <summary>{o.statement[locale]}</summary>
+                          <div>
+                            {paragraphs(o.response).map((p) => <p>{p}</p>)}
+                            {
+                              o.evidence !== undefined && o.evidence.length > 0 && (
+                                <p class="muted">{o.evidence.map((id, i) => <>{i > 0 ? ' ' : ''}<a href={`#ev-${id}`} title={id}>{evidenceNumber(id)}</a></>)}</p>
+                              )
+                            }
+                          </div>
+                        </details>
+                      ))
                     }
                   </section>
                 )
               }
 
-              <section id="claims" data-level="evidence">
-                <h2>{text.claims}</h2>
-                {
-                  article.claims.map((c) => (
-                    <div class="apo-claim" id={c.id}>
-                      <h3>{c.proposition[locale]}</h3>
-                      <div class="badges">
-                        <span class="badge badge--burgundy">{ASSESSMENT[c.assessment].label[locale]}{isDraft ? ` (${text.proposed})` : ''}</span>
-                        <span class="badge">{ARGUMENT_TYPE[c.argumentType][locale]}</span>
-                      </div>
-                      <p><strong>{text.rationale}:</strong> {c.rationale[locale]}</p>
-                      <p><strong>{text.limits}:</strong> {c.limits[locale]}</p>
-                      <p class="muted">
-                        {c.evidence.map((id, i) => <>{i > 0 ? ' · ' : ''}<a href={`#ev-${id}`} title={id}>{evidenceNumber(id)}</a></>)}
-                      </p>
-                    </div>
-                  ))
-                }
+              {/* 6. The conclusion the page leads to. */}
+              <section id="conclusion">
+                <h2>{text.conclusion}</h2>
+                <p class="apo-short">{article.conclusion[locale]}</p>
               </section>
 
-              <section id="evidence" data-level="evidence">
-                <h2>{text.evidence}</h2>
-                <ul class="apo-links">
+              {/* The sources behind the numbers [1], [2]… and a way to report a mistake. */}
+              <section id="sources">
+                <h2>{text.sourcesHeading}</h2>
+                <ol class="apo-links">
                   {
-                    article.evidence.map((e, i) => {
+                    article.evidence.map((e) => {
                       const source = SOURCE_BY_ID.get(e.sourceId)!;
                       const link = e.bible === undefined ? null : bibleLink(locale, e.bible);
                       const whole = e.locator.toLowerCase().startsWith('whole work');
@@ -208,7 +229,6 @@ const visibleToc = toc.filter(([id]) => {
                       const external = link === null && source.url.startsWith('http');
                       return (
                         <li id={`ev-${e.id}`}>
-                          <span class="muted">[{i + 1}]</span>{' '}
                           <a href={href} {...(external ? { target: '_blank', rel: 'noopener noreferrer' } : {})}>
                             <bdi>{link !== null ? link.label : source.title}</bdi>
                           </a>
@@ -220,98 +240,13 @@ const visibleToc = toc.filter(([id]) => {
                       );
                     })
                   }
-                </ul>
-              </section>
-
-              {
-                passages.length > 0 && (
-                  <section id="passages" data-level="evidence">
-                    <h2>{text.parallelPassages}</h2>
-                    {
-                      passages.map((p) => (
-                        <div>
-                          <h3><a href={p.link.href}><bdi>{p.link.label}</bdi></a></h3>
-                          {/* The page's own language only: King James on English pages, Van Dyck on Arabic ones. */}
-                          <div class="apo-passage" lang={locale} dir={locale === 'ar' ? 'rtl' : 'ltr'}>
-                            <p class="muted"><small>{locale === 'ar' ? 'ترجمة فان دايك' : 'King James Version'}</small></p>
-                            {p.verses[locale].map((v) => <p><sup>{v.n}</sup> {v.text}</p>)}
-                          </div>
-                        </div>
-                      ))
-                    }
-                  </section>
-                )
-              }
-
-              <section id="objections" data-level="evidence">
-                <h2>{text.objections}</h2>
+                </ol>
                 {
-                  article.objections.map((o) => (
-                    <details class="apo-objection" id={o.id}>
-                      <summary>{o.statement[locale]}</summary>
-                      <div>
-                        <h3>{text.objectionResponse}</h3>
-                        {paragraphs(o.response).map((p) => <p>{p}</p>)}
-                        <p><strong>{text.limits}:</strong> {o.limits[locale]}</p>
-                        {
-                          o.evidence !== undefined && o.evidence.length > 0 && (
-                            <p class="muted">{o.evidence.map((id, i) => <>{i > 0 ? ' · ' : ''}<a href={`#ev-${id}`} title={id}>{evidenceNumber(id)}</a></>)}</p>
-                          )
-                        }
-                      </div>
-                    </details>
-                  ))
-                }
-              </section>
-
-              <section id="response" data-level="evidence">
-                <h2>{text.responses}</h2>
-                <h3>{text.responseHistorical}</h3>
-                {paragraphs(article.christianResponse.historical).map((p) => <p>{p}</p>)}
-                <h3>{text.responseTheological}</h3>
-                {paragraphs(article.christianResponse.theological).map((p) => <p>{p}</p>)}
-              </section>
-
-              {
-                article.coptic !== null && (
-                  <section id="coptic" data-level="evidence">
-                    <h2>{text.coptic}</h2>
-                    {paragraphs(article.coptic).map((p) => <p>{p}</p>)}
-                  </section>
-                )
-              }
-
-              <section id="disputed" data-level="evidence">
-                <h2>{text.disputed}</h2>
-                {paragraphs(article.disputed).map((p) => <p>{p}</p>)}
-              </section>
-
-              <section id="conclusion" data-level="quick">
-                <h2>{text.conclusion}</h2>
-                <p>{article.conclusion[locale]}</p>
-              </section>
-
-              
-
-              <section id="related" data-level="quick">
-                <h2>{text.related}</h2>
-                <ul class="apo-list">
-                  {
-                    article.related.map((id) => {
-                      const q = QUESTION_BY_ID.get(id)!;
-                      return <li><a href={apoPath(locale, `questions/${q.slug}`)}>{q.title[locale]}</a></li>;
-                    })
-                  }
-                </ul>
-              </section>
-
-              <section id="history" data-level="advanced">
-                <h2>{text.correctionHistory}</h2>
-                {
-                  article.corrections.length === 0 ? (
-                    <p>{text.noCorrections}</p>
-                  ) : (
-                    <ul class="apo-list">{article.corrections.map((c) => <li><time datetime={c.date}>{c.date}</time>: {c.note[locale]}</li>)}</ul>
+                  article.corrections.length > 0 && (
+                    <>
+                      <h3>{text.correctionHistory}</h3>
+                      <ul class="apo-list">{article.corrections.map((c) => <li><time datetime={c.date}>{c.date}</time>: {c.note[locale]}</li>)}</ul>
+                    </>
                   )
                 }
                 <div class="apo-actions">
@@ -327,6 +262,22 @@ const visibleToc = toc.filter(([id]) => {
                   }
                 </div>
               </section>
+
+              {
+                article.related.length > 0 && (
+                  <section id="related">
+                    <h2>{text.related}</h2>
+                    <ul class="apo-list">
+                      {
+                        article.related.map((id) => {
+                          const q = QUESTION_BY_ID.get(id)!;
+                          return <li><a href={apoPath(locale, `questions/${q.slug}`)}>{q.title[locale]}</a></li>;
+                        })
+                      }
+                    </ul>
+                  </section>
+                )
+              }
             </div>
           </div>
         </div>
@@ -338,7 +289,6 @@ const visibleToc = toc.filter(([id]) => {
 <script>
   const root = document.getElementById('apo-root');
   const view = document.getElementById('apo-view');
-  const VIEW_KEY = 'orthodoxia:apo-view';
   const SAVED_KEY = 'orthodoxia:apo-saved';
 
   function readList(): string[] {
@@ -348,34 +298,6 @@ const visibleToc = toc.filter(([id]) => {
       return Array.isArray(parsed) ? parsed.filter((x): x is string => typeof x === 'string') : [];
     } catch {
       return [];
-    }
-  }
-
-  // Reading depth: one record, three views. Remembered on this device only.
-  if (view !== null) {
-    const buttons = [...document.querySelectorAll<HTMLButtonElement>('[data-set-view]')];
-    const set = (name: string): void => {
-      view.dataset['view'] = name;
-      for (const b of buttons) b.setAttribute('aria-pressed', String(b.dataset['setView'] === name));
-    };
-    let initial = 'evidence';
-    try {
-      const stored = localStorage.getItem(VIEW_KEY);
-      if (stored === 'quick' || stored === 'evidence' || stored === 'advanced') initial = stored;
-    } catch {
-      // Storage unavailable.
-    }
-    set(initial);
-    for (const b of buttons) {
-      b.addEventListener('click', () => {
-        const name = b.dataset['setView'] ?? 'evidence';
-        set(name);
-        try {
-          localStorage.setItem(VIEW_KEY, name);
-        } catch {
-          // Storage unavailable: the choice lasts for this page view.
-        }
-      });
     }
   }
 

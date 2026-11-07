@@ -90,12 +90,9 @@ a.apo-card:hover { border-color: var(--burgundy); }
 .apo-article p, .apo-article li { font-family: var(--font-reading); font-size: 1.0625rem; line-height: 1.7; }
 :lang(ar) .apo-article p, :lang(ar) .apo-article li { font-size: 1.15rem; line-height: 2; }
 .apo-short { font-size: var(--step-1); border-inline-start: 4px solid var(--burgundy); padding-inline-start: 1rem; }
-.apo-views { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-block: 1rem; }
 .apo-meta { color: var(--ink-muted); font-size: var(--step--1); display: flex; flex-wrap: wrap; gap: 0.2rem 1.2rem; }
 .apo-actions { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-block: 0.8rem; }
 
-[data-view='quick'] [data-level='evidence'], [data-view='quick'] [data-level='advanced'], [data-view='evidence'] [data-level='advanced'] { display: none; }
-[data-view='quick'] .apo-article h2[data-level], [data-view='evidence'] .apo-article h2[data-level='advanced'] { display: none; }
 
 .apo-evidence { display: grid; gap: 0.8rem; margin-block: 1rem; }
 .apo-ev { border: 1px solid var(--line); border-inline-start: 5px solid var(--gold); border-radius: 0.5rem; background-color: var(--glass); padding: 0.9rem 1.1rem; }
@@ -148,3 +145,6 @@ bdi { unicode-bidi: isolate; }
 .apo-links { list-style: none; margin: 1rem 0 0; padding: 0; display: grid; gap: 0.5rem; }
 .apo-links li { padding: 0.6rem 0.9rem; border: 1px solid var(--glass-line); border-radius: 0.9rem; background-color: var(--glass); scroll-margin-block-start: calc(var(--header-room) + 0.5rem); }
 .apo-links a { font-family: var(--font-reading); font-size: var(--step-0); }
+ol.apo-links { counter-reset: apo-source; }
+ol.apo-links li { counter-increment: apo-source; }
+ol.apo-links li::before { content: '[' counter(apo-source) '] '; color: var(--ink-muted); }
