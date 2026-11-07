@@ -1,7 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import liturgySources from '../../data/liturgy-sources.json';
-import { LICENSE_LABELS, SOURCES } from '../../lib/sources.ts';
+import { LICENSE_LABELS, LICENSE_LABELS_AR, SOURCES } from '../../lib/sources.ts';
 import { LOCALES, t, type Locale } from '../../i18n/index.ts';
 
 export function getStaticPaths() {
@@ -39,7 +39,7 @@ const groups = (['import', 'link-only', 'do-not-use'] as const).map((usage) => (
                 <dl>
                   <dt>{strings.license}</dt>
                   <dd>
-                    <a href={source.license.verifiedUrl} lang="en">{LICENSE_LABELS[source.license.id]}</a>
+                    <a href={source.license.verifiedUrl}>{(locale === 'ar' ? LICENSE_LABELS_AR : LICENSE_LABELS)[source.license.id]}</a>
                   </dd>
                   <dt>{strings.licenseStatement}</dt>
                   <dd lang="en" dir="ltr">
@@ -62,7 +62,13 @@ const groups = (['import', 'link-only', 'do-not-use'] as const).map((usage) => (
                     <time datetime={source.lastVerifiedAt}>{source.lastVerifiedAt}</time>
                   </dd>
                 </dl>
-                {source.notes !== undefined && <p class="notes" lang="en" dir="ltr">{source.notes}</p>}
+                {source.notes !== undefined && (
+                  locale === 'ar' && source.notesAr !== undefined ? (
+                    <p class="notes">{source.notesAr}</p>
+                  ) : (
+                    <p class="notes" lang="en" dir="ltr">{source.notes}</p>
+                  )
+                )}
               </li>
             ))}
           </ul>

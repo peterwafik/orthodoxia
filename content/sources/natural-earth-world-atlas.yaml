@@ -18,3 +18,4 @@ modification: allowed
 lastVerifiedAt: "2026-10-25"
 coversDeuterocanon: false
 notes: The coastlines of the Bible atlas globe (1:110m and 1:50m land), repackaged as TopoJSON by the world-atlas package (ISC licence). The atlas draws no modern borders.
+notesAr: "سواحل كرة أطلس الكتاب المقدس (اليابسة بمقياسي 1:110 مليون و1:50 مليون)، أعادت حزمة world-atlas تغليفها بصيغة TopoJSON (ترخيص ISC). لا يرسم الأطلس أي حدود حديثة."

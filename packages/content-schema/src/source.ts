@@ -69,8 +69,13 @@ export const ContentSource = z
     /** Whether deuterocanonical books are covered, for Bible texts and cross-references. */
     coversDeuterocanon: z.boolean().optional(),
     notes: z.string().optional(),
+    /** The same note in Arabic, for the Arabic Sources page; required wherever `notes` is given. */
+    notesAr: z.string().optional(),
   })
   .superRefine((source, ctx) => {
+    if (source.notes !== undefined && source.notesAr === undefined) {
+      ctx.addIssue({ code: 'custom', message: 'notes needs its Arabic in notesAr' });
+    }
     if (source.usage === 'import') {
       if (!source.redistributionAllowed) {
         ctx.addIssue({ code: 'custom', message: 'usage "import" requires redistributionAllowed: true' });

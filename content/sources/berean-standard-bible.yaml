@@ -17,3 +17,4 @@ modification: allowed
 lastVerifiedAt: "2026-10-11"
 coversDeuterocanon: false
 notes: Used as the English verse text of the cross-reference explorer (inherited from upstream; raw file pinned by SHA-256 in apps/explorer/data/sources.json). If the text is modified, the publisher asks that the Berean name not be used.
+notesAr: "يُستخدم نصًّا إنجليزيًا للآيات في مستكشف الشواهد (موروث من المشروع الأصلي، والملف الخام مثبّت ببصمته الرقمية). إذا عُدّل النص يطلب الناشر ألا يُستخدم اسم «بيريان»."

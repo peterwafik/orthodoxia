@@ -3,6 +3,7 @@ import type { SourceWork } from '../../data/apologetics/types.ts';
 import { ACCESS, KIND, STANDPOINT } from '../../lib/apologetics/labels.ts';
 import { apoPath } from '../../lib/apologetics/index.ts';
 import { ui } from '../../lib/apologetics/ui.ts';
+import { inLocale } from '../../lib/apologetics/arabic.ts';
 import type { Locale } from '../../i18n/index.ts';
 
 interface Props {
@@ -21,13 +22,13 @@ const thin = source.access !== 'full_text';
   <h3>
     <a href={apoPath(locale, `sources/${source.id.toLowerCase()}`)}><bdi>{source.title}</bdi></a>
   </h3>
-  <p class="by"><bdi>{source.author}</bdi>{source.locator !== undefined && <> · <bdi>{source.locator}</bdi></>}</p>
+  <p class="by"><bdi>{source.author}</bdi>{source.locator !== undefined && <> · <bdi>{inLocale(source.locator, locale)}</bdi></>}</p>
   <div class="badges">
     <span class="badge">{KIND[source.kind][locale]}</span>
     <span class="badge badge--burgundy">{STANDPOINT[source.standpoint][locale]}</span>
     <span class={`badge ${thin ? '' : 'badge--ok'}`}>{ACCESS[source.access][locale]}</span>
   </div>
-  {source.composed !== undefined && <p class="by">{text.composed}: {source.composed}</p>}
+  {source.composed !== undefined && <p class="by">{text.composed}: {inLocale(source.composed, locale)}</p>}
   {!compact && <p>{source.use[locale]}</p>}
   {
     !compact && external && (

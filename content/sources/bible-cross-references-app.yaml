@@ -16,3 +16,4 @@ commercialUse: allowed
 modification: allowed
 lastVerifiedAt: "2026-10-11"
 notes: Vendored with git subtree into apps/explorer at upstream commit 23e7f90. Local changes are listed in apps/explorer/PATCHES.md.
+notesAr: "أُدرج في الموقع أساسًا لمستكشف الشواهد، مع تعديلات محلية مدوّنة في سجل تعديلات المشروع."

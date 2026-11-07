@@ -175,3 +175,8 @@ every verse's threads faded at rest and the picked verse's clearly (`threads-dra
 The glass header's blur makes it its own layer, so the page body (drawn after it) covered the menus'
 popovers: Categories, Genres and the site menu opened invisibly. `.header` gets `position: relative;
 z-index: 20` (`src/visualizations/shared/components/VizPage.module.css`).
+
+## Local builds on Windows
+
+`scripts/data/lib/files.ts`: `writeFileAtomic` overwrites the file in place when Windows refuses to
+rename over it (`EPERM`, e.g. while a dev server holds the dataset open). No effect elsewhere.

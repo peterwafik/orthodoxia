@@ -17,3 +17,4 @@ modification: allowed
 lastVerifiedAt: "2026-10-11"
 coversDeuterocanon: false
 notes: Arabic edition of the Bible reader (66 books) and the verse text of the Arabic cross-reference explorer. Use this copy, not CrossWire's AraSVD module, whose terms forbid conversion to other formats. It has no deuterocanonical books; the Arabic reader takes those from Arabic Wikisource (see wikisource-arabic-deuterocanon).
+notesAr: "الطبعة العربية لقارئ الكتاب المقدس (66 سفرًا) ونص الآيات في مستكشف الشواهد العربي. تُستخدم هذه النسخة لا وحدة AraSVD من CrossWire التي تمنع شروطها تحويلها إلى صيغ أخرى. لا تحتوي على الأسفار القانونية الثانية، فيأخذها القارئ العربي من ويكي مصدر العربية."

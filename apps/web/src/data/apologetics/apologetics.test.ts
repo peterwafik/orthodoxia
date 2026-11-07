@@ -4,6 +4,7 @@ import { GLOSSARY_BY_ID } from './glossary.ts';
 import { QUESTIONS, QUESTION_BY_ID, TOPIC_BY_ID, TOPICS } from './questions.ts';
 import { SOURCES } from './sources.ts';
 import type { Article, Line, Paras } from './types.ts';
+import { arabicOf } from '../../lib/apologetics/arabic.ts';
 
 const SOURCE_BY_ID = new Map(SOURCES.map((s) => [s.id, s]));
 const THIN_ACCESS = new Set(['metadata_only', 'awaiting_copy', 'unavailable', 'paywalled', 'abstract_only']);
@@ -156,5 +157,32 @@ describe.each(ARTICLES.map((a) => [a.id, a] as [string, Article]))('article %s',
     expect(text).not.toMatch(/\d+(\.\d+)? ?% (probab|certain|likel|chance)/);
     expect(text).not.toMatch(/all (scholars|historians) (agree|accept)/);
     expect(text).not.toMatch(/no (serious )?(scholar|historian)s? (doubts|denies|disputes)/);
+  });
+});
+
+describe('Arabic pages show no English catalogue text', () => {
+  // Titles and author names stay as the source gives them; everything else needs its Arabic.
+  const english = /[A-Za-z]{3,}/;
+  const allowed = /^W_\d|^St-Takla/;
+  const check = (text: string, where: string) => {
+    const arabic = arabicOf(text);
+    expect(arabic, `${where}: "${text}" has no Arabic`).toBeDefined();
+    const leftover = (arabic ?? '').split(/\s+/).filter((word) => english.test(word) && !allowed.test(word));
+    expect(leftover, `${where}: English left in "${arabic ?? ''}"`).toEqual([]);
+  };
+
+  it('gives every source note, date, rights line and locator its Arabic', () => {
+    for (const s of SOURCES) {
+      if (s.standpointNote !== undefined) check(s.standpointNote, `${s.id} note`);
+      if (s.composed !== undefined) check(s.composed, `${s.id} composed`);
+      check(s.rights, `${s.id} rights`);
+      if (s.locator !== undefined) check(s.locator, `${s.id} locator`);
+    }
+  });
+
+  it('gives every evidence locator its Arabic', () => {
+    for (const article of ARTICLES) {
+      for (const e of article.evidence) check(e.locator, `${article.questionId} ${e.id}`);
+    }
   });
 });

@@ -18,3 +18,4 @@ modification: allowed
 lastVerifiedAt: "2026-10-11"
 coversDeuterocanon: true
 notes: Default English edition of the Bible reader (Old Testament, deuterocanon, New Testament). In the United Kingdom, printing the KJV is subject to the Crown's letters patent; eBible.org states this has no effect elsewhere, and online display is not printing. Raw file pinned by SHA-256 in data/bible/sources.json. The 1 Esdras, 2 Esdras and Prayer of Manasseh books it contains are not used, because they are outside the Coptic Orthodox canon.
+notesAr: "الطبعة الإنجليزية الافتراضية لقارئ الكتاب المقدس (العهد القديم والأسفار القانونية الثانية والعهد الجديد). في المملكة المتحدة تخضع طباعة ترجمة الملك جيمس لبراءة التاج، ويذكر موقع eBible.org أن ذلك لا أثر له خارجها، والعرض على الإنترنت ليس طباعة. لا تُستخدم أسفار عزرا الأول والثاني وصلاة منسى الموجودة فيها لأنها خارج قانون الكنيسة القبطية الأرثوذكسية."

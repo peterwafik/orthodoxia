@@ -20,7 +20,7 @@ const terms = [...GLOSSARY_TERMS].sort((a, b) => a.term[locale].localeCompare(b.
       {
         terms.map((g) => (
           <div id={g.id} style="margin-block:1rem">
-            <dt><h2 style="font-size:var(--step-1);margin:0">{g.term[locale]} <small class="muted"><bdi>{g.term[locale === 'en' ? 'ar' : 'en']}</bdi></small></h2></dt>
+            <dt><h2 style="font-size:var(--step-1);margin:0">{g.term[locale]}{locale === 'en' && <> <small class="muted"><bdi>{g.term.ar}</bdi></small></>}</h2></dt>
             <dd style="margin:0.2rem 0 0" class="prose">{g.definition[locale]}</dd>
           </div>
         ))

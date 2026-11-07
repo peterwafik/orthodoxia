@@ -16,6 +16,7 @@ import {
 import { ARGUMENT_TYPE, ASSESSMENT, DIFFICULTY, STATE } from '../../../../lib/apologetics/labels.ts';
 import { passageVerses } from '../../../../lib/apologetics/passages.ts';
 import { CORRECTIONS_URL, fill, ui } from '../../../../lib/apologetics/ui.ts';
+import { inLocale } from '../../../../lib/apologetics/arabic.ts';
 
 export function getStaticPaths() {
   return LOCALES.flatMap((lang) => QUESTIONS.map((q) => ({ params: { lang, slug: q.slug } })));
@@ -27,6 +28,9 @@ const question = QUESTIONS.find((q) => q.slug === Astro.params.slug)!;
 const topic = TOPIC_BY_ID.get(question.topic)!;
 const article = ARTICLE_BY_QUESTION.get(question.id);
 const isDraft = article !== undefined && showsDraftNotice(article);
+/** An evidence item by its number in the list ("[3]"), the same in both languages; its id stays in the link. */
+const evidenceNumber = (id: string): string =>
+  `[${String((article?.evidence.findIndex((e) => e.id === id) ?? -1) + 1)}]`;
 const paragraphs = (p: { en: readonly string[]; ar: readonly string[] }): readonly string[] => p[locale];
 const terms = article === undefined ? [] : GLOSSARY_TERMS.filter((g) => article.glossary.includes(g.id));
 const passages =
@@ -185,7 +189,7 @@ const visibleToc = toc.filter(([id]) => {
                       <p><strong>{text.rationale}:</strong> {c.rationale[locale]}</p>
                       <p><strong>{text.limits}:</strong> {c.limits[locale]}</p>
                       <p class="muted">
-                        {c.evidence.map((id, i) => <>{i > 0 ? ' · ' : ''}<a href={`#ev-${id}`}>{id}</a></>)}
+                        {c.evidence.map((id, i) => <>{i > 0 ? ' · ' : ''}<a href={`#ev-${id}`} title={id}>{evidenceNumber(id)}</a></>)}
                       </p>
                     </div>
                   ))
@@ -196,7 +200,7 @@ const visibleToc = toc.filter(([id]) => {
                 <h2>{text.evidence}</h2>
                 <ul class="apo-links">
                   {
-                    article.evidence.map((e) => {
+                    article.evidence.map((e, i) => {
                       const source = SOURCE_BY_ID.get(e.sourceId)!;
                       const link = e.bible === undefined ? null : bibleLink(locale, e.bible);
                       const whole = e.locator.toLowerCase().startsWith('whole work');
@@ -204,12 +208,13 @@ const visibleToc = toc.filter(([id]) => {
                       const external = link === null && source.url.startsWith('http');
                       return (
                         <li id={`ev-${e.id}`}>
+                          <span class="muted">[{i + 1}]</span>{' '}
                           <a href={href} {...(external ? { target: '_blank', rel: 'noopener noreferrer' } : {})}>
                             <bdi>{link !== null ? link.label : source.title}</bdi>
                           </a>
                           <span class="muted">
                             {link === null && <> · <bdi>{source.author}</bdi></>}
-                            {link === null && !whole && <> · <bdi>{e.locator}</bdi></>}
+                            {link === null && !whole && <> · <bdi>{inLocale(e.locator, locale)}</bdi></>}
                           </span>
                         </li>
                       );
@@ -226,15 +231,10 @@ const visibleToc = toc.filter(([id]) => {
                       passages.map((p) => (
                         <div>
                           <h3><a href={p.link.href}><bdi>{p.link.label}</bdi></a></h3>
-                          <div class="apo-parallel">
-                            <div lang="en" dir="ltr">
-                              <p class="muted"><small>King James Version</small></p>
-                              {p.verses.en.map((v) => <p><sup>{v.n}</sup> {v.text}</p>)}
-                            </div>
-                            <div lang="ar" dir="rtl">
-                              <p class="muted"><small>ترجمة فان دايك</small></p>
-                              {p.verses.ar.map((v) => <p><sup>{v.n}</sup> {v.text}</p>)}
-                            </div>
+                          {/* The page's own language only: King James on English pages, Van Dyck on Arabic ones. */}
+                          <div class="apo-passage" lang={locale} dir={locale === 'ar' ? 'rtl' : 'ltr'}>
+                            <p class="muted"><small>{locale === 'ar' ? 'ترجمة فان دايك' : 'King James Version'}</small></p>
+                            {p.verses[locale].map((v) => <p><sup>{v.n}</sup> {v.text}</p>)}
                           </div>
                         </div>
                       ))
@@ -255,7 +255,7 @@ const visibleToc = toc.filter(([id]) => {
                         <p><strong>{text.limits}:</strong> {o.limits[locale]}</p>
                         {
                           o.evidence !== undefined && o.evidence.length > 0 && (
-                            <p class="muted">{o.evidence.map((id, i) => <>{i > 0 ? ' · ' : ''}<a href={`#ev-${id}`}>{id}</a></>)}</p>
+                            <p class="muted">{o.evidence.map((id, i) => <>{i > 0 ? ' · ' : ''}<a href={`#ev-${id}`} title={id}>{evidenceNumber(id)}</a></>)}</p>
                           )
                         }
                       </div>

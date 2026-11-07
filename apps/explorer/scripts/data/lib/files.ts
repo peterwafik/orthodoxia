@@ -1,5 +1,5 @@
 import { createHash } from 'node:crypto';
-import { mkdir, readFile, rename, writeFile } from 'node:fs/promises';
+import { mkdir, readFile, rename, unlink, writeFile } from 'node:fs/promises';
 import { dirname } from 'node:path';
 import { strFromU8, unzipSync } from 'fflate';
 
@@ -24,7 +24,15 @@ export async function writeFileAtomic(path: string, content: string | Uint8Array
   await mkdir(dirname(path), { recursive: true });
   const temporaryPath = `${path}.tmp`;
   await writeFile(temporaryPath, content);
-  await rename(temporaryPath, path);
+  try {
+    await rename(temporaryPath, path);
+  } catch (error) {
+    // Orthodoxia: Windows refuses to replace a file another process (e.g. a dev server) holds open,
+    // but lets it be overwritten in place.
+    if ((error as NodeJS.ErrnoException).code !== 'EPERM') throw error;
+    await writeFile(path, content);
+    await unlink(temporaryPath);
+  }
 }
 
 /** Extracts a single UTF-8 text file from a ZIP archive. */

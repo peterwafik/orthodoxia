@@ -40,3 +40,15 @@ export const LICENSE_LABELS: Readonly<Record<ContentSource['license']['id'], str
   'all-rights-reserved': 'All rights reserved',
   unknown: 'Unknown',
 };
+
+/** The same license names in Arabic, for the Arabic Sources page. */
+export const LICENSE_LABELS_AR: Readonly<Record<ContentSource['license']['id'], string>> = {
+  'public-domain': 'ملكية عامة',
+  'CC-BY-4.0': 'CC BY 4.0',
+  'CC-BY-SA-4.0': 'CC BY-SA 4.0',
+  MIT: 'MIT',
+  GPL: 'GPL',
+  custom: 'ترخيص خاص',
+  'all-rights-reserved': 'جميع الحقوق محفوظة',
+  unknown: 'غير معروف',
+};

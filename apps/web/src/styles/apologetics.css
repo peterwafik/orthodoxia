@@ -110,8 +110,6 @@ a.apo-card:hover { border-color: var(--burgundy); }
 .apo-objection { border: 1px solid var(--line); border-radius: 0.5rem; margin-block: 0.6rem; background-color: var(--glass); }
 .apo-objection summary { cursor: pointer; padding: 0.8rem 1rem; font-weight: 600; min-block-size: 44px; }
 .apo-objection > div { padding: 0 1rem 0.8rem; }
-.apo-parallel { display: grid; gap: 0.8rem; }
-@media (min-width: 44rem) { .apo-parallel { grid-template-columns: 1fr 1fr; } }
 
 /* Sources */
 .apo-source { display: grid; gap: 0.3rem; padding: 1rem 1.1rem; border: 1px solid var(--line); border-radius: var(--depth-radius); background-color: var(--glass); }

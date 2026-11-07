@@ -148,7 +148,8 @@ const title = `${hour.title[locale]} | ${text.title}`;
                             <li>
                               <a class="num" href={`${agpeyaPath(locale, group.hour)}#psalm-${item.psalm}`} title={text.goToPsalm}>{item.psalm}</a>
                               <span>{item[locale]}</span>
-                              <small lang={ar ? 'en' : 'ar'} dir={ar ? 'ltr' : 'rtl'}>{item[ar ? 'en' : 'ar']}</small>
+                              {/* The Arabic incipit helps an English reader; an Arabic page stays all Arabic. */}
+                              {!ar && <small lang="ar" dir="rtl">{item.ar}</small>}
                             </li>
                           ))}
                         </ul>

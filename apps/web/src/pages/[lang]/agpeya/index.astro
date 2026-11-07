@@ -107,7 +107,8 @@ const data = JSON.stringify(all.map((hour) => ({ id: hour.id, at: hour.at })));
                   <span class="now" hidden>{text.prayNow}</span>
                   <span class="hr-time">{hour.time[locale]}</span>
                   <span class="hr-title">{hour.title[locale]}</span>
-                  <span class="hr-other" lang={ar ? 'en' : 'ar'} dir={ar ? 'ltr' : 'rtl'}>{hour.title[ar ? 'en' : 'ar']}</span>
+                  {/* The Arabic name helps an English reader; an Arabic page stays all Arabic. */}
+                  {!ar && <span class="hr-other" lang="ar" dir="rtl">{hour.title.ar}</span>}
                 </a>
               </li>
             );
