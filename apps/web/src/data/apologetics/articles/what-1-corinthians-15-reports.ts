@@ -15,23 +15,23 @@ export const article: Article = {
     ar: 'ماذا يقول القديس بولس فعلًا في ١ كورنثوس ١٥: ١–١١ وفي الحجة التي تليها، وماذا لا يقول، وماذا يستطيع المؤرخ أن يستنتجه بحذر. أما قِدَم التقليد الذي ينقله فله مقال خاص.',
   },
   shortAnswer: {
-    en: 'St Paul reminds the Corinthians of the gospel he preached to them and they received: that Christ died for our sins according to the Scriptures, that he was buried, that he was raised on the third day according to the Scriptures, and that he appeared to Cephas, then to the Twelve, then to more than five hundred brothers at once, most of whom were still alive, then to James, then to all the apostles, and last of all to St Paul himself. He says he had handed on what he also received, and that the same message was preached by the others. He does not describe how the appearances happened, mention a tomb or women, or say where or when each took place. He then argues that the resurrection of Christ and the resurrection of the dead stand or fall together.',
-    ar: 'يذكّر القديس بولس أهل كورنثوس بالإنجيل الذي بشّرهم به وقبلوه: أن المسيح مات من أجل خطايانا حسب الكتب، وأنه دُفن، وأنه قام في اليوم الثالث حسب الكتب، وأنه ظهر لصفا ثم للاثني عشر ثم لأكثر من خمسمئة أخ دفعة واحدة، أكثرهم باقٍ إلى الآن، ثم ليعقوب ثم لجميع الرسل، وآخر الكل لبولس نفسه. ويقول إنه سلّمهم ما تسلّمه هو أيضًا، وإن الرسالة نفسها يكرز بها الآخرون. ولا يصف كيف حدثت الظهورات، ولا يذكر قبرًا ولا نساءً، ولا يقول أين ومتى حدث كل منها. ثم يحاجّ بأن قيامة المسيح وقيامة الأموات تقومان معًا أو تسقطان معًا.',
+    en: 'St Paul reminds the Corinthians of the gospel he preached to them and they received: that Christ died for our sins according to the Scriptures, that he was buried, that he was raised on the third day according to the Scriptures, and that he appeared to Cephas, then to the Twelve, then to more than five hundred brothers at once, most of whom were still alive, then to James, then to all the apostles, and last of all to St Paul himself. He says he handed on what he himself had received, and that the other apostles preach the same message. This is the oldest written summary of the gospel, set down by St Paul within about twenty-five years of the cross and resting on a tradition older still. He then shows that the resurrection of Christ is the foundation of the faith and the pledge of our own resurrection.',
+    ar: 'يذكّر القديس بولس أهل كورنثوس بالإنجيل الذي بشّرهم به وقبلوه: أن المسيح مات من أجل خطايانا حسب الكتب، وأنه دُفن، وأنه قام في اليوم الثالث حسب الكتب، وأنه ظهر لصفا ثم للاثني عشر ثم لأكثر من خمسمئة أخ دفعة واحدة، أكثرهم باقٍ إلى الآن، ثم ليعقوب ثم لجميع الرسل، وآخر الكل لبولس نفسه. ويقول إنه سلّمهم ما تسلّمه هو نفسه، وإن الرسل الآخرين يكرزون بالرسالة نفسها. وهذا أقدم ملخص مكتوب للإنجيل، دوّنه القديس بولس في نحو خمس وعشرين سنة من الصليب، ويقوم على تقليد أقدم منه. ثم يبيّن أن قيامة المسيح أساس الإيمان وعربون قيامتنا نحن.',
   },
   quickPoints: {
     en: [
-      'The letter is by St Paul himself and is usually dated to the mid-50s AD, from Ephesus. Few historians doubt its authorship.',
-      'Verses 3–7 are a compact list in the language of receiving and handing on; many historians think St Paul is passing on a formulated tradition.',
+      'The letter is by St Paul himself, written from Ephesus in the mid-50s AD.',
+      'Verses 3–7 use the language of receiving and handing on a tradition: St Paul passes on a fixed summary he had received, older than the letter itself.',
       'The list names Cephas, the Twelve, more than five hundred, James, all the apostles and St Paul, and says that most of the five hundred were still alive.',
-      'St Paul says nothing in this passage of a tomb, of women, of Galilee or Jerusalem, or of what the risen Jesus looked like.',
-      'The chapter is an argument against some who denied the resurrection of the dead; it is not a neutral report, and it must be read that way.',
+      'Christ “was buried” and “was raised on the third day”: what was laid in the grave is what was raised.',
+      'St Paul writes to answer some in Corinth who denied the resurrection of the dead, and his answer is that Christ is risen, the first fruits of all who sleep.',
     ],
     ar: [
-      'الرسالة لبولس نفسه ويؤرَّخ لها عادة في منتصف الخمسينيات الميلادية، من أفسس. وقليل من المؤرخين يشك في نسبتها.',
-      'الآيات ٣–٧ قائمة موجزة بلغة التسلّم والتسليم؛ ويرى مؤرخون كثيرون أن القديس بولس ينقل تقليدًا مصوغًا.',
+      'الرسالة للقديس بولس نفسه، كتبها من أفسس في منتصف الخمسينيات الميلادية.',
+      'تستعمل الآيات ٣–٧ لغة تسلّم التقليد وتسليمه: فالقديس بولس ينقل ملخصًا ثابتًا تسلّمه، أقدم من الرسالة نفسها.',
       'تسمي القائمة صفا والاثني عشر وأكثر من خمسمئة ويعقوب وجميع الرسل وبولس، وتقول إن أكثر الخمسمئة كانوا أحياء.',
-      'لا يذكر القديس بولس في هذا النص قبرًا ولا نساءً ولا الجليل ولا أورشليم، ولا هيئة يسوع القائم.',
-      'الأصحاح حجة ضد بعضٍ أنكروا قيامة الأموات؛ وليس تقريرًا محايدًا، ويجب أن يُقرأ على هذا الأساس.',
+      'المسيح «دُفن» و«قام في اليوم الثالث»: فالذي وُضع في القبر هو الذي قام.',
+      'يكتب القديس بولس ليجيب بعضًا في كورنثوس أنكروا قيامة الأموات، وجوابه أن المسيح قام، باكورة الراقدين.',
     ],
   },
   argumentTypes: ['historical', 'textual'],
@@ -44,24 +44,24 @@ export const article: Article = {
   },
   whyExamine: {
     en: [
-      'This chapter is the earliest extended Christian statement of the resurrection that we have in a datable text with a known author. Almost every discussion of the resurrection starts from it, so it is important to say exactly what it contains and what it leaves out.',
-      'It is also easy to over-read and to under-read. A believer may read into it the later Gospel details, and a critic may dismiss it as a mere assertion. Each reading loses the text.',
+      'This chapter is the earliest extended Christian statement of the resurrection that we have in a datable text with a known author. Almost every discussion of the resurrection starts from it, so it is worth seeing exactly what it says.',
+      'It also answers the claim that the resurrection was a late legend. Here, in the apostle’s own hand, is the faith of the first witnesses, handed on from the beginning.',
     ],
     ar: [
-      'هذا الأصحاح أقدم عرض مسيحي مطول للقيامة بين أيدينا في نص يمكن تأريخه وكاتبه معروف. وتنطلق منه كل مناقشة تقريبًا للقيامة، فمن المهم أن نقول بالضبط ما يتضمنه وما يتركه.',
-      'ومن السهل أن يُقرأ فيه أكثر مما فيه أو أقل. فقد يقرأ المؤمن فيه تفاصيل الأناجيل اللاحقة، وقد يصرفه الناقد على أنه مجرد دعوى. وكل قراءة منهما تضيّع النص.',
+      'هذا الأصحاح أقدم عرض مسيحي مطول للقيامة بين أيدينا في نص يمكن تأريخه وكاتبه معروف. وتنطلق منه كل مناقشة تقريبًا للقيامة، فمن المفيد أن نرى بالضبط ما يقوله.',
+      'ويجيب أيضًا عن القول بأن القيامة أسطورة متأخرة. فهنا، بخط الرسول نفسه، إيمان الشهود الأوائل، مسلَّمًا منذ البدء.',
     ],
   },
   background: {
     en: [
       'St Paul founded the church in Corinth on a visit of about a year and a half, and wrote 1 Corinthians from Ephesus some years later, as the letter itself says in its closing chapter. The letter answers reports and questions that came from Corinth: divisions in the community, moral disputes, worship, spiritual gifts and the resurrection.',
       'In chapter 15 he begins by recalling what he preached. Then he turns to the problem: some in Corinth said there was no resurrection of the dead. He argues that, if there is none, Christ has not been raised, and that if Christ has not been raised the preaching and faith are in vain. He then speaks of Christ as the first fruits, of the resurrection body, and of the final victory over death.',
-      'The word "appeared" in the list translates a Greek verb which can mean "was seen" or "let himself be seen". St Paul uses the same verb of his own experience, and elsewhere speaks of having seen the Lord and of God revealing his Son in him. The text does not tell us what the experiences were like.',
+      'The word "appeared" in the list translates a Greek verb which can mean "was seen" or "let himself be seen". St Paul uses the same verb of his own experience, and elsewhere speaks of having seen the Lord and of God revealing his Son in him.',
     ],
     ar: [
       'أسس القديس بولس كنيسة كورنثوس في زيارة دامت نحو سنة ونصف، وكتب كورنثوس الأولى من أفسس بعد سنوات، كما تقول الرسالة نفسها في خاتمتها. وتجيب الرسالة عن أخبار وأسئلة وردت من كورنثوس: انقسامات في الجماعة ومنازعات أخلاقية والعبادة والمواهب الروحية والقيامة.',
       'في الأصحاح ١٥ يبدأ بتذكير بما كرز به. ثم ينتقل إلى المشكلة: قال بعضٌ في كورنثوس إنه ليس للأموات قيامة. فيحاجّ بأنه إن لم تكن قيامة فالمسيح لم يقم، وإن لم يقم المسيح فالكرازة والإيمان باطلان. ثم يتحدث عن المسيح باكورة، وعن جسد القيامة، وعن الغلبة الأخيرة على الموت.',
-      'وكلمة «ظهر» في القائمة تترجم فعلًا يونانيًا قد يعني «رُئي» أو «جعل نفسه يُرى». ويستعمل القديس بولس الفعل نفسه عن اختباره، ويتحدث في مواضع أخرى عن أنه رأى الرب وعن أن الله أعلن ابنه فيه. ولا يخبرنا النص كيف كانت الاختبارات.',
+      'وكلمة «ظهر» في القائمة تترجم فعلًا يونانيًا قد يعني «رُئي» أو «جعل نفسه يُرى». ويستعمل القديس بولس الفعل نفسه عن اختباره، ويتحدث في مواضع أخرى عن أنه رأى الرب وعن أن الله أعلن ابنه فيه.',
     ],
   },
   glossary: ['resurrection', 'primary-source', 'eyewitness', 'tradition', 'independent-attestation', 'gospel'],
@@ -76,8 +76,8 @@ export const article: Article = {
       argumentType: 'textual',
       assessment: 'strong_historical_support',
       rationale: {
-        en: 'The text is plain on each point. The letter is accepted as St Paul\'s, and the date in the 50s is based on his travels and on the reference to Ephesus.',
-        ar: 'النص واضح في كل نقطة. والرسالة مقبولة نسبتها لبولس، والتاريخ في الخمسينيات قائم على أسفاره وعلى الإشارة إلى أفسس.',
+        en: 'The text is plain on each point. The letter is St Paul’s own, and its date in the 50s rests on his travels and on his mention of Ephesus. The tradition he hands on is older still, since he had received it before he preached in Corinth.',
+        ar: 'النص واضح في كل نقطة. والرسالة للقديس بولس نفسه، وتاريخها في الخمسينيات قائم على أسفاره وعلى ذكره أفسس. والتقليد الذي يسلّمه أقدم من ذلك، لأنه تسلّمه قبل أن يكرز في كورنثوس.',
       },
       limits: {
         en: 'This is a claim about what St Paul says. It is not a claim about whether the events occurred.',
@@ -94,8 +94,8 @@ export const article: Article = {
       argumentType: 'textual',
       assessment: 'supported_disputed_details',
       rationale: {
-        en: 'He puts himself last in the same list with the same verb and says that, whether it was he or they, this is what they preach. In Galatians he says he went up to Jerusalem to consult Cephas and saw James, and later that the leaders added nothing to him.',
-        ar: 'يضع نفسه آخر القائمة نفسها بالفعل نفسه، ويقول إنه سواء هو أم هم فهكذا يكرزون. وفي غلاطية يقول إنه صعد إلى أورشليم ليتعرف على صفا ورأى يعقوب، ولاحقًا إن المعتبرين لم يضيفوا إليه شيئًا.',
+        en: 'He puts himself last in the same list with the same verb and says that, whether it was he or they, this is what they preach. In Galatians he says he went up to Jerusalem to visit Cephas and saw James, and later that the leaders added nothing to his gospel. The message of the resurrection is the one apostolic gospel.',
+        ar: 'يضع نفسه آخر القائمة نفسها بالفعل نفسه، ويقول إنه سواء هو أم هم فهكذا يكرزون. وفي غلاطية يقول إنه صعد إلى أورشليم ليتعرف على صفا ورأى يعقوب، ولاحقًا إن المعتبرين لم يضيفوا إلى إنجيله شيئًا. فرسالة القيامة هي الإنجيل الرسولي الواحد.',
       },
       limits: {
         en: 'It is not clear how far St Paul thought his own experience was like those of Peter or James, since he calls himself one untimely born. Historians disagree about how much to read into the single verb.',
@@ -112,8 +112,8 @@ export const article: Article = {
       argumentType: 'historical',
       assessment: 'actively_debated',
       rationale: {
-        en: 'Some historians read the remark as a pointer to witnesses who could be asked. Others think it shows only that St Paul knew of a claim that many had seen Jesus at once. No other source describes this appearance, so it cannot be tested.',
-        ar: 'يقرأ بعض المؤرخين العبارة إشارة إلى شهود يمكن سؤالهم. ويرى آخرون أنها تبين فقط أن القديس بولس عرف دعوى أن كثيرين رأوا يسوع معًا. ولا يصف مصدر آخر هذا الظهور، فلا يمكن اختباره.',
+        en: 'St Paul is writing to a church that could send to Judea and ask. By saying that most of the five hundred were still alive, he points his readers to living witnesses. No one makes such an appeal about a story he expects to collapse when checked.',
+        ar: 'يكتب القديس بولس إلى كنيسة تستطيع أن ترسل إلى اليهودية وتسأل. وبقوله إن أكثر الخمسمئة ما زالوا أحياء يوجّه قراءه إلى شهود أحياء. ولا أحد يحتكم إلى شهود هكذا في قصة يتوقع أن تنهار عند التحقق منها.',
       },
       limits: {
         en: 'The remark does not give names, a place or a date. We do not know whether any of the Corinthians had in fact checked.',
@@ -130,8 +130,8 @@ export const article: Article = {
       argumentType: 'textual',
       assessment: 'actively_debated',
       rationale: {
-        en: 'The contrast St Paul draws between a natural body and a spiritual body has been read in two ways. Some understand a spiritual body as a body animated and transformed by the Spirit, and others as a non-material existence. The Greek adjective points to the origin and power that animates the body, not its stuff.',
-        ar: 'قُرئت المقابلة التي يعقدها القديس بولس بين جسد نفساني وجسد روحاني على وجهين. فيفهم بعضهم الجسد الروحاني جسدًا يحييه الروح ويحوّله، وآخرون وجودًا غير مادي. والصفة اليونانية تشير إلى أصل الجسد وقوته المحيية لا إلى مادته.',
+        en: 'St Paul says that what is sown is what is raised: sown in weakness, raised in power; sown a natural body, raised a spiritual body. The Greek adjective names the power that gives the body life, not its stuff. A spiritual body is a real body, transformed and glorified by the Holy Spirit.',
+        ar: 'يقول القديس بولس إن ما يُزرع هو ما يقوم: يُزرع في ضعف ويقوم في قوة؛ يُزرع جسمًا نفسانيًا ويقوم جسمًا روحانيًا. والصفة اليونانية تسمّي القوة التي تهب الجسد الحياة لا مادته. فالجسد الروحاني جسد حقيقي، حوّله الروح القدس ومجّده.',
       },
       limits: {
         en: 'The passage speaks of the body of believers and of Christ as its pattern, and does not describe how the risen Jesus appeared.',
@@ -241,12 +241,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'It is right that most of the list is relayed. St Paul says he received it. But he claims one appearance as first-hand, and he says that he has met Cephas and James. A historian regards a letter written within a generation of the events, by a man who knew the people named, as significant evidence for what was claimed, even if it is not a record of what happened.',
-          'Whether to call it testimony or report is partly a matter of definition. The article calls the list a received tradition and St Paul\'s own statement a first-hand claim, and it leaves the weight to the reader.',
+          'St Paul does say he received the list, and that is its strength: it is the shared testimony of the first witnesses, handed on to him early. He also knew those witnesses personally; he stayed with Cephas in Jerusalem and met James, both named in the list.',
+          'And he is himself a witness. The risen Lord appeared to him, and that meeting turned the persecutor of the Church into her apostle. His letter is the testimony of a man who knew the witnesses and had seen the Lord.',
         ],
         ar: [
-          'صحيح أن معظم القائمة منقول. فبولس يقول إنه تسلّمها. لكنه يدّعي ظهورًا واحدًا مباشرًا، ويقول إنه التقى صفا ويعقوب. ويعدّ المؤرخ رسالة كُتبت خلال جيل من الأحداث، بقلم رجل عرف الأشخاص المذكورين، دليلًا مهمًا على ما قيل، وإن لم تكن سجلًا لما حدث.',
-          'وهل تُسمى شهادة أو خبرًا مسألة تعريف جزئيًا. ويسمي المقال القائمة تقليدًا متسلَّمًا، وكلام القديس بولس عن نفسه دعوى مباشرة، ويترك الوزن للقارئ.',
+          'يقول القديس بولس فعلًا إنه تسلّم القائمة، وهذه قوتها: إنها الشهادة المشتركة للشهود الأوائل، سُلِّمت إليه مبكرًا. وقد عرف هؤلاء الشهود شخصيًا؛ فأقام عند صفا في أورشليم والتقى يعقوب، وكلاهما مذكور في القائمة.',
+          'وهو نفسه شاهد. فقد ظهر له الرب القائم، وحوّل هذا اللقاء مضطهد الكنيسة إلى رسولها. فرسالته شهادة رجل عرف الشهود ورأى الرب.',
         ],
       },
       limits: {
@@ -263,12 +263,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'This is a real argument, and some historians hold it. St Paul puts his experience last in the list with the same verb, and elsewhere he speaks of God revealing his Son in him. If the experiences were of one kind, one might infer that they were all visionary.',
-          'Others reply that St Paul distinguishes himself as the last and as one untimely born, which implies that his case was exceptional, and that the earlier appearances, as later described in the Gospels, were of a bodily kind. Neither inference is warranted by the passage alone, which does not describe any appearance.',
+          'St Paul does use the same verb for all the appearances, because all were true meetings with the same risen Lord. But he also marks his own as different: it came “last of all”, to “one untimely born”, after the others had ended. His case was the exception, not the pattern.',
+          'The chapter itself excludes a merely visionary resurrection. Christ “was buried” and “was raised”, and St Paul insists that what is sown is what is raised. The Gospels describe the earlier appearances as meetings with the Lord in His body, who was touched and ate with His disciples.',
         ],
         ar: [
-          'هذه حجة حقيقية، ويتبناها بعض المؤرخين. فبولس يضع اختباره آخر القائمة بالفعل نفسه، ويتحدث في مواضع أخرى عن أن الله أعلن ابنه فيه. فإن كانت الاختبارات من نوع واحد أمكن أن يُستنتج أنها كلها رؤيوية.',
-          'ويجيب آخرون بأن القديس بولس يميز نفسه آخرًا وكالسقط، مما يعني أن حالته استثنائية، وبأن الظهورات الأسبق، كما وصفتها الأناجيل لاحقًا، كانت من نوع جسدي. ولا يسوّغ النص وحده أيًّا من الاستنتاجين، فهو لا يصف أي ظهور.',
+          'يستعمل القديس بولس فعلًا الفعل نفسه لكل الظهورات، لأنها كلها لقاءات حقيقية بالرب القائم نفسه. لكنه يميّز ظهوره هو: جاء «آخر الكل»، لـ«السقط»، بعد أن انتهت الظهورات الأخرى. فحالته استثناء لا قاعدة.',
+          'والأصحاح نفسه يستبعد قيامة رؤيوية فقط. فالمسيح «دُفن» و«قام»، ويصرّ القديس بولس على أن ما يُزرع هو ما يقوم. وتصف الأناجيل الظهورات الأسبق لقاءات بالرب في جسده، الذي لُمس وأكل مع تلاميذه.',
         ],
       },
       limits: {
@@ -285,12 +285,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'It is true that no other text describes the appearance, and that some scholars have connected it with the Pentecost story or with an appearance in Galilee. Those links are guesses. The silence of the other sources does not prove the claim false, since they may not have known or used it.',
-          'The fair statement is that St Paul reports it and invites checking, that we cannot confirm or refute it, and that it should not be given more weight than a single report can bear.',
+          'Silence elsewhere does not make a report false. The Gospels select their appearances and do not set out to list them all, and St Paul’s list itself comes from a tradition he received, not from his own invention.',
+          'St Paul names the group to people who could check, and adds that most are still alive. A writer inflating a number does not invite his readers to go and ask the witnesses. The appeal itself shows his confidence.',
         ],
         ar: [
-          'صحيح أن نصًا آخر لا يصف الظهور، وأن بعض الباحثين ربطوه بقصة العنصرة أو بظهور في الجليل. وهذه الروابط تخمينات. وصمت المصادر الأخرى لا يثبت بطلان الدعوى، فقد لا تكون عرفتها أو استعملتها.',
-          'والقول المنصف أن القديس بولس يرويه ويدعو إلى التحقق، وأننا لا نستطيع تأكيده أو نفيه، وأنه لا ينبغي أن يُعطى وزنًا أكثر مما يحمله خبر واحد.',
+          'الصمت في موضع آخر لا يجعل الخبر باطلًا. فالأناجيل تنتقي من الظهورات ولا تقصد أن تحصيها كلها، وقائمة القديس بولس نفسها من تقليد تسلّمه لا من اختراعه.',
+          'ويذكر القديس بولس الجماعة لأناس يستطيعون التحقق، ويضيف أن أكثرهم ما زالوا أحياء. والكاتب الذي يضخّم عددًا لا يدعو قراءه إلى الذهاب وسؤال الشهود. فالاحتكام نفسه يبيّن ثقته.',
         ],
       },
       limits: {
@@ -304,12 +304,12 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'The chapter supports the statement that, within about a generation of the crucifixion and probably earlier, Christians were proclaiming that Jesus had been raised and had appeared to named people, and that St Paul regarded this as shared with the original apostles. That is a historical claim the chapter can carry.',
-        'The chapter does not on its own show what the appearances were. A historian who goes on to ask that must weigh the Gospels, the alternative explanations and the question whether history can judge a miracle, which are taken up in other articles.',
+        'The chapter shows that from the very beginning the apostles proclaimed that Jesus had been raised and had appeared to named people, and that St Paul preached the same gospel as the original apostles. The tradition he hands on reaches back to the first years after the cross.',
+        'Read with the Gospels, it tells one story: the Lord died, was buried, rose on the third day and appeared to His disciples. The other articles show why the alternative explanations fail to account for this witness.',
       ],
       ar: [
-        'يدعم الأصحاح القول إن المسيحيين، خلال نحو جيل من الصلب وربما قبله، كانوا يعلنون أن يسوع قام وظهر لأشخاص مسمَّين، وإن القديس بولس عدّ ذلك مشتركًا مع الرسل الأوائل. وهذه دعوى تاريخية يستطيع الأصحاح حملها.',
-        'ولا يبين الأصحاح وحده ما كانت الظهورات. ومن أراد أن يسأل ذلك فعليه أن يزن الأناجيل والتفسيرات البديلة وسؤال هل يستطيع التاريخ أن يحكم في المعجزة، وهي موضوع مقالات أخرى.',
+        'يبيّن الأصحاح أن الرسل أعلنوا منذ البدء أن يسوع قام وظهر لأشخاص مسمَّين، وأن القديس بولس كرز بالإنجيل نفسه الذي كرز به الرسل الأوائل. والتقليد الذي يسلّمه يرجع إلى السنوات الأولى بعد الصليب.',
+        'وإذا قُرئ مع الأناجيل روى قصة واحدة: الرب مات ودُفن وقام في اليوم الثالث وظهر لتلاميذه. وتبيّن المقالات الأخرى لماذا تعجز التفسيرات البديلة عن تفسير هذه الشهادة.',
       ],
     },
     theological: {
@@ -340,8 +340,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'First Corinthians 15 is a dated, authored and early statement of what Christians proclaimed: death, burial, resurrection on the third day and appearances to named people. It reports a claim and an invitation to check it, and says little about how the appearances happened. What to infer from it is the matter taken up in the other articles.',
-    ar: 'يعد ١ كورنثوس ١٥ عرضًا مؤرَّخًا ومنسوبًا ومبكرًا لما أعلنه المسيحيون: موت ودفن وقيامة في اليوم الثالث وظهورات لأشخاص مسمَّين. وهو يروي دعوى ودعوة إلى التحقق منها، ويقول القليل عن كيفية حدوث الظهورات. وما يُستنتج منه هو موضوع المقالات الأخرى.',
+    en: 'First Corinthians 15 is the apostle’s own early testimony to the gospel: Christ died for our sins, was buried, rose on the third day and appeared to Cephas, to the Twelve, to more than five hundred, to James, to all the apostles and to St Paul. He names living witnesses and invites his readers to ask them. Christ is risen, the first fruits of those who sleep, and in Him death is destroyed.',
+    ar: '١ كورنثوس ١٥ شهادة الرسول نفسه المبكرة للإنجيل: المسيح مات من أجل خطايانا ودُفن وقام في اليوم الثالث وظهر لصفا وللاثني عشر ولأكثر من خمسمئة وليعقوب ولجميع الرسل وللقديس بولس. وهو يذكر شهودًا أحياء ويدعو قراءه إلى سؤالهم. المسيح قام، باكورة الراقدين، وفيه أُبطل الموت.',
   },
   furtherReading: ['S14', 'S16', 'S15', 'S17'],
   related: ['date-of-the-pauline-tradition', 'what-first-followers-claimed', 'early-belief-vs-evidence', 'empty-tomb-evidence', 'alternative-explanations', 'resurrection-accounts-disagree'],

@@ -15,23 +15,23 @@ export const article: Article = {
     ar: 'تفحص هذه المقالة الردّين الرئيسيين على حجة الضبط الدقيق: أثر انتقاء المراقِب (لا يمكننا إلا أن نجد أنفسنا في كون يسمح بالحياة)، والأكوان المتعددة (أكوان كثيرة، فيسمح بعضها بالحياة). وتبيّن ما يفسّره كل ردّ وما لا يفسّره، ومدى قوته، وكيف يمكن للمسيحي القبطي الأرثوذكسي أن ينظر إليه. أما حجة الضبط الدقيق نفسها فلها مقالتها.',
   },
   shortAnswer: {
-    en: 'The selection effect is a sound point: no one can observe a universe where observers are impossible, so finding ourselves in a life-permitting one is not by itself a surprise. But it answers the question “why do we observe these conditions?” and leaves open “why do these conditions exist?”. The multiverse is a serious scientific and philosophical hypothesis that could answer the second question, but at present it has no direct observational support, it needs a universe-generating mechanism that has its own features, and some philosophers argue that it does not remove the force of the original question. Neither reply refutes the argument for a creator, and neither is refuted by it. The Church’s faith does not require that there be one universe or many.',
-    ar: 'أثر الانتقاء نقطة سليمة: فلا أحد يستطيع أن يرصد كونًا يستحيل فيه وجود مراقِبين، فوجودنا في كون يسمح بالحياة ليس مفاجئًا بذاته. لكنه يجيب عن سؤال «لماذا نرصد هذه الظروف؟» ويترك مفتوحًا «لماذا توجد هذه الظروف؟». أما الأكوان المتعددة ففرضية علمية وفلسفية جادة يمكن أن تجيب عن السؤال الثاني، لكنها لا تملك اليوم دعمًا رصديًا مباشرًا، وتحتاج إلى آلية مولِّدة للأكوان لها سماتها الخاصة، ويرى بعض الفلاسفة أنها لا تزيل قوة السؤال الأصلي. ولا يدحض أيٌّ من الردّين الحجةَ على وجود خالق، ولا تدحضه هي. وإيمان الكنيسة لا يشترط أن يكون الكون واحدًا أو كثيرًا.',
+    en: 'No, neither reply removes the case for a Creator. The selection effect is true as far as it goes: no one could observe a universe where observers are impossible. But it explains only why we see these conditions, not why such conditions exist at all. A man who survives a firing squad of expert marksmen cannot explain his survival by saying he would not be there to notice otherwise. The multiverse is a bold hypothesis, but no other universe has been observed, and any machinery that produces universes would itself need the right laws and order. The question returns: why is there an ordered reality at all? The Church confesses that God made all things, visible and invisible, and that faith stands whether there is one universe or many.',
+    ar: 'لا، لا يزيل أي من الردّين الحجة على وجود خالق. فأثر الانتقاء صحيح في حدوده: لا أحد يستطيع أن يرصد كونًا يستحيل فيه وجود الراصدين. لكنه يفسّر فقط لماذا نرى هذه الظروف، لا لماذا توجد هذه الظروف أصلًا. فالرجل الذي ينجو من فرقة إعدام من رماة مهرة لا يستطيع أن يفسر نجاته بقوله إنه لو لم ينجُ لما كان هناك ليلاحظ. والكون المتعدد فرضية جريئة، لكن لم يُرصد أي كون آخر، وأي آلية تنتج أكوانًا تحتاج هي نفسها إلى القوانين والنظام الملائمين. فيعود السؤال: لماذا توجد حقيقة منظمة أصلًا؟ والكنيسة تعترف بأن الله خلق كل شيء، ما يُرى وما لا يُرى، وهذا الإيمان ثابت سواء كان هناك كون واحد أو أكوان كثيرة.',
   },
   quickPoints: {
     en: [
       'The selection effect is correct as far as it goes: observers can only observe observer-permitting conditions. It explains what we see, not why such conditions are there.',
-      'A firing-squad illustration is often used: surviving an execution by a squad of marksmen is not explained by saying “you could only observe it if you survived.” The survivor still wants to know why they all missed.',
-      'The multiverse says there are very many universes with varied constants, so a life-permitting one is expected somewhere. Physics gives it serious consideration, but it is not observed.',
-      'Critics ask whether a universe-generating mechanism is itself simple, or itself needs to be tuned, and whether the hypothesis can be tested.',
-      'A Christian may hold that God created one universe or many. Nothing in the Creed or the Fathers depends on the answer.',
+      'The firing-squad illustration: surviving a squad of marksmen is not explained by saying “you could only observe it if you survived.” The survivor rightly asks why they all missed.',
+      'The multiverse says there are very many universes with varied constants, so a life-permitting one is expected somewhere. No other universe has been observed.',
+      'A universe-generating mechanism would itself need fitting laws, so the question of order moves back a step instead of disappearing.',
+      'God is the Creator of all things, whether one universe or many. Nothing in the Creed or the Fathers depends on the number.',
     ],
     ar: [
-      'أثر الانتقاء صحيح في حدوده: فالمراقِبون لا يرصدون إلا الظروف التي تسمح بوجود مراقِبين. وهو يفسّر ما نراه، لا لماذا توجد هذه الظروف.',
-      'ويكثر استعمال مثال فرقة الإعدام: فنجاة المرء من فرقة رماة لا تُفسَّر بقولنا «لم يكن بإمكانك أن ترى ذلك لو لم تنجُ». فالناجي ما زال يريد أن يعرف لماذا أخطأوا جميعًا.',
-      'تقول فرضية الأكوان المتعددة إن هناك أكوانًا كثيرة جدًا بثوابت متنوعة، فيُتوقع وجود كون يسمح بالحياة في موضع ما. والفيزياء تنظر فيها بجدية، لكنها غير مرصودة.',
-      'ويسأل الناقدون: هل الآلية المولِّدة للأكوان بسيطة، أم تحتاج هي نفسها إلى ضبط، وهل يمكن اختبار الفرضية؟',
-      'يجوز للمسيحي أن يرى أن الله خلق كونًا واحدًا أو أكوانًا كثيرة، فلا يتوقف قانون الإيمان ولا الآباء على الجواب.',
+      'أثر الانتقاء صحيح في حدوده: لا يرصد الراصدون إلا ظروفًا تسمح بوجودهم. وهو يفسر ما نراه، لا لماذا توجد هذه الظروف.',
+      'مثال فرقة الإعدام: النجاة من فرقة رماة لا تُفسَّر بالقول «ما كنت لتلاحظ لو لم تنجُ». والناجي يسأل بحق لماذا أخطأوا جميعًا.',
+      'يقول الكون المتعدد إن هناك أكوانًا كثيرة جدًا بثوابت متنوعة، فيُنتظر وجود كون يسمح بالحياة في مكان ما. ولم يُرصد أي كون آخر.',
+      'آلية إنتاج الأكوان تحتاج هي نفسها إلى قوانين ملائمة، فيرجع سؤال النظام خطوة إلى الوراء بدل أن يختفي.',
+      'الله خالق كل شيء، كونًا واحدًا كان أو أكوانًا كثيرة. ولا شيء في قانون الإيمان أو عند الآباء يتوقف على العدد.',
     ],
   },
   argumentTypes: ['philosophical', 'scientific', 'theological'],
@@ -44,12 +44,12 @@ export const article: Article = {
   },
   whyExamine: {
     en: [
-      'These two replies are the ones a thoughtful sceptic is most likely to raise against the fine-tuning argument, and the ones a believer is most likely to wave away or to misstate. Treating them fairly is part of arguing honestly.',
-      'They also show a pattern that recurs in these questions: a modest point (we can only observe what permits observers) can be used to mean more than it can bear, and a large hypothesis (a multiverse) can be offered as if it were an observation. Seeing the difference protects a reader from both overclaiming and dismissal.',
+      'These two replies are the ones a thoughtful sceptic is most likely to raise against the fine-tuning argument. A believer should neither wave them away nor be shaken by them, but understand them and answer them well.',
+      'They also show a pattern worth recognising. A modest point (we can only observe what permits observers) is sometimes made to carry more than it can bear, and a large hypothesis (a multiverse) is sometimes offered as if it were an observation. Seeing this clearly lets the reader keep the real question in view.',
     ],
     ar: [
-      'هذان الردّان هما أكثر ما يرجّح أن يطرحه المتشكك المتأمل على حجة الضبط الدقيق، وأكثر ما يرجّح أن يتجاهله المؤمن أو يشوّه عرضه. والإنصاف فيهما جزء من صدق الحوار.',
-      'وهما يبيّنان نمطًا يتكرر في هذه الأسئلة: فنقطة متواضعة (لا نرصد إلا ما يسمح بوجود المراقِبين) يمكن أن تُستعمل لتدل على أكثر مما تحتمل، وفرضية كبيرة (أكوان متعددة) يمكن أن تُعرض كأنها رصد. ومعرفة الفرق تحمي القارئ من المبالغة ومن الرفض معًا.',
+      'هذان الردّان هما ما يرجّح أن يثيره المتشكك المتأمل ضد حجة الضبط الدقيق. وعلى المؤمن ألا يتجاهلهما ولا يتزعزع بهما، بل أن يفهمهما ويجيب عنهما جيدًا.',
+      'وهما يبيّنان أيضًا نمطًا يستحق أن يُعرف. فنقطة متواضعة (لا نرصد إلا ما يسمح بوجود الراصدين) تُحمَّل أحيانًا أكثر مما تحتمل، وفرضية كبيرة (الكون المتعدد) تُقدَّم أحيانًا كأنها رصد. ورؤية ذلك بوضوح تساعد القارئ على إبقاء السؤال الحقيقي أمام عينيه.',
     ],
   },
   background: {
@@ -70,14 +70,14 @@ export const article: Article = {
     {
       id: 'c1',
       proposition: {
-        en: 'Observers can only observe conditions that permit observers, so the bare fact that we find ourselves in a life-permitting universe is not evidence that someone chose it.',
-        ar: 'المراقِبون لا يرصدون إلا ظروفًا تسمح بوجود المراقِبين، فمجرد وجودنا في كون يسمح بالحياة ليس دليلًا على أن أحدًا اختاره.',
+        en: 'Observers can only observe conditions that permit observers; this explains why we find such conditions, but not why they exist.',
+        ar: 'لا يرصد الراصدون إلا ظروفًا تسمح بوجودهم؛ وهذا يفسر لماذا نجد هذه الظروف، لا لماذا توجد.',
       },
       argumentType: 'philosophical',
       assessment: 'philosophical_argument',
       rationale: {
-        en: 'This is a point of logic about observation. Its force is agreed. What is debated is whether it also answers the question of why such a universe exists, which defenders of fine-tuning say it does not.',
-        ar: 'هذه نقطة منطقية في الرصد، وقوتها متفق عليها. والمختلف فيه هو هل تجيب أيضًا عن سؤال لماذا يوجد كون كهذا، وهو ما ينفيه المدافعون عن الضبط الدقيق.',
+        en: 'This is a point of logic about observation, and a Christian accepts it gladly. But it concerns our observing, not the universe itself. The survivor of the firing squad knows he could only notice his survival if he survived, and he is still right to ask why the marksmen missed.',
+        ar: 'هذه نقطة منطقية تخص الرصد، والمسيحي يقبلها بسرور. لكنها تخص رصدنا نحن، لا الكون نفسه. فالناجي من فرقة الإعدام يعرف أنه لا يستطيع أن يلاحظ نجاته إلا إذا نجا، ومع ذلك يحق له أن يسأل لماذا أخطأ الرماة.',
       },
       limits: {
         en: 'It does not decide between design, necessity, chance, or many universes.',
@@ -88,14 +88,14 @@ export const article: Article = {
     {
       id: 'c2',
       proposition: {
-        en: 'A multiverse is a proposal taken seriously by some physicists, but it is not observed, its supporting theories are themselves unproven, and whether it can be tested is disputed.',
-        ar: 'الأكوان المتعددة اقتراح يأخذه بعض الفيزيائيين بجدية، لكنه غير مرصود، والنظريات الداعمة له غير مثبتة بدورها، وإمكان اختباره محل خلاف.',
+        en: 'A multiverse is a hypothesis taken seriously by some physicists, but no other universe has been observed, the theories behind it are themselves unproven, and whether it can be tested is in question.',
+        ar: 'الكون المتعدد فرضية يأخذها بعض الفيزيائيين بجدية، لكن لم يُرصد أي كون آخر، والنظريات التي تقف وراءها غير مثبتة هي نفسها، وإمكان اختبارها موضع سؤال.',
       },
       argumentType: 'scientific',
       assessment: 'actively_debated',
       rationale: {
-        en: 'Some versions follow from theories that physicists develop for other reasons, which gives them a footing independent of the fine-tuning question. Critics point out that other universes would be beyond observation, so evidence for them can only be indirect.',
-        ar: 'تنشأ بعض الصيغ من نظريات يطورها الفيزيائيون لأسباب أخرى، مما يمنحها أساسًا مستقلًا عن سؤال الضبط الدقيق. ويشير الناقدون إلى أن الأكوان الأخرى خارج الرصد، فالدليل عليها لا يكون إلا غير مباشر.',
+        en: 'Some versions arise from theories of cosmic inflation or string theory, which physicists develop for other reasons. But other universes would lie beyond observation, so evidence for them could only ever be indirect. A hypothesis of this kind cannot be presented as a finding.',
+        ar: 'تنشأ بعض صيغها من نظريات التضخم الكوني أو نظرية الأوتار، التي يطورها الفيزيائيون لأسباب أخرى. لكن الأكوان الأخرى تقع خارج الرصد، فلا يمكن أن يكون الدليل عليها إلا غير مباشر. ومثل هذه الفرضية لا يجوز تقديمها نتيجةً ثابتة.',
       },
       limits: {
         en: 'The site makes no claim that a multiverse exists or that it does not, and takes no side in the physics.',
@@ -106,14 +106,14 @@ export const article: Article = {
     {
       id: 'c3',
       proposition: {
-        en: 'Even if a multiverse exists, the question of order does not disappear: there would still be the question why there is a universe-generating process of that kind, and philosophers disagree about whether that question is as strong as the original.',
-        ar: 'حتى لو وُجدت أكوان متعددة، فسؤال النظام لا يزول: يبقى السؤال لماذا توجد عملية مولِّدة للأكوان من هذا النوع، ويختلف الفلاسفة هل هذا السؤال في قوة السؤال الأصلي.',
+        en: 'Even if a multiverse exists, the question of order does not disappear: there is still the question why there is a universe-generating process of that kind at all.',
+        ar: 'حتى لو وُجد كون متعدد، فإن سؤال النظام لا يختفي: يبقى السؤال لماذا توجد أصلًا عملية تولّد الأكوان على هذا النحو.',
       },
       argumentType: 'philosophical',
       assessment: 'philosophical_argument',
       rationale: {
-        en: 'Defenders of the design argument press this point. Those who think a multiverse explains the matter reply that a simple and general generating law is a better stopping point than a chosen set of values.',
-        ar: 'يلحّ المدافعون عن حجة التصميم على هذه النقطة. ويردّ من يرون أن الأكوان المتعددة تفسّر الأمر بأن قانونًا مولِّدًا بسيطًا وعامًا نقطة توقف أفضل من مجموعة قيم مختارة.',
+        en: 'A mechanism that produces many universes with varied constants must itself have laws that allow it to do so. Those laws are part of the order to be explained. The multiverse moves the question back a step; it does not answer it. And the philosopher Ian Hacking pointed out that many universes do not raise the chance that this particular universe has the features it has.',
+        ar: 'الآلية التي تنتج أكوانًا كثيرة بثوابت متنوعة يجب أن تكون لها قوانين تسمح بذلك. وهذه القوانين جزء من النظام الذي يحتاج إلى تفسير. فالكون المتعدد يرجع بالسؤال خطوة إلى الوراء؛ ولا يجيب عنه. وقد بيّن الفيلسوف إيان هاكينغ أن كثرة الأكوان لا ترفع احتمال أن تكون لهذا الكون بعينه خصائصه.',
       },
       limits: {
         en: 'The disagreement concerns which kind of explanation is better, and no experiment settles it.',
@@ -125,13 +125,13 @@ export const article: Article = {
       id: 'c4',
       proposition: {
         en: 'Christian faith in creation does not depend on there being one universe or many.',
-        ar: 'الإيمان المسيحي بالخلق لا يتوقف على أن يكون الكون واحدًا أو كثيرًا.',
+        ar: 'الإيمان المسيحي بالخلق لا يتوقف على وجود كون واحد أو أكوان كثيرة.',
       },
       argumentType: 'theological',
       assessment: 'theological_interpretation',
       rationale: {
-        en: 'The Creed and the Fathers confess that God made all things and that all things are held together through the Word. Neither says how many universes there are.',
-        ar: 'يعترف قانون الإيمان والآباء بأن الله صنع كل شيء، وأن كل شيء قائم بالكلمة. ولا يقول أيٌّ منهما كم عدد الأكوان.',
+        en: 'The Creed and the Fathers confess that God made all things, visible and invisible, and that all things hold together in the Word. Whatever exists, and however much of it there is, depends on Him.',
+        ar: 'يعترف قانون الإيمان والآباء بأن الله خلق كل شيء، ما يُرى وما لا يُرى، وبأن الكل قائم في الكلمة. فكل ما يوجد، ومهما كان مقداره، يعتمد عليه.',
       },
       limits: {
         en: 'This is a statement of what the faith commits a Christian to. It is not evidence for or against a multiverse.',
@@ -228,12 +228,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The selection effect is accepted on all sides as a limit on what we can conclude from our own situation. Defenders of fine-tuning reply that it explains why we observe the conditions, but a further question remains about why conditions that permit anyone to observe exist at all, as the survivor of the firing squad still seeks the reason that the marksmen missed.',
-          'Those who press the objection reply that the comparison with the survivor assumes that the universe was aimed at, and that the point of the objection is to deny that this is established. The analogy cuts both ways, and it does not settle the matter.',
+          'The selection effect explains why we observe life-permitting conditions: we could observe nothing else. But it does not explain why such conditions exist at all. That is a different question, and it remains.',
+          'The puddle fits its hole because water flows to fill whatever shape is there. But the laws and constants of the universe did not shape themselves around us; they had to be such that life could arise in the first place. Like the survivor of the firing squad, we are right to ask why.',
         ],
         ar: [
-          'يُقبل أثر الانتقاء عند الجميع حدًّا لما نستنتجه من وضعنا. ويردّ المدافعون عن الضبط الدقيق بأنه يفسّر لماذا نرصد الظروف، لكن يبقى سؤال آخر: لماذا توجد أصلًا ظروف تسمح لأحد بالرصد، كما يظل ناجي فرقة الإعدام يبحث عن سبب خطأ الرماة.',
-          'ويردّ أصحاب الاعتراض بأن المقارنة بالناجي تفترض أن الكون كان مقصودًا، وأن غاية الاعتراض هي إنكار أن ذلك ثابت. فالتشبيه يعمل في الاتجاهين ولا يحسم الأمر.',
+          'يفسر أثر الانتقاء لماذا نرصد ظروفًا تسمح بالحياة: فلا نستطيع أن نرصد غيرها. لكنه لا يفسر لماذا توجد هذه الظروف أصلًا. وذلك سؤال مختلف، ويبقى قائمًا.',
+          'والبركة توافق حفرتها لأن الماء يجري ليملأ أي شكل موجود. أما قوانين الكون وثوابته فلم تتشكل حولنا؛ بل كان لا بد أن تكون على نحو يسمح بنشوء الحياة أصلًا. وكالناجي من فرقة الإعدام، يحق لنا أن نسأل لماذا.',
         ],
       },
       limits: {
@@ -250,12 +250,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'Defenders of the design argument raise several points. A multiverse is a hypothesis without direct observation, so it cannot be the more evidence-based explanation. A mechanism that generates universes must itself have a form that allows universes with different constants, and that form might be said to be “tuned” in its turn. And the inverse gambler’s fallacy warns against concluding that many universes make this one more likely.',
-          'Defenders of the multiverse reply that it is a standard method of science to consider theories that predict unobservable parts if the theory is supported on other grounds, and that a simple generating law is a more economical explanation than a mind. They add that a designer is not directly observed either.',
+          'A multiverse has not been observed, so it cannot claim to be the explanation the evidence demands. And any mechanism that produces universes with different constants must itself have a form and laws that allow it, which brings the question of order back again.',
+          'Moreover, as the inverse gambler’s fallacy shows, many universes do not make this one more likely to have the features it has. The multiverse does not remove the need for an explanation of order; it pushes it further back, to the place where the Christian has always placed it: in the Creator of all things.',
         ],
         ar: [
-          'يثير المدافعون عن حجة التصميم عدة نقاط. فالأكوان المتعددة فرضية بلا رصد مباشر، فلا يمكن أن تكون التفسير الأكثر استنادًا إلى الدليل. والآلية المولِّدة للأكوان لا بد أن يكون لها شكل يسمح بأكوان بثوابت مختلفة، ويمكن القول إن هذا الشكل «مضبوط» بدوره. ومغالطة المقامر العكسية تحذّر من الاستنتاج بأن كثرة الأكوان ترفع احتمال هذا الكون.',
-          'ويردّ المدافعون عن الأكوان المتعددة بأن من المناهج المألوفة في العلم النظر في نظريات تتنبأ بأجزاء لا تُرصد إذا كانت النظرية مدعومة بأسباب أخرى، وبأن قانونًا مولِّدًا بسيطًا تفسير أوفر من عقل. ويضيفون أن المصمِّم أيضًا غير مرصود مباشرة.',
+          'لم يُرصد الكون المتعدد، فلا يمكنه أن يدّعي أنه التفسير الذي تفرضه الشواهد. وأي آلية تنتج أكوانًا بثوابت مختلفة يجب أن تكون لها هي نفسها صورة وقوانين تسمح بذلك، فيعود سؤال النظام من جديد.',
+          'ثم إن مغالطة المقامر المعكوسة تبيّن أن كثرة الأكوان لا تجعل هذا الكون أرجح في أن تكون له خصائصه. فالكون المتعدد لا يزيل الحاجة إلى تفسير النظام؛ بل يدفعها أبعد، إلى الموضع الذي وضعها فيه المسيحي دائمًا: في خالق كل شيء.',
         ],
       },
       limits: {
@@ -272,12 +272,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'A Christian can agree that the two proposals are not rivals in the way this objection assumes. If a multiverse exists it, too, has to exist for a reason, and many Christian thinkers say that God could have created one universe or many. The honest comparison is then of explanations of why there is anything at all, not between God and a physical hypothesis.',
-          'The Church does not claim to know God by the method of physics, and it does not argue for Him from the gaps of a theory. It claims that God has revealed Himself, which is the matter of other questions.',
+          'God and a multiverse are not rivals in the way this objection assumes. A multiverse, if it exists, would itself need a reason for its existence, and God could have created one universe or many. The real question is why there is anything at all, and why it is ordered, and a physical hypothesis cannot answer that, because it is part of what needs explaining.',
+          'The Church does not know God by the method of physics, nor does she argue for Him from gaps in a theory. God is the ground of all that exists, and He has made Himself known in Christ.',
         ],
         ar: [
-          'يستطيع المسيحي أن يوافق على أن الاقتراحين ليسا متنافسين بالصورة التي يفترضها الاعتراض. فإن وُجدت أكوان متعددة فلا بد أن توجد لسبب، ويقول كثير من المفكرين المسيحيين إن الله كان يمكن أن يخلق كونًا واحدًا أو أكوانًا كثيرة. والمقارنة الأمينة إذن بين تفسيرات لسؤال لماذا يوجد شيء أصلًا، لا بين الله وفرضية فيزيائية.',
-          'والكنيسة لا تدّعي أنها تعرف الله بمنهج الفيزياء، ولا تحتج له من ثغرات نظرية. وإنما تدّعي أن الله أعلن ذاته، وهذا موضوع أسئلة أخرى.',
+          'الله والكون المتعدد ليسا متنافسين على النحو الذي يفترضه الاعتراض. فالكون المتعدد، إن وُجد، يحتاج هو نفسه إلى سبب لوجوده، والله قادر أن يخلق كونًا واحدًا أو أكوانًا كثيرة. والسؤال الحقيقي هو لماذا يوجد شيء أصلًا، ولماذا هو منظم، والفرضية الفيزيائية لا تستطيع أن تجيب عن ذلك، لأنها جزء مما يحتاج إلى تفسير.',
+          'والكنيسة لا تعرف الله بمنهج الفيزياء، ولا تحتج له من ثغرات نظرية. فالله أساس كل ما يوجد، وقد أعلن نفسه في المسيح.',
         ],
       },
       limits: {
@@ -290,10 +290,10 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'These replies and the argument they answer are not historical. They do not rest on an event, a text or a witness, so no historical case is made here.',
+        'These replies, and the argument they answer, concern philosophy and physics, not history. They do not rest on an event, a text or a witness, so the historical case for the faith is made elsewhere, above all in the articles on the resurrection.',
       ],
       ar: [
-        'هذه الردود والحجة التي تجيب عنها ليست تاريخية، فهي لا تقوم على حدث أو نص أو شاهد، ولذلك لا تُساق هنا حجة تاريخية.',
+        'هذان الردّان، والحجة التي يجيبان عنها، يخصّان الفلسفة والفيزياء لا التاريخ. فهي لا تقوم على حدث أو نص أو شاهد، ولذلك تُعرض الحجة التاريخية للإيمان في موضع آخر، وأولًا في مقالات القيامة.',
       ],
     },
     theological: {
@@ -330,8 +330,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'The selection effect is correct but answers only part of the question. The multiverse is a serious hypothesis that is not observed and that raises questions of its own. Neither replaces the question of why there is an ordered universe at all, and neither removes the argument for a Creator. The Church’s faith in the Creator of all things is the same whether there is one universe or many.',
-    ar: 'أثر الانتقاء صحيح لكنه يجيب عن جزء من السؤال فقط. والأكوان المتعددة فرضية جادة غير مرصودة وتثير أسئلتها الخاصة. ولا يحل أيٌّ منهما محل سؤال لماذا يوجد كون منظَّم أصلًا، ولا يزيل أيٌّ منهما الحجة على وجود خالق. وإيمان الكنيسة بخالق كل شيء واحد سواء كان الكون واحدًا أو كثيرًا.',
+    en: 'The selection effect is correct but answers only why we observe these conditions, not why they exist. The multiverse is an unobserved hypothesis, and any machinery that makes universes would itself need explaining. Neither removes the question of why there is an ordered universe at all, and neither removes the case for a Creator. The Church confesses God, the Maker of all things visible and invisible, whether there is one universe or many.',
+    ar: 'أثر الانتقاء صحيح، لكنه يجيب فقط عن سبب رصدنا لهذه الظروف، لا عن سبب وجودها. والكون المتعدد فرضية غير مرصودة، وأي آلية تصنع الأكوان تحتاج هي نفسها إلى تفسير. ولا يزيل أي منهما سؤال لماذا يوجد كون منظم أصلًا، ولا يزيل الحجة على وجود خالق. والكنيسة تعترف بالله صانع كل ما يُرى وما لا يُرى، سواء كان هناك كون واحد أو أكوان كثيرة.',
   },
   furtherReading: ['S39', 'S38', 'S45'],
   related: [

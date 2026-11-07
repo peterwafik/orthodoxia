@@ -15,23 +15,23 @@ export const article: Article = {
     ar: 'الدعوى بأن قصة يسوع استُعيرت من أساطير آلهة أقدم مثل حورس وأوزوريس ومثرا وديونيسوس. يفحص المقال كيف تصمد الموازنات الشعبية أمام المصادر القديمة، وما التشابهات الحقيقية، وفي أي اتجاه يمكن أن يسير التأثير، وماذا قال المسيحيون الأوائل ونقادهم. ولا يحاجّ في القيامة نفسها؛ فلها مقالات أخرى.',
   },
   shortAnswer: {
-    en: 'No. The long lists of parallels circulated online mostly do not match what the ancient sources say: the god is often not born of a virgin, not crucified, not said to have twelve disciples, and not said to rise on the third day. Where a real similarity exists, it is usually general (a god who dies, a sacred meal, a divine birth) and differs in kind from the Gospel story, which is set in a named time and place in a Jewish setting. Many of the pagan sources are later than Christianity, and some show Christian influence. The charge is also old, and early Christians and their opponents debated it. A fair comparison of religions is a legitimate task, but it needs the texts and their dates.',
-    ar: 'كلا. معظم قوائم الموازنات الطويلة المتداولة على الإنترنت لا يطابق ما تقوله المصادر القديمة: فالإله كثيرًا ما لا يولد من عذراء، ولا يُصلب، ولا يُقال إن له اثني عشر تلميذًا، ولا إنه قام في اليوم الثالث. وحيث يوجد تشابه حقيقي فهو عادةً عام (إله يموت، ووجبة مقدسة، وميلاد إلهي) ويختلف في النوع عن قصة الإنجيل المحددة بزمان ومكان مسميين في بيئة يهودية. وكثير من المصادر الوثنية أحدث من المسيحية، وبعضها يُظهر تأثرًا بها. والتهمة قديمة أيضًا، وقد ناقشها المسيحيون الأوائل وخصومهم. والموازنة المنصفة بين الأديان مهمة مشروعة، لكنها تحتاج إلى النصوص وتواريخها.',
+    en: 'No. The long lists of parallels circulated online do not match what the ancient sources say: the gods named are not born of a virgin, not crucified, not given twelve disciples, and not raised on the third day. The few real similarities are general (a god who dies, a sacred meal, a divine birth) and differ in kind from the Gospel, which tells of a Jew who died under a named Roman governor in Jerusalem and rose bodily from the dead. Many of the pagan sources are later than Christianity. The first Christians drew their faith from the Scriptures of Israel and from what they themselves had witnessed, and the charge of copying was already answered by Christian writers in the second century.',
+    ar: 'لا. القوائم الطويلة للتشابهات المتداولة على الإنترنت لا تطابق ما تقوله المصادر القديمة: فالآلهة المذكورة لم تولد من عذراء، ولم تُصلب، ولم يكن لها اثنا عشر تلميذًا، ولم تقم في اليوم الثالث. والتشابهات الحقيقية القليلة عامة (إله يموت، وجبة مقدسة، ميلاد إلهي)، وتختلف في جوهرها عن الإنجيل الذي يروي عن يهودي مات في عهد والٍ روماني مسمّى في أورشليم وقام بالجسد من بين الأموات. وكثير من المصادر الوثنية أحدث من المسيحية. وقد استقى المسيحيون الأوائل إيمانهم من كتب إسرائيل المقدسة ومما شهدوه بأنفسهم، وقد أجاب كتّاب مسيحيون عن تهمة النقل منذ القرن الثاني.',
   },
   quickPoints: {
     en: [
       'Claims such as "Horus was born of a virgin on 25 December, had twelve disciples and was crucified" are not found in the Egyptian texts about Horus.',
-      'Osiris dies and is restored to life in the realm of the dead as its ruler; he does not return to ordinary life. Mithraic worship, as known, centres on the slaying of a bull, with no death and resurrection of Mithras.',
-      'The "dying and rising god" as a single category is itself disputed among historians of religion.',
+      'Osiris dies and becomes ruler of the realm of the dead; he does not return to ordinary life. Mithraic worship centres on the slaying of a bull, with no death and resurrection of Mithras.',
+      'The Gospel is set in history: a named governor, a city, a Roman execution. Myths are set in a timeless age.',
       'The charge of imitation is as old as Justin Martyr, who answered it in the second century, and Celsus, who compared the birth of Jesus with Greek stories.',
-      'Resurrection in the earliest Christian writings is rooted in Jewish hope for the resurrection of the dead, not in the seasonal myths of the pagan world.',
+      'The resurrection of Christ is proclaimed in the language of Jewish hope for the resurrection of the dead, not of the seasonal myths of the pagan world.',
     ],
     ar: [
       'دعاوى مثل «وُلد حورس من عذراء في ٢٥ ديسمبر وكان له اثنا عشر تلميذًا وصُلب» لا توجد في النصوص المصرية عن حورس.',
-      'يموت أوزوريس ويُرد إلى الحياة في عالم الأموات سيدًا له، ولا يعود إلى الحياة العادية. وتدور عبادة مثرا، بحسب ما يُعرف، حول ذبح ثور، دون موت مثرا وقيامته.',
-      '«الإله الذي يموت ويقوم» فئة واحدة موضع جدل نفسه بين مؤرخي الأديان.',
+      'يموت أوزوريس ويصير سيدًا لعالم الأموات، ولا يعود إلى الحياة العادية. وتدور عبادة مثرا حول ذبح ثور، دون موت مثرا وقيامته.',
+      'الإنجيل يقع في التاريخ: والٍ مسمّى، ومدينة، وإعدام روماني. أما الأساطير فتقع في زمن لا تاريخ له.',
       'تهمة التقليد قديمة قدم يوستينوس الشهيد الذي أجاب عنها في القرن الثاني، وكلسوس الذي قارن ميلاد يسوع بقصص يونانية.',
-      'القيامة في أقدم الكتابات المسيحية متجذرة في الرجاء اليهودي بقيامة الأموات، لا في الأساطير الموسمية للعالم الوثني.',
+      'قيامة المسيح يُكرز بها بلغة الرجاء اليهودي بقيامة الأموات، لا بلغة الأساطير الموسمية للعالم الوثني.',
     ],
   },
   argumentTypes: ['historical'],
@@ -44,12 +44,12 @@ export const article: Article = {
   },
   whyExamine: {
     en: [
-      'The claim is common in videos, forums and some books, and is stated with great confidence. A believer who meets it without preparation may be shaken, and a sceptic who accepts it without checking has taken a claim on trust. The honest way is to go to the sources.',
-      'There is also something worth learning. Early Christians lived in a world full of other religions and borrowed some words, images and forms. Admitting this is not a danger to the faith. What matters is whether the core of the Gospel, a specific life, death and resurrection of a Jew in Roman Judea, was derived from them.',
+      'The claim is common in videos, forums and some books, and is stated with great confidence. A believer who meets it unprepared may be shaken, and a sceptic who accepts it has taken it on trust. The way to answer it is to go to the sources, and the sources answer it clearly.',
+      'Early Christians lived in a world full of other religions and used its language, as any movement does. That poses no danger to the faith. The core of the Gospel, the life, death and resurrection of a Jew in Roman Judea, did not come from those religions, and the evidence shows it.',
     ],
     ar: [
-      'الدعوى شائعة في مقاطع الفيديو والمنتديات وبعض الكتب، وتُقال بثقة كبيرة. وقد يتزعزع المؤمن الذي يلقاها دون استعداد، ومن يقبلها دون تحقق قد أخذها على الثقة. والسبيل الأمين الرجوع إلى المصادر.',
-      'وفي الموضوع ما يستحق التعلم. فقد عاش المسيحيون الأوائل في عالم مليء بأديان أخرى واستعاروا بعض الألفاظ والصور والأشكال. والإقرار بذلك لا يهدد الإيمان. المهم هل اشتُق جوهر الإنجيل، أي حياة محددة وموت وقيامة ليهودي في اليهودية الرومانية، منها.',
+      'الدعوى شائعة في مقاطع الفيديو والمنتديات وبعض الكتب، وتُقال بثقة كبيرة. وقد يتزعزع المؤمن الذي يلقاها دون استعداد، ومن يقبلها من المتشككين قد أخذها على الثقة. والجواب هو الرجوع إلى المصادر، والمصادر تجيب بوضوح.',
+      'عاش المسيحيون الأوائل في عالم مليء بأديان أخرى واستعملوا لغته، كما تفعل أي حركة. وهذا لا يهدد الإيمان. أما جوهر الإنجيل، أي حياة يهودي في اليهودية الرومانية وموته وقيامته، فلم يأتِ من تلك الأديان، والأدلة تُظهر ذلك.',
     ],
   },
   background: {
@@ -70,14 +70,14 @@ export const article: Article = {
     {
       id: 'c1',
       proposition: {
-        en: 'The popular lists of parallels with Horus, Mithras, Osiris and others mostly describe features that the ancient texts do not contain.',
-        ar: 'قوائم الموازنات الشعبية مع حورس ومثرا وأوزوريس وغيرهم تصف في الغالب سمات لا توجد في النصوص القديمة.',
+        en: 'The popular lists of parallels with Horus, Mithras, Osiris and others describe features that the ancient texts do not contain.',
+        ar: 'قوائم الموازنات الشعبية مع حورس ومثرا وأوزوريس وغيرهم تصف سمات لا توجد في النصوص القديمة.',
       },
       argumentType: 'historical',
       assessment: 'strong_historical_support',
       rationale: {
-        en: 'The texts about Horus do not give him a virginal conception, a crucifixion or twelve disciples. The festival of the Unconquered Sun on 25 December is attested in the fourth century, not in the sources for Mithras. Where the lists cite a source, it is often a modern book, not an ancient text.',
-        ar: 'لا تعطي النصوص عن حورس حبلًا بتوليًا ولا صلبًا ولا اثني عشر تلميذًا. وعيد الشمس التي لا تُقهر في ٢٥ ديسمبر موثق في القرن الرابع لا في مصادر مثرا. وحيث تذكر القوائم مصدرًا فهو كثيرًا كتاب حديث لا نص قديم.',
+        en: 'The texts about Horus do not give him a virginal conception, a crucifixion or twelve disciples. The festival of the Unconquered Sun on 25 December is attested in the fourth century, not in the sources for Mithras. Where the lists cite a source, it is usually a modern book, not an ancient text.',
+        ar: 'لا تعطي النصوص عن حورس حبلًا بتوليًا ولا صلبًا ولا اثني عشر تلميذًا. وعيد الشمس التي لا تُقهر في ٢٥ ديسمبر موثق في القرن الرابع لا في مصادر مثرا. وحيث تذكر القوائم مصدرًا فهو عادةً كتاب حديث لا نص قديم.',
       },
       limits: {
         en: 'Our evidence for many mystery cults is incomplete, especially for Mithras, whose beliefs were secret and are known mainly from images and inscriptions. Absence in our sources is not proof that nothing similar existed.',
@@ -88,14 +88,14 @@ export const article: Article = {
     {
       id: 'c2',
       proposition: {
-        en: 'Genuine similarities exist at the level of broad themes, but they differ from the Gospel story in kind: the pagan myths are not about a historical person who died under a named governor.',
-        ar: 'توجد تشابهات حقيقية على مستوى الموضوعات العامة، لكنها تختلف عن قصة الإنجيل في النوع: فالأساطير الوثنية ليست عن شخص تاريخي مات في عهد والٍ مسمى.',
+        en: 'The similarities are only broad themes, and they differ from the Gospel story in kind: the pagan myths are not about a historical person who died under a named governor.',
+        ar: 'التشابهات ليست إلا موضوعات عامة، وهي تختلف عن قصة الإنجيل في النوع: فالأساطير الوثنية ليست عن شخص تاريخي مات في عهد والٍ مسمّى.',
       },
       argumentType: 'historical',
       assessment: 'supported_disputed_details',
       rationale: {
-        en: 'Greek myths speak of gods begetting children with mortal women, which differs from the Gospels’ account of a conception without any union. Osiris returns to life only in the realm of the dead. The Gospels, by contrast, locate the death and the burial in Jerusalem under Pilate, which Tacitus confirms, and the resurrection of Jesus is reported as a bodily event.',
-        ar: 'تتحدث الأساطير اليونانية عن آلهة تنجب من نساء بشريات، وهذا يختلف عن رواية الأناجيل لحبل دون اتصال. ولا يعود أوزوريس إلى الحياة إلا في عالم الأموات. أما الأناجيل فتحدد الموت والدفن في أورشليم في عهد بيلاطس، وهو ما يؤكده تاكيتوس، وتروي قيامة يسوع حدثًا جسديًا.',
+        en: 'Greek myths speak of gods begetting children with mortal women, which is nothing like the Gospels’ account of a conception without any union. Osiris returns to life only in the realm of the dead. The Gospels locate the death and burial in Jerusalem under Pilate, which Tacitus confirms, and proclaim the resurrection of Jesus as a bodily event.',
+        ar: 'تتحدث الأساطير اليونانية عن آلهة تنجب من نساء بشريات، وهذا لا يشبه في شيء رواية الأناجيل لحبل دون اتصال. ولا يعود أوزوريس إلى الحياة إلا في عالم الأموات. أما الأناجيل فتحدد الموت والدفن في أورشليم في عهد بيلاطس، وهو ما يؤكده تاكيتوس، وتكرز بقيامة يسوع حدثًا جسديًا.',
       },
       limits: {
         en: 'Some historians think that certain themes, such as the sacred meal or titles like Savior and Son of God, show a common religious vocabulary. The claim does not deny shared language.',
@@ -106,14 +106,14 @@ export const article: Article = {
     {
       id: 'c3',
       proposition: {
-        en: 'The earliest Christian belief in resurrection is best placed within Jewish thought about the resurrection of the dead, not in the seasonal myths of pagan gods.',
-        ar: 'أرجح موضع للإيمان المسيحي المبكر بالقيامة هو في الفكر اليهودي عن قيامة الأموات، لا في أساطير الآلهة الموسمية.',
+        en: 'The earliest Christian proclamation of the resurrection belongs to Jewish faith in the resurrection of the dead, not to the seasonal myths of pagan gods.',
+        ar: 'الكرازة المسيحية الأولى بالقيامة تنتمي إلى الإيمان اليهودي بقيامة الأموات، لا إلى أساطير الآلهة الموسمية.',
       },
       argumentType: 'historical',
       assessment: 'supported_disputed_details',
       rationale: {
-        en: 'The Hebrew Scriptures already speak of the dead rising, in Isaiah and Daniel, and St Paul describes the resurrection of Christ in these terms, as a bodily rising and the first fruits of a general resurrection.',
-        ar: 'تتحدث الكتب العبرية أصلًا عن قيامة الأموات في إشعياء ودانيال، ويصف القديس بولس قيامة المسيح بهذه الألفاظ، قيامة جسدية وباكورة للقيامة العامة.',
+        en: 'The Hebrew Scriptures already speak of the dead rising, in Isaiah and Daniel, and St Paul the Apostle proclaims the resurrection of Christ in these terms: a bodily rising, according to the Scriptures, and the first fruits of the general resurrection.',
+        ar: 'تتحدث الكتب العبرية أصلًا عن قيامة الأموات في إشعياء ودانيال، ويكرز القديس بولس الرسول بقيامة المسيح بهذه الألفاظ: قيامة جسدية بحسب الكتب، وباكورة للقيامة العامة.',
       },
       limits: {
         en: 'It does not show that the resurrection happened. It shows only the setting in which the claim arose.',
@@ -124,14 +124,14 @@ export const article: Article = {
     {
       id: 'c4',
       proposition: {
-        en: 'The charge of imitation is ancient. Justin Martyr and Origen already answered it, and their answers show how early Christians understood the comparison.',
-        ar: 'تهمة التقليد قديمة. وقد أجاب عنها يوستينوس الشهيد وأوريجانوس، وتبين إجاباتهما كيف فهم المسيحيون الأوائل الموازنة.',
+        en: 'The charge of imitation is ancient. Justin Martyr and Origen already answered it, and their answers show that the Church met the comparison openly from the start.',
+        ar: 'تهمة التقليد قديمة. وقد أجاب عنها يوستينوس الشهيد وأوريجانوس، وتبيّن إجاباتهما أن الكنيسة واجهت الموازنة علنًا منذ البدء.',
       },
       argumentType: 'historical',
       assessment: 'strong_historical_support',
       rationale: {
-        en: 'Justin compares the Christian claims about the Word with stories of the sons of Zeus and offers an explanation, and Celsus, as reported by Origen, compares Jesus’ birth with Greek tales. These sources show the argument as it was made in the second and third centuries.',
-        ar: 'يقارن يوستينوس دعاوى المسيحيين عن الكلمة بقصص أبناء زوس ويقدم تفسيرًا، ويقارن كلسوس، كما ينقل أوريجانوس، ميلاد يسوع بحكايات يونانية. وتظهر هذه المصادر الحجة كما قيلت في القرنين الثاني والثالث.',
+        en: 'Justin sets the Christian proclamation of the Word beside the stories of the sons of Zeus and answers his pagan readers, and Origen answers Celsus, who compared Jesus’ birth with Greek tales. The question is old, and so is the answer.',
+        ar: 'يضع يوستينوس الكرازة المسيحية بالكلمة بإزاء قصص أبناء زوس ويجيب قرّاءه الوثنيين، ويجيب أوريجانوس كلسوس الذي قارن ميلاد يسوع بحكايات يونانية. فالسؤال قديم، والجواب قديم كذلك.',
       },
       limits: {
         en: 'Justin’s own explanation (that evil spirits imitated what had been foretold) is a theological claim and not a historical argument, and it is not offered here as evidence.',
@@ -303,12 +303,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'When the stories are checked one at a time, the list shrinks. Few of these gods are said to have been born of a virgin, and the ones who die do not rise in the Gospel sense. The category of dying and rising gods, which was widely used in the early twentieth century, has been challenged by many historians of religion, though some defend a revised form of it.',
-          'The fair statement is that some pagan myths speak of a god who suffers, dies, or goes to the underworld, and a few speak of return. These are not the same as the Gospel claim, and the sources are often later than the first century.',
+          'When the stories are checked one at a time, the list falls apart. Few of these gods are said to have been born of a virgin, and those who die do not rise in the Gospel sense. The single category of “dying and rising gods”, popular in the early twentieth century, has been challenged by many historians of religion.',
+          'Some pagan myths speak of a god who suffers, dies, or goes down to the underworld. That is not the Gospel. The Gospel proclaims a man known to His followers, crucified under Pilate in Jerusalem, buried, and raised bodily on the third day, and it was preached within living memory, where it could be checked.',
         ],
         ar: [
-          'حين تُفحص القصص واحدة واحدة تتقلص القائمة. فقليل من هذه الآلهة يقال إنه وُلد من عذراء، والتي تموت منها لا تقوم بالمعنى الإنجيلي. وفئة الآلهة التي تموت وتقوم، التي شاعت في أوائل القرن العشرين، طعن فيها مؤرخو أديان كثيرون، وإن دافع بعضهم عن صيغة معدلة منها.',
-          'والقول المنصف أن بعض الأساطير الوثنية تتحدث عن إله يتألم أو يموت أو ينزل إلى عالم الأموات، وقليلها يتحدث عن عودة. وليست هذه كدعوى الإنجيل، والمصادر كثيرًا ما تكون أحدث من القرن الأول.',
+          'حين تُفحص القصص واحدة واحدة تنهار القائمة. فقليل من هذه الآلهة يقال إنه وُلد من عذراء، والتي تموت منها لا تقوم بالمعنى الإنجيلي. وفئة «الآلهة التي تموت وتقوم» الواحدة، التي شاعت في أوائل القرن العشرين، طعن فيها مؤرخو أديان كثيرون.',
+          'تتحدث بعض الأساطير الوثنية عن إله يتألم أو يموت أو ينزل إلى عالم الأموات. وليس هذا هو الإنجيل. فالإنجيل يكرز بإنسان عرفه أتباعه، صُلب في عهد بيلاطس في أورشليم، ودُفن، وقام بالجسد في اليوم الثالث، وقد كُرز به في حياة شهوده حيث كان التحقق ممكنًا.',
         ],
       },
       limits: {
@@ -325,12 +325,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'Christians did use the Greek language and some of its terms, as one would expect from a movement that spread through the Greek-speaking world, and the New Testament shows this openly. Sharing a word is not the same as borrowing a doctrine. The Word and Wisdom in the Old Testament and in Jewish writing, the washings and sacred meals of Jewish practice, and the Passover supper supply a nearer source than the pagan mysteries for these ideas.',
-          'Justin himself noticed that pagan rites resembled Christian ones and offered a theological explanation. A historian may weigh that explanation differently, but it shows that the similarity was seen from the start and was not hidden.',
+          'Christians did use the Greek language and some of its terms, as one would expect from a movement that spread through the Greek-speaking world. Sharing a word is not borrowing a doctrine. The Word and Wisdom of the Old Testament, the washings and sacred meals of Jewish practice, and the Passover supper are the true sources of these ideas, and they lie much nearer than the pagan mysteries.',
+          'Justin himself noticed that pagan rites resembled Christian ones and gave his answer openly. The similarity was seen from the start and never hidden, because the Church knew that its faith came from Israel’s Scriptures and from Christ.',
         ],
         ar: [
-          'استعمل المسيحيون فعلًا اللغة اليونانية وبعض ألفاظها، كما يُنتظر من حركة انتشرت في العالم الناطق باليونانية، ويُظهر العهد الجديد ذلك بوضوح. والاشتراك في لفظ ليس كالاستعارة لعقيدة. فالكلمة والحكمة في العهد القديم والكتابات اليهودية، والاغتسالات والوجبات المقدسة في الممارسة اليهودية، وعشاء الفصح، تقدم مصدرًا أقرب من الأسرار الوثنية لهذه الأفكار.',
-          'ولاحظ يوستينوس نفسه أن الطقوس الوثنية تشبه المسيحية وقدم تفسيرًا لاهوتيًا. وقد يزن المؤرخ هذا التفسير بغير ما نزنه، لكنه يبين أن التشابه رُئي من البدء ولم يُخفَ.',
+          'استعمل المسيحيون فعلًا اللغة اليونانية وبعض ألفاظها، كما يُنتظر من حركة انتشرت في العالم الناطق باليونانية. والاشتراك في لفظ ليس استعارة لعقيدة. فالكلمة والحكمة في العهد القديم، والاغتسالات والوجبات المقدسة في الممارسة اليهودية، وعشاء الفصح، هي المصادر الحقيقية لهذه الأفكار، وهي أقرب بكثير من الأسرار الوثنية.',
+          'ولاحظ يوستينوس نفسه أن الطقوس الوثنية تشبه المسيحية وأجاب عن ذلك علنًا. فالتشابه رُئي من البدء ولم يُخفَ قط، لأن الكنيسة كانت تعرف أن إيمانها آتٍ من كتب إسرائيل ومن المسيح.',
         ],
       },
       limits: {
@@ -347,12 +347,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The origin of the date is itself debated. One view says it was chosen in Rome in the fourth century in relation to the festival of the Unconquered Sun. Another holds that it was reached by early Christian calculation, working from the date of the crucifixion. The evidence does not settle which is right.',
-          'Whichever is right, the date of a feast is not a claim about the date of the birth, and the Church does not teach that 25 December is the historical date. The Coptic Church keeps the Nativity on 29 Kiahk, which falls on 7 January in the Gregorian calendar. A feast placed near a pagan festival tells us how the Church marked time and does not tell us where the Gospel story came from.',
+          'The date of a feast is not a claim about the date of the birth. The Church does not teach that 25 December is the historical date of the Nativity; it chose a day to celebrate the event. The Coptic Church keeps the Nativity on 29 Kiahk, which falls on 7 January in the Gregorian calendar.',
+          'However the date of the feast was set, it tells us how the Church marked time, not where the Gospel came from. The Gospel accounts of the birth of Christ were written long before any Christmas feast existed.',
         ],
         ar: [
-          'أصل التاريخ نفسه محل نقاش. فيرى فريق أنه اختير في روما في القرن الرابع بالنسبة إلى عيد الشمس التي لا تُقهر. ويرى آخر أنه بلغته الحسابات المسيحية المبكرة انطلاقًا من تاريخ الصلب. ولا تحسم الأدلة أي الرأيين أصح.',
-          'وأيًّا كان الصحيح فتاريخ العيد ليس دعوى عن تاريخ الميلاد، ولا تعلّم الكنيسة أن ٢٥ ديسمبر هو التاريخ التاريخي. وتحتفل الكنيسة القبطية بالميلاد في ٢٩ كيهك الموافق ٧ يناير في التقويم الغريغوري. وعيد وُضع قرب عيد وثني يخبرنا كيف حددت الكنيسة الزمن، ولا يخبرنا من أين جاءت قصة الإنجيل.',
+          'تاريخ العيد ليس دعوى عن تاريخ الميلاد. فالكنيسة لا تعلّم أن ٢٥ ديسمبر هو التاريخ التاريخي للميلاد، بل اختارت يومًا تحتفل فيه بالحدث. وتحتفل الكنيسة القبطية بالميلاد في ٢٩ كيهك الموافق ٧ يناير في التقويم الغريغوري.',
+          'وأيًّا كانت طريقة تحديد تاريخ العيد، فهي تخبرنا كيف حددت الكنيسة الزمن، لا من أين جاء الإنجيل. فروايات الإنجيل عن ميلاد المسيح كُتبت قبل وجود أي عيد للميلاد بزمن طويل.',
         ],
       },
       limits: {
@@ -366,12 +366,12 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'The historical answer is by evidence and not by assertion. Take the texts of the pagan myths, check their dates, and compare them with the earliest Christian writings. The result is that the popular lists are mostly inaccurate, the real similarities are general, the earliest Christian beliefs fit Jewish ideas better, and the Gospel story is told as an event in recent history.',
-        'The Christian historian will also admit what is not settled: how far Greek and Roman religious language shaped the Church’s vocabulary, and the origin of some customs. Honest comparison of religions is welcome, and the Church has nothing to fear from the facts.',
+        'Take the texts of the pagan myths, check their dates, and compare them with the earliest Christian writings. The result is clear: the popular lists are inaccurate, the real similarities are general, the earliest Christian faith grows from the Scriptures of Israel, and the Gospel story is told as an event in recent history, confirmed by a Roman historian.',
+        'The Church has nothing to fear from the facts. Honest comparison of religions is welcome, and it shows that the Gospel stands apart from the myths around it.',
       ],
       ar: [
-        'الجواب التاريخي بالأدلة لا بالتأكيد. تؤخذ نصوص الأساطير الوثنية وتُفحص تواريخها وتُقارن بأقدم الكتابات المسيحية. والنتيجة أن القوائم الشعبية غير دقيقة في معظمها، وأن التشابهات الحقيقية عامة، وأن أقدم المعتقدات المسيحية تلائم الأفكار اليهودية أكثر، وأن قصة الإنجيل تُروى حدثًا من التاريخ القريب.',
-        'وسيقر المؤرخ المسيحي أيضًا بما لم يُحسم: مدى تشكيل اللغة الدينية اليونانية والرومانية لمفردات الكنيسة، وأصل بعض العادات. والموازنة الأمينة بين الأديان مرحَّب بها، ولا تخشى الكنيسة الوقائع.',
+        'تؤخذ نصوص الأساطير الوثنية وتُفحص تواريخها وتُقارن بأقدم الكتابات المسيحية. والنتيجة واضحة: القوائم الشعبية غير دقيقة، والتشابهات الحقيقية عامة، والإيمان المسيحي الأول ينمو من كتب إسرائيل المقدسة، وقصة الإنجيل تُروى حدثًا من التاريخ القريب يؤكده مؤرخ روماني.',
+        'والكنيسة لا تخشى الوقائع. والموازنة الأمينة بين الأديان مرحَّب بها، وهي تُظهر أن الإنجيل يتميز عن الأساطير المحيطة به.',
       ],
     },
     theological: {
@@ -393,8 +393,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'The claim that Jesus was copied from pagan gods fails on the sources: the listed features are mostly absent from the ancient texts, the real similarities are general, many of the pagan sources are later, and the early Christian beliefs fit Jewish hope. The shared language of the age is real and worth studying. It does not show that the Gospel story was derived from the myths.',
-    ar: 'تفشل الدعوى بأن يسوع نُسخ من آلهة وثنية أمام المصادر: فالسمات المذكورة غائبة في معظمها عن النصوص القديمة، والتشابهات الحقيقية عامة، وكثير من المصادر الوثنية متأخر، والمعتقدات المسيحية المبكرة تلائم الرجاء اليهودي. واللغة المشتركة في العصر حقيقية وجديرة بالدراسة. لكنها لا تبين أن قصة الإنجيل اشتُقت من الأساطير.',
+    en: 'Jesus was not copied from pagan gods. The listed parallels are absent from the ancient texts, the real similarities are general, many of the pagan sources are later, and the earliest Christian faith grows from the hope of Israel. The Gospel proclaims something no myth told: the eternal Word became man, died under Pontius Pilate at a known time and place, and rose bodily from the dead. Whatever longings the pagan myths expressed find their answer in Him.',
+    ar: 'لم يُنقل يسوع عن آلهة وثنية. فالتشابهات المذكورة غائبة عن النصوص القديمة، والتشابهات الحقيقية عامة، وكثير من المصادر الوثنية أحدث، والإيمان المسيحي الأول ينمو من رجاء إسرائيل. والإنجيل يكرز بما لم تروِه أي أسطورة: الكلمة الأزلي صار إنسانًا، ومات في عهد بيلاطس البنطي في زمان ومكان معروفين، وقام بالجسد من بين الأموات. وكل شوق عبّرت عنه الأساطير الوثنية يجد جوابه فيه.',
   },
   furtherReading: ['S07', 'S50', 'S51', 'S09', 'S18'],
   related: [

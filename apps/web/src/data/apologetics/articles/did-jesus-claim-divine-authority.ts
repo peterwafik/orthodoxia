@@ -15,23 +15,23 @@ export const article: Article = {
     ar: 'ما تروي المصادر أن يسوع قاله وفعله مما يتصل بسلطانه، وكيف يقرؤه المؤرخون، وكيف صار المسيحيون الأوائل يعبدونه، وماذا تعترف الكنيسة. ويفرّق المقال بين ما تقوله النصوص وما يستنتجه المؤرخون منها وما تؤكده الكنيسة بالإيمان. ولا يعالج المجامع بالتفصيل ولا القيامة؛ فلهما مقالاتهما المجاورة.',
   },
   shortAnswer: {
-    en: 'The Gospels present Jesus as acting and speaking with an authority that went beyond that of a prophet or teacher: he forgives sins, interprets the Law on his own word, calls people to follow him, speaks of God as his Father in a unique way, and accepts worship. Historians agree that the sources portray this. They disagree about how much goes back to Jesus himself, especially the explicit statements in John. What is not in dispute is that within a few years of his death his followers were praying to him and speaking of him as Lord in a way that was reserved for God. The Church confesses, as an article of faith, that he is the Son of God, true God and true man.',
-    ar: 'تقدم الأناجيل يسوع يعمل ويتكلم بسلطان يفوق سلطان نبي أو معلم: فهو يغفر الخطايا، ويفسر الناموس بكلمته هو، ويدعو الناس إلى أن يتبعوه، ويتكلم عن الله أبًا له بطريقة فريدة، ويقبل السجود. ويتفق المؤرخون على أن المصادر تصور ذلك. ويختلفون في مقدار ما يرجع إلى يسوع نفسه، ولا سيما التصريحات الصريحة في يوحنا. أما ما لا خلاف فيه فهو أنه في غضون سنوات من موته كان أتباعه يصلّون إليه ويتكلمون عنه ربًّا بطريقة كانت مقصورة على الله. وتعترف الكنيسة، عقيدة إيمان، بأنه ابن الله، إله حق وإنسان حق.',
+    en: 'Yes. The Gospels show Jesus acting and speaking with an authority no prophet ever claimed: He forgives sins, which His hearers knew belonged to God alone; He sets His own word beside the Law; He calls people to leave everything for Him; He speaks of God as His Father in a unique way; and He accepts worship. In St John’s Gospel He says it openly, speaking of His existence before Abraham and of His oneness with the Father. Within a few years of His death and resurrection His followers, faithful Jews who worshipped one God, were praying to Him as Lord in words Scripture reserves for God. The Church confesses what He revealed: He is the Son of God, true God and true man.',
+    ar: 'نعم. تُظهر الأناجيل يسوع يعمل ويتكلم بسلطان لم يدّعه نبي قط: فهو يغفر الخطايا، وكان سامعوه يعرفون أن ذلك لله وحده، ويضع كلمته بإزاء الناموس، ويدعو الناس إلى ترك كل شيء من أجله، ويتكلم عن الله أبًا له بطريقة فريدة، ويقبل السجود. وفي إنجيل يوحنا يقول ذلك صراحة، متكلمًا عن كيانه قبل إبراهيم وعن وحدته مع الآب. وفي غضون سنوات قليلة من موته وقيامته كان أتباعه، وهم يهود أمناء يعبدون الإله الواحد، يصلّون إليه ربًّا بألفاظ يخص بها الكتاب الله. والكنيسة تعترف بما أعلنه: إنه ابن الله، إله حق وإنسان حق.',
   },
   quickPoints: {
     en: [
       'Mark, the earliest Gospel on the usual dating, already reports Jesus forgiving sins, a claim that the bystanders in the story treat as belonging to God alone.',
-      'The most explicit statements of identity ("before Abraham was, I am", "I and the Father are one") are in John, and historians disagree on how far they reproduce Jesus’ words or express the later reflection of the Church.',
-      'St Paul, in letters of the AD 50s, uses an Aramaic invocation of the Lord and applies to Jesus a scriptural text about calling on the name of the Lord, which shows devotion to him as divine within a couple of decades.',
+      'The plainest statements of His identity (“before Abraham was, I am”, “I and the Father are one”) are in John, and they make explicit what the other Gospels show in His deeds.',
+      'St Paul, in letters of the AD 50s, uses an Aramaic prayer to the Lord and applies to Jesus a scriptural text about calling on the name of the Lord, which shows worship of Him as divine within about twenty years.',
       'A Roman governor around AD 110 reports that Christians sang to Christ as to a god; the divinity of Christ was not invented at Nicaea in AD 325.',
-      'Whether Jesus claimed to be God in explicit words is a historical debate. That he is God incarnate is the faith of the Church, grounded in the apostolic witness and the resurrection.',
+      'Jesus revealed who He is by His words and deeds, and the resurrection confirmed it. The Church confesses Him as God incarnate, as the apostles did.',
     ],
     ar: [
       'يروي مرقس، أقدم الأناجيل بحسب التأريخ المعتاد، أصلًا أن يسوع يغفر الخطايا، وهي دعوى يعاملها الحاضرون في القصة على أنها لله وحده.',
-      'أصرح عبارات الهوية («قبل أن يكون إبراهيم أنا كائن»، «أنا والآب واحد») في يوحنا، ويختلف المؤرخون في مدى نقلها لكلام يسوع أو تعبيرها عن تأمل الكنيسة اللاحق.',
-      'يستعمل القديس بولس، في رسائل الخمسينيات، دعاءً أراميًا للرب، ويطبق على يسوع نصًا كتابيًا عن الدعاء باسم الرب، مما يدل على عبادة له بوصفه إلهًا في غضون عقدين.',
+      'أصرح عبارات هويته («قبل أن يكون إبراهيم أنا كائن»، «أنا والآب واحد») في يوحنا، وهي تُصرّح بما تُظهره الأناجيل الأخرى في أعماله.',
+      'يستعمل القديس بولس، في رسائل الخمسينيات، دعاءً أراميًا للرب، ويطبق على يسوع نصًا كتابيًا عن الدعاء باسم الرب، مما يدل على عبادته إلهًا في غضون نحو عشرين سنة.',
       'يذكر والٍ روماني نحو ١١٠م أن المسيحيين كانوا يرتلون للمسيح كما لإله؛ فلاهوت المسيح لم يُخترع في نيقية سنة ٣٢٥م.',
-      'هل ادّعى يسوع أنه الله بعبارات صريحة جدل تاريخي. أما أنه الله المتجسد فإيمان الكنيسة المؤسس على الشهادة الرسولية والقيامة.',
+      'أعلن يسوع من هو بأقواله وأعماله، والقيامة أكدت ذلك. والكنيسة تعترف به إلهًا متجسدًا كما اعترف به الرسل.',
     ],
   },
   argumentTypes: ['historical', 'theological'],
@@ -44,12 +44,12 @@ export const article: Article = {
   },
   whyExamine: {
     en: [
-      'The question lies at the centre of the dispute between Christians and others. Muslims, Jews and many secular writers hold that Jesus never claimed to be God and that the Church made him so. Many Christians have never looked at how the Gospels actually speak. Each side deserves to see the texts and how they are read.',
-      'It also shows the limits of what an argument can do. A list of sayings cannot by itself prove that Jesus is God, and the absence of one explicit sentence cannot by itself prove that he is not. What is needed is the whole pattern of what he did, how his followers responded, and what the Church has received.',
+      'The question lies at the centre of the conversation between Christians and others. Muslims, Jews and many secular writers hold that Jesus never claimed to be God and that the Church made Him so. Many Christians have never looked closely at how the Gospels actually speak. The texts themselves give a clear answer.',
+      'The answer is not a single sentence but a whole pattern: what He did, what He said, how His followers responded, and what the Church has received. Seen together, that pattern points plainly to who He is.',
     ],
     ar: [
-      'يقع السؤال في مركز الخلاف بين المسيحيين وغيرهم. فيرى المسلمون واليهود وكتّاب علمانيون كثيرون أن يسوع لم يدّع قط أنه الله وأن الكنيسة هي التي صيّرته كذلك. ولم ينظر مسيحيون كثيرون في كيف تتكلم الأناجيل فعلًا. ومن حق كل جانب أن يرى النصوص وكيف تُقرأ.',
-      'ويبين أيضًا حدود ما تستطيعه الحجة. فقائمة أقوال لا تثبت وحدها أن يسوع هو الله، وغياب عبارة صريحة واحدة لا يثبت وحده أنه ليس كذلك. المطلوب هو النمط الكامل لما فعله وكيف استجاب أتباعه وما تسلّمته الكنيسة.',
+      'يقع السؤال في مركز الحوار بين المسيحيين وغيرهم. فيرى المسلمون واليهود وكتّاب علمانيون كثيرون أن يسوع لم يدّع قط أنه الله وأن الكنيسة هي التي صيّرته كذلك. ولم ينظر مسيحيون كثيرون عن قرب في كيف تتكلم الأناجيل فعلًا. والنصوص نفسها تعطي جوابًا واضحًا.',
+      'والجواب ليس جملة واحدة بل نمطًا كاملًا: ما فعله، وما قاله، وكيف استجاب أتباعه، وما تسلّمته الكنيسة. وإذا نُظر إليه مجتمعًا أشار بوضوح إلى من هو.',
     ],
   },
   background: {
@@ -70,14 +70,14 @@ export const article: Article = {
     {
       id: 'c1',
       proposition: {
-        en: 'The Synoptic Gospels portray Jesus acting with an authority that goes beyond a teacher’s or a prophet’s, including forgiving sins and interpreting the Law on his own word.',
-        ar: 'تصور الأناجيل الإزائية يسوع عاملًا بسلطان يفوق سلطان معلم أو نبي، ومنه غفران الخطايا وتفسير الناموس بكلمته.',
+        en: 'The Synoptic Gospels show Jesus acting with an authority beyond any teacher’s or prophet’s, forgiving sins and interpreting the Law on His own word.',
+        ar: 'تُظهر الأناجيل الإزائية يسوع عاملًا بسلطان يفوق سلطان أي معلم أو نبي، يغفر الخطايا ويفسر الناموس بكلمته.',
       },
       argumentType: 'historical',
       assessment: 'supported_disputed_details',
       rationale: {
-        en: 'The pattern appears in Mark, in the material shared by Matthew and Luke, and in sayings special to each. Because these are Christian accounts, the claim is about what the sources report. Historians who accept that the pattern goes back to Jesus do so because it appears in several strands and fits his reputation.',
-        ar: 'يظهر النمط في مرقس وفي المادة المشتركة بين متى ولوقا وفي أقوال خاصة بكل منهما. ولأنها روايات مسيحية فالدعوى عما تروي المصادر. والمؤرخون الذين يقبلون رجوع النمط إلى يسوع يفعلون ذلك لأنه يرد في عدة خيوط ويلائم شهرته.',
+        en: 'The pattern runs through Mark, through the material shared by Matthew and Luke, and through sayings special to each. A pattern found in so many independent strands, and fitting everything else we know of Him, goes back to Jesus Himself.',
+        ar: 'يمتد النمط في مرقس وفي المادة المشتركة بين متى ولوقا وفي أقوال خاصة بكل منهما. ونمط يرد في خيوط مستقلة كثيرة كهذه ويلائم كل ما نعرفه عنه يرجع إلى يسوع نفسه.',
       },
       limits: {
         en: 'Some historians think that individual sayings have been shaped by the Church’s later faith, and that Jesus’ own authority was prophetic and messianic without being a claim to be divine.',
@@ -88,14 +88,14 @@ export const article: Article = {
     {
       id: 'c2',
       proposition: {
-        en: 'The explicit statements of divine identity are concentrated in John, and historians are divided about how far they reproduce Jesus’ words.',
-        ar: 'تتركز التصريحات الصريحة بالهوية الإلهية في يوحنا، ويختلف المؤرخون في مدى نقلها لكلام يسوع.',
+        en: 'The plainest statements of divine identity are in John, and they make explicit what the Synoptic Gospels show in His deeds and authority.',
+        ar: 'أصرح عبارات الهوية الإلهية في يوحنا، وهي تُصرّح بما تُظهره الأناجيل الإزائية في أعماله وسلطانه.',
       },
       argumentType: 'textual',
       assessment: 'actively_debated',
       rationale: {
-        en: 'John’s discourses differ in style and subject from the Synoptic sayings, and many scholars regard them as an interpretation of Jesus by the Evangelist and his community. Others hold that they preserve real memory of Jesus’ self-understanding.',
-        ar: 'تختلف خطابات يوحنا أسلوبًا وموضوعًا عن أقوال الإزائيين، ويعدها باحثون كثيرون تفسيرًا ليسوع قدمه الإنجيلي وجماعته. ويرى آخرون أنها تحفظ ذاكرة حقيقية عن وعي يسوع بنفسه.',
+        en: 'St John the Evangelist writes as the disciple who was close to the Lord, and he draws out the meaning of what Jesus said and did. His Gospel does not contradict the others; it says openly what the forgiveness of sins, the authority over the Law and the answer at the trial already imply.',
+        ar: 'يكتب القديس يوحنا الإنجيلي بوصفه التلميذ القريب من الرب، ويكشف معنى ما قاله يسوع وفعله. وإنجيله لا يناقض الأناجيل الأخرى، بل يقول صراحة ما يتضمنه أصلًا غفران الخطايا والسلطان على الناموس والجواب في المحاكمة.',
       },
       limits: {
         en: 'This article does not decide between these views. It notes that the case for Jesus’ authority does not rest on John alone.',
@@ -106,14 +106,14 @@ export const article: Article = {
     {
       id: 'c4',
       proposition: {
-        en: 'The Church’s confession that Jesus is true God and true man is a theological interpretation, received from the apostolic witness and developed in the Fathers, not a conclusion derived from a list of sayings.',
-        ar: 'اعتراف الكنيسة بأن يسوع إله حق وإنسان حق تفسير لاهوتي، تسلّمته من الشهادة الرسولية وبسطه الآباء، وليس استنتاجًا من قائمة أقوال.',
+        en: 'Jesus is true God and true man: the Church received this from the apostolic witness and the Fathers expounded it.',
+        ar: 'يسوع إله حق وإنسان حق: تسلّمت الكنيسة ذلك من الشهادة الرسولية وشرحه الآباء.',
       },
       argumentType: 'theological',
       assessment: 'theological_interpretation',
       rationale: {
-        en: 'St Athanasius argues that the Word, by whom all things were made, took a human body to renew creation, and that the cross and the resurrection are the proof of his divinity as well as his humanity. This is the reasoning on which the Coptic Church stands.',
-        ar: 'يحاجّ القديس أثناسيوس بأن الكلمة، الذي به كان كل شيء، اتخذ جسدًا بشريًا ليجدد الخليقة، وأن الصليب والقيامة برهان لاهوته مع ناسوته. وهذا هو الاستدلال الذي تقف عليه الكنيسة القبطية.',
+        en: 'St Athanasius teaches that the Word, by whom all things were made, took a human body to renew creation, and that the cross and the resurrection reveal His divinity as well as His humanity. This is the faith on which the Coptic Church stands.',
+        ar: 'يعلّم القديس أثناسيوس أن الكلمة، الذي به كان كل شيء، اتخذ جسدًا بشريًا ليجدد الخليقة، وأن الصليب والقيامة يُعلنان لاهوته مع ناسوته. وهذا هو الإيمان الذي تقف عليه الكنيسة القبطية.',
       },
       limits: {
         en: 'This is faith seeking understanding. It will not persuade a reader who does not accept the Scriptures or the Church’s authority.',
@@ -252,12 +252,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'It is true that the Synoptics lack a sentence of that form, and the article says so. But the question is not only what words were used. The Synoptics show Jesus forgiving sins, speaking on his own authority and answering the high priest in terms that led to a charge of blasphemy. These are claims that were understood in Jewish terms to touch on what belongs to God.',
-          'As for Nicaea, the evidence is against a late invention. St Paul’s letters of the 50s already invoke Jesus as Lord, Pliny reports hymns to Christ as to a god around AD 110, and Ignatius calls Christ God at about the same time. Nicaea defined the faith against Arius, who denied that the Son was truly God, and so it confirmed what the Church had held.',
+          'The Synoptics do not use that exact sentence, but the question is what Jesus claimed, not which words He used. They show Him forgiving sins, speaking on His own authority, and answering the high priest in terms that led at once to a charge of blasphemy. In Jewish terms these were claims to what belongs to God, and His hearers understood them so.',
+          'As for Nicaea, the evidence rules out a late invention. St Paul’s letters of the 50s already call on Jesus as Lord, Pliny reports hymns to Christ as to a god around AD 110, and St Ignatius calls Christ God at about the same time. Nicaea defined the faith against Arius, who denied that the Son was truly God, and so it confirmed what the Church had always held.',
         ],
         ar: [
-          'صحيح أن الإزائيين يخلون من جملة بهذه الصيغة، والمقال يقول ذلك. لكن السؤال ليس عن الألفاظ المستعملة فقط. فالإزائيون يظهرون يسوع يغفر الخطايا ويتكلم بسلطانه ويجيب رئيس الكهنة بعبارات أدت إلى تهمة التجديف. وهذه دعاوى فُهمت بلغة اليهود على أنها تمس ما لله.',
-          'وأما نيقية فالأدلة تقف ضد اختراع متأخر. فرسائل القديس بولس في الخمسينيات تدعو يسوع ربًّا، ويذكر بليني ترانيم للمسيح كما لإله نحو ١١٠م، ويدعو إغناطيوس المسيح الله في الزمن نفسه تقريبًا. وعرّف نيقية الإيمان ضد آريوس الذي أنكر أن الابن إله حق، فأكدت ما كانت الكنيسة تمسك به.',
+          'لا يستعمل الإزائيون هذه الجملة بعينها، لكن السؤال هو عمّا ادّعاه يسوع لا عن الألفاظ التي استعملها. فهم يُظهرونه يغفر الخطايا ويتكلم بسلطانه ويجيب رئيس الكهنة بعبارات أدت في الحال إلى تهمة التجديف. وهذه بلغة اليهود دعاوى لما هو لله، وهكذا فهمها سامعوه.',
+          'وأما نيقية فالأدلة تنفي اختراعًا متأخرًا. فرسائل القديس بولس في الخمسينيات تدعو يسوع ربًّا، ويذكر بليني ترانيم للمسيح كما لإله نحو ١١٠م، ويدعو القديس إغناطيوس المسيح الله في الزمن نفسه تقريبًا. وعرّف مجمع نيقية الإيمان ضد آريوس الذي أنكر أن الابن إله حق، فأكد ما كانت الكنيسة تمسك به دائمًا.',
         ],
       },
       limits: {
@@ -274,12 +274,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'This is correct as far as it goes. In Jewish usage, kings and Israel itself could be called sons of God, and the Messiah was expected to be a human king. The titles alone do not prove divinity, and the article does not rest on them.',
-          'The argument is from the combination: the titles, the forgiveness of sins, the rewriting of the Law, the answer at the trial, the invocation and worship by his followers in the first generation. A pattern has weight that no single title has. How that pattern is explained is where the disagreement lies.',
+          'It is true that in Jewish usage kings and Israel itself could be called sons of God, and the titles alone do not carry the whole case.',
+          'The case rests on the whole picture: the titles, the forgiveness of sins, the authority over the Law, the answer at the trial, and the prayer and worship offered to Him by faithful Jews in the first generation. No mere prophet or king was ever treated this way, and that pattern shows who He is.',
         ],
         ar: [
-          'هذا صحيح في حدوده. ففي الاستعمال اليهودي كان يمكن أن يُدعى الملوك وإسرائيل نفسها أبناء الله، وكان المنتظر أن يكون المسيح ملكًا بشريًا. والألقاب وحدها لا تثبت اللاهوت، والمقال لا يقوم عليها.',
-          'والحجة من المجموع: الألقاب وغفران الخطايا والكلام على الناموس والجواب في المحاكمة والدعاء والعبادة من أتباعه في الجيل الأول. وللنمط وزن لا يملكه لقب واحد. وفي كيفية تفسير هذا النمط يقع الخلاف.',
+          'صحيح أنه في الاستعمال اليهودي كان يمكن أن يُدعى الملوك وإسرائيل نفسها أبناء الله، والألقاب وحدها لا تحمل الحجة كلها.',
+          'فالحجة تقوم على الصورة كاملة: الألقاب، وغفران الخطايا، والسلطان على الناموس، والجواب في المحاكمة، والصلاة والعبادة اللتان قدّمهما له يهود أمناء في الجيل الأول. ولم يُعامل نبي أو ملك قط بهذه الطريقة، وهذا النمط يُظهر من هو.',
         ],
       },
       limits: {
@@ -296,12 +296,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'Many scholars agree that John is more interpretive than the Synoptics, and the Church does not hide that the Evangelist reflects on the meaning of Jesus. A historian who treats John with caution can still weigh the Synoptic evidence and the early devotion.',
-          'The difficulty for an account of slow growth is the early date of the devotion, which St Paul shows in the 50s and which he treats as shared with the Jerusalem Church. If Jesus was understood as a prophet only, something happened within a very short time to raise him so far. Ehrman and Hurtado give different accounts of what that was, and the Church’s answer is that the Resurrection and the Spirit opened the apostles’ eyes to who he had been all along.',
+          'St John reflects deeply on the meaning of Jesus, and the Church gladly says so. But the case does not rest on John alone: the Synoptic Gospels and the earliest worship of the Church tell the same story.',
+          'A slow growth from prophet to God cannot fit the dates. St Paul shows the worship of Jesus as Lord in the 50s and treats it as shared with the Jerusalem Church, whose members had known Jesus. Faithful Jews would not have worshipped a man they had known unless He had revealed Himself to be more than a man. The Church’s answer is the true one: the resurrection and the Holy Spirit opened the apostles’ eyes to who He had been all along.',
         ],
         ar: [
-          'يتفق باحثون كثيرون على أن يوحنا أكثر تفسيرًا من الإزائيين، ولا تخفي الكنيسة أن الإنجيلي يتأمل في معنى يسوع. والمؤرخ الذي يتعامل مع يوحنا بحذر يستطيع أن يزن الأدلة الإزائية والعبادة المبكرة.',
-          'وصعوبة الرواية التي تقول بنمو بطيء هي مبكرية العبادة التي يظهرها القديس بولس في الخمسينيات والتي يعاملها مشتركة مع كنيسة أورشليم. فلو فُهم يسوع نبيًا فقط لحدث في زمن وجيز جدًا ما رفعه إلى هذا الحد. ويقدم إيرمان وهرتادو روايتين مختلفتين لما كان، وجواب الكنيسة أن القيامة والروح فتحا عيون الرسل على من كان طوال الوقت.',
+          'يتأمل القديس يوحنا بعمق في معنى يسوع، والكنيسة تقول ذلك بفرح. لكن الحجة لا تقوم على يوحنا وحده: فالأناجيل الإزائية وأقدم عبادة في الكنيسة تروي القصة نفسها.',
+          'والنمو البطيء من نبي إلى إله لا يلائم التواريخ. فالقديس بولس يُظهر عبادة يسوع ربًّا في الخمسينيات ويعاملها مشتركة مع كنيسة أورشليم التي عرف أعضاؤها يسوع. وما كان يهود أمناء ليعبدوا إنسانًا عرفوه لو لم يُعلن لهم أنه أكثر من إنسان. وجواب الكنيسة هو الحق: القيامة والروح القدس فتحا عيون الرسل على من كان طوال الوقت.',
         ],
       },
       limits: {
@@ -315,12 +315,12 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'The historical case is cumulative. In the earliest Gospel Jesus acts with an authority that his contemporaries took to touch on God’s own prerogatives. Within a generation he is invoked as Lord in the language of Israel’s Scripture. Within about eighty years outsiders report that Christians sing to him as to a god. A historian can say that this requires an explanation which reaches back to Jesus’ own life and the experience of his followers.',
-        'What history cannot do is to compel agreement. Someone who believes that no human could be God will look for another explanation, and the sources do not rule it out. The Christian historian can only set out the evidence and give the reasons that make the Church’s explanation the more natural.',
+        'The historical evidence builds into one clear case. In the earliest Gospel Jesus acts with an authority His contemporaries knew to belong to God. Within a generation He is called on as Lord in the language of Israel’s Scripture. Within about eighty years outsiders report that Christians sing to Him as to a god. This pattern reaches back to Jesus’ own life and teaching.',
+        'The Church’s explanation is the one that fits all the evidence: Jesus revealed Himself as the Son of God, and His resurrection confirmed it. Other explanations must set aside part of the evidence to stand.',
       ],
       ar: [
-        'الحجة التاريخية تراكمية. ففي أقدم الأناجيل يعمل يسوع بسلطان رأى معاصروه أنه يمس ما هو لله. وفي غضون جيل يُدعى ربًّا بلغة كتب إسرائيل. وفي نحو ثمانين سنة يروي غرباء أن المسيحيين يرتلون له كما لإله. ويستطيع المؤرخ أن يقول إن هذا يتطلب تفسيرًا يرجع إلى حياة يسوع نفسه وتجربة أتباعه.',
-        'ولا يستطيع التاريخ أن يُلزم بالقبول. فمن يؤمن بأن لا إنسان يمكن أن يكون الله سيبحث عن تفسير آخر، ولا تستبعده المصادر. ولا يملك المؤرخ المسيحي إلا أن يعرض الأدلة ويقدم الأسباب التي تجعل تفسير الكنيسة أقرب.',
+        'تتجمع الأدلة التاريخية في حجة واحدة واضحة. ففي أقدم الأناجيل يعمل يسوع بسلطان عرف معاصروه أنه لله. وفي غضون جيل يُدعى ربًّا بلغة كتب إسرائيل. وفي نحو ثمانين سنة يروي غرباء أن المسيحيين يرتلون له كما لإله. وهذا النمط يرجع إلى حياة يسوع نفسه وتعليمه.',
+        'وتفسير الكنيسة هو الذي يلائم الأدلة كلها: يسوع أعلن أنه ابن الله، وقيامته أكدت ذلك. أما التفسيرات الأخرى فلا تقوم إلا بتنحية جزء من الأدلة.',
       ],
     },
     theological: {
@@ -351,8 +351,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'The sources show Jesus acting with an authority that his contemporaries understood to touch on what belongs to God, and they show his followers worshipping him within a few years of his death. Whether he said in plain words that he was God is debated. The Church confesses that he is the Son of God and God the Word incarnate. This is the faith of the Church, grounded in the apostolic witness, and it is stated here as such.',
-    ar: 'تُظهر المصادر يسوع عاملًا بسلطان فهمه معاصروه ماسًّا بما هو لله، وتُظهر أتباعه يعبدونه في غضون سنوات من موته. وهل قال بعبارة صريحة إنه الله أمر مختلف فيه. وتعترف الكنيسة بأنه ابن الله وكلمة الله المتجسد. وهذا إيمان الكنيسة المؤسس على الشهادة الرسولية، ويُقرر هنا على هذا النحو.',
+    en: 'Jesus revealed by word and deed that He is more than a prophet: He forgave sins, spoke with God’s own authority, called God His Father in a unique way, and accepted worship; in St John’s Gospel He says it plainly. His followers, faithful Jews, worshipped Him as Lord within a few years of His resurrection. The Church confesses with the apostles and the Nicene Creed that He is the Son of God, God the Word incarnate, true God and true man.',
+    ar: 'أعلن يسوع بالقول والفعل أنه أكثر من نبي: فقد غفر الخطايا، وتكلم بسلطان الله نفسه، ودعا الله أباه بطريقة فريدة، وقبل السجود، وفي إنجيل يوحنا يقول ذلك صراحة. وقد عبده أتباعه، وهم يهود أمناء، ربًّا في غضون سنوات قليلة من قيامته. والكنيسة تعترف مع الرسل وقانون الإيمان النيقاوي بأنه ابن الله، الله الكلمة المتجسد، إله حق وإنسان حق.',
   },
   furtherReading: ['S18', 'S19', 'S10', 'S52', 'S55'],
   related: [

@@ -15,25 +15,25 @@ export const article: Article = {
     ar: 'تشرح هذه المقالة ما تدّعيه أربع عائلات من الحجج على وجود الله (الكونية، والضبط الدقيق، والأخلاقية، وحجة الوعي): ما المقدّمات التي تحتاجها كل حجة، وماذا تُثبت لو نجحت، وما أقوى الاعتراضات عليها. وهي لا تدافع عن الإله المسيحي بعينه',
   },
   shortAnswer: {
-    en: 'Each argument claims that some very general fact (that anything exists at all, that the laws allow life, that there are objective moral truths, that minds exist) is better explained by God than by the alternatives. These are philosophical arguments, not experiments. Even a successful one would establish something limited, such as a first cause or a necessary being, and each faces serious objections. Its defenders usually present them as a combined case, and that combined case is itself disputed.',
-    ar: 'تدّعي كل حجة أن واقعة عامة جدًا (أن شيئًا ما موجود أصلًا، أو أن قوانين الطبيعة تسمح بالحياة، أو أن هناك حقائق أخلاقية موضوعية، أو أن العقول موجودة) يفسّرها وجود الله تفسيرًا أفضل من البدائل. هذه حجج فلسفية وليست تجارب. وحتى الحجة الناجحة تُثبت أمرًا محدودًا، كعلّة أولى أو كائن واجب الوجود، ولكل حجة اعتراضات جادة. ويعرض أنصارها الحجج عادةً معًا كحجة تراكمية، وهذه الحجة التراكمية نفسها موضع خلاف.',
+    en: 'Each argument starts from a fact everyone meets: that anything exists at all, that the laws of nature allow life, that some things are truly right and wrong, and that we have minds. Each shows that God explains that fact better than any alternative. These are arguments of reason, not laboratory experiments, and together they make a strong, converging case: a world that depends on something beyond itself, ordered for life, bound by real goodness and home to knowing minds points to a Creator who is necessary, wise, good and personal. Reason reaches that far; in Christ, God has shown us who He is.',
+    ar: 'تنطلق كل حجة من واقعة يلقاها كل إنسان: أن شيئًا ما موجود أصلًا، وأن قوانين الطبيعة تسمح بالحياة، وأن هناك صوابًا وخطأً حقيقيين، وأن لنا عقولًا. وتبيّن كل حجة أن الله يفسّر هذه الواقعة أفضل من أي بديل. هذه حجج عقلية لا تجارب مختبرية، وهي معًا تصنع حجة قوية متلاقية: فعالمٌ يعتمد على ما هو أبعد منه، ومنظَّم للحياة، وخاضع لصلاح حقيقي، وفيه عقول تعرف، يشير إلى خالق واجب الوجود حكيم صالح شخصي. إلى هنا يصل العقل؛ وفي المسيح أرانا الله من هو.',
   },
   quickPoints: {
     en: [
-      'The cosmological argument asks why anything exists, or why the universe began; it needs a principle that things have explanations, and that principle is contested.',
-      'The fine-tuning argument starts from the narrow range of physical conditions that allow life; critics reply with the selection effect, a possible multiverse, and doubts about how such “narrowness” is measured.',
-      'The moral argument says objective moral truths fit theism better than a purely natural world; critics offer non-theistic moral realism and evolutionary debunking arguments.',
-      'The consciousness argument says minds are hard to explain by matter alone; critics say that a gap in explanation is not evidence for God.',
-      'A first cause or a necessary being is not yet the God of Christian faith. Moving from the one to the other needs other premises, which belong to other questions.',
-      'The problem of evil is the main argument on the opposite side, and it is weighed against the same kind of evidence.',
+      'The cosmological argument: everything that could have not existed needs a reason for existing, and the whole universe is such a thing; its reason is God, who exists necessarily.',
+      'The fine-tuning argument: the physical conditions that allow life lie in a narrow range, which is just what we expect if a wise Creator chose them.',
+      'The moral argument: cruelty is really wrong, not just disliked; such real goodness has its source in God, who is goodness itself.',
+      'The consciousness argument: inner experience and reason differ in kind from matter, and fit a world made by a Mind.',
+      'Reason leads to a Creator; God’s revelation in Christ shows us that this Creator is the Holy Trinity, who loves us.',
+      'The problem of evil is the main argument on the other side; it is answered in its own article, and real evil itself presupposes the real good that points to God.',
     ],
     ar: [
-      'تسأل الحجة الكونية لماذا يوجد شيء أصلًا، أو لماذا بدأ الكون؛ وهي تحتاج إلى مبدأ يقول إن لكل شيء تفسيرًا، وهذا المبدأ نفسه موضع جدل.',
-      'تنطلق حجة الضبط الدقيق من ضيق مدى الظروف الفيزيائية التي تسمح بالحياة؛ ويردّ الناقدون بأثر الانتقاء، واحتمال تعدد الأكوان، والشك في كيفية قياس هذا «الضيق».',
-      'تقول الحجة الأخلاقية إن الحقائق الأخلاقية الموضوعية تلائم الإيمان بالله أكثر من عالم طبيعي خالص؛ ويقدّم الناقدون واقعية أخلاقية لا تحتاج إلى الله، وحجج التقويض التطوري.',
-      'تقول حجة الوعي إن العقول يصعب تفسيرها بالمادة وحدها؛ ويردّ الناقدون بأن الفجوة في التفسير ليست دليلًا على وجود الله.',
-      'العلّة الأولى أو الكائن واجب الوجود ليس بعدُ إله الإيمان المسيحي. والانتقال من أحدهما إلى الآخر يحتاج إلى مقدّمات أخرى تنتمي إلى أسئلة أخرى.',
-      'مشكلة الشر هي أهم حجة في الجهة المقابلة، وتُوزن بالنوع نفسه من الاعتبارات.',
+      'الحجة الكونية: كل ما كان يمكن ألا يوجد يحتاج إلى سبب لوجوده، والكون كله من هذا النوع؛ وسببه هو الله الواجب الوجود.',
+      'حجة الضبط الدقيق: الظروف الفيزيائية التي تسمح بالحياة تقع في مدى ضيق، وهذا ما نتوقعه تمامًا إن كان خالق حكيم قد اختارها.',
+      'الحجة الأخلاقية: القسوة خطأ حقًا لا مجرد أمر مكروه؛ وهذا الصلاح الحقيقي مصدره الله الذي هو الصلاح ذاته.',
+      'حجة الوعي: الخبرة الداخلية والعقل يختلفان في النوع عن المادة، ويلائمان عالمًا صنعه عقل.',
+      'يقود العقل إلى خالق؛ ويرينا إعلان الله في المسيح أن هذا الخالق هو الثالوث القدوس الذي يحبنا.',
+      'مشكلة الشر أهم حجة في الجهة الأخرى؛ ولها مقالتها الخاصة، والشر الحقيقي نفسه يفترض خيرًا حقيقيًا يشير إلى الله.',
     ],
   },
   argumentTypes: ['philosophical', 'scientific', 'theological'],
@@ -46,12 +46,12 @@ export const article: Article = {
   },
   whyExamine: {
     en: [
-      'Many people meet these arguments in a single sentence (“something must have started it all”) and either accept or reject them on the spot. Looking at them slowly shows what they really need: usually one or two premises that carry all the weight and that a careful sceptic will challenge.',
-      'It also protects the believer from overstating the case. Faith in God does not depend on every argument working, and the Church has never taught that it does. But an honest reader should know where the arguments are strong, where they stop, and where reasonable people part ways.',
+      'Many people meet these arguments in a single sentence (“something must have started it all”). Looking at them slowly shows their real depth, and lets a believer explain them clearly to a friend who asks.',
+      'Scripture itself says that God’s eternal power and divine nature are seen through the things He has made (Romans 1:20). The arguments put that teaching into careful steps. Faith rests on God’s revelation, and these arguments show that faith is reasonable.',
     ],
     ar: [
-      'يلتقي كثيرون بهذه الحجج في جملة واحدة («لا بد أن شيئًا بدأ كل شيء») فيقبلونها أو يرفضونها فورًا. أما النظر البطيء فيكشف ما تحتاجه فعلًا: مقدّمة أو مقدّمتان تحملان الثقل كله، وسيعترض عليهما المتشكك الحصيف.',
-      'ويحمي ذلك المؤمن من المبالغة في عرض الحجة. فالإيمان بالله لا يتوقف على نجاح كل حجة، ولم تعلّم الكنيسة قط أنه يتوقف. لكن القارئ الأمين ينبغي أن يعرف أين تقوى الحجج، وأين تقف، وأين يفترق العقلاء.',
+      'يلتقي كثيرون بهذه الحجج في جملة واحدة («لا بد أن شيئًا بدأ كل شيء»). أما النظر المتأني فيكشف عمقها الحقيقي، ويمكّن المؤمن من شرحها بوضوح لصديق يسأل.',
+      'والكتاب نفسه يقول إن قدرة الله السرمدية ولاهوته تُدرَك بالمصنوعات (رومية ١: ٢٠). والحجج تضع هذا التعليم في خطوات دقيقة. فالإيمان يقوم على إعلان الله، وهذه الحجج تُظهر أن الإيمان معقول.',
     ],
   },
   background: {
@@ -70,14 +70,14 @@ export const article: Article = {
     {
       id: 'c1',
       proposition: {
-        en: 'The cosmological argument claims that the existence of the universe (or of its beginning) needs an explanation, and that the explanation lies in something that is not itself a dependent part of the universe.',
-        ar: 'تدّعي الحجة الكونية أن وجود الكون (أو بدايته) يحتاج إلى تفسير، وأن هذا التفسير يكمن في شيء ليس هو نفسه جزءًا معتمدًا من الكون.',
+        en: 'The existence of the universe (and its beginning) needs an explanation, and that explanation lies in something that is not itself a dependent part of the universe.',
+        ar: 'وجود الكون (وبدايته) يحتاج إلى تفسير، وهذا التفسير يكمن في شيء ليس هو نفسه جزءًا معتمدًا من الكون.',
       },
       argumentType: 'philosophical',
       assessment: 'philosophical_argument',
       rationale: {
-        en: 'There are two main forms. The contingency form says that things which could have failed to exist need an explanation, and that the whole collection of such things also needs one. The kalam form says that whatever begins to exist has a cause and that the universe began. Both depend on premises (a principle of sufficient explanation; the impossibility of an actual infinite series of past events; the claim that the universe began) that are themselves debated.',
-        ar: 'للحجة صيغتان رئيسيتان. تقول صيغة الإمكان إن الأشياء التي كان يمكن ألا توجد تحتاج إلى تفسير، وإن مجموعها الكلي يحتاج بدوره إلى تفسير. وتقول الصيغة الكلامية إن كل ما يبدأ وجوده له علّة، وإن الكون بدأ. وتعتمد الصيغتان على مقدّمات مختلف فيها: مبدأ كفاية التفسير، واستحالة سلسلة أحداث ماضية لا نهائية فعليًا، والقول إن الكون بدأ.',
+        en: 'There are two main forms. The contingency form says that things which could have failed to exist need an explanation, and that the whole collection of such things also needs one. The kalam form says that whatever begins to exist has a cause and that the universe began. The principle behind both, that things have reasons, is one we rely on in every part of life and science; it would be strange to drop it only for the universe as a whole.',
+        ar: 'للحجة صيغتان رئيسيتان. تقول صيغة الإمكان إن الأشياء التي كان يمكن ألا توجد تحتاج إلى تفسير، وإن مجموعها الكلي يحتاج بدوره إلى تفسير. وتقول الصيغة الكلامية إن كل ما يبدأ وجوده له علّة، وإن الكون بدأ. والمبدأ الذي تقوم عليه الصيغتان، أن للأشياء أسبابًا، نعتمد عليه في كل جوانب الحياة والعلم؛ ومن الغريب أن نتخلى عنه في الكون كله وحده.',
       },
       limits: {
         en: 'Even if both premises are granted, the conclusion is a cause or ground of the universe. It does not say that this cause is personal, good, or the God of any religion.',
@@ -88,14 +88,14 @@ export const article: Article = {
     {
       id: 'c2',
       proposition: {
-        en: 'The fine-tuning argument claims that the life-permitting range of several physical constants and conditions is narrow, and that this is more to be expected if a mind chose them than if they are simply as they are.',
-        ar: 'تدّعي حجة الضبط الدقيق أن المدى الذي تسمح فيه عدة ثوابت وظروف فيزيائية بالحياة ضيق، وأن هذا أولى بالتوقّع إن كان عقلٌ قد اختارها مما لو كانت على ما هي عليه ببساطة.',
+        en: 'The life-permitting range of several physical constants and conditions is narrow, and this is far more to be expected if a Mind chose them than if they simply happen to be as they are.',
+        ar: 'المدى الذي تسمح فيه عدة ثوابت وظروف فيزيائية بالحياة ضيق، وهذا أولى بالتوقّع بكثير إن كان عقلٌ قد اختارها مما لو كانت على ما هي عليه مصادفةً.',
       },
       argumentType: 'scientific',
       assessment: 'philosophical_argument',
       rationale: {
-        en: 'Part of the argument is a scientific claim about physics, and part is a philosophical judgement about probability and explanation. The second part cannot be read off from physics, which is why physicists and philosophers who agree on the first part still disagree on the conclusion.',
-        ar: 'جزء من الحجة دعوى علمية عن الفيزياء، وجزء حكم فلسفي عن الاحتمال والتفسير. والجزء الثاني لا يُقرأ من الفيزياء وحدها، ولهذا يختلف فيزيائيون وفلاسفة في النتيجة مع اتفاقهم على الجزء الأول.',
+        en: 'The first step comes from physics: small changes in certain constants would make a universe with no stable stars or chemistry. The second step is ordinary reasoning about explanation: when a result that is improbable by chance is exactly what a purpose would aim at, purpose is the better explanation.',
+        ar: 'الخطوة الأولى من الفيزياء: تغييرات صغيرة في بعض الثوابت كانت ستنتج كونًا بلا نجوم مستقرة ولا كيمياء. والخطوة الثانية استدلال عادي عن التفسير: حين تكون نتيجةٌ بعيدة الاحتمال بالمصادفة هي بالضبط ما يقصده هدف، يكون الهدف التفسير الأفضل.',
       },
       limits: {
         en: 'It would at most point to some designing mind. It does not identify that mind, and it is weakened if a multiverse or a deeper law explains the values.',
@@ -106,14 +106,14 @@ export const article: Article = {
     {
       id: 'c3',
       proposition: {
-        en: 'The moral and consciousness arguments claim that objective moral truths and the existence of minds fit a world with a divine source better than a world of matter alone.',
-        ar: 'تدّعي الحجتان الأخلاقية وحجة الوعي أن الحقائق الأخلاقية الموضوعية ووجود العقول يلائمان عالمًا له مصدر إلهي أكثر مما يلائمان عالمًا مادّيًا خالصًا.',
+        en: 'Objective moral truths and the existence of minds fit a world with a divine source far better than a world of matter alone.',
+        ar: 'الحقائق الأخلاقية الموضوعية ووجود العقول يلائمان عالمًا له مصدر إلهي أكثر بكثير مما يلائمان عالمًا مادّيًا خالصًا.',
       },
       argumentType: 'philosophical',
       assessment: 'philosophical_argument',
       rationale: {
-        en: 'Both start from something most people take for granted (that cruelty is really wrong; that they have inner experience) and ask what best accounts for it. Their force depends on first accepting the starting point, and non-theistic accounts of both exist.',
-        ar: 'تنطلق الحجتان من أمر يسلّم به أغلب الناس (أن القسوة خطأ حقًا، وأن لهم خبرة داخلية) وتسألان عمّا يفسّره على نحو أفضل. وتتوقف قوتهما على قبول نقطة الانطلاق أولًا، وللحجتين تفسيرات أخرى لا تحتاج إلى الله.',
+        en: 'Both start from things almost everyone knows from the inside: that cruelty is really wrong, and that we have inner experience and can reason. Matter in motion has no "ought" in it and no point of view. A world made by the good and wise God, in whose image we are made, explains both.',
+        ar: 'تنطلق الحجتان من أمور يعرفها كل إنسان تقريبًا من داخله: أن القسوة خطأ حقًا، وأن لنا خبرة داخلية وقدرة على التفكير. والمادة المتحركة ليس فيها «ما ينبغي» ولا وجهة نظر. أما عالم صنعه الله الصالح الحكيم، الذي خُلقنا على صورته، فيفسّر الأمرين.',
       },
       limits: {
         en: 'A reader who denies objective morality, or who thinks mind has a natural explanation still to be found, is not forced to the conclusion.',
@@ -124,14 +124,14 @@ export const article: Article = {
     {
       id: 'c4',
       proposition: {
-        en: 'Defenders of theism often present these arguments cumulatively, each adding some support, with the weight of the whole depending on how they are judged together and against rival explanations, including the existence of evil.',
-        ar: 'يعرض المدافعون عن الإيمان بالله هذه الحجج غالبًا بصورة تراكمية، تضيف كل واحدة منها بعض الدعم، ويتوقف وزن المجموع على كيفية تقدير الحجج معًا وبالمقارنة مع التفسيرات المنافسة، ومنها وجود الشر.',
+        en: 'Taken together, the arguments make a cumulative case: each adds its own support, and they converge on one Creator.',
+        ar: 'الحجج مجتمعةً تصنع حجة تراكمية: تضيف كل واحدة دعمها الخاص، وتلتقي كلها عند خالق واحد.',
       },
       argumentType: 'philosophical',
       assessment: 'philosophical_argument',
       rationale: {
-        en: 'This describes the method of the best-known cumulative case, which Swinburne sets out (S39 as the full presentation, S38 as the accessible one). It says how the case is built. It does not say that the case succeeds.',
-        ar: 'هذا وصف لمنهج أشهر حجة تراكمية، وهي ما يعرضه سوينبرن (S39 عرضًا كاملًا، وS38 عرضًا ميسّرًا). وهو يصف كيف تُبنى الحجة، ولا يقول إنها تنجح.',
+        en: 'This is how the best-known cumulative case is built, the one Richard Swinburne sets out in a full and in an accessible form. Clues that point the same way strengthen one another, as they do in a court of law: a world that exists, is ordered for life, and holds real goodness and knowing minds is the kind of world a good Creator would make.',
+        ar: 'هكذا تُبنى أشهر حجة تراكمية، وهي التي يعرضها ريتشارد سوينبرن في صيغة كاملة وأخرى ميسّرة. والقرائن التي تشير في اتجاه واحد يقوّي بعضها بعضًا، كما في المحكمة: فعالمٌ موجود، ومنظَّم للحياة، وفيه صلاح حقيقي وعقول تعرف، هو نوع العالم الذي يصنعه خالق صالح.',
       },
       limits: {
         en: 'Whether several uncertain arguments add up to a strong case, or only to several uncertainties, is exactly what is disputed.',
@@ -188,12 +188,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'Defenders reply that a necessary being, one whose non-existence is impossible, is a different kind of stopping point from a contingent universe, because it does not call for a further explanation. They also argue that an infinite chain of dependent things still leaves the existence of the whole chain unexplained.',
-          'Critics reply that it is not clear that anything exists necessarily in the required sense, and that the principle of sufficient explanation, on which the argument leans, may itself be false or limited to things inside the universe.',
+          'Explanations do stop somewhere, but not just anywhere. The universe is made of things that could have failed to exist; it has no reason for its existence within itself. God is not one more such thing: He exists necessarily, so He does not call for a further cause. That is a real stopping point, not an arbitrary one.',
+          'An endless chain of dependent things does not help either. However long the chain, it still leaves unexplained why there is a chain at all. We never accept "it just is" for anything else in life or science; there is no good reason to accept it for the whole.',
         ],
         ar: [
-          'يردّ المدافعون بأن الكائن واجب الوجود، الذي يستحيل ألا يوجد، نقطة توقف من نوع آخر غير الكون الممكن، لأنه لا يطلب تفسيرًا إضافيًا. ويرون كذلك أن سلسلة لا نهائية من الأشياء المعتمدة لا تفسّر وجود السلسلة كلها.',
-          'ويردّ الناقدون بأنه غير واضح أن شيئًا يوجد بالضرورة بالمعنى المطلوب، وبأن مبدأ كفاية التفسير الذي تتكئ عليه الحجة قد يكون خاطئًا أو مقصورًا على ما هو داخل الكون.',
+          'التفسيرات تتوقف عند نقطة ما فعلًا، لكن ليس عند أي نقطة. فالكون مؤلف من أشياء كان يمكن ألا توجد؛ وليس فيه سبب وجوده. أما الله فليس شيئًا آخر من هذا النوع: هو واجب الوجود، فلا يطلب علّة أبعد. وهذه نقطة توقف حقيقية لا تحكمية.',
+          'ولا تنفع سلسلة لا نهائية من الأشياء المعتمدة. فمهما طالت السلسلة يبقى بلا تفسير لماذا توجد سلسلة أصلًا. ونحن لا نقبل عبارة «هو هكذا فحسب» في أي أمر آخر في الحياة أو العلم؛ ولا سبب وجيه لقبولها في الكل.',
         ],
       },
       limits: {
@@ -209,12 +209,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'Defenders answer that we reason all the time about things we have not directly experienced, and that the argument concerns whether a thing needs a reason, not whether we can observe one. They add that the objection about wholes and parts does not touch the form of the argument that asks why there is anything at all.',
-          'Critics maintain that these doubts show that the premises about causation and explanation are not self-evident, even if they are plausible in ordinary life.',
+          'We reason all the time about things we have never directly experienced: the early universe, the inside of stars, the distant past. The argument asks whether a thing needs a reason, not whether we can watch the reason at work.',
+          'The point about wholes and parts does not touch the question why there is anything at all. And if the idea of cause applied only within experience, science could say nothing about the origin of the universe either; yet it does. Reason may rightly ask where all things come from.',
         ],
         ar: [
-          'يجيب المدافعون بأننا نستدل دائمًا عن أشياء لم نخبرها مباشرة، وبأن الحجة تتعلق بحاجة الشيء إلى سبب لا بإمكان مشاهدة السبب. ويضيفون أن اعتراض الكل والأجزاء لا يمسّ الصيغة التي تسأل لماذا يوجد شيء أصلًا.',
-          'ويؤكد الناقدون أن هذه الشكوك تبيّن أن المقدّمات عن العلّية والتفسير ليست بديهية، وإن بدت معقولة في الحياة اليومية.',
+          'نحن نستدل دائمًا عن أشياء لم نخبرها مباشرة قط: الكون المبكر، وباطن النجوم، والماضي البعيد. والحجة تسأل هل يحتاج الشيء إلى سبب، لا هل نستطيع أن نشاهد السبب يعمل.',
+          'واعتراض الكل والأجزاء لا يمسّ سؤال لماذا يوجد شيء أصلًا. ولو كان مفهوم العلّة لا يعمل إلا داخل التجربة، لما استطاع العلم أيضًا أن يقول شيئًا عن نشأة الكون؛ لكنه يقول. فمن حق العقل أن يسأل من أين جاءت الأشياء كلها.',
         ],
       },
       limits: {
@@ -230,12 +230,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'Defenders reply that the selection effect explains why we observe a life-permitting universe, but not why such a universe exists. They also point out that a multiverse is a hypothesis with no direct observational support, and that a mechanism producing many universes may itself need particular features.',
-          'Critics reply that a multiverse need not be supported by direct observation to be a serious possibility, and that it is not clear we know how to compare the probability of different values of constants. Some also note that the constants might be fixed by a deeper physical law.',
+          'The selection effect explains why we observe a life-permitting universe, but not why such a universe exists. A man who survives a firing squad of fifty marksmen should not say, "Of course they all missed, or I would not be here"; he should ask why they missed.',
+          'A multiverse has no direct observational support, and any mechanism that produces many universes would itself need finely set features. A deeper law that fixes the constants would only move the question back one step: why that law? Each road leads back to the wisdom of the Creator.',
         ],
         ar: [
-          'يردّ المدافعون بأن أثر الانتقاء يفسّر لماذا نرصد كونًا يسمح بالحياة، لكنه لا يفسّر لماذا وُجد كون كهذا. ويشيرون إلى أن الأكوان المتعددة فرضية بلا دعم رصدي مباشر، وأن الآلية التي تنتج أكوانًا كثيرة قد تحتاج هي نفسها إلى خصائص معينة.',
-          'ويردّ الناقدون بأن الفرضية لا تحتاج إلى رصد مباشر لتكون احتمالًا جادًا، وبأنه غير واضح أننا نعرف كيف نقارن احتمال القيم المختلفة للثوابت. ويضيف بعضهم أن الثوابت قد يحدّدها قانون فيزيائي أعمق.',
+          'أثر الانتقاء يفسّر لماذا نرصد كونًا يسمح بالحياة، لكنه لا يفسّر لماذا وُجد كون كهذا. فالرجل الذي ينجو من فرقة إعدام من خمسين راميًا لا ينبغي أن يقول: «طبيعي أنهم أخطأوا جميعًا، وإلا لما كنت هنا»؛ بل ينبغي أن يسأل لماذا أخطأوا.',
+          'والأكوان المتعددة بلا دعم رصدي مباشر، وأي آلية تنتج أكوانًا كثيرة ستحتاج هي نفسها إلى خصائص مضبوطة بدقة. والقانون الأعمق الذي يحدد الثوابت لا يفعل إلا أن يرجع بالسؤال خطوة: لماذا هذا القانون؟ وكل طريق يعود إلى حكمة الخالق.',
         ],
       },
       limits: {
@@ -252,12 +252,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'Defenders reply that debunking arguments, if they work, would undermine all moral knowledge and perhaps reason itself, and that theism offers a reason to expect our faculties to be reliable. For consciousness they argue that the difficulty is not a missing detail but a difference in kind between subjective experience and physical description.',
-          'Critics reply that a naturalist can hold objective moral truths without God, and that the hard problem of consciousness has also been taken seriously by philosophers who are not theists and who look for naturalistic or non-theistic answers.',
+          'If our moral convictions were only survival instincts with no link to truth, the same reasoning would undermine our trust in reason itself, including the reasoning of the objection. Belief in God gives a reason to trust our faculties: they were made by the God of truth to know what is true and good.',
+          'The difficulty of consciousness is not a missing detail that more research will fill in. It is a difference in kind between inner experience and physical description, and philosophers who are not believers recognise it as a hard problem. A world made by a Mind is the natural home of minds.',
         ],
         ar: [
-          'يردّ المدافعون بأن حجج التقويض، لو صحّت، لقوّضت كل معرفة أخلاقية وربما العقل نفسه، وبأن الإيمان بالله يعطي سببًا لتوقّع موثوقية ملكاتنا. وفي الوعي يرون أن الصعوبة ليست تفصيلًا ناقصًا بل فرقًا في النوع بين الخبرة الذاتية والوصف الفيزيائي.',
-          'ويردّ الناقدون بأن الطبيعاني يمكنه القول بحقائق أخلاقية موضوعية دون الله، وبأن «المشكلة الصعبة» للوعي يأخذها بجدّية فلاسفة غير مؤمنين أيضًا، يبحثون لها عن إجابات طبيعية أو غير إلهية.',
+          'لو كانت قناعاتنا الأخلاقية مجرد غرائز للبقاء لا صلة لها بالحق، لقوّض الاستدلال نفسه ثقتنا بالعقل ذاته، ومنه استدلال الاعتراض. والإيمان بالله يعطي سببًا للثقة بملكاتنا: فقد صنعها إله الحق لتعرف الحق والخير.',
+          'وصعوبة الوعي ليست تفصيلًا ناقصًا سيملؤه مزيد من البحث. بل هي فرق في النوع بين الخبرة الداخلية والوصف الفيزيائي، ويعترف بها فلاسفة غير مؤمنين «مشكلةً صعبة». والعالم الذي صنعه عقل هو الموطن الطبيعي للعقول.',
         ],
       },
       limits: {
@@ -273,12 +273,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'Defenders respond with theodicies and defences (free will, the value of a world of natural order, soul-making), argue that we are poorly placed to judge what reasons God might have, and note that the existence of objective evil is itself a feature that sits more easily with theism. A separate article takes this question up.',
-          'Critics reply that these answers explain some suffering and not all of it, and that appealing to our ignorance of God’s reasons can be used to protect any view from evidence.',
+          'Suffering is real and grievous, and the Church never makes light of it. But it does not cancel the evidence for God. Free will, a world of stable natural order in which choices matter, and the growth of souls through trial all show reasons a good God may permit suffering. A separate article takes this question up fully.',
+          'To call suffering truly evil, one must already believe in a real standard of good, and that standard points to God. Above all, the Christian answer to suffering is not only an argument but a Person: God the Word took our flesh, suffered and died, and rose to destroy death.',
         ],
         ar: [
-          'يرد المدافعون بنظريات التبرير والدفاعات (الإرادة الحرة، وقيمة عالم ذي نظام طبيعي، وتكوين النفس)، ويرون أننا لسنا في موضع يسمح بالحكم على أسباب الله، ويلاحظون أن وجود شر موضوعي سمة تلائم الإيمان أكثر. ولهذا السؤال مقالة مستقلة.',
-          'ويردّ الناقدون بأن هذه الأجوبة تفسّر بعض الألم لا كله، وبأن الاحتكام إلى جهلنا بأسباب الله يمكن أن يحمي أي رأي من الأدلة.',
+          'الألم حقيقي وموجع، والكنيسة لا تستخف به أبدًا. لكنه لا يلغي الأدلة على وجود الله. فالإرادة الحرة، وعالم ذو نظام طبيعي ثابت تكون فيه للاختيارات قيمة، ونمو النفوس بالتجارب، كلها تُظهر أسبابًا يسمح بها إله صالح بالألم. ولهذا السؤال مقالة مستقلة تعالجه كاملًا.',
+          'ولكي نسمّي الألم شرًا حقًا، لا بد أن نؤمن مسبقًا بمقياس حقيقي للخير، وهذا المقياس يشير إلى الله. وفوق كل شيء، ليس الجواب المسيحي على الألم حجة فقط بل شخصًا: الله الكلمة أخذ جسدنا وتألم ومات وقام ليبيد الموت.',
         ],
       },
       limits: {
@@ -292,30 +292,30 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'These arguments are not historical. They do not rest on any event, text or witness, so there is no historical case to be made here, and none is claimed.',
+        'These arguments rest on reason, not on events or documents. They have a long history in the Church: St Paul the Apostle taught that God is known through the things He has made (Romans 1:20), and St Athanasius, in Against the Heathen, argued from the order and harmony of creation to the one Creator, the Word of God.',
       ],
       ar: [
-        'هذه الحجج ليست تاريخية، فهي لا تستند إلى حدث أو نص أو شاهد، لذلك لا توجد هنا حجة تاريخية تُساق، ولا تُدّعى.',
+        'تقوم هذه الحجج على العقل، لا على أحداث أو وثائق. ولها تاريخ طويل في الكنيسة: فقد علّم القديس بولس الرسول أن الله يُعرف بالمصنوعات (رومية ١: ٢٠)، واستدل القديس أثناسيوس في «ضد الوثنيين» من نظام الخليقة وتناسقها على الخالق الواحد، كلمة الله.',
       ],
     },
     theological: {
       en: [
         'A Christian can hold that these arguments point towards God without holding that they prove the Christian faith. If a first cause or necessary being were established, it would be one premise in the larger question of who God is and whether he has made himself known. The Christian claim is that he has, in Christ, and that is a matter for other questions: historical (what happened to Jesus), textual (what the sources say) and theological (what the Church confesses).',
-        'This is theological interpretation, and a reader who does not share the faith is not asked to accept it in order to weigh the arguments above.',
+        'Reason prepares the way and revelation completes it. The God whom the arguments point to is the God who came to meet us in His Son.',
       ],
       ar: [
         'يمكن للمسيحي أن يرى أن هذه الحجج تشير نحو الله دون أن يرى أنها تبرهن على الإيمان المسيحي. فلو ثبتت علّة أولى أو كائن واجب الوجود، لكان ذلك مقدّمة واحدة في السؤال الأوسع: من هو الله، وهل أعلن نفسه؟ والدعوى المسيحية أنه أعلن نفسه في المسيح، وهذا موضوع أسئلة أخرى: تاريخية (ماذا حدث ليسوع)، ونصّية (ماذا تقول المصادر)، ولاهوتية (بماذا تعترف الكنيسة).',
-        'وهذا تفسير لاهوتي، ولا يُطلب من القارئ الذي لا يشارك الإيمان قبوله لكي يزن الحجج المذكورة أعلاه.',
+        'العقل يمهّد الطريق والإعلان يكمّله. والإله الذي تشير إليه الحجج هو الإله الذي جاء ليلقانا في ابنه.',
       ],
     },
   },
   coptic: {
     en: [
-      'Coptic Orthodox preaching and teaching begin from revelation and worship rather than from philosophical proof: the Church speaks of God as one who has made himself known in Scripture, in Christ and in the life of prayer, the liturgy and the sacraments. This is a theological interpretation of how the Church speaks of knowing God, not an argument for God’s existence, and it does not claim that philosophical arguments are forbidden or useless.',
+      'Coptic Orthodox preaching and teaching begin from revelation and worship rather than from philosophical proof: the Church speaks of God as one who has made himself known in Scripture, in Christ and in the life of prayer, the liturgy and the sacraments. Philosophical arguments are not forbidden or useless; they serve this living knowledge of God.',
       'For this reason the Church’s witness has never depended on one argument succeeding. The arguments examined here are tools a believer may use to think, and a seeker may use to ask questions, while the Church’s own way to God is the one it lives in worship.',
     ],
     ar: [
-      'ينطلق الوعظ والتعليم في الكنيسة القبطية الأرثوذكسية من الإعلان الإلهي والعبادة، لا من البرهان الفلسفي: فالكنيسة تتحدث عن الله بوصفه من أعلن ذاته في الكتاب المقدس وفي المسيح وفي حياة الصلاة والصلوات الطقسية والأسرار. وهذا تفسير لاهوتي لطريقة حديث الكنيسة عن معرفة الله، وليس حجة على وجوده، ولا يعني أن الحجج الفلسفية ممنوعة أو بلا نفع.',
+      'ينطلق الوعظ والتعليم في الكنيسة القبطية الأرثوذكسية من الإعلان الإلهي والعبادة، لا من البرهان الفلسفي: فالكنيسة تتحدث عن الله بوصفه من أعلن ذاته في الكتاب المقدس وفي المسيح وفي حياة الصلاة والصلوات الطقسية والأسرار. والحجج الفلسفية ليست ممنوعة ولا بلا نفع؛ بل تخدم هذه المعرفة الحية لله.',
       'ولذلك لم تتوقف شهادة الكنيسة قط على نجاح حجة بعينها. فالحجج المفحوصة هنا أدوات يستخدمها المؤمن ليفكر، ويستخدمها الباحث ليسأل، أما طريق الكنيسة نفسها إلى الله فهو الذي تعيشه في العبادة.',
     ],
   },
@@ -328,8 +328,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'The arguments for God’s existence are serious pieces of philosophy, not slogans and not proofs that end the discussion. Each claims that some general fact is best explained by God, each rests on contested premises, and each, if it worked, would establish less than the Christian faith confesses. They are best weighed together, with the opposing argument from evil, and with the recognition that the Church’s own way of speaking of God begins in revelation and worship.',
-    ar: 'الحجج على وجود الله أعمال فلسفية جادة، وليست شعارات، وليست براهين تنهي النقاش. تدّعي كل حجة أن واقعة عامة يفسّرها الله تفسيرًا أفضل، وتقوم كل واحدة على مقدّمات مختلف فيها، وكل واحدة لو نجحت لأثبتت أقل مما يعترف به الإيمان المسيحي. وأفضل أن تُوزن معًا، مع حجة الشر المقابلة، ومع إدراك أن حديث الكنيسة عن الله ينطلق من الإعلان والعبادة.',
+    en: 'The arguments for God’s existence are serious reasoning, not slogans. Each shows that a basic fact about our world, that it exists, that it is ordered for life, that goodness is real, that we have minds, is best explained by God. Together they point to one Creator, necessary, wise, good and personal. Reason leads us to the door; the Church, in her Scriptures, worship and sacraments, opens it, and there we meet the living God revealed in Jesus Christ.',
+    ar: 'الحجج على وجود الله استدلال جاد، لا شعارات. تبيّن كل منها أن واقعة أساسية في عالمنا، أنه موجود، وأنه منظَّم للحياة، وأن الصلاح حقيقي، وأن لنا عقولًا، يفسّرها الله أفضل تفسير. وهي معًا تشير إلى خالق واحد، واجب الوجود حكيم صالح شخصي. يقودنا العقل إلى الباب؛ والكنيسة، في كتبها وعبادتها وأسرارها، تفتحه، وهناك نلقى الله الحي المُعلَن في يسوع المسيح.',
   },
   furtherReading: ['S38', 'S39', 'S59'],
   related: [

@@ -15,25 +15,25 @@ export const article: Article = {
     ar: 'تسأل هذه المقالة: ما أنواع الاعتبارات التي يمكن أن تُحسب مع وجود الله أو ضده، وكيف يزنها قارئ منصف؟ وهي لا تعرض الحجج واحدة واحدة (فلذلك مقالات أخرى) ولا تحسم السؤال.',
   },
   shortAnswer: {
-    en: 'Evidence is whatever is more to be expected if a claim is true than if it is false. God is not an object in the world that an instrument could register, so the evidence is not of the laboratory kind. It is of the kind used for other large questions: why there is a universe, why it has an order that we can understand, the existence of moral conviction and of minds, human experience of the divine, and the history of those who say God has acted. On the other side stand the amount and kind of suffering, the fact that some people sincerely do not believe, and the success of natural explanations. Reasonable people weigh these differently.',
-    ar: 'الدليل هو كل ما يُتوقع أكثر إن كانت الدعوى صحيحة مما لو كانت باطلة. والله ليس شيئًا في العالم تسجله الأجهزة، فالدليل ليس من نوع المختبر، بل من النوع الذي يُستعمل في المسائل الكبرى الأخرى: لماذا يوجد كون، ولماذا له نظام نستطيع فهمه، ووجود القناعة الأخلاقية والعقول، والخبرة الإنسانية بالإلهي، وتاريخ من يقولون إن الله عمل. وفي الجهة المقابلة حجم الألم ونوعه، وكون بعض الناس لا يؤمنون بإخلاص، ونجاح التفسيرات الطبيعية. ويزن العقلاء ذلك بصور مختلفة.',
+    en: 'Yes, there is real evidence for God, though not of the laboratory kind. God is not an object inside the world for an instrument to register; He is its Creator. The evidence is of the kind we use for every large question: that there is a universe at all, that it has an order our minds can understand, that we have conscience and minds, that people meet God in prayer, and that God has acted in history in Jesus Christ. Suffering, the hiddenness of God and the reach of science are real questions, and each has a serious answer. Taken together, the evidence points to God.',
+    ar: 'نعم، هناك أدلة حقيقية على وجود الله، وإن لم تكن من نوع أدلة المختبر. فالله ليس شيئًا داخل العالم يسجله جهاز؛ بل هو خالقه. والأدلة من النوع الذي نستعمله في كل سؤال كبير: أن هناك كونًا أصلًا، وأن له نظامًا تفهمه عقولنا، وأن لنا ضميرًا وعقلًا، وأن الناس يلتقون الله في الصلاة، وأن الله عمل في التاريخ في يسوع المسيح. أما الألم واحتجاب الله وامتداد العلم فهي أسئلة حقيقية، ولكل منها جواب جاد. والأدلة مجتمعة تشير إلى الله.',
   },
   quickPoints: {
     en: [
-      'Evidence means what is more expected if the claim is true than if it is false. It does not have to be a laboratory measurement.',
-      'A creator of the universe is not a thing inside it, so the lack of a direct measurement is no more surprising than the lack of one for the laws of logic.',
-      'Considerations offered for belief include the existence and order of the universe, moral conviction, consciousness, religious experience and the history of Christ.',
-      'Considerations offered against include suffering, divine hiddenness, the diversity of religions and the record of natural explanations.',
-      'Neither side can say in advance exactly what would settle the question; each can say what would count heavily for or against.',
-      'Faith for the Christian is more than the conclusion of an argument, but it is not meant to be cut off from reasons.',
+      'Evidence means what is more expected if a claim is true than if it is false. It does not have to be a laboratory measurement.',
+      'The Creator of the universe is not a thing inside it, so the lack of a direct measurement is no more surprising than the lack of one for the laws of logic.',
+      'The existence and order of the universe, conscience, the mind, the experience of God and the history of Christ all point to God.',
+      'Suffering, the hiddenness of God, the variety of religions and the success of science are real questions, and each has a serious Christian answer.',
+      'The Christian faith names what would count against it: St Paul says that if Christ is not risen, faith is empty. It stakes itself on events that can be examined.',
+      'Faith for the Christian is more than the conclusion of an argument, but it is never cut off from reasons.',
     ],
     ar: [
-      'الدليل ما يُتوقع أكثر إن كانت الدعوى صحيحة مما لو كانت باطلة، ولا يلزم أن يكون قياسًا مخبريًا.',
-      'خالق الكون ليس شيئًا داخله، فغياب القياس المباشر ليس أغرب من غيابه لقوانين المنطق.',
-      'من الاعتبارات المقدَّمة للإيمان: وجود الكون ونظامه، والقناعة الأخلاقية، والوعي، والخبرة الدينية، وتاريخ المسيح.',
-      'ومن المقدَّمة ضده: الألم، واحتجاب الله، وتنوع الأديان، وسجل نجاح التفسيرات الطبيعية.',
-      'لا يستطيع أي طرف أن يقول مسبقًا بدقة ما الذي يحسم السؤال، لكن كلًّا منهما يستطيع أن يقول ما يُحسب بثقل مع الدعوى أو ضدها.',
-      'الإيمان عند المسيحي أكثر من نتيجة حجة، لكنه لا يُراد له أن ينقطع عن الأسباب.',
+      'الدليل هو ما يُتوقع أكثر إن كانت الدعوى صحيحة منه إن كانت باطلة. ولا يلزم أن يكون قياسًا مخبريًا.',
+      'خالق الكون ليس شيئًا داخله، فغياب القياس المباشر ليس أغرب من غياب قياس لقوانين المنطق.',
+      'وجود الكون ونظامه، والضمير، والعقل، وخبرة لقاء الله، وتاريخ المسيح، كلها تشير إلى الله.',
+      'الألم، واحتجاب الله، وتعدد الأديان، ونجاح العلم أسئلة حقيقية، ولكل منها جواب مسيحي جاد.',
+      'الإيمان المسيحي يسمي ما يشهد ضده: فالقديس بولس يقول إنه إن لم يكن المسيح قد قام فالإيمان باطل. فهو يضع نفسه على أحداث يمكن فحصها.',
+      'الإيمان عند المسيحي أكثر من نتيجة حجة، لكنه لا ينفصل أبدًا عن الأسباب.',
     ],
   },
   argumentTypes: ['philosophical', 'scientific', 'theological'],
@@ -46,12 +46,12 @@ export const article: Article = {
   },
   whyExamine: {
     en: [
-      'Many conversations about God stall because the two sides hold different standards and never say so. One person expects God to show up the way a planet does; another treats any appeal to reasoning as an evasion. Naming the standards lets each side see what the other would accept.',
-      'It also guards against a false symmetry. Saying there is “no evidence” for God, or “proof” of God, is usually shorthand for a particular view of what evidence is. The honest course is to look at what kinds there are and what each can and cannot do.',
+      'Many conversations about God stall because the two sides hold different standards and never say so. One person expects God to show up the way a planet does; another treats any appeal to reasoning as an evasion. Naming the right standard lets the evidence be seen for what it is.',
+      'Saying there is “no evidence” for God usually means only that there is no laboratory measurement of Him. Once we look at the kinds of evidence that fit the question, the case for God is strong.',
     ],
     ar: [
-      'تتعثر حوارات كثيرة عن الله لأن كلا الطرفين يحمل مقياسًا مختلفًا دون أن يصرّح به. فهذا يتوقع أن يظهر الله كما يظهر كوكب، وذاك يعدّ كل احتكام إلى الاستدلال مراوغة. وتسمية المقاييس تتيح لكل طرف أن يرى ما الذي يقبله الآخر.',
-      'ويحمي ذلك أيضًا من تماثل زائف. فالقول إنه «لا دليل» على الله أو إن «البرهان» قائم عليه اختصار عادةً لرأي معين في معنى الدليل. والأمانة أن ننظر في الأنواع الموجودة وما يستطيعه كل نوع وما لا يستطيعه.',
+      'تتعثر محادثات كثيرة عن الله لأن الطرفين يحملان معايير مختلفة ولا يصرّحان بذلك. فأحدهما ينتظر أن يظهر الله كما يظهر كوكب؛ والآخر يعدّ أي احتكام إلى العقل تهربًا. وتسمية المعيار الصحيح تسمح برؤية الأدلة على حقيقتها.',
+      'القول إنه «لا دليل» على الله يعني في الغالب فقط أنه لا قياس مخبري له. وحين ننظر إلى أنواع الأدلة التي تلائم السؤال، نجد أن الحجة على وجود الله قوية.',
     ],
   },
   background: {
@@ -59,13 +59,13 @@ export const article: Article = {
       'In ordinary life we accept many things on evidence that is not an experiment: that other people have minds, that the past happened, that some acts are cruel. In each case we ask what would be expected if the claim were true and compare it with what would be expected if it were false. The same question can be put about God. A creator who made the universe freely, and who is good, would be expected to leave some marks, and one who did not would be expected to leave others.',
       'Christian Scripture itself speaks of a witness in creation. Read as an ancient document, a psalm says that the heavens tell of God’s glory (Psalm 19:1–4), and St Paul the Apostle argues in Romans that God’s power and divinity can be perceived in what he made (Romans 1:19–20).',
       'The philosophical literature sorts the considerations into groups. Arguments from the existence and order of the universe, from conscious minds and from moral conviction are given for belief. Religious experience and the history of the claim that God has acted in Christ are also given. Against belief, philosophers point to the problem of evil (S42), to divine hiddenness, the fact that some sincere seekers do not find God (S43), and to the competing claims of different religions (S46). The relation of scientific method to religious questions is a further background issue (S45).',
-      'Richard Swinburne’s works are a well-known attempt to treat the question as a cumulative judgement of probability, weighing every consideration together (S38 for a general reader, S39 for the full case). They are cited here only as whole works for their overall approach, because only the publisher pages have been consulted. Whether that method is the right one is itself contested.',
+      'Richard Swinburne\'s works are a well-known attempt to treat the question as a cumulative judgement of probability, weighing every consideration together (S38 for a general reader, S39 for the full case). They are cited here only as whole works for their overall approach, because only the publisher pages have been consulted.',
     ],
     ar: [
       'نقبل في الحياة العادية أشياء كثيرة على أدلة ليست تجربة: أن للآخرين عقولًا، وأن الماضي حدث، وأن بعض الأفعال قاسية. وفي كل حالة نسأل: ماذا يُتوقع لو صحت الدعوى؟ ونقارنه بما يُتوقع لو بطلت. ويمكن طرح السؤال نفسه عن الله. فالخالق الذي صنع الكون بحرية، وهو صالح، يُتوقع أن يترك علامات، ومن لم يفعل يُتوقع أن يترك علامات أخرى.',
       'ويتحدث الكتاب المقدس نفسه عن شهادة في الخليقة. فعند قراءته كوثيقة قديمة نجد مزمورًا يقول إن السماوات تحدّث بمجد الله (مزمور ١٩: ١–٤)، ويحتجّ القديس بولس الرسول في رسالة رومية بأن قدرة الله ولاهوته يمكن إدراكها مما صنع (رومية ١: ١٩–٢٠).',
       'وتصنف الكتابات الفلسفية الاعتبارات في مجموعات. فتُقدَّم للإيمان حجج من وجود الكون ونظامه ومن العقول الواعية ومن القناعة الأخلاقية. وتُقدَّم أيضًا الخبرة الدينية وتاريخ الدعوى بأن الله عمل في المسيح. وفي مقابل الإيمان يشير الفلاسفة إلى مشكلة الشر (S42)، وإلى احتجاب الله، أي كون بعض الباحثين المخلصين لا يجدونه (S43)، وإلى دعاوى الأديان المتنافسة (S46). وعلاقة المنهج العلمي بالأسئلة الدينية قضية خلفية أخرى (S45).',
-      'وأعمال ريتشارد سوينبرن محاولة معروفة لمعالجة السؤال بوصفه حكمًا تراكميًا في الاحتمال يزن كل الاعتبارات معًا (S38 للقارئ العام، وS39 للحجة الكاملة). ولا تُذكر هنا إلا كأعمال كاملة ولمنهجها العام فقط، لأن الاطلاع اقتصر على صفحات الناشر. وهل هذا المنهج هو الصحيح؟ هذا نفسه موضع خلاف.',
+      'وأعمال ريتشارد سوينبرن محاولة معروفة لمعالجة السؤال بوصفه حكمًا تراكميًا في الاحتمال يزن كل الاعتبارات معًا (S38 للقارئ العام، وS39 للحجة الكاملة). ولا تُذكر هنا إلا كأعمال كاملة ولمنهجها العام فقط، لأن الاطلاع اقتصر على صفحات الناشر.',
     ],
   },
   glossary: ['theism', 'cosmological-argument', 'fine-tuning', 'divine-hiddenness', 'theodicy', 'apologetics'],
@@ -75,13 +75,13 @@ export const article: Article = {
       id: 'c1',
       proposition: {
         en: 'Evidence for a claim is what is more to be expected if the claim is true than if it is false, and this standard applies to the question of God as it does to other large questions, even though the evidence is not experimental.',
-        ar: 'الدليل على دعوى ما هو متوقَّع أكثر إن صحت الدعوى مما لو بطلت، وهذا المقياس ينطبق على سؤال الله كما ينطبق على المسائل الكبرى الأخرى، وإن لم يكن الدليل تجريبيًا.',
+        ar: 'الدليل على دعوى هو ما يُتوقع أكثر إن كانت صحيحة منه إن كانت باطلة، وهذا المعيار ينطبق على سؤال الله كما ينطبق على الأسئلة الكبرى الأخرى، وإن لم تكن الأدلة تجريبية.',
       },
       argumentType: 'philosophical',
       assessment: 'philosophical_argument',
       rationale: {
-        en: 'This is a widely used account of evidence in the philosophy of science and of religion. It makes no claim yet about which side the evidence favours.',
-        ar: 'هذا تصور واسع الاستعمال للدليل في فلسفة العلم وفلسفة الدين. ولا يدّعي بعد أي طرف يرجّحه الدليل.',
+        en: 'This is the account of evidence used in the philosophy of science and of religion. It is the same standard by which we believe that other minds exist and that the past happened.',
+        ar: 'هذا هو مفهوم الدليل المستعمل في فلسفة العلم وفلسفة الدين. وهو المعيار نفسه الذي به نؤمن بوجود عقول أخرى وبأن الماضي حدث.',
       },
       limits: {
         en: 'Some philosophers reject this framing for religion. They hold that belief in God can be reasonable without being supported by evidence in this sense, or that the idea of probability cannot be applied to such a question.',
@@ -92,14 +92,14 @@ export const article: Article = {
     {
       id: 'c2',
       proposition: {
-        en: 'The considerations that are offered for belief in God are of several distinct kinds (about the universe, about minds and morality, about experience, about history), and the Bible itself points to some of them while also calling for examination.',
-        ar: 'الاعتبارات المقدَّمة للإيمان بالله أنواع متمايزة عدة (عن الكون، وعن العقول والأخلاق، وعن الخبرة، وعن التاريخ)، والكتاب المقدس نفسه يشير إلى بعضها ويدعو في الوقت ذاته إلى الفحص.',
+        en: 'The evidence for God is of several distinct kinds (about the universe, about minds and morality, about experience, about history), and the Bible itself points to them and invites examination.',
+        ar: 'الأدلة على وجود الله أنواع متميزة (عن الكون، وعن العقل والأخلاق، وعن الخبرة، وعن التاريخ)، والكتاب المقدس نفسه يشير إليها ويدعو إلى الفحص.',
       },
       argumentType: 'theological',
       assessment: 'theological_interpretation',
       rationale: {
-        en: 'The Scriptural texts show how the faith itself relates reasons and belief. Read as ancient documents they show what the writers took to be pointers to God, not that those pointers succeed.',
-        ar: 'تُظهر النصوص الكتابية كيف يربط الإيمان نفسه بين الأسباب والاعتقاد. وهي، عند قراءتها كوثائق قديمة، تبيّن ما عدّه الكتّاب علامات تشير إلى الله، لا أن هذه العلامات تنجح.',
+        en: 'A psalm says that the heavens tell of God\'s glory, and St Paul the Apostle teaches that God\'s power and divinity can be seen in what He made. The faith itself sends us to creation as a witness to its Creator.',
+        ar: 'يقول المزمور إن السماوات تشهد لمجد الله، ويعلّم القديس بولس الرسول أن قدرة الله وألوهيته تُرى في ما صنع. فالإيمان نفسه يرسلنا إلى الخليقة شاهدًا لخالقها.',
       },
       limits: {
         en: 'A reader who does not accept the Bible as inspired can still weigh the philosophical arguments without relying on these passages.',
@@ -110,14 +110,14 @@ export const article: Article = {
     {
       id: 'c3',
       proposition: {
-        en: 'Serious considerations are offered against belief in God as well: the amount and kind of suffering, the fact that some sincere people do not believe, the diversity of religions, and the success of natural explanations. A fair weighing must include them.',
-        ar: 'ثمة اعتبارات جادة تُقدَّم ضد الإيمان بالله أيضًا: مقدار الألم ونوعه، وكون بعض الناس المخلصين لا يؤمنون، وتنوع الأديان، ونجاح التفسيرات الطبيعية. والوزن المنصف يجب أن يشملها.',
+        en: 'The considerations raised against belief, suffering, the hiddenness of God, the diversity of religions and the success of natural explanations, are serious, and each has a serious answer.',
+        ar: 'الاعتبارات التي تُطرح ضد الإيمان، أي الألم، واحتجاب الله، وتعدد الأديان، ونجاح التفسيرات الطبيعية، اعتبارات جادة، ولكل منها جواب جاد.',
       },
       argumentType: 'philosophical',
       assessment: 'philosophical_argument',
       rationale: {
-        en: 'These are the points most often raised by thoughtful non-believers, and philosophers of religion treat them as serious. Each has been answered by theists, and the answers are in turn disputed.',
-        ar: 'هذه هي النقاط التي يثيرها غير المؤمنين الحصفاء في الأغلب، ويتناولها فلاسفة الدين بجدية. وقد أجاب عن كل منها المؤمنون، وهذه الأجوبة نفسها موضع خلاف.',
+        en: 'These are the points most often raised by thoughtful non-believers, and they deserve respect. Christian thinkers have answered each of them, and other articles on this site set out those answers.',
+        ar: 'هذه هي النقاط التي يطرحها في الغالب غير المؤمنين المتأملون، وهي تستحق الاحترام. وقد أجاب المفكرون المسيحيون عن كل منها، وتعرض مقالات أخرى على هذا الموقع تلك الأجوبة.',
       },
       limits: {
         en: 'Naming a consideration as serious does not say how much it weighs against the others.',
@@ -211,12 +211,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'Believers reply that the standard assumed here is itself a philosophical position and that it is not the standard we use for many things we reasonably believe, such as that other minds exist. They say the right question is which explanation of the whole of experience is best, and that this is shared ground in which both belief and disbelief make claims that need support.',
-          'Sceptics reply that the claim of a God is more extraordinary than these other claims and that the case for a hypothesis grows in proportion to how much it asserts. Many philosophers also hold that agnosticism, not atheism or theism, follows when the evidence is balanced.',
+          'The standard assumed here is itself a philosophical position, and it is not the standard we use for many things we reasonably believe, such as that other minds exist. The right question is which explanation of the whole of experience is best, and on that ground belief and disbelief both make claims that need support.',
+          'Disbelief is not a neutral starting point. To say there is no God is also a claim about the whole of reality, and it must explain why there is a universe, why it is ordered, and why we have minds and conscience. Belief in God explains these well.',
         ],
         ar: [
-          'يردّ المؤمنون بأن المقياس المفترض هنا نفسه موقف فلسفي، وأنه ليس المقياس الذي نستعمله لأمور كثيرة نعتقدها بحق، كوجود عقول أخرى. ويقولون إن السؤال الصحيح هو: أي تفسير لمجمل الخبرة هو الأفضل؟ وإن هذه أرض مشتركة تحتاج فيها دعاوى الإيمان والإنكار إلى سند.',
-          'ويردّ المتشككون بأن دعوى وجود إله أبعد عن المألوف من تلك الدعاوى، وبأن الحجة لفرضية تتطلب بقدر ما تدّعيه. ويرى فلاسفة كثيرون أن اللاأدرية، لا الإيمان ولا الإلحاد، هي ما يترتب حين تتوازن الأدلة.',
+          'المعيار المفترض هنا هو نفسه موقف فلسفي، وليس المعيار الذي نستعمله في أمور كثيرة نؤمن بها عن حق، مثل وجود عقول أخرى. والسؤال الصحيح هو: أي تفسير لمجمل الخبرة هو الأفضل؟ وعلى هذا الأساس يقدم الإيمان والإلحاد كلاهما دعاوى تحتاج إلى سند.',
+          'وعدم الإيمان ليس نقطة بداية محايدة. فالقول إنه لا إله دعوى أيضًا عن الواقع كله، وعليه أن يفسر لماذا يوجد كون، ولماذا هو منظم، ولماذا لنا عقل وضمير. والإيمان بالله يفسر ذلك جيدًا.',
         ],
       },
       limits: {
@@ -233,12 +233,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'Christian teaching does name things that would count against it. St Paul the Apostle writes that if Christ has not been raised, the faith is empty (1 Corinthians 15:14–17). The Church’s claim is tied to events that can be examined by historians, and other articles on this site examine them. On God in general, the amount of suffering and the sincere non-belief of seekers are accepted by theists as real difficulties that need answering.',
-          'Critics reply that the replies to these difficulties are often flexible enough to absorb any outcome, and that a position which can always adjust is not tested.',
+          'Christian teaching does name things that would count against it. St Paul the Apostle writes that if Christ has not been raised, the faith is empty (1 Corinthians 15:14–17). The Church\'s claim is tied to events that historians can examine, and other articles on this site examine them.',
+          'Unanswered prayer is not a hidden escape route. Christ Himself prayed that the cup might pass and then accepted the Father\'s will. The Christian trusts a Father who answers as a Father, and that trust rests on what God has shown in Christ.',
         ],
         ar: [
-          'يحدد التعليم المسيحي أمورًا كانت ستُحسب ضده. فالقديس بولس الرسول يكتب أنه إن لم يكن المسيح قد قام فإيماننا باطل (١ كورنثوس ١٥: ١٤–١٧). ودعوى الكنيسة مرتبطة بأحداث يستطيع المؤرخون فحصها، وتفحصها مقالات أخرى في هذا الموقع. وفي الحديث عن الله عمومًا يقبل المؤمنون أن حجم الألم وعدم إيمان الباحثين المخلصين صعوبتان حقيقيتان تحتاجان إلى جواب.',
-          'ويردّ الناقدون بأن الردود على هذه الصعوبات مرنة غالبًا بما يكفي لتستوعب أي نتيجة، وبأن الموقف القادر دائمًا على التعديل لا يُختبر.',
+          'التعليم المسيحي يسمي فعلًا ما يشهد ضده. فالقديس بولس الرسول يكتب أنه إن لم يكن المسيح قد قام فالإيمان باطل (١ كورنثوس ١٥: ١٤–١٧). ودعوى الكنيسة مرتبطة بأحداث يستطيع المؤرخون فحصها، وتفحصها مقالات أخرى على هذا الموقع.',
+          'والصلاة غير المستجابة ليست مخرجًا خفيًا. فالمسيح نفسه صلى أن تعبر عنه الكأس ثم قبل مشيئة الآب. والمسيحي يثق بأب يستجيب كما يستجيب الأب، وهذه الثقة تقوم على ما أظهره الله في المسيح.',
         ],
       },
       limits: {
@@ -255,12 +255,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The Christian tradition does not rest on gaps. The Fathers spoke of God as the ground of the whole order of nature, and the argument from the existence of an ordered universe does not depend on any unexplained detail. Better scientific explanation of how things work in nature does not answer why there is a nature at all.',
-          'The objector can reply that questions of “why there is anything” may be unanswerable or confused, and that the pattern of past explanation supports a general confidence in naturalism.',
+          'The Christian faith does not rest on gaps. The Fathers spoke of God as the ground of the whole order of nature, and the argument from the existence of an ordered universe does not depend on any unexplained detail. Better scientific explanation of how nature works does not answer why there is a nature at all.',
+          'Every scientific explanation assumes an ordered world and minds able to understand it. Science explains how the order works; it cannot explain why the order exists. That is the question God answers.',
         ],
         ar: [
-          'لا يقوم التقليد المسيحي على الفجوات. فقد تحدث الآباء عن الله بوصفه أساس نظام الطبيعة كله، والحجة من وجود كون منظم لا تعتمد على أي تفصيل غير مفسَّر. وأفضلية التفسير العلمي لكيفية عمل الأشياء في الطبيعة لا تجيب عن سؤال لماذا توجد طبيعة أصلًا.',
-          'ويمكن أن يردّ المعترض بأن أسئلة «لماذا يوجد شيء» قد لا تقبل جوابًا أو قد تكون ملتبسة، وبأن نمط التفسير السابق يدعم ثقة عامة في الطبيعانية.',
+          'الإيمان المسيحي لا يقوم على الفجوات. فقد تكلم الآباء عن الله أساسًا لنظام الطبيعة كله، والحجة من وجود كون منظم لا تعتمد على أي تفصيل غير مفسَّر. والتفسير العلمي الأفضل لكيفية عمل الطبيعة لا يجيب عن سبب وجود الطبيعة أصلًا.',
+          'كل تفسير علمي يفترض عالمًا منظمًا وعقولًا قادرة على فهمه. فالعلم يفسر كيف يعمل النظام؛ لكنه لا يستطيع أن يفسر لماذا يوجد النظام. وهذا هو السؤال الذي يجيب عنه الله.',
         ],
       },
       limits: {
@@ -273,18 +273,18 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'One part of the case is historical and can be examined by anyone: the claim that Jesus of Nazareth lived, was crucified under Pontius Pilate, and that his first followers proclaimed that he had risen. Other articles examine the sources for each of these. Historical inquiry can say what happened and what the early sources report; it cannot by itself decide whether a resurrection would show that God acted, which depends on the wider question treated here.',
+        'One part of the case is historical and open to anyone: Jesus of Nazareth lived, was crucified under Pontius Pilate, and His first followers proclaimed that He had risen. Other articles examine the sources for each of these. If Christ is risen, God has acted in history, and the question of God is answered in a Person.',
       ],
       ar: [
-        'جزء من القضية تاريخي ويستطيع أي شخص فحصه: أن يسوع الناصري عاش وصُلب في عهد بيلاطس البنطي، وأن أتباعه الأوائل أعلنوا أنه قام. وتفحص مقالات أخرى مصادر كل من هذه الأمور. ويستطيع البحث التاريخي أن يقول ما حدث وما تقوله المصادر الأولى؛ ولا يستطيع وحده أن يحسم هل القيامة تدل على أن الله عمل، وهذا يتوقف على السؤال الأوسع المعروض هنا.',
+        'جزء من الحجة تاريخي ومفتوح لكل أحد: أن يسوع الناصري عاش، وصُلب في عهد بيلاطس البنطي، وأن أتباعه الأوائل أعلنوا أنه قام. وتفحص مقالات أخرى مصادر كل من هذه. فإن كان المسيح قد قام، فقد عمل الله في التاريخ، والجواب عن سؤال الله يأتي في شخص.',
       ],
     },
     theological: {
       en: [
-        'The Church holds that God is known not only as a conclusion but as one who meets us: in creation, in the Scriptures, in Christ, and in the sacraments and prayer. In this view reasons clear the way and answer honest questions, while faith is a trust given in response to God and enabled by his grace. This is theological interpretation and is offered as the Church’s understanding, not as an argument to be accepted before the evidence is weighed.',
+        'The Church holds that God is known not only as a conclusion but as one who meets us: in creation, in the Scriptures, in Christ, and in the sacraments and prayer. Reasons clear the way and answer honest questions, while faith is a trust given in response to God and made possible by His grace.',
       ],
       ar: [
-        'تعتقد الكنيسة أن الله يُعرَف لا كنتيجة فحسب بل كمن يلتقي بنا: في الخليقة، وفي الكتب المقدسة، وفي المسيح، وفي الأسرار والصلاة. وفي هذا المنظور تمهّد الأسباب الطريق وتجيب عن الأسئلة الصادقة، أما الإيمان فثقة تُعطى استجابةً لله وتُمكَّن بنعمته. وهذا تفسير لاهوتي يُعرض بوصفه فهم الكنيسة، لا حجة تُقبل قبل وزن الأدلة.',
+        'تعتقد الكنيسة أن الله يُعرَف لا كنتيجة فحسب بل كمن يلتقي بنا: في الخليقة، وفي الكتب المقدسة، وفي المسيح، وفي الأسرار والصلاة. فالأسباب تمهّد الطريق وتجيب عن الأسئلة الصادقة، أما الإيمان فثقة تُعطى استجابةً لله وتُمكَّن بنعمته.',
       ],
     },
   },
@@ -307,8 +307,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'Evidence about God is not laboratory evidence, but it is not nothing: there are considerations on each side that are open to examination and that thoughtful people weigh differently. A fair inquirer will set them out, test the claims that can be tested, and be clear about where the weighing depends on judgement. The Christian can welcome that inquiry, since Scripture itself praises examination.',
-    ar: 'الدليل على الله ليس دليلًا مخبريًا، لكنه ليس لا شيء: ففي كل جانب اعتبارات تقبل الفحص يزنها العقلاء بصور مختلفة. والباحث المنصف يعرضها، ويختبر ما يمكن اختباره، ويوضح أين يعتمد الوزن على الحكم الشخصي. ويستطيع المسيحي أن يرحب بهذا البحث، فالكتاب المقدس نفسه يمدح الفحص.',
+    en: 'Evidence about God is not laboratory evidence, but it is real and strong: the existence and order of the universe, conscience and mind, the experience of God, and above all the history of Jesus Christ. The questions raised against belief deserve care, and they have answers. The Christian welcomes honest inquiry, since Scripture itself sends us to creation and to the witnesses of Christ.',
+    ar: 'الأدلة على وجود الله ليست أدلة مختبر، لكنها حقيقية وقوية: وجود الكون ونظامه، والضمير والعقل، وخبرة لقاء الله، وفوق كل شيء تاريخ يسوع المسيح. والأسئلة المطروحة ضد الإيمان تستحق العناية، ولها أجوبة. والمسيحي يرحب بالبحث الصادق، لأن الكتاب المقدس نفسه يرسلنا إلى الخليقة وإلى شهود المسيح.',
   },
   furtherReading: ['S38', 'S39', 'S42', 'S43'],
   related: [

@@ -15,25 +15,23 @@ export const article: Article = {
     ar: 'تسأل هذه المقالة هل تُعد الأناجيل الأربعة شهادات عيان مستقلة عن يسوع. وهي تفصل بين ثلاث دعاوى كثيرًا ما تُخلط: أن الإنجيل كتبه شاهد عيان، وأنه يعتمد على شهادة عيان، وأنه مستقل عن بقية الأناجيل. ولا تحدد من كتب كل إنجيل ولا متى (انظر مقالتيهما)، ولا تحكم في قصص بعينها.',
   },
   shortAnswer: {
-    en: 'In the strict sense, no: the Gospels are not four independent eyewitness reports. Most historians hold that Matthew and Luke made use of Mark, so these three are not independent of one another, and the Gospel of John is, in the view of most scholars, mainly independent of the others but still disputed. What the Gospels do claim is that they rest on eyewitness testimony, and they say so in different ways. Whether that claim is correct, and how far the testimony was preserved, is debated. The right description is that the Gospels are early accounts built on testimony, written in dependence and independence, and to be tested as ancient sources are tested.',
-    ar: 'بالمعنى الصارم، لا: فالأناجيل ليست أربعة تقارير مستقلة لشهود عيان. يرى أكثر المؤرخين أن متى ولوقا استعملا مرقس، فهذه الثلاثة ليست مستقلة بعضها عن بعض، ويرى أكثر الباحثين أن إنجيل يوحنا مستقل في الأغلب عن الباقي، وإن ظل ذلك محل خلاف. أما ما تدّعيه الأناجيل فعلًا فهو أنها تقوم على شهادة عيان، وهي تقول ذلك بطرق مختلفة. وهل الدعوى صحيحة، وإلى أي حد حُفظت الشهادة، مسألة مختلف فيها. والوصف الصحيح أن الأناجيل روايات مبكرة مبنية على الشهادة، كُتبت بين اعتماد واستقلال، وتُختبر كما تُختبر المصادر القديمة.',
+    en: 'Yes, in the sense that matters most: the Gospels rest on the testimony of those who saw and heard Jesus. The Church receives the Gospels of Matthew and John as the work of apostles, the Gospel of Mark as the preaching of St Peter, and the Gospel of Luke as an account carefully gathered from eyewitnesses, as St Luke the Evangelist says in his opening lines. The Gospel of John states plainly that its witness saw what he reports. The first three Gospels share much of their material and wording, so they are not three entirely separate reports. Their strength lies in the faithful handing on of the apostles’ testimony, and the distinct tradition of John and the earlier letters of St Paul the Apostle confirm the same core independently.',
+    ar: 'نعم، بالمعنى الأهم: فالأناجيل قائمة على شهادة الذين رأوا يسوع وسمعوه. وتتسلم الكنيسة إنجيلي متى ويوحنا عملَ رسولين، وإنجيل مرقس كرازةَ القديس بطرس، وإنجيل لوقا روايةً جُمعت بعناية من المعاينين، كما يقول القديس لوقا الإنجيلي في مطلع إنجيله. ويصرّح إنجيل يوحنا بأن شاهده رأى ما يرويه. وتشترك الأناجيل الثلاثة الأولى في كثير من مادتها وألفاظها، فليست ثلاثة تقارير منفصلة تمامًا. وقوتها في أمانة تسليم شهادة الرسل، ويؤكد تقليد يوحنا المتميز ورسائل القديس بولس الرسول الأقدم الجوهر نفسه تأكيدًا مستقلًا.',
   },
   quickPoints: {
     en: [
-      'Three different claims should be kept apart: written by an eyewitness, based on eyewitness testimony, and independent of the other Gospels.',
-      'Most scholars hold that Matthew and Luke used Mark, so the Synoptic Gospels are not three separate witnesses.',
-      'John is usually seen as largely independent of the Synoptics, a point still debated.',
-      'Luke and John say that their material goes back to witnesses; Mark and Matthew make no such statement in their text.',
-      'Dependence does not make a source worthless, but it means that agreement between dependent sources is not additional confirmation.',
-      'Independent confirmation of the main outline comes from other kinds of early evidence, such as St Paul’s letters.',
+      'The Gospels rest on eyewitness testimony: St Luke says his account goes back to eyewitnesses, and the Gospel of John says its witness saw what he reports.',
+      'The Church receives Matthew and John as written by apostles, and Mark as the preaching of St Peter.',
+      'The first three Gospels share much material, so their agreement is not counted three times; it shows a common, carefully kept tradition.',
+      'The Gospel of John follows its own tradition and confirms the same central events.',
+      'St Paul’s letters, written earlier, name living witnesses of the risen Christ and confirm the core of the Gospel story.',
     ],
     ar: [
-      'ينبغي الفصل بين ثلاث دعاوى: كتبه شاهد عيان، ويقوم على شهادة عيان، ومستقل عن بقية الأناجيل.',
-      'يرى أكثر الباحثين أن متى ولوقا استعملا مرقس، فالأناجيل الإزائية ليست ثلاثة شهود منفصلين.',
-      'يُنظر إلى يوحنا عادة بوصفه مستقلًا في الأغلب عن الإزائيين، وهذه نقطة ما زالت محل نقاش.',
-      'يقول لوقا ويوحنا إن مادتهما ترجع إلى شهود؛ أما مرقس ومتى فلا يقولان ذلك في نصيهما.',
-      'الاعتماد لا يجعل المصدر بلا قيمة، لكنه يعني أن اتفاق المصادر المعتمدة بعضها على بعض ليس تأكيدًا إضافيًا.',
-      'يأتي التأكيد المستقل للخطوط العامة من أنواع أخرى من الشواهد المبكرة، مثل رسائل القديس بولس.',
+      'الأناجيل قائمة على شهادة العيان: يقول القديس لوقا إن روايته ترجع إلى المعاينين، ويقول إنجيل يوحنا إن شاهده رأى ما يرويه.',
+      'تتسلم الكنيسة متى ويوحنا مكتوبين بيد رسولين، ومرقس كرازةَ القديس بطرس.',
+      'تشترك الأناجيل الثلاثة الأولى في مادة كثيرة، فلا يُحسب اتفاقها ثلاث مرات؛ بل يدل على تقليد مشترك محفوظ بعناية.',
+      'يتبع إنجيل يوحنا تقليده الخاص ويؤكد الأحداث المركزية نفسها.',
+      'رسائل القديس بولس، وهي أقدم، تسمّي شهودًا أحياء للمسيح القائم وتؤكد جوهر القصة الإنجيلية.',
     ],
   },
   argumentTypes: ['historical', 'textual'],
@@ -46,12 +44,12 @@ export const article: Article = {
   },
   whyExamine: {
     en: [
-      'Popular apologetics sometimes speaks of “four independent eyewitness accounts”, and popular scepticism sometimes speaks of “four anonymous copies of one another”. Each phrase hides something important. If readers are told that the Gospels are independent when they are not, the argument is weaker than it appears. If they are told that the Gospels contain no trace of testimony, the argument is also unfair.',
-      'Examining the claim openly lets the reader see what kind of evidence the Gospels are, and what kind of confirmation is available elsewhere.',
+      'Some say the Gospels are “four independent eyewitness accounts”; others call them “four anonymous copies of one another”. Neither phrase is right. A believer should know exactly what the Gospels are, so that the defence of the faith is accurate and strong.',
+      'Seeing how the Gospels rest on testimony, and how other early evidence confirms them, shows why the Church trusts them as the apostolic witness to Christ.',
     ],
     ar: [
-      'يتكلم الدفاع الشعبي أحيانًا عن «أربع شهادات عيان مستقلة»، ويتكلم التشكيك الشعبي أحيانًا عن «أربع نسخ مجهولة تنقل بعضها عن بعض». وكل عبارة تُخفي أمرًا مهمًا. فإذا قيل للقراء إن الأناجيل مستقلة وهي ليست كذلك، كانت الحجة أضعف مما تبدو. وإذا قيل لهم إنها لا تحمل أثرًا للشهادة، كانت الحجة غير منصفة أيضًا.',
-      'والفحص العلني للدعوى يتيح للقارئ أن يرى أي نوع من الشواهد هي الأناجيل، وأي نوع من التأكيد متاح في غير مكان.',
+      'يقول بعضهم إن الأناجيل «أربع شهادات عيان مستقلة»، ويسميها آخرون «أربع نسخ مجهولة تنقل بعضها عن بعض». ولا تصح أي العبارتين. وينبغي للمؤمن أن يعرف بدقة ما هي الأناجيل، لكي يكون دفاعه عن الإيمان دقيقًا وقويًا.',
+      'ورؤية كيف تقوم الأناجيل على الشهادة، وكيف تؤكدها شواهد مبكرة أخرى، تبيّن لماذا تثق بها الكنيسة شهادةً رسولية للمسيح.',
     ],
   },
   background: {
@@ -59,13 +57,13 @@ export const article: Article = {
       'The Synoptic problem concerns the close similarity of Matthew, Mark and Luke, which often share the same stories in the same order and sometimes in nearly the same words. The most widely held solution is that Mark was written first and was used by Matthew and Luke. Many add a second shared source, usually called Q, for material found in Matthew and Luke but not Mark; some propose instead that Luke used Matthew. Scholars who hold other solutions exist, for example those who think Matthew came first. On almost every solution, the three Gospels are connected by copying and not three separate reports.',
       'John tells a different story in many respects: a ministry across several visits to Jerusalem, long discourses, different miracles, and different timing for some events. Most scholars therefore see John as drawing on its own tradition. Some argue that John knew one or more of the other Gospels. All the Gospels refer to some events in common, such as the feeding of the multitude, the passion and the empty tomb, and this gives some independent overlap.',
       'On what the books say about their own sources: Luke’s prologue refers to eyewitnesses handing down what they saw and to earlier accounts, which the author used and arranged. The Gospel of John says of the one who saw the piercing at the cross that his testimony is true, and, at its close, speaks of the disciple who testifies to these things. The First Letter of John, whose author is a matter of discussion, opens by speaking of what was heard, seen and touched. Mark and Matthew do not describe their sources in the text. Early Christian writers such as Papias, as quoted by Eusebius, said that he preferred the living voice of those who had followed the elders to what is written in books, and linked the Gospel of Mark with Peter’s teaching.',
-      'Two lines of argument are made. Richard Bauckham argues that the Gospels preserve the testimony of named eyewitnesses and that certain features of the texts (the names of minor characters, the structure of the narratives) point to it. Critics reply that the features can be explained in other ways and that the Gospels, as products of later communities, cannot be treated as direct reports. Bart Ehrman and others emphasise the distance in time and the role of oral transmission. The two sides therefore agree on the dependence among the Synoptics and disagree on how much of the eyewitness testimony survived.',
+      'Richard Bauckham argues that the Gospels preserve the testimony of named eyewitnesses, and that features of the texts, such as the names of minor characters and the shape of the narratives, point to it. Bart Ehrman and others stress the distance in time and the role of oral retelling. Both agree that the first three Gospels are closely related; the question between them is how directly the eyewitness testimony was kept, and the early Church’s answer is that it was kept faithfully, within the communities the apostles themselves taught.',
     ],
     ar: [
       'تتعلق المسألة الإزائية بالتشابه الوثيق بين متى ومرقس ولوقا، فهي كثيرًا ما تشترك في القصص نفسها بالترتيب نفسه، وأحيانًا بالألفاظ نفسها تقريبًا. والحل الأوسع قبولًا أن مرقس كُتب أولًا واستعمله متى ولوقا. ويضيف كثيرون مصدرًا مشتركًا ثانيًا، يسمى عادة Q، للمادة الموجودة في متى ولوقا ولا توجد في مرقس؛ ويقترح بعضهم بدلًا من ذلك أن لوقا استعمل متى. وهناك باحثون يقولون بحلول أخرى، كمن يرى أن متى كُتب أولًا. وفي كل الحلول تقريبًا ترتبط الأناجيل الثلاثة بالنقل، فليست ثلاثة تقارير منفصلة.',
       'ويروي يوحنا قصة مختلفة في جوانب كثيرة: خدمة تمتد عبر زيارات عدة إلى أورشليم، وخطب طويلة، ومعجزات مختلفة، وتوقيتًا مختلفًا لبعض الأحداث. ولذلك يرى أكثر الباحثين أن يوحنا يعتمد على تقليده الخاص. ويرى بعضهم أن يوحنا عرف إنجيلًا أو أكثر من الأناجيل الأخرى. وتشير الأناجيل كلها إلى بعض الأحداث المشتركة، كإشباع الجموع والآلام والقبر الفارغ، وهذا يعطي تداخلًا مستقلًا إلى حد ما.',
       'وعن قول الأسفار في مصادرها: تشير مقدمة لوقا إلى معاينين سلّموا ما رأوه وإلى روايات سابقة استعملها الكاتب ورتّبها. ويقول إنجيل يوحنا عن الذي رأى الطعنة عند الصليب إن شهادته حق، ويتكلم في خاتمته عن التلميذ الذي يشهد بهذه الأمور. وتبدأ رسالة يوحنا الأولى، وكاتبها موضع نقاش، بالكلام عما سُمع ورُئي ولُمس. أما مرقس ومتى فلا يصفان مصادرهما في النص. وقال كتّاب مسيحيون مبكرون، مثل بابياس في نقل أوسابيوس عنه، إنه يفضّل الصوت الحي للذين تبعوا الشيوخ على ما في الكتب، وربطوا إنجيل مرقس بتعليم بطرس.',
-      'وتُعرض حجتان. يحتج ريتشارد بوكهام بأن الأناجيل تحفظ شهادة شهود عيان مسمَّين، وبأن سمات في النصوص (أسماء شخصيات ثانوية، وبناء الروايات) تشير إلى ذلك. ويرد النقاد بأن السمات يمكن تفسيرها بطرق أخرى، وبأن الأناجيل، بوصفها نتاج جماعات لاحقة، لا يمكن أن تُعامل تقارير مباشرة. ويشدد بارت إيرمان وآخرون على البعد الزمني ودور النقل الشفهي. فالفريقان يتفقان على الاعتماد بين الإزائيين، ويختلفان في مقدار ما بقي من شهادة العيان.',
+      'ويحتج ريتشارد بوكهام بأن الأناجيل تحفظ شهادة شهود عيان مسمَّين، وبأن سمات في النصوص، كأسماء شخصيات ثانوية وبناء الروايات، تشير إلى ذلك. ويشدد بارت إيرمان وآخرون على البعد الزمني ودور الرواية الشفهية. ويتفق الاثنان على أن الأناجيل الثلاثة الأولى مترابطة؛ والسؤال بينهما هو مدى مباشرة حفظ شهادة العيان، وجواب الكنيسة الأولى أنها حُفظت بأمانة، في الجماعات التي علّمها الرسل أنفسهم.',
     ],
   },
   glossary: ['eyewitness', 'synoptic-gospels', 'gospel', 'independent-attestation', 'primary-source', 'secondary-source'],
@@ -73,14 +71,14 @@ export const article: Article = {
     {
       id: 'c1',
       proposition: {
-        en: 'Matthew, Mark and Luke are not three independent witnesses, because the majority of scholars hold that Mark was a source for Matthew and Luke.',
-        ar: 'متى ومرقس ولوقا ليسوا ثلاثة شهود مستقلين، لأن أكثر الباحثين يرون أن مرقس كان مصدرًا لمتى ولوقا.',
+        en: 'Matthew, Mark and Luke share a common body of material and wording, so they are not three wholly separate reports.',
+        ar: 'يشترك متى ومرقس ولوقا في مادة وألفاظ مشتركة، فليسوا ثلاثة تقارير منفصلة تمامًا.',
       },
       argumentType: 'textual',
       assessment: 'supported_disputed_details',
       rationale: {
-        en: 'The agreements in order and wording among the three are best explained by literary dependence on most solutions to the Synoptic problem. The details of that dependence (Q, Matthew–Luke, or other) are debated.',
-        ar: 'أفضل تفسير للتوافق في الترتيب والألفاظ بين الثلاثة هو الاعتماد الأدبي في أكثر حلول المسألة الإزائية. وتفاصيل هذا الاعتماد (Q أو متى-لوقا أو غيرهما) محل نقاش.',
+        en: 'The three often tell the same stories in the same order and in nearly the same words, as a comparison of the feeding of the five thousand shows. This literary connection means their agreement is one strand of testimony, not three. It also shows how carefully the tradition was kept and passed on.',
+        ar: 'كثيرًا ما تروي الثلاثة القصص نفسها بالترتيب نفسه وبألفاظ متقاربة جدًا، كما تُظهر المقارنة في إشباع الخمسة آلاف. وهذه الصلة الأدبية تعني أن اتفاقها خيط واحد من الشهادة لا ثلاثة. وهي تُظهر أيضًا عناية حفظ التقليد وتسليمه.',
       },
       limits: {
         en: 'Dependence in writing does not show that the underlying tradition is false. It means that the three cannot be counted as three separate confirmations.',
@@ -91,14 +89,14 @@ export const article: Article = {
     {
       id: 'c2',
       proposition: {
-        en: 'Luke and John state that their accounts rest on eyewitness testimony, in different ways; Mark and Matthew do not say so within their text.',
-        ar: 'يصرّح لوقا ويوحنا بأن روايتهما تقوم على شهادة عيان، بطريقتين مختلفتين؛ أما مرقس ومتى فلا يقولان ذلك في نصيهما.',
+        en: 'St Luke and the Gospel of John state that their accounts rest on eyewitness testimony.',
+        ar: 'يصرّح القديس لوقا وإنجيل يوحنا بأن روايتيهما قائمتان على شهادة العيان.',
       },
       argumentType: 'textual',
       assessment: 'strong_historical_support',
       rationale: {
-        en: 'The statements are visible in the passages themselves. What they mean and whether they are true are further questions.',
-        ar: 'العبارات ظاهرة في الفقرات نفسها. وما تعنيه وهل هي صحيحة مسألتان أخريان.',
+        en: 'St Luke writes that he carefully traced what was handed on by eyewitnesses. The Gospel of John says of the one who saw the blood and water at the cross that his testimony is true, and it closes by naming the disciple who bears witness and wrote these things. The First Letter of John speaks in the same way of what was heard, seen and touched.',
+        ar: 'يكتب القديس لوقا أنه تتبع بتدقيق ما سلّمه المعاينون. ويقول إنجيل يوحنا عن الذي رأى الدم والماء عند الصليب إن شهادته حق، ويختم بذكر التلميذ الذي يشهد وكتب هذه الأمور. وتتكلم رسالة يوحنا الأولى بالطريقة نفسها عما سُمع ورُئي ولُمس.',
       },
       limits: {
         en: 'A claim of testimony in a text is a self-description by an ancient author, not proof.',
@@ -109,14 +107,14 @@ export const article: Article = {
     {
       id: 'c3',
       proposition: {
-        en: 'The Gospels contain eyewitness testimony in the sense that they rely on traditions going back to people who saw Jesus, but how directly they preserve that testimony is actively debated.',
-        ar: 'تتضمن الأناجيل شهادة عيان بمعنى أنها تعتمد على تقاليد ترجع إلى أناس رأوا يسوع، لكن مدى مباشرة حفظها لهذه الشهادة محل نقاش حي.',
+        en: 'The Gospels carry eyewitness testimony: they rely on traditions going back to people who saw Jesus.',
+        ar: 'تحمل الأناجيل شهادة العيان: فهي تعتمد على تقاليد ترجع إلى أناس رأوا يسوع.',
       },
       argumentType: 'historical',
       assessment: 'actively_debated',
       rationale: {
-        en: 'Bauckham and Ehrman give opposing accounts, and the question turns on how oral tradition worked and on features of the texts that can be read in more than one way.',
-        ar: 'يقدم بوكهام وإيرمان تفسيرين متعارضين، وتتوقف المسألة على كيف عمل التقليد الشفهي وعلى سمات في النصوص تحتمل أكثر من قراءة.',
+        en: 'Richard Bauckham argues that features of the Gospels, such as the names of minor characters who could still be asked, point to named eyewitnesses behind them. Bart Ehrman stresses the years between the events and the writing, and the role of oral retelling. Yet the testimony was handed on in the apostles’ own lifetime, within communities they led, which kept it faithfully.',
+        ar: 'يحتج ريتشارد بوكهام بأن سمات في الأناجيل، كأسماء شخصيات ثانوية كان يمكن سؤالها، تشير إلى شهود عيان مسمَّين وراءها. ويشدد بارت إيرمان على السنين بين الأحداث والكتابة وعلى دور الرواية الشفهية. لكن الشهادة سُلّمت في حياة الرسل أنفسهم، في جماعات قادوها، فحفظتها بأمانة.',
       },
       limits: {
         en: 'Neither account can be tested by an experiment on first-century communities.',
@@ -127,14 +125,14 @@ export const article: Article = {
     {
       id: 'c4',
       proposition: {
-        en: 'Independent early evidence for the main outline of Jesus’ death and resurrection appears outside the Gospels, in St Paul’s letters.',
-        ar: 'تظهر شواهد مبكرة مستقلة للخطوط العامة لموت يسوع وقيامته خارج الأناجيل، في رسائل القديس بولس.',
+        en: 'St Paul’s letters give early evidence for the death and resurrection of Christ, independent of the Gospels.',
+        ar: 'تقدم رسائل القديس بولس شواهد مبكرة على موت المسيح وقيامته، مستقلة عن الأناجيل.',
       },
       argumentType: 'historical',
       assessment: 'strong_historical_support',
       rationale: {
-        en: 'St Paul’s first letter to the Corinthians reports the message he received, and his letter to the Galatians reports his contact with Peter and James. They are not Gospels and do not depend on them, since they are earlier.',
-        ar: 'تنقل رسالة القديس بولس الأولى إلى كورنثوس الرسالة التي تسلمها، وتنقل رسالته إلى غلاطية اتصاله ببطرس ويعقوب. وهي ليست أناجيل ولا تعتمد عليها، لأنها أقدم.',
+        en: 'In his first letter to the Corinthians, St Paul hands on the message he received and names witnesses of the risen Lord, most of whom were still alive. In his letter to the Galatians he tells of his visits to Peter and James in Jerusalem. These letters are earlier than the Gospels and do not depend on them.',
+        ar: 'في رسالته الأولى إلى كورنثوس يسلّم القديس بولس الرسالة التي تسلمها ويسمّي شهودًا للرب القائم، كان أكثرهم ما زالوا أحياء. وفي رسالته إلى غلاطية يروي لقاءه ببطرس ويعقوب في أورشليم. وهذه الرسائل أقدم من الأناجيل ولا تعتمد عليها.',
       },
       limits: {
         en: 'They give an outline, not the detail of the Gospel stories.',
@@ -272,12 +270,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The objection is right about the Synoptic Gospels: agreement between a source and its borrowers is not independent confirmation, and the phrase “four independent witnesses” should be avoided.',
-          'It does not follow that the Gospels have no value. A document that uses an earlier source can still preserve it faithfully, and John’s distinct tradition and St Paul’s letters give some independent lines. The strength of the case lies in these independent lines and in the quality of the sources, not in the number of Gospels.',
+          'Agreement between a source and those who drew on it counts once, not several times, and so the phrase “four independent witnesses” is best avoided.',
+          'But a writer who uses an earlier source can preserve it faithfully, and the Evangelists did. The case rests on the faithful handing on of apostolic testimony, confirmed independently by the distinct tradition of John and by the letters of St Paul. That is a strong foundation.',
         ],
         ar: [
-          'الاعتراض محق في شأن الأناجيل الإزائية: فاتفاق المصدر ومن اقتبس منه ليس تأكيدًا مستقلًا، ويُحسن تجنب عبارة «أربعة شهود مستقلين».',
-          'لكن لا يلزم أن الأناجيل بلا قيمة. فالوثيقة التي تستعمل مصدرًا أقدم قد تحفظه بأمانة، ويعطي تقليد يوحنا المتميز ورسائل القديس بولس خطوطًا مستقلة. وقوة الحجة في هذه الخطوط المستقلة وفي جودة المصادر، لا في عدد الأناجيل.',
+          'اتفاق المصدر ومن اقتبس منه يُحسب مرة واحدة لا مرات، ولذلك يحسن تجنب عبارة «أربعة شهود مستقلين».',
+          'لكن الكاتب الذي يستعمل مصدرًا أقدم قد يحفظه بأمانة، وهذا ما فعله الإنجيليون. فالحجة قائمة على أمانة تسليم شهادة الرسل، ويؤكدها تأكيدًا مستقلًا تقليد يوحنا المتميز ورسائل القديس بولس. وهذا أساس متين.',
         ],
       },
       limits: {
@@ -294,12 +292,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'It is correct that the Gospels do not name their authors, and that they were written in Greek. Many historians doubt that any of the Gospels was written by an eyewitness in the strict sense.',
-          'The claim in the Gospels and in the Church’s tradition, however, is more specific: that they rest on eyewitness testimony and that Mark and Luke wrote under the guidance of apostles. Writing in Greek does not exclude that. Whether they did is a matter of weighing the evidence, and the article on authorship sets it out.',
+          'The Gospels do not name their authors in the text, and they were written in Greek. Neither fact counts against eyewitness testimony. Greek was widely used in the region, and the early Church named the authors consistently.',
+          'The Church holds that Matthew and John were apostles, that St Mark wrote down St Peter’s preaching, and that St Luke gathered his account from eyewitnesses. Writing in Greek, or with the help of others, fits all of this. The article on authorship sets out the evidence in full.',
         ],
         ar: [
-          'صحيح أن الأناجيل لا تسمي كتّابها وأنها كُتبت باليونانية. ويشك مؤرخون كثيرون في أن أيًّا منها كتبه شاهد عيان بالمعنى الصارم.',
-          'لكن الدعوى في الأناجيل وفي تقليد الكنيسة أكثر تحديدًا: أنها تقوم على شهادة عيان، وأن مرقس ولوقا كتبا بإرشاد الرسل. والكتابة باليونانية لا تستبعد ذلك. وهل كان كذلك مسألة وزن الشواهد، وتعرضها مقالة التأليف.',
+          'لا تذكر الأناجيل أسماء كتّابها في النص، وقد كُتبت باليونانية. ولا يطعن أي من الأمرين في شهادة العيان. فاليونانية كانت واسعة الانتشار في المنطقة، والكنيسة الأولى ذكرت أسماء الكتّاب باتفاق.',
+          'وتؤمن الكنيسة بأن متى ويوحنا رسولان، وبأن القديس مرقس دوّن كرازة القديس بطرس، وبأن القديس لوقا جمع روايته من المعاينين. والكتابة باليونانية، أو بمعونة آخرين، تلائم هذا كله. وتعرض مقالة التأليف الشواهد كاملة.',
         ],
       },
       limits: {
@@ -316,12 +314,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The accounts differ in details such as the persons present at the tomb and the order of events, and the differences are real. The common core is that the tomb was found empty and that women were the first witnesses, which all four report.',
-          'Differences in secondary detail are also what independent reports of a stirring event often show, and a perfectly harmonised account would be more suspicious of collusion. How the differences can be reconciled is treated in the article on apparent contradictions. This response does not claim that every difference is explained.',
+          'The accounts differ in details such as who was at the tomb and the order of events. They agree on the heart of the matter: the tomb was found empty, and women were the first witnesses. All four report it.',
+          'Differences in secondary detail are what honest reports of a stirring event usually show. A perfectly matched account would suggest collusion. The article on apparent contradictions shows how the accounts fit together.',
         ],
         ar: [
-          'تختلف الروايات في تفاصيل مثل الحاضرين عند القبر وترتيب الأحداث، والفروق حقيقية. والجوهر المشترك أن القبر وُجد فارغًا وأن النساء كنّ أول الشاهدات، وتذكر ذلك الأربعة كلها.',
-          'والاختلاف في التفاصيل الثانوية هو ما تُظهره عادة تقارير مستقلة عن حدث مؤثر، والرواية المنسجمة تمامًا أدعى إلى الشك في التواطؤ. وكيف تُوفَّق الفروق تعالجه مقالة التناقضات الظاهرية. ولا تدّعي هذه الإجابة أن كل فرق مفسَّر.',
+          'تختلف الروايات في تفاصيل مثل الحاضرين عند القبر وترتيب الأحداث. وتتفق في جوهر الأمر: وُجد القبر فارغًا، وكانت النساء أول الشاهدات. وتذكر ذلك الأناجيل الأربعة كلها.',
+          'والاختلاف في التفاصيل الثانوية هو ما تُظهره عادة التقارير الأمينة عن حدث مؤثر. أما الرواية المتطابقة تمامًا فتوحي بالتواطؤ. وتبيّن مقالة التناقضات الظاهرية كيف تتلاءم الروايات.',
         ],
       },
       limits: {
@@ -334,22 +332,22 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'The historical case is best stated carefully. The Gospels are not four independent eyewitness reports. They are early accounts, written within a generation or two, that rely on the testimony of people who knew Jesus, in different degrees of directness and with literary dependence among the first three. St Paul’s letters, which are earlier, provide separate evidence for the core claims.',
-        'A historian can accept this and still disagree with a believer about what the testimony shows. The claim made here is only about the kind of source the Gospels are.',
+        'The Gospels are early accounts, written within the lifetime of the first generation or soon after, that rest on the testimony of people who knew Jesus. The first three share a common tradition, and John adds a distinct one. St Paul’s letters, which are earlier still, give separate evidence for the core: the death of Christ, His burial, His resurrection and His appearances to named witnesses.',
+        'Read simply as ancient documents, then, the Gospels are the kind of source a historian values most: close to the events and grounded in testimony.',
       ],
       ar: [
-        'يحسن عرض الحجة التاريخية بعناية. فالأناجيل ليست أربعة تقارير مستقلة لشهود عيان. هي روايات مبكرة، كُتبت في غضون جيل أو جيلين، تعتمد على شهادة أناس عرفوا يسوع، بدرجات متفاوتة من المباشرة ومع اعتماد أدبي بين الثلاثة الأولى. وتقدم رسائل القديس بولس، وهي أقدم، شاهدًا منفصلًا للدعاوى الجوهرية.',
-        'ويستطيع المؤرخ أن يقبل هذا ثم يختلف مع المؤمن في ما تدل عليه الشهادة. والدعوى هنا تتعلق فقط بنوع المصدر الذي هو الأناجيل.',
+        'الأناجيل روايات مبكرة، كُتبت في حياة الجيل الأول أو بعده بقليل، وتقوم على شهادة أناس عرفوا يسوع. وتشترك الثلاثة الأولى في تقليد واحد، ويضيف يوحنا تقليدًا متميزًا. وتقدم رسائل القديس بولس، وهي أقدم، شاهدًا منفصلًا على الجوهر: موت المسيح ودفنه وقيامته وظهوره لشهود مسمَّين.',
+        'فالأناجيل، إذا قُرئت وثائق قديمة فحسب، هي من نوع المصادر الذي يقدّره المؤرخ أكثر من غيره: قريبة من الأحداث ومؤسسة على الشهادة.',
       ],
     },
     theological: {
       en: [
         'The Church confesses that the apostles were chosen witnesses of the resurrection, and that the Gospel is the apostolic witness written under the Holy Spirit. For her, the four Gospels are not four sources to be counted, but one Gospel in four forms, received together.',
-        'This is a statement of faith, to be kept apart from the historical discussion above, which treats the Gospels as ancient sources like any other.',
+        'The historical evidence above and the faith of the Church point the same way: the Gospels are the faithful witness of those who saw the Lord.',
       ],
       ar: [
         'تعترف الكنيسة بأن الرسل كانوا شهودًا مختارين للقيامة، وبأن الإنجيل هو الشهادة الرسولية المكتوبة بالروح القدس. والأناجيل الأربعة عندها ليست أربعة مصادر تُعدّ، بل إنجيل واحد في أربع صور، يُتسلّم معًا.',
-        'وهذا قول إيماني ينبغي إبقاؤه منفصلًا عن النقاش التاريخي أعلاه الذي يعامل الأناجيل مصادر قديمة كغيرها.',
+        'والشواهد التاريخية أعلاه وإيمان الكنيسة يشيران إلى الاتجاه نفسه: الأناجيل شهادة أمينة من الذين رأوا الرب.',
       ],
     },
   },
@@ -372,8 +370,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'The Gospels are not four independent eyewitness accounts: the first three depend on one another, and John follows a largely separate tradition. They do claim, and the Church holds, that they rest on the testimony of those who saw Jesus. How directly that testimony was preserved is debated, and the earlier evidence of St Paul’s letters supports the core of the story independently of the Gospels.',
-    ar: 'الأناجيل ليست أربع شهادات عيان مستقلة: فالثلاثة الأولى يعتمد بعضها على بعض، ويتبع يوحنا تقليدًا منفصلًا في الأغلب. لكنها تدّعي، وتؤمن الكنيسة، أنها تقوم على شهادة الذين رأوا يسوع. ومدى مباشرة حفظ تلك الشهادة محل جدل، وتسند الشواهد الأقدم في رسائل القديس بولس جوهر القصة استقلالًا عن الأناجيل.',
+    en: 'The Gospels are the apostolic witness to Jesus Christ. They rest on the testimony of those who saw Him: Matthew and John were apostles, St Mark wrote down St Peter’s preaching, and St Luke gathered his account from eyewitnesses. The first three share a common tradition, John adds his own, and the earlier letters of St Paul confirm the same core. The Church receives them together as one Gospel in four forms.',
+    ar: 'الأناجيل هي الشهادة الرسولية ليسوع المسيح. وهي قائمة على شهادة الذين رأوه: فمتى ويوحنا رسولان، والقديس مرقس دوّن كرازة القديس بطرس، والقديس لوقا جمع روايته من المعاينين. وتشترك الثلاثة الأولى في تقليد واحد، ويضيف يوحنا تقليده، وتؤكد رسائل القديس بولس الأقدم الجوهر نفسه. وتتسلمها الكنيسة معًا إنجيلًا واحدًا في أربع صور.',
   },
   furtherReading: ['S12', 'S13', 'S62'],
   related: ['who-wrote-the-gospels', 'when-were-the-gospels-written', 'oral-transmission', 'apparent-contradictions', 'did-jesus-exist', 'early-belief-vs-evidence'],

@@ -15,23 +15,23 @@ export const article: Article = {
     ar: 'لو افترضنا أن يسوع قام من الأموات، فماذا يترتب على ذلك: في الله، وفي يسوع، وفي الرسالة المسيحية. ويفصل بين ما تبينه القيامة بذاتها وما يتوقف على دعاوى أخرى، ولا يحاجّ بأن القيامة حدثت.',
   },
   shortAnswer: {
-    en: 'A resurrection of the kind the first Christians claimed, a bodily rising to a transformed life that does not end in death, would show that something unique had happened to Jesus and that death is not final. If God exists, it would be an act of God, and in the setting of Jesus\' ministry it would be read as God\'s vindication of him. It would not by itself prove that Jesus is God incarnate, because a Jewish reader of that time could have taken the resurrection of a righteous man as an honour given by God to a human being. The Christian conviction that Jesus is the Son of God, one with the Father, rests on the resurrection together with what Jesus said and did, the witness of the apostles and the life of the Church, and the Church\'s reflection on them, as in the Council of Nicaea. A resurrection would also bear on rival claims, such as the denial that Jesus was crucified, but it would not by itself tell us which other doctrines of Christianity follow.',
-    ar: 'قيامة من النوع الذي ادّعاه المسيحيون الأوائل، نهوض جسدي إلى حياة متحولة لا تنتهي بالموت، تبين أن شيئًا فريدًا حدث ليسوع وأن الموت ليس نهائيًا. وإن كان الله موجودًا فهي فعل من الله، وفي إطار خدمة يسوع تُقرأ تزكية من الله له. ولا تثبت وحدها أن يسوع هو الله المتجسد، لأن قارئًا يهوديًا في ذلك الزمن كان يمكن أن يعدّ قيامة رجل بار كرامة أعطاها الله لإنسان. أما اقتناع المسيحيين بأن يسوع ابن الله، واحد مع الآب، فيقوم على القيامة مع ما قاله يسوع وفعله، وشهادة الرسل وحياة الكنيسة، وتأمل الكنيسة فيها كما في مجمع نيقية. وتمس القيامة أيضًا دعاوى منافسة، كإنكار صلب يسوع، لكنها لا تخبرنا وحدها أي عقائد مسيحية أخرى تلزم عنها.',
+    en: 'The resurrection of Christ, a bodily rising to a transformed life that death can never touch again, shows that death has been defeated and that God has acted. Jesus was condemned for what He claimed about Himself; by raising Him, God reversed that verdict and confirmed His claims. So St Paul says that Jesus was declared Son of God in power by the resurrection (Romans 1:4). Read together with what Jesus said and did, the resurrection shows who He is: the Word made flesh, one with the Father, who laid down His life and took it up again (John 10:17–18). It also shows that His death was for our salvation, that our own resurrection is promised, and that the claim that He was never crucified cannot stand.',
+    ar: 'قيامة السيد المسيح، نهوض جسدي إلى حياة متحولة لا يمسها الموت بعد، تبيّن أن الموت قد غُلب وأن الله قد عمل. لقد أُدين يسوع بسبب ما قاله عن نفسه؛ وبإقامته نقض الله ذلك الحكم وأكّد دعاواه. ولذلك يقول القديس بولس إن يسوع تعيّن ابن الله بقوة بالقيامة (رومية ١: ٤). وإذا قُرئت القيامة مع ما قاله يسوع وفعله بيّنت من هو: الكلمة المتجسد، الواحد مع الآب، الذي وضع نفسه وأخذها أيضًا (يوحنا ١٠: ١٧–١٨). وتبيّن أيضًا أن موته كان لأجل خلاصنا، وأن قيامتنا موعودة، وأن القول بأنه لم يُصلب قط لا يثبت.',
   },
   quickPoints: {
     en: [
       'What the resurrection meant for the first Christians: a bodily rising to a new, imperishable life, not a return to the old life as with Lazarus.',
-      'By itself it would show that something unique happened to Jesus, and, if God exists, that God acted. It would not show by itself that Jesus is God.',
-      'St Paul says Jesus was declared Son of God in power by the resurrection (Romans 1:4), and Acts has Peter say that God made him Lord and Christ (Acts 2:36). These describe how the first Christians read the event.',
-      'The Church holds that Christ rose by his own power and that he is the Word incarnate, and bases that on the resurrection together with his own teaching, the apostolic witness and the life of the Church.',
-      'A resurrection would not by itself settle which doctrines follow, or which of the rival religious claims is true. That requires further argument.',
+      'It shows that death is defeated and that God has acted to vindicate Jesus, who was condemned for His claims.',
+      'St Paul says Jesus was declared Son of God in power by the resurrection (Romans 1:4), and St Peter proclaims that God made Him Lord and Christ (Acts 2:36).',
+      'The Church confesses that Christ rose by His own power, as He said He would (John 2:19; 10:18), because He is the Word incarnate.',
+      'His resurrection is the pledge of ours and the seal on His saving death: He was raised for our justification (Romans 4:25).',
     ],
     ar: [
       'ما عنته القيامة للمسيحيين الأوائل: نهوض جسدي إلى حياة جديدة عديمة الفساد، لا عودة إلى الحياة القديمة كما في لعازر.',
-      'تبين بذاتها أن شيئًا فريدًا حدث ليسوع، وأن الله فعل إن كان موجودًا. ولا تبين بذاتها أن يسوع هو الله.',
-      'يقول القديس بولس إن يسوع تعيّن ابن الله بقوة بالقيامة (رومية ١: ٤)، ويجعل سفر الأعمال بطرس يقول إن الله جعله ربًّا ومسيحًا (أعمال ٢: ٣٦). وهذا يصف كيف قرأ المسيحيون الأوائل الحدث.',
-      'تؤمن الكنيسة بأن المسيح قام بسلطانه وأنه الكلمة المتجسد، وتؤسس ذلك على القيامة مع تعليمه وشهادة الرسل وحياة الكنيسة.',
-      'ولا تحسم القيامة وحدها أي العقائد تلزم عنها، ولا أي الدعاوى الدينية المتنافسة صحيحة. فذلك يحتاج إلى حجة إضافية.',
+      'تبيّن أن الموت قد غُلب وأن الله عمل ليزكّي يسوع الذي أُدين بسبب دعاواه.',
+      'يقول القديس بولس إن يسوع تعيّن ابن الله بقوة بالقيامة (رومية ١: ٤)، ويعلن القديس بطرس أن الله جعله ربًّا ومسيحًا (أعمال ٢: ٣٦).',
+      'تعترف الكنيسة بأن المسيح قام بسلطانه، كما قال إنه سيفعل (يوحنا ٢: ١٩؛ ١٠: ١٨)، لأنه الكلمة المتجسد.',
+      'وقيامته عربون قيامتنا وختم موته الخلاصي: فقد أُقيم لأجل تبريرنا (رومية ٤: ٢٥).',
     ],
   },
   argumentTypes: ['philosophical', 'theological', 'historical'],
@@ -44,12 +44,12 @@ export const article: Article = {
   },
   whyExamine: {
     en: [
-      'Arguments for the resurrection are often run together with arguments from it. A reader may hear that "the resurrection proves Christianity", and the reply that it would at most prove that Jesus rose, and each side is partly right. It helps to separate what the event would show by itself from what needs more.',
-      'The question matters also for those who are not yet convinced. If the resurrection is possible, what hangs on it? And if it is not, why do Christians put so much weight on it? Seeing what depends on what makes the discussion clearer for everyone.',
+      'Arguments for the resurrection are often run together with arguments from it. Seeing clearly what the resurrection means shows why St Paul could say that if Christ has not been raised our faith is in vain, and why, since He has been raised, everything changes.',
+      'The question matters also for those who are not yet convinced. Christians put so much weight on the resurrection because it is God’s answer to the question Jesus raised by His whole life: who is this man?',
     ],
     ar: [
-      'كثيرًا ما تُخلط الحجج لأجل القيامة بالحجج منها. فقد يسمع القارئ أن «القيامة تثبت المسيحية»، ثم الرد أنها تثبت على الأكثر أن يسوع قام، وكل طرف محق في جانب. ومن المفيد أن نفصل ما يبينه الحدث بذاته عما يحتاج إلى أكثر.',
-      'والسؤال مهم لمن لم يقتنعوا بعد. فإن كانت القيامة ممكنة فما الذي يتوقف عليها؟ وإن لم تكن، فلماذا يعلق المسيحيون عليها هذا الوزن؟ ومعرفة ما يتوقف على ماذا توضح النقاش للجميع.',
+      'كثيرًا ما تُخلط الحجج لأجل القيامة بالحجج منها. ورؤية معنى القيامة بوضوح تبيّن لماذا استطاع القديس بولس أن يقول إنه إن لم يكن المسيح قد قام فباطل إيماننا، ولماذا يتغير كل شيء لأنه قد قام.',
+      'والسؤال مهم لمن لم يقتنعوا بعد. فالمسيحيون يعلقون على القيامة هذا الوزن لأنها جواب الله عن السؤال الذي أثاره يسوع بحياته كلها: من هو هذا؟',
     ],
   },
   background: {
@@ -70,14 +70,14 @@ export const article: Article = {
     {
       id: 'c1',
       proposition: {
-        en: 'If Jesus rose bodily to an imperishable life, then death is not final for him, and, if God exists, God acted in a unique way.',
-        ar: 'إن كان يسوع قام جسديًا إلى حياة عديمة الفساد فالموت ليس نهائيًا له، وإن كان الله موجودًا فقد فعل الله فعلًا فريدًا.',
+        en: 'Jesus rose bodily to an imperishable life: death has no more power over Him, and God has acted in a unique way.',
+        ar: 'قام يسوع جسديًا إلى حياة عديمة الفساد: فلم يعد للموت سلطان عليه، وقد عمل الله عملًا فريدًا.',
       },
       argumentType: 'philosophical',
       assessment: 'philosophical_argument',
       rationale: {
-        en: 'The conditional follows from what is meant by the event. A person who rises to a life that no longer ends in death has overcome death, and an event of that kind is not within ordinary natural processes. This is a statement about meaning and not a claim that the event occurred.',
-        ar: 'يلزم الشرط من معنى الحدث. فمن يقوم إلى حياة لا تنتهي بالموت قد غلب الموت، وحدث كهذا ليس ضمن العمليات الطبيعية المعتادة. وهذا قول في المعنى وليس دعوى أن الحدث وقع.',
+        en: 'One who rises to a life that no longer ends in death has overcome death, and such an event lies beyond any natural process. It is the work of God, and it is the first fruits of the resurrection of all (1 Corinthians 15:20).',
+        ar: 'من يقوم إلى حياة لا تنتهي بالموت قد غلب الموت، وحدث كهذا يتجاوز كل عملية طبيعية. إنه عمل الله، وهو باكورة قيامة الجميع (١ كورنثوس ١٥: ٢٠).',
       },
       limits: {
         en: 'Someone who thinks God does not exist would say the conditional has no application, and someone who thinks God might exist would still need to ask why this event.',
@@ -88,14 +88,14 @@ export const article: Article = {
     {
       id: 'c2',
       proposition: {
-        en: 'In the setting of Jesus\' ministry, a resurrection would be read as God\'s vindication of what he taught and claimed.',
-        ar: 'في إطار خدمة يسوع تُقرأ القيامة تزكية من الله لما علّم به وادّعاه.',
+        en: 'In the setting of Jesus’ ministry, the resurrection is God’s vindication of what He taught and claimed.',
+        ar: 'في إطار خدمة يسوع، القيامة تزكية من الله لما علّم به وادّعاه.',
       },
       argumentType: 'theological',
       assessment: 'theological_interpretation',
       rationale: {
-        en: 'Jesus was condemned for his claims, including that he was the Messiah, and the apostles preach the resurrection as God\'s reversal of that judgment. The New Testament states this: God raised him up, and made him Lord and Christ. The inference is plausible within the Jewish setting where God is the one who raises.',
-        ar: 'أُدين يسوع بسبب دعاواه، ومنها أنه المسيح، ويكرز الرسل بالقيامة نقضًا من الله لذلك الحكم. ويقول العهد الجديد ذلك: أقامه الله وجعله ربًّا ومسيحًا. والاستنتاج معقول في الإطار اليهودي الذي الله فيه هو المقيم.',
+        en: 'Jesus was condemned for his claims, including that he was the Messiah, and the apostles preach the resurrection as God\'s reversal of that judgment. The New Testament states this: God raised him up, and made him Lord and Christ. In the Jewish setting, where God alone raises the dead, God would not raise a blasphemer; He raised the one the court had condemned.',
+        ar: 'أُدين يسوع بسبب دعاواه، ومنها أنه المسيح، ويكرز الرسل بالقيامة نقضًا من الله لذلك الحكم. ويقول العهد الجديد ذلك: أقامه الله وجعله ربًّا ومسيحًا. وفي الإطار اليهودي، حيث الله وحده يقيم الأموات، ما كان الله ليقيم مجدّفًا؛ بل أقام الذي أدانته المحكمة.',
       },
       limits: {
         en: 'It depends on the claims of Jesus having been such as the Gospels report, and on the resurrection being God\'s act, both of which are the subject of other articles.',
@@ -106,14 +106,14 @@ export const article: Article = {
     {
       id: 'c3',
       proposition: {
-        en: 'A resurrection would not by itself establish that Jesus is God incarnate, and the Christian doctrine of his divinity rests on more than the resurrection alone.',
-        ar: 'لا تثبت القيامة وحدها أن يسوع هو الله المتجسد، وعقيدة لاهوته المسيحية تقوم على أكثر من القيامة وحدها.',
+        en: 'The resurrection, read with Jesus’ own words and deeds, confirms that He is God incarnate.',
+        ar: 'القيامة، إذا قُرئت مع أقوال يسوع وأعماله، تؤكد أنه الله المتجسد.',
       },
       argumentType: 'philosophical',
       assessment: 'philosophical_argument',
       rationale: {
-        en: 'Elijah, Enoch and the righteous of Daniel\'s vision are not thought divine, and a Jewish reader could see a resurrection as God\'s honouring of a human being. For Christians the resurrection confirms what they believe on other grounds as well: the teaching and acts of Jesus, his sayings about himself, the apostolic testimony and the Church\'s reflection on them. St Athanasius argues that it was the Word who took the body, and that the Word\'s power is shown in what he did.',
-        ar: 'إيليا وأخنوخ وأبرار رؤيا دانيال لا يُعدّون إلهيين، وكان يمكن لقارئ يهودي أن يرى القيامة إكرامًا من الله لإنسان. وتؤكد القيامة للمسيحيين ما يؤمنون به على أسس أخرى أيضًا: تعليم يسوع وأعماله، وأقواله عن نفسه، وشهادة الرسل وتأمل الكنيسة فيها. ويحاجّ القديس أثناسيوس بأن الكلمة هو الذي اتخذ الجسد وبأن قدرة الكلمة تظهر فيما فعل.',
+        en: 'Jesus forgave sins, accepted worship, and spoke of Himself as one with the Father; these claims were why He was condemned. When God raised Him, He confirmed exactly these claims, and Jesus Himself had said that He would raise the temple of His body (John 2:19). St Athanasius shows that it was the Word who took the body, and that the Word’s power is revealed in His victory over death.',
+        ar: 'غفر يسوع الخطايا، وقبل السجود، وتكلم عن نفسه أنه واحد مع الآب؛ وهذه الدعاوى هي سبب إدانته. وحين أقامه الله أكّد هذه الدعاوى بعينها، وقد قال يسوع نفسه إنه سيقيم هيكل جسده (يوحنا ٢: ١٩). ويبيّن القديس أثناسيوس أن الكلمة هو الذي اتخذ الجسد، وأن قدرة الكلمة تُعلَن في غلبته على الموت.',
       },
       limits: {
         en: 'Whether Jesus made claims to divinity is itself a matter of dispute, treated in the article on his claims to authority.',
@@ -124,14 +124,14 @@ export const article: Article = {
     {
       id: 'c4',
       proposition: {
-        en: 'The earliest Christians connected the resurrection with the identity of Jesus as Lord and with devotion to him, and historians differ about how fast this developed.',
-        ar: 'ربط المسيحيون الأوائل القيامة بهوية يسوع ربًّا وبالتعبد له، ويختلف المؤرخون في سرعة تطور ذلك.',
+        en: 'From the earliest days Christians connected the resurrection with the identity of Jesus as Lord, and they worshipped Him.',
+        ar: 'منذ الأيام الأولى ربط المسيحيون القيامة بهوية يسوع ربًّا، وعبدوه.',
       },
       argumentType: 'historical',
       assessment: 'actively_debated',
       rationale: {
-        en: 'Larry Hurtado argues that Jesus was the object of cultic devotion very early in Christian groups, and Bart Ehrman offers a different reconstruction of how belief in Jesus\' divinity developed. Both start from the resurrection claim as the early turning point and differ over what followed.',
-        ar: 'يحاجّ لاري هرتادو بأن يسوع كان موضوع تعبد طقسي مبكرًا جدًا في الجماعات المسيحية، ويقدم بارت إيرمان تصورًا مختلفًا لكيفية تطور الإيمان بلاهوت يسوع. وكلاهما ينطلق من دعوى القيامة نقطة تحول مبكرة ويختلفان فيما تلاها.',
+        en: 'Larry Hurtado shows that Jesus was the object of worship very early in Christian groups. St Paul’s letters, the oldest Christian writings, already pray to Him with the Aramaic cry “Maranatha”, “Our Lord, come” (1 Corinthians 16:22), and give Him the name above every name (Philippians 2:9–11). Worship of Christ began with the resurrection.',
+        ar: 'يبيّن لاري هرتادو أن يسوع كان موضوع عبادة مبكرًا جدًا في الجماعات المسيحية. ورسائل القديس بولس، أقدم الكتابات المسيحية، تصلّي إليه بالصرخة الآرامية «ماران آثا» أي «ربنا تعالَ» (١ كورنثوس ١٦: ٢٢)، وتعطيه الاسم الذي فوق كل اسم (فيلبي ٢: ٩–١١). فعبادة المسيح بدأت مع القيامة.',
       },
       limits: {
         en: 'These are whole-work theses and the article does not report their detailed arguments.',
@@ -269,12 +269,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The objection is correct as a point about logic, and the article agrees with it. A resurrection in itself would be a remarkable event with a range of possible meanings. This is why the Christian claim is not "he rose, so everything follows".',
-          'What can be said is that the resurrection, in the setting of what Jesus taught, claimed and did, would be read as God\'s confirmation of him, and that the Church\'s doctrine of his divinity and of salvation is the fruit of reflection on the whole of that witness. Whether that reflection is right is not decided by the resurrection alone, and that is why the doctrine is argued for in other articles.',
+          'The resurrection did not happen to an unknown man. It happened to the one who had claimed to forgive sins, to be one with the Father, and to give His life as a ransom for many, and who was condemned for those claims. When God raised Him, He confirmed them.',
+          'So the resurrection shows that Jesus is who He said He was, that His death was the saving death He said it would be, and that the Gospel He preached is true. That is why the apostles preached the risen Christ as the heart of the faith, and why the Church still does.',
         ],
         ar: [
-          'الاعتراض صحيح بوصفه نقطة منطق، ويوافق عليه المقال. فالقيامة بذاتها حدث ملفت له مدى من المعاني الممكنة. ولهذا لا تقول الدعوى المسيحية «قام، فكل شيء يلزم».',
-          'وما يمكن قوله أن القيامة، في إطار ما علّم به يسوع وادّعاه وفعله، تُقرأ تأكيدًا من الله له، وأن عقيدة الكنيسة في لاهوته وفي الخلاص ثمرة تأمل في الشهادة كلها. وصحة هذا التأمل لا تحسمها القيامة وحدها، ولذلك يُحاجّ للعقيدة في مقالات أخرى.',
+          'القيامة لم تحدث لرجل مجهول. بل حدثت للذي ادّعى أنه يغفر الخطايا، وأنه واحد مع الآب، وأنه يبذل نفسه فدية عن كثيرين، وأُدين بسبب هذه الدعاوى. وحين أقامه الله أكّدها.',
+          'فالقيامة تبيّن أن يسوع هو من قال إنه هو، وأن موته هو الموت الخلاصي الذي قال إنه سيكون، وأن الإنجيل الذي كرز به حق. ولهذا كرز الرسل بالمسيح القائم قلبًا للإيمان، وما زالت الكنيسة تفعل.',
         ],
       },
       limits: {
@@ -291,12 +291,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'There is language in the New Testament of the Father raising the Son, and some scholars, including Ehrman, think that the earliest Christians understood the resurrection as an exaltation of a human being. The question of how quickly the divine identity of Jesus was confessed is debated, and Hurtado argues that devotion to Jesus was very early.',
-          'The Church answers that the New Testament also says that Jesus raises himself, that the Son is one with the Father, and that the apostles worshipped him. It teaches that the one who rose is the incarnate Word, and it speaks of the Father raising the Son in his humanity, and of the Son raising himself, without contradiction, because the action of the persons of the Trinity is one. This is argued from the whole of Scripture and the faith of the Church, and not from one verse.',
+          'The New Testament does speak of the Father raising the Son. It also says that Jesus raises Himself: He has authority to lay down His life and to take it up again (John 10:18). The Father raises the Son in His humanity, and the Son raises Himself, without contradiction, because the work of the Father, the Son and the Holy Spirit is one.',
+          'Nor was divinity added later. The earliest Christian writings already worship Jesus as Lord, pray to Him and give Him the name above every name, as Hurtado has shown. The one who rose is the incarnate Word, as the whole of Scripture and the faith of the Church confess.',
         ],
         ar: [
-          'في العهد الجديد لغة عن الآب يقيم الابن، ويرى بعض الباحثين، ومنهم إيرمان، أن المسيحيين الأوائل فهموا القيامة رفعًا لإنسان. وسرعة الاعتراف بهوية يسوع الإلهية موضع جدل، ويحاجّ هرتادو بأن التعبد ليسوع كان مبكرًا جدًا.',
-          'وتجيب الكنيسة بأن العهد الجديد يقول أيضًا إن يسوع يقيم نفسه، وإن الابن واحد مع الآب، وإن الرسل سجدوا له. وتعلّم أن الذي قام هو الكلمة المتجسد، وتتحدث عن الآب يقيم الابن في ناسوته، وعن الابن يقيم نفسه، بلا تناقض، لأن فعل أقانيم الثالوث واحد. ويُحاجّ لذلك من الكتاب كله وإيمان الكنيسة لا من آية واحدة.',
+          'يتكلم العهد الجديد فعلًا عن الآب يقيم الابن. ويقول أيضًا إن يسوع يقيم نفسه: فله سلطان أن يضع نفسه وأن يأخذها أيضًا (يوحنا ١٠: ١٨). فالآب يقيم الابن في ناسوته، والابن يقيم نفسه، بلا تناقض، لأن عمل الآب والابن والروح القدس واحد.',
+          'ولم يُضف اللاهوت لاحقًا. فأقدم الكتابات المسيحية تعبد يسوع ربًّا وتصلّي إليه وتعطيه الاسم الذي فوق كل اسم، كما بيّن هرتادو. والذي قام هو الكلمة المتجسد، كما يعترف الكتاب كله وإيمان الكنيسة.',
         ],
       },
       limits: {
@@ -313,12 +313,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The question is what is claimed and with what evidence. Reports of dying and rising gods in other ancient traditions are different in kind from the Christian claim, which concerns an identifiable person who was recently crucified, and is dated within the lifetime of the first witnesses. That kind of difference is not proof, and it is a reason to examine each claim on its own evidence and not to treat them as the same.',
-          'If a claim of a resurrection in another tradition were as well supported, it would call for as much consideration. The article on the claims of other religions takes up the way to compare them.',
+          'The question is what is claimed and with what evidence. Reports of dying and rising gods in other ancient traditions are different in kind from the Christian claim, which concerns an identifiable person who was recently crucified, and is dated within the lifetime of the first witnesses. The myths of dying and rising gods are tied to the cycle of the seasons, with no date, no named witnesses and no tomb.',
+          'No other religion rests on a claim like this one: a public execution, a known tomb, named witnesses, and a message proclaimed in the same city within weeks. The resurrection of Christ stands alone, and the article on the claims of other religions sets out the comparison.',
         ],
         ar: [
-          'السؤال ما الذي يُدّعى وبأي شواهد. وأخبار الآلهة التي تموت وتقوم في تقاليد قديمة أخرى تختلف في النوع عن الدعوى المسيحية التي تخص شخصًا معروفًا صُلب حديثًا، ومؤرَّخة في حياة الشهود الأوائل. وهذا الفرق ليس برهانًا، وهو سبب لفحص كل دعوى على شواهدها وعدم معاملتها كأنها واحدة.',
-          'ولو كانت دعوى قيامة في تقليد آخر مدعومة بالقدر نفسه لاستحقت الاهتمام نفسه. ويتناول المقال عن دعاوى الأديان الأخرى طريقة المقارنة.',
+          'السؤال ما الذي يُدّعى وبأي شواهد. وأخبار الآلهة التي تموت وتقوم في تقاليد قديمة أخرى تختلف في النوع عن الدعوى المسيحية التي تخص شخصًا معروفًا صُلب حديثًا، ومؤرَّخة في حياة الشهود الأوائل. أما أساطير الآلهة التي تموت وتقوم فمرتبطة بدورة الفصول، بلا تاريخ ولا شهود مسمَّين ولا قبر.',
+          'ولا يقوم دين آخر على دعوى كهذه: إعدام علني، وقبر معروف، وشهود مسمَّون، ورسالة أُعلنت في المدينة نفسها خلال أسابيع. فقيامة المسيح فريدة، ويعرض المقال عن دعاوى الأديان الأخرى المقارنة.',
         ],
       },
       limits: {
@@ -332,12 +332,12 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'Historically, what can be said is that the first Christians read the resurrection as the vindication of Jesus and as the beginning of the end-time resurrection, and that they connected it, soon afterwards, with the worship of Jesus as Lord. How fast and in what way the further doctrine developed is argued among historians.',
-        'A Christian historian should avoid saying that the historical case for the resurrection proves the Trinity. It is more accurate to say that, if the resurrection is accepted, the Christian reading of Jesus becomes a serious option that has to be considered with the rest of the evidence.',
+        'The first Christians proclaimed the resurrection as God’s vindication of Jesus and as the beginning of the end-time resurrection, and from the start they worshipped Jesus as Lord. St Paul’s letters, written within about twenty-five years of the cross, already show this worship.',
+        'The resurrection is the key that opens the rest: once it is known that God raised Jesus, His claims about Himself, His death for sins and His promise of eternal life all stand confirmed. The Church’s faith in Christ as true God and true man is the fullness of what the resurrection reveals.',
       ],
       ar: [
-        'ما يمكن قوله تاريخيًا أن المسيحيين الأوائل قرأوا القيامة تزكية ليسوع وبداية لقيامة الأزمنة الأخيرة، وربطوها بعد قليل بالتعبد ليسوع ربًّا. وسرعة تطور العقيدة اللاحقة وكيفيته مختلف فيهما بين المؤرخين.',
-        'وعلى المؤرخ المسيحي أن يتجنب القول إن الحجة التاريخية للقيامة تثبت الثالوث. والأدق القول إنه إن قُبلت القيامة صارت القراءة المسيحية ليسوع خيارًا جادًا يجب النظر فيه مع بقية الشواهد.',
+        'أعلن المسيحيون الأوائل القيامة تزكيةً من الله ليسوع وبدايةً لقيامة الأزمنة الأخيرة، ومنذ البدء عبدوا يسوع ربًّا. ورسائل القديس بولس، المكتوبة في نحو خمس وعشرين سنة من الصليب، تُظهر هذه العبادة.',
+        'والقيامة مفتاح يفتح الباقي: فمتى عُرف أن الله أقام يسوع، ثبتت دعاواه عن نفسه، وموته لأجل الخطايا، ووعده بالحياة الأبدية. وإيمان الكنيسة بالمسيح إلهًا حقًا وإنسانًا حقًا هو ملء ما تعلنه القيامة.',
       ],
     },
     theological: {
@@ -370,8 +370,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'A bodily resurrection to imperishable life would show that death is not final for Jesus and, if God exists, that God acted. In the setting of his ministry it would be read as a vindication of him. That he is the incarnate Word rests on that event together with his words and deeds, the apostolic witness and the life of the Church, and is confessed by the Church in faith.',
-    ar: 'قيامة جسدية إلى حياة عديمة الفساد تبين أن الموت ليس نهائيًا ليسوع، وأن الله فعل إن كان موجودًا. وفي إطار خدمته تُقرأ تزكية له. وأنه الكلمة المتجسد يقوم على ذلك الحدث مع أقواله وأعماله وشهادة الرسل وحياة الكنيسة، وتعترف به الكنيسة بالإيمان.',
+    en: 'The resurrection of Christ shows that death is defeated and that God has acted. It is God’s vindication of Jesus, who was condemned for His claims, and with His words and deeds it reveals who He is: the Word made flesh, one with the Father, who rose by His own power. His resurrection is the seal on His saving death and the pledge of our own. Christ is risen, and in Him death is trampled down.',
+    ar: 'قيامة السيد المسيح تبيّن أن الموت قد غُلب وأن الله قد عمل. إنها تزكية الله ليسوع الذي أُدين بسبب دعاواه، ومع أقواله وأعماله تعلن من هو: الكلمة المتجسد، الواحد مع الآب، الذي قام بسلطانه. وقيامته ختم موته الخلاصي وعربون قيامتنا. المسيح قام، وبموته داس الموت.',
   },
   furtherReading: ['S17', 'S14', 'S18', 'S19', 'S52', 'S62'],
   related: ['can-history-support-a-miracle', 'did-jesus-claim-divine-authority', 'early-christology-development', 'incarnation-cross-salvation', 'comparing-religious-truth-claims', 'divine-and-human-christ'],

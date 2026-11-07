@@ -15,8 +15,8 @@ export const article: Article = {
     ar: 'تتناول هذه المقالة تهمة كثيرًا ما تُسمع وكثيرًا ما تكون في محلها: أن المسيحيين يخفقون في أن يعيشوا بما يعلّمون، وأن هذا يبيّن أن التعليم باطل أو فارغ. وهي تفصل بين ما تدل عليه الإخفاقات وما لا تدل عليه، وتقول بوضوح إن الإخفاقات حقيقية، وتشرح ما تقوله المسيحية نفسها عنها.',
   },
   shortAnswer: {
-    en: 'The failures of Christians are real, they are sometimes grave, and the Church has no wish to excuse them. Christians have persecuted others, used the faith to defend cruelty, protected the guilty and ignored the poor, and the Church has also done these things in its own history. But the conduct of believers does not decide whether what they believe is true. A teaching that sets a high standard will be broken by those who profess it, and a teaching that Christ himself condemned hypocrisy does not collapse because hypocrites exist. What the failures do show is that Christians should be humble, that the Church should repent where it has done wrong, and that a person who looks for Christ should look at Christ and not only at his followers. The Christian claim is about who Jesus is and what happened to him, and that stands or falls on the evidence about him.',
-    ar: 'إخفاقات المسيحيين حقيقية، وهي أحيانًا جسيمة، والكنيسة لا تريد أن تعتذر عنها. فقد اضطهد المسيحيون غيرهم، واستعملوا الإيمان للدفاع عن القسوة، وحموا المذنبين وأهملوا الفقراء، وفعلت الكنيسة نفسها ذلك أيضًا في تاريخها. لكن سلوك المؤمنين لا يحسم هل ما يؤمنون به حق. فالتعليم الذي يضع معيارًا عاليًا سيكسره من يعتنقونه، والتعليم الذي أدان المسيح نفسه فيه الرياء لا ينهار لأن مرائين موجودون. وما تدل عليه الإخفاقات أن على المسيحيين أن يتواضعوا، وأن على الكنيسة أن تتوب حيث أخطأت، وأن من يبحث عن المسيح ينبغي أن ينظر إلى المسيح لا إلى أتباعه فقط. والدعوى المسيحية عن من هو يسوع وما حدث له، وهذه تثبت أو تسقط بالدليل عنه.',
+    en: 'The failures of Christians are real, sometimes grave, and the Church does not excuse them. Christians have persecuted others, used the faith to defend cruelty, protected the guilty and ignored the poor. But the sins of believers do not make the Gospel false. Christ Himself condemned hypocrisy more sharply than anyone, and foretold that some who called Him Lord would not do His will; hypocrites prove His warning, not that He was wrong. The truth of the faith rests on who Jesus is and on His resurrection. The failures call Christians to humility and repentance, and they invite everyone who is searching to look at Christ Himself, whose life is the standard and whose mercy is the hope of all who fall short.',
+    ar: 'إخفاقات المسيحيين حقيقية، وأحيانًا جسيمة، والكنيسة لا تبرّرها. فقد اضطهد المسيحيون غيرهم، واستعملوا الإيمان للدفاع عن القسوة، وحموا المذنبين وأهملوا الفقراء. لكن خطايا المؤمنين لا تجعل الإنجيل باطلًا. فالمسيح نفسه أدان الرياء بأشد مما أدانه أي أحد، وأنبأ بأن بعض من يدعونه ربًّا لن يعملوا إرادته؛ فالمراؤون يُثبتون تحذيره، لا أنه أخطأ. وحق الإيمان قائم على من هو يسوع وعلى قيامته. والإخفاقات تدعو المسيحيين إلى التواضع والتوبة، وتدعو كل باحث إلى أن ينظر إلى المسيح نفسه، الذي حياته المعيار ورحمته رجاء كل من يقصر عنه.',
   },
   quickPoints: {
     en: [
@@ -24,7 +24,7 @@ export const article: Article = {
       'Jesus himself condemned hypocrisy and warned that some who call him Lord would not be known by him; the standard condemns those who fall short of it.',
       'The behaviour of believers is evidence about believers. It is not direct evidence about whether the central Christian claims, about Jesus, are true.',
       'The New Testament says openly that the first Christians were sinners, and a name brought into disrepute by their conduct: St Paul rebuked St Peter, and he told others that the name of God was blasphemed because of them.',
-      'The same history includes Christians who gave their lives in care of the poor, the sick and the persecuted; neither list alone gives a fair picture.',
+      'The same history is full of Christians who gave their lives in care of the poor, the sick and the persecuted; that too is the fruit of the Gospel.',
       'The right response to the failures is repentance and a better life, not denial and not despair.',
     ],
     ar: [
@@ -32,7 +32,7 @@ export const article: Article = {
       'أدان يسوع نفسه الرياء وحذر من أن بعض الذين يدعونه ربًّا لن يعرفهم؛ فالمعيار يدين الذين يقصرون عنه.',
       'سلوك المؤمنين دليل عن المؤمنين. وليس دليلًا مباشرًا هل الدعاوى المسيحية المركزية، عن يسوع، حق.',
       'يقول العهد الجديد صراحةً إن المسيحيين الأوائل كانوا خطاة، وإن الاسم جُلب إليه العار بسلوكهم: فقد وبّخ القديس بولس القديس بطرس، وقال لآخرين إن اسم الله يُجدَّف عليه بسببهم.',
-      'ويشمل التاريخ نفسه مسيحيين بذلوا حياتهم في خدمة الفقراء والمرضى والمضطهدين؛ ولا تعطي قائمة واحدة صورة عادلة.',
+      'والتاريخ نفسه ممتلئ بمسيحيين بذلوا حياتهم في خدمة الفقراء والمرضى والمضطهدين؛ وهذا أيضًا ثمر الإنجيل.',
       'الجواب الصحيح عن الإخفاقات التوبة وحياة أفضل، لا الإنكار ولا اليأس.',
     ],
   },
@@ -47,11 +47,11 @@ export const article: Article = {
   whyExamine: {
     en: [
       'For many people this is not an argument but a wound. They have been hurt by someone who spoke for the Church, or by a congregation that put its reputation before a victim, or by a relative whose religion made him harder to live with. A reply that begins by defending the Church would be another injury.',
-      'It is also one of the most common reasons given for leaving, or never approaching, the faith. The answer therefore has to say first that the charge is often true, and then ask what follows from it.',
+      'It is also one of the most common reasons given for leaving, or never approaching, the faith. The answer therefore begins by admitting that the charge is often true, and then shows why Christ is still worth coming to.',
     ],
     ar: [
       'عند كثيرين هذا ليس حجة بل جرح. فقد جرحهم من تكلم باسم الكنيسة، أو جماعة قدمت سمعتها على الضحية، أو قريب جعله دينه أصعب في العيش معه. والرد الذي يبدأ بالدفاع عن الكنيسة سيكون جرحًا آخر.',
-      'وهو أيضًا من أكثر الأسباب شيوعًا لترك الإيمان أو عدم الاقتراب منه. فينبغي للجواب أن يقول أولًا إن التهمة كثيرًا ما تكون صحيحة، ثم يسأل ماذا يترتب عليها.',
+      'وهو أيضًا من أكثر الأسباب شيوعًا لترك الإيمان أو عدم الاقتراب منه. فيبدأ الجواب بالإقرار بأن التهمة كثيرًا ما تكون صحيحة، ثم يبيّن لماذا يبقى المسيح جديرًا بأن نأتي إليه.',
     ],
   },
   background: {
@@ -96,8 +96,8 @@ export const article: Article = {
       argumentType: 'philosophical',
       assessment: 'philosophical_argument',
       rationale: {
-        en: 'The truth of a claim is separate from the character of those who hold it. A true teaching can be held by bad people and a false one by good people. This is a point of logic that critics and defenders can both accept.',
-        ar: 'صحة الدعوى منفصلة عن أخلاق من يتمسكون بها. فقد يتمسك أناس أشرار بتعليم صحيح وأناس صالحون بتعليم باطل. وهذه نقطة منطقية يقبلها النقاد والمدافعون.',
+        en: 'The truth of a claim is separate from the character of those who hold it. A doctor who smokes does not make the danger of smoking false. Christ Himself said that false prophets would be known by their fruit and that not everyone who says "Lord, Lord" will enter the kingdom; and St James teaches that faith without works is dead. The Gospel itself judges the hypocrite.',
+        ar: 'صحة الدعوى منفصلة عن أخلاق من يتمسكون بها. فالطبيب المدخّن لا يجعل خطر التدخين باطلًا. وقد قال المسيح نفسه إن الأنبياء الكذبة يُعرفون من ثمارهم، وإن ليس كل من يقول «يا رب يا رب» يدخل الملكوت؛ ويعلّم القديس يعقوب أن الإيمان بدون أعمال ميت. فالإنجيل نفسه يدين المرائي.',
       },
       limits: {
         en: 'If a faith claims that it transforms its members, then a total absence of transformation would be relevant. The claim here is only that imperfection is not refutation.',
@@ -114,8 +114,8 @@ export const article: Article = {
       argumentType: 'historical',
       assessment: 'supported_disputed_details',
       rationale: {
-        en: 'Pliny’s report of Christian practice and Justin’s description of the community’s collection for the needy are early outside and inside witnesses. They describe the ideal and the practice at those times and places, and do not show the whole history.',
-        ar: 'تقرير بليني عن الممارسة المسيحية ووصف يوستينوس لجمع الجماعة للمحتاجين شاهدان مبكران من الخارج ومن الداخل. وهما يصفان المثال والممارسة في تلك الأزمنة والأماكن، ولا يبيّنان التاريخ كله.',
+        en: 'Pliny, a Roman governor examining Christians about AD 110, reports that they bound themselves by oath to avoid theft, fraud and adultery. St Justin Martyr describes the Sunday collection given to orphans, widows, the sick, prisoners and strangers. From the start, outsiders and insiders alike saw a community committed to a high standard and to the care of the needy.',
+        ar: 'يروي بليني، الحاكم الروماني الذي فحص المسيحيين نحو سنة ١١٠، أنهم التزموا بعهد أن يتجنبوا السرقة والغش والزنى. ويصف القديس يوستينوس الشهيد عطايا الأحد التي تُعطى لليتامى والأرامل والمرضى والمسجونين والغرباء. فمنذ البدء رأى من في الخارج ومن في الداخل جماعة ملتزمة بمعيار عالٍ وبالعناية بالمحتاجين.',
       },
       limits: {
         en: 'Descriptions of an ideal community are not the same as proof that it was lived. The comparison with other groups is not made here.',
@@ -240,12 +240,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'This is the strongest form of the charge, and it is right that a faith which claims to change people be asked for evidence of change. The Church answers that the change is real but gradual, and that the Church describes itself as a hospital for sinners and not a gathering of the finished. It expects struggle, falls and repentance, and it counts repentance as a form of the change.',
-          'There is evidence on the other side as well: saints, martyrs, monks, ordinary people whose lives were turned around, and long traditions of care for the poor and sick that came out of Christian communities. Neither the failures nor the successes can be counted by a simple tally, and the Church does not claim that the good outweighs the evil.',
+          'It is right to ask a faith that claims to change people for evidence of change. The change is real but gradual. The Church is a hospital for sinners, not a gathering of the finished. She expects struggle, falls and repentance, and repentance itself is part of the change.',
+          'And the evidence of transformation is everywhere in her history: saints, martyrs and monks, ordinary people whose lives were turned around, and long traditions of care for the poor and the sick that grew out of Christian communities. Many who came to Christ broken have been made whole. The failures are real, but so is the healing.',
         ],
         ar: [
-          'هذه أقوى صيغ التهمة، ومن الحق أن يُسأل الإيمان الذي يدّعي تغيير الناس عن دليل التغيير. وتجيب الكنيسة بأن التغيير حقيقي لكنه تدريجي، وبأنها تصف نفسها مستشفى للخطاة لا جماعة من المنتهين. وهي تتوقع الجهاد والسقوط والتوبة، وتعد التوبة صورة من صور التغيير.',
-          'وفي الجانب الآخر شواهد أيضًا: قديسون وشهداء ورهبان وأناس عاديون انقلبت حياتهم، وتقاليد طويلة في العناية بالفقراء والمرضى خرجت من جماعات مسيحية. ولا يمكن إحصاء الإخفاقات ولا النجاحات بعدّ بسيط، والكنيسة لا تدّعي أن الخير يفوق الشر.',
+          'من الحق أن يُسأل الإيمان الذي يدّعي تغيير الناس عن دليل التغيير. والتغيير حقيقي لكنه تدريجي. فالكنيسة مستشفى للخطاة لا جماعة من المنتهين. وهي تتوقع الجهاد والسقوط والتوبة، والتوبة نفسها جزء من التغيير.',
+          'وشواهد التغيير في كل مكان من تاريخها: قديسون وشهداء ورهبان، وأناس عاديون انقلبت حياتهم، وتقاليد طويلة في العناية بالفقراء والمرضى نبتت من جماعات مسيحية. وكثيرون جاؤوا إلى المسيح منكسرين فصاروا أصحاء. فالإخفاقات حقيقية، والشفاء حقيقي أيضًا.',
         ],
       },
       limits: {
@@ -263,11 +263,11 @@ export const article: Article = {
       response: {
         en: [
           'The Church does not use the phrase “not true Christians” to dismiss the cases. Leaders and institutions have done wrong, and where this is so the Church must say it plainly, make what restitution it can and change.',
-          'The Church also holds that it is both the body of Christ and a body of sinners, and that its holiness comes from Christ and not from its members. This is a statement of faith. It does not excuse the institution, which remains responsible for what it did.',
+          'The Church is both the body of Christ and a gathering of sinners being healed; her holiness comes from Christ and not from her members. That does not excuse any institution, which remains responsible for what it did. It means that the wrongs of Christians are judged by Christ Himself, and that He remains true when His people fail.',
         ],
         ar: [
           'لا تستعمل الكنيسة عبارة «ليسوا مسيحيين حقيقيين» لتنحية الحالات. فقد أخطأ القادة والمؤسسات، وحيث كان ذلك فعلى الكنيسة أن تقوله بوضوح، وأن تعوض بما تستطيع، وأن تتغير.',
-          'وتعتقد الكنيسة أيضًا أنها جسد المسيح وجسد خطاة معًا، وأن قداستها من المسيح لا من أعضائها. وهذا بيان إيمان. ولا يعذر المؤسسة، التي تبقى مسؤولة عما فعلته.',
+          'والكنيسة جسد المسيح وجماعة خطاة يُشفون معًا؛ وقداستها من المسيح لا من أعضائها. وهذا لا يعذر أي مؤسسة، فهي تبقى مسؤولة عما فعلته. لكنه يعني أن أخطاء المسيحيين يدينها المسيح نفسه، وأنه يبقى أمينًا حين يخفق شعبه.',
         ],
       },
       limits: {
@@ -303,10 +303,10 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'The historical record shows both failure and goodness, and neither can be left out. The New Testament records failure within the first generation. Outside observers in the second century record a standard of conduct and a practice of care for the needy. Later centuries record great wrongs, and also hospitals, schools, relief of the poor and costly witness. A fair history does not take either list as the whole story.',
+        'The New Testament records failure honestly within the first generation, even among the apostles, and keeps it in Scripture. Outside observers in the second century record a high standard of conduct and a practice of care for the needy. Later centuries record great wrongs, and also hospitals, schools, relief of the poor and costly witness unto death. The same faith that its followers betrayed is the faith that judged their betrayal and inspired the good.',
       ],
       ar: [
-        'يُظهر السجل التاريخي الإخفاق والصلاح معًا، ولا يمكن إهمال أيهما. يسجل العهد الجديد الإخفاق في الجيل الأول. ويسجل مراقبون من الخارج في القرن الثاني معيار سلوك وممارسة عناية بالمحتاجين. وتسجل القرون التالية مظالم عظيمة، وأيضًا مستشفيات ومدارس وإغاثة للفقراء وشهادة غالية الثمن. والتاريخ المنصف لا يأخذ قائمة منهما القصة كلها.',
+        'يسجل العهد الجديد الإخفاق بأمانة في الجيل الأول، حتى بين الرسل، ويحفظه في الكتاب. ويسجل مراقبون من الخارج في القرن الثاني معيار سلوك عاليًا وممارسة عناية بالمحتاجين. وتسجل القرون التالية مظالم عظيمة، وأيضًا مستشفيات ومدارس وإغاثة للفقراء وشهادة غالية الثمن حتى الموت. والإيمان نفسه الذي خانه أتباعه هو الإيمان الذي دان خيانتهم وألهم الخير.',
       ],
     },
     theological: {
@@ -341,8 +341,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'The failures of Christians are real, and the Church should name them and repent of them. They do not decide whether Jesus is who the Church says he is, since the truth of a claim does not depend on the conduct of those who hold it, and Christ himself foretold that some who profess him would not live by him. The failures do mean that Christians have no right to claim superiority, and every right to ask forgiveness.',
-    ar: 'إخفاقات المسيحيين حقيقية، وعلى الكنيسة أن تسميها وتتوب منها. وهي لا تحسم هل يسوع هو من تقول الكنيسة، لأن صحة الدعوى لا تتوقف على سلوك من يتمسكون بها، ولأن المسيح نفسه أنبأ بأن بعض من يعترفون به لن يعيشوا به. وتعني الإخفاقات أن لا حق للمسيحيين في ادعاء التفوق، وكل الحق في طلب الغفران.',
+    en: 'The failures of Christians are real, and the Church names them and repents of them. They do not change who Jesus is: the truth of the Gospel rests on Him and on His resurrection, not on the conduct of His followers, and He Himself foretold that some who profess Him would not live by Him. Christians do not claim to be better than others; they claim to have a Saviour. Look at Him, and you will find both the standard that judges our failures and the mercy that heals them.',
+    ar: 'إخفاقات المسيحيين حقيقية، والكنيسة تسميها وتتوب منها. لكنها لا تغيّر من هو يسوع: فحق الإنجيل قائم عليه وعلى قيامته، لا على سلوك أتباعه، وقد أنبأ هو نفسه بأن بعض من يعترفون به لن يعيشوا به. والمسيحيون لا يدّعون أنهم أفضل من غيرهم؛ بل يقولون إن لهم مخلّصًا. انظر إليه، فتجد المعيار الذي يدين إخفاقاتنا والرحمة التي تشفيها.',
   },
   furtherReading: ['S05', 'S50', 'S62'],
   related: [

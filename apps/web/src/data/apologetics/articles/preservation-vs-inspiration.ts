@@ -15,25 +15,25 @@ export const article: Article = {
     ar: 'تميز هذه المقالة بين سؤالين كثيرًا ما يختلطان: هل حُفظت صيغة النص الكتابي عبر النسخ، وهل الكتب المقدسة موحى بها من الله. وهي تشرح كيف يُجاب عن كل منهما، وبأي نوع من الشواهد، وكيف تربط بينهما الكنيسة القبطية الأرثوذكسية. ولا تثبت الوحي (انظر مقالة لماذا يُعد الكتاب موحى به)، ولا تستعرض المخطوطات (انظر مقالة هل تغيّر النص).',
   },
   shortAnswer: {
-    en: 'Preservation asks what the text says now compared with what was first written; it is a historical question answered by comparing manuscripts. Inspiration asks about the origin and authority of the writings; it is a question of faith, answered within the Church’s life. The two are related but not the same: a text can be well preserved without being inspired, and a Christian can hold that the Scriptures are inspired without claiming that every copyist was free from error. The Coptic Orthodox Church confesses that the Holy Spirit inspired the Scriptures and guides the Church that received them, and she welcomes the study of the manuscripts as a service to understanding the text.',
-    ar: 'يسأل الحفظ ماذا يقول النص الآن مقارنة بما كُتب أول مرة؛ وهو سؤال تاريخي يُجاب عنه بمقارنة المخطوطات. ويسأل الوحي عن مصدر الكتابات وسلطانها؛ وهو سؤال إيمان يُجاب عنه داخل حياة الكنيسة. والسؤالان مترابطان لكنهما ليسا واحدًا: فقد يُحفظ نص جيدًا دون أن يكون موحى به، وقد يؤمن مسيحي بأن الكتب موحى بها دون أن يدّعي أن كل ناسخ كان معصومًا من الخطأ. وتعترف الكنيسة القبطية الأرثوذكسية بأن الروح القدس أوحى بالكتب المقدسة ويرشد الكنيسة التي تسلمتها، وترحب بدراسة المخطوطات خدمةً لفهم النص.',
+    en: 'Preservation asks whether the wording we read today matches what was first written; it is answered by comparing manuscripts, and the answer is reassuring: copies differ mostly in small details, and the original wording can be recovered in the great majority of places. Inspiration asks where the Scriptures come from; the Church confesses that the Holy Spirit spoke through the prophets and apostles, working through their own minds and styles. The two belong together without being the same. The Coptic Orthodox Church does not rest her faith on any copyist being free from error. She trusts the God who inspired the Scriptures and who guides the Church that received them, read them and prayed them through the centuries, and she welcomes the careful study of the manuscripts.',
+    ar: 'يسأل الحفظ هل الصيغة التي نقرؤها اليوم تطابق ما كُتب أول مرة؛ ويُجاب عنه بمقارنة المخطوطات، والجواب مطمئن: النسخ تختلف في الغالب في تفاصيل صغيرة، ويمكن استرداد الصيغة الأصلية في الغالبية العظمى من المواضع. ويسأل الوحي من أين جاءت الكتب المقدسة؛ والكنيسة تعترف بأن الروح القدس تكلم في الأنبياء والرسل، عاملًا من خلال عقولهم وأساليبهم. والأمران مترابطان دون أن يكونا شيئًا واحدًا. والكنيسة القبطية الأرثوذكسية لا تقيم إيمانها على عصمة أي ناسخ من الخطأ. بل تثق بالله الذي أوحى بالكتب ويرشد الكنيسة التي تسلمتها وقرأتها وصلّت بها عبر القرون، وترحب بالدراسة الدقيقة للمخطوطات.',
   },
   quickPoints: {
     en: [
-      'Preservation is about the copying history of the text; inspiration is about its origin and authority.',
-      'Preservation can be studied by anyone, by comparing manuscripts; inspiration is a confession of faith.',
-      'Manuscripts can show how well the wording was kept, but cannot prove or disprove that God inspired the writing.',
-      'Christian traditions describe the link between the two differently, for example by emphasising the original writings or the Church’s reception.',
-      'The Coptic Orthodox Church receives Scripture as inspired and read within Holy Tradition, which includes the Church’s life of worship.',
-      'Muslim and secular critics sometimes claim the text was corrupted; the manuscript evidence can address copying, but not the theological judgment.',
+      'Preservation concerns the copying history of the text; inspiration concerns its origin in God and its authority.',
+      'The manuscripts show a text copied with small variations whose earlier wording can be recovered in most places, for the New Testament and the Hebrew Bible alike.',
+      'The Scriptures themselves speak of inspiration: all Scripture is God-breathed (2 Timothy 3:16), and the prophets spoke as they were moved by the Holy Spirit (2 Peter 1:21).',
+      'Inspiration does not mean mechanical dictation: God worked through the human authors, with their own minds and styles.',
+      'The Coptic Orthodox Church receives Scripture as inspired and reads it within Holy Tradition and her worship, so small copying variants do not shake her faith.',
+      'To the claim that the Bible was corrupted, the manuscript evidence answers that the oldest copies carry recognisably the same text we read today.',
     ],
     ar: [
-      'الحفظ يتعلق بتاريخ نسخ النص؛ والوحي يتعلق بمصدره وسلطانه.',
-      'يستطيع أي أحد دراسة الحفظ بمقارنة المخطوطات؛ أما الوحي فاعتراف إيماني.',
-      'تستطيع المخطوطات أن تبيّن مدى حفظ الصيغة، ولا تستطيع أن تثبت أو تنفي أن الله أوحى بالكتابة.',
-      'تصف التقاليد المسيحية الصلة بين الأمرين بصور مختلفة، كالتشديد على الكتابات الأصلية أو على تسلّم الكنيسة.',
-      'تتسلم الكنيسة القبطية الأرثوذكسية الكتاب موحى به ومقروءًا داخل التقليد المقدس، ومنه حياة العبادة في الكنيسة.',
-      'يدعي بعض الناقدين المسلمين والعلمانيين أن النص حُرّف؛ وتستطيع شواهد المخطوطات معالجة النسخ، لا الحكم اللاهوتي.',
+      'الحفظ يتعلق بتاريخ نسخ النص؛ والوحي يتعلق بمصدره في الله وسلطانه.',
+      'تُظهر المخطوطات نصًا نُسخ بتباينات صغيرة يمكن استرداد صيغته الأقدم في أكثر المواضع، في العهد الجديد والكتاب العبري على السواء.',
+      'الكتب المقدسة نفسها تتكلم عن الوحي: كل الكتاب موحى به من الله (تيموثاوس الثانية ٣: ١٦)، وتكلم الأنبياء مسوقين من الروح القدس (بطرس الثانية ١: ٢١).',
+      'لا يعني الوحي إملاءً آليًا: فقد عمل الله من خلال الكتّاب البشر، بعقولهم وأساليبهم.',
+      'تتسلم الكنيسة القبطية الأرثوذكسية الكتاب موحى به وتقرؤه داخل التقليد المقدس وعبادتها، فلا تزعزع التباينات الصغيرة في النسخ إيمانها.',
+      'وعلى دعوى تحريف الكتاب تجيب شواهد المخطوطات بأن أقدم النسخ تحمل على نحو واضح النص نفسه الذي نقرؤه اليوم.',
     ],
   },
   argumentTypes: ['textual', 'theological', 'philosophical'],
@@ -46,12 +46,12 @@ export const article: Article = {
   },
   whyExamine: {
     en: [
-      'Arguments about the Bible often go wrong by running these two questions together. A believer may think that admitting copyists’ errors threatens inspiration; a critic may think that finding copyists’ errors disproves inspiration. In both cases a historical observation is being taken to answer a theological question, or the reverse.',
-      'Separating them also helps in conversation with people of other faiths. For instance, Muslim friends may hold that earlier scriptures were altered, and the useful response is to ask what is claimed, when, and on what evidence, while respecting what the Church itself believes.',
+      'Arguments about the Bible often go wrong by running these two questions together. A believer may fear that admitting copyists’ slips threatens inspiration; a critic may think that finding them disproves it. Seeing the difference frees the believer from that fear.',
+      'It also helps in conversation with people of other faiths. Muslim friends may hold that the earlier scriptures were altered. The believer can answer calmly and respectfully: ask what is claimed, when, and on what evidence, and show what the manuscripts actually contain.',
     ],
     ar: [
-      'تضل المحاجّات حول الكتاب المقدس كثيرًا حين تخلط بين هذين السؤالين. فقد يظن مؤمن أن الإقرار بأخطاء النسّاخ يهدد الوحي، وقد يظن ناقد أن اكتشاف أخطاء النسّاخ ينفي الوحي. وفي الحالتين تُؤخذ ملاحظة تاريخية جوابًا عن سؤال لاهوتي، أو العكس.',
-      'والفصل بينهما يفيد أيضًا في الحوار مع أصحاب الأديان الأخرى. فقد يرى أصدقاء مسلمون أن الكتب السابقة غُيرت، والجواب النافع أن نسأل ما المدعى، ومتى، وعلى أي شاهد، مع احترام ما تؤمن به الكنيسة نفسها.',
+      'تضل المحاجّات حول الكتاب المقدس كثيرًا حين تخلط بين هذين السؤالين. فقد يخشى مؤمن أن الإقرار بزلات النسّاخ يهدد الوحي، وقد يظن ناقد أن اكتشافها ينفيه. ورؤية الفرق تحرر المؤمن من هذا الخوف.',
+      'وهي تفيد أيضًا في الحوار مع أصحاب الأديان الأخرى. فقد يرى أصدقاء مسلمون أن الكتب السابقة غُيّرت. ويستطيع المؤمن أن يجيب بهدوء واحترام: أن يسأل ما المدّعى، ومتى، وعلى أي شاهد، وأن يبيّن ما تحويه المخطوطات فعلًا.',
     ],
   },
   background: {
@@ -79,8 +79,8 @@ export const article: Article = {
       argumentType: 'philosophical',
       assessment: 'philosophical_argument',
       rationale: {
-        en: 'A text can have been faithfully copied without being divinely inspired, and a divinely inspired text could be copied imperfectly. The two properties are logically independent, so evidence about one does not settle the other.',
-        ar: 'قد يُنسخ نص بأمانة دون أن يكون موحى به إلهيًا، وقد يُنسخ نص موحى به نسخًا غير كامل. والخاصيتان مستقلتان منطقيًا، فالدليل على إحداهما لا يحسم الأخرى.',
+        en: 'A text can be faithfully copied without being inspired, and an inspired text can pass through imperfect copyists. The two are distinct, so a copyist’s slip says nothing against the divine origin of what he was copying.',
+        ar: 'قد يُنسخ نص بأمانة دون أن يكون موحى به، وقد يمر نص موحى به بنسّاخ غير كاملين. والأمران متمايزان، فزلة الناسخ لا تقول شيئًا ضد الأصل الإلهي لما كان ينسخه.',
       },
       limits: {
         en: 'A theology may link them: someone may hold that God would preserve what he inspired. That link is a theological claim and not a result of logic.',
@@ -97,8 +97,8 @@ export const article: Article = {
       argumentType: 'theological',
       assessment: 'theological_interpretation',
       rationale: {
-        en: 'The statements are in the text itself and the Church’s reading of them is a matter of faith. They are cited as a description of what Christians believe, and not as proof for a non-believer.',
-        ar: 'العبارات في النص نفسه، وقراءة الكنيسة لها مسألة إيمان. وهي تُذكر وصفًا لما يؤمن به المسيحيون لا برهانًا لغير المؤمن.',
+        en: 'St Paul the Apostle writes that all Scripture is God-breathed and profitable for teaching, and St Peter that the prophets spoke from God as they were moved by the Holy Spirit. The Church receives these words in faith and reads the Scriptures in her worship, as she has from the beginning.',
+        ar: 'يكتب القديس بولس الرسول أن كل الكتاب موحى به من الله ونافع للتعليم، ويكتب القديس بطرس أن الأنبياء تكلموا من قِبل الله مسوقين من الروح القدس. وتتسلم الكنيسة هذه الكلمات بالإيمان وتقرأ الكتب في عبادتها، كما فعلت منذ البدء.',
       },
       limits: {
         en: 'The passages do not say how inspiration relates to copying, which is why Christian traditions differ about it.',
@@ -109,14 +109,14 @@ export const article: Article = {
     {
       id: 'c3',
       proposition: {
-        en: 'Manuscript evidence bears on preservation, and shows both that copies differ and that the earlier wording can in most places be recovered.',
-        ar: 'تتصل شواهد المخطوطات بالحفظ، وتبيّن أن النسخ تختلف وأن الصيغة الأقدم يمكن استردادها في أكثر المواضع.',
+        en: 'Manuscript evidence bears on preservation, and it shows that although copies differ, the earlier wording can be recovered in most places.',
+        ar: 'تتصل شواهد المخطوطات بالحفظ، وتبيّن أنه مع اختلاف النسخ يمكن استرداد الصيغة الأقدم في أكثر المواضع.',
       },
       argumentType: 'textual',
       assessment: 'supported_disputed_details',
       rationale: {
-        en: 'This is the finding of textual criticism as described in the standard textbooks and as seen in the Dead Sea Scrolls for the Hebrew Bible. How much weight the remaining uncertain places carry is disputed.',
-        ar: 'هذه نتيجة النقد النصي كما تصفها المراجع الدراسية المعتمدة وكما تظهر في مخطوطات البحر الميت للكتاب العبري. ووزن المواضع غير المؤكدة الباقية محل خلاف.',
+        en: 'This is the finding of textual criticism as set out in the standard textbooks, and the Dead Sea Scrolls show it for the Hebrew Bible: copies a thousand years older than those known before carry recognisably the same books.',
+        ar: 'هذه نتيجة النقد النصي كما تعرضها المراجع الدراسية المعتمدة، وتُظهرها مخطوطات البحر الميت للكتاب العبري: فنسخ أقدم بألف سنة من النسخ المعروفة قبلها تحمل الأسفار نفسها على نحو واضح.',
       },
       limits: {
         en: 'It does not touch the theological question.',
@@ -222,12 +222,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'This argument assumes a particular theology of inspiration, namely that inspiration entails a perfectly preserved text. The Coptic Orthodox Church does not teach this, and neither the Fathers nor the liturgical practice of the Church assume it. The Church holds that God’s word reaches us through the Church that received it, read it and lived it.',
-          'Another tradition may reasonably hold that God’s guarding of his word extends to the wording itself. Christians differ about that, and the manuscript evidence does not decide between these theological positions.',
+          'This argument assumes that inspiration requires every later copy to be perfect. The Coptic Orthodox Church has never taught this, and neither the Fathers nor the Church’s practice assume it. God inspired the Scriptures, and His word reaches us through the Church that received it, read it and lived it.',
+          'The variants themselves show how small the problem is: the earlier wording can be recovered in most places, and no doctrine of the faith depends on an uncertain reading. God has kept His word in His Church.',
         ],
         ar: [
-          'تفترض هذه الحجة لاهوتًا معينًا للوحي، وهو أن الوحي يستلزم نصًا محفوظًا حفظًا كاملًا. ولا تعلّم الكنيسة القبطية الأرثوذكسية ذلك، ولا يفترضه الآباء ولا الممارسة الطقسية للكنيسة. فالكنيسة تؤمن بأن كلمة الله تصل إلينا عبر الكنيسة التي تسلمتها وقرأتها وعاشتها.',
-          'ويجوز أن يرى تقليد آخر أن حراسة الله لكلمته تمتد إلى الصيغة نفسها. ويختلف المسيحيون في ذلك، ولا تحسم شواهد المخطوطات بين هذه المواقف اللاهوتية.',
+          'تفترض هذه الحجة أن الوحي يستلزم أن تكون كل نسخة لاحقة كاملة. والكنيسة القبطية الأرثوذكسية لم تعلّم ذلك قط، ولا يفترضه الآباء ولا ممارسة الكنيسة. فالله أوحى بالكتب، وكلمته تصل إلينا عبر الكنيسة التي تسلمتها وقرأتها وعاشتها.',
+          'والقراءات المتباينة نفسها تُظهر صغر المشكلة: فالصيغة الأقدم يمكن استردادها في أكثر المواضع، ولا تتوقف عقيدة من عقائد الإيمان على قراءة غير مؤكدة. وقد حفظ الله كلمته في كنيسته.',
         ],
       },
       limits: {
@@ -244,12 +244,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'There is a fair point here: if a claim is shaped to avoid any test, it loses explanatory force. The Church’s claim is not presented as a conclusion drawn from manuscripts; it is a confession received in faith and tested in the life of the Church and in the reasons for believing the Gospel.',
-          'The historical claims that Christians make, such as those about Jesus’ life and resurrection, are open to historical examination, and the other articles treat them that way. The doctrine of inspiration belongs to a different kind of claim.',
+          'The Church does not retreat; she has always said the same thing. Inspiration was never a conclusion drawn from manuscripts. It is a confession received in faith, rooted in Christ’s own use of the Scriptures and the apostles’ teaching, and lived in the Church.',
+          'Faith in the Scriptures is not detached from evidence. It rests on the reasons for believing the Gospel itself: the life, death and resurrection of Jesus, which are open to historical examination and are treated in the other articles. The One who rose is the One who received the Scriptures as the word of God.',
         ],
         ar: [
-          'في هذا الاعتراض نقطة وجيهة: فإذا صيغت دعوى لتتجنب أي اختبار فقدت قوتها التفسيرية. ودعوى الكنيسة لا تُقدَّم نتيجة مستخلصة من المخطوطات؛ إنها اعتراف يُتسلَّم بالإيمان ويُختبر في حياة الكنيسة وفي أسباب الإيمان بالإنجيل.',
-          'أما الدعاوى التاريخية التي يطرحها المسيحيون، كالتي عن حياة يسوع وقيامته، فمفتوحة للفحص التاريخي، وتعالجها المقالات الأخرى على هذا الأساس. وعقيدة الوحي من نوع آخر من الدعاوى.',
+          'الكنيسة لا تتراجع؛ بل قالت الشيء نفسه دائمًا. فالوحي لم يكن قط نتيجة مستخلصة من المخطوطات. بل هو اعتراف يُتسلَّم بالإيمان، متجذر في استعمال المسيح نفسه للكتب وفي تعليم الرسل، ومَعيش في الكنيسة.',
+          'والإيمان بالكتب ليس منفصلًا عن الأدلة. بل يقوم على أسباب الإيمان بالإنجيل نفسه: حياة يسوع وموته وقيامته، وهي مفتوحة للفحص التاريخي وتعالجها المقالات الأخرى. والذي قام هو نفسه الذي تسلّم الكتب كلمة الله.',
         ],
       },
       limits: {
@@ -266,12 +266,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'Different people mean different things by this claim. Some mean that the text was wholesale replaced, which the manuscript evidence does not support, since the wording found in the oldest copies is recognisably that of later ones. Some mean that the meaning was misinterpreted, which is a matter of exegesis. Some mean that particular verses were added or changed, which is where textual criticism can speak, and where it does speak openly: the footnoted passages are examples.',
-          'Christians answer that the Gospel was proclaimed and written within a generation or two of the events and has been read by the Church continuously since. What the evidence shows is detail-level variation, and a response should be addressed to the particular claim being made.',
+          'The manuscript evidence does not support the claim that the text was replaced. The wording found in the oldest copies is recognisably that of later ones. Where particular verses were added or changed in some copies, textual criticism identifies them openly, as with the passages marked in the footnotes of modern Bibles.',
+          'The Gospel was proclaimed and written within a generation or two of the events and spread quickly across many lands and languages, so no one could have altered all the copies. The Church has read the same Gospel continuously ever since.',
         ],
         ar: [
-          'يعني الناس بهذه الدعوى أمورًا مختلفة. فبعضهم يقصد أن النص استُبدل بجملته، وهذا لا تسنده شواهد المخطوطات، لأن الصيغة الموجودة في أقدم النسخ يُعرف أنها صيغة النسخ اللاحقة نفسها. وبعضهم يقصد أن المعنى فُسّر خطأ، وهذا شأن التفسير. وبعضهم يقصد أن آيات معينة أُضيفت أو غُيّرت، وهنا يستطيع النقد النصي أن يتكلم، وهو يتكلم علنًا: ومثاله الفقرات الموضوعة في الحواشي.',
-          'ويجيب المسيحيون بأن الإنجيل كُرز به وكُتب في غضون جيل أو جيلين من الأحداث وقرأته الكنيسة باستمرار منذ ذلك الحين. وما تُظهره الشواهد تباين على مستوى التفاصيل، وينبغي أن يوجَّه الجواب إلى الدعوى المحددة المطروحة.',
+          'لا تسند شواهد المخطوطات دعوى أن النص استُبدل. فالصيغة الموجودة في أقدم النسخ يُعرف بوضوح أنها صيغة النسخ اللاحقة. وحيث أُضيفت آيات معينة أو غُيّرت في بعض النسخ، يحددها النقد النصي علنًا، كما في الفقرات المعلَّمة في حواشي الكتب المقدسة الحديثة.',
+          'وقد كُرز بالإنجيل وكُتب في غضون جيل أو جيلين من الأحداث، وانتشر سريعًا في بلاد ولغات كثيرة، فلم يكن في وسع أحد أن يغيّر كل النسخ. وقد قرأت الكنيسة الإنجيل نفسه بلا انقطاع منذ ذلك الحين.',
         ],
       },
       limits: {
@@ -284,22 +284,22 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'Historically, the preservation question has a measured answer: copies differ in detail, the earlier wording can be recovered in most places, and a few passages remain uncertain. This applies to the New Testament and to the Hebrew Bible, and it is stated without the assumption of inspiration.',
-        'Nothing in this historical answer forces a believer or a sceptic to a conclusion about inspiration.',
+        'The historical answer to the preservation question is clear and reassuring. Copies differ in detail, the earlier wording can be recovered in most places, and only a few passages remain uncertain. This is true of the New Testament and of the Hebrew Bible, and anyone can examine the evidence.',
+        'The text the Church reads today is, in all that matters for faith, the text the apostles and prophets gave.',
       ],
       ar: [
-        'تاريخيًا، لسؤال الحفظ جواب متزن: النسخ تختلف في التفاصيل، ويمكن استرداد الصيغة الأقدم في أكثر المواضع، وتبقى فقرات قليلة غير مؤكدة. وينطبق هذا على العهد الجديد والكتاب العبري، ويُقال دون افتراض الوحي.',
-        'ولا شيء في هذا الجواب التاريخي يلزم مؤمنًا أو مشككًا بنتيجة في الوحي.',
+        'الجواب التاريخي عن سؤال الحفظ واضح ومطمئن. فالنسخ تختلف في التفاصيل، ويمكن استرداد الصيغة الأقدم في أكثر المواضع، ولا تبقى غير مؤكدة إلا فقرات قليلة. وهذا صحيح في العهد الجديد والكتاب العبري، ويستطيع أي أحد فحص الشواهد.',
+        'والنص الذي تقرؤه الكنيسة اليوم هو، في كل ما يهم الإيمان، النص الذي أعطاه الرسل والأنبياء.',
       ],
     },
     theological: {
       en: [
         'The Church confesses that the Holy Spirit inspired the Scriptures and that he continues to lead the Church into all truth. She does not teach that the Spirit overrode the human writers, nor that he prevented every scribal slip. The Church’s trust is in the God who speaks through the Scriptures she has received, read and prayed, rather than in the mechanical perfection of any manuscript.',
-        'These are confessions of faith. They explain why the Church can welcome textual criticism, and why she cannot be argued out of her faith by the existence of variants alone.',
+        'This is why the Church can welcome textual criticism, and why the existence of variants does not unsettle her faith.',
       ],
       ar: [
         'تعترف الكنيسة بأن الروح القدس أوحى بالكتب المقدسة وأنه يواصل إرشاد الكنيسة إلى جميع الحق. ولا تعلّم أن الروح ألغى الكتّاب البشر، ولا أنه منع كل زلة ناسخ. وثقة الكنيسة هي بالله الذي يتكلم بالكتب التي تسلمتها وقرأتها وصلّت بها، لا بكمال آلي لأي مخطوطة.',
-        'وهذه اعترافات إيمانية. وهي تفسر لماذا تستطيع الكنيسة أن ترحب بالنقد النصي، ولماذا لا يمكن إقناعها بترك إيمانها لمجرد وجود قراءات متباينة.',
+        'ولهذا تستطيع الكنيسة أن ترحب بالنقد النصي، ولا يزعزع وجود القراءات المتباينة إيمانها.',
       ],
     },
   },
@@ -324,8 +324,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'Preservation and inspiration are different questions. Manuscripts answer the first, showing a text copied with variation yet largely recoverable, and cannot answer the second. The Coptic Orthodox Church confesses Scripture as inspired and received within her Tradition, and welcomes the careful study of the text without making her faith depend on a perfect copy.',
-    ar: 'الحفظ والوحي سؤالان مختلفان. تجيب المخطوطات عن الأول، فتُظهر نصًا نُسخ مع تباين لكنه قابل للاسترداد في معظمه، ولا تستطيع أن تجيب عن الثاني. وتعترف الكنيسة القبطية الأرثوذكسية بالكتاب موحى به متسلَّمًا داخل تقليدها، وترحب بالدراسة الدقيقة للنص دون أن تجعل إيمانها قائمًا على نسخة كاملة.',
+    en: 'Preservation and inspiration are different questions, and both have firm answers. The manuscripts show a text copied with small variations whose earlier wording can be recovered in most places. The Church confesses that the Holy Spirit inspired the Scriptures and guides the Church that received them. Her faith rests not on a perfect copy but on the God who speaks through the Scriptures she has read and prayed from the beginning.',
+    ar: 'الحفظ والوحي سؤالان مختلفان، ولكل منهما جواب ثابت. فالمخطوطات تُظهر نصًا نُسخ بتباينات صغيرة يمكن استرداد صيغته الأقدم في أكثر المواضع. والكنيسة تعترف بأن الروح القدس أوحى بالكتب المقدسة ويرشد الكنيسة التي تسلمتها. وإيمانها لا يقوم على نسخة كاملة بل على الله الذي يتكلم بالكتب التي قرأتها وصلّت بها منذ البدء.',
   },
   furtherReading: ['S27', 'S28', 'S23', 'S25', 'S62'],
   related: ['has-bible-changed', 'what-is-a-textual-variant', 'footnoted-passages', 'why-inspired', 'what-is-the-bible', 'dead-sea-scrolls'],

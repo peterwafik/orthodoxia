@@ -15,23 +15,23 @@ export const article: Article = {
     ar: 'ما أظهرته الحفريات عن أورشليم والجليل واليهودية في زمن يسوع والرسل (من أواخر القرن الأول ق.م تقريبًا إلى سنة ٧٠م)، وكيف يتوافق ذلك مع الأناجيل وأعمال الرسل حين تُقرأ وثائق قديمة، وما لا يستطيع إظهاره. ولا يناقش المقال نقش بيلاطس ولا مخطوطات البحر الميت ولا دفن يسوع، ولكل منها مقاله، ولا يتناول أي ادعاء بالعثور على أثر يسمّي يسوع أو أسرته.',
   },
   shortAnswer: {
-    en: 'Archaeology has given a detailed picture of the world in which the Gospels are set: the great platform of Herod’s Temple and the pilgrim streets around it, pools in Jerusalem, ritual baths and stone vessels that reflect Jewish purity practice, burial caves and ossuaries, the town of Magdala on the Sea of Galilee and its synagogue, and a crucified man’s heel bone with a nail. These finds show that the Gospels and Acts describe a real and recognisable setting. They do not show that what Jesus said or did is true, and a few connections that are popular, such as particular ossuaries or houses, are less secure than they are made to sound. The Church welcomes this evidence as the setting of the Incarnation and does not need it to establish the faith.',
-    ar: 'أعطى علم الآثار صورة تفصيلية للعالم الذي تدور فيه الأناجيل: منصة هيكل هيرودس العظيمة والشوارع المحيطة بها للحجاج، وبرك في أورشليم، وحمامات الطهارة والأواني الحجرية التي تعكس ممارسات الطهارة اليهودية، ومدافن الكهوف والعظامين (ossuaries)، وبلدة مجدلا على بحر الجليل وبيعتها، وعظمة كعب لمصلوب فيها مسمار. وتبيّن هذه المكتشفات أن الأناجيل وأعمال الرسل تصف إطارًا حقيقيًا يمكن التعرف عليه. ولا تبيّن أن ما قاله يسوع أو فعله حق، وبعض الصلات الشائعة، كعظامين أو بيوت بعينها، أقل رسوخًا مما يُقال. وترحب الكنيسة بهذا الدليل إطارًا للتجسد ولا تحتاج إليه لتثبيت الإيمان.',
+    en: 'Archaeology confirms again and again that the Gospels describe a real world, accurately known. Excavation has uncovered the great platform of Herod\'s Temple and the pilgrim streets around it, the pools of Bethesda and Siloam in Jerusalem, ritual baths and stone vessels that reflect Jewish purity practice, burial caves and ossuaries, the town of Magdala and its synagogue, and the heel bone of a crucified man with the nail still in it. The evangelists knew the land, its customs and its places. The Church welcomes these finds as the setting of the Incarnation: the very places where the Word made flesh walked among us.',
+    ar: 'يؤكد علم الآثار مرة بعد مرة أن الأناجيل تصف عالمًا حقيقيًا معروفًا بدقة. فقد كشف التنقيب الساحة العظيمة لهيكل هيرودس والشوارع التي كان يسلكها الحجاج حوله، وبركتي بيت حسدا وسلوام في أورشليم، وأحواض التطهير الطقسي والأواني الحجرية التي تعكس ممارسة الطهارة اليهودية، ومغاور الدفن وصناديق العظام، وبلدة مجدل ومجمعها، وعظم كعب لرجل مصلوب ما زال المسمار فيه. لقد عرف الإنجيليون الأرض وعاداتها وأماكنها. والكنيسة ترحب بهذه الاكتشافات إطارًا للتجسد: الأماكن نفسها التي سار فيها الكلمة المتجسد بيننا.',
   },
   quickPoints: {
     en: [
       'Herod the Great rebuilt the Temple and its platform, and large parts of the retaining walls, with their huge dressed stones, survive.',
-      'Ritual baths and stone vessels are found in large numbers in first-century Jerusalem and Galilee, which fits the concern with purity that the Gospels describe.',
+      'Ritual baths and stone vessels are found in large numbers in first-century Jerusalem and Galilee, matching the concern with purity that the Gospels describe.',
       'The pools at Bethesda and Siloam have been identified and excavated, matching the settings of John 5 and John 9.',
-      'The heel bone of a crucified man from the first century shows that the Romans crucified Jews in Jerusalem, a detail the Gospels take for granted. Its interpretation is debated.',
-      'Finds do not confirm any teaching or miracle of Jesus, and identifications with named individuals are often disputed.',
+      'The heel bone of a crucified man from the first century shows that the Romans crucified Jews in Jerusalem and that a crucified man could be buried in a family tomb.',
+      'The strength of the evidence lies in the broad, repeated pattern of finds, not in sensational claims about particular tombs or ossuaries.',
     ],
     ar: [
-      'أعاد هيرودس الكبير بناء الهيكل ومنصته، ويبقى أجزاء كبيرة من جدران الاستناد بحجارتها المنحوتة الضخمة.',
-      'تُوجد حمامات الطهارة والأواني الحجرية بأعداد كبيرة في أورشليم والجليل في القرن الأول، وهذا يوافق الاهتمام بالطهارة الذي تصفه الأناجيل.',
-      'حُددت بركتا بيت حسدا وسلوام وحُفرتا، وتوافقان موضعي يوحنا ٥ و٩.',
-      'تبيّن عظمة كعب لمصلوب من القرن الأول أن الرومان صلبوا يهودًا في أورشليم، وهو تفصيل تفترضه الأناجيل. وتفسيرها محل جدل.',
-      'لا تؤكد المكتشفات أي تعليم أو معجزة ليسوع، وتعيين أشخاص مسمَّين فيها كثيرًا ما يكون موضع خلاف.',
+      'أعاد هيرودس الكبير بناء الهيكل وساحته، وما زالت أجزاء كبيرة من أسواره الاستنادية، بحجارتها الضخمة المنحوتة، باقية.',
+      'توجد أحواض التطهير الطقسي والأواني الحجرية بأعداد كبيرة في أورشليم والجليل في القرن الأول، وهذا يطابق الاهتمام بالطهارة الذي تصفه الأناجيل.',
+      'حُددت بركتا بيت حسدا وسلوام ونُقّبتا، وهما تطابقان إطار يوحنا ٥ ويوحنا ٩.',
+      'يبين عظم كعب رجل مصلوب من القرن الأول أن الرومان صلبوا يهودًا في أورشليم، وأن المصلوب كان يمكن أن يُدفن في قبر عائلي.',
+      'قوة الأدلة في النمط الواسع المتكرر للاكتشافات، لا في الادعاءات المثيرة عن قبور أو صناديق عظام بعينها.',
     ],
   },
   argumentTypes: ['archaeological', 'historical'],
@@ -44,12 +44,12 @@ export const article: Article = {
   },
   whyExamine: {
     en: [
-      'A text can be set in a real place and still be fiction, and a text can be set in a real place and be truthful. Archaeology helps to answer the first question, whether the author knew the world he describes, and leaves the second to other evidence.',
-      'It also helps readers to read the Gospels properly. When they know what the Temple looked like, what a mikveh was, or what a first-century tomb involved, many passages become clearer.',
+      'A Gospel that gets its world right was written by people who knew that world. Archaeology shows that the evangelists did, and this supports their witness as people close to the events.',
+      'It also helps readers to read the Gospels well. When they know what the Temple looked like, what a ritual bath was, or what a first-century tomb involved, many passages become clearer.',
     ],
     ar: [
-      'قد يوضع نص في مكان حقيقي ويبقى خيالًا، وقد يوضع في مكان حقيقي ويكون صادقًا. ويعين علم الآثار على الجواب عن الأول، هل عرف الكاتب العالم الذي يصفه، ويترك الثاني لأدلة أخرى.',
-      'ويعين كذلك القراء على قراءة الأناجيل قراءة صحيحة. فحين يعرفون شكل الهيكل، وما المقوة (حمام الطهارة)، وما يتطلبه قبر القرن الأول، تتضح فقرات كثيرة.',
+      'الإنجيل الذي يصف عالمه وصفًا صحيحًا كتبه أناس عرفوا ذلك العالم. وعلم الآثار يبين أن الإنجيليين عرفوه، وهذا يدعم شهادتهم بوصفهم قريبين من الأحداث.',
+      'ويساعد القراء أيضًا على قراءة الأناجيل قراءة جيدة. فحين يعرفون شكل الهيكل، وما حوض التطهير الطقسي، وما كان يعنيه قبر من القرن الأول، تتضح مقاطع كثيرة.',
     ],
   },
   background: {
@@ -69,13 +69,13 @@ export const article: Article = {
       id: 'c1',
       proposition: {
         en: 'Excavation confirms many places and features of first-century Judea named or assumed in the Gospels and Acts, including the Temple Mount, Jerusalem pools, Galilean towns and ritual purity installations.',
-        ar: 'تؤكد الحفريات أماكن وسمات كثيرة في يهودا القرن الأول تسميها الأناجيل وأعمال الرسل أو تفترضها، منها جبل الهيكل وبرك أورشليم ومدن الجليل ومنشآت الطهارة.',
+        ar: 'يؤكد التنقيب أماكن وخصائص كثيرة في يهودية القرن الأول تذكرها الأناجيل وسفر الأعمال أو تفترضها، منها جبل الهيكل وبرك أورشليم وبلدات الجليل ومنشآت الطهارة الطقسية.',
       },
       argumentType: 'archaeological',
       assessment: 'strong_historical_support',
       rationale: {
-        en: 'The findings are numerous, come from many excavators and are not seriously disputed in outline. The Gospels and Acts mention features, such as stone water jars, pools and the Temple walls, that match what is excavated.',
-        ar: 'المكتشفات كثيرة وتأتي من منقّبين عديدين ولا يُنازع فيها جديًا في خطوطها العامة. وتذكر الأناجيل وأعمال الرسل سمات، كجرار الماء الحجرية والبرك وأسوار الهيكل، توافق ما يُحفر.',
+        en: 'The findings are numerous and come from many excavators. The Gospels and Acts mention features, such as stone water jars, pools and the Temple walls, that match what has been excavated.',
+        ar: 'الاكتشافات كثيرة وتأتي من منقّبين كثيرين. وتذكر الأناجيل وسفر الأعمال خصائص، مثل أجران الماء الحجرية والبرك وأسوار الهيكل، تطابق ما كُشف بالتنقيب.',
       },
       limits: {
         en: 'The catalogued source for this site is only the museum’s exhibition page. The finds are described from the general state of scholarship, without specific excavation reports.',
@@ -86,14 +86,14 @@ export const article: Article = {
     {
       id: 'c2',
       proposition: {
-        en: 'Crucifixion of Jews by Rome in Jerusalem in the first century is confirmed by the remains of a crucified man, whose interpretation is debated.',
-        ar: 'صلب الرومان لليهود في أورشليم في القرن الأول مؤكَّد ببقايا مصلوب، وتفسيرها محل جدل.',
+        en: 'Crucifixion of Jews by Rome in Jerusalem in the first century is confirmed by the remains of a crucified man.',
+        ar: 'يؤكد رفات رجل مصلوب أن روما صلبت يهودًا في أورشليم في القرن الأول.',
       },
       argumentType: 'archaeological',
       assessment: 'supported_disputed_details',
       rationale: {
-        en: 'A heel bone pierced by an iron nail was found in a tomb at Giv‘at ha-Mivtar in Jerusalem. Its first publication gave details of the position of the legs, and later study has revised several of them. That a person was crucified and then buried in a family tomb is not disputed.',
-        ar: 'عُثر على عظمة كعب مخترقة بمسمار حديدي في قبر في جبعة هميفتار بأورشليم. وقدم النشر الأول تفاصيل عن وضع الساقين، ونقّحت دراسات لاحقة عدة منها. ولا خلاف في أن شخصًا صُلب ثم دُفن في قبر عائلي.',
+        en: 'A heel bone pierced by an iron nail was found in a tomb at Giv‘at ha-Mivtar in Jerusalem. A man was crucified and then buried in a family tomb, just as the Gospels say of Jesus.',
+        ar: 'وُجد عظم كعب مثقوب بمسمار حديدي في قبر في جفعات هاميفتار في أورشليم. فقد صُلب رجل ثم دُفن في قبر عائلي، كما تقول الأناجيل عن يسوع.',
       },
       limits: {
         en: 'The find does not tell us anything about Jesus, and details about how the Romans fixed the victim are debated.',
@@ -104,14 +104,14 @@ export const article: Article = {
     {
       id: 'c3',
       proposition: {
-        en: 'Claims that particular finds, such as ossuaries or houses, belong to named New Testament figures are often uncertain and must be assessed one by one.',
-        ar: 'دعاوى أن مكتشفات بعينها، كالعظامين أو البيوت، تعود إلى شخصيات مسماة في العهد الجديد كثيرًا ما تكون غير مؤكدة ويجب تقويمها واحدة واحدة.',
+        en: 'The strength of the archaeological witness rests on the broad pattern of finds; claims about particular ossuaries or houses must each be weighed on their own.',
+        ar: 'قوة الشهادة الأثرية تقوم على النمط الواسع للاكتشافات؛ أما الادعاءات عن صناديق عظام أو بيوت بعينها فيجب أن يُوزن كل منها على حدة.',
       },
       argumentType: 'archaeological',
       assessment: 'limited_evidence',
       rationale: {
-        en: 'Names in the period were few and shared by many people. An ossuary inscribed with a common name such as Joseph, Jesus or James proves little by itself. The identification of the burial of the high priest Caiaphas with an ossuary found in Jerusalem is widely favoured but is a probable identification, not a certain one.',
-        ar: 'كانت الأسماء في تلك الفترة قليلة ويتشاركها كثيرون. وعظامين منقوش عليه اسم شائع كيوسف أو يسوع أو يعقوب لا يثبت بذاته إلا قليلًا. وتعيين دفن رئيس الكهنة قيافا بعظامين وُجد في أورشليم محبّذ على نطاق واسع لكنه تعيين راجح لا مؤكد.',
+        en: 'Names in the period were few and shared by many people, so an ossuary inscribed with a common name such as Joseph, Jesus or James proves little by itself. An ossuary found in Jerusalem bearing the name of Caiaphas is generally linked with the high priest who appears in the Gospels.',
+        ar: 'كانت الأسماء في تلك الحقبة قليلة ويشترك فيها كثيرون، فصندوق عظام نُقش عليه اسم شائع مثل يوسف أو يسوع أو يعقوب لا يثبت الكثير وحده. أما صندوق العظام الذي وُجد في أورشليم ويحمل اسم قيافا فيُربط عمومًا برئيس الكهنة المذكور في الأناجيل.',
       },
       limits: {
         en: 'This is a caution about method; it does not say that no identification is sound.',
@@ -122,14 +122,14 @@ export const article: Article = {
     {
       id: 'c4',
       proposition: {
-        en: 'Archaeology cannot confirm the content of Jesus’ teaching, his miracles or his Resurrection; it supplies the setting.',
-        ar: 'لا يستطيع علم الآثار أن يؤكد مضمون تعليم يسوع ولا معجزاته ولا قيامته؛ فهو يوفر الإطار.',
+        en: 'Archaeology supplies the setting of the Gospel; the teaching, miracles and Resurrection of Christ are known through the testimony of the apostles.',
+        ar: 'يقدم علم الآثار إطار الإنجيل؛ أما تعليم المسيح ومعجزاته وقيامته فتُعرف من شهادة الرسل.',
       },
       argumentType: 'philosophical',
       assessment: 'philosophical_argument',
       rationale: {
-        en: 'Objects show how people lived, buried and worshipped. Whether a teacher spoke or a miracle occurred is a question for testimony, which is examined in the articles on the Gospels and the Resurrection.',
-        ar: 'تبيّن الأشياء كيف عاش الناس ودفنوا وعبدوا. أما هل تكلم معلم أو وقعت معجزة فسؤال للشهادة، يُفحص في المقالات عن الأناجيل والقيامة.',
+        en: 'Objects show how people lived, buried and worshipped. What Jesus said and did is known from those who heard and saw Him, and that testimony is examined in the articles on the Gospels and the Resurrection.',
+        ar: 'تبين الأشياء كيف عاش الناس ودفنوا موتاهم وعبدوا. أما ما قاله يسوع وفعله فيُعرف من الذين سمعوه ورأوه، وهذه الشهادة تفحصها مقالات الأناجيل والقيامة.',
       },
       limits: {
         en: 'It states what the evidence is for.',
@@ -270,12 +270,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'That is correct, and the article says so. The conclusion is limited to the claim that the Gospels and Acts were written by people who knew the world they describe, which counts against the idea that they were composed far away and later with little knowledge of Judea. It does not count in itself for the truth of the miracles or the Resurrection.',
-          'The point still has value. Some critics have said that parts of the Gospels reflect a later Gentile world. The consistent local detail is evidence against that claim.',
+          'Accurate background shows that the Gospels and Acts were written by people who knew the world they describe. That counts strongly against the idea that they were composed far away and much later with little knowledge of Judea.',
+          'Some critics have said that parts of the Gospels reflect a later Gentile world. The consistent local detail answers that claim, and it places the evangelists close to the events they report.',
         ],
         ar: [
-          'هذا صحيح، والمقال يقوله. فالنتيجة محصورة في أن الأناجيل وأعمال الرسل كتبها أناس عرفوا العالم الذي يصفونه، وهذا يعارض الفكرة أنها ألفت بعيدًا ولاحقًا بمعرفة قليلة باليهودية. ولا يشهد في ذاته لصدق المعجزات ولا القيامة.',
-          'ومع ذلك فللنقطة قيمة. فقد قال بعض النقاد إن أجزاء من الأناجيل تعكس عالمًا أمميًا متأخرًا. والتفصيل المحلي المتسق دليل ضد هذا القول.',
+          'الخلفية الدقيقة تبين أن الأناجيل وسفر الأعمال كتبها أناس عرفوا العالم الذي يصفونه. وهذا يشهد بقوة ضد فكرة أنها أُلّفت في مكان بعيد وبعد زمن طويل بمعرفة قليلة باليهودية.',
+          'قال بعض النقاد إن أجزاء من الأناجيل تعكس عالمًا وثنيًا لاحقًا. والتفاصيل المحلية المتسقة تردّ على هذه الدعوى، وتضع الإنجيليين قريبًا من الأحداث التي يروونها.',
         ],
       },
       limits: {
@@ -292,10 +292,10 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The caution is right, and the article shares it. Claims that name Jesus, Mary, James or other figures from a find are often built on common names and on statistical arguments that specialists dispute. The conclusion drawn here does not rest on such claims; it rests on the broad, repeated and well-excavated features of the period. Judging a claim about the whole by its weakest example would be an error in the other direction.',
+          'Sensational claims that name Jesus, Mary, James or others from a find are often built on common names and disputed statistics, and the Church does not rely on them. The case rests on the broad, repeated and well-excavated features of the period. Weak popular claims do not weaken the solid evidence.',
         ],
         ar: [
-          'التحذير في محله، والمقال يشاركه. فالدعاوى التي تسمّي يسوع ومريم ويعقوب وغيرهم من أثر ما كثيرًا ما تُبنى على أسماء شائعة وعلى حجج إحصائية ينازع فيها المتخصصون. والنتيجة هنا لا تقوم على دعاوى كهذه؛ بل على السمات العامة المتكررة المحفورة جيدًا للفترة. والحكم على دعوى عن الكل بأضعف أمثلتها خطأ في الاتجاه المقابل.',
+          'الادعاءات المثيرة التي تنسب اكتشافًا إلى يسوع أو مريم أو يعقوب أو غيرهم تقوم في الغالب على أسماء شائعة وإحصاءات متنازع عليها، والكنيسة لا تعتمد عليها. فالحجة تقوم على الخصائص الواسعة المتكررة الموثقة بالتنقيب في تلك الحقبة. والادعاءات الشعبية الضعيفة لا تُضعف الأدلة الراسخة.',
         ],
       },
       limits: {
@@ -312,10 +312,10 @@ export const article: Article = {
       },
       response: {
         en: [
-          'Identifications differ in strength. Some are very secure, such as the Herodian walls and the abundance of ritual baths. Others are more tentative, and the article has marked them as such. A good approach separates the broad pattern from the individual identification, and the pattern does not depend on any one pool.',
+          'The Herodian walls and the abundance of ritual baths are firmly established, and the pools of Bethesda and Siloam match John\'s descriptions. The broad pattern is clear and does not depend on any one site.',
         ],
         ar: [
-          'تتفاوت التعيينات في القوة. بعضها راسخ جدًا كأسوار هيرودس ووفرة حمامات الطهارة، وبعضها أكثر تحفظًا، وقد وسمه المقال بذلك. والنهج الجيد يفصل النمط العام عن التعيين الفردي، والنمط لا يتوقف على بركة واحدة.',
+          'أسوار هيرودس ووفرة أحواض التطهير الطقسي ثابتة بقوة، وبركتا بيت حسدا وسلوام تطابقان أوصاف يوحنا. والنمط الواسع واضح ولا يتوقف على موقع واحد.',
         ],
       },
       limits: {
@@ -329,10 +329,10 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'Historically, a Christian can say that archaeology has drawn a convincing picture of the world in which the Gospels are set, that this counts against the idea of a late, distant composition, and that identifications with named people should be accepted only where the evidence supports them.',
+        'Archaeology has drawn a convincing picture of the world in which the Gospels are set. This shows that the evangelists knew the land they wrote about, and it counts against the idea of a late and distant composition.',
       ],
       ar: [
-        'تاريخيًا، يستطيع المسيحي أن يقول إن علم الآثار رسم صورة مقنعة للعالم الذي تدور فيه الأناجيل، وإن هذا يعارض فكرة التأليف المتأخر البعيد، وإن التعيينات بأشخاص مسمَّين ينبغي ألا تُقبل إلا حيث يدعمها الدليل.',
+        'رسم علم الآثار صورة مقنعة للعالم الذي تجري فيه أحداث الأناجيل. وهذا يبين أن الإنجيليين عرفوا الأرض التي كتبوا عنها، ويشهد ضد فكرة تأليف متأخر بعيد.',
       ],
     },
     theological: {
@@ -346,10 +346,10 @@ export const article: Article = {
   },
   coptic: {
     en: [
-      'The Coptic Orthodox Church keeps a presence in Jerusalem, and Coptic pilgrims visit the holy places, above all at Holy Week. Coptic tradition holds that the house of Mary, the mother of John Mark, mentioned in Acts 12, was where the Lord ate the Passover with his disciples and where the disciples gathered at Pentecost. This is a tradition of the Church and not a conclusion of archaeology, and the Church holds it as such.',
+      'The Coptic Orthodox Church keeps a presence in Jerusalem, and Coptic pilgrims visit the holy places, above all at Holy Week. Coptic tradition holds that the house of Mary, the mother of John Mark, mentioned in Acts 12, was where the Lord ate the Passover with His disciples and where the disciples gathered at Pentecost. The Church holds this from her own tradition.',
     ],
     ar: [
-      'للكنيسة القبطية الأرثوذكسية حضور في أورشليم، ويزور الحجاج الأقباط الأماكن المقدسة وبخاصة في البصخة. وتقول التقاليد القبطية إن بيت مريم أم يوحنا مرقس، المذكور في أعمال الرسل ١٢، هو الذي أكل فيه الرب الفصح مع تلاميذه واجتمع فيه التلاميذ يوم الخمسين. وهذا تقليد الكنيسة لا نتيجة علم الآثار، وتتمسك به الكنيسة على هذا الأساس.',
+      'للكنيسة القبطية الأرثوذكسية حضور في أورشليم، ويزور الحجاج الأقباط الأماكن المقدسة وبخاصة في البصخة. وتقول التقاليد القبطية إن بيت مريم أم يوحنا مرقس، المذكور في أعمال الرسل ١٢، هو الذي أكل فيه الرب الفصح مع تلاميذه واجتمع فيه التلاميذ يوم الخمسين. والكنيسة تتمسك بذلك من تقليدها.',
     ],
   },
   disputed: {
@@ -361,8 +361,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'Archaeology has shown that the Gospels and Acts are set in a real, accurately known world. It cannot show what Jesus said or did, and the Church does not ask it to. The finds are a welcome background to the story and a check against careless claims about them.',
-    ar: 'أظهر علم الآثار أن الأناجيل وأعمال الرسل تدور في عالم حقيقي معروف بدقة. ولا يستطيع أن يظهر ما قاله يسوع أو فعله، والكنيسة لا تطلب ذلك منه. والمكتشفات خلفية مرحَّب بها للقصة، ورقيب على الدعاوى المتسرعة عنها.',
+    en: 'Archaeology shows that the Gospels and Acts are set in a real, accurately known world, written by people who knew the land. The finds bring the Gospel scenes to life and support the witness of the evangelists. The Church honours these places as the setting of the Incarnation, where the Word made flesh lived among us.',
+    ar: 'يبين علم الآثار أن الأناجيل وسفر الأعمال تجري في عالم حقيقي معروف بدقة، كتبها أناس عرفوا الأرض. والاكتشافات تجعل مشاهد الإنجيل حية وتدعم شهادة الإنجيليين. والكنيسة تكرم هذه الأماكن إطارًا للتجسد، حيث عاش الكلمة المتجسد بيننا.',
   },
   furtherReading: ['S31'],
   related: ['pilate-inscription', 'forged-or-misidentified-artifacts', 'jesus-executed-under-pilate', 'burial-of-jesus', 'when-were-the-gospels-written', 'dead-sea-scrolls'],

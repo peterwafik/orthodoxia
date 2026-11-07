@@ -15,23 +15,23 @@ export const article: Article = {
     ar: 'تشرح هذه المقالة ما يعنيه الفيزيائيون حين يقولون إن الكون «مضبوط بدقة» للحياة، وما تدّعيه حجة الضبط الدقيق على وجود خالق، ومدى قوتها، وكيف تفهم الكنيسة القبطية الأرثوذكسية الخلق. أما أثر الانتقاء والأكوان المتعددة فلهما مقالة مستقلة، وعائلة الحجج على وجود الله عمومًا موضوع مقالة الحجج على وجود الله.',
   },
   shortAnswer: {
-    en: 'Physics does show that life as we know it depends on several features of the universe (certain constants and starting conditions) lying within fairly narrow ranges, if one changes them one at a time in theoretical models. Whether this points to a creator is a philosophical question, not a result of physics. Some thoughtful people find it a real pointer to a mind behind the universe; others think it is explained by a deeper law, a multiverse, or our ignorance of what is possible. It is a reason to wonder, not a proof. The Christian faith does not rest on it, but it fits comfortably with what the Church confesses: that God made all things, visible and invisible, and that creation is ordered.',
-    ar: 'تُظهر الفيزياء أن الحياة كما نعرفها تعتمد على سمات في الكون (ثوابت معينة وشروط ابتدائية) تقع ضمن مدى ضيق نسبيًا، إذا غيّرنا كلًّا منها وحده في النماذج النظرية. أما هل يشير ذلك إلى خالق فسؤال فلسفي وليس نتيجة فيزيائية. يرى بعض العقلاء فيه إشارة حقيقية إلى عقل وراء الكون، ويرى آخرون أنه يُفسَّر بقانون أعمق أو بأكوان متعددة أو بجهلنا بما هو ممكن. وهو سبب للتأمل لا برهان. والإيمان المسيحي لا يقوم عليه، لكنه ينسجم مع ما تعترف به الكنيسة: أن الله صنع كل شيء ما يُرى وما لا يُرى، وأن الخليقة منظَّمة.',
+    en: 'Yes, it points to a Creator. Physics shows that life depends on several features of the universe, certain constants and starting conditions, lying within narrow ranges: change one of them in the models, and there are no stars, no stable atoms, no chemistry for life. Such order is what we would expect if a wise Mind made the world, and it is hard to account for by chance. Appeals to a deeper law or a multiverse only move the question back a step, for they too need explaining. The Church\'s faith does not rest on physics, but fine-tuning fits what she confesses: God made all things, visible and invisible, and His wisdom shines in the order of creation.',
+    ar: 'نعم، إنه يشير إلى خالق. فالفيزياء تبين أن الحياة تتوقف على عدة خصائص في الكون، أي ثوابت معينة وظروف بدائية، تقع ضمن نطاقات ضيقة: غيّر واحدة منها في النماذج، فلا نجوم ولا ذرات مستقرة ولا كيمياء للحياة. وهذا النظام هو ما نتوقعه إن كان عقل حكيم قد صنع العالم، ويصعب تفسيره بالصدفة. أما الاحتكام إلى قانون أعمق أو إلى أكوان متعددة فلا يفعل إلا أن يرجع السؤال خطوة إلى الوراء، لأن هذه أيضًا تحتاج إلى تفسير. وإيمان الكنيسة لا يقوم على الفيزياء، لكن الضبط الدقيق يتفق مع ما تعترف به: أن الله صنع كل شيء، ما يُرى وما لا يُرى، وأن حكمته تسطع في نظام الخليقة.',
   },
   quickPoints: {
     en: [
-      'The scientific part is real: in physical models, small changes to some constants or early conditions would leave no stars, no stable atoms or no chemistry of the kind life needs. How many such features there are, and how narrow the ranges really are, is still discussed by physicists.',
-      'The philosophical step is separate: “narrow” only means “improbable” if we know what range was possible and how likely each value was, and we do not.',
-      'Alternatives include a deeper law that fixes the values, a multiverse, and the view that the values are simply brute facts.',
-      'If the argument works, it points to a mind that ordered the universe. It does not by itself reach the God of the Church, who is known in revelation.',
-      'The Church confesses God as Creator of all things and finds His wisdom in creation. It has never made a proof from physics the foundation of faith, and it does not need one.',
+      'The scientific part is real: in physical models, small changes to some constants or early conditions would leave no stars, no stable atoms or no chemistry of the kind life needs.',
+      'Order of this kind is what we would expect from a Mind that chose it, and it is hard to explain by chance.',
+      'A deeper law or a multiverse does not remove the question; it moves it back a step, since that law or that multiverse would need explaining too.',
+      'The argument points to a Mind that ordered the universe. The Church knows that Mind fully as the God who has revealed Himself in Christ.',
+      'The Church confesses God as Creator of all things and finds His wisdom in creation. Her faith does not rest on physics, and it welcomes all that physics discovers.',
     ],
     ar: [
-      'الجزء العلمي حقيقي: ففي النماذج الفيزيائية، تغييرات صغيرة في بعض الثوابت أو الشروط المبكرة كانت ستُنتج كونًا بلا نجوم أو بلا ذرات مستقرة أو بلا كيمياء من النوع الذي تحتاجه الحياة. أما عدد هذه السمات ومدى ضيق نطاقاتها فما زال محل نقاش بين الفيزيائيين.',
-      'والخطوة الفلسفية مستقلة: فكلمة «ضيق» لا تعني «غير محتمل» إلا إذا عرفنا ما المدى الممكن ومدى احتمال كل قيمة، ونحن لا نعرف.',
-      'ومن البدائل: قانون أعمق يحدد القيم، أو أكوان متعددة، أو القول بأن القيم حقائق خامة لا تفسير لها.',
-      'ولو نجحت الحجة فهي تشير إلى عقل نظّم الكون، ولا تبلغ بذاتها إلى إله الكنيسة الذي يُعرف بالإعلان.',
-      'تعترف الكنيسة بالله خالق كل شيء، وترى حكمته في الخليقة، لكنها لم تجعل برهانًا من الفيزياء أساسًا للإيمان، ولا تحتاج إلى ذلك.',
+      'الجزء العلمي حقيقي: ففي النماذج الفيزيائية تؤدي تغييرات صغيرة في بعض الثوابت أو الظروف المبكرة إلى غياب النجوم أو الذرات المستقرة أو الكيمياء التي تحتاجها الحياة.',
+      'ونظام من هذا النوع هو ما نتوقعه من عقل اختاره، ويصعب تفسيره بالصدفة.',
+      'القانون الأعمق أو الأكوان المتعددة لا تزيل السؤال؛ بل ترجعه خطوة، لأن ذلك القانون أو تلك الأكوان تحتاج هي أيضًا إلى تفسير.',
+      'تشير الحجة إلى عقل نظّم الكون. والكنيسة تعرف هذا العقل معرفة كاملة بوصفه الله الذي أعلن ذاته في المسيح.',
+      'تعترف الكنيسة بالله خالقًا لكل شيء، وتجد حكمته في الخليقة. وإيمانها لا يقوم على الفيزياء، وهو يرحب بكل ما تكتشفه الفيزياء.',
     ],
   },
   argumentTypes: ['scientific', 'philosophical', 'theological'],
@@ -44,23 +44,23 @@ export const article: Article = {
   },
   whyExamine: {
     en: [
-      'Fine-tuning is one of the most often quoted arguments for God, and one of the most often misquoted. Popular versions state exact-sounding numbers, or speak as if science had proved a Designer. Others dismiss it in one sentence. Neither helps a reader who wants to know what is actually claimed.',
-      'It is also a good test of method. It asks us to separate three things that are easily blended: what physics describes, what probability can and cannot say about it, and what a believer confesses about God as Creator.',
+      'Fine-tuning is one of the most often quoted arguments for God, and one of the most often misquoted. Popular versions state exact-sounding numbers, while others dismiss the argument in one sentence. A reader deserves to see what is really claimed, and why it carries weight.',
+      'It also shows how faith and science fit together: physics describes the order of the world, reason asks what best explains it, and the believer confesses the God who made it.',
     ],
     ar: [
-      'الضبط الدقيق من أكثر الحجج على وجود الله ترديدًا، ومن أكثرها تحريفًا. فالصيغ الشعبية تذكر أرقامًا تبدو دقيقة، أو تتكلم كأن العلم أثبت وجود مصمِّم. وآخرون يرفضونها بجملة واحدة. ولا يفيد أيٌّ من الأمرين قارئًا يريد أن يعرف ما المدّعى فعلًا.',
-      'وهي أيضًا اختبار جيد للمنهج، لأنها تدعونا إلى الفصل بين ثلاثة أمور يسهل الخلط بينها: ما تصفه الفيزياء، وما يستطيع الاحتمال قوله عنه وما لا يستطيع، وما يعترف به المؤمن عن الله خالقًا.',
+      'الضبط الدقيق من أكثر الحجج على وجود الله استشهادًا، ومن أكثرها تحريفًا. فبعض الصيغ الشعبية تذكر أرقامًا تبدو دقيقة، وآخرون يرفضون الحجة بجملة واحدة. والقارئ يستحق أن يرى ما يُدّعى حقًا، ولماذا له وزن.',
+      'ويبين الموضوع أيضًا كيف يتلاءم الإيمان والعلم: فالفيزياء تصف نظام العالم، والعقل يسأل ما أفضل تفسير له، والمؤمن يعترف بالله الذي صنعه.',
     ],
   },
   background: {
     en: [
       'Physics describes the universe with laws that contain fixed numbers (constants), such as the strengths of the fundamental forces and the masses of particles, together with starting conditions at the beginning of the expanding universe. Theoretical physicists can ask what would happen if one of these numbers were different while the others stayed as they are. In many such models the result is a universe that could not form stars and heavy elements, or could not hold together atoms and molecules, or would expand too fast for matter to gather or collapse too soon. That sensitivity of life-permitting conditions to the values is what is meant by fine-tuning.',
-      'Some familiar cases are well established as physics. The abundance of carbon in stars depends on the details of nuclear reactions, and the astronomer Fred Hoyle drew attention to this in the 1950s. The cosmological constant, which governs the acceleration of the expansion, is observed to be extremely small compared with some theoretical estimates, and Steven Weinberg argued in 1987 that a much larger value would have prevented galaxies from forming. How much these cases show, and how many independent cases there are, is argued about, and the numbers quoted in popular books vary with assumptions. This article therefore gives no figures.',
+      'Some familiar cases are well established as physics. The abundance of carbon in stars depends on the details of nuclear reactions, and the astronomer Fred Hoyle drew attention to this in the 1950s. The cosmological constant, which governs the acceleration of the expansion, is observed to be extremely small compared with some theoretical estimates, and Steven Weinberg argued in 1987 that a much larger value would have prevented galaxies from forming. The numbers quoted in popular books vary with their assumptions, so this article gives no figures.',
       'The argument built on this has two steps. The first is the scientific claim that life-permitting values occupy a narrow band. The second is philosophical: that such a narrow band is more to be expected if a mind chose the values than if they are as they are by chance or necessity. Richard Swinburne, a philosopher and Eastern Orthodox Christian, defends this type of reasoning as one strand of a wider cumulative case. Here his work is cited only as a whole.',
     ],
     ar: [
       'تصف الفيزياء الكون بقوانين تحوي أرقامًا ثابتة (ثوابت)، مثل شدة القوى الأساسية وكتل الجسيمات، إضافةً إلى شروط ابتدائية عند بداية الكون المتمدد. ويستطيع الفيزيائيون النظريون أن يسألوا ماذا يحدث لو اختلف أحد هذه الأرقام وبقيت البقية كما هي. وفي كثير من هذه النماذج تكون النتيجة كونًا لا يستطيع تكوين النجوم والعناصر الثقيلة، أو لا يحفظ الذرات والجزيئات، أو يتمدد أسرع من أن تتجمع المادة، أو ينهار قبل أوانه. وحساسية الظروف التي تسمح بالحياة لهذه القيم هي المقصودة بالضبط الدقيق.',
-      'وبعض الحالات المعروفة مقرّرة في الفيزياء. فوفرة الكربون في النجوم تتوقف على تفاصيل التفاعلات النووية، وقد لفت عالم الفلك فريد هويل الانتباه إلى ذلك في خمسينيات القرن العشرين. والثابت الكوني الذي يتحكم في تسارع التمدد يُرصد صغيرًا جدًا مقارنة ببعض التقديرات النظرية، وقد رأى ستيفن واينبرغ سنة 1987 أن قيمة أكبر بكثير كانت ستمنع تكوّن المجرات. أما مقدار ما تُثبته هذه الحالات، وكم حالة مستقلة منها توجد، ففيه جدل، والأرقام المتداولة في الكتب الشعبية تتفاوت بحسب الافتراضات. لذلك لا تورد هذه المقالة أرقامًا.',
+      'وبعض الحالات المعروفة مقرّرة في الفيزياء. فوفرة الكربون في النجوم تتوقف على تفاصيل التفاعلات النووية، وقد لفت عالم الفلك فريد هويل الانتباه إلى ذلك في خمسينيات القرن العشرين. والثابت الكوني الذي يتحكم في تسارع التمدد يُرصد صغيرًا جدًا مقارنة ببعض التقديرات النظرية، وقد رأى ستيفن واينبرغ سنة 1987 أن قيمة أكبر بكثير كانت ستمنع تكوّن المجرات. والأرقام المتداولة في الكتب الشعبية تتفاوت بحسب افتراضاتها، لذلك لا تورد هذه المقالة أرقامًا.',
       'والحجة المبنية على ذلك ذات خطوتين. الأولى دعوى علمية بأن القيم التي تسمح بالحياة تقع في نطاق ضيق. والثانية فلسفية: أن هذا النطاق الضيق أولى بالتوقّع إن كان عقلٌ قد اختار القيم مما لو كانت على ما هي عليه بالمصادفة أو بالضرورة. ويدافع ريتشارد سوينبرن، وهو فيلسوف ومسيحي أرثوذكسي (من الكنائس الأرثوذكسية الخلقيدونية)، عن هذا النوع من الاستدلال بوصفه أحد خيوط حجة تراكمية أوسع. ويُستشهد بعمله هنا ككل فقط.',
     ],
   },
@@ -70,14 +70,14 @@ export const article: Article = {
     {
       id: 'c2',
       proposition: {
-        en: 'If the life-permitting range is narrow and the values could really have been otherwise, then the existence of a mind that chose them is a reasonable explanation, though not the only one.',
-        ar: 'إن كان النطاق الذي يسمح بالحياة ضيقًا، وكان يمكن حقًا أن تكون القيم مختلفة، فإن وجود عقل اختارها تفسير معقول، وإن لم يكن التفسير الوحيد.',
+        en: 'The narrow life-permitting range of the universe\'s constants is well explained by a Mind that chose them.',
+        ar: 'النطاق الضيق الذي يسمح بالحياة في ثوابت الكون يفسَّر تفسيرًا حسنًا بعقل اختارها.',
       },
       argumentType: 'philosophical',
       assessment: 'philosophical_argument',
       rationale: {
-        en: 'This is an argument about explanation and probability that thoughtful theists present as one strand of a cumulative case. It depends on premises about what range was possible, which physics does not supply.',
-        ar: 'هذه حجة عن التفسير والاحتمال، يعرضها مؤمنون متأملون خيطًا من حجة تراكمية. وهي تعتمد على مقدّمات عن المدى الذي كان ممكنًا، ولا توفرها الفيزياء.',
+        en: 'This is an argument to the best explanation, which thoughtful theists such as Swinburne present as one strand of a wider case. A narrow band of life-permitting values is far more to be expected if a Mind chose them than if they fell out by chance.',
+        ar: 'هذه حجة أفضل تفسير، يقدمها مؤمنون متأملون مثل سوينبرن خيطًا من حجة أوسع. فالنطاق الضيق للقيم التي تسمح بالحياة متوقع أكثر بكثير إن كان عقل قد اختارها منه إن جاءت بالصدفة.',
       },
       limits: {
         en: 'At most it points to a mind that ordered the universe. It does not identify that mind, and it is weakened if a deeper law, a multiverse, or a different way of measuring probability accounts for the values.',
@@ -88,14 +88,14 @@ export const article: Article = {
     {
       id: 'c3',
       proposition: {
-        en: 'The Church confesses that creation is ordered and good, and that its order can lead people to wonder at its Maker. This confession does not depend on any particular argument from physics.',
-        ar: 'تعترف الكنيسة بأن الخليقة منظَّمة وحسنة، وأن نظامها يمكن أن يقود الناس إلى التعجب من صانعها. ولا يتوقف هذا الاعتراف على أي حجة من الفيزياء.',
+        en: 'The Church confesses that creation is ordered and good, and that its order leads people to wonder at its Maker.',
+        ar: 'تعترف الكنيسة بأن الخليقة منظمة وحسنة، وبأن نظامها يقود الناس إلى التعجب من صانعها.',
       },
       argumentType: 'theological',
       assessment: 'theological_interpretation',
       rationale: {
-        en: 'It is what the Scriptures say about creation and its order. It is stated here as the Church’s teaching, not as a conclusion from fine-tuning.',
-        ar: 'هذا ما يقوله الكتاب المقدس عن الخلق ونظامه، ويُذكر هنا تعليمًا للكنيسة وليس نتيجة من الضبط الدقيق.',
+        en: 'This is what the Scriptures teach about creation and its order: the heavens bear witness to God\'s glory, and His power is seen in what He has made. The Church taught it long before modern physics.',
+        ar: 'هذا ما يعلّمه الكتاب المقدس عن الخليقة ونظامها: السماوات تشهد لمجد الله، وقدرته تُرى في ما صنع. وقد علّمت الكنيسة ذلك قبل الفيزياء الحديثة بزمن طويل.',
       },
       limits: {
         en: 'A reader who does not accept the authority of Scripture is not asked to accept this claim in order to weigh claim 1.',
@@ -175,12 +175,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'Defenders reply that the argument does not need exact numbers. It needs only the judgement that the life-permitting set is a small fraction of what could be varied, and that this is a comparative claim, as when we judge that a tiny target is hard to hit by chance without knowing exact odds.',
-          'Critics reply that comparison between ranges needs a measure that physics does not provide, and that different reasonable measures give different answers. This is a real difficulty that careful defenders acknowledge.',
+          'The argument does not need exact numbers. It needs only the judgement that the life-permitting set is a small part of what could be varied. That is a comparative claim, like judging that a tiny target is hard to hit by chance without knowing the exact odds.',
+          'We make such judgements all the time without a precise measure. When a sequence of events lines up exactly as a purpose would require, we rightly look for a purpose, even if we cannot put a number on the odds.',
         ],
         ar: [
-          'يردّ المدافعون بأن الحجة لا تحتاج إلى أرقام دقيقة، وإنما إلى الحكم بأن مجموعة القيم التي تسمح بالحياة جزء صغير مما يمكن تغييره، وأن هذا حكم مقارِن، كما نحكم أن إصابة هدف صغير جدًا بالمصادفة عسيرة دون أن نعرف الاحتمال بالضبط.',
-          'ويردّ الناقدون بأن المقارنة بين النطاقات تحتاج إلى مقياس لا توفره الفيزياء، وأن المقاييس المعقولة المختلفة تعطي نتائج مختلفة. وهذه صعوبة حقيقية يعترف بها المدافعون الحصفاء.',
+          'الحجة لا تحتاج إلى أرقام دقيقة. بل تحتاج فقط إلى الحكم بأن مجموعة القيم التي تسمح بالحياة جزء صغير مما يمكن تغييره. وهذه دعوى مقارنة، كالحكم بأن هدفًا صغيرًا جدًا يصعب إصابته بالصدفة دون معرفة الاحتمالات الدقيقة.',
+          'ونحن نصدر مثل هذه الأحكام دائمًا دون مقياس دقيق. فحين تتوالى أحداث تمامًا كما يتطلب قصدٌ ما، نبحث عن حق عن ذلك القصد، حتى لو لم نستطع أن نضع رقمًا للاحتمالات.',
         ],
       },
       limits: {
@@ -196,12 +196,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'This is possible and, for some constants, may be true. Defenders note, however, that a deeper law would itself have a form and constants of its own, so the question of why this law, with these features, would remain, even if it moved back a level.',
-          'It follows that the objection does not remove the question of order. It changes where the question is asked. Whether that is a gain depends on whether one thinks a necessary law needs no further explanation, which is the same philosophical disagreement that appears in the cosmological argument.',
+          'A deeper law may fix some of the values. But that law would itself have a form and constants of its own, so the question of why this law, with these features, would remain; it would only have moved back a level.',
+          'The objection does not remove the question of order; it changes where the question is asked. A law that makes life possible is itself a sign of a Lawgiver.',
         ],
         ar: [
-          'هذا ممكن، وقد يكون صحيحًا في بعض الثوابت. غير أن المدافعين يلاحظون أن القانون الأعمق سيكون له شكله وثوابته، فيبقى السؤال لماذا هذا القانون بهذه السمات، وإن انتقل مستوىً إلى الوراء.',
-          'ويترتب على ذلك أن الاعتراض لا يزيل سؤال النظام بل ينقل موضع طرحه. وهل في ذلك مكسب يتوقف على ما إذا كان المرء يرى أن القانون الضروري لا يحتاج إلى تفسير إضافي، وهو الخلاف الفلسفي نفسه الذي يظهر في الحجة الكونية.',
+          'قد يثبّت قانون أعمق بعض القيم. لكن ذلك القانون سيكون له شكله وثوابته الخاصة، فيبقى السؤال: لماذا هذا القانون بهذه الخصائص؟ ولا يكون السؤال قد فعل إلا أن رجع درجة.',
+          'فالاعتراض لا يزيل سؤال النظام؛ بل يغيّر موضع طرحه. والقانون الذي يجعل الحياة ممكنة هو نفسه علامة على واضع القانون.',
         ],
       },
       limits: {
@@ -217,10 +217,10 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The first point is a fair limit on the scientific premise of the argument, and careful presentations of the argument admit that “life” here means life based on chemistry like ours, or at least some complex structure. The second point, the observer selection effect, explains why we observe such a universe but not, defenders say, why there is one; that exchange is taken up in the article on the selection effect and the multiverse.',
+          'The argument speaks of life based on chemistry like ours, or at least of complex structure; without stars, atoms and chemistry, there is no complexity of any kind. The observer selection effect explains why we observe such a universe, but not why there is one; that exchange is taken up in the article on the selection effect and the multiverse.',
         ],
         ar: [
-          'النقطة الأولى حدّ منصف للمقدمة العلمية للحجة، والعروض الدقيقة للحجة تقرّ بأن «الحياة» هنا تعني حياة قائمة على كيمياء كالتي نعرفها أو على الأقل بنية معقدة ما. أما النقطة الثانية، أي أثر الانتقاء، فيفسّر لماذا نرصد كونًا كهذا لا، كما يقول المدافعون، لماذا يوجد كون كهذا. وهذا التبادل موضوع مقالة أثر الانتقاء والأكوان المتعددة.',
+          'تتكلم الحجة عن حياة قائمة على كيمياء مثل كيميائنا، أو على الأقل عن بنية معقدة؛ فبدون نجوم وذرات وكيمياء لا يوجد تعقيد من أي نوع. وأثر انتقاء الراصد يفسر لماذا نرصد كونًا كهذا، لكنه لا يفسر لماذا يوجد. وهذا النقاش يتناوله مقال أثر الانتقاء والأكوان المتعددة.',
         ],
       },
       limits: {
@@ -236,12 +236,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The objection is right about one kind of argument and a Christian should avoid it. The better form of the argument does not rest on a gap in what science has found. It rests on the fact that the laws exist and have the character they have, which every future physics will also have to take as given.',
-          'The Church’s faith does not stand or fall with this argument. If physics one day explains the constants, creation will still be God’s work, as it is the Church’s teaching that God sustains all that exists, including the laws by which it works.',
+          'A Christian should avoid any argument that rests on a gap in science. The argument from fine-tuning rests instead on the fact that the laws exist and have the character they have, which every future physics will also have to take as given.',
+          'If physics one day explains the constants, creation will still be God\'s work. The Church teaches that God sustains all that exists, including the laws by which it works, and no discovery can push Him out of His own creation.',
         ],
         ar: [
-          'الاعتراض صائب في نوع واحد من الحجج، وعلى المسيحي أن يتجنبه. أما الصيغة الأفضل للحجة فلا تقوم على فجوة في ما اكتشفه العلم، بل على أن القوانين موجودة وعلى ما هي عليه من طبيعة، وهو ما ستضطر كل فيزياء مقبلة إلى اعتباره معطًى.',
-          'وإيمان الكنيسة لا يقوم بهذه الحجة ولا يسقط بسقوطها. فلو فسّرت الفيزياء الثوابت يومًا، فستبقى الخليقة عمل الله، لأن تعليم الكنيسة أن الله يحفظ كل ما هو موجود، بما فيه القوانين التي يعمل بها.',
+          'ينبغي للمسيحي أن يتجنب أي حجة تقوم على فجوة في العلم. أما حجة الضبط الدقيق فتقوم على أن القوانين موجودة ولها طبيعتها، وهذا ما ستضطر كل فيزياء مستقبلية إلى قبوله أيضًا.',
+          'وإن فسرت الفيزياء يومًا الثوابت، فستبقى الخليقة عمل الله. فالكنيسة تعلّم أن الله يحفظ كل ما هو موجود، بما في ذلك القوانين التي يعمل بها، ولا يستطيع أي اكتشاف أن يُخرجه من خليقته.',
         ],
       },
       limits: {
@@ -257,10 +257,10 @@ export const article: Article = {
       },
       response: {
         en: [
-          'Defenders reply that the argument says only that the universe’s basic structure makes life possible, not that life is its only or main purpose, and that a large and old universe may be the necessary setting for the existence of any life. The question of suffering is a separate and serious one, taken up in the articles on the problem of evil.',
+          'The argument says that the universe\'s basic structure makes life possible, not that life is its only purpose. A large and old universe may be the necessary setting for any life at all, and its vastness speaks of the greatness of its Maker. Suffering is a separate and serious question, taken up in the articles on the problem of evil.',
         ],
         ar: [
-          'يردّ المدافعون بأن الحجة لا تقول إلا إن البنية الأساسية للكون تجعل الحياة ممكنة، لا إن الحياة هدفه الوحيد أو الرئيسي، وإن كونًا كبيرًا قديمًا قد يكون الإطار اللازم لوجود أي حياة. أما سؤال الألم فسؤال مستقل وجاد، تتناوله مقالات مشكلة الشر.',
+          'تقول الحجة إن البنية الأساسية للكون تجعل الحياة ممكنة، لا إن الحياة غايته الوحيدة. وقد يكون الكون الواسع القديم هو الإطار اللازم لأي حياة أصلًا، واتساعه يحدث بعظمة صانعه. أما الألم فسؤال منفصل وجاد، تتناوله مقالات مشكلة الشر.',
         ],
       },
       limits: {
@@ -273,19 +273,19 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'The argument is not historical: it does not rest on an event, a text or a witness, so no historical case is made here.',
+        'The argument is philosophical rather than historical: it rests not on an event, a text or a witness, but on the structure of the universe.',
       ],
       ar: [
-        'الحجة ليست تاريخية: فهي لا تقوم على حدث أو نص أو شاهد، ولذلك لا تُساق هنا حجة تاريخية.',
+        'الحجة فلسفية لا تاريخية: فهي لا تقوم على حدث أو نص أو شاهد، بل على بنية الكون.',
       ],
     },
     theological: {
       en: [
-        'A Christian may take the fine-tuning of the universe as a reason for wonder and as consistent with belief in a Creator, without treating it as a proof. The Church does not teach that people come to faith by calculating odds. It teaches that the God who made all things has made Himself known in His Word, and that He is worshipped in truth in the life of the Church.',
+        'A Christian may rightly take the fine-tuning of the universe as a reason for wonder and a pointer to the Creator. The Church does not teach that people come to faith by calculating odds. It teaches that the God who made all things has made Himself known in His Word, and that He is worshipped in truth in the life of the Church.',
         'Scripture is not a physics text, and the Church does not read Genesis or the Psalms as predictions about constants. What they teach is that the world is God’s work, ordered and good, and that its order speaks of Him. The confession in the Creed, “maker of heaven and earth, and of all things visible and invisible,” is a confession about who God is, and it holds whatever physics finds.',
       ],
       ar: [
-        'يجوز للمسيحي أن يعدّ الضبط الدقيق للكون سببًا للتعجب ومنسجمًا مع الإيمان بالخالق، دون أن يعدّه برهانًا. ولا تعلّم الكنيسة أن الناس يأتون إلى الإيمان بحساب الاحتمالات، بل تعلّم أن الله الذي صنع كل شيء قد أعلن ذاته في كلمته، وأنه يُسجد له بالحق في حياة الكنيسة.',
+        'يحق للمسيحي أن يعدّ الضبط الدقيق للكون سببًا للتعجب ومؤشرًا إلى الخالق. ولا تعلّم الكنيسة أن الناس يأتون إلى الإيمان بحساب الاحتمالات، بل تعلّم أن الله الذي صنع كل شيء قد أعلن ذاته في كلمته، وأنه يُسجد له بالحق في حياة الكنيسة.',
         'والكتاب المقدس ليس كتاب فيزياء، ولا تقرأ الكنيسة سفر التكوين أو المزامير تنبؤاتٍ عن الثوابت. وما تعلّمه أن العالم عمل الله، منظَّم وحسن، وأن نظامه يتحدث عنه. والاعتراف في قانون الإيمان «خالق السماء والأرض، ما يُرى وما لا يُرى» اعتراف بمن هو الله، وهو قائم أيًّا كان ما تكتشفه الفيزياء.',
       ],
     },
@@ -313,8 +313,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'The universe’s structure allows life only within limited ranges of some constants and conditions, as far as present models go, and that is a striking fact. Whether it points to a Creator depends on judgements about probability and explanation that physics cannot make for us, and thoughtful people differ. The Church’s faith in the Creator does not depend on this argument. It can offer it as a reason for wonder, with honesty about its limits.',
-    ar: 'لا تسمح بنية الكون بالحياة، بحسب النماذج الحالية، إلا ضمن نطاقات محدودة لبعض الثوابت والشروط، وهذه واقعة لافتة. وهل تشير إلى خالق فيتوقف على أحكام عن الاحتمال والتفسير لا تستطيع الفيزياء أن تصدرها عنا، ويختلف فيها العقلاء. وإيمان الكنيسة بالخالق لا يتوقف على هذه الحجة، ويمكنها أن تقدمها سببًا للتعجب مع الصدق في بيان حدودها.',
+    en: 'The universe allows life only within narrow ranges of some constants and conditions, and that is a striking fact. It points to a wise Mind behind the world, and the alternatives only move the question back. The Church\'s faith in the Creator does not rest on physics, but she welcomes this witness of creation with wonder and gives glory to the God who made all things.',
+    ar: 'لا يسمح الكون بالحياة إلا ضمن نطاقات ضيقة لبعض الثوابت والظروف، وهذه حقيقة لافتة. وهي تشير إلى عقل حكيم وراء العالم، والبدائل لا تفعل إلا أن ترجع السؤال إلى الوراء. وإيمان الكنيسة بالخالق لا يقوم على الفيزياء، لكنها ترحب بشهادة الخليقة هذه بتعجب، وتمجّد الله الذي صنع كل شيء.',
   },
   furtherReading: ['S39', 'S38'],
   related: [

@@ -15,25 +15,25 @@ export const article: Article = {
     ar: 'يسأل هذا المقال: لماذا، بحسب الرواية المسيحية، صار الله إنسانًا ومات على صليب وقام، وكيف يخلّص ذلك؟ فيعرض لغة العهد الجديد، والشرح الكلاسيكي لأثناسيوس، والطرق المختلفة التي تصف بها التقاليد المسيحية الفداء، واعتراضات النقاد اليهود والمسلمين والعلمانيين. ولا يحتج بأن الأحداث وقعت؛ فمقالات أخرى تزن الشواهد على الموت والقيامة.',
   },
   shortAnswer: {
-    en: 'The Church teaches that humanity fell under sin and death, and that only God could renew it. The Word of God took a real human body and, in it, died for all and rose, so that death lost its power and humanity is restored to the image of God and made sharer in the divine life. The New Testament uses several images for this: ransom, sacrifice, reconciliation, victory over death, adoption. The Church has never reduced it to one theory, and traditions differ in emphasis. Critics ask why God could not simply forgive, and whether one person can bear another’s guilt; the Church answers that the cross is an act of love that both takes seriously what sin does and heals it.',
-    ar: 'تعلّم الكنيسة أن البشرية سقطت تحت الخطية والموت، وأن الله وحده يستطيع تجديدها. فاتخذ كلمة الله جسدًا بشريًا حقيقيًا، ومات فيه عن الجميع وقام، فانهزم سلطان الموت وتجددت البشرية على صورة الله وصارت شريكة في الحياة الإلهية. ويستعمل العهد الجديد صورًا عدة لذلك: الفدية، والذبيحة، والمصالحة، والانتصار على الموت، والتبني. ولم تختزله الكنيسة في نظرية واحدة، وتختلف التقاليد في التركيز. ويسأل النقاد لماذا لا يغفر الله ببساطة، وهل يستطيع شخص أن يحمل ذنب آخر؛ وتجيب الكنيسة بأن الصليب فعل محبة يأخذ بجدية ما تفعله الخطية ويشفيها.',
+    en: 'Humanity fell under sin and death, and only God could renew it. So the Word of God took a real human body, died in it for all and rose again. In Him death lost its power, and humanity is restored to the image of God and made a sharer in the divine life. The New Testament describes this with several images: ransom, sacrifice, reconciliation, victory over death and adoption. Together they show one truth. The cross is not the appeasement of an angry Father; it is the act of the Father, the Son and the Holy Spirit in love, which takes seriously what sin does and heals it from within.',
+    ar: 'سقطت البشرية تحت الخطية والموت، والله وحده يستطيع تجديدها. فاتخذ كلمة الله جسدًا بشريًا حقيقيًا، ومات فيه عن الجميع وقام. وفيه فقد الموت سلطانه، وتجددت البشرية على صورة الله وصارت شريكة في الحياة الإلهية. ويصف العهد الجديد ذلك بصور عدة: الفدية، والذبيحة، والمصالحة، والانتصار على الموت، والتبني. وهي معًا تُظهر حقيقة واحدة. فالصليب ليس استرضاءً لآب غاضب؛ بل هو فعل الآب والابن والروح القدس بمحبة، يأخذ بجدية ما تفعله الخطية ويشفيها من الداخل.',
   },
   quickPoints: {
     en: [
       'The New Testament speaks of Christ’s death as a ransom, a sacrifice, a reconciliation and a victory over death.',
-      'Athanasius argues that the Word took a body that could die, so that death’s hold on humanity would be undone and humanity renewed.',
+      'St Athanasius teaches that the Word took a body that could die, so that death’s hold on humanity would be undone and humanity renewed.',
       'The incarnation and the cross belong together: the one who dies is God the Word in the flesh.',
-      'Traditions emphasise different images: victory and renewal in the East, satisfaction in much Western thought, penal substitution in many Protestant churches.',
-      'The Church does not teach that God the Father is appeased against his will, but that the Father and the Son act in love.',
-      'Whether the account is true depends on the historical claims of death and resurrection and on faith; the article makes no claim to prove it.',
+      'The Coptic Church, with the Fathers of the East, gives the central place to victory over death and renewal of our nature.',
+      'The Father is not appeased against His will; the Father and the Son act together in love.',
+      'Salvation is received through faith and baptism and lived in the Church’s life of repentance and communion.',
     ],
     ar: [
       'يتكلم العهد الجديد عن موت المسيح فدية وذبيحة ومصالحة وانتصارًا على الموت.',
-      'يحتج أثناسيوس بأن الكلمة اتخذ جسدًا يستطيع أن يموت، ليُبطل سلطان الموت على البشرية وتتجدد البشرية.',
+      'يعلّم القديس أثناسيوس أن الكلمة اتخذ جسدًا يستطيع أن يموت، ليُبطل سلطان الموت على البشرية وتتجدد البشرية.',
       'التجسد والصليب متلازمان: الذي يموت هو الله الكلمة في الجسد.',
-      'تركز التقاليد على صور مختلفة: الانتصار والتجديد في الشرق، والإرضاء في كثير من الفكر الغربي، والنيابة العقابية في كثير من الكنائس البروتستانتية.',
-      'لا تعلّم الكنيسة أن الله الآب يُسترضى رغمًا عنه، بل أن الآب والابن يعملان بمحبة.',
-      'وصحة الرواية تتوقف على الدعاوى التاريخية للموت والقيامة وعلى الإيمان؛ والمقال لا يدّعي إثباتها.',
+      'تعطي الكنيسة القبطية، مع آباء الشرق، المكان المركزي للانتصار على الموت وتجديد طبيعتنا.',
+      'الآب لا يُسترضى رغمًا عنه؛ بل الآب والابن يعملان معًا بمحبة.',
+      'يُنال الخلاص بالإيمان والمعمودية، ويُعاش في حياة الكنيسة بالتوبة والشركة.',
     ],
   },
   argumentTypes: ['theological', 'textual', 'philosophical'],
@@ -47,12 +47,12 @@ export const article: Article = {
 
   whyExamine: {
     en: [
-      'The cross is the centre of Christian faith and also its most disputed point. To Jews and Muslims it can seem unworthy of God; to secular critics it can seem to make an innocent person suffer for the guilty. A fair account asks what Christians actually claim and how they reason.',
-      'It also corrects a common misunderstanding, that Christians believe in a vengeful Father who needed a victim. The Church’s Fathers speak of the cross as the act of the Son who is one with the Father and who acts in love.',
+      'The cross is the centre of the Christian faith and also its most questioned point. To Jews and Muslims it can seem unworthy of God; to secular critics it can seem to make an innocent person suffer for the guilty. A clear account of what the Church actually confesses answers much of this.',
+      'It also corrects a common misunderstanding: that Christians believe in a vengeful Father who needed a victim. The Fathers speak of the cross as the act of the Son, who is one with the Father and acts in love.',
     ],
     ar: [
-      'الصليب مركز الإيمان المسيحي وأكثر نقاطه جدلًا. ويبدو لليهود والمسلمين غير لائق بالله؛ ويبدو للنقاد العلمانيين كأنه يجعل بريئًا يتألم عن مذنبين. والعرض المنصف يسأل ماذا يدّعي المسيحيون فعلًا وكيف يستدلون.',
-      'وهو يصحح أيضًا سوء فهم شائعًا، هو أن المسيحيين يؤمنون بآب منتقم احتاج إلى ضحية. ويتكلم آباء الكنيسة عن الصليب فعل الابن الذي هو واحد مع الآب والذي يعمل بمحبة.',
+      'الصليب مركز الإيمان المسيحي وأكثر نقاطه تعرّضًا للسؤال. ويبدو لليهود والمسلمين غير لائق بالله؛ ويبدو للنقاد العلمانيين كأنه يجعل بريئًا يتألم عن مذنبين. وبيان واضح لما تعترف به الكنيسة فعلًا يجيب عن كثير من ذلك.',
+      'وهو يصحح أيضًا سوء فهم شائعًا: أن المسيحيين يؤمنون بآب منتقم احتاج إلى ضحية. ويتكلم الآباء عن الصليب فعلًا للابن الذي هو واحد مع الآب ويعمل بمحبة.',
     ],
   },
   background: {
@@ -75,14 +75,14 @@ export const article: Article = {
     {
       id: 'C1',
       proposition: {
-        en: 'The New Testament interprets the death of Christ as saving, in a number of images, and links it to his being the Son of God who became man.',
-        ar: 'يفسّر العهد الجديد موت المسيح خلاصيًا بصور عدة، ويربطه بكونه ابن الله الذي صار إنسانًا.',
+        en: 'The New Testament proclaims the death of Christ as saving, in a number of images, and links it to His being the Son of God who became man.',
+        ar: 'يكرز العهد الجديد بموت المسيح خلاصيًا بصور عدة، ويربطه بكونه ابن الله الذي صار إنسانًا.',
       },
       argumentType: 'textual',
       assessment: 'supported_disputed_details',
       rationale: {
-        en: 'The texts are clear in their wording. Scholars debate how these images relate and which was first, and whether Jesus himself interpreted his death in this way.',
-        ar: 'النصوص واضحة في ألفاظها. ويناقش الباحثون كيف ترتبط هذه الصور وأيها الأول، وهل فسّر يسوع نفسه موته هكذا.',
+        en: 'The Lord speaks of His life given as a ransom for many (Mark 10:45). St Paul writes that death came through one man and life through another. Hebrews presents Christ as high priest and sacrifice, who shared our flesh and blood to free those held by the fear of death. St John speaks of the love of God in sending His Son.',
+        ar: 'يتكلم الرب عن حياته المبذولة فدية عن كثيرين (مرقس ١٠: ٤٥). ويكتب القديس بولس أن الموت جاء بإنسان واحد والحياة بآخر. وتقدم الرسالة إلى العبرانيين المسيح رئيس كهنة وذبيحة، اشترك في لحمنا ودمنا ليعتق الذين أمسكهم الخوف من الموت. ويتكلم القديس يوحنا عن محبة الله في إرسال ابنه.',
       },
       limits: {
         en: 'The texts show how early Christians understood the death. Whether the interpretation is true is a matter of faith.',
@@ -93,14 +93,14 @@ export const article: Article = {
     {
       id: 'C2',
       proposition: {
-        en: 'Athanasius explains the incarnation as the Word taking a body capable of death in order to undo death’s hold on humanity and renew it.',
-        ar: 'يشرح أثناسيوس التجسد بأن الكلمة اتخذ جسدًا قابلًا للموت ليبطل سلطان الموت على البشرية ويجددها.',
+        en: 'St Athanasius explains the incarnation as the Word taking a body capable of death in order to undo death’s hold on humanity and renew it.',
+        ar: 'يشرح القديس أثناسيوس التجسد بأن الكلمة اتخذ جسدًا قابلًا للموت ليبطل سلطان الموت على البشرية ويجددها.',
       },
       argumentType: 'theological',
       assessment: 'theological_interpretation',
       rationale: {
-        en: 'It is the classical Alexandrian explanation and the one that the Coptic Church draws upon most. It is available in full in the catalogued text.',
-        ar: 'إنه الشرح الإسكندري الكلاسيكي والذي تستند إليه الكنيسة القبطية أكثر من غيره. وهو متاح كاملًا في النص المفهرس.',
+        en: 'In On the Incarnation he reasons that humanity, made in God’s image, had fallen toward corruption; repentance alone could not undo it; and God would not let His creation perish. So the Word offered His body for all and by rising gave life. This is the classical Alexandrian teaching, the one the Coptic Church draws on most.',
+        ar: 'في «تجسد الكلمة» يستدل بأن الإنسان المخلوق على صورة الله سقط نحو الفساد؛ ولم تكن التوبة وحدها قادرة على إزالته؛ ولا يترك الله خليقته تهلك. فقدّم الكلمة جسده عن الجميع وبقيامته وهب الحياة. وهذا هو التعليم الإسكندري الكلاسيكي، والذي تستند إليه الكنيسة القبطية أكثر من غيره.',
       },
       limits: {
         en: 'It is one traditional explanation and other traditions weigh the images differently.',
@@ -111,14 +111,14 @@ export const article: Article = {
     {
       id: 'C3',
       proposition: {
-        en: 'Christian traditions agree that Christ’s death saves, but differ on how to explain it.',
-        ar: 'تتفق التقاليد المسيحية على أن موت المسيح يخلّص، لكنها تختلف في كيفية شرحه.',
+        en: 'All Christian traditions confess that Christ’s death saves; the Church holds the biblical images together without reducing them to one theory.',
+        ar: 'تعترف التقاليد المسيحية كلها بأن موت المسيح يخلّص؛ والكنيسة تحفظ الصور الكتابية معًا دون أن تختزلها في نظرية واحدة.',
       },
       argumentType: 'theological',
       assessment: 'actively_debated',
       rationale: {
-        en: 'The Eastern, Western and Protestant accounts each stress different images and criticise each other’s emphasis. No single theory is defined by the ecumenical councils.',
-        ar: 'تركز الروايات الشرقية والغربية والبروتستانتية على صور مختلفة وينتقد بعضها تركيز بعض. ولم تحدد المجامع المسكونية نظرية واحدة.',
+        en: 'Eastern writers stress renewal and victory over death, St Anselm in the West spoke of satisfaction, and many Protestant churches speak of Christ bearing sin’s penalty. The ecumenical councils defined no single theory. The Coptic Church keeps the fullness of the biblical witness: ransom, sacrifice and victory, all the work of the incarnate Word.',
+        ar: 'يركز كتّاب الشرق على التجديد والانتصار على الموت، وتكلم القديس أنسلم في الغرب عن الإيفاء، وتتكلم كنائس بروتستانتية كثيرة عن حمل المسيح عقوبة الخطية. ولم تحدد المجامع المسكونية نظرية واحدة. والكنيسة القبطية تحفظ ملء الشهادة الكتابية: الفدية والذبيحة والانتصار، وكلها عمل الكلمة المتجسد.',
       },
       limits: {
         en: 'The article does not decide among them.',
@@ -129,14 +129,14 @@ export const article: Article = {
     {
       id: 'C4',
       proposition: {
-        en: 'The cross is presented as the act of God’s love, and not as the appeasement of an unwilling Father.',
-        ar: 'يُعرض الصليب فعل محبة الله، لا استرضاء لآب غير راغب.',
+        en: 'The cross is the act of God’s love, not the appeasement of an unwilling Father.',
+        ar: 'الصليب فعل محبة الله، لا استرضاء لآب غير راغب.',
       },
       argumentType: 'textual',
       assessment: 'supported_disputed_details',
       rationale: {
-        en: 'John and St Paul speak of God sending his Son and showing his love in Christ’s death. Some Protestant formulations are heard by their critics as a conflict between Father and Son; their defenders deny this.',
-        ar: 'يتكلم يوحنا وبولس عن إرسال الله ابنه وإظهار محبته في موت المسيح. ويسمع نقاد بعض الصياغات البروتستانتية فيها صراعًا بين الآب والابن؛ وينفي المدافعون عنها ذلك.',
+        en: 'St John says that God’s love for the world is what moved Him to send His Son, and St Paul says that Christ’s death for sinners is the proof of God’s own love (John 3:16; Romans 5:8). The Father gives the Son, and the Son gives Himself; there is one will of love.',
+        ar: 'يقول القديس يوحنا إن محبة الله للعالم هي التي دفعته إلى إرسال ابنه، ويقول القديس بولس إن موت المسيح عن الخطاة برهان محبة الله نفسه (يوحنا ٣: ١٦؛ رومية ٥: ٨). فالآب يبذل الابن، والابن يبذل نفسه؛ والمشيئة واحدة، مشيئة المحبة.',
       },
       limits: {
         en: 'It does not decide the dispute among Christian traditions over penal substitution.',
@@ -231,12 +231,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The Church does not teach that God needs a death to be able to love. In the Alexandrian account, the problem is not an offended God who has to be pacified but a humanity that is wounded and moving toward death, which forgiveness alone does not heal. The cross is God’s act to heal, and Christ’s own death is the Son’s free gift.',
-          'The Muslim and Jewish traditions have their own accounts of how God forgives, through repentance and mercy, and they ask whether more is needed. The Church answers that it believes that forgiveness and renewal are both given in Christ; whether one holds this depends on whether one accepts that he is the incarnate Son.',
+          'God does not need a death in order to love. In the Alexandrian teaching, the problem is not an offended God who must be pacified, but a humanity wounded and moving toward death, which a word of pardon alone does not heal. The cross is God’s own act of healing, and Christ’s death is the Son’s free gift.',
+          'God does forgive the repentant, as Jews and Muslims also confess. In Christ He does more: He forgives, and He renews our nature from within, and He destroys death itself by rising. That is why the Word became flesh.',
         ],
         ar: [
-          'لا تعلّم الكنيسة أن الله يحتاج إلى موت ليقدر أن يحب. ففي الرواية الإسكندرية ليست المشكلة إلهًا مهانًا يجب استرضاؤه، بل بشرية جريحة سائرة إلى الموت لا تشفيها المغفرة وحدها. والصليب فعل الله للشفاء، وموت المسيح هو عطية الابن الحرة.',
-          'ولدى التقليدين الإسلامي واليهودي روايتهما لكيفية مغفرة الله بالتوبة والرحمة، ويسألان هل يلزم أكثر. وتجيب الكنيسة بأنها تؤمن بأن المغفرة والتجديد كليهما معطيان في المسيح؛ والتمسك بذلك يتوقف على قبول أنه الابن المتجسد.',
+          'الله لا يحتاج إلى موت ليقدر أن يحب. ففي التعليم الإسكندري ليست المشكلة إلهًا مهانًا يجب استرضاؤه، بل بشرية جريحة سائرة إلى الموت لا تشفيها كلمة صفح وحدها. والصليب فعل الله نفسه للشفاء، وموت المسيح عطية الابن الحرة.',
+          'والله يغفر للتائبين، كما يعترف اليهود والمسلمون أيضًا. وفي المسيح يصنع أكثر: يغفر، ويجدد طبيعتنا من الداخل، ويبيد الموت نفسه بقيامته. ولهذا صار الكلمة جسدًا.',
         ],
       },
       limits: {
@@ -253,12 +253,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The objection has force against some versions of the doctrine, in which an unwilling victim is punished by an angry judge. The Church’s account differs: the one who dies is God the Word, not a third party, who acts freely and in union with the Father.',
-          'Even so, many philosophers argue that no account of atonement solves the moral problem of transferring responsibility. The Church replies that what is given is not a transfer of guilt as an object but a participation: Christ shares our nature so that we may share his life. This is a theological claim and a critic need not accept it.',
+          'The objection would have force against a picture in which an unwilling victim is punished by an angry judge. That is not the Church’s faith. The one who dies is God the Word Himself, not a third party, and He acts freely and in one will with the Father.',
+          'What is given is not guilt moved from one person to another like an object, but a sharing: Christ shares our nature so that we may share His life. The Judge Himself comes to stand with the guilty and heal them. That is not injustice; it is love.',
         ],
         ar: [
-          'للاعتراض قوته ضد بعض صيغ العقيدة التي يُعاقب فيها ضحية غير راغبة بيد قاضٍ غاضب. أما رواية الكنيسة فمختلفة: الذي يموت هو الله الكلمة لا طرف ثالث، وهو يعمل بحرية وفي اتحاد مع الآب.',
-          'ومع ذلك يحتج فلاسفة كثيرون بأن لا رواية للفداء تحل المشكلة الأخلاقية في نقل المسؤولية. وتجيب الكنيسة بأن المعطى ليس نقل ذنب كأنه شيء بل مشاركة: المسيح يشاركنا طبيعتنا لنشاركه حياته. وهذه دعوى لاهوتية ولا يلزم الناقد أن يقبلها.',
+          'يكون للاعتراض قوة ضد صورة يُعاقب فيها ضحية غير راغبة بيد قاضٍ غاضب. وليس هذا إيمان الكنيسة. فالذي يموت هو الله الكلمة نفسه، لا طرف ثالث، وهو يعمل بحرية وبمشيئة واحدة مع الآب.',
+          'والمعطى ليس ذنبًا يُنقل من شخص إلى آخر كأنه شيء، بل مشاركة: المسيح يشاركنا طبيعتنا لنشاركه حياته. فالديّان نفسه يأتي ليقف مع المذنبين ويشفيهم. وهذا ليس ظلمًا؛ بل محبة.',
         ],
       },
       limits: {
@@ -275,12 +275,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The article on pagan parallels weighs this claim. In short, the New Testament account is tied to a specific historical person executed under Pilate, and its language of ransom, sacrifice and priesthood comes from Jewish Scripture and worship.',
-          'Resemblance in the pattern of death and renewal does not show borrowing. Borrowing requires evidence of contact and of shared content, and the pagan examples differ from the New Testament in the features that matter here.',
+          'The article on pagan parallels examines this claim. In short, the Gospel is tied to a specific historical person executed under Pontius Pilate, and its language of ransom, sacrifice and priesthood comes from the Jewish Scriptures and the worship of the Temple.',
+          'A general likeness in a pattern of death and renewal does not show borrowing. Borrowing needs evidence of contact and shared content, and the pagan stories differ from the Gospel in exactly the features that matter.',
         ],
         ar: [
-          'يزن المقال عن الأوجه الشبه الوثنية هذه الدعوى. وبإيجاز، فرواية العهد الجديد مرتبطة بشخص تاريخي محدد أُعدم في عهد بيلاطس، ولغة الفدية والذبيحة والكهنوت فيها من الكتاب والعبادة اليهوديين.',
-          'والتشابه في نمط الموت والتجدد لا يدل على الاستعارة. والاستعارة تحتاج إلى شاهد على الاتصال وعلى مضمون مشترك، وتختلف الأمثلة الوثنية عن العهد الجديد في السمات المهمة هنا.',
+          'يفحص المقال عن أوجه الشبه الوثنية هذه الدعوى. وبإيجاز، فالإنجيل مرتبط بشخص تاريخي محدد أُعدم في عهد بيلاطس البنطي، ولغة الفدية والذبيحة والكهنوت فيه آتية من الكتب اليهودية وعبادة الهيكل.',
+          'والتشابه العام في نمط الموت والتجدد لا يدل على الاستعارة. فالاستعارة تحتاج إلى شاهد على الاتصال وعلى مضمون مشترك، والقصص الوثنية تختلف عن الإنجيل بالضبط في السمات المهمة.',
         ],
       },
       limits: {
@@ -294,12 +294,12 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'Historically, a Christian can say that the crucifixion is well attested, that the earliest Christians preached the death of Jesus as saving, and that this is already in the oldest letters of St Paul. These facts support the claim that the interpretation of the cross is early. They do not show that it is true.',
-        'A Christian can also say that the interpretation drew on the Jewish language of sacrifice and of the suffering servant, which the first believers knew.',
+        'The crucifixion is well attested, and the earliest Christians preached the death of Jesus as saving; this is already in the oldest letters of St Paul. The meaning of the cross was not a later addition. It was proclaimed from the start.',
+        'That proclamation drew on the Jewish language of sacrifice and of the suffering servant in Isaiah, which the first believers knew well and saw fulfilled in Christ.',
       ],
       ar: [
-        'يستطيع المسيحي تاريخيًا أن يقول إن الصلب موثق جيدًا، وإن المسيحيين الأوائل بشروا بموت يسوع خلاصيًا، وإن هذا موجود في أقدم رسائل القديس بولس. وهذه الوقائع تسند القول إن تفسير الصليب مبكر. لكنها لا تثبت صحته.',
-        'ويستطيع أن يقول أيضًا إن التفسير استفاد من لغة التقدمة والعبد المتألم عند اليهود، وكان المؤمنون الأوائل يعرفونها.',
+        'الصلب موثق جيدًا، وقد بشّر المسيحيون الأوائل بموت يسوع خلاصيًا؛ وهذا موجود في أقدم رسائل القديس بولس. فمعنى الصليب لم يُضف لاحقًا، بل كُرز به منذ البدء.',
+        'واستمدت هذه الكرازة من لغة الذبيحة عند اليهود ومن العبد المتألم في إشعياء، وكان المؤمنون الأوائل يعرفونها جيدًا ورأوها متممة في المسيح.',
       ],
     },
     theological: {
@@ -336,8 +336,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'On the Church’s account, God the Word became man and died and rose so that humanity, fallen into sin and death, might be renewed and share in the divine life. Several biblical images describe how, and traditions weigh them differently. The explanation is held by faith; the objections are real and the article has tried to state them fairly.',
-    ar: 'بحسب رواية الكنيسة، صار الله الكلمة إنسانًا ومات وقام لكي تتجدد البشرية الساقطة في الخطية والموت وتشارك في الحياة الإلهية. وتصف صور كتابية عدة كيف، وتزنها التقاليد وزنًا مختلفًا. والتفسير يُتمسك به إيمانًا؛ والاعتراضات حقيقية وقد حاول المقال عرضها بإنصاف.',
+    en: 'God the Word became man, died and rose so that humanity, fallen into sin and death, might be renewed and share in the divine life. The biblical images of ransom, sacrifice, reconciliation and victory all describe this one work of love. The cross is not God demanding blood, but God giving Himself: He took our death so that we might receive His life.',
+    ar: 'صار الله الكلمة إنسانًا ومات وقام لكي تتجدد البشرية الساقطة في الخطية والموت وتشارك في الحياة الإلهية. وصور الكتاب من فدية وذبيحة ومصالحة وانتصار كلها تصف عمل المحبة الواحد هذا. فالصليب ليس الله يطلب دمًا، بل الله يبذل ذاته: أخذ موتنا لكي ننال حياته.',
   },
   furtherReading: ['S52', 'S55', 'S62'],
   related: ['divine-and-human-christ', 'how-can-christ-suffer', 'jesus-executed-under-pilate', 'what-resurrection-would-establish', 'copied-from-pagan-gods', 'quran-4-157-and-crucifixion', 'early-baptism-and-eucharist'],

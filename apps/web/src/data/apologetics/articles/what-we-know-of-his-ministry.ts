@@ -15,23 +15,23 @@ export const article: Article = {
     ar: 'ما الذي يستطيع المؤرخون قوله بثقة معقولة عن نشاط يسوع العلني، من معموديته على يد يوحنا إلى القبض عليه، وكيف يصلون إليه، وأين تختلف المصادر. ولا يسأل المقال هل وقعت معجزاته أو ماذا ادّعى عن نفسه أو هل قام؛ فلتلك الأسئلة مقالاتها.',
   },
   shortAnswer: {
-    en: 'An outline can be drawn from several independent lines of evidence. Jesus was baptized by John, announced the coming of the kingdom of God, taught in parables, gathered disciples and a circle of twelve, had a reputation for healing and exorcism, ate with people others avoided, clashed with some religious leaders, went to Jerusalem, acted against the Temple, and was crucified under Pilate. Details such as exact dates, the length of the ministry and the order of events are debated, because the Gospels are not chronicles and do not always agree.',
-    ar: 'يمكن رسم مخطط من عدة خطوط أدلة مستقلة. اعتمد يسوع على يد يوحنا، وبشّر بقرب ملكوت الله، وعلّم بالأمثال، وجمع تلاميذ ودائرة من اثني عشر، واشتهر بالشفاء وطرد الأرواح، وأكل مع من يتجنبهم الناس، وصدم بعض القادة الدينيين، وذهب إلى أورشليم، وقام بفعل ضد الهيكل، وصُلب في ولاية بيلاطس. أما التفاصيل كالتواريخ الدقيقة ومدة الخدمة وترتيب الأحداث ففيها خلاف، لأن الأناجيل ليست حوليات ولا تتفق دائمًا.',
+    en: 'The Gospels, confirmed at many points by other sources, give a clear picture of the ministry of the Lord Jesus. He was baptized by John, announced the coming of the kingdom of God, taught in parables, gathered disciples and chose the Twelve, healed the sick and cast out unclean spirits, ate with people others avoided, and clashed with some religious leaders. He went up to Jerusalem, cleansed the Temple, and was crucified under Pontius Pilate. The ministry began in the late 20s AD and lasted about three years. Each Evangelist arranges his material in his own way, and together they give one faithful witness.',
+    ar: 'تقدّم الأناجيل، التي تؤكدها مصادر أخرى في مواضع كثيرة، صورة واضحة لخدمة الرب يسوع. فقد اعتمد على يد يوحنا، وبشّر بقرب ملكوت الله، وعلّم بالأمثال، وجمع تلاميذ واختار الاثني عشر، وشفى المرضى وأخرج الأرواح النجسة، وأكل مع من يتجنبهم الناس، واصطدم ببعض القادة الدينيين. وصعد إلى أورشليم، وطهّر الهيكل، وصُلب في عهد بيلاطس البنطي. وبدأت الخدمة في أواخر العشرينيات الميلادية ودامت نحو ثلاث سنوات. وكل إنجيلي يرتب مادته بطريقته، ومعًا يقدّمون شهادة أمينة واحدة.',
   },
   quickPoints: {
     en: [
       'The baptism by John is reported in all four Gospels and in Ignatius, and the Christian writers would have had little reason to invent an event in which Jesus is baptized by another.',
       'Luke dates the start of John’s activity to the fifteenth year of Tiberius, which gives the late 20s AD as a fixed point; John’s Gospel mentions three Passovers, and the Church’s tradition has long held that the ministry lasted about three years.',
-      'Healing and exorcism are part of the reports from every Gospel layer, and even opponents who disagreed about the source of his power did not deny the deeds. Whether they were miracles is a separate question.',
-      'The Synoptic Gospels and John differ in the length and order of the ministry, in where events take place, and in the form of Jesus’ speech.',
-      'Historians use criteria (multiple attestation, embarrassment, fit with context), but these criteria have limits that scholars themselves acknowledge.',
+      'Healing and exorcism run through every Gospel, and even opponents, who disputed the source of His power, did not deny the deeds.',
+      'The Synoptic Gospels and St John tell the ministry from different vantage points: the first three dwell on Galilee, while St John records the visits to Jerusalem at the feasts.',
+      'The core of the ministry is supported by several independent lines of evidence and by details the early Church would never have invented.',
     ],
     ar: [
       'تروي الأناجيل الأربعة معمودية يوحنا ويذكرها إغناطيوس، وما كان لدى الكتّاب المسيحيين سبب كبير لاختلاق حدث يعتمد فيه يسوع على يد آخر.',
       'يؤرخ لوقا بدء نشاط يوحنا بالسنة الخامسة عشرة لطيباريوس، فيعطي أواخر العشرينيات نقطة ثابتة؛ ويذكر إنجيل يوحنا ثلاثة فصوح، وظل تقليد الكنيسة منذ القدم يرى أن الخدمة دامت نحو ثلاث سنوات.',
-      'الشفاء وطرد الأرواح جزء من الروايات في كل طبقات الأناجيل، وحتى الخصوم الذين اختلفوا في مصدر قوته لم ينكروا الأعمال. وهل كانت معجزات سؤال مستقل.',
-      'تختلف الأناجيل الإزائية ويوحنا في طول الخدمة وترتيبها ومكان الأحداث وصورة كلام يسوع.',
-      'يستعمل المؤرخون معايير (تعدد الشهادة والحرج وملاءمة السياق)، لكن لهذه المعايير حدودًا يعترف بها الباحثون أنفسهم.',
+      'الشفاء وطرد الأرواح يسريان في كل الأناجيل، وحتى الخصوم الذين نازعوا في مصدر قوته لم ينكروا الأعمال.',
+      'تروي الأناجيل الإزائية والقديس يوحنا الخدمة من زوايا مختلفة: فالثلاثة الأولى تطيل الكلام عن الجليل، بينما يسجل القديس يوحنا الزيارات إلى أورشليم في الأعياد.',
+      'وتدعم نواة الخدمة خطوط أدلة مستقلة عدة، وتفاصيل ما كانت الكنيسة الأولى لتخترعها أبدًا.',
     ],
   },
   argumentTypes: ['historical', 'textual'],
@@ -44,12 +44,12 @@ export const article: Article = {
   },
   whyExamine: {
     en: [
-      'Readers meet two opposite claims: that the Gospels give a full and exact biography, and that nothing about Jesus’ life can be known. Neither is how historians of antiquity work. They look for what several sources support, and they say what remains uncertain.',
-      'It also matters to believers. If the Church’s faith concerns events in history, it is reasonable to ask what the historical record can support, and to be honest about where the sources differ rather than hide it.',
+      'Readers meet two opposite claims: that the Gospels give a full and exact biography, and that nothing about Jesus’ life can be known. Both are wrong. The Gospels are not modern biographies, but they are faithful witness, and the outline of the Lord’s ministry stands on firm ground.',
+      'It also matters to believers. The Church’s faith concerns events that really happened, and seeing how well the Gospel record holds strengthens the believer and answers the doubter.',
     ],
     ar: [
-      'يصادف القراء دعويين متعاكستين: أن الأناجيل تقدم سيرة كاملة دقيقة، وأنه لا يمكن معرفة شيء عن حياة يسوع. وليس هذا ما يعمل به مؤرخو العصور القديمة. فهم يبحثون عما تدعمه مصادر عدة، ويقولون ما يبقى غير مؤكد.',
-      'والأمر مهم للمؤمنين أيضًا. فإذا كان إيمان الكنيسة يتعلق بأحداث في التاريخ فمن المعقول أن نسأل ما الذي يدعمه السجل التاريخي، وأن نكون صادقين في موضع اختلاف المصادر بدل إخفائه.',
+      'يصادف القراء دعويين متعاكستين: أن الأناجيل تقدم سيرة كاملة دقيقة، وأنه لا يمكن معرفة شيء عن حياة يسوع. وكلتاهما خاطئة. فالأناجيل ليست سِيَرًا حديثة، لكنها شهادة أمينة، ومخطط خدمة الرب قائم على أرض ثابتة.',
+      'والأمر مهم للمؤمنين أيضًا. فإيمان الكنيسة يتعلق بأحداث حدثت حقًا، ورؤية متانة السجل الإنجيلي تقوّي المؤمن وتجيب المتشكك.',
     ],
   },
   background: {
@@ -76,8 +76,8 @@ export const article: Article = {
       argumentType: 'historical',
       assessment: 'strong_historical_support',
       rationale: {
-        en: 'All four Gospels report the baptism, and Ignatius mentions it. Because it shows Jesus coming for a baptism associated with repentance and receiving it from another, it is one of the events least likely to have been invented by the believers.',
-        ar: 'تروي الأناجيل الأربعة المعمودية ويذكرها إغناطيوس. ولأنها تُظهر يسوع آتيًا إلى معمودية ترتبط بالتوبة ومتلقيًا إياها من آخر، فهي من أبعد الأحداث عن أن يختلقها المؤمنون.',
+        en: 'All four Gospels report the baptism, and Ignatius mentions it. Because it shows Jesus coming to a baptism of repentance and receiving it from another, it is a detail no believer would have invented. The Church sees in it the Lord’s humility and the revelation of the Holy Trinity, which she celebrates at the feast of the Theophany.',
+        ar: 'تروي الأناجيل الأربعة المعمودية ويذكرها إغناطيوس. ولأنها تُظهر يسوع آتيًا إلى معمودية التوبة ومتلقيًا إياها من آخر، فهي تفصيل ما كان مؤمن ليخترعه. وترى الكنيسة فيها اتضاع الرب واستعلان الثالوث القدوس، وتحتفل بها في عيد الغطاس.',
       },
       limits: {
         en: 'The Gospels interpret the baptism in the light of faith, as a revelation of the Son, which the criteria of history cannot test.',
@@ -88,14 +88,14 @@ export const article: Article = {
     {
       id: 'c2',
       proposition: {
-        en: 'The ministry fell in the late 20s to early 30s AD, and its length is most probably two to three years or less; the sources do not give a single answer.',
-        ar: 'وقعت الخدمة في أواخر العشرينيات إلى أوائل الثلاثينيات، وأرجح مدتها سنتان إلى ثلاث أو أقل؛ ولا تعطي المصادر جوابًا واحدًا.',
+        en: 'The ministry began in the late 20s AD and lasted about three years, ending with the crucifixion under Pilate.',
+        ar: 'بدأت الخدمة في أواخر العشرينيات الميلادية ودامت نحو ثلاث سنوات، وانتهت بالصلب في ولاية بيلاطس.',
       },
       argumentType: 'historical',
       assessment: 'actively_debated',
       rationale: {
-        en: 'Luke dates John’s call to the fifteenth year of Tiberius, and Tacitus and the Gospels place the crucifixion under Pilate. John mentions three Passovers, which suggests about three years, while Mark’s outline has only one visit to Jerusalem before the last Passover and so might be read as shorter.',
-        ar: 'يؤرخ لوقا دعوة يوحنا بالسنة الخامسة عشرة لطيباريوس، ويضع تاكيتوس والأناجيل الصلب في ولاية بيلاطس. ويذكر يوحنا ثلاثة فصوح مما يوحي بنحو ثلاث سنوات، بينما يجعل مخطط مرقس زيارة واحدة إلى أورشليم قبل الفصح الأخير فقد يُقرأ أقصر.',
+        en: 'Luke dates John’s call to the fifteenth year of Tiberius, and Tacitus and the Gospels place the crucifixion under Pilate. St John records three Passovers, and the Church has long held that the ministry lasted about three years. Mark’s shorter outline tells only the last journey to Jerusalem, and St John fills in the earlier visits.',
+        ar: 'يؤرخ لوقا دعوة يوحنا بالسنة الخامسة عشرة لطيباريوس، ويضع تاكيتوس والأناجيل الصلب في ولاية بيلاطس. ويسجل القديس يوحنا ثلاثة فصوح، وقد رأت الكنيسة منذ القدم أن الخدمة دامت نحو ثلاث سنوات. ومخطط مرقس الأقصر يروي الرحلة الأخيرة إلى أورشليم فقط، ويكمل القديس يوحنا الزيارات السابقة.',
       },
       limits: {
         en: 'The Synoptic outline does not exclude a longer ministry, since Mark does not say that Jesus never went to Jerusalem earlier. The Church’s tradition of three years follows John.',
@@ -299,12 +299,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'It is right that the Gospels have a purpose, and the article does not hide it. But almost all ancient history was written with a purpose, and historians do not for that reason reject it. They ask what a writer could have known, what he would have preferred to leave out, and where other sources agree.',
-          'The events listed here are the ones where several lines agree or where the content cuts against the writers’ interest. That is how the outline is reached, not by accepting every detail.',
+          'The Gospels do have a purpose: St John says he wrote so that his readers might believe. But almost all ancient history was written with a purpose, and no one rejects it for that reason. A witness who cares deeply about what happened is not thereby a false witness.',
+          'The Evangelists kept details that served no one’s interest: the baptism by John, the disciples’ failures, the women as first witnesses of the empty tomb, the shameful death on a cross. Writers who invent do not preserve such things. Writers who bear witness do.',
         ],
         ar: [
-          'صحيح أن للأناجيل غاية، والمقال لا يخفيها. لكن كل التاريخ القديم تقريبًا كُتب بغاية، ولا يرفضه المؤرخون لهذا. فهم يسألون عما كان يمكن للكاتب أن يعرفه، وعما كان سيفضل تركه، وأين تتفق مصادر أخرى.',
-          'والأحداث المذكورة هنا هي التي تتفق فيها خطوط عدة أو التي يخالف مضمونها مصلحة الكتّاب. وبهذا يُصل إلى المخطط لا بقبول كل تفصيل.',
+          'للأناجيل غاية فعلًا: فالقديس يوحنا يقول إنه كتب لكي يؤمن قراؤه. لكن كل التاريخ القديم تقريبًا كُتب بغاية، ولا يرفضه أحد لهذا السبب. والشاهد الذي يهتم بعمق بما حدث ليس بذلك شاهد زور.',
+          'وقد حفظ الإنجيليون تفاصيل لا تخدم مصلحة أحد: المعمودية على يد يوحنا، وإخفاقات التلاميذ، والنساء شاهدات أوليات للقبر الفارغ، والموت المخزي على صليب. والكتّاب الذين يختلقون لا يحفظون مثل هذه الأمور. أما الكتّاب الذين يشهدون فيحفظونها.',
         ],
       },
       limits: {
@@ -321,12 +321,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'Many scholars agree that no single criterion is decisive and that some, especially the criterion of dissimilarity, have been criticised and in places dropped. The criteria are best treated as cautions that increase or decrease probability when used together and with an understanding of the Jewish setting.',
-          'The outline in this article avoids anything that rests on a single criterion alone. Where the only support is the Church’s own tradition, the article says so.',
+          'No single criterion decides a case, and some, like the criterion of dissimilarity, have rightly been criticised. Used together, with an understanding of the Jewish setting, they still point to a firm core.',
+          'The outline here does not rest on any one criterion. It rests on what several independent sources agree on, on details the early Church would not have invented, and on a picture that fits the Galilee and Judea of the time. That convergence is solid ground.',
         ],
         ar: [
-          'يتفق باحثون كثيرون على أنه ليس معيار واحد حاسمًا، وأن بعضها، وأخصها معيار المباينة، تعرض للنقد وأُسقط في مواضع. وأفضل معاملة المعايير تنبيهات ترفع الاحتمال أو تخفضه حين تُستعمل معًا ومع فهم للبيئة اليهودية.',
-          'والمخطط في هذا المقال يتجنب ما يقوم على معيار واحد وحده. وحيث لا يوجد سند إلا تقليد الكنيسة نفسه يقول المقال ذلك.',
+          'لا يحسم معيار واحد قضية، وبعض المعايير، كمعيار المباينة، انتُقد بحق. لكنها إذا استُعملت معًا، مع فهم للبيئة اليهودية، تشير إلى نواة ثابتة.',
+          'والمخطط هنا لا يقوم على معيار واحد. بل يقوم على ما تتفق عليه مصادر مستقلة عدة، وعلى تفاصيل ما كانت الكنيسة الأولى لتخترعها، وعلى صورة تلائم الجليل واليهودية في ذلك الزمن. وهذا التلاقي أرض صلبة.',
         ],
       },
       limits: {
@@ -343,12 +343,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The differences are real and the article lists them. They concern the arrangement and framing of the material, and the Church has long recognised that John writes in a different manner. The shared core (baptism by John, teaching, healing, the Jerusalem conflict and the death under Pilate) appears in both traditions.',
-          'Some differences have been explained as different choices about where to place a story, others by supposing that John supplies visits the Synoptics omit. These explanations are debated, and none is needed to hold the core.',
+          'The differences concern the arrangement and framing of the material, and the Church has long recognised that St John writes in his own manner, as the Fathers said, a spiritual Gospel. The shared core (baptism by John, teaching, healing, the Jerusalem conflict and the death under Pilate) appears in both traditions.',
+          'St John records the visits to Jerusalem at the feasts that the Synoptics, following the Galilean ministry, pass over; and the Evangelists placed some stories by theme rather than by date. Four witnesses telling one story from different sides do not undo it; they confirm it.',
         ],
         ar: [
-          'الفروق حقيقية والمقال يعددها. وهي تتعلق بترتيب المادة وإطارها، وقد أقرت الكنيسة منذ القدم بأن يوحنا يكتب بطريقة مختلفة. والنواة المشتركة (معمودية يوحنا والتعليم والشفاء والصراع في أورشليم والموت في ولاية بيلاطس) ترد في التقليدين.',
-          'وفُسّرت بعض الفروق باختيارات مختلفة في موضع القصة، وبعضها بافتراض أن يوحنا يضيف زيارات يغفلها الإزائيون. وهذه التفسيرات محل نقاش، ولا يلزم أيٌّ منها لإبقاء النواة.',
+          'الفروق تتعلق بترتيب المادة وإطارها، وقد أقرت الكنيسة منذ القدم بأن القديس يوحنا يكتب بطريقته الخاصة، إنجيلًا روحيًا كما قال الآباء. والنواة المشتركة (معمودية يوحنا والتعليم والشفاء والصراع في أورشليم والموت في ولاية بيلاطس) ترد في التقليدين.',
+          'ويسجل القديس يوحنا الزيارات إلى أورشليم في الأعياد التي يتجاوزها الإزائيون وهم يتبعون خدمة الجليل؛ ورتب الإنجيليون بعض القصص بحسب الموضوع لا بحسب التاريخ. وأربعة شهود يروون قصة واحدة من جوانب مختلفة لا ينقضونها؛ بل يؤكدونها.',
         ],
       },
       limits: {
@@ -362,20 +362,20 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'The historical picture is that of a Galilean Jewish teacher and healer, associated with John the Baptist, who proclaimed God’s kingdom, called disciples, shared meals with the outcast, came into conflict with some authorities and was executed under Pilate. That is consistent with the Church’s account and is reached by methods that do not assume it.',
-        'What the historical method does not do is reach the end of the matter. It cannot say whether the healings were miracles, what the kingdom meant for Jesus’ own identity, or whether he rose. The Christian historian is free to say this plainly.',
+        'The historical picture is that of a Galilean Jewish teacher and healer, associated with John the Baptist, who proclaimed God’s kingdom, called disciples, shared meals with the outcast, came into conflict with some authorities and was executed under Pilate. Historical study reaches this picture without assuming the Church’s faith, and it agrees with the Church’s account.',
+        'This picture already raises the great question: who is this man who forgives sins, commands unclean spirits and speaks with authority of God’s kingdom? The Gospels answer it, and the resurrection, treated in other articles, seals the answer: He is the Son of God.',
       ],
       ar: [
-        'الصورة التاريخية هي صورة معلّم وشافٍ يهودي جليلي، مرتبط بيوحنا المعمدان، بشّر بملكوت الله ودعا تلاميذ وشارك المنبوذين الطعام واصطدم ببعض السلطات وأُعدم في ولاية بيلاطس. وهذا يتسق مع رواية الكنيسة ويُبلغ إليه بمناهج لا تفترضها.',
-        'لكن المنهج التاريخي لا يبلغ نهاية الأمر. فلا يستطيع أن يقول هل كان الشفاء معجزات، أو ماذا يعني الملكوت لهوية يسوع نفسه، أو هل قام. والمؤرخ المسيحي حرّ في أن يقول هذا بوضوح.',
+        'الصورة التاريخية هي صورة معلّم وشافٍ يهودي جليلي، مرتبط بيوحنا المعمدان، بشّر بملكوت الله ودعا تلاميذ وشارك المنبوذين الطعام واصطدم ببعض السلطات وأُعدم في ولاية بيلاطس. ويبلغ البحث التاريخي هذه الصورة دون أن يفترض إيمان الكنيسة، وهي توافق رواية الكنيسة.',
+        'وهذه الصورة تثير بالفعل السؤال الكبير: من هو هذا الذي يغفر الخطايا، ويأمر الأرواح النجسة، ويتكلم بسلطان عن ملكوت الله؟ والأناجيل تجيب عنه، والقيامة، التي تعالجها مقالات أخرى، تختم الجواب: إنه ابن الله.',
       ],
     },
     theological: {
       en: [
-        'The Church receives the Gospels as the apostolic witness to the life of the incarnate Word and reads the ministry as the revelation of God among his people: teaching, healing, forgiving and calling to repentance. Its liturgical year follows the stages of that life. The faith of the Church does not rest on whether historians can verify each scene, but it does hold that these things happened.',
+        'The Church receives the Gospels as the apostolic witness to the life of the incarnate Word and reads the ministry as the revelation of God among his people: teaching, healing, forgiving and calling to repentance. Its liturgical year follows the stages of that life. The Church holds that these things truly happened, as the apostles bore witness.',
       ],
       ar: [
-        'تقبل الكنيسة الأناجيل شهادةً رسولية لحياة الكلمة المتجسد وتقرأ الخدمة إعلانًا لله بين شعبه: تعليمًا وشفاءً وغفرانًا ودعوةً إلى التوبة. وتتبع سنتها الطقسية مراحل تلك الحياة. ولا يقوم إيمان الكنيسة على قدرة المؤرخين على التحقق من كل مشهد، لكنها تؤمن بأن هذه الأمور حدثت.',
+        'تقبل الكنيسة الأناجيل شهادةً رسولية لحياة الكلمة المتجسد وتقرأ الخدمة إعلانًا لله بين شعبه: تعليمًا وشفاءً وغفرانًا ودعوةً إلى التوبة. وتتبع سنتها الطقسية مراحل تلك الحياة. والكنيسة تؤمن بأن هذه الأمور حدثت حقًا، كما شهد الرسل.',
       ],
     },
   },
@@ -389,8 +389,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'An outline of the ministry can be drawn from independent lines of evidence: baptism by John, preaching of the kingdom, teaching, healing, table fellowship, conflict in Jerusalem, and death under Pilate. The details and the chronology are debated, and the questions of what the ministry meant belong to other articles and to faith.',
-    ar: 'يمكن رسم مخطط الخدمة من خطوط أدلة مستقلة: معمودية يوحنا وكرازة الملكوت والتعليم والشفاء والشركة على المائدة والصراع في أورشليم والموت في ولاية بيلاطس. والتفاصيل والتسلسل الزمني محل نقاش، وأسئلة معنى الخدمة تخص مقالات أخرى والإيمان.',
+    en: 'The ministry of the Lord Jesus stands on firm ground: His baptism by John, His preaching of the kingdom, His teaching, His healings, His table fellowship with sinners, the conflict in Jerusalem and His death under Pilate. The Gospels tell this one story from four sides, and it leads to the question each reader must answer: who is He? The Church answers with St Peter: He is the Christ, the Son of the living God.',
+    ar: 'خدمة الرب يسوع قائمة على أرض ثابتة: معموديته على يد يوحنا، وكرازته بالملكوت، وتعليمه، وأشفيته، وشركته على المائدة مع الخطاة، والصراع في أورشليم، وموته في ولاية بيلاطس. والأناجيل تروي هذه القصة الواحدة من أربعة جوانب، وهي تقود إلى السؤال الذي على كل قارئ أن يجيب عنه: من هو؟ والكنيسة تجيب مع القديس بطرس: هو المسيح ابن الله الحي.',
   },
   furtherReading: ['S10', 'S08', 'S11', 'S12', 'S13'],
   related: [

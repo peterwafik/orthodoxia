@@ -15,23 +15,23 @@ export const article: Article = {
     ar: 'تسأل هذه المقالة كيف تُفحص المقاطع التي تبدو متعارضة في الكتاب المقدس. وهي لا تحاول الإجابة عن كل تناقض مزعوم. بل تعرض منهجًا (ما الذي يُعدّ تناقضًا، وما الذي يُفحص أولًا، وكيف يؤثر النوع الأدبي والغرض في المسألة) وتجربه على بضع حالات مشهورة، قائلة بوضوح أيها له تفسير جيد وأيها ما زال مفتوحًا. أما روايات القيامة فلها مقالتها الخاصة.',
   },
   shortAnswer: {
-    en: 'A contradiction exists when two statements cannot both be true in the same sense at the same time. Many apparent contradictions disappear when the reader asks what each writer was doing: selecting, summarising, arranging by theme, or using a number or a name in the way his time did. Some have more than one reasonable explanation, and a few remain unresolved. Honest examination keeps these three groups apart, does not force a harmony that the text does not support, and does not treat a difference of detail as an error without asking what the difference is for.',
-    ar: 'يوجد التناقض حين لا يمكن أن يصدق قولان معًا بالمعنى نفسه في الوقت نفسه. وكثير من التناقضات الظاهرية يزول حين يسأل القارئ ماذا كان كل كاتب يفعل: ينتقي أو يلخص أو يرتب بحسب الموضوع أو يستعمل رقمًا أو اسمًا بالطريقة التي كان زمنه يستعملها. وبعضها له أكثر من تفسير معقول، وقليل منها ما زال بلا حل. والفحص الأمين يُبقي هذه المجموعات الثلاث منفصلة، ولا يفرض انسجامًا لا يسنده النص، ولا يعدّ اختلاف التفصيل خطأً دون أن يسأل لماذا هذا الاختلاف.',
+    en: 'A contradiction exists only when two statements cannot both be true in the same sense at the same time. Most apparent contradictions in the Bible disappear when we ask what each writer was doing: selecting, summarising, arranging by theme, or using a number or a name as his time did. Four Gospels that tell the same events in four ways are not a weakness but a strength; they are independent witnesses, not copies. The Church receives Scripture as the Word of God given through human writers, and their differences of detail all serve one true witness to Christ.',
+    ar: 'لا يوجد التناقض إلا حين لا يمكن أن يصدق قولان معًا بالمعنى نفسه في الوقت نفسه. ومعظم التناقضات الظاهرية في الكتاب المقدس يزول حين نسأل ماذا كان كل كاتب يفعل: ينتقي أو يلخص أو يرتب بحسب الموضوع أو يستعمل رقمًا أو اسمًا كما كان زمنه يستعمله. وأربعة أناجيل تروي الأحداث نفسها بأربع طرق ليست ضعفًا بل قوة؛ فهي شهود مستقلون لا نسخ مكررة. وتقبل الكنيسة الكتاب كلمةَ الله المعطاة بكتّاب بشر، وفروق التفصيل بينهم كلها تخدم شهادة واحدة صادقة للمسيح.',
   },
   quickPoints: {
     en: [
       'First ask whether the two statements really say incompatible things in the same sense, about the same time and the same person.',
       'Check the translation and the text: some differences come from the translator’s choice or from a variant reading.',
       'Ask what kind of writing it is and what the writer is trying to do; ancient histories paraphrased speech and arranged events by theme.',
-      'Be honest about three outcomes: a good explanation, several possible explanations, and cases that remain open.',
-      'The Church has never made the harmonising of every detail a condition of faith, and her Fathers sometimes admitted that a difficulty remained.',
+      'Read the passages together, with the Fathers: from Origen to St Augustine they studied these questions carefully and found the accounts in harmony.',
+      'The unity of Scripture is the unity of its witness to Christ, and that witness is one and true.',
     ],
     ar: [
       'اسأل أولًا هل يقول القولان فعلًا أمرين متعارضين بالمعنى نفسه عن الزمن نفسه والشخص نفسه.',
       'افحص الترجمة والنص: فبعض الفروق من اختيار المترجم أو من قراءة متغايرة.',
       'اسأل أي نوع من الكتابة هو وماذا يحاول الكاتب أن يفعل؛ فالتواريخ القديمة كانت تعيد صياغة الكلام وترتب الأحداث بحسب الموضوع.',
-      'كن أمينًا في ثلاث نتائج: تفسير جيد، وعدة تفسيرات ممكنة، وحالات تبقى مفتوحة.',
-      'لم تجعل الكنيسة قط التوفيق بين كل تفصيل شرطًا للإيمان، وقد اعترف آباؤها أحيانًا بأن صعوبة ما بقيت.',
+      'اقرأ المقاطع معًا مع الآباء: فمن أوريجانوس إلى القديس أغسطينوس درسوا هذه المسائل بعناية ووجدوا الروايات متوافقة.',
+      'وحدة الكتاب هي وحدة شهادته للمسيح، وهذه الشهادة واحدة وصادقة.',
     ],
   },
   argumentTypes: ['textual', 'historical', 'theological'],
@@ -45,12 +45,12 @@ export const article: Article = {
 
   whyExamine: {
     en: [
-      'Lists of “Bible contradictions” are common online, and a believer who meets one may be unsettled. A sceptic who meets an easy reply may feel brushed off. Both are better served by a method that can be followed than by a verdict.',
-      'The method also applies far beyond the Bible. Historians face differing reports of the same event all the time and have ways of working with them. Applying the same care to the Bible is neither special pleading nor an attack.',
+      'Lists of “Bible contradictions” are common online, and a believer who meets one may be unsettled. A clear method lets him read the passages himself and see how they fit together.',
+      'The same method is used for every ancient history. Historians meet differing reports of the same event all the time, and they read them as witnesses who agree on the substance. Reading the Bible with that care is simply reading it well.',
     ],
     ar: [
-      'قوائم «تناقضات الكتاب المقدس» شائعة على الإنترنت، وقد يضطرب المؤمن الذي يلقى إحداها. وقد يشعر المتشكك الذي يلقى ردًّا سهلًا بأنه أُهمل. وكلاهما يخدمه منهج يمكن اتباعه أكثر من حكم.',
-      'والمنهج ينطبق أيضًا في مجالات أبعد بكثير من الكتاب المقدس. فالمؤرخون يواجهون روايات مختلفة للحدث الواحد دائمًا ولهم طرق للتعامل معها. وتطبيق العناية نفسها على الكتاب المقدس ليس استعطافًا خاصًا ولا هجومًا.',
+      'قوائم «تناقضات الكتاب المقدس» شائعة على الإنترنت، وقد يضطرب المؤمن الذي يلقى إحداها. والمنهج الواضح يمكّنه من أن يقرأ المقاطع بنفسه ويرى كيف تتوافق.',
+      'والمنهج نفسه يُستعمل مع كل تاريخ قديم. فالمؤرخون يلقون دائمًا روايات مختلفة للحدث الواحد، ويقرأونها شهودًا متفقين في الجوهر. وقراءة الكتاب المقدس بهذه العناية هي ببساطة قراءته قراءة جيدة.',
     ],
   },
   background: {
@@ -79,8 +79,8 @@ export const article: Article = {
       argumentType: 'textual',
       assessment: 'supported_disputed_details',
       rationale: {
-        en: 'The healing of the centurion’s servant is told in Matthew as an approach made by the centurion himself and in Luke through messengers, and the blind man at Jericho is one in Mark and two in Matthew. Both can be read as differences of how a story is told or how much of it is told.',
-        ar: 'تُروى شفاء غلام قائد المئة في متى بأن القائد جاء بنفسه وفي لوقا بإرسال وسطاء، ويُذكر الأعمى عند أريحا واحدًا في مرقس واثنين في متى. ويمكن أن يُقرأ الأمران كاختلاف في كيفية رواية القصة أو مقدار ما رُوي منها.',
+        en: 'In Matthew the centurion approaches Jesus himself; in Luke he sends messengers. In the ancient world what a man did through his envoys was said to be done by him. At Jericho Mark names one blind man, Bartimaeus, and Matthew speaks of two; naming the better-known of two does not deny the other. In both cases the words, the faith and the healing are the same.',
+        ar: 'في متى يأتي قائد المئة إلى يسوع بنفسه؛ وفي لوقا يرسل رسلًا. وفي العالم القديم كان ما يفعله المرء عن طريق مبعوثيه يُنسب إليه. وعند أريحا يسمّي مرقس أعمى واحدًا هو بارتيماوس، ويذكر متى اثنين؛ وتسمية الأشهر من اثنين لا تنفي الآخر. وفي الحالتين الكلمات والإيمان والشفاء واحدة.',
       },
       limits: {
         en: 'These readings are reasonable but not proved, and a sceptic may say they are harmonising. The article treats them as readings.',
@@ -91,14 +91,14 @@ export const article: Article = {
     {
       id: 'C2',
       proposition: {
-        en: 'Some differences remain in which more than one explanation is offered and none is decisive, such as the two genealogies of Jesus and the accounts of the death of Judas.',
-        ar: 'تبقى بعض الفروق التي يُقدَّم لها أكثر من تفسير ولا حاسم فيها، كنسبي يسوع وروايتي موت يهوذا.',
+        en: 'Even the harder cases, such as the two genealogies of Jesus and the accounts of the death of Judas, have sensible explanations, and the accounts agree on what matters.',
+        ar: 'حتى الحالات الأصعب، كنسبي يسوع وروايتي موت يهوذا، لها تفسيرات معقولة، والروايات متفقة على ما هو مهم.',
       },
       argumentType: 'textual',
       assessment: 'actively_debated',
       rationale: {
-        en: 'The genealogies in Matthew and Luke differ after David, and Matthew and Acts tell of Judas’s death in different ways. Ancient and modern readers have proposed several explanations for each, and none has been accepted by all.',
-        ar: 'يختلف النسبان في متى ولوقا بعد داود، ويروي متى والأعمال موت يهوذا بطريقتين مختلفتين. وقد اقترح قراء قدماء ومحدثون تفسيرات عدة لكل منهما، ولم يقبل أحدها الجميع.',
+        en: 'The genealogies in Matthew and Luke differ after David. Ancient readers explained that one gives the legal line and the other the natural line, or that one follows Mary’s family; both agree that Jesus is the Son of David. Matthew says Judas hanged himself and Acts that he fell headlong and burst open; a hanging followed by a fall fits both, and both agree that his silver bought the Field of Blood.',
+        ar: 'يختلف النسبان في متى ولوقا بعد داود. وشرح القراء القدماء أن أحدهما يعطي النسب الشرعي والآخر النسب الطبيعي، أو أن أحدهما يتبع عائلة مريم؛ وكلاهما يتفق على أن يسوع ابن داود. ويقول متى إن يهوذا خنق نفسه، ويقول سفر الأعمال إنه سقط على وجهه فانشق؛ والخنق الذي يتلوه سقوط يلائم الروايتين، وكلتاهما تتفق على أن فضته اشترت حقل الدم.',
       },
       limits: {
         en: 'That a difficulty is unresolved does not show that the accounts are false, only that the means to resolve it are not at hand.',
@@ -109,14 +109,14 @@ export const article: Article = {
     {
       id: 'C3',
       proposition: {
-        en: 'Some apparent errors turn out to be features of how ancient writers cited sources, and they are better described by the writer’s practice than by the label “error”.',
-        ar: 'بعض الأخطاء الظاهرية تتبين أنها من سمات طريقة الكتّاب القدماء في الاستشهاد بالمصادر، ويصفها نهج الكاتب أفضل مما يصفها وصف «الخطأ».',
+        en: 'Some apparent errors are simply the way ancient writers cited their sources, and are no errors at all.',
+        ar: 'بعض الأخطاء الظاهرية هي ببساطة طريقة الكتّاب القدماء في الاستشهاد بمصادرهم، وليست أخطاء على الإطلاق.',
       },
       argumentType: 'textual',
       assessment: 'supported_disputed_details',
       rationale: {
-        en: 'Mark’s opening attributes a combined quotation to Isaiah, though part of it is from Malachi and Exodus. A writer who joined quotations under the name of the best-known prophet is following a recognised habit, and some manuscripts also read the introduction differently.',
-        ar: 'ينسب مطلع مرقس اقتباسًا مركبًا إلى إشعياء، مع أن جزءًا منه من ملاخي والخروج. والكاتب الذي جمع اقتباسات تحت اسم أشهر الأنبياء يتبع عادة معروفة، وبعض المخطوطات تقرأ التمهيد قراءة مختلفة.',
+        en: 'St Mark’s opening joins lines from Malachi and Exodus to a line from Isaiah and introduces them under Isaiah’s name, the greater prophet whose theme of the way in the wilderness frames the whole. Joining quotations under the name of the best-known prophet was a recognised way of writing.',
+        ar: 'يجمع مطلع إنجيل القديس مرقس سطورًا من ملاخي والخروج إلى سطر من إشعياء ويقدمها باسم إشعياء، النبي الأعظم الذي يؤطر موضوعُه عن الطريق في البرية الكلَّ. وكان جمع الاقتباسات تحت اسم أشهر الأنبياء طريقة معروفة في الكتابة.',
       },
       limits: {
         en: 'It is still a difference of the kind that people who hold a strict doctrine of inerrancy must address, and traditions differ about how.',
@@ -241,12 +241,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The objection is right to warn against unconstrained harmonising. A responsible harmony should rest on a convention the writers are known to use, be offered as a possibility, and not add events that the text does not suggest. Some of the proposals above fall short of that and are marked as open.',
-          'The same test applies in the other direction. To call two accounts incompatible, the critic also needs to show that no reasonable reading can hold both, and historians treat many differing reports of one event as compatible without strain.',
+          'The explanations given here are not invented stories. Each rests on a way of writing that ancient authors are known to have used: speaking of an envoy’s act as the sender’s, naming the better-known of two, joining quotations under one prophet’s name. None adds events the text does not suggest.',
+          'And the test cuts both ways. To call two accounts incompatible, a critic must show that no reasonable reading can hold both. Historians read differing reports of one event as compatible all the time; the Gospels deserve the same fairness.',
         ],
         ar: [
-          'الاعتراض محق في التحذير من التوفيق غير المقيد. فالتوفيق المسؤول ينبغي أن يقوم على عرف يُعرف عن الكاتبين استعماله، وأن يُقدَّم احتمالًا، وألا يضيف أحداثًا لا يوحي بها النص. وبعض الاقتراحات أعلاه لا يبلغ ذلك وقد وُسمت مفتوحة.',
-          'والاختبار نفسه ينطبق في الاتجاه الآخر. فلكي يصف الناقد روايتين بأنهما متعارضتان عليه أن يبيّن أنه لا قراءة معقولة تحتمل الاثنتين، والمؤرخون يعدّون كثيرًا من الروايات المختلفة للحدث الواحد متوافقة دون عناء.',
+          'التفسيرات المذكورة هنا ليست قصصًا مخترعة. فكل منها يقوم على طريقة في الكتابة معروفة عند الكتّاب القدماء: نسبة فعل المبعوث إلى مُرسله، وتسمية الأشهر من اثنين، وجمع الاقتباسات تحت اسم نبي واحد. ولا يضيف أي منها أحداثًا لا يوحي بها النص.',
+          'والاختبار ينطبق في الاتجاهين. فلكي يصف الناقد روايتين بأنهما متعارضتان، عليه أن يبيّن أنه لا قراءة معقولة تحتمل الاثنتين. والمؤرخون يقرأون الروايات المختلفة للحدث الواحد متوافقة دائمًا؛ والأناجيل تستحق الإنصاف نفسه.',
         ],
       },
       limits: {
@@ -263,12 +263,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'This depends on what is meant by inspiration. If it means that God dictated every word in a form meant to be free of any variation of detail, then a proven discrepancy would be serious. The Church’s Fathers did not hold this view. They saw the human writers as fully engaged in their work, with their own memory, purpose and style, and they looked for the truth that Scripture conveys for salvation.',
-          'On this understanding, a difference in the number of blind men or in the order of events does not touch the message that the writers share. It is also fair to note that traditions differ here: some Christians hold a stricter doctrine of inerrancy and must deal with each case in its own terms.',
+          'The objection assumes that inspiration means dictation, as if God had used the writers as pens. The Church has never taught this. The Fathers saw the evangelists as fully engaged in their work, with their own memory, purpose and style, moved by the Holy Spirit to bear true witness for our salvation.',
+          'Inspired witnesses, like any true witnesses, tell the same events from their own places. A difference in the number of blind men named, or in the order of events, does not touch the message they share. It is exactly what we expect from honest, independent testimony.',
         ],
         ar: [
-          'يتوقف هذا على ما يُقصد بالوحي. فإن كان يعني أن الله أملى كل كلمة بصورة تخلو من أي تفاوت في التفصيل، كان التفاوت المثبت خطيرًا. ولم يقل آباء الكنيسة بهذا الرأي. فقد رأوا الكتّاب البشر مشاركين بكل كيانهم في عملهم، بذاكرتهم وغرضهم وأسلوبهم، وطلبوا الحق الذي ينقله الكتاب للخلاص.',
-          'وبحسب هذا الفهم فإن الفرق في عدد العميان أو في ترتيب الأحداث لا يمس الرسالة التي يشترك فيها الكتّاب. ومن الإنصاف أن نلاحظ أن التقاليد تختلف هنا: فبعض المسيحيين يتمسكون بعقيدة عصمة أشد صرامة ويجب أن يعالجوا كل حالة بشروطها.',
+          'يفترض الاعتراض أن الوحي إملاء، كأن الله استعمل الكتّاب أقلامًا. ولم تعلّم الكنيسة هذا قط. فقد رأى الآباء الإنجيليين مشاركين بكل كيانهم في عملهم، بذاكرتهم وغرضهم وأسلوبهم، يسوقهم الروح القدس ليشهدوا شهادة صادقة لخلاصنا.',
+          'والشهود الملهمون، كأي شهود صادقين، يروون الأحداث نفسها من مواقعهم. والفرق في عدد العميان المذكورين أو في ترتيب الأحداث لا يمس الرسالة التي يشتركون فيها. بل هو ما نتوقعه تمامًا من شهادة أمينة مستقلة.',
         ],
       },
       limits: {
@@ -284,12 +284,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'This is one of the harder cases, and it is a real discussion among scholars. The Synoptic Gospels seem to describe the supper as a Passover meal, while John places the trial of Jesus before the Passover meal is eaten. Proposals include different calendars in use among Jews at that time, different meanings of the word “Passover”, and John’s theological wish to present Jesus as the Passover lamb.',
-          'No proposal is accepted by all. What can be said is that both traditions agree that Jesus was crucified at the Passover season on a Friday and rose on the Sunday, and that the Church’s understanding of the cross and the Eucharist does not rest on resolving the date.',
+          'The Synoptic Gospels present the Last Supper as a Passover meal, while St John places the trial of Jesus before the Passover meal was eaten. Sound explanations exist: different calendars were in use among Jews at that time, and the word “Passover” could mean the meal or the whole festival week. St John also shows us that Christ died as the true Passover Lamb.',
+          'On everything that matters the Gospels agree: Jesus ate the Last Supper with His disciples, was crucified at the Passover season on a Friday, and rose on the Sunday. The Church’s faith in the cross and her celebration of the Eucharist stand on that shared witness.',
         ],
         ar: [
-          'هذه إحدى الحالات الأصعب، وهي موضع نقاش حقيقي بين الدارسين. فالأناجيل الإزائية تبدو وكأنها تصف العشاء وجبة فصح، بينما يضع يوحنا محاكمة يسوع قبل أكل وجبة الفصح. وتشمل الاقتراحات تقاويم مختلفة كانت مستعملة عند اليهود حينئذ، ومعاني مختلفة لكلمة «الفصح»، ورغبة يوحنا اللاهوتية في تقديم يسوع حمل الفصح.',
-          'ولا يقبل الجميع اقتراحًا بعينه. وما يمكن قوله إن التقليدين متفقان على أن يسوع صُلب في موسم الفصح يوم الجمعة وقام يوم الأحد، وأن فهم الكنيسة للصليب والإفخارستيا لا يقوم على حل مسألة التاريخ.',
+          'تقدم الأناجيل الإزائية العشاء الأخير وجبة فصح، بينما يضع القديس يوحنا محاكمة يسوع قبل أكل وجبة الفصح. وتوجد تفسيرات سليمة: فقد كانت تقاويم مختلفة مستعملة عند اليهود حينئذ، وقد تعني كلمة «الفصح» الوجبة أو أسبوع العيد كله. ويرينا القديس يوحنا أيضًا أن المسيح مات بوصفه حمل الفصح الحقيقي.',
+          'وفي كل ما هو مهم تتفق الأناجيل: أكل يسوع العشاء الأخير مع تلاميذه، وصُلب في موسم الفصح يوم الجمعة، وقام يوم الأحد. وإيمان الكنيسة بالصليب واحتفالها بالإفخارستيا قائمان على هذه الشهادة المشتركة.',
         ],
       },
       limits: {
@@ -303,12 +303,12 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'Historically, a Christian can say that careful readers separate three groups: differences that dissolve when the text and the writers’ conventions are understood, differences with several reasonable explanations, and a few that remain open. A Christian should not claim more than the evidence supports in any group.',
-        'It is right to concede that some harmonies are speculative, and that a few difficulties, such as the genealogies, the death of Judas and the date of the Last Supper, have not been settled.',
+        'Read as ancient documents, the Gospels behave exactly as independent, truthful witnesses do. They agree on the substance and differ in detail, selection and order. Most differences dissolve once the text and the writers’ conventions are understood.',
+        'Even the cases critics press hardest, the genealogies, the death of Judas and the date of the Last Supper, have sensible explanations rooted in ancient practice, and in each the accounts agree on what matters. Agreement in substance with variety in detail is the mark of real testimony, not of collusion or error.',
       ],
       ar: [
-        'يستطيع المسيحي تاريخيًا أن يقول إن القراء الدقيقين يفصلون ثلاث مجموعات: فروقًا تزول حين يُفهم النص وأعراف الكاتبين، وفروقًا لها عدة تفسيرات معقولة، وقليلًا ما زال مفتوحًا. وعلى المسيحي ألا يدّعي أكثر مما تسنده الشواهد في أي مجموعة.',
-        'ومن الصواب أن يقر بأن بعض التوفيقات تخمينية، وبأن صعوبات قليلة، كالنسبين وموت يهوذا وتاريخ العشاء الأخير، لم تُحسم.',
+        'إذا قُرئت الأناجيل وثائق قديمة، فهي تتصرف كما يتصرف الشهود المستقلون الصادقون تمامًا. تتفق في الجوهر وتختلف في التفصيل والانتقاء والترتيب. ومعظم الفروق يزول حين يُفهم النص وأعراف الكاتبين.',
+        'وحتى الحالات التي يضغط عليها النقاد أكثر، النسبان وموت يهوذا وتاريخ العشاء الأخير، لها تفسيرات معقولة متجذرة في الممارسة القديمة، وفي كل منها تتفق الروايات على ما هو مهم. والاتفاق في الجوهر مع التنوع في التفصيل علامة الشهادة الحقيقية، لا التواطؤ ولا الخطأ.',
       ],
     },
     theological: {
@@ -345,8 +345,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'An apparent contradiction should be examined and not simply waved away or simply accepted. The reader states the two claims exactly, checks the text, asks what the writers were doing, and then says honestly whether the difference dissolves, has several reasonable explanations, or remains open. Many of the well-known cases fall into the first two groups, and a few stay open. The Church can live with the open cases because her faith rests on the witness of the Scriptures to Christ and not on a claim that no detail is hard to reconcile.',
-    ar: 'ينبغي أن يُفحص التناقض الظاهري، لا أن يُنحّى بسهولة ولا أن يُسلَّم به بسهولة. فيذكر القارئ القولين بدقة، ويفحص النص، ويسأل ماذا كان الكاتبان يفعلان، ثم يقول بأمانة هل يزول الفرق أم له تفسيرات معقولة عدة أم يبقى مفتوحًا. وكثير من الحالات المشهورة يقع في المجموعتين الأوليين، وقليل منها يبقى مفتوحًا. وتستطيع الكنيسة أن تعيش مع الحالات المفتوحة لأن إيمانها يقوم على شهادة الكتب للمسيح لا على دعوى أنه لا تفصيل صعب التوفيق.',
+    en: 'An apparent contradiction is an invitation to read more carefully. State the two claims exactly, check the text, ask what each writer was doing, and read with the Fathers. Again and again the difficulty gives way, and what remains is four witnesses telling one story from their own places. The believer can meet these questions without fear: the Scriptures bear one true witness to Christ.',
+    ar: 'التناقض الظاهري دعوة إلى قراءة أكثر عناية. اذكر القولين بدقة، وافحص النص، واسأل ماذا كان كل كاتب يفعل، واقرأ مع الآباء. ومرة بعد مرة تزول الصعوبة، ويبقى أربعة شهود يروون قصة واحدة كل من موقعه. ويستطيع المؤمن أن يلقى هذه الأسئلة بلا خوف: فالكتب تشهد شهادة واحدة صادقة للمسيح.',
   },
   furtherReading: ['S27', 'S56', 'S57'],
   related: ['resurrection-accounts-disagree', 'has-bible-changed', 'footnoted-passages', 'what-is-a-textual-variant', 'why-inspired', 'preservation-vs-inspiration'],

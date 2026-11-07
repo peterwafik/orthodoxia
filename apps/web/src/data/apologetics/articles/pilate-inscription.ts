@@ -15,23 +15,23 @@ export const article: Article = {
     ar: 'ما يخبرنا به الحجر اللاتيني المكتشف في قيصرية عن بيلاطس البنطي، وما لا يخبرنا به، وموضعه بجانب الأناجيل وتاكيتوس ويوسيفوس. أما محاكمة يسوع وصلبه فتعالجهما مقالة «إعدام يسوع في ولاية بيلاطس»؛ وهذا المقال عن الأثر وحده.',
   },
   shortAnswer: {
-    en: 'The stone is a Latin dedication found in 1961 in the ancient theatre of Caesarea Maritima, the Roman capital of Judea. It names Pontius Pilate and gives him the title prefect of Judea. It is the only inscription from his time that names him in a way historians widely accept. It settles that Pilate was a real Roman official, that his title was prefect (the Gospels call him governor, and Tacitus procurator), and that he was active in the province. It says nothing about Jesus, a trial or a crucifixion, and it does not need to for the Gospel accounts to name a real man.',
-    ar: 'الحجر تكريس لاتيني وُجد سنة ١٩٦١م في مسرح قيصرية البحرية القديم، عاصمة اليهودية الرومانية. يذكر بيلاطس البنطي ويمنحه لقب «حاكم اليهودية» (praefectus). وهو النقش الوحيد من عصره الذي يذكره بصورة يقبلها المؤرخون عمومًا. وهو يحسم أن بيلاطس كان موظفًا رومانيًا حقيقيًا، وأن لقبه «برفكتوس» (تسميه الأناجيل واليًا ويسميه تاكيتوس procurator)، وأنه كان نشطًا في الولاية. ولا يقول شيئًا عن يسوع ولا عن محاكمة ولا عن صلب، ولا يحتاج إلى ذلك كي تكون الأناجيل قد سمّت رجلًا حقيقيًا.',
+    en: 'The stone is a Latin dedication found in 1961 in the ancient theatre of Caesarea Maritima, the seat of the Roman governor of Judea. It names Pontius Pilate and calls him prefect of Judea. It is a public inscription from Pilate’s own time, set up in his own capital, and it confirms from the ground what the Gospels, Tacitus and Josephus already say: Pilate was a real Roman official who governed Judea. It also gives his exact title, prefect. The stone does not speak of Jesus, and it does not need to. Its value is that the man under whom, as the Creed says, Christ suffered is a documented figure of history, so the Passion is set in real time and place.',
+    ar: 'الحجر تكريس لاتيني وُجد سنة ١٩٦١م في مسرح قيصرية البحرية القديم، مقر الوالي الروماني على اليهودية. يذكر بيلاطس البنطي ويلقبه حاكمًا لليهودية (praefectus). وهو نقش عام من زمن بيلاطس نفسه، أُقيم في عاصمته نفسها، ويؤكد من الأرض ما تقوله الأناجيل وتاكيتوس ويوسيفوس: أن بيلاطس كان موظفًا رومانيًا حقيقيًا حكم اليهودية. ويعطي أيضًا لقبه الدقيق «برفكتوس». ولا يتكلم الحجر عن يسوع، ولا يحتاج إلى ذلك. فقيمته أن الرجل الذي تألم المسيح على عهده، كما يقول قانون الإيمان، شخصية موثقة في التاريخ، فالآلام موضوعة في زمان ومكان حقيقيين.',
   },
   quickPoints: {
     en: [
       'The stone was found in 1961 at the theatre of Caesarea, reused in a later building, and is now kept in the Israel Museum in Jerusalem.',
-      'It names Pontius Pilate and calls him prefect of Judea, a title that fits the Roman administration of the time.',
-      'It shows that Pilate was a historical person and that Luke’s dating by named rulers (Luke 3:1) fits real office-holders.',
-      'The text is damaged, and some letters, including parts of the title and the purpose of the building, are restored by scholars.',
-      'It says nothing about Jesus. It must not be cited as proof of the trial or the crucifixion.',
+      'It names Pontius Pilate and calls him prefect of Judea, a title that fits the Roman administration of his time.',
+      'It confirms that Pilate was a historical person and that St Luke’s dating by named rulers (Luke 3:1) fits real office-holders.',
+      'Tacitus, a Roman, and Josephus, a Jew, had already written of Pilate; the stone adds a witness from Pilate’s own day.',
+      'The stone concerns Pilate’s public works, not Jesus; its contribution is to anchor the Gospel’s setting in documented history.',
     ],
     ar: [
       'عُثر على الحجر سنة ١٩٦١م في مسرح قيصرية وقد أُعيد استعماله في بناء لاحق، وهو محفوظ الآن في متحف إسرائيل بأورشليم.',
-      'يذكر بيلاطس البنطي ويلقبه حاكمًا لليهودية (praefectus)، وهو لقب يلائم الإدارة الرومانية في ذلك الوقت.',
-      'يبيّن أن بيلاطس شخص تاريخي، وأن تأريخ لوقا بحكام مسمَّين (لو ٣: ١) يوافق شاغلي مناصب حقيقيين.',
-      'النص تالف، وبعض الحروف، ومنها أجزاء من اللقب والغرض من البناء، رمّمها الباحثون.',
-      'لا يقول شيئًا عن يسوع، ولا يجوز الاستشهاد به دليلًا على المحاكمة أو الصلب.',
+      'يذكر بيلاطس البنطي ويلقبه حاكمًا لليهودية (praefectus)، وهو لقب يلائم الإدارة الرومانية في زمنه.',
+      'يؤكد أن بيلاطس شخص تاريخي، وأن تأريخ القديس لوقا بحكام مسمَّين (لو ٣: ١) يوافق شاغلي مناصب حقيقيين.',
+      'كان تاكيتوس، وهو روماني، ويوسيفوس، وهو يهودي، قد كتبا عن بيلاطس؛ ويضيف الحجر شاهدًا من زمن بيلاطس نفسه.',
+      'يتعلق الحجر بأعمال بيلاطس العامة لا بيسوع؛ وإسهامه أنه يثبّت إطار الإنجيل في تاريخ موثق.',
     ],
   },
   argumentTypes: ['archaeological', 'historical'],
@@ -44,12 +44,12 @@ export const article: Article = {
   },
   whyExamine: {
     en: [
-      'The stone is among the most famous finds connected to the New Testament, and it is easy to say more about it than it supports. Getting it right protects an honest reader from two mistakes: treating it as proof of the Gospel story, or dismissing it as irrelevant.',
-      'Before 1961 some had questioned how well Pilate was known outside Christian and Jewish writers. The inscription answers that narrow question.',
+      'The stone is among the most famous finds connected to the New Testament. Knowing exactly what it shows lets the believer speak of it with confidence and accuracy: it is a real, contemporary witness to the Roman governor named in the Gospels and the Creed.',
+      'It also answers anyone who imagines that the Gospel story floats free of real history. The official before whom the Lord stood left his name on stone in his own capital.',
     ],
     ar: [
-      'الحجر من أشهر المكتشفات المرتبطة بالعهد الجديد، ومن السهل أن يُقال عنه أكثر مما يحتمل. ودقة القول فيه تقي القارئ الأمين من خطأين: أن يعدّه برهانًا على قصة الأناجيل، أو أن يعدّه بلا صلة.',
-      'وقبل سنة ١٩٦١م تساءل بعضهم عن مدى معرفتنا ببيلاطس من خارج كتّاب المسيحيين واليهود. والنقش يجيب عن هذا السؤال الضيق.',
+      'الحجر من أشهر المكتشفات المرتبطة بالعهد الجديد. ومعرفة ما يبيّنه بدقة تمكّن المؤمن من الحديث عنه بثقة ودقة: فهو شاهد حقيقي معاصر للوالي الروماني المذكور في الأناجيل وقانون الإيمان.',
+      'وهو يجيب أيضًا كل من يتخيل أن القصة الإنجيلية منفصلة عن التاريخ الحقيقي. فالموظف الذي وقف الرب أمامه ترك اسمه على الحجر في عاصمته.',
     ],
   },
   background: {
@@ -76,8 +76,8 @@ export const article: Article = {
       argumentType: 'archaeological',
       assessment: 'strong_historical_support',
       rationale: {
-        en: 'The stone is a contemporary public inscription from the seat of the Roman governor and was found in an excavation. The name and the sense of the title are accepted by epigraphers, even though parts of the text are restored.',
-        ar: 'الحجر نقش عام معاصر من مقر الوالي الروماني، وقد وُجد في حفرية. ويقبل علماء النقوش الاسم ومعنى اللقب، وإن كانت أجزاء من النص مرمَّمة.',
+        en: 'The stone is a contemporary public inscription from the seat of the Roman governor, recovered in a scientific excavation. Pilate’s name and his title can be read on it, even though parts of the text are damaged and restored.',
+        ar: 'الحجر نقش عام معاصر من مقر الوالي الروماني، استُخرج في حفرية علمية. واسم بيلاطس ولقبه مقروءان عليه، وإن كانت أجزاء من النص تالفة ومرمَّمة.',
       },
       limits: {
         en: 'It was found out of its original context, and the restored letters are an editors’ reconstruction. The citation here is at the level of the museum’s exhibition page; the catalogue record has not been used.',
@@ -94,8 +94,8 @@ export const article: Article = {
       argumentType: 'historical',
       assessment: 'strong_historical_support',
       rationale: {
-        en: 'The stone, a Roman historian, and Luke’s list of named rulers all place a prefect called Pilate in Judea under Tiberius. Three kinds of source, Roman, archaeological and Christian, agree on this.',
-        ar: 'يضع الحجر ومؤرخ روماني وقائمة الحكام المسمَّين عند لوقا كلها حاكمًا اسمه بيلاطس في اليهودية في عهد طيباريوس. وتتفق ثلاثة أنواع من المصادر على ذلك: روماني وأثري ومسيحي.',
+        en: 'The stone, a Roman historian and St Luke’s list of named rulers all place a governor called Pilate in Judea under Tiberius. Three kinds of source, archaeological, Roman and Christian, agree.',
+        ar: 'يضع الحجر ومؤرخ روماني وقائمة الحكام المسمَّين عند القديس لوقا كلها واليًا اسمه بيلاطس في اليهودية في عهد طيباريوس. وتتفق ثلاثة أنواع من المصادر: أثري وروماني ومسيحي.',
       },
       limits: {
         en: 'The stone does not give the dates of his term; the years come from the other sources. Tacitus is writing eighty years later.',
@@ -106,14 +106,14 @@ export const article: Article = {
     {
       id: 'c3',
       proposition: {
-        en: 'The inscription says nothing about Jesus, and it cannot serve as evidence that he was tried or crucified.',
-        ar: 'لا يقول النقش شيئًا عن يسوع، ولا يصلح دليلًا على أنه حوكم أو صُلب.',
+        en: 'The inscription concerns Pilate’s public works at Caesarea, not Jesus; its witness to the Gospel is that it anchors the Gospel’s setting in documented history.',
+        ar: 'يتعلق النقش بأعمال بيلاطس العامة في قيصرية لا بيسوع؛ وشهادته للإنجيل أنه يثبّت إطار الإنجيل في تاريخ موثق.',
       },
       argumentType: 'archaeological',
       assessment: 'strong_historical_support',
       rationale: {
-        en: 'The stone is a building dedication that concerns Pilate’s public acts at Caesarea. Nothing in it concerns Jerusalem, a prisoner or any religious figure.',
-        ar: 'الحجر تكريس مبنى يتعلق بأعمال بيلاطس العامة في قيصرية. ولا شيء فيه يتعلق بأورشليم ولا بسجين ولا بشخصية دينية.',
+        en: 'The stone is a building dedication. It speaks of Pilate’s public acts in his capital, and so it confirms the official, the title and the period in which the Gospels set the Lord’s trial.',
+        ar: 'الحجر تكريس مبنى. وهو يتكلم عن أعمال بيلاطس العامة في عاصمته، فيؤكد الموظف واللقب والفترة التي تضع فيها الأناجيل محاكمة الرب.',
       },
       limits: {
         en: 'It is a statement about what the object can show. The evidence for Jesus’ execution is discussed in its own article.',
@@ -193,10 +193,10 @@ export const article: Article = {
       },
       response: {
         en: [
-          'It is not quite correct that only Christians knew of him: Tacitus, a Roman, and Josephus, a Jew, wrote of Pilate before the stone was found, and Josephus gives accounts of his conduct as governor. The stone confirms what those writers already said, and it removes any possibility that he was a literary invention.',
+          'Pilate was never known only from Christians. Tacitus, a Roman historian, and Josephus, a Jewish historian, both wrote of him long before the stone was found, and Josephus describes his conduct as governor in some detail. The stone adds a contemporary Roman witness from his own capital, and with it any notion that he was a literary invention falls away completely.',
         ],
         ar: [
-          'ليس صحيحًا تمامًا أن المسيحيين وحدهم عرفوه: فقد كتب عنه تاكيتوس، وهو روماني، ويوسيفوس، وهو يهودي، قبل اكتشاف الحجر، ويروي يوسيفوس أخبارًا عن سلوكه واليًا. ويؤكد الحجر ما قاله هؤلاء الكتّاب أصلًا، ويزيل أي احتمال بأنه اختراع أدبي.',
+          'لم يكن بيلاطس معروفًا قط من المسيحيين وحدهم. فقد كتب عنه تاكيتوس، وهو مؤرخ روماني، ويوسيفوس، وهو مؤرخ يهودي، قبل اكتشاف الحجر بزمن طويل، ويصف يوسيفوس سلوكه واليًا ببعض التفصيل. ويضيف الحجر شاهدًا رومانيًا معاصرًا من عاصمته، ومعه تسقط تمامًا أي فكرة بأنه اختراع أدبي.',
         ],
       },
       limits: {
@@ -213,10 +213,10 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The Gospels use a general Greek word for governor, which is not a technical title and is compatible with prefect. Only Tacitus uses procurator, and he is writing generations afterward, naming the office as it was in his day. The variation shows how titles were used loosely in ordinary writing, not a conflict about who governed.',
+          'There is no contradiction. The Gospels use a general Greek word for governor, which is not a technical title and fits a prefect perfectly. Only Tacitus uses procurator, writing generations later and naming the office as it was in his own day. All the sources agree on the one thing that matters: Pontius Pilate governed Judea.',
         ],
         ar: [
-          'تستعمل الأناجيل كلمة يونانية عامة للوالي، وهي ليست لقبًا فنيًا وتوافق «برفكتوس». ولا يستعمل «بروكوراتور» إلا تاكيتوس، وهو يكتب بعد أجيال ويسمّي المنصب كما كان في زمنه. فالتفاوت يبيّن أن الألقاب كانت تُستعمل بمرونة في الكتابة العادية، لا نزاعًا في من حكم.',
+          'لا يوجد تناقض. فالأناجيل تستعمل كلمة يونانية عامة للوالي، وهي ليست لقبًا فنيًا وتوافق «برفكتوس» تمامًا. ولا يستعمل «بروكوراتور» إلا تاكيتوس، الذي كتب بعد أجيال وسمّى المنصب كما كان في زمنه. وتتفق كل المصادر على الأمر المهم: أن بيلاطس البنطي حكم اليهودية.',
         ],
       },
       limits: {
@@ -233,10 +233,10 @@ export const article: Article = {
       },
       response: {
         en: [
-          'Some popular presentations do overreach. This article does not. What the stone supports is a modest and useful conclusion: the Gospels and early Christian creeds name a real official, so the story is set in recoverable history. What happened before that official is a matter for the other sources and for faith.',
+          'The Church does not need to stretch the stone. What it shows is valuable in itself: the Gospels and the Creed name a real Roman official, so the Lord’s Passion is set in real, recoverable history. That is exactly what the Church confesses when she says that Christ suffered under Pontius Pilate.',
         ],
         ar: [
-          'بعض العروض الشائعة تتجاوز بالفعل. أما هذا المقال فلا. فما يدعمه الحجر نتيجة متواضعة ونافعة: الأناجيل وقوانين الإيمان المبكرة تسمّي موظفًا حقيقيًا، فالقصة موضوعة في تاريخ يمكن استعادته. وما حدث أمام ذلك الموظف شأن المصادر الأخرى والإيمان.',
+          'لا تحتاج الكنيسة إلى تحميل الحجر أكثر مما يحتمل. فما يبيّنه ثمين في ذاته: الأناجيل وقانون الإيمان تسمّي موظفًا رومانيًا حقيقيًا، فآلام الرب موضوعة في تاريخ حقيقي يمكن استعادته. وهذا بالضبط ما تعترف به الكنيسة حين تقول إن المسيح تألم على عهد بيلاطس البنطي.',
         ],
       },
       limits: {
@@ -250,12 +250,12 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'Historically, the stone supports the plain claim that the Gospels and Tacitus refer to a real prefect. Together with Tacitus, it answers the idea that Pilate was an invention of later Christians.',
-        'It does not enter the debate over the trial, and a careful Christian will say so.',
+        'The stone confirms that the Gospels and Tacitus refer to a real prefect of Judea. Together with Tacitus and Josephus, it removes any idea that Pilate was an invention of later Christians.',
+        'It belongs with the wider evidence that the Gospels are set in a real world of named rulers, places and offices, which is what we would expect of accounts rooted in what actually happened.',
       ],
       ar: [
-        'تاريخيًا، يدعم الحجر الدعوى البسيطة أن الأناجيل وتاكيتوس يشيران إلى حاكم حقيقي. وهو مع تاكيتوس يجيب عن فكرة أن بيلاطس اختراع من مسيحيين لاحقين.',
-        'ولا يدخل في النقاش حول المحاكمة، والمسيحي المدقق يقول ذلك.',
+        'يؤكد الحجر أن الأناجيل وتاكيتوس يشيرون إلى حاكم حقيقي لليهودية. وهو مع تاكيتوس ويوسيفوس يزيل أي فكرة بأن بيلاطس اختراع من مسيحيين لاحقين.',
+        'وهو ينتمي إلى الشواهد الأوسع على أن الأناجيل موضوعة في عالم حقيقي من الحكام والأماكن والمناصب المسماة، وهذا ما نتوقعه من روايات متجذرة فيما حدث فعلًا.',
       ],
     },
     theological: {
@@ -284,8 +284,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'The Caesarea stone is firm evidence that Pontius Pilate was a Roman prefect of Judea. It adds nothing about Jesus, and honest apologetics does not ask it to.',
-    ar: 'حجر قيصرية دليل ثابت على أن بيلاطس البنطي كان حاكمًا رومانيًا لليهودية. ولا يضيف شيئًا عن يسوع، والدفاعيات الأمينة لا تطلب منه ذلك.',
+    en: 'The Caesarea stone is firm, contemporary evidence that Pontius Pilate was the Roman prefect of Judea. It confirms the setting the Gospels give and the name the Church confesses in the Creed: Christ suffered under Pontius Pilate, in real time, under a real ruler.',
+    ar: 'حجر قيصرية دليل ثابت معاصر على أن بيلاطس البنطي كان الحاكم الروماني لليهودية. وهو يؤكد الإطار الذي تعطيه الأناجيل والاسم الذي تعترف به الكنيسة في قانون الإيمان: تألم المسيح على عهد بيلاطس البنطي، في زمن حقيقي، تحت حاكم حقيقي.',
   },
   furtherReading: ['S31', 'S01'],
   related: ['jesus-executed-under-pilate', 'first-century-judea', 'forged-or-misidentified-artifacts', 'trial-details-secure-and-debated', 'non-christian-sources-establish'],

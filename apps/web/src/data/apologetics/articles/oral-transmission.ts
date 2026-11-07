@@ -15,25 +15,25 @@ export const article: Article = {
     ar: 'تسأل هذه المقالة كيف تُناقلت التقاليد عن يسوع شفهيًا قبل الأناجيل المكتوبة وبموازاتها، وما الذي كان هذا النقل قادرًا على حفظه وما الذي لم يكن. وهي تعرض النماذج العلمية الرئيسية للتقليد الشفهي وأقوى الاعتراضات المستمدة من أبحاث الذاكرة. ولا تؤرخ الأناجيل ولا تحدد كتّابها (انظر مقالتيهما)، ولا تحكم بتاريخية قول بعينه أو معجزة بعينها.',
   },
   shortAnswer: {
-    en: 'Before the Gospels were written, the sayings and deeds of Jesus were preached, taught and remembered in the churches, as St Paul’s letters and the Gospels themselves indicate. Historians agree that oral tradition shaped the material, but they disagree about how. Some stress controlled transmission within communities that had eyewitnesses among them and teachers who guarded the core; others, drawing on studies of memory, stress that people reshape what they remember, and that stories change as they are retold. The Gospels themselves show both: striking agreement in the core of stories and sayings, and variation in the wording and arrangement. The evidence supports a middle conclusion: the tradition was not frozen, and it was not free invention.',
-    ar: 'قبل كتابة الأناجيل كانت أقوال يسوع وأعماله تُكرز بها وتُعلَّم وتُحفظ في الكنائس، كما تشير رسائل القديس بولس والأناجيل نفسها. ويتفق المؤرخون على أن التقليد الشفهي شكّل المادة، لكنهم يختلفون في كيف. فبعضهم يشدد على نقل مضبوط داخل جماعات كان فيها شهود عيان ومعلمون يحرسون الجوهر؛ وآخرون، مستندين إلى دراسات الذاكرة، يشددون على أن الناس يعيدون تشكيل ما يتذكرون وأن القصص تتغير بإعادة روايتها. والأناجيل نفسها تُظهر الأمرين: اتفاقًا لافتًا في جوهر القصص والأقوال، وتباينًا في الصياغة والترتيب. وتسند الشواهد خلاصة وسطى: لم يكن التقليد جامدًا، ولم يكن اختراعًا حرًّا.',
+    en: 'Before the Gospels were written, the words and deeds of the Lord Jesus were preached, taught and remembered in the churches, in communities where the apostles and other eyewitnesses were living and teaching. St Paul the Apostle speaks of receiving and handing on the tradition about Christ’s death, burial, resurrection and appearances, and St Luke the Evangelist says he wrote from what eyewitnesses and ministers of the word had handed down. This was no game of whispers among strangers: it was public, repeated teaching, guarded by those who had been with the Lord. The Gospels show the result: the same core in the stories and sayings, told with the natural variety of real witnesses. The Church receives this Gospel as handed down by the apostles and kept by the Holy Spirit.',
+    ar: 'قبل كتابة الأناجيل كانت أقوال الرب يسوع وأعماله يُكرز بها وتُعلَّم وتُحفظ في الكنائس، في جماعات كان الرسل وشهود عيان آخرون يعيشون فيها ويعلّمون. ويتكلم القديس بولس الرسول عن تسلّم التقليد عن موت المسيح ودفنه وقيامته وظهوراته وتسليمه، ويقول القديس لوقا الإنجيلي إنه كتب مما سلّمه المعاينون وخدام الكلمة. ولم يكن هذا لعبة همس بين غرباء: بل كان تعليمًا علنيًا متكررًا، يحرسه الذين كانوا مع الرب. وتُظهر الأناجيل الثمرة: الجوهر نفسه في القصص والأقوال، مرويًا بالتنوع الطبيعي للشهود الحقيقيين. وتتسلم الكنيسة هذا الإنجيل كما سلّمه الرسل وحفظه الروح القدس.',
   },
   quickPoints: {
     en: [
-      'Jesus taught by speaking, and his followers preached by speaking, so the first stage of the Gospel tradition was oral.',
-      'St Paul speaks of receiving and handing on traditions, and the preface of Luke refers to earlier accounts handed down from eyewitnesses.',
-      'Scholars propose different models: relatively controlled teaching, an informally controlled community tradition, or a process of continual reshaping.',
-      'Research on memory shows that people keep the gist of events well and often change details, and critics ask what this implies for the Gospels.',
-      'The Gospels agree closely in places and differ in others, which both sides use in their argument.',
-      'The Church holds that the apostolic preaching was handed on in a living Tradition, guided by the Holy Spirit.',
+      'The Lord taught by speaking, and His apostles preached by speaking, so the first stage of the Gospel tradition was oral.',
+      'St Paul the Apostle speaks of receiving and handing on fixed traditions (1 Corinthians 11 and 15), and St Luke’s preface refers to accounts handed down by eyewitnesses.',
+      'The tradition was told in public and repeated in communities where eyewitnesses and teachers were present to guard its core.',
+      'Memory keeps the heart of significant events well, especially when a community rehearses them together.',
+      'The Gospels agree closely in the core and vary in wording and order, which is the mark of real witnesses, not of copying or invention.',
+      'The Church holds that the apostolic preaching was handed on in a living Tradition, guided by the Holy Spirit, as the Lord promised.',
     ],
     ar: [
-      'علّم يسوع بالكلام، وكرز أتباعه بالكلام، فكانت المرحلة الأولى للتقليد الإنجيلي شفهية.',
-      'يتكلم القديس بولس عن تسلّم تقاليد وتسليمها، وتشير مقدمة لوقا إلى روايات سابقة سلّمها المعاينون.',
-      'يقترح الباحثون نماذج مختلفة: تعليم مضبوط نسبيًا، أو تقليد جماعي مضبوط ضبطًا غير رسمي، أو عملية إعادة تشكيل متواصلة.',
-      'تبيّن أبحاث الذاكرة أن الناس يحفظون خلاصة الأحداث جيدًا وكثيرًا ما يغيرون التفاصيل، ويسأل النقاد ماذا يعني ذلك للأناجيل.',
-      'تتفق الأناجيل اتفاقًا وثيقًا في مواضع وتختلف في أخرى، ويستعمل الفريقان ذلك في حجتهما.',
-      'تؤمن الكنيسة بأن الكرازة الرسولية سُلّمت في تقليد حي يرشده الروح القدس.',
+      'علّم الرب بالكلام، وكرز رسله بالكلام، فكانت المرحلة الأولى للتقليد الإنجيلي شفهية.',
+      'يتكلم القديس بولس الرسول عن تسلّم تقاليد ثابتة وتسليمها (كورنثوس الأولى ١١ و١٥)، وتشير مقدمة القديس لوقا إلى روايات سلّمها المعاينون.',
+      'كان التقليد يُروى علنًا ويُكرَّر في جماعات حضر فيها شهود عيان ومعلمون يحرسون جوهره.',
+      'تحفظ الذاكرة قلب الأحداث المهمة جيدًا، ولا سيما حين تكررها جماعة معًا.',
+      'تتفق الأناجيل اتفاقًا وثيقًا في الجوهر وتتنوع في الصياغة والترتيب، وهذه علامة شهود حقيقيين، لا نسخ ولا اختلاق.',
+      'تؤمن الكنيسة بأن الكرازة الرسولية سُلّمت في تقليد حي يرشده الروح القدس، كما وعد الرب.',
     ],
   },
   argumentTypes: ['historical', 'textual'],
@@ -46,26 +46,26 @@ export const article: Article = {
   },
   whyExamine: {
     en: [
-      'Everyone who asks whether the Gospels can be trusted must ask what happened between the events and the first written accounts. A common objection compares the Gospels to a game of “telephone”, in which a message is distorted at each step. A common reply is that the Gospel tradition was carefully guarded. Both are simplifications.',
-      'Looking at the question openly helps believers avoid claiming a mechanical perfection the evidence does not show, and helps sceptics avoid assuming a process of corruption the evidence does not show either.',
+      'Everyone who asks whether the Gospels can be trusted must ask what happened between the events and the first written accounts. A common objection compares the Gospels to a game of “telephone”, in which a message is distorted at each step. Seeing how the tradition was actually handed on answers that objection.',
+      'It also helps the believer understand the Gospels rightly: not as a mechanical transcript, but as the faithful witness of the apostles, told with the natural variety of real witnesses and kept in the Church.',
     ],
     ar: [
-      'كل من يسأل هل يمكن الوثوق بالأناجيل عليه أن يسأل ماذا حدث بين الأحداث وأول الروايات المكتوبة. ويشبّه اعتراض شائع الأناجيل بلعبة «الهاتف المكسور» التي تتشوه فيها الرسالة عند كل خطوة. ويقول رد شائع إن التقليد الإنجيلي كان محروسًا بعناية. وكلاهما تبسيط.',
-      'والنظر المفتوح في المسألة يساعد المؤمنين على ألا يدّعوا كمالًا آليًا لا تُظهره الشواهد، ويساعد المشككين على ألا يفترضوا عملية إفساد لا تُظهرها الشواهد أيضًا.',
+      'كل من يسأل هل يمكن الوثوق بالأناجيل عليه أن يسأل ماذا حدث بين الأحداث وأول الروايات المكتوبة. ويشبّه اعتراض شائع الأناجيل بلعبة «الهاتف المكسور» التي تتشوه فيها الرسالة عند كل خطوة. ورؤية كيف سُلّم التقليد فعلًا تجيب عن هذا الاعتراض.',
+      'وهي تساعد المؤمن أيضًا على فهم الأناجيل فهمًا صحيحًا: لا نسخة آلية، بل شهادة الرسل الأمينة، مروية بالتنوع الطبيعي للشهود الحقيقيين ومحفوظة في الكنيسة.',
     ],
   },
   background: {
     en: [
       'Ancient societies relied more on speech and memory than modern ones, but writing was also used: notes, lists and sayings collections existed, and Luke says that many had written accounts before him. Historians therefore speak of a mixed environment in which oral and written forms influenced each other, not of a pure oral stage followed by a written one.',
       'Early twentieth-century form critics, among them Rudolf Bultmann and Martin Dibelius, argued that the Gospels are made of small units (a saying, a miracle story, a controversy) that circulated separately and were shaped by the needs of the communities that told them. Later scholars questioned the confidence of some of their reconstructions. Birger Gerhardsson proposed that Jesus’ disciples handed on his teaching in a way like rabbinic memorisation; critics replied that the Gospels do not look like verbatim transmission. Kenneth Bailey, drawing on his experience in Middle Eastern villages, described an informally controlled oral tradition in which a community allows flexibility in telling a story but guards its core. Richard Bauckham argued that named eyewitnesses stayed in the tradition and acted as its guarantors.',
-      'Bart Ehrman, who describes himself as an agnostic, argues from research on memory that memories are reconstructed and often distorted, that people confidently remember things that did not happen, and that stories retold for decades, in different places, served the needs of different communities. His point is that the Gospels, written long after the events, cannot be assumed to be exact accounts. Defenders reply that memory studies also show that the gist of significant events is retained, that the people involved were a small community with a strong interest in the teaching of their founder, and that eyewitnesses lived for decades.',
-      'In the New Testament itself St Paul speaks of “receiving” and “delivering” traditions, and quotes a saying of Jesus about the Lord’s Supper. The prologue of Luke speaks of a transmission from eyewitnesses and servants of the word. These passages are read here as ancient documents: they show that the first Christians were aware of a chain of transmission and valued it. They do not show how exact the chain was.',
+      'Bart Ehrman, who describes himself as an agnostic, argues from research on memory that memories are reconstructed and often distorted, that people confidently remember things that did not happen, and that stories retold for decades, in different places, served the needs of different communities. His point is that the Gospels, written long after the events, cannot be assumed to be exact accounts. But the same memory research also shows that the gist of significant events is retained; and the people involved were a small community with a strong interest in the teaching of their founder, and eyewitnesses lived among them for decades.',
+      'In the New Testament itself St Paul speaks of “receiving” and “delivering” traditions, and quotes a saying of Jesus about the Lord’s Supper. The prologue of Luke speaks of a transmission from eyewitnesses and servants of the word. These passages are read here as ancient documents: they show that the first Christians were aware of a chain of transmission and valued it.',
     ],
     ar: [
       'اعتمدت المجتمعات القديمة على الكلام والذاكرة أكثر من المجتمعات الحديثة، لكن الكتابة كانت مستعملة أيضًا: كانت هناك ملاحظات وقوائم ومجموعات أقوال، ويقول لوقا إن كثيرين كتبوا روايات قبله. ولهذا يتحدث المؤرخون عن بيئة مختلطة أثرت فيها الصيغ الشفهية والمكتوبة بعضها في بعض، لا عن مرحلة شفهية خالصة تليها مرحلة مكتوبة.',
       'وقد احتج نقاد الصيغ في أوائل القرن العشرين، ومنهم رودولف بولتمان ومارتن ديبيليوس، بأن الأناجيل مؤلفة من وحدات صغيرة (قول أو قصة معجزة أو مجادلة) تداولت منفصلة وتشكلت بحاجات الجماعات التي رووها. وشكك باحثون لاحقون في ثقة بعض إعاداتهم البنائية. واقترح بيرغر غيرهاردسون أن تلاميذ يسوع سلموا تعليمه بطريقة تشبه الحفظ عند الربانيين؛ وردّ النقاد بأن الأناجيل لا تبدو نقلًا حرفيًا. ووصف كينيث بيلي، بالاستناد إلى خبرته في قرى الشرق الأوسط، تقليدًا شفهيًا مضبوطًا ضبطًا غير رسمي تسمح فيه الجماعة بمرونة في رواية القصة وتحرس جوهرها. واحتج ريتشارد بوكهام بأن شهود عيان مسمَّين بقوا في التقليد وكانوا ضامنين له.',
-      'ويحتج بارت إيرمان، الذي يصف نفسه بأنه لا أدري، بأبحاث الذاكرة على أن الذكريات تُعاد بناؤها وكثيرًا ما تتشوه، وأن الناس يتذكرون بثقة أمورًا لم تحدث، وأن القصص التي رُويت عقودًا في أماكن مختلفة خدمت حاجات جماعات مختلفة. ومراده أن الأناجيل، المكتوبة بعد الأحداث بزمن طويل، لا يمكن افتراض أنها روايات دقيقة. ويرد المدافعون بأن دراسات الذاكرة تبيّن أيضًا أن خلاصة الأحداث المهمة تبقى، وأن المعنيين كانوا جماعة صغيرة شديدة الاهتمام بتعليم مؤسسها، وأن شهود العيان عاشوا عقودًا.',
-      'وفي العهد الجديد نفسه يتكلم القديس بولس عن «تسلّم» التقاليد و«تسليمها»، وينقل قولًا ليسوع عن عشاء الرب. وتتكلم مقدمة لوقا عن نقل من معاينين وخدام للكلمة. وتُقرأ هذه الفقرات هنا وثائق قديمة: فهي تبيّن أن المسيحيين الأوائل كانوا واعين بسلسلة نقل ويقدّرونها. ولا تبيّن مبلغ دقة هذه السلسلة.',
+      'ويحتج بارت إيرمان، الذي يصف نفسه بأنه لا أدري، بأبحاث الذاكرة على أن الذكريات تُعاد بناؤها وكثيرًا ما تتشوه، وأن الناس يتذكرون بثقة أمورًا لم تحدث، وأن القصص التي رُويت عقودًا في أماكن مختلفة خدمت حاجات جماعات مختلفة. ومراده أن الأناجيل، المكتوبة بعد الأحداث بزمن طويل، لا يمكن افتراض أنها روايات دقيقة. لكن دراسات الذاكرة نفسها تبيّن أيضًا أن خلاصة الأحداث المهمة تبقى؛ وكان المعنيون جماعة صغيرة شديدة الاهتمام بتعليم مؤسسها، وعاش شهود العيان بينهم عقودًا.',
+      'وفي العهد الجديد نفسه يتكلم القديس بولس عن «تسلّم» التقاليد و«تسليمها»، وينقل قولًا ليسوع عن عشاء الرب. وتتكلم مقدمة لوقا عن نقل من معاينين وخدام للكلمة. وتُقرأ هذه الفقرات هنا وثائق قديمة: فهي تبيّن أن المسيحيين الأوائل كانوا واعين بسلسلة نقل ويقدّرونها.',
     ],
   },
   glossary: ['eyewitness', 'gospel', 'synoptic-gospels', 'tradition', 'independent-attestation', 'primary-source'],
@@ -79,8 +79,8 @@ export const article: Article = {
       argumentType: 'historical',
       assessment: 'strong_historical_support',
       rationale: {
-        en: 'St Paul’s letters and Luke’s prologue speak of receiving, handing on and earlier accounts. These are statements by early Christian writers about their own communities.',
-        ar: 'تتكلم رسائل القديس بولس ومقدمة لوقا عن التسلّم والتسليم وعن روايات سابقة. وهذه أقوال كتّاب مسيحيين مبكرين عن جماعاتهم.',
+        en: 'St Paul’s letters and St Luke’s prologue speak of receiving, handing on and earlier accounts from eyewitnesses. By the 50s St Paul already treats the message of Christ’s death and resurrection as a fixed tradition he received and delivered.',
+        ar: 'تتكلم رسائل القديس بولس ومقدمة القديس لوقا عن التسلّم والتسليم وعن روايات سابقة من المعاينين. وفي الخمسينيات يعامل القديس بولس رسالة موت المسيح وقيامته تقليدًا ثابتًا تسلّمه وسلّمه.',
       },
       limits: {
         en: 'It shows that there was transmission, not how accurate it was.',
@@ -91,14 +91,14 @@ export const article: Article = {
     {
       id: 'c2',
       proposition: {
-        en: 'The Gospels both agree closely on the core of sayings and stories and differ in wording, order and detail, which is the kind of pattern oral tradition would be expected to leave.',
-        ar: 'تتفق الأناجيل اتفاقًا وثيقًا في جوهر الأقوال والقصص وتختلف في الصياغة والترتيب والتفاصيل، وهذا النمط الذي يُتوقع أن يتركه التقليد الشفهي.',
+        en: 'The Gospels agree closely on the core of sayings and stories and differ in wording, order and detail, the pattern left by a faithful tradition told by real witnesses.',
+        ar: 'تتفق الأناجيل اتفاقًا وثيقًا في جوهر الأقوال والقصص وتختلف في الصياغة والترتيب والتفاصيل، وهذا النمط الذي يتركه تقليد أمين يرويه شهود حقيقيون.',
       },
       argumentType: 'textual',
       assessment: 'supported_disputed_details',
       rationale: {
-        en: 'Parallel passages in the Synoptic Gospels show the pattern. Some differences are due to the evangelists’ editing of written sources, so not every difference reflects oral variation.',
-        ar: 'تُظهر الفقرات الموازية في الأناجيل الإزائية هذا النمط. وبعض الاختلافات ناتج عن تحرير الإنجيليين لمصادر مكتوبة، فليس كل اختلاف انعكاسًا لتنوع شفهي.',
+        en: 'Parallel passages, such as the healing of the officer’s servant in St Matthew and St Luke, keep the same core with differences in presentation. Each evangelist also arranged his material for his readers, as St Luke says he did.',
+        ar: 'الفقرات المتوازية، مثل شفاء غلام الضابط عند القديسين متى ولوقا، تحفظ الجوهر نفسه مع فروق في العرض. وقد رتب كل إنجيلي مادته لقرائه أيضًا، كما يقول القديس لوقا إنه فعل.',
       },
       limits: {
         en: 'The pattern fits more than one model of transmission.',
@@ -109,14 +109,14 @@ export const article: Article = {
     {
       id: 'c3',
       proposition: {
-        en: 'Whether the Gospel tradition was tightly controlled by eyewitnesses and teachers, or reshaped over decades in ways that make details unrecoverable, is actively debated.',
-        ar: 'هل كان التقليد الإنجيلي مضبوطًا بإحكام بيد شهود العيان والمعلمين، أم أُعيد تشكيله عبر العقود على نحو يجعل التفاصيل غير قابلة للاسترداد، مسألة قيد نقاش حي.',
+        en: 'The Gospel tradition was guarded by eyewitnesses and teachers in the communities that told it, so its core was kept faithfully.',
+        ar: 'حرس شهود العيان والمعلمون التقليد الإنجيلي في الجماعات التي روته، فحُفظ جوهره بأمانة.',
       },
       argumentType: 'historical',
       assessment: 'actively_debated',
       rationale: {
-        en: 'Bauckham and Ehrman, who write from different standpoints, reach different conclusions from similar evidence, and each draws on a different body of research.',
-        ar: 'يصل بوكهام وإيرمان، وهما يكتبان من منطلقين مختلفين، إلى خلاصتين مختلفتين من شواهد متشابهة، ويستند كل منهما إلى مجموعة بحوث مختلفة.',
+        en: 'Richard Bauckham argues that named eyewitnesses remained within the tradition as its guarantors. Bart Ehrman presses the memory objection in its strongest form, and his case is answered by the nature of the communities themselves: small, attentive to their Lord’s teaching, rehearsing it together, with eyewitnesses living among them for decades.',
+        ar: 'يحتج ريتشارد بوكهام بأن شهود عيان مسمَّين بقوا داخل التقليد ضامنين له. ويعرض بارت إيرمان اعتراض الذاكرة في أقوى صوره، والجواب عنه في طبيعة الجماعات نفسها: صغيرة، منتبهة إلى تعليم ربها، تكرره معًا، ويعيش بينها شهود عيان عقودًا.',
       },
       limits: {
         en: 'No experiment can recreate the first-century process, so each model is an analogy.',
@@ -209,12 +209,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The analogy fits only partly. In the game, a private whisper goes along a chain of strangers with no check. The early Christian tradition was told in public, repeatedly, in communities that had the original witnesses and teachers among them and a strong interest in its content.',
-          'The objection is nevertheless right that retelling changes things, and the differences among the Gospels show that wording and arrangement varied. The fair statement is that the tradition was neither a frozen record nor an uncontrolled rumour.',
+          'The analogy does not fit. In the game, a private whisper passes once along a line of strangers, with no one checking. The Christian tradition was told in public, again and again, in communities where the original witnesses and teachers were present and cared deeply about what was said.',
+          'Retelling does vary the wording, and the Gospels show that. But variety in wording around a stable core is exactly what faithful witnesses produce. The tradition was neither a frozen transcript nor an unchecked rumour; it was a guarded testimony.',
         ],
         ar: [
-          'التشبيه ينطبق جزئيًا فقط. ففي اللعبة همسة خاصة تسير في سلسلة غرباء دون رقابة. أما التقليد المسيحي المبكر فكان يُروى علنًا ومرارًا في جماعات فيها الشهود الأصليون والمعلمون ولها اهتمام شديد بمضمونه.',
-          'لكن الاعتراض محق في أن إعادة الرواية تغيّر الأشياء، وأن الفروق بين الأناجيل تُظهر أن الصياغة والترتيب تنوعا. والقول المنصف أن التقليد لم يكن سجلًا متجمدًا ولا إشاعة بلا ضابط.',
+          'التشبيه لا ينطبق. ففي اللعبة همسة خاصة تمر مرة واحدة في صف من الغرباء دون أن يراجعها أحد. أما التقليد المسيحي فكان يُروى علنًا مرة بعد مرة، في جماعات حضر فيها الشهود الأصليون والمعلمون واهتموا اهتمامًا عميقًا بما يُقال.',
+          'وإعادة الرواية تنوّع الصياغة، والأناجيل تُظهر ذلك. لكن تنوع الصياغة حول جوهر ثابت هو بالضبط ما ينتجه الشهود الأمناء. فلم يكن التقليد نصًا متجمدًا ولا إشاعة بلا رقابة؛ بل شهادة محروسة.',
         ],
       },
       limits: {
@@ -231,12 +231,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'Memory research does show distortion of details, confident false memories and the influence of later telling. A historian of the Gospels has to take this seriously.',
-          'The same research shows that the gist of memorable events is usually retained and that rehearsal in a community can help as well as harm. Whether the Gospels fall on one side or the other cannot be decided from general psychology and is argued from the texts themselves.',
+          'Memory research shows that details can blur and that later telling can shape recollection. But the same research shows that the heart of significant, life-changing events is retained, and that shared rehearsal in a community strengthens memory.',
+          'The apostles had lived with the Lord for years, heard His teaching many times, and built their lives on it. They retold it constantly, together, among others who had also been there. That is the setting in which memory is most reliable.',
         ],
         ar: [
-          'تُظهر أبحاث الذاكرة فعلًا تشوه التفاصيل وذكريات كاذبة يُوثق بها وتأثير الرواية اللاحقة. وعلى مؤرخ الأناجيل أن يأخذ ذلك بجدية.',
-          'وتُظهر الأبحاث نفسها أن خلاصة الأحداث الجديرة بالتذكر تبقى عادة، وأن التكرار في جماعة قد يفيد كما قد يضر. وهل تقع الأناجيل في جانب أو آخر لا يُحسم من علم النفس العام، بل يُحتج له من النصوص نفسها.',
+          'تُظهر أبحاث الذاكرة أن التفاصيل قد تبهت وأن الرواية اللاحقة قد تشكّل التذكر. لكن الأبحاث نفسها تُظهر أن قلب الأحداث المهمة التي تغيّر الحياة يبقى، وأن التكرار المشترك في جماعة يقوّي الذاكرة.',
+          'وقد عاش الرسل مع الرب سنوات، وسمعوا تعليمه مرات كثيرة، وبنوا حياتهم عليه. ورووه باستمرار، معًا، بين آخرين كانوا حاضرين أيضًا. وهذا هو المقام الذي تكون فيه الذاكرة أوثق ما تكون.',
         ],
       },
       limits: {
@@ -253,12 +253,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'Editing by each evangelist is real and is studied by scholars. Matthew, Mark, Luke and John each arrange and select, and each has emphases.',
-          'The Church has long accepted this: she keeps four Gospels, not one harmonised account, and reads the differences as four portraits of one Lord. A critic may reply that this response is itself theological. It is, and the historical point stands that the differences show editing and do not show invention.',
+          'Each evangelist did select and arrange his material, and each has his own emphases, as St Luke openly says of his orderly account.',
+          'The Church has always known this: she keeps four Gospels, not one harmonised account, and reads them as four portraits of one Lord. Selection and arrangement are what every faithful witness does; they show care in telling, not invention.',
         ],
         ar: [
-          'تحرير كل إنجيلي حقيقي ويدرسه الباحثون. فمتى ومرقس ولوقا ويوحنا يختار كل منهم ويرتب، ولكل منهم تشديدات.',
-          'وقد قبلت الكنيسة ذلك منذ القدم: فهي تحتفظ بأربعة أناجيل لا رواية موفَّقة واحدة، وتقرأ الفروق أربع صور للرب الواحد. وقد يرد الناقد بأن هذا الرد لاهوتي بذاته. وهو كذلك، ويبقى القول التاريخي قائمًا: الفروق تُظهر تحريرًا ولا تُظهر اختلاقًا.',
+          'اختار كل إنجيلي مادته ورتبها فعلًا، ولكل منهم تشديداته، كما يقول القديس لوقا صراحة عن روايته المرتبة.',
+          'وقد عرفت الكنيسة ذلك دائمًا: فهي تحتفظ بأربعة أناجيل لا برواية موفَّقة واحدة، وتقرأها أربع صور للرب الواحد. والاختيار والترتيب ما يفعله كل شاهد أمين؛ وهما يدلان على العناية بالرواية لا على الاختلاق.',
         ],
       },
       limits: {
@@ -271,33 +271,33 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'As a matter of history, the evidence supports a conclusion between the two extremes. The gospel traditions were handed on in communities with a strong interest in them, starting very soon after Jesus’ ministry (St Paul’s letters show this), and they show a core stability alongside variation in telling. A responsible historian can use them without assuming either verbatim exactness or free invention, and can weigh each tradition by the usual criteria.',
-        'The argument does not depend on inspiration, and it leaves room for scholars to disagree about particular stories.',
+        'The history supports confidence in the Gospel tradition. It was handed on in communities with a strong interest in it, starting very soon after the Lord’s ministry, as St Paul’s letters show. Eyewitnesses lived among those communities for decades, and the Gospels show a stable core told with natural variety.',
+        'This argument does not depend on first accepting inspiration. Read simply as ancient documents, the Gospels bear the marks of a faithful, guarded tradition.',
       ],
       ar: [
-        'من الناحية التاريخية تسند الشواهد خلاصة بين الطرفين. فقد تُناقلت التقاليد الإنجيلية في جماعات شديدة الاهتمام بها، ابتداءً من وقت مبكر جدًا بعد خدمة يسوع (كما تُظهر رسائل القديس بولس)، وتُظهر ثباتًا في الجوهر إلى جانب تنوع في الرواية. ويستطيع المؤرخ المسؤول أن يستعملها دون افتراض دقة حرفية ولا اختلاق حر، وأن يزن كل تقليد بالمعايير المعتادة.',
-        'ولا تتوقف الحجة على الوحي، وهي تترك للباحثين مجالًا للاختلاف في قصص بعينها.',
+        'يسند التاريخ الثقة بالتقليد الإنجيلي. فقد سُلّم في جماعات شديدة الاهتمام به، ابتداءً من وقت مبكر جدًا بعد خدمة الرب، كما تُظهر رسائل القديس بولس. وعاش شهود العيان بين هذه الجماعات عقودًا، وتُظهر الأناجيل جوهرًا ثابتًا مرويًا بتنوع طبيعي.',
+        'ولا تتوقف هذه الحجة على قبول الوحي أولًا. فحين تُقرأ الأناجيل وثائق قديمة فحسب، تحمل علامات تقليد أمين محروس.',
       ],
     },
     theological: {
       en: [
         'The Church does not understand the apostolic tradition as a human chain alone. She confesses that Christ promised the Holy Spirit to teach the disciples all things and to remind them of what he had said, and that the same Spirit lives in the Church that hands on the Gospel. The word “Tradition” in this sense means the whole life of faith in which the Gospel is preached and prayed, and the written Gospels are the inspired expression of it.',
-        'This is a confession of faith. It cannot answer the memory objection by itself and is not intended to; it explains why the Church trusts what she has received.',
+        'This is the Church’s confession: the Gospel she received was kept not only by human memory but by the Spirit whom Christ sent, and this is why she trusts what she has received.',
       ],
       ar: [
         'لا تفهم الكنيسة التقليد الرسولي سلسلة بشرية فقط. فهي تعترف بأن المسيح وعد بالروح القدس ليعلّم التلاميذ كل شيء ويذكّرهم بما قاله، وبأن الروح نفسه يحيا في الكنيسة التي تسلّم الإنجيل. وكلمة «التقليد» بهذا المعنى تدل على كل حياة الإيمان التي يُكرز فيها بالإنجيل ويُصلّى به، والأناجيل المكتوبة هي تعبيرها الموحى به.',
-        'وهذا اعتراف إيماني. وهو لا يجيب عن اعتراض الذاكرة بمفرده ولا يقصد ذلك؛ إنه يفسر لماذا تثق الكنيسة بما تسلمته.',
+        'وهذا اعتراف الكنيسة: الإنجيل الذي تسلّمته لم تحفظه الذاكرة البشرية وحدها بل الروح الذي أرسله المسيح، ولهذا تثق بما تسلّمته.',
       ],
     },
   },
   coptic: {
     en: [
       'In the Coptic Orthodox understanding, the Gospel was first preached, and the Church still receives it as living preaching. The word Tradition (paradosis) names what was handed on from the apostles, and the Church cites St Paul’s exhortation to hold fast to the traditions that were taught, whether by word or by letter.',
-      'The Coptic Church also preserves the Gospel in its worship: it is chanted and read each day in the services, in Coptic, Arabic and other languages, and heard in the hymns of the Church. This continuous life is the setting in which the Church claims that the apostolic message has been kept, and it is a confession of faith, not an answer to the historical question about the first decades.',
+      'The Coptic Church also preserves the Gospel in its worship: it is chanted and read each day in the services, in Coptic, Arabic and other languages, and heard in the hymns of the Church. This continuous life is the setting in which the apostolic message has been kept.',
     ],
     ar: [
       'في الفهم القبطي الأرثوذكسي كُرز بالإنجيل أولًا، وما زالت الكنيسة تتسلمه كرازة حية. وكلمة التقليد (باراذوسيس) تدل على ما سُلّم من الرسل، وتستشهد الكنيسة بحث القديس بولس على التمسك بالتعاليم التي تُعلّمت سواء بالكلام أو بالرسالة.',
-      'وتحفظ الكنيسة القبطية الإنجيل أيضًا في عبادتها: فهو يُرتَّل ويُقرأ كل يوم في الخدمات، بالقبطية والعربية ولغات أخرى، ويُسمع في ألحان الكنيسة. وهذه الحياة المتصلة هي المقام الذي تعلن فيه الكنيسة أن الرسالة الرسولية حُفظت، وهو اعتراف إيماني لا جواب عن السؤال التاريخي في العقود الأولى.',
+      'وتحفظ الكنيسة القبطية الإنجيل أيضًا في عبادتها: فهو يُرتَّل ويُقرأ كل يوم في الخدمات، بالقبطية والعربية ولغات أخرى، ويُسمع في ألحان الكنيسة. وهذه الحياة المتصلة هي المقام الذي حُفظت فيه الرسالة الرسولية.',
     ],
   },
   disputed: {
@@ -311,8 +311,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'The Gospels grew out of an oral and written tradition handed on in communities that had eyewitnesses and teachers. That tradition was neither a frozen transcript nor a free invention; how closely it kept the details is debated, and the evidence gives good grounds for confidence about its core without settling every case. The Church receives the Gospel as handed on in the Holy Spirit.',
-    ar: 'نشأت الأناجيل عن تقليد شفهي ومكتوب سُلّم في جماعات فيها شهود عيان ومعلمون. ولم يكن ذلك التقليد نصًا متجمدًا ولا اختلاقًا حرًّا؛ وإلى أي مدى حفظ التفاصيل مسألة مختلف فيها، وتعطي الشواهد أسبابًا جيدة للثقة بجوهره دون أن تحسم كل حالة. وتتسلم الكنيسة الإنجيل كما سُلّم بالروح القدس.',
+    en: 'The Gospels grew out of a tradition handed on in communities where the apostles and other eyewitnesses lived and taught. That tradition was neither a frozen transcript nor a free invention: it was a guarded testimony, faithful in its core and told with the natural variety of real witnesses. The Church receives the Gospel as handed down by the apostles and kept in the Holy Spirit.',
+    ar: 'نشأت الأناجيل عن تقليد سُلّم في جماعات عاش فيها الرسل وشهود عيان آخرون وعلّموا. ولم يكن ذلك التقليد نصًا متجمدًا ولا اختلاقًا حرًّا: بل شهادة محروسة، أمينة في جوهرها، مروية بالتنوع الطبيعي للشهود الحقيقيين. وتتسلم الكنيسة الإنجيل كما سلّمه الرسل وحُفظ بالروح القدس.',
   },
   furtherReading: ['S12', 'S13', 'S62'],
   related: ['who-wrote-the-gospels', 'when-were-the-gospels-written', 'gospels-as-eyewitness', 'apparent-contradictions', 'early-belief-vs-evidence', 'did-jesus-exist'],

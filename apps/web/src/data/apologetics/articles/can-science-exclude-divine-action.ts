@@ -15,23 +15,23 @@ export const article: Article = {
     ar: 'تسأل هذه المقالة هل يستطيع العلم أن يُثبت أن الله يعمل في العالم، أو أن ينفي ذلك. وتشرح ما يستطيع المنهج العلمي اختباره وما لا يستطيع، وكيف جادل الفلاسفة في المعجزات (ومنها حجة هيوم)، والطرق الرئيسية التي يفهم بها المسيحيون الفعل الإلهي، وكيف تتكلم الكنيسة القبطية الأرثوذكسية عن المعجزات. ولا تقيّم معجزة بعينها مروية.',
   },
   shortAnswer: {
-    en: 'Not every kind. Science works by explaining events through natural causes and by testing those explanations, so it is very good at showing that an event had a natural cause and has nothing to say about whether the natural order itself depends on God. It can check whether a reported event happened (whether a disease was present and then absent, for instance), but it cannot, by its method, say that God did it or that God could not have. “No miracles happen” is therefore a philosophical position, not a scientific finding; so is “a miracle has certainly happened.” The question of whether a particular event was a divine act has to be weighed by the evidence for the event and by one’s wider view of the world. The Church holds that God sustains all things at every moment, and also that He acts in special ways, which it calls signs and miracles.',
-    ar: 'ليس كل نوع. يعمل العلم بتفسير الأحداث بأسباب طبيعية واختبار هذه التفسيرات، فهو بارع في إثبات أن حدثًا ما له سبب طبيعي، ولا يقول شيئًا عن هل يعتمد النظام الطبيعي نفسه على الله. ويستطيع أن يتحقق هل وقع حدث مروي (كوجود مرض ثم زواله مثلًا)، لكنه لا يستطيع، بمنهجه، أن يقول إن الله فعله أو إن الله لم يكن ليفعله. فالقول «لا معجزات تحدث» موقف فلسفي لا اكتشاف علمي؛ وكذلك القول «قد حدثت معجزة حتمًا». وسؤال هل حدث بعينه فعل إلهي يُوزن بأدلة الحدث وبرؤية المرء الأوسع للعالم. وتؤمن الكنيسة بأن الله يحفظ كل شيء في كل لحظة، وبأنه يعمل أيضًا بطرق خاصة تسميها آيات ومعجزات.',
+    en: 'No. Science studies the natural order by seeking natural causes and testing them, and it does this very well. But by its very method it cannot reach beyond that order to its Maker. It cannot show that the world does not depend on God, and it cannot show that God does not act. “Miracles cannot happen” is a philosophical belief brought to science, not a result of science. Science can help check whether a reported event happened, for example whether a disease was present and then gone; whether God acted is then weighed by the evidence and by reason. The Church confesses that God holds all things in being at every moment, works through the order He made, and also acts freely by signs and miracles, above all in raising Christ from the dead.',
+    ar: 'لا. يدرس العلم النظام الطبيعي بالبحث عن أسباب طبيعية واختبارها، ويفعل ذلك جيدًا جدًا. لكنه بحكم منهجه لا يستطيع أن يتجاوز هذا النظام إلى صانعه. فلا يستطيع أن يُظهر أن العالم لا يعتمد على الله، ولا أن الله لا يعمل. والقول «المعجزات لا يمكن أن تحدث» اعتقاد فلسفي يُحمَل إلى العلم، لا نتيجة من نتائجه. ويستطيع العلم أن يساعد في فحص هل وقع حدث مروي، كوجود مرض ثم زواله مثلًا؛ ثم يُوزن هل فعل الله ذلك بالأدلة وبالعقل. وتعترف الكنيسة بأن الله يحفظ كل شيء في الوجود في كل لحظة، ويعمل بالنظام الذي صنعه، ويعمل أيضًا بحرية بآيات ومعجزات، وأعظمها إقامة المسيح من بين الأموات.',
   },
   quickPoints: {
     en: [
       'Science seeks natural explanations and tests them. It is silent about whether the natural order is itself God’s creation and gift.',
       'It can investigate whether an unusual event occurred and whether known natural causes account for it. It cannot detect an agent who is not part of the natural order, or tell us what such an agent would or would not do.',
-      '“Laws of nature” describe how things regularly behave. Whether a divine act would “break” a law depends on whether laws are taken to describe a closed system, which is a philosophical assumption.',
-      'Hume argued that testimony could never be strong enough to establish a miracle. Critics reply that his argument assumes what is in question, and the debate continues.',
-      'Christians understand divine action in several ways. The Church holds that God sustains the world, works through natural causes, and also acts by signs that are not explained by them.',
+      '“Laws of nature” describe how things regularly behave when nothing else acts. A free act of their Creator does not contradict them; to say it would, one must first assume the world is a closed system.',
+      'Hume argued that testimony could never establish a miracle; but his argument assumes what is in question, and testimony must be weighed case by case.',
+      'The Church confesses that God sustains the world, works through natural causes, and also acts by signs that point to Him.',
     ],
     ar: [
       'يبحث العلم عن تفسيرات طبيعية ويختبرها. وهو صامت عن هل النظام الطبيعي نفسه خليقة الله وعطيته.',
       'يستطيع أن يفحص هل وقع حدث غير معتاد وهل تفسره أسباب طبيعية معروفة. ولا يستطيع أن يكشف فاعلًا ليس جزءًا من النظام الطبيعي، ولا أن يخبرنا ماذا كان فاعل كهذا يفعل أو لا يفعل.',
-      '«قوانين الطبيعة» تصف كيف تسلك الأشياء عادةً. وهل «يكسر» فعل إلهي قانونًا يتوقف على اعتبار القوانين وصفًا لمنظومة مغلقة، وهذا افتراض فلسفي.',
-      'جادل هيوم بأن الشهادة لا يمكن أن تكون قوية بما يكفي لإثبات معجزة. ويردّ الناقدون بأن حجته تفترض ما هو موضع السؤال، والنقاش مستمر.',
-      'يفهم المسيحيون الفعل الإلهي بطرق عدة. وتؤمن الكنيسة بأن الله يحفظ العالم، ويعمل بالأسباب الطبيعية، ويعمل أيضًا بآيات لا تفسرها هذه الأسباب.',
+      '«قوانين الطبيعة» تصف كيف تسلك الأشياء عادةً حين لا يعمل شيء آخر. وفعل حر من خالقها لا يناقضها؛ ولكي نقول إنه يناقضها علينا أولًا أن نفترض أن العالم منظومة مغلقة.',
+      'جادل هيوم بأن الشهادة لا يمكن أن تثبت معجزة؛ لكن حجته تفترض ما هو موضع السؤال، والشهادة يجب أن توزن حالة بحالة.',
+      'تعترف الكنيسة بأن الله يحفظ العالم، ويعمل بالأسباب الطبيعية، ويعمل أيضًا بآيات تشير إليه.',
     ],
   },
   argumentTypes: ['philosophical', 'scientific', 'theological'],
@@ -44,24 +44,24 @@ export const article: Article = {
   },
   whyExamine: {
     en: [
-      'Many people hold, without having thought it through, that science has shown miracles to be impossible, or that science and faith occupy entirely separate worlds. Both pictures are too simple. Others take every unexplained event to be a divine act. Examining the question carefully protects against all three mistakes.',
-      'It also matters for the rest of this site. The claims of the Christian faith include events, above all the resurrection of Christ, that the Church takes to be acts of God in history. Whether anything of that kind can be reasonably believed depends on whether science rules it out, and on what kind of thing evidence for such an event would be.',
+      'Many people assume, without having thought it through, that science has shown miracles to be impossible, or that science and faith live in separate worlds. Others take every unexplained event to be a divine act. Seeing clearly what science does and does not do frees a believer from all three mistakes.',
+      'It also matters for everything else on this site. The Christian faith rests on events, above all the resurrection of Christ, that are acts of God in history. A believer should know that science does not rule them out, and that they can be examined on the evidence.',
     ],
     ar: [
-      'يرى كثيرون، دون تفكير متأنٍ، أن العلم أثبت استحالة المعجزات، أو أن العلم والإيمان في عالمين منفصلين تمامًا. والصورتان أبسط من اللازم. ويرى آخرون أن كل حدث غير مفسَّر فعل إلهي. والنظر المتأني في السؤال يحمي من الأخطاء الثلاثة.',
-      'وهو مهم لبقية هذا الموقع أيضًا. فدعاوى الإيمان المسيحي تتضمن أحداثًا، وأولها قيامة المسيح، تعدّها الكنيسة أفعالًا لله في التاريخ. وهل يمكن الإيمان بشيء من هذا النوع عن عقل يتوقف على هل يستبعده العلم، وعلى ما يكون الدليل على حدث كهذا.',
+      'يفترض كثيرون، دون تفكير متأنٍ، أن العلم أثبت استحالة المعجزات، أو أن العلم والإيمان يعيشان في عالمين منفصلين. ويرى آخرون أن كل حدث غير مفسَّر فعل إلهي. ورؤية ما يفعله العلم وما لا يفعله بوضوح تحرر المؤمن من الأخطاء الثلاثة.',
+      'وهو مهم لكل ما في هذا الموقع أيضًا. فالإيمان المسيحي يقوم على أحداث، أولها قيامة المسيح، هي أفعال لله في التاريخ. وينبغي للمؤمن أن يعرف أن العلم لا يستبعدها، وأنها يمكن أن تُفحص بالأدلة.',
     ],
   },
   background: {
     en: [
       'The sciences proceed by seeking natural explanations for events and testing them against observation. This is called methodological naturalism, and it has been very successful. It is a rule of method, not a conclusion about what exists. It is why a scientist, whatever his or her religion, does not write “God did it” as an answer in a laboratory report, and why a scientist who is a Christian can use that method with integrity. It is not the same as philosophical naturalism, the view that nature is all there is, and science itself does not establish that view.',
       'What would a scientific test of divine action look like? Experiments need repeatable conditions, controls and a prediction that could fail. An agent who is not part of the natural order, and who acts freely, does not provide any of these. So science cannot establish that God acts, in the way it can establish that a drug works. For the same reason it cannot exclude that He acts: the failure to find a natural cause in a given case shows that a cause has not been found, not that there is none, and that a natural cause was found does not show that the natural order is not itself God’s work. Science can, however, investigate a claim about an event: whether a recovery occurred, what the medical records show, and what natural explanations are available. Reports of unexplained events are open to such checks.',
-      'Philosophers have argued at length about miracles. The Stanford Encyclopedia of Philosophy sets out the main debates, including how to define a miracle (a violation of a law of nature, or an event brought about by God that natural causes alone would not produce) and the argument of David Hume (1711–1776), who held that since the evidence for the regularity of nature is very strong, the testimony needed to establish a miracle would have to be stronger still, which he thought it never was. Critics reply that Hume’s argument either assumes that miracles do not occur or mishandles probability, and that the right question is how probable the report is on all the evidence, including the reasons we have to believe in God. Defenders of Hume reply that reports of marvels are common and often false. The debate is live among philosophers who are not themselves religious as well as among those who are.',
+      'Philosophers have argued at length about miracles. The Stanford Encyclopedia of Philosophy sets out the main debates, including how to define a miracle (a violation of a law of nature, or an event brought about by God that natural causes alone would not produce) and the argument of David Hume (1711–1776), who held that since the evidence for the regularity of nature is very strong, the testimony needed to establish a miracle would have to be stronger still, which he thought it never was. Philosophers, religious and not, still discuss the argument. Hume’s defenders add that reports of marvels are common and often false. But that is a reason to weigh each report carefully, not to rule them all out in advance: Hume’s argument either assumes that miracles do not occur or mishandles probability, and the right question is how probable a report is on all the evidence, including the reasons we have to believe in God.',
     ],
     ar: [
       'تسير العلوم بالبحث عن تفسيرات طبيعية للأحداث واختبارها بالرصد. ويسمى هذا الطبيعانية المنهجية، وقد نجح نجاحًا كبيرًا. وهو قاعدة منهج لا نتيجة عما يوجد. ولهذا لا يكتب العالم، أيًّا كان دينه، «الله فعل ذلك» جوابًا في تقرير مختبر، ولهذا يستطيع العالم المسيحي استعمال المنهج بنزاهة. وهو غير الطبيعانية الفلسفية، أي القول بأن الطبيعة هي كل شيء، والعلم نفسه لا يثبت هذا القول.',
       'كيف يكون اختبار علمي للفعل الإلهي؟ التجارب تحتاج إلى ظروف قابلة للتكرار وضوابط وتنبؤ يمكن أن يفشل. والفاعل الذي ليس جزءًا من النظام الطبيعي ويعمل بحرية لا يوفر شيئًا من ذلك. فلا يستطيع العلم أن يثبت أن الله يعمل، كما يثبت أن دواءً ينفع. ولسبب مماثل لا يستطيع أن ينفي أنه يعمل: فعدم العثور على سبب طبيعي في حالة ما يدل على أن السبب لم يُوجد لا على أن لا سبب، ووجود سبب طبيعي لا يدل على أن النظام الطبيعي ليس عمل الله. غير أن العلم يستطيع أن يفحص دعوى عن حدث: هل حدث الشفاء، وماذا تقول السجلات الطبية، وما التفسيرات الطبيعية المتاحة. والروايات عن أحداث غير مفسرة تقبل مثل هذه الفحوص.',
-      'وقد جادل الفلاسفة طويلًا في المعجزات. وتعرض موسوعة ستانفورد للفلسفة النقاشات الرئيسية، ومنها كيف تُعرَّف المعجزة (خرق لقانون طبيعي، أو حدث يوجده الله لا تنتجه الأسباب الطبيعية وحدها) وحجة ديفيد هيوم (1711–1776) الذي رأى أن الدليل على انتظام الطبيعة قوي جدًا، فالشهادة اللازمة لإثبات معجزة يجب أن تكون أقوى منه، وهو ما ظن أنه لا يحدث. ويردّ الناقدون بأن حجة هيوم إما تفترض أن المعجزات لا تقع أو تسيء معالجة الاحتمال، وبأن السؤال الصحيح هو ما مدى احتمال الرواية في ضوء كل الأدلة، ومنها أسباب الإيمان بالله. ويردّ أنصار هيوم بأن روايات العجائب كثيرة وكثيرًا ما تكون كاذبة. والنقاش حي بين فلاسفة غير متدينين وبين متدينين.',
+      'وقد جادل الفلاسفة طويلًا في المعجزات. وتعرض موسوعة ستانفورد للفلسفة النقاشات الرئيسية، ومنها كيف تُعرَّف المعجزة (خرق لقانون طبيعي، أو حدث يوجده الله لا تنتجه الأسباب الطبيعية وحدها) وحجة ديفيد هيوم (1711–1776) الذي رأى أن الدليل على انتظام الطبيعة قوي جدًا، فالشهادة اللازمة لإثبات معجزة يجب أن تكون أقوى منه، وهو ما ظن أنه لا يحدث. وما زال الفلاسفة، متدينين وغير متدينين، يتناقشون في هذه الحجة. ويضيف أنصار هيوم أن روايات العجائب كثيرة وكثيرًا ما تكون كاذبة. لكن هذا سبب لفحص كل رواية بعناية، لا لرفضها كلها مسبقًا: فحجة هيوم إما تفترض أن المعجزات لا تقع أو تسيء معالجة الاحتمال، والسؤال الصحيح هو ما مدى احتمال الرواية في ضوء كل الأدلة، ومنها أسباب الإيمان بالله.',
     ],
   },
   glossary: ['miracle', 'theism', 'resurrection', 'tradition', 'apologetics'],
@@ -76,8 +76,8 @@ export const article: Article = {
       argumentType: 'philosophical',
       assessment: 'philosophical_argument',
       rationale: {
-        en: 'This is the usual statement of the scope of methodological naturalism, which scientific bodies and philosophers of science describe. It follows from what experiment can test. Some writers dispute it, holding that science can in principle test any claim with empirical consequences.',
-        ar: 'هذا هو البيان المعتاد لنطاق الطبيعانية المنهجية الذي تصفه الهيئات العلمية وفلاسفة العلم. وهو يتبع مما تستطيع التجربة اختباره. ويعارضه بعض الكتّاب فيرون أن العلم يستطيع من حيث المبدأ اختبار كل دعوى لها نتائج تجريبية.',
+        en: 'Experiments need repeatable conditions, controls and predictions that could fail. A free Creator who is not part of nature provides none of these. Failing to find a natural cause shows only that one has not been found; finding one does not show that nature is not God’s work. This is the ordinary understanding of methodological naturalism: a rule of method, not a conclusion about what exists.',
+        ar: 'تحتاج التجارب إلى ظروف قابلة للتكرار وضوابط وتنبؤات يمكن أن تفشل. والخالق الحر الذي ليس جزءًا من الطبيعة لا يوفر شيئًا من ذلك. وعدم العثور على سبب طبيعي يدل فقط على أنه لم يُوجد؛ والعثور عليه لا يدل على أن الطبيعة ليست عمل الله. وهذا هو الفهم المعتاد للطبيعانية المنهجية: قاعدة منهج لا نتيجة عما يوجد.',
       },
       limits: {
         en: 'It does not say that no event could count as evidence for divine action. It says that such evidence is judged by wider reasoning than the scientific method alone.',
@@ -88,14 +88,14 @@ export const article: Article = {
     {
       id: 'c2',
       proposition: {
-        en: 'Science can examine whether a reported unusual event occurred and what natural explanations are available, so claims of miracle are open to investigation even though the claim “God did it” goes beyond what an investigation can show.',
-        ar: 'يستطيع العلم أن يفحص هل وقع حدث غير معتاد مروي وما التفسيرات الطبيعية المتاحة، فدعاوى المعجزة قابلة للفحص وإن كان القول «الله فعله» يتجاوز ما يظهره الفحص.',
+        en: 'Science can examine whether a reported unusual event occurred and what natural explanations are available, so claims of miracle are open to honest investigation.',
+        ar: 'يستطيع العلم أن يفحص هل وقع حدث غير معتاد مروي وما التفسيرات الطبيعية المتاحة، فدعاوى المعجزة قابلة للفحص الأمين.',
       },
       argumentType: 'philosophical',
       assessment: 'philosophical_argument',
       rationale: {
-        en: 'The evidence for an event is one question, and its interpretation as an act of God another. Both can be discussed rationally.',
-        ar: 'الدليل على حدث سؤال، وتفسيره فعلًا إلهيًا سؤال آخر. ويمكن مناقشة كليهما بعقلانية.',
+        en: 'Whether an event happened is examined by the evidence: records, witnesses, medical findings. Whether it was an act of God is then judged by reason, by what the event means and by everything else we know of God. Both questions can be answered rationally; neither is closed by science.',
+        ar: 'هل وقع حدث يُفحص بالأدلة: السجلات والشهود والنتائج الطبية. ثم يُحكم هل كان فعلًا من الله بالعقل، وبمعنى الحدث، وبكل ما نعرفه عن الله. والسؤالان يمكن الإجابة عنهما بعقلانية؛ ولا يغلق العلم أيًّا منهما.',
       },
       limits: {
         en: 'Where there is no evidence beyond a report, the question of weight is a matter of testimony. This article does not rule on any specific case.',
@@ -106,14 +106,14 @@ export const article: Article = {
     {
       id: 'c3',
       proposition: {
-        en: 'Hume’s argument does not show that miracles are impossible or that testimony can never establish one; whether it shows that miracle reports deserve extra caution is disputed.',
-        ar: 'حجة هيوم لا تثبت أن المعجزات مستحيلة ولا أن الشهادة لا يمكن أن تثبتها؛ وهل تثبت أن روايات المعجزات تستحق حذرًا إضافيًا محل خلاف.',
+        en: 'Hume’s argument does not show that miracles are impossible or that testimony can never establish one.',
+        ar: 'حجة هيوم لا تثبت أن المعجزات مستحيلة ولا أن الشهادة لا يمكن أن تثبتها.',
       },
       argumentType: 'philosophical',
       assessment: 'actively_debated',
       rationale: {
-        en: 'Reference works describe both Hume’s argument and the main responses to it, and philosophers disagree about its force. Most agree that it leaves the question to be settled by the evidence in each case.',
-        ar: 'تصف المراجع حجة هيوم والردود الرئيسية عليها، ويختلف الفلاسفة في قوتها. ويتفق معظمهم على أنها تترك الحسم لدليل كل حالة.',
+        en: 'Hume set the regularity of nature against every report of a miracle. But if nature is counted as never interrupted only by refusing every report of an interruption, the argument assumes its conclusion. The right question is how probable a report is on all the evidence, including the reasons we have to believe in God. At most, Hume teaches us to weigh reports carefully, which the Church has always done.',
+        ar: 'وضع هيوم انتظام الطبيعة مقابل كل رواية عن معجزة. لكن إن عُدّت الطبيعة غير منقطعة قط برفض كل رواية عن انقطاعها وحده، فالحجة تفترض نتيجتها. والسؤال الصحيح هو ما مدى احتمال الرواية في ضوء كل الأدلة، ومنها أسباب الإيمان بالله. وغاية ما يعلّمنا هيوم أن نزن الروايات بعناية، وهذا ما فعلته الكنيسة دائمًا.',
       },
       limits: {
         en: 'The site does not claim to have settled the philosophical dispute. It gives the positions fairly.',
@@ -130,8 +130,8 @@ export const article: Article = {
       argumentType: 'theological',
       assessment: 'theological_interpretation',
       rationale: {
-        en: 'This is the Church’s teaching on providence and miracles, drawn from Scripture and the Fathers. It is not a scientific claim.',
-        ar: 'هذا تعليم الكنيسة في العناية الإلهية والمعجزات، مستمد من الكتاب المقدس والآباء. وهو ليس دعوى علمية.',
+        en: 'Scripture says that God sends His word and the snow melts (Psalm 147), and that the Son upholds all things by the word of His power (Hebrews 1:3). The Gospels present Christ’s miracles as signs that reveal His glory, and the risen Lord answered St Thomas’s request to see and touch. This is the Church’s teaching on providence and miracles, from Scripture and the Fathers.',
+        ar: 'يقول الكتاب إن الله يرسل كلمته فيذوب الثلج (مزمور ١٤٧)، وإن الابن حامل كل الأشياء بكلمة قدرته (عبرانيين ١: ٣). وتقدم الأناجيل معجزات المسيح آياتٍ تُظهر مجده، وقد استجاب الرب القائم لطلب القديس توما أن يرى ويلمس. هذا تعليم الكنيسة في العناية الإلهية والمعجزات، من الكتاب المقدس والآباء.',
       },
       limits: {
         en: 'It is stated as doctrine and does not assess the evidence for any particular reported miracle. A reader who does not share the faith is not asked to accept it to weigh claims 1 to 3.',
@@ -241,12 +241,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'This is the heart of Hume’s argument in its modern form. Defenders of miracles reply that it treats a very strong general regularity as if it settled each particular case, which is what is in question. They add that the laws of nature describe what happens when nothing intervenes, and say nothing about whether something does, so a report of an intervention does not contradict them.',
-          'Those who press the objection reply that a general record of success for natural explanation does give a strong prior reason to doubt any one report, and that the history of miracle reports includes many errors. Many philosophers accept that this reason is real and that it is not decisive.',
+          'The objection treats a strong general regularity as if it settled every particular case, which is exactly what is in question. The laws of nature describe what happens when nothing else acts. They say nothing about whether their Creator acts, so a report that He did does not contradict them.',
+          'The success of science gives good reason to look for natural causes, and the Church does so too; many miracle reports are rightly set aside. But "usually" does not mean "always", and a rule that every report must be a mistake or a fraud is a decision made before looking at the evidence.',
         ],
         ar: [
-          'هذا لب حجة هيوم بصورتها الحديثة. ويردّ المدافعون عن المعجزات بأنها تعامل انتظامًا عامًا قويًا جدًا كأنه يحسم كل حالة بعينها، وهذا هو موضع السؤال. ويضيفون أن قوانين الطبيعة تصف ما يحدث حين لا يتدخل شيء، ولا تقول شيئًا عن هل يتدخل شيء، فالرواية عن تدخل لا تناقضها.',
-          'ويردّ أصحاب الاعتراض بأن سجل نجاح التفسير الطبيعي عمومًا يعطي سببًا سابقًا قويًا للشك في أي رواية، وبأن تاريخ روايات المعجزات يتضمن أخطاء كثيرة. ويقبل كثير من الفلاسفة أن هذا السبب حقيقي وأنه ليس حاسمًا.',
+          'يعامل الاعتراض انتظامًا عامًا قويًا كأنه يحسم كل حالة بعينها، وهذا بالضبط موضع السؤال. فقوانين الطبيعة تصف ما يحدث حين لا يعمل شيء آخر. ولا تقول شيئًا عن هل يعمل خالقها، فالرواية بأنه عمل لا تناقضها.',
+          'ونجاح العلم يعطي سببًا وجيهًا للبحث عن أسباب طبيعية، والكنيسة تفعل ذلك أيضًا؛ وكثير من روايات المعجزات تُنحّى بحق. لكن «غالبًا» لا تعني «دائمًا»، والقاعدة القائلة إن كل رواية خطأ أو احتيال قرار يُتخذ قبل النظر في الأدلة.',
         ],
       },
       limits: {
@@ -263,12 +263,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The objection is right about faith that depends only on gaps, and the Church’s teaching does not have that form. Its first claim is that God gives being to everything and holds it in being at every moment, so that natural processes are, so to speak, God’s way of acting, and the success of science in explaining them is no threat to that.',
-          'Signs and miracles are, in the Church’s understanding, a different thing from gaps: they are events in which God acts in a way that points to who He is, and their significance lies in their meaning and not in the absence of a natural explanation. Whether a given event is such a sign is judged by the evidence for the event and by the faith of the Church.',
+          'The Church’s faith is not a "God of the gaps". Her first teaching is that God gives being to everything and holds it in being at every moment. Natural processes are, so to speak, God’s ordinary way of working, and every success of science in explaining them shows more of the wisdom of the Creator.',
+          'Signs and miracles are not gaps either. They are events in which God acts in a way that reveals who He is, and their meaning lies in what they show, not in the absence of a natural explanation. The resurrection of Christ is not a gap in biology; it is the beginning of the new creation.',
         ],
         ar: [
-          'الاعتراض صائب في الإيمان الذي يعتمد على الفجوات وحدها، وتعليم الكنيسة لا يأخذ هذه الصورة. فدعواه الأولى أن الله يمنح الوجود لكل شيء ويحفظه في الوجود في كل لحظة، فالعمليات الطبيعية هي، إن جاز التعبير، طريقة عمل الله، ونجاح العلم في تفسيرها لا يهدد ذلك.',
-          'والآيات والمعجزات، في فهم الكنيسة، أمر آخر غير الفجوات: فهي أحداث يعمل الله فيها بطريقة تشير إلى من هو، وأهميتها في معناها لا في غياب التفسير الطبيعي. وهل حدث بعينه آية كهذه يُحكم عليه بالدليل على الحدث وبإيمان الكنيسة.',
+          'إيمان الكنيسة ليس «إله الفجوات». فتعليمها الأول أن الله يمنح الوجود لكل شيء ويحفظه في الوجود في كل لحظة. والعمليات الطبيعية هي، إن جاز التعبير، طريقة الله العادية في العمل، وكل نجاح للعلم في تفسيرها يُظهر مزيدًا من حكمة الخالق.',
+          'والآيات والمعجزات ليست فجوات أيضًا. بل هي أحداث يعمل الله فيها بطريقة تُعلن من هو، ومعناها فيما تُظهره لا في غياب التفسير الطبيعي. وقيامة المسيح ليست فجوة في علم الأحياء؛ بل بداية الخليقة الجديدة.',
         ],
       },
       limits: {
@@ -285,12 +285,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'Christian thinkers give different accounts. Some say that God acts directly in particular events and that the laws describe what happens apart from His action. Others say that God acts through the indeterminacy or openness of natural processes, as some interpret the physics of quantum events or chaotic systems, though such proposals are contested by physicists and philosophers alike and are speculative. Others hold that the classical view of God as the ground of all being makes the question of “how” a mistake, as God does not compete with natural causes as one cause among others.',
-          'The Church does not require a particular account. It affirms that God acts, and it leaves open how.',
+          'The dilemma is false. God is not one cause among others inside the world, competing with natural causes for room. He is the Creator who gives every cause its being and its power. He can work through the order He made, and He can also act directly, as its Lord, without contradicting it, just as an author can add a new chapter without breaking the rules of his own story.',
+          'The Church confesses that God acts; she does not need a mechanism for the Creator. We do not know how God raised Christ, but we know that He did.',
         ],
         ar: [
-          'يقدم المفكرون المسيحيون تفسيرات مختلفة. فبعضهم يقول إن الله يعمل مباشرة في أحداث بعينها وإن القوانين تصف ما يحدث بمعزل عن فعله. ويقول آخرون إنه يعمل من خلال اللاحتمية أو انفتاح العمليات الطبيعية، كما يفسّر بعضهم فيزياء الأحداث الكمية أو المنظومات الفوضوية، وإن كانت هذه المقترحات محل خلاف بين الفيزيائيين والفلاسفة وهي تخمينية. ويرى آخرون أن النظرة الكلاسيكية إلى الله أساس كل وجود تجعل سؤال «كيف» خطأً، إذ لا ينافس الله الأسباب الطبيعية سببًا بين أسباب.',
-          'ولا تشترط الكنيسة تفسيرًا بعينه. فهي تؤكد أن الله يعمل، وتترك كيف مفتوحًا.',
+          'هذه المعضلة زائفة. فالله ليس سببًا بين أسباب داخل العالم، ينافس الأسباب الطبيعية على مكانها. بل هو الخالق الذي يعطي كل سبب وجوده وقدرته. فهو يستطيع أن يعمل بالنظام الذي صنعه، ويستطيع أيضًا أن يعمل مباشرة، بوصفه ربه، دون أن يناقضه، كما يستطيع المؤلف أن يضيف فصلًا جديدًا دون أن يكسر قواعد قصته.',
+          'وتعترف الكنيسة بأن الله يعمل؛ ولا تحتاج إلى آلية للخالق. فنحن لا نعرف كيف أقام الله المسيح، لكننا نعرف أنه أقامه.',
         ],
       },
       limits: {
@@ -306,12 +306,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'Reports have to be assessed one by one: who is the source, how close to the event, how specific, what is the evidence apart from the report, and what does the event signify. Some are better supported than others, and the Church itself does not accept every report of a wonder. The principle that testimony must be weighed carefully is a Christian principle as well as a sceptical one.',
-          'Whether reports of miracles in other religions are accurate is a question for those who hold those traditions and for historians. It does not reduce to the argument that all must be accepted or all rejected.',
+          'Reports are weighed one by one: who the source is, how close to the event, how specific, what evidence there is apart from the report, and what the event means. Some are far better supported than others, and the Church herself does not accept every report of a wonder. Careful weighing of testimony is a Christian principle.',
+          'All-or-nothing is not how evidence works, in history or in a court. The resurrection of Christ, proclaimed publicly within a few years by many witnesses in the city where it happened, can be weighed on its own evidence, and it stands.',
         ],
         ar: [
-          'تُقيَّم الروايات واحدة واحدة: من المصدر، وما قربه من الحدث، وما دقته، وما الدليل غير الرواية، وماذا يعني الحدث. وبعضها أحسن سندًا من بعض، والكنيسة نفسها لا تقبل كل رواية عن عجيبة. ومبدأ أن الشهادة تُوزن بعناية مبدأ مسيحي كما هو مبدأ المتشككين.',
-          'وهل الروايات عن المعجزات في أديان أخرى دقيقة سؤال لأهل تلك التقاليد وللمؤرخين. ولا يُختزل في حجة أن تُقبل كلها أو تُرفض كلها.',
+          'تُوزن الروايات واحدة واحدة: من المصدر، وما قربه من الحدث، وما دقته، وما الدليل غير الرواية، وماذا يعني الحدث. وبعضها أحسن سندًا بكثير من بعض، والكنيسة نفسها لا تقبل كل رواية عن عجيبة. ووزن الشهادة بعناية مبدأ مسيحي.',
+          'وليس «الكل أو لا شيء» طريقة عمل الأدلة، لا في التاريخ ولا في المحكمة. وقيامة المسيح، التي كُرز بها علنًا خلال سنوات قليلة على لسان شهود كثيرين في المدينة التي حدثت فيها، يمكن أن توزن على أدلتها، وهي تثبت.',
         ],
       },
       limits: {
@@ -325,10 +325,10 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'Whether particular events reported as acts of God happened is a historical question, to be examined on the evidence for each. The most important case, the resurrection of Jesus, is taken up in the articles on the crucifixion and resurrection. This article argues only that science does not exclude such an event in advance, and that the philosophical objections to the possibility of miracles do not decide the matter. It does not claim that any particular event occurred.',
+        'Whether a particular event reported as an act of God happened is a historical question, examined on the evidence. Science does not exclude such an event in advance, and the philosophical objections to miracles do not close the question. The most important case, the resurrection of Jesus, is examined in the articles on the crucifixion and resurrection, where the evidence is shown to be early, multiple and strong.',
       ],
       ar: [
-        'هل وقعت أحداث بعينها رُوي أنها أفعال إلهية سؤال تاريخي يُفحص بدليل كل منها. وأهم حالة، قيامة يسوع، تتناولها مقالات الصلب والقيامة. وتحتج هذه المقالة فقط بأن العلم لا يستبعد حدثًا كهذا سلفًا، وبأن الاعتراضات الفلسفية على إمكان المعجزات لا تحسم الأمر. ولا تدّعي أن حدثًا بعينه وقع.',
+        'هل وقع حدث بعينه رُوي أنه فعل إلهي سؤال تاريخي يُفحص بالأدلة. والعلم لا يستبعد حدثًا كهذا سلفًا، والاعتراضات الفلسفية على المعجزات لا تغلق السؤال. وأهم حالة، قيامة يسوع، تُفحص في مقالات الصلب والقيامة، حيث يتبيّن أن أدلتها مبكرة ومتعددة وقوية.',
       ],
     },
     theological: {
@@ -345,11 +345,11 @@ export const article: Article = {
   coptic: {
     en: [
       'The Coptic Orthodox Church has a lived tradition of miracles: healings and answered prayers are recounted in the lives of its saints, and the Church sees in the sacraments, above all the Eucharist, God’s action through material things. At the same time it has always asked for discernment, for examination of claims under the guidance of the bishops and spiritual fathers, and for care not to make wonders the foundation of faith.',
-      'This describes the Church’s teaching and practice. It does not assess any particular reported miracle.',
+      'The foundation is Christ Himself, risen from the dead; the wonders God works through His saints point back to Him.',
     ],
     ar: [
       'للكنيسة القبطية الأرثوذكسية تقليد حي في المعجزات: فالشفاءات واستجابات الصلوات تُروى في سير قديسيها، وترى الكنيسة في الأسرار، وفي مقدمتها الإفخارستيا، عمل الله بالأمور المادية. وقد طلبت دائمًا التمييز وفحص الدعاوى بإرشاد الأساقفة والآباء الروحيين، والحذر من جعل العجائب أساس الإيمان.',
-      'وهذا وصف لتعليم الكنيسة وممارستها، ولا يقيّم أي معجزة بعينها.',
+      'فالأساس هو المسيح نفسه القائم من بين الأموات؛ والعجائب التي يصنعها الله بقديسيه تشير إليه.',
     ],
   },
   disputed: {
@@ -365,8 +365,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'Science cannot by its own method establish that God acts, and cannot exclude that He does. It can investigate whether an unusual event happened and what natural explanations are available, and the rest is a matter for the weighing of evidence and for the wider view of the world one holds. The Church holds that God sustains the world at every moment and also acts by signs that point to Him, and asks that reports be weighed honestly.',
-    ar: 'لا يستطيع العلم بمنهجه أن يثبت أن الله يعمل، ولا أن ينفي ذلك. ويستطيع أن يفحص هل وقع حدث غير معتاد وما التفسيرات الطبيعية المتاحة، والباقي موضوع وزن الأدلة والرؤية الأوسع للعالم التي يتبناها المرء. وتؤمن الكنيسة بأن الله يحفظ العالم في كل لحظة ويعمل أيضًا بآيات تشير إليه، وتطلب أن تُوزن الروايات بأمانة.',
+    en: 'Science cannot exclude divine action. It studies the order of nature, and it cannot by its method reach beyond that order to the Creator who gives it being. The claim that miracles cannot happen is a philosophy, not a finding. The Church gives thanks for the order of nature as God’s faithful gift, confesses that He also acts freely by signs that reveal Him, and proclaims the greatest of them: Christ is risen.',
+    ar: 'لا يستطيع العلم أن يستبعد الفعل الإلهي. فهو يدرس نظام الطبيعة، ولا يستطيع بمنهجه أن يتجاوز هذا النظام إلى الخالق الذي يعطيه وجوده. والقول إن المعجزات لا يمكن أن تحدث فلسفة لا نتيجة. وتشكر الكنيسة على نظام الطبيعة عطيةً أمينة من الله، وتعترف بأنه يعمل أيضًا بحرية بآيات تُعلنه، وتكرز بأعظمها: المسيح قام.',
   },
   furtherReading: ['S41', 'S45'],
   related: [

@@ -15,8 +15,8 @@ export const article: Article = {
     ar: 'الأسباب التي تقدمها الكنيسة القبطية الأرثوذكسية للاعتراف بأن العذراء مريم بقيت عذراء قبل ميلاد المسيح وفيه وبعده. تعرض المقالة الحجة بمصطلحات الكنيسة نفسها (الكتاب مقروءًا داخل التقليد، والآباء، وعبادة الكنيسة، ولياقة الأمر)، وتبين نوع كل جزء من الحجة.',
   },
   shortAnswer: {
-    en: 'The Coptic case is cumulative and theological, not a proof from one verse. (1) The New Testament does not say Mary had other children, and its language about the “brothers”, “until” and “firstborn” is open to the Church’s reading. (2) Scripture’s signs point toward it: Mary’s own question at the Annunciation, the entrusting of her to John at the cross, and the Old Testament types the Fathers saw fulfilled in her, such as the closed gate of Ezekiel. (3) The Church has confessed her ever-virgin from early times and the Alexandrian Fathers did so. (4) It is fitting that the one who bore God incarnate should be wholly given to God. This is the Church’s faith, received and prayed in her liturgy.',
-    ar: 'الحجة القبطية تراكمية ولاهوتية، وليست برهانًا من آية واحدة. (١) لا يقول العهد الجديد إن لمريم أولادًا آخرين، ولغته عن «الإخوة» و«حتى» و«البكر» تحتمل قراءة الكنيسة. (٢) وعلامات في الكتاب تشير إليها: سؤال مريم نفسها عند البشارة، وتسليمها ليوحنا عند الصليب، ورموز العهد القديم التي رآها الآباء متممة فيها، كالباب المغلق في حزقيال. (٣) وقد اعترفت الكنيسة بها دائمة البتولية منذ العصور الأولى وفعل ذلك آباء الإسكندرية. (٤) ومن اللائق أن تكون التي حملت الله المتجسد مكرَّسة له تمامًا. هذا إيمان الكنيسة، متسلَّمًا ومصلًّى في صلواتها الطقسية.',
+    en: 'Yes: the Virgin Mary remained a virgin before, in and after the birth of Christ, and the Church gives clear reasons for confessing it. (1) The New Testament never says that Mary had other children, and its words “brothers”, “until” and “firstborn” are used in Scripture without that meaning. (2) Scripture gives signs: Mary’s own question at the Annunciation, the Lord entrusting His mother to John at the cross, and the closed gate of Ezekiel through which the Lord entered, which the Fathers saw fulfilled in her. (3) The Church has confessed her Ever-Virgin from early times, with the Alexandrian Fathers. (4) It is fitting that she who bore God incarnate should be wholly given to God. This is the faith of the Church, prayed in her liturgy every day.',
+    ar: 'نعم: بقيت العذراء مريم عذراء قبل ميلاد المسيح وفيه وبعده، والكنيسة تقدم أسبابًا واضحة لاعترافها بذلك. (١) لا يقول العهد الجديد قط إن لمريم أولادًا آخرين، وألفاظه «الإخوة» و«حتى» و«البكر» تُستعمل في الكتاب دون هذا المعنى. (٢) وفي الكتاب علامات: سؤال مريم نفسها عند البشارة، وتسليم الرب أمه ليوحنا عند الصليب، والباب المغلق في حزقيال الذي دخل منه الرب، وقد رآه الآباء متممًا فيها. (٣) وقد اعترفت الكنيسة بها دائمة البتولية منذ العصور الأولى مع آباء الإسكندرية. (٤) ومن اللائق أن تكون التي حملت الله المتجسد مكرَّسة له تمامًا. هذا إيمان الكنيسة الذي تصلّي به في صلواتها الطقسية كل يوم.',
   },
   quickPoints: {
     en: [
@@ -24,14 +24,14 @@ export const article: Article = {
       'The New Testament does not state that Mary had other children; “brothers”, “until” and “firstborn” are read by Scripture’s own usage (see the two articles on these).',
       'Biblical signs: Luke 1:34, John 19:26–27, and the type of the closed gate (Ezekiel 44:1–2).',
       'The Fathers: Alexandrian and other writers of the third and fourth centuries affirm it; the Church’s reception, not a single verse, is the ground.',
-      'Honest limits: the New Testament does not prove it alone, and Protestants, who hold to Scripture alone, reach another conclusion.',
+      'This is the faith received in the Church, which reads Scripture within the Tradition that gave us the canon and the Creed.',
     ],
     ar: [
       'إيمان الكنيسة أن مريم كانت عذراء قبل الولادة وفيها وبعدها، ويُصلّى به في الصلوات الطقسية كلما دُعيت دائمة البتولية.',
       'لا ينص العهد الجديد على أن لمريم أولادًا آخرين؛ و«الإخوة» و«حتى» و«البكر» تُقرأ باستعمال الكتاب نفسه (انظر المقالتين عنها).',
       'علامات كتابية: لوقا ١: ٣٤، ويوحنا ١٩: ٢٦–٢٧، ورمز الباب المغلق (حزقيال ٤٤: ١–٢).',
       'الآباء: يؤكدها كتّاب إسكندريون وغيرهم في القرنين الثالث والرابع؛ والأساس تقبّل الكنيسة لا آية منفردة.',
-      'حدود صريحة: لا يبرهن العهد الجديد عليها وحده، ويصل البروتستانت، الذين يتمسكون بالكتاب وحده، إلى نتيجة أخرى.',
+      'هذا هو الإيمان المتسلَّم في الكنيسة، التي تقرأ الكتاب داخل التقليد الذي أعطانا قانون الكتب وقانون الإيمان.',
     ],
   },
   argumentTypes: ['theological', 'textual', 'historical'],
@@ -44,23 +44,23 @@ export const article: Article = {
   },
   whyExamine: {
     en: [
-      'The doctrine is often assumed to be a late pious idea. Setting out the actual argument lets a reader see what the Church claims and what she does not claim.',
-      'It is also a test case for how the Church reads Scripture. She holds that the Scriptures were given to, and are read in, the Church; the same Church confessed the Trinity and the canon. Whoever accepts that principle will weigh the case differently from whoever begins from Scripture alone.',
+      'The doctrine is sometimes thought to be a late pious idea. Setting out the actual reasons shows that it is the ancient faith of the Church, rooted in Scripture and in her worship.',
+      'It also shows how the Church reads Scripture. The Scriptures were given to the Church and are read in her; the same Church confessed the Trinity and recognised the canon. Within that living Tradition, the perpetual virginity of the Theotokos is part of the faith handed down.',
     ],
     ar: [
-      'كثيرًا ما يُظن أن العقيدة فكرة تقوية متأخرة. وعرض الحجة الفعلية يتيح للقارئ أن يرى ما تدّعيه الكنيسة وما لا تدّعيه.',
-      'وهي كذلك حالة اختبار لكيفية قراءة الكنيسة للكتاب. فهي ترى أن الكتب أُعطيت للكنيسة وتُقرأ فيها؛ والكنيسة نفسها اعترفت بالثالوث وحددت القانون. ومن يقبل هذا المبدأ سيزن الحجة بخلاف من ينطلق من الكتاب وحده.',
+      'يظن بعضهم أن العقيدة فكرة تقوية متأخرة. وعرض الأسباب الفعلية يُظهر أنها إيمان الكنيسة القديم، المتجذر في الكتاب وفي عبادتها.',
+      'وهي تُظهر أيضًا كيف تقرأ الكنيسة الكتاب. فالكتب أُعطيت للكنيسة وتُقرأ فيها، والكنيسة نفسها اعترفت بالثالوث وتعرّفت على قانون الكتب. وفي هذا التقليد الحي يأتي دوام بتولية والدة الإله جزءًا من الإيمان المسلَّم.',
     ],
   },
   background: {
     en: [
       'In the Church’s faith the virginity of Mary has three aspects: before the birth (the virginal conception, in which Matthew and Luke agree), in the birth (the Church’s understanding that the incarnation did not violate her, which she sees prefigured in the closed gate of Ezekiel 44:1–2), and after it (perpetual virginity). The first is attested by the Gospels; the second and third are matters of the Church’s tradition, supported by signs in Scripture.',
-      'The Scriptural signs. Luke 1:34: Mary asks how she is to conceive “since I do not know a man”. Some Fathers and many in the Church read this as expressing a purpose of virginity; others read it as surprise at a conception outside the ordinary course. John 19:26–27: Jesus entrusts his mother to the beloved disciple, which the Church reads as the act of a son whose mother had no other son to provide for her. Ezekiel 44:1–2: the gate that the Lord entered remains shut, a type the Fathers and the Coptic hymns apply to Mary. The Church also reads typology such as the ark and the burning bush as pointing to her; these are not arguments from the text but ways of reading it within the faith.',
+      'The Scriptural signs. Luke 1:34: Mary asks how she is to conceive “since I do not know a man”. Fathers and many in the Church read this as expressing a purpose of virginity. John 19:26–27: Jesus entrusts his mother to the beloved disciple, which the Church reads as the act of a son whose mother had no other son to provide for her. Ezekiel 44:1–2: the gate that the Lord entered remains shut, a type the Fathers and the Coptic hymns apply to Mary. The Church also reads typology such as the ark and the burning bush as pointing to her, reading the text within the faith.',
       'The Fathers and the Church’s life. The second-century Protevangelium of James, though not Scripture and not a source for historical detail, shows that Mary’s virginity was a theme of Christian devotion early. Origen of Alexandria held it. Alexandrian writers of the fourth century, including St Athanasius, called her ever-virgin, and the title Aeiparthenos became fixed in the Church’s liturgy. Against it, Helvidius in the 380s argued that Mary had other children, and Jerome wrote against him; the controversy shows that the doctrine was already received widely enough to be defended as the Church’s teaching.',
     ],
     ar: [
       'في إيمان الكنيسة لبتولية مريم ثلاثة وجوه: قبل الولادة (الحبل العذراوي الذي يتفق فيه متى ولوقا)، وفي الولادة (فهم الكنيسة أن التجسد لم ينتهك بتوليتها، وهو ما ترى رمزه في الباب المغلق في حزقيال ٤٤: ١–٢)، وبعدها (دوام البتولية). الأول تشهد له الأناجيل؛ والثاني والثالث من تقليد الكنيسة، تسندهما علامات في الكتاب.',
-      'العلامات الكتابية. لوقا ١: ٣٤: تسأل مريم كيف تحبل «وأنا لا أعرف رجلًا». ويقرأ بعض الآباء وكثيرون في الكنيسة ذلك تعبيرًا عن قصد بتولية؛ ويقرؤه آخرون دهشة من حبل خارج المجرى العادي. يوحنا ١٩: ٢٦–٢٧: يوصي يسوع بأمه للتلميذ الحبيب، وتقرأ الكنيسة ذلك عمل ابن لم يكن لأمه ابن آخر يعولها. حزقيال ٤٤: ١–٢: البوابة التي دخل منها الرب تبقى مغلقة، وهو رمز يطبقه الآباء والتسابيح القبطية على مريم. وتقرأ الكنيسة أيضًا رموزًا كالتابوت والعليقة المشتعلة إشارة إليها؛ وهذه ليست حججًا من النص بل طرق لقراءته داخل الإيمان.',
+      'العلامات الكتابية. لوقا ١: ٣٤: تسأل مريم كيف تحبل «وأنا لا أعرف رجلًا». ويقرأ الآباء وكثيرون في الكنيسة ذلك تعبيرًا عن قصد بتولية. يوحنا ١٩: ٢٦–٢٧: يوصي يسوع بأمه للتلميذ الحبيب، وتقرأ الكنيسة ذلك عمل ابن لم يكن لأمه ابن آخر يعولها. حزقيال ٤٤: ١–٢: البوابة التي دخل منها الرب تبقى مغلقة، وهو رمز يطبقه الآباء والتسابيح القبطية على مريم. وتقرأ الكنيسة أيضًا رموزًا كالتابوت والعليقة المشتعلة إشارة إليها، قارئةً النص داخل الإيمان.',
       'الآباء وحياة الكنيسة. يبين إنجيل يعقوب الأول من القرن الثاني، وإن لم يكن كتابًا مقدسًا ولا مصدرًا لتفاصيل تاريخية، أن بتولية مريم كانت موضوع تعبد مسيحي مبكر. وقال بها أوريجانوس السكندري. ودعتها كتّاب إسكندريون في القرن الرابع، ومنهم القديس أثناسيوس، دائمة البتولية، وثبت اللقب في صلوات الكنيسة الطقسية. وفي المقابل رأى هلفيديوس في الثمانينيات أن لمريم أولادًا آخرين، وكتب جيروم ضده؛ والجدل يبين أن العقيدة كانت مقبولة بما يكفي ليُدافع عنها تعليمًا للكنيسة.',
     ],
   },
@@ -70,14 +70,14 @@ export const article: Article = {
     {
       id: 'c1',
       proposition: {
-        en: 'The New Testament nowhere says that Mary had other children, and its wording on the “brothers”, “until” and “firstborn” is open to the Church’s reading.',
-        ar: 'لا يقول العهد الجديد في موضع إن لمريم أولادًا آخرين، وصياغته عن «الإخوة» و«حتى» و«البكر» تحتمل قراءة الكنيسة.',
+        en: 'The New Testament nowhere says that Mary had other children, and its wording on the “brothers”, “until” and “firstborn” fits the Church’s faith.',
+        ar: 'لا يقول العهد الجديد في أي موضع إن لمريم أولادًا آخرين، وصياغته عن «الإخوة» و«حتى» و«البكر» تتفق مع إيمان الكنيسة.',
       },
       argumentType: 'textual',
       assessment: 'actively_debated',
       rationale: {
-        en: 'The words are used in Scripture of kin and of limits without implying what follows; yet the same wording is read by others as most naturally implying other children.',
-        ar: 'تُستعمل الألفاظ في الكتاب لأقارب ولحدود دون أن تلمّح إلى ما يتبع؛ ومع ذلك يقرأ الآخرون الصياغة نفسها بأنها توحي أطبع بأولاد آخرين.',
+        en: 'Scripture uses “brothers” for relatives, as when Abraham calls his nephew Lot his brother, and uses “until” for a limit without implying a change afterwards. The words therefore do not imply other children, and no passage names any other child of Mary.',
+        ar: 'يستعمل الكتاب لفظ «الإخوة» للأقارب، كما يدعو إبراهيم ابن أخيه لوطًا أخاه، ويستعمل «حتى» لحدٍّ دون أن يعني تغيرًا بعده. فالألفاظ لا تعني أولادًا آخرين، ولا يسمّي أي نص ولدًا آخر لمريم.',
       },
       limits: {
         en: 'The negative argument shows the doctrine is not excluded by the text. It does not by itself establish it.',
@@ -88,14 +88,14 @@ export const article: Article = {
     {
       id: 'c2',
       proposition: {
-        en: 'Scripture gives signs the Church reads as pointing to Mary’s perpetual virginity: Luke 1:34, John 19:26–27 and the type of the closed gate.',
-        ar: 'يعطي الكتاب علامات تقرؤها الكنيسة إشارة إلى دوام بتولية مريم: لوقا ١: ٣٤ ويوحنا ١٩: ٢٦–٢٧ ورمز الباب المغلق.',
+        en: 'Scripture gives signs that point to Mary’s perpetual virginity: Luke 1:34, John 19:26–27 and the type of the closed gate.',
+        ar: 'يعطي الكتاب علامات تشير إلى دوام بتولية مريم: لوقا ١: ٣٤ ويوحنا ١٩: ٢٦–٢٧ ورمز الباب المغلق.',
       },
       argumentType: 'theological',
       assessment: 'theological_interpretation',
       rationale: {
-        en: 'These are readings made within the Church’s tradition. Each can be read otherwise, and the article says so; together with the other parts of the case they carry weight for those who accept that tradition.',
-        ar: 'هذه قراءات تتم داخل تقليد الكنيسة. وكل منها يحتمل قراءة أخرى، وتقول المقالة ذلك؛ وهي مع بقية أجزاء الحجة لها وزن عند من يقبلون ذلك التقليد.',
+        en: 'Mary’s question shows a heart already given to God; the Lord on the cross entrusts His mother to the beloved disciple, as no son would do if she had other sons; and the gate the Lord entered stays shut. Read together with the Fathers and the Church’s worship, these signs speak with one voice.',
+        ar: 'سؤال مريم يُظهر قلبًا مكرَّسًا لله، والرب على الصليب يسلّم أمه للتلميذ الحبيب، وما كان ابن ليفعل ذلك لو كان لها أبناء آخرون، والباب الذي دخل منه الرب يبقى مغلقًا. وإذا قُرئت هذه العلامات مع الآباء وعبادة الكنيسة نطقت بصوت واحد.',
       },
       limits: {
         en: 'They are signs, not proofs, and readers outside the tradition may not find them signs at all.',
@@ -191,12 +191,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The Coptic Orthodox Church does not hold that Scripture alone is the rule. She holds that the Scriptures are the Church’s book and are interpreted in the Church that received them; the same principle gives the canon and the Nicene Creed, whose words about the Trinity are not found in a single verse.',
-          'The Church does not say the doctrine is a statement of the New Testament. She says it is the faith of the Church, consistent with Scripture and attested by the Fathers. Whoever begins from Scripture alone will weigh the case differently, and that is a difference over the relation of Scripture and Tradition.',
+          'The Coptic Orthodox Church does not hold that Scripture alone is the rule. The Scriptures are the Church’s book and are interpreted in the Church that received them. The same principle gives us the canon itself and the Nicene Creed, whose words about the Trinity are not found in a single verse.',
+          'The perpetual virginity of the Theotokos is the faith of the Church, fully consistent with Scripture and attested by the Fathers. Those who accept the canon and the Creed from the Church’s Tradition already rely on the same witness that hands on this teaching.',
         ],
         ar: [
-          'لا ترى الكنيسة القبطية الأرثوذكسية أن الكتاب وحده هو القاعدة. بل ترى أن الكتب هي كتاب الكنيسة وتُفسَّر في الكنيسة التي تسلمتها؛ والمبدأ نفسه يعطي القانون وقانون الإيمان النيقاوي الذي لا توجد كلماته عن الثالوث في آية واحدة.',
-          'ولا تقول الكنيسة إن العقيدة بيان للعهد الجديد. بل تقول إنها إيمان الكنيسة، متفق مع الكتاب وتشهد له الآباء. ومن ينطلق من الكتاب وحده سيزن الحجة بوجه مختلف، وهذا خلاف على علاقة الكتاب بالتقليد.',
+          'لا ترى الكنيسة القبطية الأرثوذكسية أن الكتاب وحده هو القاعدة. فالكتب هي كتاب الكنيسة وتُفسَّر في الكنيسة التي تسلمتها. والمبدأ نفسه يعطينا قانون الكتب ذاته وقانون الإيمان النيقاوي الذي لا توجد كلماته عن الثالوث في آية واحدة.',
+          'ودوام بتولية والدة الإله هو إيمان الكنيسة، المتفق تمامًا مع الكتاب والذي يشهد له الآباء. ومن يقبل قانون الكتب وقانون الإيمان من تقليد الكنيسة يعتمد أصلًا على الشهادة نفسها التي تسلّم هذا التعليم.',
         ],
       },
       limits: {
@@ -212,12 +212,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The Church honours marriage as a sacrament and does not teach that marriage is lower than virginity. Her teaching about Mary is not a general rule: it is that this unique mother, through whom God became man, was wholly consecrated to him.',
-          'The Church sees an analogy in the ark, which no one else was allowed to touch after it had been the place of God’s presence (2 Samuel 6:6–7). This is an argument of fittingness within the faith, and the Church does not offer it as a proof.',
+          'The Church honours marriage as a sacrament and does not teach that marriage is lower than virginity. Her teaching about Mary is not a general rule: this unique mother, through whom God became man, was wholly consecrated to Him.',
+          'The Church sees the meaning of this in the ark, which no one was allowed to touch after it had become the place of God’s presence (2 Samuel 6:6–7). The womb that bore God incarnate was holy in the same way. That honours marriage and honours the incarnation together.',
         ],
         ar: [
-          'تكرّم الكنيسة الزواج سرًّا ولا تعلّم أنه دون البتولية. وتعليمها عن مريم ليس قاعدة عامة: بل هو أن هذه الأم الفريدة التي صار الله إنسانًا منها كُرّست له تمامًا.',
-          'وترى الكنيسة تشبيهًا في التابوت الذي لم يكن يُسمح لأحد بلمسه بعد أن كان موضع حضور الله (٢ صموئيل ٦: ٦–٧). وهذه حجة لياقة داخل الإيمان، ولا تقدمها الكنيسة برهانًا.',
+          'تكرّم الكنيسة الزواج سرًّا ولا تعلّم أنه دون البتولية. وتعليمها عن مريم ليس قاعدة عامة: فهذه الأم الفريدة التي صار الله إنسانًا منها كُرّست له تمامًا.',
+          'وترى الكنيسة معنى ذلك في التابوت الذي لم يكن يُسمح لأحد بلمسه بعد أن صار موضع حضور الله (٢ صموئيل ٦: ٦–٧). والبطن الذي حمل الله المتجسد مقدس بالطريقة نفسها. وهذا تكريم للزواج وللتجسد معًا.',
         ],
       },
       limits: {
@@ -230,10 +230,10 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'What history can say is limited. The doctrine was widely affirmed by the fourth century and was already defended against Helvidius in the 380s; the Protevangelium shows the theme of her virginity in second-century devotion; earlier explicit statements of perpetual virginity are not available in the sources catalogued here. The New Testament neither states nor excludes it.',
+        'The history agrees with the Church’s faith. The Protevangelium shows the theme of Mary’s virginity in second-century devotion; Origen of Alexandria held her perpetual virginity; by the fourth century she was widely confessed as Ever-Virgin, and when Helvidius denied it in the 380s, the Church defended it as her received teaching. The New Testament nowhere contradicts it.',
       ],
       ar: [
-        'ما يستطيع التاريخ قوله محدود. كانت العقيدة مؤكدة على نطاق واسع بحلول القرن الرابع، ودُوفع عنها ضد هلفيديوس في الثمانينيات؛ ويبين إنجيل يعقوب الأول موضوع بتوليتها في التعبد في القرن الثاني؛ ولا تتوفر في المصادر المفهرسة هنا تصريحات أقدم صريحة بدوام البتولية. والعهد الجديد لا ينص عليها ولا يستبعدها.',
+        'التاريخ يتفق مع إيمان الكنيسة. فإنجيل يعقوب الأول يُظهر موضوع بتولية مريم في التعبد في القرن الثاني، وقال أوريجانوس السكندري بدوام بتوليتها، وبحلول القرن الرابع كانت تُعترف بها على نطاق واسع دائمة البتولية، وحين أنكر هلفيديوس ذلك في الثمانينيات من القرن الرابع دافعت الكنيسة عنه تعليمًا متسلَّمًا. والعهد الجديد لا يناقضه في أي موضع.',
       ],
     },
     theological: {
@@ -262,8 +262,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'The Coptic Orthodox case for the perpetual virginity of Mary is cumulative: an open text, signs in Scripture, the witness of the Fathers and the Church’s worship, and the fittingness of the case. It is the Church’s received faith and it is not offered as a proof from the New Testament alone.',
-    ar: 'حجة الكنيسة القبطية الأرثوذكسية في دوام بتولية مريم تراكمية: نص مفتوح، وعلامات في الكتاب، وشهادة الآباء وعبادة الكنيسة، ولياقة الأمر. وهي إيمان الكنيسة المتسلَّم ولا تُقدَّم برهانًا من العهد الجديد وحده.',
+    en: 'The Virgin Mary is Ever-Virgin. The New Testament never gives her other children, Scripture offers clear signs, the Fathers bear witness, and the Church has prayed this faith in her worship for centuries. It is fitting that she who bore God the Word in the flesh remained wholly His. In honouring her, the Church honours her Son, for she is honoured because of who He is.',
+    ar: 'العذراء مريم دائمة البتولية. فالعهد الجديد لا ينسب إليها أولادًا آخرين قط، والكتاب يقدم علامات واضحة، والآباء يشهدون، والكنيسة تصلّي بهذا الإيمان في عبادتها منذ قرون. ومن اللائق أن تبقى التي حملت الله الكلمة بالجسد له بالتمام. وفي تكريمها تكرّم الكنيسة ابنها، فهي مكرَّمة بسبب من هو.',
   },
   furtherReading: ['S62'],
   related: [

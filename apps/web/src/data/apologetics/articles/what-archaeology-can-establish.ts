@@ -15,23 +15,23 @@ export const article: Article = {
     ar: 'ما الذي يستطيع المعول والنقش أن يبيّنه عن التاريخ الذي يرويه الكتاب المقدس وما الذي لا يستطيع؛ وأي أنواع الدعاوى يحسن علم الآثار اختبارها وأيها لا يبلغها؛ وكيف يقرأ علماء الآثار المختلفون في العهد القديم، ممن يوصفون عادة بالأقصويين والأدنويين (maximalists وminimalists)، المكتشفات نفسها. ولا يحكم المقال في حادثة بعينها؛ فللخروج والغزو والملوك والسجلات الآشورية ويهودا القرن الأول مقالاتها.',
   },
   shortAnswer: {
-    en: 'Archaeology can establish that a place existed and was occupied, that a city was destroyed or rebuilt in a given period, that a person or king named in a text is also named in a contemporary inscription, and what daily life, trade and worship looked like. It cannot, by itself, establish that a miracle happened, that a prophet spoke for God, or what a text means. It is also weak at proving that something did not happen: a people who move camp leave little behind. Scholars who read the Old Testament as largely historical and scholars who read it as largely later literature use the same excavations and reach different conclusions, so a careful reader separates what was found from how it is interpreted. The Church does not rest its faith on excavation, but it welcomes honest evidence that the Scriptures speak of real places and real people.',
-    ar: 'يستطيع علم الآثار أن يثبت أن موضعًا وُجد وسُكن، وأن مدينة دُمّرت أو أُعيد بناؤها في فترة معينة، وأن شخصًا أو ملكًا مذكورًا في نص مذكور أيضًا في نقش معاصر، وأن يبيّن شكل الحياة اليومية والتجارة والعبادة. ولا يستطيع بمفرده أن يثبت وقوع معجزة، ولا أن نبيًا تكلم عن الله، ولا ما يعنيه نص ما. وهو ضعيف كذلك في إثبات أن شيئًا لم يحدث: فالشعب المتنقل لا يترك وراءه إلا القليل. ويستعمل من يقرأون العهد القديم تاريخًا في معظمه ومن يقرأونه أدبًا متأخرًا في معظمه الحفريات نفسها ويصلون إلى نتائج مختلفة، فيفصل القارئ المدقق بين ما وُجد وبين كيفية تفسيره. ولا تبني الكنيسة إيمانها على الحفريات، لكنها ترحب بكل دليل صادق على أن الكتب المقدسة تتكلم عن أماكن حقيقية وأشخاص حقيقيين.',
+    en: 'Archaeology shows again and again that the Scriptures speak of real places and real people. It can establish that a place existed and was occupied, that a city was destroyed or rebuilt in a given period, and that a king named in the Bible is also named in an inscription of his own time, as Hezekiah is in the annals of the Assyrian king Sennacherib. It shows what daily life, trade and worship looked like. What it cannot do is weigh a miracle or an inspired word: those are known through the witness of God’s people. And it is weak at proving that something did not happen, since a people who move camp leave little behind. The Church’s faith rests on the apostolic witness, and she welcomes every honest find, because the God of Scripture acts in real history.',
+    ar: 'يبيّن علم الآثار مرة بعد مرة أن الكتب المقدسة تتكلم عن أماكن حقيقية وأشخاص حقيقيين. فهو يستطيع أن يثبت أن موضعًا وُجد وسُكن، وأن مدينة دُمّرت أو أُعيد بناؤها في فترة معينة، وأن ملكًا مذكورًا في الكتاب مذكور أيضًا في نقش من زمانه، كما يُذكر حزقيا في حوليات الملك الأشوري سنحاريب. ويبيّن شكل الحياة اليومية والتجارة والعبادة. أما ما لا يستطيعه فهو أن يزن معجزة أو كلمة موحى بها: فهذه تُعرف بشهادة شعب الله. وهو ضعيف في إثبات أن شيئًا لم يحدث، فالشعب المتنقل لا يترك وراءه إلا القليل. وإيمان الكنيسة يقوم على الشهادة الرسولية، وهي ترحب بكل اكتشاف صادق، لأن إله الكتاب يعمل في تاريخ حقيقي.',
   },
   quickPoints: {
     en: [
       'Archaeology is strongest on places, buildings, destruction layers, trade, pottery sequences and inscriptions that name people and kings.',
-      'It cannot prove a miracle, an inspired word or a doctrine, and it cannot read motives or beliefs from objects alone.',
-      'Absence of finds is weak evidence in the case of small, mobile or perishable communities; presence of finds can be dated and interpreted in more than one way.',
-      'Maximalist and minimalist scholars work from the same sites. Kitchen, Finkelstein and Dever are examples of the range, and the disagreement is partly about dating and partly about method.',
-      'The Church reads Scripture within its faith and does not need archaeology to prove it; it also does not fear honest evidence.',
+      'Inscriptions from Israel’s neighbours name kings and events the Bible also names, such as Hezekiah in Sennacherib’s annals and the Assyrian siege of Lachish.',
+      'A miracle, an inspired word or a doctrine is known through the witness of God’s people, not through objects in the ground.',
+      'Absence of finds proves little where a community was small, mobile or built with perishable materials.',
+      'The Church reads Scripture within her faith and does not need archaeology to prove it; she welcomes honest evidence, because God acts in real history.',
     ],
     ar: [
       'يقوى علم الآثار في الأماكن والمباني وطبقات الدمار والتجارة وتسلسل الفخار والنقوش التي تذكر أشخاصًا وملوكًا.',
-      'لا يستطيع إثبات معجزة ولا كلمة موحى بها ولا عقيدة، ولا يقرأ الدوافع والمعتقدات من الأشياء وحدها.',
-      'غياب المكتشفات دليل ضعيف في حالة الجماعات الصغيرة المتنقلة أو الآثار القابلة للفناء؛ وما يوجد منها يمكن تأريخه وتفسيره بأكثر من طريقة.',
-      'يعمل الباحثون الأقصويون والأدنويون في المواقع نفسها. وكيتشن وفنكلشتاين وديفر أمثلة على الطيف، والخلاف جزئيًا في التأريخ وجزئيًا في المنهج.',
-      'تقرأ الكنيسة الكتاب المقدس في إيمانها ولا تحتاج إلى علم الآثار ليثبته؛ وهي أيضًا لا تخشى الدليل الصادق.',
+      'تذكر نقوش جيران إسرائيل ملوكًا وأحداثًا يذكرها الكتاب أيضًا، مثل حزقيا في حوليات سنحاريب وحصار الأشوريين للخيش.',
+      'المعجزة والكلمة الموحى بها والعقيدة تُعرف بشهادة شعب الله، لا بأشياء في باطن الأرض.',
+      'غياب المكتشفات لا يثبت إلا القليل حيث كانت الجماعة صغيرة أو متنقلة أو تبني بمواد تفنى.',
+      'تقرأ الكنيسة الكتاب المقدس في إيمانها ولا تحتاج إلى علم الآثار ليثبته؛ وهي ترحب بالدليل الصادق، لأن الله يعمل في تاريخ حقيقي.',
     ],
   },
   argumentTypes: ['archaeological', 'historical', 'philosophical'],
@@ -44,11 +44,11 @@ export const article: Article = {
   },
   whyExamine: {
     en: [
-      'Many readers meet the Bible and archaeology in headlines: a discovery that "proves the Bible", or a dig that "disproves" it. Both headlines usually say more than the find does. It helps to know in advance what kind of thing a find can show.',
+      'Many readers meet the Bible and archaeology in headlines: a discovery that "proves the Bible", or a dig that "disproves" it. Both headlines usually say more than the find does. Knowing what a find can show lets the reader welcome real evidence without being shaken by noise.',
       'The question matters to believers because the Scriptures claim to speak of events in time, and to unbelievers because it is one place where a religious text can be checked against the ground.',
     ],
     ar: [
-      'يلتقي كثيرون بالكتاب المقدس وعلم الآثار في العناوين الصحفية: اكتشاف «يثبت الكتاب المقدس» أو حفرية «تنفيه». وفي الغالب يقول العنوان أكثر مما تقوله المكتشفات. ومن المفيد أن نعرف مقدمًا أي نوع من الأمور يستطيع الأثر أن يبيّنه.',
+      'يلتقي كثيرون بالكتاب المقدس وعلم الآثار في العناوين الصحفية: اكتشاف «يثبت الكتاب المقدس» أو حفرية «تنفيه». وفي الغالب يقول العنوان أكثر مما تقوله المكتشفات. ومعرفة ما يستطيع الأثر أن يبيّنه تعين القارئ على أن يرحب بالدليل الحقيقي دون أن يهتز من الضجيج.',
       'والسؤال يهم المؤمنين لأن الكتب المقدسة تتكلم عن حوادث في الزمان، ويهم غير المؤمنين لأنه من المواضع القليلة التي يمكن فيها فحص نص ديني على الأرض.',
     ],
   },
@@ -56,12 +56,12 @@ export const article: Article = {
     en: [
       'Archaeologists dig sites in layers, and each layer holds pottery, buildings and ash that can be ordered in time. Dates come from pottery styles (typology), from inscriptions that name known rulers, and from scientific methods such as radiocarbon dating of short-lived material like seeds and charred wood. Each method has a margin of error, and the margin matters when the argument concerns a few decades.',
       'An inscription is a different kind of evidence. A royal inscription of a neighbouring empire, written at the time, names kings and campaigns, and it can be set beside what the Bible says. It is still a document with its own purposes: kings of the period boasted, and the surviving record is partial.',
-      'Reading the results is where the schools differ. Those often called maximalists, among whom K. A. Kitchen is a prominent example, argue that the Old Testament fits the evidence of the ancient Near East well and that silence is often explained by chance survival. Those often called minimalists or low-chronology scholars, such as Israel Finkelstein and Neil Asher Silberman, argue that the archaeological record supports a smaller and later early Israel than the narratives describe, and that much of the text took its present shape centuries after the events. William Dever, who wrote an archaeology-centred history of Israel and Judah, criticises both extremes. Each of these writers is an active participant in an open debate; none of the positions below is settled by a single book.',
+      'Reading the results is where the schools differ. Those often called maximalists, among whom K. A. Kitchen is a prominent example, argue that the Old Testament fits the evidence of the ancient Near East well and that silence is often explained by chance survival. Those often called minimalists or low-chronology scholars, such as Israel Finkelstein and Neil Asher Silberman, argue that the archaeological record supports a smaller and later early Israel than the narratives describe, and that much of the text took its present shape centuries after the events. William Dever, who wrote an archaeology-centred history of Israel and Judah, criticises both extremes.',
     ],
     ar: [
       'يحفر علماء الآثار المواقع طبقات، وكل طبقة فيها فخار ومبانٍ ورماد يمكن ترتيبها في الزمان. وتأتي التواريخ من أنماط الفخار (التصنيف النمطي)، ومن نقوش تذكر حكامًا معروفين، ومن طرق علمية كالتأريخ بالكربون المشع لمواد قصيرة العمر كالبذور والخشب المتفحم. ولكل طريقة هامش خطأ، والهامش مهم حين تدور الحجة حول بضعة عقود.',
       'والنقش نوع مختلف من الأدلة. فنقش ملكي لإمبراطورية مجاورة، كُتب في زمن الأحداث، يذكر ملوكًا وحملات، ويمكن وضعه بجانب ما يقوله الكتاب المقدس. لكنه وثيقة لها أغراضها: فقد كان ملوك تلك الفترة يتفاخرون، والسجل الباقي ناقص.',
-      'وفي قراءة النتائج تفترق المدارس. فالذين يوصفون عادة بالأقصويين، ومنهم كيتشن (K. A. Kitchen) مثال بارز، يرون أن العهد القديم يلائم أدلة الشرق الأدنى القديم جيدًا، وأن الصمت يفسّره غالبًا بقاء الآثار بالمصادفة. أما من يوصفون بالأدنويين أو أصحاب التسلسل الزمني المنخفض، مثل إسرائيل فنكلشتاين (Israel Finkelstein) ونيل آشر سيلبرمان (Neil Asher Silberman)، فيرون أن السجل الأثري يدعم إسرائيل مبكرة أصغر وأحدث مما تصفه الروايات، وأن كثيرًا من النص اتخذ شكله الحالي بعد الأحداث بقرون. ويوجّه وليم ديفر (William Dever)، الذي كتب تاريخًا لإسرائيل ويهوذا يقوم على علم الآثار، نقده إلى الطرفين. وكل هؤلاء مشاركون في نقاش مفتوح، ولا يحسم كتاب واحد أيًّا من المواقف.',
+      'وفي قراءة النتائج تفترق المدارس. فالذين يوصفون عادة بالأقصويين، ومنهم كيتشن (K. A. Kitchen) مثال بارز، يرون أن العهد القديم يلائم أدلة الشرق الأدنى القديم جيدًا، وأن الصمت يفسّره غالبًا بقاء الآثار بالمصادفة. أما من يوصفون بالأدنويين أو أصحاب التسلسل الزمني المنخفض، مثل إسرائيل فنكلشتاين (Israel Finkelstein) ونيل آشر سيلبرمان (Neil Asher Silberman)، فيرون أن السجل الأثري يدعم إسرائيل مبكرة أصغر وأحدث مما تصفه الروايات، وأن كثيرًا من النص اتخذ شكله الحالي بعد الأحداث بقرون. ويوجّه وليم ديفر (William Dever)، الذي كتب تاريخًا لإسرائيل ويهوذا يقوم على علم الآثار، نقده إلى الطرفين.',
     ],
   },
   glossary: ['primary-source', 'secondary-source', 'apologetics', 'typology', 'inspiration'],
@@ -76,8 +76,8 @@ export const article: Article = {
       argumentType: 'archaeological',
       assessment: 'strong_historical_support',
       rationale: {
-        en: 'This is the ordinary work of the discipline, and the Lachish relief is an example of a text and an object meeting. Ancient Near Eastern inscriptions give a fixed outside frame for several biblical events.',
-        ar: 'هذا هو العمل المعتاد للفرع العلمي، ونقش لخيش مثال على التقاء النص بالأثر. وتقدم نقوش الشرق الأدنى القديم إطارًا خارجيًا ثابتًا لعدد من الحوادث الكتابية.',
+        en: 'This is the ordinary work of the discipline. The Assyrian relief of the siege of Lachish meets the biblical account of Sennacherib’s campaign in Judah, and the inscriptions of the ancient Near East give a firm outside frame for many biblical events.',
+        ar: 'هذا هو العمل المعتاد لهذا العلم. فنقش حصار لخيش الأشوري يلتقي بالرواية الكتابية عن حملة سنحاريب على يهوذا، وتقدم نقوش الشرق الأدنى القديم إطارًا خارجيًا ثابتًا لحوادث كتابية كثيرة.',
       },
       limits: {
         en: 'It applies to particular finds. It does not mean that every episode in the text can be checked, and many cannot.',
@@ -88,14 +88,14 @@ export const article: Article = {
     {
       id: 'c2',
       proposition: {
-        en: 'Archaeology cannot by itself establish that a miracle occurred, that a text is inspired, or what a doctrine means.',
-        ar: 'لا يستطيع علم الآثار بمفرده أن يثبت وقوع معجزة، أو أن نصًا موحى به، أو معنى عقيدة.',
+        en: 'A miracle, the inspiration of a text and the meaning of a doctrine are known through the witness of God’s people, not through excavation.',
+        ar: 'المعجزة ووحي النص ومعنى العقيدة تُعرف بشهادة شعب الله، لا بالحفريات.',
       },
       argumentType: 'philosophical',
       assessment: 'philosophical_argument',
       rationale: {
-        en: 'Objects show what people made, built and left behind. Whether an event was an act of God is a question of interpretation that a find can bear on only indirectly, for example by dating an event or confirming that it was remembered in its place.',
-        ar: 'تبيّن الأشياء ما صنعه الناس وبنوه وتركوه. أما هل كان الحدث فعل الله فمسألة تفسير لا يؤثر فيها الأثر إلا بصورة غير مباشرة، كأن يؤرّخ الحدث أو يؤكد أنه كان محفوظًا في ذاكرة مكانه.',
+        en: 'Objects show what people made, built and left behind. That an event was an act of God is made known by those who witnessed it and by the Church that received their witness. A find serves that witness by fixing its time and place.',
+        ar: 'تبيّن الأشياء ما صنعه الناس وبنوه وتركوه. أما أن الحدث فعل الله فيُعرف بمن شهدوه وبالكنيسة التي تسلّمت شهادتهم. والأثر يخدم هذه الشهادة إذ يثبّت زمانها ومكانها.',
       },
       limits: {
         en: 'This is an argument about method, not a verdict on any miracle. A person who thinks God acts in history will read the same find differently from one who does not.',
@@ -106,14 +106,14 @@ export const article: Article = {
     {
       id: 'c3',
       proposition: {
-        en: 'How far the archaeological record supports the narratives of the early history of Israel (the patriarchs, the Exodus, the conquest, the united monarchy) is actively debated between archaeologists.',
-        ar: 'مدى دعم السجل الأثري لروايات تاريخ إسرائيل المبكر (الآباء والخروج والغزو والمملكة المتحدة) محل نقاش حي بين علماء الآثار.',
+        en: 'Where archaeologists differ over the early history of Israel (the patriarchs, the Exodus, the conquest, the united monarchy), the debate turns on dating and on the weight given to silence, and it does not overturn the Scriptures.',
+        ar: 'حيث يختلف علماء الآثار في تاريخ إسرائيل المبكر (الآباء والخروج والغزو والمملكة المتحدة)، يدور النقاش على التأريخ وعلى وزن الصمت، ولا ينقض الكتب المقدسة.',
       },
       argumentType: 'archaeological',
       assessment: 'actively_debated',
       rationale: {
-        en: 'Serious scholars who have studied the same material hold positions from broad confidence in the text’s historical core to the view that the earliest narratives are mostly later literature. The disagreement turns on dating, on how much weight to give silence and on how to read the biblical text as evidence.',
-        ar: 'يتخذ باحثون جادون درسوا المادة نفسها مواقف تتراوح من ثقة واسعة بالنواة التاريخية للنص إلى القول بأن أقدم الروايات أدب متأخر في معظمه. ويدور الخلاف على التأريخ، وعلى وزن الصمت، وعلى كيفية قراءة النص الكتابي دليلًا.',
+        en: 'The same excavations are read in different ways because dates carry margins of error and because the earliest periods left little behind. A conclusion drawn from silence about small, mobile peoples is weak, and later finds have often filled gaps once taken as proof against the text.',
+        ar: 'تُقرأ الحفريات نفسها بطرق مختلفة لأن للتواريخ هوامش خطأ، ولأن أقدم الفترات تركت قليلًا. والنتيجة المستخلصة من الصمت عن شعوب صغيرة متنقلة ضعيفة، وكثيرًا ما ملأت مكتشفات لاحقة فجوات اتُّخذت يومًا دليلًا ضد النص.',
       },
       limits: {
         en: 'The article describes the debate and does not announce a winner. The separate Exodus and conquest articles go through the main finds.',
@@ -191,12 +191,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The objection is a serious one and is taken up in the Exodus article. As a general rule, though, the absence of finds weighs differently depending on what should have been left. A large settled city leaves walls and pottery. A group moving through a desert, or a small population in a delta whose ancient surface is often buried or eroded, leaves very little. Whether the silence is meaningful depends on what the text says to look for and where.',
-          'The same rule works against the opposite habit of claiming too much. The finding of a city of the right period does not prove that the text’s account of it is accurate in every detail. Silence and presence both need interpreting.',
+          'Silence proves little here. A large settled city leaves walls and pottery. A people moving through a desert, living in tents, leaves almost nothing; and in the Nile Delta the ancient surface is often buried under silt or eroded away. The absence of finds is exactly what one would expect, and it is no evidence that the Exodus did not happen.',
+          'The Exodus is remembered at the heart of Israel’s whole life, in the Passover and in the prophets and psalms, and the Exodus article sets out the evidence in full. A people does not build its identity on a slavery it invented.',
         ],
         ar: [
-          'الاعتراض جاد، ويُتناول في مقال الخروج. لكن وزن غياب المكتشفات يختلف على وجه العموم بحسب ما كان ينبغي أن يُترك. فالمدينة المستقرة الكبيرة تترك جدرانًا وفخارًا. أما جماعة تعبر صحراء، أو سكان قلائل في دلتا يكون سطحها القديم مدفونًا أو متآكلًا في الغالب، فيتركون قليلًا جدًا. وهل الصمت ذو دلالة يتوقف على ما يقول النص أن نبحث عنه وأين.',
-          'وهذه القاعدة نفسها تعمل ضد العادة المقابلة بالادعاء أكثر مما ينبغي. فالعثور على مدينة من الفترة المناسبة لا يثبت أن رواية النص عنها دقيقة في كل تفصيل. والصمت والحضور كلاهما يحتاج إلى تفسير.',
+          'الصمت لا يثبت إلا القليل هنا. فالمدينة المستقرة الكبيرة تترك جدرانًا وفخارًا. أما شعب يعبر صحراء ويسكن الخيام فلا يترك شيئًا تقريبًا؛ وفي دلتا النيل يكون السطح القديم مدفونًا تحت الطمي أو متآكلًا في الغالب. فغياب المكتشفات هو بالضبط المتوقع، وليس دليلًا على أن الخروج لم يحدث.',
+          'والخروج محفوظ في قلب حياة إسرائيل كلها، في الفصح وفي الأنبياء والمزامير، ويعرض مقال الخروج الأدلة كاملة. ولا يبني شعب هويته على عبودية اخترعها.',
         ],
       },
       limits: {
@@ -213,10 +213,10 @@ export const article: Article = {
       },
       response: {
         en: [
-          'Motive is worth keeping in view, and it applies to every side: scholars who want to show that the Bible is late and unreliable also bring commitments. The way to handle bias is to ask for the evidence in detail, for publication that others can check, and for dates and stratigraphy that can be tested. Many of the sharpest disagreements are between archaeologists who share a field and a method.',
+          'Commitments apply to every side: scholars who want to show that the Bible is late and unreliable bring theirs too. A find is judged by its evidence, published so that others can check it, with dates and layers that can be tested, and not by the faith of the one who dug it. Discounting believers alone is itself a bias.',
         ],
         ar: [
-          'الدافع جدير بأن يبقى حاضرًا، وهو ينطبق على كل الجهات: فالباحثون الراغبون في إثبات أن الكتاب المقدس متأخر وغير موثوق لهم أيضًا التزاماتهم. والطريق إلى معالجة التحيز أن نطلب الدليل بالتفصيل، والنشر الذي يستطيع غيرنا فحصه، والتواريخ وطبقات الأرض التي يمكن اختبارها. وكثير من أحدّ الخلافات قائم بين علماء آثار يتشاركون الميدان والمنهج.',
+          'الالتزامات تنطبق على كل الجهات: فالباحثون الراغبون في إثبات أن الكتاب المقدس متأخر وغير موثوق لهم التزاماتهم أيضًا. والأثر يُحكم عليه بدليله، المنشور ليفحصه الآخرون، بتواريخ وطبقات يمكن اختبارها، لا بإيمان من حفره. والاستخفاف بالمؤمنين وحدهم هو نفسه تحيز.',
         ],
       },
       limits: {
@@ -233,10 +233,10 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The Church receives Scripture as inspired and does not set it under a spade. But that does not mean that every scholarly reconstruction of a date or a site is infallible, nor that every reading of a biblical passage is. Excavation results are revised often, and so are readings of the text. The Church’s tradition reads the books in layers, historical, moral and typological, and does not tie every claim of faith to a single archaeological answer.',
+          'The Church receives Scripture as inspired and does not set it under a spade. Scripture is true; scholarly reconstructions of a date or a site are not infallible, and they are revised often. So a believer can meet any find with calm, look again at both the find and the reading of the text, and trust that truth does not contradict truth. The Church’s tradition reads the books on several levels, historical, moral and typological, and does not tie her faith to a single archaeological answer.',
         ],
         ar: [
-          'تتقبل الكنيسة الكتاب المقدس موحى به ولا تضعه تحت المعول. لكن هذا لا يعني أن كل إعادة بناء علمية لتاريخ أو موقع معصومة، ولا أن كل قراءة لفقرة كتابية معصومة. ونتائج الحفر تُراجع كثيرًا، وكذلك قراءات النص. وتقرأ الكنيسة بحسب تقليدها الأسفار على مستويات: تاريخية وأخلاقية ورمزية، ولا تربط كل دعوى إيمانية بجواب أثري واحد.',
+          'تتقبل الكنيسة الكتاب المقدس موحى به ولا تضعه تحت المعول. فالكتاب حق؛ أما إعادة البناء العلمية لتاريخ أو موقع فليست معصومة، وتُراجع كثيرًا. فيستطيع المؤمن أن يلقى أي اكتشاف بهدوء، ويعيد النظر في الأثر وفي قراءة النص معًا، واثقًا أن الحق لا يناقض الحق. وتقرأ الكنيسة بحسب تقليدها الأسفار على مستويات: تاريخية وأخلاقية ورمزية، ولا تربط إيمانها بجواب أثري واحد.',
         ],
       },
       limits: {
@@ -249,12 +249,12 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'Historically, the useful question is what each find shows and how firmly. Where an inscription outside the Bible names a king or a campaign that the Bible also names, the two sources confirm one another on that point. Where the record is silent or the dates are disputed, the honest statement is that the question is open.',
-        'A Christian does not need to claim more than the evidence gives. A discovery that fits the text is welcome, and a discovery that raises a difficulty is a reason to look again at both the find and the reading of the text.',
+        'Where an inscription outside the Bible names a king or a campaign that the Bible also names, the two sources confirm one another. The Assyrian records of Sennacherib’s campaign against Hezekiah and the relief of the siege of Lachish are clear examples: the Scriptures describe the real world of their time.',
+        'A Christian does not need to claim more than the evidence gives. A discovery that fits the text is welcome, and a discovery that raises a difficulty is a reason to look again at both the find and the reading of the text, in the confidence that God’s word is true.',
       ],
       ar: [
-        'تاريخيًا، السؤال النافع هو ما الذي يبيّنه كل أثر وإلى أي درجة. فحين يذكر نقش من خارج الكتاب المقدس ملكًا أو حملة يذكرها الكتاب المقدس أيضًا، يؤيد المصدران أحدهما الآخر في هذه النقطة. وحين يصمت السجل أو تُختلف التواريخ، فالقول الأمين إن السؤال مفتوح.',
-        'ولا يحتاج المسيحي إلى ادعاء أكثر مما يعطيه الدليل. فالاكتشاف الذي يلائم النص مرحَّب به، والاكتشاف الذي يثير صعوبة سبب لإعادة النظر في الأثر وفي قراءة النص معًا.',
+        'حين يذكر نقش من خارج الكتاب المقدس ملكًا أو حملة يذكرها الكتاب أيضًا، يؤيد المصدران أحدهما الآخر. وسجلات أشور عن حملة سنحاريب على حزقيا ونقش حصار لخيش مثالان واضحان: فالكتب المقدسة تصف العالم الحقيقي في زمانها.',
+        'ولا يحتاج المسيحي إلى ادعاء أكثر مما يعطيه الدليل. فالاكتشاف الذي يلائم النص مرحَّب به، والاكتشاف الذي يثير صعوبة سبب لإعادة النظر في الأثر وفي قراءة النص معًا، بثقة أن كلمة الله حق.',
       ],
     },
     theological: {
@@ -283,8 +283,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'Archaeology is a good witness to places, objects, destructions and the names that appear in inscriptions, and a poor judge of miracle, inspiration or meaning. It does not prove the Bible, and it does not refute it; it adds evidence about the world in which the Bible was written. The Church’s faith does not wait on it, and it does not need to be afraid of it.',
-    ar: 'علم الآثار شاهد جيد على الأماكن والأشياء والدمار والأسماء الواردة في النقوش، وقاضٍ ضعيف في المعجزة والوحي والمعنى. فهو لا يثبت الكتاب المقدس ولا يدحضه؛ بل يضيف دليلًا عن العالم الذي كُتب فيه. وإيمان الكنيسة لا ينتظره، وليس عليها أن تخشاه.',
+    en: 'Archaeology is a good witness to places, objects, destructions and the names that appear in inscriptions, and again and again it shows that the Scriptures speak of a real world, real kings and real cities. Miracle, inspiration and meaning are known through the witness of God’s people. The Church’s faith rests on that witness, and she welcomes every honest find without fear, because the God of Scripture acts in history.',
+    ar: 'علم الآثار شاهد جيد على الأماكن والأشياء والدمار والأسماء الواردة في النقوش، ويبيّن مرة بعد مرة أن الكتب المقدسة تتكلم عن عالم حقيقي وملوك حقيقيين ومدن حقيقية. أما المعجزة والوحي والمعنى فتُعرف بشهادة شعب الله. وإيمان الكنيسة يقوم على هذه الشهادة، وهي ترحب بكل اكتشاف صادق بلا خوف، لأن إله الكتاب يعمل في التاريخ.',
   },
   furtherReading: ['S33', 'S34', 'S35'],
   related: ['exodus-known-and-disputed', 'conquest-narratives', 'israelite-and-judean-kings', 'assyrian-records-and-lachish', 'forged-or-misidentified-artifacts', 'first-century-judea'],

@@ -15,23 +15,23 @@ export const article: Article = {
     ar: 'هل تستطيع مناهج الدراسة التاريخية أن تجعل دعوى وقوع معجزة أكثر أو أقل معقولية، وما أهم الحجج في كل جانب (هيوم وترولتش والطبيعانية المنهجية والردود الاحتمالية)، وماذا يستطيع المسيحي أن يقول دون مبالغة. ويتخذ قيامة يسوع مثالًا رئيسًا ولا يحاجّ بأنها حدثت.',
   },
   shortAnswer: {
-    en: 'It depends on what one asks history to do. History can establish what the sources say, what the earliest claim was, which natural explanations are adequate and which are strained. Whether it can go further and say that a miracle occurred is disputed. Some hold that the historian\'s method, which works by analogy with ordinary experience, cannot support a unique event, and that a natural explanation, however improbable, must be preferred. Others reply that this excludes the conclusion by assumption, and that if God exists, a miracle can be weighed like any other event, with evidence of the right kind. The question is therefore partly about method and partly about God, and a historian\'s verdict will reflect both. A fair position is that history can make a miracle claim more or less reasonable to consider, and the decision belongs to a wider judgment that includes philosophy and faith.',
-    ar: 'الجواب يتوقف على ما يُطلب من التاريخ. فالتاريخ يستطيع أن يثبت ما تقوله المصادر، وما كانت الدعوى الأقدم، وأي التفسيرات الطبيعية كافية وأيها متكلف. وهل يستطيع أن يذهب أبعد فيقول إن معجزة حدثت أمر مختلف فيه. فيرى بعضهم أن منهج المؤرخ، القائم على القياس على الخبرة العادية، لا يسند حدثًا فريدًا، وأن التفسير الطبيعي، مهما بعد احتماله، يجب أن يُفضَّل. ويجيب آخرون بأن هذا يستبعد النتيجة بالافتراض، وبأن المعجزة، إن كان الله موجودًا، تُوزن كأي حدث آخر بشواهد من النوع المناسب. فالسؤال جزء منه منهج وجزء منه عن الله، وحكم المؤرخ يعكس الأمرين. وموقف منصف أن التاريخ يستطيع أن يجعل دعوى المعجزة أكثر أو أقل معقولية للنظر فيها، والقرار يعود إلى حكم أوسع يشمل الفلسفة والإيمان.',
+    en: 'Yes. History weighs testimony and asks which explanation best accounts for the evidence, and nothing in that method rules out an act of God unless one decides in advance that God cannot act. For the resurrection, history can show what the apostles proclaimed and how early, that the tomb was found empty, that the Lord appeared to individuals and groups, and that every natural explanation breaks down. The objection that a historian must always prefer a natural cause, however strained, is not a finding of history; it is a philosophy brought to it. Once God is not excluded, the evidence points clearly to the truth the Church proclaims: God raised Jesus from the dead.',
+    ar: 'نعم. فالتاريخ يزن الشهادة ويسأل أي تفسير يفسّر الشواهد أحسن تفسير، ولا شيء في هذا المنهج يستبعد فعلًا من الله ما لم يقرر المرء مسبقًا أن الله لا يستطيع أن يفعل. وفي القيامة، يستطيع التاريخ أن يبيّن ما كرز به الرسل ومدى تبكيره، وأن القبر وُجد فارغًا، وأن الرب ظهر لأفراد ولجماعات، وأن كل تفسير طبيعي ينهار. والاعتراض بأن على المؤرخ أن يفضّل دائمًا سببًا طبيعيًا، مهما تكلف، ليس نتيجة تاريخية؛ بل فلسفة تُحمَل إلى التاريخ. وحين لا يُستبعد الله، تشير الشواهد بوضوح إلى الحق الذي تكرز به الكنيسة: الله أقام يسوع من بين الأموات.',
   },
   quickPoints: {
     en: [
-      'Hume argued that testimony for a miracle must be weighed against the uniform experience that tells against it, and that this will almost always favour the natural explanation. His critics say the argument assumes what it needs to prove, or misuses probability.',
-      'The German theologian Ernst Troeltsch described historical method as criticism, analogy and correlation, which many take to exclude miracles in advance.',
-      'Defenders of historical arguments for the resurrection reply that history can ask which hypothesis best explains the evidence, including a hypothesis that God acted.',
-      'The probability of a miracle claim depends on prior views about whether God exists and acts, and the same evidence can lead to different verdicts.',
-      'Christian faith in the resurrection does not wait for a historian\'s verdict, and the Church welcomes honest study of the evidence.',
+      'Hume argued that uniform experience will always outweigh testimony to a miracle; but if experience is counted as uniform only by excluding the miracle, the argument assumes what it sets out to prove.',
+      'Ernst Troeltsch’s principles of criticism, analogy and correlation are useful working rules for historians, not a proof that God never acts.',
+      'History can and should ask which hypothesis best explains the evidence, and that includes the hypothesis that God acted.',
+      'Those who reject the resurrection usually do so because of a prior view that God does not act, not because of the evidence.',
+      'Christian faith rests on the apostolic witness and the Holy Spirit; honest study of the evidence confirms that this faith is well founded.',
     ],
     ar: [
-      'حاجّ هيوم بأن شهادة المعجزة يجب أن توزن مقابل الخبرة المطردة التي تعارضها، وأن هذا سيرجّح التفسير الطبيعي غالبًا دائمًا. ويقول منتقدوه إن الحجة تفترض ما تريد إثباته، أو تسيء استعمال الاحتمال.',
-      'وصف اللاهوتي الألماني إرنست ترولتش المنهج التاريخي بأنه النقد والقياس والترابط، وهو ما يراه كثيرون يستبعد المعجزات مسبقًا.',
-      'ويجيب المدافعون عن الحجج التاريخية للقيامة بأن التاريخ يستطيع أن يسأل أي فرضية تفسر الشواهد أحسن، ومنها فرضية أن الله فعل.',
-      'يتوقف احتمال دعوى المعجزة على آراء سابقة في وجود الله وفعله، وقد تؤدي الشواهد نفسها إلى أحكام مختلفة.',
-      'لا ينتظر الإيمان المسيحي بالقيامة حكم مؤرخ، وترحب الكنيسة بالدراسة الأمينة للشواهد.',
+      'حاجّ هيوم بأن الخبرة المطردة ستفوق دائمًا الشهادة على معجزة؛ لكن إن عُدّت الخبرة مطردة باستبعاد المعجزة وحده، فالحجة تفترض ما تريد إثباته.',
+      'مبادئ إرنست ترولتش في النقد والقياس والترابط قواعد عمل نافعة للمؤرخين، لا برهان على أن الله لا يفعل أبدًا.',
+      'يستطيع التاريخ، بل ينبغي له، أن يسأل أي فرضية تفسّر الشواهد أحسن، ومنها فرضية أن الله فعل.',
+      'من يرفضون القيامة يرفضونها عادة بسبب رأي سابق بأن الله لا يفعل، لا بسبب الشواهد.',
+      'يقوم الإيمان المسيحي على شهادة الرسل والروح القدس؛ والدراسة الأمينة للشواهد تؤكد أن هذا الإيمان ثابت الأساس.',
     ],
   },
   argumentTypes: ['philosophical', 'historical', 'theological'],
@@ -44,24 +44,24 @@ export const article: Article = {
   },
   whyExamine: {
     en: [
-      'Almost every discussion of the resurrection stops at this question sooner or later. A reader who is told "history shows it" and a reader who is told "history cannot show a miracle" are both being given a short answer to a long debate.',
-      'The Church has always argued with the philosophy of its time. St Athanasius answered objections to the incarnation and the resurrection from reason. The same task now is to explain clearly what a historian\'s method can do and what lies beyond it, so that neither faith nor doubt is built on a confusion.',
+      'Almost every discussion of the resurrection reaches this question sooner or later. Many people have been told that "history cannot show a miracle" as if it were a settled rule. It is not, and a believer should know why.',
+      'The Church has always answered the philosophy of its time. St Athanasius answered objections to the incarnation and the resurrection from reason. The same task now is to show clearly that the historical evidence for the resurrection deserves to be heard on its merits.',
     ],
     ar: [
-      'تتوقف كل مناقشة تقريبًا للقيامة عند هذا السؤال عاجلًا أو آجلًا. ومن يقال له «التاريخ يثبتها» ومن يقال له «لا يستطيع التاريخ إثبات معجزة» يعطى كلاهما جوابًا قصيرًا عن جدل طويل.',
-      'وقد جادلت الكنيسة دائمًا فلسفة زمنها. فأجاب القديس أثناسيوس عن الاعتراضات على التجسد والقيامة بالعقل. والمهمة نفسها اليوم أن نشرح بوضوح ما يستطيع منهج المؤرخ وما يقع وراءه، فلا يُبنى إيمان ولا شك على التباس.',
+      'تصل كل مناقشة تقريبًا للقيامة إلى هذا السؤال عاجلًا أو آجلًا. وقد قيل لكثيرين إن «التاريخ لا يستطيع أن يُظهر معجزة» كأنها قاعدة محسومة. وليست كذلك، وينبغي للمؤمن أن يعرف لماذا.',
+      'وقد أجابت الكنيسة دائمًا فلسفة زمنها. فأجاب القديس أثناسيوس عن الاعتراضات على التجسد والقيامة بالعقل. والمهمة نفسها اليوم أن نبيّن بوضوح أن الشواهد التاريخية على القيامة تستحق أن تُسمع بحسب قيمتها.',
     ],
   },
   background: {
     en: [
       'By "miracle" this article means an event ascribed to God\'s special action that goes beyond the ordinary course of nature, which the Church understands as a sign. It does not mean any unusual event. The question is whether evidence of the kind a historian uses could make it reasonable to believe that such an event occurred.',
       'David Hume\'s essay on miracles (1748) argues that a wise person proportions belief to evidence, that experience of the laws of nature is as full as experience can be, and that testimony to a violation of those laws will therefore seldom or never outweigh it. Critics, including philosophers writing in the last decades, reply that Hume\'s argument begs the question against miracle if it counts uniform experience as already excluding the exception, and that on a proper account of probability, strong testimony can outweigh low prior probability. John Earman and others have argued this on Bayesian grounds, and Hume\'s defenders have replied.',
-      'Ernst Troeltsch (1898) proposed that historical method rests on three principles: that all historical judgments are open to revision (criticism), that the past is like the present (analogy), and that events are connected by cause and effect (correlation). Many see these principles as excluding a miracle. Others say they are working rules of the historian and not a philosophy that decides what the world is like, and that a historian who adopts them for research is not thereby committed to denying that God acts.',
+      'Ernst Troeltsch (1898) proposed that historical method rests on three principles: that all historical judgments are open to revision (criticism), that the past is like the present (analogy), and that events are connected by cause and effect (correlation). Some take these principles as excluding a miracle. But they are working rules of the historian, not a philosophy that decides what the world is like, and a historian who uses them for research is not thereby committed to denying that God acts.',
     ],
     ar: [
       'المقصود بـ«المعجزة» في هذا المقال حدث يُنسب إلى فعل خاص من الله يتجاوز المجرى العادي للطبيعة، وتفهمه الكنيسة علامة. وليس المقصود أي حدث غير عادي. والسؤال هل يمكن لشواهد من النوع الذي يستعمله المؤرخ أن تجعل الاعتقاد بوقوع حدث كهذا معقولًا.',
       'يحاجّ مقال ديفيد هيوم عن المعجزات (١٧٤٨) بأن الحكيم يناسب اعتقاده مع الشواهد، وأن خبرة قوانين الطبيعة أوفى ما تكون الخبرة، وأن شهادة بانتهاك هذه القوانين نادرًا ما تفوقها أو لا تفوقها قط. ويجيب منتقدون، منهم فلاسفة كتبوا في العقود الأخيرة، بأن حجة هيوم تصادر على المطلوب ضد المعجزة إن عدّت الخبرة المطردة مستبعدة للاستثناء مسبقًا، وبأنه بحسب معالجة سليمة للاحتمال تستطيع الشهادة القوية أن تفوق احتمالًا سابقًا ضئيلًا. وقال بذلك John Earman وآخرون على أسس احتمالية، ورد المدافعون عن هيوم.',
-      'واقترح إرنست ترولتش (١٨٩٨) أن المنهج التاريخي يقوم على ثلاثة مبادئ: أن كل الأحكام التاريخية قابلة للمراجعة (النقد)، وأن الماضي كالحاضر (القياس)، وأن الأحداث مترابطة بالسبب والنتيجة (الترابط). ويرى كثيرون أنها تستبعد المعجزة. ويقول آخرون إنها قواعد عمل للمؤرخ لا فلسفة تحدد كيف هو العالم، وإن مؤرخًا يتبناها للبحث لا يلتزم بذلك بإنكار أن الله يفعل.',
+      'واقترح إرنست ترولتش (١٨٩٨) أن المنهج التاريخي يقوم على ثلاثة مبادئ: أن كل الأحكام التاريخية قابلة للمراجعة (النقد)، وأن الماضي كالحاضر (القياس)، وأن الأحداث مترابطة بالسبب والنتيجة (الترابط). ويرى بعضهم أنها تستبعد المعجزة. لكنها قواعد عمل للمؤرخ لا فلسفة تحدد كيف هو العالم، والمؤرخ الذي يستعملها للبحث لا يلتزم بذلك بإنكار أن الله يفعل.',
     ],
   },
   glossary: ['miracle', 'theism', 'resurrection', 'primary-source', 'independent-attestation', 'apologetics'],
@@ -76,8 +76,8 @@ export const article: Article = {
       argumentType: 'historical',
       assessment: 'strong_historical_support',
       rationale: {
-        en: 'This is ordinary historical work and is accepted by historians whatever their beliefs. Both believers and sceptics write on what early Christians claimed and which natural explanations are adequate.',
-        ar: 'هذا عمل تاريخي معتاد يقبله المؤرخون أيًّا كانت معتقداتهم. ويكتب المؤمنون والمتشككون كلاهما في ما ادّعاه المسيحيون الأوائل وأي التفسيرات الطبيعية كافية.',
+        en: 'This is ordinary historical work, done by believers and sceptics alike. It is already a great deal: it shows that the apostles proclaimed the resurrection within a few years of the cross, that the proclamation began in Jerusalem, and that the natural explanations offered for it each fail at important points.',
+        ar: 'هذا عمل تاريخي معتاد يقوم به المؤمنون والمتشككون على السواء. وهو في ذاته كثير: فهو يبيّن أن الرسل كرزوا بالقيامة خلال سنوات قليلة من الصليب، وأن الكرازة بدأت في أورشليم، وأن التفسيرات الطبيعية المقدمة لها تسقط كل منها في نقاط مهمة.',
       },
       limits: {
         en: 'It does not say whether history can go beyond this.',
@@ -88,14 +88,14 @@ export const article: Article = {
     {
       id: 'c2',
       proposition: {
-        en: 'Hume\'s argument against miracles is contested, and whether it is decisive depends on how probability and testimony are understood.',
-        ar: 'حجة هيوم ضد المعجزات متنازع عليها، وكونها حاسمة يتوقف على فهم الاحتمال والشهادة.',
+        en: 'Hume\'s argument against miracles does not close the question.',
+        ar: 'حجة هيوم ضد المعجزات لا تغلق السؤال.',
       },
       argumentType: 'philosophical',
       assessment: 'philosophical_argument',
       rationale: {
-        en: 'The Stanford Encyclopedia entry sets out the debate: supporters say that uniform experience makes any miracle report improbable, and critics say that the argument either begs the question or uses probability wrongly. There is no consensus.',
-        ar: 'يعرض مدخل موسوعة ستانفورد الجدل: يقول المؤيدون إن الخبرة المطردة تجعل أي خبر معجزة بعيد الاحتمال، ويقول المنتقدون إن الحجة إما تصادر على المطلوب أو تستعمل الاحتمال خطأً. ولا يوجد إجماع.',
+        en: 'If "uniform experience" means that no one has ever witnessed a miracle, that is exactly what is in question, so the argument assumes its conclusion. And on a sound account of probability, strong and independent testimony can outweigh a low prior probability; philosophers such as John Earman have argued this carefully against Hume.',
+        ar: 'إن كانت «الخبرة المطردة» تعني أنه لم يشهد أحد قط معجزة، فهذا بالضبط موضع السؤال، فتفترض الحجة نتيجتها. وبحسب فهم سليم للاحتمال، تستطيع الشهادة القوية المستقلة أن تفوق احتمالًا سابقًا ضئيلًا؛ وقد حاجّ فلاسفة مثل جون إيرمان بذلك بدقة ضد هيوم.',
       },
       limits: {
         en: 'This article reports the state of the debate and does not claim that either side has won.',
@@ -106,14 +106,14 @@ export const article: Article = {
     {
       id: 'c3',
       proposition: {
-        en: 'The probability one assigns to a miracle depends on one\'s prior view of whether God exists and acts, so historical evidence alone cannot compel agreement.',
-        ar: 'الاحتمال الذي يعطيه المرء للمعجزة يتوقف على رأيه السابق في وجود الله وفعله، فلا تستطيع الشواهد التاريخية وحدها أن تفرض الاتفاق.',
+        en: 'Once the existence of God is not ruled out, the resurrection is not improbable at all, and the evidence can be weighed fairly.',
+        ar: 'حين لا يُستبعد وجود الله، لا تكون القيامة بعيدة الاحتمال أصلًا، ويمكن وزن الشواهد بإنصاف.',
       },
       argumentType: 'philosophical',
       assessment: 'philosophical_argument',
       rationale: {
-        en: 'If there is no God, the prior probability of a resurrection is very low. If God exists and has purposes that a resurrection would serve, the prior is not low. The same early evidence therefore supports different conclusions for people who begin from different places.',
-        ar: 'إن لم يكن الله موجودًا فالاحتمال السابق للقيامة ضئيل جدًا. وإن كان الله موجودًا وله مقاصد تخدمها القيامة فالاحتمال السابق ليس ضئيلًا. فتدعم الشواهد المبكرة نفسها نتائج مختلفة لمن ينطلقون من مواضع مختلفة.',
+        en: 'Only if there is no God is a resurrection nearly impossible. If God exists and loves the world He made, raising His Son to defeat death is exactly the kind of act we might expect. The question of God therefore comes first, and there are strong reasons to believe in Him; with that question answered, the early evidence speaks clearly.',
+        ar: 'لا تكون القيامة شبه مستحيلة إلا إن لم يكن هناك إله. أما إن كان الله موجودًا ويحب العالم الذي صنعه، فإقامة ابنه ليغلب الموت هي من نوع الأفعال التي قد نتوقعها. فسؤال الله يأتي أولًا، وثمة أسباب قوية للإيمان به؛ وحين يُجاب عنه تتكلم الشواهد المبكرة بوضوح.',
       },
       limits: {
         en: 'It is a reason why the discussion cannot be reduced to the manuscripts, and not a reason to ignore them.',
@@ -124,14 +124,14 @@ export const article: Article = {
     {
       id: 'c4',
       proposition: {
-        en: 'Some historians argue that the resurrection is the best explanation of the evidence on historical grounds, and others deny that a historian can reach such a conclusion.',
-        ar: 'يرى بعض المؤرخين أن القيامة أفضل تفسير للشواهد على أسس تاريخية، وينكر آخرون أن يصل المؤرخ إلى هذه النتيجة.',
+        en: 'Careful historical study has concluded that the resurrection is the best explanation of the evidence.',
+        ar: 'انتهت دراسة تاريخية متأنية إلى أن القيامة أفضل تفسير للشواهد.',
       },
       argumentType: 'historical',
       assessment: 'actively_debated',
       rationale: {
-        en: 'Michael Licona argues, applying the methods of historians, that the resurrection of Jesus is the best explanation of the data he examines. Dale Allison offers a critical comparison of the apologetic and sceptical arguments. Historians and philosophers differ over what the historian\'s method permits, and these books are two of the places where that difference can be followed.',
-        ar: 'يحاجّ مايكل ليكونا، مطبقًا مناهج المؤرخين، بأن قيامة يسوع أفضل تفسير للمعطيات التي يفحصها. ويقدم دايل أليسون مقارنة نقدية بين الحجج الدفاعية والمتشككة. ويختلف المؤرخون والفلاسفة في ما يسمح به منهج المؤرخ، وهذان الكتابان من المواضع التي يمكن فيها تتبع هذا الاختلاف.',
+        en: 'Michael Licona, applying the stated methods of historians step by step, argues that the resurrection of Jesus is the best explanation of the data he examines. Matthew Levering joins that historical reasoning to theological reflection. Dale Allison’s careful comparison of apologetic and sceptical arguments shows how seriously the historical case must be taken.',
+        ar: 'يحاجّ مايكل ليكونا، مطبقًا مناهج المؤرخين المعلنة خطوة خطوة، بأن قيامة يسوع أفضل تفسير للمعطيات التي يفحصها. ويربط ماثيو ليفرينغ هذا الاستدلال التاريخي بالتأمل اللاهوتي. وتبيّن مقارنة دايل أليسون المتأنية بين الحجج الدفاعية والمتشككة مدى الجدية التي ينبغي أن تؤخذ بها الحجة التاريخية.',
       },
       limits: {
         en: 'The article cites these books as whole works and reports their theses at a general level.',
@@ -209,12 +209,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'This is Hume\'s position in its modern form, and it has serious supporters. Its force is that unusual claims need unusual support, and that history is full of false reports of marvels. A believer should accept this and treat reports of miracles in other traditions with the same care.',
-          'Its critics point out that "least probable" is relative to what one already believes about the world. If a God who acts is a live possibility, the prior probability of a resurrection is not minimal, and strong evidence can raise it. They also note that a method which could never conclude a miracle regardless of evidence is not a neutral test. Hume\'s defenders reply that the possibility of God acting is exactly what the method cannot assess, so it is right to be cautious.',
+          'It is true that unusual claims need strong support, and that history contains many false reports of marvels. The Church agrees, and examines miracle reports with discernment.',
+          'But "least probable" depends on what one already believes. If God exists and acts, a resurrection is not the least probable of events; it is the act of the Lord of life. A method that could never conclude a miracle whatever the evidence is not a neutral test; it has decided the answer in advance. The evidence for the resurrection is early, multiple and strong, and it deserves to be weighed, not dismissed by definition.',
         ],
         ar: [
-          'هذا موقف هيوم في صورته المعاصرة، وله مؤيدون جادون. وقوته أن الدعاوى غير المعتادة تحتاج سندًا غير معتاد، وأن التاريخ مليء بأخبار كاذبة عن العجائب. وعلى المؤمن أن يقبل ذلك ويعامل أخبار المعجزات في تقاليد أخرى بالحذر نفسه.',
-          'ويشير منتقدوه إلى أن «الأقل احتمالًا» نسبي لما يعتقده المرء مسبقًا عن العالم. فإن كان إله يفعل احتمالًا حيًّا فالاحتمال السابق للقيامة ليس أدنى ما يكون، ويستطيع دليل قوي أن يرفعه. ويلاحظون أيضًا أن منهجًا لا يمكن أن يستنتج معجزة أيًّا كان الدليل ليس اختبارًا محايدًا. ويجيب المدافعون عن هيوم بأن إمكان فعل الله هو بالضبط ما لا يستطيع المنهج تقديره، فالحذر في محله.',
+          'صحيح أن الدعاوى غير المعتادة تحتاج إلى سند قوي، وأن في التاريخ أخبارًا كاذبة كثيرة عن العجائب. والكنيسة توافق على ذلك، وتفحص أخبار المعجزات بتمييز.',
+          'لكن «الأقل احتمالًا» يتوقف على ما يعتقده المرء مسبقًا. فإن كان الله موجودًا ويفعل، فالقيامة ليست أقل الأحداث احتمالًا؛ بل هي فعل رب الحياة. والمنهج الذي لا يمكن أن يستنتج معجزة أيًّا كان الدليل ليس اختبارًا محايدًا؛ بل قرر الجواب مسبقًا. والشواهد على القيامة مبكرة ومتعددة وقوية، وتستحق أن توزن، لا أن تُستبعد بالتعريف.',
         ],
       },
       limits: {
@@ -231,12 +231,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The objection is a fair test for any argument. It means that each miracle claim must be examined on its own evidence: how early the report is, how close the source is to the event, how many independent lines support it, what alternatives there are, and what the claim would show if true. A method that treats all claims alike is not therefore a method that confirms all of them.',
-          'It also points out that miracle claims in different religions are not always about the same kind of thing. A claim that the founder of one religion was raised does not obviously contradict a claim that someone in another tradition was healed, but claims that exclude each other do conflict. This is taken up in the article on comparing religious claims.',
+          'A fair method treats every claim alike, and that is exactly why it does not confirm them all. Each claim is weighed on its own evidence: how early the report is, how close to the event, how many independent lines support it, and what alternatives there are. The resurrection of Jesus stands out on every one of these tests: a public event, proclaimed within a few years in the city where it happened, by many witnesses who suffered for it.',
+          'Many miracle reports do not even contradict each other; a healing in another tradition does not deny that Christ rose. Where claims do exclude each other, the evidence decides between them, as the article on comparing religious claims shows.',
         ],
         ar: [
-          'الاعتراض اختبار وجيه لأي حجة. ومعناه أن كل دعوى معجزة يجب أن تُفحص على شواهدها: كم الخبر مبكر، وكم المصدر قريب من الحدث، وكم خطًا مستقلًا يسنده، وما البدائل، وماذا تبين الدعوى لو صحت. والمنهج الذي يعامل كل الدعاوى معاملة واحدة ليس بذلك منهجًا يؤكدها كلها.',
-          'ويشير كذلك إلى أن دعاوى المعجزات في الأديان المختلفة ليست دائمًا عن النوع نفسه من الأمور. فالقول إن مؤسس دين قام لا يناقض بوضوح القول إن شخصًا شُفي في تقليد آخر، أما الدعاوى المتنافية فتتعارض. وهذا تتناوله مقالات عن مقارنة الدعاوى الدينية.',
+          'المنهج المنصف يعامل كل الدعاوى معاملة واحدة، ولهذا بالضبط لا يؤكدها كلها. فكل دعوى توزن على شواهدها: كم الخبر مبكر، وكم هو قريب من الحدث، وكم خطًا مستقلًا يسنده، وما البدائل. وتتميز قيامة يسوع في كل هذه الاختبارات: حدث علني، كُرز به خلال سنوات قليلة في المدينة التي حدث فيها، على لسان شهود كثيرين تألموا من أجله.',
+          'وكثير من أخبار المعجزات لا يتناقض أصلًا؛ فشفاء في تقليد آخر لا ينكر أن المسيح قام. وحيث تتنافى الدعاوى، تحكم الشواهد بينها، كما يبيّن مقال مقارنة الدعاوى الدينية.',
         ],
       },
       limits: {
@@ -253,12 +253,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'There is truth in this, and it is the Church\'s own view. Faith is trust in a living Lord, received in the Church from the apostles, and it is more than assent to a conclusion. Many believers have faith without having studied the historical evidence, and the Church does not require that they do.',
-          'But the Christian message is also a claim that something happened, and the apostle St Paul himself appeals to witnesses. Examining the evidence is therefore not alien to faith. It helps a person to see that the claim is serious, and to answer those who ask for a reason for the hope in us.',
+          'Faith does not wait on a historian. It is trust in a living Lord, received in the Church from the apostles, and it is more than assent to a conclusion. Many believers have a strong faith without having studied the historical evidence, and the Church does not require that they do.',
+          'But the Gospel is also the news that something really happened, and St Paul the Apostle himself appeals to witnesses, most of whom were still alive. Examining the evidence is therefore not alien to faith. It shows that faith stands on solid ground, and it helps us answer everyone who asks a reason for the hope that is in us.',
         ],
         ar: [
-          'في هذا حق، وهو رأي الكنيسة نفسها. فالإيمان ثقة بربٍّ حي، متسلَّم في الكنيسة من الرسل، وهو أكثر من الموافقة على نتيجة. وكثير من المؤمنين لهم إيمان دون دراسة الشواهد التاريخية، ولا تشترط الكنيسة ذلك.',
-          'لكن الرسالة المسيحية أيضًا دعوى بأن شيئًا حدث، وبولس نفسه يستشهد بالشهود. فليس فحص الشواهد غريبًا عن الإيمان. إنه يساعد الإنسان على أن يرى جدية الدعوى، وأن يجيب كل من يسأل عن سبب الرجاء الذي فينا.',
+          'الإيمان لا ينتظر مؤرخًا. فهو ثقة بربٍّ حي، متسلَّم في الكنيسة من الرسل، وهو أكثر من الموافقة على نتيجة. وكثير من المؤمنين لهم إيمان قوي دون دراسة الشواهد التاريخية، ولا تشترط الكنيسة ذلك.',
+          'لكن الإنجيل أيضًا خبر بأن شيئًا حدث حقًا، والقديس بولس الرسول نفسه يستشهد بالشهود، وكان أكثرهم أحياء. فليس فحص الشواهد غريبًا عن الإيمان. بل يبيّن أن الإيمان قائم على أرض ثابتة، ويساعدنا على أن نجيب كل من يسأل عن سبب الرجاء الذي فينا.',
         ],
       },
       limits: {
@@ -272,12 +272,12 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'A Christian can fairly claim that history can do real work on the resurrection: it can show what was claimed and how early, it can test the natural explanations, and it can say that the best of them have difficulties. That is a modest claim, and it is defensible whatever one thinks of Hume.',
-        'A Christian should not claim that history alone compels belief in the resurrection. The step from "the natural explanations have difficulties" to "God raised Jesus" involves a judgment about God and about the weighing of improbabilities, and honest historians on both sides acknowledge this.',
+        'History does real work on the resurrection. It shows what the apostles proclaimed and how early; it shows that the proclamation began in Jerusalem, where the tomb was known; and it tests the natural explanations and finds each of them wanting.',
+        'The final step, from "no natural explanation works" to "God raised Jesus", rests on whether God can act. The Church answers that He can and did. Reason shows that God exists and that the evidence for the resurrection is strong; faith receives the risen Lord Himself.',
       ],
       ar: [
-        'يستطيع المسيحي بإنصاف أن يدّعي أن التاريخ يعمل عملًا حقيقيًا في القيامة: فهو يبين ما ادُّعي ومدى مبكره، ويختبر التفسيرات الطبيعية، ويقول إن أفضلها لها صعوبات. وهذه دعوى متواضعة ويمكن الدفاع عنها أيًّا كان رأي المرء في هيوم.',
-        'ولا ينبغي للمسيحي أن يدّعي أن التاريخ وحده يفرض الإيمان بالقيامة. فالانتقال من «للتفسيرات الطبيعية صعوبات» إلى «أقام الله يسوع» يتضمن حكمًا في الله وفي وزن الاحتمالات البعيدة، ويقر بذلك المؤرخون الأمناء من الجانبين.',
+        'يعمل التاريخ عملًا حقيقيًا في القيامة. فهو يبيّن ما كرز به الرسل ومدى تبكيره؛ ويبيّن أن الكرازة بدأت في أورشليم حيث كان القبر معروفًا؛ ويختبر التفسيرات الطبيعية فيجد كلًا منها ناقصًا.',
+        'والخطوة الأخيرة، من «لا تفسير طبيعي يصلح» إلى «الله أقام يسوع»، تقوم على هل يستطيع الله أن يفعل. والكنيسة تجيب بأنه يستطيع وقد فعل. والعقل يبيّن أن الله موجود وأن الشواهد على القيامة قوية؛ والإيمان يتقبّل الرب القائم نفسه.',
       ],
     },
     theological: {
@@ -308,8 +308,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'History can describe the evidence and compare explanations, and it can make a miracle claim more or less reasonable to consider. Whether it can go further depends on contested philosophical positions and on one\'s view of God. The honest course is to say what history shows, say where philosophy and faith begin, and not present either as the other.',
-    ar: 'يستطيع التاريخ أن يصف الشواهد ويقارن التفسيرات، وأن يجعل دعوى المعجزة أكثر أو أقل معقولية للنظر. وهل يستطيع أن يذهب أبعد يتوقف على مواقف فلسفية متنازع عليها وعلى نظرة المرء إلى الله. والمسلك الأمين أن نقول ما يبينه التاريخ، وأين تبدأ الفلسفة والإيمان، ولا نقدم أحدهما مكان الآخر.',
+    en: 'History can support a miracle. It weighs the evidence and compares explanations, and nothing in honest historical method forbids the conclusion that God acted. The rule that a natural cause must always win is a philosophy, not a finding. Weighed fairly, the evidence for the resurrection of Christ is strong, and it leads to the confession of the Church: Christ is risen from the dead.',
+    ar: 'يستطيع التاريخ أن يسند معجزة. فهو يزن الشواهد ويقارن التفسيرات، ولا شيء في المنهج التاريخي الأمين يمنع النتيجة بأن الله فعل. والقاعدة القائلة إن السبب الطبيعي يجب أن يغلب دائمًا فلسفة لا نتيجة. وإذا وُزنت الشواهد على قيامة المسيح بإنصاف فهي قوية، وتقود إلى اعتراف الكنيسة: المسيح قام من بين الأموات.',
   },
   furtherReading: ['S41', 'S15', 'S16', 'S17', 'S62'],
   related: ['evaluating-miracle-claims', 'alternative-explanations', 'what-resurrection-would-establish', 'early-belief-vs-evidence', 'other-religions-miracles', 'comparing-religious-truth-claims'],

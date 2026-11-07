@@ -15,23 +15,23 @@ export const article: Article = {
     ar: 'تشرح هذه المقالة تمييزًا يمرّ في كل نقاش مشكلة الشر: الأذى الذي يصنعه فاعلون أحرار (الشر الأخلاقي) والأذى الذي يأتي من الطبيعة (الشر الطبيعي أو الألم الطبيعي). وتبيّن لماذا يفصل الفلاسفة بينهما، ولماذا يهم هذا الفصل لدفاع الإرادة الحرة، وأين يُعترض عليه، وكيف يتناول الكتاب المقدس والتقليد الأرثوذكسي الطبيعة بوصفها جزءًا من عالم ساقط ينتظر التجديد. ولا تدّعي أنها تفسّر كارثة بعينها أو مرضًا بعينه.',
   },
   shortAnswer: {
-    en: 'Moral evil is suffering caused by the wrongful choices of people: cruelty, war, theft, abuse. Natural suffering is suffering caused by processes with no human choice behind them: earthquakes, floods, disease, the pain of animals. The distinction matters because the free-will defence speaks mainly to the first, since harm done freely can be traced to a free agent. It speaks much less directly to the second, which is why Christian thought adds other considerations: a regular natural order, the idea that creation shares in the fall and awaits renewal, and the hope of the resurrection. The lines are not always clean (a famine may combine drought with injustice), and the distinction is a tool, not an explanation.',
-    ar: 'الشر الأخلاقي هو الألم الناتج عن اختيارات الناس الخاطئة: القسوة والحرب والسرقة والاعتداء. والألم الطبيعي هو الألم الناتج عن عمليات لا اختيار بشريًا وراءها: الزلازل والفيضانات والأمراض وألم الحيوان. وللتمييز أهمية لأن دفاع الإرادة الحرة يخاطب الأول أساسًا، إذ يمكن إرجاع الأذى الواقع بحرية إلى فاعل حر. أما الثاني فيخاطبه بصورة أقل مباشرة بكثير، ولذلك يضيف الفكر المسيحي اعتبارات أخرى: نظامًا طبيعيًا منتظمًا، وفكرة أن الخليقة شاركت في السقوط وتنتظر التجديد، ورجاء القيامة. والحدود ليست دائمًا واضحة (فقد تجتمع في مجاعة سنة الجفاف مع الظلم)، والتمييز أداة وليس تفسيرًا.',
+    en: 'Moral evil is suffering caused by the wrong choices of people: cruelty, war, theft, abuse. Natural suffering comes from processes with no human choice behind them: earthquakes, floods, disease, the pain of animals. The distinction helps us answer each rightly. Moral evil comes from the misuse of freedom, which God gave because love must be free. Natural suffering belongs to a creation that, as St Paul the Apostle teaches, groans because of humanity’s turning from God and waits to be set free. God does not leave either kind unanswered: in Christ He enters our suffering, defeats death by His resurrection, and promises to make all things new.',
+    ar: 'الشر الأخلاقي هو الألم الناتج عن اختيارات الناس الخاطئة: القسوة والحرب والسرقة والاعتداء. والألم الطبيعي يأتي من عمليات لا اختيار بشريًا وراءها: الزلازل والفيضانات والأمراض وألم الحيوان. ويساعدنا التمييز على الإجابة عن كل منهما إجابة صحيحة. فالشر الأخلاقي يأتي من إساءة استعمال الحرية التي وهبها الله لأن المحبة لا بد أن تكون حرة. والألم الطبيعي ينتمي إلى خليقة، كما يعلّم القديس بولس الرسول، تئن بسبب ابتعاد الإنسان عن الله وتنتظر أن تُعتق. والله لا يترك أيًّا منهما بلا جواب: ففي المسيح يدخل آلامنا، ويغلب الموت بقيامته، ويعد بأن يجعل كل شيء جديدًا.',
   },
   quickPoints: {
     en: [
-      'Moral evil comes from free agents’ wrong choices; natural suffering comes from nature and has no human wrongdoer behind it.',
-      'The free-will defence is chiefly an answer about moral evil. It does not by itself account for earthquakes, disease or animal pain.',
-      'Many cases are mixed: the number who die in a disaster often depends on poverty, building choices and warnings that went unheeded.',
-      'The Bible links human sin and the state of creation, and looks to a renewal of creation, not only of persons.',
-      'The distinction helps one see what each reply can and cannot do; it does not make the suffering any smaller.',
+      'Moral evil comes from the wrong choices of free agents; natural suffering comes from nature and has no human wrongdoer behind it.',
+      'Freedom answers moral evil: God made creatures able to love, and so able to refuse.',
+      'Natural suffering belongs to a creation that, in the Church’s faith, shares in the consequences of humanity’s turning from God and awaits renewal (Romans 8).',
+      'Many cases are mixed: how many die in a disaster often depends on poverty, building choices and warnings unheeded, so the call to help is part of the answer.',
+      'The Lord teaches that those who suffer disaster are not worse sinners than others (Luke 13), and His resurrection is the beginning of creation’s renewal.',
     ],
     ar: [
       'يأتي الشر الأخلاقي من اختيارات خاطئة لفاعلين أحرار؛ ويأتي الألم الطبيعي من الطبيعة ولا يقف وراءه إنسان مخطئ.',
-      'دفاع الإرادة الحرة جواب عن الشر الأخلاقي أساسًا. وهو لا يفسّر وحده الزلازل والأمراض وألم الحيوان.',
-      'كثير من الحالات مختلطة: فعدد الضحايا في كارثة كثيرًا ما يتوقف على الفقر وقرارات البناء وتحذيرات لم يُصغَ إليها.',
-      'يربط الكتاب المقدس بين خطية الإنسان وحال الخليقة، ويتطلع إلى تجديد الخليقة لا الأشخاص فقط.',
-      'يساعد التمييز على رؤية ما يقدر عليه كل رد وما لا يقدر؛ وهو لا يجعل الألم أصغر.',
+      'الحرية تجيب عن الشر الأخلاقي: فقد خلق الله مخلوقات قادرة على المحبة، ولذلك قادرة على الرفض.',
+      'الألم الطبيعي ينتمي إلى خليقة تشارك، في إيمان الكنيسة، في نتائج ابتعاد الإنسان عن الله وتنتظر التجديد (رومية ٨).',
+      'كثير من الحالات مختلطة: فعدد الضحايا في كارثة كثيرًا ما يتوقف على الفقر وقرارات البناء وتحذيرات لم يُصغَ إليها، فالدعوة إلى المعونة جزء من الجواب.',
+      'يعلّم الرب أن الذين تصيبهم الكوارث ليسوا أشد خطية من غيرهم (لوقا ١٣)، وقيامته بداية تجديد الخليقة.',
     ],
   },
   argumentTypes: ['philosophical', 'theological'],
@@ -44,22 +44,22 @@ export const article: Article = {
   },
   whyExamine: {
     en: [
-      'People often talk past one another about suffering because they have different cases in mind. One person is thinking of a murder; another of a child’s cancer. The first can be traced to a decision. The second cannot, and a reply that suits the one may sound hollow about the other.',
-      'Separating them is not a way of avoiding the harder case. It is a way of saying clearly what a given reply covers, and of seeing where the Christian tradition has needed to say more.',
+      'People often talk past one another about suffering because they have different cases in mind. One is thinking of a murder; another of a child’s cancer. The first can be traced to a decision; the second cannot. An answer suited to one can sound hollow about the other.',
+      'Separating them lets the Christian answer each with the right words: freedom and responsibility for the first, the groaning of creation and the hope of its renewal for the second, and Christ’s cross and resurrection for both.',
     ],
     ar: [
-      'كثيرًا ما يتحدث الناس عن الألم دون أن يتلاقوا لأن في بالهم حالات مختلفة. أحدهم يفكر في جريمة قتل، وآخر في سرطان طفل. الأولى يمكن إرجاعها إلى قرار. والثانية لا، والرد الذي يلائم الأولى قد يبدو فارغًا بشأن الثانية.',
-      'والفصل بينهما ليس تهربًا من الحالة الأصعب. إنه طريقة لقول ما يغطيه رد بعينه بوضوح، ولرؤية الموضع الذي احتاج فيه التقليد المسيحي إلى قول المزيد.',
+      'كثيرًا ما يتحدث الناس عن الألم دون أن يتلاقوا لأن في بالهم حالات مختلفة. أحدهم يفكر في جريمة قتل، وآخر في سرطان طفل. الأولى يمكن إرجاعها إلى قرار؛ والثانية لا. والجواب الذي يلائم الأولى قد يبدو فارغًا بشأن الثانية.',
+      'والفصل بينهما يتيح للمسيحي أن يجيب عن كل منهما بالكلمات المناسبة: الحرية والمسؤولية للأولى، وأنين الخليقة ورجاء تجديدها للثانية، وصليب المسيح وقيامته لكلتيهما.',
     ],
   },
   background: {
     en: [
       'In the standard treatment, moral evil is evil that results from the free actions of agents who could have done otherwise; natural evil is suffering that results from natural processes such as disease, earthquakes and predation. The Stanford Encyclopedia entry on the problem of evil (S42) uses the distinction in setting out the main replies and the objections to them.',
-      'The free-will defence, developed by Alvin Plantinga (S40, cited as a whole work), is aimed at the logical problem and works most plainly for moral evil. For natural evil, defenders have proposed several lines: that the regularity of nature is a condition for rational action and for moral growth; that creation participates in the consequences of human turning from God, as the Bible suggests; and that some natural evils may be due to created beings other than humans who also have freedom. These suggestions are contested, and some philosophers hold that natural evil is the more serious form of the argument against God.',
+      'The free-will defence, developed by Alvin Plantinga (S40, cited as a whole work), is aimed at the logical problem and works most plainly for moral evil. For natural evil, defenders have proposed several lines: that the regularity of nature is a condition for rational action and for moral growth; that creation participates in the consequences of human turning from God, as the Bible teaches; and that some natural evils may be due to created beings other than humans who also have freedom.',
     ],
     ar: [
       'في المعالجة المعيارية، الشر الأخلاقي هو الشر الناتج عن أفعال حرة لفاعلين كان بوسعهم أن يفعلوا غير ذلك؛ والشر الطبيعي هو الألم الناتج عن عمليات طبيعية كالمرض والزلازل والافتراس. ويستعمل مدخل موسوعة ستانفورد عن مشكلة الشر (S42) هذا التمييز في عرض أهم الردود والاعتراضات عليها.',
-      'ودفاع الإرادة الحرة، الذي طوّره ألفن بلانتينغا (S40، ويُستشهد به كعمل كامل)، موجَّه إلى المشكلة المنطقية، وهو يعمل بوضوح أكبر مع الشر الأخلاقي. وفي الشر الطبيعي اقترح المدافعون خطوطًا عدة: أن انتظام الطبيعة شرط للفعل العاقل وللنمو الأخلاقي؛ وأن الخليقة تشارك في نتائج ابتعاد الإنسان عن الله كما يوحي الكتاب المقدس؛ وأن بعض الشرور الطبيعية قد يعود إلى كائنات مخلوقة غير بشرية لها حرية أيضًا. وهذه الاقتراحات محل خلاف، ويرى بعض الفلاسفة أن الشر الطبيعي هو الصيغة الأخطر للحجة ضد الله.',
+      'ودفاع الإرادة الحرة، الذي طوّره ألفن بلانتينغا (S40، ويُستشهد به كعمل كامل)، موجَّه إلى المشكلة المنطقية، وهو يعمل بوضوح أكبر مع الشر الأخلاقي. وفي الشر الطبيعي اقترح المدافعون خطوطًا عدة: أن انتظام الطبيعة شرط للفعل العاقل وللنمو الأخلاقي؛ وأن الخليقة تشارك في نتائج ابتعاد الإنسان عن الله كما يعلّم الكتاب المقدس؛ وأن بعض الشرور الطبيعية قد يعود إلى كائنات مخلوقة غير بشرية لها حرية أيضًا.',
     ],
   },
   glossary: ['theodicy', 'theism', 'resurrection', 'crucifixion'],
@@ -74,8 +74,8 @@ export const article: Article = {
       argumentType: 'philosophical',
       assessment: 'philosophical_argument',
       rationale: {
-        en: 'The distinction organises the reference treatment of the problem (S42). Its use does not depend on a side being taken in the debate.',
-        ar: 'ينظّم التمييز المعالجة المرجعية للمشكلة (S42). واستعماله لا يتوقف على اتخاذ موقف في النقاش.',
+        en: 'The distinction organises the standard reference treatment of the problem (S42). It is a clear tool that lets each kind of suffering receive its proper answer.',
+        ar: 'ينظّم التمييز المعالجة المرجعية المعتادة للمشكلة (S42). وهو أداة واضحة تتيح لكل نوع من الألم أن ينال جوابه المناسب.',
       },
       limits: {
         en: 'Many cases are mixed, and some philosophers question whether the line can be drawn as sharply as the terms suggest.',
@@ -86,14 +86,14 @@ export const article: Article = {
     {
       id: 'c2',
       proposition: {
-        en: 'The free-will defence bears directly on moral evil and only indirectly on natural suffering.',
-        ar: 'يمس دفاع الإرادة الحرة الشر الأخلاقي مباشرة، ولا يمس الألم الطبيعي إلا بصورة غير مباشرة.',
+        en: 'Freedom answers moral evil directly; natural suffering needs the fuller Christian account of creation, fall and renewal.',
+        ar: 'تجيب الحرية عن الشر الأخلاقي مباشرة؛ أما الألم الطبيعي فيحتاج إلى العرض المسيحي الأوفى للخليقة والسقوط والتجديد.',
       },
       argumentType: 'philosophical',
       assessment: 'philosophical_argument',
       rationale: {
-        en: 'The defence appeals to the value of free, responsible creatures, so it explains why God might permit the abuse of freedom. Natural events involve no such abuse. Plantinga’s work (S40) is the standard statement, and the reference entry (S42) discusses the extension of the defence to natural evil.',
-        ar: 'يحتكم الدفاع إلى قيمة المخلوقات الحرة المسؤولة، فيفسّر لماذا قد يسمح الله بإساءة استعمال الحرية. والأحداث الطبيعية لا إساءة فيها. وعمل بلانتينغا (S40) هو العرض المعتاد، ويناقش المدخل المرجعي (S42) توسيع الدفاع ليشمل الشر الطبيعي.',
+        en: 'The free-will defence appeals to the value of free, responsible creatures, and so shows why God permits the abuse of freedom. Plantinga’s work (S40) is the standard statement. Natural events involve no abuse of freedom, so the Christian answer to them rests on the regular order of creation and on the Bible’s teaching about a creation that groans and awaits renewal.',
+        ar: 'يحتكم دفاع الإرادة الحرة إلى قيمة المخلوقات الحرة المسؤولة، فيبيّن لماذا يسمح الله بإساءة استعمال الحرية. وعمل بلانتينغا (S40) هو العرض المعتاد. والأحداث الطبيعية لا إساءة حرية فيها، فيقوم الجواب المسيحي عنها على النظام المنتظم للخليقة وعلى تعليم الكتاب عن خليقة تئن وتنتظر التجديد.',
       },
       limits: {
         en: 'Defenders propose extensions, and critics doubt them. The claim describes the structure of the argument and does not say whether the extensions succeed.',
@@ -110,8 +110,8 @@ export const article: Article = {
       argumentType: 'textual',
       assessment: 'supported_disputed_details',
       rationale: {
-        en: 'Genesis, Romans and the Gospels contain these elements. How they fit together, especially the relation of the fall to the natural world as science describes it, is read in different ways by Christians.',
-        ar: 'تتضمن التكوين ورومية والأناجيل هذه العناصر. وكيف تتلاءم معًا، ولا سيما علاقة السقوط بالعالم الطبيعي كما يصفه العلم، يقرؤه المسيحيون قراءات مختلفة.',
+        en: 'Genesis calls creation very good and then tells of the ground cursed after the man’s disobedience; St Paul the Apostle says creation groans and waits to be freed from decay; and the Lord Himself refuses to read a disaster as proof of the victims’ guilt. Together these give a clear picture: hardship is not original, it is bound up with humanity’s fall, and it is not the last word.',
+        ar: 'يدعو سفر التكوين الخليقة حسنة جدًا، ثم يروي أن الأرض لُعنت بعد عصيان الإنسان؛ ويقول القديس بولس الرسول إن الخليقة تئن وتنتظر أن تُعتق من الفساد؛ ويرفض الرب نفسه أن يقرأ الكارثة دليلًا على ذنب الضحايا. وهذه معًا تعطي صورة واضحة: المشقة ليست أصلية، وهي مرتبطة بسقوط الإنسان، وليست الكلمة الأخيرة.',
       },
       limits: {
         en: 'The article reads these texts as ancient documents. It does not claim that the Genesis account is a scientific account of natural history.',
@@ -128,8 +128,8 @@ export const article: Article = {
       argumentType: 'theological',
       assessment: 'theological_interpretation',
       rationale: {
-        en: 'St Athanasius describes creatures as made from nothing and held in being by the Word, and the incarnation as the renewal of what had fallen into corruption.',
-        ar: 'يصف القديس أثناسيوس المخلوقات بأنها مصنوعة من العدم وممسوكة في الوجود بالكلمة، ويصف التجسد تجديدًا لما سقط في الفساد.',
+        en: 'St Athanasius teaches that creatures were made from nothing and are held in being by the Word, that turning from God brought corruption, and that the incarnation renews what had fallen into corruption. Christ heals not only souls but nature itself.',
+        ar: 'يعلّم القديس أثناسيوس أن المخلوقات صُنعت من العدم وهي ممسوكة في الوجود بالكلمة، وأن الابتعاد عن الله جلب الفساد، وأن التجسد يجدد ما سقط في الفساد. فالمسيح لا يشفي النفوس فقط بل الطبيعة نفسها.',
       },
       limits: {
         en: 'This is the Church’s interpretation. It is not a scientific explanation of why a given earthquake or illness occurs.',
@@ -238,12 +238,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'This is a serious point, and Christians respond to it in different ways. Some read the fall as the beginning of death for human beings and a symbol of a wider disorder; others hold that creation, from its beginning, was good but unfinished and moving toward renewal; others suggest that evil powers or created beings other than humans have affected nature. The Church has not defined one scientific-historical account.',
-          'What these approaches share is that they do not assert that a particular disaster is a punishment. They place nature’s hardship within a creation that is fallen or incomplete and that God has promised to renew.',
+          'The Church does not teach that each animal’s pain is a punishment for a human sin. It teaches that all creation is bound up with humanity, made to be offered to God through us, and that humanity’s turning from God is felt throughout creation. St Paul the Apostle says that creation was subjected to futility in hope and groans as it waits for freedom. The Church has not tied this faith to one scientific timeline.',
+          'The heart of the answer is not a timeline but a promise. Nature’s hardship belongs to a creation that is not yet what God will make it, and Christ, risen in the body, is the firstfruits of its renewal.',
         ],
         ar: [
-          'هذه نقطة جادة، ويجيب عنها المسيحيون بطرق مختلفة. فبعضهم يقرأ السقوط بداية الموت للإنسان ورمزًا لاضطراب أوسع؛ وآخرون يرون أن الخليقة منذ بدايتها حسنة لكنها غير مكتملة وسائرة نحو التجديد؛ وآخرون يقترحون أن قوى شريرة أو كائنات مخلوقة غير بشرية أثّرت في الطبيعة. ولم تحدد الكنيسة عرضًا علميًا تاريخيًا واحدًا.',
-          'وما تشترك فيه هذه المقاربات أنها لا تدّعي أن كارثة بعينها عقاب. إنها تضع مشقة الطبيعة في خليقة ساقطة أو غير مكتملة وعد الله بتجديدها.',
+          'لا تعلّم الكنيسة أن ألم كل حيوان عقاب على خطية بشرية. بل تعلّم أن الخليقة كلها مرتبطة بالإنسان، وقد خُلقت لتُقدَّم لله من خلاله، وأن ابتعاد الإنسان عن الله يُحس به في الخليقة كلها. ويقول القديس بولس الرسول إن الخليقة أُخضعت للباطل على رجاء، وهي تئن منتظرة الحرية. ولم تربط الكنيسة هذا الإيمان بجدول زمني علمي واحد.',
+          'وقلب الجواب ليس جدولًا زمنيًا بل وعد. فمشقة الطبيعة تنتمي إلى خليقة لم تصر بعد ما سيجعلها الله إياه، والمسيح، القائم بالجسد، باكورة تجديدها.',
         ],
       },
       limits: {
@@ -260,12 +260,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'Defenders reply that a world in which nature continually bent to prevent harm would be one in which no one could predict the effects of an action, so that choices would carry no real weight, and that regular laws are the condition of knowledge, skill and moral growth. They also suggest that one cannot easily say how much hardship could be removed without losing these goods.',
-          'Critics reply that this explains at most a general regularity, not the amount or the severity of the harm, and not the suffering of those who cannot benefit from it.',
+          'A world in which nature continually bent to prevent harm would be a world in which no one could foresee the effects of an action, so choices would carry no real weight. Regular laws are the condition of knowledge, skill, responsibility and love in action. We are not in a position to say how much hardship could be removed without losing these goods.',
+          'Above all, the Christian does not claim that this present world is the final one. God has promised a new creation without death or tears, and in the risen Christ that promise has already begun.',
         ],
         ar: [
-          'يرد المدافعون بأن عالمًا تنحني فيه الطبيعة باستمرار لمنع الأذى سيكون عالمًا لا يستطيع فيه أحد أن يتنبأ بنتائج فعله، فلا يكون لاختياراته وزن حقيقي، وبأن القوانين المنتظمة شرط للمعرفة والمهارة والنمو الأخلاقي. ويقترحون أيضًا أنه لا يسهل القول كم من المشقة يمكن إزالته دون خسارة هذه الخيرات.',
-          'ويرد الناقدون بأن هذا يفسّر على أكثر تقدير انتظامًا عامًا، لا مقدار الأذى ولا شدته، ولا ألم من لا يستفيدون منه.',
+          'العالم الذي تنحني فيه الطبيعة باستمرار لمنع الأذى عالم لا يستطيع فيه أحد أن يتوقع نتائج فعله، فلا يكون للاختيارات وزن حقيقي. والقوانين المنتظمة شرط للمعرفة والمهارة والمسؤولية والمحبة العاملة. ولسنا في موضع يسمح لنا أن نقول كم من المشقة يمكن إزالته دون خسارة هذه الخيرات.',
+          'وفوق كل شيء، لا يدّعي المسيحي أن هذا العالم الحاضر هو الأخير. فقد وعد الله بخليقة جديدة بلا موت ولا دموع، وفي المسيح القائم بدأ هذا الوعد بالفعل.',
         ],
       },
       limits: {
@@ -282,12 +282,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'This is right as far as it goes, and it is why the article calls the distinction a tool. The Bible itself does not blame the victims, and a Christian reading of disaster includes the duty of those who are able to help, to prepare and to relieve.',
-          'Even where the lines blur, the two ends remain: a deliberate act of cruelty and an illness with no one to blame are different in kind, and different replies apply.',
+          'This is true, and it is why the distinction is a tool and not a verdict. The Lord Himself refuses to blame the victims of the falling tower, and the Christian reading of disaster includes the duty of all who are able to help, to prepare and to relieve.',
+          'Even where the lines blur, the two ends remain: a deliberate act of cruelty and an illness with no one to blame differ in kind, and each receives its own answer.',
         ],
         ar: [
-          'هذا صحيح في حدوده، ولذلك تسمّي المقالة التمييز أداة. والكتاب المقدس نفسه لا يلوم الضحايا، والقراءة المسيحية للكارثة تتضمن واجب القادرين على المعونة والاستعداد والإغاثة.',
-          'وحتى حيث تتداخل الحدود يبقى الطرفان: فعل قسوة متعمد ومرض لا يمكن لوم أحد عليه مختلفان في النوع، وتنطبق عليهما ردود مختلفة.',
+          'هذا صحيح، ولذلك فالتمييز أداة لا حكم. فالرب نفسه يرفض لوم ضحايا البرج الساقط، والقراءة المسيحية للكارثة تتضمن واجب كل القادرين على المعونة والاستعداد والإغاثة.',
+          'وحتى حيث تتداخل الحدود يبقى الطرفان: فعل قسوة متعمد ومرض لا يُلام عليه أحد مختلفان في النوع، ولكل منهما جوابه.',
         ],
       },
       limits: {
@@ -301,20 +301,20 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'There is no historical argument to set out here. The question is conceptual and theological. How the fall relates to what natural science says about the age of the earth and the history of life is discussed in the articles on creation and evolution.',
+        'This question is about meaning rather than historical events. What history does show is how the Lord taught about disaster: asked about victims of violence and of a falling tower, He refused to call them worse sinners and turned His hearers to repentance (Luke 13). How the fall relates to the long history of life is treated in the articles on creation and evolution.',
       ],
       ar: [
-        'لا توجد حجة تاريخية تُعرض هنا. فالسؤال مفهومي ولاهوتي. أما علاقة السقوط بما يقوله العلم الطبيعي عن عمر الأرض وتاريخ الحياة فتناقشها المقالات عن الخلق والتطور.',
+        'هذا السؤال يتعلق بالمعنى لا بأحداث تاريخية. وما يبيّنه التاريخ هو كيف علّم الرب عن الكوارث: إذ سُئل عن ضحايا عنف وعن ضحايا برج ساقط، رفض أن يدعوهم أشد خطية، ووجّه سامعيه إلى التوبة (لوقا ١٣). أما علاقة السقوط بالتاريخ الطويل للحياة فتتناولها المقالات عن الخلق والتطور.',
       ],
     },
     theological: {
       en: [
         'The Church confesses that God made all things good, that human beings were made to care for creation and to bring it to him, and that the turning away of human beings brought death and disorder into the world. Creation is therefore seen as bound up with human beings, groaning with them and to be renewed with them. In Christ, who took a human body and a human nature, creation itself is joined to God, and the resurrection is the beginning of its renewal.',
-        'The Church therefore does not say that natural suffering is deserved or that it is secretly good. It calls death an enemy and prays for the sick, for the harvest and for the waters of the earth, and it looks for the day when God will make all things new. These are statements of faith, and the questions they leave open are named openly.',
+        'The Church therefore does not say that natural suffering is deserved or that it is secretly good. It calls death an enemy and prays for the sick, for the harvest and for the waters of the earth, and it looks for the day when God will make all things new.',
       ],
       ar: [
         'تعترف الكنيسة بأن الله خلق كل شيء حسنًا، وأن الإنسان خُلق ليعتني بالخليقة ويقدمها له، وأن ابتعاد الإنسان جلب الموت والاضطراب إلى العالم. فتُرى الخليقة مرتبطة بالإنسان، تئن معه وتتجدد معه. وفي المسيح، الذي اتخذ جسدًا وطبيعة بشرية، اتحدت الخليقة نفسها بالله، والقيامة بداية تجديدها.',
-        'ولذلك لا تقول الكنيسة إن الألم الطبيعي مستحق أو إنه خير في الخفاء. إنها تسمّي الموت عدوًّا، وتصلي من أجل المرضى والزرع ومياه الأرض، وتتطلع إلى اليوم الذي يجعل فيه الله كل شيء جديدًا. وهذه عبارات إيمان، والأسئلة التي تبقى مفتوحة تُسمّى علنًا.',
+        'ولذلك لا تقول الكنيسة إن الألم الطبيعي مستحق أو إنه خير في الخفاء. إنها تسمّي الموت عدوًّا، وتصلي من أجل المرضى والزرع ومياه الأرض، وتتطلع إلى اليوم الذي يجعل فيه الله كل شيء جديدًا.',
       ],
     },
   },
@@ -337,8 +337,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'The distinction between moral evil and natural suffering is a useful way of seeing what each reply can do. The free-will defence speaks mainly to the first. For the second, Christians appeal to a regular world, to a creation bound up with humanity’s fall and awaiting renewal, and to the hope of resurrection. These are partial and contested, and they leave real questions open.',
-    ar: 'التمييز بين الشر الأخلاقي والألم الطبيعي وسيلة نافعة لرؤية ما يقدر عليه كل رد. فدفاع الإرادة الحرة يخاطب الأول أساسًا. وفي الثاني يحتكم المسيحيون إلى عالم منتظم، وخليقة مرتبطة بسقوط الإنسان تنتظر التجديد، ورجاء القيامة. وهذه جزئية وموضع خلاف، وتترك أسئلة حقيقية مفتوحة.',
+    en: 'Moral evil and natural suffering are different, and the Christian faith answers both. Moral evil comes from the misuse of the freedom God gave so that we could love. Natural suffering belongs to a creation that groans with fallen humanity and waits to be set free. Neither is the last word: Christ has entered our suffering, risen from the dead, and will make all things new.',
+    ar: 'الشر الأخلاقي والألم الطبيعي مختلفان، والإيمان المسيحي يجيب عنهما كليهما. فالشر الأخلاقي يأتي من إساءة استعمال الحرية التي وهبها الله لكي نحب. والألم الطبيعي ينتمي إلى خليقة تئن مع الإنسان الساقط وتنتظر أن تُعتق. وليس أي منهما الكلمة الأخيرة: فقد دخل المسيح آلامنا، وقام من الأموات، وسيجعل كل شيء جديدًا.',
   },
   furtherReading: ['S42', 'S40', 'S52', 'S62'],
   related: ['why-does-god-allow-suffering', 'children-and-animals-suffer', 'does-freedom-explain-suffering', 'hidden-or-suffering', 'does-evolution-disprove-god'],

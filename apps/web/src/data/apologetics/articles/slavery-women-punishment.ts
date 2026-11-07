@@ -15,25 +15,25 @@ export const article: Article = {
     ar: 'تنظر هذه المقالة في ثلاثة أنواع من الصعوبة في الكتاب المقدس: الشرائع والنصوص التي تنظّم العبودية، ومكانة المرأة ومعاملتها في الشرائع القديمة، والعقوبات القاسية. وتسأل ماذا تقول النصوص، وكيف تقع بين شرائع عالمها، وماذا فعل بها العهد الجديد والآباء، وماذا تعلّم الكنيسة اليوم. ولا تدّعي أن كل صعوبة تزول.',
   },
   shortAnswer: {
-    en: 'The Old Testament laws allow and regulate slavery, treat women unequally in some matters, and prescribe severe penalties. The Church does not defend slavery, and it does not teach that these laws bind Christians. Within the Old Testament the laws limit the master’s power, protect the fugitive and the injured, treat kidnapping as a capital crime, and sometimes give women rights that surrounding laws did not. The New Testament teaches that in Christ there is neither slave nor free, nor male nor female, and tells a master to receive a slave as a brother. The Fathers drew from this the conclusion that slavery is contrary to the dignity of the human person made in God’s image. The story moves in one direction, but the Church admits that Christians were slow to follow it and that some used Scripture to defend what it should have condemned.',
-    ar: 'تُجيز شرائع العهد القديم العبودية وتنظّمها، وتعامل المرأة معاملة غير متساوية في بعض الأمور، وتضع عقوبات شديدة. والكنيسة لا تدافع عن العبودية، ولا تعلّم أن هذه الشرائع تُلزم المسيحيين. وفي العهد القديم نفسه تحدّ الشرائع من سلطان السيد، وتحمي الهارب والمصاب، وتجعل الخطف جريمة عقوبتها الموت، وتعطي المرأة أحيانًا حقوقًا لم تعطها الشرائع المحيطة. ويعلّم العهد الجديد أنه في المسيح ليس عبد ولا حر، ولا ذكر ولا أنثى، ويأمر السيد أن يقبل عبده أخًا. واستنتج الآباء من هذا أن العبودية مناقضة لكرامة الإنسان المخلوق على صورة الله. والقصة تتحرك في اتجاه واحد، لكن الكنيسة تعترف بأن المسيحيين تأخروا في اتباعه وأن بعضهم استعمل الكتاب لتبرير ما كان ينبغي أن يدينه.',
+    en: 'The Old Testament laws regulate slavery, treat women unequally in some matters, and set severe penalties. The Church does not defend slavery, and these civil and penal laws do not bind Christians. The Lord Himself taught that some laws were given because of the hardness of human hearts, and that from the beginning it was not so. Even within the Old Testament, the law limits the master’s power, protects the fugitive and the injured, makes kidnapping a capital crime, and sometimes gives women rights the surrounding laws did not. The New Testament proclaims that in Christ there is neither slave nor free, neither male nor female, and St Paul asks a master to receive his slave as a beloved brother. From this the Fathers taught that owning a person made in God’s image is wrong. Scripture moves toward freedom and dignity, and Christ is its fulfilment.',
+    ar: 'تنظّم شرائع العهد القديم العبودية، وتعامل المرأة بعدم مساواة في بعض الأمور، وتقرر عقوبات شديدة. والكنيسة لا تدافع عن العبودية، وهذه الشرائع المدنية والجزائية لا تُلزم المسيحيين. فالرب نفسه علّم أن بعض الشرائع أُعطيت بسبب قساوة القلوب، وأنه من البدء لم يكن هكذا. وحتى داخل العهد القديم تحدّ الشريعة سلطان السيد، وتحمي الهارب والمصاب، وتجعل خطف الإنسان جريمة عقوبتها الموت، وتعطي المرأة أحيانًا حقوقًا لم تعطها الشرائع المحيطة. ويعلن العهد الجديد أنه في المسيح ليس عبد ولا حر، ليس ذكر وأنثى، ويطلب القديس بولس من سيد أن يقبل عبده أخًا محبوبًا. ومن هذا علّم الآباء أن امتلاك إنسان مخلوق على صورة الله خطأ. فالكتاب يسير نحو الحرية والكرامة، والمسيح هو كماله.',
   },
   quickPoints: {
     en: [
       'The Old Testament regulates slavery; it does not command it as an ideal, and the Church does not teach that slavery is good or that these laws bind Christians.',
-      'Inside the law there are limits that were unusual in the ancient world: the kidnapping of a person is a capital crime, a fugitive slave is not to be handed back, and release is provided for.',
-      'Some of the laws are severe or unjust by any modern standard, and the Church does not need to defend them to hold the Scriptures as sacred.',
+      'Inside the law there are limits unusual in the ancient world: the kidnapping of a person is a capital crime, a fugitive slave is not to be handed back, and release is provided for.',
+      'The Lord taught that some laws were concessions to hardness of heart, and that God’s purpose from the beginning was otherwise.',
       'The New Testament proclaims that in Christ social divisions do not divide the family of God, and asks a master to receive his slave as a beloved brother.',
       'Women appear in Scripture as judges, prophets, heirs and the first witnesses of the resurrection; the Church honours the Virgin Mary above all creatures.',
-      'Christians have often failed here, and some defended slavery from Scripture; the Church counts that as a failure to read the whole of Scripture.',
+      'Where Christians used Scripture to defend slavery, they failed to read the whole of Scripture; the Church calls that failure by its name.',
     ],
     ar: [
-      'ينظّم العهد القديم العبودية ولا يأمر بها مثالًا، ولا تعلّم الكنيسة أن العبودية صالحة أو أن هذه الشرائع تُلزم المسيحيين.',
-      'داخل الشريعة حدود كانت غير معتادة في العالم القديم: خطف إنسان جريمة عقوبتها الموت، والعبد الهارب لا يُسلَّم، وهناك نصّ على الإطلاق.',
-      'بعض الشرائع قاسٍ أو ظالم بأي معيار حديث، والكنيسة ليست بحاجة إلى الدفاع عنها لتتمسك بقداسة الكتب.',
-      'يعلن العهد الجديد أن الانقسامات الاجتماعية في المسيح لا تقسم عائلة الله، ويطلب من السيد أن يقبل عبده أخًا حبيبًا.',
-      'تظهر النساء في الكتاب قاضيات وأنبياء ووارثات وأولى الشاهدات للقيامة؛ والكنيسة تكرّم العذراء مريم فوق كل خليقة.',
-      'أخفق المسيحيون هنا كثيرًا، ودافع بعضهم عن العبودية من الكتاب؛ والكنيسة تعدّ ذلك إخفاقًا في قراءة الكتاب كله.',
+      'ينظّم العهد القديم العبودية؛ لكنه لا يأمر بها مثالًا، ولا تعلّم الكنيسة أن العبودية خير أو أن هذه الشرائع تُلزم المسيحيين.',
+      'داخل الشريعة حدود غير معتادة في العالم القديم: خطف الإنسان جريمة عقوبتها الموت، والعبد الهارب لا يُسلَّم، والإعتاق منصوص عليه.',
+      'علّم الرب أن بعض الشرائع تنازلات بسبب قساوة القلب، وأن قصد الله من البدء كان غير ذلك.',
+      'يعلن العهد الجديد أن الفوارق الاجتماعية في المسيح لا تقسم عائلة الله، ويطلب من سيد أن يقبل عبده أخًا محبوبًا.',
+      'تظهر المرأة في الكتاب قاضية ونبية ووارثة وأول شاهدة للقيامة؛ والكنيسة تكرم العذراء مريم فوق كل الخلائق.',
+      'حيث استعمل مسيحيون الكتاب للدفاع عن العبودية، فقد أخفقوا في قراءة الكتاب كله؛ والكنيسة تسمّي هذا الإخفاق باسمه.',
     ],
   },
   argumentTypes: ['textual', 'historical', 'theological'],
@@ -46,12 +46,12 @@ export const article: Article = {
   },
   whyExamine: {
     en: [
-      'These are the texts people most often cite to say that the Bible is a product of a violent and unequal society and cannot be the word of a good God. The charge deserves a direct reply, and it deserves to be made by someone who has read the texts.',
-      'It also matters because the texts were used. Slavery was defended from Scripture by Christians, and women were kept silent by appeal to it. An honest account must say that, and must say what the Church holds now.',
+      'These are the texts people most often cite to say that the Bible is the product of a violent and unequal society and cannot be the word of a good God. The charge deserves a direct and well-informed reply.',
+      'It also matters because the texts were misused. Some Christians defended slavery from Scripture, and some silenced women by appeal to it. The Church can say that plainly, because the Gospel itself condemns it.',
     ],
     ar: [
-      'هذه هي النصوص التي يستشهد بها الناس أكثر من غيرها للقول إن الكتاب المقدس نتاج مجتمع عنيف وغير متكافئ ولا يمكن أن يكون كلمة إله صالح. والتهمة تستحق جوابًا مباشرًا، وتستحق أن يوجّهها من قرأ النصوص.',
-      'وهو مهم أيضًا لأن النصوص استُعملت. فقد دافع مسيحيون عن العبودية بالكتاب، وأُسكتت النساء بالاحتكام إليه. والعرض الأمين لا بد أن يقول ذلك وأن يقول ما تعتقده الكنيسة الآن.',
+      'هذه هي النصوص التي يستشهد بها الناس أكثر من غيرها للقول إن الكتاب المقدس نتاج مجتمع عنيف وغير متساوٍ، ولا يمكن أن يكون كلمة إله صالح. والتهمة تستحق جوابًا مباشرًا ومطّلعًا.',
+      'ويهم الأمر أيضًا لأن النصوص أُسيء استعمالها. فبعض المسيحيين دافعوا عن العبودية من الكتاب، وبعضهم أسكتوا النساء بالاحتجاج به. والكنيسة تستطيع أن تقول ذلك بوضوح، لأن الإنجيل نفسه يدينه.',
     ],
   },
   background: {
@@ -72,14 +72,14 @@ export const article: Article = {
     {
       id: 'c1',
       proposition: {
-        en: 'The Old Testament law regulates slavery and contains provisions that are severe, but it also contains limits on slavery and protections that the text itself presents as binding on masters.',
-        ar: 'تنظّم شريعة العهد القديم العبودية وفيها أحكام قاسية، لكنها تتضمن أيضًا حدودًا للعبودية وحمايات يقدّمها النص نفسه مُلزِمة للسادة.',
+        en: 'The Old Testament law regulates slavery and contains severe provisions, but it also sets limits on slavery and protections that bind masters.',
+        ar: 'تنظّم شريعة العهد القديم العبودية وفيها أحكام شديدة، لكنها تضع أيضًا حدودًا للعبودية وحمايات تُلزم السادة.',
       },
       argumentType: 'textual',
       assessment: 'strong_historical_support',
       rationale: {
-        en: 'Both the harsh and the protective provisions are in the text, in Exodus, Leviticus and Deuteronomy. Reading only one set gives a false picture.',
-        ar: 'الأحكام القاسية والحامية كلتاهما في النص، في الخروج واللاويين والتثنية. وقراءة مجموعة واحدة فقط تعطي صورة مغلوطة.',
+        en: 'Both the harsh and the protective provisions are in Exodus, Leviticus and Deuteronomy. The law makes kidnapping a capital crime, frees a slave whose master has injured him, provides for release in the seventh year, and forbids handing a runaway back to his master. Reading only the harsh provisions gives a false picture.',
+        ar: 'الأحكام القاسية والأحكام الحامية كلتاهما في الخروج واللاويين والتثنية. فالشريعة تجعل الخطف جريمة عقوبتها الموت، وتعتق العبد الذي أصابه سيده، وتنص على الإعتاق في السنة السابعة، وتمنع تسليم الهارب إلى سيده. وقراءة الأحكام القاسية وحدها تعطي صورة زائفة.',
       },
       limits: {
         en: 'Protections within a system of slavery do not make the system just. The claim is about what the text contains.',
@@ -90,14 +90,14 @@ export const article: Article = {
     {
       id: 'c2',
       proposition: {
-        en: 'The New Testament teaches that social divisions of slave and free and of male and female do not divide those who are in Christ, and asks a Christian master to receive his slave as a brother; the Church draws from this that slavery is contrary to human dignity.',
-        ar: 'يعلّم العهد الجديد أن الانقسامات الاجتماعية بين عبد وحر وذكر وأنثى لا تقسم الذين في المسيح، ويطلب من السيد المسيحي أن يقبل عبده أخًا؛ وتستنتج الكنيسة من هذا أن العبودية مناقضة لكرامة الإنسان.',
+        en: 'The New Testament teaches that the divisions of slave and free and of male and female do not divide those who are in Christ, and asks a Christian master to receive his slave as a brother; from this the Church teaches that slavery is contrary to human dignity.',
+        ar: 'يعلّم العهد الجديد أن فوارق العبد والحر والذكر والأنثى لا تقسم الذين هم في المسيح، ويطلب من سيد مسيحي أن يقبل عبده أخًا؛ ومن هذا تعلّم الكنيسة أن العبودية مخالفة لكرامة الإنسان.',
       },
       argumentType: 'theological',
       assessment: 'theological_interpretation',
       rationale: {
-        en: 'The New Testament does not call in so many words for abolishing the institution, and some readers take that as acceptance. The Church’s reading is that the principle stated in Galatians and the plea in Philemon undermine the institution from within, and the condemnation of slave-traders in 1 Timothy points the same way.',
-        ar: 'لا يدعو العهد الجديد صراحةً إلى إلغاء المؤسسة، ويأخذ بعضهم ذلك قبولًا. وقراءة الكنيسة أن المبدأ المذكور في غلاطية والتماس فليمون يقوضان المؤسسة من داخلها، وأن إدانة تجار الرقيق في ١ تيموثاوس تتجه الاتجاه نفسه.',
+        en: 'The principle in Galatians and the plea in Philemon work against slavery from within: a master cannot treat as property the brother with whom he shares the Body of Christ. The First Letter to Timothy names those who trade in human beings among the lawless. St Gregory of Nyssa drew the conclusion plainly, preaching that no one can own a person made in the image of God.',
+        ar: 'المبدأ في غلاطية والرجاء في فليمون يعملان ضد العبودية من الداخل: فلا يستطيع سيد أن يعامل ملكًا الأخ الذي يشاركه جسد المسيح. وتذكر الرسالة الأولى إلى تيموثاوس تجار البشر بين الأثمة. واستخلص القديس غريغوريوس النيسي النتيجة بوضوح، فوعظ بأن لا أحد يستطيع أن يمتلك إنسانًا مخلوقًا على صورة الله.',
       },
       limits: {
         en: 'A reader may accept the principle and still ask why the New Testament did not state abolition more directly. The article records that question without claiming to remove it.',
@@ -108,14 +108,14 @@ export const article: Article = {
     {
       id: 'c3',
       proposition: {
-        en: 'Women in Scripture appear as heirs, judges, prophets and the first witnesses of the resurrection, and the New Testament affirms that they share fully in Christ; at the same time some laws and texts treat men and women unequally.',
-        ar: 'تظهر النساء في الكتاب وارثات وقاضيات وأنبياء وأولى الشاهدات للقيامة، ويؤكد العهد الجديد أنهن يشاركن كليًا في المسيح؛ وفي الوقت نفسه تعامل بعض الشرائع والنصوص الرجال والنساء معاملة غير متساوية.',
+        en: 'Women in Scripture appear as heirs, judges, prophets and the first witnesses of the resurrection, and the New Testament affirms that they share fully in Christ.',
+        ar: 'تظهر المرأة في الكتاب وارثة وقاضية ونبية وأول شاهدة للقيامة، ويؤكد العهد الجديد أنها تشترك اشتراكًا كاملًا في المسيح.',
       },
       argumentType: 'textual',
       assessment: 'supported_disputed_details',
       rationale: {
-        en: 'The passages cited show both strands. How they are to be weighed against each other, and how the New Testament’s teachings on order in marriage and in church are to be understood, are matters on which Christians differ.',
-        ar: 'تُظهر الفقرات المذكورة الخطين كليهما. وكيف يوزن أحدهما أمام الآخر، وكيف تُفهم تعاليم العهد الجديد عن الترتيب في الزواج وفي الكنيسة، مسائل يختلف فيها المسيحيون.',
+        en: 'The daughters of Zelophehad win their inheritance, Deborah judges Israel, and the women at the tomb are the first to hear and carry the news of the resurrection. Some laws of ancient Israel treat men and women unequally, but the fullness of Scripture shows women as equal in dignity and in grace.',
+        ar: 'تنال بنات صلفحاد ميراثهن، وتقضي دبورة لإسرائيل، والنساء عند القبر هن أول من سمع خبر القيامة وحمله. وبعض شرائع إسرائيل القديمة تعامل الرجال والنساء بعدم مساواة، لكن الكتاب في ملئه يُظهر المرأة مساوية في الكرامة والنعمة.',
       },
       limits: {
         en: 'This does not decide questions of ministry or of marriage, which the Coptic Church answers within its own tradition.',
@@ -126,14 +126,14 @@ export const article: Article = {
     {
       id: 'c4',
       proposition: {
-        en: 'Jesus treats the severe penalties of the law as a concession to human hardness of heart and as a stage to be fulfilled, not as the final will of God; the Church does not apply the penal code of the Old Testament.',
-        ar: 'يعامل يسوع العقوبات الشديدة في الشريعة تنازلًا لقساوة قلب الإنسان ومرحلة تُكمَّل، لا مشيئة الله النهائية؛ والكنيسة لا تطبّق القانون الجزائي للعهد القديم.',
+        en: 'The Lord treats some laws as concessions to human hardness of heart and as a stage to be fulfilled, not as God’s final will; the Church does not apply the penal code of the Old Testament.',
+        ar: 'يعامل الرب بعض الشرائع تنازلات بسبب قساوة القلب البشري ومرحلةً تُكمَّل، لا إرادة الله النهائية؛ والكنيسة لا تطبّق القانون الجزائي للعهد القديم.',
       },
       argumentType: 'theological',
       assessment: 'theological_interpretation',
       rationale: {
-        en: 'Jesus says on divorce that Moses allowed it because of hardness of heart and that it was not so from the beginning, which shows how he treats concessions in the law. The Church’s practice, from the beginning, did not take the civil and penal law of Israel as binding.',
-        ar: 'يقول يسوع في الطلاق إن موسى سمح به من أجل قساوة القلوب وإنه لم يكن هكذا من البدء، وهذا يبيّن كيف يعامل التنازلات في الشريعة. وممارسة الكنيسة منذ البدء لم تعدّ القانون المدني والجزائي لإسرائيل مُلزِمًا.',
+        en: 'On divorce, the Lord says that Moses allowed it because of hardness of heart, and that it was not so from the beginning. He quotes the rule of equal retribution and teaches His hearers not to repay evil with evil. From the beginning the Church did not take the civil and penal law of Israel as binding.',
+        ar: 'في الطلاق يقول الرب إن موسى أذن به بسبب قساوة القلوب، وإنه من البدء لم يكن هكذا. ويستشهد بقاعدة العين بالعين ويعلّم سامعيه ألا يقابلوا الشر بالشر. ومنذ البدء لم تعتبر الكنيسة الشريعة المدنية والجزائية لإسرائيل ملزمة.',
       },
       limits: {
         en: 'This reading is a Christian one. A reader outside the faith will see it as a way of reading the texts, not as proof that they were right.',
@@ -290,12 +290,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The Church holds that Scripture is inspired without holding that every law it records is the ideal will of God. It holds that revelation was given within a human history and addressed to people in their circumstances, and that its direction is seen in the whole. Jesus’ own treatment of the law of divorce shows that he distinguished what was permitted from what was intended.',
-          'This is a real position and it has a cost: it means the Church reads the older texts as incomplete. It does not mean the texts are false, but it does mean that one cannot treat each verse of the penal and civil code as a timeless norm.',
+          'The Church holds that Scripture is inspired, but not that every law it records is God’s ideal will. God gave His revelation within human history, to a people in their own circumstances, leading them step by step, and its direction is seen in the whole. The Lord Himself distinguished what the law permitted from what God intended from the beginning.',
+          'A good teacher meets his pupils where they are and leads them on. That is how God dealt with Israel, restraining evil before He uprooted it, and bringing the law to its fulfilment in Christ. Seeing the older laws as a stage does not make Scripture false; it is how Christ taught us to read it.',
         ],
         ar: [
-          'تؤمن الكنيسة بأن الكتاب موحى به دون أن تؤمن بأن كل شريعة يسجّلها هي مشيئة الله المثالية. وتعتقد أن الإعلان أُعطي ضمن تاريخ بشري وخوطب به أناس في ظروفهم، وأن اتجاهه يُرى في الكل. ومعاملة يسوع نفسه لشريعة الطلاق تُظهر أنه ميّز بين ما سُمح به وما قُصد.',
-          'وهذا موقف حقيقي وله ثمن: فهو يعني أن الكنيسة تقرأ النصوص الأقدم ناقصة. وهذا لا يعني أن النصوص كاذبة، لكنه يعني أنه لا يجوز اعتبار كل آية في القانون المدني والجزائي معيارًا أبديًا.',
+          'تؤمن الكنيسة بأن الكتاب موحى به، لكن لا بأن كل شريعة يسجلها هي إرادة الله المثلى. فقد أعطى الله إعلانه داخل التاريخ البشري، لشعب في ظروفه، يقوده خطوة خطوة، واتجاهه يُرى في الكل. والرب نفسه ميّز بين ما أذنت به الشريعة وما قصده الله من البدء.',
+          'والمعلم الصالح يلقى تلاميذه حيث هم ويقودهم إلى الأمام. وهكذا عامل الله إسرائيل، يكبح الشر قبل أن يقتلعه، ويقود الشريعة إلى كمالها في المسيح. ورؤية الشرائع القديمة مرحلةً لا تجعل الكتاب باطلًا؛ بل هكذا علّمنا المسيح أن نقرأه.',
         ],
       },
       limits: {
@@ -312,12 +312,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'It is true that the New Testament gives instructions to slaves and masters in the Roman household and does not call for an uprising. It is also true that it states the equality of slave and free in Christ, condemns slave-traders and asks a master to receive his slave as a brother. Early Christians redeemed captives and freed slaves, and the Fathers criticised slavery: Gregory of Nyssa preached against the very idea of owning another person made in God’s image.',
-          'It is also true that Christians defended slavery from the Bible, and the Church should say so plainly. What that shows is that texts can be read selectively. It is also the case that many of those who worked to end slavery acted from Christian conviction. Both facts belong to the history.',
+          'The New Testament gave instructions to slaves and masters in the Roman household and did not call for an uprising. But it also proclaimed the equality of slave and free in Christ, condemned slave-traders, and asked a master to receive his slave as a brother. Early Christians ransomed captives and freed slaves, and St Gregory of Nyssa preached against the very idea of owning a person made in God’s image.',
+          'Christians who defended slavery from the Bible read it selectively, and the Church says so plainly. Many of those who worked to end slavery acted from Christian conviction, drawing on the same Scriptures. The Gospel planted the seed that overturned the institution.',
         ],
         ar: [
-          'صحيح أن العهد الجديد يعطي توجيهات للعبيد والسادة في البيت الروماني ولا يدعو إلى ثورة. وصحيح أيضًا أنه يقرر مساواة العبد والحر في المسيح، ويدين تجار الرقيق، ويطلب من السيد أن يقبل عبده أخًا. وافتدى المسيحيون الأوائل أسرى وأعتقوا عبيدًا، وانتقد الآباء العبودية: فقد وعظ غريغوريوس النيصي ضد فكرة امتلاك إنسان آخر مخلوق على صورة الله.',
-          'وصحيح كذلك أن مسيحيين دافعوا عن العبودية بالكتاب، وينبغي للكنيسة أن تقول ذلك بصراحة. وما يدل عليه هذا أن النصوص يمكن أن تُقرأ انتقائيًا. وصحيح أيضًا أن كثيرين ممن عملوا لإنهاء العبودية فعلوا ذلك عن قناعة مسيحية. والحقيقتان كلتاهما من التاريخ.',
+          'أعطى العهد الجديد وصايا للعبيد والسادة في البيت الروماني ولم يدعُ إلى تمرد. لكنه أعلن أيضًا مساواة العبد والحر في المسيح، ودان تجار البشر، وطلب من سيد أن يقبل عبده أخًا. وافتدى المسيحيون الأوائل الأسرى وأعتقوا العبيد، ووعظ القديس غريغوريوس النيسي ضد فكرة امتلاك إنسان مخلوق على صورة الله من أساسها.',
+          'والمسيحيون الذين دافعوا عن العبودية من الكتاب قرأوه قراءة انتقائية، والكنيسة تقول ذلك بوضوح. وكثير ممن عملوا على إنهاء العبودية فعلوا ذلك عن قناعة مسيحية، مستندين إلى الكتب نفسها. فالإنجيل زرع البذرة التي قلبت هذا النظام.',
         ],
       },
       limits: {
@@ -334,12 +334,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The Church does not apply these penalties and does not hold that they express how God wants wrongdoers treated. It reads them as the law of a particular people in a particular time, which Christ fulfilled and did not bring into the Church as a code.',
-          'It is also relevant that Jesus, when brought a woman accused of adultery, did not apply the penalty. That passage is a disputed one in the manuscripts, so the Church’s argument does not rest on it; the pattern of his teaching on mercy and on the fulfilment of the law is enough.',
+          'The Church does not apply these penalties and does not hold that they express how God wants wrongdoers treated. They were the law of a particular people in a particular time, which Christ fulfilled and did not bring into the Church as a code.',
+          'The Lord’s teaching is mercy: He taught His followers not to repay evil with evil, came to call sinners to repentance, and gave His life for them. The Church judges every law of the older covenant in the light of the cross.',
         ],
         ar: [
-          'لا تطبّق الكنيسة هذه العقوبات ولا تعتقد أنها تعبّر عن كيف يريد الله أن يُعامل المخطئون. وتقرؤها شريعة شعب معين في زمن معين، كمّلها المسيح ولم يُدخلها إلى الكنيسة قانونًا.',
-          'ومما يتصل بالموضوع أن يسوع، حين أُتي إليه بامرأة متهمة بالزنى، لم يطبّق العقوبة. وهذه الفقرة موضع خلاف في المخطوطات، فلا تستند حجة الكنيسة إليها؛ ويكفي نمط تعليمه عن الرحمة وعن تكميل الشريعة.',
+          'لا تطبّق الكنيسة هذه العقوبات ولا تعتقد أنها تعبّر عن الطريقة التي يريد الله أن يُعامَل بها المخطئون. فقد كانت شريعة شعب معين في زمن معين، أكملها المسيح ولم يُدخلها إلى الكنيسة قانونًا.',
+          'وتعليم الرب هو الرحمة: علّم أتباعه ألا يقابلوا الشر بالشر، وجاء ليدعو الخطاة إلى التوبة، وبذل حياته عنهم. والكنيسة تحكم على كل شريعة من العهد القديم في نور الصليب.',
         ],
       },
       limits: {
@@ -353,12 +353,12 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'Historically, slavery was part of the world in which these texts were written, and Roman slavery was part of the world of the New Testament. Comparing biblical laws with other ancient codes shows some differences and many similarities, and historians disagree about how to weigh them. What can be said from the texts is that they contain restrictions and protections, and that the earliest Christian communities included slaves and masters who were told to treat one another as members of one body.',
-        'The Fathers and the early Church offer evidence of change in practice: Christians ransomed captives, and some Fathers condemned slavery in strong terms. It remains true that the abolition of slavery in the modern period came after centuries in which the Church, in many places, accepted and benefited from it.',
+        'Slavery was part of the whole ancient world in which these texts were written, and Roman slavery was part of the world of the New Testament. Within that world, the biblical laws contain real restrictions and protections, and the earliest Christian communities brought slaves and masters together as members of one body, called to treat one another as brothers.',
+        'The early Church shows change in practice: Christians ransomed captives, and Fathers such as St Gregory of Nyssa condemned slavery in strong terms. The Church acknowledges that in later centuries many Christians accepted the institution, and that abolition came late; but the seed of it was in the Gospel from the start.',
       ],
       ar: [
-        'تاريخيًا، كانت العبودية جزءًا من العالم الذي كُتبت فيه هذه النصوص، وكانت العبودية الرومانية جزءًا من عالم العهد الجديد. ومقارنة الشرائع الكتابية بالشرائع القديمة الأخرى تُظهر بعض الفروق ومشابهات كثيرة، ويختلف المؤرخون في كيفية وزنها. وما يمكن قوله من النصوص أنها تحتوي على قيود وحمايات، وأن الجماعات المسيحية الأولى ضمت عبيدًا وسادة قيل لهم أن يعامل بعضهم بعضًا أعضاء جسد واحد.',
-        'ويقدم الآباء والكنيسة الأولى شواهد على تغيّر في الممارسة: فقد افتدى المسيحيون أسرى، وأدان بعض الآباء العبودية بعبارات قوية. ويبقى صحيحًا أن إلغاء العبودية في العصر الحديث جاء بعد قرون قبلت فيها الكنيسة، في أماكن كثيرة، العبودية واستفادت منها.',
+        'كانت العبودية جزءًا من العالم القديم كله الذي كُتبت فيه هذه النصوص، وكانت العبودية الرومانية جزءًا من عالم العهد الجديد. وفي ذلك العالم تحمل الشرائع الكتابية قيودًا وحمايات حقيقية، وجمعت الجماعات المسيحية الأولى العبيد والسادة أعضاء في جسد واحد، مدعوين إلى أن يعامل بعضهم بعضًا إخوة.',
+        'وتُظهر الكنيسة الأولى تغيّرًا في الممارسة: فقد افتدى المسيحيون الأسرى، ودان آباء مثل القديس غريغوريوس النيسي العبودية بعبارات قوية. وتعترف الكنيسة بأن مسيحيين كثيرين قبلوا هذا النظام في قرون لاحقة، وبأن الإلغاء جاء متأخرًا؛ لكن بذرته كانت في الإنجيل منذ البداية.',
       ],
     },
     theological: {
@@ -393,8 +393,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'The laws on slavery, women and punishment are in the Bible and some are severe. The text itself limits and protects, the New Testament states the equal standing of all in Christ, and the Church teaches that slavery is a sin and that every person bears God’s image. The Church also has to admit that Christians used Scripture to defend what it condemns. The direction of the story is clear; the speed of the Church’s following it was not.',
-    ar: 'شرائع العبودية والمرأة والعقوبات موجودة في الكتاب وبعضها قاسٍ. والنص نفسه يحدّ ويحمي، والعهد الجديد يقرر المقام المتساوي للجميع في المسيح، وتعلّم الكنيسة أن العبودية خطية وأن كل إنسان يحمل صورة الله. وعلى الكنيسة أن تعترف أيضًا بأن مسيحيين استعملوا الكتاب لتبرير ما تدينه. واتجاه القصة واضح؛ أما سرعة اتباع الكنيسة له فلم تكن كذلك.',
+    en: 'The laws on slavery, women and punishment are in the Bible, and some are severe. Yet even the old law limits and protects, the Lord taught that some laws were concessions to hardness of heart, and the New Testament proclaims the equal standing of all in Christ. The Church teaches that slavery is a sin and that every person, man or woman, bears the image of God. Where Christians failed to live this, they failed the Gospel; the direction of Scripture is clear, and it leads to Christ.',
+    ar: 'شرائع العبودية والمرأة والعقوبة موجودة في الكتاب المقدس، وبعضها شديد. لكن حتى الشريعة القديمة تحدّ وتحمي، وقد علّم الرب أن بعض الشرائع تنازلات بسبب قساوة القلب، ويعلن العهد الجديد تساوي الجميع في المسيح. والكنيسة تعلّم أن العبودية خطية، وأن كل إنسان، رجلًا كان أو امرأة، يحمل صورة الله. وحيث أخفق المسيحيون في عيش ذلك، أخفقوا في الإنجيل؛ واتجاه الكتاب واضح، وهو يقود إلى المسيح.',
   },
   furtherReading: ['S49', 'S62'],
   related: [

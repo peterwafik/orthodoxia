@@ -15,15 +15,15 @@ export const article: Article = {
     ar: 'يسأل هذا المقال: كيف ينبغي وصف الخلافات بين التقاليد المسيحية (القبطية والأرثوذكسية المشرقية الأخرى، والأرثوذكسية الشرقية، والكاثوليكية، والبروتستانتية، وكنيسة المشرق) وصفًا منصفًا؟ ويعرض القواعد التي يتبعها هذا الموقع في ذلك. ويستعمل الخلاف حول خلقيدونية والانبثاق أمثلة. ولا يحاول الحسم في من على حق في كل خلاف.',
   },
   shortAnswer: {
-    en: 'A fair account states each position in the terms its own holders would accept, separates what a tradition teaches from what its critics say it implies, keeps history apart from doctrine, uses the names that churches use for themselves, and says plainly where the sources settle a point and where they do not. This site is written from within the Coptic Orthodox faith and says so; it also tries to describe other traditions as they would recognise themselves, and does not call for hostility toward any Christian. Where dialogue between churches has found agreement, it reports it; where disagreement remains, it reports that too.',
-    ar: 'العرض المنصف يذكر كل موقف بالألفاظ التي يقبلها أصحابه، ويفصل ما يعلّمه تقليد عما يقول نقاده إنه يتضمنه، ويُبقي التاريخ منفصلًا عن العقيدة، ويستعمل الأسماء التي تطلقها الكنائس على نفسها، ويقول بوضوح أين تحسم المصادر نقطة وأين لا تحسم. وهذا الموقع مكتوب من داخل الإيمان القبطي الأرثوذكسي ويقول ذلك؛ ويحاول أيضًا وصف التقاليد الأخرى كما تعرف نفسها، ولا يدعو إلى عداء تجاه أي مسيحي. وحيث وجد الحوار بين الكنائس اتفاقًا يذكره، وحيث يبقى الخلاف يذكره أيضًا.',
+    en: 'With truth and with love. The Coptic Orthodox Church holds that her faith is the faith of the apostles, and she says so plainly. Truth also requires describing other Christians fairly: stating each position in words its own holders accept, separating what a tradition teaches from what its critics say it implies, keeping history apart from doctrine, and calling each church by the name it uses for itself. The Coptic Church has suffered from being called “monophysite” by others, and she gives others the courtesy she asks for herself. Where dialogue has found agreement, as on the confession of the one Christ, she welcomes it; where differences remain, she names them honestly and prays for unity in the truth.',
+    ar: 'بالحق والمحبة. فالكنيسة القبطية الأرثوذكسية تؤمن بأن إيمانها هو إيمان الرسل، وتقول ذلك بوضوح. والحق يقتضي أيضًا وصف المسيحيين الآخرين بإنصاف: أن يُذكر كل موقف بألفاظ يقبلها أصحابه، وأن يُفصل ما يعلّمه تقليد عما يقول نقاده إنه يتضمنه، وأن يُبقى التاريخ منفصلًا عن العقيدة، وأن تُدعى كل كنيسة بالاسم الذي تطلقه على نفسها. وقد عانت الكنيسة القبطية من تسمية الآخرين لها «مونوفيزيتية»، فهي تمنح الآخرين اللطف الذي تطلبه لنفسها. وحيث وجد الحوار اتفاقًا، كما في الاعتراف بالمسيح الواحد، ترحب به، وحيث تبقى الفروق تسمّيها بأمانة وتصلي من أجل الوحدة في الحق.',
   },
   quickPoints: {
     en: [
       'Describe a position in words its holders accept, and test it against what they teach, not only against what critics say.',
       'Use the names churches use for themselves: Oriental Orthodox rather than monophysite; Church of the East rather than Nestorian.',
       'Separate three layers: what happened, what each tradition believes, and what a scholar or a believer infers from it.',
-      'Say where dialogue has produced common statements and where the question remains open.',
+      'Report where dialogue has produced common statements, such as the agreed statements on Christ, and name honestly the differences that remain.',
       'The site speaks from within the Coptic Orthodox faith and says so; fairness is not the absence of a position.',
       'The New Testament calls Christians to unity and to truth spoken in love, and to give an account of their hope with gentleness.',
     ],
@@ -31,7 +31,7 @@ export const article: Article = {
       'صف الموقف بألفاظ يقبلها أصحابه، وامتحنه بما يعلّمونه لا بما يقوله النقاد فقط.',
       'استعمل الأسماء التي تطلقها الكنائس على نفسها: الأرثوذكسية المشرقية لا المونوفيزيتية؛ وكنيسة المشرق لا النسطورية.',
       'افصل ثلاث طبقات: ما حدث، وما يؤمن به كل تقليد، وما يستنتجه منه باحث أو مؤمن.',
-      'قل أين أنتج الحوار بيانات مشتركة وأين بقيت المسألة مفتوحة.',
+      'اذكر أين أنتج الحوار بيانات مشتركة، كالبيانات المتفق عليها عن المسيح، وسمِّ بأمانة الفروق التي تبقى.',
       'يتكلم الموقع من داخل الإيمان القبطي الأرثوذكسي ويقول ذلك؛ والإنصاف ليس غياب موقف.',
       'يدعو العهد الجديد المسيحيين إلى الوحدة وإلى قول الحق في المحبة وإلى تقديم جواب عن رجائهم بوداعة.',
     ],
@@ -47,12 +47,12 @@ export const article: Article = {
 
   whyExamine: {
     en: [
-      'Christian traditions have often described each other through the words of their opponents. The Coptic Church was called monophysite, the Church of the East Nestorian, Protestants were labelled by Catholics as heretics, and Catholics were pictured by some Protestants in ways Catholics do not recognise. Such descriptions persist in popular writing.',
-      'A site that deals with questions of doctrine, and whose readers include Christians of other traditions as well as non-Christians, has a reason to state its method. The method also protects the Coptic Orthodox position from being made to look defensive or caricatured by others.',
+      'Christian traditions have often described each other through the words of their opponents. The Coptic Church was called monophysite, the Church of the East Nestorian, and Catholics and Protestants have pictured each other in ways neither recognises. Such descriptions still circulate in popular writing.',
+      'This site speaks from within the Coptic Orthodox faith to readers of every tradition and of none. Stating its method openly shows the Coptic faith as it truly is, and treats others with the same honesty the Church asks for herself.',
     ],
     ar: [
-      'وصفت التقاليد المسيحية بعضها بعضًا مرارًا بألفاظ خصومها. فسُميت الكنيسة القبطية مونوفيزيتية، وكنيسة المشرق نسطورية، ووصف الكاثوليك البروتستانت بالهراطقة، وصوّر بعض البروتستانت الكاثوليك بصور لا يعرفها الكاثوليك. وتبقى هذه الأوصاف في الكتابات الشعبية.',
-      'وموقع يتناول مسائل العقيدة، ويضم قراؤه مسيحيين من تقاليد أخرى وغير مسيحيين، له سبب لأن يبيّن منهجه. والمنهج يحمي الموقف القبطي الأرثوذكسي أيضًا من أن يظهر دفاعيًا أو تُشوَّه صورته على أيدي الآخرين.',
+      'وصفت التقاليد المسيحية بعضها بعضًا مرارًا بألفاظ خصومها. فسُميت الكنيسة القبطية مونوفيزيتية، وكنيسة المشرق نسطورية، وصوّر الكاثوليك والبروتستانت بعضهم بعضًا بصور لا يعرفها أي منهما. وما زالت هذه الأوصاف متداولة في الكتابات الشعبية.',
+      'وهذا الموقع يتكلم من داخل الإيمان القبطي الأرثوذكسي إلى قرّاء من كل تقليد ومن غير تقليد. وإعلان منهجه بوضوح يُظهر الإيمان القبطي كما هو حقًا، ويعامل الآخرين بالأمانة نفسها التي تطلبها الكنيسة لنفسها.',
     ],
   },
   background: {
@@ -81,8 +81,8 @@ export const article: Article = {
       argumentType: 'theological',
       assessment: 'philosophical_argument',
       rationale: {
-        en: 'This is a principle of interpretation, which is argued from the aim of representing a view truthfully before criticising it. It applies equally to the Coptic Church’s account of others and to others’ accounts of it.',
-        ar: 'هذا مبدأ في التفسير يُحتج له بغاية تمثيل الرأي بصدق قبل نقده. وهو ينطبق على وصف الكنيسة القبطية للآخرين ووصف الآخرين لها.',
+        en: 'Truth requires representing a view accurately before answering it. The rule applies equally to the Coptic Church’s account of others and to others’ accounts of her, and it is the same rule she asks others to keep when they speak of her faith.',
+        ar: 'الحق يقتضي تمثيل الرأي بدقة قبل الرد عليه. والقاعدة تنطبق على وصف الكنيسة القبطية للآخرين ووصف الآخرين لها، وهي القاعدة نفسها التي تطلب من الآخرين أن يحفظوها حين يتكلمون عن إيمانها.',
       },
       limits: {
         en: 'A fair description is not an endorsement; one can describe a view accurately and still hold that it is mistaken.',
@@ -99,8 +99,8 @@ export const article: Article = {
       argumentType: 'historical',
       assessment: 'supported_disputed_details',
       rationale: {
-        en: 'The labels and the joint declarations are on record. Whether the shared confession fully resolves the older charges is disputed among theologians of both sides, and the status of Chalcedon remains a difference.',
-        ar: 'الأوصاف والإعلانات المشتركة مسجلة. وهل يحل الاعتراف المشترك التهم القديمة كليًا محل خلاف بين لاهوتيي الطرفين، وتبقى منزلة خلقيدونية فرقًا.',
+        en: 'The old labels and the joint declarations are both on record. The 1973 common declaration of the Coptic and Catholic popes and the agreed statements of 1989–1993 show that, beneath the labels, the Coptic faith in the one incarnate Christ was never a denial of His full humanity. The status of Chalcedon itself remains a real difference.',
+        ar: 'الأوصاف القديمة والإعلانات المشتركة كلاهما مسجّل. والإعلان المشترك للبابا القبطي والبابا الكاثوليكي سنة ١٩٧٣، والبيانات المتفق عليها بين ١٩٨٩ و١٩٩٣، تُظهر أن الإيمان القبطي بالمسيح الواحد المتجسد، تحت تلك الأوصاف، لم يكن قط إنكارًا لناسوته الكامل. وتبقى منزلة خلقيدونية نفسها فرقًا حقيقيًا.',
       },
       limits: {
         en: 'The dialogue documents are not in this site’s source catalogue; they are described in outline only.',
@@ -117,8 +117,8 @@ export const article: Article = {
       argumentType: 'textual',
       assessment: 'supported_disputed_details',
       rationale: {
-        en: 'The verses are clear. Traditions differ on what unity requires, and whether visible unity comes before agreement on doctrine or after it.',
-        ar: 'الآيات واضحة. وتختلف التقاليد في ما تقتضيه الوحدة، وهل تسبق الوحدة المنظورة الاتفاق في العقيدة أو تتبعه.',
+        en: 'The verses are clear, and they shape how the Church speaks: firm in what she believes, gentle toward those who differ, and longing for the unity for which the Lord prayed.',
+        ar: 'الآيات واضحة، وهي تشكّل طريقة كلام الكنيسة: ثابتة في ما تؤمن به، وديعة تجاه المخالفين، ومشتاقة إلى الوحدة التي صلّى الرب من أجلها.',
       },
       limits: {
         en: 'The verses give an attitude and an aim; they do not say how each dispute is to be resolved.',
@@ -241,12 +241,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'Fairness in description is different from agreement. One can state a view correctly and still think it mistaken, as a lawyer states an opposing argument correctly in order to answer it. The site states the Coptic Orthodox position as its own and states the others as theirs, and does not hide the difference.',
-          'The reverse is also true. A tradition can only claim that it is right if it has understood what the others actually say. For that reason the rule of fair description serves the search for truth.',
+          'Fairness in description is not agreement. One can state a view correctly and still hold it mistaken, as a lawyer states the other side’s argument correctly in order to answer it. The site states the Coptic Orthodox faith as its own and states the others as theirs, and it does not hide the difference.',
+          'In fact a church can only answer others rightly if it understands what they actually say. Fair description serves the truth, and the Church, confident in the apostolic faith, has nothing to fear from it.',
         ],
         ar: [
-          'الإنصاف في الوصف يختلف عن الاتفاق. فيمكن عرض رأي عرضًا صحيحًا مع الاعتقاد بأنه خطأ، كما يعرض المحامي حجة خصمه عرضًا صحيحًا ليجيب عنها. والموقع يعرض الموقف القبطي الأرثوذكسي موقفًا له ويعرض المواقف الأخرى مواقف لأصحابها، ولا يخفي الفرق.',
-          'والعكس صحيح أيضًا. فلا يستطيع تقليد أن يدّعي أنه على حق إلا إذا فهم ما يقوله الآخرون فعلًا. ولهذا السبب تخدم قاعدة الوصف المنصف طلب الحقيقة.',
+          'الإنصاف في الوصف ليس اتفاقًا. فيمكن عرض رأي عرضًا صحيحًا مع الاعتقاد بأنه خطأ، كما يعرض المحامي حجة الطرف الآخر عرضًا صحيحًا ليجيب عنها. والموقع يعرض الإيمان القبطي الأرثوذكسي إيمانًا له ويعرض المواقف الأخرى مواقف لأصحابها، ولا يخفي الفرق.',
+          'بل إن الكنيسة لا تستطيع أن تجيب الآخرين إجابة صحيحة إلا إذا فهمت ما يقولونه فعلًا. فالوصف المنصف يخدم الحق، والكنيسة الواثقة بالإيمان الرسولي لا تخشى منه شيئًا.',
         ],
       },
       limits: {
@@ -263,12 +263,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The declarations do say that the churches confess the same Christ and used terms differently, and this is a real fruit of dialogue. But the churches that made them have not all concluded that the divisions are therefore over. The Coptic Church, for instance, has welcomed the statements and has not accepted the Council of Chalcedon, and the Chalcedonian churches regard the council as binding.',
-          'Divisions have also concerned authority, memory of persecution and the way each church understands itself. Reducing them to words understates the weight that each church gives to its history. A fair account says that some of the dispute is verbal and some is not, and that churches differ on how much.',
+          'The declarations do say that the churches confess the same Christ and used terms differently, and this is a real fruit of dialogue. But the churches that made them have not concluded that every division is over. The Coptic Church has welcomed the statements and still does not accept the Council of Chalcedon, while the Chalcedonian churches regard it as binding.',
+          'Unity must be in the truth, not by setting differences aside. Divisions also concern authority and the way each church understands its own history. The Church therefore welcomes every real agreement and continues, patiently and in love, to work for full unity in the apostolic faith.',
         ],
         ar: [
-          'تقول الإعلانات فعلًا إن الكنائس تعترف بالمسيح نفسه واستعملت ألفاظًا مختلفة، وهذه ثمرة حقيقية للحوار. لكن الكنائس التي أصدرتها لم تستنتج كلها أن الانقسامات انتهت بذلك. فالكنيسة القبطية مثلًا رحبت بالبيانات ولم تقبل مجمع خلقيدونية، وتعدّ الكنائس الخلقيدونية المجمع ملزِمًا.',
-          'وتعلقت الانقسامات أيضًا بالسلطان وذاكرة الاضطهاد وطريقة فهم كل كنيسة لنفسها. واختزالها في ألفاظ يقلل من الوزن الذي تعطيه كل كنيسة لتاريخها. والعرض المنصف يقول إن بعض الخلاف لفظي وبعضه ليس كذلك، وإن الكنائس تختلف في المقدار.',
+          'تقول الإعلانات فعلًا إن الكنائس تعترف بالمسيح نفسه واستعملت ألفاظًا مختلفة، وهذه ثمرة حقيقية للحوار. لكن الكنائس التي أصدرتها لم تستنتج أن كل انقسام قد انتهى. فالكنيسة القبطية رحبت بالبيانات وما زالت لا تقبل مجمع خلقيدونية، بينما تعدّ الكنائس الخلقيدونية المجمع ملزِمًا.',
+          'والوحدة ينبغي أن تكون في الحق، لا بتنحية الفروق جانبًا. وتتعلق الانقسامات أيضًا بالسلطان وبطريقة فهم كل كنيسة لتاريخها. لذلك ترحب الكنيسة بكل اتفاق حقيقي، وتواصل بصبر ومحبة العمل من أجل الوحدة الكاملة في الإيمان الرسولي.',
         ],
       },
       limits: {
@@ -285,12 +285,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The concern is reasonable, and the site does not ask for trust without checks. It says from where it writes, cites the sources on which it relies, separates what a source says from what the site infers, and sets out the strongest objections as their holders would. A reader can compare these with the other traditions’ own statements.',
-          'No writer is without a standpoint, and a stated standpoint is easier to correct than a concealed one. Corrections from readers of any tradition are welcome.',
+          'The site does not ask for trust without checks. It says from where it writes, cites the sources on which it relies, separates what a source says from what it infers, and states objections as their holders would. A reader can compare all of this with the other traditions’ own statements.',
+          'No writer is without a standpoint, and a stated standpoint is honest. The Church speaks from her faith openly, and that openness is itself a guard against unfairness.',
         ],
         ar: [
-          'القلق معقول، والموقع لا يطلب الثقة بلا ضوابط. فهو يقول من أين يكتب، ويورد المصادر التي يعتمد عليها، ويفصل ما يقوله المصدر عما يستنتجه الموقع، ويعرض أقوى الاعتراضات كما يعرضها أصحابها. ويستطيع القارئ أن يقارن ذلك ببيانات التقاليد الأخرى نفسها.',
-          'وما من كاتب بلا موقف، والموقف المعلن أيسر تصحيحًا من الموقف المخفي. والتصحيحات من قراء أي تقليد مرحَّب بها.',
+          'الموقع لا يطلب الثقة بلا ضوابط. فهو يقول من أين يكتب، ويورد المصادر التي يعتمد عليها، ويفصل ما يقوله المصدر عما يستنتجه، ويعرض الاعتراضات كما يعرضها أصحابها. ويستطيع القارئ أن يقارن ذلك كله ببيانات التقاليد الأخرى نفسها.',
+          'وما من كاتب بلا موقف، والموقف المعلن موقف أمين. والكنيسة تتكلم من إيمانها علنًا، وهذا الإعلان نفسه حماية من الظلم.',
         ],
       },
       limits: {
@@ -304,12 +304,12 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'Historically, a Christian can say that divisions among the churches have been real and old, that the earliest churches already had disputes and resolved some through a meeting of the parties, and that modern dialogue has corrected a number of misdescriptions. These facts support a method of listening to each tradition in its own terms.',
-        'A Christian can also say that the history of the divisions includes politics, language and power as well as doctrine, and that attributing motives to the other side is a frequent source of error.',
+        'Divisions among the churches are real and old. The apostles themselves met in Jerusalem to resolve a dispute, and modern dialogue has corrected a number of misdescriptions, the Coptic Church’s among them. History supports listening to each tradition in its own terms.',
+        'The history of the divisions includes politics, language and power as well as doctrine. Attributing bad motives to the other side has often led to error, and the Church avoids it.',
       ],
       ar: [
-        'يستطيع المسيحي تاريخيًا أن يقول إن الانقسامات بين الكنائس حقيقية وقديمة، وإن الكنائس الأولى عرفت خلافات وحلّت بعضها باجتماع الأطراف، وإن الحوار الحديث صحح عددًا من الأوصاف الخاطئة. وهذه الوقائع تدعم منهج الإصغاء إلى كل تقليد بألفاظه.',
-        'ويستطيع أيضًا أن يقول إن تاريخ الانقسامات يتضمن السياسة واللغة والسلطة كما العقيدة، وإن نسبة الدوافع إلى الجانب الآخر مصدر متكرر للخطأ.',
+        'الانقسامات بين الكنائس حقيقية وقديمة. والرسل أنفسهم اجتمعوا في أورشليم لحل خلاف، وقد صحح الحوار الحديث عددًا من الأوصاف الخاطئة، ومنها ما قيل عن الكنيسة القبطية. والتاريخ يدعم الإصغاء إلى كل تقليد بألفاظه.',
+        'وتاريخ الانقسامات يتضمن السياسة واللغة والسلطة كما العقيدة. ونسبة النيات السيئة إلى الجانب الآخر قادت مرارًا إلى الخطأ، والكنيسة تتجنبها.',
       ],
     },
     theological: {
@@ -346,8 +346,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'Disputes among Christian traditions should be described by letting each state its own position, naming each as it names itself, and keeping history, doctrine and judgement distinct. This site writes from within the Coptic Orthodox faith, says so, and tries to treat the other traditions as they would recognise themselves.',
-    ar: 'ينبغي وصف الخلافات بين التقاليد المسيحية بأن يُترك لكل منها أن يعرض موقفه، وأن يُسمى كل منها كما يسمي نفسه، وأن يُبقى التاريخ والعقيدة والحكم متمايزة. ويكتب هذا الموقع من داخل الإيمان القبطي الأرثوذكسي، ويقول ذلك، ويحاول أن يعامل التقاليد الأخرى كما تعرف نفسها.',
+    en: 'Disputes among Christians are rightly described in truth and love: letting each tradition state its own position, calling each by its own name, and keeping history, doctrine and judgement distinct. The Coptic Orthodox Church holds and confesses the apostolic faith without apology, honours all that she shares with other Christians, and prays at every Liturgy for the unity of the one holy catholic and apostolic Church.',
+    ar: 'تُوصف الخلافات بين المسيحيين وصفًا صحيحًا بالحق والمحبة: بأن يُترك لكل تقليد أن يعرض موقفه، وأن يُدعى كل منها باسمه، وأن يُبقى التاريخ والعقيدة والحكم متمايزة. والكنيسة القبطية الأرثوذكسية تتمسك بالإيمان الرسولي وتعترف به بلا اعتذار، وتكرّم كل ما تشترك فيه مع المسيحيين الآخرين، وتصلي في كل قداس من أجل وحدة الكنيسة الواحدة المقدسة الجامعة الرسولية.',
   },
   furtherReading: ['S20', 'S44', 'S53', 'S55', 'S62'],
   related: ['miaphysite-christology', 'miaphysitism-vs-eutychianism', 'scripture-and-tradition', 'what-happened-at-nicaea', 'alternative-christian-readings-of-mary', 'religious-disagreement'],

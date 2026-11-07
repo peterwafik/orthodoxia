@@ -15,25 +15,25 @@ export const article: Article = {
     ar: 'تسأل هذه المقالة كيف يستطيع إنسان متأمل أن يقارن بين دعاوى الأديان المختلفة بأنها حق، حين لا يمكن أن تكون كلها حقًا بالمعنى نفسه. وتقدم مجموعة أسئلة منصفة تُوجَّه إلى أي تقليد، ومنه المسيحية، وتقول أين تقف الدعوى المسيحية حين تُوجَّه إليها. وهي لا تحاول تفنيد أي دين آخر.',
   },
   shortAnswer: {
-    en: 'Religions make different claims about God, human nature, history and what is to be done, and where these contradict each other they cannot all be true as stated. Philosophers of religion describe three broad responses: that one religion is true and others false in what they deny, that one is the fullest truth and others hold part of it, and that all are different responses to one ultimate reality. A fair comparison does not begin by choosing among these. It asks of each tradition what it claims, what kind of evidence it offers, whether it is coherent, whether it rests on events that can be examined, and what kind of life it produces. Christianity makes claims about historical events, above all the death and resurrection of Jesus, and so invites an examination of that kind. No method of comparison removes the need for judgment, and people of good will reach different conclusions.',
-    ar: 'تقدم الأديان دعاوى مختلفة عن الله وطبيعة الإنسان والتاريخ وما ينبغي فعله، وحيث تتناقض لا يمكن أن تكون كلها حقًا كما هي مقررة. ويصف فلاسفة الدين ثلاث استجابات عامة: أن دينًا واحدًا حق والآخرين باطل فيما ينكرونه، وأن دينًا واحدًا هو ملء الحق وغيره يحمل جزءًا منه، وأن الجميع استجابات مختلفة لحقيقة قصوى واحدة. والمقارنة المنصفة لا تبدأ باختيار بين هذه. إنها تسأل كل تقليد: ماذا يدّعي، وأي نوع من الأدلة يقدم، وهل هو متماسك، وهل يقوم على أحداث يمكن فحصها، وأي نوع من الحياة ينتج. والمسيحية تدّعي دعاوى عن أحداث تاريخية، وأهمها موت يسوع وقيامته، ولذلك تدعو إلى فحص من هذا النوع. ولا يزيل أي منهج للمقارنة الحاجة إلى الحكم، ويصل أهل الإرادة الصالحة إلى استنتاجات مختلفة.',
+    en: 'Religions make different claims about God, human nature, history and salvation, and where they contradict each other they cannot all be true; saying so is honest, not unkind. A fair comparison asks the same questions of every tradition: what does it claim, is it coherent, what evidence does it offer, does it rest on events that can be examined, and what life does it produce? The Christian faith welcomes these questions. Its centre is not a private vision but public events: Jesus of Nazareth was crucified under Pontius Pilate and rose on the third day, and He appeared to many witnesses who proclaimed it in the city where it happened. That claim can be examined, and it holds. The Church therefore confesses with confidence and with respect for all people that Jesus Christ is the Son of God, the way, the truth and the life.',
+    ar: 'تقدم الأديان دعاوى مختلفة عن الله وطبيعة الإنسان والتاريخ والخلاص، وحيث تتناقض لا يمكن أن تكون كلها حقًا؛ وقول ذلك أمانة لا قسوة. والمقارنة المنصفة تسأل كل تقليد الأسئلة نفسها: ماذا يدّعي، وهل هو متماسك، وأي دليل يقدم، وهل يقوم على أحداث يمكن فحصها، وأي حياة ينتج؟ والإيمان المسيحي يرحب بهذه الأسئلة. فمركزه ليس رؤيا خاصة بل أحداث علنية: صُلب يسوع الناصري على عهد بيلاطس البنطي وقام في اليوم الثالث، وظهر لشهود كثيرين كرزوا بذلك في المدينة التي حدث فيها. وهذه الدعوى يمكن فحصها، وهي تثبت. ولذلك تعترف الكنيسة بثقة واحترام لكل الناس بأن يسوع المسيح هو ابن الله، الطريق والحق والحياة.',
   },
   quickPoints: {
     en: [
       'Where religions contradict each other on central claims, they cannot all be true as stated; saying so is not an insult to anyone.',
-      'Three common positions are exclusivism, inclusivism and pluralism, and each is held by sincere people inside and outside Christianity.',
+      'The idea that all religions say the same thing is not what their own followers believe; respect means taking each at its word.',
       'Fair questions for any tradition: what does it claim, how coherent is it, what evidence does it offer, does it rest on events open to examination, and what does it do to those who follow it.',
       'The tests should be applied equally, and a tradition should be described as its own adherents describe it.',
-      'Christianity rests on public claims about history, so some of its central claims can be examined by historians; its other claims are matters of philosophy and faith.',
-      'Comparison does not remove the need for judgment, and it does not make anyone’s conscience a mere calculation.',
+      'Christianity rests on public events in history, above all the death and resurrection of Jesus, and these can be examined; they stand up to examination.',
+      'The Church recognises truth and goodness wherever they are found, as gifts of the one God, and confesses that their fullness is in Christ.',
     ],
     ar: [
       'حيث تتناقض الأديان في الدعاوى المركزية لا يمكن أن تكون كلها حقًا كما هي مقررة؛ وقول ذلك ليس إهانة لأحد.',
-      'ثلاثة مواقف شائعة هي الحصرية والشمولية والتعددية، ويتمسك بكل منها أناس مخلصون داخل المسيحية وخارجها.',
+      'فكرة أن كل الأديان تقول الشيء نفسه ليست ما يؤمن به أتباعها؛ والاحترام يعني أن نأخذ كل دين بكلامه.',
       'أسئلة منصفة لأي تقليد: ماذا يدّعي، وما مدى تماسكه، وأي دليل يقدم، وهل يقوم على أحداث مفتوحة للفحص، وماذا يفعل بمن يتبعونه.',
       'ينبغي أن تُطبَّق الاختبارات بالتساوي، وأن يُوصف التقليد كما يصفه أتباعه.',
-      'تقوم المسيحية على دعاوى علنية عن التاريخ، فبعض دعاواها المركزية يمكن للمؤرخين فحصه؛ ودعاواها الأخرى مسائل فلسفة وإيمان.',
-      'المقارنة لا تلغي الحاجة إلى الحكم، ولا تجعل ضمير أحد مجرد حساب.',
+      'تقوم المسيحية على أحداث علنية في التاريخ، وأهمها موت يسوع وقيامته، وهذه يمكن فحصها؛ وهي تصمد أمام الفحص.',
+      'تعترف الكنيسة بالحق والصلاح أينما وُجدا، عطايا من الإله الواحد، وتعترف بأن ملأهما في المسيح.',
     ],
   },
   argumentTypes: ['philosophical', 'historical'],
@@ -47,11 +47,11 @@ export const article: Article = {
   whyExamine: {
     en: [
       'Most people hold the religion they were born into, and many are aware of it. Others live among neighbours of other faiths, as Copts do in Egypt, and know them as honest and devout. For both, the question of how to think about competing claims is real and not academic.',
-      'There are two easy mistakes. One is to say that all religions are saying the same thing, which most of their adherents would deny. The other is to say that only one is right and all others are worthless, which the Church itself does not say. A better course is to ask the same questions of each.',
+      'There are two easy mistakes. One is to say that all religions are saying the same thing, which most of their adherents would deny. The other is to say that people of other faiths have nothing true or good, which the Church does not say. The better course is to ask the same honest questions of each, and to follow where they lead.',
     ],
     ar: [
       'يتمسك أكثر الناس بالدين الذي وُلدوا فيه، وكثير منهم واعٍ بذلك. ويعيش آخرون بين جيران من أديان أخرى، كما يعيش الأقباط في مصر، ويعرفونهم أمناء وأتقياء. وللفريقين سؤال كيف نفكر في الدعاوى المتنافسة سؤال حقيقي لا أكاديمي.',
-      'وثمة خطآن سهلان. أحدهما القول إن كل الأديان تقول الشيء نفسه، وهو ما ينكره أكثر أتباعها. والآخر القول إن ديانًا واحدًا على صواب وكل غيره بلا قيمة، وهو ما لا تقوله الكنيسة نفسها. والأفضل أن تُسأل الأسئلة نفسها لكل دين.',
+      'وثمة خطآن سهلان. أحدهما القول إن كل الأديان تقول الشيء نفسه، وهو ما ينكره أكثر أتباعها. والآخر القول إن أتباع الأديان الأخرى ليس عندهم شيء من الحق أو الصلاح، وهو ما لا تقوله الكنيسة. والطريق الأفضل أن تُسأل الأسئلة الأمينة نفسها لكل دين، وأن نتبع حيث تقود.',
     ],
   },
   background: {
@@ -72,14 +72,14 @@ export const article: Article = {
     {
       id: 'c1',
       proposition: {
-        en: 'Where religions make contradictory claims on a central matter, they cannot all be true as stated; whether this leads to exclusivism, inclusivism or pluralism is itself disputed.',
-        ar: 'حيث تقدم الأديان دعاوى متناقضة في أمر مركزي، لا يمكن أن تكون كلها حقًا كما هي مقررة؛ وهل يؤدي هذا إلى الحصرية أو الشمولية أو التعددية أمر مختلف فيه.',
+        en: 'Where religions make contradictory claims on a central matter, they cannot all be true as stated.',
+        ar: 'حيث تقدم الأديان دعاوى متناقضة في أمر مركزي، لا يمكن أن تكون كلها حقًا كما هي مقررة.',
       },
       argumentType: 'philosophical',
       assessment: 'philosophical_argument',
       rationale: {
-        en: 'The point about contradiction is one of logic. The reference entry presents the three positions and the arguments for and against each.',
-        ar: 'النقطة عن التناقض منطقية. ويعرض المدخل المرجعي المواقف الثلاثة والحجج لها وعليها.',
+        en: 'This is simple logic. Either Jesus died on the cross or He did not; either God is a Trinity or He is not. Even the pluralist view, that all religions are partial responses to one reality, is itself a claim that contradicts what most believers of every faith hold.',
+        ar: 'هذا منطق بسيط. فإما أن يسوع مات على الصليب أو لم يمت؛ وإما أن الله ثالوث أو ليس كذلك. وحتى الرأي التعددي، أن كل الأديان استجابات جزئية لحقيقة واحدة، هو نفسه دعوى تناقض ما يؤمن به أكثر المؤمنين في كل دين.',
       },
       limits: {
         en: 'Some claim that religions differ in language and not in substance, and that apparent contradictions are on the surface; where that is true, the contradiction does not arise.',
@@ -96,8 +96,8 @@ export const article: Article = {
       argumentType: 'philosophical',
       assessment: 'philosophical_argument',
       rationale: {
-        en: 'These are criteria used in the discussion of religious diversity and of testimony, and they can be applied by anyone. They are not neutral in every case, since choosing what counts as good evidence can already favour one view.',
-        ar: 'هذه معايير تُستعمل في مناقشة التنوع الديني والشهادة، ويستطيع أي أحد تطبيقها. وهي ليست محايدة في كل حال، لأن اختيار ما يُعدّ دليلًا جيدًا قد يميل أصلًا إلى رأي.',
+        en: 'These are the criteria used in the philosophical discussion of religious diversity and of testimony, and anyone can apply them. They treat every tradition alike, describing each as its own followers describe it, and weighing testimony by the same standards whoever gives it.',
+        ar: 'هذه هي المعايير المستعملة في المناقشة الفلسفية للتنوع الديني والشهادة، ويستطيع أي أحد تطبيقها. وهي تعامل كل تقليد بالمثل، فتصف كلًا منها كما يصفه أتباعه، وتزن الشهادة بالمعايير نفسها أيًّا كان من يقدمها.',
       },
       limits: {
         en: 'The criteria do not yield a score. Different people will weigh coherence, historical grounding and moral fruit differently.',
@@ -114,8 +114,8 @@ export const article: Article = {
       argumentType: 'textual',
       assessment: 'strong_historical_support',
       rationale: {
-        en: 'St Paul the Apostle urges believers to test everything and hold to what is good, and the Beroeans are praised in Acts for examining the Scriptures to see whether what they were told was so. Whether a particular Christian claim survives such examination is treated in the other articles.',
-        ar: 'يحث القديس بولس الرسول المؤمنين على امتحان كل شيء والتمسك بالحسن، ويُمدح أهل بيرية في أعمال الرسل لأنهم فحصوا الكتب ليروا هل ما قيل لهم هكذا. وهل تصمد دعوى مسيحية بعينها أمام هذا الفحص تعالجه المقالات الأخرى.',
+        en: 'St Paul the Apostle urges believers to test everything and hold to what is good, and the Beroeans are praised in Acts for examining the Scriptures to see whether what they were told was so. The apostles did not ask for blind assent; they pointed to what they had seen and heard, and the other articles on this site show how well their witness stands.',
+        ar: 'يحث القديس بولس الرسول المؤمنين على امتحان كل شيء والتمسك بالحسن، ويُمدح أهل بيرية في أعمال الرسل لأنهم فحصوا الكتب ليروا هل ما قيل لهم هكذا. ولم يطلب الرسل تسليمًا أعمى؛ بل أشاروا إلى ما رأوه وسمعوه، وتبيّن المقالات الأخرى في هذا الموقع كيف تثبت شهادتهم.',
       },
       limits: {
         en: 'Other traditions also make claims that can be examined, and they should be examined in the same way. That a claim can be examined does not mean the result is agreed.',
@@ -180,11 +180,11 @@ export const article: Article = {
       },
       response: {
         en: [
-          'It is true that upbringing strongly shapes belief, and this should make every believer humble. But the origin of a belief does not decide whether it is true; the same would apply to a person’s scientific or political beliefs. The question is whether there are reasons to hold it that can be examined.',
+          'Upbringing does shape belief, and this should make every believer humble. But where a belief came from does not decide whether it is true; the same would apply to a person’s scientific or political beliefs. Many people, from the first century to today, have come to Christ from outside the faith of their birth, drawn by its reasons and by Christ Himself.',
           'The charge of arrogance also applies to the pluralist, who claims that all traditions are partial responses to one reality and that their adherents have misunderstood themselves. No position is free of a claim to truth.',
         ],
         ar: [
-          'صحيح أن التنشئة تشكل الاعتقاد بقوة، وينبغي أن يجعل ذلك كل مؤمن متواضعًا. لكن أصل الاعتقاد لا يحسم صحته؛ وينطبق الأمر نفسه على اعتقادات الإنسان العلمية أو السياسية. والسؤال: هل هناك أسباب لاعتقاده يمكن فحصها.',
+          'التنشئة تشكّل الاعتقاد فعلًا، وينبغي أن يجعل ذلك كل مؤمن متواضعًا. لكن مصدر الاعتقاد لا يحسم صحته؛ وينطبق الأمر نفسه على اعتقادات الإنسان العلمية أو السياسية. وكثيرون، من القرن الأول إلى اليوم، جاؤوا إلى المسيح من خارج دين مولدهم، تجذبهم أسبابه ويجذبهم المسيح نفسه.',
           'وتهمة التعالي تنطبق على التعددي أيضًا، الذي يدّعي أن كل التقاليد استجابات جزئية لحقيقة واحدة وأن أتباعها أساءوا فهم أنفسهم. فلا موقف خالٍ من دعوى حق.',
         ],
       },
@@ -202,12 +202,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The Church does not deny goodness in people of other faiths and gladly recognises it. It also holds that moral fruit is a sign, and does not hold it to be a proof. The central Christian claim is that something has happened in history, and that is a different kind of claim from the claim to produce good people.',
-          'The same applies to experience. The experiences of people of many traditions are sincere, and the article on other religions’ miracle and experience claims treats how they should be weighed.',
+          'The Church gladly recognises goodness in people of other faiths; every person bears the image of God, and all goodness comes from Him. But moral fruit is a sign, not the whole case. The Christian claim is that something has happened in history: God the Word became man, died and rose. That is a different kind of claim from producing good people, and it can be examined on its own evidence.',
+          'The same is true of experience. People of many traditions are sincere in their experiences of the divine. Sincerity is not the question; what has actually happened is. The article on other religions’ miracle and experience claims shows how such reports are weighed.',
         ],
         ar: [
-          'لا تنكر الكنيسة الصلاح في أتباع الأديان الأخرى، وتعترف به بفرح. وتعتقد كذلك أن الثمر الأخلاقي علامة، ولا تعدّه برهانًا. والدعوى المسيحية المركزية أن شيئًا حدث في التاريخ، وهي دعوى من نوع غير دعوى إنتاج أناس صالحين.',
-          'والأمر نفسه في الخبرة. فخبرات أتباع تقاليد كثيرة صادقة، وتعالج مقالة دعاوى المعجزات والخبرات في الأديان الأخرى كيف ينبغي وزنها.',
+          'تعترف الكنيسة بفرح بالصلاح في أتباع الأديان الأخرى؛ فكل إنسان يحمل صورة الله، وكل صلاح يأتي منه. لكن الثمر الأخلاقي علامة لا القضية كلها. فالدعوى المسيحية أن شيئًا حدث في التاريخ: الله الكلمة صار إنسانًا ومات وقام. وهذه دعوى من نوع غير إنتاج أناس صالحين، ويمكن فحصها على أدلتها.',
+          'والأمر نفسه في الخبرة. فأتباع تقاليد كثيرة صادقون في خبراتهم الروحية. والصدق ليس موضع السؤال؛ بل ما حدث فعلًا. وتبيّن مقالة دعاوى المعجزات والخبرات في الأديان الأخرى كيف توزن هذه الأخبار.',
         ],
       },
       limits: {
@@ -224,12 +224,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'This is a fair point. The criteria of coherence, evidence, examinability and fruit are meant to be general, but some of them fit some traditions better than others. A tradition that rests on a revelation to one person, or on a way of practice, or on a text, should be asked what kind of evidence it offers for its own claims and judged by that.',
-          'The Church asks for the same treatment of its own claims, and states that where it relies on history, history may test it.',
+          'Each tradition should be asked what kind of evidence it offers for its own claims, and judged by that: a revelation to one person, a way of practice, a sacred text. Coherence and the fruit of life apply to every tradition alike.',
+          'That Christianity rests on public events is not a rule chosen to favour it; it is what the apostles themselves proclaimed. By grounding its faith in history, the Church accepts a test that could have refuted it, and that is a mark of its confidence, not an unfair advantage.',
         ],
         ar: [
-          'هذه ملاحظة وجيهة. فمعايير التماسك والدليل وقابلية الفحص والثمر مقصودة عامة، لكن بعضها يناسب بعض التقاليد أكثر من غيرها. والتقليد القائم على وحي لشخص واحد، أو على طريق ممارسة، أو على نص، ينبغي أن يُسأل أي نوع من الدليل يقدمه لدعاواه ويُحكم عليه به.',
-          'وتطلب الكنيسة المعاملة نفسها لدعاواها، وتقول إنها حيث تعتمد على التاريخ فللتاريخ أن يمتحنها.',
+          'ينبغي أن يُسأل كل تقليد أي نوع من الدليل يقدمه لدعاواه، وأن يُحكم عليه به: وحي لشخص واحد، أو طريق ممارسة، أو نص مقدس. والتماسك وثمر الحياة ينطبقان على كل تقليد بالمثل.',
+          'وقيام المسيحية على أحداث علنية ليس قاعدة اختيرت لتحابيها؛ بل هو ما كرز به الرسل أنفسهم. وبتأسيس إيمانها على التاريخ تقبل الكنيسة اختبارًا كان يمكن أن يفنّدها، وهذه علامة ثقتها لا ميزة غير منصفة.',
         ],
       },
       limits: {
@@ -243,20 +243,20 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'Christian claims about Jesus are historical claims, and a historian can ask what the earliest sources report. What can be said here is limited: the earliest Christian documents present their claims as open to examination, and they name witnesses. Whether the resurrection is the best explanation of the evidence is treated in the articles on the resurrection, and the answer is not assumed here.',
+        'Christian claims about Jesus are historical claims. The earliest Christian documents present them openly and name witnesses; St Paul the Apostle lists those to whom the risen Lord appeared, most of them still alive when he wrote. The crucifixion is recorded even by non-Christian writers such as Tacitus and Josephus. The articles on the resurrection show that it is the best explanation of the evidence.',
       ],
       ar: [
-        'الدعاوى المسيحية عن يسوع دعاوى تاريخية، ويستطيع المؤرخ أن يسأل ماذا تروي أقدم المصادر. وما يمكن قوله هنا محدود: أقدم الوثائق المسيحية تقدم دعاواها مفتوحة للفحص وتسمّي شهودًا. وهل القيامة أفضل تفسير للأدلة تعالجه مقالات القيامة، ولا يُفترض الجواب هنا.',
+        'الدعاوى المسيحية عن يسوع دعاوى تاريخية. وأقدم الوثائق المسيحية تقدمها علنًا وتسمّي شهودًا؛ فالقديس بولس الرسول يعدّد الذين ظهر لهم الرب القائم، وكان أكثرهم أحياء حين كتب. والصلب يسجله حتى كتّاب غير مسيحيين مثل تاكيتوس ويوسيفوس. وتبيّن مقالات القيامة أنها أفضل تفسير للأدلة.',
       ],
     },
     theological: {
       en: [
         'The Church confesses that Jesus Christ is the Son of God made man, that in him God has fully made himself known, and that salvation is through him. It also confesses that God is the Creator of all, that his image is in every human being, and that truth and goodness found anywhere come from him. It therefore speaks of other faiths with respect and without agreeing that their central claims are the same as its own.',
-        'The Church’s own approach is to give a reason for its hope with gentleness and respect, and to let the claims be tested. It does not ask anyone to believe on the strength of comparison alone, since faith is also a gift and a response, and not only a conclusion.',
+        'The Church’s own approach is to give a reason for its hope with gentleness and respect, and to let the claims be tested. Reasons open the way, and faith, which is also a gift of God and a response of the heart, receives Christ Himself.',
       ],
       ar: [
         'تعترف الكنيسة بأن يسوع المسيح ابن الله المتجسد، وأن الله فيه عرّف نفسه كاملًا، وأن الخلاص به. وتعترف كذلك بأن الله خالق الكل، وأن صورته في كل إنسان، وأن ما يوجد في أي مكان من حق وصلاح يأتي منه. فهي تتكلم عن الأديان الأخرى باحترام ودون موافقة على أن دعاواها المركزية مثل دعواها.',
-        'ومقاربة الكنيسة أن تقدم جوابًا عن الرجاء الذي فيها بوداعة واحترام، وأن تدع الدعاوى تُمتحن. ولا تطلب من أحد أن يؤمن بقوة المقارنة وحدها، لأن الإيمان أيضًا عطية واستجابة، وليس استنتاجًا فقط.',
+        'ومقاربة الكنيسة أن تقدم جوابًا عن الرجاء الذي فيها بوداعة واحترام، وأن تدع الدعاوى تُمتحن. فالأسباب تفتح الطريق، والإيمان، وهو أيضًا عطية من الله واستجابة من القلب، يتقبّل المسيح نفسه.',
       ],
     },
   },
@@ -279,8 +279,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'Religions that contradict each other cannot all be true as stated, and saying so is a matter of logic and not of contempt. A fair comparison asks the same questions of each tradition and states them openly. Christianity rests part of its claim on public events, and so invites an examination that does not depend on prior faith, though the result is not agreed. The comparison does not end the need for judgment, and it should be made with respect for those who reach other conclusions.',
-    ar: 'الأديان المتناقضة لا يمكن أن تكون كلها حقًا كما هي مقررة، والقول بذلك مسألة منطق لا ازدراء. والمقارنة المنصفة تسأل الأسئلة نفسها لكل تقليد وتعلنها. وتقيم المسيحية جزءًا من دعواها على أحداث علنية، فتدعو إلى فحص لا يعتمد على إيمان سابق، وإن لم تكن النتيجة متفقًا عليها. والمقارنة لا تنهي الحاجة إلى الحكم، وينبغي أن تُجرى باحترام لمن يصلون إلى استنتاجات أخرى.',
+    en: 'Religions that contradict each other cannot all be true, and saying so is a matter of honesty, not contempt. A fair comparison asks the same questions of every tradition. The Christian faith rests on public events that can be examined, above all the death and resurrection of Jesus, and that witness stands. The Church confesses Jesus Christ as the Son of God and the Saviour of the world, and she gives the reason for her hope with gentleness and love toward every neighbour.',
+    ar: 'الأديان المتناقضة لا يمكن أن تكون كلها حقًا، والقول بذلك أمانة لا ازدراء. والمقارنة المنصفة تسأل كل تقليد الأسئلة نفسها. والإيمان المسيحي قائم على أحداث علنية يمكن فحصها، وأهمها موت يسوع وقيامته، وهذه الشهادة تثبت. وتعترف الكنيسة بيسوع المسيح ابنًا لله ومخلّصًا للعالم، وتقدم جوابًا عن رجائها بوداعة ومحبة لكل قريب.',
   },
   furtherReading: ['S46', 'S41', 'S45'],
   related: [

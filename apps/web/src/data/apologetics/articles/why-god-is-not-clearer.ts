@@ -15,23 +15,23 @@ export const article: Article = {
     ar: 'تتناول هذه المقالة سؤال احتجاب الله: إن كان الله موجودًا ويريد أن يُعرف فلماذا لا يكون وجوده أوضح؟ وتعرض الحجة كما يصوغها الفلاسفة، وأهم ردود المؤمنين، وما يقوله الكتاب المقدس عن احتجاب الله وعن إيجاده، وكيف يفهم التقليد القبطي الأرثوذكسي معرفة الله. وهي تخص الباحثين الصادقين والمتشككين الصادقين، ولا توحي بأن من لم يجد الإيمان مقصّر.',
   },
   shortAnswer: {
-    en: 'There is no single accepted answer, and the objection is serious. The argument says that a loving God would make himself evident to anyone who is open to him, so sincere non-belief counts against such a God. Believers reply in several ways: that knowing God is a relationship that cannot be forced and that overwhelming proof might compel rather than invite; that what God seeks is trust and love, not only assent; that the evidence is more widespread than appears but can be set aside; and that a finite mind cannot assume it knows what the clearest self-disclosure would be. Christians add that God has made himself known in a person, Jesus Christ, and that the Bible itself speaks of God being hidden, of silence and of seeking. This does not remove the pain of those who have sought and not found.',
-    ar: 'ليس هناك جواب واحد مقبول، والاعتراض جاد. تقول الحجة إن إلهًا محبًّا يجعل نفسه واضحًا لكل منفتح عليه، فعدم الإيمان الصادق يشهد ضد إله كهذا. ويرد المؤمنون بطرق عدة: أن معرفة الله علاقة لا تُفرض، وأن البرهان الساحق قد يُجبر بدل أن يدعو؛ وأن ما يطلبه الله هو الثقة والمحبة لا القبول الذهني فقط؛ وأن الدليل أوسع انتشارًا مما يبدو لكن يمكن تنحيته؛ وأن عقلًا محدودًا لا يستطيع افتراض أنه يعرف ما سيكون أوضح إعلان لله عن ذاته. ويضيف المسيحيون أن الله عرّف نفسه في شخص يسوع المسيح، وأن الكتاب المقدس نفسه يتكلم عن احتجاب الله وعن الصمت وعن الطلب. وهذا لا يزيل وجع من بحثوا ولم يجدوا.',
+    en: 'God has not left Himself without witness. He speaks through creation and conscience, and He has shown Himself most clearly of all in a Person: Jesus Christ, who told Philip that to see Him is to see the Father (John 14:9). Why not more overwhelming proof? Because God seeks not only our assent but our love and trust, and love cannot be forced; a proof that left no room to turn away would compel rather than invite. God draws near gently, so that we can come to Him freely. The Scriptures and the saints know seasons of silence, and they also know the promise: those who seek God with all their heart will find Him.',
+    ar: 'لم يترك الله نفسه بلا شاهد. فهو يتكلم بالخليقة والضمير، وقد أظهر نفسه بأوضح ما يكون في شخص: يسوع المسيح، الذي قال لفيلبس إن رؤيته هي رؤية الآب (يوحنا ١٤: ٩). ولماذا لا يكون هناك برهان أشد إلزامًا؟ لأن الله لا يطلب قبولنا فقط بل محبتنا وثقتنا، والمحبة لا تُفرض؛ والبرهان الذي لا يترك مجالًا للإعراض يُجبر بدل أن يدعو. فالله يقترب بلطف لكي نأتي إليه أحرارًا. والكتب والقديسون يعرفون فصول الصمت، ويعرفون أيضًا الوعد: الذين يطلبون الله بكل قلوبهم يجدونه.',
   },
   quickPoints: {
     en: [
-      'The hiddenness argument says that sincere non-belief is better explained if there is no God who wants a relationship with everyone.',
-      'Replies include human freedom, the kind of relationship God seeks, the possibility that evidence is clearer than it seems, and our limited knowledge of what God’s clearest disclosure would be.',
-      'The Bible speaks of God as hidden and of the experience of silence; it also invites seeking and promises finding.',
-      'Christians claim that God has made himself known most fully in Christ; whether that is persuasive depends on the historical evidence.',
-      'No one is told here that they are to blame for not believing.',
+      'God speaks through creation, through conscience, through the prophets, and above all through His Son, Jesus Christ.',
+      'God seeks a relationship of love and trust, which cannot be forced. Overwhelming proof would compel rather than invite.',
+      'The Bible speaks honestly of God as hidden and of seasons of silence; it also invites seeking and promises finding.',
+      'In Christ God came close enough to be seen, heard and touched. The evidence for His life and resurrection is there for anyone to examine.',
+      'No one is told here that they are to blame for not believing. God is patient, and so is His Church.',
     ],
     ar: [
-      'تقول حجة الاحتجاب إن عدم الإيمان الصادق يُفسَّر تفسيرًا أفضل إن لم يكن هناك إله يريد علاقة مع الجميع.',
-      'من الردود: حرية الإنسان، ونوع العلاقة التي يطلبها الله، وإمكان أن يكون الدليل أوضح مما يبدو، ومحدودية معرفتنا بما سيكون أوضح كشف إلهي.',
-      'يتكلم الكتاب المقدس عن الله محتجبًا وعن اختبار الصمت؛ ويدعو أيضًا إلى الطلب ويعد بالإيجاد.',
-      'يدّعي المسيحيون أن الله عرّف نفسه أكمل تعريف في المسيح؛ وإقناع هذا يتوقف على الدليل التاريخي.',
-      'لا يُقال هنا لأحد إنه ملوم لأنه لا يؤمن.',
+      'يتكلم الله بالخليقة والضمير والأنبياء، وفوق كل شيء بابنه يسوع المسيح.',
+      'يطلب الله علاقة محبة وثقة، وهذه لا تُفرض. والبرهان الساحق يُجبر بدل أن يدعو.',
+      'يتكلم الكتاب المقدس بصدق عن الله محتجبًا وعن فصول الصمت؛ ويدعو أيضًا إلى الطلب ويعد بالإيجاد.',
+      'في المسيح اقترب الله حتى صار يُرى ويُسمع ويُلمس. والأدلة على حياته وقيامته متاحة لكل من يريد أن يفحصها.',
+      'لا يُقال هنا لأحد إنه ملوم لأنه لا يؤمن. فالله صبور، وكنيسته كذلك.',
     ],
   },
   argumentTypes: ['philosophical', 'theological'],
@@ -44,11 +44,11 @@ export const article: Article = {
   },
   whyExamine: {
     en: [
-      'This is often the real question behind others. A person has prayed, read, listened and waited, and nothing has come. For them the silence is not an argument but a wound, and a quick answer can make it worse. They deserve a statement of how the objection is made at full strength.',
+      'This is often the real question behind others. A person has prayed, read, listened and waited, and nothing has come. For them the silence is not an argument but a wound, and a quick answer can make it worse. They deserve a patient answer that takes the question seriously.',
       'It is also a question that believers have asked. The Psalms are full of it, and so are the lives of many saints. To treat it as only an unbeliever’s problem would be false to the tradition.',
     ],
     ar: [
-      'كثيرًا ما يكون هذا السؤال الحقيقي وراء أسئلة أخرى. إنسان صلّى وقرأ وأصغى وانتظر، ولم يأتِ شيء. الصمت عنده ليس حجة بل جرح، والجواب السريع قد يزيده. وهو يستحق أن يُعرض الاعتراض بكامل قوته.',
+      'كثيرًا ما يكون هذا السؤال الحقيقي وراء أسئلة أخرى. إنسان صلّى وقرأ وأصغى وانتظر، ولم يأتِ شيء. الصمت عنده ليس حجة بل جرح، والجواب السريع قد يزيده. وهو يستحق جوابًا صبورًا يأخذ السؤال بجدية.',
       'وهو سؤال سأله المؤمنون أيضًا. فالمزامير مملوءة به، وكذلك حياة قديسين كثيرين. ومعاملته على أنه مشكلة غير المؤمن وحده خيانة للتقليد.',
     ],
   },
@@ -68,14 +68,14 @@ export const article: Article = {
     {
       id: 'c1',
       proposition: {
-        en: 'The hiddenness argument claims that sincere non-belief is better explained if there is no God who wants a relationship with everyone; it is a serious argument and remains contested.',
-        ar: 'تدّعي حجة الاحتجاب أن عدم الإيمان الصادق يُفسَّر تفسيرًا أفضل إن لم يكن هناك إله يريد علاقة مع الجميع؛ وهي حجة جادة وتبقى موضع خلاف.',
+        en: 'God’s hiddenness does not show that He is absent. A God who seeks love and trust has good reason not to overwhelm people with proof.',
+        ar: 'احتجاب الله لا يبيّن أنه غائب. فالإله الذي يطلب المحبة والثقة له سبب وجيه لئلا يغمر الناس ببرهان قاهر.',
       },
       argumentType: 'philosophical',
       assessment: 'philosophical_argument',
       rationale: {
-        en: 'The reference entry (S43) presents the argument and a range of replies, none of which is treated as closing the matter.',
-        ar: 'يعرض المدخل المرجعي (S43) الحجة وطائفة من الردود، ولا يُعد أيٌّ منها مغلقًا للموضوع.',
+        en: 'Believing that God exists is not yet knowing Him. A relationship of love needs freedom, and God may draw a person gently, over time, for that person’s deeper good. The reference entry (S43) sets out these replies.',
+        ar: 'الاعتقاد بوجود الله ليس بعد معرفة له. وعلاقة المحبة تحتاج إلى حرية، والله قد يجتذب الإنسان بلطف وعلى مهل لخيره الأعمق. ويعرض المدخل المرجعي (S43) هذه الردود.',
       },
       limits: {
         en: 'The argument depends on premises about what a loving God would do, which are themselves disputed.',
@@ -92,8 +92,8 @@ export const article: Article = {
       argumentType: 'textual',
       assessment: 'strong_historical_support',
       rationale: {
-        en: 'The passages cited from Isaiah and the Psalms speak of God hiding, and the passages from Jeremiah and the Gospels speak of seeking and finding. This is a claim about what the texts say.',
-        ar: 'تتكلم الفقرات المذكورة من إشعياء والمزامير عن احتجاب الله، وتتكلم الفقرات من إرميا والأناجيل عن الطلب والإيجاد. وهذه دعوى عمّا تقوله النصوص.',
+        en: 'Isaiah calls God the One who hides Himself and yet saves Israel; the Psalms ask why He stands far off. Jeremiah and the Lord Himself promise that those who seek will find. The tradition has always held the silence and the promise together.',
+        ar: 'يسمّي إشعياء الله المحتجب، وهو مع ذلك مخلّص إسرائيل؛ وتسأل المزامير لماذا يقف بعيدًا. ويعد إرميا والرب نفسه بأن من يطلب يجد. وقد جمع التقليد دائمًا بين الصمت والوعد.',
       },
       limits: {
         en: 'That the tradition has always known silence does not show that its explanations are right.',
@@ -104,14 +104,14 @@ export const article: Article = {
     {
       id: 'c3',
       proposition: {
-        en: 'Christians hold that God’s fullest self-disclosure is in a person, Jesus Christ, so that the answer to “why is God not clearer?” is partly “he has shown himself, in this way”.',
-        ar: 'يرى المسيحيون أن أكمل إعلان لله عن ذاته في شخص هو يسوع المسيح، فجواب «لماذا لا يكون الله أوضح؟» هو جزئيًا «لقد أظهر نفسه بهذه الطريقة».',
+        en: 'God’s fullest self-disclosure is in a Person, Jesus Christ. To the question “why is God not clearer?” the Church answers: He has shown Himself, in the clearest way a person can be known.',
+        ar: 'أكمل إعلان لله عن ذاته هو في شخص يسوع المسيح. وتجيب الكنيسة عن سؤال «لماذا لا يكون الله أوضح؟»: لقد أظهر نفسه بأوضح طريقة يُعرف بها شخص.',
       },
       argumentType: 'theological',
       assessment: 'theological_interpretation',
       rationale: {
-        en: 'The Gospel of John and the letter to the Hebrews state this claim, and St Athanasius argues that the Word came so that people who had lost the knowledge of God could know him again.',
-        ar: 'يصرّح بهذه الدعوى إنجيل يوحنا والرسالة إلى العبرانيين، ويرى القديس أثناسيوس أن الكلمة جاء لكي يعرف الناس الله من جديد بعد أن فقدوا معرفته.',
+        en: 'The Gospel of John says that the only Son has made the unseen God known, and the letter to the Hebrews calls the Son the radiance of God’s glory. St Athanasius teaches that the Word became man so that people who had lost the knowledge of God could know Him again.',
+        ar: 'يقول إنجيل يوحنا إن الابن الوحيد هو الذي أخبر عن الله الذي لم يره أحد، وتسمّي الرسالة إلى العبرانيين الابن بهاء مجد الله. ويعلّم القديس أثناسيوس أن الكلمة صار إنسانًا لكي يعرف الناس الله من جديد بعد أن فقدوا معرفته.',
       },
       limits: {
         en: 'Whether Jesus is what Christians say depends on the historical and theological questions treated in other articles, and a person unconvinced by them will not find this reply sufficient.',
@@ -122,14 +122,14 @@ export const article: Article = {
     {
       id: 'c4',
       proposition: {
-        en: 'The Gospels portray the evidence for God as one that does not compel assent and can be resisted even when it is strong.',
-        ar: 'تصوّر الأناجيل الدليل على الله دليلًا لا يُلزم بالقبول ويمكن مقاومته حتى حين يكون قويًا.',
+        en: 'Even clear signs do not compel faith. In the Gospels the same miracles led some to believe and others to turn away, and the Lord met honest doubt with gentleness.',
+        ar: 'حتى الآيات الواضحة لا تُلزم بالإيمان. ففي الأناجيل قادت المعجزات نفسها بعضهم إلى الإيمان وآخرين إلى الإعراض، ولاقى الرب الشك الصادق بلطف.',
       },
       argumentType: 'textual',
       assessment: 'supported_disputed_details',
       rationale: {
-        en: 'The parable of the rich man and Lazarus and the stories of Thomas and of the Pharisees after a miracle show people responding differently to the same signs. This is the Gospels’ own portrayal and is not an independent argument.',
-        ar: 'يبيّن مثل الغني ولعازر وقصص توما والفريسيين بعد معجزة أناسًا يستجيبون بطرق مختلفة للآيات نفسها. وهذا تصوير الأناجيل نفسها وليس حجة مستقلة.',
+        en: 'In the parable of the rich man and Lazarus, Abraham says that those who will not hear Moses and the prophets would not be persuaded even by one risen from the dead. Yet when Thomas asked to see and touch, the risen Lord came and invited him to do so.',
+        ar: 'في مثل الغني ولعازر يقول إبراهيم إن الذين لا يسمعون موسى والأنبياء لن يقتنعوا ولو قام واحد من الأموات. ومع ذلك حين طلب توما أن يرى ويلمس، جاء الرب القائم ودعاه إلى ذلك.',
       },
       limits: {
         en: 'This could be read as blaming those who do not believe. It is not meant that way, and it cannot be applied to any particular person.',
@@ -284,12 +284,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The reply of many believers is that an overwhelming demonstration might compel rather than invite, and that trust and love are not what a proof produces. A parent who forced affection would have the appearance of love without the reality. The analogy cuts both ways.',
-          'Critics reply that a parent who is present and clear does not compel a child, and that the analogy shows that God could be plain without coercion. This is the strongest form of the objection, and believers who take it seriously admit that the replies are partial.',
+          'God has not hidden from His children. He came to us in the flesh, lived among us, spoke, healed, died and rose, and He remains present in His Church. A loving parent does not hide, and God did not: He came into the house.',
+          'But a loving parent also does not force affection. An overwhelming demonstration might compel rather than invite, and trust and love are not what a proof produces. God makes Himself known in a way that leaves the heart free to answer, and He waits for each person with patience.',
         ],
         ar: [
-          'رد كثير من المؤمنين أن برهانًا ساحقًا قد يُجبر بدل أن يدعو، وأن الثقة والمحبة ليستا ما ينتجه البرهان. والوالد الذي يفرض المودة يملك مظهر المحبة دون حقيقتها. والتشبيه يعمل في الاتجاهين.',
-          'ويرد الناقدون بأن الوالد الحاضر الواضح لا يُجبر ابنه، وأن التشبيه يبيّن أن الله يمكن أن يكون واضحًا دون إكراه. وهذه أقوى صيغ الاعتراض، والمؤمنون الذين يأخذونها بجدية يقرّون بأن الردود جزئية.',
+          'لم يختبئ الله من أبنائه. فقد جاء إلينا في الجسد، وعاش بيننا، وتكلم وشفى ومات وقام، وهو حاضر في كنيسته. والوالد المحب لا يختبئ، والله لم يختبئ: بل دخل البيت.',
+          'لكن الوالد المحب أيضًا لا يفرض المودة. فالبرهان الساحق قد يُجبر بدل أن يدعو، والثقة والمحبة ليستا ما ينتجه البرهان. والله يعرّف بنفسه بطريقة تترك القلب حرًّا ليجيب، وينتظر كل إنسان بصبر.',
         ],
       },
       limits: {
@@ -307,11 +307,11 @@ export const article: Article = {
       response: {
         en: [
           'The objection is right to be wary. A reply of this kind can be used cruelly, and the Church does not teach that the doubter is guilty. The Gospels portray Jesus meeting Thomas’s demand and answering John the Baptist’s doubt gently, and the Church’s pastors are asked to do likewise.',
-          'This article therefore does not rely on that reply. The most it can say is that, as a general observation about human beings, the reasons we believe or disbelieve are not only intellectual; it says nothing about any individual.',
+          'The Church’s answer does not rest on judging anyone’s heart. It rests on what God has done in Christ and on His patience with every seeker. It is true of all of us, believers included, that our reasons for believing or not are never only intellectual; that is a word about the human condition, not a charge against any person.',
         ],
         ar: [
           'الاعتراض محق في حذره. فرد من هذا النوع قد يُستعمل بقسوة، والكنيسة لا تعلّم أن المتشكك مذنب. وتصوّر الأناجيل يسوع يلاقي طلب توما ويجيب شك يوحنا المعمدان بلطف، ويُطلب من رعاة الكنيسة أن يفعلوا مثله.',
-          'ولذلك لا تعتمد المقالة على هذا الرد. وأقصى ما تقوله ملاحظة عامة عن البشر: أن أسباب إيماننا أو عدمه ليست فكرية فقط؛ ولا تقول شيئًا عن أي فرد.',
+          'وجواب الكنيسة لا يقوم على الحكم على قلب أحد، بل على ما صنعه الله في المسيح وعلى صبره مع كل طالب. وصحيح عنا جميعًا، والمؤمنون منا، أن أسباب إيماننا أو عدمه ليست فكرية فقط؛ وهذه كلمة عن حال الإنسان، لا تهمة لأي شخص.',
         ],
       },
       limits: {
@@ -328,12 +328,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'This is fair. The Christian claim is that God’s self-disclosure is real, not that it is equally clear to everyone, and the Church teaches that God is also at work in all people through creation and conscience, as the speech in Acts and the letter to the Romans suggest. What happens to those who have not heard is addressed in a separate article.',
-          'As to the evidence for Jesus and the resurrection, this section sets it out in other articles so that readers can weigh it for themselves, and does not claim that it compels belief.',
+          'God is not absent from those who have not heard of Christ. He is at work in all people through creation and conscience, as St Paul teaches in Acts and in the letter to the Romans, and He is just and merciful toward every person. What happens to those who have not heard is addressed in a separate article.',
+          'For those who have heard, the evidence for Jesus and His resurrection is strong, and this section sets it out in other articles. It is offered not to force belief but to open the way to the One it points to.',
         ],
         ar: [
-          'هذا عادل. فالدعوى المسيحية أن إعلان الله حقيقي، لا أنه واضح بالتساوي للجميع، وتعلّم الكنيسة أن الله يعمل في كل الناس أيضًا بالخليقة والضمير كما يوحي الخطاب في الأعمال والرسالة إلى رومية. ومصير من لم يسمعوا تتناوله مقالة مستقلة.',
-          'وأما الدليل على يسوع والقيامة فيعرضه هذا القسم في مقالات أخرى ليزنه القراء بأنفسهم، ولا يدّعي أنه يُلزم بالإيمان.',
+          'الله ليس غائبًا عن الذين لم يسمعوا بالمسيح. فهو يعمل في كل الناس بالخليقة والضمير، كما يعلّم القديس بولس في سفر الأعمال وفي الرسالة إلى رومية، وهو عادل ورحيم نحو كل إنسان. ومصير من لم يسمعوا تتناوله مقالة مستقلة.',
+          'وأما لمن سمعوا، فالأدلة على يسوع وقيامته قوية، ويعرضها هذا القسم في مقالات أخرى. وهي لا تُقدَّم لفرض الإيمان، بل لتفتح الطريق إلى الذي تشير إليه.',
         ],
       },
       limits: {
@@ -347,10 +347,10 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'The historical part of the Christian response is the evidence about Jesus: that he lived, taught and was crucified, and that his first followers said they had seen him alive. That evidence is examined in the articles on Jesus and the resurrection. It is presented there as evidence to be weighed, not as a proof that removes the possibility of doubt.',
+        'The historical heart of the Christian answer is Jesus Himself: He lived, taught and was crucified, and His first followers testified that they had seen Him alive again, and gave their lives for that testimony. God did not stay hidden; He entered history at a time and place that can be examined. That evidence is set out in the articles on Jesus and the resurrection.',
       ],
       ar: [
-        'الجزء التاريخي من الجواب المسيحي هو الدليل على يسوع: أنه عاش وعلّم وصُلب، وأن أتباعه الأوائل قالوا إنهم رأوه حيًّا. ويُفحص هذا الدليل في المقالات عن يسوع والقيامة. ويُعرض هناك دليلًا يُوزن، لا برهانًا يزيل إمكان الشك.',
+        'القلب التاريخي للجواب المسيحي هو يسوع نفسه: فقد عاش وعلّم وصُلب، وشهد أتباعه الأوائل بأنهم رأوه حيًّا من جديد، وبذلوا حياتهم لأجل هذه الشهادة. فالله لم يبقَ محتجبًا، بل دخل التاريخ في زمان ومكان يمكن فحصهما. وهذه الأدلة معروضة في المقالات عن يسوع والقيامة.',
       ],
     },
     theological: {
@@ -383,8 +383,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'The hiddenness argument is serious and unsettled. Believers answer that a relationship with God cannot be forced, that God seeks trust and not only assent, and that he has made himself known most fully in Christ. These replies are partial and do not take away the pain of those who have sought and not found. The Scriptures and the saints know that silence, and the Church asks for patience and honesty, not for pretending.',
-    ar: 'حجة الاحتجاب جادة وغير محسومة. ويجيب المؤمنون بأن العلاقة مع الله لا تُفرض، وأن الله يطلب الثقة لا القبول فقط، وأنه عرّف نفسه أكمل تعريف في المسيح. وهذه الردود جزئية ولا تزيل وجع من بحثوا ولم يجدوا. والكتب والقديسون يعرفون هذا الصمت، والكنيسة تطلب الصبر والصدق لا التظاهر.',
+    en: 'God is not hiding from us. He speaks in creation and conscience, and He has shown His face in Jesus Christ. He does not overwhelm us with proof, because He seeks love and trust, which can only be given freely. The Scriptures and the saints know seasons of silence, and they teach us to keep praying, to come to the liturgy, and to wait on the Lord, who is near even when He is not felt. Whoever seeks Him with the whole heart will find Him.',
+    ar: 'الله لا يختبئ منا. فهو يتكلم في الخليقة والضمير، وقد أظهر وجهه في يسوع المسيح. ولا يغمرنا ببرهان قاهر، لأنه يطلب المحبة والثقة، ولا تُعطيان إلا بحرية. والكتب والقديسون يعرفون فصول الصمت، ويعلّموننا أن نواصل الصلاة، وأن نأتي إلى القداس، وأن ننتظر الرب القريب حتى حين لا نشعر به. ومن يطلبه بكل قلبه يجده.',
   },
   furtherReading: ['S43', 'S52', 'S62'],
   related: ['hidden-or-suffering', 'is-doubt-sinful', 'unanswered-prayer', 'religious-experience-as-evidence', 'those-who-never-heard', 'why-care-if-god-exists'],

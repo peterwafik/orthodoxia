@@ -15,23 +15,23 @@ export const article: Article = {
     ar: 'تسأل هذه المقالة كيف يستعمل العهد الجديد والكنيسة العهد القديم حين يقولان إن أمرًا قد تم في المسيح. وهي تفصل بين ثلاثة أمور كثيرًا ما تُخلط: التنبؤ (قول عن حدث مستقبلي)، والرمزية أو النمطية (نمط يُظهر فيه شخص أو حدث أو مؤسسة في العهد القديم صورة سابقة لشيء في المسيح)، والتفسير اللاهوتي اللاحق (قراءة الكنيسة للنص في نور المسيح). وتبيّن كيف يُستعمل كل منها، وكيف يحكم عليه الناقد، وأين يقف التقليد القبطي.',
   },
   shortAnswer: {
-    en: 'The three are different kinds of claim and should be judged differently. A prediction says that a future event will occur and can be tested against the text and its date. Typology says that God shaped events and persons in Israel’s story so that they would point to Christ, and the New Testament writers use it constantly (Adam, the Passover lamb, the bronze serpent, Jonah, Melchizedek). Later interpretation reads a text in the light of the whole Scripture and of Christ. Only the first is a prediction in the ordinary sense. The Church holds all three, and a careful reader does not use one to prove another.',
-    ar: 'هذه أنواع مختلفة من الدعاوى ويجب الحكم عليها حكمين مختلفين. فالتنبؤ يقول إن حدثًا مستقبليًا سيقع ويمكن اختباره بالنص وتاريخه. والرمزية النمطية تقول إن الله شكّل أحداثًا وأشخاصًا في قصة إسرائيل لتشير إلى المسيح، ويستعملها كتّاب العهد الجديد باستمرار (آدم، حمل الفصح، الحية النحاسية، يونان، ملكي صادق). والتفسير اللاحق يقرأ النص في نور الكتاب كله والمسيح. والأول وحده تنبؤ بالمعنى المعتاد. وتتمسك الكنيسة بالثلاثة، والقارئ الدقيق لا يستعمل أحدها لإثبات آخر.',
+    en: 'The New Testament sees the Old fulfilled in Christ in three ways, and knowing them makes the Scriptures shine. A prediction foretells a future event, as Micah names Bethlehem as the place from which the ruler of Israel would come. Typology sees that God shaped persons and events in Israel’s story to point to Christ: Adam, the Passover lamb, the bronze serpent, Jonah, Melchizedek. And the Church reads the whole of Scripture in the light of Christ, as the risen Lord Himself taught His disciples on the road to Emmaus. All three are the Church’s inheritance from the apostles. They work together, and each reveals the same truth: one God speaks in both Testaments, and the whole story of Israel moves towards Christ.',
+    ar: 'يرى العهد الجديد العهد القديم متممًا في المسيح بثلاث طرق، ومعرفتها تجعل الكتب المقدسة تتلألأ. فالتنبؤ يخبر بحدث مستقبلي، كما يسمّي ميخا بيت لحم موضعًا يخرج منه مدبر إسرائيل. والرمزية النمطية ترى أن الله شكّل أشخاصًا وأحداثًا في قصة إسرائيل لتشير إلى المسيح: آدم، وحمل الفصح، والحية النحاسية، ويونان، وملكي صادق. والكنيسة تقرأ الكتاب كله في نور المسيح، كما علّم الرب القائم نفسه تلميذيه في الطريق إلى عمواس. والثلاثة كلها ميراث الكنيسة من الرسل. وهي تعمل معًا، وكل منها يكشف الحق نفسه: إله واحد يتكلم في العهدين، وقصة إسرائيل كلها تتجه نحو المسيح.',
   },
   quickPoints: {
     en: [
-      'Prediction: an explicit statement about a future event. It can be checked against the text’s date and wording.',
-      'Typology: a person, event or institution in the Old Testament understood as a pattern that is completed in Christ; the New Testament uses it often.',
-      'Later interpretation: the Church’s reading of an Old Testament text in the light of Christ and of the whole Scripture.',
-      'A single passage may be read in more than one of these ways, as with Hosea 11:1 in Matthew 2:15.',
-      'Critics argue that typology is a way of reading and does not prove anything; believers answer that it is a reading the apostles and Fathers received, and which depends on faith in Christ.',
+      'Prediction: an explicit statement about a future event, such as Micah 5:2 on Bethlehem, cited in Matthew 2.',
+      'Typology: a person, event or institution in the Old Testament that God made a pattern completed in Christ, such as Adam (Romans 5:14) and the bronze serpent (John 3:14).',
+      'Reading in the light of Christ: the whole Scripture read as one book speaking of Him, as the risen Lord taught (Luke 24).',
+      'Knowing which kind of fulfilment is meant lets the reader see what the apostles saw, as when St Matthew finds Israel’s exodus again in the Lord (Hosea 11:1; Matthew 2:15).',
+      'These readings come from the apostles and the Fathers, and they rest on the faith that the risen Christ is the key to all the Scriptures.',
     ],
     ar: [
-      'التنبؤ: قول صريح عن حدث مستقبلي. ويمكن فحصه بتاريخ النص وألفاظه.',
-      'الرمزية النمطية: شخص أو حدث أو مؤسسة في العهد القديم يُفهم نمطًا يكتمل في المسيح؛ ويستعملها العهد الجديد كثيرًا.',
-      'التفسير اللاحق: قراءة الكنيسة لنص من العهد القديم في نور المسيح والكتاب كله.',
-      'قد يُقرأ النص الواحد بأكثر من طريقة من هذه، كما في هوشع ١١: ١ في متى ٢: ١٥.',
-      'يحتج النقاد بأن النمطية طريقة قراءة ولا تثبت شيئًا؛ ويجيب المؤمنون بأنها قراءة تسلمها الرسل والآباء وتقوم على الإيمان بالمسيح.',
+      'التنبؤ: قول صريح عن حدث مستقبلي، مثل ميخا ٥: ٢ عن بيت لحم، المستشهد به في متى ٢.',
+      'الرمزية النمطية: شخص أو حدث أو مؤسسة في العهد القديم جعلها الله نمطًا يكتمل في المسيح، مثل آدم (رومية ٥: ١٤) والحية النحاسية (يوحنا ٣: ١٤).',
+      'القراءة في نور المسيح: قراءة الكتاب كله كتابًا واحدًا يتكلم عنه، كما علّم الرب القائم (لوقا ٢٤).',
+      'معرفة نوع الإتمام المقصود تتيح للقارئ أن يرى ما رآه الرسل، كما يجد القديس متى خروج إسرائيل من جديد في الرب (هوشع ١١: ١؛ متى ٢: ١٥).',
+      'هذه القراءات آتية من الرسل والآباء، وتقوم على الإيمان بأن المسيح القائم هو مفتاح الكتب كلها.',
     ],
   },
   argumentTypes: ['theological', 'textual', 'historical'],
@@ -45,12 +45,12 @@ export const article: Article = {
 
   whyExamine: {
     en: [
-      'When a Christian says “this verse was fulfilled in Jesus” and a Jewish reader replies that the verse is about something else, they may both be right about what they mean, because they are using the word “fulfilled” differently. Naming the kind of claim makes the conversation clearer and more honest.',
-      'The question also matters within the Church. A believer who treats every Old Testament verse quoted in the New as a literal prediction will meet difficulties that the writers themselves did not claim, while a reader who dismisses all of it as mere reading-in will miss how deeply the New Testament thinks in patterns.',
+      'When a Christian says “this verse was fulfilled in Jesus” and a Jewish reader replies that the verse is about something else, they are often using the word “fulfilled” in different senses. Naming the kind of fulfilment makes the conversation clear, and shows the depth of the Christian reading.',
+      'It also helps the believer. Treating every Old Testament quotation as a literal prediction creates difficulties the apostles never claimed; seeing the patterns opens up how richly the New Testament, and the Church’s hymns, read the Old as pointing to Christ.',
     ],
     ar: [
-      'حين يقول مسيحي «تمت هذه الآية في يسوع» ويجيب قارئ يهودي بأن الآية عن شيء آخر، قد يكونان صادقين في ما يقصدانه لأنهما يستعملان كلمة «تمّ» استعمالين مختلفين. وتسمية نوع الدعوى تجعل الحوار أوضح وأصدق.',
-      'والمسألة تهمّ داخل الكنيسة أيضًا. فالمؤمن الذي يعامل كل آية من العهد القديم مقتبسة في الجديد على أنها تنبؤ حرفي سيلقى صعوبات لم يدّعها الكتّاب أنفسهم، والقارئ الذي يرفض الأمر كله بوصفه إسقاطًا سيفوته مدى تفكير العهد الجديد بالأنماط.',
+      'حين يقول مسيحي «تمت هذه الآية في يسوع» ويجيب قارئ يهودي بأن الآية عن شيء آخر، كثيرًا ما يستعملان كلمة «تمّ» بمعنيين مختلفين. وتسمية نوع الإتمام تجعل الحوار واضحًا، وتُظهر عمق القراءة المسيحية.',
+      'وهي تساعد المؤمن أيضًا. فمعاملة كل اقتباس من العهد القديم على أنه تنبؤ حرفي تخلق صعوبات لم يدّعها الرسل قط؛ ورؤية الأنماط تكشف مدى غنى قراءة العهد الجديد، وألحان الكنيسة، للعهد القديم مشيرًا إلى المسيح.',
     ],
   },
   background: {
@@ -79,8 +79,8 @@ export const article: Article = {
       argumentType: 'textual',
       assessment: 'strong_historical_support',
       rationale: {
-        en: 'Matthew 2 cites a prophecy about Bethlehem and applies words about Israel to Jesus; St Paul the Apostle and St John the Evangelist use patterns; Luke 24 describes a reading of all the Scriptures in the light of Christ. The distinction can be drawn from the texts themselves.',
-        ar: 'يستشهد متى ٢ بنبوة عن بيت لحم ويطبق كلمات عن إسرائيل على يسوع؛ ويستعمل القديس بولس ويوحنا أنماطًا؛ ويصف لوقا ٢٤ قراءة لجميع الكتب في نور المسيح. ويمكن رسم التمييز من النصوص نفسها.',
+        en: 'Matthew 2 cites the prophecy about Bethlehem and applies words about Israel to Jesus; St Paul the Apostle and St John the Evangelist use patterns; Luke 24 describes the risen Lord reading all the Scriptures as speaking of Himself. The three ways are plain in the texts themselves.',
+        ar: 'يستشهد متى ٢ بالنبوة عن بيت لحم ويطبق كلمات عن إسرائيل على يسوع؛ ويستعمل القديس بولس الرسول والقديس يوحنا الإنجيلي أنماطًا؛ ويصف لوقا ٢٤ الرب القائم يقرأ الكتب كلها متكلمة عنه. والطرق الثلاث واضحة في النصوص نفسها.',
       },
       limits: {
         en: 'Which category a given use belongs to is sometimes debated.',
@@ -91,14 +91,14 @@ export const article: Article = {
     {
       id: 'C2',
       proposition: {
-        en: 'Typology and later interpretation do not rest on the first audience’s understanding of the Old Testament text; they rest on the claim that God’s purpose is seen in the whole.',
-        ar: 'لا تقوم النمطية والتفسير اللاحق على فهم الجمهور الأول لنص العهد القديم؛ بل على دعوى أن قصد الله يُرى في الكل.',
+        en: 'Typology and the reading of Scripture in the light of Christ rest on God’s purpose, which is seen in the whole of Scripture and revealed in the risen Christ.',
+        ar: 'تقوم النمطية وقراءة الكتاب في نور المسيح على قصد الله، الذي يُرى في الكتاب كله ويُعلن في المسيح القائم.',
       },
       argumentType: 'theological',
       assessment: 'theological_interpretation',
       rationale: {
-        en: 'The writers who use these readings were convinced, from the resurrection of Jesus, that the story of Israel was moving toward him. The reading is therefore held in faith and cannot be demonstrated from the earlier text alone.',
-        ar: 'الكتّاب الذين يستعملون هذه القراءات اقتنعوا، من قيامة يسوع، بأن قصة إسرائيل كانت تتجه نحوه. فالقراءة تُمسك بالإيمان ولا يمكن البرهنة عليها من النص الأقدم وحده.',
+        en: 'The apostles learned from the risen Lord that the story of Israel was moving toward Him. St Paul says that what happened in the wilderness was written for our instruction, and Hebrews calls the law a shadow of the good things to come. God, the author of history, shaped it so that it would point to His Son.',
+        ar: 'تعلّم الرسل من الرب القائم أن قصة إسرائيل كانت تتجه نحوه. ويقول القديس بولس إن ما حدث في البرية كُتب لإنذارنا، وتسمّي الرسالة إلى العبرانيين الناموس ظل الخيرات العتيدة. فالله، صاحب التاريخ، شكّله ليشير إلى ابنه.',
       },
       limits: {
         en: 'A reader who does not accept the resurrection will not find the argument persuasive, and may call it reading-in.',
@@ -109,14 +109,14 @@ export const article: Article = {
     {
       id: 'C3',
       proposition: {
-        en: 'The Fathers of the Church read the Old Testament both historically and typologically, with different schools giving different weight to each.',
-        ar: 'قرأ آباء الكنيسة العهد القديم تاريخيًا ونمطيًا معًا، وأعطت المدارس المختلفة وزنًا مختلفًا لكل منهما.',
+        en: 'The Fathers of the Church read the Old Testament both historically and in the light of Christ, keeping the literal sense and seeing its fulfilment in Him.',
+        ar: 'قرأ آباء الكنيسة العهد القديم تاريخيًا وفي نور المسيح معًا، حافظين المعنى الحرفي ورائين إتمامه فيه.',
       },
       argumentType: 'historical',
       assessment: 'supported_disputed_details',
       rationale: {
-        en: 'Athanasius argues from the prophets and the Psalms for the coming of the Word, and Origen defends Christian readings against Celsus’s Jewish spokesman. The Alexandrian and Antiochene schools differ in emphasis, although each held both senses in some form.',
-        ar: 'يحتج أثناسيوس بالأنبياء والمزامير على مجيء الكلمة، ويدافع أوريجانوس عن القراءات المسيحية ضد المتحدث اليهودي في كتاب كلسس. وتختلف المدرسة السكندرية والأنطاكية في التأكيد، وإن تمسكت كل منهما بالمعنيين بصورة ما.',
+        en: 'St Athanasius argues from the prophets and the Psalms for the coming of the Word, and Origen defends the Christian reading against Celsus’s Jewish spokesman. Alexandria and Antioch placed their emphasis differently, but both held the historical sense and its fulfilment in Christ, and St Cyril’s commentaries join the two.',
+        ar: 'يحتج القديس أثناسيوس بالأنبياء والمزامير على مجيء الكلمة، ويدافع أوريجانوس عن القراءة المسيحية ضد المتحدث اليهودي في كتاب كلسس. ووضعت الإسكندرية وأنطاكية تأكيدهما في مواضع مختلفة، لكن كلتيهما تمسكت بالمعنى التاريخي وبإتمامه في المسيح، وتجمع تفاسير القديس كيرلس بين الأمرين.',
       },
       limits: {
         en: 'The characterisation of the two schools is a simplification, and scholars discuss how sharp the contrast was.',
@@ -256,12 +256,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'If Matthew were claiming that Hosea meant to predict Jesus, the objection would have force. Matthew’s own method is different. He treats the exodus as a pattern in which Israel is God’s son called out of Egypt, and finds that pattern again in Jesus, who recapitulates the story of Israel. Jewish writers in the same period also read Scripture by pattern, so Matthew’s method was at home in his world.',
-          'The objection is right that a historian reading Hosea for its own sake will not find Jesus there, and a Christian can say so. The claim being made is not about Hosea’s intention but about how God’s work in Israel and in Christ is one.',
+          'St Matthew does not claim that Hosea was predicting Jesus. He sees the exodus as a pattern, Israel as God’s son called out of Egypt, and finds that pattern fulfilled in Jesus, the true Son, who takes up the story of Israel in Himself. Reading Scripture by pattern was at home among Jewish interpreters of his day.',
+          'Hosea spoke of Israel, and St Matthew knew it. His point is deeper: the God who called Israel out of Egypt is the same God who called His Son, and His work in Israel and in Christ is one. That is not bending the text; it is seeing the whole.',
         ],
         ar: [
-          'لو كان متى يدّعي أن هوشع قصد أن يتنبأ بيسوع لكان للاعتراض قوة. لكن منهج متى نفسه مختلف. فهو يعامل الخروج نمطًا يكون فيه إسرائيل ابن الله المدعو من مصر، ويجد النمط نفسه من جديد في يسوع الذي يلخّص قصة إسرائيل. وقرأ كتّاب يهود في الفترة نفسها الكتاب بالنمط أيضًا، فمنهج متى كان مألوفًا في عالمه.',
-          'والاعتراض محق في أن المؤرخ الذي يقرأ هوشع لذاته لن يجد يسوع هناك، وللمسيحي أن يقول ذلك. والدعوى المطروحة ليست عن قصد هوشع بل عن كيف أن عمل الله في إسرائيل وفي المسيح واحد.',
+          'لا يدّعي القديس متى أن هوشع كان يتنبأ بيسوع. بل يرى الخروج نمطًا، إسرائيل ابن الله المدعو من مصر، ويجد هذا النمط متممًا في يسوع، الابن الحقيقي، الذي يأخذ قصة إسرائيل في ذاته. وكانت قراءة الكتاب بالنمط مألوفة عند المفسرين اليهود في زمنه.',
+          'تكلم هوشع عن إسرائيل، وكان القديس متى يعرف ذلك. ومقصده أعمق: الله الذي دعا إسرائيل من مصر هو نفسه الذي دعا ابنه، وعمله في إسرائيل وفي المسيح واحد. وهذا ليس ليًّا للنص؛ بل رؤية للكل.',
         ],
       },
       limits: {
@@ -278,12 +278,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The Hebrew word can mean a young woman, and the verse has an obvious setting in the time of King Ahaz, with a sign for him. Both points are widely accepted by scholars. The Greek translation, made two centuries before Jesus, used a word that means a virgin, and Matthew follows it. The Church therefore reads the verse as having a first setting and a fuller one, with the sign given to Ahaz also pointing to Immanuel born of the Virgin.',
-          'This is a reading, and it stands or falls with the Church’s faith in the virginal conception, treated in its own article. It is not a simple translation error, since the translators of the Septuagint chose the word before the Christian question arose.',
+          'The Hebrew word can mean a young woman, and the verse has a first setting in the time of King Ahaz, with a sign for him. But the Greek translation, made by Jewish scholars two centuries before Christ, chose the word for “virgin”, and St Matthew follows it. The Christian reading therefore did not begin with a mistranslation by Christians.',
+          'The Church reads the verse as having a first setting and a fuller fulfilment: the sign given to Ahaz points beyond itself to Immanuel, God with us, born of the Virgin. St Matthew tells of the virginal conception first and then recognises the prophecy fulfilled in it.',
         ],
         ar: [
-          'اللفظ العبري يمكن أن يعني فتاة شابة، وللآية موضع واضح في زمن الملك آحاز، مع علامة له. وكلا الأمرين مقبول عند الدارسين على نطاق واسع. والترجمة اليونانية، التي صُنعت قبل يسوع بقرنين، استعملت لفظًا يعني عذراء، ويتبعها متى. فتقرأ الكنيسة الآية بأن لها موضعًا أول وموضعًا أكمل، والعلامة المعطاة لآحاز تشير أيضًا إلى عمانوئيل المولود من العذراء.',
-          'وهذه قراءة، وهي تقوم أو تسقط مع إيمان الكنيسة بالحبل العذراوي الذي تعالجه مقالته الخاصة. وليست خطأ ترجمة بسيطًا، لأن مترجمي السبعينية اختاروا اللفظ قبل أن يظهر السؤال المسيحي.',
+          'اللفظ العبري يمكن أن يعني فتاة شابة، وللآية موضع أول في زمن الملك آحاز، مع علامة له. لكن الترجمة اليونانية، التي صنعها علماء يهود قبل المسيح بقرنين، اختارت لفظ «عذراء»، ويتبعها القديس متى. فالقراءة المسيحية لم تبدأ بسوء ترجمة من المسيحيين.',
+          'وتقرأ الكنيسة الآية بأن لها موضعًا أول وإتمامًا أكمل: فالعلامة المعطاة لآحاز تشير إلى ما وراءها، إلى عمانوئيل، الله معنا، المولود من العذراء. ويروي القديس متى الحبل البتولي أولًا ثم يعرف أن النبوة تمت فيه.',
         ],
       },
       limits: {
@@ -300,12 +300,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'This is a fair worry, and the Fathers shared it. Good typology is controlled by what the New Testament and the Church’s liturgy actually teach: Adam, the Passover lamb, the bronze serpent, Jonah and Melchizedek are set out by the New Testament and the earliest Fathers, and later types are tested by whether they illuminate the faith the Church holds. A fanciful type, one that teaches nothing the Church does not already teach, adds nothing.',
-          'It is also true that some patristic readings go further than modern interpreters would, and the Church does not require that every one of them be held as a point of faith.',
+          'The Fathers shared this concern and answered it. Typology is governed by what the New Testament and the Church’s worship actually teach: Adam, the Passover lamb, the bronze serpent, Jonah and Melchizedek are given by the New Testament itself, and later types are tested by whether they illuminate the faith the Church holds.',
+          'A type that teaches something foreign to the faith is rejected. The Church does not require every patristic image to be held as dogma, but she keeps the great types the apostles gave, which are anything but arbitrary.',
         ],
         ar: [
-          'هذا قلق مشروع، وقد شاركهم فيه الآباء. فالنمطية الجيدة يضبطها ما يعلّمه العهد الجديد وصلوات الكنيسة الطقسية فعلًا: آدم وحمل الفصح والحية النحاسية ويونان وملكي صادق يعرضها العهد الجديد وأقدم الآباء، وتُختبر الأنماط اللاحقة بمدى إنارتها للإيمان الذي تحتفظ به الكنيسة. والنمط الخيالي، الذي لا يعلّم شيئًا لا تعلّمه الكنيسة أصلًا، لا يضيف شيئًا.',
-          'ومن الصحيح أن بعض قراءات الآباء تذهب أبعد مما يذهب إليه المفسرون المحدثون، ولا تطلب الكنيسة أن تُعتقد كلها نقطة إيمان.',
+          'شارك الآباء هذا القلق وأجابوا عنه. فالنمطية يضبطها ما يعلّمه العهد الجديد وعبادة الكنيسة فعلًا: آدم وحمل الفصح والحية النحاسية ويونان وملكي صادق يعطيها العهد الجديد نفسه، وتُختبر الأنماط اللاحقة بمدى إنارتها للإيمان الذي تحفظه الكنيسة.',
+          'والنمط الذي يعلّم شيئًا غريبًا عن الإيمان يُرفض. ولا تطلب الكنيسة أن تُعتقد كل صورة عند الآباء عقيدةً، لكنها تحفظ الأنماط الكبرى التي أعطاها الرسل، وهي أبعد ما تكون عن الاعتباط.',
         ],
       },
       limits: {
@@ -319,12 +319,12 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'Historically, a Christian can say that the New Testament writers use the Old Testament in different ways, that some uses are explicit predictions and many are patterns, and that these readings were in place in the first generation, drawing on Jewish habits of reading.',
-        'A Christian should also say that a historian can distinguish what an Old Testament author meant from what a New Testament writer sees in it, and that a critic may judge the pattern readings less convincing than the predictions.',
+        'The New Testament writers used the Old Testament in several ways from the very first generation: some passages as explicit predictions, many as patterns, all within a reading of Scripture centred on Christ. They drew on Jewish habits of reading that were familiar in their day.',
+        'Prophecies such as Micah’s on Bethlehem were written centuries before Christ, and the great types were already set out by St Paul and the evangelists. The Church’s way of reading the Old Testament is apostolic in origin, not a later invention.',
       ],
       ar: [
-        'يستطيع المسيحي تاريخيًا أن يقول إن كتّاب العهد الجديد يستعملون القديم بطرق مختلفة، وإن بعض الاستعمالات تنبؤات صريحة وكثيرًا منها أنماط، وإن هذه القراءات كانت قائمة في الجيل الأول مستندة إلى عادات يهودية في القراءة.',
-        'وعليه أيضًا أن يقول إن المؤرخ يستطيع أن يميز بين ما قصده كاتب العهد القديم وما يراه فيه كاتب العهد الجديد، وإن الناقد قد يرى قراءات النمط أقل إقناعًا من التنبؤات.',
+        'استعمل كتّاب العهد الجديد العهد القديم بطرق عدة منذ الجيل الأول: بعض الفقرات تنبؤات صريحة، وكثير منها أنماط، وكلها داخل قراءة للكتاب متمركزة حول المسيح. واستندوا إلى عادات يهودية في القراءة كانت مألوفة في زمنهم.',
+        'والنبوات مثل نبوة ميخا عن بيت لحم كُتبت قبل المسيح بقرون، والأنماط الكبرى عرضها القديس بولس والإنجيليون. فطريقة الكنيسة في قراءة العهد القديم رسولية الأصل، لا ابتكار لاحق.',
       ],
     },
     theological: {
@@ -361,8 +361,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'Prediction, typology and later interpretation are different kinds of claim. The New Testament and the Fathers use all three, and an honest reader names which one is in use before judging it. The prophecies that Christians apply to Jesus were written down before him; the pattern readings are a way of seeing the unity of God’s work that rests on faith in the risen Christ. A historian may weigh them differently from a believer, and the Church asks that each be described accurately.',
-    ar: 'التنبؤ والنمطية والتفسير اللاحق دعاوى من أنواع مختلفة. ويستعمل العهد الجديد والآباء الثلاثة جميعًا، والقارئ الأمين يسمّي أيها قيد الاستعمال قبل أن يحكم عليه. فالنبوات التي يطبقها المسيحيون على يسوع كُتبت قبله؛ وقراءات النمط طريقة لرؤية وحدة عمل الله تقوم على الإيمان بالمسيح القائم. وقد يزنها المؤرخ بغير ما يزنها المؤمن، وتطلب الكنيسة أن يوصف كل منها وصفًا دقيقًا.',
+    en: 'Prediction, typology and reading in the light of Christ are three ways in which the New Testament sees the Old fulfilled, and the Church holds all three as her apostolic inheritance. The prophets foretold; the persons and events of Israel’s story prefigured; and the risen Lord opened the whole of Scripture as speaking of Himself. One God speaks in both Testaments, and their fullness is Christ.',
+    ar: 'التنبؤ والنمطية والقراءة في نور المسيح ثلاث طرق يرى بها العهد الجديد العهد القديم متممًا، والكنيسة تتمسك بالثلاث ميراثًا رسوليًا لها. فقد تنبأ الأنبياء؛ وصوّرت أشخاص قصة إسرائيل وأحداثها مسبقًا؛ وفتح الرب القائم الكتاب كله متكلمًا عنه. إله واحد يتكلم في العهدين، وملؤهما المسيح.',
   },
   furtherReading: ['S52', 'S51'],
   related: ['prophecy-written-after-events', 'jewish-and-christian-messianic-readings', 'virginal-conception-vs-perpetual-virginity', 'why-inspired', 'scripture-and-tradition'],

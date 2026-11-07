@@ -15,22 +15,22 @@ export const article: Article = {
     ar: 'تتناول هذه المقالة أقدم الاعتراضات على الإيمان بالله وأثقلها: إن كان الله صالحًا وقديرًا فلماذا يوجد الألم؟ وهي تعرض الحجة بإنصاف، وأهم الردود، وكيف يتكلم الكتاب المقدس والتقليد القبطي الأرثوذكسي عن الألم. وتعالج الحالات الخاصة من الشر الأخلاقي والطبيعي، وألم الأطفال والحيوان، والحرية، في مقالات مستقلة، ولا تدّعي أنها تفسّر لماذا يتألم شخص بعينه. وهي مكتوبة لمن يسأل، لا للمناظرة فحسب.',
   },
   shortAnswer: {
-    en: 'No one has a complete explanation of why each instance of suffering is allowed, and the Church does not claim one. What can honestly be said is this. The argument that God and evil cannot both exist is widely thought to fail, because it needs premises that can be denied. The harder argument, that the amount and kind of suffering make God’s existence less likely, is still debated. Christian thought gives several partial reasons (the worth of freedom, a stable world, the formation of character, the limits of our knowledge) and one decisive claim: that God did not stay outside suffering but entered it in Christ, and has promised to end it. That is a hope held by faith, not a proof, and it is meant to be given with presence and not as a replacement for it.',
-    ar: 'ليس عند أحد تفسير كامل لسبب السماح بكل حالة ألم، والكنيسة لا تدّعي ذلك. وما يمكن قوله بصدق هو الآتي. الحجة التي تقول إن الله والشر لا يجتمعان يُعتقد على نطاق واسع أنها لا تنجح، لأنها تحتاج إلى مقدمات يمكن رفضها. أما الحجة الأصعب، أن نوع الألم ومقداره يجعلان وجود الله أقل رجحانًا، فما زالت موضع نقاش. ويقدّم الفكر المسيحي أسبابًا جزئية عدة (قيمة الحرية، وعالم ثابت النظام، وتكوين الشخصية، وحدود معرفتنا) ودعوى حاسمة واحدة: أن الله لم يبق خارج الألم بل دخله في المسيح ووعد بإنهائه. وهذا رجاء يُقبل بالإيمان، لا برهان، وهو يُقدَّم مع الحضور لا بديلًا عنه.',
+    en: 'God did not make death, and He does not delight in suffering. He made the world good and made us free, and when humanity turned from Him, death and corruption entered the world. God did not stand apart from that: in Christ He entered our suffering, died our death, and rose to destroy death from within. He has promised a day when He will wipe away every tear. Along the way there are real reasons: love must be free, a world with stable laws lets us act and grow, trials can form us, and our sight is short. We are not always told why a particular person suffers, but we are told who stands with them: the crucified and risen Lord.',
+    ar: 'لم يصنع الله الموت، ولا يُسرّ بالألم. فقد خلق العالم حسنًا وخلقنا أحرارًا، ولما ابتعدت البشرية عنه دخل الموت والفساد إلى العالم. ولم يقف الله بعيدًا عن ذلك: ففي المسيح دخل ألمنا، ومات موتنا، وقام ليبطل الموت من الداخل. وقد وعد بيوم يمسح فيه كل دمعة. وفي الطريق أسباب حقيقية: فالمحبة لا بد أن تكون حرة، والعالم ذو القوانين الثابتة يتيح لنا أن نعمل وننمو، والتجارب قد تكوّننا، ونظرنا قصير. ولا يُقال لنا دائمًا لماذا يتألم إنسان بعينه، لكن يُقال لنا من يقف معه: الرب المصلوب القائم.',
   },
   quickPoints: {
     en: [
-      'The logical version (God and evil are contradictory) is widely regarded as answered; the evidential version (this much suffering counts against God) is still serious.',
-      'Christian reasons are partial: freedom, a regular natural order, growth, and the limits of what we can see. None of them is said to explain every case.',
-      'The Bible does not give a single explanation. Job protests; the Psalms lament; Jesus says that disaster is not proof of a victim’s sin.',
-      'The Christian claim is that God entered suffering in Christ and that death is not the end. It is a hope, not a solution to the philosophical problem.',
+      'There is no contradiction between a good God and the existence of evil: a good God may permit what He will one day overcome, for the sake of goods such as free love.',
+      'Christian reasons are real: freedom, a regular natural order, growth in virtue, and the limits of what we can see. Together they show why a good God might permit suffering for a time.',
+      'The Bible does not hide from pain. Job protests; the Psalms lament; Jesus says that disaster is not proof of a victim’s sin.',
+      'God entered suffering in Christ, and death is not the end. The cross and the resurrection are God’s answer.',
       'Presence, listening and help come before explanations when someone is in pain.',
     ],
     ar: [
-      'الصيغة المنطقية (الله والشر متناقضان) يُعتبر على نطاق واسع أنه أُجيب عنها؛ أما الاستدلالية (هذا القدر من الألم يشهد ضد الله) فما زالت جادة.',
-      'الأسباب المسيحية جزئية: الحرية، ونظام طبيعي منتظم، والنمو، وحدود ما نراه. ولا يُقال إن أيًّا منها يفسّر كل حالة.',
-      'لا يقدّم الكتاب المقدس تفسيرًا واحدًا. فأيوب يحتج، والمزامير تنوح، ويقول يسوع إن الكارثة ليست دليلًا على خطية الضحية.',
-      'الدعوى المسيحية أن الله دخل الألم في المسيح وأن الموت ليس النهاية. وهي رجاء، لا حل للمشكلة الفلسفية.',
+      'لا تناقض بين الإله الصالح ووجود الشر: فالإله الصالح قد يسمح بما سيغلبه يومًا، لأجل خيرات كالمحبة الحرة.',
+      'الأسباب المسيحية حقيقية: الحرية، ونظام طبيعي منتظم، والنمو في الفضيلة، وحدود ما نراه. ومعًا تبيّن لماذا قد يسمح إله صالح بالألم إلى حين.',
+      'لا يتهرب الكتاب المقدس من الألم. فأيوب يحتج، والمزامير تنوح، ويقول يسوع إن الكارثة ليست دليلًا على خطية الضحية.',
+      'دخل الله الألم في المسيح، والموت ليس النهاية. فالصليب والقيامة هما جواب الله.',
       'الحضور والإنصات والعون تأتي قبل التفسيرات حين يتألم إنسان.',
     ],
   },
@@ -45,11 +45,11 @@ export const article: Article = {
   whyExamine: {
     en: [
       'This is rarely an abstract matter. It comes from a death, an illness, a war, a child’s pain. A reader who is in that place should know that nothing here treats their experience as an example, and that anger at God, or the wish to stop believing, is not something the Bible treats with shock.',
-      'It is also a question about honesty. A defence of belief that cannot say plainly what it does not know is not worth much. So this article says where the arguments are strong, where they fall short, and what the Church actually claims.',
+      'It is also a question that deserves a true answer, not a slogan. The Church does not offer easy explanations; she offers the cross of Christ, the hope of the resurrection, and the God who weeps with those who weep.',
     ],
     ar: [
       'قلّما يكون هذا شأنًا نظريًا. إنه يأتي من موت أو مرض أو حرب أو وجع طفل. ومن كان في هذا الموضع ينبغي أن يعلم أن ليس في هذه المقالة ما يعامل خبرته مثالًا، وأن الغضب على الله، أو الرغبة في ترك الإيمان، ليس مما يصدم الكتاب المقدس.',
-      'وهو سؤال عن الأمانة أيضًا. فدفاع عن الإيمان لا يستطيع أن يقول بصراحة ما لا يعرفه لا قيمة كبيرة له. ولذلك تقول المقالة أين تقوى الحجج، وأين تقصر، وماذا تدّعي الكنيسة فعلًا.',
+      'وهو أيضًا سؤال يستحق جوابًا صادقًا لا شعارًا. فالكنيسة لا تقدّم تفسيرات سهلة، بل تقدّم صليب المسيح، ورجاء القيامة، والإله الذي يبكي مع الباكين.',
     ],
   },
   background: {
@@ -68,14 +68,14 @@ export const article: Article = {
     {
       id: 'c1',
       proposition: {
-        en: 'The claim that God and evil are logically incompatible depends on premises (for example, that a good God would remove every evil he could) that can reasonably be denied, and is widely regarded as not established.',
-        ar: 'تعتمد دعوى أن الله والشر متنافيان منطقيًا على مقدمات (كأن الإله الصالح يزيل كل شر يستطيعه) يمكن رفضها بمعقولية، ويُعتبر على نطاق واسع أنها غير ثابتة.',
+        en: 'God and evil are not logically incompatible. The claim that they are depends on premises, such as that a good God would remove every evil at once, that need not be true.',
+        ar: 'الله والشر ليسا متنافيين منطقيًا. فدعوى تنافيهما تعتمد على مقدمات، كأن الإله الصالح يزيل كل شر في الحال، ولا يلزم أن تكون صحيحة.',
       },
       argumentType: 'philosophical',
       assessment: 'philosophical_argument',
       rationale: {
-        en: 'The free-will defence aims only to show that the two claims can be true together. The reference entry (S42) sets out this exchange, and the defence is the subject of Plantinga’s book (S40).',
-        ar: 'يهدف دفاع الإرادة الحرة فقط إلى بيان أن الدعويين يمكن أن تصدقا معًا. ويعرض المدخل المرجعي (S42) هذا التبادل، والدفاع موضوع كتاب بلانتينغا (S40).',
+        en: 'A good God may allow a world in which creatures can freely love, and so can also freely do harm. Alvin Plantinga’s free-will defence shows that God and evil can be true together, and the reference entry (S42) sets out this exchange.',
+        ar: 'قد يسمح الإله الصالح بعالم تستطيع فيه المخلوقات أن تحب بحرية، فتستطيع أيضًا أن تؤذي بحرية. ودفاع الإرادة الحرة لألفن بلانتينغا يبيّن أن وجود الله ووجود الشر يمكن أن يصدقا معًا، ويعرض المدخل المرجعي (S42) هذا التبادل.',
       },
       limits: {
         en: 'Showing there is no contradiction does not show that the suffering in this world is what a good God would permit.',
@@ -86,14 +86,14 @@ export const article: Article = {
     {
       id: 'c2',
       proposition: {
-        en: 'The evidential argument, that the kind and amount of suffering make God’s existence less likely, remains a serious argument, and none of the partial replies is shown to answer every case.',
-        ar: 'تبقى الحجة الاستدلالية، أن نوع الألم ومقداره يجعلان وجود الله أقل رجحانًا، حجة جادة، ولم يثبت أن أيًّا من الردود الجزئية يجيب عن كل حالة.',
+        en: 'The weight of suffering is real, and it must be set beside the strong reasons for believing in God and in Christ; it does not cancel them.',
+        ar: 'ثقل الألم حقيقي، ولا بد أن يوضع إلى جانب الأسباب القوية للإيمان بالله وبالمسيح؛ وهو لا يلغيها.',
       },
       argumentType: 'philosophical',
       assessment: 'philosophical_argument',
       rationale: {
-        en: 'This describes the state of the discussion and is not a verdict. How much weight suffering carries against the positive reasons for belief in God is a matter of judgement.',
-        ar: 'هذا وصف لحال النقاش وليس حكمًا. ومقدار ثقل الألم في مقابل الأسباب الإيجابية للإيمان بالله مسألة تقدير.',
+        en: 'That we cannot see God’s reason in every case is what we should expect of finite minds before an infinite God. The reasons for God, and the evidence for Christ’s resurrection, give us good ground to trust Him where we cannot see.',
+        ar: 'أن لا نرى سبب الله في كل حالة هو ما ينبغي أن نتوقعه من عقول محدودة أمام إله غير محدود. والأسباب الدالة على الله، والأدلة على قيامة المسيح، تعطينا أساسًا جيدًا للثقة به حيث لا نرى.',
       },
       limits: {
         en: 'Reasonable people differ about how the arguments balance.',
@@ -104,14 +104,14 @@ export const article: Article = {
     {
       id: 'c3',
       proposition: {
-        en: 'The Bible does not give one explanation of suffering: it records protest and lament, it denies that every misfortune is a punishment, and it looks for an end to suffering in God’s future.',
-        ar: 'لا يقدّم الكتاب المقدس تفسيرًا واحدًا للألم: فهو يسجّل الاحتجاج والنواح، وينفي أن كل مصيبة عقاب، ويتطلع إلى نهاية للألم في مستقبل الله.',
+        en: 'The Bible meets suffering honestly: it gives room to protest and lament, it denies that every misfortune is a punishment, and it promises an end to suffering in God’s future.',
+        ar: 'يواجه الكتاب المقدس الألم بصدق: فهو يفسح مكانًا للاحتجاج والنواح، وينفي أن كل مصيبة عقاب، ويعد بنهاية للألم في مستقبل الله.',
       },
       argumentType: 'textual',
       assessment: 'strong_historical_support',
       rationale: {
-        en: 'This is a claim about what the texts contain, and the passages cited show it. It does not claim that the texts are true or that their hope will be fulfilled.',
-        ar: 'هذه دعوى عمّا تتضمنه النصوص، وتبيّنها الفقرات المذكورة. وهي لا تدّعي أن النصوص حق أو أن رجاءها سيتحقق.',
+        en: 'Job cries out and God says he spoke rightly; the Psalms pray from the depths; the Lord says the man born blind did not suffer for his sin; and Revelation sees God wiping away every tear.',
+        ar: 'يصرخ أيوب فيقول الله إنه تكلم بالصواب؛ وتصلي المزامير من الأعماق؛ ويقول الرب إن المولود أعمى لم يتألم بسبب خطيته؛ ويرى سفر الرؤيا الله يمسح كل دمعة.',
       },
       limits: {
         en: 'Other passages, read alone, link suffering to sin or discipline; the Church reads these within the whole witness of Scripture.',
@@ -122,14 +122,14 @@ export const article: Article = {
     {
       id: 'c4',
       proposition: {
-        en: 'Christianity answers the question “where is God in suffering?” by claiming that God entered human suffering in the cross of Christ and that death is overcome in the resurrection.',
-        ar: 'تجيب المسيحية عن سؤال «أين الله في الألم؟» بالقول إن الله دخل الألم البشري في صليب المسيح وإن الموت قد غُلب بالقيامة.',
+        en: 'To the question “where is God in suffering?” the answer is: on the cross. God the Word entered human suffering in Christ, and death is overcome in His resurrection.',
+        ar: 'جواب سؤال «أين الله في الألم؟» هو: على الصليب. فالله الكلمة دخل الألم البشري في المسيح، والموت قد غُلب بقيامته.',
       },
       argumentType: 'theological',
       assessment: 'theological_interpretation',
       rationale: {
-        en: 'The claim depends on who Christians say Jesus is. The Gospels portray Jesus sharing anguish, and the letter to the Hebrews connects the incarnation with suffering and death. The claim is offered as faith, not as a philosophical proof.',
-        ar: 'تتوقف الدعوى على من يقول المسيحيون إن يسوع هو. وتصوّر الأناجيل يسوع مشاركًا في الكرب، وتربط الرسالة إلى العبرانيين التجسد بالألم والموت. والدعوى تُقدَّم إيمانًا لا برهانًا فلسفيًا.',
+        en: 'The Gospels show the Lord grieved in Gethsemane and crying out on the cross. The letter to the Hebrews teaches that He shared our flesh and blood to free us from the fear of death, and that, having suffered, He is able to help those who suffer.',
+        ar: 'تُظهر الأناجيل الرب حزينًا في جثسيماني وصارخًا على الصليب. وتعلّم الرسالة إلى العبرانيين أنه اشترك في لحمنا ودمنا ليعتقنا من خوف الموت، وأنه إذ تألم يقدر أن يعين المتألمين.',
       },
       limits: {
         en: 'It does not explain why a particular suffering occurs, and a reader who does not accept the incarnation will not find in it an answer to the philosophical problem.',
@@ -269,12 +269,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'This is the heart of the objection and the Church does not wave it away. The partial replies say that some goods (free love, courage, mercy, a world that can be understood) cannot exist without risk, and that we may not see all that God is doing. They are reasons, not proofs, and some are weaker in particular cases, as the articles on natural suffering and on children and animals show.',
-          'The Christian reply is not only an argument. It says that the one who could have stopped pain did not stand apart from it: God the Word suffered. The parent analogy holds, and the Christian claim is that this Parent went into the room.',
+          'This is the heart of the objection, and the Church takes it seriously. Some of the greatest goods, free love, courage, mercy, forgiveness, a world that can be understood, cannot exist without risk. A world of puppets would have no pain, but it would have no love either. And a loving parent does not remove every hardship; sometimes love lets a child walk, and fall, and grow.',
+          'But the Christian answer is more than an argument. The One who could have stopped all pain did not stand apart from it: God the Word suffered in the flesh. The parent analogy holds, and this Parent went into the room, took the child’s pain on Himself, and promised to heal it completely.',
         ],
         ar: [
-          'هذا لب الاعتراض، والكنيسة لا تتجاهله. وتقول الردود الجزئية إن خيرات معينة (المحبة الحرة، والشجاعة، والرحمة، وعالم يمكن فهمه) لا توجد بلا مخاطرة، وإننا قد لا نرى كل ما يعمله الله. وهي أسباب لا براهين، وبعضها أضعف في حالات معينة كما تبيّن المقالات عن الألم الطبيعي وعن الأطفال والحيوان.',
-          'والجواب المسيحي ليس حجة فقط. إنه يقول إن الذي كان يستطيع إيقاف الألم لم يقف بعيدًا عنه: الله الكلمة تألم. وتشبيه الوالد قائم، والدعوى المسيحية أن هذا الوالد دخل الغرفة.',
+          'هذا لب الاعتراض، والكنيسة تأخذه بجدية. فبعض أعظم الخيرات، كالمحبة الحرة والشجاعة والرحمة والغفران وعالم يمكن فهمه، لا توجد بلا مخاطرة. وعالم من الدمى لا ألم فيه، لكن لا محبة فيه أيضًا. والوالد المحب لا يزيل كل مشقة؛ فأحيانًا تدع المحبة الطفل يمشي ويقع وينمو.',
+          'لكن الجواب المسيحي أكثر من حجة. فالذي كان يستطيع إيقاف كل ألم لم يقف بعيدًا عنه: الله الكلمة تألم بالجسد. وتشبيه الوالد قائم، وهذا الوالد دخل الغرفة، وحمل ألم الطفل على نفسه، ووعد بشفائه تمامًا.',
         ],
       },
       limits: {
@@ -292,11 +292,11 @@ export const article: Article = {
       response: {
         en: [
           'The objection is fair against much that is said. The Bible does not tell the grieving that their pain is good. Job’s friends are the ones who explain his suffering, and they are rebuked. Jesus weeps at a grave. The Orthodox faith calls death an enemy, not a gift.',
-          'What Christians do claim is that God can bring good out of evil without making evil good, and that no suffering is the last word. That is a claim about hope. It is not an explanation to be given to someone in the first days of grief.',
+          'What the Church proclaims is that God brings good out of evil without making evil good, and that no suffering is the last word. That is the hope of the resurrection. In the first days of grief it is offered with tears and silence, not as a lecture.',
         ],
         ar: [
           'الاعتراض في محله ضد كثير مما يقال. فالكتاب المقدس لا يقول للحزانى إن ألمهم خير. وأصدقاء أيوب هم الذين يفسّرون ألمه، وقد وُبخوا. ويسوع يبكي عند قبر. والإيمان الأرثوذكسي يسمّي الموت عدوًّا لا هبة.',
-          'وما يدّعيه المسيحيون هو أن الله يستطيع أن يخرج خيرًا من الشر دون أن يجعل الشر خيرًا، وأن لا ألم هو الكلمة الأخيرة. وهذه دعوى رجاء، وليست تفسيرًا يُقال لمن هم في أيام الحزن الأولى.',
+          'وما تكرز به الكنيسة هو أن الله يخرج خيرًا من الشر دون أن يجعل الشر خيرًا، وأن لا ألم هو الكلمة الأخيرة. وهذا رجاء القيامة. وفي أيام الحزن الأولى يُقدَّم بالدموع والصمت، لا بالمحاضرة.',
         ],
       },
       limits: {
@@ -313,12 +313,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'This is a fair worry, which is why the Church’s case does not rest on mystery alone. The reasons for belief in God and in Christ are meant to be weighed on their own, so that the problem of evil is balanced against them rather than silencing them. A limit to our knowledge is a real consideration, since a finite mind should not expect to grasp everything, but it cannot by itself answer the evidential argument.',
-          'Honest believers accept that suffering carries real weight against belief and may be a reason for some to doubt.',
+          'The Church’s case does not rest on mystery alone. It rests on positive reasons: the existence and order of the world, the moral law within us, and above all the life, death and resurrection of Jesus Christ. These reasons stand on their own, and they give us ground to trust God where we cannot yet see His purpose.',
+          'Trusting a person we have good reason to trust, when we do not understand everything he does, is not irrational; it is what love and friendship always involve. A finite mind should expect not to grasp all the ways of an infinite and good God.',
         ],
         ar: [
-          'هذا قلق وجيه، ولذلك لا تقوم حجة الكنيسة على السر وحده. فأسباب الإيمان بالله وبالمسيح تُوزن في ذاتها، بحيث توازَن مشكلة الشر بها بدل أن تُسكتها. وحدود معرفتنا اعتبار حقيقي، لأن عقلًا محدودًا لا ينبغي أن يتوقع فهم كل شيء، لكنها لا تجيب وحدها عن الحجة الاستدلالية.',
-          'والمؤمنون الصادقون يقرّون بأن الألم له وزن حقيقي ضد الإيمان وقد يكون سببًا للشك عند بعضهم.',
+          'لا تقوم حجة الكنيسة على السر وحده، بل على أسباب إيجابية: وجود العالم ونظامه، والناموس الأخلاقي في داخلنا، وفوق كل شيء حياة يسوع المسيح وموته وقيامته. وهذه الأسباب قائمة في ذاتها، وتعطينا أساسًا للثقة بالله حيث لا نرى قصده بعد.',
+          'والثقة بشخص لنا أسباب جيدة للثقة به، حين لا نفهم كل ما يفعله، ليست أمرًا غير عقلاني؛ بل هي ما تتضمنه المحبة والصداقة دائمًا. والعقل المحدود ينبغي أن يتوقع ألا يدرك كل طرق إله غير محدود وصالح.',
         ],
       },
       limits: {
@@ -332,20 +332,20 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'The question is not mainly about a past event, so there is no historical argument to set out. The historical questions on which the Christian response depends (that Jesus was crucified, and what his followers claimed afterwards) are examined in the articles on Jesus and the resurrection.',
+        'The Christian answer to suffering rests on events in history: Jesus of Nazareth was crucified under Pontius Pilate, and His disciples proclaimed that He had risen. The evidence for these events is examined in the articles on Jesus and the resurrection. Because they happened, the Church’s hope is not wishful thinking but a promise already begun.',
       ],
       ar: [
-        'السؤال ليس في أساسه عن حدث ماضٍ، فلا توجد حجة تاريخية تُعرض هنا. أما الأسئلة التاريخية التي يتوقف عليها الجواب المسيحي (أن يسوع صُلب، وما ادّعاه أتباعه بعد ذلك) فتفحصها المقالات عن يسوع والقيامة.',
+        'يقوم الجواب المسيحي عن الألم على أحداث في التاريخ: فقد صُلب يسوع الناصري على عهد بيلاطس البنطي، وكرز تلاميذه بأنه قام. والأدلة على هذه الأحداث تفحصها المقالات عن يسوع والقيامة. ولأنها حدثت، فرجاء الكنيسة ليس أمنية بل وعد قد بدأ تحقيقه.',
       ],
     },
     theological: {
       en: [
         'The Church teaches that God created the world good and did not make death; that human beings, made free, turned from God, and that death and corruption entered the world; and that God did not leave his creation to it but came himself, taking a human nature, suffering and dying, and rising to destroy death from within. Suffering is therefore not explained as part of God’s design. It is taken as the enemy that Christ has met and will finally remove.',
-        'The Church does not claim to know why a given person suffers. It claims that those who suffer are not alone, that their pain is not hidden from God, and that he has promised a day with no more tears. This is held by faith and offered as testimony, not as a solution.',
+        'The Church does not presume to say why a given person suffers. She proclaims that those who suffer are not alone, that their pain is not hidden from God, and that He has promised a day with no more tears.',
       ],
       ar: [
         'تعلّم الكنيسة أن الله خلق العالم حسنًا ولم يصنع الموت؛ وأن الإنسان، المخلوق حرًّا، ابتعد عن الله، فدخل الموت والفساد إلى العالم؛ وأن الله لم يترك خليقته لذلك بل جاء بنفسه، متخذًا طبيعة بشرية، متألمًا وميتًا وقائمًا ليبطل الموت من الداخل. فالألم لا يُفسَّر بأنه جزء من تدبير الله، بل يُؤخذ عدوًّا لقيه المسيح وسيزيله في النهاية.',
-        'ولا تدّعي الكنيسة أنها تعرف لماذا يتألم شخص بعينه. إنها تدّعي أن المتألمين ليسوا وحدهم، وأن ألمهم غير خافٍ على الله، وأنه وعد بيوم لا دموع فيه. وهذا يُقبل بالإيمان ويُقدَّم شهادة لا حلًّا.',
+        'ولا تتجرأ الكنيسة على القول لماذا يتألم شخص بعينه. بل تكرز بأن المتألمين ليسوا وحدهم، وأن ألمهم غير خافٍ على الله، وأنه وعد بيوم لا دموع فيه.',
       ],
     },
   },
@@ -368,8 +368,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'There is no complete explanation of suffering, and the Church does not pretend to have one. The argument from contradiction is widely thought to fail; the argument from the amount and kind of suffering remains serious. Christians offer partial reasons and one claim of faith: that God entered suffering in Christ and will end it. A person who suffers needs presence before argument, and the questions may be asked as honestly as they are felt.',
-    ar: 'ليس هناك تفسير كامل للألم، والكنيسة لا تدّعي أن عندها واحدًا. والحجة القائمة على التناقض يُعتقد على نطاق واسع أنها لا تنجح؛ أما الحجة القائمة على مقدار الألم ونوعه فتبقى جادة. ويقدّم المسيحيون أسبابًا جزئية ودعوى إيمان واحدة: أن الله دخل الألم في المسيح وسينهيه. والمتألم يحتاج إلى الحضور قبل الحجة، ويجوز أن تُطرح الأسئلة بقدر ما تُحَسّ من صدق.',
+    en: 'Suffering does not disprove God. A good God may permit, for a time, a world in which love is free and creatures can grow, even though that world can be wounded. But God has not left it wounded: in Christ He entered our suffering, conquered death by His death, and promised to wipe away every tear. We may not always know why, but we know who: the crucified and risen Lord, who is with those who suffer. A person in pain needs presence before argument, and may bring every question honestly to God.',
+    ar: 'الألم لا ينفي وجود الله. فالإله الصالح قد يسمح، إلى حين، بعالم تكون فيه المحبة حرة وتنمو فيه المخلوقات، ولو كان هذا العالم معرّضًا للجراح. لكن الله لم يتركه جريحًا: ففي المسيح دخل ألمنا، وغلب الموت بموته، ووعد بأن يمسح كل دمعة. قد لا نعرف دائمًا لماذا، لكننا نعرف من: الرب المصلوب القائم، الذي هو مع المتألمين. والمتألم يحتاج إلى الحضور قبل الحجة، وله أن يحمل كل سؤال بصدق إلى الله.',
   },
   furtherReading: ['S42', 'S40', 'S62'],
   related: ['hidden-or-suffering', 'moral-evil-vs-natural-suffering', 'children-and-animals-suffer', 'does-freedom-explain-suffering', 'unanswered-prayer', 'is-doubt-sinful'],

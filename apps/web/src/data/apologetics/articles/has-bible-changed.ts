@@ -15,25 +15,25 @@ export const article: Article = {
     ar: 'تسأل هذه المقالة عما تُظهره المخطوطات بشأن النسخ: كيف تختلف النسخ بعضها عن بعض، وكيف يعمل الباحثون للرجوع إلى صيغ أقدم، وما الذي يقوله ذلك وما الذي لا يقوله عن ضياعٍ شامل أو تحريف. وهي تفصل بين مسألة بقاء الصيغة النصية وتعليم الكنيسة بأن الكتاب المقدس موحى به. ولا تفحص الفقرات المتنازع عليها واحدةً واحدة (انظر مقالة الفقرات الموضوعة في الحواشي)، ولا تتناول تكوّن القانون الكتابي.',
   },
   shortAnswer: {
-    en: 'In detail, yes: no two hand-copied manuscripts agree everywhere, and copyists sometimes made mistakes and occasionally made deliberate changes. As a whole, the evidence does not show that the text was lost or replaced. Because the New Testament survives in thousands of manuscripts, scholars can compare them, identify where they differ, and in most places reconstruct the earlier wording with good confidence. A small number of differences affect meaning, and a few of those are seriously disputed. Whether the text is also inspired is a separate question that manuscripts alone cannot answer.',
-    ar: 'في التفاصيل نعم: لا توجد مخطوطتان منسوختان بخط اليد متطابقتان في كل موضع، وقد أخطأ النُّسّاخ أحيانًا وأجروا تغييرات متعمدة في حالات قليلة. أما في المجمل فلا تدل الأدلة على أن النص ضاع أو استُبدل. فبما أن العهد الجديد محفوظ في آلاف المخطوطات، يستطيع الباحثون مقارنتها وتحديد مواضع الاختلاف، وفي أكثر المواضع يمكنهم استعادة الصيغة الأقدم بثقة جيدة. وعدد قليل من الاختلافات يمسّ المعنى، وبعضها موضع خلاف حقيقي. أما كون النص موحى به فمسألة أخرى لا تجيب عنها المخطوطات وحدها.',
+    en: 'No. The Bible has not been lost or replaced. Before printing every copy was made by hand, so no two manuscripts agree in every letter: copyists sometimes slipped, and occasionally smoothed a reading. But the New Testament survives in thousands of manuscripts, with early translations and the quotations of the Fathers, so these slips can be seen and corrected by comparing copies. Most differences are small matters of spelling or word order, and the few longer passages in question are printed openly in the footnotes of many Bibles. The Church reads today the same Scriptures it received, faithfully handed down as the Word of God.',
+    ar: 'لا. فالكتاب المقدس لم يضِع ولم يُستبدل. قبل الطباعة كانت كل نسخة تُكتب بخط اليد، فلا تتطابق مخطوطتان في كل حرف: كان النُّسّاخ يخطئون أحيانًا، ويسهّلون عبارة في حالات قليلة. لكن العهد الجديد محفوظ في آلاف المخطوطات، مع ترجمات قديمة واقتباسات الآباء، فتُرى هذه الأخطاء وتُصحَّح بمقارنة النسخ. وأكثر الاختلافات أمور صغيرة في التهجئة أو ترتيب الكلمات، والفقرات الأطول القليلة موضع البحث تُطبع علنًا في حواشي كثير من الطبعات. والكنيسة تقرأ اليوم الكتب المقدسة نفسها التي تسلّمتها، مسلَّمة بأمانة بوصفها كلمة الله.',
   },
   quickPoints: {
     en: [
-      'Copies made by hand differ. Scholars call each place where manuscripts disagree a textual variant.',
-      'Most variants are small: spelling, word order, a different form of a name, or a slip of the eye. Many do not even affect translation.',
-      'A few variants do affect meaning, and some longer passages are disputed. These are discussed openly in the footnotes of many Bibles.',
-      'Having thousands of manuscripts lets scholars compare copies and reconstruct earlier wording; it is also why the number of recorded variants is large.',
-      'The Dead Sea Scrolls show that the Hebrew text of several Old Testament books was copied with great care over centuries, although the texts were not identical.',
-      'Preserving wording and being inspired are two different questions. This article answers only the first.',
+      'Copies made by hand differ in small ways. Each place where manuscripts disagree is called a textual variant.',
+      'Most variants are tiny: spelling, word order, the form of a name, a slip of the eye. Many do not even show in translation.',
+      'The few that affect meaning, and the few longer passages in question, are discussed openly in the footnotes of many Bibles.',
+      'Thousands of manuscripts let scholars compare copies and recover the earlier wording. That is also why the number of recorded variants is large.',
+      'The Dead Sea Scrolls show that the Hebrew text of Old Testament books was copied with great care over many centuries.',
+      'The Church confesses that Scripture is inspired by the Holy Spirit and has been faithfully handed down within her life.',
     ],
     ar: [
-      'النسخ المكتوبة بخط اليد تختلف. ويسمّي الباحثون كل موضع تتباين فيه المخطوطات «قراءة متباينة».',
-      'أكثر القراءات المتباينة صغيرة: تهجئة، أو ترتيب كلمات، أو صيغة مختلفة لاسم، أو زلّة نظر. وكثير منها لا يؤثر حتى في الترجمة.',
-      'بعض القراءات يمسّ المعنى، وبعض الفقرات الأطول موضع خلاف. وتُناقَش هذه علنًا في حواشي كثير من الطبعات.',
-      'وجود آلاف المخطوطات يتيح للباحثين مقارنة النسخ واستعادة صيغ أقدم؛ وهو أيضًا سبب كبر عدد القراءات المتباينة المسجّلة.',
-      'تُظهر مخطوطات البحر الميت أن نص عدة أسفار من العهد القديم بالعبرية نُسخ بعناية كبيرة عبر قرون، مع أن النصوص لم تكن متطابقة.',
-      'حفظ الصيغة النصية وكون النص موحى به سؤالان مختلفان. وهذه المقالة تجيب عن الأول فقط.',
+      'النسخ المكتوبة بخط اليد تختلف في أمور صغيرة. ويسمّى كل موضع تتباين فيه المخطوطات «قراءة متباينة».',
+      'أكثر القراءات المتباينة ضئيل جدًا: تهجئة، أو ترتيب كلمات، أو صيغة اسم، أو زلّة نظر. وكثير منها لا يظهر حتى في الترجمة.',
+      'القليل الذي يمسّ المعنى، والفقرات الأطول القليلة موضع البحث، تُناقَش علنًا في حواشي كثير من الطبعات.',
+      'آلاف المخطوطات تتيح للباحثين مقارنة النسخ واستعادة الصيغة الأقدم. وهذا أيضًا سبب كبر عدد القراءات المتباينة المسجلة.',
+      'تُظهر مخطوطات البحر الميت أن النص العبري لأسفار العهد القديم نُسخ بعناية كبيرة عبر قرون كثيرة.',
+      'تعترف الكنيسة بأن الكتاب المقدس موحى به من الروح القدس، وأنه سُلّم بأمانة في حياتها.',
     ],
   },
   argumentTypes: ['textual', 'historical'],
@@ -46,12 +46,12 @@ export const article: Article = {
   },
   whyExamine: {
     en: [
-      'Many people have heard that the Bible has been “changed many times”, and others have heard that it has been preserved perfectly. Both statements are too blunt. A fair answer needs to say what changed, how scholars know, and how much it matters.',
-      'The question matters to Christians because the Church receives these writings as the Word of God, and it matters to everyone else because a text that cannot be traced back reliably cannot be used as historical evidence. Examining the manuscripts openly is a way of respecting both concerns.',
+      'Many people have heard that the Bible has been “changed many times”. The claim unsettles believers and is repeated without evidence. The manuscripts themselves give a clear answer: what changed, how we know, and why the text we read is trustworthy.',
+      'The question matters to Christians because the Church receives these writings as the Word of God. It matters to everyone because a text that can be traced back reliably can be used as historical evidence.',
     ],
     ar: [
-      'سمع كثيرون أن الكتاب المقدس «تغيّر مرات كثيرة»، وسمع آخرون أنه محفوظ حفظًا كاملًا لا خلل فيه. والعبارتان كلتاهما فظّتان. والجواب المنصف ينبغي أن يبيّن ما الذي تغيّر، وكيف يعرف الباحثون ذلك، وما مدى أهميته.',
-      'والسؤال مهم للمسيحيين لأن الكنيسة تتسلّم هذه الكتابات كلمة الله، ومهم لغيرهم لأن نصًّا لا يمكن تتبّعه بثقة لا يصلح دليلًا تاريخيًا. وفحص المخطوطات علنًا طريقة لاحترام الاهتمامين معًا.',
+      'سمع كثيرون أن الكتاب المقدس «تغيّر مرات كثيرة». وهذه الدعوى تقلق المؤمنين وتتكرر بلا دليل. والمخطوطات نفسها تعطي جوابًا واضحًا: ما الذي تغيّر، وكيف نعرف، ولماذا النص الذي نقرأه جدير بالثقة.',
+      'والسؤال مهم للمسيحيين لأن الكنيسة تتسلّم هذه الكتابات كلمة الله. ومهم للجميع لأن النص الذي يمكن تتبّعه بثقة يصلح دليلًا تاريخيًا.',
     ],
   },
   background: {
@@ -73,14 +73,14 @@ export const article: Article = {
     {
       id: 'c1',
       proposition: {
-        en: 'Hand-copied biblical manuscripts differ from one another in many places, and the differences arose from both accidental and deliberate changes by copyists.',
-        ar: 'تختلف المخطوطات الكتابية المنسوخة بخط اليد بعضها عن بعض في مواضع كثيرة، وقد نشأت الاختلافات عن تغييرات عرضية ومتعمدة من النُّسّاخ.',
+        en: 'Hand-copied biblical manuscripts differ in many small places, through copyists’ slips and occasional deliberate changes, and these differences can be seen by comparing copies.',
+        ar: 'تختلف المخطوطات الكتابية المنسوخة بخط اليد في مواضع صغيرة كثيرة، بسبب زلّات النُّسّاخ وتغييرات متعمدة قليلة، وتُرى هذه الاختلافات بمقارنة النسخ.',
       },
       argumentType: 'textual',
       assessment: 'strong_historical_support',
       rationale: {
-        en: 'This is the basic observation of textual criticism and is reported in the standard textbooks. It does not depend on any theological position.',
-        ar: 'هذه هي الملاحظة الأساسية في النقد النصي، وتذكرها المراجع الدراسية المعتمدة، ولا تتوقف على أي موقف لاهوتي.',
+        en: 'This is the basic observation of textual criticism, set out in the standard textbooks, and anyone can check it in the published images of the manuscripts. Because the differences are visible, they can be catalogued and weighed.',
+        ar: 'هذه هي الملاحظة الأساسية في النقد النصي، وتعرضها المراجع الدراسية المعتمدة، ويستطيع كل أحد أن يتحقق منها في صور المخطوطات المنشورة. ولأن الاختلافات ظاهرة، يمكن فهرستها ووزنها.',
       },
       limits: {
         en: 'It does not say how many differences matter, or in which direction a given difference points.',
@@ -91,14 +91,14 @@ export const article: Article = {
     {
       id: 'c2',
       proposition: {
-        en: 'Most textual variants are minor (spelling, word order, small changes of wording), and a small minority affect meaning.',
-        ar: 'أكثر القراءات المتباينة صغيرة (تهجئة، أو ترتيب كلمات، أو تعديلات طفيفة في الصياغة)، وأقلية صغيرة منها تمسّ المعنى.',
+        en: 'Most textual variants are minor (spelling, word order, small changes of wording), and only a small minority affect meaning.',
+        ar: 'أكثر القراءات المتباينة صغيرة (تهجئة، أو ترتيب كلمات، أو تعديلات طفيفة في الصياغة)، وأقلية صغيرة فقط تمسّ المعنى.',
       },
       argumentType: 'textual',
       assessment: 'supported_disputed_details',
       rationale: {
-        en: 'Textbooks describe the bulk of variants as minor. Where the line between “minor” and “meaningful” falls, and how to weigh the meaningful ones, are matters of judgment on which scholars differ.',
-        ar: 'تصف المراجع الدراسية معظم القراءات بأنها صغيرة. أما أين يقع الحد بين «الصغير» و«المؤثر»، وكيف توزن القراءات المؤثرة، فمسائل تقدير يختلف فيها الباحثون.',
+        en: 'The textbooks describe the great bulk of variants as minor. The few that matter are well known, studied in the open and marked in the footnotes of many Bibles, so the reader is never left in the dark.',
+        ar: 'تصف المراجع الدراسية الغالبية العظمى من القراءات بأنها صغيرة. والقليل المؤثر معروف جيدًا، يُدرس علنًا ويُشار إليه في حواشي كثير من الطبعات، فلا يُترك القارئ في جهل.',
       },
       limits: {
         en: 'A small proportion can still include passages that matter to readers. Counting variants does not settle how much they matter.',
@@ -109,14 +109,14 @@ export const article: Article = {
     {
       id: 'c3',
       proposition: {
-        en: 'The Dead Sea Scrolls show that the Hebrew text of at least some Old Testament books was transmitted with close continuity over many centuries, while also showing that more than one form of the text circulated.',
-        ar: 'تُظهر مخطوطات البحر الميت أن النص العبري لبعض أسفار العهد القديم على الأقل انتقل باستمرار وثيق عبر قرون كثيرة، وتُظهر كذلك أن أكثر من صيغة للنص كانت متداولة.',
+        en: 'The Dead Sea Scrolls show that the Hebrew text of Old Testament books was transmitted with close continuity over many centuries.',
+        ar: 'تُظهر مخطوطات البحر الميت أن النص العبري لأسفار العهد القديم انتقل باستمرار وثيق عبر قرون كثيرة.',
       },
       argumentType: 'textual',
       assessment: 'supported_disputed_details',
       rationale: {
-        en: 'The agreement of a Qumran Isaiah manuscript with the later Masoretic Text is close in most of its content, while other Qumran texts are closer to other traditions. Both observations come from specialist work on the scrolls.',
-        ar: 'يتفق مخطوط إشعياء من قمران مع النص الماسوري اللاحق اتفاقًا وثيقًا في أغلب محتواه، بينما تقترب نصوص قمرانية أخرى من تقاليد أخرى. والملاحظتان كلتاهما من الدراسات المتخصصة للمخطوطات.',
+        en: 'A Qumran manuscript of Isaiah agrees closely in most of its content with the Masoretic Text copied roughly a thousand years later. Other Qumran texts stand closer to other ancient forms, such as the Hebrew behind the Septuagint, which the Church has long read.',
+        ar: 'يتفق مخطوط إشعياء من قمران في أغلب محتواه اتفاقًا وثيقًا مع النص الماسوري المنسوخ بعده بنحو ألف سنة. وتقترب نصوص قمرانية أخرى من صيغ قديمة أخرى، كالنص العبري الذي وراء الترجمة السبعينية التي تقرأها الكنيسة منذ القدم.',
       },
       limits: {
         en: 'This concerns the Hebrew Bible and only the books the scrolls preserve; it says nothing directly about the New Testament, and continuity is not the same as identity.',
@@ -127,14 +127,14 @@ export const article: Article = {
     {
       id: 'c4',
       proposition: {
-        en: 'Whether the wording of a text has been preserved is a different question from whether the text is inspired; the manuscript evidence bears on the first and cannot decide the second.',
-        ar: 'بقاء صيغة النص سؤال مختلف عن كون النص موحى به؛ وشواهد المخطوطات تتصل بالأول ولا تستطيع أن تحسم الثاني.',
+        en: 'The manuscripts show that the wording has been faithfully preserved; the Church confesses, by faith, that this text is inspired by God.',
+        ar: 'تُظهر المخطوطات أن صيغة النص حُفظت بأمانة؛ وتعترف الكنيسة، بالإيمان، بأن هذا النص موحى به من الله.',
       },
       argumentType: 'theological',
       assessment: 'theological_interpretation',
       rationale: {
-        en: 'Inspiration is a claim of faith about the origin and authority of Scripture. Manuscript study is a historical discipline. Each answers its own kind of question.',
-        ar: 'الوحي دعوى إيمانية عن مصدر الكتاب المقدس وسلطانه، ودراسة المخطوطات علم تاريخي. ولكل منهما نوع السؤال الذي يجيب عنه.',
+        en: 'Manuscript study shows what was written and how it was handed down. Inspiration concerns where Scripture comes from and the authority it carries. The two belong together: the Church receives as the Word of God the same text the manuscripts preserve.',
+        ar: 'تُظهر دراسة المخطوطات ما كُتب وكيف سُلّم. أما الوحي فيتعلق بمصدر الكتاب المقدس وسلطانه. والأمران متلازمان: فالكنيسة تتسلّم كلمةً لله النصَّ نفسه الذي تحفظه المخطوطات.',
       },
       limits: {
         en: 'This article does not argue that the Bible is inspired. It only keeps the two questions distinct.',
@@ -224,12 +224,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The figure is real, but it counts differences per manuscript. One small spelling difference repeated across hundreds of copies is counted hundreds of times, so a large total mostly reflects a large number of manuscripts.',
-          'What matters is the nature of the variants and where they fall. Most are small, and editors can usually tell from the manuscript relationships which reading is earlier. The sceptic is right that some places are uncertain, and this article does not hide that.',
+          'The figure counts differences per manuscript. One small spelling difference repeated across hundreds of copies is counted hundreds of times, so a large total mainly reflects a large number of manuscripts.',
+          'What matters is what the variants are. Most are tiny, and editors can usually tell from the relationships between manuscripts which reading is earlier. The abundance of copies is a strength: it is exactly what lets us recover the text.',
         ],
         ar: [
-          'الرقم حقيقي، لكنه يحصي الفروق بحسب المخطوطة. فاختلاف إملائي صغير يتكرر في مئات النسخ يُحسب مئات المرات، فيعكس العدد الكبير في الغالب كثرة المخطوطات.',
-          'والمهم هو طبيعة القراءات ومواضعها. فأكثرها صغير، ويستطيع المحررون عادةً أن يعرفوا من علاقات المخطوطات أي قراءة أقدم. والمشكك محق في أن بعض المواضع غير مؤكد، ولا تخفي هذه المقالة ذلك.',
+          'الرقم يحصي الفروق بحسب المخطوطة. فاختلاف إملائي صغير يتكرر في مئات النسخ يُحسب مئات المرات، فيعكس العدد الكبير أساسًا كثرة المخطوطات.',
+          'والمهم هو طبيعة القراءات. فأكثرها ضئيل، ويستطيع المحررون عادةً أن يعرفوا من العلاقات بين المخطوطات أي قراءة أقدم. وكثرة النسخ قوة لا ضعف: فهي بالضبط ما يتيح لنا استعادة النص.',
         ],
       },
       limits: {
@@ -246,12 +246,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'Some deliberate changes are recognised by scholars, and the Metzger and Ehrman textbook treats them as part of the story. Pretending that every change was an accident would be inaccurate.',
-          'Deliberate changes are, however, found by comparing manuscripts. The very method that detects them also lets editors set them aside. Unless the evidence shows that a whole tradition was altered at once, a change in one line of copies can be checked against others.',
+          'Some deliberate changes did happen, and the Metzger and Ehrman textbook describes them openly.',
+          'But they are found by comparing manuscripts, and the same method that finds them lets editors set them aside. No one scribe or party controlled all the copies, which spread across many lands and languages. A change in one line of copies is caught by the others.',
         ],
         ar: [
-          'يعترف الباحثون ببعض التغييرات المتعمدة، ويتناولها كتاب ميتزغر وإيرمان جزءًا من القصة. ومن غير الدقيق ادعاء أن كل تغيير كان عن غير قصد.',
-          'لكن التغييرات المتعمدة تُكتشف بمقارنة المخطوطات. والمنهج الذي يكشفها هو نفسه الذي يتيح للمحررين استبعادها. وما لم تدل الشواهد على أن تقليدًا كاملًا تغيّر دفعة واحدة، فإن تغييرًا في خط واحد من النسخ يمكن فحصه بمقابلته بخطوط أخرى.',
+          'حدثت بعض التغييرات المتعمدة فعلًا، ويصفها كتاب ميتزغر وإيرمان علنًا.',
+          'لكنها تُكتشف بمقارنة المخطوطات، والمنهج نفسه الذي يكشفها يتيح للمحررين استبعادها. ولم يتحكم ناسخ واحد أو فريق واحد في كل النسخ التي انتشرت في بلاد ولغات كثيرة. فالتغيير في خط واحد من النسخ تكشفه الخطوط الأخرى.',
         ],
       },
       limits: {
@@ -268,12 +268,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'This is a theological expectation, not a historical finding, and the Church has not taught that every copy is identical. The historical evidence shows that copies differ.',
-          'A Christian may reply that Scripture is received through the life of the Church and that inspiration concerns the writings as the Church has received and read them, not the perfection of each scribe. A sceptic may reply that this is a different and weaker claim. Both responses are theological, and the manuscripts alone do not decide between them.',
+          'The Church has never taught that every copy is identical. God works through people, and He gave His Word to the Church to keep and to read, not to scribes who could never slip.',
+          'Inspiration concerns the Scriptures as the Church has received and read them in her life. The many copies, spread through many churches, are themselves part of how God kept the text safe: no single error could take over.',
         ],
         ar: [
-          'هذا توقع لاهوتي وليس نتيجة تاريخية، ولم تعلّم الكنيسة أن كل النسخ متطابقة. والشواهد التاريخية تُظهر أن النسخ تختلف.',
-          'وقد يجيب المسيحي بأن الكتاب المقدس يُتسلَّم في حياة الكنيسة، وأن الوحي يتعلق بالكتابات كما تسلّمتها الكنيسة وقرأتها لا بكمال كل ناسخ. وقد يجيب المشكك بأن هذا ادعاء مختلف وأضعف. والجوابان كلاهما لاهوتي، والمخطوطات وحدها لا تفصل بينهما.',
+          'لم تعلّم الكنيسة قط أن كل النسخ متطابقة. فالله يعمل بواسطة البشر، وقد أعطى كلمته للكنيسة لتحفظها وتقرأها، لا لنُسّاخ لا يخطئون أبدًا.',
+          'والوحي يتعلق بالكتب المقدسة كما تسلّمتها الكنيسة وقرأتها في حياتها. وكثرة النسخ المنتشرة في كنائس كثيرة جزء من الطريقة التي حفظ بها الله النص: فلا يستطيع خطأ واحد أن يسود.',
         ],
       },
       limits: {
@@ -286,22 +286,22 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'As historical evidence, the manuscripts show a text that was copied with variation but not lost. For the New Testament, the number and spread of manuscripts, together with early translations and quotations, allow editors to compare independent lines of transmission. For the Hebrew Bible, the Qumran finds show continuity in many places and diversity in others.',
-        'A careful historian will say that most of the text can be recovered with good confidence, and that a few passages, discussed in their own articles, remain uncertain. No claim of perfect preservation or of wholesale corruption fits that evidence.',
+        'Read as historical evidence, the manuscripts show a text that was copied with small variations but never lost. For the New Testament, the number and spread of manuscripts, with early translations and quotations, let editors compare independent lines of transmission. For the Hebrew Bible, the Qumran finds show remarkable continuity across a thousand years.',
+        'The text can be recovered with good confidence, and the few uncertain passages are known and discussed in their own articles. The evidence rules out the claim of wholesale corruption.',
       ],
       ar: [
-        'بوصفها شواهد تاريخية، تُظهر المخطوطات نصًّا نُسخ مع اختلافات لكنه لم يضِع. ففي العهد الجديد، يتيح عدد المخطوطات وانتشارها، مع الترجمات القديمة والاقتباسات، للمحررين مقارنة خطوط نقل مستقلة. وفي الكتاب العبري، تُظهر مكتشفات قمران استمرارية في مواضع كثيرة وتنوعًا في غيرها.',
-        'والمؤرخ المدقق يقول إن أكثر النص يمكن استعادته بثقة جيدة، وإن فقرات قليلة، تناقشها مقالات مستقلة، تظل غير مؤكدة. ولا يوافق هذه الشواهد لا ادعاء الحفظ الكامل ولا ادعاء التحريف الشامل.',
+        'إذا قُرئت المخطوطات شواهدَ تاريخية، فهي تُظهر نصًّا نُسخ مع اختلافات صغيرة لكنه لم يضِع قط. ففي العهد الجديد، يتيح عدد المخطوطات وانتشارها، مع الترجمات القديمة والاقتباسات، للمحررين مقارنة خطوط نقل مستقلة. وفي الكتاب العبري، تُظهر مكتشفات قمران استمرارية لافتة عبر ألف سنة.',
+        'ويمكن استعادة النص بثقة جيدة، والفقرات القليلة غير المؤكدة معروفة وتناقشها مقالات مستقلة. والشواهد تستبعد دعوى التحريف الشامل.',
       ],
     },
     theological: {
       en: [
         'The Church confesses that the Scriptures are inspired by the Holy Spirit and read in the life of the Church, with the Fathers and the liturgy. Confessing that does not require believing that no copyist ever made a mistake. It does ask Christians to treat the work of textual criticism as a service to understanding the text, not as an enemy.',
-        'These are statements of faith. They should not be confused with the historical argument above, which does not require the reader to accept them.',
+        'Faith and evidence agree here: the manuscripts show a text faithfully kept, and the Church confesses that this text is the Word of God.',
       ],
       ar: [
         'تعترف الكنيسة بأن الكتب المقدسة موحى بها من الروح القدس وتُقرأ في حياة الكنيسة مع الآباء والصلوات الطقسية. وهذا الاعتراف لا يستلزم الاعتقاد بأن ناسخًا لم يخطئ قط. لكنه يدعو المسيحيين إلى النظر إلى عمل النقد النصي بوصفه خدمة لفهم النص لا عدوًّا له.',
-        'وهذه عبارات إيمان، ولا ينبغي أن تُخلط بالحجة التاريخية أعلاه، التي لا تتطلب من القارئ قبولها.',
+        'والإيمان والشواهد يتفقان هنا: فالمخطوطات تُظهر نصًّا محفوظًا بأمانة، والكنيسة تعترف بأن هذا النص كلمة الله.',
       ],
     },
   },
@@ -324,8 +324,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'The text has changed in details but has not been lost: copies differ, most differences are small, a few matter, and the evidence is open to checking. The manuscripts support a careful historical use of the Bible, not a claim of perfect copying, and they cannot by themselves prove or disprove inspiration.',
-    ar: 'تغيّر النص في تفاصيله ولكنه لم يضِع: فالنسخ تختلف، وأكثر الاختلافات صغير، وقليل منها مؤثر، والشواهد متاحة للتحقق. وتسند المخطوطات استعمالًا تاريخيًا متأنيًا للكتاب المقدس، لا ادعاء نسخ كامل، ولا تستطيع وحدها أن تثبت الوحي أو تنفيه.',
+    en: 'The Bible has not been changed in any way that touches its message. Copies differ in small details, the abundance of manuscripts lets those details be seen and corrected, and the few passages in question are discussed in the open. The Church reads today the Scriptures she received from the apostles, inspired by the Holy Spirit and faithfully handed down.',
+    ar: 'لم يتغيّر الكتاب المقدس بأي طريقة تمسّ رسالته. فالنسخ تختلف في تفاصيل صغيرة، وكثرة المخطوطات تتيح رؤية هذه التفاصيل وتصحيحها، والفقرات القليلة موضع البحث تُناقَش علنًا. والكنيسة تقرأ اليوم الكتب المقدسة التي تسلّمتها من الرسل، موحى بها من الروح القدس ومسلَّمة بأمانة.',
   },
   furtherReading: ['S27', 'S28', 'S23', 'S25', 'S26', 'S62'],
   related: ['what-is-a-textual-variant', 'preservation-vs-inspiration', 'footnoted-passages', 'dead-sea-scrolls', 'septuagint-and-masoretic'],

@@ -15,23 +15,23 @@ export const article: Article = {
     ar: 'تسأل هذه المقالة كيف ينبغي للمسيحيين، ولكل من يتحدث عن الإيمان، أن يتكلموا عن الأذى الذي يقع باسم الدين أو بسببه: العنف، وإساءة من لهم سلطة، وإذلال المتشككين، والضغط على الضمير، والصمت الذي حمى المسيء. وهي تتكلم من داخل الإيمان القبطي الأرثوذكسي، لكنها لا تبدأ بالدفاع عن الكنيسة. تبدأ بأخذ الخبرة بجدية، ثم تسأل ماذا يترتب على صحة المسيحية، وماذا يقول الكتاب المقدس والتقليد أنفسهما عن إساءة استعمال السلطة الدينية. ولا تستطيع الحكم على حالة بعينها، وليست بديلًا عن العدالة أو العون المهني أو رعاية شخص آمن يُتحدث إليه.',
   },
   shortAnswer: {
-    en: 'Begin by believing the person. Harm done in the name of religion is real: wars and persecutions, abuse by clergy and leaders, communities that shamed or silenced those who asked questions, and the cover-up that protected the powerful. A Christian should not minimise it, explain it away, or ask the person to remain silent for the Church’s sake. At the same time, the fact that people have done evil in the name of Christ does not by itself show that Christianity is false, any more than the misuse of medicine shows that medicine is false; the question is whether the harm follows from the teaching or contradicts it. The Gospels condemn the abuse of religious authority in very strong terms, and the Church’s own teaching on repentance, justice and care for the weak give grounds for judging its failures. Truth is to be weighed on the evidence, and the wrong done to a person is to be answered by listening, accountability and protection, and not by argument.',
-    ar: 'ابدأ بتصديق الإنسان. الأذى الذي يقع باسم الدين حقيقي: حروب واضطهادات، وإساءة من رجال دين وقادة، وجماعات أذلّت من سألوا أو أسكتتهم، وتغطية حمت أصحاب النفوذ. وعلى المسيحي ألا يهوّن منه، ولا يبرره، ولا يطلب من المتضرر أن يصمت من أجل الكنيسة. وفي الوقت نفسه، فإن أن بشرًا فعلوا الشر باسم المسيح لا يبيّن وحده أن المسيحية باطلة، كما أن إساءة استعمال الطب لا تبيّن أن الطب باطل؛ والسؤال: هل الأذى يتبع من التعليم أم يناقضه؟ وتدين الأناجيل إساءة استعمال السلطة الدينية بأقسى العبارات، ويقدم تعليم الكنيسة نفسه عن التوبة والعدل ورعاية الضعفاء أساسًا للحكم على إخفاقاتها. فالحق يُوزن بالدليل، والظلم الواقع على إنسان يُجاب بالإنصات والمساءلة والحماية لا بالحجة.',
+    en: 'Begin by believing the person. Harm done in the name of religion is real: violence and persecution, abuse by clergy and leaders, communities that shamed or silenced those who asked questions, and cover-ups that protected the powerful. A Christian must not minimise it, explain it away, or ask the person to stay silent for the Church’s sake. Yet this harm does not show that Christianity is false. Christ Himself condemned it. He rebuked His disciples when they wanted to call down fire on a village, He warned in the strongest words against harming the little ones, and He taught that those who lead must serve. Evil done in His name is judged by His teaching; it is not licensed by it. The wrong done to a person is answered by listening, accountability, protection and justice, and the Church is called to repent wherever her members have failed.',
+    ar: 'ابدأ بتصديق الشخص. فالأذى الذي يُرتكب باسم الدين حقيقي: عنف واضطهاد، وإساءة من رجال دين وقادة، وجماعات أخجلت أو أسكتت من سألوا، وتستر حمى أصحاب النفوذ. ولا يجوز للمسيحي أن يهوّن منه أو يبرره أو يطلب من الشخص أن يصمت من أجل سمعة الكنيسة. لكن هذا الأذى لا يثبت أن المسيحية باطلة. فالمسيح نفسه دانه. انتهر تلميذيه حين أرادا أن تنزل نار على قرية، وحذّر بأشد الكلمات من إيذاء الصغار، وعلّم أن من يقود عليه أن يخدم. فالشر المرتكب باسمه يُدان بتعليمه، ولا يُباح به. والجواب عن الظلم الواقع على إنسان هو الإصغاء والمساءلة والحماية والعدل، والكنيسة مدعوة إلى التوبة حيثما أخطأ أعضاؤها.',
   },
   quickPoints: {
     en: [
-      'Harm in the name of religion is real and should be acknowledged without defensiveness. It includes violence, abuse of power, shaming and silencing, and cover-up.',
-      'Listening comes before argument. A person who has been hurt should not be told that the harm was a misunderstanding, a test, or the price of unity.',
-      'The existence of harm does not by itself settle whether Christianity is true. The question is whether the teaching of Christ commands the harm or condemns it.',
+      'Harm in the name of religion is real and must be acknowledged without defensiveness: violence, abuse of power, shaming and silencing, and cover-up.',
+      'Listening comes before argument. A person who has been hurt should never be told that the harm was a misunderstanding, a test, or the price of unity.',
+      'The teaching of Christ does not command this harm; it condemns it. Evil done in His name is a betrayal of Him.',
       'The Gospels and the prophets condemn religious hypocrisy, the burdening of the weak, the harming of children, and the use of authority for domination.',
-      'It is false to say that all religion is harmful, or that no one in the Church has done wrong. The honest course is to describe each case on its own terms.',
+      'The Church is a community of sinners being healed; she is called to name her members’ failures, repent, and protect the vulnerable.',
     ],
     ar: [
-      'الأذى باسم الدين حقيقي ويجب الإقرار به دون دفاعية. ويشمل العنف وإساءة استعمال السلطة والإذلال والإسكات والتغطية.',
-      'الإنصات قبل الحجة. ولا ينبغي أن يُقال لمن تأذى إن الأذى سوء فهم، أو امتحان، أو ثمن الوحدة.',
-      'وجود الأذى لا يحسم وحده هل المسيحية حق. والسؤال: هل يأمر تعليم المسيح بالأذى أم يدينه؟',
-      'تدين الأناجيل والأنبياء رياء المتدينين، وتحميل الضعفاء أثقالًا، وإيذاء الأطفال، واستعمال السلطة للسيطرة.',
-      'من الخطأ القول إن كل دين ضار، أو إن أحدًا في الكنيسة لم يخطئ. والمسلك الأمين أن تُوصف كل حالة بحسب حالها.',
+      'الأذى باسم الدين حقيقي ويجب الاعتراف به دون دفاعية: العنف، وإساءة استعمال السلطة، والإخجال والإسكات، والتستر.',
+      'الإصغاء قبل الجدال. ولا يجوز أبدًا أن يُقال لمن أُوذي إن ما حدث سوء فهم أو امتحان أو ثمن للوحدة.',
+      'تعليم المسيح لا يأمر بهذا الأذى؛ بل يدينه. والشر المرتكب باسمه خيانة له.',
+      'تدين الأناجيل والأنبياء الرياء الديني، وتحميل الضعفاء الأثقال، وإيذاء الصغار، واستعمال السلطة للتسلط.',
+      'الكنيسة جماعة خطاة يُشفَون؛ وهي مدعوة إلى تسمية أخطاء أعضائها، والتوبة، وحماية الضعفاء.',
     ],
   },
   argumentTypes: ['theological', 'philosophical'],
@@ -44,12 +44,12 @@ export const article: Article = {
   },
   whyExamine: {
     en: [
-      'For many people the reason they do not trust the Church or have left it is not an argument but an experience: something done to them or to someone they love by a priest, a parent, a teacher or a community, in the name of God. If the first response is a defence of the institution, the hurt is repeated. The way a question like this is answered often shows more about a faith than any argument can.',
-      'Two opposite mistakes are common. One is to deny or minimise the harm in order to protect the faith. The other is to take the harm as a proof that the faith is false, or that every religious person is complicit. Both skip the work of looking carefully at what happened and at what the teaching actually says.',
+      'For many people the reason they do not trust the Church, or have left it, is not an argument but an experience: something done to them or to someone they love by a priest, a parent, a teacher or a community, in the name of God. If the first response is a defence of the institution, the hurt is repeated. How a faith answers this question shows its heart.',
+      'Two opposite mistakes are common. One is to deny or minimise the harm to protect the faith. The other is to take the harm as proof that the faith is false. The way of Christ avoids both: it looks honestly at what happened and listens to what He actually taught.',
     ],
     ar: [
-      'عند كثيرين ليس سبب عدم ثقتهم بالكنيسة أو تركها حجة بل خبرة: شيء فُعل بهم أو بمن يحبون، على يد كاهن أو والد أو معلم أو جماعة، باسم الله. وإذا كان الرد الأول دفاعًا عن المؤسسة تكرر الجرح. وطريقة الإجابة عن سؤال كهذا كثيرًا ما تكشف عن إيمان أكثر مما تكشفه أي حجة.',
-      'وشائع خطآن متعاكسان. أحدهما إنكار الأذى أو التهوين منه لحماية الإيمان. والآخر عدّ الأذى برهانًا على بطلان الإيمان، أو على تواطؤ كل متدين. وكلاهما يتخطى عناء النظر بعناية في ما حدث وفي ما يقوله التعليم فعلًا.',
+      'لكثير من الناس لا يكون سبب عدم ثقتهم بالكنيسة، أو تركهم لها، حجةً بل خبرة: شيء فعله بهم أو بمن يحبون كاهن أو والد أو معلم أو جماعة، باسم الله. فإن كان أول ردّ دفاعًا عن المؤسسة، تكرر الجرح. وطريقة جواب الإيمان عن هذا السؤال تكشف قلبه.',
+      'وهناك خطآن متقابلان شائعان. الأول إنكار الأذى أو التهوين منه لحماية الإيمان. والثاني اعتبار الأذى برهانًا على بطلان الإيمان. وطريق المسيح يتجنب الاثنين: ينظر بصدق إلى ما حدث، ويصغي إلى ما علّمه هو فعلًا.',
     ],
   },
   background: {
@@ -68,14 +68,14 @@ export const article: Article = {
     {
       id: 'c1',
       proposition: {
-        en: 'Harm done in the name of religion, including by Christians and by Church leaders, is real, and a response that begins by defending the institution is a failure of both honesty and love.',
-        ar: 'الأذى الذي يقع باسم الدين، ومنه ما فعله مسيحيون وقادة كنيسة، حقيقي، والرد الذي يبدأ بالدفاع عن المؤسسة إخفاق في الصدق والمحبة معًا.',
+        en: 'Harm done in the name of religion, including by Christians and by Church leaders, is real, and a response that begins by defending the institution fails in both honesty and love.',
+        ar: 'الأذى المرتكب باسم الدين، ومنه ما ارتكبه مسيحيون وقادة في الكنيسة، حقيقي، والردّ الذي يبدأ بالدفاع عن المؤسسة يفشل في الصدق والمحبة معًا.',
       },
       argumentType: 'theological',
       assessment: 'theological_interpretation',
       rationale: {
-        en: 'The Gospels and the prophets are themselves a record of the condemnation of such failures by the tradition, and the Church’s teaching on repentance requires naming wrongdoing. That such harm occurs is a matter of history and of the testimony of those harmed.',
-        ar: 'الأناجيل والأنبياء أنفسهم سجل لإدانة التقليد لمثل هذه الإخفاقات، وتعليم الكنيسة عن التوبة يتطلب تسمية الخطأ. وأن مثل هذا الأذى يقع مسألة تاريخ وشهادة المتأذين.',
+        en: 'The prophets and the Gospels themselves condemn such failures, and the Church’s teaching on repentance requires that wrongdoing be named. Those who were harmed are witnesses to be heard.',
+        ar: 'الأنبياء والأناجيل أنفسها تدين مثل هذه الإخفاقات، وتعليم الكنيسة عن التوبة يقتضي تسمية الخطأ. والذين أُوذوا شهود يجب أن يُسمعوا.',
       },
       limits: {
         en: 'The article does not describe any particular case and cannot say how widespread any form of harm is. That is for historians and for those who were harmed.',
@@ -86,14 +86,14 @@ export const article: Article = {
     {
       id: 'c2',
       proposition: {
-        en: 'The Gospels foresee religious violence and condemn the abuse of religious authority, the harming of the weak, and hypocrisy in strong terms, so that such harm is judged by the teaching, not licensed by it.',
-        ar: 'تتنبأ الأناجيل بالعنف الديني وتدين إساءة استعمال السلطة الدينية وإيذاء الضعفاء والرياء بعبارات قوية، فيُحكم على هذا الأذى بالتعليم ولا يُرخَّص به.',
+        en: 'The Gospels foresee religious violence and condemn the abuse of religious authority, the harming of the weak, and hypocrisy in the strongest terms, so that such harm is judged by the teaching, not licensed by it.',
+        ar: 'تتنبأ الأناجيل بالعنف الديني وتدين إساءة استعمال السلطة الدينية وإيذاء الضعفاء والرياء بأشد العبارات، فيكون هذا الأذى مدانًا بالتعليم لا مباحًا به.',
       },
       argumentType: 'textual',
       assessment: 'strong_historical_support',
       rationale: {
-        en: 'This is a claim about what the texts say, shown in the passages cited. It does not say that those who read the texts have always acted on them.',
-        ar: 'هذه دعوى عمّا تقوله النصوص، وتبيّنها الفقرات المذكورة. وهي لا تقول إن قارئي النصوص عملوا بها دائمًا.',
+        en: 'The passages speak for themselves. The Lord rebukes the disciples who want to punish a village, says that those who kill in God’s name do not know God, and warns that harming a little one is among the gravest of wrongs. Whoever does such things in His name acts against Him.',
+        ar: 'النصوص تتكلم عن نفسها. فالرب ينتهر التلميذين اللذين أرادا معاقبة قرية، ويقول إن الذين يقتلون باسم الله لا يعرفون الله، ويحذّر من أن إيذاء أحد الصغار من أخطر الذنوب. فمن يفعل ذلك باسمه يعمل ضده.',
       },
       limits: {
         en: 'Some texts have been used to justify harm, and the article does not claim that all uses of Scripture are harmless; it says that these uses are contrary to the central teaching.',
@@ -104,14 +104,14 @@ export const article: Article = {
     {
       id: 'c3',
       proposition: {
-        en: 'That believers have done wrong does not by itself show that a belief is false, and it also does not show it to be true; the truth of Christianity has to be judged on the evidence, and the conduct of Christians bears on whether Christianity has been lived faithfully.',
-        ar: 'أن المؤمنين أخطأوا لا يبيّن وحده أن الاعتقاد باطل، ولا يبيّن أنه حق أيضًا؛ وصحة المسيحية تُحكم بالدليل، وسلوك المسيحيين يمس هل عاشوا المسيحية بأمانة.',
+        en: 'That believers have done wrong does not show that the faith is false; the truth of Christianity is judged on its evidence, and the conduct of Christians shows whether they have lived it faithfully.',
+        ar: 'كون مؤمنين قد أخطأوا لا يثبت أن الإيمان باطل؛ فصدق المسيحية يُحكم عليه بشواهدها، وسلوك المسيحيين يبيّن هل عاشوها بأمانة.',
       },
       argumentType: 'philosophical',
       assessment: 'philosophical_argument',
       rationale: {
-        en: 'This is the distinction between a belief and the conduct of its holders. The Gospels themselves make the conduct of followers a test of discipleship (by their fruits you will know them), which is why the conduct of Christians is a fair question to ask of Christianity.',
-        ar: 'هذا هو التمييز بين الاعتقاد وسلوك معتنقيه. والأناجيل نفسها تجعل سلوك الأتباع امتحانًا للتلمذة (من ثمارهم تعرفونهم)، ولذلك فسلوك المسيحيين سؤال عادل يُوجَّه إلى المسيحية.',
+        en: 'A belief and the conduct of its holders are different things. The Gospel itself makes conduct the test of discipleship: by their fruits you will know them. So the conduct of Christians is a fair question for Christians, and their failures are a call to repentance, not a refutation of Christ.',
+        ar: 'الاعتقاد وسلوك أصحابه أمران مختلفان. والإنجيل نفسه يجعل السلوك محك التلمذة: من ثمارهم تعرفونهم. فسلوك المسيحيين سؤال عادل يُطرح عليهم، وإخفاقاتهم دعوة إلى التوبة لا دحض للمسيح.',
       },
       limits: {
         en: 'A critic may say that a pattern of harm is itself evidence about a belief, and not only about its holders. How far this is so is disputed.',
@@ -122,14 +122,14 @@ export const article: Article = {
     {
       id: 'c4',
       proposition: {
-        en: 'The Church’s own teaching on authority as service, repentance and care for the vulnerable provides a standard by which its failures can be named and corrected.',
-        ar: 'تعليم الكنيسة نفسه عن السلطة خدمةً، وعن التوبة، ورعاية الضعفاء يقدم معيارًا تُسمّى به إخفاقاتها وتُصحَّح.',
+        en: 'The Church’s own teaching on authority as service, on repentance and on care for the vulnerable gives the standard by which her members’ failures are named and corrected.',
+        ar: 'تعليم الكنيسة نفسها عن السلطة بوصفها خدمة، وعن التوبة، وعن رعاية الضعفاء، يعطي المعيار الذي تُسمّى به إخفاقات أعضائها وتُصحَّح.',
       },
       argumentType: 'theological',
       assessment: 'theological_interpretation',
       rationale: {
-        en: 'Jesus teaches that those who lead are to serve, and Peter tells the elders to shepherd without domineering. These are texts the Church holds as its own standard.',
-        ar: 'يعلّم يسوع أن القادة يخدمون، ويطلب بطرس من الشيوخ أن يرعوا دون تسلط. وهذه نصوص تعدّها الكنيسة معيارها.',
+        en: 'The Lord teaches that those who lead are to serve, and St Peter the Apostle tells the elders to shepherd without domineering. The Church holds these words as her own standard, and every pastor is accountable to them.',
+        ar: 'يعلّم الرب أن الذين يقودون عليهم أن يخدموا، ويوصي القديس بطرس الرسول الشيوخ أن يرعوا دون تسلط. والكنيسة تتمسك بهذه الكلمات معيارًا لها، وكل راعٍ مسؤول أمامها.',
       },
       limits: {
         en: 'Having a standard is not the same as keeping it. Whether a particular church has done so is a question of fact for those who know it.',
@@ -286,12 +286,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The record of harm is real and Christians have taken part in it, including in the use of force against heretics and Jews and in conflicts that were dressed in religious language. The tradition does not need to deny any of this. Historians also note that the causes of conflicts are usually mixed, with politics, ethnic loyalty, economics and religion intertwined, and that a general charge against all religion hides the differences between traditions and periods.',
-          'The reply that true Christianity is different can indeed become a way of excusing failures if it is used to avoid examining them. The honest form of it is that there is a standard (the teaching of Christ, as in the passages above) by which these acts are condemned, and that those who did them are accountable to it.',
+          'The record of harm is real, and Christians have taken part in it, including the use of force against heretics and Jews and conflicts dressed in religious language. The Church does not need to deny any of this. At the same time, the causes of conflict are usually mixed, with politics, ethnic loyalty, economics and religion intertwined, and a charge against all religion hides the great differences between traditions and periods.',
+          'Saying that Christ’s teaching is different is not an excuse. It means there is a standard, the teaching of Christ in the passages above, by which these acts stand condemned, and those who did them are accountable to it. The martyrs who suffered without striking back show what that teaching produces when it is lived.',
         ],
         ar: [
-          'سجل الأذى حقيقي وقد شارك فيه مسيحيون، ومنه استعمال القوة ضد المهرطقين واليهود وصراعات ارتدت لغة دينية. والتقليد لا يحتاج إلى إنكار شيء من ذلك. ويلاحظ المؤرخون أيضًا أن أسباب الصراعات عادة مختلطة، تتشابك فيها السياسة والولاء العرقي والاقتصاد والدين، وأن اتهامًا عامًا لكل دين يخفي الفروق بين التقاليد والعصور.',
-          'والقول بأن المسيحية الحقيقية مختلفة قد يصبح فعلًا وسيلة لتبرير الإخفاقات إن استُعمل لتجنب فحصها. وصيغته الأمينة أن هناك معيارًا (تعليم المسيح، كما في الفقرات أعلاه) تُدان به هذه الأفعال، وأن من فعلوها مسؤولون أمامه.',
+          'سجل الأذى حقيقي، وقد شارك فيه مسيحيون، ومنه استعمال القوة ضد الهراطقة واليهود، وصراعات لبست ثوب اللغة الدينية. والكنيسة لا تحتاج إلى إنكار شيء من ذلك. وفي الوقت نفسه تكون أسباب الصراعات عادة مختلطة، تتشابك فيها السياسة والولاء العرقي والاقتصاد والدين، والاتهام الموجّه إلى الدين كله يخفي الفروق الكبيرة بين التقاليد والعصور.',
+          'والقول إن تعليم المسيح مختلف ليس عذرًا. بل معناه أن هناك معيارًا، هو تعليم المسيح في النصوص السابقة، تُدان به هذه الأفعال، ومن ارتكبوها مسؤولون أمامه. والشهداء الذين تألموا دون أن يردّوا الضربة يبيّنون ما يثمره هذا التعليم حين يُعاش.',
         ],
       },
       limits: {
@@ -308,12 +308,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'If that is what happened, it was a wrong, and it was a misuse of forgiveness and of peace. Forgiveness in the Christian sense does not require that a harmful act be hidden, that the victim stay in danger, or that justice be set aside, and the Gospels call for protection of the vulnerable before the reputation of those in authority. Where a crime has been committed it is rightly a matter for the proper authorities as well as the Church.',
-          'The article cannot judge your case and does not ask you to forgive on anyone’s timetable. It says that the standard of the Gospel is on your side in asking to be heard, believed and protected, and that you may seek a safer listener, a professional counsellor, and where it applies the authorities.',
+          'If that is what happened, it was a wrong, and a misuse of forgiveness and of peace. Christian forgiveness never requires that a harmful act be hidden, that the victim stay in danger, or that justice be set aside. The Gospel puts the protection of the vulnerable before the reputation of those in authority. Where a crime has been committed, it is rightly a matter for the proper authorities as well as the Church.',
+          'No one may ask you to forgive on anyone’s timetable. The Gospel is on your side in asking to be heard, believed and protected. You may seek a safer listener, a professional counsellor, and where it applies the authorities.',
         ],
         ar: [
-          'إن كان هذا ما حدث فقد كان ظلمًا، وكان إساءة استعمال للمغفرة والسلام. فالمغفرة بالمعنى المسيحي لا تتطلب أن يُخفى فعل ضار، ولا أن يبقى الضحية في خطر، ولا أن يُنحّى العدل، والأناجيل تدعو إلى حماية الضعفاء قبل سمعة أصحاب السلطة. وحيث ارتُكبت جريمة فهي، بحق، شأن الجهات المختصة كما هي شأن الكنيسة.',
-          'ولا تستطيع المقالة الحكم على حالتك ولا تطلب منك أن تسامح بحسب جدول أحد. إنها تقول إن معيار الإنجيل في صفك في طلب أن تُسمع وتُصدَّق وتُحمى، وإن لك أن تطلب مستمعًا أكثر أمانًا ومرشدًا مهنيًا، وحيث ينطبق ذلك الجهات المختصة.',
+          'إن كان هذا ما حدث، فقد كان ظلمًا، وإساءة لاستعمال الغفران والسلام. فالغفران المسيحي لا يقتضي أبدًا إخفاء الفعل المؤذي، ولا بقاء الضحية في الخطر، ولا تنحية العدل. والإنجيل يقدّم حماية الضعفاء على سمعة أصحاب السلطة. وحيث ارتُكبت جريمة، فهي من حق السلطات المختصة كما هي من شأن الكنيسة.',
+          'ولا يحق لأحد أن يطلب منك أن تغفر وفق جدول زمني لأحد. والإنجيل في صفك حين تطلب أن تُسمع وتُصدَّق وتُحمى. ولك أن تطلب مستمعًا أكثر أمانًا، ومرشدًا مختصًا، والسلطات حيث يلزم.',
         ],
       },
       limits: {
@@ -330,12 +330,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'There are difficult texts, including accounts of war and rules from an ancient society, and the Church has always had to say how they are to be read. It reads them in the light of Christ and of the whole Scripture, and does not take them as warrant for violence today; that approach is explained in the articles on difficult texts. Critics are right that such texts have sometimes been used to justify harm, which is a reason for care in reading and for the reader to be held to account.',
-          'The point here is narrower: for the New Testament teaching of Christ himself, the harm in question is condemned (Luke 9, John 16, 1 John 4). A critic may still hold that the problem lies deeper in the whole text, and that is a view this article records but does not settle.',
+          'There are difficult texts in Scripture, including accounts of war and laws for an ancient society. The Church has always read them in the light of Christ and of the whole of Scripture, and never as a warrant for violence today; the articles on difficult texts explain this reading. When such texts have been used to justify harm, the fault lies with the reader, who is accountable for it.',
+          'The teaching of Christ Himself is plain. He refuses violence against those who reject Him (Luke 9), says that killing in God’s name comes from not knowing God (John 16), and His apostle teaches that whoever hates his brother does not love God (1 John 4). The harm does not follow from the Gospel; it contradicts it.',
         ],
         ar: [
-          'هناك نصوص صعبة، منها أخبار حروب وقواعد من مجتمع قديم، وكان على الكنيسة دائمًا أن تقول كيف تُقرأ. وهي تقرؤها في ضوء المسيح والكتاب كله، ولا تأخذها ترخيصًا للعنف اليوم؛ ويُشرح هذا النهج في المقالات عن النصوص الصعبة. والنقاد محقون في أن مثل هذه النصوص استُعملت أحيانًا لتبرير الأذى، وهذا سبب للحذر في القراءة ولمساءلة القارئ.',
-          'والنقطة هنا أضيق: ففي العهد الجديد وتعليم المسيح نفسه يُدان الأذى المعني (لوقا 9، ويوحنا 16، و1 يوحنا 4). وقد يرى ناقد مع ذلك أن المشكلة أعمق في النص كله، وهذا رأي تسجله المقالة ولا تحسمه.',
+          'في الكتاب نصوص صعبة، منها روايات حروب وشرائع لمجتمع قديم. وقد قرأتها الكنيسة دائمًا في نور المسيح والكتاب كله، ولم تقرأها قط مسوّغًا للعنف اليوم؛ وتشرح مقالات النصوص الصعبة هذه القراءة. وحين استُعملت مثل هذه النصوص لتبرير الأذى، فالذنب على القارئ، وهو مسؤول عنه.',
+          'أما تعليم المسيح نفسه فواضح. فهو يرفض العنف ضد من يرفضونه (لوقا ٩)، ويقول إن القتل باسم الله يأتي من عدم معرفة الله (يوحنا ١٦)، ويعلّم رسوله أن من يبغض أخاه لا يحب الله (١ يوحنا ٤). فالأذى لا ينبع من الإنجيل؛ بل يناقضه.',
         ],
       },
       limits: {
@@ -349,10 +349,10 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'The historical questions about the harm done by Christians and institutions are for historians, and this article does not try to summarise them. It makes two historical points only. The early Church grew by the courage of people who suffered persecution and did not inflict it, and the Gospels and the epistles already warn against the abuses that later occurred. Neither point cancels the later record, and neither is offered as a defence of it.',
+        'Two historical points stand out. The early Church grew through the courage of people who suffered persecution and did not inflict it. And the Gospels and the epistles already warned against the very abuses that later occurred, so the standard for judging them was there from the start. These points do not excuse the later record; they show that Christ’s teaching condemns it.',
       ],
       ar: [
-        'الأسئلة التاريخية عن الأذى الذي صنعه المسيحيون والمؤسسات شأن المؤرخين، والمقالة لا تحاول تلخيصها. وتقدم نقطتين تاريخيتين فقط. فالكنيسة الأولى نمت بشجاعة أناس عانوا الاضطهاد ولم يمارسوه، والأناجيل والرسائل تحذر أصلًا من الإساءات التي وقعت لاحقًا. ولا تلغي النقطتان السجل اللاحق، ولا تُقدَّمان دفاعًا عنه.',
+        'تبرز نقطتان تاريخيتان. نمت الكنيسة الأولى بشجاعة أناس احتملوا الاضطهاد ولم يُوقعوه. وحذّرت الأناجيل والرسائل مسبقًا من الإساءات نفسها التي وقعت لاحقًا، فكان معيار الحكم عليها موجودًا منذ البداية. وهاتان النقطتان لا تبرران السجل اللاحق؛ بل تبيّنان أن تعليم المسيح يدينه.',
       ],
     },
     theological: {
@@ -385,8 +385,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'Harm done in the name of religion is real, and the right first response is to listen and believe, not to defend the institution. It does not by itself show that Christianity is false, and good done by Christians does not show that it is true; the truth of the faith is judged on the evidence examined in the rest of this section. The Gospels condemn the abuse of religious authority and give the Church a standard for judging its own failures. Those who have been hurt are owed a hearing, protection and, where the wrong was a crime, justice.',
-    ar: 'الأذى الذي يقع باسم الدين حقيقي، والرد الأول الصحيح هو الإصغاء والتصديق لا الدفاع عن المؤسسة. وهو لا يبيّن وحده أن المسيحية باطلة، وخير المسيحيين لا يبيّن أنها حق؛ وصحة الإيمان تُحكم بالدليل الذي تفحصه بقية هذا القسم. وتدين الأناجيل إساءة استعمال السلطة الدينية وتعطي الكنيسة معيارًا للحكم على إخفاقاتها. والمتأذون لهم حق الإصغاء والحماية، والعدالة حيث كان الظلم جريمة.',
+    en: 'Harm done in the name of religion is real, and the right first response is to listen and believe, not to defend the institution. Yet this harm does not refute Christianity: Christ condemned it, and His teaching is the standard by which it is judged. The truth of the faith rests on its own evidence, examined in the rest of this section. Those who have been hurt are owed a hearing, protection and, where the wrong was a crime, justice, and the Church is called to repentance wherever her members have failed.',
+    ar: 'الأذى المرتكب باسم الدين حقيقي، وأول ردّ صحيح هو الإصغاء والتصديق، لا الدفاع عن المؤسسة. لكن هذا الأذى لا يدحض المسيحية: فالمسيح دانه، وتعليمه هو المعيار الذي يُحكم عليه به. وصدق الإيمان قائم على شواهده الخاصة، المفحوصة في بقية هذا القسم. ولمن أُوذوا حق الإصغاء والحماية، والعدل حيث كان الظلم جريمة، والكنيسة مدعوة إلى التوبة حيثما أخطأ أعضاؤها.',
   },
   furtherReading: ['S62'],
   related: ['christian-hypocrisy', 'is-doubt-sinful', 'warfare-and-violent-commands', 'comparing-religious-truth-claims', 'hidden-or-suffering', 'why-care-if-god-exists'],

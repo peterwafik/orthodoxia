@@ -15,23 +15,23 @@ export const article: Article = {
     ar: 'ماذا يقول فعلًا الإنجيلان عن حبل يسوع (متى ١ ولوقا ١)، وأين يتفقان وأين يختلفان، وما الذي يمكن وما الذي لا يمكن استنتاجه من ذلك. نقرأ الإنجيلين أولًا بوصفهما وثيقتين قديمتين، ثم نعرض إيمان الكنيسة بالحبل العذراوي بوصفه إيمانًا.',
   },
   shortAnswer: {
-    en: 'Matthew and Luke each say that Mary, a virgin betrothed to Joseph of David’s house, conceived Jesus through the Holy Spirit and not through Joseph. They tell the story from different sides (Matthew from Joseph’s, Luke from Mary’s) and with largely different material, yet they agree on the central claim, on the name Jesus given by an angel, and on Bethlehem and Nazareth. The Church receives this as the work of God in the incarnation of the Word.',
-    ar: 'يقول متى ولوقا، كلٌّ بطريقته، إن مريم العذراء المخطوبة ليوسف من بيت داود حبلت بيسوع من الروح القدس لا من يوسف. ويرويان القصة من جهتين مختلفتين (متى من جهة يوسف ولوقا من جهة مريم) وبمادة مختلفة في معظمها، لكنهما يتفقان على الدعوى المحورية، وعلى الاسم يسوع الذي أعلنه ملاك، وعلى بيت لحم والناصرة. وتقبل الكنيسة ذلك عملَ الله في تجسد الكلمة.',
+    en: 'St Matthew and St Luke both testify that the Virgin Mary, betrothed to Joseph of the house of David, conceived Jesus by the Holy Spirit and not by Joseph. They tell the story from two sides, St Matthew from Joseph’s and St Luke from Mary’s, with largely different material, and yet they agree on the heart of it: the virgin conception, the name Jesus given by an angel, Bethlehem and Nazareth. Two distinct witnesses converge on one truth. The Church receives it as God’s own act, the beginning of the incarnation of the Word.',
+    ar: 'يشهد القديسان متى ولوقا كلاهما بأن العذراء مريم، المخطوبة ليوسف من بيت داود، حبلت بيسوع من الروح القدس لا من يوسف. ويرويان القصة من جهتين: القديس متى من جهة يوسف، والقديس لوقا من جهة مريم، وبمادة مختلفة في معظمها، ومع ذلك يتفقان على جوهرها: الحبل البتولي، والاسم يسوع الذي أعلنه ملاك، وبيت لحم والناصرة. فشاهدان متميزان يلتقيان على حق واحد. وتقبله الكنيسة فعلًا إلهيًا، هو بدء تجسد الكلمة.',
   },
   quickPoints: {
     en: [
-      'Both accounts say Jesus was conceived through the Holy Spirit and that Joseph was not his biological father.',
-      'Matthew follows Joseph: his doubt, a dream, the naming, and a link to Isaiah 7:14. Luke follows Mary: Gabriel’s announcement, her question, her visit to Elizabeth and her song.',
-      'The shared core is striking because the two stories otherwise share little narrative detail.',
-      'What the texts show is what these two Gospels and their communities believed; whether the event occurred is not something documents alone can settle.',
+      'Both Gospels say Jesus was conceived by the Holy Spirit and that Joseph was not His father by nature.',
+      'St Matthew follows Joseph: his distress, the dream, the naming, and the fulfilment of Isaiah 7:14. St Luke follows Mary: Gabriel’s announcement, her question, her visit to Elizabeth and her song.',
+      'The two stories share little narrative detail, which makes their agreement on the central truth all the more striking.',
+      'St Luke’s account does not appeal to Isaiah at all, so the faith in the virgin conception did not grow out of a single verse.',
       'The Church confesses the virginal conception as God’s own act, the beginning of the incarnation of the Word.',
     ],
     ar: [
-      'يقول الروايتان إن يسوع حُبل به من الروح القدس وإن يوسف لم يكن أباه بالجسد.',
-      'متى يتبع يوسف: حيرته وحلمه وتسمية الطفل وصلة ذلك بإشعياء ٧: ١٤. ولوقا يتبع مريم: بشارة جبرائيل وسؤالها وزيارتها لأليصابات وتسبحتها.',
-      'والاتفاق في الجوهر لافت لأن القصتين لا تشتركان بعده في كثير من التفاصيل السردية.',
-      'ما تبيّنه النصوص هو ما آمن به هذان الإنجيلان وجماعتاهما؛ أما وقوع الحدث فلا تحسمه الوثائق وحدها.',
-      'وتعترف الكنيسة بالحبل العذراوي فعلًا إلهيًا، هو بدء تجسد الكلمة.',
+      'يقول الإنجيلان إن يسوع حُبل به من الروح القدس وإن يوسف لم يكن أباه بالطبيعة.',
+      'القديس متى يتبع يوسف: حيرته وحلمه وتسمية الطفل وتحقيق إشعياء ٧: ١٤. والقديس لوقا يتبع مريم: بشارة جبرائيل وسؤالها وزيارتها لأليصابات وتسبحتها.',
+      'لا تشترك القصتان في كثير من التفاصيل السردية، وهذا يجعل اتفاقهما على الحق المحوري أشد لفتًا للنظر.',
+      'رواية القديس لوقا لا تستند إلى إشعياء أصلًا، فالإيمان بالحبل البتولي لم ينشأ من آية واحدة.',
+      'وتعترف الكنيسة بالحبل البتولي فعلًا إلهيًا، هو بدء تجسد الكلمة.',
     ],
   },
   argumentTypes: ['textual', 'historical', 'theological'],
@@ -44,12 +44,12 @@ export const article: Article = {
   },
   whyExamine: {
     en: [
-      'People often say the Gospels “tell the virgin birth story” as if it were a single account. Reading Matthew and Luke side by side shows two distinct narratives with one shared claim. Knowing exactly what each says protects the reader from both over-claiming and under-claiming.',
-      'The comparison also matters for honest dialogue. Sceptics point to differences between the accounts; defenders point to the agreement. Both facts are real and should be stated together.',
+      'People often speak of “the virgin birth story” as if the Gospels gave a single account. Reading St Matthew and St Luke side by side shows two distinct narratives bearing witness to one truth. Knowing exactly what each says lets the reader see how strong that shared witness is.',
+      'It also helps in conversation with those who doubt. They point to the differences between the accounts; the believer can show that those very differences mark two separate witnesses who agree on what matters most.',
     ],
     ar: [
-      'كثيرًا ما يُقال إن الأناجيل «تروي قصة الولادة العذراوية» كأنها رواية واحدة. وقراءة متى ولوقا جنبًا إلى جنب تُظهر روايتين متميزتين تشتركان في دعوى واحدة. ومعرفة ما يقوله كل منهما بدقة تحمي القارئ من المبالغة ومن التقصير.',
-      'والمقارنة مهمة أيضًا للحوار الأمين. فالمتشككون يشيرون إلى الفروق بين الروايتين، والمدافعون يشيرون إلى الاتفاق، والأمران حقيقيان ويُذكران معًا.',
+      'كثيرًا ما يُقال «قصة الميلاد البتولي» كأن الأناجيل تقدم رواية واحدة. وقراءة القديسين متى ولوقا جنبًا إلى جنب تُظهر روايتين متميزتين تشهدان لحق واحد. ومعرفة ما يقوله كل منهما بدقة تُري القارئ قوة هذه الشهادة المشتركة.',
+      'وهي تساعد أيضًا في الحوار مع المتشككين. فهم يشيرون إلى الفروق بين الروايتين؛ ويستطيع المؤمن أن يبيّن أن هذه الفروق نفسها علامة على شاهدين منفصلين يتفقان على الأهم.',
     ],
   },
   background: {
@@ -70,14 +70,14 @@ export const article: Article = {
     {
       id: 'c1',
       proposition: {
-        en: 'Matthew and Luke each state that Jesus was conceived through the Holy Spirit, without a human father.',
-        ar: 'يذكر متى ولوقا، كلٌّ على حدة، أن يسوع حُبل به من الروح القدس بلا أب بشري.',
+        en: 'St Matthew and St Luke each state that Jesus was conceived by the Holy Spirit, without a human father.',
+        ar: 'يذكر القديسان متى ولوقا، كلٌّ على حدة، أن يسوع حُبل به من الروح القدس بلا أب بشري.',
       },
       argumentType: 'textual',
       assessment: 'strong_historical_support',
       rationale: {
-        en: 'This is a claim about the content of the two documents, and the passages state it directly.',
-        ar: 'هذه دعوى عن مضمون الوثيقتين، والفقرتان تنصان عليها مباشرة.',
+        en: 'Both passages state it directly and plainly. It is the central affirmation of each account, not a passing detail.',
+        ar: 'تنص الفقرتان عليه نصًا مباشرًا واضحًا. وهو التأكيد المحوري في كل رواية، لا تفصيل عابر.',
       },
       limits: {
         en: 'It says what the documents report, not that the event happened.',
@@ -88,14 +88,14 @@ export const article: Article = {
     {
       id: 'c2',
       proposition: {
-        en: 'The two accounts are told from different points of view with different material, but share the same central claim.',
-        ar: 'الروايتان مرويتان من منظورين مختلفين بمادة مختلفة، لكنهما تشتركان في الدعوى المحورية نفسها.',
+        en: 'The two accounts are told from different points of view with different material, and they bear witness to the same central truth.',
+        ar: 'الروايتان مرويتان من منظورين مختلفين بمادة مختلفة، وتشهدان للحق المحوري نفسه.',
       },
       argumentType: 'textual',
       assessment: 'supported_disputed_details',
       rationale: {
-        en: 'The differences in detail are visible on the page. Whether they point to separate traditions or to a common older tradition is an inference that scholars debate.',
-        ar: 'الفروق في التفاصيل ظاهرة في النص. أما هل تدل على تقليدين منفصلين أو على تقليد أقدم مشترك فاستنتاج يناقشه الباحثون.',
+        en: 'The differences in detail are visible on the page: Joseph’s dreams, the Magi and Egypt in St Matthew; Gabriel, Elizabeth and the shepherds in St Luke. Neither writer is copying the other, yet both affirm the same conception by the Holy Spirit.',
+        ar: 'الفروق في التفاصيل ظاهرة في النص: أحلام يوسف والمجوس ومصر عند القديس متى؛ وجبرائيل وأليصابات والرعاة عند القديس لوقا. لا ينقل أحد الكاتبين عن الآخر، ومع ذلك يؤكد كلاهما الحبل نفسه من الروح القدس.',
       },
       limits: {
         en: 'Agreement between two Gospels is not the same as confirmation from a source outside the Christian tradition.',
@@ -151,12 +151,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The differences are real and the article does not hide them. Differences between accounts of one event are common in ancient writing and need not mean the core is invented; but they do mean the accounts must be read for what each intends, and some harmonisations remain proposals.',
-          'The shared core is also what a growing legend would be expected to elaborate in similar ways, so this agreement does not by itself prove independence. What it does show is that two Gospel communities held the same claim.',
+          'The differences are real, and they are what we expect from two witnesses who tell the same event from different sides. Ancient writers, like witnesses today, chose what to include for their own purpose. Different details do not undo a shared core; they show that the core was not invented by one writer and copied by another.',
+          'A legend grows by blurring and multiplying details. Here two sober, distinct accounts agree on one clear claim, and both place it within the family of Joseph and the town of Nazareth. That is the mark of a received tradition, held from the beginning by the Church.',
         ],
         ar: [
-          'الفروق حقيقية ولا تخفيها هذه المقالة. والاختلاف بين روايتين لحدث واحد شائع في الكتابة القديمة ولا يعني بالضرورة اختلاق الجوهر؛ لكنه يعني أن الروايتين تُقرآن بحسب مقصد كل منهما، وبعض التوفيقات تبقى اقتراحات.',
-          'والجوهر المشترك قد تفصّله أسطورة نامية بطرق متشابهة كذلك، فلا يثبت الاتفاق وحده الاستقلال. ما يبيّنه هو أن جماعتين إنجيليتين تمسكتا بالدعوى نفسها.',
+          'الفروق حقيقية، وهي ما نتوقعه من شاهدين يرويان الحدث نفسه من جهتين مختلفتين. فالكتّاب القدماء، كالشهود اليوم، اختاروا ما يذكرونه بحسب غايتهم. واختلاف التفاصيل لا ينقض الجوهر المشترك؛ بل يبيّن أن الجوهر لم يخترعه كاتب ونقله عنه آخر.',
+          'والأسطورة تنمو بتشويش التفاصيل وتكثيرها. أما هنا فروايتان رصينتان متميزتان تتفقان على دعوى واحدة واضحة، وكلتاهما تضعها داخل عائلة يوسف وبلدة الناصرة. وهذه علامة تقليد مُتسلَّم، حفظته الكنيسة منذ البداية.',
         ],
       },
       limits: {
@@ -173,12 +173,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The Greek translation Matthew quotes does read “virgin”, and Jewish translators of Isaiah chose that word before Christianity existed. Whether the Hebrew word demands it is debated.',
-          'But Matthew’s narrative of Mary’s pregnancy stands in verses 18–25 before he cites the prophet, and Luke’s account has no appeal to Isaiah at all. The claim is not derived from the verse alone.',
+          'The Greek translation St Matthew quotes reads “virgin”, and Jewish translators of Isaiah chose that word before the Church existed. St Matthew did not invent the reading; he received it from the Bible of his people.',
+          'Moreover, St Matthew tells of Mary’s pregnancy in verses 18–25 before he cites the prophet, and St Luke’s account does not mention Isaiah at all. The faith in the virgin conception was not drawn from the verse; the verse was recognised as fulfilled in the event.',
         ],
         ar: [
-          'الترجمة اليونانية التي يقتبسها متى تقرأ «عذراء»، وقد اختارها مترجمون يهود لإشعياء قبل نشوء المسيحية. وهل تفرضها الكلمة العبرية موضع نقاش.',
-          'لكن رواية متى لحمل مريم قائمة في العددين ١٨–٢٥ قبل أن يستشهد بالنبي، ورواية لوقا لا تستند إلى إشعياء أصلًا. فالدعوى لا تُشتق من الآية وحدها.',
+          'الترجمة اليونانية التي يقتبسها القديس متى تقرأ «عذراء»، وقد اختار مترجمون يهود لإشعياء هذه الكلمة قبل وجود الكنيسة. فلم يخترع القديس متى هذه القراءة، بل تسلّمها من كتاب شعبه.',
+          'ثم إن القديس متى يروي حمل مريم في الأعداد ١٨–٢٥ قبل أن يستشهد بالنبي، ورواية القديس لوقا لا تذكر إشعياء أصلًا. فالإيمان بالحبل البتولي لم يُستخرج من الآية؛ بل عُرف أن الآية تحققت في الحدث.',
         ],
       },
       limits: {
@@ -192,10 +192,10 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'Historically, the following can be said. Two Gospels make the claim. Beyond that, no non-Christian source independently reports the conception, and historical method has no means of testing a miraculous conception.',
+        'Two Gospels, neither copying the other, testify to the virgin conception. This is the earliest and fullest witness we have, and it agrees on the central truth. A conception by the Holy Spirit is, by its nature, God’s hidden work; it is known through this witness and received in faith.',
       ],
       ar: [
-        'تاريخيًا، يمكن قول ما يلي. إنجيلان يقولان بالدعوى. وبعد ذلك لا يوجد مصدر غير مسيحي ينقل الحبل نقلًا مستقلًا، ولا وسيلة عند المنهج التاريخي لاختبار حبل معجزي.',
+        'إنجيلان، لا ينقل أحدهما عن الآخر، يشهدان للحبل البتولي. وهذه أقدم شهادة لدينا وأوفاها، وهي تتفق على الحق المحوري. والحبل من الروح القدس بطبيعته عمل الله الخفي؛ يُعرف من خلال هذه الشهادة ويُقبل بالإيمان.',
       ],
     },
     theological: {
@@ -224,8 +224,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'Matthew and Luke tell two different stories with one shared claim: Jesus was conceived by the Holy Spirit of the Virgin Mary. What the two texts say is plain; the event itself is received by faith, and the Church confesses it as the beginning of the incarnation.',
-    ar: 'يروي متى ولوقا قصتين مختلفتين بدعوى واحدة: أن يسوع حُبل به من الروح القدس من العذراء مريم. وما يقوله النصان واضح؛ أما الحدث نفسه فيُقبل بالإيمان، وتعترف به الكنيسة بدء التجسد.',
+    en: 'St Matthew and St Luke tell two different stories that bear one shared witness: Jesus was conceived by the Holy Spirit of the Virgin Mary. Their independence makes their agreement strong. The Church receives this witness in faith and confesses it in the Creed as the beginning of the incarnation of the Word.',
+    ar: 'يروي القديسان متى ولوقا قصتين مختلفتين تحملان شهادة واحدة: أن يسوع حُبل به من الروح القدس من العذراء مريم. واستقلالهما يجعل اتفاقهما قويًا. وتقبل الكنيسة هذه الشهادة بالإيمان وتعترف بها في قانون الإيمان بدءًا لتجسد الكلمة.',
   },
   furtherReading: ['S62'],
   related: [

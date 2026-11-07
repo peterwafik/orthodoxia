@@ -15,23 +15,23 @@ export const article: Article = {
     ar: 'تسأل هذه المقالة هل كُتبت النبوات الكتابية بعد الأحداث التي تصفها. وهي تفصل بين سؤالين كثيرًا ما يُخلطان: النبوات التي يقرؤها المسيحيون متممة في المسيح، والنبوات عن أحداث داخل عصر العهد القديم، وأشهرها سفر دانيال. وتعرض كيف يؤرخ المؤرخون الأسفار، وأقوى الحجج عند كل طرف، وما تحسمه الشواهد وما لا تحسمه. ولا تحاجّ في أن النبوة ممكنة أو غير ممكنة.',
   },
   shortAnswer: {
-    en: 'For the prophecies that the New Testament applies to Jesus, the answer is no: the Hebrew texts and the Greek translation were in existence one or two centuries before his birth, as the Dead Sea Scrolls and the Septuagint show. For prophecies about events within the Old Testament period, the dating is a real scholarly question. Many critical scholars date Daniel to the 160s BC, after the events of chapters 8 and 11, while the Church’s older tradition and some scholars place it in the sixth century BC. Isaiah 40–55, which names Cyrus, is also widely dated to the exile. Both positions are held by serious readers, including Christians, and the Church’s faith does not rest on settling the date of any one book.',
-    ar: 'أما النبوات التي يطبقها العهد الجديد على يسوع فالجواب لا: فالنصوص العبرية والترجمة اليونانية كانت موجودة قبل ميلاده بقرن أو قرنين، كما تبيّن مخطوطات البحر الميت والسبعينية. وأما النبوات عن أحداث داخل عصر العهد القديم فتأريخها مسألة علمية حقيقية. فكثير من الدارسين النقديين يؤرخون دانيال بستينيات القرن الثاني ق.م.، بعد أحداث الأصحاحين ٨ و١١، بينما يضعه التقليد الأقدم للكنيسة وبعض الدارسين في القرن السادس ق.م. وإشعياء ٤٠–٥٥، الذي يسمّي كورش، يؤرخه كثيرون أيضًا بالسبي. وكلا الموقفين يقول به قراء جادون، ومنهم مسيحيون، وإيمان الكنيسة لا يقوم على حسم تاريخ سفر بعينه.',
+    en: 'No. The prophecies that the New Testament sees fulfilled in Christ were written down long before He was born. The Dead Sea Scrolls and the Greek Septuagint, both older than Christ and both outside the Church, prove it. The charge of late writing is aimed mainly at Daniel and at the chapters of Isaiah that name Cyrus. It rests chiefly on the assumption that God cannot reveal the future. The Church, with the Fathers, receives Daniel as the prophet of the Babylonian exile and Isaiah as the prophet who spoke these words, and confesses that the Holy Spirit spoke through the prophets.',
+    ar: 'لا. فالنبوات التي يرى العهد الجديد أنها تمّت في السيد المسيح كُتبت قبل ميلاده بزمن طويل. وتشهد بذلك مخطوطات البحر الميت والترجمة السبعينية اليونانية، وكلتاهما أقدم من المسيح وخارج الكنيسة. أما تهمة الكتابة المتأخرة فتتجه أساسًا إلى سفر دانيال وإلى أصحاحات إشعياء التي تسمّي كورش. وهي تقوم في الأصل على افتراض أن الله لا يكشف المستقبل. والكنيسة، مع الآباء، تقبل دانيال نبيًّا من زمن السبي البابلي، وإشعياء نبيًّا نطق بهذه الأقوال، وتعترف بأن الروح القدس نطق بالأنبياء.',
   },
   quickPoints: {
     en: [
-      'The prophecies Christians read as fulfilled in Christ were in existing Hebrew and Greek texts long before he was born.',
+      'The prophecies Christians read as fulfilled in Christ were in Hebrew and Greek texts long before He was born.',
       'The Greek translation of the Law dates from the third century BC, and the Dead Sea Scrolls, including copies of Isaiah, come from roughly the last two centuries BC.',
-      'Daniel is the main test case: its detailed chapters on the Greek kings are dated by many scholars to the 160s BC, and by tradition to the sixth century BC.',
-      'Isaiah 40–55 names Cyrus; many critical scholars read it as written in the exile, and others as the work of the eighth-century prophet.',
-      'A late date for a book does not by itself decide whether God spoke through it, and the Church has not made a ruling of authorship a point of faith.',
+      'These manuscripts are Jewish, not Christian, so no one could have adjusted them to fit the Gospels.',
+      'The late dating of Daniel and of Isaiah 40–55 rests mainly on the premise that detailed prediction is impossible.',
+      'The Church confesses that the Holy Spirit spoke through the prophets, and her faith rests on the God who speaks.',
     ],
     ar: [
-      'كانت النبوات التي يقرؤها المسيحيون متممة في المسيح في نصوص عبرية ويونانية قائمة قبل ميلاده بزمن طويل.',
+      'كانت النبوات التي يقرؤها المسيحيون متممة في المسيح موجودة في نصوص عبرية ويونانية قبل ميلاده بزمن طويل.',
       'ترجع الترجمة اليونانية للناموس إلى القرن الثالث ق.م.، وتعود مخطوطات البحر الميت، ومنها نسخ إشعياء، إلى القرنين الأخيرين ق.م. تقريبًا.',
-      'دانيال هو الحالة الرئيسية للاختبار: فأصحاحاته المفصلة عن الملوك اليونانيين يؤرخها كثير من الدارسين بستينيات القرن الثاني ق.م.، ويؤرخها التقليد بالقرن السادس ق.م.',
-      'يذكر إشعياء ٤٠–٥٥ كورش بالاسم؛ ويقرؤه كثير من النقديين كتابة من السبي، ويقرؤه آخرون عمل نبي القرن الثامن.',
-      'التاريخ المتأخر لسفر لا يحسم بذاته هل تكلم الله به، ولم تجعل الكنيسة الحكم في التأليف نقطة إيمان.',
+      'هذه المخطوطات يهودية لا مسيحية، فلم يكن في وسع أحد أن يعدّلها لتوافق الأناجيل.',
+      'يقوم التأريخ المتأخر لدانيال وإشعياء ٤٠–٥٥ أساسًا على مقدمة تقول إن التنبؤ المفصل مستحيل.',
+      'تعترف الكنيسة بأن الروح القدس نطق بالأنبياء، وإيمانها قائم على الله الذي يتكلم.',
     ],
   },
   argumentTypes: ['historical', 'textual', 'theological'],
@@ -45,12 +45,12 @@ export const article: Article = {
 
   whyExamine: {
     en: [
-      'Fulfilled prophecy is one of the oldest arguments for the Christian faith, and the charge that prophecies were written after the events is one of the oldest answers to it. The Neoplatonist philosopher Porphyry made that charge about Daniel in the third century, and Jerome answered it. The question is not new, and a reader should know both sides.',
-      'It is also a test of fairness. A believer who says every prophecy is a plain prediction, and a sceptic who says every prophecy is written afterwards, both go beyond what the evidence shows. The evidence supports different answers for different books.',
+      'Fulfilled prophecy is one of the oldest reasons for the Christian faith, and the charge that the prophecies were written after the events is one of the oldest replies to it. The Neoplatonist philosopher Porphyry made that charge about Daniel in the third century, and St Jerome answered him. The question is old, and the Church has long had an answer.',
+      'Seeing the answer clearly also protects the reader from a common confusion. The prophecies applied to Christ and the dating of Daniel are two different questions. For the first, the manuscripts settle the matter. For the second, the reader needs to see which premise drives the late dating.',
     ],
     ar: [
-      'النبوة المتممة من أقدم الحجج للإيمان المسيحي، والقول إن النبوات كُتبت بعد الأحداث من أقدم الردود عليها. وقد أثار الفيلسوف الأفلاطوني المحدث فرفوريوس هذه التهمة على دانيال في القرن الثالث، وأجاب عنها جيروم. فالمسألة ليست جديدة، وينبغي للقارئ أن يعرف الجانبين.',
-      'وهي اختبار للإنصاف أيضًا. فالمؤمن الذي يقول إن كل نبوة تنبؤ صريح، والمتشكك الذي يقول إن كل نبوة كُتبت بعد الحدث، يتجاوز كلاهما ما تُظهره الشواهد. والشواهد تسند أجوبة مختلفة لأسفار مختلفة.',
+      'النبوة المتممة من أقدم أسباب الإيمان المسيحي، والقول إن النبوات كُتبت بعد الأحداث من أقدم الردود عليها. وقد أثار الفيلسوف الأفلاطوني المحدث فرفوريوس هذه التهمة على دانيال في القرن الثالث، وردّ عليه القديس جيروم. فالمسألة قديمة، وللكنيسة جواب عنها منذ زمن بعيد.',
+      'ورؤية الجواب بوضوح تحمي القارئ أيضًا من خلط شائع. فالنبوات المطبقة على المسيح وتأريخ دانيال سؤالان مختلفان. في الأول تحسم المخطوطات الأمر. وفي الثاني يحتاج القارئ أن يرى أي مقدمة تقود إلى التأريخ المتأخر.',
     ],
   },
   background: {
@@ -73,14 +73,14 @@ export const article: Article = {
     {
       id: 'C1',
       proposition: {
-        en: 'The Old Testament prophecies that the New Testament applies to Jesus existed in Hebrew and Greek texts before he was born.',
-        ar: 'وُجدت نبوات العهد القديم التي يطبقها العهد الجديد على يسوع في نصوص عبرية ويونانية قبل ميلاده.',
+        en: 'The Old Testament prophecies that the New Testament applies to Christ existed in Hebrew and Greek texts before He was born.',
+        ar: 'كانت نبوات العهد القديم التي يطبقها العهد الجديد على السيد المسيح موجودة في نصوص عبرية ويونانية قبل ميلاده.',
       },
       argumentType: 'textual',
       assessment: 'strong_historical_support',
       rationale: {
-        en: 'The Dead Sea Scrolls include copies of prophetic books from the last centuries BC, and the Greek translation of the Law and the Prophets was made in stages from the third century BC. Both are independent of the Christian movement.',
-        ar: 'تتضمن مخطوطات البحر الميت نسخًا من أسفار نبوية من القرون الأخيرة ق.م.، وصُنعت الترجمة اليونانية للناموس والأنبياء على مراحل منذ القرن الثالث ق.م. وكلاهما مستقل عن الحركة المسيحية.',
+        en: 'The Dead Sea Scrolls include copies of prophetic books from the last centuries BC, and the Greek translation of the Law and the Prophets was made in stages from the third century BC. Both come from outside the Christian movement, so they are independent witnesses that the prophecies came first.',
+        ar: 'تتضمن مخطوطات البحر الميت نسخًا من أسفار نبوية من القرون الأخيرة ق.م.، وصُنعت الترجمة اليونانية للناموس والأنبياء على مراحل منذ القرن الثالث ق.م. وكلتاهما من خارج الحركة المسيحية، فهما شاهدان مستقلان على أن النبوات سبقت.',
       },
       limits: {
         en: 'It shows that the texts pre-date Jesus. It does not by itself show that a given passage was about him, which is a question of interpretation.',
@@ -91,14 +91,14 @@ export const article: Article = {
     {
       id: 'C2',
       proposition: {
-        en: 'The visions of Daniel 8 and 11 describe events down to the persecution under Antiochus IV in detail, and critical scholars have argued from this that they were written in the 160s BC.',
-        ar: 'تصف رؤى دانيال ٨ و١١ الأحداث حتى اضطهاد أنطيوخس الرابع بتفصيل، وقد احتج الدارسون النقديون بذلك على أنها كُتبت في ستينيات القرن الثاني ق.م.',
+        en: 'The visions of Daniel 8 and 11 describe the kingdoms down to Antiochus IV in detail, and the argument that they were written in the 160s BC depends mainly on the premise that such detail cannot be foretold.',
+        ar: 'تصف رؤى دانيال ٨ و١١ الممالك حتى أنطيوخس الرابع بتفصيل، والقول إنها كُتبت في ستينيات القرن الثاني ق.م. يعتمد أساسًا على مقدمة تقول إن مثل هذا التفصيل لا يمكن التنبؤ به.',
       },
       argumentType: 'historical',
       assessment: 'actively_debated',
       rationale: {
-        en: 'The reasons given are the precision of the account up to the 160s BC, the departure from known events after that, the book’s place in the Writings, and its language. Defenders of an earlier date answer each of these, and the debate is long-standing.',
-        ar: 'الأسباب المذكورة دقة الرواية حتى ستينيات القرن الثاني ق.م.، والابتعاد عن الأحداث المعروفة بعد ذلك، وموضع السفر في الكتب، ولغته. ويجيب المدافعون عن تاريخ أقدم عن كل منها، والجدل قديم.',
+        en: 'The late date is argued from the precision of the visions, from the reading of the last verses of chapter 11, from the book’s place among the Writings, and from its language. Each of these has been answered. St Jerome already read the end of chapter 11 as speaking of the final enemy, not of Antiochus. When the possibility of prophecy is not ruled out in advance, the precision of Daniel becomes a sign of prophecy, not a proof of late writing.',
+        ar: 'يُحتج للتاريخ المتأخر بدقة الرؤى، وبقراءة آخر آيات الأصحاح ١١، وبموضع السفر بين الكتب، وبلغته. وقد أُجيب عن كل منها. فالقديس جيروم قرأ نهاية الأصحاح ١١ على أنها عن العدو الأخير لا عن أنطيوخس. وإذا لم يُستبعد إمكان النبوة سلفًا، صارت دقة دانيال علامة على النبوة لا برهانًا على الكتابة المتأخرة.',
       },
       limits: {
         en: 'None of the arguments is decisive on its own, and they depend on assumptions about whether detailed prediction is possible.',
@@ -109,14 +109,14 @@ export const article: Article = {
     {
       id: 'C3',
       proposition: {
-        en: 'Isaiah 40–55 names Cyrus, and scholars disagree about whether it was composed by Isaiah of the eighth century or by a later writer in the exile.',
-        ar: 'يذكر إشعياء ٤٠–٥٥ كورش بالاسم، ويختلف الدارسون هل ألّفه إشعياء القرن الثامن أم كاتب لاحق في السبي.',
+        en: 'Isaiah 40–55 names Cyrus as the one the Lord will use to send His people home, and the book presents these words as the prophecy of Isaiah.',
+        ar: 'يذكر إشعياء ٤٠–٥٥ كورش بالاسم بوصفه من يستعمله الرب ليعيد شعبه، ويقدّم السفر هذه الأقوال على أنها نبوة إشعياء.',
       },
       argumentType: 'historical',
       assessment: 'actively_debated',
       rationale: {
-        en: 'Naming a king more than a century before he reigned is unusual in prophecy, which leads many scholars to the exilic date. Others reply that the book itself presents the words as those of Isaiah and that a named prediction is possible for a prophet.',
-        ar: 'ذكر ملك باسمه قبل حكمه بأكثر من قرن أمر غير معتاد في النبوة، مما يقود كثيرين إلى التاريخ السبوي. ويجيب آخرون بأن السفر نفسه يقدم الكلمات على أنها لإشعياء وبأن التنبؤ المسمّى ممكن لنبي.',
+        en: 'The book itself places these words under Isaiah’s name, and the Isaiah scroll from Qumran shows the book as one scroll well before the Christian era. Naming a king before his reign is unusual, and for that reason many modern scholars assign the chapters to the exile. Yet for a prophet through whom God speaks, a named prediction is no harder than any other, and this is how the Church has read it.',
+        ar: 'السفر نفسه يضع هذه الأقوال تحت اسم إشعياء، ويبيّن درج إشعياء من قمران السفر درجًا واحدًا قبل العصر المسيحي بزمن طويل. وذكر ملك باسمه قبل حكمه أمر غير معتاد، ولهذا ينسب كثير من الدارسين المحدثين هذه الأصحاحات إلى زمن السبي. لكن التنبؤ بالاسم ليس أصعب من غيره على نبي يتكلم الله به، وهكذا قرأته الكنيسة.',
       },
       limits: {
         en: 'The Qumran scroll shows the book as one scroll by the last centuries BC, but it cannot show when its parts were composed.',
@@ -225,12 +225,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'This is a philosophical premise, not a finding from the evidence. If the possibility of foreknowledge is excluded in advance, then late dating follows for any detailed prophecy; if it is not excluded, the evidence about Daniel can be weighed on its own terms, as scholars have done. A reader should know which premise is doing the work.',
-          'In the case of Daniel, the dating also rests on linguistic and literary arguments, and the believer who accepts a second-century date does not thereby give up faith in the book’s inspiration, as many Christian scholars show. The premise does not decide the case for the Christian prophecies, which pre-date Jesus whatever one thinks of foreknowledge.',
+          'This is a philosophical premise, not a finding from the evidence. If foreknowledge is ruled out before looking, then every detailed prophecy must be dated late, whatever the evidence says. The conclusion is built into the starting point.',
+          'The Christian does not rule out in advance that God, who holds history in His hand, can reveal what is coming. Once that premise is set aside, the detail of Daniel no longer proves late writing. And the prophecies applied to Christ pre-date Him on any view of foreknowledge, because the manuscripts are older than He is.',
         ],
         ar: [
-          'هذه مقدمة فلسفية لا نتيجة من الشواهد. فإن استُبعد إمكان سبق المعرفة سلفًا لزم التأريخ المتأخر لكل نبوة مفصلة؛ وإن لم يُستبعد أمكن وزن شواهد دانيال بشروطها، كما فعل الدارسون. وينبغي أن يعرف القارئ أي مقدمة تعمل.',
-          'وفي حالة دانيال يستند التأريخ أيضًا إلى حجج لغوية وأدبية، ومن يقبل من المؤمنين تاريخًا في القرن الثاني لا يتخلى بذلك عن الإيمان بوحي السفر، كما يبيّن دارسون مسيحيون كثيرون. ولا تحسم المقدمة حالة النبوات المسيحية التي هي أسبق من يسوع أيًّا كان الرأي في سبق المعرفة.',
+          'هذه مقدمة فلسفية لا نتيجة من الشواهد. فإن استُبعد سبق المعرفة قبل النظر، وجب تأريخ كل نبوة مفصلة تأريخًا متأخرًا أيًّا كانت الشواهد. فالنتيجة مبنية في نقطة البداية.',
+          'والمسيحي لا يستبعد سلفًا أن الله، الذي يمسك التاريخ بيده، يستطيع أن يكشف الآتي. ومتى وُضعت هذه المقدمة جانبًا، لم يعد تفصيل دانيال برهانًا على الكتابة المتأخرة. والنبوات المطبقة على المسيح أسبق منه على أي رأي في سبق المعرفة، لأن المخطوطات أقدم منه.',
         ],
       },
       limits: {
@@ -247,12 +247,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'This is a serious objection, and it is the other side of the dating question. The prophecies pre-date Jesus, but the accounts of his life were written later, and a critic may argue that the details were shaped to match. Some features of the Gospels fit this pattern, as when a writer says an event happened “to fulfil” a verse.',
-          'The Church’s response is that the main events of the passion, such as the crucifixion, are independently attested, and that the Gospel writers were not inventing a Messiah to match the verses but interpreting what had happened in the light of them. A historian may weigh each case, and the cases are not all alike.',
+          'The prophecies were fixed in Jewish manuscripts before Christ, and the Gospel writers could not change them. The central events of the passion, above all the crucifixion, are attested independently of the Gospels, so the story was not built out of the verses.',
+          'The Gospel writers did not invent a Messiah to match the prophets. They proclaimed what had happened among them, and then, taught by the risen Lord, they saw in the Scriptures what God had promised. When a Gospel says an event happened to fulfil a passage, it is interpreting a real event in the light of Scripture, not creating it.',
         ],
         ar: [
-          'هذا اعتراض جاد، وهو الوجه الآخر لمسألة التأريخ. فالنبوات أسبق من يسوع، لكن روايات حياته كُتبت لاحقًا، وقد يحتج ناقد بأن التفاصيل صيغت لتوافقها. وبعض سمات الأناجيل يوافق هذا النمط، كما حين يقول كاتب إن حدثًا جرى «ليتم» قول.',
-          'وجواب الكنيسة أن الأحداث الرئيسية للآلام، كالصلب، مثبتة باستقلال، وأن كتّاب الأناجيل لم يخترعوا مسيحًا يوافق الآيات بل فسروا ما حدث في ضوئها. وللمؤرخ أن يزن كل حالة، والحالات ليست كلها متشابهة.',
+          'كانت النبوات ثابتة في مخطوطات يهودية قبل المسيح، ولم يكن في وسع كتّاب الأناجيل تغييرها. والأحداث المركزية للآلام، وأولها الصلب، مشهود لها باستقلال عن الأناجيل، فالقصة لم تُبنَ من الآيات.',
+          'لم يخترع كتّاب الأناجيل مسيحًا يوافق الأنبياء. بل بشّروا بما حدث بينهم، ثم رأوا في الكتب، بتعليم الرب القائم، ما وعد به الله. وحين يقول إنجيل إن حدثًا جرى ليتم قول، فهو يفسر حدثًا حقيقيًا في ضوء الكتاب، لا يخترعه.',
         ],
       },
       limits: {
@@ -269,12 +269,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The Church’s faith is that the Holy Spirit spoke through the prophets, and it is not tied to a date. The Fathers generally accepted the traditional authorship, and the Church has not defined authorship as a point of faith. A believer is free to hold the traditional dates, as many do, or to hold a later date and still read the book as Scripture, as other Christian scholars do.',
-          'A later date would change the way the visions are read: as encouragement to a community in persecution rather than a long-range forecast. It would not change the Church’s use of the book in worship and teaching.',
+          'The Church’s faith is that the Holy Spirit spoke through the prophets. With the Fathers she receives Daniel and Isaiah as the prophets whose names the books bear, and she reads their words in her worship as pointing to Christ.',
+          'Inspiration does not stand or fall with a modern theory of dating. A scholarly reconstruction can be weighed and answered, as St Jerome answered Porphyry, while the Church goes on hearing the voice of the Spirit in the prophets as she always has.',
         ],
         ar: [
-          'إيمان الكنيسة أن الروح القدس نطق بالأنبياء، وهو غير مرتبط بتاريخ. وقد قبل الآباء عمومًا التأليف التقليدي، ولم تحدد الكنيسة التأليف نقطة إيمان. وللمؤمن أن يتمسك بالتواريخ التقليدية، كما يفعل كثيرون، أو يأخذ تاريخًا متأخرًا ويواصل قراءة السفر كتابًا مقدسًا، كما يفعل دارسون مسيحيون آخرون.',
-          'وسيغير التاريخ المتأخر طريقة قراءة الرؤى: تشجيعًا لجماعة في الاضطهاد لا نبوءة بعيدة المدى. ولن يغير استعمال الكنيسة للسفر في العبادة والتعليم.',
+          'إيمان الكنيسة أن الروح القدس نطق بالأنبياء. ومع الآباء تقبل دانيال وإشعياء نبيّين يحمل السفران اسميهما، وتقرأ أقوالهما في عبادتها شاهدةً للمسيح.',
+          'والوحي لا يقوم ولا يسقط مع نظرية حديثة في التأريخ. فإعادة البناء العلمية تُوزن ويُرد عليها، كما ردّ القديس جيروم على فرفوريوس، والكنيسة تواصل سماع صوت الروح في الأنبياء كما فعلت دائمًا.',
         ],
       },
       limits: {
@@ -287,12 +287,12 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'Historically, a Christian can say that the prophecies applied to Jesus pre-date him by manuscript evidence independent of the Church; that the dating of Daniel and of Isaiah 40–55 is a debated question where thoughtful historians differ; and that a late date, if accepted, changes how a book is read but does not by itself remove it from Scripture.',
-        'A Christian should not say that the evidence settles Daniel in favour of the sixth century, and should not say that it settles it against. The argument from silence, the language arguments and the reading of chapter 11 are all contested.',
+        'The historical evidence is firm on the main point. The prophecies that the Church applies to Christ are preserved in Hebrew and Greek manuscripts that are older than He is and independent of the Church. No one could have written them after the events of His life.',
+        'For Daniel and Isaiah 40–55, the arguments for late writing lean on the premise that detailed prediction cannot happen, on a particular reading of Daniel 11, and on arguments from language and canon that have been answered. The evidence does not compel a late date, and the book of Isaiah stood as one scroll well before the Christian era.',
       ],
       ar: [
-        'يستطيع المسيحي تاريخيًا أن يقول إن النبوات المطبقة على يسوع أسبق منه بشواهد مخطوطية مستقلة عن الكنيسة؛ وإن تأريخ دانيال وإشعياء ٤٠–٥٥ مسألة مختلف فيها يختلف فيها مؤرخون متأملون؛ وإن التاريخ المتأخر، إن قُبل، يغيّر كيف يُقرأ السفر لكنه لا يُخرجه بذاته من الكتاب المقدس.',
-        'وعلى المسيحي ألا يقول إن الشواهد تحسم دانيال لصالح القرن السادس، ولا أن تحسمه ضده. فالحجة من الصمت والحجج اللغوية وقراءة الأصحاح ١١ كلها متنازع عليها.',
+        'الشواهد التاريخية راسخة في النقطة الرئيسية. فالنبوات التي تطبقها الكنيسة على المسيح محفوظة في مخطوطات عبرية ويونانية أقدم منه ومستقلة عن الكنيسة. فلا يمكن أن يكون أحد قد كتبها بعد أحداث حياته.',
+        'أما دانيال وإشعياء ٤٠–٥٥ فحجج الكتابة المتأخرة تستند إلى مقدمة أن التنبؤ المفصل لا يحدث، وإلى قراءة معينة لدانيال ١١، وإلى حجج من اللغة والقانون أُجيب عنها. فالشواهد لا تُلزم بتاريخ متأخر، وقد كان سفر إشعياء درجًا واحدًا قبل العصر المسيحي بزمن طويل.',
       ],
     },
     theological: {
@@ -329,8 +329,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'The prophecies that Christians apply to Jesus were written down before he lived, as manuscripts independent of the Church show. The dating of Daniel and of the later chapters of Isaiah is a real question on which able scholars differ, and the Church’s faith that the Spirit spoke through the prophets does not hang on a single answer. The reader can hold the question open without giving up either honesty or faith.',
-    ar: 'كُتبت النبوات التي يطبقها المسيحيون على يسوع قبل أن يعيش، كما تبيّن مخطوطات مستقلة عن الكنيسة. وتأريخ دانيال والأصحاحات المتأخرة من إشعياء سؤال حقيقي يختلف فيه علماء أكفاء، وإيمان الكنيسة بأن الروح نطق بالأنبياء لا يتعلق بجواب واحد. ويستطيع القارئ أن يُبقي السؤال مفتوحًا دون أن يتخلى عن الأمانة أو الإيمان.',
+    en: 'The prophecies that Christians see fulfilled in Christ were written down before He lived, as manuscripts outside the Church show. The charge of late writing against Daniel and Isaiah rests mainly on the assumption that God cannot reveal the future, and the Christian has no reason to accept it. The Church confesses, as she has from the beginning, that the Holy Spirit spoke through the prophets, and she hears in them the promise that Christ fulfilled.',
+    ar: 'كُتبت النبوات التي يرى المسيحيون أنها تمّت في المسيح قبل أن يعيش، كما تبيّن مخطوطات من خارج الكنيسة. وتهمة الكتابة المتأخرة ضد دانيال وإشعياء تقوم أساسًا على افتراض أن الله لا يكشف المستقبل، وليس للمسيحي سبب لقبوله. والكنيسة تعترف، كما اعترفت منذ البدء، بأن الروح القدس نطق بالأنبياء، وتسمع فيهم الوعد الذي أتمّه المسيح.',
   },
   furtherReading: ['S25', 'S26', 'S28'],
   related: ['prediction-typology-interpretation', 'dead-sea-scrolls', 'septuagint-and-masoretic', 'jewish-and-christian-messianic-readings', 'why-inspired'],

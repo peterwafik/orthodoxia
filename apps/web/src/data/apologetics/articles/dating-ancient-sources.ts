@@ -15,23 +15,23 @@ export const article: Article = {
     ar: 'المناهج التي يستعملها المؤرخون لتأريخ نص قديم أو مخطوط، مع أمثلة من المصادر المهمة في شأن يسوع. يشرح المقال المنطق وحدوده، ولا يحدد تاريخ إنجيل بعينه؛ فذلك شأن المقالين المجاورين عن أقدم المصادر وعن كتابة الأناجيل.',
   },
   shortAnswer: {
-    en: 'Historians date a text by combining several kinds of evidence: what the text itself refers to (events, rulers, offices), who first quotes or uses it, the handwriting and material of the manuscript, and in some cases scientific tests. The result is usually a range, not a year. Two things must be kept apart: the date a work was composed and the date of the copy we hold. A late copy can carry an early text, and an early text can still be a poor witness. The method is the same for Tacitus, Josephus and the New Testament.',
-    ar: 'يؤرّخ المؤرخون النص بجمع عدة أنواع من الأدلة: ما يشير إليه النص نفسه (أحداث وحكّام ومناصب)، ومن اقتبسه أو استعمله أولًا، وخط المخطوط ومادته، وفي بعض الحالات الفحوص العلمية. والنتيجة مدًى زمنيّ في الغالب لا سنة محددة. ويجب الفصل بين أمرين: تاريخ تأليف العمل وتاريخ النسخة التي بين أيدينا. فقد تحمل نسخة متأخرة نصًا مبكرًا، وقد يكون نص مبكر شاهدًا ضعيفًا. والمنهج واحد مع تاكيتوس ويوسيفوس والعهد الجديد.',
+    en: 'Historians date a text by bringing several kinds of evidence together: what the text itself refers to (events, rulers, offices), who first quotes or uses it, the handwriting and material of the manuscript, and sometimes scientific tests. The result is usually a range of years, and it is firmest when independent lines of evidence agree. The date a work was composed must be kept apart from the date of the copy we hold. The same method is used for Tacitus, Josephus and the New Testament, and it shows that the letters of St Paul the Apostle belong to the AD 50s and that the Gospels were written in the first century, within living memory of Jesus.',
+    ar: 'يؤرّخ المؤرخون النص بجمع عدة أنواع من الأدلة: ما يشير إليه النص نفسه (أحداث وحكّام ومناصب)، ومن اقتبسه أو استعمله أولًا، وخط المخطوط ومادته، وأحيانًا الفحوص العلمية. والنتيجة في الغالب مدًى من السنين، ويكون أثبت حين تتفق خطوط أدلة مستقلة. ويجب الفصل بين تاريخ تأليف العمل وتاريخ النسخة التي بين أيدينا. والمنهج نفسه يُستعمل مع تاكيتوس ويوسيفوس والعهد الجديد، وهو يُظهر أن رسائل القديس بولس الرسول تعود إلى خمسينيات القرن الأول، وأن الأناجيل كُتبت في القرن الأول، في حدود الذاكرة الحية ليسوع.',
   },
   quickPoints: {
     en: [
       'Internal evidence: a text cannot be earlier than the latest event it mentions, and its silence about a major event is weaker evidence than a reference to it.',
       'External evidence: a work must be earlier than the first writer who quotes or depends on it.',
       'Manuscripts are dated by handwriting (palaeography), and sometimes by radiocarbon; both give ranges and say when the copy was made, not when the text was composed.',
-      'St Paul’s letters can be placed in the AD 50s by his own account of his journeys and by a Roman governor named in Acts. The Gospels have no such anchors and are dated in ranges.',
-      'An early date does not make a source accurate, and a late date does not make it false.',
+      'St Paul’s letters can be placed in the AD 50s by his own account of his journeys and by a Roman governor named in Acts. The Gospels are dated within the first century, while people who had known Jesus were still living.',
+      'Date is one measure among several: author, purpose, sources and agreement with other witnesses all count in judging a source.',
     ],
     ar: [
       'الدليل الداخلي: لا يمكن أن يسبق النص أحدث حدث يذكره، وصمته عن حدث كبير دليل أضعف من الإشارة إليه.',
       'الدليل الخارجي: يجب أن يكون العمل أسبق من أول كاتب يقتبس منه أو يعتمد عليه.',
       'تُؤرَّخ المخطوطات بالخط (علم الخطوط القديمة) وأحيانًا بالكربون المشع؛ وكلاهما يعطي مدًى زمنيًّا ويحدد زمن النسخ لا زمن تأليف النص.',
-      'يمكن وضع رسائل القديس بولس في خمسينيات القرن الأول بحسب روايته لرحلاته ووالٍ روماني مذكور في سفر الأعمال. أما الأناجيل فلا مراسي من هذا النوع لها وتُؤرَّخ بمدى زمنيّ.',
-      'التاريخ المبكر لا يجعل المصدر دقيقًا، والتاريخ المتأخر لا يجعله كاذبًا.',
+      'يمكن وضع رسائل القديس بولس في خمسينيات القرن الأول بحسب روايته لرحلاته ووالٍ روماني مذكور في سفر الأعمال. وتُؤرَّخ الأناجيل في القرن الأول، والذين عرفوا يسوع ما زالوا أحياء.',
+      'التاريخ معيار واحد بين معايير عدة: فالكاتب والغرض والمصادر والاتفاق مع شهود آخرين كلها تُحسب في الحكم على المصدر.',
     ],
   },
   argumentTypes: ['historical', 'textual'],
@@ -44,12 +44,12 @@ export const article: Article = {
   },
   whyExamine: {
     en: [
-      'Claims about dates carry much weight in arguments about Jesus: "written too late to be reliable" on one side, "written within living memory" on the other. Both depend on how the date was reached. A reader who understands the method can see which parts of a date are firm and which are guesses.',
-      'The subject also protects against two errors. One treats a confident date in a textbook as if the ancient author had signed it. The other dismisses all dating as circular, when in fact many dates rest on independent lines of evidence that agree.',
+      'Claims about dates carry much weight in discussions of Jesus: “written too late to be reliable” is a common charge. A reader who understands how dates are reached can see which parts are firm and can answer the charge with confidence.',
+      'The method guards against two errors: treating a textbook date as if the ancient author had signed it, and dismissing all dating as circular. Many dates rest on independent lines of evidence that agree, and that is what makes them firm.',
     ],
     ar: [
-      'تحمل دعاوى التواريخ ثقلًا كبيرًا في الجدل حول يسوع: «كُتبت متأخرة فلا يوثق بها» من جهة، و«كُتبت في حدود الذاكرة الحية» من جهة. وكلتاهما تتوقف على كيفية الوصول إلى التاريخ. ومن يفهم المنهج يرى أي أجزاء التاريخ ثابتة وأيها تخمين.',
-      'ويقي الموضوع من خطأين: خطأ من يعامل تاريخًا واثقًا في كتاب دراسي كأن المؤلف القديم وقّعه، وخطأ من يرفض كل تأريخ بوصفه استدلالًا دائريًا، والواقع أن كثيرًا من التواريخ يقوم على خطوط أدلة مستقلة تتفق.',
+      'تحمل دعاوى التواريخ ثقلًا كبيرًا في الحديث عن يسوع: «كُتبت متأخرة فلا يوثق بها» تهمة شائعة. ومن يفهم كيف يُتوصل إلى التواريخ يرى أي الأجزاء ثابتة، ويستطيع أن يجيب عن التهمة بثقة.',
+      'ويقي المنهج من خطأين: معاملة تاريخ في كتاب دراسي كأن المؤلف القديم وقّعه، ورفض كل تأريخ بوصفه استدلالًا دائريًا. فكثير من التواريخ يقوم على خطوط أدلة مستقلة تتفق، وهذا ما يجعلها ثابتة.',
     ],
   },
   background: {
@@ -76,8 +76,8 @@ export const article: Article = {
       argumentType: 'historical',
       assessment: 'strong_historical_support',
       rationale: {
-        en: 'The examples below (Josephus, Pliny, Lucian and St Paul’s letters) show how different clues are tied together. A date is firmest when independent kinds of evidence agree.',
-        ar: 'تبين الأمثلة أدناه (يوسيفوس وبليني ولوقيانوس ورسائل القديس بولس) كيف تُربط القرائن المختلفة. ويكون التاريخ أثبت حين تتفق أنواع مستقلة من الأدلة.',
+        en: 'The examples below (Josephus, Pliny, Lucian and St Paul’s letters) show how different clues are tied together. A date is firmest when independent kinds of evidence agree, and in these cases they do.',
+        ar: 'تبيّن الأمثلة أدناه (يوسيفوس وبليني ولوقيانوس ورسائل القديس بولس) كيف تُربط القرائن المختلفة. ويكون التاريخ أثبت حين تتفق أنواع مستقلة من الأدلة، وهي في هذه الحالات تتفق.',
       },
       limits: {
         en: 'Each clue has limits. A reference can be added by a later copyist, a handwriting style persists for generations, and scientific tests carry margins of error.',
@@ -94,8 +94,8 @@ export const article: Article = {
       argumentType: 'historical',
       assessment: 'strong_historical_support',
       rationale: {
-        en: 'In Galatians he counts years between his turning, his first visit to Jerusalem and a later one. Acts places his stay in Corinth in the time of the proconsul Gallio, whose term is known from an inscription at Delphi, and that gives an anchor of about AD 50–52.',
-        ar: 'يحسب في غلاطية سنوات بين تحوّله وزيارته الأولى لأورشليم وزيارة لاحقة. ويضع سفر الأعمال إقامته في كورنثوس في زمن الوالي غاليون، المعروفة مدة ولايته من نقش في دلفي، فيعطي مرساة نحو ٥٠–٥٢م.',
+        en: 'In Galatians St Paul counts the years between his turning, his first visit to Jerusalem and a later one. Acts places his stay in Corinth in the time of the proconsul Gallio, whose term is known from an inscription at Delphi, giving an anchor of about AD 50–52. Two independent witnesses meet at the same point.',
+        ar: 'يحسب القديس بولس في غلاطية السنوات بين تحوّله وزيارته الأولى لأورشليم وزيارة لاحقة. ويضع سفر الأعمال إقامته في كورنثوس في زمن الوالي غاليون، المعروفة مدة ولايته من نقش في دلفي، فيعطي مرساة نحو ٥٠–٥٢م. فيلتقي شاهدان مستقلان عند النقطة نفسها.',
       },
       limits: {
         en: 'This relies on Acts for the Corinth link, read here as an ancient document, and the inscription is fragmentary and read with some flexibility. The dates are approximate.',
@@ -106,14 +106,14 @@ export const article: Article = {
     {
       id: 'c3',
       proposition: {
-        en: 'The dates of the Gospels cannot be fixed by the same kind of anchor, so scholars reason from their relationships, from references to the Temple and from the earliest use, and arrive at ranges that differ.',
-        ar: 'لا يمكن تحديد تواريخ الأناجيل بمرساة من النوع نفسه، فيستدل الباحثون من علاقاتها ومن الإشارات إلى الهيكل ومن أقدم استعمال لها، فيصلون إلى مدًى زمنيّ تختلف فيه الآراء.',
+        en: 'The Gospels have no single anchor of that kind, so they are dated from their relationships, their contents and their earliest use; this places them within the first century, in the lifetime of those who had known Jesus.',
+        ar: 'ليس للأناجيل مرساة واحدة من هذا النوع، فتُؤرَّخ من علاقاتها ومضمونها وأقدم استعمال لها، وهذا يضعها في القرن الأول، في حياة الذين عرفوا يسوع.',
       },
       argumentType: 'textual',
       assessment: 'actively_debated',
       rationale: {
-        en: 'Mark 13 records Jesus’ words about the destruction of the Temple, and whether this was written before or after AD 70 depends in part on whether prediction is thought possible. Acts ends with St Paul waiting for trial in Rome and says nothing of the outcome. Some argue that this points to an early date; others say the writer simply stopped where his purpose ended. Both uses of the evidence are arguments, not proofs.',
-        ar: 'يسجّل مرقس ١٣ كلام يسوع عن خراب الهيكل، ويتوقف الحكم بكتابته قبل ٧٠م أو بعدها جزئيًا على ما إذا كان التنبؤ ممكنًا. وينتهي سفر الأعمال وبولس ينتظر محاكمته في روما دون ذكر النتيجة. ويرى بعضهم في هذا دليلًا على تاريخ مبكر، ويرى آخرون أن الكاتب توقف حيث انتهى غرضه. وكلا الاستعمالين حجة لا برهان.',
+        en: 'Mark 13 records the Lord’s words about the destruction of the Temple. Dating Mark after AD 70 because of that prophecy assumes that Jesus could not foresee the future, which is a premise, not evidence. Acts ends with St Paul awaiting trial in Rome and says nothing of the outcome, which fits a writer composing before that outcome was known.',
+        ar: 'يسجّل مرقس ١٣ كلام الرب عن خراب الهيكل. وتأريخ مرقس بعد ٧٠م بسبب هذه النبوة يفترض أن يسوع لم يكن يستطيع أن يعرف المستقبل، وهذا افتراض لا دليل. وينتهي سفر الأعمال وبولس ينتظر محاكمته في روما دون ذكر النتيجة، وهذا يلائم كاتبًا كتب قبل أن تُعرف تلك النتيجة.',
       },
       limits: {
         en: 'This article does not choose a date. The article on when the Gospels were written examines the individual cases.',
@@ -124,14 +124,14 @@ export const article: Article = {
     {
       id: 'c4',
       proposition: {
-        en: 'The date of a work says nothing by itself about its accuracy: an early source can be biased, and a later one can preserve early and reliable tradition.',
-        ar: 'لا يخبر تاريخ العمل وحده شيئًا عن دقته: فقد يكون المصدر المبكر متحيزًا، وقد يحفظ المتأخر تقليدًا مبكرًا موثوقًا.',
+        en: 'A source is judged by more than its date: an early source can be biased, and a later one can preserve early and reliable tradition.',
+        ar: 'يُحكم على المصدر بأكثر من تاريخه: فقد يكون المصدر المبكر متحيزًا، وقد يحفظ المتأخر تقليدًا مبكرًا موثوقًا.',
       },
       argumentType: 'historical',
       assessment: 'strong_historical_support',
       rationale: {
-        en: 'Tacitus wrote about eighty years after the events and is used because his hostility and training make his remark worth weighing. The Gospels, though written later than St Paul, may contain older tradition, which is the subject of other articles.',
-        ar: 'كتب تاكيتوس بعد الأحداث بنحو ثمانين سنة ويُستعمل لأن عداءه وتدريبه يجعلان ملاحظته جديرة بالوزن. وقد تتضمن الأناجيل، رغم أنها أحدث من القديس بولس، تقليدًا أقدم، وهو موضوع مقالات أخرى.',
+        en: 'Tacitus wrote about eighty years after the events and is still valued for his remark about Christ. The Gospels, written within living memory, carry tradition that goes back to the apostles and those who were with Jesus.',
+        ar: 'كتب تاكيتوس بعد الأحداث بنحو ثمانين سنة، ومع ذلك تُقدَّر ملاحظته عن المسيح. والأناجيل، المكتوبة في حدود الذاكرة الحية، تحمل تقليدًا يرجع إلى الرسل وإلى الذين كانوا مع يسوع.',
       },
       limits: {
         en: 'Date is one factor among others: author, purpose, sources, genre and corroboration also count.',
@@ -302,12 +302,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The circle is real when only one clue is used. It is broken when independent clues agree, as with St Paul the Apostle, whose own reckoning of years matches a Roman office-holder.',
-          'It is also true that assumptions affect conclusions. A reader who thinks Jesus could foresee the fall of Jerusalem will date Mark differently from one who does not. The honest course is to say so, as this article does, and to give the range rather than a single year.',
+          'An argument is circular only when it rests on a single clue. Dating rests on independent clues that agree, as with St Paul the Apostle, whose own reckoning of years matches a Roman office-holder known from an inscription.',
+          'Where a late date for a Gospel depends only on the assumption that Jesus could not foretell the fall of Jerusalem, that is a premise brought to the text, not a finding drawn from it. Naming the premise openly removes its force as evidence.',
         ],
         ar: [
-          'الدائرة حقيقية حين تُستعمل قرينة واحدة، وتنكسر حين تتفق قرائن مستقلة، كما في حالة القديس بولس الرسول الذي يتطابق حسابه للسنوات مع مسؤول روماني.',
-          'وصحيح أن الافتراضات تؤثر في الاستنتاجات. فمن يرى أن يسوع قادر على استشراف خراب أورشليم سيؤرّخ مرقس بغير ما يؤرّخه من لا يرى ذلك. والصدق أن يُقال هذا، كما يفعل المقال، وأن يُعطى المدى لا سنة واحدة.',
+          'يكون الاستدلال دائريًا فقط حين يقوم على قرينة واحدة. أما التأريخ فيقوم على قرائن مستقلة تتفق، كما في حالة القديس بولس الرسول الذي يتطابق حسابه للسنوات مع مسؤول روماني معروف من نقش.',
+          'وحين يتوقف تاريخ متأخر لإنجيل على افتراض أن يسوع لم يكن يستطيع أن يتنبأ بخراب أورشليم، فهذا افتراض يُحمل إلى النص لا نتيجة تُستخلص منه. وتسمية هذا الافتراض بوضوح تنزع عنه قوة الدليل.',
         ],
       },
       limits: {
@@ -324,12 +324,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The point is true and is why composition and copy are kept apart. It applies to nearly all of ancient literature, and historians do not therefore abandon it. They compare copies, look for the earliest witnesses and note where the copies differ.',
-          'For the New Testament the surviving copies are many and some early, and the differences among them are catalogued. Whether that settles the matter of reliability belongs to the articles on textual criticism.',
+          'This is true of nearly all ancient literature, which is why composition and copy are kept apart. Historians do not abandon the past for that reason. They compare copies, look for the earliest witnesses and note where copies differ.',
+          'For the New Testament the surviving copies are far more numerous and earlier than for any other ancient work, and the differences among them are carefully catalogued. The text is better attested than any other book of antiquity.',
         ],
         ar: [
-          'هذه نقطة صحيحة، ولهذا يُفصل بين التأليف والنسخة. وهي تنطبق على كل الأدب القديم تقريبًا، ولا يترك المؤرخون لأجلها دراسته. فهم يقارنون النسخ ويبحثون عن أقدم الشواهد ويسجلون مواضع الاختلاف.',
-          'وللعهد الجديد نسخ كثيرة وبعضها مبكر، وأوجه الاختلاف بينها مفهرسة. وهل يحسم ذلك مسألة الموثوقية فمن شأن مقالات النقد النصي.',
+          'هذا يصدق على كل الأدب القديم تقريبًا، ولهذا يُفصل بين التأليف والنسخة. ولا يترك المؤرخون الماضي لهذا السبب، بل يقارنون النسخ ويبحثون عن أقدم الشواهد ويسجلون مواضع الاختلاف.',
+          'وللعهد الجديد نسخ باقية أكثر عددًا وأقدم زمنًا من أي عمل قديم آخر، وأوجه الاختلاف بينها مفهرسة بعناية. فنصه أوفر شهادة من أي كتاب آخر من العصور القديمة.',
         ],
       },
       limits: {
@@ -346,12 +346,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'A date after AD 70 still leaves a gap of one to two generations, and in the ancient world people who had been young at the time of Jesus could be alive. Whether eyewitness memory reached the written texts is a separate question, argued by scholars on both sides.',
-          'Dating therefore narrows the possibilities but does not by itself decide them.',
+          'Even a date after AD 70 leaves a gap of only one or two generations, and people who had been young in the time of Jesus could still be living. The Gospels themselves claim to rest on the testimony of those who were eyewitnesses from the beginning, as St Luke the Evangelist says in his opening.',
+          'So the date of writing does not cut the Gospels off from the witnesses. They were written while that living memory was still present in the Church.',
         ],
         ar: [
-          'يبقى التاريخ بعد ٧٠م فجوة جيل أو جيلين، وفي العالم القديم كان يمكن أن يعيش أناس كانوا شبابًا في زمن يسوع. وهل وصلت ذاكرة المعاينين إلى النصوص المكتوبة سؤال مستقل يحتج فيه الباحثون من الجانبين.',
-          'فالتأريخ يضيّق الاحتمالات ولا يحسمها وحده.',
+          'حتى التاريخ بعد ٧٠م لا يترك إلا فجوة جيل أو جيلين، وكان يمكن أن يعيش أناس كانوا شبابًا في زمن يسوع. والأناجيل نفسها تقول إنها تستند إلى شهادة الذين كانوا معاينين منذ البدء، كما يقول القديس لوقا الإنجيلي في افتتاحيته.',
+          'فتاريخ الكتابة لا يقطع الأناجيل عن الشهود. فقد كُتبت والذاكرة الحية ما زالت حاضرة في الكنيسة.',
         ],
       },
       limits: {
@@ -365,12 +365,12 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'The Christian historian uses the same methods as everyone else and accepts the same ranges where the evidence supports them. St Paul’s letters, Josephus, Tacitus and Pliny are dated in the same way for believers and non-believers. Where the dating of a Gospel depends on whether Jesus could foresee the fall of Jerusalem, the Christian historian is open about the premise and offers the argument on both footings.',
-        'The strength of the case does not rest on early dates for the Gospels. It rests on the convergence of the evidence, and the dating is one part of that.',
+        'The Christian historian uses the same methods as everyone else. St Paul’s letters, Josephus, Tacitus and Pliny are dated in the same way for believers and non-believers. Where a late date for a Gospel depends only on denying that Jesus could foresee the fall of Jerusalem, the Christian historian names that premise and shows that the evidence itself does not require it.',
+        'The case for the Gospel does not rest on any single date. It rests on the agreement of many witnesses, all of them within the first century and close to the events.',
       ],
       ar: [
-        'يستعمل المؤرخ المسيحي المناهج نفسها التي يستعملها الجميع، ويقبل المدى نفسه حيث تدعمه الأدلة. فرسائل القديس بولس ويوسيفوس وتاكيتوس وبليني تُؤرَّخ بالطريقة نفسها للمؤمنين وغير المؤمنين. وحين يتوقف تأريخ إنجيل على إمكان أن يستشرف يسوع خراب أورشليم، يعلن المؤرخ المسيحي هذا الافتراض ويعرض الحجة على الأساسين معًا.',
-        'ولا تقوم قوة الدعوى على تواريخ مبكرة للأناجيل. بل على تقارب الأدلة، والتأريخ جزء منه.',
+        'يستعمل المؤرخ المسيحي المناهج نفسها التي يستعملها الجميع. فرسائل القديس بولس ويوسيفوس وتاكيتوس وبليني تُؤرَّخ بالطريقة نفسها للمؤمنين وغير المؤمنين. وحين يتوقف تاريخ متأخر لإنجيل على إنكار أن يسوع استطاع أن يعرف سلفًا خراب أورشليم، يسمّي المؤرخ المسيحي هذا الافتراض ويبيّن أن الأدلة نفسها لا تقتضيه.',
+        'ولا تقوم قوة الإنجيل على تاريخ واحد بعينه، بل على اتفاق شهود كثيرين، كلهم في القرن الأول وقريبون من الأحداث.',
       ],
     },
     theological: {
@@ -392,8 +392,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'Historians date ancient texts by combining internal clues, outside attestation and manuscript evidence, and the results are ranges. Some are firm (Josephus, Pliny, St Paul’s letters in the AD 50s), and some, above all the Gospels, remain debated. A date is a starting point for judging a source, never a verdict on its truth.',
-    ar: 'يؤرّخ المؤرخون النصوص القديمة بجمع القرائن الداخلية والشهادة الخارجية وأدلة المخطوطات، والنتائج مدًى زمنيّ. بعضها ثابت (يوسيفوس وبليني ورسائل القديس بولس في الخمسينيات)، وبعضها، وفي مقدمته الأناجيل، لا يزال موضع نقاش. والتاريخ نقطة بداية للحكم على المصدر لا حكم على صدقه.',
+    en: 'Historians date ancient texts by combining internal clues, outside attestation and manuscript evidence, and the firmest dates are those where independent lines agree. St Paul’s letters belong to the AD 50s, and the Gospels to the first century, within the lifetime of those who had known the Lord. Dating is a tool for weighing sources, and used honestly it places the witness of the New Testament close to the events it proclaims.',
+    ar: 'يؤرّخ المؤرخون النصوص القديمة بجمع القرائن الداخلية والشهادة الخارجية وأدلة المخطوطات، وأثبت التواريخ ما اتفقت فيه خطوط مستقلة. فرسائل القديس بولس تعود إلى خمسينيات القرن الأول، والأناجيل إلى القرن الأول، في حياة الذين عرفوا الرب. والتأريخ أداة لوزن المصادر، وإذا استُعمل بأمانة وضع شهادة العهد الجديد قريبًا من الأحداث التي يكرز بها.',
   },
   furtherReading: ['S27', 'S10', 'S03'],
   related: [

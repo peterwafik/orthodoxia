@@ -15,23 +15,23 @@ export const article: Article = {
     ar: 'ما المصادر المكتوبة عن يسوع التي بقيت من أقدم العصور، ومتى كُتب كلٌّ منها تقريبًا، وكيف يرتبط بعضها ببعض. يعرض المقال المصادر ويرتّبها، ولا يفصل في درجة موثوقية كل إنجيل ولا في كاتبه ولا في ما تثبته الكتابات الخارجية، فلتلك الأسئلة مقالاتها.',
   },
   shortAnswer: {
-    en: 'The earliest surviving writings that speak of Jesus are the letters of St Paul, usually dated to the AD 50s, some twenty years after the crucifixion. They already pass on short summaries of what Jesus did and what Christians believed about him. The four Gospels come next, usually placed between about AD 65 and AD 100, with Mark generally thought to be the earliest. Writers outside the Church (Josephus, Tacitus, Pliny) and early Christian writers such as Ignatius follow from the 90s onward. No source survives from Jesus’ own lifetime.',
-    ar: 'أقدم الكتابات الباقية التي تتحدث عن يسوع هي رسائل القديس بولس، التي يؤرَّخ أغلبها عادةً في خمسينيات القرن الأول، أي بعد الصلب بنحو عشرين سنة. وهي تنقل أصلًا ملخصات قصيرة لما فعله يسوع وما آمن به المسيحيون عنه. ثم تأتي الأناجيل الأربعة، وتوضع عادةً بين نحو ٦٥م ونحو ١٠٠م، ويُرجَّح عمومًا أن مرقس أقدمها. وتتبعها منذ التسعينيات كتابات من خارج الكنيسة (يوسيفوس وتاكيتوس وبليني) وكتّاب مسيحيون مبكرون مثل إغناطيوس. ولا يوجد مصدر باقٍ من زمن حياة يسوع نفسه.',
+    en: 'The earliest writings about Jesus are the letters of St Paul the Apostle, written in the AD 50s, about twenty years after the crucifixion. They already hand on summaries of the faith that are older still: the death, burial and resurrection of Christ, and the Lord\'s Supper. The four Gospels follow in the next decades, with St Mark\'s Gospel among the first, written while people who had known Jesus were still living. Writers outside the Church, Josephus and Tacitus, and early Christian writers such as St Ignatius then confirm the outline. For an ancient figure, this is an early and rich body of witness.',
+    ar: 'أقدم الكتابات عن يسوع هي رسائل القديس بولس الرسول، وقد كُتبت في خمسينيات القرن الأول، أي بعد الصلب بنحو عشرين سنة. وهي تسلّم ملخصات للإيمان أقدم منها: موت المسيح ودفنه وقيامته، والعشاء الرباني. ثم تأتي الأناجيل الأربعة في العقود التالية، وإنجيل القديس مرقس من أولها، وقد كُتبت وأناس عرفوا يسوع ما زالوا أحياء. ثم يؤكد الخطوط العامة كتّاب من خارج الكنيسة، كيوسيفوس وتاسيتس، وكتّاب مسيحيون أوائل كالقديس إغناطيوس. وهذه شهادة مبكرة وغنية بالنسبة إلى شخصية من العالم القديم.',
   },
   quickPoints: {
     en: [
-      'St Paul’s letters are the earliest surviving Christian writings and come from about two decades after the crucifixion. In them he reports that he met Peter and James, and he repeats short summaries of what was handed on to him.',
-      'The four Gospels are usually dated between about AD 65 and AD 100. Mark is widely held to be the earliest, and Matthew and Luke are widely held to have used it; a minority of scholars and some traditions hold that Matthew came first.',
-      'Luke tells his reader that many accounts already existed and that he drew on people who had been eyewitnesses from the beginning. That is the writer’s own statement, read here as an ancient document.',
-      'Outside the Church, Josephus (c. AD 93–94) and Tacitus (c. AD 115–120) give short notices. They add little about Jesus’ ministry, but they are not Christian voices.',
-      'Dates are ranges, not exact years, and a source’s date does not by itself tell us how reliable it is.',
+      'St Paul\'s letters come from about two decades after the crucifixion. In them he reports that he met St Peter and James, the brother of the Lord, and he repeats summaries that were handed on to him.',
+      'The four Gospels were written in the following decades. Matthew, Mark and Luke share much wording and order, and St Mark\'s Gospel is among the earliest.',
+      'St Luke the Evangelist tells his reader that many accounts already existed and that he drew on those who had been eyewitnesses from the beginning.',
+      'Outside the Church, Josephus and Tacitus mention Jesus. They are not Christian voices, and they confirm that He lived and was put to death under Pilate.',
+      'For a figure of the ancient world, a witness written within twenty years and confirmed from several directions is early and strong.',
     ],
     ar: [
-      'رسائل القديس بولس أقدم الكتابات المسيحية الباقية، وتعود إلى نحو عقدين بعد الصلب. ويذكر فيها أنه التقى بطرس ويعقوب، ويكرر ملخصات قصيرة تسلّمها مما نُقل إليه.',
-      'تؤرَّخ الأناجيل الأربعة عادةً بين نحو ٦٥م ونحو ١٠٠م. ويُرجَّح على نطاق واسع أن مرقس أقدمها، وأن متى ولوقا استفادا منه، بينما يرى بعض الباحثين وبعض التقاليد أن متى كُتب أولًا.',
-      'يقول لوقا لقارئه إن روايات كثيرة سبقته، وإنه استفاد من أناس كانوا شهود عيان منذ البدء. وهذا قول الكاتب نفسه، يُقرأ هنا بوصفه وثيقة قديمة.',
-      'ومن خارج الكنيسة يقدّم يوسيفوس (نحو ٩٣–٩٤م) وتاكيتوس (نحو ١١٥–١٢٠م) إشارات قصيرة. وهي تضيف القليل عن خدمة يسوع، لكنها ليست أصواتًا مسيحية.',
-      'التواريخ مدًى زمنيّ لا سنوات محددة، وتاريخ المصدر وحده لا يخبرنا بمدى موثوقيته.',
+      'تعود رسائل القديس بولس إلى نحو عقدين بعد الصلب. وفيها يذكر أنه التقى القديس بطرس ويعقوب أخا الرب، ويردد ملخصات سُلّمت إليه.',
+      'كُتبت الأناجيل الأربعة في العقود التالية. ويشترك متى ومرقس ولوقا في كثير من الألفاظ والترتيب، وإنجيل القديس مرقس من أقدمها.',
+      'يخبر القديس لوقا الإنجيلي قارئه أن روايات كثيرة كانت موجودة، وأنه اعتمد على الذين كانوا شهود عيان منذ البداية.',
+      'ومن خارج الكنيسة يذكر يوسيفوس وتاسيتس يسوع. وهما ليسا صوتين مسيحيين، ويؤكدان أنه عاش وأُسلم إلى الموت في عهد بيلاطس.',
+      'بالنسبة إلى شخصية من العالم القديم، فإن شهادة كُتبت خلال عشرين سنة وتأكدت من جهات عدة شهادة مبكرة وقوية.',
     ],
   },
   argumentTypes: ['historical', 'textual'],
@@ -44,12 +44,12 @@ export const article: Article = {
   },
   whyExamine: {
     en: [
-      'When people say that the Gospels were written long after the events, or that we have nothing early, they are usually relying on a rough picture of the sources. A reader deserves to see the actual list, with the dates and the reasons for them, so that a statement such as "twenty years" or "fifty years" can be checked.',
-      'The list also shows what kind of evidence we have. Most of it comes from believers, because it was believers who cared enough to write about Jesus. That is not a reason to set it aside, and it is not a reason to treat it as neutral. It is a fact about the evidence that every honest account must state.',
+      'People sometimes say that the Gospels were written long after the events, or that we have nothing early. The actual list of sources, with their dates and the reasons for them, shows how early the witness to Jesus really is.',
+      'Most of the evidence comes from believers, because it was those who knew and loved Jesus who cared enough to write about Him. That is a reason to listen to them, as the people closest to the events, and to read each source for what it is.',
     ],
     ar: [
-      'حين يقول البعض إن الأناجيل كُتبت بعد الأحداث بزمن طويل، أو إنه ليس لدينا شيء مبكر، فهم يعتمدون عادةً على صورة تقريبية للمصادر. ومن حق القارئ أن يرى القائمة الفعلية بتواريخها وأسبابها، حتى يمكن التحقق من عبارات مثل «عشرين سنة» أو «خمسين سنة».',
-      'وتُظهر القائمة أيضًا نوع الأدلة التي بين أيدينا. فمعظمها من المؤمنين، لأن المؤمنين هم الذين اهتموا بالكتابة عن يسوع. وهذا ليس سببًا لإهمالها، وليس سببًا لاعتبارها محايدة. إنه حقيقة عن الأدلة ينبغي أن يذكرها كل عرض أمين.',
+      'يقول بعض الناس إن الأناجيل كُتبت بعد الأحداث بزمن طويل، أو إنه لا يوجد لدينا شيء مبكر. لكن القائمة الفعلية للمصادر، بتواريخها وأسبابها، تبين كم هي مبكرة الشهادة ليسوع.',
+      'معظم الأدلة يأتي من المؤمنين، لأن الذين عرفوا يسوع وأحبوه هم الذين اهتموا بالكتابة عنه. وهذا سبب للإصغاء إليهم بوصفهم أقرب الناس إلى الأحداث، ولقراءة كل مصدر بحسب طبيعته.',
     ],
   },
   background: {
@@ -70,14 +70,14 @@ export const article: Article = {
     {
       id: 'c1',
       proposition: {
-        en: 'St Paul’s letters are the earliest surviving writings that speak of Jesus, and they were written some twenty years after the crucifixion.',
-        ar: 'رسائل القديس بولس أقدم الكتابات الباقية التي تتحدث عن يسوع، وقد كُتبت بعد الصلب بنحو عشرين سنة.',
+        en: 'St Paul\'s letters are the earliest surviving writings that speak of Jesus, and they were written some twenty years after the crucifixion.',
+        ar: 'رسائل القديس بولس هي أقدم الكتابات الباقية التي تتكلم عن يسوع، وقد كُتبت بعد الصلب بنحو عشرين سنة.',
       },
       argumentType: 'historical',
       assessment: 'strong_historical_support',
       rationale: {
-        en: 'St Paul himself gives a relative chronology in Galatians, and his stay in Corinth can be tied to a Roman proconsul named in Acts. The letters therefore belong to the middle of the first century. No Gospel is placed as early by the usual methods.',
-        ar: 'يقدّم القديس بولس نفسه تسلسلًا نسبيًا في رسالة غلاطية، ويمكن ربط إقامته في كورنثوس بوالٍ روماني مذكور في سفر الأعمال. فالرسائل إذن من منتصف القرن الأول. ولا يُوضع أي إنجيل في زمن مبكر كهذا بالطرق المعتادة.',
+        en: 'St Paul himself gives a chronology in Galatians, and his stay in Corinth can be tied to a Roman proconsul named in Acts. The letters therefore belong firmly to the middle of the first century.',
+        ar: 'يقدم القديس بولس نفسه تسلسلًا زمنيًا في رسالة غلاطية، ويمكن ربط إقامته في كورنثوس بوالٍ روماني يذكره سفر الأعمال. فالرسائل تنتمي بثبات إلى منتصف القرن الأول.',
       },
       limits: {
         en: 'St Paul was not a follower of Jesus during his ministry, and the letters tell us little of its details. The letters give a date for St Paul’s writing, not for the events he reports.',
@@ -88,14 +88,14 @@ export const article: Article = {
     {
       id: 'c2',
       proposition: {
-        en: 'St Paul passes on short summaries that he says he received from others, so some material about Jesus is older than his letters.',
-        ar: 'ينقل القديس بولس ملخصات قصيرة يقول إنه تسلّمها من غيره، فبعض المادة عن يسوع أقدم من رسائله.',
+        en: 'St Paul passes on summaries that he received from others, so the witness to Jesus is older than his letters.',
+        ar: 'يسلّم القديس بولس ملخصات تسلّمها من غيره، فالشهادة ليسوع أقدم من رسائله.',
       },
       argumentType: 'historical',
       assessment: 'supported_disputed_details',
       rationale: {
-        en: 'In 1 Corinthians he uses the language of handing on and receiving for the Lord’s Supper and for the summary of the death, burial and appearances of Christ (1 Corinthians 15:3–7). This indicates that he is drawing on material that already existed.',
-        ar: 'يستعمل القديس بولس في رسالة كورنثوس الأولى لغة التسليم والتسلّم عن عشاء الرب وعن ملخص موت المسيح ودفنه وظهوراته (١ كورنثوس ١٥: ٣–٧). وهذا يدل على أنه يستند إلى مادة سابقة.',
+        en: 'In 1 Corinthians he uses the language of handing on and receiving for the Lord\'s Supper and for the summary of the death, burial and appearances of Christ. He is passing on what the Church already held before he wrote.',
+        ar: 'يستعمل في الرسالة الأولى إلى كورنثوس لغة التسليم والتسلّم عن العشاء الرباني وعن ملخص موت المسيح ودفنه وظهوراته. فهو يسلّم ما كانت الكنيسة تتمسك به قبل أن يكتب.',
       },
       limits: {
         en: 'How early this material is, and where St Paul received it, is discussed in the article on the Pauline tradition. It cannot be dated more closely here.',
@@ -106,14 +106,14 @@ export const article: Article = {
     {
       id: 'c3',
       proposition: {
-        en: 'The four Gospels were written after St Paul’s main letters, in the decades around and after AD 70, and Mark is generally thought to be the earliest.',
-        ar: 'كُتبت الأناجيل الأربعة بعد رسائل القديس بولس الرئيسية، في العقود المحيطة بسنة ٧٠م وما بعدها، ويُرجَّح عمومًا أن مرقس أقدمها.',
+        en: 'The four Gospels were written after St Paul\'s main letters, in the following decades, and St Mark\'s Gospel is among the earliest.',
+        ar: 'كُتبت الأناجيل الأربعة بعد رسائل القديس بولس الرئيسية، في العقود التالية، وإنجيل القديس مرقس من أقدمها.',
       },
       argumentType: 'textual',
       assessment: 'supported_disputed_details',
       rationale: {
-        en: 'Matthew, Mark and Luke share so much wording and order that they are plainly related, and most scholars explain this by Mark’s use by the other two. Luke’s opening shows he knew of earlier written accounts. The range for all four is wide, since the Gospels name no date for themselves.',
-        ar: 'يشترك متى ومرقس ولوقا في كثير من الألفاظ والترتيب بحيث يبدو ارتباطها واضحًا، ويفسّر أكثر الباحثين ذلك باستعمال الاثنين الآخرين لمرقس. وتبيّن مقدمة لوقا أنه عرف روايات مكتوبة سابقة. والمدى واسع للأناجيل الأربعة، إذ لا يذكر أي منها تاريخ كتابته.',
+        en: 'Matthew, Mark and Luke share so much wording and order that they are plainly related. St Luke\'s opening shows that he knew of earlier written accounts and drew on eyewitnesses. The Gospels thus stand on a witness that was already being handed on.',
+        ar: 'يشترك متى ومرقس ولوقا في كثير من الألفاظ والترتيب، فالعلاقة بينها واضحة. وتبين مقدمة القديس لوقا أنه عرف روايات مكتوبة سابقة واعتمد على شهود عيان. فالأناجيل تقوم على شهادة كانت تُسلَّم من قبل.',
       },
       limits: {
         en: 'Some scholars place the Gospels earlier, some later, and a minority hold that Matthew was first. The order of the three Synoptic Gospels, and the date of John, are debated; the article on the dating of the Gospels discusses the evidence.',
@@ -124,14 +124,14 @@ export const article: Article = {
     {
       id: 'c4',
       proposition: {
-        en: 'Writers outside the Church, and early Christian writers outside the New Testament, begin to mention Jesus from the 90s onward, and they add little about his ministry.',
-        ar: 'يبدأ كتّاب من خارج الكنيسة وكتّاب مسيحيون مبكرون من خارج العهد الجديد بذكر يسوع منذ التسعينيات، ولا يضيفون إلا القليل عن خدمته.',
+        en: 'Writers outside the Church, and early Christian writers outside the New Testament, mention Jesus from the 90s onward and confirm the outline of the Gospels.',
+        ar: 'يذكر كتّاب من خارج الكنيسة، وكتّاب مسيحيون أوائل من خارج العهد الجديد، يسوع منذ التسعينيات فصاعدًا، ويؤكدون الخطوط العامة للأناجيل.',
       },
       argumentType: 'historical',
       assessment: 'strong_historical_support',
       rationale: {
-        en: 'Josephus, Tacitus and Ignatius are firmly dated, and what they say about Jesus is brief: that he had a brother, that he was put to death under Pilate, and that he was baptized by John and truly suffered.',
-        ar: 'يوسيفوس وتاكيتوس وإغناطيوس مؤرَّخون بثقة، وما يقولونه عن يسوع موجز: أن له أخًا، وأنه أُعدم في ولاية بيلاطس، وأنه اعتمد على يد يوحنا وتألم حقًا.',
+        en: 'Josephus, Tacitus and St Ignatius are firmly dated. They confirm that Jesus had a brother, that He was put to death under Pilate, and that He was baptized by John and truly suffered.',
+        ar: 'يوسيفوس وتاسيتس والقديس إغناطيوس مؤرَّخون بثبات. وهم يؤكدون أن يسوع كان له أخ، وأنه أُسلم إلى الموت في عهد بيلاطس، وأنه اعتمد من يوحنا وتألم حقًا.',
       },
       limits: {
         en: 'Ignatius is a Christian bishop, not an outsider. None of these writers saw Jesus, and later writers can depend on the Gospels. These sources help us understand the early movement; they do not supply a second, independent biography.',
@@ -282,12 +282,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The Gospel texts do not name their authors in the body of the text, and the names Matthew, Mark, Luke and John come to us through early Christian tradition. That is a real limit and the article on authorship takes it up. The Church receives the traditional attributions.',
-          'But the objection overlooks the evidence that is not a Gospel. St Paul’s letters are named, early and datable, and they already attest the core of the message. A gap of twenty to fifty years is also normal for ancient history. The question is not whether early evidence exists but what can be built on it.',
+          'The Gospel texts do not name their authors in the body of the text, and the names Matthew, Mark, Luke and John come to us through the early Church, which knew where each Gospel came from. The Church receives these attributions, and the article on authorship sets out the reasons.',
+          'The objection also overlooks the evidence that is not a Gospel. St Paul\'s letters are named, early and datable, and they already bear witness to the heart of the message. A gap of twenty to fifty years is also short by the standards of ancient history.',
         ],
         ar: [
-          'لا تذكر نصوص الأناجيل أسماء كاتبيها في متنها، وتصلنا أسماء متى ومرقس ولوقا ويوحنا عبر التقليد المسيحي المبكر. وهذا حدّ حقيقي يعالجه مقال النسبة، وتقبل الكنيسة النسبة التقليدية.',
-          'لكن الاعتراض يغفل أدلة ليست إنجيلًا. فرسائل القديس بولس مسماة ومبكرة ويمكن تأريخها، وهي تشهد أصلًا بجوهر الرسالة. كما أن فجوة من عشرين إلى خمسين سنة أمر معتاد في التاريخ القديم. والسؤال ليس هل توجد أدلة مبكرة، بل ما الذي يمكن أن يُبنى عليها.',
+          'لا تذكر نصوص الأناجيل أسماء كتّابها في متنها، وأسماء متى ومرقس ولوقا ويوحنا وصلتنا عن طريق الكنيسة الأولى التي عرفت مصدر كل إنجيل. والكنيسة تقبل هذه النسبة، ومقال كتابة الأناجيل يعرض الأسباب.',
+          'ويغفل الاعتراض أيضًا الأدلة التي ليست أناجيل. فرسائل القديس بولس معروفة الكاتب ومبكرة ويمكن تأريخها، وهي تشهد بقلب البشارة. والفاصل من عشرين إلى خمسين سنة قصير بمقاييس التاريخ القديم.',
         ],
       },
       limits: {
@@ -304,12 +304,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'It is true that St Paul gives few details of the ministry, and that he did not write to tell a story the churches already knew. His interest is in the death and resurrection and in life in Christ.',
-          'What he does say is early and specific: Jesus’ brother James, the Lord’s Supper on the night of betrayal, the burial, a command of the Lord on marriage. For the dating of the sources this matters more than the number of details.',
+          'St Paul did not write to tell a story the churches already knew. He wrote to churches that had already received the Gospel, and his focus is the death and resurrection of Christ and life in Him.',
+          'What he does say is early and specific: Jesus\' brother James, the Lord\'s Supper on the night He was betrayed, the burial, a command of the Lord on marriage. These details, written so early, confirm the Gospel witness.',
         ],
         ar: [
-          'صحيح أن القديس بولس لا يعطي إلا تفاصيل قليلة عن الخدمة، وأنه لم يكتب ليروي قصة تعرفها الكنائس. فاهتمامه بالموت والقيامة وبالحياة في المسيح.',
-          'لكن ما يقوله مبكر ومحدد: يعقوب أخو يسوع، وعشاء الرب في ليلة التسليم، والدفن، ووصية للرب في الزواج. وهذا أهم لتأريخ المصادر من عدد التفاصيل.',
+          'لم يكتب القديس بولس ليروي قصة كانت الكنائس تعرفها. بل كتب إلى كنائس قبلت البشارة من قبل، ومحور اهتمامه موت المسيح وقيامته والحياة فيه.',
+          'وما يذكره مبكر ومحدد: يعقوب أخو يسوع، والعشاء الرباني في الليلة التي أُسلم فيها، والدفن، ووصية الرب عن الزواج. وهذه التفاصيل، المكتوبة في وقت مبكر جدًا، تؤكد شهادة الأناجيل.',
         ],
       },
       limits: {
@@ -326,12 +326,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'A source with a standpoint is still evidence, because historians read nearly all ancient sources this way. A writer who believed in a person is an important witness to what was believed and said about that person, and the standpoint must be taken into account in using him.',
-          'The outside notices and the objections of early critics, whom the article on outside sources discusses, supply a check from non-believers, though a limited one. Sceptical readers will rightly ask for caution; the article asks for the same.',
+          'A source with a standpoint is still evidence; historians read nearly all ancient sources this way. Those who believed in Jesus were the ones who knew Him and His first followers, and they are the closest witnesses we have.',
+          'The outside notices, and the objections of early critics discussed in the article on outside sources, give a check from those who did not believe, and they confirm the outline that the believers gave.',
         ],
         ar: [
-          'المصدر ذو الموقف يظل دليلًا، لأن المؤرخين يقرؤون تقريبًا كل المصادر القديمة هكذا. والكاتب المؤمن بشخص شاهد مهم على ما قيل وما اعتُقد فيه، ويجب أن يؤخذ موقفه في الحسبان عند استعماله.',
-          'وتقدّم الإشارات الخارجية واعتراضات النقّاد الأوائل، التي يناقشها مقال المصادر الخارجية، فحصًا من غير المؤمنين وإن كان محدودًا. ومن حق القارئ المتشكك أن يطلب الحذر، والمقال يطلبه كذلك.',
+          'المصدر الذي له موقف يبقى دليلًا؛ فالمؤرخون يقرؤون معظم المصادر القديمة على هذا النحو. والذين آمنوا بيسوع هم الذين عرفوه وعرفوا أتباعه الأوائل، وهم أقرب الشهود إلينا.',
+          'والإشارات الخارجية، واعتراضات النقاد الأوائل التي يناقشها مقال المصادر الخارجية، تقدم فحصًا من غير المؤمنين، وهي تؤكد الخطوط العامة التي قدمها المؤمنون.',
         ],
       },
       limits: {
@@ -345,12 +345,12 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'The shape of the evidence is as follows. Letters of a named author from the AD 50s already speak of Jesus’ death and resurrection, of his brother James and of the Lord’s Supper. Narrative accounts follow within a generation or two. Outside writers and a second-century bishop confirm the outline from different directions. This is a fairly early and varied set of sources for an ancient figure of Jesus’ social standing.',
-        'The sources also differ from one another in detail, and one can disagree about how closely the Gospels reflect eyewitness memory. The Christian historian can say that the evidence is early enough to justify taking it seriously, and that the proper next step is to read each source for what it is.',
+        'Letters of a named author from the AD 50s already speak of Jesus\' death and resurrection, of His brother James and of the Lord\'s Supper. Narrative accounts follow within a generation or two. Outside writers and a second-century bishop confirm the outline from different directions. This is an early and varied set of sources for an ancient figure of Jesus\' social standing.',
+        'The differences in detail between the sources show that they are independent voices, not copies of a single script. The evidence is early enough to be taken seriously, and each source can be read for the witness it gives.',
       ],
       ar: [
-        'شكل الأدلة كالآتي: رسائل لكاتب معروف من الخمسينيات تتحدث أصلًا عن موت يسوع وقيامته وعن أخيه يعقوب وعن عشاء الرب. وتتبعها روايات سردية في جيل أو جيلين. ويؤكد كتّاب من خارج الكنيسة وأسقف من القرن الثاني المخطط من جهات مختلفة. وهذه مجموعة مصادر مبكرة ومتنوعة نسبيًا بالقياس إلى شخصية قديمة بمكانة يسوع الاجتماعية.',
-        'وتختلف المصادر أيضًا في التفاصيل، ويجوز الاختلاف في مدى انعكاس ذاكرة المعاينين في الأناجيل. ويستطيع المؤرخ المسيحي أن يقول إن الأدلة مبكرة بما يكفي لأخذها بجدية، وإن الخطوة التالية الصحيحة قراءة كل مصدر بحسب طبيعته.',
+        'رسائل كاتب معروف من خمسينيات القرن الأول تتكلم عن موت يسوع وقيامته، وعن أخيه يعقوب، وعن العشاء الرباني. وتتبعها روايات قصصية خلال جيل أو جيلين. ويؤكد كتّاب من الخارج وأسقف من القرن الثاني الخطوط العامة من جهات مختلفة. وهذه مجموعة مبكرة ومتنوعة من المصادر لشخصية قديمة في مكانة يسوع الاجتماعية.',
+        'والفروق في التفاصيل بين المصادر تبين أنها أصوات مستقلة، لا نسخ عن نص واحد. والأدلة مبكرة بما يكفي لتؤخذ بجدية، ويمكن قراءة كل مصدر بحسب الشهادة التي يقدمها.',
       ],
     },
     theological: {
@@ -379,8 +379,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'Our earliest sources are St Paul’s letters from the AD 50s, then the Gospels in the following decades, then outside and early Christian writers. None comes from Jesus’ lifetime, all have a standpoint, and the dates are ranges. The order is secure enough to build on, and the next questions are who wrote them and how they should be used.',
-    ar: 'أقدم مصادرنا رسائل القديس بولس من الخمسينيات، ثم الأناجيل في العقود التالية، ثم كتّاب من خارج الكنيسة ومسيحيون مبكرون. ولا يعود أيٌّ منها إلى زمن حياة يسوع، ولكلٍّ موقفه، والتواريخ مدًى زمنيّ. والترتيب ثابت بما يكفي للبناء عليه، والأسئلة التالية: من كتبها، وكيف تُستعمل.',
+    en: 'Our earliest sources are St Paul\'s letters from the AD 50s, which hand on a faith older still, then the Gospels in the following decades, then outside and early Christian writers who confirm the outline. The witness to Jesus is early, varied and firm, and the Church receives it as the apostolic memory of her Lord.',
+    ar: 'أقدم مصادرنا رسائل القديس بولس من خمسينيات القرن الأول، وهي تسلّم إيمانًا أقدم منها، ثم الأناجيل في العقود التالية، ثم كتّاب من الخارج وكتّاب مسيحيون أوائل يؤكدون الخطوط العامة. فالشهادة ليسوع مبكرة ومتنوعة وثابتة، والكنيسة تقبلها ذاكرةً رسولية لربها.',
   },
   furtherReading: ['S10', 'S11', 'S12', 'S13', 'S07', 'S54'],
   related: [

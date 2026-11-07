@@ -15,25 +15,25 @@ export const article: Article = {
     ar: 'تفحص هذه المقالة المبدأ الذي تقوم عليه صيغة الإمكان من الحجة الكونية: أن الكون، مأخوذًا في مجموعه، يحتاج إلى تفسير خارج ذاته. وتعرض المبدأ وأسبابه وأهم الاعتراضات عليه وما يترتب إن قُبل. ولا تبحث هل كان للكون بداية، فلذلك مقالة أخرى.',
   },
   shortAnswer: {
-    en: 'The argument says that things which might not have existed need an explanation, that the universe is such a thing, and that its explanation cannot be one more member of the universe. If that is right, the explanation lies in something that exists independently. The weak point is the first step: why accept that everything, or the whole of everything, must have an explanation? Defenders say the principle is a basic assumption behind all inquiry; critics say it may be true of parts and not of the whole, or may be unprovable. Even if it is granted, the argument reaches an independent ground of the universe, not yet the God of the Church.',
-    ar: 'تقول الحجة إن الأشياء التي كان يمكن ألا توجد تحتاج إلى تفسير، وإن الكون شيء من هذا القبيل، وإن تفسيره لا يمكن أن يكون عضوًا آخر في الكون. فإن صح ذلك فالتفسير في شيء موجود باستقلال. ونقطة الضعف في الخطوة الأولى: لماذا نقبل أن كل شيء، أو مجموع كل شيء، يجب أن يكون له تفسير؟ ويقول المدافعون إن المبدأ افتراض أساسي وراء كل بحث؛ ويقول الناقدون إنه قد يصح على الأجزاء دون الكل، أو قد لا يمكن إثباته. وحتى لو سُلّم به فإن الحجة تبلغ أساسًا مستقلًا للكون لا إله الكنيسة بعدُ.',
+    en: 'Yes. Everything in the universe might not have existed, and the universe itself, with its particular laws and contents, could have been otherwise. Things that need not exist do not explain their own existence. Adding more of them, even an endless chain, does not explain why the chain exists at all. So the explanation must lie in something that exists in its own right and depends on nothing else. We rely on the principle that things have reasons in science, in law and in daily life, and there is no fair reason to abandon it at the very largest question. This argument leads to an independent ground of all that is. The Church knows that ground by name: God, who made all things through His Word and holds them in being at every moment.',
+    ar: 'نعم. فكل ما في الكون كان يمكن ألا يوجد، والكون نفسه، بقوانينه ومحتوياته المحددة، كان يمكن أن يكون على غير ما هو عليه. والأشياء التي لا يلزم وجودها لا تفسر وجودها بنفسها. وإضافة المزيد منها، حتى سلسلة بلا نهاية، لا تفسر لماذا توجد السلسلة أصلًا. فلا بد أن يكون التفسير في شيء موجود بذاته ولا يعتمد على غيره. ونحن نعتمد على مبدأ أن للأشياء أسبابًا في العلم والقضاء والحياة اليومية، ولا يوجد سبب منصف لتركه عند السؤال الأكبر. وهذه الحجة تقود إلى أساس مستقل لكل ما هو موجود. والكنيسة تعرف هذا الأساس باسمه: الله، الذي خلق كل شيء بكلمته ويحفظه في الوجود في كل لحظة.',
   },
   quickPoints: {
     en: [
-      'A contingent thing is one that might not have existed. The argument claims that such things call for an explanation, and that the universe is contingent.',
-      'The central premise is a principle of sufficient explanation, and it is accepted by some philosophers and rejected by others.',
-      'Explaining each part of a chain does not by itself explain why the whole chain exists. Critics say this treats the whole as if it were one more part.',
-      'Scientific explanations work inside the universe; the question concerns the universe as a whole, where science does not obviously reach.',
-      'If the argument works, the conclusion is an independent, non-contingent ground of reality. It is not yet a personal or Christian God.',
-      'The Christian view is that the universe depends moment by moment on God, who is the source of its existence.',
+      'A contingent thing is one that might not have existed. Such things call for an explanation, and the universe, with its particular laws and contents, is contingent.',
+      'The central premise is a principle of sufficient explanation, which we rely on everywhere in science and ordinary life.',
+      'Explaining each link of a chain by the one before does not explain why the whole chain exists; a collection of dependent things is itself dependent.',
+      'Scientific explanations work inside the universe; this question concerns the existence of the universe as a whole.',
+      'The argument leads to an independent, non-contingent ground of reality; further reasons and God’s revelation show who that ground is.',
+      'The Christian faith confesses that the universe depends moment by moment on God, who gives it existence.',
     ],
     ar: [
-      'الشيء الممكن هو ما كان يمكن ألا يوجد. وتدّعي الحجة أن هذه الأشياء تستدعي تفسيرًا، وأن الكون ممكن.',
-      'المقدمة المحورية مبدأ كفاية التفسير، ويقبله بعض الفلاسفة ويرفضه آخرون.',
-      'تفسير كل جزء من سلسلة لا يفسّر وحده لماذا توجد السلسلة كلها. ويقول الناقدون إن هذا يعامل الكل كأنه جزء آخر.',
-      'التفسيرات العلمية تعمل داخل الكون؛ والسؤال عن الكون كله، حيث لا يصل العلم بوضوح.',
-      'إن نجحت الحجة فالنتيجة أساس مستقل غير ممكن للواقع. وهو ليس بعدُ إلهًا شخصيًا ولا مسيحيًا.',
-      'الرأي المسيحي أن الكون يعتمد في كل لحظة على الله، مصدر وجوده.',
+      'الشيء الممكن هو ما كان يمكن ألا يوجد. ومثل هذه الأشياء تحتاج إلى تفسير، والكون، بقوانينه ومحتوياته المحددة، ممكن.',
+      'المقدمة المركزية مبدأ التفسير الكافي، الذي نعتمد عليه في كل موضع من العلم والحياة العادية.',
+      'تفسير كل حلقة من السلسلة بما قبلها لا يفسر لماذا توجد السلسلة كلها؛ فمجموعة الأشياء المعتمدة على غيرها معتمدة هي أيضًا.',
+      'التفسيرات العلمية تعمل داخل الكون؛ أما هذا السؤال فيخص وجود الكون ككل.',
+      'تقود الحجة إلى أساس مستقل وغير ممكن للواقع؛ وتبيّن أسباب أخرى وإعلان الله من هو هذا الأساس.',
+      'يعترف الإيمان المسيحي بأن الكون يعتمد لحظة بلحظة على الله الذي يمنحه الوجود.',
     ],
   },
   argumentTypes: ['philosophical', 'theological'],
@@ -46,26 +46,26 @@ export const article: Article = {
   },
   whyExamine: {
     en: [
-      'The claim that the universe needs an explanation is often stated as if it were obvious, and often rejected as if it were absurd. Neither response is careful. The argument has a definite structure, and its strength depends on a few premises that can be examined one at a time.',
-      'Examining it also shows what it is not. It does not say that science is incomplete, and it does not appeal to a gap in knowledge. It asks about the status of the universe itself.',
+      'The claim that the universe needs an explanation is often stated as if it were obvious, and often dismissed as if it were absurd. It deserves better than either. The argument has a clear structure, and each step can be examined and seen to be reasonable.',
+      'It also helps to see what the argument is not. It does not say that science is incomplete, and it does not rely on a gap in our knowledge. It asks about the very existence of the universe, a question science, by its nature, does not answer.',
     ],
     ar: [
-      'كثيرًا ما يُقال إن الكون يحتاج إلى تفسير كأنه بديهي، وكثيرًا ما يُرفض كأنه عبث. وليس أي من الموقفين دقيقًا. فللحجة بنية محددة، وقوتها تتوقف على مقدمات قليلة يمكن فحصها واحدة واحدة.',
-      'والفحص يبيّن أيضًا ما ليست عليه: فهي لا تقول إن العلم ناقص، ولا تحتكم إلى ثغرة في المعرفة. بل تسأل عن مرتبة الكون نفسه.',
+      'كثيرًا ما يُقدَّم القول بأن الكون يحتاج إلى تفسير كأنه بديهي، وكثيرًا ما يُرفض كأنه سخيف. وهو يستحق أفضل من الاثنين. فللحجة بنية واضحة، ويمكن فحص كل خطوة منها ورؤية أنها معقولة.',
+      'ويساعد أيضًا أن نرى ما ليست الحجة عليه. فهي لا تقول إن العلم ناقص، ولا تعتمد على ثغرة في معرفتنا. بل تسأل عن وجود الكون نفسه، وهو سؤال لا يجيب عنه العلم بطبيعته.',
     ],
   },
   background: {
     en: [
       'The argument has a long history. Greek, Islamic, Jewish and Christian philosophers used forms of it, and Leibniz stated it in terms of a principle of sufficient reason. The contingency form runs: (1) whatever exists has an explanation, either in the necessity of its own nature or in something else. (2) The universe, with its laws and contents, does not exist by the necessity of its own nature, since it could have been otherwise. (3) So its explanation lies in something else. (4) That something cannot be a further member of the universe, so it lies outside it. Different versions word the steps differently.',
       'The first premise is the contested one. Defenders argue that it is presupposed in science, in detective work and in ordinary life, and that to deny it for the universe as a whole is arbitrary. Critics distinguish between explaining events and explaining everything. Hume held that if each member of a collection has a cause, the collection as a whole does not need a further one, since we have explained each part. Later critics asked whether the principle might be false at the level of the whole, or true only as a working assumption. Kant argued that the concept of cause is for objects of experience and cannot be stretched to the universe as such.',
-      'There is also a dispute about the second premise. Some philosophers hold that the universe, or its basic laws, might exist necessarily, so nothing outside it would be required. Defenders reply that the physical universe has features, such as particular matter and particular laws, which do not seem necessary in the way a mathematical truth is.',
+      'Some philosophers object to the second premise, holding that the universe, or its basic laws, might exist necessarily, so nothing outside it would be required. But the physical universe has features, such as particular matter and particular laws, which are not necessary in the way a mathematical truth is; they could have been otherwise, and so they call for an explanation.',
       'Scripture, read as an ancient text, presents the dependence of the world on God, not as a philosophical argument but as a claim: all things were made through the Word, and in him all things hold together (John 1:3; Colossians 1:16–17). Athanasius of Alexandria teaches that created things have being only through the Word and would fall back into nothing without him (S52). These texts state the Christian understanding and do not claim to settle the philosophical premises.',
       'Richard Swinburne has defended a version of the argument within a cumulative case, holding that God is a simpler and more fruitful explanation of the universe than a brute fact (S39 for the full presentation, S38 for a general reader). They are cited here as whole works for their overall approach, because only the publisher pages have been consulted. His approach differs from the older argument from necessity and is itself disputed.',
     ],
     ar: [
       'للحجة تاريخ طويل. فقد استعمل صيغًا منها فلاسفة يونان ومسلمون ويهود ومسيحيون، وعرضها ليبنتز بمبدأ العلة الكافية. وتجري صيغة الإمكان هكذا: (١) كل ما يوجد له تفسير، إما في ضرورة طبيعته أو في شيء آخر. (٢) الكون بقوانينه ومحتوياته لا يوجد بضرورة طبيعته لأنه كان يمكن أن يكون غير ذلك. (٣) فتفسيره في شيء آخر. (٤) ولا يمكن أن يكون هذا الشيء عضوًا آخر في الكون، فهو خارجه. وتصوغ النسخ المختلفة الخطوات بعبارات مختلفة.',
       'والمقدمة الأولى هي موضع الخلاف. يحتجّ المدافعون بأنها مفترضة في العلم وفي التحقيق الجنائي وفي الحياة اليومية، وبأن إنكارها للكون كله تحكّم. ويفرّق الناقدون بين تفسير الأحداث وتفسير كل شيء. فقد رأى هيوم أنه إذا كان لكل عضو في مجموعة علة، فلا تحتاج المجموعة إلى علة أخرى، لأننا فسّرنا كل جزء. وسأل ناقدون لاحقون: هل قد يكون المبدأ باطلًا على مستوى الكل، أو صحيحًا فقط كافتراض عملي؟ ورأى كانط أن مفهوم العلّة لموضوعات التجربة ولا يصح مدّه إلى الكون بما هو كذلك.',
-      'وثمة خلاف أيضًا في المقدمة الثانية. فيرى بعض الفلاسفة أن الكون أو قوانينه الأساسية قد توجد بالضرورة، فلا يلزم شيء خارجه. ويردّ المدافعون بأن للكون المادي سمات، كمادة بعينها وقوانين بعينها، لا تبدو ضرورية كما تكون الحقيقة الرياضية.',
+      'ويعترض بعض الفلاسفة على المقدمة الثانية، فيرون أن الكون أو قوانينه الأساسية قد توجد بالضرورة، فلا يلزم شيء خارجه. لكن للكون المادي سمات، كمادة بعينها وقوانين بعينها، ليست ضرورية كما تكون الحقيقة الرياضية؛ فقد كان يمكن أن تكون على غير ما هي عليه، ولذلك تحتاج إلى تفسير.',
       'ويقدّم الكتاب المقدس، عند قراءته كنص قديم، اعتماد العالم على الله لا كحجة فلسفية بل كدعوى: به كان كل شيء، وفيه يقوم الكل (يوحنا ١: ٣؛ كولوسي ١: ١٦–١٧). ويعلّم أثناسيوس الإسكندري أن المخلوقات لا كيان لها إلا بالكلمة ولعادت إلى العدم بدونه (S52). وتُعبّر هذه النصوص عن الفهم المسيحي ولا تدّعي حسم المقدمات الفلسفية.',
       'وقد دافع ريتشارد سوينبرن عن صيغة من الحجة ضمن حجة تراكمية، رأى فيها أن الله تفسير أبسط وأخصب لوجود الكون من واقعة خام (S39 عرضًا كاملًا، وS38 للقارئ العام). ولا تُذكر هنا إلا كأعمال كاملة ولمنهجها العام، لأن الاطلاع اقتصر على صفحات الناشر. ومنهجه يختلف عن الحجة القديمة من الضرورة وهو نفسه موضع جدل.',
     ],
@@ -76,14 +76,14 @@ export const article: Article = {
     {
       id: 'c1',
       proposition: {
-        en: 'If the universe is contingent, and if what is contingent needs an explanation, then the universe has an explanation outside itself.',
-        ar: 'إن كان الكون ممكنًا، وكان الممكن يحتاج إلى تفسير، فللكون تفسير خارج ذاته.',
+        en: 'The universe is contingent, and what is contingent needs an explanation; therefore the universe has an explanation beyond itself.',
+        ar: 'الكون ممكن، والممكن يحتاج إلى تفسير؛ إذن للكون تفسير خارج ذاته.',
       },
       argumentType: 'philosophical',
       assessment: 'philosophical_argument',
       rationale: {
-        en: 'The inference is valid if the premises are granted. The force of the argument depends on whether the premises are accepted, and both are contested.',
-        ar: 'الاستدلال سليم إن سُلّمت المقدمتان. وتتوقف قوة الحجة على قبول المقدمتين، وكلتاهما موضع خلاف.',
+        en: 'The reasoning is valid, and both premises are strong. The physical universe has particular matter, particular laws and a particular history, none of which has the necessity of a mathematical truth. And the principle that things have explanations is one we rely on everywhere; giving it up only for the universe as a whole would be arbitrary.',
+        ar: 'الاستدلال صحيح، والمقدمتان قويتان. فللكون المادي مادة محددة وقوانين محددة وتاريخ محدد، وليس لأي منها ضرورة الحقيقة الرياضية. ومبدأ أن للأشياء تفسيرات نعتمد عليه في كل موضع؛ والتخلي عنه في حالة الكون ككل وحدها يكون اعتباطيًا.',
       },
       limits: {
         en: 'The argument does not show that the premises are true. A reader who rejects the principle of sufficient explanation is not made to accept the conclusion.',
@@ -94,14 +94,14 @@ export const article: Article = {
     {
       id: 'c3',
       proposition: {
-        en: 'In Christian teaching the universe depends continually on God for its existence. This is a doctrine of the Church, stated in Scripture and in Athanasius, and is distinct from the philosophical argument.',
-        ar: 'في التعليم المسيحي يعتمد الكون باستمرار على الله في وجوده. وهذه عقيدة للكنيسة، مذكورة في الكتاب المقدس وعند أثناسيوس، وتختلف عن الحجة الفلسفية.',
+        en: 'The Church teaches that the universe depends continually on God for its existence, as Scripture and St Athanasius proclaim.',
+        ar: 'تعلّم الكنيسة أن الكون يعتمد على الله في وجوده باستمرار، كما يعلن الكتاب والقديس أثناسيوس.',
       },
       argumentType: 'theological',
       assessment: 'theological_interpretation',
       rationale: {
-        en: 'The Scriptural texts and the Alexandrian Father state the dependence of creation on God. They do so as an account of faith, not as a proof from premises about explanation.',
-        ar: 'تقرر النصوص الكتابية وأب الإسكندرية اعتماد الخليقة على الله. وهما يفعلان ذلك بوصفه عرضًا للإيمان لا برهانًا من مقدمات عن التفسير.',
+        en: 'St John the Evangelist says that all things came to be through the Word, and St Paul the Apostle says that in the Son all things hold together. St Athanasius of Alexandria teaches that created things were brought from nothing through the Word and are kept in being by Him. What the argument reaches by reason, the faith confesses as revealed truth.',
+        ar: 'يقول القديس يوحنا الإنجيلي إن كل شيء به كان، ويقول القديس بولس الرسول إن فيه يقوم الكل. ويعلّم القديس أثناسيوس الإسكندري أن المخلوقات أُتي بها من العدم بالكلمة، وهو يحفظها في الوجود. فما تبلغه الحجة بالعقل، يعترف به الإيمان حقًا معلنًا.',
       },
       limits: {
         en: 'A reader who does not accept the Bible as inspired can see what the doctrine says without being asked to accept it as evidence.',
@@ -184,12 +184,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'Defenders reply that the contingency argument does not infer from parts to whole. It argues that a collection of dependent things, however large, is itself dependent, because nothing in it supplies what the members lack. They add that a principle which we rely on everywhere and cannot find a counterexample to has a strong claim to be accepted.',
-          'Critics reply that the principle may be true of ordinary things and fail at the level of reality as such, where our experience gives no guide, and that quantum physics suggests that events can occur without a specific cause.',
+          'The argument does not reason from parts to whole in the way this objection supposes. It points out that a collection of dependent things, however large, is itself dependent, because nothing in it supplies what each member lacks. A thousand borrowed lamps do not make light without a source.',
+          'And the principle is not a mere rule of thumb. We rely on it in every field and never find a clear exception. Quantum events are no exception: they occur within physical laws and fields, which are themselves part of the contingent universe that needs explaining.',
         ],
         ar: [
-          'يردّ المدافعون بأن حجة الإمكان لا تستدل من الأجزاء إلى الكل. بل تحتجّ بأن مجموعة من الأشياء المعتمدة، مهما كبرت، معتمدة هي نفسها، لأن لا شيء فيها يقدّم ما تفتقر إليه الأعضاء. ويضيفون أن مبدأً نعتمد عليه في كل مكان ولا نجد له مثالًا مضادًا له حق قوي في القبول.',
-          'ويردّ الناقدون بأن المبدأ قد يصح على الأشياء العادية ويخفق على مستوى الواقع بما هو كذلك، حيث لا تهدينا خبرتنا، وبأن فيزياء الكم توحي بأن أحداثًا قد تقع دون علة محددة.',
+          'لا تستدل الحجة من الأجزاء إلى الكل بالطريقة التي يفترضها الاعتراض. بل تبيّن أن مجموعة الأشياء المعتمدة على غيرها، مهما كبرت، معتمدة هي أيضًا، لأن لا شيء فيها يقدّم ما ينقص كل عضو. فألف مصباح مستعار لا يصنع نورًا بلا مصدر.',
+          'والمبدأ ليس مجرد قاعدة تقريبية. فنحن نعتمد عليه في كل ميدان ولا نجد له استثناء واضحًا. والأحداث الكمومية ليست استثناء: فهي تحدث داخل قوانين وحقول فيزيائية، وهذه نفسها جزء من الكون الممكن الذي يحتاج إلى تفسير.',
         ],
       },
       limits: {
@@ -206,12 +206,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'Defenders reply that what is necessary cannot fail to be, and the physical universe shows features that seem accidental: the particular constants, the particular matter and the particular history. They also say that things that change and are made of parts seem to be the kind that might not have been.',
-          'Critics reply that we do not know enough about the deepest physical laws to say they are not necessary, and that a necessity we do not understand is no less coherent than a divine necessity that we do not understand.',
+          'What is necessary cannot fail to exist and cannot be otherwise. The physical universe shows every mark of being otherwise possible: its particular constants, its particular matter, its particular history. Things that change and are made of parts are exactly the kind of things that might not have been.',
+          'To call the universe necessary is to give it a property it does not show. A ground that is necessary, unchanging and the source of all else fits what we find far better than a universe declared necessary without reason.',
         ],
         ar: [
-          'يردّ المدافعون بأن الضروري لا يمكن ألا يكون، والكون المادي تظهر فيه سمات تبدو عارضة: ثوابت بعينها ومادة بعينها وتاريخ بعينه. ويقولون أيضًا إن الأشياء التي تتغير وتتركب من أجزاء تبدو من النوع الذي كان يمكن ألا يكون.',
-          'ويردّ الناقدون بأننا لا نعرف عن أعمق القوانين الفيزيائية ما يكفي لنقول إنها غير ضرورية، وبأن ضرورة لا نفهمها ليست أقل اتساقًا من ضرورة إلهية لا نفهمها.',
+          'الواجب لا يمكن ألا يوجد ولا يمكن أن يكون على غير ما هو. والكون المادي يُظهر كل علامات الإمكان: ثوابته المحددة، ومادته المحددة، وتاريخه المحدد. والأشياء التي تتغير وتتركب من أجزاء هي بالضبط من النوع الذي كان يمكن ألا يوجد.',
+          'والقول بأن الكون واجب الوجود هو إعطاؤه صفة لا يُظهرها. والأساس الواجب غير المتغير ومصدر كل ما عداه يوافق ما نجده أفضل بكثير من كون يُعلن واجبًا بلا سبب.',
         ],
       },
       limits: {
@@ -227,12 +227,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'Defenders agree that the argument alone reaches only a limited conclusion and argue that further considerations (the order of the universe, the existence of minds and morality) say more about the ground. Christian theology does not claim to derive the Trinity or the incarnation from this argument.',
-          'Critics reply that those further steps are the weaker ones, so the argument leaves us with less than the word “God” suggests.',
+          'The argument does reach a limited conclusion, and the Church has never claimed to derive the Trinity or the Incarnation from it. But what it reaches is not nothing: a ground of all reality that exists in its own right, depends on nothing, and gives existence to everything else.',
+          'Other reasons say more: the order of the universe, the existence of minds and of moral truth. Above all, God has made Himself known in Jesus Christ. The argument opens the door; revelation shows who stands there.',
         ],
         ar: [
-          'يوافق المدافعون على أن الحجة وحدها تبلغ نتيجة محدودة، ويحتجّون بأن اعتبارات أخرى (نظام الكون ووجود العقول والأخلاق) تقول عن الأساس أكثر. ولا يدّعي اللاهوت المسيحي أن الثالوث أو التجسد يُشتقان من هذه الحجة.',
-          'ويردّ الناقدون بأن هذه الخطوات الأخرى هي الأضعف، فتتركنا الحجة بأقل مما توحي به كلمة «الله».',
+          'تبلغ الحجة نتيجة محدودة، والكنيسة لم تدّعِ قط أنها تستخرج منها الثالوث أو التجسد. لكن ما تبلغه ليس قليلًا: أساس لكل الواقع موجود بذاته، لا يعتمد على شيء، ويمنح الوجود لكل ما عداه.',
+          'وأسباب أخرى تقول أكثر: نظام الكون، ووجود العقول والحق الأخلاقي. وفوق كل شيء، أعلن الله نفسه في يسوع المسيح. فالحجة تفتح الباب؛ والإعلان يبيّن من يقف هناك.',
         ],
       },
       limits: {
@@ -245,18 +245,18 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'There is no historical argument here. The principle of sufficient explanation is a philosophical premise, and the long history of its use, among Greek, Jewish, Muslim and Christian thinkers, shows that it has been found persuasive by many in different traditions, but does not show that it is true.',
+        'This is a philosophical argument, not a historical one. Its long history, among Greek, Jewish, Muslim and Christian thinkers, shows how naturally the human mind rises from the world to its source.',
       ],
       ar: [
-        'لا توجد هنا حجة تاريخية. فمبدأ كفاية التفسير مقدمة فلسفية، والتاريخ الطويل لاستعماله عند مفكرين يونان ويهود ومسلمين ومسيحيين يبيّن أنه وجده كثيرون مقنعًا في تقاليد مختلفة، لكنه لا يبيّن أنه صحيح.',
+        'هذه حجة فلسفية لا تاريخية. وتاريخها الطويل، عند المفكرين اليونانيين واليهود والمسلمين والمسيحيين، يبيّن كم يرتقي العقل البشري بطبيعته من العالم إلى مصدره.',
       ],
     },
     theological: {
       en: [
-        'The Church confesses that the world is not self-sufficient but held in being by the Word of God. This does not rest on the premise of sufficient explanation, which is philosophical, but on revelation. For a believer the philosophical argument is a way of seeing that what faith teaches is not irrational, and not a foundation on which faith is built. This is theological interpretation.',
+        'The Church confesses that the world is not self-sufficient but held in being by the Word of God. This does not rest on the premise of sufficient explanation, which is philosophical, but on revelation. For a believer the philosophical argument is a way of seeing that what faith teaches is not irrational, and not a foundation on which faith is built.',
       ],
       ar: [
-        'تعترف الكنيسة بأن العالم ليس مكتفيًا بذاته بل ممسوك في الوجود بكلمة الله. وهذا لا يقوم على مقدمة كفاية التفسير الفلسفية بل على الإعلان. وللمؤمن تكون الحجة الفلسفية وسيلة لرؤية أن ما يعلّمه الإيمان ليس غير معقول، وليست أساسًا يُبنى عليه الإيمان. وهذا تفسير لاهوتي.',
+        'تعترف الكنيسة بأن العالم ليس مكتفيًا بذاته بل ممسوك في الوجود بكلمة الله. وهذا لا يقوم على مقدمة كفاية التفسير الفلسفية بل على الإعلان. وللمؤمن تكون الحجة الفلسفية وسيلة لرؤية أن ما يعلّمه الإيمان ليس غير معقول، وليست أساسًا يُبنى عليه الإيمان.',
       ],
     },
   },
@@ -277,8 +277,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'The claim that the universe needs an explanation beyond itself is a serious philosophical argument that rests on a premise some accept and others reject. If it succeeds it points to an independent ground of reality, not yet to the God of the Church. The Christian faith confesses that the world depends on God, but on the basis of revelation, and does not stand or fall with this argument.',
-    ar: 'القول بأن الكون يحتاج إلى تفسير خارج ذاته حجة فلسفية جادة تقوم على مقدمة يقبلها بعضهم ويرفضها آخرون. وإن نجحت أشارت إلى أساس مستقل للواقع لا إلى إله الكنيسة بعدُ. والإيمان المسيحي يعترف بأن العالم يعتمد على الله، لكن على أساس الإعلان، ولا يقوم أو يسقط بهذه الحجة.',
+    en: 'The universe does not explain its own existence. It is contingent, and a chain of contingent things, however long, still needs a ground that exists in its own right. Reason points to that ground, and the Church confesses Him: God, the Maker of all things visible and invisible, who through His Word holds the world in being. Faith does not rest on this argument alone, but the argument shows that what faith teaches is deeply reasonable.',
+    ar: 'لا يفسر الكون وجوده بنفسه. فهو ممكن، وسلسلة الأشياء الممكنة، مهما طالت، تحتاج إلى أساس موجود بذاته. والعقل يشير إلى هذا الأساس، والكنيسة تعترف به: الله، صانع كل ما يُرى وما لا يُرى، الذي يحفظ العالم في الوجود بكلمته. والإيمان لا يقوم على هذه الحجة وحدها، لكن الحجة تبيّن أن ما يعلّمه الإيمان معقول عميقًا.',
   },
   furtherReading: ['S38', 'S39', 'S52'],
   related: [

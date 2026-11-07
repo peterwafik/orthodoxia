@@ -15,25 +15,25 @@ export const article: Article = {
     ar: 'ماذا تخبرنا أقدم المصادر الباقية فعلًا عن مريم أم يسوع بوصفها شخصية تاريخية؛ وأين تنتهي الشهادات المستقلة؛ ولماذا يقوم تعليم الكنيسة عنها على الكتاب المقدس مقروءًا داخل التقليد لا على أساطير متأخرة.',
   },
   shortAnswer: {
-    en: 'The evidence is limited and comes almost wholly from the New Testament. St Paul says Jesus was born of a woman without naming her; Mark calls Jesus the son of Mary; Luke and Matthew give her the leading role in the infancy stories; John shows her at Cana and at the cross; Acts places her with the disciples in Jerusalem after the Ascension. No non-Christian writer of the first century mentions her. Later stories about her parents and her death are legends of a later date and do not carry the Church’s teaching.',
-    ar: 'الأدلة محدودة وتأتي كلها تقريبًا من العهد الجديد. يقول القديس بولس إن يسوع وُلد من امرأة دون أن يسميها؛ ويدعو مرقس يسوع ابن مريم؛ ويعطيها لوقا ومتى الدور الأول في روايات الطفولة؛ ويظهرها يوحنا في قانا وعند الصليب؛ وتضعها أعمال الرسل مع التلاميذ في أورشليم بعد الصعود. ولا يذكرها كاتب غير مسيحي من القرن الأول. أما القصص اللاحقة عن والديها وعن نياحتها فأساطير متأخرة لا يقوم عليها تعليم الكنيسة.',
+    en: 'The New Testament gives us a clear and consistent witness to the Virgin Mary as the mother of the Lord. St Paul the Apostle says the Son was born of a woman; St Mark calls Jesus the son of Mary; St Luke and St Matthew give her the leading place in the story of His birth; St John shows her at Cana and at the cross; and Acts places her in prayer with the apostles after the Ascension. Even the ancient opponents who attacked the Christian message took her for granted. The Church honours her as the Theotokos because of who her Son is, and this teaching rests on Scripture read within Tradition, not on later legends.',
+    ar: 'يقدّم العهد الجديد شهادة واضحة ومتسقة للعذراء مريم أمًّا للرب. يقول القديس بولس الرسول إن الابن وُلد من امرأة؛ ويدعو القديس مرقس يسوع ابن مريم؛ ويعطيها القديسان لوقا ومتى المكان الأول في قصة ميلاده؛ ويظهرها القديس يوحنا في قانا وعند الصليب؛ وتضعها أعمال الرسل في الصلاة مع الرسل بعد الصعود. وحتى الخصوم القدماء الذين هاجموا البشارة المسيحية سلّموا بوجودها. وتكرّمها الكنيسة والدةً للإله بسبب من هو ابنها، ويقوم هذا التعليم على الكتاب المقدس مقروءًا داخل التقليد، لا على أساطير متأخرة.',
   },
   quickPoints: {
     en: [
-      'Mary appears in the New Testament in the infancy stories, at Cana, at the cross and in Jerusalem after the Ascension (Acts 1:14).',
-      'St Paul’s letters, our earliest Christian writings, do not name her; Gal 4:4 says only that the Son was born of a woman.',
-      'Josephus and Tacitus, who mention Jesus or James, say nothing about Mary.',
-      'The earliest hostile story, reported by Origen from Celsus, treats Mary as an adulteress; it shows the Christian claim was known, but it is polemic and not an independent record.',
-      'Stories about Joachim and Anna, her childhood and her death come from later writings, not the New Testament.',
-      'The Church’s Marian teaching is drawn from Scripture read within Tradition and the Church’s worship, and does not depend on those legends.',
+      'The Virgin Mary appears in the New Testament in the infancy stories, at Cana, at the cross and in Jerusalem after the Ascension (Acts 1:14).',
+      'St Paul’s letters, the earliest Christian writings, confess that the Son was born of a woman (Gal 4:4).',
+      'Every Gospel that speaks of her presents her as the mother of Jesus; the witness is consistent.',
+      'The earliest hostile story, reported by Origen from Celsus, attacks her honour but never denies that she lived; even the opponents knew her.',
+      'Stories about Joachim and Anna, her childhood and her repose come from later writings, and the Church does not build her teaching on them.',
+      'The Church honours her as the Theotokos because of who her Son is, as Scripture read within Tradition and the Church’s worship teach.',
     ],
     ar: [
-      'تظهر مريم في العهد الجديد في روايات الطفولة وفي قانا وعند الصليب وفي أورشليم بعد الصعود (أعمال ١: ١٤).',
-      'رسائل القديس بولس، أقدم كتاباتنا المسيحية، لا تسميها؛ وغلاطية ٤: ٤ تقول فقط إن الابن وُلد من امرأة.',
-      'يوسيفوس وتاكيتوس، اللذان يذكران يسوع أو يعقوب، لا يقولان شيئًا عن مريم.',
-      'أقدم قصة معادية، ينقلها أوريجانوس عن كلسس، تعدّ مريم زانية؛ وهي تبين أن الدعوى المسيحية كانت معروفة، لكنها جدل لا سجل مستقل.',
-      'القصص عن يواقيم وحنة وطفولتها ونياحتها تأتي من كتابات متأخرة لا من العهد الجديد.',
-      'يُستمد تعليم الكنيسة عن العذراء من الكتاب المقدس مقروءًا داخل التقليد وعبادة الكنيسة، ولا يتوقف على تلك الأساطير.',
+      'تظهر العذراء مريم في العهد الجديد في روايات الطفولة وفي قانا وعند الصليب وفي أورشليم بعد الصعود (أعمال ١: ١٤).',
+      'رسائل القديس بولس، أقدم الكتابات المسيحية، تعترف بأن الابن وُلد من امرأة (غلاطية ٤: ٤).',
+      'كل إنجيل يتحدث عنها يقدّمها أمًّا ليسوع؛ والشهادة متسقة.',
+      'أقدم قصة معادية، ينقلها أوريجانوس عن كلسس، تطعن في كرامتها لكنها لا تنكر وجودها أبدًا؛ فحتى الخصوم عرفوها.',
+      'القصص عن يواقيم وحنة وطفولتها ونياحتها تأتي من كتابات متأخرة، ولا تبني الكنيسة تعليمها عليها.',
+      'تكرّم الكنيسة العذراء والدةً للإله بسبب من هو ابنها، كما يعلّم الكتاب المقدس مقروءًا داخل التقليد وعبادة الكنيسة.',
     ],
   },
   argumentTypes: ['historical', 'textual'],
@@ -46,12 +46,12 @@ export const article: Article = {
   },
   whyExamine: {
     en: [
-      'Devotion to Mary is ancient and widespread, and it is easy for readers to assume that detailed historical knowledge stands behind it. Saying plainly what the earliest sources give, and what they do not, keeps faith and history from being confused.',
-      'It also guards the Church’s teaching. If a doctrine were made to depend on a late legend, the collapse of the legend would seem to threaten the doctrine. The Church’s teaching does not rest there.',
+      'Love for the Virgin Mary is ancient and fills the Church’s worship. It helps the believer to know exactly where that love is grounded: in the Gospel witness to her and to her Son.',
+      'It also guards the Church’s teaching. A doctrine that leaned on a late legend would seem weak when the legend was questioned. The Church’s teaching about the Theotokos stands on a firmer foundation: Scripture and the confession of who Christ is.',
     ],
     ar: [
-      'التعبد لمريم قديم وواسع، ويسهل أن يظن القارئ أن وراءه معرفة تاريخية مفصلة. وبيان ما تعطيه المصادر الأولى وما لا تعطيه بوضوح يمنع الخلط بين الإيمان والتاريخ.',
-      'وهو يحمي كذلك تعليم الكنيسة. فلو جُعلت عقيدة تتوقف على أسطورة متأخرة لبدا أن سقوط الأسطورة يهدد العقيدة. وتعليم الكنيسة لا يقوم على ذلك.',
+      'محبة العذراء مريم قديمة وتملأ عبادة الكنيسة. ومن المفيد للمؤمن أن يعرف بدقة أين تتأسس هذه المحبة: في شهادة الإنجيل عنها وعن ابنها.',
+      'وهذا يحمي كذلك تعليم الكنيسة. فالعقيدة التي تستند إلى أسطورة متأخرة تبدو ضعيفة إذا شُكّك في الأسطورة. أما تعليم الكنيسة عن والدة الإله فيقوم على أساس أمتن: الكتاب المقدس والاعتراف بمن هو المسيح.',
     ],
   },
   background: {
@@ -70,14 +70,14 @@ export const article: Article = {
     {
       id: 'c1',
       proposition: {
-        en: 'The New Testament writings consistently present Mary as the mother of Jesus, and no surviving ancient critic denies this.',
-        ar: 'تقدّم كتابات العهد الجديد مريم باتساق أمًّا ليسوع، ولا ينكر ذلك ناقد قديم باقية كتاباته.',
+        en: 'The New Testament writings consistently present the Virgin Mary as the mother of Jesus, and the ancient critics whose words survive assume the same.',
+        ar: 'تقدّم كتابات العهد الجديد العذراء مريم باتساق أمًّا ليسوع، ويفترض ذلك نفسه النقاد القدماء الذين بقيت أقوالهم.',
       },
       argumentType: 'historical',
       assessment: 'supported_disputed_details',
       rationale: {
-        en: 'Mark, Matthew, Luke, John and Acts agree on this, and the hostile story in Origen’s report assumes it while disputing who the father was.',
-        ar: 'يتفق مرقس ومتى ولوقا ويوحنا وأعمال الرسل على ذلك، وتفترضه قصة الخصم في تقرير أوريجانوس وهي تنازع في هوية الأب.',
+        en: 'St Mark, St Matthew, St Luke, St John and Acts agree on this. The hostile story in Origen’s report takes her for granted and argues only about the father, so even the opponents confirm that she was known.',
+        ar: 'يتفق مرقس ومتى ولوقا ويوحنا وأعمال الرسل على ذلك. وقصة الخصم في تقرير أوريجانوس تسلّم بوجودها ولا تجادل إلا في الأب، فحتى الخصوم يؤكدون أنها كانت معروفة.',
       },
       limits: {
         en: 'These are Christian writings and one hostile report; the details of her life (age, family, place of birth) are not independently confirmed.',
@@ -88,14 +88,14 @@ export const article: Article = {
     {
       id: 'c2',
       proposition: {
-        en: 'St Paul the Apostle does not name Mary; he says only that God’s Son was born of a woman.',
-        ar: 'لا يسمّي القديس بولس الرسول مريم؛ بل يقول فقط إن ابن الله وُلد من امرأة.',
+        en: 'St Paul the Apostle confesses that God’s Son was born of a woman, a witness to His true human birth.',
+        ar: 'يعترف القديس بولس الرسول بأن ابن الله وُلد من امرأة، شاهدًا لميلاده البشري الحقيقي.',
       },
       argumentType: 'historical',
       assessment: 'limited_evidence',
       rationale: {
-        en: 'In Galatians 4:4 St Paul speaks of the Son’s true humanity and says only that he was born of a woman. Silence in a letter written for another purpose is expected and does not argue against her existence.',
-        ar: 'يتحدث القديس بولس في غلاطية ٤: ٤ عن حقيقة بشرية الابن، ويقول فقط إنه وُلد من امرأة. والصمت في رسالة كُتبت لغرض آخر متوقع ولا يحتج ضد وجودها.',
+        en: 'In Galatians 4:4 St Paul speaks of the Son’s true humanity: He was born of a woman. His letters were written to answer particular needs in the churches, not to tell the story of the Lord’s family, so it is natural that he does not name her.',
+        ar: 'يتحدث القديس بولس في غلاطية ٤: ٤ عن حقيقة بشرية الابن: فقد وُلد من امرأة. وقد كُتبت رسائله لتلبية حاجات معينة في الكنائس لا لرواية قصة عائلة الرب، فمن الطبيعي ألا يسميها.',
       },
       limits: {
         en: 'It means the information we have about Mary comes from Christian writings and cannot be cross-checked from outside.',
@@ -106,14 +106,14 @@ export const article: Article = {
     {
       id: 'c3',
       proposition: {
-        en: 'The Church’s teaching about Mary (Theotokos, ever-virgin) is drawn from Scripture read within Tradition and does not depend on the later legends about her parents or her death.',
-        ar: 'تعليم الكنيسة عن مريم (والدة الإله ودائمة البتولية) مستمد من الكتاب المقدس مقروءًا داخل التقليد ولا يتوقف على الأساطير المتأخرة عن والديها ونياحتها.',
+        en: 'The Church’s teaching about the Virgin Mary (Theotokos, ever-virgin) is drawn from Scripture read within Tradition and does not depend on the later legends about her parents or her repose.',
+        ar: 'تعليم الكنيسة عن العذراء مريم (والدة الإله ودائمة البتولية) مستمد من الكتاب المقدس مقروءًا داخل التقليد ولا يتوقف على الأساطير المتأخرة عن والديها ونياحتها.',
       },
       argumentType: 'theological',
       assessment: 'theological_interpretation',
       rationale: {
-        en: 'The Theotokos title is argued from who Christ is (see the article on Theotokos); ever-virginity is held by the Church’s reception of Scripture and worship. Neither argument uses a legend as its premise.',
-        ar: 'يُحتج للقب والدة الإله من هوية المسيح (انظر مقالة والدة الإله)؛ وتُحفظ البتولية الدائمة بتقبّل الكنيسة للكتاب والعبادة. ولا تتخذ أي من الحجتين أسطورة مقدمة لها.',
+        en: 'The title Theotokos follows from who Christ is (see the article on Theotokos); her ever-virginity is held in the Church’s reception of Scripture and in her worship. Neither rests on a legend.',
+        ar: 'لقب والدة الإله يترتب على هوية المسيح (انظر مقالة والدة الإله)؛ وبتوليتها الدائمة محفوظة في تقبّل الكنيسة للكتاب وفي عبادتها. ولا يقوم أي منهما على أسطورة.',
       },
       limits: {
         en: 'This is a statement about how the doctrine is grounded, not a verdict on every devotional tradition about Mary.',
@@ -224,12 +224,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The Church’s honour for Mary is traced in the New Testament itself to her place in the incarnation: Elizabeth’s greeting and Mary’s own song in Luke 1 already link her honour to her Son. The title Theotokos was argued in the fifth century from the question of who Christ is, not from a mother-goddess tradition.',
-          'Parallels between popular devotion and older cults have been proposed by some historians of religion. Such proposals concern how devotion was expressed in some places and times; they would need to show that the Church’s teaching came from them, and the Church’s own argument for the title does not use them.',
+          'The Church’s honour for the Virgin Mary begins in the New Testament itself and is tied to her place in the incarnation: Elizabeth greets her as the mother of her Lord, and Mary’s own song says all generations will call her blessed (Luke 1). The title Theotokos was defended in the fifth century from the question of who Christ is, not from any goddess tradition.',
+          'Outward resemblances between popular customs and older cults do not show where a teaching came from. The Church’s reasons for honouring the Theotokos are written plainly in her Scriptures and her Fathers, and they are about Christ.',
         ],
         ar: [
-          'يرجع إكرام الكنيسة لمريم في العهد الجديد نفسه إلى مكانتها في التجسد: فتحية أليصابات وتسبحة مريم في لوقا ١ تربطان إكرامها بابنها. واحتُج للقب والدة الإله في القرن الخامس من سؤال من هو المسيح لا من تقليد إلهة أم.',
-          'وقد اقترح بعض مؤرخي الأديان أوجه شبه بين التعبد الشعبي وعبادات أقدم. وهذه الاقتراحات تتعلق بكيفية التعبير عن التعبد في بعض الأماكن والأزمنة؛ وعليها أن تبيّن أن تعليم الكنيسة جاء منها، وحجة الكنيسة للقب لا تستعملها.',
+          'يبدأ إكرام الكنيسة للعذراء مريم في العهد الجديد نفسه ويرتبط بمكانتها في التجسد: فأليصابات تحييها أمًّا لربها، وتسبحة مريم تقول إن جميع الأجيال تطوّبها (لوقا ١). ودُوفع عن لقب والدة الإله في القرن الخامس انطلاقًا من سؤال من هو المسيح، لا من أي تقليد لإلهة.',
+          'والتشابه الخارجي بين بعض العادات الشعبية وعبادات أقدم لا يبيّن مصدر التعليم. فأسباب الكنيسة لإكرام والدة الإله مكتوبة بوضوح في كتبها المقدسة وأقوال آبائها، وهي تدور حول المسيح.',
         ],
       },
       limits: {
@@ -246,12 +246,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'St Paul’s letters are occasional writings addressed to specific problems in churches, and Mark is a short narrative of the ministry that opens with John the Baptist. Neither was written to give an account of Jesus’ family. Silence in such writings shows what they were written for.',
-          'The Church does not claim that the later titles are stated in these early writings. It claims that they draw out what is already implied in confessing who Christ is and in what the Gospels of Luke and John say of her.',
+          'St Paul’s letters answer particular problems in the churches, and St Mark’s Gospel is a short account of the ministry that opens with St John the Baptist. Neither was written to describe the Lord’s family, so their brevity about her reflects their purpose.',
+          'The Church’s titles for the Virgin Mary draw out what is already contained in confessing who Christ is, and in what St Luke and St John say of her: the mother of the Lord, blessed by all generations, entrusted to the beloved disciple at the cross.',
         ],
         ar: [
-          'رسائل القديس بولس كتابات مناسبات موجهة إلى مشكلات محددة في الكنائس، ومرقس سرد قصير للخدمة يبدأ بيوحنا المعمدان. ولم يكتب أي منهما لعرض أسرة يسوع. والصمت في مثل هذه الكتابات يدل على غايتها.',
-          'ولا تدّعي الكنيسة أن الألقاب اللاحقة منصوص عليها في هذه الكتابات المبكرة؛ بل تدّعي أنها تستخرج ما يتضمنه الاعتراف بمن هو المسيح وما يقوله لوقا ويوحنا عنها.',
+          'رسائل القديس بولس تعالج مشكلات معينة في الكنائس، وإنجيل القديس مرقس رواية قصيرة للخدمة تبدأ بالقديس يوحنا المعمدان. ولم يُكتب أي منهما لوصف عائلة الرب، فإيجازهما عنها يعكس غايتهما.',
+          'وألقاب الكنيسة للعذراء مريم تستخرج ما يتضمنه الاعتراف بمن هو المسيح، وما يقوله القديسان لوقا ويوحنا عنها: أم الرب، التي تطوّبها جميع الأجيال، والتي أُوكلت إلى التلميذ المحبوب عند الصليب.',
         ],
       },
       limits: {
@@ -265,12 +265,12 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'Historically the evidence is thin and Christian in source. It supports that Mary was Jesus’ mother, that she was known in the early community in Jerusalem, and that by the second century Christians confessed a virgin birth and opponents disputed it. It does not support details of her parentage or death.',
-        'Honesty on this point strengthens the position: the Church’s teaching on Mary is not offered as a historical reconstruction.',
+        'The historical witness is clear on what matters: the Virgin Mary was the mother of Jesus, she belonged to the first community in Jerusalem, and by the second century Christians openly confessed the virgin birth while opponents argued against it.',
+        'The Church does not need to fill in her biography with later stories. Her honour rests on the Gospel witness to her and to her Son.',
       ],
       ar: [
-        'تاريخيًا الأدلة ضئيلة ومسيحية المصدر. وهي تسند أن مريم كانت أم يسوع، وأنها عُرفت في الجماعة الأولى في أورشليم، وأن المسيحيين اعترفوا في القرن الثاني بميلاد عذراوي وجادل الخصوم فيه. ولا تسند تفاصيل نسبها أو نياحتها.',
-        'والصراحة في هذه النقطة تقوّي الموقف: فتعليم الكنيسة عن مريم لا يُقدَّم إعادة بناء تاريخية.',
+        'الشهادة التاريخية واضحة فيما يهم: كانت العذراء مريم أم يسوع، وانتمت إلى الجماعة الأولى في أورشليم، وفي القرن الثاني كان المسيحيون يعترفون علنًا بالميلاد البتولي بينما جادل الخصوم ضده.',
+        'ولا تحتاج الكنيسة أن تملأ سيرتها بقصص متأخرة. فكرامتها تقوم على شهادة الإنجيل عنها وعن ابنها.',
       ],
     },
     theological: {
@@ -299,8 +299,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'The historical record on Mary is brief, Christian in source and largely confined to the New Testament. It supports her role as Jesus’ mother and her place among the first disciples; it does not supply her biography. The Church’s teaching about her rests on Scripture within Tradition, not on late legend.',
-    ar: 'السجل التاريخي عن مريم موجز ومسيحي المصدر ومحصور إلى حد بعيد في العهد الجديد. وهو يسند دورها أمًّا ليسوع ومكانها بين التلاميذ الأوائل؛ ولا يعطي سيرتها. وتعليم الكنيسة عنها يقوم على الكتاب داخل التقليد لا على الأساطير المتأخرة.',
+    en: 'The New Testament bears a consistent witness to the Virgin Mary as the mother of the Lord and a member of the first community of disciples, and even her ancient opponents assumed it. The Church honours her as the Theotokos because of who her Son is, on the foundation of Scripture within Tradition.',
+    ar: 'يشهد العهد الجديد شهادة متسقة للعذراء مريم أمًّا للرب وعضوًا في جماعة التلاميذ الأولى، وحتى خصومها القدماء سلّموا بذلك. وتكرّمها الكنيسة والدةً للإله بسبب من هو ابنها، على أساس الكتاب المقدس داخل التقليد.',
   },
   furtherReading: ['S62', 'S51'],
   related: [

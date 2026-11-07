@@ -15,25 +15,25 @@ export const article: Article = {
     ar: 'يفصل هذا المقال بين سؤالين كثيرًا ما يختلطان: إلى أي مدى كان إيمان المسيحيين الأوائل بقيامة يسوع مبكرًا وراسخًا، وهل هذا الإيمان في ذاته دليل على أن القيامة حدثت. يقرأ المقال الأصحاح الخامس عشر من رسالة كورنثوس الأولى بوصفه رسالة قديمة، ويزن تقليدي الدفن والقبر الفارغ، ويعرض أهم التفسيرات البديلة. وهو لا يحاول إثبات القيامة، ولا يقدمها بوصفها أمرًا يقبله المؤرخون عمومًا.',
   },
   shortAnswer: {
-    en: 'Early belief is a historical fact that needs explaining; it is not, by itself, proof of the event believed. The letter we call 1 Corinthians shows that by the mid-first century at the latest, Christians were proclaiming that Jesus died, was buried, was raised and appeared to named people, and St Paul presents this as a message he had received. That is strong evidence about what the first Christians claimed. Whether the best explanation of the claim is that Jesus rose is a further step, and historians, philosophers and believers weigh it differently. For the Coptic Orthodox Church the resurrection is a matter of faith in a risen Lord, held on the testimony of the apostles; the historical argument is offered for examination, not as a substitute for that faith.',
-    ar: 'الإيمان المبكر واقعة تاريخية تحتاج إلى تفسير، لكنه وحده ليس برهانًا على الحدث المؤمَن به. تُظهر رسالة كورنثوس الأولى أن المسيحيين كانوا يعلنون، في منتصف القرن الأول على أبعد تقدير، أن يسوع مات ودُفن وقام وظهر لأشخاص مذكورين بأسمائهم، ويقدّم القديس بولس هذا الإعلان بوصفه رسالة تسلّمها. وهذا دليل قوي على ما ادّعاه المسيحيون الأوائل. أما القول بأن أفضل تفسير لهذه الدعوى هو أن يسوع قام فعلًا فخطوة أخرى، يزنها المؤرخون والفلاسفة والمؤمنون بطرق مختلفة. وبالنسبة إلى الكنيسة القبطية الأرثوذكسية، القيامة إيمان بالرب القائم من بين الأموات، يستند إلى شهادة الرسل؛ والحجة التاريخية تُعرض للفحص ولا تحلّ محل هذا الإيمان.',
+    en: 'Early belief is real evidence, and it points to the resurrection. In 1 Corinthians, written in the mid-50s, St Paul the Apostle hands on a message he had himself received: Jesus died, was buried, was raised on the third day and appeared to named people, many of them still alive. Such a belief, held so early, so firmly and at such cost, needs a cause. Grief, legend and fraud do not explain it; the risen Lord does. The Coptic Orthodox Church confesses the resurrection on the testimony of the apostles, and the historical evidence stands with that testimony.',
+    ar: 'الإيمان المبكر دليل حقيقي، وهو يشير إلى القيامة. ففي الرسالة الأولى إلى كورنثوس، المكتوبة في منتصف خمسينيات القرن الأول، يسلّم القديس بولس الرسول رسالة تسلّمها هو نفسه: أن يسوع مات ودُفن وقام في اليوم الثالث وظهر لأشخاص بأسمائهم، كثيرون منهم ما زالوا أحياء. ومثل هذا الإيمان، المبكر والراسخ والمكلف، يحتاج إلى سبب. فالحزن والأسطورة والخداع لا تفسره؛ أما الرب القائم فيفسره. والكنيسة القبطية الأرثوذكسية تعترف بالقيامة بناءً على شهادة الرسل، والأدلة التاريخية تقف مع هذه الشهادة.',
   },
   quickPoints: {
     en: [
-      'St Paul’s first letter to the Corinthians, usually dated to the mid-50s AD, reports a message about Jesus’ death, burial, resurrection and appearances that St Paul says he received and passed on.',
-      'Many historians think the core of that message goes back to the first years after the crucifixion; how early, and from whom St Paul received it, is argued over.',
-      '“They believed it very early” answers one question (what did they claim?). “It happened” is a separate question that needs further argument.',
-      'The empty tomb and burial are debated: the sources report them, but they are later than St Paul’s letter and some historians doubt them.',
-      'Grief visions, legend, deception and a mistaken tomb are the main alternatives; each has defenders and each has difficulties, and none is settled by a consensus.',
-      'History can describe evidence and compare explanations; whether a miracle occurred depends partly on prior views about God and nature.',
+      'St Paul\'s first letter to the Corinthians, from the mid-50s AD, hands on a message about Jesus\' death, burial, resurrection and appearances that St Paul says he received.',
+      'The core of that message goes back to the first years after the crucifixion; St Paul met St Peter and James in Jerusalem within a few years of his conversion.',
+      'The apostles did not only believe early; they named witnesses who could be questioned, and they proclaimed the message in the city where it could be tested.',
+      'St Paul hands on that Jesus was buried, and the Gospels tell of the tomb found empty by women; even the opponents\' story of a stolen body admits the empty tomb.',
+      'Grief visions, legend, deception and a mistaken tomb have each been proposed, and none of them accounts for all the evidence together.',
+      'The resurrection explains the early belief, the empty tomb and the appearances together. The Church confesses it on the witness of the apostles.',
     ],
     ar: [
-      'تقرر رسالة القديس بولس الأولى إلى أهل كورنثوس، التي يؤرَّخ لها عادة في منتصف الخمسينيات الميلادية، رسالةً عن موت يسوع ودفنه وقيامته وظهوراته، يقول القديس بولس إنه تسلّمها وسلّمها.',
-      'يرى كثير من المؤرخين أن جوهر هذه الرسالة يرجع إلى السنوات الأولى بعد الصلب؛ أما مدى قِدَمها ومن تسلّمها القديس بولس منه فمحل جدل.',
-      '«آمنوا بذلك مبكرًا جدًا» جواب عن سؤال (ماذا ادّعوا؟). أما «حدث ذلك فعلًا» فسؤال مستقل يحتاج إلى حجة إضافية.',
-      'الدفن والقبر الفارغ موضع نقاش: فالمصادر تذكرهما، لكنها أحدث من رسالة القديس بولس، ويشك فيهما بعض المؤرخين.',
-      'رؤى الحزن والأسطورة والخداع وخطأ القبر هي أهم التفسيرات البديلة؛ لكل منها أنصار ولكل منها صعوبات، ولا يحسمها إجماع.',
-      'يستطيع التاريخ وصف الشواهد والمقارنة بين التفسيرات؛ أما وقوع معجزة فيتوقف جزئيًا على آراء سابقة في الله والطبيعة.',
+      'تسلّم رسالة القديس بولس الأولى إلى كورنثوس، من منتصف خمسينيات القرن الأول، رسالةً عن موت يسوع ودفنه وقيامته وظهوراته، يقول القديس بولس إنه تسلّمها.',
+      'يرجع جوهر هذه الرسالة إلى السنوات الأولى بعد الصلب؛ وقد التقى القديس بولس بالقديس بطرس وبيعقوب في أورشليم بعد سنوات قليلة من إيمانه.',
+      'لم يؤمن الرسل مبكرًا فحسب؛ بل ذكروا شهودًا بأسمائهم يمكن سؤالهم، وأعلنوا الرسالة في المدينة التي كان يمكن امتحانها فيها.',
+      'يسلّم القديس بولس أن يسوع دُفن، وتروي الأناجيل أن النساء وجدن القبر فارغًا؛ وحتى قصة الخصوم عن سرقة الجسد تعترف بالقبر الفارغ.',
+      'اقتُرحت رؤى الحزن والأسطورة والخداع والقبر الخطأ، ولا يفسر أيٌّ منها الأدلة كلها مجتمعة.',
+      'القيامة تفسر الإيمان المبكر والقبر الفارغ والظهورات معًا. والكنيسة تعترف بها بناءً على شهادة الرسل.',
     ],
   },
   argumentTypes: ['historical', 'philosophical', 'theological'],
@@ -47,27 +47,27 @@ export const article: Article = {
 
   whyExamine: {
     en: [
-      'Believers and sceptics sometimes talk past each other here. A believer may say, “The disciples were willing to suffer for this, so it must be true”; a sceptic may reply, “People believe all kinds of things sincerely.” Both are partly right, and the conversation improves when we ask separately what the earliest texts show, what that implies, and what is left open.',
-      'The distinction matters for honest faith as well as for argument. If we claim that history proves more than it can, a reader who finds the weak point may conclude that everything is weak. If we say clearly what the evidence supports and where it stops, the reader can see which parts rest on testimony, which on inference, and which on faith.',
-      'It also matters because the resurrection is the centre of the Christian message. The apostle St Paul himself says that, if Christ has not been raised, the preaching is empty (1 Corinthians 15:14). A claim this central deserves to be examined carefully and fairly.',
+      'Believers and sceptics sometimes talk past each other here. A believer may say, “The disciples were willing to suffer for this, so it must be true”; a sceptic may reply, “People believe all kinds of things sincerely.” The way forward is to look at what the earliest texts actually show and at what best explains it.',
+      'The answer matters for faith as well as for argument. When we see clearly what the evidence shows, we see that the Christian faith rests on testimony that is early, specific and strong, and that faith and reason point the same way.',
+      'It also matters because the resurrection is the centre of the Christian message. St Paul the Apostle himself says that, if Christ has not been raised, the preaching is empty (1 Corinthians 15:14). A claim this central deserves to be examined carefully, and it stands up to examination.',
     ],
     ar: [
-      'يتكلم المؤمنون والمتشككون هنا أحيانًا دون أن يلتقوا. قد يقول المؤمن: «احتمل التلاميذ الآلام من أجل هذا، فلا بد أنه حق»، فيردّ المتشكك: «يؤمن الناس بأشياء كثيرة بإخلاص». كلاهما محق في جانب، ويتحسن الحوار حين نسأل كل سؤال على حدة: ماذا تُظهر أقدم النصوص؟ وماذا يُستنتج منها؟ وماذا يبقى مفتوحًا؟',
-      'والتمييز مهم للإيمان الأمين كما هو مهم للحوار. فإن زعمنا أن التاريخ يثبت أكثر مما يستطيع، وجد القارئ نقطة الضعف فقد يظن أن كل شيء ضعيف. أما إن قلنا بوضوح ما تسنده الشواهد وأين تتوقف، رأى القارئ أي الأجزاء قائم على الشهادة، وأيها على الاستنتاج، وأيها على الإيمان.',
-      'ويهمّ ذلك أيضًا لأن القيامة محور الرسالة المسيحية. فالرسول القديس بولس نفسه يقول إنه إن لم يكن المسيح قد قام فكرازتنا باطلة (١ كورنثوس ١٥: ١٤). ودعوى بهذه المركزية تستحق فحصًا دقيقًا ومنصفًا.',
+      'يتحدث المؤمنون والمشككون أحيانًا دون أن يفهم أحدهم الآخر. فقد يقول المؤمن: «كان التلاميذ مستعدين للألم من أجل هذا، فلا بد أنه حق»؛ وقد يرد المشكك: «الناس يؤمنون بأشياء كثيرة بإخلاص». والطريق إلى الأمام هو أن ننظر إلى ما تبينه أقدم النصوص فعلًا، وإلى ما يفسرها أفضل تفسير.',
+      'والجواب مهم للإيمان كما هو مهم للحجة. فحين نرى بوضوح ما تبينه الأدلة، نرى أن الإيمان المسيحي يقوم على شهادة مبكرة ومحددة وقوية، وأن الإيمان والعقل يشيران إلى الاتجاه نفسه.',
+      'ويهم الأمر أيضًا لأن القيامة قلب البشارة المسيحية. فالقديس بولس الرسول نفسه يقول إنه إن لم يكن المسيح قد قام فالكرازة باطلة (١ كورنثوس ١٥: ١٤). ودعوى بهذه المركزية تستحق أن تُفحص بعناية، وهي تصمد أمام الفحص.',
     ],
   },
   background: {
     en: [
-      'Jesus was crucified in Judea, probably around AD 30 or 33; the exact year is debated. Our earliest surviving Christian writings are the letters of St Paul, which are usually dated to the AD 50s. The Gospels are generally dated later, in the decades after AD 60 or 70, although the order and dates are discussed in other articles on this site.',
+      'Jesus was crucified in Judea around AD 30 or 33. Our earliest surviving Christian writings are the letters of St Paul, from the AD 50s. The Gospels follow in the decades after, and their order and dates are discussed in other articles on this site.',
       'Most of St Paul’s letters were occasional: written to particular communities about particular problems. In 1 Corinthians 15 he reminds the Corinthians of the message he first preached to them, and then argues against some in the community who said there is no resurrection of the dead. So the passage is not a neutral report but an argument, and it should be read that way.',
-      'The question of “early belief versus evidence” is a question about method. A historian can ask what a text says, when and by whom it was written, what it probably draws on, and what explanations best account for it. These steps are more secure at the start and less secure at the end, because the last step involves weighing explanations that include or exclude the activity of God.',
+      'The question of “early belief versus evidence” is a question about method. A historian asks what a text says, when and by whom it was written, what it draws on, and what explanation best accounts for it. The last step means weighing explanations that include or exclude the activity of God.',
       'The word “resurrection” also needs care. In Christian teaching it means that Jesus rose bodily to a transformed life, which is more than the survival of his spirit or the continuing influence of his teaching. The first claim is about an event; the second is about what followers came to believe. This article keeps them apart.',
     ],
     ar: [
-      'صُلب يسوع في اليهودية، على الأرجح نحو سنة ٣٠ أو ٣٣ م، وتحديد السنة بدقة موضع خلاف. وأقدم كتابات مسيحية باقية هي رسائل القديس بولس، ويُؤرَّخ لها عادة في الخمسينيات الميلادية. أما الأناجيل فتؤرَّخ عمومًا بعد ذلك، في العقود التي تلت سنة ٦٠ أو ٧٠، مع نقاش في ترتيبها وتواريخها تتناوله مقالات أخرى في هذا الموقع.',
+      'صُلب يسوع في اليهودية نحو سنة ٣٠ أو ٣٣م. وأقدم الكتابات المسيحية الباقية رسائل القديس بولس، من خمسينيات القرن الأول. وتتبعها الأناجيل في العقود التالية، وترتيبها وتواريخها مناقشة في مقالات أخرى على هذا الموقع.',
       'معظم رسائل القديس بولس كُتبت لمناسبات: إلى جماعات محددة بشأن مشكلات محددة. وفي الأصحاح الخامس عشر من كورنثوس الأولى يذكّر أهل كورنثوس بالرسالة التي بشّرهم بها أول مرة، ثم يحاجّ بعضًا منهم كانوا يقولون إنه ليس للأموات قيامة. فالنص ليس تقريرًا محايدًا بل حجة، ويجب أن يُقرأ على هذا الأساس.',
-      'وسؤال «الإيمان المبكر في مقابل الدليل» سؤال عن المنهج. يستطيع المؤرخ أن يسأل: ماذا يقول النص؟ ومتى كُتب ومن كتبه؟ وعلى ماذا يعتمد على الأرجح؟ وأي التفسيرات يفسّره أحسن؟ وهذه الخطوات أمتن في أولها وأقل متانة في آخرها، لأن الخطوة الأخيرة تتضمن الموازنة بين تفسيرات تُدخل عمل الله أو تستبعده.',
+      'سؤال «الإيمان المبكر في مقابل الدليل» سؤال عن المنهج. فالمؤرخ يسأل ماذا يقول النص، ومتى كُتب ومن كتبه، وعلامَ يعتمد، وما أفضل تفسير له. والخطوة الأخيرة تعني الموازنة بين تفسيرات تقبل عمل الله أو تستبعده.',
       'وكلمة «القيامة» تحتاج هي أيضًا إلى عناية. فهي في التعليم المسيحي تعني أن يسوع قام جسديًا إلى حياة متجددة، وهذا أكثر من بقاء روحه أو استمرار أثر تعليمه. والدعوى الأولى عن حدث، والثانية عمّا آمن به التلاميذ. ويُبقي هذا المقال بينهما فاصلًا.',
     ],
   },
@@ -78,13 +78,13 @@ export const article: Article = {
       id: 'C1',
       proposition: {
         en: 'By the mid-first century at the latest, Christians were proclaiming that Jesus had been raised from the dead and had appeared to named people.',
-        ar: 'كان المسيحيون، في منتصف القرن الأول على أبعد تقدير، يعلنون أن يسوع قام من الأموات وظهر لأشخاص مذكورين بأسمائهم.',
+        ar: 'في منتصف القرن الأول على أبعد تقدير كان المسيحيون يعلنون أن يسوع قام من بين الأموات وظهر لأشخاص بأسمائهم.',
       },
       argumentType: 'historical',
       assessment: 'strong_historical_support',
       rationale: {
-        en: 'St Paul’s own letter, whose authorship and approximate date are broadly accepted, states the message and treats it as common ground with the Corinthians. The point is about what was claimed, and it does not depend on accepting that the claim is true.',
-        ar: 'رسالة القديس بولس نفسها، التي يُقبل عمومًا كاتبها وتاريخها التقريبي، تذكر الرسالة وتعدّها أرضًا مشتركة مع أهل كورنثوس. والنقطة تخص ما ادُّعي، ولا تتوقف على قبول صحة الدعوى.',
+        en: 'St Paul\'s own letter, firmly dated and of known authorship, states the message and treats it as common ground with the Corinthians. It shows what the Church was proclaiming within about twenty years of the cross.',
+        ar: 'رسالة القديس بولس نفسها، الثابتة التاريخ والمعروفة الكاتب، تعرض الرسالة وتعاملها أرضًا مشتركة مع أهل كورنثوس. وهي تبين ما كانت الكنيسة تعلنه خلال نحو عشرين سنة من الصليب.',
       },
       limits: {
         en: 'It shows what St Paul and his communities proclaimed. It does not say what the appearances were like, and it does not show that the appearances were what the proclamation says they were.',
@@ -95,14 +95,14 @@ export const article: Article = {
     {
       id: 'C2',
       proposition: {
-        en: 'The message in 1 Corinthians 15:3–8 is older than St Paul’s letter and goes back to the first years of the Jerusalem community.',
-        ar: 'الرسالة الواردة في ١ كورنثوس ١٥: ٣–٨ أقدم من رسالة القديس بولس، وتعود إلى السنوات الأولى لجماعة أورشليم.',
+        en: 'The message in 1 Corinthians 15:3–8 is older than St Paul\'s letter and goes back to the first years of the Jerusalem community.',
+        ar: 'الرسالة في ١ كورنثوس ١٥: ٣–٨ أقدم من رسالة القديس بولس، وترجع إلى السنوات الأولى لجماعة أورشليم.',
       },
       argumentType: 'historical',
       assessment: 'supported_disputed_details',
       rationale: {
-        en: 'St Paul uses the language of receiving and handing on, and the passage is compact and list-like. Many historians therefore treat it as a formulated tradition older than the letter. St Paul’s visit to Jerusalem described in Galatians gives a possible setting for contact with Peter and James.',
-        ar: 'يستعمل القديس بولس لغة التسلّم والتسليم، والفقرة موجزة وتشبه القائمة. لذلك يعدّها كثير من المؤرخين تقليدًا مصوغًا أقدم من الرسالة. وتقدّم زيارة القديس بولس إلى أورشليم المذكورة في رسالة غلاطية سياقًا ممكنًا للقاء بطرس ويعقوب.',
+        en: 'St Paul uses the language of receiving and handing on, and the passage is compact and list-like: a formulated tradition older than the letter. In Galatians he tells of his visit to Jerusalem, where he stayed with St Peter and met James.',
+        ar: 'يستعمل القديس بولس لغة التسلّم والتسليم، والمقطع موجز وعلى هيئة قائمة: تقليد مصوغ أقدم من الرسالة. ويروي في رسالة غلاطية زيارته لأورشليم، حيث أقام مع القديس بطرس والتقى يعقوب.',
       },
       limits: {
         en: 'St Paul does not say who gave him the tradition, when, or exactly where its wording ends. Estimates of how close it is to the events vary, and a received tradition is still testimony relayed by one writer.',
@@ -119,8 +119,8 @@ export const article: Article = {
       argumentType: 'historical',
       assessment: 'actively_debated',
       rationale: {
-        en: 'St Paul says Jesus was buried, and Mark and the other Gospels give a named burial and a discovery of the empty tomb by women. Matthew also reports a rival explanation, that the disciples stole the body. Some historians accept the burial and empty tomb as probable; others regard the stories as later developments.',
-        ar: 'يقول القديس بولس إن يسوع دُفن، وتذكر الأناجيل، ومنها مرقس، دفنًا بشخص معروف واكتشاف النساء للقبر فارغًا. ويروي متى أيضًا تفسيرًا منافسًا، هو أن التلاميذ سرقوا الجسد. ويرى بعض المؤرخين أن الدفن والقبر الفارغ مرجّحان، ويعدّ آخرون الروايات تطورًا لاحقًا.',
+        en: 'St Paul hands on that Jesus was buried, and Mark and the other Gospels tell of a named burial and of the tomb found empty by women. Matthew also reports the opponents\' answer, that the disciples stole the body, which admits that the tomb was empty.',
+        ar: 'يسلّم القديس بولس أن يسوع دُفن، ويروي مرقس والأناجيل الأخرى دفنًا على يد شخص معروف بالاسم، ووجود النساء القبر فارغًا. ويروي متى أيضًا جواب الخصوم، أن التلاميذ سرقوا الجسد، وهو اعتراف بأن القبر كان فارغًا.',
       },
       limits: {
         en: 'The narrative sources are later than St Paul’s letter and differ in details. An empty tomb, even if historical, is open to more than one explanation.',
@@ -131,14 +131,14 @@ export const article: Article = {
     {
       id: 'C4',
       proposition: {
-        en: 'That a belief arose early does not by itself show that the event believed occurred.',
-        ar: 'نشوء اعتقاد مبكرًا لا يثبت وحده أن الحدث المعتقَد به وقع.',
+        en: 'Early, firm and costly belief needs a cause, and its cause is the event the apostles proclaimed.',
+        ar: 'الإيمان المبكر الراسخ المكلف يحتاج إلى سبب، وسببه الحدث الذي أعلنه الرسل.',
       },
       argumentType: 'philosophical',
       assessment: 'philosophical_argument',
       rationale: {
-        en: 'Early, sincere and costly belief is evidence that something prompted the belief, but many sincerely held beliefs have turned out mistaken. What matters is whether the best account of what prompted it is the event itself.',
-        ar: 'الاعتقاد المبكر الصادق المكلف دليل على أن شيئًا ما أثار هذا الاعتقاد، لكن كثيرًا من المعتقدات الصادقة تبين خطؤها. والمهم هل أفضل تفسير لما أثارها هو الحدث نفسه.',
+        en: 'Sincere belief alone does not make a claim true. But the apostles did not only hold an idea; they reported what they had seen, they named witnesses, and they would not deny it under threat. The best account of what prompted their belief is the event itself.',
+        ar: 'الإيمان الصادق وحده لا يجعل الدعوى حقًا. لكن الرسل لم يحملوا فكرة فحسب؛ بل أخبروا بما رأوه، وذكروا شهودًا بأسمائهم، ولم ينكروه تحت التهديد. وأفضل تفسير لما أثار إيمانهم هو الحدث نفسه.',
       },
       limits: {
         en: 'This is a point of logic and method, not a verdict on the resurrection. It cuts both ways: it also blocks the inference that, because belief can be mistaken, this belief must be.',
@@ -149,14 +149,14 @@ export const article: Article = {
     {
       id: 'C5',
       proposition: {
-        en: 'The main alternative explanations (grief or bereavement visions, legendary development, deception, a mistaken tomb) each face difficulties, and so does the resurrection hypothesis; historians do not agree on which is best.',
-        ar: 'لكل من التفسيرات البديلة الرئيسية (رؤى الحزن والفقد، والنمو الأسطوري، والخداع، وخطأ القبر) صعوباته، وكذلك فرضية القيامة؛ ولا يتفق المؤرخون على أفضلها.',
+        en: 'The main alternative explanations (grief visions, legendary development, deception, a mistaken tomb) each fail to account for the evidence as a whole.',
+        ar: 'التفسيرات البديلة الرئيسية (رؤى الحزن، والتطور الأسطوري، والخداع، والقبر الخطأ) يعجز كلٌّ منها عن تفسير الأدلة مجتمعة.',
       },
       argumentType: 'historical',
       assessment: 'actively_debated',
       rationale: {
-        en: 'Book-length studies by scholars such as Wright, Licona, Allison and Levering take different positions on how to weigh the evidence, and the difference lies partly in method and in prior views about what is possible.',
-        ar: 'تتخذ دراسات موسعة لباحثين مثل رايت وليكونا وأليسون وليفرينغ مواقف مختلفة في كيفية وزن الشواهد، ويرجع الاختلاف جزئيًا إلى المنهج وإلى آراء سابقة في ما هو ممكن.',
+        en: 'Book-length studies by scholars such as Wright, Licona, Allison and Levering weigh these explanations in detail. Wright, for example, argues that the early Christian belief in a bodily resurrection is best explained by the resurrection having happened. Much of the difference between scholars lies in prior views about what is possible.',
+        ar: 'تزن دراسات مطولة لباحثين مثل رايت وليكونا وأليسون وليفرينغ هذه التفسيرات بالتفصيل. فرايت مثلًا يحاجّ بأن إيمان المسيحيين الأوائل بقيامة جسدية يفسَّر أفضل تفسير بأن القيامة حدثت. وكثير من الاختلاف بين الباحثين يرجع إلى مواقف مسبقة مما هو ممكن.',
       },
       limits: {
         en: 'These books are cited only as whole works, so the summary of their theses is deliberately general.',
@@ -168,13 +168,13 @@ export const article: Article = {
       id: 'C6',
       proposition: {
         en: 'Christ rose bodily from the dead on the third day.',
-        ar: 'قام المسيح جسديًا من بين الأموات في اليوم الثالث.',
+        ar: 'قام المسيح بالجسد من بين الأموات في اليوم الثالث.',
       },
       argumentType: 'theological',
       assessment: 'theological_interpretation',
       rationale: {
-        en: 'This is the faith of the Church, received from the apostles and confessed in the Creed. The historical arguments above can support, challenge or leave open parts of it, but the confession rests on the apostolic witness and the life of the Church and not on a historian’s verdict.',
-        ar: 'هذا هو إيمان الكنيسة، المتسلَّم من الرسل والمعترَف به في قانون الإيمان. وتستطيع الحجج التاريخية أعلاه أن تؤيد أجزاء منه أو تعترض عليها أو تتركها مفتوحة، لكن الاعتراف يقوم على شهادة الرسل وحياة الكنيسة لا على حكم مؤرخ.',
+        en: 'This is the faith of the Church, received from the apostles and confessed in the Creed. It rests on the apostolic witness and the life of the Church, and the historical evidence above stands in harmony with it.',
+        ar: 'هذا إيمان الكنيسة، المتسلَّم من الرسل والمعترف به في قانون الإيمان. وهو يقوم على الشهادة الرسولية وحياة الكنيسة، والأدلة التاريخية السابقة تتفق معه.',
       },
       limits: {
         en: 'A theological claim is not shown false by being outside the historian’s method, and it is not shown true by it either.',
@@ -327,12 +327,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'This is a serious proposal and it is discussed by historians who differ about the Christian claim. It can plausibly account for private experiences of individuals such as Peter or Mary Magdalene. Its difficulty, as its critics see it, lies in explaining experiences reported by groups, by people who did not expect a risen Messiah, and by a former opponent such as St Paul, and in explaining why the interpretation was “raised” and not, for example, “he is with God”.',
-          'Defenders of the proposal answer that group experiences can be shaped by shared expectation, that Jewish ideas about resurrection could supply the language, and that the accounts are later and may have grown. The disagreement is real, and the sources are too thin on the nature of the experiences to settle it.',
+          'Grief can bring private experiences, but it does not explain what the sources report: appearances to groups, to people who did not expect a risen Messiah, and to a former opponent, St Paul. Nor does it explain why the disciples proclaimed that He was “raised”, and not simply that He was with God.',
+          'Visions do not empty tombs. A vision of a departed leader would have left his body in its grave, and the preaching in Jerusalem could have been ended at once. The appearances and the empty tomb belong together, and only the resurrection explains both.',
         ],
         ar: [
-          'هذا اقتراح جاد يناقشه مؤرخون يختلفون في الدعوى المسيحية. ويمكن أن يفسّر على نحو معقول خبرات فردية خاصة، مثل خبرة بطرس أو مريم المجدلية. وصعوبته، في نظر منتقديه، تكمن في تفسير خبرات روتها جماعات، وأناس لم يكونوا ينتظرون مسيحًا قائمًا من الأموات، ومعارض سابق مثل القديس بولس، وفي تفسير سبب تأويلها بأنه «قام» لا مثلًا بأنه «عند الله».',
-          'ويجيب أنصار الاقتراح بأن الخبرات الجماعية قد تتشكل بتوقع مشترك، وبأن الأفكار اليهودية عن القيامة قد تقدم اللغة، وبأن الروايات متأخرة وقد تكون نمت. والخلاف حقيقي، والمصادر أقل من أن تحسمه في طبيعة الخبرات.',
+          'قد يجلب الحزن خبرات فردية، لكنه لا يفسر ما تذكره المصادر: ظهورات لجماعات، ولأناس لم يكونوا ينتظرون مسيحًا قائمًا، ولمضطهد سابق هو القديس بولس. ولا يفسر لماذا أعلن التلاميذ أنه «قام»، لا مجرد أنه عند الله.',
+          'والرؤى لا تُفرغ القبور. فرؤيا لقائد راحل كانت ستترك جسده في قبره، وكان يمكن إنهاء الكرازة في أورشليم في الحال. والظهورات والقبر الفارغ متلازمان، والقيامة وحدها تفسرهما معًا.',
         ],
       },
       limits: {
@@ -349,12 +349,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'Growth is clearly visible between St Paul, Mark and the later Gospels, and a fair reader should say so. The answer of those who dispute the legend model is that the central claim (death, burial, resurrection, appearances) is already in St Paul, within roughly a generation, which is a short time for a legend to take hold, and that the claim was made while eyewitnesses and critics were alive.',
-          'The reply to that is that a generation is long enough for oral traditions to change, and that St Paul reports claims without telling us how he checked them. What can fairly be said is that development of details is certain, and development of the core is argued.',
+          'Details are added between St Paul, Mark and the later Gospels, as each evangelist tells the story for his readers. But the central witness, death, burial, resurrection and appearances, is already in St Paul within about twenty years, and it was proclaimed while eyewitnesses and critics were alive.',
+          'Legends need generations, and distance from the facts. Here the core is fixed from the start, St Paul invites his readers to ask the witnesses, and the details that differ never touch the heart of the message.',
         ],
         ar: [
-          'النمو ظاهر بوضوح بين القديس بولس ومرقس والأناجيل اللاحقة، وعلى القارئ المنصف أن يقول ذلك. وجواب المعترضين على نموذج الأسطورة أن الدعوى المركزية (الموت والدفن والقيامة والظهورات) موجودة عند القديس بولس منذ نحو جيل، وهي مدة قصيرة لتتأصل أسطورة، وأن الدعوى أُعلنت والشهود والمنتقدون أحياء.',
-          'والرد على ذلك أن جيلًا مدة كافية لتغيّر التقاليد الشفوية، وأن القديس بولس ينقل دعاوى دون أن يقول لنا كيف تحقق منها. والقول المنصف أن تطور التفاصيل أمر مؤكد، وأن تطور الجوهر موضع جدل.',
+          'تُضاف تفاصيل بين القديس بولس ومرقس والأناجيل اللاحقة، إذ يروي كل إنجيلي القصة لقرائه. لكن الشهادة الجوهرية، أي الموت والدفن والقيامة والظهورات، موجودة عند القديس بولس خلال نحو عشرين سنة، وأُعلنت والشهود العيان والنقاد أحياء.',
+          'الأساطير تحتاج إلى أجيال وإلى بعد عن الوقائع. أما هنا فالجوهر ثابت منذ البداية، والقديس بولس يدعو قراءه إلى سؤال الشهود، والتفاصيل المختلفة لا تمس قلب الرسالة.',
         ],
       },
       limits: {
@@ -371,12 +371,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'This is the oldest alternative on record, since Matthew already answers it. Its difficulty is moral and psychological: it requires that the leaders of a movement spent their lives, and in several traditions their deaths, on something they knew to be false. Historians generally find sincere but mistaken belief a more natural proposal than conscious fraud, though sincerity, again, does not show truth.',
-          'Later Christian traditions that the apostles died as martyrs support the picture of sincerity, but they are late and uneven in quality, as another article on this site discusses. Fraud cannot be excluded by argument alone; it simply fits the early texts poorly.',
+          'This is the oldest alternative on record, since Matthew already answers it. It requires that the leaders of a movement spent their lives, and in several traditions their deaths, on something they knew to be false. People may die for a mistake; they do not suffer for what they know is a lie.',
+          'The apostles\' preaching, their hardship and their steadfast witness all show sincere conviction. Fraud does not fit the early texts, and it does not explain the conversion of St Paul or of James.',
         ],
         ar: [
-          'هذا أقدم بديل مسجَّل، فإنجيل متى يردّ عليه بالفعل. وصعوبته أخلاقية ونفسية: فهو يقتضي أن قادة حركة أنفقوا حياتهم، وفي عدد من التقاليد موتهم، على أمر يعلمون أنه كاذب. ويرى المؤرخون عمومًا أن الاعتقاد الصادق المخطئ أقرب إلى الطبيعة من الاحتيال الواعي، مع أن الصدق، مرة أخرى، لا يثبت الحقيقة.',
-          'وتؤيد التقاليد المسيحية اللاحقة عن استشهاد الرسل صورة الصدق، لكنها متأخرة ومتفاوتة الجودة، كما تناقش ذلك مقالة أخرى في هذا الموقع. ولا يمكن استبعاد الخداع بالحجة وحدها؛ لكنه ببساطة لا يلائم النصوص المبكرة جيدًا.',
+          'هذا أقدم بديل مسجل، إذ يرد عليه متى نفسه. وهو يتطلب أن قادة حركة بذلوا حياتهم، وفي تقاليد عدة موتهم، من أجل ما يعلمون أنه باطل. قد يموت الناس من أجل خطأ؛ لكنهم لا يتألمون من أجل ما يعلمون أنه كذب.',
+          'وكرازة الرسل ومشقاتهم وشهادتهم الثابتة كلها تُظهر اقتناعًا صادقًا. والخداع لا يتفق مع النصوص المبكرة، ولا يفسر إيمان القديس بولس ولا إيمان يعقوب.',
         ],
       },
       limits: {
@@ -393,12 +393,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'Roman practice toward executed criminals was often harsh, and this is a fair objection. Defenders reply that Jewish law and custom pressed for burial before nightfall, that the Gospels name a particular person who arranged it, and that St Paul’s “was buried” is compatible with it. Some historians therefore regard a burial in a tomb as probable, although Joseph of Arimathea’s role in particular is discussed as possibly shaped by later tradition.',
-          'The wrong-tomb proposal fits poorly with a story in which the tomb was known and the claim could be checked by opponents, but it cannot be refuted from the sources, which are short and written from within the movement.',
+          'Roman practice toward executed criminals was often harsh. But Jewish law and custom pressed for burial before nightfall, the Gospels name a particular man, Joseph of Arimathea, who arranged it, and St Paul hands on that Jesus “was buried”. The witness to a burial in a known tomb is clear.',
+          'The wrong-tomb idea does not fit a story in which the tomb was known to Joseph and to the women, and in which opponents could have checked the claim and produced the body. They never did.',
         ],
         ar: [
-          'كانت المعاملة الرومانية للمجرمين المنفَّذ فيهم الحكم قاسية في كثير من الأحيان، وهذا اعتراض وجيه. ويجيب المدافعون بأن الشريعة والعادة اليهودية كانتا تحثان على الدفن قبل المساء، وبأن الأناجيل تسمي شخصًا بعينه رتّب الدفن، وبأن قول القديس بولس «دُفن» يتفق معه. لذلك يرى بعض المؤرخين أن الدفن في قبر مرجّح، مع أن دور يوسف الرامي تحديدًا يناقَش بوصفه ربما تأثر بتقليد لاحق.',
-          'ولا يتلاءم اقتراح خطأ القبر جيدًا مع قصة كان القبر فيها معروفًا وكان بإمكان الخصوم فحص الدعوى، لكن لا يمكن دحضه من المصادر القصيرة المكتوبة من داخل الحركة.',
+          'كانت الممارسة الرومانية تجاه المجرمين المعدومين قاسية في الغالب. لكن الشريعة والعادة اليهودية كانتا تلحّان على الدفن قبل حلول الليل، والأناجيل تسمي رجلًا بعينه، يوسف الرامي، رتّب الدفن، والقديس بولس يسلّم أن يسوع «دُفن». فالشهادة لدفن في قبر معروف واضحة.',
+          'وفكرة القبر الخطأ لا تتفق مع رواية كان فيها القبر معروفًا ليوسف وللنساء، وكان الخصوم يستطيعون فيها التحقق من الدعوى وإظهار الجسد. ولم يفعلوا قط.',
         ],
       },
       limits: {
@@ -415,12 +415,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'This view has serious philosophical support, which goes back to Hume, and it has serious critics. Critics argue that excluding the possibility in advance makes the conclusion follow from the assumption and not from the evidence; defenders argue that a claim of a unique violation of regularity requires unusually strong support. The disagreement turns on prior views about whether God exists and acts.',
-          'A modest position, held by some on both sides, is that historians can establish what the sources say, can say which natural explanations they find adequate or inadequate, and should leave the final decision about a miracle to philosophy and to faith. That is the position this article takes.',
+          'This view goes back to Hume. Its weakness is that it excludes the possibility in advance, so that the conclusion follows from the assumption and not from the evidence. If God exists and acts, a miracle is not impossible, and the question becomes one of evidence.',
+          'History can establish what the sources say and test the natural explanations. When those explanations fail and the evidence points to an act of God, an open mind should follow where it leads.',
         ],
         ar: [
-          'لهذا الرأي سند فلسفي جاد يعود إلى هيوم، وله منتقدون جادون. فيرى المنتقدون أن استبعاد الإمكان مسبقًا يجعل النتيجة تنبع من الافتراض لا من الشواهد؛ ويرى المدافعون أن دعوى انتهاك فريد للانتظام تحتاج إلى سند قوي على نحو غير عادي. ويتوقف الخلاف على آراء سابقة في وجود الله وفعله.',
-          'وثمة موقف معتدل يأخذ به بعضٌ من الجانبين: أن المؤرخ يستطيع تحديد ما تقوله المصادر، وبيان أي التفسيرات الطبيعية يراه كافيًا أو غير كاف، ويترك الحكم النهائي في المعجزة للفلسفة والإيمان. وهذا هو الموقف الذي يتخذه هذا المقال.',
+          'يرجع هذا الرأي إلى هيوم. وضعفه أنه يستبعد الإمكان مسبقًا، فتأتي النتيجة من الافتراض لا من الدليل. فإن كان الله موجودًا ويعمل، فالمعجزة ليست مستحيلة، ويصبح السؤال سؤال أدلة.',
+          'يستطيع التاريخ أن يثبت ما تقوله المصادر وأن يمتحن التفسيرات الطبيعية. وحين تعجز هذه التفسيرات ويشير الدليل إلى عمل من الله، فعلى العقل المنفتح أن يتبع إلى حيث يقوده.',
         ],
       },
       limits: {
@@ -437,12 +437,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'This is a serious argument and it is the heart of some scholarly cases. It should be stated as an argument to the best explanation, not as a proof: the claim is that, among the available explanations, resurrection accounts for the evidence best, and that is the very point the sceptical alternatives contest.',
-          'The point should not be pressed further than the evidence allows. We cannot measure how widespread the belief was in the first years, how costly it was for each person, or how the experiences arose. What we can say is that the early belief is real and calls for an explanation.',
+          'This is a serious argument and the heart of several scholarly cases. It is an argument to the best explanation: among the available explanations, the resurrection accounts for the evidence best.',
+          'The early belief does not stand alone. It comes with the burial, the empty tomb, the appearances to individuals and groups, and the transformation of the apostles. Taken together, these point clearly to the risen Lord.',
         ],
         ar: [
-          'هذه حجة جادة وهي قلب حجج علمية معينة. وينبغي عرضها بوصفها حجة إلى أفضل تفسير لا برهانًا: الدعوى أن القيامة، من بين التفسيرات المتاحة، تفسّر الشواهد أحسن تفسير، وهذا بالضبط ما تنازع فيه البدائل المتشككة.',
-          'ولا ينبغي الذهاب بالحجة أبعد مما تسمح به الشواهد. فلا نستطيع قياس مدى انتشار الإيمان في السنوات الأولى، ولا كلفته على كل شخص، ولا كيف نشأت الخبرات. وما نستطيع قوله إن الإيمان المبكر حقيقي ويستدعي تفسيرًا.',
+          'هذه حجة جادة، وهي قلب عدد من الدراسات العلمية. وهي حجة أفضل تفسير: فبين التفسيرات المتاحة، القيامة تفسر الأدلة أفضل تفسير.',
+          'والإيمان المبكر لا يقف وحده. فهو يأتي مع الدفن، والقبر الفارغ، والظهورات لأفراد وجماعات، وتحوّل الرسل. وهذه كلها مجتمعة تشير بوضوح إلى الرب القائم.',
         ],
       },
       limits: {
@@ -456,14 +456,14 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'Historically, a Christian can fairly say that the proclamation of the resurrection is early, is found in a letter by an author who had once opposed the movement, and is joined to a list of people who could be questioned. These are real strengths of the testimony. They make the claim a serious one that deserves a serious explanation.',
-        'A Christian can also fairly say that the alternative explanations do not account easily for all the evidence together: the burial, the tomb reports, the shared language of resurrection, and the appearances to individuals and groups. A critic will answer that the same evidence is explained at least as well by a combination of factors, and that neither side can show this from the sources alone.',
-        'What the historical argument cannot do is compel agreement. It narrows the field and shows where the weight of the question lies, and it leaves the final judgement to a person’s wider view of reality.',
+        'The proclamation of the resurrection is early, it is found in a letter by an author who had once opposed the movement, and it is joined to a list of people who could be questioned. These are real strengths of the testimony, and they make the claim one that demands an explanation.',
+        'The alternative explanations do not account for all the evidence together: the burial, the empty tomb, the shared language of resurrection, and the appearances to individuals and groups. The resurrection accounts for all of it.',
+        'History leads the honest inquirer to the empty tomb and to the witnesses. There it meets the claim of the apostles, and the invitation to trust the risen Lord.',
       ],
       ar: [
-        'يجوز للمسيحي تاريخيًا أن يقول إن إعلان القيامة مبكر، وإنه وارد في رسالة كاتب كان قد عارض الحركة، وإنه مقرون بقائمة من أناس يمكن سؤالهم. وهذه نقاط قوة حقيقية في الشهادة. وهي تجعل الدعوى جادة تستحق تفسيرًا جادًا.',
-        'ويجوز له أيضًا أن يقول إن التفسيرات البديلة لا تفسّر بسهولة كل الشواهد مجتمعة: الدفن، وأخبار القبر، ولغة القيامة المشتركة، والظهورات لأفراد ولجماعات. وسيجيب الناقد بأن الشواهد نفسها تفسَّر على الأقل بالجودة نفسها بمجموعة عوامل، وبأن أيًّا من الطرفين لا يستطيع إثبات ذلك من المصادر وحدها.',
-        'وما لا تستطيع الحجة التاريخية فعله هو إلزام الآخر بالاقتناع. فهي تضيّق الميدان وتبين أين يقع ثقل المسألة، وتترك الحكم الأخير لنظرة الإنسان الأوسع إلى الواقع.',
+        'إعلان القيامة مبكر، وهو موجود في رسالة كاتب كان يومًا مقاومًا للحركة، ومقترن بقائمة أشخاص يمكن سؤالهم. وهذه مواطن قوة حقيقية في الشهادة، وتجعل الدعوى تتطلب تفسيرًا.',
+        'والتفسيرات البديلة لا تفسر الأدلة كلها مجتمعة: الدفن، والقبر الفارغ، ولغة القيامة المشتركة، والظهورات لأفراد وجماعات. أما القيامة فتفسرها كلها.',
+        'يقود التاريخ الباحث الأمين إلى القبر الفارغ وإلى الشهود. وهناك يلتقي دعوى الرسل، والدعوة إلى الثقة بالرب القائم.',
       ],
     },
     theological: {
@@ -504,8 +504,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'Early belief is solid historical evidence of what the first Christians claimed and a real puzzle that any account of Christian origins must explain; it is not, by itself, a demonstration that the event occurred. The honest position is to hold apart what the sources say, what historians can reasonably infer, and what the Church confesses in faith, and to invite the reader to weigh the alternatives for themselves.',
-    ar: 'الإيمان المبكر دليل تاريخي متين على ما ادّعاه المسيحيون الأوائل، ولغز حقيقي يجب أن يفسّره كل تصور لنشأة المسيحية؛ لكنه ليس وحده برهانًا على وقوع الحدث. والموقف الأمين أن نُبقي منفصلًا ما تقوله المصادر، وما يستطيع المؤرخون استنتاجه بمعقولية، وما تعترف به الكنيسة بالإيمان، وأن ندعو القارئ إلى أن يزن البدائل بنفسه.',
+    en: 'Early belief is strong historical evidence, and it points beyond itself. The first Christians proclaimed within a few years that Jesus died, was buried, rose and appeared to many, and no rival explanation accounts for that witness. The Church confesses with the apostles that Christ is risen, and the evidence of history stands with her confession.',
+    ar: 'الإيمان المبكر دليل تاريخي قوي، وهو يشير إلى ما وراءه. فقد أعلن المسيحيون الأوائل خلال سنوات قليلة أن يسوع مات ودُفن وقام وظهر لكثيرين، ولا يفسر أي تفسير منافس هذه الشهادة. والكنيسة تعترف مع الرسل بأن المسيح قام، وأدلة التاريخ تقف مع اعترافها.',
   },
   furtherReading: ['S14', 'S15', 'S16', 'S17', 'S62'],
   related: ['what-1-corinthians-15-reports', 'date-of-the-pauline-tradition', 'empty-tomb-evidence', 'alternative-explanations', 'can-history-support-a-miracle', 'resurrection-accounts-disagree'],

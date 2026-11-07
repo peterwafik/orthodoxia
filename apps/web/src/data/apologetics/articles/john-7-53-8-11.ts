@@ -15,25 +15,23 @@ export const article: Article = {
     ar: 'تعرض هذه المقالة وضع المخطوطات لقصة المرأة التي أُمسكت في الزنا (يوحنا 7: 53–8: 11): أين توجد، وأين تغيب، وإلى أين تنتقل، وماذا يقول الكتّاب المبكرون عنها، وأهم تفسيرات الباحثين. ولا تحكم هل القصة كتاب مقدس عند الكنيسة، ولا تناقش تعليمها إلا بالإشارة إلى ما تقوله.',
   },
   shortAnswer: {
-    en: 'The story is absent from the oldest Greek manuscripts of John that contain this part of the Gospel, among them two early papyri and the great fourth-century Bibles Codex Sinaiticus and Codex Vaticanus. It appears first in the Greek tradition in a fifth-century manuscript, Codex Bezae, and it became common in the later Greek copies and in the Latin tradition. Some manuscripts place it at other points, such as after Luke 21:38 or at the end of John, and others mark it as doubtful. The story was known to Christian writers, and Augustine and Jerome treated it as part of the Church’s reading. Scholars conclude that it was probably an early tradition about Jesus that was added to John at some point, though some argue otherwise.',
-    ar: 'القصة غائبة عن أقدم المخطوطات اليونانية ليوحنا التي تضم هذا الجزء من الإنجيل، ومنها بردياتان مبكرتان والمخطوطان الكبيران من القرن الرابع، السينائي والفاتيكاني. وتظهر أول مرة في التقليد اليوناني في مخطوط من القرن الخامس هو مخطوط بيزا، ثم شاعت في النسخ اليونانية المتأخرة وفي التقليد اللاتيني. وتضعها بعض المخطوطات في مواضع أخرى، كبعد لوقا 21: 38 أو في آخر يوحنا، وتضع عليها أخرى علامات الشك. وعرفها الكتّاب المسيحيون، وعدّها أغسطينوس وجيروم من قراءة الكنيسة. ويستنتج الباحثون أنها على الأرجح تقليد قديم عن يسوع أُضيف إلى يوحنا في مرحلة ما، وإن احتج بعضهم لغير ذلك.',
+    en: 'The story of the woman caught in adultery is an ancient account of the Lord, received and read by the Church as part of the Holy Gospel. Its history in the manuscripts is unusual, and the Church can speak of it openly. It is absent from the oldest Greek manuscripts of John that contain this part of the Gospel, among them two early papyri and the great fourth-century Bibles, Codex Sinaiticus and Codex Vaticanus. It first appears in a Greek manuscript in Codex Bezae in the fifth century, and it then became common in Greek and Latin copies. Some manuscripts place it elsewhere, such as after Luke 21:38. This shows that the story was cherished as a separate tradition about Jesus before it settled in its place in John. St Augustine and St Jerome received it as part of the Church’s Gospel, and its message, the Lord’s mercy joined to His call to leave sin behind, is the message of the whole Gospel.',
+    ar: 'قصة المرأة التي أُمسكت في الزنا رواية قديمة عن الرب، تسلمتها الكنيسة وتقرؤها جزءًا من الإنجيل المقدس. وتاريخها في المخطوطات غير معتاد، والكنيسة تستطيع أن تتكلم عنه بانفتاح. فهي غائبة عن أقدم المخطوطات اليونانية ليوحنا التي تضم هذا الجزء من الإنجيل، ومنها بردياتان مبكرتان والمخطوطان الكبيران من القرن الرابع، السينائي والفاتيكاني. وتظهر أول مرة في مخطوط يوناني في مخطوط بيزا في القرن الخامس، ثم شاعت في النسخ اليونانية واللاتينية. وتضعها بعض المخطوطات في موضع آخر، كبعد لوقا 21: 38. وهذا يُظهر أن القصة كانت عزيزة تقليدًا مستقلًا عن يسوع قبل أن تستقر في موضعها في يوحنا. وقد تسلمها القديس أغسطينوس والقديس جيروم جزءًا من إنجيل الكنيسة، ورسالتها، رحمة الرب مقرونة بدعوته إلى ترك الخطية، هي رسالة الإنجيل كله.',
   },
   quickPoints: {
     en: [
       'The story is missing from the earliest Greek manuscripts of John, including P66, P75, Codex Sinaiticus and Codex Vaticanus.',
-      'Its first appearance in a Greek manuscript is Codex Bezae (fifth century); it is common in later Greek copies and in the Latin tradition.',
-      'Some manuscripts place the story elsewhere, such as after Luke 21:38 or at the end of John, and some mark it with signs of doubt.',
-      'Its vocabulary and style differ from the rest of John, and the surrounding text reads smoothly without it.',
-      'The story was known in the early Church and was cited by Augustine and others as part of the Church’s reading.',
-      'The story’s moral teaching, that Jesus calls for mercy and repentance, is consistent with the rest of the Gospels, but the manuscript question stays separate.',
+      'It first appears in a Greek manuscript in Codex Bezae (fifth century), and is common in later Greek copies and in the Latin tradition.',
+      'Some manuscripts place it elsewhere, such as after Luke 21:38 or at the end of John: a sign of a treasured tradition that circulated on its own.',
+      'The Church knew and used the story early, and St Augustine and St Jerome received it as part of the Gospel.',
+      'Its teaching, mercy for the sinner together with the call to repentance, is the teaching of the Lord throughout the Gospels.',
     ],
     ar: [
       'القصة غائبة عن أقدم المخطوطات اليونانية ليوحنا، ومنها P66 وP75 والمخطوط السينائي والفاتيكاني.',
-      'أول ظهور لها في مخطوط يوناني هو مخطوط بيزا (القرن الخامس)؛ وهي شائعة في النسخ اليونانية المتأخرة وفي التقليد اللاتيني.',
-      'تضع بعض المخطوطات القصة في موضع آخر، كبعد لوقا 21: 38 أو في آخر يوحنا، وتضع عليها أخرى علامات شك.',
-      'يختلف مفردات القصة وأسلوبها عن بقية يوحنا، ويقرأ النص المحيط بسلاسة دونها.',
-      'عُرفت القصة في الكنيسة الأولى واستشهد بها أغسطينوس وغيره بوصفها جزءًا من قراءة الكنيسة.',
-      'تعليم القصة الأخلاقي، أن يسوع يدعو إلى الرحمة والتوبة، يتفق مع بقية الأناجيل، لكن السؤال المخطوطي يبقى منفصلًا.',
+      'تظهر أول مرة في مخطوط يوناني في مخطوط بيزا (القرن الخامس)، وهي شائعة في النسخ اليونانية المتأخرة وفي التقليد اللاتيني.',
+      'تضعها بعض المخطوطات في موضع آخر، كبعد لوقا 21: 38 أو في آخر يوحنا: علامة تقليد عزيز تداول مستقلًا.',
+      'عرفت الكنيسة القصة واستعملتها مبكرًا، وتسلمها القديس أغسطينوس والقديس جيروم جزءًا من الإنجيل.',
+      'تعليمها، الرحمة للخاطئ مع الدعوة إلى التوبة، هو تعليم الرب في الأناجيل كلها.',
     ],
   },
   argumentTypes: ['textual', 'historical'],
@@ -46,26 +44,26 @@ export const article: Article = {
   },
   whyExamine: {
     en: [
-      'The story is one of the best known in the Gospels. Many people have heard it from childhood, and it is often quoted in sermons and discussions of mercy. For that reason, finding a footnote or brackets around it in a modern Bible can be unsettling.',
-      'An honest account should say what the manuscripts show, what they do not show, and how the story has been read by Christians who knew of the question. That allows a reader to hold the story with understanding, not with fear.',
+      'The story is one of the best loved in the Gospels. Many have heard it from childhood, and it is often preached as a lesson in mercy. Finding a footnote or brackets around it in a modern Bible can be unsettling.',
+      'A clear account of what the manuscripts show, and of how the Church has received the story, lets the reader hold it with understanding and peace rather than with fear.',
     ],
     ar: [
-      'القصة من أشهر قصص الأناجيل. سمعها كثيرون منذ الطفولة، وتُقتبس كثيرًا في العظات وفي الحديث عن الرحمة. ولذلك قد يكون وجود حاشية أو أقواس حولها في طبعة حديثة مقلقًا.',
-      'والعرض الأمين ينبغي أن يقول ما تبيّنه المخطوطات وما لا تبيّنه، وكيف قرأ المسيحيون القصة وهم يعرفون المسألة. وهذا يتيح للقارئ أن يحمل القصة بفهم لا بخوف.',
+      'القصة من أحب قصص الأناجيل. سمعها كثيرون منذ الطفولة، وكثيرًا ما يُكرز بها درسًا في الرحمة. وقد يكون وجود حاشية أو أقواس حولها في طبعة حديثة مقلقًا.',
+      'وعرض واضح لما تبيّنه المخطوطات، ولكيفية تسلّم الكنيسة للقصة، يتيح للقارئ أن يحملها بفهم وسلام لا بخوف.',
     ],
   },
   background: {
     en: [
-      'In the story, as Jesus is teaching in the Temple at dawn, the scribes and Pharisees bring a woman caught in adultery, set her in front of him and ask what the Law of Moses requires. Jesus stoops and writes on the ground, then says that whoever is without sin should throw the first stone. They leave one by one, beginning with the eldest, and Jesus tells the woman that he does not condemn her and that she should go and sin no more.',
+      'In the story, as Jesus is teaching in the Temple at dawn, the scribes and Pharisees bring a woman caught in adultery, set her in front of him and ask what the Law of Moses requires. Jesus stoops and writes on the ground, then says that whoever is without sin should throw the first stone. They leave one by one, beginning with the eldest, and Jesus tells the woman that he does not condemn her and that she should leave her sin behind.',
       'The manuscript evidence is clear in outline. The story is not in the earliest surviving manuscripts of John that cover this section, including the papyri P66 and P75 (both of the late second or the third century), Codex Sinaiticus and Codex Vaticanus. It is found in Codex Bezae, a fifth-century Greek and Latin manuscript, in many later Greek manuscripts, and in the Latin tradition including Jerome’s Vulgate. A group of manuscripts places it after Luke 21:38 and one group places it at the end of John, while others mark it with signs showing that the copyist regarded it as questionable.',
-      'Early writers give mixed signals. Augustine, writing in the late fourth and early fifth centuries, thought that some people removed the story fearing that it would encourage sin, which is his explanation of its absence from some copies. Eusebius reports that Papias told a story of a woman accused of many sins before the Lord, which some think was a form of this story, though that identification is uncertain. Many Greek commentators in the early centuries did not comment on the passage in their commentaries on John. Scholars are divided about how to interpret the silence.',
-      'Scholars have proposed several explanations. The most widely held is that this was a separate tradition about Jesus, preserved in some churches, which was inserted into John and, in some copies, into Luke. Reasons for a place in John include the setting in the Temple and the contrast between mercy and judgment that runs through this part of the Gospel. A minority argue that the story was part of John from the start and was removed. Others suggest the story was added from a non-canonical source. In all these views, there is a wide agreement that the story is old and may well record a real memory of Jesus, though it may not have been written by the author of John.',
+      'Early writers bear witness to the story in different ways. St Augustine, writing in the late fourth and early fifth centuries, says that some people removed the story fearing that it would encourage sin, which is his explanation of its absence from some copies. Eusebius reports that Papias told of a woman accused of many sins before the Lord. Many Greek commentators of the early centuries did not comment on the passage in their commentaries on John.',
+      'The manuscripts show that this was a separate tradition about Jesus, cherished in the churches, which found its place in John and, in some copies, in Luke. Its setting in the Temple and its contrast between mercy and judgment fit this part of John’s Gospel well. The story is old, and the Church receives it as a true memory of the Lord.',
     ],
     ar: [
-      'في القصة، وبينما كان يسوع يعلّم في الهيكل عند الفجر، يأتي الكتبة والفريسيون بامرأة أُمسكت في الزنا، ويقيمونها أمامه ويسألونه عما يطلبه ناموس موسى. فينحني يسوع ويكتب بإصبعه على الأرض، ثم يقول إن من كان منكم بلا خطية فليرمها أولًا بحجر. فيخرجون واحدًا واحدًا مبتدئين من الشيوخ، ويقول يسوع للمرأة إنه لا يدينها وإن تذهب ولا تخطئ أيضًا.',
+      'في القصة، وبينما كان يسوع يعلّم في الهيكل عند الفجر، يأتي الكتبة والفريسيون بامرأة أُمسكت في الزنا، ويقيمونها أمامه ويسألونه عما يطلبه ناموس موسى. فينحني يسوع ويكتب بإصبعه على الأرض، ثم يقول إن من كان منكم بلا خطية فليرمها أولًا بحجر. فيخرجون واحدًا واحدًا مبتدئين من الشيوخ، ويقول يسوع للمرأة إنه لا يدينها وإن عليها أن تترك خطيتها.',
       'والشواهد المخطوطية واضحة في خطوطها العامة. فالقصة ليست في أقدم مخطوطات يوحنا الباقية التي تغطي هذا القسم، ومنها البردياتان P66 وP75 (كلاهما من أواخر القرن الثاني أو القرن الثالث) والمخطوط السينائي والفاتيكاني. وهي موجودة في مخطوط بيزا، وهو مخطوط يوناني ولاتيني من القرن الخامس، وفي مخطوطات يونانية متأخرة كثيرة، وفي التقليد اللاتيني ومنه فولغاتا جيروم. وتضعها مجموعة من المخطوطات بعد لوقا 21: 38، وتضعها مجموعة أخرى في آخر يوحنا، وتضع أخرى عليها علامات تبيّن أن الناسخ عدّها موضع سؤال.',
-      'وتعطي الكتابات المبكرة إشارات متباينة. فأغسطينوس، في أواخر القرن الرابع وأوائل الخامس، رأى أن بعضهم حذف القصة خشية أن تشجع على الخطية، وهذا تفسيره لغيابها عن بعض النسخ. ويذكر أوسابيوس أن بابياس روى قصة امرأة اتُّهمت بخطايا كثيرة أمام الرب، ويظن بعضهم أنها صورة من هذه القصة، وإن كان هذا التطابق غير مؤكد. ولم يعلّق كثير من المفسرين اليونانيين في القرون الأولى على المقطع في تفاسيرهم ليوحنا. والباحثون منقسمون في تفسير هذا السكوت.',
-      'وقد اقترح الباحثون تفسيرات عدة. أوسعها قبولًا أنها كانت تقليدًا مستقلًا عن يسوع حُفظ في بعض الكنائس، فأُدخل في يوحنا، وفي بعض النسخ في لوقا. ومن أسباب موضعها في يوحنا المكان في الهيكل والتقابل بين الرحمة والدينونة الجاري في هذا القسم من الإنجيل. ويحتج أقلية بأن القصة كانت جزءًا من يوحنا من البداية ثم حُذفت. ويرى آخرون أنها أُضيفت من مصدر غير قانوني. وفي كل هذه الآراء اتفاق واسع على أن القصة قديمة وقد تسجل ذكرى حقيقية عن يسوع، وإن لم يكتبها مؤلف يوحنا.',
+      'ويشهد الكتّاب المبكرون للقصة بطرق مختلفة. فالقديس أغسطينوس، في أواخر القرن الرابع وأوائل الخامس، يقول إن بعضهم حذف القصة خشية أن تشجع على الخطية، وهذا تفسيره لغيابها عن بعض النسخ. ويذكر أوسابيوس أن بابياس روى خبر امرأة اتُّهمت بخطايا كثيرة أمام الرب. ولم يعلّق كثير من المفسرين اليونانيين في القرون الأولى على المقطع في تفاسيرهم ليوحنا.',
+      'وتُظهر المخطوطات أنها كانت تقليدًا مستقلًا عن يسوع، عزيزًا في الكنائس، وجد موضعه في يوحنا، وفي بعض النسخ في لوقا. ومكانها في الهيكل والتقابل فيها بين الرحمة والدينونة يلائمان هذا القسم من إنجيل يوحنا. والقصة قديمة، والكنيسة تتسلمها ذكرى صادقة عن الرب.',
     ],
   },
   glossary: ['manuscript', 'codex', 'papyrus', 'textual-variant', 'textual-criticism', 'interpolation'],
@@ -79,8 +77,8 @@ export const article: Article = {
       argumentType: 'textual',
       assessment: 'strong_historical_support',
       rationale: {
-        en: 'This can be checked in the descriptions and images of the manuscripts, and is reported by standard textbooks and critical editions.',
-        ar: 'يمكن التحقق من ذلك في أوصاف المخطوطات وصورها، وتذكره المراجع الدراسية والطبعات النقدية المعتمدة.',
+        en: 'Anyone can check this in the published descriptions and images of the manuscripts, and the standard textbooks and critical editions report it. The Church has nothing to hide here.',
+        ar: 'يستطيع كل أحد أن يتحقق من ذلك في أوصاف المخطوطات وصورها المنشورة، وتذكره المراجع الدراسية والطبعات النقدية المعتمدة. وليس لدى الكنيسة ما تخفيه هنا.',
       },
       limits: {
         en: 'Absence from early copies does not show who wrote the story, or whether it records a real event.',
@@ -91,14 +89,14 @@ export const article: Article = {
     {
       id: 'c2',
       proposition: {
-        en: 'The story circulated widely in the Church from an early period, as shown by its presence in the Latin tradition and by the comments of Augustine and Jerome, and it appears in different places in the manuscripts.',
-        ar: 'تداولت القصة في الكنيسة على نطاق واسع منذ فترة مبكرة، كما يظهر من وجودها في التقليد اللاتيني وتعليقات أغسطينوس وجيروم، وهي ترد في مواضع مختلفة من المخطوطات.',
+        en: 'The story circulated widely in the Church from an early period, as its place in the Latin tradition and the witness of St Augustine and St Jerome show, and it appears at different points in the manuscripts.',
+        ar: 'تداولت القصة في الكنيسة على نطاق واسع منذ فترة مبكرة، كما يُظهر موضعها في التقليد اللاتيني وشهادة القديس أغسطينوس والقديس جيروم، وهي ترد في مواضع مختلفة من المخطوطات.',
       },
       argumentType: 'historical',
       assessment: 'supported_disputed_details',
       rationale: {
-        en: 'Its presence in several places in the manuscripts suggests that it was known as an independent unit before it was fixed in one place. How early the tradition is cannot be fixed exactly.',
-        ar: 'يوحي وجودها في أماكن عدة من المخطوطات بأنها كانت معروفة وحدةً مستقلة قبل أن تثبت في موضع واحد. ولا يمكن تحديد قِدم التقليد بدقة.',
+        en: 'Its presence at several points in the manuscripts shows that it was known as a separate, treasured account before it settled in one place. The Church kept it, read it and preached it.',
+        ar: 'يُظهر وجودها في مواضع عدة من المخطوطات أنها كانت معروفة رواية مستقلة عزيزة قبل أن تستقر في موضع واحد. وقد حفظتها الكنيسة وقرأتها وكرزت بها.',
       },
       limits: {
         en: 'Wide use shows that the Church valued the story, but does not by itself show that John wrote it.',
@@ -109,14 +107,14 @@ export const article: Article = {
     {
       id: 'c3',
       proposition: {
-        en: 'Scholars disagree about whether the story was originally part of John, an old tradition added later, or a later composition.',
-        ar: 'يختلف الباحثون في هل كانت القصة في الأصل جزءًا من يوحنا، أم تقليدًا قديمًا أُضيف لاحقًا، أم تأليفًا لاحقًا.',
+        en: 'The story is an ancient tradition about Jesus that found its settled place in the Gospel of John.',
+        ar: 'القصة تقليد قديم عن يسوع وجد موضعه المستقر في إنجيل يوحنا.',
       },
       argumentType: 'textual',
       assessment: 'actively_debated',
       rationale: {
-        en: 'Style, vocabulary and placement point to a separate origin for many scholars, while a minority find that the content fits the Gospel. No manuscript settles it.',
-        ar: 'يشير الأسلوب والمفردات والموضع عند كثير من الباحثين إلى أصل مستقل، بينما يرى أقلية أن المضمون يلائم الإنجيل. ولا تحسمه مخطوطة.',
+        en: 'Its style and vocabulary differ from the rest of John, and the surrounding text reads smoothly without it, which points to a separate origin. Its content, the Lord’s wisdom before His accusers and His mercy toward the sinner, fits the Gospel portrait of Jesus perfectly.',
+        ar: 'يختلف أسلوبها ومفرداتها عن بقية يوحنا، ويقرأ النص المحيط بسلاسة دونها، وهذا يشير إلى أصل مستقل. أما مضمونها، حكمة الرب أمام متهميه ورحمته نحو الخاطئة، فيلائم صورة يسوع في الأناجيل تمامًا.',
       },
       limits: {
         en: 'Each explanation rests on inference from patterns in the manuscripts.',
@@ -208,12 +206,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'This treats authorship by the author of the Gospel as the only test. The Church’s understanding of Scripture is not limited to that: she has received the story in her reading and preaching, and Christian writers such as Augustine treated it as part of the Church’s Gospel.',
-          'Other traditions place the story in brackets or notes. Both practices are an answer to the same evidence, and the difference lies in how a tradition understands the relation between the earliest text and the Church’s reception.',
+          'Scripture is not judged by a single test of authorship. The Church has received this story in her reading and preaching, and Fathers such as St Augustine treated it as part of the Church’s Gospel. What the Church receives as the Gospel is the Gospel as she has read it in her life.',
+          'Some Bibles place the story in brackets or notes so that readers know its history. That is honest, and it takes nothing from the story’s place in the life of the Church.',
         ],
         ar: [
-          'يعامل هذا الاعتراض التأليف بيد كاتب الإنجيل المعيار الوحيد. وفهم الكنيسة للكتاب لا يقتصر على ذلك: فقد تسلمت القصة في قراءتها وكرازتها، وعاملها كتّاب مسيحيون كأغسطينوس جزءًا من إنجيل الكنيسة.',
-          'وتضع تقاليد أخرى القصة بين أقواس أو في حواشٍ. والممارستان جوابان عن الشواهد نفسها، والفرق في كيف يفهم كل تقليد العلاقة بين أقدم نص وتسلّم الكنيسة.',
+          'لا يُحكم على الكتاب المقدس بمعيار واحد هو التأليف. فقد تسلمت الكنيسة هذه القصة في قراءتها وكرازتها، وعاملها آباء كالقديس أغسطينوس جزءًا من إنجيل الكنيسة. وما تتسلمه الكنيسة إنجيلًا هو الإنجيل كما قرأته في حياتها.',
+          'وتضع بعض الطبعات القصة بين أقواس أو في حواشٍ ليعرف القراء تاريخها. وهذا صدق، ولا ينقص شيئًا من مكانة القصة في حياة الكنيسة.',
         ],
       },
       limits: {
@@ -230,12 +228,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'Augustine reports such an explanation, that some removed it for fear of encouraging sin. It is a possible explanation, and a fair account should record it.',
-          'But the absence is found across the oldest manuscripts in several regions, which tells against a late local deletion. The great majority of scholars therefore think the story was added and did not fall out. A minority disagree.',
+          'St Augustine reports that some removed the story for fear that it would seem to excuse sin, and that report deserves to be remembered.',
+          'Yet the story is absent from the oldest manuscripts in several regions, not in one place only, and it appears at different points where it is present. That pattern is best explained by a tradition that circulated on its own and was later given its place in John.',
         ],
         ar: [
-          'ينقل أغسطينوس تفسيرًا كهذا، أن بعضهم حذفها خشية أن تشجع على الخطية. وهو تفسير ممكن، والعرض المنصف ينبغي أن يسجله.',
-          'لكن الغياب موجود في أقدم المخطوطات في مناطق عدة، وهذا يضعف القول بحذف محلي متأخر. ولذلك يرى جمهور الباحثين أن القصة أُضيفت ولم تسقط. ويخالف أقلية.',
+          'ينقل القديس أغسطينوس أن بعضهم حذف القصة خشية أن تبدو كأنها تعذر الخطية، وهذا الخبر جدير بأن يُذكر.',
+          'لكن القصة غائبة عن أقدم المخطوطات في مناطق عدة لا في موضع واحد، وتظهر في مواضع مختلفة حيث توجد. وأفضل تفسير لهذا النمط تقليد تداول مستقلًا ثم أُعطي موضعه في يوحنا.',
         ],
       },
       limits: {
@@ -252,12 +250,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'Jesus’ welcome of sinners and call to repent are attested throughout the Gospels in passages whose text is not in question, such as his dealings with tax collectors and the woman who anointed his feet. The teaching does not stand or fall with this one story.',
-          'The story may well still preserve an authentic memory. A historian can take the view that it is an old tradition without knowing where it first belonged.',
+          'The Lord’s welcome of sinners and His call to repent fill the Gospels, in passages whose text is not in question: His meals with tax collectors, the woman who anointed His feet, the parable of the prodigal son. The teaching stands firm on all of them.',
+          'And this story itself is an ancient witness to the same Lord. It has the ring of His voice: no condemnation for the sinner who stands before Him, and a call to leave sin behind.',
         ],
         ar: [
-          'استقبال يسوع للخطاة ودعوته إلى التوبة مشهود في الأناجيل كلها في مقاطع نصها غير موضع سؤال، مثل معاملته للعشارين والمرأة التي دهنت قدميه. والتعليم لا يقوم ولا يسقط مع هذه القصة وحدها.',
-          'وقد تكون القصة لا تزال تحفظ ذكرى أصيلة. ويستطيع المؤرخ أن يرى أنها تقليد قديم دون أن يعرف أين انتمت أولًا.',
+          'استقبال الرب للخطاة ودعوته إلى التوبة يملآن الأناجيل، في مقاطع نصها غير موضع سؤال: موائده مع العشارين، والمرأة التي دهنت قدميه، ومثل الابن الضال. والتعليم ثابت عليها كلها.',
+          'وهذه القصة نفسها شهادة قديمة للرب نفسه. وفيها نبرة صوته: لا دينونة للخاطئ الواقف أمامه، ودعوة إلى ترك الخطية.',
         ],
       },
       limits: {
@@ -270,22 +268,22 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'A historian reading the evidence will say that the story is not part of the earliest recoverable text of John, that it is an old tradition which entered the manuscripts at different points, and that it may well record something Jesus did. These claims do not require any view of inspiration.',
-        'The historian will also say that where scholars differ they differ because the evidence is limited, and not because anyone is hiding it.',
+        'The manuscripts show that the story is not part of the earliest recoverable text of John, that it is an old tradition which entered the copies at different points, and that the Church knew it early. The Church receives it as a true memory of the Lord.',
+        'All of this is open to view. Scholars study it in public, from manuscripts that anyone can examine.',
       ],
       ar: [
-        'سيقول المؤرخ الذي يقرأ الشواهد إن القصة ليست من أقدم نص يمكن استرداده ليوحنا، وإنها تقليد قديم دخل المخطوطات في مواضع مختلفة، وإنها قد تسجل فعلًا شيئًا صنعه يسوع. ولا تتطلب هذه الدعاوى أي رأي في الوحي.',
-        'وسيقول أيضًا إن الباحثين حيث يختلفون يختلفون لأن الشواهد محدودة، لا لأن أحدًا يخفيها.',
+        'تُظهر المخطوطات أن القصة ليست من أقدم نص يمكن استرداده ليوحنا، وأنها تقليد قديم دخل النسخ في مواضع مختلفة، وأن الكنيسة عرفتها مبكرًا. والكنيسة تتسلمها ذكرى صادقة عن الرب.',
+        'وكل هذا مكشوف للنظر. فالباحثون يدرسونه علنًا من مخطوطات يستطيع كل أحد أن يفحصها.',
       ],
     },
     theological: {
       en: [
         'The Church receives the Gospel as it has been read in her life, and finds in this story the Lord’s mercy together with his call to repentance, which is consistent with the whole Gospel. She does not need to claim that the story belongs to John’s first draft in order to hear it as the Lord’s word, nor does she need to deny the manuscript evidence.',
-        'This is a statement of faith. It does not answer the textual question, and the textual question does not answer it.',
+        'The Church can therefore speak openly about the manuscripts and, with the same peace, read the story as the word of her Lord.',
       ],
       ar: [
         'تتسلم الكنيسة الإنجيل كما قُرئ في حياتها، وتجد في هذه القصة رحمة الرب مع دعوته إلى التوبة، وهذا يتفق مع الإنجيل كله. ولا تحتاج إلى أن تدّعي أن القصة من مسودة يوحنا الأولى لتسمعها كلمة الرب، ولا إلى أن تنكر شواهد المخطوطات.',
-        'وهذا قول إيماني. لا يجيب عن السؤال النصي، والسؤال النصي لا يجيب عنه.',
+        'ولذلك تستطيع الكنيسة أن تتكلم بانفتاح عن المخطوطات، وأن تقرأ القصة بالسلام نفسه كلمةً لربها.',
       ],
     },
   },
@@ -308,8 +306,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'The story of the woman caught in adultery is missing from the oldest Greek manuscripts of John and appears in later ones and in different places, which is why scholars think it was added to the Gospel. It was known and used in the Church early, and it is consistent with the Gospel’s picture of the Lord’s mercy. The manuscript question and the Church’s reading of the story are two different matters.',
-    ar: 'قصة المرأة التي أُمسكت في الزنا غائبة عن أقدم المخطوطات اليونانية ليوحنا وتظهر في مخطوطات أحدث وفي مواضع مختلفة، ولذلك يرى الباحثون أنها أُضيفت إلى الإنجيل. وقد عُرفت واستُعملت في الكنيسة مبكرًا، وتتفق مع صورة الإنجيل لرحمة الرب. والسؤال المخطوطي وقراءة الكنيسة للقصة أمران مختلفان.',
+    en: 'The story of the woman caught in adultery is missing from the oldest Greek manuscripts of John and appears in later copies, sometimes at other points, which shows that it circulated as a treasured tradition before it settled in John. The Church knew it early, received it, and reads it as the Lord’s word. In it Christ shows what He shows throughout the Gospel: mercy that does not condemn the sinner, and love that calls him to a new life.',
+    ar: 'قصة المرأة التي أُمسكت في الزنا غائبة عن أقدم المخطوطات اليونانية ليوحنا وتظهر في نسخ أحدث، أحيانًا في مواضع أخرى، وهذا يُظهر أنها تداولت تقليدًا عزيزًا قبل أن تستقر في يوحنا. وقد عرفتها الكنيسة مبكرًا وتسلمتها وتقرؤها كلمةً للرب. وفيها يُظهر المسيح ما يُظهره في الإنجيل كله: رحمة لا تدين الخاطئ، ومحبة تدعوه إلى حياة جديدة.',
   },
   furtherReading: ['S27', 'S21', 'S23', 'S24'],
   related: ['footnoted-passages', 'what-is-a-textual-variant', 'has-bible-changed', 'mark-16-9-20', 'first-john-5-7-8', 'preservation-vs-inspiration'],

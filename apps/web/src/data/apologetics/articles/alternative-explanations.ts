@@ -15,23 +15,23 @@ export const article: Article = {
     ar: 'كيف نقارن التفسيرات الطبيعية الرئيسية المقترحة للدعوى المسيحية المبكرة بأن يسوع قام (التآمر والموت الظاهري وخطأ القبر والرؤى والأسطورة وغيرها) بالدعوى نفسها، وما المعايير التي تجعل المقارنة منصفة. ويعرض كل اقتراح كما يعرضه أصحابه. ولا يدّعي أن التاريخ وحده يحسم المسألة.',
   },
   shortAnswer: {
-    en: 'Each alternative tries to account for the same early facts: the proclamation of a resurrection, the reports of appearances to individuals and groups, the reports of a burial and an empty tomb, and the rapid growth of the movement. Conspiracy fits the sincere character of the sources poorly. Apparent death fits what we know of Roman execution poorly. The wrong tomb does not explain the appearances. Visions and grief experiences can explain individual experiences but have trouble with group experiences and with the form of the claim. Legend can explain the growth of detail but has trouble with the early date of the core. The resurrection hypothesis has its own difficulty, that it requires a miracle, which a historian may not be willing or able to judge. A fair comparison uses stated criteria, and its result depends in part on one\'s view about God and about the possibility of divine action.',
-    ar: 'يحاول كل بديل أن يفسّر الوقائع المبكرة نفسها: إعلان القيامة، وأخبار الظهورات لأفراد وجماعات، وأخبار الدفن والقبر الفارغ، والنمو السريع للحركة. ولا يلائم التآمر الطابع الصادق للمصادر. ولا يلائم الموت الظاهري ما نعرفه عن الإعدام الروماني. ولا يفسر خطأ القبر الظهورات. وتستطيع الرؤى وخبرات الحزن أن تفسر اختبارات فردية لكنها تواجه صعوبة مع الاختبارات الجماعية ومع صيغة الدعوى. وتفسر الأسطورة نمو التفاصيل لكنها تواجه صعوبة مع التاريخ المبكر للب. وفرضية القيامة لها صعوبتها، وهي أنها تقتضي معجزة قد لا يريد المؤرخ أو يستطيع أن يحكم فيها. والمقارنة المنصفة تستعمل معايير معلنة، وتتوقف نتيجتها جزئيًا على نظرة المرء إلى الله وإلى إمكان الفعل الإلهي.',
+    en: 'Every explanation must account for the same early facts: the apostles proclaimed that Jesus was raised; He appeared to individuals and to groups; His tomb was found empty; and the Church grew rapidly in the very city where He died. Each natural alternative fails at some point. Conspiracy cannot explain men who suffered for what they preached. Apparent death does not fit Roman execution. A wrong tomb does not explain the appearances. Visions cannot account for groups, for a former persecutor like St Paul, or for the claim of a bodily raising. Legend cannot grow in the few years between the cross and the creed St Paul received. Only the resurrection explains all the facts together. Its one "cost" is that it needs an act of God, and for anyone open to God that is no cost at all: Christ is risen.',
+    ar: 'على كل تفسير أن يفسّر الوقائع المبكرة نفسها: أعلن الرسل أن يسوع قام؛ وظهر لأفراد ولجماعات؛ ووُجد قبره فارغًا؛ ونمت الكنيسة سريعًا في المدينة نفسها التي مات فيها. وكل بديل طبيعي يسقط عند نقطة ما. فالتآمر لا يفسر رجالًا تألموا من أجل ما كرزوا به. والموت الظاهري لا يلائم الإعدام الروماني. وخطأ القبر لا يفسر الظهورات. والرؤى لا تفسر الجماعات، ولا مضطهدًا سابقًا كالقديس بولس، ولا دعوى قيامة بالجسد. والأسطورة لا تنمو في السنوات القليلة بين الصليب وقانون الإيمان الذي تسلّمه القديس بولس. والقيامة وحدها تفسر الوقائع كلها معًا. و«كلفتها» الوحيدة أنها تحتاج إلى فعل من الله، وهذه ليست كلفة عند من ينفتح على الله: المسيح قام.',
   },
   quickPoints: {
     en: [
-      'Conspiracy and theft: the oldest alternative on record (Matthew 28:11–15). It struggles to explain the sincerity of the movement and the appearances.',
-      'Apparent death: see the separate article. It needs a series of unlikely assumptions and does not fit the early claim of a glorified Lord.',
-      'Wrong tomb: explains an empty tomb at best, not the appearances, and fits poorly with a tomb known in the city.',
-      'Visions, grief and hallucination: serious proposals for individual experiences, with difficulties for group experiences, for a former opponent like St Paul, and for the choice of the word "raised".',
-      'Legend: explains the later growth of detail, but the core is in St Paul within a generation. The criteria for comparing explanations are scope, power, plausibility, ad hoc assumptions and fit with accepted beliefs, and they are applied differently by different historians.',
+      'Conspiracy and theft: the oldest alternative on record (Matthew 28:11–15). It cannot explain the sincerity of men who suffered for their message, nor the appearances.',
+      'Apparent death: it needs a chain of unlikely assumptions, and a half-dead man could never have been proclaimed the glorified Lord.',
+      'Wrong tomb: at best it explains an empty tomb, not the appearances, and the tomb was known in the city.',
+      'Visions and grief: they may touch one mourner, but not groups, not a persecutor like St Paul, and not the word "raised", which meant a body.',
+      'Legend: the core of the faith is in the creed St Paul received within a few years of the cross. Weighed by scope, power and plausibility, the resurrection alone explains everything.',
     ],
     ar: [
-      'التآمر والسرقة: أقدم بديل مسجل (متى ٢٨: ١١–١٥). ويعجز عن تفسير صدق الحركة والظهورات.',
-      'الموت الظاهري: انظر المقال المنفصل. يحتاج إلى سلسلة افتراضات بعيدة الاحتمال ولا يلائم الدعوى المبكرة برب ممجد.',
-      'خطأ القبر: يفسر قبرًا فارغًا في أحسن الأحوال، لا الظهورات، ولا يلائم قبرًا معروفًا في المدينة.',
-      'الرؤى والحزن والهلوسة: اقتراحات جادة للاختبارات الفردية، لها صعوبات مع الاختبارات الجماعية ومع معارض سابق مثل القديس بولس ومع اختيار لفظ «قام».',
-      'الأسطورة: تفسر النمو اللاحق للتفاصيل، لكن اللب عند القديس بولس خلال جيل. ومعايير المقارنة بين التفسيرات هي المدى والقدرة والمعقولية والافتراضات المتكلفة والتوافق مع المعتقدات المقبولة، ويطبقها المؤرخون تطبيقات مختلفة.',
+      'التآمر والسرقة: أقدم بديل مسجل (متى ٢٨: ١١–١٥). ولا يفسر صدق رجال تألموا من أجل رسالتهم، ولا الظهورات.',
+      'الموت الظاهري: يحتاج إلى سلسلة افتراضات بعيدة، ولم يكن ممكنًا أن يُكرز برجل نصف ميت ربًّا ممجدًا.',
+      'خطأ القبر: يفسر في أحسن الأحوال قبرًا فارغًا، لا الظهورات، والقبر كان معروفًا في المدينة.',
+      'الرؤى والحزن: قد تمس حزينًا واحدًا، لكنها لا تفسر الجماعات، ولا مضطهدًا كالقديس بولس، ولا لفظ «قام» الذي يعني الجسد.',
+      'الأسطورة: لب الإيمان في قانون تسلّمه القديس بولس خلال سنوات قليلة من الصليب. وبمعايير المدى والقدرة والمعقولية تفسر القيامة وحدها كل شيء.',
     ],
   },
   argumentTypes: ['historical', 'philosophical'],
@@ -44,12 +44,12 @@ export const article: Article = {
   },
   whyExamine: {
     en: [
-      'A claim is tested by the alternatives to it. If a Christian reader has never faced the best form of the objections, the faith that results is untested, and a sceptical reader who has never faced the best form of the Christian response may think the matter easier than it is.',
-      'It is useful to set out each proposal in the form its defenders give it, and to say what it explains and what it leaves unexplained. This is also what the Fathers did when they met objections: they stated the objection and answered it.',
+      'A believer will meet these alternatives, in books, in class or online. Seeing each one in its best form, and seeing where it fails, lets a Christian answer with confidence and gentleness.',
+      'This is what the Fathers did. They stated each objection fairly and answered it, and the answers showed again that the apostles told the truth.',
     ],
     ar: [
-      'تُختبر الدعوى ببدائلها. فإن لم يواجه القارئ المسيحي أفضل صور الاعتراضات كان إيمانه الناتج غير مختبر، وإن لم يواجه القارئ المتشكك أفضل صور الرد المسيحي ظن المسألة أيسر مما هي.',
-      'ومن المفيد عرض كل اقتراح بالصورة التي يقدمها بها أصحابه، وبيان ما يفسره وما يتركه بلا تفسير. وهذا ما فعله الآباء حين واجهوا الاعتراضات: ذكروا الاعتراض وأجابوا عنه.',
+      'سيلقى المؤمن هذه البدائل في الكتب أو في الدراسة أو على الإنترنت. ورؤية كل منها في أقوى صوره، ورؤية موضع سقوطه، تمكّن المسيحي من أن يجيب بثقة ووداعة.',
+      'وهذا ما فعله الآباء. ذكروا كل اعتراض بإنصاف وأجابوا عنه، فأظهرت الأجوبة من جديد أن الرسل قالوا الحق.',
     ],
   },
   background: {
@@ -70,14 +70,14 @@ export const article: Article = {
     {
       id: 'c1',
       proposition: {
-        en: 'Each major alternative explanation has serious proponents and serious difficulties.',
-        ar: 'لكل تفسير بديل رئيسي أنصار جادون وصعوبات جادة.',
+        en: 'Every major alternative has been proposed seriously, and each one breaks down against the evidence.',
+        ar: 'اقتُرح كل بديل رئيسي اقتراحًا جادًا، وكل واحد منها ينهار أمام الشواهد.',
       },
       argumentType: 'historical',
       assessment: 'actively_debated',
       rationale: {
-        en: 'Conspiracy was argued in the eighteenth century by H. S. Reimarus, apparent death by rationalist writers of the late eighteenth and early nineteenth centuries, wrong tomb by Kirsopp Lake in the early twentieth, subjective visions by D. F. Strauss, and visionary experiences of grief and guilt by Gerd Lüdemann. Each has been criticised by historians on both sides.',
-        ar: 'قال بالتآمر في القرن الثامن عشر هـ. س. رايماروس، وبالموت الظاهري كتّاب عقلانيون في أواخر الثامن عشر وأوائل التاسع عشر، وبالقبر الخطأ كيرسوب ليك في أوائل القرن العشرين، وبالرؤى الذاتية د. ف. شتراوس، وباختبارات رؤيوية من الحزن والذنب غيرد لودمان. ونقد المؤرخون من الجانبين كلًا منها.',
+        en: 'Conspiracy was argued in the eighteenth century by H. S. Reimarus, apparent death by rationalist writers of the late eighteenth and early nineteenth centuries, wrong tomb by Kirsopp Lake in the early twentieth, subjective visions by D. F. Strauss, and visionary experiences of grief and guilt by Gerd Lüdemann. Each was answered in its own time, and none explains the whole of the early witness.',
+        ar: 'قال بالتآمر في القرن الثامن عشر هـ. س. رايماروس، وبالموت الظاهري كتّاب عقلانيون في أواخر الثامن عشر وأوائل التاسع عشر، وبالقبر الخطأ كيرسوب ليك في أوائل القرن العشرين، وبالرؤى الذاتية د. ف. شتراوس، وباختبارات رؤيوية من الحزن والذنب غيرد لودمان. وقد أُجيب عن كل منها في زمنه، ولا يفسر أي منها الشهادة المبكرة كلها.',
       },
       limits: {
         en: 'Naming the proponents does not say which view is correct.',
@@ -88,14 +88,14 @@ export const article: Article = {
     {
       id: 'c2',
       proposition: {
-        en: 'Deliberate deception by the disciples is the least favoured explanation among historians, though it is the oldest on record.',
-        ar: 'الخداع المتعمد من التلاميذ أقل التفسيرات تفضيلًا بين المؤرخين، مع أنه أقدمها تسجيلًا.',
+        en: 'Deliberate deception by the disciples, the oldest alternative on record, is also the weakest.',
+        ar: 'الخداع المتعمد من التلاميذ، وهو أقدم بديل مسجل، هو أيضًا أضعفها.',
       },
       argumentType: 'historical',
       assessment: 'supported_disputed_details',
       rationale: {
-        en: 'It does not explain St Paul, who was no friend of the movement, or the sincerity of persons who suffered for the message. Most historians who reject the resurrection prefer an explanation in which the early believers sincerely thought they had seen Jesus.',
-        ar: 'لا يفسّر القديس بولس الذي لم يكن صديقًا للحركة، ولا صدق أشخاص تألموا من أجل الرسالة. ويفضل معظم المؤرخين الذين يرفضون القيامة تفسيرًا يظن فيه المؤمنون الأوائل بصدق أنهم رأوا يسوع.',
+        en: 'It cannot explain St Paul, who set out to destroy the Church, nor men who suffered for a message they would have known to be false. Even many historians who do not believe in the resurrection grant that the first believers sincerely saw something.',
+        ar: 'لا يفسّر القديس بولس الذي خرج ليهدم الكنيسة، ولا رجالًا تألموا من أجل رسالة كانوا سيعرفون أنها كاذبة. وحتى كثير من المؤرخين الذين لا يؤمنون بالقيامة يسلّمون بأن المؤمنين الأوائل رأوا شيئًا بصدق.',
       },
       limits: {
         en: 'Sincerity does not show truth, and the argument from persecution is taken up in the article on martyrdom traditions.',
@@ -106,14 +106,14 @@ export const article: Article = {
     {
       id: 'c3',
       proposition: {
-        en: 'Visions or hallucinations are the most discussed natural explanation, and can account for some experiences but not easily for all the reported ones.',
-        ar: 'الرؤى أو الهلوسات أكثر التفسيرات الطبيعية مناقشة، وتفسّر بعض الاختبارات ولا تفسّر بسهولة جميع المروية.',
+        en: 'Visions or hallucinations, the most discussed natural explanation, cannot account for the appearances as they are reported.',
+        ar: 'الرؤى أو الهلوسات، وهي أكثر التفسيرات الطبيعية مناقشة، لا تفسّر الظهورات كما رُويت.',
       },
       argumentType: 'historical',
       assessment: 'actively_debated',
       rationale: {
-        en: 'Grief hallucinations are well documented for individuals and can plausibly explain an experience of Peter or Mary Magdalene. For groups, for a hostile witness like St Paul, and for the choice of the language of resurrection, the explanation needs further assumptions about expectation, suggestion and the growth of the stories. Psychologists differ over how far shared hallucinations can occur.',
-        ar: 'خبرات الهلوسة في الحزن موثقة جيدًا للأفراد وقد تفسر على نحو معقول اختبار بطرس أو مريم المجدلية. أما الجماعات، وشاهد معادٍ مثل القديس بولس، واختيار لغة القيامة، فتحتاج فيها الفرضية إلى افتراضات إضافية عن التوقع والإيحاء ونمو القصص. ويختلف النفسيون في مدى إمكان الهلوسات المشتركة.',
+        en: 'Grief experiences happen to individuals, one at a time. The risen Lord appeared to groups, to the Twelve and to more than five hundred at once, and to St Paul, an enemy who was not grieving at all. Visions of the dead were never called resurrection; the disciples chose that word because they met Him in the body, touched Him and ate with Him.',
+        ar: 'خبرات الحزن تحدث لأفراد، واحدًا واحدًا. أما الرب القائم فظهر لجماعات، للاثني عشر ولأكثر من خمسمئة أخ معًا، وللقديس بولس، وهو عدو لم يكن حزينًا قط. ولم تُسمَّ رؤى الموتى قيامة قط؛ واختار التلاميذ هذه الكلمة لأنهم لقوه بالجسد ولمسوه وأكلوا معه.',
       },
       limits: {
         en: 'The nature of the experiences is not described in the sources, and it is not possible to diagnose people who lived two thousand years ago.',
@@ -124,14 +124,14 @@ export const article: Article = {
     {
       id: 'c4',
       proposition: {
-        en: 'The legend explanation accounts for later growth of detail, but is weakened by the early date of the core of the proclamation.',
-        ar: 'يفسّر تفسير الأسطورة النمو اللاحق للتفاصيل، ويضعفه التاريخ المبكر للب الإعلان.',
+        en: 'The legend explanation fails because the core of the proclamation is early.',
+        ar: 'يسقط تفسير الأسطورة لأن لب الإعلان مبكر.',
       },
       argumentType: 'historical',
       assessment: 'actively_debated',
       rationale: {
-        en: 'Growth between Mark and John is plain. The question is whether the core, death, burial, raising and appearances, is itself a late growth. St Paul\'s statement that he received it, and his contact with the leaders within a few years, make a long period of legendary development hard to fit. Defenders of the legend view reply that a few years are enough, and that oral tradition can change quickly.',
-        ar: 'النمو بين مرقس ويوحنا واضح. والسؤال هل اللب، الموت والدفن والإقامة والظهورات، نفسه نمو متأخر. وقول القديس بولس إنه تسلّمه، ولقاؤه القادة خلال سنوات قليلة، يجعلان فترة طويلة من النمو الأسطوري عسيرة التلاؤم. ويجيب أنصار نظرة الأسطورة بأن سنوات قليلة تكفي وبأن التقليد الشفهي يتغير سريعًا.',
+        en: 'The heart of the Gospel, that Christ died, was buried, was raised and appeared, is not a late addition. St Paul the Apostle says he received it, and he met Peter and James in Jerusalem within a few years of the cross. The eyewitnesses were alive and leading the Church; there was no time and no room for a legend to replace what they had seen.',
+        ar: 'قلب الإنجيل، أن المسيح مات ودُفن وقام وظهر، ليس إضافة متأخرة. فالقديس بولس الرسول يقول إنه تسلّمه، وقد التقى بطرس ويعقوب في أورشليم خلال سنوات قليلة من الصليب. وكان شهود العيان أحياء يقودون الكنيسة؛ فلم يكن هناك وقت ولا مجال لأسطورة تحل محل ما رأوه.',
       },
       limits: {
         en: 'The date of the formation of the core cannot be fixed precisely.',
@@ -142,14 +142,14 @@ export const article: Article = {
     {
       id: 'c5',
       proposition: {
-        en: 'Whether the resurrection is the best explanation depends on prior views about God and miracles, and not only on the historical evidence.',
-        ar: 'كون القيامة أفضل تفسير يتوقف على آراء سابقة في الله والمعجزات، لا على الشواهد التاريخية وحدها.',
+        en: 'Those who reject the resurrection usually do so because of a prior view that God does not act, not because of the historical evidence.',
+        ar: 'من يرفضون القيامة يرفضونها عادة بسبب رأي سابق بأن الله لا يفعل، لا بسبب الشواهد التاريخية.',
       },
       argumentType: 'philosophical',
       assessment: 'philosophical_argument',
       rationale: {
-        en: 'A person who holds that God does not exist or does not act will give the resurrection hypothesis a very low prior probability. A person who holds that God exists and has reason to act in this way gives it a much higher one. The same evidence produces different conclusions from the different starting points.',
-        ar: 'من يرى أن الله غير موجود أو لا يفعل يعطي فرضية القيامة احتمالًا سابقًا ضئيلًا جدًا. ومن يرى أن الله موجود وله سبب ليفعل هكذا يعطيها احتمالًا أعلى بكثير. وتنتج الشواهد نفسها نتائج مختلفة من نقطتي بداية مختلفتين.',
+        en: 'If one decides in advance that God does not exist or cannot act, no evidence for the resurrection could ever be enough. But that decision is a philosophical starting point, not a finding of history. Once we allow that the living God exists and loves His creation, raising His Son is exactly what we would expect, and the evidence points straight to it.',
+        ar: 'من قرر مسبقًا أن الله غير موجود أو لا يستطيع أن يفعل، فلن يكفيه أي دليل على القيامة. لكن هذا القرار نقطة بداية فلسفية لا نتيجة تاريخية. وحين نسلّم بأن الله الحي موجود ويحب خليقته، تصير إقامة ابنه هي ما نتوقعه، وتشير الشواهد إليها مباشرة.',
       },
       limits: {
         en: 'This is why the article avoids claiming that the evidence compels a conclusion.',
@@ -301,12 +301,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'This is the Humean position, and it has serious defenders. Its strength is that deaths are not reversed in ordinary experience. Its weakness, as critics say, is that it can make the conclusion follow from the assumption: if one counts the uniformity of experience as decisive, no evidence can overcome it, and the question is never examined.',
-          'The Christian does not say that resurrection is probable on natural grounds. The claim is that it was a unique act of God, and that the probability should be judged given the possibility that God exists and acts. The disagreement is real, and it is about God and not about the manuscripts.',
+          'This is Hume’s argument. It is true that the dead do not rise in ordinary experience; the apostles knew that too, which is why the resurrection astonished them. But the argument decides the answer before looking: if no evidence could ever count, the question has not been examined at all.',
+          'The Church does not say that Jesus rose by natural causes. She proclaims that God raised Him. Once God is not ruled out in advance, a strained natural theory is no longer "better" than the explanation that fits every fact. The real question is about God, and the living God raised His Son.',
         ],
         ar: [
-          'هذا موقف هيوم، وله مدافعون جادون. وقوته أن الموتى لا يعودون في الخبرة العادية. وضعفه، كما يقول المنتقدون، أنه قد يجعل النتيجة تنبع من الافتراض: فمن عدّ اطراد الخبرة حاسمًا لم يتغلب عليه دليل، ولم تُفحص المسألة قط.',
-          'ولا يقول المسيحي إن القيامة مرجَّحة على أسس طبيعية. بل الدعوى أنها فعل فريد من الله، وأن الاحتمال ينبغي أن يُحكم عليه مع إمكان وجود الله وفعله. والخلاف حقيقي، وهو في الله لا في المخطوطات.',
+          'هذه حجة هيوم. وصحيح أن الموتى لا يقومون في الخبرة العادية؛ وقد عرف الرسل ذلك أيضًا، ولهذا أذهلتهم القيامة. لكن الحجة تقرر الجواب قبل النظر: فإن لم يكن لأي دليل وزن، فالمسألة لم تُفحص أصلًا.',
+          'ولا تقول الكنيسة إن يسوع قام بأسباب طبيعية. بل تكرز بأن الله أقامه. وحين لا يُستبعد الله مسبقًا، لا يعود التفسير الطبيعي المتكلف «أفضل» من التفسير الذي يلائم كل الوقائع. والسؤال الحقيقي عن الله، والله الحي أقام ابنه.',
         ],
       },
       limits: {
@@ -323,12 +323,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'There are reports of shared visions in other religious settings, and they are a real phenomenon for historians of religion. The proposal has some force for experiences within a devout group that already expected the dead to appear.',
-          'Its difficulty, say its critics, is that the earliest followers had no expectation of a Messiah who would die and be raised in the middle of history, that the claim included burial and a body, and that St Paul and James, who were not among the first believers, also came to this faith. Defenders reply that those facts are only partly secure and that the stories grew. The disagreement turns on how much weight to give to those further points.',
+          'Shared visions are reported in other movements, usually among devout groups who were already expecting them. The disciples were not. They had no expectation of a Messiah who would die and be raised in the middle of history; they were hiding in fear and grief.',
+          'Their claim was not a vision but a raised body and an empty tomb. And the Lord appeared also to James, who had not believed in Him, and to St Paul, who was persecuting His Church. No visionary movement explains these. The appearances were real meetings with the risen Christ.',
         ],
         ar: [
-          'توجد أخبار عن رؤى مشتركة في سياقات دينية أخرى، وهي ظاهرة حقيقية لدى مؤرخي الأديان. وللاقتراح بعض القوة في اختبارات داخل جماعة متدينة كانت تتوقع ظهور الموتى.',
-          'وصعوبته، كما يقول ناقدوه، أن الأتباع الأوائل لم يتوقعوا مسيحًا يموت ويقوم في وسط التاريخ، وأن الدعوى شملت دفنًا وجسدًا، وأن القديس بولس ويعقوب، وهما ليسا من المؤمنين الأوائل، صارا إلى هذا الإيمان أيضًا. ويجيب المدافعون بأن هذه الوقائع راسخة جزئيًا فقط وبأن القصص نمت. ويتوقف الخلاف على الوزن الذي يُعطى لتلك النقاط الإضافية.',
+          'تُروى رؤى مشتركة في حركات أخرى، وعادة بين جماعات متدينة كانت تتوقعها. أما التلاميذ فلم يكونوا كذلك. لم يتوقعوا مسيحًا يموت ويقوم في وسط التاريخ؛ بل كانوا مختبئين في خوف وحزن.',
+          'ولم تكن دعواهم رؤيا بل جسدًا قام وقبرًا فارغًا. وظهر الرب أيضًا ليعقوب الذي لم يكن قد آمن به، وللقديس بولس الذي كان يضطهد كنيسته. ولا تفسر أي حركة رؤيوية ذلك. فالظهورات لقاءات حقيقية بالمسيح القائم.',
         ],
       },
       limits: {
@@ -345,12 +345,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'A combined explanation is possible, and some historians prefer it. Its difficulty is that each added factor is a further assumption, so that the whole proposal becomes less probable than any single part. Critics of the Christian view say that the same principle weighs against a miracle, and that is the point of the comparison.',
-          'A fair way to state the matter is that the combined natural explanation and the resurrection hypothesis each pay a price. The first pays in the number of unlikely coincidences it needs, and the second pays in requiring an act of God. Which price one thinks is lower depends on one\'s wider view.',
+          'Combining weak explanations does not make a strong one. Each added factor is one more assumption, so the whole becomes less likely than any part: grief visions that happened to groups, and a wrong tomb that no one corrected, and a legend that grew while the eyewitnesses were still alive.',
+          'The resurrection needs no chain of coincidences. It needs one thing: that God acted. It explains the empty tomb, the appearances, the change in James and St Paul, and the apostles’ fearless preaching, all at once. That is why the Church proclaims it with confidence.',
         ],
         ar: [
-          'التفسير المركب ممكن، ويفضله بعض المؤرخين. وصعوبته أن كل عامل مضاف افتراض إضافي، فيصير الاقتراح كله أقل احتمالًا من أي جزء منه منفردًا. ويقول منتقدو الرأي المسيحي إن المبدأ نفسه يُرجّح ضد المعجزة، وهذه هي نقطة المقارنة.',
-          'والطريقة المنصفة لعرض المسألة أن التفسير الطبيعي المركب وفرضية القيامة يدفع كل منهما ثمنًا. فالأول يدفعه في عدد المصادفات البعيدة التي يحتاجها، والثانية في اشتراطها فعلًا من الله. وأي الثمنين أقل يتوقف على نظرة المرء الأوسع.',
+          'جمع التفسيرات الضعيفة لا يصنع تفسيرًا قويًا. فكل عامل مضاف افتراض إضافي، فيصير الكل أقل احتمالًا من أي جزء: رؤى حزن حدثت لجماعات، وقبر خطأ لم يصححه أحد، وأسطورة نمت وشهود العيان أحياء.',
+          'أما القيامة فلا تحتاج إلى سلسلة مصادفات. تحتاج إلى أمر واحد: أن الله فعل. وهي تفسر القبر الفارغ والظهورات وتغيّر يعقوب والقديس بولس وكرازة الرسل الجريئة، كلها معًا. ولهذا تكرز بها الكنيسة بثقة.',
         ],
       },
       limits: {
@@ -364,12 +364,12 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'A Christian historian can fairly say that the main natural explanations each leave something unexplained, and that the resurrection explains the combination of the empty tomb reports, the appearances to individuals and groups, the change in St Paul and James and the form of the proclamation. A critic can fairly answer that this explanation requires a miracle, which is a heavy cost, and that the evidence is thin and late.',
-        'The aim of this article is not to settle the dispute but to describe it fairly, so that the reader sees where the real points of disagreement are: the date of the core tradition, the nature of the experiences, and the prior probability of divine action.',
+        'Each natural explanation leaves something important unexplained. The resurrection explains the whole: the empty tomb, the appearances to individuals and to groups, the change in St Paul and James, and the shape of the earliest proclamation. Careful historians such as N. T. Wright and Michael Licona have tested the alternatives one by one and concluded that the resurrection is the best explanation of the evidence.',
+        'The points that matter are clear. The core tradition is early, within the lifetime of the eyewitnesses. The experiences were shared, bodily and life-changing. And the only thing that stands against the resurrection is the assumption that God cannot act.',
       ],
       ar: [
-        'يستطيع المؤرخ المسيحي أن يقول بإنصاف إن كلًا من التفسيرات الطبيعية الرئيسية يترك شيئًا بلا تفسير، وإن القيامة تفسر اجتماع أخبار القبر الفارغ والظهورات لأفراد وجماعات وتغير القديس بولس ويعقوب وصيغة الإعلان. ويستطيع الناقد أن يجيب بإنصاف بأن هذا التفسير يقتضي معجزة، وهي كلفة ثقيلة، وبأن الشواهد قليلة ومتأخرة.',
-        'وغاية المقال ليست حسم الخلاف بل وصفه بإنصاف، ليرى القارئ مواضع الخلاف الحقيقية: تاريخ اللب التقليدي، وطبيعة الاختبارات، والاحتمال السابق للفعل الإلهي.',
+        'يترك كل تفسير طبيعي شيئًا مهمًا بلا تفسير. أما القيامة فتفسر الكل: القبر الفارغ، والظهورات لأفراد ولجماعات، وتغيّر القديس بولس ويعقوب، وصورة الكرازة الأولى. وقد فحص مؤرخون متأنّون مثل ن. ت. رايت ومايكل ليكونا البدائل واحدًا واحدًا وانتهوا إلى أن القيامة أفضل تفسير للشواهد.',
+        'والنقاط المهمة واضحة. فالتقليد الأساسي مبكر، في حياة شهود العيان. والاختبارات كانت مشتركة وجسدية ومغيّرة للحياة. والشيء الوحيد الذي يقف ضد القيامة هو افتراض أن الله لا يستطيع أن يفعل.',
       ],
     },
     theological: {
@@ -400,8 +400,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'No natural explanation accounts for every part of the early evidence without further assumptions, and the resurrection hypothesis requires a miracle. A reader can weigh them fairly by asking what each explains, what each assumes, and what view of God lies behind the weighing. The result is not forced by the evidence alone.',
-    ar: 'لا يفسر أي تفسير طبيعي كل أجزاء الشواهد المبكرة دون افتراضات إضافية، وتقتضي فرضية القيامة معجزة. ويستطيع القارئ أن يوازن بينها بإنصاف بأن يسأل ماذا يفسر كل منها وماذا يفترض وأي نظرة إلى الله وراء الموازنة. والنتيجة لا تفرضها الشواهد وحدها.',
+    en: 'No natural explanation accounts for the early evidence without piling up assumptions. The resurrection accounts for all of it. Ask of each theory what it explains and what it assumes, and the answer becomes clear: the apostles told the truth. Christ is risen, as they saw and proclaimed, and the Church lives by that faith.',
+    ar: 'لا يفسر أي تفسير طبيعي الشواهد المبكرة دون تكديس الافتراضات. أما القيامة فتفسرها كلها. اسأل كل نظرية ماذا تفسر وماذا تفترض، فيتضح الجواب: الرسل قالوا الحق. المسيح قام، كما رأوا وكرزوا، وبهذا الإيمان تحيا الكنيسة.',
   },
   furtherReading: ['S15', 'S16', 'S14', 'S17', 'S41', 'S13'],
   related: ['could-jesus-have-survived', 'empty-tomb-evidence', 'what-first-followers-claimed', 'martyrdom-traditions', 'can-history-support-a-miracle', 'resurrection-accounts-disagree', 'early-belief-vs-evidence'],

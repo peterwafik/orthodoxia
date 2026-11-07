@@ -15,25 +15,25 @@ export const article: Article = {
     ar: 'تتناول هذه المقالة أصعب نصوص العهد القديم الحربية، وفي مقدمتها الأوامر المتعلقة بشعوب كنعان، وتسأل كيف تُفهم: ماذا تقول، وكيف تقع داخل أسفارها، وكيف قرأها الآباء، وماذا تعلّم الكنيسة اليوم عن العنف. ولا تحاول أن تجعل النصوص ليّنة، ولا أن تتعامل مع السؤال كأنه تهمة تُنحّى جانبًا.',
   },
   shortAnswer: {
-    en: 'The texts are real and they are troubling, and the Church does not pretend otherwise. Three things can be said honestly. First, the books themselves frame the conquest as a limited act of judgment on particular peoples after long patience, warn Israel that the same judgment would fall on it, and use total-destruction language in a way that the same books show was not literal. Second, the Fathers, above all in Alexandria, read these wars as a figure of the struggle against sin and of Christ, the true Joshua, leading his people to rest. Third, the story does not stop there: in Christ the sword is laid down, and the Church has never taught that any people holds a divine warrant to kill another. None of this removes the difficulty that people really were killed in the name of these texts; it places the texts inside a story that moves away from violence.',
-    ar: 'النصوص حقيقية ومزعجة، والكنيسة لا تتظاهر بغير ذلك. ويمكن قول ثلاثة أمور بأمانة. أولًا، تقدّم الأسفار نفسها الاستيلاء على الأرض عملَ دينونة محدودًا على شعوب بعينها بعد طول أناة، وتحذّر إسرائيل من أن الدينونة نفسها ستقع عليها، وتستعمل لغة الإبادة الكاملة بطريقة تُظهر الأسفار نفسها أنها لم تكن حرفية. ثانيًا، قرأ الآباء، وفي مقدمتهم آباء الإسكندرية، هذه الحروب رمزًا لجهاد الخطية ولشخص المسيح، يشوع الحقيقي، الذي يقود شعبه إلى الراحة. ثالثًا، لا تقف القصة هنا: ففي المسيح يُغمد السيف، ولم تعلّم الكنيسة قط أن لأي شعب تفويضًا إلهيًا بقتل شعب آخر. ولا يزيل هذا كله الصعوبة المتمثلة في أن أناسًا قُتلوا فعلًا باسم هذه النصوص؛ لكنه يضعها داخل قصة تتجه بعيدًا عن العنف.',
+    en: 'The texts are hard, and the Church reads them honestly and in the light of Christ. First, the books themselves present the conquest as a limited judgment on particular peoples after long patience; they warn Israel that the same judgment would fall on it; and they use the language of total destruction in a way the same books show was not literal. Second, the Fathers, above all in Alexandria, read these wars as a figure of the struggle against sin and of Christ, the true Joshua, who leads His people into rest. Third, the story leads to Christ, who lays down the sword and commands love of enemies. The Church has never taught that any people holds a divine warrant to kill another, and these texts give no warrant for violence today.',
+    ar: 'النصوص صعبة، والكنيسة تقرؤها بأمانة وفي ضوء المسيح. أولًا، تقدّم الأسفار نفسها الاستيلاء على الأرض دينونةً محدودة على شعوب بعينها بعد طول أناة؛ وتحذّر إسرائيل من أن الدينونة نفسها ستقع عليها؛ وتستعمل لغة الإبادة الكاملة بطريقة تُظهر الأسفار نفسها أنها لم تكن حرفية. ثانيًا، قرأ الآباء، وفي مقدمتهم آباء الإسكندرية، هذه الحروب رمزًا لجهاد الخطية وللمسيح، يشوع الحقيقي، الذي يقود شعبه إلى الراحة. ثالثًا، تقود القصة إلى السيد المسيح الذي يُغمد السيف ويأمر بمحبة الأعداء. ولم تعلّم الكنيسة قط أن لأي شعب تفويضًا إلهيًا بقتل شعب آخر، وليس في هذه النصوص ما يبرّر العنف اليوم.',
   },
   quickPoints: {
     en: [
-      'The commands to destroy the peoples of Canaan are in Scripture and cannot be explained away; the question is how to read them well.',
+      'The commands to destroy the peoples of Canaan are in Scripture, and the Church reads them as they stand, within the whole of Scripture.',
       'The books give their own frame: the conquest is judgment on peoples after long delay, not a licence for Israel, and Israel is warned that it can be expelled in the same way.',
       'Joshua’s sweeping reports of total destruction are followed in Judges by the survival of those same peoples, which shows the language was not meant as literal and complete extermination.',
       'The Fathers, especially Origen in Alexandria, read the wars of Joshua as the believer’s struggle against sin and as a figure of Christ; the Church’s own readings are not military.',
       'In the Gospel Christ refuses the sword for his kingdom, and the Church has never given any nation a divine command to make war. These texts give no warrant for violence today.',
-      'The difficulty is not fully removed: the Church says plainly that these passages have been misused to justify real harm, and that the question of God’s relation to such commands is held with humility.',
+      'The Church says plainly that these passages have been misused to justify real harm, and that such misuse goes against the Gospel. She reads the texts with reverence before God, who is both just and merciful.',
     ],
     ar: [
-      'أوامر إبادة شعوب كنعان موجودة في الكتاب ولا يمكن تجاهلها؛ والسؤال هو كيف تُقرأ قراءة حسنة.',
+      'أوامر إبادة شعوب كنعان موجودة في الكتاب، والكنيسة تقرؤها كما هي، داخل الكتاب كله.',
       'تقدّم الأسفار إطارها الخاص: الاستيلاء دينونة على شعوب بعد تأخير طويل، لا رخصة لإسرائيل، وإسرائيل مُحذَّرة من أنها قد تُطرد بالطريقة نفسها.',
       'تتبع تقارير يشوع عن الإبادة الكاملة في سفر القضاة بقاءُ الشعوب نفسها، وهذا يبيّن أن اللغة لم تُقصد إبادةً حرفية شاملة.',
       'قرأ الآباء، وبخاصة أوريجانوس في الإسكندرية، حروب يشوع جهادَ المؤمن ضد الخطية ورمزًا للمسيح؛ وقراءات الكنيسة نفسها ليست عسكرية.',
       'في الإنجيل يرفض المسيح السيف لملكوته، ولم تمنح الكنيسة أي أمة أمرًا إلهيًا بالحرب. وليس في هذه النصوص ما يبرّر العنف اليوم.',
-      'لا تزول الصعوبة كليًا: تقول الكنيسة بصراحة إن هذه الفقرات أُسيء استعمالها لتبرير أذى حقيقي، وإن علاقة الله بمثل هذه الأوامر تُحمل بتواضع.',
+      'تقول الكنيسة بصراحة إن هذه الفقرات أُسيء استعمالها لتبرير أذى حقيقي، وإن هذا الاستعمال يخالف الإنجيل. وهي تقرأ النصوص بخشوع أمام الله العادل والرحيم معًا.',
     ],
   },
   argumentTypes: ['textual', 'theological', 'philosophical'],
@@ -47,11 +47,11 @@ export const article: Article = {
   whyExamine: {
     en: [
       'For many readers this is the point at which the Bible becomes unreadable. They meet a command to destroy whole cities, or the story of a war in which God is said to give victory, and they ask whether the God of the Gospel can be the same God. That is a serious moral question, and it was asked in the early Church too, by Marcion in the second century and by Christians who wondered how to read the Old Testament at all.',
-      'It is also a question about us. These texts have been quoted by people who wanted a warrant for conquest or cruelty. An honest answer has to say both what the passages mean in their setting and why they never could be a warrant for what was done in their name.',
+      'It is also a question about us. These texts have been quoted by people who wanted a warrant for conquest or cruelty. The Church’s answer shows both what the passages mean in their setting and why they never could be a warrant for what was done in their name.',
     ],
     ar: [
       'عند كثير من القراء هذا هو الموضع الذي يصبح فيه الكتاب المقدس غير مقروء. يلتقون بأمر بإبادة مدن بأكملها، أو بقصة حرب يُقال إن الله يهب فيها النصر، فيسألون: هل يمكن أن يكون إله الإنجيل هو الإله نفسه؟ وهو سؤال أخلاقي جاد، وقد طُرح في الكنيسة الأولى أيضًا، على يد مرقيون في القرن الثاني وعلى يد مسيحيين تساءلوا كيف يُقرأ العهد القديم أصلًا.',
-      'وهو سؤال عنا نحن أيضًا. فقد استشهد بهذه النصوص أناس أرادوا تفويضًا للغزو أو القسوة. والجواب الأمين ينبغي أن يقول ما تعنيه الفقرات في سياقها، ولماذا لا يمكن أن تكون يومًا تفويضًا لما فُعل باسمها.',
+      'وهو سؤال عنا نحن أيضًا. فقد استشهد بهذه النصوص أناس أرادوا تفويضًا للغزو أو القسوة. وجواب الكنيسة يبيّن ما تعنيه الفقرات في سياقها، ولماذا لا يمكن أن تكون يومًا تفويضًا لما فُعل باسمها.',
     ],
   },
   background: {
@@ -78,8 +78,8 @@ export const article: Article = {
       argumentType: 'textual',
       assessment: 'strong_historical_support',
       rationale: {
-        en: 'The commands are plain in Deuteronomy 20 and in the narratives of Joshua. Reading them as a text that exists, rather than editing them out, is the starting point for any honest answer.',
-        ar: 'الأوامر واضحة في التثنية ٢٠ وفي روايات سفر يشوع. وقراءتها نصًّا قائمًا، لا حذفها، هي نقطة البدء لأي جواب أمين.',
+        en: 'The commands are plain in Deuteronomy 20 and in the narratives of Joshua. The Church receives the whole of Scripture and reads these passages as they stand, without cutting them out.',
+        ar: 'الأوامر واضحة في التثنية ٢٠ وفي روايات سفر يشوع. والكنيسة تقبل الكتاب كله وتقرأ هذه الفقرات كما هي، دون أن تحذفها.',
       },
       limits: {
         en: 'This establishes what the texts say. It does not decide how they should be understood, or whether the events were as described.',
@@ -96,8 +96,8 @@ export const article: Article = {
       argumentType: 'textual',
       assessment: 'supported_disputed_details',
       rationale: {
-        en: 'These qualifications are in the texts and can be read in the passages cited. What they mean for the moral question is argued: some read them as showing that the language is conventional; others think they leave the command itself as troubling as before.',
-        ar: 'هذه التقييدات موجودة في النصوص ويمكن قراءتها في الفقرات المذكورة. أما دلالتها على المسألة الأخلاقية فموضع جدال: يراها بعضهم دليلًا على أن اللغة اصطلاحية، ويرى آخرون أنها تترك الأمر نفسه مزعجًا كما كان.',
+        en: 'These qualifications are in the texts themselves. Joshua reports whole regions destroyed, and Judges then shows the same peoples still living in the land. The sweeping language is the conventional war language of the time, and the books place the conquest under God’s justice, which judges Israel too.',
+        ar: 'هذه التقييدات موجودة في النصوص نفسها. فيروي يشوع إبادة مناطق كاملة، ثم يُظهر سفر القضاة الشعوب نفسها ما زالت ساكنة في الأرض. فاللغة الشاملة هي لغة الحرب الاصطلاحية في ذلك الزمان، والأسفار تضع الاستيلاء تحت عدل الله الذي يدين إسرائيل أيضًا.',
       },
       limits: {
         en: 'Qualification is not justification. A reader may accept all of these observations and still find the command morally unacceptable.',
@@ -114,8 +114,8 @@ export const article: Article = {
       argumentType: 'theological',
       assessment: 'theological_interpretation',
       rationale: {
-        en: 'The letter to the Hebrews already reads Joshua as one who did not give the final rest, pointing beyond him; Origen of Alexandria in his homilies on Joshua read the battles as the soul’s struggle with vice. The reading is typological, a way of reading that the Church holds as part of the tradition.',
-        ar: 'تقرأ الرسالة إلى العبرانيين يشوع شخصًا لم يُعطِ الراحة النهائية، مشيرةً إلى ما بعده؛ وقرأ أوريجانوس السكندري في عظاته على يشوع المعارك صراع النفس مع الرذيلة. والقراءة رمزية تنبؤية، وهي طريقة قراءة تحتفظ بها الكنيسة جزءًا من التقليد.',
+        en: 'The letter to the Hebrews already reads Joshua as one who did not give the final rest, pointing beyond him; Origen of Alexandria in his homilies on Joshua read the battles as the soul’s struggle with vice. This typological reading is part of the Church’s tradition and shows how she has always heard these books.',
+        ar: 'تقرأ الرسالة إلى العبرانيين يشوع شخصًا لم يُعطِ الراحة النهائية، مشيرةً إلى ما بعده؛ وقرأ أوريجانوس السكندري في عظاته على يشوع المعارك صراع النفس مع الرذيلة. وهذه القراءة الرمزية جزء من تقليد الكنيسة، وتبيّن كيف سمعت هذه الأسفار دائمًا.',
       },
       limits: {
         en: 'A spiritual reading does not answer the question of what the original command meant to its first audience, or what happened to those it describes.',
@@ -132,8 +132,8 @@ export const article: Article = {
       argumentType: 'theological',
       assessment: 'theological_interpretation',
       rationale: {
-        en: 'The Gospel passages are explicit about the way of Christ, and the Church’s own history of martyrdom, in which it has more often been the victim than the aggressor in Egypt, shapes how it reads. The Church’s reading is that fulfilment in Christ changes what the earlier texts can be used for.',
-        ar: 'تصرّح فقرات الإنجيل بطريق المسيح، وتاريخ الاستشهاد في الكنيسة، وقد كانت في مصر ضحية أكثر مما كانت معتدية، يوجّه قراءتها. وقراءة الكنيسة أن التكميل في المسيح يغيّر ما يمكن أن تُستعمل له النصوص الأقدم.',
+        en: 'The Gospel passages are explicit about the way of Christ, and the Church’s own history of martyrdom, in which it has more often been the victim than the aggressor in Egypt, shapes how it reads. In Christ the earlier texts are fulfilled, and they can never again be used as a warrant for the sword.',
+        ar: 'تصرّح فقرات الإنجيل بطريق المسيح، وتاريخ الاستشهاد في الكنيسة، وقد كانت في مصر ضحية أكثر مما كانت معتدية، يوجّه قراءتها. ففي المسيح تكمل النصوص الأقدم، ولا يمكن أن تُستعمل بعد ذلك تفويضًا للسيف.',
       },
       limits: {
         en: 'Some Christians in history did use these texts to justify war; the claim is about what the Church teaches, not that Christians have always lived by it.',
@@ -274,11 +274,11 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The Church shares the moral horror at the killing of the innocent; it does not defend it. Christian readers answer in different ways. Some hold that the texts describe what Israel believed God commanded, in the language of its time, without it following that God willed every act as it was reported. Others hold that God is judge of life and death and that the texts show a judgment which only he could carry out, and not a pattern any human may copy. Most agree that no one today has such a warrant.',
+          'The Church shares the horror at the killing of the innocent and never defends cruelty. God alone is the judge of life and death, who gives life and takes it back in His time; the texts present a judgment which belonged to Him alone, given for one land and one moment, and not a pattern any human may copy. No one today has such a warrant, and the Church has never given one.',
           'The Fathers who read the texts spiritually did not do so to avoid the question. They believed that the God of the Old Testament is the Father of Jesus Christ, and that the Scriptures are to be read as a whole whose fullness is Christ. They therefore read the earlier commands in the light of the later revelation of God’s mercy.',
         ],
         ar: [
-          'تشارك الكنيسة الفزع الأخلاقي من قتل الأبرياء، ولا تدافع عنه. ويجيب القراء المسيحيون بطرق مختلفة. يرى بعضهم أن النصوص تصف ما اعتقد إسرائيل أن الله أمر به، بلغة زمانه، دون أن يلزم أن الله أراد كل فعل كما رُوي. ويرى آخرون أن الله هو ديّان الحياة والموت وأن النصوص تُظهر دينونة لا يقدر عليها إلا هو، وليست نموذجًا يجوز لإنسان أن يحاكيه. ويتفق أكثرهم على أنه لا أحد اليوم يملك تفويضًا كهذا.',
+          'تشارك الكنيسة الفزع من قتل الأبرياء ولا تدافع أبدًا عن القسوة. فالله وحده ديّان الحياة والموت، يهب الحياة ويستردها في وقته؛ والنصوص تقدّم دينونة تخصه وحده، أُعطيت لأرض واحدة ولحظة واحدة، وليست نموذجًا يجوز لإنسان أن يحاكيه. ولا أحد اليوم يملك تفويضًا كهذا، ولم تمنحه الكنيسة قط.',
           'ولم يقرأ الآباء النصوص قراءة روحية هربًا من السؤال. فقد آمنوا أن إله العهد القديم هو أبو ربنا يسوع المسيح، وأن الكتب تُقرأ كلًّا واحدًا كماله في المسيح. فقرأوا الأوامر الأقدم في ضوء الإعلان اللاحق لرحمة الله.',
         ],
       },
@@ -296,12 +296,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The point about hyperbole rests on the internal evidence cited above, not on a wish to soften the text. The historical question is open: archaeologists and historians disagree on whether a conquest of this kind took place, and the article on the conquest narratives sets out what is known and disputed. The literary question and the historical question should be kept apart.',
-          'It is also true that a text can be read in a way its authors did not intend. That is why the Church’s reading rests on Christ, who is the standard against which the whole of Scripture is read, and not on the military text alone.',
+          'The point about hyperbole rests on the books’ own evidence, not on a wish to soften them: Joshua and Judges themselves show that the sweeping words were not a literal record of extermination. The historical questions about the conquest are treated in their own article.',
+          'Nor do the texts teach violence to those who read them as the Church does. Her reading rests on Christ, the standard by which the whole of Scripture is read, and in Him the war against flesh and blood becomes the struggle against sin.',
         ],
         ar: [
-          'تستند ملاحظة المبالغة إلى الشواهد الداخلية المذكورة أعلاه، لا إلى رغبة في تليين النص. والسؤال التاريخي مفتوح: يختلف علماء الآثار والمؤرخون في هل جرى استيلاء من هذا النوع، وتعرض مقالة روايات الاستيلاء ما يُعرف وما يُختلف عليه. وينبغي فصل السؤال الأدبي عن السؤال التاريخي.',
-          'ومن الصحيح أيضًا أن النص قد يُقرأ بطريقة لم يقصدها كتّابه. ولذلك تقوم قراءة الكنيسة على المسيح، المعيار الذي يُقرأ به الكتاب كله، لا على النص الحربي وحده.',
+          'تستند ملاحظة المبالغة إلى شواهد الأسفار نفسها، لا إلى رغبة في تليينها: فسفرا يشوع والقضاة نفسهما يُظهران أن الألفاظ الشاملة لم تكن سجلًا حرفيًا لإبادة. وتعالج مقالة خاصة الأسئلة التاريخية عن الاستيلاء.',
+          'ولا تعلّم النصوص العنف لمن يقرؤها كما تقرؤها الكنيسة. فقراءتها تقوم على المسيح، المعيار الذي يُقرأ به الكتاب كله، وفيه تصير الحرب ضد اللحم والدم جهادًا ضد الخطية.',
         ],
       },
       limits: {
@@ -319,11 +319,11 @@ export const article: Article = {
       response: {
         en: [
           'Christians in various times and places have indeed appealed to the conquest to justify violence, and that is a real failure which the Church acknowledges. It is a failure against the Gospel’s own teaching about enemies and the sword, not an application of it.',
-          'The Coptic Church has in its own history been a church of martyrs far more often than of rulers, and it reads the texts through the cross. That does not excuse the wrongs done elsewhere, but it shows that the texts need not lead to violence when they are read with Christ.',
+          'The Coptic Church has in its own history been a church of martyrs far more often than of rulers, and it reads the texts through the cross. Her witness shows what these texts produce when they are read with Christ: endurance and forgiveness, not violence.',
         ],
         ar: [
           'استشهد مسيحيون في أزمنة وأماكن مختلفة فعلًا بالاستيلاء لتبرير العنف، وهذا إخفاق حقيقي تعترف به الكنيسة. وهو إخفاق ضد تعليم الإنجيل نفسه عن الأعداء والسيف، لا تطبيق له.',
-          'وكانت الكنيسة القبطية في تاريخها كنيسة شهداء أكثر بكثير مما كانت كنيسة حكام، وهي تقرأ النصوص من خلال الصليب. وهذا لا يبرّر ما جرى في أماكن أخرى، لكنه يبيّن أن النصوص لا تؤدي بالضرورة إلى العنف حين تُقرأ مع المسيح.',
+          'وكانت الكنيسة القبطية في تاريخها كنيسة شهداء أكثر بكثير مما كانت كنيسة حكام، وهي تقرأ النصوص من خلال الصليب. وشهادتها تبيّن ما تثمره هذه النصوص حين تُقرأ مع المسيح: الصبر والغفران، لا العنف.',
         ],
       },
       limits: {
@@ -337,10 +337,10 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'Historically, the military texts cannot be separated from the question of what actually happened. Historians and archaeologists give different assessments of the conquest as the book of Joshua describes it, and the sources catalogued here do not settle it; the article on the conquest narratives treats that question. What can be said from the texts alone is that the books of Joshua and Judges do not agree in presenting a complete extermination, and that the command is tied to one region and one period, not to Israel’s wars in general.',
+        'The texts themselves show two things clearly. The books of Joshua and Judges, read together, do not present a complete extermination: the peoples named as destroyed are still in the land afterwards. And the command is tied to one region and one period, not to Israel’s wars in general; Deuteronomy 20 itself requires that a distant city first be offered peace. The history of the conquest is treated in its own article.',
       ],
       ar: [
-        'تاريخيًا، لا يمكن فصل النصوص الحربية عن سؤال ما حدث فعلًا. ويعطي المؤرخون وعلماء الآثار تقديرات مختلفة للاستيلاء كما يصفه سفر يشوع، ولا تحسمه المصادر المفهرسة هنا؛ وتعالج مقالة روايات الاستيلاء هذا السؤال. وما يمكن قوله من النصوص وحدها أن سفري يشوع والقضاة لا يتفقان على تقديم إبادة كاملة، وأن الأمر مربوط بمنطقة واحدة وفترة واحدة، لا بحروب إسرائيل عمومًا.',
+        'تُظهر النصوص نفسها أمرين بوضوح. فسفرا يشوع والقضاة، إذا قُرئا معًا، لا يقدّمان إبادة كاملة: فالشعوب التي يُقال إنها أُبيدت ما زالت في الأرض بعد ذلك. والأمر مربوط بمنطقة واحدة وفترة واحدة، لا بحروب إسرائيل عمومًا؛ والتثنية ٢٠ نفسها توجب أن تُعرض السلامة أولًا على المدينة البعيدة. ويُعالج تاريخ الاستيلاء في مقالة خاصة.',
       ],
     },
     theological: {
@@ -375,8 +375,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'The violent commands are in the Bible and they are hard. The books qualify them, the Fathers read them as figures of the struggle against sin and of Christ, and the Gospel lays down the sword and teaches love of enemies, so the Church has never taught that anyone may kill in God’s name. The article does not claim to have dissolved the difficulty; it says how the Church holds the texts and why they offer no warrant for violence.',
-    ar: 'الأوامر العنيفة موجودة في الكتاب المقدس وهي صعبة. تقيّدها الأسفار نفسها، ويقرؤها الآباء رموزًا لجهاد الخطية وللمسيح، ويضع الإنجيل السيف ويعلّم محبة الأعداء، فلم تعلّم الكنيسة قط أن لأحد أن يقتل باسم الله. ولا تدّعي المقالة أنها أذابت الصعوبة؛ إنها تقول كيف تتمسك الكنيسة بالنصوص ولماذا لا تعطي تفويضًا بالعنف.',
+    en: 'The violent commands are in the Bible and they are hard. The books themselves limit them, the Fathers read them as figures of the struggle against sin and of Christ, and the Gospel lays down the sword and teaches love of enemies. So the Church reads these texts as a stage on the way to Christ, and she has never taught that anyone may kill in God’s name. They give no warrant for violence, and the true Joshua leads His people into peace.',
+    ar: 'الأوامر العنيفة موجودة في الكتاب المقدس وهي صعبة. تقيّدها الأسفار نفسها، ويقرؤها الآباء رموزًا لجهاد الخطية وللمسيح، ويُغمد الإنجيل السيف ويعلّم محبة الأعداء. فالكنيسة تقرأ هذه النصوص مرحلةً في الطريق إلى المسيح، ولم تعلّم قط أن لأحد أن يقتل باسم الله. فهي لا تعطي تفويضًا بالعنف، ويشوع الحقيقي يقود شعبه إلى السلام.',
   },
   furtherReading: ['S49', 'S62', 'S37', 'S34'],
   related: [

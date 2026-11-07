@@ -15,23 +15,23 @@ export const article: Article = {
     ar: 'كيف تُقيَّم دعوى أن يسوع صنع معجزات: ما الذي يستطيع المؤرخ إثباته وما لا يستطيع، وماذا تقول الحجج الفلسفية (وأبرزها حجة هيوم)، وكيف تمتحن الكنيسة هذه الدعاوى، وكيف ينطبق ذلك على الأخبار عن يسوع. لا يحاجّ المقال بأن معجزة بعينها حدثت، ولا يعالج القيامة التي لها مقالاتها.',
   },
   shortAnswer: {
-    en: 'A miracle claim has two parts. The first is historical: what do the sources report, how early and how well placed are the witnesses, and what are the alternative explanations? The second is philosophical: given what we believe about the world and God, could such an event happen, and how should we weigh testimony for it? History can answer the first part, but the second depends on the starting view of reality. The sources show that Jesus was reputed to heal and drive out spirits, and that opponents accepted the reputation while explaining it differently. Whether these were acts of God is decided by the weight one gives to the evidence and to one’s view of whether God acts.',
-    ar: 'لدعوى المعجزة جزءان. الأول تاريخي: ماذا تروي المصادر، وما مدى قِدم الشهود وقربهم من الحدث، وما التفسيرات البديلة؟ والثاني فلسفي: بالنظر إلى ما نؤمن به عن العالم والله، هل يمكن أن يقع حدث كهذا، وكيف نزن الشهادة عليه؟ يستطيع التاريخ أن يجيب عن الجزء الأول، أما الثاني فيتوقف على النظرة الأولى إلى الواقع. وتبين المصادر أن يسوع اشتُهر بالشفاء وطرد الأرواح، وأن الخصوم سلّموا بالشهرة وفسروها تفسيرًا آخر. وهل كانت أعمال الله فيحسمه الوزن الذي يُعطى للأدلة والنظرة إلى هل يعمل الله في العالم.',
+    en: 'A miracle claim is weighed like any testimony: how early are the sources, how close are the witnesses, and do other explanations fit the facts? One question comes first: is a miracle possible at all? If God exists and made the world, He can act in it, and a miracle is not ruled out in advance. On this footing the witness to Jesus is strong. The Gospels report His healings and His casting out of spirits, and even His opponents admitted the deeds, explaining them as the work of evil powers. The Church receives His works as the acts of the Creator restoring His creation, signs that point to who He is.',
+    ar: 'تُوزن دعوى المعجزة كما تُوزن أي شهادة: ما مدى قِدم المصادر، وما مدى قرب الشهود، وهل تتفق التفسيرات الأخرى مع الوقائع؟ وهناك سؤال يسبق ذلك: هل المعجزة ممكنة أصلًا؟ فإن كان الله موجودًا وقد خلق العالم، فهو قادر أن يعمل فيه، والمعجزة ليست مستبعدة مسبقًا. وعلى هذا الأساس تكون الشهادة ليسوع قوية. فالأناجيل تروي أشفيته وإخراجه الأرواح، وحتى خصومه اعترفوا بالأعمال وفسروها بأنها من قوى شريرة. والكنيسة تقبل أعماله أفعالَ الخالق الذي يجدد خليقته، وآياتٍ تشير إلى من هو.',
   },
   quickPoints: {
     en: [
-      'A historian can establish what the sources report and how reliable they appear, but cannot by method alone say whether a cause beyond nature acted.',
-      'Hume argued that testimony for a miracle will rarely outweigh our uniform experience against it. Critics reply that this assumes what is at issue, and defenders offer weaker forms of the argument.',
-      'For a believer in God, an event like a healing is not impossible in principle; the question is whether the evidence for a particular event is good.',
-      'Jesus’ opponents in the Gospels and a later critic, Celsus, attributed his wonders to evil powers or magic. They accepted that something extraordinary was reported.',
-      'The Church tests claims of the miraculous and warns against false signs. Its faith in Christ is not founded on wonders alone.',
+      'History can establish what the sources report and how reliable they are; whether God acted depends also on whether one allows that God exists and acts.',
+      'Hume argued that testimony for a miracle will hardly ever outweigh our uniform experience. But that argument assumes what it sets out to prove.',
+      'For anyone who believes in God, a healing is not impossible; the question is whether the evidence for a particular event is good.',
+      'Jesus\' opponents in the Gospels and a later critic, Celsus, put His wonders down to evil powers or magic. They did not deny the deeds.',
+      'The Church tests claims of the miraculous and warns against false signs. Her faith rests on Christ Himself, to whom His works point.',
     ],
     ar: [
-      'يستطيع المؤرخ إثبات ما تروي المصادر ومدى موثوقيتها الظاهرة، لكنه لا يستطيع بالمنهج وحده أن يقول هل فعل سبب فوق الطبيعة.',
-      'احتج هيوم بأن الشهادة على معجزة نادرًا ما تفوق خبرتنا المطّردة ضدها. ويردّ النقاد بأن ذلك يفترض ما هو موضع النزاع، ويقدم المدافعون عنه صيغًا أضعف.',
-      'بالنسبة للمؤمن بالله، حدث كالشفاء ليس مستحيلًا من حيث المبدأ؛ والسؤال هو: هل الأدلة على حدث بعينه جيدة.',
-      'نسب خصوم يسوع في الأناجيل، وناقد لاحق هو كلسوس، عجائبه إلى قوى شريرة أو سحر. وسلّموا بأن شيئًا خارقًا رُوي.',
-      'تمتحن الكنيسة دعاوى الخوارق وتحذر من العلامات الكاذبة. وإيمانها بالمسيح لا يقوم على العجائب وحدها.',
+      'يستطيع التاريخ أن يثبت ما تذكره المصادر ومدى موثوقيتها؛ أما هل عمل الله فيتوقف أيضًا على قبول أن الله موجود ويعمل.',
+      'حاجّ هيوم بأن الشهادة لمعجزة نادرًا ما تستطيع أن تغلب خبرتنا المطّردة، إن استطاعت. لكن هذه الحجة تفترض ما تريد إثباته.',
+      'لمن يؤمن بالله ليس الشفاء مستحيلًا؛ والسؤال هو هل الدليل على حدث بعينه جيد.',
+      'نسب خصوم يسوع في الأناجيل، وناقد لاحق هو كلسوس، عجائبه إلى قوى شريرة أو سحر. لكنهم لم ينكروا الأعمال.',
+      'تمتحن الكنيسة دعاوى المعجزات وتحذّر من الآيات الكاذبة. وإيمانها قائم على المسيح نفسه، الذي تشير إليه أعماله.',
     ],
   },
   argumentTypes: ['historical', 'philosophical'],
@@ -44,12 +44,12 @@ export const article: Article = {
   },
   whyExamine: {
     en: [
-      'Many people reject the Gospels at once because they report miracles, and many accept them for the same reason. Both can be reasons, but neither is an argument. The question is whether the sources are good enough, and whether one’s starting view leaves room for the evidence to count.',
-      'The subject also protects believers. A Church that welcomes every report of wonders would be easy to deceive, and the Fathers and the Scriptures themselves teach discernment.',
+      'Many people reject the Gospels at once because they report miracles. That is not an argument but a starting assumption. The real questions are whether the sources are good, and whether one\'s starting view lets the evidence count.',
+      'The subject also protects believers. A Church that welcomed every report of wonders would be easy to deceive, and the Fathers and the Scriptures themselves teach discernment.',
     ],
     ar: [
-      'يرفض كثيرون الأناجيل فورًا لأنها تروي معجزات، ويقبلها كثيرون للسبب نفسه. وكلاهما قد يكون دافعًا، لكن ليس حجة. والسؤال: هل المصادر جيدة بما يكفي، وهل تترك نظرة المرء الأولى مجالًا لأن تُعدّ الأدلة.',
-      'ويحمي الموضوع المؤمنين أيضًا. فكنيسة ترحب بكل خبر عن العجائب يسهل خداعها، وقد علّم الآباء والكتب المقدسة نفسها التمييز.',
+      'يرفض كثيرون الأناجيل فورًا لأنها تروي معجزات. وهذا ليس حجة بل افتراض مسبق. والسؤالان الحقيقيان هما: هل المصادر جيدة، وهل يسمح موقف المرء المسبق للدليل بأن يكون له وزن.',
+      'ويحمي الموضوع المؤمنين أيضًا. فالكنيسة التي ترحب بكل خبر عن عجائب يسهل خداعها، والآباء والكتاب المقدس نفسه يعلّمون التمييز.',
     ],
   },
   background: {
@@ -70,14 +70,14 @@ export const article: Article = {
     {
       id: 'c1',
       proposition: {
-        en: 'Whether a miracle occurred is not settled by historical method alone, because it depends also on whether one holds that God may act in the world.',
-        ar: 'لا يُحسم وقوع معجزة بالمنهج التاريخي وحده، لأنه يتوقف أيضًا على الاعتقاد بأن الله قد يعمل في العالم.',
+        en: 'Whether a miracle occurred depends not on historical method alone but also on whether God acts in the world, and if God exists, He can.',
+        ar: 'هل حدثت معجزة أمر لا يتوقف على المنهج التاريخي وحده، بل أيضًا على هل يعمل الله في العالم، وإن كان الله موجودًا فهو قادر على ذلك.',
       },
       argumentType: 'philosophical',
       assessment: 'philosophical_argument',
       rationale: {
-        en: 'If one thinks there is no God, then for such a person the probability of a miracle is very low whatever the testimony. If one thinks God exists and acts, then reports of divine action are not ruled out beforehand. The overview of the debate in the Stanford Encyclopedia sets out these positions, the testimony question and the replies to Hume.',
-        ar: 'من يرى أنه لا إله فاحتمال المعجزة عنده ضعيف جدًا أيًّا كانت الشهادة. ومن يرى أن الله موجود وفاعل فلا تُستبعد عنده الأخبار عن عمل إلهي سلفًا. ويعرض الاستعراض في موسوعة ستانفورد للفلسفة هذه المواقف ومسألة الشهادة والردود على هيوم.',
+        en: 'Someone who assumes there is no God will reject every miracle whatever the testimony. Someone who knows that God exists and acts will weigh the reports honestly. The overview of the debate in the Stanford Encyclopedia sets out these positions, the testimony question and the replies to Hume.',
+        ar: 'من يفترض أنه لا إله سيرفض كل معجزة مهما كانت الشهادة. أما من يعرف أن الله موجود ويعمل فسيزن الأخبار بأمانة. وتعرض نظرة موسوعة ستانفورد العامة في هذا الجدل هذه المواقف، ومسألة الشهادة، والردود على هيوم.',
       },
       limits: {
         en: 'This is a statement about reasoning and does not say which starting point is right. Other articles deal with the evidence for God.',
@@ -88,14 +88,14 @@ export const article: Article = {
     {
       id: 'c2',
       proposition: {
-        en: 'Hume’s argument, in its classic form, is contested: critics argue that it presupposes the uniformity it uses to dismiss testimony, and its defenders offer more modest forms.',
-        ar: 'حجة هيوم بصيغتها الكلاسيكية محل نزاع: يرى النقاد أنها تفترض الاطراد الذي تستعمله لرد الشهادة، ويقدم المدافعون عنها صيغًا أكثر تواضعًا.',
+        en: 'Hume\'s argument, in its classic form, fails: it presupposes the very uniformity it uses to dismiss testimony.',
+        ar: 'حجة هيوم في صورتها الكلاسيكية لا تصمد: فهي تفترض مسبقًا الاطّراد نفسه الذي تستعمله لرفض الشهادة.',
       },
       argumentType: 'philosophical',
       assessment: 'actively_debated',
       rationale: {
-        en: 'The point at issue is whether the regularity of nature, which every witness to a wonder takes for granted, counts as evidence against a particular unusual event when that event is reported by good witnesses and has a plausible cause.',
-        ar: 'محل النزاع هو: هل يُعدّ اطراد الطبيعة، الذي يسلّم به كل شاهد على عجيبة، دليلًا ضد حدث غير مألوف بعينه حين يرويه شهود جيدون وله سبب معقول.',
+        en: 'Every witness to a wonder knows that nature is regular; that is why the event is called a wonder. The regularity of nature does not count against a particular event reported by good witnesses, when that event has a sufficient cause in God.',
+        ar: 'كل شاهد على أعجوبة يعرف أن الطبيعة مطّردة؛ ولهذا تُسمى أعجوبة. واطّراد الطبيعة لا يشهد ضد حدث بعينه يرويه شهود جيدون، إذا كان لذلك الحدث سبب كافٍ في الله.',
       },
       limits: {
         en: 'Neither side of the debate shows that miracles occur, or that they do not. It is about how testimony should be weighed.',
@@ -106,14 +106,14 @@ export const article: Article = {
     {
       id: 'c3',
       proposition: {
-        en: 'The sources agree that Jesus was reputed to heal and cast out spirits, and his opponents accepted the reputation while explaining it as the work of evil powers or magic.',
-        ar: 'تتفق المصادر على أن يسوع اشتُهر بالشفاء وطرد الأرواح، وسلّم خصومه بالشهرة وفسروها بأنها عمل قوى شريرة أو سحر.',
+        en: 'The sources agree that Jesus healed and cast out spirits, and His opponents accepted this while explaining it as the work of evil powers or magic.',
+        ar: 'تتفق المصادر على أن يسوع شفى وأخرج أرواحًا، وقد قبل خصومه ذلك وفسروه بأنه من عمل قوى شريرة أو سحر.',
       },
       argumentType: 'historical',
       assessment: 'supported_disputed_details',
       rationale: {
-        en: 'Mark reports the accusation of acting by Beelzebul, and Origen preserves Celsus’ charge of sorcery. A deed that opponents explain is a deed that was reported in their time.',
-        ar: 'يروي مرقس تهمة العمل ببعلزبول، ويحفظ أوريجانوس اتهام كلسوس بالسحر. والعمل الذي يفسره الخصوم عمل كان مرويًا في زمنهم.',
+        en: 'Mark reports the accusation that He acted by Beelzebul, and Origen preserves Celsus\' charge of sorcery. Opponents do not invent explanations for deeds that never happened.',
+        ar: 'يروي مرقس الاتهام بأنه كان يعمل ببعلزبول، ويحفظ أوريجانوس تهمة كلسوس بالسحر. والخصوم لا يخترعون تفسيرات لأعمال لم تحدث قط.',
       },
       limits: {
         en: 'The reports about individual miracles differ in age and detail, and the opponents’ explanation does not show that the deeds occurred as described. The Gospels themselves, and Celsus after them, are not independent of one another.',
@@ -125,13 +125,13 @@ export const article: Article = {
       id: 'c4',
       proposition: {
         en: 'The Gospels and the Church treat miracles as signs that point beyond themselves, and call for discernment, not credulity.',
-        ar: 'تعامل الأناجيل والكنيسة المعجزات علامات تشير إلى ما وراءها، وتدعو إلى التمييز لا إلى سرعة التصديق.',
+        ar: 'تعامل الأناجيل والكنيسة المعجزات آياتٍ تشير إلى ما وراءها، وتدعو إلى التمييز لا إلى السذاجة.',
       },
       argumentType: 'theological',
       assessment: 'theological_interpretation',
       rationale: {
-        en: 'John states that the signs were written so that readers might believe, Jesus refuses to give a sign on demand, he warns of false signs, and the letter of John calls on believers to test the spirits.',
-        ar: 'يقول يوحنا إن الآيات كُتبت ليؤمن القراء، ويرفض يسوع أن يعطي آية بطلب، ويحذر من آيات كاذبة، وتدعو رسالة يوحنا المؤمنين إلى امتحان الأرواح.',
+        en: 'St John says that the signs were written so that readers might believe; Jesus refuses to give a sign on demand and warns of false signs; and the letter of St John calls on believers to test the spirits.',
+        ar: 'يقول القديس يوحنا إن الآيات كُتبت لكي يؤمن القراء؛ ويرفض يسوع أن يعطي آية عند الطلب ويحذّر من الآيات الكاذبة؛ وتدعو رسالة القديس يوحنا المؤمنين إلى امتحان الأرواح.',
       },
       limits: {
         en: 'This describes how the Church reads the texts and what she asks of believers. It is not an argument that persuades someone who does not accept the Scriptures.',
@@ -284,12 +284,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The objection is a serious one and states the point of Hume’s argument. It is right that most reports of wonders fail, and the Church shares the caution. But the uniform experience it appeals to is not a neutral fact. Those who think a miracle has occurred do not share it, and to count their experience as no evidence assumes the conclusion.',
-          'If God exists, an unusual event with a good purpose is not improbable in the same way as a random violation of nature. A fair inquiry looks at the particular testimony in each case, and a judgement about God’s existence comes before it, not from it.',
+          'Most reports of wonders do fail, and the Church shares that caution. But the uniform experience the objection appeals to is not a neutral fact. Those who have witnessed a miracle do not share it, and to count their experience as no evidence assumes the conclusion.',
+          'If God exists, an event with a good purpose, such as healing the sick, is not improbable in the way a random break in nature would be. Each testimony is to be weighed on its own, and the case of Jesus stands up to that weighing.',
         ],
         ar: [
-          'الاعتراض جاد ويعبر عن جوهر حجة هيوم. وصحيح أن أكثر الأخبار عن العجائب لا تصمد، وتشارك الكنيسة هذا الحذر. لكن الخبرة المطّردة التي يستند إليها ليست حقيقة محايدة. فالذين يرون أن معجزة حدثت لا يشاركون فيها، وعدّ خبرتهم عدمًا افتراض للنتيجة.',
-          'وإن كان الله موجودًا فحدث غير مألوف لغاية صالحة ليس مستبعدًا كاستبعاد خرق عشوائي للطبيعة. والفحص المنصف ينظر في الشهادة المعينة في كل حالة، والحكم في وجود الله يسبقه لا ينتج عنه.',
+          'معظم أخبار العجائب لا تصمد فعلًا، والكنيسة تشارك هذا الحذر. لكن الخبرة المطّردة التي يستند إليها الاعتراض ليست واقعة محايدة. فالذين شهدوا معجزة لا يشاركونها، واعتبار خبرتهم بلا قيمة دليلية افتراض للنتيجة.',
+          'فإن كان الله موجودًا، فالحدث ذو الغاية الصالحة، كشفاء المريض، ليس بعيد الاحتمال كما يكون خرق عشوائي للطبيعة. وكل شهادة تُوزن بمفردها، وحالة يسوع تصمد أمام هذا الوزن.',
         ],
       },
       limits: {
@@ -306,12 +306,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The Church does not claim that miracles alone prove Christianity, and does not claim that every miracle story is true. Reports must be weighed one by one: how early, how close to the events, how many witnesses, what motive, what alternative explanation. These factors differ widely among claims.',
-          'It also matters what the miracle is a sign of. The Church understands the works of Christ as pointing to his person, his death and resurrection, and not as freestanding proofs. The question of miracles in other religions has its own article.',
+          'The Church does not say that every miracle story is true, nor that miracles alone prove the faith. Reports must be weighed one by one: how early, how close to the events, how many witnesses, what motive, what other explanation. These differ widely from claim to claim.',
+          'What matters most is what a miracle points to. The works of Christ point to His person, His death and His resurrection; they belong to the whole of His life and teaching, not to a contest of wonders. Miracles in other religions are treated in their own article.',
         ],
         ar: [
-          'لا تدّعي الكنيسة أن المعجزات وحدها تثبت المسيحية، ولا أن كل قصة معجزة صحيحة. وتُوزن الأخبار واحدًا واحدًا: ما مدى قدمها وقربها من الأحداث وعدد شهودها ودافعهم وما التفسير البديل. وتتفاوت هذه العوامل كثيرًا بين الدعاوى.',
-          'ويهم أيضًا ما تشير إليه المعجزة. فالكنيسة تفهم أعمال المسيح مشيرةً إلى شخصه وموته وقيامته لا براهين قائمة بذاتها. وللمعجزات في الأديان الأخرى مقالها.',
+          'لا تقول الكنيسة إن كل قصة معجزة صحيحة، ولا إن المعجزات وحدها تثبت الإيمان. فالأخبار يجب أن تُوزن واحدًا واحدًا: ما مدى قِدمها، وما مدى قربها من الأحداث، وكم عدد الشهود، وما الدافع، وما التفسير الآخر. وهذه تختلف كثيرًا من دعوى إلى أخرى.',
+          'والأهم هو ما تشير إليه المعجزة. فأعمال المسيح تشير إلى شخصه وموته وقيامته؛ وهي جزء من حياته وتعليمه كله، لا من مسابقة عجائب. والمعجزات في الأديان الأخرى لها مقالها الخاص.',
         ],
       },
       limits: {
@@ -328,12 +328,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'Legendary growth is a real possibility in oral transmission and is taken seriously by historians, including some believers. It is a hypothesis to be tested against the evidence for each story, not a general conclusion about all of them.',
-          'In favour of an early core are the independent mentions of healing across layers of the tradition and the fact that opponents accepted the reputation. Against any confident claim are the dates of the Gospels and the apologetic purpose of their writers. The matter is left open by the evidence, and the article on oral transmission discusses it.',
+          'Legends need time and distance from the events. The healings of Jesus are not found only in one late layer; they run through every strand of the Gospel tradition, and they were known while those who had seen Him were still alive.',
+          'His opponents, too, accepted that He did these works and argued only about their source. That is strong evidence that the deeds belong to the earliest memory of Jesus, not to later legend.',
         ],
         ar: [
-          'النمو الأسطوري احتمال حقيقي في النقل الشفهي ويأخذه المؤرخون بجدية، ومنهم مؤمنون. وهو فرضية تُختبر بالأدلة على كل قصة لا نتيجة عامة عنها كلها.',
-          'ويدعم نواة مبكرة ذكر الشفاء في طبقات مستقلة من التقليد وتسليم الخصوم بالشهرة. ويقف ضد أي دعوى واثقة تواريخ الأناجيل وغاية كتّابها الدفاعية. والأدلة تترك الأمر مفتوحًا، ويناقشه مقال النقل الشفهي.',
+          'الأساطير تحتاج إلى زمن وإلى بعد عن الأحداث. وأشفية يسوع لا توجد في طبقة متأخرة واحدة فقط؛ بل تسري في كل خيوط التقليد الإنجيلي، وكانت معروفة والذين رأوه ما زالوا أحياء.',
+          'وخصومه أيضًا قبلوا أنه عمل هذه الأعمال، وجادلوا فقط في مصدرها. وهذا دليل قوي على أن الأعمال تنتمي إلى أقدم ذاكرة عن يسوع، لا إلى أسطورة لاحقة.',
         ],
       },
       limits: {
@@ -347,12 +347,12 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'The historical case for Jesus’ wonders is modest: they were part of his reputation among friends and enemies from early on, and no source of the time denies the deeds. This falls short of proving that they were miracles, and the article does not claim it does.',
-        'A fair historian, believing or not, should be willing to say what a given premise does. If God does not act, the reports need another explanation. If God may act, they are an open question to be weighed by the usual tests of testimony. The case for the resurrection, which is the central miracle, is dealt with in the articles on it.',
+        'The deeds of Jesus were part of His reputation among friends and enemies from the beginning, and no source of the time denies them. The question is then not whether something happened, but what it was.',
+        'If God does not act, the reports need another explanation, and none fits well. If God acts, they are what they claim to be: acts of power and mercy. The resurrection, the central miracle, is treated in its own articles.',
       ],
       ar: [
-        'الحجة التاريخية على عجائب يسوع متواضعة: فقد كانت جزءًا من شهرته عند الأصدقاء والأعداء منذ وقت مبكر، ولا ينكر مصدر من ذلك الزمن الأعمال. وهذا دون إثبات أنها كانت معجزات، والمقال لا يدّعي ذلك.',
-        'وينبغي للمؤرخ المنصف، مؤمنًا كان أو لا، أن يقول ما تفعله مقدمة بعينها. فإن كان الله لا يعمل احتاجت الأخبار إلى تفسير آخر. وإن جاز أن يعمل الله فهي سؤال مفتوح يُوزن بالاختبارات المعتادة للشهادة. وحجة القيامة، وهي المعجزة المركزية، تعالجها المقالات الخاصة بها.',
+        'كانت أعمال يسوع جزءًا من سمعته بين الأصدقاء والأعداء منذ البداية، ولا ينكرها أي مصدر من ذلك الزمن. فالسؤال إذًا ليس هل حدث شيء، بل ما هو.',
+        'فإن كان الله لا يعمل، فالأخبار تحتاج إلى تفسير آخر، ولا يوجد تفسير يلائمها جيدًا. وإن كان الله يعمل، فهي ما تدّعيه: أعمال قوة ورحمة. والقيامة، المعجزة المركزية، لها مقالاتها الخاصة.',
       ],
     },
     theological: {
@@ -381,8 +381,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'History can show that Jesus was reputed to heal and drive out spirits, and that his opponents did not deny it. It cannot by itself say whether God acted, because that depends on a view of reality that both believers and sceptics bring to the evidence. The honest course is to state that premise, weigh each testimony on its merits, and not treat wonders as proof in themselves.',
-    ar: 'يستطيع التاريخ أن يبين أن يسوع اشتُهر بالشفاء وطرد الأرواح وأن خصومه لم ينكروا ذلك. ولا يستطيع وحده أن يقول هل عمل الله، لأن ذلك يتوقف على نظرة إلى الواقع يحملها المؤمنون والمتشككون إلى الأدلة. والنهج الصادق أن تُعلن هذه المقدمة، وأن تُوزن كل شهادة بحسب قيمتها، وألا تُعامل العجائب برهانًا بذاتها.',
+    en: 'History shows that Jesus healed the sick and drove out spirits, and that His opponents did not deny it. Whether God acted depends on whether God exists and acts, and He does. The Church receives the works of Christ as the acts of the Creator restoring His creation, signs that lead to faith in Him, weighed always with discernment.',
+    ar: 'يبين التاريخ أن يسوع شفى المرضى وأخرج الأرواح، وأن خصومه لم ينكروا ذلك. وهل عمل الله يتوقف على هل الله موجود ويعمل، وهو موجود ويعمل. والكنيسة تقبل أعمال المسيح أفعالَ الخالق الذي يجدد خليقته، وآياتٍ تقود إلى الإيمان به، وتزنها دائمًا بالتمييز.',
   },
   furtherReading: ['S41', 'S15', 'S16', 'S10', 'S52'],
   related: [

@@ -15,8 +15,8 @@ export const article: Article = {
     ar: 'لفظتان في روايات الطفولة كثيرًا ما تُستعملان ضد دوام بتولية مريم: «حتى» في متى ١: ٢٥ و«البكر» في لوقا ٢: ٧. تسأل المقالة عن معناهما في استعمال الكتاب نفسه وعما يدلان عليه وما لا يدلان.',
   },
   shortAnswer: {
-    en: 'Neither word settles the matter. “Until” (Greek heos hou) says what was true up to a point and, in Scripture, often leaves open what follows; Matthew’s concern in verse 25 is that Joseph had no part in the conception before the birth. “Firstborn” names a status: the child who opens the womb and is consecrated to God, a status that belongs to him from birth, whether or not other children follow. Read in Scripture’s own usage, both words fit the Coptic Orthodox faith that Mary remained a virgin; they do not demand the other reading, and those who hold it are not unreasonable in finding it the simpler one.',
-    ar: 'لا تحسم أي من اللفظتين المسألة. فـ«حتى» (اليونانية هيوس هو) تذكر ما كان صحيحًا إلى نقطة، وتترك في الكتاب كثيرًا ما يلي ذلك مفتوحًا؛ وهمّ متى في العدد ٢٥ أن يوسف لم يكن له دور في الحبل قبل الولادة. و«البكر» تسمّي مرتبة: الطفل الذي يفتح الرحم ويُكرَّس لله، وهي مرتبة له من الولادة سواء تبعه أولاد أم لا. وإذا قُرئتا باستعمال الكتاب نفسه فهما تنسجمان مع إيمان الكنيسة القبطية الأرثوذكسية أن مريم بقيت عذراء؛ ولا تفرضان القراءة الأخرى، ومن يقولون بها ليسوا بلا حجة إذ يرونها الأبسط.',
+    en: 'Neither word means that Mary had other children. “Until” (Greek heos hou) marks what was true up to a point and, in Scripture, says nothing about what follows; Matthew’s concern in verse 25 is that Joseph had no part in the conception of Christ. “Firstborn” names a status: the child who opens the womb and is consecrated to God, a status that belongs to him from his birth, whether or not other children follow. Read in Scripture’s own usage, both words agree with the faith the Coptic Orthodox Church has always held: the Virgin Mary remained ever-virgin.',
+    ar: 'لا تعني أي من اللفظتين أن مريم ولدت أولادًا آخرين. فـ«حتى» (اليونانية هيوس هو) تحدد ما كان صحيحًا إلى نقطة، ولا تقول في الكتاب شيئًا عما يليها؛ وهمّ متى في العدد ٢٥ أن يوسف لم يكن له دور في الحبل بالسيد المسيح. و«البكر» تسمّي مرتبة: الطفل الذي يفتح الرحم ويُكرَّس لله، وهي مرتبة له منذ ولادته سواء تبعه أولاد أم لا. وإذا قُرئتا باستعمال الكتاب نفسه فهما توافقان الإيمان الذي حفظته الكنيسة القبطية الأرثوذكسية دائمًا: أن العذراء مريم دائمة البتولية.',
   },
   quickPoints: {
     en: [
@@ -24,14 +24,14 @@ export const article: Article = {
       'In Scripture “until” often marks a point without saying what happens afterwards: the raven went to and fro until the waters dried up (Genesis 8:7) and did not return afterwards; Michal had no child until her death (2 Samuel 6:23); Christ is with us until the end of the age (Matthew 28:20).',
       '“Firstborn” in Jewish law is the one who opens the womb and is consecrated to God (Exodus 13:2, cited in Luke 2:23); the redemption of the firstborn was due at one month (Numbers 18:15–16), so the status does not wait for a second child.',
       'Scripture also uses “firstborn” as a title of dignity (Psalm 89:27; Colossians 1:15).',
-      'Some Christians read both words more naturally as hinting at later children; the Coptic Church reads them within her faith in the Virgin’s perpetual virginity.',
+      'So the two words give no ground for denying the Virgin’s perpetual virginity, which the Church has received and confesses.',
     ],
     ar: [
       'يقول متى ١: ٢٥ إن يوسف لم يعرف مريم حتى ولدت ابنًا. وغرض الجملة هو الحبل العذراوي.',
       'تدل «حتى» في الكتاب كثيرًا على نقطة دون أن تقول ما يحدث بعدها: ذهب الغراب ورجع حتى نشفت المياه (تكوين ٨: ٧) ولم يعد بعد ذلك؛ ولم يكن لميكال ولد إلى يوم موتها (٢ صموئيل ٦: ٢٣)؛ والمسيح معنا إلى انقضاء الدهر (متى ٢٨: ٢٠).',
       'البكر في الشريعة اليهودية هو الذي يفتح الرحم ويُكرَّس لله (خروج ١٣: ٢، ويقتبسها لوقا ٢: ٢٣)؛ وكان فداء البكر عند شهر (عدد ١٨: ١٥–١٦)، فالمرتبة لا تنتظر ولدًا ثانيًا.',
       'ويستعمل الكتاب «بكر» لقبَ كرامة أيضًا (مزمور ٨٩: ٢٧؛ كولوسي ١: ١٥).',
-      'يقرأ بعض المسيحيين اللفظتين قراءة أطبع تلمّح إلى أولاد لاحقين؛ وتقرؤهما الكنيسة القبطية داخل إيمانها بدوام بتولية العذراء.',
+      'فلا تقدّم اللفظتان سببًا لإنكار دوام بتولية العذراء، وهو إيمان تسلّمته الكنيسة وتعترف به.',
     ],
   },
   argumentTypes: ['textual', 'theological'],
@@ -44,11 +44,11 @@ export const article: Article = {
   },
   whyExamine: {
     en: [
-      'These two words are among the first verses cited by those who deny that Mary remained a virgin. A reader should see how the words work elsewhere in the same books before deciding what they must mean here.',
+      'These two words are among the first verses cited by those who deny that Mary remained a virgin. Seeing how the same words work elsewhere in Scripture shows clearly what they mean here.',
       'The case also shows a method: to read a word by the use of the writers and their Scriptures, and not by what it would most naturally imply in modern English.',
     ],
     ar: [
-      'هاتان اللفظتان من أولى الآيات التي يحتج بها من ينكرون دوام بتولية مريم. وينبغي أن يرى القارئ كيف تعمل اللفظتان في مواضع أخرى من الأسفار نفسها قبل أن يقرر ما يجب أن تعنياه هنا.',
+      'هاتان اللفظتان من أولى الآيات التي يحتج بها من ينكرون دوام بتولية مريم. وحين نرى كيف تعمل اللفظتان نفسهما في مواضع أخرى من الكتاب يتضح معناهما هنا.',
       'وتبين الحالة منهجًا: أن تُقرأ اللفظة باستعمال الكتّاب وكتبهم لا بما توحي به طبيعيًا في الإنجليزية الحديثة.',
     ],
   },
@@ -70,14 +70,14 @@ export const article: Article = {
     {
       id: 'c1',
       proposition: {
-        en: '“Until” in Matthew 1:25 does not by itself imply that Joseph and Mary had marital relations after the birth.',
-        ar: '«حتى» في متى ١: ٢٥ لا تعني بذاتها أن يوسف ومريم قاما بعلاقة زوجية بعد الولادة.',
+        en: '“Until” in Matthew 1:25 does not imply that Joseph and Mary had marital relations after the birth.',
+        ar: '«حتى» في متى ١: ٢٥ لا تعني أن علاقة زوجية قامت بين يوسف ومريم بعد الولادة.',
       },
       argumentType: 'textual',
       assessment: 'supported_disputed_details',
       rationale: {
-        en: 'Scripture uses the same construction where nothing is implied about what follows (Genesis 8:7; 2 Samuel 6:23; Matthew 28:20), and Matthew’s purpose in the sentence is the conception.',
-        ar: 'يستعمل الكتاب التركيب نفسه حيث لا يُلمَّح إلى ما يتبع (تكوين ٨: ٧؛ ٢ صموئيل ٦: ٢٣؛ متى ٢٨: ٢٠)، وغرض متى في الجملة هو الحبل.',
+        en: 'Scripture uses the same construction where nothing at all is implied about what follows (Genesis 8:7; 2 Samuel 6:23; Matthew 28:20). Matthew’s purpose in the sentence is the conception: Joseph had no part in it.',
+        ar: 'يستعمل الكتاب التركيب نفسه حيث لا يُلمَّح أبدًا إلى ما يتبع (تكوين ٨: ٧؛ ٢ صموئيل ٦: ٢٣؛ متى ٢٨: ٢٠). وغرض متى في الجملة هو الحبل: لم يكن ليوسف دور فيه.',
       },
       limits: {
         en: 'It shows the implication is not required, not that it is absent. In ordinary speech “until” often does suggest a change, and the sentence can be read that way.',
@@ -94,8 +94,8 @@ export const article: Article = {
       argumentType: 'textual',
       assessment: 'supported_disputed_details',
       rationale: {
-        en: 'The law of the firstborn applies to the child who opens the womb and was acted on after one month, before any further birth could be known.',
-        ar: 'تنطبق شريعة البكر على الطفل الفاتح للرحم، وكان يُعمل بها بعد شهر، قبل أن تُعرف ولادة أخرى.',
+        en: 'The law of the firstborn applies to the child who opens the womb, and it was fulfilled at one month, before any further birth could exist. Luke himself ties the word to this law at the presentation in the temple.',
+        ar: 'تنطبق شريعة البكر على الطفل الفاتح للرحم، وكانت تُتمَّم عند شهر، قبل أن توجد أي ولادة أخرى. ولوقا نفسه يربط اللفظة بهذه الشريعة عند تقدمة الطفل في الهيكل.',
       },
       limits: {
         en: 'Luke does not say there were no more children. Some historians hold that in ordinary Greek usage “firstborn” would suggest others to follow, and that Luke chose it for that reason.',
@@ -112,8 +112,8 @@ export const article: Article = {
       argumentType: 'theological',
       assessment: 'theological_interpretation',
       rationale: {
-        en: 'This states the Church’s position; the grounds for the faith itself are treated in the article on the Coptic case for perpetual virginity.',
-        ar: 'هذا بيان لموقف الكنيسة؛ وأسس الإيمان نفسه في مقالة حجة الكنيسة القبطية في البتولية الدائمة.',
+        en: 'The Church received the Virgin’s perpetual virginity from the apostolic tradition and confesses it in her liturgy. The words of Scripture agree with that faith; its full grounds are set out in the article on the Coptic case for perpetual virginity.',
+        ar: 'تسلّمت الكنيسة دوام بتولية العذراء من التقليد الرسولي وتعترف به في صلواتها. وألفاظ الكتاب توافق هذا الإيمان؛ وأسسه الكاملة مبيّنة في مقالة حجة الكنيسة القبطية في البتولية الدائمة.',
       },
       limits: {
         en: 'It does not show that the verses prove perpetual virginity.',
@@ -239,11 +239,11 @@ export const article: Article = {
       response: {
         en: [
           'The sentence has to be read with its purpose. Matthew has just said that the child was conceived by the Holy Spirit and wants to show that Joseph had no part in it before the birth. For that purpose he names the limit; what follows is not his subject.',
-          'And the same word is used elsewhere in Scripture with no change implied afterwards. This shows the implication is not forced; it does not show that Matthew excluded it.',
+          'The same word is used elsewhere in Scripture with no change afterwards: Michal had no child until the day of her death. So “until” does not carry the meaning the objection gives it, and the verse gives no ground for denying the Virgin’s perpetual virginity.',
         ],
         ar: [
           'تُقرأ الجملة بحسب غرضها. فقد قال متى توًّا إن الطفل حُبل به من الروح القدس، ويريد أن يبين أن يوسف لم يكن له دور فيه قبل الولادة. ولهذا الغرض يسمّي الحد؛ وما يلي ليس موضوعه.',
-          'وتُستعمل اللفظة نفسها في مواضع أخرى من الكتاب دون تلميح إلى تغير بعدها. وهذا يبين أن الدلالة غير لازمة؛ ولا يبين أن متى استبعدها.',
+          'وتُستعمل اللفظة نفسها في مواضع أخرى من الكتاب دون أي تغير بعدها: لم يكن لميكال ولد إلى يوم موتها. فـ«حتى» لا تحمل المعنى الذي يعطيه لها الاعتراض، ولا تقدّم الآية سببًا لإنكار دوام بتولية العذراء.',
         ],
       },
       limits: {
@@ -260,12 +260,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'Luke does use a different word elsewhere, and it is a fair point. But in 2:7 he is preparing for 2:22–23, where the law of the firstborn is the reason for the temple scene, and the word carries that sense. The law needed no second child.',
-          'The objection is a reason to prefer the other reading for some readers; it cannot be shown to be what Luke meant.',
+          'Luke chose “firstborn” in 2:7 because he is preparing for 2:22–23, where the law of the firstborn is the reason for the temple scene. The word carries that legal sense, and the law needed no second child.',
+          '“Only son” would not have served Luke’s purpose, because it says nothing of consecration. “Firstborn” names exactly what the presentation fulfils: the child who opens the womb is holy to the Lord.',
         ],
         ar: [
-          'يستعمل لوقا فعلًا لفظًا آخر في موضع آخر، وهذه نقطة وجيهة. لكنه في ٢: ٧ يمهّد لـ٢: ٢٢–٢٣ حيث شريعة البكر هي سبب مشهد الهيكل، وتحمل اللفظة هذا المعنى. ولم تكن الشريعة بحاجة إلى ولد ثانٍ.',
-          'والاعتراض سبب يرجح به بعض القراء القراءة الأخرى؛ ولا يمكن إثبات أنه ما قصده لوقا.',
+          'اختار لوقا «البكر» في ٢: ٧ لأنه يمهّد لـ٢: ٢٢–٢٣ حيث شريعة البكر هي سبب مشهد الهيكل. فاللفظة تحمل هذا المعنى الشرعي، ولم تكن الشريعة بحاجة إلى ولد ثانٍ.',
+          'وما كانت «وحيد» لتخدم غرض لوقا، لأنها لا تقول شيئًا عن التكريس. أما «البكر» فتسمّي بالضبط ما تتمّمه التقدمة: الطفل الفاتح للرحم قدوس للرب.',
         ],
       },
       limits: {
@@ -279,10 +279,10 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'Historically, both words can be read in the way the Church reads them on the evidence of Scripture’s own usage, and both can be read the other way. A reader who has to choose will do so on wider grounds: whether the early Church affirmed perpetual virginity and how the brothers of Jesus are understood. Those questions are treated in their own articles.',
+        'Scripture’s own usage shows that both words fit the Church’s reading. The wider witness confirms it: the early Church confessed the Virgin as ever-virgin, and the brothers of Jesus are understood within that faith. Those questions are treated in their own articles.',
       ],
       ar: [
-        'تاريخيًا، يمكن قراءة اللفظتين كما تقرؤهما الكنيسة بدليل استعمال الكتاب نفسه، ويمكن قراءتهما بالوجه الآخر. ومن يضطر إلى الاختيار سيفعل ذلك لأسباب أوسع: هل أكدت الكنيسة الأولى دوام البتولية، وكيف يُفهم إخوة يسوع. وتعالج مقالات خاصة هذه الأسئلة.',
+        'يبيّن استعمال الكتاب نفسه أن اللفظتين توافقان قراءة الكنيسة. وتؤكد ذلك الشهادة الأوسع: فقد اعترفت الكنيسة الأولى بالعذراء دائمة البتولية، ويُفهم إخوة يسوع داخل هذا الإيمان. وتعالج مقالات خاصة هذه الأسئلة.',
       ],
     },
     theological: {
@@ -311,8 +311,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'Both words can be read as the Church reads them, by Scripture’s own use of “until” and “firstborn”, and both can be read the other way. The decision does not rest on the two words but on the wider witness of the Church’s faith.',
-    ar: 'يمكن قراءة اللفظتين كما تقرؤهما الكنيسة باستعمال الكتاب نفسه لـ«حتى» و«البكر»، ويمكن قراءتهما بالوجه الآخر. والحسم لا يقوم على اللفظتين بل على شهادة إيمان الكنيسة الأوسع.',
+    en: 'Scripture’s own use of “until” and “firstborn” shows that neither word speaks of later children. “Until” marks the conception without Joseph; “firstborn” marks the child consecrated to God. The Church’s faith stands firm: the Theotokos remained a virgin before, in and after the birth of Christ.',
+    ar: 'يبيّن استعمال الكتاب نفسه لـ«حتى» و«البكر» أن أيًّا من اللفظتين لا يتحدث عن أولاد لاحقين. فـ«حتى» تحدد الحبل بلا دور ليوسف؛ و«البكر» تسمّي الطفل المكرَّس لله. ويبقى إيمان الكنيسة ثابتًا: والدة الإله بقيت عذراء قبل ميلاد السيد المسيح وفيه وبعده.',
   },
   furtherReading: ['S62'],
   related: [

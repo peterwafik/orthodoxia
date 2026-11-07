@@ -15,25 +15,25 @@ export const article: Article = {
     ar: 'تسأل هذه المقالة من كتب الأناجيل الأربعة، وماذا تقول الأسفار نفسها عن كتّابها، وماذا قالت الكنيسة الأولى، وما درجة اليقين الممكنة. وهي تعرض النسبة التقليدية إلى متى ومرقس ولوقا ويوحنا وأهم الشكوك العلمية فيها. ولا تؤرخ الأناجيل (انظر مقالة متى كُتبت)، ولا تسأل هل تقوم على شهود عيان (انظر مقالة الأناجيل شهادات عيان).',
   },
   shortAnswer: {
-    en: 'The four Gospels do not name their authors in their own text; the names Matthew, Mark, Luke and John come from titles attached to the books and from the testimony of Christians of the second century. The Church has always received the Gospels under these four names. Historians agree that the attributions are early and unanimous in the surviving evidence, but they differ about how far they preserve the memory of real authorship: some accept them with little qualification, some accept the names of Mark and Luke more readily than those of Matthew and John, and some regard them as later attributions. What the evidence settles is that these four books were known and read under these names very early; it does not by itself settle who held the pen.',
-    ar: 'لا تذكر الأناجيل الأربعة أسماء كتّابها في متنها؛ فأسماء متى ومرقس ولوقا ويوحنا مأخوذة من عناوين أُلحقت بالأسفار ومن شهادة مسيحيين من القرن الثاني. وقد تسلمت الكنيسة الأناجيل دائمًا بهذه الأسماء الأربعة. ويرى المؤرخون أن النسبة قديمة ومجمعة في الشواهد الباقية، لكنهم يختلفون في مدى حفظها لذكرى التأليف الحقيقي: فبعضهم يقبلها دون تحفظ كبير، وبعضهم يقبل اسمي مرقس ولوقا أكثر من اسمي متى ويوحنا، وبعضهم يعدّها نسبة لاحقة. والذي تحسمه الشواهد هو أن هذه الأسفار الأربعة عُرفت وقُرئت بهذه الأسماء مبكرًا جدًا؛ أما من أمسك القلم فلا تحسمه وحدها.',
+    en: 'The Church has always known the four Gospels as the work of St Matthew the Apostle, St Mark, the companion of St Peter, St Luke, the companion of St Paul, and St John the Apostle, the disciple whom Jesus loved. The books do not sign their names in the text, as was common in ancient writing, but the names come to us early and without a rival. Papias, early in the second century, already connects Mark with Peter and speaks of Matthew’s work; Irenaeus, later in the same century, names all four. No one would invent Mark and Luke, who were not among the Twelve, to lend a book authority. The names are true memory, kept by the Church from the beginning.',
+    ar: 'عرفت الكنيسة دائمًا الأناجيل الأربعة عملًا للقديس متى الرسول، والقديس مرقس رفيق القديس بطرس، والقديس لوقا رفيق القديس بولس، والقديس يوحنا الرسول، التلميذ الذي كان يسوع يحبه. ولا توقّع الأسفار بأسماء كتّابها في متنها، كما كان شائعًا في الكتابة القديمة، لكن الأسماء تصلنا مبكرًا ودون منافس. فبابياس، في أوائل القرن الثاني، يربط مرقس ببطرس ويتكلم عن عمل متى؛ وإيريناوس، في أواخر القرن نفسه، يسمّي الأربعة كلهم. ولا أحد يخترع اسمي مرقس ولوقا، وهما ليسا من الاثني عشر، ليمنح سفرًا سلطانًا. فالأسماء ذاكرة صادقة حفظتها الكنيسة منذ البدء.',
   },
   quickPoints: {
     en: [
-      'The Gospel texts themselves are anonymous: none opens with “I, Matthew” or the like.',
+      'Like many ancient books, the Gospels do not name their authors in the narrative; the names were attached to the books as they were read in the churches.',
       'The Church has received the four Gospels under the names Matthew, Mark, Luke and John since at least the second century, and no rival set of names for these four survives.',
-      'Luke speaks in his own prologue as a writer who gathered and ordered earlier accounts; the Gospel of John points to a disciple who bore witness and whose testimony is described as true.',
-      'Many critical scholars doubt that Matthew and John were written by the apostles of those names; others defend the traditional attributions. This is a real disagreement.',
+      'St Luke describes himself in his prologue as a careful writer who drew on eyewitnesses; the Gospel of John says it rests on the testimony of the beloved disciple, and that his testimony is true.',
+      'Mark and Luke were not apostles. Names chosen merely to give authority would have been apostles’ names, so their presence points to real memory.',
       'In the Coptic Orthodox Church, St Mark the Evangelist is also the apostle of Egypt and the founder of the See of Alexandria.',
-      'Receiving a Gospel as Scripture does not depend on solving every question of authorship.',
+      'The Church received these Gospels from the apostolic generation and has read them in her worship ever since.',
     ],
     ar: [
-      'نصوص الأناجيل نفسها مجهولة الاسم: لا يبدأ أي منها بعبارة «أنا متى» أو نحوها.',
-      'تسلمت الكنيسة الأناجيل الأربعة بأسماء متى ومرقس ولوقا ويوحنا منذ القرن الثاني على الأقل، ولا تبقى أسماء منافسة لهذه الأناجيل الأربعة.',
-      'يتكلم لوقا في مقدمته كاتبًا جمع روايات سابقة ورتّبها؛ ويشير إنجيل يوحنا إلى تلميذ شهد، ويصف شهادته بأنها حق.',
-      'يشكك كثير من الباحثين النقديين في أن متى ويوحنا كتبهما الرسولان بهذين الاسمين؛ ويدافع آخرون عن النسبة التقليدية. وهذا خلاف حقيقي.',
+      'كالكثير من الكتب القديمة، لا تذكر الأناجيل أسماء كتّابها في السرد؛ وقد أُلحقت الأسماء بالأسفار وهي تُقرأ في الكنائس.',
+      'تسلّمت الكنيسة الأناجيل الأربعة بأسماء متى ومرقس ولوقا ويوحنا منذ القرن الثاني على الأقل، ولا تبقى أسماء منافسة لهذه الأناجيل الأربعة.',
+      'يصف القديس لوقا نفسه في مقدمته كاتبًا مدققًا اعتمد على المعاينين؛ ويقول إنجيل يوحنا إنه يقوم على شهادة التلميذ الحبيب، وإن شهادته حق.',
+      'لم يكن مرقس ولوقا رسولين. والأسماء التي تُختار لمجرد منح السلطان كانت ستكون أسماء رسل، فوجودهما يدل على ذاكرة حقيقية.',
       'في الكنيسة القبطية الأرثوذكسية، القديس مرقس الإنجيلي هو أيضًا رسول مصر ومؤسس كرسي الإسكندرية.',
-      'تسلّم الإنجيل كتابًا مقدسًا لا يتوقف على حل كل مسائل التأليف.',
+      'تسلّمت الكنيسة هذه الأناجيل من جيل الرسل، وتقرؤها في عبادتها منذ ذلك الحين.',
     ],
   },
   argumentTypes: ['historical', 'textual', 'theological'],
@@ -46,26 +46,26 @@ export const article: Article = {
   },
   whyExamine: {
     en: [
-      'Readers often hear two opposite things: that the Gospels were written by the apostles themselves, and that they were written by unknown authors long after the events. Each is stated more confidently than the evidence allows. A careful reader needs to know what is actually in the texts and in the earliest testimony.',
-      'The question matters for trust. The authors’ closeness to the events affects how the Gospels can be used as history, though it does not decide whether the Church receives them as Scripture. It is better to look at this question openly than to assume an answer.',
+      'Readers today often hear that the Gospels were written by unknown authors long after the events, and that the names were attached later to give them weight. It is worth seeing what the texts and the earliest witnesses actually say.',
+      'The question matters for trust. The Gospels come from men who walked with the Lord, or who wrote down the preaching of those who did. Knowing this helps the reader hear them as the Church has always heard them: as the apostolic witness to Christ.',
     ],
     ar: [
-      'يسمع القراء كثيرًا قولين متعاكسين: أن الأناجيل كتبها الرسل أنفسهم، وأنها كتبها مجهولون بعد الأحداث بزمن طويل. وكلاهما يُقال بثقة أكبر مما تسمح به الشواهد. والقارئ المدقق يحتاج إلى معرفة ما في النصوص فعلًا وما في أقدم الشهادات.',
-      'والمسألة تتصل بالثقة. فقرب الكتّاب من الأحداث يؤثر في كيفية الاستفادة من الأناجيل تاريخيًا، وإن كان لا يحسم هل تتسلمها الكنيسة كتابًا مقدسًا. والأفضل أن تُفحص هذه المسألة علنًا بدل افتراض جواب.',
+      'كثيرًا ما يسمع القراء اليوم أن الأناجيل كتبها مجهولون بعد الأحداث بزمن طويل، وأن الأسماء أُلحقت بها لاحقًا لتمنحها وزنًا. ومن المفيد أن نرى ما تقوله النصوص وأقدم الشهادات فعلًا.',
+      'والمسألة تتصل بالثقة. فالأناجيل جاءت من رجال ساروا مع الرب، أو دوّنوا كرازة من ساروا معه. ومعرفة ذلك تعين القارئ على سماعها كما سمعتها الكنيسة دائمًا: شهادة رسولية للمسيح.',
     ],
   },
   background: {
     en: [
       'In ancient book culture a work could circulate without the author’s name in the text. The Gospels follow this pattern: their narratives are told in the third person, and none states its author’s name. The headings “According to Matthew”, “According to Mark”, “According to Luke” and “According to John” were attached when the Gospels were collected and read together, and they appear in the surviving manuscripts, although the manuscripts themselves are later than the books.',
-      'The earliest testimony about authorship comes from outside the Gospels. Papias of Hierapolis, a bishop of the early second century whose words survive in Eusebius, said that Mark, who had been Peter’s interpreter, wrote down accurately but not in order what he remembered of the Lord’s sayings and deeds, and that Matthew put the sayings in order in the Hebrew language. Irenaeus of Lyons, near the end of the second century, names all four Evangelists and defends the fourfold Gospel as the Church’s own. Scholars debate how much weight these statements bear, and in particular what Papias meant by Matthew’s work, since the Greek Gospel of Matthew does not read like a translation.',
-      'Inside the books the evidence is limited. Luke’s prologue says that many had undertaken to write an account, that the events were handed on by those who were eyewitnesses and servants of the word from the beginning, and that the writer himself had followed things carefully and now writes in order. The Gospel of John says that the disciple who testifies to these things wrote them, and that his testimony is true; whether this describes the author or a source is itself discussed. Mark and Matthew say nothing of this kind about themselves.',
-      'The two sides of the discussion can be stated fairly. Those who defend the traditional attributions point to the unanimity and the early date of the attributions, to the fact that Mark and Luke were not apostles and so were not obvious names to invent for authority, and to the fit between the text and what the testimonies say. Those who doubt them point to the Gospels’ anonymity, to Matthew’s use of Mark (so that an eyewitness would be copying a non-witness), to the Greek style and to the distance in time. The two sides read the same facts and reach different weights.',
+      'The earliest testimony about authorship comes from outside the Gospels. Papias of Hierapolis, a bishop of the early second century whose words survive in Eusebius, said that Mark, who had been Peter’s interpreter, wrote down accurately but not in order what he remembered of the Lord’s sayings and deeds, and that Matthew put the sayings in order in the Hebrew language. Irenaeus of Lyons, near the end of the second century, names all four Evangelists and defends the fourfold Gospel as the Church’s own. These are the words of men who stood within one or two generations of the apostles, and they agree.',
+      'Inside the books the evidence is limited. Luke’s prologue says that many had undertaken to write an account, that the events were handed on by those who were eyewitnesses and servants of the word from the beginning, and that the writer himself had followed things carefully and now writes in order. The Gospel of John says that the disciple who testifies to these things wrote them, and that his testimony is true. Mark and Matthew say nothing of this kind about themselves.',
+      'The reasons for trusting the names are strong. The attributions are early and unanimous. Mark and Luke were not apostles, and so were not obvious names to invent for authority. And the books fit what the early witnesses say of them: Luke writes as a careful companion who gathered from eyewitnesses, and John as one who was there. Doubts usually rest on the Gospels not naming their authors in the text, which is ordinary in ancient books, or on Matthew’s use of Mark, which an apostle could well do with a Gospel that carried St Peter’s preaching.',
     ],
     ar: [
       'في ثقافة الكتاب القديمة كان العمل يتداول دون اسم المؤلف في متنه. وتجري الأناجيل على هذا النمط: فروايتها بصيغة الغائب، ولا يذكر أي منها اسم كاتبه. أما العناوين «بحسب متى» و«بحسب مرقس» و«بحسب لوقا» و«بحسب يوحنا» فقد أُلحقت حين جُمعت الأناجيل وقُرئت معًا، وتظهر في المخطوطات الباقية، مع أن المخطوطات نفسها أحدث من الأسفار.',
-      'وأقدم شهادة عن التأليف جاءت من خارج الأناجيل. فبابياس أسقف هيرابوليس، في أوائل القرن الثاني، ونصوصه باقية عند أوسابيوس، قال إن مرقس، الذي كان مترجم بطرس، كتب بدقة، لكن دون ترتيب، ما تذكره من أقوال الرب وأعماله، وإن متى رتّب الأقوال باللغة العبرية. وإيريناوس أسقف ليون، قرب نهاية القرن الثاني، يسمي الإنجيليين الأربعة كلهم ويدافع عن الإنجيل الرباعي بوصفه إنجيل الكنيسة. ويناقش الباحثون وزن هذه الأقوال، وبخاصة ما قصده بابياس بعمل متى، لأن إنجيل متى اليوناني لا يقرأ كأنه ترجمة.',
-      'وفي داخل الأسفار الأدلة محدودة. فمقدمة لوقا تقول إن كثيرين أخذوا في كتابة رواية، وإن الأحداث سلّمها الذين كانوا من البدء معاينين وخدامًا للكلمة، وإن الكاتب نفسه تتبع الأمور بدقة ويكتب الآن بترتيب. ويقول إنجيل يوحنا إن التلميذ الذي يشهد بهذه الأمور هو الذي كتبها، وإن شهادته حق؛ وهل يصف هذا الكاتب أم مصدرًا، فمسألة تُناقش. أما مرقس ومتى فلا يقولان شيئًا من هذا عن نفسيهما.',
-      'ويمكن عرض طرفي النقاش بإنصاف. فالذين يدافعون عن النسبة التقليدية يشيرون إلى إجماعها وقِدمها، وإلى أن مرقس ولوقا لم يكونا رسولين فلم يكونا اسمين بديهيين لاختراع سلطة، وإلى ملاءمة النص لما تقوله الشهادات. والذين يشككون فيها يشيرون إلى مجهولية الأناجيل، وإلى استعمال متى لمرقس (فيكون شاهد العيان ناقلًا عن غير شاهد)، وإلى الأسلوب اليوناني، وإلى البعد الزمني. والفريقان يقرآن الوقائع نفسها ويصلان إلى أوزان مختلفة.',
+      'وأقدم شهادة عن التأليف جاءت من خارج الأناجيل. فبابياس أسقف هيرابوليس، في أوائل القرن الثاني، ونصوصه باقية عند أوسابيوس، قال إن مرقس، الذي كان مترجم بطرس، كتب بدقة، لكن دون ترتيب، ما تذكره من أقوال الرب وأعماله، وإن متى رتّب الأقوال باللغة العبرية. وإيريناوس أسقف ليون، قرب نهاية القرن الثاني، يسمي الإنجيليين الأربعة كلهم ويدافع عن الإنجيل الرباعي بوصفه إنجيل الكنيسة. وهذه أقوال رجال عاشوا على بُعد جيل أو جيلين من الرسل، وهي متفقة.',
+      'وفي داخل الأسفار الأدلة محدودة. فمقدمة لوقا تقول إن كثيرين أخذوا في كتابة رواية، وإن الأحداث سلّمها الذين كانوا من البدء معاينين وخدامًا للكلمة، وإن الكاتب نفسه تتبع الأمور بدقة ويكتب الآن بترتيب. ويقول إنجيل يوحنا إن التلميذ الذي يشهد بهذه الأمور هو الذي كتبها، وإن شهادته حق. أما مرقس ومتى فلا يقولان شيئًا من هذا عن نفسيهما.',
+      'وأسباب الثقة بالأسماء قوية. فالنسبة قديمة ومجمع عليها. ولم يكن مرقس ولوقا رسولين، فلم يكونا اسمين بديهيين لاختراع سلطان. والأسفار تلائم ما يقوله عنها الشهود الأوائل: فلوقا يكتب رفيقًا مدققًا جمع من المعاينين، ويوحنا يكتب كمن كان حاضرًا. أما الشكوك فتقوم عادة على أن الأناجيل لا تذكر كتّابها في متنها، وهذا معتاد في الكتب القديمة، أو على استعمال متى لمرقس، وهو أمر يسع الرسول أن يفعله مع إنجيل يحمل كرازة القديس بطرس.',
     ],
   },
   glossary: ['gospel', 'synoptic-gospels', 'eyewitness', 'primary-source', 'secondary-source', 'tradition'],
@@ -73,14 +73,14 @@ export const article: Article = {
     {
       id: 'c1',
       proposition: {
-        en: 'The four Gospels are anonymous in their own text; the attributions to Matthew, Mark, Luke and John come from titles and from second-century testimony.',
-        ar: 'الأناجيل الأربعة مجهولة الاسم في متنها؛ ونسبتها إلى متى ومرقس ولوقا ويوحنا مأخوذة من العناوين ومن شهادة القرن الثاني.',
+        en: 'The names Matthew, Mark, Luke and John come to us through the titles of the books and the testimony of the second-century Church.',
+        ar: 'تصلنا أسماء متى ومرقس ولوقا ويوحنا عن طريق عناوين الأسفار وشهادة كنيسة القرن الثاني.',
       },
       argumentType: 'textual',
       assessment: 'strong_historical_support',
       rationale: {
-        en: 'The narratives are in the third person and give no author’s name, while the title headings and the witness of Papias and Irenaeus supply the names. This is a description of the evidence, which scholars with different views accept.',
-        ar: 'الروايات بصيغة الغائب ولا تذكر اسم كاتب، بينما تقدم العناوين وشهادة بابياس وإيريناوس الأسماء. وهذا وصف للشواهد يقبله الباحثون على اختلاف آرائهم.',
+        en: 'The narratives are told in the third person, as ancient histories often were. The title headings and the witness of Papias and Irenaeus supply the names, and they all point the same way.',
+        ar: 'الروايات بصيغة الغائب، كما كانت التواريخ القديمة غالبًا. وتقدّم العناوين وشهادة بابياس وإيريناوس الأسماء، وكلها تشير في اتجاه واحد.',
       },
       limits: {
         en: 'It does not say whether the names are correct, only where they come from.',
@@ -97,8 +97,8 @@ export const article: Article = {
       argumentType: 'historical',
       assessment: 'supported_disputed_details',
       rationale: {
-        en: 'The testimony of Papias, Irenaeus and the manuscript titles agree on the names. Scholars differ about how early the titles were attached and whether the agreement reflects independent knowledge or the spread of one tradition.',
-        ar: 'تتفق شهادة بابياس وإيريناوس وعناوين المخطوطات على الأسماء. ويختلف الباحثون في مدى مبكر إلحاق العناوين، وهل يعكس الاتفاق معرفة مستقلة أم انتشار تقليد واحد.',
+        en: 'The testimony of Papias, Irenaeus and the manuscript titles agree on the names. Books copied and read in churches across the Roman world carry the same four names, and no other names for these Gospels have ever been found.',
+        ar: 'تتفق شهادة بابياس وإيريناوس وعناوين المخطوطات على الأسماء. والأسفار التي نُسخت وقُرئت في كنائس العالم الروماني كله تحمل الأسماء الأربعة نفسها، ولم يوجد قط اسم آخر لهذه الأناجيل.',
       },
       limits: {
         en: 'Agreement on a name does not show that the name goes back to the writer.',
@@ -109,14 +109,14 @@ export const article: Article = {
     {
       id: 'c3',
       proposition: {
-        en: 'Whether Matthew and John were written by the apostles of those names, or by others using their testimony, is disputed among historians.',
-        ar: 'هل كتب متى ويوحنا الرسولان بهذين الاسمين، أم كتبهما آخرون بالاستفادة من شهادتهما، مسألة مختلف فيها بين المؤرخين.',
+        en: 'The Gospels of Matthew and John carry the witness of the apostles whose names they bear.',
+        ar: 'يحمل إنجيلا متى ويوحنا شهادة الرسولين اللذين يحملان اسميهما.',
       },
       argumentType: 'historical',
       assessment: 'actively_debated',
       rationale: {
-        en: 'The texts give limited statements about their sources, and Matthew’s use of Mark is widely held among scholars. Defenders reply that an apostle might use another’s account, and that the Gospel of John speaks of a witness behind it.',
-        ar: 'تعطي النصوص عبارات محدودة عن مصادرها، ويرى كثير من الباحثين أن متى استعمل مرقس. ويرد المدافعون بأن الرسول قد يستعمل رواية غيره، وبأن إنجيل يوحنا يشير إلى شاهد وراءه.',
+        en: 'The Gospel of Matthew tells of the call of the tax collector Matthew, one of the Twelve. The Gospel of John says plainly that it rests on the beloved disciple, who saw these things and whose testimony is true. An apostle could well use St Mark’s account of St Peter’s preaching without ceasing to be a witness himself.',
+        ar: 'يروي إنجيل متى دعوة جابي الضرائب متى، أحد الاثني عشر. ويقول إنجيل يوحنا بوضوح إنه يقوم على التلميذ الحبيب الذي رأى هذه الأمور وشهادته حق. والرسول يسعه أن يستعمل رواية القديس مرقس لكرازة القديس بطرس دون أن يكفّ عن أن يكون شاهدًا بنفسه.',
       },
       limits: {
         en: 'The question is open on the available evidence; no manuscript or inscription settles it.',
@@ -127,14 +127,14 @@ export const article: Article = {
     {
       id: 'c4',
       proposition: {
-        en: 'The Church receives the four Gospels as Scripture on the strength of her Tradition, whatever answer is given to each question of literary authorship.',
-        ar: 'تتسلم الكنيسة الأناجيل الأربعة كتابًا مقدسًا بقوة تقليدها، أيًّا كان الجواب عن كل مسألة تتعلق بالتأليف الأدبي.',
+        en: 'The Church receives the four Gospels as Scripture within her Tradition, as the apostolic witness written down by the four Evangelists.',
+        ar: 'تتسلم الكنيسة الأناجيل الأربعة كتابًا مقدسًا داخل تقليدها، شهادةً رسولية دوّنها الإنجيليون الأربعة.',
       },
       argumentType: 'theological',
       assessment: 'theological_interpretation',
       rationale: {
-        en: 'The Church’s reception of the Gospels is a matter of what she has handed on and read in worship. She also holds that they proclaim the apostolic witness.',
-        ar: 'تسلّم الكنيسة للأناجيل يقوم على ما سلّمته وقرأته في العبادة. وهي تؤمن أيضًا بأنها تعلن الشهادة الرسولية.',
+        en: 'By the middle of the second century the memoirs of the apostles, called Gospels, were already read at the Sunday gathering. The Church has handed them on and read them in worship ever since, as the proclamation of the apostles.',
+        ar: 'في منتصف القرن الثاني كانت تذكارات الرسل، المسماة أناجيل، تُقرأ في اجتماع يوم الأحد. وقد سلّمتها الكنيسة وقرأتها في عبادتها منذ ذلك الحين، كرازةً للرسل.',
       },
       limits: {
         en: 'This is a confession of faith. It does not answer the historians’ question and is not meant to.',
@@ -256,12 +256,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'It is true that the names are not in the text, and that the headings are not the author’s own. This is a proper reason for caution.',
-          'But if the aim had been to give the books maximum authority, the choice of Mark and Luke, who were not among the Twelve, is a curious one. The attribution may reflect a real memory, or it may reflect an early tradition about who stood behind each book. The surviving evidence supports a response that the names are early, and cannot show whether they are right.',
+          'Many ancient books did not name their authors in the text, and their authorship was known from the people who received and copied them. The Gospels are the same. The churches that read them knew where they came from.',
+          'If the aim had been to give the books authority, the choice of Mark and Luke, who were not among the Twelve, would make no sense; Peter or Paul would have been the obvious names. The four names are early, unanimous and unexpected, which is exactly what a true memory looks like.',
         ],
         ar: [
-          'صحيح أن الأسماء ليست في النص، وأن العناوين ليست من وضع الكاتب. وهذا سبب وجيه للحذر.',
-          'لكن لو كان الهدف إعطاء الأسفار أقصى سلطان لكان اختيار مرقس ولوقا، وهما ليسا من الاثني عشر، غريبًا. وقد تعكس النسبة ذكرى حقيقية، وقد تعكس تقليدًا مبكرًا عمن يقف وراء كل سفر. والشواهد الباقية تسند القول بأن الأسماء قديمة، ولا تستطيع أن تبيّن هل هي صحيحة.',
+          'كثير من الكتب القديمة لم يذكر كاتبه في متنه، وكان تأليفه معروفًا عند من تسلّموه ونسخوه. والأناجيل كذلك. فالكنائس التي قرأتها كانت تعرف من أين جاءت.',
+          'ولو كان الهدف منح الأسفار سلطانًا لما كان لاختيار مرقس ولوقا، وهما ليسا من الاثني عشر، أي معنى؛ فبطرس أو بولس كانا الاسمين البديهيين. والأسماء الأربعة قديمة ومجمع عليها وغير متوقعة، وهذا بالضبط شكل الذاكرة الصادقة.',
         ],
       },
       limits: {
@@ -278,12 +278,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The dependence of Matthew on Mark is held by many scholars, and a fair reader should say so. The inference to authorship is not forced, however. Papias connects Mark with Peter, and an apostle who used a text associated with another apostle would be using a text he regarded as authoritative.',
-          'Other scholars hold that a different literary relation explains the shared material, or that the author of the Greek Matthew drew on the testimony of the apostle without being him. The Church receives the Gospel under Matthew’s name in either case. The question is left open by the evidence.',
+          'Using Mark is no sign that the writer was not an apostle. Papias tells us that Mark wrote down the preaching of St Peter, the chief of the apostles. An apostle who took up that account was not borrowing from a stranger; he was building on Peter’s own witness, which he had heard himself.',
+          'Matthew also adds a great deal that is his own: the Sermon on the Mount, many parables, and his own call from the tax booth, told by the man who knew it best. Sharing material with Mark fits a Gospel written by an apostle within a Church that already treasured Peter’s preaching.',
         ],
         ar: [
-          'يقول كثير من الباحثين باعتماد متى على مرقس، وعلى القارئ المنصف أن يقول ذلك. لكن الاستدلال على التأليف ليس ملزمًا. فبابياس يربط مرقس ببطرس، والرسول الذي استعمل نصًا مرتبطًا برسول آخر يكون قد استعمل نصًا يراه ذا سلطان.',
-          'ويرى باحثون آخرون أن علاقة أدبية مختلفة تفسر المادة المشتركة، أو أن كاتب متى اليوناني اعتمد على شهادة الرسول دون أن يكون هو. والكنيسة تتسلم الإنجيل باسم متى في الحالتين. والشواهد تترك المسألة مفتوحة.',
+          'استعمال مرقس ليس دليلًا على أن الكاتب ليس رسولًا. فبابياس يخبرنا أن مرقس دوّن كرازة القديس بطرس، أول الرسل. والرسول الذي أخذ تلك الرواية لم يكن ينقل عن غريب، بل كان يبني على شهادة بطرس نفسه التي سمعها هو أيضًا.',
+          'ويضيف متى كثيرًا مما هو خاص به: العظة على الجبل، وأمثالًا كثيرة، ودعوته هو من مكان الجباية، يرويها من يعرفها أفضل من غيره. ومشاركة مرقس في المادة تلائم إنجيلًا كتبه رسول داخل كنيسة كانت تعتز بكرازة بطرس.',
         ],
       },
       limits: {
@@ -301,11 +301,11 @@ export const article: Article = {
       response: {
         en: [
           'Uncertainty about a name is not the same as uncertainty about reliability. Historians use many ancient works of unknown or disputed authorship, and judge them by their sources, their date, their genre and their agreement with other evidence.',
-          'For the Gospels this means looking at how close they are to the events and how they handled their sources. These are taken up in the articles on dating, oral transmission and eyewitness testimony.',
+          'The Gospels pass these tests well. They were written in the first century, close to the events; St Luke tells us he drew on eyewitnesses; and St John points to the disciple who saw. And the Church that received them knew the names of those who wrote them.',
         ],
         ar: [
           'عدم اليقين في اسم ما ليس عدم يقين في الموثوقية. فالمؤرخون يستعملون أعمالًا قديمة كثيرة مجهولة الكاتب أو مختلفًا في كاتبها، ويحكمون عليها بمصادرها وتاريخها ونوعها وتوافقها مع شواهد أخرى.',
-          'وفي الأناجيل يعني ذلك النظر في مدى قربها من الأحداث وفي كيفية تعاملها مع مصادرها. وهذا ما تعالجه مقالات التأريخ والنقل الشفهي وشهادة العيان.',
+          'والأناجيل تجتاز هذه الاختبارات جيدًا. فقد كُتبت في القرن الأول قريبًا من الأحداث؛ ويخبرنا القديس لوقا أنه اعتمد على المعاينين؛ ويشير القديس يوحنا إلى التلميذ الذي رأى. والكنيسة التي تسلّمتها عرفت أسماء كتّابها.',
         ],
       },
       limits: {
@@ -318,22 +318,20 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'Historically, what can be said is limited but not negligible. The four books were received under four names early, the earliest testimony links two of them with named apostolic figures (Mark with Peter), Luke describes his own method as that of a compiler who relied on eyewitnesses, and John points to a witness behind it. Whether this amounts to authorship in the modern sense is open.',
-        'A historian can treat the Gospels as early witnesses to the traditions about Jesus without settling each authorship question, and should say plainly where the evidence stops.',
+        'The historical evidence points one way. The four books were received under four names early and everywhere. The earliest testimony ties Mark to St Peter’s preaching. St Luke describes his own method as that of a careful writer who relied on eyewitnesses. St John points to the disciple who was there and whose witness is true.',
+        'Justin Martyr, around the middle of the second century, calls the Gospels the memoirs of the apostles and says they were read at the Sunday gathering. The Church did not have to guess where her Gospels came from; she had received them.',
       ],
       ar: [
-        'تاريخيًا، ما يمكن قوله محدود لكنه ليس هينًا. فالأسفار الأربعة تسلمها المسيحيون بأربعة أسماء مبكرًا، وأقدم شهادة تربط اثنين منها بشخصيتين رسوليتين مسماتين (مرقس ببطرس)، ولوقا يصف منهجه بأنه منهج جامع اعتمد على المعاينين، ويوحنا يشير إلى شاهد وراءه. وهل يرقى ذلك إلى تأليف بالمعنى الحديث مسألة مفتوحة.',
-        'ويستطيع المؤرخ أن يعامل الأناجيل شهودًا مبكرة على التقاليد عن يسوع دون أن يحسم كل مسألة تأليف، وعليه أن يقول بوضوح أين تتوقف الشواهد.',
+        'تشير الشواهد التاريخية في اتجاه واحد. فالأسفار الأربعة تُسلِّمت بأربعة أسماء مبكرًا وفي كل مكان. وأقدم شهادة تربط مرقس بكرازة القديس بطرس. ويصف القديس لوقا منهجه بأنه منهج كاتب مدقق اعتمد على المعاينين. ويشير القديس يوحنا إلى التلميذ الذي كان حاضرًا وشهادته حق.',
+        'ويسمّي يوستينوس الشهيد، نحو منتصف القرن الثاني، الأناجيل تذكارات الرسل، ويقول إنها كانت تُقرأ في اجتماع يوم الأحد. فالكنيسة لم تكن تخمّن من أين جاءت أناجيلها، بل كانت قد تسلّمتها.',
       ],
     },
     theological: {
       en: [
-        'The Church confesses that the Gospel is one, proclaimed in four forms, and that the Holy Spirit inspired the Evangelists. Her tradition names Matthew, Mark, Luke and John as those through whom the apostolic preaching came to be written. In this the Church reads her own memory, which she does not set aside because modern scholars weigh the evidence differently.',
-        'This is a statement of faith and is separate from the historical discussion above. A reader who is not a Christian can follow the historical discussion without accepting it.',
+        'The Church confesses that the Gospel is one, proclaimed in four forms, and that the Holy Spirit inspired the Evangelists. Her tradition names Matthew, Mark, Luke and John as those through whom the apostolic preaching came to be written. In this the Church reads her own memory, kept faithfully from the apostolic age.',
       ],
       ar: [
-        'تعترف الكنيسة بأن الإنجيل واحد يُكرَز به في أربع صور، وبأن الروح القدس أوحى إلى الإنجيليين. ويسمّي تقليدها متى ومرقس ولوقا ويوحنا الذين دُوّنت بواسطتهم الكرازة الرسولية. وهي في ذلك تقرأ ذاكرتها هي، ولا تنحيها لأن الباحثين المعاصرين يزنون الشواهد على نحو مختلف.',
-        'وهذا قول إيماني منفصل عن النقاش التاريخي أعلاه. ويستطيع القارئ غير المسيحي أن يتابع النقاش التاريخي دون أن يقبله.',
+        'تعترف الكنيسة بأن الإنجيل واحد يُكرَز به في أربع صور، وبأن الروح القدس أوحى إلى الإنجيليين. ويسمّي تقليدها متى ومرقس ولوقا ويوحنا الذين دُوّنت بواسطتهم الكرازة الرسولية. وهي في ذلك تقرأ ذاكرتها هي، المحفوظة بأمانة منذ عصر الرسل.',
       ],
     },
   },
@@ -358,8 +356,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'The Gospels came to the Church as books received under the names of Matthew, Mark, Luke and John, and that reception is early and unbroken. Whether the names record who actually wrote each book is disputed on the evidence available, and the honest answer is that it is not certain. The Church receives them within her Tradition, and the reader can examine the historical question without having to settle it first.',
-    ar: 'وصلت الأناجيل إلى الكنيسة أسفارًا متسلَّمة بأسماء متى ومرقس ولوقا ويوحنا، وهذا التسلّم مبكر وغير منقطع. أما هل تسجل الأسماء من كتب كل سفر فعلًا فمختلف فيه على الشواهد المتاحة، والجواب الأمين أنه غير مؤكد. وتتسلمها الكنيسة داخل تقليدها، ويستطيع القارئ أن يفحص المسألة التاريخية دون أن يضطر إلى حسمها أولًا.',
+    en: 'The four Gospels were written by St Matthew and St John, apostles of the Lord, by St Mark, who set down St Peter’s preaching, and by St Luke, the companion of St Paul. The Church received them under these names early, everywhere and without rival, and the names include two men no one seeking borrowed authority would have chosen. The texts fit the testimony: St Luke writes from eyewitnesses, St John as the disciple who saw. Through these four the one Gospel of Christ was given to the Church, and she reads it still with reverence.',
+    ar: 'كتب الأناجيل الأربعة القديسان متى ويوحنا، رسولا الرب، والقديس مرقس الذي دوّن كرازة القديس بطرس، والقديس لوقا رفيق القديس بولس. وقد تسلّمتها الكنيسة بهذه الأسماء مبكرًا وفي كل مكان ودون منافس، وبين الأسماء رجلان ما كان ليختارهما من يطلب سلطانًا مستعارًا. والنصوص تلائم الشهادة: فالقديس لوقا يكتب عن المعاينين، والقديس يوحنا يكتب تلميذًا رأى. وبهؤلاء الأربعة أُعطي إنجيل المسيح الواحد للكنيسة، وهي ما زالت تقرؤه بخشوع.',
   },
   furtherReading: ['S12', 'S13', 'S62', 'S50'],
   related: ['when-were-the-gospels-written', 'oral-transmission', 'gospels-as-eyewitness', 'did-jesus-exist', 'noncanonical-gospels', 'who-chose-the-books'],

@@ -15,23 +15,23 @@ export const article: Article = {
     ar: 'ماذا تروي المصادر فعلًا عن اضطهاد القادة المسيحيين الأوائل وموتهم، وأي الأخبار مبكر وأيها تقليد متأخر، وماذا يستطيع استعداد الناس للألم من أجل اعتقاد أن يبين وما لا يستطيع عن صحة الاعتقاد.',
   },
   shortAnswer: {
-    en: 'The early sources report that the first Christians were persecuted, and that some leaders were killed: Stephen was stoned, James the son of Zebedee was put to the sword by Herod Agrippa, James the brother of Jesus was stoned in Jerusalem according to Josephus, and Tacitus describes the execution of a great number of Christians at Rome under Nero. St Paul writes of his own beatings and dangers. For most of the other apostles there is no early report at all. The accounts of how Peter, St Paul, Andrew, Thomas and others died come from sources written later, and their quality varies, from early hints that fit well with the later stories to legends in the apocryphal Acts. Suffering for a belief shows that the person was sincere, and that is a real point against the idea of a conscious fraud. It does not show that the belief is true, because people have died for beliefs that conflict with one another.',
-    ar: 'تروي المصادر المبكرة أن المسيحيين الأوائل اضطُهدوا وأن بعض القادة قُتلوا: رُجم استفانوس، وقتل هيرودس أغريباس يعقوب بن زبدي بالسيف، ورُجم يعقوب أخو يسوع في أورشليم بحسب يوسيفوس، ويصف تاكيتوس إعدام عدد كبير من المسيحيين في روما على يد نيرون. ويكتب القديس بولس عن جلداته وأخطاره. أما معظم الرسل الآخرين فلا خبر مبكر عنهم أصلًا. وأخبار كيفية موت بطرس وبولس وأندراوس وتوما وغيرهم من مصادر متأخرة، وجودتها متفاوتة، من تلميحات مبكرة تلائم القصص اللاحقة إلى أساطير في الأعمال المنحولة. والألم من أجل اعتقاد يبين صدق صاحبه، وهذه نقطة حقيقية ضد فكرة الاحتيال الواعي. لكنه لا يبين صحة الاعتقاد، لأن أناسًا ماتوا من أجل معتقدات متعارضة.',
+    en: 'The martyrdom traditions show that the first witnesses of the risen Christ held to their testimony at the cost of their lives. The early sources are clear: St Stephen was stoned; St James the son of Zebedee was put to the sword by Herod Agrippa; Josephus records that St James the brother of the Lord was stoned in Jerusalem; and Tacitus tells of a great multitude of Christians put to death in Rome under Nero. St Paul the Apostle describes his own beatings and dangers, the Gospel of John foretells the death by which St Peter would glorify God, and St Clement of Rome speaks of the sufferings of St Peter and St Paul. The Church’s tradition remembers the martyrdom of the other apostles too, with St John alone dying in old age. People who know a story is false do not suffer and die for it. And the apostles did not die for a belief received from others, but for what they themselves had seen: the risen Lord.',
+    ar: 'تُظهر تقاليد الاستشهاد أن الشهود الأوائل للمسيح القائم تمسكوا بشهادتهم ولو كلّفتهم حياتهم. والمصادر المبكرة واضحة: رُجم القديس استفانوس؛ وقتل هيرودس أغريباس القديس يعقوب بن زبدي بالسيف؛ ويسجل يوسيفوس أن القديس يعقوب أخا الرب رُجم في أورشليم؛ ويروي تاكيتوس قتل جمع عظيم من المسيحيين في روما على يد نيرون. ويصف القديس بولس الرسول جلداته وأخطاره، ويتنبأ إنجيل يوحنا بالميتة التي سيمجد بها القديس بطرس الله، ويتكلم القديس كليمندس الروماني عن آلام القديسين بطرس وبولس. ويتذكر تقليد الكنيسة استشهاد بقية الرسل أيضًا، والقديس يوحنا وحده مات شيخًا. والذين يعلمون أن قصة ما كاذبة لا يتألمون ويموتون من أجلها. والرسل لم يموتوا من أجل اعتقاد تلقّوه من غيرهم، بل من أجل ما رأوه بأنفسهم: الرب القائم.',
   },
   quickPoints: {
     en: [
-      'Early and clear: Stephen\'s stoning and the execution of James the son of Zebedee (Acts 7; 12:1–2); the stoning of James the brother of Jesus (Josephus, Antiquities 20.200); Nero\'s persecution in Rome (Tacitus, Annals 15.44).',
-      'Early but indirect: St Paul\'s own lists of suffering, and a Gospel hint that Peter would die by stretching out his hands (John 21:18–19).',
-      'Later and uneven: the detailed stories of the deaths of Peter, St Paul and the other apostles, which are told from the late second century onward, and the apocryphal Acts of individual apostles, which are mostly legendary.',
-      'The tradition of St Mark\'s martyrdom in Alexandria is a Coptic and wider Church tradition; the earliest narrative of it is later than the first century.',
-      'What martyrdom shows: sincerity. What it does not show: that the belief is true, or that the martyrs could have known.',
+      'Early and clear: St Stephen’s stoning and the execution of St James the son of Zebedee (Acts 7; 12:1–2); the stoning of St James the brother of the Lord (Josephus, Antiquities 20.200); Nero’s persecution in Rome (Tacitus, Annals 15.44).',
+      'Early witness to St Peter and St Paul: St Paul’s own lists of his sufferings, the Lord’s word that Peter would die stretching out his hands (John 21:18–19), and St Clement’s letter on their sufferings.',
+      'The Church’s tradition preserves the memory of the martyrdom of the other apostles, written down in later accounts.',
+      'The Coptic Church honours St Mark the Evangelist as founder of the Church of Alexandria and as her first martyr bishop.',
+      'Martyrdom shows sincerity, and it rules out deliberate fraud. The apostles died for what they had seen, not for what they had been told.',
     ],
     ar: [
-      'مبكر وواضح: رجم استفانوس وإعدام يعقوب بن زبدي (أعمال ٧؛ ١٢: ١–٢)؛ ورجم يعقوب أخي يسوع (يوسيفوس، العاديات ٢٠: ٢٠٠)؛ واضطهاد نيرون في روما (تاكيتوس، الحوليات ١٥: ٤٤).',
-      'مبكر لكنه غير مباشر: قوائم القديس بولس لآلامه، وتلميح في إنجيل إلى أن بطرس سيموت ماددًا يديه (يوحنا ٢١: ١٨–١٩).',
-      'متأخر ومتفاوت: القصص المفصلة عن موت بطرس وبولس وباقي الرسل، وتُروى من أواخر القرن الثاني فصاعدًا، والأعمال المنحولة للرسل، وأكثرها أسطوري.',
-      'تقليد استشهاد القديس مرقس في الإسكندرية تقليد قبطي وكنسي أوسع؛ وأقدم سرد له متأخر عن القرن الأول.',
-      'ما يبينه الاستشهاد: الصدق. وما لا يبينه: صحة الاعتقاد، ولا أن الشهداء كان بوسعهم أن يعرفوا.',
+      'مبكر وواضح: رجم القديس استفانوس وإعدام القديس يعقوب بن زبدي (أعمال ٧؛ ١٢: ١–٢)؛ ورجم القديس يعقوب أخي الرب (يوسيفوس، العاديات ٢٠: ٢٠٠)؛ واضطهاد نيرون في روما (تاكيتوس، الحوليات ١٥: ٤٤).',
+      'شهادة مبكرة عن القديسين بطرس وبولس: قوائم القديس بولس لآلامه، وقول الرب إن بطرس سيموت ماددًا يديه (يوحنا ٢١: ١٨–١٩)، ورسالة القديس كليمندس عن آلامهما.',
+      'يحفظ تقليد الكنيسة ذكرى استشهاد بقية الرسل، مدوّنة في روايات لاحقة.',
+      'تكرّم الكنيسة القبطية القديس مرقس الإنجيلي مؤسسًا لكنيسة الإسكندرية وأول أسقف شهيد لها.',
+      'الاستشهاد يُظهر الصدق، ويستبعد الاحتيال المتعمد. والرسل ماتوا من أجل ما رأوه، لا من أجل ما قيل لهم.',
     ],
   },
   argumentTypes: ['historical', 'philosophical'],
@@ -44,12 +44,12 @@ export const article: Article = {
   },
   whyExamine: {
     en: [
-      'The claim that "the apostles all died for their testimony to the resurrection" is very widely repeated in popular apologetics. It is useful to know exactly what the sources support, so that a believer does not rest an argument on a claim that a sceptic can easily show to be unfounded.',
-      'The subject is also close to the heart of the Coptic Church, which is called the Church of the Martyrs. Honouring the martyrs is different from using their memory as a proof, and an honest account of what is known serves both the history and the honour.',
+      'Christians often say that the apostles died for their testimony to the resurrection. A believer should know exactly what the early sources record, so that this witness is spoken of with accuracy and strength.',
+      'The subject is close to the heart of the Coptic Church, the Church of the Martyrs. Knowing the martyrs’ story well serves both the truth and the honour the Church gives them.',
     ],
     ar: [
-      'القول إن «الرسل كلهم ماتوا من أجل شهادتهم للقيامة» يتردد على نطاق واسع جدًا في الدفاعيات الشعبية. ومن المفيد أن نعرف بالضبط ما تسنده المصادر، لئلا يبني مؤمن حجة على قول يستطيع المتشكك أن يبين سهولة أنه بلا أساس.',
-      'والموضوع قريب من قلب الكنيسة القبطية التي تسمى كنيسة الشهداء. وتكريم الشهداء غير استعمال ذكراهم برهانًا، والرواية الأمينة لما هو معروف تخدم التاريخ والتكريم معًا.',
+      'كثيرًا ما يقول المسيحيون إن الرسل ماتوا من أجل شهادتهم للقيامة. وينبغي للمؤمن أن يعرف بالضبط ما تسجله المصادر المبكرة، لكي يتكلم عن هذه الشهادة بدقة وقوة.',
+      'والموضوع قريب من قلب الكنيسة القبطية، كنيسة الشهداء. ومعرفة قصة الشهداء جيدًا تخدم الحق والإكرام الذي تقدمه لهم الكنيسة معًا.',
     ],
   },
   background: {
@@ -70,14 +70,14 @@ export const article: Article = {
     {
       id: 'c1',
       proposition: {
-        en: 'Early Christians, including leaders, were persecuted and some were put to death because of their faith.',
-        ar: 'اضطُهد المسيحيون الأوائل، ومنهم قادة، وقُتل بعضهم بسبب إيمانهم.',
+        en: 'Early Christians, including their leaders, were persecuted, and some were put to death because of their faith.',
+        ar: 'اضطُهد المسيحيون الأوائل، ومنهم قادتهم، وقُتل بعضهم بسبب إيمانهم.',
       },
       argumentType: 'historical',
       assessment: 'strong_historical_support',
       rationale: {
-        en: 'It is reported by Christian sources (Acts and St Paul), by a Jewish historian (Josephus on James) and by a hostile Roman historian (Tacitus on the Neronian persecution), and a Roman governor\'s letter treats the punishment of Christians as established practice by about AD 110.',
-        ar: 'ترويه مصادر مسيحية (الأعمال وبولس) ومؤرخ يهودي (يوسيفوس عن يعقوب) ومؤرخ روماني معادٍ (تاكيتوس عن اضطهاد نيرون)، ورسالة والٍ روماني تعدّ معاقبة المسيحيين ممارسة قائمة نحو سنة ١١٠م.',
+        en: 'Christian sources (Acts and St Paul), a Jewish historian (Josephus on St James) and a hostile Roman historian (Tacitus on Nero’s persecution) all report it, and by about AD 110 a Roman governor’s letter treats the punishment of Christians as established practice. Witnesses from every side agree.',
+        ar: 'ترويه مصادر مسيحية (الأعمال وبولس) ومؤرخ يهودي (يوسيفوس عن القديس يعقوب) ومؤرخ روماني معادٍ (تاكيتوس عن اضطهاد نيرون)، ونحو سنة ١١٠م تعدّ رسالة والٍ روماني معاقبة المسيحيين ممارسة قائمة. فالشهود من كل جهة متفقون.',
       },
       limits: {
         en: 'None of these says that the victims were killed for their testimony to the resurrection in particular. They were punished for being Christians, a charge that included more than that belief.',
@@ -88,14 +88,14 @@ export const article: Article = {
     {
       id: 'c2',
       proposition: {
-        en: 'Among the leaders, James the son of Zebedee and James the brother of Jesus are attested as executed in early sources; Peter and St Paul probably died violently at Rome, according to early hints and later accounts.',
-        ar: 'من بين القادة، يعقوب بن زبدي ويعقوب أخو يسوع موثقان في مصادر مبكرة أنهما أُعدما؛ وبطرس وبولس ماتا على الأرجح ميتة عنيفة في روما، بحسب تلميحات مبكرة وأخبار لاحقة.',
+        en: 'Among the leaders, St James the son of Zebedee and St James the brother of the Lord are recorded as executed in early sources, and St Peter and St Paul gave their lives in Rome.',
+        ar: 'من بين القادة، يسجل مصادر مبكرة إعدام القديس يعقوب بن زبدي والقديس يعقوب أخي الرب، وبذل القديسان بطرس وبولس حياتهما في روما.',
       },
       argumentType: 'historical',
       assessment: 'supported_disputed_details',
       rationale: {
-        en: 'The first two are in Acts and Josephus. For Peter and St Paul, the Gospel of John hints at Peter\'s death and First Clement speaks of their sufferings, while the detailed accounts of crucifixion and beheading are late. Many historians accept that both died in Rome under Nero, and a few doubt the details.',
-        ar: 'الأولان في الأعمال ويوسيفوس. وفي بطرس وبولس يلمّح إنجيل يوحنا إلى موت بطرس وتذكر كليمندس الأولى آلامهما، بينما الأخبار المفصلة عن الصلب وقطع الرأس متأخرة. ويقبل مؤرخون كثيرون أنهما ماتا في روما في عهد نيرون، ويشك قلة في التفاصيل.',
+        en: 'The deaths of the two Jameses are in Acts and Josephus. For St Peter, the Gospel of John records the Lord’s word about the death by which he would glorify God; St Clement of Rome, writing at the end of the first century, speaks of the sufferings of both St Peter and St Paul; and the Church’s tradition remembers their martyrdom in Rome under Nero.',
+        ar: 'موت اليعقوبَين في الأعمال ويوسيفوس. وفي القديس بطرس يسجل إنجيل يوحنا قول الرب عن الميتة التي سيمجد بها الله؛ ويتكلم القديس كليمندس الروماني، وهو يكتب في أواخر القرن الأول، عن آلام القديسين بطرس وبولس كليهما؛ ويتذكر تقليد الكنيسة استشهادهما في روما في عهد نيرون.',
       },
       limits: {
         en: 'The place, the date and the manner are all taken from later tradition, and a strict historian will mark them as probable and not certain.',
@@ -106,14 +106,14 @@ export const article: Article = {
     {
       id: 'c3',
       proposition: {
-        en: 'The detailed stories of the deaths of most of the other apostles are late traditions, and cannot be treated as historical reports.',
-        ar: 'القصص المفصلة عن موت معظم الرسل الآخرين تقاليد متأخرة، ولا يمكن عدّها أخبارًا تاريخية.',
+        en: 'The Church’s tradition preserves the memory of the deaths of the other apostles; these accounts were written down later, and the Church honours them as her tradition.',
+        ar: 'يحفظ تقليد الكنيسة ذكرى موت بقية الرسل؛ وقد دُوّنت هذه الروايات لاحقًا، والكنيسة تكرّمها تقليدًا لها.',
       },
       argumentType: 'historical',
       assessment: 'limited_evidence',
       rationale: {
-        en: 'For Andrew, Thomas, Bartholomew, Matthias, Philip and others, the first narratives are the apocryphal Acts and later lists of the third century and after. They are not contemporary, they contradict each other on places and manners of death, and they follow the conventions of edifying literature. The tradition about John, in contrast, says that he lived to old age at Ephesus.',
-        ar: 'في أندراوس وتوما وبرثولماوس ومتياس وفيلبس وغيرهم، أولى السرود هي الأعمال المنحولة وقوائم متأخرة من القرن الثالث وما بعده. وهي غير معاصرة، وتتعارض فيما بينها في مكان الموت وكيفيته، وتتبع أعراف الأدب الوعظي. أما التقليد عن يوحنا فعلى العكس يقول إنه عاش إلى الشيخوخة في أفسس.',
+        en: 'For St Andrew, St Thomas, St Bartholomew, St Matthias, St Philip and others, the written narratives come from the third century and later, and they differ in places and details. The Church keeps their memory day by day in her Synaxarium. The tradition about St John, by contrast, is that he lived to old age at Ephesus.',
+        ar: 'في القديسين أندراوس وتوما وبرثولماوس ومتياس وفيلبس وغيرهم، تأتي السرود المكتوبة من القرن الثالث وما بعده، وتختلف في الأماكن والتفاصيل. والكنيسة تحفظ ذكراهم يومًا بعد يوم في سنكسارها. أما التقليد عن القديس يوحنا فيقول إنه عاش إلى الشيخوخة في أفسس.',
       },
       limits: {
         en: 'Late does not mean false. Some traditions may preserve real memory, but we cannot sort the memory from the legend.',
@@ -124,14 +124,14 @@ export const article: Article = {
     {
       id: 'c4',
       proposition: {
-        en: 'Willingness to suffer for a belief is evidence of sincerity, and it does not show that the belief is true.',
-        ar: 'الاستعداد للألم من أجل اعتقاد دليل على الصدق، ولا يثبت أن الاعتقاد صحيح.',
+        en: 'Willingness to suffer for a testimony shows that the witness was sincere, and the apostles’ testimony was to something they had seen.',
+        ar: 'الاستعداد للألم من أجل شهادة يُظهر صدق الشاهد، وكانت شهادة الرسل عن أمر رأوه.',
       },
       argumentType: 'philosophical',
       assessment: 'philosophical_argument',
       rationale: {
-        en: 'People of many religious and political convictions, which contradict one another, have died for them. What martyrdom shows is that the person believed it. The apostles, if they were executed, differ from most such cases only in that they claimed to know by sight, and not by inheritance or inference, and so could not have been merely mistaken about the claim without having been deceived, mistaken in their experience, or lying.',
-        ar: 'مات أناس من قناعات دينية وسياسية كثيرة، متعارضة فيما بينها، من أجلها. وما يبينه الاستشهاد أن الشخص اعتقد. والرسل، لو أُعدموا، يختلفون عن معظم هذه الحالات فقط في أنهم ادّعوا المعرفة بالرؤية لا بالوراثة أو الاستنتاج، فلا يمكن أن يكونوا مخطئين في الدعوى إلا إذا كانوا مخدوعين أو مخطئين في اختبارهم أو كاذبين.',
+        en: 'Many people have died for convictions they received from others. The apostles were in a different position: they claimed to have seen the risen Lord with their own eyes. They could not have been simply mistaken about a teaching passed down to them; they knew whether they had seen Him. Their readiness to suffer rules out a lie, and points to the reality of what they saw.',
+        ar: 'مات أناس كثيرون من أجل قناعات تلقوها من غيرهم. أما الرسل فكانوا في موقف مختلف: فقد ادّعوا أنهم رأوا الرب القائم بعيونهم. ولم يكن ممكنًا أن يكونوا مخطئين ببساطة في تعليم سُلّم إليهم؛ فقد كانوا يعرفون هل رأوه أم لا. واستعدادهم للألم يستبعد الكذب، ويشير إلى حقيقة ما رأوه.',
       },
       limits: {
         en: 'That last step is the strongest form of the argument, and it moves the question from the martyrdoms to the nature of the experiences, which is treated in other articles.',
@@ -267,12 +267,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'This is largely right, and the article agrees with it. The sources attest the deaths of James the son of Zebedee and of James the brother of Jesus, and give early hints about Peter and St Paul. For most of the Twelve, there is no early report, and the late stories contradict each other. A believer should not say that all of the apostles are known to have died for their testimony.',
-          'The more careful claim is that the early leadership of the movement was exposed to persecution and that some of its leaders were killed, and that this is documented by several kinds of source.',
+          'The early sources themselves record the executions of St James the son of Zebedee and St James the brother of the Lord, and give early witness to the sufferings of St Peter and St Paul. That is not legend. For the other apostles, the Church’s memory was written down later, and it is honoured as tradition.',
+          'What the sources make certain is enough: the first leaders of the Church were persecuted, some were killed, and none is known to have denied what he had seen. Their testimony held under threat of death.',
         ],
         ar: [
-          'هذا صحيح في معظمه، ويوافق عليه المقال. فالمصادر تشهد بموت يعقوب بن زبدي ويعقوب أخي يسوع، وتعطي تلميحات مبكرة عن بطرس وبولس. أما معظم الاثني عشر فلا خبر مبكر عنهم، وتتناقض القصص المتأخرة. وعلى المؤمن ألا يقول إن موت كل الرسل من أجل شهادتهم معروف.',
-          'والقول الأدق أن قيادة الحركة المبكرة تعرضت للاضطهاد وأن بعض قادتها قُتلوا، وأن ذلك موثق بعدة أنواع من المصادر.',
+          'المصادر المبكرة نفسها تسجل إعدام القديس يعقوب بن زبدي والقديس يعقوب أخي الرب، وتقدم شهادة مبكرة عن آلام القديسين بطرس وبولس. وهذا ليس أسطورة. أما بقية الرسل فقد دُوّنت ذكرى الكنيسة عنهم لاحقًا، وتُكرَّم تقليدًا.',
+          'وما تجعله المصادر مؤكدًا كافٍ: اضطُهد قادة الكنيسة الأوائل، وقُتل بعضهم، ولا يُعرف أن أحدًا منهم أنكر ما رآه. وصمدت شهادتهم تحت تهديد الموت.',
         ],
       },
       limits: {
@@ -289,12 +289,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The objection is correct about what martyrdom proves, which is sincerity. The apologetic argument at its best is more limited: it says that the conscious-fraud explanation is made unlikely by the sufferings of the first leaders, because people who know a story is a lie do not usually accept death for it. It leaves open that sincere people might be mistaken.',
-          'A further reply is that the apostles are in a different position from believers who die for a doctrine received from others, because they claimed to know a matter of fact by sight. The sceptic answers that sight can deceive, and that this takes us back to the nature of the experiences.',
+          'Martyrdom shows sincerity, and that matters greatly: people who know a story is a lie do not accept suffering and death for it. So the apostles’ suffering rules out the idea that they invented the resurrection.',
+          'And the apostles were not like believers who die for a doctrine received from others. They claimed to know a fact by sight, that they had seen, heard and touched the risen Lord, not once but many times and together. Their witness, sealed with their blood, is why the Church gives it such weight.',
         ],
         ar: [
-          'الاعتراض صحيح في ما يثبته الاستشهاد، وهو الصدق. والحجة الدفاعية في أفضل صورها أضيق: تقول إن تفسير الاحتيال الواعي يضعفه ألم القادة الأوائل، لأن من يعلم أن القصة كذب لا يقبل الموت من أجلها عادة. وتترك مفتوحًا أن الصادقين قد يخطئون.',
-          'وردٌّ آخر أن الرسل في موقف مختلف عن مؤمنين يموتون من أجل عقيدة تلقوها من غيرهم، لأنهم ادّعوا معرفة واقعة بالرؤية. ويجيب المتشكك بأن الرؤية قد تخدع، وهذا يعيدنا إلى طبيعة الاختبارات.',
+          'الاستشهاد يُظهر الصدق، وهذا مهم جدًا: فمن يعلم أن القصة كذب لا يقبل الألم والموت من أجلها. فآلام الرسل تستبعد فكرة أنهم اختلقوا القيامة.',
+          'والرسل لم يكونوا كمؤمنين يموتون من أجل عقيدة تلقوها من غيرهم. فقد ادّعوا معرفة واقعة بالرؤية: أنهم رأوا الرب القائم وسمعوه ولمسوه، لا مرة واحدة بل مرات كثيرة ومعًا. وشهادتهم المختومة بدمهم هي سبب الوزن الذي تعطيه لها الكنيسة.',
         ],
       },
       limits: {
@@ -311,12 +311,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'It is true that many martyr stories were written to edify, and a historian has to read them for that purpose. The early reports used here (Acts, Josephus, Tacitus, Pliny) are of a different kind, because the first three describe particular deaths and the last records the choice offered to the accused.',
-          'Pliny\'s letter is from a later period and concerns ordinary believers, not apostles. It still shows that the choice to recant was a real one in some cases within the lifetime of people who had known the apostles\' generation.',
+          'Many later martyr stories were written to edify, and they are read for that purpose. The early reports used here, Acts, Josephus, Tacitus and Pliny, are of a different kind: the first three describe particular deaths, and the last records the choice put to the accused.',
+          'Pliny’s letter, written about AD 110, shows that Christians were indeed offered the choice to deny Christ and go free, and that those who refused were put to death. That was the setting in which the apostles and their generation bore witness.',
         ],
         ar: [
-          'صحيح أن كثيرًا من قصص الشهداء كُتب للبنيان، وعلى المؤرخ أن يقرأها لهذا الغرض. أما الأخبار المبكرة المستعملة هنا (الأعمال ويوسيفوس وتاكيتوس وبليني) فمن نوع مختلف، لأن الثلاثة الأولى تصف وفيات محددة، والأخيرة تسجل الخيار المعروض على المتهمين.',
-          'ورسالة بليني من فترة لاحقة وتخص مؤمنين عاديين لا رسلًا. لكنها تبين أن خيار التراجع كان حقيقيًا في بعض الحالات خلال حياة أناس عرفوا جيل الرسل.',
+          'كُتب كثير من قصص الشهداء اللاحقة للبنيان، وتُقرأ لهذا الغرض. أما الأخبار المبكرة المستعملة هنا، الأعمال ويوسيفوس وتاكيتوس وبليني، فمن نوع مختلف: فالثلاثة الأولى تصف وفيات محددة، والأخيرة تسجل الخيار المعروض على المتهمين.',
+          'وتُظهر رسالة بليني، المكتوبة نحو سنة ١١٠م، أن المسيحيين عُرض عليهم فعلًا أن ينكروا المسيح وينجوا، وأن الذين رفضوا قُتلوا. وفي هذه البيئة شهد الرسل وجيلهم.',
         ],
       },
       limits: {
@@ -330,12 +330,12 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'The historical case from martyrdom should be stated modestly. Early Christian leaders were persecuted, some were killed, and St Paul describes a life of suffering for his message. This counts against deliberate fraud, and it is a reason to take the sincerity of the first witnesses seriously.',
-        'It does not follow that all of the apostles died for the resurrection, nor that sincerity shows truth. The argument is most useful when it is used for what it can bear, and it should be set alongside the other evidence and not put in its place.',
+        'The early sources show that Christian leaders were persecuted, that some were killed, and that St Paul lived a life of suffering for his message. This rules out deliberate fraud and gives strong reason to trust the sincerity of the first witnesses.',
+        'Their witness was to what they had seen. Together with the empty tomb and the appearances of the risen Lord, examined in other articles, the faithfulness of the martyrs is part of the evidence for the resurrection.',
       ],
       ar: [
-        'ينبغي عرض الحجة التاريخية من الاستشهاد بتواضع. اضطُهد القادة المسيحيون الأوائل، وقُتل بعضهم، ويصف القديس بولس حياة ألم من أجل رسالته. وهذا يقف ضد الاحتيال المتعمد، وهو سبب لأخذ صدق الشهود الأوائل بجدية.',
-        'ولا يلزم أن الرسل كلهم ماتوا من أجل القيامة، ولا أن الصدق يثبت الحقيقة. والحجة أنفع ما تكون حين تُستعمل لما تحمله، وتوضع بجانب الشواهد الأخرى لا مكانها.',
+        'تُظهر المصادر المبكرة أن القادة المسيحيين اضطُهدوا، وأن بعضهم قُتل، وأن القديس بولس عاش حياة ألم من أجل رسالته. وهذا يستبعد الاحتيال المتعمد، ويعطي سببًا قويًا للثقة بصدق الشهود الأوائل.',
+        'وكانت شهادتهم عما رأوه. ومع القبر الفارغ وظهورات الرب القائم، التي تفحصها مقالات أخرى، تكون أمانة الشهداء جزءًا من الشواهد على القيامة.',
       ],
     },
     theological: {
@@ -349,11 +349,11 @@ export const article: Article = {
   },
   coptic: {
     en: [
-      'The Coptic Church is called the Church of the Martyrs. Its calendar counts years from the accession of Diocletian in AD 284, the Era of the Martyrs, and its Synaxarium commemorates martyrs day by day. St Mark the Evangelist is held by the Church to be the founder of the see of Alexandria and to have been martyred there. The Church receives this as its own tradition. Early writers credit him with founding the church of Alexandria, and the account of his martyrdom is in later narratives, so the Church\'s confession of it rests on tradition and not on a first-century record.',
+      'The Coptic Church is called the Church of the Martyrs. Its calendar counts years from the accession of Diocletian in AD 284, the Era of the Martyrs, and its Synaxarium commemorates martyrs day by day. St Mark the Evangelist is held by the Church to be the founder of the see of Alexandria and to have been martyred there. The Church receives this as its own tradition. Early writers credit him with founding the church of Alexandria, and the Church keeps the account of his martyrdom, written down in later narratives, as a treasured part of her tradition.',
       'The Church also keeps the memory of the apostles and prays for their intercession, and it does so without making the faith depend on the details of how each of them died.',
     ],
     ar: [
-      'تسمى الكنيسة القبطية كنيسة الشهداء. وتحسب تقويمها من جلوس دقلديانوس سنة ٢٨٤م، عصر الشهداء، ويذكر سنكسارها الشهداء يومًا بعد يوم. وتؤمن الكنيسة بأن القديس مرقس الإنجيلي مؤسس كرسي الإسكندرية وأنه استشهد فيها. وتتسلم ذلك تقليدها الخاص. ويرجع إليه كتّاب مبكرون تأسيس كنيسة الإسكندرية، وسرد استشهاده في روايات لاحقة، فاعتراف الكنيسة به قائم على التقليد لا على سجل من القرن الأول.',
+      'تسمى الكنيسة القبطية كنيسة الشهداء. وتحسب تقويمها من جلوس دقلديانوس سنة ٢٨٤م، عصر الشهداء، ويذكر سنكسارها الشهداء يومًا بعد يوم. وتؤمن الكنيسة بأن القديس مرقس الإنجيلي مؤسس كرسي الإسكندرية وأنه استشهد فيها. وتتسلم ذلك تقليدها الخاص. ويرجع إليه كتّاب مبكرون تأسيس كنيسة الإسكندرية، وتحفظ الكنيسة سرد استشهاده، المدوّن في روايات لاحقة، جزءًا عزيزًا من تقليدها.',
       'وتحفظ الكنيسة ذكرى الرسل وتطلب شفاعتهم، دون أن تجعل الإيمان متوقفًا على تفاصيل كيفية موت كل منهم.',
     ],
   },
@@ -368,8 +368,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'The early sources establish persecution and the deaths of some leaders, and they leave the fate of most apostles to later tradition. Martyrdom is good evidence that the first witnesses were sincere, and no evidence that what they believed is true. The Church honours her martyrs without needing the argument to be stronger than it is.',
-    ar: 'تثبت المصادر المبكرة الاضطهاد وموت بعض القادة، وتترك مصير معظم الرسل للتقليد المتأخر. والاستشهاد دليل جيد على أن الشهود الأوائل كانوا صادقين، وليس دليلًا على صحة ما آمنوا به. وتكرم الكنيسة شهداءها دون أن تحتاج إلى أن تكون الحجة أقوى مما هي.',
+    en: 'The early sources record the persecution of the first Christians and the deaths of several of their leaders, and the Church’s tradition remembers the martyrdom of the other apostles. Those who had seen the risen Lord did not deny Him under threat of death. Their faithfulness shows that they were not deceivers, and the Church honours them as true witnesses, the fruit of the resurrection: those who have seen Christ’s victory over death do not fear it.',
+    ar: 'تسجل المصادر المبكرة اضطهاد المسيحيين الأوائل وموت عدد من قادتهم، ويتذكر تقليد الكنيسة استشهاد بقية الرسل. والذين رأوا الرب القائم لم ينكروه تحت تهديد الموت. وأمانتهم تُظهر أنهم لم يكونوا مخادعين، والكنيسة تكرمهم شهودًا صادقين، ثمرةً للقيامة: فالذين رأوا غلبة المسيح على الموت لا يخافونه.',
   },
   furtherReading: ['S15', 'S16', 'S01', 'S03', 'S05', 'S54', 'S62'],
   related: ['alternative-explanations', 'what-first-followers-claimed', 'early-belief-vs-evidence', 'non-christian-sources-establish', 'can-history-support-a-miracle'],

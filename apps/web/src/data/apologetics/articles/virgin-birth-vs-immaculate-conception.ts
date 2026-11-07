@@ -15,8 +15,8 @@ export const article: Article = {
     ar: 'الفرق بين عقيدتين كثيرًا ما تُخلطان: الولادة العذراوية (الحبل العذراوي بيسوع من الروح القدس) وعقيدة الحبل بلا دنس الأصلي عند الكاثوليك (أن مريم نفسها حُبل بها بلا خطية أصلية). تعرض المقالة كلًّا منهما بإنصاف، وتقدم منطق الكاثوليك والشرقيين، وتشرح لماذا تقبل الكنيسة القبطية الأرثوذكسية الأولى دون الثانية.',
   },
   shortAnswer: {
-    en: 'They are about two different persons and two different conceptions. The virgin birth concerns Jesus: he was conceived in Mary’s womb by the Holy Spirit without a human father, as Matthew and Luke report. The Immaculate Conception concerns Mary: the Roman Catholic Church defined in 1854 that from the first moment of her own conception she was preserved from original sin. The Coptic Orthodox Church confesses the first as part of the Creed and does not teach the second as a doctrine. She honours Mary as all-holy and holds that the Holy Spirit sanctified her when the Word took flesh from her.',
-    ar: 'هما عن شخصين مختلفين وحبلين مختلفين. الولادة العذراوية تخص يسوع: حُبل به في رحم مريم من الروح القدس بلا أب بشري، كما يروي متى ولوقا. والحبل بلا دنس يخص مريم: عرّفت الكنيسة الكاثوليكية الرومانية سنة ١٨٥٤ أنها صينت من الخطية الأصلية منذ اللحظة الأولى للحبل بها هي. والكنيسة القبطية الأرثوذكسية تعترف بالأولى جزءًا من قانون الإيمان ولا تعلّم بالثانية عقيدة. وتكرم مريم كلية القداسة وترى أن الروح القدس قدّسها حين اتخذ الكلمة جسدًا منها.',
+    en: 'They are about two different persons and two different conceptions. The virgin birth concerns the Lord Jesus: He was conceived in the Virgin’s womb by the Holy Spirit without a human father, as St Matthew and St Luke testify. The Immaculate Conception concerns Mary: the Roman Catholic Church defined in 1854 that from the first moment of her own conception she was preserved from original sin. The Coptic Orthodox Church confesses the first as part of the Creed and does not teach the second as a doctrine. She honours Mary as all-holy and holds that the Holy Spirit sanctified her when the Word took flesh from her.',
+    ar: 'هما عن شخصين مختلفين وحبلين مختلفين. الولادة العذراوية تخص الرب يسوع: حُبل به في رحم العذراء من الروح القدس بلا أب بشري، كما يشهد القديسان متى ولوقا. والحبل بلا دنس يخص مريم: عرّفت الكنيسة الكاثوليكية الرومانية سنة ١٨٥٤ أنها صينت من الخطية الأصلية منذ اللحظة الأولى للحبل بها هي. والكنيسة القبطية الأرثوذكسية تعترف بالأولى جزءًا من قانون الإيمان ولا تعلّم بالثانية عقيدة. وتكرم مريم كلية القداسة وترى أن الروح القدس قدّسها حين اتخذ الكلمة جسدًا منها.',
   },
   quickPoints: {
     en: [
@@ -92,14 +92,14 @@ export const article: Article = {
     {
       id: 'c2',
       proposition: {
-        en: 'The New Testament does not state the Immaculate Conception; Catholics argue for it from Luke 1:28, from the Eve–Mary parallel and from fittingness, and others read these differently.',
-        ar: 'لا ينص العهد الجديد على الحبل بلا دنس؛ ويحتج له الكاثوليك من لوقا ١: ٢٨ ومن مقارنة حواء ومريم ومن اللياقة، ويقرأ آخرون ذلك قراءة مختلفة.',
+        en: 'The New Testament does not teach the Immaculate Conception. The Catholic arguments from Luke 1:28, from the Eve–Mary parallel and from fittingness do not show that Mary was preserved from original sin at her own conception.',
+        ar: 'لا يعلّم العهد الجديد الحبل بلا دنس. وحجج الكاثوليك من لوقا ١: ٢٨ ومن مقارنة حواء ومريم ومن اللياقة لا تبيّن أن مريم صينت من الخطية الأصلية عند الحبل بها.',
       },
       argumentType: 'theological',
       assessment: 'actively_debated',
       rationale: {
-        en: 'Luke 1:28 is a greeting to a woman who is favoured by God; the question is whether the word implies sinlessness from conception or the grace given for her vocation.',
-        ar: 'لوقا ١: ٢٨ تحية لامرأة منعم عليها من الله؛ والسؤال هل تدل اللفظة على عصمة من الحبل أو على نعمة لأجل دعوتها.',
+        en: 'Luke 1:28 is a greeting to a woman favoured by God. It speaks of the grace given her for her calling to be the Mother of God, and says nothing about her own conception. Mary herself rejoices in God her Saviour (Luke 1:47).',
+        ar: 'لوقا ١: ٢٨ تحية لامرأة أنعم الله عليها. وهي تتكلم عن النعمة الممنوحة لها لدعوتها أن تكون والدة الإله، ولا تقول شيئًا عن الحبل بها. ومريم نفسها تبتهج بالله مخلصها (لوقا ١: ٤٧).',
       },
       limits: {
         en: 'It describes the debate and does not settle it. The Eve–Mary parallel appears in the Fathers but is not cited here with a locator.',
@@ -222,11 +222,11 @@ export const article: Article = {
       response: {
         en: [
           'The two doctrines are not on the same footing. The virgin birth is reported by two Gospels and was confessed by the early Church; the Immaculate Conception was defined in the nineteenth century. Treating them together hides this difference.',
-          'The virgin birth cannot be shown from outside the Christian tradition, which the article on Matthew and Luke acknowledges. It is received by faith as part of the incarnation.',
+          'The virgin birth rests on the testimony of the Gospels and the unbroken faith of the Church, which confessed it from the beginning. It belongs to the mystery of the incarnation: the eternal Son took flesh from the Virgin by the Holy Spirit.',
         ],
         ar: [
           'العقيدتان ليستا في الموضع نفسه. فالولادة العذراوية يرويها إنجيلان واعترفت بها الكنيسة الأولى؛ أما الحبل بلا دنس فعُرّف في القرن التاسع عشر. ومعاملتهما معًا تخفي هذا الفرق.',
-          'ولا يمكن إثبات الولادة العذراوية من خارج التقليد المسيحي، وهذا ما تقر به مقالة متى ولوقا. وهي تُقبل بالإيمان جزءًا من التجسد.',
+          'وتقوم الولادة العذراوية على شهادة الأناجيل وإيمان الكنيسة المتصل الذي اعترف بها منذ البدء. وهي من سر التجسد: الابن الأزلي اتخذ جسدًا من العذراء بالروح القدس.',
         ],
       },
       limits: {
@@ -272,8 +272,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'The virgin birth concerns the conception of Jesus and is confessed by every ancient church. The Immaculate Conception concerns the conception of Mary and was defined by the Roman Catholic Church in 1854. The Coptic Orthodox Church confesses the first, honours Mary as all-holy and Theotokos, and does not teach the second.',
-    ar: 'الولادة العذراوية عن الحبل بيسوع وتعترف بها كل الكنائس القديمة. والحبل بلا دنس عن الحبل بمريم وعرّفته الكنيسة الكاثوليكية الرومانية سنة ١٨٥٤. والكنيسة القبطية الأرثوذكسية تعترف بالأولى وتكرم مريم كلية القداسة ووالدة الإله ولا تعلّم بالثانية.',
+    en: 'The virgin birth concerns the conception of Christ and is confessed by every ancient church. The Immaculate Conception concerns the conception of Mary and was defined by the Roman Catholic Church in 1854. The Coptic Orthodox Church confesses the first with the whole ancient Church. She honours the Virgin as all-holy and Theotokos, sanctified by the Holy Spirit when the Word took flesh from her, and does not teach the second.',
+    ar: 'الولادة العذراوية عن الحبل بالسيد المسيح وتعترف بها كل الكنائس القديمة. والحبل بلا دنس عن الحبل بمريم وعرّفته الكنيسة الكاثوليكية الرومانية سنة ١٨٥٤. والكنيسة القبطية الأرثوذكسية تعترف بالأولى مع الكنيسة القديمة كلها. وتكرم العذراء كلية القداسة ووالدة الإله، التي قدّسها الروح القدس حين اتخذ الكلمة جسدًا منها، ولا تعلّم بالثانية.',
   },
   furtherReading: ['S62'],
   related: [

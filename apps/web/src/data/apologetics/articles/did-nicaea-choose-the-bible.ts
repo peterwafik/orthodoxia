@@ -15,8 +15,8 @@ export const article: Article = {
     ar: 'تسأل هذه المقالة سؤالًا محددًا: هل قرر مجمع نيقية سنة ٣٢٥م أي الأسفار تنتمي إلى الكتاب المقدس؟ وهي تعرض ما فعله المجمع وما لم يفعله، ومن أين يبدو أن الادعاء الشائع جاء، وما تقوله الكنيسة القبطية التي حضر أسقفها ألكسندروس وشماسه أثناسيوس المجمع. أما التاريخ الأوسع لتكوّن القوائم فهو في مقالة «من اختار الأسفار؟».',
   },
   shortAnswer: {
-    en: 'No. The Council of Nicaea was called to deal with the dispute started by Arius over the divinity of the Son, with the date of Easter and with some questions of church order. Its creed and its surviving canons contain no list of Scripture, and the ancient accounts of the council do not report a vote on books. Both sides at Nicaea argued from Scripture they already held in common. The first well-known list of exactly the twenty-seven New Testament books comes from Athanasius more than forty years later.',
-    ar: 'لا. فقد انعقد مجمع نيقية لمعالجة النزاع الذي أثاره آريوس في لاهوت الابن، ولتحديد موعد الفصح، ولبعض مسائل النظام الكنسي. ولا يتضمن قانون إيمانه ولا قوانينه الباقية قائمة بالكتب المقدسة، ولا تروي الروايات القديمة للمجمع تصويتًا على الأسفار. وقد احتج الفريقان في نيقية بكتب مقدسة كانا يملكانها مشتركة. وأول قائمة معروفة بالأسفار السبعة والعشرين للعهد الجديد بالضبط جاءت من أثناسيوس بعد أكثر من أربعين سنة.',
+    en: 'No. The Council of Nicaea was called to answer Arius, who denied that the Son is truly God, and to settle the date of Easter and some questions of church order. Its creed and its surviving canons contain no list of Scripture, and no ancient account of the council reports a vote on books. Both sides at Nicaea argued from the same Scriptures, which the churches had been reading in worship long before. The first well-known list of exactly the twenty-seven New Testament books comes from St Athanasius, pope of Alexandria, more than forty years later. Nicaea did not make the Bible; it stood on it to confess that the Son is of one essence with the Father.',
+    ar: 'لا. فقد انعقد مجمع نيقية للرد على آريوس الذي أنكر أن الابن إله حق، ولتحديد موعد الفصح وبعض مسائل النظام الكنسي. ولا يتضمن قانون إيمانه ولا قوانينه الباقية قائمة بالكتب المقدسة، ولا تروي أي رواية قديمة للمجمع تصويتًا على الأسفار. وقد احتج الفريقان في نيقية بالكتب المقدسة نفسها التي كانت الكنائس تقرؤها في العبادة منذ زمن طويل. وأول قائمة معروفة بالأسفار السبعة والعشرين للعهد الجديد بالضبط جاءت من القديس أثناسيوس بابا الإسكندرية بعد أكثر من أربعين سنة. فنيقية لم يصنع الكتاب المقدس، بل وقف عليه ليعترف بأن الابن مساوٍ للآب في الجوهر.',
   },
   quickPoints: {
     en: [
@@ -24,14 +24,14 @@ export const article: Article = {
       'The Arian dispute was an argument over how to read texts that both sides accepted, which shows that Scripture was in use before the council.',
       'The report that Constantine ordered copies of the Scriptures for Constantinople is about copying, not about choosing the contents.',
       'Athanasius, who was at Nicaea as a young deacon, gave his list of the New Testament books in AD 367.',
-      'The claim that Nicaea chose the Bible is a modern popular story, and it is not found in the ancient accounts.',
+      'The claim that Nicaea chose the Bible is a modern popular story; it is not found in any ancient account.',
     ],
     ar: [
       'تناول نيقية (٣٢٥م) تعليم آريوس وموعد الفصح والنظام الكنسي؛ ولا يقول قانون الإيمان ولا القوانين الباقية شيئًا عن قائمة للكتب المقدسة.',
       'كان النزاع الآريوسي جدلًا في كيفية قراءة نصوص يقبلها الطرفان، مما يدل على أن الكتاب كان مستعملًا قبل المجمع.',
       'الخبر عن أن قسطنطين أمر بنسخ الكتب المقدسة للقسطنطينية خبر عن النسخ لا عن اختيار المحتوى.',
       'قدّم أثناسيوس، الذي حضر نيقية شماسًا شابًا، قائمته لأسفار العهد الجديد سنة ٣٦٧م.',
-      'الزعم بأن نيقية اختار الكتاب المقدس قصة شعبية حديثة ولا وجود لها في الروايات القديمة.',
+      'الزعم بأن نيقية اختار الكتاب المقدس قصة شعبية حديثة، ولا وجود لها في أي رواية قديمة.',
     ],
   },
   argumentTypes: ['historical', 'textual'],
@@ -45,12 +45,12 @@ export const article: Article = {
 
   whyExamine: {
     en: [
-      'The idea that a council of bishops under an emperor voted on the Bible is widely repeated in popular books, films and online. It carries a serious accusation, that the Scriptures are a political creation, and it deserves a direct answer.',
-      'The answer also shows what Nicaea was about. The council defined who Christ is in the face of Arius, and that is the subject on which the Coptic Church most honours it.',
+      'The idea that a council of bishops under an emperor voted on the Bible is widely repeated in popular books, films and online. It carries a serious accusation, that the Scriptures are a political creation, and the history answers it plainly.',
+      'The answer also shows what Nicaea was truly about. The council confessed who Christ is in the face of Arius, and that is why the Coptic Church honours it so deeply.',
     ],
     ar: [
-      'تتكرر على نطاق واسع في الكتب الشعبية والأفلام والإنترنت فكرة أن مجمعًا من الأساقفة في عهد إمبراطور صوّت على الكتاب المقدس. وهي تحمل اتهامًا خطيرًا، أن الكتب المقدسة صناعة سياسية، وتستحق جوابًا مباشرًا.',
-      'ويُظهر الجواب أيضًا ما كان نيقية يدور حوله. فقد حدد المجمع من هو المسيح في مواجهة آريوس، وهذا هو الموضوع الذي تكرّمه الكنيسة القبطية عليه أكثر من غيره.',
+      'تتكرر على نطاق واسع في الكتب الشعبية والأفلام والإنترنت فكرة أن مجمعًا من الأساقفة في عهد إمبراطور صوّت على الكتاب المقدس. وهي تحمل اتهامًا خطيرًا، أن الكتب المقدسة صناعة سياسية، والتاريخ يجيب عنه بوضوح.',
+      'ويُظهر الجواب أيضًا ما كان نيقية يدور حوله حقًا. فقد اعترف المجمع بمن هو المسيح في مواجهة آريوس، ولهذا تكرّمه الكنيسة القبطية إكرامًا عميقًا.',
     ],
   },
   background: {
@@ -79,8 +79,8 @@ export const article: Article = {
       argumentType: 'historical',
       assessment: 'strong_historical_support',
       rationale: {
-        en: 'The business of the council was the Arian dispute, the date of Easter and church order. The creed and canons that survive do not contain a list of Scripture, and the first well-known list of the whole New Testament appears more than forty years later in a letter of Athanasius.',
-        ar: 'كان شغل المجمع النزاع الآريوسي وموعد الفصح والنظام الكنسي. ولا يحوي قانون الإيمان والقوانين الباقية قائمة بالكتب المقدسة، وتظهر أول قائمة معروفة بالعهد الجديد كله بعد أكثر من أربعين سنة في رسالة لأثناسيوس.',
+        en: 'The business of the council was the Arian dispute, the date of Easter and church order. Its creed and canons contain no list of Scripture, no ancient account mentions one, and the first well-known list of the whole New Testament appears more than forty years later in a letter of St Athanasius.',
+        ar: 'كان شغل المجمع النزاع الآريوسي وموعد الفصح والنظام الكنسي. ولا يحوي قانون إيمانه وقوانينه قائمة بالكتب المقدسة، ولا تذكر أي رواية قديمة قائمة كهذه، وتظهر أول قائمة معروفة بالعهد الجديد كله بعد أكثر من أربعين سنة في رسالة للقديس أثناسيوس.',
       },
       limits: {
         en: 'It is an argument from the silence of incomplete records, but no ancient account contradicts it.',
@@ -130,12 +130,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The report we have, from Eusebius, is that the emperor asked for copies of the Scriptures to be made for the churches in Constantinople, with attention to their quality. It does not say that he chose the books. The books to be copied were those already used in the churches. No such copies survive that can be identified, so the claim that the Bible “he had made” is the one we have cannot be shown.',
-          'Constantine played a large part in calling and supporting the council, and the Church honours his protection of Christians, but the sources do not show him deciding what is Scripture.',
+          'The report, from Eusebius, is that the emperor asked for copies of the Scriptures to be made for the churches of Constantinople, with care for their quality. It says nothing about choosing books. The books to be copied were those the churches were already reading.',
+          'Constantine played a large part in calling and supporting the council, and the Church honours his protection of Christians. But what is Scripture was decided by the Church’s long use, not by an emperor’s order.',
         ],
         ar: [
-          'الخبر الذي بين أيدينا، عن أوسابيوس، أن الإمبراطور طلب نسخ الكتب المقدسة لكنائس القسطنطينية مع العناية بجودتها. ولا يقول إنه اختار الأسفار. فالأسفار التي تُنسخ هي التي كانت مستعملة في الكنائس أصلًا. ولا تبقى نسخ يمكن تحديدها على أنها تلك، فلا يمكن إثبات القول إن الكتاب «الذي صنعه» هو الذي بين أيدينا.',
-          'وقد كان لقسطنطين دور كبير في دعوة المجمع ودعمه، وتكرّم الكنيسة حمايته للمسيحيين، لكن المصادر لا تُظهره يقرر ما هو الكتاب المقدس.',
+          'الخبر، عن أوسابيوس، أن الإمبراطور طلب نسخ الكتب المقدسة لكنائس القسطنطينية مع العناية بجودتها. ولا يقول شيئًا عن اختيار الأسفار. فالأسفار التي تُنسخ هي التي كانت الكنائس تقرؤها أصلًا.',
+          'وقد كان لقسطنطين دور كبير في دعوة المجمع ودعمه، وتكرّم الكنيسة حمايته للمسيحيين. لكن ما هو الكتاب المقدس حدّده استعمال الكنيسة الطويل، لا أمر إمبراطور.',
         ],
       },
       limits: {
@@ -152,12 +152,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The belief that Christ is divine is expressed in texts that existed before the council, among them the prologue of John and the letters of St Paul, and the Arian party appealed to the same books. A canon shaped to remove the opponents’ texts would not have kept John 14:28, which was one of their favourite verses.',
-          'Historians also point out that the writings left outside the canon, such as the Gospel of Thomas, are not Arian documents. They belong to other currents, and the question of why they were not received is treated in the article on noncanonical gospels.',
+          'Faith in the divinity of Christ is expressed in texts written long before the council, among them the prologue of St John’s Gospel and the letters of St Paul the Apostle, and the Arian party appealed to the very same books. A canon shaped to remove the opponents’ texts would not have kept John 14:28, one of their favourite verses.',
+          'The writings left outside the canon, such as the Gospel of Thomas, are not Arian documents. They belong to other currents, and why the Church did not receive them is treated in the article on noncanonical gospels.',
         ],
         ar: [
-          'إن الإيمان بأن المسيح إله معبَّر عنه في نصوص سابقة للمجمع، منها مطلع يوحنا ورسائل القديس بولس، وقد احتج الحزب الآريوسي بالأسفار نفسها. وقانون يُشكَّل لإزالة نصوص الخصوم ما كان ليُبقي يوحنا ١٤: ٢٨ الذي كان من آياتهم المفضلة.',
-          'ويشير المؤرخون أيضًا إلى أن الكتابات الخارجة عن القانون، مثل إنجيل توما، ليست وثائق آريوسية. إنها من تيارات أخرى، وسؤال لماذا لم تُقبل تعالجه مقالة الأناجيل غير القانونية.',
+          'الإيمان بلاهوت المسيح معبَّر عنه في نصوص كُتبت قبل المجمع بزمن طويل، منها مطلع إنجيل يوحنا ورسائل القديس بولس الرسول، وقد احتج الحزب الآريوسي بالأسفار نفسها. وقانون يُشكَّل لإزالة نصوص الخصوم ما كان ليُبقي يوحنا ١٤: ٢٨ الذي كان من آياتهم المفضلة.',
+          'والكتابات الخارجة عن القانون، مثل إنجيل توما، ليست وثائق آريوسية. إنها من تيارات أخرى، وسبب عدم قبول الكنيسة لها تعالجه مقالة الأناجيل غير القانونية.',
         ],
       },
       limits: {
@@ -173,12 +173,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The records are indeed incomplete: we have no full minutes, and the accounts come from participants and later writers. What we can say is that none of the accounts we have, including those of Athanasius, mentions a decision on the canon, and that the later history of the lists, with councils and letters in the fourth century setting out their own lists, is hard to explain if the matter had already been settled at Nicaea.',
-          'The claim that it was can only be held on the basis of a source that has not been produced.',
+          'We have no full minutes, but we have many accounts from participants and later writers, St Athanasius among them. None of them mentions a decision on the canon. And the later history makes the point clear: through the fourth century bishops and regional councils were still setting out their own lists, which would make no sense if Nicaea had already fixed one.',
+          'The claim rests on no ancient source at all. The evidence we do have tells one consistent story.',
         ],
         ar: [
-          'السجلات ناقصة فعلًا: فليس لدينا محاضر كاملة، والروايات من مشاركين وكتّاب لاحقين. وما نستطيع قوله إن أيًّا من الروايات التي لدينا، ومنها روايات أثناسيوس، لا يذكر قرارًا بشأن القانون، وإن التاريخ اللاحق للقوائم، بمجامع ورسائل في القرن الرابع تعرض قوائمها، يصعب تفسيره لو كان الأمر قد حُسم في نيقية.',
-          'ولا يمكن التمسك بالزعم إلا على أساس مصدر لم يُقدَّم.',
+          'ليس لدينا محاضر كاملة، لكن لدينا روايات كثيرة من مشاركين وكتّاب لاحقين، ومنهم القديس أثناسيوس. ولا تذكر أي منها قرارًا بشأن القانون. والتاريخ اللاحق يوضح الأمر: ففي القرن الرابع كان الأساقفة والمجامع الإقليمية ما زالوا يعرضون قوائمهم، وهذا لا معنى له لو كان نيقية قد حدد قائمة.',
+          'والزعم لا يستند إلى أي مصدر قديم. والأدلة التي لدينا تروي قصة واحدة متسقة.',
         ],
       },
       limits: {
@@ -192,22 +192,22 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'Historically, a Christian can say that Nicaea dealt with the divinity of the Son, the date of Easter and church order; that the Gospels and the letters were in use in worship long before; and that the lists of the fourth century were made by individual bishops and regional councils over the following decades.',
-        'It is right to add that the fourth century was a period when the edges of the canon were still being discussed in some regions, and that the records of the council are not complete.',
+        'Nicaea dealt with the divinity of the Son, the date of Easter and church order. The Gospels and the apostolic letters had been read in worship long before. The lists of the fourth century were set out by individual bishops and regional councils in the decades that followed.',
+        'St Athanasius’ Festal Letter of 367 gave the New Testament as the Church still receives it, and it did so not by inventing a list but by naming the books the churches had received from the apostles.',
       ],
       ar: [
-        'يستطيع المسيحي تاريخيًا أن يقول إن نيقية تناول لاهوت الابن وموعد الفصح والنظام الكنسي، وإن الأناجيل والرسائل كانت مستعملة في العبادة من قبل بزمن طويل، وإن قوائم القرن الرابع وضعها أساقفة أفراد ومجامع إقليمية في العقود التالية.',
-        'ومن الإنصاف أن يضيف أن القرن الرابع كان زمنًا ما زالت فيه أطراف القانون موضع نقاش في بعض الأقاليم، وأن سجلات المجمع ليست كاملة.',
+        'تناول نيقية لاهوت الابن وموعد الفصح والنظام الكنسي. وكانت الأناجيل والرسائل الرسولية تُقرأ في العبادة من قبل بزمن طويل. ووضع قوائم القرن الرابع أساقفة أفراد ومجامع إقليمية في العقود التالية.',
+        'وقد أعطت رسالة القديس أثناسيوس الفصحية لسنة ٣٦٧ العهد الجديد كما تتسلمه الكنيسة اليوم، ولم تفعل ذلك باختراع قائمة، بل بتسمية الأسفار التي تسلّمتها الكنائس من الرسل.',
       ],
     },
     theological: {
       en: [
         'The Church confesses that the faith defined at Nicaea is the faith of the apostles, held from the beginning and defended against Arius. The Scriptures were not the product of the council; they were the standard by which the council judged the question put to it.',
-        'On this view, the council and the canon are two moments of one life in which the Church holds the received faith, and the Spirit’s guidance is claimed for each of them in its own way.',
+        'The council and the canon are two moments of one life in which the Church holds the faith she received, guided in each by the Holy Spirit.',
       ],
       ar: [
         'تعترف الكنيسة بأن الإيمان الذي حُدِّد في نيقية هو إيمان الرسل المحفوظ منذ البدء والمدافَع عنه ضد آريوس. ولم تكن الكتب المقدسة نتاج المجمع؛ بل كانت المعيار الذي حكم به المجمع في المسألة المعروضة عليه.',
-        'وبحسب هذا الفهم فإن المجمع والقانون لحظتان من حياة واحدة تحفظ فيها الكنيسة الإيمان المسلَّم، ويُدّعى إرشاد الروح لكل منهما على طريقته.',
+        'فالمجمع والقانون لحظتان من حياة واحدة تحفظ فيها الكنيسة الإيمان الذي تسلّمته، والروح القدس يرشدها في كل منهما.',
       ],
     },
   },
@@ -234,8 +234,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'The Council of Nicaea defined the faith about the Son against Arius, and it did not decide which books are in the Bible. The Scriptures were already in use as the common authority on which the council argued, and the earliest well-known list of the New Testament was given by Athanasius four decades later.',
-    ar: 'حدد مجمع نيقية الإيمان بالابن في مواجهة آريوس، ولم يقرر أي الأسفار في الكتاب المقدس. كانت الكتب المقدسة مستعملة أصلًا مرجعًا مشتركًا احتج به المجمع، وأعطى أثناسيوس أول قائمة معروفة للعهد الجديد بعد أربعة عقود.',
+    en: 'The Council of Nicaea did not choose the books of the Bible. It confessed, against Arius, that the Son is true God of one essence with the Father, and it did so from the Scriptures the Church already read. The New Testament list was later set out by St Athanasius of Alexandria, naming the books received from the apostles. The Coptic Church prays the Nicene Creed in every liturgy and reads the same Scriptures that the Fathers of Nicaea held in their hands.',
+    ar: 'لم يختر مجمع نيقية أسفار الكتاب المقدس، بل اعترف، في مواجهة آريوس، بأن الابن إله حق مساوٍ للآب في الجوهر، وفعل ذلك من الكتب المقدسة التي كانت الكنيسة تقرؤها أصلًا. ثم عرض القديس أثناسيوس الإسكندري قائمة العهد الجديد، مسمّيًا الأسفار المتسلَّمة من الرسل. والكنيسة القبطية تصلّي قانون الإيمان النيقاوي في كل قداس، وتقرأ الكتب المقدسة نفسها التي حملها آباء نيقية في أيديهم.',
   },
   furtherReading: ['S20', 'S29', 'S30'],
   related: ['who-chose-the-books', 'what-happened-at-nicaea', 'why-these-books', 'noncanonical-gospels', 'early-christology-development'],

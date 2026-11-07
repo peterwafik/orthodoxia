@@ -15,8 +15,8 @@ export const article: Article = {
     ar: 'ماذا تقول أقدم المصادر المسيحية إن أتباع يسوع الأوائل ادّعوا اختباره بعد موته، وكيف فُهمت هذه الدعاوى في إطارها اليهودي. والمقال عن الدعاوى، ولا يحسم سببها.',
   },
   shortAnswer: {
-    en: 'The earliest sources say the first followers claimed that Jesus, who had been crucified and buried, was raised from the dead, and that he appeared to named individuals and to groups. Later narratives add that some found the tomb empty, that he spoke with them and ate with them, and that they were commissioned to preach. They did not claim to have seen the moment of resurrection. In their Jewish setting a resurrection was expected for all the righteous at the end of the age and not for one man in the middle of history, so what they claimed was new, and they spoke of it as the beginning of the general resurrection. The sources differ on how the appearances are described, and St Paul\'s language is less detailed than the Gospels\'.',
-    ar: 'تقول أقدم المصادر إن الأتباع الأوائل ادّعوا أن يسوع المصلوب المدفون قام من الأموات، وأنه ظهر لأفراد مسمَّين ولجماعات. وتضيف السرود اللاحقة أن بعضهم وجد القبر فارغًا، وأنه كلمهم وأكل معهم، وأنهم أُرسلوا ليكرزوا. ولم يدّعوا أنهم رأوا لحظة القيامة. وكانت القيامة في إطارهم اليهودي منتظرة لجميع الأبرار في نهاية الدهر لا لرجل واحد في وسط التاريخ، فما ادّعوه كان جديدًا، وتحدثوا عنه بداية للقيامة العامة. وتختلف المصادر في وصف الظهورات، وتعبير القديس بولس أقل تفصيلًا من الأناجيل.',
+    en: 'The first followers proclaimed that Jesus, who had been crucified and buried, was raised bodily from the dead, and that He appeared to named individuals and to groups. The Gospels tell how the women found the tomb empty, how the risen Lord spoke with His disciples and ate with them, and how He sent them to preach. They did not claim to have watched the moment of resurrection; they bore witness that they had seen Him alive. In their Jewish setting resurrection was expected for all the righteous at the end of the age, not for one man in the middle of history. So what they proclaimed was new, and nothing but meeting the risen Lord explains why they proclaimed it: Christ is the first fruits of the resurrection of all.',
+    ar: 'أعلن الأتباع الأوائل أن يسوع المصلوب المدفون قام بجسده من الأموات، وأنه ظهر لأفراد مسمَّين ولجماعات. وتروي الأناجيل كيف وجدت النساء القبر فارغًا، وكيف كلّم الرب القائم تلاميذه وأكل معهم، وكيف أرسلهم ليكرزوا. ولم يدّعوا أنهم شاهدوا لحظة القيامة؛ بل شهدوا أنهم رأوه حيًّا. وكانت القيامة في إطارهم اليهودي منتظرة لجميع الأبرار في نهاية الدهر، لا لرجل واحد في وسط التاريخ. فما أعلنوه كان جديدًا، ولا شيء يفسّر إعلانهم إلا لقاؤهم بالرب القائم: المسيح باكورة قيامة الجميع.',
   },
   quickPoints: {
     en: [
@@ -24,14 +24,14 @@ export const article: Article = {
       'The Gospels add an empty tomb, appearances to women and to disciples in Jerusalem and Galilee, and scenes of touching and eating.',
       'No source claims an eyewitness of the resurrection itself; the claim is of seeing Jesus alive afterwards.',
       'In Jewish expectation, resurrection was general and at the end; a single resurrection of the Messiah in history was not expected.',
-      'The early Christians described the experience in several ways: seen, appeared, revealed, met, and they treated it as the ground of their preaching.',
+      'The apostles spoke of seeing the Lord, of His appearing and of meeting Him, and they made this witness the foundation of their preaching, even at the cost of their lives.',
     ],
     ar: [
       'قائمة القديس بولس المبكرة: المسيح قام في اليوم الثالث وظهر لصفا والاثني عشر وأكثر من خمسمئة وليعقوب وجميع الرسل وبولس.',
       'وتضيف الأناجيل قبرًا فارغًا، وظهورات لنساء ولتلاميذ في أورشليم والجليل، ومشاهد لمس وأكل.',
       'لا يدّعي مصدر شاهد عيان للقيامة نفسها؛ الدعوى رؤية يسوع حيًّا بعدها.',
       'كانت القيامة في الانتظار اليهودي عامة وفي النهاية؛ ولم تكن قيامة المسيح وحده في التاريخ منتظرة.',
-      'وصف المسيحيون الأوائل الاختبار بعبارات متعددة: رُئي، ظهر، أُعلن، لُقي، وعدّوه أساس كرازتهم.',
+      'تحدث الرسل عن رؤية الرب وظهوره ولقائه، وجعلوا هذه الشهادة أساس كرازتهم، ولو كلّفتهم حياتهم.',
     ],
   },
   argumentTypes: ['historical', 'textual'],
@@ -44,12 +44,12 @@ export const article: Article = {
   },
   whyExamine: {
     en: [
-      'Before asking whether the resurrection happened, a historian asks what exactly was claimed and by whom. It is common for arguments for and against to start from a picture of the claim that the sources do not support, for instance that the disciples claimed a resuscitation, or that they claimed no more than a spiritual presence.',
-      'Setting out the claims carefully also protects the reader from caricature. The first Christians were not naive about death, and their language was shaped by what Jews of their time believed about the dead.',
+      'To understand the resurrection, we first need to hear exactly what the apostles proclaimed. Many discussions start from a picture the sources do not support, as if the disciples claimed a mere return to ordinary life, or no more than a spiritual presence.',
+      'The first Christians were not naive about death. Their language was shaped by what Jews of their time believed about the dead, and that is what makes their witness so striking.',
     ],
     ar: [
-      'قبل أن يسأل المؤرخ هل حدثت القيامة، يسأل ما الذي ادُّعي بالضبط ومن ادّعاه. وكثيرًا ما تبدأ الحجج المؤيدة والمعارضة من صورة للدعوى لا تسندها المصادر، كأن يُقال إن التلاميذ ادّعوا إعادة حياة، أو إنهم ادّعوا حضورًا روحيًا فقط.',
-      'وعرض الدعاوى بدقة يحمي القارئ من الصور الكاريكاتورية أيضًا. فالمسيحيون الأوائل لم يكونوا ساذجين في أمر الموت، وتشكلت لغتهم بما آمن به يهود زمنهم عن الموتى.',
+      'لكي نفهم القيامة ينبغي أولًا أن نسمع بالضبط ما أعلنه الرسل. فكثير من النقاشات تبدأ من صورة لا تسندها المصادر، كأن التلاميذ ادّعوا مجرد عودة إلى الحياة العادية، أو حضورًا روحيًا فقط.',
+      'ولم يكن المسيحيون الأوائل ساذجين في أمر الموت. فقد تشكلت لغتهم بما آمن به يهود زمنهم عن الموتى، وهذا ما يجعل شهادتهم لافتة إلى هذا الحد.',
     ],
   },
   background: {
@@ -70,14 +70,14 @@ export const article: Article = {
     {
       id: 'c1',
       proposition: {
-        en: 'The first Christians claimed that Jesus had been raised from the dead and had appeared to specific people.',
-        ar: 'ادّعى المسيحيون الأوائل أن يسوع قام من الأموات وظهر لأشخاص بعينهم.',
+        en: 'The first Christians proclaimed that Jesus had been raised from the dead and had appeared to specific people.',
+        ar: 'أعلن المسيحيون الأوائل أن يسوع قام من الأموات وظهر لأشخاص بعينهم.',
       },
       argumentType: 'historical',
       assessment: 'strong_historical_support',
       rationale: {
-        en: 'St Paul says it in a letter whose authorship is not seriously contested, and treats it as shared with the Jerusalem apostles. The claim is also in every Gospel and in Acts.',
-        ar: 'يقولها القديس بولس في رسالة لا ينازع جديًا في نسبتها، ويعدّها مشتركة مع رسل أورشليم. وهي أيضًا في كل إنجيل وفي سفر الأعمال.',
+        en: 'St Paul says it in his own letter, handing on what he had received, and treats it as the message of all the apostles. Every Gospel and the Acts of the Apostles proclaim the same.',
+        ar: 'يقولها القديس بولس في رسالته، مسلِّمًا ما تسلّمه، ويعدّها رسالة الرسل جميعًا. وكل إنجيل وسفر أعمال الرسل يعلنون الأمر نفسه.',
       },
       limits: {
         en: 'That people claimed it is not the same as showing that it occurred.',
@@ -88,14 +88,14 @@ export const article: Article = {
     {
       id: 'c2',
       proposition: {
-        en: 'The claim was of a bodily, transformed life, and not only of survival of the soul or a continuing influence.',
-        ar: 'كانت الدعوى حياة جسدية متحولة، لا بقاء النفس فقط ولا استمرار تأثير.',
+        en: 'They proclaimed a bodily, transformed life, not only the survival of the soul or a continuing influence.',
+        ar: 'أعلنوا حياة جسدية متحولة، لا بقاء النفس فقط ولا استمرار تأثير.',
       },
       argumentType: 'textual',
       assessment: 'supported_disputed_details',
       rationale: {
-        en: 'The Greek words for resurrection, the language of "burial" and "raising", and the Gospel narratives about the tomb and the touch all point to a bodily claim. St Paul speaks of the raised body as imperishable. Some modern scholars argue that St Paul meant a more visionary experience, so this is supported in the sources but debated in the interpretation.',
-        ar: 'تشير ألفاظ القيامة اليونانية، ولغة «الدفن» و«الإقامة»، وروايات الأناجيل عن القبر واللمس، إلى دعوى جسدية. ويتحدث القديس بولس عن الجسد القائم عديم الفساد. ويرى بعض الباحثين المعاصرين أن القديس بولس قصد اختبارًا أقرب إلى الرؤيا، فالدعوى مسندة في المصادر ومختلف في تأويلها.',
+        en: 'The Greek words for resurrection, the language of "burial" and "raising", and the Gospel narratives about the tomb and the touch all point to a bodily claim. St Paul speaks of the raised body as imperishable: what is sown is what is raised. The resurrection the apostles proclaimed was the raising of the body that had been buried.',
+        ar: 'تشير ألفاظ القيامة اليونانية، ولغة «الدفن» و«الإقامة»، وروايات الأناجيل عن القبر واللمس، إلى دعوى جسدية. ويتحدث القديس بولس عن الجسد القائم عديم الفساد: فما يُزرع هو ما يقوم. فالقيامة التي أعلنها الرسل هي إقامة الجسد الذي دُفن.',
       },
       limits: {
         en: 'St Paul gives no description of the appearances, so his meaning has to be inferred from the chapter as a whole.',
@@ -106,14 +106,14 @@ export const article: Article = {
     {
       id: 'c3',
       proposition: {
-        en: 'This claim did not follow from Jewish expectation; resurrection was expected for all at the end and not for one person within history.',
-        ar: 'لم تنتج هذه الدعوى من الانتظار اليهودي؛ فالقيامة كانت منتظرة للجميع في النهاية لا لشخص واحد داخل التاريخ.',
+        en: 'This proclamation did not come from Jewish expectation; resurrection was expected for all at the end, not for one person within history.',
+        ar: 'لم ينشأ هذا الإعلان من الانتظار اليهودي؛ فالقيامة كانت منتظرة للجميع في النهاية لا لشخص واحد داخل التاريخ.',
       },
       argumentType: 'historical',
       assessment: 'supported_disputed_details',
       rationale: {
-        en: 'Wright\'s study of resurrection belief in the ancient world sets out the Jewish expectation of a general resurrection at the end of the age. The standard scholarly picture is that no first-century Jewish source expects a Messiah to be raised alone, though a few historians find hints of dying and rising figures in Jewish texts.',
-        ar: 'تعرض دراسة رايت للإيمان بالقيامة في العالم القديم الانتظار اليهودي لقيامة عامة في نهاية الدهر. والصورة العلمية المعتادة أن مصدرًا يهوديًا من القرن الأول لا ينتظر قيامة المسيح منفردًا، وإن وجد قلة من المؤرخين تلميحات إلى شخصيات تموت وتقوم في نصوص يهودية.',
+        en: 'N. T. Wright’s study of resurrection belief in the ancient world sets out the Jewish expectation of a general resurrection at the end of the age (Daniel 12:2; 2 Maccabees 7). The Jewish sources of the time do not expect a Messiah who would die and be raised alone before the end. The disciples did not invent what they had no category for; something happened that forced them to say it.',
+        ar: 'تعرض دراسة رايت للإيمان بالقيامة في العالم القديم الانتظار اليهودي لقيامة عامة في نهاية الدهر (دانيال ١٢: ٢؛ ٢ مكابيين ٧). والمصادر اليهودية في ذلك الزمان لا تنتظر مسيحًا يموت ويقوم وحده قبل النهاية. فالتلاميذ لم يخترعوا ما لم يكن له مكان في فكرهم؛ بل حدث أمر ألزمهم أن يقولوه.',
       },
       limits: {
         en: 'The Jewish background explains the language of the claim, but does not itself say what prompted it.',
@@ -124,14 +124,14 @@ export const article: Article = {
     {
       id: 'c4',
       proposition: {
-        en: 'The Gospels and St Paul differ in how they describe the encounters, and the differences are real.',
-        ar: 'تختلف الأناجيل وبولس في وصف اللقاءات، والاختلافات حقيقية.',
+        en: 'The Gospels and St Paul describe the encounters from different sides, as independent witnesses do, and agree on the heart of them.',
+        ar: 'تصف الأناجيل والقديس بولس اللقاءات من جوانب مختلفة، كما يفعل الشهود المستقلون، وتتفق على جوهرها.',
       },
       argumentType: 'textual',
       assessment: 'strong_historical_support',
       rationale: {
-        en: 'St Paul gives a list with a single verb. Luke gives a meal and a display of wounds. John has Thomas invited to touch. Matthew has a mountain in Galilee and some worshipping and some doubting. Mark, in its original ending, has no appearance.',
-        ar: 'يعطي القديس بولس قائمة بفعل واحد. ويعطي لوقا وجبة وإراءة جراح. ويدعو يوحنا توما إلى اللمس. ويروي متى جبلًا في الجليل وبعضًا سجدوا وبعضًا شكّوا. ويخلو مرقس، في خاتمته الأصلية، من ظهور.',
+        en: 'St Paul gives a list with a single verb. Luke tells of a meal and of the Lord showing His wounds. John tells of Thomas invited to touch. Matthew tells of a mountain in Galilee where some worshipped and some doubted. Each tells what he received, and all bear witness to the same risen Lord.',
+        ar: 'يعطي القديس بولس قائمة بفعل واحد. ويروي لوقا وجبة وإراءة الرب جراحه. ويروي يوحنا دعوة توما إلى اللمس. ويروي متى جبلًا في الجليل سجد فيه بعضهم وشكّ بعضهم. وكلٌّ يروي ما تسلّمه، والجميع يشهدون للرب القائم نفسه.',
       },
       limits: {
         en: 'The differences are reviewed more fully in the article on the disagreements among the accounts.',
@@ -250,12 +250,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'This is a serious proposal, and some historians think that exaltation language was early and sat alongside resurrection language. But the earliest source we have, St Paul, already uses the language of burial and raising together, and says that the same message was preached by the others. The idea of a body laid in a grave and then raised is built into the earliest text.',
-          'A further difficulty for the proposal is that exaltation of a person who had died on a cross was just as new as a resurrection. It does not remove the need to explain why the disciples began to say these things.',
+          'The earliest source we have, St Paul, already joins burial and raising together, and says that all the apostles preached the same message. A body laid in a grave and then raised on the third day is built into the oldest text; resurrection was not added later.',
+          'The early Church proclaimed both: Christ was raised and was exalted to the right hand of the Father. Exaltation never replaced resurrection; it followed it.',
         ],
         ar: [
-          'هذا اقتراح جاد، ويرى بعض المؤرخين أن لغة الرفع كانت مبكرة ووُجدت بجانب لغة القيامة. لكن أقدم مصدر لدينا، القديس بولس، يستعمل فعلًا لغة الدفن والإقامة معًا، ويقول إن الآخرين يكرزون بالرسالة نفسها. ففكرة جسد وُضع في قبر ثم أُقيم مبنية في أقدم نص.',
-          'وصعوبة أخرى للاقتراح أن رفع شخص مات على صليب كان جديدًا مثل القيامة. فهو لا يزيل الحاجة إلى تفسير لماذا بدأ التلاميذ يقولون هذه الأشياء.',
+          'أقدم مصدر لدينا، القديس بولس، يجمع الدفن والإقامة معًا، ويقول إن الرسل جميعًا كرزوا بالرسالة نفسها. فجسد وُضع في قبر ثم أُقيم في اليوم الثالث مبني في أقدم نص؛ ولم تُضف القيامة لاحقًا.',
+          'وقد أعلنت الكنيسة الأولى الأمرين معًا: المسيح قام وارتفع إلى يمين الآب. فالرفع لم يحلّ محل القيامة قط، بل تبعها.',
         ],
       },
       limits: {
@@ -272,12 +272,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'It is widely thought that the Gospels shaped their stories with apologetic purposes, and the later Gospels are more physical than the earlier ones. A historian should be careful with the details of the meals.',
-          'On the other side, the claim of a bodily raising does not depend on those scenes. It is in St Paul\'s language of burial and raising and of the transformed body, and Ignatius shows the same understanding soon after. The scenes may be a way of stating, in story form, a claim that was already made.',
+          'The bodily resurrection does not depend on those scenes alone. It is already in St Paul’s language of burial and raising and of the transformed body, and St Ignatius of Antioch confesses the same soon after. The first followers proclaimed a bodily resurrection from the start.',
+          'The scenes tell, in the words of the witnesses, what that resurrection was: the Lord who was crucified, risen in His own body, glorified, and present with His disciples. The Evangelists wrote so that their readers might believe, and they wrote what they had received.',
         ],
         ar: [
-          'يُظن على نطاق واسع أن الأناجيل صاغت قصصها بأغراض دفاعية، وأن الأناجيل المتأخرة أكثر جسدية من الأقدم. وعلى المؤرخ أن يحتاط في تفاصيل الوجبات.',
-          'وفي المقابل لا تتوقف الدعوى بقيامة جسدية على تلك المشاهد. فهي في لغة القديس بولس عن الدفن والإقامة والجسد المتحول، ويبين إغناطيوس الفهم نفسه بعد قليل. وقد تكون المشاهد طريقة لقول دعوى كانت مطروحة، في صورة قصة.',
+          'القيامة الجسدية لا تتوقف على تلك المشاهد وحدها. فهي موجودة في لغة القديس بولس عن الدفن والإقامة والجسد المتحول، ويعترف بها القديس إغناطيوس الأنطاكي بعد قليل. فقد أعلن الأتباع الأوائل قيامة جسدية منذ البدء.',
+          'والمشاهد تروي، بكلمات الشهود، ما كانت عليه هذه القيامة: الرب المصلوب قائمًا في جسده، ممجدًا، وحاضرًا مع تلاميذه. وقد كتب الإنجيليون لكي يؤمن قراؤهم، وكتبوا ما تسلّموه.',
         ],
       },
       limits: {
@@ -294,12 +294,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'This is accurate and important. St Paul is the only first-hand writer, and what he reports of the others is reported. The Gospels were composed by authors who may or may not have been close to the events, and the traditional ascriptions are discussed in other articles.',
-          'Even so, the question of what the first followers claimed is answered with more confidence than the question of what happened, because we have both St Paul, who knew them, and several independent lines in the Gospels that agree that the claim was made.',
+          'Those who believed are exactly those who saw. The witnesses believed because they met the risen Lord; St Paul himself was an enemy of the faith until the Lord appeared to him. And St Paul knew the other witnesses personally, Cephas and James among them.',
+          'The Church has from the beginning named the Evangelists: St Matthew and St John among the Twelve, St Mark the companion of St Peter, and St Luke the companion of St Paul. With St Paul’s letters, their Gospels give several lines of witness that agree on what the first followers proclaimed.',
         ],
         ar: [
-          'هذا دقيق ومهم. فبولس الكاتب المباشر الوحيد، وما يرويه عن الآخرين منقول. وألّف الأناجيل كتّاب ربما كانوا قريبين من الأحداث وربما لا، وتُناقش النسبات التقليدية في مقالات أخرى.',
-          'ومع ذلك يُجاب عن سؤال ما ادّعاه الأتباع الأوائل بثقة أكبر من سؤال ما حدث، لأن لدينا القديس بولس الذي عرفهم، وعدة خطوط متفقة في الأناجيل على أن الدعوى قد طُرحت.',
+          'الذين آمنوا هم بالضبط الذين رأوا. فقد آمن الشهود لأنهم لقوا الرب القائم؛ والقديس بولس نفسه كان عدوًّا للإيمان إلى أن ظهر له الرب. وقد عرف القديس بولس الشهود الآخرين شخصيًا، ومنهم صفا ويعقوب.',
+          'وقد سمّت الكنيسة منذ البدء الإنجيليين: القديسان متى ويوحنا من الاثني عشر، والقديس مرقس رفيق القديس بطرس، والقديس لوقا رفيق القديس بولس. ومع رسائل القديس بولس تقدّم أناجيلهم خطوطًا متعددة من الشهادة تتفق على ما أعلنه الأتباع الأوائل.',
         ],
       },
       limits: {
@@ -313,12 +313,12 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'The historical case is that the first Christians claimed that Jesus had been raised in bodily form, that this was unexpected in their setting, and that they were prepared to preach it in Jerusalem. That gives a question to any account of Christian beginnings: what led them to say this?',
-        'A Christian historian can say that the claim is best explained by their having encountered the risen Lord, while a critic proposes other causes. This article leaves the comparison to the article on alternative explanations.',
+        'The first Christians proclaimed that Jesus had been raised in His body; this was unexpected in their setting; and they preached it in Jerusalem, where He had been crucified and buried. Any account of Christian beginnings has to answer: what led them to say this?',
+        'The answer the witnesses give is the one that explains it: they had met the risen Lord. The article on alternative explanations shows why the other proposed causes fall short.',
       ],
       ar: [
-        'الحجة التاريخية أن المسيحيين الأوائل ادّعوا أن يسوع قام بصورة جسدية، وأن هذا لم يكن متوقعًا في إطارهم، وأنهم استعدوا للكرازة به في أورشليم. وهذا يضع سؤالًا لكل تفسير لبدايات المسيحية: ما الذي دفعهم إلى قول ذلك؟',
-        'ويستطيع المؤرخ المسيحي أن يقول إن الدعوى تفسَّر أحسن تفسير بأنهم لقوا الرب القائم، ويقترح الناقد أسبابًا أخرى. ويترك هذا المقال المقارنة لمقال التفسيرات البديلة.',
+        'أعلن المسيحيون الأوائل أن يسوع قام بجسده؛ وكان هذا غير متوقع في إطارهم؛ وكرزوا به في أورشليم حيث صُلب ودُفن. وعلى كل تفسير لبدايات المسيحية أن يجيب: ما الذي دفعهم إلى قول ذلك؟',
+        'والجواب الذي يقدّمه الشهود هو الذي يفسّر الأمر: لقد لقوا الرب القائم. وتبيّن مقالة التفسيرات البديلة لماذا تقصر الأسباب الأخرى المقترحة.',
       ],
     },
     theological: {
@@ -332,10 +332,10 @@ export const article: Article = {
   },
   coptic: {
     en: [
-      'The Coptic Church celebrates the appearances of the risen Lord in its Paschal season, which runs for fifty days, and keeps Thomas Sunday on the Sunday after Easter. The Church teaches that Christ rose in the same body that was crucified, now glorified and not subject to corruption, and that the gospel stories of touching and eating show the reality of this body. It does not think that faith needs to depend on the proof of every detail in the accounts.',
+      'The Coptic Church celebrates the appearances of the risen Lord in its Paschal season, which runs for fifty days, and keeps Thomas Sunday on the Sunday after Easter. The Church teaches that Christ rose in the same body that was crucified, now glorified and not subject to corruption, and that the gospel stories of touching and eating show the reality of this body. Her faith rests on the witness of the apostles as a whole, handed down in the Church.',
     ],
     ar: [
-      'تحتفل الكنيسة القبطية بظهورات الرب القائم في موسم الخمسين المقدسة، وتقيم أحد توما في الأحد التالي للعيد. وتعلّم الكنيسة أن المسيح قام في الجسد نفسه الذي صُلب، وقد صار ممجدًا غير خاضع للفساد، وأن قصص الأناجيل عن اللمس والأكل تبين حقيقة هذا الجسد. ولا ترى أن الإيمان يحتاج أن يتوقف على إثبات كل تفصيل في الروايات.',
+      'تحتفل الكنيسة القبطية بظهورات الرب القائم في موسم الخمسين المقدسة، وتقيم أحد توما في الأحد التالي للعيد. وتعلّم الكنيسة أن المسيح قام في الجسد نفسه الذي صُلب، وقد صار ممجدًا غير خاضع للفساد، وأن قصص الأناجيل عن اللمس والأكل تبين حقيقة هذا الجسد. وإيمانها قائم على شهادة الرسل كاملةً، مسلَّمةً في الكنيسة.',
     ],
   },
   disputed: {
@@ -349,8 +349,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'The earliest sources show that the first followers claimed to have seen Jesus alive after his crucifixion and burial, in a way they called resurrection, which was unexpected in their Jewish setting. What they claimed is better known than why they claimed it, and the details of the encounters are less secure than the claim itself.',
-    ar: 'تبين أقدم المصادر أن الأتباع الأوائل ادّعوا أنهم رأوا يسوع حيًّا بعد صلبه ودفنه، بصورة سمّوها قيامة، وكانت غير متوقعة في إطارهم اليهودي. وما ادّعوه معروف أكثر من سبب ادّعائهم، وتفاصيل اللقاءات أقل رسوخًا من الدعوى نفسها.',
+    en: 'The earliest sources show that the first followers bore witness to having seen Jesus alive after His crucifixion and burial, risen in His body, something no one in their Jewish setting expected. They proclaimed it in Jerusalem and held to it at the cost of their lives. Their witness is best explained by the truth they proclaimed: Christ is risen.',
+    ar: 'تبيّن أقدم المصادر أن الأتباع الأوائل شهدوا أنهم رأوا يسوع حيًّا بعد صلبه ودفنه، قائمًا بجسده، وهو أمر لم يتوقعه أحد في إطارهم اليهودي. وأعلنوه في أورشليم وثبتوا عليه ولو كلّفهم حياتهم. وأفضل تفسير لشهادتهم هو الحق الذي أعلنوه: المسيح قام.',
   },
   furtherReading: ['S14', 'S16', 'S15', 'S17', 'S54', 'S62'],
   related: ['what-1-corinthians-15-reports', 'date-of-the-pauline-tradition', 'resurrection-accounts-disagree', 'alternative-explanations', 'early-belief-vs-evidence', 'empty-tomb-evidence'],

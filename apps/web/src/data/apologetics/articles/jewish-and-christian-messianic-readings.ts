@@ -15,25 +15,25 @@ export const article: Article = {
     ar: 'تعرض هذه المقالة كيف فهم القراء اليهود والمسيحيون نصوص الكتب العبرية التي يسميها المسيحيون مسيانية: ماذا يتوقع التقليد اليهودي من المسيا، وكيف يقرأ أهم النصوص التي يستشهد بها المسيحيون، وكيف قرأها العهد الجديد والآباء، وأين تفترق القراءتان. وتذكر القراءات اليهودية بمصطلحاتها، وتذكر القراءة المسيحية كما تتمسك بها الكنيسة.',
   },
   shortAnswer: {
-    en: 'Jewish tradition, in its classical forms, expects a human descendant of David who will gather the exiles, restore Israel and the worship of God, and bring an age of peace and the knowledge of God to the world; it does not expect a divine Son of God who dies. Jewish commentators have read the passages Christians cite in other ways: the sign of Isaiah 7 as addressed to the king of that day, the servant of Isaiah 53 as Israel, with some rabbinic texts applying parts of it to the Messiah, and Daniel’s figure like a son of man as Israel or as the Messiah. The New Testament and the Fathers read the same texts in the light of Jesus: as pointing to a Messiah who suffers, who is also Son of David and Son of God, and who comes twice. Neither side can settle the matter by quotation alone. The disagreement concerns how the whole of Scripture is read, and who Jesus is, and it should be conducted with respect on both sides, since the Church holds the Hebrew Scriptures to be sacred, and honours the people through whom they were given.',
-    ar: 'يتوقع التقليد اليهودي، في صيغه الكلاسيكية، إنسانًا من نسل داود يجمع المنفيين ويرد إسرائيل وعبادة الله ويأتي بعصر سلام ومعرفة الله للعالم؛ ولا يتوقع ابنًا إلهيًا لله يموت. وقرأ المفسرون اليهود النصوص التي يستشهد بها المسيحيون بطرق أخرى: علامة إشعياء ٧ موجهة إلى ملك زمانها، وعبد إشعياء ٥٣ هو إسرائيل، مع نصوص حاخامية تطبق أجزاء منه على المسيا، وشبه ابن الإنسان في دانيال هو إسرائيل أو المسيا. وقرأ العهد الجديد والآباء النصوص نفسها في ضوء يسوع: مشيرة إلى مسيا يتألم، وهو أيضًا ابن داود وابن الله، ويأتي مرتين. ولا يستطيع أي طرف أن يحسم الأمر بالاقتباس وحده. فالخلاف يخص كيف يُقرأ الكتاب كله، ومن هو يسوع، وينبغي أن يُدار باحترام من الجانبين، لأن الكنيسة تعتبر الكتب العبرية مقدسة وتكرّم الشعب الذي أُعطيت به.',
+    en: 'Jesus is the Messiah promised in the Scriptures of Israel. Jewish tradition, in its classical forms, expects a human descendant of David who will gather the exiles, restore Israel and bring an age of peace and the knowledge of God; it does not expect a divine Son of God who dies. The apostles, themselves Jews, read the same prophets and saw more in them: a Messiah who is Son of David and also Son of God, who suffers for the sins of others and is then exalted, and who comes twice, first in humility and then in glory. The texts support this reading. Isaiah 53 describes one person who bears the sins of many, and some rabbinic texts also apply parts of it to the Messiah. The Greek translation of Isaiah, made by Jews before Christ, calls the mother of Immanuel a virgin. Daniel’s figure like a son of man receives an everlasting kingdom from God. The Church holds the Hebrew Scriptures as her own, and honours with love the people through whom they were given.',
+    ar: 'يسوع هو المسيا الموعود في كتب إسرائيل. ويتوقع التقليد اليهودي، في صيغه الكلاسيكية، إنسانًا من نسل داود يجمع المنفيين ويرد إسرائيل ويأتي بعصر سلام ومعرفة الله؛ ولا يتوقع ابنًا إلهيًا لله يموت. وقد قرأ الرسل، وهم يهود، الأنبياء أنفسهم ورأوا فيهم أكثر: مسيا هو ابن داود وابن الله أيضًا، يتألم عن خطايا الآخرين ثم يُرفع، ويأتي مرتين، أولًا في الاتضاع ثم في المجد. والنصوص تسند هذه القراءة. فإشعياء ٥٣ يصف شخصًا واحدًا يحمل خطايا كثيرين، وتطبق نصوص حاخامية أيضًا أجزاء منه على المسيا. والترجمة اليونانية لإشعياء، التي صنعها يهود قبل المسيح، تسمي أم عمانوئيل عذراء. وشبه ابن الإنسان في دانيال ينال من الله ملكوتًا أبديًا. والكنيسة تعتبر الكتب العبرية كتبها، وتكرّم بمحبة الشعب الذي أُعطيت به.',
   },
   quickPoints: {
     en: [
-      'Classical Jewish expectation is of a human, Davidic king who restores Israel and brings peace; Maimonides sets out such criteria, and he held that a claimant who is killed has not shown himself to be the Messiah.',
-      'Isaiah 7:14 uses a Hebrew word for a young woman; the ancient Greek translation used by the early Church renders it “virgin”; Jewish commentators relate the sign to the king of that day, and the Christian reading takes the Greek and the Gospel’s use of it.',
-      'Isaiah 52:13 to 53:12 is read in Jewish commentary mostly as Israel, though rabbinic texts also apply parts of it to the Messiah; the New Testament and the Fathers read it of Christ.',
-      'The Christian reading takes the Messiah to be a suffering servant, Son of David and Son of God, who comes twice; the Jewish objection is that the promised age of peace has not arrived.',
-      'Both readings are interpretations made after the texts were written; neither is fixed by the texts alone, and honest argument admits the strength of the other’s case.',
-      'The Church honours the Hebrew Scriptures as its own Scripture, and teaches that hatred of Jews has no place in Christian faith.',
+      'Classical Jewish expectation is of a human king of David’s line who restores Israel and brings peace; Maimonides set out criteria of this kind.',
+      'Isaiah 7:14 uses a Hebrew word for a young woman; the Greek translation made by Jews before Christ renders it “virgin”, and St Matthew sees it fulfilled in the birth of Jesus from the Virgin Mary.',
+      'Isaiah 52:13 to 53:12 describes a servant who suffers for the sins of others and is then exalted; the New Testament and the Fathers see Christ in it, and some rabbinic texts apply parts of it to the Messiah.',
+      'The Messiah of the Church is the suffering servant, Son of David and Son of God, who comes twice: the kingdom has begun and will be completed at His return.',
+      'The first Christians were Jews who found in Jesus the fulfilment of their own Scriptures.',
+      'The Church honours the Hebrew Scriptures as her own, and teaches that hatred of Jews has no place in Christian faith.',
     ],
     ar: [
-      'التوقع اليهودي الكلاسيكي ملك بشري من نسل داود يرد إسرائيل ويأتي بالسلام؛ ووضع موسى بن ميمون معايير لذلك، ورأى أن مدّعيًا يُقتل لم يُظهر نفسه المسيا.',
-      'تستعمل إشعياء ٧: ١٤ كلمة عبرية بمعنى فتاة؛ وترجمها اليوناني القديم الذي استعملته الكنيسة الأولى «عذراء»؛ ويربط المفسرون اليهود العلامة بملك زمانها، وتأخذ القراءة المسيحية اليونانية واستعمال الإنجيل لها.',
-      'تُقرأ إشعياء ٥٢: ١٣ إلى ٥٣: ١٢ في التفسير اليهودي في الغالب على أنها إسرائيل، وإن طبقت نصوص حاخامية أجزاء منها على المسيا؛ وقرأها العهد الجديد والآباء في المسيح.',
-      'تأخذ القراءة المسيحية المسيا عبدًا متألمًا، ابن داود وابن الله، يأتي مرتين؛ والاعتراض اليهودي أن عصر السلام الموعود لم يأتِ.',
-      'كلتا القراءتين تفسيران جاءا بعد كتابة النصوص؛ ولا تحسم النصوص وحدها أيًّا منهما، والجدال الأمين يعترف بقوة حجة الآخر.',
-      'تكرّم الكنيسة الكتب العبرية بوصفها كتابها، وتعلّم أن كراهية اليهود لا مكان لها في الإيمان المسيحي.',
+      'التوقع اليهودي الكلاسيكي ملك بشري من نسل داود يرد إسرائيل ويأتي بالسلام؛ ووضع موسى بن ميمون معايير من هذا النوع.',
+      'تستعمل إشعياء ٧: ١٤ كلمة عبرية بمعنى فتاة؛ وترجمها اليونانية التي صنعها يهود قبل المسيح «عذراء»، ويرى القديس متى تحققها في ميلاد يسوع من العذراء مريم.',
+      'تصف إشعياء ٥٢: ١٣ إلى ٥٣: ١٢ عبدًا يتألم عن خطايا الآخرين ثم يُرفع؛ ويرى العهد الجديد والآباء المسيح فيها، وتطبق نصوص حاخامية أجزاء منها على المسيا.',
+      'مسيا الكنيسة هو العبد المتألم، ابن داود وابن الله، الذي يأتي مرتين: الملكوت قد بدأ وسيكتمل عند مجيئه.',
+      'كان المسيحيون الأوائل يهودًا وجدوا في يسوع تمام كتبهم.',
+      'تكرّم الكنيسة الكتب العبرية بوصفها كتبها، وتعلّم أن كراهية اليهود لا مكان لها في الإيمان المسيحي.',
     ],
   },
   argumentTypes: ['textual', 'theological', 'historical'],
@@ -46,12 +46,12 @@ export const article: Article = {
   },
   whyExamine: {
     en: [
-      'The claim that Jesus fulfils the Old Testament is central to the New Testament and to the Church’s preaching, and it is at the heart of the oldest disagreement between Christians and Jews. The question is not a side issue. If the Christian reading is not a fair reading of the texts, the Gospel loses one of its supports.',
-      'It also matters that the discussion has often been conducted badly. Christians have used these texts as weapons, and a history of contempt lies behind this question. Anyone who writes on it should therefore state the Jewish reading as Jews hold it, and not as a foil.',
+      'The claim that Jesus fulfils the Old Testament is at the centre of the New Testament and of the Church’s preaching, and it is the oldest question between Christians and Jews. The risen Lord Himself opened the Scriptures to His disciples to show what was written about Him.',
+      'The question has often been handled badly. Christians have used these texts as weapons, and a history of contempt lies behind it. The truth must be spoken with love: the Jewish reading stated as Jews hold it, and the Christian answer given with respect.',
     ],
     ar: [
-      'الدعوى بأن يسوع يتمم العهد القديم مركزية في العهد الجديد وفي كرازة الكنيسة، وهي في قلب أقدم خلاف بين المسيحيين واليهود. والمسألة ليست هامشية. فإن لم تكن القراءة المسيحية قراءة عادلة للنصوص فقد الإنجيل إحدى دعائمه.',
-      'ومن المهم كذلك أن النقاش كثيرًا ما أُجري إجراءً سيئًا. فقد استعمل المسيحيون هذه النصوص أسلحة، وفي خلف هذا السؤال تاريخ ازدراء. ومن يكتب فيه ينبغي إذن أن يذكر القراءة اليهودية كما يتمسك بها اليهود، لا خلفية لجدله.',
+      'الدعوى بأن يسوع يتمم العهد القديم في قلب العهد الجديد وكرازة الكنيسة، وهي أقدم سؤال بين المسيحيين واليهود. والرب القائم نفسه فتح الكتب لتلاميذه ليبيّن ما كُتب عنه.',
+      'وكثيرًا ما عولج السؤال معالجة سيئة. فقد استعمل المسيحيون هذه النصوص أسلحة، وخلفه تاريخ ازدراء. والحق ينبغي أن يُقال بمحبة: أن تُعرض القراءة اليهودية كما يتمسك بها اليهود، ويُقدَّم الجواب المسيحي باحترام.',
     ],
   },
   background: {
@@ -72,14 +72,14 @@ export const article: Article = {
     {
       id: 'c1',
       proposition: {
-        en: 'In the first century Jewish expectation of an anointed deliverer took more than one form, and later rabbinic tradition set out a human, Davidic Messiah who restores Israel and brings peace.',
-        ar: 'اتخذ التوقع اليهودي لمخلّص ممسوح في القرن الأول أكثر من صورة، ورسم التقليد الحاخامي اللاحق مسيا بشريًا من نسل داود يرد إسرائيل ويأتي بالسلام.',
+        en: 'In the first century Jewish hope for an anointed deliverer took more than one form, and later rabbinic tradition set out a human, Davidic Messiah who restores Israel and brings peace.',
+        ar: 'اتخذ الرجاء اليهودي بمخلّص ممسوح في القرن الأول أكثر من صورة، ورسم التقليد الحاخامي اللاحق مسيا بشريًا من نسل داود يرد إسرائيل ويأتي بالسلام.',
       },
       argumentType: 'historical',
       assessment: 'supported_disputed_details',
       rationale: {
-        en: 'The Dead Sea Scrolls and other writings of the period show variety, and the later rabbinic and Maimonidean accounts show a developed Jewish expectation. How far each was current in the time of Jesus is debated among historians.',
-        ar: 'تُظهر مخطوطات البحر الميت وكتابات أخرى من العصر تنوعًا، وتُظهر العروض الحاخامية ثم الميمونية لاحقًا توقعًا يهوديًا متطورًا. وإلى أي مدى كان كل منها شائعًا في زمن يسوع موضع نقاش بين المؤرخين.',
+        en: 'The Dead Sea Scrolls and other writings of the period show a variety of hopes, and the later rabbinic and Maimonidean accounts show a developed expectation. Into this living hope Jesus came, and His followers proclaimed Him the Messiah within it.',
+        ar: 'تُظهر مخطوطات البحر الميت وكتابات أخرى من العصر تنوعًا في الرجاء، وتُظهر العروض الحاخامية ثم الميمونية لاحقًا توقعًا متطورًا. وفي هذا الرجاء الحي جاء يسوع، وأعلنه أتباعه المسيا في داخله.',
       },
       limits: {
         en: 'This article does not catalogue the sources in detail, and it does not say what any individual Jew of the first century expected.',
@@ -90,14 +90,14 @@ export const article: Article = {
     {
       id: 'c2',
       proposition: {
-        en: 'The passages Christians cite are open to more than one reading from the texts alone: Isaiah 7:14 has a historical setting in the days of King Ahaz, and Isaiah 53 does not name its servant.',
-        ar: 'النصوص التي يستشهد بها المسيحيون تحتمل أكثر من قراءة من النصوص وحدها: فلإشعياء ٧: ١٤ سياق تاريخي في أيام الملك آحاز، ولا يسمّي إشعياء ٥٣ عبده.',
+        en: 'The passages Christians cite carry a meaning beyond their first setting: Isaiah 7:14 is a sign first given to King Ahaz, and Isaiah 53 describes an individual servant who bears the sins of others.',
+        ar: 'تحمل النصوص التي يستشهد بها المسيحيون معنى يتجاوز سياقها الأول: فإشعياء ٧: ١٤ علامة أُعطيت أولًا للملك آحاز، وإشعياء ٥٣ يصف عبدًا فردًا يحمل خطايا الآخرين.',
       },
       argumentType: 'textual',
       assessment: 'actively_debated',
       rationale: {
-        en: 'In Isaiah 7 the sign is given to Ahaz in a crisis of his own time, and in Isaiah 40 to 55 the servant is elsewhere identified as Israel. These are the grounds of the Jewish readings. The Christian reading rests on the Greek rendering of 7:14, on the way Isaiah 53 describes an individual who bears the sins of others, and on the New Testament’s use of both.',
-        ar: 'في إشعياء ٧ تُعطى العلامة لآحاز في أزمة زمانه، وفي إشعياء ٤٠ إلى ٥٥ يُسمّى العبد في مواضع أخرى إسرائيل. وهذه أسس القراءات اليهودية. وتقوم القراءة المسيحية على الترجمة اليونانية لـ ٧: ١٤، وعلى كون إشعياء ٥٣ يصف فردًا يحمل خطايا الآخرين، وعلى استعمال العهد الجديد للنصين.',
+        en: 'In Isaiah 7 the sign is given to Ahaz in a crisis of his own day, and in Isaiah 40 to 55 the servant is at times called Israel. Yet in Isaiah 53 the servant suffers for the people, not with them, and is exalted after his death. The Greek translation, made by Jews before Christ, renders 7:14 with the word for virgin. The New Testament reads both passages as fulfilled in Jesus.',
+        ar: 'في إشعياء ٧ تُعطى العلامة لآحاز في أزمة زمانه، وفي إشعياء ٤٠ إلى ٥٥ يُسمّى العبد أحيانًا إسرائيل. لكن العبد في إشعياء ٥٣ يتألم عن الشعب لا معه، ويُرفع بعد موته. والترجمة اليونانية التي صنعها يهود قبل المسيح تترجم ٧: ١٤ بكلمة عذراء. ويقرأ العهد الجديد النصين متحققين في يسوع.',
       },
       limits: {
         en: 'Both sets of reasons are real. The texts do not settle between them without a prior view of who Jesus is.',
@@ -108,14 +108,14 @@ export const article: Article = {
     {
       id: 'c3',
       proposition: {
-        en: 'The New Testament writers and the Fathers read the Hebrew Scriptures as pointing to a Messiah who suffers, is Son of David and Son of God, and comes twice; this is the Church’s reading and it is a theological interpretation.',
-        ar: 'قرأ كتّاب العهد الجديد والآباء الكتب العبرية على أنها تشير إلى مسيا يتألم، وهو ابن داود وابن الله، ويأتي مرتين؛ وهذه قراءة الكنيسة وهي تفسير لاهوتي.',
+        en: 'The New Testament writers and the Fathers read the Hebrew Scriptures as pointing to a Messiah who suffers, is Son of David and Son of God, and comes twice; this is the Church’s reading.',
+        ar: 'قرأ كتّاب العهد الجديد والآباء الكتب العبرية على أنها تشير إلى مسيا يتألم، وهو ابن داود وابن الله، ويأتي مرتين؛ وهذه قراءة الكنيسة.',
       },
       argumentType: 'theological',
       assessment: 'theological_interpretation',
       rationale: {
-        en: 'Luke 24 and Acts 8 show the reading in the New Testament itself. In the Fathers, Athanasius and Origen of Alexandria address the objections of Jewish and pagan critics and read the prophets as pointing to Christ.',
-        ar: 'يُظهر لوقا ٢٤ وأعمال الرسل ٨ القراءة في العهد الجديد نفسه. وعند الآباء يعالج أثناسيوس وأوريجانوس السكندري اعتراضات النقاد اليهود والوثنيين ويقرآن الأنبياء مشيرين إلى المسيح.',
+        en: 'In Luke 24 the risen Lord explains from Moses and all the prophets that the Messiah must suffer and enter His glory, and in Acts 8 St Philip begins from Isaiah 53 to proclaim Jesus. Among the Fathers, St Athanasius and Origen of Alexandria answered Jewish and pagan critics by showing how the prophets point to Christ.',
+        ar: 'في لوقا ٢٤ يشرح الرب القائم من موسى وجميع الأنبياء أن المسيا كان ينبغي أن يتألم ويدخل مجده، وفي أعمال الرسل ٨ يبدأ القديس فيلبس من إشعياء ٥٣ ليبشّر بيسوع. ومن الآباء أجاب القديس أثناسيوس وأوريجانوس السكندري النقاد اليهود والوثنيين مبيّنين كيف يشير الأنبياء إلى المسيح.',
       },
       limits: {
         en: 'The Fathers’ arguments assume that Jesus is the Messiah, and they do not by themselves persuade a reader who does not. The cited works are not read in detail here.',
@@ -126,14 +126,14 @@ export const article: Article = {
     {
       id: 'c4',
       proposition: {
-        en: 'The principal Jewish objection, that the age of peace and the restoration promised by the prophets has not come, is a serious one, and the Christian reply rests on the claim that the Messiah comes twice and that the kingdom has begun but is not yet complete.',
-        ar: 'الاعتراض اليهودي الرئيسي، أن عصر السلام والترميم الذي وعد به الأنبياء لم يأتِ، اعتراض جاد، ويقوم الرد المسيحي على القول إن المسيا يأتي مرتين وإن الملكوت بدأ ولم يكتمل.',
+        en: 'The Jewish objection that the promised age of peace has not come is answered by the two comings of the Messiah: the kingdom has begun and will be completed at His return.',
+        ar: 'يُجاب عن الاعتراض اليهودي بأن عصر السلام الموعود لم يأتِ بمجيئي المسيا: فالملكوت قد بدأ وسيكتمل عند مجيئه ثانية.',
       },
       argumentType: 'theological',
       assessment: 'theological_interpretation',
       rationale: {
-        en: 'Isaiah 2 and Isaiah 11 describe peace among the nations and the knowledge of God filling the earth, which has not yet happened in any plain sense. Christians reply that the New Testament speaks of the coming of Christ in two stages, and that the covenant promised in Jeremiah 31 has been given in his death.',
-        ar: 'يصف إشعياء ٢ و١١ سلامًا بين الأمم ومعرفة الله تملأ الأرض، وهو ما لم يحدث بمعنى ظاهر. ويجيب المسيحيون بأن العهد الجديد يتكلم عن مجيء المسيح على مرحلتين، وأن العهد الذي وعد به إرميا ٣١ أُعطي في موته.',
+        en: 'Isaiah 2 and 11 describe peace among the nations and the knowledge of God filling the earth. The prophets also speak of a servant who suffers before he is exalted. The New Testament holds these together: the new covenant promised in Jeremiah 31 was given in Christ’s death, the knowledge of God has gone out to the nations, and the fullness of peace will come when He comes again.',
+        ar: 'يصف إشعياء ٢ و١١ سلامًا بين الأمم ومعرفة الله تملأ الأرض. ويتكلم الأنبياء أيضًا عن عبد يتألم قبل أن يُرفع. ويجمع العهد الجديد الأمرين: فالعهد الجديد الموعود في إرميا ٣١ أُعطي في موت المسيح، ومعرفة الله خرجت إلى الأمم، وملء السلام يأتي حين يأتي ثانية.',
       },
       limits: {
         en: 'The two-stage reading is made in the light of the New Testament and is not obvious from the prophets alone. A Jewish reader may well see it as an adjustment to disappointed expectation.',
@@ -301,12 +301,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The objection has real force, and many Christian scholars accept that these passages had a meaning in their own time. The Church’s reading is not that the prophets had only Jesus in mind in a way their hearers could see, but that the texts have a fuller sense which is seen in the light of fulfilment. The Fathers call this typology and spiritual reading, and the New Testament writers practised it, as Jewish teachers of their day also read Scripture in layers.',
-          'Whether the fuller sense is a legitimate reading or a later imposition is the point of the disagreement. The Church says it is legitimate because it believes that the same God spoke in the prophets and in the Son, and that Scripture is one story.',
+          'These passages had a meaning in their own time, and the Church gladly affirms it. But the Church reads them as also carrying a fuller sense, made clear when they are fulfilled. The Fathers call this typology and spiritual reading. The New Testament writers read Scripture this way, and Jewish teachers of their day also read Scripture on more than one level.',
+          'The Church holds this reading because the same God spoke in the prophets and in His Son, and Scripture tells one story. Isaiah 7 was a sign to Ahaz, and it was fulfilled in fullness when the Virgin bore Immanuel. Isaiah 53 speaks of the servant, and in Jesus the servant has a face and a name.',
         ],
         ar: [
-          'للاعتراض قوة حقيقية، ويقبل باحثون مسيحيون كثيرون أن لهذه الفقرات معنى في زمانها. وقراءة الكنيسة ليست أن الأنبياء كان في ذهنهم يسوع فقط بحيث يراه سامعوهم، بل أن للنصوص معنى أوفى يُرى في ضوء التحقق. ويسمي الآباء هذا الرمزية والقراءة الروحية، ومارسها كتّاب العهد الجديد، وكان معلمو اليهود في عصرهم يقرأون الكتاب طبقات أيضًا.',
-          'وهل المعنى الأوفى قراءة مشروعة أم فرض لاحق هو موضع الخلاف. وتقول الكنيسة إنه مشروع لأنها تؤمن بأن الله نفسه تكلم في الأنبياء وفي الابن، وأن الكتاب قصة واحدة.',
+          'كان لهذه الفقرات معنى في زمانها، والكنيسة تؤكده بسرور. لكنها تقرؤها حاملة أيضًا معنى أوفى، يتضح حين تتحقق. ويسمي الآباء هذا الرمزية والقراءة الروحية. وقرأ كتّاب العهد الجديد الكتاب بهذه الطريقة، وكان معلمو اليهود في عصرهم يقرأون الكتاب أيضًا على أكثر من مستوى.',
+          'وتتمسك الكنيسة بهذه القراءة لأن الله نفسه تكلم في الأنبياء وفي ابنه، والكتاب يروي قصة واحدة. فإشعياء ٧ كان علامة لآحاز، وتحقق بملئه حين ولدت العذراء عمانوئيل. وإشعياء ٥٣ يتكلم عن العبد، وفي يسوع صار للعبد وجه واسم.',
         ],
       },
       limits: {
@@ -323,12 +323,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The Church does not say that the whole promise has been fulfilled. It says that the Messiah has come and the kingdom has begun, and that its completion awaits his return. It points to a tradition in the prophets themselves of a suffering and a glory, and to the way the New Testament holds them together.',
-          'A Jewish reader may fairly reply that the prophets do not speak of two comings, and that the Church’s account came after the expected restoration failed to arrive with Jesus. The Church accepts that it is here asking the reader to read the promise in a way that only makes full sense in faith.',
+          'The Church does not claim that the whole promise is already complete. The Messiah has come and the kingdom has begun; its completion awaits His return. The prophets themselves speak of suffering before glory, and the New Testament holds the two together.',
+          'The signs of the kingdom are already here: the knowledge of the God of Israel has spread to the nations of the world, as the prophets foretold, through the preaching of a crucified Jewish Messiah. The rest will be fulfilled when He comes again in glory.',
         ],
         ar: [
-          'لا تقول الكنيسة إن الوعد كله قد تحقق. تقول إن المسيا قد جاء وإن الملكوت قد بدأ، وإن اكتماله ينتظر مجيئه ثانية. وتشير إلى أن في الأنبياء أنفسهم تقليدًا للألم والمجد، وإلى كيف يجمعهما العهد الجديد.',
-          'ويحق للقارئ اليهودي أن يردّ بأن الأنبياء لا يتكلمون عن مجيئين، وبأن عرض الكنيسة جاء بعد أن لم يأتِ الترميم المتوقع مع يسوع. وتقبل الكنيسة أنها هنا تطلب من القارئ أن يقرأ الوعد بطريقة لا تستقيم تمامًا إلا في الإيمان.',
+          'لا تدّعي الكنيسة أن الوعد كله قد اكتمل. فالمسيا قد جاء والملكوت قد بدأ؛ واكتماله ينتظر مجيئه ثانية. والأنبياء أنفسهم يتكلمون عن الألم قبل المجد، والعهد الجديد يجمع الاثنين.',
+          'وعلامات الملكوت حاضرة: فمعرفة إله إسرائيل انتشرت إلى أمم العالم، كما تنبأ الأنبياء، بالكرازة بمسيا يهودي مصلوب. والباقي يتم حين يأتي ثانية في المجد.',
         ],
       },
       limits: {
@@ -345,12 +345,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'In the Hebrew Scriptures the king of David’s line is called son of God in a sense that is not divine, and the Jewish reading is faithful to that. Christians hold that the New Testament shows Jesus to be the Son in a new and fuller sense, and they appeal to the earliest devotion to him in the first generation of the Church, which is treated in other articles.',
-          'The Church confesses one God and the Trinity. It does not regard this as a departure from the Scriptures it received but as the truth it believes they were pointing to. Jews do not accept this, and the disagreement is stated here as it stands.',
+          'In the Hebrew Scriptures the king of David’s line is called son of God in a sense that is not divine. The New Testament shows Jesus to be the Son in a new and fuller sense, and from the first generation His followers, all Jews and faithful to the one God, worshipped Him. That devotion did not come from Greek influence; it arose among Jewish believers in Jerusalem, as other articles show.',
+          'The Church confesses one God, Father, Son and Holy Spirit. This is not a departure from the Scriptures of Israel but the truth to which they were pointing.',
         ],
         ar: [
-          'في الكتب العبرية يُدعى ملك بيت داود ابن الله بمعنى غير إلهي، والقراءة اليهودية أمينة لذلك. ويعتقد المسيحيون أن العهد الجديد يُظهر يسوع الابن بمعنى جديد وأوفى، ويستندون إلى العبادة المبكرة له في الجيل الأول من الكنيسة، وتعالجها مقالات أخرى.',
-          'وتعترف الكنيسة بإله واحد وبالثالوث. ولا تعدّ هذا خروجًا عن الكتب التي تسلمتها بل الحق الذي تؤمن أنها كانت تشير إليه. ولا يقبل اليهود ذلك، والخلاف مذكور هنا كما هو.',
+          'في الكتب العبرية يُدعى ملك بيت داود ابن الله بمعنى غير إلهي. ويُظهر العهد الجديد يسوع الابن بمعنى جديد وأوفى، ومنذ الجيل الأول عبده أتباعه، وكلهم يهود أمناء للإله الواحد. ولم تأتِ هذه العبادة من تأثير يوناني؛ بل نشأت بين المؤمنين اليهود في أورشليم، كما تبيّن مقالات أخرى.',
+          'والكنيسة تعترف بإله واحد، آب وابن وروح قدس. وليس هذا خروجًا عن كتب إسرائيل، بل الحق الذي كانت تشير إليه.',
         ],
       },
       limits: {
@@ -364,12 +364,12 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'Historically, the following can be said. The Hebrew Scriptures existed in Hebrew and in Greek before the Christian era, and the Dead Sea Scrolls show that the book of Isaiah was copied before Jesus. First-century Jewish expectations of an anointed figure were varied. The first Christians were Jews who read their Scriptures in this setting, and they proclaimed that Jesus was the Messiah within that debate. The argument between Jews and Christians over the prophets goes back to the second century and is reported in Origen.',
-        'What the historian cannot say is which reading is right. That depends on whether Jesus is who the Church says he is, a question treated in the articles on his claims and on the resurrection.',
+        'The Hebrew Scriptures existed in Hebrew and in Greek before the Christian era, and the Dead Sea Scrolls show that the book of Isaiah, including the servant passage, was copied before Jesus was born. The prophecies were not written after the fact. First-century Jewish hopes for an anointed figure were varied, and the first Christians were Jews who proclaimed within that hope that Jesus is the Messiah. The discussion between Jews and Christians over the prophets goes back to the second century and is reported in Origen.',
+        'The deciding question is who Jesus is. His resurrection, examined in other articles, is the sign that God has vindicated Him as Lord and Messiah.',
       ],
       ar: [
-        'تاريخيًا يمكن قول الآتي. كانت الكتب العبرية موجودة بالعبرية وباليونانية قبل العصر المسيحي، وتُظهر مخطوطات البحر الميت أن سفر إشعياء نُسخ قبل يسوع. وكانت التوقعات اليهودية في القرن الأول لشخصية ممسوحة متنوعة. وكان المسيحيون الأوائل يهودًا قرأوا كتبهم في هذا السياق، وأعلنوا أن يسوع هو المسيا ضمن هذا الجدال. والجدال بين اليهود والمسيحيين حول الأنبياء يرجع إلى القرن الثاني وينقله أوريجانوس.',
-        'وما لا يستطيع المؤرخ قوله أي القراءتين صحيحة. فهذا يتوقف على هل يسوع هو من تقول الكنيسة، وهو سؤال تعالجه مقالات دعاواه والقيامة.',
+        'كانت الكتب العبرية موجودة بالعبرية وباليونانية قبل العصر المسيحي، وتُظهر مخطوطات البحر الميت أن سفر إشعياء، ومعه نص العبد، نُسخ قبل ميلاد يسوع. فالنبوات لم تُكتب بعد الحدث. وكانت آمال اليهود في القرن الأول بشخصية ممسوحة متنوعة، وكان المسيحيون الأوائل يهودًا أعلنوا داخل هذا الرجاء أن يسوع هو المسيا. والحوار بين اليهود والمسيحيين حول الأنبياء يرجع إلى القرن الثاني وينقله أوريجانوس.',
+        'والسؤال الحاسم هو من هو يسوع. وقيامته، التي تفحصها مقالات أخرى، هي العلامة على أن الله برّره ربًّا ومسيحًا.',
       ],
     },
     theological: {
@@ -402,8 +402,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'Jewish and Christian readers read the same Scriptures and reach different conclusions about the Messiah. The Jewish readings have a basis in the texts and in a long tradition, and the Christian reading is made in the light of Jesus and has been held by the Church from its beginning. The texts alone do not decide between them, and the Church asks to be understood on its own terms while honouring the people through whom the Scriptures came.',
-    ar: 'يقرأ القراء اليهود والمسيحيون الكتب نفسها ويصلون إلى استنتاجات مختلفة عن المسيا. وللقراءات اليهودية أساس في النصوص وفي تقليد طويل، والقراءة المسيحية تُقرأ في ضوء يسوع وتمسكت بها الكنيسة منذ بدايتها. ولا تحسم النصوص وحدها بينهما، وتطلب الكنيسة أن تُفهم بمصطلحاتها مع تكريم الشعب الذي جاءت الكتب به.',
+    en: 'Jews and Christians read the same Scriptures and reach different conclusions about the Messiah. The Church, with the apostles, reads them in the light of Jesus: the suffering servant of Isaiah, the Son of David and Son of God, crucified, risen, and coming again in glory. She holds this as the truth of the Scriptures she shares with Israel, speaks it with respect, and honours with love the people through whom those Scriptures came.',
+    ar: 'يقرأ اليهود والمسيحيون الكتب نفسها ويصلون إلى استنتاجات مختلفة عن المسيا. والكنيسة، مع الرسل، تقرؤها في ضوء يسوع: عبد إشعياء المتألم، ابن داود وابن الله، المصلوب والقائم والآتي ثانية في المجد. وهي تتمسك بهذا حقًّا للكتب التي تشترك فيها مع إسرائيل، وتقوله باحترام، وتكرّم بمحبة الشعب الذي جاءت تلك الكتب به.',
   },
   furtherReading: ['S26', 'S28', 'S25', 'S52', 'S51', 'S62'],
   related: [

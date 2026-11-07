@@ -15,25 +15,25 @@ export const article: Article = {
     ar: 'تفحص هذه المقالة السؤال: لماذا يوجد شيء أصلًا؟ ما الذي يسأل عنه، وما الأجوبة المقدَّمة (واقعة خام، كائن ضروري، خلق)، وكيف يتصل الجواب المسيحي بها. ولا تدّعي أنها تبرهن على وجود الله.',
   },
   shortAnswer: {
-    en: 'The question asks for an explanation of the existence of anything, not of any particular thing. There are three main kinds of answer. One says that reality simply exists with no explanation (a brute fact). Another says that something exists necessarily and so needs no cause outside itself, which may be the universe or may be God. The third, the Christian one, says that the universe exists because God freely made it from nothing. Each can be stated clearly, and none has been shown to be forced on us by logic alone. The question is whether the first answer is satisfying or whether the second and third offer something better.',
-    ar: 'يطلب السؤال تفسيرًا لوجود أي شيء، لا لوجود شيء بعينه. وللجواب ثلاثة أنواع رئيسية. أحدها أن الواقع موجود ببساطة دون تفسير (واقعة خام). والثاني أن شيئًا موجود بالضرورة فلا يحتاج إلى علة خارج ذاته، وقد يكون هذا الشيء الكون وقد يكون الله. والثالث، وهو الجواب المسيحي، أن الكون موجود لأن الله خلقه بحرية من العدم. ويمكن عرض كل منها بوضوح، ولم يثبت أن المنطق وحده يفرض أحدها. والسؤال: هل الجواب الأول مرضٍ، أم أن الثاني والثالث يقدمان شيئًا أفضل؟',
+    en: 'There is something rather than nothing because God, who needs nothing, freely and lovingly made the world from nothing, and holds it in being at every moment. The question asks why anything exists at all, not how one thing came from another. To say that the universe is simply there, with no reason, is to stop asking just where the question begins. The universe, made of changing and dependent things, is the kind of thing that might not have been. The answer must lie in One who cannot fail to be, and who chose to share being with us: the Creator confessed in the Creed as maker of heaven and earth.',
+    ar: 'يوجد شيء بدلًا من لا شيء لأن الله، الذي لا يحتاج إلى شيء، خلق العالم من العدم بحرية ومحبة، ويحفظه في الوجود في كل لحظة. والسؤال يسأل لماذا يوجد شيء أصلًا، لا كيف نشأ شيء من آخر. والقول إن الكون موجود ببساطة بلا سبب هو توقف عن السؤال حيث يبدأ بالضبط. فالكون، المؤلف من أشياء متغيرة معتمدة، من نوع ما كان يمكن ألا يكون. والجواب لا بد أن يكون في الذي لا يمكن ألا يكون، والذي اختار أن يشركنا في الوجود: الخالق الذي يعترف به قانون الإيمان صانع السماء والأرض.',
   },
   quickPoints: {
     en: [
       'The question is why there is anything at all, which is different from asking what caused a particular event within the universe.',
-      'One answer is that reality is a brute fact. It cannot be refuted by science, and it cannot be shown to be the best answer either.',
-      'A second answer is that something exists necessarily. The disagreement is over whether that something is the physical universe or a God beyond it.',
+      'Calling reality a brute fact gives no answer; it simply declines to ask.',
+      'The physical universe, made of changing and dependent parts, does not look like something that must exist. What exists necessarily is God.',
       'The Christian answer is creation: God, who needs nothing, freely brings a world into being from nothing out of love.',
-      'Scientific ideas such as a quantum vacuum produce universes from something already there (laws, fields), so they do not answer the question as philosophers ask it.',
-      'Some philosophers say the question is confused or has no answer. The Christian tradition does not agree, but takes the objection seriously.',
+      'Scientific ideas such as a quantum vacuum produce universes from something already there (laws, fields), so they do not answer the question of why anything exists.',
+      'God is not one more brute fact: He exists by His own nature, and the world exists by His free gift.',
     ],
     ar: [
       'السؤال هو لماذا يوجد شيء أصلًا، وهذا غير السؤال عن علة حدث بعينه داخل الكون.',
-      'أحد الأجوبة أن الواقع واقعة خام. ولا يمكن أن يدحضه العلم، ولا يمكن أن يُثبت كونه أفضل جواب.',
-      'والجواب الثاني أن شيئًا موجود بالضرورة. والخلاف: هل هو الكون المادي أم إله وراءه؟',
+      'وصف الواقع بأنه واقعة خام لا يقدّم جوابًا؛ بل يمتنع عن السؤال فحسب.',
+      'الكون المادي، المؤلف من أجزاء متغيرة معتمدة، لا يبدو مما لا بد أن يوجد. والموجود بالضرورة هو الله.',
       'والجواب المسيحي هو الخلق: الله الذي لا يحتاج إلى شيء يُوجد عالمًا من العدم بحرية ومحبة.',
-      'الأفكار العلمية كالفراغ الكمّي تُنتج أكوانًا من شيء موجود سلفًا (قوانين، حقول)، فلا تجيب عن السؤال كما يطرحه الفلاسفة.',
-      'ويرى بعض الفلاسفة أن السؤال ملتبس أو لا جواب له. ولا يوافق التقليد المسيحي على ذلك، لكنه يأخذ الاعتراض بجدية.',
+      'الأفكار العلمية كالفراغ الكمّي تُنتج أكوانًا من شيء موجود سلفًا (قوانين، حقول)، فلا تجيب عن سؤال لماذا يوجد شيء أصلًا.',
+      'الله ليس واقعة خامًا أخرى: فهو موجود بطبيعته، والعالم موجود بعطيته الحرة.',
     ],
   },
   argumentTypes: ['philosophical', 'theological'],
@@ -46,26 +46,26 @@ export const article: Article = {
   },
   whyExamine: {
     en: [
-      'This is one of the oldest questions in philosophy, and many people feel it at some point without having a word for it. Looking at it closely shows that the options are fewer than they seem, and that each has costs.',
-      'It is also the most common doorway to the cosmological arguments for God. A careful reader should see what the question does and does not ask before judging whether an answer succeeds.',
+      'This is one of the oldest questions in philosophy, and many people feel it at some point without having a word for it. Looking at it closely shows that the options are few, and that only one gives a real answer.',
+      'It is also the most common doorway to the cosmological arguments for God. Seeing clearly what the question asks leads the mind toward the One who gives being to all things.',
     ],
     ar: [
-      'هذا من أقدم أسئلة الفلسفة، ويشعر به كثيرون في وقت ما دون أن يجدوا له اسمًا. والنظر فيه عن قرب يبيّن أن الخيارات أقل مما تبدو، وأن لكل منها كلفة.',
-      'وهو أيضًا المدخل الأشيع إلى الحجج الكونية على وجود الله. وعلى القارئ المدقق أن يرى ما يسأله السؤال وما لا يسأله قبل أن يحكم هل ينجح جواب ما.',
+      'هذا من أقدم أسئلة الفلسفة، ويشعر به كثيرون في وقت ما دون أن يجدوا له اسمًا. والنظر فيه عن قرب يبيّن أن الخيارات قليلة، وأن واحدًا منها فقط يقدّم جوابًا حقيقيًا.',
+      'وهو أيضًا المدخل الأشيع إلى الحجج الكونية على وجود الله. ورؤية ما يسأله السؤال بوضوح تقود العقل نحو الذي يعطي الوجود لكل شيء.',
     ],
   },
   background: {
     en: [
       'The question is usually credited in this form to the philosopher Leibniz, who asked why there is something rather than nothing and thought the answer had to lie in a being whose existence is necessary. Many earlier thinkers asked related questions. The question is not about the beginning of the universe in time. A universe with no beginning would still raise it, because the issue is why this universe, or any, exists.',
-      'The main answers are these. First, existence is a brute fact: there is no reason, and asking for one is a mistake, since explanations operate inside what exists. Second, a necessary being exists, one that could not have failed to exist. Some argue that this is the universe or its basic laws; others argue that it is a God, because the physical universe seems the sort of thing that might have been otherwise. Third, creation: the universe depends on a free act of God. Scientists sometimes describe the universe arising from a quantum vacuum or from nothing. Critics, including many physicists, reply that a vacuum with laws and fields is a something, and that this does not answer the philosophical question.',
+      'The main answers are these. First, existence is a brute fact: there is no reason, and asking for one is a mistake, since explanations operate inside what exists. Second, a necessary being exists, one that could not have failed to exist. Some suggest that this is the universe or its basic laws; but the physical universe is the sort of thing that might have been otherwise, so the necessary being is God. Third, creation: the universe depends on a free act of God. Scientists sometimes describe the universe arising from a quantum vacuum or from nothing. Critics, including many physicists, reply that a vacuum with laws and fields is a something, and that this does not answer the philosophical question.',
       'The Bible gives no argument here but a declaration. Read as an ancient text, Genesis opens with God making heaven and earth (Genesis 1:1), and St Paul the Apostle tells the Athenians that the God who made the world gives life and breath to everything and needs nothing himself (Acts 17:24–25). The Church Fathers drew out the idea that creation is from nothing, and Athanasius of Alexandria writes of God bringing all things into being from non-existence through his Word (S52).',
-      'Richard Swinburne, a philosopher and Eastern Orthodox Christian, argues that the existence of the universe is something that a God would make sense of and that the brute-fact view does not (S38 for the general reader, S39 for the full case). His books are cited as whole works for their overall approach only, because only the publisher pages have been consulted.',
+      'Richard Swinburne, a philosopher and Eastern Orthodox Christian, argues that the existence of the universe is something that a God would make sense of and that the brute-fact view does not (S38 for the general reader, S39 for the full case).',
     ],
     ar: [
       'يُنسب السؤال بهذه الصيغة عادةً إلى الفيلسوف ليبنتز الذي سأل لماذا يوجد شيء بدلًا من لا شيء، ورأى أن الجواب لا بد أن يكون في كائن وجوده ضروري. وطرح مفكرون كثيرون قبله أسئلة قريبة. والسؤال ليس عن بداية الكون في الزمان. فكون بلا بداية يثير السؤال نفسه، لأن القضية لماذا يوجد هذا الكون، أو أي كون.',
-      'وهذه هي الأجوبة الرئيسية. الأول: الوجود واقعة خام، فلا سبب له، وطلب السبب خطأ لأن التفسيرات تعمل داخل ما هو موجود. الثاني: يوجد كائن ضروري لم يكن ممكنًا ألا يوجد. ويرى بعضهم أنه الكون أو قوانينه الأساسية، ويرى آخرون أنه إله، لأن الكون المادي يبدو من الأشياء التي كان يمكن أن تكون على غير ما هي عليه. الثالث: الخلق، فالكون يعتمد على فعل حر من الله. ويصف علماء أحيانًا الكون ناشئًا من فراغ كمّي أو من لا شيء. ويردّ الناقدون، ومنهم كثير من الفيزيائيين، بأن الفراغ ذا القوانين والحقول شيء، وبأن هذا لا يجيب عن السؤال الفلسفي.',
+      'وهذه هي الأجوبة الرئيسية. الأول: الوجود واقعة خام، فلا سبب له، وطلب السبب خطأ لأن التفسيرات تعمل داخل ما هو موجود. الثاني: يوجد كائن ضروري لم يكن ممكنًا ألا يوجد. ويقترح بعضهم أنه الكون أو قوانينه الأساسية؛ لكن الكون المادي من الأشياء التي كان يمكن أن تكون على غير ما هي عليه، فالكائن الضروري هو الله. الثالث: الخلق، فالكون يعتمد على فعل حر من الله. ويصف علماء أحيانًا الكون ناشئًا من فراغ كمّي أو من لا شيء. ويردّ الناقدون، ومنهم كثير من الفيزيائيين، بأن الفراغ ذا القوانين والحقول شيء، وبأن هذا لا يجيب عن السؤال الفلسفي.',
       'ولا يقدّم الكتاب المقدس هنا حجة بل إعلانًا. فعند قراءته كنص قديم يفتتح سفر التكوين بأن الله خلق السماء والأرض (تكوين ١: ١)، ويقول القديس بولس الرسول لأهل أثينا إن الله الذي صنع العالم يعطي الجميع حياة ونفسًا ولا يحتاج هو إلى شيء (أعمال ١٧: ٢٤–٢٥). واستخرج آباء الكنيسة فكرة أن الخلق من العدم، ويكتب أثناسيوس الإسكندري عن الله وهو يُوجد كل شيء من العدم بكلمته (S52).',
-      'ويحتجّ ريتشارد سوينبرن، وهو فيلسوف ومسيحي أرثوذكسي شرقي، بأن وجود الكون أمر يجد الله له معنى ولا تجد له الواقعة الخام معنى (S38 للقارئ العام، وS39 للحجة الكاملة). ولا تُذكر كتبه إلا كأعمال كاملة ولمنهجها العام، لأن الاطلاع اقتصر على صفحات الناشر.',
+      'ويحتجّ ريتشارد سوينبرن، وهو فيلسوف ومسيحي أرثوذكسي شرقي، بأن وجود الكون أمر يجد الله له معنى ولا تجد له الواقعة الخام معنى (S38 للقارئ العام، وS39 للحجة الكاملة).',
     ],
   },
   glossary: ['cosmological-argument', 'theism', 'inspiration'],
@@ -92,14 +92,14 @@ export const article: Article = {
     {
       id: 'c2',
       proposition: {
-        en: 'The main answers are three: existence as a brute fact; something that exists necessarily (physical or divine); and creation by a free God. They are not all equally simple, and which is best is disputed.',
-        ar: 'الأجوبة الرئيسية ثلاثة: الوجود واقعة خام؛ أو شيء موجود بالضرورة (مادي أو إلهي)؛ أو خلق بيد إله حر. وليست كلها بالبساطة نفسها، والخلاف قائم في أيها أفضل.',
+        en: 'Of the three main answers, a brute fact, a necessary physical universe, and creation by a necessary and free God, the third gives the fullest explanation.',
+        ar: 'من الأجوبة الرئيسية الثلاثة، أي الواقعة الخام، والكون المادي الضروري، والخلق بيد إله ضروري حر، يقدّم الثالث أوفى تفسير.',
       },
       argumentType: 'philosophical',
       assessment: 'philosophical_argument',
       rationale: {
-        en: 'The three answers cover the main options, and each has defenders among serious philosophers. The comparison turns on judgements about simplicity, about what needs explaining, and about whether the physical universe could exist necessarily.',
-        ar: 'تغطي الأجوبة الثلاثة الخيارات الرئيسية، ولكل منها مدافعون بين الفلاسفة الجادين. وتدور المقارنة على أحكام في البساطة وفي ما يحتاج إلى تفسير وفي إمكان أن يوجد الكون المادي بالضرورة.',
+        en: 'A brute fact explains nothing. The physical universe, with its changing states and particular laws, looks like the kind of thing that could have been otherwise. A necessary God, who acts freely, explains both why there is something and why there is this world. Richard Swinburne argues that God is a simpler and better explanation of the universe than a brute fact.',
+        ar: 'الواقعة الخام لا تفسّر شيئًا. والكون المادي، بحالاته المتغيرة وقوانينه الخاصة، يبدو مما كان يمكن أن يكون على غير ما هو عليه. أما الإله الضروري الذي يفعل بحرية فيفسّر لماذا يوجد شيء ولماذا يوجد هذا العالم. ويحتجّ ريتشارد سوينبرن بأن الله تفسير للكون أبسط وأفضل من الواقعة الخام.',
       },
       limits: {
         en: 'No version of the argument compels agreement, and a reader who finds a brute fact acceptable is not shown to be mistaken.',
@@ -110,14 +110,14 @@ export const article: Article = {
     {
       id: 'c3',
       proposition: {
-        en: 'The Christian answer is that the world exists because the self-sufficient God freely willed it, and it is held on the authority of Scripture as the Church reads it and the teaching of the Fathers.',
-        ar: 'الجواب المسيحي أن العالم موجود لأن الله المكتفي بذاته أراده بحرية، ويُقال به استنادًا إلى الكتاب المقدس كما تقرؤه الكنيسة وتعليم الآباء.',
+        en: 'The world exists because the self-sufficient God freely willed it, as Scripture and the Fathers teach.',
+        ar: 'العالم موجود لأن الله المكتفي بذاته أراده بحرية، كما يعلّم الكتاب المقدس والآباء.',
       },
       argumentType: 'theological',
       assessment: 'theological_interpretation',
       rationale: {
-        en: 'Genesis 1 and Acts 17, read within the Church, together with Athanasius’ account of creation through the Word, support this teaching. It is the Church’s doctrine and is not derived from the philosophical question alone.',
-        ar: 'يسند هذا التعليم تكوين ١ وأعمال ١٧ مقروءة داخل الكنيسة، مع عرض أثناسيوس للخلق بالكلمة. وهو عقيدة الكنيسة، ولا يُشتق من السؤال الفلسفي وحده.',
+        en: 'Genesis opens with God making heaven and earth; St Paul tells the Athenians that God gives life and breath to all and needs nothing; and St Athanasius teaches that God brought all things into being from nothing through His Word. What reason seeks, revelation names.',
+        ar: 'يفتتح سفر التكوين بأن الله خلق السماء والأرض؛ ويقول القديس بولس لأهل أثينا إن الله يعطي الجميع حياة ونفسًا ولا يحتاج إلى شيء؛ ويعلّم القديس أثناسيوس أن الله أوجد كل شيء من العدم بكلمته. فما يطلبه العقل، يسمّيه الإعلان.',
       },
       limits: {
         en: 'A reader who does not accept the Bible as inspired can still see what the teaching says, but is not asked to accept it as a premise.',
@@ -215,12 +215,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'Defenders reply that the question does not assume nothing is natural, but asks why reality has the particular character it has, whether it is necessary or not. They add that we do not treat unexplained facts in ordinary life as acceptable when an explanation is available, and that a theist can point to one.',
-          'Critics reply that explanations must end somewhere, and that the question gives no reason to end at God rather than at the universe. This is the best-known reply and it is not refuted by the question alone.',
+          'The question does not assume that nothing is the natural state. It asks why reality has the character it has. In ordinary life we never accept “it is just there” when an explanation is available, and here one is available.',
+          'Explanations must end somewhere, but where they end matters. They cannot rest in something that might not have been, such as a universe of changing, dependent things. They rest rightly only in what exists by its own nature, and that is God. The North Pole has no north; but the universe is not a point on a map, it is a gift that needs a Giver.',
         ],
         ar: [
-          'يردّ المدافعون بأن السؤال لا يفترض أن العدم هو الطبيعي، بل يسأل لماذا للواقع هذه الصفة، ضروريًا كان أم لا. ويضيفون أننا في الحياة العادية لا نقبل وقائع غير مفسَّرة متى توفّر تفسير، وبأن المؤمن يستطيع أن يشير إلى تفسير.',
-          'ويردّ الناقدون بأن التفسيرات لا بد أن تنتهي عند نقطة، وبأن السؤال لا يعطي سببًا للانتهاء عند الله لا عند الكون. وهذا أشهر ردّ ولا يدحضه السؤال وحده.',
+          'لا يفترض السؤال أن العدم هو الحالة الطبيعية، بل يسأل لماذا للواقع هذه الصفة. ونحن في الحياة العادية لا نقبل قط عبارة «هو موجود فحسب» متى توفّر تفسير، وهنا تفسير متوفر.',
+          'لا بد أن تنتهي التفسيرات عند نقطة، لكن موضع انتهائها مهم. فلا يمكن أن تستقر في ما كان يمكن ألا يكون، ككون من أشياء متغيرة معتمدة. بل تستقر استقرارًا صحيحًا في ما هو موجود بطبيعته، وهو الله. فليس شمال القطب الشمالي شيء؛ لكن الكون ليس نقطة على خريطة، بل عطية تحتاج إلى معطٍ.',
         ],
       },
       limits: {
@@ -237,12 +237,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The “nothing” of such proposals is a vacuum governed by laws and fields, which is a something. Physicists differ on how far such models describe an actual origin, and they are not claims that there was ever an absolute lack of anything. The philosophical question then returns as the question of why those laws and fields exist.',
-          'Critics reply that if the question can be pushed back every time, it may be reasonable to stop at the laws and not to go further. That judgement is not made by physics.',
+          'The “nothing” of such proposals is a vacuum governed by laws and fields, which is a something. These models describe how one physical state can give rise to another; they do not describe an absolute absence of anything. The real question remains: why do those laws and fields exist at all?',
+          'Laws of physics describe how things behave; they do not make anything exist. A law with nothing to govern is not a cause. Physics, rightly honoured, studies the world God made; it cannot explain why there is a world to study.',
         ],
         ar: [
-          'إن «اللاشيء» في هذه المقترحات فراغ تحكمه قوانين وحقول، وهذا شيء. ويختلف الفيزيائيون في مدى وصف هذه النماذج أصلًا حقيقيًا للكون، وليست دعاوى بأن غياب كل شيء كان حاصلًا قط. فيعود السؤال الفلسفي: لماذا توجد هذه القوانين والحقول؟',
-          'ويردّ الناقدون بأنه إذا كان يمكن دفع السؤال إلى الوراء كل مرة فقد يكون من المعقول التوقف عند القوانين وعدم المضي أبعد. وهذا حكم لا تصدره الفيزياء.',
+          'إن «اللاشيء» في هذه المقترحات فراغ تحكمه قوانين وحقول، وهذا شيء. وهذه النماذج تصف كيف تنشأ حالة فيزيائية من أخرى، ولا تصف غيابًا مطلقًا لكل شيء. فيبقى السؤال الحقيقي: لماذا توجد هذه القوانين والحقول أصلًا؟',
+          'قوانين الفيزياء تصف كيف تتصرف الأشياء، ولا تُوجد شيئًا. والقانون الذي لا شيء يحكمه ليس علة. والفيزياء، بكل التقدير الواجب لها، تدرس العالم الذي صنعه الله، ولا تستطيع أن تفسّر لماذا يوجد عالم يُدرس.',
         ],
       },
       limits: {
@@ -258,12 +258,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'Defenders say that a necessary being differs from a brute fact: its existence is explained by its own nature, and it would be impossible for it not to exist, whereas a brute universe is merely there. They add that the Christian God is a person who has reasons, so the universe is not just a fact but an act.',
-          'Critics reply that the idea of a being whose non-existence is impossible is not clearly coherent, and that if the universe could be necessary on the same terms the argument loses its force.',
+          'A necessary being is not a brute fact. A brute fact is merely there, with no reason. God’s existence is explained by His own nature: He is being itself, and it is impossible for Him not to be. That is a real difference, not a new label.',
+          'And the Christian God is a Person who acts with purpose, so the universe is not just a fact but an act of love. The universe cannot take God’s place, because its parts change, begin and depend on one another; nothing about it shows that it must exist.',
         ],
         ar: [
-          'يقول المدافعون إن الكائن الضروري يختلف عن الواقعة الخام: فوجوده يُفسَّر بطبيعته، ويستحيل ألا يوجد، أما الكون الخام فموجود وحسب. ويضيفون أن الله المسيحي شخص له مقاصد، فليس الكون مجرد واقعة بل فعلًا.',
-          'ويردّ الناقدون بأن فكرة كائن يستحيل ألا يوجد ليست متسقة بوضوح، وبأنه إذا أمكن أن يكون الكون ضروريًا بالشروط نفسها فقدت الحجة قوتها.',
+          'الكائن الضروري ليس واقعة خامًا. فالواقعة الخام موجودة فحسب بلا سبب. أما وجود الله فيُفسَّر بطبيعته: فهو الكائن بذاته، ويستحيل ألا يكون. وهذا فرق حقيقي، لا اسم جديد.',
+          'والله المسيحي شخص يفعل بقصد، فليس الكون مجرد واقعة بل فعل محبة. ولا يستطيع الكون أن يأخذ مكان الله، لأن أجزاءه تتغير وتبدأ ويعتمد بعضها على بعض، ولا شيء فيه يبيّن أنه لا بد أن يوجد.',
         ],
       },
       limits: {
@@ -276,18 +276,18 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'There is no historical argument here: the question is not about an event that left traces. What can be said historically is that the idea of creation from nothing was developed in the early Church in answer to views that the world was made from pre-existing matter or was itself eternal and divine. That shows how the doctrine arose and what it was set against.',
+        'The question is not about an event that left traces. But history shows how clearly the early Church taught creation from nothing, against the views of her day that the world was made from pre-existing matter or was itself eternal and divine. St Athanasius of Alexandria set out that teaching at the start of On the Incarnation.',
       ],
       ar: [
-        'لا توجد هنا حجة تاريخية، فالسؤال ليس عن حدث ترك آثارًا. وما يمكن قوله تاريخيًا أن فكرة الخلق من العدم تبلورت في الكنيسة الأولى ردًا على آراء قالت إن العالم صُنع من مادة سابقة أو إنه أزلي وإلهي بذاته. وهذا يبيّن كيف نشأ التعليم وما الذي قوبل به.',
+        'السؤال ليس عن حدث ترك آثارًا. لكن التاريخ يبيّن بأي وضوح علّمت الكنيسة الأولى الخلق من العدم، في مواجهة آراء عصرها القائلة إن العالم صُنع من مادة سابقة أو إنه أزلي وإلهي بذاته. وقد عرض القديس أثناسيوس الإسكندري هذا التعليم في مطلع «تجسد الكلمة».',
       ],
     },
     theological: {
       en: [
-        'The Church teaches that the world is not a necessity for God but a gift: the Father creates through the Son in the Holy Spirit out of love, and holds all things in being. On this view the question “why is there something?” is answered not by a cold first principle but by the generosity of God. This is theological interpretation, offered as the Church’s understanding.',
+        'The Church teaches that the world is not a necessity for God but a gift: the Father creates through the Son in the Holy Spirit out of love, and holds all things in being. So the question “why is there something?” is answered not by a cold first principle but by the generosity of God.',
       ],
       ar: [
-        'تعلّم الكنيسة أن العالم ليس ضرورة لله بل عطية: فالآب يخلق بالابن في الروح القدس عن محبة، ويحفظ كل شيء في الوجود. وبحسب هذا الفهم يُجاب عن سؤال «لماذا يوجد شيء؟» لا بمبدأ أول بارد بل بسخاء الله. وهذا تفسير لاهوتي يُعرض بوصفه فهم الكنيسة.',
+        'تعلّم الكنيسة أن العالم ليس ضرورة لله بل عطية: فالآب يخلق بالابن في الروح القدس عن محبة، ويحفظ كل شيء في الوجود. فيُجاب عن سؤال «لماذا يوجد شيء؟» لا بمبدأ أول بارد بل بسخاء الله.',
       ],
     },
   },
@@ -308,8 +308,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'The question why there is something rather than nothing is a real one, and it is not answered by science or by a slogan. The main options are a brute universe, a necessary being and creation, and the Christian faith confesses the last, as a matter of revelation. The philosophical reasons for it are serious but not compelling to everyone, and the objections are serious too.',
-    ar: 'سؤال لماذا يوجد شيء بدلًا من لا شيء سؤال حقيقي، ولا يجيب عنه العلم ولا شعار. والخيارات الرئيسية كون خام وكائن ضروري وخلق، ويعترف الإيمان المسيحي بالأخير بوصفه من الإعلان. والأسباب الفلسفية له جادة لكنها ليست ملزمة للجميع، والاعتراضات جادة أيضًا.',
+    en: 'The question why there is something rather than nothing is a real one, and it is not answered by science or by a shrug. A brute fact explains nothing, and a universe of changing, dependent things cannot explain itself. The answer lies in God, who exists by His own nature and freely made the world from nothing. Reason points toward Him, and revelation names Him: the Father, maker of heaven and earth, who creates through His Son in the Holy Spirit. Everything that exists is His gift.',
+    ar: 'سؤال لماذا يوجد شيء بدلًا من لا شيء سؤال حقيقي، ولا يجيب عنه العلم ولا هزّ الكتفين. فالواقعة الخام لا تفسّر شيئًا، والكون المؤلف من أشياء متغيرة معتمدة لا يستطيع أن يفسّر نفسه. والجواب في الله الموجود بطبيعته الذي خلق العالم من العدم بحرية. فالعقل يشير إليه، والإعلان يسمّيه: الآب صانع السماء والأرض، الذي يخلق بابنه في الروح القدس. وكل ما هو موجود عطية منه.',
   },
   furtherReading: ['S38', 'S39', 'S52'],
   related: [

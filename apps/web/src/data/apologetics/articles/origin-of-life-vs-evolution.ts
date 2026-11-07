@@ -15,23 +15,23 @@ export const article: Article = {
     ar: 'تشرح هذه المقالة الفرق بين نظرية التطور البيولوجي (كيف تتغير الكائنات الحية بعد وجود الحياة) وأبحاث نشأة الحياة (كيف نشأت الحياة أول مرة من كيمياء غير حية). وتبيّن ما يُعرف وما لا يُعرف عن الثانية، ولماذا ينبغي ألا نخلط بينهما، وكيف يتعلق الإيمان المسيحي بسؤال علمي لم يُجَب عنه.',
   },
   shortAnswer: {
-    en: 'They are two different questions. Evolution explains how populations of living, reproducing organisms change and diversify over generations, and it is well established. The origin of life asks how the first living, self-copying systems arose from chemistry on the early Earth. That is an active research field with several competing proposals and no agreed detailed account. The success of evolution does not depend on how life began, and the open questions about life’s beginning do not weaken the evidence for evolution. A Christian can say that the origin of life is not yet explained by science without making the claim that science cannot explain it, and without resting faith on the gap. The Church confesses God as the Lord and Giver of life, whatever science finds about how it began.',
-    ar: 'هما سؤالان مختلفان. التطور يفسّر كيف تتغير مجموعات الكائنات الحية المتناسلة وتتنوع عبر الأجيال، وهو مقرَّر جيدًا. ونشأة الحياة تسأل كيف نشأت أولى المنظومات الحية القادرة على نسخ نفسها من الكيمياء على الأرض المبكرة. وهذا ميدان بحث نشط فيه مقترحات متنافسة عدة ولا يوجد تفسير تفصيلي متفق عليه. ونجاح التطور لا يتوقف على كيفية بدء الحياة، والأسئلة المفتوحة عن بدايتها لا تُضعف أدلة التطور. ويستطيع المسيحي أن يقول إن نشأة الحياة لم يفسّرها العلم بعد دون أن يدّعي أن العلم لا يستطيع تفسيرها، ودون أن يقيم الإيمان على الفجوة. وتعترف الكنيسة بالله الرب المحيي، أيًّا كان ما يكتشفه العلم عن كيفية البداية.',
+    en: 'They are two different questions. Evolution describes how populations of living, reproducing organisms change and diversify over generations. The origin of life asks how the first living, self-copying systems arose from chemistry on the early Earth, and science has no complete answer to it yet. Keeping the two apart clears away much confusion: the evidence for evolution does not depend on how life began, and the open questions about life’s beginning do not touch that evidence. The Christian faith does not rest on either. The Church confesses the Holy Spirit as the Lord and Giver of life and the Word as the One in whom is life. Every living thing, at every moment, receives its life from God, however the first life began.',
+    ar: 'هما سؤالان مختلفان. فالتطور يصف كيف تتغير مجموعات الكائنات الحية المتناسلة وتتنوع عبر الأجيال. ونشأة الحياة تسأل كيف نشأت أولى المنظومات الحية القادرة على نسخ نفسها من الكيمياء على الأرض المبكرة، وليس لدى العلم جواب كامل عنها بعد. والفصل بين السؤالين يزيل كثيرًا من الالتباس: فأدلة التطور لا تتوقف على كيفية بدء الحياة، والأسئلة المفتوحة عن بدايتها لا تمس تلك الأدلة. والإيمان المسيحي لا يقوم على أي منهما. فالكنيسة تعترف بالروح القدس الرب المحيي، وبالكلمة الذي فيه كانت الحياة. وكل كائن حي، في كل لحظة، ينال حياته من الله، أيًّا كانت كيفية بدء الحياة الأولى.',
   },
   quickPoints: {
     en: [
       'Evolution starts with life already present: it concerns variation, inheritance and selection in reproducing organisms.',
-      'Origin-of-life research (chemical evolution, or abiogenesis) asks how non-living chemistry became the first cells or self-copying molecules. Several proposals exist (for example “RNA world” ideas, metabolism-first ideas, and settings such as hydrothermal vents or shallow pools), and none is established.',
-      'Researchers have made progress on some steps, such as how some building blocks of biology could form from simple chemicals. No one has yet produced life from non-living chemicals in a laboratory, and no complete pathway is agreed.',
-      'Probability arguments against a natural origin (the chance of a protein or cell forming at random) usually assume a single random assembly, which is not what researchers propose. We do not know the probability either way.',
-      'The Church does not teach that life’s origin is a miracle that science will never explain, nor that it will. It teaches that life is God’s gift.',
+      'Origin-of-life research (chemical evolution, or abiogenesis) asks how non-living chemistry became the first cells or self-copying molecules. Several proposals are being explored, such as “RNA world” and metabolism-first ideas.',
+      'Researchers have made progress on some steps, such as how some building blocks of biology form from simple chemicals. No one has produced life from non-living chemicals, and no complete pathway is known.',
+      'The Christian should not build faith on this gap, nor fear the research: God is the Giver of life whether or not a chemical pathway is found.',
+      'Scripture teaches that God gives all people life and breath and everything (Acts 17:25), and that in the Word was life (John 1:4). Life is God’s gift.',
     ],
     ar: [
       'يبدأ التطور والحياة موجودة: فهو يخص التنوع والوراثة والانتخاب في كائنات متناسلة.',
-      'وأبحاث نشأة الحياة (التطور الكيميائي، أو النشوء الحيوي abiogenesis) تسأل كيف صارت كيمياء غير حية خلايا أولى أو جزيئات تنسخ نفسها. وهناك مقترحات عدة (مثل أفكار «عالم الحمض النووي الريبي»، وأفكار الأيض أولًا، وبيئات كالمنافذ الحرارية المائية أو البرك الضحلة)، ولا يثبت أي منها.',
-      'وقد أحرز الباحثون تقدمًا في بعض الخطوات، كإمكان تكوّن بعض اللبنات الأساسية للأحياء من مواد كيميائية بسيطة. ولم ينتج أحد حتى الآن حياة من مواد غير حية في المختبر، ولا يوجد مسار كامل متفق عليه.',
-      'وحجج الاحتمال ضد أصل طبيعي (احتمال تكوّن بروتين أو خلية عشوائيًا) تفترض عادةً تجمعًا عشوائيًا واحدًا، وهذا ليس ما يقترحه الباحثون. ونحن لا نعرف الاحتمال في أي اتجاه.',
-      'ولا تعلّم الكنيسة أن أصل الحياة معجزة لن يفسّرها العلم أبدًا، ولا العكس. بل تعلّم أن الحياة عطية الله.',
+      'وأبحاث نشأة الحياة (التطور الكيميائي، أو النشوء الحيوي) تسأل كيف صارت كيمياء غير حية خلايا أولى أو جزيئات تنسخ نفسها. وتُدرس مقترحات عدة، مثل فكرة «عالم الحمض النووي الريبي» وأفكار الأيض أولًا.',
+      'وقد أحرز الباحثون تقدمًا في بعض الخطوات، ككيفية تكوّن بعض اللبنات الأساسية للأحياء من مواد كيميائية بسيطة. ولم ينتج أحد حياة من مواد غير حية، ولا يُعرف مسار كامل.',
+      'لا ينبغي للمسيحي أن يبني إيمانه على هذه الفجوة، ولا أن يخاف البحث: فالله واهب الحياة سواء وُجد مسار كيميائي أم لم يوجد.',
+      'يعلّم الكتاب المقدس أن الله يعطي الجميع حياة ونفسًا وكل شيء (أعمال ١٧: ٢٥)، وأن في الكلمة كانت الحياة (يوحنا ١: ٤). فالحياة عطية الله.',
     ],
   },
   argumentTypes: ['scientific', 'philosophical', 'theological'],
@@ -44,12 +44,12 @@ export const article: Article = {
   },
   whyExamine: {
     en: [
-      'The two questions are constantly mixed in public argument. Critics of evolution say that it fails because it cannot explain how life began, and defenders of evolution sometimes speak as if the beginning of life were as settled as the history of species. Both moves confuse a reader about what has been shown.',
-      'It is also a place where believers and non-believers alike are tempted to claim more than they know. An honest answer states the state of research and says what follows from it and what does not.',
+      'The two questions are constantly mixed in public argument. Some say evolution fails because it cannot explain how life began; others speak as if the beginning of life were as settled as the history of species. Both confuse the reader about what has been shown.',
+      'Seeing the difference frees the believer. Faith in God as Creator and Giver of life does not need to win a race against chemistry, and the Christian can follow the research with calm interest and give thanks for the gift of life.',
     ],
     ar: [
-      'يُخلط السؤالان باستمرار في الجدل العام. فمنتقدو التطور يقولون إنه يفشل لأنه لا يفسّر كيف بدأت الحياة، ويتكلم المدافعون عن التطور أحيانًا كأن بداية الحياة مقرَّرة قدر تاريخ الأنواع. وكلتا الخطوتين تُربكان القارئ في ما ثبت.',
-      'وهو أيضًا موضع يغري المؤمنين وغير المؤمنين بأن يدّعوا أكثر مما يعلمون. والجواب الأمين يذكر حال البحث، ويقول ما يترتب عليه وما لا يترتب.',
+      'يُخلط السؤالان باستمرار في الجدل العام. فبعضهم يقول إن التطور يفشل لأنه لا يفسّر كيف بدأت الحياة؛ ويتكلم آخرون كأن بداية الحياة مقرَّرة قدر تاريخ الأنواع. وكلا الأمرين يربك القارئ في ما ثبت.',
+      'ورؤية الفرق تحرر المؤمن. فالإيمان بالله الخالق واهب الحياة لا يحتاج إلى أن يكسب سباقًا مع الكيمياء، ويستطيع المسيحي أن يتابع البحث باهتمام هادئ وأن يشكر على عطية الحياة.',
     ],
   },
   background: {
@@ -76,8 +76,8 @@ export const article: Article = {
       argumentType: 'scientific',
       assessment: 'supported_disputed_details',
       rationale: {
-        en: 'Standard descriptions of the theory by scientific bodies place its scope at life that already exists. The evidence for common descent (fossils, genetics, anatomy) is evidence about what happened after life began.',
-        ar: 'تحدد الأوصاف المعيارية للنظرية عند الهيئات العلمية نطاقها بالحياة الموجودة فعلًا. وأدلة الأصل المشترك (المستحاثات والوراثة والتشريح) أدلة عما حدث بعد بدء الحياة.',
+        en: 'Standard descriptions of the theory place its scope at life that already exists. The evidence for common descent, from fossils, genetics and anatomy, is evidence about what happened after life began.',
+        ar: 'تحدد الأوصاف المعيارية للنظرية نطاقها بالحياة الموجودة فعلًا. وأدلة الأصل المشترك، من المستحاثات والوراثة والتشريح، أدلة عما حدث بعد بدء الحياة.',
       },
       limits: {
         en: 'Some writers use “evolution” loosely to include the origin of life. The distinction here is that of the scientific literature, not of every popular use of the word.',
@@ -94,8 +94,8 @@ export const article: Article = {
       argumentType: 'scientific',
       assessment: 'actively_debated',
       rationale: {
-        en: 'This is the position that researchers in the field themselves describe. The site does not review the primary research and relies on the reference sources cited.',
-        ar: 'هذا هو الموقف الذي يصفه الباحثون في الميدان أنفسهم. ولا يراجع الموقع الأبحاث الأولية ويعتمد على المراجع المستشهد بها.',
+        en: 'Researchers describe their own field this way: real progress on some steps, such as the formation of building blocks and simple membranes, and no demonstrated route from simple chemicals to a living cell.',
+        ar: 'يصف الباحثون ميدانهم بهذه الطريقة: تقدم حقيقي في بعض الخطوات، كتكوّن اللبنات الأساسية والأغشية البسيطة، ولا مسار مثبت من مواد بسيطة إلى خلية حية.',
       },
       limits: {
         en: 'An unsolved problem does not show that it has no natural solution, and it does not show that it has one. The history of science has examples of both patterns.',
@@ -106,14 +106,14 @@ export const article: Article = {
     {
       id: 'c3',
       proposition: {
-        en: 'Christian faith in God as the giver of life does not depend on how life began, and it should not be rested on a gap in current knowledge.',
-        ar: 'الإيمان المسيحي بالله واهب الحياة لا يتوقف على كيفية بدء الحياة، وينبغي ألا يقوم على فجوة في المعرفة الحالية.',
+        en: 'Christian faith in God as the Giver of life does not depend on how life began, and it is not rested on a gap in current knowledge.',
+        ar: 'الإيمان المسيحي بالله واهب الحياة لا يتوقف على كيفية بدء الحياة، ولا يقوم على فجوة في المعرفة الحالية.',
       },
       argumentType: 'theological',
       assessment: 'theological_interpretation',
       rationale: {
-        en: 'Scripture and the Fathers teach that God is the source of life, in a way that is true of every living thing at every moment. They do not make that teaching depend on a particular account of the first living thing.',
-        ar: 'يعلّم الكتاب المقدس والآباء أن الله مصدر الحياة، وهذا صحيح في كل كائن حي في كل لحظة. ولا يجعلون هذا التعليم متوقفًا على تفسير محدد لأول كائن حي.',
+        en: 'Scripture and the Fathers teach that God is the source of life for every living thing at every moment: in Him we live and move and have our being. That truth does not wait on a particular account of the first living thing.',
+        ar: 'يعلّم الكتاب المقدس والآباء أن الله مصدر الحياة لكل كائن حي في كل لحظة: فبه نحيا ونتحرك ونوجد. وهذا الحق لا ينتظر تفسيرًا محددًا لأول كائن حي.',
       },
       limits: {
         en: 'It is the Church’s teaching on God and life. It does not decide any scientific question, and a reader who does not share the faith is not asked to accept it to weigh claims 1 and 2.',
@@ -208,12 +208,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The comparison assumes that a cell would have to form in one random step. Researchers propose instead gradual stages, with simpler self-copying systems that can be selected and improved, so that the relevant probability is of each step and not of the final product. We do not know the number or probability of those steps, and critics of the proposals say that the steps themselves are still hard to explain. This is why the question is open.',
-          'Defenders of a design argument do not need to rely on this calculation, and many careful ones do not. The honest position is that no one can at present put a reliable number on the probability of life arising naturally, so the argument from a tiny number is not established.',
+          'The comparison assumes that a cell would have to form in one random step, but researchers propose gradual stages, not a single leap. The tornado argument therefore misses its target, and the Christian does not need it.',
+          'The Christian case for God as the source of life never rested on a calculation of odds. It rests on God’s self-revelation and on the very existence of a world whose laws make life possible at all. Whether life’s chemistry was likely or unlikely, it is God who gives life.',
         ],
         ar: [
-          'تفترض المقارنة أن الخلية يجب أن تتكون في خطوة عشوائية واحدة. أما الباحثون فيقترحون مراحل تدريجية، بمنظومات أبسط تنسخ نفسها ويمكن انتخابها وتحسينها، بحيث يكون الاحتمال المعني هو احتمال كل خطوة لا المنتج النهائي. ونحن لا نعرف عدد هذه الخطوات ولا احتمالها، ويقول ناقدو المقترحات إن الخطوات نفسها ما زالت عسيرة التفسير. ولهذا فالسؤال مفتوح.',
-          'ولا يحتاج المدافعون عن حجة التصميم إلى الاعتماد على هذا الحساب، وكثير من الحصفاء منهم لا يعتمدون عليه. والموقف الصادق أن لا أحد يستطيع الآن أن يضع رقمًا موثوقًا لاحتمال نشوء الحياة طبيعيًا، فحجة الرقم الضئيل غير ثابتة.',
+          'تفترض المقارنة أن الخلية يجب أن تتكون في خطوة عشوائية واحدة، أما الباحثون فيقترحون مراحل تدريجية لا قفزة واحدة. فحجة الإعصار تخطئ هدفها، والمسيحي لا يحتاج إليها.',
+          'والحجة المسيحية لكون الله مصدر الحياة لم تقم قط على حساب الاحتمالات. بل تقوم على إعلان الله عن نفسه، وعلى وجود عالم تجعل قوانينه الحياة ممكنة أصلًا. وسواء كانت كيمياء الحياة مرجحة أو غير مرجحة، فالله هو الذي يعطي الحياة.',
         ],
       },
       limits: {
@@ -230,12 +230,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'This is the form in which some design proponents state the argument. They point to the fact that the genetic system is a coding system and argue that no known natural process has been shown to produce such a system. Their argument deserves a hearing and is made by serious people.',
-          'Critics reply that “information” and “code” are metaphors when applied to chemistry, that the properties of molecules can produce ordered patterns without a mind, and that we do not yet know enough about early chemistry to say what natural processes can do. They also note that the argument from what has not yet been explained is open to being answered by later work. Christians who accept the argument may hold it as a reason, among others, and those who do not may hold the faith without it.',
+          'The order and richness of living things do speak of the wisdom of their Maker, as the Psalms say that the works of God declare His glory. The genetic system is a marvel, and wonder at it is a fitting response.',
+          'Yet the Christian should not stake this on what chemistry has not yet explained. If a natural pathway to the genetic code were one day found, the laws and possibilities of chemistry would themselves be God’s work. The design the believer sees is in the whole of creation, not only in its present gaps.',
         ],
         ar: [
-          'هذه هي الصيغة التي يعرض بها بعض أنصار التصميم الحجة. فهم يشيرون إلى أن المنظومة الوراثية منظومة ترميز، ويحتجون بأنه لم يثبت أن عملية طبيعية معروفة أنتجت منظومة كهذه. وحجتهم تستحق أن تُسمع ويقدمها أناس جادون.',
-          'ويردّ الناقدون بأن «المعلومات» و«الشفرة» استعارتان حين تُطبقان على الكيمياء، وبأن خصائص الجزيئات تستطيع أن تنتج أنماطًا منظمة بلا عقل، وبأننا لا نعرف بعد من الكيمياء المبكرة ما يكفي لنقول ما تستطيعه العمليات الطبيعية. ويلاحظون أيضًا أن الحجة المبنية على ما لم يُفسَّر بعد معرّضة لأن يجيب عنها عمل لاحق. ومن المسيحيين من يأخذ بالحجة سببًا من أسباب، ومنهم من لا يأخذ بها ويتمسك بالإيمان دونها.',
+          'نظام الكائنات الحية وغناها يتكلمان فعلًا عن حكمة صانعها، كما تقول المزامير إن أعمال الله تخبر بمجده. والمنظومة الوراثية أعجوبة، والتعجب منها استجابة لائقة.',
+          'ومع ذلك لا ينبغي للمسيحي أن يراهن بهذا على ما لم تفسّره الكيمياء بعد. فلو وُجد يومًا مسار طبيعي إلى الشفرة الوراثية، لكانت قوانين الكيمياء وإمكاناتها نفسها عمل الله. والتصميم الذي يراه المؤمن هو في الخليقة كلها، لا في فجواتها الحالية فقط.',
         ],
       },
       limits: {
@@ -251,12 +251,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'A theory is judged by what it explains and predicts within its own domain. The evidence for evolution (fossil sequences, genetic similarity, observed change) holds whatever the origin of the first living thing. Other sciences work in the same way: the theory of gravity was successful before anyone knew the origin of the solar system.',
-          'This does not make the origin of life unimportant. It is one of the great open problems of science, and honest scientists say so.',
+          'A theory is judged by what it explains within its own domain. The evidence for evolution, from fossil sequences, genetic similarity and observed change, stands whatever the origin of the first living thing. Other sciences work the same way: the theory of gravity succeeded before anyone knew how the solar system formed.',
+          'The origin of life remains one of the great open problems of science, and it deserves honest study in its own right.',
         ],
         ar: [
-          'تُقيَّم النظرية بما تفسّره وتتنبأ به في ميدانها. وأدلة التطور (تسلسل المستحاثات، والتشابه الوراثي، والتغير المرصود) قائمة أيًّا كان أصل أول كائن حي. والعلوم الأخرى تعمل بالطريقة نفسها: فنظرية الجاذبية نجحت قبل أن يعرف أحد أصل المجموعة الشمسية.',
-          'وهذا لا يجعل نشأة الحياة غير مهمة. فهي من كبرى المسائل العلمية المفتوحة، ويقول ذلك العلماء الصادقون.',
+          'تُقيَّم النظرية بما تفسّره في ميدانها. وأدلة التطور، من تسلسل المستحاثات والتشابه الوراثي والتغير المرصود، قائمة أيًّا كان أصل أول كائن حي. والعلوم الأخرى تعمل بالطريقة نفسها: فنظرية الجاذبية نجحت قبل أن يعرف أحد كيف تكونت المجموعة الشمسية.',
+          'وتبقى نشأة الحياة من كبرى المسائل العلمية المفتوحة، وتستحق دراسة أمينة لذاتها.',
         ],
       },
       limits: {
@@ -273,12 +273,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The warning against resting faith on a gap is sound, and it is the position taken here. But the confident prediction that everything will be explained naturally is itself a philosophical expectation and not a result. The history of science supports the success of natural explanations in many areas, and it does not guarantee that every question will have one.',
-          'The Christian claim that God is the source of life is not a rival to a chemical account if there is one. It is a claim about why there is a world in which chemistry has such possibilities.',
+          'The Church agrees that faith should not rest on a gap. But the confident prediction that everything will be explained naturally is a philosophical expectation, not a scientific result.',
+          'More deeply, the Christian claim that God is the source of life is not a rival to a chemical account. It answers a different question: why there is a world at all, with laws and chemistry that make life possible, and why anything lives at every moment. That is the work of God the Creator, the Lord and Giver of life.',
         ],
         ar: [
-          'التحذير من إقامة الإيمان على فجوة سليم، وهو الموقف المتخذ هنا. غير أن التنبؤ الواثق بأن كل شيء سيُفسَّر طبيعيًا هو بدوره توقع فلسفي لا نتيجة. وتاريخ العلم يسند نجاح التفسيرات الطبيعية في ميادين كثيرة، ولا يضمن أن لكل سؤال تفسيرًا كهذا.',
-          'ودعوى المسيحية بأن الله مصدر الحياة ليست منافسة لتفسير كيميائي إن وُجد. فهي دعوى عن لماذا يوجد عالم تكون للكيمياء فيه هذه الإمكانات.',
+          'توافق الكنيسة على أن الإيمان لا ينبغي أن يقوم على فجوة. لكن التنبؤ الواثق بأن كل شيء سيُفسَّر طبيعيًا توقع فلسفي، لا نتيجة علمية.',
+          'وعلى نحو أعمق، فإن دعوى المسيحية بأن الله مصدر الحياة ليست منافسة لتفسير كيميائي. بل تجيب عن سؤال آخر: لماذا يوجد عالم أصلًا، بقوانين وكيمياء تجعل الحياة ممكنة، ولماذا يحيا شيء في كل لحظة. وهذا عمل الله الخالق، الرب المحيي.',
         ],
       },
       limits: {
@@ -291,10 +291,10 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'The origin of life is not a historical question in the sense of the sources for Jesus. It concerns events some billions of years ago, for which the evidence is geological and chemical. No historical case is made here.',
+        'The origin of life concerns events billions of years ago, and its evidence is geological and chemical rather than historical in the sense of written sources. What the record does show is that faith and the study of nature have long walked together: Scripture and the Fathers speak of God as the source of life without tying that truth to any theory of how the first life formed.',
       ],
       ar: [
-        'نشأة الحياة ليست سؤالًا تاريخيًا بمعنى مصادر يسوع. فهي تخص أحداثًا قبل بلايين السنين، والدليل عليها جيولوجي وكيميائي. ولا تُساق هنا حجة تاريخية.',
+        'تخص نشأة الحياة أحداثًا قبل بلايين السنين، ودليلها جيولوجي وكيميائي لا تاريخي بمعنى المصادر المكتوبة. وما يبيّنه السجل أن الإيمان ودراسة الطبيعة سارا معًا طويلًا: فالكتاب المقدس والآباء يتكلمون عن الله مصدرًا للحياة دون أن يربطوا هذا الحق بأي نظرية عن كيفية تكوّن الحياة الأولى.',
       ],
     },
     theological: {
@@ -331,8 +331,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'Evolution and the origin of life are different questions. Evolution is well established, and the origin of life is an open and active research problem. Neither the success of the first nor the gaps in the second settle whether God exists. The Church confesses God as the Giver of life, and holds that confession in thanksgiving and not as a competitor to chemistry.',
-    ar: 'التطور ونشأة الحياة سؤالان مختلفان. فالتطور مقرَّر جيدًا، ونشأة الحياة مسألة بحثية مفتوحة ونشطة. ولا نجاح الأول ولا فجوات الثانية يحسم هل الله موجود. وتعترف الكنيسة بالله واهب الحياة، وتتمسك بهذا الاعتراف شكرًا لا منافسًا للكيمياء.',
+    en: 'Evolution and the origin of life are different questions, and neither one decides the question of God. Science continues to study how life began, and the Christian can follow that work without fear. The Church confesses the Holy Spirit as the Lord and Giver of life and gives thanks for every living thing as God’s gift, received from Him at every moment.',
+    ar: 'التطور ونشأة الحياة سؤالان مختلفان، ولا يحسم أي منهما سؤال الله. ويواصل العلم دراسة كيف بدأت الحياة، ويستطيع المسيحي أن يتابع هذا العمل بلا خوف. وتعترف الكنيسة بالروح القدس الرب المحيي، وتشكر على كل كائن حي عطيةً من الله، ينالها منه في كل لحظة.',
   },
   furtherReading: ['S47', 'S48'],
   related: [

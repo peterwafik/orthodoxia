@@ -15,25 +15,25 @@ export const article: Article = {
     ar: 'مَن هم «إخوة» يسوع و«أخواته» في العهد الجديد. تعرض المقالة القراءات الرئيسية الثلاث (أشقاء، أو أبناء ليوسف من زواج سابق، أو أبناء عمومة وأقارب أبعد)، وتختبر كلًّا منها باستعمال الكتاب نفسه لكلمة «أخ»، وتبيّن قراءة الكنيسة القبطية الأرثوذكسية.',
   },
   shortAnswer: {
-    en: 'The New Testament names James, Joses, Simon and Judas and mentions sisters as Jesus’ “brothers” and “sisters”, but it never says they are the children of Mary. The Greek word and the Hebrew word behind it are used in Scripture of nephews, cousins and other relatives, so the word alone does not decide. The Coptic Orthodox Church, with the Church of the early centuries, holds that Mary remained ever-virgin and that these are relatives of Jesus, understood either as Joseph’s children from an earlier marriage or as cousins. Many Protestants and some historians read them as Mary’s own children; the text permits that reading but does not demand it.',
-    ar: 'يسمّي العهد الجديد يعقوب ويوسي وسمعان ويهوذا، ويذكر أخوات، «إخوة» ليسوع و«أخوات» له، لكنه لا يقول قط إنهم أبناء مريم. والكلمة اليونانية والكلمة العبرية التي وراءها تُستعملان في الكتاب لأبناء الإخوة وأبناء العمومة وأقارب آخرين، فلا تحسم الكلمة وحدها. وتعلّم الكنيسة القبطية الأرثوذكسية، مع كنيسة القرون الأولى، أن مريم بقيت دائمة البتولية وأن هؤلاء أقارب ليسوع، يُفهمون إما أبناءً ليوسف من زواج سابق وإما أبناء عمومة. ويقرؤهم كثير من البروتستانت وبعض المؤرخين أبناءً لمريم؛ والنص يسمح بذلك ولا يوجبه.',
+    en: 'The “brothers” and “sisters” of Jesus are His relatives, not children of the Virgin Mary. The New Testament names James, Joses, Simon and Judas, but it never calls them sons of Mary. In Scripture the word “brother” is used of nephews, cousins and kinsmen: Abram calls his nephew Lot his brother. The Gospels themselves name another Mary, at the cross, as the mother of James and Joses. And from the cross Jesus entrusted His mother to the beloved disciple, which He would not have needed to do if she had other sons. The Coptic Orthodox Church, with the Church of the early centuries, confesses that Mary remained ever-virgin.',
+    ar: '«إخوة» يسوع و«أخواته» هم أقاربه، لا أبناء للعذراء مريم. فالعهد الجديد يسمّي يعقوب ويوسي وسمعان ويهوذا، لكنه لا يدعوهم قط أبناء مريم. وفي الكتاب تُستعمل كلمة «أخ» لأبناء الإخوة وأبناء العمومة والأقارب: فأبرام يدعو لوطًا ابن أخيه أخاه. والأناجيل نفسها تسمّي مريم أخرى، عند الصليب، أمًّا ليعقوب ويوسي. ومن على الصليب أوصى يسوع بأمه للتلميذ الحبيب، وما كان ليحتاج إلى ذلك لو كان لها أبناء آخرون. وتعترف الكنيسة القبطية الأرثوذكسية، مع كنيسة القرون الأولى، بأن مريم بقيت دائمة البتولية.',
   },
   quickPoints: {
     en: [
       'Four brothers are named (James, Joses, Simon, Judas) and sisters are mentioned, in Mark 6:3 and Matthew 13:55–56.',
       'No passage says these are the sons and daughters of Mary; Mark 6:3 calls Jesus “the son of Mary” without saying the others are.',
       'Scripture uses “brother” of nephews and kin: Abram calls his nephew Lot a brother (Genesis 13:8), and Laban calls his nephew Jacob his brother (Genesis 29:15).',
-      'Three readings exist: full siblings (the Helvidian view), Joseph’s sons from an earlier marriage (the Epiphanian view), and cousins (the view of Jerome).',
-      'Some of the brothers did not believe in him during his ministry (John 7:5); James later leads the Jerusalem church (Acts 15; Galatians 1:19).',
-      'The Coptic Church holds Mary ever-virgin; the question is argued from Scripture’s language and the Church’s early tradition, and the text alone does not force a single answer.',
+      'Matthew 27:56 and Mark 15:40 name a different Mary, at the cross, as the mother of James and Joses.',
+      'At the cross Jesus entrusted His mother to the beloved disciple (John 19:26–27), a sign that she had no other sons to care for her.',
+      'The Coptic Church confesses Mary ever-virgin; Scripture’s own language and the Church’s early tradition agree.',
     ],
     ar: [
       'يُذكر أربعة إخوة بأسمائهم (يعقوب ويوسي وسمعان ويهوذا) وأخوات، في مرقس ٦: ٣ ومتى ١٣: ٥٥–٥٦.',
       'لا تقول فقرة إنهم أبناء مريم وبناتها؛ فمرقس ٦: ٣ يدعو يسوع «ابن مريم» دون أن يقول ذلك عن الآخرين.',
       'يستعمل الكتاب «أخ» لأبناء الإخوة والأقارب: يدعو أبرام لوطًا ابن أخيه أخًا (تكوين ١٣: ٨)، ويدعو لابان يعقوب ابن أخته أخًا (تكوين ٢٩: ١٥).',
-      'هناك ثلاث قراءات: أشقاء (الرأي الهلفيدي)، وأبناء ليوسف من زواج سابق (الرأي الإبيفاني)، وأبناء عمومة (رأي جيروم).',
-      'لم يؤمن بعض الإخوة به أثناء خدمته (يوحنا ٧: ٥)؛ ثم صار يعقوب لاحقًا قائد كنيسة أورشليم (أعمال ١٥؛ غلاطية ١: ١٩).',
-      'تعلّم الكنيسة القبطية دوام بتولية مريم؛ والمسألة تُناقش من لغة الكتاب وتقليد الكنيسة الأول، ولا يفرض النص وحده جوابًا واحدًا.',
+      'يسمّي متى ٢٧: ٥٦ ومرقس ١٥: ٤٠ مريم أخرى، عند الصليب، أمًّا ليعقوب ويوسي.',
+      'عند الصليب أوصى يسوع بأمه للتلميذ الحبيب (يوحنا ١٩: ٢٦–٢٧)، علامةً على أنه لم يكن لها أبناء آخرون يرعونها.',
+      'تعترف الكنيسة القبطية بدوام بتولية مريم؛ ولغة الكتاب نفسها وتقليد الكنيسة الأول متفقان.',
     ],
   },
   argumentTypes: ['textual', 'historical', 'theological'],
@@ -46,24 +46,24 @@ export const article: Article = {
   },
   whyExamine: {
     en: [
-      'This is the passage most often raised against the Church’s teaching that Mary remained a virgin. A fair answer begins by saying what the text states and what it leaves open.',
-      'It also shows how the Church reads Scripture: by its own usage and within the faith received, and not by choosing the most obvious modern meaning of a word.',
+      'This is the question most often raised against the Church’s teaching that Mary remained a virgin. A believer should know what the text actually says, and see that it fits the Church’s faith.',
+      'It also shows how the Church reads Scripture: by Scripture’s own usage and within the faith received, not by reading a modern meaning into an ancient word.',
     ],
     ar: [
-      'هذه أكثر فقرة تُثار ضد تعليم الكنيسة أن مريم بقيت عذراء. والجواب المنصف يبدأ ببيان ما يقوله النص وما يتركه مفتوحًا.',
-      'وهي تبيّن كذلك كيف تقرأ الكنيسة الكتاب: بحسب استعماله هو، وداخل الإيمان المسلَّم، لا باختيار المعنى الحديث الأوضح للكلمة.',
+      'هذا أكثر سؤال يُثار ضد تعليم الكنيسة أن مريم بقيت عذراء. وينبغي للمؤمن أن يعرف ما يقوله النص فعلًا، وأن يرى أنه يلائم إيمان الكنيسة.',
+      'وهو يبيّن كذلك كيف تقرأ الكنيسة الكتاب: بحسب استعمال الكتاب نفسه وداخل الإيمان المسلَّم، لا بإسقاط معنى حديث على كلمة قديمة.',
     ],
   },
   background: {
     en: [
       'The passages. Mark 6:3 and Matthew 13:55–56 list four brothers by name and mention sisters. John 7:5 says his brothers did not believe in him. Acts 1:14 places his brothers with Mary and the apostles in prayer after the Ascension. St Paul speaks of James as the Lord’s brother (Galatians 1:19) and of the brothers of the Lord in a general way (1 Corinthians 9:5). Josephus, a non-Christian Jewish historian, mentions James as the brother of Jesus called Christ (Antiquities 20.200). These texts are read here as ancient documents.',
       'The word. The Greek adelphos normally means a brother, but in Scripture it also covers wider relationships, as the Hebrew and Aramaic word for brother does. Abram calls Lot his brother although Lot was his brother’s son (Genesis 13:8; 14:14). Laban says to Jacob, his sister’s son, that he is his brother (Genesis 29:15). In 1 Chronicles 23:21–22 the daughters of Eleazar are married to their “brothers”, the sons of Kish, who were their cousins. Greek had a distinct word for cousin (anepsios, used in Colossians 4:10), so the New Testament writers could have used it; this is the strongest point for those who read the brothers as full siblings.',
-      'The Marys at the cross. Matthew 27:56 and Mark 15:40 name a Mary who was the mother of James and Joses; John 19:25 names Mary the wife of Clopas among the women at the cross. On the usual Coptic and patristic reading, the James and Joses of the Gospels’ lists are sons of this other Mary, and so cousins of Jesus. This identification is a reading of the lists and is not stated in so many words.',
+      'The Marys at the cross. Matthew 27:56 and Mark 15:40 name a Mary who was the mother of James and Joses; John 19:25 names Mary the wife of Clopas among the women at the cross. On the usual Coptic and patristic reading, the James and Joses of the Gospels’ lists are sons of this other Mary, and so cousins of Jesus. The identification comes from comparing the Gospels’ own lists.',
     ],
     ar: [
       'الفقرات. يذكر مرقس ٦: ٣ ومتى ١٣: ٥٥–٥٦ أربعة إخوة بأسمائهم ويذكران أخوات. ويقول يوحنا ٧: ٥ إن إخوته لم يؤمنوا به. وتضع أعمال الرسل ١: ١٤ إخوته مع مريم والرسل في الصلاة بعد الصعود. ويتكلم القديس بولس عن يعقوب أخي الرب (غلاطية ١: ١٩) وعن إخوة الرب عامةً (١ كورنثوس ٩: ٥). ويذكر يوسيفوس، المؤرخ اليهودي غير المسيحي، يعقوب أخا يسوع الذي يُدعى المسيح (العاديات ٢٠: ٢٠٠). وتُقرأ هذه النصوص هنا وثائق قديمة.',
       'الكلمة. تعني الكلمة اليونانية «أدلفوس» عادةً الأخ، لكنها في الكتاب تشمل علاقات أوسع، كما تفعل الكلمة العبرية والآرامية للأخ. فأبرام يدعو لوطًا أخاه مع أنه ابن أخيه (تكوين ١٣: ٨؛ ١٤: ١٤). ولابان يقول ليعقوب ابن أخته إنه أخوه (تكوين ٢٩: ١٥). وفي ١ أخبار الأيام ٢٣: ٢١–٢٢ تتزوج بنات ألعازار من «إخوتهن» بني قيس وهم أبناء عمهن. وكان لليونانية لفظ خاص لابن العم (أنيبسيوس، ويرد في كولوسي ٤: ١٠)، فكان بوسع كتّاب العهد الجديد استعماله؛ وهذه أقوى نقطة عند من يقرأون الإخوة أشقاء.',
-      'المريمات عند الصليب. يذكر متى ٢٧: ٥٦ ومرقس ١٥: ٤٠ مريم أم يعقوب ويوسي، ويذكر يوحنا ١٩: ٢٥ مريم زوجة كلوبا بين النساء عند الصليب. وبحسب القراءة القبطية والآبائية المعتادة فإن يعقوب ويوسي في قوائم الأناجيل ابنا هذه المريم الأخرى، فهما ابنا عمة ليسوع. وهذا التعيين قراءة للقوائم وليس منصوصًا عليه حرفيًا.',
+      'المريمات عند الصليب. يذكر متى ٢٧: ٥٦ ومرقس ١٥: ٤٠ مريم أم يعقوب ويوسي، ويذكر يوحنا ١٩: ٢٥ مريم زوجة كلوبا بين النساء عند الصليب. وبحسب القراءة القبطية والآبائية المعتادة فإن يعقوب ويوسي في قوائم الأناجيل ابنا هذه المريم الأخرى، فهما ابنا عمة ليسوع. ويأتي هذا التعيين من مقارنة قوائم الأناجيل نفسها.',
     ],
   },
   glossary: ['perpetual-virginity', 'tradition', 'gospel', 'primary-source'],
@@ -78,8 +78,8 @@ export const article: Article = {
       argumentType: 'textual',
       assessment: 'strong_historical_support',
       rationale: {
-        en: 'The lists in Mark and Matthew name Mary only as the mother of Jesus. Nothing in the passages gives the parentage of the others.',
-        ar: 'تذكر القوائم في مرقس ومتى مريم أمًّا ليسوع فقط، ولا شيء في الفقرات يعطي والدي الآخرين.',
+        en: 'The lists in Mark and Matthew name Mary only as the mother of Jesus. Mark calls Him “the son of Mary”, not “a son of Mary”, and where the Gospels do name a mother for James and Joses, she is another Mary.',
+        ar: 'تذكر القوائم في مرقس ومتى مريم أمًّا ليسوع وحده. ويدعوه مرقس «ابن مريم» لا «أحد أبناء مريم»، وحيث تذكر الأناجيل أمًّا ليعقوب ويوسي فهي مريم أخرى.',
       },
       limits: {
         en: 'Silence on parentage also does not show they were not her children.',
@@ -90,14 +90,14 @@ export const article: Article = {
     {
       id: 'c2',
       proposition: {
-        en: 'In Scripture “brother” can name a nephew, cousin or other kinsman, so the word alone does not decide the question.',
-        ar: 'تدل «أخ» في الكتاب على ابن الأخ أو ابن العم أو قريب آخر، فلا تحسم الكلمة وحدها المسألة.',
+        en: 'In Scripture “brother” names nephews, cousins and other kinsmen, so the word gives no reason to think these were Mary’s children.',
+        ar: 'تدل «أخ» في الكتاب على ابن الأخ وابن العم وأقارب آخرين، فلا تعطي الكلمة سببًا للظن بأنهم أبناء مريم.',
       },
       argumentType: 'textual',
       assessment: 'supported_disputed_details',
       rationale: {
-        en: 'Genesis 13:8, 14:14, 29:15 and 1 Chronicles 23:21–22 use the word of kin who are not full siblings.',
-        ar: 'تستعمل تكوين ١٣: ٨ و١٤: ١٤ و٢٩: ١٥ و١ أخبار ٢٣: ٢١–٢٢ الكلمة لأقارب ليسوا أشقاء.',
+        en: 'Genesis 13:8, 14:14, 29:15 and 1 Chronicles 23:21–22 use the word of nephews and cousins. The evangelists knew these books well, and the family in Nazareth spoke Aramaic, which used one word for the whole circle of kin.',
+        ar: 'تستعمل تكوين ١٣: ٨ و١٤: ١٤ و٢٩: ١٥ و١ أخبار ٢٣: ٢١–٢٢ الكلمة لأبناء الإخوة وأبناء العمومة. وقد عرف الإنجيليون هذه الأسفار جيدًا، وكانت أسرة الناصرة تتكلم الآرامية التي تستعمل كلمة واحدة لدائرة الأقارب كلها.',
       },
       limits: {
         en: 'Possible usage does not prove actual usage in the Gospels. Greek had a separate word for cousin, which some take as telling against the wider sense here.',
@@ -108,14 +108,14 @@ export const article: Article = {
     {
       id: 'c3',
       proposition: {
-        en: 'The Coptic Orthodox reading, that these are relatives and Mary remained ever-virgin, is a position of the Church’s faith and is consistent with the text.',
-        ar: 'قراءة الكنيسة القبطية الأرثوذكسية، أنهم أقارب وأن مريم بقيت دائمة البتولية، موقف من إيمان الكنيسة ويتفق مع النص.',
+        en: 'The Coptic Orthodox faith, that these are relatives and that Mary remained ever-virgin, fits the text and is supported by the Gospels’ own details.',
+        ar: 'إيمان الكنيسة القبطية الأرثوذكسية، أنهم أقارب وأن مريم بقيت دائمة البتولية، يلائم النص وتسنده تفاصيل الأناجيل نفسها.',
       },
       argumentType: 'theological',
       assessment: 'theological_interpretation',
       rationale: {
-        en: 'The text permits the reading; the Church holds it as part of its reception of Scripture and its worship, and supports it with John 19:25–27 and the lists of the women at the cross.',
-        ar: 'النص يسمح بالقراءة؛ والكنيسة تحفظها جزءًا من تقبلها للكتاب وعبادتها، وتسندها بيوحنا ١٩: ٢٥–٢٧ وقوائم النساء عند الصليب.',
+        en: 'The women at the cross include a Mary who is the mother of James and Joses. Jesus, dying, gave His mother into the care of the beloved disciple, which would have been strange if she had living sons. And the Church has confessed her ever-virgin in her worship from the early centuries.',
+        ar: 'بين النساء عند الصليب مريم هي أم يعقوب ويوسي. ويسوع وهو يموت سلّم أمه إلى رعاية التلميذ الحبيب، وكان ذلك سيكون غريبًا لو كان لها أبناء أحياء. وقد اعترفت الكنيسة بها دائمة البتولية في عبادتها منذ القرون الأولى.',
       },
       limits: {
         en: 'It does not show that the other readings are impossible, and it does not claim that the New Testament alone proves perpetual virginity.',
@@ -285,12 +285,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The point has force, and Greek did have a word for cousin. But the New Testament writers were steeped in the Greek Old Testament, where “brother” is used of kin who are not siblings, and Semitic-speaking families used one word for a wide circle. In Mark’s Aramaic-speaking setting, the speakers in Nazareth would use their own wide term.',
-          'The Church does hold the doctrine of perpetual virginity first, and says so; her reading of the word is made within that faith. What is shown here is that the text does not rule the reading out.',
+          'Greek did have a word for cousin, but the evangelists were steeped in the Greek Old Testament, where “brother” is used of nephews and cousins. The people of Nazareth, whose words Mark reports, spoke Aramaic, which used one word for the whole circle of kin. The Gospels kept the family’s own way of speaking.',
+          'Nor is the Church’s reading imposed on the text. It grows from the text: from the other Mary named as mother of James and Joses, and from Jesus entrusting His mother to John. The faith the Church received and the Scriptures she reads say the same thing.',
         ],
         ar: [
-          'للاعتراض وجاهته، وقد كان لليونانية لفظ لابن العم. لكن كتّاب العهد الجديد نشأوا على العهد القديم اليوناني حيث تُستعمل «أخ» لأقارب ليسوا أشقاء، وكانت الأسر الناطقة بالساميات تستعمل لفظًا واحدًا لدائرة واسعة. وفي بيئة مرقس الآرامية يستعمل المتكلمون في الناصرة لفظهم الواسع.',
-          'والكنيسة تحفظ عقيدة دوام البتولية أولًا وتقول ذلك؛ وقراءتها للكلمة تتم داخل ذلك الإيمان. وما يتبين هنا أن النص لا يستبعد القراءة.',
+          'كان لليونانية فعلًا لفظ لابن العم، لكن الإنجيليين نشأوا على العهد القديم اليوناني حيث تُستعمل «أخ» لأبناء الإخوة وأبناء العمومة. وكان أهل الناصرة، الذين ينقل مرقس كلامهم، يتكلمون الآرامية التي تستعمل لفظًا واحدًا لدائرة الأقارب كلها. فحفظت الأناجيل طريقة الأسرة نفسها في الكلام.',
+          'وليست قراءة الكنيسة مفروضة على النص، بل تنبع منه: من مريم الأخرى المذكورة أمًّا ليعقوب ويوسي، ومن تسليم يسوع أمه ليوحنا. والإيمان الذي تسلّمته الكنيسة والكتب التي تقرؤها يقولان الشيء نفسه.',
         ],
       },
       limits: {
@@ -307,12 +307,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'It is true that the New Testament does not mention an earlier marriage of Joseph and that the earliest witness to this account is the second-century Protevangelium, which the Church does not receive as Scripture. In the fourth century Epiphanius argued for this reading, and Jerome argued instead for cousins against Helvidius, who held that they were Mary’s own children.',
-          'The Coptic reading does not depend on the earlier-marriage account: the cousin reading rests on the biblical usage above. The Church is content to hold that they are relatives of Jesus without fixing which kind.',
+          'The Church does not rest her faith on the Protevangelium, which she does not receive as Scripture. That book is simply an early witness, from the second century, that Christians already held Mary ever-virgin. In the fourth century St Epiphanius and St Jerome both defended her perpetual virginity against Helvidius, who taught that these were her own children.',
+          'The Coptic faith does not depend on any account of an earlier marriage. It rests on Scripture’s own use of the word “brother” and on the Gospels’ details. Whether these relatives were cousins or Joseph’s sons, they were not sons of the Virgin.',
         ],
         ar: [
-          'صحيح أن العهد الجديد لا يذكر زواجًا سابقًا ليوسف، وأن أقدم شاهد لهذه الرواية إنجيل يعقوب الأول من القرن الثاني الذي لا تقبله الكنيسة كتابًا مقدسًا. وفي القرن الرابع دافع إبيفانيوس عن هذه القراءة، ودافع جيروم بدلها عن أبناء العمومة ضد هلفيديوس الذي رأى أنهم أبناء مريم نفسها.',
-          'ولا تتوقف القراءة القبطية على رواية الزواج السابق: فقراءة أبناء العمومة تقوم على الاستعمال الكتابي أعلاه. وتكتفي الكنيسة بأنهم أقارب ليسوع دون تحديد أي نوع.',
+          'لا تبني الكنيسة إيمانها على إنجيل يعقوب الأول، فهي لا تقبله كتابًا مقدسًا. وهذا الكتاب مجرد شاهد مبكر، من القرن الثاني، على أن المسيحيين كانوا يؤمنون بدوام بتولية مريم. وفي القرن الرابع دافع القديس إبيفانيوس وجيروم كلاهما عن دوام بتوليتها ضد هلفيديوس الذي علّم أنهم أبناؤها.',
+          'ولا يتوقف الإيمان القبطي على أي رواية عن زواج سابق. بل يقوم على استعمال الكتاب نفسه لكلمة «أخ» وعلى تفاصيل الأناجيل. وسواء كان هؤلاء الأقارب أبناء عمومة أو أبناء يوسف، فلم يكونوا أبناء العذراء.',
         ],
       },
       limits: {
@@ -325,18 +325,18 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'Historically: the Gospels and St Paul know of brothers of Jesus, and one of them, James, became a leader in Jerusalem and is mentioned by Josephus. The word does not say whose children they were. Different Christians in the fourth century held different readings, which shows that the question was open to discussion within the Church while the perpetual virginity of Mary was widely affirmed.',
+        'The Gospels and St Paul the Apostle know of brothers of Jesus, and one of them, James, became a leader of the Church in Jerusalem and is mentioned by Josephus. None of these sources calls them children of Mary. By the fourth century the Fathers explained the relationship in more than one way, as cousins or as Joseph’s sons, but they were united in confessing Mary ever-virgin. That shared faith is the Church’s witness.',
       ],
       ar: [
-        'تاريخيًا: تعرف الأناجيل وبولس إخوة ليسوع، وصار أحدهم، يعقوب، قائدًا في أورشليم ويذكره يوسيفوس. والكلمة لا تقول من هما والداهم. وقد تمسك مسيحيون في القرن الرابع بقراءات مختلفة، مما يبين أن المسألة كانت قابلة للنقاش داخل الكنيسة بينما كانت البتولية الدائمة لمريم مؤكدة على نطاق واسع.',
+        'تعرف الأناجيل والقديس بولس الرسول إخوة ليسوع، وصار أحدهم، يعقوب، قائدًا لكنيسة أورشليم ويذكره يوسيفوس. ولا يدعوهم أي من هذه المصادر أبناء مريم. وفي القرن الرابع شرح الآباء القرابة بأكثر من طريقة، أبناءَ عمومة أو أبناءً ليوسف، لكنهم كانوا متحدين في الاعتراف بمريم دائمة البتولية. وهذا الإيمان المشترك هو شهادة الكنيسة.',
       ],
     },
     theological: {
       en: [
-        'The Church confesses that Mary is ever-virgin. She reads the brothers within that confession, using Scripture’s own wide sense of the word, and sees in the entrusting of Mary to John at the cross a sign of her unique place. Those who hold the full-sibling reading are fellow Christians whose reasons are heard fairly; the Church simply does not find the text forcing them.',
+        'The Church confesses that Mary is ever-virgin. She reads the brothers within that confession, using Scripture’s own wide sense of the word, and sees in the entrusting of Mary to John at the cross a sign of her unique place. Those who hold the full-sibling reading are fellow Christians, and the Church answers them with love from Scripture itself.',
       ],
       ar: [
-        'تعترف الكنيسة بأن مريم دائمة البتولية. وتقرأ الإخوة داخل هذا الاعتراف، مستعملة المعنى الواسع للكلمة في الكتاب، وترى في تسليم مريم ليوحنا عند الصليب علامة على مكانتها الفريدة. ومن يقولون بقراءة الأشقاء مسيحيون إخوة نسمع أسبابهم بإنصاف؛ ولا ترى الكنيسة أن النص يلزمهم.',
+        'تعترف الكنيسة بأن مريم دائمة البتولية. وتقرأ الإخوة داخل هذا الاعتراف، مستعملة المعنى الواسع للكلمة في الكتاب، وترى في تسليم مريم ليوحنا عند الصليب علامة على مكانتها الفريدة. ومن يقولون بقراءة الأشقاء مسيحيون إخوة، وتجيبهم الكنيسة بمحبة من الكتاب نفسه.',
       ],
     },
   },
@@ -357,8 +357,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'The brothers and sisters of Jesus are named in the Gospels, but their parentage is not given, and Scripture itself uses “brother” of wider kin. The Coptic Orthodox Church reads them as relatives and holds Mary ever-virgin; other Christians read them as her children. The text permits more than one reading, and the Church’s answer comes from her faith received with the Scriptures.',
-    ar: 'إخوة يسوع وأخواته مذكورون في الأناجيل، لكن نسبهم غير مذكور، والكتاب نفسه يستعمل «أخ» لأقارب أبعد. وتقرؤهم الكنيسة القبطية الأرثوذكسية أقارب وتحفظ دوام بتولية مريم؛ ويقرؤهم مسيحيون آخرون أبناءً لها. والنص يسمح بأكثر من قراءة، وجواب الكنيسة يأتي من إيمانها المتسلَّم مع الكتب.',
+    en: 'The brothers and sisters of Jesus are His kinsmen. The Gospels never call them Mary’s children, Scripture uses “brother” for wider kin, another Mary is named as the mother of James and Joses, and the dying Lord entrusted His mother to John. The Coptic Orthodox Church, with the Fathers, confesses the Virgin Mary ever-virgin: she who bore God the Word remained a virgin always.',
+    ar: 'إخوة يسوع وأخواته هم أقرباؤه. فالأناجيل لا تدعوهم قط أبناء مريم، والكتاب يستعمل «أخ» لأقارب أبعد، ومريم أخرى مذكورة أمًّا ليعقوب ويوسي، والرب وهو يموت أوصى بأمه ليوحنا. وتعترف الكنيسة القبطية الأرثوذكسية، مع الآباء، بالعذراء مريم دائمة البتولية: فالتي ولدت الله الكلمة بقيت عذراء على الدوام.',
   },
   furtherReading: ['S62', 'S03'],
   related: [

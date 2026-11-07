@@ -15,23 +15,23 @@ export const article: Article = {
     ar: 'هل عاش رجل يهودي اسمه يسوع في اليهودية والجليل في القرن الأول وصُلب؟ لا يسأل هذا المقال هل كان إلهًا أو صنع معجزات أو قام من الأموات، فتلك أسئلة مستقلة لها مقالاتها.',
   },
   shortAnswer: {
-    en: 'Yes. Historians of antiquity, Christian and non-Christian alike, overwhelmingly treat the existence of Jesus as a settled historical question. The reasons are ordinary ones: very early letters by a man who met Jesus’ own brother, two independent lines of outside report, and the fact that the movement’s founder was executed in a shameful way that its own followers would hardly have invented. The conclusion is modest. It establishes that he lived and died; it does not by itself establish what Christians believe about him.',
-    ar: 'نعم. يرى مؤرخو العالم القديم، مسيحيين وغير مسيحيين، بأغلبية ساحقة أن وجود يسوع مسألة تاريخية محسومة. وأسباب ذلك أسباب عادية: رسائل مبكرة جدًا كتبها رجل التقى أخا يسوع نفسه، وخطّان مستقلان من الأخبار من خارج الجماعة، وكون مؤسس الحركة أُعدم إعدامًا مخزيًا لا يرجَّح أن يخترعه أتباعه. والنتيجة متواضعة: هي تثبت أنه عاش ومات، ولا تثبت وحدها ما يؤمن به المسيحيون عنه.',
+    en: 'Yes. Jesus of Nazareth truly lived in first-century Galilee and Judea and was crucified under Pontius Pilate. The evidence is strong and comes from several directions. St Paul the Apostle, writing in the AD 50s, met Jesus’ own brother James and the apostle Peter. Two outside writers, the Jewish historian Josephus and the Roman historian Tacitus, mention Him, and Tacitus records His execution under Pilate. And His followers proclaimed a crucified Lord, a death so shameful in their world that no one would have invented it. The Church proclaims not a myth but the eternal Word who became man in a real place and time.',
+    ar: 'نعم. لقد عاش يسوع الناصري حقًا في الجليل واليهودية في القرن الأول، وصُلب في عهد بيلاطس البنطي. والأدلة قوية وتأتي من جهات عدة. فالقديس بولس الرسول، الذي كتب في خمسينيات القرن الأول، التقى يعقوب أخا يسوع نفسه والرسول بطرس. ويذكره كاتبان من الخارج، المؤرخ اليهودي يوسيفوس والمؤرخ الروماني تاكيتوس، ويسجّل تاكيتوس إعدامه في عهد بيلاطس. وقد كرز أتباعه بربٍّ مصلوب، وهي ميتة مخزية جدًا في عالمهم لم يكن أحد ليخترعها. والكنيسة لا تكرز بأسطورة، بل بالكلمة الأزلي الذي صار إنسانًا في مكان وزمان حقيقيين.',
   },
   quickPoints: {
     en: [
       'St Paul’s letters, usually dated to the AD 50s, speak of Jesus’ brother James, of the Lord’s Supper and of the crucifixion, and say St Paul met James and Peter within a few years of his own change of mind.',
-      'Tacitus (c. AD 115–120) says Christus was executed under Pontius Pilate; Josephus (c. AD 93–94) mentions James as the brother of Jesus called Christ. Neither was an eyewitness, and the longer Josephus passage has been reworked by Christians.',
-      'Hostile ancient critics of Christianity argued against Jesus’ claims and character; the surviving ones do not claim he never lived.',
-      'The theory that Jesus was invented from a purely heavenly figure is a minority position among historians, for reasons set out below.',
-      'Showing that Jesus existed is not showing that he rose or is God. It is only the first step.',
+      'Tacitus (c. AD 115–120) says Christus was executed under Pontius Pilate; Josephus (c. AD 93–94) mentions James as the brother of Jesus called Christ. These are independent outside witnesses, one of them openly hostile.',
+      'Hostile ancient critics of Christianity argued against Jesus’ claims and character, but they never claimed that He had not lived.',
+      'The theory that Jesus was invented from a purely heavenly figure has to set aside the plain meaning of the earliest evidence, and it fails for that reason.',
+      'That Jesus lived is the first step. Who He is, the Son of God who rose from the dead, is the faith the Church proclaims on the witness of the apostles.',
     ],
     ar: [
       'تتحدث رسائل القديس بولس، التي يؤرَّخ أغلبها في خمسينيات القرن الأول، عن يعقوب أخي الرب وعن عشاء الرب وعن الصلب، ويقول القديس بولس إنه التقى يعقوب وبطرس بعد سنوات قليلة من تحوّله.',
-      'يقول تاكيتوس (نحو ١١٥–١٢٠م) إن «كرستوس» أُعدم في ولاية بيلاطس البنطي، ويذكر يوسيفوس (نحو ٩٣–٩٤م) يعقوب أخا يسوع الذي يُدعى المسيح. ولم يكن أيٌّ منهما شاهد عيان، كما أن فقرة يوسيفوس الأطول أعاد مسيحيون صياغتها.',
-      'ناقش خصوم المسيحية في العصور القديمة دعاوى يسوع وسيرته، ولا تزعم الكتابات الباقية منهم أنه لم يوجد قط.',
-      'القول بأن يسوع اختُرع من شخصية سماوية صرفة رأي أقلية بين المؤرخين، لأسباب نعرضها أدناه.',
-      'إثبات وجود يسوع لا يثبت قيامته ولا لاهوته. إنه الخطوة الأولى فقط.',
+      'يقول تاكيتوس (نحو ١١٥–١٢٠م) إن «كرستوس» أُعدم في ولاية بيلاطس البنطي، ويذكر يوسيفوس (نحو ٩٣–٩٤م) يعقوب أخا يسوع الذي يُدعى المسيح. وهما شاهدان مستقلان من الخارج، أحدهما معادٍ علنًا.',
+      'ناقش خصوم المسيحية في العصور القديمة دعاوى يسوع وسيرته، لكنهم لم يزعموا قط أنه لم يوجد.',
+      'القول بأن يسوع اختُرع من شخصية سماوية صرفة يضطر إلى تنحية المعنى الظاهر لأقدم الأدلة، ولهذا السبب يسقط.',
+      'وجود يسوع هو الخطوة الأولى. أما من هو، أي ابن الله الذي قام من الأموات، فهو الإيمان الذي تكرز به الكنيسة بشهادة الرسل.',
     ],
   },
   argumentTypes: ['historical'],
@@ -44,12 +44,12 @@ export const article: Article = {
   },
   whyExamine: {
     en: [
-      'Some readers meet the claim online that Jesus was a myth, perhaps borrowed from older stories of dying and rising gods. A believer should be able to meet that claim calmly, and a sceptic deserves to see the actual evidence before accepting or rejecting it.',
-      'The question also teaches a method. Ancient history rarely offers photographs or official files. It works with a few surviving texts, asks who wrote each one, when, and how they could know. The same method is used for Alexander, for Socrates and for the Roman emperors, and it is fair to apply it here without special pleading in either direction.',
+      'Some readers meet the claim online that Jesus was a myth, perhaps borrowed from older stories of dying and rising gods. A believer can meet that claim calmly, because the evidence is clear and easy to show.',
+      'The question also teaches a method. Ancient history works with a few surviving texts and asks who wrote each one, when, and how they could know. The same method is used for Alexander, Socrates and the Roman emperors, and applied fairly here it shows that Jesus lived.',
     ],
     ar: [
-      'يصادف بعض القرّاء على الإنترنت قولًا إن يسوع أسطورة، ربما مستعارة من قصص أقدم عن آلهة تموت وتقوم. وينبغي للمؤمن أن يواجه هذا القول بهدوء، وللمتشكك أن يرى الأدلة الفعلية قبل أن يقبله أو يرفضه.',
-      'والسؤال يعلّم منهجًا أيضًا. فالتاريخ القديم نادرًا ما يقدّم صورًا فوتوغرافية أو ملفات رسمية، بل يعمل بنصوص قليلة باقية ويسأل: من كتب كل نص؟ ومتى؟ وكيف عرف ما كتبه؟ وهذا هو المنهج نفسه المستخدم مع الإسكندر وسقراط والأباطرة الرومان، ومن العدل تطبيقه هنا دون محاباة في أي اتجاه.',
+      'يصادف بعض القرّاء على الإنترنت قولًا إن يسوع أسطورة، ربما مستعارة من قصص أقدم عن آلهة تموت وتقوم. ويستطيع المؤمن أن يواجه هذا القول بهدوء، لأن الأدلة واضحة ويسهل عرضها.',
+      'والسؤال يعلّم منهجًا أيضًا. فالتاريخ القديم يعمل بنصوص قليلة باقية ويسأل: من كتب كل نص؟ ومتى؟ وكيف عرف ما كتبه؟ وهذا هو المنهج نفسه المستخدم مع الإسكندر وسقراط والأباطرة الرومان، وإذا طُبّق هنا بإنصاف أظهر أن يسوع عاش.',
     ],
   },
   background: {
@@ -76,8 +76,8 @@ export const article: Article = {
       argumentType: 'historical',
       assessment: 'strong_historical_support',
       rationale: {
-        en: 'St Paul’s letters name Jesus’ brother and say St Paul met him; Tacitus reports the execution; Josephus mentions James as the brother of Jesus called Christ. The movement’s earliest literature is also unusually frank that its Lord died by crucifixion, a death that was a stigma, not a selling point.',
-        ar: 'تذكر رسائل القديس بولس أخا يسوع وتقول إن القديس بولس التقاه، ويروي تاكيتوس الإعدام، ويذكر يوسيفوس يعقوب أخا يسوع الذي يُدعى المسيح. كما أن أقدم أدبيات الحركة صريحة على نحو لافت في أن ربّها مات مصلوبًا، وهي ميتة كانت عارًا لا مادة دعاية.',
+        en: 'St Paul’s letters name Jesus’ brother and say that St Paul met him; Tacitus reports the execution; Josephus mentions James as the brother of Jesus called Christ. The earliest Christian writings are also strikingly frank that their Lord died by crucifixion, a death that was a stigma, not a selling point.',
+        ar: 'تذكر رسائل القديس بولس أخا يسوع وتقول إن القديس بولس التقاه، ويروي تاكيتوس الإعدام، ويذكر يوسيفوس يعقوب أخا يسوع الذي يُدعى المسيح. كما أن أقدم الكتابات المسيحية صريحة على نحو لافت في أن ربّها مات مصلوبًا، وهي ميتة كانت عارًا لا مادة دعاية.',
       },
       limits: {
         en: 'None of these sources is an eyewitness account of Jesus’ life. The claim establishes existence and execution, not any detail of his teaching or any miracle.',
@@ -94,8 +94,8 @@ export const article: Article = {
       argumentType: 'historical',
       assessment: 'supported_disputed_details',
       rationale: {
-        en: 'Tacitus is openly hostile to Christians. Josephus’ mention of James is brief and incidental. Celsus, whose attack survives inside Origen’s reply, argues against Jesus without doubting that he lived.',
-        ar: 'يعادي تاكيتوس المسيحيين علنًا. وإشارة يوسيفوس إلى يعقوب موجزة وعارضة. أما كلسوس، الذي يبقى هجومه داخل ردّ أوريجانوس، فيجادل ضد يسوع دون أن يشكك في أنه عاش.',
+        en: 'Tacitus is openly hostile to Christians. Josephus mentions James briefly and in passing, as one would mention a known person. Celsus, whose attack survives inside Origen’s reply, argues against Jesus without ever doubting that He lived.',
+        ar: 'يعادي تاكيتوس المسيحيين علنًا. ويذكر يوسيفوس يعقوب ذكرًا موجزًا عارضًا، كما يُذكر شخص معروف. أما كلسوس، الذي يبقى هجومه داخل ردّ أوريجانوس، فيجادل ضد يسوع دون أن يشكك قط في أنه عاش.',
       },
       limits: {
         en: 'Tacitus’ source is unknown and may reflect what Christians themselves told Romans. The long Josephus passage has been reworked by Christian hands, so only the shorter mention of James is used here as a firmer point.',
@@ -106,14 +106,14 @@ export const article: Article = {
     {
       id: 'c3',
       proposition: {
-        en: 'The view that Jesus never lived and was invented from a purely heavenly figure explains the evidence less well than the view that he did.',
-        ar: 'القول بأن يسوع لم يوجد قط وأنه اختُرع من شخصية سماوية صرفة يفسّر الأدلة تفسيرًا أضعف من القول بأنه وُجد.',
+        en: 'The view that Jesus never lived and was invented from a purely heavenly figure cannot account for the evidence.',
+        ar: 'القول بأن يسوع لم يوجد قط وأنه اختُرع من شخصية سماوية صرفة لا يستطيع أن يفسّر الأدلة.',
       },
       argumentType: 'historical',
       assessment: 'supported_disputed_details',
       rationale: {
-        en: 'It has to read St Paul the Apostle’s reference to James the Lord’s brother, whom he met in Jerusalem, and the creed-like tradition he received, as something other than they appear to be, and it has to explain why a story of a crucified man was invented when such a story was an embarrassment in both Jewish and Roman eyes.',
-        ar: 'يضطر هذا القول إلى قراءة إشارة القديس بولس الرسول إلى يعقوب أخي الرب الذي التقاه في أورشليم، والتقليد الشبيه بالقانون الذي تسلّمه، قراءةً تخالف ظاهرها، وإلى تفسير سبب اختراع قصة رجل مصلوب في وقت كانت فيه هذه القصة عارًا في عين اليهود والرومان.',
+        en: 'It has to explain away St Paul the Apostle’s reference to James the Lord’s brother, whom he met in Jerusalem, and the tradition of Christ’s death and burial that he received. It also has to explain why anyone would invent a crucified Messiah, a scandal to Jews and folly to Romans.',
+        ar: 'يضطر هذا القول إلى صرف إشارة القديس بولس الرسول إلى يعقوب أخي الرب الذي التقاه في أورشليم، والتقليد الذي تسلّمه عن موت المسيح ودفنه، عن معناهما. ويضطر أيضًا إلى تفسير سبب اختراع أحد مسيحًا مصلوبًا، وهو عثرة عند اليهود وجهالة عند الرومان.',
       },
       limits: {
         en: 'Mythicist authors raise real questions about the thinness of contemporary reports and about parallels with other myths. A few arguments are better than others; the position is a minority one, not a forbidden one.',
@@ -253,14 +253,14 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The silence of contemporaries is weaker than it sounds. A provincial teacher executed under a minor governor would not ordinarily be noticed by the surviving elite writers of the time, and the same argument from silence would erase many figures nobody doubts. The first outside notices appear when Christians had become visible to the Roman world.',
-          'On the parallels, most of the supposed dying-and-rising gods differ in kind: they are seasonal or cultic figures, not a recent man executed under a named governor, and the closest resemblances are often drawn from later sources or from loose analogy. St Paul the Apostle, meanwhile, does refer to James the Lord’s brother and to the crucifixion. He is not a witness to a celestial being only.',
-          'None of this makes the question trivial. Mythicist writers press real points about how little outside evidence there is and about how Christian tradition shaped what we read. The reason most historians still reject their conclusion is that it needs several of the evidence’s plain readings to be set aside at once.',
+          'The silence of contemporaries is weaker than it sounds. A provincial teacher executed under a minor governor would not ordinarily be noticed by the few elite writers whose works survive, and the same argument from silence would erase many figures nobody doubts. Outside notices appear as soon as Christians became visible to the Roman world.',
+          'The supposed dying-and-rising gods differ in kind: they are seasonal or cultic figures, not a recent man executed under a named governor, and the closest resemblances are drawn from later sources or from loose analogy. St Paul the Apostle speaks of the Lord’s brother James, of the Last Supper and of the crucifixion. He is not writing about a celestial being.',
+          'The myth theory has to set aside several plain readings of the evidence at once. The simple explanation is the true one: the Church remembered and proclaimed a real man whom many had seen, heard and known.',
         ],
         ar: [
-          'صمت المعاصرين أضعف مما يبدو. فمعلّم من الأقاليم أُعدم في عهد والٍ صغير ما كان الكتّاب النخبويون الباقية كتاباتهم ليلتفتوا إليه عادة، والحجة من الصمت نفسها كانت ستمحو شخصيات كثيرة لا يشك فيها أحد. وقد ظهرت أولى الإشارات الخارجية حين صار المسيحيون مرئيين للعالم الروماني.',
-          'أما أوجه الشبه فمعظم «الآلهة التي تموت وتقوم» المزعومة تختلف في طبيعتها: هي شخصيات موسمية أو طقسية، لا رجل حديث العهد أُعدم في ولاية والٍ مسمّى، وأقرب أوجه الشبه كثيرًا ما يُستمد من مصادر متأخرة أو من تشبيه فضفاض. والقديس بولس الرسول من جهته يشير فعلًا إلى يعقوب أخي الرب وإلى الصلب، فليس شاهدًا على كائن سماوي فحسب.',
-          'ولا يجعل ذلك السؤال هيّنًا. فأصحاب هذا الرأي يلحّون على نقاط حقيقية في قلة الأدلة الخارجية وفي أثر التقليد المسيحي فيما نقرؤه. وسبب رفض أكثر المؤرخين لنتيجتهم أنها تتطلب تنحية عدة قراءات ظاهرة للأدلة دفعة واحدة.',
+          'صمت المعاصرين أضعف مما يبدو. فمعلّم من الأقاليم أُعدم في عهد والٍ صغير ما كان القلة من الكتّاب النخبويين الباقية كتاباتهم ليلتفتوا إليه عادة، والحجة من الصمت نفسها كانت ستمحو شخصيات كثيرة لا يشك فيها أحد. وقد ظهرت الإشارات الخارجية حالما صار المسيحيون مرئيين للعالم الروماني.',
+          'أما «الآلهة التي تموت وتقوم» المزعومة فتختلف في طبيعتها: هي شخصيات موسمية أو طقسية، لا رجل حديث العهد أُعدم في ولاية والٍ مسمّى، وأقرب أوجه الشبه يُستمد من مصادر متأخرة أو من تشبيه فضفاض. والقديس بولس الرسول يتكلم عن يعقوب أخي الرب وعن العشاء الأخير وعن الصلب، فهو لا يكتب عن كائن سماوي.',
+          'ونظرية الأسطورة تضطر إلى تنحية عدة قراءات ظاهرة للأدلة دفعة واحدة. والتفسير البسيط هو الصحيح: الكنيسة تذكّرت وكرزت بإنسان حقيقي رآه كثيرون وسمعوه وعرفوه.',
         ],
       },
       limits: {
@@ -277,12 +277,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'This is partly right, and the article says so. Tacitus’ source is unknown, and the longer Josephus passage is not safe to lean on. For that reason these texts are used as supporting context rather than as the foundation.',
-          'The argument carries most weight in St Paul’s letters, which are the work of a single identifiable author, written in the lifetime of those he names. The Church receives them as inspired Scripture; here they are used only for what they plainly say about Jesus and his circle. Outside writers then show that Romans and Jews of the next generations did not regard Jesus’ existence as in doubt.',
+          'The case does not depend on those passages alone. Tacitus is a hostile witness with no reason to help Christians, and the brief Josephus mention of James is a firm point. The longer Josephus passage is not needed.',
+          'The heart of the case lies in St Paul’s letters: the work of one identifiable author, written in the lifetime of the people he names, including the Lord’s own brother. The Church receives them as inspired Scripture; even read simply as ancient letters, they are first-hand witness to Jesus and His circle. The outside writers then confirm that Romans and Jews of the next generations never doubted that Jesus had lived.',
         ],
         ar: [
-          'هذا صحيح جزئيًا، والمقال يقول ذلك. فمصدر تاكيتوس مجهول، ولا يؤمن الاتكاء على فقرة يوسيفوس الأطول. ولهذا تُستخدم هذه النصوص سياقًا داعمًا لا أساسًا.',
-          'ويقع ثقل الحجة في رسائل القديس بولس، وهي من كاتب واحد معروف، كُتبت في حياة من يسميهم، وتتسلمها الكنيسة بوصفها كتابًا موحى به، ولا يُستعمل منها هنا إلا ما تقوله صراحةً عن يسوع ودائرته. ثم يبين الكتّاب الخارجيون أن الرومان واليهود في الأجيال التالية لم يعدّوا وجود يسوع محل شك.',
+          'الحجة لا تتوقف على هذه الفقرات وحدها. فتاكيتوس شاهد معادٍ لا سبب لديه لمساعدة المسيحيين، وإشارة يوسيفوس الموجزة إلى يعقوب نقطة ثابتة. ولا حاجة إلى فقرة يوسيفوس الأطول.',
+          'وقلب الحجة في رسائل القديس بولس: عمل كاتب واحد معروف، كُتب في حياة من يسميهم، ومنهم أخو الرب نفسه. والكنيسة تتسلمها كتابًا موحى به، وحتى إذا قُرئت رسائلَ قديمة فقط فهي شهادة مباشرة عن يسوع ودائرته. ثم يؤكد الكتّاب الخارجيون أن الرومان واليهود في الأجيال التالية لم يشكّوا قط في أن يسوع عاش.',
         ],
       },
       limits: {
@@ -296,12 +296,12 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'The historical case above is deliberately small. It claims that Jesus lived, that he was known to have a brother called James and a leading follower called Peter, and that he was crucified under Roman authority. It does not need to appeal to the inspiration of the Gospels or to the resurrection, which the Church confesses on further grounds.',
-        'The Gospels add detail that outside sources cannot supply. Historians differ on how much of that detail goes back to Jesus, and that discussion belongs to the articles on the Gospels and on memory and oral tradition.',
+        'The historical case is firm. Jesus lived; He was known to have a brother called James and a leading follower called Peter; and He was crucified under Roman authority. This needs no appeal to the inspiration of the Gospels or to the resurrection, which the Church confesses on the witness of the apostles.',
+        'The Gospels, written within living memory, give us His words and deeds in full. Their witness is examined in the articles on the Gospels and on memory and oral tradition.',
       ],
       ar: [
-        'الحجة التاريخية أعلاه صغيرة عمدًا. فهي تزعم أن يسوع عاش، وأنه عُرف له أخ اسمه يعقوب وتابع بارز اسمه بطرس، وأنه صُلب بسلطة رومانية. ولا تحتاج إلى الاستناد إلى الوحي في الأناجيل ولا إلى القيامة، التي تعترف بها الكنيسة لأسباب أخرى.',
-        'وتضيف الأناجيل تفاصيل لا تقدر المصادر الخارجية على تقديمها. ويختلف المؤرخون في مقدار ما يرجع منها إلى يسوع نفسه، وهذه المناقشة موضعها المقالات عن الأناجيل وعن الذاكرة والتقليد الشفهي.',
+        'الحجة التاريخية راسخة. يسوع عاش، وعُرف له أخ اسمه يعقوب وتابع بارز اسمه بطرس، وصُلب بسلطة رومانية. ولا يحتاج ذلك إلى الاستناد إلى الوحي في الأناجيل ولا إلى القيامة، التي تعترف بها الكنيسة بشهادة الرسل.',
+        'والأناجيل، المكتوبة في حدود الذاكرة الحية، تقدّم لنا أقواله وأعماله كاملة. وتُفحص شهادتها في المقالات عن الأناجيل وعن الذاكرة والتقليد الشفهي.',
       ],
     },
     theological: {
@@ -330,8 +330,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'On ordinary historical grounds it is reasonable to conclude that Jesus lived and was crucified under Roman authority. That conclusion is secure enough to build on, and modest enough that it leaves every question about his teaching, miracles and identity still to be examined.',
-    ar: 'على أسس تاريخية عادية يصح الاستنتاج بأن يسوع عاش وصُلب بسلطة رومانية. وهذه نتيجة راسخة بما يكفي ليُبنى عليها، ومتواضعة بما يكفي لتترك كل سؤال عن تعليمه ومعجزاته وهويته مفتوحًا للفحص.',
+    en: 'Jesus of Nazareth truly lived and was crucified under Pontius Pilate. The letters of St Paul, who knew His brother and His apostles, the reports of Josephus and Tacitus, and the scandal of the cross all bear the same witness. The Church proclaims that this same Jesus, a man of a real time and place, is the eternal Word made flesh, who died for us and rose again.',
+    ar: 'عاش يسوع الناصري حقًا وصُلب في عهد بيلاطس البنطي. فرسائل القديس بولس، الذي عرف أخاه ورسله، وأخبار يوسيفوس وتاكيتوس، وعثرة الصليب، كلها تشهد الشهادة نفسها. والكنيسة تكرز بأن يسوع هذا نفسه، الإنسان الذي عاش في زمان ومكان حقيقيين، هو الكلمة الأزلي المتجسد الذي مات من أجلنا وقام.',
   },
   furtherReading: ['S09', 'S07', 'S10', 'S08', 'S13'],
   related: ['non-christian-sources-establish', 'jesus-executed-under-pilate', 'who-wrote-the-gospels', 'when-were-the-gospels-written', 'gospels-as-eyewitness'],

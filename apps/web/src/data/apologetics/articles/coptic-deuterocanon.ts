@@ -15,23 +15,23 @@ export const article: Article = {
     ar: 'تسأل هذه المقالة كيف تتسلم الكنيسة القبطية الأرثوذكسية الأسفار القانونية الثانية من العهد القديم، مثل الحكمة وسيراخ وطوبيا ويهوديت وباروخ. وهي تشرح ما معنى «قانونية ثانية»، ولماذا هي عند كنيسة الإسكندرية، وكيف تُستعمل في تعليمها وعبادتها، وبماذا يختلف ذلك عن الموقفين البروتستانتي والكاثوليكي. وتشير إلى قارئ الكتاب المقدس في الموقع حيث يمكن قراءة هذه الأسفار بالإنجليزية والعربية.',
   },
   shortAnswer: {
-    en: 'The Coptic Orthodox Church receives these books as part of the Old Testament, in the Greek tradition of the Septuagint that the Church of Alexandria has used from the beginning. The word “deuterocanonical” means “of the second canon”: it refers to the order in which the books were recognised or to their having been preserved in Greek, and does not mean that they are of lower worth. They are read, quoted by the Fathers and drawn on in the Church’s prayers. The Church does not treat them as a separate class to be set aside, and she does not accept the name “apocrypha” for them.',
-    ar: 'تتسلم الكنيسة القبطية الأرثوذكسية هذه الأسفار جزءًا من العهد القديم، في التقليد اليوناني للسبعينية الذي استعملته كنيسة الإسكندرية منذ البدء. وكلمة «قانونية ثانية» تعني «من القانون الثاني»: فهي تشير إلى ترتيب الاعتراف بالأسفار أو إلى حفظها باليونانية، ولا تعني أنها أقل قيمة. وهي تُقرأ ويقتبس منها الآباء وتُستمد منها صلوات الكنيسة. ولا تعاملها الكنيسة طبقة منفصلة تُهمل، ولا تقبل لها اسم «أبوكريفا».',
+    en: 'The Coptic Orthodox Church receives these books as Holy Scripture, part of the Old Testament, in the Greek tradition of the Septuagint that the Church of Alexandria has read from the beginning. “Deuterocanonical” means “of the second canon”: it refers to the order in which the books were recognised, not to a lower worth. They are read in the Church, quoted by the Fathers and woven into her prayers; the Song of the Three Young Men is sung in her praises. The Church does not set them aside as a separate class, and she does not call them “apocrypha”.',
+    ar: 'تتسلم الكنيسة القبطية الأرثوذكسية هذه الأسفار كتابًا مقدسًا، جزءًا من العهد القديم، في التقليد اليوناني للسبعينية الذي قرأته كنيسة الإسكندرية منذ البدء. و«القانونية الثانية» تعني «من القانون الثاني»: فهي تشير إلى ترتيب الاعتراف بالأسفار، لا إلى قيمة أدنى. وهي تُقرأ في الكنيسة، ويقتبس منها الآباء، وتتخلل صلواتها؛ وتسبحة الفتية الثلاثة تُرتَّل في تسابيحها. ولا تعزلها الكنيسة طبقة منفصلة، ولا تسمّيها «أبوكريفا».',
   },
   quickPoints: {
     en: [
       '“Deuterocanonical” means “of the second canon”; it is not a ranking of worth.',
       'The Church of Alexandria is the city of the Septuagint, and its Church has read the Greek Old Testament from the earliest centuries.',
       'The site’s Bible reader presents these books in a deuterocanonical section: Tobit, Judith, the additions to Esther, Wisdom, Sirach, Baruch with the Letter of Jeremiah, the Prayer of Azariah and Song of the Three, Susanna, Bel and the Dragon, 1 and 2 Maccabees, and Psalm 151.',
-      'The New Testament has allusions to some of them, and the Fathers of Alexandria knew and quoted them.',
-      'The Church honours the Hebrew tradition from which her Scriptures came and does not ask others to see the matter as she does.',
+      'The New Testament alludes to some of them, and the Fathers of Alexandria knew, quoted and taught from them.',
+      'The Church honours the Hebrew tradition from which her Scriptures came, and she reads the whole Old Testament as the apostolic Church received it.',
     ],
     ar: [
       '«القانونية الثانية» تعني «من القانون الثاني»؛ وليست ترتيبًا للقيمة.',
       'الإسكندرية مدينة السبعينية، وقد قرأت كنيستها العهد القديم اليوناني منذ القرون الأولى.',
       'يعرض قارئ الكتاب المقدس في الموقع هذه الأسفار في قسم للقانونية الثانية: طوبيا ويهوديت وتتمات أستير والحكمة وسيراخ وباروخ مع رسالة إرميا وصلاة عزريا وتسبحة الثلاثة فتية وسوسنة وبيل والتنين والمكابيين الأول والثاني والمزمور ١٥١.',
-      'في العهد الجديد إشارات إلى بعضها، وعرفها آباء الإسكندرية واقتبسوا منها.',
-      'تكرّم الكنيسة التقليد العبري الذي جاءت منه كتبها ولا تطلب من الآخرين أن يروا المسألة كما ترى.',
+      'يشير العهد الجديد إلى بعضها، وقد عرفها آباء الإسكندرية واقتبسوا منها وعلّموا بها.',
+      'تكرّم الكنيسة التقليد العبري الذي جاءت منه كتبها، وتقرأ العهد القديم كله كما تسلّمته الكنيسة الرسولية.',
     ],
   },
   argumentTypes: ['historical', 'theological', 'textual'],
@@ -45,12 +45,12 @@ export const article: Article = {
 
   whyExamine: {
     en: [
-      'Copts who read a Bible bought from a Protestant bookshop may find that the books their Church reads are missing from it, and Protestant friends may ask why the Church has “extra” books. A Catholic friend may ask how the Coptic position differs from Rome’s. The question needs a clear answer in the Church’s own terms.',
-      'It also matters because several of these books carry teaching and prayers that have shaped Coptic spirituality: the wisdom literature, the book of Tobit with its teaching on almsgiving and prayer, and the Song of the Three Young Men that the Church sings.',
+      'Copts who read a Bible bought from a Protestant bookshop may find that books their Church reads are missing, and Protestant friends may ask why the Church has “extra” books. A Catholic friend may ask how the Coptic position differs from Rome’s. The Church’s answer is clear, and every Copt can give it.',
+      'These books also carry teaching and prayers that have shaped Coptic spirituality: the wisdom literature, the book of Tobit with its teaching on almsgiving and prayer, and the Song of the Three Young Men that the Church sings.',
     ],
     ar: [
-      'قد يجد القبطي الذي يقرأ كتابًا مقدسًا اشتراه من مكتبة بروتستانتية أن الأسفار التي تقرأها كنيسته غائبة عنه، وقد يسأل أصدقاء بروتستانت لماذا للكنيسة أسفار «زائدة». وقد يسأل صديق كاثوليكي بماذا يختلف الموقف القبطي عن موقف روما. والمسألة تحتاج جوابًا واضحًا بلغة الكنيسة نفسها.',
-      'وهي مهمة أيضًا لأن عددًا من هذه الأسفار يحمل تعليمًا وصلوات شكّلت الروحانية القبطية: أدب الحكمة، وسفر طوبيا بتعليمه عن الصدقة والصلاة، وتسبحة الفتية الثلاثة التي ترتلها الكنيسة.',
+      'قد يجد القبطي الذي يقرأ كتابًا مقدسًا اشتراه من مكتبة بروتستانتية أن أسفارًا تقرؤها كنيسته غائبة عنه، وقد يسأل أصدقاء بروتستانت لماذا للكنيسة أسفار «زائدة». وقد يسأل صديق كاثوليكي بماذا يختلف الموقف القبطي عن موقف روما. وجواب الكنيسة واضح، ويستطيع كل قبطي أن يقدمه.',
+      'وتحمل هذه الأسفار أيضًا تعليمًا وصلوات شكّلت الروحانية القبطية: أدب الحكمة، وسفر طوبيا بتعليمه عن الصدقة والصلاة، وتسبحة الفتية الثلاثة التي ترتلها الكنيسة.',
     ],
   },
   background: {
@@ -79,8 +79,8 @@ export const article: Article = {
       argumentType: 'historical',
       assessment: 'strong_historical_support',
       rationale: {
-        en: 'The Septuagint was made in Alexandria, Origen of Alexandria worked from it and defended its form of Daniel, and the great Greek Bibles of the fourth century contain these books. Egypt is also the place where the Coptic versions of the Old Testament were made from the Greek.',
-        ar: 'صُنعت السبعينية في الإسكندرية، وعمل أوريجانوس السكندري بها ودافع عن صيغتها لدانيال، وتحوي الكتب المقدسة اليونانية الكبرى في القرن الرابع هذه الأسفار. ومصر هي المكان الذي صُنعت فيه الترجمات القبطية للعهد القديم عن اليونانية.',
+        en: 'The Septuagint was made in Alexandria; Origen of Alexandria worked from it and defended its form of Daniel; and the great Greek Bibles of the fourth century contain these books. Egypt is also where the Coptic versions of the Old Testament were made from the Greek. The books were part of the Bible the Church of Alexandria read.',
+        ar: 'صُنعت السبعينية في الإسكندرية، وعمل بها أوريجانوس السكندري ودافع عن صيغتها لدانيال، وتحوي الكتب المقدسة اليونانية الكبرى في القرن الرابع هذه الأسفار. ومصر هي المكان الذي صُنعت فيه الترجمات القبطية للعهد القديم عن اليونانية. فهذه الأسفار كانت جزءًا من الكتاب الذي قرأته كنيسة الإسكندرية.',
       },
       limits: {
         en: 'This shows that the books were used. How each writer ranked them, and the exact list, varied.',
@@ -91,14 +91,14 @@ export const article: Article = {
     {
       id: 'C3',
       proposition: {
-        en: 'The Coptic Orthodox Church receives the deuterocanonical books as part of her Old Testament and not as a lower class of text.',
-        ar: 'تتسلم الكنيسة القبطية الأرثوذكسية الأسفار القانونية الثانية جزءًا من عهدها القديم لا طبقة أدنى من النص.',
+        en: 'The Coptic Orthodox Church receives the deuterocanonical books as part of her Old Testament, not as a lower class of text.',
+        ar: 'تتسلم الكنيسة القبطية الأرثوذكسية الأسفار القانونية الثانية جزءًا من عهدها القديم، لا طبقة أدنى من النص.',
       },
       argumentType: 'theological',
       assessment: 'theological_interpretation',
       rationale: {
-        en: 'This is the Church’s position as a matter of her Tradition and use. It rests on her reception of the Greek Old Testament from the apostolic age and on the practice of her Fathers.',
-        ar: 'هذا موقف الكنيسة بحكم تقليدها واستعمالها. ويقوم على تسلّمها العهد القديم اليوناني منذ العصر الرسولي وعلى ممارسة آبائها.',
+        en: 'The Church received the Greek Old Testament from the apostolic age, her Fathers taught from these books, and her worship sings them. Her Tradition and her daily use bear the same witness.',
+        ar: 'تسلّمت الكنيسة العهد القديم اليوناني منذ العصر الرسولي، وعلّم آباؤها من هذه الأسفار، وترتّلها عبادتها. فتقليدها واستعمالها اليومي يشهدان الشهادة نفسها.',
       },
       limits: {
         en: 'It cannot be established or refuted by history alone, since it concerns how the Church understands her own Scriptures.',
@@ -163,12 +163,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'These are the points on which the Protestant position rests, and they are serious. The Church’s answer is that the apostolic Church read the Greek Old Testament, that the Jewish canon in the form later fixed was not the Church’s source, and that her Fathers, from Alexandria to North Africa, used these books in teaching and worship. The Church does not hold that Scripture alone sets the limits of Scripture; she holds that Scripture is received within Tradition.',
-          'The Church can also say, without hostility, that Jerome himself, who preferred the Hebrew list, translated several of these books at the request of the Church and acknowledged that she read them.',
+          'The apostolic Church read the Greek Old Testament, which the New Testament writers so often quote. The Jewish canon in the form later fixed was not the Church’s source, and her Fathers, from Alexandria to North Africa, used these books in teaching and worship. The Church does not hold that Scripture alone sets the limits of Scripture; Scripture is received within the Tradition of the Church that the Lord founded.',
+          'Even Jerome, who preferred the Hebrew list, translated several of these books at the request of the Church and acknowledged that she read them. The Church’s reading of these books is older than the objection.',
         ],
         ar: [
-          'هذه هي النقاط التي يقوم عليها الموقف البروتستانتي، وهي جادة. وجواب الكنيسة أن الكنيسة الرسولية قرأت العهد القديم اليوناني، وأن القانون اليهودي بالصورة التي ثبت بها لاحقًا لم يكن مصدر الكنيسة، وأن آباءها، من الإسكندرية إلى شمال أفريقيا، استعملوا هذه الأسفار في التعليم والعبادة. ولا ترى الكنيسة أن الكتاب وحده يحدد حدود الكتاب؛ بل ترى أنه يُتسلَّم في التقليد.',
-          'وتستطيع الكنيسة أن تقول بلا عداء إن جيروم نفسه، الذي فضّل القائمة العبرية، ترجم عددًا من هذه الأسفار بطلب من الكنيسة وأقرّ بأنها تقرؤها.',
+          'قرأت الكنيسة الرسولية العهد القديم اليوناني الذي يقتبس منه كتّاب العهد الجديد كثيرًا. والقانون اليهودي بالصورة التي ثبت بها لاحقًا لم يكن مصدر الكنيسة، وقد استعمل آباؤها، من الإسكندرية إلى شمال أفريقيا، هذه الأسفار في التعليم والعبادة. ولا ترى الكنيسة أن الكتاب وحده يحدد حدود الكتاب؛ فالكتاب يُتسلَّم في تقليد الكنيسة التي أسسها الرب.',
+          'وحتى جيروم، الذي فضّل القائمة العبرية، ترجم عددًا من هذه الأسفار بطلب من الكنيسة وأقرّ بأنها تقرؤها. فقراءة الكنيسة لهذه الأسفار أقدم من الاعتراض.',
         ],
       },
       limits: {
@@ -185,12 +185,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The Church does pray for the departed and honours almsgiving as a work of faith, and she sees these teachings as consistent with the New Testament and with the Fathers. She does not receive the books because they teach these things; she holds them as part of Scripture and reads them with the rest.',
-          'It is fair to say that these are real points of difference with the Reformation, and a believer may take them up with a Protestant friend through the texts themselves.',
+          'The Church does pray for the departed and honours almsgiving as a work of faith, and these teachings agree with the New Testament and the Fathers. She does not receive the books because they teach these things; she holds them as Scripture and reads them with the rest.',
+          'The Church received both the books and these practices from the beginning, and she keeps them together. The difference with the Reformation here is over teaching the Church has always held, and the books bear witness to it.',
         ],
         ar: [
-          'تصلي الكنيسة فعلًا من أجل الراقدين وتكرّم الصدقة عملًا من أعمال الإيمان، وترى هذين التعليمين متفقين مع العهد الجديد ومع الآباء. ولا تتسلم الأسفار لأنها تعلّم ذلك؛ بل تحتفظ بها جزءًا من الكتاب وتقرؤها مع البقية.',
-          'ومن الإنصاف القول إن هذه نقاط خلاف حقيقية مع الإصلاح، وللمؤمن أن يتناولها مع صديق بروتستانتي من خلال النصوص أنفسها.',
+          'تصلي الكنيسة فعلًا من أجل الراقدين وتكرّم الصدقة عملًا من أعمال الإيمان، وهذان التعليمان يتفقان مع العهد الجديد ومع الآباء. ولا تتسلم الأسفار لأنها تعلّم ذلك؛ بل تحفظها كتابًا مقدسًا وتقرؤها مع البقية.',
+          'تسلّمت الكنيسة الأسفار وهذه الممارسات معًا منذ البدء، وتحفظهما معًا. والخلاف مع الإصلاح هنا خلاف على تعليم تمسكت به الكنيسة دائمًا، والأسفار تشهد له.',
         ],
       },
       limits: {
@@ -206,12 +206,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The two positions are similar in receiving the books, but they differ in how the matter is settled. The Catholic Church defined her list formally at the Council of Trent in 1546. The Orthodox churches have not made a single decree of that kind a standard, and their lists are not identical with one another or with the Catholic one.',
-          'The Coptic Church grounds her reception in her Tradition and her use, and she has never been part of the Western debate that Trent answered.',
+          'The two positions agree in receiving the books, but they differ in how the matter is settled. The Catholic Church defined her list formally at the Council of Trent in 1546. The Orthodox churches have not made a single decree of that kind their standard.',
+          'The Coptic Church grounds her reception in her Tradition and her use from the beginning, and she was never part of the Western debate that Trent answered.',
         ],
         ar: [
-          'يتشابه الموقفان في قبول الأسفار، لكنهما يختلفان في كيفية حسم المسألة. فقد حددت الكنيسة الكاثوليكية قائمتها رسميًا في مجمع ترنت سنة ١٥٤٦. أما الكنائس الأرثوذكسية فلم تجعل مرسومًا واحدًا من هذا النوع معيارًا، وقوائمها غير متطابقة بعضها مع بعض ولا مع الكاثوليكية.',
-          'وتؤسس الكنيسة القبطية قبولها على تقليدها واستعمالها، ولم تكن قط طرفًا في النقاش الغربي الذي أجاب عنه ترنت.',
+          'يتفق الموقفان في قبول الأسفار، لكنهما يختلفان في كيفية حسم المسألة. فقد حددت الكنيسة الكاثوليكية قائمتها رسميًا في مجمع ترنت سنة ١٥٤٦. أما الكنائس الأرثوذكسية فلم تجعل مرسومًا واحدًا من هذا النوع معيارًا لها.',
+          'وتؤسس الكنيسة القبطية قبولها على تقليدها واستعمالها منذ البدء، ولم تكن قط طرفًا في النقاش الغربي الذي أجاب عنه ترنت.',
         ],
       },
       limits: {
@@ -225,12 +225,12 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'Historically, a Christian can say that the Church of Alexandria used the Greek Old Testament, that Alexandrian writers knew and cited these books, that the New Testament writers used the Greek form of the Old Testament, and that the fourth-century Greek Bibles carried them.',
-        'A Christian should also say that early writers differed on their rank, that the Jewish canon was fixed on the Hebrew side, and that Protestants and Orthodox read the evidence differently.',
+        'The history is clear: the Church of Alexandria used the Greek Old Testament, Alexandrian writers knew and cited these books, the New Testament writers used the Greek form of the Old Testament, and the great fourth-century Greek Bibles carried them.',
+        'The Coptic versions of the Old Testament were made from that same Greek Bible, so the Church of Egypt has read these books in her own language from the early centuries.',
       ],
       ar: [
-        'يستطيع المسيحي تاريخيًا أن يقول إن كنيسة الإسكندرية استعملت العهد القديم اليوناني، وإن كتّاب الإسكندرية عرفوا هذه الأسفار واقتبسوا منها، وإن كتّاب العهد الجديد استعملوا الصيغة اليونانية للعهد القديم، وإن الكتب المقدسة اليونانية في القرن الرابع حملتها.',
-        'وعليه أيضًا أن يقول إن الكتّاب الأوائل اختلفوا في مرتبتها، وإن القانون اليهودي ثبت من جانب العبرية، وإن البروتستانت والأرثوذكس يقرؤون الشواهد قراءتين مختلفتين.',
+        'التاريخ واضح: استعملت كنيسة الإسكندرية العهد القديم اليوناني، وعرف كتّاب الإسكندرية هذه الأسفار واقتبسوا منها، واستعمل كتّاب العهد الجديد الصيغة اليونانية للعهد القديم، وحملتها الكتب المقدسة اليونانية الكبرى في القرن الرابع.',
+        'وقد صُنعت الترجمات القبطية للعهد القديم عن هذا الكتاب اليوناني نفسه، فقرأت كنيسة مصر هذه الأسفار بلغتها منذ القرون الأولى.',
       ],
     },
     theological: {
@@ -267,8 +267,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'The Coptic Orthodox Church receives the deuterocanonical books as part of the Old Testament, because she inherited the Greek tradition of the Septuagint from the apostolic age and her Fathers read and used them. “Deuterocanonical” names the order of recognition and not a lower worth. Others read the evidence differently, and the Church can say so with respect, while reading these books with the rest of the Old Testament.',
-    ar: 'تتسلم الكنيسة القبطية الأرثوذكسية الأسفار القانونية الثانية جزءًا من العهد القديم لأنها ورثت التقليد اليوناني للسبعينية منذ العصر الرسولي ولأن آباءها قرؤوها واستعملوها. و«القانونية الثانية» اسم لترتيب الاعتراف لا لقيمة أدنى. ويقرأ آخرون الشواهد قراءة مختلفة، وتستطيع الكنيسة أن تقول ذلك باحترام، وهي تقرأ هذه الأسفار مع بقية العهد القديم.',
+    en: 'The Coptic Orthodox Church receives the deuterocanonical books as Holy Scripture, part of the Old Testament, because she inherited the Greek Bible of the apostolic Church and her Fathers read, taught and prayed from it. “Deuterocanonical” names the order of recognition, not a lower worth. In Wisdom, Sirach, Tobit and the Song of the Three Young Men the Church hears the same Holy Spirit who spoke through the prophets, and she reads them gladly with the whole Old Testament.',
+    ar: 'تتسلم الكنيسة القبطية الأرثوذكسية الأسفار القانونية الثانية كتابًا مقدسًا، جزءًا من العهد القديم، لأنها ورثت الكتاب اليوناني للكنيسة الرسولية، وقد قرأ منه آباؤها وعلّموا وصلّوا. و«القانونية الثانية» اسم لترتيب الاعتراف لا لقيمة أدنى. وفي الحكمة وسيراخ وطوبيا وتسبحة الفتية الثلاثة تسمع الكنيسة الروح القدس نفسه الذي تكلم بالأنبياء، وتقرؤها بفرح مع العهد القديم كله.',
   },
   furtherReading: ['S29', 'S22', 'S30', 'S56'],
   related: ['old-testament-canons-differ', 'septuagint-and-masoretic', 'arabic-and-english-translations', 'who-chose-the-books', 'scripture-and-tradition'],

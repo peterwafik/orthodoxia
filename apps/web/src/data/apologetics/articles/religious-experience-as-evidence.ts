@@ -15,23 +15,23 @@ export const article: Article = {
     ar: 'تسأل هذه المقالة هل يمكن أن تُعدّ خبرة الإنسان بالله (إحساس بالحضور، أو استجابة صلاة، أو توبة، أو رؤيا) دليلًا على وجود الله، لصاحبها ولغيره. وتبيّن كيف يحتج الفلاسفة مع ذلك وضده، وما تستطيع علوم النفس والعقل قوله وما لا تستطيع، وكيف تمتحن الكنيسة الخبرة.',
   },
   shortAnswer: {
-    en: 'Religious experience can be evidence, but evidence of limited and unequal weight. For the person who has it, an experience of God can reasonably count as a reason to believe, in the way that ordinary perception counts, unless there is a good reason to doubt it. For others it is testimony, and its force depends on how it is described, how well it is checked, and whether there are better explanations. Experiences differ between religions, and brain science shows how experiences of this kind arise in the brain without settling whether they are caused by anything beyond it. The Church has never treated experience as the test of truth. It tests experiences by Scripture, by the teaching of the Church, by the moral fruit they bear, and by the guidance of a spiritual father.',
-    ar: 'يمكن أن تكون الخبرة الدينية دليلًا، لكنه دليل محدود الوزن وغير متساوٍ. فلصاحبها يجوز عقلًا أن تُعدّ الخبرة بالله سببًا للإيمان، كما تُعدّ الإدراكات العادية، ما لم يوجد سبب وجيه للشك فيها. وبالنسبة إلى الآخرين هي شهادة، وقوتها تتوقف على كيفية وصفها ومدى فحصها ووجود تفسيرات أفضل. وتختلف الخبرات بين الأديان، وتبيّن علوم الدماغ كيف تنشأ خبرات من هذا النوع في الدماغ دون أن تحسم هل لها سبب وراءه. ولم تجعل الكنيسة قط الخبرة معيار الحق، بل تمتحنها بالكتاب المقدس وتعليم الكنيسة وثمرها الأخلاقي وإرشاد أب روحي.',
+    en: 'Yes. Religious experience is real evidence, and the Church has always known how to receive it wisely. For the person who has it, an encounter with God in prayer is a reason to believe, just as seeing or hearing is, unless there is good reason to doubt it. For others it is testimony, weighed like any testimony: by the character of the witness and the fruit of the life that follows. Brain science shows how experience happens in us; it cannot show that nothing is there to be experienced. The Church does not rest the faith on experience. Faith rests on what God has done in Christ, and experience confirms and deepens it. That is why the Church tests every experience by Scripture, by her faith, by its fruit, and by the guidance of a spiritual father.',
+    ar: 'نعم. الخبرة الدينية دليل حقيقي، والكنيسة عرفت دائمًا كيف تتقبلها بحكمة. فبالنسبة لمن يعيشها، يكون لقاء الله في الصلاة سببًا للإيمان، كما يكون النظر والسمع، ما لم يوجد سبب قوي للشك. وبالنسبة للآخرين هي شهادة، تُوزن كأي شهادة: بشخصية الشاهد وثمر الحياة التي تتبعها. ويبيّن علم الدماغ كيف تحدث الخبرة فينا؛ لكنه لا يستطيع أن يبيّن أن لا شيء هناك يُختبر. والكنيسة لا تبني الإيمان على الخبرة. فالإيمان قائم على ما صنعه الله في المسيح، والخبرة تثبّته وتعمّقه. ولهذا تفحص الكنيسة كل خبرة بالكتاب المقدس، وبإيمانها، وبثمرها، وبإرشاد الأب الروحي.',
   },
   quickPoints: {
     en: [
-      'A philosopher’s principle: if it seems to you that you experience something, you are reasonably entitled to believe it is so, unless you have reason to doubt. Applied to experience of God, this gives the experience some weight for the one who has it.',
-      'It gives much less weight for others, who must rely on a report and judge the reporter, the circumstances, and alternatives.',
-      'Experiences of the divine differ across religions, and some conflict. Defenders ask whether they conflict at the level of the experience or only in how it is interpreted afterwards.',
-      'Neuroscience shows that religious experience involves ordinary brain processes, as every experience does. That shows how, not whether anything is experienced.',
+      'A sound principle of reasoning: if it seems to you that you experience something, you are entitled to believe it is so, unless you have reason to doubt. This holds for experience of God too.',
+      'For others, a report of experience is testimony, weighed by the witness, the circumstances and the fruit in a life.',
+      'Experiences across religions differ mostly in how they are interpreted, and many bear witness that there is a reality beyond the world that can be met.',
+      'Neuroscience shows that religious experience involves the brain, as every experience does. That shows how we experience, not whether anything is experienced.',
       'The Church tests experience (“test the spirits”) by faith, fruit and obedience, and values it as a gift, not as the ground of belief.',
     ],
     ar: [
-      'مبدأ فلسفي: إن بدا لك أنك تخبر شيئًا، فمن حقك عقلًا أن تعتقد أنه كذلك، ما لم يكن لديك سبب للشك. وحين يُطبَّق هذا على الخبرة بالله تكون لها وزن لصاحبها.',
-      'وزنها أقل بكثير للآخرين، لأنهم يعتمدون على تقرير ويحكمون على صاحبه وعلى الظروف وعلى البدائل.',
-      'تختلف الخبرات بالمقدس بين الأديان وبعضها يتعارض. ويسأل المدافعون: هل التعارض في الخبرة نفسها أم في تفسيرها لاحقًا؟',
-      'تبيّن علوم الأعصاب أن الخبرة الدينية تتضمن عمليات دماغية عادية، كما في كل خبرة. وهذا يبيّن كيف لا هل يُخبَر شيء.',
-      'تمتحن الكنيسة الخبرة («امتحنوا الأرواح») بالإيمان والثمر والطاعة، وتقدّرها عطية لا أساسًا للاعتقاد.',
+      'مبدأ سليم في الاستدلال: إن بدا لك أنك تختبر شيئًا، فمن حقك أن تصدّق أنه كذلك، ما لم يكن لديك سبب للشك. وهذا يصدق على خبرة الله أيضًا.',
+      'أما للآخرين فرواية الخبرة شهادة، تُوزن بالشاهد والظروف والثمر في الحياة.',
+      'تختلف الخبرات بين الأديان في الغالب في تفسيرها، وكثير منها يشهد بأن هناك حقيقة وراء العالم يمكن لقاؤها.',
+      'يبيّن علم الأعصاب أن الخبرة الدينية تشمل الدماغ، كما تشمله كل خبرة. وهذا يبيّن كيف نختبر، لا هل يوجد ما نختبره.',
+      'تفحص الكنيسة الخبرة («امتحنوا الأرواح») بالإيمان والثمر والطاعة، وتقدّرها عطية لا أساسًا للإيمان.',
     ],
   },
   argumentTypes: ['philosophical', 'theological'],
@@ -44,24 +44,24 @@ export const article: Article = {
   },
   whyExamine: {
     en: [
-      'For most believers, the reason they believe is not an argument. It is that they have prayed and have found themselves in the presence of God, or have been changed. For many non-believers, this is exactly what makes religion seem private and unprovable. It is worth asking, then, what such experiences can and cannot show.',
-      'The question also matters for pastoral reasons. A person who treats every feeling as a message from God is exposed to error, and a person who treats all religious experience as delusion has dismissed the testimony of most of the human race. The Church has long practised a middle course.',
+      'For most believers, the reason they believe is not an argument. They have prayed and found themselves in the presence of God, or they have been changed. For many non-believers, this is exactly what makes religion seem private and unprovable. So it matters to see clearly what such experience shows.',
+      'It also matters pastorally. A person who treats every feeling as a message from God is exposed to error, and a person who treats all religious experience as delusion dismisses the testimony of most of the human race. The Church has long walked the sure path between the two: receiving experience as a gift and testing it.',
     ],
     ar: [
-      'سبب إيمان معظم المؤمنين ليس حجة، بل أنهم صلّوا فوجدوا أنفسهم في حضرة الله، أو تغيّروا. ويرى كثير من غير المؤمنين أن هذا بالضبط ما يجعل الدين يبدو شأنًا خاصًا لا يُبرهَن عليه. فيحسن أن نسأل ما الذي تستطيع هذه الخبرات أن تُظهره وما لا تستطيع.',
-      'وللسؤال أهمية رعوية أيضًا. فمن يعدّ كل شعور رسالة من الله معرّض للخطأ، ومن يعدّ كل خبرة دينية وهمًا يكون قد أسقط شهادة معظم الجنس البشري. وقد سارت الكنيسة منذ القدم في طريق وسط.',
+      'لا يؤمن أكثر المؤمنين بسبب حجة. فقد صلّوا ووجدوا أنفسهم في حضرة الله، أو تغيّروا. ولكثير من غير المؤمنين هذا بالذات ما يجعل الدين يبدو أمرًا خاصًا لا يمكن إثباته. فمن المهم أن نرى بوضوح ما تبيّنه هذه الخبرة.',
+      'ويهم الأمر رعويًا أيضًا. فمن يعدّ كل شعور رسالة من الله معرّض للضلال، ومن يعدّ كل خبرة دينية وهمًا يرفض شهادة معظم الجنس البشري. وقد سارت الكنيسة منذ زمن طويل في الطريق الأمين بينهما: تقبل الخبرة عطية وتفحصها.',
     ],
   },
   background: {
     en: [
       'Religious experience covers many things: a feeling of the presence of God in prayer, a sense of being forgiven, an overwhelming awe, a vision or voice, a sudden conversion, and the quiet sense of guidance that many believers describe. These differ greatly in intensity, in how public they are, and in how they are interpreted. The question of evidence is different for each.',
       'Richard Swinburne, a philosopher and Eastern Orthodox Christian, has defended a “principle of credulity”: other things being equal, how things seem to a person is a good guide to how they are. If it seems to you that there is a tree ahead, you are entitled to believe it unless there is reason not to. He applies the principle to experiences of God, and balances it with a “principle of testimony”, that we should in general believe what others report. The philosopher William Alston developed a related case in the 1990s, arguing that experience of God is a way of perceiving that has its own rules and checks, like sense perception. Here Swinburne’s work is cited only as a whole.',
-      'Against this, critics note that experiences of the divine are reported in every religion and often contradict each other in content; that the brain activity involved in such experiences can be studied and sometimes triggered in a laboratory; that experiences often track the expectations of the person’s culture; and that private experience cannot be checked by others. Defenders reply that these points apply to many kinds of ordinary perception and memory without making them worthless.',
+      'Against this, critics note that experiences of the divine are reported in every religion and often contradict each other in content; that the brain activity involved in such experiences can be studied and sometimes triggered in a laboratory; that experiences often track the expectations of the person’s culture; and that private experience cannot be checked by others. But these points apply equally to many kinds of ordinary perception and memory, and they do not make those worthless.',
     ],
     ar: [
       'تشمل الخبرة الدينية أمورًا كثيرة: شعورًا بحضور الله في الصلاة، وإحساسًا بالمغفرة، ورهبة غامرة، ورؤيا أو صوتًا، وتوبة مفاجئة، والإحساس الهادئ بالإرشاد الذي يصفه كثير من المؤمنين. وهي تختلف كثيرًا في شدتها وفي مدى كونها علنية وفي كيفية تفسيرها. وسؤال الدليل يختلف في كل منها.',
       'ودافع ريتشارد سوينبرن، وهو فيلسوف ومسيحي أرثوذكسي، عن «مبدأ التصديق»: إن بقية الأمور متساوية، فكيف تبدو الأشياء لإنسان دليل جيد على كيف هي. فإن بدا لك أن أمامك شجرة فمن حقك أن تعتقد ذلك ما لم يوجد سبب مضاد. وهو يطبّق المبدأ على الخبرات بالله، ويوازنه بـ«مبدأ الشهادة»: أن نصدق عمومًا ما يخبرنا به الآخرون. وطوّر الفيلسوف ويليام ألستون حجة قريبة في التسعينيات، يرى فيها أن الخبرة بالله طريقة إدراك لها قواعدها وفحوصها كالإدراك الحسي. ويُستشهد هنا بعمل سوينبرن ككل فقط.',
-      'وفي المقابل يلاحظ الناقدون أن الخبرات بالمقدس تُروى في كل دين وكثيرًا ما تتناقض في مضمونها، وأن النشاط الدماغي المصاحب لها يمكن دراسته وأحيانًا استحداثه في المختبر، وأن الخبرات كثيرًا ما تتبع توقعات ثقافة صاحبها، وأن الخبرة الخاصة لا يستطيع الآخرون فحصها. ويردّ المدافعون بأن هذه النقاط تنطبق على أنواع كثيرة من الإدراك والذاكرة العاديين دون أن تُسقط قيمتها.',
+      'وفي المقابل يلاحظ الناقدون أن الخبرات بالمقدس تُروى في كل دين وكثيرًا ما تتناقض في مضمونها، وأن النشاط الدماغي المصاحب لها يمكن دراسته وأحيانًا استحداثه في المختبر، وأن الخبرات كثيرًا ما تتبع توقعات ثقافة صاحبها، وأن الخبرة الخاصة لا يستطيع الآخرون فحصها. لكن هذه النقاط تنطبق أيضًا على أنواع كثيرة من الإدراك والذاكرة العاديين، ولا تُسقط قيمتها.',
     ],
   },
   glossary: ['theism', 'divine-hiddenness', 'tradition', 'inspiration', 'apologetics'],
@@ -70,14 +70,14 @@ export const article: Article = {
     {
       id: 'c1',
       proposition: {
-        en: 'For the person who has it, an experience of God can reasonably count as a reason for belief, as other experiences do, provided there is no good reason to doubt it.',
-        ar: 'بالنسبة إلى صاحبها، يجوز عقلًا أن تُعدّ الخبرة بالله سببًا للإيمان كما تُعدّ سائر الخبرات، ما لم يوجد سبب وجيه للشك فيها.',
+        en: 'For the person who has it, an experience of God is a reasonable ground for belief, as other experiences are, unless there is good reason to doubt it.',
+        ar: 'بالنسبة لمن يعيشها، خبرة الله أساس معقول للإيمان، كسائر الخبرات، ما لم يوجد سبب قوي للشك فيها.',
       },
       argumentType: 'philosophical',
       assessment: 'philosophical_argument',
       rationale: {
-        en: 'This follows the principle of credulity as defended by some philosophers. Others argue that the principle is too generous in the case of religious experience, since the checks that make ordinary perception reliable are mostly missing.',
-        ar: 'وهذا يتبع مبدأ التصديق كما يدافع عنه بعض الفلاسفة. ويرى آخرون أن المبدأ سخي أكثر من اللازم في حالة الخبرة الدينية، لأن الفحوص التي تجعل الإدراك العادي موثوقًا غائبة في معظمها.',
+        en: 'We trust our experience in every part of life unless we have reason not to; without that trust no knowledge would be possible. There is no fair reason to make experience of God the single exception. The philosopher Richard Swinburne has defended this principle and applied it to experience of God.',
+        ar: 'نحن نثق بخبرتنا في كل جوانب الحياة ما لم يكن لدينا سبب لعدم الثقة؛ ودون هذه الثقة لا تكون معرفة ممكنة. ولا يوجد سبب منصف لجعل خبرة الله الاستثناء الوحيد. وقد دافع الفيلسوف ريتشارد سوينبرن عن هذا المبدأ وطبّقه على خبرة الله.',
       },
       limits: {
         en: 'It says that the experience gives a reason, not that the reason is conclusive. Reasons to doubt can defeat it.',
@@ -88,14 +88,14 @@ export const article: Article = {
     {
       id: 'c2',
       proposition: {
-        en: 'For others, an account of religious experience is testimony, and how much it weighs depends on the character of the witness, the specificity of the report, the circumstances, whether there are corroborating effects, and the alternatives.',
-        ar: 'بالنسبة إلى الآخرين، رواية الخبرة الدينية شهادة، ويتوقف وزنها على صفة الشاهد ودقة التقرير والظروف ووجود آثار تؤيدها والبدائل.',
+        en: 'For others, an account of religious experience is testimony, weighed by the character of the witness, the details of the report, the circumstances, and the fruit it bears in a life.',
+        ar: 'بالنسبة للآخرين، رواية الخبرة الدينية شهادة، تُوزن بشخصية الشاهد وتفاصيل الرواية والظروف والثمر الذي تحمله في الحياة.',
       },
       argumentType: 'philosophical',
       assessment: 'philosophical_argument',
       rationale: {
-        en: 'This applies the usual rules for weighing testimony. It does not single religion out for stricter or looser treatment than other claims.',
-        ar: 'وهذا تطبيق للقواعد المعتادة في وزن الشهادة. ولا يخصّ الدين بمعاملة أشد أو أخف من سائر الدعاوى.',
+        en: 'These are the ordinary rules for weighing any testimony, applied fairly, with no stricter standard for religion than for other claims. The testimony of countless people across history, and the lasting change in many lives, give it real weight.',
+        ar: 'هذه هي القواعد العادية لوزن أي شهادة، تُطبق بإنصاف، دون معيار أشد على الدين منه على غيره. وشهادة عدد لا يُحصى من الناس عبر التاريخ، والتغيير الدائم في حياة كثيرين، يعطيانها وزنًا حقيقيًا.',
       },
       limits: {
         en: 'Most reports are brief and unspecific, so the support they give is limited, and the reader must decide how much weight to give the many accounts across religions.',
@@ -106,14 +106,14 @@ export const article: Article = {
     {
       id: 'c3',
       proposition: {
-        en: 'The Church holds that experience of God is a real gift, and that it must be tested by Scripture, by the faith of the Church, by its fruit in a life, and by spiritual guidance, not accepted on its own authority.',
-        ar: 'تؤمن الكنيسة بأن الخبرة بالله عطية حقيقية، وأنها يجب أن تُمتحن بالكتاب المقدس وإيمان الكنيسة وثمرها في الحياة والإرشاد الروحي، لا أن تُقبل بسلطانها وحده.',
+        en: 'The Church holds that experience of God is a real gift, and that it is to be tested by Scripture, by the faith of the Church, by its fruit in a life, and by spiritual guidance.',
+        ar: 'تعتقد الكنيسة أن خبرة الله عطية حقيقية، وأنها تُفحص بالكتاب المقدس، وبإيمان الكنيسة، وبثمرها في الحياة، وبالإرشاد الروحي.',
       },
       argumentType: 'theological',
       assessment: 'theological_interpretation',
       rationale: {
-        en: 'It is the practice that Scripture itself describes: the apostle’s call to test the spirits, and the Lord’s rule that a tree is known by its fruit. It is stated as the Church’s teaching and not as a result of the philosophical argument.',
-        ar: 'وهذه هي الممارسة التي يصفها الكتاب المقدس نفسه: دعوة الرسول إلى امتحان الأرواح، وقاعدة الرب أن الشجرة تُعرف من ثمرها. وهي تُذكر تعليمًا للكنيسة لا نتيجة للحجة الفلسفية.',
+        en: 'This is the practice Scripture itself teaches: St John the Apostle’s call to test the spirits, and the Lord’s word that a tree is known by its fruit. The conversion of St Paul the Apostle shows the pattern: a real encounter, followed by instruction and entry into the Church.',
+        ar: 'هذه هي الممارسة التي يعلّمها الكتاب نفسه: دعوة القديس يوحنا الرسول إلى امتحان الأرواح، وقول الرب إن الشجرة تُعرف من ثمرها. ويبيّن تحوّل القديس بولس الرسول هذا النمط: لقاء حقيقي، يتبعه تعليم ودخول إلى الكنيسة.',
       },
       limits: {
         en: 'A reader who does not accept Scripture can still weigh claims 1 and 2 without it.',
@@ -212,12 +212,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'Defenders reply that the conflict is mainly in the interpretation of experiences, and that the core claim (that there is a transcendent reality that can be encountered) is shared by many of them. They add that disagreement in perception reports does not usually lead us to discard perception: we investigate and correct. Some argue that the conflict weakens only the more specific claims based on experience.',
-          'Critics reply that the interpretations are not an add-on: they shape what is experienced, so that the experiences cannot be separated from the tradition that frames them. Some think the diversity is better explained by a common human capacity for such experience with cultural content.',
+          'The differences lie mainly in how experiences are interpreted, not in the core of what is experienced. Across many traditions, people bear witness that there is a holy reality beyond the world that can be encountered. That shared witness supports, rather than cancels, the reality of what they meet.',
+          'Disagreement in reports does not make us discard perception in any other field; we investigate and correct. In the same way, the Christian tests experience by the revelation of God in Christ, which rests on public, historical events and not on private experience alone.',
         ],
         ar: [
-          'يردّ المدافعون بأن التعارض يقع في الأساس في تفسير الخبرات، وبأن الدعوى المحورية (أن هناك حقيقة متعالية يمكن لقاؤها) يشترك فيها كثير منها. ويضيفون أن الخلاف في تقارير الإدراك لا يدفعنا عادةً إلى ترك الإدراك، بل إلى التحقق والتصحيح. ويرى بعضهم أن التعارض لا يضعف إلا الدعاوى الأكثر تحديدًا المبنية على الخبرة.',
-          'ويردّ الناقدون بأن التفسيرات ليست إضافة لاحقة، بل تشكّل ما يُخبَر، فلا تنفصل الخبرات عن التقليد الذي يؤطرها. ويرى بعضهم أن التنوع يفسّره خيرًا قدرة بشرية مشتركة على مثل هذه الخبرات بمضمون ثقافي.',
+          'تقع الفروق أساسًا في تفسير الخبرات، لا في جوهر ما يُختبر. فعبر تقاليد كثيرة يشهد الناس بأن هناك حقيقة مقدسة وراء العالم يمكن لقاؤها. وهذه الشهادة المشتركة تسند حقيقة ما يلقونه، لا تلغيها.',
+          'والاختلاف في الروايات لا يجعلنا نترك الإدراك في أي ميدان آخر؛ بل نبحث ونصحح. وكذلك يفحص المسيحي الخبرة بإعلان الله في المسيح، وهو قائم على أحداث تاريخية علنية لا على الخبرة الخاصة وحدها.',
         ],
       },
       limits: {
@@ -234,12 +234,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'That experience has neural correlates is expected on any view, since every experience, including seeing a tree or solving a sum, does. Defenders point out that showing how an experience arises in the brain does not show that it is caused by nothing beyond it. If God exists and chooses to be known, it would not be surprising if He used the faculties we have.',
-          'Critics reply that if brain processes fully account for the experience, then the supposition of a further cause is unnecessary, and that the fact that similar states can be produced artificially suggests that they do not need any transcendent source.',
+          'Every experience has its activity in the brain, whether seeing a tree or solving a sum, and no one concludes that the tree is unreal. Showing how an experience happens in the brain does not show that nothing beyond the brain is met in it.',
+          'If God made us and wishes to be known, it is natural that He would meet us through the faculties He gave us. That some states can be imitated by drugs or illness no more disproves real encounter with God than illusions disprove real sight.',
         ],
         ar: [
-          'أن للخبرة مقابلات عصبية متوقع على أي رأي، إذ لكل خبرة ذلك، حتى رؤية شجرة أو حل مسألة حسابية. ويشير المدافعون إلى أن بيان كيف تنشأ الخبرة في الدماغ لا يبيّن أنها لا سبب لها وراءه. فإن كان الله موجودًا ويختار أن يُعرَف فلن يكون غريبًا أن يستخدم الملكات التي لدينا.',
-          'ويردّ الناقدون بأنه إن فسّرت عمليات الدماغ الخبرة تفسيرًا كاملًا فافتراض سبب إضافي غير ضروري، وبأن إمكان إنتاج حالات مشابهة صناعيًا يدل على أنها لا تحتاج إلى مصدر متعالٍ.',
+          'لكل خبرة نشاطها في الدماغ، سواء رؤية شجرة أو حل مسألة حسابية، ولا يستنتج أحد أن الشجرة غير حقيقية. وبيان كيف تحدث الخبرة في الدماغ لا يبيّن أن لا شيء وراء الدماغ يُلقى فيها.',
+          'وإن كان الله قد خلقنا ويريد أن يُعرف، فمن الطبيعي أن يلقانا بالقوى التي أعطانا إياها. وكون بعض الحالات يمكن تقليدها بالمخدرات أو المرض لا ينفي اللقاء الحقيقي بالله، كما أن الخداع البصري لا ينفي الرؤية الحقيقية.',
         ],
       },
       limits: {
@@ -255,12 +255,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'Defenders accept that for others the evidence is of testimony, not of observation, and say that testimony is evidence even when we cannot check the original, as with a report of pain or of a memory. They add that experience can be assessed indirectly, by what it leads a person to do and become.',
-          'Critics reply that this makes the evidential weight for outsiders small, which is why most of them do not treat it as a reason to believe.',
+          'For others, experience comes as testimony, and testimony is real evidence even when we cannot check the original, as with a report of pain or a memory. Most of what we know, we know from the testimony of others.',
+          'And experience of God is not invisible: it shows itself in what a person does and becomes. The saints whose lives were transformed in love, humility and courage are a public witness that anyone can see.',
         ],
         ar: [
-          'يقرّ المدافعون بأن الدليل للآخرين دليل شهادة لا مشاهدة، ويقولون إن الشهادة دليل وإن لم نستطع فحص الأصل، كما في تقرير الألم أو الذاكرة. ويضيفون أنه يمكن تقدير الخبرة بصورة غير مباشرة بما تقود الإنسان إلى فعله وإلى ما يصير إليه.',
-          'ويردّ الناقدون بأن هذا يجعل الوزن الدليلي للغرباء ضئيلًا، ولذلك لا يعدّه معظمهم سببًا للإيمان.',
+          'تصل الخبرة إلى الآخرين شهادةً، والشهادة دليل حقيقي حتى حين لا نستطيع فحص الأصل، كما في رواية الألم أو الذكرى. وأكثر ما نعرفه نعرفه بشهادة الآخرين.',
+          'وخبرة الله ليست خفية: فهي تظهر فيما يفعله الإنسان وما يصير إليه. والقديسون الذين تغيّرت حياتهم بالمحبة والتواضع والشجاعة شهادة علنية يراها كل أحد.',
         ],
       },
       limits: {
@@ -277,10 +277,10 @@ export const article: Article = {
       },
       response: {
         en: [
-          'This is why the Church does not treat experience as self-authenticating. Reports of visions are received with caution and are tested against Scripture, the faith of the Church, and their fruits. A spiritual father or the bishop is consulted, and many experiences are neither affirmed nor denied but left as private matters of devotion.',
+          'This is exactly why the Church does not treat experience as self-authenticating. Reports of visions are received with care and tested against Scripture, the faith of the Church, and their fruits. A spiritual father or the bishop is consulted, and private devotion is kept humble. Testing does not make the faith unreliable; it is how the Church keeps the gift of God free from error.',
         ],
         ar: [
-          'ولهذا لا تعدّ الكنيسة الخبرة مصدّقة لنفسها. فتُقبل تقارير الرؤى بحذر وتُمتحن بالكتاب المقدس وإيمان الكنيسة وثمارها. ويُستشار أب روحي أو الأسقف، وكثير من الخبرات لا تُثبَت ولا تُنفى بل تبقى شأن تقوى خاصة.',
+          'لهذا بالذات لا تعدّ الكنيسة الخبرة شاهدة لنفسها. فروايات الرؤى تُتلقى بحذر وتُفحص بالكتاب المقدس وإيمان الكنيسة وثمارها. ويُستشار الأب الروحي أو الأسقف، وتبقى التقوى الخاصة متواضعة. والفحص لا يجعل الإيمان غير موثوق؛ بل هو طريق الكنيسة لحفظ عطية الله من الضلال.',
         ],
       },
       limits: {
@@ -294,10 +294,10 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'The argument from experience is not historical in itself. Where particular accounts exist (such as St Paul the Apostle’s own account of his encounter, in the New Testament), they can be examined as ancient testimony, and that examination belongs to the articles on the historical Jesus and the resurrection. This article makes no historical claim about any individual vision.',
+        'Some experiences are part of history and can be examined as ancient testimony. The most important is the encounter of St Paul the Apostle with the risen Christ, which turned a persecutor of the Church into its apostle. That testimony, together with the appearances of the risen Lord to the disciples, is examined in the articles on the resurrection.',
       ],
       ar: [
-        'حجة الخبرة ليست تاريخية بذاتها. وحيث توجد روايات محددة (كرواية القديس بولس الرسول عن لقائه في العهد الجديد) يمكن فحصها شهادةً قديمة، وهذا الفحص يخص مقالات يسوع التاريخي والقيامة. ولا تدّعي هذه المقالة أي دعوى تاريخية عن رؤيا بعينها.',
+        'بعض الخبرات جزء من التاريخ ويمكن فحصها شهادةً قديمة. وأهمها لقاء القديس بولس الرسول بالمسيح القائم، الذي حوّل مضطهِد الكنيسة إلى رسولها. وتُفحص هذه الشهادة، مع ظهورات الرب القائم للتلاميذ، في مقالات القيامة.',
       ],
     },
     theological: {
@@ -332,8 +332,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'Religious experience is a real kind of evidence, but a limited one. It gives the person who has it a reason, and gives others the weight of testimony. It does not decide among religions, and the neuroscience of the brain does not show whether anything is experienced. The Church honours the experience of God and tests it, and does not make it the foundation of faith.',
-    ar: 'الخبرة الدينية نوع حقيقي من الدليل، لكنه محدود. فهي تعطي صاحبها سببًا، وتعطي الآخرين وزن الشهادة. ولا تفصل بين الأديان، وعلم الدماغ لا يبيّن هل يُخبَر شيء. وتُكرم الكنيسة خبرة الله وتمتحنها، ولا تجعلها أساس الإيمان.',
+    en: 'Religious experience is real evidence. It gives the person who has it a reason to believe, and it gives others the weight of testimony, confirmed by changed lives. Brain science shows how we experience, not that nothing is there. The Church honours the experience of God as His gift, tests it with wisdom, and rests the faith on what God has done in Christ.',
+    ar: 'الخبرة الدينية دليل حقيقي. فهي تعطي من يعيشها سببًا للإيمان، وتعطي الآخرين وزن الشهادة، مؤيَّدة بحياة تغيّرت. ويبيّن علم الدماغ كيف نختبر، لا أن لا شيء هناك. والكنيسة تكرم خبرة الله عطيةً منه، وتفحصها بحكمة، وتبني الإيمان على ما صنعه الله في المسيح.',
   },
   furtherReading: ['S39', 'S38'],
   related: [

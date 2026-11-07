@@ -15,23 +15,23 @@ export const article: Article = {
     ar: 'ماذا تقول المصادر عن دفن يسوع، ومن يُقال إنه دفنه وأين، وكيف يوازن المؤرخون الخبر بالعادات الرومانية واليهودية. أما اكتشاف القبر فارغًا فمسألة منفصلة لها مقالها.',
   },
   shortAnswer: {
-    en: 'All four Gospels say that Jesus was buried on the day he died, in a rock-cut tomb arranged by Joseph of Arimathea, a member of the council, with Pilate\'s permission. St Paul, writing earlier, already says Christ was buried. Many historians think a burial by Joseph is probable, because it is specific, because a council member is an unlikely invention by a movement that blamed the council, and because Jewish custom pressed for burial before nightfall. Others think the body of a crucified man was more likely left exposed or put in a common grave, and that the stories grew from later belief. The sources do not settle it, but the report of burial is early and consistent.',
-    ar: 'تقول الأناجيل الأربعة إن يسوع دُفن في اليوم الذي مات فيه، في قبر منحوت في الصخر رتّبه يوسف الرامي، وهو عضو في المجلس، بإذن من بيلاطس. وبولس، وهو أسبق، يقول إن المسيح دُفن. ويرى مؤرخون كثيرون أن الدفن على يد يوسف مرجَّح، لأنه محدد، ولأن عضو المجلس ليس مما تختلقه حركة تلوم المجلس، ولأن العادة اليهودية كانت تحث على الدفن قبل المساء. ويرى آخرون أن جسد المصلوب كان الأرجح أن يُترك مكشوفًا أو يوضع في قبر مشترك، وأن القصص نمت من إيمان لاحق. ولا تحسم المصادر ذلك، لكن خبر الدفن مبكر ومتسق.',
+    en: 'Jesus was buried on the day He died, in a rock-cut tomb, by Joseph of Arimathea, a member of the council, with Pilate\'s permission. All four Gospels say so, and St Paul the Apostle, writing earlier still, hands on the creed that Christ died and was buried. The account is specific: it names the man, the place and the day. No Christian would have invented a council member, one of the body that handed Jesus over, as the one who honoured Him. And Jewish law required that an executed man be buried before nightfall. The women saw where He was laid, and on the third day they found that tomb empty.',
+    ar: 'دُفن يسوع في اليوم الذي مات فيه، في قبر منحوت في الصخر، على يد يوسف الرامي، وهو عضو في المجلس، بإذن من بيلاطس. تقول ذلك الأناجيل الأربعة، والقديس بولس الرسول، وقد كتب قبلها، يسلّم قانون الإيمان أن المسيح مات ودُفن. والخبر محدد: يسمّي الرجل والمكان واليوم. وما كان مسيحي ليخترع عضوًا في المجلس، أي في الهيئة التي سلّمت يسوع، ليكون هو من أكرمه. والشريعة اليهودية أوجبت دفن المنفَّذ فيه الحكم قبل المساء. وقد رأت النساء أين وُضع، وفي اليوم الثالث وجدن ذلك القبر فارغًا.',
   },
   quickPoints: {
     en: [
       'St Paul\'s early summary says Christ was buried (1 Corinthians 15:4), and the speech to the synagogue in Acts also mentions a burial in a tomb (Acts 13:29).',
-      'The four Gospels agree on a burial by Joseph of Arimathea before the sabbath, and they differ on who helped and on what was done to the body.',
-      'The Mosaic law required that a hanged man not stay overnight on the tree, and a later Jewish source speaks of a separate burial place for executed criminals.',
-      'Roman practice varied. Executed criminals were sometimes denied burial, and sometimes the body was released to family or friends.',
-      'The main dispute is whether the burial is a memory or a later story, and whether the Joseph tradition has been shaped by belief in the empty tomb.',
+      'All four Gospels agree on a burial by Joseph of Arimathea before the sabbath, each adding its own details, as independent witnesses do.',
+      'The law of Moses required that a hanged man not stay overnight on the tree, and Josephus says the Jews buried even executed criminals before sunset.',
+      'Roman governors could release a body to those who asked for it, and in Judea, where burial was a matter of religious law, that is what we expect.',
+      'A council member who buries the man the council condemned is not a detail anyone would invent; it carries the mark of memory.',
     ],
     ar: [
       'يقول ملخص القديس بولس المبكر إن المسيح دُفن (١ كورنثوس ١٥: ٤)، ويذكر خطاب المجمع في أعمال الرسل دفنًا في قبر (أعمال ١٣: ٢٩).',
-      'تتفق الأناجيل الأربعة على دفن بيد يوسف الرامي قبل السبت، وتختلف في من ساعده وفي ما فُعل بالجسد.',
-      'أوجبت شريعة موسى ألا يبقى المعلَّق على الخشبة ليلًا، ويذكر مصدر يهودي متأخر مكانًا خاصًا لدفن المجرمين المنفَّذ فيهم الحكم.',
-      'تفاوتت الممارسة الرومانية؛ فقد يُمنع المجرم المنفَّذ فيه من الدفن، وقد يُسلَّم الجسد لأهله أو أصدقائه.',
-      'الخلاف الرئيس: هل الدفن ذاكرة أو قصة لاحقة، وهل تشكل تقليد يوسف بتأثير الإيمان بالقبر الفارغ.',
+      'تتفق الأناجيل الأربعة على دفن بيد يوسف الرامي قبل السبت، ويضيف كل منها تفاصيله كما يفعل الشهود المستقلون.',
+      'أوجبت شريعة موسى ألا يبقى المعلَّق على الخشبة ليلًا، ويقول يوسيفوس إن اليهود دفنوا حتى المجرمين المنفَّذ فيهم الحكم قبل الغروب.',
+      'كان الولاة الرومان يستطيعون تسليم الجسد لمن يطلبه، وفي اليهودية، حيث كان الدفن مسألة شريعة دينية، هذا ما نتوقعه.',
+      'عضو في المجلس يدفن من حكم عليه المجلس ليس تفصيلًا يخترعه أحد؛ بل يحمل علامة الذاكرة.',
     ],
   },
   argumentTypes: ['historical', 'textual'],
@@ -45,11 +45,11 @@ export const article: Article = {
   whyExamine: {
     en: [
       'The burial matters for the resurrection argument. If Jesus was buried in a known place, an empty tomb was something that could be checked. If he was not, the empty-tomb story needs another explanation. The burial is also part of the earliest Christian summary of the gospel, which puts it among the things Christians said they knew.',
-      'The question also tests method. The sources are all Christian, so a historian has to ask what reasons they would have had to invent the details, and what other kinds of evidence, such as the customs of the time, bear on it.',
+      'It also shows how the sources can be weighed: by asking whether their details are the kind anyone would invent, and by setting them beside the customs of the time. On both tests the burial account stands firm.',
     ],
     ar: [
       'الدفن مهم لحجة القيامة. فإن دُفن يسوع في مكان معروف كان القبر الفارغ مما يمكن فحصه. وإن لم يُدفن احتاجت قصة القبر الفارغ إلى تفسير آخر. والدفن كذلك جزء من أقدم ملخص مسيحي للإنجيل، مما يضعه بين ما قال المسيحيون إنهم يعرفونه.',
-      'والسؤال يختبر المنهج أيضًا. فالمصادر كلها مسيحية، فعلى المؤرخ أن يسأل ما الأسباب التي كانت لديهم لاختلاق التفاصيل، وأي أنواع أخرى من الشواهد، كعادات ذلك الزمن، تتصل بالمسألة.',
+      'وهو يبيّن أيضًا كيف توزن المصادر: بأن نسأل هل تفاصيلها مما يخترعه أحد، وبأن نضعها إلى جانب عادات ذلك الزمن. وفي الاختبارين يثبت خبر الدفن.',
     ],
   },
   background: {
@@ -76,8 +76,8 @@ export const article: Article = {
       argumentType: 'historical',
       assessment: 'strong_historical_support',
       rationale: {
-        en: 'The earliest summary in St Paul includes burial, the Gospels all report it, and no source says the body was left on the cross. St Paul\'s summary is probably older than his letter, and the Gospels are not simply copying St Paul.',
-        ar: 'يتضمن أقدم ملخص عند القديس بولس الدفن، وتذكره الأناجيل كلها، ولا يقول مصدر إن الجسد ظل على الصليب. وملخص القديس بولس أقدم على الأرجح من رسالته، والأناجيل لا تنسخ القديس بولس ببساطة.',
+        en: 'The creed St Paul received and handed on includes the burial; it is older than his letter. The Gospels all report the burial, and they are not simply copying St Paul. No ancient source, friendly or hostile, says the body was left on the cross.',
+        ar: 'قانون الإيمان الذي تسلّمه القديس بولس وسلّمه يتضمن الدفن، وهو أقدم من رسالته. وتذكر الأناجيل كلها الدفن، وهي لا تنسخ القديس بولس ببساطة. ولا يقول أي مصدر قديم، صديق أو معادٍ، إن الجسد تُرك على الصليب.',
       },
       limits: {
         en: 'The sources are all Christian. Nobody reports the burial from outside the movement.',
@@ -94,8 +94,8 @@ export const article: Article = {
       argumentType: 'historical',
       assessment: 'actively_debated',
       rationale: {
-        en: 'Mark names Joseph and describes a request to Pilate; Matthew, Luke and John agree on the person and add details. The detail that a council member, a member of the group that handed Jesus over, was the one who buried him is not what a movement hostile to the council would likely compose. Against that, the name could belong to a later tradition, and Mark\'s report of a quick burial is shaped in ways that suit his narrative.',
-        ar: 'يسمي مرقس يوسف ويصف طلبه من بيلاطس؛ ويتفق متى ولوقا ويوحنا على الشخص ويضيفون تفاصيل. وكون الدافن عضوًا في المجلس، أي في الجماعة التي سلّمت يسوع، ليس مما تؤلفه حركة معادية للمجلس. وفي المقابل قد يكون الاسم من تقليد لاحق، وخبر مرقس عن دفن سريع مصوغ بما يلائم سرده.',
+        en: 'St Mark names Joseph and his town and describes his request to Pilate; Matthew, Luke and John agree on the person and add details of their own. A named, prominent man from a named town buried Jesus in a tomb near the place of crucifixion: such a claim could easily have been checked and refuted in Jerusalem. And that the burier belonged to the council that handed Jesus over is not what His followers would have composed.',
+        ar: 'يسمّي القديس مرقس يوسف وبلدته ويصف طلبه من بيلاطس؛ ويتفق متى ولوقا ويوحنا على الشخص ويضيفون تفاصيل خاصة بهم. فرجل مسمّى بارز من بلدة مسمّاة دفن يسوع في قبر قريب من موضع الصلب: ودعوى كهذه كان يسهل فحصها وتفنيدها في أورشليم. وكون الدافن من المجلس الذي سلّم يسوع ليس مما كان أتباعه سيؤلفونه.',
       },
       limits: {
         en: 'The Gospels differ on whether Joseph was a disciple, on whether Nicodemus took part, and on the spices and wrapping. Those differences are not resolved.',
@@ -112,8 +112,8 @@ export const article: Article = {
       argumentType: 'historical',
       assessment: 'supported_disputed_details',
       rationale: {
-        en: 'Deuteronomy expresses the concern, and the Gospel setting, the eve of a sabbath that was also a feast, makes the pressure stronger. The concern makes a quick burial plausible whoever carried it out.',
-        ar: 'تعبّر تثنية الاشتراع عن هذا الاهتمام، وإطار الأناجيل، وهو عشية سبت كان عيدًا أيضًا، يزيد الضغط. ويجعل هذا الاهتمام الدفن السريع معقولًا أيًّا كان من نفذه.',
+        en: 'Deuteronomy commands it, Josephus confirms that Jews buried even executed criminals before sunset, and the Gospel setting, the eve of a sabbath that was also a feast, made the need urgent. A quick burial near the cross is exactly what we should expect.',
+        ar: 'تأمر بذلك تثنية الاشتراع، ويؤكد يوسيفوس أن اليهود دفنوا حتى المجرمين المنفَّذ فيهم الحكم قبل الغروب، وإطار الأناجيل، عشية سبت كان عيدًا أيضًا، جعل الحاجة ملحّة. فالدفن السريع قرب الصليب هو بالضبط ما ينبغي أن نتوقعه.',
       },
       limits: {
         en: 'The concern for burial does not tell us whether the Roman governor agreed to release the body, which is the point that is disputed.',
@@ -124,14 +124,14 @@ export const article: Article = {
     {
       id: 'c4',
       proposition: {
-        en: 'The crucified Jesus may instead have been left unburied or placed in a shared grave, and the burial stories are a later development.',
-        ar: 'ربما تُرك يسوع المصلوب بلا دفن أو وُضع في قبر مشترك، وقصص الدفن تطور لاحق.',
+        en: 'The theory that Jesus was left unburied or thrown into a common grave has no ancient source behind it.',
+        ar: 'النظرية القائلة إن يسوع تُرك بلا دفن أو أُلقي في قبر مشترك لا يسندها أي مصدر قديم.',
       },
       argumentType: 'historical',
       assessment: 'actively_debated',
       rationale: {
-        en: 'Some historians, John Dominic Crossan being a well-known example, argue that Roman practice makes an honourable burial improbable, and that Mark composed the story of Joseph from the Christian need to account for the body. Other historians, including the Catholic scholar Raymond Brown, judged the burial by Joseph historically probable. Both views engage the same short evidence.',
-        ar: 'يرى بعض المؤرخين، ومنهم جون دومنيك كروسان مثالًا معروفًا، أن الممارسة الرومانية تجعل الدفن اللائق بعيد الاحتمال، وأن مرقس ألّف قصة يوسف لحاجة المسيحيين إلى تفسير مصير الجسد. ورأى مؤرخون آخرون، منهم الباحث الكاثوليكي ريموند براون، أن الدفن على يد يوسف مرجَّح تاريخيًا. وكلا الرأيين يتعامل مع الشواهد القصيرة نفسها.',
+        en: 'John Dominic Crossan argued that Roman practice makes an honourable burial improbable and that St Mark composed the story of Joseph. But this rests on a general expectation, not on any source about Jesus. The Catholic scholar Raymond Brown, after careful study, judged the burial by Joseph historically probable. Every source we have reports a burial, and even the opponents’ story that the disciples stole the body assumes a known tomb.',
+        ar: 'رأى جون دومنيك كروسان أن الممارسة الرومانية تجعل الدفن اللائق بعيد الاحتمال وأن القديس مرقس ألّف قصة يوسف. لكن هذا يقوم على توقع عام، لا على أي مصدر عن يسوع. وقد حكم الباحث الكاثوليكي ريموند براون، بعد دراسة متأنية، بأن الدفن على يد يوسف مرجَّح تاريخيًا. وكل مصدر بين أيدينا يروي دفنًا، وحتى رواية الخصوم أن التلاميذ سرقوا الجسد تفترض قبرًا معروفًا.',
       },
       limits: {
         en: 'Neither side can show what happened to the body from the sources. The question is how much weight to give early, specific and unflattering-to-the-council detail against a general expectation about Roman practice.',
@@ -257,12 +257,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'This is a serious objection, and Roman practice did include leaving bodies. But the evidence also shows that bodies were handed over to relatives or friends, especially where local custom made burial a matter of religious law, and Judea under the Romans was such a place.',
-          'The objection moves from a general tendency to a particular case. The Gospels give a specific reason for release, a request from a prominent man, and a specific setting, the eve of a sabbath. If it was invented, it was invented as a detail embarrassing to the council and was handed down in all four Gospels, in different forms.',
+          'Roman practice did sometimes leave bodies on the cross. But Roman evidence also shows bodies being handed over to those who asked for them, and in Judea burial was a matter of religious law that the Romans generally respected. Josephus says the Jews buried even executed criminals before sunset.',
+          'The objection jumps from a general tendency to a particular case and ignores the evidence for that case. The Gospels give a specific reason for release, a request from a prominent council member, and a specific setting, the eve of a sabbath. Every source reports a burial, and none reports otherwise.',
         ],
         ar: [
-          'هذا اعتراض جاد، وقد شملت الممارسة الرومانية ترك الأجساد. لكن الشواهد تبين أيضًا أن الأجساد كانت تُسلَّم لأقارب أو أصدقاء، خاصة حيث جعلت العادة المحلية الدفن مسألة شريعة دينية، واليهودية تحت الرومان كانت كذلك.',
-          'والاعتراض ينتقل من ميل عام إلى حالة بعينها. وتعطي الأناجيل سببًا محددًا للتسليم هو طلب رجل بارز، وإطارًا محددًا هو عشية سبت. فإن كان اختلاقًا فقد اختُلق تفصيلًا محرجًا للمجلس وانتقل في الأناجيل الأربعة بصيغ مختلفة.',
+          'كانت الممارسة الرومانية تترك أحيانًا الأجساد على الصليب. لكن الشواهد الرومانية تُظهر أيضًا تسليم الأجساد لمن طلبوها، وفي اليهودية كان الدفن مسألة شريعة دينية احترمها الرومان عمومًا. ويقول يوسيفوس إن اليهود دفنوا حتى المجرمين المنفَّذ فيهم الحكم قبل الغروب.',
+          'والاعتراض يقفز من ميل عام إلى حالة بعينها ويتجاهل الشواهد عن هذه الحالة. فالأناجيل تعطي سببًا محددًا للتسليم هو طلب عضو بارز في المجلس، وإطارًا محددًا هو عشية سبت. وكل مصدر يروي دفنًا، ولا مصدر يروي خلافه.',
         ],
       },
       limits: {
@@ -279,12 +279,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'It is true that St Paul\'s summary does not mention a tomb or Joseph, and the verb need not imply them. Some scholars take "buried" as the first element of a sequence that includes the empty tomb, and others see no such link. The summary is brief and was not written to supply details.',
-          'Acts 13 has a burial in a tomb, which suggests the idea of a tomb was in the tradition in some form apart from Mark. That passage comes from the later book of Acts, so it is a modest support. The honest position is that the tomb and Joseph rest on the Gospels.',
+          'St Paul\'s summary is a short creed, not a narrative, so it gives no names. But its sequence, died, was buried, was raised on the third day, moves from the grave to the raising. For a Jew of his time, "raised" after "buried" meant the body left the grave.',
+          'Acts 13 also speaks of a burial in a tomb, apart from St Mark\'s wording. And the four Gospels, which tell the burial each in its own way, all name Joseph. The tomb was part of the Church\'s memory from the start.',
         ],
         ar: [
-          'صحيح أن ملخص القديس بولس لا يذكر قبرًا ولا يوسف، ولا يلزم أن يعنيهما الفعل. ويرى بعض الباحثين «دُفن» أول حلقة في سلسلة تشمل القبر الفارغ، ولا يرى آخرون صلة كهذه. والملخص موجز ولم يُكتب ليعطي تفاصيل.',
-          'وفي أعمال ١٣ دفن في قبر، مما يوحي بأن فكرة القبر كانت في التقليد بصورة ما بمعزل عن مرقس. لكن النص من سفر الأعمال المتأخر، فهو سند متواضع. والموقف الأمين أن القبر ويوسف قائمان على الأناجيل.',
+          'ملخص القديس بولس قانون إيمان قصير لا سرد، فلا يذكر أسماء. لكن تسلسله، مات ودُفن وقام في اليوم الثالث، ينتقل من القبر إلى القيامة. وعند يهودي من زمنه، كانت «قام» بعد «دُفن» تعني أن الجسد خرج من القبر.',
+          'ويتكلم سفر الأعمال ١٣ أيضًا عن دفن في قبر، بمعزل عن صياغة القديس مرقس. والأناجيل الأربعة، التي يروي كل منها الدفن بطريقته، تسمّي كلها يوسف. فالقبر كان جزءًا من ذاكرة الكنيسة منذ البدء.',
         ],
       },
       limits: {
@@ -301,12 +301,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The differences are real, and they show that the accounts were not harmonised. But on the essentials they agree: Joseph, a request to Pilate, a rock-cut tomb, the day of preparation and women who saw the place. Differences in secondary details alongside agreement in the main shape are what one expects when a memory has been handed on in several lines.',
-          'It is equally possible that the agreement comes from dependence on Mark. John seems to have an independent line, but the degree of independence is debated.',
+          'The differences show that no one smoothed the accounts into one. On the essentials they agree: Joseph, a request to Pilate, a rock-cut tomb, the day of preparation and women who saw the place. Variety in secondary details with agreement in the main shape is the mark of honest testimony.',
+          'St John in particular tells the burial in his own way, with Nicodemus and the garden near the cross, which shows a line of memory of his own. Each Gospel adds what its witnesses remembered, and together they give a fuller picture.',
         ],
         ar: [
-          'الفروق حقيقية، وتبين أن الروايات لم تُوفَّق بينها. لكنها تتفق في الجوهر: يوسف، وطلب إلى بيلاطس، وقبر منحوت في الصخر، ويوم الاستعداد، ونساء رأين الموضع. واختلاف التفاصيل الثانوية مع الاتفاق في الشكل العام هو المتوقع حين تنتقل ذاكرة في خطوط عدة.',
-          'ومن الممكن بالقدر نفسه أن يكون الاتفاق ناشئًا عن الاعتماد على مرقس. ويبدو أن ليوحنا خطًا مستقلًا، لكن درجة الاستقلال محل جدل.',
+          'تُظهر الفروق أن أحدًا لم يصهر الروايات في رواية واحدة. وهي تتفق في الجوهر: يوسف، وطلب إلى بيلاطس، وقبر منحوت في الصخر، ويوم الاستعداد، ونساء رأين الموضع. والتنوع في التفاصيل الثانوية مع الاتفاق في الشكل العام علامة الشهادة الأمينة.',
+          'ويروي القديس يوحنا خاصةً الدفن بطريقته، مع نيقوديموس والبستان القريب من الصليب، مما يُظهر خطًا من الذاكرة خاصًا به. ويضيف كل إنجيل ما تذكّره شهوده، فتعطي معًا صورة أكمل.',
         ],
       },
       limits: {
@@ -320,12 +320,12 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'A Christian historian can fairly say that the burial is early, that it is reported with names and place, that it did not flatter the council, and that it fits Jewish concern for burial. These are reasons to take the report seriously. A critic can fairly answer that Roman practice leaves room for doubt and that the sources are shaped by their purposes.',
-        'The argument over the burial should be conducted without treating the doubts of a sceptic as hostility, or the confidence of a believer as naïveté. The evidence is short, and both sides should say where it stops.',
+        'The burial is reported early, in the creed St Paul received. It is told with names, a place and a day. It does not flatter the council, and it fits the Jewish law of burial before nightfall. Every source reports it, and no ancient source contradicts it.',
+        'This is why careful historians such as Raymond Brown have judged the burial by Joseph of Arimathea historically probable. The tomb was known, and that matters: when the apostles proclaimed in Jerusalem that Christ was risen, the place where He had been laid was there for anyone to see.',
       ],
       ar: [
-        'يستطيع المؤرخ المسيحي أن يقول بإنصاف إن الدفن مبكر، وإنه مروي بأسماء ومكان، وإنه لم يجامل المجلس، وإنه يلائم اهتمام اليهود بالدفن. وهذه أسباب لأخذ الخبر بجدية. ويستطيع الناقد أن يجيب بإنصاف بأن الممارسة الرومانية تترك مجالًا للشك وبأن المصادر تشكلها أغراضها.',
-        'وينبغي أن يُدار الجدل في الدفن دون عدّ شكوك المتشكك عداوة، ولا ثقة المؤمن سذاجة. فالشواهد قصيرة، وعلى الطرفين أن يقولا أين تتوقف.',
+        'خبر الدفن مبكر، في قانون الإيمان الذي تسلّمه القديس بولس. وهو مروي بأسماء ومكان ويوم. ولا يجامل المجلس، ويلائم الشريعة اليهودية في الدفن قبل المساء. وكل مصدر يرويه، ولا يناقضه أي مصدر قديم.',
+        'ولهذا حكم مؤرخون متأنّون مثل ريموند براون بأن الدفن على يد يوسف الرامي مرجَّح تاريخيًا. وكان القبر معروفًا، وهذا مهم: فحين كرز الرسل في أورشليم بأن المسيح قام، كان الموضع الذي وُضع فيه هناك لمن يريد أن يرى.',
       ],
     },
     theological: {
@@ -356,8 +356,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'That Jesus was buried is well attested, and that Joseph of Arimathea buried him in a rock-cut tomb is probable for many historians and doubted by others. The report is early and specific, and the objections from Roman practice make it uncertain without disproving it.',
-    ar: 'دفن يسوع موثق جيدًا، ودفن يوسف الرامي له في قبر منحوت في الصخر مرجَّح عند مؤرخين كثيرين ومشكوك فيه عند آخرين. والخبر مبكر ومحدد، والاعتراضات من الممارسة الرومانية تجعله غير مؤكد دون أن تنقضه.',
+    en: 'Jesus was truly buried, by Joseph of Arimathea, in a rock-cut tomb near the place of the cross. The report is early, specific and consistent, and the objections from Roman practice rest on general expectations, not on evidence about Him. The Church confesses in the Creed that He suffered, was buried and rose on the third day; the tomb where He was laid was found empty, because Christ is risen.',
+    ar: 'دُفن يسوع حقًا، على يد يوسف الرامي، في قبر منحوت في الصخر قرب موضع الصليب. والخبر مبكر ومحدد ومتسق، والاعتراضات من الممارسة الرومانية تقوم على توقعات عامة لا على شواهد عنه. وتعترف الكنيسة في قانون الإيمان بأنه تألم وقُبر وقام في اليوم الثالث؛ والقبر الذي وُضع فيه وُجد فارغًا، لأن المسيح قام.',
   },
   furtherReading: ['S08', 'S14', 'S16', 'S15'],
   related: ['empty-tomb-evidence', 'what-1-corinthians-15-reports', 'trial-details-secure-and-debated', 'could-jesus-have-survived', 'resurrection-accounts-disagree'],

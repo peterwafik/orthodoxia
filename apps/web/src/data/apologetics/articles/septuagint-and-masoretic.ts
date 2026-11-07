@@ -15,8 +15,8 @@ export const article: Article = {
     ar: 'تسأل هذه المقالة لماذا تختلف الترجمة السبعينية، أي العهد القديم اليوناني القديم، عن النص الماسوري، أي النص العبري التقليدي، في مواضع. وهي تصف كيف نشأ كل منهما، وما تُظهره مخطوطات البحر الميت، وأمثلة قليلة للاختلاف، وكيف تتعامل الكنيسة القبطية الأرثوذكسية مع السبعينية. ولا تفحص أي الأسفار تنتمي إلى العهد القديم (انظر مقالتي قوانين العهد القديم والأسفار القانونية الثانية)، ولا مخطوطات البحر الميت عمومًا.',
   },
   shortAnswer: {
-    en: 'The two differ because they come from different paths. The Septuagint is a Greek translation made by Jews in Egypt, beginning with the Torah in the third century BC, from Hebrew texts of that time. The Masoretic Text is the Hebrew text preserved by Jewish scribes and fixed in its present form, with vowels and notes, by the Masoretes in the early Middle Ages. Differences arise from translation choices, from copying changes on both sides, and, as the Dead Sea Scrolls show, from the fact that more than one Hebrew form of some books was in circulation. In several places the Septuagint appears to reflect an older or different Hebrew text. The early Church, writing in Greek, used the Septuagint, and the Coptic Orthodox Church receives the Old Testament in that tradition, including the deuterocanonical books.',
-    ar: 'يختلف النصان لأنهما جاءا من مسارين مختلفين. فالسبعينية ترجمة يونانية صنعها يهود في مصر، بدأت بالتوراة في القرن الثالث قبل الميلاد، عن نصوص عبرية في ذلك الزمن. والنص الماسوري هو النص العبري الذي حفظه النسّاخ اليهود وثبّتوه في صورته الحالية، بالحركات والملاحظات، في العصور الوسطى المبكرة. وتنشأ الاختلافات من خيارات الترجمة، ومن تغييرات النسخ من الجانبين، ومن، كما تُظهر مخطوطات البحر الميت، أن أكثر من صورة عبرية لبعض الأسفار كانت متداولة. وفي مواضع عدة تبدو السبعينية عاكسة لنص عبري أقدم أو مختلف. وقد استعملت الكنيسة الأولى، وكانت تكتب باليونانية، السبعينية، وتتسلم الكنيسة القبطية الأرثوذكسية العهد القديم في هذا التقليد، بما فيه الأسفار القانونية الثانية.',
+    en: 'They differ because they come down to us by two paths. The Septuagint is the Greek translation made by Jews in Alexandria, beginning with the Torah in the third century BC, from the Hebrew texts of that time. The Masoretic Text is the Hebrew text preserved by Jewish scribes and fixed in its present form, with vowels and notes, by the Masoretes in the early Middle Ages. The Dead Sea Scrolls show that more than one Hebrew form of some books was in use before Christ, and in several places the Septuagint reflects an older Hebrew text than the one later fixed. The apostles, writing in Greek, often quoted the Septuagint. The Coptic Orthodox Church receives the Old Testament in this tradition, including the deuterocanonical books, and honours the Hebrew text as well.',
+    ar: 'يختلفان لأنهما وصلا إلينا بطريقين. فالسبعينية هي الترجمة اليونانية التي صنعها يهود في الإسكندرية، بدءًا بالتوراة في القرن الثالث ق.م.، من النصوص العبرية في ذلك الزمن. والنص الماسوري هو النص العبري الذي حفظه الكتبة اليهود وثبّته الماسوريون بصورته الحالية، بالحركات والحواشي، في أوائل العصور الوسطى. وتبيّن مخطوطات البحر الميت أن أكثر من صيغة عبرية لبعض الأسفار كانت مستعملة قبل المسيح، وفي مواضع عدة تعكس السبعينية نصًا عبريًا أقدم من الذي ثُبّت لاحقًا. وكثيرًا ما استشهد الرسل، وهم يكتبون باليونانية، بالسبعينية. والكنيسة القبطية الأرثوذكسية تقبل العهد القديم في هذا التقليد، ومعه الأسفار القانونية الثانية، وتكرم النص العبري أيضًا.',
   },
   quickPoints: {
     en: [
@@ -28,12 +28,12 @@ export const article: Article = {
       'The Coptic Orthodox Church receives the Old Testament in the Septuagint tradition, with the deuterocanonical books.',
     ],
     ar: [
-      'السبعينية ترجمة يونانية صنعها يهود، بدأت بأسفار موسى الخمسة في مصر في القرن الثالث قبل الميلاد؛ وتُرجمت الأسفار الأخرى لاحقًا.',
-      'النص الماسوري هو النص العبري الذي ثبّته النسّاخ اليهود، الماسوريون، في العصور الوسطى المبكرة؛ وأقدم مخطوطاته الكاملة من نحو القرنين العاشر والحادي عشر الميلاديين.',
-      'تُظهر مخطوطات البحر الميت أن أكثر من صورة عبرية لبعض الأسفار كانت متداولة، وبعض نصوص قمران تتفق مع السبعينية ضد النص الماسوري.',
-      'تشمل الاختلافات الصياغة والطول والترتيب، كما في إرميا، وهو أقصر في السبعينية ومرتب ترتيبًا مختلفًا.',
-      'يقتبس كتّاب العهد الجديد، وهم يكتبون باليونانية، العهد القديم كثيرًا بصياغة قريبة من السبعينية.',
-      'تتسلم الكنيسة القبطية الأرثوذكسية العهد القديم في التقليد السبعيني مع الأسفار القانونية الثانية.',
+      'السبعينية ترجمة يونانية صنعها يهود، بدءًا بأسفار موسى الخمسة في مصر في القرن الثالث ق.م.؛ وتُرجمت الأسفار الأخرى لاحقًا.',
+      'النص الماسوري هو النص العبري الذي ثبّته الكتبة اليهود، الماسوريون، في أوائل العصور الوسطى؛ وأقدم مخطوطاته الكاملة من نحو القرنين العاشر والحادي عشر الميلاديين.',
+      'تبيّن مخطوطات البحر الميت أن أكثر من صيغة عبرية لبعض الأسفار كانت متداولة، وأن بعض نصوص قمران يوافق السبعينية ضد النص الماسوري.',
+      'تشمل الفروق الألفاظ والطول والترتيب، كما في إرميا، الذي هو أقصر في السبعينية ومرتب ترتيبًا مختلفًا.',
+      'كثيرًا ما يستشهد كتّاب العهد الجديد، وهم يكتبون باليونانية، بالعهد القديم بألفاظ قريبة من السبعينية.',
+      'تقبل الكنيسة القبطية الأرثوذكسية العهد القديم في تقليد السبعينية، مع الأسفار القانونية الثانية.',
     ],
   },
   argumentTypes: ['textual', 'historical'],
@@ -46,12 +46,12 @@ export const article: Article = {
   },
   whyExamine: {
     en: [
-      'Readers often notice that an Old Testament quotation in the New Testament does not match the Old Testament in their Bible, or that Catholic, Orthodox and Protestant Bibles contain different books and sometimes different wording. The reason lies in the history of the two textual traditions.',
-      'The question also bears on how Christians think about the Old Testament: whether the Hebrew text that was standardised later is the only authentic form, or whether the Greek text used by the early Church is also a witness to the Word. It is better to see the evidence than to argue from slogans on either side.',
+      'Readers often notice that an Old Testament quotation in the New Testament does not match the Old Testament in their Bible, or that Orthodox, Catholic and Protestant Bibles contain different books and sometimes different wording. The reason lies in the history of these two textual traditions, and knowing it removes the puzzle.',
+      'It also shows why the Church reads the Old Testament as she does. The Greek text used by the apostles and the Fathers is a true witness to the Word of God, and it was received in Alexandria, the Church of St Mark.',
     ],
     ar: [
-      'كثيرًا ما يلاحظ القراء أن اقتباسًا من العهد القديم في العهد الجديد لا يطابق العهد القديم في كتابهم المقدس، أو أن الطبعات الكاثوليكية والأرثوذكسية والبروتستانتية تضم أسفارًا مختلفة وأحيانًا صياغة مختلفة. والسبب في تاريخ التقليدين النصيين.',
-      'والسؤال يتصل أيضًا بكيف يفكر المسيحيون في العهد القديم: هل النص العبري الذي توحد لاحقًا هو الصورة الأصيلة الوحيدة، أم أن النص اليوناني الذي استعملته الكنيسة الأولى شاهد أيضًا على الكلمة. والأفضل أن نرى الشواهد بدل المحاجّة بشعارات من الجانبين.',
+      'كثيرًا ما يلاحظ القراء أن استشهادًا من العهد القديم في العهد الجديد لا يطابق العهد القديم في كتابهم، أو أن الكتب المقدسة الأرثوذكسية والكاثوليكية والبروتستانتية تضم أسفارًا مختلفة وألفاظًا مختلفة أحيانًا. والسبب في تاريخ هذين التقليدين النصيين، ومعرفته تزيل الحيرة.',
+      'وهو يبيّن أيضًا لماذا تقرأ الكنيسة العهد القديم كما تقرؤه. فالنص اليوناني الذي استعمله الرسل والآباء شاهد حق لكلمة الله، وقد تسلّمته الإسكندرية، كنيسة القديس مرقس.',
     ],
   },
   background: {
@@ -76,13 +76,13 @@ export const article: Article = {
       id: 'c1',
       proposition: {
         en: 'The Septuagint began as a Greek translation of the Torah made by Jews in Alexandria in the third century BC, and the other books were translated over the following period.',
-        ar: 'بدأت السبعينية ترجمة يونانية للتوراة صنعها يهود في الإسكندرية في القرن الثالث قبل الميلاد، وتُرجمت الأسفار الأخرى خلال الفترة التالية.',
+        ar: 'بدأت السبعينية ترجمةً يونانية للتوراة صنعها يهود في الإسكندرية في القرن الثالث ق.م.، وتُرجمت الأسفار الأخرى في الفترة التالية.',
       },
       argumentType: 'historical',
       assessment: 'supported_disputed_details',
       rationale: {
-        en: 'The outline is widely accepted by historians. The legendary details in the Letter of Aristeas are not, and the dates and translators of the later books are debated.',
-        ar: 'يقبل المؤرخون الخطوط العامة على نطاق واسع. أما التفاصيل الأسطورية في رسالة أريستياس فلا يقبلونها، وتواريخ الأسفار اللاحقة ومترجموها محل نقاش.',
+        en: 'The Torah was translated into Greek in Alexandria in the third century BC for the large Greek-speaking Jewish community there, and other books followed over the next two centuries. The Letter of Aristeas tells the story in legendary form, but the translation itself is a firm fact of history, and it was the Bible of Greek-speaking Jews before Christ.',
+        ar: 'تُرجمت التوراة إلى اليونانية في الإسكندرية في القرن الثالث ق.م. للجالية اليهودية الكبيرة الناطقة باليونانية هناك، وتلتها أسفار أخرى في القرنين التاليين. وتروي رسالة أريستياس القصة بصورة أسطورية، لكن الترجمة نفسها واقعة تاريخية ثابتة، وكانت كتاب اليهود الناطقين باليونانية قبل المسيح.',
       },
       limits: {
         en: 'It is a historical reconstruction and does not decide how the Church should value the translation.',
@@ -93,14 +93,14 @@ export const article: Article = {
     {
       id: 'c2',
       proposition: {
-        en: 'The Dead Sea Scrolls show that more than one Hebrew form of some biblical books circulated before the time of Jesus, and that some of them agree with the Septuagint against the Masoretic Text.',
-        ar: 'تُظهر مخطوطات البحر الميت أن أكثر من صورة عبرية لبعض الأسفار الكتابية كانت متداولة قبل زمن يسوع، وأن بعضها يتفق مع السبعينية ضد النص الماسوري.',
+        en: 'The Dead Sea Scrolls show that more than one Hebrew form of some biblical books circulated before the time of Christ, and that some of them agree with the Septuagint against the Masoretic Text.',
+        ar: 'تبيّن مخطوطات البحر الميت أن أكثر من صيغة عبرية لبعض الأسفار الكتابية كانت متداولة قبل زمن المسيح، وأن بعضها يوافق السبعينية ضد النص الماسوري.',
       },
       argumentType: 'textual',
       assessment: 'supported_disputed_details',
       rationale: {
-        en: 'This is reported by specialists in the Hebrew Bible, and it is one of the principal findings of work on the scrolls. How many books it applies to, and how to classify the texts, are debated.',
-        ar: 'يذكر ذلك المتخصصون في الكتاب العبري، وهو من النتائج الرئيسية للعمل على المخطوطات. وعدد الأسفار التي ينطبق عليها وطريقة تصنيف النصوص محل نقاش.',
+        en: 'This is one of the principal findings of the study of the scrolls. A Qumran manuscript of Jeremiah has the shorter text and order that the Septuagint reflects, and Qumran manuscripts of Samuel agree with the Septuagint in places. In these cases the Greek translators were faithfully rendering a Hebrew text that differed from the one later fixed.',
+        ar: 'هذه من أهم نتائج دراسة المخطوطات. فمخطوطة إرميا من قمران تحمل النص الأقصر والترتيب اللذين تعكسهما السبعينية، ومخطوطات صموئيل من قمران توافق السبعينية في مواضع. وفي هذه الحالات كان المترجمون اليونانيون ينقلون بأمانة نصًا عبريًا يختلف عن الذي ثُبّت لاحقًا.',
       },
       limits: {
         en: 'The scrolls do not cover every book and do not settle which form is original in any place.',
@@ -112,13 +112,13 @@ export const article: Article = {
       id: 'c3',
       proposition: {
         en: 'The Greek New Testament often quotes the Old Testament in wording close to the Septuagint, as in Hebrews’ quotation of Psalm 40.',
-        ar: 'يقتبس العهد الجديد اليوناني العهد القديم كثيرًا بصياغة قريبة من السبعينية، كما في اقتباس العبرانيين للمزمور 40.',
+        ar: 'كثيرًا ما يستشهد العهد الجديد اليوناني بالعهد القديم بألفاظ قريبة من السبعينية، كما في استشهاد الرسالة إلى العبرانيين بالمزمور ٤٠.',
       },
       argumentType: 'textual',
       assessment: 'supported_disputed_details',
       rationale: {
-        en: 'The match of wording between Hebrews 10:5 and the Greek of Psalm 40 can be seen by comparing the texts. The proportion of New Testament quotations that follow the Septuagint is a matter of detailed study.',
-        ar: 'يمكن رؤية تطابق الصياغة بين عبرانيين 10: 5 ويونانية المزمور 40 بمقارنة النصوص. ونسبة اقتباسات العهد الجديد التي تتبع السبعينية موضوع دراسة تفصيلية.',
+        en: 'Comparing Hebrews 10:5 with the Greek of Psalm 40 shows the match: the Greek speaks of a body prepared, and the letter builds its teaching on the Incarnation on that wording. The apostles used the Septuagint as Scripture.',
+        ar: 'تُظهر مقارنة العبرانيين ١٠:٥ بالنص اليوناني للمزمور ٤٠ التطابق: فاليوناني يتكلم عن جسد هُيّئ، والرسالة تبني تعليمها عن التجسد على هذه الألفاظ. فقد استعمل الرسل السبعينية كتابًا مقدسًا.',
       },
       limits: {
         en: 'It does not mean that the Septuagint is superior to the Hebrew, only that the New Testament authors used it.',
@@ -130,13 +130,13 @@ export const article: Article = {
       id: 'c4',
       proposition: {
         en: 'The Coptic Orthodox Church receives the Old Testament in the Septuagint tradition, as did the Greek-speaking Fathers of Alexandria, and sees no conflict between that and the study of the Hebrew text.',
-        ar: 'تتسلم الكنيسة القبطية الأرثوذكسية العهد القديم في التقليد السبعيني، كما فعل آباء الإسكندرية الناطقون باليونانية، ولا ترى تعارضًا بين ذلك ودراسة النص العبري.',
+        ar: 'تقبل الكنيسة القبطية الأرثوذكسية العهد القديم في تقليد السبعينية، كما قبله آباء الإسكندرية الناطقون باليونانية، ولا ترى تعارضًا بين ذلك ودراسة النص العبري.',
       },
       argumentType: 'theological',
       assessment: 'theological_interpretation',
       rationale: {
-        en: 'The reception of a text by the Church is a matter of what she has handed on and read. It is stated here as the Church’s position and not as a conclusion of textual criticism.',
-        ar: 'تسلّم الكنيسة لنص ما يقوم على ما سلّمته وقرأته. وهو يُذكر هنا موقف الكنيسة لا خلاصة للنقد النصي.',
+        en: 'The Church received the Scriptures in the form the apostles quoted and the Fathers expounded. The Coptic Old Testament versions were made from the Greek, and Alexandria, the home of the translation, is the home of the Coptic Church.',
+        ar: 'تسلّمت الكنيسة الكتب بالصورة التي استشهد بها الرسل وشرحها الآباء. وقد صُنعت الترجمات القبطية للعهد القديم عن اليونانية، والإسكندرية، موطن الترجمة، هي موطن الكنيسة القبطية.',
       },
       limits: {
         en: 'Other traditions, including Jewish and most Protestant ones, prefer the Hebrew text for the Old Testament. The article does not argue that they are mistaken.',
@@ -228,12 +228,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The Hebrew is the language in which the books were written, and a translation depends on it. But the Hebrew text that the translators used was not necessarily the Masoretic Text, which was fixed later, and the scrolls show that Hebrew forms differed. In several books the Septuagint may preserve an older Hebrew reading.',
-          'For this reason textual scholars use both, along with the Qumran texts, and weigh each reading. This is the practice of critical editions, and it is compatible with different views about which form the Church should read in worship.',
+          'Hebrew is the language in which the books were written, and the Church honours it. But the Hebrew text the translators used was older than the Masoretic Text, which was fixed many centuries later, and the scrolls show that Hebrew forms differed. In several books the Septuagint preserves an older Hebrew reading.',
+          'So the Septuagint is not a mere translation to be corrected by a later text. It is an ancient witness in its own right, and scholars of the text use it alongside the Hebrew and the Qumran scrolls. The Church reads it as the Old Testament of the apostles.',
         ],
         ar: [
-          'العبرية هي اللغة التي كُتبت بها الأسفار، والترجمة تعتمد عليها. لكن النص العبري الذي استعمله المترجمون لم يكن بالضرورة النص الماسوري الذي ثبت لاحقًا، وتُظهر المخطوطات أن الصور العبرية اختلفت. وفي أسفار عدة قد تحفظ السبعينية قراءة عبرية أقدم.',
-          'ولذلك يستعمل باحثو النص الاثنين معًا، مع نصوص قمران، ويزنون كل قراءة. وهذه ممارسة الطبعات النقدية، وهي تتفق مع آراء مختلفة في أي الصور ينبغي أن تقرأها الكنيسة في العبادة.',
+          'العبرية هي اللغة التي كُتبت بها الأسفار، والكنيسة تكرمها. لكن النص العبري الذي استعمله المترجمون كان أقدم من النص الماسوري، الذي ثُبّت بعد ذلك بقرون كثيرة، والمخطوطات تبيّن أن الصيغ العبرية اختلفت. وفي أسفار عدة تحفظ السبعينية قراءة عبرية أقدم.',
+          'فالسبعينية ليست مجرد ترجمة يصححها نص لاحق. بل هي شاهد قديم قائم بذاته، ويستعملها دارسو النص إلى جانب العبري ومخطوطات قمران. والكنيسة تقرؤها عهدًا قديمًا للرسل.',
         ],
       },
       limits: {
@@ -250,12 +250,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The Greek translation of Isaiah is generally dated well before the time of Jesus, since the Septuagint was the Bible of Greek-speaking Jews before Christianity arose. Its wording in Isaiah 7:14 therefore cannot have been created by Christians.',
-          'It is another matter how the translator understood the Hebrew, and the early Jewish-Christian debate over the wording shows that both sides noticed the difference. That is a question of translation and exegesis and the evidence does not support the accusation of Christian alteration.',
+          'The Greek translation of Isaiah was made before the time of Christ, when the Septuagint was the Bible of Greek-speaking Jews. Its word “virgin” in Isaiah 7:14 was therefore written by Jewish translators, not by Christians.',
+          'The early debate between Jews and Christians over this verse shows that both sides knew the Greek wording and noticed the difference from later Jewish versions. The accusation of Christian alteration has no support in the evidence. St Matthew the Evangelist followed the wording that Jewish translators had already chosen.',
         ],
         ar: [
-          'يُؤرَّخ تعريب إشعياء اليوناني عادة قبل زمن يسوع بوقت طويل، لأن السبعينية كانت كتاب اليهود الناطقين باليونانية قبل نشوء المسيحية. فلا يمكن أن يكون المسيحيون قد أنشؤوا صياغتها في إشعياء 7: 14.',
-          'أما كيف فهم المترجم العبرية فمسألة أخرى، والجدل اليهودي المسيحي المبكر حول الصياغة يبيّن أن الطرفين لاحظا الفرق. وهذه مسألة ترجمة وتفسير، والشواهد لا تسند اتهام التغيير المسيحي.',
+          'صُنعت الترجمة اليونانية لإشعياء قبل زمن المسيح، حين كانت السبعينية كتاب اليهود الناطقين باليونانية. فكلمة «عذراء» في إشعياء ٧:١٤ كتبها مترجمون يهود لا مسيحيون.',
+          'والجدل المبكر بين اليهود والمسيحيين حول هذه الآية يبيّن أن الطرفين كانا يعرفان اللفظ اليوناني ولاحظا اختلافه عن الترجمات اليهودية اللاحقة. ولا سند في الشواهد لتهمة التحريف المسيحي. فالقديس متى الإنجيلي اتبع اللفظ الذي اختاره المترجمون اليهود من قبل.',
         ],
       },
       limits: {
@@ -272,12 +272,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'Differences of wording do not remove the shared content: the great majority of the text, the story and the teaching, is the same in both. The study of the differences is a way to understand better the history of the text.',
-          'The Church has lived with the plurality of texts since the first century, when the apostles quoted Scripture in the form their hearers knew. Her faith in the Word of God has not depended on a single form of the wording. That is a theological position, which other traditions may not share.',
+          'The differences are in wording, not in the substance of the faith. The great majority of the text, its story and its teaching, is the same in both. Studying the differences helps us understand the history of the text.',
+          'The Church has lived with this since the first century, when the apostles quoted Scripture in the form their hearers knew. God’s word was not lost in translation; it was carried to the nations in their own tongue. Her faith in the Word of God has never depended on a single form of the wording.',
         ],
         ar: [
-          'اختلاف الصياغة لا يزيل المضمون المشترك: فالغالبية العظمى من النص، قصةً وتعليمًا، واحدة في الاثنين. ودراسة الفروق طريقة لفهم تاريخ النص فهمًا أفضل.',
-          'وقد عاشت الكنيسة مع تعدد النصوص منذ القرن الأول، حين اقتبس الرسل الكتاب بالصورة التي عرفها سامعوهم. ولم يتوقف إيمانها بكلمة الله على صورة واحدة للصياغة. وهذا موقف لاهوتي قد لا تشاركها فيه تقاليد أخرى.',
+          'الفروق في الألفاظ، لا في جوهر الإيمان. فالغالبية العظمى من النص، قصته وتعليمه، واحدة في الاثنين. ودراسة الفروق تساعدنا على فهم تاريخ النص.',
+          'وقد عاشت الكنيسة مع هذا منذ القرن الأول، حين استشهد الرسل بالكتاب بالصورة التي عرفها سامعوهم. فكلمة الله لم تضع في الترجمة؛ بل حُملت إلى الأمم بلسانها. وإيمان الكنيسة بكلمة الله لم يتوقف قط على صيغة واحدة للألفاظ.',
         ],
       },
       limits: {
@@ -290,12 +290,12 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'Historically, the difference between the two is the product of two transmission histories. A Greek translation was made in Alexandria from Hebrew texts of its day, and a Hebrew text was carefully preserved and later fixed. The Dead Sea Scrolls show that the Hebrew itself was plural. Each tradition is a witness, and critical editions of the Old Testament use both.',
-        'A historian does not need to take a side on which text the Church should read in order to say this.',
+        'The history is clear. A Greek translation was made in Alexandria from the Hebrew texts of its day, and a Hebrew text was carefully preserved and later fixed. The Dead Sea Scrolls show that the Hebrew text itself existed in more than one form before Christ. Both traditions are ancient witnesses, and critical editions of the Old Testament use both.',
+        'The Septuagint was translated more than a thousand years before the oldest complete manuscript of the Masoretic Text was copied, and it was the Scripture of Greek-speaking Jews and of the apostles.',
       ],
       ar: [
-        'تاريخيًا، الفرق بين النصين نتاج تاريخي نقل مختلفين. فقد صُنعت ترجمة يونانية في الإسكندرية عن نصوص عبرية في عصرها، وحُفظ نص عبري بعناية ثم ثُبّت لاحقًا. وتُظهر مخطوطات البحر الميت أن العبرية نفسها كانت متعددة. وكل تقليد شاهد، وتستعمل الطبعات النقدية للعهد القديم كليهما.',
-        'ولا يحتاج المؤرخ إلى أن ينحاز في أي نص ينبغي أن تقرأه الكنيسة ليقول ذلك.',
+        'التاريخ واضح. فقد صُنعت ترجمة يونانية في الإسكندرية من النصوص العبرية في زمنها، وحُفظ نص عبري بعناية ثم ثُبّت لاحقًا. وتبيّن مخطوطات البحر الميت أن النص العبري نفسه وُجد بأكثر من صيغة قبل المسيح. والتقليدان كلاهما شاهدان قديمان، والطبعات النقدية للعهد القديم تستعمل الاثنين.',
+        'وقد تُرجمت السبعينية قبل نسخ أقدم مخطوطة كاملة للنص الماسوري بأكثر من ألف سنة، وكانت كتاب اليهود الناطقين باليونانية وكتاب الرسل.',
       ],
     },
     theological: {
@@ -330,8 +330,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'The Septuagint and the Masoretic Text differ because they are the products of two transmission histories, a Greek translation made in Alexandria and a Hebrew text preserved and later fixed by Jewish scribes. The Dead Sea Scrolls show that Hebrew forms were themselves plural. The Coptic Orthodox Church receives the Old Testament in the Septuagint tradition, as the apostles and Fathers of Alexandria did, and welcomes the careful comparison of the two.',
-    ar: 'تختلف السبعينية والنص الماسوري لأنهما نتاج تاريخي نقل: ترجمة يونانية صُنعت في الإسكندرية، ونص عبري حفظه النسّاخ اليهود ثم ثبّتوه لاحقًا. وتُظهر مخطوطات البحر الميت أن الصور العبرية كانت متعددة بذاتها. وتتسلم الكنيسة القبطية الأرثوذكسية العهد القديم في التقليد السبعيني، كما فعل الرسل وآباء الإسكندرية، وترحب بالمقارنة الدقيقة بين النصين.',
+    en: 'The Septuagint and the Masoretic Text differ because they come from two paths of transmission: a Greek translation made in Alexandria before Christ, and a Hebrew text preserved and later fixed by Jewish scribes. The Dead Sea Scrolls show that in several places the Septuagint reflects an older Hebrew text. The Coptic Orthodox Church receives the Old Testament in the Septuagint tradition, as the apostles and the Fathers of Alexandria did, and honours the Hebrew text as a witness alongside it.',
+    ar: 'تختلف السبعينية والنص الماسوري لأنهما جاءا من طريقين للنقل: ترجمة يونانية صُنعت في الإسكندرية قبل المسيح، ونص عبري حفظه الكتبة اليهود وثبّتوه لاحقًا. وتبيّن مخطوطات البحر الميت أن السبعينية تعكس في مواضع عدة نصًا عبريًا أقدم. والكنيسة القبطية الأرثوذكسية تقبل العهد القديم في تقليد السبعينية، كما فعل الرسل وآباء الإسكندرية، وتكرم النص العبري شاهدًا إلى جانبه.',
   },
   furtherReading: ['S28', 'S25', 'S26'],
   related: ['dead-sea-scrolls', 'has-bible-changed', 'old-testament-canons-differ', 'coptic-deuterocanon', 'who-chose-the-books', 'arabic-and-english-translations'],

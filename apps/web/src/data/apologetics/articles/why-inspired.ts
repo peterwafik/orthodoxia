@@ -15,23 +15,23 @@ export const article: Article = {
     ar: 'تسأل هذه المقالة لماذا يعدّ المسيحيون الكتاب المقدس موحى به. وهي تعرض ما تقوله الكتب عن نفسها، والأسباب التي قدمتها الكنيسة للثقة بتلك الشهادة، وما معنى «موحى به» وما لا يعنيه في الفهم الأرثوذكسي، والاعتراضات الرئيسية ومنها تهمة الدور. وهي تتكلم من داخل الإيمان القبطي الأرثوذكسي وتقول بوضوح أي أجزاء الحجة تاريخية وأيها من شأن الإيمان.',
   },
   shortAnswer: {
-    en: 'Christians regard the Scriptures as inspired because of what Christ and the apostles taught about them, because the Church has received them as the Word of God from the beginning, and because the witness of the Scriptures to Christ has been found trustworthy in the Church’s life. Inspiration means that the Holy Spirit worked in and through the human writers, who remained fully themselves, with their own memory, research, style and purpose, so that what they wrote is God’s word to his people. It is a conviction of faith that rests on reasons, and not a conclusion that history or logic alone can prove. A person who does not share the faith can still examine the reasons.',
-    ar: 'يعدّ المسيحيون الكتب المقدسة موحى بها بسبب ما علّمه المسيح والرسل عنها، ولأن الكنيسة تسلّمتها كلمة الله منذ البدء، ولأن شهادة الكتب للمسيح وُجدت أمينة في حياة الكنيسة. ويعني الوحي أن الروح القدس عمل في الكتّاب البشر وبهم، وبقوا هم أنفسهم تمامًا بذاكرتهم وبحثهم وأسلوبهم وقصدهم، فصار ما كتبوه كلمة الله لشعبه. وهو اقتناع إيماني يقوم على أسباب، لا نتيجة يستطيع التاريخ أو المنطق وحده إثباتها. ويستطيع من لا يشارك الإيمان أن يفحص الأسباب.',
+    en: 'Christians regard the Scriptures as inspired because of what Christ and the apostles taught about them, because the Church has received them as the Word of God from the beginning, and because the witness of the Scriptures to Christ has been found trustworthy in the Church’s life. Inspiration means that the Holy Spirit worked in and through the human writers, who remained fully themselves, with their own memory, research, style and purpose, so that what they wrote is God’s word to His people. The deepest reason is Christ Himself: risen from the dead, He opened the Scriptures to His disciples as speaking of Him, and He sent the Spirit to guide His apostles into the truth. We trust the Scriptures because we trust the Lord who gave them to us.',
+    ar: 'يعدّ المسيحيون الكتب المقدسة موحى بها بسبب ما علّمه المسيح والرسل عنها، ولأن الكنيسة تسلّمتها كلمة الله منذ البدء، ولأن شهادة الكتب للمسيح وُجدت أمينة في حياة الكنيسة. ويعني الوحي أن الروح القدس عمل في الكتّاب البشر وبهم، وبقوا هم أنفسهم تمامًا بذاكرتهم وبحثهم وأسلوبهم وقصدهم، فصار ما كتبوه كلمة الله لشعبه. والسبب الأعمق هو المسيح نفسه: فبعد قيامته من الأموات فتح الكتب لتلاميذه على أنها تتكلم عنه، وأرسل الروح ليرشد رسله إلى الحق. فنحن نثق بالكتب لأننا نثق بالرب الذي أعطانا إياها.',
   },
   quickPoints: {
     en: [
       'The Scriptures speak of themselves as breathed out by God and of the prophets as moved by the Holy Spirit.',
-      'Christ himself treated the Law, the Prophets and the Psalms as speaking of him and promised the Spirit to guide the apostles.',
+      'Christ Himself treated the Law, the Prophets and the Psalms as speaking of Him and promised the Spirit to guide the apostles.',
       'In the Orthodox understanding the human writers are not scribes taking dictation: they write as persons, and God works with them.',
-      'The case for inspiration is cumulative and rests on trust in Christ; it is not a single proof, and it cannot be separated from the Church’s Tradition.',
-      'The charge of circularity is serious; the answer is a sequence of reasons that begin with history, not with a claim of Scripture about itself.',
+      'The case for inspiration rests on trust in Christ, whose resurrection gives His word authority, and it is received within the Church’s Tradition.',
+      'This is not circular: the reasons begin with the history of Jesus, not with a claim of Scripture about itself.',
     ],
     ar: [
       'تتكلم الكتب عن نفسها بأنها موحى بها من الله وبأن الأنبياء مسوقون من الروح القدس.',
       'عامل المسيح نفسه الناموس والأنبياء والمزامير على أنها تتكلم عنه، ووعد بالروح ليرشد الرسل.',
       'في الفهم الأرثوذكسي ليس الكتّاب البشر كتبة يتلقون إملاءً: بل يكتبون أشخاصًا، ويعمل الله معهم.',
-      'الحجة للوحي تراكمية وتقوم على الثقة بالمسيح؛ وليست برهانًا واحدًا، ولا تنفصل عن تقليد الكنيسة.',
-      'تهمة الدور جادة؛ والجواب سلسلة أسباب تبدأ بالتاريخ لا بدعوى الكتاب عن نفسه.',
+      'تقوم الحجة للوحي على الثقة بالمسيح، الذي تمنح قيامته كلمته سلطانًا، وتُتسلَّم داخل تقليد الكنيسة.',
+      'ليس في هذا دور: فالأسباب تبدأ بتاريخ يسوع، لا بدعوى الكتاب عن نفسه.',
     ],
   },
   argumentTypes: ['theological', 'philosophical', 'historical'],
@@ -45,11 +45,11 @@ export const article: Article = {
 
   whyExamine: {
     en: [
-      'Every religion with a scripture claims some kind of divine origin for it, and the claim is easy to make and hard to test. A reader has the right to ask on what grounds a Christian makes it, and whether those grounds would apply as well to other books. The answer should be given openly, including where it depends on faith.',
+      'Every religion with a scripture claims some kind of divine origin for it, and the claim is easy to make and hard to test. A reader has the right to ask on what grounds a Christian makes it, and whether those grounds would apply as well to other books. The Christian answer is clear, and it rests on Christ.',
       'The question also shapes how Scripture is read. A reader who thinks that inspiration means dictation will find a difference of style or detail troubling. A reader who thinks that it means only moral inspiration will not hear Scripture as God’s word to him. The Church’s understanding falls between these.',
     ],
     ar: [
-      'كل دين له كتاب يدّعي نوعًا من الأصل الإلهي له، والدعوى سهلة القول صعبة الاختبار. وللقارئ حق أن يسأل على أي أساس يدّعيها المسيحي، وهل تنطبق الأسس نفسها على كتب أخرى. وينبغي أن يكون الجواب علنيًا، بما في ذلك حيث يتوقف على الإيمان.',
+      'كل دين له كتاب يدّعي نوعًا من الأصل الإلهي له، والدعوى سهلة القول صعبة الاختبار. وللقارئ حق أن يسأل على أي أساس يدّعيها المسيحي، وهل تنطبق الأسس نفسها على كتب أخرى. والجواب المسيحي واضح، وهو يقوم على المسيح.',
       'والمسألة تشكّل أيضًا كيف يُقرأ الكتاب. فمن ظن أن الوحي يعني الإملاء وجد اختلاف الأسلوب أو التفصيل مقلقًا. ومن ظن أنه يعني إلهامًا أخلاقيًا فقط لن يسمع الكتاب كلمة الله له. وفهم الكنيسة بين هذين.',
     ],
   },
@@ -73,14 +73,14 @@ export const article: Article = {
     {
       id: 'C1',
       proposition: {
-        en: 'The Scriptures of both Testaments claim, in several places, to be spoken or breathed out by God through human persons.',
-        ar: 'تدّعي الكتب في العهدين، في مواضع عدة، أنها منطوقة أو موحى بها من الله بواسطة أشخاص بشر.',
+        en: 'The Scriptures of both Testaments testify, in many places, that God speaks in them through human persons.',
+        ar: 'تشهد الكتب في العهدين، في مواضع كثيرة، بأن الله يتكلم فيها بواسطة أشخاص بشر.',
       },
       argumentType: 'textual',
       assessment: 'strong_historical_support',
       rationale: {
-        en: 'The Second Letter to Timothy, the Second Letter of Peter and the Letter to the Hebrews contain these claims, and the Old Testament prophets introduce many sayings as the word of the Lord. That the claims are made is a matter of the texts.',
-        ar: 'تحوي هذه الدعاوى الرسالة الثانية إلى تيموثاوس ورسالة بطرس الثانية والرسالة إلى العبرانيين، ويقدم أنبياء العهد القديم أقوالًا كثيرة بوصفها كلمة الرب. وأن الدعاوى مطروحة أمر يعود إلى النصوص.',
+        en: 'St Paul tells Timothy that all Scripture is breathed out by God; St Peter says that the prophets spoke from God as the Holy Spirit carried them; and the Letter to the Hebrews says that God spoke by the prophets and now by His Son. The Old Testament prophets introduce many sayings as the word of the Lord.',
+        ar: 'يقول القديس بولس لتيموثاوس إن كل الكتاب موحى به من الله؛ ويقول القديس بطرس إن الأنبياء تكلموا من الله مسوقين من الروح القدس؛ وتقول الرسالة إلى العبرانيين إن الله كلّم الآباء بالأنبياء وكلّمنا الآن في ابنه. ويقدّم أنبياء العهد القديم أقوالًا كثيرة بوصفها كلمة الرب.',
       },
       limits: {
         en: 'A claim in a text does not prove itself. It shows what the writers believed, which is the first step of the question.',
@@ -91,14 +91,14 @@ export const article: Article = {
     {
       id: 'C2',
       proposition: {
-        en: 'Jesus treated the Old Testament as speaking of him, and the Gospels present him as promising the Spirit to guide the apostles in the truth.',
-        ar: 'عامل يسوع العهد القديم على أنه يتكلم عنه، وتقدمه الأناجيل واعدًا بالروح ليرشد الرسل في الحق.',
+        en: 'Jesus treated the Old Testament as speaking of Him, and He promised the Spirit to guide the apostles into the truth.',
+        ar: 'عامل يسوع العهد القديم على أنه يتكلم عنه، ووعد بالروح ليرشد الرسل إلى الحق.',
       },
       argumentType: 'textual',
       assessment: 'supported_disputed_details',
       rationale: {
-        en: 'Luke 24 and John 14–16 say this. A historian can ask how far the sayings go back to Jesus, and the Gospels are read here as ancient documents; scholars differ on how far each saying is his own.',
-        ar: 'يقول ذلك لوقا ٢٤ ويوحنا ١٤–١٦. ويستطيع المؤرخ أن يسأل إلى أي مدى ترجع الأقوال إلى يسوع، والأناجيل تُقرأ هنا وثائق قديمة؛ ويختلف الدارسون في مدى كون كل قول له.',
+        en: 'In Luke 24 the risen Lord opens the minds of the disciples to understand that the Law, the Prophets and the Psalms speak of Him. In John 14–16 He promises that the Spirit will remind the apostles of all He said and guide them into all the truth. The Lord’s own word is the foundation of the Church’s trust in both Testaments.',
+        ar: 'في لوقا ٢٤ يفتح الرب القائم أذهان التلاميذ ليفهموا أن الناموس والأنبياء والمزامير تتكلم عنه. وفي يوحنا ١٤–١٦ يعد بأن الروح يذكّر الرسل بكل ما قاله ويرشدهم إلى جميع الحق. فكلمة الرب نفسه هي أساس ثقة الكنيسة بالعهدين.',
       },
       limits: {
         en: 'The argument assumes that the Gospels report Jesus’s teaching with reasonable accuracy, which is treated in the articles on the Gospels.',
@@ -115,8 +115,8 @@ export const article: Article = {
       argumentType: 'theological',
       assessment: 'theological_interpretation',
       rationale: {
-        en: 'This is the faith of the Church, held on the authority of Christ and of her Tradition, and supported by the coherence of the Scriptures’ witness to Christ and their fruit in the Church’s life. It is a conviction that the reasons point toward, not a proof.',
-        ar: 'هذا إيمان الكنيسة، يُمسك بسلطان المسيح وتقليدها، وتسنده وحدة شهادة الكتب للمسيح وثمرها في حياة الكنيسة. وهو اقتناع تشير إليه الأسباب لا برهان.',
+        en: 'This is the faith of the Church, held on the authority of Christ and of her Tradition. It is confirmed by the unity of the Scriptures’ witness to Christ across many centuries and many writers, and by their fruit in the lives of the saints.',
+        ar: 'هذا إيمان الكنيسة، يُمسك بسلطان المسيح وتقليدها. وتؤكده وحدة شهادة الكتب للمسيح عبر قرون كثيرة وكتّاب كثيرين، وثمرها في حياة القديسين.',
       },
       limits: {
         en: 'A person who does not accept Christ’s authority, or who weighs the evidence differently, will not find the case compelling.',
@@ -227,12 +227,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The objection is right that a book’s claim about itself is not a proof. The Christian case is meant to be a sequence. It starts with historical questions that do not assume inspiration: whether the sources for Jesus are reliable, whether the best explanation for the rise of the early Church is that he rose from the dead, and what he taught about the Scriptures and the apostles. If those steps hold, then his authority becomes the reason for trusting the Scriptures, rather than the Scriptures’ claim about themselves.',
-          'This does not turn the matter into a demonstration, and each step is open to challenge, as the articles on Jesus and on the resurrection set out. Believers also say that the Church’s Tradition is part of how Scripture is received, so the circle is not between a book and itself but between a living community and its witnesses.',
+          'Christians do not believe the Bible is inspired merely because it says so. The case is a sequence. It starts with history, read without assuming inspiration: the Gospels are reliable sources for Jesus; the best explanation for the rise of the early Church is that He rose from the dead; and He taught that the Scriptures speak of Him and promised the Spirit to His apostles. His authority, not the book’s claim about itself, is the reason for trusting the Scriptures.',
+          'And the Scriptures were never a book alone. They were received and read in a living Church that had known the apostles. So the Church’s confidence rests not on a book vouching for itself, but on the risen Christ and the community He founded.',
         ],
         ar: [
-          'الاعتراض محق في أن قول كتاب عن نفسه ليس برهانًا. والحجة المسيحية مقصود بها أن تكون سلسلة. تبدأ بأسئلة تاريخية لا تفترض الوحي: هل مصادر يسوع موثوقة، وهل أفضل تفسير لنشأة الكنيسة الأولى أنه قام من الموت، وماذا علّم عن الكتب والرسل. فإن صمدت هذه الخطوات صار سلطانه سبب الثقة بالكتب، لا دعوى الكتب عن نفسها.',
-          'ولا يحوّل هذا المسألة إلى برهان، وكل خطوة معرضة للتحدي، كما تعرض مقالات يسوع والقيامة. ويقول المؤمنون أيضًا إن تقليد الكنيسة جزء من كيفية تسلّم الكتاب، فالدائرة ليست بين كتاب ونفسه بل بين جماعة حية وشهودها.',
+          'لا يؤمن المسيحيون بأن الكتاب موحى به لمجرد أنه يقول ذلك. فالحجة سلسلة تبدأ بالتاريخ، مقروءًا دون افتراض الوحي: الأناجيل مصادر موثوقة عن يسوع؛ وأفضل تفسير لنشأة الكنيسة الأولى أنه قام من الموت؛ وقد علّم أن الكتب تتكلم عنه ووعد رسله بالروح. فسلطانه، لا دعوى الكتاب عن نفسه، هو سبب الثقة بالكتب.',
+          'ولم تكن الكتب قط كتابًا وحده، بل تُسلِّمت وقُرئت في كنيسة حية عرفت الرسل. فثقة الكنيسة لا تقوم على كتاب يشهد لنفسه، بل على المسيح القائم والجماعة التي أسسها.',
         ],
       },
       limits: {
@@ -249,12 +249,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The Christian does not hold that inspiration is a general quality of sacred books, but that God has spoken in a particular history, which culminates in Jesus. The claim stands or falls with the claims about Jesus. Other religions make claims of different kinds, about different founders and different histories, and these should be examined each on its terms, as the article on comparing truth claims proposes.',
-          'The Church can also acknowledge, as the Fathers did, that truth is found in places outside the Church and that God has not left himself without witness. That is not the same as saying that every book is inspired in the sense in which the Scriptures are.',
+          'The Christian case is not that sacred books in general are inspired, but that God has spoken in a particular history that reaches its fullness in Jesus Christ, who rose from the dead. That is a claim open to examination in the light of history, and it is what sets the Scriptures apart. Other religions make claims of different kinds, about different founders, and each deserves to be examined fairly on its own terms.',
+          'The Church gladly acknowledges, as the Fathers did, that truth is found in places outside her and that God has not left Himself without witness. But the Scriptures are inspired in a unique sense, because they bear witness to the Word made flesh.',
         ],
         ar: [
-          'لا يرى المسيحي أن الوحي صفة عامة للكتب المقدسة، بل أن الله تكلم في تاريخ بعينه بلغ ذروته في يسوع. فالدعوى تقوم أو تسقط مع الدعاوى عن يسوع. وتطرح أديان أخرى دعاوى من أنواع مختلفة، عن مؤسسين مختلفين وتواريخ مختلفة، وينبغي فحص كل منها بشروطه، كما تقترح مقالة مقارنة دعاوى الحق.',
-          'وتستطيع الكنيسة أيضًا أن تقر، كما أقر الآباء، بأن الحق يوجد في مواضع خارج الكنيسة وبأن الله لم يترك نفسه بلا شاهد. وهذا ليس كالقول إن كل كتاب موحى به بالمعنى الذي توحى به الكتب.',
+          'ليست الحجة المسيحية أن الكتب المقدسة عمومًا موحى بها، بل أن الله تكلم في تاريخ بعينه بلغ كماله في يسوع المسيح الذي قام من الأموات. وهذه دعوى يمكن فحصها في ضوء التاريخ، وهي ما يميّز الكتب المقدسة. وتطرح أديان أخرى دعاوى من أنواع مختلفة، عن مؤسسين مختلفين، وكل منها يستحق أن يُفحص بإنصاف بشروطه.',
+          'والكنيسة تقر بفرح، كما أقر الآباء، بأن الحق يوجد في مواضع خارجها وبأن الله لم يترك نفسه بلا شاهد. لكن الكتب المقدسة موحى بها بمعنى فريد، لأنها تشهد للكلمة المتجسد.',
         ],
       },
       limits: {
@@ -272,11 +272,11 @@ export const article: Article = {
       response: {
         en: [
           'The Church answers that God speaks through persons, and not in spite of them. The Word of God became flesh without ceasing to be God, and the Fathers draw the parallel that Scripture is God’s word in human language. A difference of detail or of style belongs to the human side; the Church looks for the truth that is taught for our salvation.',
-          'The difficult passages are real and are examined in their own articles, on apparent contradictions and on the commands of violence. The Church does not pretend they are not there. What she holds is that they are read within the whole of Scripture and in the light of Christ, who is the key to reading.',
+          'The difficult passages are examined in their own articles, on apparent contradictions and on the commands of violence. The Church reads them within the whole of Scripture and in the light of Christ, who is the key to all of it, and in that light they find their place.',
         ],
         ar: [
           'تجيب الكنيسة بأن الله يتكلم بأشخاص لا رغمًا عنهم. فالكلمة صار جسدًا دون أن يكف عن كونه إلهًا، ويرسم الآباء التوازي بأن الكتاب كلمة الله بلغة بشرية. والفرق في التفصيل أو الأسلوب من الجانب البشري؛ وتطلب الكنيسة الحق المعلَّم لخلاصنا.',
-          'والمقاطع الصعبة حقيقية وتُفحص في مقالاتها الخاصة، عن التناقضات الظاهرية وعن أوامر العنف. ولا تتظاهر الكنيسة بأنها غير موجودة. وما تتمسك به أنها تُقرأ في الكتاب كله وفي نور المسيح الذي هو مفتاح القراءة.',
+          'والمقاطع الصعبة تُفحص في مقالاتها الخاصة، عن التناقضات الظاهرية وعن أوامر العنف. والكنيسة تقرؤها في الكتاب كله وفي نور المسيح الذي هو مفتاحه كله، وفي هذا النور تجد مكانها.',
         ],
       },
       limits: {
@@ -289,12 +289,12 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'Historically, a Christian can say that the Scriptures make claims about their own origin, that Jesus and the apostles treated the Old Testament as God’s word, that the early Church read the prophets as inspired, and that the writers appear in their books as real persons doing real work.',
-        'A Christian should add that none of this proves inspiration by historical method alone, that the case runs through the reliability of the Gospels and the resurrection, and that other traditions weigh these matters differently.',
+        'History shows that the Scriptures testify to their own divine origin, that Jesus and the apostles treated the Old Testament as God’s word, that the early Church read the prophets as inspired (Justin Martyr, around AD 150, speaks of the divine Word moving them), and that the writers appear in their books as real persons doing real work.',
+        'The case runs through the reliability of the Gospels and the resurrection of Christ, which are set out in their own articles. Once the Lord is known to be risen, His word about the Scriptures carries His authority.',
       ],
       ar: [
-        'يستطيع المسيحي تاريخيًا أن يقول إن الكتب تدّعي أصلًا لنفسها، وإن يسوع والرسل عاملوا العهد القديم كلمة الله، وإن الكنيسة الأولى قرأت الأنبياء موحى إليهم، وإن الكتّاب يظهرون في أسفارهم أشخاصًا حقيقيين يؤدون عملًا حقيقيًا.',
-        'وعليه أن يضيف أن شيئًا من هذا لا يثبت الوحي بالمنهج التاريخي وحده، وأن الحجة تمر بموثوقية الأناجيل والقيامة، وأن التقاليد الأخرى تزن هذه الأمور وزنًا مختلفًا.',
+        'يُظهر التاريخ أن الكتب تشهد لأصلها الإلهي، وأن يسوع والرسل عاملوا العهد القديم كلمة الله، وأن الكنيسة الأولى قرأت الأنبياء موحى إليهم (فيوستينوس الشهيد، نحو سنة ١٥٠م، يتكلم عن الكلمة الإلهي الذي يحركهم)، وأن الكتّاب يظهرون في أسفارهم أشخاصًا حقيقيين يؤدون عملًا حقيقيًا.',
+        'وتمر الحجة بموثوقية الأناجيل وقيامة المسيح، المعروضتين في مقالاتهما الخاصة. ومتى عُرف أن الرب قام، حملت كلمته عن الكتب سلطانه.',
       ],
     },
     theological: {
@@ -331,8 +331,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'Christians regard the Scriptures as inspired because Christ and the apostles treated them as God’s word, because the Church has received them so from the beginning, and because they are found to speak truly of Christ. Inspiration is the work of the Holy Spirit in and with the human writers, who remain fully themselves. It is a conviction that rests on reasons and on faith, and the reasons can be examined by anyone, while the conviction itself is the Church’s confession.',
-    ar: 'يعدّ المسيحيون الكتب موحى بها لأن المسيح والرسل عاملوها كلمة الله، ولأن الكنيسة تسلّمتها كذلك منذ البدء، ولأنها وُجدت ناطقة بالحق عن المسيح. والوحي عمل الروح القدس في الكتّاب البشر ومعهم، وهم يبقون أنفسهم تمامًا. وهو اقتناع يقوم على أسباب وعلى إيمان، ويستطيع أي إنسان أن يفحص الأسباب، بينما الاقتناع نفسه اعتراف الكنيسة.',
+    en: 'Christians regard the Scriptures as inspired because Christ and the apostles treated them as God’s word, because the Church has received them so from the beginning, and because they are found to speak truly of Christ. Inspiration is the work of the Holy Spirit in and with the human writers, who remain fully themselves, so that their words are God’s word to us. At the centre stands the risen Lord, who opened the Scriptures to His disciples. In the Church’s worship they are heard as His own voice, and those who receive them in faith find in them the words of eternal life.',
+    ar: 'يعدّ المسيحيون الكتب موحى بها لأن المسيح والرسل عاملوها كلمة الله، ولأن الكنيسة تسلّمتها كذلك منذ البدء، ولأنها وُجدت ناطقة بالحق عن المسيح. والوحي عمل الروح القدس في الكتّاب البشر ومعهم، وهم يبقون أنفسهم تمامًا، فتكون كلماتهم كلمة الله لنا. وفي المركز يقف الرب القائم الذي فتح الكتب لتلاميذه. وفي عبادة الكنيسة تُسمع صوته هو، ومن يتسلّمها بالإيمان يجد فيها كلام الحياة الأبدية.',
   },
   furtherReading: ['S55', 'S56', 'S57', 'S50'],
   related: ['apparent-contradictions', 'preservation-vs-inspiration', 'who-chose-the-books', 'scripture-and-tradition', 'comparing-religious-truth-claims', 'prediction-typology-interpretation'],

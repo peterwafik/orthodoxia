@@ -15,23 +15,23 @@ export const article: Article = {
     ar: 'هل كان يسوع يهوديًا من القرن الأول، وماذا تقول المصادر عن حياته اليهودية، ولماذا يهم ذلك لقراءته ولفهم الكنيسة الأولى وللإيمان المسيحي. لا يحسم المقال ما ادّعاه يسوع عن نفسه ولا وقوع معجزاته؛ فلهذه الأسئلة مقالاتها.',
   },
   shortAnswer: {
-    en: 'Yes. Every early source, Christian and hostile alike, presents Jesus as a Jew from Galilee, born to a Jewish family, raised in Jewish practice, teaching in synagogues, arguing about the Law and the Scriptures, and gathering Jewish disciples. St Paul, writing in the AD 50s, says he was born under the Law. This matters historically, because his sayings are best understood against Jewish expectations and debates of the time. It matters for the Church, because Christ is the fulfilment of what God had promised to Israel, and the Church reads the Old Testament as his Scripture.',
-    ar: 'نعم. كل المصادر المبكرة، المسيحية والمعادية على السواء، تقدم يسوع يهوديًا من الجليل، وُلد في أسرة يهودية ونشأ في ممارسة يهودية، وعلّم في المجامع، وجادل في الناموس والكتب، وجمع تلاميذ يهودًا. ويقول القديس بولس، وهو يكتب في الخمسينيات، إنه وُلد تحت الناموس. وهذا مهم تاريخيًا لأن أقواله تُفهم أفضل في ضوء توقعات اليهود ونقاشاتهم في ذلك الزمن. وهو مهم للكنيسة لأن المسيح هو تمام ما وعد الله به إسرائيل، وتقرأ الكنيسة العهد القديم بوصفه كتابه.',
+    en: 'Yes. Every early source, Christian and hostile alike, presents Jesus as a Jew from Galilee: born into a Jewish family, raised in Jewish practice, teaching in synagogues, arguing about the Law and the Scriptures, and gathering Jewish disciples. St Paul the Apostle, writing in the AD 50s, says He was born under the Law and of David’s line. This helps us understand His words, which speak into the hopes and debates of His people. And it lies at the heart of the faith: the Word of God became flesh from the Virgin Mary, a daughter of Israel, as the fulfilment of all that God had promised to Israel. That is why the Church reads the Old Testament as Christ’s own Scripture.',
+    ar: 'نعم. كل المصادر المبكرة، المسيحية والمعادية على السواء، تقدم يسوع يهوديًا من الجليل: وُلد في أسرة يهودية، ونشأ في ممارسة يهودية، وعلّم في المجامع، وجادل في الناموس والكتب، وجمع تلاميذ يهودًا. ويقول القديس بولس الرسول، وهو يكتب في الخمسينيات، إنه وُلد تحت الناموس ومن نسل داود. وهذا يساعدنا على فهم كلامه الذي خاطب رجاء شعبه ونقاشاته. وهو في قلب الإيمان: فكلمة الله صار جسدًا من العذراء مريم، ابنة إسرائيل، تمامًا لكل ما وعد الله به إسرائيل. ولهذا تقرأ الكنيسة العهد القديم كتابًا للمسيح نفسه.',
   },
   quickPoints: {
     en: [
-      'St Paul says Jesus was born of a woman, under the Law, and of the line of David according to the flesh; Ignatius, in the early second century, repeats the Davidic descent.',
-      'The Gospels show Jesus keeping the feasts, attending the synagogue and quoting the Scriptures; they also show him disagreeing with others over how the Law was to be read.',
-      'Even the Jewish objector whom Origen answers in the third century takes Jesus to be a Jew from a Jewish village.',
-      'First-century Judaism was varied (Pharisees, Sadducees and others), so "Jewish" does not mean one agreed set of views.',
-      'The Church does not treat this as a detail. It holds that the incarnation took place within Israel’s history, and the Coptic Church adds the Holy Family’s sojourn in Egypt.',
+      'St Paul says Jesus was born of a woman, under the Law, and of the line of David according to the flesh; St Ignatius, early in the second century, repeats the Davidic descent.',
+      'The Gospels show Jesus keeping the feasts, attending the synagogue and teaching from the Scriptures, and debating with others how the Law should be read.',
+      'Even the Jewish critic whom Origen answers in the third century takes Jesus to be a Jew from a Jewish village.',
+      'First-century Judaism was varied (Pharisees, Sadducees and others), and Jesus spoke within its living debates.',
+      'The incarnation took place within Israel’s history, and the Coptic Church joyfully remembers the Holy Family’s sojourn in Egypt.',
     ],
     ar: [
-      'يقول القديس بولس إن يسوع وُلد من امرأة تحت الناموس، ومن نسل داود حسب الجسد؛ ويكرر إغناطيوس في أوائل القرن الثاني النسب الداودي.',
-      'تُظهر الأناجيل يسوع محافظًا على الأعياد، ومرتادًا للمجمع، ومقتبسًا من الكتب؛ وتُظهره أيضًا مختلفًا مع آخرين في كيفية قراءة الناموس.',
-      'حتى المعترض اليهودي الذي يرد عليه أوريجانوس في القرن الثالث يعدّ يسوع يهوديًا من قرية يهودية.',
-      'كانت اليهودية في القرن الأول متنوعة (فريسيون وصدوقيون وغيرهم)، فلا تعني كلمة «يهودي» مجموعة آراء متفقًا عليها.',
-      'لا تعدّ الكنيسة هذا تفصيلًا. فهي تؤمن بأن التجسد تم داخل تاريخ إسرائيل، وتضيف الكنيسة القبطية إقامة العائلة المقدسة في مصر.',
+      'يقول القديس بولس إن يسوع وُلد من امرأة تحت الناموس، ومن نسل داود حسب الجسد؛ ويكرر القديس إغناطيوس في أوائل القرن الثاني النسب الداودي.',
+      'تُظهر الأناجيل يسوع محافظًا على الأعياد، ومرتادًا للمجمع، ومعلّمًا من الكتب، ومحاورًا آخرين في كيفية قراءة الناموس.',
+      'حتى الناقد اليهودي الذي يرد عليه أوريجانوس في القرن الثالث يعدّ يسوع يهوديًا من قرية يهودية.',
+      'كانت اليهودية في القرن الأول متنوعة (فريسيون وصدوقيون وغيرهم)، وتكلم يسوع داخل نقاشاتها الحية.',
+      'تم التجسد داخل تاريخ إسرائيل، والكنيسة القبطية تتذكر بفرح إقامة العائلة المقدسة في مصر.',
     ],
   },
   argumentTypes: ['historical', 'theological'],
@@ -44,12 +44,12 @@ export const article: Article = {
   },
   whyExamine: {
     en: [
-      'Jesus is sometimes presented as if he stood outside his people, whether to separate Christianity from Judaism or to make him a universal teacher with no particular background. Both pictures lose something. The first has been used to justify contempt for Jews, which the Church rejects. The second makes his words harder to understand.',
-      'The question is also a test of method. If a figure is placed in his actual setting, what he says can be checked against what we know of that setting, and this is how historians separate what fits from what does not.',
+      'Jesus is sometimes presented as if He stood outside His people, either to separate Christianity from Judaism or to make Him a teacher with no particular background. Both pictures are false. The first has been used to justify contempt for Jews, which the Church rejects. The second makes His words harder to understand.',
+      'Placing Jesus in His real setting also shows how well the Gospels fit it. What He says matches what we know of Galilee and Judea in His day, and that is a mark of a trustworthy record.',
     ],
     ar: [
-      'يُقدَّم يسوع أحيانًا كأنه كان خارج شعبه، إما للفصل بين المسيحية واليهودية أو لجعله معلّمًا عالميًا بلا خلفية محددة. وفي كلتا الصورتين خسارة. فالأولى استُعملت لتبرير ازدراء اليهود، وهو ما ترفضه الكنيسة. والثانية تجعل كلامه أعسر فهمًا.',
-      'والسؤال اختبار للمنهج أيضًا. فإذا وُضعت شخصية في بيئتها الفعلية أمكن مقارنة ما تقوله بما نعرفه عن تلك البيئة، وبهذا يفرّق المؤرخون بين ما يلائم وما لا يلائم.',
+      'يُقدَّم يسوع أحيانًا كأنه كان خارج شعبه، إما للفصل بين المسيحية واليهودية أو لجعله معلّمًا بلا خلفية محددة. والصورتان كلتاهما خاطئة. فالأولى استُعملت لتبرير ازدراء اليهود، وهو ما ترفضه الكنيسة. والثانية تجعل كلامه أعسر فهمًا.',
+      'ووضع يسوع في بيئته الحقيقية يُظهر أيضًا مدى ملاءمة الأناجيل لها. فما يقوله يوافق ما نعرفه عن الجليل واليهودية في زمنه، وهذه علامة سجل جدير بالثقة.',
     ],
   },
   background: {
@@ -70,14 +70,14 @@ export const article: Article = {
     {
       id: 'c1',
       proposition: {
-        en: 'Jesus was born into a Jewish family and, according to the earliest Christian writer, was born under the Law and of David’s line.',
-        ar: 'وُلد يسوع في أسرة يهودية، وهو بحسب أقدم كاتب مسيحي وُلد تحت الناموس ومن نسل داود.',
+        en: 'Jesus was born into a Jewish family; the earliest Christian writer says He was born under the Law and of David’s line.',
+        ar: 'وُلد يسوع في أسرة يهودية؛ ويقول أقدم كاتب مسيحي إنه وُلد تحت الناموس ومن نسل داود.',
       },
       argumentType: 'historical',
       assessment: 'strong_historical_support',
       rationale: {
-        en: 'St Paul says so in two letters, and the line of David is also repeated by Ignatius and the Gospels. A claim that supports the Church’s message could be doubted, but there is no rival account of Jesus’ origin in the ancient sources, and the critics who attack him do not deny it.',
-        ar: 'يقول القديس بولس ذلك في رسالتين، ويكرر إغناطيوس والأناجيل النسب الداودي. وقد يُشكّ في دعوى تخدم رسالة الكنيسة، لكن لا توجد رواية منافسة لأصل يسوع في المصادر القديمة، والمنتقدون الذين يهاجمونه لا ينكرون ذلك.',
+        en: 'St Paul says so in two letters, and the Davidic line is confirmed by St Ignatius and by the Gospels. No ancient source gives any other account of Jesus’ origin, and even the critics who attacked Him never denied it.',
+        ar: 'يقول القديس بولس ذلك في رسالتين، ويؤكد القديس إغناطيوس والأناجيل النسب الداودي. ولا يقدم مصدر قديم رواية أخرى عن أصل يسوع، وحتى المنتقدون الذين هاجموه لم ينكروا ذلك قط.',
       },
       limits: {
         en: 'The genealogies in Matthew and Luke differ, and the Davidic line is argued in different ways. The claim does not require us to settle that.',
@@ -88,14 +88,14 @@ export const article: Article = {
     {
       id: 'c2',
       proposition: {
-        en: 'The Gospels present Jesus as living a Jewish life: circumcised, taken to the Temple, attending the synagogue and keeping the feasts.',
-        ar: 'تقدم الأناجيل يسوع عائشًا حياة يهودية: مختونًا ومقدَّمًا في الهيكل ومرتادًا للمجمع ومحافظًا على الأعياد.',
+        en: 'The Gospels show Jesus living a Jewish life: circumcised, presented in the Temple, attending the synagogue and keeping the feasts.',
+        ar: 'تُظهر الأناجيل يسوع عائشًا حياة يهودية: مختونًا ومقدَّمًا في الهيكل ومرتادًا للمجمع ومحافظًا على الأعياد.',
       },
       argumentType: 'historical',
       assessment: 'supported_disputed_details',
       rationale: {
-        en: 'All four Gospels agree on the broad picture, and it is the picture that opponents also assume when they question him about the Law. The Gospels are the Church’s own books, so the claim is read as what early Christians said of him.',
-        ar: 'تتفق الأناجيل الأربعة على الصورة العامة، وهي الصورة التي يفترضها خصومه أيضًا حين يسألونه عن الناموس. والأناجيل كتب الكنيسة نفسها، فتُقرأ الدعوى بوصفها ما قاله المسيحيون الأوائل عنه.',
+        en: 'All four Gospels give this same picture, and it is the picture His opponents also assume when they question Him about the Law. St Luke records His circumcision and presentation, and all the Gospels show Him in Jerusalem at the great feasts.',
+        ar: 'تقدم الأناجيل الأربعة هذه الصورة نفسها، وهي الصورة التي يفترضها خصومه أيضًا حين يسألونه عن الناموس. ويسجل القديس لوقا ختانه وتقديمه، وتُظهره الأناجيل كلها في أورشليم في الأعياد الكبرى.',
       },
       limits: {
         en: 'The Gospels do not describe every practice, and scholars differ on some, such as how he treated purity rules.',
@@ -106,14 +106,14 @@ export const article: Article = {
     {
       id: 'c3',
       proposition: {
-        en: 'Jesus argued within Judaism about how the Law and the Scriptures were to be read, and his first followers were Jews.',
-        ar: 'جادل يسوع داخل اليهودية في كيفية قراءة الناموس والكتب، وكان أتباعه الأوائل يهودًا.',
+        en: 'Jesus taught within Judaism about how the Law and the Scriptures were to be read, and His first followers were Jews.',
+        ar: 'علّم يسوع داخل اليهودية في كيفية قراءة الناموس والكتب، وكان أتباعه الأوائل يهودًا.',
       },
       argumentType: 'historical',
       assessment: 'supported_disputed_details',
       rationale: {
-        en: 'The disputes recorded in the Gospels are about the Sabbath, purity and commandments, and so belong to a Jewish debate. The first Church in Jerusalem was a Jewish community, and the question of whether non-Jews had to keep the Law became a major issue only afterwards.',
-        ar: 'الخلافات المسجلة في الأناجيل تدور حول السبت والطهارة والوصايا، فهي من نقاش يهودي. وكانت الكنيسة الأولى في أورشليم جماعة يهودية، ولم تصبح مسألة إلزام غير اليهود بالناموس قضية كبرى إلا بعد ذلك.',
+        en: 'The disputes recorded in the Gospels concern the Sabbath, purity and the commandments, the questions that Jewish teachers debated. The first Church in Jerusalem was a Jewish community, and only later did the question arise of whether Gentile believers had to keep the Law.',
+        ar: 'الخلافات المسجلة في الأناجيل تدور حول السبت والطهارة والوصايا، وهي المسائل التي تجادل فيها المعلمون اليهود. وكانت الكنيسة الأولى في أورشليم جماعة يهودية، ولم ينشأ إلا لاحقًا سؤال إلزام المؤمنين من الأمم بالناموس.',
       },
       limits: {
         en: 'Scholars disagree about how far Jesus’ claims to authority went beyond the range of debate between Jewish groups; that is treated in the article on his claim to divine authority.',
@@ -124,14 +124,14 @@ export const article: Article = {
     {
       id: 'c4',
       proposition: {
-        en: 'Hostile ancient critics accepted that Jesus was a Jew from a village in Galilee, and no ancient source claims otherwise.',
-        ar: 'سلّم منتقدون قدماء معادون بأن يسوع يهودي من قرية في الجليل، ولا يدّعي مصدر قديم خلاف ذلك.',
+        en: 'Hostile ancient critics accepted that Jesus was a Jew from a village in Galilee, and no ancient source says otherwise.',
+        ar: 'سلّم منتقدون قدماء معادون بأن يسوع يهودي من قرية في الجليل، ولا يقول مصدر قديم خلاف ذلك.',
       },
       argumentType: 'historical',
       assessment: 'strong_historical_support',
       rationale: {
-        en: 'In Origen’s reply to Celsus, the Jew whom Celsus quotes attacks the circumstances of Jesus’ birth, and speaks of a poor Jewish woman and a Jewish village. He does not question the Jewishness.',
-        ar: 'في رد أوريجانوس على كلسوس، يهاجم اليهودي الذي يقتبس منه كلسوس ظروف ميلاد يسوع، ويتحدث عن امرأة يهودية فقيرة وقرية يهودية. ولا يشكك في يهوديته.',
+        en: 'In Origen’s reply to Celsus, the Jew whom Celsus quotes attacks the circumstances of Jesus’ birth and speaks of a poor Jewish woman and a Jewish village. Even an enemy takes His Jewishness for granted.',
+        ar: 'في رد أوريجانوس على كلسوس، يهاجم اليهودي الذي يقتبس منه كلسوس ظروف ميلاد يسوع، ويتحدث عن امرأة يهودية فقيرة وقرية يهودية. فحتى العدو يسلّم بيهوديته.',
       },
       limits: {
         en: 'Celsus’ work survives only in Origen’s reply, written in the third century and Christian in standpoint. The evidence is about what opponents assumed, not an independent record of Jesus’ life.',
@@ -300,12 +300,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'St Paul, in the earliest writings, states that Jesus was born a Jew and under the Law, and he writes as a Jew who understood his message as the fulfilment of Israel’s hope. The Gospels are saturated with the Scriptures of Israel, and without them they do not make sense.',
-          'The Church, from the beginning, received those Scriptures as its own. Some in the second century wished to discard them and were rejected, and the Church’s rejection of that view is one reason the Old Testament remains in the Bible.',
+          'St Paul, in the earliest Christian writings, states that Jesus was born a Jew and under the Law, and he writes as a Jew who saw the Gospel as the fulfilment of Israel’s hope. The Gospels are saturated with the Scriptures of Israel and cannot be understood without them.',
+          'From the beginning the Church received those Scriptures as her own. When some in the second century wished to discard them, the Church rejected their view, and that is one reason the Old Testament stands in the Bible today.',
         ],
         ar: [
-          'يصرّح القديس بولس، في أقدم الكتابات، بأن يسوع وُلد يهوديًا وتحت الناموس، ويكتب بصفته يهوديًا فهم رسالته تمامًا لرجاء إسرائيل. والأناجيل مشبعة بكتب إسرائيل ولا تُفهم بدونها.',
-          'وقد تسلّمت الكنيسة تلك الكتب من البدء كتبها هي. وأراد بعضهم في القرن الثاني نبذها فرُفض رأيهم، ورفض الكنيسة له أحد أسباب بقاء العهد القديم في الكتاب المقدس.',
+          'يصرّح القديس بولس، في أقدم الكتابات المسيحية، بأن يسوع وُلد يهوديًا وتحت الناموس، ويكتب بصفته يهوديًا رأى الإنجيل تمامًا لرجاء إسرائيل. والأناجيل مشبعة بكتب إسرائيل ولا تُفهم بدونها.',
+          'ومن البدء تسلّمت الكنيسة تلك الكتب كتبًا لها. ولما أراد بعضهم في القرن الثاني نبذها رفضت الكنيسة رأيهم، وهذا أحد أسباب وجود العهد القديم في الكتاب المقدس اليوم.',
         ],
       },
       limits: {
@@ -322,12 +322,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The earliest Church faced this very question and recorded its answer: non-Jewish believers were not bound to circumcision and the whole Law, and the apostles agreed on a short list of requirements. Jesus himself speaks of fulfilling the Law, and St Paul teaches that those in Christ are no longer under it as before.',
-          'Whether this is faithful development or departure is a matter on which Jews and Christians differ, and fairness requires saying so. The Church holds that it is fulfilment, as the Fathers taught in reading the Law as pointing to Christ.',
+          'The earliest Church faced this very question and recorded its answer: Gentile believers were not bound to circumcision and the whole Law, and the apostles agreed on a few necessary requirements. Jesus Himself speaks of fulfilling the Law, and St Paul teaches that those in Christ are no longer under it as before.',
+          'This is not departure but fulfilment. The Law pointed to Christ, as the Fathers taught, and in Him its purpose is reached.',
         ],
         ar: [
-          'واجهت الكنيسة الأولى هذا السؤال نفسه وسجلت جوابها: لا يلتزم المؤمنون من غير اليهود بالختان وكل الناموس، واتفق الرسل على قائمة قصيرة من المتطلبات. ويتكلم يسوع نفسه عن تكميل الناموس، ويعلّم القديس بولس أن الذين في المسيح ليسوا تحته كما كان من قبل.',
-          'وهل هذا تطور أمين أم ابتعاد فمما يختلف فيه اليهود والمسيحيون، والإنصاف يقتضي قول ذلك. وترى الكنيسة أنه تكميل، كما علّم الآباء في قراءة الناموس مشيرًا إلى المسيح.',
+          'واجهت الكنيسة الأولى هذا السؤال نفسه وسجلت جوابها: لا يلتزم المؤمنون من الأمم بالختان وكل الناموس، واتفق الرسل على متطلبات ضرورية قليلة. ويتكلم يسوع نفسه عن تكميل الناموس، ويعلّم القديس بولس أن الذين في المسيح ليسوا تحته كما كان من قبل.',
+          'وهذا ليس ابتعادًا بل تكميل. فالناموس كان يشير إلى المسيح، كما علّم الآباء، وفيه تبلغ غايته.',
         ],
       },
       limits: {
@@ -344,12 +344,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'Many historians agree that the Gospels reflect later disputes between Church and synagogue as well as the ministry, and John’s language about "the Jews" has been misused. The Church condemns every contempt for the Jewish people, who include Jesus, Mary, the apostles and the first martyrs.',
-          'The debates in the Gospels are also the type of debate that took place between Jewish groups, and the Dead Sea Scrolls show that other Jews spoke more sharply of their opponents. Treating them as family disputes, not as a basis for hostility, is both fairer historically and more faithful.',
+          'The words of the Gospels about “the Jews” have been misused, and the Church condemns every contempt for the Jewish people, the people of Jesus, the Virgin Mary, the apostles and the first martyrs.',
+          'The debates in the Gospels are the kind of debate that took place between Jewish groups; the Dead Sea Scrolls show other Jews speaking far more sharply of their opponents. They are disputes within a family, never a ground for hostility, and reading them so is both true to history and faithful to Christ.',
         ],
         ar: [
-          'يتفق مؤرخون كثيرون على أن الأناجيل تعكس خلافات لاحقة بين الكنيسة والمجمع إلى جانب الخدمة، وأن تعبير يوحنا عن «اليهود» أُسيء استعماله. وتدين الكنيسة كل ازدراء للشعب اليهودي الذي منه يسوع ومريم والرسل وأوائل الشهداء.',
-          'وتماثل المناظرات في الأناجيل مناظرات كانت تجري بين الجماعات اليهودية، وتظهر مخطوطات البحر الميت يهودًا آخرين يتحدثون بحدة أكبر عن خصومهم. ومعاملتها خلافات داخل الأسرة لا أساسًا للعداء أعدل تاريخيًا وأوفى للإيمان.',
+          'أُسيء استعمال كلام الأناجيل عن «اليهود»، والكنيسة تدين كل ازدراء للشعب اليهودي، شعب يسوع والعذراء مريم والرسل وأوائل الشهداء.',
+          'والمناظرات في الأناجيل من نوع المناظرات التي كانت تجري بين الجماعات اليهودية؛ وتُظهر مخطوطات البحر الميت يهودًا آخرين يتحدثون بحدة أكبر بكثير عن خصومهم. فهي خلافات داخل أسرة واحدة، لا أساسًا للعداء أبدًا، وقراءتها هكذا أمينة للتاريخ وللمسيح معًا.',
         ],
       },
       limits: {
@@ -363,12 +363,12 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'The historical case is simple and is accepted on all sides: Jesus was a Jew of Galilee, and the Gospels and St Paul agree on it. The consequences are less simple. His words about the kingdom, the Law, the Temple and the Scriptures should be read as Jewish speech in a Jewish world, and this protects us from reading into them what later centuries thought.',
-        'It also keeps open the real question of what was new in what he said and did. That question is argued between historians, including believing ones, and cannot be settled by pointing to his Jewishness alone.',
+        'The historical case is clear: Jesus was a Jew of Galilee, and the Gospels and St Paul agree on it. His words about the kingdom, the Law, the Temple and the Scriptures are Jewish speech in a Jewish world, and reading them so keeps us from reading later ideas into them.',
+        'It also shows how new He was. He spoke within Israel’s faith, yet with an authority that astonished His hearers, forgiving sins and calling Himself Lord of the Sabbath. Other articles examine that claim.',
       ],
       ar: [
-        'الدعوى التاريخية بسيطة ومقبولة من الجميع: كان يسوع يهوديًا من الجليل، وتتفق الأناجيل وبولس على ذلك. أما النتائج فأقل بساطة. فكلامه عن الملكوت والناموس والهيكل والكتب ينبغي أن يُقرأ كلامًا يهوديًا في عالم يهودي، وهذا يقينا قراءة ما فكرت فيه القرون اللاحقة داخله.',
-        'ويُبقي هذا مفتوحًا السؤال الحقيقي عما كان جديدًا في أقواله وأفعاله. وهو سؤال يتجادل فيه المؤرخون، ومنهم مؤمنون، ولا يُحسم بمجرد الإشارة إلى يهوديته.',
+        'الدعوى التاريخية واضحة: كان يسوع يهوديًا من الجليل، وتتفق الأناجيل وبولس على ذلك. وكلامه عن الملكوت والناموس والهيكل والكتب كلام يهودي في عالم يهودي، وقراءته هكذا تقينا إدخال أفكار لاحقة عليه.',
+        'وهي تُظهر أيضًا مدى جِدّته. فقد تكلم داخل إيمان إسرائيل، لكن بسلطان أدهش سامعيه، فغفر الخطايا وسمّى نفسه رب السبت. وتفحص مقالات أخرى هذه الدعوى.',
       ],
     },
     theological: {
@@ -384,10 +384,10 @@ export const article: Article = {
   },
   coptic: {
     en: [
-      'The Coptic Church commemorates the circumcision of the Lord among her feasts and reads the Old Testament, the Psalms above all, as the voice of Christ and his Church. She also remembers that the Holy Family came to Egypt. Matthew reports the flight of Joseph, Mary and the child to Egypt, and the Coptic tradition reads in this the word of Isaiah about the Lord coming to Egypt and about Egypt as a people the Lord blesses. That tradition is a matter of faith and Church memory, and the historical points in this article do not depend on it.',
+      'The Coptic Church commemorates the circumcision of the Lord among her feasts and reads the Old Testament, the Psalms above all, as the voice of Christ and his Church. She also remembers that the Holy Family came to Egypt. Matthew reports the flight of Joseph, Mary and the child to Egypt, and the Coptic tradition reads in this the word of Isaiah about the Lord coming to Egypt and about Egypt as a people the Lord blesses. The Church keeps this memory with love and joy.',
     ],
     ar: [
-      'تعيّد الكنيسة القبطية لختان الرب بين أعيادها، وتقرأ العهد القديم، والمزامير خاصة، صوتًا للمسيح وكنيسته. وهي تتذكر أيضًا مجيء العائلة المقدسة إلى مصر. فيروي متى هروب يوسف ومريم والطفل إلى مصر، ويرى التقليد القبطي في ذلك كلام إشعياء عن مجيء الرب إلى مصر وعن مصر شعبًا يباركه الرب. وهذا التقليد من الإيمان وذاكرة الكنيسة، ولا تتوقف عليه النقاط التاريخية في هذا المقال.',
+      'تعيّد الكنيسة القبطية لختان الرب بين أعيادها، وتقرأ العهد القديم، والمزامير خاصة، صوتًا للمسيح وكنيسته. وهي تتذكر أيضًا مجيء العائلة المقدسة إلى مصر. فيروي متى هروب يوسف ومريم والطفل إلى مصر، ويرى التقليد القبطي في ذلك كلام إشعياء عن مجيء الرب إلى مصر وعن مصر شعبًا يباركه الرب. والكنيسة تحفظ هذه الذكرى بمحبة وفرح.',
     ],
   },
   disputed: {
@@ -399,8 +399,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'Jesus was a Jew of first-century Galilee, a fact that is attested by St Paul, by the Gospels, by Ignatius and by a hostile critic. It helps us read his words in their setting and reminds the Church that the incarnation took place within the history of Israel. It does not answer by itself what he claimed or who he was.',
-    ar: 'كان يسوع يهوديًا من الجليل في القرن الأول، وهذا ما يشهد به القديس بولس والأناجيل وإغناطيوس ومنتقد معادٍ. وهو يساعد على قراءة كلامه في بيئته، ويذكّر الكنيسة بأن التجسد تم داخل تاريخ إسرائيل. لكنه لا يجيب وحده عما ادّعاه ولا عمن هو.',
+    en: 'Jesus was a Jew of first-century Galilee, as St Paul, the Gospels, St Ignatius and even a hostile critic attest. Knowing this helps us read His words in their setting. Above all it shows how God kept His promises: the Word became flesh within the history of Israel, born of the Virgin Mary of David’s line, the Messiah of Israel and the Saviour of the world.',
+    ar: 'كان يسوع يهوديًا من الجليل في القرن الأول، كما يشهد القديس بولس والأناجيل والقديس إغناطيوس وحتى ناقد معادٍ. ومعرفة ذلك تساعدنا على قراءة كلامه في بيئته. وهي تُظهر فوق كل شيء كيف حفظ الله وعوده: فالكلمة صار جسدًا داخل تاريخ إسرائيل، مولودًا من العذراء مريم من نسل داود، مسيح إسرائيل ومخلّص العالم.',
   },
   furtherReading: ['S10', 'S51', 'S54'],
   related: [

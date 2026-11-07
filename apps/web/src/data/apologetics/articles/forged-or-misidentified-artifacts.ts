@@ -15,23 +15,23 @@ export const article: Article = {
     ar: 'كيف نحكم على اكتشاف مزعوم متصل بالكتاب المقدس أو بالمسيحية الأولى: الأسئلة الواجب طرحها عن مكان العثور عليه وكيف اختُبر وماذا يقول فعلًا، وبعض الحالات المعروفة من التزوير والتعيين المشكوك فيه والدعوى المثيرة. هو دليل في المنهج. ولا يحكم في كل قطعة مختلف عليها، ولا يقول إن المكتشفات الأصيلة غير مهمة.',
   },
   shortAnswer: {
-    en: 'A reliable discovery has a recorded find-spot, a chain of custody that can be traced, scientific testing that others can repeat, a careful reading by specialists who have seen the object, and a claim that does not go beyond what the object says. A forgery or a sensational claim usually fails on one or more of these: the object appears from the antiquities market with no record, the announcement comes through the media before publication, the testing is partial or secret, and the claim is bigger than the object. Well-known examples include the James ossuary inscription, whose authenticity is still disputed, the Dead Sea Scroll fragments that were shown to be modern forgeries, and the "Gospel of Jesus’ Wife" papyrus. Christians should apply the same tests to claims that seem to favour their faith as to claims that seem to oppose it.',
-    ar: 'للاكتشاف الموثوق موضع عثور مسجل، وسلسلة حيازة يمكن تتبعها، واختبارات علمية يستطيع غير صاحبها أن يكررها، وقراءة دقيقة من متخصصين رأوا القطعة، ودعوى لا تتجاوز ما تقوله القطعة. أما التزوير أو الدعوى المثيرة فيفشل عادة في واحد أو أكثر من هذه: تظهر القطعة من سوق الآثار بلا سجل، ويأتي الإعلان عبر الإعلام قبل النشر العلمي، وتكون الاختبارات جزئية أو سرية، وتكون الدعوى أكبر من القطعة. ومن الأمثلة المعروفة نقش عظامين يعقوب الذي ما زالت أصالته موضع خلاف، وقطع مخطوطات البحر الميت التي ثبت أنها مزورة حديثة، وبردية «إنجيل زوجة يسوع». وعلى المسيحيين أن يطبّقوا الاختبارات نفسها على الدعاوى التي تبدو في صالح إيمانهم كما يطبقونها على التي تبدو ضده.',
+    en: 'A genuine discovery can show where it was found, how it reached us, what independent testing has found, and what specialists who examined it actually read on it. Its claim stays within what the object says. Forgeries and sensational claims fail these tests: the object comes from the antiquities market with no record, the news reaches the media before any scholarly publication, the testing is partial or kept secret, and the claim is far bigger than the object. The Dead Sea Scroll fragments exposed as modern forgeries and the "Gospel of Jesus’ Wife" papyrus are clear examples. A Christian applies the same tests to every claim, whether it seems to help the faith or to harm it, because the faith rests on Christ and the apostolic witness, not on any object.',
+    ar: 'الاكتشاف الأصيل يستطيع أن يبيّن أين وُجد، وكيف وصل إلينا، وماذا وجد الاختبار المستقل، وماذا قرأ عليه المتخصصون الذين فحصوه. ودعواه لا تتجاوز ما تقوله القطعة. أما المزورات والدعاوى المثيرة فتسقط في هذه الاختبارات: تأتي القطعة من سوق الآثار بلا سجل، ويصل الخبر إلى الإعلام قبل أي نشر علمي، وتكون الاختبارات ناقصة أو سرية، وتكون الدعوى أكبر بكثير من القطعة. ومن الأمثلة الواضحة قطع مخطوطات البحر الميت التي انكشف أنها مزورة حديثة، وبردية «إنجيل زوجة يسوع». والمسيحي يطبّق الاختبارات نفسها على كل دعوى، سواء بدت في صالح الإيمان أو ضده، لأن الإيمان قائم على المسيح وشهادة الرسل لا على قطعة أثرية.',
   },
   quickPoints: {
     en: [
-      'Ask first where, when and by whom the object was found, and whether a record of its path to the present can be shown. Objects from the antiquities market with no documented origin are the main source of forgeries.',
-      'Ask what testing has been done and whether independent laboratories and specialists have examined the object itself, and published their results.',
-      'Ask what the object really says. Many claims depend on a common name, a damaged line or a reading that goes beyond the text.',
-      'Be wary of announcements made first through the media, of claims that "prove" a doctrine, and of those that bring a large profit.',
-      'Apply the same standard to claims that support faith and to those that attack it. The Church’s faith does not rest on an artefact.',
+      'First ask where, when and by whom the object was found, and whether its path to the present is on record. Objects from the market with no documented origin are the main source of forgeries.',
+      'Ask whether independent laboratories and specialists have examined the object itself and published their results.',
+      'Ask what the object really says. Many claims rest on a common name, a damaged line or a reading the text does not support.',
+      'Be wary of finds announced first through the media, of claims that "prove" a doctrine, and of claims that bring large profit.',
+      'Use the same standard for claims that support the faith and claims that attack it. The Church’s faith does not rest on an artefact.',
     ],
     ar: [
-      'اسأل أولًا أين ومتى ومن عثر على القطعة، وهل يمكن إظهار سجل لمسارها إلى الحاضر. والقطع القادمة من سوق الآثار بلا أصل موثق هي المصدر الرئيس للتزوير.',
-      'اسأل أي اختبارات أُجريت وهل فحصت القطعة نفسها مختبرات ومتخصصون مستقلون ونشروا نتائجهم.',
-      'اسأل ماذا تقول القطعة فعلًا. فكثير من الدعاوى يقوم على اسم شائع أو سطر تالف أو قراءة تتجاوز النص.',
-      'احذر الإعلانات التي تصدر أولًا عبر الإعلام، والدعاوى التي «تثبت» عقيدة، وتلك التي تدرّ ربحًا كبيرًا.',
-      'طبّق المعيار نفسه على الدعاوى التي تؤيد الإيمان وعلى التي تهاجمه. وإيمان الكنيسة لا يقوم على قطعة أثرية.',
+      'اسأل أولًا أين ومتى ومن عثر على القطعة، وهل مسارها إلى الحاضر مسجل. فالقطع القادمة من السوق بلا أصل موثق هي المصدر الرئيس للتزوير.',
+      'اسأل هل فحصت القطعة نفسها مختبرات ومتخصصون مستقلون ونشروا نتائجهم.',
+      'اسأل ماذا تقول القطعة فعلًا. فكثير من الدعاوى يقوم على اسم شائع أو سطر تالف أو قراءة لا يحتملها النص.',
+      'احذر الاكتشافات المعلنة أولًا عبر الإعلام، والدعاوى التي «تثبت» عقيدة، والدعاوى التي تدرّ ربحًا كبيرًا.',
+      'استعمل المعيار نفسه للدعاوى التي تؤيد الإيمان والتي تهاجمه. فإيمان الكنيسة لا يقوم على قطعة أثرية.',
     ],
   },
   argumentTypes: ['archaeological', 'philosophical', 'historical'],
@@ -44,12 +44,12 @@ export const article: Article = {
   },
   whyExamine: {
     en: [
-      'Claims of sensational discoveries spread quickly, and each one that fails weakens public trust in real discoveries and in the Church’s apologetics. A believer who repeats an unverified claim does harm to the truth he wants to serve.',
-      'Sceptics also err when they dismiss a find because it is convenient to do so. Fair testing protects both sides.',
+      'Sensational claims spread quickly, and each one that collapses weakens trust in real discoveries and in the defence of the faith. A believer who repeats an unverified claim harms the truth he wants to serve.',
+      'Sceptics err too when they dismiss a genuine find because it is inconvenient. Fair testing serves the truth on every side.',
     ],
     ar: [
-      'تنتشر دعاوى الاكتشافات المثيرة بسرعة، وكل دعوى منها تسقط تضعف ثقة الناس بالمكتشفات الحقيقية وبدفاعيات الكنيسة. والمؤمن الذي يكرر دعوى لم يتحقق منها يسيء إلى الحق الذي يريد أن يخدمه.',
-      'ويخطئ المتشككون أيضًا حين يرفضون أثرًا لأن رفضه مريح. والاختبار العادل يحمي الجانبين.',
+      'تنتشر الدعاوى المثيرة بسرعة، وكل دعوى تسقط تضعف الثقة بالمكتشفات الحقيقية وبالدفاع عن الإيمان. والمؤمن الذي يكرر دعوى لم يتحقق منها يسيء إلى الحق الذي يريد أن يخدمه.',
+      'ويخطئ المتشككون أيضًا حين يرفضون أثرًا أصيلًا لأنه لا يناسبهم. والاختبار العادل يخدم الحق من كل جهة.',
     ],
   },
   background: {
@@ -70,14 +70,14 @@ export const article: Article = {
     {
       id: 'c1',
       proposition: {
-        en: 'Provenance, independent scientific testing, expert reading and publication are the standard tests of an artefact, and a find that lacks them should be treated as unproven.',
-        ar: 'المصدر الموثق والاختبار العلمي المستقل وقراءة الخبراء والنشر هي المعايير المعتادة لاختبار أثر، والقطعة التي تفتقر إليها ينبغي أن تُعامل قطعةً غير مثبتة.',
+        en: 'Provenance, independent scientific testing, expert reading and publication are the standard tests of an artefact. A find that lacks them is unproven and should not be used in argument.',
+        ar: 'المصدر الموثق والاختبار العلمي المستقل وقراءة الخبراء والنشر هي المعايير المعتادة لاختبار أثر. والقطعة التي تفتقر إليها غير مثبتة، فلا تُستعمل في الحجاج.',
       },
       argumentType: 'philosophical',
       assessment: 'philosophical_argument',
       rationale: {
-        en: 'These tests follow from the reasons for which an object is trusted at all: that it is old, that it is what it is said to be, and that it says what it is said to say. Each test addresses one of those three questions.',
-        ar: 'تتبع هذه الاختبارات من أسباب الوثوق بقطعة أصلًا: أنها قديمة، وأنها ما يُقال إنها هو، وأنها تقول ما يُقال إنها تقوله. وكل اختبار يعالج واحدًا من هذه الأسئلة الثلاثة.',
+        en: 'We trust an object for three reasons: it is old, it is what it is said to be, and it says what it is said to say. Each test answers one of these questions. Context matters most, because an object excavated from a recorded layer can be checked in ways that an object from the market never can.',
+        ar: 'نثق بقطعة لثلاثة أسباب: أنها قديمة، وأنها ما يُقال إنها هو، وأنها تقول ما يُقال إنها تقوله. وكل اختبار يجيب عن واحد من هذه الأسئلة. والسياق أهمها، لأن القطعة المحفورة من طبقة مسجلة يمكن فحصها بطرق لا تتاح أبدًا لقطعة من السوق.',
       },
       limits: {
         en: 'A positive result raises confidence and does not give certainty. A missing provenance does not by itself prove forgery.',
@@ -113,12 +113,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'That would be a bias in the other direction. Authentic discoveries have been made and accepted, and the expert checking that exposes forgeries is also what confirms genuine objects. Each claim has to be judged on its evidence. A rule that every object that supports a belief is false has no more claim to fairness than a rule that every such object is true.',
-          'The better lesson is that the same tests apply to everyone, that early enthusiasm should wait for publication, and that a find should not be used in argument until it has passed through those tests.',
+          'That is simply bias in the other direction. Genuine discoveries have been made and confirmed, and the same expert checking that exposes forgeries is what confirms authentic objects. Every claim is judged on its own evidence. Calling every supportive object false is no fairer than calling every such object true.',
+          'The right lesson is that the same tests apply to everyone, and that a find is used in argument only after it has passed them.',
         ],
         ar: [
-          'ذلك تحيز في الاتجاه المقابل. فقد تحققت اكتشافات أصيلة وقُبلت، والفحص الخبير الذي يكشف المزورات هو ما يؤكد القطع الأصيلة أيضًا. ويجب الحكم على كل دعوى بدليلها. وقاعدة أن كل قطعة تؤيد عقيدة باطلة ليست أعدل من قاعدة أن كل قطعة كهذه صحيحة.',
-          'والدرس الأفضل أن الاختبارات نفسها تنطبق على الجميع، وأن الحماس المبكر ينبغي أن ينتظر النشر، وألا يُستعمل أثر في الحجاج قبل أن يمر بتلك الاختبارات.',
+          'هذا تحيز في الاتجاه المقابل لا أكثر. فقد تحققت اكتشافات أصيلة وتأكدت، والفحص الخبير نفسه الذي يكشف المزورات هو ما يؤكد القطع الأصيلة. وكل دعوى يُحكم عليها بدليلها. والقول إن كل قطعة مؤيدة باطلة ليس أعدل من القول إن كل قطعة كهذه صحيحة.',
+          'والدرس الصحيح أن الاختبارات نفسها تنطبق على الجميع، وأن الأثر لا يُستعمل في الحجاج إلا بعد أن يجتازها.',
         ],
       },
       limits: {
@@ -135,12 +135,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The two are not the same kind of claim. A relic is honoured because of the Church’s tradition about a saint, and the honour is given to the saint, not to proof of the object’s authenticity. The Church does not teach that the identity of every object is certain, and it does not make doctrine depend on any of them. A claimed discovery put forward as evidence for or against the faith is in a different position: it makes a historical claim and must be tested like one.',
-          'The Coptic Church holds that relics of the saints can be a means of God’s grace, and it venerates the portion of the relics of St Mark returned to Egypt in 1968, whose return is a matter of record. Honouring a saint is different from using an object as an argument.',
+          'They are different kinds of claim. A relic is honoured within the Church’s tradition about a saint, and the honour goes to the saint. No doctrine depends on any relic. A discovery put forward as evidence for or against the faith makes a historical claim, and so it is tested as history.',
+          'The Coptic Church holds that the relics of the saints are a means of God’s grace, and it venerates the portion of the relics of St Mark returned to Egypt in 1968, a return that is a matter of record. Honouring a saint is one thing; using an object as an argument is another.',
         ],
         ar: [
-          'ليس الأمران من نوع واحد من الدعاوى. فالذخيرة تُكرَّم بسبب تقليد الكنيسة عن قديس، والإكرام للقديس لا لإثبات أصالة الشيء. ولا تعلّم الكنيسة أن هوية كل شيء مؤكدة، ولا تجعل العقيدة تتوقف على أي منها. أما الاكتشاف المزعوم المطروح دليلًا على الإيمان أو ضده فموضعه مختلف: يدّعي دعوى تاريخية فيجب أن يُختبر مثلها.',
-          'وتؤمن الكنيسة القبطية أن رفات القديسين قد تكون وسيلة لنعمة الله، وتكرّم الجزء من رفات القديس مرقس الذي أُعيد إلى مصر سنة ١٩٦٨م وعودته أمر مسجل. وإكرام القديس غير استعمال شيء حجة.',
+          'هما نوعان مختلفان من الدعاوى. فالذخيرة تُكرَّم في تقليد الكنيسة عن قديس، والإكرام يذهب إلى القديس. ولا تتوقف أي عقيدة على ذخيرة. أما الاكتشاف المطروح دليلًا على الإيمان أو ضده فيدّعي دعوى تاريخية، فيُختبر اختبار التاريخ.',
+          'وتؤمن الكنيسة القبطية أن رفات القديسين وسيلة لنعمة الله، وتكرّم الجزء من رفات القديس مرقس الذي أُعيد إلى مصر سنة ١٩٦٨م، وعودته أمر مسجل. فإكرام القديس شيء، واستعمال قطعة حجةً شيء آخر.',
         ],
       },
       limits: {
@@ -156,10 +156,10 @@ export const article: Article = {
       },
       response: {
         en: [
-          'Motive deserves attention on every side, which is why the tests should be public and repeatable. A judgment that rests on a published analysis of the script, the material and the context can be checked by anyone with the skills. Where specialists of different outlooks and with no common motive reach the same conclusion, it is stronger than where the conclusion depends on one party. Where they disagree, as with the James ossuary, the honest report is that the matter is disputed.',
+          'That is exactly why the tests must be public and repeatable. A judgment based on a published analysis of the script, the material and the context can be checked by anyone with the skills, whatever their motive. When specialists of different outlooks reach the same conclusion, it stands firm. When they still disagree, as with the James ossuary, the object should simply not be used in argument.',
         ],
         ar: [
-          'الدافع يستحق الانتباه من كل جهة، ولذلك ينبغي أن تكون الاختبارات علنية وقابلة للتكرار. والحكم القائم على تحليل منشور للخط والمادة والسياق يستطيع كل ذي مهارة أن يفحصه. وحيث يصل متخصصون من اتجاهات مختلفة ولا دافع مشترك لديهم إلى النتيجة نفسها، فهي أقوى مما لو اعتمدت على طرف واحد. وحيث يختلفون، كما في عظامين يعقوب، فالتقرير الأمين أن الأمر مختلف عليه.',
+          'لهذا بالضبط يجب أن تكون الاختبارات علنية وقابلة للتكرار. فالحكم القائم على تحليل منشور للخط والمادة والسياق يستطيع كل ذي مهارة أن يفحصه، أيًا كان دافعه. وحين يصل متخصصون من اتجاهات مختلفة إلى النتيجة نفسها، تثبت النتيجة. وحين يبقون مختلفين، كما في عظامين يعقوب، فلا تُستعمل القطعة في الحجاج.',
         ],
       },
       limits: {
@@ -173,10 +173,10 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'Historically, the sound response to a claimed discovery is to wait: for the find-spot and custody record, for independent testing, for specialist publication and for the object to be shown to say what is claimed. This protects the reader from forgery and from an exaggerated reading of a genuine object.',
+        'The sound response to a claimed discovery is to wait for four things: the find-spot and custody record, independent testing, specialist publication, and proof that the object says what is claimed. This guards the reader against forgery and against an inflated reading of a genuine object.',
       ],
       ar: [
-        'تاريخيًا، الجواب السليم عن اكتشاف مزعوم أن ننتظر: سجل موضع العثور والحيازة، والاختبار المستقل، والنشر المتخصص، وإثبات أن القطعة تقول ما يُدّعى. وهذا يحمي القارئ من التزوير ومن القراءة المبالغ فيها لقطعة أصيلة.',
+        'الجواب السليم عن اكتشاف مزعوم أن ننتظر أربعة أمور: سجل موضع العثور والحيازة، والاختبار المستقل، والنشر المتخصص، وإثبات أن القطعة تقول ما يُدّعى. وهذا يحمي القارئ من التزوير ومن تضخيم قراءة قطعة أصيلة.',
       ],
     },
     theological: {
@@ -205,8 +205,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'A claimed discovery is worth believing in proportion to its record, its testing and the care of those who read it. The same questions apply whether the find seems to help or to harm the faith. The faith itself does not wait on any object.',
-    ar: 'القيمة الجديرة بالتصديق لاكتشاف مزعوم بقدر سجله واختباره وعناية من يقرأونه. والأسئلة نفسها تنطبق سواء بدا الأثر معينًا على الإيمان أو ضارًا به. والإيمان نفسه لا ينتظر قطعة.',
+    en: 'A claimed discovery earns trust through its record, its testing and the care of those who read it. The same questions apply whether a find seems to help the faith or to harm it. The Church can be patient and truthful here, because its faith rests on Christ and the witness of the apostles, not on any object.',
+    ar: 'يكسب الاكتشاف المزعوم الثقة بسجله واختباره وعناية من يقرأونه. والأسئلة نفسها تنطبق سواء بدا الأثر معينًا على الإيمان أو ضارًا به. والكنيسة تستطيع هنا أن تتأنى وتصدق، لأن إيمانها قائم على المسيح وشهادة الرسل لا على قطعة.',
   },
   furtherReading: ['S35'],
   related: ['what-archaeology-can-establish', 'first-century-judea', 'pilate-inscription', 'dead-sea-scrolls', 'noncanonical-gospels'],

@@ -15,8 +15,8 @@ export const article: Article = {
     ar: 'يسأل هذا المقال: كيف تستطيع الكنيسة أن تقول إن يسوع المسيح إله كامل وإنسان كامل، شخص واحد لا اثنان؟ فيعرض الأساس الكتابي، ولغة الكنيسة عن الاتحاد بلا اختلاط، والاعتراضات الشائعة (أنه مستحيل أو أنه يقسّم المسيح)، وطريقة عرض الكنيسة القبطية الأرثوذكسية له. ولا يتتبع خلافات المجامع بالتفصيل؛ فذلك في المقالين عن الطبيعة الواحدة المتجسدة وعن الأوطاخية.',
   },
   shortAnswer: {
-    en: 'The Church confesses that the eternal Son of God, without ceasing to be God, took a complete human nature from the Virgin Mary, with body, soul and mind. The two were united in the one person of the Word without mingling, confusion or alteration, and without separation. Jesus is therefore not half God and half man, and not a man with God dwelling in him, but one Lord who is truly God and truly man. This is a mystery: the Church does not claim to explain how, but argues that Scripture requires it and that nothing in it is self-contradictory.',
-    ar: 'تعترف الكنيسة بأن ابن الله الأزلي، دون أن يكف عن كونه الله، أخذ طبيعة بشرية كاملة من العذراء مريم، بجسد ونفس وعقل. واتحد الاثنان في أقنوم الكلمة الواحد بلا اختلاط ولا امتزاج ولا تغيير، وبلا انفصال. فيسوع إذن ليس نصف إله ونصف إنسان، وليس إنسانًا يسكن فيه الله، بل رب واحد هو إله حق وإنسان حق. وهذا سر: فالكنيسة لا تدّعي أن تشرح كيف، لكنها تحتج بأن الكتاب يقتضيه وبأنه ليس فيه تناقض ذاتي.',
+    en: 'The eternal Son of God, without ceasing to be God, took a complete human nature from the Virgin Mary, with body, soul and mind. Divinity and humanity were united in the one person of God the Word without mingling, confusion or alteration, and without separation. Jesus is not half God and half man, and not a man in whom God dwelt, but one Lord who is truly God and truly man. This is how Scripture speaks of Him: the same Jesus who calms the sea weeps at His friend’s tomb. The union is a mystery beyond our full understanding, yet it involves no contradiction, and it is the heart of our salvation.',
+    ar: 'ابن الله الأزلي، دون أن يكف عن كونه الله، أخذ طبيعة بشرية كاملة من العذراء مريم، بجسد ونفس وعقل. واتحد اللاهوت والناسوت في أقنوم الله الكلمة الواحد بلا اختلاط ولا امتزاج ولا تغيير، وبلا انفصال. فيسوع ليس نصف إله ونصف إنسان، وليس إنسانًا سكن فيه الله، بل رب واحد هو إله حق وإنسان حق. وهكذا يتكلم الكتاب عنه: يسوع نفسه الذي يهدّئ البحر يبكي عند قبر صديقه. والاتحاد سر يفوق فهمنا الكامل، لكنه لا يتضمن تناقضًا، وهو قلب خلاصنا.',
   },
   quickPoints: {
     en: [
@@ -47,12 +47,12 @@ export const article: Article = {
 
   whyExamine: {
     en: [
-      'The claim that one person is both God and man seems, at first hearing, to be either two persons or a contradiction. Jews, Muslims and many others reject it for that reason, and some Christians in history have tried to relieve the difficulty by dropping one of the two halves.',
-      'A fair answer shows what the Church does and does not mean, and why it refuses the simpler options. It also shows why the Coptic Church, in its liturgy, insists that the divinity never parted from the humanity.',
+      'The claim that one person is both God and man can sound at first like either two persons or a contradiction. Jews, Muslims and many others reject it for that reason, and some in history tried to ease the difficulty by dropping one of the two.',
+      'The Church’s answer shows clearly what she means and why she refuses the simpler options. It also shows why the Coptic Church, in her liturgy, insists that the divinity never parted from the humanity, for in that union lies our salvation.',
     ],
     ar: [
-      'يبدو القول إن شخصًا واحدًا هو الله والإنسان معًا، عند أول سماع، إما شخصين أو تناقضًا. ولذلك يرفضه اليهود والمسلمون وكثيرون غيرهم، وحاول بعض المسيحيين في التاريخ تخفيف الصعوبة بإسقاط أحد النصفين.',
-      'والجواب المنصف يبيّن ما تعنيه الكنيسة وما لا تعنيه، ولماذا ترفض الخيارات الأبسط. ويبيّن أيضًا لماذا تصرّ الكنيسة القبطية في صلواتها الطقسية على أن اللاهوت لم يفارق الناسوت.',
+      'قد يبدو القول إن شخصًا واحدًا هو الله والإنسان معًا، عند أول سماع، إما شخصين أو تناقضًا. ولذلك يرفضه اليهود والمسلمون وكثيرون غيرهم، وحاول بعضهم في التاريخ تخفيف الصعوبة بإسقاط أحد الجانبين.',
+      'وجواب الكنيسة يبيّن بوضوح ما تعنيه ولماذا ترفض الخيارات الأبسط. ويبيّن أيضًا لماذا تصرّ الكنيسة القبطية في صلواتها الطقسية على أن اللاهوت لم يفارق الناسوت، ففي هذا الاتحاد خلاصنا.',
     ],
   },
   background: {
@@ -81,8 +81,8 @@ export const article: Article = {
       argumentType: 'textual',
       assessment: 'supported_disputed_details',
       rationale: {
-        en: 'The texts are plain: he is called God and Lord and exercises divine authority, and he is also born, tired, hungry and dead. Readers differ on whether the divine language is to be taken in the full sense.',
-        ar: 'النصوص واضحة: يُدعى الله والرب ويمارس سلطانًا إلهيًا، وهو أيضًا مولود ومتعب وجائع وميت. ويختلف القراء في هل تُؤخذ اللغة الإلهية بمعناها الكامل.',
+        en: 'The texts are plain: He is called God and Lord and exercises divine authority, and He is also born, tired, hungry and dead. The New Testament speaks of one Jesus throughout, not of two.',
+        ar: 'النصوص واضحة: يُدعى الله والرب ويمارس سلطانًا إلهيًا، وهو أيضًا مولود ومتعب وجائع وميت. والعهد الجديد يتكلم عن يسوع واحد في كل موضع، لا عن اثنين.',
       },
       limits: {
         en: 'This establishes what the texts say, not what the doctrine of two sides in one person means.',
@@ -99,8 +99,8 @@ export const article: Article = {
       argumentType: 'philosophical',
       assessment: 'philosophical_argument',
       rationale: {
-        en: 'Divine and human properties are not asserted of one nature in one respect. The claim is that one subject has two realities in union. Philosophers disagree on how to model this, and whether the model works.',
-        ar: 'لا تُنسب الصفات الإلهية والبشرية إلى طبيعة واحدة من جهة واحدة. والدعوى أن ذاتًا واحدة لها حقيقتان متحدتان. ويختلف الفلاسفة في نمذجة ذلك وفي نجاح النموذج.',
+        en: 'Divine and human properties are not said of one nature in the same respect. One subject, the Word, has divinity and humanity in union, and each is spoken of according to its own nature. That is a mystery, but not a contradiction.',
+        ar: 'لا تُنسب الصفات الإلهية والبشرية إلى طبيعة واحدة من جهة واحدة. فذات واحدة، هي الكلمة، لها اللاهوت والناسوت في اتحاد، ويُتكلم عن كل منهما بحسب طبيعته. وهذا سر، لكنه ليس تناقضًا.',
       },
       limits: {
         en: 'It does not show that the incarnation happened.',
@@ -117,8 +117,8 @@ export const article: Article = {
       argumentType: 'theological',
       assessment: 'theological_interpretation',
       rationale: {
-        en: 'This is the Church’s reading of the New Testament and of the councils, and the point of its terms. It is a statement of doctrine.',
-        ar: 'هذه قراءة الكنيسة للعهد الجديد وللمجامع، وهي غاية مصطلحاتها. وهي بيان عقيدة.',
+        en: 'Each of these options fails to do justice to the whole witness of the New Testament. The Church’s terms exist to guard that whole witness: fully God, fully man, one Lord.',
+        ar: 'كل من هذه الخيارات يقصّر عن إنصاف شهادة العهد الجديد كاملة. ومصطلحات الكنيسة وُجدت لتحفظ هذه الشهادة كلها: إله كامل، وإنسان كامل، ورب واحد.',
       },
       limits: {
         en: 'A reader who does not accept the Church’s authority can still check that the texts speak of both sides, but will not be bound by its conclusion.',
@@ -227,12 +227,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The objection would be decisive if the Church said that the divine nature itself became finite or mortal. It does not say that. It says that the Word, without ceasing to be God, took a human nature, and the human nature is finite and mortal while the divine is not. Each is predicated of the person according to its own nature.',
-          'Whether an infinite being can take a finite nature is the real question, and it is a philosophical question on which Christians, Muslims and Jews have disagreed. The objector may say the idea is impossible. The Church replies that if God is all-powerful, the possibility cannot be excluded in advance, and that the evidence that it happened is the witness of the apostles.',
+          'The objection would be decisive if the Church said that the divine nature itself became finite or mortal. She does not. The Word, without ceasing to be God, took a human nature; the human nature is finite and mortal while the divine is not. Each is said of the one person according to its own nature.',
+          'Nothing prevents the all-powerful God from uniting a created nature to Himself without ceasing to be what He is. To say it is impossible is to set limits to God in advance. The apostles bore witness that it happened, and the Church confesses it.',
         ],
         ar: [
-          'كان الاعتراض حاسمًا لو قالت الكنيسة إن الطبيعة الإلهية نفسها صارت متناهية أو فانية. لكنها لا تقول ذلك. إنها تقول إن الكلمة، دون أن يكف عن كونه الله، اتخذ طبيعة بشرية، والطبيعة البشرية متناهية وفانية بينما الإلهية ليست كذلك. وكل منهما يُنسب إلى الشخص بحسب طبيعته.',
-          'والسؤال الحقيقي هل يستطيع كائن لامتناه أن يتخذ طبيعة متناهية، وهو سؤال فلسفي اختلف فيه المسيحيون والمسلمون واليهود. وقد يقول المعترض إن الفكرة مستحيلة. وتجيب الكنيسة بأنه إذا كان الله قادرًا على كل شيء فلا يمكن استبعاد الإمكان سلفًا، وأن الشاهد على وقوعه هو شهادة الرسل.',
+          'كان الاعتراض حاسمًا لو قالت الكنيسة إن الطبيعة الإلهية نفسها صارت متناهية أو فانية. لكنها لا تقول ذلك. فالكلمة، دون أن يكف عن كونه الله، اتخذ طبيعة بشرية، والطبيعة البشرية متناهية وفانية بينما الإلهية ليست كذلك. وكل منهما يُنسب إلى الشخص الواحد بحسب طبيعته.',
+          'ولا شيء يمنع الله القادر على كل شيء من أن يوحّد طبيعة مخلوقة بنفسه دون أن يكف عن كونه ما هو. والقول بأن ذلك مستحيل وضعٌ لحدود لله سلفًا. وقد شهد الرسل بأنه حدث، والكنيسة تعترف به.',
         ],
       },
       limits: {
@@ -249,12 +249,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The Church reads such statements as true of Christ according to his humanity, or as spoken from within the economy of the incarnation, in which the Son takes the place of a servant. They do not remove the texts that speak of his divinity. Both kinds of text have to be read together, and the doctrine is the attempt to do so.',
-          'Subordinationist readers, among them the Arians, read the same texts as showing a lower divinity. The Church answers that the texts about the Father’s greatness fit the Son’s relation as begotten and the form of a servant, and that the texts about unity with the Father cannot be read away.',
+          'These statements are true of Christ according to His humanity, spoken within the economy of the incarnation, in which the Son took the form of a servant. They do not cancel the texts that speak of His divinity, and both kinds of text belong to the one Lord.',
+          'The Arians read the same texts as showing a lower divinity. The Church answers that the Father is greater as the source of the Son, who is begotten of Him, and greater than the form of a servant the Son took. The texts that speak of the Son’s oneness with the Father stand beside them and cannot be read away.',
         ],
         ar: [
-          'تقرأ الكنيسة هذه العبارات صادقة عن المسيح بحسب ناسوته، أو مقولة من داخل تدبير التجسد الذي أخذ فيه الابن صورة عبد. وهي لا تلغي النصوص التي تتكلم عن لاهوته. ولا بد من قراءة النوعين معًا، والعقيدة محاولة لذلك.',
-          'ويقرأ التفضيليون، ومنهم الآريوسيون، النصوص نفسها دليلًا على لاهوت أدنى. وتجيب الكنيسة بأن نصوص عظمة الآب توافق علاقة الابن مولودًا وصورة العبد، وبأن نصوص الوحدة مع الآب لا يمكن تجاهلها.',
+          'هذه العبارات صادقة عن المسيح بحسب ناسوته، مقولة داخل تدبير التجسد الذي أخذ فيه الابن صورة عبد. وهي لا تلغي النصوص التي تتكلم عن لاهوته، والنوعان كلاهما يخصان الرب الواحد.',
+          'ويقرأ الآريوسيون النصوص نفسها دليلًا على لاهوت أدنى. وتجيب الكنيسة بأن الآب أعظم بوصفه مصدر الابن المولود منه، وأعظم من صورة العبد التي اتخذها الابن. ونصوص وحدة الابن مع الآب قائمة بجانبها ولا يمكن تجاهلها.',
         ],
       },
       limits: {
@@ -271,12 +271,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'This is the objection that Nestorius was taken to raise, and it is the question on which the Church’s teaching on the unity of the person rests. The Church answers that the humanity does not exist on its own as a separate person, but is the humanity of the Word from the moment of conception. The person is the Word, who acts through both.',
-          'The Coptic Church sets this against the other danger, which is to make the humanity so absorbed that it is not real. Its teaching is that neither danger is avoided by dropping one side.',
+          'The humanity of Christ does not exist on its own as a separate person. From the moment of conception it is the humanity of the Word. There is one person, the Word, who acts through both His divinity and His humanity, and His complete humanity, with a human soul and mind, belongs to Him without making a second person.',
+          'The Coptic Church guards against both dangers: dividing Christ into two, and absorbing His humanity so that it is not real. Neither danger is avoided by dropping one side; both are avoided by confessing the one incarnate Word.',
         ],
         ar: [
-          'هذا هو الاعتراض الذي فُهم أن نسطور يثيره، وعليه يقوم تعليم الكنيسة في وحدة الشخص. وتجيب الكنيسة بأن الناسوت لا يقوم بذاته شخصًا منفصلًا، بل هو ناسوت الكلمة منذ لحظة الحبل. والشخص هو الكلمة الذي يعمل بالاثنين.',
-          'وتقابل الكنيسة القبطية هذا بالخطر الآخر، وهو أن يُمتصّ الناسوت حتى لا يكون حقيقيًا. وتعليمها أن لا خطر يُتجنب بإسقاط أحد الجانبين.',
+          'ناسوت المسيح لا يقوم بذاته شخصًا منفصلًا، بل هو منذ لحظة الحبل ناسوت الكلمة. فالشخص واحد، هو الكلمة، الذي يعمل بلاهوته وناسوته، وناسوته الكامل، بنفس بشرية وعقل بشري، له دون أن يصير شخصًا ثانيًا.',
+          'والكنيسة القبطية تحترس من الخطرين: تقسيم المسيح إلى اثنين، وامتصاص ناسوته حتى لا يكون حقيقيًا. ولا يُتجنب أي منهما بإسقاط أحد الجانبين، بل يُتجنبان كلاهما بالاعتراف بالكلمة الواحد المتجسد.',
         ],
       },
       limits: {
@@ -290,12 +290,12 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'Historically, a Christian can say that the Gospels and letters present Jesus as divine and human from the start, that the early churches worshipped him and recorded his human life without apparent embarrassment, and that the Church’s statements were framed in answer to teachings that dropped one side.',
-        'A Christian can also say that the claim that God became man is exceptional and that history alone cannot establish it; the historian can show what Christians believed and why they believed it.',
+        'The Gospels and letters present Jesus as divine and human from the start. The early churches worshipped Him and recorded His human life without embarrassment, and the Church’s statements were framed to answer teachings that dropped one side.',
+        'The faith that God became man rests on the witness of the apostles, who knew Him in the flesh and worshipped Him as Lord, and it has been the faith of the Church from the beginning.',
       ],
       ar: [
-        'يستطيع المسيحي تاريخيًا أن يقول إن الأناجيل والرسائل تعرض يسوع إلهًا وإنسانًا منذ البداية، وإن الكنائس الأولى عبدته وسجلت حياته البشرية دون حرج ظاهر، وإن بيانات الكنيسة صيغت جوابًا على تعاليم أسقطت أحد الجانبين.',
-        'ويستطيع أن يقول أيضًا إن دعوى أن الله صار إنسانًا دعوى استثنائية لا يثبتها التاريخ وحده؛ ويستطيع المؤرخ أن يبيّن ما آمن به المسيحيون ولماذا.',
+        'تعرض الأناجيل والرسائل يسوع إلهًا وإنسانًا منذ البداية. وقد عبدته الكنائس الأولى وسجلت حياته البشرية دون حرج، وصيغت بيانات الكنيسة جوابًا على تعاليم أسقطت أحد الجانبين.',
+        'والإيمان بأن الله صار إنسانًا يقوم على شهادة الرسل الذين عرفوه في الجسد وعبدوه ربًّا، وهو إيمان الكنيسة منذ البدء.',
       ],
     },
     theological: {
@@ -332,8 +332,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'The Church confesses that Jesus Christ is one person who is truly God and truly man, united without mixing or division. This is a mystery that reason cannot exhaust but does not show to be incoherent; the Church holds it because it holds that the Scriptures and the apostles bear witness to it.',
-    ar: 'تعترف الكنيسة بأن يسوع المسيح شخص واحد هو إله حق وإنسان حق، متحدان بلا اختلاط ولا انقسام. وهذا سر لا يستوعبه العقل لكنه لا يُظهره متناقضًا؛ وتتمسك به الكنيسة لأنها ترى أن الكتب والرسل يشهدون له.',
+    en: 'Jesus Christ is one Lord, truly God and truly man, the Word who took our humanity and united it to Himself without mixing or division. Reason cannot exhaust this mystery, yet it involves no contradiction, and the Scriptures and the apostles bear witness to it. Because He is God, He can save; because He is man, He saves us from within our own nature. The Coptic Church confesses it at every Liturgy: His divinity never parted from His humanity, not for a moment nor the twinkling of an eye.',
+    ar: 'يسوع المسيح رب واحد، إله حق وإنسان حق، الكلمة الذي أخذ ناسوتنا ووحّده بنفسه بلا اختلاط ولا انقسام. والعقل لا يستوعب هذا السر، لكنه لا يتضمن تناقضًا، والكتب والرسل يشهدون له. ولأنه الله فهو قادر أن يخلّص، ولأنه إنسان فهو يخلّصنا من داخل طبيعتنا. والكنيسة القبطية تعترف بذلك في كل قداس: لاهوته لم يفارق ناسوته لحظة واحدة ولا طرفة عين.',
   },
   furtherReading: ['S52', 'S53', 'S55', 'S62'],
   related: ['miaphysite-christology', 'miaphysitism-vs-eutychianism', 'how-can-christ-suffer', 'incarnation-cross-salvation', 'why-theotokos', 'what-trinity-affirms'],

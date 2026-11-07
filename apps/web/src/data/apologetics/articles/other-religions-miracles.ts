@@ -15,25 +15,25 @@ export const article: Article = {
     ar: 'تسأل هذه المقالة ماذا يترتب على أن أتباع أديان كثيرة يروون معجزات واستجابات صلاة وخبرات عميقة للإلهي. وتعرض أهم الطرق لفهم هذه الروايات، وما يقوله الكتاب عن امتحان العلامات، وكيف تعاملت الكنيسة معها، ولماذا لا يمكن لدعوى معجزة وحدها أن تحسم بين الأديان. ولا تعدّ خبرة أحد الصادقة احتيالًا.',
   },
   shortAnswer: {
-    en: 'Reports of miracles and of experiences of God are found in nearly every religious tradition, and sincere people in all of them report real transformation and answered prayer. This is a fact that any account of religion must face. Christians have responded in several ways: some say that many of these reports have natural explanations, some that God’s grace works beyond the visible Church, and some that spiritual powers can deceive. The Church has never held that a wonder proves a teaching. Scripture itself says that signs must be tested by the teaching they accompany, and that a sign can come from a source other than God. For this reason the Christian claim does not rest on the existence of miracles in general but on one particular event, the resurrection of Christ, and on the whole content of what he taught. Whether the parallels in other religions weaken that claim is a question to be answered by looking at the cases, one at a time.',
-    ar: 'تُوجد روايات عن معجزات وعن خبرات مع الله في كل تقليد ديني تقريبًا، ويروي أناس صادقون في جميعها تحولًا حقيقيًا واستجابة صلاة. وهذه واقعة ينبغي لأي عرض للدين أن يواجهها. وقد استجاب المسيحيون بطرق عدة: يرى بعضهم أن لكثير من هذه الروايات تفسيرات طبيعية، ويرى بعضهم أن نعمة الله تعمل خارج الكنيسة المنظورة، ويرى بعضهم أن قوى روحية قد تخدع. ولم تعتقد الكنيسة قط أن العجيبة تثبت تعليمًا. والكتاب نفسه يقول إن العلامات يجب أن تُمتحن بالتعليم الذي ترافقه، وإن العلامة قد تأتي من مصدر غير الله. ولذلك لا تقوم الدعوى المسيحية على وجود المعجزات عمومًا بل على حدث واحد بعينه، قيامة المسيح، وعلى كل مضمون ما علّم به. وهل تُضعف المشابهات في الأديان الأخرى هذه الدعوى سؤال يُجاب عنه بفحص الحالات واحدة واحدة.',
+    en: 'Reports of wonders and of experiences of the divine are found in many religions, and the Christian can say so honestly and respectfully. The Church never taught that a wonder proves a teaching. Scripture itself warns that signs must be tested by the teaching they accompany and by their fruit, and that a sign can come from a source other than God. God is near to every person, and His grace is not bound by the visible Church; yet the fullness of His self-revelation is in Christ. That is why the Christian faith does not rest on miracles in general but on one particular event: the resurrection of Christ, proclaimed within the first generation by named witnesses who staked their lives on it. Reports in other religions do not weaken that witness, because no rival claim stands on the same kind of foundation.',
+    ar: 'تُوجد روايات عن عجائب وعن خبرات مع الإلهي في أديان كثيرة، ويستطيع المسيحي أن يقول ذلك بصدق واحترام. فالكنيسة لم تعلّم قط أن العجيبة تثبت تعليمًا. والكتاب نفسه يحذر من أن العلامات يجب أن تُمتحن بالتعليم الذي ترافقه وبثمرها، وأن العلامة قد تأتي من مصدر غير الله. والله قريب من كل إنسان، ونعمته ليست مقيدة بالكنيسة المنظورة؛ لكن ملء إعلانه عن ذاته في المسيح. ولهذا لا يقوم الإيمان المسيحي على المعجزات عمومًا بل على حدث بعينه: قيامة المسيح، التي كرز بها في الجيل الأول شهود مسمّون بذلوا حياتهم من أجلها. وروايات الأديان الأخرى لا تُضعف هذه الشهادة، لأنه لا دعوى منافسة تقوم على أساس من النوع نفسه.',
   },
   quickPoints: {
     en: [
-      'Miracle and experience claims are made across religions; sincerity and apparent transformation are not unique to any one of them.',
-      'Philosophers ask how testimony to extraordinary events should be weighed, and the discussion applies to all traditions alike.',
-      'Christians explain such reports differently: natural causes, God’s grace beyond the visible Church, or spiritual deception; the Church does not rule on each case.',
-      'Scripture says signs must be tested against the teaching and the fruit, and that signs and wonders alone do not prove a message.',
-      'The Christian claim rests on the resurrection of Christ, a particular event with named witnesses, and not on miracle claims in general.',
-      'A fair comparison examines each claim on its own evidence, without assuming that all are true or that all are false.',
+      'Miracle and experience claims are made across religions, and the Church does not call sincere people liars.',
+      'Scripture teaches that signs must be tested by the teaching and the fruit; wonders alone do not prove a message (Deuteronomy 13; 1 John 4).',
+      'God is near to all and may act where He wills; the Church does not need to explain every report in another tradition.',
+      'The Christian faith rests on the resurrection of Christ, a particular event proclaimed by named witnesses in the first generation, not on miracle claims in general.',
+      'Every claim, Christian or not, should be weighed by the same fair questions: how early, how close to the event, how many witnesses, and at what cost to them.',
+      'Within her own life, too, the Church tests wonders by humility, love and faithfulness to Christ.',
     ],
     ar: [
-      'تُدّعى المعجزات والخبرات عبر الأديان؛ والإخلاص والتحول الظاهر ليسا حكرًا على أي منها.',
-      'يسأل الفلاسفة كيف تُوزن الشهادة على أحداث استثنائية، وتنطبق المناقشة على كل التقاليد بالتساوي.',
-      'يفسر المسيحيون هذه الروايات بطرق مختلفة: أسباب طبيعية، أو نعمة الله خارج الكنيسة المنظورة، أو خداع روحي؛ والكنيسة لا تحكم في كل حالة.',
-      'يقول الكتاب إن العلامات يجب أن تُمتحن بالتعليم والثمر، وإن الآيات والعجائب وحدها لا تثبت رسالة.',
-      'تقوم الدعوى المسيحية على قيامة المسيح، حدث بعينه له شهود مسمّون، لا على دعاوى المعجزات عمومًا.',
-      'المقارنة المنصفة تفحص كل دعوى على أدلتها، دون افتراض أن كلها صحيحة أو كلها باطلة.',
+      'تُدّعى المعجزات والخبرات عبر الأديان، والكنيسة لا تصف المخلصين بالكذب.',
+      'يعلّم الكتاب أن العلامات يجب أن تُمتحن بالتعليم والثمر؛ فالعجائب وحدها لا تثبت رسالة (التثنية ١٣؛ يوحنا الأولى ٤).',
+      'الله قريب من الجميع وقد يعمل حيث يشاء؛ ولا تحتاج الكنيسة إلى تفسير كل رواية في تقليد آخر.',
+      'يقوم الإيمان المسيحي على قيامة المسيح، حدث بعينه كرز به شهود مسمّون في الجيل الأول، لا على دعاوى المعجزات عمومًا.',
+      'ينبغي أن توزن كل دعوى، مسيحية أو غيرها، بالأسئلة المنصفة نفسها: كم هي مبكرة، وكم هي قريبة من الحدث، وكم شاهدًا، وبأي ثمن دفعوه.',
+      'وفي حياتها هي أيضًا تمتحن الكنيسة العجائب بالتواضع والمحبة والأمانة للمسيح.',
     ],
   },
   argumentTypes: ['philosophical', 'historical', 'theological'],
@@ -46,12 +46,12 @@ export const article: Article = {
   },
   whyExamine: {
     en: [
-      'The objection is often put as a question of fairness: if a Christian accepts the miracles of the Gospels, on what ground does he reject the wonders reported at the shrines or among the saints of other faiths? The question is honest, and a Christian who has not asked it of himself should.',
-      'It also matters because many people have had experiences of their own, of peace in prayer, of a presence, of an answer, and have found them in traditions that are not Christian. An answer that denies or mocks these will not be believed, and should not be.',
+      'The question is often put as one of fairness: if a Christian accepts the miracles of the Gospels, on what ground does he set aside the wonders reported at the shrines of other faiths? It is an honest question, and the Christian has a clear answer.',
+      'It also matters because many people have had experiences of peace in prayer, of a presence, of an answer, within traditions that are not Christian. The Church does not deny or mock these. She points to the One in whom God has made Himself fully known.',
     ],
     ar: [
-      'يُطرح الاعتراض غالبًا بوصفه سؤال إنصاف: إن قبل المسيحي معجزات الأناجيل، فعلى أي أساس يرفض العجائب المروية عند المزارات أو بين قديسي الأديان الأخرى؟ والسؤال صادق، وعلى المسيحي الذي لم يسأله نفسه أن يسأله.',
-      'وهو مهم أيضًا لأن كثيرين مرّت بهم خبرات خاصة، سلام في الصلاة، حضور، استجابة، ووجدوها في تقاليد غير مسيحية. والجواب الذي ينكر هذا أو يسخر منه لن يُصدَّق، ولا ينبغي.',
+      'يُطرح السؤال غالبًا بوصفه سؤال إنصاف: إن قبل المسيحي معجزات الأناجيل، فعلى أي أساس يضع جانبًا العجائب المروية عند مزارات الأديان الأخرى؟ والسؤال صادق، وللمسيحي جواب واضح.',
+      'وهو مهم أيضًا لأن كثيرين مرّت بهم خبرات سلام في الصلاة، وحضور، واستجابة، داخل تقاليد غير مسيحية. والكنيسة لا تنكر ذلك ولا تسخر منه. بل تشير إلى الذي أعلن الله فيه ذاته إعلانًا كاملًا.',
     ],
   },
   background: {
@@ -78,8 +78,8 @@ export const article: Article = {
       argumentType: 'philosophical',
       assessment: 'strong_historical_support',
       rationale: {
-        en: 'That such reports are made is a matter of observation. The reference entries on miracles and on religious diversity both take it as a starting point.',
-        ar: 'أن هذه الروايات تُروى مسألة ملاحظة. ويأخذ المدخلان المرجعيان عن المعجزات والتنوع الديني هذا نقطة انطلاق.',
+        en: 'That such reports are made is plain to anyone who looks. The Church can acknowledge it freely, because her faith was never built on the bare fact of wonders.',
+        ar: 'أن هذه الروايات تُروى أمر واضح لكل من ينظر. وتستطيع الكنيسة أن تقر به بحرية، لأن إيمانها لم يُبنَ قط على مجرد وقوع العجائب.',
       },
       limits: {
         en: 'It says only that the reports are made. It does not say that they are true or what explains them.',
@@ -96,8 +96,8 @@ export const article: Article = {
       argumentType: 'textual',
       assessment: 'strong_historical_support',
       rationale: {
-        en: 'Deuteronomy 13 warns of a prophet whose sign comes true but whose message leads away from the Lord, and the Gospels and letters warn of false signs and false prophets. These texts are clear on the point.',
-        ar: 'يحذر سفر التثنية ١٣ من نبي تتحقق علامته لكن رسالته تبعد عن الرب، وتحذر الأناجيل والرسائل من علامات كاذبة وأنبياء كذبة. والنصوص واضحة في هذه النقطة.',
+        en: 'Deuteronomy 13 warns of a prophet whose sign comes true but whose message leads away from the Lord. The Lord Himself warns that false prophets will show great signs (Matthew 24:24), and St John tells believers to test the spirits by their confession of Christ. The texts are clear.',
+        ar: 'يحذر سفر التثنية ١٣ من نبي تتحقق علامته لكن رسالته تبعد عن الرب. ويحذر الرب نفسه من أن أنبياء كذبة سيعطون آيات عظيمة (متى ٢٤: ٢٤)، ويطلب القديس يوحنا من المؤمنين أن يمتحنوا الأرواح باعترافها بالمسيح. والنصوص واضحة.',
       },
       limits: {
         en: 'It says what the texts teach. It does not give a rule that settles every case.',
@@ -108,14 +108,14 @@ export const article: Article = {
     {
       id: 'c3',
       proposition: {
-        en: 'The Christian claim rests on one specific event, the resurrection of Christ, reported with named witnesses within the first generation, and not on the existence of miracles in general; so parallels elsewhere do not by themselves weaken it.',
-        ar: 'تقوم الدعوى المسيحية على حدث بعينه، قيامة المسيح، رُوي مع شهود مسمّين في الجيل الأول، لا على وجود المعجزات عمومًا؛ فالمشابهات في أماكن أخرى لا تضعفها بذاتها.',
+        en: 'The Christian faith rests on one specific event, the resurrection of Christ, proclaimed by named witnesses within the first generation, and not on the existence of miracles in general; so parallels elsewhere do not weaken it.',
+        ar: 'يقوم الإيمان المسيحي على حدث بعينه، قيامة المسيح، كرز به شهود مسمّون في الجيل الأول، لا على وجود المعجزات عمومًا؛ فالمشابهات في أماكن أخرى لا تضعفه.',
       },
       argumentType: 'historical',
       assessment: 'supported_disputed_details',
       rationale: {
-        en: 'St Paul grounds the Christian message on the resurrection and says that without it the faith is empty. A parallel is relevant only if it shows that the same kind of evidence exists for a rival claim, and that has to be examined for each case.',
-        ar: 'يؤسس القديس بولس الرسالة المسيحية على القيامة ويقول إنه بدونها الإيمان باطل. والمشابهة ذات صلة فقط إن أظهرت أن النوع نفسه من الدليل موجود لدعوى منافسة، وهذا يجب فحصه في كل حالة.',
+        en: 'St Paul the Apostle grounds the Christian message on the resurrection and says that without it the faith would be in vain. He names the witnesses, many of them still living when he wrote. A report elsewhere would weigh against this only if it rested on the same kind of witness, and none does.',
+        ar: 'يؤسس القديس بولس الرسول الرسالة المسيحية على القيامة ويقول إنه بدونها يكون الإيمان باطلًا. وهو يسمّي الشهود، وكثير منهم كانوا أحياء حين كتب. ولا تُوزن رواية في مكان آخر ضد هذا إلا إذا قامت على شهادة من النوع نفسه، ولا توجد رواية كذلك.',
       },
       limits: {
         en: 'Whether the evidence for the resurrection is sound is treated in the articles on the resurrection. This claim states only where the Christian argument is anchored.',
@@ -225,12 +225,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The standards should be equal, and the sceptic’s challenge is a fair one. The right response is to examine each claim on its evidence: how early the report is, how close to the event, how many witnesses, what motives they had, and what they gained or lost by it. Where a report in another tradition meets these tests, a Christian should say so; where it does not, he should say that also.',
-          'The Church does not assert that all Christian miracle reports are well established. The Church’s teaching is that few are required of belief, and that devotional stories need the same scrutiny as any others.',
+          'The standards should be equal, and the Christian welcomes that. Each claim is weighed by the same questions: how early the report is, how close to the event, how many witnesses there were, and what they gained or lost by their testimony.',
+          'Measured this way, the resurrection of Christ stands apart: proclaimed within a few years in the very city where He was buried, by witnesses who gained nothing on earth and some of whom died for it. The Church does not ask belief in every devotional story; she asks faith in the risen Lord, whose witness meets the strictest test.',
         ],
         ar: [
-          'ينبغي أن تكون المعايير متساوية، وتحدّي المتشكك عادل. والجواب الصحيح فحص كل دعوى على دليلها: كم الرواية مبكرة، وكم هي قريبة من الحدث، وكم شاهدًا، وما دوافعهم، وماذا كسبوا أو خسروا بها. وحيث تجتاز رواية في تقليد آخر هذه الاختبارات ينبغي للمسيحي أن يقول ذلك؛ وحيث لا تجتازها يقول ذلك أيضًا.',
-          'ولا تؤكد الكنيسة أن كل روايات المعجزات المسيحية ثابتة. وتعليم الكنيسة أن القليل منها مطلوب الإيمان به، وأن قصص التقوى تحتاج إلى التدقيق نفسه كغيرها.',
+          'ينبغي أن تكون المعايير متساوية، والمسيحي يرحب بذلك. فكل دعوى توزن بالأسئلة نفسها: كم الرواية مبكرة، وكم هي قريبة من الحدث، وكم شاهدًا كان، وماذا كسبوا أو خسروا بشهادتهم.',
+          'وبهذا المقياس تقف قيامة المسيح منفردة: كُرز بها خلال سنوات قليلة في المدينة نفسها التي دُفن فيها، على يد شهود لم يكسبوا شيئًا على الأرض ومات بعضهم من أجلها. والكنيسة لا تطلب الإيمان بكل قصة تقوية؛ بل الإيمان بالرب القائم، الذي تجتاز شهادته أشد الاختبارات.',
         ],
       },
       limits: {
@@ -247,12 +247,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'This is one respectable explanation and the Church does not call it foolish. Psychology and the study of religion do show that prayer, ritual and community have real effects, and the Church has always warned against taking feeling for proof.',
-          'Christians can accept that and still hold that God is present in prayer, and that he may act where he wills. They add that the argument cuts both ways: that experiences are alike does not show that they are all merely natural, and a believer may see in the resemblance a sign that God is not far from anyone. The Church does not use its own experience as an argument for its claims.',
+          'Prayer, ritual and community do have real human effects, and the Church has always warned against taking feeling for proof. But that experiences resemble one another does not show that they are merely natural. God made every person for Himself and is not far from any of us, as St Paul the Apostle told the Athenians.',
+          'The Christian faith does not rest on experience at all. It rests on what God has done in history in Jesus Christ, above all in His resurrection. Experience of God in prayer is received with thanks, but the foundation is Christ.',
         ],
         ar: [
-          'هذا تفسير محترم واحد، والكنيسة لا تصفه بالحماقة. ويُظهر علم النفس ودراسة الأديان أن للصلاة والطقس والجماعة آثارًا حقيقية، وقد حذرت الكنيسة دائمًا من أخذ الشعور برهانًا.',
-          'ويستطيع المسيحيون أن يقبلوا ذلك ويظلوا يعتقدون بأن الله حاضر في الصلاة، وأنه قد يعمل حيث يشاء. ويضيفون أن الحجة ذات حدين: فكون الخبرات متشابهة لا يُظهر أنها كلها طبيعية فقط، وللمؤمن أن يرى في التشابه علامة على أن الله ليس بعيدًا عن أحد. والكنيسة لا تستعمل خبرتها حجة لدعاواها.',
+          'للصلاة والطقس والجماعة آثار إنسانية حقيقية، وقد حذرت الكنيسة دائمًا من أخذ الشعور برهانًا. لكن تشابه الخبرات لا يُظهر أنها طبيعية فقط. فقد خلق الله كل إنسان لنفسه وهو ليس بعيدًا عن أحد منا، كما قال القديس بولس الرسول لأهل أثينا.',
+          'والإيمان المسيحي لا يقوم على الخبرة أصلًا. بل على ما صنعه الله في التاريخ في يسوع المسيح، وفوق كل شيء في قيامته. والخبرة مع الله في الصلاة تُقبل بشكر، لكن الأساس هو المسيح.',
         ],
       },
       limits: {
@@ -269,12 +269,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The point is taken. The Church does not say that sincere people are deceivers, and it does not assign that explanation to any particular case. The warning in Scripture is that signs can mislead, a warning given to Christians about themselves first, and not a verdict on others.',
-          'Many Christians prefer not to use this explanation at all, and prefer to speak of God’s grace working in ways we cannot trace. The Church does not require any explanation of each case.',
+          'The Church does not say that sincere people are deceivers, and she does not pronounce on any particular case. The warning in Scripture that signs can mislead is given to Christians about themselves first, so that they test every wonder, including their own, by Christ.',
+          'The Church can also speak of God’s grace working in ways we cannot trace. She does not need to explain every report; she needs only to point to Christ, in whom God has spoken fully.',
         ],
         ar: [
-          'الملاحظة مقبولة. فالكنيسة لا تقول إن المخلصين مخادعون، ولا تنسب هذا التفسير إلى حالة بعينها. والتحذير في الكتاب أن العلامات قد تضل، تحذير موجه إلى المسيحيين عن أنفسهم أولًا، وليس حكمًا على الآخرين.',
-          'ويفضل مسيحيون كثيرون ألا يستعملوا هذا التفسير أبدًا، ويفضلون الحديث عن نعمة الله العاملة بطرق لا نتتبعها. ولا تطلب الكنيسة تفسيرًا لكل حالة.',
+          'الكنيسة لا تقول إن المخلصين مخادعون، ولا تحكم في حالة بعينها. والتحذير في الكتاب من أن العلامات قد تضل موجه إلى المسيحيين عن أنفسهم أولًا، لكي يمتحنوا كل عجيبة، ومنها عجائبهم، بالمسيح.',
+          'وتستطيع الكنيسة أيضًا أن تتكلم عن نعمة الله العاملة بطرق لا نتتبعها. ولا تحتاج إلى تفسير كل رواية؛ بل يكفيها أن تشير إلى المسيح الذي تكلم الله فيه كلامًا كاملًا.',
         ],
       },
       limits: {
@@ -288,10 +288,10 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'Historically, each miracle claim has to be assessed on its own sources. For the Christian case the question is the resurrection: what St Paul and the Gospels report, how early they are, and what explains the rise of the Christian movement. Those questions are treated in the articles on the resurrection. For other traditions, the same historical questions can be put to their reports, and a historian who does that fairly will find that the sources differ in age, kind and closeness to the events.',
+        'Each miracle claim is assessed on its own sources, and for the Christian faith the decisive question is the resurrection: what St Paul the Apostle and the Gospels report, how early they are, and what explains the sudden rise of the Christian movement in Jerusalem. That witness is early, public and costly to those who gave it, and it is treated fully in the articles on the resurrection. The same fair questions can be put to any other report.',
       ],
       ar: [
-        'تاريخيًا، يجب تقييم كل دعوى معجزة على مصادرها هي. وفي الحالة المسيحية السؤال هو القيامة: ماذا يروي القديس بولس والأناجيل، وكم هي مبكرة، وما الذي يفسر قيام الحركة المسيحية. وتعالج مقالات القيامة هذه الأسئلة. وفي التقاليد الأخرى يمكن أن تُوجَّه الأسئلة التاريخية نفسها إلى رواياتها، والمؤرخ الذي يفعل ذلك بإنصاف سيجد أن المصادر تختلف في القدم والنوع والقرب من الأحداث.',
+        'تُقيَّم كل دعوى معجزة على مصادرها، وفي الإيمان المسيحي السؤال الحاسم هو القيامة: ماذا يروي القديس بولس الرسول والأناجيل، وكم هي مبكرة، وما الذي يفسر قيام الحركة المسيحية المفاجئ في أورشليم. وهذه الشهادة مبكرة وعلنية ومكلفة لمن قدموها، وتعالجها مقالات القيامة بالتفصيل. ويمكن توجيه الأسئلة المنصفة نفسها إلى أي رواية أخرى.',
       ],
     },
     theological: {
@@ -324,8 +324,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'Reports of miracles and of the divine are found in many religions, and sincere people in all of them are changed by their faith. A wonder does not prove a teaching, and Scripture itself says so. The Christian claim stands or falls with a particular event, the resurrection, and with the whole of what Christ taught, and each other claim should be examined on its own evidence with the same fairness.',
-    ar: 'تُوجد روايات المعجزات والإلهي في أديان كثيرة، ويتغير أناس مخلصون في كلها بإيمانهم. والعجيبة لا تثبت تعليمًا، والكتاب نفسه يقول ذلك. والدعوى المسيحية تثبت أو تسقط مع حدث بعينه، القيامة، ومع كل ما علّم به المسيح، وكل دعوى أخرى ينبغي أن تُفحص على دليلها هي بالإنصاف نفسه.',
+    en: 'Reports of wonders and of the divine are found in many religions, and the Church receives this calmly and with respect for every sincere person. A wonder does not prove a teaching, as Scripture itself says. The Christian faith rests on the resurrection of Christ, borne witness by those who saw Him risen, and on the fullness of God’s self-revelation in Him. In Him the Church invites everyone to find the God who is already near.',
+    ar: 'تُوجد روايات العجائب والإلهي في أديان كثيرة، والكنيسة تتلقى ذلك بهدوء واحترام لكل إنسان مخلص. والعجيبة لا تثبت تعليمًا، كما يقول الكتاب نفسه. والإيمان المسيحي يقوم على قيامة المسيح، التي شهد لها الذين رأوه قائمًا، وعلى ملء إعلان الله عن ذاته فيه. وفيه تدعو الكنيسة كل إنسان إلى أن يجد الإله القريب منه أصلًا.',
   },
   furtherReading: ['S41', 'S46', 'S45', 'S62'],
   related: [

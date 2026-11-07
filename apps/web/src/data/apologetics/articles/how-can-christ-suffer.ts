@@ -15,25 +15,25 @@ export const article: Article = {
     ar: 'يسأل هذا المقال: كيف تستطيع الكنيسة أن تقول إن المسيح تألم ومات وهو الله الذي لا يتألم ولا يموت في لاهوته؟ فيعرض لغة الكتاب، وطريقة الكنيسة في الكلام عن ذات واحدة تتألم بالجسد، والاعتراضات الشائعة من الفلاسفة والقراء المسلمين واليهود. ولا يتناول لماذا كان الصليب ضروريًا؛ فذلك في المقال عن التجسد والصليب والخلاص.',
   },
   shortAnswer: {
-    en: 'The Church holds that God the Word, in his divine nature, does not suffer or die, and that he truly suffered and died in the flesh that he made his own. Because the humanity belongs to the Word, what happens to the humanity happens to him, the one person: the Church can therefore say that the Lord of glory was crucified, and in the Coptic liturgy prays to the Holy God, the Holy Mighty, the Holy Immortal, who was crucified for us. His divinity did not die, and was not separated from his body in the tomb or from his soul in Hades. The Church admits that this is a mystery, and states it carefully so as to avoid saying that the divine nature itself changed.',
-    ar: 'تؤمن الكنيسة بأن الله الكلمة، في لاهوته، لا يتألم ولا يموت، وأنه تألم ومات حقًا في الجسد الذي جعله لنفسه. ولأن الناسوت للكلمة، فما يحدث للناسوت يحدث له، الشخص الواحد: ولذلك تستطيع الكنيسة أن تقول إن رب المجد صُلب، وتصلي في الصلوات الطقسية القبطية: قدوس الله، قدوس القوي، قدوس الحي الذي لا يموت، الذي صُلب عنا. ولم يمت لاهوته ولم ينفصل عن جسده في القبر ولا عن نفسه في الهاوية. وتقر الكنيسة بأن هذا سر، وتصوغه بحذر حتى لا تقول إن الطبيعة الإلهية نفسها تغيرت.',
+    en: 'God the Word, in His divine nature, does not suffer or die. Yet He truly suffered and died in the flesh that He made His own. Because that humanity belongs to the Word, what happens to it happens to Him, the one Lord. So St Paul the Apostle can say that the Lord of glory was crucified, and the Coptic Church prays to the Holy God, the Holy Mighty, the Holy Immortal, who was crucified for us. His divinity did not die, and it was not separated from His body in the tomb or from His soul in Hades. This is the great mystery of the Incarnation: the Immortal One tasted death for us, without His divine nature changing.',
+    ar: 'الله الكلمة، في لاهوته، لا يتألم ولا يموت. ومع ذلك تألم ومات حقًا في الجسد الذي جعله خاصًا به. ولأن هذا الناسوت للكلمة، فما يحدث له يحدث للكلمة نفسه، الرب الواحد. ولذلك يستطيع القديس بولس الرسول أن يقول إن رب المجد صُلب، وتصلي الكنيسة القبطية: قدوس الله، قدوس القوي، قدوس الحي الذي لا يموت، الذي صُلب عنا. ولم يمت لاهوته، ولم ينفصل عن جسده في القبر ولا عن نفسه في الهاوية. وهذا هو سر التجسد العظيم: الحي الذي لا يموت ذاق الموت عنا، دون أن تتغير طبيعته الإلهية.',
   },
   quickPoints: {
     en: [
-      'The Gospels show Jesus truly suffering: agony in Gethsemane, scourging, crucifixion, a real death.',
-      'The Church affirms that the divine nature is impassible, that is, not subject to change or pain, and that the Word suffered in the flesh.',
-      'The New Testament itself says that the Lord of glory was crucified and that God purchased the Church with his own blood.',
-      'The Coptic Church’s Trisagion says that the Holy Immortal was crucified for us.',
-      'His divinity was not separated from his body or soul at death; what died was the humanity, and the Word was not changed.',
-      'Muslim and Jewish readers raise the objection that God cannot die; the answer depends on the distinction between natures.',
+      'The Gospels show Jesus truly suffering: agony in Gethsemane, scourging, crucifixion and a real death.',
+      'The divine nature is impassible, that is, not subject to change or pain; the Word suffered in the flesh.',
+      'The New Testament itself says that the Lord of glory was crucified and that God purchased the Church with His own blood.',
+      'The Coptic Trisagion confesses that the Holy Immortal was crucified for us.',
+      'His divinity never left His body or soul at death; the humanity died, and the Word was not changed.',
+      'When Muslim and Jewish readers say that God cannot die, the Church agrees about the divine nature, and confesses that the Word died in His flesh.',
     ],
     ar: [
-      'تُظهر الأناجيل يسوع يتألم حقًا: كرب في جثسيماني، وجلد، وصلب، وموتًا حقيقيًا.',
-      'تؤكد الكنيسة أن الطبيعة الإلهية لا تتألم، أي لا تخضع للتغير أو الألم، وأن الكلمة تألم بالجسد.',
+      'تُظهر الأناجيل يسوع يتألم حقًا: كرب في جثسيماني، وجلد، وصلب، وموت حقيقي.',
+      'الطبيعة الإلهية لا تتألم، أي لا تخضع للتغير أو الألم؛ والكلمة تألم بالجسد.',
       'يقول العهد الجديد نفسه إن رب المجد صُلب، وإن الله اقتنى الكنيسة بدمه الخاص.',
-      'تقول تقديسية الكنيسة القبطية إن الحي الذي لا يموت صُلب عنا.',
-      'لم ينفصل لاهوته عن جسده ولا عن نفسه عند الموت؛ ما مات هو الناسوت، ولم يتغير الكلمة.',
-      'يثير قراء مسلمون ويهود اعتراض أن الله لا يموت؛ والجواب يعتمد على التمييز بين الطبيعتين.',
+      'تعترف التقديسية القبطية بأن الحي الذي لا يموت صُلب عنا.',
+      'لم يفارق لاهوته جسده ولا نفسه عند الموت؛ الناسوت هو الذي مات، والكلمة لم يتغير.',
+      'حين يقول قراء مسلمون ويهود إن الله لا يموت، تتفق الكنيسة معهم في الطبيعة الإلهية، وتعترف بأن الكلمة مات بجسده.',
     ],
   },
   argumentTypes: ['theological', 'textual', 'philosophical'],
@@ -47,12 +47,12 @@ export const article: Article = {
 
   whyExamine: {
     en: [
-      'The idea that God was crucified shocks many hearers. For Jews and Muslims it can sound like a plain violation of what it means to be God; for philosophers it raises the old problem of an unchanging God and a changing world.',
-      'The question also matters inside the Church. It decides whether Christ’s death is only the death of a good man or the act of God himself. The Coptic Church’s way of speaking, which sets the cross in the centre of its worship, depends on the answer.',
+      'The words “God was crucified” shock many hearers. To Jews and Muslims they can sound like a denial of what it means to be God; to philosophers they raise the old question of an unchanging God in a changing world. A clear statement of what the Church confesses removes much of the misunderstanding.',
+      'The question matters inside the Church too. It decides whether the death of Christ is only the death of a good man or the saving act of God Himself. The Coptic Church places the cross at the centre of her worship because the answer is the second.',
     ],
     ar: [
-      'تصدم فكرة أن الله صُلب كثيرًا من السامعين. وقد تبدو لليهود والمسلمين انتهاكًا صريحًا لمعنى أن يكون المرء إلهًا؛ وهي عند الفلاسفة تثير المشكلة القديمة عن إله لا يتغير وعالم يتغير.',
-      'والسؤال مهم داخل الكنيسة أيضًا. فهو يحدد هل موت المسيح موت رجل صالح فقط أم فعل الله نفسه. وطريقة الكنيسة القبطية في الكلام، التي تضع الصليب في مركز عبادتها، تتوقف على الجواب.',
+      'تصدم عبارة «الله صُلب» كثيرًا من السامعين. فقد تبدو لليهود والمسلمين إنكارًا لمعنى أن يكون الله إلهًا؛ وتثير عند الفلاسفة السؤال القديم عن إله لا يتغير في عالم يتغير. وبيان واضح لما تعترف به الكنيسة يزيل كثيرًا من سوء الفهم.',
+      'والسؤال مهم داخل الكنيسة أيضًا. فهو يحدد هل موت المسيح موت رجل صالح فقط أم فعل الله الخلاصي نفسه. والكنيسة القبطية تضع الصليب في مركز عبادتها لأن الجواب هو الثاني.',
     ],
   },
   background: {
@@ -73,14 +73,14 @@ export const article: Article = {
     {
       id: 'C1',
       proposition: {
-        en: 'The New Testament presents Jesus as truly suffering and dying, and also speaks of the one who suffered in terms that the Church takes to be divine.',
-        ar: 'يعرض العهد الجديد يسوع متألمًا وميتًا حقًا، ويتكلم أيضًا عن المتألم بألفاظ تعدّها الكنيسة إلهية.',
+        en: 'The New Testament presents Jesus as truly suffering and dying, and speaks of the one who suffered in divine terms.',
+        ar: 'يعرض العهد الجديد يسوع متألمًا وميتًا حقًا، ويتكلم عن المتألم بألفاظ إلهية.',
       },
       argumentType: 'textual',
       assessment: 'supported_disputed_details',
       rationale: {
-        en: 'The passages are clear in their wording. Whether Acts 20:28 speaks of the blood of God or of his own, and whether 1 Corinthians 2:8 implies the divinity of the one crucified, is discussed by commentators.',
-        ar: 'المقاطع واضحة في ألفاظها. ويناقش المفسرون هل تتكلم أعمال ٢٠: ٢٨ عن دم الله أم عن دمه هو، وهل تتضمن ١ كورنثوس ٢: ٨ لاهوت المصلوب.',
+        en: 'St Paul writes that the rulers of this age crucified the Lord of glory (1 Corinthians 2:8), and in Acts 20:28 the Church is said to be purchased by God with His own blood. The apostles did not hesitate to name the crucified one as Lord and God.',
+        ar: 'يكتب القديس بولس أن عظماء هذا الدهر صلبوا رب المجد (١ كورنثوس ٢: ٨)، وفي أعمال ٢٠: ٢٨ يُقال إن الله اقتنى الكنيسة بدمه الخاص. ولم يتردد الرسل في تسمية المصلوب ربًّا وإلهًا.',
       },
       limits: {
         en: 'Textual variants and alternative readings are discussed by scholars; the article presents the Church’s reading as such.',
@@ -91,14 +91,14 @@ export const article: Article = {
     {
       id: 'C2',
       proposition: {
-        en: 'The Church’s statement is that the Word suffered and died in the flesh, and that his divine nature did not change or die.',
-        ar: 'بيان الكنيسة أن الكلمة تألم ومات بالجسد، وأن طبيعته الإلهية لم تتغير ولم تمت.',
+        en: 'The Word suffered and died in the flesh, and His divine nature did not change or die.',
+        ar: 'الكلمة تألم ومات بالجسد، وطبيعته الإلهية لم تتغير ولم تمت.',
       },
       argumentType: 'theological',
       assessment: 'theological_interpretation',
       rationale: {
-        en: 'This is what the Fathers, including Athanasius and Cyril, teach, and what the Coptic liturgy prays. It keeps the person one and the natures distinct.',
-        ar: 'هذا ما يعلّمه الآباء، ومنهم أثناسيوس وكيرلس، وما تصليه الصلوات الطقسية القبطية. فهو يحفظ وحدة الشخص وتمايز الطبيعتين.',
+        en: 'This is the teaching of the Fathers, St Athanasius and St Cyril of Alexandria above all, and the prayer of the Coptic liturgy. It keeps the one person of Christ undivided and the divinity and humanity without confusion.',
+        ar: 'هذا تعليم الآباء، وفي مقدمتهم القديس أثناسيوس والقديس كيرلس السكندري، وصلاة القداس القبطي. وهو يحفظ شخص المسيح الواحد بلا انقسام، واللاهوت والناسوت بلا اختلاط.',
       },
       limits: {
         en: 'The statement is a doctrine held in faith, and it is not shown by historical argument.',
@@ -109,14 +109,14 @@ export const article: Article = {
     {
       id: 'C3',
       proposition: {
-        en: 'The language is not a formal contradiction, because it predicates suffering of the person according to the humanity and immutability of the person according to the divinity.',
-        ar: 'اللغة ليست تناقضًا صوريًا، لأنها تنسب الألم إلى الشخص بحسب الناسوت وعدم التغير إلى الشخص بحسب اللاهوت.',
+        en: 'This language is not a contradiction: suffering is said of the one person according to His humanity, and changelessness according to His divinity.',
+        ar: 'هذه اللغة ليست تناقضًا: فالألم يُنسب إلى الشخص الواحد بحسب ناسوته، وعدم التغير بحسب لاهوته.',
       },
       argumentType: 'philosophical',
       assessment: 'philosophical_argument',
       rationale: {
-        en: 'The claim concerns different natures of one subject. Philosophers differ on whether a subject can be said to suffer through one nature while being unchanged in another, and on whether the divine impassibility must be maintained in the first place.',
-        ar: 'تتعلق الدعوى بطبيعتين لذات واحدة. ويختلف الفلاسفة في هل يمكن القول إن ذاتًا تتألم بطبيعة وهي لا تتغير في أخرى، وفي هل يجب أصلًا التمسك بعدم تألم الله.',
+        en: 'A contradiction would assert and deny the same thing in the same respect. Here the respects differ. Even a human being is one subject who both feels bodily pain and thinks; in the same way the one Lord suffers in His flesh while remaining unchanged as God.',
+        ar: 'التناقض أن يُثبت الشيء ويُنفى من الوجه نفسه. وهنا الوجهان مختلفان. فحتى الإنسان ذات واحدة تحس بالألم الجسدي وتفكر معًا؛ وكذلك الرب الواحد يتألم بجسده ويبقى بلا تغيّر بوصفه الله.',
       },
       limits: {
         en: 'Some Christian philosophers hold that God can suffer in some sense; the Coptic Church’s language is cautious about this.',
@@ -210,12 +210,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The Church agrees that the divine nature does not suffer or die. Its claim is different: that the Word, who is God, took a human nature that can suffer and die, and that the suffering and death happened in that nature while the person is the Word. It does not say that the divine nature died.',
-          'The objector may reply that a person cannot suffer in one nature and be impassible in another. That is a real philosophical question, and the Church answers that the same person can act and be acted upon according to different natures, as a human person is the subject of both bodily pain and of thought.',
+          'The Church agrees that the divine nature does not suffer or die. It confesses something else: that the Word, who is God, took a human nature that can suffer and die, and that the suffering and death happened in that nature, while the one who suffered is the Word Himself. The Church never says that the divine nature died.',
+          'One person can act and be acted upon according to different natures. A human being is the subject of both bodily pain and of thought. In the same way, the Word suffers in His flesh and remains, as God, beyond suffering. There is no need to choose between His divinity and His passion.',
         ],
         ar: [
-          'تتفق الكنيسة على أن الطبيعة الإلهية لا تتألم ولا تموت. ودعواها مختلفة: أن الكلمة، الذي هو الله، اتخذ طبيعة بشرية تستطيع أن تتألم وتموت، وأن الألم والموت حدثا في تلك الطبيعة والشخص هو الكلمة. ولا تقول إن الطبيعة الإلهية ماتت.',
-          'وقد يرد المعترض بأن الشخص لا يستطيع أن يتألم بطبيعة ويكون غير متألم بأخرى. وهذا سؤال فلسفي حقيقي، وتجيب الكنيسة بأن الشخص نفسه يستطيع أن يفعل ويُفعل به بحسب طبيعتين مختلفتين، كما أن الشخص البشري هو ذات الألم الجسدي والتفكير معًا.',
+          'تتفق الكنيسة على أن الطبيعة الإلهية لا تتألم ولا تموت. وهي تعترف بأمر آخر: أن الكلمة، الذي هو الله، اتخذ طبيعة بشرية تستطيع أن تتألم وتموت، وأن الألم والموت حدثا في تلك الطبيعة، والمتألم هو الكلمة نفسه. ولا تقول الكنيسة أبدًا إن الطبيعة الإلهية ماتت.',
+          'والشخص الواحد يستطيع أن يفعل ويُفعل به بحسب طبيعتين مختلفتين. فالإنسان ذات الألم الجسدي والتفكير معًا. وكذلك الكلمة يتألم بجسده ويبقى، بوصفه الله، فوق الألم. فلا حاجة إلى الاختيار بين لاهوته وآلامه.',
         ],
       },
       limits: {
@@ -232,12 +232,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'Muslims hold that God is living and does not die, which is also the Church’s teaching about the divine nature. On the crucifixion, the Qur’anic text and its interpretation are discussed in the article on Qur’an 4:157; here it is enough to say that the historical evidence for the crucifixion of Jesus comes from Roman and Jewish sources as well as Christian ones, and that Muslim readers differ on how to read the verse.',
-          'The Church does not ask Muslims to accept the incarnation on the ground that it is understood. It asks that it be stated correctly: not that the Eternal ceased to be, but that the Word suffered in the flesh.',
+          'Muslims hold that God is living and does not die, and so does the Church about the divine nature. On the crucifixion itself, the article on Qur’an 4:157 discusses the verse. Here it is enough to say that the crucifixion of Jesus is reported by Roman and Jewish sources as well as Christian ones.',
+          'What the Church asks is that its faith be stated correctly: not that the Eternal ceased to be, but that the eternal Word suffered in the flesh He took for our salvation.',
         ],
         ar: [
-          'يؤمن المسلمون بأن الله حي لا يموت، وهذا أيضًا تعليم الكنيسة عن الطبيعة الإلهية. وفي الصلب يُناقش نص القرآن وتفسيره في المقال عن القرآن ٤: ١٥٧؛ وكفى هنا أن نقول إن الشاهد التاريخي على صلب يسوع يأتي من مصادر رومانية ويهودية كما من مسيحية، وإن القراء المسلمين يختلفون في كيفية قراءة الآية.',
-          'ولا تطلب الكنيسة من المسلمين قبول التجسد لأنه مفهوم. إنها تطلب أن يُعرض عرضًا صحيحًا: لا أن الأزلي توقف عن الوجود، بل أن الكلمة تألم بالجسد.',
+          'يؤمن المسلمون بأن الله حي لا يموت، وهكذا تؤمن الكنيسة عن الطبيعة الإلهية. أما الصلب نفسه فيناقش المقال عن القرآن ٤: ١٥٧ الآية. ويكفي هنا أن نقول إن صلب يسوع ترويه مصادر رومانية ويهودية كما ترويه المصادر المسيحية.',
+          'وما تطلبه الكنيسة أن يُعرض إيمانها عرضًا صحيحًا: لا أن الأزلي توقف عن الوجود، بل أن الكلمة الأزلي تألم بالجسد الذي اتخذه لخلاصنا.',
         ],
       },
       limits: {
@@ -254,12 +254,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The Church answers that the humanity does not exist apart from the Word. The one who suffered is the Word in his own flesh, so the act belongs to God and not only to a man. This is why Cyril insisted against Nestorius that one must say that God the Word suffered in the flesh.',
-          'This reply is a doctrine of the person of Christ; whether the death of Jesus has saving value is considered in the article on the incarnation, cross and salvation.',
+          'The humanity of Christ never existed apart from the Word. The one who suffered is the Word in His own flesh, so the act belongs to God and not merely to a man. This is why St Cyril of Alexandria insisted, against Nestorius, that God the Word suffered in the flesh.',
+          'That is what gives the cross its saving power: the death of Christ is the death of the Lord of life, freely offered. The article on the incarnation, cross and salvation explains how this death saves.',
         ],
         ar: [
-          'تجيب الكنيسة بأن الناسوت لا يوجد منفصلًا عن الكلمة. فالذي تألم هو الكلمة في جسده الخاص، ولذلك فالفعل لله لا لإنسان فقط. ولهذا أصر كيرلس في وجه نسطور على أن يُقال إن الله الكلمة تألم بالجسد.',
-          'وهذا الجواب عقيدة في شخص المسيح؛ أما هل لموت يسوع قيمة خلاصية فينظر فيه المقال عن التجسد والصليب والخلاص.',
+          'لم يوجد ناسوت المسيح قط منفصلًا عن الكلمة. فالذي تألم هو الكلمة في جسده الخاص، ولذلك فالفعل لله لا لإنسان فقط. ولهذا أصر القديس كيرلس السكندري في وجه نسطور على أن الله الكلمة تألم بالجسد.',
+          'وهذا ما يعطي الصليب قوته الخلاصية: فموت المسيح موت رب الحياة، مبذولًا بإرادته. ويشرح المقال عن التجسد والصليب والخلاص كيف يخلّص هذا الموت.',
         ],
       },
       limits: {
@@ -273,12 +273,12 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'Historically, a Christian can say that the sufferings and death of Jesus are among the best attested facts about him, and that the first Christians spoke of the crucified one as Lord, in the earliest letters of St Paul. The scandal of a crucified Lord was felt by them and by their opponents, and it is not a later invention.',
-        'A Christian can also say that the language of the natures, in which suffering belongs to the flesh and impassibility to the divinity, is the Church’s later attempt to describe that pattern carefully.',
+        'The sufferings and death of Jesus are among the best attested facts about Him, and in the earliest letters of St Paul the first Christians already speak of the crucified one as Lord. They and their opponents felt the scandal of a crucified Lord, so this confession is no later invention.',
+        'The Church’s language of the natures, in which suffering belongs to the flesh and impassibility to the divinity, sets out with care what the apostles proclaimed from the beginning.',
       ],
       ar: [
-        'يستطيع المسيحي تاريخيًا أن يقول إن آلام يسوع وموته من أوثق الوقائع عنه، وإن المسيحيين الأوائل تكلموا عن المصلوب ربًّا، في أقدم رسائل القديس بولس. وقد أحسوا هم وخصومهم بعثرة رب مصلوب، وهي ليست اختراعًا لاحقًا.',
-        'ويستطيع أن يقول أيضًا إن لغة الطبيعتين، حيث الألم للجسد وعدم التألم للاهوت، هي محاولة الكنيسة اللاحقة لوصف ذلك النمط بدقة.',
+        'آلام يسوع وموته من أوثق الوقائع عنه، وفي أقدم رسائل القديس بولس يتكلم المسيحيون الأوائل عن المصلوب ربًّا. وقد أحسوا هم وخصومهم بعثرة رب مصلوب، فهذا الاعتراف ليس اختراعًا لاحقًا.',
+        'ولغة الكنيسة عن الطبيعتين، حيث الألم للجسد وعدم التألم للاهوت، تعرض بعناية ما كرز به الرسل منذ البدء.',
       ],
     },
     theological: {
@@ -315,8 +315,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'The Church says that the Word of God suffered and died in the flesh that he made his own, while his divine nature did not change. This is how it can pray to the Holy Immortal who was crucified for us. It is a mystery of faith, stated carefully, and not a claim that the divine nature died.',
-    ar: 'تقول الكنيسة إن كلمة الله تألم ومات بالجسد الذي جعله لنفسه، بينما لم تتغير طبيعته الإلهية. وبهذا تستطيع أن تصلي إلى القدوس الحي الذي لا يموت الذي صُلب عنا. وهو سر إيمان، يُصاغ بحذر، وليس دعوى أن الطبيعة الإلهية ماتت.',
+    en: 'The Word of God suffered and died in the flesh that He made His own, while His divine nature did not change. That is why the Church prays to the Holy Immortal who was crucified for us. The one who hung on the cross is the Lord of glory, and His death, freely accepted, is the death that destroyed death.',
+    ar: 'كلمة الله تألم ومات بالجسد الذي جعله خاصًا به، بينما لم تتغير طبيعته الإلهية. ولهذا تصلي الكنيسة إلى القدوس الحي الذي لا يموت الذي صُلب عنا. فالمعلّق على الصليب هو رب المجد، وموته الذي قبله بإرادته هو الموت الذي أباد الموت.',
   },
   furtherReading: ['S52', 'S53', 'S55', 'S62'],
   related: ['divine-and-human-christ', 'incarnation-cross-salvation', 'miaphysite-christology', 'jesus-executed-under-pilate', 'quran-4-157-and-crucifixion', 'why-theotokos'],

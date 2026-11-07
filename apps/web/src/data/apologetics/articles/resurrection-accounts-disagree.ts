@@ -15,23 +15,23 @@ export const article: Article = {
     ar: 'أين تختلف روايات العهد الجديد عن قيامة يسوع، وهل يمكن التوفيق بين الاختلافات، وماذا تبين وماذا لا تبين عن الدعوى المركزية. ولا يحاجّ المقال بأن القيامة حدثت.',
   },
   shortAnswer: {
-    en: 'The accounts differ in real ways: who went to the tomb, how many messengers there were and what they said, where the disciples were sent and where they met Jesus, whether the appearances took place in Jerusalem or in Galilee, and whether the ascension was on the day of the resurrection or after forty days. They agree on the core: Jesus died and was buried, the tomb was found empty on the first day of the week by women, and he was seen alive by his followers. Differences of this kind are common when several writers report the same event, and ancient historians were not troubled by them in the way a modern court transcript would be. The differences show that the accounts were not smoothed into one, and they limit what can be said with confidence about the sequence. They do not remove the core, but they remove the right to claim a simple harmony.',
-    ar: 'تختلف الروايات اختلافات حقيقية: من ذهب إلى القبر، وكم كان الرسل وماذا قالوا، وإلى أين أُرسل التلاميذ وأين لقوا يسوع، وهل حدثت الظهورات في أورشليم أو في الجليل، وهل كان الصعود يوم القيامة أو بعد أربعين يومًا. وتتفق على اللب: مات يسوع ودُفن، ووجدت نساء القبر فارغًا في أول الأسبوع، ورآه أتباعه حيًّا. والاختلافات من هذا النوع معتادة حين يروي عدة كتّاب الحدث نفسه، ولم يكن المؤرخون القدماء يتحرجون منها كما يتحرج محضر محكمة حديثة. وتبين الاختلافات أن الروايات لم تُصقل في واحدة، وتحد مما يمكن قوله بثقة عن التسلسل. ولا تزيل اللب، لكنها تزيل الحق في ادعاء توافق بسيط.',
+    en: 'The four Gospels tell the resurrection each in its own way. They differ in details: which women went to the tomb, how many angels they saw, and where the risen Lord met the disciples. But they agree completely on what matters: Jesus died and was buried, women found the tomb empty on the first day of the week, and He appeared alive to His disciples. Differences of detail are exactly what we expect from honest witnesses telling the same event independently; a story agreed in advance would read the same in every telling. The differences show that the accounts were not smoothed into one, and so they strengthen the witness of the core. Christ is risen, and all four Gospels say so.',
+    ar: 'يروي كل من الأناجيل الأربعة القيامة بطريقته الخاصة. وهي تختلف في التفاصيل: أي النساء ذهبن إلى القبر، وكم ملاكًا رأين، وأين التقى الرب القائم بالتلاميذ. لكنها تتفق تمامًا فيما يهم: مات يسوع ودُفن، ووجدت النساء القبر فارغًا في أول الأسبوع، وظهر حيًّا لتلاميذه. واختلاف التفاصيل هو بالضبط ما ننتظره من شهود صادقين يروون الحدث نفسه باستقلال؛ أما القصة المتفق عليها مسبقًا فتأتي متطابقة في كل رواية. والاختلافات تبيّن أن الروايات لم تُصقل في رواية واحدة، ولذلك تقوّي شهادتها للجوهر. المسيح قام، والأناجيل الأربعة تقول ذلك.',
   },
   quickPoints: {
     en: [
-      'Agreed: Jesus was buried; women went to the tomb on the first day of the week; it was found empty; his followers said they saw him alive.',
-      'Different: the names and number of the women, one or two angelic figures, whether the stone was already moved, and who entered the tomb.',
-      'Different: Galilee in Mark and Matthew, Jerusalem in Luke and in most of John, with a later Galilee scene in John 21.',
-      'Different: St Paul\'s list includes persons the Gospels never mention and omits the women the Gospels name.',
-      'Harmonisations exist, from the Diatessaron to modern attempts. Some are plausible and none is accepted by everyone, so the article does not rest anything on them.',
+      'Agreed by all four: Jesus was buried; women went to the tomb on the first day of the week; it was found empty; He was seen alive by His followers.',
+      'Different: the names and number of the women, one or two angels, whether the stone was already moved, and who entered the tomb.',
+      'Different: Galilee in Mark and Matthew, Jerusalem in Luke, and both in John, which shows that the Lord appeared in both places.',
+      'St Paul’s list adds appearances the Gospels do not narrate, such as to James and to more than five hundred, and meets St Luke on the appearance to Simon Peter.',
+      'Honest witnesses differ in details and agree on the core; that is the pattern of the resurrection accounts.',
     ],
     ar: [
-      'المتفق عليه: دُفن يسوع؛ وذهبت نساء إلى القبر في أول الأسبوع؛ ووُجد فارغًا؛ وقال أتباعه إنهم رأوه حيًّا.',
-      'المختلف: أسماء النساء وعددهن، وظهور ملاك واحد أو اثنين، وهل كان الحجر مدحرجًا من قبل، ومن دخل القبر.',
-      'المختلف: الجليل في مرقس ومتى، وأورشليم في لوقا ومعظم يوحنا، مع مشهد جليلي لاحق في يوحنا ٢١.',
-      'المختلف: قائمة القديس بولس تتضمن أشخاصًا لا تذكرهم الأناجيل وتغفل النساء اللواتي تسميهن الأناجيل.',
-      'توجد توفيقات، من الدياتسارون إلى محاولات حديثة. بعضها معقول ولا يقبل أحدها الجميع، فلا يبني المقال عليها شيئًا.',
+      'تتفق الأربعة على: دُفن يسوع؛ وذهبت نساء إلى القبر في أول الأسبوع؛ ووُجد فارغًا؛ ورآه أتباعه حيًّا.',
+      'تختلف في: أسماء النساء وعددهن، وملاك واحد أو اثنين، وهل كان الحجر قد دُحرج، ومن دخل القبر.',
+      'تختلف في: الجليل عند مرقس ومتى، وأورشليم عند لوقا، وكلاهما عند يوحنا، مما يبيّن أن الرب ظهر في المكانين.',
+      'تضيف قائمة القديس بولس ظهورات لا ترويها الأناجيل، كظهوره ليعقوب ولأكثر من خمسمائة، وتلتقي بالقديس لوقا في الظهور لسمعان بطرس.',
+      'الشهود الصادقون يختلفون في التفاصيل ويتفقون في الجوهر؛ وهذا هو نمط روايات القيامة.',
     ],
   },
   argumentTypes: ['textual', 'historical'],
@@ -44,22 +44,22 @@ export const article: Article = {
   },
   whyExamine: {
     en: [
-      'Disagreement among the accounts is one of the commonest objections to the resurrection, and one of the commonest sources of anxiety for believers who find it for the first time. It deserves a plain answer.',
-      'The question is also about method: how much disagreement is normal in ancient reports of a single event, what is the difference between disagreement on a detail and disagreement on the core, and what counts as an honest way of treating the evidence.',
+      'Differences among the accounts are one of the commonest objections to the resurrection, and they can trouble believers who notice them for the first time. They deserve a plain answer.',
+      'The answer also teaches a sound way of reading: how witnesses to one event normally differ, the difference between a detail and the core, and why the Church has always kept four Gospels side by side rather than one blended story.',
     ],
     ar: [
-      'اختلاف الروايات من أكثر الاعتراضات شيوعًا على القيامة، ومن أكثر أسباب القلق عند المؤمنين الذين يجدونه أول مرة. وهو يستحق جوابًا صريحًا.',
-      'والسؤال سؤال منهج أيضًا: كم من الاختلاف معتاد في الأخبار القديمة عن حدث واحد، وما الفرق بين اختلاف في تفصيل واختلاف في اللب، وما الطريقة الأمينة في معالجة الشواهد.',
+      'الاختلافات بين الروايات من أكثر الاعتراضات شيوعًا على القيامة، وقد تقلق المؤمنين الذين يلاحظونها لأول مرة. وهي تستحق جوابًا واضحًا.',
+      'والجواب يعلّم أيضًا طريقة سليمة في القراءة: كيف يختلف شهود الحدث الواحد عادةً، والفرق بين التفصيل والجوهر، ولماذا حفظت الكنيسة دائمًا أربعة أناجيل جنبًا إلى جنب لا قصة واحدة ممزوجة.',
     ],
   },
   background: {
     en: [
-      'Four narratives of the empty tomb and appearances are in the Gospels, and a fifth, shorter and earlier, is in St Paul. Mark is usually dated around AD 70, Matthew and Luke somewhat later, and John later still, though the dates are debated. Matthew and Luke seem to have known Mark, and John appears to be independent of the others to a degree that is debated.',
+      'Four narratives of the empty tomb and appearances are in the Gospels, and a fifth, shorter and earlier, is in St Paul. Mark is dated around AD 70, Matthew and Luke somewhat later, and John later still. Matthew and Luke share much of Mark’s material, and John tells the story independently.',
       'The ending of Mark is textually uncertain. The earliest manuscripts end at 16:8 with the women afraid, and a longer ending in 16:9–20 appears in later manuscripts. The longer ending is a separate question and is not used here.',
       'The ancient world had a different standard for accounts of events from the one a modern court uses. A writer was expected to be faithful to the main course of events, and free in the choice, order and wording of details. Differences between Greek and Roman historians on a single event, such as speeches or the order of episodes, are common, and so the existence of differences does not by itself lead a historian to doubt that an event took place.',
     ],
     ar: [
-      'في الأناجيل أربع روايات عن القبر الفارغ والظهورات، وخامسة أقصر وأقدم عند القديس بولس. ويؤرَّخ مرقس عادة نحو سنة ٧٠م، ومتى ولوقا بعد ذلك بقليل، ويوحنا بعدهما، مع نقاش في التواريخ. ويبدو أن متى ولوقا عرفا مرقس، ويبدو يوحنا مستقلًا عن الآخرين بدرجة مختلف فيها.',
+      'في الأناجيل أربع روايات عن القبر الفارغ والظهورات، وخامسة أقصر وأقدم عند القديس بولس. ويؤرَّخ مرقس نحو سنة ٧٠م، ومتى ولوقا بعد ذلك بقليل، ويوحنا بعدهما. ويشترك متى ولوقا في كثير من مادة مرقس، ويروي يوحنا القصة مستقلًا.',
       'وخاتمة مرقس غير مؤكدة نصيًا. فتنتهي أقدم المخطوطات عند ١٦: ٨ بخوف النساء، وتظهر خاتمة أطول في ١٦: ٩–٢٠ في مخطوطات لاحقة. والخاتمة الأطول مسألة منفصلة ولا تُستعمل هنا.',
       'وكان للعالم القديم معيار في رواية الأحداث غير المعيار الذي تستعمله محكمة حديثة. فكان يُتوقع من الكاتب أن يكون أمينًا للمسار الرئيس للأحداث، وحرًّا في اختيار التفاصيل وترتيبها وألفاظها. والفروق بين المؤرخين اليونان والرومان في حدث واحد، كالخطب وترتيب الأحداث، معتادة، فوجود الفروق لا يقود المؤرخ وحده إلى الشك في وقوع الحدث.',
     ],
@@ -70,14 +70,14 @@ export const article: Article = {
     {
       id: 'c1',
       proposition: {
-        en: 'The Gospel accounts of the empty tomb and appearances differ on many details of persons, number, place and sequence.',
-        ar: 'تختلف روايات الأناجيل عن القبر الفارغ والظهورات في تفاصيل كثيرة من الأشخاص والعدد والمكان والتسلسل.',
+        en: 'The Gospel accounts of the empty tomb and the appearances differ in details of persons, number, place and sequence.',
+        ar: 'تختلف روايات الأناجيل عن القبر الفارغ والظهورات في تفاصيل الأشخاص والعدد والمكان والترتيب.',
       },
       argumentType: 'textual',
       assessment: 'strong_historical_support',
       rationale: {
-        en: 'This is shown by reading the passages side by side. Mark names three women, Matthew two, Luke names three and adds others, and John names one. The messengers are a young man, an angel, two men, and two angels. The visit takes place at dawn, at sunrise or while it was still dark.',
-        ar: 'يتبين ذلك بقراءة النصوص جنبًا إلى جنب. يسمي مرقس ثلاث نساء، ومتى اثنتين، ولوقا ثلاثًا ويضيف أخريات، ويوحنا واحدة. والرسل شاب وملاك ورجلان وملاكان. والزيارة عند الفجر أو طلوع الشمس أو والظلام باقٍ.',
+        en: 'Reading the passages side by side shows it. St Mark names three women, St Matthew two, St Luke three and others with them, and St John one. The messengers are a young man, an angel, two men, and two angels. The visit is at dawn, at sunrise, or while it was still dark. Each evangelist tells the event in his own words and from his own sources.',
+        ar: 'تظهر ذلك قراءة النصوص جنبًا إلى جنب. فالقديس مرقس يسمّي ثلاث نساء، والقديس متى اثنتين، والقديس لوقا ثلاثًا ومعهن أخريات، والقديس يوحنا واحدة. والرسل شاب، وملاك، ورجلان، وملاكان. والزيارة عند الفجر، أو عند طلوع الشمس، أو والظلام باقٍ. وكل إنجيلي يروي الحدث بكلماته ومن مصادره.',
       },
       limits: {
         en: 'It does not say which, if any, is correct on each point.',
@@ -88,14 +88,14 @@ export const article: Article = {
     {
       id: 'c2',
       proposition: {
-        en: 'Despite the differences, all four Gospels agree on a burial, women at the tomb on the first day of the week, an empty tomb, and later encounters with the risen Jesus.',
-        ar: 'رغم الاختلافات، تتفق الأناجيل الأربعة على الدفن، ونساء عند القبر في أول الأسبوع، وقبر فارغ، ولقاءات لاحقة مع يسوع القائم.',
+        en: 'All four Gospels agree on the burial, the women at the tomb on the first day of the week, the empty tomb, and the appearances of the risen Jesus.',
+        ar: 'تتفق الأناجيل الأربعة على الدفن، ووجود النساء عند القبر في أول الأسبوع، والقبر الفارغ، وظهورات يسوع القائم.',
       },
       argumentType: 'textual',
       assessment: 'strong_historical_support',
       rationale: {
-        en: 'The agreement is on the structure of the story and not on its detail. Matthew and Luke follow Mark in the structure, so their agreement is not independent, but John\'s version, which differs most in detail, keeps the same outline.',
-        ar: 'الاتفاق على بنية القصة لا على تفاصيلها. ويتبع متى ولوقا مرقس في البنية، فاتفاقهما ليس مستقلًا، لكن رواية يوحنا، وهي الأكثر اختلافًا في التفاصيل، تحفظ المخطط نفسه.',
+        en: 'The agreement is on the whole shape of the event. St John’s account, which differs most in detail and does not depend on the others in the same way, keeps exactly the same outline. Where the witnesses differ most in wording, they agree on the facts.',
+        ar: 'الاتفاق على شكل الحدث كله. فرواية القديس يوحنا، وهي الأكثر اختلافًا في التفاصيل ولا تعتمد على غيرها بالطريقة نفسها، تحفظ الخطوط نفسها تمامًا. فحيث يختلف الشهود أكثر في الألفاظ، يتفقون في الوقائع.',
       },
       limits: {
         en: 'Agreement among dependent narratives counts for less than agreement among independent ones.',
@@ -106,14 +106,14 @@ export const article: Article = {
     {
       id: 'c3',
       proposition: {
-        en: 'Luke and Matthew differ on the location of the appearances, and the difference between Jerusalem and Galilee cannot be settled from the texts alone.',
-        ar: 'يختلف لوقا ومتى في مكان الظهورات، ولا يمكن حسم الفرق بين أورشليم والجليل من النصوص وحدها.',
+        en: 'The appearances took place both in Jerusalem and in Galilee; St Luke tells of those in Jerusalem, St Matthew of the one in Galilee, and St John of both.',
+        ar: 'جرت الظهورات في أورشليم وفي الجليل معًا؛ فالقديس لوقا يروي ما كان في أورشليم، والقديس متى ما كان في الجليل، والقديس يوحنا يروي الاثنين.',
       },
       argumentType: 'textual',
       assessment: 'actively_debated',
       rationale: {
-        en: 'In Mark and Matthew the disciples are told to go to Galilee, and Matthew has them meet Jesus there. In Luke the disciples are told to stay in the city, and the appearances take place in and around Jerusalem. John has both. Some propose that the appearances happened in both places, Jerusalem first and Galilee later, and others think one account was shaped by the writer\'s purposes.',
-        ar: 'في مرقس ومتى يُقال للتلاميذ أن يذهبوا إلى الجليل، ويلاقيهم يسوع هناك عند متى. وفي لوقا يُقال لهم أن يبقوا في المدينة، وتجري الظهورات في أورشليم وحولها. ويجمع يوحنا الموضعين. ويقترح بعضهم أن الظهورات حدثت في الموضعين، أورشليم أولًا ثم الجليل، ويرى آخرون أن إحدى الروايات صاغها غرض الكاتب.',
+        en: 'In St Mark and St Matthew the disciples are told to go to Galilee, and St Matthew has them meet the Lord there. In St Luke the appearances are in and around Jerusalem. St John records appearances in Jerusalem and then by the Sea of Tiberias in Galilee. Each evangelist chose what served his account, and together they show the Lord appearing in both places.',
+        ar: 'عند القديسين مرقس ومتى يُطلب من التلاميذ الذهاب إلى الجليل، ويرويهم القديس متى يلتقون بالرب هناك. وعند القديس لوقا تكون الظهورات في أورشليم وحولها. ويسجل القديس يوحنا ظهورات في أورشليم ثم عند بحر طبرية في الجليل. وقد اختار كل إنجيلي ما يخدم روايته، ومعًا يبيّنون أن الرب ظهر في المكانين.',
       },
       limits: {
         en: 'The harmonisation of the two is possible but not required by the texts.',
@@ -124,14 +124,14 @@ export const article: Article = {
     {
       id: 'c4',
       proposition: {
-        en: 'St Paul\'s list and the Gospel accounts overlap on Cephas and the Twelve and differ on the rest.',
-        ar: 'تتقاطع قائمة القديس بولس وروايات الأناجيل في صفا والاثني عشر وتختلف في الباقي.',
+        en: 'St Paul’s list and the Gospel accounts meet on Cephas and the Twelve, and each adds appearances the other does not narrate.',
+        ar: 'تلتقي قائمة القديس بولس وروايات الأناجيل في الظهور لصفا وللاثني عشر، ويضيف كل منهما ظهورات لا يرويها الآخر.',
       },
       argumentType: 'textual',
       assessment: 'supported_disputed_details',
       rationale: {
-        en: 'St Paul names an appearance to James, to more than five hundred and to all the apostles, none of which is narrated in the Gospels. The Gospels tell of appearances to women, to Cleopas and another on the road to Emmaus, and to Thomas, none of which is in St Paul\'s list. Luke 24:34 refers to an appearance to Simon, which agrees with St Paul.',
-        ar: 'يذكر القديس بولس ظهورًا ليعقوب ولأكثر من خمسمئة ولجميع الرسل، ولا تسرد الأناجيل شيئًا منها. وتروي الأناجيل ظهورات لنساء ولكليوبا وآخر في طريق عمواس ولتوما، وليس شيء منها في قائمة القديس بولس. ويشير لوقا ٢٤: ٣٤ إلى ظهور لسمعان، وهو يتفق مع القديس بولس.',
+        en: 'St Paul names appearances to James, to more than five hundred at once and to all the apostles. The Gospels tell of appearances to the women, to the two on the road to Emmaus, and to Thomas. St Luke 24:34 refers to the appearance to Simon, in agreement with St Paul. St Paul gives a short summary and the Gospels are selective, so together they give a fuller picture of many witnesses.',
+        ar: 'يذكر القديس بولس ظهورات ليعقوب، ولأكثر من خمسمائة دفعة واحدة، وللرسل أجمعين. وتروي الأناجيل ظهورات للنساء، ولتلميذي عمواس، ولتوما. ويشير لوقا ٢٤:٣٤ إلى الظهور لسمعان، موافقًا القديس بولس. فالقديس بولس يقدم خلاصة قصيرة والأناجيل انتقائية، ومعًا يعطيان صورة أكمل لشهود كثيرين.',
       },
       limits: {
         en: 'St Paul\'s list is a summary and the Gospels are selective, so the two are not forced to be complete. But the absence of the women from St Paul\'s list is noteworthy, and is debated.',
@@ -271,12 +271,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'This is a fair challenge, and the differences are real. But disagreement on secondary details is common in the accounts of several witnesses of a single event, and it does not usually lead us to deny the event. Ancient historians who reported battles or deaths differed in the same way.',
-          'The question is whether the differences touch the core. Here they do not: all four agree on the burial, the women, the empty tomb and the claim that Jesus was seen alive. The differences also tell against collusion, because writers who had agreed on a story would not have left such obvious discrepancies.',
+          'Differences in secondary details are normal when several witnesses report one event, and they do not lead us to deny the event. Ancient historians who reported the same battle or death differed in just this way, and so do honest witnesses in court today.',
+          'What matters is the core, and on the core all four agree: the burial, the women, the empty tomb, and the appearances of the risen Lord. The differences actually tell against invention: writers who had agreed on a story would not have left such obvious variations. The witnesses are independent, and they agree on the resurrection.',
         ],
         ar: [
-          'هذا تحدٍّ وجيه، والاختلافات حقيقية. لكن الاختلاف في التفاصيل الثانوية معتاد في أخبار شهود عدة عن حدث واحد، ولا يقودنا عادة إلى إنكار الحدث. وقد اختلف المؤرخون القدماء الذين رووا معارك أو وفيات بالطريقة نفسها.',
-          'والسؤال هل تمس الاختلافات اللب. وهي هنا لا تمسه: فالأربعة يتفقون في الدفن والنساء والقبر الفارغ والدعوى بأن يسوع رُئي حيًّا. وتدل الاختلافات أيضًا ضد التواطؤ، لأن كتّابًا اتفقوا على قصة ما كانوا ليتركوا تباينات بهذا الوضوح.',
+          'الاختلاف في التفاصيل الثانوية أمر طبيعي حين يروي عدة شهود حدثًا واحدًا، ولا يقودنا إلى إنكار الحدث. فالمؤرخون القدماء الذين رووا المعركة نفسها أو الموت نفسه اختلفوا بهذه الطريقة، وكذلك الشهود الصادقون في المحاكم اليوم.',
+          'والمهم هو الجوهر، وفي الجوهر تتفق الأربعة: الدفن، والنساء، والقبر الفارغ، وظهورات الرب القائم. بل إن الاختلافات تشهد ضد الاختلاق: فالكتّاب الذين اتفقوا على قصة ما كانوا ليتركوا مثل هذه الفروق الواضحة. فالشهود مستقلون، ويتفقون على القيامة.',
         ],
       },
       limits: {
@@ -293,12 +293,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'Some of the differences do reflect the writers\' purposes, and a historian is right to say so. Luke\'s concentration on Jerusalem, where he places the beginning of the church, is one example. For this reason the article does not claim a harmony and does not treat the sequence as established.',
-          'But the two settings are not incompatible, since the disciples could have seen Jesus in Jerusalem and then in Galilee, and John actually has both. The forty days in Acts does not conflict with a Gospel that compresses the events if one allows that Luke was telling the same story with two kinds of emphasis. These are possibilities and not demonstrations, and the reader should be told so.',
+          'Each evangelist did write with a purpose, and arranged his material to serve it. St Luke, for example, centres his account on Jerusalem, where the Church was to begin. Choosing and arranging is not inventing.',
+          'Jerusalem and Galilee are not incompatible: the disciples saw the Lord in Jerusalem and then in Galilee, and St John records both. St Luke himself, the author of both the Gospel and Acts, tells us in Acts that the Lord appeared over forty days. The same writer would not contradict himself; in his Gospel he tells the events briefly, and in Acts he gives the length of time.',
         ],
         ar: [
-          'بعض الاختلافات تعكس فعلًا أغراض الكتّاب، والمؤرخ محق في قول ذلك. ومثال ذلك تركيز لوقا على أورشليم حيث يضع بداية الكنيسة. ولهذا لا يدّعي المقال توافقًا ولا يعامل التسلسل أمرًا ثابتًا.',
-          'لكن الموضعين ليسا متعارضين، فقد يكون التلاميذ رأوا يسوع في أورشليم ثم في الجليل، ويجمع يوحنا الاثنين فعلًا. والأربعون يومًا في الأعمال لا تتعارض مع إنجيل يضغط الأحداث إذا سُمح بأن لوقا يروي القصة نفسها بتشديدين. وهذه احتمالات لا براهين، وينبغي أن يُقال ذلك للقارئ.',
+          'كتب كل إنجيلي فعلًا لغاية، ورتّب مادته لتخدمها. فالقديس لوقا مثلًا يركّز روايته في أورشليم، حيث كانت الكنيسة ستبدأ. والاختيار والترتيب ليسا اختلاقًا.',
+          'وأورشليم والجليل ليسا متعارضين: فقد رأى التلاميذ الرب في أورشليم ثم في الجليل، ويسجل القديس يوحنا الاثنين. والقديس لوقا نفسه، كاتب الإنجيل وسفر الأعمال، يخبرنا في الأعمال أن الرب ظهر أربعين يومًا. والكاتب نفسه لا يناقض نفسه؛ ففي إنجيله يروي الأحداث باختصار، وفي الأعمال يذكر طول المدة.',
         ],
       },
       limits: {
@@ -315,12 +315,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The objection assumes a particular view of inspiration, namely that it requires the absence of every difference. The Coptic Orthodox Church does not hold that view. She receives four Gospels, not one harmonised text, and the Fathers noticed the differences and explained them in various ways without taking them as a denial of inspiration.',
-          'In any case this article is a historical one. It reads the accounts as ancient documents, and the question of inspiration belongs to the theological section.',
+          'The objection assumes that inspiration means four identical accounts. The Coptic Orthodox Church does not hold that view. She receives four Gospels, not one merged text, and the Fathers noticed the differences and explained them without ever doubting inspiration.',
+          'The Holy Spirit spoke through four evangelists, each with his own memory, sources and emphasis. Their differences of detail are the mark of real human witness, and their agreement on the risen Lord is the witness of the Spirit.',
         ],
         ar: [
-          'يفترض الاعتراض رأيًا معينًا في الوحي، هو أنه يقتضي غياب كل اختلاف. والكنيسة القبطية الأرثوذكسية لا تقول بهذا الرأي. فهي تتسلم أربعة أناجيل لا نصًا واحدًا موفَّقًا، وقد لاحظ الآباء الاختلافات وفسروها بوجوه شتى دون أن يروها نفيًا للوحي.',
-          'وعلى أي حال هذا المقال تاريخي. فهو يقرأ الروايات وثائق قديمة، ومسألة الوحي تنتمي إلى القسم اللاهوتي.',
+          'يفترض الاعتراض أن الوحي يعني أربع روايات متطابقة. والكنيسة القبطية الأرثوذكسية لا تقول بهذا. فهي تقبل أربعة أناجيل لا نصًا واحدًا مدمجًا، وقد لاحظ الآباء الاختلافات وفسّروها دون أن يشكّوا في الوحي قط.',
+          'فالروح القدس تكلم بأربعة إنجيليين، لكل منهم ذاكرته ومصادره وتركيزه. واختلافاتهم في التفاصيل علامة شهادة بشرية حقيقية، واتفاقهم على الرب القائم هو شهادة الروح.',
         ],
       },
       limits: {
@@ -334,12 +334,12 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'A Christian historian can say that the accounts agree on what matters most to the claim and differ where independent traditions would be expected to differ. Harmonisations offer possible reconstructions and not proofs.',
-        'A critic can say that the differences show the freedom with which the writers handled the story and the stage of oral development it had reached. Each of these readings is open to a reader who has seen the texts, and the article asks only that the differences be stated accurately.',
+        'Read as ancient documents, the accounts agree on everything that matters to the claim and differ just where independent witnesses would be expected to differ. This is the pattern of genuine testimony, not of a legend made uniform.',
+        'The women named at the cross, at the burial and at the tomb tie the discovery to the events before it. St Paul’s early list, St Luke’s note of the appearance to Simon, and St John’s independent telling all point to the same Easter morning. The differences of detail confirm that these are several witnesses, and their agreement points to the risen Christ.',
       ],
       ar: [
-        'يستطيع المؤرخ المسيحي أن يقول إن الروايات تتفق فيما هو أهم للدعوى وتختلف حيث يُتوقع أن تختلف تقاليد مستقلة. وتقدم التوفيقات إعادات بناء ممكنة لا براهين.',
-        'ويستطيع الناقد أن يقول إن الاختلافات تبين الحرية التي عالج بها الكتّاب القصة والمرحلة التي بلغها التطور الشفهي. وكل من القراءتين مفتوحة لقارئ رأى النصوص، ولا يطلب المقال إلا أن تُذكر الاختلافات بدقة.',
+        'عند قراءتها وثائق قديمة، تتفق الروايات في كل ما يهم الدعوى، وتختلف حيث يُنتظر أن يختلف الشهود المستقلون. وهذا نمط الشهادة الحقيقية، لا نمط أسطورة صُيّرت متطابقة.',
+        'والنساء المذكورات عند الصليب وعند الدفن وعند القبر يربطن الاكتشاف بالأحداث التي سبقته. وقائمة القديس بولس المبكرة، وإشارة القديس لوقا إلى الظهور لسمعان، ورواية القديس يوحنا المستقلة، تشير كلها إلى صباح القيامة نفسه. واختلافات التفاصيل تؤكد أنهم شهود متعددون، واتفاقهم يشير إلى المسيح القائم.',
       ],
     },
     theological: {
@@ -370,8 +370,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'The resurrection accounts differ in real ways and agree on the core. The differences are ordinary for ancient reports of one event and show that the traditions were not made uniform, and they stop us from claiming a full harmony. They do not remove the central claim, and they are no reason to set the accounts aside.',
-    ar: 'تختلف روايات القيامة اختلافات حقيقية وتتفق على اللب. والاختلافات معتادة في الأخبار القديمة عن حدث واحد وتبين أن التقاليد لم تُوحَّد، وتمنعنا من ادعاء توافق كامل. ولا تزيل الدعوى المركزية، وليست سببًا لإهمال الروايات.',
+    en: 'The resurrection accounts differ in details and agree on the core. That is the mark of honest, independent witnesses, not of a story invented and agreed. All four Gospels, with St Paul, bear witness that the tomb was empty and that the Lord appeared alive to His disciples. The Church receives the four voices as the one witness of the Holy Spirit: Christ is risen.',
+    ar: 'تختلف روايات القيامة في التفاصيل وتتفق في الجوهر. وهذه علامة شهود صادقين مستقلين، لا علامة قصة مخترعة متفق عليها. فالأناجيل الأربعة، ومعها القديس بولس، تشهد بأن القبر كان فارغًا وبأن الرب ظهر حيًّا لتلاميذه. والكنيسة تقبل الأصوات الأربعة شهادةً واحدة للروح القدس: المسيح قام.',
   },
   furtherReading: ['S14', 'S16', 'S17', 'S15', 'S62'],
   related: ['empty-tomb-evidence', 'what-1-corinthians-15-reports', 'what-first-followers-claimed', 'apparent-contradictions', 'gospels-as-eyewitness', 'alternative-explanations'],

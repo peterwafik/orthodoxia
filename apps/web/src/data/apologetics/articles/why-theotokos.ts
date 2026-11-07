@@ -15,8 +15,8 @@ export const article: Article = {
     ar: 'لماذا تدعو الكنيسة العذراء مريم «ثيئوطوكوس» (اليونانية بمعنى «حاملة الإله»، وتُترجم عادةً «والدة الإله»). تعرض المقالة الأساس الكتابي، والجدل الذي أدى إلى مجمع أفسس سنة ٤٣١ بقيادة القديس كيرلس السكندري، والاعتراضات المثارة، وفهم الكنيسة القبطية الأرثوذكسية. أما ما لا يعنيه اللقب ففي مقالة مستقلة.',
   },
   shortAnswer: {
-    en: 'The title is a statement about Christ before it is a statement about Mary. The child born of Mary is not a man to whom God was later joined but God the Word himself, who took flesh from her. A mother is mother of the person she bears, so Mary is rightly called the one who bore God, the Theotokos. The Council of Ephesus (431) confirmed this against Nestorius, following St Cyril, who taught that the Word was born in the flesh of the Virgin. The title does not say that Mary is the source of God’s divinity.',
-    ar: 'اللقب كلام عن المسيح قبل أن يكون كلامًا عن مريم. فالمولود من مريم ليس إنسانًا اتحد به الله لاحقًا بل هو الله الكلمة نفسه الذي اتخذ جسدًا منها. والأم أم الشخص الذي تلده، فتُدعى مريم بحق التي ولدت الإله، أي ثيئوطوكوس. وقد أكد مجمع أفسس (٤٣١) ذلك ضد نسطور، متبعًا القديس كيرلس الذي علّم أن الكلمة وُلد بالجسد من العذراء. واللقب لا يقول إن مريم مصدر لاهوت الله.',
+    en: 'The title is a statement about Christ before it is a statement about Mary. The child born of Mary is not a man to whom God was later joined but God the Word himself, who took flesh from her. A mother is mother of the person she bears, so Mary is rightly called the one who bore God, the Theotokos. The Council of Ephesus (431) confirmed this against Nestorius, following St Cyril, who taught that the Word was born in the flesh of the Virgin. The title does not say that Mary is the source of God’s divinity; it confesses that her Son is truly God, and so honours her as the Mother of God.',
+    ar: 'اللقب كلام عن المسيح قبل أن يكون كلامًا عن مريم. فالمولود من مريم ليس إنسانًا اتحد به الله لاحقًا بل هو الله الكلمة نفسه الذي اتخذ جسدًا منها. والأم أم الشخص الذي تلده، فتُدعى مريم بحق التي ولدت الإله، أي ثيئوطوكوس. وقد أكد مجمع أفسس (٤٣١) ذلك ضد نسطور، متبعًا القديس كيرلس الذي علّم أن الكلمة وُلد بالجسد من العذراء. واللقب لا يقول إن مريم مصدر لاهوت الله؛ بل يعترف بأن ابنها إله حق، فيكرمها والدةً للإله.',
   },
   quickPoints: {
     en: [
@@ -76,8 +76,8 @@ export const article: Article = {
       argumentType: 'textual',
       assessment: 'supported_disputed_details',
       rationale: {
-        en: 'The statements are plain in Luke 1:43, Galatians 4:4 and John 1:14. The step from them to “Theotokos” is a theological inference, which the Church draws and which others have contested.',
-        ar: 'العبارات واضحة في لوقا ١: ٤٣ وغلاطية ٤: ٤ ويوحنا ١: ١٤. والانتقال منها إلى «ثيئوطوكوس» استنتاج لاهوتي تستخلصه الكنيسة ونازع فيه آخرون.',
+        en: 'The statements are plain in Luke 1:43, Galatians 4:4 and John 1:14. If the Word who is God became flesh, and the Son whom God sent was born of a woman, then the woman who bore Him is rightly called the Theotokos. The title simply gathers what these verses say into one word.',
+        ar: 'العبارات واضحة في لوقا ١: ٤٣ وغلاطية ٤: ٤ ويوحنا ١: ١٤. فإن كان الكلمة الذي هو الله قد صار جسدًا، وكان الابن الذي أرسله الله مولودًا من امرأة، فالمرأة التي ولدته تُدعى بحق ثيئوطوكوس. واللقب يجمع ببساطة ما تقوله هذه الآيات في كلمة واحدة.',
       },
       limits: {
         en: 'The New Testament does not use the Greek word Theotokos.',
@@ -94,8 +94,8 @@ export const article: Article = {
       argumentType: 'historical',
       assessment: 'strong_historical_support',
       rationale: {
-        en: 'The council, its date, Cyril’s role and the matter of the title are well documented in the Church’s history, and both sides of the controversy are known by their own writings.',
-        ar: 'المجمع وتاريخه ودور كيرلس وموضوع اللقب موثقة جيدًا في تاريخ الكنيسة، ويُعرف طرفا الجدل من كتاباتهما.',
+        en: 'The council, its date, St Cyril’s role and the matter of the title are well documented in the Church’s history, and both sides of the controversy are known from their own writings. The title was already in use in Alexandria before the dispute began.',
+        ar: 'المجمع وتاريخه ودور القديس كيرلس وموضوع اللقب موثقة جيدًا في تاريخ الكنيسة، ويُعرف طرفا الجدل من كتاباتهما. وكان اللقب مستعملًا في الإسكندرية قبل أن يبدأ الخلاف.',
       },
       limits: {
         en: 'This article does not quote the council or Cyril’s letters; their exact wording is not given here. Scholars also debate how far Nestorius’s own teaching matched the position attributed to him.',
@@ -112,8 +112,8 @@ export const article: Article = {
       argumentType: 'theological',
       assessment: 'theological_interpretation',
       rationale: {
-        en: 'St Cyril of Alexandria teaches that Christ is one Son, the Word made flesh; the Church reads that together with the biblical statements above.',
-        ar: 'يعلّم القديس كيرلس السكندري أن المسيح ابن واحد هو الكلمة المتجسد؛ وتقرأ الكنيسة ذلك مع الأقوال الكتابية أعلاه.',
+        en: 'St Cyril of Alexandria teaches that Christ is one Son, the Word made flesh, not two persons joined together. This is exactly what the Gospel of John means when it says that the Word became flesh.',
+        ar: 'يعلّم القديس كيرلس السكندري أن المسيح ابن واحد هو الكلمة المتجسد، لا شخصان اتحدا معًا. وهذا بالضبط ما يعنيه إنجيل يوحنا حين يقول إن الكلمة صار جسدًا.',
       },
       limits: {
         en: 'It states the Church’s faith and does not prove it to one who does not accept the Christology.',
@@ -210,11 +210,11 @@ export const article: Article = {
       response: {
         en: [
           'The title does not say Mary is the mother of the divine nature. It says she is the mother of the person who is God the Word. A woman is the mother of a person, not of his soul or his nature, and we say that a mother bears her son though she did not make his soul.',
-          '“Mother of Christ” is true but, on the Church’s understanding, does not answer the question of who Christ is. “Christ” is the name of the one Lord, who is God and man; leaving out the divine side can suggest that the one born of her was another than the Word. The Church uses the title to keep the unity of Christ.',
+          '“Mother of Christ” is true, but it does not answer the question of who Christ is. “Christ” is the name of the one Lord, who is God and man; leaving out the divine side can suggest that the one born of her was another than the Word. The Church uses the title to keep the unity of Christ, and Elizabeth already called Mary the mother of her Lord.',
         ],
         ar: [
           'لا يقول اللقب إن مريم أم الطبيعة الإلهية. بل يقول إنها أم الشخص الذي هو الله الكلمة. فالمرأة أم شخص لا أم نفسه أو طبيعته، ونقول إن الأم تلد ابنها وإن لم تخلق نفسه.',
-          'و«أم المسيح» صحيحة، لكنها في فهم الكنيسة لا تجيب عن سؤال من هو المسيح. و«المسيح» اسم الرب الواحد الذي هو الله والإنسان؛ وحذف الجانب الإلهي قد يوحي بأن المولود منها غير الكلمة. وتستعمل الكنيسة اللقب لحفظ وحدة المسيح.',
+          'و«أم المسيح» صحيحة، لكنها لا تجيب عن سؤال من هو المسيح. و«المسيح» اسم الرب الواحد الذي هو الله والإنسان؛ وحذف الجانب الإلهي قد يوحي بأن المولود منها غير الكلمة. وتستعمل الكنيسة اللقب لحفظ وحدة المسيح، وقد دعت أليصابات مريم من قبل أم ربها.',
         ],
       },
       limits: {
@@ -231,12 +231,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'Church politics were certainly present at Ephesus, and historians discuss the rivalry of the sees and the conduct of the council. That does not decide whether the Christology was true; the argument of Cyril is theological, and the title was in use before the dispute.',
-          'The Church’s reception of the council over the centuries, not its procedure alone, is part of why she holds it as the voice of the Church.',
+          'Human rivalries were present at Ephesus, as they are in every age of the Church. But they do not decide whether a teaching is true. The title was in use in Alexandria before the dispute, and St Cyril’s argument is theological: it rests on Scripture and on the one Christ.',
+          'The Church has received the council’s faith in her worship for centuries, and the Formula of Union in 433 brought the bishops of Antioch to accept the title too. A teaching imposed by politics alone would not have become the prayer of the whole Church.',
         ],
         ar: [
-          'كانت سياسة الكنائس حاضرة بالتأكيد في أفسس، ويناقش المؤرخون تنافس الكراسي وسير المجمع. ولا يحسم ذلك صحة الكريستولوجيا؛ فحجة كيرلس لاهوتية، وكان اللقب مستعملًا قبل الخلاف.',
-          'وتقبّل الكنيسة للمجمع عبر القرون، لا إجراؤه وحده، جزء من سبب اعتباره صوت الكنيسة.',
+          'كانت المنافسات البشرية حاضرة في أفسس، كما هي في كل عصر من عصور الكنيسة. لكنها لا تحسم صحة تعليم ما. فقد كان اللقب مستعملًا في الإسكندرية قبل الخلاف، وحجة القديس كيرلس لاهوتية: تقوم على الكتاب المقدس وعلى المسيح الواحد.',
+          'وقد تسلّمت الكنيسة إيمان المجمع في عبادتها عبر القرون، وقادت وثيقة الاتحاد سنة ٤٣٣ أساقفة أنطاكية إلى قبول اللقب أيضًا. والتعليم المفروض بالسياسة وحدها ما كان ليصير صلاة الكنيسة كلها.',
         ],
       },
       limits: {
@@ -249,10 +249,10 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'Historically: the title was used in the Alexandrian church before 431, the controversy with Nestorius and the Council of Ephesus are well documented, and the Formula of Union in 433 brought the Antiochene bishops to accept the title. Many Protestant traditions also accept it as a statement about Christ.',
+        'The history is clear: the title was used in the Alexandrian church before 431, the controversy with Nestorius and the Council of Ephesus are well documented, and the Formula of Union in 433 brought the Antiochene bishops to accept the title. Many Protestant traditions also accept it as a statement about Christ.',
       ],
       ar: [
-        'تاريخيًا: كان اللقب مستعملًا في كنيسة الإسكندرية قبل ٤٣١، وجدل نسطور ومجمع أفسس موثقان جيدًا، وقادت وثيقة الاتحاد سنة ٤٣٣ الأساقفة الأنطاكيين إلى قبول اللقب. وتقبله أيضًا تقاليد بروتستانتية كثيرة بوصفه قولًا عن المسيح.',
+        'التاريخ واضح: كان اللقب مستعملًا في كنيسة الإسكندرية قبل ٤٣١، وجدل نسطور ومجمع أفسس موثقان جيدًا، وقادت وثيقة الاتحاد سنة ٤٣٣ الأساقفة الأنطاكيين إلى قبول اللقب. وتقبله أيضًا تقاليد بروتستانتية كثيرة بوصفه قولًا عن المسيح.',
       ],
     },
     theological: {
@@ -281,8 +281,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'Mary is called Theotokos because the one she bore is God the Word incarnate. The title rests on biblical statements, was defended by St Cyril of Alexandria and confirmed at Ephesus in 431, and is a confession about Christ before it is an honour for Mary.',
-    ar: 'تُدعى مريم والدة الإله لأن من ولدته هو الله الكلمة المتجسد. ويقوم اللقب على أقوال كتابية، ودافع عنه القديس كيرلس السكندري وأكده مجمع أفسس سنة ٤٣١، وهو اعتراف عن المسيح قبل أن يكون إكرامًا لمريم.',
+    en: 'The Virgin Mary is the Theotokos because the One she bore is God the Word incarnate. The title rests on the plain words of Scripture, was defended by St Cyril of Alexandria and confirmed at Ephesus in 431, and is prayed by the Church every day. It is a confession about Christ before it is an honour for Mary, and in honouring her the Church confesses her Son as true God.',
+    ar: 'العذراء مريم هي والدة الإله لأن من ولدته هو الله الكلمة المتجسد. ويقوم اللقب على كلمات الكتاب المقدس الواضحة، ودافع عنه القديس كيرلس السكندري وأكده مجمع أفسس سنة ٤٣١، وتصلي به الكنيسة كل يوم. وهو اعتراف عن المسيح قبل أن يكون إكرامًا لمريم، والكنيسة بإكرامها تعترف بابنها إلهًا حقًا.',
   },
   furtherReading: ['S53', 'S62'],
   related: [

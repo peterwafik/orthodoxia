@@ -15,23 +15,23 @@ export const article: Article = {
     ar: 'تسأل هذه المقالة: إن كان الله موجودًا، فهل هو «شخص» يعرف الإنسان ويسمعه ويعمل نحوه، أم أصل بعيد أو أساس غير شخصي يترك العالم لشأنه؟ وهي تعرض الصورتين الربوبية وغير الشخصية بإنصاف، والدعوى اليهودية والمسيحية بأن الله شخصي ومعني بنا، والتعليم القبطي الأرثوذكسي عن الله الثالوث المتجسد في المسيح. ولا تبرهن على وجود الله، ولا تدّعي أنها تفسّر لماذا لا يظهر تدخله دائمًا؛ فذلك موضوع المقالات عن الاحتجاب والألم.',
   },
   shortAnswer: {
-    en: 'The Christian answer is that God is personal and involved, and the claim rests on more than an argument about the word “person”. The Scriptures describe God as one who sees affliction, calls people by name, and is closer to creatures than they are to themselves. The Church confesses that God is in himself a communion of three persons, Father, Son and Holy Spirit, which is why love is not something God acquires after creating but what he is. And it confesses that the Word of God became human in Christ, which is the Christian meaning of “involved”. Deists and others who think God is remote or impersonal hold a coherent position; the difference between us is not settled by logic alone but by whether the claims about Christ are true.',
-    ar: 'الجواب المسيحي أن الله شخصي ومعنيّ بنا، وهذه الدعوى لا تقوم على حجة حول كلمة «شخص» وحدها. فالكتب تصف الله بأنه يرى المذلة، ويدعو الناس بأسمائهم، وهو أقرب إلى المخلوقات من أنفسها. وتعترف الكنيسة بأن الله في ذاته شركة ثلاثة أقانيم: الآب والابن والروح القدس، ولذلك فالمحبة ليست شيئًا يكتسبه الله بعد الخلق بل هي ما هو عليه. وتعترف بأن كلمة الله صار إنسانًا في المسيح، وهذا هو المعنى المسيحي لكلمة «معنيّ». والربوبيون وغيرهم ممن يرون الله بعيدًا أو غير شخصي يتمسكون بموقف متماسك؛ والفرق بيننا لا تحسمه المنطق وحده، بل صحة الدعاوى عن المسيح.',
+    en: 'God is personal and involved. The Scriptures show Him as the One who sees the affliction of His people, hears their cry, calls them by name and knows each person completely. The Church confesses that God is in Himself a communion of three persons, Father, Son and Holy Spirit, so love is not something God acquired after creating: it is what He is. And above all, the Word of God became man in Christ. God did not stay at a distance; He entered our life, our suffering and our death, and rose again. The remote God of deism and the impersonal ground of other views fall short of this: the source of all persons, of knowledge and of love cannot be less than personal, and in Christ He has shown His face.',
+    ar: 'الله شخصي ومعنيّ بنا. فالكتب المقدسة تُظهره الإله الذي يرى مذلة شعبه، ويسمع صراخهم، ويدعوهم بأسمائهم، ويعرف كل إنسان معرفة كاملة. وتعترف الكنيسة بأن الله في ذاته شركة ثلاثة أقانيم: الآب والابن والروح القدس، فالمحبة ليست شيئًا اكتسبه الله بعد الخلق: بل هي ما هو عليه. وفوق كل شيء، صار كلمة الله إنسانًا في المسيح. فلم يبقَ الله على مسافة؛ بل دخل حياتنا وألمنا وموتنا، وقام. وإله الربوبية البعيد والأساس غير الشخصي في الآراء الأخرى يقصران عن هذا: فمصدر كل الأشخاص والمعرفة والمحبة لا يمكن أن يكون أقل من شخصي، وفي المسيح أظهر وجهه.',
   },
   quickPoints: {
     en: [
-      'Deism holds that God made the world and does not act within it; pantheism or impersonal views hold that “God” is the world or its ground, not someone who knows us. Both are serious positions.',
-      'In the Bible God is shown seeing suffering, speaking, calling, and being near; these texts are read here as ancient documents that say how the tradition understood God.',
-      'The Church teaches that God is one being in three persons, so that personal relation belongs to God’s own life before there was a world.',
-      'The claim that God is involved is centred on the incarnation: God the Word became human, so that God is known in a person and not only inferred.',
-      'Involvement does not mean that God removes every harm or answers every request in the way we hope; those questions are treated in the articles on suffering and prayer.',
+      'Deism holds that God made the world and does not act within it; pantheism and other impersonal views hold that “God” is the world or its ground, not someone who knows us.',
+      'In the Scriptures God sees suffering, speaks, calls and draws near: He heard Israel in Egypt (Exodus 3), knows every person (Psalm 139), and cares for each sparrow (Matthew 10).',
+      'The Church teaches that God is one in essence and three in persons, so personal love belongs to God’s own life before there was a world.',
+      'God’s involvement is centred on the incarnation: God the Word became man, so that God is known in a person and not only inferred.',
+      'Involvement does not mean God removes every harm now; it means He is present with us in Christ and has promised to make all things new.',
     ],
     ar: [
-      'ترى الربوبية أن الله خلق العالم ولا يعمل فيه؛ وترى وحدة الوجود أو الآراء غير الشخصية أن «الله» هو العالم أو أساسه لا شخص يعرفنا. وكلاهما موقف جاد.',
-      'يُصوَّر الله في الكتاب المقدس رائيًا للألم ومتكلمًا وداعيًا وقريبًا؛ وتُقرأ هذه النصوص هنا وثائق قديمة تبيّن كيف فهم التقليد الله.',
-      'تعلّم الكنيسة أن الله جوهر واحد في ثلاثة أقانيم، فالعلاقة الشخصية داخلة في حياة الله نفسها قبل أن يوجد عالم.',
-      'تتمركز دعوى أن الله معنيّ بنا حول التجسد: كلمة الله صار إنسانًا، فيُعرف الله في شخص ولا يُستنتج فحسب.',
-      'لا يعني كون الله معنيًّا أنه يزيل كل أذى أو يستجيب لكل طلب كما نرجو؛ وهذه الأسئلة تعالجها المقالات عن الألم والصلاة.',
+      'ترى الربوبية أن الله خلق العالم ولا يعمل فيه؛ وترى وحدة الوجود والآراء غير الشخصية الأخرى أن «الله» هو العالم أو أساسه، لا شخص يعرفنا.',
+      'في الكتب المقدسة يرى الله الألم ويتكلم ويدعو ويقترب: فقد سمع إسرائيل في مصر (الخروج ٣)، ويعرف كل إنسان (المزمور ١٣٩)، ويعتني بكل عصفور (متى ١٠).',
+      'تعلّم الكنيسة أن الله واحد في الجوهر مثلث الأقانيم، فالمحبة الشخصية داخلة في حياة الله نفسها قبل أن يوجد عالم.',
+      'تتمركز عناية الله بنا حول التجسد: الله الكلمة صار إنسانًا، فيُعرف الله في شخص ولا يُستنتج فحسب.',
+      'لا تعني العناية أن الله يزيل كل أذى الآن؛ بل أنه حاضر معنا في المسيح وقد وعد بأن يجعل كل شيء جديدًا.',
     ],
   },
   argumentTypes: ['philosophical', 'theological'],
@@ -44,12 +44,12 @@ export const article: Article = {
   },
   whyExamine: {
     en: [
-      'Many people who are open to there being some higher reality are uneasy at the thought that it knows or cares about them. A distant source feels safe; a God who knows and loves seems presumptuous, or frightening. Others feel the opposite, that a God who did not care would hardly be worth the name.',
-      'It matters, then, to say clearly what the traditions mean. “Personal” does not mean that God has a body, a mood or a place; it means that God knows, wills and loves, and that relation with him is possible.',
+      'Many people who are open to some higher reality are uneasy at the thought that it knows or cares about them. A distant source feels safe; a God who knows and loves can seem presumptuous, or frightening. Yet a God who did not care would hardly be worth the name.',
+      'So it matters to say clearly what the Church means. “Personal” does not mean that God has a body, a mood or a place; it means that God knows, wills and loves, and that we can live in relation with Him. That is the heart of prayer and of the Christian life.',
     ],
     ar: [
-      'كثيرون ممن ينفتحون على وجود حقيقة أعلى يضطربون من فكرة أنها تعرفهم أو تهتم بهم. فالمصدر البعيد يبدو آمنًا، والإله الذي يعرف ويحب يبدو مدّعيًا أو مخيفًا. وآخرون يشعرون بالعكس، أن إلهًا لا يهتم لا يستحق هذا الاسم.',
-      'فمن المهم إذًا أن نقول بوضوح ما يعنيه التقليد. «شخصي» لا تعني أن لله جسدًا أو مزاجًا أو مكانًا؛ بل تعني أن الله يعلم ويريد ويحب، وأن العلاقة معه ممكنة.',
+      'كثيرون ممن ينفتحون على حقيقة أعلى يضطربون من فكرة أنها تعرفهم أو تهتم بهم. فالمصدر البعيد يبدو آمنًا، والإله الذي يعرف ويحب قد يبدو مدّعيًا أو مخيفًا. ومع ذلك فإله لا يهتم لا يكاد يستحق هذا الاسم.',
+      'فمن المهم أن نقول بوضوح ما تعنيه الكنيسة. «شخصي» لا تعني أن لله جسدًا أو مزاجًا أو مكانًا؛ بل تعني أن الله يعلم ويريد ويحب، وأننا نستطيع أن نحيا في علاقة معه. وهذا قلب الصلاة والحياة المسيحية.',
     ],
   },
   background: {
@@ -74,8 +74,8 @@ export const article: Article = {
       argumentType: 'textual',
       assessment: 'strong_historical_support',
       rationale: {
-        en: 'This is a claim about what the texts say, and it is plain in the passages cited. It is not a claim that the portrayal is true.',
-        ar: 'هذه دعوى عمّا تقوله النصوص، وهي واضحة في الفقرات المذكورة. وليست دعوى أن التصوير صحيح.',
+        en: 'The passages say it plainly: God sees the affliction of His people and comes down to deliver them; He searches and knows each person; not one sparrow falls without the Father. This is the consistent voice of the Scriptures.',
+        ar: 'تقول الفقرات ذلك بوضوح: الله يرى مذلة شعبه وينزل لينقذهم؛ ويفحص كل إنسان ويعرفه؛ ولا يسقط عصفور واحد دون الآب. وهذا صوت الكتب المقدسة المتسق.',
       },
       limits: {
         en: 'The Scriptures also contain language of God’s hiddenness and silence, and the texts are read here as ancient documents; whether they describe God truly is a question of faith and argument.',
@@ -86,14 +86,14 @@ export const article: Article = {
     {
       id: 'c2',
       proposition: {
-        en: 'Christianity locates God’s involvement chiefly in the incarnation: the Word of God became human, so that God is known in a person.',
-        ar: 'تجد المسيحية تدخل الله أساسًا في التجسد: كلمة الله صار إنسانًا، فيُعرف الله في شخص.',
+        en: 'Christianity places God’s involvement above all in the incarnation: the Word of God became man, so that God is known in a person.',
+        ar: 'تضع المسيحية عناية الله فوق كل شيء في التجسد: كلمة الله صار إنسانًا، فيُعرف الله في شخص.',
       },
       argumentType: 'theological',
       assessment: 'theological_interpretation',
       rationale: {
-        en: 'The Gospel of John and the letter to the Hebrews state this claim, and St Athanasius develops it. It is the central claim of the faith and is offered as such, not as a premise that a sceptic must grant at the start.',
-        ar: 'يصرّح إنجيل يوحنا والرسالة إلى العبرانيين بهذه الدعوى، ويطورها القديس أثناسيوس. وهي الدعوى المحورية للإيمان وتُقدَّم على هذا الأساس، لا مقدمة يجب على المتشكك التسليم بها من البداية.',
+        en: 'St John’s Gospel says that the Word who was God became flesh and made the unseen God known; Hebrews says that Christ shares our weakness and opens the way to God’s mercy; and St Athanasius teaches that the Word became man so that we might share in the life of God.',
+        ar: 'يقول إنجيل القديس يوحنا إن الكلمة الذي كان الله صار جسدًا وأعلن الله الذي لم يره أحد؛ وتقول الرسالة إلى العبرانيين إن المسيح يرثي لضعفاتنا ويفتح الطريق إلى رحمة الله؛ ويعلّم القديس أثناسيوس أن الكلمة صار إنسانًا لكي نشترك في حياة الله.',
       },
       limits: {
         en: 'Its truth depends on the historical and theological questions about Jesus examined in other articles.',
@@ -104,14 +104,14 @@ export const article: Article = {
     {
       id: 'c3',
       proposition: {
-        en: 'Deism and impersonal conceptions of the divine are coherent philosophical positions; the case against them is not that they are contradictory but that they leave unexplained why a God who is good and a source of persons would not be personal and in relation with them.',
-        ar: 'الربوبية والتصورات غير الشخصية للإلهي موقفان فلسفيان متماسكان؛ والحجة ضدهما ليست أنهما متناقضان بل أنهما لا يفسّران لماذا لا يكون إله صالح ومصدر للأشخاص شخصيًا وفي علاقة بهم.',
+        en: 'Deism and impersonal conceptions of the divine fall short because they cannot explain why the good source of all persons, knowledge and love would itself lack knowledge and love.',
+        ar: 'تقصر الربوبية والتصورات غير الشخصية للإلهي لأنها لا تفسّر لماذا يكون المصدر الصالح لكل الأشخاص والمعرفة والمحبة فاقدًا هو نفسه للمعرفة والمحبة.',
       },
       argumentType: 'philosophical',
       assessment: 'philosophical_argument',
       rationale: {
-        en: 'The argument is that persons, knowledge and love are among the greatest goods, so that the source of everything is better thought of as having them than lacking them. Swinburne defends this line (S38). Critics reply that an impersonal ground or a distant creator needs no such properties.',
-        ar: 'الحجة أن الأشخاص والمعرفة والمحبة من أعظم الخيرات، فمصدر كل شيء أولى أن يُتصور واجدًا لها لا فاقدًا. ويدافع سوينبرن عن هذا الخط (S38). ويرد الناقدون بأن الأساس غير الشخصي أو الخالق البعيد لا يحتاج إلى هذه الخصائص.',
+        en: 'Persons, knowledge and love are among the greatest goods we know, so the source of everything is rightly thought of as having them in fullness rather than lacking them. Richard Swinburne defends this line of reasoning (S38).',
+        ar: 'الأشخاص والمعرفة والمحبة من أعظم الخيرات التي نعرفها، فمصدر كل شيء يُتصور بحق واجدًا لها في ملئها لا فاقدًا لها. ويدافع ريتشارد سوينبرن عن هذا الخط من الاستدلال (S38).',
       },
       limits: {
         en: 'It shows a reason to prefer the personal conception; it does not demonstrate it.',
@@ -236,12 +236,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The charge of projection is an old one, and it cuts both ways: it does not show that a belief is false, only that its origin can be explained psychologically, and the same could be said of the belief that the universe is impersonal. What decides the matter is evidence and argument, not the origin of the idea.',
-          'Believers also reply that the laws of nature, which are a fact about the world, do not say whether there is a mind behind them. The Christian claim is that the best evidence for a personal God is not in the regularities of nature but in a person, Christ; whether that is persuasive depends on the historical questions examined elsewhere.',
+          'The charge of projection does not show that a belief is false; it only offers a story about where the idea came from, and the same kind of story could be told about the belief that the universe is impersonal. What decides the matter is evidence, not the origin of the idea.',
+          'The laws of nature are a fact about the world, and their very order points beyond itself. But the Christian does not rest the case on nature’s regularities alone. The clearest evidence for a personal God is a person: Jesus Christ, who lived, taught, died and rose, and in whom God has made Himself known.',
         ],
         ar: [
-          'تهمة الإسقاط قديمة، ويمكن توجيهها في الاتجاهين: فهي لا تبيّن أن الاعتقاد باطل، بل أن أصله يمكن تفسيره نفسيًا، ويمكن قول الشيء نفسه عن الاعتقاد بأن الكون غير شخصي. وما يحسم الأمر هو الدليل والحجة لا أصل الفكرة.',
-          'ويرد المؤمنون أيضًا بأن قوانين الطبيعة، وهي واقعة في العالم، لا تقول هل وراءها عقل. والدعوى المسيحية أن أقوى دليل على إله شخصي ليس في انتظام الطبيعة بل في شخص هو المسيح؛ وهل هذا مقنع يتوقف على الأسئلة التاريخية التي تُفحص في مواضع أخرى.',
+          'تهمة الإسقاط لا تبيّن أن الاعتقاد باطل؛ بل تقدّم فقط قصة عن مصدر الفكرة، ويمكن رواية قصة من النوع نفسه عن الاعتقاد بأن الكون غير شخصي. وما يحسم الأمر هو الدليل، لا أصل الفكرة.',
+          'وقوانين الطبيعة واقعة في العالم، ونظامها نفسه يشير إلى ما وراءه. لكن المسيحي لا يقيم الحجة على انتظام الطبيعة وحده. فأوضح دليل على إله شخصي هو شخص: يسوع المسيح الذي عاش وعلّم ومات وقام، وفيه أعلن الله ذاته.',
         ],
       },
       limits: {
@@ -258,12 +258,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'This is a serious objection and is treated at length in the articles on suffering. In brief, the Christian claim of involvement is not that God prevents every harm; it is that God has entered the world’s suffering in Christ, is present with those who suffer, and has promised to bring it to an end. Passages cited above (such as Hebrews 4) say this, and the sparrow saying promises care, not exemption.',
-          'The objection is stronger against a view in which God’s involvement is mainly protective. It is less direct against a view in which involvement means presence, with a hope beyond death.',
+          'The Christian claim was never that God prevents every harm. It is that God has entered the world’s suffering in Christ, is present with those who suffer, and has promised to bring suffering to an end. Hebrews says that Christ sympathises with our weakness because He was tested as we are, and the Lord’s saying about the sparrows promises care, not exemption.',
+          'The cross is the answer to this objection. A God who had left the world alone would not have come to die in it. The risen Christ is the pledge that suffering is not the last word. The articles on suffering take this further.',
         ],
         ar: [
-          'هذا اعتراض جاد تُعالجه المقالات عن الألم باستفاضة. وباختصار، الدعوى المسيحية بالعناية ليست أن الله يمنع كل أذى؛ بل أن الله دخل ألم العالم في المسيح، وهو حاضر مع المتألمين، ووعد بأن ينهيه. والفقرات المذكورة أعلاه (كالعبرانيين 4) تقول هذا، وقول العصافير يعد بالعناية لا بالإعفاء.',
-          'والاعتراض أقوى ضد رأي تكون فيه العناية حماية أساسًا. وأقل مباشرة ضد رأي تعني فيه العناية الحضور مع رجاء يتجاوز الموت.',
+          'لم تكن الدعوى المسيحية قط أن الله يمنع كل أذى. بل أن الله دخل ألم العالم في المسيح، وهو حاضر مع المتألمين، ووعد بأن ينهي الألم. وتقول الرسالة إلى العبرانيين إن المسيح يرثي لضعفاتنا لأنه جُرِّب مثلنا، وقول الرب عن العصافير يعد بالعناية لا بالإعفاء.',
+          'والصليب هو الجواب عن هذا الاعتراض. فإله ترك العالم لشأنه ما كان ليأتي ويموت فيه. والمسيح القائم عربون أن الألم ليس الكلمة الأخيرة. وتتوسع المقالات عن الألم في ذلك.',
         ],
       },
       limits: {
@@ -280,12 +280,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The Fathers agree that such language is analogical: God has no body, and “hearing” and “coming down” are not literal. The tradition holds that analogy is not mere decoration but a true, if limited, way of speaking about him, and that the incarnation is the reason the Church dares to use personal language.',
-          'Dropping personal language does not give a neutral alternative; “ground of being” is also a way of speaking, and it too carries assumptions.',
+          'The Fathers agree that such language is analogical: God has no body, and “hearing” and “coming down” are not literal. But analogy is not mere decoration. It is a true way of speaking about God, and the incarnation is why the Church speaks personally of Him with confidence: in Christ, God has truly heard, come down and spoken.',
+          'Dropping personal language does not give a neutral alternative. “Ground of being” is also a way of speaking, and it says less, not more, than the Gospel.',
         ],
         ar: [
-          'يتفق الآباء على أن هذه اللغة تمثيلية: فالله بلا جسد، و«السمع» و«النزول» ليسا حرفيين. ويرى التقليد أن التمثيل ليس زينة بل طريقة حقيقية، وإن كانت محدودة، للكلام عنه، وأن التجسد هو سبب جرأة الكنيسة على استعمال اللغة الشخصية.',
-          'وترك اللغة الشخصية لا يعطي بديلًا محايدًا؛ فعبارة «أساس الوجود» أيضًا طريقة كلام تحمل افتراضات.',
+          'يتفق الآباء على أن هذه اللغة تمثيلية: فالله بلا جسد، و«السمع» و«النزول» ليسا حرفيين. لكن التمثيل ليس زينة فحسب. بل هو طريقة حقيقية للكلام عن الله، والتجسد هو سبب كلام الكنيسة عنه بلغة شخصية بثقة: ففي المسيح سمع الله حقًا ونزل وتكلم.',
+          'وترك اللغة الشخصية لا يعطي بديلًا محايدًا. فعبارة «أساس الوجود» أيضًا طريقة كلام، وهي تقول أقل من الإنجيل لا أكثر.',
         ],
       },
       limits: {
@@ -298,20 +298,20 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'The historical part of the Christian case is about Jesus: whether the person the New Testament describes lived, taught and was crucified, and what his first followers claimed about him. Those questions are examined in the articles on Jesus and the resurrection. This article does not repeat them. It notes only that the claim that God is personal and involved, in the Christian form, stands or falls with them.',
+        'The historical heart of the Christian answer is Jesus: that He lived, taught and was crucified under Pontius Pilate, and that His first followers proclaimed Him risen and worshipped Him as Lord. These facts are examined in the articles on Jesus and the resurrection. They are why the Christian speaks of an involved God not as a guess but as a confession of what God has done in history.',
       ],
       ar: [
-        'الجزء التاريخي من الدعوى المسيحية يخص يسوع: هل عاش الشخص الذي يصفه العهد الجديد وعلّم وصُلب، وماذا ادّعى أتباعه الأوائل عنه. وتُفحص هذه الأسئلة في المقالات عن يسوع والقيامة. ولا تكررها هذه المقالة. وتكتفي بالإشارة إلى أن دعوى كون الله شخصيًا ومعنيًّا، في صيغتها المسيحية، ترتبط صحتها بها.',
+        'القلب التاريخي للجواب المسيحي هو يسوع: أنه عاش وعلّم وصُلب في ولاية بيلاطس البنطي، وأن أتباعه الأوائل كرزوا بقيامته وعبدوه ربًا. وتُفحص هذه الوقائع في المقالات عن يسوع والقيامة. ولهذا يتكلم المسيحي عن إله معنيّ بنا لا تخمينًا بل اعترافًا بما صنعه الله في التاريخ.',
       ],
     },
     theological: {
       en: [
         'The Church confesses one God in three persons, and teaches that the Son, the Word of God, took a human nature from the Virgin Mary and was united with it in one incarnate nature, without confusion, mixture or change. This is why the Church says that God is not remote: the Word himself lived a human life, suffered, died and rose. St Athanasius says that the Word came so that we might share in the life of God, and the Church’s liturgy and sacraments are understood as the continuing ways in which this communion is given.',
-        'The Church also teaches that God’s nearness does not remove his transcendence. He is closer to us than we are to ourselves and beyond all that we can say of him. This is theology held by faith, and it is set out here as the Church’s teaching.',
+        'The Church also teaches that God’s nearness does not remove His transcendence. He is closer to us than we are to ourselves and beyond all that we can say of Him.',
       ],
       ar: [
         'تعترف الكنيسة بإله واحد في ثلاثة أقانيم، وتعلّم أن الابن، كلمة الله، اتخذ طبيعة بشرية من العذراء مريم واتحد بها في طبيعة واحدة متجسدة بلا اختلاط ولا امتزاج ولا تغيير. ولهذا تقول الكنيسة إن الله ليس بعيدًا: فالكلمة نفسه عاش حياة بشرية وتألم ومات وقام. ويقول القديس أثناسيوس إن الكلمة جاء لكي نشترك في حياة الله، وتُفهم صلوات الكنيسة الطقسية وأسرارها طرقًا مستمرة لعطاء هذه الشركة.',
-        'وتعلّم الكنيسة أيضًا أن قرب الله لا يلغي تعاليه. فهو أقرب إلينا من أنفسنا وفوق كل ما نقوله عنه. وهذا لاهوت يُقبل بالإيمان، ويُعرض هنا بوصفه تعليم الكنيسة.',
+        'وتعلّم الكنيسة أيضًا أن قرب الله لا يلغي تعاليه. فهو أقرب إلينا من أنفسنا وفوق كل ما نقوله عنه.',
       ],
     },
   },
@@ -334,8 +334,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'The deist and impersonal pictures are coherent, and the choice between them and the Christian picture is not settled by logic alone. The Church says that God is personal, a communion of three persons, and that he has come near in Christ, so that to ask whether God is involved is finally to ask who Christ is. That claim is offered for honest examination, and nothing in it removes the questions about suffering and silence that the related articles take up.',
-    ar: 'الصورتان الربوبية وغير الشخصية متماسكتان، والاختيار بينهما وبين الصورة المسيحية لا يحسمه المنطق وحده. وتقول الكنيسة إن الله شخصي، شركة ثلاثة أقانيم، وإنه اقترب في المسيح، فالسؤال: هل الله معنيّ بنا؟ هو في النهاية السؤال: من هو المسيح؟ وهذه الدعوى تُقدَّم لفحص صادق، وليس فيها ما يزيل الأسئلة عن الألم والصمت التي تتناولها المقالات ذات الصلة.',
+    en: 'God is personal: a communion of three persons, Father, Son and Holy Spirit, who knows and loves each one of us. He has not left the world alone. In Christ the Word became man, entered our suffering and death, and rose, so that to ask whether God is involved is finally to ask who Christ is. The Church answers with joy: He is God with us.',
+    ar: 'الله شخصي: شركة ثلاثة أقانيم، الآب والابن والروح القدس، يعرف كل واحد منا ويحبه. ولم يترك العالم لشأنه. ففي المسيح صار الكلمة إنسانًا، ودخل ألمنا وموتنا، وقام، فالسؤال: هل الله معنيّ بنا؟ هو في النهاية السؤال: من هو المسيح؟ والكنيسة تجيب بفرح: هو الله معنا.',
   },
   furtherReading: ['S38', 'S52', 'S62'],
   related: ['why-care-if-god-exists', 'what-do-we-mean-by-god', 'what-trinity-affirms', 'why-god-is-not-clearer', 'why-does-god-allow-suffering', 'hidden-or-suffering'],

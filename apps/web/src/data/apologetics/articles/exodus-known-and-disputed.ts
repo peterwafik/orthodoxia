@@ -15,23 +15,23 @@ export const article: Article = {
     ar: 'ما يمكن قوله عن خروج بني إسرائيل من مصر استنادًا إلى الحفريات والنصوص المصرية والرواية الكتابية حين تُقرأ وثيقة قديمة؛ وأين يتخذ الباحثون مواقف مختلفة ولماذا؛ وكيف تقرأ الكنيسة القبطية الأرثوذكسية الخروج تاريخًا ورمزًا للمسيح. ولا يحاجّ المقال بأن علم الآثار يثبت الخروج ولا بأنه ينفيه. ولغزو كنعان مقال خاص.',
   },
   shortAnswer: {
-    en: 'No Egyptian text or excavated site records the departure of a large Israelite population from Egypt, and no camp in Sinai has been identified. Some archaeologists conclude from this that the Exodus as narrated did not happen, and that the story took shape much later from smaller memories. Others, among them Egyptologists such as K. A. Kitchen and James Hoffmeier, argue that the narrative fits Egyptian conditions well (Asiatic workers in the Delta, building at Pi-Ramesses, frontier routes) and that a people leaving a country and wandering in the desert would leave little. Both groups agree that the evidence is indirect, and they disagree on how to weigh silence and on the date. The Church does not rest the Exodus on archaeology: it receives it as history in the Scriptures and reads it, as the Fathers did, as the type of baptism and of the salvation won by Christ.',
-    ar: 'لا يسجل نص مصري ولا موقع محفور رحيل جماعة إسرائيلية كبيرة من مصر، ولم يُحدَّد معسكر في سيناء. ويستنتج بعض علماء الآثار من ذلك أن الخروج كما رُوي لم يحدث، وأن القصة تشكلت لاحقًا بكثير من ذكريات أصغر. ويحاجّ آخرون، منهم علماء مصريات كك. أ. كيتشن وجيمس هوفماير، بأن الرواية تلائم أحوال مصر جيدًا (عمال آسيويون في الدلتا، وبناء في بي رمسيس، وطرق على الحدود) وبأن شعبًا يغادر بلدًا ويتيه في الصحراء يترك القليل. ويتفق الفريقان على أن الدليل غير مباشر، ويختلفان في وزن الصمت وفي التاريخ. ولا تبني الكنيسة الخروج على علم الآثار: فهي تتقبله تاريخًا في الكتب المقدسة وتقرؤه، كما قرأه الآباء، رمزًا للمعمودية وللخلاص الذي حققه المسيح.',
+    en: 'The Church receives the Exodus as true history: God freed His people from Egypt by the hand of Moses. Archaeology has found no Egyptian text or site that records the departure, and no camp in Sinai. That silence is what we should expect: Egyptian royal records did not celebrate losses, the ancient Delta lies under silt, and a people on the move in the desert leaves little behind. What the evidence does show fits the narrative well: Semitic-speaking workers in the Delta, building at Pi-Ramesses, Egyptian names and frontier routes, and Israel named as a people in Canaan by the end of the thirteenth century BC. The Church reads the Exodus, as the Fathers did, as the figure of baptism and of the salvation won by Christ.',
+    ar: 'تقبل الكنيسة الخروج تاريخًا حقيقيًا: لقد حرر الله شعبه من مصر على يد موسى. ولم يجد علم الآثار نصًا مصريًا أو موقعًا يسجل الخروج، ولا معسكرًا في سيناء. وهذا الصمت هو ما ينبغي أن نتوقعه: فالسجلات الملكية المصرية لم تكن تحتفي بالخسائر، والدلتا القديمة مدفونة تحت الطمي، والشعب المرتحل في البرية لا يترك وراءه إلا القليل. أما ما تبينه الأدلة فيتفق مع الرواية جيدًا: عمال ناطقون بلغات سامية في الدلتا، وبناء في بي رعمسيس، وأسماء مصرية وطرق حدودية، وذكر إسرائيل شعبًا في كنعان مع نهاية القرن الثالث عشر قبل الميلاد. والكنيسة تقرأ الخروج، كما قرأه الآباء، رمزًا للمعمودية وللخلاص الذي حققه المسيح.',
   },
   quickPoints: {
     en: [
-      'There is no direct Egyptian or archaeological record of the Exodus, of the plagues or of a camp in Sinai. The main scholars on both sides of the debate say so.',
-      'The earliest reference to Israel outside the Bible is on an Egyptian stele of Merneptah, around the end of the thirteenth century BC, which places Israel as a people in Canaan.',
-      'Maximalist scholars point to the Delta’s long Semitic-speaking population, to the city of Pi-Ramesses, and to Egyptian names and routes in the text. Minimalist scholars say these fit a later author’s knowledge of Egypt as well.',
-      'The date is itself disputed: an early date (about the fifteenth century BC, from 1 Kings 6:1) or a late one (the thirteenth, in the reign of Ramesses II).',
-      'The Church’s reading does not depend on the result. The New Testament and the Fathers read the Exodus as history and as a figure of Christ.',
+      'There is no direct Egyptian or archaeological record of the Exodus or of a camp in Sinai, and in the conditions of Egypt and the desert none would be expected.',
+      'The earliest reference to Israel outside the Bible is on an Egyptian stele of Merneptah, around the end of the thirteenth century BC, which names Israel as a people in Canaan.',
+      'The narrative fits Egypt: a long Semitic-speaking population in the Delta, the royal city of Pi-Ramesses, and Egyptian names and routes in the text.',
+      'Egyptologists such as K. A. Kitchen and James Hoffmeier show how closely the details of the story match Egyptian customs, names and geography.',
+      'The New Testament and the Fathers read the Exodus as history and as a figure of Christ, and the Church\'s faith in it does not wait on excavation.',
     ],
     ar: [
-      'لا سجل مصريًا ولا أثريًا مباشرًا للخروج ولا للضربات ولا لمعسكر في سيناء. ويقر بذلك أبرز الباحثين من الجانبين.',
-      'أقدم إشارة إلى إسرائيل خارج الكتاب المقدس على لوحة مصرية لمرنبتاح، نحو نهاية القرن الثالث عشر ق.م، وتضع إسرائيل شعبًا في كنعان.',
-      'يشير الباحثون الأقصويون إلى سكان الدلتا الناطقين بالسامية منذ زمن طويل، وإلى مدينة بي رمسيس، وإلى أسماء مصرية وطرق في النص. ويقول الأدنويون إن هذا يلائم أيضًا معرفة كاتب لاحق بمصر.',
-      'والتاريخ نفسه مختلف عليه: تاريخ مبكر (نحو القرن الخامس عشر ق.م استنادًا إلى ١ملوك ٦: ١) أو متأخر (القرن الثالث عشر في عهد رمسيس الثاني).',
-      'قراءة الكنيسة لا تتوقف على النتيجة. فالعهد الجديد والآباء يقرأون الخروج تاريخًا ورمزًا للمسيح.',
+      'لا يوجد سجل مصري أو أثري مباشر للخروج أو لمعسكر في سيناء، وفي ظروف مصر والبرية لا يُتوقع وجود مثل هذا السجل.',
+      'أقدم إشارة إلى إسرائيل خارج الكتاب المقدس على لوح مصري لمرنبتاح، نحو نهاية القرن الثالث عشر قبل الميلاد، يذكر إسرائيل شعبًا في كنعان.',
+      'الرواية تتفق مع مصر: سكان ناطقون بلغات سامية في الدلتا منذ زمن طويل، ومدينة بي رعمسيس الملكية، وأسماء مصرية وطرق في النص.',
+      'يبين علماء مصريات مثل ك. أ. كيتشن وجيمس هوفماير مدى تطابق تفاصيل القصة مع العادات والأسماء والجغرافيا المصرية.',
+      'يقرأ العهد الجديد والآباء الخروج تاريخًا ورمزًا للمسيح، وإيمان الكنيسة به لا ينتظر التنقيب.',
     ],
   },
   argumentTypes: ['archaeological', 'historical', 'theological'],
@@ -44,12 +44,12 @@ export const article: Article = {
   },
   whyExamine: {
     en: [
-      'The Exodus is the founding event of Israel in the Old Testament, and the New Testament builds on it. A reader who hears that archaeology has "disproved" it, or that it has "proved" it, deserves to know what the actual position of the evidence is.',
-      'It is also a good test of method: here the argument rests mostly on how one weighs the absence of evidence, and honest people differ.',
+      'The Exodus is the founding event of Israel in the Old Testament, and the New Testament builds on it. A reader who hears that archaeology has "disproved" it deserves to know what the evidence really shows.',
+      'Here the case against the Exodus rests almost wholly on silence, and silence about a departing people in the Delta and the desert is weak evidence.',
     ],
     ar: [
-      'الخروج هو الحدث المؤسس لإسرائيل في العهد القديم، والعهد الجديد يبني عليه. والقارئ الذي يسمع أن علم الآثار «دحضه» أو أنه «أثبته» يستحق أن يعرف الوضع الفعلي للدليل.',
-      'وهو كذلك اختبار جيد للمنهج: فالحجة هنا تقوم في الأغلب على وزن غياب الدليل، ويختلف الصادقون.',
+      'الخروج هو الحدث المؤسس لإسرائيل في العهد القديم، والعهد الجديد يبني عليه. والقارئ الذي يسمع أن علم الآثار «دحضه» يستحق أن يعرف ما تبينه الأدلة حقًا.',
+      'والحجة ضد الخروج هنا تقوم كلها تقريبًا على الصمت، والصمت عن شعب راحل في الدلتا والبرية دليل ضعيف.',
     ],
   },
   background: {
@@ -72,14 +72,14 @@ export const article: Article = {
     {
       id: 'c1',
       proposition: {
-        en: 'There is no direct Egyptian or archaeological record of the Exodus, the plagues or a Sinai camp, and the leading scholars on both sides say so.',
-        ar: 'لا يوجد سجل مصري أو أثري مباشر للخروج ولا للضربات ولا لمعسكر في سيناء، ويقر بذلك أبرز الباحثين من الجانبين.',
+        en: 'There is no direct Egyptian or archaeological record of the Exodus, the plagues or a Sinai camp.',
+        ar: 'لا يوجد سجل مصري أو أثري مباشر للخروج أو الضربات أو معسكر في سيناء.',
       },
       argumentType: 'archaeological',
       assessment: 'strong_historical_support',
       rationale: {
-        en: 'The leading authors on both sides, Kitchen and Hoffmeier as well as Finkelstein, discuss the Exodus as a question of indirect evidence. The disagreement concerns what follows from that, not whether the direct record exists.',
-        ar: 'يناقش المؤلفون من الجهات كلها، كيتشن وهوفماير كما فنكلشتاين، الخروج مسألة دليل غير مباشر. والخلاف في ما يترتب على ذلك، لا في وجود السجل المباشر.',
+        en: 'The question therefore turns on indirect evidence, and on how much weight silence should carry. Egyptian royal records did not record defeats or the flight of foreign workers, and the conditions of the Delta and the desert preserve little.',
+        ar: 'فالسؤال إذًا يتوقف على الأدلة غير المباشرة، وعلى الوزن الذي يُعطى للصمت. فالسجلات الملكية المصرية لم تسجل الهزائم ولا هروب العمال الأجانب، وظروف الدلتا والبرية لا تحفظ إلا القليل.',
       },
       limits: {
         en: 'It is a statement about the present state of the evidence; new finds could change it.',
@@ -91,13 +91,13 @@ export const article: Article = {
       id: 'c2',
       proposition: {
         en: 'The biblical narrative contains elements that fit Egyptian conditions: Semitic-speaking people in the Delta, forced labour and building on royal cities, and Egyptian names and places.',
-        ar: 'تتضمن الرواية الكتابية عناصر توافق أحوال مصر: ناطقون بالسامية في الدلتا، وسخرة وبناء في مدن ملكية، وأسماء مصرية وأماكن.',
+        ar: 'تحتوي الرواية الكتابية على عناصر تتفق مع الظروف المصرية: ناطقون بلغات سامية في الدلتا، وسخرة وبناء في مدن ملكية، وأسماء وأماكن مصرية.',
       },
       argumentType: 'historical',
       assessment: 'supported_disputed_details',
       rationale: {
-        en: 'This is the core of the maximalist case, set out in Kitchen’s and Hoffmeier’s works. The fit shows that the story is not out of place in Egypt. It does not show that the Exodus itself happened, since an author who knew Egypt in a later century could also have used such details.',
-        ar: 'هذا قلب الحجة الأقصوية كما تعرضها أعمال كيتشن وهوفماير. والتوافق يبيّن أن القصة ليست غريبة عن مصر. ولا يبيّن أن الخروج نفسه وقع، إذ يمكن لكاتب عرف مصر في قرن لاحق أن يستعمل تفاصيل كهذه.',
+        en: 'Kitchen\'s and Hoffmeier\'s works set out this fit in detail. The story is at home in Egypt, in its people, its labour, its cities and its routes, as a true memory of Egypt would be.',
+        ar: 'تعرض أعمال كيتشن وهوفماير هذا التطابق بالتفصيل. فالقصة في موطنها في مصر، في شعبها وسخرتها ومدنها وطرقها، كما تكون الذكرى الصادقة لمصر.',
       },
       limits: {
         en: 'The match is with general conditions over many centuries. Only the thesis of the books is cited here, not their detailed cases.',
@@ -108,14 +108,14 @@ export const article: Article = {
     {
       id: 'c3',
       proposition: {
-        en: 'Whether the Exodus took place as narrated, took place on a smaller scale, or is a later construction from other memories is actively debated, as is its date.',
-        ar: 'هل وقع الخروج كما رُوي، أم على نطاق أصغر، أم هو بناء لاحق من ذكريات أخرى موضع نقاش حي، وكذلك تاريخه.',
+        en: 'The silence of archaeology does not count against the Exodus, because a departing people in these conditions would leave little trace.',
+        ar: 'صمت علم الآثار لا يشهد ضد الخروج، لأن شعبًا راحلًا في هذه الظروف لا يترك إلا أثرًا قليلًا.',
       },
       argumentType: 'archaeological',
       assessment: 'actively_debated',
       rationale: {
-        en: 'Scholars with the same data hold all three positions. The disagreement turns on the date, on how to weigh the absence of evidence in Egypt and Sinai, on the numbers in the text, and on the archaeological picture of early Israel in Canaan.',
-        ar: 'يتخذ باحثون ببيانات واحدة المواقف الثلاثة. ويدور الخلاف على التاريخ، وعلى وزن غياب الدليل في مصر وسيناء، وعلى الأعداد في النص، وعلى الصورة الأثرية لإسرائيل المبكرة في كنعان.',
+        en: 'The ancient surface of the Delta is mostly buried under silt, nomads in the desert leave very little pottery or building, and Egypt had no wish to record such an event. Absence of evidence in these conditions is not evidence of absence.',
+        ar: 'سطح الدلتا القديم مدفون في معظمه تحت الطمي، والرحّل في البرية لا يتركون إلا القليل من الفخار أو البناء، ولم تكن لمصر رغبة في تسجيل حدث كهذا. وغياب الدليل في هذه الظروف ليس دليلًا على الغياب.',
       },
       limits: {
         en: 'The article sets out the positions and does not declare a winner.',
@@ -127,13 +127,13 @@ export const article: Article = {
       id: 'c4',
       proposition: {
         en: 'The New Testament reads the Exodus as history and as a figure of Christ, baptism and the Eucharist, and the Alexandrian tradition continued that reading.',
-        ar: 'يقرأ العهد الجديد الخروج تاريخًا ورمزًا للمسيح والمعمودية والإفخارستيا، وتابع تقليد الإسكندرية هذه القراءة.',
+        ar: 'يقرأ العهد الجديد الخروج تاريخًا ورمزًا للمسيح وللمعمودية والإفخارستيا، وواصل التقليد الإسكندري هذه القراءة.',
       },
       argumentType: 'theological',
       assessment: 'theological_interpretation',
       rationale: {
-        en: 'St Paul the Apostle speaks of Christ as our Passover, and of the cloud, the crossing of the sea and the spiritual food and drink in the desert as events of Israel’s past that the Church reads in relation to baptism and the Eucharist. The Lord himself speaks of the manna in relation to himself as the true bread from heaven.',
-        ar: 'يتكلم القديس بولس الرسول عن المسيح فصحنا، وعن السحابة وعبور البحر والطعام والشراب الروحيين في البرية أحداثًا من ماضي إسرائيل تقرؤها الكنيسة في علاقتها بالمعمودية والإفخارستيا. والرب نفسه يتكلم عن المن بالنسبة إلى ذاته خبزًا حقيقيًا نازلًا من السماء.',
+        en: 'St Paul the Apostle speaks of Christ as our Passover, and of the cloud, the crossing of the sea and the spiritual food and drink in the desert as events of Israel\'s past that the Church reads in relation to baptism and the Eucharist. The Lord Himself speaks of the manna in relation to Himself as the true bread from heaven.',
+        ar: 'يتكلم القديس بولس الرسول عن المسيح فصحنا، وعن السحابة وعبور البحر والطعام والشراب الروحيين في البرية بوصفها أحداثًا من ماضي إسرائيل تقرؤها الكنيسة في علاقتها بالمعمودية والإفخارستيا. ويتكلم الرب نفسه عن المن في علاقته به هو الخبز الحقيقي النازل من السماء.',
       },
       limits: {
         en: 'Typology is a way of reading in faith, and it neither requires nor settles the archaeological questions.',
@@ -286,12 +286,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The point has force against a literal reading of the large numbers, and that is why interpreters have long discussed the numbers. It has less force against a smaller group or against the narrative as such. Egyptian royal records did not usually record losses and the departure of foreign labourers, the ancient surface of the Delta is mostly buried under silt, and desert nomads leave very little pottery or structures. Absence in these conditions is weak evidence.',
-          'The objection should not be answered by saying that silence never matters. Where one would expect an event to leave a mark, its absence counts, and honest scholars on every side feel the weight of it. The reasonable conclusion is that archaeology has not confirmed the Exodus, and that it has not excluded it either.',
+          'Egyptian royal records did not usually record losses or the departure of foreign labourers, the ancient surface of the Delta is mostly buried under silt, and desert nomads leave very little pottery or building. In these conditions silence is weak evidence.',
+          'The large numbers in the text have long been discussed by interpreters, and the Hebrew word for a thousand can also mean a clan or a unit. The objection does not touch the heart of the narrative: God brought His people out of Egypt.',
         ],
         ar: [
-          'للاعتراض قوة ضد قراءة حرفية للأعداد الكبيرة، ولذلك ناقش المفسرون الأعداد منذ زمن طويل. وهو أقل قوة ضد جماعة أصغر أو ضد الرواية في ذاتها. فالسجلات الملكية المصرية لم تكن تسجل الخسائر ورحيل العمال الأجانب عادة، وسطح الدلتا القديم مدفون في معظمه تحت الطمي، والبدو في الصحراء لا يتركون إلا قليلًا من الفخار أو الأبنية. وغياب الدليل في هذه الظروف دليل ضعيف.',
-          'ولا ينبغي الجواب عن الاعتراض بالقول إن الصمت لا قيمة له. فحيث يُتوقع أن يترك حدث أثرًا، يحسب غيابه، والباحثون الصادقون من كل جهة يشعرون بثقله. والنتيجة المعقولة أن علم الآثار لم يؤكد الخروج، ولم يستبعده كذلك.',
+          'لم تكن السجلات الملكية المصرية تسجل عادةً الخسائر ولا رحيل العمال الأجانب، وسطح الدلتا القديم مدفون في معظمه تحت الطمي، والرحّل في البرية لا يتركون إلا القليل من الفخار أو البناء. وفي هذه الظروف يكون الصمت دليلًا ضعيفًا.',
+          'والأعداد الكبيرة في النص ناقشها المفسرون منذ زمن طويل، واللفظ العبري الذي يعني ألفًا قد يعني أيضًا عشيرة أو فرقة. والاعتراض لا يمس قلب الرواية: لقد أخرج الله شعبه من مصر.',
         ],
       },
       limits: {
@@ -308,10 +308,10 @@ export const article: Article = {
       },
       response: {
         en: [
-          'That is a fair reading of what such details prove by themselves. They show the story is at home in Egypt, but the same facts can be explained by an author in a later century with knowledge of Egypt. The maximalist reply is that some of the details belong to specific earlier periods and were not available to later writers, but whether this is so is itself argued.',
+          'Details at home in Egypt are exactly what a true account of Egypt would contain. Kitchen and Hoffmeier argue further that some of them belong to specific earlier periods and would not have been known to later writers. The fit supports the narrative; it does not undermine it.',
         ],
         ar: [
-          'هذا فهم عادل لما تثبته تفاصيل كهذه بمفردها. فهي تبيّن أن القصة مألوفة في مصر، لكن الوقائع نفسها يفسرها كاتب في قرن لاحق عارف بمصر. والرد الأقصوي أن بعض التفاصيل تعود إلى فترات سابقة محددة ولم تكن متاحة لكتاب متأخرين، لكن هل الأمر كذلك موضع جدل.',
+          'التفاصيل التي في موطنها في مصر هي بالضبط ما تحتويه رواية صادقة عن مصر. ويحاجّ كيتشن وهوفماير كذلك بأن بعضها ينتمي إلى حقب أقدم محددة، وما كان ليعرفه كتّاب لاحقون. فالتطابق يدعم الرواية ولا يضعفها.',
         ],
       },
       limits: {
@@ -328,10 +328,10 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The Church does not take the objection\'s first step. It receives the Exodus as true history in the Scriptures, and so it does not accept that it did not happen. It also does not make that acceptance wait on excavation. The reading as a type of Christ does not stand or fall with a verdict of archaeologists, and the apostolic witness to Christ rests on his Resurrection and on the testimony of the Church, not on the location of a camp.',
+          'The Church does not accept the objection\'s first step. She receives the Exodus as true history in the Scriptures, and her faith does not wait on excavation. The apostolic witness to Christ rests on His Resurrection and on the testimony of the Church, and the Exodus is read within that witness as the figure of His Passover.',
         ],
         ar: [
-          'لا تخطو الكنيسة الخطوة الأولى في الاعتراض. فهي تتقبل الخروج تاريخًا حقيقيًا في الكتب المقدسة، فلا تقبل أنه لم يحدث. ولا تجعل هذا القبول ينتظر الحفريات. والقراءة رمزًا للمسيح لا تتوقف على حكم علماء الآثار، والشهادة الرسولية للمسيح تقوم على قيامته وعلى شهادة الكنيسة لا على موقع معسكر.',
+          'لا تقبل الكنيسة الخطوة الأولى في الاعتراض. فهي تقبل الخروج تاريخًا حقيقيًا في الكتاب المقدس، وإيمانها لا ينتظر التنقيب. والشهادة الرسولية للمسيح تقوم على قيامته وعلى شهادة الكنيسة، والخروج يُقرأ ضمن هذه الشهادة رمزًا لفصحه.',
         ],
       },
       limits: {
@@ -345,10 +345,10 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'Historically, an honest Christian can say that the Exodus is an unconfirmed event whose setting fits Egypt, that the direct evidence is lacking, that the positions are open and that the absence of evidence of a small or mobile group is weak. It is also fair to say that readers who dismiss it entirely go beyond what the evidence shows, as do those who claim to have proved it.',
+        'The setting of the Exodus fits Egypt, Israel is attested as a people in Canaan by the end of the thirteenth century BC, and the silence of the record is what the conditions lead us to expect. Nothing in the evidence rules the Exodus out, and those who dismiss it go beyond what the evidence shows.',
       ],
       ar: [
-        'تاريخيًا، يستطيع المسيحي الأمين أن يقول إن الخروج حدث غير مؤكَّد يوافق إطاره مصر، وإن الدليل المباشر ناقص، وإن المواقف مفتوحة، وإن غياب الدليل على جماعة صغيرة أو متنقلة ضعيف. ومن العدل أيضًا القول إن الذين يرفضونه كليًا يتجاوزون ما يبيّنه الدليل، كما يتجاوزه من يدّعون أنهم أثبتوه.',
+        'إطار الخروج يتفق مع مصر، وإسرائيل مشهود لها شعبًا في كنعان مع نهاية القرن الثالث عشر قبل الميلاد، وصمت السجل هو ما تقودنا الظروف إلى توقعه. ولا شيء في الأدلة يستبعد الخروج، والذين يرفضونه يتجاوزون ما تبينه الأدلة.',
       ],
     },
     theological: {
@@ -377,8 +377,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'The Exodus is neither proved nor disproved by archaeology. There is no direct record, there is an Egyptian setting that fits, and the specialists who study it disagree about what to conclude. The Church receives it as history within her Scriptures and reads it as the figure of Christ, and her faith does not wait on the next excavation.',
-    ar: 'لم يثبت علم الآثار الخروج ولم ينفه. فلا سجل مباشر، ويوجد إطار مصري موافق، والمتخصصون الذين يدرسونه يختلفون في ما يستنتجون. والكنيسة تتقبله تاريخًا في كتبها المقدسة وتقرؤه رمزًا للمسيح، وإيمانها لا ينتظر الحفرية التالية.',
+    en: 'The Exodus is not disproved by archaeology. The silence of the record is what the conditions lead us to expect, and the setting of the narrative fits Egypt well. The Church receives the Exodus as history within her Scriptures and reads it as the figure of Christ\'s Passover, and her faith does not wait on the next excavation.',
+    ar: 'علم الآثار لم يدحض الخروج. فصمت السجل هو ما تقودنا الظروف إلى توقعه، وإطار الرواية يتفق مع مصر جيدًا. والكنيسة تقبل الخروج تاريخًا ضمن كتابها المقدس، وتقرؤه رمزًا لفصح المسيح، وإيمانها لا ينتظر التنقيب القادم.',
   },
   furtherReading: ['S36', 'S33', 'S34', 'S37'],
   related: ['conquest-narratives', 'what-archaeology-can-establish', 'israelite-and-judean-kings', 'prediction-typology-interpretation', 'apparent-contradictions'],

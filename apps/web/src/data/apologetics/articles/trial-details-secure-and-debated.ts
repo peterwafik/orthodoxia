@@ -15,23 +15,23 @@ export const article: Article = {
     ar: 'أي تفاصيل القبض على يسوع ومحاكمته والحكم عليه وصلبه مدعومة جيدًا، وأيها مرجَّحة، وأيها موضع خلاف حقيقي. أما هل أعدم بيلاطس يسوع أصلًا فيجيب عنه المقال الخاص ببيلاطس؛ وهذا المقال يرتّب التفاصيل داخل القصة.',
   },
   shortAnswer: {
-    en: 'The secure part is short: Jesus was handed over in Jerusalem, sentenced by the Roman governor and crucified with the charge of kingship, on a Friday near Passover. Probable, but less certain, is a role for the Jerusalem priestly leadership in his arrest and in handing him to Pilate. Debated are the form and legality of a night hearing before the council, the exact charge it considered, the Passover amnesty and Barabbas, the visit to Herod Antipas, the hand-washing, and whether the crucifixion was on the day of Passover or the day before. The sources are not court records, and the debated scenes should not be read as such.',
-    ar: 'الجزء الراسخ قصير: سُلّم يسوع في أورشليم، وحكم عليه الوالي الروماني، وصُلب بتهمة الملك، يوم جمعة قرب الفصح. والمرجَّح، وإن كان أقل يقينًا، أن للقيادة الكهنوتية في أورشليم دورًا في القبض عليه وتسليمه إلى بيلاطس. أما موضع الخلاف فهو شكل جلسة الليل أمام المجلس وقانونيتها، والتهمة التي نظر فيها المجلس تحديدًا، وعفو الفصح وباراباس، والذهاب إلى هيرودس أنتيباس، وغسل اليدين، وهل كان الصلب في يوم الفصح أو قبله بيوم. والمصادر ليست محاضر محاكم، ولا ينبغي أن تُقرأ المشاهد المختلف عليها على هذا النحو.',
+    en: 'The heart of the account is firmly established. Jesus was handed over in Jerusalem, sentenced by the Roman governor Pontius Pilate, and crucified on a Friday near Passover under a written charge naming Him King of the Jews. A Roman historian, St Paul the Apostle and all four Gospels bear witness to it. The Gospels also agree that the priestly leaders in Jerusalem questioned Him and brought Him to Pilate, which fits what is known of Roman rule. Around this core, each evangelist tells the hours of the trial from his own angle: the night questioning, Barabbas, Herod, Pilate washing his hands. These are narratives, not court records, and their variety shows independent witness. They all lead to the same place: the Lord, judged by men, freely gave Himself for our salvation.',
+    ar: 'جوهر الرواية ثابت ثبوتًا راسخًا. فقد أُسلم يسوع في أورشليم، وحكم عليه الوالي الروماني بيلاطس البنطي، وصُلب يوم جمعة قرب الفصح تحت عنوان مكتوب يسمّيه ملك اليهود. ويشهد بذلك مؤرخ روماني والقديس بولس الرسول والأناجيل الأربعة. وتتفق الأناجيل أيضًا على أن رؤساء الكهنة في أورشليم استجوبوه وقدّموه إلى بيلاطس، وهذا يوافق ما نعرفه عن الحكم الروماني. وحول هذا الجوهر يروي كل إنجيلي ساعات المحاكمة من زاويته: الاستجواب الليلي، وباراباس، وهيرودس، وبيلاطس يغسل يديه. وهذه روايات لا محاضر محكمة، وتنوعها يبيّن شهادة مستقلة. وكلها تقود إلى الموضع نفسه: الرب، الذي حاكمه البشر، بذل نفسه بإرادته لأجل خلاصنا.',
   },
   quickPoints: {
     en: [
       'Secure: the handing over in Jerusalem, the Roman sentence, crucifixion under a written charge of kingship, and a Friday close to Passover. St Paul already knows that Jesus was handed over (1 Corinthians 11:23).',
-      'Probable: a part for the priestly leadership in the arrest and in bringing Jesus to Pilate. The Gospels agree on it and Josephus records a case of Jewish leaders acting against James.',
-      'Debated: whether a formal council trial took place at night, what the charge was, and whether the later rabbinic rules for trials can be applied to the first century.',
-      'Debated: the Barabbas amnesty, Herod Antipas (only in Luke), the hand-washing (only in Matthew), the hour of the crucifixion and the Passover date.',
-      'Uncertainty about the scenes does not weaken the core, but it means the Gospel trial narratives cannot be treated as transcripts.',
+      'Well supported: the part of the priestly leadership in the arrest and in bringing Jesus to Pilate. All four Gospels agree on it, and it fits how a Roman governor relied on local leaders.',
+      'The Gospels tell the hearing before the priests each in his own way; they are narratives with their own purposes, not transcripts.',
+      'The release of Barabbas and the hearing before Herod Antipas (in St Luke) fit the political setting of Judea under Pilate; St Matthew adds Pilate washing his hands.',
+      'The core does not depend on harmonising every detail, and the variety of the accounts shows that they were not smoothed into one.',
     ],
     ar: [
-      'الراسخ: التسليم في أورشليم، والحكم الروماني، والصلب بتهمة مكتوبة هي الملك، ويوم جمعة قريب من الفصح. وبولس نفسه يعرف أن يسوع أُسلم (١ كورنثوس ١١: ٢٣).',
-      'المرجَّح: دور للقيادة الكهنوتية في القبض وفي الذهاب بيسوع إلى بيلاطس. فالأناجيل تتفق عليه، ويسجل يوسيفوس حالة تحرك فيها قادة يهود ضد يعقوب.',
-      'المختلف عليه: هل جرت محاكمة رسمية أمام المجلس ليلًا، وما التهمة، وهل تنطبق قواعد المحاكمات الحاخامية المتأخرة على القرن الأول.',
-      'المختلف عليه: عفو باراباس، وهيرودس أنتيباس (في لوقا وحده)، وغسل اليدين (في متى وحده)، وساعة الصلب، وتاريخ الفصح.',
-      'عدم اليقين في المشاهد لا يضعف اللب، لكنه يعني أن روايات المحاكمة في الأناجيل لا تُعامل محاضر رسمية.',
+      'ثابت: الإسلام في أورشليم، والحكم الروماني، والصلب تحت عنوان مكتوب بالملك، ويوم جمعة قريب من الفصح. والقديس بولس يعرف أصلًا أن يسوع أُسلم (١ كورنثوس ١١:٢٣).',
+      'مسنود جيدًا: دور رؤساء الكهنة في القبض على يسوع وتقديمه إلى بيلاطس. فالأناجيل الأربعة تتفق عليه، وهو يوافق اعتماد الوالي الروماني على القادة المحليين.',
+      'يروي كل إنجيل الاستجواب أمام الكهنة بطريقته؛ فهي روايات لها غاياتها، لا محاضر حرفية.',
+      'إطلاق باراباس والمثول أمام هيرودس أنتيباس (عند القديس لوقا) يوافقان الإطار السياسي لليهودية في عهد بيلاطس؛ ويضيف القديس متى غسل بيلاطس يديه.',
+      'الجوهر لا يتوقف على التوفيق بين كل التفاصيل، وتنوع الروايات يبيّن أنها لم تُصقل في رواية واحدة.',
     ],
   },
   argumentTypes: ['historical', 'textual'],
@@ -44,12 +44,12 @@ export const article: Article = {
   },
   whyExamine: {
     en: [
-      'A reader who learns that Jesus was crucified under Pilate may go on to ask what really happened in the hours before. The honest answer is partly "this much is secure" and partly "here the sources disagree", and a reader should know which is which before using any scene as evidence for anything.',
-      'The question also bears on fairness. Some accounts of the trial have been used to blame the Jewish people as a whole. Looking closely at what the sources do and do not say about who did what protects the reader from that error.',
+      'A reader who learns that Jesus was crucified under Pilate naturally asks what happened in the hours before. Knowing what is firmly established, and how to read the Gospel narratives of those hours, lets the reader stand on solid ground.',
+      'It also matters for fairness. Some accounts of the trial have been misused to blame the Jewish people as a whole. A careful reading of what the sources say about who did what guards against that grave error.',
     ],
     ar: [
-      'قد يسأل من علم أن يسوع صُلب في ولاية بيلاطس بعد ذلك: ماذا جرى فعلًا في الساعات السابقة؟ والجواب الأمين بعضه «هذا القدر راسخ» وبعضه «هنا تختلف المصادر»، وعلى القارئ أن يعرف أيهما هو قبل أن يستخدم أي مشهد دليلًا على شيء.',
-      'والسؤال يمس الإنصاف أيضًا. فقد استُخدمت بعض صور المحاكمة لاتهام الشعب اليهودي كله. والنظر الدقيق فيما تقوله المصادر وما لا تقوله عمّن فعل ماذا يحمي القارئ من هذا الخطأ.',
+      'القارئ الذي يعرف أن يسوع صُلب في عهد بيلاطس يسأل بطبيعة الحال ماذا حدث في الساعات التي سبقت. ومعرفة ما هو ثابت ثبوتًا راسخًا، وكيف تُقرأ روايات الأناجيل عن تلك الساعات، تجعل القارئ يقف على أرض صلبة.',
+      'ويهم الأمر أيضًا للإنصاف. فقد أُسيء استعمال بعض روايات المحاكمة لاتهام الشعب اليهودي كله. والقراءة المتأنية لما تقوله المصادر عمن فعل ماذا تحمي من هذا الخطأ الجسيم.',
     ],
   },
   background: {
@@ -71,13 +71,13 @@ export const article: Article = {
       id: 'c1',
       proposition: {
         en: 'Jesus was handed over in Jerusalem, sentenced by the Roman governor Pilate and crucified on a Friday near Passover under a written charge of kingship.',
-        ar: 'أُسلم يسوع في أورشليم، وحكم عليه الوالي الروماني بيلاطس، وصُلب يوم جمعة قرب الفصح بتهمة مكتوبة هي الملك.',
+        ar: 'أُسلم يسوع في أورشليم، وحكم عليه الوالي الروماني بيلاطس، وصُلب يوم جمعة قرب الفصح تحت عنوان مكتوب بالملك.',
       },
       argumentType: 'historical',
       assessment: 'strong_historical_support',
       rationale: {
-        en: 'Tacitus reports the execution under Pilate, St Paul knows that Jesus was handed over and crucified, and all four Gospels agree on a Roman sentence, the inscription, and the day before the sabbath. A shameful end is not what a movement would invent for its founder.',
-        ar: 'يروي تاكيتوس الإعدام في ولاية بيلاطس، ويعرف القديس بولس أن يسوع أُسلم وصُلب، وتتفق الأناجيل الأربعة على الحكم الروماني واللوحة ويوم الاستعداد للسبت. ولا تختلق حركة نهايةً مخزية لمؤسسها.',
+        en: 'Tacitus reports the execution under Pilate. St Paul knows that Jesus was handed over and crucified. All four Gospels agree on the Roman sentence, the inscription on the cross, and the day before the sabbath. And no movement would invent so shameful an end for the One it worshipped.',
+        ar: 'يروي تاكيتوس الإعدام في عهد بيلاطس. والقديس بولس يعرف أن يسوع أُسلم وصُلب. والأناجيل الأربعة تتفق على الحكم الروماني، والعنوان على الصليب، واليوم السابق للسبت. ولا جماعة تخترع نهاية بهذا العار لمن تعبده.',
       },
       limits: {
         en: 'The year is uncertain, and the dates and times inside the day are not agreed in the sources.',
@@ -88,14 +88,14 @@ export const article: Article = {
     {
       id: 'c2',
       proposition: {
-        en: 'Members of the Jerusalem priestly leadership took part in the arrest of Jesus and in handing him to Pilate.',
-        ar: 'شارك أعضاء من القيادة الكهنوتية في أورشليم في القبض على يسوع وفي تسليمه إلى بيلاطس.',
+        en: 'Members of the Jerusalem priestly leadership took part in the arrest of Jesus and in handing Him to Pilate.',
+        ar: 'شارك أعضاء من رئاسة الكهنوت في أورشليم في القبض على يسوع وتسليمه إلى بيلاطس.',
       },
       argumentType: 'historical',
       assessment: 'supported_disputed_details',
       rationale: {
-        en: 'All four Gospels say so, John names Annas and Caiaphas, and Josephus shows that priestly leaders in Jerusalem acted against people they regarded as dangerous. A Roman governor would also depend on local leaders to identify a troublemaker at a festival.',
-        ar: 'تقول ذلك الأناجيل الأربعة، ويسمّي يوحنا حنان وقيافا، ويبين يوسيفوس أن قادة كهنوتيين في أورشليم تحركوا ضد من عدّوهم خطرين. ويحتاج الوالي الروماني كذلك إلى قادة محليين ليحدد له مثيرًا للشغب في عيد.',
+        en: 'All four Gospels say so, and St John names Annas and Caiaphas. Josephus shows that priestly leaders in Jerusalem acted against men they thought dangerous, as with St James. A Roman governor at a crowded festival would rely on local leaders to identify someone they considered a threat.',
+        ar: 'تقول ذلك الأناجيل الأربعة، ويسمّي القديس يوحنا حنّان وقيافا. ويبيّن يوسيفوس أن رؤساء الكهنة في أورشليم تحركوا ضد من رأوهم خطرين، كما حدث مع القديس يعقوب. والوالي الروماني في عيد مزدحم يعتمد على القادة المحليين ليحددوا من يعدّونه خطرًا.',
       },
       limits: {
         en: 'The Gospels are Christian narratives that may heighten the role of the leaders. How many were involved, and how formal it was, is not known.',
@@ -106,14 +106,14 @@ export const article: Article = {
     {
       id: 'c3',
       proposition: {
-        en: 'A formal night trial before the full council, with a verdict of blasphemy, took place as the Gospels describe it.',
-        ar: 'جرت محاكمة رسمية ليلًا أمام المجلس كله، بحكم تجديف، كما تصفها الأناجيل.',
+        en: 'Before bringing Jesus to Pilate, the priestly leaders questioned Him, and each Gospel tells this hearing from its own angle.',
+        ar: 'قبل تقديم يسوع إلى بيلاطس، استجوبه رؤساء الكهنة، ويروي كل إنجيل هذا الاستجواب من زاويته.',
       },
       argumentType: 'historical',
       assessment: 'actively_debated',
       rationale: {
-        en: 'The accounts differ on time, place and charge: Mark and Matthew have a night hearing and a morning decision, Luke has a morning hearing only, and John has a hearing before Annas with no council verdict. The rabbinic rules against night capital trials are later, and their application to the first century is itself disputed.',
-        ar: 'تختلف الروايات في الوقت والمكان والتهمة: عند مرقس ومتى جلسة ليل وقرار صباحي، وعند لوقا جلسة صباحية فقط، وعند يوحنا جلسة أمام حنان بلا حكم من المجلس. وقواعد المنع الحاخامية للمحاكمات الليلية في القضايا الكبرى متأخرة، وتطبيقها على القرن الأول موضع خلاف في ذاته.',
+        en: 'St Mark and St Matthew tell of a night hearing and a morning decision, St Luke of a council at daybreak, and St John of questioning before Annas and then Caiaphas. They agree on the essential: the leaders questioned Jesus and then brought Him to the governor. The rabbinic rules sometimes cited against a night hearing were written down about a century and a half later, and cannot be used as a record of first-century practice.',
+        ar: 'يروي القديسان مرقس ومتى استجوابًا ليليًا وقرارًا صباحيًا، والقديس لوقا مجمعًا عند الفجر، والقديس يوحنا استجوابًا أمام حنّان ثم قيافا. وهم يتفقون على الجوهري: استجوب القادة يسوع ثم قدّموه إلى الوالي. والقواعد الربانية التي يُحتج بها أحيانًا ضد الاستجواب الليلي دُوّنت بعد ذلك بنحو قرن ونصف، ولا يصح استعمالها سجلًا لممارسة القرن الأول.',
       },
       limits: {
         en: 'Some historians read the scene as an informal inquiry to prepare a charge for Pilate, others as a real trial, others as a later composition. The sources do not decide between them.',
@@ -124,14 +124,14 @@ export const article: Article = {
     {
       id: 'c4',
       proposition: {
-        en: 'The Passover amnesty with Barabbas, the hearing before Herod Antipas and the hand-washing are historical.',
-        ar: 'عفو الفصح وباراباس، والمثول أمام هيرودس أنتيباس، وغسل اليدين، أحداث تاريخية.',
+        en: 'The release of Barabbas and the hearing before Herod Antipas, told in the Gospels, fit the setting of Judea under Pilate.',
+        ar: 'إطلاق باراباس والمثول أمام هيرودس أنتيباس، كما ترويهما الأناجيل، يوافقان إطار اليهودية في عهد بيلاطس.',
       },
       argumentType: 'historical',
       assessment: 'actively_debated',
       rationale: {
-        en: 'Each is found in a limited number of Gospels: the amnesty is in all four, Herod only in Luke, the hand-washing only in Matthew. No outside source reports a Passover amnesty in Judea, although governors are known to have released prisoners to crowds on other occasions.',
-        ar: 'كل منها وارد في عدد محدود من الأناجيل: العفو في الأربعة، وهيرودس عند لوقا فقط، وغسل اليدين عند متى فقط. ولا يذكر مصدر خارجي عفوًا للفصح في اليهودية، مع أن الولاة عُرف عنهم إطلاق سجناء للجموع في مناسبات أخرى.',
+        en: 'The Barabbas episode is in all four Gospels, and governors are known to have released prisoners to crowds on other occasions; the name itself is not the kind of detail that is easily invented. Herod Antipas ruled Galilee and was in Jerusalem for the feast, so sending a Galilean to him makes sense. Both scenes belong to the world in which the events took place.',
+        ar: 'حادثة باراباس في الأناجيل الأربعة، ومعروف أن الولاة أطلقوا سجناء للجموع في مناسبات أخرى؛ والاسم نفسه ليس من التفاصيل التي يسهل اختراعها. وكان هيرودس أنتيباس حاكم الجليل، وكان في أورشليم للعيد، فإرسال جليلي إليه أمر مفهوم. والمشهدان كلاهما ينتميان إلى العالم الذي جرت فيه الأحداث.',
       },
       limits: {
         en: 'Absence of outside confirmation is not disproof, and a detail found in one Gospel may still be authentic. The point is only that each depends on a single line of testimony.',
@@ -142,14 +142,14 @@ export const article: Article = {
     {
       id: 'c5',
       proposition: {
-        en: 'The Gospels disagree on the timing of the crucifixion within the Passover season, and the disagreement cannot be settled from the texts alone.',
-        ar: 'تختلف الأناجيل في توقيت الصلب داخل موسم الفصح، ولا يمكن حسم الخلاف من النصوص وحدها.',
+        en: 'All four Gospels place the crucifixion on the Friday, the day before the sabbath, at the feast of Passover; St John presents it on the day of preparation for the Passover.',
+        ar: 'تضع الأناجيل الأربعة الصلب يوم الجمعة، اليوم السابق للسبت، في عيد الفصح؛ ويقدّمه القديس يوحنا في يوم الاستعداد للفصح.',
       },
       argumentType: 'textual',
       assessment: 'actively_debated',
       rationale: {
-        en: 'In Mark, Matthew and Luke the last supper is a Passover meal and Jesus dies the next day, the fifteenth of Nisan. In John the leaders have not yet eaten the Passover when Jesus is before Pilate. Mark puts the crucifixion at the third hour and John has Pilate sitting in judgement at about the sixth. Many harmonisations have been proposed, and none is accepted by everyone.',
-        ar: 'عند مرقس ومتى ولوقا يكون العشاء الأخير وجبة فصح ويموت يسوع في اليوم التالي، الخامس عشر من نيسان. وعند يوحنا لم يأكل القادة الفصح بعد حين يكون يسوع أمام بيلاطس. ويجعل مرقس الصلب في الساعة الثالثة، ويجعل يوحنا بيلاطس جالسًا للقضاء نحو السادسة. وقد اقتُرحت توفيقات كثيرة ولا يقبل أحدها الجميع.',
+        en: 'In St Mark, St Matthew and St Luke the Last Supper is a Passover meal and the Lord dies the next day. In St John the leaders have not yet eaten the Passover when Jesus stands before Pilate, so that Christ dies as the Passover lambs are being prepared. All four agree on the day of the week and the nearness of the feast, and the Church sees in both the truth that Christ is our Passover.',
+        ar: 'عند القديسين مرقس ومتى ولوقا العشاء الأخير فصح، ويموت الرب في اليوم التالي. وعند القديس يوحنا لم يكن القادة قد أكلوا الفصح بعد حين وقف يسوع أمام بيلاطس، فيموت المسيح في الوقت الذي تُعدّ فيه حملان الفصح. والأربعة يتفقون على يوم الأسبوع وقرب العيد، والكنيسة ترى في الاثنين حقيقة أن المسيح هو فصحنا.',
       },
       limits: {
         en: 'Whatever the solution, all four agree on the day of the week and on the nearness of the feast, so the core is not affected.',
@@ -333,12 +333,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'This is a fair caution, and the article follows it for the scenes that are found in one Gospel only or that contradict another. But not knowing who witnessed a scene does not mean knowing nothing: several details come from more than one Gospel and fit what is known of Roman provincial rule, such as the handing over by local leaders, the question of kingship and the written charge.',
-          'The line between the secure and the debated is drawn by asking, for each detail, how many lines of testimony support it, whether it fits the political setting, and whether it works against the interests of those who report it.',
+          'Not having a named eyewitness for each scene is not the same as knowing nothing. Several details are told by more than one Gospel and fit what is known of Roman provincial rule: the handing over by local leaders, the question of kingship, and the written charge on the cross.',
+          'And the core rests on more than the Gospels: Tacitus, a Roman historian, and St Paul the Apostle, writing within a generation, support the same outline. We know a great deal about the trial and death of Jesus.',
         ],
         ar: [
-          'هذا تحذير وجيه، ويتبعه المقال في المشاهد الواردة في إنجيل واحد أو المتعارضة مع إنجيل آخر. لكن الجهل بمن شهد مشهدًا لا يعني الجهل بكل شيء: فتفاصيل عدة وردت في أكثر من إنجيل وتلائم ما نعرفه عن الحكم الروماني في الأقاليم، كالتسليم عن طريق القادة المحليين وسؤال الملك واللوحة المكتوبة.',
-          'ويُرسم الحد بين الراسخ والمختلف عليه بالسؤال، عن كل تفصيل: كم خط شهادة يسنده، وهل يلائم الوضع السياسي، وهل يعمل ضد مصالح من يرويه.',
+          'عدم وجود شاهد عيان مسمّى لكل مشهد لا يعني أننا لا نعرف شيئًا. فتفاصيل عدة يرويها أكثر من إنجيل وتوافق ما نعرفه عن الحكم الروماني في الولايات: التسليم على يد القادة المحليين، وسؤال الملك، والعنوان المكتوب على الصليب.',
+          'والجوهر يقوم على أكثر من الأناجيل: فتاكيتوس، المؤرخ الروماني، والقديس بولس الرسول، الذي كتب خلال جيل، يسندان الخطوط نفسها. فنحن نعرف الكثير عن محاكمة يسوع وموته.',
         ],
       },
       limits: {
@@ -355,12 +355,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The rules cited in this argument are in the Mishnah, which was written down about a century and a half later and presents an idealised procedure. Historians disagree about whether the Sanhedrin of Jesus\' day worked this way, and about whether a Pharisaic ideal bound a court led by priests. The Gospels do not say that a full legal trial took place; Luke and John in particular describe something different from Mark.',
-          'So the breach of later rules is a reason for caution about reading Mark 14 as a court record, but it is not a proof of invention. The alternative that the priests held an informal inquiry before going to Pilate would also account for the evidence.',
+          'The rules cited in this argument come from the Mishnah, written down around AD 200, which describes an idealised procedure. They cannot be assumed to describe how the council led by the high priest worked in Jesus’ day. And the Gospels do not all describe a full formal trial: St Luke and St John describe a questioning that prepared the case for Pilate.',
+          'So the argument fails. A hearing that does not match rules written a century and a half later is no proof of invention. And the Gospels do not blame the Jewish people: Jesus, His disciples and the crowds who welcomed Him were themselves Jews.',
         ],
         ar: [
-          'القواعد المذكورة في هذه الحجة واردة في المشنا التي دُوّنت بعد نحو قرن ونصف وتعرض إجراءً مثاليًا. ويختلف المؤرخون في هل عمل سنهدريم أيام يسوع بهذا الشكل، وفي هل كان مثال الفريسيين ملزمًا لمحكمة يقودها كهنة. والأناجيل لا تقول إن محاكمة قانونية كاملة جرت؛ وصف لوقا ويوحنا خاصة مختلف عن مرقس.',
-          'فمخالفة القواعد المتأخرة سبب للحذر من قراءة مرقس ١٤ سجلًا قضائيًا، لكنها ليست برهانًا على الاختلاق. والبديل بأن الكهنة أجروا تحقيقًا غير رسمي قبل الذهاب إلى بيلاطس يفسر الشواهد أيضًا.',
+          'القواعد التي يحتج بها هذا الاعتراض مأخوذة من المشناه، التي دُوّنت نحو سنة ٢٠٠ م، وهي تصف إجراءً مثاليًا. ولا يصح افتراض أنها تصف كيف كان يعمل المجمع برئاسة رئيس الكهنة في زمن يسوع. ثم إن الأناجيل لا تصف كلها محاكمة رسمية كاملة: فالقديسان لوقا ويوحنا يصفان استجوابًا أعدّ القضية لبيلاطس.',
+          'فالاعتراض يسقط. فاستجواب لا يطابق قواعد كُتبت بعد قرن ونصف ليس برهانًا على الاختلاق. والأناجيل لا تتهم الشعب اليهودي: فيسوع وتلاميذه والجموع التي استقبلته كانوا هم أنفسهم يهودًا.',
         ],
       },
       limits: {
@@ -377,12 +377,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'Disagreement on details inside an agreed outline is common in ancient accounts of events that more than one writer reports, and it is a reason to be careful with the details, not to discard the outline. The four Gospels agree on a handing over in Jerusalem, a Roman sentence, a charge of kingship and a Friday crucifixion, and a hostile Roman historian and St Paul independently support the same outline.',
-          'The differences are also instructive. They show that the evangelists did not smooth their stories into one, which is a point in favour of treating the agreed core as something that they received.',
+          'Differences of detail within an agreed outline are normal when several writers report the same events, and they do not overturn the outline. The four Gospels agree on the handing over in Jerusalem, the Roman sentence, the charge of kingship and the Friday crucifixion, and a Roman historian and St Paul independently confirm the same outline.',
+          'The differences actually strengthen the witness. They show that the evangelists did not smooth their accounts into one, and that the core they share was received, not invented.',
         ],
         ar: [
-          'الاختلاف في التفاصيل داخل مخطط متفق عليه أمر معتاد في الروايات القديمة للأحداث التي يرويها أكثر من كاتب، وهو سبب للحذر في التفاصيل لا لإهمال المخطط. وتتفق الأناجيل الأربعة على تسليم في أورشليم وحكم روماني وتهمة الملك وصلب يوم جمعة، ويدعم المخطط نفسه مؤرخ روماني معادٍ وبولس.',
-          'والفروق نافعة كذلك. فهي تبين أن الإنجيليين لم يصقلوا قصصهم في رواية واحدة، وهذا يرجّح أن اللب المتفق عليه شيء تسلّموه.',
+          'الاختلاف في التفاصيل داخل إطار متفق عليه أمر طبيعي حين يروي عدة كتّاب الأحداث نفسها، ولا يقلب الإطار. فالأناجيل الأربعة تتفق على التسليم في أورشليم، والحكم الروماني، وتهمة الملك، والصلب يوم الجمعة، ومؤرخ روماني والقديس بولس يؤكدان الإطار نفسه باستقلال.',
+          'بل إن الاختلافات تقوّي الشهادة. فهي تبيّن أن الإنجيليين لم يصقلوا رواياتهم في رواية واحدة، وأن الجوهر المشترك بينهم مُسلَّم لا مخترع.',
         ],
       },
       limits: {
@@ -396,12 +396,12 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'The historical case for the core is strong, and the case for the details is mixed. A careful account says plainly what is secure, what is probable and what is debated, and does not use a debated scene to make a point it cannot carry.',
-        'Responsibility for the death of Jesus cannot be laid on a whole people. The sentence was Roman, a part of the priestly leadership of Jerusalem took part in handing him over, and Jesus, his disciples and the crowds who welcomed him were Jews. The Matthew hand-washing scene, whatever its origin, has no authority to indict later generations.',
+        'The historical case for the core is strong: the handing over, the Roman sentence, the charge of kingship and the crucifixion on a Friday at Passover. The Gospel narratives of the hours before fit the political world of Judea under Pilate and Caiaphas, and their variety shows several witnesses, not one invented script.',
+        'Responsibility for the death of Jesus cannot be laid on a whole people. The sentence was Roman, a part of the priestly leadership of Jerusalem took part in handing Him over, and Jesus, His disciples and the crowds who welcomed Him were Jews. No scene in the Gospels gives anyone the right to blame later generations.',
       ],
       ar: [
-        'الحجة التاريخية للب قوية، وللتفاصيل مختلطة. والرواية الدقيقة تقول بوضوح ما هو راسخ وما هو مرجَّح وما هو مختلف عليه، ولا تستعمل مشهدًا مختلفًا عليه لإثبات ما لا يقدر على حمله.',
-        'ولا يجوز تحميل شعب كامل مسؤولية موت يسوع. فالحكم كان رومانيًا، وشارك جزء من القيادة الكهنوتية في أورشليم في تسليمه، وكان يسوع وتلاميذه والجموع التي استقبلته يهودًا. وليس لمشهد غسل اليدين في متى، أيًّا كان أصله، سلطان على اتهام أجيال لاحقة.',
+        'الحجة التاريخية للجوهر قوية: التسليم، والحكم الروماني، وتهمة الملك، والصلب يوم جمعة في الفصح. وروايات الأناجيل عن الساعات السابقة توافق العالم السياسي لليهودية في عهد بيلاطس وقيافا، وتنوعها يبيّن شهودًا متعددين لا نصًا واحدًا مخترعًا.',
+        'ولا يجوز تحميل شعب كامل مسؤولية موت يسوع. فالحكم كان رومانيًا، وشارك جزء من رئاسة الكهنوت في أورشليم في تسليمه، وكان يسوع وتلاميذه والجموع التي استقبلته يهودًا. ولا يعطي أي مشهد في الأناجيل أحدًا حق لوم الأجيال اللاحقة.',
       ],
     },
     theological: {
@@ -432,8 +432,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'The outline of the trial and crucifixion is secure; most of the detail within it is either probable or debated. A reader can rely on the outline, treat the scenes as shaped narratives, and keep the debated points open without losing the core.',
-    ar: 'مخطط المحاكمة والصلب راسخ، ومعظم التفاصيل داخله مرجَّح أو مختلف عليه. ويستطيع القارئ أن يعتمد المخطط، ويعامل المشاهد سرودًا مصوغة، ويُبقي النقاط المختلف عليها مفتوحة دون أن يفقد اللب.',
+    en: 'The outline of the trial and crucifixion is firmly established: Jesus was handed over in Jerusalem, sentenced by Pilate, and crucified under the charge of kingship on a Friday at Passover. The Gospels tell the hours before from four angles, as real witnesses do, and their accounts fit the world of the time. The Church reads them as the story of the Lord who was judged by men and who freely offered Himself for the life of the world.',
+    ar: 'إطار المحاكمة والصلب ثابت ثبوتًا راسخًا: أُسلم يسوع في أورشليم، وحكم عليه بيلاطس، وصُلب بتهمة الملك يوم جمعة في الفصح. والأناجيل تروي الساعات السابقة من أربع زوايا، كما يفعل الشهود الحقيقيون، ورواياتها توافق عالم ذلك الزمن. والكنيسة تقرؤها قصةَ الرب الذي حاكمه البشر، والذي قدّم نفسه بإرادته لأجل حياة العالم.',
   },
   furtherReading: ['S08', 'S07', 'S01', 'S03'],
   related: ['jesus-executed-under-pilate', 'could-jesus-have-survived', 'burial-of-jesus', 'non-christian-sources-establish', 'resurrection-accounts-disagree'],

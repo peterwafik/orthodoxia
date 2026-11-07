@@ -15,22 +15,22 @@ export const article: Article = {
     ar: 'تسأل هذه المقالة هل واقع أن أديان العالم تختلف في شأن الله، وأن أغلب الناس يتبعون الدين الذي نشأوا فيه، يعطي سببًا للشك في الإيمان بالله أو في المسيحية. وتميّز بين سؤال هل يوجد إله وسؤال أي دين هو الحق، وتعرض الأجوبة الثلاثة المعتادة (الحصرية، والشمولية، والتعددية)، وتذكر موقف الكنيسة القبطية الأرثوذكسية. ولا تحكم على الأديان الأخرى واحدًا واحدًا.',
   },
   shortAnswer: {
-    en: 'Disagreement among religions is real and serious, and a believer should not wave it away. But disagreement alone does not show that no one is right: people disagree about politics, history and philosophy, and truth is not thereby lost. The fact of religious diversity bears differently on two questions. On whether there is a God or a transcendent reality, most religions agree more than they disagree. On which religion is true, they disagree on essential matters, and the disagreement has to be settled by looking at the claims and evidence of each, not by counting. That one’s religion often depends on where one is born does not show it is false, though it should make a person humble and willing to examine why they believe. The Church confesses that Christ is the way and the truth, that God desires all to be saved, and that the judgement of persons belongs to God.',
-    ar: 'اختلاف الأديان حقيقي وجاد، وعلى المؤمن ألا يتجاهله. لكن الخلاف وحده لا يثبت أن لا أحد على حق: فالناس يختلفون في السياسة والتاريخ والفلسفة ولا يضيع الحق بذلك. وأثر تنوع الأديان يختلف في سؤالين. ففي هل يوجد إله أو حقيقة متعالية، تتفق أغلب الأديان أكثر مما تختلف. وفي أي دين هو الحق، تختلف في أمور جوهرية، ويُفصل الخلاف بفحص دعاوى كل منها وأدلته، لا بالعدّ. وكون دين المرء يتوقف كثيرًا على مكان ولادته لا يثبت بطلانه، وإن كان ينبغي أن يجعل الإنسان متواضعًا مستعدًا لفحص سبب إيمانه. وتعترف الكنيسة بأن المسيح هو الطريق والحق، وبأن الله يريد أن جميع الناس يخلصون، وبأن الحكم على الأشخاص لله.',
+    en: 'No. Religions really do disagree, but disagreement does not mean that no one is right. People disagree about history, science and morals, and the truth is not lost. On the first question, whether there is a God, the religions of the world largely agree. On the second, which faith tells the truth about Him, the answer is found by examining the claims, not by counting believers. Christianity rests on a claim that can be examined: that Jesus of Nazareth was crucified and rose from the dead. That one’s faith is first received from family does not make it false; it invites us to know why we believe. The Church confesses that Christ is the way, the truth and the life, that God desires all to be saved, and that the judgement of every person belongs to God.',
+    ar: 'لا. فالأديان تختلف حقًا، لكن الخلاف لا يعني أن لا أحد على حق. فالناس يختلفون في التاريخ والعلم والأخلاق، ولا يضيع الحق. وفي السؤال الأول، هل يوجد إله، تتفق أديان العالم في الغالب. وفي السؤال الثاني، أي إيمان يقول الحق عنه، يُعرف الجواب بفحص الدعاوى لا بعدّ المؤمنين. والمسيحية تقوم على دعوى يمكن فحصها: أن يسوع الناصري صُلب وقام من الأموات. وكون الإيمان يُتسلّم أولًا من الأسرة لا يجعله باطلًا؛ بل يدعونا أن نعرف لماذا نؤمن. وتعترف الكنيسة بأن المسيح هو الطريق والحق والحياة، وبأن الله يريد أن جميع الناس يخلصون، وبأن الحكم على كل إنسان لله.',
   },
   quickPoints: {
     en: [
       'Disagreement does not decide truth. Experts disagree in every field, and in many of them one side is right.',
-      'Separate two questions: is there a God or something divine (broad agreement across history), and which religion, if any, has the truth about Him (deep disagreement).',
-      'The argument from birthplace (“you would believe differently if you had been born elsewhere”) is true of nearly every belief, including scepticism, and says nothing about whether the belief is true.',
-      'Three standard views: exclusivism (one religion is true), inclusivism (one is fully true, others contain truth and may lead to it), pluralism (all are valid responses to one reality).',
+      'Separate two questions: is there a God (broad agreement across history), and which faith has the truth about Him (where the claims must be examined).',
+      'The argument from birthplace is true of nearly every belief, including scepticism, and says nothing about whether a belief is true.',
+      'Christianity rests on events in history, above all the resurrection of Christ, which can be examined.',
       'The Church confesses Christ as the way, the truth and the life, honours truth found elsewhere, and leaves the judgement of persons to God.',
     ],
     ar: [
       'الخلاف لا يحسم الحق. فالخبراء يختلفون في كل ميدان، وفي كثير منها أحد الطرفين على حق.',
-      'ميّز بين سؤالين: هل يوجد إله أو أمر إلهي (اتفاق واسع عبر التاريخ)، وأي دين، إن وُجد، يملك الحق عنه (خلاف عميق).',
-      'حجة مكان الولادة («كنت ستؤمن بغير ذلك لو وُلدت في مكان آخر») تصدق على كل اعتقاد تقريبًا، بما فيه الشك، ولا تقول شيئًا عن صدق الاعتقاد.',
-      'ثلاث رؤى معتادة: الحصرية (دين واحد حق)، والشمولية (دين واحد حق كاملًا وفي غيره حق وقد يقود إليه)، والتعددية (كلها استجابات صحيحة لحقيقة واحدة).',
+      'ميّز بين سؤالين: هل يوجد إله (اتفاق واسع عبر التاريخ)، وأي إيمان يملك الحق عنه (وهنا يجب فحص الدعاوى).',
+      'حجة مكان الولادة تصدق على كل اعتقاد تقريبًا، بما فيه الشك، ولا تقول شيئًا عن صدق الاعتقاد.',
+      'تقوم المسيحية على أحداث في التاريخ، وأولها قيامة المسيح، ويمكن فحصها.',
       'تعترف الكنيسة بالمسيح الطريق والحق والحياة، وتكرم الحق الموجود في غيره، وتترك الحكم على الأشخاص لله.',
     ],
   },
@@ -44,12 +44,12 @@ export const article: Article = {
   },
   whyExamine: {
     en: [
-      'A student, a friend or a neighbour who belongs to another religion is a normal part of life today, and so is the thought that one’s own faith might be an accident of birth. Many young believers meet the objection first in conversation and are unsure how to answer. Many seekers meet it as a reason for not committing to anything.',
-      'It is also a question on which Christians have sometimes spoken harshly or carelessly about others. A fair answer must state the Church’s conviction about Christ plainly and also treat the people of other faiths with respect.',
+      'A classmate, friend or neighbour of another religion is a normal part of life today, and so is the thought that one’s own faith might be an accident of birth. Many young believers meet this objection first in conversation and are unsure how to answer. Many seekers use it as a reason not to commit to anything.',
+      'Christians have sometimes spoken harshly or carelessly about others on this question. The right answer states the Church’s faith in Christ plainly and treats people of other faiths with love and respect.',
     ],
     ar: [
-      'صار الطالب أو الصديق أو الجار المنتمي إلى دين آخر جزءًا عاديًا من الحياة اليوم، وكذلك فكرة أن إيمان المرء قد يكون مصادفة ولادة. ويلتقي كثير من الشباب المؤمنين الاعتراض أولًا في حديث ولا يعرفون كيف يجيبون. ويلتقيه كثير من الباحثين سببًا لعدم الالتزام بأي شيء.',
-      'وهو أيضًا سؤال تكلم فيه مسيحيون أحيانًا بقسوة أو تهاون عن الآخرين. وجواب منصف يجب أن يقرر قناعة الكنيسة بالمسيح بوضوح، وأن يعامل أهل الأديان الأخرى باحترام.',
+      'صار الزميل أو الصديق أو الجار المنتمي إلى دين آخر جزءًا عاديًا من الحياة اليوم، وكذلك فكرة أن إيمان المرء قد يكون مصادفة ولادة. ويلتقي كثير من الشباب المؤمنين هذا الاعتراض أولًا في حديث ولا يعرفون كيف يجيبون. ويتخذه كثير من الباحثين سببًا لعدم الالتزام بأي شيء.',
+      'وقد تكلم مسيحيون أحيانًا بقسوة أو تهاون عن الآخرين في هذا السؤال. والجواب الصحيح يعلن إيمان الكنيسة بالمسيح بوضوح، ويعامل أهل الأديان الأخرى بمحبة واحترام.',
     ],
   },
   background: {
@@ -70,14 +70,14 @@ export const article: Article = {
     {
       id: 'c1',
       proposition: {
-        en: 'The existence of disagreement among religions does not by itself show that none of them is true, or that there is no God.',
-        ar: 'وجود الخلاف بين الأديان لا يثبت بذاته أن لا أحد منها حق أو أنه لا إله.',
+        en: 'The existence of disagreement among religions does not show that none of them is true, or that there is no God.',
+        ar: 'وجود الخلاف بين الأديان لا يثبت أن لا أحد منها صادق، ولا أن الله غير موجود.',
       },
       argumentType: 'philosophical',
       assessment: 'philosophical_argument',
       rationale: {
-        en: 'People also disagree in science, history, ethics and philosophy, yet we do not conclude that there is no truth in these fields. What disagreement can do is call for humility and for examination of one’s reasons.',
-        ar: 'يختلف الناس أيضًا في العلم والتاريخ والأخلاق والفلسفة، ولا نستنتج أن لا حق في هذه الميادين. وما يستطيعه الخلاف هو أن يدعو إلى التواضع وفحص الأسباب.',
+        en: 'People disagree in science, history, ethics and philosophy, yet no one concludes that there is no truth in these fields. Disagreement calls for careful examination of the reasons, and the Christian faith welcomes that examination.',
+        ar: 'يختلف الناس في العلم والتاريخ والأخلاق والفلسفة، ولا يستنتج أحد أن لا حق في هذه الميادين. فالخلاف يدعو إلى فحص الأسباب بعناية، والإيمان المسيحي يرحب بهذا الفحص.',
       },
       limits: {
         en: 'This answers a simple inference from disagreement to falsehood. It does not tell us which religion, if any, is correct.',
@@ -88,14 +88,14 @@ export const article: Article = {
     {
       id: 'c2',
       proposition: {
-        en: 'The question of God’s existence and the question of which religion is true are different, and the fact of religious diversity bears on them in different ways.',
-        ar: 'سؤال وجود الله وسؤال أي دين هو الحق سؤالان مختلفان، وأثر تنوع الأديان فيهما مختلف.',
+        en: 'The question of God’s existence and the question of which faith is true are different, and religious diversity bears on them in different ways.',
+        ar: 'سؤال وجود الله وسؤال أي إيمان هو الحق سؤالان مختلفان، ويؤثر تنوع الأديان في كل منهما بطريقة مختلفة.',
       },
       argumentType: 'philosophical',
       assessment: 'philosophical_argument',
       rationale: {
-        en: 'Many traditions that disagree about the details of the divine agree that there is something beyond the physical world. The disagreement is sharper on the character of God, on salvation, and on Christ. The first question is the topic of the arguments for God; the second is taken up in the articles on the historical Jesus and the resurrection.',
-        ar: 'تتفق تقاليد كثيرة تختلف في تفاصيل الإلهي على أن هناك شيئًا وراء العالم المادي. ويشتد الخلاف في طبيعة الله والخلاص والمسيح. والسؤال الأول موضوع حجج وجود الله، والثاني تتناوله مقالات يسوع التاريخي والقيامة.',
+        en: 'Across history and cultures, people have widely held that there is a reality beyond the physical world on which it depends. The deeper differences concern the character of God, salvation, and Christ. The first question is answered in the articles on the arguments for God; the second in the articles on the historical Jesus and the resurrection.',
+        ar: 'عبر التاريخ والثقافات اعتقد الناس على نطاق واسع أن هناك حقيقة وراء العالم المادي يعتمد عليها. أما الفروق الأعمق فتخص صفات الله والخلاص والمسيح. ويُجاب عن السؤال الأول في مقالات الأدلة على وجود الله، وعن الثاني في مقالات يسوع التاريخي والقيامة.',
       },
       limits: {
         en: 'Some traditions do not speak of God at all, and some hold that the divine is impersonal. The claim concerns the broad pattern, not every tradition.',
@@ -106,14 +106,14 @@ export const article: Article = {
     {
       id: 'c3',
       proposition: {
-        en: 'That a person’s religion is influenced by upbringing does not show it is false, but it is a reason for humility and for examining one’s reasons.',
-        ar: 'تأثر دين الإنسان بنشأته لا يثبت بطلانه، لكنه سبب للتواضع وفحص الأسباب.',
+        en: 'That a person’s religion is shaped by upbringing does not show it is false; it is an invitation to know the reasons for one’s faith.',
+        ar: 'كون دين الإنسان متأثرًا بنشأته لا يثبت بطلانه؛ بل هو دعوة إلى معرفة أسباب إيمانه.',
       },
       argumentType: 'philosophical',
       assessment: 'philosophical_argument',
       rationale: {
-        en: 'The origin of a belief is one thing and its truth another. This is true for beliefs in science and politics as for religion. What the point can do is prompt an honest look at the grounds of the belief.',
-        ar: 'أصل الاعتقاد شيء وصدقه شيء آخر. وهذا صحيح في معتقدات العلم والسياسة كما في الدين. وما تستطيعه هذه النقطة هو أن تدفع إلى نظر صادق في أسس الاعتقاد.',
+        en: 'Where a belief came from is one thing; whether it is true is another. This holds for beliefs in science and politics as much as in religion. Many who received the faith from their parents have examined it and found it well founded.',
+        ar: 'مصدر الاعتقاد شيء، وصدقه شيء آخر. وهذا يصدق على معتقدات العلم والسياسة كما يصدق على الدين. وكثيرون ممن تسلّموا الإيمان من آبائهم فحصوه فوجدوه راسخ الأساس.',
       },
       limits: {
         en: 'The reply applies equally to the sceptic’s own beliefs. It does not settle what the grounds of any belief are.',
@@ -124,14 +124,14 @@ export const article: Article = {
     {
       id: 'c4',
       proposition: {
-        en: 'The Church confesses that Jesus Christ is the way, the truth and the life, that God desires all people to be saved, and that the judgement of individual persons belongs to God; it also holds that human beings everywhere have some knowledge of God and of the good.',
-        ar: 'تعترف الكنيسة بأن يسوع المسيح هو الطريق والحق والحياة، وأن الله يريد أن جميع الناس يخلصون، وأن الحكم على الأشخاص لله؛ وتؤمن أيضًا بأن للناس في كل مكان بعض المعرفة بالله وبالخير.',
+        en: 'The Church confesses that Jesus Christ is the way, the truth and the life, that God desires all people to be saved, and that the judgement of every person belongs to God; she also holds that people everywhere have some knowledge of God and of the good.',
+        ar: 'تعترف الكنيسة بأن يسوع المسيح هو الطريق والحق والحياة، وبأن الله يريد أن جميع الناس يخلصون، وبأن الحكم على كل إنسان لله؛ وتعتقد أيضًا أن لدى البشر في كل مكان شيئًا من معرفة الله والخير.',
       },
       argumentType: 'theological',
       assessment: 'theological_interpretation',
       rationale: {
-        en: 'These are the teachings of Scripture and of the Fathers on Christ, on God’s will for all, and on the knowledge of God given to all. They are stated as the Church’s teaching, not as a result of the philosophical argument above.',
-        ar: 'هذه هي تعاليم الكتاب المقدس والآباء عن المسيح، وعن إرادة الله من أجل الجميع، وعن المعرفة بالله المعطاة للجميع. وتُذكر تعليمًا للكنيسة لا نتيجة للحجة الفلسفية أعلاه.',
+        en: 'This is the teaching of Scripture and the Fathers: Christ alone is Saviour, God wills the salvation of all, and the Word enlightens every human being. St Justin Martyr already taught in the second century that every truth spoken anywhere belongs to Christ.',
+        ar: 'هذا تعليم الكتاب المقدس والآباء: المسيح وحده المخلّص، والله يريد خلاص الجميع، والكلمة ينير كل إنسان. وقد علّم القديس يوستينوس الشهيد في القرن الثاني أن كل حق قيل في أي مكان هو للمسيح.',
       },
       limits: {
         en: 'A reader who does not share the faith is not asked to accept these claims in order to weigh claims 1 to 3.',
@@ -241,12 +241,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The step from “at most one is right” to “probably none is right” does not follow. Contradiction among answers to a question is what we find in every field in which there is a right answer. What it calls for is an examination of the evidence of each, not a verdict against all.',
-          'Sincerity is not evidence of truth in any field: sincere people hold mistaken views in science and history. The question is what grounds there are, and for Christianity the grounds are of a specific kind: a claim about events in history, which can be investigated.',
+          'The step from “at most one is right” to “probably none is right” does not follow. Contradictory answers are what we find in every field where there is a right answer. The right response is to examine the evidence of each, not to give a verdict against all.',
+          'Sincerity is not evidence of truth in any field; sincere people hold mistaken views in science and history. What matters is the ground of a belief, and Christianity offers a ground of a particular kind: events in history, above all the resurrection of Christ, which can be examined.',
         ],
         ar: [
-          'الانتقال من «واحد على الأكثر على حق» إلى «الأرجح أن لا أحد على حق» لا يلزم. فتناقض الأجوبة عن سؤال هو ما نجده في كل ميدان فيه جواب صحيح. وما يستدعيه هو فحص أدلة كل منها، لا حكم ضد الجميع.',
-          'والإخلاص ليس دليل صدق في أي ميدان: فالمخلصون يتمسكون بآراء خاطئة في العلم والتاريخ. والسؤال هو ما الأسس، وأساس المسيحية من نوع محدد: دعوى عن أحداث في التاريخ يمكن بحثها.',
+          'الانتقال من «واحد على الأكثر على حق» إلى «الأرجح أن لا أحد على حق» لا يلزم. فالأجوبة المتناقضة هي ما نجده في كل ميدان فيه جواب صحيح. والموقف الصحيح هو فحص أدلة كل منها، لا الحكم ضد الجميع.',
+          'والإخلاص ليس دليل صدق في أي ميدان؛ فالمخلصون يتمسكون بآراء خاطئة في العلم والتاريخ. والمهم هو أساس الاعتقاد، والمسيحية تقدم أساسًا من نوع خاص: أحداث في التاريخ، وأولها قيامة المسيح، يمكن فحصها.',
         ],
       },
       limits: {
@@ -263,12 +263,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The same could be said of almost all of our beliefs, including a person’s political outlook, trust in science, or scepticism. How a belief was acquired is separate from whether it is well founded, and many beliefs first received from parents are later examined and confirmed or changed. Conversions both ways show that upbringing does not decide the outcome.',
-          'What the objection can legitimately do is to press the believer to ask, honestly, what reasons they have for what they believe. The Church welcomes that question and the study of the faith.',
+          'The same could be said of almost all our beliefs, including a person’s politics, trust in science, or scepticism. How a belief was acquired is separate from whether it is well founded. Many beliefs first received from parents are later examined and confirmed, and conversions in both directions show that upbringing does not decide the outcome.',
+          'The real value of the objection is that it invites the believer to know the reasons for the hope within. The Church welcomes that question and encourages her children to study their faith.',
         ],
         ar: [
-          'ويمكن قول الشيء نفسه عن معظم معتقداتنا، ومنها الرؤية السياسية والثقة بالعلم والشك. وطريقة اكتساب الاعتقاد منفصلة عن كونه حسن التأسيس، وكثير من المعتقدات التي ورثناها من الآباء نفحصها لاحقًا فنؤكدها أو نغيّرها. والتحوّلات في الاتجاهين تبيّن أن النشأة لا تحسم النتيجة.',
-          'وما يستطيعه الاعتراض بحق هو أن يدفع المؤمن إلى أن يسأل نفسه بصدق ما أسباب اعتقاده. وترحب الكنيسة بهذا السؤال وبدراسة الإيمان.',
+          'ويمكن قول الشيء نفسه عن معظم معتقداتنا، ومنها الرأي السياسي والثقة بالعلم والشك. وطريقة اكتساب الاعتقاد منفصلة عن كونه راسخ الأساس. وكثير من المعتقدات التي تسلّمناها من الآباء نفحصها لاحقًا فنجدها ثابتة، والتحوّلات في الاتجاهين تبيّن أن النشأة لا تحسم النتيجة.',
+          'والقيمة الحقيقية للاعتراض أنه يدعو المؤمن إلى معرفة سبب الرجاء الذي فيه. والكنيسة ترحب بهذا السؤال، وتشجع أبناءها على دراسة إيمانهم.',
         ],
       },
       limits: {
@@ -284,12 +284,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The Church does not teach that God condemns people for the accident of birth. It confesses that God desires all to be saved, that every person has some light from the Word, and that God alone judges. What it holds is that salvation comes through Christ, and it leaves open how God reaches those who have not heard of Him.',
-          'On humility: believing that something is true is not arrogance, and pluralism too makes a claim about the truth of all religions that most religions reject. The test of humility is how one treats others and whether one is ready to give reasons and listen, not whether one holds that some claims are false.',
+          'The Church does not teach that God condemns people for the accident of birth. She confesses that God desires all to be saved, that every person has some light from the Word, and that God alone judges. She holds that salvation is in Christ, and she entrusts to God’s mercy those who have not heard of Him.',
+          'Believing that something is true is not arrogance. Pluralism also makes a claim about all religions, one that the religions themselves reject. Humility is shown in how we treat others and in our readiness to give reasons and to listen.',
         ],
         ar: [
-          'لا تعلّم الكنيسة أن الله يدين الناس بسبب مصادفة الولادة. فهي تعترف بأن الله يريد خلاص الجميع، وأن لكل إنسان نورًا من الكلمة، وأن الله وحده الديان. وما تتمسك به أن الخلاص بالمسيح، وتترك مفتوحًا كيف يبلغ الله من لم يسمعوا به.',
-          'وفي التواضع: الاعتقاد بأن شيئًا صحيح ليس غرورًا، والتعددية أيضًا تقول دعوى عن صدق كل الأديان ترفضها أغلب الأديان. ومحك التواضع هو كيف يعامل المرء غيره، وهل هو مستعد لتقديم الأسباب والإصغاء، لا هل يرى بعض الدعاوى خاطئة.',
+          'لا تعلّم الكنيسة أن الله يدين الناس بسبب مصادفة الولادة. فهي تعترف بأن الله يريد خلاص الجميع، وأن لكل إنسان نورًا من الكلمة، وأن الله وحده الديان. وتؤمن بأن الخلاص في المسيح، وتسلّم إلى رحمة الله الذين لم يسمعوا به.',
+          'والاعتقاد بأن شيئًا حق ليس غرورًا. فالتعددية أيضًا تقول دعوى عن كل الأديان، والأديان نفسها ترفضها. والتواضع يظهر في كيفية معاملتنا للآخرين، وفي استعدادنا لتقديم الأسباب والإصغاء.',
         ],
       },
       limits: {
@@ -303,10 +303,10 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'Diversity of religions is not a historical claim about Jesus. Whether Christianity is true depends largely on what happened to Jesus, which is examined in the articles on the historical Jesus and the resurrection, and on historical evidence of the sort found there, not on the number of religions in the world.',
+        'The number of religions in the world does not decide which is true. Christianity stands or falls with what happened to Jesus of Nazareth: His death under Pontius Pilate and His resurrection on the third day. That evidence is set out in the articles on the historical Jesus and the resurrection, and it is there that the question is answered.',
       ],
       ar: [
-        'تنوع الأديان ليس دعوى تاريخية عن يسوع. وصدق المسيحية يتوقف في معظمه على ما حدث ليسوع، وهو ما تفحصه مقالات يسوع التاريخي والقيامة، وعلى أدلة تاريخية من النوع الموجود فيها، لا على عدد الأديان في العالم.',
+        'عدد الأديان في العالم لا يحسم أيها الحق. فالمسيحية تقوم أو تسقط بما حدث ليسوع الناصري: موته في عهد بيلاطس البنطي وقيامته في اليوم الثالث. وهذه الشواهد معروضة في مقالات يسوع التاريخي والقيامة، وهناك يُجاب عن السؤال.',
       ],
     },
     theological: {
@@ -341,8 +341,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'The disagreement among religions is a reason for humility and for careful study, and not a refutation of belief in God or of Christianity. It calls us to ask what the evidence for each claim is, and to treat people of other faiths with respect. The Church holds Christ to be the way, the truth and the life, honours the truth found elsewhere, and entrusts every person to God’s mercy.',
-    ar: 'الخلاف بين الأديان سبب للتواضع والدراسة المتأنية، لا دحض للإيمان بالله ولا للمسيحية. وهو يدعونا إلى أن نسأل عن دليل كل دعوى، وأن نعامل أهل الأديان الأخرى باحترام. وترى الكنيسة أن المسيح هو الطريق والحق والحياة، وتكرم الحق الموجود في غيره، وتسلّم كل إنسان إلى رحمة الله.',
+    en: 'The disagreement among religions does not refute belief in God or the Christian faith. It invites us to examine the reasons, and the Christian faith rests on reasons that can be examined, above all the resurrection of Christ. The Church holds Christ to be the way, the truth and the life, honours the truth found elsewhere, treats every person with love, and entrusts all to God’s mercy.',
+    ar: 'خلاف الأديان لا يدحض الإيمان بالله ولا الإيمان المسيحي. بل يدعونا إلى فحص الأسباب، والإيمان المسيحي قائم على أسباب يمكن فحصها، وأولها قيامة المسيح. والكنيسة تؤمن بأن المسيح هو الطريق والحق والحياة، وتكرم الحق الموجود في غيره، وتعامل كل إنسان بالمحبة، وتسلّم الجميع إلى رحمة الله.',
   },
   furtherReading: ['S46', 'S50'],
   related: [

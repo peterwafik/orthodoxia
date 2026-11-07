@@ -15,23 +15,23 @@ export const article: Article = {
     ar: 'تسأل هذه المقالة لماذا تبدو الصلوات الصادقة، بل المستميتة، أحيانًا بلا جواب، أو بجواب يعاكس ما طُلب. وهي تتكلم من داخل الإيمان القبطي الأرثوذكسي، وتصف ما يقوله الكتاب المقدس عن الصلاة التي لا تُمنح، وما تفهمه الكنيسة من الصلاة، وحيث تنتهي التفسيرات. ولا تعد بأن الصلاة تنتج نتيجة، ولا توحي بأن الصلاة بلا جواب دليل على قلة الإيمان. وهي ليست بديلًا عن الرعاية الروحية.',
   },
   shortAnswer: {
-    en: 'No one knows why a particular prayer is not answered as asked, and the Church does not claim to. The Bible does not hide the experience: the Psalms cry out and wait; St Paul prayed three times about a thorn and was not relieved of it; Jesus prayed in Gethsemane that the cup might pass and it did not. What the Church teaches is that prayer is not a means of getting what we want but a relationship with a God who is wiser than we are, that the answer may be different from what was asked, delayed, or hidden, and that God remains with the person even when nothing seems to change. This is a way of understanding prayer in faith, and it is not an explanation that can be checked. It does not answer the pain of a child who died after prayer, and the article does not claim that it does.',
-    ar: 'لا أحد يعرف لماذا لا تُستجاب صلاة بعينها كما طُلب، والكنيسة لا تدّعي ذلك. والكتاب المقدس لا يخفي هذه الخبرة: فالمزامير تصرخ وتنتظر؛ وصلى القديس بولس ثلاث مرات من أجل شوكة ولم يُعفَ منها؛ وصلى يسوع في جثسيماني أن تعبر الكأس ولم تعبر. وما تعلّمه الكنيسة أن الصلاة ليست وسيلة للحصول على ما نريد بل علاقة مع إله أحكم منا، وأن الجواب قد يكون غير ما طُلب، أو متأخرًا، أو خفيًّا، وأن الله يبقى مع الإنسان حتى حين لا يبدو أن شيئًا يتغير. وهذه طريقة لفهم الصلاة بالإيمان، وليست تفسيرًا يمكن التحقق منه. وهي لا تجيب عن وجع أهل طفل مات بعد صلاة، والمقالة لا تدّعي ذلك.',
+    en: 'God hears every prayer. He answers as a loving Father who is wiser than we are: sometimes yes, sometimes not yet, sometimes with something other than what we asked, and always with His presence. The Bible does not hide the pain of waiting. The Psalms cry out and wait; St Paul the Apostle prayed three times about a thorn and was given grace instead; the Lord Himself prayed in Gethsemane that the cup might pass, and then gave Himself to the Father’s will, and the cross led to the resurrection. Prayer is not a means of getting what we want but communion with God. We do not always see why a request is not granted, but God sees, He is with us in the waiting, and in Christ death does not have the last word. An unanswered prayer is never a sign that God has stopped loving us.',
+    ar: 'الله يسمع كل صلاة. ويستجيب كأب محب أحكم منا: أحيانًا بنعم، وأحيانًا بليس الآن، وأحيانًا بشيء غير ما طلبناه، ودائمًا بحضوره. والكتاب المقدس لا يخفي ألم الانتظار. فالمزامير تصرخ وتنتظر؛ والقديس بولس الرسول صلّى ثلاث مرات من أجل الشوكة فأُعطي نعمة بدلًا منها؛ والرب نفسه صلّى في جثسيماني أن تعبر عنه الكأس، ثم سلّم نفسه لمشيئة الآب، فقاد الصليب إلى القيامة. والصلاة ليست وسيلة لنيل ما نريد بل شركة مع الله. ونحن لا نرى دائمًا لماذا لم يُستجب طلب، لكن الله يرى، وهو معنا في الانتظار، وفي المسيح ليس للموت الكلمة الأخيرة. والصلاة غير المستجابة ليست أبدًا علامة على أن الله كفّ عن محبتنا.',
   },
   quickPoints: {
     en: [
-      'The Bible records prayers that were not granted as asked: St Paul’s thorn, Jesus in Gethsemane, the lament of the Psalms.',
-      'Prayer in the Christian understanding is a relationship of trust, not a mechanism that guarantees an outcome.',
-      'The Church says that God answers in different ways: yes, no, not yet, or something else; it does not promise that we will always see which.',
-      'Unanswered prayer is not a sign of weak faith, or of sin; to say so is to repeat the mistake of Job’s friends.',
-      'None of this explains why a given prayer was not granted. It describes how believers have learned to go on praying.',
+      'The Bible records prayers that were not granted as asked: St Paul’s thorn, the Lord in Gethsemane, the lament of the Psalms.',
+      'Prayer in the Christian faith is a relationship of trust with a loving Father, not a mechanism that guarantees an outcome.',
+      'God answers in different ways: yes, not yet, or with something better than we asked; we do not always see which, but He does.',
+      'Unanswered prayer is not a sign of weak faith or of sin; to say so is to repeat the mistake of Job’s friends.',
+      'The greatest gift of prayer is God Himself: the Holy Spirit prays in us, and God remains with us even when nothing seems to change.',
     ],
     ar: [
-      'يسجّل الكتاب المقدس صلوات لم تُمنح كما طُلب: شوكة القديس بولس، ويسوع في جثسيماني، ونواح المزامير.',
-      'الصلاة في الفهم المسيحي علاقة ثقة وليست آلية تضمن نتيجة.',
-      'تقول الكنيسة إن الله يستجيب بطرق مختلفة: نعم، أو لا، أو ليس بعد، أو شيئًا آخر؛ ولا تعد بأننا سنرى دائمًا أيها.',
-      'الصلاة التي لا تُستجاب ليست علامة إيمان ضعيف أو خطية؛ وقول ذلك تكرار لخطأ أصدقاء أيوب.',
-      'لا يفسّر شيء من هذا لماذا لم تُمنح صلاة بعينها. إنه يصف كيف تعلم المؤمنون أن يواصلوا الصلاة.',
+      'يسجل الكتاب صلوات لم تُستجب كما طُلبت: شوكة القديس بولس، والرب في جثسيماني، ومراثي المزامير.',
+      'الصلاة في الإيمان المسيحي علاقة ثقة بأب محب، لا آلية تضمن نتيجة.',
+      'يستجيب الله بطرق مختلفة: نعم، أو ليس الآن، أو بشيء أفضل مما طلبنا؛ ونحن لا نرى دائمًا أيها، لكنه يرى.',
+      'الصلاة غير المستجابة ليست علامة على ضعف الإيمان أو على الخطية؛ والقول بذلك تكرار لخطأ أصحاب أيوب.',
+      'أعظم عطايا الصلاة هو الله نفسه: الروح القدس يصلي فينا، والله يبقى معنا حتى حين يبدو أن شيئًا لا يتغير.',
     ],
   },
   argumentTypes: ['theological', 'philosophical'],
@@ -44,12 +44,12 @@ export const article: Article = {
   },
   whyExamine: {
     en: [
-      'For many believers this is where faith is most tested. They have asked for a healing, a reconciliation, a job, the life of someone they love, and the answer was no or silence. A confident theory can feel like an insult. A fair treatment begins by saying that the experience is real and that the Bible does not pretend otherwise.',
-      'It is also important to see what is being asked. Some are asking whether prayer works at all. Others are asking how to go on praying after being let down. These are different questions, and the second is more pressing for most people.',
+      'For many believers this is where faith is most tested. They have asked for a healing, a reconciliation, a job, the life of someone they love, and the answer was no, or silence. Easy answers can wound. The right place to begin is to say that the experience is real, and that the Bible itself knows it.',
+      'It also helps to see what is really being asked. Some ask whether prayer works at all. Most are asking how to go on praying after being let down. The Church’s answer speaks to both, and especially to the second.',
     ],
     ar: [
-      'عند كثير من المؤمنين هنا يُمتحن الإيمان أشد الامتحان. سألوا شفاءً أو مصالحة أو عملًا أو حياة من يحبون، فكان الجواب لا أو الصمت. ونظرية واثقة قد تبدو إهانة. والمعالجة العادلة تبدأ بالقول إن الخبرة حقيقية وإن الكتاب المقدس لا يتظاهر بغير ذلك.',
-      'ومن المهم أن نرى ما الذي يُسأل عنه. بعضهم يسأل: هل الصلاة تعمل أصلًا؟ وآخرون يسألون: كيف أواصل الصلاة بعد أن خاب أملي؟ سؤالان مختلفان، والثاني أكثر إلحاحًا عند أكثر الناس.',
+      'لكثير من المؤمنين هنا يُمتحن الإيمان أكثر من أي موضع. فقد طلبوا شفاءً أو مصالحة أو عملًا أو حياة من يحبون، وكان الجواب لا، أو صمتًا. والأجوبة السهلة قد تجرح. والبداية الصحيحة أن نقول إن الخبرة حقيقية، وإن الكتاب نفسه يعرفها.',
+      'ويساعد أيضًا أن نرى ما يُسأل حقًا. فبعضهم يسأل هل للصلاة أثر أصلًا. وأكثرهم يسأل كيف يواصل الصلاة بعد خيبة. وجواب الكنيسة يخاطب الاثنين، والثاني خاصة.',
     ],
   },
   background: {
@@ -69,13 +69,13 @@ export const article: Article = {
       id: 'c1',
       proposition: {
         en: 'The Bible itself records prayers that were not granted as asked, and it does not treat them as signs of weak faith.',
-        ar: 'يسجّل الكتاب المقدس نفسه صلوات لم تُمنح كما طُلب، ولا يعدّها علامات إيمان ضعيف.',
+        ar: 'يسجل الكتاب نفسه صلوات لم تُستجب كما طُلبت، ولا يعاملها علامات على ضعف الإيمان.',
       },
       argumentType: 'textual',
       assessment: 'strong_historical_support',
       rationale: {
-        en: 'St Paul’s request about the thorn, Jesus’ prayer in Gethsemane and the lament Psalms are plain in the texts cited. This is a claim about what the texts contain.',
-        ar: 'طلب القديس بولس عن الشوكة، وصلاة يسوع في جثسيماني، ومزامير النواح واضحة في النصوص المذكورة. وهذه دعوى عمّا تتضمنه النصوص.',
+        en: 'St Paul’s prayer about the thorn, the Lord’s prayer in Gethsemane and the lament Psalms are plain in the texts. The saints of Scripture knew this experience, and their faith was not weak but deep.',
+        ar: 'صلاة القديس بولس من أجل الشوكة، وصلاة الرب في جثسيماني، ومزامير الرثاء، واضحة في النصوص. فقديسو الكتاب عرفوا هذه الخبرة، ولم يكن إيمانهم ضعيفًا بل عميقًا.',
       },
       limits: {
         en: 'It shows that the tradition knows the experience; it does not explain why any prayer is unanswered.',
@@ -86,14 +86,14 @@ export const article: Article = {
     {
       id: 'c2',
       proposition: {
-        en: 'In the Christian understanding prayer is a relationship of trust in which the one who prays asks and also submits to God’s will, and not a means of securing outcomes.',
-        ar: 'الصلاة في الفهم المسيحي علاقة ثقة يسأل فيها المصلي ويخضع أيضًا لمشيئة الله، وليست وسيلة لضمان نتائج.',
+        en: 'In the Christian faith prayer is a relationship of trust in which the one who prays asks and also gives himself to God’s will, not a means of securing outcomes.',
+        ar: 'الصلاة في الإيمان المسيحي علاقة ثقة يطلب فيها المصلي ويسلّم نفسه أيضًا لمشيئة الله، لا وسيلة لضمان النتائج.',
       },
       argumentType: 'theological',
       assessment: 'theological_interpretation',
       rationale: {
-        en: 'The Lord’s Prayer, Jesus’ own prayer in Gethsemane and the letters of James and John put asking together with surrender to God’s will. This is the interpretation the Church holds.',
-        ar: 'تجمع الصلاة الربانية وصلاة يسوع في جثسيماني ورسالتا يعقوب ويوحنا بين السؤال والتسليم لمشيئة الله. وهذا التفسير الذي تتمسك به الكنيسة.',
+        en: 'The Lord’s Prayer, the Lord’s own prayer in Gethsemane, and the letters of St James and St John join asking with surrender to God’s will. We ask boldly, as children, and we trust the Father who knows what we need.',
+        ar: 'الصلاة الربانية، وصلاة الرب نفسه في جثسيماني، ورسالتا القديسين يعقوب ويوحنا، تجمع الطلب مع التسليم لمشيئة الله. فنحن نطلب بدالة، كأبناء، ونثق بالآب الذي يعرف ما نحتاج إليه.',
       },
       limits: {
         en: 'Those who hold a different view of prayer, including those who think prayer has no effect outside the one who prays, will read the texts differently.',
@@ -104,14 +104,14 @@ export const article: Article = {
     {
       id: 'c3',
       proposition: {
-        en: 'The Scriptures describe delay and apparent refusal as sometimes preceding a different and greater outcome, and urge persistence, without promising that every request will be met.',
-        ar: 'تصف الكتب التأخير والرفض الظاهر أحيانًا سابقًا لنتيجة مختلفة وأعظم، وتحث على المثابرة، دون أن تعد بتلبية كل طلب.',
+        en: 'The Scriptures show delay and apparent refusal sometimes preceding a different and greater outcome, and they call us to persist in prayer.',
+        ar: 'يُظهر الكتاب أن التأخير والرفض الظاهر يسبقان أحيانًا نتيجة مختلفة وأعظم، ويدعونا إلى المثابرة في الصلاة.',
       },
       argumentType: 'textual',
       assessment: 'supported_disputed_details',
       rationale: {
-        en: 'The story of Lazarus (John 11) shows Jesus delaying for days and raising a man already dead; the parables of the persistent friend and the widow urge persistence. The same Scriptures also record that James was killed while Peter was freed (Acts 12), which shows that the pattern is not a rule.',
-        ar: 'تبيّن قصة لعازر (يوحنا 11) يسوع يتأخر أيامًا ثم يقيم رجلًا ميتًا؛ ويحث مثل الصديق الملح والأرملة على المثابرة. وتسجل الكتب نفسها أيضًا أن يعقوب قُتل وبطرس أُطلق (أعمال 12)، وهذا يبيّن أن النمط ليس قاعدة.',
+        en: 'At Bethany the Lord waited two days, wept with the sisters, and raised Lazarus who was already dead. The parables of the persistent friend and the widow call us to keep asking, and the Lord promises that the Father will give the Holy Spirit to those who ask. The same Scriptures show St James killed while St Peter was freed, so we do not make the pattern a rule; we trust the Father in both.',
+        ar: 'في بيت عنيا انتظر الرب يومين، وبكى مع الأختين، وأقام لعازر الذي كان قد مات. وأمثال الصديق الملحّ والأرملة تدعونا إلى مواصلة الطلب، والرب يعد بأن الآب يعطي الروح القدس للذين يسألونه. والكتاب نفسه يُظهر القديس يعقوب يُقتل بينما يُحرَّر القديس بطرس، فلا نجعل النمط قاعدة؛ بل نثق بالآب في الحالتين.',
       },
       limits: {
         en: 'These stories can be told in a way that makes every refusal look like a hidden gift. The Scriptures do not say so, and the Church does not say that every delayed answer is later seen to be good.',
@@ -122,14 +122,14 @@ export const article: Article = {
     {
       id: 'c4',
       proposition: {
-        en: 'The Church teaches that God is present with the one who prays, through the Spirit, even where nothing seems to change.',
-        ar: 'تعلّم الكنيسة أن الله حاضر مع المصلي بالروح حتى حيث لا يبدو أن شيئًا يتغير.',
+        en: 'God is present with the one who prays, through the Holy Spirit, even where nothing seems to change.',
+        ar: 'الله حاضر مع المصلي بالروح القدس، حتى حين يبدو أن شيئًا لا يتغير.',
       },
       argumentType: 'theological',
       assessment: 'theological_interpretation',
       rationale: {
-        en: 'St Paul says that the Spirit helps us in our weakness and prays for us when we do not know how to pray. This is a statement of faith.',
-        ar: 'يقول القديس بولس إن الروح يعين ضعفاتنا ويشفع فينا حين لا نعرف كيف نصلي. وهذه عبارة إيمان.',
+        en: 'St Paul the Apostle says that the Spirit helps us in our weakness and prays for us with sighs too deep for words when we do not know how to pray. No prayer, however weak or confused, falls outside God’s care.',
+        ar: 'يقول القديس بولس الرسول إن الروح يعين ضعفاتنا ويشفع فينا بأنّات لا يُنطق بها حين لا نعرف كيف نصلي. فلا صلاة، مهما كانت ضعيفة أو مرتبكة، تقع خارج رعاية الله.',
       },
       limits: {
         en: 'Presence is not something anyone can demonstrate. A person who experiences only silence may not find this comforting.',
@@ -286,12 +286,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The objection is right that the claim, understood as a prediction of outcomes, would be unfalsifiable. The Church does not understand prayer chiefly as a prediction. Prayer is a relationship, and what is claimed is that God is present and hears, not that a given request will succeed.',
-          'Studies of whether intercessory prayer changes medical outcomes exist, with mixed and disputed results, and the article does not rely on them. The Christian view is not that prayer is a technique to be tested like a drug.',
+          'The objection treats prayer as a prediction of outcomes, like a test of a medicine. That is not what Christian prayer is. Prayer is a relationship with a living Person, and what the Church proclaims is that God is present and hears, not that every request will be granted as asked.',
+          'A child who asks his father for many things does not test whether his father exists by counting the yeses. He knows his father by living with him. So it is with prayer: believers come to know God in it, and they find that He is faithful.',
         ],
         ar: [
-          'الاعتراض محق في أن الدعوى، إن فُهمت تنبؤًا بالنتائج، لا يمكن دحضها. والكنيسة لا تفهم الصلاة تنبؤًا في المقام الأول. فالصلاة علاقة، والمدّعى أن الله حاضر ويسمع، لا أن طلبًا بعينه سينجح.',
-          'وتوجد دراسات عن هل تغيّر صلاة الشفاعة النتائج الطبية، بنتائج متباينة ومتنازع عليها، والمقالة لا تعتمد عليها. والرؤية المسيحية ليست أن الصلاة تقنية تُختبر كدواء.',
+          'يعامل الاعتراض الصلاة كأنها تنبؤ بالنتائج، مثل اختبار دواء. وليست هذه هي الصلاة المسيحية. فالصلاة علاقة بشخص حي، وما تعلنه الكنيسة أن الله حاضر ويسمع، لا أن كل طلب سيُستجاب كما طُلب.',
+          'والطفل الذي يطلب من أبيه أشياء كثيرة لا يختبر وجود أبيه بعدّ مرات القبول. بل يعرف أباه بالعيش معه. وهكذا الصلاة: فيها يعرف المؤمنون الله، ويجدون أنه أمين.',
         ],
       },
       limits: {
@@ -307,12 +307,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'These sentences are often misused, and the Church should not say them to people in the first shock of grief. The Bible allows Martha’s complaint and Jesus’ tears; it does not tell the bereaved that the loss was good. The tradition speaks of death as an enemy, and the answer of faith is not that the prayer was secretly granted but that God is with the grieving and that death will not have the last word.',
-          'For the philosophical side of the question, see the articles on suffering. This article cannot say why a particular child died.',
+          'Such words must never be used to silence grief. The Bible allows Martha’s complaint and records the Lord’s tears at the tomb of His friend. It does not call death good; it calls death an enemy, the last enemy to be destroyed.',
+          'The answer of faith is not that the prayer was secretly granted. It is that God is with the grieving, that Christ Himself entered death, and that He has broken its power. The child who died is held in the love of God, and the Church lives in the hope of the resurrection.',
         ],
         ar: [
-          'كثيرًا ما تُساء هذه العبارات، وليس للكنيسة أن تقولها لمن هم في صدمة الحزن الأولى. والكتاب المقدس يسمح بشكوى مرثا وبكاء يسوع؛ ولا يقول للثكالى إن الفقد كان خيرًا. ويتكلم التقليد عن الموت عدوًّا، وجواب الإيمان ليس أن الصلاة مُنحت سرًّا بل أن الله مع الحزانى وأن الموت لن تكون له الكلمة الأخيرة.',
-          'وللجانب الفلسفي من السؤال انظر المقالات عن الألم. ولا تستطيع هذه المقالة أن تقول لماذا مات طفل بعينه.',
+          'لا يجوز أبدًا استعمال مثل هذه الكلمات لإسكات الحزن. فالكتاب يسمح بعتاب مرثا، ويسجل دموع الرب عند قبر صديقه. ولا يسمي الموت خيرًا؛ بل يسميه عدوًا، آخر عدو يُبطل.',
+          'وجواب الإيمان ليس أن الصلاة استُجيبت سرًا. بل أن الله مع الحزانى، وأن المسيح نفسه دخل الموت، وكسر سلطانه. والطفل الذي رقد محفوظ في محبة الله، والكنيسة تعيش في رجاء القيامة.',
         ],
       },
       limits: {
@@ -329,12 +329,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'This teaching is a mistake and a harmful one. The Book of Job stands against it, since Job’s friends make this argument and are rebuked. St Paul’s prayer was not granted, and Jesus’ was not granted as asked, and neither is accused of unbelief.',
-          'Passages that speak of faith moving mountains are not promises of a guaranteed result. The Church’s pastors are asked never to add guilt to grief.',
+          'This teaching is a mistake, and a harmful one. The Book of Job stands against it: Job’s friends make exactly this argument and God rebukes them. St Paul’s prayer was not granted, and the Lord’s was not granted as asked, and no one accuses them of unbelief.',
+          'The words about faith moving mountains are not a promise of guaranteed results. The Church teaches her pastors never to add guilt to grief, and she tells every sufferer that God is near to the broken-hearted.',
         ],
         ar: [
-          'هذا التعليم خطأ وضارّ. وسفر أيوب يقف ضده، فأصدقاء أيوب يحتجون بهذه الحجة ويوبَّخون. وصلاة القديس بولس لم تُمنح، وصلاة يسوع لم تُمنح كما طُلب، ولا يُتهم أحدهما بعدم الإيمان.',
-          'والفقرات التي تتكلم عن إيمان ينقل الجبال ليست وعودًا بنتيجة مضمونة. ويُطلب من رعاة الكنيسة ألا يضيفوا ذنبًا إلى الحزن.',
+          'هذا التعليم خطأ، وخطأ مؤذٍ. فسفر أيوب يقف ضده: إذ يقدّم أصحاب أيوب هذه الحجة بالضبط فيوبخهم الله. وصلاة القديس بولس لم تُستجب، وصلاة الرب لم تُستجب كما طُلبت، ولا أحد يتهمهما بعدم الإيمان.',
+          'وكلمات الإيمان الذي ينقل الجبال ليست وعدًا بنتائج مضمونة. والكنيسة تعلّم رعاتها ألا يضيفوا أبدًا ذنبًا إلى حزن، وتقول لكل متألم إن الله قريب من المنكسري القلوب.',
         ],
       },
       limits: {
@@ -348,10 +348,10 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'There is no historical argument to set out here. The question is theological and pastoral. The passages used are read as ancient documents that show what the tradition says about prayer.',
+        'This question is pastoral and theological rather than historical. The Scriptures show how the people of God have always prayed: with trust, with persistence, and with honest lament when the answer was hidden.',
       ],
       ar: [
-        'لا توجد حجة تاريخية تُعرض هنا. فالسؤال لاهوتي ورعوي. وتُقرأ الفقرات المستعملة وثائق قديمة تبيّن ما يقوله التقليد عن الصلاة.',
+        'هذا السؤال رعوي ولاهوتي أكثر منه تاريخي. والكتاب يبيّن كيف صلّى شعب الله دائمًا: بثقة، وبمثابرة، وبرثاء صادق حين كان الجواب مخفيًا.',
       ],
     },
     theological: {
@@ -384,8 +384,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'The Bible and the Church admit that sincere prayers are sometimes not granted as asked, and no one can say why in a given case. What they offer is a view of prayer as a relationship of trust, the example of St Paul and of Christ praying honestly without being spared, and the claim that God is present even when nothing seems to change. It is not an explanation, and no one should be told that their unanswered prayer was their fault.',
-    ar: 'يقرّ الكتاب المقدس والكنيسة بأن الصلوات الصادقة تُمنح أحيانًا بغير ما طُلب، ولا أحد يستطيع أن يقول لماذا في حالة بعينها. وما يقدمانه هو رؤية للصلاة علاقةَ ثقة، ومثال القديس بولس والمسيح يصليان بصدق دون أن يُعفيا، ودعوى أن الله حاضر حتى حين لا يبدو أن شيئًا يتغير. وهذا ليس تفسيرًا، ولا ينبغي أن يُقال لأحد إن صلاته التي لم تُستجب كانت ذنبه.',
+    en: 'Sincere prayers are sometimes not granted as asked, and the Bible says so openly. God still hears every prayer and answers as a loving Father, often in ways we see only later, and always with His presence. The Lord Himself prayed and was not spared the cross, and through the cross came the resurrection. So the Christian keeps praying, honestly and with hope, and no one should ever be told that an unanswered prayer was their fault.',
+    ar: 'لا تُستجاب الصلوات الصادقة أحيانًا كما طُلبت، والكتاب يقول ذلك صراحة. لكن الله يسمع كل صلاة ويستجيب كأب محب، كثيرًا بطرق لا نراها إلا لاحقًا، ودائمًا بحضوره. والرب نفسه صلّى ولم يُعفَ من الصليب، وبالصليب جاءت القيامة. لذلك يواصل المسيحي الصلاة، بصدق ورجاء، ولا يجوز أن يُقال لأحد أبدًا إن صلاته غير المستجابة كانت ذنبه.',
   },
   furtherReading: ['S62'],
   related: ['hidden-or-suffering', 'why-does-god-allow-suffering', 'why-god-is-not-clearer', 'is-doubt-sinful', 'children-and-animals-suffer', 'evaluating-miracle-claims'],

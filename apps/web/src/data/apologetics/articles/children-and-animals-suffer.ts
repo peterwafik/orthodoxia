@@ -15,20 +15,20 @@ export const article: Article = {
     ar: 'تتناول هذه المقالة الصيغة من مشكلة الشر التي يراها كثيرون الأصعب: ألم من لا يمكن أن يكونوا قد استحقوه، ولا يفهمونه، ولا يمكن القول في الحيوان إنه يتكوّن أخلاقيًا بسببه. وتعرض الحجة كما يعرضها أصحابها، والردود التي قدّمها المفكرون المسيحيون وأين تضعف، وما يقوله الكتاب المقدس والتقليد القبطي الأرثوذكسي عن الأطفال والمخلوقات. وهي لا تقدّم عزاءً في صورة تفسير، ولا تدّعي أن للسؤال جوابًا كاملًا.',
   },
   shortAnswer: {
-    en: 'Here the usual replies are at their weakest, and an honest answer begins by saying so. A child cannot be said to suffer for a lesson it can grasp, and an animal’s pain does not serve its moral growth; some of this suffering comes from no human choice at all. Christian thought does not claim to justify it. It makes three claims instead. First, creation is fallen and incomplete, not as God intends it. Second, God does not stand apart: he has entered the suffering of the innocent in the cross of Christ, and the Scriptures treat the death of children as a grief to God. Third, the hope of resurrection and renewal includes those who suffered without understanding. These are claims of faith; they leave the evidential argument standing, and a reader may fairly find that it still counts against belief.',
-    ar: 'هنا تكون الردود المعتادة في أضعف حالاتها، والجواب الأمين يبدأ بقول ذلك. فلا يمكن القول إن الطفل يتألم لدرس يستطيع فهمه، ولا إن ألم الحيوان يخدم نموه الأخلاقي؛ وبعض هذا الألم لا يأتي من اختيار بشري على الإطلاق. والفكر المسيحي لا يدّعي تبريره. بل يقدّم ثلاث دعاوى. الأولى: الخليقة ساقطة وغير مكتملة، وليست كما يريدها الله. الثانية: الله لا يقف بعيدًا، فقد دخل ألم الأبرياء في صليب المسيح، وتعامل الكتب موت الأطفال حزنًا عند الله. الثالثة: رجاء القيامة والتجديد يشمل الذين تألموا دون أن يفهموا. وهذه دعاوى إيمان؛ وهي تترك الحجة الاستدلالية قائمة، ومن حق القارئ أن يرى أنها ما زالت تشهد ضد الإيمان.',
+    en: 'The suffering of a child or an animal is not God’s will and not a punishment. A child does not suffer for a lesson, and an animal’s pain does not make it better. The Church does not pretend otherwise, and she does not call such suffering good. She teaches three things. First, creation is wounded by death and not yet as God intends it; death is an enemy. Second, God does not stand apart: in Christ He became a little child, and on the cross He entered the suffering of the innocent, and the Scriptures show God grieving with those who mourn their children. Third, Christ is risen, and God will wipe away every tear and make all things new, and those who suffered without understanding are not lost to Him.',
+    ar: 'ألم الطفل أو الحيوان ليس مشيئة الله ولا عقابًا. فالطفل لا يتألم ليتعلم درسًا، وألم الحيوان لا يجعله أفضل. والكنيسة لا تدّعي غير ذلك، ولا تسمّي هذا الألم خيرًا. بل تعلّم ثلاثة أمور. الأول: الخليقة مجروحة بالموت وليست بعدُ كما يريدها الله؛ والموت عدو. الثاني: الله لا يقف بعيدًا: ففي المسيح صار طفلًا صغيرًا، وعلى الصليب دخل ألم الأبرياء، والكتب تُظهر الله حزينًا مع من ينوحون على أولادهم. الثالث: المسيح قام، والله سيمسح كل دمعة ويجعل كل شيء جديدًا، والذين تألموا دون أن يفهموا ليسوا ضائعين عنده.',
   },
   quickPoints: {
     en: [
-      'The argument: those who suffer here cannot have deserved it or learned from it, so the usual replies (freedom, growth, punishment) do not seem to apply.',
-      'Philosophers use the case of an animal suffering in a fire that no one witnessed to make the point; some theists reply that we cannot know what God has reasons for, and critics find that unsatisfying.',
+      'Those who suffer here did not deserve it and do not learn from it; the Church never says they did.',
+      'We cannot see all of God’s purposes from inside a single moment of history, but we can see who God is in Christ.',
       'Christianity does not say that children’s suffering is a punishment or is secretly good. It calls death an enemy.',
       'The Bible gives grief at the death of children a voice (the lament of Rachel) and places animals within God’s care and the hope of renewal.',
       'The Christian answer is God’s presence in the cross and the hope of resurrection, not an explanation of why.',
     ],
     ar: [
-      'الحجة: الذين يتألمون هنا لا يمكن أن يكونوا استحقوا ذلك ولا تعلّموا منه، فالردود المعتادة (الحرية، والنمو، والعقاب) لا تبدو منطبقة.',
-      'يستعمل الفلاسفة حالة ظبي يتألم في حريق لم يشهده أحد لتوضيح النقطة؛ ويردّ بعض المؤمنين بأننا لا نعرف لماذا لله أسبابه، ويرى الناقدون ذلك غير مرضٍ.',
+      'الذين يتألمون هنا لم يستحقوا ذلك ولا يتعلمون منه؛ والكنيسة لا تقول قط إنهم استحقوه.',
+      'لا نستطيع أن نرى كل مقاصد الله من داخل لحظة واحدة من التاريخ، لكننا نستطيع أن نرى من هو الله في المسيح.',
       'لا تقول المسيحية إن ألم الأطفال عقاب أو خير خفي. إنها تسمّي الموت عدوًّا.',
       'يعطي الكتاب المقدس لحزن موت الأطفال صوتًا (نوح راحيل) ويضع الحيوان في عناية الله ورجاء التجديد.',
       'الجواب المسيحي هو حضور الله في الصليب ورجاء القيامة، لا تفسير للسبب.',
@@ -44,12 +44,12 @@ export const article: Article = {
   },
   whyExamine: {
     en: [
-      'Anyone who has sat by a sick child, or seen an animal in pain that could not be eased, knows that no argument comes first. This article does not ask the reader to agree that it can be explained. It asks that the objection be stated at its full strength, because a reply to a weakened version is no reply.',
-      'It is also a place where the Christian tradition has often chosen silence over explanation. That is not evasion; it is a recognition that some griefs are answered, if at all, by presence and hope.',
+      'Anyone who has sat by a sick child, or seen an animal in pain that could not be eased, knows that no argument comes first. This question deserves to be faced honestly and at its full weight, and the Christian faith can face it.',
+      'Here the Church often answers less with explanations than with presence: the presence of Christ who suffered, and the presence of His people beside those who grieve. That is not evasion; it is the way God Himself answered, by coming to us.',
     ],
     ar: [
-      'من جلس بجانب طفل مريض، أو رأى حيوانًا في ألم لا يخف، يعرف أن لا حجة تأتي أولًا. ولا تطلب المقالة من القارئ أن يوافق على أن الأمر يمكن تفسيره. إنها تطلب أن يُعرض الاعتراض بكامل قوته، لأن الرد على صيغة مضعفة ليس ردًّا.',
-      'وهذا أيضًا موضع اختار فيه التقليد المسيحي كثيرًا الصمت على التفسير. وليس ذلك مراوغة؛ إنه إقرار بأن بعض الأحزان لا يُجاب عنها، إن أمكن، إلا بالحضور والرجاء.',
+      'من جلس بجانب طفل مريض، أو رأى حيوانًا في ألم لا يخف، يعرف أن لا حجة تأتي أولًا. وهذا السؤال يستحق أن يُواجَه بأمانة وبكامل ثقله، والإيمان المسيحي يستطيع أن يواجهه.',
+      'وهنا كثيرًا ما تجيب الكنيسة بالحضور أكثر من التفسير: حضور المسيح الذي تألم، وحضور شعبه بجانب الحزانى. وليس ذلك مراوغة؛ بل هي الطريقة التي أجاب بها الله نفسه، إذ جاء إلينا.',
     ],
   },
   background: {
@@ -68,14 +68,14 @@ export const article: Article = {
     {
       id: 'c1',
       proposition: {
-        en: 'The suffering of children and of animals is a hard case for the usual replies, because freedom, desert and moral formation do not obviously apply to it, and philosophers who defend belief in God generally acknowledge this.',
-        ar: 'ألم الأطفال والحيوان حالة صعبة على الردود المعتادة، لأن الحرية والاستحقاق والتكوين الأخلاقي لا تنطبق عليه بوضوح، والفلاسفة المدافعون عن الإيمان بالله يقرّون بذلك عمومًا.',
+        en: 'The suffering of children and animals is not deserved and is not a lesson; the Christian answer does not rest on pretending that it is.',
+        ar: 'ألم الأطفال والحيوان ليس مستحقًا وليس درسًا؛ والجواب المسيحي لا يقوم على ادعاء غير ذلك.',
       },
       argumentType: 'philosophical',
       assessment: 'philosophical_argument',
       rationale: {
-        en: 'The reference entry (S42) presents the evidential argument in just this form and the responses to it, none of which is regarded as settling the matter.',
-        ar: 'يعرض المدخل المرجعي (S42) الحجة الاستدلالية في هذه الصيغة بعينها والردود عليها، ولا يُعد أيٌّ منها حاسمًا.',
+        en: 'Freedom explains much cruelty, but not a child’s illness or a fawn caught in a forest fire. Christians do not need to stretch those answers to cover everything. The Church’s answer here is not that the suffering is secretly good, but that it is an enemy which God has entered, judged in the cross and will undo.',
+        ar: 'الحرية تفسّر كثيرًا من القسوة، لكنها لا تفسّر مرض طفل أو ظبيًا عالقًا في حريق غابة. ولا يحتاج المسيحيون إلى مدّ هذه الأجوبة لتغطي كل شيء. فجواب الكنيسة هنا ليس أن الألم خير خفي، بل أنه عدو دخله الله، ودانه في الصليب، وسيمحوه.',
       },
       limits: {
         en: 'That a case is hard does not show that belief in God is false; it shows that the case carries weight in the overall judgement.',
@@ -92,8 +92,8 @@ export const article: Article = {
       argumentType: 'textual',
       assessment: 'strong_historical_support',
       rationale: {
-        en: 'This is a claim about what the texts say, and the passages cited show it. It is not a claim that the texts explain the suffering.',
-        ar: 'هذه دعوى عمّا تقوله النصوص، وتبيّنها الفقرات المذكورة. وليست دعوى أن النصوص تفسّر الألم.',
+        en: 'St Matthew records Rachel weeping for her children, refusing to be comforted. The Lord Jesus took children in His arms, blessed them, and gave His sternest warning against anyone who harms them. God spared Nineveh with its many animals, not a sparrow falls without the Father, and Isaiah foresees peace among all creatures.',
+        ar: 'يسجّل القديس متى راحيل تبكي على أولادها وتأبى أن تتعزى. وقد احتضن الرب يسوع الأطفال وباركهم، ووجّه أشد تحذيراته لمن يؤذيهم. وأشفق الله على نينوى وفيها بهائم كثيرة، ولا يسقط عصفور دون الآب، ويرى إشعياء سلامًا بين كل المخلوقات.',
       },
       limits: {
         en: 'Some Old Testament narratives describe the deaths of children in ways that raise their own difficulties, which are treated in the articles on difficult texts.',
@@ -104,14 +104,14 @@ export const article: Article = {
     {
       id: 'c3',
       proposition: {
-        en: 'The Christian hope claims that God will renew creation and that those who suffered without understanding are not lost to him; this is a claim of faith that cannot be derived from the argument.',
-        ar: 'يدّعي الرجاء المسيحي أن الله سيجدد الخليقة وأن الذين تألموا دون أن يفهموا ليسوا ضائعين عنده؛ وهذه دعوى إيمان لا تُشتق من الحجة.',
+        en: 'God will renew creation, and those who suffered without understanding are not lost to Him.',
+        ar: 'سيجدد الله الخليقة، والذين تألموا دون أن يفهموا ليسوا ضائعين عنده.',
       },
       argumentType: 'theological',
       assessment: 'theological_interpretation',
       rationale: {
-        en: 'The hope is stated in Romans 8 and Revelation 21. It depends on the truth of the Christian account of Christ.',
-        ar: 'يُعبَّر عن الرجاء في رومية 8 ورؤيا 21. ويتوقف على صحة العرض المسيحي للمسيح.',
+        en: 'St Paul the Apostle teaches that the whole creation groans and waits to be set free from decay (Romans 8), and Revelation shows God wiping away every tear and making all things new (Revelation 21). This hope stands on the resurrection of Christ, the firstfruits of the new creation.',
+        ar: 'يعلّم القديس بولس الرسول أن الخليقة كلها تئن وتنتظر أن تتحرر من الفساد (رومية ٨)، ويُظهر سفر الرؤيا الله ماسحًا كل دمعة وجاعلًا كل شيء جديدًا (رؤيا ٢١). وهذا الرجاء قائم على قيامة المسيح، باكورة الخليقة الجديدة.',
       },
       limits: {
         en: 'It does not say why the suffering happened, and it does not remove the weight of the evidential argument for someone who does not share the faith.',
@@ -222,12 +222,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'Many Christian thinkers agree that pain is not justified by a later reward, and the Church does not teach that it is. This is why the tradition speaks of death as an enemy and of God’s victory over it, and why it does not say that God willed the child’s agony for a larger design. The hope is not that the suffering was worth it. It is that God does not abandon the sufferer, will not allow evil to have the last word, and shares the suffering himself.',
-          'Ivan’s refusal also leaves a question for the one who refuses: whether the refusal implies a standard of goodness that itself has to come from somewhere. That does not answer him. It places the protest, which the Bible allows, within the moral reality that makes it possible.',
+          'The Church agrees that pain is not paid for by a later reward, and she does not teach that it is. That is why she calls death an enemy, and why she never says that God willed a child’s agony for some larger design. The hope is not that the suffering was worth it. It is that God does not abandon the sufferer, that evil will not have the last word, and that God Himself has borne suffering in Christ.',
+          'Ivan’s protest is itself a witness. It rests on the conviction that a child’s torment is truly evil, and that conviction points to a real Good. Scripture gives such protest a voice, in the Psalms and in Rachel’s weeping; and the answer God gives is not an argument but His Son, crucified and risen.',
         ],
         ar: [
-          'يتفق كثير من المفكرين المسيحيين على أن الألم لا يبرره مكافأة لاحقة، والكنيسة لا تعلّم ذلك. ولهذا يتكلم التقليد عن الموت عدوًّا وعن غلبة الله عليه، ولا يقول إن الله أراد وجع الطفل لتدبير أكبر. والرجاء ليس أن الألم كان يستحق. بل أن الله لا يتخلى عن المتألم، ولن يسمح للشر أن تكون له الكلمة الأخيرة، ويشارك هو في الألم.',
-          'ورفض إيفان يترك أيضًا سؤالًا لمن يرفض: هل يفترض الرفض معيارًا للخير لا بد أن يكون له أصل؟ وهذا لا يجيبه. لكنه يضع الاحتجاج، الذي يسمح به الكتاب المقدس، داخل الواقع الأخلاقي الذي يجعله ممكنًا.',
+          'توافق الكنيسة على أن الألم لا تعوّضه مكافأة لاحقة، ولا تعلّم ذلك. ولهذا تسمّي الموت عدوًّا، ولا تقول أبدًا إن الله أراد وجع طفل لتدبير أكبر. والرجاء ليس أن الألم كان يستحق. بل أن الله لا يتخلى عن المتألم، وأن الشر لن تكون له الكلمة الأخيرة، وأن الله نفسه حمل الألم في المسيح.',
+          'واحتجاج إيفان نفسه شهادة. فهو يقوم على يقين بأن عذاب طفل شر حقًا، وهذا اليقين يشير إلى خير حقيقي. والكتاب يعطي هذا الاحتجاج صوتًا، في المزامير وفي بكاء راحيل؛ والجواب الذي يعطيه الله ليس حجة بل ابنه، مصلوبًا وقائمًا.',
         ],
       },
       limits: {
@@ -244,12 +244,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'Christians who accept the scientific account answer in several ways, none of them settled. Some hold that the world was made good but unfinished, with God working through a process that costs; some that the capacity of animals to suffer is much less than the human, which is uncertain; some that created powers other than humans have a part in the disorder of nature; and some that God’s creative way includes a death-bearing process which he will redeem and which Christ has entered.',
-          'The Orthodox tradition has no defined doctrine of animal suffering, and it is fair to say that this is among the questions on which its theology is still thinking. The sense of the Scripture is that creation is not as it will be.',
+          'The world was made good but not yet complete. It is a world moving toward the fulfilment God intends, and Scripture teaches that the whole creation groans as in labour, waiting to be set free from decay. The disorder of nature, its predation and disease, belongs to that groaning; it is not the final word on what God wills.',
+          'God does not leave this creation to itself. He is Lord of the long history of life, He cares for the sparrow and the beasts of Nineveh, and in Christ He entered a world of death in order to redeem it. The same God who raised Jesus will set the whole creation free.',
         ],
         ar: [
-          'يجيب المسيحيون الذين يقبلون العرض العلمي بطرق عدة، لم تُحسم أي منها. فبعضهم يرى أن العالم صُنع حسنًا لكنه غير مكتمل، وأن الله يعمل عبر عملية لها كلفة؛ وبعضهم أن قدرة الحيوان على الألم أقل بكثير من قدرة الإنسان، وهذا غير مؤكد؛ وبعضهم أن لقوى مخلوقة غير بشرية نصيبًا في اضطراب الطبيعة؛ وبعضهم أن طريقة الله في الخلق تتضمن عملية تحمل الموت وسيفتديها وقد دخلها المسيح.',
-          'وليس في التقليد الأرثوذكسي تعليم محدد عن ألم الحيوان، ومن الإنصاف القول إن هذا من الأسئلة التي ما زال لاهوته يفكر فيها. ومعنى الكتاب أن الخليقة ليست كما ستكون.',
+          'صُنع العالم حسنًا لكنه لم يكتمل بعد. فهو عالم يسير نحو الكمال الذي يقصده الله، ويعلّم الكتاب أن الخليقة كلها تئن كمن في المخاض، منتظرة أن تتحرر من الفساد. واضطراب الطبيعة، من افتراس ومرض، جزء من هذا الأنين؛ وليس الكلمة الأخيرة فيما يريده الله.',
+          'والله لا يترك هذه الخليقة لنفسها. فهو رب تاريخ الحياة الطويل، ويعتني بالعصفور وببهائم نينوى، وفي المسيح دخل عالمًا للموت ليفتديه. والإله نفسه الذي أقام يسوع سيحرر الخليقة كلها.',
         ],
       },
       limits: {
@@ -266,12 +266,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'This is a real difficulty. The appeal to our limits is reasonable when the question is whether there might be reasons we cannot see, since a mind that cannot see the whole should not assume that nothing lies beyond what it can see. It is weaker as a response to a particular grief, and it is not offered as such here.',
-          'The Christian claim is not mainly an appeal to ignorance but a claim about who God is, shown in Christ: a God who does not stand apart as the parent in the objection does. The objection, then, is better answered by what is believed about the cross than by what is said about our limits.',
+          'A mind that sees only a small part of history should not assume that nothing lies beyond what it sees; that much is simple humility. But the Church does not offer "you cannot understand" to a grieving parent, and that is not her main answer.',
+          'Her answer is who God is, shown in Christ. The parent in the objection stands apart and watches. God did not stand apart: He came among us as a child, wept at the grave of His friend, and suffered and died. A God who shares the suffering and has promised to end it is not the indifferent parent of the objection.',
         ],
         ar: [
-          'هذه صعوبة حقيقية. والاحتكام إلى حدودنا معقول حين يكون السؤال: هل قد تكون هناك أسباب لا نراها، فعقل لا يرى الكل لا ينبغي أن يفترض أن لا شيء وراء ما يراه. لكنه أضعف رد على حزن بعينه، ولا يُقدَّم هنا على هذا الأساس.',
-          'والدعوى المسيحية ليست احتكامًا إلى الجهل أساسًا، بل دعوى عمّن هو الله كما ظهر في المسيح: إله لا يقف بعيدًا كالوالد في الاعتراض. فالأولى الرد على الاعتراض بما يُؤمن به عن الصليب لا بما يُقال عن حدودنا.',
+          'العقل الذي لا يرى إلا جزءًا صغيرًا من التاريخ لا ينبغي أن يفترض أن لا شيء وراء ما يراه؛ وهذا تواضع بسيط. لكن الكنيسة لا تقول لوالد حزين «لا تستطيع أن تفهم»، وليس هذا جوابها الأساسي.',
+          'جوابها هو من هو الله كما ظهر في المسيح. فالوالد في الاعتراض يقف بعيدًا ويتفرج. أما الله فلم يقف بعيدًا: جاء بيننا طفلًا، وبكى عند قبر صديقه، وتألم ومات. والإله الذي يشاركنا الألم وقد وعد بإنهائه ليس الوالد اللامبالي في الاعتراض.',
         ],
       },
       limits: {
@@ -285,29 +285,29 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'There is no historical argument to set out here. The question is not about what happened in the past. The historical questions on which the Christian response depends (that Jesus was crucified and what his first followers claimed about his rising) are examined in the articles on Jesus and the resurrection.',
+        'The Christian answer rests on events in history: Jesus was truly crucified, and His disciples proclaimed from the first that He had risen and appeared to them. Those facts, examined in the articles on Jesus and the resurrection, are what make the Christian hope more than a wish. Because Christ is risen, death, the enemy of children and of all creation, has already been defeated.',
       ],
       ar: [
-        'لا توجد حجة تاريخية تُعرض هنا. فالسؤال ليس عمّا حدث في الماضي. أما الأسئلة التاريخية التي يتوقف عليها الجواب المسيحي (أن يسوع صُلب، وما ادّعاه أتباعه الأوائل عن قيامته) فتفحصها المقالات عن يسوع والقيامة.',
+        'يقوم الجواب المسيحي على أحداث في التاريخ: صُلب يسوع حقًا، وكرز تلاميذه منذ البدء بأنه قام وظهر لهم. وهذه الوقائع، التي تفحصها المقالات عن يسوع والقيامة، هي ما يجعل الرجاء المسيحي أكثر من أمنية. ولأن المسيح قام، فالموت، عدو الأطفال والخليقة كلها، قد هُزم فعلًا.',
       ],
     },
     theological: {
       en: [
         'The Church does not say that a child’s suffering is a punishment or a lesson, and it does not say that God wills it. It says that the world is wounded by death, that God hates death, and that Christ has gone into it. Where the child suffers, God is not elsewhere; the Word who became a child in Bethlehem and was killed outside a city wall knows what it is to be small, afraid and in pain.',
-        'The Church entrusts children who die to God’s mercy and speaks of the age to come as the time when every tear is wiped away and creation is made new, including the creatures who now groan. This is hope, not knowledge. The Church will not claim to know more than it has been given, and it asks that no one be told, in the hour of loss, that there is a reason.',
+        'The Church entrusts children who die to God’s mercy and speaks of the age to come as the time when every tear is wiped away and creation is made new, including the creatures who now groan. This is the sure hope of faith. The Church does not claim to know more than she has been given, and she asks that no one be told, in the hour of loss, that there is a reason.',
       ],
       ar: [
         'لا تقول الكنيسة إن ألم الطفل عقاب أو درس، ولا تقول إن الله يريده. إنها تقول إن العالم مجروح بالموت، وإن الله يبغض الموت، وإن المسيح دخل فيه. وحيث يتألم الطفل لا يكون الله في مكان آخر؛ فالكلمة الذي صار طفلًا في بيت لحم وقُتل خارج سور مدينة يعرف ما هو أن يكون المرء صغيرًا وخائفًا ومتألمًا.',
-        'وتسلّم الكنيسة الأطفال الذين يموتون إلى رحمة الله، وتتكلم عن الدهر الآتي بوصفه الوقت الذي تُمسح فيه كل دمعة وتتجدد الخليقة، ومنها المخلوقات التي تئن الآن. وهذا رجاء لا معرفة. والكنيسة لا تدّعي أن تعرف أكثر مما أُعطيت، وتطلب ألا يقال لأحد، في ساعة الفقد، إن هناك سببًا.',
+        'وتسلّم الكنيسة الأطفال الذين يموتون إلى رحمة الله، وتتكلم عن الدهر الآتي بوصفه الوقت الذي تُمسح فيه كل دمعة وتتجدد الخليقة، ومنها المخلوقات التي تئن الآن. وهذا رجاء الإيمان الأكيد. والكنيسة لا تدّعي أن تعرف أكثر مما أُعطيت، وتطلب ألا يقال لأحد، في ساعة الفقد، إن هناك سببًا.',
       ],
     },
   },
   coptic: {
     en: [
-      'The Coptic Church keeps a memory of the children of Bethlehem as martyrs, and its prayers for children who die are among its gentlest. It prays for the sick and for the earth, and its saints are remembered as people of great gentleness toward creatures. The Church does not claim that this removes the question, and a family in grief is met by a priest’s presence, prayers and visits before any explanation.',
+      'The Coptic Church keeps a memory of the children of Bethlehem as martyrs, and its prayers for children who die are among its gentlest. It prays for the sick and for the earth, and its saints are remembered as people of great gentleness toward creatures. A family in grief is met first by a priest’s presence, prayers and visits, before any explanation.',
     ],
     ar: [
-      'تحفظ الكنيسة القبطية ذكرى أطفال بيت لحم شهداء، وصلواتها من أجل الأطفال الذين يرقدون من أرق صلواتها. وتصلي من أجل المرضى ومن أجل الأرض، ويُذكر قديسوها بوصفهم أهل رقة عظيمة نحو المخلوقات. ولا تدّعي الكنيسة أن هذا يزيل السؤال، وتلاقي الأسرة الحزينة بحضور الكاهن وصلواته وزياراته قبل أي تفسير.',
+      'تحفظ الكنيسة القبطية ذكرى أطفال بيت لحم شهداء، وصلواتها من أجل الأطفال الذين يرقدون من أرق صلواتها. وتصلي من أجل المرضى ومن أجل الأرض، ويُذكر قديسوها بوصفهم أهل رقة عظيمة نحو المخلوقات. وتلاقي الكنيسة الأسرة الحزينة أولًا بحضور الكاهن وصلواته وزياراته، قبل أي تفسير.',
     ],
   },
   disputed: {
@@ -321,8 +321,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'The suffering of children and animals is where the usual philosophical replies are weakest, and the Church does not claim to explain it. Christians say that creation is fallen and unfinished, that God has entered the suffering of the innocent in Christ, and that the hope of renewal includes those who suffered without understanding. This is a hope of faith. It does not remove the argument, and a reader may fairly judge that it still counts against belief.',
-    ar: 'ألم الأطفال والحيوان هو الموضع الذي تضعف فيه الردود الفلسفية المعتادة أكثر ما يكون، والكنيسة لا تدّعي تفسيره. ويقول المسيحيون إن الخليقة ساقطة وغير مكتملة، وإن الله دخل ألم الأبرياء في المسيح، وإن رجاء التجديد يشمل الذين تألموا دون أن يفهموا. وهذا رجاء إيمان. وهو لا يزيل الحجة، ومن حق القارئ أن يحكم بأنها ما زالت تشهد ضد الإيمان.',
+    en: 'The suffering of children and animals is not God’s will, not a punishment and not secretly good. Creation is wounded by death and not yet complete. God has not stood apart: in Christ He entered the suffering of the innocent, and by His resurrection He has defeated death. He will wipe away every tear and set the whole creation free, and those who suffered without understanding are held in His mercy.',
+    ar: 'ألم الأطفال والحيوان ليس مشيئة الله، ولا عقابًا، ولا خيرًا خفيًا. فالخليقة مجروحة بالموت ولم تكتمل بعد. والله لم يقف بعيدًا: ففي المسيح دخل ألم الأبرياء، وبقيامته غلب الموت. وسيمسح كل دمعة ويحرر الخليقة كلها، والذين تألموا دون أن يفهموا محفوظون في رحمته.',
   },
   furtherReading: ['S42', 'S62'],
   related: ['why-does-god-allow-suffering', 'moral-evil-vs-natural-suffering', 'does-freedom-explain-suffering', 'hidden-or-suffering', 'does-evolution-disprove-god', 'unanswered-prayer'],

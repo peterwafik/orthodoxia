@@ -15,25 +15,25 @@ export const article: Article = {
     ar: 'يشرح هذا المقال ما تعنيه الكنيسة القبطية الأرثوذكسية بالطبيعة الواحدة المتجسدة لله الكلمة (ميافيزيس)، ولماذا تتبع القديس كيرلس السكندري، ولماذا لم تقبل مجمع خلقيدونية سنة ٤٥١م، وكيف تصف الكنيستان الأرثوذكسية الشرقية والكاثوليكية، اللتان تقبلان ذلك المجمع، الخلاف نفسه. ويعرض موقف الكنيسة بمصطلحاتها ومواقف الآخرين كما يصوغها أصحابها. ولا يتناول أوطيخا، وله مقال مستقل.',
   },
   shortAnswer: {
-    en: 'The Coptic Orthodox Church confesses that Christ is one: God the Word incarnate, in one nature formed of divinity and humanity united without mingling, confusion or alteration. The formula is Cyril’s: the one incarnate nature of God the Word. The Church confesses Christ as perfect God and perfect man, with a real body, a rational soul and a human mind, and so rejects both the division of Christ (Nestorius) and the dissolving of his humanity (Eutyches). It accepts the first three ecumenical councils and does not accept Chalcedon, whose language of two natures it takes to risk dividing Christ. Churches that accept Chalcedon hold that the council confessed the same Christ and that the Coptic Church has been misunderstood, or that the words still matter. Dialogues since the twentieth century have found a common faith in Christ while leaving the question of the council open.',
-    ar: 'تعترف الكنيسة القبطية الأرثوذكسية بأن المسيح واحد: الله الكلمة المتجسد، بطبيعة واحدة مكوَّنة من لاهوت وناسوت متحدين بلا امتزاج ولا اختلاط ولا تغيير. والصيغة لكيرلس: الطبيعة الواحدة المتجسدة لله الكلمة. وتعترف بالمسيح إلهًا كاملًا وإنسانًا كاملًا، بجسد حقيقي ونفس عاقلة وعقل بشري، فترفض تقسيم المسيح (نسطور) وإذابة ناسوته (أوطيخا). وتقبل المجامع المسكونية الثلاثة الأولى ولا تقبل خلقيدونية، التي ترى في لغة الطبيعتين فيها خطر تقسيم المسيح. وترى الكنائس التي تقبل خلقيدونية أن المجمع اعترف بالمسيح نفسه وأن الكنيسة القبطية أسيء فهمها، أو أن الألفاظ لا تزال مهمة. ووجدت الحوارات منذ القرن العشرين إيمانًا مشتركًا بالمسيح مع إبقاء مسألة المجمع مفتوحة.',
+    en: 'The Coptic Orthodox Church confesses that Christ is one: God the Word incarnate, in one nature formed of divinity and humanity, united without mingling, confusion or alteration. This is the formula of St Cyril of Alexandria: the one incarnate nature of God the Word. Christ is perfect God and perfect man, with a real body, a rational soul and a human mind. The Church therefore rejects both the division of Christ taught by Nestorius and the dissolving of His humanity taught by Eutyches. It holds the first three ecumenical councils and did not accept Chalcedon, because its language of two natures after the union can be read as dividing the one Christ. In the modern dialogues the churches that accept Chalcedon have recognised that the Coptic Church confesses the true faith in Christ, and that it was never “monophysite” in the sense long charged against it.',
+    ar: 'تعترف الكنيسة القبطية الأرثوذكسية بأن المسيح واحد: الله الكلمة المتجسد، بطبيعة واحدة مكوَّنة من لاهوت وناسوت، متحدين بلا امتزاج ولا اختلاط ولا تغيير. وهذه صيغة القديس كيرلس السكندري: الطبيعة الواحدة المتجسدة لله الكلمة. فالمسيح إله كامل وإنسان كامل، بجسد حقيقي ونفس عاقلة وعقل بشري. ولذلك ترفض الكنيسة تقسيم المسيح الذي علّمه نسطور، وإذابة ناسوته التي علّمها أوطيخا. وهي تتمسك بالمجامع المسكونية الثلاثة الأولى ولم تقبل خلقيدونية، لأن لغة الطبيعتين بعد الاتحاد فيها قد تُقرأ تقسيمًا للمسيح الواحد. وفي الحوارات الحديثة اعترفت الكنائس التي تقبل خلقيدونية بأن الكنيسة القبطية تعترف بالإيمان الحق بالمسيح، وبأنها لم تكن قط «مونوفيزيتية» بالمعنى الذي اتُّهمت به طويلًا.',
   },
   quickPoints: {
     en: [
-      'Miaphysite (from mia, one, and physis, nature) names the Church’s own teaching: one nature of the incarnate Word, composed of divinity and humanity; the word “monophysite” is not accepted by the Church because it suggests a single, divine-only nature.',
-      'The union is without mingling, confusion or alteration, and the humanity is complete with body, soul and mind.',
-      'The formula comes from Cyril of Alexandria, who also accepted, in the Formula of Union of 433, that the difference of natures remains in thought.',
-      'The Church accepts Nicaea (325), Constantinople (381) and Ephesus (431); it did not accept Chalcedon (451), at which Pope Dioscorus of Alexandria was deposed.',
-      'Eastern Orthodox and Catholic churches regard Chalcedon as ecumenical and say its two-natures language expresses the same faith.',
-      'Joint declarations in 1973 (Catholic and Coptic) and statements of the 1989 and 1990 official dialogue between Eastern and Oriental Orthodox churches affirm a shared faith in Christ; they did not settle the status of Chalcedon.',
+      'Miaphysite (from mia, one, and physis, nature) names the Church’s own teaching: one nature of the incarnate Word, composed of divinity and humanity. The Church rejects the word “monophysite”, which suggests a single, divine-only nature.',
+      'The union is without mingling, confusion or alteration, and the humanity is complete, with body, soul and mind.',
+      'The formula comes from St Cyril of Alexandria, who also accepted, in the Formula of Union of 433, that the difference of the natures remains in thought.',
+      'The Church holds Nicaea (325), Constantinople (381) and Ephesus (431); it did not accept Chalcedon (451), at which Pope Dioscorus of Alexandria was deposed.',
+      'Just as a human being is one, of body and soul, without either being lost, so Christ is one, of divinity and humanity, without either being lost.',
+      'The joint declaration of 1973 (Pope Shenouda III and Pope Paul VI) and the agreed statements of 1989 and 1990 with the Eastern Orthodox affirm that the Coptic Church confesses the same Christ, perfect God and perfect man.',
     ],
     ar: [
-      'تسمّية «ميافيزيت» (من ميا، واحد، وفيزيس، طبيعة) هي تسمية تعليم الكنيسة ذاتها: طبيعة واحدة للكلمة المتجسد، مركبة من لاهوت وناسوت؛ ولا تقبل الكنيسة لفظ «مونوفيزيت» لأنه يوحي بطبيعة واحدة إلهية فقط.',
+      'تسمية «ميافيزيت» (من ميا، واحد، وفيزيس، طبيعة) هي تسمية تعليم الكنيسة ذاتها: طبيعة واحدة للكلمة المتجسد، مركبة من لاهوت وناسوت. وترفض الكنيسة لفظ «مونوفيزيت» لأنه يوحي بطبيعة واحدة إلهية فقط.',
       'الاتحاد بلا امتزاج ولا اختلاط ولا تغيير، والناسوت كامل بجسد ونفس وعقل.',
-      'الصيغة من كيرلس السكندري، الذي قبل أيضًا في صيغة الاتحاد سنة ٤٣٣م أن الفرق بين الطبيعتين باقٍ في الفكر.',
-      'تقبل الكنيسة نيقية (٣٢٥) والقسطنطينية (٣٨١) وأفسس (٤٣١)؛ ولم تقبل خلقيدونية (٤٥١) التي عُزل فيها البابا ديوسقورس السكندري.',
-      'تعدّ الكنائس الأرثوذكسية الشرقية والكاثوليكية خلقيدونية مجمعًا مسكونيًا وتقول إن لغة الطبيعتين فيها تعبّر عن الإيمان نفسه.',
-      'تؤكد بيانات مشتركة عام ١٩٧٣ (كاثوليكية وقبطية) وبيانات الحوار الرسمي بين الكنائس الأرثوذكسية الشرقية والمشرقية عامي ١٩٨٩ و١٩٩٠ إيمانًا مشتركًا بالمسيح؛ ولم تحسم وضع خلقيدونية.',
+      'الصيغة من القديس كيرلس السكندري، الذي قبل أيضًا في صيغة الاتحاد سنة ٤٣٣م أن الفرق بين الطبيعتين باقٍ في الفكر.',
+      'تتمسك الكنيسة بنيقية (٣٢٥) والقسطنطينية (٣٨١) وأفسس (٤٣١)؛ ولم تقبل خلقيدونية (٤٥١) التي عُزل فيها البابا ديوسقورس السكندري.',
+      'كما أن الإنسان واحد من جسد ونفس دون أن يضيع أحدهما، كذلك المسيح واحد من لاهوت وناسوت دون أن يضيع أحدهما.',
+      'يؤكد الإعلان المشترك عام ١٩٧٣ (البابا شنودة الثالث والبابا بولس السادس) والبيانات المتفق عليها مع الأرثوذكس الشرقيين عامي ١٩٨٩ و١٩٩٠ أن الكنيسة القبطية تعترف بالمسيح نفسه، إلهًا كاملًا وإنسانًا كاملًا.',
     ],
   },
   argumentTypes: ['theological', 'historical', 'textual'],
@@ -47,12 +47,12 @@ export const article: Article = {
 
   whyExamine: {
     en: [
-      'The Coptic Church has been called “monophysite” by others for fifteen centuries, a label it rejects, and its separation from the churches of Chalcedon has shaped its history. Many Copts do not know the reasons themselves, and many outside the Church know only the label.',
-      'A fair account states both what the Church believes and why other churches have judged it differently. It also notes that, in the modern dialogues, theologians of both sides have said that their predecessors often spoke past each other.',
+      'For fifteen centuries others have called the Coptic Church “monophysite”, a label it rejects, and its separation from the churches of Chalcedon has shaped its history. Many Copts have not been taught the reasons, and many outside the Church know only the label.',
+      'Knowing the Church’s faith clearly lets a Copt confess Christ with confidence and answer the old charge calmly. It also shows why, in the modern dialogues, theologians of both families have said that their predecessors often spoke past each other while meaning the same Christ.',
     ],
     ar: [
-      'سمّى الآخرون الكنيسة القبطية «مونوفيزيتية» طوال خمسة عشر قرنًا، وهو لقب ترفضه، وقد شكّل انفصالها عن كنائس خلقيدونية تاريخها. وكثير من الأقباط لا يعرفون الأسباب، وكثيرون خارج الكنيسة لا يعرفون سوى اللقب.',
-      'والعرض المنصف يبيّن ما تؤمن به الكنيسة ولماذا حكمت عليها كنائس أخرى حكمًا مختلفًا. ويشير أيضًا إلى أن لاهوتيي الطرفين قالوا في الحوارات الحديثة إن أسلافهم كثيرًا ما تكلموا دون أن يسمع بعضهم بعضًا.',
+      'سمّى الآخرون الكنيسة القبطية «مونوفيزيتية» طوال خمسة عشر قرنًا، وهو لقب ترفضه، وقد شكّل انفصالها عن كنائس خلقيدونية تاريخها. وكثير من الأقباط لم يتعلموا الأسباب، وكثيرون خارج الكنيسة لا يعرفون سوى اللقب.',
+      'ومعرفة إيمان الكنيسة بوضوح تمكّن القبطي من الاعتراف بالمسيح بثقة والرد على التهمة القديمة بهدوء. وتبيّن أيضًا لماذا قال لاهوتيو العائلتين في الحوارات الحديثة إن أسلافهم كثيرًا ما تكلموا دون أن يسمع بعضهم بعضًا، وهم يقصدون المسيح نفسه.',
     ],
   },
   background: {
@@ -81,8 +81,8 @@ export const article: Article = {
       argumentType: 'theological',
       assessment: 'theological_interpretation',
       rationale: {
-        en: 'This is a statement of the Church’s own teaching, found in its liturgy, its Fathers and its modern teachers such as Pope Shenouda III.',
-        ar: 'هذا بيان لتعليم الكنيسة نفسها، يوجد في صلواتها الطقسية وآبائها ومعلميها المعاصرين مثل البابا شنودة الثالث.',
+        en: 'This is the Church’s own teaching, prayed in its liturgy, taught by its Fathers and expounded by its modern teachers such as Pope Shenouda III.',
+        ar: 'هذا تعليم الكنيسة نفسها، تصلّيه في قداساتها ويعلّمه آباؤها ويشرحه معلموها المعاصرون مثل البابا شنودة الثالث.',
       },
       limits: {
         en: 'It states the doctrine; it does not argue that other formulations are wrong.',
@@ -93,14 +93,14 @@ export const article: Article = {
     {
       id: 'C2',
       proposition: {
-        en: 'The formula is rooted in Scripture’s language of the Word who became flesh, and in the Alexandrian Fathers.',
-        ar: 'للصيغة جذور في لغة الكتاب عن الكلمة الذي صار جسدًا، وفي آباء الإسكندرية.',
+        en: 'The formula is rooted in Scripture’s witness to the Word who became flesh, and in the Alexandrian Fathers.',
+        ar: 'للصيغة جذور في شهادة الكتاب عن الكلمة الذي صار جسدًا، وفي آباء الإسكندرية.',
       },
       argumentType: 'textual',
       assessment: 'theological_interpretation',
       rationale: {
-        en: 'The verses speak of one subject who is the Word and who became flesh. The step to a formula about one nature is the Church’s theological interpretation, which other traditions understand differently.',
-        ar: 'تتكلم الآيات عن ذات واحدة هي الكلمة الذي صار جسدًا. والانتقال إلى صيغة عن طبيعة واحدة تفسير لاهوتي للكنيسة، تفهمه تقاليد أخرى فهمًا مختلفًا.',
+        en: 'Scripture speaks of one subject, the Word, who became flesh: the same Son of Man is in heaven while on earth, and the fullness of deity dwells in Him bodily. St Athanasius and St Cyril read these texts as confessing one incarnate Word, and the formula of the one nature says exactly this.',
+        ar: 'يتكلم الكتاب عن ذات واحدة، هي الكلمة، صار جسدًا: فابن الإنسان نفسه في السماء وهو على الأرض، وفيه يحل كل ملء اللاهوت جسديًا. وقرأ القديسان أثناسيوس وكيرلس هذه النصوص اعترافًا بكلمة واحد متجسد، وصيغة الطبيعة الواحدة تقول هذا بالضبط.',
       },
       limits: {
         en: 'The texts do not use the word nature in this sense.',
@@ -111,14 +111,14 @@ export const article: Article = {
     {
       id: 'C4',
       proposition: {
-        en: 'The Coptic Orthodox Church and the Chalcedonian churches have different judgements on the Council of Chalcedon itself.',
-        ar: 'للكنيسة القبطية الأرثوذكسية والكنائس الخلقيدونية أحكام مختلفة على مجمع خلقيدونية ذاته.',
+        en: 'The Coptic Orthodox Church did not accept the Council of Chalcedon, while holding the same faith in the one Christ, perfect God and perfect man.',
+        ar: 'لم تقبل الكنيسة القبطية الأرثوذكسية مجمع خلقيدونية، مع تمسكها بالإيمان نفسه بالمسيح الواحد، الإله الكامل والإنسان الكامل.',
       },
       argumentType: 'historical',
       assessment: 'supported_disputed_details',
       rationale: {
-        en: 'It is clear that the Coptic Church rejects Chalcedon and that the Eastern Orthodox and Catholic churches accept it as ecumenical. Modern dialogue has found a common faith in Christ without agreeing on the status of the council.',
-        ar: 'من الواضح أن الكنيسة القبطية ترفض خلقيدونية، وأن الكنيستين الأرثوذكسية الشرقية والكاثوليكية تقبلانها مجمعًا مسكونيًا. ووجد الحوار الحديث إيمانًا مشتركًا بالمسيح دون اتفاق على وضع المجمع.',
+        en: 'The Church rejects Chalcedon because its definition can be read as dividing Christ, because it deposed Pope Dioscorus, and because it was shaped by the Tome of Leo. Yet the modern dialogues have confirmed that the Church’s faith in Christ is the orthodox faith, so the separation never meant that the Copts denied His full humanity.',
+        ar: 'ترفض الكنيسة خلقيدونية لأن تحديدها قد يُقرأ تقسيمًا للمسيح، ولأنه عزل البابا ديوسقورس، ولأنه تأثر بطومس لاون. ومع ذلك أكدت الحوارات الحديثة أن إيمان الكنيسة بالمسيح هو الإيمان المستقيم، فلم يعنِ الانفصال قط أن الأقباط أنكروا ناسوته الكامل.',
       },
       limits: {
         en: 'The disagreement also involves the deposition of Dioscorus and the authority of the Tome of Leo, which the Church does not accept.',
@@ -212,12 +212,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'This was the judgement of the Chalcedonian side, and it was reasonable if one nature meant a single divine nature. The Coptic Church states that it means something else: the one nature of the Word incarnate, formed from the divinity and the humanity united, as a human being is one nature formed from body and soul that stay what they are. It condemns the teaching that the humanity was absorbed or changed.',
-          'The modern dialogues have taken the Church’s statements as evidence that it does not hold the error attributed to it. Some Chalcedonian theologians remain wary of the formula; they say that language which seems to deny the distinction of natures can be misread, and that Chalcedon was written to prevent it.',
+          'The Church condemns exactly that teaching. One nature, as St Cyril and the Coptic Church mean it, is not a single divine nature: it is the one nature of the Word incarnate, formed from the divinity and the humanity united, as a human being is one nature formed from body and soul that stay what they are. Christ is perfect man, with body, soul and mind, and His humanity was neither absorbed nor changed.',
+          'The Church’s liturgy confesses that the divinity never parted from the humanity, not even for an instant, and that the union was without mingling, confusion or alteration. The modern dialogues, after studying these statements, have recognised that the Coptic Church does not hold the error that the word “monophysite” was used to charge against it.',
         ],
         ar: [
-          'كان هذا حكم الجانب الخلقيدوني، وكان معقولًا لو كانت الطبيعة الواحدة تعني طبيعة إلهية وحيدة. وتقول الكنيسة القبطية إنها تعني شيئًا آخر: الطبيعة الواحدة للكلمة المتجسد، المكوَّنة من اللاهوت والناسوت المتحدين، كما أن الإنسان طبيعة واحدة مكوَّنة من جسد ونفس يبقيان على ما هما. وهي تدين التعليم بأن الناسوت امتُصّ أو تغيّر.',
-          'واعتبرت الحوارات الحديثة بيانات الكنيسة شاهدًا على أنها لا تقول بالخطأ المنسوب إليها. ولا يزال بعض لاهوتيي الخلقيدونية متحفظين على الصيغة؛ ويقولون إن لغة تبدو كأنها تنفي تمايز الطبيعتين قد تُساء قراءتها، وإن خلقيدونية كُتبت لمنع ذلك.',
+          'الكنيسة تدين هذا التعليم بعينه. فالطبيعة الواحدة، كما يقصدها القديس كيرلس والكنيسة القبطية، ليست طبيعة إلهية وحيدة: بل هي الطبيعة الواحدة للكلمة المتجسد، المكوَّنة من اللاهوت والناسوت المتحدين، كما أن الإنسان طبيعة واحدة مكوَّنة من جسد ونفس يبقيان على ما هما. فالمسيح إنسان كامل، بجسد ونفس وعقل، ولم يُمتص ناسوته ولم يتغير.',
+          'وتعترف صلوات الكنيسة بأن لاهوته لم يفارق ناسوته ولو للحظة، وبأن الاتحاد بلا امتزاج ولا اختلاط ولا تغيير. وقد اعترفت الحوارات الحديثة، بعد دراسة هذه البيانات، بأن الكنيسة القبطية لا تقول بالخطأ الذي استُعمل لفظ «مونوفيزيت» لاتهامها به.',
         ],
       },
       limits: {
@@ -234,12 +234,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'Politics was real in this history: the emperors used force at times and the churches of Egypt, Syria and Armenia had their own relations with the empire. A fair account includes it.',
-          'But the sources show that the question was argued in theological terms by Dioscorus, Severus and others, and that the Church kept its position under rulers of different sorts, long after the Byzantine empire ceased to rule Egypt. The motives of those who first rejected Chalcedon cannot be reduced to one cause, and the theological question stands on its merits.',
+          'Politics was present in this history: emperors at times used force, and the churches of Egypt, Syria and Armenia had their own relations with the empire.',
+          'But the sources show that St Dioscorus, St Severus and others argued the question in theological terms, about who Christ is. And the Church kept its confession under rulers of every kind, long after Byzantium ceased to rule Egypt. A political cover would have been dropped when the politics changed; a faith is kept because it is believed.',
         ],
         ar: [
-          'كانت السياسة حاضرة في هذا التاريخ: فاستعمل الأباطرة القوة أحيانًا وكان لكنائس مصر وسوريا وأرمينيا علاقاتها بالإمبراطورية. والعرض المنصف يذكر ذلك.',
-          'لكن المصادر تُظهر أن المسألة نوقشت بمصطلحات لاهوتية عند ديوسقورس وساويرس وغيرهما، وأن الكنيسة حفظت موقفها تحت حكام من أنواع شتى، بعد زمن طويل من زوال حكم الإمبراطورية البيزنطية عن مصر. ولا يُختزل دافع من رفضوا خلقيدونية أول الأمر في سبب واحد، وتقوم المسألة اللاهوتية على أسسها.',
+          'كانت السياسة حاضرة في هذا التاريخ: فقد استعمل الأباطرة القوة أحيانًا، وكان لكنائس مصر وسوريا وأرمينيا علاقاتها بالإمبراطورية.',
+          'لكن المصادر تُظهر أن القديس ديوسقورس والقديس ساويرس وغيرهما ناقشوا المسألة بمصطلحات لاهوتية، حول من هو المسيح. وحفظت الكنيسة اعترافها تحت حكام من كل نوع، بعد زمن طويل من زوال حكم بيزنطة عن مصر. فالستار السياسي يُترك حين تتغير السياسة؛ أما الإيمان فيُحفظ لأنه مُصدَّق.',
         ],
       },
       limits: {
@@ -255,12 +255,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The Coptic Church answers that agreement on the faith in Christ is not the same as accepting a council and its Tome, and that the council deposed Dioscorus and put into its definition a formula the Church judges to be open to a Nestorian reading. It is willing to recognise the Chalcedonian churches as confessing the same Christ.',
-          'Chalcedonian theologians reply that Chalcedon is binding as an ecumenical council and that agreement on Christ should be completed by agreement on it. The question of how to restore full communion remains open in the dialogues.',
+          'Agreement on faith in Christ is not the same as accepting a council and its Tome. Chalcedon deposed Pope Dioscorus, the defender of St Cyril’s faith, and put into its definition a formula the Church judges to be open to a Nestorian reading. The Church cannot receive as ecumenical a council it holds to have done these things.',
+          'Meanwhile the Church gladly recognises that the Chalcedonian churches confess the same Christ, and it continues in dialogue and love towards full communion. Holding fast to St Cyril’s formula is not a refusal of unity; it is faithfulness to the confession through which the Church has known Christ.',
         ],
         ar: [
-          'تجيب الكنيسة القبطية بأن الاتفاق على الإيمان بالمسيح ليس هو قبول مجمع وطومسه، وبأن المجمع عزل ديوسقورس ووضع في تحديده صيغة ترى الكنيسة أنها تحتمل قراءة نسطورية. وهي مستعدة للاعتراف بأن الكنائس الخلقيدونية تعترف بالمسيح نفسه.',
-          'ويردّ لاهوتيو الخلقيدونية بأن خلقيدونية ملزمة بوصفها مجمعًا مسكونيًا وأن الاتفاق على المسيح ينبغي أن يكتمل بالاتفاق عليها. وتبقى مسألة كيفية استعادة الشركة الكاملة مفتوحة في الحوارات.',
+          'الاتفاق على الإيمان بالمسيح ليس هو قبول مجمع وطومسه. فقد عزل مجمع خلقيدونية البابا ديوسقورس، المدافع عن إيمان القديس كيرلس، ووضع في تحديده صيغة ترى الكنيسة أنها تحتمل قراءة نسطورية. ولا تستطيع الكنيسة أن تقبل مجمعًا مسكونيًا ترى أنه فعل هذه الأمور.',
+          'وفي الوقت نفسه تعترف الكنيسة بفرح بأن الكنائس الخلقيدونية تعترف بالمسيح نفسه، وتستمر في الحوار والمحبة نحو الشركة الكاملة. والتمسك بصيغة القديس كيرلس ليس رفضًا للوحدة؛ بل أمانة للاعتراف الذي عرفت به الكنيسة المسيح.',
         ],
       },
       limits: {
@@ -273,12 +273,12 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'Historically, a Christian can say that Cyril’s writings and the Formula of Union show that he affirmed the full humanity of Christ and the distinction of natures in thought, that the Church of Alexandria has repeatedly condemned the teaching of Eutyches, and that the term nature had more than one meaning in the fifth century. These are facts that bear on whether “monophysite” is a fair label.',
-        'A Christian can also say that the sources for the disputes after Chalcedon were written by parties, and that the reconstruction of motives is difficult.',
+        'The historical record supports the Church. St Cyril’s writings and the Formula of Union show that he affirmed the full humanity of Christ and the distinction of the natures in thought; the Church of Alexandria repeatedly condemned the teaching of Eutyches; and in the fifth century the word nature had more than one meaning. These facts show that “monophysite”, in the sense of denying Christ’s humanity, was never a fair name for the Coptic faith.',
+        'The Church’s continuity also speaks: from St Cyril through St Dioscorus and St Severus to Pope Shenouda III, the same confession of one incarnate Word has been taught and prayed faithfully.',
       ],
       ar: [
-        'يستطيع المسيحي تاريخيًا أن يقول إن كتابات كيرلس وصيغة الاتحاد تُظهران أنه أكد ناسوت المسيح الكامل وتمايز الطبيعتين في الفكر، وإن كنيسة الإسكندرية أدانت مرارًا تعليم أوطيخا، وإن لفظ الطبيعة كان له أكثر من معنى في القرن الخامس. وهذه وقائع تتصل بعدالة لقب «مونوفيزيت».',
-        'ويستطيع أن يقول أيضًا إن مصادر الخلافات بعد خلقيدونية كتبها أطراف متنازعة، وإن إعادة بناء الدوافع صعبة.',
+        'يسند السجل التاريخي الكنيسة. فكتابات القديس كيرلس وصيغة الاتحاد تُظهر أنه أكد ناسوت المسيح الكامل وتمايز الطبيعتين في الفكر؛ وأدانت كنيسة الإسكندرية مرارًا تعليم أوطيخا؛ وكان لفظ الطبيعة في القرن الخامس يحمل أكثر من معنى. وهذه الوقائع تُظهر أن «مونوفيزيت»، بمعنى إنكار ناسوت المسيح، لم يكن قط اسمًا عادلًا للإيمان القبطي.',
+        'واستمرارية الكنيسة تشهد كذلك: فمن القديس كيرلس مرورًا بالقديس ديوسقورس والقديس ساويرس إلى البابا شنودة الثالث، عُلِّم الاعتراف نفسه بالكلمة الواحد المتجسد وصُلّي به بأمانة.',
       ],
     },
     theological: {
@@ -315,8 +315,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'The Coptic Orthodox Church confesses one Christ, perfect in divinity and in humanity, in the one incarnate nature of God the Word, and condemns the errors of both Nestorius and Eutyches. It did not accept Chalcedon. The other churches that accept it see the same Christ confessed in different words; the dialogues have found common faith, and the question of the council remains.',
-    ar: 'تعترف الكنيسة القبطية الأرثوذكسية بمسيح واحد، كامل في لاهوته وناسوته، في الطبيعة الواحدة المتجسدة لله الكلمة، وتدين خطأ نسطور وأوطيخا معًا. ولم تقبل خلقيدونية. وترى الكنائس الأخرى التي تقبلها أن المسيح نفسه يُعترف به بألفاظ مختلفة؛ وقد وجدت الحوارات إيمانًا مشتركًا، وتبقى مسألة المجمع قائمة.',
+    en: 'The Coptic Orthodox Church confesses one Christ, perfect in divinity and perfect in humanity, in the one incarnate nature of God the Word, as St Cyril taught, and condemns the errors of both Nestorius and Eutyches. It did not accept Chalcedon, for reasons of faith and of justice to St Dioscorus. Its confession is the ancient faith of Alexandria, and the modern dialogues have recognised it as a true confession of the one Lord Jesus Christ.',
+    ar: 'تعترف الكنيسة القبطية الأرثوذكسية بمسيح واحد، كامل في لاهوته وكامل في ناسوته، في الطبيعة الواحدة المتجسدة لله الكلمة، كما علّم القديس كيرلس، وتدين خطأ نسطور وأوطيخا معًا. ولم تقبل خلقيدونية لأسباب تتعلق بالإيمان وبالعدل نحو القديس ديوسقورس. واعترافها هو إيمان الإسكندرية القديم، وقد اعترفت الحوارات الحديثة بأنه اعتراف حق بالرب الواحد يسوع المسيح.',
   },
   furtherReading: ['S52', 'S53', 'S55', 'S62'],
   related: ['miaphysitism-vs-eutychianism', 'divine-and-human-christ', 'how-can-christ-suffer', 'what-happened-at-nicaea', 'disputes-among-traditions', 'why-theotokos'],

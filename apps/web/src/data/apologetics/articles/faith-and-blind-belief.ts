@@ -15,25 +15,25 @@ export const article: Article = {
     ar: 'تسأل هذه المقالة: ما الإيمان المسيحي، وهل هو التصديق بلا أسباب؟ وتقارن بين التصور المسيحي والتهمة الشائعة بأن الإيمان اعتقاد بلا دليل أو ضد الدليل. وهي لا تبرهن على وجود الله.',
   },
   shortAnswer: {
-    en: 'In the Christian sources faith is trust in a person, God, which rests on what he has shown of himself, and which is expected to lead to knowledge and to good works. It is not described as believing what one knows to be false, or as refusing to ask questions. Some believers do hold their beliefs without ever examining them, and critics are right to call that uncritical. But the Scriptures and the Fathers praise examination, and the Church has always taught the faith with reasons. Faith also goes beyond a conclusion of argument, because it is trust and commitment, not only assent.',
-    ar: 'الإيمان في المصادر المسيحية ثقة بشخص هو الله، تستند إلى ما أظهره من ذاته، ويُنتظر أن تقود إلى المعرفة وإلى الأعمال الصالحة. ولا يُوصف بأنه تصديق ما يُعلم أنه باطل، ولا برفض الأسئلة. وبعض المؤمنين يتمسكون باعتقاداتهم دون أن يفحصوها قط، والناقدون محقون في وصف ذلك بعدم النقد. لكن الكتاب المقدس والآباء يمدحون الفحص، وقد علّمت الكنيسة الإيمان بالأسباب دائمًا. والإيمان يتجاوز نتيجة الحجة، لأنه ثقة والتزام وليس تسليمًا ذهنيًا فقط.',
+    en: 'No. Christian faith is not blind belief. It is trust in a Person, the living God, resting on what He has shown of Himself in creation, in the Scriptures and above all in Jesus Christ, and it grows into knowledge, love and good works. The apostles pointed to events and named witnesses; St Luke wrote so that his reader might know how well founded the teaching was; St Peter told Christians to be ready to give a reason for their hope. The Church has always taught the faith with reasons. And faith goes further than any argument, because it is the trust and self-giving of the whole person to God.',
+    ar: 'لا. الإيمان المسيحي ليس إيمانًا أعمى. بل هو ثقة بشخص، بالله الحي، تقوم على ما أعلنه عن نفسه في الخليقة وفي الكتاب المقدس، وفوق كل شيء في يسوع المسيح، وتنمو إلى معرفة ومحبة وأعمال صالحة. فقد أشار الرسل إلى أحداث وذكروا شهودًا بأسمائهم؛ وكتب القديس لوقا ليعرف قارئه صحة التعليم؛ وأوصى القديس بطرس المسيحيين أن يكونوا مستعدين لتقديم سبب الرجاء الذي فيهم. وقد علّمت الكنيسة الإيمان دائمًا بالأسباب. والإيمان يتجاوز أي حجة، لأنه ثقة الإنسان كله بالله وتسليم ذاته له.',
   },
   quickPoints: {
     en: [
-      'Blind belief means believing without regard to reasons, or against them. That is not what the Christian sources call faith.',
-      'In Scripture, faith is trust in God that rests on what he has done and said, and it is tied to hope and to love.',
-      'The New Testament commends examining claims, and its writers offer testimony and reasons for what they say.',
-      'Faith is more than agreement with a proposition: it is trust and commitment, and the Church teaches that it is also a gift of grace.',
-      'Critics who say faith is belief without evidence describe some believers accurately. Their definition does not fit the main Christian teaching.',
-      'Faith may be reasonable without being proved. People trust friends, doctors and teachers on grounds they cannot all check.',
+      'Blind belief means believing without regard to reasons, or against them. That is not what the Christian faith is.',
+      'In Scripture, faith is trust in God that rests on what He has done and said, and it is joined to hope and to love.',
+      'The New Testament commends examining claims, and its writers give testimony and reasons for what they proclaim.',
+      'Faith is more than agreement with a proposition: it is trust and commitment, and it is also a gift of God\'s grace that enlightens the mind.',
+      'The definition of faith as belief without evidence is not the Christian one. The Church has never commended belief that refuses to think.',
+      'We trust friends, doctors and teachers on good grounds we cannot all check. Trust in God is reasonable in the same way, and more.',
     ],
     ar: [
-      'التصديق الأعمى هو الاعتقاد دون اعتبار للأسباب أو ضدها. وليس هذا ما تسميه المصادر المسيحية إيمانًا.',
-      'في الكتاب المقدس الإيمان ثقة بالله تستند إلى ما فعله وقاله، وهو مرتبط بالرجاء والمحبة.',
-      'يمدح العهد الجديد فحص الدعاوى، ويقدّم كتّابه شهادة وأسبابًا لما يقولون.',
-      'الإيمان أكثر من الموافقة على قضية: هو ثقة والتزام، وتعلّم الكنيسة أنه أيضًا عطية من النعمة.',
-      'الناقدون الذين يقولون إن الإيمان اعتقاد بلا دليل يصفون بعض المؤمنين بدقة، لكن تعريفهم لا يوافق التعليم المسيحي الأساسي.',
-      'يمكن أن يكون الإيمان معقولًا دون أن يكون مبرهَنًا عليه. فالناس يثقون بالأصدقاء والأطباء والمعلمين لأسباب لا يستطيعون فحصها كلها.',
+      'الإيمان الأعمى هو أن تؤمن دون اعتبار للأسباب أو ضدها. وليس هذا هو الإيمان المسيحي.',
+      'الإيمان في الكتاب المقدس ثقة بالله تقوم على ما فعله وقاله، وهو مقترن بالرجاء والمحبة.',
+      'يمدح العهد الجديد فحص الدعاوى، ويقدم كتّابه شهادة وأسبابًا لما يبشرون به.',
+      'الإيمان أكثر من موافقة على قضية: إنه ثقة والتزام، وهو أيضًا عطية من نعمة الله تنير العقل.',
+      'تعريف الإيمان بأنه تصديق بلا دليل ليس التعريف المسيحي. والكنيسة لم تمدح قط إيمانًا يرفض التفكير.',
+      'نحن نثق بالأصدقاء والأطباء والمعلمين لأسباب وجيهة لا نستطيع التحقق منها كلها. والثقة بالله معقولة بالطريقة نفسها، بل أكثر.',
     ],
   },
   argumentTypes: ['philosophical', 'theological', 'textual'],
@@ -46,12 +46,12 @@ export const article: Article = {
   },
   whyExamine: {
     en: [
-      'The charge that faith is blind is one of the commonest reasons people give for setting religion aside. It deserves a direct answer, because if it were true of Christian teaching, the teaching would be hard to defend.',
-      'It is also a fair question for believers. Anyone who inherits a faith from family may never have asked why they hold it. Asking is not disloyal, and the Christian sources encourage it.',
+      'The charge that faith is blind is one of the commonest reasons people give for setting religion aside. It deserves a direct answer, and the Christian sources give one.',
+      'It is also a good question for believers. Anyone who inherits a faith from family may never have asked why they hold it. Asking is not disloyal, and the Christian sources encourage it.',
     ],
     ar: [
-      'تهمة أن الإيمان أعمى من أشيع الأسباب التي يذكرها الناس لترك الدين. وتستحق جوابًا مباشرًا، لأنها لو صحّت على التعليم المسيحي لصعب الدفاع عنه.',
-      'وهو سؤال مشروع للمؤمنين أيضًا. فمن ورث إيمانه من أسرته ربما لم يسأل قط لماذا يعتقده. والسؤال ليس خيانة، والمصادر المسيحية تشجعه.',
+      'تهمة أن الإيمان أعمى من أكثر الأسباب التي يذكرها الناس لترك الدين. وهي تستحق جوابًا مباشرًا، والمصادر المسيحية تقدمه.',
+      'وهو أيضًا سؤال جيد للمؤمنين. فمن ورث الإيمان عن أسرته ربما لم يسأل قط لماذا يتمسك به. والسؤال ليس خيانة، والمصادر المسيحية تشجع عليه.',
     ],
   },
   background: {
@@ -59,13 +59,13 @@ export const article: Article = {
       'The Letter to the Hebrews describes faith as confidence in what is hoped for and conviction about things not seen (Hebrews 11:1), and goes on to give examples of people who trusted God because of what he had promised and done. The word in the New Testament carries the sense of trust and faithfulness as much as of belief that something is so. St Paul the Apostle says that faith comes from hearing the message (Romans 10:17), so it is tied to something proclaimed and heard.',
       'The New Testament writers also give reasons. St Luke the Evangelist begins his Gospel by saying that he has followed events carefully from the start, so that his reader may know how well founded the teaching is (Luke 1:1–4). St John the Evangelist says that his Gospel records signs so that readers may believe (John 20:30–31). The first letter of Peter tells Christians to be ready to give a reason for their hope, with gentleness and respect (1 Peter 3:15). Read as ancient documents, these texts show that the first Christian writers presented their message as grounded in events and testimony, not as something to be accepted without thought.',
       'A famous scene shows both sides. Thomas refuses to believe that Jesus has risen until he sees the wounds, and Jesus meets that demand and then blesses those who will believe without having seen (John 20:24–29). The Church has read this as affirming that doubt can be honest and answered, and that later believers rely on the testimony of the first witnesses.',
-      'In the Christian tradition faith and reason are neither opposed nor identical. The Fathers, including the Alexandrians, held that reason is a gift of God and that faith completes it. Critics hold a different definition. They take faith to mean believing something on insufficient evidence, or because one wants to believe. Some believers do describe their own faith that way, and it is a different matter from the tradition’s own account. Philosophers of religion also debate whether belief in God needs evidence at all: some hold that it does, others that it can be a basic, reasonable belief like trust in memory or in other minds.',
+      'In the Christian tradition faith and reason are neither opposed nor identical. The Fathers, including the Alexandrians, held that reason is a gift of God and that faith completes it. Critics hold a different definition. They take faith to mean believing something on insufficient evidence, or because one wants to believe. Some believers do describe their own faith that way, and it is a different matter from the tradition’s own account. Nor does faith have to wait for a philosopher’s proof: like trust in memory or in other minds, belief in God can be reasonable without being argued step by step, and it is also supported by the reasons and testimony described above.',
     ],
     ar: [
       'تصف الرسالة إلى العبرانيين الإيمان بأنه الثقة بما يُرجى والإيقان بأمور لا تُرى (عبرانيين ١١: ١)، ثم تعطي أمثلة لأناس وثقوا بالله بسبب ما وعد به وما فعله. وتحمل الكلمة في العهد الجديد معنى الثقة والأمانة بقدر ما تحمل معنى الاعتقاد بأن أمرًا ما كذلك. ويقول القديس بولس الرسول إن الإيمان بالخبر (رومية ١٠: ١٧)، فهو مرتبط برسالة تُعلَن وتُسمَع.',
       'ويقدّم كتّاب العهد الجديد أسبابًا أيضًا. فيبدأ القديس لوقا الإنجيلي إنجيله بأنه تتبّع كل شيء من الأول بتدقيق، ليعرف القارئ صحة الكلام (لوقا ١: ١–٤). ويقول القديس يوحنا الإنجيلي إن إنجيله يسجّل آيات ليؤمن القراء (يوحنا ٢٠: ٣٠–٣١). وتأمر رسالة بطرس الأولى المسيحيين بأن يكونوا مستعدين لتقديم جواب عن الرجاء الذي فيهم بوداعة وخوف (١ بطرس ٣: ١٥). وهذه النصوص، عند قراءتها كوثائق قديمة، تبيّن أن أوائل الكتّاب المسيحيين قدّموا رسالتهم على أنها مؤسسة على أحداث وشهادات، لا شيئًا يُقبل بلا تفكير.',
       'ومشهد شهير يُظهر الجانبين. فتوما يرفض أن يصدّق قيامة السيد المسيح حتى يرى الجراح، فيلبي السيد طلبه ثم يطوّب الذين يؤمنون ولم يروا (يوحنا ٢٠: ٢٤–٢٩). وقرأت الكنيسة ذلك على أنه يثبت أن الشك يمكن أن يكون أمينًا ويُجاب عنه، وأن المؤمنين اللاحقين يعتمدون على شهادة الشهود الأوائل.',
-      'وفي التقليد المسيحي ليس الإيمان والعقل متعارضين ولا متطابقين. فقد رأى الآباء، ومنهم آباء الإسكندرية، أن العقل عطية من الله وأن الإيمان يكمله. ويحمل الناقدون تعريفًا آخر، فيرون الإيمان اعتقادًا بشيء على دليل غير كافٍ، أو لأن المرء يريد أن يعتقده. وبعض المؤمنين يصفون إيمانهم هكذا فعلًا، وهذا غير ما يقوله التقليد نفسه. ويتناقش فلاسفة الدين أيضًا: هل يحتاج الإيمان بالله إلى دليل أصلًا؟ فبعضهم يرى أنه يحتاج، وبعضهم يرى أنه قد يكون اعتقادًا أساسيًا معقولًا كالثقة بالذاكرة أو بوجود عقول أخرى.',
+      'وفي التقليد المسيحي ليس الإيمان والعقل متعارضين ولا متطابقين. فقد رأى الآباء، ومنهم آباء الإسكندرية، أن العقل عطية من الله وأن الإيمان يكمله. ويحمل الناقدون تعريفًا آخر، فيرون الإيمان اعتقادًا بشيء على دليل غير كافٍ، أو لأن المرء يريد أن يعتقده. وبعض المؤمنين يصفون إيمانهم هكذا فعلًا، وهذا غير ما يقوله التقليد نفسه. ولا يلزم الإيمان أن ينتظر برهان فيلسوف: فالإيمان بالله، كالثقة بالذاكرة أو بوجود عقول أخرى، يمكن أن يكون معقولًا دون أن يُبرهن عليه خطوة خطوة، وهو أيضًا مسنود بالأسباب والشهادات المذكورة أعلاه.',
     ],
   },
   glossary: ['tradition', 'inspiration', 'apologetics', 'theism'],
@@ -74,14 +74,14 @@ export const article: Article = {
     {
       id: 'c1',
       proposition: {
-        en: 'In the Bible, read as a set of ancient documents, faith is trust in God grounded in what he has said and done, and not a belief held in spite of reasons.',
-        ar: 'الإيمان في الكتاب المقدس، مقروءًا كمجموعة وثائق قديمة، ثقة بالله مؤسسة على ما قاله وفعله، وليس اعتقادًا قائمًا رغم الأسباب.',
+        en: 'In the Bible, faith is trust in God grounded in what He has said and done, and not a belief held in spite of reasons.',
+        ar: 'الإيمان في الكتاب المقدس ثقة بالله مؤسسة على ما قاله وفعله، لا تصديق يُتمسك به رغم الأسباب.',
       },
       argumentType: 'textual',
       assessment: 'theological_interpretation',
       rationale: {
-        en: 'The passages that define or illustrate faith, such as Hebrews 11 and the Gospel scenes of Thomas, connect it to promise, testimony and signs. This is a reading of what the texts say about faith.',
-        ar: 'النصوص التي تعرّف الإيمان أو تمثّل له، كعبرانيين ١١ ومشاهد توما في الإنجيل، تربطه بالوعد والشهادة والآيات. وهذا قراءة لما تقوله النصوص عن الإيمان.',
+        en: 'The passages that define or illustrate faith, such as Hebrews 11 and the Gospel scene of Thomas, connect it to promise, testimony and signs. Faith in Scripture always answers to something God has shown.',
+        ar: 'النصوص التي تعرّف الإيمان أو توضحه، مثل العبرانيين ١١ ومشهد توما في الإنجيل، تربطه بالوعد والشهادة والآيات. فالإيمان في الكتاب المقدس هو دائمًا استجابة لشيء أعلنه الله.',
       },
       limits: {
         en: 'It describes what the texts say about faith. It does not show that the testimony they appeal to is reliable, which other articles examine.',
@@ -92,14 +92,14 @@ export const article: Article = {
     {
       id: 'c2',
       proposition: {
-        en: 'The Christian writers invited examination of their claims, and the Church has taught the faith with reasons from early on.',
-        ar: 'دعا الكتّاب المسيحيون إلى فحص دعاواهم، وعلّمت الكنيسة الإيمان بالأسباب منذ وقت مبكر.',
+        en: 'The Christian writers invited examination of their claims, and the Church has taught the faith with reasons from the beginning.',
+        ar: 'دعا الكتّاب المسيحيون إلى فحص دعاواهم، وقد علّمت الكنيسة الإيمان بالأسباب منذ البداية.',
       },
       argumentType: 'historical',
       assessment: 'supported_disputed_details',
       rationale: {
-        en: 'The New Testament texts cited, and an early work such as Justin’s First Apology addressed to outsiders, are examples. Different writers set the relation of reason and faith differently, so what is supported is the practice of giving reasons, not a single theory.',
-        ar: 'نصوص العهد الجديد المذكورة، وعمل مبكر مثل «الدفاع الأول» ليوستينوس الموجّه إلى الغرباء، أمثلة على ذلك. ويضع الكتّاب علاقة العقل بالإيمان بصور مختلفة، فالمدعوم هو ممارسة تقديم الأسباب لا نظرية واحدة.',
+        en: 'The New Testament texts cited, and an early work such as St Justin\'s First Apology addressed to outsiders, show the Church giving reasons for her faith to all who asked.',
+        ar: 'النصوص المستشهد بها من العهد الجديد، وعمل مبكر مثل الدفاع الأول للقديس يوستينوس الموجه إلى غير المسيحيين، تُظهر الكنيسة تقدم أسباب إيمانها لكل من يسأل.',
       },
       limits: {
         en: 'Some Christian writers have also warned against pride in human reasoning, and some believers do hold their faith without examination. The claim is about the main stream of the tradition.',
@@ -210,12 +210,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The definition is not the Christian one. The Bible uses the word for trust in a person, and Christian teachers have distinguished between knowing a proposition and trusting someone. We trust a friend on evidence of their character, even though we cannot prove they will not let us down, and nobody calls that blind.',
-          'The critic can fairly reply that trust in a friend is backed by long experience, and that trust in God is not. Believers answer that the grounds, in creation, in Christ and in lived experience, are of a different kind but are real, and this is the matter the rest of the site weighs.',
+          'The definition is not the Christian one. The Bible uses the word for trust in a person, and Christian teachers distinguish between knowing a proposition and trusting someone. We trust a friend on evidence of their character, even though we cannot prove they will never let us down, and nobody calls that blind.',
+          'Trust in God has grounds too: the witness of creation, the life, death and resurrection of Christ, and the experience of God in prayer and in the Church. These grounds are real, and the rest of this site sets them out.',
         ],
         ar: [
-          'التعريف ليس هو التعريف المسيحي. فالكتاب المقدس يستعمل الكلمة للثقة بشخص، وميّز المعلمون المسيحيون بين معرفة قضية والثقة بإنسان. ونحن نثق بصديق بناءً على ما عرفناه من خلقه، وإن لم نستطع إثبات أنه لن يخذلنا، ولا أحد يسمي ذلك عمى.',
-          'ويمكن للناقد أن يردّ بحق بأن الثقة بالصديق تسندها خبرة طويلة وأن الثقة بالله ليست كذلك. ويجيب المؤمنون بأن الأسباب، في الخليقة وفي المسيح وفي الخبرة المعاشة، من نوع مختلف لكنها حقيقية، وهذا ما يزنه بقية الموقع.',
+          'هذا التعريف ليس التعريف المسيحي. فالكتاب المقدس يستعمل الكلمة للثقة بشخص، والمعلمون المسيحيون يميزون بين معرفة قضية والثقة بشخص. نحن نثق بصديق بناءً على دليل من خُلقه، مع أننا لا نستطيع أن نثبت أنه لن يخذلنا أبدًا، ولا أحد يسمي ذلك عمى.',
+          'والثقة بالله لها أسبابها أيضًا: شهادة الخليقة، وحياة المسيح وموته وقيامته، وخبرة الله في الصلاة وفي الكنيسة. وهذه الأسباب حقيقية، وتعرضها بقية مقالات هذا الموقع.',
         ],
       },
       limits: {
@@ -231,12 +231,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The Church teaches both: faith is a gift of grace and a free human response, and she has never held that God’s gift replaces understanding. The gift is said to enlighten the mind and not to switch it off. Believers who come to faith often describe a process in which questions, reading and conversation played a real part.',
-          'A sceptic may remain unpersuaded that grace can be distinguished from upbringing or temperament, and that is a fair point about how anyone could tell the difference.',
+          'The Church teaches both: faith is a gift of grace and a free human response, and God\'s gift never replaces understanding. Grace enlightens the mind; it does not switch it off. Those who come to faith often describe a journey in which questions, reading and conversation played a real part.',
+          'A gift and a reason are not rivals. A teacher\'s help is a gift, and the student still understands for himself. In the same way, God\'s grace opens the eyes, and the believer sees for himself.',
         ],
         ar: [
-          'تعلّم الكنيسة الأمرين معًا: الإيمان عطية من النعمة واستجابة بشرية حرة، ولم تقل قط إن عطية الله تحلّ محل الفهم. فيقال إن العطية تنير الذهن ولا تطفئه. ويصف المؤمنون الذين جاؤوا إلى الإيمان عملية كان للأسئلة والقراءة والحوار فيها دور حقيقي.',
-          'وقد يبقى المتشكك غير مقتنع بإمكان التمييز بين النعمة والتنشئة أو الطبع، وهذه ملاحظة وجيهة في كيفية تمييز أي إنسان بين الأمرين.',
+          'تعلّم الكنيسة الأمرين معًا: الإيمان عطية نعمة واستجابة إنسانية حرة، وعطية الله لا تحل أبدًا محل الفهم. فالنعمة تنير العقل ولا تطفئه. والذين يأتون إلى الإيمان كثيرًا ما يصفون رحلة كان للأسئلة والقراءة والحوار فيها دور حقيقي.',
+          'والعطية والسبب ليسا متنافسين. فمساعدة المعلم عطية، والتلميذ مع ذلك يفهم بنفسه. وكذلك نعمة الله تفتح العينين، والمؤمن يرى بنفسه.',
         ],
       },
       limits: {
@@ -252,12 +252,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'This describes how many people come to belief, and the Church accepts that faith is often received first from parents and the parish. But the origin of a belief is different from its grounds. A scientist who learned physics from a teacher may later check it; the origin does not make it false.',
-          'The honest conclusion is that inherited faith should be examined, and the Christian sources say so. For the person who has never done it, the charge has force, and the remedy is to look at the questions.',
+          'Many people do first receive faith from parents and the parish, and the Church is glad of it. But the origin of a belief is different from its grounds. A scientist who learned physics from a teacher may later check it; the origin does not make it false.',
+          'Inherited faith is meant to become one\'s own. The Christian sources call every believer to examine, to understand and to give a reason for the hope that is in them.',
         ],
         ar: [
-          'هذا يصف كيف يصل كثيرون إلى الاعتقاد، وتقبل الكنيسة أن الإيمان يُتسلَّم غالبًا أولًا من الوالدين والرعية. لكن أصل الاعتقاد غير أسبابه. فالعالم الذي تعلّم الفيزياء من معلم قد يتحقق منها لاحقًا، وأصلها لا يجعلها باطلة.',
-          'والخلاصة الأمينة أن الإيمان الموروث ينبغي أن يُفحص، والمصادر المسيحية تقول ذلك. وللشخص الذي لم يفعل ذلك قط يكون للتهمة وزنها، والعلاج هو النظر في الأسئلة.',
+          'كثيرون يتسلمون الإيمان أولًا من الوالدين والكنيسة المحلية، والكنيسة تفرح بذلك. لكن أصل الاعتقاد غير أسبابه. فالعالِم الذي تعلم الفيزياء من معلم قد يتحقق منها لاحقًا؛ وأصلها لا يجعلها باطلة.',
+          'والإيمان الموروث يُراد له أن يصير إيمان صاحبه. والمصادر المسيحية تدعو كل مؤمن إلى الفحص والفهم وتقديم سبب الرجاء الذي فيه.',
         ],
       },
       limits: {
@@ -270,18 +270,18 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'Historically, the first Christians did not ask people to believe without reasons. They pointed to a public claim: that Jesus had been crucified and had risen, which could be investigated and contested, and St Paul invites inquiry by naming witnesses (1 Corinthians 15:3–8). Whether the claim is true is for the articles on the sources to weigh, but the manner of the appeal, to events and witnesses, is itself evidence about what the first writers meant by faith.',
+        'The first Christians did not ask people to believe without reasons. They pointed to a public claim, that Jesus had been crucified and had risen, which could be investigated and contested, and St Paul invites inquiry by naming witnesses (1 Corinthians 15:3–8). The manner of their appeal, to events and witnesses, shows what they meant by faith.',
       ],
       ar: [
-        'تاريخيًا لم يطلب المسيحيون الأوائل من الناس أن يؤمنوا بلا أسباب. بل أشاروا إلى دعوى علنية: أن السيد المسيح صُلب وقام، وهي دعوى يمكن التحقق منها ومنازعتها، ويدعو القديس بولس إلى التقصي بذكر الشهود (١ كورنثوس ١٥: ٣–٨). وهل الدعوى صحيحة؟ هذا ما تزنه المقالات عن المصادر، لكن طريقة النداء، إلى الأحداث والشهود، دليل بحد ذاتها على ما قصده الكتّاب الأوائل بالإيمان.',
+        'لم يطلب المسيحيون الأوائل من الناس أن يؤمنوا بلا أسباب. بل أشاروا إلى دعوى علنية، أن يسوع صُلب وقام، يمكن التحقيق فيها ومناقشتها، والقديس بولس يدعو إلى البحث بذكر الشهود (١ كورنثوس ١٥: ٣–٨). وطريقة دعوتهم، إلى أحداث وشهود، تبين ما كانوا يقصدونه بالإيمان.',
       ],
     },
     theological: {
       en: [
-        'The Church teaches that faith is a personal trust in the living God, received as a gift and lived out in love, repentance and worship. It is therefore neither the conclusion of a syllogism nor a leap in the dark. Reason serves it by clearing away false objections and by showing that the faith is not foolish, while the encounter with Christ in the Church brings it to fullness. This is theological interpretation.',
+        'The Church teaches that faith is a personal trust in the living God, received as a gift and lived out in love, repentance and worship. It is therefore neither the conclusion of a syllogism nor a leap in the dark. Reason serves it by clearing away false objections and by showing that the faith is not foolish, while the encounter with Christ in the Church brings it to fullness.',
       ],
       ar: [
-        'تعلّم الكنيسة أن الإيمان ثقة شخصية بالله الحي، تُتسلَّم عطية وتُعاش بالمحبة والتوبة والعبادة. فهو إذن ليس نتيجة قياس منطقي ولا قفزة في الظلام. والعقل يخدمه بإزالة الاعتراضات الباطلة وبيان أن الإيمان ليس حماقة، بينما يبلغ به اللقاء بالمسيح في الكنيسة إلى كماله. وهذا تفسير لاهوتي.',
+        'تعلّم الكنيسة أن الإيمان ثقة شخصية بالله الحي، تُتسلَّم عطية وتُعاش بالمحبة والتوبة والعبادة. فهو إذن ليس نتيجة قياس منطقي ولا قفزة في الظلام. والعقل يخدمه بإزالة الاعتراضات الباطلة وبيان أن الإيمان ليس حماقة، بينما يبلغ به اللقاء بالمسيح في الكنيسة إلى كماله.',
       ],
     },
   },
@@ -302,8 +302,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'Faith in the Christian sources is trust in God that rests on what he has shown, and is not belief against reasons. Blind belief exists among believers as it does among people of every outlook, and it is not what the tradition commends. Whether the reasons for Christian faith are good enough is the subject of the other articles, which can be read with that question in mind.',
-    ar: 'الإيمان في المصادر المسيحية ثقة بالله تستند إلى ما أظهره، وليس اعتقادًا ضد الأسباب. والتصديق الأعمى موجود عند المؤمنين كما عند أصحاب كل رأي، وليس ما يمدحه التقليد. وهل أسباب الإيمان المسيحي كافية؟ هذا موضوع المقالات الأخرى التي يمكن قراءتها بهذا السؤال في الذهن.',
+    en: 'Christian faith is trust in God that rests on what He has shown, and it is never belief against reasons. The apostles pointed to events and witnesses, and the Church has always given reasons for her hope. Faith goes beyond argument, because it is the trust of the whole person in the living God, but it is never blind.',
+    ar: 'الإيمان المسيحي ثقة بالله تقوم على ما أعلنه، وليس أبدًا تصديقًا ضد الأسباب. فقد أشار الرسل إلى أحداث وشهود، والكنيسة قدّمت دائمًا أسباب رجائها. والإيمان يتجاوز الحجة، لأنه ثقة الإنسان كله بالله الحي، لكنه ليس أعمى أبدًا.',
   },
   furtherReading: ['S50'],
   related: [

@@ -15,8 +15,8 @@ export const article: Article = {
     ar: 'إلى أي حد يمكن تقديم تاريخ التقليد الوارد في ١ كورنثوس ١٥: ٣–٧، وما الاستدلال، وأين يبقى غير مؤكد. ولا يناقش ما يرويه التقليد ولا هل وقعت الأحداث.',
   },
   shortAnswer: {
-    en: 'The letter is usually dated to the mid-50s AD. St Paul says he received the tradition before he handed it on, and his own account of his life puts his calling within a few years of the crucifixion and his first visit to Jerusalem three years later. The tradition therefore existed by then at the latest, and many historians think it took shape in the first years of the Jerusalem church. The reasons are that St Paul uses the language of handing on, that the passage is compact and list-like, and that it contains features that do not look like St Paul\'s own style. The limits are that St Paul does not say from whom or when he received it, that where the tradition ends is uncertain, and that a short interval is not by itself proof of accuracy.',
-    ar: 'يؤرَّخ للرسالة عادة بمنتصف الخمسينيات الميلادية. ويقول القديس بولس إنه تسلّم التقليد قبل أن يسلّمه، وتضع روايته لحياته دعوته خلال سنوات قليلة من الصلب وزيارته الأولى لأورشليم بعد ذلك بثلاث سنوات. فالتقليد كان موجودًا حينئذ على أبعد تقدير، ويرى مؤرخون كثيرون أنه تشكل في السنوات الأولى لكنيسة أورشليم. وأسباب ذلك أن القديس بولس يستعمل لغة التسليم، وأن النص موجز يشبه القائمة، وأنه يحوي سمات لا تشبه أسلوب القديس بولس نفسه. وحدود ذلك أن القديس بولس لا يقول ممن تسلّمه ولا متى، وأن موضع انتهاء التقليد غير مؤكد، وأن قصر المدة ليس وحده برهانًا على الدقة.',
+    en: 'The tradition goes back to the first years after the crucifixion. St Paul the Apostle wrote 1 Corinthians in the mid-50s AD, but he says he handed on what he himself had received. His own account of his life places his calling within a few years of the crucifixion, and his first visit to Jerusalem, where he stayed with Cephas and saw James, three years later. The passage bears the marks of a fixed formula: the language of receiving and handing on, short parallel clauses, “according to the Scriptures”, and the Aramaic name Cephas. So the proclamation that Christ died, was buried, rose on the third day and appeared to Cephas and the Twelve was being taught within a few years of the events, while the witnesses named in it were alive in Jerusalem.',
+    ar: 'يرجع التقليد إلى السنوات الأولى بعد الصلب. فقد كتب القديس بولس الرسول كورنثوس الأولى في منتصف الخمسينيات الميلادية، لكنه يقول إنه سلّم ما تسلّمه هو نفسه. وتضع روايته لحياته دعوته خلال سنوات قليلة من الصلب، وزيارته الأولى لأورشليم، حيث أقام عند صفا ورأى يعقوب، بعد ذلك بثلاث سنوات. ويحمل النص علامات صيغة ثابتة: لغة التسلّم والتسليم، والجمل القصيرة المتوازية، و«حسب الكتب»، والاسم الآرامي صفا. فالكرازة بأن المسيح مات ودُفن وقام في اليوم الثالث وظهر لصفا وللاثني عشر كانت تُعلَّم خلال سنوات قليلة من الأحداث، والشهود المذكورون فيها أحياء في أورشليم.',
   },
   quickPoints: {
     en: [
@@ -24,14 +24,14 @@ export const article: Article = {
       'In Galatians he places his calling within a few years of the crucifixion and says that three years later he went to Jerusalem and met Cephas and James.',
       'A reference to the escape from Damascus under King Aretas places St Paul\'s early activity before about AD 40.',
       'Signs of a formula: the verbs of receiving and handing on, the parallel clauses, "according to the Scriptures", and the Aramaic name Cephas.',
-      'The uncertainties: who gave it to St Paul, how much of verses 3–7 is formula, and whether formulated tradition is more reliable than later narrative.',
+      'The witnesses named in the tradition, Cephas and James among them, were alive and known when it was taught, and St Paul met them himself.',
     ],
     ar: [
       'يكتب القديس بولس كورنثوس الأولى في منتصف الخمسينيات، لكنه يقول إنه ينقل ما تسلّمه هو أيضًا.',
       'ويضع في غلاطية دعوته خلال سنوات قليلة من الصلب، ويقول إنه بعد ثلاث سنوات ذهب إلى أورشليم والتقى صفا ويعقوب.',
       'وتضع الإشارة إلى الهروب من دمشق في عهد الملك الحارث نشاط القديس بولس المبكر قبل نحو سنة ٤٠م.',
       'علامات الصيغة: أفعال التسلّم والتسليم، والجمل المتوازية، و«حسب الكتب»، والاسم الآرامي صفا.',
-      'مواضع عدم اليقين: من سلّمه لبولس، وكم من الآيات ٣–٧ صيغة، وهل التقليد المصوغ أوثق من السرد اللاحق.',
+      'الشهود المذكورون في التقليد، ومنهم صفا ويعقوب، كانوا أحياء ومعروفين حين كان يُعلَّم، وقد التقاهم القديس بولس بنفسه.',
     ],
   },
   argumentTypes: ['historical', 'textual'],
@@ -44,24 +44,24 @@ export const article: Article = {
   },
   whyExamine: {
     en: [
-      'Historians generally trust a report more the closer it is in time to the events and the more directly it comes from people involved. If the list in 1 Corinthians 15 comes from the first years, it is much nearer to the events than the Gospels.',
-      'But the argument is easy to overstate. An early date makes a report weighty as evidence of what people said, and does not by itself show that what they said was right. It is better to see exactly how much the date can carry.',
+      'A report carries more weight the closer it is in time to the events and the more directly it comes from the people involved. The tradition in 1 Corinthians 15 comes from the first years, much nearer to the events than the written Gospels.',
+      'Its date shows that the resurrection was not a slow legend that grew over generations. It was the Church’s proclamation from the beginning, handed on while the witnesses could still be asked.',
     ],
     ar: [
-      'يثق المؤرخون عادة بالخبر بقدر قربه زمنًا من الأحداث وبقدر مباشرة صلته بالمشاركين. فإن كانت قائمة ١ كورنثوس ١٥ من السنوات الأولى فهي أقرب إلى الأحداث كثيرًا من الأناجيل.',
-      'لكن من السهل المبالغة في الحجة. فالتاريخ المبكر يجعل الخبر ثقيلًا دليلًا على ما قاله الناس، ولا يبين وحده أن ما قالوه صحيح. والأفضل أن نرى بالضبط كم يستطيع التاريخ أن يحمل.',
+      'يزداد وزن الخبر بقدر قربه زمنًا من الأحداث وبقدر مباشرة صلته بالمشاركين فيها. والتقليد في ١ كورنثوس ١٥ يرجع إلى السنوات الأولى، أقرب إلى الأحداث كثيرًا من الأناجيل المكتوبة.',
+      'وتاريخه يُظهر أن القيامة لم تكن أسطورة بطيئة نمت عبر الأجيال، بل كانت كرازة الكنيسة منذ البدء، وقد سُلّمت والشهود ما زالوا يُسألون.',
     ],
   },
   background: {
     en: [
       'The crucifixion is placed by most historians between AD 30 and 33. St Paul says that he persecuted the church, that God revealed his Son to him, that he went to Arabia and returned to Damascus, and that after three years he went up to Jerusalem for fifteen days to meet Cephas, and saw James. Fourteen years after that, or after his calling (the Greek is not clear), he went up again.',
       'St Paul also tells the Corinthians that he escaped from Damascus when the governor under King Aretas guarded the city. Aretas IV ruled the Nabataeans until about AD 40, which gives an upper limit for this episode, and so for the time between the calling and the first visit. Many historians conclude that St Paul\'s calling happened in the 30s, within a few years of the crucifixion.',
-      'A tradition of this type is a formula that Christians memorised and repeated in teaching, worship and preaching. Scholars compare it with other short statements of faith in St Paul\'s letters. Such formulas can be old, but they can also be re-worded, and we cannot see the form before St Paul used it.',
+      'A tradition of this type is a formula that Christians memorised and repeated in teaching, worship and preaching. Scholars compare it with other short statements of faith in St Paul\'s letters. St Paul’s language of receiving and handing on is the language of careful transmission.',
     ],
     ar: [
       'يضع معظم المؤرخين الصلب بين ٣٠ و٣٣م. ويقول القديس بولس إنه اضطهد الكنيسة، وإن الله أعلن ابنه فيه، وإنه ذهب إلى العربية ورجع إلى دمشق، وإنه بعد ثلاث سنوات صعد إلى أورشليم خمسة عشر يومًا ليلتقي صفا، ورأى يعقوب. وبعد أربع عشرة سنة من ذلك، أو من دعوته (اليوناني غير واضح)، صعد ثانية.',
       'ويخبر القديس بولس أهل كورنثوس أيضًا أنه نجا من دمشق حين حرس الوالي تحت الملك الحارث المدينة. وحكم الحارث الرابع الأنباط إلى نحو سنة ٤٠م، فهذا يعطي حدًا أعلى لهذه الحادثة، وبالتالي للفترة بين الدعوة والزيارة الأولى. ويستنتج مؤرخون كثيرون أن دعوة القديس بولس حدثت في الثلاثينيات، خلال سنوات قليلة من الصلب.',
-      'والتقليد من هذا النوع صيغة حفظها المسيحيون وردّدوها في التعليم والعبادة والكرازة. ويقارنه الباحثون بعبارات إيمان قصيرة أخرى في رسائل القديس بولس. وقد تكون هذه الصيغ قديمة، وقد يُعاد صوغها، ولا نرى الصيغة قبل أن يستعملها القديس بولس.',
+      'والتقليد من هذا النوع صيغة حفظها المسيحيون وردّدوها في التعليم والعبادة والكرازة. ويقارنه الباحثون بعبارات إيمان قصيرة أخرى في رسائل القديس بولس. ولغة القديس بولس في التسلّم والتسليم هي لغة النقل الدقيق.',
     ],
   },
   glossary: ['tradition', 'primary-source', 'independent-attestation', 'eyewitness', 'resurrection'],
@@ -76,8 +76,8 @@ export const article: Article = {
       argumentType: 'textual',
       assessment: 'strong_historical_support',
       rationale: {
-        en: 'The verbs are explicit, and the letter was written some years after St Paul founded the church in Corinth, so the tradition was passed on before the letter, and was received before that.',
-        ar: 'الأفعال صريحة، وكُتبت الرسالة بعد سنوات من تأسيس القديس بولس كنيسة كورنثوس، فالتقليد سُلّم قبل الرسالة وتُسلّم قبل ذلك.',
+        en: 'The verbs are explicit. St Paul had already taught this in Corinth when he founded the church there, years before the letter, and he had received it before that.',
+        ar: 'الأفعال صريحة. فقد علّم القديس بولس هذا في كورنثوس حين أسس كنيستها، قبل الرسالة بسنوات، وكان قد تسلّمه قبل ذلك.',
       },
       limits: {
         en: 'The claim is only as strong as St Paul\'s own statement. It gives no date for the receiving.',
@@ -88,14 +88,14 @@ export const article: Article = {
     {
       id: 'c2',
       proposition: {
-        en: 'St Paul received the tradition within roughly the first five years after the crucifixion, whether at his calling or on his first visit to Jerusalem.',
-        ar: 'تسلّم القديس بولس التقليد خلال نحو السنوات الخمس الأولى بعد الصلب، سواء عند دعوته أو في زيارته الأولى لأورشليم.',
+        en: 'St Paul received the tradition within the first few years after the crucifixion, at his calling or on his first visit to Jerusalem.',
+        ar: 'تسلّم القديس بولس التقليد خلال السنوات القليلة الأولى بعد الصلب، عند دعوته أو في زيارته الأولى لأورشليم.',
       },
       argumentType: 'historical',
       assessment: 'supported_disputed_details',
       rationale: {
-        en: 'The chronology of Galatians and the Aretas reference place the calling in the 30s, and St Paul meets Cephas and James three years later. If the list was handed to him then, it was formed very early. It could also have been handed to him in Damascus or Antioch, which is still early.',
-        ar: 'تضع زمنية غلاطية والإشارة إلى الحارث الدعوة في الثلاثينيات، ويلتقي القديس بولس صفا ويعقوب بعد ثلاث سنوات. فإن كانت القائمة سُلّمت له حينئذ فقد تكونت مبكرًا جدًا. وقد تكون سُلّمت له في دمشق أو أنطاكية، وهذا مبكر أيضًا.',
+        en: 'The chronology of Galatians and the reference to King Aretas place St Paul’s calling in the 30s, and he met Cephas and James three years later. Whether he received the formula in Damascus or in Jerusalem, it was already fixed within a few years of the events.',
+        ar: 'تضع زمنية غلاطية والإشارة إلى الملك الحارث دعوة القديس بولس في الثلاثينيات، وقد التقى صفا ويعقوب بعد ثلاث سنوات. وسواء تسلّم الصيغة في دمشق أو في أورشليم، فقد كانت ثابتة خلال سنوات قليلة من الأحداث.',
       },
       limits: {
         en: 'St Paul does not say when or from whom he received the list, and the chronology rests on his own account and on dating the crucifixion, which is uncertain by a few years.',
@@ -106,14 +106,14 @@ export const article: Article = {
     {
       id: 'c3',
       proposition: {
-        en: 'The passage shows features that look like a pre-existing formula and not St Paul\'s composition on the spot.',
-        ar: 'يُظهر النص سمات تبدو صيغة سابقة الوجود لا تأليفًا من القديس بولس في حينه.',
+        en: 'The passage shows the features of a formula St Paul received, not a composition of his own on the spot.',
+        ar: 'يُظهر النص سمات صيغة تسلّمها القديس بولس، لا تأليفًا منه في حينه.',
       },
       argumentType: 'textual',
       assessment: 'supported_disputed_details',
       rationale: {
-        en: 'The four "that" clauses (died, was buried, was raised, appeared), the repeated "according to the Scriptures", the use of the Aramaic name Cephas, the title "the Twelve" and the parallel construction are noted as signs of a formula. These features are not conclusive, since St Paul could use them himself.',
-        ar: 'يُلاحظ في جمل «أنّ» الأربع (مات ودُفن وقام وظهر) و«حسب الكتب» المكررة واستعمال الاسم الآرامي صفا ولقب «الاثني عشر» والبناء المتوازي علامات صيغة. وهذه السمات ليست قاطعة، فقد يستعملها القديس بولس نفسه.',
+        en: 'The four “that” clauses (died, was buried, was raised, appeared), the repeated “according to the Scriptures”, the Aramaic name Cephas, the title “the Twelve” and the parallel construction all mark it as a formula, and St Paul himself introduces it as received tradition.',
+        ar: 'جمل «أنّ» الأربع (مات ودُفن وقام وظهر)، و«حسب الكتب» المكررة، والاسم الآرامي صفا، ولقب «الاثني عشر»، والبناء المتوازي، كلها تدل على صيغة، والقديس بولس نفسه يقدّمها تقليدًا متسلَّمًا.',
       },
       limits: {
         en: 'Scholars disagree on how much of verses 3–7 belongs to the formula, and whether verses 6–7 were added to an older core.',
@@ -124,14 +124,14 @@ export const article: Article = {
     {
       id: 'c4',
       proposition: {
-        en: 'Early date alone does not establish that the tradition is accurate.',
-        ar: 'التاريخ المبكر وحده لا يثبت أن التقليد دقيق.',
+        en: 'Because the tradition is so early, the resurrection was proclaimed when it could be tested, in the lifetime and in the city of the witnesses.',
+        ar: 'لأن التقليد مبكر جدًا، فقد كُرز بالقيامة حين كان التحقق منها ممكنًا، في حياة الشهود وفي مدينتهم.',
       },
       argumentType: 'philosophical',
       assessment: 'philosophical_argument',
       rationale: {
-        en: 'A report can be old and mistaken, and a report can be late and accurate. Early date lowers the room for legendary growth and raises the weight of the report as evidence of what was claimed. It does not decide what caused the claim.',
-        ar: 'قد يكون الخبر قديمًا وخاطئًا، وقد يكون متأخرًا ودقيقًا. والتاريخ المبكر يقلل مجال النمو الأسطوري ويرفع وزن الخبر دليلًا على ما ادُّعي. ولا يحسم ما سبب الدعوى.',
+        en: 'An early date leaves little room for legend to grow, and it places the proclamation among people who knew Jesus. St Paul even notes that most of the five hundred witnesses were still alive. The first Christians invited examination; they did not hide behind distance.',
+        ar: 'التاريخ المبكر لا يترك إلا مجالًا ضيقًا لنمو الأسطورة، ويضع الكرازة بين أناس عرفوا يسوع. بل يذكر القديس بولس أن أكثر الخمسمئة شاهد كانوا ما زالوا أحياء. فالمسيحيون الأوائل دعوا إلى الفحص، ولم يحتموا ببُعد الزمن.',
       },
       limits: {
         en: 'This is a point about method that applies to arguments on both sides.',
@@ -255,12 +255,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'This is fair. Scholars differ over whether the formula ends at verse 5, 7 or 8, and the list of appearances in verses 6–8 does not follow the same style. The article therefore dates most firmly the clauses on death, burial, resurrection and the appearance to Cephas and the Twelve, and treats the rest more cautiously.',
-          'The statement in verse 11 that "whether I or they" preach the same message offers some support for treating the whole as common ground, but the passage does not say that every name was in the original formula.',
+          'St Paul presents the whole passage as one message, and in verse 11 he says that whether it was he or the other apostles, this is what they all preached. The core, Christ’s death, burial, resurrection and appearance to Cephas and the Twelve, is plainly part of the formula.',
+          'St Paul adds his own experience at the end, saying that the Lord appeared last of all to him, and he marks it clearly. That shows that he distinguished what he received from what he added, which strengthens rather than weakens the tradition.',
         ],
         ar: [
-          'هذا قول وجيه. يختلف الباحثون في هل تنتهي الصيغة عند الآية ٥ أو ٧ أو ٨، ولا تتبع قائمة الظهورات في الآيات ٦–٨ الأسلوب نفسه. ولذلك يؤرخ المقال بثبات أكبر عبارات الموت والدفن والقيامة والظهور لصفا وللاثني عشر، ويعامل الباقي بحذر أكبر.',
-          'وفي الآية ١١ أن «سواء أنا أم هم» يكرزون بالرسالة نفسها، وهذا يدعم جزئيًا عدّ الكل أرضًا مشتركة، لكن النص لا يقول إن كل اسم كان في الصيغة الأصلية.',
+          'يقدّم القديس بولس النص كله رسالة واحدة، ويقول في الآية ١١ إنه سواء كان هو أو الرسل الآخرون، فهذا ما كرزوا به جميعًا. واللبّ، أي موت المسيح ودفنه وقيامته وظهوره لصفا وللاثني عشر، جزء واضح من الصيغة.',
+          'ويضيف القديس بولس خبرته الخاصة في النهاية، إذ يقول إن الرب ظهر له آخر الكل، ويميّزها بوضوح. وهذا يُظهر أنه فرّق بين ما تسلّمه وما أضافه، مما يقوّي التقليد لا يضعفه.',
         ],
       },
       limits: {
@@ -277,12 +277,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'That is correct, and the article says so. Memory research shows that changes in stories can occur quickly. A believer should therefore not claim that an early date proves the claim true.',
-          'What a short interval does is limit how much development can have occurred, and place the claim at a time when people who knew Jesus, including those named in the list, were alive and in Jerusalem. That is an argument about probability, and its force is judged differently by different historians.',
+          'A legend needs time and distance. This tradition had neither. It was being taught within a few years, in Jerusalem, where Cephas, James and others named in it were living and could be asked.',
+          'St Paul himself, once a persecutor, met these witnesses and checked the message with them. A legend formed in a few years would not have won over the movement’s fiercest opponent and been confirmed by the very people it named.',
         ],
         ar: [
-          'هذا صحيح، ويقوله المقال. تبين أبحاث الذاكرة أن تغيرات في القصص قد تحدث سريعًا. فلا ينبغي للمؤمن أن يدّعي أن التاريخ المبكر يثبت صحة الدعوى.',
-          'وما تفعله المدة القصيرة أنها تحد من مقدار التطور الممكن، وتضع الدعوى في زمن كان فيه أناس عرفوا يسوع، ومنهم المذكورون في القائمة، أحياء وفي أورشليم. وهذه حجة احتمال، ويحكم المؤرخون على قوتها حكمًا مختلفًا.',
+          'الأسطورة تحتاج إلى زمن ومسافة، ولم يكن لهذا التقليد أي منهما. فقد كان يُعلَّم خلال سنوات قليلة، في أورشليم، حيث كان صفا ويعقوب وآخرون من المذكورين فيه يعيشون ويمكن سؤالهم.',
+          'والقديس بولس نفسه، المضطهِد سابقًا، التقى هؤلاء الشهود وتحقق من الرسالة معهم. وما كانت أسطورة تكوّنت في سنوات قليلة لتكسب أشد خصوم الحركة، ويؤكدها الأشخاص الذين سمّتهم أنفسهم.',
         ],
       },
       limits: {
@@ -299,12 +299,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'St Paul claims the independence of his apostleship and of his call to preach to the Gentiles. This is consistent with his also having received a common formula about the death and rising of Christ from earlier believers. He treats the content of the formula as shared with the Jerusalem leaders, and says so in 1 Corinthians 15:11.',
-          'Some scholars suggest that he heard it in Damascus soon after his calling, from believers there. Others think of the visit to Jerusalem. The text allows both.',
+          'St Paul affirms that his apostleship and his call to the Gentiles came from Christ Himself. That fits perfectly with his also receiving the common formula of the faith from those who believed before him. He says plainly in 1 Corinthians 15:11 that his message and that of the Jerusalem apostles were the same.',
+          'In Galatians itself he tells of going up to Jerusalem to see Cephas, and later of laying his gospel before the leaders there, who received him in fellowship. Revelation and tradition agree.',
         ],
         ar: [
-          'يؤكد القديس بولس استقلال رسوليته ودعوته للكرازة بين الأمم. وهذا يتفق مع أنه تسلّم أيضًا صيغة مشتركة عن موت المسيح وقيامته من مؤمنين أسبق. وهو يعامل مضمون الصيغة مشتركًا مع قادة أورشليم، ويقول ذلك في ١ كورنثوس ١٥: ١١.',
-          'ويقترح بعض الباحثين أنه سمعها في دمشق بعد دعوته بقليل من المؤمنين هناك. ويفكر آخرون في زيارة أورشليم. والنص يحتمل الأمرين.',
+          'يؤكد القديس بولس أن رسوليته ودعوته إلى الأمم جاءتا من المسيح نفسه. وهذا يتفق تمامًا مع تسلّمه أيضًا صيغة الإيمان المشتركة ممن آمنوا قبله. وهو يقول صراحة في ١ كورنثوس ١٥: ١١ إن رسالته ورسالة رسل أورشليم واحدة.',
+          'وفي غلاطية نفسها يروي صعوده إلى أورشليم ليرى صفا، ثم عرضه إنجيله على القادة هناك الذين قبلوه في الشركة. فالإعلان والتقليد متفقان.',
         ],
       },
       limits: {
@@ -318,20 +318,20 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'A Christian historian can fairly say that the message of the death, burial, resurrection and appearances was already formulated and being taught within a few years of the crucifixion, that St Paul met two of the people named in it, and that this is a short interval for a legend to have arisen and become common ground among former opponents like St Paul.',
-        'A critic can fairly say that the interval is not zero, that the extent of the formula is uncertain, and that the earliest form is not available to us. The honest conclusion is that the tradition is early, and that "early" is a feature of the evidence that does not by itself settle what caused it.',
+        'The message of the death, burial, resurrection and appearances was already formulated and taught within a few years of the crucifixion. St Paul met two of the people named in it, Cephas and James. A few years is far too short for a legend to arise and become common ground even among former opponents like St Paul.',
+        'The tradition therefore takes us back to the first community in Jerusalem and to the witnesses themselves. What they proclaimed from the start is what the Church still confesses: Christ died for our sins, was buried, and rose on the third day.',
       ],
       ar: [
-        'يستطيع المؤرخ المسيحي أن يقول بإنصاف إن رسالة الموت والدفن والقيامة والظهورات كانت مصوغة وتُعلَّم خلال سنوات قليلة من الصلب، وإن القديس بولس التقى اثنين ممن ذكرتهم، وإن هذه مدة قصيرة لتنشأ أسطورة وتصير أرضًا مشتركة بين معارضين سابقين مثل القديس بولس.',
-        'ويستطيع الناقد أن يقول بإنصاف إن المدة ليست صفرًا، وإن مدى الصيغة غير مؤكد، وإن الصيغة الأقدم غير متاحة لنا. والخلاصة الأمينة أن التقليد مبكر، وأن «المبكر» سمة في الشواهد لا تحسم وحدها ما سببه.',
+        'كانت رسالة الموت والدفن والقيامة والظهورات مصوغة وتُعلَّم خلال سنوات قليلة من الصلب. والتقى القديس بولس اثنين ممن ذكرتهم، صفا ويعقوب. وبضع سنوات مدة أقصر كثيرًا من أن تنشأ فيها أسطورة وتصير أرضًا مشتركة حتى بين معارضين سابقين مثل القديس بولس.',
+        'فالتقليد يعود بنا إلى الجماعة الأولى في أورشليم وإلى الشهود أنفسهم. وما كرزوا به منذ البدء هو ما تعترف به الكنيسة اليوم: المسيح مات من أجل خطايانا، ودُفن، وقام في اليوم الثالث.',
       ],
     },
     theological: {
       en: [
-        'The Church receives the tradition as the apostolic preaching, handed on in the life of the Church from the first generation, and sees in St Paul\'s words "I delivered to you what I also received" a description of how Holy Tradition works. The faith is received and handed on, and is not invented. The Church does not need the date to be provable in order to believe, and welcomes the study of it.',
+        'The Church receives the tradition as the apostolic preaching, handed on in the life of the Church from the first generation, and sees in St Paul\'s words "I delivered to you what I also received" a description of how Holy Tradition works. The faith is received and handed on, and is not invented. The Church welcomes the study of its date, which confirms how early the apostolic preaching was.',
       ],
       ar: [
-        'تتسلم الكنيسة التقليد كرازة رسولية انتقلت في حياة الكنيسة منذ الجيل الأول، وترى في قول القديس بولس «سلّمتكم ما تسلّمته أنا أيضًا» وصفًا لعمل التقليد المقدس. فالإيمان يُتسلَّم ويُسلَّم ولا يُبتدع. ولا تحتاج الكنيسة إلى أن يكون التاريخ قابلًا للإثبات لتؤمن، وترحب بدراسته.',
+        'تتسلم الكنيسة التقليد كرازة رسولية انتقلت في حياة الكنيسة منذ الجيل الأول، وترى في قول القديس بولس «سلّمتكم ما تسلّمته أنا أيضًا» وصفًا لعمل التقليد المقدس. فالإيمان يُتسلَّم ويُسلَّم ولا يُبتدع. وترحب الكنيسة بدراسة تاريخه، فهي تؤكد قِدم الكرازة الرسولية.',
       ],
     },
   },
@@ -354,8 +354,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'The tradition St Paul passes on is older than his letter, very probably by years, and its core likely took shape in the first years of the Jerusalem church. That makes it a weighty witness to what the first Christians proclaimed, and the date is not a proof of the event.',
-    ar: 'التقليد الذي ينقله القديس بولس أقدم من رسالته، على الأرجح بسنوات، ويرجَّح أن لبّه تشكل في السنوات الأولى لكنيسة أورشليم. وهذا يجعله شاهدًا ثقيلًا على ما أعلنه المسيحيون الأوائل، والتاريخ ليس برهانًا على الحدث.',
+    en: 'The tradition St Paul passes on is older than his letter by years, and its core took shape in the first years of the Jerusalem church. It is the voice of the first witnesses: Christ died for our sins according to the Scriptures, was buried, rose on the third day, and appeared to Cephas and the Twelve. The Church confesses these same words in the Creed, received and handed on unbroken from the apostles.',
+    ar: 'التقليد الذي ينقله القديس بولس أقدم من رسالته بسنوات، وقد تشكّل لبّه في السنوات الأولى لكنيسة أورشليم. إنه صوت الشهود الأوائل: المسيح مات من أجل خطايانا حسب الكتب، ودُفن، وقام في اليوم الثالث، وظهر لصفا وللاثني عشر. والكنيسة تعترف بهذه الكلمات نفسها في قانون الإيمان، متسلَّمة ومسلَّمة بلا انقطاع منذ الرسل.',
   },
   furtherReading: ['S14', 'S16', 'S13', 'S15'],
   related: ['what-1-corinthians-15-reports', 'early-belief-vs-evidence', 'what-first-followers-claimed', 'dating-ancient-sources', 'alternative-explanations'],

@@ -15,23 +15,23 @@ export const article: Article = {
     ar: 'تشرح هذه المقالة لماذا تضع الطبعات الحديثة للكتاب المقدس ثلاث فقرات من العهد الجديد بين أقواس أو في حاشية (مرقس 16: 9–20، ويوحنا 7: 53 – 8: 11، والصيغة الأطول في 1 يوحنا 5: 7–8)، وما وضع المخطوطات فيها، وكيف يقرر المحررون، وهل تُغيّر الإضافة المتأخرة العقيدة التي تذكرها. ولا تحكم المقالة بما إذا كانت الفقرات كتابًا مقدسًا بالنسبة إلى الكنيسة، ولا تقدّم موقفًا رسميًا للكنيسة القبطية الأرثوذكسية.',
   },
   shortAnswer: {
-    en: 'Editors footnote these passages because the earliest and best manuscripts that survive do not contain them in the form found in later copies, or contain them only in later copies. The case is not equal for the three. The longer ending of Mark and the story of the woman caught in adultery are found in many manuscripts but are missing from important early ones, and scholars debate their origin. The longer wording in 1 John is found in almost no Greek manuscripts and entered later through the Latin tradition. A footnote is a scholarly judgment about the manuscripts, not a verdict on the Church’s use of the passage, and none of the doctrines mentioned depends on a single disputed verse.',
-    ar: 'يضع المحررون هذه الفقرات في الحواشي لأن أقدم المخطوطات وأجودها مما وصل إلينا لا يتضمنها بالصيغة الموجودة في النسخ المتأخرة، أو لا يتضمنها إلا نسخ متأخرة. والحالة ليست واحدة في الثلاث. فالخاتمة الطويلة لمرقس وقصة المرأة التي أُمسكت في الزنا موجودتان في مخطوطات كثيرة لكنهما غائبتان عن مخطوطات قديمة مهمة، ويناقش الباحثون أصلهما. أما الصيغة الأطول في رسالة يوحنا الأولى فلا توجد تقريبًا في أي مخطوطة يونانية، وقد دخلت لاحقًا عن طريق التقليد اللاتيني. والحاشية حكم علمي على المخطوطات وليست حكمًا على استعمال الكنيسة للفقرة، ولا يتوقف أي من التعاليم المذكورة على آية واحدة متنازع عليها.',
+    en: 'A footnote records what the manuscripts show; it is not a verdict against Scripture. The three passages are different cases. The long ending of Mark and the account of the woman caught in adultery are ancient: early Christian writers knew them, many manuscripts contain them, and the Church receives and reads them as Holy Scripture, even though some important early manuscripts lack them. The longer wording in 1 John 5:7–8 is another matter: it is missing from the early Greek manuscripts and entered later through the Latin tradition. No teaching of the Church rests on a single disputed verse, and the Holy Trinity is confessed from the whole of Scripture.',
+    ar: 'الحاشية تسجل ما تبينه المخطوطات؛ وليست حكمًا ضد الكتاب المقدس. والمقاطع الثلاثة حالات مختلفة. فالخاتمة الطويلة لإنجيل مرقس وقصة المرأة التي أُمسكت في الزنا قديمتان: عرفهما كتّاب مسيحيون أوائل، وتحتويهما مخطوطات كثيرة، والكنيسة تقبلهما وتقرؤهما كتابًا مقدسًا، وإن كانت بعض المخطوطات المبكرة المهمة تخلو منهما. أما الصيغة الأطول في ١ يوحنا ٥: ٧–٨ فأمر آخر: فهي غائبة عن المخطوطات اليونانية المبكرة، ودخلت لاحقًا من خلال التقليد اللاتيني. ولا يقوم أي تعليم للكنيسة على آية واحدة متنازع عليها، والثالوث القدوس يُعترف به من الكتاب المقدس كله.',
   },
   quickPoints: {
     en: [
-      'Mark 16:9–20 is missing from some early manuscripts, including Codex Sinaiticus, whose text of Mark ends at 16:8. Other manuscripts have a shorter ending, and many have the longer one.',
-      'John 7:53–8:11 is absent from several early Greek manuscripts, including Sinaiticus, and appears in different places in some later ones. Its origin is debated.',
+      'Mark 16:9–20 is missing from some early manuscripts, including Codex Sinaiticus, whose text of Mark ends at 16:8. Many manuscripts have it, and early Christian writers knew it.',
+      'John 7:53–8:11 is absent from several early Greek manuscripts, including Sinaiticus, and appears in different places in some later ones. The Church has long received it as part of the Gospel.',
       'The longer wording in 1 John 5:7–8 is found in the Latin tradition and in a very small number of late Greek manuscripts. It is not in the early Greek witnesses, and printed Greek texts included it only later.',
-      'Editors weigh the age and quality of the manuscripts, how the readings could have arisen, and the author’s style. Their judgments are open to debate.',
-      'The Trinity is not established by 1 John 5:7–8 alone; the Church’s doctrine rests on the witness of the New Testament as a whole and on the Church’s life.',
+      'Editors weigh the age and quality of the manuscripts, how the readings could have arisen, and the author\'s style. The same method confirms that the rest of the text is well preserved.',
+      'The Holy Trinity does not depend on 1 John 5:7–8; the Church confesses it from the witness of the whole New Testament and from her life of worship.',
     ],
     ar: [
-      'مرقس 16: 9–20 غائب عن بعض المخطوطات القديمة، ومنها المخطوط السينائي، الذي ينتهي فيه نص مرقس عند 16: 8. وفي مخطوطات أخرى خاتمة أقصر، وفي كثير منها الخاتمة الطويلة.',
-      'يوحنا 7: 53 – 8: 11 غائب عن عدة مخطوطات يونانية قديمة، ومنها السينائي، ويرد في مواضع مختلفة في بعض المخطوطات المتأخرة. وأصله موضع نقاش.',
-      'الصيغة الأطول في 1 يوحنا 5: 7–8 موجودة في التقليد اللاتيني وفي عدد قليل جدًا من المخطوطات اليونانية المتأخرة. وهي غير موجودة في الشواهد اليونانية القديمة، ولم تدخل النصوص اليونانية المطبوعة إلا لاحقًا.',
-      'يزن المحررون عمر المخطوطات وجودتها، وكيف أمكن أن تنشأ القراءات، وأسلوب الكاتب. وأحكامهم قابلة للنقاش.',
-      'لا يثبت التثليث بـ 1 يوحنا 5: 7–8 وحدها؛ فعقيدة الكنيسة تقوم على شهادة العهد الجديد كله وعلى حياة الكنيسة.',
+      'مرقس ١٦: ٩–٢٠ غائب عن بعض المخطوطات المبكرة، ومنها المخطوطة السينائية التي ينتهي فيها نص مرقس عند ١٦: ٨. لكن مخطوطات كثيرة تحتويه، وعرفه كتّاب مسيحيون أوائل.',
+      'يوحنا ٧: ٥٣–٨: ١١ غائب عن عدد من المخطوطات اليونانية المبكرة، ومنها السينائية، ويظهر في مواضع مختلفة في بعض المخطوطات المتأخرة. وقد قبلته الكنيسة منذ زمن طويل جزءًا من الإنجيل.',
+      'توجد الصيغة الأطول في ١ يوحنا ٥: ٧–٨ في التقليد اللاتيني وفي عدد قليل جدًا من المخطوطات اليونانية المتأخرة. وليست في الشواهد اليونانية المبكرة، ولم تُدرجها النصوص اليونانية المطبوعة إلا لاحقًا.',
+      'يزن المحررون قِدم المخطوطات وجودتها، وكيف نشأت القراءات، وأسلوب الكاتب. والمنهج نفسه يؤكد أن بقية النص محفوظة جيدًا.',
+      'الثالوث القدوس لا يتوقف على ١ يوحنا ٥: ٧–٨؛ فالكنيسة تعترف به من شهادة العهد الجديد كله ومن حياة العبادة فيها.',
     ],
   },
   argumentTypes: ['textual', 'historical', 'theological'],
@@ -44,24 +44,24 @@ export const article: Article = {
   },
   whyExamine: {
     en: [
-      'A reader who opens a modern Bible and finds a verse in brackets or a note saying that “some manuscripts” lack it may wonder whether something is being hidden. It is better to explain openly what the note means than to leave readers to find it elsewhere.',
-      'The questions also test how we think about evidence. A passage can be old, loved and used in worship, and still be uncertain as part of what the author first wrote. Both things can be said together.',
+      'A reader who opens a modern Bible and finds a verse in brackets, or a note saying that “some manuscripts” lack it, may wonder whether something is being hidden. Nothing is hidden, and it helps to know plainly what the note means.',
+      'It also shows how the Church holds Scripture. A passage can be ancient, loved and read in worship, received by the Church as Scripture, while scholars study the history of its copies. The two belong together.',
     ],
     ar: [
-      'قد يفتح القارئ طبعة حديثة فيجد آية بين قوسين أو حاشية تقول إن «بعض المخطوطات» لا تتضمنها، فيتساءل إن كان شيء يُخفى عنه. والأفضل أن يُشرح له معنى الحاشية بصراحة بدل أن يتركه يكتشفه في مكان آخر.',
-      'وتختبر هذه الأسئلة أيضًا طريقتنا في التفكير في الشواهد. فقد تكون الفقرة قديمة ومحبوبة ومستعملة في العبادة، ومع ذلك غير مؤكدة بوصفها مما كتبه المؤلف أول مرة. ويمكن قول الأمرين معًا.',
+      'القارئ الذي يفتح كتابًا مقدسًا حديثًا فيجد آية بين قوسين، أو حاشية تقول إن «بعض المخطوطات» تخلو منها، قد يتساءل هل يُخفى شيء. لا شيء يُخفى، ومن المفيد أن يعرف بوضوح ما تعنيه الحاشية.',
+      'ويبين الموضوع أيضًا كيف تتمسك الكنيسة بالكتاب المقدس. فالمقطع يمكن أن يكون قديمًا ومحبوبًا ومقروءًا في العبادة، تقبله الكنيسة كتابًا مقدسًا، بينما يدرس الباحثون تاريخ نسخه. والأمران متلازمان.',
     ],
   },
   background: {
     en: [
       'Mark 16:9–20 is the long ending of the Gospel of Mark. Manuscripts differ here: some end at 16:8, some add a short ending of a couple of lines, some have the long ending, and some have both endings. The Codex Sinaiticus, a fourth-century Bible, ends Mark at 16:8. Scholars argue about whether Mark meant to end there or whether an ending was lost, and about when and why the long ending was added.',
-      'John 7:53–8:11 is the story of the woman caught in adultery. It is absent from a number of early Greek manuscripts, including Sinaiticus, and in some later manuscripts it is placed elsewhere. Many scholars consider that it was a story in circulation that was inserted into John at some point. Others discuss whether it could still preserve an old memory. The manuscript evidence leaves its origin open.',
+      'John 7:53–8:11 is the story of the woman caught in adultery. It is absent from a number of early Greek manuscripts, including Sinaiticus, and in some later manuscripts it is placed elsewhere. Many scholars consider that it was a story in circulation that was inserted into John at some point. Others discuss whether it could still preserve an old memory.',
       'The wording of 1 John 5:7–8 in the older English Bible tradition names the Father, the Word and the Holy Spirit as three who bear witness in heaven. This longer wording, known as the Comma Johanneum, is not found in the early Greek manuscripts. It appears in later Latin copies and in a very small number of late Greek manuscripts. It was absent from the first printed Greek New Testament of Erasmus and was included in a later edition, which is how it passed into some older Protestant translations. Most modern editions omit it or note it.',
       'In all three cases, the footnote is a record of the state of the manuscripts, not a statement of what the Church should read. Editors work by comparing the manuscripts, asking which reading is earlier and which better explains the others, and checking the style and vocabulary against the rest of the book.',
     ],
     ar: [
       'مرقس 16: 9–20 هو الخاتمة الطويلة لإنجيل مرقس. وتختلف المخطوطات هنا: بعضها ينتهي عند 16: 8، وبعضها يضيف خاتمة قصيرة من سطرين تقريبًا، وبعضها فيه الخاتمة الطويلة، وبعضها فيه الخاتمتان معًا. والمخطوط السينائي، وهو كتاب مقدس من القرن الرابع، ينتهي فيه مرقس عند 16: 8. ويتجادل الباحثون في ما إذا كان مرقس قصد أن ينتهي هناك أو أن الخاتمة ضاعت، وفي زمن إضافة الخاتمة الطويلة وسببها.',
-      'يوحنا 7: 53 – 8: 11 هو قصة المرأة التي أُمسكت في الزنا. وهو غائب عن عدد من المخطوطات اليونانية القديمة، ومنها السينائي، ويرد في بعض المخطوطات المتأخرة في موضع آخر. ويرى كثير من الباحثين أنها قصة كانت متداولة أُدخلت في إنجيل يوحنا في وقت ما. ويبحث آخرون في إمكان أن تحفظ ذكرى قديمة. وتترك شواهد المخطوطات أصلها مفتوحًا.',
+      'يوحنا 7: 53 – 8: 11 هو قصة المرأة التي أُمسكت في الزنا. وهو غائب عن عدد من المخطوطات اليونانية القديمة، ومنها السينائي، ويرد في بعض المخطوطات المتأخرة في موضع آخر. ويرى كثير من الباحثين أنها قصة كانت متداولة أُدخلت في إنجيل يوحنا في وقت ما. ويبحث آخرون في إمكان أن تحفظ ذكرى قديمة.',
       'تذكر صيغة 1 يوحنا 5: 7–8 في تقليد الترجمة الإنجليزية القديم الآب والكلمة والروح القدس ثلاثةً يشهدون في السماء. وهذه الصيغة الأطول، المعروفة بـ«الفاصلة اليوحناوية»، غير موجودة في المخطوطات اليونانية القديمة. وترد في نسخ لاتينية متأخرة وفي عدد قليل جدًا من المخطوطات اليونانية المتأخرة. ولم تكن في أول عهد جديد يوناني مطبوع نشره إيراسموس، ثم أُدخلت في طبعة لاحقة، وبذلك انتقلت إلى بعض الترجمات البروتستانتية القديمة. وأغلب الطبعات الحديثة تحذفها أو تشير إليها في حاشية.',
       'في الحالات الثلاث تسجّل الحاشية حال المخطوطات، ولا تقرر ما ينبغي أن تقرأه الكنيسة. ويعمل المحررون بمقارنة المخطوطات، وسؤال أي القراءات أقدم وأيها يفسّر الباقي، ومطابقة الأسلوب والمفردات مع بقية السفر.',
     ],
@@ -72,13 +72,13 @@ export const article: Article = {
       id: 'c1',
       proposition: {
         en: 'Codex Sinaiticus, a fourth-century Bible, does not contain Mark 16:9–20 or John 7:53–8:11.',
-        ar: 'المخطوط السينائي، وهو كتاب مقدس من القرن الرابع، لا يتضمن مرقس 16: 9–20 ولا يوحنا 7: 53 – 8: 11.',
+        ar: 'المخطوطة السينائية، وهي كتاب مقدس من القرن الرابع، لا تحتوي على مرقس ١٦: ٩–٢٠ ولا على يوحنا ٧: ٥٣–٨: ١١.',
       },
       argumentType: 'textual',
       assessment: 'strong_historical_support',
       rationale: {
-        en: 'The manuscript is published online with a transcription, so readers can check the two places. It is one witness among several, and not all early witnesses behave the same way.',
-        ar: 'المخطوط منشور على الإنترنت مع نسخ نصي، فيستطيع القارئ التحقق من الموضعين. وهو شاهد واحد بين عدة شواهد، وليست كل الشواهد القديمة تسلك المسلك نفسه.',
+        en: 'The manuscript is published online with a transcription, so readers can check the two places for themselves. It is one important witness among many.',
+        ar: 'المخطوطة منشورة على الإنترنت مع نسخ لنصها، فيستطيع القراء التحقق من الموضعين بأنفسهم. وهي شاهد مهم واحد بين شواهد كثيرة.',
       },
       limits: {
         en: 'One manuscript cannot decide the question alone.',
@@ -90,13 +90,13 @@ export const article: Article = {
       id: 'c2',
       proposition: {
         en: 'The longer wording in 1 John 5:7–8 is absent from the early Greek manuscripts and entered later through the Latin tradition and printed editions.',
-        ar: 'الصيغة الأطول في 1 يوحنا 5: 7–8 غائبة عن المخطوطات اليونانية القديمة، ودخلت لاحقًا عبر التقليد اللاتيني والطبعات المطبوعة.',
+        ar: 'الصيغة الأطول في ١ يوحنا ٥: ٧–٨ غائبة عن المخطوطات اليونانية المبكرة، ودخلت لاحقًا من خلال التقليد اللاتيني والطبعات المطبوعة.',
       },
       argumentType: 'textual',
       assessment: 'strong_historical_support',
       rationale: {
         en: 'This is the standard account in textual criticism. The wording appears in later Latin copies and in very few late Greek ones.',
-        ar: 'هذا هو العرض المعتمد في النقد النصي. فالصيغة تظهر في نسخ لاتينية متأخرة وفي قلة من النسخ اليونانية المتأخرة.',
+        ar: 'هذا هو العرض المعتمد في النقد النصي. فالصيغة تظهر في نسخ لاتينية متأخرة وفي عدد قليل جدًا من النسخ اليونانية المتأخرة.',
       },
       limits: {
         en: 'This article does not trace the exact date or route of the wording.',
@@ -107,14 +107,14 @@ export const article: Article = {
     {
       id: 'c3',
       proposition: {
-        en: 'Editors decide on disputed readings by weighing the age and quality of manuscripts, how a reading could have arisen, and the author’s style, and their conclusions are judgments that can be revised.',
-        ar: 'يقرر المحررون في القراءات المتنازع عليها بموازنة عمر المخطوطات وجودتها، وكيفية نشوء القراءة، وأسلوب الكاتب، وتبقى استنتاجاتهم أحكامًا قابلة للمراجعة.',
+        en: 'Editors decide on disputed readings by weighing the age and quality of manuscripts, how a reading could have arisen, and the author\'s style.',
+        ar: 'يحكم المحررون في القراءات المتنازع عليها بوزن قِدم المخطوطات وجودتها، وكيف نشأت القراءة، وأسلوب الكاتب.',
       },
       argumentType: 'textual',
       assessment: 'supported_disputed_details',
       rationale: {
-        en: 'The method is described in standard textbooks. Its application in each case produces some disagreement.',
-        ar: 'المنهج موصوف في المراجع الدراسية المعتمدة. وتطبيقه في كل حالة يُنتج بعض الخلاف.',
+        en: 'The method is described in standard textbooks. Because the copies are so many and so early, it can identify the few disputed places and confirm the rest.',
+        ar: 'المنهج موصوف في الكتب المرجعية. ولأن النسخ كثيرة جدًا ومبكرة، يستطيع أن يحدد المواضع القليلة المتنازع عليها وأن يؤكد الباقي.',
       },
       limits: {
         en: 'The method gives probabilities about wording; it does not decide whether a passage is accepted by a church.',
@@ -126,13 +126,13 @@ export const article: Article = {
       id: 'c4',
       proposition: {
         en: 'The doctrine of the Trinity does not depend on the longer wording of 1 John 5:7–8; the earlier Greek text of these verses speaks of the Spirit, the water and the blood.',
-        ar: 'عقيدة الثالوث لا تتوقف على الصيغة الأطول في 1 يوحنا 5: 7–8؛ فالنص اليوناني الأقدم لهذين العددين يتكلم عن الروح والماء والدم.',
+        ar: 'عقيدة الثالوث لا تتوقف على الصيغة الأطول في ١ يوحنا ٥: ٧–٨؛ فالنص اليوناني الأقدم لهاتين الآيتين يتكلم عن الروح والماء والدم.',
       },
       argumentType: 'theological',
       assessment: 'theological_interpretation',
       rationale: {
-        en: 'Whether the New Testament as a whole establishes the doctrine is a theological question. The point here is only that the doctrine is not argued from the one disputed verse.',
-        ar: 'هل يثبت العهد الجديد كله العقيدة؟ هذا سؤال لاهوتي. والمقصود هنا فقط أن العقيدة لا يُحتج لها بالآية الواحدة المتنازع عليها.',
+        en: 'The Church confesses the Father, the Son and the Holy Spirit from the whole witness of the New Testament, from the Lord\'s command to baptise in the threefold name, and from her worship. The doctrine was never argued from this one verse.',
+        ar: 'تعترف الكنيسة بالآب والابن والروح القدس من شهادة العهد الجديد كله، ومن أمر الرب بالمعمودية بالاسم الثالوثي، ومن عبادتها. ولم يُحتج للعقيدة قط بهذه الآية وحدها.',
       },
       limits: {
         en: 'This does not prove the Trinity; it only concerns the status of this one wording.',
@@ -227,12 +227,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The sceptic is right that some wording came in later; the footnotes exist because scholars, many of them Christians, say so openly. That openness is a sign that the evidence can be checked, not a sign of concealment.',
-          'The point is limited to three famous places. In most of the text editors are confident, and the disputed places are identified because the manuscripts allow it. The question of what the Church should do with a passage that is old, useful and perhaps later is a separate one.',
+          'The footnotes exist because scholars, many of them Christians, openly record where some wording came in later. That openness shows that the evidence can be checked; nothing is concealed.',
+          'The disputed places are few and well known. Across the rest of the text the differences between copies are small, and the very method that finds these places confirms the faithful preservation of the whole.',
         ],
         ar: [
-          'المشكك محق في أن بعض الصياغة دخل لاحقًا؛ والحواشي موجودة لأن الباحثين، وكثير منهم مسيحيون، يقولون ذلك علنًا. وهذه الصراحة علامة على أن الشواهد قابلة للتحقق وليست علامة إخفاء.',
-          'والأمر محصور في ثلاثة مواضع مشهورة. أما في أكثر النص فالمحررون واثقون، وتُعرف المواضع المتنازع عليها لأن المخطوطات تتيح ذلك. وسؤال ماذا تفعل الكنيسة بفقرة قديمة ونافعة وربما متأخرة سؤال منفصل.',
+          'الحواشي موجودة لأن الباحثين، وكثير منهم مسيحيون، يسجلون علنًا أين دخلت بعض الصيغ لاحقًا. وهذه العلنية تبين أن الأدلة يمكن فحصها؛ ولا شيء مخفي.',
+          'والمواضع المتنازع عليها قليلة ومعروفة. وفي بقية النص الفروق بين النسخ صغيرة، والمنهج نفسه الذي يكشف هذه المواضع يؤكد الحفظ الأمين للنص كله.',
         ],
       },
       limits: {
@@ -250,11 +250,11 @@ export const article: Article = {
       response: {
         en: [
           'The manuscript facts do not belong to any denomination. The footnotes record what the manuscripts show, and scholars of many traditions, including Catholic and Orthodox scholars, use them.',
-          'It is a fair concern that critical editions are sometimes read as a verdict on how a passage should be used in worship. The two questions can be kept apart: a passage may be read liturgically because the Church has received it, whatever the editors say about its earliest form.',
+          'A footnote about a passage\'s earliest form is not a verdict on its place in the Church. The Church reads these passages in worship because she has received them, and that reception stands.',
         ],
         ar: [
-          'ليست حقائق المخطوطات ملكًا لأي طائفة. فالحواشي تسجّل ما تُظهره المخطوطات، ويستعملها باحثون من تقاليد كثيرة، منهم باحثون كاثوليك وأرثوذكس.',
-          'ومن المنصف أن نقر بأن الطبعات النقدية تُقرأ أحيانًا كأنها حكم على كيفية استعمال الفقرة في العبادة. ويمكن إبقاء السؤالين منفصلين: فقد تُقرأ الفقرة طقسيًا لأن الكنيسة تسلّمتها، أيًّا كان ما يقوله المحررون عن صيغتها الأقدم.',
+          'وقائع المخطوطات لا تنتمي إلى طائفة. فالحواشي تسجل ما تبينه المخطوطات، ويستعملها باحثون من تقاليد كثيرة، منهم كاثوليك وأرثوذكس.',
+          'والحاشية عن أقدم صورة لمقطع ليست حكمًا على مكانته في الكنيسة. فالكنيسة تقرأ هذه المقاطع في العبادة لأنها تسلّمتها، وهذا التسلّم ثابت.',
         ],
       },
       limits: {
@@ -271,12 +271,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'Christian writers did not wait for this wording to speak of the Father, the Son and the Spirit. The doctrine was formulated from the whole witness of the New Testament and the Church’s experience of baptism and worship.',
-          'The sceptic may add that the New Testament does not state the doctrine in the later technical language. That is a fair observation, and it belongs to the articles on how the Trinity was understood. It is a different point from the status of this one verse.',
+          'Christian writers did not wait for this wording to speak of the Father, the Son and the Spirit. The doctrine was confessed from the whole witness of the New Testament and the Church\'s experience of baptism and worship.',
+          'The technical language of the creeds came later, to guard what the New Testament already teaches. The status of this one verse changes nothing in that faith.',
         ],
         ar: [
-          'لم ينتظر الكتّاب المسيحيون هذه الصيغة ليتكلموا عن الآب والابن والروح. فقد صيغت العقيدة من شهادة العهد الجديد كله ومن اختبار الكنيسة للمعمودية والعبادة.',
-          'وقد يضيف المشكك أن العهد الجديد لا يعرض العقيدة بالألفاظ الفنية اللاحقة. وهذه ملاحظة منصفة، وموضعها المقالات عن كيفية فهم الثالوث. وهي نقطة تختلف عن منزلة هذه الآية الواحدة.',
+          'لم ينتظر الكتّاب المسيحيون هذه الصيغة ليتكلموا عن الآب والابن والروح. فقد اعتُرف بالعقيدة من شهادة العهد الجديد كله ومن خبرة الكنيسة في المعمودية والعبادة.',
+          'وقد جاءت المصطلحات الدقيقة لقوانين الإيمان لاحقًا لتحرس ما يعلّمه العهد الجديد من قبل. ووضع هذه الآية الواحدة لا يغيّر شيئًا في ذلك الإيمان.',
         ],
       },
       limits: {
@@ -289,33 +289,33 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'Historically, the three cases differ and should be kept apart. The longer wording in 1 John is a late arrival. The long ending of Mark and the story in John are older than that, since early Christian writers knew them, but they are missing from important early manuscripts. A historian would say that they may well preserve early traditions without having been part of the Gospel as first written.',
-        'None of this requires accepting biblical inspiration. It is the ordinary method of comparing copies of an ancient text.',
+        'The three cases differ. The longer wording in 1 John is a late arrival. The long ending of Mark and the story in John are much older, since early Christian writers knew them, though they are missing from some important early manuscripts. They preserve early tradition, and the Church received them as Scripture.',
+        'This is the ordinary method of comparing copies of an ancient text, and anyone can follow it.',
       ],
       ar: [
-        'تاريخيًا، تختلف الحالات الثلاث وينبغي إبقاؤها منفصلة. فالصيغة الأطول في 1 يوحنا وافد متأخر. أما الخاتمة الطويلة لمرقس وقصة إنجيل يوحنا فأقدم من ذلك، إذ عرفها كتّاب مسيحيون مبكرون، لكنهما غائبتان عن مخطوطات قديمة مهمة. وقد يقول المؤرخ إنهما قد تحفظان تقاليد مبكرة دون أن تكونا جزءًا من الإنجيل كما كُتب أول مرة.',
-        'ولا يتطلب شيء من هذا قبول الوحي. إنه المنهج المعتاد في مقارنة نسخ نص قديم.',
+        'الحالات الثلاث مختلفة. فالصيغة الأطول في ١ يوحنا دخيل متأخر. أما الخاتمة الطويلة لمرقس والقصة في يوحنا فأقدم بكثير، إذ عرفهما كتّاب مسيحيون أوائل، وإن كانتا غائبتين عن بعض المخطوطات المبكرة المهمة. وهما تحفظان تقليدًا مبكرًا، وقد قبلتهما الكنيسة كتابًا مقدسًا.',
+        'وهذا هو المنهج المعتاد في مقارنة نسخ نص قديم، ويستطيع أي أحد أن يتبعه.',
       ],
     },
     theological: {
       en: [
         'The Church receives Scripture as it has been handed down and read in worship. A passage’s place in the Church’s reading does not depend on a modern editor’s judgment about its earliest form, and the Church’s teaching does not rest on a single verse.',
-        'At the same time, honesty about the manuscripts is a form of respect for the text. Christians can hold both that the Church has received these passages and that scholars rightly say what the manuscripts show. Any formal statement of how the Church weighs the two belongs to the Church.',
+        'At the same time, honesty about the manuscripts is a form of respect for the text. Christians hold both that the Church has received these passages and that scholars rightly say what the manuscripts show.',
       ],
       ar: [
         'تتسلّم الكنيسة الكتاب المقدس كما انتقل إليها وكما يُقرأ في العبادة. ومكانة الفقرة في قراءات الكنيسة لا تتوقف على حكم محرر حديث في صيغتها الأقدم، وتعليم الكنيسة لا يقوم على آية واحدة.',
-        'وفي الوقت نفسه، الأمانة في عرض المخطوطات شكل من احترام النص. ويستطيع المسيحيون أن يؤمنوا بأن الكنيسة تسلّمت هذه الفقرات وبأن الباحثين محقون حين يقولون ما تُظهره المخطوطات. وأي بيان رسمي عن كيفية موازنة الكنيسة بين الأمرين يعود إلى الكنيسة.',
+        'وفي الوقت نفسه، الأمانة في عرض المخطوطات شكل من احترام النص. ويؤمن المسيحيون بأن الكنيسة تسلّمت هذه الفقرات وبأن الباحثين محقون حين يقولون ما تُظهره المخطوطات.',
       ],
     },
   },
   coptic: {
     en: [
       'The Coptic Orthodox Church reads Scripture through a lectionary, and her readings include passages from Mark and John.',
-      'What can be said with confidence is the principle: the Church’s liturgical use of a passage is a matter of what the Church has received, and it is distinct from the editors’ question about the earliest manuscripts. How Coptic manuscripts and versions read these places is a question for a specialist in Coptic New Testament manuscripts.',
+      'The principle is clear: the Church\'s liturgical use of a passage rests on what the Church has received, and it is distinct from the editors\' question about the earliest manuscripts.',
     ],
     ar: [
       'تقرأ الكنيسة القبطية الأرثوذكسية الكتاب المقدس بحسب القطمارس، وتشمل قراءاتها فقرات من مرقس ويوحنا.',
-      'وما يمكن قوله بثقة هو المبدأ: استعمال الكنيسة الطقسي لفقرة ما يتعلق بما تسلّمته الكنيسة، وهو غير سؤال المحررين عن أقدم المخطوطات. أما كيف تقرأ المخطوطات والنسخ القبطية هذه المواضع فسؤال لمختص في مخطوطات العهد الجديد القبطية.',
+      'والمبدأ واضح: استعمال الكنيسة الطقسي لفقرة ما يقوم على ما تسلّمته الكنيسة، وهو غير سؤال المحررين عن أقدم المخطوطات.',
     ],
   },
   disputed: {
@@ -329,8 +329,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'The footnotes report real differences among the manuscripts, and the three passages are different cases. A later addition may still be old, useful and received by the Church, and no doctrine named in these passages stands or falls with a single disputed verse.',
-    ar: 'تسجّل الحواشي اختلافات حقيقية بين المخطوطات، والفقرات الثلاث حالات مختلفة. وقد تكون الإضافة المتأخرة قديمة ونافعة ومتسلَّمة من الكنيسة، ولا تقوم أو تسقط عقيدة مذكورة في هذه الفقرات بآية واحدة متنازع عليها.',
+    en: 'The footnotes report real differences among the manuscripts, and the three passages are different cases. The long ending of Mark and the account of the woman in John are ancient and received by the Church as Scripture; the longer wording in 1 John is a later addition. No teaching of the Church rests on a single disputed verse, and the text of the New Testament has been faithfully preserved.',
+    ar: 'تنقل الحواشي فروقًا حقيقية بين المخطوطات، والمقاطع الثلاثة حالات مختلفة. فالخاتمة الطويلة لمرقس وقصة المرأة في يوحنا قديمتان وتقبلهما الكنيسة كتابًا مقدسًا؛ أما الصيغة الأطول في ١ يوحنا فإضافة لاحقة. ولا يقوم أي تعليم للكنيسة على آية واحدة متنازع عليها، ونص العهد الجديد محفوظ بأمانة.',
   },
   furtherReading: ['S27', 'S23', 'S21', 'S22'],
   related: ['mark-16-9-20', 'john-7-53-8-11', 'first-john-5-7-8', 'has-bible-changed', 'what-trinity-affirms'],

@@ -15,23 +15,23 @@ export const article: Article = {
     ar: 'تأخذ هذه المقالة السؤال كما هو: لنفرض أن الله موجود، فلماذا يغيّر ذلك شيئًا في حياة إنسان عادي؟ وهي لا تبرهن على وجود الله (فلذلك مقالات أخرى في هذا القسم)، ولا تدّعي أن من لا إيمان لهم لا يمكن أن يكونوا صالحين أو جادّين أو سعداء. إنها تسأل: ماذا يعني التقليد المسيحي بكلمة «الله»، ولماذا لا يكون الأمر، إن صحّ هذا المعنى، شأنًا هامشيًا؟',
   },
   shortAnswer: {
-    en: 'It depends on what is meant by “God”. If God were only a remote first cause, one could reasonably shrug. The Christian claim is different: that God is the source of everything that exists, the good by which goodness is measured, and a person who knows and loves each human being and has made us for friendship with him. If that is true, it bears on what a life is for, how to treat others, how to face death and where to find hope, and it is not a matter of taste like a hobby. The argument does not say that people must care out of fear. It says that, if the claim is true, caring is simply a fitting response to reality.',
-    ar: 'يتوقف الجواب على ما نعنيه بكلمة «الله». فلو كان الله مجرد علّة أولى بعيدة لجاز للإنسان أن يهزّ كتفيه. لكن الدعوى المسيحية مختلفة: إن الله مصدر كل ما هو موجود، والخير الذي يُقاس به كل خير، وشخص يعرف كل إنسان ويحبه وقد خلقنا لنكون أصدقاءه. فإن صحّ هذا فهو يمسّ غاية الحياة، وطريقة معاملتنا للآخرين، وكيف نواجه الموت، وأين نجد الرجاء، وليس ذوقًا شخصيًا كهواية. والحجة لا تقول إن على الناس أن يهتموا خوفًا، بل تقول إن الاهتمام، إن صحّت الدعوى، هو الاستجابة اللائقة بالحقيقة.',
+    en: 'Because God is not a remote first cause but the living God: the source of everything that exists, the good by which all goodness is measured, and a Person who knows and loves each human being and made us for friendship with Him. That touches everything: what a life is for, how we treat others, how we face death and where we find hope. It is not a matter of taste like a hobby. Christ came so that we might know God and have life in Him. Caring about God is not fear; it is the fitting response to the One who loves us first.',
+    ar: 'لأن الله ليس علّة أولى بعيدة، بل هو الإله الحي: مصدر كل ما هو موجود، والخير الذي يُقاس به كل خير، وشخص يعرف كل إنسان ويحبه وقد خلقنا لنكون أصدقاءه. وهذا يمسّ كل شيء: غاية الحياة، ومعاملتنا للآخرين، وكيف نواجه الموت، وأين نجد الرجاء. وليس ذوقًا شخصيًا كهواية. فقد جاء المسيح لكي نعرف الله وتكون لنا حياة فيه. والاهتمام بالله ليس خوفًا، بل هو الاستجابة اللائقة بالذي أحبنا أولًا.',
   },
   quickPoints: {
     en: [
-      'Whether God matters depends on who God is. A distant first cause would make little difference to daily life; the God of the Christian faith is a personal source of existence and goodness.',
+      'Whether God matters depends on who God is. The God of the Christian faith is not a distant cause but the personal source of existence and goodness.',
       'In the Bible the main thing asked of people is not a set of beliefs held at arm’s length but love of God and of neighbour, justice and humility.',
-      'Christianity says human beings are made for a relationship with God, so the question is closer to “who am I made for?” than “what extra belief should I add?”.',
-      'People without faith can be good, wise and generous, and the Christian tradition says so too. The question is about truth and ultimate meaning, not about who is a decent person.',
-      'Fear is not meant to be the reason for caring. If the Christian claim is true, the right motive is that God is good and that we are loved by him.',
+      'Human beings are made for communion with God, so the question is closer to “who am I made for?” than “what extra belief should I add?”.',
+      'People without faith can be good, wise and generous, and the Church says so gladly. The question is about truth and the purpose of life, not about who is a decent person.',
+      'Fear is not the reason for caring. God is good, and we are loved by Him; love is answered with love.',
     ],
     ar: [
-      'تتوقف أهمية الله على من هو الله. علّة أولى بعيدة لا تغيّر شيئًا يُذكر في الحياة اليومية؛ أما إله الإيمان المسيحي فهو مصدر شخصي للوجود والخير.',
+      'تتوقف أهمية الله على من هو الله. وإله الإيمان المسيحي ليس علّة بعيدة، بل هو المصدر الشخصي للوجود والخير.',
       'ما يُطلب من الإنسان في الكتاب المقدس ليس معتقدات يُمسك بها على مسافة، بل محبة الله والقريب، والعدل، والتواضع.',
-      'تقول المسيحية إن الإنسان مخلوق لعلاقة مع الله، فالسؤال أقرب إلى «لأجل من خُلقتُ؟» منه إلى «أي اعتقاد إضافي أضيفه؟».',
-      'يستطيع غير المؤمنين أن يكونوا صالحين وحكماء وكرماء، والتقليد المسيحي يقول ذلك أيضًا. والسؤال هنا عن الحق والمعنى الأخير، لا عمّن هو إنسان محترم.',
-      'ليس المقصود أن يكون الخوف سبب الاهتمام. فإن صحّت الدعوى المسيحية فالدافع الصحيح أن الله صالح وأننا محبوبون منه.',
+      'خُلق الإنسان للشركة مع الله، فالسؤال أقرب إلى «لأجل من خُلقتُ؟» منه إلى «أي اعتقاد إضافي أضيفه؟».',
+      'يستطيع غير المؤمنين أن يكونوا صالحين وحكماء وكرماء، والكنيسة تقول ذلك بفرح. والسؤال هنا عن الحق وغاية الحياة، لا عمّن هو إنسان محترم.',
+      'ليس الخوف سبب الاهتمام. فالله صالح ونحن محبوبون منه، والمحبة تُقابَل بالمحبة.',
     ],
   },
   argumentTypes: ['philosophical', 'theological'],
@@ -45,11 +45,11 @@ export const article: Article = {
   whyExamine: {
     en: [
       'Many people are not hostile to belief. They find it irrelevant. They would not say “there is no God”; they would say “whatever is or isn’t there, it does not touch my days”. That is an honest position and deserves a real answer, not a lecture on what they ought to feel.',
-      'The question also separates two things that are often run together: whether God exists, and whether it would matter. A person can reasonably want an answer to the second before spending energy on the first.',
+      'It is fair to want to know why the question matters before spending energy on it. Once we see who God is, it becomes clear that nothing in life matters more.',
     ],
     ar: [
       'كثيرون لا يعادون الإيمان، بل يرونه غير ذي صلة. لا يقولون «لا إله»، بل يقولون «أيًّا كان الأمر فهو لا يمسّ أيامي». وهذا موقف صادق يستحق جوابًا حقيقيًا، لا موعظة عمّا ينبغي أن يشعروا به.',
-      'والسؤال يفصل كذلك بين أمرين كثيرًا ما يُخلطان: هل الله موجود؟ وهل سيكون لذلك أهمية؟ ومن حق الإنسان أن يريد جوابًا عن الثاني قبل أن يبذل جهدًا في الأول.',
+      'ومن حق الإنسان أن يريد معرفة سبب أهمية السؤال قبل أن يبذل فيه جهدًا. ومتى رأينا من هو الله، اتضح أن لا شيء في الحياة أهم منه.',
     ],
   },
   background: {
@@ -68,14 +68,14 @@ export const article: Article = {
     {
       id: 'c1',
       proposition: {
-        en: 'Whether God’s existence would matter to a person depends on what God is taken to be; the Christian understanding of God (creator, good, personal, and seeking friendship with human beings) makes it relevant to the central questions of a life.',
-        ar: 'تتوقف أهمية وجود الله لإنسان ما على ما نفهمه من «الله»؛ والفهم المسيحي (خالق صالح شخصي يطلب صداقة الإنسان) يجعله ذا صلة بأهم أسئلة الحياة.',
+        en: 'God is the Creator, good and personal, and He seeks friendship with human beings; so His existence bears on the central questions of every life.',
+        ar: 'الله خالق صالح شخصي يطلب صداقة الإنسان؛ ولذلك يمسّ وجوده أهم أسئلة كل حياة.',
       },
       argumentType: 'philosophical',
       assessment: 'philosophical_argument',
       rationale: {
-        en: 'This follows from the definition. A view that identifies God with a remote cause has few consequences; a view that identifies God as the personal source of existence and goodness has many. The Gospel of John defines eternal life as knowing God, and St Athanasius presents the incarnation as God sharing his own life with human beings.',
-        ar: 'وهذا يتبع من التعريف. فالرأي الذي يجعل الله علّة بعيدة قليل النتائج، والرأي الذي يجعله مصدرًا شخصيًا للوجود والخير كثير النتائج. ويعرّف إنجيل يوحنا الحياة الأبدية بأنها معرفة الله، ويعرض القديس أثناسيوس التجسد بوصفه مشاركة الله الإنسان في حياته.',
+        en: 'A remote cause would change little; the personal source of existence and goodness changes everything. The Gospel of John defines eternal life as knowing God, and St Athanasius teaches that in the incarnation God shares His own life with human beings.',
+        ar: 'علّة بعيدة لا تغيّر إلا قليلًا؛ أما المصدر الشخصي للوجود والخير فيغيّر كل شيء. ويعرّف إنجيل يوحنا الحياة الأبدية بأنها معرفة الله، ويعلّم القديس أثناسيوس أن الله في التجسد يشرك الإنسان في حياته.',
       },
       limits: {
         en: 'It says what would follow if the Christian conception is true. It does not show that it is true.',
@@ -92,8 +92,8 @@ export const article: Article = {
       argumentType: 'textual',
       assessment: 'theological_interpretation',
       rationale: {
-        en: 'The texts cited state these themes plainly; reading them as the centre of the tradition is an interpretation that the Coptic Orthodox Church shares.',
-        ar: 'تذكر النصوص المستشهد بها هذه المحاور بوضوح؛ وقراءتها بوصفها قلب التقليد تفسير تشاركه الكنيسة القبطية الأرثوذكسية.',
+        en: 'The prophet Micah names justice, mercy and walking humbly with God; the Lord names love of God and neighbour as the greatest commandments; and St John calls eternal life knowing the true God. The Coptic Orthodox Church reads these as the heart of Scripture.',
+        ar: 'يذكر ميخا النبي العدل والرحمة والسير متواضعًا مع الله؛ ويسمّي الرب محبة الله والقريب الوصيتين العظميين؛ ويسمّي القديس يوحنا الحياة الأبدية معرفة الإله الحقيقي. والكنيسة القبطية الأرثوذكسية تقرأ هذه بوصفها قلب الكتاب المقدس.',
       },
       limits: {
         en: 'Other readings of the same texts exist, and the Scriptures also contain warnings and calls to repentance that are not reducible to this summary.',
@@ -104,14 +104,14 @@ export const article: Article = {
     {
       id: 'c3',
       proposition: {
-        en: 'In the Christian account human beings are made for communion with God, so that what is at stake is the fulfilment of the person and not an optional addition to life.',
-        ar: 'في العرض المسيحي خُلق الإنسان للشركة مع الله، فما هو على المحك هو اكتمال الإنسان نفسه، لا إضافة اختيارية إلى الحياة.',
+        en: 'Human beings are made for communion with God, so what is at stake is the fulfilment of the person and not an optional addition to life.',
+        ar: 'خُلق الإنسان للشركة مع الله، فما هو على المحك هو اكتمال الإنسان نفسه، لا إضافة اختيارية إلى الحياة.',
       },
       argumentType: 'theological',
       assessment: 'theological_interpretation',
       rationale: {
-        en: 'The psalm and the speech in Acts express the idea that human beings long for and seek God; St Athanasius states that the Word became human so that human beings might share in the life of God. These are statements of faith and are offered as such.',
-        ar: 'يعبّر المزمور والخطاب في سفر الأعمال عن أن الإنسان يشتاق إلى الله ويطلبه؛ ويقول القديس أثناسيوس إن الكلمة صار إنسانًا لكي يشترك الإنسان في حياة الله. وهذه عبارات إيمان وتُقدَّم على هذا الأساس.',
+        en: 'The psalmist thirsts for God like a dry land for water, and St Paul tells the Athenians that God made us to seek Him, for He is not far from any of us. St Athanasius teaches that the Word became human so that we might share in the life of God.',
+        ar: 'يعطش المرنم إلى الله كأرض يابسة إلى الماء، ويقول القديس بولس لأهل أثينا إن الله خلقنا لنطلبه، لأنه ليس بعيدًا عن كل واحد منا. ويعلّم القديس أثناسيوس أن الكلمة صار إنسانًا لكي نشترك في حياة الله.',
       },
       limits: {
         en: 'A person who does not feel such a longing is not thereby shown to be mistaken, and the texts do not claim that everyone feels it in the same way.',
@@ -128,8 +128,8 @@ export const article: Article = {
       argumentType: 'theological',
       assessment: 'theological_interpretation',
       rationale: {
-        en: 'The parable of the rich man who plans his storehouses makes this point from within the Gospel text.',
-        ar: 'ومَثَل الغني الذي يخطط لمخازنه يبيّن هذه النقطة من داخل نص الإنجيل.',
+        en: 'In the parable of the rich man who plans bigger storehouses, the Lord shows that a life is not measured by what it owns, and that death asks what a life was for.',
+        ar: 'في مَثَل الغني الذي يخطط لمخازن أكبر، يبيّن الرب أن الحياة لا تُقاس بما تملكه، وأن الموت يسأل عن غاية الحياة.',
       },
       limits: {
         en: 'A parable states a view of life. It is not an argument that persuades someone who does not already share the premise that life has a purpose beyond itself.',
@@ -255,12 +255,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The first part is true, and the Christian tradition does not deny it. Honesty, kindness and justice are real goods wherever they are found, and the Church does not teach that they are found only among its members. The question is not whether a person can be decent without faith but whether the account of reality that includes God is true, and what follows if it is.',
-          'If it is, the case is rather like that of a person who has a living parent whom he has never met. He may have a good life without ever meeting him. But the relationship is not an optional extra, and finding out about it would change how he understands who he is. The Christian claim is of that kind. It is not an accusation against anyone.',
+          'The first part is true, and the Christian tradition does not deny it. Honesty, kindness and justice are real goods wherever they are found, and the Church does not teach that they are found only among its members. Indeed, every good thing in a person comes from God, who made us in His image. The question is not whether a person can be decent without faith, but who it is that we are made for.',
+          'Think of a person with a loving father he has never met. He may have a good life without ever meeting him. But the relationship is not an optional extra, and finding his father would change how he understands who he is. That is what God offers: not a mark against anyone, but a Father’s welcome.',
         ],
         ar: [
-          'الشطر الأول صحيح، والتقليد المسيحي لا ينكره. فالصدق واللطف والعدل خيرات حقيقية أينما وُجدت، والكنيسة لا تعلّم أنها لا توجد إلا بين أعضائها. والسؤال ليس: هل يمكن للإنسان أن يكون صالحًا بلا إيمان؟ بل: هل العرض للواقع الذي يتضمن الله صحيح، وماذا يترتب إن صحّ؟',
-          'وإن صحّ، فالحالة أشبه بإنسان له والد حيّ لم يلتقِ به قط. قد تكون حياته جيدة دون أن يلقاه. لكن العلاقة ليست إضافة اختيارية، واكتشافها يغيّر فهمه لمن هو. والدعوى المسيحية من هذا النوع. وليست اتهامًا لأحد.',
+          'الشطر الأول صحيح، والتقليد المسيحي لا ينكره. فالصدق واللطف والعدل خيرات حقيقية أينما وُجدت، والكنيسة لا تعلّم أنها لا توجد إلا بين أعضائها. بل كل خير في الإنسان آتٍ من الله الذي خلقنا على صورته. والسؤال ليس: هل يمكن للإنسان أن يكون صالحًا بلا إيمان؟ بل: لأجل من خُلقنا؟',
+          'تأمّل إنسانًا له أب محبّ لم يلتقِ به قط. قد تكون حياته جيدة دون أن يلقاه. لكن العلاقة ليست إضافة اختيارية، ولقاء أبيه يغيّر فهمه لمن هو. وهذا ما يقدّمه الله: لا اتهامًا لأحد، بل ترحيب أب.',
         ],
       },
       limits: {
@@ -277,12 +277,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The objection is right that the usefulness of a belief is not evidence that it is true, and this article does not use it that way. Whether God exists is decided by evidence and argument, which other articles in this section examine.',
-          'It is also right that fear is a poor motive. The Gospel passages cited here do not ground the claim in threat. They speak of love, justice, and knowing God. The claim is that if God is as the Church confesses, then indifference is a poor fit to the facts, as it would be to ignore a friend. Questions of judgement belong to other articles in the section.',
+          'The Christian answer is not about fear or comfort. Usefulness is not evidence of truth, and the Church does not ask anyone to believe because belief is useful. She points to the reasons for God and to the evidence for Christ and His resurrection, which other articles in this section set out.',
+          'The Gospel does not ground the call in threat. It speaks of love, justice and knowing God. St John teaches that in perfect love there is no room for fear (1 John 4:18). If God is our loving Father, then indifference to Him is like ignoring the friend who gave you everything.',
         ],
         ar: [
-          'الاعتراض محقّ في أن نفع الاعتقاد ليس دليلًا على صحته، والمقالة لا تستعمله هكذا. فوجود الله يُحسم بالأدلة والحجة، وتفحصها مقالات أخرى في هذا القسم.',
-          'ومحقّ كذلك في أن الخوف دافع ضعيف. والفقرات الإنجيلية المذكورة هنا لا تبني الدعوى على التهديد، بل تتحدث عن المحبة والعدل ومعرفة الله. والدعوى أنه إن كان الله كما تعترف به الكنيسة فاللامبالاة لا تناسب الواقع، كما لا يناسبه تجاهل صديق. وأسئلة الدينونة موضوع مقالات أخرى في القسم.',
+          'الجواب المسيحي ليس عن الخوف ولا عن التعزية. فالنفع ليس دليلًا على الصحة، والكنيسة لا تطلب من أحد أن يؤمن لأن الإيمان نافع. بل تشير إلى الأسباب الدالة على الله وإلى الأدلة على المسيح وقيامته، وتعرضها مقالات أخرى في هذا القسم.',
+          'والإنجيل لا يبني الدعوة على التهديد، بل يتكلم عن المحبة والعدل ومعرفة الله. ويعلّم القديس يوحنا أن المحبة الكاملة لا تترك مكانًا للخوف (١ يوحنا ٤: ١٨). فإن كان الله أبانا المحب، فاللامبالاة به كتجاهل الصديق الذي أعطاك كل شيء.',
         ],
       },
       limits: {
@@ -299,12 +299,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'This is the strongest form of the objection, and it is partly about the silence of God, which is taken up in the articles on divine hiddenness and on unanswered prayer. Christianity does not answer it by claiming that God is obvious to everyone, but by saying that God has made himself known in a person, Jesus Christ, and that he is met in prayer, in Scripture and in the life of the Church.',
-          'Whether that is the case is for each person to test, through the evidence for Jesus and the resurrection examined elsewhere on this site and through taking part in the Church’s life. The article asks for nothing beyond honest examination.',
+          'God is not silent and absent. He has spoken in the most personal way possible: He became man in Jesus Christ, lived among us, died and rose again. And He is met today in prayer, in the Scriptures and in the life of the Church, above all in the Holy Eucharist.',
+          'This is not abstract. It can be tested: by looking honestly at the evidence for Jesus and His resurrection, set out elsewhere on this site, and by drawing near in prayer and in the Church. Christ promised that those who seek Him will not be left empty-handed (Matthew 7:7).',
         ],
         ar: [
-          'هذه أقوى صيغ الاعتراض، وهي تتصل جزئيًا بصمت الله الذي تتناوله المقالات عن احتجاب الله وعن الصلاة التي لا تُستجاب. والمسيحية لا تجيب بالادعاء أن الله واضح للجميع، بل بالقول إن الله عرّف نفسه في شخص يسوع المسيح، وإنه يُلاقى في الصلاة وفي الكتاب المقدس وفي حياة الكنيسة.',
-          'وهل الأمر كذلك يختبره كل إنسان بنفسه، بفحص الأدلة على يسوع والقيامة في موضعها من هذا الموقع، وبالمشاركة في حياة الكنيسة. والمقالة لا تطلب أكثر من فحص صادق.',
+          'الله ليس صامتًا ولا غائبًا. فقد تكلم بأكثر الطرق شخصية: صار إنسانًا في يسوع المسيح، وعاش بيننا، ومات وقام. وهو يُلاقى اليوم في الصلاة وفي الكتب المقدسة وفي حياة الكنيسة، وفوق كل شيء في سر الإفخارستيا.',
+          'وهذا ليس أمرًا مجردًا، بل يمكن اختباره: بالنظر بصدق في الأدلة على يسوع وقيامته، المعروضة في موضع آخر من هذا الموقع، وبالاقتراب في الصلاة وفي الكنيسة. وقد وعد المسيح بأن من يطلبه لن يبقى فارغ اليدين (متى ٧: ٧).',
         ],
       },
       limits: {
@@ -318,31 +318,31 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'This question is about significance rather than about a past event, so there is no historical argument to set out. The historical questions that bear on whether the Christian account of God is true (who Jesus was, what happened at his death) are examined in the articles on Jesus and the resurrection.',
+        'This question is about meaning rather than about a past event. But the Christian answer rests on history: God made Himself known in Jesus of Nazareth, who died and rose again. The evidence for who Jesus was and for His resurrection is set out in the articles on Jesus and the resurrection.',
       ],
       ar: [
-        'هذا السؤال عن الأهمية لا عن حدث ماضٍ، فلا توجد حجة تاريخية تُعرض هنا. أما الأسئلة التاريخية التي تمسّ صحة العرض المسيحي لله (من هو يسوع، وماذا حدث عند موته) فتفحصها المقالات المتعلقة بيسوع والقيامة.',
+        'هذا السؤال عن المعنى لا عن حدث ماضٍ. لكن الجواب المسيحي يقوم على التاريخ: فقد عرّف الله نفسه في يسوع الناصري الذي مات وقام. والأدلة على من هو يسوع وعلى قيامته معروضة في المقالات المتعلقة بيسوع والقيامة.',
       ],
     },
     theological: {
       en: [
         'The Church confesses that God is one, the Father, the Son and the Holy Spirit, and that this God is not an idea to be assessed but the one in whom we live and move. God made human beings in his image, for communion with him, and in Christ came to restore that communion when it had been broken. For this reason the Church speaks of faith not as holding a position but as a relation of trust and love, and of the commandments as the shape of that love.',
-        'Therefore, in the Church’s understanding, caring about God is not an extra duty added to the care of a person for others and for truth. It is the source and fulfilment of them. This is theology held by faith, set out here honestly as the Church’s view, to be weighed by the reader.',
+        'Therefore, in the Church’s understanding, caring about God is not an extra duty added to the care of a person for others and for truth. It is the source and fulfilment of them.',
       ],
       ar: [
         'تعترف الكنيسة بأن الله واحد: الآب والابن والروح القدس، وأن هذا الإله ليس فكرة تُقيَّم، بل هو الذي به نحيا ونتحرك. خلق الله الإنسان على صورته للشركة معه، وجاء في المسيح ليعيد هذه الشركة بعد أن انكسرت. ولهذا تتكلم الكنيسة عن الإيمان لا بوصفه تبنّي موقف، بل علاقة ثقة ومحبة، وعن الوصايا بوصفها صورة هذه المحبة.',
-        'وعليه، ففي فهم الكنيسة لا يكون الاهتمام بالله واجبًا إضافيًا إلى اهتمام الإنسان بالآخرين وبالحق، بل هو منبعهما وكمالهما. وهذا لاهوت يُقبل بالإيمان، يُعرض هنا بصدق على أنه رأي الكنيسة، ليزنه القارئ.',
+        'وعليه، ففي فهم الكنيسة لا يكون الاهتمام بالله واجبًا إضافيًا إلى اهتمام الإنسان بالآخرين وبالحق، بل هو منبعهما وكمالهما.',
       ],
     },
   },
   coptic: {
     en: [
       'In the Coptic Orthodox Church the answer is given first in prayer. The daily Book of Hours (the Agpia) and the psalms prayed through the day teach that God is to be spoken to and not only spoken about, and that the whole day, the body, work and rest, are offered to him. The liturgy, fasting and the sacraments are understood as ways of living with God, and the Church’s saints are remembered as people for whom this was not an addition to life but life itself.',
-      'This describes how the Church understands the matter. It does not replace the reader’s own examination of the question.',
+      'The Church invites every reader to the same life: to come and see, to pray, and to find in God the One for whom the heart was made.',
     ],
     ar: [
       'في الكنيسة القبطية الأرثوذكسية يُعطى الجواب أولًا في الصلاة. فكتاب الأجبية (صلوات السواعي) والمزامير المصلّاة على مدار اليوم تعلّم أن الله يُخاطَب ولا يُتكلَّم عنه فحسب، وأن اليوم كله، الجسد والعمل والراحة، يُقدَّم له. وتُفهم الصلوات الطقسية والأصوام والأسرار الكنسية على أنها سبل للحياة مع الله، ويُذكر قديسو الكنيسة بوصفهم أناسًا لم يكن هذا عندهم إضافة إلى الحياة بل الحياة نفسها.',
-      'وهذا وصف لكيفية فهم الكنيسة للأمر. وهو لا يحلّ محل فحص القارئ للسؤال بنفسه.',
+      'والكنيسة تدعو كل قارئ إلى الحياة نفسها: أن يأتي وينظر، وأن يصلي، وأن يجد في الله الذي خُلق القلب لأجله.',
     ],
   },
   disputed: {
@@ -356,8 +356,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'If God is only a remote cause, indifference is reasonable. If God is, as the Christian faith says, the personal source of all that exists and the one for whom human beings are made, then the question of God is the question of what a life is for, and it is fitting to care. Whether that account is true is the work of the rest of this section, and the invitation is only to examine it honestly.',
-    ar: 'إن كان الله مجرد علّة بعيدة فاللامبالاة معقولة. وإن كان، كما يقول الإيمان المسيحي، المصدر الشخصي لكل ما هو موجود والذي خُلق الإنسان لأجله، فسؤال الله هو سؤال غاية الحياة، ومن اللائق أن نهتم. وهل هذا العرض صحيح هو عمل بقية هذا القسم، والدعوة هنا أن نفحصه بصدق فقط.',
+    en: 'God is not a remote cause. He is the personal source of all that exists, the One for whom every human being is made, and He has come to us in Jesus Christ. So the question of God is the question of what a life is for, and nothing deserves more care. The invitation is not to fear but to love: to come to the One who loved us first, and to find in Him the life we were made for.',
+    ar: 'الله ليس علّة بعيدة. بل هو المصدر الشخصي لكل ما هو موجود، والذي خُلق كل إنسان لأجله، وقد جاء إلينا في يسوع المسيح. فسؤال الله هو سؤال غاية الحياة، ولا شيء يستحق الاهتمام أكثر منه. والدعوة ليست إلى الخوف بل إلى المحبة: أن نأتي إلى الذي أحبنا أولًا، وأن نجد فيه الحياة التي خُلقنا لأجلها.',
   },
   furtherReading: ['S52', 'S62'],
   related: ['personal-or-uninvolved-god', 'what-do-we-mean-by-god', 'why-god-is-not-clearer', 'faith-and-blind-belief', 'arguments-for-god-claim', 'hidden-or-suffering'],

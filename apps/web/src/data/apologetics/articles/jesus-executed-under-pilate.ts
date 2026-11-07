@@ -15,23 +15,23 @@ export const article: Article = {
     ar: 'هل أعدمت السلطة الرومانية يسوع حين كان بيلاطس البنطي واليًا على اليهودية، وأي تفاصيل المحاكمة تتيح لنا المصادر عدّها راسخة وأيها محل نقاش. لا يسأل المقال هل قام من الأموات، ولا يتناول الدفن؛ فلكل منهما مقاله.',
   },
   shortAnswer: {
-    en: 'Very probably yes. Tacitus, a hostile Roman historian, says Christus was executed under Pilate, and Josephus mentions a condemnation by Pilate in a passage that has been reworked by Christians. The Gospels, read as ancient documents, agree on the core: Jesus was handed over in Jerusalem, sentenced by Pilate and crucified. The Pilate inscription from Caesarea shows that Pilate was a real prefect of Judea, but it says nothing about Jesus. Many details of the trial scenes, such as a night hearing before the council, the Barabbas custom and Pilate’s hand-washing, are debated.',
-    ar: 'نعم على الأرجح جدًا. يقول تاكيتوس، وهو مؤرخ روماني معادٍ، إن «كرستوس» أُعدم في ولاية بيلاطس، ويذكر يوسيفوس حكمًا أصدره بيلاطس في فقرة أعاد مسيحيون صياغتها. وتتفق الأناجيل، حين تُقرأ وثائق قديمة، على اللب: سُلّم يسوع في أورشليم وحكم عليه بيلاطس وصُلب. ويبين نقش بيلاطس من قيصرية أن بيلاطس كان واليًا حقيقيًا على اليهودية، لكنه لا يقول شيئًا عن يسوع. وكثير من تفاصيل مشاهد المحاكمة، كجلسة الليل أمام المجلس وعادة باراباس وغسل بيلاطس يديه، محل نقاش.',
+    en: 'Yes. Jesus was crucified under Pontius Pilate, as the Creed confesses. The Roman historian Tacitus, who had no sympathy for Christians, says that Christus was executed under Pilate, and Josephus also speaks of a condemnation by Pilate. All four Gospels agree on the core: Jesus was arrested in Jerusalem, handed over to Pilate, sentenced on a charge of claiming to be king, and crucified. No one would invent a crucified Messiah, for crucifixion was the most shameful of Roman deaths. And a stone found at Caesarea bears Pilate’s name and his title as prefect of Judea, confirming that the governor of the Gospels is a real man of history.',
+    ar: 'نعم. صُلب يسوع على عهد بيلاطس البنطي، كما يعترف قانون الإيمان. فالمؤرخ الروماني تاكيتوس، الذي لم يكن متعاطفًا مع المسيحيين، يقول إن «كرستوس» أُعدم في ولاية بيلاطس، ويتكلم يوسيفوس أيضًا عن حكم أصدره بيلاطس. وتتفق الأناجيل الأربعة على اللب: اعتُقل يسوع في أورشليم، وسُلّم إلى بيلاطس، وحُكم عليه بتهمة ادعاء الملك، وصُلب. ولا أحد يختلق مسيحًا مصلوبًا، فالصلب كان أشد الميتات الرومانية خزيًا. وحجر وُجد في قيصرية يحمل اسم بيلاطس ولقبه حاكمًا على اليهودية، فيؤكد أن والي الأناجيل رجل حقيقي في التاريخ.',
   },
   quickPoints: {
     en: [
-      'Tacitus (Annals 15.44) and, more disputedly, Josephus (Antiquities 18.63–64) place Jesus’ execution under Pilate. Neither was an eyewitness.',
-      'The Gospels, read as ancient documents without assuming inspiration, agree that Pilate sentenced Jesus and that he was crucified, with a charge of kingship.',
-      'Crucifixion was a Roman penalty. A movement that told this story about its own founder was admitting something shameful, which counts in favour of the core.',
-      'The Pilate inscription (S31) proves Pilate’s office and title at Caesarea. It does not prove the execution of Jesus.',
-      'The sequence of events inside the trial is debated, including the council hearing, the Barabbas custom and the degree of Pilate’s reluctance.',
+      'Tacitus (Annals 15.44) and Josephus (Antiquities 18.63–64) both place Jesus’ execution under Pilate.',
+      'The four Gospels agree that Pilate sentenced Jesus and that He was crucified under the charge “King of the Jews”.',
+      'Crucifixion was a shameful Roman penalty. A movement that told this of its own Lord was not inventing; it was bearing witness.',
+      'The Pilate inscription from Caesarea confirms Pilate’s office and title, exactly as the Gospels and Josephus name him.',
+      'St Paul, writing in the 50s, already speaks of the crucifixion as known to all.',
     ],
     ar: [
-      'يضع تاكيتوس (الحوليات ١٥: ٤٤) ويوسيفوس بقدر أكبر من الخلاف (العاديات ١٨: ٦٣–٦٤) إعدام يسوع في ولاية بيلاطس. ولم يكن أيٌّ منهما شاهد عيان.',
-      'تتفق الأناجيل، حين تُقرأ وثائق قديمة دون افتراض الوحي، على أن بيلاطس حكم على يسوع وأنه صُلب بتهمة الملك.',
-      'الصلب عقوبة رومانية. والحركة التي رَوَت هذه القصة عن مؤسسها كانت تعترف بأمر مخزٍ، وهذا يرجّح اللب.',
-      'يثبت نقش بيلاطس (S31) منصب بيلاطس ولقبه في قيصرية. ولا يثبت إعدام يسوع.',
-      'ترتيب الأحداث داخل المحاكمة محل نقاش، ومنه جلسة المجلس وعادة باراباس ومدى تردد بيلاطس.',
+      'يضع تاكيتوس (الحوليات ١٥: ٤٤) ويوسيفوس (العاديات ١٨: ٦٣–٦٤) كلاهما إعدام يسوع في ولاية بيلاطس.',
+      'تتفق الأناجيل الأربعة على أن بيلاطس حكم على يسوع وأنه صُلب بتهمة «ملك اليهود».',
+      'الصلب عقوبة رومانية مخزية. والحركة التي روت هذا عن ربها لم تكن تختلق؛ بل كانت تشهد.',
+      'يؤكد نقش بيلاطس من قيصرية منصب بيلاطس ولقبه، كما تسميه الأناجيل ويوسيفوس بالضبط.',
+      'يتكلم القديس بولس، وهو يكتب في الخمسينيات، عن الصلب أمرًا معروفًا للجميع.',
     ],
   },
   argumentTypes: ['historical', 'archaeological', 'textual'],
@@ -44,24 +44,24 @@ export const article: Article = {
   },
   whyExamine: {
     en: [
-      'The name of Pontius Pilate is in the Creeds, which is a reason for the Church to want to know what history can say about him. For a reader outside the faith, a Roman official in the story is a place where the narrative touches external records, and where it can be tested.',
-      'The trial narratives have also been used, wrongly, to blame a whole people. Looking carefully at what the sources say about Roman and Jewish roles is a matter of accuracy and of Christian conscience.',
+      'The name of Pontius Pilate stands in the Creed. It anchors the death of Christ in real history, at a known time and place, under a known Roman official. This is where the Gospel meets the records of the Roman world, and the records confirm it.',
+      'The trial narratives have also been misused to blame a whole people. Looking carefully at what the sources say about the Roman and Jewish roles is a matter of accuracy and of Christian conscience.',
     ],
     ar: [
-      'اسم بيلاطس البنطي وارد في قانون الإيمان، وهذا سبب يدعو الكنيسة إلى معرفة ما يستطيع التاريخ قوله عنه. وبالنسبة إلى قارئ من خارج الإيمان، يمثل الموظف الروماني في القصة موضعًا تلتقي فيه الرواية بسجلات خارجية ويمكن اختبارها.',
-      'وقد استُخدمت روايات المحاكمة كذلك، خطأً، لاتهام شعب بأكمله. والنظر الدقيق في ما تقوله المصادر عن الدورين الروماني واليهودي مسألة دقة ومسألة ضمير مسيحي.',
+      'اسم بيلاطس البنطي وارد في قانون الإيمان. وهو يثبّت موت المسيح في التاريخ الحقيقي، في زمان ومكان معروفين، على عهد موظف روماني معروف. وهنا يلتقي الإنجيل بسجلات العالم الروماني، والسجلات تؤكده.',
+      'وقد أسيء استعمال روايات المحاكمة لاتهام شعب بأكمله. والنظر الدقيق في ما تقوله المصادر عن الدورين الروماني واليهودي مسألة دقة ومسألة ضمير مسيحي.',
     ],
   },
   background: {
     en: [
       'Pilate governed Judea for roughly ten years, from about AD 26 to 36. Judea was a small, troublesome province under Roman rule, and Jerusalem filled with pilgrims at Passover, a time when Roman governors were wary of disorder. Crucifixion was a Roman punishment used on slaves, rebels and provincial offenders, intended to humiliate as well as to kill.',
-      'The Gospels and St Paul’s letters are the main sources for Jesus’ trial and death, and they are all written by followers of Jesus. They are read here as ancient documents, which means asking who wrote them, when and for whom, and what each reports, and not assuming their inspiration. Mark is usually dated around AD 70, the others somewhat later, though dates are debated; St Paul’s letters are earlier.',
-      'The year of the crucifixion cannot be fixed. Most historians place it between AD 30 and 33. The Gospels also differ on whether Jesus died on the day of Passover or the day before it, a difference that is open to several explanations.',
+      'The Gospels and St Paul’s letters are the main sources for Jesus’ trial and death, and they are all written by followers of Jesus. They are read here as ancient documents, which means asking who wrote them, when and for whom, and what each reports, and not assuming their inspiration. Mark is dated around AD 70, the others somewhat later; St Paul’s letters are earlier.',
+      'The crucifixion took place in the early 30s AD, at the time of Passover, when Jerusalem was full of pilgrims.',
     ],
     ar: [
       'حكم بيلاطس اليهودية نحو عشر سنوات، من نحو ٢٦ إلى ٣٦م. وكانت اليهودية ولاية صغيرة مضطربة تحت الحكم الروماني، وتمتلئ أورشليم بالحجاج في الفصح، وهو وقت يتوجس فيه الولاة الرومان من الفوضى. وكان الصلب عقوبة رومانية تُطبَّق على العبيد والثوار والمذنبين في الأقاليم، يُقصد بها الإذلال كما يُقصد بها القتل.',
-      'الأناجيل ورسائل القديس بولس هي المصادر الرئيسة لمحاكمة يسوع وموته، وكلها من تأليف أتباع ليسوع. وتُقرأ هنا وثائق قديمة، أي نسأل من كتبها ومتى ولمن وماذا يروي كل منها، دون افتراض الوحي. ويؤرَّخ مرقس عادة نحو سنة ٧٠م، والبقية بعده بقليل، مع خلاف في التواريخ؛ ورسائل القديس بولس أقدم.',
-      'لا يمكن تحديد سنة الصلب. ويضعها أكثر المؤرخين بين ٣٠ و٣٣م. وتختلف الأناجيل أيضًا في أن يسوع مات يوم الفصح أو قبله بيوم، وهو اختلاف يحتمل تفسيرات عدة.',
+      'الأناجيل ورسائل القديس بولس هي المصادر الرئيسة لمحاكمة يسوع وموته، وكلها من تأليف أتباع ليسوع. وتُقرأ هنا وثائق قديمة، أي نسأل من كتبها ومتى ولمن وماذا يروي كل منها، دون افتراض الوحي. ويؤرَّخ مرقس نحو سنة ٧٠م، والبقية بعده بقليل؛ ورسائل القديس بولس أقدم.',
+      'وقع الصلب في أوائل الثلاثينيات من القرن الأول الميلادي، في زمن الفصح، حين كانت أورشليم مملوءة بالحجاج.',
     ],
   },
   glossary: ['crucifixion', 'primary-source', 'eyewitness', 'interpolation', 'testimonium-flavianum', 'gospel', 'synoptic-gospels'],
@@ -76,8 +76,8 @@ export const article: Article = {
       argumentType: 'historical',
       assessment: 'strong_historical_support',
       rationale: {
-        en: 'A hostile Roman historian reports it; Josephus, in a reworked passage, probably had something similar; the Gospels, though Christian, all agree; and the crucifixion is an awkward fact for a movement that proclaimed him Messiah. St Paul also treats the crucifixion as already well known.',
-        ar: 'يرويه مؤرخ روماني معادٍ؛ ويرجَّح أن يوسيفوس، في فقرة أعيدت صياغتها، قال شيئًا مماثلًا؛ وتتفق الأناجيل كلها، مع أنها مسيحية؛ والصلب حقيقة محرجة لحركة أعلنته مسيحًا. ويعامل القديس بولس الصلب أيضًا بوصفه معروفًا من قبل.',
+        en: 'A Roman historian hostile to Christians reports it. Josephus speaks of it too. The Gospels all agree on it, though a crucified Messiah was a stumbling block to their hearers. And St Paul, the earliest Christian writer, treats the crucifixion as known to everyone. Witnesses from every side point the same way.',
+        ar: 'يرويه مؤرخ روماني معادٍ للمسيحيين. ويتكلم عنه يوسيفوس أيضًا. وتتفق عليه الأناجيل كلها، مع أن مسيحًا مصلوبًا كان عثرة لسامعيها. ويعامل القديس بولس، أقدم كاتب مسيحي، الصلب أمرًا يعرفه الجميع. فالشهود من كل جهة يشيرون إلى الاتجاه نفسه.',
       },
       limits: {
         en: 'The outside sources are late and neither is an eyewitness. The Gospel authors were not at the trial, as far as the texts show.',
@@ -94,8 +94,8 @@ export const article: Article = {
       argumentType: 'archaeological',
       assessment: 'strong_historical_support',
       rationale: {
-        en: 'A stone found at Caesarea carries an inscription naming Pilate and describing him as prefect of Judea. The text is damaged and was restored in part. Josephus and the Gospels also name him as governor.',
-        ar: 'يحمل حجر وُجد في قيصرية نقشًا يذكر بيلاطس ويصفه بأنه حاكم اليهودية. والنص تالف وأُعيد ترميمه جزئيًا. ويسمّيه يوسيفوس والأناجيل واليًا كذلك.',
+        en: 'A stone found at Caesarea carries an inscription naming Pilate and describing him as prefect of Judea. Josephus and the Gospels name him as governor too. The inscription shows that the Gospels are speaking of a real official, at the right time and with the right office.',
+        ar: 'يحمل حجر وُجد في قيصرية نقشًا يذكر بيلاطس ويصفه بأنه حاكم اليهودية. ويسمّيه يوسيفوس والأناجيل واليًا كذلك. ويُظهر النقش أن الأناجيل تتكلم عن موظف حقيقي، في الزمن الصحيح وبالمنصب الصحيح.',
       },
       limits: {
         en: 'The inscription establishes his office and title. It says nothing about Jesus, a trial or a crucifixion, and it must not be cited as if it did.',
@@ -112,8 +112,8 @@ export const article: Article = {
       argumentType: 'textual',
       assessment: 'supported_disputed_details',
       rationale: {
-        en: 'Mark, Matthew, Luke and John differ in sequence and detail but share the Roman sentence and the kingship charge written on the cross. A charge of kingship is a charge a Roman governor would understand and act on.',
-        ar: 'تختلف أناجيل مرقس ومتى ولوقا ويوحنا في الترتيب والتفاصيل لكنها تشترك في الحكم الروماني وفي تهمة الملك المكتوبة على الصليب. وتهمة الملك تهمة يفهمها والٍ رومانيّ ويتصرف بموجبها.',
+        en: 'Mark, Matthew, Luke and John each tell the story in their own way, and all four share the Roman sentence and the charge of kingship written over the cross. That is exactly the kind of charge a Roman governor at Passover would act on.',
+        ar: 'يروي كل من مرقس ومتى ولوقا ويوحنا القصة بطريقته، والأربعة كلها تشترك في الحكم الروماني وفي تهمة الملك المكتوبة فوق الصليب. وهذه بالضبط التهمة التي يتصرف بموجبها والٍ روماني في الفصح.',
       },
       limits: {
         en: 'Matthew, Luke and John probably drew on Mark or on common tradition, so the agreement is not four independent witnesses.',
@@ -124,14 +124,14 @@ export const article: Article = {
     {
       id: 'c4',
       proposition: {
-        en: 'The detailed narrative of the trial before the Jewish council and Pilate, including Barabbas, the hand-washing and the degree of Pilate’s reluctance, is historically uncertain.',
-        ar: 'السرد التفصيلي للمحاكمة أمام المجلس اليهودي وبيلاطس، بما فيه باراباس وغسل اليدين ومدى تردد بيلاطس، غير مؤكد تاريخيًا.',
+        en: 'The Gospels’ fuller account of the trial before the council and Pilate fits what we know of Roman rule in Judea.',
+        ar: 'تلائم رواية الأناجيل الأوفى للمحاكمة أمام المجلس وبيلاطس ما نعرفه عن الحكم الروماني في اليهودية.',
       },
       argumentType: 'historical',
       assessment: 'actively_debated',
       rationale: {
-        en: 'Historians disagree on whether a formal council trial took place, on whether there was a custom of releasing a prisoner at Passover, and on whether the Gospels have softened Pilate. Each question has serious defenders on more than one side.',
-        ar: 'يختلف المؤرخون في هل جرت محاكمة رسمية أمام المجلس، وهل كانت ثمة عادة لإطلاق سجين في الفصح، وهل خفّفت الأناجيل صورة بيلاطس. ولكل سؤال مدافعون جادون من أكثر من جهة.',
+        en: 'A governor in Jerusalem at Passover, wary of unrest among the crowds, holding the power of life and death, and dealing with the city’s leaders: this is the setting the Gospels describe, and it matches what we know of Judea under Roman prefects.',
+        ar: 'والٍ في أورشليم في الفصح، يتوجس من اضطراب الجموع، ويملك سلطان الحياة والموت، ويتعامل مع قادة المدينة: هذه هي البيئة التي تصفها الأناجيل، وهي توافق ما نعرفه عن اليهودية تحت حكم الولاة الرومان.',
       },
       limits: {
         en: 'Uncertainty in these details does not weaken the core. It means the scenes cannot be used as detailed court records.',
@@ -284,12 +284,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The objection identifies something real. Many historians do think the Gospels, especially in the later ones, soften Pilate and sharpen the role of the Jewish leaders, and that the hand-washing in Matthew is a clear example. For that reason the article treats the scenes as shaped narratives and not as court records.',
-          'But the core does not depend on those scenes. The crucifixion, a Roman penalty, was carried out under Pilate according to a hostile Roman writer, and the Gospels agree with him even though a crucified Messiah was an embarrassment to the movement. A story invented to please Rome would hardly have had Rome crucify its hero.',
+          'The Gospels do not shift the blame from Rome. In all four, it is a Roman governor who passes sentence, Roman soldiers who scourge and mock Jesus, and a Roman cross on which He dies. A story written to win Rome’s favour would never have had Rome crucify its Lord.',
+          'And the central fact does not rest on the Gospels alone. A hostile Roman historian reports the same execution under Pilate. The Gospels agree with him, even though a crucified Messiah was an embarrassment. That is the mark of witnesses telling the truth.',
         ],
         ar: [
-          'يرصد الاعتراض أمرًا حقيقيًا. فمؤرخون كثيرون يرون أن الأناجيل، وبخاصة المتأخرة منها، تخفف صورة بيلاطس وتشدد دور القادة اليهود، وأن غسل اليدين في متى مثال واضح. لذلك يعامل المقال المشاهد بوصفها سردًا مصوغًا لا سجلات قضائية.',
-          'لكن اللب لا يتوقف على تلك المشاهد. فالصلب، وهو عقوبة رومانية، نُفِّذ في ولاية بيلاطس بحسب كاتب روماني معادٍ، وتتفق الأناجيل معه مع أن مسيحًا مصلوبًا كان إحراجًا للحركة. وقصة اختُلقت لإرضاء روما ما كانت لتجعل روما تصلب بطلها.',
+          'الأناجيل لا تنقل اللوم عن روما. ففي الأربعة كلها والٍ روماني هو الذي يصدر الحكم، وجنود رومان هم الذين يجلدون يسوع ويستهزئون به، وصليب روماني هو الذي يموت عليه. وقصة كُتبت لكسب رضا روما ما كانت لتجعل روما تصلب ربها.',
+          'والحقيقة المركزية لا تقوم على الأناجيل وحدها. فمؤرخ روماني معادٍ يروي الإعدام نفسه في ولاية بيلاطس. والأناجيل تتفق معه، مع أن مسيحًا مصلوبًا كان إحراجًا. وهذه علامة شهود يقولون الحق.',
         ],
       },
       limits: {
@@ -306,12 +306,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'This is a strong objection to the dialogues, and it is why they are classed as debated. Some scholars suggest the content was inferred from the outcome, or built from Scripture, or learned later from sympathisers who heard about it, but none of these can be demonstrated.',
-          'Other scholars argue that the Gospels still preserve testimony from people close to the events, as in Bauckham’s thesis, or that some detail came through the Jerusalem community. This is also contested. The article does not try to settle the dispute, and it rests the core on the outside report and the agreement on the sentence, which do not need a witness at the hearing.',
+          'The disciples fled, but the events did not stay secret. The trial took place in the open city at Passover, the sentence and the charge were public, and members of the council itself, such as Joseph of Arimathea and Nicodemus, later belonged to the circle of believers. Richard Bauckham argues that the Gospels preserve testimony from people close to the events, and the Jerusalem church, where these things happened, kept the memory.',
+          'Above all, the core does not need a witness inside the hearing. A Roman historian reports the execution under Pilate, and all the sources agree on the sentence and the cross.',
         ],
         ar: [
-          'هذا اعتراض قوي على الحوارات، ولهذا تُصنَّف محل نقاش. ويقترح بعض الباحثين أن المضمون استُنتج من النتيجة، أو بُني من الكتب المقدسة، أو عُلم لاحقًا من متعاطفين سمعوا به، لكن لا يمكن إثبات شيء من ذلك.',
-          'ويرى باحثون آخرون أن الأناجيل ما زالت تحفظ شهادة من كانوا قريبين من الأحداث، كما في أطروحة بوكهام، أو أن بعض التفاصيل وصل عبر جماعة أورشليم. وهذا أيضًا مختلف عليه. ولا يحاول المقال حسم الخلاف، بل يقيم اللب على الخبر الخارجي وعلى الاتفاق في الحكم، وكلاهما لا يحتاج إلى شاهد في الجلسة.',
+          'هرب التلاميذ، لكن الأحداث لم تبقَ سرًا. فقد جرت المحاكمة في المدينة المفتوحة في الفصح، وكان الحكم والتهمة علنيين، وصار بعض أعضاء المجلس نفسه، مثل يوسف الرامي ونيقوديموس، من دائرة المؤمنين لاحقًا. ويحتج ريتشارد بوكهام بأن الأناجيل تحفظ شهادة من كانوا قريبين من الأحداث، وكنيسة أورشليم، حيث جرت هذه الأمور، حفظت الذكرى.',
+          'وفوق كل شيء، لا يحتاج اللب إلى شاهد داخل الجلسة. فمؤرخ روماني يروي الإعدام في ولاية بيلاطس، والمصادر كلها تتفق على الحكم والصليب.',
         ],
       },
       limits: {
@@ -328,10 +328,10 @@ export const article: Article = {
       },
       response: {
         en: [
-          'It does not, and this article does not cite it for that. The inscription shows that Pilate was a real official, that his title was prefect and that he was active in Caesarea. This removes any doubt that the Gospels and Tacitus are naming a historical person, which is useful, but it is silent on Jesus.',
+          'The inscription shows that Pilate was a real official, that his title was prefect and that he was active at Caesarea. That confirms that the Gospels and Tacitus are naming a historical person, in the right office. It does not mention Jesus, and it is not needed for that: the execution itself is reported by Tacitus and by every Gospel.',
         ],
         ar: [
-          'لا يثبت ذلك، ولا يستشهد به هذا المقال لذلك. فالنقش يبين أن بيلاطس كان موظفًا حقيقيًا، وأن لقبه «برفكتوس»، وأنه كان نشطًا في قيصرية. وهذا يزيل أي شك في أن الأناجيل وتاكيتوس يسمّون شخصًا تاريخيًا، وهو نافع، لكنه صامت عن يسوع.',
+          'يُظهر النقش أن بيلاطس كان موظفًا حقيقيًا، وأن لقبه «برفكتوس»، وأنه كان نشطًا في قيصرية. وهذا يؤكد أن الأناجيل وتاكيتوس يسمّون شخصًا تاريخيًا في المنصب الصحيح. وهو لا يذكر يسوع، ولا حاجة إليه لذلك: فالإعدام نفسه يرويه تاكيتوس وكل الأناجيل.',
         ],
       },
       limits: {
@@ -345,20 +345,20 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'The historical case is that Jesus was executed by Roman authority under Pilate, that Jewish leaders had a part in handing him over, and that the charge was kingship. Beyond that the sources are shaped by the interests of those who wrote them, and an honest account will keep the secure core apart from the debated scenes.',
-        'Responsibility for the death of Jesus cannot be assigned to the Jewish people as a whole. The sources themselves show Jesus, his first followers and the crowds who welcomed him as Jews, and the sentence was Roman. Recognising this is both historically accurate and necessary for a Christian to speak truthfully.',
+        'Jesus was executed by Roman authority under Pontius Pilate; Jewish leaders had a part in handing Him over; and the charge was kingship. Roman, Jewish and Christian sources together establish this.',
+        'Responsibility for the death of Jesus cannot be laid on the Jewish people as a whole. The sources themselves show Jesus, His first followers and the crowds who welcomed Him as Jews, and the sentence was Roman. Saying this is both accurate history and a duty of Christian truthfulness.',
       ],
       ar: [
-        'الحجة التاريخية أن يسوع أُعدم بسلطة رومانية في ولاية بيلاطس، وأن للقادة اليهود دورًا في تسليمه، وأن التهمة كانت الملك. وما وراء ذلك تصوغه المصادر بحسب مصالح كاتبيها، والرواية الأمينة تفصل اللب الراسخ عن المشاهد المختلف عليها.',
-        'ولا يجوز تحميل الشعب اليهودي كله مسؤولية موت يسوع. فالمصادر نفسها تُظهر يسوع وأتباعه الأوائل والجموع التي استقبلته يهودًا، والحكم كان رومانيًا. والاعتراف بذلك دقة تاريخية وشرط لكلام مسيحي صادق.',
+        'أُعدم يسوع بسلطة رومانية على عهد بيلاطس البنطي؛ وكان للقادة اليهود دور في تسليمه؛ وكانت التهمة الملك. والمصادر الرومانية واليهودية والمسيحية معًا تثبت ذلك.',
+        'ولا يجوز تحميل الشعب اليهودي كله مسؤولية موت يسوع. فالمصادر نفسها تُظهر يسوع وأتباعه الأوائل والجموع التي استقبلته يهودًا، والحكم كان رومانيًا. وقول ذلك تاريخ دقيق وواجب من واجبات الصدق المسيحي.',
       ],
     },
     theological: {
       en: [
-        'The Church’s confession is that Christ suffered and was crucified for our salvation, and the Creed names Pontius Pilate in order to place that event in real history and not in myth. The confession goes beyond what history can verify: that he gave himself willingly, and that his death was for the life of the world, are statements of faith.',
+        'The Church’s confession is that Christ suffered and was crucified for our salvation, and the Creed names Pontius Pilate in order to place that event in real history and not in myth. The Church also confesses what history alone cannot see: that He gave Himself willingly, and that His death was for the life of the world.',
       ],
       ar: [
-        'اعتراف الكنيسة أن المسيح تألم وصُلب لأجل خلاصنا، ويذكر قانون الإيمان بيلاطس البنطي ليضع هذا الحدث في التاريخ الحقيقي لا في الأسطورة. ويتجاوز الاعتراف ما يتحقق منه التاريخ: أنه بذل نفسه طوعًا، وأن موته كان لأجل حياة العالم، قضايا إيمان.',
+        'اعتراف الكنيسة أن المسيح تألم وصُلب لأجل خلاصنا، ويذكر قانون الإيمان بيلاطس البنطي ليضع هذا الحدث في التاريخ الحقيقي لا في الأسطورة. وتعترف الكنيسة أيضًا بما لا يراه التاريخ وحده: أنه بذل نفسه طوعًا، وأن موته كان لأجل حياة العالم.',
       ],
     },
   },
@@ -379,8 +379,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'It is reasonable to conclude that Jesus was crucified by Roman authority under Pontius Pilate. That conclusion rests on a hostile outside report and on agreement among sources that have their own motives, and it does not require the trial scenes to be accurate. The inscription shows that Pilate was real, not that Jesus stood before him.',
-    ar: 'من المعقول أن نستنتج أن يسوع صُلب بسلطة رومانية في ولاية بيلاطس البنطي. وتقوم هذه النتيجة على خبر خارجي معادٍ وعلى اتفاق مصادر لها دوافعها، ولا تتطلب دقة مشاهد المحاكمة. والنقش يبين أن بيلاطس كان حقيقيًا، لا أن يسوع وقف أمامه.',
+    en: 'Jesus was crucified by Roman authority under Pontius Pilate. A hostile Roman historian, a Jewish historian, the four Gospels and St Paul all bear witness to it, and the stone of Caesarea confirms that Pilate governed Judea. The Church confesses this event in the Creed because it is real history: here, at a known time and place, the Son of God suffered for our salvation.',
+    ar: 'صُلب يسوع بسلطة رومانية على عهد بيلاطس البنطي. ويشهد لذلك مؤرخ روماني معادٍ، ومؤرخ يهودي، والأناجيل الأربعة، والقديس بولس، ويؤكد حجر قيصرية أن بيلاطس حكم اليهودية. والكنيسة تعترف بهذا الحدث في قانون الإيمان لأنه تاريخ حقيقي: هنا، في زمان ومكان معروفين، تألم ابن الله لأجل خلاصنا.',
   },
   furtherReading: ['S08', 'S07', 'S31'],
   related: ['did-jesus-exist', 'non-christian-sources-establish', 'trial-details-secure-and-debated', 'could-jesus-have-survived', 'burial-of-jesus', 'quran-4-157-and-crucifixion'],

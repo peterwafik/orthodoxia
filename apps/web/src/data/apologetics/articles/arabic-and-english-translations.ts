@@ -15,8 +15,8 @@ export const article: Article = {
     ar: 'تسأل هذه المقالة كيف ترتبط الكتب المقدسة العربية والإنجليزية التي يقرأ بها معظم الناس بالنصوص العبرية والآرامية واليونانية التي تقف وراءها. وهي تصف الترجمتين المعروضتين في قارئ الكتاب المقدس بهذا الموقع، أي فاندايك العربية والنسخة الإنجليزية للملك جيمس، وتبيّن ما تستطيع الترجمة أن تنقله وما لا تستطيع، وتشرح لماذا تقرأ الكنيسة القبطية العهد القديم في التقليد اليوناني. ولا تعرض القراءات المتغايرة؛ فهذه موضوع المقالات عن المخطوطات.',
   },
   shortAnswer: {
-    en: 'Neither the Van Dyck nor the King James Version is a translation of the other, and neither is the original. Both were made from the Hebrew and Greek texts available to their translators, in the nineteenth and the early seventeenth centuries. A translation always interprets, because languages do not match word for word, so careful readers compare translations and, where the point matters, ask what the Hebrew or Greek says. The Coptic Church’s Old Testament has long been read in the Greek tradition (the Septuagint), which is why its Psalms are numbered differently from most English Bibles and why it receives the deuterocanonical books.',
-    ar: 'ليست فاندايك ترجمةً عن نسخة الملك جيمس ولا العكس، وليست أيٌّ منهما الأصل. فقد أُعدّت كلتاهما من النصوص العبرية واليونانية التي توافرت لمترجميهما، في القرن التاسع عشر وفي أوائل القرن السابع عشر. والترجمة تفسّر دائمًا لأن اللغات لا تتطابق كلمة بكلمة، ولذلك يقارن القارئ الحريص بين الترجمات، وحيث يهمّ الأمر يسأل ماذا يقول النص العبري أو اليوناني. وقد قُرئ العهد القديم في الكنيسة القبطية منذ زمن بعيد في التقليد اليوناني (السبعينية)، ولهذا يختلف ترقيم مزاميرها عن معظم الكتب المقدسة الإنجليزية ولهذا تتسلم الأسفار القانونية الثانية.',
+    en: 'Your Arabic or English Bible carries the word of God faithfully. The Van Dyck and the King James Version were each translated directly from the Hebrew and Greek, in the nineteenth and early seventeenth centuries, and neither was made from the other. Small differences between them come from the translators’ word choices, because languages never match word for word; comparing two translations shows at once where a choice was made, and the message is the same. The Coptic Church reads the Old Testament in the Greek tradition (the Septuagint), the Bible of the apostles’ churches, which is why her Psalms are numbered differently from most English Bibles and why she receives the deuterocanonical books.',
+    ar: 'كتابك المقدس بالعربية أو بالإنجليزية يحمل كلمة الله بأمانة. فقد تُرجمت فاندايك ونسخة الملك جيمس كلٌّ منهما مباشرة عن العبرية واليونانية، في القرن التاسع عشر وفي أوائل القرن السابع عشر، ولم تُؤخذ إحداهما عن الأخرى. والفروق الصغيرة بينهما مصدرها اختيار المترجمين للألفاظ، لأن اللغات لا تتطابق كلمة بكلمة؛ والمقارنة بين ترجمتين تُظهر فورًا موضع الاختيار، والرسالة واحدة. وتقرأ الكنيسة القبطية العهد القديم في التقليد اليوناني (السبعينية)، كتاب كنائس الرسل، ولهذا يختلف ترقيم مزاميرها عن معظم الكتب المقدسة الإنجليزية ولهذا تتسلم الأسفار القانونية الثانية.',
   },
   quickPoints: {
     en: [
@@ -45,11 +45,11 @@ export const article: Article = {
 
   whyExamine: {
     en: [
-      'Most believers read Scripture in translation, and a reader who finds two Bibles saying slightly different things may wonder which one is true. The honest answer is that every translation is a faithful but limited bridge, and that the bridge can be checked.',
+      'Most believers read Scripture in translation, and a reader who finds two Bibles saying slightly different things may wonder which one is true. The answer is reassuring: a good translation is a faithful bridge to the original, and the bridge can be checked.',
       'The question also matters for how a reader weighs claims that begin “the Bible says”. What a verse says in English or Arabic may depend on a translator’s choice, and knowing this keeps a reader from resting an argument on one word that another translation renders differently.',
     ],
     ar: [
-      'يقرأ معظم المؤمنين الكتاب المقدس مترجمًا، ومن يجد كتابين مقدسين يقولان شيئين مختلفين قليلًا قد يتساءل أيهما الصحيح. والجواب الأمين أن كل ترجمة جسر أمين لكنه محدود، وأن هذا الجسر يمكن فحصه.',
+      'يقرأ معظم المؤمنين الكتاب المقدس مترجمًا، ومن يجد كتابين مقدسين يقولان شيئين مختلفين قليلًا قد يتساءل أيهما الصحيح. والجواب مطمئن: الترجمة الجيدة جسر أمين إلى الأصل، وهذا الجسر يمكن فحصه.',
       'والمسألة تهمّ أيضًا في وزن الأقوال التي تبدأ بعبارة «الكتاب يقول». فما تقوله آية بالعربية أو الإنجليزية قد يتوقف على اختيار مترجم، ومعرفة ذلك تمنع القارئ من بناء حجة على كلمة واحدة تترجمها ترجمة أخرى بشكل مختلف.',
     ],
   },
@@ -191,11 +191,11 @@ export const article: Article = {
       },
       response: {
         en: [
-          'Translation does involve choice, but most of the text is not in doubt, and where there is a real difficulty it can be seen by comparing translations. The meaning that matters for faith and life is carried by the whole of a passage and the whole of Scripture, not by a single word. The early Church itself read Scripture in translation: the Septuagint, Latin, Syriac and Coptic versions were the Bibles of different churches.',
+          'Translation does involve choice, but the text is overwhelmingly clear, and where a word is hard it can be seen at once by comparing translations. The meaning that matters for faith and life is carried by the whole of a passage and the whole of Scripture, not by a single word. The early Church itself read Scripture in translation: the Septuagint, Latin, Syriac and Coptic versions were the Bibles of different churches.',
           'The Church has therefore always treated translation as a work of service, undertaken within the Church’s teaching and reading of Scripture. A translation is not a rival to the original; it is a way into it.',
         ],
         ar: [
-          'في الترجمة اختيار فعلًا، لكن معظم النص لا شك فيه، وحيث توجد صعوبة حقيقية يمكن رؤيتها بمقارنة الترجمات. والمعنى الذي يهمّ الإيمان والحياة تحمله الفقرة كلها والكتاب كله، لا كلمة واحدة. وقد قرأت الكنيسة الأولى نفسها الكتاب مترجمًا: فالسبعينية واللاتينية والسريانية والقبطية كانت كتب كنائس مختلفة.',
+          'في الترجمة اختيار فعلًا، لكن النص واضح في غالبيته العظمى، وحيث تصعب كلمة يمكن رؤية ذلك فورًا بمقارنة الترجمات. والمعنى الذي يهمّ الإيمان والحياة تحمله الفقرة كلها والكتاب كله، لا كلمة واحدة. وقد قرأت الكنيسة الأولى نفسها الكتاب مترجمًا: فالسبعينية واللاتينية والسريانية والقبطية كانت كتب كنائس مختلفة.',
           'ولذلك عدّت الكنيسة دائمًا الترجمة عملَ خدمة يجري في إطار تعليم الكنيسة وقراءتها للكتاب. فالترجمة ليست منافسًا للأصل بل مدخل إليه.',
         ],
       },
@@ -254,12 +254,12 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'Historically, a Christian can say that the two translations are independent, careful works from the original languages, that the differences among translations are known and can be examined, and that the Septuagint tradition is the one the early Church and the Coptic Church inherited.',
-        'A Christian should also say that no translation reproduces the original in every nuance, that the underlying texts differ in places, and that readers who need certainty on a point must look at the Hebrew or Greek or at the best scholarly editions.',
+        'The record is clear. The two translations are independent, careful works from the original languages. The differences among translations are known, and each can be examined openly. And the Septuagint is the tradition that the early Church and the Coptic Church inherited.',
+        'Where a single word matters, the Hebrew and Greek are there to consult, together with the best scholarly editions. Such checking confirms again and again that the message of Scripture comes through every faithful translation intact.',
       ],
       ar: [
-        'يستطيع المسيحي تاريخيًا أن يقول إن الترجمتين مستقلتان وعملان دقيقان عن اللغات الأصلية، وإن الفروق بين الترجمات معروفة ويمكن فحصها، وإن تقليد السبعينية هو الذي ورثته الكنيسة الأولى والكنيسة القبطية.',
-        'وعلى المسيحي أيضًا أن يقول إنه لا توجد ترجمة تعيد الأصل بكل دقائقه، وإن النصوص المصدرية تختلف في مواضع، وإن من يحتاج يقينًا في نقطة ما عليه أن ينظر في العبرية أو اليونانية أو في أفضل الطبعات العلمية.',
+        'السجل واضح. فالترجمتان مستقلتان وعملان دقيقان عن اللغات الأصلية. والفروق بين الترجمات معروفة، ويمكن فحص كل منها علنًا. والسبعينية هي التقليد الذي ورثته الكنيسة الأولى والكنيسة القبطية.',
+        'وحيث تهمّ كلمة واحدة، فالعبرية واليونانية حاضرتان للرجوع إليهما، ومعهما أفضل الطبعات العلمية. وهذا الفحص يؤكد مرة بعد مرة أن رسالة الكتاب تصل سالمة في كل ترجمة أمينة.',
       ],
     },
     theological: {
@@ -296,8 +296,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'Arabic and English Bibles are faithful translations made independently from the Hebrew and Greek, and they can be compared with one another and with their sources. The Coptic Church reads the Old Testament in the Greek tradition it inherited, and a reader who knows this can use any good translation with confidence and see where its choices lie.',
-    ar: 'الكتب المقدسة العربية والإنجليزية ترجمات أمينة أُعدّت باستقلال عن العبرية واليونانية، ويمكن مقارنتها بعضها ببعض وبمصادرها. وتقرأ الكنيسة القبطية العهد القديم في التقليد اليوناني الذي ورثته، ومن يعرف ذلك يستطيع أن يستعمل أي ترجمة جيدة بثقة وأن يرى أين تقع اختياراتها.',
+    en: 'Arabic and English Bibles are faithful translations made independently from the Hebrew and Greek, and they can be compared with one another and with their sources. The Coptic Church reads the Old Testament in the Greek tradition she inherited from the apostles’ churches. A reader can open any good translation with confidence: through it God speaks His word.',
+    ar: 'الكتب المقدسة العربية والإنجليزية ترجمات أمينة أُعدّت باستقلال عن العبرية واليونانية، ويمكن مقارنتها بعضها ببعض وبمصادرها. وتقرأ الكنيسة القبطية العهد القديم في التقليد اليوناني الذي ورثته عن كنائس الرسل. ويستطيع القارئ أن يفتح أي ترجمة جيدة بثقة: فبها يكلّمنا الله بكلمته.',
   },
   furtherReading: ['S27', 'S28'],
   related: ['septuagint-and-masoretic', 'has-bible-changed', 'footnoted-passages', 'coptic-deuterocanon', 'old-testament-canons-differ'],

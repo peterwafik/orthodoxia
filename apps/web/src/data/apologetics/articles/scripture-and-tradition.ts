@@ -15,25 +15,25 @@ export const article: Article = {
     ar: 'يسأل هذا المقال: ما دور الكتاب المقدس والتقليد في الإيمان المسيحي؟ فيعرض كيف تفهمهما الكنيسة القبطية الأرثوذكسية، وما يقوله الكتاب عن التعليم المسلَّم، وكيف تختلف المواقف الكاثوليكية والبروتستانتية (ومنها مبدأ الكتاب وحده). ولا يحدد أي الأسفار تنتمي إلى الكتاب المقدس؛ فمقالات أخرى تتناول القانون.',
   },
   shortAnswer: {
-    en: 'The Coptic Orthodox Church holds that Scripture and Tradition are not two rival sources but one life of the Church under the Holy Spirit. Scripture is the written word of God and the highest witness of the faith; Tradition is the living handing-on of that faith in the Church’s worship, creeds, councils, Fathers and practice, and it is the context in which Scripture was written, received and is rightly read. Protestant churches generally hold that Scripture alone is the final authority and that Tradition must be tested by it; the Catholic Church holds that Scripture and Tradition together are interpreted by the teaching office of the Church. The New Testament itself speaks of teaching handed on both in writing and by word.',
-    ar: 'تؤمن الكنيسة القبطية الأرثوذكسية بأن الكتاب المقدس والتقليد ليسا مصدرين متنافسين بل حياة واحدة للكنيسة بالروح القدس. فالكتاب كلمة الله المكتوبة وأعلى شاهد على الإيمان؛ والتقليد هو التسليم الحي لذلك الإيمان في عبادة الكنيسة وقوانين إيمانها ومجامعها وآبائها وممارستها، وهو الإطار الذي كُتب فيه الكتاب وقُبل ويُقرأ قراءة صحيحة. وتؤمن الكنائس البروتستانتية عمومًا بأن الكتاب وحده هو السلطان الأخير وبأن التقليد يجب أن يُمتحن به؛ وتؤمن الكنيسة الكاثوليكية بأن الكتاب والتقليد معًا يفسرهما المعلّم الكنسي. ويتكلم العهد الجديد نفسه عن تعليم يُسلَّم كتابةً وشفاهًا.',
+    en: 'Scripture and Tradition are not two rival sources. They are one life of the Church under the Holy Spirit. Scripture is the written word of God and the highest witness of the faith. Tradition is the living handing-on of that same faith in the Church’s worship, Creed, councils, Fathers and practice. It is the setting in which Scripture was written and received, and in which it is rightly read. The New Testament itself shows this: St Paul the Apostle tells the churches to hold the teachings they received both by word and by letter. The Church therefore reads Scripture within the faith handed down from the apostles, and tests every teaching by Scripture.',
+    ar: 'الكتاب المقدس والتقليد ليسا مصدرين متنافسين. بل هما حياة واحدة للكنيسة بالروح القدس. فالكتاب المقدس هو كلمة الله المكتوبة والشاهد الأعلى للإيمان. والتقليد هو التسليم الحي للإيمان نفسه في عبادة الكنيسة وقانون إيمانها ومجامعها وآبائها وممارستها. وهو الإطار الذي كُتب فيه الكتاب وتُسلّم، والذي يُقرأ فيه قراءة صحيحة. والعهد الجديد نفسه يبيّن ذلك: فالقديس بولس الرسول يوصي الكنائس أن تتمسك بالتعاليم التي تسلّمتها بالكلام وبالرسالة معًا. لذلك تقرأ الكنيسة الكتاب داخل الإيمان المسلَّم من الرسل، وتفحص كل تعليم بالكتاب.',
   },
   quickPoints: {
     en: [
-      'In the Church’s view, Scripture is the written word of God and Tradition is the living handing-on of the faith by the Holy Spirit; they do not contradict each other.',
-      'St Paul tells churches to hold the teachings received by word and by letter, and tells Timothy to entrust what he heard to faithful men.',
-      'The same New Testament says that all Scripture is inspired and useful, and criticises traditions that set aside God’s commandment.',
-      'The Bible reached its present form through the Church’s recognition, and the first councils read it under the Rule of faith that the Church had received.',
-      'Protestant churches stress Scripture alone; Catholic and Orthodox churches stress Scripture within Tradition. These are real disagreements.',
-      'The Coptic Church does not treat Tradition as a second Bible; it tests every teaching by Scripture.',
+      'Scripture is the written word of God; Tradition is the living handing-on of the faith by the Holy Spirit; they do not contradict each other.',
+      'St Paul tells the churches to hold the teachings received by word and by letter, and tells Timothy to entrust what he heard to faithful people.',
+      'The same New Testament says that all Scripture is inspired and useful, and the Church holds it as the test of every teaching.',
+      'The books of the New Testament were written, gathered and recognised within the Church, which already lived by the rule of faith handed down from the apostles.',
+      'Heretics such as Arius also quoted Scripture; the Church’s faithful reading, expressed in the Creed, kept the true meaning.',
+      'The Coptic Church does not treat Tradition as a second Bible; she lives by Scripture within the life of the Church.',
     ],
     ar: [
-      'في رأي الكنيسة، الكتاب كلمة الله المكتوبة والتقليد هو التسليم الحي للإيمان بالروح القدس؛ ولا يناقض أحدهما الآخر.',
-      'يوصي القديس بولس الكنائس بالتمسك بالتعاليم المتسلَّمة بالكلام وبالرسالة، ويوصي تيموثاوس بأن يودع ما سمعه لأناس أمناء.',
-      'ويقول العهد الجديد نفسه إن كل الكتاب موحى به ونافع، وينتقد تقاليد تبطل وصية الله.',
-      'بلغ الكتاب شكله الحالي باعتراف الكنيسة به، وقرأت المجامع الأولى الكتاب في ضوء قانون الإيمان الذي تسلّمته الكنيسة.',
-      'تؤكد الكنائس البروتستانتية الكتاب وحده؛ وتؤكد الكنائس الكاثوليكية والأرثوذكسية الكتاب داخل التقليد. وهي خلافات حقيقية.',
-      'لا تعامل الكنيسة القبطية التقليد كتابًا مقدسًا ثانيًا؛ بل تمتحن كل تعليم بالكتاب.',
+      'الكتاب المقدس كلمة الله المكتوبة؛ والتقليد هو التسليم الحي للإيمان بالروح القدس؛ ولا يناقض أحدهما الآخر.',
+      'يوصي القديس بولس الكنائس أن تتمسك بالتعاليم المسلَّمة بالكلام وبالرسالة، ويوصي تيموثاوس أن يودع ما سمعه أناسًا أمناء.',
+      'ويقول العهد الجديد نفسه إن كل الكتاب موحى به ونافع، والكنيسة تتمسك به محكًّا لكل تعليم.',
+      'كُتبت أسفار العهد الجديد وجُمعت وعُرفت داخل الكنيسة، التي كانت تعيش أصلًا بقاعدة الإيمان المسلَّمة من الرسل.',
+      'استشهد الهراطقة مثل آريوس بالكتاب أيضًا؛ وقراءة الكنيسة الأمينة، المعبَّر عنها في قانون الإيمان، حفظت المعنى الصحيح.',
+      'لا تعامل الكنيسة القبطية التقليد كتابًا مقدسًا ثانيًا؛ بل تعيش بالكتاب داخل حياة الكنيسة.',
     ],
   },
   argumentTypes: ['theological', 'textual', 'historical'],
@@ -47,12 +47,12 @@ export const article: Article = {
 
   whyExamine: {
     en: [
-      'The question lies beneath many other disagreements among Christians. Whether a doctrine such as the Trinity, infant baptism or the prayers of the saints can be held depends partly on whether only Scripture counts, or Scripture read within the Church’s life.',
-      'It also bears on questions put by people outside the Church: who decides what the Bible means, and on what basis can anyone say that one reading is right. A fair answer states the positions and shows the texts they rely on.',
+      'This question lies beneath many disagreements among Christians. Whether the Church may hold the Trinity as defined at Nicaea, baptise infants, or ask the prayers of the saints depends partly on whether Scripture is read alone or within the Church’s life.',
+      'It also answers a question people outside the Church ask: who decides what the Bible means? The Church’s answer is clear: the same Holy Spirit who inspired the Scriptures guides the Church in understanding them.',
     ],
     ar: [
-      'يقع السؤال تحت خلافات كثيرة بين المسيحيين. فإمكان التمسك بعقيدة مثل الثالوث أو معمودية الأطفال أو شفاعة القديسين يتوقف جزئيًا على هل المعتبر الكتاب وحده أم الكتاب مقروءًا في حياة الكنيسة.',
-      'وهو يتصل أيضًا بأسئلة يطرحها من هم خارج الكنيسة: من يقرر معنى الكتاب، وعلى أي أساس يقال إن قراءة ما صحيحة. والجواب المنصف يعرض المواقف ويبيّن النصوص التي تعتمد عليها.',
+      'يكمن هذا السؤال تحت خلافات كثيرة بين المسيحيين. فهل للكنيسة أن تتمسك بالثالوث كما حدده مجمع نيقية، وأن تعمّد الأطفال، وأن تطلب صلوات القديسين، يتوقف جزئيًا على هل يُقرأ الكتاب وحده أم داخل حياة الكنيسة.',
+      'وهو يجيب أيضًا عن سؤال يطرحه من هم خارج الكنيسة: من يقرر ما يعنيه الكتاب المقدس؟ وجواب الكنيسة واضح: الروح القدس نفسه الذي أوحى بالكتب يرشد الكنيسة إلى فهمها.',
     ],
   },
   background: {
@@ -75,14 +75,14 @@ export const article: Article = {
     {
       id: 'C1',
       proposition: {
-        en: 'The New Testament refers to apostolic teaching handed on by word as well as by letter, and does not present Scripture as the only form in which it is carried.',
-        ar: 'يشير العهد الجديد إلى تعليم رسولي مسلَّم شفاهًا وبالرسالة، ولا يعرض الكتاب الشكل الوحيد الذي يُحمل فيه.',
+        en: 'The New Testament refers to apostolic teaching handed on by word as well as by letter, and does not present writing as the only form in which it is carried.',
+        ar: 'يشير العهد الجديد إلى تعليم رسولي مسلَّم بالكلام كما بالرسالة، ولا يقدّم الكتابة على أنها الصورة الوحيدة التي يُنقل بها.',
       },
       argumentType: 'textual',
       assessment: 'supported_disputed_details',
       rationale: {
-        en: 'The verses on handing on teaching are clear. Protestant readers answer that the teaching handed on by word was later written down in the New Testament, and that these verses do not show a second source today.',
-        ar: 'آيات التسليم واضحة. ويجيب القراء البروتستانت بأن التعليم المسلَّم شفاهًا دُوِّن لاحقًا في العهد الجديد، وأن هذه الآيات لا تُظهر مصدرًا ثانيًا اليوم.',
+        en: 'The verses are clear. St Paul praises the Corinthians for keeping the traditions he handed on, tells the Thessalonians to hold what they were taught by word or by letter, and tells St Timothy to pass on what he heard to faithful people who will teach others. From the start, the faith was handed on in a living chain.',
+        ar: 'الآيات واضحة. فالقديس بولس يمدح أهل كورنثوس لأنهم يحفظون التقاليد كما سلّمها، ويوصي أهل تسالونيكي أن يتمسكوا بما تعلّموه بالكلام أو بالرسالة، ويوصي القديس تيموثاوس أن يسلّم ما سمعه لأناس أمناء يعلّمون آخرين. فمنذ البدء سُلّم الإيمان في سلسلة حية.',
       },
       limits: {
         en: 'The texts show that teaching was handed on in more than one way in the first generation. They do not settle what authority a church now has in oral tradition.',
@@ -93,14 +93,14 @@ export const article: Article = {
     {
       id: 'C2',
       proposition: {
-        en: 'The New Testament also affirms the sufficiency and usefulness of Scripture and criticises human traditions that set aside God’s commandment.',
-        ar: 'يؤكد العهد الجديد أيضًا كفاية الكتاب ونفعه، وينتقد تقاليد بشرية تبطل وصية الله.',
+        en: 'The New Testament also affirms the inspiration and usefulness of Scripture, and criticises human traditions that set aside God’s commandment.',
+        ar: 'ويؤكد العهد الجديد أيضًا وحي الكتاب ونفعه، وينتقد التقاليد البشرية التي تُبطل وصية الله.',
       },
       argumentType: 'textual',
       assessment: 'supported_disputed_details',
       rationale: {
-        en: 'These are the verses on which Scripture-alone churches rest. The Church agrees that Scripture is inspired and useful, and answers that the verses criticise particular human traditions and do not exclude the apostolic tradition.',
-        ar: 'هذه هي الآيات التي تقوم عليها كنائس الكتاب وحده. وتوافق الكنيسة على أن الكتاب موحى به ونافع، وتجيب بأن الآيات تنتقد تقاليد بشرية معينة ولا تستبعد التقليد الرسولي.',
+        en: 'The Church holds these verses with all her heart: all Scripture is God-breathed and useful, and no tradition may set aside God’s commandment. The Lord’s rebuke in Mark 7 is aimed at human customs that nullified God’s law, not at the apostolic teaching that St Paul commands the churches to keep.',
+        ar: 'تتمسك الكنيسة بهذه الآيات من كل قلبها: كل الكتاب موحى به من الله ونافع، ولا يجوز لتقليد أن يُبطل وصية الله. وتوبيخ الرب في مرقس ٧ موجّه إلى عادات بشرية أبطلت شريعة الله، لا إلى التعليم الرسولي الذي يوصي القديس بولس الكنائس بحفظه.',
       },
       limits: {
         en: 'The verses can be read either way; the reading depends on a prior view of the Church’s authority.',
@@ -111,14 +111,14 @@ export const article: Article = {
     {
       id: 'C3',
       proposition: {
-        en: 'The recognition of the New Testament canon and the formulation of the creeds took place within the Church’s life, so that Scripture and Tradition were historically intertwined.',
-        ar: 'تمّ الاعتراف بقانون العهد الجديد وصياغة قوانين الإيمان داخل حياة الكنيسة، فكان الكتاب والتقليد متشابكين تاريخيًا.',
+        en: 'The New Testament books were recognised and the creeds were formulated within the Church’s life, so that Scripture and Tradition have always belonged together.',
+        ar: 'عُرفت أسفار العهد الجديد وصيغت قوانين الإيمان داخل حياة الكنيسة، فكان الكتاب والتقليد دائمًا متلازمين.',
       },
       argumentType: 'historical',
       assessment: 'supported_disputed_details',
       rationale: {
-        en: 'It is a matter of history that the lists of New Testament books were recognised in the churches and that the Fathers read Scripture within the rule of faith. How to evaluate that fact is disputed: Protestants say the canon was recognised because the books were already authoritative; the Church says that the Church’s recognition is itself part of how Scripture is received.',
-        ar: 'من التاريخ أن قوائم أسفار العهد الجديد اعترفت بها الكنائس وأن الآباء قرأوا الكتاب داخل قانون الإيمان. وتقييم هذه الواقعة محل خلاف: يقول البروتستانت إن القانون اعتُرف به لأن الأسفار كانت ذات سلطان أصلًا؛ وتقول الكنيسة إن اعتراف الكنيسة نفسه جزء من طريقة قبول الكتاب.',
+        en: 'The churches lived by the apostles’ teaching before the New Testament was gathered, and it was within their worship that the books were read and recognised. St Athanasius of Alexandria listed the twenty-seven books in his Festal Letter of 367. The Fathers read Scripture within the rule of faith, and the Church that received the Scriptures is the Church that reads them.',
+        ar: 'عاشت الكنائس بتعليم الرسل قبل أن يُجمع العهد الجديد، وفي عبادتها قُرئت الأسفار وعُرفت. وقد ذكر القديس أثناسيوس الإسكندري الأسفار السبعة والعشرين في رسالته الفصحية سنة ٣٦٧. وقرأ الآباء الكتاب داخل قاعدة الإيمان، والكنيسة التي تسلّمت الكتب هي الكنيسة التي تقرؤها.',
       },
       limits: {
         en: 'It does not choose between the positions.',
@@ -130,13 +130,13 @@ export const article: Article = {
       id: 'C4',
       proposition: {
         en: 'The Coptic Orthodox Church holds that Scripture and Tradition are one life of the Church under the Holy Spirit, and that every teaching is tested by Scripture.',
-        ar: 'تؤمن الكنيسة القبطية الأرثوذكسية بأن الكتاب والتقليد حياة واحدة للكنيسة بالروح القدس، وبأن كل تعليم يُمتحن بالكتاب.',
+        ar: 'تعتقد الكنيسة القبطية الأرثوذكسية أن الكتاب والتقليد حياة واحدة للكنيسة بالروح القدس، وأن كل تعليم يُفحص بالكتاب.',
       },
       argumentType: 'theological',
       assessment: 'theological_interpretation',
       rationale: {
-        en: 'This is the Church’s own statement, drawn from its Fathers and its practice.',
-        ar: 'هذا بيان الكنيسة نفسها، مستمد من آبائها وممارستها.',
+        en: 'This is the Church’s own teaching, drawn from the Fathers and lived in her worship. Pope Shenouda III, explaining the Creed, drew proofs from Scripture for each article, showing how the Church’s Tradition and Scripture speak with one voice.',
+        ar: 'هذا تعليم الكنيسة نفسها، مستمد من الآباء ومعاش في عبادتها. وقد قدّم قداسة البابا شنوده الثالث، في شرحه لقانون الإيمان، براهين من الكتاب لكل بند، مبيّنًا كيف يتكلم تقليد الكنيسة والكتاب بصوت واحد.',
       },
       limits: {
         en: 'It is a doctrine of faith and does not prove itself against the Protestant view.',
@@ -246,12 +246,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The objection raises a serious test, and the Church accepts it: no tradition may contradict Scripture. In Mark 7, Jesus criticises traditions that contradict a commandment, which is different from the apostolic teaching St Paul asks the churches to keep. The Church’s claim is that its teaching and practice are the apostolic teaching handed on, and are consistent with Scripture.',
-          'The disagreement is then about particular cases: whether the prayers for the departed, the intercession of the saints, the sacraments, the creeds and the use of the term “of one essence” are in harmony with Scripture or go beyond it. Protestant churches judge some of them to go beyond; the Church judges that they do not. The article cannot settle each case, and says so.',
+          'The Church accepts the test at the heart of this objection: no tradition may contradict Scripture. In Mark 7 the Lord condemns traditions that set aside a commandment of God. That is a different thing from the apostolic teaching St Paul tells the churches to keep.',
+          'The Church’s teaching and practice are that apostolic teaching handed on, and they agree with Scripture. Prayer for the departed, the intercession of the saints, the sacraments and the Creed’s confession that the Son is of one essence with the Father all have their roots in Scripture, read as the Church has always read it. Tradition does not replace God’s word; it keeps it.',
         ],
         ar: [
-          'يطرح الاعتراض اختبارًا جادًا تقبله الكنيسة: لا يجوز لتقليد أن يناقض الكتاب. وفي مرقس ٧ ينتقد يسوع تقاليد تناقض وصية، وهذا يختلف عن التعليم الرسولي الذي يطلب القديس بولس من الكنائس حفظه. ودعوى الكنيسة أن تعليمها وممارستها هما التعليم الرسولي المسلَّم، وأنهما منسجمان مع الكتاب.',
-          'والخلاف إذن في حالات بعينها: هل الصلاة من أجل الراقدين وشفاعة القديسين والأسرار وقوانين الإيمان واستعمال عبارة «واحد في الجوهر» منسجمة مع الكتاب أم تتجاوزه. وتحكم كنائس بروتستانتية بأن بعضها يتجاوز؛ وتحكم الكنيسة بأنها لا تتجاوز. ولا يستطيع المقال حسم كل حالة، ويقول ذلك.',
+          'تقبل الكنيسة المحك الذي في قلب هذا الاعتراض: لا يجوز لتقليد أن يناقض الكتاب. ففي مرقس ٧ يدين الرب تقاليد تُبطل وصية الله. وهذا أمر مختلف عن التعليم الرسولي الذي يوصي القديس بولس الكنائس بحفظه.',
+          'وتعليم الكنيسة وممارستها هما ذلك التعليم الرسولي المسلَّم، ويتفقان مع الكتاب. فالصلاة من أجل الراقدين، وشفاعة القديسين، والأسرار، واعتراف قانون الإيمان بأن الابن مساوٍ للآب في الجوهر، كلها لها جذورها في الكتاب، مقروءًا كما قرأته الكنيسة دائمًا. فالتقليد لا يحل محل كلمة الله؛ بل يحفظها.',
         ],
       },
       limits: {
@@ -268,12 +268,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'It is a fair difficulty, and the Fathers faced it. Their criterion was what has been believed everywhere, by the churches founded by the apostles, tested by Scripture and shown in common worship. The councils and the creeds are the Church’s record of that test.',
-          'A critic may reply that churches disagree about what that criterion yields, and the Catholic, Orthodox and Oriental Orthodox traditions themselves differ over which councils are authoritative. The Church acknowledges the difference and places the question in prayer, dialogue and the guidance of the Spirit, and does not claim that history alone can prove its case.',
+          'The Fathers faced this question and gave a clear answer. True Tradition is what has been believed in the churches founded by the apostles, handed on without break, in harmony with Scripture, and shown in common worship. The councils and the Creed are the Church’s record of that faith.',
+          'Tradition is not a private claim. It is public, tested by Scripture, and lived in the worship of the whole Church across the centuries. The Holy Spirit, whom the Lord promised would guide the Church into all truth, keeps it faithful.',
         ],
         ar: [
-          'هي صعوبة وجيهة واجهها الآباء. ومعيارهم ما آمنت به الكنائس التي أسسها الرسل في كل مكان، مُمتحنًا بالكتاب ومعلنًا في العبادة المشتركة. والمجامع وقوانين الإيمان سجل الكنيسة لهذا الاختبار.',
-          'وقد يرد الناقد بأن الكنائس تختلف فيما ينتجه هذا المعيار، وأن التقاليد الكاثوليكية والأرثوذكسية والمشرقية نفسها تختلف في أي المجامع ذات سلطان. وتعترف الكنيسة بالخلاف وتضع المسألة في الصلاة والحوار وإرشاد الروح، ولا تدّعي أن التاريخ وحده يثبت دعواها.',
+          'واجه الآباء هذا السؤال وأعطوا جوابًا واضحًا. فالتقليد الحق هو ما آمنت به الكنائس التي أسسها الرسل، مسلَّمًا دون انقطاع، متفقًا مع الكتاب، وظاهرًا في العبادة المشتركة. والمجامع وقانون الإيمان هي سجل الكنيسة لهذا الإيمان.',
+          'والتقليد ليس دعوى خاصة. إنه علني، مفحوص بالكتاب، ومعاش في عبادة الكنيسة كلها عبر القرون. والروح القدس، الذي وعد الرب بأنه يرشد الكنيسة إلى جميع الحق، يحفظها أمينة.',
         ],
       },
       limits: {
@@ -290,12 +290,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'In this the Church and many Protestants are close: the Nicene Creed is a reading of Scripture. Many Protestant churches accept it for that reason. The difference is whether such readings can be binding, and who can say so.',
-          'The Church answers that the early disputes show why: Arius also quoted Scripture. The Church needed an agreed reading to tell what the shared text was saying, and the councils supplied one. A Scripture-alone church replies that the reading is accepted because it is true to the text, not because a council said it.',
+          'The Church agrees that the Nicene Creed is a faithful reading of Scripture, and many Protestant churches accept it for that very reason. The question is whether such a reading can bind the Church.',
+          'The early disputes give the answer. Arius also quoted Scripture. The Church needed a sure reading to show what the shared text meant, and at Nicaea she gave it. The Creed binds because it is the faith of the apostles, confessed by the whole Church under the Holy Spirit, and it is true to Scripture.',
         ],
         ar: [
-          'في هذا تقارب الكنيسة وكثيرون من البروتستانت: قانون إيمان نيقية قراءة للكتاب. وتقبله كنائس بروتستانتية كثيرة لهذا السبب. والفرق هو هل يمكن أن تكون هذه القراءات ملزِمة ومن يستطيع أن يقول ذلك.',
-          'وتجيب الكنيسة بأن الخلافات الأولى تبيّن السبب: فآريوس أيضًا استشهد بالكتاب. واحتاجت الكنيسة إلى قراءة متفق عليها لتحديد ما يقوله النص المشترك، وقدمتها المجامع. وترد كنيسة الكتاب وحده بأن القراءة مقبولة لأنها أمينة للنص لا لأن مجمعًا قالها.',
+          'تتفق الكنيسة على أن قانون الإيمان النيقاوي قراءة أمينة للكتاب، وكثير من الكنائس البروتستانتية تقبله لهذا السبب نفسه. والسؤال هو هل يمكن لمثل هذه القراءة أن تُلزم الكنيسة.',
+          'والخلافات الأولى تعطي الجواب. فآريوس أيضًا استشهد بالكتاب. واحتاجت الكنيسة إلى قراءة أكيدة تبيّن ما يعنيه النص المشترك، وفي نيقية أعطتها. وقانون الإيمان مُلزم لأنه إيمان الرسل، اعترفت به الكنيسة كلها بالروح القدس، وهو أمين للكتاب.',
         ],
       },
       limits: {
@@ -309,12 +309,12 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'Historically, a Christian can say that the first Christians had both the Scriptures of Israel and the apostles’ teaching by word, that the New Testament books were written within that community and recognised by it, and that the Fathers appealed to the rule of faith and to Scripture together. The picture of a Church with only a written book, and no common teaching, does not fit the evidence of the first centuries.',
-        'A Christian can also say that the same history shows disagreement about what counts as the true tradition, and that the traditions of different churches do not coincide.',
+        'History shows the Church described here. The first Christians had the Scriptures of Israel and the apostles’ teaching by word. The New Testament books were written within that community and recognised by it, and the Fathers appealed to the rule of faith and to Scripture together. A Church with only a written book and no common teaching is not what the first centuries show.',
+        'The same history shows why Tradition matters. When groups read the Scriptures in new and conflicting ways, the Church answered with the faith she had received from the apostles, and that faith, set down in the Creed, has guided her reading ever since.',
       ],
       ar: [
-        'يستطيع المسيحي تاريخيًا أن يقول إن المسيحيين الأوائل كان لديهم كتب إسرائيل وتعليم الرسل شفاهًا معًا، وإن أسفار العهد الجديد كُتبت في تلك الجماعة وقبلتها، وإن الآباء احتكموا إلى قانون الإيمان وإلى الكتاب معًا. وصورة كنيسة لها كتاب مكتوب فقط بلا تعليم مشترك لا تتفق مع شواهد القرون الأولى.',
-        'ويستطيع أيضًا أن يقول إن التاريخ نفسه يُظهر خلافًا في ما يُعدّ التقليد الصحيح، وإن تقاليد الكنائس المختلفة لا تتطابق.',
+        'يبيّن التاريخ الكنيسة الموصوفة هنا. فقد كان للمسيحيين الأوائل كتب إسرائيل وتعليم الرسل بالكلام. وكُتبت أسفار العهد الجديد داخل تلك الجماعة وعرفتها، واحتكم الآباء إلى قاعدة الإيمان والكتاب معًا. أما كنيسة لها كتاب مكتوب فقط ولا تعليم مشترك فليست ما تبيّنه القرون الأولى.',
+        'والتاريخ نفسه يبيّن لماذا يهم التقليد. فحين قرأت جماعات الكتب بطرق جديدة ومتعارضة، أجابت الكنيسة بالإيمان الذي تسلّمته من الرسل، وهذا الإيمان، المدوَّن في قانون الإيمان، أرشد قراءتها منذ ذلك الحين.',
       ],
     },
     theological: {
@@ -351,8 +351,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'The Coptic Orthodox Church holds Scripture and Tradition as one life under the Holy Spirit, with Scripture as the highest witness by which every teaching is tested. Protestant and Catholic churches answer the question differently, and each appeals to the New Testament. The texts show that both written and handed-on teaching were present at the start, and they do not by themselves settle the later dispute.',
-    ar: 'تمسك الكنيسة القبطية الأرثوذكسية بالكتاب والتقليد حياةً واحدة بالروح القدس، والكتاب أعلى شاهد يُمتحن به كل تعليم. وتجيب الكنائس البروتستانتية والكاثوليكية عن السؤال جوابًا مختلفًا، وتحتج كل منها بالعهد الجديد. وتُظهر النصوص أن التعليم المكتوب والمسلَّم كليهما كان حاضرًا في البداية، ولا تحسم وحدها الخلاف اللاحق.',
+    en: 'Scripture and Tradition belong together as one life of the Church under the Holy Spirit. Scripture is the highest witness, by which every teaching is tested; Tradition is the faith of the apostles handed on in the Church’s worship, Creed and Fathers, within which Scripture is rightly read. The New Testament itself shows both written and handed-on teaching from the start, and the Coptic Orthodox Church lives by both as one.',
+    ar: 'الكتاب المقدس والتقليد متلازمان حياةً واحدة للكنيسة بالروح القدس. فالكتاب هو الشاهد الأعلى الذي يُفحص به كل تعليم؛ والتقليد هو إيمان الرسل المسلَّم في عبادة الكنيسة وقانون إيمانها وآبائها، وفيه يُقرأ الكتاب قراءة صحيحة. والعهد الجديد نفسه يبيّن التعليم المكتوب والمسلَّم معًا منذ البدء، والكنيسة القبطية الأرثوذكسية تعيش بهما معًا كشيء واحد.',
   },
   furtherReading: ['S52', 'S55', 'S29', 'S62'],
   related: ['who-chose-the-books', 'what-is-the-bible', 'why-inspired', 'disputes-among-traditions', 'did-nicaea-choose-the-bible', 'early-baptism-and-eucharist', 'coptic-deuterocanon'],

@@ -15,25 +15,25 @@ export const article: Article = {
     ar: 'كيف تميز الكنيسة القبطية الأرثوذكسية بين الإكرام والعبادة والشفاعة في تعليمها عن العذراء مريم والقديسين؛ وماذا يقول الكتاب مما يخص كلًّا منها؛ وكيف يعترض البروتستانت وغيرهم. تعبد الكنيسة الثالوث القدوس وحده، وتكرم القديسين، وتطلب صلواتهم.',
   },
   shortAnswer: {
-    en: 'Worship (adoration, Greek latreia) is the offering of the whole self to God as Creator and Saviour, and belongs to God alone. Honour (Greek doulia) is the respect owed to those whom God has honoured, as we honour parents, teachers and the saints; the Virgin, as the Mother of the Lord, is honoured above all other saints. Intercession is the prayer of one member of the Church for another, which the whole Church practises on earth and which the Coptic Church believes continues in heaven, where the saints are alive in Christ. Asking Mary to pray for us is therefore not worshipping her.',
-    ar: 'العبادة (السجود، باليونانية لاتريا) تقديم الذات كلها لله خالقًا ومخلصًا، وهي لله وحده. والإكرام (باليونانية دوليا) هو الاحترام الواجب لمن أكرمهم الله، كما نكرم الوالدين والمعلمين والقديسين؛ والعذراء بوصفها أم الرب مكرَّمة فوق كل القديسين. والشفاعة صلاة عضو في الكنيسة من أجل آخر، وتمارسها الكنيسة كلها على الأرض، وتؤمن الكنيسة القبطية بأنها تستمر في السماء حيث القديسون أحياء في المسيح. فطلب صلاة مريم من أجلنا ليس عبادتها.',
+    en: 'Worship (adoration, Greek latreia) is the offering of the whole self to God as Creator and Saviour, and it belongs to God alone. Honour (Greek doulia) is the respect owed to those whom God has honoured, as we honour parents, teachers and the saints. The Virgin Mary, the Mother of the Lord, is honoured above all the saints, because the Gospel itself says all generations will call her blessed. Intercession is the prayer of one member of the Church for another. Christians do it on earth, and it does not stop at death, because the saints are alive in Christ. So asking the Theotokos to pray for us is not worshipping her: it is asking our mother in the faith to pray with us to her Son.',
+    ar: 'العبادة (السجود، باليونانية لاتريا) تقديم الذات كلها لله خالقًا ومخلصًا، وهي لله وحده. والإكرام (باليونانية دوليا) هو الاحترام الواجب لمن أكرمهم الله، كما نكرم الوالدين والمعلمين والقديسين. والعذراء مريم، أم الرب، مكرَّمة فوق كل القديسين، لأن الإنجيل نفسه يقول إن جميع الأجيال تطوّبها. والشفاعة صلاة عضو في الكنيسة من أجل آخر. يمارسها المسيحيون على الأرض، ولا تتوقف بالموت، لأن القديسين أحياء في المسيح. فطلب صلاة والدة الإله من أجلنا ليس عبادة لها: بل هو طلب من أمّنا في الإيمان أن تصلي معنا إلى ابنها.',
   },
   quickPoints: {
     en: [
-      'Worship is for God alone; Scripture shows both angels and apostles refusing it (Revelation 22:8–9; Acts 10:25–26).',
-      'Honour is owed to those God has honoured: Mary is called blessed by all generations (Luke 1:48).',
-      'Intercession is prayer for one another (James 5:16; 1 Timothy 2:1); the question is whether it continues after death.',
-      'The Church holds that the saints are alive in Christ and that the prayers of the saints rise before God (Revelation 5:8).',
-      'Protestants ask whether this obscures Christ as the one mediator (1 Timothy 2:5); the Church answers that the saints’ prayers depend on his mediation and do not replace it.',
-      'The distinction is real, but the Church recognises that devotion can be misused and teaches against it.',
+      'Worship is for God alone; Scripture shows both an angel and an apostle refusing it (Revelation 22:8–9; Acts 10:25–26).',
+      'Honour is owed to those God has honoured: all generations call Mary blessed (Luke 1:48).',
+      'Christians pray for one another (James 5:16; 1 Timothy 2:1), and death does not end this communion in Christ.',
+      'The saints are alive in Christ, and the prayers of the saints rise before God (Revelation 5:8).',
+      'Christ is the one mediator (1 Timothy 2:5); the saints’ prayers rest on His mediation and never replace it.',
+      'The Church teaches clearly against any devotion that would confuse honour with worship.',
     ],
     ar: [
-      'العبادة لله وحده؛ ويُظهر الكتاب الملائكة والرسل يرفضونها (رؤيا ٢٢: ٨–٩؛ أعمال ١٠: ٢٥–٢٦).',
-      'الإكرام واجب لمن أكرمهم الله: مريم تطوّبها كل الأجيال (لوقا ١: ٤٨).',
-      'الشفاعة صلاة بعضنا لأجل بعض (يعقوب ٥: ١٦؛ ١ تيموثاوس ٢: ١)؛ والسؤال هل تستمر بعد الموت.',
-      'ترى الكنيسة أن القديسين أحياء في المسيح وأن صلواتهم ترتفع أمام الله (رؤيا ٥: ٨).',
-      'يسأل البروتستانت هل يحجب هذا المسيح الوسيط الواحد (١ تيموثاوس ٢: ٥)؛ وتجيب الكنيسة بأن صلوات القديسين تعتمد على وساطته ولا تحل محلها.',
-      'التمييز حقيقي، لكن الكنيسة تعرف أن التعبد قد يُساء استعماله وتعلّم ضد ذلك.',
+      'العبادة لله وحده؛ ويُظهر الكتاب ملاكًا ورسولًا يرفضانها (رؤيا ٢٢: ٨–٩؛ أعمال ١٠: ٢٥–٢٦).',
+      'الإكرام واجب لمن أكرمهم الله: جميع الأجيال تطوّب مريم (لوقا ١: ٤٨).',
+      'يصلي المسيحيون بعضهم لأجل بعض (يعقوب ٥: ١٦؛ ١ تيموثاوس ٢: ١)، والموت لا ينهي هذه الشركة في المسيح.',
+      'القديسون أحياء في المسيح، وصلوات القديسين ترتفع أمام الله (رؤيا ٥: ٨).',
+      'المسيح هو الوسيط الواحد (١ تيموثاوس ٢: ٥)؛ وصلوات القديسين قائمة على وساطته ولا تحل محلها أبدًا.',
+      'تعلّم الكنيسة بوضوح ضد كل تعبد يخلط الإكرام بالعبادة.',
     ],
   },
   argumentTypes: ['theological', 'textual'],
@@ -46,12 +46,12 @@ export const article: Article = {
   },
   whyExamine: {
     en: [
-      'The charge that Orthodox Christians worship Mary is among the most common made against them, and it comes from sincere concern for the first commandment. A clear statement of what is and is not done answers the concern or locates the real difference.',
-      'The difference between honour and worship is not special to this question. It applies to the respect shown to parents, rulers and teachers, and in every case depends on what is offered and to whom.',
+      'The charge that Orthodox Christians worship Mary is among the most common made against them, and it often comes from sincere zeal for the first commandment. A clear account of what the Church does, and why, answers that concern.',
+      'The difference between honour and worship is part of everyday life. We honour parents, rulers and teachers without worshipping them. In every case, what matters is what is offered and to whom.',
     ],
     ar: [
-      'التهمة أن الأرثوذكس يعبدون مريم من أشيع ما يوجَّه إليهم، وتصدر عن غيرة صادقة على الوصية الأولى. وبيان واضح لما يُفعل وما لا يُفعل يجيب عن الهم أو يحدد الفرق الحقيقي.',
-      'والفرق بين الإكرام والعبادة ليس خاصًا بهذه المسألة. فهو ينطبق على الاحترام للوالدين والحكام والمعلمين، ويتوقف في كل حال على ما يُقدَّم ولمن.',
+      'التهمة أن الأرثوذكس يعبدون مريم من أشيع ما يوجَّه إليهم، وكثيرًا ما تصدر عن غيرة صادقة على الوصية الأولى. وبيان واضح لما تفعله الكنيسة ولماذا يجيب عن هذا الهم.',
+      'والفرق بين الإكرام والعبادة جزء من الحياة اليومية. فنحن نكرم الوالدين والحكام والمعلمين دون أن نعبدهم. والمهم في كل حال ما يُقدَّم ولمن.',
     ],
   },
   background: {
@@ -78,8 +78,8 @@ export const article: Article = {
       argumentType: 'textual',
       assessment: 'strong_historical_support',
       rationale: {
-        en: 'Revelation 22:8–9 and Acts 10:25–26 show the refusal of worship by angel and apostle; the Church’s liturgy is addressed to the Trinity.',
-        ar: 'تبين رؤيا ٢٢: ٨–٩ وأعمال ١٠: ٢٥–٢٦ رفض الملاك والرسول للسجود؛ وصلوات الكنيسة الطقسية موجهة إلى الثالوث.',
+        en: 'In Revelation 22:8–9 an angel refuses worship, and in Acts 10:25–26 St Peter refuses it. The Church’s liturgy, its sacrifice and its adoration are all addressed to the Holy Trinity.',
+        ar: 'في رؤيا ٢٢: ٨–٩ يرفض ملاك السجود، وفي أعمال ١٠: ٢٥–٢٦ يرفضه القديس بطرس. وصلوات الكنيسة الطقسية وذبيحتها وسجودها كلها موجهة إلى الثالوث القدوس.',
       },
       limits: {
         en: 'The texts mark the line. Where bowing and veneration fall on either side of it is a question the traditions answer differently.',
@@ -90,14 +90,14 @@ export const article: Article = {
     {
       id: 'c2',
       proposition: {
-        en: 'Scripture calls Mary blessed and her honour is a response to what the Gospel says.',
-        ar: 'يدعو الكتاب مريم مطوَّبة، وإكرامها استجابة لما يقوله الإنجيل.',
+        en: 'Scripture calls Mary blessed, and the Church’s honour of her is a response to what the Gospel says.',
+        ar: 'يدعو الكتاب مريم مطوَّبة، وإكرام الكنيسة لها استجابة لما يقوله الإنجيل.',
       },
       argumentType: 'textual',
       assessment: 'strong_historical_support',
       rationale: {
-        en: 'Luke 1:42–48 puts the blessing on the lips of Elizabeth and Mary.',
-        ar: 'يضع لوقا ١: ٤٢–٤٨ التطويب على لسان أليصابات ومريم.',
+        en: 'In Luke 1:42–48 Elizabeth greets Mary as the mother of her Lord, and Mary says that all generations will call her blessed. The Church fulfils those words each time it honours her.',
+        ar: 'في لوقا ١: ٤٢–٤٨ تحيّي أليصابات مريم أمًّا لربها، وتقول مريم إن جميع الأجيال تطوّبها. والكنيسة تتمم هذا القول كلما أكرمتها.',
       },
       limits: {
         en: 'It shows honour. It does not by itself show invocation.',
@@ -108,14 +108,14 @@ export const article: Article = {
     {
       id: 'c3',
       proposition: {
-        en: 'The Church holds that the saints in heaven pray for the Church, and reads Scripture as consistent with this.',
-        ar: 'تؤمن الكنيسة بأن القديسين في السماء يصلون من أجل الكنيسة، وتقرأ الكتاب متسقًا مع ذلك.',
+        en: 'The saints in heaven pray for the Church, and Scripture bears witness to this communion.',
+        ar: 'القديسون في السماء يصلون من أجل الكنيسة، والكتاب يشهد لهذه الشركة.',
       },
       argumentType: 'theological',
       assessment: 'theological_interpretation',
       rationale: {
-        en: 'It rests on the texts of Revelation 5:8, Hebrews 12:1 and John 2 read within the Church’s faith in the communion of saints, and on the Church’s practice from early times.',
-        ar: 'يقوم على نصوص رؤيا ٥: ٨ وعبرانيين ١٢: ١ ويوحنا ٢ مقروءة داخل إيمان الكنيسة بشركة القديسين، وعلى ممارسة الكنيسة منذ العصور الأولى.',
+        en: 'In Revelation 5:8 the prayers of the saints are offered before God in heaven. Hebrews 12:1 speaks of a great cloud of witnesses surrounding us. At Cana Mary brings a need to her Son, and He answers (John 2). The Church has asked the prayers of the martyrs and saints from early times.',
+        ar: 'في رؤيا ٥: ٨ تُقدَّم صلوات القديسين أمام الله في السماء. وتتكلم عبرانيين ١٢: ١ عن سحابة عظيمة من الشهود تحيط بنا. وفي قانا تحمل مريم حاجة إلى ابنها فيستجيب (يوحنا ٢). وقد طلبت الكنيسة صلوات الشهداء والقديسين منذ العصور الأولى.',
       },
       limits: {
         en: 'None of the texts commands invocation of the saints, and Protestants read several of them differently. The argument is cumulative.',
@@ -126,14 +126,14 @@ export const article: Article = {
     {
       id: 'c4',
       proposition: {
-        en: 'Christ is the one mediator between God and humanity, and the Church holds that the intercession of the saints depends on this and does not add a second mediator.',
-        ar: 'المسيح هو الوسيط الواحد بين الله والناس، وتؤمن الكنيسة بأن شفاعة القديسين تعتمد على ذلك ولا تضيف وسيطًا ثانيًا.',
+        en: 'Christ is the one mediator between God and humanity, and the intercession of the saints rests on His mediation without adding a second mediator.',
+        ar: 'المسيح هو الوسيط الواحد بين الله والناس، وشفاعة القديسين قائمة على وساطته دون أن تضيف وسيطًا ثانيًا.',
       },
       argumentType: 'theological',
       assessment: 'actively_debated',
       rationale: {
-        en: '1 Timothy 2:1–5 calls for prayer for all and speaks of one mediator in the same passage; the Church reads the two together, while others read the second as excluding the practice.',
-        ar: 'تدعو ١ تيموثاوس ٢: ١–٥ إلى الصلاة من أجل الجميع وتتكلم عن وسيط واحد في الفقرة نفسها؛ وتقرأ الكنيسة الأمرين معًا، ويقرأ آخرون الثاني مانعًا للممارسة.',
+        en: 'The same passage, 1 Timothy 2:1–5, first asks Christians to pray for all people and then speaks of the one mediator. The two belong together: prayer for one another is offered through Christ, never around Him.',
+        ar: 'الفقرة نفسها، ١ تيموثاوس ٢: ١–٥، تطلب أولًا أن يصلي المسيحيون من أجل جميع الناس ثم تتكلم عن الوسيط الواحد. والأمران متلازمان: فصلاة بعضنا لأجل بعض تُقدَّم بالمسيح، لا متجاوزةً إياه.',
       },
       limits: {
         en: 'It states the Church’s reading and does not persuade those who read mediation more exclusively.',
@@ -270,12 +270,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The Church agrees that prayer in the sense of worship and petition for grace is addressed to God alone. What is asked of Mary and the saints is that they pray with us, as one asks a friend or a priest. The question is whether those who have died are cut off; the Church answers that in Christ they live.',
-          'Scripture does not explicitly command it, as the Church admits. The Church holds it as part of the tradition handed down with Scripture. A Christian who asks the living to pray has already accepted that the prayer of others avails; the difference is about the departed.',
+          'Prayer in the sense of worship, and asking for grace itself, is addressed to God alone. What the Church asks of the Virgin and the saints is that they pray with us and for us, as one asks a friend or a priest. Those who have died in Christ are not cut off: as the Lord taught, all who belong to God are alive to Him (Luke 20:38).',
+          'This practice belongs to the tradition handed down with Scripture. A Christian who asks the living to pray for him has already accepted that the prayers of others help. Death does not separate the members of Christ’s body, so the saints in heaven can still pray, and they do.',
         ],
         ar: [
-          'تتفق الكنيسة على أن الصلاة بمعنى العبادة وطلب النعمة موجهة إلى الله وحده. وما يُطلب من مريم والقديسين أن يصلوا معنا، كما يُطلب من صديق أو كاهن. والسؤال هل الراقدون منقطعون؛ وتجيب الكنيسة أنهم في المسيح أحياء.',
-          'ولا يأمر الكتاب بذلك صراحة كما تقر الكنيسة. وهي تحفظه جزءًا من التقليد المسلَّم مع الكتاب. ومن يطلب من الأحياء أن يصلوا قد قبل سلفًا أن صلاة الآخرين نافعة؛ والخلاف في الراقدين.',
+          'الصلاة بمعنى العبادة، وطلب النعمة نفسها، موجهة إلى الله وحده. وما تطلبه الكنيسة من العذراء والقديسين أن يصلوا معنا ولأجلنا، كما يُطلب من صديق أو كاهن. والراقدون في المسيح ليسوا منقطعين: فكما علّم الرب، كل الذين لله هم أحياء عنده (لوقا ٢٠: ٣٨).',
+          'وهذه الممارسة جزء من التقليد المسلَّم مع الكتاب. ومن يطلب من الأحياء أن يصلوا لأجله قد قبل سلفًا أن صلاة الآخرين نافعة. والموت لا يفصل أعضاء جسد المسيح، فالقديسون في السماء يستطيعون أن يصلوا، وهم يصلون.',
         ],
       },
       limits: {
@@ -292,12 +292,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'Outward gestures can mean different things according to what is intended and to whom they are offered. Bowing is given to kings and parents in Scripture without being worship. The Church’s test is the content: sacrifice, the Eucharist and the Creed’s confession are God’s alone, and the Church’s hymns to Mary ask her prayers and honour her for her Son.',
-          'The Church recognises that individuals can go beyond this and corrects them. The dispute remains over how far such gestures should go, and Protestants will draw the line closer.',
+          'Outward gestures mean different things according to what is intended and to whom they are offered. In Scripture, people bow before kings and parents without worshipping them. The Church’s test is the content: sacrifice, the Eucharist and the confession of the Creed belong to God alone, and the Church’s hymns to the Virgin ask her prayers and honour her for the sake of her Son.',
+          'Where any individual goes beyond this, the Church corrects it. Her teaching is clear: worship belongs to the Holy Trinity alone.',
         ],
         ar: [
-          'قد تدل الإشارات الخارجية على معان مختلفة بحسب القصد ولمن تُقدَّم. ويُعطى الانحناء للملوك والوالدين في الكتاب دون أن يكون عبادة. ومعيار الكنيسة هو المضمون: الذبيحة والإفخارستيا واعتراف قانون الإيمان لله وحده، وتسابيح الكنيسة لمريم تطلب صلاتها وتكرمها لأجل ابنها.',
-          'وتعترف الكنيسة بأن أفرادًا قد يتجاوزون ذلك وتصحح لهم. ويبقى الخلاف على مدى هذه الإشارات، وسيرسم البروتستانت الخط أقرب.',
+          'تدل الإشارات الخارجية على معانٍ مختلفة بحسب القصد ولمن تُقدَّم. ففي الكتاب ينحني الناس أمام الملوك والوالدين دون أن يعبدوهم. ومعيار الكنيسة هو المضمون: الذبيحة والإفخارستيا واعتراف قانون الإيمان لله وحده، وتسابيح الكنيسة للعذراء تطلب صلاتها وتكرمها من أجل ابنها.',
+          'وحيث يتجاوز أحد ذلك تصحّحه الكنيسة. وتعليمها واضح: العبادة للثالوث القدوس وحده.',
         ],
       },
       limits: {
@@ -310,10 +310,10 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'Historically, the distinction between worship and honour is made in the Scriptures cited above, and the Fathers and councils later gave it the terms doulia and latreia. Early Christians honoured martyrs at their tombs. The arguments for the practice come from tradition and not from an explicit command, and Reformation churches reject it for that reason.',
+        'The distinction between worship and honour is made in the Scriptures cited above, and the Fathers and councils later named it with the words latreia and doulia. From early times Christians honoured the martyrs at their tombs and asked their prayers. The practice is part of the Church’s living tradition from its first centuries.',
       ],
       ar: [
-        'تاريخيًا، يرد التمييز بين العبادة والإكرام في الكتب المذكورة أعلاه، وأعطاه الآباء والمجامع لاحقًا اللفظين دوليا ولاتريا. وكان المسيحيون الأوائل يكرمون الشهداء عند قبورهم. وحجج الممارسة من التقليد لا من أمر صريح، وترفضها كنائس الإصلاح لهذا السبب.',
+        'يرد التمييز بين العبادة والإكرام في الكتب المذكورة أعلاه، وسمّاه الآباء والمجامع لاحقًا بلفظي لاتريا ودوليا. ومنذ العصور الأولى كان المسيحيون يكرمون الشهداء عند قبورهم ويطلبون صلواتهم. فالممارسة جزء من تقليد الكنيسة الحي منذ قرونها الأولى.',
       ],
     },
     theological: {
@@ -342,8 +342,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'The Church worships God alone, honours the Virgin and the saints as those whom God has honoured, and asks their prayers as members of the same body. This is the received faith of the Church, argued from Scripture within Tradition, and not a command found in a single verse.',
-    ar: 'تعبد الكنيسة الله وحده، وتكرم العذراء والقديسين بوصفهم من أكرمهم الله، وتطلب صلواتهم أعضاء في الجسد الواحد. هذا هو إيمان الكنيسة المتسلَّم، محتجًّا له من الكتاب داخل التقليد، لا أمرًا موجودًا في آية واحدة.',
+    en: 'The Church worships God alone. She honours the Virgin Mary and the saints as those whom God has honoured, and she asks their prayers as members of the one body of Christ. This is the faith received from the apostles, grounded in Scripture and lived in the Church’s worship from the beginning.',
+    ar: 'تعبد الكنيسة الله وحده. وتكرم العذراء مريم والقديسين بوصفهم من أكرمهم الله، وتطلب صلواتهم أعضاءً في جسد المسيح الواحد. هذا هو الإيمان المتسلَّم من الرسل، المؤسس على الكتاب والمعاش في عبادة الكنيسة منذ البدء.',
   },
   furtherReading: ['S62'],
   related: [

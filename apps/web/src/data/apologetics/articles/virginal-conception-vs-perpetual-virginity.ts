@@ -15,24 +15,24 @@ export const article: Article = {
     ar: 'تفصل هذه المقالة بين عقيدتين مختلفتين عن السيدة العذراء: الحبل العذراوي (أن يسوع حُبل به بلا أب بشري)، والبتولية الدائمة (أن مريم ظلت عذراء طوال حياتها). وتسأل عن نوع الدعم الذي تتمتع به كل منهما، وتقرأ فقرات العهد الجديد ذات الصلة بوصفها وثائق قديمة، وتعرض القراءات الرئيسية بإنصاف، وتذكر موقف الكنيسة القبطية الأرثوذكسية بوصفه تعليم الكنيسة.',
   },
   shortAnswer: {
-    en: 'The two doctrines are not the same, and they do not stand on the same kind of ground. The virginal conception is reported in two Gospels (Matthew and Luke) and was received by the early Church; there is no independent external historical confirmation of it, and Mark, John and St Paul do not narrate it. Perpetual virginity is a later and different claim about Mary’s whole life. The New Testament passages about Jesus’ “brothers”, about “until” and about “firstborn” can be read in more than one way, and Christians have read them differently. The Coptic Orthodox Church teaches that Mary is ever-virgin and Theotokos, as a doctrine of the Church. That is a theological interpretation, not a conclusion of historical research.',
-    ar: 'العقيدتان ليستا واحدة، ولا تقومان على نوع الأساس نفسه. فالحبل العذراوي مذكور في إنجيلين (متى ولوقا) وقد تقبّلته الكنيسة الأولى؛ ولا يوجد تأكيد تاريخي خارجي مستقل له، ولا يرويه مرقس ولا يوحنا ولا القديس بولس. أما البتولية الدائمة فدعوى لاحقة ومختلفة عن حياة مريم كلها. وفقرات العهد الجديد عن «إخوة» يسوع، وعن كلمة «حتى»، وعن «البكر» تحتمل أكثر من قراءة، وقد قرأها المسيحيون قراءات مختلفة. وتعلّم الكنيسة القبطية الأرثوذكسية أن مريم دائمة البتولية ووالدة الإله، بوصف ذلك عقيدة للكنيسة. وهذا تفسير لاهوتي وليس نتيجة بحث تاريخي.',
+    en: 'They are two distinct truths, and the Church confesses both. The virginal conception means that Christ was conceived by the Holy Spirit without a human father; St Matthew and St Luke both testify to it, each from his own sources, and the Church has confessed it from the beginning. Perpetual virginity means that the Virgin Mary remained a virgin all her life. The Church received it in her tradition and confesses it in her worship, and the passages sometimes raised against it, about Jesus’ “brothers”, “until” and “firstborn”, do not contradict it when read in Scripture’s own usage. The Coptic Orthodox Church honours Mary as ever-virgin and Theotokos.',
+    ar: 'هما حقيقتان متمايزتان، والكنيسة تعترف بكلتيهما. فالحبل العذراوي يعني أن السيد المسيح حُبل به من الروح القدس بلا أب بشري؛ ويشهد له القديسان متى ولوقا، كلٌّ من مصادره، واعترفت به الكنيسة منذ البدء. والبتولية الدائمة تعني أن العذراء مريم بقيت عذراء طوال حياتها. وقد تسلّمتها الكنيسة في تقليدها وتعترف بها في عبادتها، والفقرات التي تُثار أحيانًا ضدها، عن «إخوة» يسوع و«حتى» و«البكر»، لا تناقضها حين تُقرأ باستعمال الكتاب نفسه. وتكرم الكنيسة القبطية الأرثوذكسية مريم دائمة البتولية ووالدة الإله.',
   },
   quickPoints: {
     en: [
       'Virginal conception means Jesus was conceived without a human father; perpetual virginity means Mary remained a virgin afterwards and always. They are two claims.',
-      'The virginal conception is narrated in Matthew and Luke, read here as ancient documents. Mark, John and St Paul do not narrate it, and no independent external historical source confirms it.',
-      'It must not be compared with the execution of Jesus, which is attested outside the Gospels. The support here is of another kind: two Gospel traditions and early Church reception.',
-      'Perpetual virginity is not stated in the New Testament, and the passages used for and against it (Jesus’ brothers and sisters, “until”, “firstborn”, John 19:26–27, Luke 1:34) can be read in more than one way.',
-      'The brothers of Jesus have been understood as relatives, as Joseph’s children from an earlier marriage, or as Mary’s own children; each reading has Christian supporters.',
+      'St Matthew and St Luke both narrate the virginal conception, from two different points of view (Joseph’s and Mary’s), and agree on its centre: the child was conceived by the Holy Spirit.',
+      'It is a work of God, received by faith on the testimony of the Gospels and the Church, which confessed it in the Creed.',
+      'Perpetual virginity is received from the Church’s tradition. The passages raised against it (Jesus’ brothers and sisters, “until”, “firstborn”) fit it well in Scripture’s own usage, and John 19:26–27, where the dying Lord entrusts His mother to the beloved disciple, points the same way.',
+      'The Church understands the “brothers” of Jesus as His kinsmen, a sense the word bears in Scripture, and not as other children of the Virgin.',
       'The Immaculate Conception is a separate Roman Catholic doctrine about Mary’s own conception and is not a Coptic Orthodox teaching.',
     ],
     ar: [
       'الحبل العذراوي يعني أن يسوع حُبل به بلا أب بشري؛ والبتولية الدائمة تعني أن مريم ظلت عذراء بعد ذلك وعلى الدوام. دعويان مختلفتان.',
-      'الحبل العذراوي مروي في متى ولوقا، وهما يُقرآن هنا بوصفهما وثيقتين قديمتين. ولا يرويه مرقس ولا يوحنا ولا القديس بولس، ولا يؤكده مصدر تاريخي خارجي مستقل.',
-      'ولا ينبغي مقارنته بإعدام يسوع الذي تشهد له مصادر خارج الأناجيل. فنوع الدعم هنا مختلف: تقليدان إنجيليان وتقبّل الكنيسة الأولى.',
-      'البتولية الدائمة لا ينص عليها العهد الجديد، والفقرات المستعملة معها وضدها (إخوة يسوع وأخواته، وكلمة «حتى»، و«البكر»، ويوحنا ١٩: ٢٦–٢٧، ولوقا ١: ٣٤) تحتمل أكثر من قراءة.',
-      'فُهم «إخوة» يسوع على أنهم أقارب، أو أبناء ليوسف من زواج سابق، أو أبناء مريم نفسها؛ ولكل قراءة مؤيدون مسيحيون.',
+      'يروي القديسان متى ولوقا الحبل العذراوي من زاويتين مختلفتين (زاوية يوسف وزاوية مريم)، ويتفقان على جوهره: الطفل حُبل به من الروح القدس.',
+      'وهو عمل الله، يُقبل بالإيمان بشهادة الأناجيل والكنيسة التي اعترفت به في قانون الإيمان.',
+      'البتولية الدائمة متسلَّمة من تقليد الكنيسة. والفقرات التي تُثار ضدها (إخوة يسوع وأخواته، و«حتى»، و«البكر») توافقها جيدًا باستعمال الكتاب نفسه، ويوحنا ١٩: ٢٦–٢٧، حيث يستودع الرب على الصليب أمه للتلميذ المحبوب، يشير إلى الاتجاه نفسه.',
+      'وتفهم الكنيسة «إخوة» يسوع على أنهم أقرباؤه، وهو معنى تحمله الكلمة في الكتاب، لا أبناء آخرين للعذراء.',
       'الحبل بلا دنس الأصلي عقيدة رومانية كاثوليكية منفصلة عن الحبل بمريم نفسها، وليست تعليمًا قبطيًا أرثوذكسيًا.',
     ],
   },
@@ -46,22 +46,22 @@ export const article: Article = {
   },
   whyExamine: {
     en: [
-      'The two doctrines are often discussed as if they were one, and the result is confusion. A person who asks “is the virgin birth historical?” may be asking something different from a person who asks “did Mary have other children?”. Keeping them apart lets each be examined by the kind of evidence that actually bears on it.',
-      'The question also matters because fellow Christians differ. Many Protestants accept the virginal conception and not perpetual virginity, and some historians and scholars read the brothers of Jesus as his full siblings. An honest account must present those readings without caricature.',
+      'The two doctrines are often discussed as if they were one, and the result is confusion. A person who asks “is the virgin birth historical?” may be asking something different from a person who asks “did Mary have other children?”. Keeping them apart lets each be seen clearly, with the reasons that belong to it.',
+      'The question also matters because fellow Christians differ. Many Protestants accept the virginal conception but not perpetual virginity. Seeing why the Church holds both helps the reader answer them with respect and with confidence.',
     ],
     ar: [
-      'كثيرًا ما تُناقش العقيدتان كأنهما واحدة، فتنشأ حيرة. فمن يسأل «هل الولادة العذراوية تاريخية؟» قد يسأل شيئًا غير ما يسأله من يسأل «هل كان لمريم أبناء آخرون؟». والفصل بينهما يتيح فحص كل منهما بنوع الأدلة التي تخصها فعلًا.',
-      'والسؤال مهم أيضًا لأن مسيحيين آخرين يختلفون في هذا. فكثير من البروتستانت يقبلون الحبل العذراوي ولا يقبلون البتولية الدائمة، ويقرأ بعض المؤرخين والباحثين «إخوة» يسوع على أنهم أشقاؤه. والعرض الأمين يقدّم هذه القراءات دون تشويه.',
+      'كثيرًا ما تُناقش العقيدتان كأنهما واحدة، فتنشأ حيرة. فمن يسأل «هل الولادة العذراوية تاريخية؟» قد يسأل شيئًا غير ما يسأله من يسأل «هل كان لمريم أبناء آخرون؟». والفصل بينهما يتيح أن تُرى كل منهما بوضوح، مع الأسباب التي تخصها.',
+      'والسؤال مهم أيضًا لأن مسيحيين آخرين يختلفون في هذا. فكثير من البروتستانت يقبلون الحبل العذراوي ولا يقبلون البتولية الدائمة. وفهم سبب تمسك الكنيسة بالاثنتين يعين القارئ على الإجابة باحترام وثقة.',
     ],
   },
   background: {
     en: [
-      'Virginal conception. Matthew 1:18–25 reports that Mary was found to be with child before she and Joseph came together, through the Holy Spirit, and that Joseph, warned in a dream, took her as his wife. Luke 1:26–38 reports that the angel Gabriel announced to Mary that she would conceive, and Mary asked how this could be, since she had not been with a man. The two accounts differ in perspective and detail (Matthew follows Joseph; Luke follows Mary) but agree on the central point. Matthew also connects the event with a passage from Isaiah, whose wording and meaning are themselves discussed by scholars. Mark does not narrate the birth of Jesus, John does not narrate it, and St Paul’s letters, which are the earliest Christian writings that survive, do not describe it. This is not in itself an argument that they did not know of it, since they may simply not have had reason to mention it; it does mean that the virginal conception is not attested by the full range of the earliest writers.',
+      'Virginal conception. Matthew 1:18–25 reports that Mary was found to be with child before she and Joseph came together, through the Holy Spirit, and that Joseph, warned in a dream, took her as his wife. Luke 1:26–38 reports that the angel Gabriel announced to Mary that she would conceive, and Mary asked how this could be, since she had not been with a man. The two accounts differ in perspective and detail (Matthew follows Joseph; Luke follows Mary) but agree on the central point. Matthew also connects the event with the prophecy of Isaiah 7:14. Mark and John do not narrate the birth of Jesus, and St Paul’s letters do not describe it; they begin their accounts elsewhere and had no occasion to tell it.',
       'Perpetual virginity. This is the teaching that Mary remained a virgin after the birth of Jesus and throughout her life. The New Testament does not state it. The Church holds it as part of her faith, and several biblical passages have been used for it or against it, as discussed below.',
       'Terminology. The Theotokos title (God-bearer, Mother of God) is a Christological title about who Jesus is. It is related to, but distinct from, both doctrines above. The Immaculate Conception is a distinct Roman Catholic doctrine about Mary being preserved from original sin from her own conception; it is not about the conception of Jesus, and it is not a Coptic Orthodox teaching.',
     ],
     ar: [
-      'الحبل العذراوي. يروي متى ١: ١٨–٢٥ أن مريم وُجدت حبلى من الروح القدس قبل أن يجتمعا هي ويوسف، وأن يوسف نُبِّه في حلم فأخذها امرأةً له. ويروي لوقا ١: ٢٦–٣٨ أن الملاك جبرائيل بشّر مريم بأنها ستحبل، فسألت كيف يكون هذا وهي لا تعرف رجلًا. ويختلف الروايتان في المنظور والتفاصيل (متى يتبع يوسف، ولوقا يتبع مريم) لكنهما تتفقان على النقطة المحورية. ويربط متى الحدث بنص من إشعياء، وصيغة النص ومعناه موضوع نقاش بين الباحثين. أما مرقس فلا يروي ميلاد يسوع، ويوحنا لا يرويه، ورسائل القديس بولس، وهي أقدم الكتابات المسيحية الباقية، لا تصفه. وهذا لا يعني في ذاته أنهم لم يعرفوه، فقد لا يكون لهم داعٍ لذكره؛ لكنه يعني أن الحبل العذراوي لا يشهد له الكتّاب الأوائل جميعًا.',
+      'الحبل العذراوي. يروي متى ١: ١٨–٢٥ أن مريم وُجدت حبلى من الروح القدس قبل أن يجتمعا هي ويوسف، وأن يوسف نُبِّه في حلم فأخذها امرأةً له. ويروي لوقا ١: ٢٦–٣٨ أن الملاك جبرائيل بشّر مريم بأنها ستحبل، فسألت كيف يكون هذا وهي لا تعرف رجلًا. ويختلف الروايتان في المنظور والتفاصيل (متى يتبع يوسف، ولوقا يتبع مريم) لكنهما تتفقان على النقطة المحورية. ويربط متى الحدث بنبوة إشعياء ٧: ١٤. أما مرقس ويوحنا فلا يرويان ميلاد يسوع، ورسائل القديس بولس لا تصفه؛ فهم يبدؤون رواياتهم من موضع آخر ولم يكن لهم داعٍ لروايته.',
       'البتولية الدائمة. هي التعليم بأن مريم ظلت عذراء بعد ميلاد يسوع وطوال حياتها. والعهد الجديد لا ينص عليها. وتتمسك بها الكنيسة جزءًا من إيمانها، وقد استُعملت فقرات كتابية عدة معها أو ضدها، كما يلي.',
       'المصطلحات. لقب «والدة الإله» (ثيوطوكوس) لقب مسيحي عن هوية يسوع. وهو مرتبط بالعقيدتين السابقتين لكنه مختلف عنهما. أما الحبل بلا دنس الأصلي فعقيدة رومانية كاثوليكية مستقلة عن عصمة مريم من الخطية الأصلية منذ الحبل بها هي؛ وليست عن الحبل بيسوع، وليست تعليمًا قبطيًا أرثوذكسيًا.',
     ],
@@ -78,8 +78,8 @@ export const article: Article = {
       argumentType: 'textual',
       assessment: 'supported_disputed_details',
       rationale: {
-        en: 'This is a claim about what the two documents say, and it is well supported by the texts themselves (read here as ancient documents). The two narratives differ in their details, and many scholars regard them as written independently of each other, but that is an inference.',
-        ar: 'هذه دعوى عمّا تقوله الوثيقتان، وهي مدعومة جيدًا بالنصين نفسيهما (يُقرآن هنا بوصفهما وثيقتين قديمتين). وتختلف الروايتان في التفاصيل، ويرى باحثون كثيرون أنهما كُتبتا باستقلال، لكن هذا استنتاج.',
+        en: 'The two accounts tell the story from different sides, Matthew through Joseph and Luke through Mary, and differ in their details. That is the mark of two witnesses drawing on their own sources, and they agree on the central truth.',
+        ar: 'تروي الروايتان القصة من جانبين مختلفين، متى من جهة يوسف ولوقا من جهة مريم، وتختلفان في التفاصيل. وهذه علامة شاهدين يستقي كلٌّ منهما من مصادره، وهما تتفقان على الحقيقة المحورية.',
       },
       limits: {
         en: 'It says what the Gospels report. It does not say that the event happened, which is a separate question.',
@@ -90,14 +90,14 @@ export const article: Article = {
     {
       id: 'c2',
       proposition: {
-        en: 'There is no independent external historical corroboration of the virginal conception. The claim rests on two Gospel traditions and on early Church reception, and it is not narrated by Mark, John or St Paul.',
-        ar: 'لا يوجد تأكيد تاريخي خارجي مستقل للحبل العذراوي. تستند الدعوى إلى تقليدين إنجيليين وإلى تقبّل الكنيسة الأولى، ولا يرويها مرقس ولا يوحنا ولا القديس بولس.',
+        en: 'The virginal conception rests on the testimony of two Gospels and on the faith of the Church, which confessed it from the earliest times.',
+        ar: 'يقوم الحبل العذراوي على شهادة إنجيلين وعلى إيمان الكنيسة التي اعترفت به منذ أقدم العصور.',
       },
       argumentType: 'historical',
       assessment: 'limited_evidence',
       rationale: {
-        en: 'No source outside the Christian tradition is cited for this event in this article. The comparison with the execution of Jesus does not hold, since that has attestation from outside the Gospels. Historical method has no way to test a claim of a miraculous conception, and this is why the doctrine is received as an article of faith. This label concerns the kind of historical support only. It is not a judgement on the Church’s faith or on whether the event occurred.',
-        ar: 'لا تذكر هذه المقالة مصدرًا من خارج التقليد المسيحي لهذا الحدث. والمقارنة بإعدام يسوع لا تصح، لأن إعدامه له شهادة من خارج الأناجيل. ولا يملك المنهج التاريخي وسيلة لاختبار دعوى حبل معجزي، ولهذا تُقبل العقيدة بوصفها بند إيمان. وهذا التصنيف يخص نوع الدعم التاريخي فقط، وليس حكمًا على إيمان الكنيسة أو على وقوع الحدث.',
+        en: 'A conception by the Holy Spirit happened in the hidden life of one family; it is the kind of event known only through the witnesses God gave. The Gospels give that witness, and the Church received it and confessed it in the Creed as the beginning of the incarnation. It is a work of God, and it is believed on God’s word.',
+        ar: 'الحبل من الروح القدس حدث في الحياة الخفية لعائلة واحدة؛ وهو من الأحداث التي لا تُعرف إلا بالشهود الذين أعطاهم الله. والأناجيل تقدّم هذه الشهادة، وقد تسلّمتها الكنيسة واعترفت بها في قانون الإيمان بداية للتجسد. إنه عمل الله، ويُؤمن به بكلمة الله.',
       },
       limits: {
         en: 'Not being able to corroborate the claim historically does not show it is false. It shows that, for a historian as such, it cannot be placed in the same category as events with independent attestation.',
@@ -108,14 +108,14 @@ export const article: Article = {
     {
       id: 'c3',
       proposition: {
-        en: 'The New Testament passages cited for and against perpetual virginity (the brothers and sisters of Jesus, “until”, “firstborn”, John 19:26–27, Luke 1:34) do not settle the question, since each can be read more than one way.',
-        ar: 'فقرات العهد الجديد المذكورة مع البتولية الدائمة وضدها (إخوة يسوع وأخواته، وكلمة «حتى»، و«البكر»، ويوحنا ١٩: ٢٦–٢٧، ولوقا ١: ٣٤) لا تحسم المسألة، لأن كلًّا منها يحتمل أكثر من قراءة.',
+        en: 'The New Testament passages raised against perpetual virginity (the brothers and sisters of Jesus, “until”, “firstborn”) do not contradict it, and John 19:26–27 agrees with it.',
+        ar: 'فقرات العهد الجديد التي تُثار ضد البتولية الدائمة (إخوة يسوع وأخواته، و«حتى»، و«البكر») لا تناقضها، ويوحنا ١٩: ٢٦–٢٧ يوافقها.',
       },
       argumentType: 'textual',
       assessment: 'actively_debated',
       rationale: {
-        en: 'The words used for the brothers can mean siblings or wider kin, the word for “until” does not by itself say what happens afterward, and “firstborn” describes a status that does not require later children. Each reading is therefore possible, and the choice between them is made partly on grounds outside the text.',
-        ar: 'الكلمات المستعملة لـ«الإخوة» قد تعني أشقاء أو أقارب أبعد، وكلمة «حتى» لا تقول بذاتها ما يحدث بعدها، و«البكر» يصف مرتبة لا تستلزم أبناء لاحقين. فكل قراءة ممكنة، ويقع الاختيار بينها جزئيًا لأسباب من خارج النص.',
+        en: 'The word for “brothers” covers wider kin in Scripture, “until” says nothing about what happens afterward, and “firstborn” names a status that needs no later children. And had the Virgin other sons, the dying Lord would not have entrusted her to the beloved disciple. Read this way, the passages sit well with the faith the Church received.',
+        ar: 'كلمة «الإخوة» تشمل في الكتاب الأقارب الأبعد، و«حتى» لا تقول شيئًا عما يحدث بعدها، و«البكر» تسمّي مرتبة لا تحتاج إلى أبناء لاحقين. ولو كان للعذراء أبناء آخرون لما استودعها الرب على الصليب للتلميذ المحبوب. وبهذه القراءة تنسجم الفقرات مع الإيمان الذي تسلّمته الكنيسة.',
       },
       limits: {
         en: 'This is an assessment of the passages, not a verdict on the doctrine. The Church’s teaching on perpetual virginity does not rest on these verses alone, but on her reading of Scripture within her tradition.',
@@ -261,12 +261,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'There are three main readings of the brothers. In the first, they are relatives or kin, since the Greek word and the Hebrew and Aramaic words behind it can cover wider relationships. In the second (often called the Epiphanian reading), they are Joseph’s children from an earlier marriage, which keeps both the sibling sense of the word and Mary’s virginity. In the third (often called the Helvidian reading), they are Mary and Joseph’s own children, and this is the view of many Protestants and of some historians.',
-          'No reading is forced by the text alone. The third is the most direct in ordinary usage, and the first two depend on the possibility of a wider sense of the word or on a tradition about Joseph that is not found in the New Testament. The Church’s teaching on perpetual virginity is held within her reception of Scripture and tradition, not as a conclusion from these verses alone.',
+          'The Greek word for “brother”, and the Hebrew and Aramaic words behind it, cover wider kin in Scripture: Abraham calls his nephew Lot his brother (Genesis 13:8). The Church has understood the brothers of Jesus as His kinsmen; an ancient tradition also speaks of them as children of Joseph from an earlier marriage. Either way, they are not sons of the Virgin.',
+          'The Gospels themselves point this way. From the cross the Lord entrusts His mother to the beloved disciple (John 19:26–27), which would make no sense if she had other sons to care for her. Perpetual virginity is not an idea imposed on the text; it is the faith the Church received, and the text agrees with it.',
         ],
         ar: [
-          'هناك ثلاث قراءات رئيسية للإخوة. في الأولى هم أقارب، لأن الكلمة اليونانية والكلمات العبرية والآرامية التي وراءها قد تشمل علاقات أوسع. وفي الثانية (تسمى غالبًا القراءة الإبيفانية) هم أبناء يوسف من زواج سابق، فيبقى معنى الأخوة في الكلمة وتبقى بتولية مريم. وفي الثالثة (تسمى غالبًا القراءة الهلفيدية) هم أبناء مريم ويوسف أنفسهما، وهذا رأي كثير من البروتستانت وبعض المؤرخين.',
-          'ولا يفرض النص وحده قراءة بعينها. فالثالثة هي الأقرب في الاستعمال العادي، والأوليان تعتمدان على إمكان معنى أوسع للكلمة أو على تقليد عن يوسف لا يوجد في العهد الجديد. وتعليم الكنيسة عن البتولية الدائمة يُحفظ داخل تقبّلها للكتاب والتقليد، لا بوصفه نتيجة من هذه الآيات وحدها.',
+          'الكلمة اليونانية «أخ»، والكلمات العبرية والآرامية التي وراءها، تشمل في الكتاب الأقارب الأبعد: فإبراهيم يدعو ابن أخيه لوطًا أخاه (تكوين ١٣: ٨). وقد فهمت الكنيسة إخوة يسوع على أنهم أقرباؤه؛ ويتحدث تقليد قديم أيضًا عنهم بوصفهم أبناء ليوسف من زواج سابق. وفي الحالتين ليسوا أبناء العذراء.',
+          'والأناجيل نفسها تشير إلى ذلك. فمن على الصليب يستودع الرب أمه للتلميذ المحبوب (يوحنا ١٩: ٢٦–٢٧)، وهذا لا معنى له لو كان لها أبناء آخرون يرعونها. فالبتولية الدائمة ليست فكرة مفروضة على النص؛ إنها الإيمان الذي تسلّمته الكنيسة، والنص يوافقه.',
         ],
       },
       limits: {
@@ -283,12 +283,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The silence of other writers is a fact that has to be recognised. Defenders reply that an author’s silence is not the same as ignorance, that Mark and St Paul have no narrative of the birth at all, and that Matthew and Luke, who tell it in different ways, appear to draw on more than one tradition. Some also argue that a virginal conception is not what one would invent from Jewish ideas, which did not expect it of the Messiah.',
-          'Sceptics reply that this is an argument about plausibility and cannot be tested, and that the parallels from other cultures show that such stories were available. Neither side can settle the matter by documents alone, which is why the claim is held as part of the Church’s faith.',
+          'Silence is not denial. Mark and St Paul give no account of the birth at all, so they had no place to tell it. Matthew and Luke, who do tell it, tell it in different ways from their own sources, and both affirm the same truth. That is two witnesses, not one late legend.',
+          'Nor is the story borrowed. Jewish hope did not expect the Messiah to be born of a virgin, so no one would invent it from Jewish ideas; and the pagan tales of gods fathering children with women are stories of divine lust, not of a virgin overshadowed by the Holy Spirit. The Gospels tell something new: the eternal Son taking flesh from the Virgin.',
         ],
         ar: [
-          'صمت الكتّاب الآخرين واقعة ينبغي الإقرار بها. ويردّ المدافعون بأن صمت الكاتب ليس جهلًا، وبأن مرقس وبولس لا يروي أيٌّ منهما الميلاد أصلًا، وبأن متى ولوقا، وهما يرويانه بطريقتين، يبدو أنهما يستقيان من أكثر من تقليد. ويرى بعضهم كذلك أن الحبل العذراوي ليس ما يُختلق من الأفكار اليهودية التي لم تتوقعه للمسيا.',
-          'ويردّ المتشككون بأن هذه حجة احتمال لا يمكن اختبارها، وبأن المقارنات من ثقافات أخرى تبيّن أن مثل هذه القصص كانت متاحة. ولا يستطيع أي من الطرفين حسم المسألة بالوثائق وحدها، ولذلك تُحفظ الدعوى جزءًا من إيمان الكنيسة.',
+          'الصمت ليس إنكارًا. فمرقس والقديس بولس لا يقدّمان أي رواية للميلاد أصلًا، فلم يكن عندهما موضع لروايته. أما متى ولوقا اللذان يرويانه فيرويانه بطريقتين مختلفتين من مصادرهما، ويؤكدان الحقيقة نفسها. فهما شاهدان، لا أسطورة متأخرة واحدة.',
+          'وليست القصة مستعارة. فالرجاء اليهودي لم يتوقع أن يولد المسيا من عذراء، فلا أحد يختلقها من الأفكار اليهودية؛ وحكايات الوثنيين عن آلهة تنجب من نساء هي قصص شهوة إلهية، لا قصة عذراء يظللها الروح القدس. والأناجيل تروي أمرًا جديدًا: الابن الأزلي يتخذ جسدًا من العذراء.',
         ],
       },
       limits: {
@@ -305,12 +305,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'It is correct that the New Testament does not state perpetual virginity. The Coptic Orthodox Church holds it as part of the faith received in the Church, in the same way as other teachings that she reads in the Church’s life and not from single verses. The doctrine of the Theotokos is a related example.',
-          'A reader who begins from the principle that only what is explicit in Scripture binds the believer will not accept this argument. That is a difference about the relation of Scripture to tradition, which is its own question.',
+          'The New Testament does not state perpetual virginity in a single verse, and nothing in it contradicts it. The Church holds it as part of the faith handed down from the apostles, as St Paul tells the Thessalonians to hold the traditions they were taught, whether by word or by letter (2 Thessalonians 2:15). The very canon of the New Testament was received in the same way.',
+          'Nor did it come from a later contempt for marriage. The Church honours marriage as a sacrament. She honours the Virgin’s lifelong virginity because the womb that bore God the Word was wholly given to Him, and St Athanasius already called her ever-virgin in the fourth century.',
         ],
         ar: [
-          'صحيح أن العهد الجديد لا ينص على البتولية الدائمة. وتتمسك بها الكنيسة القبطية الأرثوذكسية جزءًا من الإيمان المسلَّم في الكنيسة، كما تفعل في تعاليم أخرى تقرؤها في حياة الكنيسة لا من آيات مفردة. وعقيدة والدة الإله مثال قريب.',
-          'والقارئ الذي ينطلق من مبدأ أن ما هو صريح في الكتاب فقط ملزم للمؤمن لن يقبل هذه الحجة. وهذا خلاف على علاقة الكتاب بالتقليد، وهو سؤال قائم بذاته.',
+          'لا ينص العهد الجديد على البتولية الدائمة في آية واحدة، ولا شيء فيه يناقضها. وتتمسك بها الكنيسة جزءًا من الإيمان المسلَّم من الرسل، كما يوصي القديس بولس أهل تسالونيكي أن يتمسكوا بالتقاليد التي تعلّموها، سواء بالكلام أو بالرسالة (٢ تسالونيكي ٢: ١٥). وقانون العهد الجديد نفسه تُسُلِّم بالطريقة نفسها.',
+          'ولم تنشأ من احتقار لاحق للزواج. فالكنيسة تكرم الزواج سرًّا مقدسًا. وتكرم بتولية العذراء الدائمة لأن الحشا الذي حمل الله الكلمة كُرِّس له بالكامل، وقد دعاها القديس أثناسيوس دائمة البتولية في القرن الرابع.',
         ],
       },
       limits: {
@@ -323,22 +323,22 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'Historically, what can be said is limited. The virginal conception is reported by two Gospels and was received by the early Church. The doctrine of perpetual virginity was widely affirmed in the Church by the fourth century; this article does not trace its earlier history.',
-        'Nothing in this paragraph amounts to historical confirmation of either doctrine. A historian can report the texts and the Church’s reception of them; the doctrines themselves are claims of faith.',
+        'The virginal conception is told by two Gospels written in the first century, and early in the second century St Ignatius of Antioch already confesses that Christ was truly born of a virgin. The Church kept it in her creeds from then on.',
+        'Perpetual virginity was widely confessed in the Church by the fourth century, and St Athanasius of Alexandria calls Mary ever-virgin. The Church handed both truths down together, as one faith about the Lord and His mother.',
       ],
       ar: [
-        'تاريخيًا، المقول محدود. فالحبل العذراوي مروي في إنجيلين وقد تقبّلته الكنيسة الأولى. وأما البتولية الدائمة فقد كانت مؤكَّدة على نطاق واسع في الكنيسة بحلول القرن الرابع؛ ولا تتتبع هذه المقالة تاريخها الأقدم.',
-        'ولا شيء في هذه الفقرة يرقى إلى تأكيد تاريخي لأي من العقيدتين. فيستطيع المؤرخ أن يروي النصوص وتقبّل الكنيسة لها؛ أما العقيدتان نفسهما فدعويان إيمانيتان.',
+        'يروي الحبل العذراوي إنجيلان كُتبا في القرن الأول، وفي أوائل القرن الثاني يعترف القديس إغناطيوس الأنطاكي بأن المسيح وُلد حقًا من عذراء. وحفظته الكنيسة في قوانين إيمانها منذ ذلك الحين.',
+        'وكانت البتولية الدائمة معترفًا بها على نطاق واسع في الكنيسة بحلول القرن الرابع، ويدعو القديس أثناسيوس السكندري مريم دائمة البتولية. وقد سلّمت الكنيسة الحقيقتين معًا، إيمانًا واحدًا بالرب وأمه.',
       ],
     },
     theological: {
       en: [
         'The Church confesses that the Son of God took flesh from the Virgin Mary by the Holy Spirit, and that she is rightly called Theotokos, the Mother of God, because the one she bore is God the Word incarnate. The virginal conception is understood as a sign that the incarnation is God’s own act. Perpetual virginity is understood as honouring the dedication of the one who bore God, and as part of the Church’s honour for the Virgin.',
-        'These are theological interpretations, held by faith within the life of the Church. They are not offered here as results of historical research, and a reader who does not share the faith is invited to see them as the Church’s own account of what she believes.',
+        'These truths are held by faith within the life of the Church, and they are offered to every reader as the Church’s own confession of the Lord and of His mother.',
       ],
       ar: [
         'تعترف الكنيسة بأن ابن الله تجسد من العذراء مريم بالروح القدس، وبأنها تُدعى بحق والدة الإله، لأن من ولدته هو الله الكلمة المتجسد. ويُفهم الحبل العذراوي علامةً على أن التجسد فعل الله نفسه. وتُفهم البتولية الدائمة إكرامًا لتكريس من حملت الله، وجزءًا من إكرام الكنيسة للعذراء.',
-        'وهذه تفاسير لاهوتية تُقبل بالإيمان داخل حياة الكنيسة. ولا تُقدَّم هنا بوصفها نتائج بحث تاريخي، ويُدعى القارئ الذي لا يشارك الإيمان إلى أن يراها عرض الكنيسة نفسها لما تؤمن به.',
+        'وهذه الحقائق تُقبل بالإيمان داخل حياة الكنيسة، وتُقدَّم لكل قارئ بوصفها اعتراف الكنيسة نفسها بالرب وبأمه.',
       ],
     },
   },
@@ -363,8 +363,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'The virginal conception and the perpetual virginity of Mary are two doctrines with two kinds of support. The first is reported by two Gospels and received by the early Church, without independent external historical confirmation. The second is not stated in the New Testament, the passages used for and against it can be read in more than one way, and the Church holds it as part of her faith. The Coptic Orthodox Church confesses Mary as ever-virgin and Theotokos, and does not teach the Immaculate Conception.',
-    ar: 'الحبل العذراوي والبتولية الدائمة للعذراء عقيدتان لكل منهما نوع من الدعم. الأولى مروية في إنجيلين وتقبّلتها الكنيسة الأولى، دون تأكيد تاريخي خارجي مستقل. والثانية لا ينص عليها العهد الجديد، والفقرات المستعملة معها وضدها تحتمل أكثر من قراءة، وتحفظها الكنيسة جزءًا من إيمانها. وتعترف الكنيسة القبطية الأرثوذكسية بمريم دائمة البتولية ووالدة الإله، ولا تعلّم بالحبل بلا دنس الأصلي.',
+    en: 'The virginal conception and the perpetual virginity of Mary are two truths, and the Church confesses both. The first is told by two Gospels and confessed in the Creed: Christ was conceived by the Holy Spirit without a human father. The second is received from the Church’s tradition, and the passages raised against it agree with it when read in Scripture’s own usage. The Coptic Orthodox Church confesses Mary as ever-virgin and Theotokos, and does not teach the Immaculate Conception.',
+    ar: 'الحبل العذراوي والبتولية الدائمة للعذراء حقيقتان، والكنيسة تعترف بكلتيهما. الأولى يرويها إنجيلان ويعترف بها قانون الإيمان: السيد المسيح حُبل به من الروح القدس بلا أب بشري. والثانية متسلَّمة من تقليد الكنيسة، والفقرات التي تُثار ضدها توافقها حين تُقرأ باستعمال الكتاب نفسه. وتعترف الكنيسة القبطية الأرثوذكسية بمريم دائمة البتولية ووالدة الإله، ولا تعلّم بالحبل بلا دنس الأصلي.',
   },
   furtherReading: ['S62'],
   related: [

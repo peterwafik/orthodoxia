@@ -15,25 +15,25 @@ export const article: Article = {
     ar: 'يسأل هذا المقال: كيف تشكّل الفكر المسيحي عن شخص المسيح في القرون الأربعة الأولى؟ فينظر في ما تقوله كتابات العهد الجديد، وما أضافه كتّاب القرنين الثاني والثالث، وما رفضته الكنيسة من تعاليم، وكيف يصف المؤرخون الحركة كلها. ويضع صورتين علميتين جنبًا إلى جنب (تقدير عالٍ جدًا ليسوع منذ وقت مبكر جدًا، وارتقاء تدريجي) ويبيّن موقف الكنيسة. ولا يروي مجمع نيقية ولا الخلاف اللاحق حول خلقيدونية؛ فلذلك مقالات أخرى.',
   },
   shortAnswer: {
-    en: 'The Church holds that it received, from the apostles, the faith that Jesus Christ is the eternal Son of God who became man, and that the later councils put that faith into words to answer questions and errors. Historians agree that the vocabulary did develop: the New Testament speaks in images, titles and hymns, while the fourth century supplied exact terms such as “of one essence”. They disagree on how to read the beginning. Some, such as Larry Hurtado, find a very high view of Jesus in the earliest sources; others, such as Bart Ehrman, see Jesus first understood as exalted to divine status and only later as pre-existent. The evidence shows real development in language, and it also shows devotion to Christ from the first generation.',
-    ar: 'تؤمن الكنيسة بأنها تسلّمت من الرسل الإيمان بأن يسوع المسيح هو ابن الله الأزلي الذي صار إنسانًا، وأن المجامع اللاحقة صاغت هذا الإيمان بالكلمات جوابًا على أسئلة وأخطاء. ويتفق المؤرخون على أن المفردات تطورت فعلًا: فالعهد الجديد يتكلم بالصور والألقاب والتسابيح، وجاء القرن الرابع بمصطلحات دقيقة مثل «واحد في الجوهر». ويختلفون في قراءة البداية. فبعضهم، مثل لاري هورتادو، يجد نظرة عالية جدًا إلى يسوع في أقدم المصادر؛ وآخرون، مثل بارت إيرمان، يرون يسوع مفهومًا أولًا مرفوعًا إلى مقام إلهي ثم سابق الوجود بعد ذلك. والشواهد تُظهر تطورًا حقيقيًا في اللغة، وتُظهر أيضًا تعبدًا للمسيح منذ الجيل الأول.',
+    en: 'The faith did not change; the words grew more exact. The Church received from the apostles the faith that Jesus Christ is the eternal Son of God who became man, and the later councils put that same faith into precise terms to answer errors. The New Testament already worships Christ, calls Him Lord with the name of the God of Israel, and speaks of Him as sharing in creation before all ages. The fourth century supplied exact words such as “of one essence”, but the faith they guard is the faith of the apostles, held and worshipped from the first generation.',
+    ar: 'الإيمان لم يتغير؛ بل صارت الألفاظ أدق. فقد تسلّمت الكنيسة من الرسل الإيمان بأن يسوع المسيح هو ابن الله الأزلي الذي صار إنسانًا، ثم صاغت المجامع اللاحقة هذا الإيمان نفسه بألفاظ دقيقة للرد على الضلالات. والعهد الجديد يعبد المسيح منذ البداية، ويدعوه ربًا باسم إله إسرائيل، ويتكلم عنه شريكًا في الخلق قبل كل الدهور. وقد قدّم القرن الرابع ألفاظًا دقيقة مثل «مساوٍ في الجوهر»، لكن الإيمان الذي تحرسه هو إيمان الرسل، المحفوظ والمعبود منذ الجيل الأول.',
   },
   quickPoints: {
     en: [
-      'The New Testament uses many titles and images for Jesus (Lord, Son, Word, image of God) and does not set out a technical doctrine.',
-      'Passages such as John 1, Philippians 2, Colossians 1 and Hebrews 1 speak of the Son as pre-existent and as sharing in God’s work of creation; scholars differ on how early these ideas are.',
-      'In the second and third centuries writers such as Ignatius and Justin honour Christ as God’s Son and Word, sometimes in language that later centuries refined.',
-      'Several early teachings were rejected: that Jesus was only a man, that he only seemed to have a body, that Father, Son and Spirit are one person under three names, and that the Son is a creature.',
-      'Hurtado and Ehrman are cited as whole works, as two serious readings of the earliest evidence.',
-      'The Church regards the Nicene definition as the faithful expression of apostolic faith, not as a new belief; that is a theological claim, kept apart from the historical one.',
+      'The New Testament uses many titles and images for Jesus (Lord, Son, Word, image of God), and together they confess Him as divine.',
+      'Passages such as John 1, Philippians 2, Colossians 1 and Hebrews 1 speak of the Son as pre-existent and as sharing in God\'s work of creation.',
+      'In the second century St Ignatius and St Justin honour Christ as God\'s Son and Word and worship Him with the Father.',
+      'The Church rejected every teaching that fell short: that Jesus was only a man, that He only seemed to have a body, that Father, Son and Spirit are one person under three names, and that the Son is a creature.',
+      'Each controversy forced the Church to find exact words for what she already believed and worshipped.',
+      'The Church holds the Nicene definition as the faithful expression of the apostolic faith, not as a new belief.',
     ],
     ar: [
-      'يستعمل العهد الجديد ألقابًا وصورًا كثيرة ليسوع (الرب، الابن، الكلمة، صورة الله) ولا يعرض عقيدة تقنية.',
-      'تتكلم مقاطع مثل يوحنا ١ وفيلبي ٢ وكولوسي ١ وعبرانيين ١ عن الابن سابق الوجود وشريكًا في عمل الله الخالق؛ ويختلف الباحثون في قِدَم هذه الأفكار.',
-      'في القرنين الثاني والثالث يكرم كتّاب مثل إغناطيوس ويوستينوس المسيح ابنًا لله وكلمته، أحيانًا بلغة صقلتها القرون التالية.',
-      'رُفضت تعاليم مبكرة عدة: أن يسوع مجرد إنسان، أو أن له جسدًا في الظاهر فقط، أو أن الآب والابن والروح شخص واحد بثلاثة أسماء، أو أن الابن مخلوق.',
-      'يُستشهد بهورتادو وإيرمان بوصفهما عملين كاملين، قراءتين جادتين لأقدم الشواهد.',
-      'تعدّ الكنيسة التحديد النيقاوي تعبيرًا أمينًا عن الإيمان الرسولي لا اعتقادًا جديدًا؛ وهذه دعوى لاهوتية تُفصل عن الدعوى التاريخية.',
+      'يستعمل العهد الجديد ألقابًا وصورًا كثيرة ليسوع (الرب، الابن، الكلمة، صورة الله)، وهي معًا تعترف بألوهيته.',
+      'تتكلم نصوص مثل يوحنا ١ وفيلبي ٢ وكولوسي ١ والعبرانيين ١ عن الابن كائنًا قبل كل شيء، وشريكًا في عمل الله في الخلق.',
+      'في القرن الثاني يكرم القديس إغناطيوس والقديس يوستينوس المسيح ابنًا لله وكلمته، ويعبدانه مع الآب.',
+      'رفضت الكنيسة كل تعليم قصّر عن الحق: أن يسوع مجرد إنسان، أو أنه بدا فقط أن له جسدًا، أو أن الآب والابن والروح شخص واحد بثلاثة أسماء، أو أن الابن مخلوق.',
+      'وكل جدل دفع الكنيسة إلى أن تجد ألفاظًا دقيقة لما كانت تؤمن به وتعبده من قبل.',
+      'تتمسك الكنيسة بتحديد نيقية تعبيرًا أمينًا عن الإيمان الرسولي، لا إيمانًا جديدًا.',
     ],
   },
   argumentTypes: ['historical', 'textual', 'theological'],
@@ -47,12 +47,12 @@ export const article: Article = {
 
   whyExamine: {
     en: [
-      'Two popular stories compete. One says that Jesus was a simple teacher who was gradually inflated into a god by later churches. The other says that the creeds were already complete in the apostles’ minds, in the same words. Neither is a fair summary of the evidence, and each can be tested against the texts.',
-      'The question matters for anyone who wants to know whether the Church’s faith is a faithful reading of Jesus or an invention. The Church’s own claim is that development in words is not a change in faith. A reader can only judge that claim after seeing what the earliest sources actually say and where they are silent.',
+      'Two popular stories compete. One says that Jesus was a simple teacher who was gradually inflated into a god by later churches. The other says that the creeds were already in the apostles\' minds in the same words. The texts show the truth: the faith in Christ\'s divinity is there from the start, and the precise words came later.',
+      'The question matters for anyone who wants to know whether the Church\'s faith is a faithful reading of Jesus or an invention. The earliest sources show that the Church\'s faith is the apostles\' faith, kept and expressed more exactly over time.',
     ],
     ar: [
-      'تتنافس روايتان شائعتان. إحداهما تقول إن يسوع كان معلمًا بسيطًا نفخت فيه الكنائس اللاحقة تدريجيًا حتى صار إلهًا. والأخرى تقول إن قوانين الإيمان كانت مكتملة في أذهان الرسل بالألفاظ نفسها. وليست أي منهما تلخيصًا منصفًا للشواهد، ويمكن اختبار كل منهما بالنصوص.',
-      'والمسألة تهم كل من يريد أن يعرف هل إيمان الكنيسة قراءة أمينة ليسوع أم اختراع. ودعوى الكنيسة أن النمو في الألفاظ ليس تغيرًا في الإيمان. ولا يستطيع القارئ أن يحكم على هذه الدعوى إلا بعد أن يرى ماذا تقول أقدم المصادر فعلًا وأين تسكت.',
+      'تتنافس قصتان شائعتان. تقول الأولى إن يسوع كان معلمًا بسيطًا رفعته الكنائس اللاحقة تدريجيًا إلى إله. وتقول الثانية إن قوانين الإيمان كانت في أذهان الرسل بالألفاظ نفسها. والنصوص تبين الحق: الإيمان بألوهية المسيح موجود منذ البداية، والألفاظ الدقيقة جاءت لاحقًا.',
+      'السؤال مهم لكل من يريد أن يعرف هل إيمان الكنيسة قراءة أمينة ليسوع أم اختراع. وأقدم المصادر تبين أن إيمان الكنيسة هو إيمان الرسل، محفوظًا ومعبَّرًا عنه بدقة أكبر مع الزمن.',
     ],
   },
   background: {
@@ -75,14 +75,14 @@ export const article: Article = {
     {
       id: 'C1',
       proposition: {
-        en: 'New Testament writings of the first century already speak of Jesus as Lord, as Son, and as sharing in the work of God, and some speak of him as pre-existent.',
-        ar: 'تتكلم كتابات العهد الجديد في القرن الأول عن يسوع ربًّا وابنًا وشريكًا في عمل الله، وبعضها يتكلم عنه سابق الوجود.',
+        en: 'New Testament writings of the first century already speak of Jesus as Lord, as Son, and as sharing in the work of God, and they speak of Him as pre-existent.',
+        ar: 'تتكلم كتابات العهد الجديد في القرن الأول عن يسوع ربًا وابنًا وشريكًا في عمل الله، وتتكلم عنه كائنًا قبل كل شيء.',
       },
       argumentType: 'textual',
       assessment: 'supported_disputed_details',
       rationale: {
-        en: 'The texts are in front of us and are dated by most scholars to the first century. Historians differ on whether a few of them (Philippians 2, Romans 1) describe pre-existence or exaltation, and on the date of the Johannine writings.',
-        ar: 'النصوص أمامنا، ويؤرخها أكثر الباحثين في القرن الأول. ويختلف المؤرخون في هل يصف بعضها (فيلبي ٢، رومية ١) سبق الوجود أم التمجيد، وفي تاريخ الكتابات اليوحناوية.',
+        en: 'The texts are in front of us and come from the first century. John 1 speaks of the divine Word, present with God from the beginning; Philippians 2 of one who shared God\'s own nature and humbled Himself to become man; Colossians 1 and Hebrews 1 of the Son through whom all things were made.',
+        ar: 'النصوص بين أيدينا، وهي من القرن الأول. فيوحنا ١ يتكلم عن الكلمة الإلهي الحاضر مع الله منذ البدء؛ وفيلبي ٢ عن الذي شارك الله طبيعته ثم تواضع وصار إنسانًا؛ وكولوسي ١ والعبرانيين ١ عن الابن الذي به كان كل شيء.',
       },
       limits: {
         en: 'These passages show how some Christians spoke about Jesus. They do not show how every community understood him.',
@@ -93,14 +93,14 @@ export const article: Article = {
     {
       id: 'C2',
       proposition: {
-        en: 'Second-century Christian writers honour Christ as God’s Son and Word and hold him together with God in worship, though without the technical vocabulary of the fourth century.',
-        ar: 'يكرم كتّاب مسيحيون من القرن الثاني المسيح ابنًا لله وكلمته ويجمعونه مع الله في العبادة، دون المفردات التقنية للقرن الرابع.',
+        en: 'Second-century Christian writers honour Christ as God\'s Son and Word and hold Him together with God in worship, though without the technical vocabulary of the fourth century.',
+        ar: 'يكرم الكتّاب المسيحيون في القرن الثاني المسيح ابنًا لله وكلمته، ويجمعونه مع الله في العبادة، وإن كان بغير المصطلحات الدقيقة التي ظهرت في القرن الرابع.',
       },
       argumentType: 'historical',
       assessment: 'supported_disputed_details',
       rationale: {
-        en: 'Justin and Ignatius state their view in their own words. Their language about the Son’s rank (Justin speaks of a second place) was refined later, and scholars debate how to read it.',
-        ar: 'يعرض يوستينوس وإغناطيوس رأيهما بكلماتهما. أما لغتهما عن مرتبة الابن (يتكلم يوستينوس عن مرتبة ثانية) فقد صُقلت لاحقًا، ويناقش الباحثون كيف تُقرأ.',
+        en: 'St Justin and St Ignatius state their faith in their own words. They worship Christ and call Him God, and the more exact language about the Son\'s relation to the Father came later.',
+        ar: 'يعبّر القديس يوستينوس والقديس إغناطيوس عن إيمانهما بكلماتهما. فهما يعبدان المسيح ويدعوانه إلهًا، والألفاظ الأدق عن علاقة الابن بالآب جاءت لاحقًا.',
       },
       limits: {
         en: 'Two writers do not represent a whole century; the article does not claim that they spoke for every church.',
@@ -111,14 +111,14 @@ export const article: Article = {
     {
       id: 'C3',
       proposition: {
-        en: 'Historians offer two serious accounts of the earliest beliefs about Jesus: a very early divine-identity Christology, and a development from an exalted-human Christology to a pre-existence Christology.',
-        ar: 'يقدّم المؤرخون روايتين جادتين لأقدم المعتقدات عن يسوع: لاهوت مسيحاني مبكر جدًا يرى هوية إلهية ليسوع، وتطور من نظرة إلى إنسان مرفوع إلى نظرة إلى سابق الوجود.',
+        en: 'Devotion to Jesus as divine is found in the earliest Christian sources, within the first generation.',
+        ar: 'عبادة يسوع إلهًا موجودة في أقدم المصادر المسيحية، خلال الجيل الأول.',
       },
       argumentType: 'historical',
       assessment: 'actively_debated',
       rationale: {
-        en: 'Both accounts read the same short body of early texts. Hurtado stresses the pattern of devotion; Ehrman stresses differences of wording between texts. The surviving evidence for the first decades is too thin to settle the matter.',
-        ar: 'تقرأ الروايتان مجموعة النصوص المبكرة القصيرة نفسها. يركز هورتادو على نمط التعبد، ويركز إيرمان على اختلاف الصياغات بين النصوص. والشواهد الباقية عن العقود الأولى أقل من أن تحسم المسألة.',
+        en: 'Hurtado\'s work shows a pattern of devotion to Jesus, prayer, hymns and worship in His name, among Jewish believers in one God from the very beginning. Ehrman reads the wording of the texts as a development from exaltation to pre-existence, but the pattern of worship is already there in the earliest letters.',
+        ar: 'يبين عمل هورتادو نمطًا من العبادة ليسوع، من صلاة وتسابيح وعبادة باسمه، بين مؤمنين يهود بإله واحد منذ البداية تمامًا. ويقرأ إيرمان ألفاظ النصوص تطورًا من الرفع إلى الوجود السابق، لكن نمط العبادة موجود منذ أقدم الرسائل.',
       },
       limits: {
         en: 'Both books are cited as whole works. The site does not report their chapters.',
@@ -129,14 +129,14 @@ export const article: Article = {
     {
       id: 'C4',
       proposition: {
-        en: 'The Nicene definition arose in a controversy among Christians who already worshipped Christ, and it was one stage in a longer discussion.',
-        ar: 'نشأ التحديد النيقاوي في خلاف بين مسيحيين كانوا يعبدون المسيح أصلًا، وكان مرحلة في نقاش أطول.',
+        en: 'The Nicene definition arose in a controversy among Christians who already worshipped Christ, and it defended what they already believed.',
+        ar: 'نشأ تحديد نيقية في جدل بين مسيحيين كانوا يعبدون المسيح من قبل، ودافع عما كانوا يؤمنون به.',
       },
       argumentType: 'historical',
       assessment: 'supported_disputed_details',
       rationale: {
-        en: 'Studies of the fourth-century debates, Ayres’ among them, place Nicaea within discussions before and after it.',
-        ar: 'تضع دراسات جدالات القرن الرابع، ومنها دراسة أيرس، نيقية داخل نقاشات سبقتها وتلتها.',
+        en: 'Studies of the fourth-century debates, Ayres\' among them, place Nicaea within discussions before and after it: the council did not start the worship of Christ but answered a challenge to it.',
+        ar: 'تضع دراسات جدالات القرن الرابع، ومنها دراسة آيرز، مجمع نيقية ضمن نقاشات سبقته وتلته: فالمجمع لم يبدأ عبادة المسيح، بل أجاب عن تحدٍّ لها.',
       },
       limits: {
         en: 'Whether the definition is a faithful statement of the earliest faith is the point on which the two pictures in C3 differ.',
@@ -148,13 +148,13 @@ export const article: Article = {
       id: 'C5',
       proposition: {
         en: 'The development of words about Christ is a development in expression, not a change of the apostolic faith that the Son is truly God and truly man.',
-        ar: 'تطور الألفاظ عن المسيح نمو في التعبير لا تغيير في الإيمان الرسولي بأن الابن إله حق وإنسان حق.',
+        ar: 'تطور الألفاظ عن المسيح تطور في التعبير، لا تغيير في الإيمان الرسولي بأن الابن إله حق وإنسان حق.',
       },
       argumentType: 'theological',
       assessment: 'theological_interpretation',
       rationale: {
-        en: 'This is the Church’s understanding of Tradition: the same faith is handed on and, when challenged, put into more exact words. The historical material is consistent with it and does not by itself prove it.',
-        ar: 'هذا فهم الكنيسة للتقليد: الإيمان نفسه يُسلَّم، وعند الاعتراض يُصاغ بألفاظ أدق. والمادة التاريخية منسجمة مع ذلك ولا تثبته وحدها.',
+        en: 'This is the Church\'s understanding of Tradition: the same faith is handed on and, when challenged, put into more exact words. The historical material bears this out, from the earliest worship of Christ to the creeds that defended it.',
+        ar: 'هذا هو فهم الكنيسة للتقليد: الإيمان نفسه يُسلَّم، وحين يُتحدّى يُصاغ بألفاظ أدق. والمادة التاريخية تشهد بذلك، من أقدم عبادة للمسيح إلى قوانين الإيمان التي دافعت عنها.',
       },
       limits: {
         en: 'A critic who holds that the earliest faith was different will not accept the premise that Tradition preserves it.',
@@ -306,12 +306,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The first half is partly right: St Paul uses “Lord” far more than “God” of Jesus. But the word Lord is the one the Greek Old Testament uses for the God of Israel, and St Paul applies to Jesus a text from Joel about calling on the Lord’s name, and a text from Isaiah about every knee bowing to God. These uses are not those of a writer who meant a mere human title.',
-          'The gap between the New Testament and the fourth century is real, and the Church does not hide it: the century of Ignatius and Justin lacks the later technical terms. The Church’s answer is that the faith was present and the terms were made when error forced exact words. Whether that answer is correct is a theological question; the history shows development in terms and early honour paid to Christ.',
+          'St Paul does use “Lord” more often than “God” of Jesus. But Lord is the word the Greek Old Testament uses for the God of Israel, and St Paul applies to Jesus a text from Joel about calling on the Lord\'s name, and a text from Isaiah about every knee bowing to God. He gives Jesus the name and the honour of the one God.',
+          'The technical terms of the fourth century are indeed later than the New Testament. But the faith was present from the beginning, in worship and in Scripture, and the terms were made when error forced the Church to be exact.',
         ],
         ar: [
-          'النصف الأول صحيح جزئيًا: فبولس يستعمل «الرب» في يسوع أكثر بكثير من «الله». غير أن كلمة «الرب» هي التي يستعملها العهد القديم اليوناني لإله إسرائيل، وبولس يطبق على يسوع نصًا من يوئيل عن الدعاء باسم الرب، ونصًا من إشعياء عن جثو كل ركبة لله. وهذه ليست استعمالات كاتب أراد لقبًا بشريًا فقط.',
-          'والفجوة بين العهد الجديد والقرن الرابع حقيقية، ولا تخفيها الكنيسة: فقرن إغناطيوس ويوستينوس تنقصه المصطلحات التقنية اللاحقة. وجواب الكنيسة أن الإيمان كان حاضرًا، وأن المصطلحات صيغت حين ألجأ الخطأ إلى ألفاظ دقيقة. وهل هذا الجواب صحيح مسألة لاهوتية؛ أما التاريخ فيُظهر تطورًا في المصطلحات وإكرامًا مبكرًا للمسيح.',
+          'يستعمل القديس بولس لقب «الرب» عن يسوع أكثر من لفظ «الله». لكن «الرب» هو اللفظ الذي تستعمله الترجمة اليونانية للعهد القديم عن إله إسرائيل، والقديس بولس يطبّق على يسوع نصًا من يوئيل عن الدعاء باسم الرب، ونصًا من إشعياء عن سجود كل ركبة لله. فهو يعطي يسوع اسم الإله الواحد وكرامته.',
+          'والمصطلحات الدقيقة في القرن الرابع متأخرة فعلًا عن العهد الجديد. لكن الإيمان كان حاضرًا منذ البداية، في العبادة وفي الكتاب المقدس، والمصطلحات صيغت حين اضطر الضلال الكنيسة إلى الدقة.',
         ],
       },
       limits: {
@@ -328,12 +328,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'Argument does show that some questions were new, such as how to relate Son and Father in a single God. But it does not show that the answer was invented. In every case the Church’s opponents (Ebionites, Docetists, Sabellius, Arius) proposed an alternative, and the Church tested each against what it had received in Scripture, baptism and worship.',
-          'A comparable case is a constitutional court: the dispute shows that a question has arisen, not that the text has no settled sense. The Church offers this as an analogy for how it sees Tradition, and a sceptic may reject the analogy while accepting the history.',
+          'Argument shows that new questions arose, such as how to speak of Son and Father in a single God. It does not show that the answer was invented. In every case the Church\'s opponents (Ebionites, Docetists, Sabellius, Arius) proposed an alternative, and the Church tested each against what she had received in Scripture, baptism and worship.',
+          'A dispute over a constitution shows that a question has arisen, not that the text has no settled sense. In the same way, the Church\'s councils defended a faith she already held; they did not create it.',
         ],
         ar: [
-          'يدل الجدل على أن بعض الأسئلة كانت جديدة، مثل كيف نربط الابن بالآب في إله واحد. لكنه لا يدل على أن الجواب اختُرع. ففي كل حالة اقترح خصوم الكنيسة (الأبيونيون والظاهريون وسابيليوس وآريوس) بديلًا، واختبرت الكنيسة كلًا منها بما تسلّمته في الكتاب المقدس والمعمودية والعبادة.',
-          'ومثال مقارب المحكمة الدستورية: يدل الخلاف على أن سؤالًا طرأ، لا على أن النص بلا معنى مستقر. وتقدّم الكنيسة هذا مثالًا يقرّب فهمها للتقليد، وللمتشكك أن يرفض التشبيه ويقبل التاريخ.',
+          'الجدل يبين أن أسئلة جديدة نشأت، مثل كيف نتكلم عن الابن والآب في إله واحد. لكنه لا يبين أن الجواب اختُرع. ففي كل حالة قدّم خصوم الكنيسة (الأبيونيون والدوكيتيون وسابليوس وآريوس) بديلًا، وامتحنته الكنيسة بما تسلّمته في الكتاب المقدس والمعمودية والعبادة.',
+          'فالنزاع حول دستور يبين أن سؤالًا قد نشأ، لا أن النص بلا معنى ثابت. وكذلك دافعت مجامع الكنيسة عن إيمان كانت تتمسك به من قبل؛ ولم تصنعه.',
         ],
       },
       limits: {
@@ -350,12 +350,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'Some pre-Nicene language does speak of the Son in terms of rank and order, and scholars discuss how to read it. A fair presentation says so.',
-          'The Church’s reply is that such language was used before the precise distinction between the Son’s eternal being and his role in creation and revelation was drawn, and that the same writers worship Christ and call him God. The disagreement concerns how to interpret writers who had no occasion to be exact.',
+          'Some pre-Nicene language does speak of the Son in terms of order, as when St Justin speaks of a second place.',
+          'Such language was used before the exact distinction was drawn between the Son\'s eternal being and His role in creation and revelation. The same writers worship Christ and call Him God. They had no occasion to be precise, and their faith is the faith that Nicaea defined.',
         ],
         ar: [
-          'بعض لغة ما قبل نيقية تتكلم فعلًا عن الابن بلغة الرتبة والترتيب، ويناقش الباحثون كيف تُقرأ. والعرض المنصف يقول ذلك.',
-          'وجواب الكنيسة أن هذه اللغة استُعملت قبل أن يُرسم التمييز الدقيق بين كيان الابن الأزلي ودوره في الخلق والإعلان، وأن الكتّاب أنفسهم يعبدون المسيح ويسمونه إلهًا. والخلاف في كيفية تفسير كتّاب لم يكن لديهم مناسبة للدقة.',
+          'بعض اللغة السابقة لنيقية تتكلم فعلًا عن الابن بلغة الترتيب، كما حين يتكلم القديس يوستينوس عن مرتبة ثانية.',
+          'وقد استُعملت هذه اللغة قبل أن يُرسم التمييز الدقيق بين كيان الابن الأزلي ودوره في الخلق والإعلان. والكتّاب أنفسهم يعبدون المسيح ويدعونه إلهًا. ولم تكن لديهم مناسبة للدقة، وإيمانهم هو الإيمان الذي حدده مجمع نيقية.',
         ],
       },
       limits: {
@@ -369,22 +369,22 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'Historically, a Christian can say that devotion to Christ and titles such as Lord and Son of God are in the earliest sources, that the Gospel of John and several letters speak of pre-existence and creation through the Son, and that the second and third centuries show both continuity of worship and growth of vocabulary. Rejected teachings such as Ebionism, Docetism and Arianism were each answers to the same question: who is Jesus?',
-        'A Christian can also say honestly that historians read the evidence in more than one way, that the period before the letters of St Paul has left no texts, and that the passage from images to technical terms did take time.',
+        'Devotion to Christ and titles such as Lord and Son of God are in the earliest sources. The Gospel of John and several letters speak of pre-existence and of creation through the Son. The second and third centuries show continuity of worship and growth of vocabulary. Ebionism, Docetism and Arianism were each wrong answers to the same question: who is Jesus?',
+        'The passage from images to technical terms took time, as the Church met new challenges. Through all of it, the worship of Christ as Lord and God remained the same.',
       ],
       ar: [
-        'يستطيع المسيحي تاريخيًا أن يقول إن التعبد للمسيح وألقابًا مثل الرب وابن الله واردة في أقدم المصادر، وإن إنجيل يوحنا ورسائل عدة تتكلم عن سبق الوجود والخلق بالابن، وإن القرنين الثاني والثالث يُظهران استمرار العبادة ونمو المفردات معًا. والتعاليم المرفوضة، كالأبيونية والظاهرية والآريوسية، كل منها جواب عن السؤال نفسه: من هو يسوع؟',
-        'ويستطيع أيضًا أن يقول بأمانة إن المؤرخين يقرأون الشواهد على أكثر من وجه، وإن الفترة السابقة لرسائل القديس بولس لم تترك نصوصًا، وإن الانتقال من الصور إلى المصطلحات التقنية استغرق وقتًا.',
+        'عبادة المسيح وألقاب مثل الرب وابن الله موجودة في أقدم المصادر. ويتكلم إنجيل يوحنا ورسائل عدة عن الوجود السابق وعن الخلق بالابن. ويُظهر القرنان الثاني والثالث استمرار العبادة ونمو المصطلحات. وكانت الأبيونية والدوكيتية والآريوسية أجوبة خاطئة عن السؤال نفسه: من هو يسوع؟',
+        'واستغرق الانتقال من الصور إلى المصطلحات الدقيقة وقتًا، إذ واجهت الكنيسة تحديات جديدة. وفي ذلك كله بقيت عبادة المسيح ربًا وإلهًا كما هي.',
       ],
     },
     theological: {
       en: [
         'The Church confesses that the eternal Son of God, one with the Father, became man for us. It holds that the apostles handed on this faith, that the Church’s worship and Scriptures carry it, and that the councils did not add to it but defended it in precise terms.',
-        'On this view, development in language is not a retreat from the New Testament but a way of keeping its meaning against readings that would lose it. The Church lives in Tradition under the guidance of the Holy Spirit, as the article on Scripture and Tradition explains.',
+        'Development in language is not a retreat from the New Testament but a way of keeping its meaning against readings that would lose it. The Church lives in Tradition under the guidance of the Holy Spirit, as the article on Scripture and Tradition explains.',
       ],
       ar: [
         'تعترف الكنيسة بأن ابن الله الأزلي، الواحد مع الآب، صار إنسانًا لأجلنا. وتؤمن بأن الرسل سلّموا هذا الإيمان، وأن عبادة الكنيسة وكتبها تحمله، وأن المجامع لم تضف إليه بل دافعت عنه بألفاظ دقيقة.',
-        'وبهذا الفهم لا يكون النمو في اللغة تراجعًا عن العهد الجديد بل وسيلة لحفظ معناه من قراءات تضيّعه. فالكنيسة تحيا في التقليد بإرشاد الروح القدس، كما يوضح المقال عن الكتاب المقدس والتقليد.',
+        'والنمو في اللغة ليس تراجعًا عن العهد الجديد بل وسيلة لحفظ معناه من قراءات تضيّعه. والكنيسة تحيا في التقليد بإرشاد الروح القدس، كما يوضح المقال عن الكتاب المقدس والتقليد.',
       ],
     },
   },
@@ -411,8 +411,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'The words used about Christ grew more exact between the first and fourth centuries, and the sources show devotion to him from the beginning. Whether the earliest believers meant what Nicaea later said is debated by historians; the Church confesses that they did, and that its definitions guard the faith it was given.',
-    ar: 'ازدادت الألفاظ المستعملة عن المسيح دقة بين القرن الأول والرابع، وتُظهر المصادر تعبدًا له منذ البداية. وهل قصد المؤمنون الأوائل ما قالته نيقية لاحقًا يناقشه المؤرخون؛ والكنيسة تعترف بأنهم قصدوه، وبأن تحديداتها تحرس الإيمان الذي سُلّم إليها.',
+    en: 'The words used about Christ grew more exact between the first and fourth centuries, and the faith they express was there from the beginning. The earliest believers worshipped Jesus as Lord and confessed Him as the Son through whom all things were made. The Church confesses the same faith today, and her definitions guard the faith she was given.',
+    ar: 'صارت الألفاظ المستعملة عن المسيح أدق بين القرنين الأول والرابع، والإيمان الذي تعبّر عنه كان موجودًا منذ البداية. فالمؤمنون الأوائل عبدوا يسوع ربًا واعترفوا به الابن الذي به كان كل شيء. والكنيسة تعترف بالإيمان نفسه اليوم، وتحديداتها تحرس الإيمان الذي تسلّمته.',
   },
   furtherReading: ['S18', 'S19', 'S20', 'S50', 'S52', 'S54', 'S62'],
   related: ['worshipped-before-constantine', 'what-happened-at-nicaea', 'what-trinity-affirms', 'miaphysite-christology', 'divine-and-human-christ', 'did-jesus-claim-divine-authority', 'scripture-and-tradition'],

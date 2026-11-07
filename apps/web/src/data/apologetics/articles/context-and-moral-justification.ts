@@ -15,25 +15,25 @@ export const article: Article = {
     ar: 'تسأل هذه المقالة سؤالًا في المنهج يقف تحت مقالات الحرب والعبودية والعقوبات: حين يشرح المدافع السياق التاريخي لنص صعب، هل يكون قد برّره؟ وهي تفصل بين التفسير والتبرير، وتبيّن ما يستطيعه الشرح الجيد وما لا يستطيعه، وكيف تفهم الكنيسة الطابع التدريجي للإعلان دون أن تجعله عذرًا.',
   },
   shortAnswer: {
-    en: 'No. Explaining why a practice existed shows what it was and why people did it; it does not show that it was right. A critic is correct that context cannot by itself turn a wrong into a right. A defender is also correct that context matters to judging a text fairly: it tells us who was addressed, what the alternatives were, and whether a law was limiting an evil or commanding it. The Christian position adds one thing: revelation in Scripture is gradual and reaches its fullness in Christ, who himself distinguishes what was permitted because of hardness of heart from what God intended. That permits the Church to say that some laws were concessions, not ideals, without calling them good, and it obliges the Church to judge them by Christ.',
-    ar: 'لا. شرح سبب وجود ممارسة يبيّن ما كانت ولماذا فعلها الناس، لكنه لا يبيّن أنها كانت صوابًا. والناقد محق في أن السياق وحده لا يحوّل الخطأ إلى صواب. والمدافع محق أيضًا في أن السياق مهم للحكم العادل على نص: فهو يخبرنا من خوطب، وما البدائل، وهل كانت الشريعة تحدّ من شر أم تأمر به. ويضيف الموقف المسيحي أمرًا واحدًا: الإعلان في الكتاب تدريجي ويبلغ كماله في المسيح، الذي يميز بنفسه بين ما سُمح به لقساوة القلب وما قصده الله. وهذا يتيح للكنيسة أن تقول إن بعض الشرائع كانت تنازلات لا مُثُلًا دون أن تسميها صالحة، ويُلزمها بأن تحكم عليها بالمسيح.',
+    en: 'No. Explaining why a practice existed tells us what it was and why people did it; it does not make it right. But context is still needed to judge a text fairly: it shows who was addressed, what the law replaced, and whether a law was limiting an evil or commanding it. The Church reads Scripture as a revelation given in stages that reaches its fullness in Christ. The Lord Himself teaches this when He says that Moses permitted divorce because of hardness of heart, though from the beginning it was not so. So the Church can say plainly that some laws were concessions, not ideals, and it judges every earlier law by Christ, in whom God’s goodness is fully shown.',
+    ar: 'لا. شرح سبب وجود ممارسة يخبرنا ما كانت ولماذا فعلها الناس، لكنه لا يجعلها صوابًا. ومع ذلك فالسياق لازم للحكم العادل على النص: فهو يبيّن من خوطب، وما الذي حلّت محله الشريعة، وهل كانت تحدّ من شر أم تأمر به. والكنيسة تقرأ الكتاب المقدس إعلانًا أُعطي على مراحل وبلغ ملأه في المسيح. والرب نفسه يعلّم ذلك حين يقول إن موسى أذن بالطلاق من أجل قساوة القلب، لكنه من البدء لم يكن هكذا. لذلك تستطيع الكنيسة أن تقول بوضوح إن بعض الشرائع كانت تنازلات لا مُثُلًا، وهي تحكم على كل شريعة سابقة بالمسيح الذي ظهر فيه صلاح الله كاملًا.',
   },
   quickPoints: {
     en: [
       'Explanation answers “why did this happen?”; justification answers “was it right?”. They are different questions.',
-      'Context is still relevant to fairness: it shows what a law replaced, whom it addressed, and whether it limited or commanded a harm.',
-      'A defender who uses context as a full defence commits an error; a critic who ignores context also errs, by judging a distant text as if it were a modern one.',
-      'Moral judgments across cultures are not simply relative; most people think some ancient practices were wrong whatever their setting.',
-      'The Christian claim is that revelation is progressive and is measured by Christ, which lets the Church call some laws concessions and not ideals.',
-      'This claim has costs, and critics rightly ask why a perfect God would give an imperfect law; the Church’s answer is stated as faith, not proof.',
+      'Context matters for fairness: it shows what a law replaced, whom it addressed, and whether it limited or commanded a harm.',
+      'Using context as a full defence is an error; ignoring context is also an error, because it judges a distant text as if it were a modern one.',
+      'Some things are wrong in every age. The Church does not call a practice good simply because it appears in Scripture.',
+      'Revelation is given in stages and measured by Christ, so the Church can call some laws concessions and not ideals.',
+      'A good teacher meets people where they are and leads them on. That is how God dealt with Israel, and Christ shows where He was leading.',
     ],
     ar: [
       'الشرح يجيب عن «لماذا حدث هذا؟» والتبرير يجيب عن «هل كان صوابًا؟». وهما سؤالان مختلفان.',
-      'يبقى السياق ذا صلة بالإنصاف: فهو يبيّن ما الذي حلّت محله الشريعة، ومن خاطبت، وهل حدّت من أذى أم أمرت به.',
-      'من يستعمل السياق دفاعًا كاملًا يخطئ؛ ومن يتجاهله يخطئ أيضًا، إذ يحكم على نص بعيد كأنه حديث.',
-      'الأحكام الأخلاقية عبر الثقافات ليست نسبية بالكامل؛ ويرى أكثر الناس أن بعض الممارسات القديمة كانت خطأ أيًّا كان سياقها.',
-      'الدعوى المسيحية أن الإعلان تدريجي ويُقاس بالمسيح، مما يتيح للكنيسة تسمية بعض الشرائع تنازلات لا مُثُلًا.',
-      'لهذه الدعوى ثمن، ومحق من يسأل لماذا يعطي إله كامل شريعة ناقصة؛ وجواب الكنيسة يُذكر إيمانًا لا برهانًا.',
+      'السياق مهم للإنصاف: فهو يبيّن ما الذي حلّت محله الشريعة، ومن خاطبت، وهل حدّت من أذى أم أمرت به.',
+      'استعمال السياق دفاعًا كاملًا خطأ، وتجاهله خطأ أيضًا، لأنه يحكم على نص بعيد كأنه حديث.',
+      'بعض الأمور خطأ في كل عصر. والكنيسة لا تسمي ممارسة صالحة لمجرد ورودها في الكتاب.',
+      'الإعلان أُعطي على مراحل ويُقاس بالمسيح، فتستطيع الكنيسة أن تسمي بعض الشرائع تنازلات لا مُثُلًا.',
+      'المعلّم الصالح يلاقي الناس حيث هم ويقودهم إلى الأمام. هكذا تعامل الله مع إسرائيل، والمسيح يُظهر إلى أين كان يقودهم.',
     ],
   },
   argumentTypes: ['philosophical', 'theological'],
@@ -46,24 +46,24 @@ export const article: Article = {
   },
   whyExamine: {
     en: [
-      'Almost every article on a hard text ends in the same place: the reader says that explaining is not excusing. That reply is right often enough that a defender must learn to meet it, and not merely to repeat the background again.',
-      'The question is also a test of the defender’s honesty. If every hard text can be answered by saying that it belongs to its time, one wonders what could ever count as an error, and a reader is right to ask the believer what he would be willing to call wrong.',
+      'Almost every discussion of a hard text reaches the same point: explaining is not excusing. That is true, and a Christian should be able to meet it clearly, not merely repeat the background again.',
+      'It is also a question of honesty. The Christian does not answer every hard text by saying that it belongs to its time. Christ gives a standard, and by that standard the Church can say what fell short of God’s intention.',
     ],
     ar: [
-      'تنتهي كل مقالة تقريبًا عن نص صعب إلى الموضع نفسه: يقول القارئ إن الشرح ليس عذرًا. وهذا الردّ صحيح في أحيان كثيرة بحيث ينبغي للمدافع أن يتعلم مواجهته، لا أن يكرر الخلفية مرة أخرى.',
-      'والسؤال امتحان لأمانة المدافع أيضًا. فإن أمكن الجواب عن كل نص صعب بالقول إنه من زمانه، فيحق للمرء أن يتساءل عمّا يمكن أن يُعدّ خطأ، ومن حق القارئ أن يسأل المؤمن عمّا يقبل أن يسميه خطأ.',
+      'يصل كل نقاش تقريبًا حول نص صعب إلى النقطة نفسها: الشرح ليس عذرًا. وهذا صحيح، وينبغي للمسيحي أن يواجهه بوضوح، لا أن يكرر الخلفية مرة أخرى.',
+      'وهو أيضًا سؤال أمانة. فالمسيحي لا يجيب عن كل نص صعب بالقول إنه من زمانه. فالمسيح يعطي معيارًا، وبهذا المعيار تستطيع الكنيسة أن تقول ما الذي قصّر عن قصد الله.',
     ],
   },
   background: {
     en: [
       'Philosophers distinguish explanation from justification. A historian explains why a ruler ordered a massacre by giving his motives and circumstances; the explanation does not make the massacre right. The same holds for religious law. To say that a law reflects the assumptions of its age answers “why was it written this way?” It leaves open “is it good?”.',
       'There is a second distinction, between moral relativism and fairness in judging. A person can hold that some acts are wrong in every age and still think that someone living in a different age, with different knowledge and constraints, may be blamed less or differently. The Church’s approach to the Old Testament depends on this: it can say that a law fell short of God’s intention without saying that those who lived under it were monsters.',
-      'Finally, the question depends on what one thinks Scripture is. If it is a collection of human texts only, then moral imperfection in some of them is unsurprising and creates no theological problem. If it is believed to be inspired, the believer owes an account of how inspired texts can contain laws that the Gospel overrides. This article gives the Church’s account and says where it carries a cost.',
+      'Finally, the question depends on what one thinks Scripture is. If it is a collection of human texts only, then moral imperfection in some of them is unsurprising and creates no theological problem. If it is believed to be inspired, the believer owes an account of how inspired texts can contain laws that the Gospel overrides. This article gives the Church’s account.',
     ],
     ar: [
       'يميّز الفلاسفة بين الشرح والتبرير. فالمؤرخ يشرح لماذا أمر حاكم بمذبحة بذكر دوافعه وظروفه؛ والشرح لا يجعل المذبحة صوابًا. والأمر نفسه في الشريعة الدينية. فالقول إن شريعة تعكس افتراضات عصرها يجيب عن «لماذا كُتبت هكذا؟» ويترك مفتوحًا «هل هي صالحة؟».',
       'وثمة تمييز ثانٍ بين النسبية الأخلاقية والإنصاف في الحكم. فيستطيع المرء أن يعتقد أن بعض الأفعال خطأ في كل عصر، ومع ذلك يرى أن من عاش في عصر آخر، بمعرفة وقيود مختلفة، قد يُلام أقل أو بطريقة مختلفة. ومقاربة الكنيسة للعهد القديم تعتمد على هذا: فهي تستطيع القول إن شريعة قصّرت عن قصد الله دون القول إن من عاشوا تحتها وحوش.',
-      'وأخيرًا يعتمد السؤال على ما يظنه المرء الكتابَ المقدس. فإن كان مجموعة نصوص بشرية فقط، فالنقص الأخلاقي في بعضها غير مستغرب ولا يخلق مشكلة لاهوتية. وإن كان يُعتقد أنه موحى به، فعلى المؤمن أن يقدم تفسيرًا لكيف يمكن لنصوص موحى بها أن تحتوي شرائع يتجاوزها الإنجيل. وتقدم هذه المقالة تفسير الكنيسة وتقول أين يحمل ثمنًا.',
+      'وأخيرًا يعتمد السؤال على ما يظنه المرء الكتابَ المقدس. فإن كان مجموعة نصوص بشرية فقط، فالنقص الأخلاقي في بعضها غير مستغرب ولا يخلق مشكلة لاهوتية. وإن كان يُعتقد أنه موحى به، فعلى المؤمن أن يقدم تفسيرًا لكيف يمكن لنصوص موحى بها أن تحتوي شرائع يتجاوزها الإنجيل. وتقدم هذه المقالة تفسير الكنيسة.',
     ],
   },
   glossary: ['inspiration', 'typology', 'tradition', 'theodicy'],
@@ -72,14 +72,14 @@ export const article: Article = {
     {
       id: 'c1',
       proposition: {
-        en: 'Explaining the historical context of a practice does not by itself show the practice was morally right.',
-        ar: 'شرح السياق التاريخي لممارسة لا يبيّن وحده أن الممارسة كانت صوابًا أخلاقيًا.',
+        en: 'Explaining the historical context of a practice does not make the practice morally right.',
+        ar: 'شرح السياق التاريخي لممارسة لا يجعل الممارسة صوابًا أخلاقيًا.',
       },
       argumentType: 'philosophical',
       assessment: 'philosophical_argument',
       rationale: {
-        en: 'This follows from the difference between a causal or historical account and a moral evaluation. A defender who treats context as a full answer to a moral objection mistakes one for the other.',
-        ar: 'يلزم هذا من الفرق بين الوصف السببي أو التاريخي والتقييم الأخلاقي. والمدافع الذي يعامل السياق جوابًا كاملًا عن اعتراض أخلاقي يخلط بين الأمرين.',
+        en: 'A historical account says why something happened; a moral judgement says whether it was right. Treating context as a full answer to a moral objection confuses the two, and the Lord Himself keeps them apart when He separates what Moses permitted from what God intended.',
+        ar: 'الوصف التاريخي يقول لماذا حدث أمر ما، والحكم الأخلاقي يقول هل كان صوابًا. ومعاملة السياق جوابًا كاملًا عن اعتراض أخلاقي خلطٌ بين الأمرين، والرب نفسه يفصل بينهما حين يميّز ما أذن به موسى عمّا قصده الله.',
       },
       limits: {
         en: 'It does not mean context is irrelevant to moral judgment; it bears on responsibility and on the meaning of a law.',
@@ -90,14 +90,14 @@ export const article: Article = {
     {
       id: 'c2',
       proposition: {
-        en: 'Context is nevertheless relevant to judging a law fairly: it shows whether the law limited an existing harm or created one, and what its first hearers understood by it.',
-        ar: 'ومع ذلك فالسياق ذو صلة بالحكم العادل على شريعة: فهو يبيّن هل حدّت من أذى قائم أم أنشأته، وماذا فهم سامعوها الأولون.',
+        en: 'Context is still needed to judge a law fairly: it shows whether the law limited an existing harm or created one, and what its first hearers understood by it.',
+        ar: 'ومع ذلك فالسياق لازم للحكم العادل على شريعة: فهو يبيّن هل حدّت من أذى قائم أم أنشأته، وماذا فهم سامعوها الأولون.',
       },
       argumentType: 'philosophical',
       assessment: 'philosophical_argument',
       rationale: {
-        en: 'The Old Testament provides examples: the rule of equal retribution is generally read as a restraint, and the law about divorce is treated by Jesus as a concession. In both, the setting changes what the law is understood to do.',
-        ar: 'يقدم العهد القديم أمثلة: فقاعدة المعاملة بالمثل تُقرأ عمومًا كبح للانتقام، وشريعة الطلاق يعاملها يسوع تنازلًا. وفي الحالين يغيّر السياق ما يُفهم أن الشريعة تفعله.',
+        en: 'The Old Testament gives clear examples. The rule of equal retribution set a limit on vengeance, and the Lord treats the law about divorce as a concession. In both, the setting shows what the law was doing.',
+        ar: 'يقدم العهد القديم أمثلة واضحة. فقاعدة المعاملة بالمثل وضعت حدًّا للانتقام، والرب يعامل شريعة الطلاق تنازلًا. وفي الحالين يُظهر السياق ما كانت الشريعة تفعله.',
       },
       limits: {
         en: 'A restraint of evil is still a regulation of it. Fairness to a text does not remove the question whether the evil should have been permitted at all.',
@@ -108,14 +108,14 @@ export const article: Article = {
     {
       id: 'c3',
       proposition: {
-        en: 'The Christian claim is that Scripture records a revelation given in stages and measured by Christ, so that some of its laws are concessions and not the ideal will of God.',
-        ar: 'الدعوى المسيحية أن الكتاب يسجل إعلانًا أُعطي على مراحل ويُقاس بالمسيح، فبعض شرائعه تنازلات لا مشيئة الله المثالية.',
+        en: 'Scripture records a revelation given in stages and measured by Christ, so that some of its laws are concessions and not the ideal will of God.',
+        ar: 'يسجل الكتاب المقدس إعلانًا أُعطي على مراحل ويُقاس بالمسيح، فبعض شرائعه تنازلات لا مشيئة الله المثالية.',
       },
       argumentType: 'theological',
       assessment: 'theological_interpretation',
       rationale: {
-        en: 'The opening of Hebrews speaks of God having spoken in many parts and ways before speaking in a Son, and the Sermon on the Mount sets Jesus’ teaching against what was said to those of old. The Church takes these as warrant for reading the earlier law in stages.',
-        ar: 'يتحدث مطلع الرسالة إلى العبرانيين عن أن الله كلّم الآباء قديمًا بأنواع وطرق كثيرة قبل أن يكلمنا في الابن، وتقابل العظة على الجبل تعليم يسوع بما قيل للأولين. وتأخذ الكنيسة هذا سندًا لقراءة الشريعة الأقدم على مراحل.',
+        en: 'The opening of Hebrews says that God spoke in many parts and ways before speaking in a Son, and in the Sermon on the Mount the Lord sets His teaching beside what was said to those of old. Scripture itself teaches us to read the earlier law in stages.',
+        ar: 'يقول مطلع الرسالة إلى العبرانيين إن الله كلّم الآباء قديمًا بأنواع وطرق كثيرة قبل أن يكلمنا في الابن، وفي العظة على الجبل يضع الرب تعليمه بإزاء ما قيل للأولين. فالكتاب نفسه يعلّمنا أن نقرأ الشريعة الأقدم على مراحل.',
       },
       limits: {
         en: 'A reader who does not accept that Jesus’ authority fixes the standard will not be persuaded; and a reader who does may still ask why the stages were needed.',
@@ -182,12 +182,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'This is the strongest form of the objection, and the Church’s answer is theological: a teacher who meets people where they are and leads them is not imperfect for doing so. Jesus himself describes the law of Moses in this way when he speaks of hardness of heart.',
-          'A critic can accept that picture of teaching and still doubt that it applies to the case. The Church admits that this is a position of faith about how God has dealt with humanity, and it does not offer it as a demonstration.',
+          'A teacher who meets people where they are and leads them on is not imperfect for doing so; that is what perfect teaching looks like. The Lord Himself describes the law of Moses in this way when He speaks of hardness of heart.',
+          'The law was perfect for its purpose: to guard Israel, restrain evil and prepare for Christ. The staged character of revelation is not a sign of human invention but of divine patience, which leads a people step by step to the fullness revealed in the Son.',
         ],
         ar: [
-          'هذه أقوى صيغ الاعتراض، وجواب الكنيسة لاهوتي: المعلّم الذي يلاقي الناس حيث هم ويقودهم ليس ناقصًا لفعله ذلك. ويصف يسوع نفسه شريعة موسى بهذه الطريقة حين يتكلم عن قساوة القلب.',
-          'ويستطيع الناقد أن يقبل هذه الصورة للتعليم ويشك مع ذلك في انطباقها على الحالة. والكنيسة تعترف بأن هذا موقف إيمان عن كيفية معاملة الله للبشرية، ولا تقدمه برهانًا.',
+          'المعلّم الذي يلاقي الناس حيث هم ويقودهم إلى الأمام ليس ناقصًا لفعله ذلك، بل هذا هو التعليم الكامل. والرب نفسه يصف شريعة موسى بهذه الطريقة حين يتكلم عن قساوة القلب.',
+          'كانت الشريعة كاملة في غايتها: أن تحرس إسرائيل وتكبح الشر وتهيئ للمسيح. والطابع التدريجي للإعلان ليس علامة على صنع بشري، بل على أناة إلهية تقود شعبًا خطوة فخطوة إلى الملء المعلَن في الابن.',
         ],
       },
       limits: {
@@ -204,12 +204,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The suspicion is reasonable, and the test is whether the direction can be seen in the texts themselves and not only imposed afterwards. The Church points to a direction within Scripture: the limits on vengeance, the protection of the stranger and the fugitive, the prophets’ criticism of oppression, and the teaching of Christ. Whether that amounts to a pattern or to a selection is a matter of judgment.',
-          'The Church does not say that moral progress is automatic. Its own history includes long periods in which it failed to follow what it taught.',
+          'The direction can be seen in the texts themselves, not imposed afterwards: the limits on vengeance, the protection of the stranger and the fugitive, the prophets’ criticism of oppression, and finally the teaching of Christ, who names the earlier law a concession. That line runs through Scripture before any modern change in morals.',
+          'The Church does not say that moral progress is automatic. Its own history includes long periods in which it failed to follow what it taught, and that failure is judged by the same Christ.',
         ],
         ar: [
-          'الشك معقول، والمحك هو هل يُرى الاتجاه في النصوص نفسها لا مفروضًا بعد الواقعة. وتشير الكنيسة إلى اتجاه داخل الكتاب: حدود الانتقام، وحماية الغريب والهارب، ونقد الأنبياء للظلم، وتعليم المسيح. وهل يبلغ ذلك نمطًا أم انتقاءً مسألة تقدير.',
-          'ولا تقول الكنيسة إن التقدم الأخلاقي تلقائي. وفي تاريخها فترات طويلة قصّرت فيها عن اتباع ما علّمت.',
+          'الاتجاه يُرى في النصوص نفسها، لا مفروضًا بعد الواقعة: حدود الانتقام، وحماية الغريب والهارب، ونقد الأنبياء للظلم، وأخيرًا تعليم المسيح الذي سمّى الشريعة الأقدم تنازلًا. وهذا الخط يمتد في الكتاب قبل أي تغير حديث في الأخلاق.',
+          'ولا تقول الكنيسة إن التقدم الأخلاقي تلقائي. وفي تاريخها فترات طويلة قصّرت فيها عن اتباع ما علّمت، وهذا التقصير يُحاكَم بالمسيح نفسه.',
         ],
       },
       limits: {
@@ -226,12 +226,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'It would, if context were used as an excuse. The article’s claim is the reverse: context explains and does not justify. What the Church adds is a standard, Christ, by which the earlier law is judged, and that standard is open to examination by anyone, including those who do not share the faith.',
-          'The same fairness should be given to others: traditions should be judged on what their adherents hold, by a standard that is stated and applied equally.',
+          'That would be true if context were used as an excuse. The claim here is the reverse: context explains and does not justify. What the Church adds is a standard, Christ, by which the earlier law is judged, and that standard is open to examination by anyone.',
+          'The same fairness is owed to others: every tradition should be judged on what its adherents hold, by a standard that is stated openly and applied equally.',
         ],
         ar: [
-          'سيكون كذلك لو استُعمل السياق عذرًا. ودعوى المقالة عكس ذلك: السياق يشرح ولا يبرر. وما تضيفه الكنيسة معيار، هو المسيح، تُحاكم به الشريعة الأقدم، وهذا المعيار مفتوح للفحص لكل أحد، ومنهم من لا يشاركون الإيمان.',
-          'والإنصاف نفسه ينبغي أن يُعطى للآخرين: تُحاكم التقاليد بما يعتقده أتباعها، بمعيار معلن يُطبَّق بالتساوي.',
+          'يصح ذلك لو استُعمل السياق عذرًا. والدعوى هنا عكس ذلك: السياق يشرح ولا يبرر. وما تضيفه الكنيسة معيار، هو المسيح، تُحاكم به الشريعة الأقدم، وهذا المعيار مفتوح للفحص لكل أحد.',
+          'والإنصاف نفسه واجب للآخرين: يُحاكم كل تقليد بما يعتقده أتباعه، بمعيار معلن يُطبَّق بالتساوي.',
         ],
       },
       limits: {
@@ -245,20 +245,20 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'There is no single historical event to defend here. The historical contribution is limited to what the texts show: that some laws restrain and others permit, that Jesus is reported to distinguish concession from intention, and that the early Church did not apply Israel’s civil and penal law as its own code.',
+        'The texts themselves show the pattern: some laws restrain and others permit; the Lord distinguishes concession from God’s intention; and the early Church did not adopt Israel’s civil and penal law as its own code.',
       ],
       ar: [
-        'ليس هنا حدث تاريخي واحد يُدافع عنه. وإسهام التاريخ مقصور على ما تُظهره النصوص: أن بعض الشرائع يكبح وبعضها يسمح، وأن يسوع يُروى أنه ميّز التنازل عن القصد، وأن الكنيسة الأولى لم تطبّق الشريعة المدنية والجزائية لإسرائيل قانونًا لها.',
+        'النصوص نفسها تُظهر النمط: بعض الشرائع يكبح وبعضها يسمح، والرب يميّز التنازل عن قصد الله، والكنيسة الأولى لم تتخذ الشريعة المدنية والجزائية لإسرائيل قانونًا لها.',
       ],
     },
     theological: {
       en: [
         'The Church confesses that God is good, and that his goodness is fully shown in Christ. It therefore reads the earlier laws in the light of him, and it will not call a practice good because it appears in Scripture. It will say that the practice belongs to a stage, that the stage was addressed to people as they were, and that the Gospel brings what the earlier stage pointed to.',
-        'This is a position of faith. It does not claim that the difficulty has gone, and the Church expects its members to say plainly that some things done in the name of Scripture were wrong.',
+        'The Church does not pretend that the hard texts are easy, and it expects its members to say plainly that some things done in the name of Scripture were wrong.',
       ],
       ar: [
         'تعترف الكنيسة بأن الله صالح وأن صلاحه يظهر كاملًا في المسيح. فهي تقرأ الشرائع الأقدم في ضوئه، ولن تسمي ممارسة صالحة لمجرد ورودها في الكتاب. وتقول إن الممارسة تنتمي إلى مرحلة، وإن المرحلة خاطبت الناس كما كانوا، وإن الإنجيل يأتي بما أشارت إليه المرحلة السابقة.',
-        'وهذا موقف إيمان. ولا يدّعي أن الصعوبة زالت، وتتوقع الكنيسة من أبنائها أن يقولوا بصراحة إن أمورًا فُعلت باسم الكتاب كانت خطأ.',
+        'والكنيسة لا تدّعي أن النصوص الصعبة سهلة، وتتوقع من أبنائها أن يقولوا بصراحة إن أمورًا فُعلت باسم الكتاب كانت خطأ.',
       ],
     },
   },
@@ -274,8 +274,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'Explaining a practice is not justifying it, and a defender who treats the two as one has not answered the objection. Context still matters to fairness. The Church adds that revelation is staged and is measured by Christ, which lets it call some laws concessions and refuse to call them ideals. That is a position of faith with a cost, and it is stated here without claiming more.',
-    ar: 'شرح ممارسة ليس تبريرًا لها، ومن يعامل الأمرين واحدًا لم يجب عن الاعتراض. ويبقى السياق مهمًا للإنصاف. وتضيف الكنيسة أن الإعلان مراحل ويُقاس بالمسيح، فتسمّي بعض الشرائع تنازلات وترفض أن تسميها مُثُلًا. وهذا موقف إيمان له ثمن، ويُذكر هنا دون ادعاء أكثر.',
+    en: 'Explaining a practice is not justifying it, and context alone answers no moral objection. Context still matters for judging fairly. The Church reads Scripture as revelation given in stages and fulfilled in Christ, as the Lord Himself taught. So it can call some laws concessions and refuse to call them ideals, and it measures every law by Christ, in whom God’s goodness is fully revealed.',
+    ar: 'شرح ممارسة ليس تبريرًا لها، والسياق وحده لا يجيب عن اعتراض أخلاقي. ويبقى السياق مهمًا للحكم بإنصاف. والكنيسة تقرأ الكتاب المقدس إعلانًا أُعطي على مراحل وكمل في المسيح، كما علّم الرب نفسه. لذلك تسمي بعض الشرائع تنازلات وترفض أن تسميها مُثُلًا، وتقيس كل شريعة بالمسيح الذي أُعلن فيه صلاح الله كاملًا.',
   },
   furtherReading: ['S49', 'S62'],
   related: [

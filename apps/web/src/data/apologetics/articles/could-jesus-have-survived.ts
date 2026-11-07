@@ -15,22 +15,22 @@ export const article: Article = {
     ar: 'هل كان يمكن أن ينجو يسوع من الصلب كما تقترح نظرية «الإغماء» أو الموت الظاهري، وماذا تقول المصادر عن موته. ولا يسأل المقال هل قام، ولا يفحص قول القرآن في الصلب، فله مقاله الخاص.',
   },
   shortAnswer: {
-    en: 'Survival of crucifixion was rare but not unheard of, and the theory deserves a hearing. But it asks the sources to carry more than they can. Tacitus and St Paul know that Jesus died; all four Gospels say he was taken down dead, and John adds a spear wound that Mark does not need. The Roman soldiers who carried out executions were practised at it, and Pilate is said in Mark to have confirmed the death through the centurion. Even if a half-dead man had left the tomb, it is hard to see how a battered, bleeding survivor would have been taken for a risen and glorified Lord. The swoon theory is a historical hypothesis with real difficulties, and the Church confesses that Christ truly died.',
-    ar: 'نجاة المصلوب كانت نادرة لكنها لم تكن مجهولة، والنظرية تستحق أن تُسمع. غير أنها تحمّل المصادر أكثر مما تطيق. فتاكيتوس وبولس يعرفان أن يسوع مات؛ وتقول الأناجيل الأربعة إنه أُنزل ميتًا، ويضيف يوحنا طعنة الحربة. وكان الجنود الرومان الذين ينفذون الإعدام ممارسين له، ويقول مرقس إن بيلاطس تأكد من الموت عن طريق قائد المئة. وحتى لو خرج رجل نصف ميت من القبر، فمن العسير أن نتصور أن ناجيًا مضروبًا ينزف يُظن ربًّا قائمًا ممجدًا. فنظرية الإغماء فرضية تاريخية لها صعوباتها الحقيقية، والكنيسة تعترف بأن المسيح مات حقًا.',
+    en: 'No. Jesus truly died on the cross. Tacitus, a hostile Roman historian, reports His execution under Pilate; St Paul the Apostle hands on that Christ died and was buried; and all four Gospels say He was taken down dead. Roman soldiers carried out executions as routine work, Mark reports that Pilate confirmed the death through the centurion, and John adds the spear thrust into His side. No early source, friend or foe, says He survived. And a battered, bleeding survivor could never have convinced His followers that He had conquered death. The Church confesses that Christ truly died, and that on the third day He truly rose.',
+    ar: 'لا. لقد مات يسوع حقًا على الصليب. فتاكيتوس، المؤرخ الروماني المعادي، يروي إعدامه في عهد بيلاطس، والقديس بولس الرسول يسلّم أن المسيح مات ودُفن، وتقول الأناجيل الأربعة إنه أُنزل ميتًا. وكان الجنود الرومان ينفذون الإعدام عملًا معتادًا، ويروي مرقس أن بيلاطس تأكد من الموت عن طريق قائد المئة، ويضيف يوحنا طعنة الحربة في جنبه. ولا يقول مصدر مبكر، صديقًا كان أو خصمًا، إنه نجا. وما كان لناجٍ مضروب ينزف أن يقنع أتباعه بأنه غلب الموت. والكنيسة تعترف بأن المسيح مات حقًا، وقام حقًا في اليوم الثالث.',
   },
   quickPoints: {
     en: [
       'Tacitus (Annals 15.44) and St Paul (1 Corinthians 15:3) both treat the death of Jesus as a plain fact; the Gospels say he was taken down and buried as a dead man.',
-      'Crucifixion was designed to kill slowly, and Roman soldiers carried it out as routine work. Survival after being taken down is attested in rare cases, so it cannot be called impossible.',
+      'Crucifixion was designed to kill, and Roman soldiers carried it out as routine work. The rare ancient case of survival needed an immediate rescue ordered by a commander, which Jesus did not have.',
       'The Gospels contain the details that matter for the theory: Pilate\'s surprise and the centurion\'s confirmation in Mark, and the spear thrust in John.',
-      'Critics of the swoon theory, including nineteenth-century sceptics, argued that a wounded survivor would not have convinced anyone that he had conquered death.',
+      'Even nineteenth-century sceptics such as D. F. Strauss rejected the swoon theory, because a wounded survivor would not have convinced anyone that he had conquered death.',
       'The Church confesses a real death in which the divinity was not separated from the body or the soul.',
     ],
     ar: [
       'يعامل تاكيتوس (الحوليات ١٥: ٤٤) وبولس (١ كورنثوس ١٥: ٣) موت يسوع واقعة بسيطة؛ وتقول الأناجيل إنه أُنزل ودُفن ميتًا.',
-      'صُمم الصلب ليقتل ببطء، وكان الجنود الرومان ينفذونه عملًا معتادًا. وقد وُثقت نجاة بعد الإنزال في حالات نادرة، فلا يصح أن يُقال إنها مستحيلة.',
+      'صُمم الصلب ليقتل، وكان الجنود الرومان ينفذونه عملًا معتادًا. والحالة القديمة النادرة للنجاة احتاجت إلى إنقاذ فوري بأمر قائد، ولم يكن ذلك ليسوع.',
       'وفي الأناجيل التفاصيل المهمة للنظرية: دهشة بيلاطس وتأكيد قائد المئة عند مرقس، وطعنة الحربة عند يوحنا.',
-      'ومن انتقدوا نظرية الإغماء، ومنهم متشككون في القرن التاسع عشر، رأوا أن ناجيًا جريحًا لا يقنع أحدًا بأنه غلب الموت.',
+      'حتى متشككو القرن التاسع عشر مثل د. ف. شتراوس رفضوا نظرية الإغماء، لأن ناجيًا جريحًا لا يقنع أحدًا بأنه غلب الموت.',
       'تعترف الكنيسة بموت حقيقي لم ينفصل فيه اللاهوت عن الجسد ولا عن النفس.',
     ],
   },
@@ -44,12 +44,12 @@ export const article: Article = {
   },
   whyExamine: {
     en: [
-      'The resurrection is only a question if Jesus was dead. If he survived, the whole matter changes, and so any honest discussion has to face the possibility. The theory was proposed by rationalist writers in the late eighteenth and early nineteenth centuries who wanted a natural explanation of the Gospel stories, and some modern movements also hold that Jesus survived the cross.',
-      'It is also a good example of method. We cannot examine the body; we can only ask what the sources say, what is known of Roman execution, and which proposal accounts for the evidence with fewest strained assumptions.',
+      'The resurrection is a question only if Jesus was dead, so the possibility that He survived must be faced. The theory was proposed by rationalist writers in the late eighteenth and early nineteenth centuries who wanted a natural explanation of the Gospel stories, and some modern movements also hold it.',
+      'It is also a clear example of method. We ask what the sources say, what is known of Roman execution, and which account fits the evidence without strained assumptions. On every count, the answer is that Jesus died.',
     ],
     ar: [
-      'لا تكون القيامة موضع سؤال إلا إذا كان يسوع قد مات. فإن نجا تغير الأمر كله، ولذلك على كل نقاش أمين أن يواجه هذا الاحتمال. وقد طرح النظرية كتّاب عقلانيون في أواخر القرن الثامن عشر وأوائل التاسع عشر أرادوا تفسيرًا طبيعيًا لقصص الأناجيل، وتقول به أيضًا بعض الحركات الحديثة.',
-      'وهي مثال جيد على المنهج. فلا نستطيع فحص الجسد؛ إنما نسأل ماذا تقول المصادر، وماذا يُعرف عن الإعدام الروماني، وأي اقتراح يفسّر الشواهد بأقل افتراضات متكلفة.',
+      'لا تكون القيامة موضع سؤال إلا إذا كان يسوع قد مات، ولذلك لا بد من مواجهة احتمال نجاته. وقد طرح النظرية كتّاب عقلانيون في أواخر القرن الثامن عشر وأوائل التاسع عشر أرادوا تفسيرًا طبيعيًا لقصص الأناجيل، وتقول بها أيضًا بعض الحركات الحديثة.',
+      'وهي مثال واضح على المنهج. فنسأل ماذا تقول المصادر، وماذا يُعرف عن الإعدام الروماني، وأي تفسير يلائم الشواهد بلا افتراضات متكلفة. وفي كل ذلك يأتي الجواب واحدًا: يسوع مات.',
     ],
   },
   background: {
@@ -76,8 +76,8 @@ export const article: Article = {
       argumentType: 'historical',
       assessment: 'strong_historical_support',
       rationale: {
-        en: 'A hostile Roman writer reports an execution, St Paul says Christ died, and all four Gospels describe a death and a burial. No early source suggests that he survived, and the first opponents of the movement did not say so either.',
-        ar: 'يروي كاتب روماني معادٍ إعدامًا، ويقول القديس بولس إن المسيح مات، وتصف الأناجيل الأربعة موتًا ودفنًا. ولا يلمّح مصدر مبكر إلى أنه نجا، ولم يقل ذلك أوائل معارضي الحركة.',
+        en: 'A hostile Roman writer reports the execution, St Paul the Apostle hands on that Christ died, and all four Gospels describe His death and burial. No early source suggests that He survived, and the first opponents of the faith never said so either.',
+        ar: 'يروي كاتب روماني معادٍ الإعدام، ويسلّم القديس بولس الرسول أن المسيح مات، وتصف الأناجيل الأربعة موته ودفنه. ولا يلمّح مصدر مبكر إلى أنه نجا، ولم يقل ذلك قط أوائل معارضي الإيمان.',
       },
       limits: {
         en: 'No source is an eyewitness medical report, and the cause of death is not described in clinical terms.',
@@ -88,14 +88,14 @@ export const article: Article = {
     {
       id: 'c2',
       proposition: {
-        en: 'Survival of crucifixion was possible but rare, and where it is reported it needed immediate rescue.',
-        ar: 'كانت النجاة من الصلب ممكنة لكنها نادرة، وحيث تُروى احتاجت إلى إنقاذ فوري.',
+        en: 'Survival of crucifixion was rare, and where it is reported it needed immediate rescue, which Jesus did not have.',
+        ar: 'كانت النجاة من الصلب نادرة، وحيث تُروى احتاجت إلى إنقاذ فوري، ولم يكن ذلك ليسوع.',
       },
       argumentType: 'historical',
       assessment: 'supported_disputed_details',
       rationale: {
-        en: 'The known ancient case is a single report by Josephus about men taken down on the order of a commander. The report shows that survival could occur, and its circumstances are quite unlike those of Jesus, who had been scourged and was left on the cross for hours.',
-        ar: 'الحالة القديمة المعروفة تقرير واحد عند يوسيفوس عن رجال أُنزلوا بأمر قائد. ويبين أن النجاة قد تحدث، وظروفها بعيدة عن ظروف يسوع الذي جُلد وتُرك على الصليب ساعات.',
+        en: 'The known ancient case is a single report by Josephus about men taken down on the order of a commander and given medical care, and even then only one of the three lived. Jesus had been scourged, hung for hours, pierced, and laid in a tomb with no care at all.',
+        ar: 'الحالة القديمة المعروفة تقرير واحد عند يوسيفوس عن رجال أُنزلوا بأمر قائد وعولجوا، ومع ذلك لم يعش منهم إلا واحد من ثلاثة. أما يسوع فقد جُلد، وعُلّق ساعات، وطُعن، ووُضع في قبر بلا أي عناية.',
       },
       limits: {
         en: 'We know little about how often survival occurred, since most victims were left to die and the sources rarely record such cases.',
@@ -106,14 +106,14 @@ export const article: Article = {
     {
       id: 'c3',
       proposition: {
-        en: 'The swoon theory does not account for the claim that Jesus appeared as risen and glorified.',
-        ar: 'لا تفسّر نظرية الإغماء الدعوى بأن يسوع ظهر قائمًا ممجدًا.',
+        en: 'The swoon theory cannot account for the proclamation that Jesus appeared as risen and glorified.',
+        ar: 'لا تستطيع نظرية الإغماء أن تفسّر الكرازة بأن يسوع ظهر قائمًا ممجدًا.',
       },
       argumentType: 'historical',
       assessment: 'supported_disputed_details',
       rationale: {
-        en: 'The earliest testimony speaks of a risen Lord who had been raised from the dead, not of a man who had been rescued. A survivor needing nursing, who then disappeared, is a different picture from the one the first Christians proclaimed. Critics from outside the faith, such as the nineteenth-century writer D. F. Strauss, made this argument against the theory.',
-        ar: 'تتحدث الشهادة الأقدم عن ربٍّ قائم أُقيم من الأموات، لا عن رجل أُنقذ. وناجٍ يحتاج إلى تمريض ثم يختفي صورة مختلفة عن التي أعلنها المسيحيون الأوائل. وقد ساق هذه الحجة ضد النظرية ناقدون من خارج الإيمان، منهم كاتب القرن التاسع عشر د. ف. شتراوس.',
+        en: 'The earliest testimony speaks of a Lord raised from the dead, not of a man who had been rescued. A survivor needing nursing is the opposite of what the first Christians proclaimed. Critics from outside the faith, such as the nineteenth-century writer D. F. Strauss, made this same argument against the theory.',
+        ar: 'تتحدث الشهادة الأقدم عن ربٍّ أُقيم من الأموات، لا عن رجل أُنقذ. وناجٍ يحتاج إلى تمريض هو عكس ما كرز به المسيحيون الأوائل. وقد ساق هذه الحجة نفسها ضد النظرية ناقدون من خارج الإيمان، منهم كاتب القرن التاسع عشر د. ف. شتراوس.',
       },
       limits: {
         en: 'A defender of the theory can reply that the appearances were later embroidered. That reply moves the argument from the death to the reliability of the appearance reports, where other articles continue it.',
@@ -208,12 +208,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The speed of death is a fair point, and Mark records Pilate\'s surprise at it. But the length of time on the cross varied, and a man who had been scourged and was weakened before he was hung would be expected to die earlier than most. The Gospel account is also of a death verified by a soldier trained in execution, not of a bystander\'s impression.',
-          'The theory also needs a further series of events: that a man with such wounds was revived in a cold rock tomb without care, moved a heavy stone, passed guards if there were any, and persuaded his followers that he had conquered death. Each step is possible only with additional assumptions.',
+          'Mark does record Pilate’s surprise that Jesus had died so soon. But that is exactly why Pilate checked with the centurion, a soldier practised in execution, before releasing the body. And a man scourged and weakened before he was hung would be expected to die sooner than most.',
+          'The theory then needs a chain of further events: that a man with such wounds revived in a cold rock tomb without care, moved a heavy stone, and persuaded his followers that he had conquered death. None of this is supported by any source, and each step makes the theory less credible.',
         ],
         ar: [
-          'سرعة الموت نقطة وجيهة، ويسجل مرقس دهشة بيلاطس منها. لكن مدة البقاء على الصليب كانت تتفاوت، ورجل جُلد وأُضعف قبل تعليقه يُتوقع أن يموت أبكر من غيره. والرواية الإنجيلية موت تحقق منه جندي مدرب على التنفيذ، لا انطباع متفرج.',
-          'وتحتاج النظرية كذلك إلى سلسلة أحداث أخرى: أن رجلًا بهذه الجراح أفاق في قبر صخري بارد دون عناية، وزحزح حجرًا ثقيلًا، ومرّ بحراس إن وُجدوا، وأقنع أتباعه بأنه غلب الموت. وكل خطوة لا تتحقق إلا بافتراضات إضافية.',
+          'يسجل مرقس فعلًا دهشة بيلاطس من سرعة موت يسوع. لكن لهذا بالضبط تحقق بيلاطس من قائد المئة، وهو جندي متمرس بالإعدام، قبل أن يسلّم الجسد. ورجل جُلد وأُضعف قبل تعليقه يُتوقع أن يموت أبكر من غيره.',
+          'ثم تحتاج النظرية إلى سلسلة أحداث أخرى: أن رجلًا بهذه الجراح أفاق في قبر صخري بارد دون عناية، وزحزح حجرًا ثقيلًا، وأقنع أتباعه بأنه غلب الموت. ولا يسند أي مصدر شيئًا من ذلك، وكل خطوة تجعل النظرية أقل مصداقية.',
         ],
       },
       limits: {
@@ -230,12 +230,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'John does attach significance to the detail, and a historian is right to be cautious about a story that serves the author\'s themes. For that reason the argument against the swoon theory in this article does not rest on the spear alone.',
-          'It rests on the agreement of the early sources that Jesus died, on the verification reported in Mark, on the absence of any early alternative report, and on the mismatch between a rescued survivor and the claim that the first Christians made.',
+          'St John the Evangelist does see deep meaning in the blood and water, and he also insists that he reports what was witnessed. Meaning and fact are not opposites. But the case that Jesus died does not rest on the spear alone.',
+          'It rests on the agreement of all the early sources that Jesus died, on the verification reported in Mark, on the absence of any early alternative report, and on the gulf between a rescued survivor and the risen Lord the first Christians proclaimed.',
         ],
         ar: [
-          'يعلق يوحنا فعلًا أهمية على التفصيل، والمؤرخ محق في الحذر من قصة تخدم موضوعات كاتبها. ولذلك لا تقوم الحجة ضد نظرية الإغماء في هذا المقال على الحربة وحدها.',
-          'بل تقوم على اتفاق المصادر المبكرة على أن يسوع مات، وعلى التحقق الذي يرويه مرقس، وعلى غياب أي خبر بديل مبكر، وعلى التباين بين ناجٍ مُنقَذ والدعوى التي ادّعاها المسيحيون الأوائل.',
+          'يرى القديس يوحنا الإنجيلي فعلًا معنى عميقًا في الدم والماء، ويؤكد أيضًا أنه يروي ما شوهد. والمعنى والواقع ليسا متناقضين. لكن الحجة على موت يسوع لا تقوم على الحربة وحدها.',
+          'بل تقوم على اتفاق كل المصادر المبكرة على أن يسوع مات، وعلى التحقق الذي يرويه مرقس، وعلى غياب أي خبر بديل مبكر، وعلى الهوة بين ناجٍ مُنقَذ والرب القائم الذي كرز به المسيحيون الأوائل.',
         ],
       },
       limits: {
@@ -252,12 +252,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'That is correct, and this article treats it as a different question. A view that rests on a revelation received in another tradition is not a historical hypothesis in the sense used here, and it cannot be decided by the Gospels or by Tacitus. The Qur\'anic text and its interpretation are taken up in the article devoted to it.',
-          'What can be said as history is that the earliest sources we have, Christian and non-Christian, all speak of a death, and that no source from the first century proposes a different outcome.',
+          'That is a different question, and this article treats it as such. A view resting on a revelation received in another tradition is not a historical hypothesis in the sense used here. The Qur’anic text and its interpretation are taken up, respectfully, in the article devoted to it.',
+          'As history, the earliest sources we have, Christian and non-Christian, all speak of a death, and no source from the first century proposes a different outcome. The historical witness is one and clear: Jesus was crucified and died.',
         ],
         ar: [
-          'هذا صحيح، ويعامله المقال سؤالًا مختلفًا. فرأي يقوم على وحي في تقليد آخر ليس فرضية تاريخية بالمعنى المستعمل هنا، ولا يمكن أن تحسمه الأناجيل ولا تاكيتوس. ويتناول المقال المخصص لذلك النص القرآني وتفسيره.',
-          'وما يمكن قوله تاريخيًا أن أقدم المصادر التي بين أيدينا، مسيحية وغير مسيحية، تتحدث كلها عن موت، وأن مصدرًا من القرن الأول لا يقترح نتيجة مختلفة.',
+          'هذا سؤال مختلف، ويعامله المقال على هذا النحو. فرأي يقوم على وحي في تقليد آخر ليس فرضية تاريخية بالمعنى المستعمل هنا. ويتناول المقال المخصص لذلك النص القرآني وتفسيره باحترام.',
+          'وتاريخيًا، تتحدث أقدم المصادر التي بين أيدينا، مسيحية وغير مسيحية، كلها عن موت، ولا يقترح أي مصدر من القرن الأول نتيجة مختلفة. فالشهادة التاريخية واحدة وواضحة: يسوع صُلب ومات.',
         ],
       },
       limits: {
@@ -271,10 +271,10 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'The historical reasons for holding that Jesus died are that the early sources agree, that a trained executioner verified the death, that no early opponent of the movement claimed otherwise, and that the survivor story fits poorly with the proclamation. These make the swoon theory improbable on the evidence. They do not make it logically impossible, and a reader who holds the theory should be told why it is judged weak, not that it is absurd.',
+        'The early sources agree that Jesus died; a trained executioner verified the death; no early opponent of the faith claimed otherwise; and a survivor story cannot explain the proclamation of the risen Lord. The evidence points one way: Jesus died on the cross. Those who hold the swoon theory deserve a respectful answer, and the sources give it.',
       ],
       ar: [
-        'الأسباب التاريخية للقول بأن يسوع مات: اتفاق المصادر المبكرة، وتحقق منفذ مدرب من الموت، وأن معارضًا مبكرًا للحركة لم يقل غير ذلك، وأن قصة الناجي لا تلائم الإعلان. وهي تجعل نظرية الإغماء بعيدة الاحتمال بحسب الشواهد، ولا تجعلها مستحيلة منطقيًا، ويجب أن يُقال لمن يتبناها لماذا تُعدّ ضعيفة، لا أنها سخيفة.',
+        'المصادر المبكرة متفقة على أن يسوع مات، ومنفذ مدرب تحقق من الموت، ولم يقل أي معارض مبكر للإيمان غير ذلك، وقصة الناجي لا تفسّر الكرازة بالرب القائم. فالشواهد تشير إلى اتجاه واحد: يسوع مات على الصليب. ومن يتبنى نظرية الإغماء يستحق جوابًا محترمًا، والمصادر تقدمه.',
       ],
     },
     theological: {
@@ -305,8 +305,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'The sources give good reason to hold that Jesus died on the cross, and the swoon theory needs several unsupported assumptions and does not fit what the first Christians proclaimed. It is a fair hypothesis to examine, and on the evidence it is a weak one.',
-    ar: 'تعطي المصادر سببًا وجيهًا للقول بأن يسوع مات على الصليب، وتحتاج نظرية الإغماء إلى عدة افتراضات لا سند لها ولا تلائم ما أعلنه المسيحيون الأوائل. هي فرضية جديرة بالفحص، وهي ضعيفة بحسب الشواهد.',
+    en: 'Jesus died on the cross. The sources agree, the executioners confirmed it, and no early voice said otherwise; the swoon theory needs assumptions that no source supports, and it cannot explain the faith of the first Christians. The Church confesses that Christ truly died, His divinity never parting from His body or His soul, and that by His own power He rose from the dead on the third day.',
+    ar: 'مات يسوع على الصليب. فالمصادر متفقة، والمنفذون أكدوا ذلك، ولم يقل صوت مبكر غيره، ونظرية الإغماء تحتاج إلى افتراضات لا يسندها أي مصدر، ولا تفسّر إيمان المسيحيين الأوائل. والكنيسة تعترف بأن المسيح مات حقًا، ولاهوته لم يفارق جسده ولا نفسه، وأنه قام بسلطانه من بين الأموات في اليوم الثالث.',
   },
   furtherReading: ['S08', 'S01', 'S16', 'S14', 'S58'],
   related: ['jesus-executed-under-pilate', 'trial-details-secure-and-debated', 'burial-of-jesus', 'alternative-explanations', 'quran-4-157-and-crucifixion'],

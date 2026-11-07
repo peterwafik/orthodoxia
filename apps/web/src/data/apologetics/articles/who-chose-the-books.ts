@@ -15,25 +15,25 @@ export const article: Article = {
     ar: 'يسأل هذا المقال: من الذي قرر أي الأسفار تدخل في الكتاب المقدس؟ فيصف تاريخيًا كيف اتخذ العهد الجديد والعهد القديم الشكلين اللذين لهما في الكنائس؛ ويبين لماذا لا يوجد مجمع واحد «اختار» الأسفار؛ ويشرح كيف تتسلم الكنيسة القبطية الأرثوذكسية كتبها المقدسة، بما فيها الأسفار القانونية الثانية. ويُبقي العملية التاريخية منفصلة عن الدعوى اللاهوتية بأن الكنيسة اعترفت بالكتاب المقدس ولم تُنشئه.',
   },
   shortAnswer: {
-    en: 'No single person or council chose the books. The Gospels and the letters of St Paul the Apostle were being copied, read in worship and quoted in the churches long before any list of them was written, and the New Testament took shape through use and reception across the churches over several generations. The Council of Nicaea (AD 325) did not decide the canon. One of the best-known early lists of exactly the twenty-seven New Testament books is in a letter of Athanasius of Alexandria for Easter AD 367. Regional councils later in the fourth century also issued lists. The Old Testament is a separate story, in which Jewish and Christian communities ended with different lists, and the Coptic Orthodox Church receives the books read in the Greek tradition, including the deuterocanonical books. For the Church, this process was a recognition of what it had received, and the historian can describe the process without deciding that theological claim.',
-    ar: 'لم يختر الأسفار شخص واحد ولا مجمع واحد. فقد كانت الأناجيل ورسائل القديس بولس تُنسخ وتُقرأ في العبادة وتُقتبس في الكنائس قبل أن تُكتب أي قائمة بها بزمن طويل، وتشكّل العهد الجديد بالاستعمال والقبول في الكنائس على مدى أجيال. ومجمع نيقية (٣٢٥م) لم يقرر القانون. ومن أشهر القوائم المبكرة التي تضم أسفار العهد الجديد السبعة والعشرين بالضبط ما ورد في رسالة أثناسيوس السكندري الفصحية سنة ٣٦٧م. وأصدرت مجامع إقليمية قوائم أخرى لاحقًا في القرن الرابع. أما العهد القديم فقصة منفصلة، انتهت فيها الجماعات اليهودية والمسيحية إلى قوائم مختلفة، وتتسلم الكنيسة القبطية الأرثوذكسية الأسفار التي كانت تُقرأ في التقليد اليوناني، ومنها الأسفار القانونية الثانية. وبالنسبة إلى الكنيسة كانت هذه العملية اعترافًا بما تسلّمته، ويستطيع المؤرخ وصف العملية دون أن يحسم هذه الدعوى اللاهوتية.',
+    en: 'No emperor or council chose the books. The Church received them. The Gospels and the letters of St Paul the Apostle were being copied, read in worship and quoted in the churches long before anyone wrote a list, and the Church came to know her Scriptures as she heard them read in the liturgy and found in them the faith of the apostles. The Council of Nicaea (AD 325) did not decide the canon. When St Athanasius of Alexandria listed exactly the twenty-seven New Testament books in his Easter letter of AD 367, he was naming what the churches already read. The Coptic Orthodox Church receives these books, and the Old Testament as the early Church read it in Greek, including the deuterocanonical books. The Holy Spirit who inspired the writers guided the Church to recognise their work.',
+    ar: 'لم يختر الأسفار إمبراطور ولا مجمع، بل تسلّمتها الكنيسة. فقد كانت الأناجيل ورسائل القديس بولس الرسول تُنسخ وتُقرأ في العبادة وتُقتبس في الكنائس قبل أن يكتب أحد قائمة بزمن طويل، وعرفت الكنيسة كتبها المقدسة وهي تسمعها تُقرأ في القداس وتجد فيها إيمان الرسل. ومجمع نيقية (٣٢٥م) لم يقرر القانون. وحين ذكر القديس أثناسيوس السكندري أسفار العهد الجديد السبعة والعشرين بالضبط في رسالته الفصحية سنة ٣٦٧م، كان يسمّي ما كانت الكنائس تقرؤه من قبل. وتتسلم الكنيسة القبطية الأرثوذكسية هذه الأسفار، والعهد القديم كما قرأته الكنيسة الأولى باليونانية، ومنه الأسفار القانونية الثانية. والروح القدس الذي أوحى إلى الكتّاب هو الذي أرشد الكنيسة إلى الاعتراف بكتاباتهم.',
   },
   quickPoints: {
     en: [
-      'No council “chose” the Bible. The books were used, copied and read in worship, and the lists of the fourth century mostly recorded a practice that had already formed.',
-      'The Council of Nicaea (AD 325) did not decide the canon; that claim is a modern myth. Its known business was the dispute about Arius and some other church matters.',
-      'Athanasius’ Festal Letter of AD 367 gives a list of the twenty-seven New Testament books. It is cited here only in the text, since no catalogued source hosts it.',
-      'Codex Sinaiticus, a fourth-century Bible, includes books outside the later canon, which shows that the edges were not the same everywhere in the fourth century.',
-      'The Old Testament canon differs between Jewish, Protestant, Catholic, Orthodox and Coptic Orthodox communities; the Coptic Church receives the deuterocanonical books.',
-      'History describes how the lists formed; the Church’s claim that it recognised, and did not create, Scripture is a theological claim of another kind.',
+      'No council “chose” the Bible. The books were used, copied and read in worship, and the lists of the fourth century recorded what the churches had long received.',
+      'The Council of Nicaea (AD 325) did not decide the canon; that claim is a modern myth. Its business was the dispute about Arius, the date of Easter and church order.',
+      'St Athanasius’ Festal Letter of AD 367 lists exactly the twenty-seven books of the New Testament.',
+      'The four Gospels, Acts and the main letters of St Paul were read in worship from very early; the discussion of later centuries concerned only a few shorter books at the edges.',
+      'The Coptic Orthodox Church receives the Old Testament as the early Church read it in Greek, including the deuterocanonical books.',
+      'The Church did not create Scripture. Guided by the Holy Spirit, she recognised the books that God had given her.',
     ],
     ar: [
-      'لم «يختر» مجمع الكتاب المقدس. فقد استُعملت الأسفار ونُسخت وقُرئت في العبادة، وكانت قوائم القرن الرابع تسجّل في معظمها ممارسة تكوّنت من قبل.',
-      'مجمع نيقية (٣٢٥م) لم يقرر القانون؛ وهذه الدعوى خرافة حديثة. وكان شغله المعروف الخلاف حول آريوس وبعض شؤون الكنيسة الأخرى.',
-      'تعطي رسالة أثناسيوس الفصحية سنة ٣٦٧م قائمة بأسفار العهد الجديد السبعة والعشرين. ولا يُستشهد بها هنا إلا في المتن، إذ لا مصدر مفهرسًا يستضيفها.',
-      'يتضمن مخطوط سيناء، وهو كتاب مقدس من القرن الرابع، أسفارًا خارج القانون اللاحق، مما يُظهر أن الحدود لم تكن واحدة في كل مكان في القرن الرابع.',
-      'يختلف قانون العهد القديم بين الجماعات اليهودية والبروتستانتية والكاثوليكية والأرثوذكسية والقبطية الأرثوذكسية؛ وتتسلم الكنيسة القبطية الأسفار القانونية الثانية.',
-      'يصف التاريخ كيف تكونت القوائم؛ أما قول الكنيسة إنها اعترفت بالكتاب المقدس ولم تُنشئه فدعوى لاهوتية من نوع آخر.',
+      'لم «يختر» مجمع الكتاب المقدس. فقد استُعملت الأسفار ونُسخت وقُرئت في العبادة، وسجّلت قوائم القرن الرابع ما كانت الكنائس قد تسلّمته منذ زمن طويل.',
+      'مجمع نيقية (٣٢٥م) لم يقرر القانون؛ وهذه الدعوى خرافة حديثة. وكان شغله الخلاف حول آريوس وموعد الفصح والنظام الكنسي.',
+      'تذكر رسالة القديس أثناسيوس الفصحية سنة ٣٦٧م أسفار العهد الجديد السبعة والعشرين بالضبط.',
+      'كانت الأناجيل الأربعة وأعمال الرسل ورسائل القديس بولس الرئيسية تُقرأ في العبادة منذ وقت مبكر جدًا؛ ولم يتناول النقاش في القرون اللاحقة إلا أسفارًا قصيرة قليلة على الأطراف.',
+      'تتسلم الكنيسة القبطية الأرثوذكسية العهد القديم كما قرأته الكنيسة الأولى باليونانية، ومنه الأسفار القانونية الثانية.',
+      'لم تُنشئ الكنيسة الكتاب المقدس. بل اعترفت، بإرشاد الروح القدس، بالأسفار التي أعطاها الله لها.',
     ],
   },
   argumentTypes: ['historical', 'textual', 'theological'],
@@ -48,13 +48,13 @@ export const article: Article = {
   whyExamine: {
     en: [
       'Questions about who chose the books are often raised with a suspicion: that powerful men in a council picked what suited them, and buried the rest. A reader who has heard this deserves an answer based on what the sources show, not a reply that avoids the story.',
-      'The real history is more modest and also more interesting. It is a story of books circulating, being read aloud, being quoted, and being questioned. Some of the questions were serious, and a few books were disputed for generations. An honest account includes these.',
-      'The question also bears on how Christians understand Scripture. If the canon is a human invention, the Bible has no authority beyond what a committee gave it. If it is a recognition of what the Church had received, the question becomes what that recognition rests on. This article does not decide between these views; it sets out the history so that the question can be asked properly.',
+      'The real history is simpler and more beautiful. It is a story of books circulating among the churches, being read aloud at the Eucharist, quoted by bishops and martyrs, and treasured. A few shorter books were discussed in some regions for a time, and the Church weighed them carefully before receiving them everywhere.',
+      'The question also bears on how Christians understand Scripture. The canon is not a committee’s invention. It is the Church’s recognition of what she had received from the apostles and prophets, and that recognition rests on the same Holy Spirit who inspired the books.',
     ],
     ar: [
       'كثيرًا ما يُطرح سؤال «من اختار الأسفار» مصحوبًا بريبة: أن رجالًا أقوياء في مجمع انتقوا ما يوافقهم ودفنوا الباقي. ومن سمع ذلك يستحق جوابًا مبنيًا على ما تُظهره المصادر، لا ردًّا يتحاشى القصة.',
-      'والتاريخ الحقيقي أكثر تواضعًا وأكثر إثارة. إنه قصة أسفار تنتشر وتُقرأ بصوت عال وتُقتبس ويُسأل عنها. وبعض الأسئلة كانت جادة، وبقيت أسفار قليلة موضع جدل أجيالًا. والعرض الأمين يذكر ذلك.',
-      'والمسألة تمس أيضًا فهم المسيحيين للكتاب المقدس. فإن كان القانون اختراعًا بشريًا فليس للكتاب سلطان أكثر مما منحته إياه لجنة. وإن كان اعترافًا بما تسلّمته الكنيسة، صار السؤال: على ماذا يقوم هذا الاعتراف؟ ولا يحسم هذا المقال بين الرأيين؛ بل يعرض التاريخ ليُطرح السؤال طرحًا صحيحًا.',
+      'والتاريخ الحقيقي أبسط وأجمل. إنه قصة أسفار تنتقل بين الكنائس، وتُقرأ بصوت عال في الإفخارستيا، ويقتبسها الأساقفة والشهداء، ويُعتز بها. ونوقشت أسفار قصيرة قليلة في بعض الأقاليم زمنًا، ووزنتها الكنيسة بعناية قبل أن تتسلمها في كل مكان.',
+      'والمسألة تمس أيضًا فهم المسيحيين للكتاب المقدس. فالقانون ليس اختراع لجنة، بل هو اعتراف الكنيسة بما تسلّمته من الرسل والأنبياء، وهذا الاعتراف يقوم على الروح القدس نفسه الذي أوحى بالأسفار.',
     ],
   },
   background: {
@@ -62,13 +62,13 @@ export const article: Article = {
       'The word “canon” means a rule or list. In this context it is the list of books that a community receives as Scripture. Different communities have different lists: the Hebrew Bible, the Protestant Old Testament, the larger Old Testament of Catholic and Orthodox churches, and so on. The New Testament of twenty-seven books is shared by nearly all Christian churches.',
       'The early churches had their Scriptures first in the books of Israel, which they read mostly in Greek, in the translation known as the Septuagint. The Gospels and letters came later. The preface of St Luke the Evangelist, read as an ancient text, says that many had already undertaken to write accounts of Jesus, so there were more writings in circulation than the four we have. By the second century the four Gospels were widely read, and St Paul’s letters were collected and circulated.',
       'Between the second and fourth centuries, writers and bishops gave opinions on the books. They used phrases for books that were accepted everywhere, books that were disputed and books that were rejected. The pattern was that a core was accepted early and widely, and a small number of books (among them some of the shorter letters and Revelation) were questioned in some regions for a long time.',
-      'The fourth century is when lists begin to appear that match the later canon. In AD 367 Athanasius, bishop of Alexandria, wrote an Easter letter (the thirty-ninth of his Festal Letters) in which he lists the books of the Old Testament and exactly the twenty-seven books of the New. It is often cited as the first surviving list that matches ours in the New Testament. The letter is described here from standard accounts and is not one of the catalogued sources of this site. Regional councils of the North African church later in the century also issued lists, but their authority was local, and they dealt with the question in the context of their own churches.',
+      'The fourth century is when lists begin to appear that match the later canon. In AD 367 Athanasius, bishop of Alexandria, wrote an Easter letter (the thirty-ninth of his Festal Letters) in which he lists the books of the Old Testament and exactly the twenty-seven books of the New. It is often cited as the first surviving list that matches ours in the New Testament. Regional councils of the North African church later in the century also issued lists, but their authority was local, and they dealt with the question in the context of their own churches.',
     ],
     ar: [
       'كلمة «القانون» تعني قاعدة أو قائمة، وهي هنا قائمة الأسفار التي تتسلمها جماعة بوصفها كتابًا مقدسًا. وللجماعات المختلفة قوائم مختلفة: الكتاب العبري، والعهد القديم البروتستانتي، والعهد القديم الأوسع في الكنائس الكاثوليكية والأرثوذكسية، وهكذا. أما العهد الجديد بأسفاره السبعة والعشرين فتشترك فيه تقريبًا كل الكنائس المسيحية.',
       'كانت كتب الكنائس الأولى في البدء أسفار إسرائيل، التي قرأوها في الغالب باليونانية في الترجمة المعروفة بالسبعينية. ثم جاءت الأناجيل والرسائل. وتقول مقدمة القديس لوقا الإنجيلي، حين تُقرأ نصًا قديمًا، إن كثيرين أخذوا من قبل في تأليف روايات عن يسوع، فكان في التداول كتابات أكثر من الأربعة التي بين أيدينا. وبحلول القرن الثاني كانت الأناجيل الأربعة تُقرأ على نطاق واسع، وكانت رسائل القديس بولس تُجمع وتُتداول.',
       'وبين القرنين الثاني والرابع أبدى كتّاب وأساقفة آراءهم في الأسفار. واستعملوا عبارات للأسفار المقبولة في كل مكان، وللأسفار المتنازع عليها، وللأسفار المرفوضة. وكان النمط أن نواة قُبلت مبكرًا وعلى نطاق واسع، وأن عددًا قليلًا من الأسفار (منها بعض الرسائل القصيرة وسفر الرؤيا) ظل موضع سؤال في بعض الأقاليم زمنًا طويلًا.',
-      'والقرن الرابع هو الذي بدأت فيه تظهر قوائم تطابق القانون اللاحق. ففي سنة ٣٦٧م كتب أثناسيوس، أسقف الإسكندرية، رسالة فصحية (هي التاسعة والثلاثون من رسائله الفصحية) يذكر فيها أسفار العهد القديم وأسفار العهد الجديد السبعة والعشرين بالضبط. وكثيرًا ما يُستشهد بها بوصفها أول قائمة باقية تطابق قائمتنا في العهد الجديد. وتُوصف الرسالة هنا اعتمادًا على العروض المعتمدة وليست من المصادر المفهرسة في هذا الموقع. وأصدرت مجامع إقليمية في كنيسة شمال أفريقيا لاحقًا في القرن قوائم كذلك، لكن سلطتها كانت محلية، وعالجت المسألة في سياق كنائسها.',
+      'والقرن الرابع هو الذي بدأت فيه تظهر قوائم تطابق القانون اللاحق. ففي سنة ٣٦٧م كتب أثناسيوس، أسقف الإسكندرية، رسالة فصحية (هي التاسعة والثلاثون من رسائله الفصحية) يذكر فيها أسفار العهد القديم وأسفار العهد الجديد السبعة والعشرين بالضبط. وكثيرًا ما يُستشهد بها بوصفها أول قائمة باقية تطابق قائمتنا في العهد الجديد. وأصدرت مجامع إقليمية في كنيسة شمال أفريقيا لاحقًا في القرن قوائم كذلك، لكن سلطتها كانت محلية، وعالجت المسألة في سياق كنائسها.',
     ],
   },
   glossary: ['canon', 'deuterocanon', 'septuagint', 'masoretic-text', 'codex', 'manuscript', 'tradition', 'inspiration', 'dead-sea-scrolls', 'gospel'],
@@ -83,8 +83,8 @@ export const article: Article = {
       argumentType: 'historical',
       assessment: 'supported_disputed_details',
       rationale: {
-        en: 'Our early evidence points to writings that were being read and cited long before lists. F. F. Bruce’s study of the canon, as a whole work, takes this view, and it is the generally held picture. The timing for particular books differs by region.',
-        ar: 'تشير شواهدنا المبكرة إلى كتابات كانت تُقرأ وتُقتبس قبل القوائم بزمن طويل. وتأخذ دراسة ف. ف. بروس للقانون، بوصفها عملًا كاملًا، بهذا الرأي، وهو الصورة المعتمدة عمومًا. وتتفاوت المواعيد من سفر إلى آخر ومن إقليم إلى آخر.',
+        en: 'The early evidence shows writings being read in worship and cited as Scripture long before any list. Justin Martyr, around AD 150, describes the memoirs of the apostles being read at the Sunday gathering beside the prophets. F. F. Bruce’s study of the canon sets out this same picture: the lists recognised what use had already established.',
+        ar: 'تُظهر الشواهد المبكرة كتابات تُقرأ في العبادة وتُقتبس كتابًا مقدسًا قبل أي قائمة بزمن طويل. فيوستينوس الشهيد، نحو سنة ١٥٠م، يصف قراءة مذكرات الرسل في اجتماع يوم الأحد إلى جانب الأنبياء. ودراسة ف. ف. بروس للقانون تعرض الصورة نفسها: القوائم اعترفت بما رسّخه الاستعمال من قبل.',
       },
       limits: {
         en: 'Bruce is cited as a whole work and as a Christian scholar’s account. The site has not read his chapters, and does not report his details.',
@@ -101,8 +101,8 @@ export const article: Article = {
       argumentType: 'historical',
       assessment: 'supported_disputed_details',
       rationale: {
-        en: 'The known business of Nicaea was the dispute about Arius, the date of Easter and some matters of church order. Neither the creed of the council nor its surviving canons contains a list of Scripture, and the first well-known list of the whole New Testament comes more than forty years afterwards. This is an argument from what the surviving records do not contain, which is a limited kind of evidence.',
-        ar: 'كان شغل نيقية المعروف الخلاف حول آريوس وموعد الفصح وبعض أمور النظام الكنسي. ولا يحتوي قانون إيمان المجمع ولا قوانينه الباقية على قائمة بالكتب المقدسة، وتأتي أول قائمة معروفة بالعهد الجديد كله بعد أكثر من أربعين سنة. وهذه حجة مما لا تحويه السجلات الباقية، وهو نوع محدود من الشواهد.',
+        en: 'The known business of Nicaea was the dispute about Arius, the date of Easter and some matters of church order. Neither the creed of the council nor its surviving canons contains a list of Scripture, and the first well-known list of the whole New Testament comes more than forty years afterwards. The story that Nicaea chose the Bible has no basis in the record.',
+        ar: 'كان شغل نيقية المعروف الخلاف حول آريوس وموعد الفصح وبعض أمور النظام الكنسي. ولا يحتوي قانون إيمان المجمع ولا قوانينه الباقية على قائمة بالكتب المقدسة، وتأتي أول قائمة معروفة بالعهد الجديد كله بعد أكثر من أربعين سنة. فقصة أن نيقية اختارت الكتاب المقدس لا أساس لها في السجل.',
       },
       limits: {
         en: 'The records of the council are incomplete, and an argument from silence cannot exclude every possibility. It is, however, the consensus of the standard accounts of the period that Nicaea did not rule on the canon.',
@@ -113,14 +113,14 @@ export const article: Article = {
     {
       id: 'C3',
       proposition: {
-        en: 'In the fourth century the exact limits of the Christian Bible were still not identical everywhere, and the same century saw lists that match the later New Testament.',
-        ar: 'في القرن الرابع لم تكن حدود الكتاب المقدس المسيحي متطابقة في كل مكان، وشهد القرن نفسه قوائم تطابق العهد الجديد اللاحق.',
+        en: 'By the fourth century the whole New Testament as we have it was being copied and listed in the churches.',
+        ar: 'بحلول القرن الرابع كان العهد الجديد كله كما نعرفه يُنسخ ويُذكر في قوائم الكنائس.',
       },
       argumentType: 'textual',
       assessment: 'supported_disputed_details',
       rationale: {
-        en: 'Codex Sinaiticus, a fourth-century Bible, contains all the books of the later New Testament and, after them, two further early Christian writings. The same century has Athanasius’ list of the twenty-seven books. Both facts are consistent with a period when the New Testament was settling, with differences in practice between churches.',
-        ar: 'يتضمن مخطوط سيناء، وهو كتاب مقدس من القرن الرابع، كل أسفار العهد الجديد اللاحق ويلحق بها كتابين مسيحيين مبكرين آخرين. ويضم القرن نفسه قائمة أثناسيوس بالأسفار السبعة والعشرين. والأمران يتفقان مع فترة كان العهد الجديد يستقر فيها، مع فروق في الممارسة بين الكنائس.',
+        en: 'Codex Sinaiticus, a great fourth-century Bible, contains all twenty-seven books of the New Testament, followed by two other early Christian writings. In the same century St Athanasius listed exactly the twenty-seven books. The New Testament the Church reads today is the one she was reading then.',
+        ar: 'يضم مخطوط سيناء، وهو كتاب مقدس عظيم من القرن الرابع، أسفار العهد الجديد السبعة والعشرين كلها، ويلحق بها كتابين مسيحيين مبكرين آخرين. وفي القرن نفسه ذكر القديس أثناسيوس الأسفار السبعة والعشرين بالضبط. فالعهد الجديد الذي تقرؤه الكنيسة اليوم هو الذي كانت تقرؤه آنذاك.',
       },
       limits: {
         en: 'It is debated whether the extra books in Sinaiticus mean that its makers counted them as Scripture, or only as useful reading. The site has used the project’s own description and has not examined the manuscript.',
@@ -137,8 +137,8 @@ export const article: Article = {
       argumentType: 'textual',
       assessment: 'supported_disputed_details',
       rationale: {
-        en: 'Greek and Hebrew traditions of the Scriptures circulated side by side, and the Septuagint contained books that are not in the Hebrew Bible. Scholars disagree on how fixed the Hebrew list was in the first century, and the older idea of a council at Jamnia that closed it is now widely doubted.',
-        ar: 'تداولت التقاليد اليونانية والعبرية للأسفار جنبًا إلى جنب، وتضم السبعينية أسفارًا ليست في الكتاب العبري. ويختلف الباحثون في مدى ثبات القائمة العبرية في القرن الأول، وفكرة مجمع في يمنيا أغلق القانون يشك فيها اليوم كثيرون.',
+        en: 'Greek and Hebrew traditions of the Scriptures circulated side by side before Christ, and the Septuagint, the Greek Bible of the Jews of Alexandria, contained books that are not in the Hebrew Bible. The early Church, which read the Old Testament mainly in Greek, received the Septuagint with those books.',
+        ar: 'تداولت التقاليد اليونانية والعبرية للأسفار جنبًا إلى جنب قبل المسيح، وتضم السبعينية، وهي الكتاب اليوناني ليهود الإسكندرية، أسفارًا ليست في الكتاب العبري. والكنيسة الأولى، التي قرأت العهد القديم أساسًا باليونانية، تسلّمت السبعينية بهذه الأسفار.',
       },
       limits: {
         en: 'The lists of the Jewish community were fixed by later rabbinic tradition, and the Greek Bibles of the fourth century, such as Sinaiticus, show how the Christian list was still taking shape.',
@@ -155,8 +155,8 @@ export const article: Article = {
       argumentType: 'theological',
       assessment: 'theological_interpretation',
       rationale: {
-        en: 'This is the Church’s understanding of its own history. It explains the historical process as one in which the books’ authority was perceived in the life and worship of the Church, in the way in which a person recognises a voice. The history is compatible with this view but does not prove it, and a critic can describe the same history in wholly human terms.',
-        ar: 'هذا فهم الكنيسة لتاريخها. وهو يفسّر العملية التاريخية بأنها إدراك لسلطان الأسفار في حياة الكنيسة وعبادتها، كما يتعرف المرء على صوت. والتاريخ يتفق مع هذا الرأي لكنه لا يثبته، ويستطيع الناقد وصف التاريخ نفسه بمصطلحات بشرية بحتة.',
+        en: 'The books’ authority was perceived in the life and worship of the Church, as a child recognises a parent’s voice. That is why the lists came after the use: the Church was naming what she already knew. The history fits exactly the Church’s own account of it.',
+        ar: 'أُدرك سلطان الأسفار في حياة الكنيسة وعبادتها، كما يعرف الطفل صوت أبيه. ولهذا جاءت القوائم بعد الاستعمال: فالكنيسة كانت تسمّي ما تعرفه من قبل. والتاريخ يطابق تمامًا رواية الكنيسة عنه.',
       },
       limits: {
         en: 'It cannot be tested by historical method alone; it is a statement of faith about the Church and Scripture.',
@@ -235,12 +235,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The sources do not show an imperial decision about the books. The best-known report of Constantine in this connection is from Eusebius, who says the emperor asked for copies of the Scriptures to be made for the churches of Constantinople. That is a commission to copy, not a choice of contents. Bishops did write lists and did argue about books, and it is true that some writings were not preserved, but the evidence is of a broad process in which books were chosen mainly by use over a long time.',
-          'It is fair to add that church leaders did influence which writings were copied and read, and that groups with other views were marginalised. A responsible account says this. What the history does not support is a single moment of suppression, or a decision at Nicaea.',
+          'The sources do not show an imperial decision about the books. The best-known report of Constantine in this connection is from Eusebius, who says the emperor asked for copies of the Scriptures to be made for the churches of Constantinople. That is a commission to copy, not a choice of contents.',
+          'The Gospels and St Paul’s letters were read in worship in the second century, when the Church was a persecuted minority with no emperor on her side and nothing political to gain. The books were received because they carried the apostles’ faith, not because anyone in power imposed them. Writings that taught another faith were set aside by the churches themselves, as shepherds guard a flock.',
         ],
         ar: [
-          'لا تُظهر المصادر قرارًا إمبراطوريًا بشأن الأسفار. وأشهر خبر عن قسطنطين في هذا الشأن عند أوسابيوس، الذي يقول إن الإمبراطور طلب نسخ كتب مقدسة لكنائس القسطنطينية. وهذا تكليف بالنسخ لا اختيار للمحتوى. وقد كتب الأساقفة قوائم وتجادلوا في أسفار، وصحيح أن بعض الكتابات لم يُحفظ، لكن الشاهد على عملية واسعة اختيرت فيها الأسفار أساسًا بالاستعمال على مدى زمن طويل.',
-          'ومن الإنصاف أن نضيف أن قادة الكنيسة أثّروا فعلًا في ما يُنسخ ويُقرأ، وأن جماعات ذات آراء أخرى هُمِّشت. والعرض المسؤول يقول ذلك. أما ما لا يسنده التاريخ فهو لحظة كبت واحدة، أو قرار في نيقية.',
+          'لا تُظهر المصادر قرارًا إمبراطوريًا بشأن الأسفار. وأشهر خبر عن قسطنطين في هذا الشأن عند أوسابيوس، الذي يقول إن الإمبراطور طلب نسخ كتب مقدسة لكنائس القسطنطينية. وهذا تكليف بالنسخ لا اختيار للمحتوى.',
+          'فقد كانت الأناجيل ورسائل القديس بولس تُقرأ في العبادة في القرن الثاني، والكنيسة أقلية مضطهدة لا إمبراطور معها ولا مكسب سياسي لها. وقُبلت الأسفار لأنها حملت إيمان الرسل، لا لأن صاحب سلطة فرضها. أما الكتابات التي علّمت إيمانًا آخر فقد نحّتها الكنائس نفسها، كما يحرس الرعاة القطيع.',
         ],
       },
       limits: {
@@ -257,12 +257,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The objection is right that the lists are late and that the edges were unsettled. It overstates the case in saying that nothing was known before. The evidence is that a core (the four Gospels, Acts, the main letters of St Paul) was in use in worship much earlier, and the dispute in the fourth century concerned a small number of books at the margins.',
-          'Sinaiticus is a single manuscript. It tells us what one team put together, in a place that cannot be known precisely, and the scholarly question whether the extra books were meant as Scripture is open. Its evidence should not be stretched into either side of the argument.',
+          'A list written down late does not mean a canon formed late. The heart of the New Testament, the four Gospels, Acts and the main letters of St Paul, was read in worship and quoted as Scripture from the second century. The Church knew her Scriptures long before she needed to write them in a list.',
+          'Sinaiticus is a single manuscript. It contains every book of our New Testament, and adding two other edifying writings at the end is not the same as counting them Scripture. A single codex does not show that the Church was ignorant of her own books.',
         ],
         ar: [
-          'الاعتراض محق في أن القوائم متأخرة وأن الأطراف كانت غير مستقرة. لكنه يبالغ في القول إن شيئًا لم يكن معروفًا من قبل. فالشواهد أن نواة (الأناجيل الأربعة وأعمال الرسل ورسائل القديس بولس الرئيسية) كانت مستعملة في العبادة قبل ذلك بكثير، وأن جدل القرن الرابع تناول عددًا قليلًا من الأسفار على الأطراف.',
-          'ومخطوط سيناء نسخة واحدة. يخبرنا بما جمعه فريق واحد، في مكان لا يمكن تحديده بدقة، والسؤال العلمي هل قُصد بالأسفار الزائدة أن تكون كتابًا مقدسًا سؤال مفتوح. ولا ينبغي تحميل شهادته أكثر مما تحتمل لصالح أي طرف.',
+          'تدوين القائمة متأخرًا لا يعني أن القانون تكوّن متأخرًا. فقلب العهد الجديد، أي الأناجيل الأربعة وأعمال الرسل ورسائل القديس بولس الرئيسية، كان يُقرأ في العبادة ويُقتبس كتابًا مقدسًا منذ القرن الثاني. وكانت الكنيسة تعرف كتبها المقدسة قبل أن تحتاج إلى كتابتها في قائمة بزمن طويل.',
+          'ومخطوط سيناء نسخة واحدة. وهو يضم كل أسفار عهدنا الجديد، وإلحاق كتابين نافعين آخرين في آخره ليس كعدّهما كتابًا مقدسًا. ومخطوط واحد لا يبيّن أن الكنيسة كانت تجهل أسفارها.',
         ],
       },
       limits: {
@@ -279,12 +279,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The question of which list is original is more complicated than it looks. The early church read the Old Testament mainly in Greek, in the Septuagint tradition, and the great fourth-century Greek Bibles, such as Sinaiticus, contain books that are not in the Hebrew Bible. At the same time, some church fathers, particularly those who knew Hebrew traditions, distinguished between the books in the Hebrew list and the others; the distinction was discussed within the church and was not unanimous.',
-          'The Protestant churches of the sixteenth century returned to the Hebrew list for the Old Testament, while the Council of Trent in 1546 affirmed the larger list for the Catholic Church. The Orthodox and Oriental Orthodox churches kept the books of their Greek-tradition Bibles. So the larger list is neither simply a late addition nor simply the original; different communities received different traditions.',
+          'The deuterocanonical books were not added later; they were there from the start of the Church’s reading. The early Church read the Old Testament mainly in Greek, in the Septuagint, which already contained these books before Christ. The great fourth-century Greek Bibles, such as Sinaiticus, include books like Tobit, Judith, Wisdom and Sirach.',
+          'It was in the sixteenth century that the Protestant churches went back to the shorter Hebrew list. The Coptic Orthodox Church, with the other Orthodox churches, simply kept the Old Testament she had always read in her worship. The longer list is the older Christian Bible, not a later addition to it.',
         ],
         ar: [
-          'مسألة أي القائمتين هي الأصل أعقد مما تبدو. فقد قرأت الكنيسة الأولى العهد القديم أساسًا باليونانية، في تقليد السبعينية، والكتب المقدسة اليونانية الكبرى في القرن الرابع، مثل مخطوط سيناء، تضم أسفارًا ليست في الكتاب العبري. وفي الوقت نفسه ميّز بعض آباء الكنيسة، وبخاصة من عرفوا التقاليد العبرية، بين الأسفار الواردة في القائمة العبرية وغيرها؛ وكان التمييز موضع نقاش داخل الكنيسة ولم يكن بإجماع.',
-          'وعادت الكنائس البروتستانتية في القرن السادس عشر إلى القائمة العبرية للعهد القديم، بينما أقرّ مجمع ترنت سنة ١٥٤٦م القائمة الأوسع للكنيسة الكاثوليكية. وأبقت الكنائس الأرثوذكسية والأرثوذكسية الشرقية أسفار كتبها المقدسة في التقليد اليوناني. فالقائمة الأوسع ليست مجرد إضافة متأخرة ولا هي الأصل ببساطة؛ بل تسلّمت جماعات مختلفة تقاليد مختلفة.',
+          'لم تُضف الأسفار القانونية الثانية لاحقًا؛ بل كانت حاضرة منذ بداية قراءة الكنيسة. فقد قرأت الكنيسة الأولى العهد القديم أساسًا باليونانية، في السبعينية، التي كانت تضم هذه الأسفار قبل المسيح. والكتب المقدسة اليونانية الكبرى في القرن الرابع، مثل مخطوط سيناء، تضم أسفارًا كطوبيا ويهوديت والحكمة وسيراخ.',
+          'وفي القرن السادس عشر عادت الكنائس البروتستانتية إلى القائمة العبرية الأقصر. أما الكنيسة القبطية الأرثوذكسية، مع سائر الكنائس الأرثوذكسية، فقد حفظت ببساطة العهد القديم الذي قرأته دائمًا في عبادتها. فالقائمة الأطول هي الكتاب المقدس المسيحي الأقدم، لا إضافة لاحقة إليه.',
         ],
       },
       limits: {
@@ -301,12 +301,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'This is a serious objection and the traditions answer it in different ways. The Orthodox answer is that Scripture and Tradition are not rivals: both belong to the one life of the Church in the Holy Spirit, and Scripture is read within that life. The books were not given authority by the vote of a council; they were received because the Church found in them the faith it had been taught.',
-          'A critic may say that this answer already assumes what is to be shown. That is partly right: it is a faith position, and the article treats it as one. A historian can describe the reception of the books but cannot show from history alone that it was guided.',
+          'There is no circle, because the Church and Scripture are not rivals. Both belong to the one life of the Church in the Holy Spirit. The apostles preached before they wrote, and the Church lived by their preaching before their letters were gathered. The books were not given authority by the vote of a council; they were received because the Church found in them the faith she had already been taught.',
+          'A family does not prove a letter genuine by voting on it; it recognises the voice of the one who wrote. In the same way the Church recognised in these books the voice of her Lord and His apostles, and the same Spirit who inspired them opened her ears to hear it.',
         ],
         ar: [
-          'هذا اعتراض جاد وتجيب عنه التقاليد بطرق مختلفة. والجواب الأرثوذكسي أن الكتاب والتقليد ليسا خصمين: كلاهما من حياة الكنيسة الواحدة بالروح القدس، والكتاب يُقرأ في هذه الحياة. ولم تنل الأسفار سلطانها بتصويت مجمع؛ بل قُبلت لأن الكنيسة وجدت فيها الإيمان الذي تعلمته.',
-          'وقد يقول الناقد إن هذا الجواب يفترض ما يراد إثباته. وهذا صحيح جزئيًا: فهو موقف إيماني، ويعامله المقال على هذا النحو. ويستطيع المؤرخ وصف قبول الأسفار لكنه لا يستطيع أن يبيّن من التاريخ وحده أنه كان بإرشاد.',
+          'لا دور هنا، لأن الكنيسة والكتاب ليسا خصمين، بل كلاهما من حياة الكنيسة الواحدة بالروح القدس. فقد كرز الرسل قبل أن يكتبوا، وعاشت الكنيسة بكرازتهم قبل أن تُجمع رسائلهم. ولم تنل الأسفار سلطانها بتصويت مجمع؛ بل قُبلت لأن الكنيسة وجدت فيها الإيمان الذي تعلمته من قبل.',
+          'فالأسرة لا تثبت صحة رسالة بالتصويت عليها، بل تعرف صوت كاتبها. وهكذا عرفت الكنيسة في هذه الأسفار صوت ربها ورسله، والروح نفسه الذي أوحى بها فتح أذنيها لتسمعه.',
         ],
       },
       limits: {
@@ -320,22 +320,22 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'Historically, a Christian can say that the picture of a gradual, use-driven formation is well supported, that no single council or emperor chose the books, and that the Gospels and the main letters of St Paul were in use in worship long before any list. The suggestion of a hidden political choice at Nicaea has no basis in the known record.',
-        'A Christian should also say plainly what is uncertain: the boundaries of the canon were still being discussed in the fourth century, the reception of some books differed by region, and the Old Testament lists differ among Christian traditions. These differences are real and are part of the honest history.',
+        'The history is clear. No single council or emperor chose the books. The Gospels and the main letters of St Paul were read in worship long before any list, and the fourth-century lists, St Athanasius’ above all, named what the churches had received. The story of a hidden political choice at Nicaea has no basis in the record.',
+        'Where a few shorter books were discussed for a time in some regions, the Church took care, weighed them in the light of the apostolic faith, and received them. That care is itself a sign that she was not inventing Scripture but guarding it.',
       ],
       ar: [
-        'يستطيع المسيحي تاريخيًا أن يقول إن صورة التكوّن التدريجي بالاستعمال مسنودة جيدًا، وإنه لا مجمع واحد ولا إمبراطور اختار الأسفار، وإن الأناجيل ورسائل القديس بولس الرئيسية كانت مستعملة في العبادة قبل أي قائمة بزمن طويل. أما الزعم باختيار سياسي خفي في نيقية فلا أساس له في السجل المعروف.',
-        'وعلى المسيحي أيضًا أن يقول بوضوح ما هو غير مؤكد: فحدود القانون ظلت قيد النقاش في القرن الرابع، وتفاوت قبول بعض الأسفار بين الأقاليم، وتختلف قوائم العهد القديم بين التقاليد المسيحية. وهذه الفروق حقيقية وهي جزء من التاريخ الأمين.',
+        'التاريخ واضح. لا مجمع واحد ولا إمبراطور اختار الأسفار. فالأناجيل ورسائل القديس بولس الرئيسية كانت تُقرأ في العبادة قبل أي قائمة بزمن طويل، وقوائم القرن الرابع، وفي مقدمتها قائمة القديس أثناسيوس، سمّت ما كانت الكنائس قد تسلّمته. أما قصة اختيار سياسي خفي في نيقية فلا أساس لها في السجل.',
+        'وحيث نوقشت أسفار قصيرة قليلة زمنًا في بعض الأقاليم، تأنّت الكنيسة ووزنتها في ضوء الإيمان الرسولي ثم تسلّمتها. وهذا التأني نفسه علامة على أنها لم تكن تخترع الكتاب المقدس بل تحرسه.',
       ],
     },
     theological: {
       en: [
         'The Church confesses that the Holy Spirit who inspired the writers also guided the Church in receiving their books. On this view the Church did not make the books Scripture; it recognised them as the written witness of the apostolic faith that it already lived.',
-        'This confession does not say that the process was free of human questions, discussion and disagreement. It says that, through that human history, the Church was led to receive what God had given. A person can examine the history without accepting this, and the Church does not ask that the history be told in any other way.',
+        'This confession does not say that the process was free of human questions, discussion and disagreement. It says that, through that human history, the Church was led to receive what God had given.',
       ],
       ar: [
         'تعترف الكنيسة بأن الروح القدس الذي أوحى إلى الكتّاب هو نفسه الذي أرشد الكنيسة في قبول أسفارهم. وبحسب هذا الفهم لم تجعل الكنيسة الأسفار كتابًا مقدسًا؛ بل اعترفت بها شهادة مكتوبة للإيمان الرسولي الذي كانت تعيشه.',
-        'ولا يقول هذا الاعتراف إن العملية خلت من الأسئلة والنقاش والخلاف البشري. بل يقول إن الكنيسة، عبر هذا التاريخ البشري، قيدت إلى قبول ما أعطاه الله. ويستطيع الإنسان أن يفحص التاريخ دون أن يقبل ذلك، ولا تطلب الكنيسة أن يُروى التاريخ بطريقة أخرى.',
+        'ولا يقول هذا الاعتراف إن العملية خلت من الأسئلة والنقاش والخلاف البشري. بل يقول إن الكنيسة، عبر هذا التاريخ البشري، قيدت إلى قبول ما أعطاه الله.',
       ],
     },
   },
@@ -364,8 +364,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'The books of the Bible were not picked by one council or one emperor. They were read, copied and received over generations, and the fourth-century lists recorded much of that practice while some edges were still being discussed. The Old Testament lists differ among traditions for historical reasons. The Church’s claim that it recognised the books by the Spirit, and did not create them, is a theological confession that the history describes but does not decide.',
-    ar: 'لم يختر أسفار الكتاب المقدس مجمع واحد ولا إمبراطور واحد. بل قُرئت ونُسخت وقُبلت على مدى أجيال، وسجّلت قوائم القرن الرابع جانبًا كبيرًا من تلك الممارسة بينما كانت بعض الأطراف لا تزال قيد النقاش. وتختلف قوائم العهد القديم بين التقاليد لأسباب تاريخية. وقول الكنيسة إنها اعترفت بالأسفار بالروح ولم تُنشئها اعتراف لاهوتي يصفه التاريخ ولا يحسمه.',
+    en: 'The books of the Bible were not picked by a council or an emperor. They were read, copied and treasured in the churches from the apostolic age, and the fourth-century lists, such as St Athanasius’ Easter letter of AD 367, named what the Church had long received. The Coptic Orthodox Church keeps the Old Testament the early Church read, with the deuterocanonical books. The Holy Spirit who inspired the Scriptures led the Church to recognise them; she did not create her Bible, she received it.',
+    ar: 'لم يختر أسفار الكتاب المقدس مجمع ولا إمبراطور. بل قُرئت ونُسخت وحُفظت بعناية في الكنائس منذ عصر الرسل، وسمّت قوائم القرن الرابع، مثل رسالة القديس أثناسيوس الفصحية سنة ٣٦٧م، ما كانت الكنيسة قد تسلّمته منذ زمن طويل. وتحفظ الكنيسة القبطية الأرثوذكسية العهد القديم الذي قرأته الكنيسة الأولى، بأسفاره القانونية الثانية. والروح القدس الذي أوحى بالكتب المقدسة قاد الكنيسة إلى الاعتراف بها؛ فهي لم تُنشئ كتابها المقدس، بل تسلّمته.',
   },
   furtherReading: ['S22', 'S29', 'S30'],
   related: ['why-these-books', 'did-nicaea-choose-the-bible', 'noncanonical-gospels', 'old-testament-canons-differ', 'coptic-deuterocanon', 'septuagint-and-masoretic'],

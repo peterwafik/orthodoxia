@@ -1,8 +1,11 @@
 # Writing a Faith & Evidence article
 
 Each article is one TypeScript file, `apps/web/src/data/apologetics/articles/<question-id>.ts`, exporting `article: Article`
-(types in `../types.ts`). The page renders three views (Quick answer, Examine the evidence, Advanced study) from this one record, so
-there are never two contradictory versions. `npx vitest run src/data/apologetics` (from `apps/web`) must pass.
+(types in `../types.ts`). The page shows one path through it, in this order: **The answer** (`shortAnswer`, `quickPoints`),
+**Why this question matters** (`whyExamine`, `background`, glossary terms), **The evidence** (each claim's `proposition` and
+`rationale` with its sources, then `christianResponse.historical`, then the Scripture passages), **What the Church teaches**
+(`christianResponse.theological`, `coptic`), **Objections answered** (`statement`, `response`), **Conclusion**, then the numbered
+**Sources** and **Related questions**. `scope`, `assessment`, `limits` and `disputed` are kept in the record but not shown. `npx vitest run src/data/apologetics` (from `apps/web`) must pass.
 
 ## Voice, faith position and honesty rules
 
@@ -14,10 +17,15 @@ there are never two contradictory versions. `npx vitest run src/data/apologetics
   and in its own terms (the one incarnate nature of God the Word, *miaphysis*, not "monophysitism"; the Virgin Mary as Theotokos and
   ever-virgin; the seven sacraments; Scripture within Holy Tradition). Present other Christian traditions, other religions and
   non-believing positions fairly, as their holders would recognise them, and answer them; never caricature them or insult anyone.
+- **A guiding voice.** The page leads the reader to the truth the Church holds. The answer and the conclusion state it plainly with
+  its strongest reasons; the evidence is set out as reasons for it; each objection is stated fairly and then answered firmly. No
+  survey framing in the shown fields ("historians divide", "some think… others think…", "a critic can fairly answer", "one proposal
+  among others", "would not by itself prove"), and no closing paragraph on what remains uncertain.
 - **No notices, no hedge-flags.** Do not write that anything is a draft, AI-written, "proposed", "to be confirmed", "awaiting
-  review" or "needs verification". Instead, say only what you are certain of; leave out any detail you cannot stand behind (a date,
-  a locator, a name, a number) rather than flagging it. Where the evidence really is contested, set out the positions plainly as part of
-  the answer, and say what the evidence settles and what it does not. That is content, not a warning label.
+  review" or "needs verification". Say only what you are certain of; leave out any detail you cannot stand behind (a date, a
+  locator, a name, a number) rather than flagging it.
+- **Confidence never becomes invention.** Never invent a fact, source, quotation or scholar's position to sound surer, and never
+  claim consensus (see below): the confidence comes from the evidence and from the Church's teaching.
 - Assessment labels: use the seven labels in `types.ts` and write a real rationale.
   `philosophical_argument` and `theological_interpretation` are categories of reasoning, not weak confidence. Never write a
   percentage, "all scholars agree" or "no serious scholar denies".
@@ -25,7 +33,7 @@ there are never two contradictory versions. `npx vitest run src/data/apologetics
   supports a conclusion / the Church affirms a doctrine. Keep `christianResponse.historical` apart from `.theological`.
 - Historical arguments must not require the reader to accept biblical inspiration. When Scripture is used, say it is being read as an
   ancient document; the theological section may then speak from faith.
-- State objections as their proponents would recognise them. Name a scholar or position (Ehrman, Allison, Finkelstein…) only where
+- State objections as their proponents would recognise them, then answer them. Name a scholar or position (Ehrman, Allison, Finkelstein…) only where
   you are certain of the position; otherwise describe "some historians argue".
 
 ## Evidence and sources
@@ -56,13 +64,13 @@ there are never two contradictory versions. `npx vitest run src/data/apologetics
 
 `scope`, `shortAnswer`, `quickPoints` (3–6 bullets), `argumentTypes`, `assessment` (label + explanation), `whyExamine`, `background`,
 `glossary` (ids from `glossary.ts`), `claims` (precise propositions, each with evidence ids), `evidence`, `objections` (each with a
-response and what it does not settle), `christianResponse` (historical / theological), `coptic` (null when the question does not need
-it), `disputed`, `conclusion` (proportionate), `furtherReading`, `related` (question ids from `questions.ts`).
+firm response; `limits` is kept but not shown), `christianResponse` (historical / theological), `coptic` (null when the question does not need
+it), `disputed` (kept, not shown), `conclusion` (states the answer the page leads to), `furtherReading`, `related` (question ids from `questions.ts`).
 
 Length: as long as the question needs. No word target; no filler.
 
 ## Relevance and reverence of cited sources (binding)
 
-- The "Primary evidence and sources" section of an answer shows only links: each entry's source (or, for Scripture, the Bible reader passage) and its locator. No commentary is shown there, so **every entry must by itself be a source a reader would expect to find under that exact question**.
+- The "Sources" list of an answer shows only links: each entry's source (or, for Scripture, the Bible reader passage) and its locator. No commentary is shown there, so **every entry must by itself be a source a reader would expect to find under that exact question**.
 - Cite a source or passage only if it is directly about the subject of this question. A passage that merely mentions a related idea, a general illustration, or something "in the same book" does not belong. If you would have to explain why it is there, remove it. Fewer, directly relevant entries are better than many loosely related ones.
 - Never make a Scripture passage or an apostle serve a point it does not make, and never describe St Paul or any apostle or Gospel writer in a belittling, merely sceptical or "mere evidence" tone. Name them with the Church's customary reverence (St Paul the Apostle, St Luke the Evangelist). A historical argument may still treat the New Testament as an ancient document, but must do so respectfully and only with passages that actually bear on the question.

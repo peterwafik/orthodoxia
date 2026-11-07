@@ -15,25 +15,25 @@ export const article: Article = {
     ar: 'يسأل هذا المقال: هل قدّم المسيحيون عبادة ليسوع قبل عهد قسطنطين (الذي صار الإمبراطور الوحيد في عشرينيات القرن الرابع ودعا إلى مجمع نيقية سنة ٣٢٥م)؟ فينظر في تقرير روماني من خارج الجماعة، وفي كتّاب مسيحيين مبكرين، وفي رسائل القديس بولس، ويشرح ما قد تعنيه «العبادة»، ويضع صورتين علميتين جنبًا إلى جنب: التعبد المبكر جدًا، والتطور التدريجي. ولا يحاول حسم كل الأسئلة عن اللاهوت المسيحاني المبكر.',
   },
   shortAnswer: {
-    en: 'Yes. The evidence is clear that Christians were giving Jesus devotion that included hymns, prayer and invocation long before Constantine: a Roman governor reported it around AD 110, and Christian writers of the second century describe it. St Paul’s letters, written in the AD 50s, already show Jesus being confessed as Lord and invoked, and some scholars think this devotion arose within the first years of the movement. The disputed questions are how far back it goes, and what the first Christians meant by it: some historians see divinity attributed to Jesus from the beginning, others see a gradual development. Nicaea did not invent the belief; it defined it in answer to Arius.',
-    ar: 'نعم. الشواهد واضحة في أن المسيحيين كانوا يقدّمون ليسوع تعبدًا يشمل التسابيح والصلاة والاستدعاء قبل قسطنطين بزمن طويل: فقد سجّله حاكم روماني نحو سنة ١١٠م، ووصفه كتّاب مسيحيون في القرن الثاني. وتُظهر رسائل القديس بولس، المكتوبة في الخمسينيات، يسوع معترَفًا به ربًّا ومُستدعى. ويرى بعض الباحثين أن هذا التعبد نشأ خلال السنوات الأولى للحركة. والمسائل المختلف عليها هي: إلى أي حد يرجع، وماذا عنى به المسيحيون الأوائل؛ فبعض المؤرخين يرى أن اللاهوت نُسب إلى يسوع منذ البداية، ويرى آخرون تطورًا تدريجيًا. ونيقية لم تخترع هذا الإيمان؛ بل حدّدته جوابًا على آريوس.',
+    en: 'Yes. Christians worshipped Jesus from the very beginning, long before Constantine. St Paul’s letters, written in the AD 50s, already confess Jesus as Lord, call on His name in prayer, and apply to Him words that the Old Testament says of God alone. Around AD 110 a Roman governor reported that Christians met before dawn to sing a hymn to Christ as to a god, and Christian writers of the second century describe the same worship from within. These were Jews and their converts, who knew that worship belongs to God alone, and they worshipped Christ. Nicaea did not invent this faith; it defended it against Arius, in words, as the faith the Church had always held.',
+    ar: 'نعم. عبد المسيحيون يسوع منذ البداية، قبل قسطنطين بزمن طويل. فرسائل القديس بولس، المكتوبة في الخمسينيات، تعترف بيسوع ربًّا، وتدعو باسمه في الصلاة، وتطبّق عليه كلمات يقولها العهد القديم عن الله وحده. ونحو سنة ١١٠م أخبر حاكم روماني أن المسيحيين كانوا يجتمعون قبل الفجر ليرنموا ترنيمة للمسيح كما لإله، ووصف كتّاب مسيحيون في القرن الثاني العبادة نفسها من الداخل. وكان هؤلاء يهودًا ومن آمنوا على أيديهم، يعرفون أن العبادة لله وحده، ومع ذلك عبدوا المسيح. ونيقية لم تخترع هذا الإيمان؛ بل دافعت عنه ضد آريوس، بكلمات، بوصفه الإيمان الذي تمسكت به الكنيسة دائمًا.',
   },
   quickPoints: {
     en: [
       'Pliny the Younger, a Roman governor writing around AD 110, reports that Christians sang a hymn to Christ “as to a god”.',
-      'Justin Martyr (c. AD 150–155) and Ignatius of Antioch (early second century) describe Christ as the object of Christian worship and honour.',
-      'St Paul’s letters, usually dated to the AD 50s, confess Jesus as Lord, include early hymn-like passages and preserve an Aramaic prayer addressed to him.',
-      'Larry Hurtado argues that devotion to Jesus appeared remarkably early; Bart Ehrman argues that belief in Jesus’ divinity developed in stages. Both are read as whole works here.',
-      '“Worship” covers different acts, and whether devotion equals the claim that Jesus is God in the later sense is a separate question.',
-      'The Council of Nicaea (AD 325) defined the Son’s divinity against the teaching of Arius; it did not begin the worship of Christ.',
+      'Justin Martyr (c. AD 150–155) and Ignatius of Antioch (early second century) describe Christ as the object of Christian worship and honour; Ignatius calls Him God.',
+      'St Paul’s letters, written in the AD 50s, confess Jesus as Lord, include early hymn-like passages and preserve an Aramaic prayer addressed to Him.',
+      'St Paul applies to Jesus the prophet Joel’s words about calling on the name of the Lord, words spoken of God Himself.',
+      'This devotion arose among Jews who guarded the worship of the one God, which shows that they knew whom they were worshipping.',
+      'The Council of Nicaea (AD 325) defended the Son’s divinity against the teaching of Arius; it did not begin the worship of Christ.',
     ],
     ar: [
       'يذكر بليني الأصغر، وهو حاكم روماني كتب نحو سنة ١١٠م، أن المسيحيين كانوا يرنمون ترنيمة للمسيح «كما لإله».',
-      'يصف يوستينوس الشهيد (نحو ١٥٠–١٥٥م) وإغناطيوس الأنطاكي (أوائل القرن الثاني) المسيح موضوعًا لعبادة المسيحيين وإكرامهم.',
-      'تعترف رسائل القديس بولس، التي يؤرَّخ لها عادة في الخمسينيات، بيسوع ربًّا، وفيها مقاطع شبيهة بالتسابيح المبكرة، وتحفظ صلاة آرامية موجهة إليه.',
-      'يرى لاري هورتادو أن التعبد ليسوع ظهر مبكرًا على نحو لافت، ويرى بارت إيرمان أن الإيمان بلاهوت يسوع تطور على مراحل. ويُقرأ العملان هنا بوصفهما عملين كاملين.',
-      'تشمل «العبادة» أفعالًا مختلفة، وهل يعادل التعبد القول بأن يسوع هو الله بالمعنى اللاحق مسألة مستقلة.',
-      'حدّد مجمع نيقية (٣٢٥م) لاهوت الابن في مواجهة تعليم آريوس، ولم يبدأ عبادة المسيح.',
+      'يصف يوستينوس الشهيد (نحو ١٥٠–١٥٥م) وإغناطيوس الأنطاكي (أوائل القرن الثاني) المسيح موضوعًا لعبادة المسيحيين وإكرامهم؛ ويسمّيه إغناطيوس الله.',
+      'تعترف رسائل القديس بولس، المكتوبة في الخمسينيات، بيسوع ربًّا، وفيها مقاطع شبيهة بالتسابيح المبكرة، وتحفظ صلاة آرامية موجهة إليه.',
+      'يطبّق القديس بولس على يسوع كلمات يوئيل النبي عن الدعاء باسم الرب، وهي كلمات قيلت عن الله نفسه.',
+      'نشأ هذا التعبد بين يهود يحرسون عبادة الإله الواحد، وهذا يبيّن أنهم عرفوا من يعبدون.',
+      'دافع مجمع نيقية (٣٢٥م) عن لاهوت الابن في مواجهة تعليم آريوس، ولم يبدأ عبادة المسيح.',
     ],
   },
   argumentTypes: ['historical', 'textual', 'theological'],
@@ -48,27 +48,25 @@ export const article: Article = {
   whyExamine: {
     en: [
       'A popular claim says that Jesus was made God by the emperor Constantine, or by a vote at Nicaea. It is repeated often enough that many people meet it before they meet any of the evidence. It deserves a direct answer, with the sources in view.',
-      'The honest answer has two layers. On the plain historical question (did Christians worship Jesus earlier than the fourth century?) the evidence is clear. On the deeper question of what the earliest Christians believed about his nature, there is a lively scholarly debate, and a fair presentation should show both sides.',
-      'The question matters for Christians as well. The Church holds that the faith defined at Nicaea is the faith of the apostles. That is a theological claim; but it makes sense to ask what the earliest sources show about how Christ was approached in worship, and to see how far they point in that direction.',
+      'The question matters for Christians as well. The Church holds that the faith defined at Nicaea is the faith of the apostles. The earliest sources let us see this for ourselves: from the first generation, Christ was approached in worship as only God is approached.',
     ],
     ar: [
       'يشيع القول إن الإمبراطور قسطنطين هو الذي جعل يسوع إلهًا، أو إن ذلك تم بتصويت في نيقية. وهو يتكرر حتى إن كثيرين يسمعونه قبل أن يطلعوا على أي شاهد. ويستحق جوابًا مباشرًا والمصادر أمامنا.',
-      'والجواب الأمين ذو طبقتين. ففي السؤال التاريخي البسيط (هل عبد المسيحيون يسوع قبل القرن الرابع؟) الشواهد واضحة. وفي السؤال الأعمق عمّا آمن به المسيحيون الأوائل بشأن طبيعته نقاش علمي حي، وينبغي للعرض المنصف أن يُظهر الجانبين.',
-      'والمسألة تهم المسيحيين أيضًا. فالكنيسة تؤمن بأن الإيمان الذي حُدد في نيقية هو إيمان الرسل. وهذه دعوى لاهوتية؛ لكن من المعقول أن نسأل ماذا تُظهر أقدم المصادر عن طريقة التوجه إلى المسيح في العبادة، وإلى أي مدى تشير في ذلك الاتجاه.',
+      'والمسألة تهم المسيحيين أيضًا. فالكنيسة تؤمن بأن الإيمان الذي حُدد في نيقية هو إيمان الرسل. وأقدم المصادر تتيح لنا أن نرى ذلك بأنفسنا: فمنذ الجيل الأول كان التوجه إلى المسيح في العبادة كالتوجه إلى الله وحده.',
     ],
   },
   background: {
     en: [
       'Christianity began among Jews, for whom worship belonged to the one God of Israel alone. That is why early devotion to Jesus is historically interesting: the first followers were people who knew the rule against worshipping anyone else.',
       'The word “worship” is used for several things: reverence shown to a king or a respected person, prayer and invocation, hymns, sacrifice and ritual meals, and the exclusive worship owed to God alone. Historians therefore usually ask which acts were directed to Jesus, instead of relying on the single word.',
-      'Constantine, who became sole emperor in the 320s, supported the Church and called the bishops to Nicaea in AD 325 to deal with a dispute begun in Alexandria. The dispute was between Christians who already worshipped Christ. Arius taught that the Son was created, a view which his opponents, including Alexander of Alexandria and then Athanasius, rejected. The council affirmed that the Son is of one being with the Father. These facts are drawn from standard histories and are discussed in other articles on this site.',
-      'Our sources for the period before Nicaea are of different kinds: an outside Roman letter, the writings of Christian authors, and the New Testament letters read as ancient documents. Each tells us something different, and none by itself settles the debate about what the first Christians meant.',
+      'Constantine, who became sole emperor in the 320s, supported the Church and called the bishops to Nicaea in AD 325 to deal with a dispute begun in Alexandria. The dispute was between Christians who already worshipped Christ. Arius taught that the Son was created, a view which his opponents, including Alexander of Alexandria and then Athanasius, rejected. The council affirmed that the Son is of one being with the Father. These events are discussed in other articles on this site.',
+      'Our sources for the period before Nicaea are of different kinds: an outside Roman letter, the writings of Christian authors, and the New Testament letters read as ancient documents. Each tells us something different, and together they point the same way.',
     ],
     ar: [
       'نشأت المسيحية بين اليهود، الذين كانت العبادة عندهم لإله إسرائيل الواحد وحده. ولذلك فالتعبد المبكر ليسوع ظاهرة مثيرة تاريخيًا: فالتلاميذ الأوائل كانوا يعرفون القاعدة التي تمنع عبادة أي آخر.',
       'وتُستعمل كلمة «العبادة» لأمور متعددة: التوقير الذي يُقدَّم لملك أو شخص مبجَّل، والصلاة والاستدعاء، والتسابيح، والذبيحة والولائم الطقسية، والعبادة الخاصة التي لا تُؤدَّى إلا لله وحده. لذلك يسأل المؤرخون عادة أي الأفعال وُجهت إلى يسوع، بدل الاعتماد على كلمة واحدة.',
-      'وقسطنطين، الذي صار الإمبراطور الوحيد في عشرينيات القرن الرابع، دعم الكنيسة ودعا الأساقفة إلى نيقية سنة ٣٢٥م لمعالجة خلاف بدأ في الإسكندرية. وكان الخلاف بين مسيحيين يعبدون المسيح أصلًا. فقد علّم آريوس أن الابن مخلوق، ورفض ذلك معارضوه، ومنهم ألكسندروس السكندري ثم أثناسيوس. وأقرّ المجمع أن الابن واحد في الجوهر مع الآب. وهذه الوقائع مأخوذة من كتب التاريخ المعتمدة وتتناولها مقالات أخرى في هذا الموقع.',
-      'ومصادرنا للفترة السابقة لنيقية من أنواع مختلفة: رسالة رومانية من الخارج، وكتابات مؤلفين مسيحيين، ورسائل العهد الجديد مقروءة بوصفها وثائق قديمة. وكل منها يخبرنا بشيء مختلف، ولا يحسم أي منها وحده النقاش حول مقصد المسيحيين الأوائل.',
+      'وقسطنطين، الذي صار الإمبراطور الوحيد في عشرينيات القرن الرابع، دعم الكنيسة ودعا الأساقفة إلى نيقية سنة ٣٢٥م لمعالجة خلاف بدأ في الإسكندرية. وكان الخلاف بين مسيحيين يعبدون المسيح أصلًا. فقد علّم آريوس أن الابن مخلوق، ورفض ذلك معارضوه، ومنهم ألكسندروس السكندري ثم أثناسيوس. وأقرّ المجمع أن الابن واحد في الجوهر مع الآب. وتتناول هذه الأحداث مقالات أخرى في هذا الموقع.',
+      'ومصادرنا للفترة السابقة لنيقية من أنواع مختلفة: رسالة رومانية من الخارج، وكتابات مؤلفين مسيحيين، ورسائل العهد الجديد مقروءة بوصفها وثائق قديمة. وكل منها يخبرنا بشيء مختلف، وهي معًا تشير في اتجاه واحد.',
     ],
   },
   glossary: ['christology', 'trinity', 'primary-source', 'independent-attestation', 'tradition', 'miaphysitism', 'theism'],
@@ -83,8 +81,8 @@ export const article: Article = {
       argumentType: 'historical',
       assessment: 'strong_historical_support',
       rationale: {
-        en: 'A non-Christian Roman governor describes the practice from what he learned in examining Christians, and Christian writers from the second century describe similar practice independently.',
-        ar: 'يصف حاكم روماني غير مسيحي هذه الممارسة مما عرفه من استجواب المسيحيين، ويصف كتّاب مسيحيون من القرن الثاني ممارسة مشابهة على نحو مستقل.',
+        en: 'A non-Christian Roman governor describes the practice from what he learned in examining Christians, and he had no reason to invent it. Christian writers of the second century describe the same practice independently, and the satirist Lucian later mocks Christians for worshipping the crucified man.',
+        ar: 'يصف حاكم روماني غير مسيحي هذه الممارسة مما عرفه من استجواب المسيحيين، ولم يكن له سبب لاختلاقها. ويصف كتّاب مسيحيون من القرن الثاني الممارسة نفسها على نحو مستقل، ثم يسخر الهجّاء لوقيانوس من المسيحيين لعبادتهم الرجل المصلوب.',
       },
       limits: {
         en: 'Pliny is an outsider writing from a few interrogations; his phrase tells us how it looked to a Roman, not how Christians themselves explained it.',
@@ -95,14 +93,14 @@ export const article: Article = {
     {
       id: 'C2',
       proposition: {
-        en: 'St Paul’s letters, in the AD 50s, already show Jesus confessed as Lord and invoked in prayer, and some of this language may be older than the letters.',
-        ar: 'تُظهر رسائل القديس بولس، في الخمسينيات الميلادية، يسوع معترَفًا به ربًّا ومُستدعى في الصلاة، وقد يكون بعض هذه اللغة أقدم من الرسائل.',
+        en: 'St Paul’s letters, in the AD 50s, already show Jesus confessed as Lord and invoked in prayer, in language St Paul expects his readers to know already.',
+        ar: 'تُظهر رسائل القديس بولس، في الخمسينيات الميلادية، يسوع معترَفًا به ربًّا ومُستدعى في الصلاة، بلغة يتوقع القديس بولس أن قرّاءه يعرفونها من قبل.',
       },
       argumentType: 'textual',
       assessment: 'supported_disputed_details',
       rationale: {
-        en: 'The passages are in the letters and are not disputed as St Paul’s. Scholars differ on whether Philippians 2:5–11 is a hymn St Paul adopted, and on what exactly the Aramaic phrase in 1 Corinthians 16:22 means.',
-        ar: 'المقاطع واردة في الرسائل ولا يُختلف في نسبتها إلى القديس بولس. ويختلف الباحثون في هل فيلبي ٢: ٥–١١ ترنيمة تبناها القديس بولس، وفي المعنى الدقيق للعبارة الآرامية في ١ كورنثوس ١٦: ٢٢.',
+        en: 'In Philippians 2 every knee is to bow to Jesus and every tongue confess Him Lord, words that Isaiah speaks of God. In 1 Corinthians 8:6 Jesus is placed within the confession of the one God, and at the end of the same letter St Paul keeps an Aramaic prayer to the Lord, “Our Lord, come”, from the Aramaic-speaking church. In Romans 10 he applies to Jesus Joel’s words about calling on the name of the Lord.',
+        ar: 'في فيلبي ٢ تجثو ليسوع كل ركبة ويعترف كل لسان بأنه رب، وهي كلمات يقولها إشعياء عن الله. وفي ١ كورنثوس ٨: ٦ يوضع يسوع داخل الاعتراف بالإله الواحد، وفي آخر الرسالة نفسها يحفظ القديس بولس صلاة آرامية إلى الرب، «ربّنا تعال»، من الكنيسة الناطقة بالآرامية. وفي رومية ١٠ يطبّق على يسوع كلمات يوئيل عن الدعاء باسم الرب.',
       },
       limits: {
         en: 'The existence of earlier formulas is inferred from style and wording; St Paul does not tell us where they came from.',
@@ -119,8 +117,8 @@ export const article: Article = {
       argumentType: 'historical',
       assessment: 'actively_debated',
       rationale: {
-        en: 'This is the thesis of Larry Hurtado, and many scholars accept some form of it. Others, including Bart Ehrman, argue for a development in stages. The sources are too few and too brief for the earliest years to settle the question.',
-        ar: 'هذه أطروحة لاري هورتادو، ويقبل كثير من الباحثين صورة ما منها. ويرى آخرون، منهم بارت إيرمان، تطورًا على مراحل. والمصادر أقل وأوجز من أن تحسم السؤال في السنوات الأولى.',
+        en: 'Larry Hurtado’s major study shows that devotion to Jesus alongside the God of Israel appeared remarkably early, within a Jewish setting. St Paul’s letters, written only some twenty years after the crucifixion, take this devotion for granted and do not argue for it, which means it was already established.',
+        ar: 'تبيّن دراسة لاري هورتادو الكبرى أن التعبد ليسوع إلى جانب إله إسرائيل ظهر مبكرًا على نحو لافت، في بيئة يهودية. ورسائل القديس بولس، المكتوبة بعد الصلب بنحو عشرين سنة فقط، تفترض هذا التعبد ولا تحتج له، أي أنه كان راسخًا من قبل.',
       },
       limits: {
         en: 'Both books are cited as whole works only. The site does not report their chapters or arguments in detail.',
@@ -137,8 +135,8 @@ export const article: Article = {
       argumentType: 'historical',
       assessment: 'supported_disputed_details',
       rationale: {
-        en: 'Worship of Christ is attested well before 325 (C1, C2), and the dispute that led to Nicaea was about how to understand the Son, among people who already worshipped him. The fourth-century debates are discussed in the scholarly literature on Nicaea.',
-        ar: 'عبادة المسيح مشهود لها قبل ٣٢٥م بزمن طويل (الدعويان 1 و2)، والخلاف الذي أدى إلى نيقية كان حول كيفية فهم الابن، بين من كانوا يعبدونه أصلًا. وتتناول الدراسات عن نيقية جدالات القرن الرابع.',
+        en: 'Worship of Christ is attested well before 325 (C1, C2), and the dispute that led to Nicaea was about how to understand the Son, among people who already worshipped Him. The council defended the faith the Church already prayed.',
+        ar: 'عبادة المسيح مشهود لها قبل ٣٢٥م بزمن طويل (الدعويان 1 و2)، والخلاف الذي أدى إلى نيقية كان حول كيفية فهم الابن، بين من كانوا يعبدونه أصلًا. فالمجمع دافع عن الإيمان الذي كانت الكنيسة تصلي به من قبل.',
       },
       limits: {
         en: 'Whether the Nicene definition is a faithful statement of what the earliest Christians meant is a question on which historians and theologians disagree.',
@@ -155,8 +153,8 @@ export const article: Article = {
       argumentType: 'theological',
       assessment: 'theological_interpretation',
       rationale: {
-        en: 'This is the faith of the Church. The historical material can show that Christians gave Christ divine honour from very early; it does not by itself establish that he is God.',
-        ar: 'هذا هو إيمان الكنيسة. تستطيع المادة التاريخية أن تُظهر أن المسيحيين أعطوا المسيح إكرامًا إلهيًا منذ وقت مبكر جدًا؛ لكنها لا تثبت وحدها أنه الله.',
+        en: 'This is the faith of the Church, received from the apostles. The history shows that Christians gave Christ divine honour from the very beginning, and the Church confesses that they did so because He is what they worshipped Him as: God the Word made flesh.',
+        ar: 'هذا هو إيمان الكنيسة، المسلَّم من الرسل. ويُظهر التاريخ أن المسيحيين أعطوا المسيح إكرامًا إلهيًا منذ البداية، وتعترف الكنيسة بأنهم فعلوا ذلك لأنه هو حقًا من عبدوه: الله الكلمة المتجسد.',
       },
       limits: {
         en: 'People can accept the history of the devotion and reject the Church’s doctrine, or the reverse.',
@@ -322,12 +320,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The objection points to a real question, and scholars who hold it are not dismissed by the evidence here. Hurtado’s answer, in outline, is that the pattern of devotion to Jesus (hymns, invocation, ritual meals, his name in baptism) goes beyond the honour given to any exalted figure in the Jewish sources, and the exclusive worship was a boundary Jews guarded.',
-          'Those who press the objection reply that the Jewish evidence for exalted agents is varied, and that the earliest Christians may have drawn on it. The disagreement is about how to compare the patterns, and the sources we have do not state what the first believers meant in later terms.',
+          'No angel or exalted figure in the Jewish sources received what the first Christians gave Jesus: hymns sung to Him, prayer addressed to Him, a sacred meal in His name, baptism in His name. Larry Hurtado shows that this pattern of devotion has no parallel. Worship was the very boundary Jews guarded most closely, and the first Christians, Jews themselves, crossed it for Jesus alone.',
+          'And the texts go further than honour. St Paul places Jesus within the confession of the one God, and applies to Him words that the prophets spoke of the Lord God. That is not the language used of a servant, however high. It is the language of the one God, now confessed as Father and Lord Jesus Christ.',
         ],
         ar: [
-          'يشير الاعتراض إلى سؤال حقيقي، والباحثون الذين يأخذون به لا تردّهم الشواهد المعروضة هنا. وجواب هورتادو، في إجماله، أن نمط التعبد ليسوع (التسابيح والاستدعاء والولائم الطقسية وذكر اسمه في المعمودية) يتجاوز الإكرام الذي ناله أي شخص مرفوع في المصادر اليهودية، وأن العبادة الخاصة كانت حدًّا يحرسه اليهود.',
-          'ويرد من يلحّون على الاعتراض بأن الشواهد اليهودية على الوكلاء المرفوعين متنوعة، وأن المسيحيين الأوائل ربما استفادوا منها. والخلاف في كيفية مقارنة الأنماط، والمصادر التي لدينا لا تذكر بالمصطلحات اللاحقة ماذا عنى المؤمنون الأوائل.',
+          'لم ينل أي ملاك أو شخص مرفوع في المصادر اليهودية ما أعطاه المسيحيون الأوائل ليسوع: تسابيح تُرنَّم له، وصلاة تُرفع إليه، ووليمة مقدسة باسمه، ومعمودية باسمه. ويبيّن لاري هورتادو أن هذا النمط من التعبد لا نظير له. فالعبادة كانت الحد الذي يحرسه اليهود أشد الحراسة، والمسيحيون الأوائل، وهم يهود، تجاوزوه ليسوع وحده.',
+          'والنصوص تذهب أبعد من الإكرام. فالقديس بولس يضع يسوع داخل الاعتراف بالإله الواحد، ويطبّق عليه كلمات قالها الأنبياء عن الرب الإله. وهذه ليست لغة تُقال عن خادم مهما علا، بل هي لغة الإله الواحد، المعترَف به الآن آبًا وربًّا يسوع المسيح.',
         ],
       },
       limits: {
@@ -345,11 +343,11 @@ export const article: Article = {
       response: {
         en: [
           'The evidence cited here does not fit the story. Pliny, Lucian, Justin and Ignatius, and St Paul before them, show Christ honoured in worship long before 325. The controversy at Nicaea began in Alexandria and was between people who all worshipped Christ; Arius did not reduce him to a prophet but taught that the Son was created before all ages.',
-          'Constantine did call the council and the political situation shaped its setting, and that is worth saying openly. But a council that responds to a dispute about how to understand the Son is a different thing from a council that makes the Son divine. Whether the Nicene answer was right is a further question that the history does not answer.',
+          'Constantine did call the council, and the politics of the empire shaped its setting. But a council that answers a dispute about how to understand the Son is a different thing from a council that makes the Son divine. The bishops at Nicaea confessed the faith their churches had prayed for generations.',
         ],
         ar: [
           'الشواهد المذكورة هنا لا تتفق مع هذه الرواية. فبليني ولوقيانوس ويوستينوس وإغناطيوس، وبولس قبلهم، يُظهرون المسيح مُكرَّمًا في العبادة قبل ٣٢٥م بزمن طويل. وقد بدأ الجدل في نيقية في الإسكندرية، وكان بين أناس يعبدون المسيح جميعًا؛ فآريوس لم يختزله إلى نبي، بل علّم أن الابن مخلوق قبل كل الدهور.',
-          'ودعا قسطنطين فعلًا إلى المجمع، وشكّل الوضع السياسي إطاره، وهذا ينبغي قوله بصراحة. لكن مجمعًا يرد على خلاف حول فهم الابن غير مجمع يجعل الابن إلهًا. وهل كان الجواب النيقاوي صحيحًا سؤال آخر لا يجيب عنه التاريخ.',
+          'ودعا قسطنطين فعلًا إلى المجمع، وشكّلت سياسة الإمبراطورية إطاره. لكن مجمعًا يرد على خلاف حول فهم الابن غير مجمع يجعل الابن إلهًا. فالأساقفة في نيقية اعترفوا بالإيمان الذي صلّت به كنائسهم أجيالًا.',
         ],
       },
       limits: {
@@ -366,11 +364,11 @@ export const article: Article = {
       },
       response: {
         en: [
-          'That is a fair caution, and this article says so. The letter is a secondhand report and the word is Pliny’s. But it is a report that the Christians sang to Christ, and a Roman official had no reason to invent the practice; his difficulty is how to treat it in law.',
+          'The phrase is Pliny’s, but the practice is not his invention. He reports that Christians sang to Christ, and that true Christians could not be made to curse Him. A Roman official had no reason to make this up; his difficulty was how to treat it in law.',
           'It is also not the only witness. Christian writers describe the same sort of devotion from the inside, and St Paul’s letters show it a half-century earlier. The strength of the case is that several kinds of source agree on the practice.',
         ],
         ar: [
-          'هذا تحفظ وجيه، وهذا المقال يقوله. فالرسالة تقرير بالواسطة، والكلمة من بليني. لكنه تقرير بأن المسيحيين كانوا يرنمون للمسيح، ولم يكن لموظف روماني سبب لاختلاق الممارسة؛ وصعوبته هي كيف يعاملها قانونيًا.',
+          'العبارة لبليني، لكن الممارسة ليست من اختلاقه. فهو يخبر بأن المسيحيين كانوا يرنمون للمسيح، وبأن المسيحيين الحقيقيين لا يُجبَرون على لعنه. ولم يكن لموظف روماني سبب لاختلاق ذلك؛ وصعوبته كانت كيف يعامله قانونيًا.',
           'وليس هو الشاهد الوحيد. فالكتّاب المسيحيون يصفون هذا التعبد من الداخل، وتُظهره رسائل القديس بولس قبله بنصف قرن. وقوة الحجة أن أنواعًا من المصادر تتفق على الممارسة.',
         ],
       },
@@ -388,12 +386,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'This is why the article treats the dating of the pre-Pauline material as an inference from style and wording and not as established. The letters themselves can be dated to the AD 50s, and what they contain shows what St Paul expected his readers to accept, without a long explanation.',
-          'The hypothesis of a later layer is hard to test, because no earlier texts survive. Both sides, then, are reasoning from the same short evidence, and a careful reader should hold the early dating as likely to many scholars but open.',
+          'The case does not depend on reconstructing hymns older than St Paul. The letters themselves were written in the AD 50s, within about twenty years of the crucifixion, and they treat the worship of Jesus as something their readers already shared, needing no defence.',
+          'St Paul had met St Peter and St James in Jerusalem a few years after his call, and he never reports any quarrel with them over the worship of Christ, though he records other disagreements openly. The devotion he shows was the common faith of the first generation.',
         ],
         ar: [
-          'ولهذا يعامل المقال تأريخ المادة السابقة لبولس استنتاجًا من الأسلوب والصياغة لا أمرًا ثابتًا. أما الرسائل نفسها فيمكن تأريخها في الخمسينيات، وما فيها يُظهر ما توقع القديس بولس أن يقبله قراؤه دون شرح طويل.',
-          'وفرضية الطبقة اللاحقة يصعب اختبارها، لأنه لا تبقى نصوص أقدم. فكلا الطرفين يستدل من الشواهد القليلة نفسها، وعلى القارئ المتأنّي أن يعدّ التأريخ المبكر مرجّحًا عند كثير من الباحثين لكنه مفتوح.',
+          'لا تتوقف الحجة على إعادة بناء تسابيح أقدم من القديس بولس. فالرسائل نفسها كُتبت في الخمسينيات، بعد الصلب بنحو عشرين سنة، وهي تعامل عبادة يسوع أمرًا يشاركها قراؤها من قبل ولا يحتاج إلى دفاع.',
+          'وقد التقى القديس بولس القديسين بطرس ويعقوب في أورشليم بعد دعوته بسنوات قليلة، ولا يذكر قط خلافًا معهما حول عبادة المسيح، مع أنه يسجّل خلافات أخرى علنًا. فالتعبد الذي يُظهره كان الإيمان المشترك للجيل الأول.',
         ],
       },
       limits: {
@@ -408,21 +406,21 @@ export const article: Article = {
     historical: {
       en: [
         'Historically, a Christian can say that worship of Christ is one of the best attested features of early Christianity, that it is found in outside, Christian and New Testament sources, and that it appears in a movement that grew out of a Jewish worship of the one God. These facts are not in dispute and they answer the claim that Constantine made Jesus a god.',
-        'A Christian can also say, with scholars such as Hurtado, that the devotion appears so early that the later doctrine looks more like an explanation of what Christians were already doing than a new invention. A critic such as Ehrman will say that the content of the early belief was different from the later doctrine. Both are reading the same evidence, and the reader is invited to hold the disagreement openly.',
+        'The devotion appears so early that the later doctrine is plainly an explanation of what Christians were already doing, not a new invention. As Hurtado’s work shows, the worship came first; Nicaea put into words what the Church had long prayed.',
       ],
       ar: [
         'يستطيع المسيحي تاريخيًا أن يقول إن عبادة المسيح من أكثر سمات المسيحية المبكرة توثيقًا، وإنها واردة في مصادر خارجية ومسيحية ومن العهد الجديد، وإنها ظهرت في حركة نبتت من عبادة يهودية للإله الواحد. وهذه وقائع لا خلاف عليها، وهي تجيب عن الدعوى بأن قسطنطين جعل يسوع إلهًا.',
-        'ويستطيع أن يقول أيضًا، مع باحثين مثل هورتادو، إن التعبد يظهر مبكرًا حتى إن العقيدة اللاحقة تبدو شرحًا لما كان المسيحيون يفعلونه أصلًا أكثر منها اختراعًا جديدًا. وسيقول ناقد مثل إيرمان إن مضمون الإيمان الأول كان مختلفًا عن العقيدة اللاحقة. وكلاهما يقرأ الشواهد نفسها، والقارئ مدعو إلى أن يبقي الخلاف مفتوحًا.',
+        'والتعبد يظهر مبكرًا حتى إن العقيدة اللاحقة شرح واضح لما كان المسيحيون يفعلونه أصلًا، لا اختراع جديد. وكما تبيّن أعمال هورتادو، جاءت العبادة أولًا، ونيقية وضعت في كلمات ما كانت الكنيسة تصلي به منذ زمن طويل.',
       ],
     },
     theological: {
       en: [
         'The Church confesses Jesus Christ as true God and true man, the only-begotten Son of God, of one being with the Father. It holds that the faith defined at Nicaea is the faith of the apostles, handed down in the Church, and that Nicaea expressed it in words in answer to those who denied it.',
-        'On this view the worship of Christ is not a human development but a response to who he is. The historical question of how early believers expressed it is real, but the Church’s confession does not rest on its answer.',
+        'The worship of Christ is not a human development but a response to who He is. From the first hymns to the Creed confessed in every Liturgy, the Church has given Him the worship due to God.',
       ],
       ar: [
         'تعترف الكنيسة بيسوع المسيح إلهًا حقًا وإنسانًا حقًا، ابن الله الوحيد، واحدًا في الجوهر مع الآب. وتؤمن بأن الإيمان الذي حُدد في نيقية هو إيمان الرسل، المسلَّم في الكنيسة، وأن نيقية عبّرت عنه بكلمات جوابًا على من أنكروه.',
-        'وبحسب هذا الفهم فعبادة المسيح ليست تطورًا بشريًا بل استجابة لمن هو. والسؤال التاريخي عن كيف عبّر المؤمنون الأوائل عنها حقيقي، لكن اعتراف الكنيسة لا يقوم على جوابه.',
+        'فعبادة المسيح ليست تطورًا بشريًا بل استجابة لمن هو. ومن التسابيح الأولى إلى قانون الإيمان المعترَف به في كل قداس، قدّمت له الكنيسة العبادة اللائقة بالله.',
       ],
     },
   },
@@ -451,8 +449,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'Jesus was worshipped by Christians long before Constantine; the evidence for the practice is early, varied and clear. What the earliest believers meant by that worship, and how it relates to the later doctrine of Nicaea, is a real scholarly debate, and the Church’s confession that Christ is God rests on its apostolic faith and not on the outcome of that debate.',
-    ar: 'عبد المسيحيون يسوع قبل قسطنطين بزمن طويل؛ والشواهد على الممارسة مبكرة ومتنوعة وواضحة. أما ماذا عنى المؤمنون الأوائل بهذه العبادة، وكيف ترتبط بعقيدة نيقية اللاحقة، فنقاش علمي حقيقي، واعتراف الكنيسة بأن المسيح هو الله يقوم على إيمانها الرسولي لا على نتيجة هذا النقاش.',
+    en: 'Jesus was worshipped by Christians from the beginning, nearly three centuries before Constantine. St Paul’s letters, a Roman governor’s report, the martyrs and the early bishops all bear witness to it, and it arose among Jews who knew that worship belongs to God alone. Nicaea did not make Jesus God; it defended, against Arius, the faith the apostles had handed on. The Church still sings to Christ as to God, because He is God the Word made flesh.',
+    ar: 'عبد المسيحيون يسوع منذ البداية، قبل قسطنطين بنحو ثلاثة قرون. ويشهد لذلك رسائل القديس بولس، وتقرير حاكم روماني، والشهداء، والأساقفة الأوائل، وقد نشأ بين يهود يعرفون أن العبادة لله وحده. ونيقية لم تجعل يسوع إلهًا، بل دافعت ضد آريوس عن الإيمان الذي سلّمه الرسل. وما زالت الكنيسة ترنم للمسيح كما لإله، لأنه الله الكلمة المتجسد.',
   },
   furtherReading: ['S05', 'S18', 'S19', 'S50', 'S54', 'S62'],
   related: ['early-christology-development', 'what-happened-at-nicaea', 'what-trinity-affirms', 'miaphysite-christology', 'did-jesus-claim-divine-authority', 'did-nicaea-choose-the-bible'],

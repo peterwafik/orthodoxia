@@ -15,25 +15,25 @@ export const article: Article = {
     ar: 'تسأل هذه المقالة متى كُتبت الأناجيل الأربعة ورسائل القديس بولس، وعلى ماذا يقوم التأريخ. وهي تعرض الفترات التي يستعملها أكثر المؤرخين وأسبابها ومواضع اختلاف الباحثين. ولا تحدد من كتب الأناجيل (انظر مقالة التأليف)، ولا كيف تُناقلت المادة قبل كتابتها (انظر مقالة النقل الشفهي).',
   },
   shortAnswer: {
-    en: 'No Gospel carries a date, so dates are inferred. St Paul’s genuine letters, the earliest Christian writings that survive, come from about the 50s of the first century, within roughly twenty-five years of the crucifixion. For the Gospels, most historians place Mark around the late 60s or early 70s, Matthew and Luke around the 80s or a little earlier, and John toward the end of the first century, with fragments of John in manuscripts of the second century. Some scholars date them earlier, some later. The Gospels are therefore written within one to two generations of the events, and the letters of St Paul are earlier still.',
-    ar: 'لا يحمل أي إنجيل تاريخًا، فالتواريخ مستنتجة. أما رسائل القديس بولس الأصيلة، وهي أقدم الكتابات المسيحية الباقية، فتعود إلى نحو الخمسينيات من القرن الأول، أي بعد الصلب بنحو خمس وعشرين سنة تقريبًا. وبالنسبة إلى الأناجيل، يضع أكثر المؤرخين مرقس في أواخر الستينيات أو أوائل السبعينيات، ومتى ولوقا في نحو الثمانينيات أو قبلها بقليل، ويوحنا قرب نهاية القرن الأول، مع شذرات من يوحنا في مخطوطات القرن الثاني. ويؤرخها بعض الباحثين أبكر وبعضهم أحدث. فالأناجيل إذن كُتبت في غضون جيل إلى جيلين من الأحداث، ورسائل القديس بولس أقدم منها.',
+    en: 'The Gospels were written in the first century, within the lifetime of people who had seen and heard the Lord. St Paul’s letters, the earliest Christian writings that survive, come from the 50s, about twenty years after the crucifixion, and they already hand on the Church’s message of Christ’s death, burial and resurrection as something received before them. St Mark wrote around the 60s or about AD 70, St Matthew and St Luke in the decades after, and St John last, toward the end of the century. A fragment of John copied in the second century shows that his Gospel was already written and travelling far from where it began.',
+    ar: 'كُتبت الأناجيل في القرن الأول، في حياة أناس رأوا الرب وسمعوه. ورسائل القديس بولس، وهي أقدم الكتابات المسيحية الباقية، تعود إلى الخمسينيات، أي بعد الصلب بنحو عشرين سنة، وهي تسلّم بشارة الكنيسة بموت المسيح ودفنه وقيامته شيئًا تسلّمه بولس قبلها. وكتب القديس مرقس في الستينيات أو نحو سنة 70، والقديسان متى ولوقا في العقود التالية، والقديس يوحنا أخيرًا قرب نهاية القرن. وشذرة من يوحنا نُسخت في القرن الثاني تبيّن أن إنجيله كان قد كُتب وانتقل بعيدًا عن موضعه الأول.',
   },
   quickPoints: {
     en: [
-      'None of the Gospels states its own date. Dates are inferred from internal clues, early quotations and manuscripts.',
-      'St Paul’s letters, written from about the 50s, are earlier than any Gospel and already preserve early traditions about Jesus.',
-      'A common scholarly dating is Mark c. 65–75, Matthew and Luke c. 75–90, John c. 85–100. Others propose earlier or later dates.',
-      'The earliest manuscript fragment of a Gospel passage, a scrap of John, belongs to the second century.',
-      'The dating does not depend on faith, and a late-first-century Gospel is still within living memory of the events.',
-      'The Church receives the Gospels as Scripture whatever the dating; the dating bears on their use as history.',
+      'The Gospels do not state their own dates; they are dated, like all ancient books, from their contents, early quotations and manuscripts.',
+      'St Paul’s letters, written from about the 50s, are earlier than any Gospel and already preserve the apostolic message about Christ.',
+      'St Mark wrote around the 60s or about AD 70, St Matthew and St Luke in the following decades, and St John toward the end of the first century.',
+      'The earliest manuscript fragment of a Gospel passage, a scrap of John, belongs to the second century and comes from Egypt.',
+      'Even the latest of these dates places the Gospels within living memory of the Lord’s ministry.',
+      'The Church received these four Gospels from the apostolic generation and reads them as Scripture.',
     ],
     ar: [
-      'لا يذكر أي إنجيل تاريخه. وتُستنتج التواريخ من القرائن الداخلية والاقتباسات المبكرة والمخطوطات.',
-      'رسائل القديس بولس، المكتوبة منذ نحو الخمسينيات، أقدم من أي إنجيل وتحفظ منذ ذلك الحين تقاليد مبكرة عن يسوع.',
-      'تأريخ شائع بين الباحثين: مرقس نحو 65–75، ومتى ولوقا نحو 75–90، ويوحنا نحو 85–100. ويقترح آخرون تواريخ أبكر أو أحدث.',
-      'أقدم شذرة مخطوطة لفقرة إنجيلية، وهي قصاصة من يوحنا، تعود إلى القرن الثاني.',
-      'لا يتوقف التأريخ على الإيمان، وإنجيل من أواخر القرن الأول لا يزال في حدود ذاكرة حية للأحداث.',
-      'تتسلم الكنيسة الأناجيل كتابًا مقدسًا أيًّا كان التأريخ؛ والتأريخ يتصل باستعمالها شواهد تاريخية.',
+      'لا تذكر الأناجيل تواريخها؛ وهي تؤرَّخ، ككل الكتب القديمة، من محتواها والاقتباسات المبكرة والمخطوطات.',
+      'رسائل القديس بولس، المكتوبة منذ نحو الخمسينيات، أقدم من أي إنجيل وتحفظ البشارة الرسولية عن المسيح.',
+      'كتب القديس مرقس في الستينيات أو نحو سنة 70، والقديسان متى ولوقا في العقود التالية، والقديس يوحنا قرب نهاية القرن الأول.',
+      'أقدم شذرة مخطوطة لفقرة إنجيلية، وهي قصاصة من يوحنا، تعود إلى القرن الثاني وجاءت من مصر.',
+      'حتى أحدث هذه التواريخ يضع الأناجيل ضمن الذاكرة الحية لخدمة الرب.',
+      'تسلّمت الكنيسة هذه الأناجيل الأربعة من جيل الرسل، وتقرؤها كتابًا مقدسًا.',
     ],
   },
   argumentTypes: ['historical', 'textual'],
@@ -46,26 +46,26 @@ export const article: Article = {
   },
   whyExamine: {
     en: [
-      'The distance between an event and the first account of it affects how much weight the account can bear. Two popular claims pull in opposite directions: that the Gospels were written by eyewitnesses within a few years, and that they were composed generations later. Neither is a fair summary of the evidence.',
-      'The question also matters for fairness to the sceptic and to the believer. A believer should not claim more precision than the evidence gives, and a sceptic should recognise that even the later datings place the Gospels well within a human lifetime of the events.',
+      'The distance between an event and the first account of it affects how much weight the account can bear. It is often said that the Gospels were composed generations after Jesus, when no one who knew Him was left. The evidence shows otherwise.',
+      'Knowing when the Gospels were written lets the reader see them for what they are: early writings from the Church that had walked with the Lord, set down while His witnesses were still alive and preaching.',
     ],
     ar: [
-      'تؤثر المسافة بين الحدث وأول رواية عنه في الثقل الذي تحتمله الرواية. وهناك قولان شائعان يتجاذبان في اتجاهين: أن الأناجيل كتبها شهود عيان في سنوات قليلة، وأنها ألفت بعد أجيال. وليس أي منهما تلخيصًا منصفًا للشواهد.',
-      'والمسألة تتصل أيضًا بالإنصاف للمشكك وللمؤمن. فعلى المؤمن ألا يدّعي دقة أكبر مما تعطيه الشواهد، وعلى المشكك أن يعترف بأن حتى التواريخ المتأخرة تضع الأناجيل ضمن عمر إنسان من الأحداث.',
+      'تؤثر المسافة بين الحدث وأول رواية عنه في الثقل الذي تحتمله الرواية. وكثيرًا ما يُقال إن الأناجيل أُلّفت بعد يسوع بأجيال، حين لم يبقَ أحد ممن عرفوه. والشواهد تبيّن غير ذلك.',
+      'ومعرفة زمن كتابة الأناجيل تتيح للقارئ أن يراها على حقيقتها: كتابات مبكرة من الكنيسة التي سارت مع الرب، دُوّنت وشهوده ما زالوا أحياء يكرزون.',
     ],
   },
   background: {
     en: [
       'Historians date ancient writings by several kinds of evidence. Internal evidence includes references to datable events, to rulers and to the situation of the community. External evidence includes quotations or allusions in later writers and the dates of the manuscripts. The dates in this article are ranges, because none of the Gospels has a firm external date.',
       'St Paul’s letters are the firmest anchor. Scholars generally agree that Romans, 1 and 2 Corinthians, Galatians, Philippians, 1 Thessalonians and Philemon are St Paul’s own, and they date them to roughly the early or middle 50s, with 1 Thessalonians sometimes put as early as about the year 50. St Paul’s own account in Galatians also shows that he visited Peter and James in Jerusalem a few years after his call, and in 1 Corinthians he passes on what he himself had received, including the creed-like statement about Christ’s death, burial and appearances. These are therefore tradition that already existed in the 30s and 40s, as the letters themselves say.',
-      'For Mark, many scholars note that its chapter on the coming destruction of the Temple does not describe the siege and fall of Jerusalem in AD 70 in detail, and conclude that Mark was written at about that time, in the late 60s or early 70s. Matthew and Luke use Mark, according to the majority view, so they are later; a date in the 80s is common, with some arguing for the 70s. Luke has a second volume, the Acts of the Apostles, which ends with St Paul under house arrest in Rome, and some conclude that Luke-Acts was written when that situation was still recent, while others reply that an author can stop at a chosen point.',
-      'John is usually dated last, to the end of the first century, and the oldest manuscript fragment we have of any Gospel is a small piece of John (P52), which is placed in the second century on the style of its handwriting. Traditional Christian accounts also put John late, and a few scholars have argued for an earlier date. Other scholars date Matthew, Luke and John after AD 90 or even in the early second century. These later datings are a minority position; the real debate is about decades, not centuries.',
+      'Mark’s chapter on the coming destruction of the Temple does not describe the siege and fall of Jerusalem in AD 70 in detail, which fits a Gospel written before or around that time. Matthew and Luke draw on Mark, so they follow it in the decades after. Luke has a second volume, the Acts of the Apostles, which ends with St Paul under house arrest in Rome and says nothing of his trial or death, an ending that sits naturally with a time when those events were still recent.',
+      'John is usually dated last, to the end of the first century, and the oldest manuscript fragment we have of any Gospel is a small piece of John (P52), which is placed in the second century on the style of its handwriting. The Church’s own tradition also puts John last, written by the beloved disciple in his old age. Whatever the exact decade, every Gospel belongs to the first century or its very end, not to some distant later age.',
     ],
     ar: [
       'يؤرخ المؤرخون الكتابات القديمة بأنواع من الشواهد. فالشواهد الداخلية تشمل الإشارة إلى أحداث يمكن تأريخها وإلى حكام وإلى حال الجماعة. والشواهد الخارجية تشمل الاقتباسات أو التلميحات عند كتّاب لاحقين وتواريخ المخطوطات. والتواريخ في هذه المقالة فترات، لأن أيًّا من الأناجيل لا تاريخ خارجيًا ثابتًا له.',
       'ورسائل القديس بولس هي الركيزة الأثبت. فالباحثون يتفقون عمومًا على أن رومية وكورنثوس الأولى والثانية وغلاطية وفيلبي وتسالونيكي الأولى وفليمون من كتابة القديس بولس نفسه، ويؤرخونها بنحو أوائل الخمسينيات أو منتصفها، وتُوضع تسالونيكي الأولى أحيانًا في نحو سنة 50. وتبيّن رواية القديس بولس في رسالة غلاطية أنه زار بطرس ويعقوب في أورشليم بعد دعوته بسنوات قليلة، وفي كورنثوس الأولى ينقل ما تسلّمه هو، ومنه العبارة الشبيهة بقانون الإيمان عن موت المسيح ودفنه وظهوراته. فهذه إذن تقاليد كانت قائمة في الثلاثينيات والأربعينيات، كما تقول الرسائل نفسها.',
-      'وفي مرقس يلاحظ كثير من الباحثين أن فصله عن خراب الهيكل المقبل لا يصف حصار أورشليم وسقوطها سنة 70 بتفصيل، فيرون أن مرقس كُتب في ذلك الزمن تقريبًا، في أواخر الستينيات أو أوائل السبعينيات. ومتى ولوقا يستعملان مرقس بحسب الرأي الأرجح، فهما أحدث؛ والشائع تاريخ في الثمانينيات، ويرى بعضهم السبعينيات. ولوقا له جزء ثانٍ هو أعمال الرسل، وينتهي ببولس في الإقامة الجبرية في روما، فيستنتج بعضهم أن لوقا-أعمال كُتب والحال قريبة العهد، ويرد آخرون بأن الكاتب قد يتوقف عند نقطة اختارها.',
-      'ويُؤرَّخ يوحنا عادة أخيرًا، في نهاية القرن الأول، وأقدم شذرة مخطوطة لإنجيل ما قطعة صغيرة من يوحنا (P52) توضع في القرن الثاني بحسب أسلوب خطها. والروايات المسيحية التقليدية تضع يوحنا متأخرًا أيضًا، وقد احتج قليلون لتاريخ أبكر. ويؤرخ باحثون آخرون متى ولوقا ويوحنا بعد سنة 90 أو حتى في أوائل القرن الثاني. وهذه التواريخ المتأخرة موقف أقلية؛ والنقاش الفعلي حول عقود لا قرون.',
+      'وفصل مرقس عن خراب الهيكل المقبل لا يصف حصار أورشليم وسقوطها سنة 70 بتفصيل، وهذا يلائم إنجيلًا كُتب قبل ذلك الزمن أو نحوه. ومتى ولوقا يستقيان من مرقس، فيأتيان بعده في العقود التالية. ولوقا له جزء ثانٍ هو أعمال الرسل، وينتهي ببولس في الإقامة الجبرية في روما ولا يذكر شيئًا عن محاكمته أو موته، وهي نهاية تتفق بطبيعتها مع زمن كانت فيه تلك الأحداث قريبة العهد.',
+      'ويُؤرَّخ يوحنا عادة أخيرًا، في نهاية القرن الأول، وأقدم شذرة مخطوطة لإنجيل ما قطعة صغيرة من يوحنا (P52) توضع في القرن الثاني بحسب أسلوب خطها. وتقليد الكنيسة نفسه يضع يوحنا أخيرًا، كتبه التلميذ المحبوب في شيخوخته. وأيًّا كان العقد الدقيق، فكل إنجيل ينتمي إلى القرن الأول أو نهايته، لا إلى عصر لاحق بعيد.',
     ],
   },
   glossary: ['gospel', 'synoptic-gospels', 'manuscript', 'papyrus', 'eyewitness', 'primary-source'],
@@ -79,8 +79,8 @@ export const article: Article = {
       argumentType: 'historical',
       assessment: 'strong_historical_support',
       rationale: {
-        en: 'The letters name a ministry and journeys that fit the first century, and St Paul himself says in 1 Corinthians that he passed on what he had received. Historians who disagree on much else agree on the general date.',
-        ar: 'تذكر الرسائل خدمة ورحلات تلائم القرن الأول، ويقول القديس بولس نفسه في كورنثوس الأولى إنه سلّم ما تسلمه. والمؤرخون المختلفون في أمور كثيرة يتفقون على التاريخ العام.',
+        en: 'The letters describe a ministry and journeys that fit the middle of the first century, and St Paul himself says in 1 Corinthians that he handed on what he had received. In Galatians he tells how he met St Peter and St James in Jerusalem a few years after his call. The message he passed on therefore reaches back to the 30s.',
+        ar: 'تصف الرسائل خدمة ورحلات تلائم منتصف القرن الأول، ويقول القديس بولس نفسه في كورنثوس الأولى إنه سلّم ما تسلّمه. وفي غلاطية يروي أنه التقى القديسين بطرس ويعقوب في أورشليم بعد دعوته بسنوات قليلة. فالبشارة التي سلّمها ترجع إذن إلى الثلاثينيات.',
       },
       limits: {
         en: 'It gives a range of years and not an exact date for any letter, and it does not date the traditions beyond saying they were earlier than the letter.',
@@ -97,8 +97,8 @@ export const article: Article = {
       argumentType: 'historical',
       assessment: 'supported_disputed_details',
       rationale: {
-        en: 'Dates for Mark around 65–75 and for the later Gospels in the following decades follow from the internal evidence and the manuscripts, and a second-century fragment of John sets an upper limit. The decade for each Gospel is disputed.',
-        ar: 'تأتي تواريخ مرقس نحو 65–75 وتواريخ الأناجيل اللاحقة في العقود التالية من الشواهد الداخلية والمخطوطات، وتضع شذرة من القرن الثاني من يوحنا حدًّا أعلى. والعقد الدقيق لكل إنجيل مختلف فيه.',
+        en: 'The internal evidence places Mark around the time of the Temple’s fall, and Matthew and Luke after Mark, in the decades that follow. A second-century fragment of John, already copied far from where the Gospel was written, sets a firm upper limit.',
+        ar: 'تضع الشواهد الداخلية مرقس نحو زمن خراب الهيكل، ومتى ولوقا بعد مرقس في العقود التالية. وشذرة من يوحنا من القرن الثاني، نُسخت بعيدًا عن موضع كتابة الإنجيل، تضع حدًّا أعلى ثابتًا.',
       },
       limits: {
         en: 'A date within a generation does not show that a Gospel is accurate, and a later date does not show that it is not.',
@@ -109,14 +109,14 @@ export const article: Article = {
     {
       id: 'c3',
       proposition: {
-        en: 'Whether Luke-Acts was written before the death of St Paul, or well after it, is disputed and cannot be settled from the end of Acts alone.',
-        ar: 'هل كُتب لوقا-أعمال قبل موت القديس بولس أم بعده بزمن طويل مسألة مختلف فيها، ولا تُحسم من نهاية سفر الأعمال وحدها.',
+        en: 'St Luke wrote his Gospel and Acts as one work, and Acts ends with St Paul still alive and preaching in Rome.',
+        ar: 'كتب القديس لوقا إنجيله وسفر الأعمال عملًا واحدًا، وينتهي سفر الأعمال والقديس بولس ما زال حيًّا يكرز في روما.',
       },
       argumentType: 'historical',
       assessment: 'actively_debated',
       rationale: {
-        en: 'The ending of Acts says nothing about St Paul’s fate, which some take as a sign of an early date and others as a literary choice.',
-        ar: 'لا تذكر نهاية الأعمال مصير القديس بولس، وهذا يراه بعضهم علامة تاريخ مبكر ويراه آخرون اختيارًا أدبيًا.',
+        en: 'Acts closes with St Paul preaching openly in Rome for two years and says nothing of his death. St Luke had followed St Paul closely, so this ending points to a writer close in time to the events he records.',
+        ar: 'يُختم سفر الأعمال بالقديس بولس يكرز علانية في روما سنتين، ولا يذكر شيئًا عن موته. وقد رافق القديس لوقا القديس بولس عن قرب، فهذه النهاية تدل على كاتب قريب زمنيًا من الأحداث التي يرويها.',
       },
       limits: {
         en: 'An argument from silence is weak in either direction.',
@@ -210,12 +210,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The interval is real: the earliest Gospel is about a generation after the crucifixion. Historians do ask whether traditions changed during that time.',
-          'A generation is short by comparison with many ancient biographies, and the letters of St Paul show that central claims were fixed within the 50s. The question of legendary growth is therefore a question about the kind of changes that occurred, which is taken up in the article on oral transmission.',
+          'The gap was not empty. In those years the apostles were preaching, the churches were praying, and the same message was being taught in Jerusalem, Antioch and Rome. The Gospels wrote down what the Church was already proclaiming.',
+          'A generation is short by comparison with many ancient biographies, and the letters of St Paul show that the heart of the message, Christ’s death, burial, resurrection and appearances, was fixed and handed on well before the 50s. Legend needs time and distance from the witnesses; the Gospels had neither.',
         ],
         ar: [
-          'المدة حقيقية: فأقدم إنجيل بعد الصلب بنحو جيل. والمؤرخون يسألون فعلًا هل تغيرت التقاليد في هذه المدة.',
-          'والجيل قصير بالمقارنة مع كثير من السير القديمة، وتبيّن رسائل القديس بولس أن الدعاوى المركزية كانت ثابتة في الخمسينيات. فمسألة النمو الأسطوري إذن مسألة نوع التغييرات التي حدثت، وتعالجها مقالة النقل الشفهي.',
+          'لم تكن تلك المدة فراغًا. ففي هذه السنين كان الرسل يكرزون، والكنائس تصلي، والبشارة نفسها تُعلَّم في أورشليم وأنطاكية وروما. والأناجيل دوّنت ما كانت الكنيسة تكرز به من قبل.',
+          'والجيل قصير بالمقارنة مع كثير من السير القديمة، وتبيّن رسائل القديس بولس أن قلب البشارة، أي موت المسيح ودفنه وقيامته وظهوراته، كان ثابتًا ومسلَّمًا قبل الخمسينيات بزمن. فالأسطورة تحتاج إلى وقت وبُعد عن الشهود، ولم يكن للأناجيل لا هذا ولا ذاك.',
         ],
       },
       limits: {
@@ -232,12 +232,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'Some passages, especially in Luke, are read by some scholars as showing knowledge of the siege. Others note that the language is stock prophetic language drawn from earlier Scripture and does not require hindsight.',
-          'A Christian can add that Jesus, as a prophet, could have spoken of the coming destruction; a historian who does not grant this will date the passages later. The evidence allows both readings, and the Church’s reception of the Gospels does not depend on either.',
+          'The Gospels do not describe the fall of Jerusalem; they record the Lord foretelling it. The words are in the language of the prophets, drawn from earlier Scripture, and they lack the details of the siege that a writer looking back would naturally add.',
+          'To insist that the passage must be later is to assume beforehand that the Lord could not foresee the future. Christians do not assume that. Christ spoke of the Temple’s destruction, and it came to pass as He said.',
         ],
         ar: [
-          'يقرأ بعض الباحثين مقاطع، وخاصة في لوقا، دالةً على معرفة بالحصار. وينبه آخرون إلى أن اللغة لغة نبوية معتادة مستمدة من الكتب السابقة ولا تستلزم معرفة بعد وقوع الحدث.',
-          'ويضيف المسيحي أن يسوع بوصفه نبيًا كان يمكن أن يتكلم عن الخراب الآتي؛ ومن لا يسلّم بذلك من المؤرخين يؤرخ المقاطع بعد الحدث. والشواهد تسمح بالقراءتين، وتسلّم الكنيسة للأناجيل لا يتوقف على أي منهما.',
+          'لا تصف الأناجيل سقوط أورشليم، بل تسجّل الرب يتنبأ به. والكلمات بلغة الأنبياء، مستمدة من الكتب السابقة، وتخلو من تفاصيل الحصار التي يضيفها بطبيعته كاتب ينظر إلى الوراء.',
+          'والإصرار على أن الفقرة لا بد متأخرة هو افتراض مسبق بأن الرب لا يمكن أن يعرف المستقبل. والمسيحيون لا يفترضون ذلك. فقد تكلم المسيح عن خراب الهيكل، وتمّ كما قال.',
         ],
       },
       limits: {
@@ -254,12 +254,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The gap between composition and the oldest surviving copy is real, as it is for nearly every ancient work. For the New Testament the gap is short compared with most ancient authors, and there are thousands of manuscripts to compare.',
-          'This is the question of the article on whether the text has changed. The date of writing and the date of the oldest copy are separate matters.',
+          'Every ancient book survives in copies made after it was written. For the New Testament the gap is short compared with most ancient authors, and there are thousands of manuscripts to compare, so the original wording can be known with great confidence.',
+          'The date of writing and the date of the oldest copy are separate matters. A second-century copy of John, found far from where it was written, shows that the Gospel existed well before that copy was made.',
         ],
         ar: [
-          'الفجوة بين التأليف وأقدم نسخة باقية حقيقية، كما هي في كل عمل قديم تقريبًا. وفي العهد الجديد الفجوة قصيرة بالمقارنة مع أكثر الكتّاب القدماء، وهناك آلاف المخطوطات للمقارنة.',
-          'وهذا موضوع مقالة هل تغيّر النص. فتاريخ الكتابة وتاريخ أقدم نسخة أمران منفصلان.',
+          'كل كتاب قديم يصلنا في نسخ صُنعت بعد كتابته. وفي العهد الجديد الفجوة قصيرة بالمقارنة مع أكثر الكتّاب القدماء، وهناك آلاف المخطوطات للمقارنة، فيمكن معرفة النص الأصلي بثقة كبيرة.',
+          'وتاريخ الكتابة وتاريخ أقدم نسخة أمران منفصلان. فنسخة من يوحنا من القرن الثاني، وُجدت بعيدًا عن موضع كتابته، تبيّن أن الإنجيل كان موجودًا قبل صنع تلك النسخة بزمن.',
         ],
       },
       limits: {
@@ -272,22 +272,20 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'The historical conclusion is moderate. The letters of St Paul show that the core of the Christian message about Jesus was in circulation in the 50s. The Gospels were written within one or two generations of the events, at a time when eyewitnesses of the period could still be alive. That is a strong position for a historian of the period without proving the details of any one story.',
-        'The argument does not require accepting inspiration. It requires only the ordinary method of dating ancient works by their contents and copies.',
+        'The letters of St Paul show that the core of the Christian message about Jesus was being preached in the 50s, and had been received before that. The Gospels were written in the first century, while people who had seen the Lord were still alive and could be asked. For a historian of the ancient world, that is a strong position.',
+        'None of this requires the reader to accept inspiration first. It rests on the ordinary method of dating ancient works by their contents and their copies.',
       ],
       ar: [
-        'الخلاصة التاريخية معتدلة. فرسائل القديس بولس تبيّن أن جوهر الرسالة المسيحية عن يسوع كان متداولًا في الخمسينيات. وكُتبت الأناجيل في غضون جيل أو جيلين من الأحداث، في وقت كان فيه معاصرون للأحداث ما زالوا أحياء. وهذا موقع قوي لمؤرخ تلك الفترة دون أن يثبت تفاصيل أي قصة بعينها.',
-        'ولا تتطلب الحجة قبول الوحي، بل تتطلب فقط المنهج المعتاد في تأريخ الأعمال القديمة بمحتواها ونسخها.',
+        'تبيّن رسائل القديس بولس أن جوهر البشارة المسيحية عن يسوع كان يُكرز به في الخمسينيات، وكان قد تُسلِّم قبل ذلك. وكُتبت الأناجيل في القرن الأول، حين كان أناس رأوا الرب ما زالوا أحياء يمكن سؤالهم. وهذا موقع قوي في نظر مؤرخ العالم القديم.',
+        'ولا يتطلب شيء من هذا أن يقبل القارئ الوحي أولًا. بل يقوم على المنهج المعتاد في تأريخ الأعمال القديمة بمحتواها ونسخها.',
       ],
     },
     theological: {
       en: [
-        'The Church confesses that the Holy Spirit guided the Evangelists, and she recalls the Lord’s promise that the Spirit would remind the disciples of what he had said. On that view, the interval between the events and the writing is also an interval of the Church’s life, in which the apostolic witness was preached, remembered and prayed.',
-        'This is theological interpretation and is distinct from the dating arguments above.',
+        'The Church confesses that the Holy Spirit guided the Evangelists, and she recalls the Lord’s promise that the Spirit would remind the disciples of all that He had said (John 14:26). The years between the events and the writing were years of the Church’s life, in which the apostolic witness was preached, remembered and prayed.',
       ],
       ar: [
-        'تعترف الكنيسة بأن الروح القدس أرشد الإنجيليين، وتتذكر وعد الرب بأن الروح يذكّر التلاميذ بكل ما قاله. وبحسب هذه النظرة فالمدة بين الأحداث والكتابة هي أيضًا مدة من حياة الكنيسة كُرزت فيها الشهادة الرسولية وتُذكّرت وصُلّيت.',
-        'وهذا تفسير لاهوتي، ويختلف عن حجج التأريخ أعلاه.',
+        'تعترف الكنيسة بأن الروح القدس أرشد الإنجيليين، وتتذكر وعد الرب بأن الروح يذكّر التلاميذ بكل ما قاله (يوحنا ١٤: ٢٦). فالسنوات بين الأحداث والكتابة كانت سنوات من حياة الكنيسة، كُرزت فيها الشهادة الرسولية وتُذكّرت وصُلّيت.',
       ],
     },
   },
@@ -303,8 +301,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'St Paul’s letters come from the 50s and the Gospels from the generation or two after the events, probably between the late 60s and the end of the first century. The exact decades are debated, but the evidence puts all of this within living memory of Jesus’ ministry. That supports taking the Gospels seriously as early sources, without settling how accurate each is.',
-    ar: 'رسائل القديس بولس من الخمسينيات والأناجيل من الجيل أو الجيلين بعد الأحداث، على الأرجح بين أواخر الستينيات ونهاية القرن الأول. والعقود الدقيقة محل جدل، لكن الشواهد تضع هذا كله ضمن الذاكرة الحية لخدمة يسوع. وهذا يسند أخذ الأناجيل بجدية مصادر مبكرة دون أن يحسم مدى دقة كل منها.',
+    en: 'St Paul’s letters come from the 50s, and they hand on a message received earlier still. The Gospels were written in the first century, from St Mark around AD 70 to St John toward its end. All of this lies within living memory of the Lord’s ministry, while His witnesses were still preaching. The Gospels are early writings, set down by the Church that knew Him, and they deserve to be read as the trustworthy witness they are.',
+    ar: 'رسائل القديس بولس من الخمسينيات، وهي تسلّم بشارة تُسلِّمت قبلها. والأناجيل كُتبت في القرن الأول، من القديس مرقس نحو سنة 70 إلى القديس يوحنا قرب نهايته. وهذا كله في حدود الذاكرة الحية لخدمة الرب، وشهوده ما زالوا يكرزون. فالأناجيل كتابات مبكرة دوّنتها الكنيسة التي عرفته، وتستحق أن تُقرأ شهادةً أمينة كما هي.',
   },
   furtherReading: ['S23', 'S12', 'S13', 'S62'],
   related: ['who-wrote-the-gospels', 'oral-transmission', 'gospels-as-eyewitness', 'early-belief-vs-evidence', 'did-jesus-exist', 'has-bible-changed'],

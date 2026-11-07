@@ -15,25 +15,25 @@ export const article: Article = {
     ar: 'تسأل هذه المقالة ماذا تعلّم الكنيسة عن الذين لم يسمعوا الإنجيل قط، أو سمعوا صورة مشوهة منه. وتعرض النصوص الكتابية ذات الصلة، والمواقف التي اتخذها المسيحيون، وتعليم الكنيسة القبطية الأرثوذكسية، وتقول بوضوح ما لم يُعلنه الله.',
   },
   shortAnswer: {
-    en: 'The Church confesses that salvation is in Christ alone, and that God wants all people to be saved. It does not conclude that everyone who has not heard of Christ is lost, and it does not claim to know how God deals with each person. Scripture says that God judges people by what they have been given, that those without the law may respond to what is written on the conscience, and that Christ went down to the place of the dead to preach there. The Fathers spoke of the Word who enlightens every person. The Church therefore holds that no one is lost for lack of information, while it still sends the Gospel to all, since it believes that it is the full gift of God. The rest it leaves to the justice and mercy of God.',
-    ar: 'تعترف الكنيسة بأن الخلاص في المسيح وحده، وبأن الله يريد أن جميع الناس يخلصون. ولا تستنتج أن كل من لم يسمع بالمسيح هالك، ولا تدّعي أنها تعرف كيف يعامل الله كل شخص. ويقول الكتاب إن الله يدين الناس بحسب ما أُعطوا، وإن الذين بلا ناموس قد يستجيبون لما هو مكتوب في الضمير، وإن المسيح نزل إلى موضع الأموات ليكرز هناك. وتكلم الآباء عن الكلمة الذي ينير كل إنسان. فالكنيسة إذن تعتقد أن لا أحد يهلك لنقص في المعلومات، ومع ذلك ترسل الإنجيل إلى الجميع لأنها تؤمن بأنه عطية الله الكاملة. وتترك الباقي لعدل الله ورحمته.',
+    en: 'God is just and merciful, and no one is lost for lack of information. The Church confesses that salvation is in Christ alone, and that God desires all people to be saved. Scripture teaches that God judges each person by what he has been given, that those without the law have the law written on their hearts, and that Christ went down to the dead and preached there. The Fathers taught that the Word enlightens every human being. So the Church entrusts those who never heard to the Judge who gave His life for all, and she still carries the Gospel to every nation, because Christ is the fullness of God’s gift and the joy of knowing Him is meant for everyone.',
+    ar: 'الله عادل ورحيم، ولا يهلك أحد بسبب نقص في المعلومات. فالكنيسة تعترف بأن الخلاص في المسيح وحده، وبأن الله يريد أن جميع الناس يخلصون. ويعلّم الكتاب أن الله يدين كل إنسان بحسب ما أُعطي، وأن الذين بلا ناموس لهم الناموس مكتوبًا في قلوبهم، وأن المسيح نزل إلى الأموات وكرز هناك. وعلّم الآباء أن الكلمة ينير كل إنسان. لذلك تسلّم الكنيسة الذين لم يسمعوا إلى الديان الذي بذل حياته عن الجميع، وتحمل الإنجيل مع ذلك إلى كل أمة، لأن المسيح هو ملء عطية الله، وفرح معرفته معدّ للجميع.',
   },
   quickPoints: {
     en: [
       'The question is how a just and loving God deals with people who never had a real chance to hear of Christ.',
-      'Scripture says God judges according to what a person has received, and that conscience can bear witness even where the law was not given.',
-      'The Church teaches that salvation is through Christ, and does not teach that every unreached person is lost.',
-      'The Fathers spoke of the Word present to every human being; Justin Martyr said those who lived with reason lived in some sense with Christ.',
-      'The Church confesses Christ’s descent to the dead, and prays for the departed; it leaves their final state to God.',
-      'Because the Gospel is the fullness of what God gives, the Church sends it to all, and not because it thinks God is unfair to those who have not heard.',
+      'Scripture says God judges according to what a person has received, and that conscience bears witness even where the law was not given.',
+      'Salvation is through Christ, and the Church does not teach that every unreached person is lost.',
+      'The Fathers spoke of the Word present to every human being; St Justin Martyr said those who lived by reason lived in some sense with Christ.',
+      'The Church confesses Christ’s descent to the dead, prays for the departed, and entrusts every person to God.',
+      'The Church shares the Gospel with all because Christ is the fullness of God’s gift, not because God is unfair to those who have not heard.',
     ],
     ar: [
-      'السؤال هو كيف يعامل إله عادل ومحب أناسًا لم تكن لهم فرصة حقيقية لسماع المسيح.',
-      'يقول الكتاب إن الله يدين بحسب ما قبله الإنسان، وإن الضمير يمكن أن يشهد حتى حيث لم يُعطَ الناموس.',
-      'تعلّم الكنيسة أن الخلاص بالمسيح، ولا تعلّم أن كل من لم يُبلَّغ هالك.',
-      'تكلم الآباء عن الكلمة الحاضر لكل إنسان؛ وقال يوستينوس الشهيد إن الذين عاشوا بالعقل عاشوا بمعنى ما مع المسيح.',
-      'تعترف الكنيسة بنزول المسيح إلى الأموات، وتصلي للراقدين؛ وتترك حالهم الأخيرة لله.',
-      'ولأن الإنجيل ملء ما يعطيه الله، ترسله الكنيسة إلى الجميع، لا لأنها تظن أن الله غير عادل مع من لم يسمعوا.',
+      'السؤال هو كيف يتعامل إله عادل ومحب مع أناس لم تُتح لهم فرصة حقيقية لسماع المسيح.',
+      'يقول الكتاب إن الله يدين بحسب ما ناله الإنسان، وإن الضمير يشهد حتى حيث لم تُعطَ الشريعة.',
+      'الخلاص بالمسيح، والكنيسة لا تعلّم أن كل من لم تصله البشارة هالك.',
+      'تكلم الآباء عن الكلمة الحاضر لكل إنسان؛ وقال القديس يوستينوس الشهيد إن الذين عاشوا بالعقل عاشوا بمعنى ما مع المسيح.',
+      'تعترف الكنيسة بنزول المسيح إلى الأموات، وتصلي من أجل الراقدين، وتسلّم كل إنسان إلى الله.',
+      'تشارك الكنيسة الإنجيل مع الجميع لأن المسيح ملء عطية الله، لا لأن الله ظالم لمن لم يسمعوا.',
     ],
   },
   argumentTypes: ['theological', 'textual'],
@@ -46,23 +46,23 @@ export const article: Article = {
   },
   whyExamine: {
     en: [
-      'The question is asked by people who are not hostile at all. A child asks about a grandmother who died in another faith; a student asks about a village that has never met a missionary. They are asking whether God is fair, and they are right to want an answer that does not treat their question as an attack.',
-      'It is also a test of whether the Church’s claims about Christ are made with arrogance. A careful answer holds both that Christ is the way and that the Church has not been given a list of who is saved.',
+      'This question is usually asked with love, not hostility. A child asks about a grandmother who died in another faith; a student asks about a village that has never met a missionary. They are asking whether God is fair, and they deserve a clear and gentle answer.',
+      'The answer also shows the spirit in which the Church speaks of Christ: with full conviction that He is the way, and with humility, because judgement belongs to God and not to us.',
     ],
     ar: [
-      'يطرح هذا السؤال أناس غير معادين على الإطلاق. طفل يسأل عن جدة ماتت على دين آخر؛ وطالب يسأل عن قرية لم تلتقِ بمرسَل. إنهم يسألون هل الله منصف، ومن حقهم جواب لا يعامل سؤالهم هجومًا.',
-      'وهو أيضًا امتحان لهل تُقال دعاوى الكنيسة عن المسيح بتعالٍ. والجواب الدقيق يجمع بين أن المسيح هو الطريق وأن الكنيسة لم تُعطَ قائمة بمن يخلصون.',
+      'يُطرح هذا السؤال عادة بمحبة لا بعداء. فطفل يسأل عن جدة رقدت على دين آخر؛ وطالب يسأل عن قرية لم يصلها مبشّر قط. إنهم يسألون هل الله عادل، ويستحقون جوابًا واضحًا ولطيفًا.',
+      'ويبيّن الجواب أيضًا الروح التي تتكلم بها الكنيسة عن المسيح: باقتناع كامل بأنه الطريق، وباتضاع، لأن الدينونة لله لا لنا.',
     ],
   },
   background: {
     en: [
       'The New Testament speaks strongly of Christ as the only way to the Father and of salvation in no other name, and it also speaks of a God who wants all to be saved. The question arises from putting those together with the fact that many have lived and died without hearing of Christ.',
-      'Christians have given several answers. Some hold that those who have not heard are lost; others that God judges them by the light they had, and may save some through Christ without their knowing it; others that the opportunity to meet Christ is given after death. The Orthodox tradition has not defined this, and rests on the justice and mercy of God and on the confession that salvation is always through Christ, whether or not a person has known his name.',
+      'The Church does not pronounce on the eternal destiny of those who never heard the Gospel. She commends them to the mercy and judgment of God, who is just and loving and wants all to be saved, and she confesses that whoever is saved is saved through Christ, whether or not that person has known His name.',
       'Other traditions face the same question about their own claims, and it is worth saying so. Muslims, Jews and others who hold that their way is true also have to say what they believe about those who have not received it.',
     ],
     ar: [
       'يتكلم العهد الجديد بقوة عن المسيح الطريق الوحيد إلى الآب وعن الخلاص بلا اسم آخر، ويتكلم أيضًا عن إله يريد أن الجميع يخلصون. وينشأ السؤال من الجمع بين هذين مع واقع أن كثيرين عاشوا وماتوا دون أن يسمعوا بالمسيح.',
-      'وقدّم المسيحيون أجوبة عدة. يرى بعضهم أن من لم يسمعوا هالكون؛ ويرى آخرون أن الله يدينهم بالنور الذي كان لهم، وقد يخلّص بعضهم بالمسيح دون أن يعرفوا؛ ويرى آخرون أن فرصة لقاء المسيح تُعطى بعد الموت. ولم يحدد التقليد الأرثوذكسي هذا، ويستند إلى عدل الله ورحمته وإلى الاعتراف بأن الخلاص دائمًا بالمسيح، عرف الإنسان اسمه أم لم يعرف.',
+      'لا تحكم الكنيسة على المصير الأبدي لمن لم يسمعوا الإنجيل. بل تستودعهم رحمة الله ودينونته، وهو العادل المحب الذي يريد أن الجميع يخلصون، وتعترف بأن كل من يخلص إنما يخلص بالمسيح، عرف اسمه أم لم يعرف.',
       'وتواجه تقاليد أخرى السؤال نفسه عن دعاواها، وحسن أن يُقال ذلك. فالمسلمون واليهود وغيرهم ممن يرون أن طريقهم حق عليهم أيضًا أن يقولوا ما يعتقدونه فيمن لم يتلقّوه.',
     ],
   },
@@ -73,13 +73,13 @@ export const article: Article = {
       id: 'c1',
       proposition: {
         en: 'The New Testament teaches both that salvation is through Christ and that God judges people according to what they have received, including conscience for those without the law.',
-        ar: 'يعلّم العهد الجديد أن الخلاص بالمسيح، وأن الله يدين الناس بحسب ما قبلوه، ومنه الضمير لمن هم بلا ناموس.',
+        ar: 'يعلّم العهد الجديد أن الخلاص بالمسيح، وأن الله يدين الناس بحسب ما نالوه، ومنه الضمير لمن هم بلا ناموس.',
       },
       argumentType: 'textual',
       assessment: 'strong_historical_support',
       rationale: {
-        en: 'Both are in the text: Acts 4:12 and John 14:6 on Christ, and Romans 2 on conscience and judgment by what is given. A reading that uses only one omits the other.',
-        ar: 'الأمران في النص: أعمال ٤: ١٢ ويوحنا ١٤: ٦ عن المسيح، ورومية ٢ عن الضمير والدينونة بحسب ما أُعطي. والقراءة التي تستعمل أحدهما فقط تُهمل الآخر.',
+        en: 'Both truths are in the text. St Peter the Apostle says there is salvation in no other name, and the Lord says no one comes to the Father except through Him. St Paul the Apostle says that those without the law show its work written on their hearts, and that God will judge through Christ. Christ is the Saviour, and He is also the just Judge.',
+        ar: 'الحقيقتان كلتاهما في النص. فالقديس بطرس الرسول يقول إن ليس بأحد غيره الخلاص، والرب يقول إن أحدًا لا يأتي إلى الآب إلا به. ويقول القديس بولس الرسول إن الذين بلا ناموس يُظهرون عمل الناموس مكتوبًا في قلوبهم، وإن الله سيدين بالمسيح. فالمسيح هو المخلّص، وهو أيضًا الديان العادل.',
       },
       limits: {
         en: 'This says what the texts teach. It does not say how they fit together in particular cases.',
@@ -90,14 +90,14 @@ export const article: Article = {
     {
       id: 'c2',
       proposition: {
-        en: 'Early Christian writers taught that the divine Word is present to every human being, and that those who lived according to reason lived in a certain sense with Christ.',
-        ar: 'علّم كتّاب مسيحيون أوائل أن الكلمة الإلهي حاضر لكل إنسان، وأن الذين عاشوا بحسب العقل عاشوا بمعنى ما مع المسيح.',
+        en: 'The early Fathers taught that the divine Word is present to every human being, and that those who lived according to reason lived in a certain sense with Christ.',
+        ar: 'علّم الآباء الأوائل أن الكلمة الإلهي حاضر لكل إنسان، وأن الذين عاشوا بحسب العقل عاشوا بمعنى ما مع المسيح.',
       },
       argumentType: 'theological',
       assessment: 'supported_disputed_details',
       rationale: {
-        en: 'Justin Martyr in his First Apology says that Christ is the Word in whom the whole human race shares, and that those who lived with reason were in a sense Christians, even if counted atheists. John 1 speaks of the light that enlightens everyone.',
-        ar: 'يقول يوستينوس الشهيد في دفاعه الأول إن المسيح هو الكلمة الذي يشترك فيه الجنس البشري كله، وإن الذين عاشوا بالعقل كانوا بمعنى ما مسيحيين وإن عُدّوا ملحدين. ويتكلم يوحنا ١ عن النور الذي ينير كل إنسان.',
+        en: 'St John the Evangelist speaks of the true light that enlightens everyone. St Justin Martyr, in the second century, taught that the whole human race shares in Christ the Word, and named Socrates among those who lived by that light. No one is wholly without the light of the Word.',
+        ar: 'يتكلم القديس يوحنا الإنجيلي عن النور الحقيقي الذي ينير كل إنسان. وعلّم القديس يوستينوس الشهيد، في القرن الثاني، أن الجنس البشري كله يشترك في المسيح الكلمة، وذكر سقراط بين الذين عاشوا بهذا النور. فلا أحد خالٍ تمامًا من نور الكلمة.',
       },
       limits: {
         en: 'Justin’s statement is one early writer’s view. It is not a definition of doctrine, and it does not say that a person is saved without Christ.',
@@ -108,14 +108,14 @@ export const article: Article = {
     {
       id: 'c3',
       proposition: {
-        en: 'The Church confesses that Christ descended to the place of the dead and preached there, and on this ground it holds that no one is beyond the reach of his saving work; it leaves the final state of individuals to God.',
-        ar: 'تعترف الكنيسة بأن المسيح نزل إلى موضع الأموات وكرز هناك، وعلى هذا الأساس تعتقد أن لا أحد خارج متناول عمله الخلاصي؛ وتترك الحال الأخيرة للأفراد لله.',
+        en: 'The Church confesses that Christ descended to the place of the dead and preached there, and so holds that no one is beyond the reach of His saving work.',
+        ar: 'تعترف الكنيسة بأن المسيح نزل إلى موضع الأموات وكرز هناك، فتؤمن بأن لا أحد خارج مدى عمله الخلاصي.',
       },
       argumentType: 'theological',
       assessment: 'theological_interpretation',
       rationale: {
-        en: 'First Peter speaks of preaching to the spirits in prison and of the Gospel being preached to the dead. The Orthodox icon of the resurrection shows Christ raising Adam and Eve from Hades. How far this reaches is not defined.',
-        ar: 'تتكلم رسالة بطرس الأولى عن الكرازة للأرواح التي في السجن وعن بشارة الإنجيل للموتى. وأيقونة القيامة الأرثوذكسية تُظهر المسيح يقيم آدم وحواء من الجحيم. وإلى أي مدى يمتد هذا لم يُحدَّد.',
+        en: 'St Peter’s First Letter speaks of Christ proclaiming to the spirits in prison and of the Gospel preached to the dead. The icon of the resurrection shows Christ raising Adam and Eve from Hades. The Church sings of this victory, and entrusts the final state of each person to the Lord who conquered death.',
+        ar: 'تتكلم رسالة القديس بطرس الأولى عن كرازة المسيح للأرواح التي في السجن، وعن التبشير للأموات. وتُظهر أيقونة القيامة المسيح يُقيم آدم وحواء من الجحيم. والكنيسة تسبّح بهذا الانتصار، وتسلّم المصير الأخير لكل إنسان إلى الرب الذي غلب الموت.',
       },
       limits: {
         en: 'The meaning of these passages is disputed, and the Church does not teach that people have a second chance in general.',
@@ -226,12 +226,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The Church does not accept the dilemma. It holds that Christ is the one through whom all are saved, and also that God may apply his work in ways that are not limited to those who have known his name. That is what the Fathers meant by the Word present to all, and what Romans 2 implies about judgment by what a person has been given.',
-          'This is not a claim that all religions are equally true or that they lead to the same place. It is a claim about the reach of Christ’s work, and not about the truth of other teachings.',
+          'The dilemma is false. Christ is the One through whom all who are saved are saved, and God is free to apply His saving work beyond those who have known His name. That is what the Fathers meant by the Word present to all, and what St Paul teaches about judgement by what a person has been given.',
+          'This does not mean that all religions are equally true or lead to the same place. It means that Christ’s work is wider than our knowledge, and that no one is lost for having been born where the Gospel had not yet come.',
         ],
         ar: [
-          'لا تقبل الكنيسة المأزق. فهي تعتقد أن المسيح هو الذي به يخلص الجميع، وأن الله قد يطبّق عمله بطرق لا تقتصر على من عرفوا اسمه. وهذا ما قصده الآباء بالكلمة الحاضر للجميع، وما يتضمنه نص رومية ٢ عن الدينونة بحسب ما أُعطي الإنسان.',
-          'وليست هذه دعوى بأن جميع الأديان حق بالتساوي أو أنها تؤدي إلى المكان نفسه. إنها دعوى عن مدى عمل المسيح، لا عن صحة تعاليم أخرى.',
+          'المعضلة زائفة. فالمسيح هو الذي به يخلص كل من يخلص، والله حر في أن يمد عمله الخلاصي إلى ما وراء الذين عرفوا اسمه. وهذا ما قصده الآباء بالكلمة الحاضر للجميع، وما يعلّمه القديس بولس عن الدينونة بحسب ما أُعطي الإنسان.',
+          'وهذا لا يعني أن كل الأديان صادقة بالتساوي أو تقود إلى الموضع نفسه. بل يعني أن عمل المسيح أوسع من معرفتنا، وأن لا أحد يهلك لأنه وُلد حيث لم يكن الإنجيل قد وصل بعد.',
         ],
       },
       limits: {
@@ -248,12 +248,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The Church sends the Gospel because it believes it is the fullness of what God has given, not merely because it is the only chance. Christ commanded it, and the joy of knowing him is something to be shared. It is not for the Church to hold back a gift on the ground that God might be merciful anyway.',
-          'The Church also asks that the Gospel be shared with respect, without pressure and without contempt for the faith of others, since no one comes to Christ by force.',
+          'The Church does not preach merely to give people a chance. She preaches because Christ commanded it, and because knowing Him is the fullness of life: forgiveness, the sacraments, the life of the Church, and the joy of walking with God now. No one keeps such a gift to himself.',
+          'And the Church shares the Gospel with respect, without pressure and without contempt for the faith of others, since no one comes to Christ by force.',
         ],
         ar: [
-          'ترسل الكنيسة الإنجيل لأنها تؤمن بأنه ملء ما أعطاه الله، لا لمجرد أنه الفرصة الوحيدة. فقد أوصى به المسيح، وفرح معرفته أمر يُشارَك. وليس للكنيسة أن تمسك عطية بحجة أن الله قد يرحم على أي حال.',
-          'وتطلب الكنيسة أيضًا أن يُشارَك الإنجيل باحترام، دون ضغط ودون ازدراء لإيمان الآخرين، إذ لا أحد يأتي إلى المسيح بالقوة.',
+          'لا تكرز الكنيسة لمجرد أن تعطي الناس فرصة. بل تكرز لأن المسيح أوصى بذلك، ولأن معرفته هي ملء الحياة: الغفران، والأسرار، وحياة الكنيسة، وفرح السير مع الله الآن. ولا أحد يحتفظ بعطية كهذه لنفسه.',
+          'والكنيسة تشارك الإنجيل باحترام، دون ضغط ودون ازدراء بإيمان الآخرين، لأن أحدًا لا يأتي إلى المسيح بالإكراه.',
         ],
       },
       limits: {
@@ -270,12 +270,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The Church replies that God judges according to what a person has been given, and not by a fixed standard that ignores circumstances. The parables speak of those who received more being asked for more. Abraham’s question affirms that the judge of all the earth will do what is right.',
-          'This is an answer of trust. A critic may find it insufficient, and the Church does not claim to have shown how in each case justice and mercy are done.',
+          'God does not judge by a fixed standard that ignores circumstances. He judges according to what each person has been given; the Lord’s parables teach that more is asked of those who received more. Abraham’s question already holds the answer: the Judge of all the earth will do what is right.',
+          'The Christian trusts this Judge because he knows Him. He is the One who became man, died for all, and went down even to the dead to seek the lost. Such a God is not arbitrary.',
         ],
         ar: [
-          'تجيب الكنيسة بأن الله يدين بحسب ما أُعطي الإنسان، لا بمعيار ثابت يتجاهل الظروف. وتتكلم الأمثال عن أن من أُعطي أكثر يُطلب منه أكثر. وسؤال إبراهيم يؤكد أن ديّان كل الأرض سيصنع العدل.',
-          'وهذا جواب ثقة. وقد يراه الناقد غير كافٍ، والكنيسة لا تدّعي أنها أظهرت كيف يتحقق العدل والرحمة في كل حالة.',
+          'لا يدين الله بمعيار ثابت يتجاهل الظروف. بل يدين بحسب ما أُعطي كل إنسان؛ وأمثال الرب تعلّم أن من أُعطي كثيرًا يُطلب منه كثير. وسؤال إبراهيم يحمل الجواب: ديان كل الأرض يصنع عدلًا.',
+          'والمسيحي يثق بهذا الديان لأنه يعرفه. إنه الذي صار إنسانًا، ومات عن الجميع، ونزل حتى إلى الأموات ليطلب الهالكين. ومثل هذا الإله ليس اعتباطيًا.',
         ],
       },
       limits: {
@@ -289,10 +289,10 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'The historical evidence is limited to what the early writers said. Justin in the second century, and others after him, spoke of the Word at work among the nations, and Christ’s descent to the dead is a long-standing confession of the Church, kept in its hymns and icons. These show what Christians believed and not how God deals with any individual.',
+        'From the earliest centuries Christians answered this question in the same spirit. St Justin Martyr in the second century, and others after him, spoke of the Word at work among the nations, and Christ’s descent to the dead has long been confessed by the Church, kept in her hymns and icons.',
       ],
       ar: [
-        'الشواهد التاريخية مقصورة على ما قاله الكتّاب الأوائل. فقد تكلم يوستينوس في القرن الثاني وآخرون بعده عن الكلمة العامل بين الأمم، ونزول المسيح إلى الأموات اعتراف قديم للكنيسة، تحفظه في ألحانها وأيقوناتها. وهذا يبيّن ما اعتقده المسيحيون لا كيف يعامل الله فردًا بعينه.',
+        'منذ القرون الأولى أجاب المسيحيون عن هذا السؤال بالروح نفسها. فالقديس يوستينوس الشهيد في القرن الثاني، وآخرون بعده، تكلموا عن الكلمة العامل بين الأمم، واعترفت الكنيسة منذ زمن بعيد بنزول المسيح إلى الأموات، وحفظته في تسابيحها وأيقوناتها.',
       ],
     },
     theological: {
@@ -327,8 +327,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'The Church holds that Christ is the only Saviour and that God wants all to be saved. It does not say that everyone who has not heard of him is lost, and it does not say how God deals with each person. It points to the justice of the Judge, the presence of the Word to all, and Christ’s descent to the dead, and it leaves the rest to God while continuing to share the Gospel.',
-    ar: 'تعتقد الكنيسة أن المسيح هو المخلّص الوحيد وأن الله يريد أن الجميع يخلصون. ولا تقول إن كل من لم يسمع به هالك، ولا تقول كيف يعامل الله كل شخص. وتشير إلى عدل الديان، وحضور الكلمة للجميع، ونزول المسيح إلى الأموات، وتترك الباقي لله وتواصل مشاركة الإنجيل.',
+    en: 'Christ is the only Saviour, and God desires all to be saved. God judges each person by what he has received, the Word enlightens every human being, and Christ went down even to the dead. So the Church does not say that those who never heard are lost; she entrusts them to the Judge who gave Himself for all, and she goes on sharing the Gospel with joy.',
+    ar: 'المسيح هو المخلّص الوحيد، والله يريد أن الجميع يخلصون. والله يدين كل إنسان بحسب ما ناله، والكلمة ينير كل إنسان، والمسيح نزل حتى إلى الأموات. لذلك لا تقول الكنيسة إن الذين لم يسمعوا هالكون؛ بل تسلّمهم إلى الديان الذي بذل نفسه عن الجميع، وتواصل مشاركة الإنجيل بفرح.',
   },
   furtherReading: ['S50', 'S62', 'S46'],
   related: [

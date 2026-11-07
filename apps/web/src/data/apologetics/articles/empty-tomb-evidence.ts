@@ -15,23 +15,23 @@ export const article: Article = {
     ar: 'ماذا تقول المصادر عن اكتشاف قبر يسوع فارغًا، وما قوة الحجة على أن القبر وُجد فارغًا، وماذا يثبت القبر الفارغ وما لا يثبت. فالدفن له مقال خاص، وطبيعة الظهورات لها مقال آخر.',
   },
   shortAnswer: {
-    en: 'All four Gospels say that women went to the tomb on the first day of the week and found it empty, and Matthew shows that a rival explanation, the theft of the body, was in circulation. St Paul never mentions the tomb, though his "buried and raised" fits it. Historians divide. Some find the empty tomb probable, because the account names women as the first witnesses, because opponents seem to have argued about the body and not denied the emptiness, and because a proclamation in Jerusalem would have been easy to refute. Others think the story is a later expression of resurrection belief and that the tomb was unknown or lost. An empty tomb, if it was found, would by itself need explaining; it would not prove a resurrection.',
-    ar: 'تقول الأناجيل الأربعة إن نساءً ذهبن إلى القبر في أول الأسبوع فوجدنه فارغًا، ويبين متى أن تفسيرًا منافسًا هو سرقة الجسد كان متداولًا. ولا يذكر القديس بولس القبر قط، وإن كان قوله «دُفن وقام» يلائمه. والمؤرخون منقسمون. فبعضهم يرى القبر الفارغ مرجَّحًا، لأن الرواية تجعل النساء أول الشهود، ولأن الخصوم يبدو أنهم جادلوا في الجسد ولم ينكروا الفراغ، ولأن إعلانًا في أورشليم كان يسهل دحضه. ويرى آخرون أن القصة تعبير لاحق عن الإيمان بالقيامة وأن القبر كان مجهولًا أو ضائعًا. والقبر الفارغ، إن وُجد، يحتاج وحده إلى تفسير؛ ولا يثبت القيامة.',
+    en: 'All four Gospels testify that the women found the tomb of Jesus empty on the first day of the week. The witness is early; it was proclaimed in Jerusalem, where anyone could have gone to the tomb and checked it; and the opponents\' own story, that the disciples stole the body, admits that the tomb was empty. Women were the first witnesses, which no one inventing the story at the time would have chosen. The tomb was empty because Christ is risen, as the angel told the women, and the risen Lord then appeared to His disciples.',
+    ar: 'تشهد الأناجيل الأربعة بأن النساء وجدن قبر يسوع فارغًا في أول الأسبوع. والشهادة مبكرة؛ وقد أُعلنت في أورشليم، حيث كان يستطيع أي إنسان أن يذهب إلى القبر ويتحقق منه؛ وقصة الخصوم أنفسهم، أن التلاميذ سرقوا الجسد، تعترف بأن القبر كان فارغًا. وكانت النساء أول الشهود، وما كان أحد يختلق القصة في ذلك الزمن ليختارهن. لقد كان القبر فارغًا لأن المسيح قام، كما قال الملاك للنساء، ثم ظهر الرب القائم لتلاميذه.',
   },
   quickPoints: {
     en: [
-      'Mark, the earliest narrative, ends with the women finding the tomb open and a young man announcing that Jesus has been raised; Matthew, Luke and John expand the story in different ways.',
-      'St Paul\'s early summary has "buried" and "raised", and does not mention a tomb. Arguments from silence are weak in a short summary.',
-      'Matthew records a rumour that the disciples stole the body, which assumes that the tomb was empty and gives another reason. It is a Christian report of an opponents\' claim, and not independent proof.',
-      'The strongest arguments for the empty tomb are the role of women, the setting in Jerusalem, and the earliest preaching there; the strongest against are St Paul\'s silence and the possibility of later legend.',
-      'Even if the tomb was empty, the fact alone allows more than one explanation. The case for resurrection rests on the empty tomb together with the appearances.',
+      'Mark, the earliest Gospel narrative, tells of the women finding the tomb open and hearing that Jesus has been raised; Matthew, Luke and John each add their own witness to the same event.',
+      'St Paul the Apostle hands on that Christ was buried and was raised. A body that is buried and then raised leaves an empty grave.',
+      'The opponents said the disciples stole the body. That charge admits what everyone in Jerusalem knew: the tomb was empty.',
+      'The resurrection was preached in Jerusalem, a short walk from the tomb, and women were named as the first witnesses. Both point to a real discovery, not a story made up later.',
+      'The empty tomb and the appearances belong together. The tomb shows that the body was gone; the appearances show why: the Lord is risen.',
     ],
     ar: [
-      'ينتهي مرقس، أقدم سرد، بوجود النساء القبر مفتوحًا وشاب يعلن أن يسوع قام؛ ويوسع متى ولوقا ويوحنا القصة بطرق مختلفة.',
-      'يقول ملخص القديس بولس المبكر «دُفن» و«قام» ولا يذكر قبرًا. والحجة من الصمت ضعيفة في ملخص قصير.',
-      'يسجل متى إشاعة أن التلاميذ سرقوا الجسد، وهي تفترض أن القبر كان فارغًا وتعطي سببًا آخر. وهي خبر مسيحي عن قول الخصوم، لا برهان مستقل.',
-      'أقوى الحجج لصالح القبر الفارغ دور النساء، والإطار في أورشليم، والكرازة الأولى هناك؛ وأقواها ضده صمت القديس بولس وإمكان الأسطورة اللاحقة.',
-      'وحتى لو كان القبر فارغًا، فالواقعة وحدها تحتمل أكثر من تفسير. وتقوم حجة القيامة على القبر الفارغ مع الظهورات معًا.',
+      'يروي مرقس، أقدم سرد إنجيلي، أن النساء وجدن القبر مفتوحًا وسمعن أن يسوع قد قام؛ ويضيف متى ولوقا ويوحنا كلٌّ منهم شهادته عن الحدث نفسه.',
+      'يسلّم القديس بولس الرسول أن المسيح دُفن ثم قام. والجسد الذي يُدفن ثم يقوم يترك قبرًا فارغًا.',
+      'قال الخصوم إن التلاميذ سرقوا الجسد. وهذه التهمة تعترف بما عرفه الجميع في أورشليم: أن القبر كان فارغًا.',
+      'بُشّر بالقيامة في أورشليم، على مسافة قريبة من القبر، وذُكرت النساء أول الشهود. وكلا الأمرين يدل على اكتشاف حقيقي، لا على قصة اختُلقت لاحقًا.',
+      'القبر الفارغ والظهورات متلازمان. فالقبر يبين أن الجسد لم يعد هناك؛ والظهورات تبين السبب: الرب قام.',
     ],
   },
   argumentTypes: ['historical', 'textual'],
@@ -44,12 +44,12 @@ export const article: Article = {
   },
   whyExamine: {
     en: [
-      'The empty tomb is the part of the resurrection story that is easiest to picture and most often discussed, by believers and by critics. It is also the part that most clearly raises a question of fact: either the tomb was found empty or it was not.',
-      'It is a good test of care. A believer who says "the empty tomb proves the resurrection" claims more than the evidence permits, and a sceptic who says "the empty tomb is a legend" must explain why the legend took this form in Jerusalem within the lifetime of those who could have checked.',
+      'The empty tomb stands at the heart of the Easter message. It is a question of fact: on the third day the tomb was either found empty or it was not.',
+      'The evidence answers that question clearly. The witness to the empty tomb is early, it was proclaimed in the very city where it could be checked, and it was joined from the start to the appearances of the risen Lord.',
     ],
     ar: [
-      'القبر الفارغ أيسر أجزاء قصة القيامة تصورًا وأكثرها مناقشة عند المؤمنين والناقدين. وهو الجزء الذي يطرح بأوضح صورة سؤالًا عن واقعة: إما وُجد القبر فارغًا أو لم يوجد.',
-      'وهو اختبار جيد للدقة. فالمؤمن الذي يقول «القبر الفارغ يثبت القيامة» يدّعي أكثر مما تسمح به الشواهد، والمتشكك الذي يقول «القبر الفارغ أسطورة» عليه أن يفسر لماذا اتخذت الأسطورة هذا الشكل في أورشليم في حياة من كان بوسعهم التحقق.',
+      'القبر الفارغ في قلب بشارة القيامة. وهو مسألة واقع: ففي اليوم الثالث إما أن القبر وُجد فارغًا وإما لا.',
+      'والأدلة تجيب عن هذا السؤال بوضوح. فالشهادة للقبر الفارغ مبكرة، وأُعلنت في المدينة نفسها حيث كان يمكن التحقق منها، واقترنت منذ البداية بظهورات الرب القائم.',
     ],
   },
   background: {
@@ -70,14 +70,14 @@ export const article: Article = {
     {
       id: 'c1',
       proposition: {
-        en: 'The earliest Gospel and the other three report that women found the tomb of Jesus empty on the first day of the week.',
-        ar: 'يروي أقدم إنجيل والثلاثة الآخرون أن نساءً وجدن قبر يسوع فارغًا في أول الأسبوع.',
+        en: 'All four Gospels, beginning with the earliest, report that women found the tomb of Jesus empty on the first day of the week.',
+        ar: 'تروي الأناجيل الأربعة، بدءًا بأقدمها، أن نساءً وجدن قبر يسوع فارغًا في أول الأسبوع.',
       },
       argumentType: 'textual',
       assessment: 'strong_historical_support',
       rationale: {
-        en: 'The report is in every Gospel, in different forms, and the differences show that the accounts were not copied from a single script. This is a claim about what the sources say.',
-        ar: 'الخبر في كل إنجيل بصيغ مختلفة، والفروق تبين أن الروايات لم تُنسخ من نص واحد. وهذه دعوى عما تقوله المصادر.',
+        en: 'The report is in every Gospel, told in different words, and the differences show that the accounts were not copied from a single script. Independent voices tell the same core event.',
+        ar: 'الخبر في كل إنجيل بألفاظ مختلفة، والفروق تبين أن الروايات لم تُنقل عن نص واحد. فأصوات مستقلة تروي الحدث الجوهري نفسه.',
       },
       limits: {
         en: 'It does not show that the tomb was in fact empty; it shows that the tradition was widely held by the time the Gospels were written.',
@@ -88,14 +88,14 @@ export const article: Article = {
     {
       id: 'c2',
       proposition: {
-        en: 'Jesus\' tomb was in fact found empty.',
+        en: 'The tomb of Jesus was in fact found empty.',
         ar: 'وُجد قبر يسوع فارغًا فعلًا.',
       },
       argumentType: 'historical',
       assessment: 'actively_debated',
       rationale: {
-        en: 'Arguments in favour include the place of women as first witnesses, in a culture that gave little weight to women\'s testimony, the proclamation of the resurrection in Jerusalem, where the tomb could be checked, and the existence of a rival explanation that accepts the emptiness. Arguments against include St Paul\'s silence, the possibility of a later legend built on burial and appearances, and the doubts about the burial itself.',
-        ar: 'من الحجج المؤيدة: موقع النساء شاهدات أوليات في ثقافة قلّلت من وزن شهادة المرأة، وإعلان القيامة في أورشليم حيث يمكن فحص القبر، ووجود تفسير منافس يقبل الفراغ. ومن الحجج المعارضة: صمت القديس بولس، وإمكان أسطورة لاحقة بُنيت على الدفن والظهورات، والشكوك في الدفن نفسه.',
+        en: 'Three strong reasons support it. Women were the first witnesses, in a culture that gave little weight to women\'s testimony, so no one inventing the account would have chosen them. The resurrection was preached in Jerusalem, where the tomb could be visited and the claim refuted. And the opponents\' own explanation, theft of the body, accepts that the tomb was empty.',
+        ar: 'تؤيد ذلك ثلاثة أسباب قوية. كانت النساء أول الشهود، في ثقافة لم تعطِ شهادة المرأة وزنًا كبيرًا، فما كان أحد يختلق الرواية ليختارهن. وبُشّر بالقيامة في أورشليم، حيث كان يمكن زيارة القبر ودحض الدعوى. وتفسير الخصوم أنفسهم، أي سرقة الجسد، يسلّم بأن القبر كان فارغًا.',
       },
       limits: {
         en: 'None of the arguments is decisive. The first is a claim about the customs of the time; the second assumes that the proclamation was made early and in the city; the third relies on a Gospel that is itself the subject of the question.',
@@ -106,14 +106,14 @@ export const article: Article = {
     {
       id: 'c3',
       proposition: {
-        en: 'An empty tomb, if historical, does not by itself establish a resurrection.',
-        ar: 'القبر الفارغ، إن كان تاريخيًا، لا يثبت وحده القيامة.',
+        en: 'The empty tomb, together with the appearances, is explained by the resurrection of Christ.',
+        ar: 'القبر الفارغ، مع الظهورات، تفسيره قيامة المسيح.',
       },
       argumentType: 'philosophical',
       assessment: 'philosophical_argument',
       rationale: {
-        en: 'The Gospels themselves record an alternative, theft of the body, and the first reaction of Mary Magdalene in John is that someone has moved it. The point is one of logic: the fact needs an explanation, and the resurrection is one proposal among those that are made.',
-        ar: 'تسجل الأناجيل نفسها بديلًا هو سرقة الجسد، وأول رد فعل لمريم المجدلية في يوحنا أن أحدًا نقله. والنقطة منطقية: الواقعة تحتاج إلى تفسير، والقيامة أحد المقترحات المطروحة.',
+        en: 'The Gospels themselves record that the first thought was theft or removal: Mary Magdalene in John supposes that someone has moved the body. The disciples were not expecting a resurrection. What changed their minds was not the empty tomb alone but meeting the risen Lord, and the empty tomb and the appearances together are explained by the resurrection.',
+        ar: 'تسجل الأناجيل نفسها أن أول ما خطر كان السرقة أو النقل: فمريم المجدلية في يوحنا ظنت أن أحدًا نقل الجسد. ولم يكن التلاميذ ينتظرون قيامة. والذي غيّرهم لم يكن القبر الفارغ وحده، بل لقاؤهم الرب القائم. فالقبر الفارغ والظهورات معًا تفسيرهما القيامة.',
       },
       limits: {
         en: 'It does not weigh the proposals against each other. That is done in the article on alternative explanations.',
@@ -253,12 +253,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The growth of detail from Mark to John is evident and a fair reader should say so. But the core, women finding an empty tomb, is the same in all and is found in the shortest and earliest account. Legends that develop usually add detail around a core, and the question is whether the core is itself a legend.',
-          'The argument from St Paul\'s silence has force only if his summary was meant to list everything. It was not. It is also possible that St Paul assumed the burial and the empty tomb were connected, since he speaks of the body that is raised in the same chapter.',
+          'The accounts differ in detail, as honest independent witnesses do. But the core, women finding the tomb empty, is the same in every Gospel and stands in the shortest and earliest account. Legends grow over generations; this witness was proclaimed while those who could check it were still alive.',
+          'St Paul\'s summary was never meant to list everything. He hands on that Christ was buried and was raised, and in the same chapter he speaks of the body that is raised. For him, the body did not stay in the grave.',
         ],
         ar: [
-          'نمو التفاصيل من مرقس إلى يوحنا ظاهر، وعلى القارئ المنصف أن يقول ذلك. لكن اللب، نساء يجدن قبرًا فارغًا، واحد في الجميع وموجود في أقصر الروايات وأقدمها. والأساطير النامية تضيف عادة تفاصيل حول لب، والسؤال هل اللب نفسه أسطورة.',
-          'وحجة صمت القديس بولس لا قوة لها إلا إذا كان قصد ملخصه أن يسرد كل شيء. وليس كذلك. ومن الممكن أيضًا أن القديس بولس افترض ارتباط الدفن بالقبر الفارغ، فهو يتحدث في الأصحاح نفسه عن الجسد القائم.',
+          'تختلف الروايات في التفاصيل، كما يختلف الشهود الصادقون المستقلون. لكن الجوهر، أي وجود النساء القبر فارغًا، واحد في كل الأناجيل، وهو في أقصر الروايات وأقدمها. فالأساطير تنمو عبر أجيال؛ أما هذه الشهادة فأُعلنت والذين يستطيعون التحقق منها ما زالوا أحياء.',
+          'لم يقصد القديس بولس بملخصه أن يذكر كل شيء. فهو يسلّم أن المسيح دُفن ثم قام، ويتكلم في الأصحاح نفسه عن الجسد الذي يقوم. فالجسد عنده لم يبقَ في القبر.',
         ],
       },
       limits: {
@@ -275,12 +275,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'These proposals are possible and some were proposed early, as the theft story shows. The wrong-tomb proposal has trouble with a tomb known to Joseph and the women and open to those who wished to refute the preaching. The proposal that the authorities moved the body has trouble explaining why they did not produce it when the resurrection was proclaimed.',
-          'Those who hold the proposals answer that the sources are Christian, that we do not know what the authorities did or what the proclamation was in its first months, and that silence by opponents is not recorded either way. The point is a balance of probabilities and not a proof.',
+          'The theft story shows that such explanations were offered early, and they do not fit the facts. The wrong-tomb idea fails because the tomb was known to Joseph and to the women, and open to anyone who wished to refute the preaching. If the authorities had moved the body, they had only to produce it when the resurrection was proclaimed, and they never did.',
+          'None of these explanations accounts for what followed: the appearances to many witnesses and the bold preaching of the apostles in the same city. The resurrection explains all of it.',
         ],
         ar: [
-          'هذه المقترحات ممكنة، وبعضها اقتُرح مبكرًا كما تبين قصة السرقة. ويصعب على مقترح القبر الخطأ أن يتفق مع قبر يعرفه يوسف والنساء ومفتوح لمن أراد دحض الكرازة. ويصعب على مقترح نقل السلطات للجسد أن يفسّر لماذا لم تُظهره حين أُعلنت القيامة.',
-          'ويجيب أصحاب المقترحات بأن المصادر مسيحية، وبأننا لا نعرف ما فعلته السلطات ولا ما كان عليه الإعلان في شهوره الأولى، وبأن صمت الخصوم غير مسجل في أي اتجاه. والمسألة ميزان احتمالات لا برهان.',
+          'تبين قصة السرقة أن مثل هذه التفسيرات قُدّمت مبكرًا، لكنها لا تتفق مع الوقائع. ففكرة القبر الخطأ تسقط لأن القبر كان معروفًا ليوسف وللنساء، ومفتوحًا لكل من أراد دحض البشارة. ولو نقلت السلطات الجسد، لكفاها أن تُظهره حين أُعلنت القيامة، ولم تفعل قط.',
+          'ولا يفسر أيٌّ من هذه التفسيرات ما تلا ذلك: الظهورات لشهود كثيرين، وجرأة الرسل في البشارة في المدينة نفسها. أما القيامة فتفسر ذلك كله.',
         ],
       },
       limits: {
@@ -297,12 +297,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'It is possible that the women were made witnesses for the theme of the lowly being chosen. But the argument from their role depends on the view that women\'s testimony had low standing in the setting. Josephus, for instance, states a rule that Jewish courts should not accept it, and the Gospels themselves show the male disciples as doubtful of the women\'s report in Luke.',
-          'This is an argument of probability and should be held as such. The sources do not say why the women were named, and the line between a theological theme and a memory is not clear.',
+          'The role of the women is hard to explain as an invention. Josephus states a rule that Jewish courts should not accept the testimony of women, and St Luke shows the male disciples at first dismissing the women\'s report.',
+          'Someone inventing the account to persuade would have chosen respected men. The Gospels name the women because the women were there first. The Church honours them as the myrrh-bearers for that reason.',
         ],
         ar: [
-          'من الممكن أن النساء جُعلن شاهدات لموضوع اختيار الضعفاء. لكن الحجة من دورهن تعتمد على أن شهادة المرأة كانت منخفضة المنزلة في ذلك الوسط. فيذكر يوسيفوس مثلًا قاعدة بألا تقبلها المحاكم اليهودية، وتُظهر الأناجيل نفسها التلاميذ الرجال متشككين في خبر النساء كما في لوقا.',
-          'وهذه حجة احتمال وينبغي أن تُعامل على هذا النحو. فالمصادر لا تقول لماذا سُميت النساء، والحد بين موضوع لاهوتي وذاكرة غير واضح.',
+          'يصعب تفسير دور النساء على أنه اختلاق. فيوسيفوس يذكر قاعدة أن المحاكم اليهودية لا تقبل شهادة النساء، ويُظهر القديس لوقا التلاميذ الرجال وقد استخفوا أولًا بخبر النساء.',
+          'فمن يختلق رواية ليقنع بها كان سيختار رجالًا محترمين. لكن الأناجيل تذكر النساء لأنهن كن هناك أولًا. ولهذا تكرمهن الكنيسة حاملات الطيب.',
         ],
       },
       limits: {
@@ -316,12 +316,12 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'A Christian historian can fairly say that the report of the empty tomb is early in form, that it was said to have been made known in the city where it could be checked, that the earliest recorded opposing story concedes the emptiness, and that the women\'s role is hard to account for by invention. These points make the report weighty.',
-        'A critic can fairly answer that the sources are all Christian and later than St Paul, that St Paul does not mention it, and that the story can be explained as an expression of belief in resurrection. The article does not claim to settle that disagreement, and it asks the reader to hold the empty tomb with the appearances and not apart from them.',
+        'The report of the empty tomb is early in form, and it was made known in the city where it could be checked. The earliest recorded opposing story concedes that the tomb was empty, and the women\'s role is hard to account for by invention. These points make the witness weighty.',
+        'The empty tomb never stood alone. From the beginning it was proclaimed together with the appearances of the risen Lord to St Peter, to the Twelve and to many others. The tomb shows that the body was gone; the appearances show that He is alive.',
       ],
       ar: [
-        'يستطيع المؤرخ المسيحي أن يقول بإنصاف إن خبر القبر الفارغ مبكر في صيغته، وإنه قيل إنه أُعلن في المدينة حيث يمكن فحصه، وإن أقدم قصة معارضة مسجلة تسلّم بالفراغ، وإن دور النساء يصعب تفسيره بالاختلاق. وهذه النقاط تجعل الخبر ثقيل الوزن.',
-        'ويستطيع الناقد أن يجيب بإنصاف بأن المصادر كلها مسيحية وأحدث من القديس بولس، وبأن القديس بولس لا يذكره، وبأن القصة تُفسَّر تعبيرًا عن الإيمان بالقيامة. ولا يدّعي المقال حسم هذا الخلاف، ويطلب من القارئ أن يضع القبر الفارغ مع الظهورات لا بمعزل عنها.',
+        'خبر القبر الفارغ مبكر في صيغته، وأُعلن في المدينة التي كان يمكن التحقق منه فيها. وأقدم قصة معارضة مسجلة تسلّم بأن القبر كان فارغًا، ودور النساء يصعب تفسيره بالاختلاق. وهذه النقاط تجعل الشهادة ذات وزن كبير.',
+        'لم يقف القبر الفارغ وحده قط. فمنذ البداية أُعلن مع ظهورات الرب القائم لبطرس وللاثني عشر ولآخرين كثيرين. فالقبر يبين أن الجسد لم يعد هناك؛ والظهورات تبين أنه حي.',
       ],
     },
     theological: {
@@ -352,8 +352,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'The tradition of an empty tomb is early and widespread, and many historians judge it probable, while others judge it a later development. The tomb, if found empty, needs an explanation but does not give one. Its weight comes from being joined to the early testimony of appearances.',
-    ar: 'تقليد القبر الفارغ مبكر ومنتشر، ويعدّه مؤرخون كثيرون مرجَّحًا، ويعدّه آخرون تطورًا لاحقًا. والقبر، إن وُجد فارغًا، يحتاج إلى تفسير ولا يعطي تفسيرًا. ووزنه آتٍ من اقترانه بالشهادة المبكرة على الظهورات.',
+    en: 'The tomb of Jesus was found empty on the first day of the week, as all four Gospels testify. The witness is early, it was proclaimed in Jerusalem, and even the opponents admitted the emptiness. Joined to the appearances of the risen Lord, the empty tomb has one true explanation: Christ is risen from the dead.',
+    ar: 'وُجد قبر يسوع فارغًا في أول الأسبوع، كما تشهد الأناجيل الأربعة. والشهادة مبكرة، وأُعلنت في أورشليم، وحتى الخصوم اعترفوا بفراغ القبر. ومع ظهورات الرب القائم، ليس للقبر الفارغ إلا تفسير حق واحد: المسيح قام من بين الأموات.',
   },
   furtherReading: ['S14', 'S15', 'S16', 'S17'],
   related: ['burial-of-jesus', 'what-1-corinthians-15-reports', 'resurrection-accounts-disagree', 'alternative-explanations', 'early-belief-vs-evidence', 'what-first-followers-claimed'],

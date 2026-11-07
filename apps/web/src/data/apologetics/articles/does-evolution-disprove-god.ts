@@ -15,23 +15,23 @@ export const article: Article = {
     ar: 'تبيّن هذه المقالة ما هي نظرية التطور البيولوجي وما أدلتها، وتسأل هل تناقض الإيمان بالله، وتعرض الطرق التي يربطها بها المسيحيون بالكتب المقدسة، ومنها ما للكنيسة القبطية الأرثوذكسية فيه تعليم مستقر وما ليس لها فيه تعليم. أما نشأة الحياة فسؤال علمي مختلف وله مقالته.',
   },
   shortAnswer: {
-    en: 'No. Evolution by natural selection is a scientific theory about how living things change and diversify over very long periods, supported by evidence from fossils, anatomy, genetics and direct observation. Like all science it describes natural processes and does not address whether those processes depend on God. The claim that evolution disproves God is a philosophical or personal conclusion added to the science, not a result of it. Christians respond in several ways: some accept evolution as the way God works in creation, some reject it for reasons of biblical interpretation, and some defend a form of design. The Church confesses God as Creator of all things and teaches that the human person is made in His image; it has not defined the mechanism or the age of creation, and it does not read Scripture as a science textbook.',
-    ar: 'لا. التطور بالانتخاب الطبيعي نظرية علمية عن كيفية تغيّر الكائنات الحية وتنوّعها عبر فترات طويلة جدًا، وتسندها أدلة من المستحاثات والتشريح والوراثة والرصد المباشر. وهي كأي علم تصف عمليات طبيعية ولا تتناول هل تعتمد هذه العمليات على الله. والقول بأن التطور ينفي وجود الله استنتاج فلسفي أو شخصي مضاف إلى العلم لا نتيجة منه. ويجيب المسيحيون بطرق عدة: فبعضهم يقبل التطور طريقةً يعمل بها الله في الخلق، وبعضهم يرفضه لأسباب تتعلق بتفسير الكتاب المقدس، وبعضهم يدافع عن صورة من التصميم. وتعترف الكنيسة بالله خالق كل شيء، وتعلّم أن الإنسان مخلوق على صورته؛ ولم تحدد آلية الخلق ولا عمره، ولا تقرأ الكتاب المقدس كأنه كتاب علوم.',
+    en: 'No. Evolution by natural selection is a scientific theory about how living things change and diversify over long ages, supported by evidence from fossils, anatomy, genetics and direct observation. Like all science, it describes how natural processes work; it cannot say whether those processes depend on God, and it does not. The claim that evolution disproves God is a philosophical conclusion added to the science, not a result of it. The Church confesses God as the Creator of all things, visible and invisible, and teaches that the human person is made in His image, fell, and is redeemed in Christ. She has not bound the faith to any scientific model of the mechanism or the age of creation, and she reads Scripture as God’s word about who He is and who we are.',
+    ar: 'لا. التطور بالانتخاب الطبيعي نظرية علمية عن كيفية تغيّر الكائنات الحية وتنوّعها عبر أزمنة طويلة، وتسندها أدلة من المستحاثات والتشريح والوراثة والرصد المباشر. وهي كأي علم تصف كيف تعمل العمليات الطبيعية، ولا تستطيع أن تقول هل تعتمد هذه العمليات على الله، ولا تقول ذلك. والقول بأن التطور ينفي وجود الله استنتاج فلسفي مضاف إلى العلم لا نتيجة منه. والكنيسة تعترف بالله خالق كل شيء ما يُرى وما لا يُرى، وتعلّم أن الإنسان مخلوق على صورته، وأنه سقط، وأنه افتُدي في المسيح. ولم تربط الإيمان بأي نموذج علمي لآلية الخلق أو عمره، وتقرأ الكتاب المقدس كلمةَ الله عمن هو ومن نحن.',
   },
   quickPoints: {
     en: [
       'The theory of evolution says that species descend with modification from earlier species, through variation and natural selection among other processes. It rests on convergent evidence from fossils, comparative anatomy, genetics, and observed change in populations, and it is the working framework of modern biology.',
       'Science studies natural processes. It neither includes nor excludes God as the ground of those processes, so “evolution disproves God” is a philosophical step, not a scientific result.',
       'Some of the statements that seem to oppose evolution and faith (“random”, “unguided”) are philosophical glosses, not part of the biology.',
-      'Christians differ on how Genesis relates to evolution: evolutionary creation, young-earth creationism, and design arguments each have defenders. The Church has not defined the age of the earth or the mechanism of creation.',
-      'What the Church does teach: God made all things, human beings bear His image, the human race fell and needs redemption, and Christ is the Saviour. These claims are not scientific claims and do not stand or fall with a scientific model.',
+      'The Church has not made the age of the earth or the mechanism of creation part of the faith. The Fathers themselves read the days of Genesis in more than one way while confessing the one Creator.',
+      'What the Church teaches: God made all things, human beings bear His image, the human race fell and needs redemption, and Christ is the Saviour. These truths do not stand or fall with any scientific model.',
     ],
     ar: [
       'تقول نظرية التطور إن الأنواع تنحدر مع تعديل من أنواع أسبق، بالتنوع والانتخاب الطبيعي وعمليات أخرى. وتستند إلى أدلة متضافرة من المستحاثات والتشريح المقارن والوراثة والتغير المرصود في المجموعات الحية، وهي الإطار العملي للبيولوجيا الحديثة.',
       'العلم يدرس العمليات الطبيعية. وهو لا يُدخل الله ولا يُقصيه بوصفه أساس هذه العمليات، فقول «التطور ينفي الله» خطوة فلسفية لا نتيجة علمية.',
       'وبعض العبارات التي توحي بتعارض التطور والإيمان («عشوائي»، «بلا توجيه») إضافات فلسفية وليست جزءًا من علم الأحياء.',
-      'يختلف المسيحيون في علاقة سفر التكوين بالتطور: فللخلق التطوري والخلق الحديث الأرض وحجج التصميم أنصار. ولم تحدد الكنيسة عمر الأرض ولا آلية الخلق.',
-      'وما تعلّمه الكنيسة: أن الله صنع كل شيء، وأن الإنسان يحمل صورته، وأن الجنس البشري سقط ويحتاج إلى فداء، وأن المسيح هو المخلّص. وهذه دعاوى ليست علمية ولا تتوقف على نموذج علمي.',
+      'لم تجعل الكنيسة عمر الأرض ولا آلية الخلق جزءًا من الإيمان. والآباء أنفسهم قرأوا أيام سفر التكوين بأكثر من طريقة وهم يعترفون بالخالق الواحد.',
+      'وما تعلّمه الكنيسة: أن الله صنع كل شيء، وأن الإنسان يحمل صورته، وأن الجنس البشري سقط ويحتاج إلى فداء، وأن المسيح هو المخلّص. وهذه الحقائق لا تتوقف على أي نموذج علمي.',
     ],
   },
   argumentTypes: ['scientific', 'philosophical', 'theological'],
@@ -44,12 +44,12 @@ export const article: Article = {
   },
   whyExamine: {
     en: [
-      'Many young people hear, at school or online, that science has shown God to be unnecessary. Many others hear in church or at home that evolution is a lie. Both messages leave a reader with a false choice between honesty about the evidence and loyalty to faith.',
-      'The Church’s best teachers have not accepted that choice. Examining it carefully, with the science stated as scientists would state it and the faith stated as the Church holds it, lets a person keep both.',
+      'Many young people hear, at school or online, that science has shown God to be unnecessary. Others hear that they must choose between science and faith. Both messages set a false choice between honesty about the evidence and loyalty to the faith.',
+      'The Church does not ask anyone to make that choice. The God who reveals Himself in Scripture is the God who made the world that science studies, and a believer can study creation with an open mind and a thankful heart.',
     ],
     ar: [
-      'يسمع كثير من الشباب في المدرسة أو على الإنترنت أن العلم أثبت عدم الحاجة إلى الله. ويسمع كثيرون غيرهم في الكنيسة أو البيت أن التطور كذبة. وكلتا الرسالتين تترك القارئ أمام خيار زائف بين الصدق مع الأدلة والوفاء للإيمان.',
-      'ولم يقبل أفضل معلمي الكنيسة هذا الخيار. والنظر المتأني فيه، مع عرض العلم كما يعرضه العلماء والإيمان كما تتمسك به الكنيسة، يتيح للإنسان أن يحتفظ بالاثنين.',
+      'يسمع كثير من الشباب في المدرسة أو على الإنترنت أن العلم أثبت عدم الحاجة إلى الله. ويسمع آخرون أن عليهم أن يختاروا بين العلم والإيمان. وكلتا الرسالتين تضع خيارًا زائفًا بين الصدق مع الأدلة والوفاء للإيمان.',
+      'والكنيسة لا تطلب من أحد هذا الاختيار. فالله الذي يعلن ذاته في الكتاب المقدس هو الله الذي صنع العالم الذي يدرسه العلم، ويستطيع المؤمن أن يدرس الخليقة بعقل منفتح وقلب شاكر.',
     ],
   },
   background: {
@@ -70,14 +70,14 @@ export const article: Article = {
     {
       id: 'c1',
       proposition: {
-        en: 'Biological evolution, including common descent and natural selection, is the standard scientific explanation for the diversity of life, and it is supported by several independent kinds of evidence.',
+        en: 'Biological evolution, including common descent and natural selection, is the standard scientific explanation for the diversity of life, supported by several independent kinds of evidence.',
         ar: 'التطور البيولوجي، بما فيه الأصل المشترك والانتخاب الطبيعي، هو التفسير العلمي المعياري لتنوع الحياة، وتسنده عدة أنواع مستقلة من الأدلة.',
       },
       argumentType: 'scientific',
       assessment: 'supported_disputed_details',
       rationale: {
-        en: 'The core claim is not in dispute among biologists: the evidence from fossils, anatomy, genetics, geography and observed change converges, and the theory is the working framework of biology. Details of particular lineages and processes are disputed.',
-        ar: 'الدعوى المحورية غير محل خلاف بين علماء الأحياء: تتقارب الأدلة من المستحاثات والتشريح والوراثة والجغرافيا والتغير المرصود، والنظرية هي الإطار العملي لعلم الأحياء. أما تفاصيل سلالات وعمليات بعينها ففيها خلاف.',
+        en: 'The evidence from fossils, anatomy, genetics, the distribution of species and observed change in populations converges, and the theory is the working framework of modern biology. Stating this plainly is part of honesty about God’s creation.',
+        ar: 'تتقارب الأدلة من المستحاثات والتشريح والوراثة وتوزع الأنواع والتغير المرصود في المجموعات الحية، والنظرية هي الإطار العملي لعلم الأحياء الحديث. وقول ذلك بوضوح جزء من الصدق في شأن خليقة الله.',
       },
       limits: {
         en: 'Details of particular lineages and the relative importance of different processes are still researched. The site does not review the biology itself in detail and relies on the scientific bodies and reference works it cites.',
@@ -88,14 +88,14 @@ export const article: Article = {
     {
       id: 'c2',
       proposition: {
-        en: 'A scientific theory about natural processes does not by itself show that God does not exist, or that those processes are without purpose; such conclusions are philosophical or personal additions.',
-        ar: 'نظرية علمية عن عمليات طبيعية لا تثبت بذاتها أن الله غير موجود، أو أن هذه العمليات بلا غاية؛ فمثل هذه الاستنتاجات إضافات فلسفية أو شخصية.',
+        en: 'A scientific theory about natural processes cannot show that God does not exist or that those processes are without purpose; such conclusions are philosophical additions.',
+        ar: 'نظرية علمية عن عمليات طبيعية لا تستطيع أن تثبت أن الله غير موجود أو أن هذه العمليات بلا غاية؛ فمثل هذه الاستنتاجات إضافات فلسفية.',
       },
       argumentType: 'philosophical',
       assessment: 'philosophical_argument',
       rationale: {
-        en: 'Science does not test for ultimate causes or purposes. Writers on either side, believers and non-believers, who say that evolution settles the question of God are moving from science to philosophy, and need philosophical arguments to do so.',
-        ar: 'العلم لا يختبر العلل الأخيرة ولا الغايات. والكتّاب من الجانبين، من المؤمنين وغير المؤمنين، الذين يقولون إن التطور يحسم سؤال الله ينتقلون من العلم إلى الفلسفة ويحتاجون إلى حجج فلسفية لذلك.',
+        en: 'Science studies how nature works; it does not test for ultimate causes or purposes. Anyone who says that evolution settles the question of God has stepped from science into philosophy, and the science itself gives no support to that step.',
+        ar: 'العلم يدرس كيف تعمل الطبيعة، ولا يختبر العلل الأخيرة ولا الغايات. ومن يقول إن التطور يحسم سؤال الله فقد انتقل من العلم إلى الفلسفة، والعلم نفسه لا يسند هذه الخطوة.',
       },
       limits: {
         en: 'This does not show that evolution is easy to fit with every picture of God. Some pictures of God, such as a literal reading of Genesis as a science, are in tension with it, and the next claims address that.',
@@ -106,14 +106,14 @@ export const article: Article = {
     {
       id: 'c3',
       proposition: {
-        en: 'The Church confesses God as Creator of all things and the human person as made in His image, and has not defined the mechanism or the age of creation; Scripture is read in the Church as God’s word to us about who He is and who we are, not as a manual of natural science.',
-        ar: 'تعترف الكنيسة بالله خالقًا لكل شيء وبالإنسان مخلوقًا على صورته، ولم تحدد آلية الخلق ولا عمره؛ ويُقرأ الكتاب المقدس في الكنيسة كلمة الله إلينا عمن هو ومن نحن، لا دليلًا في العلوم الطبيعية.',
+        en: 'God is the Creator of all things and the human person is made in His image; the Church has not bound the faith to a mechanism or an age of creation, and she reads Scripture as God’s word about who He is and who we are, not as a manual of natural science.',
+        ar: 'الله خالق كل شيء، والإنسان مخلوق على صورته؛ ولم تربط الكنيسة الإيمان بآلية للخلق أو بعمر له، وتقرأ الكتاب المقدس كلمةَ الله عمن هو ومن نحن، لا دليلًا في العلوم الطبيعية.',
       },
       argumentType: 'theological',
       assessment: 'theological_interpretation',
       rationale: {
-        en: 'It is the Church’s teaching on creation and Scripture. It is stated as doctrine, with the note that Orthodox teachers differ on how that doctrine relates to the science of origins.',
-        ar: 'هذا تعليم الكنيسة في الخلق والكتاب المقدس. ويُذكر عقيدةً مع التنبيه إلى أن معلمين أرثوذكس يختلفون في كيفية ربط هذه العقيدة بعلم الأصول.',
+        en: 'This is the Church’s teaching on creation and on Scripture, confessed in the Creed and taught by the Fathers, who read Scripture for its saving message and not as a description of the natural sciences.',
+        ar: 'هذا تعليم الكنيسة في الخلق والكتاب المقدس، المعترف به في قانون الإيمان والذي علّمه الآباء، الذين قرأوا الكتاب لرسالته الخلاصية لا وصفًا للعلوم الطبيعية.',
       },
       limits: {
         en: 'It does not settle which reading of Genesis is correct, and a reader who does not share the faith is not asked to accept it to weigh claims 1 and 2.',
@@ -221,12 +221,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          '“Random” in biology has a technical meaning: mutations occur without regard to whether they will help the organism. It does not mean that the whole process is uncaused or without pattern, since selection is not random and the outcomes are constrained by physics and chemistry. Biology as a science does not and cannot say whether the process as a whole has a purpose.',
-          'Christian thinkers, both before and after Darwin, have held that God works through secondary causes, including chance events, and that He is the cause of the whole order in which they occur. The Church’s teaching that God sustains everything does not need that creation proceed without natural causes.',
+          '“Random” in biology has a technical meaning: mutations occur without regard to whether they will help the organism. It does not mean that the process is uncaused or without pattern; selection is not random, and the outcomes are shaped by the laws of physics and chemistry. Whether the whole has a purpose is not a question biology can answer.',
+          'Christian thinkers before and after Darwin have taught that God works through secondary causes, including chance events, and that He is the cause of the whole order in which they occur. God sustains every creature in being. A process that science describes as natural is no less the work of the Creator, and human beings are not an accident but persons called by name.',
         ],
         ar: [
-          '«العشوائي» في علم الأحياء له معنى تقني: تحدث الطفرات دون اعتبار هل ستفيد الكائن. ولا يعني أن العملية كلها بلا سبب أو نمط، فالانتخاب ليس عشوائيًا والنتائج تقيدها الفيزياء والكيمياء. وعلم الأحياء بوصفه علمًا لا يقول، ولا يستطيع أن يقول، هل للعملية ككل غاية.',
-          'وقد رأى مفكرون مسيحيون، قبل داروين وبعده، أن الله يعمل بالأسباب الثانوية، ومنها الأحداث الاحتمالية، وأنه علة النظام كله الذي تحدث فيه. وتعليم الكنيسة بأن الله يحفظ كل شيء لا يحتاج إلى أن يمضي الخلق بلا أسباب طبيعية.',
+          '«العشوائي» في علم الأحياء له معنى تقني: تحدث الطفرات دون اعتبار هل ستفيد الكائن. ولا يعني أن العملية بلا سبب أو نمط، فالانتخاب ليس عشوائيًا، والنتائج تشكّلها قوانين الفيزياء والكيمياء. وهل للكل غاية سؤال لا يستطيع علم الأحياء أن يجيب عنه.',
+          'وقد علّم مفكرون مسيحيون قبل داروين وبعده أن الله يعمل بالأسباب الثانوية، ومنها الأحداث الاحتمالية، وأنه علة النظام كله الذي تحدث فيه. والله يحفظ كل مخلوق في الوجود. والعملية التي يصفها العلم بأنها طبيعية ليست أقل من أن تكون عمل الخالق، والإنسان ليس مصادفة بل شخص مدعو باسمه.',
         ],
       },
       limits: {
@@ -243,12 +243,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'Christians have answered in different ways. Some read Genesis as a literal account and reject evolution and the long age of the earth. Others hold that Genesis teaches who made the world and why, not how or when, and that the death that St Paul the Apostle says came through sin is understood as the death of human beings, in which the whole creation shares in suffering. Others again hold forms of design. The early Church was already not uniform on the reading of the days: some Fathers, among them Origen of Alexandria and Augustine of Hippo, did not read them as ordinary days.',
-          'In the Coptic Orthodox Church there is no definition on this question, and teachers differ. What all hold in common is that God is the Creator, that Adam’s race fell, and that Christ is the Saviour. A believer is not required to adopt a particular scientific position to be in communion with the Church, though the Church warns against reading Scripture in a way that denies its message.',
+          'Genesis teaches who made the world and why: the one God made all things good, created human beings in His image, and saw them fall. The Church has never made a particular scientific reading of the days part of the faith; even in the early Church, Fathers such as Origen of Alexandria and Augustine of Hippo did not read the days as ordinary days.',
+          'In the Coptic Orthodox Church there is no definition on the scientific question. What is binding is the faith: God is the Creator, Adam’s race fell, and Christ is the Saviour who conquered death. A believer is not required to adopt a scientific position to be in communion with the Church, and the Church warns against any reading of Scripture that denies its message.',
         ],
         ar: [
-          'أجاب المسيحيون بطرق مختلفة. فبعضهم يقرأ سفر التكوين قراءة حرفية ويرفض التطور وعمر الأرض الطويل. ويرى آخرون أن سفر التكوين يعلّم من صنع العالم ولماذا لا كيف ولا متى، وأن الموت الذي يقول القديس بولس الرسول إنه جاء بالخطية يُفهم على أنه موت الإنسان، وفيه تشارك الخليقة كلها في الألم. ويقول آخرون بصور من التصميم. وكانت الكنيسة الأولى نفسها غير موحدة في قراءة الأيام: فبعض الآباء، ومنهم أوريجانوس السكندري وأغسطينوس، لم يقرأوها أيامًا عادية.',
-          'وليس في الكنيسة القبطية الأرثوذكسية تحديد في هذه المسألة، ويختلف المعلمون. والمشترك بينهم أن الله هو الخالق، وأن جنس آدم سقط، وأن المسيح هو المخلّص. ولا يُشترط على المؤمن أن يتبنى موقفًا علميًا محددًا ليكون في شركة الكنيسة، وإن كانت الكنيسة تحذر من قراءة الكتاب بطريقة تنكر رسالته.',
+          'يعلّم سفر التكوين من صنع العالم ولماذا: الإله الواحد صنع كل شيء حسنًا، وخلق الإنسان على صورته، ورآه يسقط. ولم تجعل الكنيسة قط قراءة علمية بعينها للأيام جزءًا من الإيمان؛ وحتى في الكنيسة الأولى لم يقرأ آباء مثل أوريجانوس السكندري وأغسطينوس الأيام أيامًا عادية.',
+          'وليس في الكنيسة القبطية الأرثوذكسية تحديد في المسألة العلمية. أما الملزم فهو الإيمان: الله هو الخالق، وجنس آدم سقط، والمسيح هو المخلّص الذي غلب الموت. ولا يُشترط على المؤمن أن يتبنى موقفًا علميًا ليكون في شركة الكنيسة، والكنيسة تحذر من أي قراءة للكتاب تنكر رسالته.',
         ],
       },
       limits: {
@@ -265,12 +265,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'In science a theory is a well-tested explanation, not a guess. Evolution has been observed in populations, for example in bacteria and in laboratory and field studies, and the evidence for common descent comes from many independent fields. Biologists disagree about details and processes, but not about whether evolution has occurred.',
-          'The design argument is a different matter. Its proponents argue that some biological features show marks of intelligent design. Most biologists reply that such features have been or can be explained by evolutionary pathways, and they do not regard intelligent design as an established scientific theory. Christians who believe that creation shows God’s wisdom need not make that belief depend on a gap in biology, as the argument from gaps is vulnerable if the gaps are filled.',
+          'In science a theory is a well-tested explanation, not a guess. Evolution has been observed in populations, for example in bacteria and in laboratory and field studies, and the evidence for common descent comes from many independent fields. Disagreements among biologists concern details and processes.',
+          'The Christian’s confidence that creation shows God’s wisdom does not depend on gaps in biology. If it did, every new discovery would seem a threat. The wisdom of God is seen in the whole order of nature, in its laws and its fruitfulness, including the processes science describes.',
         ],
         ar: [
-          'النظرية في العلم تفسير مختبَر جيدًا لا تخمين. وقد رُصد التطور في مجموعات حية، كما في البكتيريا وفي دراسات مخبرية وميدانية، وتأتي أدلة الأصل المشترك من ميادين مستقلة كثيرة. ويختلف علماء الأحياء في التفاصيل والعمليات، لا في هل حدث التطور.',
-          'أما حجة التصميم فأمر آخر. ويحتج أنصارها بأن بعض السمات الحيوية تحمل علامات تصميم ذكي. ويردّ أغلب علماء الأحياء بأن مثل هذه السمات فُسِّرت أو يمكن أن تُفسَّر بمسارات تطورية، ولا يعدّون التصميم الذكي نظرية علمية مقرَّرة. ولا حاجة إلى أن يجعل المسيحيون المؤمنون بأن الخليقة تُظهر حكمة الله إيمانهم متوقفًا على فجوة في علم الأحياء، فحجة الفجوات تضعف إذا سُدَّت الفجوات.',
+          'النظرية في العلم تفسير مختبَر جيدًا لا تخمين. وقد رُصد التطور في مجموعات حية، كما في البكتيريا وفي دراسات مخبرية وميدانية، وتأتي أدلة الأصل المشترك من ميادين مستقلة كثيرة. والخلافات بين علماء الأحياء تخص التفاصيل والعمليات.',
+          'وثقة المسيحي بأن الخليقة تُظهر حكمة الله لا تتوقف على فجوات في علم الأحياء. ولو توقفت عليها لبدا كل اكتشاف جديد تهديدًا. فحكمة الله تُرى في نظام الطبيعة كله، في قوانينه وخصوبته، ومنه العمليات التي يصفها العلم.',
         ],
       },
       limits: {
@@ -287,12 +287,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'Cognitive scientists propose such accounts of how religious belief arises, and they are the subject of research. A causal account of how a belief arose does not by itself show that it is false: we can explain how humans came to believe in numbers or in other minds without concluding that there are none. Whether a belief is true depends on the grounds for it.',
-          'The point returns to the same distinction as before. An account of the origin of a belief is one thing, and an argument that it is false is another. The second needs further premises.',
+          'An account of how a belief arose does not show that it is false. We can explain how human beings came to believe in numbers or in other minds without concluding that there are none. Whether a belief is true depends on its grounds.',
+          'If God made human beings to know Him, it is no surprise that the human mind is open to Him. The Church sees in that openness the image of God, longing for the One who made it.',
         ],
         ar: [
-          'يقترح علماء الإدراك تفسيرات كهذه لنشأة الاعتقاد الديني، وهي موضوع بحث. وتفسير سببي لكيفية نشأة اعتقاد لا يثبت بذاته أنه باطل: فنستطيع تفسير كيف آمن البشر بالأعداد أو بوجود عقول أخرى دون أن نستنتج أنها غير موجودة. وصدق الاعتقاد يتوقف على أسسه.',
-          'والنقطة ترجع إلى التمييز نفسه كما سبق. فبيان أصل اعتقاد شيء، والحجة على بطلانه شيء آخر، والثاني يحتاج إلى مقدمات إضافية.',
+          'بيان كيف نشأ اعتقاد لا يثبت أنه باطل. فنستطيع تفسير كيف آمن البشر بالأعداد أو بوجود عقول أخرى دون أن نستنتج أنها غير موجودة. وصدق الاعتقاد يتوقف على أسسه.',
+          'وإن كان الله قد خلق الإنسان ليعرفه، فليس عجيبًا أن يكون العقل البشري منفتحًا عليه. والكنيسة ترى في هذا الانفتاح صورة الله التي تشتاق إلى خالقها.',
         ],
       },
       limits: {
@@ -305,31 +305,31 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'This is not mainly a historical question about Jesus. The relevant history is that of science and the Church: the Christian faith has existed for centuries alongside different pictures of the natural world, and the Fathers distinguished the message of Scripture from the cosmology of their day. They did not treat the text as a source of natural science.',
+        'The Christian faith has lived for centuries alongside changing pictures of the natural world. The Fathers distinguished the saving message of Scripture from the cosmology of their day and did not treat the text as a source of natural science, so the faith has never depended on a particular scientific picture.',
       ],
       ar: [
-        'هذا ليس سؤالًا تاريخيًا عن يسوع في الأساس. والتاريخ المعني هو تاريخ العلم والكنيسة: فقد عاش الإيمان المسيحي قرونًا إلى جانب صور مختلفة للعالم الطبيعي، وميّز الآباء بين رسالة الكتاب وكونيات عصرهم، ولم يعاملوا النص مصدرًا للعلوم الطبيعية.',
+        'عاش الإيمان المسيحي قرونًا إلى جانب صور متغيرة للعالم الطبيعي. وميّز الآباء بين رسالة الكتاب الخلاصية وكونيات عصرهم، ولم يعاملوا النص مصدرًا للعلوم الطبيعية، فالإيمان لم يتوقف قط على صورة علمية بعينها.',
       ],
     },
     theological: {
       en: [
         'A Christian can welcome the sciences as the study of God’s creation, and can hold that the processes of nature, including those that biology describes, are what God has made and sustains. The faith’s claims are of another kind: that the world is made and loved by God, that human beings bear His image and are called to communion with Him, that sin and death have entered the human story, and that Christ has conquered death. These do not compete with scientific explanation, but they cannot be derived from it.',
-        'The Christian does not need evolution to be false in order to believe in God, and does not need it to be true in order to believe in the resurrection. A Christian does need to be honest, both about the evidence and about what the faith teaches, and willing to say “I do not know” where the matter is not settled.',
+        'The Christian does not need evolution to be false in order to believe in God, and does not need it to be true in order to believe in the resurrection. The Christian is called to be honest about the evidence and faithful to what the Church teaches, and to study creation with gratitude to its Creator.',
       ],
       ar: [
         'يستطيع المسيحي أن يرحّب بالعلوم دراسةً لخليقة الله، وأن يرى أن عمليات الطبيعة، ومنها ما يصفه علم الأحياء، هي ما صنعه الله ويحفظه. ودعاوى الإيمان من نوع آخر: أن العالم صنعه الله ويحبه، وأن الإنسان يحمل صورته ومدعو إلى الشركة معه، وأن الخطية والموت دخلا قصة الإنسان، وأن المسيح غلب الموت. وهذه لا تنافس التفسير العلمي، لكن لا يمكن اشتقاقها منه.',
-        'والمسيحي لا يحتاج إلى أن يكون التطور خاطئًا ليؤمن بالله، ولا إلى أن يكون صحيحًا ليؤمن بالقيامة. لكنه يحتاج إلى الصدق في الأدلة وفي تعليم الإيمان، وإلى الاستعداد لقول «لا أعرف» حيث لم تُحسم المسألة.',
+        'والمسيحي لا يحتاج إلى أن يكون التطور خاطئًا ليؤمن بالله، ولا إلى أن يكون صحيحًا ليؤمن بالقيامة. فهو مدعو إلى الصدق في الأدلة والأمانة لتعليم الكنيسة، وإلى دراسة الخليقة بشكر لخالقها.',
       ],
     },
   },
   coptic: {
     en: [
-      'The Coptic Orthodox Church confesses in the Creed one God, Father Almighty, maker of heaven and earth and of all things visible and invisible. It teaches that Adam and his race were created in God’s image, fell, and are redeemed in Christ. It has not issued a definition on how Genesis relates to the age of the earth or to evolution, and Coptic teachers hold a range of views, some of them rejecting evolution as an account of human origins and some accepting biological science. The Church reads Scripture within Holy Tradition, as its Fathers did, and values both reason and revelation.',
-      'This is a description of the Church’s position as it stands. It is not an attempt to settle among the views of its teachers.',
+      'The Coptic Orthodox Church confesses in the Creed one God, Father Almighty, maker of heaven and earth and of all things visible and invisible. It teaches that Adam and his race were created in God’s image, fell, and are redeemed in Christ. It has not issued a definition on how Genesis relates to the age of the earth or to evolution, and it does not bind believers to a scientific model. The Church reads Scripture within Holy Tradition, as its Fathers did, and values both reason and revelation.',
+      'What the Church binds is the faith of the Creed: God the Creator, the human person in His image, the fall, and redemption in Christ.',
     ],
     ar: [
-      'تعترف الكنيسة القبطية الأرثوذكسية في قانون الإيمان بإله واحد، آب ضابط الكل، خالق السماء والأرض وكل ما يُرى وما لا يُرى. وتعلّم أن آدم وجنسه خُلقوا على صورة الله وسقطوا وافتُدوا في المسيح. ولم تصدر تحديدًا في علاقة سفر التكوين بعمر الأرض أو بالتطور، ويحمل المعلمون الأقباط آراء متفاوتة، منهم من يرفض التطور تفسيرًا لأصل الإنسان ومنهم من يقبل علم الأحياء. وتقرأ الكنيسة الكتاب المقدس داخل التقليد المقدس كما فعل آباؤها، وتقدّر العقل والإعلان معًا.',
-      'وهذا وصف لموقف الكنيسة كما هو، وليس محاولة للفصل بين آراء معلميها.',
+      'تعترف الكنيسة القبطية الأرثوذكسية في قانون الإيمان بإله واحد، آب ضابط الكل، خالق السماء والأرض وكل ما يُرى وما لا يُرى. وتعلّم أن آدم وجنسه خُلقوا على صورة الله وسقطوا وافتُدوا في المسيح. ولم تصدر تحديدًا في علاقة سفر التكوين بعمر الأرض أو بالتطور، ولا تُلزم المؤمنين بنموذج علمي. وتقرأ الكنيسة الكتاب المقدس داخل التقليد المقدس كما فعل آباؤها، وتقدّر العقل والإعلان معًا.',
+      'وما تُلزم به الكنيسة هو إيمان قانون الإيمان: الله الخالق، والإنسان على صورته، والسقوط، والفداء في المسيح.',
     ],
   },
   disputed: {
@@ -345,8 +345,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'Evolution is a well-established scientific account of the history and diversity of life, and it does not disprove God, because it is a theory of natural processes and cannot decide whether those processes depend on a Creator. Christians differ on how to read Genesis in its light, and the Church has defined neither the mechanism nor the age of creation. It confesses God as Creator of all things and the human person as made in His image, and asks believers to hold the truth of science and the truth of faith together with honesty.',
-    ar: 'التطور تفسير علمي مقرَّر لتاريخ الحياة وتنوعها، وهو لا ينفي وجود الله لأنه نظرية في عمليات طبيعية ولا يستطيع أن يقرر هل تعتمد هذه العمليات على خالق. ويختلف المسيحيون في كيفية قراءة سفر التكوين في ضوئه، ولم تحدد الكنيسة آلية الخلق ولا عمره. وهي تعترف بالله خالق كل شيء وبالإنسان مخلوقًا على صورته، وتطلب من المؤمنين أن يمسكوا حق العلم وحق الإيمان معًا بصدق.',
+    en: 'Evolution does not disprove God. It is a scientific account of how living things have changed over time, and science, by its nature, cannot decide whether the processes it studies depend on a Creator. The Church confesses God the Father Almighty, maker of heaven and earth, and teaches that the human person bears His image, fell, and is redeemed by Christ, who conquered death. She has not bound the faith to any scientific model, and she invites believers to study God’s creation honestly and to give thanks to the One who made it.',
+    ar: 'التطور لا ينفي وجود الله. فهو تفسير علمي لكيفية تغيّر الكائنات الحية عبر الزمن، والعلم بطبيعته لا يستطيع أن يقرر هل تعتمد العمليات التي يدرسها على خالق. والكنيسة تعترف بالله الآب ضابط الكل، خالق السماء والأرض، وتعلّم أن الإنسان يحمل صورته، وسقط، وافتداه المسيح الذي غلب الموت. ولم تربط الإيمان بأي نموذج علمي، وتدعو المؤمنين إلى دراسة خليقة الله بصدق وإلى شكر الذي صنعها.',
   },
   furtherReading: ['S47', 'S45', 'S48', 'S52'],
   related: [

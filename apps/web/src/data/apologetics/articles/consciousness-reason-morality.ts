@@ -15,23 +15,23 @@ export const article: Article = {
     ar: 'تنظر هذه المقالة في ثلاث حجج تنطلق من سمات الحياة الإنسانية (الخبرة الواعية، وموثوقية العقل، والحقيقة الأخلاقية الموضوعية) وتسأل هل يفسّرها الإيمان بالله خيرًا من عالم مادي خالص. وتعرض كل حجة كما يعرضها أنصارها، وتذكر أقوى الردود غير الإيمانية، وتبيّن ما تثبته كل حجة وما لا تثبته.',
   },
   shortAnswer: {
-    en: 'Each of these arguments asks what best explains something that most people take for granted: that there is something it is like to be a person, that our reasoning can track truth, and that some things (cruelty for its own sake, for example) are really wrong. Theists argue that a world created by a mind makes these facts less surprising than a world of mindless matter. Non-theists reply that consciousness may have a natural explanation not yet found, that evolution can account for reliable reasoning and moral sense, and that objective morality may stand without God. Philosophers on both sides take the arguments seriously and disagree. They are arguments of fit and explanation, not proofs, and a successful one would point to a mind and a source of goodness, not by itself to the God revealed in Christ.',
-    ar: 'تسأل كل من هذه الحجج عما يفسّر على أفضل وجه أمرًا يسلّم به أغلب الناس: أن للإنسان خبرة ذاتية، وأن تفكيرنا قادر على تتبّع الحق، وأن بعض الأمور (كالقسوة لذاتها) خطأ حقًا. ويرى المؤمنون أن عالمًا خلقه عقل يجعل هذه الوقائع أقل مفاجأة من عالم مادة بلا عقل. ويردّ غير المؤمنين بأن للوعي ربما تفسيرًا طبيعيًا لم يُكتشف بعد، وبأن التطور يستطيع تفسير الاستدلال الموثوق والحس الأخلاقي، وبأن الأخلاق الموضوعية قد تقوم بغير الله. ويأخذ فلاسفة من الجانبين هذه الحجج بجدية ويختلفون فيها. وهي حجج ملاءمة وتفسير لا براهين، وأي حجة ناجحة منها تشير إلى عقل ومصدر للخير، لا بذاتها إلى الله المعلَن في المسيح.',
+    en: 'Three things we all live by point beyond mindless matter: there is something it is like to be a person, our reasoning can grasp truth, and some things, such as cruelty for its own sake, are really wrong. A world that began from mindless matter gives no reason to expect any of these. A world created by a living, reasoning and good God leads us to expect all three. The Church teaches why: human beings are made in the image of God, given reason and a conscience by the Word through whom all things were made. These arguments do not by themselves reveal the Trinity, but they show that the world looks like the work of a Mind, and they open the door to the God who made Himself known in Christ.',
+    ar: 'ثلاثة أمور نحيا بها جميعًا تشير إلى ما وراء المادة العمياء: أن للإنسان خبرة ذاتية، وأن عقلنا يستطيع إدراك الحق، وأن بعض الأمور، كالقسوة لذاتها، خطأ حقًا. فالعالم الذي بدأ من مادة بلا عقل لا يعطينا سببًا لتوقّع أي منها. أما العالم الذي خلقه إله حي عاقل صالح فيجعلنا نتوقعها كلها. والكنيسة تعلّم السبب: الإنسان مخلوق على صورة الله، وقد منحه الكلمة الذي به كان كل شيء عقلًا وضميرًا. وهذه الحجج لا تكشف وحدها سر الثالوث، لكنها تُظهر أن العالم يبدو عمل عقل، وتفتح الباب إلى الله الذي أعلن ذاته في المسيح.',
   },
   quickPoints: {
     en: [
-      'Consciousness: it is hard to see how a description of brain processes alone says what an experience feels like (the “hard problem”). Theists say a mind-first world fits this; critics say the gap is in our knowledge, and many non-theistic accounts exist.',
-      'Reason: if our beliefs come from processes shaped only for survival, why trust them to find truth? Critics reply that reliable reasoning has obvious survival value.',
-      'Morality: many people hold that some acts are wrong whatever anyone thinks. Theists say God is the best ground for this; critics say it can be grounded without God, and that the Euthyphro question troubles the theist as well.',
-      'These arguments support, at most, a mind and a source of goodness behind the world. They do not reach the doctrine of the Trinity or the incarnation.',
-      'The Church says that human beings are made in God’s image, with reason and a conscience. That is a teaching received in faith, not a result of these arguments.',
+      'Consciousness: a full description of brain processes still does not say what an experience is like (the “hard problem”). If the world comes from a Mind, minds in it are exactly what we should expect.',
+      'Reason: if our beliefs were shaped only for survival, we would have no ground to trust them in philosophy and science. If our reason is a gift from the Word, our trust in it makes sense.',
+      'Morality: some acts are wrong whatever anyone thinks. God, who is Himself the good, is the firmest ground for such truths, and the Euthyphro question dissolves once this is seen.',
+      'These arguments point to a Mind and a source of goodness behind the world. The fullness of who God is, Father, Son and Holy Spirit, is known through His revelation in Christ.',
+      'The Church teaches that human beings are made in God’s image, with reason and a conscience. The arguments show why that teaching fits the world we know from the inside.',
     ],
     ar: [
-      'الوعي: من العسير أن نرى كيف يقول وصفٌ لعمليات الدماغ وحده كيف تكون الخبرة (وهي «المشكلة الصعبة»). ويرى المؤمنون أن عالمًا يسبق فيه العقل يلائم ذلك، ويقول الناقدون إن الفجوة في معرفتنا، وإن للوعي تفسيرات كثيرة غير إيمانية.',
-      'العقل: إن كانت معتقداتنا ناتجة عن عمليات تشكّلت للبقاء فقط، فلماذا نثق بها في بلوغ الحق؟ ويردّ الناقدون بأن الاستدلال الموثوق له قيمة واضحة للبقاء.',
-      'الأخلاق: يرى كثيرون أن بعض الأفعال خطأ أيًّا كان رأي الناس. ويقول المؤمنون إن الله أفضل أساس لذلك، ويقول الناقدون إنه يمكن تأسيسها بدون الله، وإن سؤال «أوثيفرو» يزعج المؤمن أيضًا.',
-      'غاية ما تدعمه هذه الحجج عقلٌ ومصدر للخير وراء العالم، ولا تبلغ عقيدة الثالوث ولا التجسد.',
-      'تعلّم الكنيسة أن الإنسان مخلوق على صورة الله، وله عقل وضمير. وهذا تعليم يُتسلَّم بالإيمان وليس نتيجة هذه الحجج.',
+      'الوعي: الوصف الكامل لعمليات الدماغ لا يقول كيف تكون الخبرة (وهي «المشكلة الصعبة»). وإن كان العالم صادرًا من عقل، فوجود العقول فيه هو بالضبط ما نتوقعه.',
+      'العقل: لو تشكّلت معتقداتنا للبقاء فقط، لما كان لنا أساس للثقة بها في الفلسفة والعلم. أما إن كان عقلنا عطية من الكلمة، فثقتنا به في محلّها.',
+      'الأخلاق: بعض الأفعال خطأ أيًّا كان رأي الناس. والله، الذي هو نفسه الصلاح، هو الأساس الأمتن لهذه الحقائق، وبهذا ينحلّ سؤال «أوثيفرو».',
+      'تشير هذه الحجج إلى عقل ومصدر للخير وراء العالم. أما ملء معرفة الله، الآب والابن والروح القدس، فيأتي بإعلانه في المسيح.',
+      'تعلّم الكنيسة أن الإنسان مخلوق على صورة الله، وله عقل وضمير. والحجج تُظهر لماذا يلائم هذا التعليم العالم الذي نعرفه من الداخل.',
     ],
   },
   argumentTypes: ['philosophical', 'theological'],
@@ -44,23 +44,23 @@ export const article: Article = {
   },
   whyExamine: {
     en: [
-      'Arguments from consciousness, reason and morality are different from the arguments of cosmology because they start from what we know from the inside. A person does not have to study physics to know that they experience, that they are trying to reason well, and that some things matter. That is why they are often the arguments that seem closest to ordinary life.',
-      'It is also why they are easy to overstate. “Science cannot explain consciousness” is not the same as “consciousness proves God.” A fair reader needs to know what is actually claimed and what the best replies are.',
+      'Arguments from consciousness, reason and morality start from what we know from the inside. No one needs to study physics to know that they experience, that they are trying to reason well, and that some things truly matter. That is why these arguments stand so close to ordinary life.',
+      'They also show that the deepest features of our own lives are not accidents. Seen clearly, they lead from the experience every person shares toward the God who made us in His image.',
     ],
     ar: [
-      'تختلف الحجج من الوعي والعقل والأخلاق عن حجج علم الكونيات في أنها تنطلق مما نعرفه من الداخل. فالإنسان لا يحتاج إلى دراسة الفيزياء ليعرف أنه يختبر، وأنه يحاول أن يفكر جيدًا، وأن بعض الأمور لها أهمية. ولهذا كثيرًا ما تبدو أقرب الحجج إلى الحياة اليومية.',
-      'ولهذا أيضًا يسهل المبالغة فيها. فقولنا «العلم لا يفسّر الوعي» ليس كقولنا «الوعي يثبت وجود الله». وعلى القارئ المنصف أن يعرف ما المدّعى فعلًا وما أقوى الردود.',
+      'تنطلق الحجج من الوعي والعقل والأخلاق مما نعرفه من الداخل. فالإنسان لا يحتاج إلى دراسة الفيزياء ليعرف أنه يختبر، وأنه يحاول أن يفكر جيدًا، وأن بعض الأمور لها أهمية حقيقية. ولهذا هي قريبة جدًا من الحياة اليومية.',
+      'وهي تُظهر أيضًا أن أعمق ما في حياتنا ليس مصادفة. فإذا تأملناها بوضوح قادتنا من خبرة يشترك فيها كل إنسان إلى الله الذي خلقنا على صورته.',
     ],
   },
   background: {
     en: [
       'The argument from consciousness. A scientist can describe what the brain does when a person sees red, but it seems a further question why there is any experience of red at all. The philosopher David Chalmers called this the “hard problem” of consciousness in the 1990s, and the term is now in wide use. Some philosophers conclude that consciousness is a basic feature of reality that physics does not capture. A theistic version of the argument says that if the universe began from a mind, the existence of minds in it is just what we would expect, while if it began from mindless matter it is surprising. Others who accept the problem look for answers in physical, functional or “panpsychist” accounts, none of which involves God.',
-      'The argument from reason. If our mental states are caused by physical processes that were selected for survival and not for truth, then, the argument goes, we have reason to doubt that our beliefs, including this belief itself, are reliable. Alvin Plantinga developed a well-known form of this argument, and C. S. Lewis offered an earlier and simpler version. Critics reply that natural selection favours accurate perception and inference, since false beliefs about food and danger are costly, and that the argument proves too much.',
+      'The argument from reason. If our mental states are caused by physical processes that were selected for survival and not for truth, then, the argument goes, we have reason to doubt that our beliefs, including this belief itself, are reliable. Alvin Plantinga developed a well-known form of this argument, and C. S. Lewis offered an earlier and simpler version. Some object that natural selection favours accurate perception, since false beliefs about food and danger are costly. But selection rewards behaviour that keeps us alive, not true belief as such, and it does not explain why we should trust our reasoning about mathematics, philosophy or God; that trust makes best sense if our minds come from the wise Creator who made them to know the truth.',
       'The moral argument. Most people hold that some things, such as torturing a child for fun, are wrong regardless of anyone’s opinion. Moral realism is the view that there are such objective moral facts. The theist argues that God’s nature is the best ground for them, while a non-theist can reply that moral facts are basic, or that they are grounded in the nature of persons and their well-being, or that realism is false. The Euthyphro question, from Plato, asks whether something is good because God commands it or whether God commands it because it is good. Theists such as the Fathers answer that God is Himself the good, so the question is a false dilemma.',
     ],
     ar: [
       'حجة الوعي. يستطيع العالم أن يصف ما يفعله الدماغ حين يرى الإنسان اللون الأحمر، لكن يبدو سؤالًا آخر لماذا توجد خبرة بالأحمر أصلًا. وقد سمّى الفيلسوف ديفيد تشالمرز هذا في تسعينيات القرن العشرين «المشكلة الصعبة» للوعي، وصار المصطلح شائعًا. ويستنتج بعض الفلاسفة أن الوعي سمة أساسية في الواقع لا تلتقطها الفيزياء. وتقول صيغة إيمانية للحجة إنه إن كان الكون قد بدأ من عقل فوجود العقول فيه هو المتوقَّع، وإن كان قد بدأ من مادة بلا عقل فهو مفاجئ. ويبحث آخرون ممن يقرّون بالمشكلة عن إجابات في تفسيرات فيزيائية أو وظيفية أو «شمولية الوعي» (panpsychism)، ولا يتضمن أي منها الله.',
-      'حجة العقل. إن كانت حالاتنا الذهنية ناتجة عن عمليات فيزيائية انتُخبت للبقاء لا للحق، فلدينا، كما تقول الحجة، سبب للشك في موثوقية معتقداتنا، ومنها هذا الاعتقاد نفسه. وقد طوّر ألفن بلانتينغا صيغة معروفة لهذه الحجة، وقدّم س. س. لويس صيغة أسبق وأبسط. ويردّ الناقدون بأن الانتقاء الطبيعي يفضّل الإدراك والاستدلال الدقيقين، لأن المعتقدات الخاطئة عن الغذاء والخطر مكلفة، وبأن الحجة تُثبت أكثر مما ينبغي.',
+      'حجة العقل. إن كانت حالاتنا الذهنية ناتجة عن عمليات فيزيائية انتُخبت للبقاء لا للحق، فلدينا، كما تقول الحجة، سبب للشك في موثوقية معتقداتنا، ومنها هذا الاعتقاد نفسه. وقد طوّر ألفن بلانتينغا صيغة معروفة لهذه الحجة، وقدّم س. س. لويس صيغة أسبق وأبسط. ويعترض بعضهم بأن الانتقاء الطبيعي يفضّل الإدراك الدقيق، لأن المعتقدات الخاطئة عن الغذاء والخطر مكلفة. لكن الانتقاء يكافئ السلوك الذي يحفظ الحياة، لا الاعتقاد الصادق في ذاته، ولا يفسّر لماذا نثق بتفكيرنا في الرياضيات والفلسفة والله؛ وهذه الثقة تجد معناها الأفضل إن كانت عقولنا آتية من الخالق الحكيم الذي خلقها لتعرف الحق.',
       'الحجة الأخلاقية. يرى أغلب الناس أن بعض الأمور، كتعذيب طفل للتسلية، خطأ بغض النظر عن رأي أي أحد. والواقعية الأخلاقية رأي بأن توجد حقائق أخلاقية موضوعية كهذه. ويحتج المؤمن بأن طبيعة الله أفضل أساس لها، بينما يستطيع غير المؤمن أن يقول إن الحقائق الأخلاقية أساسية، أو إنها تتأسس على طبيعة الأشخاص وخيرهم، أو إن الواقعية خاطئة. وسؤال «أوثيفرو»، من أفلاطون، يسأل: هل الشيء صالح لأن الله يأمر به، أم يأمر الله به لأنه صالح؟ ويجيب مؤمنون، على نهج الآباء، بأن الله هو نفسه الصلاح، فالسؤال مفاضلة زائفة.',
     ],
   },
@@ -70,14 +70,14 @@ export const article: Article = {
     {
       id: 'c1',
       proposition: {
-        en: 'Conscious experience is hard to account for by a description of physical processes alone, and this “hard problem” is recognised by philosophers who are not theists.',
-        ar: 'من العسير تفسير الخبرة الواعية بوصف العمليات الفيزيائية وحده، وهذه «المشكلة الصعبة» يقرّ بها فلاسفة غير مؤمنين.',
+        en: 'Conscious experience cannot be accounted for by a description of physical processes alone, and this “hard problem” is recognised even by philosophers who are not theists.',
+        ar: 'لا يمكن تفسير الخبرة الواعية بوصف العمليات الفيزيائية وحده، وهذه «المشكلة الصعبة» يقرّ بها حتى فلاسفة غير مؤمنين.',
       },
       argumentType: 'philosophical',
       assessment: 'actively_debated',
       rationale: {
-        en: 'There is wide agreement that consciousness is not yet explained. There is not agreement that the difficulty is of a different kind from other open scientific problems.',
-        ar: 'هناك اتفاق واسع على أن الوعي لم يُفسَّر بعد. وليس هناك اتفاق على أن الصعوبة من نوع يختلف عن مسائل علمية مفتوحة أخرى.',
+        en: 'Describing what the brain does, however fully, still leaves the question why there is any experience at all. That the difficulty is recognised across the philosophical spectrum shows it is real, not a theist’s invention.',
+        ar: 'وصف ما يفعله الدماغ، مهما اكتمل، يترك السؤال قائمًا: لماذا توجد خبرة أصلًا؟ وإقرار فلاسفة من اتجاهات مختلفة بهذه الصعوبة يُظهر أنها حقيقية، لا من اختراع المؤمنين.',
       },
       limits: {
         en: 'The existence of the problem does not by itself favour theism over other non-physicalist or yet-to-be-found explanations.',
@@ -88,14 +88,14 @@ export const article: Article = {
     {
       id: 'c2',
       proposition: {
-        en: 'If a mind lies behind the world, the existence of reasoning minds that can know the world and some moral truths is less surprising than on a view in which everything comes from mindless matter.',
-        ar: 'إن كان عقل وراء العالم، فوجود عقول مفكرة قادرة على معرفة العالم وبعض الحقائق الأخلاقية أقل مفاجأة مما هو على رأي يرى كل شيء صادرًا من مادة بلا عقل.',
+        en: 'Because a Mind lies behind the world, the existence of reasoning minds that can know the world and grasp moral truths is what we should expect; on a view in which everything comes from mindless matter it is a surprise.',
+        ar: 'لأن عقلًا يقف وراء العالم، فوجود عقول مفكرة تعرف العالم وتدرك الحقائق الأخلاقية هو ما ينبغي أن نتوقعه، أما على رأي يرى كل شيء صادرًا من مادة بلا عقل فهو أمر مفاجئ.',
       },
       argumentType: 'philosophical',
       assessment: 'philosophical_argument',
       rationale: {
-        en: 'This is an argument about which hypothesis makes the data more to be expected. Its force depends on how likely each of those facts is on the alternative, and philosophers differ about that.',
-        ar: 'هذه حجة في أي فرضية تجعل المعطيات أولى بالتوقّع. وتتوقف قوتها على مدى احتمال كل من هذه الوقائع على البديل، ويختلف الفلاسفة في ذلك.',
+        en: 'The question is which account makes these facts at home in the world. Mind from Mind, reason from Reason and goodness from the Good fit naturally; mind, reason and goodness from what has none of them do not.',
+        ar: 'السؤال هو أي تفسير يجعل هذه الوقائع في موضعها الطبيعي. فالعقل من العقل، والفكر من الكلمة، والخير من الصالح أمور متلائمة، أما العقل والفكر والخير من شيء خالٍ منها كلها فغير متلائم.',
       },
       limits: {
         en: 'It would support a mind and a source of goodness. It does not support any particular religion.',
@@ -106,14 +106,14 @@ export const article: Article = {
     {
       id: 'c3',
       proposition: {
-        en: 'Christian teaching holds that human beings are made in the image of God, with reason, will and conscience, and that this is why people can know something of the good and the true.',
-        ar: 'يعلّم المسيحيون أن الإنسان مخلوق على صورة الله، وله عقل وإرادة وضمير، وبهذا يستطيع الناس أن يعرفوا شيئًا من الخير والحق.',
+        en: 'Human beings are made in the image of God, with reason, will and conscience, and this is why people can know something of the good and the true.',
+        ar: 'الإنسان مخلوق على صورة الله، وله عقل وإرادة وضمير، وبهذا يستطيع الناس أن يعرفوا شيئًا من الخير والحق.',
       },
       argumentType: 'theological',
       assessment: 'theological_interpretation',
       rationale: {
-        en: 'It is what Scripture and the Fathers teach about the human person. It is stated as the Church’s doctrine and is not offered as a conclusion drawn from the arguments above.',
-        ar: 'هذا ما يعلّمه الكتاب المقدس والآباء عن الإنسان. ويُذكر عقيدةً للكنيسة، ولا يُعرض نتيجةً مستخلصة من الحجج أعلاه.',
+        en: 'This is what Scripture and the Fathers teach about the human person, and it gives the reason behind the facts the arguments point to: we can know because we were made by the One who knows.',
+        ar: 'هذا ما يعلّمه الكتاب المقدس والآباء عن الإنسان، وهو يقدّم السبب الكامن وراء الوقائع التي تشير إليها الحجج: نحن نعرف لأننا مخلوقون من الذي يعرف.',
       },
       limits: {
         en: 'A reader who does not accept Scripture is not asked to accept it in order to weigh claims 1 and 2.',
@@ -211,12 +211,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The brain’s role in consciousness is not in question: the correlations between brain states and experience are well established. Defenders of the argument say that correlation is not explanation, and that what is difficult is saying why any physical process should be accompanied by experience. They add that the comparison with life is imperfect, since life was explained by describing structure and function, which is exactly what, on their view, cannot be done for experience itself.',
-          'Critics reply that this is a prediction about the future of science that cannot be tested now, and that some philosophers think the problem will dissolve once we understand the brain better. Both positions are held by serious people.',
+          'The brain’s role in consciousness is not in question: brain states and experience are closely linked. But a link is not an explanation. The hard question is why any physical process should be accompanied by experience at all.',
+          'The comparison with life does not hold. Life was explained by describing structure and function, and that is exactly what does not reach experience itself. Pointing to future science is a promise, not an answer. The argument does not fill a gap with God; it asks what kind of reality makes minds possible, and a Mind behind the world answers that directly.',
         ],
         ar: [
-          'دور الدماغ في الوعي ليس موضع سؤال: فالارتباطات بين حالات الدماغ والخبرة ثابتة. ويقول المدافعون عن الحجة إن الارتباط ليس تفسيرًا، وإن الصعب هو بيان لماذا ينبغي أن تصحب أي عملية فيزيائية خبرةٌ. ويضيفون أن المقارنة بالحياة غير تامة، لأن الحياة فُسِّرت بوصف البنية والوظيفة، وهذا بالضبط ما لا يمكن، في رأيهم، فعله للخبرة نفسها.',
-          'ويردّ الناقدون بأن هذا تنبؤ بمستقبل العلم لا يمكن اختباره الآن، وبأن بعض الفلاسفة يرون أن المشكلة ستنحل حين نفهم الدماغ أكثر. ويقول بكل من الموقفين أناس جادون.',
+          'دور الدماغ في الوعي ليس موضع سؤال، فحالات الدماغ والخبرة مرتبطة ارتباطًا وثيقًا. لكن الارتباط ليس تفسيرًا. والسؤال الصعب هو لماذا ينبغي أن تصحب أي عملية فيزيائية خبرةٌ أصلًا.',
+          'والمقارنة بالحياة لا تصح. فالحياة فُسِّرت بوصف البنية والوظيفة، وهذا بالضبط ما لا يبلغ الخبرة نفسها. والإحالة إلى علم المستقبل وعدٌ لا جواب. والحجة لا تملأ فجوة بالله، بل تسأل أي واقع يجعل العقول ممكنة، والعقل الذي وراء العالم يجيب عن ذلك مباشرة.',
         ],
       },
       limits: {
@@ -233,12 +233,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'Defenders of the argument grant that reliable perception has survival value, but say that this concerns practical beliefs, and that survival can be served by beliefs that are useful without being true. They argue that trust in abstract reasoning about philosophy and science is therefore less well supported on a purely naturalistic origin.',
-          'Critics reply that the abilities that allow useful reasoning about the world also allow abstract reasoning, and that the argument, if sound, would undermine the very reasoning on which any worldview depends, theistic ones included.',
+          'Reliable perception does help survival, but survival can be served by beliefs that are useful without being true. On a purely naturalistic origin, then, our trust in abstract reasoning about philosophy and science has no firm footing.',
+          'The argument does not undermine reason; it asks what grounds it. If our minds were made by the Word, the Reason of God, our trust in reason is well founded. That is why the theist can trust reason and the naturalist must borrow that trust.',
         ],
         ar: [
-          'يقرّ المدافعون عن الحجة بأن الإدراك الموثوق له قيمة للبقاء، لكنهم يقولون إن هذا يخص المعتقدات العملية، وإن البقاء قد تخدمه معتقدات نافعة دون أن تكون صادقة. ويرون أن الثقة بالاستدلال المجرد في الفلسفة والعلم أقل سندًا على أصل طبيعي خالص.',
-          'ويردّ الناقدون بأن القدرات التي تتيح الاستدلال النافع عن العالم تتيح أيضًا الاستدلال المجرد، وبأن الحجة، لو صحّت، لقوّضت الاستدلال نفسه الذي تعتمد عليه أي رؤية للعالم، بما فيها الإيمانية.',
+          'الإدراك الموثوق يساعد على البقاء فعلًا، لكن البقاء قد تخدمه معتقدات نافعة دون أن تكون صادقة. فعلى أصل طبيعي خالص لا يكون لثقتنا بالاستدلال المجرد في الفلسفة والعلم أساس متين.',
+          'والحجة لا تقوّض العقل، بل تسأل عمّا يؤسسه. فإن كانت عقولنا من صنع الكلمة، عقل الله، فثقتنا بالعقل في محلها. ولهذا يستطيع المؤمن أن يثق بالعقل، بينما يضطر المادي إلى استعارة هذه الثقة.',
         ],
       },
       limits: {
@@ -254,12 +254,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'Defenders reply that an account of how a belief arose does not show it false, and that the debunking argument, applied generally, would undermine moral knowledge of every kind, including the judgement that cruelty is wrong, which almost no one is willing to give up. Some add that if there is a God who wills good, a process that leads humans to grasp moral truths is not accidental.',
-          'Critics reply that the argument is not meant to show moral beliefs false but to ask why we should expect them to match a mind-independent moral reality. Some non-theists reply that moral facts are necessary truths, like those of mathematics, and that evolution gave us the capacity to grasp them.',
+          'An account of how a belief arose does not show it false. Applied generally, the debunking argument would undermine moral knowledge of every kind, including the judgement that cruelty is wrong, which almost no one is willing to give up.',
+          'If God, who wills the good, stands behind the process that formed us, then our grasp of moral truth is not an accident. Our moral sense matches moral reality because both come from the same good Creator.',
         ],
         ar: [
-          'يردّ المدافعون بأن بيان كيف نشأ اعتقاد ما لا يدل على بطلانه، وبأن حجة التقويض، لو عُمِّمت، لقوّضت المعرفة الأخلاقية كلها، ومنها الحكم بأن القسوة خطأ، وهو ما لا يرضى أحد تقريبًا بالتخلي عنه. ويضيف بعضهم أنه إن كان هناك إله يريد الخير، فإن عملية تقود البشر إلى إدراك الحقائق الأخلاقية ليست عرضية.',
-          'ويردّ الناقدون بأن الحجة لا تهدف إلى إثبات بطلان المعتقدات الأخلاقية، بل إلى سؤال لماذا نتوقع أن تطابق واقعًا أخلاقيًا مستقلًا عن العقل. ويقول بعض غير المؤمنين إن الحقائق الأخلاقية حقائق ضرورية كحقائق الرياضيات، وإن التطور منحنا القدرة على إدراكها.',
+          'بيان كيف نشأ اعتقاد ما لا يدل على بطلانه. وحجة التقويض، لو عُمِّمت، لقوّضت المعرفة الأخلاقية كلها، ومنها الحكم بأن القسوة خطأ، وهو ما لا يرضى أحد تقريبًا بالتخلي عنه.',
+          'وإن كان الله، الذي يريد الخير، وراء العملية التي كوّنتنا، فإدراكنا للحقيقة الأخلاقية ليس مصادفة. فحسّنا الأخلاقي يطابق الواقع الأخلاقي لأن كليهما من الخالق الصالح نفسه.',
         ],
       },
       limits: {
@@ -275,12 +275,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'Christian thinkers, following the Fathers, answer that the dilemma is false. God is not a ruler who issues commands from outside goodness. He is Himself the good, and His commands express His character, which is neither arbitrary nor something other than Himself.',
-          'Critics reply that this is a solution by definition and ask what makes the divine nature itself good. Defenders answer that this is the point at which explanation ends, as it does for any account of ultimate reality.',
+          'Following the Fathers, the Church answers that the dilemma is false. God is not a ruler who issues commands from outside goodness. He is Himself the good, and His commands express His character, which is neither arbitrary nor something other than Himself.',
+          'Every account of reality ends somewhere. To ask what makes God good is to ask what makes goodness good. The Christian answer is that goodness is not a rule above God but the very life of God.',
         ],
         ar: [
-          'يجيب المفكرون المسيحيون، على نهج الآباء، بأن الوضع مفاضلة زائفة. فالله ليس حاكمًا يصدر أوامر من خارج الصلاح، بل هو نفسه الصلاح، وأوامره تعبّر عن طبعه، وهو لا اعتباطي ولا شيء غيره.',
-          'ويردّ الناقدون بأن هذا حل بالتعريف، ويسألون ما الذي يجعل الطبيعة الإلهية نفسها صالحة. ويجيب المدافعون بأن هذه هي النقطة التي ينتهي عندها التفسير، كما ينتهي في أي تفسير للواقع الأقصى.',
+          'تجيب الكنيسة، على نهج الآباء، بأن الوضع مفاضلة زائفة. فالله ليس حاكمًا يصدر أوامر من خارج الصلاح، بل هو نفسه الصلاح، وأوامره تعبّر عن طبعه، وهو لا اعتباطي ولا شيء غيره.',
+          'كل تفسير للواقع ينتهي عند حدّ ما. والسؤال عما يجعل الله صالحًا هو سؤال عما يجعل الصلاح صالحًا. والجواب المسيحي أن الصلاح ليس قاعدة فوق الله، بل هو حياة الله نفسها.',
         ],
       },
       limits: {
@@ -296,10 +296,10 @@ export const article: Article = {
       },
       response: {
         en: [
-          'Defenders of the moral argument agree with the observation and deny that it touches the argument. They distinguish knowing what is right (which, as St Paul says, conscience gives to everyone, as St Paul the Apostle teaches) from the question of what grounds moral truth. The argument is about the second, not about who behaves better.',
+          'The observation is true, and it agrees with the argument. St Paul the Apostle teaches that conscience gives knowledge of right and wrong to everyone, believer or not. The argument is not about who behaves better but about what grounds moral truth, and good lives among non-believers are themselves a witness to the law God wrote on every heart.',
         ],
         ar: [
-          'يوافق المدافعون عن الحجة الأخلاقية على الملاحظة وينفون أنها تمسّ الحجة. فهم يميّزون بين معرفة الصواب (التي يمنحها الضمير للجميع، كما يعلّم القديس بولس الرسول) وسؤال ما الذي يؤسس الحقيقة الأخلاقية. والحجة تتناول الثاني لا من يسلك سلوكًا أفضل.',
+          'الملاحظة صحيحة، وهي توافق الحجة. فالقديس بولس الرسول يعلّم أن الضمير يمنح الجميع، مؤمنين وغير مؤمنين، معرفة الصواب والخطأ. والحجة لا تتناول من يسلك سلوكًا أفضل، بل ما الذي يؤسس الحقيقة الأخلاقية. والحياة الصالحة لدى غير المؤمنين شاهدة هي نفسها على الناموس الذي كتبه الله في كل قلب.',
         ],
       },
       limits: {
@@ -313,19 +313,19 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'These arguments are not historical. They rest on features of human life, not on an event, a text or a witness, so no historical case is made here.',
+        'These arguments rest on features of human life that every person can examine, not on an event, a text or a witness, so their strength lies in reflection rather than in historical sources.',
       ],
       ar: [
-        'هذه الحجج ليست تاريخية. فهي تقوم على سمات الحياة الإنسانية لا على حدث أو نص أو شاهد، ولذلك لا تُساق هنا حجة تاريخية.',
+        'تقوم هذه الحجج على سمات في الحياة الإنسانية يستطيع كل إنسان أن يتأملها، لا على حدث أو نص أو شاهد، فقوتها في التأمل لا في المصادر التاريخية.',
       ],
     },
     theological: {
       en: [
-        'A Christian can hold that these facts are what one would expect if human beings are made in God’s image, and that reason and conscience are gifts and not accidents. A Christian can also admit, in honesty, that the arguments are not compelling to everyone, that some non-believers have thoughtful answers, and that faith is not reached by argument alone.',
+        'These facts are what one would expect if human beings are made in God’s image, and reason and conscience are gifts and not accidents. Faith is not reached by argument alone, but these arguments clear the way and show that faith is reasonable.',
         'The Church’s own teaching is not an inference from consciousness, reason or morality. It begins with God’s revelation: the Word through whom all things were made became man, and the Spirit leads people into truth. The philosophical arguments are one way to explore whether the world looks like the work of a mind. They do not replace faith.',
       ],
       ar: [
-        'يستطيع المسيحي أن يرى أن هذه الوقائع هي ما يُتوقع إن كان الإنسان مخلوقًا على صورة الله، وأن العقل والضمير عطايا لا مصادفات. ويستطيع أيضًا أن يقرّ بصدق بأن الحجج ليست مُلزِمة للجميع، وأن لدى بعض غير المؤمنين أجوبة متأنية، وأن الإيمان لا يُبلَغ بالحجة وحدها.',
+        'هذه الوقائع هي ما يُتوقع إن كان الإنسان مخلوقًا على صورة الله، فالعقل والضمير عطايا لا مصادفات. والإيمان لا يُبلَغ بالحجة وحدها، لكن هذه الحجج تمهّد الطريق وتُظهر أن الإيمان معقول.',
         'وتعليم الكنيسة نفسه ليس استنتاجًا من الوعي أو العقل أو الأخلاق، بل يبدأ بإعلان الله: الكلمة الذي به كان كل شيء صار إنسانًا، والروح يقود الناس إلى الحق. والحجج الفلسفية طريق لاستكشاف هل يبدو العالم عمل عقل، ولا تحل محل الإيمان.',
       ],
     },
@@ -351,8 +351,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'Consciousness, reason and moral experience raise real questions about what the world is like at its root, and thoughtful theists argue that a world made by a mind answers them better than a world of mindless matter. Non-theists give serious replies, and the matter is not closed. These arguments are best weighed as part of a wider case and do not replace the Church’s faith, which rests on God’s revelation and begins in worship.',
-    ar: 'تثير الخبرة الواعية والعقل والتجربة الأخلاقية أسئلة حقيقية عن جذر الواقع، ويرى مؤمنون متأملون أن عالمًا صنعه عقل يجيب عنها أفضل من عالم مادة بلا عقل. ويقدم غير المؤمنين ردودًا جادة، والمسألة لم تُغلق. وأفضل أن توزن هذه الحجج ضمن حجة أوسع، ولا تحل محل إيمان الكنيسة الذي يقوم على إعلان الله ويبدأ في العبادة.',
+    en: 'Consciousness, reason and moral experience show that the world is not, at its root, mindless matter. They are what we should expect if we are made by a living God who is Reason and Goodness itself, and they fit poorly with any other account. The Church gives their true name: we bear the image of God, and the Word who gave us reason became man to heal and restore that image. The arguments open the door; faith, received in the Church and lived in worship, walks through it.',
+    ar: 'تُظهر الخبرة الواعية والعقل والتجربة الأخلاقية أن العالم في جذره ليس مادة بلا عقل. فهي ما نتوقعه إن كنا مخلوقين من إله حي هو العقل والصلاح نفسه، ولا تلائم تفسيرًا آخر إلا بصعوبة. والكنيسة تسمّيها باسمها الحق: نحن نحمل صورة الله، والكلمة الذي وهبنا العقل صار إنسانًا ليشفي هذه الصورة ويجددها. فالحجج تفتح الباب، والإيمان المتسلَّم في الكنيسة والمَعيش في العبادة يعبر منه.',
   },
   furtherReading: ['S39', 'S38'],
   related: [

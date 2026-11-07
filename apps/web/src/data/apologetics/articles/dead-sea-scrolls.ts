@@ -15,25 +15,25 @@ export const article: Article = {
     ar: 'تشرح هذه المقالة ما هي مخطوطات البحر الميت، ومتى وأين وُجدت، وما تُظهره عن نسخ الكتاب العبري، وما لا تُظهره. ولا تتناول نص العهد الجديد، ولا قانون العهد القديم، ولا الجدل الكامل حول من سكن قمران.',
   },
   shortAnswer: {
-    en: 'The Dead Sea Scrolls are a large collection of manuscripts found from 1947 in caves near Qumran, dated roughly from the third century BC to the first century AD. They include copies of almost every book of the Hebrew Bible, together with other Jewish writings. Many biblical texts agree closely with the later Masoretic Text, which shows real continuity in copying over about a thousand years. They also show that more than one form of some books was in use, so they support continuity, not identity. They do not mention Jesus or the early Christians.',
-    ar: 'مخطوطات البحر الميت مجموعة كبيرة من المخطوطات عُثر عليها منذ سنة 1947 في كهوف قرب قمران، ويعود تاريخها تقريبًا إلى ما بين القرن الثالث قبل الميلاد والقرن الأول الميلادي. وتشمل نسخًا من معظم أسفار الكتاب العبري، إلى جانب كتابات يهودية أخرى. وتتفق نصوص كتابية كثيرة اتفاقًا وثيقًا مع النص الماسوري اللاحق، وهذا يدل على استمرارية حقيقية في النسخ على نحو ألف سنة. لكنها تُظهر أيضًا أن أكثر من صيغة لبعض الأسفار كانت مستعملة، فهي تسند الاستمرارية لا التطابق. ولا تذكر يسوع ولا المسيحيين الأوائل.',
+    en: 'The Dead Sea Scrolls are a large collection of manuscripts found from 1947 in caves near Qumran, dated from about the third century BC to the first century AD. They include copies of almost every book of the Hebrew Bible, a thousand years older than the medieval manuscripts known before. Many biblical scrolls agree closely with the later Masoretic Text, which shows how faithfully the Scriptures were copied over a thousand years. Others agree with the Hebrew text behind the Septuagint, the Greek Old Testament the Church has read from the beginning, so the scrolls also show that the Church’s Greek Bible rests on ancient Hebrew witnesses. The scrolls come from a Jewish community before and around the time of Christ and do not mention Him.',
+    ar: 'مخطوطات البحر الميت مجموعة كبيرة من المخطوطات عُثر عليها منذ سنة 1947 في كهوف قرب قمران، ويعود تاريخها إلى ما بين القرن الثالث قبل الميلاد والقرن الأول الميلادي تقريبًا. وتشمل نسخًا من معظم أسفار الكتاب العبري، أقدم بألف سنة من مخطوطات القرون الوسطى التي كانت معروفة قبلها. وتتفق مخطوطات كتابية كثيرة اتفاقًا وثيقًا مع النص الماسوري اللاحق، وهذا يُظهر أمانة نسخ الكتب المقدسة على مدى ألف سنة. وتتفق مخطوطات أخرى مع النص العبري الذي تقوم عليه السبعينية، أي العهد القديم اليوناني الذي تقرؤه الكنيسة منذ البدء، فتُظهر المخطوطات أيضًا أن كتاب الكنيسة اليوناني يقوم على شواهد عبرية قديمة. وهي من جماعة يهودية عاشت قبل زمن المسيح وحوله، ولا تذكره.',
   },
   quickPoints: {
     en: [
       'The scrolls were found in caves near Qumran, beginning in 1947, and date from roughly the third century BC to the first century AD.',
-      'The Great Isaiah Scroll agrees closely with the later Masoretic Text in most of its content, yet it has differences, such as spelling and a number of variant readings.',
-      'Other Qumran texts, for example some of Samuel and Jeremiah, are closer to the Hebrew text behind the Septuagint, so more than one text form circulated.',
-      'The scrolls do not mention Jesus, John the Baptist or Christians, and they are not a New Testament manuscript find.',
-      'Many scholars link the community behind some of the scrolls with the Essenes, but this identification is debated.',
-      'The scrolls support careful transmission and show variety. They do not prove that nothing ever changed.',
+      'The Great Isaiah Scroll agrees closely with the later Masoretic Text in most of its content; its differences are mainly in spelling and a number of individual readings.',
+      'Other Qumran texts, for example some of Samuel and Jeremiah, are close to the Hebrew text behind the Septuagint, the Old Testament the Church received in Greek.',
+      'The scrolls do not mention Jesus, John the Baptist or Christians; most were written before His time, by a different community.',
+      'Some of the non-biblical scrolls describe a community with its own rules, often identified with the Essenes.',
+      'The scrolls show the Scriptures copied with great care across many centuries, and they honour both the Hebrew and the Greek traditions of the Old Testament.',
     ],
     ar: [
       'عُثر على المخطوطات في كهوف قرب قمران بدءًا من سنة 1947، ويعود تاريخها إلى ما بين القرن الثالث قبل الميلاد والقرن الأول الميلادي تقريبًا.',
-      'تتفق لفافة إشعياء الكبرى اتفاقًا وثيقًا مع النص الماسوري اللاحق في أغلب محتواها، ومع ذلك فيها اختلافات، منها الإملاء وعدد من القراءات المتباينة.',
-      'نصوص قمرانية أخرى، مثل بعض صموئيل وإرميا، أقرب إلى النص العبري الذي تقوم عليه الترجمة السبعينية، فقد كان أكثر من صيغة للنص متداولًا.',
-      'لا تذكر المخطوطات يسوع ولا يوحنا المعمدان ولا المسيحيين، وهي ليست كشفًا لمخطوطات العهد الجديد.',
-      'يربط كثير من الباحثين الجماعة التي تقف وراء بعض المخطوطات بالأسينيين، لكن هذا التحديد محل جدل.',
-      'تسند المخطوطات النقل المتأني وتُظهر التنوع. ولا تثبت أن شيئًا لم يتغير قط.',
+      'تتفق لفافة إشعياء الكبرى اتفاقًا وثيقًا مع النص الماسوري اللاحق في أغلب محتواها، واختلافاتها في الغالب في الإملاء وفي عدد من القراءات المنفردة.',
+      'نصوص قمرانية أخرى، مثل بعض صموئيل وإرميا، قريبة من النص العبري الذي تقوم عليه السبعينية، أي العهد القديم الذي تسلّمته الكنيسة باليونانية.',
+      'لا تذكر المخطوطات يسوع ولا يوحنا المعمدان ولا المسيحيين، فمعظمها كُتب قبل زمنه، وهي من جماعة أخرى.',
+      'بعض المخطوطات غير الكتابية تصف جماعة لها قواعدها الخاصة، وكثيرًا ما تُنسب إلى الأسينيين.',
+      'تُظهر المخطوطات أن الكتب المقدسة نُسخت بعناية كبيرة عبر قرون كثيرة، وتكرّم التقليدين العبري واليوناني للعهد القديم معًا.',
     ],
   },
   argumentTypes: ['archaeological', 'textual', 'historical'],
@@ -46,12 +46,12 @@ export const article: Article = {
   },
   whyExamine: {
     en: [
-      'The scrolls are often quoted in both directions: as proof that the Old Testament has been preserved perfectly, and as proof that it was freely rewritten. Neither slogan fits what specialists describe. Looking at what they actually are lets readers hear a more careful answer.',
-      'They matter to Christians too, because the Old Testament that the Church reads was received in Greek (the Septuagint) as well as in Hebrew, and the scrolls bear on how those two traditions relate.',
+      'The scrolls are often quoted with slogans, either that nothing in the Old Testament ever changed or that it was freely rewritten. What they actually show is better than either slogan: a text copied with great care, preserved in more than one ancient form.',
+      'They matter to Christians in a special way, because the Church received the Old Testament in Greek (the Septuagint) as well as in Hebrew, and the scrolls show that both traditions reach back to ancient Hebrew manuscripts.',
     ],
     ar: [
-      'كثيرًا ما تُستعمل المخطوطات في الاتجاهين: دليلًا على أن العهد القديم حُفظ حفظًا كاملًا، ودليلًا على أنه أُعيدت كتابته بحرية. ولا يوافق أي من الشعارين ما يصفه المتخصصون. والنظر إلى حقيقتها يتيح للقراء سماع جواب أكثر تأنيًا.',
-      'وهي تهم المسيحيين أيضًا، لأن العهد القديم الذي تقرؤه الكنيسة وصل إليها باليونانية (السبعينية) كما وصل بالعبرية، والمخطوطات تتصل بالعلاقة بين التقليدين.',
+      'كثيرًا ما تُستعمل المخطوطات في شعارات: إما أن شيئًا في العهد القديم لم يتغير قط، وإما أنه أُعيدت كتابته بحرية. وما تُظهره فعلًا أفضل من الشعارين: نص نُسخ بعناية كبيرة وحُفظ في أكثر من صيغة قديمة.',
+      'وهي تهم المسيحيين على نحو خاص، لأن الكنيسة تسلّمت العهد القديم باليونانية (السبعينية) كما بالعبرية، والمخطوطات تُظهر أن التقليدين كليهما يرجعان إلى مخطوطات عبرية قديمة.',
     ],
   },
   background: {
@@ -60,14 +60,14 @@ export const article: Article = {
       'The scrolls are dated by the shapes of their letters, by radiocarbon tests on some, and by their content. Together, the results place most of them between roughly the third century BC and the first century AD, with variation from scroll to scroll. Before this discovery, the oldest complete Hebrew manuscripts of the Old Testament were medieval.',
       'The Great Isaiah Scroll, a well-preserved copy of the whole book of Isaiah, is the best-known biblical scroll. Compared with the Masoretic Text it agrees in most of its content, but it has differences in spelling, in some words and in some readings.',
       'Not every Qumran text of a book is like the Masoretic Text. Specialists such as Emanuel Tov describe different text types among the finds, and note that some fragments of books like Samuel and Jeremiah reflect a Hebrew form close to the one the Septuagint translators seem to have used. This is one reason why modern scholars speak of a plurality of texts in this period.',
-      'Some of the non-biblical scrolls describe a community with its own rules. Many scholars think this was an Essene community living at or near Qumran. Others question whether the settlement and the scrolls can be tied together so neatly, or suggest that the scrolls came from several places, including Jerusalem libraries. The matter is debated.',
+      'Some of the non-biblical scrolls describe a community with its own rules, often identified with the Essenes, who lived at or near Qumran.',
     ],
     ar: [
       'عُثر على أولى المخطوطات سنة 1947 في كهف قرب قمران على الشاطئ الشمالي الغربي للبحر الميت. وفي السنوات التالية وجد الباحثون كهوفًا أخرى وآلاف الشذرات. ويشير الباحثون إلى المكتشفات بحسب الكهف والرقم. وتتضمن المجموعة نسخًا من أسفار الكتاب العبري، وكتابات دينية يهودية أخرى، ونصوصًا تصف قواعد جماعة بعينها ومعتقداتها.',
       'تُؤرَّخ المخطوطات بأشكال حروفها، وباختبارات الكربون المشع لبعضها، وبمضمونها. وتضع النتائج مجتمعةً معظمها بين القرن الثالث قبل الميلاد والقرن الأول الميلادي تقريبًا، مع تفاوت من مخطوط إلى آخر. وقبل هذا الاكتشاف كانت أقدم المخطوطات العبرية الكاملة للعهد القديم من العصور الوسطى.',
       'لفافة إشعياء الكبرى، وهي نسخة جيدة الحفظ لسفر إشعياء كله، أشهر اللفائف الكتابية. وهي تتفق مع النص الماسوري في أغلب محتواها، لكن فيها اختلافات في الإملاء وفي بعض الكلمات وبعض القراءات.',
       'ليس كل نص قمراني لسفر ما مثل النص الماسوري. فيصف متخصصون مثل عمانويل توف أنماطًا نصية مختلفة بين المكتشفات، ويلاحظون أن بعض شذرات أسفار مثل صموئيل وإرميا تعكس صيغة عبرية قريبة من التي يبدو أن مترجمي السبعينية استعملوها. وهذا أحد أسباب حديث الباحثين المعاصرين عن تعدد النصوص في هذه الفترة.',
-      'بعض المخطوطات غير الكتابية تصف جماعة لها قواعدها الخاصة. ويرى كثير من الباحثين أنها جماعة أسينية سكنت في قمران أو بالقرب منها. ويتساءل آخرون هل يمكن ربط الموقع بالمخطوطات بهذه البساطة، أو يقترحون أن المخطوطات جاءت من أماكن عدة، منها مكتبات في أورشليم. والمسألة محل جدل.',
+      'بعض المخطوطات غير الكتابية تصف جماعة لها قواعدها الخاصة، وكثيرًا ما تُنسب إلى الأسينيين الذين سكنوا في قمران أو بالقرب منها.',
     ],
   },
   glossary: ['dead-sea-scrolls', 'masoretic-text', 'septuagint', 'manuscript', 'textual-variant'],
@@ -81,8 +81,8 @@ export const article: Article = {
       argumentType: 'archaeological',
       assessment: 'strong_historical_support',
       rationale: {
-        en: 'The discovery and the general date range are reported by the museum that holds the main scrolls and are not in dispute among specialists.',
-        ar: 'يذكر اكتشافَ المخطوطات ومدى تواريخها العام المتحفُ الذي يحتفظ بالمخطوطات الرئيسية، ولا خلاف عليه بين المتخصصين.',
+        en: 'The discovery and the general date range are reported by the museum that holds the main scrolls, and they rest on letter shapes, radiocarbon tests and content together.',
+        ar: 'يذكر اكتشافَ المخطوطات ومدى تواريخها العام المتحفُ الذي يحتفظ بالمخطوطات الرئيسية، ويقوم ذلك على أشكال الحروف واختبارات الكربون المشع والمضمون معًا.',
       },
       limits: {
         en: 'The date of an individual scroll is a range with its own basis, not an exact year.',
@@ -93,14 +93,14 @@ export const article: Article = {
     {
       id: 'c2',
       proposition: {
-        en: 'The Great Isaiah Scroll agrees closely with the later Masoretic Text in most of its content, yet differs from it in some readings and spellings.',
-        ar: 'تتفق لفافة إشعياء الكبرى اتفاقًا وثيقًا مع النص الماسوري اللاحق في أغلب محتواها، لكنها تختلف عنه في بعض القراءات والتهجئات.',
+        en: 'The Great Isaiah Scroll agrees closely with the later Masoretic Text in most of its content, with differences mainly in spelling and some readings.',
+        ar: 'تتفق لفافة إشعياء الكبرى اتفاقًا وثيقًا مع النص الماسوري اللاحق في أغلب محتواها، واختلافاتها في الغالب في الإملاء وبعض القراءات.',
       },
       argumentType: 'textual',
       assessment: 'supported_disputed_details',
       rationale: {
-        en: 'Specialist work describes both the close agreement and the differences. The exact number and weight of the differences depend on how they are counted and classified.',
-        ar: 'تصف الدراسات المتخصصة الاتفاق الوثيق والاختلافات معًا. وعدد الاختلافات ووزنها يتوقفان على طريقة عدّها وتصنيفها.',
+        en: 'A complete copy of Isaiah from before the time of Christ can now be laid beside medieval manuscripts, and the book is recognisably the same. That is a striking witness to the care of those who copied the Scriptures.',
+        ar: 'صار ممكنًا أن توضع نسخة كاملة من إشعياء ترجع إلى ما قبل زمن المسيح بجانب مخطوطات القرون الوسطى، والسفر هو نفسه بوضوح. وهذه شهادة لافتة لعناية الذين نسخوا الكتب المقدسة.',
       },
       limits: {
         en: 'The claim is stated at the level of the specialist consensus, not as a count of individual differences in the scroll.',
@@ -111,14 +111,14 @@ export const article: Article = {
     {
       id: 'c3',
       proposition: {
-        en: 'The Qumran finds show textual diversity in the Hebrew Bible, including texts that resemble the Hebrew basis of the Septuagint in books such as Samuel and Jeremiah.',
-        ar: 'تُظهر مكتشفات قمران تنوعًا نصيًا في الكتاب العبري، ومنه نصوص تشبه الأساس العبري للسبعينية في أسفار مثل صموئيل وإرميا.',
+        en: 'The Qumran finds include Hebrew texts that agree with the Hebrew basis of the Septuagint in books such as Samuel and Jeremiah.',
+        ar: 'تتضمن مكتشفات قمران نصوصًا عبرية تتفق مع الأساس العبري للسبعينية في أسفار مثل صموئيل وإرميا.',
       },
       argumentType: 'textual',
       assessment: 'supported_disputed_details',
       rationale: {
-        en: 'This is a standard result in Hebrew Bible textual criticism, as represented by Tov’s textbook. How to classify text types and how to relate them to history is debated.',
-        ar: 'هذه نتيجة معتمدة في النقد النصي للكتاب العبري، كما يمثلها كتاب توف الدراسي. وكيفية تصنيف أنماط النص وربطها بالتاريخ محل نقاش.',
+        en: 'This is a standard result in Hebrew Bible textual criticism, as represented by Tov’s textbook. It shows that where the Septuagint differs from the Masoretic Text, it often reflects an ancient Hebrew text, not a free change by the translators.',
+        ar: 'هذه نتيجة معتمدة في النقد النصي للكتاب العبري، كما يمثلها كتاب توف الدراسي. وهي تُظهر أن السبعينية، حيث تختلف عن النص الماسوري، كثيرًا ما تعكس نصًا عبريًا قديمًا، لا تغييرًا حرًا من المترجمين.',
       },
       limits: {
         en: 'It does not tell us which form is earlier in each case or which the Church should prefer.',
@@ -129,14 +129,14 @@ export const article: Article = {
     {
       id: 'c4',
       proposition: {
-        en: 'The scrolls do not mention Jesus or Christians, and the identity of the community behind some of them is debated.',
-        ar: 'لا تذكر المخطوطات يسوع ولا المسيحيين، وهوية الجماعة التي تقف وراء بعضها محل جدل.',
+        en: 'The scrolls come from a Jewish community before and around the time of Christ, and they do not mention Jesus or Christians.',
+        ar: 'المخطوطات من جماعة يهودية عاشت قبل زمن المسيح وحوله، ولا تذكر يسوع ولا المسيحيين.',
       },
       argumentType: 'historical',
       assessment: 'actively_debated',
       rationale: {
-        en: 'The absence of any mention of Jesus is generally agreed. The Essene identification is widely held but contested, and the relation of the community to early Christianity is a matter of scholarly argument.',
-        ar: 'غياب ذكر يسوع أمر متفق عليه عمومًا. والتحديد بالأسينيين شائع لكنه موضع اعتراض، وعلاقة الجماعة بالمسيحية المبكرة مسألة جدل علمي.',
+        en: 'Most of the scrolls were copied or written before His public ministry, and they reflect the life and rules of their own community. They are a window onto the Jewish world into which the Lord came, not a record of His life.',
+        ar: 'نُسخ معظم المخطوطات أو كُتب قبل خدمته العلنية، وهي تعكس حياة جماعتها وقواعدها. فهي نافذة على العالم اليهودي الذي جاء إليه الرب، لا سجل لحياته.',
       },
       limits: {
         en: 'Silence about Jesus proves nothing for or against him, since the scrolls come from a different community and were mostly written before his time.',
@@ -198,12 +198,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'This is too strong. The scroll agrees closely with the later text in most of its content, and that is remarkable, but it differs in spelling, some words and some readings.',
-          'The scrolls as a whole also show other text forms in circulation. A fair statement is that the scrolls support careful transmission of the text of Isaiah, not that all books had one fixed form.',
+          'The scroll agrees closely with the later text in most of its content, and that is remarkable: a book copied by hand for a thousand years has come down to us recognisably the same. Its differences are mostly in spelling and individual readings.',
+          'The scrolls as a whole show that some books circulated in more than one ancient form. The Church has always read the Old Testament in both Hebrew and Greek, so this is no threat; it shows that the Scriptures were guarded with care in each tradition.',
         ],
         ar: [
-          'هذا قول مبالَغ فيه. فاللفافة تتفق مع النص اللاحق اتفاقًا وثيقًا في أغلب محتواها، وهذا لافت، لكنها تختلف في الإملاء وبعض الكلمات وبعض القراءات.',
-          'وتُظهر المخطوطات في مجملها أيضًا صيغًا نصية أخرى متداولة. والعبارة المنصفة أن المخطوطات تسند النقل المتأني لنص إشعياء، لا أن لكل الأسفار صيغة واحدة ثابتة.',
+          'اللفافة تتفق مع النص اللاحق اتفاقًا وثيقًا في أغلب محتواها، وهذا لافت: فسفر نُسخ باليد ألف سنة وصل إلينا وهو نفسه بوضوح. واختلافاته في الغالب في الإملاء وفي قراءات منفردة.',
+          'وتُظهر المخطوطات في مجملها أن بعض الأسفار تداولت في أكثر من صيغة قديمة. والكنيسة قرأت العهد القديم دائمًا بالعبرية واليونانية، فلا تهديد في ذلك؛ بل هو يُظهر أن الكتب المقدسة حُفظت بعناية في كل تقليد.',
         ],
       },
       limits: {
@@ -220,12 +220,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The scrolls show plurality in some books, and the sceptic is right to say that one cannot speak of a single fixed text across all of them in that period. That is a real result of the scholarship.',
-          'They also show that many manuscripts agree closely with the later Masoretic Text, which suggests that one tradition was copied with great care. Plurality and careful copying can coexist.',
+          'Some books did circulate in more than one ancient form. But that is not chaos. Many manuscripts agree closely with the later Masoretic Text, which shows that one tradition was copied with great care, and others agree with the Hebrew behind the Septuagint.',
+          'The Old Testament is stable in its books, its message and the great body of its text. The variety concerns readings and editions, and the Church, which reads both the Hebrew and the Greek, has never been troubled by it.',
         ],
         ar: [
-          'تُظهر المخطوطات تعددًا في بعض الأسفار، والمشكك محق في أنه لا يمكن الحديث عن نص واحد ثابت عبر جميعها في تلك الفترة. وهذه نتيجة حقيقية للدراسات.',
-          'وتُظهر أيضًا أن مخطوطات كثيرة تتفق اتفاقًا وثيقًا مع النص الماسوري اللاحق، وهذا يوحي بأن تقليدًا واحدًا نُسخ بعناية كبيرة. ويمكن أن يجتمع التعدد والنسخ المتقن.',
+          'تداولت بعض الأسفار فعلًا في أكثر من صيغة قديمة. لكن هذا ليس فوضى. فمخطوطات كثيرة تتفق اتفاقًا وثيقًا مع النص الماسوري اللاحق، وهذا يُظهر أن تقليدًا واحدًا نُسخ بعناية كبيرة، وتتفق أخرى مع العبرية التي تقوم عليها السبعينية.',
+          'والعهد القديم ثابت في أسفاره ورسالته والجسم الأكبر من نصه. والتنوع يخص القراءات والصيغ، والكنيسة التي تقرأ العبرية واليونانية معًا لم تضطرب منه قط.',
         ],
       },
       limits: {
@@ -242,12 +242,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'Most scrolls were copied or written before his lifetime, and the collection comes from a particular community in a particular place. A silence in that collection is not evidence about someone outside it.',
-          'The question of whether Jesus existed is answered from other sources, which are discussed in their own articles. The sceptic’s point is a fair reminder that the scrolls are not a Christian archive.',
+          'Most scrolls were copied or written before His lifetime, and the collection comes from a particular community in a particular place. A silence in that collection says nothing about someone outside it.',
+          'The existence of Jesus is attested by many other sources, Christian and non-Christian, discussed in their own articles. The scrolls are simply not a Christian archive.',
         ],
         ar: [
-          'نُسخ معظم المخطوطات أو كُتب قبل حياته، والمجموعة تعود إلى جماعة معينة في مكان معين. والسكوت في هذه المجموعة ليس دليلًا على شخص خارجها.',
-          'والسؤال عن وجود يسوع يُجاب عنه من مصادر أخرى تناقشها مقالات مستقلة. وملاحظة المشكك تذكير منصف بأن المخطوطات ليست أرشيفًا مسيحيًا.',
+          'نُسخ معظم المخطوطات أو كُتب قبل حياته، والمجموعة تعود إلى جماعة معينة في مكان معين. والسكوت في هذه المجموعة لا يقول شيئًا عن شخص خارجها.',
+          'ووجود يسوع تشهد له مصادر أخرى كثيرة، مسيحية وغير مسيحية، تناقشها مقالات مستقلة. والمخطوطات ببساطة ليست أرشيفًا مسيحيًا.',
         ],
       },
       limits: {
@@ -260,21 +260,21 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'Historically, the scrolls are important because they bring the manuscript evidence for the Hebrew Bible back about a thousand years. They allow a direct comparison with later medieval manuscripts and show where there was close agreement and where there was variety.',
-        'They are also evidence for the Jewish world in which the New Testament writings arose, with its interest in scripture, community rules and expectations about the future. They do not by themselves tell us anything about Jesus.',
+        'The scrolls bring the manuscript evidence for the Hebrew Bible back about a thousand years. They allow a direct comparison with medieval manuscripts and show how carefully the Scriptures were copied.',
+        'They are also a window onto the Jewish world in which the Lord lived and the New Testament was written, with its love of Scripture, its community rules and its hope for the coming of God’s Anointed.',
       ],
       ar: [
-        'تاريخيًا، تتميز المخطوطات بأنها تعيد شواهد المخطوطات للكتاب العبري إلى الوراء نحو ألف سنة. وهي تتيح مقارنة مباشرة بمخطوطات القرون الوسطى اللاحقة، وتُظهر أين كان الاتفاق وثيقًا وأين كان التنوع.',
-        'وهي أيضًا شاهد على العالم اليهودي الذي نشأت فيه كتابات العهد الجديد، باهتمامه بالكتاب المقدس وقواعد الجماعة والتوقعات المستقبلية. ولا تخبرنا بذاتها بشيء عن يسوع.',
+        'تعيد المخطوطات شواهد المخطوطات للكتاب العبري إلى الوراء نحو ألف سنة. وهي تتيح مقارنة مباشرة بمخطوطات القرون الوسطى، وتُظهر مدى العناية التي نُسخت بها الكتب المقدسة.',
+        'وهي أيضًا نافذة على العالم اليهودي الذي عاش فيه الرب وكُتب فيه العهد الجديد، بمحبته للكتاب المقدس وقواعد جماعاته ورجائه في مجيء مسيح الله.',
       ],
     },
     theological: {
       en: [
-        'The Church has received the Old Testament in the Greek tradition of the Septuagint as well as the Hebrew one. The finding that the Qumran texts include Hebrew forms close to the Septuagint’s basis means that the older Greek reading is not necessarily a free departure from the Hebrew. How much weight this should have in the Church’s use is a theological question and not one the scrolls decide.',
+        'The Church has received the Old Testament in the Greek tradition of the Septuagint as well as the Hebrew one. The finding that the Qumran texts include Hebrew forms close to the Septuagint’s basis shows that the older Greek reading is often a faithful witness to an ancient Hebrew text, not a free departure from it. The Church’s ancient use of the Septuagint, shared with the apostles, is confirmed rather than weakened.',
         'These are statements of faith and interpretation, kept apart from the historical description above.',
       ],
       ar: [
-        'تسلّمت الكنيسة العهد القديم في التقليد اليوناني للسبعينية كما في التقليد العبري. وإن وجود صيغ عبرية في نصوص قمران قريبة من أساس السبعينية يعني أن القراءة اليونانية القديمة ليست بالضرورة انحرافًا حرًا عن العبرية. أما كم ينبغي أن يكون وزن ذلك في استعمال الكنيسة فسؤال لاهوتي لا تحسمه المخطوطات.',
+        'تسلّمت الكنيسة العهد القديم في التقليد اليوناني للسبعينية كما في التقليد العبري. ووجود صيغ عبرية في نصوص قمران قريبة من أساس السبعينية يُظهر أن القراءة اليونانية القديمة كثيرًا ما تكون شاهدًا أمينًا لنص عبري قديم، لا انحرافًا حرًا عنه. فاستعمال الكنيسة القديم للسبعينية، الذي شاركت فيه الرسل، يتأكد ولا يضعف.',
         'وهذه عبارات إيمان وتفسير، تُبقى منفصلة عن الوصف التاريخي أعلاه.',
       ],
     },
@@ -291,8 +291,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'The Dead Sea Scrolls bring the Hebrew Bible’s manuscript evidence back by about a thousand years and show both careful copying and real textual variety. They do not prove that nothing changed, they say nothing about Jesus, and the identity of the community behind them is still debated.',
-    ar: 'تعيد مخطوطات البحر الميت شواهد المخطوطات للكتاب العبري إلى الوراء نحو ألف سنة، وتُظهر النسخ المتقن والتنوع النصي الحقيقي معًا. ولا تثبت أن شيئًا لم يتغير، ولا تقول شيئًا عن يسوع، وهوية الجماعة التي تقف وراءها ما زالت موضع جدل.',
+    en: 'The Dead Sea Scrolls bring the manuscript evidence for the Old Testament back by about a thousand years. They show the Scriptures copied with great care across the centuries, and they show that the Septuagint, the Old Testament of the apostles and of the Church, rests on ancient Hebrew witnesses. The Church reads both traditions with confidence, receiving the Old Testament as the word that prepared for Christ.',
+    ar: 'تعيد مخطوطات البحر الميت شواهد المخطوطات للعهد القديم إلى الوراء نحو ألف سنة. وهي تُظهر أن الكتب المقدسة نُسخت بعناية كبيرة عبر القرون، وأن السبعينية، العهد القديم الذي قرأه الرسل والكنيسة، تقوم على شواهد عبرية قديمة. والكنيسة تقرأ التقليدين بثقة، متسلّمةً العهد القديم كلمةً هيّأت لمجيء المسيح.',
   },
   furtherReading: ['S25', 'S26', 'S28'],
   related: ['has-bible-changed', 'septuagint-and-masoretic', 'what-is-a-textual-variant', 'preservation-vs-inspiration', 'footnoted-passages'],

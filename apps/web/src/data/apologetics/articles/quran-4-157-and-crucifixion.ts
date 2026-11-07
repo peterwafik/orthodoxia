@@ -15,25 +15,25 @@ export const article: Article = {
     ar: 'تضع هذه المقالة جنبًا إلى جنب ما تقوله سورة النساء، الآية ١٥٧، عن قتل المسيح عيسى وصلبه، وكيف فهمها المفسرون المسلمون، وما الشواهد التاريخية على صلب يسوع. وهي مكتوبة للقارئ المسيحي والمسلم معًا. وتصف القراءة الإسلامية كما يصفها المسلمون ولا تجادل في سلطان القرآن.',
   },
   shortAnswer: {
-    en: 'The verse reports a claim made by some of the Jews, that they killed the Messiah, Jesus son of Mary, the messenger of God, and answers that they did not kill him and did not crucify him, but that it was made to appear so to them; it says that those who differ about it are in doubt and follow conjecture, and that God raised him to himself. Most classical Muslim commentators understood this to mean that someone else was made to resemble Jesus and was put on the cross in his place, while Jesus was raised alive; other Muslim readings exist. Christians confess that Jesus was crucified, died and rose. The historical evidence for his crucifixion under Pontius Pilate is early and comes from Christian and non-Christian writers, and historians regard it as one of the best-attested facts about him. The two accounts are different and cannot both be taken in their plain sense. The Church states its own faith and the evidence it has, and it does so without contempt for anyone who reads otherwise.',
-    ar: 'تروي الآية دعوى لبعض اليهود بأنهم قتلوا المسيح عيسى ابن مريم رسول الله، وتجيب بأنهم ما قتلوه وما صلبوه ولكن شُبِّه لهم، وتقول إن الذين اختلفوا فيه في شك منه ويتبعون الظن، وإن الله رفعه إليه. وفهم أكثر المفسرين المسلمين الكلاسيكيين من ذلك أن شخصًا آخر أُلقي عليه شبه عيسى وصُلب مكانه، ورُفع عيسى حيًّا؛ وثمة قراءات إسلامية أخرى. ويعترف المسيحيون بأن يسوع صُلب ومات وقام. والشواهد التاريخية على صلبه في عهد بيلاطس البنطي مبكرة وتأتي من كتّاب مسيحيين وغير مسيحيين، ويعدّها المؤرخون من أفضل الوقائع المشهود لها عنه. والروايتان مختلفتان ولا يمكن الأخذ بهما كلتيهما بمعناهما الظاهر. وتذكر الكنيسة إيمانها والأدلة التي عندها، دون ازدراء بمن يقرأ خلاف ذلك.',
+    en: 'The verse answers a claim by some of the Jews that they killed the Messiah, Jesus son of Mary. It says they did not kill or crucify him, that it was made to appear so to them, and that God raised him to Himself. Most classical Muslim commentators read this as a substitution: another man was given his likeness and crucified, while Jesus was taken up alive. The Church confesses that Christ was truly crucified under Pontius Pilate, truly died in the flesh, and rose on the third day. The historical evidence stands with this confession. It is early, it comes from friends and opponents alike, and it was recorded centuries before the Qur’an. The Church states this plainly, with respect and love for her Muslim neighbours.',
+    ar: 'تجيب الآية عن دعوى لبعض اليهود بأنهم قتلوا المسيح عيسى ابن مريم. وتقول إنهم ما قتلوه وما صلبوه ولكن شُبِّه لهم، وإن الله رفعه إليه. وفهم أكثر المفسرين المسلمين الكلاسيكيين ذلك تبديلًا: أُلقي شبهه على رجل آخر فصُلب، ورُفع عيسى حيًّا. أما الكنيسة فتعترف بأن السيد المسيح صُلب حقًا في عهد بيلاطس البنطي، ومات حقًا بالجسد، وقام في اليوم الثالث. والشواهد التاريخية تقف مع هذا الاعتراف. فهي مبكرة، وتأتي من الأصدقاء والخصوم معًا، ودُوّنت قبل القرآن بقرون. والكنيسة تقول هذا بوضوح، باحترام ومحبة لجيرانها المسلمين.',
   },
   quickPoints: {
     en: [
       'The verse answers a claim to have killed the Messiah; it says they did not kill or crucify him, that it was made to appear so, and that God raised him.',
-      'Most classical Muslim commentators understood a substitution: another person was given the likeness of Jesus, while Jesus was raised alive. Other Muslim readings, which do not exclude his death before being raised, also exist.',
-      'The Qur’an was recited in the seventh century; the earliest evidence about the crucifixion is from the first century and later, from St Paul, the Gospels, Tacitus and others.',
-      'Christians and also some non-Christian historians regard the crucifixion of Jesus under Pilate as very well attested; this is a historical judgment and does not depend on accepting the resurrection.',
-      'Early Christians themselves rejected the idea that Christ only seemed to suffer; Ignatius of Antioch wrote against it.',
-      'The Church confesses that Christ truly died on the cross in the flesh and rose; this is where Christian and Muslim teaching differ, and the difference should be stated plainly and without hostility.',
+      'Most classical Muslim commentators understood a substitution: another person was given the likeness of Jesus, while Jesus was raised alive.',
+      'The witnesses to the crucifixion come from the first and second centuries: St Paul, the Gospels, Tacitus and others. The Qur’an was recited in the seventh century.',
+      'Christian and non-Christian sources agree that Jesus was crucified under Pilate; this is a historical finding and does not depend on first accepting the resurrection.',
+      'The early Church already rejected the idea that Christ only seemed to suffer; St Ignatius of Antioch wrote against it.',
+      'The Church confesses that Christ truly died on the cross in the flesh and rose; she says so plainly and without hostility.',
     ],
     ar: [
       'تجيب الآية عن دعوى قتل المسيح؛ وتقول إنهم ما قتلوه وما صلبوه، وإنه شُبِّه لهم، وإن الله رفعه.',
-      'فهم أكثر المفسرين الكلاسيكيين المسلمين الآية على أنها تبديل: أُلقي شبه عيسى على شخص آخر، ورُفع عيسى حيًّا. وثمة قراءات إسلامية أخرى لا تستبعد موته قبل رفعه.',
-      'تُلي القرآن في القرن السابع؛ وأقدم الشواهد عن الصلب من القرن الأول وما بعده، من القديس بولس والأناجيل وتاكيتوس وغيرهم.',
-      'يرى المسيحيون وبعض المؤرخين غير المسيحيين أن صلب يسوع في عهد بيلاطس مشهود له جيدًا؛ وهذا حكم تاريخي ولا يتوقف على قبول القيامة.',
-      'رفض المسيحيون الأوائل أنفسهم فكرة أن المسيح بدا فقط أنه تألم؛ وكتب إغناطيوس الأنطاكي ضدها.',
-      'تعترف الكنيسة بأن المسيح مات حقًا على الصليب في الجسد وقام؛ وهنا يختلف التعليمان المسيحي والإسلامي، وينبغي ذكر الخلاف بوضوح ودون عداء.',
+      'فهم أكثر المفسرين الكلاسيكيين المسلمين الآية على أنها تبديل: أُلقي شبه عيسى على شخص آخر، ورُفع عيسى حيًّا.',
+      'شهود الصلب من القرنين الأول والثاني: القديس بولس والأناجيل وتاكيتوس وغيرهم. أما القرآن فتُلي في القرن السابع.',
+      'تتفق المصادر المسيحية وغير المسيحية على أن يسوع صُلب في عهد بيلاطس؛ وهذه نتيجة تاريخية لا تتوقف على قبول القيامة أولًا.',
+      'رفضت الكنيسة الأولى فكرة أن المسيح بدا فقط أنه تألم؛ وكتب القديس إغناطيوس الأنطاكي ضدها.',
+      'تعترف الكنيسة بأن المسيح مات حقًا على الصليب في الجسد وقام؛ وتقول ذلك بوضوح ودون عداء.',
     ],
   },
   argumentTypes: ['historical', 'textual', 'theological'],
@@ -46,12 +46,12 @@ export const article: Article = {
   },
   whyExamine: {
     en: [
-      'This is one of the places where Christian and Muslim teaching differ most directly, and it is often raised in conversation between neighbours. In Egypt Copts and Muslims have lived together for centuries, and the question is asked in kindness as well as in dispute. It deserves an answer that is accurate about both sides.',
-      'It is also easy to answer badly. A Christian may speak as if the Qur’an could be refuted by quoting the Gospels, which a Muslim will not accept as a method. A Muslim may speak as if the crucifixion were a late Christian invention, which the historical sources do not support. A careful account has to state each position as its own holders do.',
+      'This is one of the places where Christian and Muslim teaching differ most directly, and it is often raised between neighbours. In Egypt Copts and Muslims have lived together for centuries, and the question is asked in kindness as well as in dispute. It deserves an answer that is clear and accurate about both sides.',
+      'It also matters how the Christian answers. Quoting the Gospels at a Muslim will not persuade him, because he does not accept them as the final word. What can be shown is that the crucifixion is not a late Christian invention: the earliest sources, Christian and non-Christian, all bear witness to it.',
     ],
     ar: [
-      'هذا من المواضع التي يختلف فيها التعليمان المسيحي والإسلامي اختلافًا مباشرًا أكثر، وكثيرًا ما يُطرح في الحوار بين الجيران. وفي مصر عاش الأقباط والمسلمون معًا قرونًا، ويُسأل هذا السؤال بلطف كما يُسأل في الخلاف. وهو يستحق جوابًا دقيقًا في الطرفين.',
-      'ومن السهل أن يُجاب عنه جوابًا سيئًا. فقد يتكلم المسيحي كأن القرآن يمكن دحضه بالاستشهاد بالأناجيل، وهذا منهج لا يقبله المسلم. وقد يتكلم المسلم كأن الصلب اختراع مسيحي متأخر، وهو ما لا تسنده المصادر التاريخية. والعرض الدقيق ينبغي أن يذكر كل موقف كما يذكره أصحابه.',
+      'هذا من المواضع التي يختلف فيها التعليمان المسيحي والإسلامي اختلافًا مباشرًا، وكثيرًا ما يُطرح بين الجيران. وفي مصر عاش الأقباط والمسلمون معًا قرونًا، ويُسأل هذا السؤال بلطف كما يُسأل في الخلاف. وهو يستحق جوابًا واضحًا ودقيقًا في الطرفين.',
+      'ويهم أيضًا كيف يجيب المسيحي. فالاستشهاد بالأناجيل أمام المسلم لن يقنعه، لأنه لا يقبلها كلمة أخيرة. لكن ما يمكن بيانه أن الصلب ليس اختراعًا مسيحيًا متأخرًا: فأقدم المصادر، المسيحية وغير المسيحية، تشهد له كلها.',
     ],
   },
   background: {
@@ -72,14 +72,14 @@ export const article: Article = {
     {
       id: 'c1',
       proposition: {
-        en: 'Surat al-Nisa’ 4:157 denies that the Jews killed or crucified Jesus, says it was made to appear so to them, and says God raised him; Muslim commentators have understood this in more than one way, with the substitution reading the most widely held in the classical commentaries.',
-        ar: 'تنفي سورة النساء ١٥٧ أن اليهود قتلوا عيسى أو صلبوه، وتقول إنه شُبِّه لهم، وتقول إن الله رفعه؛ وفهم المفسرون المسلمون ذلك بأكثر من طريقة، وأوسعها انتشارًا في التفاسير الكلاسيكية قراءة التبديل.',
+        en: 'Surat al-Nisa’ 4:157 denies that the Jews killed or crucified Jesus, says it was made to appear so to them, and says God raised him; the classical commentaries most often read it as a substitution.',
+        ar: 'تنفي سورة النساء ١٥٧ أن اليهود قتلوا عيسى أو صلبوه، وتقول إنه شُبِّه لهم، وإن الله رفعه؛ وأكثر التفاسير الكلاسيكية تقرؤها تبديلًا.',
       },
       argumentType: 'textual',
       assessment: 'supported_disputed_details',
       rationale: {
-        en: 'The meaning of the Arabic wording and the history of its interpretation are discussed in Muslim and in academic scholarship. Only a review of one study is catalogued here, so this summary of the readings is general and does not rely on any single commentary.',
-        ar: 'يناقش معنى اللفظ العربي وتاريخ تفسيره في الدراسات الإسلامية والأكاديمية. وليس في الفهرس هنا إلا مراجعة لدراسة واحدة، فهذا العرض للقراءات عام ولا يعتمد على تفسير بعينه.',
+        en: 'The verse has a long history of interpretation in Muslim thought, and the substitution reading is the one most Muslims will meet. This article describes it as Muslims do and leaves its interpretation within Islam to Muslim scholars.',
+        ar: 'للآية تاريخ تفسير طويل في الفكر الإسلامي، وقراءة التبديل هي التي يلقاها أكثر المسلمين. وتصفها هذه المقالة كما يصفها المسلمون، وتترك تفسيرها داخل الإسلام لعلمائهم.',
       },
       limits: {
         en: 'It describes how the verse has been read. It does not take a position on how it should be read within Islam, which is for Muslim scholars.',
@@ -90,14 +90,14 @@ export const article: Article = {
     {
       id: 'c2',
       proposition: {
-        en: 'Early sources of different standpoints report that Jesus was crucified under Pontius Pilate, and historians widely regard the crucifixion as one of the best-attested facts about him.',
-        ar: 'تروي مصادر مبكرة من مواقف مختلفة أن يسوع صُلب في عهد بيلاطس البنطي، ويعدّ المؤرخون على نطاق واسع الصلب من أفضل الوقائع المشهود لها عنه.',
+        en: 'Early sources of different standpoints report that Jesus was crucified under Pontius Pilate, and this is one of the best-attested facts about Him.',
+        ar: 'تروي مصادر مبكرة من مواقف مختلفة أن يسوع صُلب في عهد بيلاطس البنطي، وهذه من أفضل الوقائع المشهود لها عنه.',
       },
       argumentType: 'historical',
       assessment: 'strong_historical_support',
       rationale: {
-        en: 'St Paul, writing within a generation, speaks of Christ crucified as a given; the Gospels narrate it; Tacitus, a Roman historian who was no Christian, reports that Christ was executed under Pilate; and Lucian mocks the Christians’ worship of a crucified man. The Josephus passage in its surviving form says Pilate condemned him to the cross, though its wording is disputed. Not all of these are independent of one another, and the pagan sources depend on what was known in Rome about Christians, not on eyewitness.',
-        ar: 'يتكلم القديس بولس، وهو يكتب خلال جيل، عن المسيح المصلوب أمرًا مسلَّمًا؛ وتروي الأناجيل الحدث؛ ويذكر تاكيتوس، وهو مؤرخ روماني غير مسيحي، أن المسيح أُعدم في عهد بيلاطس؛ ويسخر لوقيانوس من عبادة المسيحيين رجلًا مصلوبًا. وتقول فقرة يوسيفوس بصيغتها الباقية إن بيلاطس حكم عليه بالصليب، وإن كانت صياغتها موضع خلاف. وليست كلها مستقلة بعضها عن بعض، والمصادر الوثنية تعتمد على ما عُرف في روما عن المسيحيين لا على شهادة عيان.',
+        en: 'St Paul the Apostle, writing within a generation, speaks of Christ crucified as known to all. The Gospels narrate it. Tacitus, a Roman historian who was no Christian, reports that Christ was executed under Pilate. Lucian, a hostile satirist, mocks the Christians for worshipping a crucified man. The surviving text of Josephus says Pilate condemned Him to the cross. Friends and opponents, near and far, bear witness to the same event.',
+        ar: 'يتكلم القديس بولس الرسول، وهو يكتب خلال جيل، عن المسيح المصلوب أمرًا معروفًا للجميع. وتروي الأناجيل الحدث. ويذكر تاكيتوس، وهو مؤرخ روماني غير مسيحي، أن المسيح أُعدم في عهد بيلاطس. ويسخر لوقيانوس، وهو كاتب ساخر معادٍ، من المسيحيين لأنهم يعبدون رجلًا مصلوبًا. ويقول نص يوسيفوس الباقي إن بيلاطس حكم عليه بالصليب. فالأصدقاء والخصوم، القريبون والبعيدون، يشهدون للحدث نفسه.',
       },
       limits: {
         en: 'This establishes that he was crucified. It does not establish what the cross means, or whether he rose.',
@@ -108,14 +108,14 @@ export const article: Article = {
     {
       id: 'c3',
       proposition: {
-        en: 'The earliest Christians already rejected the view that Christ only seemed to suffer, and insisted that he truly suffered and died.',
-        ar: 'رفض المسيحيون الأوائل أصلًا الرأي القائل إن المسيح بدا فقط أنه تألم، وأصروا على أنه تألم ومات حقًا.',
+        en: 'The earliest Christians already rejected the view that Christ only seemed to suffer, and insisted that He truly suffered and died.',
+        ar: 'رفض المسيحيون الأوائل الرأي القائل إن المسيح بدا فقط أنه تألم، وأصروا على أنه تألم ومات حقًا.',
       },
       argumentType: 'historical',
       assessment: 'strong_historical_support',
       rationale: {
-        en: 'Ignatius of Antioch, writing in the early second century, says that Christ truly suffered and was truly nailed under Pilate, and that it was not in appearance only, as some unbelievers said. This shows that the idea of appearance was known and was opposed within the Church.',
-        ar: 'يقول إغناطيوس الأنطاكي، وهو يكتب في أوائل القرن الثاني، إن المسيح تألم حقًا وسُمّر حقًا في عهد بيلاطس، وإن ذلك لم يكن في الظاهر فقط كما قال بعض غير المؤمنين. وهذا يبيّن أن فكرة الظهور كانت معروفة وكانت تُعارَض داخل الكنيسة.',
+        en: 'St Ignatius of Antioch, writing in the early second century, says that Christ truly suffered and was truly nailed to the cross under Pilate, and not in appearance only, as some unbelievers said. The idea of mere appearance was known to the Church and firmly rejected from the start.',
+        ar: 'يقول القديس إغناطيوس الأنطاكي، وهو يكتب في أوائل القرن الثاني، إن المسيح تألم حقًا وسُمّر حقًا على الصليب في عهد بيلاطس، لا في الظاهر فقط كما قال بعض غير المؤمنين. ففكرة الظهور المجرد كانت معروفة للكنيسة، ورفضتها بحزم منذ البداية.',
       },
       limits: {
         en: 'It is a statement of what Christians believed. It does not by itself prove the event, and it is not a reply to the Qur’an’s wording.',
@@ -126,14 +126,14 @@ export const article: Article = {
     {
       id: 'c4',
       proposition: {
-        en: 'The Church confesses that Christ truly died on the cross in the flesh and rose on the third day; this is the point at which Christian and Muslim teaching differ, and it is a difference of faith and not only of history.',
-        ar: 'تعترف الكنيسة بأن المسيح مات حقًا على الصليب في الجسد وقام في اليوم الثالث؛ وهذا هو الموضع الذي يختلف فيه التعليمان المسيحي والإسلامي، وهو اختلاف إيمان لا تاريخ فقط.',
+        en: 'The Church confesses that Christ truly died on the cross in the flesh and rose on the third day; for her this is not only a fact of history but the heart of salvation.',
+        ar: 'تعترف الكنيسة بأن المسيح مات حقًا على الصليب في الجسد وقام في اليوم الثالث؛ وهذا عندها ليس واقعة تاريخية فقط بل قلب الخلاص.',
       },
       argumentType: 'theological',
       assessment: 'theological_interpretation',
       rationale: {
-        en: 'In the Christian understanding the cross is the means of salvation and not an accident of history, so the question cannot be separated from the doctrine of redemption. A Muslim, on his side, holds that God honoured his messenger by raising him and does not permit his humiliation, and does not accept the doctrine of redemption through the cross.',
-        ar: 'في الفهم المسيحي الصليب وسيلة الخلاص وليس حادثًا عرضيًا في التاريخ، فلا يمكن فصل السؤال عن عقيدة الفداء. والمسلم من جانبه يعتقد أن الله أكرم رسوله برفعه ولا يجيز إذلاله، ولا يقبل عقيدة الفداء بالصليب.',
+        en: 'In the Christian faith the cross is the means of salvation, not an accident of history, so the question cannot be separated from redemption. A Muslim holds that God honoured His messenger by raising him and would not allow his humiliation. The Church answers that the cross is not humiliation but the victory of God’s love over death.',
+        ar: 'في الإيمان المسيحي الصليب وسيلة الخلاص لا حادث عرضي في التاريخ، فلا يمكن فصل السؤال عن الفداء. ويعتقد المسلم أن الله أكرم رسوله برفعه ولا يرضى بإذلاله. وتجيب الكنيسة بأن الصليب ليس إذلالًا بل انتصار محبة الله على الموت.',
       },
       limits: {
         en: 'The article states the two positions. It does not claim to resolve a difference of faith by historical argument.',
@@ -255,12 +255,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'A Muslim who holds the Qur’an to be God’s word will take it as the decisive authority, and the article does not ask him to put that aside. The article sets out what the historical record contains and what Christians believe, so that each side can see what the other is saying.',
-          'The historian’s question is different from the believer’s. It asks what the earliest sources report, and these come from several standpoints, including a Roman historian who was no Christian. The article does not say that this answers the Qur’an’s claim; it says the historical question has an answer on which the sources agree.',
+          'A Muslim who holds the Qur’an to be God’s word will take it as his final authority, and the Christian respects his sincerity. But the question here is also a question of history: what happened in Jerusalem under Pontius Pilate.',
+          'On that question the earliest sources speak with one voice. They come from the first and second centuries, centuries before the Qur’an, and they include a Roman historian who was no Christian and a satirist who mocked the faith. Witnesses close to the event, friendly and hostile, all report that Jesus was crucified.',
         ],
         ar: [
-          'المسلم الذي يرى القرآن كلام الله سيعده السلطة الحاسمة، والمقالة لا تطلب منه أن يضع ذلك جانبًا. وهي تعرض ما يحويه السجل التاريخي وما يعتقده المسيحيون، ليرى كل طرف ما يقوله الآخر.',
-          'وسؤال المؤرخ يختلف عن سؤال المؤمن. فهو يسأل ماذا تروي أقدم المصادر، وهي من مواقف عدة، منها مؤرخ روماني غير مسيحي. ولا تقول المقالة إن هذا يجيب عن دعوى القرآن؛ بل تقول إن للسؤال التاريخي جوابًا تتفق عليه المصادر.',
+          'المسلم الذي يرى القرآن كلام الله سيعده سلطته الأخيرة، والمسيحي يحترم صدقه. لكن السؤال هنا سؤال تاريخ أيضًا: ماذا حدث في أورشليم في عهد بيلاطس البنطي.',
+          'وفي هذا السؤال تتكلم أقدم المصادر بصوت واحد. فهي من القرنين الأول والثاني، قبل القرآن بقرون، ومنها مؤرخ روماني غير مسيحي وكاتب ساخر سخر من الإيمان. والشهود القريبون من الحدث، المحبون والمعادون، يروون كلهم أن يسوع صُلب.',
         ],
       },
       limits: {
@@ -277,12 +277,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The Muslim concern is for the honour of a prophet and is stated with respect. Christians reply that the cross was indeed shameful in the Roman world, and for that reason it is hard to see why his followers would invent it. St Paul says that the message of the cross was a stumbling block to Jews and folly to Gentiles.',
-          'The Christian answer to the question of honour is theological: the Church holds that Christ went to the cross freely and that it is the place of God’s love and not of defeat. This is the point of difference, and it is stated here as such.',
+          'The concern for a prophet’s honour is sincere, and Christians respect it. But the cross was shameful in the Roman world, and that is exactly why the first Christians would never have invented it. St Paul the Apostle says that the message of the cross was a stumbling block to Jews and folly to Gentiles. They preached it because it happened.',
+          'And the cross is not God’s failure to protect His servant. Christ went to it freely, out of love, and through it He overcame death. The Church sees in the cross not defeat but the glory of God.',
         ],
         ar: [
-          'اهتمام المسلم هنا بكرامة نبي، ويُذكر باحترام. ويجيب المسيحيون بأن الصليب كان فعلًا عارًا في العالم الروماني، ولذلك يصعب أن نرى لماذا يخترعه أتباعه. ويقول القديس بولس إن كلمة الصليب عثرة لليهود وجهالة لليونانيين.',
-          'والجواب المسيحي عن سؤال الكرامة لاهوتي: تعتقد الكنيسة أن المسيح مضى إلى الصليب بحريته وأنه موضع محبة الله لا موضع هزيمة. وهذا هو نقطة الاختلاف، وتُذكر هنا على هذا النحو.',
+          'الحرص على كرامة نبي حرص صادق، ويحترمه المسيحيون. لكن الصليب كان عارًا في العالم الروماني، ولهذا بالذات ما كان المسيحيون الأوائل ليخترعوه أبدًا. ويقول القديس بولس الرسول إن كلمة الصليب عثرة لليهود وجهالة لليونانيين. لقد بشّروا به لأنه حدث.',
+          'والصليب ليس عجز الله عن حماية عبده. فقد مضى إليه المسيح بإرادته، بدافع المحبة، وبه غلب الموت. والكنيسة ترى في الصليب لا هزيمة بل مجد الله.',
         ],
       },
       limits: {
@@ -299,12 +299,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'It is true that some second-century groups taught a version of this. Their writings are later than the earliest sources, and they are opposed by writers such as Ignatius. A teaching that a later group held cannot outweigh the earlier sources on what happened.',
-          'The article does not claim that those groups were the source of the Qur’anic verse, and it does not draw a line from one to the other. The Muslim reading and these early views are different things and should be kept apart.',
+          'It is true that some second-century groups taught that Christ did not really suffer. But their writings are later than the earliest witnesses, and the Church opposed them from the start, as St Ignatius shows. A later teaching cannot outweigh the earlier sources on what actually happened.',
+          'The Church’s confession is not one view among rivals. It is the witness of those who were there and of the community they founded. This article does not claim that those groups were the source of the Qur’anic verse; the two are different and are kept apart.',
         ],
         ar: [
-          'صحيح أن بعض جماعات القرن الثاني علّمت صيغة من هذا. لكن كتاباتها أحدث من أقدم المصادر، وقد عارضها كتّاب مثل إغناطيوس. وتعليم تمسكت به جماعة لاحقة لا يرجح على المصادر الأقدم فيما حدث.',
-          'ولا تدّعي المقالة أن تلك الجماعات كانت مصدر الآية القرآنية، ولا ترسم خطًا من إحداهما إلى الأخرى. فالقراءة الإسلامية وهذه الآراء المبكرة أمران مختلفان ويجب إبقاؤهما منفصلين.',
+          'صحيح أن بعض جماعات القرن الثاني علّمت أن المسيح لم يتألم حقًا. لكن كتاباتها أحدث من أقدم الشهود، وقد عارضتها الكنيسة منذ البداية، كما يبيّن القديس إغناطيوس. والتعليم اللاحق لا يرجح على المصادر الأقدم فيما حدث فعلًا.',
+          'واعتراف الكنيسة ليس رأيًا بين آراء متنافسة. إنه شهادة الذين كانوا هناك والجماعة التي أسسوها. ولا تدّعي هذه المقالة أن تلك الجماعات كانت مصدر الآية القرآنية؛ فالأمران مختلفان ويبقيان منفصلين.',
         ],
       },
       limits: {
@@ -318,12 +318,12 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'Historically the argument is this. The earliest Christian writer, St Paul, treats the crucifixion as common ground in the Church. The Gospels narrate it. Outside sources, a Roman historian of the early second century and a later satirist, take it for granted, and the Jewish historian Josephus is reported in the surviving text to mention the sentence under Pilate. The Church of the first generations did not invent a tale of defeat for its founder. Together these make the fact that Jesus was crucified under Pilate very well attested, and many historians who have no Christian faith treat it as secure.',
-        'What the historian cannot do is say what God did. A historian can say that Jesus was crucified; he cannot say whether he rose, or whether he was raised without dying. Those are matters of belief, and the evidence for the resurrection is treated in its own articles.',
+        'The historical case is strong. St Paul the Apostle, the earliest Christian writer, treats the crucifixion as known throughout the Church. The Gospels narrate it. A Roman historian of the early second century and a later satirist take it for granted, and the surviving text of the Jewish historian Josephus records the sentence under Pilate. And the first Christians would never have invented so shameful a death for the One they worshipped. Together these make the crucifixion of Jesus under Pilate one of the most secure facts of ancient history.',
+        'The resurrection rests on its own evidence, set out in the articles devoted to it. Here it is enough to see that the crucifixion is firmly attested. The tomb that was found empty was the tomb of a crucified man.',
       ],
       ar: [
-        'الحجة التاريخية هي هذه. أقدم كاتب مسيحي، القديس بولس، يعامل الصلب أرضًا مشتركة في الكنيسة. والأناجيل تسرده. والمصادر الخارجية، مؤرخ روماني من أوائل القرن الثاني وكاتب ساخر لاحق، تعتبره مسلَّمًا، ويُروى في النص الباقي للمؤرخ اليهودي يوسيفوس أنه يذكر الحكم في عهد بيلاطس. ولم تخترع كنيسة الأجيال الأولى قصة هزيمة لمؤسسها. وتجعل هذه معًا واقعة صلب يسوع في عهد بيلاطس مشهودًا لها جيدًا جدًا، ويعدها مؤرخون كثيرون لا إيمان مسيحي لهم أمرًا ثابتًا.',
-        'وما لا يستطيعه المؤرخ أن يقول ما فعله الله. يستطيع أن يقول إن يسوع صُلب؛ ولا يستطيع أن يقول هل قام، أو هل رُفع دون أن يموت. وهذه مسائل اعتقاد، وتُعالج الأدلة على القيامة في مقالاتها.',
+        'الحجة التاريخية قوية. فالقديس بولس الرسول، أقدم كاتب مسيحي، يعامل الصلب أمرًا معروفًا في الكنيسة كلها. والأناجيل تسرده. ومؤرخ روماني من أوائل القرن الثاني وكاتب ساخر لاحق يعتبرانه مسلَّمًا، ويسجل النص الباقي للمؤرخ اليهودي يوسيفوس الحكم في عهد بيلاطس. وما كان المسيحيون الأوائل ليخترعوا موتًا بهذا العار لمن يعبدونه. وتجعل هذه معًا صلب يسوع في عهد بيلاطس من أثبت وقائع التاريخ القديم.',
+        'أما القيامة فلها شواهدها الخاصة، وتعرضها المقالات المخصصة لها. ويكفي هنا أن نرى أن الصلب مشهود له بقوة. والقبر الذي وُجد فارغًا كان قبر رجل مصلوب.',
       ],
     },
     theological: {
@@ -358,8 +358,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'The Qur’an’s statement about the killing and crucifixion of the Messiah has been understood by Muslim commentators in more than one way, most often as a substitution. The historical record, from St Paul and the Gospels to Tacitus and Lucian, points to his crucifixion under Pilate. The Church confesses that he truly died on the cross and rose. The two accounts differ, and the Church states its faith and its evidence plainly, without disrespect for those who hold another.',
-    ar: 'فهم المفسرون المسلمون قول القرآن في قتل المسيح وصلبه بأكثر من طريقة، وأكثرها شيوعًا التبديل. ويشير السجل التاريخي، من القديس بولس والأناجيل إلى تاكيتوس ولوقيانوس، إلى صلبه في عهد بيلاطس. وتعترف الكنيسة بأنه مات حقًا على الصليب وقام. والروايتان مختلفتان، وتذكر الكنيسة إيمانها وأدلتها بوضوح، دون عدم احترام لمن يتمسك بآخر.',
+    en: 'Muslim commentators have most often read the Qur’an’s words as a substitution, with Jesus raised alive. The Church confesses that Christ truly died on the cross under Pontius Pilate and rose on the third day, and the earliest witnesses, from St Paul and the Gospels to Tacitus and Lucian, stand with her. She states her faith plainly, as the heart of the Gospel, and she offers it to her Muslim neighbours with respect and love.',
+    ar: 'قرأ المفسرون المسلمون في الغالب كلمات القرآن تبديلًا، ورُفع عيسى حيًّا. أما الكنيسة فتعترف بأن السيد المسيح مات حقًا على الصليب في عهد بيلاطس البنطي وقام في اليوم الثالث، وأقدم الشهود، من القديس بولس والأناجيل إلى تاكيتوس ولوقيانوس، يقفون معها. وهي تعلن إيمانها بوضوح، بوصفه قلب الإنجيل، وتقدمه لجيرانها المسلمين باحترام ومحبة.',
   },
   furtherReading: ['S58', 'S08', 'S07', 'S62'],
   related: [

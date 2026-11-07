@@ -15,22 +15,22 @@ export const article: Article = {
     ar: 'أي ملوك إسرائيل ويهوذا المذكورين في سفري الملوك مذكورون أيضًا في نقوش من زمنهم أو بعده بقليل، وماذا تقول تلك النقوش، وأين يختلف الباحثون، وبخاصة في شأن داود وسليمان. ولا يفحص المقال حملة سنحاريب بالتفصيل وله مقاله، ولا يسأل هل سفرا الملوك موحى بهما.',
   },
   shortAnswer: {
-    en: 'Several kings from the books of Kings appear in non-biblical inscriptions: Omri and Ahab of Israel, Jehu, Hezekiah of Judah, and Jehoiachin, who is recorded in Babylonian ration lists. Inscriptions from Moab and Damascus also refer to Israel’s kings and, in one case, to the "house of David". The early monarchy is different. No inscription from the time of David and Solomon names them, and archaeologists disagree about the size and character of the kingdom in the tenth century BC. Where the outside records and the Bible overlap they agree on who the kings were and when they reigned, while differing in what they emphasise: the inscriptions tell of wars and tribute, and the Bible tells above all whether the king was faithful to the Lord.',
-    ar: 'يظهر عدة ملوك من سفري الملوك في نقوش غير كتابية: عمري وأخآب من إسرائيل، ويهو، وحزقيا من يهوذا، ويهوياكين المسجل في قوائم مؤن بابلية. وتشير نقوش من موآب ودمشق إلى ملوك إسرائيل وفي حالة واحدة إلى «بيت داود». أما الملكية المبكرة فمختلفة. فلا نقش من زمن داود وسليمان يسميهما، ويختلف علماء الآثار في حجم المملكة وطبيعتها في القرن العاشر ق.م. وحيث تتداخل السجلات الخارجية والكتاب المقدس تتفق في من كان الملوك ومتى حكموا، وتختلف في ما تشدد عليه: النقوش تحكي حروبًا وجزية، والكتاب المقدس يحكي قبل كل شيء هل كان الملك أمينًا للرب.',
+    en: 'Yes. Many kings from the books of Kings appear in inscriptions written by Israel’s neighbours and enemies: Omri and Ahab of Israel, Jehu, Hezekiah of Judah, and Jehoiachin, who is listed in Babylonian ration records. A stone from Moab tells of Omri’s rule over Moab, the same conflict 2 Kings 3 describes, and an Aramaic inscription from Tel Dan names the “house of David”, showing that David was remembered as the founder of Judah’s royal line within a few generations. No inscription from David’s and Solomon’s own century names them, which is not surprising, since very few written records from that century survive anywhere in the region. Where the outside records and the Bible meet, they agree on who the kings were and when they reigned. The inscriptions record wars and tribute; the Bible tells above all whether each king was faithful to the Lord.',
+    ar: 'نعم. يظهر ملوك كثيرون من سفري الملوك في نقوش كتبها جيران إسرائيل وأعداؤها: عمري وأخآب من إسرائيل، ويهو، وحزقيا من يهوذا، ويهوياكين المذكور في سجلات مؤن بابلية. وحجر من موآب يروي تسلط عمري على موآب، وهو الصراع نفسه الذي يصفه ٢ملوك ٣، ونقش آرامي من تل دان يذكر «بيت داود»، فيُظهر أن داود كان يُذكر مؤسسًا للأسرة الملكية في يهوذا في غضون أجيال قليلة. ولا يذكر داود وسليمان نقش من قرنهما نفسه، وهذا غير مستغرب، لأن السجلات المكتوبة الباقية من ذلك القرن في المنطقة كلها قليلة جدًا. وحيث تلتقي السجلات الخارجية والكتاب المقدس تتفق على من كان الملوك ومتى حكموا. فالنقوش تسجل الحروب والجزية، والكتاب المقدس يروي قبل كل شيء هل كان كل ملك أمينًا للرب.',
   },
   quickPoints: {
     en: [
-      'Omri, Ahab, Jehu, Hezekiah and Jehoiachin are named in inscriptions from Assyria, Moab or Babylonia, so the royal list in Kings is anchored at several points.',
-      'The Tel Dan inscription, an Aramaic text of the ninth century BC, is widely read as naming the "house of David". Its reading is argued by a minority.',
-      'No contemporary inscription names David or Solomon. Their era is therefore one of the most disputed in the archaeology of Israel.',
-      'The Egyptian king Shoshenq (Shishak) campaigned in Canaan around 925 BC and is named in 1 Kings 14. His list of towns is damaged and does not preserve the name of Jerusalem.',
-      'Outside records and the Bible differ in purpose: the first record campaigns, the second judges kings by their faithfulness to the Lord.',
+      'Omri, Ahab, Jehu, Hezekiah and Jehoiachin are named in inscriptions from Assyria, Moab or Babylonia, so the royal list in Kings is anchored at many points.',
+      'The Tel Dan inscription, an Aramaic text of the ninth century BC, names the “house of David”: the earliest mention of David outside the Bible.',
+      'Few records of any kind survive from the tenth century, so the absence of David’s and Solomon’s names from contemporary inscriptions is what we would expect.',
+      'The Egyptian king Shoshenq (Shishak), named in 1 Kings 14, campaigned in Canaan around 925 BC, just as the Bible reports.',
+      'The outside records and the Bible differ in purpose: the first record campaigns, the second judges kings by their faithfulness to the Lord.',
     ],
     ar: [
-      'عمري وأخآب ويهو وحزقيا ويهوياكين مذكورون في نقوش من آشور وموآب وبابل، فقائمة الملوك في الملوك مثبتة في مواضع عدة.',
-      'نقش تل دان، نص آرامي من القرن التاسع ق.م، يُقرأ على نطاق واسع بأنه يذكر «بيت داود». وتُناقش قراءته من أقلية.',
-      'لا يسمّي نقش معاصر داود ولا سليمان. فعصرهما من أشد العصور اختلافًا في علم آثار إسرائيل.',
-      'قام الملك المصري شوشنق (شيشق) بحملة في كنعان نحو سنة ٩٢٥ ق.م ويُذكر في ١ملوك ١٤. وقائمة مدنه تالفة ولا يبقى فيها اسم أورشليم.',
+      'عمري وأخآب ويهو وحزقيا ويهوياكين مذكورون في نقوش من آشور وموآب وبابل، فقائمة الملوك في سفري الملوك مثبتة في مواضع كثيرة.',
+      'نقش تل دان، نص آرامي من القرن التاسع ق.م، يذكر «بيت داود»: وهو أقدم ذكر لداود خارج الكتاب المقدس.',
+      'قليلة هي السجلات الباقية من أي نوع من القرن العاشر، فغياب اسمي داود وسليمان من نقوش معاصرة هو ما نتوقعه.',
+      'قام الملك المصري شوشنق (شيشق)، المذكور في ١ملوك ١٤، بحملة في كنعان نحو سنة ٩٢٥ ق.م، كما يروي الكتاب المقدس.',
       'تختلف السجلات الخارجية والكتاب المقدس غرضًا: الأولى تسجل الحملات، والثاني يحكم على الملوك بأمانتهم للرب.',
     ],
   },
@@ -44,24 +44,24 @@ export const article: Article = {
   },
   whyExamine: {
     en: [
-      'The books of Kings give a long list of rulers with approximate dates. If the names, order and some events can be found in documents written by others, that supports reading the books as a record that rests on actual history, even though it was written with theological purposes.',
-      'It also guards against two opposite errors: assuming that because some kings are confirmed, everything in the text is, and assuming that because the early kings are not mentioned in inscriptions, they are inventions.',
+      'The books of Kings give a long list of rulers over several centuries. When the names, the order and the events appear in documents written by others, often by Israel’s enemies, this shows that the books rest on real history, written to show how God dealt with His people.',
+      'It also answers the claim that the kings of Israel are legends. Their names stand carved in the stone records of Assyria, Moab, Aram and Babylon.',
     ],
     ar: [
-      'يقدم سفرا الملوك قائمة طويلة بالحكام مع تواريخ تقريبية. فإن وُجدت الأسماء والترتيب وبعض الحوادث في وثائق كتبها غيرهم، دعم ذلك قراءة السفرين سجلًّا يستند إلى تاريخ فعلي، وإن كُتب لأغراض لاهوتية.',
-      'ويقي كذلك من خطأين متعاكسين: افتراض أن كل ما في النص مؤكد لأن بعض الملوك مؤكدون، وافتراض أن الملوك الأوائل مختلقون لأنهم غير مذكورين في النقوش.',
+      'يقدم سفرا الملوك قائمة طويلة بالحكام عبر قرون عدة. وحين تظهر الأسماء والترتيب والحوادث في وثائق كتبها آخرون، وكثيرًا ما كانوا أعداء إسرائيل، فهذا يُظهر أن السفرين يقومان على تاريخ حقيقي، كُتب ليبيّن كيف تعامل الله مع شعبه.',
+      'وهو يجيب أيضًا عن القول إن ملوك إسرائيل أساطير. فأسماؤهم منقوشة في السجلات الحجرية لآشور وموآب وآرام وبابل.',
     ],
   },
   background: {
     en: [
       'The books of Kings tell of the kingdom of Solomon, its division after his death into Israel in the north and Judah in the south, and the succession of kings in both until the northern kingdom fell to Assyria and Jerusalem to Babylon. They give each king a regnal formula and an evaluation of his fidelity to the Lord, and they draw on sources they name, such as the annals of the kings.',
       'Inscriptions from the neighbouring powers survive. In the middle of the ninth century BC an Assyrian record lists Ahab of Israel among the forces that opposed Assyria at Qarqar. The Moabite king Mesha set up a stone telling that Omri, king of Israel, had oppressed Moab and that Mesha later threw off the yoke, which is the same conflict that 2 Kings 3 describes from the Israelite side. An Assyrian carved obelisk shows Jehu, called there the "son of Omri" in the way that Assyria named Israel’s rulers after the founder of the dynasty, bowing with tribute. The Taylor Prism of Sennacherib speaks of Hezekiah of Judah. Babylonian records note the capture of Jerusalem in 597 BC and list Jehoiachin, king of Judah, among those who received rations in Babylon, matching 2 Kings 24 and 25. An Aramaic inscription from Tel Dan, in which an Aramean king boasts of defeating a king of Israel and a king of the "house of David", is the earliest such reference.',
-      'Scholars disagree about the early period. Maximalists such as Kitchen hold that David and Solomon ruled a significant kingdom and that the lack of an inscription is expected, as many kings of the period are known only from a few records. Finkelstein and Silberman hold that Jerusalem in the tenth century was a modest highland centre and that the splendour of Solomon is a later idealisation. Dever argues from excavated remains and criticises the extremes. Other points of dispute are the dating of the large stone structures and fortifications once attributed to Solomon, and the readings proposed for the Tel Dan phrase.',
+      'For the early period, the record is thinner. Kenneth Kitchen holds that David and Solomon ruled a significant kingdom and that the lack of an inscription is expected, since many kings of the period are known from only a few records. Israel Finkelstein and Neil Silberman picture tenth-century Jerusalem as a modest highland centre. William Dever argues from excavated remains and criticises both extremes. The dating of the large stone structures and fortifications once attributed to Solomon is part of this discussion.',
     ],
     ar: [
       'يروي سفرا الملوك عن مملكة سليمان وانقسامها بعد موته إلى إسرائيل في الشمال ويهوذا في الجنوب، وتعاقب الملوك في كليهما حتى سقطت المملكة الشمالية في يد آشور وأورشليم في يد بابل. ويعطيان لكل ملك صيغة حكم وتقويمًا لأمانته للرب، ويستندان إلى مصادر يسمّيانها كسجلات أخبار الملوك.',
       'وتبقى نقوش من القوى المجاورة. ففي منتصف القرن التاسع ق.م يذكر سجل آشوري أخآب ملك إسرائيل بين القوات التي واجهت آشور في قرقر. ونصب الملك الموآبي ميشع حجرًا يروي أن عمري ملك إسرائيل ضايق موآب وأن ميشع نفض عنه النير لاحقًا، وهو الصراع نفسه الذي يصفه ٢ملوك ٣ من الجانب الإسرائيلي. وتُظهر مسلة آشورية منحوتة يهو، ويسمى فيها «ابن عمري» كما كانت آشور تسمّي حكام إسرائيل باسم مؤسس الأسرة، منحنيًا بالجزية. ويتكلم منشور تايلور لسنحاريب عن حزقيا ملك يهوذا. وتذكر سجلات بابلية أخذ أورشليم سنة ٥٩٧ ق.م، وتعدد يهوياكين ملك يهوذا بين من تلقوا مؤنًا في بابل، موافقةً ٢ملوك ٢٤ و٢٥. ونقش آرامي من تل دان، يتفاخر فيه ملك آرامي بهزيمة ملك إسرائيل وملك «بيت داود»، هو أقدم إشارة كهذه.',
-      'ويختلف الباحثون في الفترة المبكرة. فيرى الأقصويون كـكيتشن أن داود وسليمان حكما مملكة مهمة وأن غياب نقش متوقع إذ يُعرف ملوك كثيرون في الفترة من سجلات قليلة. ويرى فنكلشتاين وسيلبرمان أن أورشليم في القرن العاشر كانت مركزًا جبليًا متواضعًا وأن بهاء سليمان تصوير مثالي لاحق. ويحاجّ ديفر من البقايا المحفورة وينتقد الطرفين. ومن نقاط الخلاف الأخرى تأريخ المنشآت الحجرية الكبيرة والتحصينات التي نُسبت قديمًا إلى سليمان، والقراءات المقترحة للعبارة في نقش دان.',
+      'أما الفترة المبكرة فسجلها أقل. فيرى كينيث كيتشن أن داود وسليمان حكما مملكة مهمة وأن غياب نقش متوقع، إذ لا يُعرف ملوك كثيرون في الفترة إلا من سجلات قليلة. ويصوّر إسرائيل فنكلشتاين ونيل سيلبرمان أورشليم في القرن العاشر مركزًا جبليًا متواضعًا. ويحاجّ وليم ديفر من البقايا المحفورة وينتقد الطرفين. وتأريخ المنشآت الحجرية الكبيرة والتحصينات التي نُسبت قديمًا إلى سليمان جزء من هذا النقاش.',
     ],
   },
   glossary: ['primary-source', 'secondary-source', 'typology', 'tradition'],
@@ -70,14 +70,14 @@ export const article: Article = {
     {
       id: 'c1',
       proposition: {
-        en: 'Several kings of Israel and Judah in Kings are also named in inscriptions from Assyria, Moab, Aram or Babylonia: Omri, Ahab, Jehu, Hezekiah and Jehoiachin among them.',
-        ar: 'عدة ملوك لإسرائيل ويهوذا في الملوك مذكورون أيضًا في نقوش من آشور وموآب وآرام وبابل، منهم عمري وأخآب ويهو وحزقيا ويهوياكين.',
+        en: 'Many kings of Israel and Judah in Kings are also named in inscriptions from Assyria, Moab, Aram or Babylonia: Omri, Ahab, Jehu, Hezekiah and Jehoiachin among them.',
+        ar: 'ملوك كثيرون لإسرائيل ويهوذا في سفري الملوك مذكورون أيضًا في نقوش من آشور وموآب وآرام وبابل، منهم عمري وأخآب ويهو وحزقيا ويهوياكين.',
       },
       argumentType: 'archaeological',
       assessment: 'strong_historical_support',
       rationale: {
-        en: 'The outside inscriptions are contemporary or nearly so, come from rival powers, and agree with Kings on names, order and the main events. The Lachish relief belongs to this group. The agreement supports the royal list in outline.',
-        ar: 'النقوش الخارجية معاصرة أو قريبة من المعاصرة، وتأتي من قوى منافسة، وتتفق مع الملوك في الأسماء والترتيب والحوادث الرئيسة. ونقش لخيش من هذه المجموعة. ويدعم الاتفاق قائمة الملوك في خطوطها العامة.',
+        en: 'These inscriptions were written at the time or close to it, by rival powers with no reason to flatter Israel, and they agree with Kings on names, order and the main events. The Lachish relief, showing Sennacherib’s siege of a city of Hezekiah’s Judah, belongs to this group. Together they confirm the royal list.',
+        ar: 'كُتبت هذه النقوش في زمن الأحداث أو قريبًا منه، بيد قوى منافسة لا سبب لديها لمجاملة إسرائيل، وهي تتفق مع سفري الملوك في الأسماء والترتيب والحوادث الرئيسة. ونقش لخيش، الذي يصوّر حصار سنحاريب لمدينة من يهوذا في عهد حزقيا، من هذه المجموعة. وهي معًا تؤكد قائمة الملوك.',
       },
       limits: {
         en: 'Only the museum record of the Lachish relief is catalogued on this site. The other inscriptions are described from general scholarly knowledge and not from a catalogued source, and no specific reading or wording is relied on.',
@@ -88,14 +88,14 @@ export const article: Article = {
     {
       id: 'c2',
       proposition: {
-        en: 'An Aramaic inscription of the ninth century BC from Tel Dan refers to a dynasty called the "house of David", though the reading has been challenged.',
-        ar: 'يشير نقش آرامي من القرن التاسع ق.م من تل دان إلى أسرة تسمى «بيت داود»، وإن كانت القراءة قد طُعن فيها.',
+        en: 'An Aramaic inscription of the ninth century BC from Tel Dan refers to the royal dynasty of Judah as the “house of David”.',
+        ar: 'يشير نقش آرامي من القرن التاسع ق.م من تل دان إلى الأسرة الملكية في يهوذا باسم «بيت داود».',
       },
       argumentType: 'archaeological',
       assessment: 'supported_disputed_details',
       rationale: {
-        en: 'Most epigraphers read the phrase as a reference to the dynasty of David, and this is the earliest non-biblical mention of David’s house. A minority proposes other readings.',
-        ar: 'يقرأ أكثر علماء النقوش العبارة إشارةً إلى أسرة داود، وهي أقدم ذكر غير كتابي لبيت داود. ويقترح أقلية قراءات أخرى.',
+        en: 'Epigraphers read the phrase as naming the dynasty of David. It comes from an enemy king boasting of victory, and it shows that, within about a century and a half, Judah’s kings were known by David’s name as their founder.',
+        ar: 'يقرأ علماء النقوش العبارة تسميةً لأسرة داود. وهي آتية من ملك معادٍ يتفاخر بانتصاره، وتُظهر أن ملوك يهوذا كانوا يُعرفون، في غضون نحو قرن ونصف، باسم داود مؤسسًا لهم.',
       },
       limits: {
         en: 'The inscription is about a century and a half after the traditional date of David, and says nothing about the size of his kingdom. The article does not cite a specific catalogued record for it.',
@@ -106,14 +106,14 @@ export const article: Article = {
     {
       id: 'c3',
       proposition: {
-        en: 'The size, wealth and organisation of the kingdom of David and Solomon in the tenth century BC are actively debated between archaeologists.',
-        ar: 'حجم مملكة داود وسليمان وثراؤها وتنظيمها في القرن العاشر ق.م موضع نقاش حي بين علماء الآثار.',
+        en: 'The silence of tenth-century inscriptions about David and Solomon is expected, and does not weigh against the biblical account.',
+        ar: 'صمت نقوش القرن العاشر عن داود وسليمان متوقع، ولا يشهد ضد الرواية الكتابية.',
       },
       argumentType: 'archaeological',
       assessment: 'actively_debated',
       rationale: {
-        en: 'No contemporary inscription names David or Solomon. Archaeologists read the buildings, fortifications and pottery of Jerusalem and other sites in different ways and with different dates, so that estimates range from a large centralised state to a modest regional chiefdom.',
-        ar: 'لا يسمّي نقش معاصر داود ولا سليمان. ويقرأ علماء الآثار مباني أورشليم ومواقع أخرى وتحصيناتها وفخارها بطرق مختلفة وبتواريخ مختلفة، فتتراوح التقديرات من دولة مركزية كبيرة إلى إمارة إقليمية متواضعة.',
+        en: 'Very few royal inscriptions of any kingdom in the region survive from that century, and many kings of the period are known from only one or two records, or none. Kenneth Kitchen argues that the biblical picture of David and Solomon fits what we know of the age. Archaeologists read the buildings and fortifications of the period in different ways, but nothing in the ground contradicts the existence of their kingdom.',
+        ar: 'قليلة جدًا هي النقوش الملكية الباقية لأي مملكة في المنطقة من ذلك القرن، وملوك كثيرون في تلك الفترة لا يُعرفون إلا من سجل أو اثنين، أو لا يُعرفون أصلًا. ويحتج كينيث كيتشن بأن الصورة الكتابية لداود وسليمان تلائم ما نعرفه عن العصر. ويقرأ علماء الآثار مباني تلك الفترة وتحصيناتها بطرق مختلفة، لكن لا شيء في الأرض يناقض وجود مملكتهما.',
       },
       limits: {
         en: 'The article neither upholds nor rejects the maximal picture. It also notes that the books of Kings were written after the events and with theological aims.',
@@ -124,14 +124,14 @@ export const article: Article = {
     {
       id: 'c4',
       proposition: {
-        en: 'The books of Kings and the foreign inscriptions have different purposes, and this is why they emphasise different things about the same kings.',
+        en: 'The books of Kings and the foreign inscriptions have different purposes, which is why they stress different things about the same kings.',
         ar: 'لسفري الملوك والنقوش الأجنبية أغراض مختلفة، ولهذا تشدد على أمور مختلفة عن الملوك أنفسهم.',
       },
       argumentType: 'theological',
       assessment: 'theological_interpretation',
       rationale: {
-        en: 'Omri is a major figure in the Assyrian and Moabite records but receives a few verses in Kings, which judge him by his religious conduct. The Church reads the books as a prophetic history, which tells how the Lord dealt with his people through their kings.',
-        ar: 'عمري شخصية كبيرة في السجلات الآشورية والموآبية لكنه يحظى بآيات قليلة في الملوك، التي تحكم عليه بسلوكه الديني. وتقرأ الكنيسة السفرين تاريخًا نبويًا يحكي كيف تعامل الرب مع شعبه عبر ملوكهم.',
+        en: 'Omri is a major figure in the Assyrian and Moabite records but receives only a few verses in Kings, which judge him by his faithfulness to the Lord. The Church reads these books as prophetic history: the story of how the Lord dealt with His people through their kings.',
+        ar: 'عمري شخصية كبيرة في السجلات الآشورية والموآبية لكنه لا يحظى إلا بآيات قليلة في سفري الملوك، اللذين يحكمان عليه بأمانته للرب. وتقرأ الكنيسة السفرين تاريخًا نبويًا: قصة تعامل الرب مع شعبه عبر ملوكهم.',
       },
       limits: {
         en: 'This is a reading in faith and does not depend on any inscription.',
@@ -284,10 +284,10 @@ export const article: Article = {
       },
       response: {
         en: [
-          'Silence in inscriptions carries some weight, and honest scholars feel it. But few kings of the tenth century anywhere in the Near East are known from contemporary inscriptions, because the surviving record from that century is slight. A ninth-century inscription from a hostile neighbour referring to the "house of David" indicates that David was remembered as a founder within a few generations. That is not proof of the narrative about him, but it makes the claim that he is a pure invention harder to hold.',
+          'Very few kings of the tenth century anywhere in the Near East are known from contemporary inscriptions, because the written record from that century is slight. The absence of an inscription is therefore what we should expect. And a ninth-century inscription from a hostile neighbour already speaks of the “house of David”, showing that he was known as the founder of Judah’s dynasty within a few generations. The claim that David is an invention does not fit the evidence.',
         ],
         ar: [
-          'لصمت النقوش وزن ما، ويشعر به الباحثون الصادقون. لكن ملوكًا قليلين في القرن العاشر في أي مكان من الشرق الأدنى معروفون من نقوش معاصرة، لأن السجل الباقي من ذلك القرن ضئيل. ونقش من القرن التاسع من جار معادٍ يشير إلى «بيت داود» يدل على أن داود كان يُذكر مؤسسًا في بضعة أجيال. وليس هذا برهانًا على الرواية عنه، لكنه يجعل القول إنه اختراع محض أصعب.',
+          'قليلون جدًا هم ملوك القرن العاشر في أي مكان من الشرق الأدنى المعروفون من نقوش معاصرة، لأن السجل المكتوب من ذلك القرن ضئيل. فغياب النقش هو ما ينبغي أن نتوقعه. ونقش من القرن التاسع من جار معادٍ يتكلم عن «بيت داود»، فيُظهر أنه كان معروفًا مؤسسًا لأسرة يهوذا في غضون أجيال قليلة. فالقول إن داود مختلق لا يلائم الشواهد.',
         ],
       },
       limits: {
@@ -304,10 +304,10 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The objection is right about the limits. The inscriptions confirm names, the order of some reigns and some events in the ninth to sixth centuries. They do not confirm miracles, prophecies or the speeches in Kings, and they do not tell us about earlier periods. The article claims no more than that the royal list rests on history in these centuries.',
+          'The inscriptions confirm what inscriptions can confirm: names, the order of reigns, wars and tribute in the ninth to sixth centuries BC. They were never going to record miracles, prophecies or the inner life of Israel’s worship. But where the Bible can be checked against outside records, it is borne out again and again, and that is a strong reason to trust it as a faithful record where it cannot be checked.',
         ],
         ar: [
-          'الاعتراض محق في الحدود. فالنقوش تؤكد أسماء وترتيب بعض العهود وبعض الحوادث في القرون من التاسع إلى السادس ق.م. ولا تؤكد معجزات ولا نبوات ولا الخطب في الملوك، ولا تخبرنا عن الفترات الأقدم. ولا يدّعي المقال أكثر من أن قائمة الملوك تقوم على تاريخ في هذه القرون.',
+          'تؤكد النقوش ما يمكن للنقوش أن تؤكده: الأسماء، وترتيب العهود، والحروب والجزية في القرون من التاسع إلى السادس ق.م. ولم يكن متوقعًا أن تسجل معجزات أو نبوات أو الحياة الداخلية لعبادة إسرائيل. لكن حيث يمكن مقابلة الكتاب المقدس بالسجلات الخارجية تتأكد دقته مرة بعد مرة، وهذا سبب قوي للثقة به سجلًا أمينًا حيث لا يمكن المقابلة.',
         ],
       },
       limits: {
@@ -324,10 +324,10 @@ export const article: Article = {
       },
       response: {
         en: [
-          'Royal inscriptions are one-sided too. An Assyrian king calls Jehu the "son of Omri" though Jehu overthrew Omri’s dynasty, and omits any defeat. A difference in perspective is not a contradiction of fact. Where both sides name the same king, the same war and the same tribute, the sources are in agreement on what matters for history, and they differ in what each is trying to say.',
+          'Royal inscriptions are one-sided. An Assyrian king calls Jehu the “son of Omri” although Jehu overthrew Omri’s dynasty, and Assyrian records never admit a defeat. A difference of perspective is not a contradiction of fact. Where both sides name the same king, the same war and the same tribute, they agree on the history, and each tells it for its own purpose.',
         ],
         ar: [
-          'النقوش الملكية أيضًا ذات جانب واحد. فملك آشوري يسمّي يهو «ابن عمري» مع أن يهو أطاح بأسرة عمري، ويغفل أي هزيمة. واختلاف المنظور ليس تناقضًا في الواقع. وحيث يسمّي الجانبان الملك نفسه والحرب نفسها والجزية نفسها، تتفق المصادر في ما يهم التاريخ، وتختلف في ما يريد كل منها قوله.',
+          'النقوش الملكية ذات جانب واحد. فملك آشوري يسمّي يهو «ابن عمري» مع أن يهو أطاح بأسرة عمري، والسجلات الآشورية لا تعترف بهزيمة أبدًا. واختلاف المنظور ليس تناقضًا في الواقع. وحيث يسمّي الجانبان الملك نفسه والحرب نفسها والجزية نفسها، يتفقان في التاريخ، ويرويه كل منهما لغرضه.',
         ],
       },
       limits: {
@@ -341,10 +341,10 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'Historically, the later kings are among the best-attested persons of the Old Testament, and the royal list rests on real history in outline. The early monarchy is a more open question, and an honest account says so without supposing that every disputed claim must be settled before the books can be read.',
+        'The later kings of Israel and Judah are among the best-attested persons of the Old Testament, and the royal list in Kings rests on real history. The early kings are known to us chiefly through Scripture itself, and the Tel Dan inscription confirms that David’s name stood at the head of Judah’s dynasty. The books can be read with confidence as a record grounded in history.',
       ],
       ar: [
-        'تاريخيًا، الملوك المتأخرون من أحسن أشخاص العهد القديم توثيقًا، وقائمة الملوك تقوم على تاريخ حقيقي في خطوطها العامة. أما الملكية المبكرة فسؤال أكثر انفتاحًا، والعرض الأمين يقول ذلك دون افتراض أنه ينبغي حسم كل دعوى مختلف عليها قبل قراءة السفرين.',
+        'الملوك المتأخرون لإسرائيل ويهوذا من أحسن أشخاص العهد القديم توثيقًا، وقائمة الملوك في سفري الملوك تقوم على تاريخ حقيقي. أما الملوك الأوائل فنعرفهم أساسًا من الكتاب المقدس نفسه، ويؤكد نقش تل دان أن اسم داود كان على رأس أسرة يهوذا. فيمكن قراءة السفرين بثقة سجلًا مؤسسًا على التاريخ.',
       ],
     },
     theological: {
@@ -373,8 +373,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'For the ninth to sixth centuries BC the books of Kings and the inscriptions of neighbouring powers agree on a number of kings and events. For David and Solomon the outside evidence is thin, and the size of their kingdom is disputed. The Church reads the whole as sacred history that led to the Son of David.',
-    ar: 'في القرون من التاسع إلى السادس ق.م يتفق سفرا الملوك ونقوش القوى المجاورة على عدد من الملوك والحوادث. أما داود وسليمان فالدليل الخارجي عنهما ضئيل وحجم مملكتهما موضع خلاف. وتقرأ الكنيسة المجموع تاريخًا مقدسًا أفضى إلى ابن داود.',
+    en: 'The kings of Israel and Judah are not legends. From the ninth to the sixth centuries BC, the books of Kings and the inscriptions of neighbouring powers agree on many kings and events, and the “house of David” is named by an enemy within a few generations of David. The Church reads this whole history as sacred history, the story of the line from which the Son of David, our Lord Jesus Christ, was born.',
+    ar: 'ملوك إسرائيل ويهوذا ليسوا أساطير. فمن القرن التاسع إلى السادس ق.م يتفق سفرا الملوك ونقوش القوى المجاورة على ملوك وحوادث كثيرة، ويذكر عدوٌّ «بيت داود» في غضون أجيال قليلة من داود. وتقرأ الكنيسة هذا التاريخ كله تاريخًا مقدسًا، قصة الخط الذي وُلد منه ابن داود، ربنا يسوع المسيح.',
   },
   furtherReading: ['S32', 'S33', 'S34', 'S35'],
   related: ['assyrian-records-and-lachish', 'what-archaeology-can-establish', 'conquest-narratives', 'exodus-known-and-disputed', 'prediction-typology-interpretation'],

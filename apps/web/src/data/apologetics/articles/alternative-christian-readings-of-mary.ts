@@ -15,8 +15,8 @@ export const article: Article = {
     ar: 'أهم الطرق التي يفهم بها مسيحيون خارج الكنيسة القبطية الأرثوذكسية العذراء مريم: الرومانية الكاثوليكية، والأرثوذكسية الشرقية (الخلقيدونية)، وكنيسة المشرق، واللوثرية والإصلاحية، والأنجليكانية، والإنجيلية، والنقدية الليبرالية. وتعرض كل واحدة كما يعرفها أصحابها، وتبين المشترك، وتقول أين تختلف الكنيسة القبطية الأرثوذكسية ولماذا.',
   },
   shortAnswer: {
-    en: 'Christians agree that Mary is blessed, that she is the mother of Jesus and, in nearly every tradition, that Jesus was conceived of the Holy Spirit. They differ on four questions: whether she is Theotokos, whether she remained a virgin, whether she was conceived without original sin and taken up bodily, and whether she may be asked to intercede. Roman Catholics define the Immaculate Conception and the Assumption and ask her intercession; Eastern Orthodox share the Coptic teaching on Theotokos, ever-virginity and intercession but have not defined the Immaculate Conception; Reformers such as Luther held her ever-virgin while rejecting invocation, and many later Protestants hold the virginal conception only and honour her as blessed. The Coptic Orthodox Church receives the first three of the earlier points, not the later Roman definitions.',
-    ar: 'يتفق المسيحيون على أن مريم مطوَّبة وأنها أم يسوع، وعلى أن يسوع حُبل به من الروح القدس في كل تقليد تقريبًا. ويختلفون في أربع مسائل: هل هي والدة الإله، وهل بقيت عذراء، وهل حُبل بها بلا خطية أصلية وارتُفعت بالجسد، وهل يجوز طلب شفاعتها. يعرّف الكاثوليك الحبل بلا دنس والانتقال ويطلبون شفاعتها؛ ويشارك الأرثوذكس الخلقيدونيون الكنيسة القبطية في تعليمها عن والدة الإله ودوام البتولية والشفاعة لكنهم لم يعرّفوا الحبل بلا دنس؛ وقال مصلحون مثل لوثر بدوام بتوليتها مع رفض الاستغاثة بها، ويقول كثير من البروتستانت اللاحقين بالحبل العذراوي فقط ويكرمونها مطوَّبة. وتقبل الكنيسة القبطية الأرثوذكسية النقاط الأولى لا التعريفات الرومانية اللاحقة.',
+    en: 'Every Christian tradition honours Mary as blessed and as the mother of Jesus, and nearly all confess that He was conceived of the Holy Spirit. The Coptic Orthodox Church holds the faith of the Fathers about her: she is Theotokos, the Mother of God, because her Son is God the Word made flesh; she remained ever-virgin; she is honoured above all saints and asks for us before her Son; and God alone is worshipped. Eastern Orthodox Christians share this teaching closely. Roman Catholics hold it too but add two later definitions, the Immaculate Conception and the Assumption, which the Coptic Church does not receive. Luther himself held her ever-virgin, though many later Protestants keep only the virginal conception. The Coptic Church holds to what the whole Church confessed from the beginning.',
+    ar: 'تكرم كل التقاليد المسيحية مريم مطوَّبةً وأمًّا ليسوع، ويعترف جميعها تقريبًا بأنه حُبل به من الروح القدس. وتتمسك الكنيسة القبطية الأرثوذكسية بإيمان الآباء فيها: هي والدة الإله لأن ابنها هو الله الكلمة المتجسد؛ وهي دائمة البتولية؛ ومكرَّمة فوق جميع القديسين وتشفع فينا لدى ابنها؛ والسجود لله وحده. ويشاركها الأرثوذكس الخلقيدونيون هذا التعليم عن قرب. ويقول به الكاثوليك أيضًا لكنهم أضافوا تعريفين لاحقين، الحبل بلا دنس والانتقال، لا تقبلهما الكنيسة القبطية. وقد قال لوثر نفسه بدوام بتوليتها، وإن احتفظ كثير من البروتستانت اللاحقين بالحبل العذراوي وحده. وتثبت الكنيسة القبطية على ما اعترفت به الكنيسة كلها منذ البدء.',
   },
   quickPoints: {
     en: [
@@ -24,16 +24,16 @@ export const article: Article = {
       'Eastern (Chalcedonian) Orthodox: Theotokos, ever-virgin, Dormition and intercession; no dogma of the Immaculate Conception.',
       'Church of the East: has historically been wary of the Theotokos title as a statement about the natures of Christ.',
       'Luther and Zwingli held her ever-virgin; Calvin was reserved about the claim; many evangelicals hold the virginal conception and read the brothers as her children.',
-      'Critical-liberal views treat the infancy stories as theological writing about Jesus, not as reports of historical events.',
-      'The Coptic Orthodox position: Theotokos, ever-virgin, honoured and asked for intercession, never worshipped, and not the Immaculate Conception.',
+      'Critical-liberal views read the infancy stories as theology only; the Church receives them as the Gospel’s true account of the incarnation.',
+      'The Coptic Orthodox faith: Theotokos, ever-virgin, honoured and asked for her intercession, never worshipped, and without the later Roman dogmas.',
     ],
     ar: [
       'الكاثوليك: والدة الإله، ودائمة البتولية، والحبل بلا دنس (عُرّف ١٨٥٤)، والانتقال (عُرّف ١٩٥٠)، والشفاعة والإكرام.',
       'الأرثوذكس الخلقيدونيون: والدة الإله، ودائمة البتولية، والرقاد، والشفاعة؛ ولا عقيدة للحبل بلا دنس.',
       'كنيسة المشرق: تاريخيًا حذرة من لقب والدة الإله بوصفه كلامًا عن طبيعتي المسيح.',
       'لوثر وتسفنجلي قالا بدوام بتوليتها؛ وكان كالفن متحفظًا من الدعوى؛ ويقول كثير من الإنجيليين بالحبل العذراوي ويقرأون الإخوة أبناءً لها.',
-      'تعدّ الآراء النقدية الليبرالية روايات الطفولة كتابة لاهوتية عن يسوع لا تقارير عن أحداث تاريخية.',
-      'موقف الكنيسة القبطية الأرثوذكسية: والدة الإله، ودائمة البتولية، مكرَّمة ومطلوبة شفاعتها لا معبودة، ولا الحبل بلا دنس.',
+      'تقرأ الآراء النقدية الليبرالية روايات الطفولة لاهوتًا فقط؛ أما الكنيسة فتقبلها رواية الإنجيل الصادقة عن التجسد.',
+      'إيمان الكنيسة القبطية الأرثوذكسية: والدة الإله، ودائمة البتولية، مكرَّمة ونطلب شفاعتها، لا معبودة، ومن غير العقائد الرومانية اللاحقة.',
     ],
   },
   argumentTypes: ['theological', 'textual', 'historical'],
@@ -46,12 +46,12 @@ export const article: Article = {
   },
   whyExamine: {
     en: [
-      'Questions about Mary are among the places where Christians most visibly part. Understanding the other positions as they understand themselves is a form of respect and is needed for any honest conversation.',
-      'It also clarifies what is Coptic Orthodox. Many assume that every ancient church holds what Rome holds; this is not so.',
+      'Mary is where Christians most visibly part. Knowing the other positions as their holders state them lets us speak with them in love and truth.',
+      'It also makes clear what the Coptic Orthodox Church holds. Many assume that every ancient church teaches what Rome teaches; she does not, and knowing why strengthens our own faith.',
     ],
     ar: [
-      'تعد المسائل المتعلقة بمريم من أكثر المواضع التي يفترق فيها المسيحيون ظاهرًا. وفهم المواقف الأخرى كما تفهم نفسها نوع من الاحترام ولازم لأي حوار أمين.',
-      'وهي توضح كذلك ما هو قبطي أرثوذكسي. ويفترض كثيرون أن كل كنيسة قديمة تقول بما تقول به روما؛ وليس كذلك.',
+      'مريم من أظهر المواضع التي يفترق فيها المسيحيون. ومعرفة المواقف الأخرى كما يعرضها أصحابها تتيح لنا أن نحاورهم بالمحبة والحق.',
+      'وهي توضح كذلك ما تتمسك به الكنيسة القبطية الأرثوذكسية. ويفترض كثيرون أن كل كنيسة قديمة تعلّم ما تعلّمه روما؛ وليس كذلك، ومعرفة السبب تثبّت إيماننا.',
     ],
   },
   background: {
@@ -94,14 +94,14 @@ export const article: Article = {
     {
       id: 'c2',
       proposition: {
-        en: 'Protestants appeal to Luke 11:27–28 and Matthew 12:46–50 to limit Marian devotion, and the Fathers read the same passages as consistent with her honour.',
-        ar: 'يحتج البروتستانت بلوقا ١١: ٢٧–٢٨ ومتى ١٢: ٤٦–٥٠ لتقييد التعبد لمريم، ويقرأ الآباء الفقرتين نفسيهما منسجمتين مع إكرامها.',
+        en: 'Luke 11:27–28 and Matthew 12:46–50, which some Protestants use to limit honour to Mary, in fact confirm it: she is the first who heard God’s word and kept it.',
+        ar: 'لوقا ١١: ٢٧–٢٨ ومتى ١٢: ٤٦–٥٠، اللتان يستعملهما بعض البروتستانت لتقييد إكرام مريم، تؤكدانه في الحقيقة: فهي أول من سمع كلمة الله وحفظها.',
       },
       argumentType: 'textual',
       assessment: 'actively_debated',
       rationale: {
-        en: 'The passages say that blessedness lies in hearing and keeping God’s word. Whether they correct praise of Mary or direct it is the point of difference.',
-        ar: 'تقول الفقرتان إن الطوبى في سماع كلمة الله وحفظها. وهل تصحّحان مديح مريم أم توجّهانه هو موضع الاختلاف.',
+        en: 'The passages place blessedness in hearing and keeping God’s word. St Luke the Evangelist twice tells us that Mary kept the words in her heart (Luke 2:19, 51), so the Fathers rightly read these sayings as praising her.',
+        ar: 'تجعل الفقرتان الطوبى في سماع كلمة الله وحفظها. ويخبرنا القديس لوقا الإنجيلي مرتين أن مريم حفظت الكلام في قلبها (لوقا ٢: ١٩، ٥١)، فقرأ الآباء هذين القولين بحق مديحًا لها.',
       },
       limits: {
         en: 'They do not decide the question of intercession or perpetual virginity in either direction.',
@@ -183,12 +183,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The Coptic Orthodox Church answers that Scripture is read in the Church, and that the Church’s consistent worship and the Fathers’ witness are part of how it is understood. She does not claim that the New Testament says all of it, and she does not ask a Christian to stop honouring Mary as blessed because he differs.',
-          'She also points out that evangelicals themselves rely on Tradition in accepting the Nicene Creed and the canon. The disagreement is over how far that reliance extends.',
+          'Scripture was given to the Church and is read within the Church. The Church’s unbroken worship and the witness of the Fathers show how the apostles’ teaching was understood from the beginning, and that witness honours Mary as Theotokos and ever-virgin and asks her prayers.',
+          'Evangelicals themselves receive the canon of Scripture and the Nicene Creed from that same Tradition. The Church that handed on the Bible also handed on its honour of the Mother of the Lord.',
         ],
         ar: [
-          'تجيب الكنيسة القبطية الأرثوذكسية بأن الكتاب يُقرأ في الكنيسة، وأن عبادة الكنيسة المتسقة وشهادة الآباء جزء من فهمه. ولا تدّعي أن العهد الجديد يقول كل ذلك، ولا تطلب من مسيحي مخالف أن يكف عن إكرام مريم مطوَّبة.',
-          'وتشير أيضًا إلى أن الإنجيليين أنفسهم يعتمدون على التقليد في قبول قانون الإيمان النيقاوي والقانون الكتابي. والخلاف على مدى هذا الاعتماد.',
+          'أُعطي الكتاب المقدس للكنيسة ويُقرأ في الكنيسة. وعبادة الكنيسة المتصلة وشهادة الآباء تبيّن كيف فُهم تعليم الرسل منذ البدء، وهذه الشهادة تكرم مريم والدة للإله ودائمة البتولية وتطلب صلواتها.',
+          'والإنجيليون أنفسهم يتسلمون قانون الكتاب المقدس وقانون الإيمان النيقاوي من هذا التقليد نفسه. والكنيسة التي سلّمت الكتاب سلّمت معه إكرام أم الرب.',
         ],
       },
       limits: {
@@ -204,12 +204,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The Coptic Orthodox Church does not accept that a single bishop may define a new dogma apart from the whole Church and the councils. She also reads original sin as an inheritance of mortality and corruption in which Mary shared, and sees her sanctification by the Holy Spirit at the Annunciation, not at her own conception.',
-          'Honour does not need a definition to be high; the Coptic liturgy honours her with the titles Theotokos, Ever-Virgin and Mother of Light, without these further dogmas.',
+          'A single bishop cannot define a new dogma apart from the whole Church and her councils. The Coptic Orthodox Church understands the inheritance of Adam as mortality and corruption, in which Mary shared, and confesses that the Holy Spirit came upon her and sanctified her at the Annunciation.',
+          'Honour does not need a new definition to be high. The Coptic liturgy honours her as Theotokos, Ever-Virgin and Mother of Light, higher than the cherubim and seraphim, without these later dogmas.',
         ],
         ar: [
-          'لا تقبل الكنيسة القبطية الأرثوذكسية أن يعرّف أسقف واحد عقيدة جديدة بمعزل عن الكنيسة كلها والمجامع. وتفهم الخطية الأصلية ميراثًا للموت والفساد شاركت فيه مريم، وترى تقديسها بالروح القدس عند البشارة لا عند الحبل بها.',
-          'والإكرام لا يحتاج إلى تعريف ليكون عاليًا؛ فالصلوات الطقسية القبطية تكرمها بألقاب والدة الإله ودائمة البتولية وأم النور، دون هاتين العقيدتين الإضافيتين.',
+          'لا يملك أسقف واحد أن يعرّف عقيدة جديدة بمعزل عن الكنيسة كلها ومجامعها. وتفهم الكنيسة القبطية الأرثوذكسية ميراث آدم موتًا وفسادًا شاركت فيه مريم، وتعترف بأن الروح القدس حلّ عليها وقدّسها عند البشارة.',
+          'والإكرام لا يحتاج إلى تعريف جديد ليكون عاليًا. فالصلوات القبطية تكرمها والدةً للإله ودائمة البتولية وأمًّا للنور، أرفع من الشاروبيم والسارافيم، دون هاتين العقيدتين اللاحقتين.',
         ],
       },
       limits: {
@@ -222,10 +222,10 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'Historically, the differences have identifiable origins: the Council of Ephesus in 431 on Theotokos; the Council of Chalcedon in 451, which divided the Chalcedonian and Oriental Orthodox families on Christology but not on Mary; the Roman definitions of 1854 and 1950; and the Reformation of the sixteenth century on invocation and authority. The positions are real and long-standing.',
+        'History shows where each difference began. The Council of Ephesus in 431, led by St Cyril of Alexandria, confessed Mary as Theotokos. The Council of Chalcedon in 451 divided the Chalcedonian and Oriental Orthodox families on Christology, but not on Mary. The Roman definitions came in 1854 and 1950, and the Reformation questions about invocation and authority in the sixteenth century. The Coptic teaching is the older, shared faith; the divisions came later.',
       ],
       ar: [
-        'تاريخيًا، لهذه الفروق أصول يمكن تحديدها: مجمع أفسس سنة ٤٣١ في والدة الإله؛ ومجمع خلقيدونية سنة ٤٥١ الذي فرّق الأسرتين الخلقيدونية والأرثوذكسية الشرقية في الكريستولوجيا لا في أمر مريم؛ والتعريفات الرومانية في ١٨٥٤ و١٩٥٠؛ والإصلاح في القرن السادس عشر في الاستغاثة والمرجعية. والمواقف حقيقية وقديمة.',
+        'يبيّن التاريخ أين بدأ كل خلاف. فقد اعترف مجمع أفسس سنة ٤٣١، بقيادة القديس كيرلس الإسكندري، بمريم والدةً للإله. وفرّق مجمع خلقيدونية سنة ٤٥١ بين الأسرتين الخلقيدونية والأرثوذكسية الشرقية في الكريستولوجيا لا في أمر مريم. وجاءت التعريفات الرومانية في ١٨٥٤ و١٩٥٠، ومسائل الإصلاح عن الاستغاثة والمرجعية في القرن السادس عشر. فالتعليم القبطي هو الإيمان الأقدم المشترك، والانقسامات جاءت بعده.',
       ],
     },
     theological: {
@@ -254,8 +254,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'Christians share the honour of Mary as blessed and as the mother of the Lord, and part over Theotokos, perpetual virginity, the Roman definitions and intercession. The Coptic Orthodox Church confesses Theotokos and ever-virgin, honours her and asks her prayers, worships God alone, and does not hold the Immaculate Conception.',
-    ar: 'يشترك المسيحيون في إكرام مريم مطوَّبة وأمًّا للرب، ويفترقون في والدة الإله ودوام البتولية والتعريفات الرومانية والشفاعة. وتعترف الكنيسة القبطية الأرثوذكسية بوالدة الإله ودائمة البتولية، وتكرمها وتطلب صلواتها، وتسجد لله وحده، ولا تقول بالحبل بلا دنس.',
+    en: 'All Christians call Mary blessed, as Scripture foretold. The Coptic Orthodox Church keeps the fullness of that honour as the Fathers handed it on: she is Theotokos and ever-virgin, we honour her and ask her prayers, and we worship God alone. She holds this faith without adding later dogmas, and she gladly shares common ground with every Christian who honours the Mother of the Lord.',
+    ar: 'يطوّب كل المسيحيين مريم كما تنبأ الكتاب. وتحفظ الكنيسة القبطية الأرثوذكسية ملء هذا الإكرام كما سلّمه الآباء: هي والدة الإله ودائمة البتولية، نكرمها ونطلب صلواتها، ونسجد لله وحده. وتتمسك بهذا الإيمان دون إضافة عقائد لاحقة، وتفرح بالأرضية المشتركة مع كل مسيحي يكرم أم الرب.',
   },
   furtherReading: ['S62'],
   related: [

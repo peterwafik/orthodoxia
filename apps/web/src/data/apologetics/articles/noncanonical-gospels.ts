@@ -15,23 +15,23 @@ export const article: Article = {
     ar: 'تسأل هذه المقالة ما هي الأناجيل الخارجة عن العهد الجديد، مثل إنجيل توما وإنجيل بطرس وإنجيل يهوذا وإنجيل يعقوب في الطفولة، ولماذا لم تقبلها الكنائس كتابًا مقدسًا. وهي تصف ما هذه الكتابات، وكيف يؤرخها المؤرخون، وماذا قالت عنها الكنائس، وأين يختلف الباحثون. وتعاملها بإنصاف بوصفها وثائق قديمة ولا تعدّها بلا قيمة.',
   },
   shortAnswer: {
-    en: 'The noncanonical gospels are real ancient writings, and historians study them. Most are later than the four Gospels, are attributed to apostles who did not write them, and many present teaching that the churches judged to contradict the faith they had received, for example by denying that Christ truly took flesh. They were not suppressed by one act: they were not read in the churches’ worship, and from the second century church writers named and rejected some of them. Dating is debated for a few, above all the Gospel of Thomas, and some contain traditions the Church still values, which is not the same as receiving them as Scripture.',
-    ar: 'الأناجيل غير القانونية كتابات قديمة حقيقية يدرسها المؤرخون. ومعظمها متأخر عن الأناجيل الأربعة، ومنسوب إلى رسل لم يكتبوها، وكثير منها يعرض تعليمًا رأت الكنائس أنه يناقض الإيمان الذي تسلّمته، كإنكار أن المسيح اتخذ جسدًا حقًا. ولم تُكبت بفعل واحد: فهي لم تكن تُقرأ في عبادة الكنائس، ومنذ القرن الثاني سمّى كتّاب كنسيون بعضها ورفضوه. والتأريخ موضع جدل لقليل منها، وفي مقدمتها إنجيل توما، وبعضها يحوي تقاليد ما زالت الكنيسة تقدّرها، وهذا لا يعني قبولها كتابًا مقدسًا.',
+    en: 'The noncanonical gospels are real ancient writings, but they are not the apostles’ witness to Christ. Most are later than the four Gospels, they carry the names of apostles who did not write them, and many teach what contradicts the faith the churches had received, for example that Christ did not truly take flesh or that the material world is the work of a lesser god. They were not suppressed by a single decree: they were simply never read in the churches’ worship, and from the second century bishops and teachers named and rejected them. The four Gospels, read from the beginning on the Lord’s Day, are the Gospel the Church received from the apostles.',
+    ar: 'الأناجيل غير القانونية كتابات قديمة حقيقية، لكنها ليست شهادة الرسل للمسيح. فمعظمها متأخر عن الأناجيل الأربعة، وتحمل أسماء رسل لم يكتبوها، وكثير منها يعلّم ما يناقض الإيمان الذي تسلّمته الكنائس، كالقول إن المسيح لم يتخذ جسدًا حقًا، أو إن العالم المادي من صنع إله أدنى. ولم تُكبت بقرار واحد: بل لم تُقرأ قط في عبادة الكنائس، ومنذ القرن الثاني سمّاها أساقفة ومعلمون ورفضوها. والأناجيل الأربعة، التي قُرئت منذ البدء في يوم الرب، هي الإنجيل الذي تسلّمته الكنيسة من الرسل.',
   },
   quickPoints: {
     en: [
-      'Luke’s preface shows that more than the four Gospels were written very early, so the question of selection is as old as the writings.',
-      'Most noncanonical gospels date from the second century or later and carry the name of an apostle who did not write them.',
-      'Several (such as the Gospel of Judas, known from Irenaeus’s reference) teach that the material world is the work of a lesser god, which the churches rejected as against the faith.',
-      'The Gospel of Thomas is a list of sayings, and its date is debated; it is among the most discussed of these writings.',
-      'The Coptic Church has a particular interest: the Nag Hammadi books were found in Egypt and were written in Coptic.',
+      'St Luke’s preface shows that many accounts of Jesus were written early, so the Church has always had to recognise which writings carry the apostolic witness.',
+      'Most noncanonical gospels come from the second century or later and carry the name of an apostle who did not write them.',
+      'Several, such as the Gospel of Judas, which St Irenaeus already names as a forgery, teach that the material world is the work of a lesser god, contrary to the faith in one Creator.',
+      'By about AD 150 St Justin describes the Gospels being read in Sunday worship; no noncanonical gospel has a comparable record.',
+      'The Coptic Church has a particular interest: the Nag Hammadi books were found in Egypt and written in Coptic, and St Athanasius warned the Egyptian monasteries against such writings in 367.',
     ],
     ar: [
-      'تبيّن مقدمة لوقا أن أكثر من الأناجيل الأربعة كُتب مبكرًا جدًا، فمسألة الانتقاء قديمة قدم الكتابات.',
+      'تبيّن مقدمة القديس لوقا أن روايات كثيرة عن يسوع كُتبت مبكرًا، فكان على الكنيسة دائمًا أن تميّز أي الكتابات تحمل الشهادة الرسولية.',
       'يعود معظم الأناجيل غير القانونية إلى القرن الثاني أو بعده، وتحمل اسم رسول لم يكتبها.',
-      'يعلّم عدد منها (كإنجيل يهوذا المعروف من إشارة إيريناؤس) أن العالم المادي من صنع إله أدنى، وقد رفضته الكنائس لمخالفته الإيمان.',
-      'إنجيل توما قائمة أقوال، وتاريخه موضع جدل؛ وهو من أكثر هذه الكتابات مناقشة.',
-      'للكنيسة القبطية اهتمام خاص: فقد وُجدت كتب نجع حمادي في مصر وكُتبت بالقبطية.',
+      'يعلّم عدد منها، كإنجيل يهوذا الذي سمّاه القديس إيريناؤس مزوّرًا، أن العالم المادي من صنع إله أدنى، خلافًا للإيمان بخالق واحد.',
+      'نحو سنة ١٥٠م يصف القديس يوستينوس قراءة الأناجيل في عبادة الأحد؛ ولا سجل مماثلًا لأي إنجيل غير قانوني.',
+      'للكنيسة القبطية اهتمام خاص: فقد وُجدت كتب نجع حمادي في مصر وكُتبت بالقبطية، وحذّر القديس أثناسيوس الأديرة المصرية من مثل هذه الكتابات سنة ٣٦٧م.',
     ],
   },
   argumentTypes: ['historical', 'textual', 'theological'],
@@ -45,26 +45,26 @@ export const article: Article = {
 
   whyExamine: {
     en: [
-      'Many readers first meet these writings in a documentary or a novel, with the claim that the Church buried “lost gospels” that tell a different story of Jesus. The claim deserves a direct reply, because a few of these writings are interesting and some are old.',
-      'A fair reply also does not treat them with contempt. They show how some ancient Christians and groups on the edge of the churches imagined Jesus, and they help a historian to see what the churches were choosing between.',
+      'Many readers first meet these writings in a documentary or a novel, with the claim that the Church buried “lost gospels” that tell a different story of Jesus. The believer deserves a clear answer to that claim.',
+      'The answer also shows the Church’s confidence. She does not fear these writings or treat them with contempt: they show how some groups on the edge of the churches imagined Jesus, and seeing them beside the four Gospels makes plain why the Church received the four.',
     ],
     ar: [
-      'يلتقي كثير من القراء بهذه الكتابات أول مرة في فيلم وثائقي أو رواية، مع الزعم أن الكنيسة دفنت «أناجيل مفقودة» ترسم قصة مختلفة ليسوع. ويستحق الزعم ردًّا مباشرًا لأن بعض هذه الكتابات مثير للاهتمام وبعضها قديم.',
-      'والرد المنصف لا يعاملها باحتقار أيضًا. فهي تبيّن كيف تخيّل بعض المسيحيين القدماء وجماعات على أطراف الكنائس يسوعَ، وتعين المؤرخ على رؤية ما كانت الكنائس تختار بينه.',
+      'يلتقي كثير من القراء بهذه الكتابات أول مرة في فيلم وثائقي أو رواية، مع الزعم أن الكنيسة دفنت «أناجيل مفقودة» ترسم قصة مختلفة ليسوع. والمؤمن يستحق جوابًا واضحًا عن هذا الزعم.',
+      'والجواب يبيّن أيضًا ثقة الكنيسة. فهي لا تخاف هذه الكتابات ولا تعاملها باحتقار: فهي تبيّن كيف تخيّلت بعض الجماعات على أطراف الكنائس يسوعَ، ورؤيتها إلى جانب الأناجيل الأربعة توضح لماذا تسلّمت الكنيسة الأربعة.',
     ],
   },
   background: {
     en: [
       'Luke’s preface, read as an ancient text, says that many had already taken in hand to set down an account of Jesus. So writings about Jesus were multiplying early. The four Gospels in the New Testament are the ones the churches came to read.',
-      'The Gospel of Thomas, known fully from a Coptic copy found at Nag Hammadi in Egypt in 1945 and in part from Greek fragments from Oxyrhynchus, is a collection of 114 sayings with little narrative. Some sayings are close to sayings in the Gospels, and others are quite different. Many scholars date it to the second century, while some argue for an earlier date for part of it. The Gospel of Peter survives in part in a manuscript found at Akhmim, and it tells of the passion and resurrection with unusual details. Serapion, a bishop of Antioch around AD 200, is reported to have first allowed it to be read in a church and then to have judged it to contain false teaching.',
+      'The Gospel of Thomas, known fully from a Coptic copy found at Nag Hammadi in Egypt in 1945 and in part from Greek fragments from Oxyrhynchus, is a collection of 114 sayings with little narrative. Some sayings are close to sayings in the Gospels, and others are quite different. The Gospel of Peter survives in part in a manuscript found at Akhmim, and it tells of the passion and resurrection with unusual details. Serapion, a bishop of Antioch around AD 200, is reported to have first allowed it to be read in a church and then to have judged it to contain false teaching.',
       'The Gospel of Judas, known from a Coptic manuscript published in the early 2000s, is a gnostic text that Irenaeus, in the late second century, already mentions as a forgery of a heretical group. The Protoevangelium of James, from the second century, tells the story of Mary’s birth and childhood, and it is the source of the names of her parents; it has been widely used in Christian tradition for details, though it is not Scripture.',
-      'In Egypt, Athanasius in his Festal Letter of AD 367 wrote to the monasteries to say which books are to be received as the canon and warned them against apocryphal writings composed under the names of saints. Some scholars have linked the burying of the Nag Hammadi jars to such a period and to monastic communities; others consider this an unproven guess.',
+      'In Egypt, Athanasius in his Festal Letter of AD 367 wrote to the monasteries to say which books are to be received as the canon and warned them against apocryphal writings composed under the names of saints.',
     ],
     ar: [
       'تقول مقدمة لوقا، حين تُقرأ نصًّا قديمًا، إن كثيرين أخذوا من قبل في تدوين رواية عن يسوع. فكانت الكتابات عن يسوع تتكاثر مبكرًا. والأناجيل الأربعة في العهد الجديد هي التي جاءت الكنائس إلى قراءتها.',
-      'إنجيل توما، المعروف كاملًا من نسخة قبطية وُجدت في نجع حمادي بمصر سنة ١٩٤٥ وجزئيًا من شذرات يونانية من أوكسيرنخوس، مجموعة من ١١٤ قولًا قليلة السرد. وبعض الأقوال قريب من أقوال في الأناجيل وبعضها مختلف تمامًا. ويؤرخه كثير من الباحثين بالقرن الثاني، بينما يرى بعضهم تاريخًا أقدم لجزء منه. ويبقى إنجيل بطرس جزئيًا في مخطوط وُجد في أخميم، ويروي الآلام والقيامة بتفاصيل غير مألوفة. ويُروى أن سرابيون أسقف أنطاكية نحو سنة ٢٠٠م أجاز قراءته أولًا في كنيسة ثم حكم بأن فيه تعليمًا باطلًا.',
+      'إنجيل توما، المعروف كاملًا من نسخة قبطية وُجدت في نجع حمادي بمصر سنة ١٩٤٥ وجزئيًا من شذرات يونانية من أوكسيرنخوس، مجموعة من ١١٤ قولًا قليلة السرد. وبعض الأقوال قريب من أقوال في الأناجيل وبعضها مختلف تمامًا. ويبقى إنجيل بطرس جزئيًا في مخطوط وُجد في أخميم، ويروي الآلام والقيامة بتفاصيل غير مألوفة. ويُروى أن سرابيون أسقف أنطاكية نحو سنة ٢٠٠م أجاز قراءته أولًا في كنيسة ثم حكم بأن فيه تعليمًا باطلًا.',
       'وإنجيل يهوذا، المعروف من مخطوط قبطي نُشر في مطلع الألفية الثالثة، نص غنوصي ذكره إيريناؤس في أواخر القرن الثاني بوصفه تأليفًا مزورًا لجماعة هرطوقية. وإنجيل يعقوب الأول (الطفولة) من القرن الثاني يروي قصة ميلاد مريم وطفولتها وهو مصدر اسمي والديها؛ وقد استُعمل في التقليد المسيحي على نطاق واسع للتفاصيل وإن لم يكن كتابًا مقدسًا.',
-      'وفي مصر كتب أثناسيوس في رسالته الفصحية لسنة ٣٦٧م إلى الأديرة ليبيّن أي الأسفار تُقبل قانونًا وليحذّرها من كتابات أبوكريفية مؤلفة بأسماء قديسين. وربط بعض الباحثين دفن جرار نجع حمادي بتلك الفترة وبجماعات رهبانية؛ ويرى آخرون أنه تخمين لم يثبت.',
+      'وفي مصر كتب أثناسيوس في رسالته الفصحية لسنة ٣٦٧م إلى الأديرة ليبيّن أي الأسفار تُقبل قانونًا وليحذّرها من كتابات أبوكريفية مؤلفة بأسماء قديسين.',
     ],
   },
   glossary: ['canon', 'gospel', 'tradition', 'manuscript', 'codex', 'christology', 'synoptic-gospels', 'perpetual-virginity'],
@@ -73,14 +73,14 @@ export const article: Article = {
     {
       id: 'C3',
       proposition: {
-        en: 'The four Gospels were in worship use earlier and more widely than the noncanonical gospels, which have no comparable early record of church use.',
-        ar: 'استُعملت الأناجيل الأربعة في العبادة أبكر وعلى نطاق أوسع من الأناجيل غير القانونية التي لا سجل مماثلًا لاستعمالها الكنسي المبكر.',
+        en: 'The four Gospels were read in worship earlier and far more widely than the noncanonical gospels, which have no comparable early record of church use.',
+        ar: 'قُرئت الأناجيل الأربعة في العبادة أبكر وعلى نطاق أوسع بكثير من الأناجيل غير القانونية التي لا سجل مماثلًا لاستعمالها الكنسي المبكر.',
       },
       argumentType: 'textual',
       assessment: 'supported_disputed_details',
       rationale: {
-        en: 'Justin’s account of the Sunday readings from the apostles’ memoirs, and the later treatment of Gospel texts as Scripture, belong to the first group; for the second group we have mostly the notices of church writers who reject them.',
-        ar: 'يصف يوستينوس قراءات الأحد من مذكرات الرسل، ثم عوملت نصوص الأناجيل لاحقًا كتابًا مقدسًا، وهذا من المجموعة الأولى؛ أما المجموعة الثانية فعندنا في الغالب إشعارات كتّاب كنسيين يرفضونها.',
+        en: 'St Justin describes the Sunday reading of the apostles’ memoirs, called Gospels, around AD 150, and church writers after him treat the Gospel texts as Scripture. For the noncanonical gospels we have instead the notices of church writers who reject them.',
+        ar: 'يصف القديس يوستينوس نحو سنة ١٥٠م قراءة مذكرات الرسل، المسماة أناجيل، في الأحد، ويعامل الكتّاب الكنسيون بعده نصوص الأناجيل كتابًا مقدسًا. أما الأناجيل غير القانونية فعندنا بدلًا من ذلك إشعارات كتّاب كنسيين يرفضونها.',
       },
       limits: {
         en: 'Justin does not name the Gospels he means, and the evidence for the use of the four Gospels in each region is uneven.',
@@ -97,8 +97,8 @@ export const article: Article = {
       argumentType: 'theological',
       assessment: 'theological_interpretation',
       rationale: {
-        en: 'This is the Church’s confession, and it rests on her reception of the apostolic faith. It is consistent with the historical picture but is not proved by it.',
-        ar: 'هذا اعتراف الكنيسة، ويقوم على تسلّمها الإيمان الرسولي. وهو متفق مع الصورة التاريخية لكن التاريخ لا يثبته.',
+        en: 'This is the Church’s confession, resting on her reception of the apostolic faith. The history agrees with it: the four were read from the beginning, and the others were rejected because they did not carry that faith.',
+        ar: 'هذا اعتراف الكنيسة، ويقوم على تسلّمها الإيمان الرسولي. والتاريخ يتفق معه: فالأربعة قُرئت منذ البدء، والأخرى رُفضت لأنها لم تحمل ذلك الإيمان.',
       },
       limits: {
         en: 'A critic may hold that the churches’ choice was one among several possible, and history cannot settle that.',
@@ -148,12 +148,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'It is true that some scholars propose an early date for a first layer of Thomas, and that some of its sayings have parallels in the Gospels. This is a live scholarly debate and the objection puts it fairly. Many other scholars date the work to the second century because of its relation to the text of the Gospels and its themes, and no one can fix its date from the surviving copies, the earliest of which are Greek fragments of about the third century and a Coptic copy of the fourth.',
-          'Even on an early date, the question of use remains: there is no record of the work being read in the churches’ worship, and early church writers who mention it treat it as heretical. A saying may be old and still be in a book that the churches judged did not carry the faith they had received.',
+          'Some sayings in Thomas have parallels in the four Gospels, and the Church has no need to deny that a saying preserved there may echo the Lord’s words. But the book as we have it comes to us in copies far later than the Gospels, the earliest being Greek fragments of about the third century and a Coptic copy of the fourth, and its themes reflect the thought of groups the churches rejected.',
+          'Above all, it was never read in the churches’ worship, and early church writers who mention it treat it as heretical. The Church did not drop awkward words of Jesus; she kept the four Gospels, which contain His hardest sayings, and declined a book that did not carry the faith she had received from the apostles.',
         ],
         ar: [
-          'صحيح أن بعض الباحثين يقترحون تاريخًا مبكرًا لطبقة أولى من توما، وأن بعض أقواله له نظائر في الأناجيل. وهو نقاش علمي حي ويعرضه الاعتراض بإنصاف. ويؤرخ باحثون كثيرون العمل بالقرن الثاني بسبب علاقته بنص الأناجيل وموضوعاته، ولا يستطيع أحد تثبيت تاريخه من النسخ الباقية، وأقدمها شذرات يونانية من نحو القرن الثالث ونسخة قبطية من الرابع.',
-          'وحتى على فرض تاريخ مبكر تبقى مسألة الاستعمال: لا سجل بقراءة العمل في عبادة الكنائس، والكتّاب الكنسيون الأوائل الذين يذكرونه يعاملونه كتابًا هرطوقيًا. وقد يكون القول قديمًا ويكون في كتاب حكمت الكنائس بأنه لا يحمل الإيمان الذي تسلّمته.',
+          'لبعض أقوال توما نظائر في الأناجيل الأربعة، ولا حاجة للكنيسة أن تنكر أن قولًا محفوظًا فيه قد يردد صدى كلمات الرب. لكن الكتاب كما هو بين أيدينا يصلنا في نسخ متأخرة كثيرًا عن الأناجيل، أقدمها شذرات يونانية من نحو القرن الثالث ونسخة قبطية من الرابع، وموضوعاته تعكس فكر جماعات رفضتها الكنائس.',
+          'وفوق كل شيء، لم يُقرأ قط في عبادة الكنائس، والكتّاب الكنسيون الأوائل الذين يذكرونه يعاملونه كتابًا هرطوقيًا. ولم تُسقط الكنيسة كلمات محرجة ليسوع؛ بل حفظت الأناجيل الأربعة التي تحوي أصعب أقواله، وأبت كتابًا لا يحمل الإيمان الذي تسلّمته من الرسل.',
         ],
       },
       limits: {
@@ -170,12 +170,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The objection has real support. Some historians, among them Bart Ehrman, stress the variety of early Christian belief, and it is true that groups with different views existed and that their writings survive mostly because the Egyptian sands preserved them. The Nag Hammadi library is a witness to such a variety.',
-          'There is a counter-case, though, which does not deny the variety. The core of the four Gospels was in wide use early, the early evidence we have for the churches’ judgement (Ignatius, Irenaeus) comes before the fourth-century lists, and the competing writings are for the most part later than the Gospels. Historians differ on how to weigh this, and the Church takes the early and widespread use as the sign of the apostolic witness.',
+          'There were indeed groups with different views in the early centuries, and the Nag Hammadi library preserves some of their writings. The Church has never hidden this; St Irenaeus wrote a whole work describing and answering them.',
+          'But the four Gospels were in wide use early, the churches’ judgement against the teaching of the rival writings is recorded by St Ignatius and St Irenaeus long before the fourth-century lists, and the rival writings are mostly later than the Gospels. The apostolic Gospel did not win by suppression; it was the faith handed down from the beginning, and the others departed from it.',
         ],
         ar: [
-          'للاعتراض سند حقيقي. فبعض المؤرخين، ومنهم بارت إيرمان، يشددون على تنوع الإيمان المسيحي المبكر، وصحيح أن جماعات ذات آراء مختلفة وُجدت وأن كتاباتها بقيت في الغالب لأن رمال مصر حفظتها. ومكتبة نجع حمادي شاهد على هذا التنوع.',
-          'لكن هناك حجة مقابلة لا تنكر التنوع. فنواة الأناجيل الأربعة كانت في استعمال واسع مبكرًا، والشواهد المبكرة التي لدينا على حكم الكنائس (إغناطيوس وإيريناؤس) تسبق قوائم القرن الرابع، والكتابات المنافسة في معظمها متأخرة عن الأناجيل. ويختلف المؤرخون في وزن هذا، وتأخذ الكنيسة الاستعمال المبكر الواسع علامة الشهادة الرسولية.',
+          'كانت هناك فعلًا جماعات ذات آراء مختلفة في القرون الأولى، وتحفظ مكتبة نجع حمادي بعض كتاباتها. ولم تخفِ الكنيسة ذلك قط؛ فقد كتب القديس إيريناؤس عملًا كاملًا يصفها ويرد عليها.',
+          'لكن الأناجيل الأربعة كانت في استعمال واسع مبكرًا، وحكم الكنائس على تعليم الكتابات المنافسة مسجل عند القديس إغناطيوس والقديس إيريناؤس قبل قوائم القرن الرابع بزمن طويل، والكتابات المنافسة في معظمها متأخرة عن الأناجيل. فالإنجيل الرسولي لم ينتصر بالكبت؛ بل كان الإيمان المسلَّم منذ البدء، والأخرى حادت عنه.',
         ],
       },
       limits: {
@@ -192,12 +192,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The Church has always distinguished between Scripture, which is the rule for faith, and other ancient writings from which she may keep a pious tradition. The names of Joachim and Anna are kept in the Church’s memory and in her feasts, but no article of faith rests on that book.',
-          'A distinction between a source of a tradition and a rule of faith is familiar in historical work as well, where a late source can preserve an early memory without being a reliable record as a whole.',
+          'The Church has always distinguished between Scripture, which is the rule of faith, and other ancient writings from which she may keep a pious tradition. The names of Joachim and Anna are kept in the Church’s memory and her feasts, but no article of faith rests on that book.',
+          'This is consistent, not contradictory. A late writing can preserve a true memory without being Scripture, just as a family keeps stories that are not part of its founding documents.',
         ],
         ar: [
-          'ميّزت الكنيسة دائمًا بين الكتاب المقدس، وهو قاعدة الإيمان، وكتابات قديمة أخرى قد تحتفظ منها بتقليد تقوي. وأسماء يواكيم وحنة محفوظة في ذاكرة الكنيسة وأعيادها، لكن لا يقوم على ذلك الكتاب بند إيماني.',
-          'والتمييز بين مصدر تقليد وقاعدة إيمان مألوف في العمل التاريخي أيضًا، حيث يمكن أن يحفظ مصدر متأخر ذكرى مبكرة دون أن يكون سجلًا موثوقًا في جملته.',
+          'ميّزت الكنيسة دائمًا بين الكتاب المقدس، وهو قاعدة الإيمان، وكتابات قديمة أخرى قد تحتفظ منها بتقليد تقوي. وأسماء يواقيم وحنة محفوظة في ذاكرة الكنيسة وأعيادها، لكن لا يقوم على ذلك الكتاب بند إيماني.',
+          'وهذا اتساق لا تناقض. فالكتابة المتأخرة قد تحفظ ذكرى صادقة دون أن تكون كتابًا مقدسًا، كما تحتفظ عائلة بقصص ليست جزءًا من وثائق تأسيسها.',
         ],
       },
       limits: {
@@ -211,12 +211,12 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'Historically, a Christian can say that the noncanonical gospels are mostly later than the four Gospels, pseudonymous and absent from the churches’ worship, that early church writers rejected docetic and gnostic teaching before any list existed, and that no single act suppressed them.',
-        'A Christian should also say that the dating of Thomas and the diversity of early Christianity are debated, that the Nag Hammadi writings are important witnesses to the thinking of some groups, and that the sources for the groups are mostly their opponents.',
+        'The history supports the Church’s judgement. The noncanonical gospels are mostly later than the four Gospels, carry borrowed apostolic names, and were absent from the churches’ worship. Church writers rejected docetic and gnostic teaching long before any formal list existed, and no single act suppressed these books.',
+        'The Nag Hammadi writings are valuable witnesses to how some groups thought. Placed beside the four Gospels, with their concrete account of the Lord’s life, death and resurrection, they show clearly why the churches recognised the four as the apostolic witness.',
       ],
       ar: [
-        'يستطيع المسيحي تاريخيًا أن يقول إن الأناجيل غير القانونية متأخرة في معظمها عن الأناجيل الأربعة ومنحولة الاسم وغائبة عن عبادة الكنائس، وإن كتّابًا كنسيين أوائل رفضوا التعليم الظهوري والغنوصي قبل وجود أي قائمة، وإنه لا فعل واحد كبتها.',
-        'وعليه أيضًا أن يقول إن تأريخ توما وتنوع المسيحية المبكرة موضع جدل، وإن كتابات نجع حمادي شهود مهمون على تفكير بعض الجماعات، وإن مصادرنا عن الجماعات في الغالب من خصومها.',
+        'يسند التاريخ حكم الكنيسة. فالأناجيل غير القانونية متأخرة في معظمها عن الأناجيل الأربعة، وتحمل أسماء رسولية مستعارة، وكانت غائبة عن عبادة الكنائس. ورفض الكتّاب الكنسيون التعليم الظهوري والغنوصي قبل وجود أي قائمة رسمية بزمن طويل، ولم يكبت هذه الكتب فعل واحد.',
+        'وكتابات نجع حمادي شهود ثمينة على تفكير بعض الجماعات. وحين توضع إلى جانب الأناجيل الأربعة، بروايتها الملموسة لحياة الرب وموته وقيامته، يتضح لماذا عرفت الكنائس الأربعة شهادة رسولية.',
       ],
     },
     theological: {
@@ -253,8 +253,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'The noncanonical gospels are real ancient texts. Most are later than the four Gospels, carry names of apostles who did not write them, and in many cases teach what the churches had already rejected as contrary to the received faith. A few, Thomas above all, raise real questions of date that scholars argue about. The Church’s judgement is that the four Gospels are the apostolic witness, and she can study the others honestly as history.',
-    ar: 'الأناجيل غير القانونية نصوص قديمة حقيقية. ومعظمها متأخر عن الأناجيل الأربعة ويحمل أسماء رسل لم يكتبوها، وفي حالات كثيرة يعلّم ما سبق أن رفضته الكنائس لمخالفته الإيمان المسلَّم. وبعضها، وتوما قبل غيره، يثير أسئلة حقيقية عن التاريخ يتجادل فيها الباحثون. وحكم الكنيسة أن الأناجيل الأربعة هي الشهادة الرسولية، وهي تستطيع دراسة الأخرى بأمانة بوصفها تاريخًا.',
+    en: 'The noncanonical gospels are real ancient texts, but they are not the apostles’ witness. Most are later than the four Gospels, carry names of apostles who did not write them, and often teach what the churches had already rejected as contrary to the received faith. The four Gospels, read in the churches from the beginning, are the Gospel of Christ handed down by the apostles, and the Church can study the other writings calmly as history.',
+    ar: 'الأناجيل غير القانونية نصوص قديمة حقيقية، لكنها ليست شهادة الرسل. فمعظمها متأخر عن الأناجيل الأربعة، وتحمل أسماء رسل لم يكتبوها، وكثيرًا ما تعلّم ما سبق أن رفضته الكنائس لمخالفته الإيمان المسلَّم. والأناجيل الأربعة، التي قُرئت في الكنائس منذ البدء، هي إنجيل المسيح الذي سلّمه الرسل، وتستطيع الكنيسة أن تدرس الكتابات الأخرى بهدوء بوصفها تاريخًا.',
   },
   furtherReading: ['S29', 'S30', 'S50'],
   related: ['who-chose-the-books', 'why-these-books', 'did-nicaea-choose-the-bible', 'who-wrote-the-gospels', 'scripture-and-tradition'],

@@ -15,25 +15,25 @@ export const article: Article = {
     ar: 'تسأل هذه المقالة هل يمكن التوفيق بين التعليم المسيحي بأن الدينونة حقيقية ونتيجتها نهائية وبين صلاح الله. وتعرض الاعتراض، وما يقوله الكتاب وما لا يقوله، وأهم الطرق التي فهم بها المسيحيون الأمر، وما تعلّمه الكنيسة القبطية الأرثوذكسية، بتواضع أمام ما لم يُعلنه الله.',
   },
   shortAnswer: {
-    en: 'The Church teaches that God wants all people to be saved, that he is just and merciful, and that human beings are free and can refuse him. Scripture speaks of a final judgment with eternal consequences, in the language of fire, darkness, separation and also life. It does not give a map of the other world, and the Church does not claim one. Christians have understood the final state in different ways: as a punishment given by God, or as the pain of a freely chosen separation from the source of love, which for those who accept him is joy and for those who refuse is torment. The Church does not teach that all will be saved, and it does not teach that God delights in anyone’s loss. The objection that eternal loss cannot fit with a good God is a serious one, and the Church’s answer rests on freedom, on God’s justice and on mercy beyond what we can see, held as faith and not as a demonstration.',
-    ar: 'تعلّم الكنيسة أن الله يريد أن جميع الناس يخلصون، وأنه عادل ورحيم، وأن الإنسان حر ويستطيع أن يرفضه. ويتكلم الكتاب عن دينونة أخيرة لها عواقب أبدية، بلغة النار والظلمة والانفصال، وبلغة الحياة أيضًا. وهو لا يعطي خريطة للعالم الآخر، والكنيسة لا تدّعي واحدة. وفهم المسيحيون الحال الأخيرة بطرق مختلفة: عقوبة يعطيها الله، أو ألم انفصال اختاره الإنسان بحريته عن ينبوع المحبة، وهو فرح لمن يقبله وعذاب لمن يرفضه. ولا تعلّم الكنيسة أن الجميع سيخلصون، ولا تعلّم أن الله يسر بهلاك أحد. والاعتراض بأن الهلاك الأبدي لا يتفق مع إله صالح جاد، وجواب الكنيسة يقوم على الحرية وعلى عدل الله وعلى رحمة تفوق ما نرى، ويُمسَك به إيمانًا لا برهانًا.',
+    en: 'Eternal judgment does not contradict the goodness of God; it flows from the freedom His love gives. God wants all people to be saved, He is just and merciful, and He never forces anyone to love Him. Scripture speaks of a final judgment with eternal consequences, in the language of fire, darkness and separation, and also of life. God\'s love is one and the same for all: for those who receive it, it is joy; for those who finally refuse it, it is torment. God takes no pleasure in anyone\'s loss. The Church prays for all, leaves judgment to Christ, who died for all, and trusts His mercy.',
+    ar: 'الدينونة الأبدية لا تناقض صلاح الله؛ بل تنبع من الحرية التي تمنحها محبته. فالله يريد أن جميع الناس يخلصون، وهو عادل ورحيم، ولا يُكره أحدًا على محبته. ويتكلم الكتاب المقدس عن دينونة أخيرة ذات نتائج أبدية، بلغة النار والظلمة والانفصال، ويتكلم أيضًا عن الحياة. ومحبة الله واحدة للجميع: فهي فرح لمن يقبلها، وعذاب لمن يرفضها رفضًا نهائيًا. والله لا يُسرّ بهلاك أحد. والكنيسة تصلي من أجل الجميع، وتترك الدينونة للمسيح الذي مات عن الجميع، وتثق برحمته.',
   },
   quickPoints: {
     en: [
-      'The objection says infinite punishment for finite sins is unjust, and that a good God would not allow anyone to be lost for ever.',
+      'The objection says that endless punishment for finite sins is unjust, and that a good God would not allow anyone to be lost for ever.',
       'Scripture teaches a real final judgment, and also that God wants all to be saved and takes no pleasure in the death of the wicked.',
-      'The images of fire, darkness and worm are images; the Church does not teach a detailed geography of the other world.',
-      'Christians understand the final state in more than one way: as God’s just sentence, or as the self-chosen pain of refusing love; both keep human freedom and divine justice.',
-      'The Church does not teach that all will be saved without exception, and it does not claim to know who is lost; it prays for the departed and leaves judgment to God.',
-      'This is a matter of faith held with humility: the Church admits it cannot see to the end of God’s mercy.',
+      'Love cannot be forced. A love that can be refused is real, and a final refusal brings a separation that God does not will but allows.',
+      'God\'s love is one for all: it is joy to those united to Him and torment to those who refuse Him.',
+      'The Church does not teach that all will be saved without exception, and it names no one as lost; it prays for the departed and leaves judgment to Christ.',
+      'The Judge is Christ, who died for all. That is why the Christian faces judgment with hope.',
     ],
     ar: [
-      'يقول الاعتراض إن عقوبة لا نهائية على خطايا محدودة ظلم، وإن إلهًا صالحًا لا يسمح بأن يهلك أحد إلى الأبد.',
-      'يعلّم الكتاب دينونة أخيرة حقيقية، ويعلّم أيضًا أن الله يريد أن الجميع يخلصون ولا يسر بموت الشرير.',
-      'صور النار والظلمة والدود صور؛ ولا تعلّم الكنيسة جغرافية تفصيلية للعالم الآخر.',
-      'يفهم المسيحيون الحال الأخيرة بأكثر من طريقة: حكم عادل من الله، أو ألم اختاره الإنسان برفضه المحبة؛ وكلتاهما تحفظ حرية الإنسان وعدل الله.',
-      'لا تعلّم الكنيسة أن الجميع سيخلصون بلا استثناء، ولا تدّعي أنها تعرف من يهلك؛ إنها تصلي للراقدين وتترك الدينونة لله.',
-      'هذا أمر إيمان يُمسَك بتواضع: فالكنيسة تعترف بأنها لا ترى إلى نهاية رحمة الله.',
+      'يقول الاعتراض إن العقاب الأبدي على خطايا محدودة ظلم، وإن الإله الصالح لا يسمح بأن يهلك أحد إلى الأبد.',
+      'يعلّم الكتاب المقدس دينونة أخيرة حقيقية، ويعلّم أيضًا أن الله يريد خلاص الجميع ولا يُسرّ بموت الشرير.',
+      'المحبة لا تُفرض بالإكراه. والمحبة التي يمكن رفضها محبة حقيقية، والرفض النهائي يجلب انفصالًا لا يريده الله لكنه يسمح به.',
+      'محبة الله واحدة للجميع: فهي فرح للمتحدين به، وعذاب للرافضين له.',
+      'لا تعلّم الكنيسة أن الجميع سيخلصون بلا استثناء، ولا تسمي أحدًا هالكًا؛ بل تصلي من أجل الراقدين وتترك الدينونة للمسيح.',
+      'الديّان هو المسيح الذي مات عن الجميع. ولهذا يواجه المسيحي الدينونة برجاء.',
     ],
   },
   argumentTypes: ['philosophical', 'theological'],
@@ -46,12 +46,12 @@ export const article: Article = {
   },
   whyExamine: {
     en: [
-      'For many people this is the doctrine that makes Christianity hard to love. They think of a child, or a good person of another faith, or someone who suffered and died without hope, and they cannot reconcile what they hear with a God who is love. That is a moral reaction that deserves respect, not a failure of faith.',
-      'It is also a doctrine that has been taught badly: used to frighten, to control, and to claim knowledge of other people’s fate that no one has. A careful account has to say what the Church does and does not teach.',
+      'For many people this is the doctrine that makes Christianity hard to love. They think of a child, or a good person of another faith, or someone who suffered and died without hope, and they cannot reconcile what they hear with a God who is love. That reaction deserves respect, and it deserves a true answer.',
+      'It is also a doctrine that has been taught badly: used to frighten, to control, and to claim knowledge of other people\'s fate that no one has. The Church\'s own teaching is gentler and truer, and it begins with the God who is love.',
     ],
     ar: [
-      'عند كثيرين هذا هو التعليم الذي يجعل المسيحية صعبة المحبة. يفكرون في طفل، أو إنسان صالح من دين آخر، أو إنسان تألم ومات بلا رجاء، ولا يستطيعون التوفيق بين ما يسمعون وبين إله هو محبة. وهذه استجابة أخلاقية تستحق الاحترام، لا فشلًا في الإيمان.',
-      'وهو أيضًا تعليم قُدّم تقديمًا سيئًا: استُعمل للتخويف والتحكم وادعاء معرفة بمصير الآخرين لا يملكها أحد. والعرض الدقيق ينبغي أن يقول ما تعلّمه الكنيسة وما لا تعلّمه.',
+      'هذه العقيدة عند كثيرين هي التي تجعل المسيحية صعبة المحبة. فهم يفكرون في طفل، أو في إنسان صالح من دين آخر، أو في من تألم ومات بلا رجاء، ولا يستطيعون التوفيق بين ما يسمعونه وإله هو محبة. وهذا رد فعل يستحق الاحترام، ويستحق جوابًا صادقًا.',
+      'وهي أيضًا عقيدة عُلّمت تعليمًا سيئًا: استُعملت للتخويف والسيطرة، ولادعاء معرفة مصير الآخرين، وهي معرفة لا يملكها أحد. أما تعليم الكنيسة نفسها فأرق وأصدق، ويبدأ بالإله الذي هو محبة.',
     ],
   },
   background: {
@@ -73,13 +73,13 @@ export const article: Article = {
       id: 'c1',
       proposition: {
         en: 'The New Testament teaches a real final judgment with eternal consequences, and it also teaches that God wants all to be saved and is patient with sinners.',
-        ar: 'يعلّم العهد الجديد دينونة أخيرة حقيقية لها عواقب أبدية، ويعلّم أيضًا أن الله يريد خلاص الجميع ويتأنى على الخطاة.',
+        ar: 'يعلّم العهد الجديد دينونة أخيرة حقيقية ذات نتائج أبدية، ويعلّم أيضًا أن الله يريد خلاص الجميع ويتأنى على الخطاة.',
       },
       argumentType: 'textual',
       assessment: 'strong_historical_support',
       rationale: {
-        en: 'Both strands are present in the texts, in the Gospels, the letters of St Paul and the later letters. A reading that keeps only one of them does not represent what the New Testament says.',
-        ar: 'الخطان كلاهما حاضر في النصوص، في الأناجيل ورسائل القديس بولس والرسائل اللاحقة. والقراءة التي تحتفظ بأحدهما فقط لا تمثل ما يقوله العهد الجديد.',
+        en: 'Both strands run through the Gospels, the letters of St Paul and the later letters. The Church holds them together, as Scripture does: God\'s patience calls to repentance, and His judgment is real.',
+        ar: 'يسري الخطان معًا في الأناجيل ورسائل القديس بولس والرسائل اللاحقة. والكنيسة تجمعهما كما يجمعهما الكتاب المقدس: فأناة الله تدعو إلى التوبة، ودينونته حقيقية.',
       },
       limits: {
         en: 'This says what the texts teach. It does not decide how the two strands fit together, which is where Christians differ.',
@@ -90,14 +90,14 @@ export const article: Article = {
     {
       id: 'c2',
       proposition: {
-        en: 'A coherent Christian account holds that the final separation is the result of a free refusal of God, and not of a God who takes pleasure in loss; this keeps both divine goodness and human freedom.',
-        ar: 'يرى التفسير المسيحي المتماسك أن الانفصال الأخير نتيجة رفض حر لله، وليس نتيجة إله يسر بالهلاك؛ وهذا يحفظ صلاح الله وحرية الإنسان معًا.',
+        en: 'The final separation is the result of a free refusal of God, not of a God who takes pleasure in loss; this keeps both divine goodness and human freedom.',
+        ar: 'الانفصال الأخير نتيجة رفض حر لله، لا نتيجة إله يُسرّ بالهلاك؛ وبهذا يُحفظ صلاح الله وحرية الإنسان معًا.',
       },
       argumentType: 'philosophical',
       assessment: 'philosophical_argument',
       rationale: {
-        en: 'If love requires freedom, a love that can be refused is real; if it can be refused finally, the result is a separation that God does not will but allows.',
-        ar: 'إن كانت المحبة تتطلب الحرية، فالمحبة التي يمكن رفضها حقيقية؛ وإن أمكن رفضها رفضًا نهائيًا، فالنتيجة انفصال لا يريده الله لكنه يسمح به.',
+        en: 'Love requires freedom. A love that can be refused is real, and if it is refused to the end, the result is a separation that God does not will but allows.',
+        ar: 'المحبة تتطلب الحرية. والمحبة التي يمكن رفضها محبة حقيقية، وإن رُفضت إلى النهاية كانت النتيجة انفصالًا لا يريده الله لكنه يسمح به.',
       },
       limits: {
         en: 'Critics reply that no one in full knowledge of the truth and of the consequences would choose it finally, and that the view makes the choice too simple. The argument does not answer the case of those who never had a real chance to choose.',
@@ -109,13 +109,13 @@ export const article: Article = {
       id: 'c3',
       proposition: {
         en: 'The Church does not teach universal salvation, and it does not claim to know the fate of any particular person; it prays for the departed and leaves judgment to God.',
-        ar: 'لا تعلّم الكنيسة الخلاص العام للجميع، ولا تدّعي معرفة مصير أي شخص بعينه؛ إنها تصلي للراقدين وتترك الدينونة لله.',
+        ar: 'لا تعلّم الكنيسة الخلاص الشامل، ولا تدّعي معرفة مصير أي إنسان بعينه؛ بل تصلي من أجل الراقدين وتترك الدينونة لله.',
       },
       argumentType: 'theological',
       assessment: 'theological_interpretation',
       rationale: {
-        en: 'The Church’s liturgy prays for the repose of the departed, and its teaching affirms the judgment. It names saints, whom it believes to be with God, but it does not name anyone as lost. The text of Romans 2 on God’s impartial judgment supports the Church’s reserve.',
-        ar: 'تصلي الكنيسة في قداساتها لراحة الراقدين، ويؤكد تعليمها الدينونة. وهي تسمّي قديسين تؤمن أنهم مع الله، لكنها لا تسمّي أحدًا هالكًا. ويدعم نص رومية ٢ عن دينونة الله بلا محاباة تحفظ الكنيسة.',
+        en: 'The Church\'s liturgy prays for the repose of the departed, and her teaching affirms the judgment. She names saints, whom she believes to be with God, but she names no one as lost. Romans 2, on God\'s impartial judgment, grounds this reverent reserve.',
+        ar: 'تصلي ليتورجية الكنيسة من أجل نياحة الراقدين، ويؤكد تعليمها الدينونة. وهي تسمي قديسين تؤمن أنهم مع الله، لكنها لا تسمي أحدًا هالكًا. ورومية ٢، عن دينونة الله التي لا محاباة فيها، أساس هذا التحفظ الوقور.',
       },
       limits: {
         en: 'This describes the Church’s teaching and practice. It does not prove that the teaching is true.',
@@ -212,12 +212,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'If the final state is understood as a punishment measured against deeds, the objection has real force, and some Christians have felt it. Others reply that the state is not a sum of penalties but a condition that follows a continuing refusal of God, so the question is not proportion but whether a person who refuses love can be forced into it.',
-          'The Church does not describe the sufferings of the other world as a catalogue of tortures. The images in Scripture are warnings, and the Church’s teaching stresses that God desires repentance for as long as repentance is possible.',
+          'The final state is not a sum of penalties weighed against a short life. It is the condition that follows a continuing refusal of God. The question is not proportion, but whether a person who refuses love to the end can be forced into it, and love cannot be forced.',
+          'The Church does not describe the other world as a catalogue of tortures. The images in Scripture are warnings given in love, and God desires repentance for as long as repentance is possible.',
         ],
         ar: [
-          'إن فُهمت الحال الأخيرة عقوبة تُقاس بالأعمال فللاعتراض قوة حقيقية، وقد شعر بها بعض المسيحيين. ويردّ آخرون بأن الحال ليست مجموع عقوبات بل حالة تتبع رفضًا مستمرًا لله، فالسؤال ليس التناسب بل هل يمكن إجبار من يرفض المحبة عليها.',
-          'ولا تصف الكنيسة آلام العالم الآخر قائمة تعذيب. فصور الكتاب إنذارات، وتؤكد تعاليم الكنيسة أن الله يريد التوبة ما دامت ممكنة.',
+          'الحالة الأخيرة ليست مجموع عقوبات تُوزن مقابل حياة قصيرة. بل هي الحال التي تتبع رفضًا مستمرًا لله. فالسؤال ليس سؤال تناسب، بل هل يمكن إكراه من يرفض المحبة إلى النهاية على قبولها، والمحبة لا تُفرض بالإكراه.',
+          'لا تصف الكنيسة العالم الآخر قائمةَ عذابات. فالصور في الكتاب المقدس تحذيرات تُعطى بمحبة، والله يريد التوبة ما دامت التوبة ممكنة.',
         ],
       },
       limits: {
@@ -234,12 +234,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The Church replies that God’s power does not include forcing love, since a forced love would not be love. It affirms that God’s will is the salvation of all and that this will can be refused. It adds that the Church prays for all without exception and hopes for more than it can see.',
-          'Some Christians have gone further and hoped for the salvation of all, as Origen did. The Church does not forbid hope for others, but it has not accepted the teaching that all will certainly be restored, because Scripture speaks of the possibility of final loss and takes human choice seriously.',
+          'God\'s power does not include forcing love, since a forced love would not be love. God\'s will is the salvation of all, and this will can be refused. The limit is not in God\'s love or power but in the freedom He gives.',
+          'The Church prays for all without exception and hopes in God\'s mercy. She has not accepted the teaching that all will certainly be restored, because Scripture speaks of the possibility of final loss and takes human choice seriously.',
         ],
         ar: [
-          'تجيب الكنيسة بأن قدرة الله لا تشمل إكراه المحبة، لأن المحبة المكرهة ليست محبة. وهي تؤكد أن مشيئة الله خلاص الجميع وأن هذه المشيئة يمكن رفضها. وتضيف أن الكنيسة تصلي لأجل الجميع بلا استثناء وترجو أكثر مما ترى.',
-          'وذهب بعض المسيحيين أبعد فرجوا خلاص الجميع، كما فعل أوريجانوس. ولا تمنع الكنيسة الرجاء للآخرين، لكنها لم تقبل التعليم بأن الجميع سيُستعادون حتمًا، لأن الكتاب يتكلم عن إمكان الهلاك النهائي ويأخذ اختيار الإنسان بجدية.',
+          'قدرة الله لا تشمل إكراه المحبة، لأن المحبة المُكرهة ليست محبة. ومشيئة الله خلاص الجميع، وهذه المشيئة يمكن أن تُرفض. فالحد ليس في محبة الله ولا في قدرته، بل في الحرية التي يمنحها.',
+          'والكنيسة تصلي من أجل الجميع بلا استثناء، وترجو رحمة الله. ولم تقبل التعليم القائل إن الجميع سيُستعادون حتمًا، لأن الكتاب المقدس يتكلم عن إمكان الهلاك النهائي ويأخذ اختيار الإنسان بجدية.',
         ],
       },
       limits: {
@@ -256,12 +256,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The history of misuse is real, and the Church should say so. But the misuse of a belief does not settle whether it is true; the question has to be asked about the belief itself. The Church’s own tradition warns against preaching judgment to frighten and teaches that repentance is to be drawn out by love.',
-          'The doctrine also plays another part: it takes human actions seriously. It says that what is done to the poor and the weak matters for ever and will be answered, which is a source of hope for those who have suffered injustice.',
+          'The misuse is real, and it is to be regretted. But the misuse of a truth does not make it false. The Church\'s own tradition warns against preaching judgment to frighten, and teaches that repentance is to be drawn out by love.',
+          'The doctrine also takes human actions seriously. What is done to the poor and the weak matters for ever and will be answered. For those who have suffered injustice, that is a source of hope.',
         ],
         ar: [
-          'تاريخ سوء الاستعمال حقيقي، وينبغي للكنيسة أن تقول ذلك. لكن سوء استعمال عقيدة لا يحسم صحتها؛ ويجب أن يُسأل السؤال عن العقيدة نفسها. وفي تقليد الكنيسة تحذير من الوعظ بالدينونة للتخويف، وتعليم أن التوبة يجب أن تُستمال بالمحبة.',
-          'وللتعليم دور آخر أيضًا: فهو يأخذ أفعال الإنسان بجدية. ويقول إن ما يُفعل بالفقراء والضعفاء له شأن إلى الأبد وسيُجاب عنه، وهو مصدر رجاء لمن عانوا الظلم.',
+          'إساءة الاستعمال حقيقية، ويؤسف لها. لكن إساءة استعمال الحق لا تجعله باطلًا. وتقليد الكنيسة نفسه يحذّر من الكرازة بالدينونة للتخويف، ويعلّم أن التوبة تُستدعى بالمحبة.',
+          'والعقيدة أيضًا تأخذ أعمال البشر بجدية. فما يُفعل بالفقراء والضعفاء يهم إلى الأبد وسيُجازى عنه. ولمن قاسوا الظلم هذا مصدر رجاء.',
         ],
       },
       limits: {
@@ -275,10 +275,10 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'This question does not rest on a historical argument. What can be said historically is limited to what the texts say, that Jesus is reported to have spoken of judgment in strong terms, and that the early Church prayed for the departed and kept a doctrine of final judgment.',
+        'This question is theological rather than historical. Historically, the Gospels record that Jesus spoke of judgment in strong terms, and the early Church prayed for the departed and kept a doctrine of final judgment.',
       ],
       ar: [
-        'لا يقوم هذا السؤال على حجة تاريخية. وما يمكن قوله تاريخيًا مقصور على ما تقوله النصوص، وأن يسوع يُروى أنه تكلم عن الدينونة بعبارات قوية، وأن الكنيسة الأولى صلّت للراقدين واحتفظت بعقيدة الدينونة الأخيرة.',
+        'هذا السؤال لاهوتي لا تاريخي. ومن الناحية التاريخية تسجل الأناجيل أن يسوع تكلم عن الدينونة بعبارات قوية، وكانت الكنيسة الأولى تصلي من أجل الراقدين وتتمسك بعقيدة الدينونة الأخيرة.',
       ],
     },
     theological: {
@@ -313,8 +313,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'The doctrine of final judgment is hard, and its difficulty is felt by believers as much as by critics. The Church holds that God wants all to be saved, that he is just and merciful, and that human beings can refuse him; it does not teach universal salvation, does not describe the other world beyond what is revealed, and does not claim to know who is lost. It offers this as faith held with humility about what God has not shown.',
-    ar: 'تعليم الدينونة الأخيرة صعب، ويشعر بصعوبته المؤمنون كما ينتقدونه. وتعتقد الكنيسة أن الله يريد أن الجميع يخلصون، وأنه عادل ورحيم، وأن الإنسان يستطيع أن يرفضه؛ ولا تعلّم الخلاص العام للجميع، ولا تصف العالم الآخر أكثر مما أُعلن، ولا تدّعي أنها تعرف من يهلك. وتقدم هذا إيمانًا يُمسَك بتواضع أمام ما لم يُظهره الله.',
+    en: 'Eternal judgment is a hard teaching, but it does not contradict God\'s goodness. God wants all to be saved, He is just and merciful, and He gives human beings the freedom to receive or refuse His love. The Judge is Christ, who died for all. The Church prays for everyone, names no one as lost, and trusts the mercy of God.',
+    ar: 'الدينونة الأبدية تعليم صعب، لكنها لا تناقض صلاح الله. فالله يريد خلاص الجميع، وهو عادل ورحيم، ويعطي الإنسان حرية قبول محبته أو رفضها. والديّان هو المسيح الذي مات عن الجميع. والكنيسة تصلي من أجل الجميع، ولا تسمي أحدًا هالكًا، وتثق برحمة الله.',
   },
   furtherReading: ['S62'],
   related: [

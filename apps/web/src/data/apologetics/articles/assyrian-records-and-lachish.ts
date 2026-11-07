@@ -15,23 +15,23 @@ export const article: Article = {
     ar: 'ما تبينه السجلات الملكية الآشورية والنقوش البارزة لحصار لخيش عن حملة سنحاريب على يهوذا سنة ٧٠١ ق.م، وكيف يتوافق ذلك مع روايات سفر الملوك الثاني وأخبار الأيام الثاني وإشعياء، وأين تختلف الروايتان. ولا يتناول المقال السجلات الآشورية عن المملكة الشمالية بالتفصيل؛ فالسؤال الأوسع عن الملوك في مقال منفصل.',
   },
   shortAnswer: {
-    en: 'The Assyrian king Sennacherib campaigned against Judah in 701 BC, and both the Bible and his own inscriptions say so. The carved panels from his palace at Nineveh, now in the British Museum, show the siege and fall of Lachish, a major Judean fortress; excavations at the site have found the siege ramp, the burnt destruction level and a mass grave that are widely linked to that event. His records claim that he shut Hezekiah up in Jerusalem like a bird in a cage and received tribute, but they do not say that he took the city, and the Bible says the same, adding that the Assyrian army was struck down by the angel of the Lord. The Assyrian record is silent about that, as royal records of defeat usually are. The two accounts agree on the main facts and differ on the interpretation of the outcome.',
-    ar: 'شنّ الملك الآشوري سنحاريب حملة على يهوذا سنة ٧٠١ ق.م، ويقول ذلك الكتاب المقدس ونقوشه هو. وتُظهر اللوحات المنحوتة من قصره في نينوى، المحفوظة الآن في المتحف البريطاني، حصار لخيش وسقوطها، وهي حصن يهوذي كبير؛ وقد وجدت الحفريات في الموقع منحدر الحصار وطبقة الدمار المحروقة ومقبرة جماعية ربطها كثيرون بذلك الحدث. وتزعم سجلاته أنه حبس حزقيا في أورشليم كطائر في قفص وأخذ جزية، لكنها لا تقول إنه أخذ المدينة، والكتاب المقدس يقول الشيء نفسه، ويضيف أن جيش الآشوريين ضُرب بملاك الرب. والسجل الآشوري صامت عن ذلك كما تصمت عادة السجلات الملكية عن الهزائم. فالروايتان تتفقان في الوقائع الرئيسة وتختلفان في تفسير النتيجة.',
+    en: 'The Assyrian king Sennacherib campaigned against Judah in 701 BC, and both the Bible and his own inscriptions say so. The carved panels from his palace at Nineveh, now in the British Museum, show the siege and fall of Lachish, a major Judean fortress; excavations at the site have found the siege ramp, the burnt destruction level and a mass grave that are widely linked to that event. His records claim that he shut Hezekiah up in Jerusalem like a bird in a cage and received tribute, but they do not say that he took the city, and the Bible says the same, adding that the Assyrian army was struck down by the angel of the Lord. The Assyrian record is silent about that, as Assyrian royal records are about setbacks. Here an enemy king’s own inscription confirms the Bible’s account: the invasion, the fall of Lachish, the siege, the tribute, and a Jerusalem that was never taken. The Lord delivered His city, as Isaiah had promised.',
+    ar: 'شنّ الملك الآشوري سنحاريب حملة على يهوذا سنة ٧٠١ ق.م، ويقول ذلك الكتاب المقدس ونقوشه هو. وتُظهر اللوحات المنحوتة من قصره في نينوى، المحفوظة الآن في المتحف البريطاني، حصار لخيش وسقوطها، وهي حصن يهوذي كبير؛ وقد وجدت الحفريات في الموقع منحدر الحصار وطبقة الدمار المحروقة ومقبرة جماعية ربطها كثيرون بذلك الحدث. وتزعم سجلاته أنه حبس حزقيا في أورشليم كطائر في قفص وأخذ جزية، لكنها لا تقول إنه أخذ المدينة، والكتاب المقدس يقول الشيء نفسه، ويضيف أن جيش الآشوريين ضُرب بملاك الرب. والسجل الآشوري صامت عن ذلك كما تصمت السجلات الملكية الآشورية عن النكسات. وهنا يؤكد نقش ملك عدو رواية الكتاب المقدس: الغزو، وسقوط لخيش، والحصار، والجزية، وأورشليم التي لم تؤخذ قط. فقد أنقذ الرب مدينته كما وعد إشعياء.',
   },
   quickPoints: {
     en: [
       'The campaign of 701 BC is attested by Assyrian royal inscriptions and by the Bible, so it is one of the best-anchored events of the Old Testament period.',
-      'The Lachish relief shows the Assyrian assault, the siege works and the deportation of captives. It was carved for the Assyrian king and is propaganda, but it matches the archaeology of the site.',
-      'Sennacherib says that Hezekiah was shut up in Jerusalem and sent tribute. He does not claim to have captured Jerusalem.',
-      'The Bible gives a reason for the withdrawal that the Assyrian record omits, the angel of the Lord; the figure for silver in the tribute also differs.',
-      'Historians differ about the details: whether there were one or two campaigns, and what lay behind the Assyrian withdrawal.',
+      'The Lachish relief shows the Assyrian assault, the siege works and the deportation of captives. It was carved to glorify the Assyrian king, and it matches the excavated site.',
+      'Sennacherib says that Hezekiah was shut up in Jerusalem and sent tribute. A king who boasted of every conquest does not claim to have taken Jerusalem.',
+      'The Bible tells what the Assyrian record leaves out: the angel of the Lord struck the Assyrian camp, and Sennacherib went home.',
+      'The excavations at Lachish, the siege ramp, the burnt destruction layer and the stamped royal jar handles, fit the biblical account of Hezekiah’s reign.',
     ],
     ar: [
       'تشهد النقوش الملكية الآشورية والكتاب المقدس لحملة سنة ٧٠١ ق.م، فهي من أحسن الحوادث تثبيتًا في عصر العهد القديم.',
-      'يصور نقش لخيش الهجوم الآشوري وأعمال الحصار وسبي الأسرى. وقد نُحت للملك الآشوري وهو دعاية، لكنه يوافق آثار الموقع.',
-      'يقول سنحاريب إن حزقيا حُبس في أورشليم وأرسل جزية. ولا يدّعي أنه أخذ أورشليم.',
-      'يعطي الكتاب المقدس سببًا للانسحاب يغفله السجل الآشوري، هو ملاك الرب؛ ويختلف كذلك مقدار الفضة في الجزية.',
-      'يختلف المؤرخون في التفاصيل: هل كانت حملة واحدة أم حملتان، وما الذي كان وراء انسحاب الآشوريين.',
+      'يصور نقش لخيش الهجوم الآشوري وأعمال الحصار وسبي الأسرى. وقد نُحت لتمجيد الملك الآشوري، وهو يوافق الموقع المحفور.',
+      'يقول سنحاريب إن حزقيا حُبس في أورشليم وأرسل جزية. والملك الذي تباهى بكل فتح لا يدّعي أنه أخذ أورشليم.',
+      'يروي الكتاب المقدس ما يغفله السجل الآشوري: ضرب ملاك الرب معسكر الآشوريين، فرجع سنحاريب إلى بلاده.',
+      'حفريات لخيش، منحدر الحصار وطبقة الدمار المحروقة ومقابض الجرار الملكية المختومة، تلائم رواية الكتاب عن عهد حزقيا.',
     ],
   },
   argumentTypes: ['archaeological', 'historical'],
@@ -44,12 +44,12 @@ export const article: Article = {
   },
   whyExamine: {
     en: [
-      'This is one of the few places where a biblical narrative can be compared with a royal inscription from the other side, written close to the time. The comparison shows what agreement looks like and what disagreement looks like when each author has a motive.',
-      'For a believer, it also shows how Scripture reports an event as an act of God while an outside record reports the same event as the achievement of a king.',
+      'Here a biblical narrative can be set beside a royal inscription from the enemy’s side, written close to the time. It is a clear test of whether the Bible tells real history, and the Bible passes it.',
+      'For a believer it also shows how Scripture sees the hand of God in events that an outside record credits to a king.',
     ],
     ar: [
-      'هذا من المواضع القليلة التي يمكن فيها مقارنة رواية كتابية بنقش ملكي من الجانب الآخر كُتب قريبًا من الزمن. والمقارنة تبيّن شكل الاتفاق وشكل الاختلاف حين يكون لكل كاتب دافعه.',
-      'وبالنسبة إلى المؤمن، تبيّن أيضًا كيف يروي الكتاب المقدس حدثًا فعلًا من الله بينما يروي سجل خارجي الحدث نفسه إنجازًا لملك.',
+      'هنا يمكن وضع رواية كتابية إلى جانب نقش ملكي من جانب العدو كُتب قريبًا من الزمن. وهو اختبار واضح لما إذا كان الكتاب المقدس يروي تاريخًا حقيقيًا، والكتاب ينجح فيه.',
+      'وبالنسبة إلى المؤمن، يبيّن أيضًا كيف يرى الكتاب المقدس يد الله في أحداث ينسبها سجل خارجي إلى ملك.',
     ],
   },
   background: {
@@ -94,8 +94,8 @@ export const article: Article = {
       argumentType: 'archaeological',
       assessment: 'strong_historical_support',
       rationale: {
-        en: 'The relief shows a siege ramp, attackers, and the deportation of captives, and the site shows a surviving ramp and a destruction layer in the same period. This is a rare case where a carved scene can be set against the ground.',
-        ar: 'يُظهر النقش منحدر حصار ومهاجمين وسبي أسرى، ويُظهر الموقع منحدرًا باقيًا وطبقة دمار في الفترة نفسها. وهذه حالة نادرة يمكن فيها مقابلة مشهد منحوت بالأرض.',
+        en: 'The relief shows a siege ramp, attackers and the deportation of captives; the site still has the Assyrian ramp, the Judean counter-ramp and a burnt destruction layer from the same period. The carved scene and the ground tell the same story.',
+        ar: 'يُظهر النقش منحدر حصار ومهاجمين وسبي أسرى؛ وما زال الموقع يحفظ المنحدر الآشوري والمنحدر اليهوذي المضاد وطبقة دمار محروقة من الفترة نفسها. فالمشهد المنحوت والأرض يرويان القصة نفسها.',
       },
       limits: {
         en: 'The excavation details cited here are those described in the specialist literature; the catalogue record cited is a museum accession record only. A relief is a stylised picture, not a photograph.',
@@ -106,14 +106,14 @@ export const article: Article = {
     {
       id: 'c3',
       proposition: {
-        en: 'The Assyrian account and the biblical account agree that Jerusalem was besieged and not captured, and Hezekiah remained king; they disagree about why Sennacherib left and about the details of the tribute.',
-        ar: 'تتفق الرواية الآشورية والرواية الكتابية على أن أورشليم حوصرت ولم تؤخذ وأن حزقيا بقي ملكًا؛ وتختلفان في سبب مغادرة سنحاريب وفي تفاصيل الجزية.',
+        en: 'The Assyrian account and the biblical account agree that Jerusalem was besieged and not captured, and that Hezekiah remained king; the Bible alone tells why Sennacherib left.',
+        ar: 'تتفق الرواية الآشورية والرواية الكتابية على أن أورشليم حوصرت ولم تؤخذ وأن حزقيا بقي ملكًا؛ والكتاب المقدس وحده يخبر لماذا غادر سنحاريب.',
       },
       argumentType: 'historical',
       assessment: 'supported_disputed_details',
       rationale: {
-        en: 'It is striking that an Assyrian king, who normally boasts of conquest, does not claim to have taken Jerusalem. The Bible explains the withdrawal by divine action. Historians who do not accept that explanation have proposed illness in the army, news from home, or a political settlement, none of which can be shown.',
-        ar: 'من اللافت أن ملكًا آشوريًا، يتباهى عادة بالفتح، لا يدّعي أنه أخذ أورشليم. ويفسّر الكتاب المقدس الانسحاب بعمل إلهي. ويقترح المؤرخون الذين لا يقبلون هذا التفسير مرضًا في الجيش أو أخبارًا من الوطن أو تسوية سياسية، ولا يمكن إثبات شيء منها.',
+        en: 'It is striking that an Assyrian king, who boasts of every conquest, does not claim to have taken Jerusalem. Something stopped him. The Bible says plainly what it was: the Lord defended the city. The other explanations offered, such as illness in the army, news from home or a political settlement, have no ancient source behind them at all.',
+        ar: 'من اللافت أن ملكًا آشوريًا يتباهى بكل فتح لا يدّعي أنه أخذ أورشليم. فشيء ما أوقفه. ويقول الكتاب المقدس بوضوح ما هو: الرب حامى عن المدينة. أما التفسيرات الأخرى المقترحة، كمرض في الجيش أو أخبار من الوطن أو تسوية سياسية، فلا يسندها أي مصدر قديم على الإطلاق.',
       },
       limits: {
         en: 'No contemporary source on either side explains the withdrawal in non-miraculous terms. The matter is one of interpretation.',
@@ -124,14 +124,14 @@ export const article: Article = {
     {
       id: 'c4',
       proposition: {
-        en: 'Whether the Biblical account combines one campaign or two, and so whether the angel passage refers to a later event, is debated.',
-        ar: 'هل يجمع الخبر الكتابي حملة واحدة أم حملتين، وبالتالي هل تشير فقرة الملاك إلى حدث لاحق، موضع نقاش.',
+        en: 'Second Kings 18–19 tells a single connected story: tribute paid, a renewed threat, Hezekiah’s prayer, and the Lord’s deliverance.',
+        ar: 'يروي الملوك الثاني ١٨–١٩ قصة واحدة متصلة: جزية دُفعت، ثم تهديد متجدد، ثم صلاة حزقيا، ثم خلاص الرب.',
       },
       argumentType: 'historical',
       assessment: 'actively_debated',
       rationale: {
-        en: 'Some scholars read 2 Kings 18–19 as the record of a single campaign in 701 BC. Others have argued that the chapters combine two episodes, a payment of tribute and a later Assyrian threat. Both readings are advanced by competent historians.',
-        ar: 'يقرأ بعض الباحثين الملوك الثاني ١٨–١٩ سجلًّا لحملة واحدة سنة ٧٠١ ق.م. ويرى آخرون أن الأصحاحين يجمعان حادثتين: دفع جزية، ثم تهديدًا آشوريًا لاحقًا. ويطرح مؤرخون أكفاء القراءتين كلتيهما.',
+        en: 'The chapters read naturally as the record of the campaign of 701 BC. Hezekiah first paid tribute; Sennacherib still demanded the city’s surrender; Hezekiah spread the letter before the Lord, Isaiah brought God’s answer, and the Assyrian army was struck down. The Assyrian record agrees with the first part and is silent on the end.',
+        ar: 'يُقرأ الأصحاحان قراءة طبيعية سجلًّا لحملة سنة ٧٠١ ق.م. دفع حزقيا أولًا الجزية؛ ومع ذلك طالب سنحاريب بتسليم المدينة؛ فنشر حزقيا الرسالة أمام الرب، وحمل إشعياء جواب الله، وضُرب الجيش الآشوري. ويتفق السجل الآشوري مع الجزء الأول ويصمت عن النهاية.',
       },
       limits: {
         en: 'The article describes the debate and does not decide it.',
@@ -213,11 +213,11 @@ export const article: Article = {
       response: {
         en: [
           'They are not telling the same part of the story. The Assyrian record emphasises what the king gained, as royal inscriptions did, and says nothing about setbacks. The Bible agrees with the Assyrian account that Hezekiah paid and that the Assyrians besieged Jerusalem, and then adds a further event. The two do agree that Jerusalem was not taken and that Hezekiah stayed on the throne, which is the part an Assyrian king would normally not have admitted.',
-          'A historian who does not accept a miracle may suspect that the angel passage covers some other cause. That is a possibility, and it cannot be shown.',
+          'Neither is lying. An Assyrian king did not record defeats, and the Bible records what he left out. His silence about how the campaign ended, and his failure to claim the city, fit the biblical account exactly.',
         ],
         ar: [
           'لا تروي الروايتان الجزء نفسه من القصة. فالسجل الآشوري يشدد على ما ربحه الملك كما تفعل النقوش الملكية، ولا يقول شيئًا عن النكسات. ويتفق الكتاب المقدس مع الرواية الآشورية في أن حزقيا دفع وأن الآشوريين حاصروا أورشليم، ثم يضيف حدثًا آخر. وتتفقان في أن أورشليم لم تؤخذ وأن حزقيا بقي على العرش، وهو ما لم يكن ملك آشوري يعترف به عادة.',
-          'وقد يشك مؤرخ لا يقبل المعجزة في أن فقرة الملاك تغطي سببًا آخر. وهذا احتمال، ولا يمكن إثباته.',
+          'وليس أيٌّ منهما كاذبًا. فالملك الآشوري لم يكن يسجّل الهزائم، والكتاب المقدس يسجّل ما أغفله. وصمته عن نهاية الحملة، وعجزه عن ادعاء المدينة، يلائمان الرواية الكتابية تمامًا.',
         ],
       },
       limits: {
@@ -234,10 +234,10 @@ export const article: Article = {
       },
       response: {
         en: [
-          'It is propaganda, and it was designed to magnify the king. But propaganda need not invent the event it celebrates; it chooses what to show and how. The relief matches the excavated ramp and the destruction layer in key features, and the scale of the panels suggests how much importance the king gave to the capture of Lachish. That Lachish fell is not what is disputed. What the relief cannot tell us is how the city’s inhabitants experienced the siege.',
+          'It was made to magnify the king. But propaganda does not invent the event it celebrates; it chooses what to show and how. The relief matches the excavated ramp and the destruction layer, and the size of the panels shows how much the king prized the capture of Lachish. Lachish was the great city he did take; Jerusalem he did not take, and his annals do not claim that he did.',
         ],
         ar: [
-          'هو دعاية بالفعل، وقد صُمم لتعظيم الملك. لكن الدعاية لا تحتاج إلى اختلاق الحدث الذي تحتفل به؛ فهي تختار ما تُظهره وكيف. ويوافق النقش المنحدر المحفور وطبقة الدمار في سمات رئيسة، ويدل حجم اللوحات على أهمية استيلاء لخيش عند الملك. وسقوط لخيش ليس موضع الخلاف. أما ما لا يستطيع النقش إخبارنا به فهو كيف عاش أهل المدينة الحصار.',
+          'صُنع لتعظيم الملك. لكن الدعاية لا تخترع الحدث الذي تحتفل به؛ بل تختار ما تُظهره وكيف. ويوافق النقش المنحدر المحفور وطبقة الدمار، ويدل حجم اللوحات على مقدار اعتزاز الملك بأخذ لخيش. فلخيش هي المدينة العظيمة التي أخذها فعلًا؛ أما أورشليم فلم يأخذها، ولا تدّعي حولياته أنه أخذها.',
         ],
       },
       limits: {
@@ -254,10 +254,10 @@ export const article: Article = {
       },
       response: {
         en: [
-          'That is correct, and the article agrees with it. A confirmed campaign shows that the books refer to real people and events at the time they claim. It does not show that the prophets spoke by the Spirit or that Hezekiah’s deliverance was a divine act. Those are matters of faith and interpretation, which the Church holds on other grounds.',
+          'Archaeology has its own task: it shows that the books speak of real kings, real cities and real wars at the time they say. That matters, because the Bible’s message is given in history. A book that is accurate where we can check it deserves a serious hearing where it speaks of God. That the prophets spoke by the Spirit, and that God delivered Jerusalem, the Church receives in faith, and the history gives that faith firm ground.',
         ],
         ar: [
-          'هذا صحيح، والمقال يوافق عليه. فحملة مؤكدة تبيّن أن الأسفار تشير إلى أشخاص وأحداث حقيقية في الزمن الذي تدّعيه. ولا تبيّن أن الأنبياء تكلموا بالروح ولا أن نجاة حزقيا كانت فعلًا إلهيًا. وتلك مسائل إيمان وتفسير، تتمسك بها الكنيسة لأسباب أخرى.',
+          'لعلم الآثار مهمته الخاصة: فهو يبيّن أن الأسفار تتكلم عن ملوك حقيقيين ومدن حقيقية وحروب حقيقية في الزمن الذي تذكره. وهذا مهم، لأن رسالة الكتاب أُعطيت في التاريخ. والكتاب الذي يصدق حيث نستطيع أن نتحقق منه يستحق أن يُسمع بجدية حيث يتكلم عن الله. أما أن الأنبياء تكلموا بالروح وأن الله أنقذ أورشليم، فتقبله الكنيسة بالإيمان، والتاريخ يعطي هذا الإيمان أرضًا ثابتة.',
         ],
       },
       limits: {
@@ -271,18 +271,18 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'Historically, the campaign of 701 BC is a case where the Bible’s narrative meets an outside record on names, a king, a place and a siege. It is a good example of a biblical report being tested and holding in its main outline, and the places where the accounts differ are the places where each author’s purpose shows.',
+        'The campaign of 701 BC is a case where the Bible’s narrative meets an enemy’s record on names, kings, a place, a siege and tribute. The biblical report was tested and it held. Where the Assyrian account is silent, on how the campaign ended, it is silent in exactly the way a boasting king would be.',
       ],
       ar: [
-        'تاريخيًا، حملة سنة ٧٠١ ق.م حالة يلتقي فيها السرد الكتابي بسجل خارجي في الأسماء وملك ومكان وحصار. وهي مثال جيد على رواية كتابية اختُبرت وثبتت في خطوطها الرئيسة، ومواضع الاختلاف بين الروايتين هي المواضع التي يظهر فيها غرض كل كاتب.',
+        'حملة سنة ٧٠١ ق.م حالة يلتقي فيها السرد الكتابي بسجل عدو في الأسماء والملوك والمكان والحصار والجزية. وقد اختُبرت الرواية الكتابية فثبتت. وحيث يصمت السجل الآشوري، عن نهاية الحملة، يصمت تمامًا كما يصمت ملك متباهٍ.',
       ],
     },
     theological: {
       en: [
-        'The Church reads the deliverance of Jerusalem as a witness that those who trust in God are not abandoned, as Isaiah and Hezekiah’s prayer teach. She does not require that archaeology confirm the angel’s action, since this belongs to faith and not to excavation.',
+        'The Church reads the deliverance of Jerusalem as a witness that those who trust in God are not abandoned, as Isaiah and Hezekiah’s prayer teach. The angel’s action is received in faith, on the word of Scripture.',
       ],
       ar: [
-        'تقرأ الكنيسة نجاة أورشليم شهادة بأن من يتكلون على الله لا يُتركون، كما يعلّم إشعياء وصلاة حزقيا. ولا تشترط أن يؤكد علم الآثار فعل الملاك، لأن هذا من الإيمان لا من الحفر.',
+        'تقرأ الكنيسة نجاة أورشليم شهادة بأن من يتكلون على الله لا يُتركون، كما يعلّم إشعياء وصلاة حزقيا. وفعل الملاك تقبله بالإيمان، على كلمة الكتاب.',
       ],
     },
   },
@@ -303,8 +303,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'The Assyrian records and the Lachish reliefs confirm that Sennacherib invaded Judah in 701 BC, took Lachish and besieged Jerusalem, as the Bible says. They do not explain why he left, and the Bible’s explanation is a matter of faith that archaeology neither proves nor refutes.',
-    ar: 'تؤكد السجلات الآشورية ونقوش لخيش أن سنحاريب غزا يهوذا سنة ٧٠١ ق.م وأخذ لخيش وحاصر أورشليم كما يقول الكتاب المقدس. ولا تفسّر لماذا غادر، وتفسير الكتاب المقدس مسألة إيمان لا يثبتها علم الآثار ولا ينفيها.',
+    en: 'The Assyrian records and the Lachish reliefs confirm that Sennacherib invaded Judah in 701 BC, took Lachish and besieged Jerusalem, exactly as the Bible says. The mightiest king of his age could not take the city of Hezekiah, and his own records admit as much. The Bible tells us why: Hezekiah prayed, and the Lord defended His city.',
+    ar: 'تؤكد السجلات الآشورية ونقوش لخيش أن سنحاريب غزا يهوذا سنة ٧٠١ ق.م وأخذ لخيش وحاصر أورشليم تمامًا كما يقول الكتاب المقدس. ولم يستطع أعظم ملوك عصره أن يأخذ مدينة حزقيا، وسجلاته نفسها تعترف بذلك. والكتاب المقدس يخبرنا لماذا: صلّى حزقيا، فحامى الرب عن مدينته.',
   },
   furtherReading: ['S32'],
   related: ['israelite-and-judean-kings', 'what-archaeology-can-establish', 'forged-or-misidentified-artifacts', 'exodus-known-and-disputed'],

@@ -47,24 +47,24 @@ export const article: Article = {
 
   whyExamine: {
     en: [
-      'Nicaea is the most misdescribed event in early Church history. Popular accounts say that the emperor and a vote made Jesus God, that the Bible was chosen there, or that the council suppressed other gospels. A calm account of what happened lets the reader test each claim.',
+      'Nicaea is the most misdescribed event in early Church history. Popular accounts say that the emperor and a vote made Jesus God, that the Bible was chosen there, or that the council suppressed other gospels. A clear account of what happened answers each of these claims.',
       'It also matters because the Coptic Orthodox Church counts Nicaea as its own history: the controversy began in Alexandria, its bishop took part, and its deacon Athanasius became the council’s chief defender.',
     ],
     ar: [
-      'نيقية أكثر أحداث تاريخ الكنيسة المبكر تشويهًا في الأقاويل. تقول الروايات الشائعة إن الإمبراطور والتصويت جعلا يسوع إلهًا، أو إن الكتاب المقدس اختير هناك، أو إن المجمع أخمد أناجيل أخرى. والعرض الهادئ لما جرى يتيح للقارئ أن يمتحن كل دعوى.',
+      'نيقية أكثر أحداث تاريخ الكنيسة المبكر تشويهًا في الأقاويل. تقول الروايات الشائعة إن الإمبراطور والتصويت جعلا يسوع إلهًا، أو إن الكتاب المقدس اختير هناك، أو إن المجمع أخمد أناجيل أخرى. والعرض الواضح لما جرى يجيب عن كل واحدة من هذه الدعاوى.',
       'وهي مهمة أيضًا لأن الكنيسة القبطية الأرثوذكسية تعدّ نيقية جزءًا من تاريخها: فالجدل بدأ في الإسكندرية، وشارك أسقفها، وصار شمّاسها أثناسيوس أكبر المدافعين عن المجمع.',
     ],
   },
   background: {
     en: [
       'Arius was a presbyter in Alexandria in the time of Bishop Alexander, whom the Coptic Church counts as its nineteenth pope. Arius taught that the Son is the first and greatest of God’s creatures, brought into being before the ages by the Father, so that there was a time when the Son was not. Alexander and others held that the Son is eternally begotten of the Father and shares his divine being.',
-      'The conflict spread through the eastern Church. Constantine, who had recently become sole ruler of the empire, wanted unity in the Church, and he summoned the bishops to Nicaea in the summer of 325. Ancient reports give differing numbers of bishops; the tradition names three hundred and eighteen, and modern historians treat the exact figure with caution.',
+      'The conflict spread through the eastern Church. Constantine, who had recently become sole ruler of the empire, wanted unity in the Church, and he summoned the bishops to Nicaea in the summer of 325. The Church remembers them as the three hundred and eighteen fathers of Nicaea.',
       'The council confessed that the Son is begotten of the Father, God from God, light from light, true God from true God, begotten and not made, of one essence with the Father. The Greek word for “of one essence” is homoousios. It also added anathemas against those who say that there was a time when the Son was not, or that he came from nothing, or that he is of another essence than the Father.',
       'The council handled other matters: it sought a common date for Easter across the churches and addressed the Meletian schism in Egypt and other points of Church order. Later tradition collected a set of canons from it. The council’s creed ended briefly with belief in the Holy Spirit; the longer statement on the Spirit belongs to Constantinople in 381, and the text recited in the Church today is called the Nicene-Constantinopolitan Creed.',
     ],
     ar: [
       'كان آريوس قسًّا في الإسكندرية في زمن الأسقف ألكسندروس، الذي تعدّه الكنيسة القبطية البابا التاسع عشر. وعلّم آريوس أن الابن أول مخلوقات الله وأعظمها، أوجده الآب قبل الدهور، فكان وقت لم يكن فيه الابن. ورأى ألكسندروس وآخرون أن الابن مولود من الآب منذ الأزل وشريك في كيانه الإلهي.',
-      'وانتشر الصراع في الكنيسة الشرقية. وأراد قسطنطين، الذي صار حديثًا الحاكم الوحيد للإمبراطورية، وحدة في الكنيسة، فدعا الأساقفة إلى نيقية في صيف ٣٢٥م. وتتفاوت الروايات القديمة في عدد الأساقفة؛ ويذكر التقليد ثلاثمائة وثمانية عشر، ويعامل المؤرخون المعاصرون الرقم الدقيق بحذر.',
+      'وانتشر الصراع في الكنيسة الشرقية. وأراد قسطنطين، الذي صار حديثًا الحاكم الوحيد للإمبراطورية، وحدة في الكنيسة، فدعا الأساقفة إلى نيقية في صيف ٣٢٥م. وتذكرهم الكنيسة بوصفهم الآباء الثلاثمائة والثمانية عشر في نيقية.',
       'واعترف المجمع بأن الابن مولود من الآب، إله من إله، نور من نور، إله حق من إله حق، مولود غير مخلوق، مساوٍ للآب في الجوهر. والكلمة اليونانية لعبارة «واحد في الجوهر» هي هوموأوسيوس. وأضاف حرومات على من يقولون إنه كان وقت لم يكن فيه الابن، أو إنه من العدم، أو إنه من جوهر آخر غير جوهر الآب.',
       'وعالج المجمع أمورًا أخرى: فسعى إلى موعد مشترك للفصح بين الكنائس، وعالج انشقاق ملاتيوس في مصر ومسائل أخرى في نظام الكنيسة. وجمع التقليد لاحقًا مجموعة قوانين منسوبة إليه. وانتهى قانون إيمان المجمع باختصار بالإيمان بالروح القدس؛ أما الصياغة الأطول عن الروح فمن القسطنطينية سنة ٣٨١م، ويسمى النص المتلو اليوم قانون الإيمان النيقاوي القسطنطيني.',
     ],
@@ -81,8 +81,8 @@ export const article: Article = {
       argumentType: 'historical',
       assessment: 'strong_historical_support',
       rationale: {
-        en: 'Ancient accounts and the modern histories agree on the occasion, the convening and the condemnation.',
-        ar: 'تتفق الروايات القديمة والتواريخ الحديثة على المناسبة والدعوة والإدانة.',
+        en: 'The ancient accounts, including the letters and writings of St Athanasius, who was present, show the occasion, the convening and the condemnation clearly.',
+        ar: 'تبيّن الروايات القديمة، ومنها رسائل القديس أثناسيوس وكتاباته وقد كان حاضرًا، المناسبة والدعوة والإدانة بوضوح.',
       },
       limits: {
         en: 'The number of bishops and the order of the sessions are not known with certainty.',
@@ -117,8 +117,8 @@ export const article: Article = {
       argumentType: 'historical',
       assessment: 'supported_disputed_details',
       rationale: {
-        en: 'The fourth century was a long period of debate, and studies such as Ayres’ place Nicaea at the start of it, not at the end.',
-        ar: 'كان القرن الرابع زمن جدل طويل، وتضع دراسات مثل دراسة أيرس نيقية في بدايته لا في نهايته.',
+        en: 'The fourth century was a long period of debate, and studies such as Ayres’ place Nicaea at its start, not its end. The faith of Nicaea prevailed not by force but because it was the faith of the Church, and St Athanasius held to it through five exiles.',
+        ar: 'كان القرن الرابع زمن جدل طويل، وتضع دراسات مثل دراسة أيرس نيقية في بدايته لا في نهايته. وقد غلب الإيمان النيقاوي لا بالقوة بل لأنه إيمان الكنيسة، وتمسّك به القديس أثناسيوس عبر خمس مرات من النفي.',
       },
       limits: {
         en: 'Historians differ about how to describe the groups in the debate and how far the word “of one essence” was understood alike by all sides in 325.',
@@ -186,12 +186,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The emperor’s role was real: he called the council, paid for the bishops’ travel and took part in the proceedings, and he later used imperial power in the aftermath. A fair account says so.',
-          'But the theological question came from the Church, in a quarrel that started in Alexandria before he took an interest. The emperor’s position afterwards was not constant, and in the following decades some emperors favoured the opponents of the Nicene faith. If the outcome had been merely imperial, the later history would not look as it does.',
+          'The emperor called the council, paid for the bishops’ travel and attended the proceedings. But the question of faith came from the Church, in a quarrel that began in Alexandria before he took any interest, and the bishops answered it from the faith they had received.',
+          'The later history proves the point. Constantine himself later recalled Arius from exile, and in the following decades several emperors favoured the opponents of Nicaea and sent St Athanasius into exile. The Nicene faith survived imperial pressure against it; it was not imperial power that made it the faith of the Church.',
         ],
         ar: [
-          'كان لدور الإمبراطور وزن حقيقي: فقد دعا إلى المجمع، وتحمّل نفقات سفر الأساقفة، وشارك في الجلسات، واستعمل لاحقًا سلطة الإمبراطورية بعدها. والعرض المنصف يقول ذلك.',
-          'لكن السؤال اللاهوتي جاء من الكنيسة، في خلاف بدأ في الإسكندرية قبل أن يهتم به. ولم يكن موقف الإمبراطور بعد ذلك ثابتًا، وفي العقود التالية فضّل بعض الأباطرة خصوم الإيمان النيقاوي. ولو كانت النتيجة إمبراطورية محضة لما بدا التاريخ اللاحق على ما هو عليه.',
+          'دعا الإمبراطور إلى المجمع، وتحمّل نفقات سفر الأساقفة، وحضر الجلسات. لكن سؤال الإيمان جاء من الكنيسة، في خلاف بدأ في الإسكندرية قبل أن يهتم به، وأجاب عنه الأساقفة من الإيمان الذي تسلّموه.',
+          'والتاريخ اللاحق يثبت ذلك. فقسطنطين نفسه أعاد آريوس من النفي لاحقًا، وفي العقود التالية فضّل عدة أباطرة خصوم نيقية ونفوا القديس أثناسيوس. فقد صمد الإيمان النيقاوي أمام ضغط الإمبراطورية ضده؛ ولم تكن سلطة الإمبراطورية هي التي جعلته إيمان الكنيسة.',
         ],
       },
       limits: {
@@ -208,12 +208,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'It is true that the word is not in Scripture, and some bishops at the time raised that objection. Those who defended the word replied that Arius could accept every biblical title for the Son and still mean that he is a creature; a term was needed that excluded this reading.',
-          'The Church regards the term as an interpretation of what Scripture says (the Word was God; all things were made through him) and not as an addition to it. A person who holds that Scripture alone must supply every term will judge differently.',
+          'The word is not in Scripture, and some bishops at the time raised that objection. But Arius could accept every biblical title for the Son and still mean that He is a creature; a term was needed that excluded this reading.',
+          'The term adds nothing to Scripture; it guards what Scripture says: the Word was God, and all things were made through Him (John 1:1–3). The Church uses a precise word so that no one can empty the biblical words of their meaning.',
         ],
         ar: [
-          'صحيح أن العبارة ليست في الكتاب، وقد أثار بعض الأساقفة هذا الاعتراض آنذاك. وردّ المدافعون عنها بأن آريوس كان يقبل كل لقب كتابي للابن ويظل يقصد أنه مخلوق؛ فاحتيج إلى لفظ يستبعد هذه القراءة.',
-          'وتعدّ الكنيسة اللفظ تفسيرًا لما يقوله الكتاب (الكلمة كان الله، وكل شيء به كان) لا إضافة إليه. ومن يرى أن على الكتاب وحده أن يقدّم كل لفظ سيحكم حكمًا آخر.',
+          'العبارة ليست في الكتاب، وقد أثار بعض الأساقفة هذا الاعتراض آنذاك. لكن آريوس كان يقبل كل لقب كتابي للابن ويظل يقصد أنه مخلوق؛ فاحتيج إلى لفظ يستبعد هذه القراءة.',
+          'واللفظ لا يضيف شيئًا إلى الكتاب؛ بل يصون ما يقوله الكتاب: الكلمة كان الله، وكل شيء به كان (يوحنا ١: ١–٣). وتستعمل الكنيسة لفظًا دقيقًا لئلا يُفرغ أحد كلمات الكتاب من معناها.',
         ],
       },
       limits: {
@@ -229,10 +229,10 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The surviving record of the council does not contain a list of biblical books or a decision to destroy writings. Its subjects are the Son, Easter and Church order. The fixing of the lists took place over the following centuries, in a process that the article on who chose the books describes.',
+          'The surviving record of the council does not contain a list of biblical books or a decision to destroy writings. Its subjects are the Son, Easter and Church order. The Gospels were already read in the churches long before Nicaea; the article on who chose the books describes how the lists were confirmed.',
         ],
         ar: [
-          'لا يتضمن ما بقي من سجل المجمع قائمة بأسفار الكتاب ولا قرارًا بإتلاف كتابات. وموضوعاته الابن والفصح ونظام الكنيسة. أما تثبيت القوائم فتمّ في القرون التالية بمسار يصفه المقال عن من اختار الأسفار.',
+          'لا يتضمن ما بقي من سجل المجمع قائمة بأسفار الكتاب ولا قرارًا بإتلاف كتابات. وموضوعاته الابن والفصح ونظام الكنيسة. وكانت الأناجيل تُقرأ في الكنائس قبل نيقية بزمن طويل؛ ويصف المقال عن من اختار الأسفار كيف ثُبّتت القوائم.',
         ],
       },
       limits: {
@@ -246,12 +246,12 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'Historically, a Christian can say that Nicaea is well attested as an assembly of bishops that answered a real controversy, that its main decision is clear, and that the claims that it voted Jesus into divinity or fixed the Bible do not fit the record. The Nicene faith won acceptance because it persisted through a generation of conflict, not because it was imposed in a day.',
-        'It is fair to add that the emperor’s part, the exact numbers, the personalities and the wording debates are matters on which the sources are limited and historians differ.',
+        'Nicaea is well attested as an assembly of bishops that answered a real controversy, and its main decision is clear. The claims that it voted Jesus into divinity or fixed the Bible do not fit the record.',
+        'The worship of Christ is far older than the council: St Paul’s letters already call on His name as Lord, and the martyrs of the second and third centuries died confessing Him. Nicaea guarded that faith; it did not create it.',
       ],
       ar: [
-        'يستطيع المسيحي تاريخيًا أن يقول إن نيقية موثقة جيدًا بوصفها مجمع أساقفة أجاب عن جدل حقيقي، وإن قراره الرئيسي واضح، وإن الدعاوى بأنه صوّت على ألوهية يسوع أو ثبّت الكتاب المقدس لا تتفق مع السجل. وقد نال الإيمان النيقاوي القبول لأنه صمد في جيل من الصراع، لا لأنه فُرض في يوم.',
-        'ومن الإنصاف أن يضيف أن دور الإمبراطور والأعداد الدقيقة والشخصيات ومناقشات الألفاظ مسائل مصادرها محدودة ويختلف فيها المؤرخون.',
+        'نيقية موثقة جيدًا بوصفها مجمع أساقفة أجاب عن جدل حقيقي، وقراره الرئيسي واضح. والدعاوى بأنه صوّت على ألوهية يسوع أو ثبّت الكتاب المقدس لا تتفق مع السجل.',
+        'وعبادة المسيح أقدم بكثير من المجمع: فرسائل القديس بولس تدعو باسمه ربًّا، وشهداء القرنين الثاني والثالث ماتوا معترفين به. فقد صانت نيقية هذا الإيمان؛ ولم تخلقه.',
       ],
     },
     theological: {
@@ -288,8 +288,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'Nicaea was a council of bishops that answered a dispute begun in Alexandria by confessing the Son as true God, of one essence with the Father. It neither began the worship of Christ nor chose the Bible. The Coptic Orthodox Church receives its faith as the faith of the apostles, which the council put into exact words.',
-    ar: 'كان مجمع نيقية مجمع أساقفة أجاب عن خلاف بدأ في الإسكندرية، فاعترف بالابن إلهًا حقًا، واحدًا في الجوهر مع الآب. ولم يبدأ عبادة المسيح ولم يختر الكتاب المقدس. وتقبل الكنيسة القبطية الأرثوذكسية إيمانه بوصفه إيمان الرسل الذي صاغه المجمع بألفاظ دقيقة.',
+    en: 'Nicaea was a council of bishops that answered a dispute begun in Alexandria by confessing the Son as true God, of one essence with the Father. It neither began the worship of Christ nor chose the Bible. It guarded the faith of the apostles in exact words, and the Coptic Orthodox Church, whose fathers Alexander and Athanasius stood at its heart, confesses that faith at every Liturgy.',
+    ar: 'كان مجمع نيقية مجمع أساقفة أجاب عن خلاف بدأ في الإسكندرية، فاعترف بالابن إلهًا حقًا، واحدًا في الجوهر مع الآب. ولم يبدأ عبادة المسيح ولم يختر الكتاب المقدس. بل صان إيمان الرسل بألفاظ دقيقة، والكنيسة القبطية الأرثوذكسية، التي وقف أبواها ألكسندروس وأثناسيوس في قلبه، تعترف بهذا الإيمان في كل قداس.',
   },
   furtherReading: ['S20', 'S55'],
   related: ['early-christology-development', 'worshipped-before-constantine', 'what-trinity-affirms', 'did-nicaea-choose-the-bible', 'miaphysite-christology', 'disputes-among-traditions'],

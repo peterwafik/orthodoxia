@@ -15,23 +15,23 @@ export const article: Article = {
     ar: 'تسأل هذه المقالة: كم يستطيع دفاع الإرادة الحرة أن يحمل؟ وهي تعرض الدفاع، وما صُمم له، وأقوى الانتقادات الموجهة إليه، والنقاط التي يقول المفكرون المسيحيون إنه لا يكفي فيها. وتبيّن أيضًا ما يعنيه التقليد القبطي الأرثوذكسي بالحرية، وهي ليست مجرد قدرة على الاختيار بين خيارات. ولا تعرض المشكلة كلها، فهي موضوع المقالات ذات الصلة.',
   },
   shortAnswer: {
-    en: 'No. Freedom explains a great deal, but not all. It explains why a good God might permit people to do wrong, since love, justice and courage cannot be coerced, and it was designed to show that God and evil are not contradictory. It does not by itself explain suffering that has no human chooser behind it, such as disease, earthquakes or the pain of animals. It leaves hard questions even about moral evil: why the freedom to do harm should extend to such terrible harms, and why God does not restrain the worst. Christian thinkers therefore use freedom as one part of an answer, together with the claim that creation is fallen and awaiting renewal, and the claim that God has himself entered suffering in Christ.',
-    ar: 'لا. فالحرية تفسّر الكثير، لكن ليس كل شيء. إنها تفسّر لماذا قد يسمح إله صالح للناس أن يفعلوا الخطأ، إذ لا تُفرض المحبة ولا العدل ولا الشجاعة قسرًا، وقد صُمم الدفاع ليبيّن أن الله والشر لا يتناقضان. لكنها لا تفسّر وحدها الألم الذي لا يقف وراءه إنسان مختار، كالمرض والزلازل وألم الحيوان. وتترك أسئلة صعبة حتى في الشر الأخلاقي: لماذا تمتد حرية إلحاق الأذى إلى أهوال كهذه، ولماذا لا يكبح الله الأسوأ. ولذلك يستعمل المفكرون المسيحيون الحرية جزءًا من جواب، مع دعوى أن الخليقة ساقطة تنتظر التجديد، ودعوى أن الله دخل الألم بنفسه في المسيح.',
+    en: 'Freedom explains a great deal, and the Church\'s faith completes the answer. God made human beings free because love, justice and courage cannot be forced, and much suffering comes from the misuse of that gift. This shows that God and evil are not contradictory. Suffering with no human chooser behind it, such as disease and disaster, belongs to a creation wounded by the fall and awaiting renewal. And God has not stood apart from any of it: in Christ He entered suffering Himself, bore it on the cross, and will raise the dead and wipe away every tear.',
+    ar: 'الحرية تفسر الكثير، وإيمان الكنيسة يكمل الجواب. خلق الله الإنسان حرًا لأن المحبة والعدل والشجاعة لا تُفرض بالإكراه، وكثير من الألم يأتي من إساءة استعمال هذه العطية. وهذا يبين أن الله والشر ليسا متناقضين. أما الألم الذي لا يقف وراءه اختيار إنسان، كالمرض والكوارث، فيرجع إلى خليقة جرحها السقوط وتنتظر التجديد. ولم يقف الله بعيدًا عن شيء من ذلك: ففي المسيح دخل الألم بنفسه، وحمله على الصليب، وسيقيم الأموات ويمسح كل دمعة.',
   },
   quickPoints: {
     en: [
-      'The free-will defence says a world with free, responsible creatures can be better than one without them, even though freedom can be abused.',
-      'It was built to answer the logical problem (God and evil cannot coexist), and it is generally thought to succeed at that.',
-      'It does not account for natural suffering, and it faces hard questions about the scale and horror of some moral evils.',
-      'Critics ask why God does not intervene more, and why freedom in heaven is said to be compatible with never sinning if freedom on earth requires the possibility of sin.',
-      'In Orthodox thought, freedom is not only the power to choose but the capacity to grow into the good, which God does not override.',
+      'A world of free, responsible creatures who can love is better than a world of creatures who cannot, even though freedom can be abused.',
+      'The free-will defence answers the charge that God and evil cannot coexist, and it answers it successfully.',
+      'Natural suffering is part of a creation wounded by the fall, which God has promised to renew.',
+      'God does not abandon the victims of evil: He judges every wrong, stands with the sufferer in the cross of Christ, and gives the final word to the resurrection.',
+      'In Orthodox teaching, freedom is not only the power to choose but the capacity to grow into the good, which God never overrides.',
     ],
     ar: [
-      'يقول دفاع الإرادة الحرة إن عالمًا فيه مخلوقات حرة مسؤولة يمكن أن يكون أفضل من عالم خالٍ منها، رغم إمكان إساءة استعمال الحرية.',
-      'بُني ليجيب عن المشكلة المنطقية (لا يجتمع الله والشر)، ويُعتقد عمومًا أنه ينجح في ذلك.',
-      'لا يفسّر الألم الطبيعي، ويواجه أسئلة صعبة عن حجم بعض الشرور الأخلاقية وهولها.',
-      'يسأل الناقدون لماذا لا يتدخل الله أكثر، ولماذا يقال إن الحرية في السماء تتفق مع عدم الخطأ أبدًا إن كانت الحرية على الأرض تتطلب إمكان الخطأ.',
-      'في الفكر الأرثوذكسي ليست الحرية قدرة على الاختيار فقط، بل طاقة النمو نحو الخير، وهذا لا يتخطاه الله.',
+      'عالم فيه خلائق حرة مسؤولة قادرة على المحبة أفضل من عالم خلائقه عاجزة عنها، وإن كانت الحرية قابلة لإساءة الاستعمال.',
+      'يجيب الدفاع بحرية الإرادة عن التهمة القائلة إن الله والشر لا يجتمعان، ويجيب عنها بنجاح.',
+      'والألم الطبيعي جزء من خليقة جرحها السقوط، وقد وعد الله بتجديدها.',
+      'لا يترك الله ضحايا الشر: فهو يدين كل ظلم، ويقف مع المتألم في صليب المسيح، ويجعل الكلمة الأخيرة للقيامة.',
+      'في التعليم الأرثوذكسي ليست الحرية مجرد القدرة على الاختيار، بل هي القدرة على النمو في الخير، والله لا يقهرها أبدًا.',
     ],
   },
   argumentTypes: ['philosophical', 'theological'],
@@ -44,22 +44,22 @@ export const article: Article = {
   },
   whyExamine: {
     en: [
-      'Free will is often the first thing believers say about suffering, and sometimes the last. Said quickly, it can sound like a way of closing the discussion. Said carefully, it is a serious philosophical position with a clear job. It matters to know which job, so that it is neither dismissed as an excuse nor asked to do what it cannot.',
-      'It also matters to a person in pain. To be told that someone’s suffering is the price of freedom is true, in a sense, of what was done to them by another, and cruel if it is applied to an illness. The question therefore needs to be asked with the cases in view.',
+      'Free will is often the first thing believers say about suffering. Said quickly, it can sound like a way of closing the discussion. Understood rightly, it is a serious answer with a clear place within the Christian faith, and it helps to see that place clearly.',
+      'It also matters to a person in pain. Freedom explains what was done to someone by another; it is not a word to say to the sick. To them the Church speaks of the fallen creation, of Christ who suffered with us, and of the resurrection.',
     ],
     ar: [
-      'كثيرًا ما تكون الحرية أول ما يقوله المؤمنون عن الألم، وأحيانًا آخره. وإذا قيلت على عجل بدت وسيلة لإغلاق النقاش. وإذا قيلت بعناية فهي موقف فلسفي جاد له عمل واضح. ومن المهم أن نعرف أي عمل، فلا تُرفض عذرًا ولا يُطلب منها ما لا تقدر عليه.',
-      'وهي مهمة للمتألم أيضًا. فأن يُقال لإنسان إن ألمه ثمن الحرية قد يكون صحيحًا، بمعنى، فيما فعله به شخص آخر، وقاسيًا إن طُبق على مرض. فيجب إذًا أن يُطرح السؤال والحالات نصب العين.',
+      'كثيرًا ما تكون حرية الإرادة أول ما يقوله المؤمنون عن الألم. وإذا قيلت على عجل بدت كأنها طريقة لإنهاء الحديث. أما إذا فُهمت فهمًا صحيحًا فهي جواب جاد له موضعه الواضح في الإيمان المسيحي، ومن المفيد أن نرى هذا الموضع بوضوح.',
+      'ويهم الأمر أيضًا الإنسان المتألم. فالحرية تفسر ما فعله إنسان بآخر؛ لكنها ليست كلمة تُقال للمريض. فللمرضى تتكلم الكنيسة عن الخليقة الساقطة، وعن المسيح الذي تألم معنا، وعن القيامة.',
     ],
   },
   background: {
     en: [
       'The free-will defence, as Alvin Plantinga developed it (S40, cited as a whole work), argues that it is possible that God could not have created a world with as much moral good as this one without creating beings free to do wrong, and that some of them would use their freedom badly. If that is possible, the claim that God and evil are logically incompatible fails. The Stanford Encyclopedia entry (S42) sets out the defence, the debate about it and its limits.',
-      'The defence is often criticised on three lines. First, it does not cover natural evil. Second, it can seem to prove too little: a being who is free to commit atrocity gains little if the atrocity is allowed to happen to others who are also free. Third, there is a puzzle about what freedom is. If it requires the possibility of doing evil, then God is not free, for God cannot do evil, and the saints in heaven would not be free either. Defenders reply that freedom can be understood as the ability to act for good from one’s own character, which grows through choices made over time.',
+      'The defence is often criticised on three lines. First, it does not cover natural evil. Second, it can seem to prove too little: a being who is free to commit atrocity gains little if the atrocity is allowed to happen to others who are also free. Third, there is a puzzle about what freedom is. If it requires the possibility of doing evil, then God is not free, for God cannot do evil, and the saints in heaven would not be free either. But freedom, rightly understood, is the ability to act for good from one’s own character, which grows through choices made over time; in this sense God is perfectly free, and the saints, confirmed in the good, are truly free.',
     ],
     ar: [
       'يرى دفاع الإرادة الحرة، كما طوّره ألفن بلانتينغا (S40، ويُستشهد به كعمل كامل)، أن من الممكن ألا يكون الله قادرًا على خلق عالم فيه من الخير الأخلاقي ما في هذا العالم دون خلق كائنات حرة في فعل الخطأ، وأن بعضها يسيء استعمال حريته. وإن كان هذا ممكنًا سقطت دعوى أن الله والشر متنافيان منطقيًا. ويعرض مدخل موسوعة ستانفورد (S42) الدفاع والنقاش حوله وحدوده.',
-      'وكثيرًا ما يُنتقد الدفاع من ثلاثة أوجه. الأول: أنه لا يغطي الشر الطبيعي. الثاني: أنه قد يبدو يثبت أقل من اللازم: فكائن حر في ارتكاب الفظائع لا يكسب كثيرًا إن سُمح لها بأن تقع على آخرين أحرار أيضًا. الثالث: لغز في معنى الحرية. فإن كانت تتطلب إمكان فعل الشر فالله ليس حرًّا لأنه لا يفعل الشر، والقديسون في السماء لن يكونوا أحرارًا أيضًا. ويرد المدافعون بأن الحرية يمكن أن تُفهم قدرة على الفعل للخير من الشخصية الذاتية، تنمو بالاختيارات عبر الزمن.',
+      'وكثيرًا ما يُنتقد الدفاع من ثلاثة أوجه. الأول: أنه لا يغطي الشر الطبيعي. الثاني: أنه قد يبدو يثبت أقل من اللازم: فكائن حر في ارتكاب الفظائع لا يكسب كثيرًا إن سُمح لها بأن تقع على آخرين أحرار أيضًا. الثالث: لغز في معنى الحرية. فإن كانت تتطلب إمكان فعل الشر فالله ليس حرًّا لأنه لا يفعل الشر، والقديسون في السماء لن يكونوا أحرارًا أيضًا. لكن الحرية، إذا فُهمت فهمًا صحيحًا، هي القدرة على فعل الخير نابعًا من الشخصية الذاتية، وهي تنمو بالاختيارات عبر الزمن؛ وبهذا المعنى الله حرّ حرية كاملة، والقديسون الثابتون في الخير أحرار حقًا.',
     ],
   },
   glossary: ['theodicy', 'theism', 'inspiration', 'crucifixion', 'resurrection'],
@@ -68,14 +68,14 @@ export const article: Article = {
     {
       id: 'c1',
       proposition: {
-        en: 'The free-will defence shows that God and evil can be logically compatible, and for this purpose it is widely regarded as successful.',
-        ar: 'يبيّن دفاع الإرادة الحرة أن الله والشر يمكن أن يتوافقا منطقيًا، ويُعتبر ناجحًا لهذا الغرض على نطاق واسع.',
+        en: 'The free-will defence shows that God and evil are not logically contradictory.',
+        ar: 'يبين الدفاع بحرية الإرادة أن الله والشر ليسا متناقضين منطقيًا.',
       },
       argumentType: 'philosophical',
       assessment: 'philosophical_argument',
       rationale: {
-        en: 'The defence is the subject of Plantinga’s work (S40), and the reference entry (S42) reports that the logical argument is now widely regarded as not established. The goal is modest: to show possibility, not to explain the actual world.',
-        ar: 'الدفاع موضوع عمل بلانتينغا (S40)، ويذكر المدخل المرجعي (S42) أن الحجة المنطقية تُعتبر اليوم على نطاق واسع غير ثابتة. والغاية متواضعة: بيان الإمكان لا تفسير العالم الفعلي.',
+        en: 'Plantinga\'s work sets out the defence, and the reference entry reports that the logical argument against God is now widely regarded as not established. If God could not create beings free to love without also making them free to do wrong, then the existence of evil does not contradict the existence of a good God.',
+        ar: 'يعرض عمل بلانتينغا هذا الدفاع، وتذكر المادة المرجعية أن الحجة المنطقية ضد الله باتت تُعدّ على نطاق واسع غير ثابتة. فإن كان الله لا يستطيع أن يخلق كائنات حرة قادرة على المحبة دون أن تكون حرة أيضًا في فعل الشر، فوجود الشر لا يناقض وجود إله صالح.',
       },
       limits: {
         en: 'Possibility is a low bar. Showing that a world with free creatures and evil is possible does not show that it is probable that a good God would make this one.',
@@ -86,14 +86,14 @@ export const article: Article = {
     {
       id: 'c2',
       proposition: {
-        en: 'Freedom does not by itself explain natural suffering, nor the scale of some moral evils, and Christian thinkers who rely on the defence add other considerations.',
-        ar: 'لا تفسّر الحرية بذاتها الألم الطبيعي ولا حجم بعض الشرور الأخلاقية، والمفكرون المسيحيون الذين يعتمدون الدفاع يضيفون اعتبارات أخرى.',
+        en: 'Freedom answers moral evil; the fall of creation, the cross and the resurrection complete the Christian answer to suffering.',
+        ar: 'الحرية تجيب عن الشر الأخلاقي؛ وسقوط الخليقة والصليب والقيامة تكمل الجواب المسيحي عن الألم.',
       },
       argumentType: 'philosophical',
       assessment: 'philosophical_argument',
       rationale: {
-        en: 'The reference entry (S42) discusses the extensions of the defence and the objections. The reach of freedom beyond its direct cases is the main point of dispute.',
-        ar: 'يناقش المدخل المرجعي (S42) توسيعات الدفاع والاعتراضات عليها. ومدى بلوغ الحرية أبعد من حالاتها المباشرة هو نقطة الخلاف الرئيسية.',
+        en: 'Christian thinkers who use the defence place it within a larger account: a creation wounded by the fall, a God who enters suffering in Christ, and the promised renewal of all things. The reference entry discusses how the defence is extended in these ways.',
+        ar: 'يضع المفكرون المسيحيون الذين يستعملون هذا الدفاع ضمن رؤية أوسع: خليقة جرحها السقوط، وإله يدخل الألم في المسيح، وتجديد موعود لكل شيء. وتناقش المادة المرجعية كيف يُوسَّع الدفاع على هذا النحو.',
       },
       limits: {
         en: 'The additional considerations are contested, and the article does not claim that they succeed.',
@@ -105,13 +105,13 @@ export const article: Article = {
       id: 'c3',
       proposition: {
         en: 'The Scriptures present human beings as truly responsible for their choices and God as not the author of evil, and they do not read every suffering as the result of a sinful choice by the sufferer.',
-        ar: 'تعرض الكتب الإنسان مسؤولًا حقًّا عن اختياراته والله غير مصدر للشر، ولا تقرأ كل ألم نتيجة اختيار خاطئ من المتألم.',
+        ar: 'تقدم الأسفار المقدسة الإنسان مسؤولًا حقًا عن اختياراته، والله غير صانع للشر، ولا تقرأ كل ألم على أنه نتيجة اختيار خاطئ من المتألم.',
       },
       argumentType: 'textual',
       assessment: 'strong_historical_support',
       rationale: {
-        en: 'Sirach and James affirm human responsibility and deny that God is the source of evil. This is a claim about what the texts say.',
-        ar: 'يؤكد سيراخ ويعقوب المسؤولية الإنسانية وينفيان أن يكون الله مصدر الشر. وهذه دعوى عمّا تقوله النصوص.',
+        en: 'Sirach and St James affirm human responsibility and deny that God is the source of evil. Evil comes from the will that turns away from God, not from God.',
+        ar: 'يؤكد سفر يشوع بن سيراخ والقديس يعقوب مسؤولية الإنسان، وينفيان أن يكون الله مصدر الشر. فالشر يأتي من الإرادة التي تبتعد عن الله، لا من الله.',
       },
       limits: {
         en: 'The texts affirm responsibility and do not give a philosophical account of how divine and human freedom fit together.',
@@ -122,14 +122,14 @@ export const article: Article = {
     {
       id: 'c4',
       proposition: {
-        en: 'In Orthodox theology, freedom is the capacity to grow toward the good in communion with God, and God’s respect for it is part of his love; this is a theological understanding that goes beyond the philosophical defence.',
-        ar: 'في اللاهوت الأرثوذكسي الحرية هي طاقة النمو نحو الخير في الشركة مع الله، واحترام الله لها جزء من محبته؛ وهذا فهم لاهوتي يتجاوز الدفاع الفلسفي.',
+        en: 'In Orthodox theology, freedom is the capacity to grow toward the good in communion with God, and God\'s respect for it is part of His love.',
+        ar: 'في اللاهوت الأرثوذكسي الحرية هي القدرة على النمو نحو الخير في شركة مع الله، واحترام الله لها جزء من محبته.',
       },
       argumentType: 'theological',
       assessment: 'theological_interpretation',
       rationale: {
-        en: 'St Athanasius presents human beings as made in God’s image with reason and free will, and the incarnation as God’s way of restoring them without overriding them.',
-        ar: 'يعرض القديس أثناسيوس الإنسان مخلوقًا على صورة الله بعقل وإرادة حرة، والتجسد طريق الله لاستعادته دون أن يتخطاه.',
+        en: 'St Athanasius teaches that human beings are made in God\'s image with reason and free will, and that the incarnation is God\'s way of restoring them from within without overriding them.',
+        ar: 'يعلّم القديس أثناسيوس أن الإنسان مخلوق على صورة الله بالعقل وحرية الإرادة، وأن التجسد هو طريق الله لتجديده من الداخل دون أن يقهره.',
       },
       limits: {
         en: 'It is the Church’s understanding and cannot be proved to someone outside the faith. It also does not tell us why God permits particular acts.',
@@ -223,12 +223,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'This is among the strongest objections, and the defence on its own does not answer it. Some theists reply that a world in which God regularly intervened to stop serious harm would remove the seriousness of choice and the predictability on which moral responsibility depends; that we do not know how often God does intervene unseen; and that the value of freedom is not limited to the cases where it produces good.',
-          'Others, including many Orthodox writers, are cautious about arguing in this way, and say instead that the freedom of the victim is also at stake, that God judges every act, and that the final answer to the worst evils is not that they were worth it but that Christ has borne them and will raise the dead.',
+          'This is a serious objection, and the Church does not answer it by saying that the worst evils were worth it. A world in which God constantly stopped every serious harm would empty choice of its weight and remove the responsibility that makes love real. We also do not see how often God restrains evil unseen.',
+          'The deeper answer is the cross. God judges every act of evil, the freedom of the victim is never forgotten, and Christ has borne the worst that human beings can do. He will raise the dead and set every wrong right.',
         ],
         ar: [
-          'هذا من أقوى الاعتراضات، والدفاع وحده لا يجيب عنه. ويرد بعض المؤمنين بأن عالمًا يتدخل فيه الله باستمرار لمنع الأذى الجسيم سيزيل جدية الاختيار وإمكان التنبؤ اللذين تتوقف عليهما المسؤولية الأخلاقية؛ وبأننا لا نعرف كم مرة يتدخل الله دون أن نرى؛ وبأن قيمة الحرية لا تقتصر على الحالات التي تنتج فيها خيرًا.',
-          'ويتحفظ آخرون، ومنهم كتّاب أرثوذكس كثيرون، على الاحتجاج بهذه الطريقة، ويقولون بدلًا من ذلك إن حرية الضحية أيضًا على المحك، وإن الله يدين كل فعل، وإن الجواب النهائي عن أسوأ الشرور ليس أنها كانت تستحق بل أن المسيح حملها وسيقيم الأموات.',
+          'هذا اعتراض جاد، ولا تجيب عنه الكنيسة بالقول إن أسوأ الشرور كانت تستحق ثمنها. فعالم يوقف فيه الله كل أذى جسيم على الدوام يُفرغ الاختيار من ثقله، ويزيل المسؤولية التي تجعل المحبة حقيقية. ونحن أيضًا لا نرى كم مرة يكبح الله الشر دون أن نعلم.',
+          'والجواب الأعمق هو الصليب. فالله يدين كل فعل شرير، وحرية الضحية لا تُنسى أبدًا، والمسيح حمل أسوأ ما يستطيع البشر أن يفعلوه. وهو سيقيم الأموات ويقوّم كل ظلم.',
         ],
       },
       limits: {
@@ -245,12 +245,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'Orthodox theology answers that freedom is not static. A human being is made able to grow in love and to become, by grace and by many acts of choice, fixed in the good, so that the saints’ inability to sin is the fruit of a freedom exercised, not a lack of it. A being created complete would not have chosen that growth.',
-          'Critics reply that this still leaves open why a growth through such terrible risks was required. The tradition accepts that it does not know the full answer.',
+          'Orthodox theology answers that freedom is not static. A human being is made able to grow in love and to become, by grace and by many acts of choice, fixed in the good. The saints\' inability to sin is the fruit of a freedom exercised, not a lack of it.',
+          'A being created already complete would never have chosen that growth or freely returned God\'s love. The path through freedom is what makes the love of the saints their own.',
         ],
         ar: [
-          'يجيب اللاهوت الأرثوذكسي بأن الحرية ليست جامدة. فالإنسان مخلوق قادرًا على أن ينمو في المحبة وأن يثبت في الخير، بالنعمة وبأفعال اختيار كثيرة، فعجز القديسين عن الخطأ ثمرة حرية مُمارَسة لا انعدامها. وكائن خُلق كاملًا لم يكن سيختار هذا النمو.',
-          'ويرد الناقدون بأن هذا يترك السؤال مفتوحًا: لماذا تطلب النمو مخاطر مروعة كهذه؟ والتقليد يقبل أنه لا يعرف الجواب كاملًا.',
+          'يجيب اللاهوت الأرثوذكسي بأن الحرية ليست جامدة. فالإنسان مخلوق قادرًا على النمو في المحبة، وعلى أن يثبت في الخير بالنعمة وبأفعال اختيار كثيرة. فعجز القديسين عن الخطية ثمرة حرية مارسوها، لا نقص فيها.',
+          'فالكائن المخلوق كاملًا منذ البداية ما كان ليختار هذا النمو، ولا ليبادل الله محبته بحرية. وطريق الحرية هو ما يجعل محبة القديسين محبتهم هم.',
         ],
       },
       limits: {
@@ -267,12 +267,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'Whether human beings are free is disputed among philosophers and scientists, and this article does not settle it. The Christian tradition assumes that people are responsible, as the Scriptures do, and takes the sense of deliberating and being answerable as real evidence.',
-          'If human freedom is denied, the defence has no force, but then the moral judgement behind the objection (that the evils are real wrongs for which someone is to blame) loses its footing too.',
+          'The Christian faith holds, with the Scriptures, that people are truly responsible for what they do. Our everyday experience of deliberating and being answerable for our choices is real evidence of that freedom.',
+          'The objection also undercuts itself. If there is no real freedom, then there are no real wrongs and no one to blame, and the moral outrage behind the objection loses its footing.',
         ],
         ar: [
-          'هل الإنسان حر موضع خلاف بين الفلاسفة والعلماء، والمقالة لا تحسمه. والتقليد المسيحي يفترض أن الناس مسؤولون، كما تفعل الكتب، ويعد الشعور بالتروّي وبالمساءلة دليلًا حقيقيًا.',
-          'وإن أُنكرت حرية الإنسان فلا قوة للدفاع، لكن الحكم الأخلاقي الذي يقوم عليه الاعتراض (أن الشرور أخطاء حقيقية يُلام عليها أحد) يفقد أساسه هو أيضًا.',
+          'يتمسك الإيمان المسيحي، مع الأسفار المقدسة، بأن الإنسان مسؤول حقًا عما يفعل. وخبرتنا اليومية في التروي والمساءلة عن اختياراتنا دليل حقيقي على هذه الحرية.',
+          'والاعتراض ينقض نفسه أيضًا. فإن لم تكن هناك حرية حقيقية، فلا ظلم حقيقي ولا أحد يُلام، ويفقد الغضب الأخلاقي الذي يقف وراء الاعتراض أساسه.',
         ],
       },
       limits: {
@@ -286,10 +286,10 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'There is no historical argument to set out here, since the question is philosophical and theological. The Scriptures cited are read as ancient documents that show what the Jewish and Christian traditions said about responsibility.',
+        'The question is philosophical and theological rather than historical. The Scriptures cited show what the Jewish and Christian traditions have always taught about human responsibility.',
       ],
       ar: [
-        'لا توجد حجة تاريخية تُعرض هنا لأن السؤال فلسفي ولاهوتي. وتُقرأ الكتب المذكورة وثائق قديمة تبيّن ما قالته التقاليد اليهودية والمسيحية عن المسؤولية.',
+        'السؤال فلسفي ولاهوتي لا تاريخي. والأسفار المستشهد بها تبين ما علّمته التقاليد اليهودية والمسيحية دائمًا عن مسؤولية الإنسان.',
       ],
     },
     theological: {
@@ -322,8 +322,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'Freedom explains why a good God might permit wrongdoing and so answers the claim that God and evil are contradictory. It does not explain natural suffering, and it leaves hard questions about the scale of moral evil. Christians treat it as one part of a larger answer, with the fall of creation, the hope of renewal and God’s own entering of suffering in Christ, and they do not say that it explains everything.',
-    ar: 'تفسّر الحرية لماذا قد يسمح إله صالح بالإثم، وهي بذلك تجيب عن دعوى أن الله والشر متناقضان. لكنها لا تفسّر الألم الطبيعي، وتترك أسئلة صعبة عن حجم الشر الأخلاقي. ويعدّها المسيحيون جزءًا من جواب أكبر مع سقوط الخليقة ورجاء التجديد ودخول الله نفسه الألم في المسيح، ولا يقولون إنها تفسّر كل شيء.',
+    en: 'Freedom explains why a good God permits wrongdoing: love that is free can also be refused. Suffering that no human chose belongs to a creation wounded by the fall. And the final answer is Christ, who entered our suffering, bore it on the cross, and will raise the dead and make all things new.',
+    ar: 'تفسر الحرية لماذا يسمح الإله الصالح بفعل الشر: فالمحبة الحرة يمكن أن تُرفض أيضًا. أما الألم الذي لم يختره إنسان فيرجع إلى خليقة جرحها السقوط. والجواب الأخير هو المسيح، الذي دخل ألمنا، وحمله على الصليب، وسيقيم الأموات ويجعل كل شيء جديدًا.',
   },
   furtherReading: ['S40', 'S42', 'S52', 'S62'],
   related: ['why-does-god-allow-suffering', 'moral-evil-vs-natural-suffering', 'children-and-animals-suffer', 'hidden-or-suffering', 'faith-and-blind-belief'],

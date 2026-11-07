@@ -15,25 +15,25 @@ export const article: Article = {
     ar: 'يسأل هذا المقال: ما الشواهد على أن المعمودية والإفخارستيا مورستا منذ أقدم عصور الكنيسة، وماذا تقول أقدم المصادر عن معناهما؟ فينظر في العهد الجديد، وعند إغناطيوس الأنطاكي ويوستينوس الشهيد، ويبيّن كيف تفهم الكنيسة القبطية الأرثوذكسية والتقاليد الأخرى الطقسين. ولا يحسم الخلافات اللاحقة حول معمودية الأطفال أو كيفية حضور المسيح.',
   },
   shortAnswer: {
-    en: 'The evidence is early and wide. The letters of St Paul, written in the AD 50s, already speak of baptism into Christ and of the Lord’s Supper as a repeated meal with the bread and the cup. Ignatius, in the early second century, calls the Eucharist the flesh of the Saviour, and Justin, around AD 150–155, describes both rites in Rome: baptism after instruction, and the Eucharist on Sunday after the readings and prayers. The sources show that both were established practice from the first generation. They do not all say the same about how to understand them, and traditions differ about infant baptism and about how Christ is present in the Eucharist.',
-    ar: 'الشواهد مبكرة وواسعة. فرسائل القديس بولس، المكتوبة في الخمسينيات، تتكلم أصلًا عن المعمودية إلى المسيح وعن عشاء الرب وجبةً متكررة بالخبز والكأس. ويسمّي إغناطيوس، في أوائل القرن الثاني، الإفخارستيا جسد المخلّص، ويصف يوستينوس، نحو ١٥٠–١٥٥م، الطقسين في روما: المعمودية بعد التعليم، والإفخارستيا يوم الأحد بعد القراءات والصلوات. وتُظهر المصادر أن كليهما ممارسة ثابتة منذ الجيل الأول. ولا تقول كلها الشيء نفسه عن كيفية فهمهما، وتختلف التقاليد في معمودية الأطفال وفي كيفية حضور المسيح في الإفخارستيا.',
+    en: 'Yes. The evidence is early and wide. The letters of St Paul the Apostle, written in the AD 50s, already speak of baptism into Christ and of the Lord\'s Supper as a repeated meal with the bread and the cup, handed on from the Lord. St Ignatius, in the early second century, calls the Eucharist the flesh of the Saviour, and St Justin, around AD 150–155, describes both rites in Rome: baptism after instruction, and the Eucharist on Sunday after the readings and prayers. From the first generation, the Church baptised into Christ and gathered to receive His body and blood, as she does today.',
+    ar: 'نعم. الأدلة مبكرة وواسعة. فرسائل القديس بولس الرسول، المكتوبة في خمسينيات القرن الأول، تتكلم عن المعمودية في المسيح وعن العشاء الرباني وجبةً متكررة بالخبز والكأس، مسلَّمة من الرب. ويسمي القديس إغناطيوس، في أوائل القرن الثاني، الإفخارستيا جسد المخلص، ويصف القديس يوستينوس، نحو سنة ١٥٠–١٥٥م، الطقسين في روما: المعمودية بعد التعليم، والإفخارستيا يوم الأحد بعد القراءات والصلوات. فمنذ الجيل الأول كانت الكنيسة تعمّد في المسيح وتجتمع لتتناول جسده ودمه، كما تفعل اليوم.',
   },
   quickPoints: {
     en: [
-      'Baptism is commanded in the Gospel of Matthew, practised in Acts, and described by St Paul as union with Christ’s death and resurrection.',
-      'The Lord’s Supper is recalled by St Paul in the AD 50s as a tradition he received and passed on, with the words over the bread and the cup.',
-      'Ignatius (early second century) calls the Eucharist the flesh of our Saviour Jesus Christ and links a valid Eucharist to the bishop.',
-      'Justin (c. AD 150–155) describes baptism after instruction, and the Sunday Eucharist with readings, prayers and communion, and says it is more than ordinary food.',
-      'Traditions differ on infant baptism and on the manner of Christ’s presence, but the practice of both rites is not in doubt.',
+      'Baptism is commanded by the Lord in the Gospel of Matthew, practised in Acts, and described by St Paul as union with Christ\'s death and resurrection.',
+      'St Paul hands on the Lord\'s Supper in the AD 50s as a tradition he received from the Lord, with the words over the bread and the cup.',
+      'St Ignatius (early second century) calls the Eucharist the flesh of our Saviour Jesus Christ and links a true Eucharist to the bishop.',
+      'St Justin (c. AD 150–155) describes baptism after instruction, and the Sunday Eucharist with readings, prayers and communion, and says that it is not ordinary food.',
+      'The witness runs unbroken from St Paul to the second century, in cities far apart: Antioch, Asia Minor and Rome.',
       'The Coptic Orthodox Church counts both among its seven sacraments and baptises infants, followed by chrismation and communion.',
     ],
     ar: [
-      'المعمودية مأمور بها في إنجيل متى، وممارَسة في أعمال الرسل، ويصفها القديس بولس اتحادًا بموت المسيح وقيامته.',
-      'يذكر القديس بولس عشاء الرب في الخمسينيات تقليدًا تسلّمه وسلّمه، بكلمات على الخبز والكأس.',
-      'يسمّي إغناطيوس (أوائل القرن الثاني) الإفخارستيا جسد مخلّصنا يسوع المسيح، ويربط الإفخارستيا الصحيحة بالأسقف.',
-      'يصف يوستينوس (نحو ١٥٠–١٥٥م) المعمودية بعد التعليم، والإفخارستيا يوم الأحد بالقراءات والصلوات والتناول، ويقول إنها أكثر من طعام عادي.',
-      'تختلف التقاليد في معمودية الأطفال وفي كيفية حضور المسيح، لكن ممارسة الطقسين ليست موضع شك.',
-      'تعدّ الكنيسة القبطية الأرثوذكسية كليهما من أسرارها السبعة، وتعمّد الأطفال، ويتبع ذلك الميرون والتناول.',
+      'أمر الرب بالمعمودية في إنجيل متى، ومارستها الكنيسة في سفر الأعمال، ووصفها القديس بولس اتحادًا بموت المسيح وقيامته.',
+      'يسلّم القديس بولس العشاء الرباني في خمسينيات القرن الأول تقليدًا تسلّمه من الرب، مع الكلمات على الخبز والكأس.',
+      'يسمي القديس إغناطيوس (أوائل القرن الثاني) الإفخارستيا جسد مخلصنا يسوع المسيح، ويربط الإفخارستيا الحقيقية بالأسقف.',
+      'يصف القديس يوستينوس (نحو ١٥٠–١٥٥م) المعمودية بعد التعليم، وإفخارستيا يوم الأحد بقراءاتها وصلواتها والتناول، ويقول إنها ليست طعامًا عاديًا.',
+      'تمتد الشهادة بلا انقطاع من القديس بولس إلى القرن الثاني، في مدن متباعدة: أنطاكية وآسيا الصغرى وروما.',
+      'تعدّ الكنيسة القبطية الأرثوذكسية كليهما من أسرارها السبعة، وتعمّد الأطفال، ويتبع ذلك سر الميرون والتناول.',
     ],
   },
   argumentTypes: ['historical', 'textual', 'theological'],
@@ -47,12 +47,12 @@ export const article: Article = {
 
   whyExamine: {
     en: [
-      'Some people hold that the sacraments were later additions, or that baptism and the Eucharist were originally only symbols and later became rites with power. Others hold that the early Church already celebrated them as the Church does now. The sources allow us to test both.',
-      'The question also shows how the Church’s worship and its beliefs developed together, which matters for the questions about Scripture and Tradition and about early devotion to Christ.',
+      'Some people hold that the sacraments were later additions, or that baptism and the Eucharist began as mere symbols. The earliest sources show otherwise: the Church already celebrated them, in the same shape the Church celebrates them now.',
+      'The question also shows how the Church\'s worship and her faith have always belonged together, which matters for the questions about Scripture and Tradition and about early devotion to Christ.',
     ],
     ar: [
-      'يرى بعضهم أن الأسرار إضافات لاحقة، أو أن المعمودية والإفخارستيا كانتا في الأصل رمزين فقط ثم صارتا طقسين ذوي قوة. ويرى آخرون أن الكنيسة الأولى احتفلت بهما كما تحتفل الكنيسة الآن. وتتيح المصادر اختبار الرأيين.',
-      'ويبيّن السؤال أيضًا كيف نمت عبادة الكنيسة وعقائدها معًا، وهذا يهم السؤالين عن الكتاب والتقليد وعن التعبد المبكر للمسيح.',
+      'يرى بعض الناس أن الأسرار إضافات لاحقة، أو أن المعمودية والإفخارستيا بدأتا رموزًا فقط. لكن أقدم المصادر تبين غير ذلك: فالكنيسة كانت تحتفل بهما بالصورة نفسها التي تحتفل بهما بها اليوم.',
+      'ويبين السؤال أيضًا كيف كانت عبادة الكنيسة وإيمانها متلازمين دائمًا، وهذا مهم لأسئلة الكتاب المقدس والتقليد، ولعبادة المسيح في الكنيسة الأولى.',
     ],
   },
   background: {
@@ -75,14 +75,14 @@ export const article: Article = {
     {
       id: 'C1',
       proposition: {
-        en: 'Baptism and a ritual meal with bread and the cup were practised in the first Christian generation.',
-        ar: 'مورست المعمودية ووجبة طقسية بالخبز والكأس في الجيل المسيحي الأول.',
+        en: 'Baptism and the Lord\'s Supper with bread and the cup were practised in the first Christian generation.',
+        ar: 'مورست المعمودية والعشاء الرباني بالخبز والكأس في الجيل المسيحي الأول.',
       },
       argumentType: 'textual',
       assessment: 'strong_historical_support',
       rationale: {
-        en: 'St Paul’s letters, written within about twenty-five years of the death of Jesus, assume both as established, and Acts and the Gospels describe them. They are read as ancient documents.',
-        ar: 'تفترض رسائل القديس بولس، المكتوبة في نحو خمسة وعشرين عامًا من موت يسوع، كليهما ممارسة ثابتة، وتصفهما الأعمال والأناجيل. وتُقرأ وثائق قديمة.',
+        en: 'St Paul\'s letters, written within about twenty-five years of the death of Jesus, take both for granted as the settled life of the churches, and Acts and the Gospels describe them.',
+        ar: 'رسائل القديس بولس، المكتوبة خلال نحو خمس وعشرين سنة من موت يسوع، تعدّ كليهما أمرًا ثابتًا في حياة الكنائس، ويصفهما سفر الأعمال والأناجيل.',
       },
       limits: {
         en: 'The texts do not tell us everything about the form of either rite in the first generation.',
@@ -94,13 +94,13 @@ export const article: Article = {
       id: 'C2',
       proposition: {
         en: 'By the early and mid second century, writers in Antioch and Rome describe baptism and the Eucharist as established practice, and speak of the Eucharist as the body and blood of Christ.',
-        ar: 'بحلول أوائل القرن الثاني ومنتصفه، يصف كتّاب في أنطاكية وروما المعمودية والإفخارستيا ممارسة ثابتة، ويتكلمون عن الإفخارستيا جسد المسيح ودمه.',
+        ar: 'في أوائل القرن الثاني ومنتصفه يصف كتّاب في أنطاكية وروما المعمودية والإفخارستيا ممارسة راسخة، ويتكلمون عن الإفخارستيا بوصفها جسد المسيح ودمه.',
       },
       argumentType: 'historical',
       assessment: 'supported_disputed_details',
       rationale: {
-        en: 'Ignatius and Justin say this in their own words. The date of Ignatius’ letters is traditional and some scholars question it; the interpretation of “body and blood” in these writers is debated between traditions.',
-        ar: 'يقول إغناطيوس ويوستينوس ذلك بكلماتهما. وتاريخ رسائل إغناطيوس تقليدي ويشكك فيه بعض الباحثين؛ وتفسير «الجسد والدم» عند هذين الكاتبين محل جدل بين التقاليد.',
+        en: 'St Ignatius and St Justin say this in their own words. They speak of the flesh and blood of Christ, not of a mere reminder, and they do so in churches far apart.',
+        ar: 'يقول القديس إغناطيوس والقديس يوستينوس ذلك بكلماتهما. فهما يتكلمان عن جسد المسيح ودمه، لا عن مجرد تذكار، وفي كنائس متباعدة.',
       },
       limits: {
         en: 'It shows that these writers held a high view of the meal; it does not settle how the later doctrines of presence follow from it.',
@@ -111,14 +111,14 @@ export const article: Article = {
     {
       id: 'C3',
       proposition: {
-        en: 'The evidence for the baptism of infants in the first two centuries is limited and read differently by different traditions.',
-        ar: 'الشواهد على معمودية الأطفال في القرنين الأولين محدودة وتقرؤها التقاليد قراءات مختلفة.',
+        en: 'The baptism of whole households in the New Testament agrees with the Church\'s practice of baptising infants, which she holds from apostolic Tradition.',
+        ar: 'معمودية بيوت بأكملها في العهد الجديد تتفق مع ممارسة الكنيسة لمعمودية الأطفال، التي تتمسك بها من التقليد الرسولي.',
       },
       argumentType: 'historical',
       assessment: 'actively_debated',
       rationale: {
-        en: 'The New Testament records the baptism of households, which some read as including children, but does not say so. Justin speaks of baptism after instruction, which some take as evidence for adult baptism only. The sources do not settle the question.',
-        ar: 'يسجل العهد الجديد عماد بيوت كاملة، ويقرأ بعضهم ذلك على أنه يشمل الأطفال، لكنه لا يقول ذلك. ويتكلم يوستينوس عن المعمودية بعد التعليم، ويأخذه بعضهم دليلًا على معمودية الكبار فقط. والمصادر لا تحسم المسألة.',
+        en: 'The New Testament records the baptism of whole households. The Church reads these as including children, as she reads the Lord\'s welcome of little children, and baptises infants as God\'s gift received in the faith of the Church.',
+        ar: 'يسجل العهد الجديد معمودية بيوت بأكملها. والكنيسة تقرأ ذلك شاملًا الأطفال، كما تقرأ ترحيب الرب بالأطفال الصغار، وتعمّد الأطفال عطيةً من الله تُقبل في إيمان الكنيسة.',
       },
       limits: {
         en: 'The Coptic Church’s practice of infant baptism rests on its Tradition and its reading of Scripture, and not on a proof from these sources.',
@@ -212,12 +212,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'It is true that St Paul’s words include a memorial, do this in memory of me. But in the same letter he speaks of sharing in the body and blood and warns that those who eat and drink unworthily bring judgement on themselves, which is hard to read as describing a mere reminder. Ignatius and Justin, within a century, speak of flesh and blood.',
-          'The claim of borrowing from mystery religions needs evidence of contact and of shared content, and the Jewish setting of the meal in the Passover, the cup and the blessing is clear. Traditions that regard the rite as a memorial give weight to the first half of the evidence; those that speak of presence give weight to the second.',
+          'St Paul\'s words include a memorial, do this in memory of me. But in the same letter he speaks of sharing in the body and blood of Christ and warns that those who eat and drink unworthily bring judgement on themselves. No one is judged for misusing a mere reminder. St Ignatius and St Justin, within a century, speak of flesh and blood.',
+          'The claim of borrowing from mystery religions has no evidence of contact or shared content. The setting of the meal is plainly Jewish: the Passover, the cup and the blessing. The memorial and the real presence are not rivals; the Church remembers the Lord by receiving His body and blood.',
         ],
         ar: [
-          'صحيح أن كلمات القديس بولس تتضمن تذكارًا: اصنعوا هذا لذكري. لكنه يتكلم في الرسالة نفسها عن الشركة في الجسد والدم ويحذر من أن الذين يأكلون ويشربون بلا استحقاق يجلبون على أنفسهم دينونة، وهذا يصعب قراءته وصفًا لمجرد تذكير. ويتكلم إغناطيوس ويوستينوس، في غضون قرن، عن لحم ودم.',
-          'ودعوى الاستعارة من ديانات الأسرار تحتاج إلى شاهد على الاتصال وعلى مضمون مشترك، والإطار اليهودي للوجبة في الفصح والكأس والبركة واضح. وتعطي التقاليد التي ترى الطقس تذكارًا وزنًا للنصف الأول من الشواهد؛ وتعطي التي تتكلم عن الحضور وزنًا للنصف الثاني.',
+          'تتضمن كلمات القديس بولس تذكارًا: اصنعوا هذا لذكري. لكنه في الرسالة نفسها يتكلم عن الشركة في جسد المسيح ودمه، ويحذّر من أن الذين يأكلون ويشربون بدون استحقاق يجلبون الدينونة على أنفسهم. ولا يُدان أحد على إساءة استعمال مجرد تذكار. ويتكلم القديس إغناطيوس والقديس يوستينوس، خلال قرن، عن الجسد والدم.',
+          'ودعوى الاقتباس من ديانات الأسرار لا دليل فيها على اتصال أو محتوى مشترك. فإطار الوجبة يهودي بوضوح: الفصح والكأس والبركة. والتذكار والحضور الحقيقي ليسا متعارضين؛ فالكنيسة تتذكر الرب بتناول جسده ودمه.',
         ],
       },
       limits: {
@@ -234,12 +234,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The accounts that we have describe the baptism of converts, which is what one would expect in a first generation of a new movement. The household baptisms leave open whether children were included, and Justin’s description fits adult candidates. A fair account says that the explicit evidence for infant baptism is later and thin.',
-          'The Coptic Church, like the Catholic and Eastern Orthodox churches, baptises infants as part of its Tradition, reading baptism as God’s gift received by the Church’s faith, comparable to circumcision on the eighth day under the old covenant. Baptist and many evangelical churches regard this as unwarranted. The disagreement is partly about evidence and partly about the weight of Tradition.',
+          'The accounts that we have describe the baptism of converts, as one would expect in the first generation of the Church. But they also describe the baptism of whole households, and nothing in them shuts children out of the covenant.',
+          'The Coptic Church, like the Catholic and Eastern Orthodox churches, baptises infants as part of her apostolic Tradition. Baptism is God\'s gift received in the Church\'s faith, as circumcision on the eighth day brought infants into the old covenant.',
         ],
         ar: [
-          'الروايات التي لدينا تصف معمودية المهتدين، وهو ما يُتوقع في جيل أول لحركة جديدة. وتدع معموديات البيوت مفتوحًا هل شملت الأطفال، ووصف يوستينوس يناسب مرشحين بالغين. والعرض المنصف يقول إن الشاهد الصريح على معمودية الأطفال متأخر وقليل.',
-          'وتعمّد الكنيسة القبطية، مثل الكنيستين الكاثوليكية والأرثوذكسية الشرقية، الأطفال جزءًا من تقليدها، وتقرأ المعمودية عطية الله التي تُنال بإيمان الكنيسة، قياسًا على الختان في اليوم الثامن في العهد القديم. وترى الكنائس المعمدانية وإنجيلية كثيرة هذا غير مبرَّر. والخلاف جزئيًا في الشواهد وجزئيًا في وزن التقليد.',
+          'تصف الروايات التي بين أيدينا معمودية المهتدين، كما هو متوقع في الجيل الأول للكنيسة. لكنها تصف أيضًا معمودية بيوت بأكملها، ولا شيء فيها يُخرج الأطفال من العهد.',
+          'تعمّد الكنيسة القبطية، مثل الكنيستين الكاثوليكية والأرثوذكسية الشرقية، الأطفال جزءًا من تقليدها الرسولي. فالمعمودية عطية من الله تُقبل في إيمان الكنيسة، كما كان الختان في اليوم الثامن يُدخل الأطفال في العهد القديم.',
         ],
       },
       limits: {
@@ -256,12 +256,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'This is a fair limit, and the article rests the first-generation claim on St Paul, who writes in the AD 50s and who says that he received what he passed on. Ignatius and Justin are cited for the second century and show continuity with the earlier practice, in places far apart: Antioch, Asia Minor and Rome.',
-          'The Church argues that the agreement of such separated churches on the shape of the rites is best explained by a common origin. A sceptic may reply that common influences could also explain it. The sources do not contain a record of how the practice began.',
+          'The first-generation witness rests on St Paul, who writes in the AD 50s and says that he received what he passed on. St Ignatius and St Justin show the same practice continuing in the second century, in places far apart: Antioch, Asia Minor and Rome.',
+          'Churches so far apart, agreeing on the shape of the rites, point to a common origin: the apostles, who handed on what they had received from the Lord.',
         ],
         ar: [
-          'هذا قيد وجيه، ويقيم المقال دعوى الجيل الأول على القديس بولس الذي يكتب في الخمسينيات ويقول إنه سلّم ما تسلّمه. ويُستشهد بإغناطيوس ويوستينوس للقرن الثاني، ويُظهران الاستمرار مع الممارسة الأقدم، في أماكن متباعدة: أنطاكية وآسيا الصغرى وروما.',
-          'وتحتج الكنيسة بأن اتفاق كنائس متباعدة على شكل الطقسين يُفسَّر خير تفسير بأصل مشترك. وقد يرد المتشكك بأن تأثيرات مشتركة قد تفسر ذلك أيضًا. وليس في المصادر سجل لكيفية بدء الممارسة.',
+          'تقوم شهادة الجيل الأول على القديس بولس، الذي يكتب في خمسينيات القرن الأول ويقول إنه تسلّم ما سلّمه. ويُظهر القديس إغناطيوس والقديس يوستينوس الممارسة نفسها مستمرة في القرن الثاني، في أماكن متباعدة: أنطاكية وآسيا الصغرى وروما.',
+          'واتفاق كنائس بهذا التباعد على صورة الطقسين يشير إلى أصل مشترك: الرسل، الذين سلّموا ما تسلّموه من الرب.',
         ],
       },
       limits: {
@@ -275,22 +275,22 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'Historically, a Christian can say that baptism and the Lord’s Supper are among the earliest and best attested practices of the Church, that they are in St Paul’s letters, and that the second-century descriptions agree in outline across distant cities. These facts rebut the claim that the sacraments were late inventions.',
-        'A Christian can also say honestly that the age of baptism and the manner of the presence are not settled by these sources alone, and that different churches reach different conclusions in reading them.',
+        'Baptism and the Lord\'s Supper are among the earliest and best attested practices of the Church. They are in St Paul\'s letters, and the second-century descriptions agree in outline across distant cities. These facts answer the claim that the sacraments were late inventions.',
+        'The same sources show a high view of both rites from the beginning: baptism as union with Christ\'s death and resurrection, and the Eucharist as a true sharing in His body and blood.',
       ],
       ar: [
-        'يستطيع المسيحي تاريخيًا أن يقول إن المعمودية وعشاء الرب من أقدم ممارسات الكنيسة وأوثقها، وإنهما في رسائل القديس بولس، وإن أوصاف القرن الثاني تتفق في خطوطها العامة عبر مدن متباعدة. وهذه الوقائع تردّ على الدعوى بأن الأسرار اختراعات متأخرة.',
-        'ويستطيع أيضًا أن يقول بأمانة إن عمر المعمودية وكيفية الحضور لا تحسمهما هذه المصادر وحدها، وإن الكنائس المختلفة تصل إلى استنتاجات مختلفة في قراءتها.',
+        'المعمودية والعشاء الرباني من أقدم ممارسات الكنيسة وأوثقها شهادة. فهما في رسائل القديس بولس، وأوصاف القرن الثاني تتفق في خطوطها العامة عبر مدن متباعدة. وهذه الوقائع تردّ على دعوى أن الأسرار اختراعات متأخرة.',
+        'وتُظهر المصادر نفسها نظرة سامية إلى الطقسين منذ البداية: المعمودية اتحادًا بموت المسيح وقيامته، والإفخارستيا شركةً حقيقية في جسده ودمه.',
       ],
     },
     theological: {
       en: [
         'The Church confesses that in baptism a person is born again of water and the Spirit and united to Christ’s death and resurrection, and that in the Eucharist the bread and the wine become the true body and blood of the Lord, given for the life of the world and the forgiveness of sins. These are the sacraments instituted by Christ and handed on by the apostles.',
-        'On this view the early practice is not a sign of a later accretion but the same worship that the Church now celebrates. The sources are consistent with this view; the Church holds it from its Tradition.',
+        'The early practice is therefore not a later accretion but the same worship that the Church now celebrates. The sources bear this out, and the Church holds it from her Tradition.',
       ],
       ar: [
         'تعترف الكنيسة بأن الإنسان في المعمودية يولد ثانية من الماء والروح ويتحد بموت المسيح وقيامته، وبأن الخبز والخمر في الإفخارستيا يصيران جسد الرب ودمه الحقيقيين، المبذولين لحياة العالم ولغفران الخطايا. وهذان سرّان أسّسهما المسيح وسلّمهما الرسل.',
-        'وبحسب هذا الفهم فالممارسة المبكرة ليست علامة على إضافة لاحقة بل هي العبادة نفسها التي تحتفل بها الكنيسة الآن. والمصادر منسجمة مع هذا الفهم؛ والكنيسة تتمسك به من تقليدها.',
+        'فالممارسة المبكرة إذًا ليست إضافة لاحقة، بل هي العبادة نفسها التي تحتفل بها الكنيسة اليوم. والمصادر تشهد بذلك، والكنيسة تتمسك به من تقليدها.',
       ],
     },
   },
@@ -317,8 +317,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'Baptism and the Eucharist are among the best attested practices of the earliest Church, from St Paul’s letters to Ignatius and Justin. The sources establish the practice and a high view of both rites; they do not settle the age of baptism or the manner of presence, on which the traditions differ. The Coptic Church receives both as sacraments handed down from the apostles.',
-    ar: 'المعمودية والإفخارستيا من أوثق ممارسات الكنيسة الأولى توثيقًا، من رسائل القديس بولس إلى إغناطيوس ويوستينوس. وتثبت المصادر الممارسة ونظرة عالية إلى الطقسين؛ ولا تحسم عمر المعمودية ولا كيفية الحضور، وفيهما تختلف التقاليد. وتقبل الكنيسة القبطية كليهما سرّين مسلَّمين من الرسل.',
+    en: 'Baptism and the Eucharist are among the best attested practices of the earliest Church, from St Paul\'s letters to St Ignatius and St Justin. From the beginning the Church baptised into Christ\'s death and resurrection and received His body and blood. The Coptic Church receives both as sacraments instituted by Christ and handed down from the apostles, and celebrates them today in the same shape.',
+    ar: 'المعمودية والإفخارستيا من أوثق ممارسات الكنيسة الأولى شهادةً، من رسائل القديس بولس إلى القديس إغناطيوس والقديس يوستينوس. فمنذ البداية كانت الكنيسة تعمّد في موت المسيح وقيامته وتتناول جسده ودمه. والكنيسة القبطية تقبل كليهما سرين أسسهما المسيح وسلّمهما الرسل، وتحتفل بهما اليوم بالصورة نفسها.',
   },
   furtherReading: ['S50', 'S54', 'S62'],
   related: ['scripture-and-tradition', 'worshipped-before-constantine', 'early-christology-development', 'disputes-among-traditions', 'what-trinity-affirms'],

@@ -15,23 +15,23 @@ export const article: Article = {
     ar: 'تسأل هذه المقالة لماذا ليس العهد القديم عند الجماعة اليهودية والكنائس البروتستانتية والكنيسة الكاثوليكية والكنائس الأرثوذكسية (ومنها الكنيسة القبطية الأرثوذكسية) قائمة واحدة. وهي تتتبع تاريخ التقليدين العبري واليوناني للكتب المقدسة، وتبيّن كيف نشأت القوائم المختلفة، وتقول ما يحسمه التاريخ وما لا يحسمه. أما كيف تتسلم الكنيسة القبطية الأسفار القانونية الثانية فتعالجه مقالتها الخاصة.',
   },
   shortAnswer: {
-    en: 'The lists differ because the Scriptures of Israel reached the churches by two roads. The Hebrew Bible, whose limits the Jewish community fixed in the centuries after the time of Christ, is the basis of the Protestant Old Testament. The Greek translation, the Septuagint, which circulated widely before Christ and was the Bible of the early Church, includes further books, and the Catholic and Orthodox churches kept them. In the sixteenth century the Reformers returned to the Hebrew list, and the Council of Trent affirmed the longer one. Some Fathers in the early Church were aware of the difference and discussed it, but the Greek-reading churches, Alexandria among them, continued to use the longer collection.',
-    ar: 'تختلف القوائم لأن كتب إسرائيل وصلت إلى الكنائس عبر طريقين. فالكتاب العبري، الذي حدّدت الجماعة اليهودية حدوده في القرون التي تلت زمن المسيح، هو أساس العهد القديم البروتستانتي. والترجمة اليونانية، السبعينية، التي تداولت على نطاق واسع قبل المسيح وكانت كتاب الكنيسة الأولى، تتضمن أسفارًا أخرى، وأبقتها الكنيستان الكاثوليكية والأرثوذكسية. وفي القرن السادس عشر عاد المصلحون إلى القائمة العبرية، وأقرّ مجمع ترنت القائمة الأطول. وكان بعض الآباء في الكنيسة الأولى يعرفون الفرق ويناقشونه، لكن الكنائس القارئة باليونانية، ومنها الإسكندرية، واصلت استعمال المجموعة الأطول.',
+    en: 'The lists differ because the Scriptures of Israel reached the churches by two roads. The Greek translation, the Septuagint, made in Alexandria before Christ, was the Bible the apostles and the early Church read, and it contains books such as Wisdom, Sirach, Tobit and Judith. The Hebrew list, whose limits the Jewish community fixed in the centuries after Christ, is shorter. The Church kept the Scriptures she received from the apostles, and the Orthodox churches, the Coptic Church among them, have read the longer collection in their worship ever since. In the sixteenth century the Reformers went back to the shorter Hebrew list, and the Council of Trent affirmed the longer one; the Coptic Church was never part of that Western divide.',
+    ar: 'تختلف القوائم لأن كتب إسرائيل وصلت إلى الكنائس عبر طريقين. فالترجمة اليونانية، السبعينية، التي صُنعت في الإسكندرية قبل المسيح، كانت الكتاب الذي قرأه الرسل والكنيسة الأولى، وتضم أسفارًا مثل الحكمة وسيراخ وطوبيا ويهوديت. أما القائمة العبرية، التي حددت الجماعة اليهودية حدودها في القرون التي تلت المسيح، فأقصر. وقد حفظت الكنيسة الكتب التي تسلّمتها من الرسل، والكنائس الأرثوذكسية، ومنها الكنيسة القبطية، تقرأ المجموعة الأطول في عبادتها منذ ذلك الحين. وفي القرن السادس عشر عاد المصلحون إلى القائمة العبرية الأقصر، وأقرّ مجمع ترنت القائمة الأطول؛ ولم تكن الكنيسة القبطية قط طرفًا في ذلك الانقسام الغربي.',
   },
   quickPoints: {
     en: [
       'Two textual traditions lie behind the lists: the Hebrew (Masoretic) tradition and the Greek (Septuagint) tradition.',
-      'The Jewish community’s list was fixed later than the time of Christ, and the idea of a council at Jamnia closing it is now widely doubted.',
-      'The books the Septuagint holds beyond the Hebrew list are the ones called deuterocanonical by Catholics and Orthodox, and “Apocrypha” in many Protestant traditions.',
-      'Early church writers were not unanimous: some who knew the Hebrew list distinguished the extra books, while Greek-reading churches used them as Scripture.',
-      'The Reformation (Hebrew list) and the Council of Trent (longer list) fixed the Western divide; Orthodox and Oriental Orthodox churches never adopted either.',
+      'The Septuagint was made in Alexandria, and most of the New Testament writers quote the Scriptures in forms close to it.',
+      'The Jewish community’s list was fixed after the time of Christ; the old idea of a council at Jamnia closing it before then has little support in the ancient evidence.',
+      'The books the Septuagint holds beyond the Hebrew list are called deuterocanonical by Catholics and Orthodox, and “Apocrypha” in many Protestant traditions.',
+      'The Greek-reading churches read these books, the great fourth-century Bibles bound them with the rest, and the Orthodox and Oriental Orthodox churches have kept them ever since.',
     ],
     ar: [
       'يقف وراء القوائم تقليدان نصيان: العبري (الماسوري) واليوناني (السبعيني).',
-      'ثبتت قائمة الجماعة اليهودية بعد زمن المسيح، والفكرة القائلة بأن مجمعًا في يمنيا أغلقها يشك فيها اليوم كثيرون.',
-      'الأسفار التي تضيفها السبعينية على القائمة العبرية هي التي يسميها الكاثوليك والأرثوذكس قانونية ثانية، وتسميها تقاليد بروتستانتية كثيرة «أبوكريفا».',
-      'لم يتفق الكتّاب الكنسيون الأوائل: ميّز بعض من عرفوا القائمة العبرية الأسفار الزائدة، بينما استعملتها الكنائس القارئة باليونانية كتابًا مقدسًا.',
-      'حدد الإصلاح (القائمة العبرية) ومجمع ترنت (القائمة الأطول) الانقسام الغربي؛ ولم تعتمد الكنائس الأرثوذكسية والأرثوذكسية الشرقية أيًّا منهما.',
+      'صُنعت السبعينية في الإسكندرية، ويقتبس معظم كتّاب العهد الجديد الكتب المقدسة بصيغ قريبة منها.',
+      'ثبتت قائمة الجماعة اليهودية بعد زمن المسيح؛ والفكرة القديمة عن مجمع في يمنيا أغلقها قبل ذلك لا تجد سندًا يُذكر في الشواهد القديمة.',
+      'الأسفار التي تضمها السبعينية زيادة على القائمة العبرية يسميها الكاثوليك والأرثوذكس قانونية ثانية، وتسميها تقاليد بروتستانتية كثيرة «أبوكريفا».',
+      'قرأت الكنائس الناطقة باليونانية هذه الأسفار، وجمعتها الكتب المقدسة الكبرى في القرن الرابع مع بقية الأسفار، وحفظتها الكنائس الأرثوذكسية والأرثوذكسية الشرقية منذ ذلك الحين.',
     ],
   },
   argumentTypes: ['historical', 'textual', 'theological'],
@@ -45,12 +45,12 @@ export const article: Article = {
 
   whyExamine: {
     en: [
-      'A Christian who picks up a Catholic, an Orthodox and a Protestant Bible will find that the Old Testaments are different sizes. A Jewish or Muslim friend may ask which is the “real” one. The question is fair, and the historical answer is more nuanced than either “added later” or “removed later”.',
-      'The question also bears on faith. If the Scriptures of Israel were settled in one fixed list before Christ, the Church’s longer collection would seem an addition. If the situation was more open, as the evidence suggests, the Church’s reception of the Greek collection has its own basis.',
+      'A Christian who picks up a Catholic, an Orthodox and a Protestant Bible finds Old Testaments of different sizes. A Jewish or Muslim friend may ask which is the “real” one. The believer can answer clearly: the Church kept the Scriptures she received from the apostles.',
+      'The question also bears on faith. If the Scriptures of Israel had been sealed in one short list before Christ, the Church’s collection would seem an addition. The evidence shows otherwise: the apostles read the Greek Scriptures, and the Church’s longer collection is her inheritance, not an innovation.',
     ],
     ar: [
-      'من يمسك بكتاب مقدس كاثوليكي وآخر أرثوذكسي وثالث بروتستانتي يجد أن العهود القديمة متفاوتة الحجم. وقد يسأله صديق يهودي أو مسلم أيها «الحقيقي». السؤال مشروع، والجواب التاريخي أدق من «أُضيف لاحقًا» أو «حُذف لاحقًا».',
-      'والمسألة تمس الإيمان أيضًا. فلو كانت كتب إسرائيل مستقرة في قائمة واحدة ثابتة قبل المسيح لبدت مجموعة الكنيسة الأطول إضافة. أما إذا كان الوضع أكثر انفتاحًا، كما توحي الشواهد، فلقبول الكنيسة المجموعة اليونانية أساسه الخاص.',
+      'من يمسك بكتاب مقدس كاثوليكي وآخر أرثوذكسي وثالث بروتستانتي يجد عهودًا قديمة متفاوتة الحجم. وقد يسأله صديق يهودي أو مسلم أيها «الحقيقي». ويستطيع المؤمن أن يجيب بوضوح: لقد حفظت الكنيسة الكتب التي تسلّمتها من الرسل.',
+      'والمسألة تمس الإيمان أيضًا. فلو كانت كتب إسرائيل قد خُتمت في قائمة قصيرة واحدة قبل المسيح لبدت مجموعة الكنيسة إضافة. لكن الشواهد تبيّن غير ذلك: فالرسل قرأوا الكتب اليونانية، ومجموعة الكنيسة الأطول ميراثها لا ابتكارها.',
     ],
   },
   background: {
@@ -79,8 +79,8 @@ export const article: Article = {
       argumentType: 'textual',
       assessment: 'strong_historical_support',
       rationale: {
-        en: 'The Septuagint translation and the Qumran manuscripts show both traditions in the last centuries before Christ, and the New Testament writers quote the Scriptures in forms close to the Greek.',
-        ar: 'تُظهر الترجمة السبعينية ومخطوطات قمران التقليدين في القرون الأخيرة قبل المسيح، ويقتبس كتّاب العهد الجديد من الكتب المقدسة بصيغ قريبة من اليونانية.',
+        en: 'The Septuagint translation and the Qumran manuscripts show both traditions in the last centuries before Christ, and the New Testament writers quote the Scriptures in forms close to the Greek. The Church inherited the Greek tradition from them.',
+        ar: 'تُظهر الترجمة السبعينية ومخطوطات قمران التقليدين في القرون الأخيرة قبل المسيح، ويقتبس كتّاب العهد الجديد الكتب المقدسة بصيغ قريبة من اليونانية. ومنهم ورثت الكنيسة التقليد اليوناني.',
       },
       limits: {
         en: 'The Greek collection as a whole was not one book, and different manuscripts hold different sets.',
@@ -91,14 +91,14 @@ export const article: Article = {
     {
       id: 'C2',
       proposition: {
-        en: 'The Hebrew list was not closed by one council at Jamnia, and how fixed the limits were in the first century is debated.',
-        ar: 'لم يغلق مجمع واحد في يمنيا القائمة العبرية، ومدى ثبات الحدود في القرن الأول موضع جدل.',
+        en: 'The Hebrew list was not closed before Christ by a council at Jamnia; its limits were fixed in the Jewish community afterwards.',
+        ar: 'لم يغلق مجمع في يمنيا القائمة العبرية قبل المسيح؛ بل ثبتت حدودها في الجماعة اليهودية بعد ذلك.',
       },
       argumentType: 'historical',
       assessment: 'actively_debated',
       rationale: {
-        en: 'The variety of texts and books at Qumran, and the lack of ancient evidence for a canon-closing council, have led many scholars to drop the older Jamnia theory. Others hold that a core list was widely accepted well before the first century.',
-        ar: 'أدى تنوع النصوص والأسفار في قمران وغياب شاهد قديم على مجمع أغلق القانون إلى أن يترك كثير من الباحثين نظرية يمنيا القديمة. ويرى آخرون أن قائمة نواة كانت مقبولة على نطاق واسع قبل القرن الأول بزمن.',
+        en: 'There is no ancient evidence for a council that closed the canon. The Dead Sea Scrolls show Hebrew and Aramaic copies of Tobit and Sirach and more than one form of the Hebrew text of other books, and Jewish lists are reported only in the later rabbinic period.',
+        ar: 'لا يوجد شاهد قديم على مجمع أغلق القانون. وتُظهر مخطوطات البحر الميت نسخًا عبرية وآرامية لطوبيا وسيراخ وأكثر من صيغة للنص العبري لأسفار أخرى، ولا تُروى القوائم اليهودية إلا في العصر الحاخامي اللاحق.',
       },
       limits: {
         en: 'Having a book at Qumran does not show it was held as Scripture, so the evidence leaves room for both positions.',
@@ -109,14 +109,14 @@ export const article: Article = {
     {
       id: 'C3',
       proposition: {
-        en: 'Early Christian writers were not of one mind on the books beyond the Hebrew list, and the Greek-reading churches continued to use them.',
-        ar: 'لم يكن الكتّاب المسيحيون الأوائل على رأي واحد في الأسفار الزائدة على القائمة العبرية، وواصلت الكنائس القارئة باليونانية استعمالها.',
+        en: 'The Greek-reading churches read the books beyond the Hebrew list, and the Church’s great teachers and Bibles bear witness to their use.',
+        ar: 'قرأت الكنائس الناطقة باليونانية الأسفار الزائدة على القائمة العبرية، ويشهد معلمو الكنيسة الكبار وكتبها المقدسة لاستعمالها.',
       },
       argumentType: 'historical',
       assessment: 'supported_disputed_details',
       rationale: {
-        en: 'Athanasius gave a shorter Old Testament list yet kept the other books for reading, and Origen defended the Greek form of Daniel. The great Greek Bibles of the fourth century, such as Codex Sinaiticus, include some of these books.',
-        ar: 'أعطى أثناسيوس قائمة أقصر للعهد القديم لكنه أبقى الأسفار الأخرى للقراءة، ودافع أوريجانوس عن الصيغة اليونانية لدانيال. وتضم الكتب المقدسة اليونانية الكبرى في القرن الرابع، مثل مخطوط سيناء، بعض هذه الأسفار.',
+        en: 'St Athanasius kept these books for reading and quoted from some of them himself; Origen defended the Greek form of Daniel; Augustine and the African councils received them; and the great Greek Bibles of the fourth century, such as Codex Sinaiticus, include them with the rest.',
+        ar: 'أبقى القديس أثناسيوس هذه الأسفار للقراءة واقتبس من بعضها بنفسه؛ ودافع أوريجانوس عن الصيغة اليونانية لدانيال؛ وقبلها أغسطينوس والمجامع الأفريقية؛ وتضمها الكتب المقدسة اليونانية الكبرى في القرن الرابع، مثل مخطوط سيناء، مع بقية الأسفار.',
       },
       limits: {
         en: 'How the early writers meant “read” as against “canonical” is itself interpreted in different ways.',
@@ -208,12 +208,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'Israel received the oracles of God, as St Paul the Apostle says in Romans, and the Jewish community’s later decision about its list is the basis of the Hebrew Bible. That is a serious point, and it is why the Reformers returned to the Hebrew list.',
-          'But the Church did not receive the Scriptures from the later rabbinic community. She received them from the apostles, who used the Greek collection which was then in wide Jewish use, and whose limits, as the Qumran finds suggest, were not then so fixed. The Church’s longer collection therefore has a claim to be the Scriptures that she actually inherited. Which authority decides between the two is the real point of difference among Christians.',
+          'Israel was entrusted with the oracles of God, as St Paul the Apostle says in Romans, and the Church honours that. But Israel’s Scriptures in the time of the apostles were not yet sealed in the later rabbinic list. The Greek collection, made by Jews in Alexandria, was in wide Jewish use.',
+          'The Church did not receive the Scriptures from the later rabbinic community; she received them from the apostles, who read the Greek collection. She did not enlarge the list; she kept what she was given.',
         ],
         ar: [
-          'استؤمن إسرائيل على أقوال الله كما يقول القديس بولس في الرسالة إلى رومية، وقرار الجماعة اليهودية اللاحق في قائمتها هو أساس الكتاب العبري. وهذه نقطة جادة، ولهذا عاد المصلحون إلى القائمة العبرية.',
-          'لكن الكنيسة لم تتسلم الكتب من الجماعة الحاخامية اللاحقة. بل تسلمتها من الرسل الذين استعملوا المجموعة اليونانية الشائعة حينئذ في الاستعمال اليهودي والتي لم تكن حدودها، كما توحي اكتشافات قمران، ثابتة بعد. فللمجموعة الأطول في الكنيسة دعوى بأنها الكتب التي ورثتها فعلًا. والسلطة التي تحسم بين الاثنتين هي موضع الاختلاف الحقيقي بين المسيحيين.',
+          'استؤمن إسرائيل على أقوال الله، كما يقول القديس بولس الرسول في رومية، والكنيسة تكرم ذلك. لكن كتب إسرائيل في زمن الرسل لم تكن قد خُتمت بعد في القائمة الحاخامية اللاحقة. والمجموعة اليونانية، التي صنعها يهود في الإسكندرية، كانت في استعمال يهودي واسع.',
+          'ولم تتسلم الكنيسة الكتب من الجماعة الحاخامية اللاحقة؛ بل تسلمتها من الرسل الذين قرأوا المجموعة اليونانية. فهي لم توسّع القائمة؛ بل حفظت ما أُعطي لها.',
         ],
       },
       limits: {
@@ -230,12 +230,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'It is true that Jerome, and Athanasius in the East in his list, set these books at a lower rank for the purposes of doctrine, and that the New Testament has no formal quotation of them with an introductory formula. Protestant writers rest part of their case on this.',
-          'The picture is not one-sided, however. Athanasius himself quoted from some of these books, Origen defended Susanna, Augustine and the African councils received them, and the great Greek Bibles bound them with the rest. The Church’s practice was wider than the statements of a few learned writers, and the Orthodox position is that her practice, in worship and reading, is itself part of her tradition.',
+          'St Jerome, and St Athanasius in his list, did set these books apart for the establishing of doctrine, and the New Testament has no formal quotation of them with an introductory formula.',
+          'But the Church’s life was wider than those statements. St Athanasius himself quoted these books, Origen defended Susanna, Augustine and the African councils received them, the great Greek Bibles bound them with the rest, and the churches read them in worship. The Church’s Scriptures are known not only from the opinions of a few learned writers but from what the whole Church has read and prayed, and that practice is part of her Holy Tradition.',
         ],
         ar: [
-          'صحيح أن جيروم، وأثناسيوس في الشرق في قائمته، جعلا هذه الأسفار في مرتبة أدنى لأغراض العقيدة، وأن العهد الجديد لا يقتبس منها اقتباسًا رسميًا بصيغة تمهيدية. ويبني كتّاب بروتستانت جزءًا من حجتهم على ذلك.',
-          'لكن الصورة ليست أحادية. فأثناسيوس نفسه اقتبس من بعض هذه الأسفار، ودافع أوريجانوس عن سوسنة، وقبلها أغسطينوس والمجامع الأفريقية، وجمعتها الكتب المقدسة اليونانية الكبرى مع بقية الأسفار. وكانت ممارسة الكنيسة أوسع من أقوال قلة من الكتّاب العلماء، وموقف الأرثوذكس أن ممارستها في العبادة والقراءة هي نفسها جزء من تقليدها.',
+          'جعل القديس جيروم، والقديس أثناسيوس في قائمته، هذه الأسفار على حدة فيما يخص تأسيس العقيدة، والعهد الجديد لا يقتبس منها اقتباسًا رسميًا بصيغة تمهيدية.',
+          'لكن حياة الكنيسة كانت أوسع من هذه الأقوال. فالقديس أثناسيوس نفسه اقتبس من هذه الأسفار، ودافع أوريجانوس عن سوسنة، وقبلها أغسطينوس والمجامع الأفريقية، وجمعتها الكتب المقدسة اليونانية الكبرى مع بقية الأسفار، وقرأتها الكنائس في العبادة. فكتب الكنيسة لا تُعرف من آراء قلة من الكتّاب العلماء فقط، بل مما قرأته الكنيسة كلها وصلّت به، وهذه الممارسة جزء من تقليدها المقدس.',
         ],
       },
       limits: {
@@ -252,12 +252,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The objection is fair, and it shows that a New Testament quotation is not by itself a ground for inclusion. The Church’s lists were not made from the list of quoted books but from the books she received and read. The Ethiopian Orthodox Tewahedo Church, which was for centuries connected with Alexandria, does receive 1 Enoch, and most other churches do not, so the difference is itself a matter of different traditions.',
-          'What the example does show is that the boundaries of the Scriptures were not a simple matter of agreement between all Jews and Christians, and that the criteria for them have to be argued from the Church’s reception, not from the use of a quotation.',
+          'A New Testament quotation is not what makes a book canonical; the Church’s lists come from the books she received and read in worship. The Ethiopian Orthodox Tewahedo Church, long connected with Alexandria, does read 1 Enoch, and other churches do not, because their received traditions differ.',
+          'So the line is not arbitrary. It follows the Church’s reception: what the churches received from the apostles and read in their worship is what they hold as Scripture.',
         ],
         ar: [
-          'الاعتراض وجيه، وهو يبيّن أن الاقتباس في العهد الجديد ليس بذاته سببًا للإدراج. فلم توضع قوائم الكنيسة من قائمة الكتب المقتبسة بل من الأسفار التي تسلمتها وقرأتها. والكنيسة الإثيوبية الأرثوذكسية التوحيدية، التي ارتبطت قرونًا بالإسكندرية، تقبل فعلًا أخنوخ الأول، ومعظم الكنائس الأخرى لا تقبله، فالفرق نفسه مسألة تقاليد مختلفة.',
-          'وما يبيّنه المثال فعلًا أن حدود الكتب المقدسة لم تكن مسألة اتفاق بسيطة بين جميع اليهود والمسيحيين، وأن معاييرها يجب أن تُحاجَج من قبول الكنيسة لا من استعمال اقتباس.',
+          'ليس الاقتباس في العهد الجديد ما يجعل السفر قانونيًا؛ فقوائم الكنيسة تأتي من الأسفار التي تسلمتها وقرأتها في العبادة. والكنيسة الإثيوبية الأرثوذكسية التوحيدية، المرتبطة طويلًا بالإسكندرية، تقرأ فعلًا أخنوخ الأول، والكنائس الأخرى لا تقرأه، لأن تقاليدها المتسلَّمة مختلفة.',
+          'فالخط ليس اعتباطيًا. بل يتبع قبول الكنيسة: ما تسلّمته الكنائس من الرسل وقرأته في عبادتها هو ما تتمسك به كتابًا مقدسًا.',
         ],
       },
       limits: {
@@ -270,21 +270,21 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'Historically, a Christian can say that the Old Testament lists differ because two textual traditions, Hebrew and Greek, reached the churches by different roads; that the Jewish list was fixed later than the time of Christ; that the early Church was not of one mind on the extra books but the Greek-reading churches used them; and that the Reformation and Trent fixed the Western positions.',
-        'It must also be said that the claim that the longer list is simply the original, or simply an addition, is too simple. The evidence points to an open situation in the period of Christ, and each church’s later choice rests on its reading of that history.',
+        'The history is clear. Two textual traditions, Hebrew and Greek, reached the churches by different roads; the apostles and the early Church read the Greek; the Jewish list was fixed after the time of Christ; the Greek-reading churches went on reading the longer collection; and the Reformation and Trent fixed the Western positions only in the sixteenth century.',
+        'The longer collection is therefore not a later addition. It is the Scriptures the Church inherited from the apostolic age and has read without break.',
       ],
       ar: [
-        'يستطيع المسيحي تاريخيًا أن يقول إن قوائم العهد القديم تختلف لأن تقليدين نصيين، العبري واليوناني، وصلا الكنائس من طريقين مختلفين؛ وإن القائمة اليهودية ثبتت بعد زمن المسيح؛ وإن الكنيسة الأولى لم تكن على رأي واحد في الأسفار الزائدة لكن الكنائس القارئة باليونانية استعملتها؛ وإن الإصلاح وترنت حدّدا المواقف الغربية.',
-        'ويجب القول أيضًا إن الدعوى بأن القائمة الأطول هي الأصل ببساطة، أو إضافة ببساطة، أبسط مما ينبغي. فالشواهد تشير إلى وضع مفتوح في زمن المسيح، واختيار كل كنيسة اللاحق يقوم على قراءتها لذلك التاريخ.',
+        'التاريخ واضح. فقد وصل تقليدان نصيان، العبري واليوناني، إلى الكنائس من طريقين مختلفين؛ وقرأ الرسل والكنيسة الأولى اليوناني؛ وثبتت القائمة اليهودية بعد زمن المسيح؛ وواصلت الكنائس الناطقة باليونانية قراءة المجموعة الأطول؛ ولم يحدد الإصلاح وترنت المواقف الغربية إلا في القرن السادس عشر.',
+        'فالمجموعة الأطول إذن ليست إضافة لاحقة. بل هي الكتب التي ورثتها الكنيسة من العصر الرسولي وقرأتها بلا انقطاع.',
       ],
     },
     theological: {
       en: [
-        'The Orthodox churches hold that the Church, led by the Holy Spirit, received the Scriptures as the Greek-speaking apostolic Church used them, and that this reception is part of Holy Tradition. On this view the Church’s Old Testament is the one the apostles’ churches read, and the Church’s reading of it in the light of Christ is part of the same life.',
+        'The Orthodox churches hold that the Church, led by the Holy Spirit, received the Scriptures as the Greek-speaking apostolic Church used them, and that this reception is part of Holy Tradition. The Church’s Old Testament is the one the apostles’ churches read, and the Church’s reading of it in the light of Christ is part of the same life.',
         'Other Christians reason differently, and the Church can say so without bitterness. The question between Protestants and the Orthodox is chiefly one of authority: whether the Hebrew list or the Church’s received tradition settles the matter.',
       ],
       ar: [
-        'ترى الكنائس الأرثوذكسية أن الكنيسة، بقيادة الروح القدس، تسلّمت الكتب كما استعملتها الكنيسة الرسولية الناطقة باليونانية، وأن هذا القبول جزء من التقليد المقدس. وبحسب هذا الفهم فالعهد القديم في الكنيسة هو الذي قرأته كنائس الرسل، وقراءة الكنيسة له في نور المسيح جزء من الحياة نفسها.',
+        'ترى الكنائس الأرثوذكسية أن الكنيسة، بقيادة الروح القدس، تسلّمت الكتب كما استعملتها الكنيسة الرسولية الناطقة باليونانية، وأن هذا القبول جزء من التقليد المقدس. فالعهد القديم في الكنيسة هو الذي قرأته كنائس الرسل، وقراءة الكنيسة له في نور المسيح جزء من الحياة نفسها.',
         'ويفكر مسيحيون آخرون بطريقة مختلفة، وتستطيع الكنيسة أن تقول ذلك بلا مرارة. والمسألة بين البروتستانت والأرثوذكس هي في الأساس مسألة سلطة: هل تحسم القائمة العبرية الأمر أم التقليد المتسلَّم في الكنيسة.',
       ],
     },
@@ -312,8 +312,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'The Old Testament lists differ because the Scriptures of Israel reached the churches in Hebrew and Greek traditions, because the Jewish list was fixed after the time of Christ, and because the Reformation and Trent settled the Western positions in the sixteenth century. The Coptic Church kept the Greek tradition she inherited. The history explains the difference and does not decide which list is right, which is a question each tradition answers by its own authority.',
-    ar: 'تختلف قوائم العهد القديم لأن كتب إسرائيل وصلت إلى الكنائس في تقليدين عبري ويوناني، ولأن القائمة اليهودية ثبتت بعد زمن المسيح، ولأن الإصلاح وترنت حسما المواقف الغربية في القرن السادس عشر. وقد حفظت الكنيسة القبطية التقليد اليوناني الذي ورثته. والتاريخ يفسّر الاختلاف ولا يحسم أي القوائم صحيحة، وهذا سؤال تجيب عنه كل تقليد بسلطته.',
+    en: 'The Old Testament lists differ because the Scriptures of Israel reached the churches in Hebrew and Greek traditions, because the Jewish list was fixed after the time of Christ, and because the Reformation and Trent drew the Western lines in the sixteenth century. The apostles read the Greek Scriptures, and the Coptic Church, in the city where the Septuagint was made, has kept faithfully the Old Testament she received from them.',
+    ar: 'تختلف قوائم العهد القديم لأن كتب إسرائيل وصلت إلى الكنائس في تقليدين عبري ويوناني، ولأن القائمة اليهودية ثبتت بعد زمن المسيح، ولأن الإصلاح وترنت رسما الخطوط الغربية في القرن السادس عشر. وقد قرأ الرسل الكتب اليونانية، والكنيسة القبطية، في المدينة التي صُنعت فيها السبعينية، حفظت بأمانة العهد القديم الذي تسلّمته منهم.',
   },
   furtherReading: ['S29', 'S25', 'S22', 'S30'],
   related: ['coptic-deuterocanon', 'septuagint-and-masoretic', 'dead-sea-scrolls', 'who-chose-the-books', 'why-these-books'],

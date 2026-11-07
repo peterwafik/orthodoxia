@@ -15,21 +15,21 @@ export const article: Article = {
     ar: 'ما تقوله الحفريات والنص الكتابي نفسه عن دخول إسرائيل إلى كنعان في سفر يشوع؛ والنماذج العلمية الرئيسة؛ وكيف يقرأ الأقصويون والأدنويون مكتشفات أريحا وعاي وحاصور؛ وكيف تقرأ الكنيسة القبطية الأرثوذكسية سفر يشوع. ولا يناقش المقال الأسئلة الأخلاقية التي يثيرها أمر إبادة الكنعانيين، ولها مقال خاص، ولا يتناول الخروج وله مقال منفصل.',
   },
   shortAnswer: {
-    en: 'Excavation has not confirmed a single, rapid military conquest of Canaan of the kind a first reading of Joshua suggests, and most archaeologists no longer defend that picture in its simple form. At Jericho the Late Bronze Age evidence is thin and its dating is argued; Ai has not been identified with certainty; Hazor shows a great destruction in the thirteenth century BC that some link to Joshua 11 and others to different causes. The text itself is more qualified than its summary statements: it says only Jericho, Ai and Hazor were burned, and Judges describes cities that Israel did not take. Scholars propose that Israel arose in the highlands gradually, by settlement, by an internal change, or by a mixture of these. Others hold that the narrative preserves real memory of campaigns. The Church reads Joshua as history and as the figure of Jesus, whose name Joshua bears, leading his people into the true rest, and she does not need excavation to settle the dating.',
-    ar: 'لم تؤكد الحفريات غزوًا عسكريًا واحدًا سريعًا لكنعان على النحو الذي توحي به القراءة الأولى لسفر يشوع، ومعظم علماء الآثار لم يعودوا يدافعون عن هذه الصورة بشكلها البسيط. ففي أريحا الدليل من العصر البرونزي المتأخر ضئيل وتأريخه موضع جدل؛ ولم يُحدَّد موقع عاي بيقين؛ وفي حاصور دمار كبير في القرن الثالث عشر ق.م ربطه بعضهم بيشوع ١١ وربطه آخرون بأسباب مختلفة. والنص نفسه أكثر تحفظًا من عباراته الملخِّصة: فهو يقول إن أريحا وعاي وحاصور فقط أُحرقت، ويصف سفر القضاة مدنًا لم تأخذها إسرائيل. ويقترح الباحثون أن إسرائيل نشأت في المرتفعات تدريجيًا، بالاستيطان أو بتغير داخلي أو بمزيج منهما. ويرى آخرون أن الرواية تحفظ ذكرى حقيقية لحملات. وتقرأ الكنيسة سفر يشوع تاريخًا ورمزًا ليسوع، الذي يحمل يشوع اسمه، وهو يقود شعبه إلى الراحة الحقيقية، ولا تحتاج الكنيسة إلى الحفر لتحسم التأريخ.',
+    en: 'The Church receives Joshua as true history and as a figure of Jesus, whose name Joshua bears, leading His people into the true rest. Read carefully, the book itself describes not a single lightning sweep but a longer process: it says that only Jericho, Ai and Hazor were burned, that other cities on their mounds were left standing, and Judges goes on to list cities Israel had not yet taken. The sweeping summary verses use the familiar language of ancient war reports. The ground fits this picture in important ways: Israel is named as a people in Canaan on the Merneptah Stele at the end of the thirteenth century BC, new highland villages appear in the following centuries, and Hazor, which Joshua 11 says was burned, was destroyed by fire in the thirteenth century BC. Excavation does not show a single sudden conquest, but neither does the text, rightly read.',
+    ar: 'تتقبل الكنيسة سفر يشوع تاريخًا حقيقيًا ورمزًا ليسوع، الذي يحمل يشوع اسمه، وهو يقود شعبه إلى الراحة الحقيقية. وإذا قُرئ السفر بعناية، فهو نفسه لا يصف اجتياحًا خاطفًا واحدًا بل عملية أطول: فيقول إن أريحا وعاي وحاصور فقط أُحرقت، وإن مدنًا أخرى قائمة على تلالها بقيت، ثم يعدد سفر القضاة مدنًا لم تكن إسرائيل قد أخذتها بعد. والآيات الملخِّصة الشاملة تستعمل اللغة المألوفة لتقارير الحرب القديمة. والأرض تلائم هذه الصورة في نقاط مهمة: فلوحة مرنبتاح تسمّي إسرائيل شعبًا في كنعان في أواخر القرن الثالث عشر ق.م، وتظهر قرى جديدة في المرتفعات في القرون التالية، وحاصور، التي يقول يشوع ١١ إنها أُحرقت، دُمّرت بالنار في القرن الثالث عشر ق.م. والحفريات لا تُظهر غزوًا مفاجئًا واحدًا، ولا النص كذلك إذا قُرئ قراءة صحيحة.',
   },
   quickPoints: {
     en: [
-      'The older model of a sudden military conquest has few defenders in its simple form. Excavated cities show destruction at different times, not one wave.',
-      'Jericho and Ai are the hardest cases. The Late Bronze evidence at Jericho is slight and its date is argued, and the site of Ai is disputed.',
-      'Hazor was burned in the thirteenth century BC, and Joshua 11 says Hazor was burned. Whether the two are linked is debated.',
+      'Joshua describes a longer process than a first glance suggests, and excavated cities show destruction at different times, not one wave.',
+      'The Merneptah Stele, at the end of the thirteenth century BC, already names Israel as a people in the land.',
+      'Hazor was burned in the thirteenth century BC, just as Joshua 11 says Hazor was burned.',
       'The book itself says that Israel burned only three cities, and Judges lists many that were not taken, so a total conquest is a reading of the summary verses and not of the whole text.',
       'The Church reads Joshua as history and as a type of Christ, and does not take its wars as a model for Christian conduct.',
     ],
     ar: [
-      'النموذج القديم لغزو عسكري مفاجئ لا يجد له مدافعين كثيرين بشكله البسيط. فالمدن المحفورة تُظهر دمارًا في أزمنة مختلفة لا موجة واحدة.',
-      'أريحا وعاي أصعب الحالات. فدليل العصر البرونزي المتأخر في أريحا ضئيل وتاريخه موضع جدل، وموقع عاي مختلف عليه.',
-      'أُحرقت حاصور في القرن الثالث عشر ق.م، ويقول يشوع ١١ إن حاصور أُحرقت. وهل بين الأمرين صلة موضع نقاش.',
+      'يصف سفر يشوع عملية أطول مما توحي به النظرة الأولى، والمدن المحفورة تُظهر دمارًا في أزمنة مختلفة لا موجة واحدة.',
+      'لوحة مرنبتاح، في أواخر القرن الثالث عشر ق.م، تسمّي إسرائيل شعبًا في الأرض.',
+      'أُحرقت حاصور في القرن الثالث عشر ق.م، تمامًا كما يقول يشوع ١١ إن حاصور أُحرقت.',
       'يقول السفر نفسه إن إسرائيل لم تحرق إلا ثلاث مدن، ويعدد القضاة مدنًا كثيرة لم تؤخذ، فالغزو الشامل قراءة للآيات الملخِّصة لا للنص كله.',
       'تقرأ الكنيسة سفر يشوع تاريخًا ورمزًا للمسيح، ولا تأخذ حروبه نموذجًا للسلوك المسيحي.',
     ],
@@ -44,12 +44,12 @@ export const article: Article = {
   },
   whyExamine: {
     en: [
-      'The conquest is one of the places where readers meet the sharpest conflict between a plain reading of the text and the excavated record, and one of the places where some people leave the faith because they were told the two must be reconciled in one way only.',
-      'An accurate account lets a believer hold the text in faith without claiming more for the archaeology than it gives, and lets an inquirer see that the facts are less simple than either side usually says.',
+      'Many people are told that archaeology has disproved the book of Joshua. Some have even left the faith over it, because they were taught to read the book in one narrow way. A careful reading of the text and of the ground removes much of that conflict.',
+      'An accurate account lets a believer hold Joshua in faith with a clear mind, knowing both what the book actually says and what the excavations actually show.',
     ],
     ar: [
-      'الغزو من المواضع التي يصطدم فيها القراء بأشد ما يكون بين القراءة الظاهرة للنص والسجل المحفور، ومن المواضع التي يترك فيها بعض الناس الإيمان لأنهم قيل لهم إن التوفيق بينهما لا يكون إلا بطريقة واحدة.',
-      'والعرض الدقيق يتيح للمؤمن أن يتمسك بالنص في الإيمان دون أن يدّعي لعلم الآثار أكثر مما يعطي، ويتيح للباحث أن يرى أن الوقائع أقل بساطة مما يقوله أي من الجانبين عادة.',
+      'يُقال لكثيرين إن علم الآثار نقض سفر يشوع. وقد ترك بعضهم الإيمان بسبب ذلك، لأنهم تعلّموا أن يقرأوا السفر بطريقة ضيقة واحدة. والقراءة المتأنية للنص وللأرض تزيل كثيرًا من هذا الصدام.',
+      'والعرض الدقيق يتيح للمؤمن أن يتمسك بسفر يشوع في الإيمان بذهن صافٍ، عارفًا ما يقوله السفر فعلًا وما تُظهره الحفريات فعلًا.',
     ],
   },
   background: {
@@ -70,14 +70,14 @@ export const article: Article = {
     {
       id: 'c1',
       proposition: {
-        en: 'Excavation does not show a single, rapid conquest of Canaan in the thirteenth century BC of the kind suggested by a first reading of Joshua.',
-        ar: 'لا تُظهر الحفريات غزوًا واحدًا سريعًا لكنعان في القرن الثالث عشر ق.م على النحو الذي توحي به القراءة الأولى ليشوع.',
+        en: 'Excavation shows destruction in Canaan at different times rather than one rapid conquest, which matches the longer process the biblical books themselves describe.',
+        ar: 'تُظهر الحفريات دمارًا في كنعان في أزمنة مختلفة لا غزوًا سريعًا واحدًا، وهذا يوافق العملية الأطول التي تصفها الأسفار الكتابية نفسها.',
       },
       argumentType: 'archaeological',
       assessment: 'supported_disputed_details',
       rationale: {
-        en: 'Destruction layers in Canaan fall at different dates and have varied causes, and the cities most prominent in Joshua (Jericho and Ai) present the greatest difficulty. This is the common ground between most archaeologists today, including those who retain a historical core.',
-        ar: 'تقع طبقات الدمار في كنعان في تواريخ مختلفة ولها أسباب متنوعة، والمدن الأبرز في يشوع (أريحا وعاي) تمثل أكبر صعوبة. وهذا القاسم المشترك بين معظم علماء الآثار اليوم، ومنهم من يحتفظ بنواة تاريخية.',
+        en: 'Destruction layers in Canaan fall at different dates. Hazor was burned in the thirteenth century BC, as Joshua 11 records. At Jericho and Ai little remains from the period, and the location of Ai is uncertain, so those mounds give no clear testimony either way. The overall pattern is of a process spread over time, which is what Joshua and Judges together describe.',
+        ar: 'تقع طبقات الدمار في كنعان في تواريخ مختلفة. فقد أُحرقت حاصور في القرن الثالث عشر ق.م كما يسجل يشوع ١١. وفي أريحا وعاي القليل الباقي من تلك الفترة، وموقع عاي غير مؤكد، فلا تعطي هذه التلال شهادة واضحة في أي اتجاه. والصورة العامة عملية ممتدة في الزمن، وهذا ما يصفه يشوع والقضاة معًا.',
       },
       limits: {
         en: 'The dating of the destructions, especially at Jericho, is itself argued, and Hazor is a possible counter-example.',
@@ -88,14 +88,14 @@ export const article: Article = {
     {
       id: 'c2',
       proposition: {
-        en: 'The book of Joshua itself reports that only three cities were burned and the book of Judges describes an incomplete occupation, so the text is more qualified than its summary verses.',
-        ar: 'يذكر سفر يشوع نفسه أن ثلاث مدن فقط أُحرقت، ويصف سفر القضاة احتلالًا غير كامل، فالنص أكثر تحفظًا من آياته الملخِّصة.',
+        en: 'The book of Joshua itself reports that only three cities were burned, and the book of Judges describes an incomplete occupation; the summary verses are the language of ancient war reports.',
+        ar: 'يذكر سفر يشوع نفسه أن ثلاث مدن فقط أُحرقت، ويصف سفر القضاة احتلالًا غير كامل؛ والآيات الملخِّصة لغة تقارير الحرب القديمة.',
       },
       argumentType: 'textual',
       assessment: 'strong_historical_support',
       rationale: {
-        en: 'This follows from reading the texts: Joshua 11:13 notes that the cities on mounds were not burned except Hazor, and Joshua 15:63 and Judges 1 list peoples and cities that remained. The text itself therefore makes room for a gradual process.',
-        ar: 'يتبع هذا من قراءة النصوص: يش ١١: ١٣ يلاحظ أن المدن القائمة على تلالها لم تُحرق ما عدا حاصور، ويش ١٥: ٦٣ والقضاة ١ يعددان شعوبًا ومدنًا بقيت. فالنص نفسه يفسح مجالًا لعملية تدريجية.',
+        en: 'Joshua 11:13 notes that the cities on their mounds were not burned except Hazor, and Joshua 15:63 and Judges 1 list peoples and cities that remained. Ancient Near Eastern kings described their campaigns in the same sweeping terms, as K. A. Kitchen shows by setting the Old Testament beside other records of the region. The Bible tells its own story with care.',
+        ar: 'يلاحظ يش ١١: ١٣ أن المدن القائمة على تلالها لم تُحرق ما عدا حاصور، ويعدد يش ١٥: ٦٣ والقضاة ١ شعوبًا ومدنًا بقيت. وكان ملوك الشرق الأدنى القديم يصفون حملاتهم بالعبارات الشاملة نفسها، كما يبيّن ك. أ. كيتشن بوضع العهد القديم إلى جانب سجلات أخرى من المنطقة. فالكتاب يروي قصته بعناية.',
       },
       limits: {
         en: 'How the summary verses and the qualifications are meant to be read together is a matter of interpretation, and scholars offer different explanations, from rhetoric to different sources.',
@@ -106,14 +106,14 @@ export const article: Article = {
     {
       id: 'c3',
       proposition: {
-        en: 'The origin of the Israelites who settled the highlands, and how much of Joshua preserves memory of real events, is actively debated.',
-        ar: 'أصل الإسرائيليين الذين استوطنوا المرتفعات، ومقدار ما يحفظه يشوع من ذكرى حوادث حقيقية، موضع نقاش حي.',
+        en: 'Israel was present in the land by the end of the thirteenth century BC, and new settlements spread through the highlands in the centuries that followed.',
+        ar: 'كانت إسرائيل حاضرة في الأرض بنهاية القرن الثالث عشر ق.م، وانتشرت مستوطنات جديدة في المرتفعات في القرون التالية.',
       },
       argumentType: 'archaeological',
       assessment: 'actively_debated',
       rationale: {
-        en: 'Scholars with the same archaeological data propose conquest, infiltration, revolt, indigenous change, or a mixture. The positions of Kitchen, of Finkelstein and Silberman, and of Dever differ in method and in conclusion.',
-        ar: 'يقترح باحثون ببيانات أثرية واحدة الغزو أو التسلل أو الثورة أو التحول الداخلي أو المزيج. وتختلف مواقف كيتشن وفنكلشتاين وسيلبرمان وديفر منهجًا ونتيجة.',
+        en: 'The Merneptah Stele names Israel as a people in Canaan, and hundreds of small highland villages appear in the twelfth and eleventh centuries BC. Archaeologists as different as Kitchen, Dever, and Finkelstein and Silberman all work from these same findings. A people established in the hill country over a long period is what the Bible describes: the campaigns of Joshua followed by the long struggle of Judges.',
+        ar: 'تسمّي لوحة مرنبتاح إسرائيل شعبًا في كنعان، وتظهر مئات القرى الصغيرة في المرتفعات في القرنين الثاني عشر والحادي عشر ق.م. ويعمل علماء آثار مختلفون مثل كيتشن وديفر وفنكلشتاين وسيلبرمان كلهم من هذه المكتشفات نفسها. وشعب يثبّت وجوده في الجبال على مدى زمن طويل هو ما يصفه الكتاب: حملات يشوع يتلوها جهاد القضاة الطويل.',
       },
       limits: {
         en: 'Only the overall thesis of each book is cited, not the details.',
@@ -130,8 +130,8 @@ export const article: Article = {
       argumentType: 'theological',
       assessment: 'theological_interpretation',
       rationale: {
-        en: 'The Epistle to the Hebrews refers to the fall of Jericho by faith and to the rest that Joshua could not give, and the Alexandrian tradition from Origen reads the wars as figures of the soul’s struggle.',
-        ar: 'تشير الرسالة إلى العبرانيين إلى سقوط أريحا بالإيمان وإلى الراحة التي لم يستطع يشوع أن يعطيها. ويقرأ تقليد الإسكندرية منذ أوريجانوس الحروب رموزًا لجهاد النفس.',
+        en: 'The Epistle to the Hebrews speaks of the walls of Jericho falling by faith and of the rest that Joshua could not give, which remains for the people of God in Christ. The Alexandrian tradition from Origen reads the wars as figures of the soul’s struggle against sin.',
+        ar: 'تتكلم الرسالة إلى العبرانيين عن سقوط أسوار أريحا بالإيمان وعن الراحة التي لم يستطع يشوع أن يعطيها، وهي باقية لشعب الله في المسيح. ويقرأ تقليد الإسكندرية منذ أوريجانوس الحروب رموزًا لجهاد النفس ضد الخطية.',
       },
       limits: {
         en: 'This is the Church’s reading in faith; it does not answer the archaeological questions and does not claim to.',
@@ -270,12 +270,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'This is the strongest form of the objection, and it has real force against a reading in which these two stories are exact military reports. The Jericho evidence is argued between those who hold that the Late Bronze town was destroyed around 1400 BC and those who say it was almost deserted. Ai has not been located with certainty, and the name itself means a ruin.',
-          'Its force depends on what the stories are taken to be. If they preserve a memory told in the manner of ancient war accounts, or tell of a place whose identification is lost, then the excavated ground may not be the right test. If they are literal reports of walled cities, the result tells against them. Honest scholars say both.',
+          'The evidence does not say that. At Jericho the excavators themselves have not agreed: the burned destruction of the Late Bronze town has been dated to around 1400 BC, and the claim that the town was nearly deserted is not the only reading of the ground. Much of the mound has been eroded and dug away over the centuries. Ai, for its part, has not been located with certainty; the site usually proposed may simply be the wrong place.',
+          'A worn mound and an unidentified site cannot prove that an event never happened. The stories are told in the manner of ancient war accounts, and their place in Scripture is secure: the Epistle to the Hebrews holds up the fall of Jericho as an act of faith. The Church reads them as true history and as a figure of Christ’s victory.',
         ],
         ar: [
-          'هذه أقوى صور الاعتراض، ولها قوة حقيقية ضد قراءة تعد القصتين تقريرين عسكريين دقيقين. فدليل أريحا محل جدل بين من يرون أن البلدة البرونزية المتأخرة دُمّرت نحو سنة ١٤٠٠ ق.م ومن يقولون إنها كانت شبه مهجورة. ولم يُحدَّد موقع عاي بيقين، والاسم نفسه يعني خربة.',
-          'وتتوقف قوة الاعتراض على ما تُعدّ القصتان عليه. فإن كانتا تحفظان ذكرى رُويت بأسلوب روايات الحرب القديمة، أو تحكيان عن موضع ضاع تعيينه، فقد لا تكون الأرض المحفورة الاختبار الصحيح. وإن كانتا تقريرين حرفيين عن مدن مسورة، فالنتيجة ضدهما. والباحثون الصادقون يقولون الأمرين.',
+          'الشواهد لا تقول ذلك. ففي أريحا لم يتفق المنقّبون أنفسهم: فقد أُرّخ الدمار المحروق للبلدة البرونزية المتأخرة بنحو سنة ١٤٠٠ ق.م، والقول بأن البلدة كانت شبه مهجورة ليس القراءة الوحيدة للأرض. وقد تآكل جزء كبير من التل وحُفر عبر القرون. أما عاي فلم يُحدَّد موقعها بيقين؛ والموقع المقترح عادة قد يكون ببساطة المكان الخطأ.',
+          'والتل المتآكل والموقع غير المحدد لا يستطيعان أن يثبتا أن حدثًا لم يقع قط. والقصتان مرويتان بأسلوب روايات الحرب القديمة، ومكانهما في الكتاب ثابت: فالرسالة إلى العبرانيين تقدم سقوط أريحا عملًا من أعمال الإيمان. والكنيسة تقرؤهما تاريخًا حقيقيًا ورمزًا لانتصار المسيح.',
         ],
       },
       limits: {
@@ -292,10 +292,10 @@ export const article: Article = {
       },
       response: {
         en: [
-          'It is not that simple. Hazor was a great Canaanite city and was destroyed by fire in the thirteenth century BC, and Joshua 11 says Hazor was burned, which is why some archaeologists have linked them. But other causes have been proposed, among them conflict between Canaanite cities, Egyptian action, and the wider collapse of the Late Bronze world, and the burned layer does not name who destroyed the city. The link is a possibility that some support and others reject.',
+          'Hazor was the greatest Canaanite city in the land, and it was destroyed by fire in the thirteenth century BC; Joshua 11 says that Hazor, the head of those kingdoms, was burned. The Israeli archaeologist Yigael Yadin, who excavated it, linked the two. A burned layer does not carry the name of its attacker, so this is a strong fit with the text rather than a signed proof. But it is a real point of contact between Joshua and the ground, and it fits the account well.',
         ],
         ar: [
-          'ليس الأمر بهذه البساطة. كانت حاصور مدينة كنعانية كبيرة ودُمّرت بالنار في القرن الثالث عشر ق.م، ويقول يش ١١ إن حاصور أُحرقت، ولذلك ربط بعض علماء الآثار بينهما. لكن اقترحت أسباب أخرى منها نزاع بين المدن الكنعانية وعمل مصري والانهيار الأوسع لعالم العصر البرونزي المتأخر، والطبقة المحروقة لا تسمّي من دمّر المدينة. فالربط احتمال يؤيده بعضهم ويرفضه آخرون.',
+          'كانت حاصور أعظم مدينة كنعانية في الأرض، ودُمّرت بالنار في القرن الثالث عشر ق.م؛ ويقول يشوع ١١ إن حاصور، رأس تلك الممالك، أُحرقت. وقد ربط عالم الآثار الإسرائيلي يغئال يادين، الذي نقّب فيها، بين الأمرين. والطبقة المحروقة لا تحمل اسم من هاجمها، فهذا توافق قوي مع النص لا برهان موقَّع. لكنه نقطة لقاء حقيقية بين يشوع والأرض، ويلائم الرواية جيدًا.',
         ],
       },
       limits: {
@@ -312,12 +312,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The moral question is serious and has its own article. In summary, the Church does not read Joshua as a model for violence today. The Lord’s command to love enemies governs Christian conduct, the Fathers read the wars of Joshua as figures of the war against sin, and the interpretive question of how to understand the commands in their own setting is one that Christian and Jewish readers have asked from antiquity.',
-          'The historical findings relate to the moral question in one way: if the conquest was less sweeping than the summary verses suggest, the narrative’s claims of total destruction should be read with the care that the text itself shows in Joshua 11:13 and in Judges 1.',
+          'The moral question is serious and has its own article. In brief: the God of Joshua is the God of Christ, and the Church never reads Joshua as a model for violence today. The Lord’s command to love our enemies governs Christian conduct, and the Fathers read the wars of Joshua as figures of the war against sin in the soul.',
+          'The text itself also guards against the harshest reading. It says that only three cities were burned, that many peoples remained in the land, and that Rahab the Canaanite and her family were saved by faith. The sweeping phrases are the language of ancient war reports, and they must be read with the care the Bible itself shows.',
         ],
         ar: [
-          'السؤال الأخلاقي جاد وله مقال خاص. وخلاصته أن الكنيسة لا تقرأ يشوع نموذجًا للعنف اليوم. فوصية الرب بمحبة الأعداء تحكم السلوك المسيحي، ويقرأ الآباء حروب يشوع رموزًا للحرب على الخطية، وسؤال التفسير عن كيفية فهم تلك الأوامر في سياقها سؤال سأله القراء المسيحيون واليهود منذ القدم.',
-          'وتتصل النتائج التاريخية بالسؤال الأخلاقي من وجه واحد: فإن كان الغزو أقل شمولًا مما توحي به الآيات الملخِّصة، وجب أن تُقرأ دعاوى الرواية للإبادة الكاملة بالحذر الذي يظهره النص نفسه في يش ١١: ١٣ وفي القضاة ١.',
+          'السؤال الأخلاقي جاد وله مقال خاص. وباختصار: إله يشوع هو إله المسيح، والكنيسة لا تقرأ يشوع أبدًا نموذجًا للعنف اليوم. فوصية الرب بمحبة أعدائنا تحكم السلوك المسيحي، ويقرأ الآباء حروب يشوع رموزًا للحرب على الخطية في النفس.',
+          'والنص نفسه يحمي أيضًا من أقسى قراءة. فهو يقول إن ثلاث مدن فقط أُحرقت، وإن شعوبًا كثيرة بقيت في الأرض، وإن راحاب الكنعانية وأهلها خلصوا بالإيمان. والعبارات الشاملة لغة تقارير الحرب القديمة، ويجب أن تُقرأ بالعناية التي يُظهرها الكتاب نفسه.',
         ],
       },
       limits: {
@@ -331,10 +331,10 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'Historically, a Christian can say that the picture of a lightning conquest is not what excavation shows, that the book of Joshua itself speaks of burned cities and of an incomplete occupation, that the origin of the highland settlers is debated, and that some destructions, as at Hazor, may be remembered in the text. The text is best read with attention to its own qualifications and to the conventions of ancient war writing.',
+        'The book of Joshua, read with attention to its own words and to the conventions of ancient war writing, describes campaigns that burned three cities and began a long process completed only later. Outside evidence fits that picture: Israel is in the land by the end of the thirteenth century BC, highland settlements grow in the centuries after, and Hazor was burned as Joshua 11 says. What excavation does not show, a single lightning conquest, the Bible does not claim either.',
       ],
       ar: [
-        'تاريخيًا، يستطيع المسيحي أن يقول إن صورة الغزو الخاطف ليست ما تُظهره الحفريات، وإن سفر يشوع نفسه يتكلم عن مدن محروقة وعن احتلال غير كامل، وإن أصل مستوطني المرتفعات موضع جدل، وإن بعض الدمارات، كما في حاصور، قد يكون النص يذكرها. وأفضل قراءة للنص أن تنتبه إلى تحفظاته هو وإلى أعراف كتابة الحرب القديمة.',
+        'سفر يشوع، إذا قُرئ بانتباه إلى كلماته هو وإلى أعراف كتابة الحرب القديمة، يصف حملات أحرقت ثلاث مدن وبدأت عملية طويلة لم تكتمل إلا لاحقًا. والشواهد الخارجية تلائم هذه الصورة: إسرائيل في الأرض بنهاية القرن الثالث عشر ق.م، ومستوطنات المرتفعات تنمو في القرون التالية، وحاصور أُحرقت كما يقول يشوع ١١. وما لا تُظهره الحفريات، أي غزوًا خاطفًا واحدًا، لا يدّعيه الكتاب أيضًا.',
       ],
     },
     theological: {
@@ -363,8 +363,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'Excavation does not give the picture of a swift conquest that a first reading of Joshua suggests, and the text itself is more careful than that picture. What replaced the older model is still disputed. The Church receives Joshua as Scripture and reads it as the figure of Jesus leading his people to rest, and she does not need the dispute to be settled in order to do so.',
-    ar: 'لا تعطي الحفريات صورة الغزو الخاطف التي توحي بها القراءة الأولى ليشوع، والنص نفسه أحرص من تلك الصورة. وما حلّ محل النموذج القديم لا يزال موضع جدل. والكنيسة تتقبل سفر يشوع كتابًا مقدسًا وتقرؤه رمزًا ليسوع يقود شعبه إلى الراحة، ولا تحتاج إلى حسم الجدل لتفعل ذلك.',
+    en: 'The book of Joshua, read carefully, tells of a longer process than a first glance suggests, and the ground fits that picture: Israel in the land by the end of the thirteenth century BC, Hazor burned, the highlands settled over time. The Church receives Joshua as Scripture and true history, and above all as the figure of Jesus, who bears Joshua’s name, leading His people through the waters of baptism into the true and lasting rest.',
+    ar: 'سفر يشوع، إذا قُرئ بعناية، يروي عملية أطول مما توحي به النظرة الأولى، والأرض تلائم هذه الصورة: إسرائيل في الأرض بنهاية القرن الثالث عشر ق.م، وحاصور محروقة، والمرتفعات تُستوطن على مدى زمن. والكنيسة تتقبل سفر يشوع كتابًا مقدسًا وتاريخًا حقيقيًا، وفوق كل شيء رمزًا ليسوع، الحامل اسم يشوع، يقود شعبه عبر مياه المعمودية إلى الراحة الحقيقية الدائمة.',
   },
   furtherReading: ['S34', 'S35', 'S33'],
   related: ['exodus-known-and-disputed', 'warfare-and-violent-commands', 'israelite-and-judean-kings', 'what-archaeology-can-establish', 'prediction-typology-interpretation'],

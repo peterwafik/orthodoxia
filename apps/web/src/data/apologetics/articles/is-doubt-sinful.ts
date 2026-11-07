@@ -15,22 +15,22 @@ export const article: Article = {
     ar: 'تسأل هذه المقالة: هل الشك في الله أو في التعليم المسيحي خطية، أو عدم أمانة، أو ببساطة جزء من كون الإنسان عاقلًا؟ وهي تتكلم من داخل الإيمان القبطي الأرثوذكسي، وتميّز بين أنواع الشك، وتنظر كيف يعامل الكتاب المقدس والكنيسة من يشكون. وهي موجهة إلى المؤمنين المضطربين من أسئلتهم، وإلى من هم خارج الكنيسة ويُقال لهم إن السؤال خطأ. وليست بديلًا عن الحديث مع راعٍ.',
   },
   shortAnswer: {
-    en: 'Doubt as such is not a sin. Questioning, uncertainty and the struggle to believe are part of the experience of many people in the Bible and in the Church’s history, and the Gospels show Jesus meeting honest doubt with patience. What the Scriptures and the Fathers do warn against is a settled refusal to look, or using doubt to avoid the demands of truth and of love. The difference is not between those who doubt and those who do not, but between honest searching and a closed heart. Doubt can also be unavoidable: a mind that thinks will meet objections. Handled with prayer, honesty and good counsel, it often deepens faith and does not destroy it.',
-    ar: 'الشك في ذاته ليس خطية. فالتساؤل وعدم اليقين وجهاد الإيمان جزء من خبرة كثيرين في الكتاب المقدس وفي تاريخ الكنيسة، وتُظهر الأناجيل يسوع يلاقي الشك الصادق بصبر. أما ما تحذر منه الكتب والآباء فهو رفض مستقر للنظر، أو استعمال الشك للهرب من مطالب الحق والمحبة. والفرق ليس بين من يشكون ومن لا يشكون، بل بين بحث صادق وقلب مغلق. وقد يكون الشك أيضًا لا مفر منه: فالعقل الذي يفكر سيواجه اعتراضات. وإذا عولج بالصلاة والصدق والمشورة الصالحة فكثيرًا ما يعمّق الإيمان ولا يهدمه.',
+    en: 'No. Doubt as such is not a sin. Questions, uncertainty and the struggle to believe are part of the life of many in the Bible and in the Church, and the Gospels show Jesus meeting honest doubt with patience. He showed Thomas His wounds, sent John the Baptist the evidence of His works, and helped the father who asked for help with his unbelief. What the Scriptures and the Fathers warn against is a settled refusal to look, or using doubt to escape the demands of truth and love. The line runs not between those who doubt and those who do not, but between an honest search and a closed heart. Brought to God in prayer, with honesty and good counsel, doubt often deepens faith.',
+    ar: 'لا. الشك في ذاته ليس خطية. فالأسئلة وعدم اليقين وجهاد الإيمان جزء من حياة كثيرين في الكتاب المقدس وفي الكنيسة، وتُظهر الأناجيل يسوع يلاقي الشك الصادق بصبر. فقد أرى توما جراحه، وأرسل إلى يوحنا المعمدان شهادة أعماله، وأعان الأب الذي طلب عونًا لعدم إيمانه. أما ما تحذر منه الكتب والآباء فهو رفض مستقر للنظر، أو استعمال الشك للهرب من مطالب الحق والمحبة. فالحد الفاصل ليس بين من يشكون ومن لا يشكون، بل بين بحث صادق وقلب مغلق. وإذا حُمل الشك إلى الله بالصلاة والصدق والمشورة الصالحة، فكثيرًا ما يعمّق الإيمان.',
   },
   quickPoints: {
     en: [
-      'The Bible shows doubters: Thomas, John the Baptist in prison, a father who says he believes and asks for help with his unbelief, disciples who worshipped and doubted.',
-      'In the Gospels Jesus meets honest doubt with evidence and patience, not with rebuke.',
-      'Some passages warn against a divided or closed mind. They are about a refusal to trust or to look, not about having questions.',
-      'Three kinds of doubt are worth distinguishing: intellectual questions, emotional or spiritual dryness, and doubt used to avoid a hard truth. They need different responses.',
+      'The Bible shows doubters: Thomas, John the Baptist in prison, a father who believes and asks help for his unbelief, disciples who worshipped and doubted.',
+      'In the Gospels Jesus meets honest doubt with evidence and patience.',
+      'The warnings in Scripture are about a refusal to trust or to look, not about having questions.',
+      'Doubt comes in different kinds: intellectual questions, spiritual dryness, and doubt used to avoid a hard truth. Each needs its own response.',
       'Doubt is not dishonest; pretending to a certainty one does not have would be.',
     ],
     ar: [
-      'يُظهر الكتاب المقدس متشككين: توما، ويوحنا المعمدان في السجن، وأبًا يقول إنه يؤمن ويطلب عونًا لعدم إيمانه، وتلاميذ سجدوا وشكّوا.',
-      'في الأناجيل يلاقي يسوع الشك الصادق بالدليل والصبر لا بالتوبيخ.',
-      'بعض الفقرات تحذر من ذهن منقسم أو مغلق. وهي عن رفض الثقة أو النظر، لا عن وجود أسئلة.',
-      'يحسن التمييز بين ثلاثة أنواع من الشك: أسئلة فكرية، وجفاف عاطفي أو روحي، وشك يُستعمل للهرب من حق صعب. ولكل منها ما يناسبه.',
+      'يُظهر الكتاب المقدس متشككين: توما، ويوحنا المعمدان في السجن، وأبًا يؤمن ويطلب عونًا لعدم إيمانه، وتلاميذ سجدوا وشكّوا.',
+      'في الأناجيل يلاقي يسوع الشك الصادق بالدليل والصبر.',
+      'تحذيرات الكتاب هي عن رفض الثقة أو النظر، لا عن وجود أسئلة.',
+      'الشك أنواع: أسئلة فكرية، وجفاف روحي، وشك يُستعمل للهرب من حق صعب. ولكل منها ما يناسبه.',
       'الشك ليس عدم أمانة؛ أما التظاهر بيقين غير موجود فهو كذلك.',
     ],
   },
@@ -44,12 +44,12 @@ export const article: Article = {
   },
   whyExamine: {
     en: [
-      'Many people carry a quiet fear that their doubts show that they are bad believers, or that they should hide them. Others have been told by a family or a community that questioning is rebellion. This can lead to people either leaving silently or suppressing questions that later return stronger.',
-      'The question matters to those outside the faith as well. If doubt were simply a sin, then an invitation to examine the evidence would be empty. A tradition that wants people to examine its claims must be able to say that honest questions are allowed.',
+      'Many people carry a quiet fear that their doubts make them bad believers, or that they must hide them. Others have been told that questioning is rebellion. This leads some to leave silently and others to bury questions that later return stronger. The Gospel offers a better way.',
+      'The question matters to those outside the faith too. The Church invites everyone to examine the evidence for Christ, and that invitation is sincere: honest questions are welcome.',
     ],
     ar: [
-      'يحمل كثيرون خوفًا صامتًا من أن شكوكهم تدل على أنهم مؤمنون سيئون، أو أن عليهم إخفاءها. وقيل لآخرين في أسرة أو جماعة إن السؤال تمرد. وهذا قد يدفع الناس إما إلى الرحيل بصمت وإما إلى كبت أسئلة تعود لاحقًا أقوى.',
-      'والسؤال يهم من هم خارج الإيمان أيضًا. فلو كان الشك خطية لما كان لدعوة فحص الأدلة معنى. وتقليد يريد أن يفحص الناس دعاواه يجب أن يستطيع القول إن الأسئلة الصادقة مسموح بها.',
+      'يحمل كثيرون خوفًا صامتًا من أن شكوكهم تجعلهم مؤمنين سيئين، أو أن عليهم إخفاءها. وقيل لآخرين إن السؤال تمرد. فيرحل بعضهم بصمت، ويدفن آخرون أسئلة تعود لاحقًا أقوى. والإنجيل يقدم طريقًا أفضل.',
+      'والسؤال يهم من هم خارج الإيمان أيضًا. فالكنيسة تدعو الجميع إلى فحص الشواهد عن المسيح، وهذه الدعوة صادقة: الأسئلة الصادقة مرحَّب بها.',
     ],
   },
   background: {
@@ -68,14 +68,14 @@ export const article: Article = {
     {
       id: 'c1',
       proposition: {
-        en: 'The Bible depicts people who doubt, and the Gospels portray Jesus responding with patience and evidence, not with rebuke.',
-        ar: 'يصوّر الكتاب المقدس أناسًا يشكون، وتصوّر الأناجيل يسوع يستجيب بالصبر والدليل لا بالتوبيخ.',
+        en: 'The Bible shows people who doubt, and the Gospels show Jesus responding with patience and evidence.',
+        ar: 'يُظهر الكتاب المقدس أناسًا يشكون، وتُظهر الأناجيل يسوع يستجيب بالصبر والدليل.',
       },
       argumentType: 'textual',
       assessment: 'strong_historical_support',
       rationale: {
-        en: 'The passages cited (Thomas, John the Baptist, the father in Mark 9, Luke 24) show this plainly. It is a claim about what the texts contain.',
-        ar: 'تبيّن الفقرات المذكورة (توما، ويوحنا المعمدان، والأب في مرقس 9، ولوقا 24) ذلك بوضوح. وهي دعوى عمّا تتضمنه النصوص.',
+        en: 'Thomas is invited to see and touch the wounds. John the Baptist, asking from prison, is answered with the works of Christ. The father in Mark 9 is helped. In Luke 24 the risen Lord shows His hands and feet to the troubled disciples and opens the Scriptures to them.',
+        ar: 'دُعي توما ليرى الجراح ويلمسها. وسأل يوحنا المعمدان من السجن فأُجيب بأعمال المسيح. والأب في مرقس 9 نال العون. وفي لوقا 24 يُري الرب القائم يديه ورجليه للتلاميذ المضطربين ويفتح لهم الكتب.',
       },
       limits: {
         en: 'The Gospels also contain rebukes of the disciples for slowness to believe and of those who see signs and still refuse. The article does not say that no one is ever warned.',
@@ -86,14 +86,14 @@ export const article: Article = {
     {
       id: 'c2',
       proposition: {
-        en: 'The Scriptures warn against settled unbelief and double-mindedness, which are refusals to trust or to look, and do not condemn the having of questions.',
-        ar: 'تحذر الكتب من عدم إيمان مستقر ومن ازدواجية الذهن، وهي رفض للثقة أو النظر، ولا تدين وجود الأسئلة.',
+        en: 'The Scriptures warn against settled unbelief and double-mindedness, which are refusals to trust or to look; they do not condemn having questions.',
+        ar: 'تحذر الكتب من عدم إيمان مستقر ومن ازدواجية الذهن، وهي رفض للثقة أو النظر؛ ولا تدين وجود الأسئلة.',
       },
       argumentType: 'textual',
       assessment: 'supported_disputed_details',
       rationale: {
-        en: 'James speaks of the person who is double-minded in asking, St Paul of acts that do not come from faith, Jude tells believers to show mercy to those who doubt. How strictly to read each is a matter of interpretation, and the Church reads them together.',
-        ar: 'يتكلم يعقوب عن المزدوج الرأي في طلبه، وبولس عن أفعال لا تصدر عن إيمان، ويطلب يهوذا من المؤمنين الرحمة بالمتشككين. وكم يُشدَّد في قراءة كل منها مسألة تفسير، والكنيسة تقرأها معًا.',
+        en: 'St James speaks of the person who asks God while divided in his loyalty. St Paul speaks of acts that do not come from faith. And St Jude tells believers to have mercy on those who doubt. Read together, as the Church reads them, they condemn a divided heart, not an honest question.',
+        ar: 'يتكلم القديس يعقوب عن الذي يطلب من الله وولاؤه منقسم. ويتكلم القديس بولس عن أفعال لا تصدر عن إيمان. ويطلب القديس يهوذا من المؤمنين أن يرحموا المتشككين. وإذا قُرئت معًا، كما تقرؤها الكنيسة، فهي تدين القلب المنقسم لا السؤال الصادق.',
       },
       limits: {
         en: 'Some readers take James and St Paul to condemn all doubt. The reading here is the Church’s, and others differ.',
@@ -104,14 +104,14 @@ export const article: Article = {
     {
       id: 'c3',
       proposition: {
-        en: 'The early Christian writings encourage examining teaching and giving reasons, which assumes that questioning is permitted.',
-        ar: 'تشجع الكتابات المسيحية المبكرة على فحص التعليم وإعطاء الأسباب، وهذا يفترض أن التساؤل مسموح.',
+        en: 'The early Christian writings encourage examining teaching and giving reasons, so questioning is welcome.',
+        ar: 'تشجع الكتابات المسيحية المبكرة على فحص التعليم وإعطاء الأسباب، فالتساؤل مرحَّب به.',
       },
       argumentType: 'textual',
       assessment: 'strong_historical_support',
       rationale: {
-        en: 'Acts commends the Bereans for examining the Scriptures daily, 1 Thessalonians says to test everything.',
-        ar: 'يمدح سفر الأعمال أهل بيرية لفحصهم الكتب يوميًا، وتقول 1 تسالونيكي أن يمتحنوا كل شيء.',
+        en: 'Acts praises the Bereans for examining the Scriptures daily, St Paul tells the Thessalonians to test everything, and St Peter asks believers to be ready to give a reason for their hope.',
+        ar: 'يمدح سفر الأعمال أهل بيرية لفحصهم الكتب يوميًا، ويطلب القديس بولس من أهل تسالونيكي أن يمتحنوا كل شيء، ويطلب القديس بطرس من المؤمنين أن يكونوا مستعدين لإعطاء جواب عن رجائهم.',
       },
       limits: {
         en: 'These passages commend examination within a community that already believes. They do not say that conclusions are always reached quickly or that the examination ends in agreement.',
@@ -122,14 +122,14 @@ export const article: Article = {
     {
       id: 'c4',
       proposition: {
-        en: 'Honesty about doubt is compatible with Christian faith, and a pretence of certainty is an obstacle to it; this is a theological and ethical judgement.',
-        ar: 'الصدق في شأن الشك يتفق مع الإيمان المسيحي، والتظاهر باليقين عائق له؛ وهذا حكم لاهوتي وأخلاقي.',
+        en: 'Honesty about doubt belongs to Christian faith, and a pretence of certainty is an obstacle to it.',
+        ar: 'الصدق في شأن الشك من الإيمان المسيحي، والتظاهر باليقين عائق له.',
       },
       argumentType: 'theological',
       assessment: 'theological_interpretation',
       rationale: {
-        en: 'The Psalms and the story of the father in Mark 9 present honest prayer from the middle of uncertainty. The Church’s teaching on confession assumes that one brings what one actually has.',
-        ar: 'تعرض المزامير وقصة الأب في مرقس 9 صلاة صادقة من وسط عدم اليقين. وتعليم الكنيسة عن الاعتراف يفترض أن يحمل الإنسان ما عنده فعلًا.',
+        en: 'The Psalms, such as Psalm 73, pray honestly from the middle of confusion and end in renewed trust. The father in Mark 9 brings his weak faith just as it is. The Church’s sacrament of confession likewise asks us to bring to God what we truly have.',
+        ar: 'تصلي المزامير، كالمزمور 73، بصدق من وسط الحيرة وتنتهي إلى ثقة متجددة. والأب في مرقس 9 يحمل إيمانه الضعيف كما هو. وسر الاعتراف في الكنيسة يطلب منا كذلك أن نحمل إلى الله ما عندنا فعلًا.',
       },
       limits: {
         en: 'It is a judgement about faith and honesty, not a proof of anything. It does not say that doubt has no risks.',
@@ -271,12 +271,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'What happened to you, if it was as described, was a failure of pastoral care. The Gospels do not treat Thomas, John the Baptist or the father in Mark 9 as people to be shamed, and Jude tells believers to show mercy to those who doubt. A community that cannot bear questions has departed from the model it claims.',
-          'This does not mean that every church practice is excused. It means that the Bible and the Fathers give grounds on which to criticise it. A community that wants others to examine its claims has to allow the examination.',
+          'Being shamed for asking is a failure of pastoral care, and you were right to feel that something was wrong. The Gospels do not treat Thomas, John the Baptist or the father in Mark 9 as people to be shamed, and St Jude tells believers to show mercy to those who doubt. A community that cannot bear questions has departed from the example of Christ.',
+          'The Bible and the Fathers themselves give the grounds for correcting such treatment. The Church invites people to examine her faith, and so she welcomes the examination.',
         ],
         ar: [
-          'ما حدث لك، إن كان كما وصفت، إخفاق في الرعاية. فالأناجيل لا تعامل توما ولا يوحنا المعمدان ولا الأب في مرقس 9 أناسًا يُخجلون، ويطلب يهوذا من المؤمنين الرحمة بالمتشككين. وجماعة لا تحتمل الأسئلة ابتعدت عن النموذج الذي تدّعيه.',
-          'وهذا لا يعني أن كل ممارسة كنسية معذورة. بل يعني أن الكتاب المقدس والآباء يقدمون أساسًا لنقدها. وجماعة تريد من الآخرين أن يفحصوا دعاواها عليها أن تسمح بالفحص.',
+          'أن تُشعر بالخجل لأنك سألت إخفاق في الرعاية، وكنت محقًا في الشعور بأن شيئًا ما خطأ. فالأناجيل لا تعامل توما ولا يوحنا المعمدان ولا الأب في مرقس 9 أناسًا يُخجلون، ويطلب القديس يهوذا من المؤمنين الرحمة بالمتشككين. والجماعة التي لا تحتمل الأسئلة ابتعدت عن مثال المسيح.',
+          'والكتاب المقدس والآباء أنفسهم يقدمون أساس تصحيح هذه المعاملة. والكنيسة تدعو الناس إلى فحص إيمانها، ولذلك ترحب بالفحص.',
         ],
       },
       limits: {
@@ -293,12 +293,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The Church does not say that one should believe regardless of evidence; the New Testament praises examination, and Christian apologetics exists because reasons are thought to matter. It does say that faith is more than assent to a proposition. It is trust in a person, and trust can be refused for reasons that are not purely intellectual.',
-          'It would be wrong to apply this to anyone as a charge. The Church’s own teaching is that no one can know the heart of another, and that the failure to find faith is not to be read as a moral fault in a particular person.',
+          'The Church does not ask anyone to believe regardless of evidence. The New Testament praises examination, and the defence of the faith exists because reasons matter. But faith is more than agreeing with a statement. It is trust in a Person, and trust can be given or withheld for reasons that are not only intellectual.',
+          'This is never a charge to be laid against anyone. No one knows another’s heart, and the Church does not read anyone’s search as a moral fault. She invites, and she waits with patience.',
         ],
         ar: [
-          'لا تقول الكنيسة إن على الإنسان أن يؤمن بغض النظر عن الدليل؛ فالعهد الجديد يمدح الفحص، والدفاعيات المسيحية موجودة لأن للأسباب وزنًا. لكنها تقول إن الإيمان أكثر من قبول قضية. إنه ثقة في شخص، والثقة قد تُرفض لأسباب ليست فكرية خالصة.',
-          'وسيكون خطأً أن يُطبق هذا على أحد تهمةً. فتعليم الكنيسة نفسه أن لا أحد يعرف قلب غيره، وأن عدم إيجاد الإيمان لا يُقرأ عيبًا أخلاقيًا في شخص بعينه.',
+          'لا تطلب الكنيسة من أحد أن يؤمن بغض النظر عن الدليل. فالعهد الجديد يمدح الفحص، والدفاع عن الإيمان موجود لأن للأسباب وزنًا. لكن الإيمان أكثر من موافقة على عبارة. إنه ثقة في شخص، والثقة قد تُعطى أو تُمنع لأسباب ليست فكرية فقط.',
+          'وهذا ليس تهمة توجَّه إلى أحد أبدًا. فلا أحد يعرف قلب غيره، والكنيسة لا تقرأ بحث أحد عيبًا أخلاقيًا. إنها تدعو، وتنتظر بصبر.',
         ],
       },
       limits: {
@@ -315,12 +315,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'There is truth in this. Prayer and worship are not a substitute for thinking, and a person who is asking whether there is a God should be free to read, ask and weigh arguments, and the Church has theologians who do so. Prayer is also not a trick for producing belief.',
-          'What the tradition says is that knowing a person is not only a matter of argument, and that those who wish to find out whether God is there can also place themselves where he is said to be found. Someone can say, as the father in Mark 9 did, “if you are there, help me”, without already believing. That is an invitation, not a demand.',
+          'Prayer and worship are not a substitute for thinking. A person asking whether there is a God is free to read, ask and weigh arguments, and the Church has theologians who do exactly that. Nor is prayer a trick for producing belief.',
+          'But knowing a person is never only a matter of argument. Those who want to know whether God is there can also place themselves where He promises to be found. Like the father in Mark 9, one can bring a weak and uncertain faith to God and ask for help. That is an invitation, not a demand.',
         ],
         ar: [
-          'في هذا حق. فالصلاة والعبادة ليستا بديلًا من التفكير، ومن يسأل هل هناك إله ينبغي أن يكون حرًّا في القراءة والسؤال ووزن الحجج، وللكنيسة لاهوتيون يفعلون ذلك. والصلاة أيضًا ليست حيلة لإنتاج الاعتقاد.',
-          'وما يقوله التقليد أن معرفة شخص ليست مسألة حجة فقط، وأن من يريدون أن يعرفوا هل الله موجود يمكنهم أيضًا أن يضعوا أنفسهم حيث يُقال إنه يوجد. ويستطيع إنسان أن يقول، كما قال الأب في مرقس 9، «إن كنت موجودًا فأعنّي»، دون أن يكون مؤمنًا. وهذه دعوة لا مطلب.',
+          'الصلاة والعبادة ليستا بديلًا من التفكير. ومن يسأل هل هناك إله حرّ في القراءة والسؤال ووزن الحجج، وللكنيسة لاهوتيون يفعلون ذلك بالضبط. وليست الصلاة حيلة لإنتاج الاعتقاد.',
+          'لكن معرفة شخص ليست أبدًا مسألة حجة فقط. ومن يريدون أن يعرفوا هل الله موجود يمكنهم أيضًا أن يضعوا أنفسهم حيث وعد أن يوجد. ومثل الأب في مرقس 9، يستطيع الإنسان أن يحمل إلى الله إيمانًا ضعيفًا مترددًا ويطلب العون. وهذه دعوة لا مطلب.',
         ],
       },
       limits: {
@@ -334,10 +334,10 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'There is no historical argument to set out here. The question concerns the nature of faith and doubt. The passages are read as ancient documents that show how early Christians portrayed doubt and its treatment. The historical questions about Jesus and the resurrection, to which the doubts of many are addressed, are examined in the articles on those subjects.',
+        'This question concerns the nature of faith and doubt rather than a past event. The Gospels show how the first Christians remembered the Lord’s patience with those who doubted. The historical questions about Jesus and the resurrection, to which many doubts are directed, are examined in the articles on those subjects.',
       ],
       ar: [
-        'لا توجد حجة تاريخية تُعرض هنا. فالسؤال عن طبيعة الإيمان والشك. وتُقرأ الفقرات وثائق قديمة تبيّن كيف صوّر المسيحيون الأوائل الشك وطريقة معاملته. أما الأسئلة التاريخية عن يسوع والقيامة، التي تتجه إليها شكوك كثيرين، فتفحصها المقالات عن تلك الموضوعات.',
+        'يتعلق هذا السؤال بطبيعة الإيمان والشك لا بحدث ماضٍ. وتُظهر الأناجيل كيف تذكّر المسيحيون الأوائل صبر الرب على المتشككين. أما الأسئلة التاريخية عن يسوع والقيامة، التي تتجه إليها شكوك كثيرين، فتفحصها المقالات عن تلك الموضوعات.',
       ],
     },
     theological: {
@@ -370,8 +370,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'Doubt is not in itself a sin. The Bible shows doubters being met with patience, the New Testament commends examination, and honesty is better than pretended certainty. What the Church warns against is a closed heart and divided loyalty, and it asks that doubts be brought into the open, to prayer, to counsel and to the evidence, and not carried alone.',
-    ar: 'الشك ليس في ذاته خطية. فالكتاب المقدس يُظهر المتشككين يُلاقَون بالصبر، والعهد الجديد يمدح الفحص، والصدق خير من يقين مصطنع. وما تحذر منه الكنيسة هو قلب مغلق وولاء منقسم، وهي تطلب أن تُخرَج الشكوك إلى العلن، إلى الصلاة والمشورة والدليل، وألا تُحمل وحدها.',
+    en: 'Doubt is not in itself a sin. The Lord met doubters with patience, the New Testament commends examination, and honesty is better than pretended certainty. What the Church warns against is a closed heart and divided loyalty. She asks that doubts be brought into the open, to prayer, to a spiritual father and to the evidence, and not carried alone. Many who have done so have found, like Thomas, a deeper faith that confesses Christ as Lord and God.',
+    ar: 'الشك ليس في ذاته خطية. فقد لاقى الرب المتشككين بالصبر، ويمدح العهد الجديد الفحص، والصدق خير من يقين مصطنع. وما تحذر منه الكنيسة هو القلب المغلق والولاء المنقسم. وهي تطلب أن تُخرَج الشكوك إلى العلن، إلى الصلاة وأب الاعتراف والدليل، وألا تُحمل وحدها. وكثيرون ممن فعلوا ذلك وجدوا، مثل توما، إيمانًا أعمق يعترف بالمسيح ربًّا وإلهًا.',
   },
   furtherReading: ['S62'],
   related: ['faith-and-blind-belief', 'why-god-is-not-clearer', 'unanswered-prayer', 'hidden-or-suffering', 'religious-harm', 'evidence-for-or-against-god'],

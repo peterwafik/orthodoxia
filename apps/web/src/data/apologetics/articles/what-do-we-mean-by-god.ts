@@ -15,25 +15,25 @@ export const article: Article = {
     ar: 'تشرح هذه المقالة ما تعنيه كلمة «الله» في التقليد المسيحي وفي التقليد الفلسفي الذي يتقاطع معه، حتى تكون الأسئلة اللاحقة عن وجود الله أسئلة عن شيء محدد. وتقارن هذا المعنى بالاستعمالات الأخرى للكلمة. وهي لا تحاول البرهنة على وجود الله.',
   },
   shortAnswer: {
-    en: 'In the Christian tradition “God” does not mean a very powerful being inside the universe, nor the universe itself, nor a vague force. It means the one uncreated source of everything else: eternal, not made of parts, all-powerful, all-knowing and entirely good, who is personal and who made the world freely. The Church adds that this one God is Father, Son and Holy Spirit. Many people who say they do not believe in God are rejecting a different, smaller idea, so it helps to agree first on what is being asked.',
-    ar: 'في التقليد المسيحي لا تعني كلمة «الله» كائنًا شديد القوة داخل الكون، ولا الكون نفسه، ولا قوة غامضة. بل تعني المصدر الواحد غير المخلوق لكل ما سواه: الأزلي، غير المركّب من أجزاء، القادر على كل شيء، العالم بكل شيء، الصالح كل الصلاح، الذي هو شخصي، والذي خلق العالم بحرية. وتضيف الكنيسة أن هذا الإله الواحد هو الآب والابن والروح القدس. وكثيرون ممن يقولون إنهم لا يؤمنون بالله يرفضون في الحقيقة فكرة أخرى أصغر، ولذلك يفيد أن نتفق أولًا على ما نسأل عنه.',
+    en: 'In the Christian tradition “God” does not mean a very powerful being inside the universe, nor the universe itself, nor a vague force. It means the one uncreated source of everything else: eternal, not made of parts, all-powerful, all-knowing and entirely good, who is personal and who made the world freely. And He has made Himself known: this one God is Father, Son and Holy Spirit, and the Son became man for our salvation. Many people who say they do not believe in God are rejecting a different, smaller idea; the God the Church worships is the living source of all that is.',
+    ar: 'في التقليد المسيحي لا تعني كلمة «الله» كائنًا شديد القوة داخل الكون، ولا الكون نفسه، ولا قوة غامضة. بل تعني المصدر الواحد غير المخلوق لكل ما سواه: الأزلي، غير المركّب من أجزاء، القادر على كل شيء، العالم بكل شيء، الصالح كل الصلاح، الذي هو شخصي، والذي خلق العالم بحرية. وقد أعلن ذاته: فهذا الإله الواحد هو الآب والابن والروح القدس، والابن صار إنسانًا لأجل خلاصنا. وكثيرون ممن يقولون إنهم لا يؤمنون بالله يرفضون في الحقيقة فكرة أخرى أصغر؛ أما الإله الذي تعبده الكنيسة فهو المصدر الحي لكل ما هو موجود.',
   },
   quickPoints: {
     en: [
-      'God is described as the creator of everything that is not God, and so not a part of the universe that could be found by looking harder.',
-      'God is described as eternal and uncreated, which is why “who made God?” is a different question from “who made the universe?” (a separate article treats it).',
-      'God is described as personal: one who knows, wills and loves, not an impersonal force or a principle.',
-      'The Church confesses one God in three persons, the Trinity. That is a doctrine received from revelation, not a conclusion of the philosophical arguments.',
+      'God is the creator of everything that is not God, and so not a part of the universe that could be found by looking harder.',
+      'God is eternal and uncreated, which is why “who made God?” is a different question from “who made the universe?” (a separate article treats it).',
+      'God is personal: He knows, wills and loves; He is not an impersonal force or a principle.',
+      'The Church confesses one God in three persons, the Holy Trinity, as God has revealed Himself in Christ.',
       'Judaism and Islam also confess one creator, but they do not confess the Trinity or the incarnation. Pantheists and deists mean something different again.',
-      'God is not fully comprehended by the human mind. Speaking of God is real but never exhaustive.',
+      'God is beyond the full grasp of the human mind. We speak of Him truly, though never exhaustively.',
     ],
     ar: [
-      'يُوصف الله بأنه خالق كل ما ليس هو الله، فهو ليس جزءًا من الكون يمكن العثور عليه بالتدقيق أكثر.',
-      'ويُوصف بأنه أزلي غير مخلوق، ولذلك يختلف سؤال «من خلق الله؟» عن سؤال «من خلق الكون؟» (وله مقالة مستقلة).',
-      'ويُوصف بأنه شخصي: يعلم ويريد ويحب، وليس قوة غير شخصية أو مجرد مبدأ.',
-      'تعترف الكنيسة بإله واحد في ثلاثة أقانيم، هو الثالوث القدوس. وهذا تعليم مستلم بالإعلان الإلهي وليس نتيجة للحجج الفلسفية.',
+      'الله خالق كل ما ليس هو الله، فهو ليس جزءًا من الكون يمكن العثور عليه بالتدقيق أكثر.',
+      'والله أزلي غير مخلوق، ولذلك يختلف سؤال «من خلق الله؟» عن سؤال «من خلق الكون؟» (وله مقالة مستقلة).',
+      'والله شخصي: يعلم ويريد ويحب، وليس قوة غير شخصية أو مجرد مبدأ.',
+      'تعترف الكنيسة بإله واحد في ثلاثة أقانيم، هو الثالوث القدوس، كما أعلن الله ذاته في المسيح.',
       'اليهودية والإسلام يعترفان أيضًا بخالق واحد، لكنهما لا يعترفان بالثالوث ولا بالتجسد. وأصحاب وحدة الوجود والربوبيون يقصدون شيئًا آخر.',
-      'الله لا يحيط به العقل البشري إحاطة كاملة. والكلام عنه حقيقي لكنه ليس شاملًا.',
+      'الله فوق إحاطة العقل البشري. ونتكلم عنه بحق، وإن لم يكن كلامنا شاملًا أبدًا.',
     ],
   },
   argumentTypes: ['philosophical', 'theological'],
@@ -47,24 +47,24 @@ export const article: Article = {
   whyExamine: {
     en: [
       'Arguments about God often fail before they start, because the two sides mean different things by the word. A person who rejects “an old man in the sky” or “a being who fills gaps in science” has not yet met the God the Church worships, who is not a thing among things.',
-      'It also matters for believers. If God is only imagined as a large version of ourselves, then every difficulty (where is he? why can I not measure him?) seems to be a reason to doubt. If God is the source of all that exists, those questions change shape.',
+      'It also matters for believers. If God is only imagined as a large version of ourselves, then every difficulty (where is he? why can I not measure him?) seems to be a reason to doubt. When God is known as the source of all that exists, those questions change shape, and faith stands on firm ground.',
     ],
     ar: [
       'كثيرًا ما تفشل النقاشات عن الله قبل أن تبدأ، لأن الطرفين يقصدان بالكلمة شيئين مختلفين. فمن يرفض «شيخًا في السماء» أو «كائنًا يسدّ ثغرات العلم» لم يلتقِ بعدُ بالله الذي تعبده الكنيسة، وهو ليس شيئًا بين الأشياء.',
-      'وهذا مهم للمؤمنين أيضًا. فإن تُصوِّر الله نسخة أكبر منا، بدت كل صعوبة (أين هو؟ لماذا لا أستطيع قياسه؟) سببًا للشك. أما إن كان الله مصدر كل ما هو موجود فإن هذه الأسئلة تتغير صورتها.',
+      'وهذا مهم للمؤمنين أيضًا. فإن تُصوِّر الله نسخة أكبر منا، بدت كل صعوبة (أين هو؟ لماذا لا أستطيع قياسه؟) سببًا للشك. أما حين يُعرف الله مصدرًا لكل ما هو موجود فإن هذه الأسئلة تتغير صورتها، ويقف الإيمان على أرض ثابتة.',
     ],
   },
   background: {
     en: [
       'The Bible does not begin with a proof but with a declaration: God made the heavens and the earth (Genesis 1:1). Read as an ancient document, Israel’s Scriptures present one God who is Lord of all, who has no rival, who names himself in a way that points to being itself (Exodus 3:14), and who is not shaped by human hands. The New Testament adds that God is spirit, that God is love, and that the Word through whom all things were made became flesh (John 1:1–3, 14).',
       'Christian thinkers in the first centuries, including the Alexandrian Fathers, used the vocabulary of Greek philosophy to guard this meaning: God is uncreated, without beginning, unchangeable in his goodness, and the maker of all things from nothing. St Athanasius, in his work on the incarnation, speaks of God as the maker of everything out of nothing through his Word, and not as a builder who finds material already to hand (S52).',
-      'Philosophers who defend theism today use a similar definition. Richard Swinburne, a philosopher and Eastern Orthodox Christian, argues for the existence of a person without a body who is eternal, free, able to do anything, knowing everything, perfectly good and creator of all else (S38). His books are cited here only as whole works for their overall approach, because only the publisher pages have been consulted. Not every Christian thinker would put the matter in his terms, and the Church’s own language is more than a philosophical definition.',
+      'Philosophers who defend theism today use a similar definition. Richard Swinburne, a philosopher and Eastern Orthodox Christian, argues for the existence of a person without a body who is eternal, free, able to do anything, knowing everything, perfectly good and creator of all else (S38). Not every Christian thinker would put the matter in his terms, and the Church’s own language is more than a philosophical definition.',
       'Other uses of the word differ. Judaism and Islam also confess one creator and give no place to the Trinity. Pantheism identifies God with the universe or its totality. Deism holds that a creator made the world and then left it to run. Polytheistic religions speak of many divine beings, each limited. Because these differ, the question “does God exist?” cannot be answered until it is clear which meaning is intended.',
     ],
     ar: [
       'لا يبدأ الكتاب المقدس ببرهان بل بإعلان: خلق الله السماوات والأرض (تكوين ١: ١). وعند قراءة أسفار إسرائيل كوثائق قديمة نجدها تقدّم إلهًا واحدًا هو رب الكل، لا ندّ له، يسمّي نفسه باسم يشير إلى الكينونة ذاتها (خروج ٣: ١٤)، وليس من صنع الأيدي. ويضيف العهد الجديد أن الله روح، وأن الله محبة، وأن الكلمة الذي به كان كل شيء صار جسدًا (يوحنا ١: ١–٣، ١٤).',
       'واستعمل المفكرون المسيحيون في القرون الأولى، ومنهم آباء الإسكندرية، مفردات الفلسفة اليونانية لصون هذا المعنى: الله غير مخلوق، بلا بداية، لا يتغير في صلاحه، وخالق كل شيء من العدم. ويتحدث القديس أثناسيوس في كتابه عن التجسد عن الله بوصفه صانع كل شيء من العدم بكلمته، لا بناءً يجد المادة جاهزة بين يديه (S52).',
-      'ويستعمل الفلاسفة المدافعون عن الإيمان بالله اليوم تعريفًا مشابهًا. فريتشارد سوينبرن، وهو فيلسوف ومسيحي أرثوذكسي شرقي، يحتجّ لوجود شخص بلا جسد، أزلي، حر، قادر على كل شيء، عالم بكل شيء، صالح كل الصلاح، وخالق كل ما سواه (S38). ولا تُذكر كتبه هنا إلا كأعمال كاملة ولمنهجها العام، لأن الاطلاع اقتصر على صفحات الناشر. وليس كل مفكر مسيحي يصوغ الأمر بعباراته، ولغة الكنيسة نفسها أوسع من تعريف فلسفي.',
+      'ويستعمل الفلاسفة المدافعون عن الإيمان بالله اليوم تعريفًا مشابهًا. فريتشارد سوينبرن، وهو فيلسوف ومسيحي أرثوذكسي شرقي، يحتجّ لوجود شخص بلا جسد، أزلي، حر، قادر على كل شيء، عالم بكل شيء، صالح كل الصلاح، وخالق كل ما سواه (S38). وليس كل مفكر مسيحي يصوغ الأمر بعباراته، ولغة الكنيسة نفسها أوسع من تعريف فلسفي.',
       'وتختلف الاستعمالات الأخرى للكلمة. فاليهودية والإسلام يعترفان أيضًا بخالق واحد ولا يقبلان الثالوث. ووحدة الوجود تطابق بين الله والكون أو مجموعه. والربوبية ترى أن خالقًا صنع العالم ثم تركه يسير. والأديان المتعددة الآلهة تتحدث عن كائنات إلهية كثيرة محدودة. ولأن هذه المعاني مختلفة فلا يمكن الجواب عن سؤال «هل الله موجود؟» قبل أن يتضح أي معنى مقصود.',
     ],
   },
@@ -80,8 +80,8 @@ export const article: Article = {
       argumentType: 'theological',
       assessment: 'theological_interpretation',
       rationale: {
-        en: 'The meaning is drawn from Scripture read within the Church and from the Fathers, and philosophers who defend theism use a closely similar definition. This is a statement about what the word means in this tradition, not a claim that anything corresponds to it.',
-        ar: 'المعنى مستمد من الكتاب المقدس مقروءًا داخل الكنيسة ومن الآباء، ويستعمل الفلاسفة المدافعون عن الإيمان بالله تعريفًا قريبًا جدًا منه. وهذا بيان لمعنى الكلمة في هذا التقليد، لا دعوى بأن شيئًا يقابله.',
+        en: 'The meaning is drawn from Scripture read within the Church and from the Fathers: God made the heavens and the earth, names Himself “I am” (Exodus 3:14), and is love. Philosophers who defend theism use a closely similar definition.',
+        ar: 'المعنى مستمد من الكتاب المقدس مقروءًا داخل الكنيسة ومن الآباء: الله خلق السماوات والأرض، ويسمّي ذاته «أهيه» أي الكائن (خروج ٣: ١٤)، والله محبة. ويستعمل الفلاسفة المدافعون عن الإيمان بالله تعريفًا قريبًا جدًا منه.',
       },
       limits: {
         en: 'Jews, Muslims and some Christian philosophers state the divine attributes differently, and the philosophical vocabulary is not itself part of Scripture.',
@@ -92,14 +92,14 @@ export const article: Article = {
     {
       id: 'c2',
       proposition: {
-        en: 'God is understood as the creator of the universe and not as an object inside it, so the absence of God from a telescope or a laboratory is not what the tradition would predict, and also not by itself an argument for or against.',
-        ar: 'يُفهم الله على أنه خالق الكون لا شيء داخله، فغيابه عن المنظار أو المختبر ليس ما يتوقعه التقليد، وليس بذاته حجة له أو عليه.',
+        en: 'God is the creator of the universe and not an object inside it, so it is no argument against Him that He is not seen through a telescope or measured in a laboratory.',
+        ar: 'الله خالق الكون لا شيء داخله، فليس حجة عليه أنه لا يُرى بالمنظار ولا يُقاس في المختبر.',
       },
       argumentType: 'philosophical',
       assessment: 'philosophical_argument',
       rationale: {
-        en: 'If God made space, time and matter, then God is not one more thing located in them. The point concerns what kind of evidence is appropriate, which is treated in the article on what would count as evidence for or against God.',
-        ar: 'إن كان الله قد خلق المكان والزمان والمادة فليس هو شيئًا آخر موجودًا فيها. والنقطة تتعلق بنوع الدليل المناسب، وتُعالَج في مقالة ما يُعدّ دليلًا مع وجود الله أو ضده.',
+        en: 'If God made space, time and matter, then God is not one more thing located in them. He is known through what He has made and through His self-revelation, as the article on what counts as evidence for God sets out.',
+        ar: 'إن كان الله قد خلق المكان والزمان والمادة فليس هو شيئًا آخر موجودًا فيها. فهو يُعرف بمصنوعاته وبإعلانه عن ذاته، كما تبيّن مقالة ما يُعدّ دليلًا على وجود الله.',
       },
       limits: {
         en: 'Critics say this definition makes the claim too hard to test. That worry is real and is answered in the related article, not here.',
@@ -110,14 +110,14 @@ export const article: Article = {
     {
       id: 'c3',
       proposition: {
-        en: 'The Church confesses that the one God is Father, Son and Holy Spirit. This belongs to revelation as the Church receives it and is not a conclusion of the philosophical arguments for a creator.',
-        ar: 'تعترف الكنيسة بأن الإله الواحد هو الآب والابن والروح القدس. وهذا من الإعلان كما تتسلمه الكنيسة، وليس نتيجة للحجج الفلسفية على وجود خالق.',
+        en: 'The Church confesses that the one God is Father, Son and Holy Spirit, as God has revealed Himself and as the Church receives that revelation.',
+        ar: 'تعترف الكنيسة بأن الإله الواحد هو الآب والابن والروح القدس، كما أعلن الله ذاته وكما تتسلم الكنيسة هذا الإعلان.',
       },
       argumentType: 'theological',
       assessment: 'theological_interpretation',
       rationale: {
-        en: 'The Nicene Creed, which the Coptic Church confesses at every liturgy, states belief in one God and then in the Son and the Holy Spirit. Philosophers have proposed several models of how this can be coherent, and each has critics.',
-        ar: 'يعلن قانون الإيمان النيقاوي، الذي تقرّ به الكنيسة القبطية في كل قداس، الإيمان بإله واحد ثم بالابن وبالروح القدس. وقد اقترح الفلاسفة نماذج عدة لتوضيح كيف يكون ذلك متسقًا، ولكل نموذج ناقدوه.',
+        en: 'The Nicene Creed, which the Coptic Church confesses at every liturgy, states belief in one God and then in the Son and the Holy Spirit. Reason can show that a Creator exists; that this Creator is Father, Son and Holy Spirit is known because the Son came among us and the Spirit was sent.',
+        ar: 'يعلن قانون الإيمان النيقاوي، الذي تقرّ به الكنيسة القبطية في كل قداس، الإيمان بإله واحد ثم بالابن وبالروح القدس. والعقل يستطيع أن يبيّن وجود الخالق؛ أما أن هذا الخالق آب وابن وروح قدس فيُعرف لأن الابن جاء بيننا والروح أُرسل.',
       },
       limits: {
         en: 'A person can understand the meaning of the doctrine without accepting it, and the arguments for a creator do not by themselves lead to it.',
@@ -257,11 +257,11 @@ export const article: Article = {
       response: {
         en: [
           'The definition above is not elastic: it excludes a finite creator, a world-soul, an impersonal force and a being who is the universe. It has content that could be challenged, for instance that the universe depends on something else, or that there is an objective goodness at the root of reality.',
-          'It is true that a creator would not be tested like an object in the world. But the claim still has consequences for what exists and what is to be expected, and both sides argue from those consequences. That is the subject of the next questions.',
+          'A creator is not tested like an object in the world, but the claim is far from empty. It explains why there is a world at all, why it is ordered and knowable, and why goodness is real; the next questions set out those reasons.',
         ],
         ar: [
           'التعريف المذكور ليس مرنًا: فهو يستبعد خالقًا محدودًا، ونفسًا للعالم، وقوة غير شخصية، وكائنًا هو الكون نفسه. وله مضمون يمكن الاعتراض عليه، كالقول إن الكون يعتمد على شيء آخر، أو إن في أصل الواقع خيرًا موضوعيًا.',
-          'ومن الصحيح أن الخالق لا يُختبر كما يُختبر شيء في العالم. غير أن الدعوى لها نتائج في ما هو موجود وفي ما يُتوقع، ويحتجّ الطرفان بهذه النتائج. وهذا موضوع الأسئلة التالية.',
+          'الخالق لا يُختبر كما يُختبر شيء في العالم، لكن الدعوى أبعد ما تكون عن الفراغ. فهي تفسّر لماذا يوجد عالم أصلًا، ولماذا هو منظَّم ويمكن معرفته، ولماذا الخير حقيقي؛ وتعرض الأسئلة التالية هذه الأسباب.',
         ],
       },
       limits: {
@@ -277,12 +277,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'Philosophers who defend theism reply that each attribute can be stated carefully (for example, that omnipotence means power to do whatever is logically possible and fits God’s nature), and that being a person does not require a body. On time, they differ: some hold that God is outside time, others that God is everlasting within it.',
-          'Critics reply that some combinations still seem to clash, for example God’s freedom with his unchangeableness, or foreknowledge with human freedom. These remain live questions in the philosophy of religion.',
+          'Each attribute, stated carefully, is coherent. Omnipotence means power to do whatever is logically possible and fits God’s nature, not power to do nonsense. Being a person means knowing, willing and loving, and none of these requires a body: our own minds are not the same as our bodies.',
+          'Persons in our experience change in time because they are creatures. God knows and wills in His eternity, and this is not a lack of life but its fullness. His freedom is not a passing from one state to another; it is His unchanging, sovereign goodness.',
         ],
         ar: [
-          'يردّ الفلاسفة المدافعون عن الإيمان بالله بأن كل صفة يمكن صياغتها بعناية (فالقدرة على كل شيء مثلًا تعني القدرة على كل ما هو ممكن منطقيًا ويلائم طبيعة الله)، وبأن الشخص لا يحتاج إلى جسد. وفي الزمان يختلفون: فبعضهم يقول إن الله خارج الزمان، وبعضهم إنه ممتد في الأزل داخله.',
-          'ويردّ الناقدون بأن بعض التركيبات ما زالت تبدو متعارضة، كحرية الله مع عدم تغيّره، أو سابق علمه مع حرية الإنسان. وما زالت هذه أسئلة حية في فلسفة الدين.',
+          'كل صفة، إذا صيغت بعناية، متسقة. فالقدرة على كل شيء تعني القدرة على كل ما هو ممكن منطقيًا ويلائم طبيعة الله، لا القدرة على المحال. والشخص هو من يعلم ويريد ويحب، ولا شيء من ذلك يحتاج إلى جسد: فعقولنا نفسها ليست هي أجسادنا.',
+          'والأشخاص في خبرتنا يتغيرون في الزمان لأنهم مخلوقات. أما الله فيعلم ويريد في أزليته، وهذا ليس نقصًا في الحياة بل ملؤها. وحريته ليست انتقالًا من حال إلى حال؛ إنها صلاحه السيادي الذي لا يتغير.',
         ],
       },
       limits: {
@@ -298,12 +298,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'It is true that the descriptions differ, and the article above names some of the differences, including the Trinity. But Jews, Christians and Muslims agree on a large core (one creator, all-powerful, good, distinct from the world), and that core is what the arguments for and against a creator are about. The differences then raise a second question about which description is right.',
-          'That a belief can be traced to human culture does not by itself show that it is false: every belief, including scientific ones, has a history. The question is whether the reasons for it are good.',
+          'It is true that the descriptions differ, and the article above names some of the differences, including the Trinity. But Jews, Christians and Muslims agree on a large core (one creator, all-powerful, good, distinct from the world), and that core is what the arguments for and against a creator are about. The differences then raise a second question, which God answers in Christ.',
+          'Every belief, including scientific ones, has a history, so tracing a belief to a culture shows nothing about whether it is false. And the Christian faith does not claim to be a human picture of God but God’s own self-revelation in Jesus Christ.',
         ],
         ar: [
-          'من الصحيح أن الأوصاف تختلف، وتذكر المقالة بعض الفروق ومنها الثالوث. لكن اليهود والمسيحيين والمسلمين يتفقون على نواة كبيرة (خالق واحد، قادر، صالح، متميز عن العالم)، وهذه النواة هي موضوع الحجج مع وجود الخالق وضده. وتثير الفروق بعد ذلك سؤالًا ثانيًا: أي وصف هو الصحيح؟',
-          'ومجرد إمكان ردّ الاعتقاد إلى ثقافة بشرية لا يبيّن بطلانه، فلكل اعتقاد، ومنه العلمي، تاريخ. والسؤال هو: هل أسبابه جيدة؟',
+          'من الصحيح أن الأوصاف تختلف، وتذكر المقالة بعض الفروق ومنها الثالوث. لكن اليهود والمسيحيين والمسلمين يتفقون على نواة كبيرة (خالق واحد، قادر، صالح، متميز عن العالم)، وهذه النواة هي موضوع الحجج مع وجود الخالق وضده. وتثير الفروق بعد ذلك سؤالًا ثانيًا يجيب عنه الله في المسيح.',
+          'لكل اعتقاد، ومنه العلمي، تاريخ، فردّ الاعتقاد إلى ثقافة لا يبيّن شيئًا عن بطلانه. والإيمان المسيحي لا يدّعي أنه صورة بشرية عن الله، بل إعلان الله ذاته في يسوع المسيح.',
         ],
       },
       limits: {
@@ -316,20 +316,20 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'The question of meaning is not a historical one, but there is a historical point: the Church’s language about God was fixed over the first centuries in dialogue with Jewish Scripture and Greek philosophy, and the Alexandrian Fathers were part of that. St Athanasius, for example, wrote against those who made the Word a creature. The history shows where the definition came from. It does not by itself show that it is true.',
+        'The Church’s language about God was set down over the first centuries, from the Scriptures of Israel and the apostolic preaching, using the clear vocabulary of Greek philosophy to guard it. The Alexandrian Fathers were at the heart of that work: St Athanasius defended against Arius the truth that the Word is God and no creature. The words were new; the faith they guarded was the faith of the apostles.',
       ],
       ar: [
-        'سؤال المعنى ليس سؤالًا تاريخيًا، لكن فيه نقطة تاريخية: فقد تثبّتت لغة الكنيسة عن الله خلال القرون الأولى في حوار مع الكتاب المقدس اليهودي والفلسفة اليونانية، وكان آباء الإسكندرية جزءًا من ذلك. فالقديس أثناسيوس مثلًا كتب ضد من جعلوا الكلمة مخلوقًا. والتاريخ يبيّن من أين جاء التعريف، ولا يبيّن بذاته أنه صحيح.',
+        'صيغت لغة الكنيسة عن الله خلال القرون الأولى، من أسفار إسرائيل والكرازة الرسولية، مستعينةً بمفردات الفلسفة اليونانية الواضحة لصونها. وكان آباء الإسكندرية في قلب هذا العمل: فقد دافع القديس أثناسيوس ضد آريوس عن حق أن الكلمة إله لا مخلوق. فالألفاظ جديدة، أما الإيمان الذي صانته فهو إيمان الرسل.',
       ],
     },
     theological: {
       en: [
         'The Church confesses that God is not only the first cause of the world but the Father of our Lord Jesus Christ, who has made himself known. She also confesses that God cannot be fully comprehended: we speak truly of him, but what we say never exhausts him. For this reason Christian teaching joins affirmations (God is good, God is love) with the admission that God is beyond every human concept.',
-        'This is theological interpretation. It is offered as the Church’s understanding and is not a premise that a reader needs to accept in order to follow the philosophical arguments in the neighbouring questions.',
+        'So the Church speaks of God with confidence and with reverence: confidence, because God has spoken; reverence, because the God who has spoken is always greater than our words.',
       ],
       ar: [
         'تعترف الكنيسة بأن الله ليس مجرد علة أولى للعالم بل هو أبو ربنا يسوع المسيح الذي أعلن ذاته. وتعترف أيضًا بأن الله لا يُدرَك إدراكًا كاملًا: نتكلم عنه بحق، لكن كلامنا لا يستوعبه. ولذلك يجمع التعليم المسيحي بين الإثبات (الله صالح، الله محبة) والإقرار بأن الله فوق كل مفهوم بشري.',
-        'وهذا تفسير لاهوتي، يُعرض بوصفه فهم الكنيسة، وليس مقدّمة يلزم القارئ قبولها لكي يتابع الحجج الفلسفية في الأسئلة المجاورة.',
+        'ولذلك تتكلم الكنيسة عن الله بثقة وبخشوع: بثقة لأن الله تكلم، وبخشوع لأن الله الذي تكلم أعظم دائمًا من كلماتنا.',
       ],
     },
   },
@@ -354,8 +354,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'By “God” the Christian tradition means the one uncreated, eternal, good and personal source of everything else, who is confessed as Father, Son and Holy Spirit. This is a definite claim, which can be examined and challenged, and which differs from many ideas of God that people reject. Whether it is true is the question the following articles take up.',
-    ar: 'يعني التقليد المسيحي بكلمة «الله» المصدر الواحد غير المخلوق، الأزلي، الصالح، الشخصي لكل ما سواه، الذي يُعترف به آبًا وابنًا وروحًا قدسًا. وهذه دعوى محددة يمكن فحصها والاعتراض عليها، وهي تختلف عن أفكار كثيرة عن الله يرفضها الناس. وهل هي صحيحة؟ هذا ما تتناوله المقالات التالية.',
+    en: 'By “God” the Church means the one uncreated, eternal, good and personal source of everything else, who has made Himself known as Father, Son and Holy Spirit. This is not the small god many people reject, but the living God who made heaven and earth and who came among us in Jesus Christ. The following articles set out the reasons for believing in Him.',
+    ar: 'تعني الكنيسة بكلمة «الله» المصدر الواحد غير المخلوق، الأزلي، الصالح، الشخصي لكل ما سواه، الذي أعلن ذاته آبًا وابنًا وروحًا قدسًا. وليس هو الإله الصغير الذي يرفضه كثيرون، بل الله الحي الذي خلق السماء والأرض وجاء بيننا في يسوع المسيح. وتعرض المقالات التالية أسباب الإيمان به.',
   },
   furtherReading: ['S38', 'S52', 'S55'],
   related: [

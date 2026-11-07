@@ -15,23 +15,25 @@ export const article: Article = {
     ar: 'ماذا يقول أربعة كتّاب قدماء من خارج الجماعة المسيحية (تاكيتوس ويوسيفوس وبليني الأصغر ولوقيانوس)، ومدى موثوقية كل فقرة، وما يمكن استنتاجه منها وما لا يمكن. لا يزن هذا المقال الأناجيل ولا القديس بولس؛ فوجود يسوع وإعدامه يُعالجان في المقالين المجاورين.',
   },
   shortAnswer: {
-    en: 'They establish less than popular apologetics suggests and more than popular scepticism allows. Tacitus shows that educated Romans around AD 115–120 knew Christians took their name from Christus, executed under Pontius Pilate. Josephus mentions James, the brother of Jesus called Christ, and a longer passage on Jesus that Christians have clearly reworded. Pliny and Lucian say nothing about Jesus’ life; they show how Christians were seen and what they worshipped. None of the four was an eyewitness, and none gives a biography.',
-    ar: 'تثبت هذه المصادر أقل مما توحي به بعض الدفاعيات الشعبية، وأكثر مما يسمح به التشكك الشعبي. يبين تاكيتوس أن الرومان المثقفين نحو ١١٥–١٢٠م عرفوا أن المسيحيين يأخذون اسمهم من «كرستوس» الذي أُعدم في ولاية بيلاطس البنطي. ويذكر يوسيفوس يعقوب أخا يسوع الذي يُدعى المسيح، وفقرة أطول عن يسوع أعاد المسيحيون صياغتها بوضوح. أما بليني ولوقيانوس فلا يقولان شيئًا عن حياة يسوع؛ إنما يبيّنان كيف كان المسيحيون يُرون وما كانوا يعبدون. ولم يكن أيٌّ من الأربعة شاهد عيان، ولا يقدّم أيٌّ منهم سيرة.',
+    en: 'Writers from outside the Church confirm the foundation of the Gospel story. The Roman historian Tacitus, writing around AD 115–120, says that Christians took their name from Christus, who was executed under Pontius Pilate in the reign of Tiberius. The Jewish historian Josephus names James as the brother of Jesus called Christ, and his longer passage on Jesus, though reworded by later copyists, still witnesses to Him. The Roman governor Pliny describes Christians singing to Christ as to a god, and the satirist Lucian mocks them for worshipping a man crucified in Palestine. These writers owed nothing to the Church, and some despised it; yet together they confirm that Jesus lived, was crucified under Pilate, and was worshipped by His followers as divine.',
+    ar: 'يؤكد كتّاب من خارج الكنيسة أساس القصة الإنجيلية. فالمؤرخ الروماني تاكيتوس، الذي كتب نحو ١١٥–١٢٠م، يقول إن المسيحيين أخذوا اسمهم من «كرستوس» الذي أُعدم في ولاية بيلاطس البنطي في عهد طيباريوس. ويسمّي المؤرخ اليهودي يوسيفوس يعقوب أخا يسوع الذي يُدعى المسيح، وفقرته الأطول عن يسوع، وإن أعاد النساخ اللاحقون صياغتها، لا تزال تشهد له. ويصف الوالي الروماني بليني المسيحيين يرتّلون للمسيح كما لإله، ويسخر الأديب لوقيانوس منهم لعبادتهم رجلًا صُلب في فلسطين. ولم يكن لهؤلاء الكتّاب فضل للكنيسة عليهم، وبعضهم احتقرها؛ ومع ذلك يؤكدون معًا أن يسوع عاش، وصُلب في ولاية بيلاطس، وعبده أتباعه إلهًا.',
   },
   quickPoints: {
     en: [
-      'Tacitus (Annals 15.44) reports that Christus was executed under Pilate. He was hostile to Christians, was not an eyewitness, and we do not know where he got the information.',
-      'Josephus on James (Antiquities 20.200) is widely accepted as his own. The longer Testimonium (18.63–64) has Christian wording in it, and scholars disagree on how much is original.',
-      'Pliny (Letters 10.96) is evidence about Christian worship around AD 110. It is not evidence about Jesus’ life.',
-      'Lucian is a satirist, writing around AD 165–175, and his remark shows what was commonly said of Christians in his time.',
-      'Together they support that Jesus lived and was crucified under Pilate, and that his followers worshipped him. They do not support miracles, teaching or resurrection, for or against.',
+      'Tacitus (Annals 15.44) reports that Christus was executed under Pilate. He was hostile to Christians, which makes a Christian invention of the passage very unlikely.',
+      'Josephus on James (Antiquities 20.200) is a brief, incidental remark in a story about a high priest, the kind of detail no one would insert for apologetic reasons.',
+      'The longer Josephus passage (Antiquities 18.63–64) was reworded by Christian copyists, so the Church does not lean on its present wording; the James passage stands on its own.',
+      'Pliny (Letters 10.96) shows that around AD 110 Christians gathered before dawn to sing to Christ as to a god: worship of Christ was established early.',
+      'Lucian, a satirist writing around AD 165–175, takes for granted that Christians worship a crucified man.',
+      'Together they confirm the core: Jesus lived, was crucified under Pilate, and was worshipped by His followers. His teaching and resurrection are known through the apostolic witness.',
     ],
     ar: [
-      'يروي تاكيتوس (الحوليات ١٥: ٤٤) أن «كرستوس» أُعدم في ولاية بيلاطس. وكان معاديًا للمسيحيين ولم يكن شاهد عيان، ولا نعرف من أين استقى معلوماته.',
-      'يُقبل على نطاق واسع أن إشارة يوسيفوس إلى يعقوب (العاديات ٢٠: ٢٠٠) من كلامه هو. أما «التستيمونيوم» الأطول (١٨: ٦٣–٦٤) ففيه صياغة مسيحية، ويختلف الباحثون في مقدار الأصيل منه.',
-      'رسالة بليني (الرسائل ١٠: ٩٦) دليل على العبادة المسيحية نحو سنة ١١٠م، وليست دليلًا على حياة يسوع.',
-      'لوقيانوس ساخر، كتب نحو ١٦٥–١٧٥م، وملاحظته تبين ما كان يُقال عادة عن المسيحيين في زمنه.',
-      'تدعم هذه المصادر مجتمعة أن يسوع عاش وصُلب في ولاية بيلاطس، وأن أتباعه عبدوه. ولا تدعم المعجزات ولا التعليم ولا القيامة، لا إثباتًا ولا نفيًا.',
+      'يروي تاكيتوس (الحوليات ١٥: ٤٤) أن «كرستوس» أُعدم في ولاية بيلاطس. وكان معاديًا للمسيحيين، وهذا يجعل اختلاق المسيحيين للفقرة بعيدًا جدًا.',
+      'إشارة يوسيفوس إلى يعقوب (العاديات ٢٠: ٢٠٠) ملاحظة قصيرة عارضة في قصة عن رئيس كهنة، وهي من نوع التفاصيل التي لا يُقحمها أحد لغرض دفاعي.',
+      'فقرة يوسيفوس الأطول (العاديات ١٨: ٦٣–٦٤) أعاد النساخ المسيحيون صياغتها، فلا تستند الكنيسة إلى صياغتها الحالية؛ أما فقرة يعقوب فتقوم بذاتها.',
+      'يبيّن بليني (الرسائل ١٠: ٩٦) أن المسيحيين نحو سنة ١١٠م كانوا يجتمعون قبل الفجر ليرتلوا للمسيح كما لإله: فعبادة المسيح راسخة منذ وقت مبكر.',
+      'لوقيانوس، الأديب الساخر الذي كتب نحو ١٦٥–١٧٥م، يسلّم بأن المسيحيين يعبدون رجلًا مصلوبًا.',
+      'تؤكد هذه المصادر معًا الجوهر: أن يسوع عاش، وصُلب في ولاية بيلاطس، وعبده أتباعه. أما تعليمه وقيامته فيُعرفان من شهادة الرسل.',
     ],
   },
   argumentTypes: ['historical', 'textual'],
@@ -44,12 +46,12 @@ export const article: Article = {
   },
   whyExamine: {
     en: [
-      'Online lists of "ancient witnesses to Jesus" often present a dozen names as if they were a dozen independent eyewitnesses. Others dismiss the outside evidence as entirely forged. Both are wrong in ways that matter, and the Church’s case is better served by an honest reading.',
-      'Seeing what each writer actually says, and what he could not have known, also protects against the opposite error: expecting the Roman world to have noticed an obscure provincial teacher in the way it noticed emperors.',
+      'Some people claim that Jesus is mentioned nowhere outside the Bible, or that every outside reference is a forgery. Others lean on long lists of names as if each were an eyewitness. Knowing exactly what each writer says gives the believer a firm and honest answer.',
+      'It also corrects a false expectation. The Roman world wrote about emperors and wars, not about a teacher from Galilee. That Jesus appears at all in Roman and Jewish writing so soon is itself a sign of how quickly His followers filled the empire.',
     ],
     ar: [
-      'كثيرًا ما تعرض قوائم على الإنترنت عن «الشهود القدماء ليسوع» اثني عشر اسمًا كأنهم اثنا عشر شاهد عيان مستقلًا. ويرفض آخرون الأدلة الخارجية كلها بوصفها مزوّرة. وكلا الأمرين خاطئ بطرق مهمة، والأمانة في القراءة تخدم الكنيسة أكثر.',
-      'ومعرفة ما يقوله كل كاتب فعلًا، وما كان يستحيل عليه أن يعرفه، تقي أيضًا من الخطأ المعاكس: أن نتوقع من العالم الروماني أن يلاحظ معلّمًا غامضًا من الأقاليم كما لاحظ الأباطرة.',
+      'يدّعي بعض الناس أن يسوع لا يُذكر في أي مكان خارج الكتاب المقدس، أو أن كل إشارة خارجية مزوّرة. ويستند آخرون إلى قوائم طويلة من الأسماء كأن كل واحد منها شاهد عيان. ومعرفة ما يقوله كل كاتب بدقة تعطي المؤمن جوابًا ثابتًا وأمينًا.',
+      'وهي تصحح أيضًا توقعًا خاطئًا. فالعالم الروماني كتب عن الأباطرة والحروب، لا عن معلّم من الجليل. وظهور يسوع أصلًا في كتابات رومانية ويهودية بهذه السرعة علامة في حد ذاته على سرعة انتشار أتباعه في الإمبراطورية.',
     ],
   },
   background: {
@@ -74,8 +76,8 @@ export const article: Article = {
       argumentType: 'historical',
       assessment: 'strong_historical_support',
       rationale: {
-        en: 'The passage is attested in the manuscript tradition of the Annals, and its hostile tone and Roman vocabulary make a Christian invention unlikely. A few writers have suggested it is a later insertion, but most treat it as Tacitus’ own.',
-        ar: 'الفقرة مشهود لها في تقليد مخطوطات الحوليات، ونبرتها العدائية ومفرداتها الرومانية تجعل اختلاقها مسيحيًا غير مرجح. وقد اقترح بعض الكتّاب أنها إضافة متأخرة، لكن أكثرهم يعدّها من كلام تاكيتوس نفسه.',
+        en: 'The passage stands in the manuscript tradition of the Annals, and its contempt for Christians and its Roman vocabulary mark it as the work of a hostile Roman historian, not of a Christian hand.',
+        ar: 'الفقرة ثابتة في تقليد مخطوطات الحوليات، وازدراؤها للمسيحيين ومفرداتها الرومانية تدل على أنها عمل مؤرخ روماني معادٍ لا يد مسيحية.',
       },
       limits: {
         en: 'It is a report of what Tacitus understood in about AD 115–120, not a record of the 30s. His source is uncertain. He could have drawn on Roman records, on common talk or on what Christians themselves said. Because of that, it is a witness to the tradition, not an independent verification of it.',
@@ -92,8 +94,8 @@ export const article: Article = {
       argumentType: 'historical',
       assessment: 'supported_disputed_details',
       rationale: {
-        en: 'The reference is short and incidental, and appears in a context about a high priest’s abuse of power that has no apologetic purpose. It is widely, though not universally, accepted as authentic.',
-        ar: 'الإشارة قصيرة وعارضة، وترد في سياق عن إساءة رئيس كهنة استعمال سلطته لا غرض دفاعيًا فيه. ويُقبل كونها أصيلة على نطاق واسع، وإن لم يكن إجماعًا.',
+        en: 'The reference is short and incidental. It appears in an account of a high priest’s abuse of power, a context with no apologetic purpose, and it identifies James through a brother the readers are expected to know.',
+        ar: 'الإشارة قصيرة وعارضة. وترد في رواية عن إساءة رئيس كهنة استعمال سلطته، وهو سياق لا غرض دفاعيًا فيه، وتعرّف يعقوب بأخٍ يُتوقع أن القراء يعرفونه.',
       },
       limits: {
         en: 'Some scholars suspect that the words "called Christ" were added or adjusted. Josephus gives nothing about Jesus beyond the identification.',
@@ -104,14 +106,14 @@ export const article: Article = {
     {
       id: 'c3',
       proposition: {
-        en: 'The longer Josephus passage (the Testimonium) cannot be cited as it stands, because its surviving wording includes confessions a non-Christian is unlikely to have written.',
-        ar: 'لا يجوز الاستشهاد بفقرة يوسيفوس الطويلة (التستيمونيوم) كما هي، لأن صياغتها الباقية تتضمن اعترافات يستبعد أن يكتبها غير مسيحي.',
+        en: 'The longer Josephus passage (the Testimonium) bears witness to Jesus, but its present wording has been reworked by Christian copyists, so it is used with care.',
+        ar: 'فقرة يوسيفوس الطويلة (التستيمونيوم) تشهد ليسوع، لكن صياغتها الحالية أعاد النساخ المسيحيون تشكيلها، فتُستعمل بحذر.',
       },
       argumentType: 'textual',
       assessment: 'actively_debated',
       rationale: {
-        en: 'Scholars divide into three groups: those who think the passage is largely authentic, those who think it is wholly a Christian insertion, and, in the largest group, those who think a short original core was expanded by Christian copyists. The disagreement is about which words are Josephus’.',
-        ar: 'ينقسم الباحثون إلى ثلاث مجموعات: من يرى الفقرة أصيلة في معظمها، ومن يراها إضافة مسيحية كاملة، والمجموعة الأكبر التي ترى أن نواة أصلية قصيرة وسّعها النسّاخ المسيحيون. والخلاف في أي الكلمات هي ليوسيفوس.',
+        en: 'Origen, who knew Josephus in the third century, says Josephus did not accept Jesus as the Christ, so the confessional phrases in the present text are not his. Yet the passage’s plainer statements, that Jesus was a wise man and teacher whom Pilate condemned to the cross and whose followers did not cease, fit Josephus’ manner and agree with Tacitus.',
+        ar: 'يقول أوريجانوس، الذي عرف يوسيفوس في القرن الثالث، إن يوسيفوس لم يقبل يسوع مسيحًا، فالعبارات الإيمانية في النص الحالي ليست له. ومع ذلك فإن عبارات الفقرة الأبسط، أن يسوع كان رجلًا حكيمًا ومعلمًا حكم عليه بيلاطس بالصليب ولم ينقطع أتباعه، تلائم أسلوب يوسيفوس وتتفق مع تاكيتوس.',
       },
       limits: {
         en: 'Nothing in this debate affects the James passage, which stands independently. None of the three views makes Josephus an eyewitness.',
@@ -128,8 +130,8 @@ export const article: Article = {
       argumentType: 'historical',
       assessment: 'supported_disputed_details',
       rationale: {
-        en: 'Pliny, a Roman governor, describes Christians singing to Christ as to a god and refusing to curse him under pressure. Lucian, writing satire, calls the founder a man crucified in Palestine and mocks the believers’ devotion to him.',
-        ar: 'يصف بليني، وهو حاكم روماني، مسيحيين يرتّلون للمسيح كما لإله ويرفضون لعنه تحت الضغط. ويسمّي لوقيانوس، في سخريته، المؤسس رجلًا صُلب في فلسطين ويهزأ بتعلق المؤمنين به.',
+        en: 'Pliny, a Roman governor, describes Christians singing to Christ as to a god and refusing to curse Him under pressure. Lucian, writing satire, calls the founder a man crucified in Palestine and mocks the believers’ devotion to Him. Both confirm, from outside, that Christ was worshipped and that He was crucified.',
+        ar: 'يصف بليني، وهو حاكم روماني، مسيحيين يرتّلون للمسيح كما لإله ويرفضون لعنه تحت الضغط. ويسمّي لوقيانوس، في سخريته، المؤسس رجلًا صُلب في فلسطين ويهزأ بتعلق المؤمنين به. وكلاهما يؤكد، من الخارج، أن المسيح كان يُعبد وأنه صُلب.',
       },
       limits: {
         en: 'Lucian’s genre is satire and his story about Peregrinus is largely invented or exaggerated for comic effect. Pliny writes about Christians he interrogated, not about Jesus. Neither is a witness to what Jesus said or did.',
@@ -257,12 +259,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The objection is right about the limits, and the article accepts them. Nothing here is contemporary with Jesus, and no author claims to have met him. The passages do not prove his teaching or miracles.',
-          'It is less persuasive about the expectation. An itinerant teacher from Galilee, executed as a provincial criminal, was not a subject for the senatorial and aristocratic writers whose work survives. The surprising fact is that his name appears in Roman and Jewish writing within a few generations, and that those writers, even when hostile, do not treat his existence as a Christian fiction.',
+          'No outside writer claims to have met Jesus, and none was writing a life of Him. The Church has never rested its faith on them; the eyewitness testimony comes through the apostles and the Gospels.',
+          'The expectation itself is mistaken. An itinerant teacher from Galilee, executed as a provincial criminal, was not a subject for the senators and aristocrats whose works survive. What is remarkable is that His name appears in Roman and Jewish writing within a few generations, and that these writers, even when hostile, never treat His existence as a Christian fiction.',
         ],
         ar: [
-          'الاعتراض محق في بيان الحدود، والمقال يقبلها. فلا شيء هنا معاصر ليسوع، ولا يدّعي كاتب أنه التقاه، ولا تثبت الفقرات تعليمه أو معجزاته.',
-          'لكنه أقل إقناعًا في ما يتوقعه. فمعلّم جوّال من الجليل أُعدم بوصفه مجرمًا إقليميًا لم يكن موضوعًا للكتّاب السناتوريين والأرستقراطيين الذين بقيت أعمالهم. والمستغرب أن اسمه يظهر في كتابات رومانية ويهودية في غضون أجيال قليلة، وأن هؤلاء الكتّاب، حتى حين يعادونه، لا يعاملون وجوده على أنه خرافة مسيحية.',
+          'لا يدّعي أي كاتب خارجي أنه التقى يسوع، ولم يكن أحد منهم يكتب سيرته. ولم تُقم الكنيسة إيمانها عليهم قط؛ فشهادة شهود العيان تأتي من الرسل والأناجيل.',
+          'والتوقع نفسه خاطئ. فمعلّم جوّال من الجليل أُعدم بوصفه مجرمًا إقليميًا لم يكن موضوعًا لأعضاء مجلس الشيوخ والأرستقراطيين الذين بقيت أعمالهم. واللافت أن اسمه يظهر في كتابات رومانية ويهودية في غضون أجيال قليلة، وأن هؤلاء الكتّاب، حتى حين يعادونه، لا يعاملون وجوده أبدًا على أنه خرافة مسيحية.',
         ],
       },
       limits: {
@@ -279,12 +281,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'It is possible that Tacitus relied, directly or at second hand, on Christian talk in Rome, and the article says his source is unknown. If that is so, he is a witness to what was said about Christ in Rome rather than a check on it.',
-          'The case for interpolation is a minority one. The tone is contemptuous, and the information is thin in just the way a hostile outsider’s would be. A Christian forger would not have written it so. This weighs in favour of authenticity, though it is an argument from style and cannot be a proof.',
+          'Tacitus was a senator and a careful historian who despised Christianity. He does not say he is repeating Christians, and he speaks of Christus and Pilate with the confidence of a Roman stating what educated Romans knew. Even if part of his knowledge reached him through talk in Rome, it shows that the crucifixion under Pilate was common knowledge, not a private Christian claim.',
+          'The passage is no insertion. Its tone is contemptuous, calling the faith a harmful superstition, and its information is thin in just the way a hostile outsider’s would be. A Christian forger would never have written it so.',
         ],
         ar: [
-          'من الممكن أن تاكيتوس اعتمد، مباشرة أو بالواسطة، على أحاديث المسيحيين في روما، والمقال يقول إن مصدره مجهول. وإن كان الأمر كذلك فهو شاهد على ما قيل عن المسيح في روما لا فحص له.',
-          'والقول بالإقحام رأي أقلية. فالنبرة ازدرائية، والمعلومات شحيحة على نحو يشبه ما يكتبه غريب معادٍ. وما كان مزوّر مسيحي ليكتبها هكذا. وهذا يرجّح الأصالة، لكنه حجة من الأسلوب لا برهان.',
+          'كان تاكيتوس عضوًا في مجلس الشيوخ ومؤرخًا دقيقًا يحتقر المسيحية. وهو لا يقول إنه ينقل عن المسيحيين، بل يتكلم عن «كرستوس» وبيلاطس بثقة روماني يذكر ما يعرفه الرومان المثقفون. وحتى لو وصله جزء من معرفته عبر الأحاديث في روما، فهذا يبيّن أن الصلب في ولاية بيلاطس كان معرفة شائعة، لا دعوى مسيحية خاصة.',
+          'والفقرة ليست مُقحمة. فنبرتها ازدرائية، إذ تسمي الإيمان خرافة مؤذية، ومعلوماتها شحيحة على نحو يشبه ما يكتبه غريب معادٍ. وما كان مزوّر مسيحي ليكتبها هكذا أبدًا.',
         ],
       },
       limits: {
@@ -301,12 +303,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The two passages are separate texts and are judged on separate grounds. The James passage lacks the confessional wording that raises suspicion in the Testimonium, and it is part of a continuous narrative about the high priesthood.',
-          'Some scholars do suspect that words in the James passage were touched, and the article leaves that possibility open. The fair statement is that the James passage is more secure, not that it is beyond question.',
+          'The two passages are separate texts and are judged on their own grounds. The James passage has none of the confessional wording that marks the reworked lines of the Testimonium, and it sits inside a continuous narrative about the high priesthood.',
+          'Its phrase “called Christ” is just how a non-Christian Jewish writer would describe Jesus: it reports what He was called, without confessing it. Copyists who reworked one passage did not thereby create the other.',
         ],
         ar: [
-          'الفقرتان نصّان منفصلان تُحكم عليهما بأسس منفصلة. ولا تتضمن فقرة يعقوب العبارات الإيمانية التي تثير الشك في التستيمونيوم، وهي جزء من سرد متصل عن رئاسة الكهنوت.',
-          'ويشك بعض الباحثين فعلًا في أن كلمات في فقرة يعقوب مُسّت، والمقال يترك هذا الاحتمال مفتوحًا. والقول المنصف أن فقرة يعقوب أمتن، لا أنها فوق الشك.',
+          'الفقرتان نصّان منفصلان، يُحكم على كل منهما بأسسه. ولا تتضمن فقرة يعقوب شيئًا من العبارات الإيمانية التي تميّز السطور المعاد صياغتها في التستيمونيوم، وهي جزء من سرد متصل عن رئاسة الكهنوت.',
+          'وعبارتها «الذي يُدعى المسيح» هي بالضبط ما يصف به كاتب يهودي غير مسيحي يسوع: فهي تذكر ما كان يُدعى به دون أن تعترف به. والنساخ الذين أعادوا صياغة فقرة لم يخلقوا بذلك الأخرى.',
         ],
       },
       limits: {
@@ -320,12 +322,12 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'Taken together, the outside sources give a modest but real result. Within about a century, writers who owed nothing to the Church knew that Christians took their name from Christus, that he had been executed under Pilate, that he had a brother James, and that his followers worshipped him. That is consistent with the Christian account at its most basic points.',
-        'They also leave a great deal untouched. They give no independent confirmation of his teaching, of miracles, or of resurrection, and they do not contradict them either. Those matters are for the New Testament documents, read as ancient texts, and for other articles.',
+        'Taken together, the outside sources give a real and valuable result. Within about a century, writers who owed nothing to the Church knew that Christians took their name from Christus, that He had been executed under Pilate, that He had a brother James, and that His followers worshipped Him. This matches the Christian account at its foundation.',
+        'They are not meant to carry more than that. His teaching, His miracles and His resurrection are known through the New Testament, the testimony of those who were with Him, and these outside writers, even the hostile ones, say nothing that contradicts it.',
       ],
       ar: [
-        'تعطي المصادر الخارجية مجتمعةً نتيجة متواضعة لكنها حقيقية. ففي غضون قرن تقريبًا عرف كتّاب لا فضل للكنيسة عليهم أن المسيحيين يأخذون اسمهم من «كرستوس»، وأنه أُعدم في ولاية بيلاطس، وأن له أخًا اسمه يعقوب، وأن أتباعه عبدوه. وهذا يتسق مع الرواية المسيحية في أبسط نقاطها.',
-        'وتترك هذه المصادر أشياء كثيرة دون مساس. فلا تؤكد بشكل مستقل تعليمه ولا معجزاته ولا قيامته، ولا تناقضها كذلك. وتلك مسائل لوثائق العهد الجديد حين تُقرأ نصوصًا قديمة، ولمقالات أخرى.',
+        'تعطي المصادر الخارجية مجتمعةً نتيجة حقيقية وثمينة. ففي غضون قرن تقريبًا عرف كتّاب لا فضل للكنيسة عليهم أن المسيحيين يأخذون اسمهم من «كرستوس»، وأنه أُعدم في ولاية بيلاطس، وأن له أخًا اسمه يعقوب، وأن أتباعه عبدوه. وهذا يطابق الرواية المسيحية في أساسها.',
+        'وليس المقصود منها أن تحمل أكثر من ذلك. فتعليمه ومعجزاته وقيامته تُعرف من العهد الجديد، شهادة الذين كانوا معه، ولا يقول هؤلاء الكتّاب الخارجيون، حتى المعادون منهم، شيئًا يناقضها.',
       ],
     },
     theological: {
@@ -347,8 +349,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'The outside sources establish that Christians took their name from a man executed under Pilate, that he had a brother called James, and that his followers worshipped him. They do not establish anything about what he taught or did, and none of them is an eyewitness. They are useful because they were written by people who were not Christians, not because they are many or early.',
-    ar: 'تثبت المصادر الخارجية أن المسيحيين أخذوا اسمهم من رجل أُعدم في ولاية بيلاطس، وأن له أخًا اسمه يعقوب، وأن أتباعه عبدوه. ولا تثبت شيئًا عما علّم أو فعل، ولا يُعدّ أيٌّ منها شاهد عيان. وتنفع لأن كاتبيها ليسوا مسيحيين، لا لأنها كثيرة أو مبكرة.',
+    en: 'Writers who were not Christians, and some who scorned the faith, confirm that Christians took their name from Christ, who was crucified under Pontius Pilate; that He had a brother called James; and that His followers worshipped Him as divine. Their witness is valuable precisely because it comes from outside. It agrees with the apostolic witness, through which the Church knows what the Lord taught and did.',
+    ar: 'يؤكد كتّاب غير مسيحيين، وبعضهم ازدرى الإيمان، أن المسيحيين أخذوا اسمهم من المسيح الذي صُلب في ولاية بيلاطس البنطي، وأن له أخًا اسمه يعقوب، وأن أتباعه عبدوه إلهًا. وشهادتهم ثمينة لأنها تأتي من الخارج تحديدًا. وهي تتفق مع شهادة الرسل التي تعرف الكنيسة من خلالها ما علّمه الرب وما فعله.',
   },
   furtherReading: ['S07', 'S09', 'S01', 'S04', 'S08'],
   related: ['did-jesus-exist', 'jesus-executed-under-pilate', 'who-wrote-the-gospels', 'gospels-as-eyewitness'],

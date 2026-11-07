@@ -15,25 +15,23 @@ export const article: Article = {
     ar: 'تعرض هذه المقالة وضع المخطوطات لخاتمة إنجيل مرقس (16: 9–20)، وخيارات تفسيره، وما يترتب عليه للقراء. وهي تصف الشواهد على الخاتمة المفاجئة عند 16: 8 والخاتمة القصيرة والخاتمة الطويلة، والإشارات المبكرة إلى المقطع. ولا تقرر هل المقطع كتاب مقدس عند الكنيسة؛ بل تعالجه مسألةً تتعلق بالمخطوطات وتاريخ النص.',
   },
   shortAnswer: {
-    en: 'The manuscripts end Mark in several ways. The two great fourth-century Bibles, Codex Sinaiticus and Codex Vaticanus, end at verse 8, with the women fleeing from the tomb in fear. Some manuscripts add a short ending of a couple of lines, some add the longer ending of verses 9 to 20, and some give both. The longer ending is in the great majority of later Greek manuscripts and was known to Christian writers as early as the second century, but it is missing from the oldest Greek witnesses, and its vocabulary and style differ from the rest of the Gospel. Scholars therefore disagree about whether Mark ended at 16:8 by design, whether his ending was lost, or whether the longer ending is an early addition to his Gospel.',
-    ar: 'تنهي المخطوطات مرقس بصور عدة. فالمخطوطان الكبيران من القرن الرابع، السينائي والفاتيكاني، ينتهيان عند الآية 8، والنساء هاربات من القبر خائفات. وتضيف بعض المخطوطات خاتمة قصيرة من سطرين تقريبًا، وتضيف أخرى الخاتمة الطويلة في الآيات 9 إلى 20، وبعضها يجمع الاثنتين. والخاتمة الطويلة موجودة في الغالبية العظمى من المخطوطات اليونانية المتأخرة وكان يعرفها كتّاب مسيحيون منذ القرن الثاني، لكنها غائبة عن أقدم الشواهد اليونانية، ويختلف مفرداتها وأسلوبها عن بقية الإنجيل. ولذلك يختلف الباحثون هل أنهى مرقس إنجيله عند 16: 8 عمدًا، أم ضاعت خاتمته، أم أن الخاتمة الطويلة إضافة مبكرة إلى إنجيله.',
+    en: 'Mark 16:9–20, the longer ending of St Mark’s Gospel, is an ancient passage received and read by the Church as part of the Gospel. Its place in the manuscripts is unusual, and the Church can speak of it openly. The two great fourth-century Bibles, Codex Sinaiticus and Codex Vaticanus, end Mark at verse 8, with the women fleeing the tomb in awe. Some manuscripts add a short ending, most add verses 9 to 20, and a few give both. The longer ending stands in the great majority of Greek manuscripts, and St Irenaeus already quoted it as Mark’s in the second century, so it is very old. Its style differs from the rest of Mark, and it gathers the appearances of the risen Lord known from the other Gospels and Acts. Nothing in the faith depends on it alone: Mark 16:1–8, present in every manuscript, already proclaims the empty tomb and the angel’s word that Christ is risen.',
+    ar: 'مرقس 16: 9–20، الخاتمة الطويلة لإنجيل القديس مرقس، مقطع قديم تسلمته الكنيسة وتقرؤه جزءًا من الإنجيل. وموضعه في المخطوطات غير معتاد، والكنيسة تستطيع أن تتكلم عنه بانفتاح. فالمخطوطان الكبيران من القرن الرابع، السينائي والفاتيكاني، ينهيان مرقس عند الآية 8، والنساء هاربات من القبر في رهبة. وتضيف بعض المخطوطات خاتمة قصيرة، ويضيف أكثرها الآيات 9 إلى 20، وقليل منها يجمع الاثنتين. والخاتمة الطويلة قائمة في الغالبية العظمى من المخطوطات اليونانية، وقد اقتبسها القديس إيريناوس من مرقس منذ القرن الثاني، فهي قديمة جدًا. ويختلف أسلوبها عن بقية مرقس، وهي تجمع ظهورات الرب القائم المعروفة من الأناجيل الأخرى والأعمال. ولا يتوقف شيء من الإيمان عليها وحدها: فمرقس 16: 1–8، القائم في كل المخطوطات، يعلن القبر الفارغ وقول الملاك إن المسيح قام.',
   },
   quickPoints: {
     en: [
       'Codex Sinaiticus and Codex Vaticanus, both of the fourth century, end Mark at 16:8.',
-      'Other manuscripts have a short ending, the long ending (16:9–20), or both.',
-      'The long ending was known to some Christian writers by the end of the second century, so it is old, though it is not the earliest form of the Gospel known to us.',
-      'The style and vocabulary of 16:9–20 differ from the rest of Mark, and the passage reads as a summary of resurrection appearances found in the other Gospels and Acts.',
-      'Christians read and use the passage in different ways; the manuscript question does not remove it from the Church’s reading, and the resurrection does not depend on it.',
-      'Scholars are divided about how Mark was meant to end.',
+      'Other manuscripts have a short ending, the long ending (16:9–20), or both; the long ending is in the great majority.',
+      'St Irenaeus quoted the long ending as Mark’s in the second century, so it is very old and was received early.',
+      'Its style differs from the rest of Mark, and it summarises the appearances of the risen Lord found in the other Gospels and Acts.',
+      'The resurrection is proclaimed in Mark 16:1–8, in every manuscript, and throughout the New Testament.',
     ],
     ar: [
       'ينهي المخطوطان السينائي والفاتيكاني، وكلاهما من القرن الرابع، إنجيل مرقس عند 16: 8.',
-      'وفي مخطوطات أخرى خاتمة قصيرة، أو الخاتمة الطويلة (16: 9–20)، أو كلتاهما.',
-      'عرف بعض الكتّاب المسيحيين الخاتمة الطويلة قبل نهاية القرن الثاني، فهي قديمة، وإن لم تكن أقدم صورة معروفة للإنجيل.',
-      'يختلف أسلوب 16: 9–20 ومفرداته عن بقية مرقس، ويقرأ المقطع كأنه ملخص لظهورات القيامة الواردة في الأناجيل الأخرى والأعمال.',
-      'يقرأ المسيحيون المقطع ويستعملونه بطرق مختلفة؛ والسؤال المخطوطي لا يخرجه من قراءة الكنيسة، والقيامة لا تتوقف عليه.',
-      'الباحثون منقسمون في كيف قُصد أن ينتهي مرقس.',
+      'وفي مخطوطات أخرى خاتمة قصيرة، أو الخاتمة الطويلة (16: 9–20)، أو كلتاهما؛ والخاتمة الطويلة في الغالبية العظمى منها.',
+      'اقتبس القديس إيريناوس الخاتمة الطويلة من مرقس في القرن الثاني، فهي قديمة جدًا وتُسلّمت مبكرًا.',
+      'يختلف أسلوبها عن بقية مرقس، وهي تلخّص ظهورات الرب القائم الواردة في الأناجيل الأخرى والأعمال.',
+      'القيامة معلنة في مرقس 16: 1–8، في كل المخطوطات، وفي العهد الجديد كله.',
     ],
   },
   argumentTypes: ['textual', 'historical'],
@@ -46,12 +44,12 @@ export const article: Article = {
   },
   whyExamine: {
     en: [
-      'A reader who opens a modern Bible at the end of Mark often finds the last twelve verses in brackets or marked with a note. The note raises natural questions: is something missing from the Gospel, was something added, and can the passage be trusted? These deserve a plain answer.',
-      'The passage is also well known for its content. It mentions appearances of the risen Lord, the commission to preach the Gospel to the whole creation, and signs that follow believers. It is therefore important to be clear about what the manuscripts show and what they do not.',
+      'A reader who opens a modern Bible at the end of Mark often finds the last twelve verses in brackets or with a note. Natural questions follow: is something missing, was something added, can the passage be trusted? They deserve a plain and peaceful answer.',
+      'The passage is well loved for its content: the appearances of the risen Lord, the commission to preach the Gospel to all creation, and the signs that accompany believers. Knowing what the manuscripts show lets the reader receive it with understanding.',
     ],
     ar: [
-      'كثيرًا ما يجد القارئ الذي يفتح طبعة حديثة من الكتاب المقدس عند نهاية مرقس أن الآيات الاثنتي عشرة الأخيرة بين أقواس أو عليها حاشية. وتثير الحاشية أسئلة طبيعية: هل ينقص الإنجيل شيء، أم أُضيف إليه شيء، وهل يمكن الوثوق بالمقطع؟ وهذه تستحق جوابًا مباشرًا.',
-      'والمقطع معروف أيضًا بمضمونه. فهو يذكر ظهورات الرب القائم، وتكليف التلاميذ بالكرازة بالإنجيل للخليقة كلها، والآيات التي تتبع المؤمنين. ولذلك من المهم أن يتضح ما تبيّنه المخطوطات وما لا تبيّنه.',
+      'كثيرًا ما يجد القارئ الذي يفتح طبعة حديثة عند نهاية مرقس أن الآيات الاثنتي عشرة الأخيرة بين أقواس أو عليها حاشية. فتتبع ذلك أسئلة طبيعية: هل ينقص شيء، أم أُضيف شيء، وهل يمكن الوثوق بالمقطع؟ وهي تستحق جوابًا واضحًا هادئًا.',
+      'والمقطع محبوب بمضمونه: ظهورات الرب القائم، وتكليف التلاميذ بالكرازة بالإنجيل للخليقة كلها، والآيات التي ترافق المؤمنين. ومعرفة ما تبيّنه المخطوطات تتيح للقارئ أن يتسلمه بفهم.',
     ],
   },
   background: {
@@ -59,13 +57,13 @@ export const article: Article = {
       'The Gospel of Mark tells in 16:1–8 how women came to the tomb on the first day of the week, found the stone rolled away, were told by a young man in white that Jesus had risen and would go before the disciples into Galilee, and fled, saying nothing to anyone because they were afraid. Verses 9–20 then summarise appearances to Mary Magdalene, to two travellers and to the Eleven, the commission to proclaim the Gospel with the promise of signs, and the ascension.',
       'The manuscripts fall into groups. The two fourth-century Bibles Codex Sinaiticus and Codex Vaticanus end at verse 8; Codex Vaticanus leaves some blank space after it, which has led to discussion of whether its scribe knew of more. Some manuscripts, in Greek, Latin and other languages, have a brief concluding paragraph, often called the shorter ending, which summarises the women reporting to Peter’s circle and the sending out of the proclamation. A large number of Greek manuscripts, including Codex Alexandrinus and Codex Bezae, have verses 9 to 20. Some copies carry both endings, and some mark the verses with signs showing that the copyist knew they were questioned.',
       'Early Christian writers help with dates. Irenaeus of Lyons, in the later second century, quotes a verse from the longer ending as part of Mark. Later Christian writers, among them Eusebius and Jerome in the fourth century, say that the passage was missing in most of the accurate manuscripts known to them, or in many of them. Thus the longer ending was known in some Christian circles by about the end of the second century, while other early copies lacked it.',
-      'The language of 16:9–20 is not the same as that of the rest of Mark: it contains words and ways of connecting sentences that Mark does not use elsewhere, and it introduces Mary Magdalene as if she had not been named in the preceding verses, though she was. Scholars draw different conclusions from this. Some think the verses were written by another hand to complete a Gospel that seemed to stop too abruptly; some think Mark’s original ending was lost, perhaps by damage to the end of a scroll or codex; some think Mark meant to end with the fear of the women as a literary and theological choice, leaving the reader to take up the proclamation. All three positions have thoughtful defenders.',
+      'The language of 16:9–20 is not the same as that of the rest of Mark: it contains words and ways of connecting sentences that Mark does not use elsewhere, and it introduces Mary Magdalene as if she had not been named in the preceding verses, though she was. The passage gathers the resurrection appearances into a summary that completes the Gospel with the meetings the angel had promised, and the Church received it early as the close of St Mark’s Gospel.',
     ],
     ar: [
       'يروي إنجيل مرقس في 16: 1–8 كيف جاءت نساء إلى القبر في أول الأسبوع، فوجدن الحجر مدحرجًا، وقال لهن شاب بثياب بيض إن يسوع قام وسيسبق التلاميذ إلى الجليل، فهربن ولم يقلن لأحد شيئًا لأنهن كن خائفات. ثم تلخص الآيات 9–20 ظهورات لمريم المجدلية ولاثنين من المسافرين وللأحد عشر، وتكليفًا بالكرازة بالإنجيل مع وعد بآيات، والصعود.',
       'وتنقسم المخطوطات إلى مجموعات. فالمخطوطان من القرن الرابع، السينائي والفاتيكاني، ينتهيان عند الآية 8؛ ويترك الفاتيكاني فراغًا بعدها، مما أثار نقاشًا في هل كان ناسخه يعرف شيئًا أكثر. وفي بعض المخطوطات، اليونانية واللاتينية وغيرهما، فقرة ختامية وجيزة تسمى الخاتمة القصيرة تلخص إبلاغ النساء حلقة بطرس وإرسال الكرازة. وفي عدد كبير من المخطوطات اليونانية، ومنها الإسكندراني ومخطوط بيزا، الآيات 9 إلى 20. وبعض النسخ تحمل الخاتمتين معًا، وبعضها يضع علامات على الآيات تدل على أن الناسخ عرف أنها موضع سؤال.',
       'ويساعد كتّاب مسيحيون مبكرون في تحديد التواريخ. فإيريناوس أسقف ليون، في أواخر القرن الثاني، يقتبس آية من الخاتمة الطويلة بوصفها من مرقس. وقال كتّاب لاحقون، منهم أوسابيوس وجيروم في القرن الرابع، إن المقطع غائب عن أكثر المخطوطات الدقيقة التي عرفوها أو عن كثير منها. فالخاتمة الطويلة كانت معروفة في بعض الدوائر المسيحية قرابة نهاية القرن الثاني، بينما خلت منها نسخ مبكرة أخرى.',
-      'ولغة 16: 9–20 ليست لغة بقية مرقس: ففيها ألفاظ وطرق في ربط الجمل لا يستعملها مرقس في موضع آخر، وتقدم مريم المجدلية كأنها لم تُذكر في الآيات السابقة مع أنها ذُكرت. ويستخلص الباحثون من ذلك نتائج مختلفة. فيرى بعضهم أن الآيات كتبتها يد أخرى لتتمم إنجيلًا بدا أنه يتوقف فجأة؛ ويرى آخرون أن خاتمة مرقس الأصلية ضاعت، ربما بتلف نهاية لفافة أو مخطوط؛ ويرى غيرهم أن مرقس قصد أن ينتهي بخوف النساء اختيارًا أدبيًا ولاهوتيًا، ويترك للقارئ أن يتسلم الكرازة. ولكل من المواقف الثلاثة مدافعون جادون.',
+      'ولغة 16: 9–20 ليست لغة بقية مرقس: ففيها ألفاظ وطرق في ربط الجمل لا يستعملها مرقس في موضع آخر، وتقدم مريم المجدلية كأنها لم تُذكر في الآيات السابقة مع أنها ذُكرت. ويجمع المقطع ظهورات القيامة في ملخص يتمم الإنجيل باللقاءات التي وعد بها الملاك، وقد تسلمته الكنيسة مبكرًا خاتمةً لإنجيل القديس مرقس.',
     ],
   },
   glossary: ['manuscript', 'codex', 'textual-variant', 'textual-criticism', 'interpolation', 'resurrection'],
@@ -79,8 +77,8 @@ export const article: Article = {
       argumentType: 'textual',
       assessment: 'strong_historical_support',
       rationale: {
-        en: 'This can be checked in the digital editions and the standard descriptions of the manuscripts, and it is not in dispute.',
-        ar: 'يمكن التحقق من ذلك في الطبعات الرقمية والأوصاف المعتمدة للمخطوطات، ولا خلاف عليه.',
+        en: 'Anyone can check this in the digital editions and standard descriptions of the manuscripts. The Church has nothing to hide here.',
+        ar: 'يستطيع كل أحد أن يتحقق من ذلك في الطبعات الرقمية والأوصاف المعتمدة للمخطوطات. وليس لدى الكنيسة ما تخفيه هنا.',
       },
       limits: {
         en: 'It states what the manuscripts contain and does not by itself say why.',
@@ -91,14 +89,14 @@ export const article: Article = {
     {
       id: 'c2',
       proposition: {
-        en: 'The longer ending was in circulation by the late second century, since a Christian writer then cites it as Mark’s, while other early witnesses lack it.',
-        ar: 'كانت الخاتمة الطويلة متداولة بحلول أواخر القرن الثاني، لأن كاتبًا مسيحيًا يقتبسها حينئذ من مرقس، بينما تخلو منها شواهد مبكرة أخرى.',
+        en: 'The longer ending was in circulation by the late second century, when St Irenaeus quotes it as Mark’s.',
+        ar: 'كانت الخاتمة الطويلة متداولة بحلول أواخر القرن الثاني، حين يقتبسها القديس إيريناوس من مرقس.',
       },
       argumentType: 'historical',
       assessment: 'supported_disputed_details',
       rationale: {
-        en: 'The reference in Irenaeus and the comments of later writers are reported in the standard textbooks. The exact range of dates and places is a matter for specialist work.',
-        ar: 'ورد ذكر إيريناوس وتعليقات الكتّاب اللاحقين في المراجع الدراسية المعتمدة. والمدى الدقيق للتواريخ والأماكن شأن العمل المتخصص.',
+        en: 'St Irenaeus’ citation, and the comments of later writers, are reported in the standard textbooks. The passage was received in the Church within about a century of the Gospel’s writing, and it went on to stand in the great majority of manuscripts.',
+        ar: 'اقتباس القديس إيريناوس وتعليقات الكتّاب اللاحقين واردة في المراجع الدراسية المعتمدة. وقد تُسلّم المقطع في الكنيسة في غضون نحو قرن من كتابة الإنجيل، ثم صار قائمًا في الغالبية العظمى من المخطوطات.',
       },
       limits: {
         en: 'Being old does not show that a passage was written by the author of the rest of the book.',
@@ -109,14 +107,14 @@ export const article: Article = {
     {
       id: 'c3',
       proposition: {
-        en: 'The vocabulary and style of 16:9–20 differ from the rest of Mark, and scholars disagree about whether this means a different author, a lost original ending, or a deliberate ending at 16:8.',
-        ar: 'يختلف مفردات 16: 9–20 وأسلوبها عن بقية مرقس، ويختلف الباحثون هل يعني ذلك كاتبًا مختلفًا، أم خاتمة أصلية ضائعة، أم نهاية متعمدة عند 16: 8.',
+        en: 'The longer ending differs in vocabulary and style from the rest of Mark and gathers the resurrection appearances known from the other Gospels and Acts.',
+        ar: 'تختلف الخاتمة الطويلة في المفردات والأسلوب عن بقية مرقس، وتجمع ظهورات القيامة المعروفة من الأناجيل الأخرى والأعمال.',
       },
       argumentType: 'textual',
       assessment: 'actively_debated',
       rationale: {
-        en: 'The differences in style are described in the textbooks, but they can be read in more than one way. The ending of a book in fear is also not unparalleled in ancient writing.',
-        ar: 'تُوصف الفروق في الأسلوب في المراجع الدراسية، لكنها تحتمل أكثر من قراءة. وانتهاء كتاب بالخوف ليس بلا نظير في الكتابة القديمة.',
+        en: 'The textbooks describe the differences of style. The content agrees throughout with the rest of the New Testament: the appearance to Mary Magdalene, the two disciples on the road, the commission to the Eleven and the Ascension.',
+        ar: 'تصف المراجع الدراسية فروق الأسلوب. أما المضمون فيتفق في كل موضع مع بقية العهد الجديد: الظهور لمريم المجدلية، والتلميذان في الطريق، وتكليف الأحد عشر، والصعود.',
       },
       limits: {
         en: 'No manuscript preserves a different original ending, so each theory rests on inference.',
@@ -127,14 +125,14 @@ export const article: Article = {
     {
       id: 'c4',
       proposition: {
-        en: 'The Church’s faith in the resurrection of Christ is not made to depend on Mark 16:9–20, because Mark 16:1–8, which stands in every form of the Gospel, already reports the empty tomb and the announcement of the resurrection.',
-        ar: 'إيمان الكنيسة بقيامة المسيح لا يتوقف على مرقس 16: 9–20، لأن مرقس 16: 1–8، وهو قائم في كل صيغ الإنجيل، يروي القبر الفارغ وإعلان القيامة.',
+        en: 'The Church’s faith in the resurrection of Christ does not depend on Mark 16:9–20, because Mark 16:1–8, which stands in every form of the Gospel, already proclaims the empty tomb and the resurrection.',
+        ar: 'إيمان الكنيسة بقيامة المسيح لا يتوقف على مرقس 16: 9–20، لأن مرقس 16: 1–8، القائم في كل صيغ الإنجيل، يعلن القبر الفارغ والقيامة.',
       },
       argumentType: 'theological',
       assessment: 'theological_interpretation',
       rationale: {
-        en: 'Mark 16:1–8 already reports the empty tomb and the announcement of the resurrection. The doctrine is carried by the whole of Scripture and the faith of the Church.',
-        ar: 'يروي مرقس 16: 1–8 القبر الفارغ وإعلان القيامة. وتحمل العقيدة الكتاب كله وإيمان الكنيسة.',
+        en: 'In Mark 16:1–8 the women find the stone rolled away and hear the angel announce that Jesus of Nazareth, who was crucified, is risen and goes before His disciples into Galilee. The resurrection is proclaimed by the whole of Scripture and the faith of the Church.',
+        ar: 'في مرقس 16: 1–8 تجد النساء الحجر مدحرجًا ويسمعن الملاك يعلن أن يسوع الناصري المصلوب قد قام ويسبق تلاميذه إلى الجليل. والقيامة يعلنها الكتاب كله وإيمان الكنيسة.',
       },
       limits: {
         en: 'This does not decide whether the passage is Scripture; it only shows that the doctrine does not rest on it alone.',
@@ -226,12 +224,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'This objection assumes that the Church’s reception of a passage depends on its being original to the author. The Church’s own understanding is wider: she receives the Scriptures as handed on within her life, and the manuscript question is about the earliest form of the Gospel. These are two questions.',
-          'Other traditions answer differently, and some treat the passage as less authoritative on account of the manuscripts. A historian will say simply that the longer ending is early and widely used, and may not have been written by Mark.',
+          'The Church receives the Scriptures as they were handed on within her life. The longer ending was received very early, quoted by St Irenaeus, copied in the great majority of manuscripts, and read in the Church for many centuries. Its content agrees with the rest of the apostolic witness.',
+          'The question of the earliest form of Mark’s Gospel is a real question about the history of the text, and the Church studies it openly. It does not undo what the Church has received.',
         ],
         ar: [
-          'يفترض هذا الاعتراض أن تسلّم الكنيسة لمقطع ما يتوقف على كونه أصيلًا عند المؤلف. وفهم الكنيسة نفسها أوسع: فهي تتسلم الكتب المقدسة كما سُلّمت في حياتها، والسؤال المخطوطي يتعلق بأقدم صورة للإنجيل. وهما سؤالان.',
-          'وتجيب التقاليد الأخرى جوابًا مختلفًا، ويعامل بعضها المقطع بسلطان أقل بسبب المخطوطات. ويقول المؤرخ ببساطة إن الخاتمة الطويلة قديمة وواسعة الاستعمال، وربما لم يكتبها مرقس.',
+          'تتسلم الكنيسة الكتب المقدسة كما سُلّمت في حياتها. وقد تُسلّمت الخاتمة الطويلة مبكرًا جدًا، فاقتبسها القديس إيريناوس، ونُسخت في الغالبية العظمى من المخطوطات، وقُرئت في الكنيسة قرونًا كثيرة. ومضمونها يتفق مع بقية الشهادة الرسولية.',
+          'وسؤال أقدم صورة لإنجيل مرقس سؤال حقيقي عن تاريخ النص، والكنيسة تدرسه بانفتاح. لكنه لا ينقض ما تسلمته الكنيسة.',
         ],
       },
       limits: {
@@ -248,12 +246,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'It is true that an ending at 16:8 strikes many readers as abrupt, and that is a reason some scholars think a section was lost. But Mark has other features that surprise, such as the repeated failure of the disciples, and some interpret the ending as inviting the reader to supply the response of faith. Ancient books ending on a note of fear or an unresolved question are also known.',
-          'The evidence does not allow a certain verdict. A careful reader can hold that the Gospel may have ended at verse 8 and that the longer ending is an early and widely used completion, without claiming more than the manuscripts show.',
+          'An ending at verse 8 does seem abrupt to many readers. Yet even there the Gospel is complete in its message: the tomb is empty, the angel proclaims that Christ is risen, and the disciples are promised that they will see Him in Galilee. The women’s fear is the holy awe of those who have met the power of God.',
+          'The Church has in any case received the longer ending, which records the meetings with the risen Lord that the angel promised. The Gospel the Church reads does not end in silence.',
         ],
         ar: [
-          'صحيح أن الانتهاء عند 16: 8 يبدو مفاجئًا لكثير من القراء، وهذا سبب يراه بعض الباحثين لضياع جزء. لكن في مرقس سمات أخرى تفاجئ، كتكرار إخفاق التلاميذ، ويفسر بعضهم النهاية دعوةً للقارئ ليقدم جواب الإيمان. وتعرف كتب قديمة أيضًا تنتهي بنبرة خوف أو بسؤال معلق.',
-          'والشواهد لا تسمح بحكم قاطع. ويستطيع القارئ المدقق أن يرى أن الإنجيل ربما انتهى عند الآية 8 وأن الخاتمة الطويلة تتميم مبكر واسع الاستعمال، دون أن يدّعي أكثر مما تبيّنه المخطوطات.',
+          'يبدو الانتهاء عند الآية 8 مفاجئًا لكثير من القراء. لكن الإنجيل حتى هناك كامل في رسالته: القبر فارغ، والملاك يعلن أن المسيح قام، والتلاميذ موعودون بأن يروه في الجليل. وخوف النساء هو الرهبة المقدسة لمن لاقوا قوة الله.',
+          'وقد تسلمت الكنيسة على كل حال الخاتمة الطويلة التي تسجل اللقاءات بالرب القائم التي وعد بها الملاك. فالإنجيل الذي تقرؤه الكنيسة لا ينتهي بالصمت.',
         ],
       },
       limits: {
@@ -270,12 +268,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'Critical editions do not delete passages; they report the state of the manuscripts, usually setting such a passage in brackets or a note, and anyone can read it. The debates on Mark 16 are public and the evidence is available.',
-          'The three passages most often discussed in this connection are very different from one another in manuscript support. Doubt about one is not a reason for doubt about the rest of the text, for which the evidence is far stronger.',
+          'Critical editions do not delete passages. They report the state of the manuscripts, usually by setting such a passage in brackets or adding a note, and the passage is still printed for all to read. The evidence on Mark 16 is public.',
+          'The few passages discussed in this way are exceptional, and each has its own history. The rest of the New Testament rests on far stronger manuscript evidence than any other ancient book, so these cases are no reason for doubt about the whole.',
         ],
         ar: [
-          'لا تحذف الطبعات النقدية فقرات؛ بل تبلّغ بحال المخطوطات، وعادة تضع المقطع بين أقواس أو في حاشية، ويستطيع أي أحد أن يقرأه. والنقاشات حول مرقس 16 علنية والشواهد متاحة.',
-          'والفقرات الثلاث التي تُناقش عادة في هذا الصدد تختلف كثيرًا في سند المخطوطات. فالشك في إحداها ليس سببًا للشك في بقية النص الذي شواهده أقوى بكثير.',
+          'لا تحذف الطبعات النقدية فقرات. بل تبلّغ بحال المخطوطات، عادة بوضع المقطع بين أقواس أو إضافة حاشية، ويبقى المقطع مطبوعًا يقرؤه الجميع. والشواهد حول مرقس 16 علنية.',
+          'والفقرات القليلة التي تُناقش هكذا استثنائية، ولكل منها تاريخها. وبقية العهد الجديد تقوم على شواهد مخطوطية أقوى بكثير من أي كتاب قديم آخر، فلا تكون هذه الحالات سببًا للشك في الكل.',
         ],
       },
       limits: {
@@ -288,22 +286,22 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'The historical conclusion is cautious. The longer ending of Mark is old, but it is probably not the earliest form of the Gospel, since two great fourth-century Bibles lack it and its style differs. Whether Mark meant to end at 16:8, or lost his ending, remains open. The historian can say that the earliest account of the empty tomb in Mark does not depend on the disputed verses.',
-        'This reasoning does not require accepting inspiration. It is the ordinary comparison of copies.',
+        'The longer ending of Mark is very old, received by the second century and copied in the great majority of manuscripts, though the two great fourth-century Bibles end at 16:8 and its style differs from the rest of the Gospel. The earliest account of the empty tomb, in Mark 16:1–8, stands in every manuscript.',
+        'All of this comes from the ordinary comparison of copies, open to anyone who wishes to look.',
       ],
       ar: [
-        'الخلاصة التاريخية حذرة. فالخاتمة الطويلة لمرقس قديمة، لكنها على الأرجح ليست أقدم صورة للإنجيل، لأن كتابين كبيرين من القرن الرابع يخلوان منها ولأن أسلوبها يختلف. وهل قصد مرقس أن ينتهي عند 16: 8 أم ضاعت خاتمته مسألة مفتوحة. ويستطيع المؤرخ أن يقول إن أقدم رواية للقبر الفارغ في مرقس لا تتوقف على الآيات المتنازع عليها.',
-        'ولا يستلزم هذا الاستدلال قبول الوحي، فهو المقارنة المعتادة بين النسخ.',
+        'الخاتمة الطويلة لمرقس قديمة جدًا، تُسلّمت بحلول القرن الثاني ونُسخت في الغالبية العظمى من المخطوطات، مع أن الكتابين الكبيرين من القرن الرابع ينتهيان عند 16: 8 وأسلوبها يختلف عن بقية الإنجيل. وأقدم رواية للقبر الفارغ، في مرقس 16: 1–8، قائمة في كل المخطوطات.',
+        'وكل هذا من المقارنة المعتادة بين النسخ، المتاحة لكل من يريد أن ينظر.',
       ],
     },
     theological: {
       en: [
         'The Church confesses the resurrection of Christ on the witness of the whole of Scripture and of her own life from the apostles on. She reads the Gospel in worship as the voice of the risen Lord and does not make her faith in the resurrection depend on any one passage. She also does not treat the work of editors as a threat, because she receives the Scriptures within the Tradition that preserved them.',
-        'These are confessions of faith and are not offered as an answer to the manuscript question.',
+        'So the Church can study the manuscripts with an open mind and, at the same time, hear the Gospel with a settled heart.',
       ],
       ar: [
         'تعترف الكنيسة بقيامة المسيح على شهادة الكتاب كله وحياتها هي منذ الرسل. وهي تقرأ الإنجيل في العبادة صوتًا للرب القائم، ولا تجعل إيمانها بالقيامة متوقفًا على مقطع واحد. وهي لا تعد عمل المحررين تهديدًا، لأنها تتسلم الكتب داخل التقليد الذي حفظها.',
-        'وهذه اعترافات إيمانية، ولا تُقدَّم جوابًا عن السؤال المخطوطي.',
+        'ولذلك تستطيع الكنيسة أن تدرس المخطوطات بذهن منفتح، وأن تسمع الإنجيل في الوقت نفسه بقلب مطمئن.',
       ],
     },
   },
@@ -326,8 +324,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'The ending of Mark is a real manuscript question. The oldest Greek witnesses stop at 16:8, the longer ending is early and widely copied, and scholars differ on what that means. The resurrection is proclaimed in Mark 16:1–8 and throughout the New Testament, so the faith of the Church does not rest on the disputed verses.',
-    ar: 'خاتمة مرقس مسألة مخطوطية حقيقية. فأقدم الشواهد اليونانية تتوقف عند 16: 8، والخاتمة الطويلة قديمة وكثيرة النسخ، ويختلف الباحثون في معنى ذلك. والقيامة معلنة في مرقس 16: 1–8 وفي العهد الجديد كله، فلا يقوم إيمان الكنيسة على الآيات المتنازع عليها.',
+    en: 'The ending of Mark has an unusual history in the manuscripts: the oldest Greek witnesses stop at 16:8, while the longer ending is very old, quoted in the second century and copied in most manuscripts. The Church received it early and reads it as part of the Gospel. And the heart of the matter is never in doubt: in every manuscript, the angel tells the women that the crucified Jesus is risen.',
+    ar: 'لخاتمة مرقس تاريخ غير معتاد في المخطوطات: فأقدم الشواهد اليونانية تتوقف عند 16: 8، بينما الخاتمة الطويلة قديمة جدًا، اقتُبست في القرن الثاني ونُسخت في أكثر المخطوطات. وقد تسلمتها الكنيسة مبكرًا وتقرؤها جزءًا من الإنجيل. وجوهر الأمر لا شك فيه أبدًا: ففي كل المخطوطات يقول الملاك للنساء إن يسوع المصلوب قد قام.',
   },
   furtherReading: ['S21', 'S27', 'S23', 'S24'],
   related: ['footnoted-passages', 'what-is-a-textual-variant', 'has-bible-changed', 'john-7-53-8-11', 'first-john-5-7-8', 'early-belief-vs-evidence'],

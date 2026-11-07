@@ -15,8 +15,8 @@ export const article: Article = {
     ar: 'يعرض هذا المقال ما تقوله عقيدة الثالوث وما لا تقوله، ويبيّن أين تجدها الكنيسة في الكتاب والعبادة، ويجيب عن الاتهام بأنها تناقض أو استعارة وثنية. ولا يحاول إثبات العقيدة بالعقل وحده، ولا يتناول المسائل المسيحانية المتصلة بخلقيدونية.',
   },
   shortAnswer: {
-    en: 'The Church confesses one God in three persons, the Father, the Son and the Holy Spirit: one divine being, not three gods, and three real persons, not three roles of one person. The Son is eternally begotten of the Father and the Holy Spirit eternally proceeds from the Father. The doctrine does not say that one equals three in the same respect; it says that God is one in essence and three in persons. The Church holds it as revealed in the history of salvation and as the faith of baptism, and it admits that it is a mystery that reason cannot exhaust.',
-    ar: 'تعترف الكنيسة بإله واحد في ثلاثة أقانيم: الآب والابن والروح القدس؛ جوهر إلهي واحد لا ثلاثة آلهة، وثلاثة أقانيم حقيقية لا ثلاثة أدوار لشخص واحد. والابن مولود من الآب منذ الأزل، والروح القدس منبثق من الآب منذ الأزل. ولا تقول العقيدة إن الواحد يساوي ثلاثة من الجهة نفسها؛ بل تقول إن الله واحد في الجوهر وثلاثة في الأقانيم. وتتمسك بها الكنيسة بوصفها معلنة في تاريخ الخلاص وإيمان المعمودية، وتقر بأنها سر لا يستوعبه العقل.',
+    en: 'The Church confesses one God in three persons, the Father, the Son and the Holy Spirit: one divine being, not three gods, and three real persons, not three roles of one person. The Son is eternally begotten of the Father and the Holy Spirit eternally proceeds from the Father. The doctrine does not say that one equals three in the same respect; it says that God is one in essence and three in persons. God revealed Himself so in the history of salvation: the Father sent the Son, the Son became man, and the Spirit was poured out. This is the faith into which every Christian is baptised, a mystery reason cannot exhaust and the Church worships with joy.',
+    ar: 'تعترف الكنيسة بإله واحد في ثلاثة أقانيم: الآب والابن والروح القدس؛ جوهر إلهي واحد لا ثلاثة آلهة، وثلاثة أقانيم حقيقية لا ثلاثة أدوار لشخص واحد. والابن مولود من الآب منذ الأزل، والروح القدس منبثق من الآب منذ الأزل. ولا تقول العقيدة إن الواحد يساوي ثلاثة من الجهة نفسها؛ بل تقول إن الله واحد في الجوهر وثلاثة في الأقانيم. وقد أعلن الله ذاته هكذا في تاريخ الخلاص: الآب أرسل الابن، والابن صار إنسانًا، والروح انسكب. وهذا هو الإيمان الذي يعتمد عليه كل مسيحي، سرٌّ لا يستوعبه العقل وتعبده الكنيسة بفرح.',
   },
   quickPoints: {
     en: [
@@ -47,23 +47,23 @@ export const article: Article = {
 
   whyExamine: {
     en: [
-      'The Trinity is the doctrine most often misunderstood, by those who reject it and sometimes by those who profess it. Muslims, Jews, Unitarian Christians and sceptics often hear it as a claim of three gods or of a mathematical absurdity. A fair hearing begins with what the Church actually says.',
+      'The Trinity is the doctrine most often misunderstood, by those who reject it and sometimes by those who profess it. Muslims, Jews, Unitarian Christians and sceptics often hear it as a claim of three gods or of a mathematical absurdity. Hearing what the Church actually says clears away these misunderstandings.',
       'It also matters because the doctrine shapes everything in Christian prayer, baptism and worship. Understanding it explains why the Church teaches that the incarnation and the cross are acts of God and not only of a creature.',
     ],
     ar: [
-      'الثالوث أكثر العقائد التي يُساء فهمها، من رافضيها وأحيانًا من معتنقيها. فكثيرًا ما يسمعه المسلمون واليهود والمسيحيون الموحّدون والمتشككون دعوى ثلاثة آلهة أو سخافة رياضية. والإنصاف يبدأ بما تقوله الكنيسة فعلًا.',
+      'الثالوث أكثر العقائد التي يُساء فهمها، من رافضيها وأحيانًا من معتنقيها. فكثيرًا ما يسمعه المسلمون واليهود والمسيحيون الموحّدون والمتشككون دعوى ثلاثة آلهة أو سخافة رياضية. وسماع ما تقوله الكنيسة فعلًا يزيل هذه الأفهام الخاطئة.',
       'وهي مهمة أيضًا لأن العقيدة تشكّل كل شيء في الصلاة والمعمودية والعبادة المسيحية. وفهمها يفسّر لماذا تعلّم الكنيسة أن التجسد والصليب فعلان لله لا لمخلوق فقط.',
     ],
   },
   background: {
     en: [
-      'Christians began as Jews who held that God is one. They also baptised in the name of the Father, the Son and the Holy Spirit, prayed to Christ, and spoke of the Spirit as God’s own presence. The doctrine of the Trinity is the Church’s attempt to say what these practices and texts imply.',
+      'Christians began as Jews who held that God is one. They also baptised in the name of the Father, the Son and the Holy Spirit, prayed to Christ, and spoke of the Spirit as God’s own presence. The doctrine of the Trinity is the Church’s confession of what these practices and texts teach.',
       'The main terms are these. Essence or substance (ousia) names what God is: the one divine being. Person or hypostasis (in Arabic, uqnum) names who is God: Father, Son and Spirit as distinct subjects of relation. The Church does not claim that these words describe God exactly; they mark limits against error.',
       'The Church excludes two errors. Modalism, associated with Sabellius, said that Father, Son and Spirit are one person who appears in three modes. Tritheism, or any teaching that makes three separate gods, breaks the unity. Arianism denied that the Son shares the Father’s essence, and was answered at Nicaea in 325; the divinity of the Holy Spirit was confessed more fully at Constantinople in 381.',
       'The Coptic Orthodox Church confesses that the Holy Spirit proceeds from the Father, in the words of the Creed of Constantinople, and does not add the Latin phrase “and the Son” that the Western churches later added. The relation between the traditions on this point is a separate question, and other churches state their position in their own terms.',
     ],
     ar: [
-      'بدأ المسيحيون يهودًا يرون أن الله واحد. وكانوا يعمّدون أيضًا باسم الآب والابن والروح القدس، ويصلّون إلى المسيح، ويتكلمون عن الروح حضورًا لله نفسه. وعقيدة الثالوث محاولة الكنيسة قول ما تتضمنه هذه الممارسات والنصوص.',
+      'بدأ المسيحيون يهودًا يرون أن الله واحد. وكانوا يعمّدون أيضًا باسم الآب والابن والروح القدس، ويصلّون إلى المسيح، ويتكلمون عن الروح حضورًا لله نفسه. وعقيدة الثالوث هي اعتراف الكنيسة بما تعلّمه هذه الممارسات والنصوص.',
       'والمصطلحات الرئيسية هي: الجوهر (أوسيا) يسمّي ما هو الله: الكيان الإلهي الواحد. والأقنوم (هيبوستاسيس) يسمّي من هو الله: الآب والابن والروح بوصفهم ذوات متمايزة في العلاقة. ولا تدّعي الكنيسة أن هذه الكلمات تصف الله وصفًا دقيقًا؛ فهي تضع حدودًا ضد الخطأ.',
       'وتستبعد الكنيسة خطأين. السابيلية، المنسوبة إلى سابيليوس، قالت إن الآب والابن والروح شخص واحد يظهر بأنماط ثلاثة. وتعدد الآلهة، أو أي تعليم يجعل ثلاثة آلهة منفصلين، يكسر الوحدانية. وأنكرت الآريوسية أن الابن يشارك الآب في الجوهر، وأُجيب عنها في نيقية سنة ٣٢٥م؛ واعتُرف بلاهوت الروح القدس على نحو أوفى في القسطنطينية سنة ٣٨١م.',
       'وتعترف الكنيسة القبطية الأرثوذكسية بأن الروح القدس منبثق من الآب، بألفاظ قانون إيمان القسطنطينية، ولا تضيف العبارة اللاتينية «والابن» التي أضافتها الكنائس الغربية لاحقًا. والعلاقة بين التقاليد في هذه النقطة مسألة مستقلة، وتعرض الكنائس الأخرى موقفها بمصطلحاتها.',
@@ -99,8 +99,8 @@ export const article: Article = {
       argumentType: 'textual',
       assessment: 'supported_disputed_details',
       rationale: {
-        en: 'The formulas are in the texts and are not disputed. Whether they imply the later doctrine, or only an early pattern from which it developed, is disputed.',
-        ar: 'الصيغ موجودة في النصوص ولا يُختلف فيها. أما هل تتضمن العقيدة اللاحقة أو نمطًا مبكرًا نمت منه فمختلف فيه.',
+        en: 'The Lord sends His apostles to baptise in the one name of the Father, the Son and the Holy Spirit (Matthew 28:19), and St Paul blesses in the grace of Christ, the love of God and the fellowship of the Spirit (2 Corinthians 13:14). The doctrine of the Church says in exact words what these texts already confess.',
+        ar: 'يرسل الرب رسله ليعمّدوا باسم واحد للآب والابن والروح القدس (متى ٢٨: ١٩)، ويبارك القديس بولس بنعمة المسيح ومحبة الله وشركة الروح (٢ كورنثوس ١٣: ١٤). وعقيدة الكنيسة تقول بألفاظ دقيقة ما تعترف به هذه النصوص أصلًا.',
       },
       limits: {
         en: 'The texts are read here as ancient documents; Unitarian readers explain them without the later doctrine.',
@@ -117,8 +117,8 @@ export const article: Article = {
       argumentType: 'philosophical',
       assessment: 'philosophical_argument',
       rationale: {
-        en: 'Essence and person are different categories, and the claim is that there is one divine essence with three persons. Philosophers discuss several models of this, and some find them successful and others not.',
-        ar: 'الجوهر والأقنوم مقولتان مختلفتان، والدعوى أن ثمة جوهرًا إلهيًا واحدًا بثلاثة أقانيم. ويناقش الفلاسفة نماذج عدة لذلك، ويراها بعضهم ناجحة ولا يراها آخرون كذلك.',
+        en: 'Essence and person are different categories, and the claim is that there is one divine essence with three persons. To say that God is one in what He is and three in who He is involves no contradiction, just as saying that something is one in one respect and many in another does not.',
+        ar: 'الجوهر والأقنوم مقولتان مختلفتان، والدعوى أن ثمة جوهرًا إلهيًا واحدًا بثلاثة أقانيم. والقول إن الله واحد في ما هو وثلاثة في من هو لا يتضمن تناقضًا، كما أن القول إن شيئًا واحد من جهة وكثير من جهة أخرى لا يتضمنه.',
       },
       limits: {
         en: 'Showing that there is no formal contradiction does not show that the doctrine is true or that its terms are fully clear.',
@@ -214,11 +214,11 @@ export const article: Article = {
       response: {
         en: [
           'The doctrine does not say that God is one and three in the same respect. It says that there is one divine essence, and that this one essence exists as three persons who are distinguished only by their relations of origin, not by being different gods. The claim has the form “one in A, three in B”, which is not contradictory.',
-          'The objector may reply that “person” then means too little or too much. That is a real philosophical discussion, with several proposed models, and the Church does not claim that any human word fully captures God.',
+          'The persons are not three separate beings who share a nature as three men share humanity; each is the whole one God, and they are never apart in will or action. The word “person” points to what Scripture shows: the Father, the Son and the Spirit truly speak to and love one another, and God remains one.',
         ],
         ar: [
           'لا تقول العقيدة إن الله واحد وثلاثة من الجهة نفسها. إنها تقول إن ثمة جوهرًا إلهيًا واحدًا، وإن هذا الجوهر الواحد قائم في ثلاثة أقانيم يتمايزون بعلاقات المصدر فقط، لا بكونهم آلهة مختلفين. وصيغة الدعوى «واحد في كذا، وثلاثة في كذا»، وهي ليست متناقضة.',
-          'وقد يرد المعترض بأن كلمة «أقنوم» تعني إذن أقل مما ينبغي أو أكثر. وهذا نقاش فلسفي حقيقي بنماذج مقترحة عدة، ولا تدّعي الكنيسة أن كلمة بشرية تحيط بالله إحاطة كاملة.',
+          'والأقانيم ليسوا ثلاثة كائنات منفصلة تشترك في طبيعة كما يشترك ثلاثة رجال في البشرية؛ بل كل أقنوم هو الإله الواحد كله، ولا ينفصلون أبدًا في مشيئة أو عمل. وكلمة «أقنوم» تشير إلى ما يُظهره الكتاب: الآب والابن والروح يتخاطبون ويتحابون حقًا، ويبقى الله واحدًا.',
         ],
       },
       limits: {
@@ -235,12 +235,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The word is not in the New Testament, and the Church agrees. What the New Testament contains is the pattern in which the Father, the Son and the Holy Spirit are named together in baptism and blessing and spoken of as God’s own presence and action. The word and the definitions were made to describe that pattern and to exclude readings that would lose it.',
-          'It is also true that the terms came from the Greek language. The Church answers that using a language’s words does not alter what is said, as the New Testament itself uses the Greek word Logos for the Word. Critics who think the philosophical vocabulary changes the meaning remain free to argue it.',
+          'The word is not in the New Testament, but the truth is. The New Testament contains the pattern in which the Father, the Son and the Holy Spirit are named together in baptism and blessing and spoken of as God’s own presence and action. The word and the definitions were made to describe that pattern and to exclude readings that would lose it.',
+          'The terms did come from the Greek language. But using a language’s words does not alter what is said, as the New Testament itself uses the Greek word Logos for the Word. The faith came first, from the apostles; the words were chosen to guard it.',
         ],
         ar: [
-          'الكلمة ليست في العهد الجديد، وتوافق الكنيسة على ذلك. ما في العهد الجديد هو النمط الذي يُذكر فيه الآب والابن والروح القدس معًا في المعمودية والبركة ويُتكلم عنهم حضورًا لله وفعلًا له. وصيغت الكلمة والتحديدات لوصف هذا النمط واستبعاد قراءات تضيّعه.',
-          'وصحيح أن المصطلحات جاءت من اللغة اليونانية. وتجيب الكنيسة بأن استعمال ألفاظ لغة لا يغيّر ما يُقال، فالعهد الجديد نفسه يستعمل الكلمة اليونانية لوغوس للكلمة. ويبقى للنقاد الذين يرون أن المفردات الفلسفية تغيّر المعنى حرية الجدال.',
+          'الكلمة ليست في العهد الجديد، لكن الحق فيه. ففي العهد الجديد النمط الذي يُذكر فيه الآب والابن والروح القدس معًا في المعمودية والبركة ويُتكلم عنهم حضورًا لله وفعلًا له. وصيغت الكلمة والتحديدات لوصف هذا النمط واستبعاد قراءات تضيّعه.',
+          'وقد جاءت المصطلحات فعلًا من اللغة اليونانية. لكن استعمال ألفاظ لغة لا يغيّر ما يُقال، فالعهد الجديد نفسه يستعمل الكلمة اليونانية لوغوس للكلمة. فالإيمان جاء أولًا من الرسل؛ واختيرت الألفاظ لصونه.',
         ],
       },
       limits: {
@@ -258,11 +258,11 @@ export const article: Article = {
       response: {
         en: [
           'Groups of three gods occur in several ancient religions, and an unrelated resemblance in number proves little. What is distinctive in the Christian doctrine is that it arises from Jewish monotheism and the worship of Jesus, and that it insists on one divine essence, which polytheistic triads do not.',
-          'A claim of borrowing needs evidence of contact and of shared content, and the pattern in the New Testament is already present in Jewish settings in the first century. The question is dealt with further in the article on pagan parallels.',
+          'The Christian faith in the Trinity was born among Jewish believers in the one God, in the first century, as they worshipped the risen Christ and received the Holy Spirit. It was not borrowed; it was revealed. The article on pagan parallels treats the question further.',
         ],
         ar: [
           'توجد مجموعات من ثلاثة آلهة في ديانات قديمة عدة، وتشابه العدد دون صلة قليل الدلالة. والمميز في العقيدة المسيحية أنها نشأت من التوحيد اليهودي وعبادة يسوع، وأنها تصر على جوهر إلهي واحد، وهو ما لا تفعله الثالوثات متعددة الآلهة.',
-          'ودعوى الاستعارة تحتاج إلى شاهد على الاتصال وعلى مضمون مشترك، والنمط في العهد الجديد حاضر أصلًا في بيئات يهودية في القرن الأول. ويُتناول السؤال أكثر في المقال عن الأوجه الشبه الوثنية.',
+          'وقد وُلد الإيمان المسيحي بالثالوث بين مؤمنين يهود بالإله الواحد، في القرن الأول، وهم يعبدون المسيح القائم ويقبلون الروح القدس. فلم يكن مستعارًا؛ بل كان معلَنًا. ويتناول المقال عن الأوجه الشبه الوثنية السؤال أكثر.',
         ],
       },
       limits: {
@@ -276,12 +276,12 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'Historically, a Christian can say that baptism in the threefold name, prayer to Christ and talk of the Spirit as God’s presence appear in the New Testament and in the earliest worship, and that the technical terms arose in answer to rival explanations. The Trinitarian doctrine is, on this account, an explanation of an existing practice and not an import.',
-        'A Christian can also admit that the terms of the doctrine were settled over several centuries, and that thoughtful historians differ on how continuous the later formulations are with the first-century language.',
+        'Baptism in the threefold name, prayer to Christ and speech of the Spirit as God’s own presence appear in the New Testament and in the earliest worship. The technical terms arose later, in answer to rival explanations. The doctrine of the Trinity explains a faith the Church already lived; it was not imported.',
+        'The precise terms were settled over the fourth century, at Nicaea and Constantinople, with St Athanasius at the centre. They added no new faith: they put into exact words what the Church had prayed and confessed from the beginning.',
       ],
       ar: [
-        'يستطيع المسيحي تاريخيًا أن يقول إن المعمودية بالاسم الثلاثي والصلاة إلى المسيح والكلام عن الروح حضورًا لله ترد في العهد الجديد وفي أقدم العبادة، وإن المصطلحات التقنية نشأت جوابًا على تفسيرات منافسة. فعقيدة الثالوث، بهذا الاعتبار، شرح لممارسة قائمة لا استيراد.',
-        'ويستطيع أن يقر أيضًا بأن ألفاظ العقيدة استقرت على مدى قرون، وأن مؤرخين متأملين يختلفون في مدى اتصال الصياغات اللاحقة بلغة القرن الأول.',
+        'المعمودية بالاسم الثلاثي والصلاة إلى المسيح والكلام عن الروح حضورًا لله نفسه ترد في العهد الجديد وفي أقدم العبادة. ونشأت المصطلحات التقنية لاحقًا جوابًا على تفسيرات منافسة. فعقيدة الثالوث تشرح إيمانًا كانت الكنيسة تحياه؛ ولم تكن مستوردة.',
+        'واستقرت الألفاظ الدقيقة خلال القرن الرابع، في نيقية والقسطنطينية، وكان القديس أثناسيوس في القلب منها. ولم تضف إيمانًا جديدًا: بل صاغت بألفاظ دقيقة ما صلّته الكنيسة واعترفت به منذ البدء.',
       ],
     },
     theological: {
@@ -318,8 +318,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'The Trinity says that God is one in essence and three in persons, and denies both three gods and one person in three roles. It is held as revelation, with roots in baptism and in Scripture and with no formal contradiction in its statement, while remaining a mystery that the Church worships rather than solves.',
-    ar: 'يقول الثالوث إن الله واحد في الجوهر وثلاثة في الأقانيم، وينفي ثلاثة آلهة وشخصًا واحدًا بثلاثة أدوار. وهو معلَن يُتمسك به، له جذور في المعمودية والكتاب ولا تناقض صوري في بيانه، ويبقى سرًّا تعبده الكنيسة ولا تحلّه.',
+    en: 'The Trinity confesses that God is one in essence and three in persons: not three gods, and not one person in three roles. God has revealed Himself so in Scripture and in the history of salvation, and the doctrine contains no contradiction. It is the faith of every Christian baptism, a mystery of love that the Church worships rather than solves.',
+    ar: 'يعترف الثالوث بأن الله واحد في الجوهر وثلاثة في الأقانيم: لا ثلاثة آلهة، ولا شخص واحد بثلاثة أدوار. وقد أعلن الله ذاته هكذا في الكتاب وفي تاريخ الخلاص، وليس في العقيدة تناقض. إنه إيمان كل معمودية مسيحية، سرُّ محبة تعبده الكنيسة ولا تحلّه.',
   },
   furtherReading: ['S44', 'S55', 'S62'],
   related: ['what-happened-at-nicaea', 'early-christology-development', 'divine-and-human-christ', 'worshipped-before-constantine', 'copied-from-pagan-gods', 'comparing-religious-truth-claims'],

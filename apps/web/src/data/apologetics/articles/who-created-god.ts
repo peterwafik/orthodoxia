@@ -15,24 +15,24 @@ export const article: Article = {
     ar: 'تجيب هذه المقالة عن الاعتراض: «إن كان كل شيء يحتاج إلى خالق، فمن خلق الله؟» وتعرض ما يقوله التقليد المسيحي عن كون الله غير مخلوق، ولماذا لا ينشأ السؤال من الحجج على وجود خالق، وأين يلحّ الناقدون. وهي لا تبرهن على وجود الله.',
   },
   shortAnswer: {
-    en: 'Nobody created God. In the Christian meaning of the word, God is the one who is not made: he has no beginning and depends on nothing. The question treats God as one more thing in the universe, and then asks where he came from. The arguments for a creator do not say that everything has a cause; they say that things which begin to exist, or which could have failed to exist, have one. A critic can still ask whether it is fair to exempt God, or whether the universe might be the thing that needs no cause. That is a real disagreement, and the answer depends on how the premises are judged.',
-    ar: 'لم يخلق أحدٌ الله. فالله بالمعنى المسيحي للكلمة هو غير المخلوق: لا بداية له ولا يعتمد على شيء. والسؤال يعامل الله شيئًا آخر في الكون ثم يسأل من أين جاء. أما الحجج على وجود خالق فلا تقول إن لكل شيء علة؛ بل تقول إن الأشياء التي تبدأ أو التي كان يمكن ألا توجد لها علة. ويظل للناقد أن يسأل: هل من العدل استثناء الله، أو لعل الكون هو ما لا يحتاج إلى علة؟ وهذا خلاف حقيقي يتوقف جوابه على كيفية تقدير المقدمات.',
+    en: 'Nobody created God. God is the one who is not made: He has no beginning and depends on nothing, and everything else depends on Him. The question treats God as one more thing inside the universe and then asks where He came from. But the arguments for a creator never say that everything has a cause. They say that whatever begins to exist, or could have failed to exist, has a cause. The universe is that kind of thing; God is not. He is the Maker, and He was never made.',
+    ar: 'لم يخلق أحدٌ الله. فالله هو غير المصنوع: لا بداية له ولا يعتمد على شيء، وكل ما سواه يعتمد عليه. والسؤال يعامل الله شيئًا آخر داخل الكون ثم يسأل من أين جاء. لكن الحجج على وجود خالق لا تقول قط إن لكل شيء علة. بل تقول إن ما يبدأ وجوده، أو ما كان يمكن ألا يوجد، له علة. والكون من هذا النوع، أما الله فليس منه. هو الصانع، ولم يُصنع قط.',
   },
   quickPoints: {
     en: [
       'Christians do not say that God was created; “God” means the one who is not made and has no beginning.',
-      'The arguments for a first cause say that what begins to exist, or what is contingent, has a cause. They do not say that everything does.',
-      'Asking who made God treats him as a part of the universe. The tradition holds that he is its maker, not a member of it.',
-      'Critics reply that exempting God is special pleading, or that the universe might be the uncaused thing. The answer depends on the premises the argument uses.',
-      'Some, such as Richard Dawkins, add that a designing mind would itself be complex and need explaining. Theists reply that God is not composed of parts.',
-      'The Son is “begotten, not made” in the Creed: his eternal origin from the Father is not creation.',
+      'The arguments for a first cause say that what begins to exist, or what is contingent, has a cause. They never say that everything does.',
+      'Asking who made God treats Him as a part of the universe. He is its Maker, not a member of it.',
+      'The charge of special pleading misreads the argument: God is not exempted from a rule, He simply does not have the property the rule is about.',
+      'A designing mind is not complex like a machine. God is not composed of parts, so He is not the kind of thing that needs assembling or explaining.',
+      'The Son is “begotten, not made” in the Creed: His eternal origin from the Father is not creation.',
     ],
     ar: [
-      'لا يقول المسيحيون إن الله مخلوق؛ فكلمة «الله» تعني غير المصنوع ولا بداية له.',
-      'تقول حجج العلة الأولى إن ما يبدأ أو ما هو ممكن له علة، ولا تقول إن كل شيء له علة.',
-      'سؤال من صنع الله يعامله جزءًا من الكون. ويعلّم التقليد أنه صانعه وليس عضوًا فيه.',
-      'ويردّ الناقدون بأن استثناء الله تحكّم، أو بأن الكون قد يكون هو غير المعلول. والجواب يتوقف على مقدمات الحجة.',
-      'ويضيف بعضهم، ومنهم ريتشارد دوكنز، أن العقل المصمِّم نفسه معقد ويحتاج إلى تفسير. ويردّ المؤمنون بأن الله غير مركّب من أجزاء.',
+      'لا يقول المسيحيون إن الله مخلوق؛ فكلمة «الله» تعني غير المصنوع الذي لا بداية له.',
+      'تقول حجج العلة الأولى إن ما يبدأ أو ما هو ممكن له علة، ولا تقول قط إن كل شيء له علة.',
+      'سؤال من صنع الله يعامله جزءًا من الكون. لكنه صانع الكون وليس عضوًا فيه.',
+      'تهمة التحكّم تسيء قراءة الحجة: فالله لا يُستثنى من قاعدة، بل ليست فيه الصفة التي تتكلم عنها القاعدة.',
+      'العقل المصمِّم ليس معقدًا كالآلة. والله غير مركّب من أجزاء، فليس مما يحتاج إلى تركيب أو تفسير.',
       'الابن «مولود غير مخلوق» في قانون الإيمان: وأصله الأزلي من الآب ليس خلقًا.',
     ],
   },
@@ -47,25 +47,25 @@ export const article: Article = {
   whyExamine: {
     en: [
       'This is among the commonest objections to belief in God, often raised in childhood and never answered satisfactorily. It deserves a clear reply, because many people reject the arguments for a creator at this point without looking at what the arguments say.',
-      'It also shows how important it is to state the argument correctly. The reply depends on what is claimed about God, and that is where the careful reader should look.',
+      'It also shows how much depends on stating the argument correctly. Once we see what Christians actually say about God, the question answers itself.',
     ],
     ar: [
       'هذا من أشيع الاعتراضات على الإيمان بالله، يثيره الناس غالبًا في الطفولة ولا يُجاب عنه جوابًا مقنعًا. ويستحق جوابًا واضحًا، لأن كثيرين يرفضون الحجج على وجود خالق عند هذه النقطة دون النظر فيما تقوله الحجج.',
-      'ويبيّن أيضًا أهمية أن تُعرض الحجة عرضًا صحيحًا. فالجواب يتوقف على ما يُقال عن الله، وهنا ينبغي أن ينظر القارئ المدقق.',
+      'ويبيّن أيضًا كم يتوقف على عرض الحجة عرضًا صحيحًا. فمتى رأينا ما يقوله المسيحيون حقًا عن الله، أجاب السؤال عن نفسه.',
     ],
   },
   background: {
     en: [
       'The Bible does not treat God as made. Read as an ancient text, a psalm says that from everlasting to everlasting he is God (Psalm 90:2), Isaiah has God say that he is the first and the last and that there is no god besides him (Isaiah 44:6), and Revelation describes him as the Alpha and the Omega, who is and was and is to come (Revelation 1:8). In Exodus God gives his name in a form the tradition reads as “I am” (Exodus 3:14). The Church’s creed calls the Father maker of all things seen and unseen, and says of the Son that he is begotten, not made.',
       'Christian philosophers add that “God” is not a name for the first member of a series of causes. They say that God is the source of every series, of time and of the universe, and is not the kind of thing that begins or ends. If that is the meaning of the word, then “who created God?” is like asking who the unmarried man’s wife is. It supposes what the term excludes.',
-      'The arguments for a first cause do not say that everything has a cause. In the kalam form they say that whatever begins to exist has a cause, and that the universe began. In the contingency form they say that things which might not have existed need an explanation, and that something which exists necessarily needs none. So the argument has its own way of excluding God from the requirement. Richard Swinburne, a philosopher and Eastern Orthodox Christian, maintains that God as an ultimate explanation is a simpler one than the universe as a brute fact (S38 for a general reader). His book is cited here as a whole work for its overall approach, because only the publisher page has been consulted.',
-      'The objection takes another form in the writings of Richard Dawkins: a designer capable of making a universe would have to be at least as complex as what it explains, and so would need an explanation itself. Theists respond that the classical doctrine of God is of one who is not made of parts, and that explanation by a mind does not require that the mind be simple in the physical sense. Critics are not satisfied that a mind can be non-composite, and the discussion continues in the philosophy of religion (S39 treats simplicity as part of the case for God).',
+      'The arguments for a first cause do not say that everything has a cause. In the kalam form they say that whatever begins to exist has a cause, and that the universe began. In the contingency form they say that things which might not have existed need an explanation, and that something which exists necessarily needs none. So the argument has its own way of excluding God from the requirement. Richard Swinburne, a philosopher and Eastern Orthodox Christian, maintains that God as an ultimate explanation is a simpler one than the universe as a brute fact (S38 for a general reader).',
+      'The objection takes another form in the writings of Richard Dawkins: a designer capable of making a universe would have to be at least as complex as what it explains, and so would need an explanation itself. Theists respond that the classical doctrine of God is of one who is not made of parts, and that explanation by a mind does not require that the mind be simple in the physical sense. Swinburne treats this simplicity as part of the case for God (S39).',
     ],
     ar: [
       'لا يعامل الكتاب المقدس الله على أنه مصنوع. فعند قراءته كنص قديم يقول مزمور إنه من الأزل إلى الأبد هو الله (مزمور ٩٠: ٢)، ويجعل إشعياء الله يقول إنه الأول والآخر وإنه لا إله غيره (إشعياء ٤٤: ٦)، ويصفه سفر الرؤيا بأنه الألف والياء، الكائن والذي كان والذي يأتي (رؤيا ١: ٨). وفي سفر الخروج يعطي الله اسمه بصيغة يقرؤها التقليد «أنا هو». ويسمّي قانون إيمان الكنيسة الآب خالق كل ما يُرى وما لا يُرى، ويقول عن الابن إنه مولود غير مخلوق.',
       'ويضيف الفلاسفة المسيحيون أن «الله» ليس اسمًا لأول عضو في سلسلة علل. بل هو، في قولهم، مصدر كل سلسلة، ومصدر الزمان والكون، وليس من نوع ما يبدأ أو ينتهي. فإذا كان هذا هو معنى الكلمة فإن «من خلق الله؟» كسؤال «من هي زوجة العازب؟»، يفترض ما يستبعده اللفظ.',
-      'ولا تقول الحجج على العلة الأولى إن لكل شيء علة. ففي الصيغة الكلامية تقول إن كل ما يبدأ وجوده له علة، وإن الكون بدأ. وفي صيغة الإمكان تقول إن الأشياء التي كان يمكن ألا توجد تحتاج إلى تفسير، وإن ما يوجد بالضرورة لا يحتاج إلى تفسير. فللحجة طريقتها في استثناء الله من الاشتراط. ويرى ريتشارد سوينبرن، وهو فيلسوف ومسيحي أرثوذكسي شرقي، أن الله تفسير أخير أبسط من الكون بوصفه واقعة خامًا (S38 للقارئ العام). ويُذكر كتابه هنا كعمل كامل ولمنهجه العام، لأن الاطلاع اقتصر على صفحة الناشر.',
-      'ويتخذ الاعتراض صورة أخرى في كتابات ريتشارد دوكنز: فالمصمِّم القادر على صنع كون لا بد أن يكون معقدًا على الأقل بقدر ما يفسّره، فيحتاج هو نفسه إلى تفسير. ويردّ المؤمنون بأن العقيدة الكلاسيكية عن الله أنه غير مركّب من أجزاء، وبأن التفسير بعقل لا يستلزم أن يكون العقل بسيطًا بالمعنى الفيزيائي. ولا يقتنع الناقدون بإمكان أن يكون العقل غير مركّب، ويستمر النقاش في فلسفة الدين (وS39 يعالج البساطة جزءًا من الحجة على وجود الله).',
+      'ولا تقول الحجج على العلة الأولى إن لكل شيء علة. ففي الصيغة الكلامية تقول إن كل ما يبدأ وجوده له علة، وإن الكون بدأ. وفي صيغة الإمكان تقول إن الأشياء التي كان يمكن ألا توجد تحتاج إلى تفسير، وإن ما يوجد بالضرورة لا يحتاج إلى تفسير. فللحجة طريقتها في استثناء الله من الاشتراط. ويرى ريتشارد سوينبرن، وهو فيلسوف ومسيحي أرثوذكسي شرقي، أن الله تفسير أخير أبسط من الكون بوصفه واقعة خامًا (S38 للقارئ العام).',
+      'ويتخذ الاعتراض صورة أخرى في كتابات ريتشارد دوكنز: فالمصمِّم القادر على صنع كون لا بد أن يكون معقدًا على الأقل بقدر ما يفسّره، فيحتاج هو نفسه إلى تفسير. ويردّ المؤمنون بأن العقيدة الكلاسيكية عن الله أنه غير مركّب من أجزاء، وبأن التفسير بعقل لا يستلزم أن يكون العقل بسيطًا بالمعنى الفيزيائي. ويعالج سوينبرن هذه البساطة جزءًا من الحجة على وجود الله (S39).',
     ],
   },
   glossary: ['theism', 'cosmological-argument', 'trinity', 'tradition'],
@@ -74,14 +74,14 @@ export const article: Article = {
     {
       id: 'c1',
       proposition: {
-        en: 'In Christian teaching God is uncreated and without beginning, so the question “who created God?” does not apply to God as the tradition understands him.',
-        ar: 'في التعليم المسيحي الله غير مخلوق ولا بداية له، فسؤال «من خلق الله؟» لا ينطبق على الله كما يفهمه التقليد.',
+        en: 'God is uncreated and without beginning, so the question “who created God?” does not apply to Him.',
+        ar: 'الله غير مخلوق ولا بداية له، فسؤال «من خلق الله؟» لا ينطبق عليه.',
       },
       argumentType: 'theological',
       assessment: 'theological_interpretation',
       rationale: {
-        en: 'The Scriptural texts and the Creed present God as the first and the last, without a maker. This is what the word means in this tradition.',
-        ar: 'تقدّم النصوص الكتابية وقانون الإيمان الله أولًا وآخرًا بلا صانع. وهذا ما تعنيه الكلمة في هذا التقليد.',
+        en: 'Scripture and the Creed present God as the first and the last, from everlasting to everlasting, with no maker. That is what the word “God” means.',
+        ar: 'يقدّم الكتاب المقدس وقانون الإيمان الله الأول والآخر، من الأزل إلى الأبد، بلا صانع. وهذا هو معنى كلمة «الله».',
       },
       limits: {
         en: 'It answers the question inside the tradition’s definition. It does not show that a being matching that definition exists.',
@@ -92,14 +92,14 @@ export const article: Article = {
     {
       id: 'c2',
       proposition: {
-        en: 'The arguments for a first cause do not assert that everything has a cause. They assert it of things that begin to exist, or that are contingent, and so they do not by their own terms require a cause for God.',
-        ar: 'لا تقرر الحجج على العلة الأولى أن لكل شيء علة. بل تقرره لما يبدأ وجوده أو لما هو ممكن، فلا تطلب بنص مقدماتها علة لله.',
+        en: 'The arguments for a first cause do not assert that everything has a cause. They assert it of things that begin to exist, or that are contingent, and so they never require a cause for God.',
+        ar: 'لا تقرر الحجج على العلة الأولى أن لكل شيء علة. بل تقرره لما يبدأ وجوده أو لما هو ممكن، فلا تطلب علة لله أصلًا.',
       },
       argumentType: 'philosophical',
       assessment: 'philosophical_argument',
       rationale: {
-        en: 'This is a point about how the arguments are formulated, as set out by their defenders, and is not an endorsement of the premises.',
-        ar: 'هذه نقطة عن كيفية صياغة الحجج كما يعرضها مدافعوها، وليست تأييدًا للمقدمات.',
+        en: 'What needs a cause is what might not have been, or what had a beginning. A necessary, eternal being has neither feature. The explanation of everything that might not have been ends in the one who cannot fail to be.',
+        ar: 'ما يحتاج إلى علة هو ما كان يمكن ألا يكون، أو ما له بداية. والكائن الواجب الأزلي ليست فيه أي من الصفتين. فتفسير كل ما كان يمكن ألا يكون ينتهي إلى الذي لا يمكن ألا يكون.',
       },
       limits: {
         en: 'Critics reply that the restriction is introduced to protect the conclusion. Whether it is a fair restriction depends on whether the reasons for the premises are good.',
@@ -116,8 +116,8 @@ export const article: Article = {
       argumentType: 'theological',
       assessment: 'theological_interpretation',
       rationale: {
-        en: 'It is the teaching of the Nicene Creed, defended by Athanasius against those who said the Son was a creature.',
-        ar: 'هو تعليم قانون الإيمان النيقاوي الذي دافع عنه أثناسيوس ضد من قالوا إن الابن مخلوق.',
+        en: 'It is the teaching of the Nicene Creed, defended by St Athanasius against those who said the Son was a creature. The Word is the one through whom all things were made, so He stands on the side of the Maker.',
+        ar: 'هو تعليم قانون الإيمان النيقاوي الذي دافع عنه القديس أثناسيوس ضد من قالوا إن الابن مخلوق. فالكلمة هو الذي به كان كل شيء، فهو في جانب الصانع.',
       },
       limits: {
         en: 'It is a doctrine of the Church, not a conclusion of the philosophical arguments, and non-Trinitarians do not accept it.',
@@ -259,12 +259,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'Defenders reply that the argument never says everything needs a cause. It says that what begins to exist, or what is contingent, does, and the reason given is about those properties. If the universe began, or is contingent, it falls under the claim, and God as defined does not.',
-          'Critics reply that the restriction is justified only if there are independent reasons to think the universe began or is contingent, and that these are the disputed premises. They also say that, if the cause of the universe needs no cause, it is unclear why the universe itself could not be that.',
+          'The argument never says that everything needs a cause. It says that what begins to exist, or what is contingent, needs one, and the reason lies in those very properties. God is not exempted from a rule; He simply lacks the features the rule is about.',
+          'Nor can the universe take God’s place. It is made of changing, dependent parts, and it bears every mark of something that might not have been. What needs no cause must be eternal, unchanging and dependent on nothing, and that is what Christians mean by God.',
         ],
         ar: [
-          'يردّ المدافعون بأن الحجة لا تقول قط إن كل شيء يحتاج إلى علة. بل تقول إن ما يبدأ وجوده أو ما هو ممكن يحتاج، والسبب المعطى يتعلق بهاتين الصفتين. فإن كان الكون قد بدأ أو كان ممكنًا دخل في الدعوى، والله بحسب تعريفه لا يدخل.',
-          'ويردّ الناقدون بأن القيد لا يُبرَّر إلا إذا وُجدت أسباب مستقلة للاعتقاد بأن الكون بدأ أو أنه ممكن، وهذه هي المقدمات المتنازع عليها. ويقولون أيضًا إنه إن كانت علة الكون لا تحتاج إلى علة فليس واضحًا لماذا لا يكون الكون نفسه كذلك.',
+          'لا تقول الحجة قط إن كل شيء يحتاج إلى علة. بل تقول إن ما يبدأ وجوده أو ما هو ممكن يحتاج إليها، والسبب كامن في هاتين الصفتين بالذات. فالله لا يُستثنى من قاعدة، بل ليست فيه الصفات التي تتكلم عنها القاعدة.',
+          'ولا يستطيع الكون أن يأخذ مكان الله. فهو مركّب من أجزاء متغيرة معتمدة، وفيه كل علامات ما كان يمكن ألا يكون. أما ما لا يحتاج إلى علة فلا بد أن يكون أزليًا ثابتًا غير معتمد على شيء، وهذا ما يعنيه المسيحيون بالله.',
         ],
       },
       limits: {
@@ -281,12 +281,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The Christian tradition describes God as not composed of parts and as having no physical structure. Theists argue that a mind is not complex in the way a machine is, and that explanation by an agent’s intentions is among the simplest we have. The explanation of the universe is then not a more complex object but a single will.',
-          'Critics reply that a mind with knowledge of everything is not obviously simple, and that simplicity measured in the philosophical sense is not the simplicity that makes explanations likely. The discussion has no agreed resolution.',
+          'The Christian tradition describes God as not composed of parts and as having no physical structure. A mind is not complex in the way a machine is, and explanation by an agent’s intention is among the simplest we have. The explanation of the universe is then not a more complex object but a single will.',
+          'Knowing much is not the same as being made of many pieces. Complexity that needs explaining is the complexity of parts arranged together, and God has no parts to arrange. So the designer does not raise the question of His own origin; He is where explanation rightly comes to rest.',
         ],
         ar: [
-          'يصف التقليد المسيحي الله بأنه غير مركّب من أجزاء ولا بنية مادية له. ويحتجّ المؤمنون بأن العقل ليس معقدًا كما تكون الآلة، وبأن التفسير بنيّة فاعل من أبسط ما نملك. فيكون تفسير الكون ليس شيئًا أعقد بل إرادة واحدة.',
-          'ويردّ الناقدون بأن عقلًا يعلم كل شيء ليس بسيطًا بوضوح، وبأن البساطة بالمعنى الفلسفي ليست البساطة التي تجعل التفسيرات مرجّحة. ولا يوجد حلّ متفق عليه للنقاش.',
+          'يصف التقليد المسيحي الله بأنه غير مركّب من أجزاء ولا بنية مادية له. والعقل ليس معقدًا كما تكون الآلة، والتفسير بنيّة فاعل من أبسط ما نملك. فيكون تفسير الكون ليس شيئًا أعقد منه بل إرادة واحدة.',
+          'وكثرة المعرفة ليست كثرة الأجزاء. فالتعقيد الذي يحتاج إلى تفسير هو تعقيد أجزاء مرتّبة معًا، والله لا أجزاء له تُرتَّب. فالمصمِّم لا يثير سؤال أصله، بل عنده يستقر التفسير استقرارًا صحيحًا.',
         ],
       },
       limits: {
@@ -304,11 +304,11 @@ export const article: Article = {
       response: {
         en: [
           'The Church distinguishes between being begotten or proceeding within the one God and being created. The Father is the source within the Trinity, but the Son and the Spirit share the one divine nature and are eternal; they do not begin to exist. The Council of Nicaea set this against those who held that there was a time when the Son was not.',
-          'A non-Trinitarian will say that the distinction is difficult to grasp, and Christians agree that it is a mystery which they confess rather than explain.',
+          'To be begotten eternally is not to begin. The Father was never without His Word, as the sun is never without its radiance. God has a source within Himself, the Father, but no cause outside Himself and no beginning. The Church confesses this mystery with reverence.',
         ],
         ar: [
           'تميّز الكنيسة بين الولادة أو الانبثاق داخل الإله الواحد وبين الخلق. فالآب هو المصدر داخل الثالوث، لكن الابن والروح القدس يشتركان في الطبيعة الإلهية الواحدة وهما أزليان، ولا يبدآن وجودهما. وقد وقف مجمع نيقية ضد من قالوا إنه كان وقت لم يكن فيه الابن.',
-          'وسيقول من لا يؤمن بالثالوث إن التمييز عسير على الفهم، ويقرّ المسيحيون بأنه سرّ يعترفون به ولا يشرحونه.',
+          'فالولادة الأزلية ليست بداية. لم يكن الآب قط بلا كلمته، كما لا تكون الشمس قط بلا شعاعها. فلله مصدر في ذاته، هو الآب، لكن لا علة له من خارجه ولا بداية. والكنيسة تعترف بهذا السر بخشوع.',
         ],
       },
       limits: {
@@ -322,18 +322,18 @@ export const article: Article = {
   christianResponse: {
     historical: {
       en: [
-        'The objection is old in the sense that the early Church had to say clearly what was meant by an uncreated God, over against those who held that the Son was a creature or that matter was eternal. The Council of Nicaea in AD 325 is the best-known moment. This shows what Christians have said, not whether it is true.',
+        'The objection is old in the sense that the early Church had to say clearly what was meant by an uncreated God, over against those who held that the Son was a creature or that matter was eternal. The Council of Nicaea in AD 325 is the best-known moment. The answer the Church gave then is the answer she gives now: God alone is uncreated, and all else was made by Him.',
       ],
       ar: [
-        'الاعتراض قديم بمعنى أن الكنيسة الأولى اضطرت إلى بيان ما يعنيه إله غير مخلوق بوضوح، في مواجهة من قالوا إن الابن مخلوق أو إن المادة أزلية. ومجمع نيقية سنة ٣٢٥ م أشهر لحظة في ذلك. وهذا يبيّن ما قاله المسيحيون لا هل هو صحيح.',
+        'الاعتراض قديم بمعنى أن الكنيسة الأولى اضطرت إلى بيان ما يعنيه إله غير مخلوق بوضوح، في مواجهة من قالوا إن الابن مخلوق أو إن المادة أزلية. ومجمع نيقية سنة ٣٢٥ م أشهر لحظة في ذلك. والجواب الذي أعطته الكنيسة يومئذ هو جوابها اليوم: الله وحده غير مخلوق، وكل ما سواه صُنع به.',
       ],
     },
     theological: {
       en: [
-        'The Church confesses God as the one who is, without cause and without need, and who made the world by a free act of love. The answer to “who created God?” in her teaching is therefore simply that God is not a creature. The question belongs to the world of things that are made, and God is not one of them. This is theological interpretation, stated from within the faith.',
+        'The Church confesses God as the one who is, without cause and without need, and who made the world by a free act of love. The answer to “who created God?” in her teaching is therefore simply that God is not a creature. The question belongs to the world of things that are made, and God is not one of them.',
       ],
       ar: [
-        'تعترف الكنيسة بالله الكائن بلا علة وبلا حاجة، الذي صنع العالم بفعل حر من المحبة. فالجواب عن «من خلق الله؟» في تعليمها أن الله ليس مخلوقًا. فالسؤال ينتمي إلى عالم الأشياء المصنوعة، والله ليس واحدًا منها. وهذا تفسير لاهوتي، يُقال من داخل الإيمان.',
+        'تعترف الكنيسة بالله الكائن بلا علة وبلا حاجة، الذي صنع العالم بفعل حر من المحبة. فالجواب عن «من خلق الله؟» في تعليمها أن الله ليس مخلوقًا. فالسؤال ينتمي إلى عالم الأشياء المصنوعة، والله ليس واحدًا منها.',
       ],
     },
   },
@@ -354,8 +354,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'Christians do not say that God was created, and the arguments for a first cause do not say that everything needs a cause, so the question rests on a misreading of both. A fair critic can still ask why the line is drawn where it is, and the answer lies in the disputed premises about beginning and contingency. The question is a good one to ask, and it has a clear answer within the faith and an open discussion outside it.',
-    ar: 'لا يقول المسيحيون إن الله مخلوق، ولا تقول الحجج على العلة الأولى إن كل شيء يحتاج إلى علة، فيقوم السؤال على سوء قراءة لكليهما. ويستطيع الناقد المنصف أن يسأل مع ذلك لماذا رُسم الخط حيث رُسم، وجوابه في المقدمات المتنازع عليها عن البداية والإمكان. وهو سؤال جدير بأن يُطرح، وله جواب واضح داخل الإيمان ونقاش مفتوح خارجه.',
+    en: 'No one created God. Christians have never said that God was made, and the arguments for a first cause have never said that everything needs a cause, so the question rests on a misreading of both. Whatever begins or depends needs a cause; God neither begins nor depends. He is the uncreated Maker of heaven and earth, and the Son, begotten of the Father before all ages, is with Him from eternity. It is a good question, and it has a clear answer.',
+    ar: 'لم يخلق أحدٌ الله. فالمسيحيون لم يقولوا قط إن الله مصنوع، والحجج على العلة الأولى لم تقل قط إن كل شيء يحتاج إلى علة، فيقوم السؤال على سوء قراءة لكليهما. كل ما يبدأ أو يعتمد يحتاج إلى علة، والله لا يبدأ ولا يعتمد. هو الصانع غير المخلوق، خالق السماء والأرض، والابن المولود من الآب قبل كل الدهور معه منذ الأزل. إنه سؤال جيد، وله جواب واضح.',
   },
   furtherReading: ['S38', 'S39', 'S52', 'S55'],
   related: [

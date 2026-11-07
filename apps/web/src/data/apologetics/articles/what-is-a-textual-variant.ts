@@ -15,8 +15,8 @@ export const article: Article = {
     ar: 'تشرح هذه المقالة ما هي القراءة المتباينة، ولماذا تنشأ، وأنواعها الرئيسية، وكيف يفاضل الباحثون بين القراءات، مع مثالين صغيرين. وهي تمهيد. ولا تحاول إثبات أن الكتاب المقدس تغيّر أو لم يتغير في مجمله (انظر مقالة هل تغيّر النص)، ولا تتناول الفقرات الثلاث الأطول المتنازع عليها (انظر مقالاتها).',
   },
   shortAnswer: {
-    en: 'A textual variant is any place where surviving manuscripts of a text word it differently. Because every copy of the New Testament was made by hand, variants are to be expected, and scholars have catalogued them. Most are small: a spelling, a different word order, a name written in a different form. A few change the sense of a verse, and a handful involve whole verses. Textual criticism is the discipline that compares the manuscripts, asks which reading is earlier and why the others arose, and records its judgment in the notes of a critical edition.',
-    ar: 'القراءة المتباينة هي كل موضع تصوغ فيه مخطوطات النص الباقية العبارة صياغة مختلفة. ولأن كل نسخة من العهد الجديد صُنعت بخط اليد فالقراءات المتباينة متوقعة، وقد فهرسها الباحثون. وأكثرها صغير: تهجئة، أو ترتيب كلمات مختلف، أو اسم مكتوب بصورة أخرى. وبعضها يغير معنى آية، وقليل منها يتعلق بآيات كاملة. والنقد النصي علم يقارن المخطوطات ويسأل أي قراءة أقدم ولماذا نشأت الأخرى، ويسجل حكمه في حواشي طبعة نقدية.',
+    en: 'A textual variant is any place where surviving manuscripts of a text word it differently. Because every copy of the New Testament was made by hand, variants are to be expected, and scholars have catalogued them. Most are small: a spelling, a different word order, a name written in a different form. A few change the sense of a verse, and a handful involve whole verses. Textual criticism compares the manuscripts, asks which reading is earlier and why the others arose, and records its judgment in the notes of a critical edition. Because the New Testament survives in so many copies, the differences can be seen and weighed in the open, and the text we read is the text the Church received.',
+    ar: 'القراءة المتباينة هي كل موضع تصوغ فيه مخطوطات النص الباقية العبارة صياغة مختلفة. ولأن كل نسخة من العهد الجديد صُنعت بخط اليد فالقراءات المتباينة متوقعة، وقد فهرسها الباحثون. وأكثرها صغير: تهجئة، أو ترتيب كلمات مختلف، أو اسم مكتوب بصورة أخرى. وبعضها يغير معنى آية، وقليل منها يتعلق بآيات كاملة. والنقد النصي علم يقارن المخطوطات ويسأل أي قراءة أقدم ولماذا نشأت الأخرى، ويسجل حكمه في حواشي طبعة نقدية. ولأن العهد الجديد باقٍ في نسخ كثيرة جدًا، تُرى الفروق وتُوزن علنًا، والنص الذي نقرؤه هو النص الذي تسلّمته الكنيسة.',
   },
   quickPoints: {
     en: [
@@ -46,11 +46,11 @@ export const article: Article = {
   },
   whyExamine: {
     en: [
-      'Many readers first meet the word “variant” through a footnote saying that some manuscripts omit or add a phrase, and they wonder whether the text they hold in their hands is in doubt. The word itself is neutral and technical. Knowing what it means turns an alarming phrase into an ordinary part of the study of ancient books.',
+      'Many readers first meet the word “variant” through a footnote saying that some manuscripts omit or add a phrase, and they wonder whether the text they hold in their hands is in doubt. The word itself is neutral and technical. Knowing what it means turns an alarming phrase into an ordinary part of the study of ancient books, and lets the reader hold the Scriptures with confidence.',
       'The topic also matters for honesty. A reader should not be told that there are no variants, since there are, nor that variants make the text unrecognisable, since they do not. The mechanisms are simple enough to describe plainly.',
     ],
     ar: [
-      'يلتقي كثير من القراء بكلمة «قراءة متباينة» أول مرة في حاشية تقول إن بعض المخطوطات تحذف عبارة أو تضيفها، فيتساءلون هل النص الذي بين أيديهم موضع شك. والكلمة نفسها محايدة وتقنية. ومعرفة معناها تحول عبارة مقلقة إلى جزء معتاد من دراسة الكتب القديمة.',
+      'يلتقي كثير من القراء بكلمة «قراءة متباينة» أول مرة في حاشية تقول إن بعض المخطوطات تحذف عبارة أو تضيفها، فيتساءلون هل النص الذي بين أيديهم موضع شك. والكلمة نفسها محايدة وتقنية. ومعرفة معناها تحول عبارة مقلقة إلى جزء معتاد من دراسة الكتب القديمة، وتتيح للقارئ أن يحمل الكتب المقدسة بثقة.',
       'والموضوع يتصل بالأمانة أيضًا. فلا ينبغي أن يُقال للقارئ إنه لا توجد قراءات متباينة، فهي موجودة، ولا إنها تجعل النص غير معروف، فهي لا تفعل. والآليات بسيطة بما يكفي لوصفها وصفًا مباشرًا.',
     ],
   },
@@ -79,8 +79,8 @@ export const article: Article = {
       argumentType: 'textual',
       assessment: 'strong_historical_support',
       rationale: {
-        en: 'This is the basic description of the field in standard textbooks and can be checked by anyone who compares manuscripts in the online collections.',
-        ar: 'هذا هو الوصف الأساسي للميدان في المراجع الدراسية المعتمدة، ويمكن لأي أحد التحقق منه بمقارنة المخطوطات في المجموعات الإلكترونية.',
+        en: 'This is the basic description of the field in the standard textbooks, and anyone can see it by comparing manuscripts in the online collections.',
+        ar: 'هذا هو الوصف الأساسي للميدان في المراجع الدراسية المعتمدة، ويستطيع أي أحد أن يراه بمقارنة المخطوطات في المجموعات الإلكترونية.',
       },
       limits: {
         en: 'It says nothing about how many variants affect meaning or which reading is original at any place.',
@@ -97,8 +97,8 @@ export const article: Article = {
       argumentType: 'textual',
       assessment: 'supported_disputed_details',
       rationale: {
-        en: 'Textbooks describe the bulk of variants as small. The line between minor and meaningful is a matter of judgment on which scholars differ.',
-        ar: 'تصف المراجع الدراسية معظم القراءات بأنها صغيرة. والحد بين الصغير والمؤثر مسألة تقدير يختلف فيها الباحثون.',
+        en: 'The standard textbooks describe the bulk of variants as small: spelling, word order and similar slips. The places that matter more are few, and they are marked openly, so the reader always knows where they are.',
+        ar: 'تصف المراجع الدراسية المعتمدة معظم القراءات بأنها صغيرة: تهجئة وترتيب كلمات وزلات مشابهة. والمواضع الأهم قليلة، وتُذكر علنًا، فيعرف القارئ دائمًا أين هي.',
       },
       limits: {
         en: 'A small share of the variants may still concern passages that matter greatly to readers.',
@@ -115,8 +115,8 @@ export const article: Article = {
       argumentType: 'textual',
       assessment: 'strong_historical_support',
       rationale: {
-        en: 'The methods are described in the standard textbook and applied in critical editions. They are not infallible, and their results are open to challenge and revision.',
-        ar: 'تُوصف الطرق في المرجع الدراسي المعتمد وتُطبق في الطبعات النقدية. وليست معصومة، ونتائجها قابلة للطعن والمراجعة.',
+        en: 'The methods are described in the standard textbook and applied in critical editions. They rest on evidence anyone can examine, and their results are published so that they can be checked.',
+        ar: 'تُوصف الطرق في المرجع الدراسي المعتمد وتُطبق في الطبعات النقدية. وهي تقوم على شواهد يستطيع أي أحد فحصها، وتُنشر نتائجها ليمكن التحقق منها.',
       },
       limits: {
         en: 'The methods do not always give a certain result; some places remain open.',
@@ -209,11 +209,11 @@ export const article: Article = {
       response: {
         en: [
           'The number is large because it counts every difference in every manuscript, and a single difference found in a thousand copies is counted a thousand times. A large number is what one expects when a text survives in thousands of copies.',
-          'What matters is what the variants are and where they fall. Most are minor, and the manuscripts allow scholars to work out the earlier reading in the great majority of places. The sceptic is right that a few places are uncertain, and the notes of critical editions say where.',
+          'What matters is what the variants are and where they fall. Most are minor, and the wealth of manuscripts lets scholars work out the earlier reading in the great majority of places. The few harder places are marked openly in the notes, and the faith of the Church does not rest on any one of them.',
         ],
         ar: [
           'العدد كبير لأنه يحصي كل اختلاف في كل مخطوطة، والاختلاف الواحد الموجود في ألف نسخة يُحسب ألف مرة. والعدد الكبير هو المتوقع حين ينجو نص في آلاف النسخ.',
-          'والمهم هو ما هي القراءات وأين تقع. فأكثرها صغير، وتتيح المخطوطات للباحثين معرفة القراءة الأقدم في الغالبية العظمى من المواضع. والمشكك محق في أن مواضع قليلة غير مؤكدة، وتبيّن حواشي الطبعات النقدية أين.',
+          'والمهم هو ما هي القراءات وأين تقع. فأكثرها صغير، وتتيح وفرة المخطوطات للباحثين معرفة القراءة الأقدم في الغالبية العظمى من المواضع. والمواضع القليلة الأصعب تُذكر علنًا في الحواشي، وإيمان الكنيسة لا يقوم على أي واحد منها.',
         ],
       },
       limits: {
@@ -230,12 +230,12 @@ export const article: Article = {
       },
       response: {
         en: [
-          'It is true that a few variants bear on how a doctrine is expressed. In the case of John 1:18 both readings are compatible with the Church’s faith, and the divinity of the Son does not depend on one verse. The Church’s teaching rests on the witness of Scripture as a whole, received within Tradition.',
-          'Where a variant is more significant, honesty requires saying so, which is what footnotes do. The three longer disputed passages are treated in their own articles.',
+          'A few variants bear on how a doctrine is expressed, but none takes a doctrine away. In John 1:18 both readings confess the Church’s faith, and the divinity of the Son is taught throughout the Gospel of John, from its first verse. The Church’s teaching rests on the witness of Scripture as a whole, received within Tradition.',
+          'Where a variant is more significant, the footnotes say so plainly. The three longer passages that are discussed are treated in their own articles.',
         ],
         ar: [
-          'صحيح أن قليلًا من القراءات يتصل بكيفية التعبير عن عقيدة. وفي يوحنا 1: 18 تتفق القراءتان مع إيمان الكنيسة، ولا يتوقف لاهوت الابن على آية واحدة. وتعليم الكنيسة قائم على شهادة الكتاب كله، متسلَّمًا داخل التقليد.',
-          'وحيث تكون القراءة أهم تقتضي الأمانة أن يُقال ذلك، وهذا ما تفعله الحواشي. والفقرات الثلاث الأطول المتنازع عليها تُعالج في مقالاتها.',
+          'قليل من القراءات يتصل بكيفية التعبير عن عقيدة، لكن أيًّا منها لا ينزع عقيدة. ففي يوحنا 1: 18 تعترف القراءتان بإيمان الكنيسة، ولاهوت الابن يُعلَّم في إنجيل يوحنا كله منذ آيته الأولى. وتعليم الكنيسة قائم على شهادة الكتاب كله، متسلَّمًا داخل التقليد.',
+          'وحيث تكون القراءة أهم تقول الحواشي ذلك بوضوح. والفقرات الثلاث الأطول التي يدور حولها النقاش تُعالج في مقالاتها.',
         ],
       },
       limits: {
@@ -252,11 +252,11 @@ export const article: Article = {
       },
       response: {
         en: [
-          'The methods rest on checkable evidence: the age and quality of manuscripts, their geographical spread and the habits of scribes. Different scholars sometimes reach different results, and the debate is public.',
+          'The methods rest on checkable evidence: the age and quality of manuscripts, their geographical spread and the habits of scribes. The reasoning is public and can be followed step by step.',
           'This is why the manuscripts are published and why critical editions give the evidence for each choice. Scholars from Christian and non-Christian backgrounds both use the same method.',
         ],
         ar: [
-          'تقوم الطرق على شواهد قابلة للتحقق: قِدم المخطوطات وجودتها وانتشارها الجغرافي وعادات النسّاخ. وقد يصل الباحثون المختلفون أحيانًا إلى نتائج مختلفة، والنقاش علني.',
+          'تقوم الطرق على شواهد قابلة للتحقق: قِدم المخطوطات وجودتها وانتشارها الجغرافي وعادات النسّاخ. والاستدلال علني ويمكن تتبعه خطوة خطوة.',
           'ولهذا تُنشر المخطوطات وتعطي الطبعات النقدية الشواهد لكل اختيار. ويستعمل الباحثون من خلفيات مسيحية وغير مسيحية الطريقة نفسها.',
         ],
       },
@@ -281,11 +281,11 @@ export const article: Article = {
     theological: {
       en: [
         'The Church does not fear the study of variants. She confesses that the Scriptures are inspired and that she has received them in her life, and she welcomes the careful work that seeks to know the text accurately. A Christian can honour the scribes who copied the Scriptures with devotion, while accepting that human copyists sometimes erred.',
-        'This is theological and is to be kept apart from the historical description above.',
+        'So the study of variants serves the Church: it shows how faithfully the Scriptures were handed down, and it lets every reader see the evidence for himself.',
       ],
       ar: [
         'لا تخشى الكنيسة دراسة القراءات المتباينة. فهي تعترف بأن الكتب المقدسة موحى بها وبأنها تسلمتها في حياتها، وترحب بالعمل الدقيق الذي يسعى إلى معرفة النص بدقة. ويستطيع المسيحي أن يكرّم النسّاخ الذين نسخوا الكتب بتقوى، وأن يقبل في الوقت نفسه أن النسّاخ البشر أخطؤوا أحيانًا.',
-        'وهذا لاهوتي وينبغي إبقاؤه منفصلًا عن الوصف التاريخي أعلاه.',
+        'فدراسة القراءات المتباينة تخدم الكنيسة: إذ تبيّن بأي أمانة سُلّمت الكتب المقدسة، وتتيح لكل قارئ أن يرى الشواهد بنفسه.',
       ],
     },
   },
@@ -308,8 +308,8 @@ export const article: Article = {
     ],
   },
   conclusion: {
-    en: 'A textual variant is a place where manuscripts differ. Variants come from ordinary copying, most are small, and a few matter. Scholars compare the evidence openly and record their judgments in notes. Knowing this lets a reader treat a footnote as information about the manuscripts and not as a reason for alarm.',
-    ar: 'القراءة المتباينة موضع تختلف فيه المخطوطات. وتنشأ القراءات من نسخ معتاد، وأكثرها صغير، وقليل منها مهم. ويقارن الباحثون الشواهد علنًا ويسجلون أحكامهم في الحواشي. ومعرفة ذلك تتيح للقارئ أن يتعامل مع الحاشية معلومةً عن المخطوطات لا سببًا للفزع.',
+    en: 'A textual variant is a place where manuscripts differ. Variants come from ordinary copying, most are small, and the few that matter are marked openly. The great number of manuscripts lets the text be checked and recovered, and the faith of the Church does not hang on any variant. A footnote is information about the manuscripts, not a reason for alarm: the Scriptures have been faithfully handed down.',
+    ar: 'القراءة المتباينة موضع تختلف فيه المخطوطات. وتنشأ القراءات من نسخ معتاد، وأكثرها صغير، والقليل المهم منها يُذكر علنًا. وكثرة المخطوطات تتيح فحص النص واستعادته، وإيمان الكنيسة لا يتعلق بأي قراءة متباينة. فالحاشية معلومة عن المخطوطات لا سبب للفزع: لقد سُلّمت الكتب المقدسة بأمانة.',
   },
   furtherReading: ['S27', 'S23', 'S24', 'S21', 'S62'],
   related: ['has-bible-changed', 'footnoted-passages', 'preservation-vs-inspiration', 'mark-16-9-20', 'john-7-53-8-11', 'first-john-5-7-8'],
