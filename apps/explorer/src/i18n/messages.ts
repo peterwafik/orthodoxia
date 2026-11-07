@@ -122,6 +122,31 @@ const en = {
     spineHint: (count: string, one: boolean) =>
       `· ${count} ${one ? 'thread' : 'threads'} from here · click to read`,
   },
+  // Orthodoxia: why two linked passages belong together.
+  reasons: {
+    quotation: 'Quotation',
+    parallel: 'Same wording',
+    topic: (name: string) => `Topic: ${name}`,
+    words: (words: string) => `Shared words: ${words}`,
+    wordsShort: 'Shared words',
+    theme: 'Related theme',
+    unclear: 'No clear connection',
+    showUnclear: 'Show links without a clear connection',
+    showUnclearHint:
+      'Hidden by default: links whose passages share no wording, topic or uncommon words, and that few readers voted for.',
+  },
+  // Orthodoxia: the prophecies and symbols of Christ.
+  christ: {
+    toggle: 'Prophecies & symbols',
+    toggleHint: 'Show only the prophecies and symbols of Christ',
+    section: 'Fulfilled in Christ',
+    sectionDescription: 'prophecies and symbols',
+    prophecy: 'Prophecy',
+    symbol: 'Symbol',
+    count: (count: string) => `${count} prophecies and symbols`,
+    canvas:
+      'Threads from the verses of this chapter to the prophecies and symbols of Christ they belong to, shown on a vertical bar of all 66 books.',
+  },
   footer: {
     bible: 'Bible',
     holyMass: 'Holy Mass',
@@ -260,6 +285,29 @@ const ar: Messages = {
     canvas:
       'خيوط من آيات هذا الأصحاح إلى حيث تقع شواهدها في الكتاب المقدس، معروضة على شريط عمودي للأسفار الستة والستين.',
     spineHint: (count, one) => `· ${count} ${one ? 'خيط' : 'خيوط'} من هنا · انقر للقراءة`,
+  },
+  reasons: {
+    quotation: 'اقتباس',
+    parallel: 'نفس التعبير',
+    topic: (name) => `الموضوع: ${name}`,
+    words: (words) => `كلمات مشتركة: ${words}`,
+    wordsShort: 'كلمات مشتركة',
+    theme: 'موضوع مرتبط',
+    unclear: 'لا صلة واضحة',
+    showUnclear: 'اعرض الروابط التي ليست لها صلة واضحة',
+    showUnclearHint:
+      'مخفية افتراضيًا: روابط لا تشترك نصوصها في كلمات أو موضوع أو ألفاظ نادرة، وصوّت لها عدد قليل من القرّاء.',
+  },
+  christ: {
+    toggle: 'النبوات والرموز',
+    toggleHint: 'اعرض النبوات والرموز التي تشير إلى المسيح فقط',
+    section: 'إتمامها في المسيح',
+    sectionDescription: 'نبوات ورموز',
+    prophecy: 'نبوة',
+    symbol: 'رمز',
+    count: (count) => `${count} من النبوات والرموز`,
+    canvas:
+      'خيوط من آيات هذا الأصحاح إلى النبوات والرموز التي تشير إلى المسيح، معروضة على شريط عمودي للأسفار الستة والستين.',
   },
   footer: {
     bible: 'الكتاب المقدس',

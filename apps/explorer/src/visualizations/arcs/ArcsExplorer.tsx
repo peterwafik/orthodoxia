@@ -35,8 +35,8 @@ export function ArcsExplorer({
 }: VisualizationProps) {
   const { index } = data.crossReferences;
   const linkIds = useMemo(
-    () => selectLinks(index, data.verseGenres, filter),
-    [index, data.verseGenres, filter],
+    () => selectLinks(index, data.verseGenres, filter, data.linkReasons),
+    [index, data.verseGenres, filter, data.linkReasons],
   );
   const summary = useMemo(
     () => summarizeLinks(index, linkIds, data.verseGenres),

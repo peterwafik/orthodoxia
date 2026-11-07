@@ -51,6 +51,18 @@ export function FiltersMenu({
           ))}
         </select>
       </label>
+      {/* Orthodoxia: links with no clear reason stay hidden unless the reader asks for them. */}
+      <label className={styles.check}>
+        <input
+          type="checkbox"
+          checked={filter.showUnclear}
+          onChange={(event) => {
+            onChange({ ...filter, showUnclear: event.target.checked });
+          }}
+        />
+        {t.reasons.showUnclear}
+      </label>
+      <p className={styles.hint}>{t.reasons.showUnclearHint}</p>
       <p className={styles.hint}>
         {t.filters.explanation(
           formatInteger(shownLinks),

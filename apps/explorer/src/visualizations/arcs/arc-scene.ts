@@ -53,8 +53,11 @@ type ArcObject =
   | LineSegments<InstancedBufferGeometry, RawShaderMaterial>
   | Mesh<InstancedBufferGeometry, RawShaderMaterial>;
 
-/** Glow brightness while a passage is focused, so its own links stand out. */
-const DIMMED_GLOW = 0.28;
+/**
+ * Glow brightness while a passage is focused. Orthodoxia: 0, so only the passage's own links are
+ * drawn (upstream: 0.28, which kept every other arc faintly visible and read as more links).
+ */
+const DIMMED_GLOW = 0;
 /** The focused passage's links; faded while one link is previewed on its own. */
 const FOCUS_ALPHA = 0.95;
 const FOCUS_ALPHA_UNDER_PREVIEW = 0.22;

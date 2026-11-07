@@ -1,7 +1,14 @@
 import { useMemo, useState } from 'react';
 import type { BookId } from '../../core/bible/books.ts';
 import { passageRange, type Passage } from '../../core/bible/passage.ts';
-import { BothDirectionsIcon, IncomingIcon, OutgoingIcon } from '../../shared/ui/icons.tsx';
+import {
+  BothDirectionsIcon,
+  ChristIcon,
+  IncomingIcon,
+  OutgoingIcon,
+} from '../../shared/ui/icons.tsx';
+import { useBooleanPreference } from '../../shared/lib/preferences.ts';
+import controls from '../shared/components/controls.module.css';
 import { FiltersMenu } from '../shared/components/FiltersMenu.tsx';
 import { GenreMenu } from '../shared/components/GenreMenu.tsx';
 import { toggleGenre } from '../shared/components/GenreToggles.tsx';
@@ -52,12 +59,14 @@ export function ThreadsExplorer({
   shareUrl,
 }: VisualizationProps) {
   const [direction, setDirection] = useState<ThreadDirection>('outgoing');
+  // Orthodoxia: threads of the prophecies and symbols of Christ only; remembered between visits.
+  const [christMode, setChristMode] = useBooleanPreference('christ-mode', false);
   const { book, chapter } = chapterOf(passage, data);
   const selectedVerse = passage?.kind === 'verse' ? passage.verse : null;
   const { index } = data.crossReferences;
   const shownLinks = useMemo(
-    () => selectLinks(index, data.verseGenres, filter).length,
-    [index, data.verseGenres, filter],
+    () => selectLinks(index, data.verseGenres, filter, data.linkReasons).length,
+    [index, data.verseGenres, filter, data.linkReasons],
   );
   // Closing the details keeps the chapter.
   const closePanel = () => {
@@ -77,13 +86,29 @@ export function ThreadsExplorer({
       controls={
         <>
           <ReferenceSearch versification={data.versification} onSelect={onNavigate} />
-          <SegmentedControl
-            label={t.threads.direction}
-            options={DIRECTIONS}
-            value={direction}
-            onChange={setDirection}
-            iconsOnlyOnPhones
-          />
+          <button
+            type="button"
+            className={`${controls.button} ${controls.menuButton} ${controls.christ}`}
+            aria-pressed={christMode}
+            aria-label={t.christ.toggle}
+            title={t.christ.toggleHint}
+            onClick={() => {
+              setChristMode(!christMode);
+            }}
+          >
+            <ChristIcon />
+            <span className={controls.menuLabel}>{t.christ.toggle}</span>
+          </button>
+          {/* Prophecies and symbols are drawn both ways, so the direction only applies to the rest. */}
+          {!christMode && (
+            <SegmentedControl
+              label={t.threads.direction}
+              options={DIRECTIONS}
+              value={direction}
+              onChange={setDirection}
+              iconsOnlyOnPhones
+            />
+          )}
           <GenreMenu
             hiddenGenres={filter.hiddenGenres}
             onToggle={(genre) => {
@@ -123,6 +148,7 @@ export function ThreadsExplorer({
         selectedVerse={selectedVerse}
         filter={filter}
         direction={direction}
+        christMode={christMode}
         preview={previewed}
         onSelect={onNavigate}
       />

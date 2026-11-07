@@ -8,6 +8,7 @@ import type {
 } from '../../cross-references/cross-reference-index.ts';
 import { compileLinkFilter, type LinkFilter } from './link-filter.ts';
 import { t } from '../../i18n/messages.ts';
+import type { LinkReasons } from '../../link-reasons/link-reasons.ts';
 
 export type LinkDirection = 'outgoing' | 'incoming';
 
@@ -39,15 +40,16 @@ export function collectConnections(
   range: VerseIndexRange,
   filter: LinkFilter,
   verseGenres: Uint8Array,
+  reasons?: LinkReasons,
 ): PassageConnections {
-  const passes = compileLinkFilter(filter, verseGenres);
+  const passes = compileLinkFilter(filter, verseGenres, reasons);
   const outgoing: Connection[] = [];
   const incoming: Connection[] = [];
   const seenIncoming = new Set<number>();
 
   for (let verse = range.start; verse <= range.end; verse += 1) {
     for (const link of index.outgoing(verse)) {
-      if (passes(link.from, link.targetStart, link.votes)) {
+      if (passes(link.from, link.targetStart, link.votes, link.id)) {
         outgoing.push({
           link,
           direction: 'outgoing',
@@ -63,7 +65,7 @@ export function collectConnections(
         continue;
       }
       seenIncoming.add(link.id);
-      if (passes(link.from, link.targetStart, link.votes)) {
+      if (passes(link.from, link.targetStart, link.votes, link.id)) {
         incoming.push({
           link,
           direction: 'incoming',

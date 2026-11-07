@@ -86,3 +86,54 @@ checklist (`docs/phase-0/04-feature-parity-checklist.md`) and record the new ups
 ## Site look (glass header, lit background)
 
 The header is a floating glass bar and the page has the site's lit background, as on every other page. The site menu also lists Holy Mass, Church history and Faith & Evidence. Files: `src/shared/styles/global.css` (glass tokens), `src/visualizations/shared/components/VizPage.module.css`, `src/shared/ui/SiteNav.tsx`, `src/i18n/messages.ts`.
+
+## Prophecies and symbols of Christ
+
+A hand-picked list of Old Testament prophecies and symbols, each paired with where the New Testament
+shows it fulfilled (e.g. Micah 5:2 → Matthew 2:6; Isaac carrying the wood → John 19:17), with a short
+title in English and Arabic. It sits beside the OpenBible links, which carry no reason of their own.
+
+- `src/christ-links/` (new): the list (`christ-links-data.ts`), its index (`christ-links.ts`, link IDs
+  from 100,000,000 so they never meet the cross-reference index) and tests that every reference is a
+  real verse, Old Testament first and New Testament second.
+- Threads: a "Prophecies & symbols" toggle (remembered) draws only these pairs, both ways, in the site's
+  gold, and hides the direction switch. `ThreadsExplorer.tsx`, `ThreadsStage.tsx` (+ `.module.css`),
+  `threads-drawing.ts` (`threadColor`), `controls.module.css` (`.christ`), `icons.tsx` (`ChristIcon`).
+- Details panel (both views): a "Fulfilled in Christ" section first, titled per prophecy or symbol.
+  `PassagePanel.tsx` (+ `.module.css`).
+- Arcs: previewing one of these links draws its gold arc from its ends (`buildArcInstancesOf` in
+  `arc-instances.ts`, used by `ArcsStage.tsx`).
+- `palette.ts`: `VizColors.accent`; `messages.ts`: the `christ` strings.
+
+## Why two passages are linked (link reasons)
+
+OpenBible.info links say nothing about why two passages belong together, and many have no visible
+connection. At build time every link gets a reason, the first that holds (BSB text, the site's topic
+list from `apps/web/src/lib/topics/`); links with none are hidden by default:
+
+| Tag             | When                                                                                    |
+| --------------- | --------------------------------------------------------------------------------------- |
+| Quotation       | Old ↔ New Testament, sharing a run of 4+ words, 2+ of them meaningful                   |
+| Same wording    | the same within one Testament (parallel accounts, repeated laws and phrases)            |
+| Topic: …        | both in one specific subtopic of the site's topic list (≤ 150 verses; smallest named)   |
+| Shared words: … | 2+ uncommon words, one fairly rare (≤ 120 verses), or 1 very rare word (≤ 25); no names |
+| Related theme   | none of these, but 50+ readers' votes                                                   |
+
+Then each verse keeps only its 10 strongest links leaving it and the 10 strongest reaching it.
+With the default 4-vote filter about 39,000 links show instead of 153,419; spot checks of each tag
+across the Bible found roughly 85–95% clearly related. Filters → "Show links without a clear
+connection" brings the rest back.
+
+- `scripts/data/link-reasons.ts` (new, run by `data:build` after `build.ts`) →
+  `public/data/cross-references/openbible-reasons.json`; rules in `src/link-reasons/evidence.ts`,
+  file format in `format.ts`, reader in `link-reasons.ts` (all new).
+- `viz-data.ts` / `viz-datasets.ts`: the reasons load (and preload, and cache offline) with the other datasets.
+- `link-filter.ts`: `LinkFilter.showUnclear`; `compileLinkFilter`, `selectLinks` and `collectConnections`
+  take the reasons (all callers pass `data.linkReasons`); URL `unclear=show` (`explorer-location.ts`).
+- Arcs: focusing a passage hides every other arc (`arc-scene.ts`, `DIMMED_GLOW` 0.28 → 0), and its
+  prophecies and symbols of Christ are drawn in gold (`u_palette` gets an 11th entry, a bright gold:
+  `arc-shaders.ts`, `webgl.ts` `GOLD_PALETTE_INDEX`; `buildArcInstancesOf`/`joinArcInstances` in
+  `arc-instances.ts`, used by `ArcsStage.tsx`). Threads draws every verse's threads faded at rest (alpha 0.1–0.35, upstream 0.18–0.68) and the
+  picked verse's clearly (`threads-drawing.ts`).
+- `FiltersMenu.tsx` (checkbox), `PassagePanel.tsx` (+ `.module.css`: a reason tag on every reference; a
+  passage that is both a reference and points back is listed once), `messages.ts` (`reasons`).

@@ -7,6 +7,7 @@ import { createCachedLoader } from '../../shared/lib/cached-loader.ts';
 import { loadTranslation } from '../../translations/load-translation.ts';
 import type { Translation } from '../../translations/translation.ts';
 import { computeVerseGenres } from './verse-genres.ts';
+import { fetchLinkReasons, LinkReasons } from '../../link-reasons/link-reasons.ts';
 import { vizDatasets } from './viz-datasets.ts';
 
 /** Everything a visualization needs, loaded once per page. */
@@ -16,16 +17,20 @@ export interface VizData {
   readonly crossReferences: CrossReferenceDataset;
   /** Genre ordinal of every verse. */
   readonly verseGenres: Uint8Array;
+  /** Orthodoxia: why each cross-reference links its passages, or that it is unclear. */
+  readonly linkReasons: LinkReasons;
 }
 
 export const vizDataLoader = createCachedLoader(async (): Promise<VizData> => {
   const { translation, crossReferences } = vizDatasets();
   // Both files download at once (and the HTML has already started them, see vizDatasetPaths).
-  const [loadedTranslation, loadedReferences] = await Promise.all([
+  const [loadedTranslation, loadedReferences, reasons] = await Promise.all([
     loadTranslation(translation),
     loadCrossReferences(crossReferences),
+    fetchLinkReasons(),
   ]);
   return {
+    linkReasons: new LinkReasons(reasons, loadedReferences.dataset.index.linkCount),
     versification: CANONICAL_VERSIFICATION,
     translation: loadedTranslation.translation,
     crossReferences: loadedReferences.dataset,

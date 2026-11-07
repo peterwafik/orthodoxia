@@ -10,6 +10,7 @@ import {
   LuChevronLeft,
   LuChevronRight,
   LuCopy,
+  LuCross,
   LuHand,
   LuMouse,
   LuMenu,
@@ -85,3 +86,6 @@ export const GenresIcon = decorative(LuPalette);
 export const OutgoingIcon = decorative(LuArrowRight);
 export const IncomingIcon = decorative(LuArrowLeft);
 export const BothDirectionsIcon = decorative(LuArrowRightLeft);
+
+// Orthodoxia: the prophecies and symbols of Christ.
+export const ChristIcon = decorative(LuCross);

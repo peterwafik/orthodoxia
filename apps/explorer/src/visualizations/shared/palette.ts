@@ -12,6 +12,8 @@ export interface VizColors {
   readonly text: string;
   readonly muted: string;
   readonly axis: string;
+  /** Orthodoxia: the site's gold, for the prophecies and symbols of Christ. */
+  readonly accent: string;
 }
 
 export const VIZ_COLORS: Readonly<Record<Theme, VizColors>> = {
@@ -22,6 +24,7 @@ export const VIZ_COLORS: Readonly<Record<Theme, VizColors>> = {
       text: '#ede7d8',
       muted: '#aeb6c6',
       axis: '#2a3a60',
+      accent: '#d9b45a',
     };
   },
   get light(): VizColors {
@@ -31,6 +34,7 @@ export const VIZ_COLORS: Readonly<Record<Theme, VizColors>> = {
       text: '#1a2340',
       muted: '#4b5567',
       axis: '#d6ccb6',
+      accent: '#7a5a12',
     };
   },
 };

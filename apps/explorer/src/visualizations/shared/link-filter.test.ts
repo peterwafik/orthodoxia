@@ -27,7 +27,11 @@ describe('selectLinks', () => {
   });
 
   it('hides links that touch a hidden genre at either end', () => {
-    const filter = { minVotes: -Infinity, hiddenGenres: new Set(['poetry'] as const) };
+    const filter = {
+      minVotes: -Infinity,
+      hiddenGenres: new Set(['poetry'] as const),
+      showUnclear: false,
+    };
     const ids = selectLinks(index, verseGenres, filter);
     expect(Array.from(ids, (id) => index.link(id).votes)).toEqual([12]);
   });
@@ -38,6 +42,11 @@ describe('isDefaultFilter', () => {
     const defaults = createLinkFilter(5);
     expect(isDefaultFilter(createLinkFilter(5), defaults)).toBe(true);
     expect(isDefaultFilter(createLinkFilter(1), defaults)).toBe(false);
-    expect(isDefaultFilter({ minVotes: 5, hiddenGenres: new Set(['acts']) }, defaults)).toBe(false);
+    expect(
+      isDefaultFilter(
+        { minVotes: 5, hiddenGenres: new Set(['acts']), showUnclear: false },
+        defaults,
+      ),
+    ).toBe(false);
   });
 });

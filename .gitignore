@@ -26,3 +26,5 @@ data/commentary/malaty/html/
 .env*
 data/atlas/raw/
 data/agpeya/raw/
+
+.superpowers/

@@ -18,6 +18,7 @@ import { useBooleanPreference } from '../../../shared/lib/preferences.ts';
 import {
   CloseIcon,
   CopiedIcon,
+  ChristIcon,
   CopyIcon,
   ExpandIcon,
   IncomingIcon,
@@ -34,6 +35,10 @@ import { genreCssColor } from '../palette.ts';
 import type { VizData } from '../viz-data.ts';
 import styles from './PassagePanel.module.css';
 import { t } from '../../../i18n/messages.ts';
+import { christLinks, type ChristConnection } from '../../../christ-links/christ-links.ts';
+import type { ChristLinkEntry } from '../../../christ-links/christ-links-data.ts';
+import { LOCALE, localized } from '../../../i18n/locale.ts';
+import type { LinkReason } from '../../../link-reasons/link-reasons.ts';
 
 interface PassagePanelProps {
   readonly data: VizData;
@@ -195,8 +200,9 @@ export function PassagePanel({
         passageRange(passage, versification),
         filter,
         verseGenres,
+        data.linkReasons,
       ),
-    [crossReferences.index, passage, versification, filter, verseGenres],
+    [crossReferences.index, passage, versification, filter, verseGenres, data.linkReasons],
   );
   const range = passageRange(passage, versification);
   const book = versification.bookAt(range.start);
@@ -268,21 +274,45 @@ export function PassagePanel({
               />
             </div>
             {actions && <div className={styles.actions}>{actions}</div>}
+            <ChristSection
+              start={range.start}
+              end={range.end}
+              showSourceVerse={false}
+              data={data}
+              onSelect={onSelect}
+              onPreview={onPreview}
+              shareUrl={shareUrl}
+            />
           </>
         ) : (
           <>
             {actions && <div className={styles.actions}>{actions}</div>}
+            <ChristSection
+              start={range.start}
+              end={range.end}
+              showSourceVerse
+              data={data}
+              onSelect={onSelect}
+              onPreview={onPreview}
+              shareUrl={shareUrl}
+            />
             <ChapterVerses
               start={range.start}
               end={range.end}
               translation={translation}
-              connections={[...connections.outgoing, ...connections.incoming]}
+              connections={[
+                ...connections.outgoing,
+                ...withoutMutual(connections.incoming, connections.outgoing),
+              ]}
               onSelect={onSelect}
             />
           </>
         )}
         <GenreBreakdown
-          connections={[...connections.outgoing, ...connections.incoming]}
+          connections={[
+            ...connections.outgoing,
+            ...withoutMutual(connections.incoming, connections.outgoing),
+          ]}
           verseGenres={verseGenres}
         />
         <ConnectionSection
@@ -300,7 +330,7 @@ export function PassagePanel({
           icon={IncomingIcon}
           title={t.panel.referencedBy}
           description={t.panel.referencedByDescription}
-          connections={connections.incoming}
+          connections={withoutMutual(connections.incoming, connections.outgoing)}
           showSourceVerse={passage.kind === 'chapter'}
           data={data}
           onSelect={onSelect}
@@ -512,6 +542,7 @@ function ConnectionSection({
                   <span className={styles.itemRef}>
                     <strong>{reference}</strong>
                     {note !== null && <span className={styles.muted}>{note}</span>}
+                    <ReasonTag reason={data.linkReasons.reasonOf(connection.link.id)} />
                   </span>
                   <ConnectionText
                     translation={translation}
@@ -551,4 +582,142 @@ function ConnectionSection({
       )}
     </section>
   );
+}
+
+/**
+ * Orthodoxia: the prophecies and symbols of Christ this passage belongs to, first, since they are
+ * what a Bible study looks for. Each is titled once, then lists where it leads (from a prophecy to
+ * its fulfilment, or back), in the same form as the references below.
+ */
+function ChristSection({
+  start,
+  end,
+  showSourceVerse,
+  data,
+  onSelect,
+  onPreview,
+  shareUrl,
+}: {
+  readonly start: VerseIndex;
+  readonly end: VerseIndex;
+  readonly showSourceVerse: boolean;
+  readonly data: VizData;
+  readonly onSelect: (passage: Passage) => void;
+  readonly onPreview: ((connection: Connection | null) => void) | undefined;
+  readonly shareUrl: (passage: Passage) => string;
+}) {
+  const { versification, translation } = data;
+  const groups = useMemo(() => {
+    const byEntry = new Map<ChristLinkEntry, ChristConnection[]>();
+    for (const connection of christLinks().connectionsIn({ start, end })) {
+      byEntry.set(connection.entry, [...(byEntry.get(connection.entry) ?? []), connection]);
+    }
+    return [...byEntry];
+  }, [start, end]);
+  if (groups.length === 0) {
+    return null;
+  }
+  return (
+    <section className={styles.christ}>
+      <h3 className={styles.sectionTitle}>
+        <ChristIcon className={styles.sectionIcon} />
+        {t.christ.section} <span>· {t.christ.sectionDescription}</span>
+      </h3>
+      {groups.map(([entry, connections]) => (
+        <div key={entry.en} className={styles.group}>
+          <p className={styles.christTitle}>
+            <span className={styles.christKind}>{t.christ[entry.kind]}</span>
+            {localized(entry)}
+          </p>
+          {connections.map((connection) => {
+            const note = landingNote(connection, versification, showSourceVerse);
+            const reference = formatVerseIndexRange(
+              versification,
+              connection.otherStart,
+              connection.otherEnd,
+            );
+            return (
+              <div
+                key={`${String(connection.link.id)}-${connection.direction}`}
+                className={styles.quotable}
+                onPointerEnter={(event) => {
+                  if (event.pointerType === 'mouse') onPreview?.(connection);
+                }}
+                onPointerLeave={() => {
+                  onPreview?.(null);
+                }}
+              >
+                <button
+                  type="button"
+                  className={styles.item}
+                  onClick={() => {
+                    onSelect(versePassage(connection.otherStart));
+                  }}
+                  onFocus={() => {
+                    onPreview?.(connection);
+                  }}
+                  onBlur={() => {
+                    onPreview?.(null);
+                  }}
+                >
+                  <span className={styles.itemRef}>
+                    <strong>{reference}</strong>
+                    {note !== null && <span className={styles.muted}>{note}</span>}
+                  </span>
+                  <ConnectionText
+                    translation={translation}
+                    versification={versification}
+                    start={connection.otherStart}
+                    end={connection.otherEnd}
+                  />
+                </button>
+                <CopyQuoteButton
+                  reference={reference}
+                  quote={() =>
+                    quotePassage({
+                      translation,
+                      versification,
+                      start: connection.otherStart,
+                      end: connection.otherEnd,
+                      url: shareUrl(versePassage(connection.otherStart)),
+                    })
+                  }
+                />
+              </div>
+            );
+          })}
+        </div>
+      ))}
+    </section>
+  );
+}
+
+/** Orthodoxia: why a reference belongs with the passage, in a few words. */
+function ReasonTag({ reason }: { readonly reason: LinkReason }) {
+  const label =
+    reason.kind === 'topic'
+      ? t.reasons.topic(localized(reason.topic))
+      : reason.kind === 'words'
+        ? // The words are the English text's; the Arabic page names the reason only.
+          LOCALE === 'en'
+          ? t.reasons.words(reason.words.split(' ').join(', '))
+          : t.reasons.wordsShort
+        : t.reasons[reason.kind];
+  return (
+    <span className={styles.reason} data-kind={reason.kind}>
+      {label}
+    </span>
+  );
+}
+
+/**
+ * Orthodoxia: incoming links whose passage is already listed as a reference (two passages that point
+ * to each other), so each connection is listed once.
+ */
+function withoutMutual(
+  incoming: readonly Connection[],
+  outgoing: readonly Connection[],
+): Connection[] {
+  const listed = new Set(outgoing.map((connection) => connection.otherStart));
+  return incoming.filter((connection) => !listed.has(connection.otherStart));
 }

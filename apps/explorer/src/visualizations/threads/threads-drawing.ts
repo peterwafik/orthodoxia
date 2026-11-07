@@ -34,6 +34,8 @@ export interface ThreadsDrawing {
   readonly emphasizedBook: BookId | null;
   /** A link pointed at in the details panel: it alone stands out. */
   readonly emphasizedLink: number | null;
+  /** Orthodoxia: one color for every thread (the prophecies and symbols), instead of genres. */
+  readonly threadColor?: string;
 }
 
 const LABEL_FONT = '10px system-ui, -apple-system, "Segoe UI", sans-serif';
@@ -84,11 +86,18 @@ function drawConnections(context: CanvasRenderingContext2D, drawing: ThreadsDraw
       threads.push({
         y: anchor.y,
         target: spine.yOf((connection.otherStart + connection.otherEnd) / 2),
-        color: elementAt(
-          drawing.colors.genres,
-          elementAt(drawing.verseGenres, connection.otherStart),
-        ),
-        alpha: emphasized ? 0.95 : hasEmphasis ? 0.06 + 0.1 * weight : 0.18 + 0.5 * weight,
+        color:
+          drawing.threadColor ??
+          elementAt(drawing.colors.genres, elementAt(drawing.verseGenres, connection.otherStart)),
+        // Prophecies and symbols are few and hand-picked: drawn clearly, not faded by votes.
+        alpha: emphasized
+          ? 0.95
+          : hasEmphasis
+            ? 0.06 + 0.1 * weight
+            : drawing.threadColor
+              ? 0.75
+              : // Orthodoxia: faded at rest (upstream 0.18 + 0.5 × weight), clear once a verse is picked.
+                0.1 + 0.25 * weight,
         emphasized,
       });
     }
@@ -99,7 +108,7 @@ function drawConnections(context: CanvasRenderingContext2D, drawing: ThreadsDraw
   for (const thread of threads) {
     context.globalAlpha = thread.alpha;
     context.strokeStyle = thread.color;
-    context.lineWidth = thread.emphasized ? 1.6 : 1;
+    context.lineWidth = thread.emphasized ? 1.6 : drawing.threadColor ? 1.3 : 1;
     context.beginPath();
     context.moveTo(0, thread.y);
     context.bezierCurveTo(

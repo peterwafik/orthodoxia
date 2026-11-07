@@ -17,7 +17,7 @@ const COMMON = /* glsl */ `
   uniform float u_maxHeight; // tallest arc, px
   uniform float u_vertical;  // 0: horizontal axis, arcs rise up; 1: vertical axis, arcs go right
   uniform float u_reveal;    // share of every arc drawn, from its source: the intro grows it to 1
-  uniform vec3 u_palette[10];
+  uniform vec3 u_palette[11]; // the 10 genres, then (Orthodoxia) the gold of Christ's links
 
   const float PI = 3.14159265;
 

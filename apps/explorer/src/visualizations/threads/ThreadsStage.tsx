@@ -17,6 +17,7 @@ import { drawThreads, spineBar, type VerseAnchor } from './threads-drawing.ts';
 import styles from './ThreadsStage.module.css';
 import { DIRECTION } from '../../i18n/locale.ts';
 import { t } from '../../i18n/messages.ts';
+import { christLinks } from '../../christ-links/christ-links.ts';
 
 export type ThreadDirection = 'outgoing' | 'incoming' | 'both';
 
@@ -27,6 +28,11 @@ interface ThreadsStageProps {
   readonly selectedVerse: VerseIndex | null;
   readonly filter: LinkFilter;
   readonly direction: ThreadDirection;
+  /**
+   * Orthodoxia: show only the prophecies and symbols of Christ, in gold, both ways (a prophecy and
+   * its fulfilment point to each other), instead of the cross-references.
+   */
+  readonly christMode?: boolean;
   /**
    * A connection pointed at in the details panel: its thread stands out, and its whole passage is
    * marked where the chapter holds it (the selected verse keeps its own highlight).
@@ -57,6 +63,7 @@ export function ThreadsStage({
   selectedVerse,
   filter,
   direction,
+  christMode = false,
   preview,
   onSelect,
 }: ThreadsStageProps) {
@@ -79,11 +86,19 @@ export function ThreadsStage({
   const gutterWidth = canvasSize.width - (compact ? SPINE_WIDTH.compact : SPINE_WIDTH.wide);
 
   const connectionsByVerse = useMemo(() => {
+    if (christMode) {
+      const byVerse = new Map<VerseIndex, Connection[]>();
+      for (const connection of christLinks().connectionsIn({ start, end })) {
+        byVerse.set(connection.here, [...(byVerse.get(connection.here) ?? []), connection]);
+      }
+      return byVerse;
+    }
     const connections = collectConnections(
       crossReferences.index,
       { start, end },
       filter,
       verseGenres,
+      data.linkReasons,
     );
     const shown: Connection[] = [
       ...(direction === 'incoming' ? [] : connections.outgoing),
@@ -94,7 +109,16 @@ export function ThreadsStage({
       byVerse.set(connection.here, [...(byVerse.get(connection.here) ?? []), connection]);
     }
     return byVerse;
-  }, [crossReferences.index, start, end, filter, verseGenres, direction]);
+  }, [
+    crossReferences.index,
+    start,
+    end,
+    filter,
+    verseGenres,
+    direction,
+    christMode,
+    data.linkReasons,
+  ]);
 
   const spine = useMemo(
     () =>
@@ -158,6 +182,7 @@ export function ThreadsStage({
         emphasizedVerse,
         emphasizedBook,
         emphasizedLink,
+        ...(christMode && { threadColor: VIZ_COLORS[theme].accent }),
       });
     });
     scheduler.request();
@@ -182,6 +207,7 @@ export function ThreadsStage({
     emphasizedBook,
     emphasizedLink,
     theme,
+    christMode,
   ]);
 
   // Condense the chapter header once the reader scrolls, and track the verse at the top.
@@ -308,6 +334,7 @@ export function ThreadsStage({
                   }}
                   className={styles.verse}
                   data-selected={verse === selectedVerse}
+                  data-christ={christMode && count > 0}
                   data-linked={linked !== null && verse >= linked.start && verse <= linked.end}
                   onPointerEnter={(event) => {
                     if (event.pointerType === 'mouse') setHoverVerse(verse);
@@ -338,7 +365,14 @@ export function ThreadsStage({
                   >
                     {text || t.panel.omitted(translation.manifest.abbreviation)}
                   </span>
-                  <span className={styles.count} title={t.threads.connections(String(count))}>
+                  <span
+                    className={styles.count}
+                    title={
+                      christMode
+                        ? t.christ.count(String(count))
+                        : t.threads.connections(String(count))
+                    }
+                  >
                     {count > 0 ? formatInteger(count) : ''}
                   </span>
                 </li>
@@ -378,7 +412,7 @@ export function ThreadsStage({
           ref={canvasRef}
           className={styles.canvas}
           role="img"
-          aria-label={t.threads.canvas}
+          aria-label={christMode ? t.christ.canvas : t.threads.canvas}
         />
         {spineHover && (
           <div className={styles.tooltip} style={{ top: spineHover.y }}>

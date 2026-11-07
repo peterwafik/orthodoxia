@@ -13,6 +13,8 @@ const PASSAGE_PARAM = 'ref';
 const VOTES_PARAM = 'votes';
 /** Hidden genres, comma-separated, e.g. `hide=law,history`. */
 const HIDE_PARAM = 'hide';
+/** Orthodoxia: `unclear=show` also shows links with no clear reason. */
+const UNCLEAR_PARAM = 'unclear';
 
 /** A page of the explorer: which view it shows, and where. */
 export interface ViewRoute<Id extends string> {
@@ -39,6 +41,7 @@ function parseFilter(params: URLSearchParams): LinkFilter {
         ? minVotes
         : DEFAULT_LINK_FILTER.minVotes,
     hiddenGenres: new Set(GENRES.filter(({ id }) => hidden.has(id)).map(({ id }) => id)),
+    showUnclear: params.get(UNCLEAR_PARAM) === 'show',
   };
 }
 
@@ -88,6 +91,9 @@ export function explorerUrl(
   if (filter.hiddenGenres.size > 0) {
     const hidden = GENRES.filter(({ id }) => filter.hiddenGenres.has(id)).map(({ id }) => id);
     params.set(HIDE_PARAM, hidden.join(','));
+  }
+  if (filter.showUnclear) {
+    params.set(UNCLEAR_PARAM, 'show');
   }
   // Commas are fine in a query and far more readable than %2C.
   const query = params.toString().replaceAll('%2C', ',');

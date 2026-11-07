@@ -6,7 +6,10 @@ import { collectConnections, connectionLinkIds, type Connection } from '../share
 import type { LinkFilter } from '../shared/link-filter.ts';
 import { useElementSize } from '../shared/use-element-size.ts';
 import type { VizData } from '../shared/viz-data.ts';
-import { buildArcInstances } from './arc-instances.ts';
+import { buildArcInstances, buildArcInstancesOf, joinArcInstances } from './arc-instances.ts';
+import { christLinks } from '../../christ-links/christ-links.ts';
+import { GOLD_PALETTE_INDEX } from '../shared/webgl.ts';
+import { isChristLinkId } from '../../christ-links/christ-links.ts';
 import { useTheme } from '../../shared/lib/theme.ts';
 import { ArcsController, type ArcHover } from './arcs-controller.ts';
 import styles from './ArcsStage.module.css';
@@ -94,10 +97,22 @@ export function ArcsStage({
   useEffect(() => {
     const { index } = data.crossReferences;
     controllerRef.current?.setLinkResolver((range) =>
-      buildArcInstances(
-        index,
-        connectionLinkIds(collectConnections(index, range, filter, data.verseGenres)),
-        data.verseGenres,
+      joinArcInstances(
+        buildArcInstances(
+          index,
+          connectionLinkIds(
+            collectConnections(index, range, filter, data.verseGenres, data.linkReasons),
+          ),
+          data.verseGenres,
+        ),
+        // Orthodoxia: the passage's prophecies and symbols of Christ, in gold, drawn last (on top).
+        buildArcInstancesOf(
+          christLinks()
+            .connectionsIn(range)
+            .map((connection) => connection.link),
+          data.verseGenres,
+          GOLD_PALETTE_INDEX,
+        ),
       ),
     );
   }, [data, filter]);
@@ -111,11 +126,13 @@ export function ArcsStage({
     controllerRef.current?.setPreview(
       link
         ? {
-            links: buildArcInstances(
-              data.crossReferences.index,
-              Int32Array.of(link.id),
-              data.verseGenres,
-            ),
+            links: isChristLinkId(link.id)
+              ? buildArcInstancesOf([link], data.verseGenres, GOLD_PALETTE_INDEX)
+              : buildArcInstances(
+                  data.crossReferences.index,
+                  Int32Array.of(link.id),
+                  data.verseGenres,
+                ),
             passage: { start: link.targetStart, end: link.targetEnd },
           }
         : null,
@@ -201,9 +218,10 @@ function HoverTooltip({
       passageRange(hover.passage, versification),
       filter,
       verseGenres,
+      data.linkReasons,
     );
     return connectionLinkIds(connections).length;
-  }, [crossReferences.index, hover.passage, versification, filter, verseGenres]);
+  }, [crossReferences.index, hover.passage, versification, filter, verseGenres, data.linkReasons]);
   // After every render: the content, and so the size, changes with the passage. Before paint, so
   // the tooltip never shows in the wrong place.
   useLayoutEffect(() => {

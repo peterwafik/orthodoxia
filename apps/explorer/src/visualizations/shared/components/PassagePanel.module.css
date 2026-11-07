@@ -371,3 +371,50 @@
   font-variant-numeric: tabular-nums;
   text-align: end;
 }
+
+/* Orthodoxia: the prophecies and symbols of Christ, first in the details, marked in the site's gold. */
+.christ .sectionTitle,
+.christ .sectionIcon {
+  color: var(--color-accent);
+}
+
+.christTitle {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 var(--space-2);
+  align-items: baseline;
+  margin: 0;
+  padding-inline: var(--space-2);
+  font-weight: 600;
+  font-size: 0.875rem;
+}
+
+.christKind {
+  color: var(--color-accent);
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+/* Orthodoxia: why a reference belongs with the passage. A quotation or parallel stands out in gold;
+   other reasons are quiet; a link without a clear reason (shown only on request) is faint. */
+.reason {
+  color: var(--color-text-muted);
+  font-size: 0.75rem;
+}
+
+.reason::before {
+  content: '· ';
+}
+
+.reason[data-kind='quotation'],
+.reason[data-kind='parallel'] {
+  color: var(--color-accent);
+  font-weight: 600;
+}
+
+.reason[data-kind='unclear'] {
+  font-style: italic;
+  opacity: 0.7;
+}

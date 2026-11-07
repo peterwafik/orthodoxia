@@ -28,6 +28,7 @@ function place(url: string, base = '/') {
 const HIDE_LAW_AND_HISTORY: LinkFilter = {
   minVotes: 10,
   hiddenGenres: new Set(['law', 'history'] as const),
+  showUnclear: false,
 };
 
 describe('parseExplorerUrl', () => {

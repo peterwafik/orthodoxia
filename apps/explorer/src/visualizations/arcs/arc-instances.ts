@@ -35,3 +35,45 @@ export function buildArcInstances(
   }
   return { count, endpoints, genres, weights };
 }
+
+/**
+ * Orthodoxia: arcs of links given by their ends, for links that are not in the cross-reference
+ * index (the prophecies and symbols of Christ), at full brightness. With `color`, every arc takes
+ * that palette entry instead of its genres (the gold of Christ's links).
+ */
+export function buildArcInstancesOf(
+  links: readonly {
+    readonly from: number;
+    readonly targetStart: number;
+    readonly targetEnd: number;
+  }[],
+  verseGenres: Uint8Array,
+  color?: number,
+): ArcInstances {
+  const count = links.length;
+  const endpoints = new Float32Array(count * 2);
+  const genres = new Float32Array(count * 2);
+  links.forEach((link, i) => {
+    endpoints[i * 2] = link.from + 0.5;
+    endpoints[i * 2 + 1] = (link.targetStart + link.targetEnd + 1) / 2;
+    genres[i * 2] = color ?? elementAt(verseGenres, link.from);
+    genres[i * 2 + 1] = color ?? elementAt(verseGenres, link.targetStart);
+  });
+  return { count, endpoints, genres, weights: new Float32Array(count).fill(1) };
+}
+
+/** Orthodoxia: two sets of arcs as one. */
+export function joinArcInstances(a: ArcInstances, b: ArcInstances): ArcInstances {
+  const join = (x: Float32Array, y: Float32Array) => {
+    const joined = new Float32Array(x.length + y.length);
+    joined.set(x);
+    joined.set(y, x.length);
+    return joined;
+  };
+  return {
+    count: a.count + b.count,
+    endpoints: join(a.endpoints, b.endpoints),
+    genres: join(a.genres, b.genres),
+    weights: join(a.weights, b.weights),
+  };
+}

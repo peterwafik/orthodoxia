@@ -3,6 +3,7 @@ import { CROSS_REFERENCE_SOURCE_MANIFESTS } from '../../cross-references/registr
 import type { CrossReferenceSourceManifest } from '../../cross-references/source-manifest.ts';
 import { DEFAULT_TRANSLATION_ID, getTranslationManifest } from '../../translations/registry.ts';
 import type { TranslationManifest } from '../../translations/translation-manifest.ts';
+import { LINK_REASONS_PATH } from '../../link-reasons/format.ts';
 
 /** The datasets the visualizations load: the default translation and cross-reference source. */
 export function vizDatasets(): {
@@ -24,5 +25,9 @@ export function vizDatasets(): {
  */
 export function vizDatasetPaths(): readonly string[] {
   const { translation, crossReferences } = vizDatasets();
-  return [translationDatasetPath(translation.id), crossReferencesDatasetPath(crossReferences.id)];
+  return [
+    translationDatasetPath(translation.id),
+    crossReferencesDatasetPath(crossReferences.id),
+    LINK_REASONS_PATH,
+  ];
 }
