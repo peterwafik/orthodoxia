@@ -65,17 +65,8 @@ const en = {
     button: 'What are links?',
     intro:
       'A link joins two passages that speak of the same thing: one quotes, repeats, foretells or pictures the other. Every arc and every thread is one link.',
-    where: (total: string) => `Where the ${total} links come from`,
-    openBible: (count: string) =>
-      `${count} cross-references from OpenBible.info, a public list made for Bible study`,
-    handPicked: (count: string) =>
-      `${count} chosen by hand on this site, drawn in gold: About Jesus, Prophecies, Symbols`,
-    which: 'Which ones are drawn',
-    reasons:
-      'A cross-reference can be drawn only when the two texts show why they belong together. By reason:',
-    hidden: (count: string) =>
-      `${count} cross-references show no reason in their texts, so they are never drawn.`,
-    cap: 'At most 10 links are drawn from each verse, and 10 to it, so no verse is buried.',
+    byKind: (total: string) => `${total} links, by kind`,
+    cap: 'Each verse shows at most 10 links each way, so none is buried.',
     choose: 'Choose the kinds you see in Categories; the count above follows your choice.',
   },
   stats: {
@@ -88,7 +79,7 @@ const en = {
     pointerHint: ['to zoom', 'to pan', 'to focus'] as readonly string[],
     touchHint: ['hold to preview', 'to focus', 'to zoom'] as readonly string[],
   },
-  loading: 'Loading 31,102 verses and 344,799 cross-references…',
+  loading: 'Loading 31,102 verses and their links…',
   retry: 'Retry',
   panel: {
     details: 'Details',
@@ -267,14 +258,8 @@ const ar: Messages = {
     button: 'ما هي الروابط؟',
     intro:
       'الرابط يصل بين نصّين يتحدثان عن الأمر نفسه: أحدهما يقتبس الآخر أو يكرّره أو يتنبأ به أو يرمز إليه. كل قوس وكل خيط هو رابط واحد.',
-    where: (total) => `من أين تأتي الروابط الـ${total}`,
-    openBible: (count) => `${count} شاهدًا من OpenBible.info، وهي قائمة عامة لدراسة الكتاب المقدس`,
-    handPicked: (count) =>
-      `${count} رابطًا مختارًا يدويًا في هذا الموقع، مرسومة بالذهبي: عن السيد المسيح، النبوات، الرموز`,
-    which: 'ما الذي يُرسم منها',
-    reasons: 'لا يمكن رسم الشاهد إلا إذا أظهر النصّان سبب ارتباطهما. حسب السبب:',
-    hidden: (count) => `${count} شاهدًا لا يظهر في نصوصها سبب للارتباط، فلا تُرسم أبدًا.`,
-    cap: 'يُرسم 10 روابط على الأكثر من كل آية و10 إليها، حتى لا تضيع أي آية.',
+    byKind: (total) => `${total} رابطًا، حسب النوع`,
+    cap: 'تعرض كل آية 10 روابط على الأكثر في كل اتجاه، حتى لا تضيع أي آية.',
     choose: 'اختر الأنواع التي تراها من «الفئات»؛ والعدد أعلاه يتبع اختيارك.',
   },
   stats: {
@@ -287,7 +272,7 @@ const ar: Messages = {
     pointerHint: ['للتكبير', 'للتحريك', 'للاختيار'],
     touchHint: ['اضغط مطولًا للمعاينة', 'للاختيار', 'للتكبير'],
   },
-  loading: 'جارٍ تحميل 31,102 آية و344,799 شاهدًا…',
+  loading: 'جارٍ تحميل 31,102 آية وروابطها…',
   retry: 'أعد المحاولة',
   panel: {
     details: 'التفاصيل',

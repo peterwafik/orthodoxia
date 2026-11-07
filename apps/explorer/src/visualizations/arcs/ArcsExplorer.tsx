@@ -16,7 +16,7 @@ import { LinksExplained } from '../shared/components/LinksExplained.tsx';
 import { PassagePanel } from '../shared/components/PassagePanel.tsx';
 import { ReferenceSearch } from '../shared/components/ReferenceSearch.tsx';
 import { VizPage } from '../shared/components/VizPage.tsx';
-import { DEFAULT_LINK_FILTER, selectLinks } from '../shared/link-filter.ts';
+import { DEFAULT_LINK_FILTER, LINK_CATEGORIES, selectLinks } from '../shared/link-filter.ts';
 import { summarizeLinks } from '../shared/link-summary.ts';
 import { christLinks } from '../../christ-links/christ-links.ts';
 import type { Passage } from '../../core/bible/passage.ts';
@@ -44,8 +44,9 @@ export function ArcsExplorer({
   const summary = useMemo(() => {
     const crossReferences = summarizeLinks(index, linkIds, data.verseGenres);
     // Orthodoxia: the hand-picked pairs of the chosen kinds count too, and the total is every link
-    // the explorer has.
-    const christ = christLinks().links.length;
+    // that can be drawn (each with a reason), whatever the categories chosen.
+    const counts = categoryCounts(data.linkReasons);
+    const available = LINK_CATEGORIES.reduce((sum, category) => sum + counts[category], 0);
     const chosen = christLinks().links.filter((link) => {
       const kind = christLinks().entryOf(link.id)?.kind;
       return kind !== undefined && filter.categories.has(kind);
@@ -59,10 +60,10 @@ export function ArcsExplorer({
     return {
       ...crossReferences,
       shownLinks: crossReferences.shownLinks + shown,
-      totalLinks: crossReferences.totalLinks + christ,
+      totalLinks: available,
       crossTestamentLinks: crossReferences.crossTestamentLinks + across,
     };
-  }, [index, linkIds, data.verseGenres, data.versification, filter]);
+  }, [index, linkIds, data.verseGenres, data.versification, data.linkReasons, filter]);
   const closePanel = () => {
     onNavigate(null);
   };
@@ -116,7 +117,7 @@ export function ArcsExplorer({
       />
       <LinkStats
         summary={summary}
-        explanation={<LinksExplained reasons={data.linkReasons} />}
+        explanation={<LinksExplained counts={categoryCounts(data.linkReasons)} />}
         hint={{
           pointer: (
             <>

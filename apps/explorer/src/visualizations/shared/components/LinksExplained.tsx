@@ -1,30 +1,17 @@
-// Orthodoxia: what a link is and where the count comes from, opened from the arcs' summary.
+// Orthodoxia: what a link is and how many of each kind there are, opened from the arcs' summary.
 
-import { christLinks } from '../../../christ-links/christ-links.ts';
 import { t } from '../../../i18n/messages.ts';
-import type { LinkReasons } from '../../../link-reasons/link-reasons.ts';
 import { formatInteger } from '../../../shared/lib/format.ts';
 import { InfoIcon } from '../../../shared/ui/icons.tsx';
+import { LINK_CATEGORIES, type LinkCategory } from '../link-filter.ts';
 import styles from './LinkStats.module.css';
 
-export function LinksExplained({ reasons }: { readonly reasons: LinkReasons }) {
-  const counts = reasons.countByCategory();
-  const handPicked = christLinks().links.length;
-  const openBible =
-    counts.jesus +
-    counts.quotation +
-    counts.parallel +
-    counts.topic +
-    counts.words +
-    counts.unclear;
-  const names = t.categories.names;
-  const rows: readonly (readonly [string, number])[] = [
-    [names.jesus, counts.jesus],
-    [names.quotation, counts.quotation],
-    [names.parallel, counts.parallel],
-    [names.topic, counts.topic],
-    [names.words, counts.words],
-  ];
+export function LinksExplained({
+  counts,
+}: {
+  readonly counts: Readonly<Record<LinkCategory, number>>;
+}) {
+  const total = LINK_CATEGORIES.reduce((sum, category) => sum + counts[category], 0);
   return (
     <details className={styles.explained}>
       <summary>
@@ -32,22 +19,15 @@ export function LinksExplained({ reasons }: { readonly reasons: LinkReasons }) {
       </summary>
       <div className={styles.card}>
         <p>{t.linksInfo.intro}</p>
-        <h4>{t.linksInfo.where(formatInteger(openBible + handPicked))}</h4>
-        <ul>
-          <li>{t.linksInfo.openBible(formatInteger(openBible))}</li>
-          <li data-gold="">{t.linksInfo.handPicked(formatInteger(handPicked))}</li>
-        </ul>
-        <h4>{t.linksInfo.which}</h4>
-        <p>{t.linksInfo.reasons}</p>
+        <h4>{t.linksInfo.byKind(formatInteger(total))}</h4>
         <dl>
-          {rows.map(([name, count]) => (
-            <div key={name}>
-              <dt>{name}</dt>
-              <dd>{formatInteger(count)}</dd>
+          {LINK_CATEGORIES.map((category) => (
+            <div key={category}>
+              <dt>{t.categories.names[category]}</dt>
+              <dd>{formatInteger(counts[category])}</dd>
             </div>
           ))}
         </dl>
-        <p>{t.linksInfo.hidden(formatInteger(counts.unclear))}</p>
         <p>{t.linksInfo.cap}</p>
         <p className={styles.choose}>{t.linksInfo.choose}</p>
       </div>

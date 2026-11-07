@@ -200,10 +200,12 @@ rename over it (`EPERM`, e.g. while a dev server holds the dataset open). No eff
 
 ## What a link is (arcs summary)
 
-Under the arcs' summary ("77,357 of 345,185 links shown"), a quiet **What are links?** opens a card
-(`LinksExplained.tsx`, a native `<details>`; styles in `LinkStats.module.css`; `linksInfo` strings in
-`messages.ts`; `InfoIcon` in `icons.tsx`; `explanation` prop on `LinkStats`). It says what a link is,
-splits the total into the OpenBible.info cross-references and the hand-picked gold pairs, lists the
-cross-references by the reason found in their texts (from `LinkReasons.countByCategory()`, so the
-numbers follow the data), says how many show no reason and are never drawn, and notes the limit of
-10 links from and to each verse.
+The summary counts only links that can be drawn (each has a reason, see Categories): with every
+category chosen it reads "77,357 links shown", otherwise "132 of 77,357 links shown"
+(`ArcsExplorer.tsx`: the total is the sum of `categoryCounts`). The loading message no longer names
+the size of the source list.
+
+Under it, a quiet **What are links?** opens a short card (`LinksExplained.tsx`, a native `<details>`;
+styles in `LinkStats.module.css`; `linksInfo` strings in `messages.ts`; `InfoIcon` in `icons.tsx`;
+`explanation` prop on `LinkStats`): what a link is, how many there are of each kind, the limit of 10
+links each way per verse, and that Categories chooses what is shown.
