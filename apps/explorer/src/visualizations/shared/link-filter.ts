@@ -10,8 +10,7 @@ import type { LinkReasons } from '../../link-reasons/link-reasons.ts';
  * are the reasons found in the texts of the rest (see link-reasons.ts).
  * Readers' votes are not used: they rank helpfulness, not whether a link is right.
  */
-export type LinkCategory =
-  'christ' | 'jesus' | 'quotation' | 'parallel' | 'topic' | 'words' | 'unclear';
+export type LinkCategory = 'christ' | 'jesus' | 'quotation' | 'parallel' | 'topic' | 'words';
 
 export const LINK_CATEGORIES: readonly LinkCategory[] = [
   'christ',
@@ -20,7 +19,6 @@ export const LINK_CATEGORIES: readonly LinkCategory[] = [
   'parallel',
   'topic',
   'words',
-  'unclear',
 ];
 
 /** Which links a visualization shows, set with optional, low-key controls. */
@@ -31,13 +29,11 @@ export interface LinkFilter {
   readonly categories: ReadonlySet<LinkCategory>;
 }
 
-export function createLinkFilter(
-  categories: Iterable<LinkCategory> = LINK_CATEGORIES.filter((category) => category !== 'unclear'),
-): LinkFilter {
+export function createLinkFilter(categories: Iterable<LinkCategory> = LINK_CATEGORIES): LinkFilter {
   return { hiddenGenres: new Set(), categories: new Set(categories) };
 }
 
-/** Every kind of link with a clear reason; links without one are left out until asked for. */
+/** Every kind of link. Links with no reason are never shown: they are not a category. */
 export const DEFAULT_LINK_FILTER: LinkFilter = createLinkFilter();
 
 export function isDefaultFilter(filter: LinkFilter, defaults: LinkFilter): boolean {
@@ -46,6 +42,11 @@ export function isDefaultFilter(filter: LinkFilter, defaults: LinkFilter): boole
     filter.categories.size === defaults.categories.size &&
     [...filter.categories].every((category) => defaults.categories.has(category))
   );
+}
+
+/** Whether a link of this category is shown; a link without a reason never is. */
+function shownCategory(categories: ReadonlySet<LinkCategory>, category: string): boolean {
+  return categories.has(category as LinkCategory);
 }
 
 /** Shows or hides one kind of link. */
@@ -72,7 +73,9 @@ export function compileLinkFilter(
   const { categories } = filter;
   // The arguments keep upstream's shape; votes are not used (see LinkCategory).
   return (from, to, _votes, id) =>
-    (reasons === undefined || id === undefined || categories.has(reasons.categoryOf(id))) &&
+    (reasons === undefined ||
+      id === undefined ||
+      shownCategory(categories, reasons.categoryOf(id))) &&
     elementAt(hidden, elementAt(verseGenres, from)) === 0 &&
     elementAt(hidden, elementAt(verseGenres, to)) === 0;
 }

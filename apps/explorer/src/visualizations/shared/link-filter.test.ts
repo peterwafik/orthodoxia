@@ -41,7 +41,6 @@ describe('selectLinks', () => {
     expect(selectLinks(index, verseGenres, createLinkFilter(['quotation']), reasons).length).toBe(
       1,
     );
-    expect(selectLinks(index, verseGenres, createLinkFilter(['unclear']), reasons).length).toBe(1);
     expect(selectLinks(index, verseGenres, createLinkFilter([]), reasons).length).toBe(0);
   });
 

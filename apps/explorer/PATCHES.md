@@ -117,7 +117,7 @@ readers found a link, not whether it is right):
 | Same wording    | the same within one Testament (parallel accounts, repeated laws and phrases)             |
 | Topic: …        | both in one specific subtopic of the site's topic list (≤ 150 verses; smallest named)    |
 | Shared words: … | 2+ uncommon words, one fairly rare (≤ 120 verses), or 1 word in ≤ 12 verses; never names |
-| (unclear)       | none of these: hidden unless the reader turns its category on                            |
+| (unclear)       | none of these: never shown (no category offers them)                                     |
 
 Apart from that reason, a link is **About Jesus** when both passages are about Christ and one is in the
 New Testament. A passage is about Christ when it is listed under a specific topic (≤ 150 verses) of the
@@ -150,7 +150,7 @@ it points to is popular. `collectConnections` applies the side; Arcs draws a lin
 
 Upstream's Filters menu set a minimum of readers' votes (default 4). It is replaced by a Categories
 menu: one checkbox per kind of link (Prophecies & symbols, About Jesus, Quotations, Same wording,
-Same topic, Shared words, No clear connection), each with its count; all but the last are on by default. Arcs,
+Same topic, Shared words), each with its count, all on by default. Links with no reason are never shown. Arcs,
 Threads and the details follow at once; the choice is kept in the URL (`show=christ,quotation`,
 `show=none`; the old `votes` parameter is ignored).
 

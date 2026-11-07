@@ -134,7 +134,6 @@ const en = {
       parallel: 'Same wording',
       topic: 'Same topic',
       words: 'Shared words',
-      unclear: 'No clear connection',
     },
     descriptions: {
       christ: 'Old Testament prophecies and symbols fulfilled in Christ (in gold)',
@@ -144,7 +143,6 @@ const en = {
       parallel: 'The same words within one Testament: parallel accounts, repeated laws',
       topic: 'Both passages are listed under one specific topic',
       words: 'The passages share uncommon words (never just a name)',
-      unclear: 'Listed by the source, but nothing in the texts shows why (off by default)',
     },
   },
   // Orthodoxia: why two linked passages belong together.
@@ -314,7 +312,6 @@ const ar: Messages = {
       parallel: 'نفس التعبير',
       topic: 'الموضوع نفسه',
       words: 'كلمات مشتركة',
-      unclear: 'لا صلة واضحة',
     },
     descriptions: {
       christ: 'نبوات ورموز العهد القديم وإتمامها في المسيح (باللون الذهبي)',
@@ -323,7 +320,6 @@ const ar: Messages = {
       parallel: 'الكلمات نفسها في العهد نفسه: روايات متوازية وشرائع مكررة',
       topic: 'النصّان مدرجان تحت موضوع محدد واحد',
       words: 'يشترك النصّان في كلمات نادرة (لا مجرد اسم)',
-      unclear: 'مدرجة في المصدر لكن النصين لا يُظهران سببًا (مخفية افتراضيًا)',
     },
   },
   reasons: {

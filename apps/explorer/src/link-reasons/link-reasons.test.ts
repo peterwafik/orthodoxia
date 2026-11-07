@@ -76,15 +76,11 @@ describe('LinkReasons', () => {
   it('shows each category only when it is chosen', () => {
     const genres = new Uint8Array(10);
     const usual = compileLinkFilter(createLinkFilter(), genres, reasons);
-    const unclearToo = compileLinkFilter(
-      createLinkFilter(['unclear', 'quotation']),
-      genres,
-      reasons,
-    );
+    const quotationsOnly = compileLinkFilter(createLinkFilter(['quotation']), genres, reasons);
     expect(usual(0, 1, 5, 0)).toBe(true);
     expect(usual(0, 1, 5, 5)).toBe(false);
-    expect(unclearToo(0, 1, 5, 5)).toBe(true);
-    expect(unclearToo(0, 1, 5, 2)).toBe(false);
+    expect(quotationsOnly(0, 1, 5, 5)).toBe(false);
+    expect(quotationsOnly(0, 1, 5, 2)).toBe(false);
   });
 
   it('refuses reasons that do not match the links', () => {

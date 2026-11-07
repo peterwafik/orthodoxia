@@ -20,6 +20,7 @@ import {
   DEFAULT_LINK_FILTER,
   LINK_CATEGORIES,
   selectLinks,
+  type LinkCategory,
   type LinkFilter,
 } from '../../src/visualizations/shared/link-filter.ts';
 import { computeVerseGenres } from '../../src/visualizations/shared/verse-genres.ts';
@@ -54,8 +55,8 @@ const where = (verse: number) => {
 // The default categories, then each category with a clear reason alone.
 const filters: LinkFilter[] = [
   DEFAULT_LINK_FILTER,
-  ...LINK_CATEGORIES.filter((category) => category !== 'unclear' && category !== 'christ').map(
-    (category) => createLinkFilter([category]),
+  ...LINK_CATEGORIES.filter((category) => category !== 'christ').map((category) =>
+    createLinkFilter([category]),
   ),
 ];
 const label = (filter: LinkFilter) => [...filter.categories].join('+');
@@ -67,7 +68,7 @@ for (const filter of filters) {
   const arcIds = new Set(arcs);
   for (const id of arcs) {
     if (!reasons.isClear(id)) problem(`Arcs would draw link ${String(id)} without a reason`);
-    if (!filter.categories.has(reasons.categoryOf(id))) {
+    if (!filter.categories.has(reasons.categoryOf(id) as LinkCategory)) {
       problem(
         `Arcs would draw link ${String(id)} (${reasons.categoryOf(id)}) under ${label(filter)}`,
       );
@@ -90,7 +91,7 @@ for (const filter of filters) {
       if (reason.kind === 'unclear' && !reason.aboutJesus) {
         problem(`${where(verse)}: link ${String(id)} has no reason`);
       }
-      if (!filter.categories.has(reasons.categoryOf(id))) {
+      if (!filter.categories.has(reasons.categoryOf(id) as LinkCategory)) {
         problem(
           `${where(verse)}: link ${String(id)} (${reasons.categoryOf(id)}) shown under ${label(filter)}`,
         );
