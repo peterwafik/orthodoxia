@@ -88,11 +88,19 @@ export function ArcsStage({
     controllerRef.current?.setSize(size.width, size.height);
   }, [size]);
 
+  const showChrist = filter.categories.has('christ');
   useEffect(() => {
+    const arcs = buildArcInstances(data.crossReferences.index, linkIds, data.verseGenres);
+    // Orthodoxia: with their category on, every prophecy and symbol of Christ, in gold, on top.
     controllerRef.current?.setLinks(
-      buildArcInstances(data.crossReferences.index, linkIds, data.verseGenres),
+      showChrist
+        ? joinArcInstances(
+            arcs,
+            buildArcInstancesOf(christLinks().links, data.verseGenres, GOLD_PALETTE_INDEX),
+          )
+        : arcs,
     );
-  }, [data, linkIds]);
+  }, [data, linkIds, showChrist]);
 
   useEffect(() => {
     const { index } = data.crossReferences;
@@ -107,9 +115,11 @@ export function ArcsStage({
         ),
         // Orthodoxia: the passage's prophecies and symbols of Christ, in gold, drawn last (on top).
         buildArcInstancesOf(
-          christLinks()
-            .connectionsIn(range)
-            .map((connection) => connection.link),
+          filter.categories.has('christ')
+            ? christLinks()
+                .connectionsIn(range)
+                .map((connection) => connection.link)
+            : [],
           data.verseGenres,
           GOLD_PALETTE_INDEX,
         ),

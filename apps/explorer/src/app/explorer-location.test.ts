@@ -26,9 +26,8 @@ function place(url: string, base = '/') {
 }
 
 const HIDE_LAW_AND_HISTORY: LinkFilter = {
-  minVotes: 10,
   hiddenGenres: new Set(['law', 'history'] as const),
-  showUnclear: false,
+  categories: new Set(['christ', 'quotation'] as const),
 };
 
 describe('parseExplorerUrl', () => {
@@ -61,16 +60,16 @@ describe('parseExplorerUrl', () => {
     expect(place('/elsewhere/?ref=Nope.1.1')).toEqual({ view: 'arcs', passage: null });
   });
 
-  it('reads the filter: the vote threshold and the hidden genres', () => {
+  it('reads the filter: the categories shown and the hidden genres', () => {
     expect(parse('/').filter).toEqual(DEFAULT_LINK_FILTER);
-    expect(parse('/?votes=10&hide=history,law').filter).toEqual(HIDE_LAW_AND_HISTORY);
-    expect(parse('/?votes=all').filter.minVotes).toBe(-Infinity);
+    expect(parse('/?show=quotation,christ&hide=history,law').filter).toEqual(HIDE_LAW_AND_HISTORY);
+    expect(parse('/?show=none').filter.categories.size).toBe(0);
   });
 
-  it('keeps the default filter for unknown thresholds and genres', () => {
-    expect(parse('/?votes=7').filter.minVotes).toBe(DEFAULT_LINK_FILTER.minVotes);
-    expect(parse('/?votes=many').filter.minVotes).toBe(DEFAULT_LINK_FILTER.minVotes);
+  it('ignores unknown categories and genres, and the old vote threshold', () => {
+    expect([...parse('/?show=topic,nope').filter.categories]).toEqual(['topic']);
     expect([...parse('/?hide=law,nope').filter.hiddenGenres]).toEqual(['law']);
+    expect(parse('/?votes=10').filter).toEqual(DEFAULT_LINK_FILTER);
   });
 });
 
@@ -90,14 +89,9 @@ describe('explorerUrl', () => {
       '/',
       kjv,
     );
-    expect(url).toBe('/?ref=Isa.53&votes=10&hide=law,history');
-    const all = explorerUrl(
-      ROUTES[0],
-      { passage: null, filter: createLinkFilter(-Infinity) },
-      '/',
-      kjv,
-    );
-    expect(all).toBe('/?votes=all');
+    expect(url).toBe('/?ref=Isa.53&hide=law,history&show=christ,quotation');
+    const none = explorerUrl(ROUTES[0], { passage: null, filter: createLinkFilter([]) }, '/', kjv);
+    expect(none).toBe('/?show=none');
   });
 
   it('round-trips through parseExplorerUrl', () => {

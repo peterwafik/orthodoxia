@@ -198,18 +198,46 @@
   }
 }
 
-/* Orthodoxia: the prophecies-and-symbols toggle shows the site's gold while on. */
-.christ[aria-pressed='true'] {
-  border-color: var(--color-accent);
-  background: var(--color-accent-soft);
+/* Orthodoxia: the categories menu, one checkbox per kind of link. */
+.categories {
+  display: grid;
+  gap: var(--space-2);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.category {
+  display: flex;
+  gap: var(--space-2);
+  align-items: flex-start;
+  cursor: pointer;
+}
+
+.category input {
+  margin-block-start: 0.2rem;
+  accent-color: var(--color-accent);
+}
+
+.categoryText {
+  display: grid;
+  gap: 1px;
+}
+
+.categoryName {
+  display: flex;
+  gap: var(--space-2);
+  align-items: baseline;
+  font-weight: 600;
+}
+
+.category[data-category='christ'] .categoryName {
   color: var(--color-accent);
 }
 
-/* Orthodoxia: a checkbox row in a filter popover. */
-.check {
-  display: flex;
-  gap: var(--space-2);
-  align-items: center;
-  font-size: 0.875rem;
-  cursor: pointer;
+.categoryCount {
+  color: var(--color-text-muted);
+  font-size: 0.75rem;
+  font-weight: 400;
+  font-variant-numeric: tabular-nums;
 }

@@ -3,18 +3,21 @@ import { parsePassageOsisId, toPassageOsisId, type Passage } from '../core/bible
 import type { Versification } from '../core/bible/versification.ts';
 import {
   DEFAULT_LINK_FILTER,
-  VOTE_THRESHOLDS,
+  isDefaultFilter,
+  LINK_CATEGORIES,
   type LinkFilter,
 } from '../visualizations/shared/link-filter.ts';
 
 /** URL query parameter holding the focused passage as an OSIS ID (`?ref=John.3.16`, `?ref=Isa.53`). */
 const PASSAGE_PARAM = 'ref';
-/** The minimum number of votes, when it isn't the default: a number, or `all` for no minimum. */
-const VOTES_PARAM = 'votes';
 /** Hidden genres, comma-separated, e.g. `hide=law,history`. */
 const HIDE_PARAM = 'hide';
-/** Orthodoxia: `unclear=show` also shows links with no clear reason. */
-const UNCLEAR_PARAM = 'unclear';
+/**
+ * Orthodoxia: the kinds of link shown, when they aren't the default, comma-separated, e.g.
+ * `show=christ,quotation`; `show=none` for none. (Upstream's `votes` parameter is ignored: votes
+ * are not used.)
+ */
+const SHOW_PARAM = 'show';
 
 /** A page of the explorer: which view it shows, and where. */
 export interface ViewRoute<Id extends string> {
@@ -30,18 +33,17 @@ export interface ExplorerLocation<Id extends string> {
   readonly filter: LinkFilter;
 }
 
-/** Unknown thresholds and genres fall back to the defaults. */
+/** Unknown genres and categories are ignored; without `show`, the default categories. */
 function parseFilter(params: URLSearchParams): LinkFilter {
-  const votes = params.get(VOTES_PARAM);
-  const minVotes = votes === 'all' ? -Infinity : Number(votes);
   const hidden = new Set((params.get(HIDE_PARAM) ?? '').split(','));
+  const show = params.get(SHOW_PARAM);
+  const shown = new Set((show ?? '').split(','));
   return {
-    minVotes:
-      votes !== null && VOTE_THRESHOLDS.includes(minVotes)
-        ? minVotes
-        : DEFAULT_LINK_FILTER.minVotes,
     hiddenGenres: new Set(GENRES.filter(({ id }) => hidden.has(id)).map(({ id }) => id)),
-    showUnclear: params.get(UNCLEAR_PARAM) === 'show',
+    categories:
+      show === null
+        ? DEFAULT_LINK_FILTER.categories
+        : new Set(LINK_CATEGORIES.filter((category) => shown.has(category))),
   };
 }
 
@@ -85,15 +87,13 @@ export function explorerUrl(
   if (passage !== null) {
     params.set(PASSAGE_PARAM, toPassageOsisId(passage, versification));
   }
-  if (filter.minVotes !== DEFAULT_LINK_FILTER.minVotes) {
-    params.set(VOTES_PARAM, filter.minVotes === -Infinity ? 'all' : String(filter.minVotes));
-  }
   if (filter.hiddenGenres.size > 0) {
     const hidden = GENRES.filter(({ id }) => filter.hiddenGenres.has(id)).map(({ id }) => id);
     params.set(HIDE_PARAM, hidden.join(','));
   }
-  if (filter.showUnclear) {
-    params.set(UNCLEAR_PARAM, 'show');
+  if (!isDefaultFilter({ ...filter, hiddenGenres: new Set() }, DEFAULT_LINK_FILTER)) {
+    const shown = LINK_CATEGORIES.filter((category) => filter.categories.has(category));
+    params.set(SHOW_PARAM, shown.length === 0 ? 'none' : shown.join(','));
   }
   // Commas are fine in a query and far more readable than %2C.
   const query = params.toString().replaceAll('%2C', ',');

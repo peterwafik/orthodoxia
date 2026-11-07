@@ -10,13 +10,16 @@
  *   p  same wording    the same, within one Testament (Kings and Chronicles, the Gospels, echoes)
  *   t  same topic      both in one specific subtopic of the site's topic list (up to 150 verses);
  *                      the smallest is named
- *   w  shared words    2+ uncommon words (one of them fairly rare), or 1 very rare word with 8+
- *                      votes; never names (hyphenated ones included)
- *   r  related theme   none of the above, but 50+ readers' votes (overwhelming agreement)
+ *   w  shared words    2+ uncommon words (one of them fairly rare), or 1 word found in at most 12
+ *                      verses; never names (hyphenated ones included)
  *   u  unclear         none of the above: hidden by default
  *
+ * Readers' votes are not used anywhere: they rank how helpful readers found a link, not whether it
+ * is right.
+ *
  * Then, so a verse's lists stay short enough to read, each verse lists only its 10 strongest
- * references and its 10 strongest "referenced by" (strength in the order q, p, t, w, r, then votes).
+ * references and its 10 strongest "referenced by" (strength in the order q, p, t, w, then the weight of
+ * the evidence: a longer shared run of words, a smaller topic, rarer shared words).
  * `sides` says where a link is listed: b both ends, s only at its source verse, t only at its target;
  * a link listed at neither becomes u.
  */
@@ -24,11 +27,7 @@ import { readFile } from 'node:fs/promises';
 import { isBookId } from '../../src/core/bible/books.ts';
 import { CANONICAL_VERSIFICATION as V } from '../../src/core/bible/versification.ts';
 import { contentWords, findNames, sharedRun, tokenize } from '../../src/link-reasons/evidence.ts';
-import {
-  LINK_REASONS_PATH,
-  THEME_MIN_VOTES,
-  type LinkReasonsFile,
-} from '../../src/link-reasons/format.ts';
+import { LINK_REASONS_PATH, type LinkReasonsFile } from '../../src/link-reasons/format.ts';
 import { writeFileAtomic, formatBytes } from './lib/files.ts';
 import { publicFilePath } from './lib/paths.ts';
 // The site's topic list, as the Bible reader's topic markers use it (English and Arabic names).
@@ -40,13 +39,12 @@ const MAX_TOPIC_VERSES = 150;
 /** Two shared words in at most this many verses each, one of them in at most `FAIRLY_RARE`. */
 const UNCOMMON = 300;
 const FAIRLY_RARE = 120;
-/** One shared word in at most this many verses is enough on its own, with readers' support. */
-const RARE = 25;
-const SINGLE_WORD_MIN_VOTES = 8;
+/** One shared word in at most this many verses is enough on its own. */
+const RARE = 12;
 /** The most links kept leaving, and reaching, any one verse. */
 const MAX_PER_VERSE = 10;
 /** Strength of each reason, for keeping a verse's strongest links. */
-const STRENGTH: Readonly<Record<string, number>> = { q: 5, p: 4, t: 3, w: 2, r: 1, u: 0 };
+const STRENGTH: Readonly<Record<string, number>> = { q: 5, p: 4, t: 3, w: 2, u: 0 };
 /** A long target passage is compared by its first verses. */
 const MAX_TARGET_VERSES = 12;
 
@@ -54,7 +52,7 @@ const readJson = async <T>(path: string): Promise<T> =>
   JSON.parse(await readFile(publicFilePath(path), 'utf8')) as T;
 
 const references = await readJson<{
-  links: { offsets: number[]; targetStart: number[]; targetEnd: number[]; votes: number[] };
+  links: { offsets: number[]; targetStart: number[]; targetEnd: number[] };
 }>('data/cross-references/openbible.json');
 const { verses } = await readJson<{ verses: string[] }>('data/translations/bsb.json');
 
@@ -96,8 +94,10 @@ for (const [id, data] of TOPIC_DATA) {
   topicSizes.push(size);
 }
 
-const { offsets, targetStart, targetEnd, votes } = references.links;
+const { offsets, targetStart, targetEnd } = references.links;
 const kinds: string[] = [];
+/** Per link: how weighty its evidence is, to rank links of the same kind (higher is stronger). */
+const scores: number[] = [];
 /** Per link: its topic or shared words, by kind. */
 const details: (number | string | null)[] = [];
 const testament = (verse: number) => V.bookAt(verse).testament;
@@ -115,21 +115,23 @@ for (let source = 0; source < V.verseCount; source += 1) {
       for (const topic of topicsOfVerse[verse] ?? []) targetTopics.add(topic);
     }
 
-    if (sharedRun(words[source] ?? [], targetWords) > 0) {
+    const run = sharedRun(words[source] ?? [], targetWords);
+    if (run > 0) {
       kinds.push(testament(source) === testament(start) ? 'p' : 'q');
       details.push(null);
+      scores.push(run);
       continue;
     }
     const topics = (topicsOfVerse[source] ?? []).filter(
       (topic) => targetTopics.has(topic) && (topicSizes[topic] ?? Infinity) <= MAX_TOPIC_VERSES,
     );
     if (topics.length > 0) {
-      kinds.push('t');
-      details.push(
-        topics.reduce((best, topic) =>
-          (topicSizes[topic] ?? 0) < (topicSizes[best] ?? 0) ? topic : best,
-        ),
+      const smallest = topics.reduce((best, topic) =>
+        (topicSizes[topic] ?? 0) < (topicSizes[best] ?? 0) ? topic : best,
       );
+      kinds.push('t');
+      details.push(smallest);
+      scores.push(MAX_TOPIC_VERSES - (topicSizes[smallest] ?? 0));
       continue;
     }
     const shared = (stems[source] ?? []).filter(
@@ -138,11 +140,11 @@ for (let source = 0; source < V.verseCount; source += 1) {
     const uncommon = shared.filter((word) => (frequency.get(word) ?? 0) <= UNCOMMON);
     const fairlyRare = uncommon.some((word) => (frequency.get(word) ?? 0) <= FAIRLY_RARE);
     const rare = uncommon.some((word) => (frequency.get(word) ?? 0) <= RARE);
-    if (
-      (uncommon.length >= 2 && fairlyRare) ||
-      (rare && (votes[id] ?? 0) >= SINGLE_WORD_MIN_VOTES)
-    ) {
+    if ((uncommon.length >= 2 && fairlyRare) || rare) {
       kinds.push('w');
+      scores.push(
+        Math.round(uncommon.reduce((sum, word) => sum + 1000 / (frequency.get(word) ?? 1000), 0)),
+      );
       // The words as the source verse writes them, rarest first.
       const written = uncommon
         .sort((a, b) => (frequency.get(a) ?? 0) - (frequency.get(b) ?? 0))
@@ -151,13 +153,15 @@ for (let source = 0; source < V.verseCount; source += 1) {
       details.push([...new Set(written)].join(' '));
       continue;
     }
-    kinds.push((votes[id] ?? 0) >= THEME_MIN_VOTES ? 'r' : 'u');
+    kinds.push('u');
     details.push(null);
+    scores.push(0);
   }
 }
 
 // Keep each verse's strongest links, leaving and reaching it.
-const rank = (id: number) => (STRENGTH[kinds[id] ?? 'u'] ?? 0) * 1e6 + (votes[id] ?? 0);
+const rank = (id: number) =>
+  (STRENGTH[kinds[id] ?? 'u'] ?? 0) * 1e6 + Math.min(scores[id] ?? 0, 999_999);
 const sources = new Int32Array(kinds.length);
 for (let source = 0; source < V.verseCount; source += 1) {
   sources.fill(source, offsets[source] ?? 0, offsets[source + 1] ?? 0);

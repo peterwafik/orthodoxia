@@ -30,7 +30,7 @@ describe('collectConnections', () => {
     const result = collectConnections(
       index,
       { start: JOHN_3_16, end: JOHN_3_16 },
-      createLinkFilter(-Infinity),
+      createLinkFilter(),
       verseGenres,
     );
     expect(result.outgoing.map((c) => c.otherStart)).toEqual([ROM_5_8, ROM_8_32]);
@@ -39,11 +39,9 @@ describe('collectConnections', () => {
 
   it('counts a link into a range spanning several verses of the passage once', () => {
     const passage = { start: JOHN_3_16, end: JOHN_3_17 };
-    const all = collectConnections(index, passage, createLinkFilter(-Infinity), verseGenres);
+    const all = collectConnections(index, passage, createLinkFilter(), verseGenres);
     expect(all.outgoing).toHaveLength(3);
     expect(all.incoming).toHaveLength(2);
-    const filtered = collectConnections(index, passage, createLinkFilter(0), verseGenres);
-    expect(filtered.incoming.map((c) => c.link.votes)).toEqual([7]);
   });
 });
 
@@ -51,7 +49,7 @@ describe('landingNote', () => {
   const { outgoing, incoming } = collectConnections(
     index,
     { start: JOHN_3_16, end: JOHN_3_16 },
-    createLinkFilter(-Infinity),
+    createLinkFilter(),
     verseGenres,
   );
   const [intoRange, intoVerse] = incoming;
@@ -78,7 +76,7 @@ describe('groupByBook', () => {
     const { outgoing } = collectConnections(
       index,
       { start: JOHN_3_16, end: JOHN_3_17 },
-      createLinkFilter(-Infinity),
+      createLinkFilter(),
       verseGenres,
     );
     expect(

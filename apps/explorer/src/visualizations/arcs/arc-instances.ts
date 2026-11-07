@@ -1,6 +1,8 @@
 import { elementAt } from '../../core/lib/array.ts';
 import type { CrossReferenceIndex } from '../../cross-references/cross-reference-index.ts';
-import { voteWeight } from '../shared/vote-weight.ts';
+
+/** Orthodoxia: the brightness of every cross-reference arc (upstream varied it with votes). */
+export const ARC_WEIGHT = 0.6;
 
 /** Per-arc GPU attributes, one entry per link. */
 export interface ArcInstances {
@@ -31,7 +33,8 @@ export function buildArcInstances(
     endpoints[i * 2 + 1] = (targetStart + targetEnd + 1) / 2;
     genres[i * 2] = elementAt(verseGenres, source);
     genres[i * 2 + 1] = elementAt(verseGenres, targetStart);
-    weights[i] = voteWeight(elementAt(index.votes, id));
+    // Orthodoxia: every arc has the same weight (upstream: readers' votes, which are not used).
+    weights[i] = ARC_WEIGHT;
   }
   return { count, endpoints, genres, weights };
 }

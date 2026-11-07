@@ -3,13 +3,10 @@
 /** Where the build writes the reasons, relative to the site root. */
 export const LINK_REASONS_PATH = 'data/cross-references/openbible-reasons.json';
 
-/** A link with no other evidence still counts as a related theme from this many readers' votes. */
-export const THEME_MIN_VOTES = 50;
-
 export interface LinkReasonsFile {
   readonly format: 'link-reasons';
   readonly linkCount: number;
-  /** One letter per link, by link ID: q, p, t, w, r or u (see the build script). */
+  /** One letter per link, by link ID: q, p, t, w or u (see the build script). */
   readonly kinds: string;
   /**
    * One letter per link: where it is listed. b at both ends, s only at its source verse (among its

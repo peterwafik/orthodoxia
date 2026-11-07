@@ -274,28 +274,32 @@ export function PassagePanel({
               />
             </div>
             {actions && <div className={styles.actions}>{actions}</div>}
-            <ChristSection
-              start={range.start}
-              end={range.end}
-              showSourceVerse={false}
-              data={data}
-              onSelect={onSelect}
-              onPreview={onPreview}
-              shareUrl={shareUrl}
-            />
+            {filter.categories.has('christ') && (
+              <ChristSection
+                start={range.start}
+                end={range.end}
+                showSourceVerse={false}
+                data={data}
+                onSelect={onSelect}
+                onPreview={onPreview}
+                shareUrl={shareUrl}
+              />
+            )}
           </>
         ) : (
           <>
             {actions && <div className={styles.actions}>{actions}</div>}
-            <ChristSection
-              start={range.start}
-              end={range.end}
-              showSourceVerse
-              data={data}
-              onSelect={onSelect}
-              onPreview={onPreview}
-              shareUrl={shareUrl}
-            />
+            {filter.categories.has('christ') && (
+              <ChristSection
+                start={range.start}
+                end={range.end}
+                showSourceVerse
+                data={data}
+                onSelect={onSelect}
+                onPreview={onPreview}
+                shareUrl={shareUrl}
+              />
+            )}
             <ChapterVerses
               start={range.start}
               end={range.end}

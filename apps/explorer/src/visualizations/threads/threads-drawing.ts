@@ -4,7 +4,7 @@ import type { VerseIndexRange } from '../../core/bible/versification.ts';
 import { elementAt } from '../../core/lib/array.ts';
 import type { Connection } from '../shared/connections.ts';
 import type { VizColors } from '../shared/palette.ts';
-import { voteWeight } from '../shared/vote-weight.ts';
+import { isChristLinkId } from '../../christ-links/christ-links.ts';
 import type { SpineLayout } from './spine-layout.ts';
 import { LOCALE } from '../../i18n/locale.ts';
 
@@ -34,8 +34,6 @@ export interface ThreadsDrawing {
   readonly emphasizedBook: BookId | null;
   /** A link pointed at in the details panel: it alone stands out. */
   readonly emphasizedLink: number | null;
-  /** Orthodoxia: one color for every thread (the prophecies and symbols), instead of genres. */
-  readonly threadColor?: string;
 }
 
 const LABEL_FONT = '10px system-ui, -apple-system, "Segoe UI", sans-serif';
@@ -75,6 +73,7 @@ function drawConnections(context: CanvasRenderingContext2D, drawing: ThreadsDraw
     color: string;
     alpha: number;
     emphasized: boolean;
+    christ: boolean;
   }[] = [];
   for (const anchor of drawing.anchors) {
     for (const connection of drawing.connectionsByVerse.get(anchor.verse) ?? []) {
@@ -82,23 +81,19 @@ function drawConnections(context: CanvasRenderingContext2D, drawing: ThreadsDraw
         emphasizedLink !== null
           ? connection.link.id === emphasizedLink
           : anchor.verse === emphasizedVerse || landsInBook(connection);
-      const weight = voteWeight(connection.link.votes);
+      // Orthodoxia: the prophecies and symbols of Christ are gold. Every thread has the same weight
+      // (upstream weighted them by readers' votes, which are not used here): faded at rest, clear
+      // once its verse is picked.
+      const christ = isChristLinkId(connection.link.id);
       threads.push({
         y: anchor.y,
         target: spine.yOf((connection.otherStart + connection.otherEnd) / 2),
-        color:
-          drawing.threadColor ??
-          elementAt(drawing.colors.genres, elementAt(drawing.verseGenres, connection.otherStart)),
-        // Prophecies and symbols are few and hand-picked: drawn clearly, not faded by votes.
-        alpha: emphasized
-          ? 0.95
-          : hasEmphasis
-            ? 0.06 + 0.1 * weight
-            : drawing.threadColor
-              ? 0.75
-              : // Orthodoxia: faded at rest (upstream 0.18 + 0.5 × weight), clear once a verse is picked.
-                0.1 + 0.25 * weight,
+        color: christ
+          ? drawing.colors.accent
+          : elementAt(drawing.colors.genres, elementAt(drawing.verseGenres, connection.otherStart)),
+        alpha: emphasized ? 0.95 : hasEmphasis ? (christ ? 0.3 : 0.12) : christ ? 0.6 : 0.25,
         emphasized,
+        christ,
       });
     }
   }
@@ -108,7 +103,7 @@ function drawConnections(context: CanvasRenderingContext2D, drawing: ThreadsDraw
   for (const thread of threads) {
     context.globalAlpha = thread.alpha;
     context.strokeStyle = thread.color;
-    context.lineWidth = thread.emphasized ? 1.6 : drawing.threadColor ? 1.3 : 1;
+    context.lineWidth = thread.emphasized ? 1.6 : thread.christ ? 1.3 : 1;
     context.beginPath();
     context.moveTo(0, thread.y);
     context.bezierCurveTo(

@@ -1,15 +1,9 @@
-import { useMemo, useState } from 'react';
+import { useState } from 'react';
 import type { BookId } from '../../core/bible/books.ts';
 import { passageRange, type Passage } from '../../core/bible/passage.ts';
-import {
-  BothDirectionsIcon,
-  ChristIcon,
-  IncomingIcon,
-  OutgoingIcon,
-} from '../../shared/ui/icons.tsx';
-import { useBooleanPreference } from '../../shared/lib/preferences.ts';
-import controls from '../shared/components/controls.module.css';
-import { FiltersMenu } from '../shared/components/FiltersMenu.tsx';
+import { BothDirectionsIcon, IncomingIcon, OutgoingIcon } from '../../shared/ui/icons.tsx';
+import { CategoriesMenu } from '../shared/components/CategoriesMenu.tsx';
+import { categoryCounts } from '../shared/category-counts.ts';
 import { GenreMenu } from '../shared/components/GenreMenu.tsx';
 import { toggleGenre } from '../shared/components/GenreToggles.tsx';
 import { PassagePanel } from '../shared/components/PassagePanel.tsx';
@@ -17,7 +11,7 @@ import { ReferenceSearch } from '../shared/components/ReferenceSearch.tsx';
 import { SegmentedControl } from '../shared/components/SegmentedControl.tsx';
 import { VizPage } from '../shared/components/VizPage.tsx';
 import type { Connection } from '../shared/connections.ts';
-import { DEFAULT_LINK_FILTER, selectLinks } from '../shared/link-filter.ts';
+import { DEFAULT_LINK_FILTER } from '../shared/link-filter.ts';
 import type { VizData } from '../shared/viz-data.ts';
 import type { VisualizationProps } from '../visualization.ts';
 import { ThreadsStage, type ThreadDirection } from './ThreadsStage.tsx';
@@ -59,15 +53,8 @@ export function ThreadsExplorer({
   shareUrl,
 }: VisualizationProps) {
   const [direction, setDirection] = useState<ThreadDirection>('outgoing');
-  // Orthodoxia: threads of the prophecies and symbols of Christ only; remembered between visits.
-  const [christMode, setChristMode] = useBooleanPreference('christ-mode', false);
   const { book, chapter } = chapterOf(passage, data);
   const selectedVerse = passage?.kind === 'verse' ? passage.verse : null;
-  const { index } = data.crossReferences;
-  const shownLinks = useMemo(
-    () => selectLinks(index, data.verseGenres, filter, data.linkReasons).length,
-    [index, data.verseGenres, filter, data.linkReasons],
-  );
   // Closing the details keeps the chapter.
   const closePanel = () => {
     onNavigate({ kind: 'chapter', book, chapter });
@@ -86,41 +73,24 @@ export function ThreadsExplorer({
       controls={
         <>
           <ReferenceSearch versification={data.versification} onSelect={onNavigate} />
-          <button
-            type="button"
-            className={`${controls.button} ${controls.menuButton} ${controls.christ}`}
-            aria-pressed={christMode}
-            aria-label={t.christ.toggle}
-            title={t.christ.toggleHint}
-            onClick={() => {
-              setChristMode(!christMode);
-            }}
-          >
-            <ChristIcon />
-            <span className={controls.menuLabel}>{t.christ.toggle}</span>
-          </button>
-          {/* Prophecies and symbols are drawn both ways, so the direction only applies to the rest. */}
-          {!christMode && (
-            <SegmentedControl
-              label={t.threads.direction}
-              options={DIRECTIONS}
-              value={direction}
-              onChange={setDirection}
-              iconsOnlyOnPhones
-            />
-          )}
+          <SegmentedControl
+            label={t.threads.direction}
+            options={DIRECTIONS}
+            value={direction}
+            onChange={setDirection}
+            iconsOnlyOnPhones
+          />
           <GenreMenu
             hiddenGenres={filter.hiddenGenres}
             onToggle={(genre) => {
               onFilterChange({ ...filter, hiddenGenres: toggleGenre(filter.hiddenGenres, genre) });
             }}
           />
-          <FiltersMenu
+          <CategoriesMenu
             filter={filter}
             defaults={DEFAULT_LINK_FILTER}
             onChange={onFilterChange}
-            shownLinks={shownLinks}
-            totalLinks={index.linkCount}
+            counts={categoryCounts(data.linkReasons)}
           />
         </>
       }
@@ -148,7 +118,6 @@ export function ThreadsExplorer({
         selectedVerse={selectedVerse}
         filter={filter}
         direction={direction}
-        christMode={christMode}
         preview={previewed}
         onSelect={onNavigate}
       />

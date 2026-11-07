@@ -45,7 +45,7 @@ describe('LinkReasons', () => {
     {
       format: 'link-reasons',
       linkCount: 6,
-      kinds: 'qptwru',
+      kinds: 'qptwqu',
       sides: 'bbbbb-',
       topics: [{ en: 'Circumcision', ar: 'الختان' }],
       topicOf: [0],
@@ -62,21 +62,22 @@ describe('LinkReasons', () => {
       topic: { en: 'Circumcision', ar: 'الختان' },
     });
     expect(reasons.reasonOf(3)).toEqual({ kind: 'words', words: 'palm branches' });
-    expect(reasons.reasonOf(4)).toEqual({ kind: 'theme' });
+    expect(reasons.reasonOf(4)).toEqual({ kind: 'quotation' });
     expect(reasons.reasonOf(5)).toEqual({ kind: 'unclear' });
   });
 
-  it('hides unclear links unless the filter asks for them', () => {
+  it('shows each category only when it is chosen', () => {
     const genres = new Uint8Array(10);
-    const hiding = compileLinkFilter(createLinkFilter(0), genres, reasons);
-    const showing = compileLinkFilter(
-      { ...createLinkFilter(0), showUnclear: true },
+    const usual = compileLinkFilter(createLinkFilter(), genres, reasons);
+    const unclearToo = compileLinkFilter(
+      createLinkFilter(['unclear', 'quotation']),
       genres,
       reasons,
     );
-    expect(hiding(0, 1, 5, 4)).toBe(true);
-    expect(hiding(0, 1, 5, 5)).toBe(false);
-    expect(showing(0, 1, 5, 5)).toBe(true);
+    expect(usual(0, 1, 5, 0)).toBe(true);
+    expect(usual(0, 1, 5, 5)).toBe(false);
+    expect(unclearToo(0, 1, 5, 5)).toBe(true);
+    expect(unclearToo(0, 1, 5, 2)).toBe(false);
   });
 
   it('refuses reasons that do not match the links', () => {

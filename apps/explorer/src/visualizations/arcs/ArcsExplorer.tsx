@@ -7,7 +7,8 @@ import {
   ScrollIcon,
   TapIcon,
 } from '../../shared/ui/icons.tsx';
-import { FiltersMenu } from '../shared/components/FiltersMenu.tsx';
+import { CategoriesMenu } from '../shared/components/CategoriesMenu.tsx';
+import { categoryCounts } from '../shared/category-counts.ts';
 import { GenreLegend } from '../shared/components/GenreLegend.tsx';
 import { toggleGenre } from '../shared/components/GenreToggles.tsx';
 import { LinkStats } from '../shared/components/LinkStats.tsx';
@@ -16,6 +17,7 @@ import { ReferenceSearch } from '../shared/components/ReferenceSearch.tsx';
 import { VizPage } from '../shared/components/VizPage.tsx';
 import { DEFAULT_LINK_FILTER, selectLinks } from '../shared/link-filter.ts';
 import { summarizeLinks } from '../shared/link-summary.ts';
+import { christLinks } from '../../christ-links/christ-links.ts';
 import type { Passage } from '../../core/bible/passage.ts';
 import type { Connection } from '../shared/connections.ts';
 import type { VisualizationProps } from '../visualization.ts';
@@ -38,10 +40,20 @@ export function ArcsExplorer({
     () => selectLinks(index, data.verseGenres, filter, data.linkReasons),
     [index, data.verseGenres, filter, data.linkReasons],
   );
-  const summary = useMemo(
-    () => summarizeLinks(index, linkIds, data.verseGenres),
-    [index, linkIds, data.verseGenres],
-  );
+  const showChrist = filter.categories.has('christ');
+  const summary = useMemo(() => {
+    const crossReferences = summarizeLinks(index, linkIds, data.verseGenres);
+    // Orthodoxia: the prophecies and symbols of Christ count too (all lead from the Old Testament
+    // to the New), and the total is every link the explorer has.
+    const christ = christLinks().links.length;
+    const shown = showChrist ? christ : 0;
+    return {
+      ...crossReferences,
+      shownLinks: crossReferences.shownLinks + shown,
+      totalLinks: crossReferences.totalLinks + christ,
+      crossTestamentLinks: crossReferences.crossTestamentLinks + shown,
+    };
+  }, [index, linkIds, data.verseGenres, showChrist]);
   const closePanel = () => {
     onNavigate(null);
   };
@@ -59,12 +71,11 @@ export function ArcsExplorer({
       controls={
         <>
           <ReferenceSearch versification={data.versification} onSelect={onNavigate} />
-          <FiltersMenu
+          <CategoriesMenu
             filter={filter}
             defaults={DEFAULT_LINK_FILTER}
             onChange={onFilterChange}
-            shownLinks={linkIds.length}
-            totalLinks={index.linkCount}
+            counts={categoryCounts(data.linkReasons)}
           />
         </>
       }

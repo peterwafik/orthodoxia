@@ -3,7 +3,7 @@
 
 import type { LinkReasonsFile } from './format.ts';
 
-export type LinkReasonKind = 'quotation' | 'parallel' | 'topic' | 'words' | 'theme' | 'unclear';
+export type LinkReasonKind = 'quotation' | 'parallel' | 'topic' | 'words' | 'unclear';
 
 export type LinkReason =
   | { readonly kind: 'topic'; readonly topic: { readonly en: string; readonly ar: string } }
@@ -15,17 +15,9 @@ const KINDS: Readonly<Record<string, LinkReasonKind>> = {
   p: 'parallel',
   t: 'topic',
   w: 'words',
-  r: 'theme',
   u: 'unclear',
 };
-const CODES: readonly LinkReasonKind[] = [
-  'quotation',
-  'parallel',
-  'topic',
-  'words',
-  'theme',
-  'unclear',
-];
+const CODES: readonly LinkReasonKind[] = ['quotation', 'parallel', 'topic', 'words', 'unclear'];
 const UNCLEAR = CODES.indexOf('unclear');
 
 export class LinkReasons {
@@ -63,6 +55,27 @@ export class LinkReasons {
     return side === undefined || side === 'b' || side === 't';
   }
 
+  /** How many links have each kind of reason. */
+  countByKind(): Record<LinkReasonKind, number> {
+    const counts: Record<LinkReasonKind, number> = {
+      quotation: 0,
+      parallel: 0,
+      topic: 0,
+      words: 0,
+      unclear: 0,
+    };
+    for (const code of this.#kinds) {
+      const kind = CODES[code] ?? 'unclear';
+      counts[kind] += 1;
+    }
+    return counts;
+  }
+
+  /** The kind of reason a link has. */
+  kindOf(id: number): LinkReasonKind {
+    return CODES[this.#kinds[id] ?? UNCLEAR] ?? 'unclear';
+  }
+
   /** Whether the link has a reason to be shown (anything but unclear). */
   isClear(id: number): boolean {
     return id < 0 || id >= this.#kinds.length || this.#kinds[id] !== UNCLEAR;
@@ -73,7 +86,7 @@ export class LinkReasons {
     const detail = this.#detail[id] ?? -1;
     if (kind === 'topic') {
       const topic = this.#file.topics[this.#file.topicOf[detail] ?? -1];
-      return topic ? { kind, topic } : { kind: 'theme' };
+      return topic ? { kind, topic } : { kind: 'unclear' };
     }
     if (kind === 'words') {
       return { kind, words: this.#file.words[detail] ?? '' };

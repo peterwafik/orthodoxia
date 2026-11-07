@@ -96,55 +96,71 @@ title in English and Arabic. It sits beside the OpenBible links, which carry no 
 - `src/christ-links/` (new): the list (`christ-links-data.ts`), its index (`christ-links.ts`, link IDs
   from 100,000,000 so they never meet the cross-reference index) and tests that every reference is a
   real verse, Old Testament first and New Testament second.
-- Threads: a "Prophecies & symbols" toggle (remembered) draws only these pairs, both ways, in the site's
-  gold, and hides the direction switch. `ThreadsExplorer.tsx`, `ThreadsStage.tsx` (+ `.module.css`),
-  `threads-drawing.ts` (`threadColor`), `controls.module.css` (`.christ`), `icons.tsx` (`ChristIcon`).
-- Details panel (both views): a "Fulfilled in Christ" section first, titled per prophecy or symbol.
-  `PassagePanel.tsx` (+ `.module.css`).
-- Arcs: previewing one of these links draws its gold arc from its ends (`buildArcInstancesOf` in
-  `arc-instances.ts`, used by `ArcsStage.tsx`).
-- `palette.ts`: `VizColors.accent`; `messages.ts`: the `christ` strings.
+- Shown while the "Prophecies & symbols" category is on (see Categories below), always in gold:
+  - Threads: drawn both ways whatever the direction switch (`ThreadsStage.tsx`, `threads-drawing.ts`).
+  - Arcs: every one across the Bible, and a focused passage's on top (`ArcsStage.tsx`; `u_palette` gets
+    an 11th entry, a bright gold: `arc-shaders.ts`, `webgl.ts` `GOLD_PALETTE_INDEX`;
+    `buildArcInstancesOf`/`joinArcInstances` in `arc-instances.ts`). The stats count them (`ArcsExplorer.tsx`).
+  - Details panel: a "Fulfilled in Christ" section first, titled per prophecy or symbol (`PassagePanel.tsx`).
+- `palette.ts`: `VizColors.accent`; `icons.tsx`: `ChristIcon`; `messages.ts`: the `christ` strings.
 
 ## Why two passages are linked (link reasons)
 
 OpenBible.info links say nothing about why two passages belong together, and many have no visible
 connection. At build time every link gets a reason, the first that holds (BSB text, the site's topic
-list from `apps/web/src/lib/topics/`); links with none are hidden by default:
+list from `apps/web/src/lib/topics/`). Readers' votes are not used anywhere (they rank how helpful
+readers found a link, not whether it is right):
 
-| Tag             | When                                                                                                                               |
-| --------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
-| Quotation       | Old ↔ New Testament, sharing a run of 4+ words, 2+ of them meaningful                                                              |
-| Same wording    | the same within one Testament (parallel accounts, repeated laws and phrases)                                                       |
-| Topic: …        | both in one specific subtopic of the site's topic list (≤ 150 verses; smallest named)                                              |
-| Shared words: … | 2+ uncommon words, one fairly rare (≤ 120 verses), or 1 very rare word (≤ 25) with 8+ votes; never names, hyphenated ones included |
-| Related theme   | none of these, but 50+ readers' votes                                                                                              |
+| Category / tag  | When                                                                                     |
+| --------------- | ---------------------------------------------------------------------------------------- |
+| Quotation       | Old ↔ New Testament, sharing a run of 4+ words, 2+ of them meaningful                    |
+| Same wording    | the same within one Testament (parallel accounts, repeated laws and phrases)             |
+| Topic: …        | both in one specific subtopic of the site's topic list (≤ 150 verses; smallest named)    |
+| Shared words: … | 2+ uncommon words, one fairly rare (≤ 120 verses), or 1 word in ≤ 12 verses; never names |
+| (unclear)       | none of these: hidden unless the reader turns its category on                            |
 
-Then each verse lists only its 10 strongest references and its 10 strongest "referenced by"; each side
-keeps its own (`sides` in the reasons file), so a verse doesn't lose a link because the passage it
-points to is popular. `collectConnections` applies the side; Arcs draws a link listed at either end.
-With the default 4-vote filter 41,732 links show instead of 153,419; spot checks of each tag
-across the Bible found roughly 85–95% clearly related. Filters → "Show links without a clear
-connection" brings the rest back.
+Then each verse lists only its 10 strongest references and its 10 strongest "referenced by" (by
+category, then the weight of the evidence: a longer shared run, a smaller topic, rarer words); each
+side keeps its own (`sides` in the reasons file), so a verse doesn't lose a link because the passage
+it points to is popular. `collectConnections` applies the side; Arcs draws a link listed at either end.
+69,890 links have a reason (of 344,799); spot checks across all 66 books found most clearly related.
 
 - `scripts/data/link-reasons.ts` (new, run by `data:build` after `build.ts`) →
   `public/data/cross-references/openbible-reasons.json`; rules in `src/link-reasons/evidence.ts`,
-  file format in `format.ts`, reader in `link-reasons.ts` (all new).
+  file format in `format.ts`, reader in `link-reasons.ts`, browser download in
+  `fetch-link-reasons.ts` (all new).
 - `scripts/data/audit-links.ts` (new, last step of `data:build`): walks all 31,102 verses through the
-  pages' own code at every vote threshold and fails the build if any drawn link has no reason, a
-  verse exceeds 10 links each way, threads and arcs disagree, or a prophecy/symbol link is broken.
-- `viz-data.ts` / `viz-datasets.ts` (download in `src/link-reasons/fetch-link-reasons.ts`): the reasons load (and preload, and cache offline) with the other datasets.
-- `link-filter.ts`: `LinkFilter.showUnclear`; `compileLinkFilter`, `selectLinks` and `collectConnections`
-  take the reasons (all callers pass `data.linkReasons`); URL `unclear=show` (`explorer-location.ts`).
-- Arcs: focusing a passage hides every other arc (`arc-scene.ts`, `DIMMED_GLOW` 0.28 → 0), and its
-  prophecies and symbols of Christ are drawn in gold (`u_palette` gets an 11th entry, a bright gold:
-  `arc-shaders.ts`, `webgl.ts` `GOLD_PALETTE_INDEX`; `buildArcInstancesOf`/`joinArcInstances` in
-  `arc-instances.ts`, used by `ArcsStage.tsx`). Threads draws every verse's threads faded at rest (alpha 0.1–0.35, upstream 0.18–0.68) and the
-  picked verse's clearly (`threads-drawing.ts`).
-- `FiltersMenu.tsx` (checkbox), `PassagePanel.tsx` (+ `.module.css`: a reason tag on every reference; a
-  passage that is both a reference and points back is listed once), `messages.ts` (`reasons`).
+  pages' own code, for the default categories and each category alone, and fails the build if a drawn
+  link has no reason or belongs to a category not chosen, a verse exceeds 10 links each way, threads
+  and arcs disagree, or a prophecy/symbol link is broken.
+- `viz-data.ts` / `viz-datasets.ts`: the reasons load (and preload, and cache offline) with the other datasets.
+- `PassagePanel.tsx` (+ `.module.css`): a reason tag on every reference; a passage that is both a
+  reference and points back is listed once; `messages.ts` (`reasons`).
+
+## Categories instead of community votes
+
+Upstream's Filters menu set a minimum of readers' votes (default 4). It is replaced by a Categories
+menu: one checkbox per kind of link (Prophecies & symbols, Quotations, Same wording, Same topic,
+Shared words, No clear connection), each with its count; all but the last are on by default. Arcs,
+Threads and the details follow at once; the choice is kept in the URL (`show=christ,quotation`,
+`show=none`; the old `votes` parameter is ignored).
+
+- `link-filter.ts`: `LinkFilter` is `{ hiddenGenres, categories }` (no `minVotes`); `LINK_CATEGORIES`,
+  `toggleCategory`; `compileLinkFilter`/`selectLinks`/`collectConnections` take the reasons (every
+  caller passes `data.linkReasons`) and keep upstream's argument shapes, ignoring votes.
+- `components/CategoriesMenu.tsx` (new; `FiltersMenu.tsx` removed), `category-counts.ts` (new),
+  `controls.module.css`, `icons.tsx` (`CategoriesIcon`), `messages.ts` (`categories`), `explorer-location.ts`.
+- Every arc and thread has the same weight: `arc-instances.ts` `ARC_WEIGHT` and `threads-drawing.ts`
+  replace `voteWeight` (kept for the debug page's tests).
+- Threads' separate "Prophecies & symbols" toggle is gone: the category does the same.
+
+## Selecting a passage
+
+Arcs: focusing a passage hides every other arc (`arc-scene.ts`, `DIMMED_GLOW` 0.28 → 0). Threads draws
+every verse's threads faded at rest and the picked verse's clearly (`threads-drawing.ts`).
 
 ## Header menus open above the page
 
 The glass header's blur makes it its own layer, so the page body (drawn after it) covered the menus'
-popovers: Filters, Genres and the site menu opened invisibly. `.header` gets `position: relative;
+popovers: Categories, Genres and the site menu opened invisibly. `.header` gets `position: relative;
 z-index: 20` (`src/visualizations/shared/components/VizPage.module.css`).

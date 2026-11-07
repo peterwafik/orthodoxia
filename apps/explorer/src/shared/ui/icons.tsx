@@ -79,6 +79,8 @@ export const PinchIcon = decorative(MdOutlinePinch);
 
 // Settings
 export const FiltersIcon = decorative(LuSlidersHorizontal);
+// Orthodoxia: the categories menu (kinds of link), which replaces the filters menu.
+export const CategoriesIcon = decorative(LuSlidersHorizontal);
 export const GenresIcon = decorative(LuPalette);
 
 // Link direction: a passage points to others, others point to it, or both. The arrows follow the

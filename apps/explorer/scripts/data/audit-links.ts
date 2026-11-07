@@ -1,6 +1,6 @@
 /**
- * Orthodoxia: walks every verse of the Bible through the same code the pages use and fails if a
- * link without a reason would be drawn, a verse shows more links than allowed, or a prophecy or
+ * Orthodoxia: walks every verse of the Bible through the same code the pages use, for the default
+ * categories and each category alone, and fails if a link of a category not chosen would be drawn, a verse shows more links than allowed, or a prophecy or
  * symbol of Christ is broken (see PATCHES.md). Runs at the end of `data:build`, so a bad link can't
  * be deployed.
  *
@@ -18,6 +18,7 @@ import { collectConnections } from '../../src/visualizations/shared/connections.
 import {
   createLinkFilter,
   DEFAULT_LINK_FILTER,
+  LINK_CATEGORIES,
   selectLinks,
   type LinkFilter,
 } from '../../src/visualizations/shared/link-filter.ts';
@@ -50,8 +51,14 @@ const where = (verse: number) => {
   return `${ref.book} ${String(ref.chapter)}:${String(ref.verse)}`;
 };
 
-// The filters a reader can pick (every vote threshold; unclear links stay hidden).
-const filters: LinkFilter[] = [-Infinity, 0, 4, 10, 50].map((votes) => createLinkFilter(votes));
+// The default categories, then each category with a clear reason alone.
+const filters: LinkFilter[] = [
+  DEFAULT_LINK_FILTER,
+  ...LINK_CATEGORIES.filter((category) => category !== 'unclear' && category !== 'christ').map(
+    (category) => createLinkFilter([category]),
+  ),
+];
+const label = (filter: LinkFilter) => [...filter.categories].join('+');
 
 let shownTotal = 0;
 for (const filter of filters) {
@@ -60,6 +67,9 @@ for (const filter of filters) {
   const arcIds = new Set(arcs);
   for (const id of arcs) {
     if (!reasons.isClear(id)) problem(`Arcs would draw link ${String(id)} without a reason`);
+    if (!filter.categories.has(reasons.kindOf(id))) {
+      problem(`Arcs would draw link ${String(id)} (${reasons.kindOf(id)}) under ${label(filter)}`);
+    }
   }
   // Threads and the panel draw these, verse by verse; every one must also be an arc.
   const seen = new Set<number>();
@@ -76,6 +86,11 @@ for (const filter of filters) {
       seen.add(id);
       const reason = reasons.reasonOf(id);
       if (reason.kind === 'unclear') problem(`${where(verse)}: link ${String(id)} has no reason`);
+      if (!filter.categories.has(reason.kind)) {
+        problem(
+          `${where(verse)}: link ${String(id)} (${reason.kind}) shown under ${label(filter)}`,
+        );
+      }
       if (reason.kind === 'topic' && reason.topic.en.trim() === '') {
         problem(`${where(verse)}: link ${String(id)} names an empty topic`);
       }
@@ -96,11 +111,9 @@ for (const filter of filters) {
     }
   }
   if (seen.size !== arcIds.size) {
-    problem(
-      `${String(arcIds.size)} arcs but ${String(seen.size)} threads at ≥ ${String(filter.minVotes)} votes`,
-    );
+    problem(`${String(arcIds.size)} arcs but ${String(seen.size)} threads under ${label(filter)}`);
   }
-  if (filter.minVotes === DEFAULT_LINK_FILTER.minVotes) shownTotal = arcIds.size;
+  if (filter === DEFAULT_LINK_FILTER) shownTotal = arcIds.size;
 }
 
 // Every prophecy and symbol leads both ways, from real verses, and never reaches the index.
@@ -124,7 +137,7 @@ if (problems.length > 0) {
   process.exit(1);
 }
 console.log(
-  `✓ Link audit: all ${String(V.verseCount)} verses checked at ${String(filters.length)} vote thresholds; ` +
+  `✓ Link audit: all ${String(V.verseCount)} verses checked under ${String(filters.length)} category choices; ` +
     `${String(shownTotal)} links shown by default, each with a reason and ≤ ${String(MAX_PER_VERSE)} per verse each way; ` +
     `${String(christ.links.length)} prophecy and symbol links lead both ways.`,
 );

@@ -2,50 +2,55 @@ import { GENRES, type GenreId } from '../../core/bible/genres.ts';
 import type { VerseIndex } from '../../core/bible/verse-ref.ts';
 import { elementAt } from '../../core/lib/array.ts';
 import type { CrossReferenceIndex } from '../../cross-references/cross-reference-index.ts';
-import { t } from '../../i18n/messages.ts';
 import type { LinkReasons } from '../../link-reasons/link-reasons.ts';
+
+/**
+ * Orthodoxia: the kinds of link a reader can show or hide. `christ` is the hand-picked prophecies and
+ * symbols of Christ; the others are the reasons given to cross-references (see link-reasons.ts).
+ * Readers' votes are not used: they rank helpfulness, not whether a link is right.
+ */
+export type LinkCategory = 'christ' | 'quotation' | 'parallel' | 'topic' | 'words' | 'unclear';
+
+export const LINK_CATEGORIES: readonly LinkCategory[] = [
+  'christ',
+  'quotation',
+  'parallel',
+  'topic',
+  'words',
+  'unclear',
+];
 
 /** Which links a visualization shows, set with optional, low-key controls. */
 export interface LinkFilter {
-  /** Minimum community votes; `-Infinity` shows every link, including disputed ones. */
-  readonly minVotes: number;
   /** Genres whose links are hidden (a link is hidden if either end is in such a genre). */
   readonly hiddenGenres: ReadonlySet<GenreId>;
-  /**
-   * Orthodoxia: also show links with no clear reason (no shared wording, topic or uncommon words,
-   * and few votes). Off by default.
-   */
-  readonly showUnclear: boolean;
+  /** The kinds of link shown. */
+  readonly categories: ReadonlySet<LinkCategory>;
 }
 
-/** Vote thresholds offered by the filter controls. */
-export const VOTE_THRESHOLDS: readonly number[] = [-Infinity, 0, 1, 2, 3, 4, 5, 10, 20, 50, 100];
-
-export function createLinkFilter(minVotes: number): LinkFilter {
-  return { minVotes, hiddenGenres: new Set(), showUnclear: false };
+export function createLinkFilter(
+  categories: Iterable<LinkCategory> = LINK_CATEGORIES.filter((category) => category !== 'unclear'),
+): LinkFilter {
+  return { hiddenGenres: new Set(), categories: new Set(categories) };
 }
 
-/**
- * The filter every visualization starts with: links with at least 4 votes, the best supported 44%
- * (153,419 of 344,799 in the OpenBible.info snapshot of 2026-09-21). It hides the links readers
- * voted down (0.4%, e.g. Ephesians 6:17 → 1 Samuel 17:58, at −86) and the loosest ones, which few
- * readers found helpful; the Filters menu shows more, down to every link.
- */
-export const DEFAULT_LINK_FILTER: LinkFilter = createLinkFilter(4);
+/** Every kind of link with a clear reason; links without one are left out until asked for. */
+export const DEFAULT_LINK_FILTER: LinkFilter = createLinkFilter();
 
 export function isDefaultFilter(filter: LinkFilter, defaults: LinkFilter): boolean {
   return (
-    filter.minVotes === defaults.minVotes &&
     filter.hiddenGenres.size === 0 &&
-    filter.showUnclear === defaults.showUnclear
+    filter.categories.size === defaults.categories.size &&
+    [...filter.categories].every((category) => defaults.categories.has(category))
   );
 }
 
-export function describeThreshold(minVotes: number): string {
-  if (minVotes === -Infinity) {
-    return t.filters.allLinks;
-  }
-  return minVotes === 0 ? t.filters.votedDownHidden : t.filters.atLeast(String(minVotes));
+/** Shows or hides one kind of link. */
+export function toggleCategory(filter: LinkFilter, category: LinkCategory): LinkFilter {
+  const categories = new Set(filter.categories);
+  if (categories.has(category)) categories.delete(category);
+  else categories.add(category);
+  return { ...filter, categories };
 }
 
 /**
@@ -61,11 +66,10 @@ export function compileLinkFilter(
   for (const genre of GENRES) {
     hidden[genre.ordinal] = filter.hiddenGenres.has(genre.id) ? 1 : 0;
   }
-  const { minVotes } = filter;
-  const hidesUnclear = !filter.showUnclear && reasons !== undefined;
-  return (from, to, votes, id) =>
-    votes >= minVotes &&
-    (!hidesUnclear || id === undefined || reasons.isClear(id)) &&
+  const { categories } = filter;
+  // The arguments keep upstream's shape; votes are not used (see LinkCategory).
+  return (from, to, _votes, id) =>
+    (reasons === undefined || id === undefined || categories.has(reasons.kindOf(id))) &&
     elementAt(hidden, elementAt(verseGenres, from)) === 0 &&
     elementAt(hidden, elementAt(verseGenres, to)) === 0;
 }
