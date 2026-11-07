@@ -18,7 +18,6 @@ import { useBooleanPreference } from '../../../shared/lib/preferences.ts';
 import {
   CloseIcon,
   CopiedIcon,
-  ChristIcon,
   CopyIcon,
   ExpandIcon,
   IncomingIcon,
@@ -205,6 +204,18 @@ export function PassagePanel({
     [crossReferences.index, passage, versification, filter, verseGenres, data.linkReasons],
   );
   const range = passageRange(passage, versification);
+  const curated = useMemo(
+    () =>
+      christLinks()
+        .connectionsIn(passageRange(passage, versification))
+        .filter((connection) => filter.categories.has(connection.entry.kind)),
+    [passage, versification, filter],
+  );
+  const incoming = withoutMutual(connections.incoming, connections.outgoing);
+  const curatedOut = curated.filter((connection) => connection.direction === 'outgoing');
+  const curatedIn = curated.filter((connection) => connection.direction === 'incoming');
+  const nothing =
+    curated.length === 0 && connections.outgoing.length === 0 && incoming.length === 0;
   const book = versification.bookAt(range.start);
   const genre = getBookGenre(book.id);
   const previous = neighbor(passage, -1, versification);
@@ -274,34 +285,10 @@ export function PassagePanel({
               />
             </div>
             {actions && <div className={styles.actions}>{actions}</div>}
-            {
-              <ChristSection
-                filter={filter}
-                start={range.start}
-                end={range.end}
-                showSourceVerse={false}
-                data={data}
-                onSelect={onSelect}
-                onPreview={onPreview}
-                shareUrl={shareUrl}
-              />
-            }
           </>
         ) : (
           <>
             {actions && <div className={styles.actions}>{actions}</div>}
-            {
-              <ChristSection
-                filter={filter}
-                start={range.start}
-                end={range.end}
-                showSourceVerse
-                data={data}
-                onSelect={onSelect}
-                onPreview={onPreview}
-                shareUrl={shareUrl}
-              />
-            }
             <ChapterVerses
               start={range.start}
               end={range.end}
@@ -326,6 +313,7 @@ export function PassagePanel({
           title={t.panel.references}
           description={t.panel.referencesDescription}
           connections={connections.outgoing}
+          curated={curatedOut}
           showSourceVerse={passage.kind === 'chapter'}
           data={data}
           onSelect={onSelect}
@@ -336,13 +324,15 @@ export function PassagePanel({
           icon={IncomingIcon}
           title={t.panel.referencedBy}
           description={t.panel.referencedByDescription}
-          connections={withoutMutual(connections.incoming, connections.outgoing)}
+          connections={incoming}
+          curated={curatedIn}
           showSourceVerse={passage.kind === 'chapter'}
           data={data}
           onSelect={onSelect}
           onPreview={onPreview}
           shareUrl={shareUrl}
         />
+        {nothing && <p className={styles.muted}>{t.panel.noLinks}</p>}
       </div>
     </div>
   );
@@ -474,6 +464,7 @@ function ConnectionSection({
   title,
   description,
   connections,
+  curated,
   showSourceVerse,
   data,
   onSelect,
@@ -485,6 +476,8 @@ function ConnectionSection({
   readonly title: string;
   readonly description: string;
   readonly connections: readonly Connection[];
+  /** Orthodoxia: the hand-picked pairs that lead this way, listed first. */
+  readonly curated: readonly ChristConnection[];
   readonly showSourceVerse: boolean;
   readonly data: VizData;
   readonly onSelect: (passage: Passage) => void;
@@ -492,6 +485,9 @@ function ConnectionSection({
   readonly shareUrl: (passage: Passage) => string;
 }) {
   const [limit, setLimit] = useState(INITIAL_ITEMS);
+  if (connections.length === 0 && curated.length === 0) {
+    return null;
+  }
   const { versification, translation } = data;
   const visible = connections.slice(0, limit);
   return (
@@ -500,7 +496,14 @@ function ConnectionSection({
         <Icon className={styles.sectionIcon} />
         {title} <span>· {description}</span>
       </h3>
-      {connections.length === 0 && <p className={styles.muted}>{t.panel.none}</p>}
+      <ChristGroups
+        connections={curated}
+        showSourceVerse={showSourceVerse}
+        data={data}
+        onSelect={onSelect}
+        onPreview={onPreview}
+        shareUrl={shareUrl}
+      />
       {groupByBook(visible, versification).map((group) => (
         <div
           key={`${group.book}-${String(group.connections[0]?.otherStart)}`}
@@ -591,23 +594,19 @@ function ConnectionSection({
 }
 
 /**
- * Orthodoxia: the prophecies and symbols of Christ this passage belongs to, first, since they are
- * what a Bible study looks for. Each is titled once, then lists where it leads (from a prophecy to
- * its fulfilment, or back), in the same form as the references below.
+ * Orthodoxia: the hand-picked pairs (About Jesus, prophecies, symbols) that lead one way from the
+ * passage, first in its list since they are what a Bible study looks for. Each is titled once, then
+ * lists where it leads, in the same form as the references after it.
  */
-function ChristSection({
-  filter,
-  start,
-  end,
+function ChristGroups({
+  connections: curated,
   showSourceVerse,
   data,
   onSelect,
   onPreview,
   shareUrl,
 }: {
-  readonly filter: LinkFilter;
-  readonly start: VerseIndex;
-  readonly end: VerseIndex;
+  readonly connections: readonly ChristConnection[];
   readonly showSourceVerse: boolean;
   readonly data: VizData;
   readonly onSelect: (passage: Passage) => void;
@@ -615,23 +614,16 @@ function ChristSection({
   readonly shareUrl: (passage: Passage) => string;
 }) {
   const { versification, translation } = data;
-  const groups = useMemo(() => {
-    const byEntry = new Map<ChristLinkEntry, ChristConnection[]>();
-    for (const connection of christLinks().connectionsIn({ start, end })) {
-      if (!filter.categories.has(connection.entry.kind)) continue;
-      byEntry.set(connection.entry, [...(byEntry.get(connection.entry) ?? []), connection]);
-    }
-    return [...byEntry];
-  }, [start, end, filter]);
+  const byEntry = new Map<ChristLinkEntry, ChristConnection[]>();
+  for (const connection of curated) {
+    byEntry.set(connection.entry, [...(byEntry.get(connection.entry) ?? []), connection]);
+  }
+  const groups = [...byEntry];
   if (groups.length === 0) {
     return null;
   }
   return (
-    <section className={styles.christ}>
-      <h3 className={styles.sectionTitle}>
-        <ChristIcon className={styles.sectionIcon} />
-        {t.christ.section} <span>· {t.christ.sectionDescription}</span>
-      </h3>
+    <div className={styles.christ}>
       {groups.map(([entry, connections]) => (
         <div key={entry.en} className={styles.group}>
           <p className={styles.christTitle}>
@@ -697,7 +689,7 @@ function ChristSection({
           })}
         </div>
       ))}
-    </section>
+    </div>
   );
 }
 

@@ -95,7 +95,7 @@ const en = {
     referencesDescription: 'where this passage points',
     referencedBy: 'Referenced by',
     referencedByDescription: 'passages that point here',
-    none: 'None',
+    noLinks: 'No links in the chosen categories.',
     showAll: (count: string) => `Show all ${count}`,
   },
   connections: {
@@ -161,8 +161,6 @@ const en = {
   },
   // Orthodoxia: the prophecies and symbols of Christ.
   christ: {
-    section: 'Prophecies & symbols',
-    sectionDescription: 'hand-picked from the Church’s reading',
     jesus: 'About Jesus',
     prophecy: 'Prophecy',
     symbol: 'Symbol',
@@ -280,7 +278,7 @@ const ar: Messages = {
     referencesDescription: 'ما يشير إليه هذا النص',
     referencedBy: 'يُستشهد به في',
     referencedByDescription: 'نصوص تشير إلى هنا',
-    none: 'لا يوجد',
+    noLinks: 'لا توجد روابط في الفئات المختارة.',
     showAll: (count) => `اعرض الكل (${count})`,
   },
   connections: {
@@ -342,8 +340,6 @@ const ar: Messages = {
     unclear: 'لا صلة واضحة',
   },
   christ: {
-    section: 'النبوات والرموز',
-    sectionDescription: 'مختارة من قراءة الكنيسة',
     jesus: 'عن المسيح',
     prophecy: 'نبوة',
     symbol: 'رمز',
