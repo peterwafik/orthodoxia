@@ -57,8 +57,8 @@ type ArcObject =
  * Orthodoxia: every arc stays visible, faded (upstream drew them at full glow, 1), and fades further
  * while a passage is hovered or focused, whose own arcs are then drawn solid on top.
  */
-const REST_GLOW = 0.55;
-const DIMMED_GLOW = 0.22;
+const REST_GLOW = 0.9;
+const DIMMED_GLOW = 0.45;
 /** The focused passage's links; faded while one link is previewed on its own. */
 const FOCUS_ALPHA = 0.95;
 const FOCUS_ALPHA_UNDER_PREVIEW = 0.22;

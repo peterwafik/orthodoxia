@@ -165,8 +165,8 @@ Threads and the details follow at once; the choice is kept in the URL (`show=chr
 
 ## Selecting a passage
 
-Arcs: every arc stays visible, faded (`arc-scene.ts` `REST_GLOW` 0.55; upstream 1), and fades further
-(`DIMMED_GLOW` 0.22) while a passage is hovered (`arcs-controller.ts`) or focused, whose own arcs are
+Arcs: every arc stays visible, faded (`arc-scene.ts` `REST_GLOW` 0.9; upstream 1), and fades further
+(`DIMMED_GLOW` 0.45) while a passage is hovered (`arcs-controller.ts`) or focused, whose own arcs are
 drawn solid on top. Threads draws
 every verse's threads faded at rest and the picked verse's clearly (`threads-drawing.ts`).
 
