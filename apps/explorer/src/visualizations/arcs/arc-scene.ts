@@ -54,10 +54,11 @@ type ArcObject =
   | Mesh<InstancedBufferGeometry, RawShaderMaterial>;
 
 /**
- * Glow brightness while a passage is focused. Orthodoxia: 0, so only the passage's own links are
- * drawn (upstream: 0.28, which kept every other arc faintly visible and read as more links).
+ * Orthodoxia: every arc stays visible, faded (upstream drew them at full glow, 1), and fades further
+ * while a passage is hovered or focused, whose own arcs are then drawn solid on top.
  */
-const DIMMED_GLOW = 0;
+const REST_GLOW = 0.55;
+const DIMMED_GLOW = 0.22;
 /** The focused passage's links; faded while one link is previewed on its own. */
 const FOCUS_ALPHA = 0.95;
 const FOCUS_ALPHA_UNDER_PREVIEW = 0.22;
@@ -95,6 +96,7 @@ export class ArcScene {
     this.#renderer = createRenderer(canvas);
     this.#renderer.autoClear = false;
     this.#glow = new GlowCompositor(this.#renderer);
+    this.#glow.setDim(REST_GLOW);
 
     this.#lines = this.#createObject(this.#glowScene, 'line', AdditiveBlending, 1, 1);
     this.#hover = this.#createObject(this.#overlayScene, 'ribbon', NormalBlending, 0.85, 1.4);
@@ -155,9 +157,9 @@ export class ArcScene {
     this.#glow.invalidate();
   }
 
-  /** Dims the glow while something is focused, so the focused links stand out. */
+  /** Dims the glow while a passage is hovered or focused, so its links stand out. */
   setDimmed(dimmed: boolean): void {
-    this.#glow.setDim(dimmed ? DIMMED_GLOW : 1);
+    this.#glow.setDim(dimmed ? DIMMED_GLOW : REST_GLOW);
   }
 
   setHover(instances: ArcInstances | null): void {

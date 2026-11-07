@@ -408,6 +408,7 @@
   content: '· ';
 }
 
+.reason[data-kind='jesus'],
 .reason[data-kind='quotation'],
 .reason[data-kind='parallel'] {
   color: var(--color-accent);

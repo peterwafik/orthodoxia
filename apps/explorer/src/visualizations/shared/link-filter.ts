@@ -6,13 +6,16 @@ import type { LinkReasons } from '../../link-reasons/link-reasons.ts';
 
 /**
  * Orthodoxia: the kinds of link a reader can show or hide. `christ` is the hand-picked prophecies and
- * symbols of Christ; the others are the reasons given to cross-references (see link-reasons.ts).
+ * symbols of Christ; `jesus` the cross-references whose passages are both about Christ; the others
+ * are the reasons found in the texts of the rest (see link-reasons.ts).
  * Readers' votes are not used: they rank helpfulness, not whether a link is right.
  */
-export type LinkCategory = 'christ' | 'quotation' | 'parallel' | 'topic' | 'words' | 'unclear';
+export type LinkCategory =
+  'christ' | 'jesus' | 'quotation' | 'parallel' | 'topic' | 'words' | 'unclear';
 
 export const LINK_CATEGORIES: readonly LinkCategory[] = [
   'christ',
+  'jesus',
   'quotation',
   'parallel',
   'topic',
@@ -69,7 +72,7 @@ export function compileLinkFilter(
   const { categories } = filter;
   // The arguments keep upstream's shape; votes are not used (see LinkCategory).
   return (from, to, _votes, id) =>
-    (reasons === undefined || id === undefined || categories.has(reasons.kindOf(id))) &&
+    (reasons === undefined || id === undefined || categories.has(reasons.categoryOf(id))) &&
     elementAt(hidden, elementAt(verseGenres, from)) === 0 &&
     elementAt(hidden, elementAt(verseGenres, to)) === 0;
 }

@@ -5,10 +5,12 @@ import type { LinkReasonsFile } from './format.ts';
 
 export type LinkReasonKind = 'quotation' | 'parallel' | 'topic' | 'words' | 'unclear';
 
-export type LinkReason =
+/** Why a link is shown: the reason in its texts, and whether it is about Jesus (both passages about Christ). */
+export type LinkReason = (
   | { readonly kind: 'topic'; readonly topic: { readonly en: string; readonly ar: string } }
   | { readonly kind: 'words'; readonly words: string }
-  | { readonly kind: Exclude<LinkReasonKind, 'topic' | 'words'> };
+  | { readonly kind: Exclude<LinkReasonKind, 'topic' | 'words'> }
+) & { readonly aboutJesus: boolean };
 
 const KINDS: Readonly<Record<string, LinkReasonKind>> = {
   q: 'quotation',
@@ -55,42 +57,46 @@ export class LinkReasons {
     return side === undefined || side === 'b' || side === 't';
   }
 
-  /** How many links have each kind of reason. */
-  countByKind(): Record<LinkReasonKind, number> {
-    const counts: Record<LinkReasonKind, number> = {
-      quotation: 0,
-      parallel: 0,
-      topic: 0,
-      words: 0,
-      unclear: 0,
-    };
-    for (const code of this.#kinds) {
-      const kind = CODES[code] ?? 'unclear';
-      counts[kind] += 1;
-    }
-    return counts;
-  }
-
   /** The kind of reason a link has. */
   kindOf(id: number): LinkReasonKind {
     return CODES[this.#kinds[id] ?? UNCLEAR] ?? 'unclear';
   }
 
-  /** Whether the link has a reason to be shown (anything but unclear). */
+  /** Whether both passages of the link are about Christ (see scripts/data/link-reasons.ts). */
+  isAboutJesus(id: number): boolean {
+    return this.#file.about[id] === 'j';
+  }
+
+  /** The category a link is shown under: about Jesus first, else the reason in its texts. */
+  categoryOf(id: number): LinkReasonKind | 'jesus' {
+    return this.isAboutJesus(id) ? 'jesus' : this.kindOf(id);
+  }
+
+  /** How many links are shown under each category (each link under one). */
+  countByCategory(): Record<LinkReasonKind | 'jesus', number> {
+    const counts = { jesus: 0, quotation: 0, parallel: 0, topic: 0, words: 0, unclear: 0 };
+    for (let id = 0; id < this.#kinds.length; id += 1) counts[this.categoryOf(id)] += 1;
+    return counts;
+  }
+
+  /** Whether the link has a reason to be shown: one in its texts, or being about Jesus. */
   isClear(id: number): boolean {
-    return id < 0 || id >= this.#kinds.length || this.#kinds[id] !== UNCLEAR;
+    return (
+      id < 0 || id >= this.#kinds.length || this.#kinds[id] !== UNCLEAR || this.isAboutJesus(id)
+    );
   }
 
   reasonOf(id: number): LinkReason {
     const kind = CODES[this.#kinds[id] ?? UNCLEAR] ?? 'unclear';
     const detail = this.#detail[id] ?? -1;
+    const aboutJesus = this.isAboutJesus(id);
     if (kind === 'topic') {
       const topic = this.#file.topics[this.#file.topicOf[detail] ?? -1];
-      return topic ? { kind, topic } : { kind: 'unclear' };
+      return topic ? { kind, topic, aboutJesus } : { kind: 'unclear', aboutJesus };
     }
     if (kind === 'words') {
-      return { kind, words: this.#file.words[detail] ?? '' };
+      return { kind, words: this.#file.words[detail] ?? '', aboutJesus };
     }
-    return { kind };
+    return { kind, aboutJesus };
   }
 }

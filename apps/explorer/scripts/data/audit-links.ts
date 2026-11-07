@@ -67,8 +67,10 @@ for (const filter of filters) {
   const arcIds = new Set(arcs);
   for (const id of arcs) {
     if (!reasons.isClear(id)) problem(`Arcs would draw link ${String(id)} without a reason`);
-    if (!filter.categories.has(reasons.kindOf(id))) {
-      problem(`Arcs would draw link ${String(id)} (${reasons.kindOf(id)}) under ${label(filter)}`);
+    if (!filter.categories.has(reasons.categoryOf(id))) {
+      problem(
+        `Arcs would draw link ${String(id)} (${reasons.categoryOf(id)}) under ${label(filter)}`,
+      );
     }
   }
   // Threads and the panel draw these, verse by verse; every one must also be an arc.
@@ -85,10 +87,12 @@ for (const filter of filters) {
       const { id } = connection.link;
       seen.add(id);
       const reason = reasons.reasonOf(id);
-      if (reason.kind === 'unclear') problem(`${where(verse)}: link ${String(id)} has no reason`);
-      if (!filter.categories.has(reason.kind)) {
+      if (reason.kind === 'unclear' && !reason.aboutJesus) {
+        problem(`${where(verse)}: link ${String(id)} has no reason`);
+      }
+      if (!filter.categories.has(reasons.categoryOf(id))) {
         problem(
-          `${where(verse)}: link ${String(id)} (${reason.kind}) shown under ${label(filter)}`,
+          `${where(verse)}: link ${String(id)} (${reasons.categoryOf(id)}) shown under ${label(filter)}`,
         );
       }
       if (reason.kind === 'topic' && reason.topic.en.trim() === '') {

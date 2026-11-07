@@ -13,6 +13,8 @@ export interface LinkReasonsFile {
    * references), t only at its target (among its "referenced by"), - nowhere (an unclear link).
    */
   readonly sides: string;
+  /** One letter per link: j when it is about Jesus (both passages about Christ), else -. */
+  readonly about: string;
   /** Subtopic names, indexed by `topicOf`. */
   readonly topics: readonly { readonly en: string; readonly ar: string }[];
   /** For each `t` link, in link order: its subtopic. */

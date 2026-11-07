@@ -190,7 +190,7 @@ export class ArcsController {
     const changed = range?.start !== this.#focus?.start || range?.end !== this.#focus?.end;
     this.#focus = range;
     this.#scene.setFocus(range && this.#linksOfRange(range));
-    this.#scene.setDimmed(range !== null);
+    this.#scene.setDimmed(range !== null || this.#hover !== null);
     if (range && changed) {
       this.#animateTo(
         revealRange(this.#view, range.start, range.end + 1, this.#options.versification.verseCount),
@@ -378,6 +378,8 @@ export class ArcsController {
     }
     this.#hover = range;
     this.#scene.setHover(range && this.#linksOfRange(range));
+    // Orthodoxia: hovering a passage fades the other arcs too, as focusing does.
+    this.#scene.setDimmed(range !== null || this.#focus !== null);
     this.#scheduler.request();
   }
 

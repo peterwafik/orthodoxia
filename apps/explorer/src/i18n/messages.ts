@@ -129,6 +129,7 @@ const en = {
     reset: 'Back to the usual categories',
     names: {
       christ: 'Prophecies & symbols',
+      jesus: 'About Jesus',
       quotation: 'Quotations',
       parallel: 'Same wording',
       topic: 'Same topic',
@@ -137,6 +138,8 @@ const en = {
     },
     descriptions: {
       christ: 'Old Testament prophecies and symbols fulfilled in Christ (in gold)',
+      jesus:
+        'Both passages are about Christ: His person, life and work, prophecies of Him, or verses that name Him',
       quotation: 'The New Testament quotes the Old, or the Old is quoted in the New',
       parallel: 'The same words within one Testament: parallel accounts, repeated laws',
       topic: 'Both passages are listed under one specific topic',
@@ -146,6 +149,7 @@ const en = {
   },
   // Orthodoxia: why two linked passages belong together.
   reasons: {
+    aboutJesus: 'About Jesus',
     quotation: 'Quotation',
     parallel: 'Same wording',
     topic: (name: string) => `Topic: ${name}`,
@@ -305,6 +309,7 @@ const ar: Messages = {
     reset: 'العودة إلى الفئات المعتادة',
     names: {
       christ: 'النبوات والرموز',
+      jesus: 'عن السيد المسيح',
       quotation: 'اقتباسات',
       parallel: 'نفس التعبير',
       topic: 'الموضوع نفسه',
@@ -313,6 +318,7 @@ const ar: Messages = {
     },
     descriptions: {
       christ: 'نبوات ورموز العهد القديم وإتمامها في المسيح (باللون الذهبي)',
+      jesus: 'النصّان كلاهما عن المسيح: شخصه وحياته وعمله، أو النبوات عنه، أو آيات تذكر اسمه',
       quotation: 'العهد الجديد يقتبس من العهد القديم',
       parallel: 'الكلمات نفسها في العهد نفسه: روايات متوازية وشرائع مكررة',
       topic: 'النصّان مدرجان تحت موضوع محدد واحد',
@@ -321,6 +327,7 @@ const ar: Messages = {
     },
   },
   reasons: {
+    aboutJesus: 'عن المسيح',
     quotation: 'اقتباس',
     parallel: 'نفس التعبير',
     topic: (name) => `الموضوع: ${name}`,

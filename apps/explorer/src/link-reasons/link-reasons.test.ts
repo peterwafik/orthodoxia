@@ -47,6 +47,7 @@ describe('LinkReasons', () => {
       linkCount: 6,
       kinds: 'qptwqu',
       sides: 'bbbbb-',
+      about: '----j-',
       topics: [{ en: 'Circumcision', ar: 'الختان' }],
       topicOf: [0],
       words: ['palm branches'],
@@ -55,15 +56,21 @@ describe('LinkReasons', () => {
   );
 
   it('reads each kind, with its topic or words', () => {
-    expect(reasons.reasonOf(0)).toEqual({ kind: 'quotation' });
-    expect(reasons.reasonOf(1)).toEqual({ kind: 'parallel' });
-    expect(reasons.reasonOf(2)).toEqual({
+    expect(reasons.reasonOf(0)).toMatchObject({ kind: 'quotation' });
+    expect(reasons.reasonOf(1)).toMatchObject({ kind: 'parallel' });
+    expect(reasons.reasonOf(2)).toMatchObject({
       kind: 'topic',
       topic: { en: 'Circumcision', ar: 'الختان' },
     });
-    expect(reasons.reasonOf(3)).toEqual({ kind: 'words', words: 'palm branches' });
-    expect(reasons.reasonOf(4)).toEqual({ kind: 'quotation' });
-    expect(reasons.reasonOf(5)).toEqual({ kind: 'unclear' });
+    expect(reasons.reasonOf(3)).toMatchObject({ kind: 'words', words: 'palm branches' });
+    expect(reasons.reasonOf(4)).toMatchObject({ kind: 'quotation' });
+    expect(reasons.reasonOf(5)).toMatchObject({ kind: 'unclear' });
+  });
+
+  it('puts a link about Jesus under its own category', () => {
+    expect(reasons.categoryOf(4)).toBe('jesus');
+    expect(reasons.reasonOf(4)).toMatchObject({ kind: 'quotation', aboutJesus: true });
+    expect(reasons.categoryOf(0)).toBe('quotation');
   });
 
   it('shows each category only when it is chosen', () => {
@@ -89,6 +96,7 @@ describe('LinkReasons', () => {
             linkCount: 2,
             kinds: 'qq',
             sides: 'bb',
+            about: '--',
             topics: [],
             topicOf: [],
             words: [],

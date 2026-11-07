@@ -9,7 +9,7 @@ const cache = new WeakMap<LinkReasons, Readonly<Record<LinkCategory, number>>>()
 export function categoryCounts(reasons: LinkReasons): Readonly<Record<LinkCategory, number>> {
   let counts = cache.get(reasons);
   if (!counts) {
-    counts = { christ: christLinks().links.length, ...reasons.countByKind() };
+    counts = { christ: christLinks().links.length, ...reasons.countByCategory() };
     cache.set(reasons, counts);
   }
   return counts;

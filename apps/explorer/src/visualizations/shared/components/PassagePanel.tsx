@@ -696,21 +696,35 @@ function ChristSection({
   );
 }
 
-/** Orthodoxia: why a reference belongs with the passage, in a few words. */
+/**
+ * Orthodoxia: why a reference belongs with the passage, in a few words: "About Jesus" first when both
+ * passages are about Christ, then the reason found in their texts, if any.
+ */
 function ReasonTag({ reason }: { readonly reason: LinkReason }) {
-  const label =
-    reason.kind === 'topic'
-      ? t.reasons.topic(localized(reason.topic))
-      : reason.kind === 'words'
-        ? // The words are the English text's; the Arabic page names the reason only.
-          LOCALE === 'en'
-          ? t.reasons.words(reason.words.split(' ').join(', '))
-          : t.reasons.wordsShort
-        : t.reasons[reason.kind];
+  const text =
+    reason.kind === 'unclear'
+      ? null
+      : reason.kind === 'topic'
+        ? t.reasons.topic(localized(reason.topic))
+        : reason.kind === 'words'
+          ? // The words are the English text's; the Arabic page names the reason only.
+            LOCALE === 'en'
+            ? t.reasons.words(reason.words.split(' ').join(', '))
+            : t.reasons.wordsShort
+          : t.reasons[reason.kind];
   return (
-    <span className={styles.reason} data-kind={reason.kind}>
-      {label}
-    </span>
+    <>
+      {reason.aboutJesus && (
+        <span className={styles.reason} data-kind="jesus">
+          {t.reasons.aboutJesus}
+        </span>
+      )}
+      {(text !== null || !reason.aboutJesus) && (
+        <span className={styles.reason} data-kind={reason.kind}>
+          {text ?? t.reasons.unclear}
+        </span>
+      )}
+    </>
   );
 }
 

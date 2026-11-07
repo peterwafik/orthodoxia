@@ -27,6 +27,7 @@ const reasons = new LinkReasons(
     linkCount: 3,
     kinds: 'qut',
     sides: 'b-b',
+    about: '---',
     topics: [{ en: 'Shepherd', ar: 'الراعي' }],
     topicOf: [0],
     words: [],

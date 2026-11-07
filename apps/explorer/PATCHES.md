@@ -119,11 +119,20 @@ readers found a link, not whether it is right):
 | Shared words: … | 2+ uncommon words, one fairly rare (≤ 120 verses), or 1 word in ≤ 12 verses; never names |
 | (unclear)       | none of these: hidden unless the reader turns its category on                            |
 
+Apart from that reason, a link is **About Jesus** when both passages are about Christ and one is in the
+New Testament. A passage is about Christ when it is listed under a specific topic (≤ 150 verses) of the
+site's Christ-centred families (21–24 His person, Incarnation, life, miracles; 35–36 prophecies of the
+Messiah, symbols fulfilled in Him) or is an end of a prophecy or symbol; opposite an Old Testament
+passage, a New Testament verse that names Him counts too (`about` in the reasons file). Such a link is
+shown under its own category, its text reason (if any) beside the "About Jesus" tag; being about
+Christ is reason enough to show it. 14,245 links qualify; samples read as real pointers to Christ
+(e.g. Gen 22:8 → Rev 5:12, 2 Cor 10:1 → Isa 42:3).
+
 Then each verse lists only its 10 strongest references and its 10 strongest "referenced by" (by
 category, then the weight of the evidence: a longer shared run, a smaller topic, rarer words); each
 side keeps its own (`sides` in the reasons file), so a verse doesn't lose a link because the passage
 it points to is popular. `collectConnections` applies the side; Arcs draws a link listed at either end.
-69,890 links have a reason (of 344,799); spot checks across all 66 books found most clearly related.
+76,946 links are shown by default (of 344,799); spot checks across all 66 books found most clearly related.
 
 - `scripts/data/link-reasons.ts` (new, run by `data:build` after `build.ts`) →
   `public/data/cross-references/openbible-reasons.json`; rules in `src/link-reasons/evidence.ts`,
@@ -140,8 +149,8 @@ it points to is popular. `collectConnections` applies the side; Arcs draws a lin
 ## Categories instead of community votes
 
 Upstream's Filters menu set a minimum of readers' votes (default 4). It is replaced by a Categories
-menu: one checkbox per kind of link (Prophecies & symbols, Quotations, Same wording, Same topic,
-Shared words, No clear connection), each with its count; all but the last are on by default. Arcs,
+menu: one checkbox per kind of link (Prophecies & symbols, About Jesus, Quotations, Same wording,
+Same topic, Shared words, No clear connection), each with its count; all but the last are on by default. Arcs,
 Threads and the details follow at once; the choice is kept in the URL (`show=christ,quotation`,
 `show=none`; the old `votes` parameter is ignored).
 
@@ -156,7 +165,9 @@ Threads and the details follow at once; the choice is kept in the URL (`show=chr
 
 ## Selecting a passage
 
-Arcs: focusing a passage hides every other arc (`arc-scene.ts`, `DIMMED_GLOW` 0.28 → 0). Threads draws
+Arcs: every arc stays visible, faded (`arc-scene.ts` `REST_GLOW` 0.55; upstream 1), and fades further
+(`DIMMED_GLOW` 0.22) while a passage is hovered (`arcs-controller.ts`) or focused, whose own arcs are
+drawn solid on top. Threads draws
 every verse's threads faded at rest and the picked verse's clearly (`threads-drawing.ts`).
 
 ## Header menus open above the page
