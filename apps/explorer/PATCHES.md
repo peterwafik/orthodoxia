@@ -89,12 +89,12 @@ The header is a floating glass bar and the page has the site's lit background, a
 
 ## Hand-picked pairs: Christ, prophecies, symbols
 
-286 pairs, each a prediction or figure and its fulfilment, with a short title in English and Arabic,
+340 pairs, each a prediction or figure and its fulfilment, with a short title in English and Arabic,
 in three kinds (`src/christ-links/christ-links-data.ts`):
 
 - **About Jesus** (118): prophecies of Christ and their fulfilment, and figures of Christ Himself
   (Micah 5:2 → Matthew 2:6; Isaac carrying the wood → John 19:17).
-- **Prophecies** (73): predictions fulfilled later in the Bible's history (Isaiah 44:28 → Ezra 1:1–2,
+- **Prophecies** (127): predictions fulfilled later in the Bible's history (Isaiah 44:28 → Ezra 1:1–2,
   1 Kings 13:2 → 2 Kings 23:15–16, Joshua 6:26 → 1 Kings 16:34).
 - **Symbols** (95): figures the Church reads of the Virgin, the Church, the sacraments and the
   Christian life (the burning bush → Luke 1:35; the live coal → John 6:53–56; the Red Sea → 1 Cor 10:1–2).
@@ -103,7 +103,7 @@ in three kinds (`src/christ-links/christ-links-data.ts`):
 carries (Fr. Tadros Yacoub Malaty; the St. Mark Church): every place where a commentary calls one verse
 a symbol of, or a prophecy fulfilled in, a passage it cites (1,181 candidates) was read against both
 texts and kept only when the two share the same setting and meaning (`source` records which
-commentary; the titles are the site's own, none of the commentaries' wording is shown); 95 more are
+commentary; the titles are the site's own, none of the commentaries' wording is shown); 149 more are
 hand-checked symbols and prophecies of the Coptic tradition that the New Testament confirms (Jacob's
 ladder and Gideon's fleece in the Theotokia, Babel and Pentecost, Hagar and Sarah, the Holy Family's
 coming to Egypt in Isaiah 19:1).
