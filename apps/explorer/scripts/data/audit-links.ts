@@ -55,8 +55,8 @@ const where = (verse: number) => {
 // The default categories, then each category with a clear reason alone.
 const filters: LinkFilter[] = [
   DEFAULT_LINK_FILTER,
-  ...LINK_CATEGORIES.filter((category) => category !== 'christ').map((category) =>
-    createLinkFilter([category]),
+  ...LINK_CATEGORIES.filter((category) => category !== 'prophecy' && category !== 'symbol').map(
+    (category) => createLinkFilter([category]),
   ),
 ];
 const label = (filter: LinkFilter) => [...filter.categories].join('+');
@@ -124,7 +124,7 @@ for (const filter of filters) {
 // Every prophecy and symbol leads both ways, from real verses, and never reaches the index.
 const christ = christLinks();
 for (const entry of CHRIST_LINKS) {
-  for (const ot of parseRanges(entry.ot, V)) {
+  for (const ot of parseRanges(entry.from, V)) {
     const forward = christ.connectionsIn(ot).filter((connection) => connection.entry === entry);
     if (forward.length === 0) problem(`"${entry.en}": nothing leads from ${where(ot.start)}`);
     for (const connection of forward) {

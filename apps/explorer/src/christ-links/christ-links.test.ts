@@ -33,14 +33,24 @@ describe('parseRanges', () => {
 });
 
 describe('the curated list', () => {
-  it('has only real verses, the first side in the Old Testament and the second in the New', () => {
+  it('has only real verses, with the two sides in different passages', () => {
     for (const entry of CHRIST_LINKS) {
-      for (const range of parseRanges(entry.ot, V)) {
-        expect(V.bookAt(range.end).testament, `${entry.en}: ${entry.ot}`).toBe('OT');
+      const from = parseRanges(entry.from, V);
+      const to = parseRanges(entry.to, V);
+      for (const a of from) {
+        for (const b of to) {
+          expect(
+            a.end < b.start || b.end < a.start,
+            `${entry.en}: ${entry.from} overlaps ${entry.to}`,
+          ).toBe(true);
+        }
       }
-      for (const range of parseRanges(entry.nt, V)) {
-        expect(V.bookAt(range.start).testament, `${entry.en}: ${entry.nt}`).toBe('NT');
-      }
+    }
+  });
+
+  it('gives every entry one of the three kinds', () => {
+    for (const entry of CHRIST_LINKS) {
+      expect(['jesus', 'prophecy', 'symbol'], entry.en).toContain(entry.kind);
     }
   });
 
@@ -55,7 +65,7 @@ describe('the curated list', () => {
 
   it('keeps each Old Testament side short enough to read as one thread', () => {
     for (const entry of CHRIST_LINKS) {
-      for (const range of parseRanges(entry.ot, V)) {
+      for (const range of parseRanges(entry.from, V)) {
         expect(range.end - range.start, entry.en).toBeLessThan(6);
       }
     }
@@ -66,11 +76,11 @@ describe('ChristLinkIndex', () => {
   const index = new ChristLinkIndex(
     [
       {
-        kind: 'prophecy',
+        kind: 'jesus',
         en: 'Born in Bethlehem',
         ar: 'يولد في بيت لحم',
-        ot: 'Mic.5.2',
-        nt: 'Matt.2.6; Luke.2.4-7',
+        from: 'Mic.5.2',
+        to: 'Matt.2.6; Luke.2.4-7',
       },
     ],
     V,

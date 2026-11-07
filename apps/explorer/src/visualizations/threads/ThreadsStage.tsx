@@ -90,9 +90,11 @@ export function ThreadsStage({
     const shown: Connection[] = [
       ...(direction === 'incoming' ? [] : connections.outgoing),
       ...(direction === 'outgoing' ? [] : connections.incoming),
-      // Orthodoxia: the prophecies and symbols of Christ, in gold, both ways whatever the direction
-      // (a prophecy and its fulfilment point to each other).
-      ...(filter.categories.has('christ') ? christLinks().connectionsIn({ start, end }) : []),
+      // Orthodoxia: the hand-picked pairs of the chosen kinds, in gold, both ways whatever the
+      // direction (a prophecy and its fulfilment point to each other).
+      ...christLinks()
+        .connectionsIn({ start, end })
+        .filter((connection) => filter.categories.has(connection.entry.kind)),
     ];
     const byVerse = new Map<VerseIndex, Connection[]>();
     for (const connection of shown) {

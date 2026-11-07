@@ -128,17 +128,21 @@ const en = {
     intro: 'Show the links of these kinds. The arcs, threads and details change at once.',
     reset: 'Back to the usual categories',
     names: {
-      christ: 'Prophecies & symbols',
       jesus: 'About Jesus',
+      prophecy: 'Prophecies',
+      symbol: 'Symbols',
       quotation: 'Quotations',
       parallel: 'Same wording',
       topic: 'Same topic',
       words: 'Shared words',
     },
     descriptions: {
-      christ: 'Old Testament prophecies and symbols fulfilled in Christ (in gold)',
       jesus:
-        'Both passages are about Christ: His person, life and work, prophecies of Him, or verses that name Him',
+        'Passages about Christ: prophecies of Him and their fulfilment, figures of Him (in gold), and links between passages about His person, life and work',
+      prophecy:
+        'Predictions fulfilled later in the Bible’s history: kings, nations, Jerusalem, John the Baptist, Pentecost (in gold)',
+      symbol:
+        'Figures the Church reads in one passage of what another shows: the Virgin, the Church, baptism, the Eucharist, the Christian life (in gold)',
       quotation: 'The New Testament quotes the Old, or the Old is quoted in the New',
       parallel: 'The same words within one Testament: parallel accounts, repeated laws',
       topic: 'Both passages are listed under one specific topic',
@@ -157,8 +161,9 @@ const en = {
   },
   // Orthodoxia: the prophecies and symbols of Christ.
   christ: {
-    section: 'Fulfilled in Christ',
-    sectionDescription: 'prophecies and symbols',
+    section: 'Prophecies & symbols',
+    sectionDescription: 'hand-picked from the Church’s reading',
+    jesus: 'About Jesus',
     prophecy: 'Prophecy',
     symbol: 'Symbol',
   },
@@ -306,16 +311,21 @@ const ar: Messages = {
     intro: 'اعرض الروابط من هذه الأنواع. تتغيّر الأقواس والخيوط والتفاصيل فورًا.',
     reset: 'العودة إلى الفئات المعتادة',
     names: {
-      christ: 'النبوات والرموز',
       jesus: 'عن السيد المسيح',
+      prophecy: 'النبوات',
+      symbol: 'الرموز',
       quotation: 'اقتباسات',
       parallel: 'نفس التعبير',
       topic: 'الموضوع نفسه',
       words: 'كلمات مشتركة',
     },
     descriptions: {
-      christ: 'نبوات ورموز العهد القديم وإتمامها في المسيح (باللون الذهبي)',
-      jesus: 'النصّان كلاهما عن المسيح: شخصه وحياته وعمله، أو النبوات عنه، أو آيات تذكر اسمه',
+      jesus:
+        'نصوص عن المسيح: النبوات عنه وإتمامها، ورموزه (باللون الذهبي)، وروابط بين نصوص عن شخصه وحياته وعمله',
+      prophecy:
+        'نبوات تحققت لاحقًا في تاريخ الكتاب المقدس: ملوك وأمم وأورشليم ويوحنا المعمدان ويوم الخمسين (باللون الذهبي)',
+      symbol:
+        'رموز تقرأ فيها الكنيسة في نص ما يظهره نص آخر: العذراء والكنيسة والمعمودية والإفخارستيا والحياة المسيحية (باللون الذهبي)',
       quotation: 'العهد الجديد يقتبس من العهد القديم',
       parallel: 'الكلمات نفسها في العهد نفسه: روايات متوازية وشرائع مكررة',
       topic: 'النصّان مدرجان تحت موضوع محدد واحد',
@@ -332,8 +342,9 @@ const ar: Messages = {
     unclear: 'لا صلة واضحة',
   },
   christ: {
-    section: 'إتمامها في المسيح',
-    sectionDescription: 'نبوات ورموز',
+    section: 'النبوات والرموز',
+    sectionDescription: 'مختارة من قراءة الكنيسة',
+    jesus: 'عن المسيح',
     prophecy: 'نبوة',
     symbol: 'رمز',
   },

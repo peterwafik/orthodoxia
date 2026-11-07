@@ -27,7 +27,7 @@ function place(url: string, base = '/') {
 
 const HIDE_LAW_AND_HISTORY: LinkFilter = {
   hiddenGenres: new Set(['law', 'history'] as const),
-  categories: new Set(['christ', 'quotation'] as const),
+  categories: new Set(['jesus', 'quotation'] as const),
 };
 
 describe('parseExplorerUrl', () => {
@@ -62,7 +62,7 @@ describe('parseExplorerUrl', () => {
 
   it('reads the filter: the categories shown and the hidden genres', () => {
     expect(parse('/').filter).toEqual(DEFAULT_LINK_FILTER);
-    expect(parse('/?show=quotation,christ&hide=history,law').filter).toEqual(HIDE_LAW_AND_HISTORY);
+    expect(parse('/?show=quotation,jesus&hide=history,law').filter).toEqual(HIDE_LAW_AND_HISTORY);
     expect(parse('/?show=none').filter.categories.size).toBe(0);
   });
 
@@ -89,7 +89,7 @@ describe('explorerUrl', () => {
       '/',
       kjv,
     );
-    expect(url).toBe('/?ref=Isa.53&hide=law,history&show=christ,quotation');
+    expect(url).toBe('/?ref=Isa.53&hide=law,history&show=jesus,quotation');
     const none = explorerUrl(ROUTES[0], { passage: null, filter: createLinkFilter([]) }, '/', kjv);
     expect(none).toBe('/?show=none');
   });

@@ -87,21 +87,37 @@ checklist (`docs/phase-0/04-feature-parity-checklist.md`) and record the new ups
 
 The header is a floating glass bar and the page has the site's lit background, as on every other page. The site menu also lists Holy Mass, Church history and Faith & Evidence. Files: `src/shared/styles/global.css` (glass tokens), `src/visualizations/shared/components/VizPage.module.css`, `src/shared/ui/SiteNav.tsx`, `src/i18n/messages.ts`.
 
-## Prophecies and symbols of Christ
+## Hand-picked pairs: Christ, prophecies, symbols
 
-A hand-picked list of Old Testament prophecies and symbols, each paired with where the New Testament
-shows it fulfilled (e.g. Micah 5:2 → Matthew 2:6; Isaac carrying the wood → John 19:17), with a short
-title in English and Arabic. It sits beside the OpenBible links, which carry no reason of their own.
+243 pairs, each a prediction or figure and its fulfilment, with a short title in English and Arabic,
+in three kinds (`src/christ-links/christ-links-data.ts`):
 
-- `src/christ-links/` (new): the list (`christ-links-data.ts`), its index (`christ-links.ts`, link IDs
-  from 100,000,000 so they never meet the cross-reference index) and tests that every reference is a
-  real verse, Old Testament first and New Testament second.
-- Shown while the "Prophecies & symbols" category is on (see Categories below), always in gold:
-  - Threads: drawn both ways whatever the direction switch (`ThreadsStage.tsx`, `threads-drawing.ts`).
-  - Arcs: every one across the Bible, and a focused passage's on top (`ArcsStage.tsx`; `u_palette` gets
-    an 11th entry, a bright gold: `arc-shaders.ts`, `webgl.ts` `GOLD_PALETTE_INDEX`;
-    `buildArcInstancesOf`/`joinArcInstances` in `arc-instances.ts`). The stats count them (`ArcsExplorer.tsx`).
-  - Details panel: a "Fulfilled in Christ" section first, titled per prophecy or symbol (`PassagePanel.tsx`).
+- **About Jesus** (118): prophecies of Christ and their fulfilment, and figures of Christ Himself
+  (Micah 5:2 → Matthew 2:6; Isaac carrying the wood → John 19:17).
+- **Prophecies** (73): predictions fulfilled later in the Bible's history (Isaiah 44:28 → Ezra 1:1–2,
+  1 Kings 13:2 → 2 Kings 23:15–16, Joshua 6:26 → 1 Kings 16:34).
+- **Symbols** (52): figures the Church reads of the Virgin, the Church, the sacraments and the
+  Christian life (the burning bush → Luke 1:35; the live coal → John 6:53–56; the Red Sea → 1 Cor 10:1–2).
+
+110 were chosen by hand from the start; 81 were found in the two Coptic Orthodox commentaries the site
+carries (Fr. Tadros Yacoub Malaty; the St. Mark Church): every place where a commentary calls one verse
+a symbol of, or a prophecy fulfilled in, a passage it cites (1,181 candidates) was read against both
+texts and kept only when the two share the same setting and meaning (`source` records which
+commentary; the titles are the site's own, none of the commentaries' wording is shown); 52 more are
+hand-checked symbols and prophecies of the Coptic tradition that the New Testament confirms (Jacob's
+ladder and Gideon's fleece in the Theotokia, Babel and Pentecost, Hagar and Sarah, the Holy Family's
+coming to Egypt in Isaiah 19:1).
+
+- `src/christ-links/` (new): the list, its index (`christ-links.ts`, link IDs from 100,000,000 so they
+  never meet the cross-reference index) and tests (real verses, the two sides apart, one of the kinds).
+- Each kind is a category (see Categories below); pairs are drawn in gold, both ways in Threads whatever
+  the direction (`ThreadsStage.tsx`, `threads-drawing.ts`), across the Bible and on a focused passage in
+  Arcs (`ArcsStage.tsx`; `u_palette` gets an 11th entry, a bright gold: `arc-shaders.ts`, `webgl.ts`
+  `GOLD_PALETTE_INDEX`; `buildArcInstancesOf`/`joinArcInstances` in `arc-instances.ts`), and counted in the
+  stats (`ArcsExplorer.tsx`). The details panel lists them first, labelled About Jesus, Prophecy or
+  Symbol (`PassagePanel.tsx`).
+- Only About Jesus pairs make a passage "about Christ" for the computed About Jesus links
+  (`scripts/data/link-reasons.ts`).
 - `palette.ts`: `VizColors.accent`; `icons.tsx`: `ChristIcon`; `messages.ts`: the `christ` strings.
 
 ## Why two passages are linked (link reasons)
@@ -149,9 +165,9 @@ it points to is popular. `collectConnections` applies the side; Arcs draws a lin
 ## Categories instead of community votes
 
 Upstream's Filters menu set a minimum of readers' votes (default 4). It is replaced by a Categories
-menu: one checkbox per kind of link (Prophecies & symbols, About Jesus, Quotations, Same wording,
+menu: one checkbox per kind of link (About Jesus, Prophecies, Symbols, Quotations, Same wording,
 Same topic, Shared words), each with its count, all on by default. Links with no reason are never shown. Arcs,
-Threads and the details follow at once; the choice is kept in the URL (`show=christ,quotation`,
+Threads and the details follow at once; the choice is kept in the URL (`show=jesus,quotation`,
 `show=none`; the old `votes` parameter is ignored).
 
 - `link-filter.ts`: `LinkFilter` is `{ hiddenGenres, categories }` (no `minVotes`); `LINK_CATEGORIES`,

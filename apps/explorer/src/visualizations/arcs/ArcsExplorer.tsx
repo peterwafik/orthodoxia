@@ -40,20 +40,28 @@ export function ArcsExplorer({
     () => selectLinks(index, data.verseGenres, filter, data.linkReasons),
     [index, data.verseGenres, filter, data.linkReasons],
   );
-  const showChrist = filter.categories.has('christ');
   const summary = useMemo(() => {
     const crossReferences = summarizeLinks(index, linkIds, data.verseGenres);
-    // Orthodoxia: the prophecies and symbols of Christ count too (all lead from the Old Testament
-    // to the New), and the total is every link the explorer has.
+    // Orthodoxia: the hand-picked pairs of the chosen kinds count too, and the total is every link
+    // the explorer has.
     const christ = christLinks().links.length;
-    const shown = showChrist ? christ : 0;
+    const chosen = christLinks().links.filter((link) => {
+      const kind = christLinks().entryOf(link.id)?.kind;
+      return kind !== undefined && filter.categories.has(kind);
+    });
+    const shown = chosen.length;
+    const across = chosen.filter(
+      (link) =>
+        data.versification.bookAt(link.from).testament !==
+        data.versification.bookAt(link.targetStart).testament,
+    ).length;
     return {
       ...crossReferences,
       shownLinks: crossReferences.shownLinks + shown,
       totalLinks: crossReferences.totalLinks + christ,
-      crossTestamentLinks: crossReferences.crossTestamentLinks + shown,
+      crossTestamentLinks: crossReferences.crossTestamentLinks + across,
     };
-  }, [index, linkIds, data.verseGenres, showChrist]);
+  }, [index, linkIds, data.verseGenres, data.versification, filter]);
   const closePanel = () => {
     onNavigate(null);
   };

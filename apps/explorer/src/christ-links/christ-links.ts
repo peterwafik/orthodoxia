@@ -56,7 +56,7 @@ export function parseRanges(text: string, versification: Versification): VerseIn
   });
 }
 
-/** Every Old ↔ New Testament pair, indexed by the verses at both ends. */
+/** Every pair (a prediction or figure, and its fulfilment), indexed by the verses at both ends. */
 export class ChristLinkIndex {
   readonly links: readonly CrossReferenceLink[];
   readonly #entries = new Map<number, ChristLinkEntry>();
@@ -68,8 +68,8 @@ export class ChristLinkIndex {
   constructor(entries: readonly ChristLinkEntry[], versification: Versification) {
     const links: CrossReferenceLink[] = [];
     for (const entry of entries) {
-      for (const ot of parseRanges(entry.ot, versification)) {
-        for (const nt of parseRanges(entry.nt, versification)) {
+      for (const ot of parseRanges(entry.from, versification)) {
+        for (const nt of parseRanges(entry.to, versification)) {
           const link: CrossReferenceLink = {
             id: CHRIST_LINK_ID_BASE + links.length,
             from: ot.start,

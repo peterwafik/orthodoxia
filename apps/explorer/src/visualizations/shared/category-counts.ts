@@ -10,7 +10,20 @@ export function categoryCounts(reasons: LinkReasons): Readonly<Record<LinkCatego
   let counts = cache.get(reasons);
   if (!counts) {
     const { jesus, quotation, parallel, topic, words } = reasons.countByCategory();
-    counts = { christ: christLinks().links.length, jesus, quotation, parallel, topic, words };
+    const hand = { jesus: 0, prophecy: 0, symbol: 0 };
+    for (const link of christLinks().links) {
+      const kind = christLinks().entryOf(link.id)?.kind;
+      if (kind) hand[kind] += 1;
+    }
+    counts = {
+      jesus: jesus + hand.jesus,
+      prophecy: hand.prophecy,
+      symbol: hand.symbol,
+      quotation,
+      parallel,
+      topic,
+      words,
+    };
     cache.set(reasons, counts);
   }
   return counts;

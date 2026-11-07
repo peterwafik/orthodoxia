@@ -5,16 +5,19 @@ import type { CrossReferenceIndex } from '../../cross-references/cross-reference
 import type { LinkReasons } from '../../link-reasons/link-reasons.ts';
 
 /**
- * Orthodoxia: the kinds of link a reader can show or hide. `christ` is the hand-picked prophecies and
- * symbols of Christ; `jesus` the cross-references whose passages are both about Christ; the others
- * are the reasons found in the texts of the rest (see link-reasons.ts).
+ * Orthodoxia: the kinds of link a reader can show or hide. `jesus`: the hand-picked prophecies and
+ * figures of Christ, and the cross-references whose passages are both about Christ; `prophecy` and
+ * `symbol`: the other hand-picked pairs (christ-links-data.ts); the rest are the reasons found in the
+ * texts of the cross-references (see link-reasons.ts).
  * Readers' votes are not used: they rank helpfulness, not whether a link is right.
  */
-export type LinkCategory = 'christ' | 'jesus' | 'quotation' | 'parallel' | 'topic' | 'words';
+export type LinkCategory =
+  'jesus' | 'prophecy' | 'symbol' | 'quotation' | 'parallel' | 'topic' | 'words';
 
 export const LINK_CATEGORIES: readonly LinkCategory[] = [
-  'christ',
   'jesus',
+  'prophecy',
+  'symbol',
   'quotation',
   'parallel',
   'topic',
@@ -47,6 +50,14 @@ export function isDefaultFilter(filter: LinkFilter, defaults: LinkFilter): boole
 /** Whether a link of this category is shown; a link without a reason never is. */
 function shownCategory(categories: ReadonlySet<LinkCategory>, category: string): boolean {
   return categories.has(category as LinkCategory);
+}
+
+/** Whether a hand-picked pair of this kind is shown (christ-links-data.ts). */
+export function showsChristKind(
+  filter: LinkFilter,
+  kind: 'jesus' | 'prophecy' | 'symbol',
+): boolean {
+  return filter.categories.has(kind);
 }
 
 /** Shows or hides one kind of link. */

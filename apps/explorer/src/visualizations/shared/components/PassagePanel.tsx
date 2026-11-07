@@ -274,8 +274,9 @@ export function PassagePanel({
               />
             </div>
             {actions && <div className={styles.actions}>{actions}</div>}
-            {filter.categories.has('christ') && (
+            {
               <ChristSection
+                filter={filter}
                 start={range.start}
                 end={range.end}
                 showSourceVerse={false}
@@ -284,13 +285,14 @@ export function PassagePanel({
                 onPreview={onPreview}
                 shareUrl={shareUrl}
               />
-            )}
+            }
           </>
         ) : (
           <>
             {actions && <div className={styles.actions}>{actions}</div>}
-            {filter.categories.has('christ') && (
+            {
               <ChristSection
+                filter={filter}
                 start={range.start}
                 end={range.end}
                 showSourceVerse
@@ -299,7 +301,7 @@ export function PassagePanel({
                 onPreview={onPreview}
                 shareUrl={shareUrl}
               />
-            )}
+            }
             <ChapterVerses
               start={range.start}
               end={range.end}
@@ -594,6 +596,7 @@ function ConnectionSection({
  * its fulfilment, or back), in the same form as the references below.
  */
 function ChristSection({
+  filter,
   start,
   end,
   showSourceVerse,
@@ -602,6 +605,7 @@ function ChristSection({
   onPreview,
   shareUrl,
 }: {
+  readonly filter: LinkFilter;
   readonly start: VerseIndex;
   readonly end: VerseIndex;
   readonly showSourceVerse: boolean;
@@ -614,10 +618,11 @@ function ChristSection({
   const groups = useMemo(() => {
     const byEntry = new Map<ChristLinkEntry, ChristConnection[]>();
     for (const connection of christLinks().connectionsIn({ start, end })) {
+      if (!filter.categories.has(connection.entry.kind)) continue;
       byEntry.set(connection.entry, [...(byEntry.get(connection.entry) ?? []), connection]);
     }
     return [...byEntry];
-  }, [start, end]);
+  }, [start, end, filter]);
   if (groups.length === 0) {
     return null;
   }

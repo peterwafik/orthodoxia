@@ -119,6 +119,7 @@ const topical = Uint8Array.from(topicsOfVerse, (topics) =>
     : 0,
 );
 for (const link of christLinks().links) {
+  if (christLinks().entryOf(link.id)?.kind !== 'jesus') continue;
   topical[link.from] = 1;
   topical.fill(1, link.targetStart, link.targetEnd + 1);
 }
