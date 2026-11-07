@@ -10,13 +10,15 @@
  *   p  same wording    the same, within one Testament (Kings and Chronicles, the Gospels, echoes)
  *   t  same topic      both in one specific subtopic of the site's topic list (up to 150 verses);
  *                      the smallest is named
- *   w  shared words    2+ uncommon words (one of them fairly rare), or 1 very rare word; never names
+ *   w  shared words    2+ uncommon words (one of them fairly rare), or 1 very rare word with 8+
+ *                      votes; never names (hyphenated ones included)
  *   r  related theme   none of the above, but 50+ readers' votes (overwhelming agreement)
  *   u  unclear         none of the above: hidden by default
  *
- * Then, so a verse's list stays short enough to read, a link is kept only if it is among the 10
- * strongest links leaving its verse and among the 10 strongest reaching its target (strength in the
- * order q, p, t, w, r, then votes); the others become u too.
+ * Then, so a verse's lists stay short enough to read, each verse lists only its 10 strongest
+ * references and its 10 strongest "referenced by" (strength in the order q, p, t, w, r, then votes).
+ * `sides` says where a link is listed: b both ends, s only at its source verse, t only at its target;
+ * a link listed at neither becomes u.
  */
 import { readFile } from 'node:fs/promises';
 import { isBookId } from '../../src/core/bible/books.ts';
@@ -38,8 +40,9 @@ const MAX_TOPIC_VERSES = 150;
 /** Two shared words in at most this many verses each, one of them in at most `FAIRLY_RARE`. */
 const UNCOMMON = 300;
 const FAIRLY_RARE = 120;
-/** One shared word in at most this many verses is enough on its own. */
+/** One shared word in at most this many verses is enough on its own, with readers' support. */
 const RARE = 25;
+const SINGLE_WORD_MIN_VOTES = 8;
 /** The most links kept leaving, and reaching, any one verse. */
 const MAX_PER_VERSE = 10;
 /** Strength of each reason, for keeping a verse's strongest links. */
@@ -135,7 +138,10 @@ for (let source = 0; source < V.verseCount; source += 1) {
     const uncommon = shared.filter((word) => (frequency.get(word) ?? 0) <= UNCOMMON);
     const fairlyRare = uncommon.some((word) => (frequency.get(word) ?? 0) <= FAIRLY_RARE);
     const rare = uncommon.some((word) => (frequency.get(word) ?? 0) <= RARE);
-    if ((uncommon.length >= 2 && fairlyRare) || rare) {
+    if (
+      (uncommon.length >= 2 && fairlyRare) ||
+      (rare && (votes[id] ?? 0) >= SINGLE_WORD_MIN_VOTES)
+    ) {
       kinds.push('w');
       // The words as the source verse writes them, rarest first.
       const written = uncommon
@@ -184,9 +190,15 @@ const keptAtEveryTarget = (id: number) => {
   }
   return true;
 };
+// Each side keeps its own strongest: a link can be among its verse's 10 references while the passage
+// it reaches, pointed at by many, lists only its 10 strongest as "referenced by".
+const sides: string[] = [];
 let capped = 0;
 kinds.forEach((kind, id) => {
-  if (kind !== 'u' && !(keptBySource.has(id) && keptAtEveryTarget(id))) {
+  const fromSource = kind !== 'u' && keptBySource.has(id);
+  const atTarget = kind !== 'u' && keptAtEveryTarget(id);
+  sides.push(fromSource && atTarget ? 'b' : fromSource ? 's' : atTarget ? 't' : '-');
+  if (kind !== 'u' && !fromSource && !atTarget) {
     kinds[id] = 'u';
     capped += 1;
   }
@@ -204,6 +216,7 @@ const file: LinkReasonsFile = {
   format: 'link-reasons',
   linkCount: kinds.length,
   kinds: kinds.join(''),
+  sides: sides.join(''),
   topics: topicNames,
   topicOf,
   words: sharedWords,

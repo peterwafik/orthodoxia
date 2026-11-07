@@ -11,12 +11,14 @@ export const STOP_WORDS: ReadonlySet<string> = new Set(
     'have has had having let said says say one two lord god o oh yes now when where why how very own ' +
     'just even because before after if while thus therefore yet like among through against about ' +
     'come came go went see saw give gave take took make made know knew day days man men people ' +
-    'thing things word words way ways hand hands great many much more most selah'
+    'thing things word words way ways hand hands great many much more most selah find found ' +
+    'get got put keep kept call called tell told'
   ).split(' '),
 );
 
 export function tokenize(text: string): string[] {
-  return text.toLowerCase().match(/[a-z]+(?:'[a-z]+)?/g) ?? [];
+  // Hyphenated names stay whole ("Misrephoth-maim" is not "maim").
+  return text.toLowerCase().match(/[a-z]+(?:[-'][a-z]+)*/g) ?? [];
 }
 
 /** A crude English stem, enough to match "shepherds" with "shepherd" and "loved" with "love". */
@@ -72,12 +74,13 @@ export function findNames(texts: readonly string[]): Set<string> {
   const capital = new Map<string, number>();
   const total = new Map<string, number>();
   for (const text of texts) {
-    for (const match of text.matchAll(/([.!?“”"‘’:;]?\s*)([A-Za-z]+)/g)) {
+    for (const match of text.matchAll(/([.!?“”"‘’:;]?\s*)([A-Za-z]+(?:[-'][A-Za-z]+)*)/g)) {
       const word = match[2] ?? '';
+      // A capital at the start of a sentence says nothing either way, so it isn't counted.
+      if (match.index === 0 || /[.!?“"‘:]/.test(match[1] ?? '')) continue;
       const key = stem(word.toLowerCase());
       total.set(key, (total.get(key) ?? 0) + 1);
-      const sentenceStart = match.index === 0 || /[.!?“"‘:]/.test(match[1] ?? '');
-      if (!sentenceStart && /^[A-Z]/.test(word)) capital.set(key, (capital.get(key) ?? 0) + 1);
+      if (/^[A-Z]/.test(word)) capital.set(key, (capital.get(key) ?? 0) + 1);
     }
   }
   const names = new Set<string>();

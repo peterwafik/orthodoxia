@@ -7,6 +7,10 @@
 }
 
 .header {
+  /* Orthodoxia: the glass blur makes the header its own layer; lifted above the body, so its menus'
+     popovers (Filters, Genres, the site menu) open over the visualization instead of under it. */
+  position: relative;
+  z-index: 20;
   display: flex;
   flex-wrap: wrap;
   align-items: center;

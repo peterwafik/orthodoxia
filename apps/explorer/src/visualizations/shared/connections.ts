@@ -49,6 +49,8 @@ export function collectConnections(
 
   for (let verse = range.start; verse <= range.end; verse += 1) {
     for (const link of index.outgoing(verse)) {
+      // Orthodoxia: a verse lists only its strongest references (see link-reasons.ts).
+      if (!filter.showUnclear && reasons && !reasons.shownFromSource(link.id)) continue;
       if (passes(link.from, link.targetStart, link.votes, link.id)) {
         outgoing.push({
           link,
@@ -65,6 +67,8 @@ export function collectConnections(
         continue;
       }
       seenIncoming.add(link.id);
+      // Orthodoxia: a passage lists only the strongest links reaching it.
+      if (!filter.showUnclear && reasons && !reasons.shownAtTarget(link.id)) continue;
       if (passes(link.from, link.targetStart, link.votes, link.id)) {
         incoming.push({
           link,

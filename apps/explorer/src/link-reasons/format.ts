@@ -11,6 +11,11 @@ export interface LinkReasonsFile {
   readonly linkCount: number;
   /** One letter per link, by link ID: q, p, t, w, r or u (see the build script). */
   readonly kinds: string;
+  /**
+   * One letter per link: where it is listed. b at both ends, s only at its source verse (among its
+   * references), t only at its target (among its "referenced by"), - nowhere (an unclear link).
+   */
+  readonly sides: string;
   /** Subtopic names, indexed by `topicOf`. */
   readonly topics: readonly { readonly en: string; readonly ar: string }[];
   /** For each `t` link, in link order: its subtopic. */

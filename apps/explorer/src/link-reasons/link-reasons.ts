@@ -1,8 +1,7 @@
 // Orthodoxia: why each cross-reference links its two passages, read from openbible-reasons.json (see
 // PATCHES.md).
 
-import { fetchDataset } from '../shared/lib/fetch-dataset.ts';
-import { LINK_REASONS_PATH, type LinkReasonsFile } from './format.ts';
+import type { LinkReasonsFile } from './format.ts';
 
 export type LinkReasonKind = 'quotation' | 'parallel' | 'topic' | 'words' | 'theme' | 'unclear';
 
@@ -52,6 +51,18 @@ export class LinkReasons {
     }
   }
 
+  /** Whether the link is listed at its source verse, among the verse's references. */
+  shownFromSource(id: number): boolean {
+    const side = this.#file.sides[id];
+    return side === undefined || side === 'b' || side === 's';
+  }
+
+  /** Whether the link is listed at the passage it reaches, among its "referenced by". */
+  shownAtTarget(id: number): boolean {
+    const side = this.#file.sides[id];
+    return side === undefined || side === 'b' || side === 't';
+  }
+
   /** Whether the link has a reason to be shown (anything but unclear). */
   isClear(id: number): boolean {
     return id < 0 || id >= this.#kinds.length || this.#kinds[id] !== UNCLEAR;
@@ -69,14 +80,4 @@ export class LinkReasons {
     }
     return { kind };
   }
-}
-
-/** Downloads the reasons file (checked against the links when a `LinkReasons` is built from it). */
-export async function fetchLinkReasons(): Promise<LinkReasonsFile> {
-  const { json } = await fetchDataset(LINK_REASONS_PATH);
-  const file = json as Partial<LinkReasonsFile> | null;
-  if (file?.format !== 'link-reasons' || typeof file.kinds !== 'string') {
-    throw new Error(`"${LINK_REASONS_PATH}" is not a link reasons file.`);
-  }
-  return file as LinkReasonsFile;
 }

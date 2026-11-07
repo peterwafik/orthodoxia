@@ -7,7 +7,8 @@ import { createCachedLoader } from '../../shared/lib/cached-loader.ts';
 import { loadTranslation } from '../../translations/load-translation.ts';
 import type { Translation } from '../../translations/translation.ts';
 import { computeVerseGenres } from './verse-genres.ts';
-import { fetchLinkReasons, LinkReasons } from '../../link-reasons/link-reasons.ts';
+import { fetchLinkReasons } from '../../link-reasons/fetch-link-reasons.ts';
+import { LinkReasons } from '../../link-reasons/link-reasons.ts';
 import { vizDatasets } from './viz-datasets.ts';
 
 /** Everything a visualization needs, loaded once per page. */

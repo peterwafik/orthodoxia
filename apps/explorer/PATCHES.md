@@ -111,23 +111,28 @@ OpenBible.info links say nothing about why two passages belong together, and man
 connection. At build time every link gets a reason, the first that holds (BSB text, the site's topic
 list from `apps/web/src/lib/topics/`); links with none are hidden by default:
 
-| Tag             | When                                                                                    |
-| --------------- | --------------------------------------------------------------------------------------- |
-| Quotation       | Old ↔ New Testament, sharing a run of 4+ words, 2+ of them meaningful                   |
-| Same wording    | the same within one Testament (parallel accounts, repeated laws and phrases)            |
-| Topic: …        | both in one specific subtopic of the site's topic list (≤ 150 verses; smallest named)   |
-| Shared words: … | 2+ uncommon words, one fairly rare (≤ 120 verses), or 1 very rare word (≤ 25); no names |
-| Related theme   | none of these, but 50+ readers' votes                                                   |
+| Tag             | When                                                                                                                               |
+| --------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| Quotation       | Old ↔ New Testament, sharing a run of 4+ words, 2+ of them meaningful                                                              |
+| Same wording    | the same within one Testament (parallel accounts, repeated laws and phrases)                                                       |
+| Topic: …        | both in one specific subtopic of the site's topic list (≤ 150 verses; smallest named)                                              |
+| Shared words: … | 2+ uncommon words, one fairly rare (≤ 120 verses), or 1 very rare word (≤ 25) with 8+ votes; never names, hyphenated ones included |
+| Related theme   | none of these, but 50+ readers' votes                                                                                              |
 
-Then each verse keeps only its 10 strongest links leaving it and the 10 strongest reaching it.
-With the default 4-vote filter about 39,000 links show instead of 153,419; spot checks of each tag
+Then each verse lists only its 10 strongest references and its 10 strongest "referenced by"; each side
+keeps its own (`sides` in the reasons file), so a verse doesn't lose a link because the passage it
+points to is popular. `collectConnections` applies the side; Arcs draws a link listed at either end.
+With the default 4-vote filter 41,732 links show instead of 153,419; spot checks of each tag
 across the Bible found roughly 85–95% clearly related. Filters → "Show links without a clear
 connection" brings the rest back.
 
 - `scripts/data/link-reasons.ts` (new, run by `data:build` after `build.ts`) →
   `public/data/cross-references/openbible-reasons.json`; rules in `src/link-reasons/evidence.ts`,
   file format in `format.ts`, reader in `link-reasons.ts` (all new).
-- `viz-data.ts` / `viz-datasets.ts`: the reasons load (and preload, and cache offline) with the other datasets.
+- `scripts/data/audit-links.ts` (new, last step of `data:build`): walks all 31,102 verses through the
+  pages' own code at every vote threshold and fails the build if any drawn link has no reason, a
+  verse exceeds 10 links each way, threads and arcs disagree, or a prophecy/symbol link is broken.
+- `viz-data.ts` / `viz-datasets.ts` (download in `src/link-reasons/fetch-link-reasons.ts`): the reasons load (and preload, and cache offline) with the other datasets.
 - `link-filter.ts`: `LinkFilter.showUnclear`; `compileLinkFilter`, `selectLinks` and `collectConnections`
   take the reasons (all callers pass `data.linkReasons`); URL `unclear=show` (`explorer-location.ts`).
 - Arcs: focusing a passage hides every other arc (`arc-scene.ts`, `DIMMED_GLOW` 0.28 → 0), and its
@@ -137,3 +142,9 @@ connection" brings the rest back.
   picked verse's clearly (`threads-drawing.ts`).
 - `FiltersMenu.tsx` (checkbox), `PassagePanel.tsx` (+ `.module.css`: a reason tag on every reference; a
   passage that is both a reference and points back is listed once), `messages.ts` (`reasons`).
+
+## Header menus open above the page
+
+The glass header's blur makes it its own layer, so the page body (drawn after it) covered the menus'
+popovers: Filters, Genres and the site menu opened invisibly. `.header` gets `position: relative;
+z-index: 20` (`src/visualizations/shared/components/VizPage.module.css`).
