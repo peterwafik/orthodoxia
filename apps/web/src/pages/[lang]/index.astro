@@ -10,6 +10,7 @@ import { bookBySlug } from '@orthodoxia/bible';
 import { VISIBLE_ARTICLES } from '../../lib/apologetics/index.ts';
 import { parsePassages } from '../../lib/topics/reference.ts';
 import { LOCALES, explorerPath, localePath, t, type Locale } from '../../i18n/index.ts';
+import explorerStats from '../../data/explorer-stats.json';
 
 export function getStaticPaths() {
   return LOCALES.map((lang) => ({ params: { lang } }));
@@ -39,6 +40,8 @@ const chapterKey = (code: string, chapter: number): string => `${code}.${chapter
 // The Bible chapters each part cites (a range such as Job 1–2 counts every chapter it spans).
 const massChapters = new Set(STOPS.flatMap((stop) => stop.scripture.map((s) => chapterKey(s.book, s.chapter))));
 const churchRanges = COPTIC_EVIDENCE.flatMap((entry) => parsePassages(entry.verses));
+// A passage cited in several places counts once.
+const distinct = (items: readonly unknown[]): number => new Set(items.map((item) => JSON.stringify(item))).size;
 const churchChapters = new Set(
   churchRanges.flatMap((range) => Array.from({ length: range.to.chapter - range.from.chapter + 1 }, (_, i) => chapterKey(range.book, range.from.chapter + i))),
 );
@@ -50,15 +53,25 @@ const faithChapters = new Set(faithEvidence.flatMap((b) => (bookBySlug(b.book) =
 const shared = (a: ReadonlySet<string>, b: ReadonlySet<string>): number => [...a].filter((key) => b.has(key)).length;
 
 // Which written pieces mention another part of the site's subject.
-const COUNCILS = /Nicaea|Council of|Chalcedon|Ephesus|Constantinople/i;
-const massMentionsCouncils = STOPS.filter((stop) => COUNCILS.test(JSON.stringify(stop))).length;
-const faithMentionsCouncils = VISIBLE_ARTICLES.filter((article) => COUNCILS.test(JSON.stringify(article))).length;
-const faithMentionsLiturgy = VISIBLE_ARTICLES.filter((article) => /liturg/i.test(JSON.stringify(article))).length;
-const liturgicalWitnesses = COPTIC_EVIDENCE.flatMap((entry) => entry.witnesses).filter((w) => /Liturgy|Euchologion|Eucharistic|Anaphora/i.test(w.title.en)).length;
+// The Mass names the councils by their sees ("the Creed of Nicaea and Constantinople", "the 318 fathers of Nicaea").
+const MASS_COUNCILS = /Nicaea|Council of|Chalcedon|Ephesus|Constantinople/i;
+const massMentionsCouncils = STOPS.filter((stop) => MASS_COUNCILS.test(JSON.stringify(stop))).length;
+// An answer draws on the early councils when it names one as a council (not Ephesus the city, the Council of Trent, a
+// "council of judges" or a link to another article's name).
+const EARLY_COUNCILS = /Council of (Nicaea|Nicea|Ephesus|Chalcedon|Constantinople)|Nicene|ecumenical councils?|first councils|at Nicaea|Ephesus[^.]{0,40}431|Cyril[^.]{0,60}Ephesus/i;
+const answerText = (article: (typeof VISIBLE_ARTICLES)[number]): string => JSON.stringify({ ...article, related: undefined });
+const faithMentionsCouncils = VISIBLE_ARTICLES.filter((article) => EARLY_COUNCILS.test(answerText(article))).length;
+const faithMentionsLiturgy = VISIBLE_ARTICLES.filter((article) => /liturg/i.test(answerText(article))).length;
+// A witness cited for several pieces of evidence counts once.
+const liturgicalWitnesses = new Set(
+  COPTIC_EVIDENCE.flatMap((entry) => entry.witnesses)
+    .filter((w) => /Liturgy|Euchologion|Eucharistic|Anaphora/i.test(w.title.en))
+    .map((w) => w.title.en),
+).size;
 
-// The two figures below are those the cross-reference explorer states on its own pages.
-const CROSS_REFERENCES = 344_799;
-const VERSES = 31_102;
+// The figures the cross-reference explorer states on its own pages: the links it draws (each with a
+// reason) and the verses. Written by the explorer's data build (apps/explorer/scripts/data/link-reasons.ts).
+const { links: LINKS, verses: VERSES } = explorerStats;
 
 const digits = new Intl.NumberFormat(ar ? 'ar-EG' : 'en-US');
 const n = (value: number): string => digits.format(value);
@@ -70,14 +83,14 @@ interface Edge {
   ar: string;
 }
 const all: Edge[] = [
-  { from: 'holyMass', to: 'bible', count: STOPS.reduce((sum, stop) => sum + stop.scripture.length, 0), en: 'The Holy Mass cites {n} Bible passages', ar: 'القداس يستشهد بـ {n} موضعاً من الكتاب المقدس' },
-  { from: 'churchHistory', to: 'bible', count: churchRanges.length, en: 'Church history rests on {n} Bible passages', ar: 'تاريخ الكنيسة يستند إلى {n} موضعاً من الكتاب المقدس' },
+  { from: 'holyMass', to: 'bible', count: distinct(STOPS.flatMap((stop) => stop.scripture)), en: 'The Holy Mass cites {n} Bible passages', ar: 'القداس يستشهد بـ {n} موضعاً من الكتاب المقدس' },
+  { from: 'churchHistory', to: 'bible', count: distinct(churchRanges), en: 'Church history rests on {n} Bible passages', ar: 'تاريخ الكنيسة يستند إلى {n} موضعاً من الكتاب المقدس' },
   { from: 'faith', to: 'bible', count: faithEvidence.length, en: 'Faith & Evidence ties {n} pieces of evidence to Bible passages', ar: 'الإيمان والأدلة يربط {n} دليلاً بمواضع من الكتاب المقدس' },
   { from: 'atlas', to: 'bible', count: atlasPassages.size, en: 'The Bible atlas opens {n} passages from its places and journeys', ar: 'أطلس الكتاب المقدس يفتح {n} موضعًا من الكتاب من مواضعه ورحلاته' },
   { from: 'atlas', to: 'faith', count: atlasQuestions.size, en: 'The Bible atlas points to {n} Faith & Evidence questions about its places', ar: 'أطلس الكتاب المقدس يشير إلى {n} من أسئلة الإيمان والأدلة عن مواضعه' },
-  { from: 'explore', to: 'bible', count: CROSS_REFERENCES, en: '{n} cross-references link the verses of the Bible', ar: '{n} شاهد يربط آيات الكتاب المقدس بعضها ببعض' },
+  { from: 'explore', to: 'bible', count: LINKS, en: '{n} links join the verses of the Bible', ar: '{n} رابطًا يصل بين آيات الكتاب المقدس' },
   { from: 'threads', to: 'bible', count: VERSES, en: 'Reading with threads covers all {n} verses of the Bible', ar: 'القراءة بالخيوط تشمل آيات الكتاب المقدس كلها، وعددها {n}' },
-  { from: 'threads', to: 'explore', count: CROSS_REFERENCES, en: 'Reading with threads shows the same {n} cross-references', ar: 'القراءة بالخيوط تعرض الشواهد نفسها، وعددها {n}' },
+  { from: 'threads', to: 'explore', count: LINKS, en: 'Reading with threads shows the same {n} links', ar: 'القراءة بالخيوط تعرض الروابط نفسها، وعددها {n}' },
   { from: 'churchHistory', to: 'holyMass', count: liturgicalWitnesses, en: '{n} of the early witnesses in the Coptic evidence are liturgical prayers', ar: '{n} من الشواهد المبكرة في الأدلة القبطية صلوات طقسية' },
   { from: 'holyMass', to: 'churchHistory', count: massMentionsCouncils, en: '{n} stops of the Mass refer to the councils of the early church', ar: '{n} من محطات القداس تشير إلى مجامع الكنيسة الأولى' },
   { from: 'faith', to: 'churchHistory', count: faithMentionsCouncils, en: '{n} Faith & Evidence answers draw on the early councils', ar: '{n} من إجابات الإيمان والأدلة تستند إلى المجامع الأولى' },

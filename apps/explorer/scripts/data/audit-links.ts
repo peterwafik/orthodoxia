@@ -137,6 +137,18 @@ for (const entry of CHRIST_LINKS) {
   }
 }
 
+// The home page states how many links the explorer draws (apps/web/src/data/explorer-stats.json,
+// written by link-reasons.ts): it must be the number drawn here.
+const homeStats = JSON.parse(
+  await readFile(new URL('../../../web/src/data/explorer-stats.json', import.meta.url), 'utf8'),
+) as { links: number; verses: number };
+const drawn = shownTotal + christ.links.length;
+if (homeStats.links !== drawn || homeStats.verses !== V.verseCount) {
+  problem(
+    `the home page states ${String(homeStats.links)} links and ${String(homeStats.verses)} verses; the explorer draws ${String(drawn)} links over ${String(V.verseCount)} verses (run link-reasons.ts)`,
+  );
+}
+
 if (problems.length > 0) {
   console.error(`✗ Link audit failed:\n  ${problems.join('\n  ')}`);
   process.exit(1);
@@ -144,5 +156,5 @@ if (problems.length > 0) {
 console.log(
   `✓ Link audit: all ${String(V.verseCount)} verses checked under ${String(filters.length)} category choices; ` +
     `${String(shownTotal)} links shown by default, each with a reason and ≤ ${String(MAX_PER_VERSE)} per verse each way; ` +
-    `${String(christ.links.length)} prophecy and symbol links lead both ways.`,
+    `${String(christ.links.length)} prophecy and symbol links lead both ways; the home page's ${String(drawn)} links match.`,
 );

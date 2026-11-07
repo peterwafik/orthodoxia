@@ -209,3 +209,10 @@ Under it, a quiet **What are links?** opens a short card (`LinksExplained.tsx`, 
 styles in `LinkStats.module.css`; `linksInfo` strings in `messages.ts`; `InfoIcon` in `icons.tsx`;
 `explanation` prop on `LinkStats`): what a link is, how many there are of each kind, the limit of 10
 links each way per verse, and that Categories chooses what is shown.
+
+## The home page's link count
+
+`scripts/data/link-reasons.ts` also writes `apps/web/src/data/explorer-stats.json` (committed): the
+number of links the explorer draws (every link with a reason after the per-verse limit, plus the
+hand-picked pairs) and the verses. The home page reads it instead of stating the size of the source
+list, and `audit-links.ts` fails if it no longer matches what the explorer draws.

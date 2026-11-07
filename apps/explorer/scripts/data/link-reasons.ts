@@ -33,6 +33,7 @@
  * a link listed at neither becomes u.
  */
 import { readFile } from 'node:fs/promises';
+import { fileURLToPath } from 'node:url';
 import { isBookId } from '../../src/core/bible/books.ts';
 import { CANONICAL_VERSIFICATION as V } from '../../src/core/bible/versification.ts';
 import { contentWords, findNames, sharedRun, tokenize } from '../../src/link-reasons/evidence.ts';
@@ -292,6 +293,16 @@ const file: LinkReasonsFile = {
 };
 const json = JSON.stringify(file);
 await writeFileAtomic(publicFilePath(LINK_REASONS_PATH), json);
+
+// Orthodoxia: the number of links the explorer draws (every link with a reason, after the per-verse
+// limit, and the hand-picked pairs), for the home page, which states it (apps/web, committed so the
+// site can be built without the explorer's data).
+const drawnLinks = kinds.filter((_kind, id) => shown(id)).length + christLinks().links.length;
+await writeFileAtomic(
+  fileURLToPath(new URL('../../../web/src/data/explorer-stats.json', import.meta.url)),
+  `${JSON.stringify({ links: drawnLinks, verses: V.verseCount }, null, 2)}
+`,
+);
 const tally = Object.entries(
   kinds.reduce<Record<string, number>>((counts, kind) => {
     counts[kind] = (counts[kind] ?? 0) + 1;
