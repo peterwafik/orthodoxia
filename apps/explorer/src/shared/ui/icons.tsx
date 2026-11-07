@@ -12,6 +12,7 @@ import {
   LuCopy,
   LuCross,
   LuHand,
+  LuInfo,
   LuMouse,
   LuMenu,
   LuMousePointerClick,
@@ -91,3 +92,6 @@ export const BothDirectionsIcon = decorative(LuArrowRightLeft);
 
 // Orthodoxia: the prophecies and symbols of Christ.
 export const ChristIcon = decorative(LuCross);
+
+// Orthodoxia: opens the explanation of what a link is.
+export const InfoIcon = decorative(LuInfo);

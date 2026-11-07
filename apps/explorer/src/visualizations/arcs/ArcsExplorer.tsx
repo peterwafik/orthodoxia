@@ -12,6 +12,7 @@ import { categoryCounts } from '../shared/category-counts.ts';
 import { GenreLegend } from '../shared/components/GenreLegend.tsx';
 import { toggleGenre } from '../shared/components/GenreToggles.tsx';
 import { LinkStats } from '../shared/components/LinkStats.tsx';
+import { LinksExplained } from '../shared/components/LinksExplained.tsx';
 import { PassagePanel } from '../shared/components/PassagePanel.tsx';
 import { ReferenceSearch } from '../shared/components/ReferenceSearch.tsx';
 import { VizPage } from '../shared/components/VizPage.tsx';
@@ -115,6 +116,7 @@ export function ArcsExplorer({
       />
       <LinkStats
         summary={summary}
+        explanation={<LinksExplained reasons={data.linkReasons} />}
         hint={{
           pointer: (
             <>

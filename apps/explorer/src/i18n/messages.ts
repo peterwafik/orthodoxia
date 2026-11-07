@@ -61,6 +61,23 @@ const en = {
     showOne: (genre: string) => `Show ${genre}`,
     hideOne: (genre: string) => `Hide ${genre}`,
   },
+  linksInfo: {
+    button: 'What are links?',
+    intro:
+      'A link joins two passages that speak of the same thing: one quotes, repeats, foretells or pictures the other. Every arc and every thread is one link.',
+    where: (total: string) => `Where the ${total} links come from`,
+    openBible: (count: string) =>
+      `${count} cross-references from OpenBible.info, a public list made for Bible study`,
+    handPicked: (count: string) =>
+      `${count} chosen by hand on this site, drawn in gold: About Jesus, Prophecies, Symbols`,
+    which: 'Which ones are drawn',
+    reasons:
+      'A cross-reference can be drawn only when the two texts show why they belong together. By reason:',
+    hidden: (count: string) =>
+      `${count} cross-references show no reason in their texts, so they are never drawn.`,
+    cap: 'At most 10 links are drawn from each verse, and 10 to it, so no verse is buried.',
+    choose: 'Choose the kinds you see in Categories; the count above follows your choice.',
+  },
   stats: {
     label: 'Summary',
     verses: 'verses',
@@ -245,6 +262,20 @@ const ar: Messages = {
     hide: 'أخفِ أقسام الكتاب',
     showOne: (genre) => `أظهر ${genre}`,
     hideOne: (genre) => `أخفِ ${genre}`,
+  },
+  linksInfo: {
+    button: 'ما هي الروابط؟',
+    intro:
+      'الرابط يصل بين نصّين يتحدثان عن الأمر نفسه: أحدهما يقتبس الآخر أو يكرّره أو يتنبأ به أو يرمز إليه. كل قوس وكل خيط هو رابط واحد.',
+    where: (total) => `من أين تأتي الروابط الـ${total}`,
+    openBible: (count) => `${count} شاهدًا من OpenBible.info، وهي قائمة عامة لدراسة الكتاب المقدس`,
+    handPicked: (count) =>
+      `${count} رابطًا مختارًا يدويًا في هذا الموقع، مرسومة بالذهبي: عن السيد المسيح، النبوات، الرموز`,
+    which: 'ما الذي يُرسم منها',
+    reasons: 'لا يمكن رسم الشاهد إلا إذا أظهر النصّان سبب ارتباطهما. حسب السبب:',
+    hidden: (count) => `${count} شاهدًا لا يظهر في نصوصها سبب للارتباط، فلا تُرسم أبدًا.`,
+    cap: 'يُرسم 10 روابط على الأكثر من كل آية و10 إليها، حتى لا تضيع أي آية.',
+    choose: 'اختر الأنواع التي تراها من «الفئات»؛ والعدد أعلاه يتبع اختيارك.',
   },
   stats: {
     label: 'ملخص',

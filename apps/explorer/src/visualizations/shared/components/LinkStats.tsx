@@ -11,10 +11,12 @@ interface LinkStatsProps {
    * screen (phones included, since touch gestures are harder to guess).
    */
   readonly hint?: { readonly pointer: ReactNode; readonly touch: ReactNode };
+  /** Orthodoxia: what the numbers mean, opened on demand. */
+  readonly explanation?: ReactNode;
 }
 
 /** A quiet corner summary of what is on screen; context, not the main event. */
-export function LinkStats({ summary, hint }: LinkStatsProps) {
+export function LinkStats({ summary, hint, explanation }: LinkStatsProps) {
   const { verseCount, shownLinks, totalLinks, connectedVerses, crossTestamentLinks } = summary;
   return (
     <div className={styles.stats} aria-label={t.stats.label}>
@@ -29,6 +31,7 @@ export function LinkStats({ summary, hint }: LinkStatsProps) {
         {t.stats.connected(formatShare(connectedVerses, verseCount))} ·{' '}
         {t.stats.crossTestament(formatInteger(crossTestamentLinks))}
       </span>
+      {explanation}
       {hint !== undefined && (
         <>
           <span className={`${styles.hint} ${styles.pointerHint}`}>{hint.pointer}</span>

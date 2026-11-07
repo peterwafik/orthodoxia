@@ -197,3 +197,13 @@ z-index: 20` (`src/visualizations/shared/components/VizPage.module.css`).
 
 `scripts/data/lib/files.ts`: `writeFileAtomic` overwrites the file in place when Windows refuses to
 rename over it (`EPERM`, e.g. while a dev server holds the dataset open). No effect elsewhere.
+
+## What a link is (arcs summary)
+
+Under the arcs' summary ("77,357 of 345,185 links shown"), a quiet **What are links?** opens a card
+(`LinksExplained.tsx`, a native `<details>`; styles in `LinkStats.module.css`; `linksInfo` strings in
+`messages.ts`; `InfoIcon` in `icons.tsx`; `explanation` prop on `LinkStats`). It says what a link is,
+splits the total into the OpenBible.info cross-references and the hand-picked gold pairs, lists the
+cross-references by the reason found in their texts (from `LinkReasons.countByCategory()`, so the
+numbers follow the data), says how many show no reason and are never drawn, and notes the limit of
+10 links from and to each verse.
