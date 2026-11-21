@@ -1,0 +1,42 @@
+id: mark-07
+passages:
+  short: MRK.7.31-37
+  full: MRK.7.24-37
+  deep: MRK.7
+title:
+  en: “Be opened”
+  ar: «انفتح»
+hook:
+  en: Jesus goes into foreign territory. A non-Jewish mother begs him to heal her daughter, argues with him, and wins. Then he puts his fingers in a deaf man’s ears and says one word.
+  ar: يذهب يسوع إلى أرض غريبة. أمّ غير يهودية تتوسل إليه أن يشفي ابنتها، وتجادله فتغلب. ثم يضع أصابعه في أذني رجل أصم ويقول كلمة واحدة.
+explain:
+  en: Tyre and Sidon were Gentile cities. The woman’s humble, bold faith shows that Jesus came for all nations, not only Israel. “Ephphatha” is Aramaic, the language Jesus spoke; Mark keeps the very word.
+  ar: كانت صور وصيدا مدينتين أمميتين. يُظهر إيمان المرأة المتواضع والجريء أن يسوع جاء لكل الأمم لا لإسرائيل وحده. و«إفثا» كلمة آرامية، اللغة التي تكلم بها يسوع، وقد حفظ مرقس الكلمة نفسها.
+think:
+  en: The mother kept asking even when the answer seemed to be no. What are you still asking God for?
+  ar: ظلت الأم تطلب حتى حين بدا أن الجواب لا. ما الذي ما زلت تطلبه من الله؟
+check:
+  question:
+    en: What does “Ephphatha” mean?
+    ar: ما معنى «إفثا»؟
+  options:
+    - en: Be healed
+      ar: اشفَ
+    - en: Be opened
+      ar: انفتح
+    - en: Peace
+      ar: سلام
+  answer: 1
+  why:
+    en: "Mark translates it himself: “Be opened” (Mark 7:34)."
+    ar: "يترجمها مرقس نفسه: «انفتح» (مرقس ٧: ٣٤)."
+deeper:
+  - kind: place
+    id: tyre
+  - kind: place
+    id: sidon
+words: []
+sources: []
+review:
+  status: draft
+  origin: ai-generated

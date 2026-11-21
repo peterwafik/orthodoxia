@@ -1,0 +1,31 @@
+id: st-takla-synaxarium
+title: The Coptic Synaxarium (السنكسار)
+organization: St-Takla.org
+url: https://st-takla.org/Full-Free-Coptic-Books/Synaxarium-or-Synaxarion/Synexarium-or-Synexarion-index.html
+languages: [ar, en]
+contentType: liturgical-text
+license:
+  id: unknown
+  statement: "No licence or terms of reuse are shown on the Synaxarium pages (checked 2026-11-21)."
+  verifiedUrl: https://st-takla.org/Full-Free-Coptic-Books/Coptic-Synaxarium-or-Synaxarion_English/Eng-Synexarium-or-Synexarion-index.html
+inUse: true
+usage: import
+redistributionAllowed: false
+attribution: "The Coptic Synaxarium, Arabic and English texts as published on St-Takla.org."
+commercialUse: unknown
+modification: unknown
+lastVerifiedAt: "2026-11-21"
+ownerDecision:
+  date: "2026-11-21"
+  statement: >-
+    The owner chose to publish the full Synaxarium texts on the Calendar & Synaxarium pages, knowing St-Takla.org shows
+    no terms of reuse, so that readers need not leave the site. A request for St-Takla's permission is pending.
+notes: >-
+  The full text of every day's commemorations, in Arabic and English, collected by scripts/synaxarium/fetch.ts from
+  St-Takla.org's Arabic Synaxarium and its English Synaxarium (data/synaxarium/synaxarium.json) and shown on the
+  Calendar & Synaxarium day pages. The text is unchanged except that the site's navigation, image captions and notes
+  are left out. Imported by the owner's decision, without a licence: St-Takla's permission has been asked for.
+notesAr: >-
+  النص الكامل لتذكارات كل يوم بالعربية والإنجليزية، جمعه السكربت scripts/synaxarium/fetch.ts من السنكسار العربي
+  والسنكسار الإنجليزي في موقع الأنبا تكلا، ويُعرض في صفحات التقويم والسنكسار. النص دون تعديل سوى حذف عناصر التنقل
+  وتعليقات الصور وملاحظات الموقع. أُدرج بقرار صاحب المشروع دون ترخيص، وقد طُلب إذن موقع الأنبا تكلا.

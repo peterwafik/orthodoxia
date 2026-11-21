@@ -31,7 +31,9 @@
     "malaty:build": "node scripts/commentary/malaty-build.ts",
     "topics": "node scripts/topics/fetch.ts && node scripts/topics/build.ts",
     "apologetics:links": "node scripts/apologetics/check-links.ts",
-    "apologetics:coverage": "node scripts/apologetics/coverage.ts"
+    "apologetics:coverage": "node scripts/apologetics/coverage.ts",
+    "people": "node scripts/bible-people/fetch.ts && node scripts/bible-people/build.ts",
+    "people:check": "node scripts/bible-people/check-data.ts apps/web/src/data/bible-history/core-patriarchs.ts apps/web/src/data/bible-history/core-kings.ts apps/web/src/data/bible-history/core-nt.ts apps/web/src/data/bible-history/evidence.ts"
   },
   "devDependencies": {
     "@types/node": "^24.13.6",

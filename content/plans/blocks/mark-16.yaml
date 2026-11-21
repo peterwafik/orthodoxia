@@ -1,0 +1,42 @@
+id: mark-16
+passages:
+  short: MRK.16.1-8
+  full: MRK.16.1-20
+  deep: MRK.16
+title:
+  en: He is risen
+  ar: قد قام
+hook:
+  en: Early on Sunday, three women walk to the tomb with spices for a dead body. They are worried about who will roll the stone away. It is already rolled away.
+  ar: "باكرًا جدًا يوم الأحد، تذهب ثلاث نساء إلى القبر بحنوط لجسد ميت. كن قلقات: من يدحرج الحجر؟ فوجدنه قد دُحرج."
+explain:
+  en: "The young man in white says, “He is risen… tell his disciples and Peter.” And Peter, who had denied Jesus three times, is named on purpose: he is not left out. The Church keeps the longer ending of Mark (16:9–20) as Scripture."
+  ar: "يقول الشاب اللابس الأبيض: «قد قام… قلن لتلاميذه ولبطرس». ويُذكر بطرس الذي أنكر يسوع ثلاث مرات بالاسم عن قصد: لم يُستبعد. وتقبل الكنيسة خاتمة مرقس الطويلة (١٦: ٩–٢٠) كتابًا مقدسًا."
+think:
+  en: Peter was named after his worst failure. What would it mean for you to hear your name in “tell… and Peter”?
+  ar: ذُكر بطرس بعد أسوأ سقطة له. ماذا يعني لك أن تسمع اسمك في «قلن لتلاميذه ولبطرس»؟
+check:
+  question:
+    en: On which day did the women find the tomb empty?
+    ar: في أي يوم وجدت النساء القبر فارغًا؟
+  options:
+    - en: The sabbath
+      ar: السبت
+    - en: The first day of the week
+      ar: أول الأسبوع
+    - en: Forty days later
+      ar: بعد أربعين يومًا
+  answer: 1
+  why:
+    en: The first day of the week, Sunday, which is why Christians gather on Sunday (Mark 16:2).
+    ar: "أول الأسبوع، يوم الأحد، ولهذا يجتمع المسيحيون يوم الأحد (مرقس ١٦: ٢)."
+deeper:
+  - kind: question
+    slug: mark-16-9-20
+  - kind: question
+    slug: empty-tomb-evidence
+words: []
+sources: []
+review:
+  status: draft
+  origin: ai-generated

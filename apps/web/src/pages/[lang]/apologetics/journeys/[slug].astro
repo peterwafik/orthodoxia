@@ -10,7 +10,7 @@ export function getStaticPaths() {
 const locale = Astro.params.lang as Locale;
 const text = ui(locale);
 const journey = JOURNEYS.find((j) => j.slug === Astro.params.slug)!;
-const pages = ['methodology', 'sources', 'timeline'];
+const pages = ['methodology', 'sources'];
 const steps = journey.steps.map((s, i) => {
   const isPage = pages.includes(s.target);
   const a = ARTICLE_BY_QUESTION.get(s.target);

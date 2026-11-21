@@ -1,0 +1,24 @@
+id: wikipedia-coptic-calendar
+title: Coptic calendar
+organization: Wikipedia
+url: https://en.wikipedia.org/wiki/Coptic_calendar
+languages: [en]
+contentType: reference-site
+license:
+  id: CC-BY-SA-4.0
+  statement: "Text is available under the Creative Commons Attribution-ShareAlike 4.0 License"
+  verifiedUrl: https://en.wikipedia.org/wiki/Coptic_calendar
+inUse: false
+usage: link-only
+redistributionAllowed: true
+attribution: "Wikipedia contributors, \"Coptic calendar\", Wikipedia, CC BY-SA 4.0"
+commercialUse: allowed
+modification: allowed
+lastVerifiedAt: "2026-11-21"
+notes: >-
+  Used for the Coptic months and the start of the year (1 Tout on 11 September, or 12 September before a Gregorian
+  leap year, for 1900–2099) and the Nativity on 29 Koiak (7 January). Fixed feast dates are checked against the
+  St-Takla Synaxarium headings for those days.
+notesAr: >-
+  يُستخدم لأسماء الشهور القبطية وبداية السنة (١ توت في ١١ سبتمبر، أو ١٢ سبتمبر قبل السنة الكبيسة الميلادية، للفترة
+  ١٩٠٠–٢٠٩٩)، ولعيد الميلاد في ٢٩ كيهك (٧ يناير). وتُراجَع تواريخ الأعياد الثابتة على عناوين سنكسار موقع الأنبا تكلا لتلك الأيام.

@@ -1,0 +1,291 @@
+---
+import Base from '../../layouts/Base.astro';
+import { CORE, EVIDENCE } from '../../data/bible-history/index.ts';
+import { DEFAULT_CHRONOLOGY, landmarks } from '../../data/bible-history/primeval.ts';
+import { placed, loadPeople } from '../../lib/bible-history/payload.ts';
+import { evidenceRefs } from '../../lib/topics/evidence.ts';
+import { BASIS_NAMES, CERTAINTY_NAMES, CHART_PERIODS, KIND_NAMES, LINE_NAMES, PERIOD_NAMES, ui } from '../../lib/bible-history/ui.ts';
+import { LOCALES, type Locale } from '../../i18n/index.ts';
+
+export function getStaticPaths() {
+  return LOCALES.map((lang) => ({ params: { lang } }));
+}
+
+const locale = Astro.params.lang as Locale;
+const ar = locale === 'ar';
+const text = ui(locale);
+const config = { locale, dataUrl: `/${locale}/bible-history.json`, ui: text };
+
+// The index: the hand-written people, by the period their dates fall in (Septuagint count), oldest first.
+const num = new Intl.NumberFormat(ar ? 'ar-EG' : 'en-US', { useGrouping: false });
+const year = (value: number): string => (value < 0 ? `${num.format(-value)} ${text.bc}` : ar ? `${num.format(value)} ${text.ad}` : `${text.ad} ${value}`);
+const byKey = new Map(placed(DEFAULT_CHRONOLOGY).map((person) => [person.key, person]));
+const marks = landmarks(DEFAULT_CHRONOLOGY);
+const starts = CHART_PERIODS.map((period) => (typeof period.from === 'number' ? period.from : marks[period.from] ?? Number.POSITIVE_INFINITY));
+const periodOf = (start: number): number => {
+  let at = 0;
+  starts.forEach((from, i) => { if (start >= from) at = i; });
+  return at;
+};
+const total = loadPeople().length + CORE.filter((person) => person.key.startsWith('x:')).length;
+const groups = CHART_PERIODS.map((period, i) => ({
+  name: PERIOD_NAMES[period.id]![locale],
+  people: CORE.map((person) => ({ person, placed: byKey.get(person.key)! }))
+    .filter(({ placed }) => placed !== undefined && periodOf(placed.start) === i)
+    .sort((a, b) => a.placed.start - b.placed.start),
+})).filter((group) => group.people.length > 0);
+const dates = (key: string, approx: boolean): string => {
+  const p = byKey.get(key)!;
+  if (marks.undated !== null && p.start < marks.undated) return text.undatedDates;
+  const c = approx ? `${text.circa} ` : '';
+  if (p.born !== null && p.died !== null) return `${c}${year(p.born)} – ${year(p.died)}`;
+  return `${c}${year(p.start)} – ${year(p.end)}`;
+};
+const evidenceSorted = [...EVIDENCE].sort((a, b) => ['certain', 'probable', 'debated'].indexOf(a.certainty) - ['certain', 'probable', 'debated'].indexOf(b.certainty));
+const nameOf = new Map(CORE.map((person) => [person.key, person.name[locale]]));
+---
+
+<Base locale={locale} title={text.title} description={text.metaDescription}>
+  <div class="page-stage">
+    <section class="intro">
+      <div class="wrap">
+        <h1>{text.title}</h1>
+        <p class="lede">{text.lede}</p>
+      </div>
+    </section>
+
+    <section class="bh" data-chart data-config={JSON.stringify(config)}>
+      <div class="wrap">
+        <div class="bar-top">
+          <label class="search">
+            <span class="visually-hidden">{text.search}</span>
+            <svg viewBox="0 0 20 20" width="16" height="16" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5" fill="none" stroke="currentColor" stroke-width="1.7"></circle><path d="m13 13 4 4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"></path></svg>
+            <input type="search" data-search placeholder={text.searchPlaceholder} autocomplete="off" role="combobox" aria-expanded="false" aria-controls="bh-results" aria-label={text.search} />
+            <ul id="bh-results" class="results" data-results role="listbox" hidden></ul>
+          </label>
+          <div class="seg-group" role="group" aria-label={text.view}>
+            <span class="seg-label">{text.view}</span>
+            <button type="button" class="seg" data-view="wheel" aria-pressed="true">{text.viewWheel}</button>
+            <button type="button" class="seg" data-view="line" aria-pressed="false">{text.viewLine}</button>
+          </div>
+          <div class="seg-group" role="group" aria-label={text.count}>
+            <span class="seg-label">{text.count}</span>
+            <button type="button" class="seg" data-count="hist" aria-pressed="true">{text.countHist}</button>
+            <button type="button" class="seg" data-count="lxx" aria-pressed="false">{text.countLxx}</button>
+            <button type="button" class="seg" data-count="mt" aria-pressed="false">{text.countMt}</button>
+          </div>
+        </div>
+        <div class="periods" data-periods role="group" aria-label={text.periods}></div>
+
+        <div class="stage" data-stage>
+          <canvas data-canvas tabindex="0" role="application" aria-roledescription="chart" aria-label={text.stageLabel}></canvas>
+          <noscript><p class="needs-script">{text.needsScript}</p></noscript>
+          <p class="status" data-status role="status"></p>
+          <div class="tip" data-tip hidden></div>
+          <div class="tools">
+            <button type="button" class="tool" data-zoom="in" aria-label={text.zoomIn} title={text.zoomIn}><svg viewBox="0 0 20 20" width="18" height="18" aria-hidden="true"><path d="M10 4v12M4 10h12" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"></path></svg></button>
+            <button type="button" class="tool" data-zoom="out" aria-label={text.zoomOut} title={text.zoomOut}><svg viewBox="0 0 20 20" width="18" height="18" aria-hidden="true"><path d="M4 10h12" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"></path></svg></button>
+            <button type="button" class="tool" data-zoom="reset" aria-label={text.reset} title={text.reset}><svg viewBox="0 0 20 20" width="18" height="18" aria-hidden="true"><circle cx="10" cy="10" r="6.5" fill="none" stroke="currentColor" stroke-width="1.6"></circle><circle cx="10" cy="10" r="2" fill="currentColor"></circle></svg></button>
+            <button type="button" class="tool" data-fullscreen aria-label={text.fullscreen} title={text.fullscreen}><svg viewBox="0 0 20 20" width="18" height="18" aria-hidden="true"><path d="M3 8V3h5M17 8V3h-5M3 12v5h5M17 12v5h-5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"></path></svg></button>
+          </div>
+          <aside class="panel" data-panel hidden tabindex="-1" aria-live="polite"></aside>
+        </div>
+
+        <div class="below">
+          <div class="lines">
+            <h2 class="small-title">{text.lines}</h2>
+            <p class="hint">{text.linesNote}</p>
+            <div class="line-list" data-lines></div>
+          </div>
+          <div class="opts">
+            <h2 class="small-title">{text.options}</h2>
+            <label><input type="checkbox" data-opt="estimated" checked /> {text.showEstimated}</label>
+            <label><input type="checkbox" data-opt="evidence" /> {text.showEvidenceOnly}</label>
+            <label><input type="checkbox" data-opt="strings" checked /> {text.showLinks}</label>
+            <p class="hint">{text.countNote}</p>
+          </div>
+          <details class="legend">
+            <summary class="small-title">{text.legend}</summary>
+            <ul>
+              <li><svg viewBox="0 0 40 12" width="40" height="12" aria-hidden="true"><rect x="1" y="3" width="38" height="6" rx="1" fill="currentColor" opacity=".8"></rect></svg><span>{text.legendBar}</span></li>
+              <li><svg viewBox="0 0 40 12" width="40" height="12" aria-hidden="true"><rect x="1" y="3" width="38" height="6" rx="1" fill="currentColor" opacity=".55"></rect><rect x="12" y="5" width="18" height="2" fill="currentColor"></rect></svg><span>{text.legendOffice}</span></li>
+              <li><svg viewBox="0 0 40 12" width="40" height="12" aria-hidden="true"><rect x="1" y="4" width="38" height="4" rx="2" fill="currentColor" opacity=".3"></rect></svg><span>{text.legendEstimate}</span></li>
+              <li><svg viewBox="0 0 40 12" width="40" height="12" aria-hidden="true"><path d="M20 1 25 6 20 11 15 6Z" fill="var(--accent)"></path></svg><span>{text.legendEvidence}</span></li>
+              <li><svg viewBox="0 0 40 12" width="40" height="12" aria-hidden="true"><path d="M2 6h36" stroke="#8a5a2b" stroke-width="1.6" stroke-dasharray="5 4"></path></svg><span>{text.legendHistory}</span></li>
+              <li><span class="no-icon"></span><span>{text.legendScale}</span></li>
+              <li><span class="no-icon"></span><span>{text.legendSource}</span></li>
+            </ul>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="index">
+      <div class="wrap">
+        <h2>{text.index}</h2>
+        <p class="hint">{text.indexNote.replace('{n}', num.format(total))}</p>
+        {groups.map((group) => (
+          <details class="period-index">
+            <summary><h3>{group.name}</h3><span>{num.format(group.people.length)}</span></summary>
+            <ul>
+              {group.people.map(({ person }) => (
+                <li>
+                  <i style={`background:${LINE_NAMES[byKey.get(person.key)!.line].color}`}></i>
+                  <a href={`?p=${encodeURIComponent(person.key)}`} data-person={person.key}><b>{person.name[locale]}</b></a>
+                  <span class="d">{dates(person.key, person.approx === true)}</span>
+                  <span class="r">{person.role[locale]}</span>
+                  <span class="refs">{evidenceRefs(person.refs, locale).slice(0, 3).map((ref) => <a href={ref.href}>{ref.label}</a>)}</span>
+                  <span class="basis">{BASIS_NAMES[person.basis][locale]}</span>
+                </li>
+              ))}
+            </ul>
+          </details>
+        ))}
+
+        <h2 class="ev-title">{text.evidenceIndex}</h2>
+        <p class="hint">{text.evidenceIndexNote}</p>
+        <ul class="ev-index">
+          {evidenceSorted.map((item) => (
+            <li class={`cert-${item.certainty}`}>
+              <span class={`badge cert-${item.certainty}`}>{CERTAINTY_NAMES[item.certainty][locale]}</span>
+              <b>{item.title[locale]}</b> <span class="d">{KIND_NAMES[item.kind][locale]} · {item.date[locale]}</span>
+              <span class="who">{item.people.map((key) => <a href={`?p=${encodeURIComponent(key)}`} data-person={key}>{nameOf.get(key) ?? key.replace(/@.*$/, '')}</a>)}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </section>
+  </div>
+
+  <script>
+    import { mountChart, type ChartConfig } from '../../lib/bible-history/chart.ts';
+
+    const root = document.querySelector<HTMLElement>('[data-chart]');
+    if (root !== null) {
+      const config = JSON.parse(root.dataset['config'] ?? '{}') as ChartConfig;
+      mountChart(root, config).catch((error: unknown) => {
+        console.error(error);
+        const status = root.querySelector<HTMLElement>('[data-status]');
+        if (status !== null) status.textContent = config.ui['failed'] ?? '';
+      });
+    }
+  </script>
+</Base>
+
+<style>
+  .intro { padding-block: clamp(1.5rem, 3vw, 2.6rem) 0.6rem; }
+  .intro h1 { font-family: var(--font-reading); font-size: var(--step-hero); margin: 0 0 0.4rem; }
+  .lede { max-width: 62rem; color: var(--ink-muted); margin: 0; line-height: 1.6; }
+
+  .bh { padding-block: 0.8rem 1rem; }
+  .bar-top { display: flex; flex-wrap: wrap; gap: 0.6rem 1.2rem; align-items: center; margin-bottom: 0.6rem; }
+  .search { position: relative; display: flex; align-items: center; gap: 0.45rem; flex: 1 1 18rem; max-width: 26rem; padding: 0.45rem 0.8rem; border: 1px solid var(--line); border-radius: 999px; background: var(--surface-raised); color: var(--ink-muted); }
+  .search:focus-within { border-color: var(--accent); }
+  .search input { border: 0; outline: 0; background: transparent; color: var(--ink); font: inherit; width: 100%; }
+  .results { position: absolute; inset-inline: 0; top: calc(100% + 6px); z-index: 30; list-style: none; margin: 0; padding: 0.3rem; background: var(--surface-raised); border: 1px solid var(--line); border-radius: 14px; box-shadow: 0 14px 40px rgb(0 0 0 / 0.18); max-height: 22rem; overflow: auto; }
+  .results li { display: grid; grid-template-columns: 0.7rem 1fr; column-gap: 0.55rem; padding: 0.45rem 0.6rem; border-radius: 9px; cursor: pointer; color: var(--ink); }
+  .results li span { grid-column: 2; font-size: var(--step--1); color: var(--ink-muted); }
+  .results li i { width: 0.7rem; height: 0.7rem; border-radius: 3px; margin-top: 0.35rem; }
+  .results li[aria-selected='true'], .results li:hover { background: color-mix(in srgb, var(--accent) 12%, transparent); }
+  .results .empty { display: block; color: var(--ink-muted); cursor: default; }
+
+  .seg-group { display: inline-flex; align-items: center; gap: 0.25rem; }
+  .seg-label { font-size: var(--step--1); color: var(--ink-muted); margin-inline-end: 0.3rem; }
+  .seg { font: inherit; font-size: var(--step--1); padding: 0.35rem 0.8rem; border: 1px solid var(--line); background: var(--surface-raised); color: var(--ink); border-radius: 999px; cursor: pointer; }
+  .seg[aria-pressed='true'] { background: var(--ink); color: var(--surface); border-color: var(--ink); }
+
+  .periods { display: flex; flex-wrap: wrap; gap: 0.35rem; margin-bottom: 0.6rem; }
+  .periods :global(.period) { font: inherit; font-size: 0.8rem; padding: 0.25rem 0.7rem; border-radius: 999px; border: 1px solid var(--line); background: transparent; color: var(--ink-muted); cursor: pointer; }
+  .periods :global(.period:hover) { color: var(--ink); border-color: var(--accent); }
+
+  .stage { position: relative; height: min(82vh, 980px); min-height: 520px; border: 1px solid var(--line); border-radius: 18px; overflow: hidden; background: var(--surface-raised); }
+  .stage:fullscreen { height: 100vh; border-radius: 0; }
+  canvas { position: absolute; inset: 0; width: 100%; height: 100%; touch-action: none; cursor: grab; display: block; }
+  canvas:focus-visible { outline: 2px solid var(--focus); outline-offset: -3px; }
+  .status { position: absolute; inset-inline-start: 1rem; top: 0.8rem; margin: 0; color: var(--ink-muted); }
+  .needs-script { padding: 2rem; }
+  .tip { position: absolute; z-index: 10; pointer-events: none; display: grid; gap: 0.1rem; max-width: 18rem; padding: 0.45rem 0.7rem; border-radius: 10px; background: var(--ink); color: var(--surface); font-size: var(--step--1); box-shadow: 0 8px 24px rgb(0 0 0 / 0.2); }
+  .tip :global(span) { opacity: 0.8; }
+  .tip[hidden], .panel[hidden], .results[hidden] { display: none; }
+  .tools { position: absolute; inset-inline-end: 0.7rem; bottom: 0.7rem; display: grid; gap: 0.35rem; z-index: 5; }
+  .has-panel .tools { inset-inline-end: calc(min(420px, 42%) + 0.7rem); }
+  .tool { width: 2.3rem; height: 2.3rem; display: grid; place-items: center; border-radius: 50%; border: 1px solid var(--line); background: var(--surface-raised); color: var(--ink); cursor: pointer; box-shadow: 0 2px 8px rgb(0 0 0 / 0.08); }
+  .tool:hover { border-color: var(--accent); }
+
+  .panel { position: absolute; z-index: 20; inset-block: 0; inset-inline-end: 0; width: min(420px, 42%); overflow: auto; padding: 1rem 1.15rem 1.4rem; background: var(--surface); border-inline-start: 1px solid var(--line); box-shadow: -12px 0 30px rgb(0 0 0 / 0.08); line-height: 1.55; }
+  .panel :global(header) { display: grid; grid-template-columns: 0.5rem 1fr auto; gap: 0.7rem; align-items: start; margin-bottom: 0.4rem; }
+  .panel :global(.swatch) { width: 0.5rem; height: 100%; min-height: 2.4rem; border-radius: 4px; }
+  .panel :global(h2) { font-family: var(--font-reading); font-size: var(--step-2); margin: 0; line-height: 1.2; }
+  .panel :global(.role) { margin: 0.15rem 0 0; color: var(--ink-muted); }
+  .panel :global(.close) { font-size: 1.4rem; line-height: 1; width: 2rem; height: 2rem; border-radius: 50%; border: 1px solid var(--line); background: var(--surface-raised); color: var(--ink); cursor: pointer; }
+  .panel :global(section) { border-top: 1px solid var(--line); padding-top: 0.7rem; margin-top: 0.7rem; }
+  .panel :global(h3) { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--ink-muted); margin: 0 0 0.45rem; }
+  .panel :global(h4) { margin: 0 0 0.2rem; font-size: 1rem; }
+  .panel :global(p) { margin: 0 0 0.45rem; }
+  .panel :global(.dates) { font-size: 1.05rem; font-weight: 600; }
+  .panel :global(.dates span) { font-weight: 400; color: var(--ink-muted); }
+  .panel :global(.note) { font-size: var(--step--1); color: var(--ink-muted); }
+  .panel :global(.badge) { display: inline-block; font-size: 0.75rem; padding: 0.1rem 0.55rem; border-radius: 999px; background: color-mix(in srgb, var(--accent) 14%, transparent); color: var(--ink); }
+  .panel :global(.basis-5) { background: color-mix(in srgb, var(--ink-muted) 18%, transparent); }
+  :global(.cert-certain.badge) { background: color-mix(in srgb, #2e8b57 22%, transparent) !important; }
+  :global(.cert-probable.badge) { background: color-mix(in srgb, #c9a227 26%, transparent) !important; }
+  :global(.cert-debated.badge) { background: color-mix(in srgb, #c0504d 22%, transparent) !important; }
+  .panel :global(.facts), .panel :global(.family) { display: grid; grid-template-columns: auto 1fr; gap: 0.3rem 0.8rem; margin: 0.4rem 0 0; font-size: var(--step--1); }
+  .panel :global(dt) { color: var(--ink-muted); }
+  .panel :global(dd) { margin: 0; display: flex; flex-wrap: wrap; gap: 0.3rem; }
+  .panel :global(.chip) { display: inline-flex; align-items: center; gap: 0.35rem; font: inherit; font-size: 0.82rem; padding: 0.15rem 0.6rem; border-radius: 999px; border: 1px solid var(--line); background: var(--surface-raised); color: var(--ink); cursor: pointer; }
+  .panel :global(.chip:hover) { border-color: var(--accent); }
+  .panel :global(.chip i) { width: 0.55rem; height: 0.55rem; border-radius: 2px; }
+  .panel :global(.refs) { display: flex; flex-wrap: wrap; gap: 0.3rem 0.8rem; }
+  .panel :global(a) { color: var(--accent); }
+  .panel :global(.ev) { padding: 0.65rem 0.75rem; border: 1px solid var(--line); border-radius: 12px; margin-bottom: 0.6rem; background: var(--surface-raised); }
+  .panel :global(.ev-meta) { font-size: var(--step--1); color: var(--ink-muted); }
+  .panel :global(.links) { font-size: var(--step--1); }
+  .panel :global(.also) { display: flex; flex-wrap: wrap; gap: 0.3rem; }
+  .panel :global(.faith) { margin: 0; padding-inline-start: 1.1rem; }
+
+  .below { display: grid; grid-template-columns: 1.4fr 1fr 1.2fr; gap: 1.2rem 2rem; margin-top: 1rem; align-items: start; }
+  .small-title { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--ink-muted); margin: 0 0 0.4rem; font-weight: 600; }
+  .hint { font-size: var(--step--1); color: var(--ink-muted); margin: 0.2rem 0 0.6rem; line-height: 1.5; }
+  .line-list { display: flex; flex-wrap: wrap; gap: 0.35rem; }
+  .line-list :global(.line-chip) { display: inline-flex; align-items: center; gap: 0.4rem; font: inherit; font-size: 0.82rem; padding: 0.25rem 0.7rem; border-radius: 999px; border: 1px solid var(--line); background: var(--surface-raised); color: var(--ink); cursor: pointer; }
+  .line-list :global(.line-chip span) { color: var(--ink-muted); font-size: 0.75rem; }
+  .line-list :global(.line-chip i) { width: 0.75rem; height: 0.75rem; border-radius: 3px; }
+  .line-list :global(.line-chip[aria-pressed='false']) { opacity: 0.45; text-decoration: line-through; }
+  .opts label { display: flex; gap: 0.45rem; align-items: baseline; margin-bottom: 0.3rem; font-size: 0.92rem; }
+  .legend ul { list-style: none; margin: 0.4rem 0 0; padding: 0; display: grid; gap: 0.5rem; font-size: var(--step--1); color: var(--ink-muted); }
+  .legend li { display: grid; grid-template-columns: 40px 1fr; gap: 0.6rem; align-items: start; }
+  .legend svg { color: var(--ink); margin-top: 0.3rem; }
+  .legend summary { cursor: pointer; }
+
+  .index { padding-block: 2rem 3rem; }
+  .index h2 { font-family: var(--font-reading); font-size: var(--step-2); margin: 0 0 0.3rem; }
+  .period-index { border-top: 1px solid var(--line); }
+  .period-index summary { display: flex; align-items: baseline; gap: 0.6rem; padding: 0.7rem 0; cursor: pointer; }
+  .period-index summary h3 { margin: 0; font-size: var(--step-1); font-family: var(--font-reading); }
+  .period-index summary span { color: var(--ink-muted); font-size: var(--step--1); }
+  .period-index ul { list-style: none; margin: 0 0 1rem; padding: 0; display: grid; gap: 0.25rem; }
+  .period-index li { display: grid; grid-template-columns: 0.6rem minmax(9rem, 1.1fr) minmax(9rem, 1fr) 2fr; gap: 0.2rem 0.8rem; align-items: baseline; padding: 0.3rem 0; border-bottom: 1px dashed color-mix(in srgb, var(--line) 70%, transparent); font-size: 0.92rem; }
+  .period-index li i { width: 0.6rem; height: 0.6rem; border-radius: 2px; }
+  .period-index li a { color: var(--ink); text-decoration: none; }
+  .period-index li a:hover b { text-decoration: underline; }
+  .period-index .d, .ev-index .d { color: var(--ink-muted); font-variant-numeric: tabular-nums; }
+  .period-index .refs { grid-column: 2 / -1; display: flex; flex-wrap: wrap; gap: 0.2rem 0.8rem; font-size: var(--step--1); }
+  .period-index .refs a { color: var(--accent); }
+  .period-index .basis { grid-column: 2 / -1; font-size: 0.75rem; color: var(--ink-muted); }
+  .ev-title { margin-top: 2rem !important; }
+  .ev-index { list-style: none; padding: 0; margin: 0; display: grid; gap: 0.4rem; }
+  .ev-index li { padding: 0.5rem 0; border-bottom: 1px solid var(--line); }
+  .ev-index .badge { display: inline-block; font-size: 0.72rem; padding: 0.1rem 0.5rem; border-radius: 999px; margin-inline-end: 0.4rem; }
+  .ev-index .who { display: flex; flex-wrap: wrap; gap: 0.2rem 0.7rem; font-size: var(--step--1); margin-top: 0.2rem; }
+  .ev-index .who a { color: var(--accent); }
+
+  @media (max-width: 900px) {
+    .below { grid-template-columns: 1fr; }
+    .panel { width: 100%; inset-block: auto 0; max-height: 62%; border-inline-start: 0; border-top: 1px solid var(--line); border-radius: 16px 16px 0 0; }
+    .has-panel .tools { inset-inline-end: 0.7rem; bottom: calc(62% + 0.7rem); }
+    .period-index li { grid-template-columns: 0.6rem 1fr; }
+    .period-index li .d, .period-index li .r { grid-column: 2; }
+    .stage { height: 74vh; }
+  }
+</style>

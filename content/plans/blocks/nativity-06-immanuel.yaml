@@ -1,0 +1,44 @@
+id: nativity-06-immanuel
+passages:
+  short: ISA.7.10-14
+  full: ISA.7.1-16
+  deep: ISA.7
+title:
+  en: "A sign: Immanuel"
+  ar: "آية: عمانوئيل"
+hook:
+  en: Jerusalem is under threat and its king is terrified. God offers him any sign he likes. He refuses. So God gives a sign anyway, one that would be remembered for ever.
+  ar: أورشليم مهددة وملكها مرتعب. يعرض الله عليه أي آية يريدها، فيرفض. فيعطي الله آية رغم ذلك، آية ستُذكر إلى الأبد.
+explain:
+  en: "“Behold, a virgin shall conceive, and bear a son, and shall call his name Immanuel.” Immanuel means “God with us”. Matthew quotes this verse about the birth of Christ from the Virgin Mary. Christmas is not God sending help from far away: it is God coming to be with us."
+  ar: «ها العذراء تحبل وتلد ابنًا وتدعو اسمه عمانوئيل». ومعنى عمانوئيل «الله معنا». ويقتبس متى هذه الآية عن ميلاد المسيح من العذراء مريم. الميلاد ليس أن الله يرسل معونة من بعيد، بل أن الله يأتي ليكون معنا.
+think:
+  en: “God with us.” Where do you most need to know that God is with you this week?
+  ar: «الله معنا». أين تحتاج أكثر أن تعرف أن الله معك هذا الأسبوع؟
+check:
+  question:
+    en: What does “Immanuel” mean?
+    ar: ما معنى «عمانوئيل»؟
+  options:
+    - en: God saves
+      ar: الله يخلّص
+    - en: God with us
+      ar: الله معنا
+    - en: Prince of peace
+      ar: رئيس السلام
+  answer: 1
+  why:
+    en: "Matthew explains it: “God with us” (Matthew 1:23)."
+    ar: "يشرحه متى: «الله معنا» (متى ١: ٢٣)."
+deeper:
+  - kind: verse
+    ref: MAT.1.22-23
+  - kind: person
+    key: Isaiah@2Ki.19.2-Rom
+  - kind: question
+    slug: matthew-and-luke-on-conception
+words: []
+sources: []
+review:
+  status: draft
+  origin: ai-generated

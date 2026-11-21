@@ -1,0 +1,44 @@
+id: nativity-09-bethlehem
+passages:
+  short: MIC.5.2-4
+  full: MIC.5.1-5
+  deep: MIC.5
+title:
+  en: Little Bethlehem
+  ar: بيت لحم الصغيرة
+hook:
+  en: Seven hundred years before Christmas, a prophet names the town where the King will be born. Not the capital. A small village “little among the thousands of Judah”.
+  ar: قبل الميلاد بسبعمئة سنة، يسمّي نبي البلدة التي سيولد فيها الملك. ليست العاصمة، بل قرية صغيرة «صغيرة أن تكوني بين ألوف يهوذا».
+explain:
+  en: Micah says the ruler will come from Bethlehem, “whose goings forth have been from of old, from everlasting”. Born in time in a small town, yet without beginning. When Herod asked where the Christ would be born, the scribes quoted this verse.
+  ar: يقول ميخا إن المتسلط يخرج من بيت لحم، «ومخارجه منذ القديم منذ أيام الأزل». يولد في الزمن في بلدة صغيرة، ومع ذلك بلا بداية. وحين سأل هيرودس أين يولد المسيح، اقتبس الكتبة هذه الآية.
+think:
+  en: God chose the small place. Where do you feel small or overlooked, and could God be there?
+  ar: اختار الله المكان الصغير. أين تشعر أنك صغير أو مُهمَل، وهل يمكن أن يكون الله هناك؟
+check:
+  question:
+    en: Which town did Micah name?
+    ar: أي بلدة سمّاها ميخا؟
+  options:
+    - en: Jerusalem
+      ar: أورشليم
+    - en: Nazareth
+      ar: الناصرة
+    - en: Bethlehem
+      ar: بيت لحم
+  answer: 2
+  why:
+    en: Micah 5:2, quoted to Herod in Matthew 2:5–6.
+    ar: "ميخا ٥: ٢، واقتُبست لهيرودس في متى ٢: ٥–٦."
+deeper:
+  - kind: verse
+    ref: MAT.2.4-6
+  - kind: place
+    id: bethlehem
+  - kind: person
+    key: Micah@Jer.26.18-Mic
+words: []
+sources: []
+review:
+  status: draft
+  origin: ai-generated

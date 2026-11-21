@@ -120,11 +120,6 @@ a.apo-card:hover { border-color: var(--burgundy); }
 .apo-facts dd { margin: 0; }
 
 /* Timeline */
-.apo-timeline { list-style: none; margin: 1.2rem 0 0; padding: 0; border-inline-start: 3px solid var(--line); }
-.apo-timeline li { position: relative; padding: 0 0 1.4rem 1.2rem; padding-inline: 1.2rem 0; }
-.apo-timeline .sym { position: absolute; inset-inline-start: -1.1rem; inset-block-start: 0; inline-size: 1.6rem; block-size: 1.6rem; display: grid; place-items: center; border-radius: 50%; background: var(--surface); border: 2px solid var(--burgundy); font-size: 0.85rem; }
-.apo-timeline h3 { margin: 0; font-size: var(--step-0); font-family: var(--font-ui); }
-.apo-timeline .when { font-weight: 700; color: var(--burgundy); }
 
 /* Journey */
 .apo-steps { list-style: none; counter-reset: step; margin: 1rem 0 0; padding: 0; display: grid; gap: 0.7rem; }

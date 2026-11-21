@@ -7,6 +7,7 @@
  */
 import CopticCross from './CopticCross.astro';
 import { explorerPath, localePath, t, type Locale } from '../i18n/index.ts';
+import { LIVE_PLANS } from '../lib/plans/catalog.ts';
 
 interface Props {
   locale: Locale;
@@ -14,15 +15,17 @@ interface Props {
 
 const { locale } = Astro.props;
 const strings = t(locale);
-/** The reading pages are one group: the Bible, the Agpeya and the cross-references. */
+/** The reading pages are one group: the Bible, the Agpeya, the Holy Mass and the cross-references. */
 const readings = [
   { href: localePath(locale, 'bible'), label: strings.nav.bible },
   { href: localePath(locale, 'agpeya'), label: strings.nav.agpeya },
+  { href: localePath(locale, 'holy-mass'), label: strings.nav.holyMass },
+  { href: localePath(locale, 'calendar'), label: strings.nav.calendar },
+  ...(LIVE_PLANS.length > 0 ? [{ href: localePath(locale, 'plans'), label: strings.nav.plans }] : []),
   { href: explorerPath(locale), label: strings.nav.explore },
   { href: explorerPath(locale, 'threads'), label: strings.home.cards.threads.title },
 ];
 const pages = [
-  { href: localePath(locale, 'holy-mass'), label: strings.nav.holyMass },
   { href: localePath(locale, 'church-history'), label: strings.nav.churchHistory },
   { href: localePath(locale, 'bible-atlas'), label: strings.nav.atlas },
   { href: localePath(locale, 'apologetics'), label: strings.nav.faith },

@@ -1,0 +1,44 @@
+id: mark-03
+passages:
+  short: MRK.3.13-19
+  full: MRK.3.1-19
+  deep: MRK.3
+title:
+  en: Twelve ordinary men
+  ar: اثنا عشر رجلًا عاديًا
+hook:
+  en: "Jesus heals a man on the Sabbath, and his enemies start planning to kill him. His answer is to go up a mountain and choose twelve men: fishermen, a tax collector, a zealot, and the one who would betray him."
+  ar: "شفى يسوع رجلًا في السبت، فبدأ أعداؤه يتشاورون ليقتلوه. وكان رده أن صعد إلى الجبل واختار اثني عشر رجلًا: صيادين وعشارًا وغيورًا، والذي سيسلّمه."
+explain:
+  en: "Israel had twelve tribes. By choosing twelve, Jesus is gathering God’s people anew. They are “to be with him” first, and only then sent out. Mark names Judas from the start: Jesus chose him knowing."
+  ar: "كان لإسرائيل اثنا عشر سبطًا. وباختياره اثني عشر، يجمع يسوع شعب الله من جديد. دعاهم «ليكونوا معه» أولًا، ثم يرسلهم. ويذكر مرقس يهوذا من البداية: اختاره يسوع وهو يعلم."
+think:
+  en: Jesus called them first “to be with him”. What would it look like for you to just be with him today?
+  ar: دعاهم يسوع أولًا «ليكونوا معه». كيف يبدو أن تكون معه اليوم ببساطة؟
+check:
+  question:
+    en: Why did Jesus choose exactly twelve?
+    ar: لماذا اختار يسوع اثني عشر بالتحديد؟
+  options:
+    - en: It was a lucky number
+      ar: لأنه رقم حظ
+    - en: Israel had twelve tribes
+      ar: لأن لإسرائيل اثني عشر سبطًا
+    - en: Only twelve wanted to come
+      ar: لأن اثني عشر فقط أرادوا أن يأتوا
+  answer: 1
+  why:
+    en: The twelve stand for a renewed Israel, God’s people gathered again.
+    ar: يمثل الاثنا عشر إسرائيل الجديد، شعب الله مجتمعًا من جديد.
+deeper:
+  - kind: person
+    key: Andrew@Mat.4.18-Act
+  - kind: place
+    id: galilee
+words:
+  - sabbath
+  - scribes-pharisees
+sources: []
+review:
+  status: draft
+  origin: ai-generated

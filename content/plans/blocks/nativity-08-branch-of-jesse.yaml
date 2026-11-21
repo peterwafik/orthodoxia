@@ -1,0 +1,42 @@
+id: nativity-08-branch-of-jesse
+passages:
+  short: ISA.11.1-5
+  full: ISA.11.1-10
+  deep: ISA.11
+title:
+  en: A shoot from a stump
+  ar: قضيب من جذع
+hook:
+  en: "Picture a tree cut down to a stump: that was David’s royal family after the exile. Isaiah sees a green shoot growing out of the dead wood."
+  ar: "تخيّل شجرة قُطعت حتى صارت جذعًا: هكذا كان بيت داود الملكي بعد السبي. ويرى إشعياء قضيبًا أخضر ينبت من الخشب الميت."
+explain:
+  en: Jesse was David’s father. The shoot is a King on whom “the spirit of the Lord shall rest”. He judges the poor fairly, and in his kingdom the wolf lives with the lamb. When all hope seemed gone, God kept his promise to David.
+  ar: كان يسى أبا داود. والقضيب ملك «يحلّ عليه روح الرب». يقضي للمساكين بالعدل، وفي ملكوته يسكن الذئب مع الخروف. وحين بدا أن كل رجاء قد ضاع، حفظ الله وعده لداود.
+think:
+  en: Is there a “stump” in your life, something that looks finished? What would a new shoot there look like?
+  ar: هل في حياتك «جذع»، شيء يبدو أنه انتهى؟ كيف يبدو قضيب جديد ينبت منه؟
+check:
+  question:
+    en: Who was Jesse?
+    ar: من هو يسى؟
+  options:
+    - en: David’s father
+      ar: أبو داود
+    - en: A prophet
+      ar: نبي
+    - en: A king of Egypt
+      ar: ملك مصر
+  answer: 0
+  why:
+    en: Jesse of Bethlehem was the father of King David (1 Samuel 16).
+    ar: يسى البيتلحمي أبو الملك داود (صموئيل الأول ١٦).
+deeper:
+  - kind: verse
+    ref: ROM.15.12
+  - kind: person
+    key: Jesse@Rut.4.17-Rom
+words: []
+sources: []
+review:
+  status: draft
+  origin: ai-generated

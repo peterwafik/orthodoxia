@@ -1,0 +1,67 @@
+# Words the plans explain the first time a reader meets them. A block lists the ids it uses in `words`.
+words:
+  - id: gospel
+    term: { en: Gospel, ar: الإنجيل }
+    definition:
+      en: "“Good news”. In Mark’s time the word announced a king’s victory. The Church uses it for the news about Jesus and for the four books that tell it."
+      ar: "«البشارة السارة». كانت الكلمة في زمن مرقس تُعلن انتصار ملك. وتستعملها الكنيسة للبشارة بيسوع وللأسفار الأربعة التي تحكيها."
+  - id: repent
+    term: { en: Repent, ar: التوبة }
+    definition:
+      en: "To turn round. It means changing direction, from your own way back to God, not only feeling sorry."
+      ar: "أن تستدير وترجع. تعني تغيير الاتجاه من طريقك أنت إلى الله، لا مجرد الشعور بالأسف."
+  - id: baptism
+    term: { en: Baptism, ar: المعمودية }
+    definition:
+      en: "Being washed in water as a sign of a new start. John’s baptism was a sign of repentance; Christian baptism joins a person to Christ."
+      ar: "الاغتسال بالماء علامةً لبداية جديدة. كانت معمودية يوحنا علامة توبة، أما المعمودية المسيحية فتوحّد الإنسان بالمسيح."
+  - id: kingdom-of-god
+    term: { en: Kingdom of God, ar: ملكوت الله }
+    definition:
+      en: "God reigning as king. Jesus says it has come near in him: where he is, God is at work, healing and forgiving."
+      ar: "مُلك الله. يقول يسوع إنه اقترب فيه: حيث يكون هو، يعمل الله شافيًا وغافرًا."
+  - id: son-of-man
+    term: { en: Son of Man, ar: ابن الإنسان }
+    definition:
+      en: "The title Jesus uses most for himself. It recalls the heavenly figure in Daniel 7:13–14 who receives a kingdom from God."
+      ar: "اللقب الذي يستعمله يسوع لنفسه أكثر من غيره. يذكّر بالشخص السماوي في دانيال ٧: ١٣–١٤ الذي ينال ملكوتًا من الله."
+  - id: scribes-pharisees
+    term: { en: Scribes and Pharisees, ar: الكتبة والفريسيون }
+    definition:
+      en: "Scribes were experts in the Law of Moses. Pharisees were a movement that kept the Law and its traditions very strictly."
+      ar: "الكتبة خبراء في ناموس موسى. والفريسيون جماعة تحفظ الناموس وتقاليده بتشدد كبير."
+  - id: sabbath
+    term: { en: Sabbath, ar: السبت }
+    definition:
+      en: "The seventh day, Saturday, a day of rest given in the Law of Moses."
+      ar: "اليوم السابع، يوم راحة أعطاه ناموس موسى."
+  - id: parable
+    term: { en: Parable, ar: المَثَل }
+    definition:
+      en: "A short story from everyday life that carries a hidden lesson about God. It makes listeners think rather than handing them the answer."
+      ar: "قصة قصيرة من الحياة اليومية تحمل درسًا خفيًا عن الله. تدفع السامع إلى التفكير بدل أن تعطيه الجواب جاهزًا."
+  - id: christ
+    term: { en: Christ, ar: المسيح }
+    definition:
+      en: "“Anointed one” (Messiah in Hebrew). Kings were anointed with oil; Israel waited for the anointed King God had promised."
+      ar: "«الممسوح» (مَسِيّا بالعبرية). كان الملوك يُمسحون بالزيت، وكان إسرائيل ينتظر الملك الممسوح الذي وعد به الله."
+  - id: passover
+    term: { en: Passover, ar: الفصح }
+    definition:
+      en: "The yearly feast remembering how God brought Israel out of Egypt (Exodus 12). Jesus died at Passover, and gave it a new meaning."
+      ar: "العيد السنوي الذي يذكر إخراج الله لإسرائيل من مصر (الخروج ١٢). مات يسوع في الفصح، وأعطاه معنى جديدًا."
+  - id: hosanna
+    term: { en: Hosanna, ar: أوصنا }
+    definition:
+      en: "A Hebrew cry meaning “Save, please!”, taken from Psalm 118:25. By Jesus’ time it was also a shout of praise."
+      ar: "هتاف عبري معناه «خلّص الآن!»، مأخوذ من المزمور ١١٨: ٢٥. وصار في زمن يسوع هتاف تسبيح أيضًا."
+  - id: straightway
+    term: { en: Straightway, ar: للوقت }
+    definition:
+      en: "Old English for “immediately”. Mark uses it again and again, which is why his Gospel feels so fast."
+      ar: "أي «في الحال». يكررها مرقس كثيرًا، ولهذا يبدو إنجيله سريعًا جدًا."
+  - id: prophet
+    term: { en: Prophet, ar: النبي }
+    definition:
+      en: "Someone who speaks God’s message to the people, often calling them back to God and pointing to what he will do."
+      ar: "من يحمل رسالة الله إلى الشعب، وكثيرًا ما يدعوهم إلى الرجوع إلى الله ويشير إلى ما سيصنعه."

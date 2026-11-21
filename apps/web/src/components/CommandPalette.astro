@@ -1,5 +1,6 @@
 ---
 import { apoPath } from '../lib/apologetics/index.ts';
+import { LIVE_PLANS } from '../lib/plans/catalog.ts';
 import { explorerPath, localePath, t, type Locale } from '../i18n/index.ts';
 
 interface Props {
@@ -13,13 +14,15 @@ const pages = [
   { label: strings.nav.bible, href: localePath(locale, 'bible'), kind: ar ? 'صفحة' : 'Page' },
   { label: strings.nav.agpeya, href: localePath(locale, 'agpeya'), kind: ar ? 'صفحة' : 'Page' },
   { label: strings.nav.holyMass, href: localePath(locale, 'holy-mass'), kind: ar ? 'صفحة' : 'Page' },
+  { label: strings.nav.calendar, href: localePath(locale, 'calendar'), kind: ar ? 'صفحة' : 'Page' },
+  ...(LIVE_PLANS.length > 0 ? [{ label: strings.nav.plans, href: localePath(locale, 'plans'), kind: ar ? 'صفحة' : 'Page' }] : []),
   { label: strings.nav.churchHistory, href: localePath(locale, 'church-history'), kind: ar ? 'صفحة' : 'Page' },
+  { label: strings.nav.bibleHistory, href: localePath(locale, 'bible-history'), kind: ar ? 'صفحة' : 'Page' },
   { label: strings.nav.atlas, href: localePath(locale, 'bible-atlas'), kind: ar ? 'صفحة' : 'Page' },
   { label: strings.nav.explore, href: explorerPath(locale), kind: ar ? 'صفحة' : 'Page' },
   { label: strings.nav.faith, href: apoPath(locale), kind: ar ? 'صفحة' : 'Page' },
   { label: ar ? 'مسارات الإيمان والأدلة' : 'Faith & Evidence journeys', href: apoPath(locale, 'journeys'), kind: ar ? 'صفحة' : 'Page' },
   { label: ar ? 'مصادر الإيمان والأدلة' : 'Faith & Evidence sources', href: apoPath(locale, 'sources'), kind: ar ? 'صفحة' : 'Page' },
-  { label: ar ? 'الخط الزمني' : 'Timeline', href: apoPath(locale, 'timeline'), kind: ar ? 'صفحة' : 'Page' },
   { label: ar ? 'المصطلحات' : 'Glossary', href: apoPath(locale, 'glossary'), kind: ar ? 'صفحة' : 'Page' },
   { label: ar ? 'المنهج' : 'Methodology', href: apoPath(locale, 'methodology'), kind: ar ? 'صفحة' : 'Page' },
   { label: ar ? 'المحفوظات' : 'Saved questions', href: apoPath(locale, 'saved'), kind: ar ? 'صفحة' : 'Page' },

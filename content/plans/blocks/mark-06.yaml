@@ -1,0 +1,42 @@
+id: mark-06
+passages:
+  short: MRK.6.30-44
+  full: MRK.6.30-56
+  deep: MRK.6
+title:
+  en: Five loaves for five thousand
+  ar: خمس خبزات لخمسة آلاف
+hook:
+  en: The disciples are exhausted and want a break. A crowd of thousands follows them anyway. Jesus says, “Give ye them to eat.” They have five loaves and two fish.
+  ar: "التلاميذ متعبون ويريدون أن يستريحوا. لكن جمعًا من الآلاف يتبعهم. يقول يسوع: «أعطوهم أنتم ليأكلوا». وليس معهم إلا خمس خبزات وسمكتان."
+explain:
+  en: "Jesus sees the crowd as “sheep not having a shepherd” and becomes their shepherd: he teaches them, sits them on green grass, and feeds them, as in Psalm 23. He takes, blesses, breaks and gives the bread, the same words used later at the Last Supper."
+  ar: "رأى يسوع الجمع «كخراف لا راعي لها»، فصار راعيهم: علّمهم وأجلسهم على العشب الأخضر وأطعمهم، كما في المزمور ٢٣. أخذ الخبز وبارك وكسر وأعطى، وهي الكلمات نفسها التي تتكرر في العشاء الأخير."
+think:
+  en: The disciples felt they had almost nothing to give. What small thing could you offer God today?
+  ar: شعر التلاميذ أنهم لا يملكون شيئًا تقريبًا ليعطوه. ما الشيء الصغير الذي تستطيع أن تقدمه لله اليوم؟
+check:
+  question:
+    en: How many loaves did they have?
+    ar: كم خبزة كانت معهم؟
+  options:
+    - en: Two
+      ar: اثنتان
+    - en: Five
+      ar: خمس
+    - en: Twelve
+      ar: اثنتا عشرة
+  answer: 1
+  why:
+    en: Five loaves and two fish; twelve baskets were left over (Mark 6:38, 43).
+    ar: "خمس خبزات وسمكتان، وفضل اثنتا عشرة قفة (مرقس ٦: ٣٨، ٤٣)."
+deeper:
+  - kind: verse
+    ref: PSA.23.1-3
+  - kind: place
+    id: bethsaida
+words: []
+sources: []
+review:
+  status: draft
+  origin: ai-generated

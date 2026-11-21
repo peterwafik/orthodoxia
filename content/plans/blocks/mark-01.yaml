@@ -1,0 +1,52 @@
+id: mark-01
+passages:
+  short: MRK.1.14-20
+  full: MRK.1.1-20
+  deep: MRK.1
+title:
+  en: Four fishermen drop their nets
+  ar: أربعة صيادين يتركون شباكهم
+hook:
+  en: "Mark writes fast. In twenty verses: a wild prophet in the desert, a voice from heaven, forty days of testing, and four fishermen who drop everything. And Mark himself is the one who brought the faith to Egypt."
+  ar: "يكتب مرقس بسرعة. في عشرين آية: نبي غريب في البرية، وصوت من السماء، وأربعون يومًا من التجربة، وأربعة صيادين يتركون كل شيء. ومرقس نفسه هو الذي حمل الإيمان إلى مصر."
+explain:
+  en: “Gospel” means good news. In Mark’s day the word announced a king’s victory. John the Baptist goes ahead like a herald, getting the road ready for the King. Then Jesus calls ordinary working men, and they follow at once.
+  ar: «الإنجيل» يعني البشارة السارة. كانت الكلمة في زمن مرقس تُعلن انتصار ملك. ويسبق يوحنا المعمدان كمنادٍ يُعدّ الطريق للملك. ثم يدعو يسوع رجالًا عاديين من أهل العمل، فيتبعونه للوقت.
+explainNew:
+  en: "The old English of this translation says “straightway”: it means “immediately”. Watch how often Mark uses it."
+  ar: كلمة «للوقت» تعني «في الحال». لاحظ كم مرة يستعملها مرقس.
+think:
+  en: Simon and Andrew left their nets “straightway”. What would be hardest for you to leave?
+  ar: ترك سمعان وأندراوس شباكهما «للوقت». ما أصعب شيء عليك أن تتركه؟
+check:
+  question:
+    en: Who baptised Jesus in the Jordan?
+    ar: من عمّد يسوع في الأردن؟
+  options:
+    - en: Peter
+      ar: بطرس
+    - en: John
+      ar: يوحنا
+    - en: Andrew
+      ar: أندراوس
+  answer: 1
+  why:
+    en: John the Baptist, the prophet in the wilderness (Mark 1:9).
+    ar: "يوحنا المعمدان، النبي الذي في البرية (مرقس ١: ٩)."
+deeper:
+  - kind: verse
+    ref: ISA.40.3
+  - kind: place
+    id: jordan
+  - kind: person
+    key: Peter@Mat.4.18-2Pe
+words:
+  - gospel
+  - repent
+  - baptism
+  - kingdom-of-god
+  - straightway
+sources: []
+review:
+  status: draft
+  origin: ai-generated

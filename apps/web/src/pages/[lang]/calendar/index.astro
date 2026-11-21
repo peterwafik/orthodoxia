@@ -1,0 +1,416 @@
+---
+/**
+ * The Coptic year at a glance: thirteen month grids, each day linked to its Synaxarium page. The reader's device
+ * places the days on their weekdays for the chosen Coptic year, adds the Gregorian dates, shades the fast days, marks
+ * the feasts and outlines today (lib/calendar/coptic.ts, lib/calendar/feasts.ts).
+ */
+import Base from '../../../layouts/Base.astro';
+import IconArt from '../../../components/calendar/IconArt.astro';
+import { LOCALES, type Locale } from '../../../i18n/index.ts';
+import { MONTHS } from '../../../lib/calendar/coptic.ts';
+import { CAL_UI, calendarPath, dayPath } from '../../../lib/calendar/ui.ts';
+
+export function getStaticPaths() {
+  return LOCALES.map((lang) => ({ params: { lang } }));
+}
+
+const locale = Astro.params.lang as Locale;
+const ui = CAL_UI[locale];
+const num = new Intl.NumberFormat(locale === 'ar' ? 'ar-EG' : 'en-US');
+const base = calendarPath(locale);
+---
+
+<Base locale={locale} title={ui.title} description={ui.description}>
+  <section class="cal wrap" data-calendar data-base={base}>
+    <header class="cal-head">
+      <IconArt size={96} />
+      <div>
+        <h1>{ui.title}</h1>
+        <p class="lede">{ui.lede}</p>
+      </div>
+    </header>
+
+    <a class="today" data-today href={base} hidden>
+      <span class="today-label">{ui.today}</span>
+      <b data-today-date></b>
+      <span data-today-marks class="today-marks"></span>
+      <span class="today-cta">{ui.openToday} →</span>
+    </a>
+
+    <div class="bar">
+      <div class="years">
+        <button type="button" class="step" data-year-step="-1" aria-label={ui.prevYear} title={ui.prevYear}>‹</button>
+        <b data-year-label aria-live="polite"></b>
+        <button type="button" class="step" data-year-step="1" aria-label={ui.nextYear} title={ui.nextYear}>›</button>
+      </div>
+      <ul class="legend" aria-label={ui.legend}>
+        <li><i class="dot major"></i>{ui.major}</li>
+        <li><i class="dot minor"></i>{ui.minor}</li>
+        <li><i class="dot feast"></i>{ui.feast}</li>
+        <li><i class="swatch fast"></i>{ui.fast}</li>
+        <li><i class="swatch now"></i>{ui.todayMark}</li>
+      </ul>
+    </div>
+
+    <div class="months">
+      {MONTHS.map((month) => (
+        <section class="month" data-month={month.n} aria-labelledby={`m-${month.n}`}>
+          <h2 id={`m-${month.n}`}>{month[locale]} <small data-range></small></h2>
+          <div class="week" aria-hidden="true">{ui.weekdays.map((name) => <span>{name.slice(0, locale === 'ar' ? 3 : 2)}</span>)}</div>
+          <ol class="days">
+            {Array.from({ length: month.n === 13 ? 6 : 30 }, (_, i) => (
+              <li data-day={i + 1}>
+                <a href={dayPath(locale, month.n, i + 1)}>
+                  <span class="cd">{num.format(i + 1)}</span>
+                  <small class="gd"></small>
+                </a>
+              </li>
+            ))}
+          </ol>
+        </section>
+      ))}
+    </div>
+  </section>
+</Base>
+
+<script>
+  import { MONTHS, fromCoptic, nasieDays, toCoptic } from '../../../lib/calendar/coptic.ts';
+  import { dayInfo } from '../../../lib/calendar/feasts.ts';
+
+  const root = document.querySelector<HTMLElement>('[data-calendar]');
+  if (root !== null) {
+    const ar = document.documentElement.lang === 'ar';
+    const locale = ar ? 'ar' : 'en';
+    const base = root.dataset['base']!;
+    const numbers = new Intl.NumberFormat(ar ? 'ar-EG' : 'en-US');
+    const plain = new Intl.NumberFormat(ar ? 'ar-EG' : 'en-US', { useGrouping: false });
+    const short = new Intl.DateTimeFormat(ar ? 'ar-EG' : 'en-GB', { day: 'numeric', month: 'short' });
+    const long = new Intl.DateTimeFormat(ar ? 'ar-EG' : 'en-GB', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' });
+    const now = new Date();
+    const todayCoptic = toCoptic(now);
+    const sameDay = (a: Date, b: Date) => a.getFullYear() === b.getFullYear() && a.getMonth() === b.getMonth() && a.getDate() === b.getDate();
+    let year = todayCoptic.year;
+
+    // Today, at the top.
+    const today = root.querySelector<HTMLAnchorElement>('[data-today]')!;
+    const slug = MONTHS[todayCoptic.month - 1]!.slug;
+    today.href = `${base}${slug}/${todayCoptic.day}/`;
+    root.querySelector<HTMLElement>('[data-today-date]')!.textContent =
+      `${numbers.format(todayCoptic.day)} ${MONTHS[todayCoptic.month - 1]![locale]}${ar ? "، " : " · "}${long.format(now)}`;
+    const info = dayInfo(now);
+    root.querySelector<HTMLElement>('[data-today-marks]')!.textContent = [...info.feasts.map((feast) => feast.name[locale]), ...(info.fast ? [info.fast.name[locale]] : [])].join(ar ? '، ' : ' · ');
+    today.hidden = false;
+
+    const render = (): void => {
+      root.querySelector<HTMLElement>('[data-year-label]')!.textContent = ar ? `السنة القبطية ${plain.format(year)}` : `Coptic year ${plain.format(year)}`;
+      for (const section of root.querySelectorAll<HTMLElement>('[data-month]')) {
+        const month = Number(section.dataset['month']);
+        const days = [...section.querySelectorAll<HTMLElement>('[data-day]')];
+        const length = month === 13 ? nasieDays(year) : 30;
+        const first = fromCoptic({ year, month, day: 1 });
+        const last = fromCoptic({ year, month, day: length });
+        section.querySelector<HTMLElement>('[data-range]')!.textContent = `${short.format(first)} – ${short.format(last)}`;
+        for (const cell of days) {
+          const day = Number(cell.dataset['day']);
+          cell.hidden = day > length;
+          const date = fromCoptic({ year, month, day });
+          if (day === 1) cell.style.gridColumnStart = String(date.getDay() + 1);
+          const dayInfoNow = dayInfo(date);
+          const major = dayInfoNow.feasts.find((feast) => feast.level === 'major');
+          const minor = dayInfoNow.feasts.find((feast) => feast.level === 'minor');
+          const other = dayInfoNow.feasts.find((feast) => feast.level === 'feast');
+          cell.className = [
+            major ? 'major' : minor ? 'minor' : other ? 'feast' : '',
+            dayInfoNow.fast ? 'fast' : '',
+            sameDay(date, now) ? 'is-today' : '',
+          ].join(' ').trim();
+          const g = cell.querySelector<HTMLElement>('.gd')!;
+          g.textContent = date.getDate() === 1 || day === 1 ? short.format(date) : numbers.format(date.getDate());
+          const names = [...dayInfoNow.feasts.map((feast) => feast.name[locale]), ...(dayInfoNow.fast ? [dayInfoNow.fast.name[locale]] : [])];
+          const link = cell.querySelector<HTMLAnchorElement>('a')!;
+          link.title = [long.format(date), ...names].join(ar ? '، ' : ' · ');
+          if (sameDay(date, now)) link.setAttribute('aria-current', 'date');
+          else link.removeAttribute('aria-current');
+        }
+      }
+    };
+    root.querySelectorAll<HTMLButtonElement>('[data-year-step]').forEach((button) =>
+      button.addEventListener('click', () => {
+        year += Number(button.dataset['yearStep']);
+        render();
+      }),
+    );
+    render();
+    root.querySelector<HTMLElement>(`[data-month="${todayCoptic.month}"]`)?.scrollIntoView({ block: 'nearest' });
+  }
+</script>
+
+<style>
+  .cal {
+    display: grid;
+    gap: 1.2rem;
+    padding-block: 1.5rem 3rem;
+  }
+
+  .cal-head {
+    display: flex;
+    align-items: center;
+    gap: 1.1rem;
+  }
+
+  h1 {
+    font-size: var(--step-hero);
+    margin: 0;
+  }
+
+  .lede {
+    font-family: var(--font-reading);
+    font-size: var(--step-1);
+    color: var(--ink-muted);
+    margin: 0.3rem 0 0;
+    max-inline-size: 44rem;
+  }
+
+  .today {
+    display: grid;
+    gap: 0.25rem;
+    justify-self: start;
+    padding: 1rem 1.25rem;
+    border-radius: 1rem;
+    background: var(--navy);
+    color: #f5f1e6;
+    text-decoration: none;
+    max-inline-size: 40rem;
+  }
+
+  .today[hidden] {
+    display: none;
+  }
+
+  .today-label {
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--gold);
+  }
+
+  .today b {
+    font-family: var(--font-reading);
+    font-size: var(--step-1);
+  }
+
+  .today-marks {
+    font-size: var(--step--1);
+    opacity: 0.85;
+  }
+
+  .today-marks:empty {
+    display: none;
+  }
+
+  .today-cta {
+    font-weight: 600;
+    color: var(--gold);
+  }
+
+  .bar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.8rem 1.5rem;
+  }
+
+  .years {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+  }
+
+  .step {
+    inline-size: 2.4rem;
+    block-size: 2.4rem;
+    font: inherit;
+    font-size: 1.3rem;
+    border-radius: 50%;
+    border: 1px solid var(--line);
+    background: var(--surface-raised);
+    color: var(--ink);
+    cursor: pointer;
+  }
+
+  :global([dir='rtl']) .step {
+    transform: scaleX(-1);
+  }
+
+  .legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem 1rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: var(--step--1);
+    color: var(--ink-muted);
+  }
+
+  .legend li {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+  }
+
+  .dot,
+  .swatch {
+    display: inline-block;
+    inline-size: 0.75rem;
+    block-size: 0.75rem;
+  }
+
+  .dot {
+    border-radius: 50%;
+  }
+
+  .dot.major {
+    background: var(--gold);
+  }
+
+  .dot.minor {
+    border: 2px solid var(--gold);
+  }
+
+  .dot.feast {
+    background: var(--accent);
+    inline-size: 0.45rem;
+    block-size: 0.45rem;
+  }
+
+  .swatch {
+    border-radius: 3px;
+  }
+
+  .swatch.fast {
+    background: repeating-linear-gradient(45deg, var(--line) 0 2px, transparent 2px 5px);
+    border: 1px solid var(--line);
+  }
+
+  .swatch.now {
+    border: 2px solid var(--accent);
+  }
+
+  .months {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 19rem), 1fr));
+  }
+
+  .month {
+    padding: 1rem;
+    border: 1px solid var(--line);
+    border-radius: 1rem;
+    background: var(--surface-raised);
+  }
+
+  .month h2 {
+    margin: 0 0 0.6rem;
+    font-size: var(--step-1);
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 0.5rem;
+  }
+
+  .month h2 small {
+    font-family: var(--font-ui);
+    font-size: var(--step--1);
+    font-weight: 400;
+    color: var(--ink-muted);
+  }
+
+  .week,
+  .days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 3px;
+  }
+
+  .week {
+    margin-block-end: 3px;
+    font-size: 0.7rem;
+    color: var(--ink-muted);
+    text-align: center;
+  }
+
+  .days {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .days li[hidden] {
+    display: none;
+  }
+
+  .days a {
+    position: relative;
+    display: grid;
+    justify-items: center;
+    padding: 0.3rem 0.1rem;
+    border-radius: 0.5rem;
+    border: 1px solid transparent;
+    color: var(--ink);
+    text-decoration: none;
+    line-height: 1.15;
+  }
+
+  .days a:hover {
+    border-color: var(--line);
+  }
+
+  .cd {
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .gd {
+    font-size: 0.62rem;
+    color: var(--ink-muted);
+    white-space: nowrap;
+  }
+
+  .days li.fast a {
+    background: repeating-linear-gradient(45deg, color-mix(in srgb, var(--line) 70%, transparent) 0 2px, transparent 2px 6px);
+  }
+
+  .days li.major a::after,
+  .days li.minor a::after,
+  .days li.feast a::after {
+    content: '';
+    position: absolute;
+    inset-block-start: 3px;
+    inset-inline-end: 3px;
+    inline-size: 0.45rem;
+    block-size: 0.45rem;
+    border-radius: 50%;
+  }
+
+  .days li.major a::after {
+    background: var(--gold);
+  }
+
+  .days li.minor a::after {
+    border: 1.5px solid var(--gold);
+  }
+
+  .days li.feast a::after {
+    background: var(--accent);
+    inline-size: 0.3rem;
+    block-size: 0.3rem;
+  }
+
+  .days li.is-today a {
+    border: 2px solid var(--accent);
+    background: var(--surface);
+  }
+</style>

@@ -1,0 +1,43 @@
+id: mark-12
+passages:
+  short: MRK.12.28-34
+  full: MRK.12.28-44
+  deep: MRK.12
+title:
+  en: The greatest commandment, and two small coins
+  ar: الوصية العظمى، وفلسان صغيران
+hook:
+  en: "Experts line up to trap Jesus with trick questions. One honest scribe asks a real one: which commandment matters most? Then Jesus points at a poor widow putting two tiny coins in the box."
+  ar: "يصطف الخبراء ليوقعوا يسوع بأسئلة ماكرة. ويسأل كاتب صادق سؤالًا حقيقيًا: أي وصية هي الأهم؟ ثم يشير يسوع إلى أرملة فقيرة تلقي فلسين صغيرين في الخزانة."
+explain:
+  en: "Jesus joins two verses from the Law: love God with all your heart, soul, mind and strength (Deuteronomy 6:5), and love your neighbour as yourself (Leviticus 19:18). The widow shows what “all” means: she gave everything she had."
+  ar: "يجمع يسوع بين آيتين من الناموس: تحب الرب إلهك من كل قلبك ونفسك وفكرك وقدرتك (التثنية ٦: ٥)، وتحب قريبك كنفسك (اللاويين ١٩: ١٨). وتُظهر الأرملة معنى «كل»: أعطت كل ما عندها."
+think:
+  en: "Which is harder for you this week: loving God with all, or loving the person next to you?"
+  ar: "أيهما أصعب عليك هذا الأسبوع: أن تحب الله بكل شيء، أم أن تحب من بجانبك؟"
+check:
+  question:
+    en: How much did the widow give?
+    ar: كم أعطت الأرملة؟
+  options:
+    - en: A tenth of her money
+      ar: عُشر مالها
+    - en: Two small coins, all she had
+      ar: فلسين، كل ما عندها
+    - en: Nothing
+      ar: لا شيء
+  answer: 1
+  why:
+    en: Two mites, “even all her living” (Mark 12:42–44).
+    ar: "فلسين، «كل معيشتها» (مرقس ١٢: ٤٢–٤٤)."
+deeper:
+  - kind: verse
+    ref: DEU.6.4-5
+  - kind: verse
+    ref: LEV.19.18
+words:
+  - scribes-pharisees
+sources: []
+review:
+  status: draft
+  origin: ai-generated

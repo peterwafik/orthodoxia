@@ -1,7 +1,9 @@
 ---
 import type { Section } from '@orthodoxia/bible';
 import { biblePath, bookName, editionBooks } from '../../lib/bible.ts';
-import { t, type Locale } from '../../i18n/index.ts';
+import { localePath, t, type Locale } from '../../i18n/index.ts';
+import LineIcon from '../LineIcon.astro';
+import { LIVE_PLANS } from '../../lib/plans/catalog.ts';
 
 interface Props {
   locale: Locale;
@@ -14,11 +16,25 @@ const books = editionBooks(editionId);
 const sections = (['ot', 'deuterocanon', 'nt'] as const satisfies readonly Section[])
   .map((section) => ({ section, books: books.filter(({ info }) => info.section === section) }))
   .filter(({ books: list }) => list.length > 0);
+/** A pointer to the reading plans, for readers who do not know where to start (shown once a plan is live). */
+const plans = LIVE_PLANS.length === 0
+  ? null
+  : locale === 'ar'
+    ? { title: 'لا تعرف من أين تبدأ؟ جرّب خطط القراءة', note: 'أجب عن أربعة أسئلة سريعة، ثم اقرأ قليلًا كل يوم، فكرة واحدة في كل مرة.', cta: 'اعثر على خطتك' }
+    : { title: 'Not sure where to start? Try a reading plan', note: 'Answer four quick questions, then read a little each day, one idea at a time.', cta: 'Find your plan' };
 ---
 
 <div class="wrap section">
   <h1>{strings.title}</h1>
   <p class="prose">{strings.intro}</p>
+
+  {plans !== null && (
+    <a class="plans" href={localePath(locale, 'plans')}>
+      <span class="plans-icon"><LineIcon name="compass" /></span>
+      <span class="plans-text"><b>{plans.title}</b><small>{plans.note}</small></span>
+      <span class="plans-cta">{plans.cta}</span>
+    </a>
+  )}
 
   {
     sections.map(({ section, books: list }) => (
@@ -40,6 +56,44 @@ const sections = (['ot', 'deuterocanon', 'nt'] as const satisfies readonly Secti
 </div>
 
 <style>
+  .plans {
+    display: flex;
+    align-items: center;
+    gap: 0.9rem;
+    flex-wrap: wrap;
+    margin-block-start: 1.25rem;
+    padding: 0.9rem 1.1rem;
+    border: 1px solid var(--line);
+    border-inline-start: 5px solid var(--accent);
+    border-radius: 0.9rem;
+    background: var(--surface-raised);
+    color: var(--ink);
+    text-decoration: none;
+  }
+
+  .plans-icon {
+    display: inline-grid;
+    inline-size: 2rem;
+    block-size: 2rem;
+    color: var(--accent);
+    flex: none;
+  }
+
+  .plans-text {
+    display: grid;
+    gap: 0.15rem;
+    flex: 1 1 16rem;
+  }
+
+  .plans-text small {
+    color: var(--ink-muted);
+  }
+
+  .plans-cta {
+    font-weight: 600;
+    color: var(--accent);
+  }
+
   h1 {
     font-size: var(--step-3);
   }

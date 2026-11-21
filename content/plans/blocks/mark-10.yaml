@@ -1,0 +1,43 @@
+id: mark-10
+passages:
+  short: MRK.10.46-52
+  full: MRK.10.35-52
+  deep: MRK.10
+title:
+  en: The blind man who would not be quiet
+  ar: الأعمى الذي لم يسكت
+hook:
+  en: Two disciples ask Jesus for the best seats in his kingdom. Then, at Jericho, a blind beggar shouts at Jesus, and when the crowd tells him to shut up, he shouts louder.
+  ar: يطلب تلميذان من يسوع أفضل المقاعد في ملكوته. ثم في أريحا، يصرخ شحاذ أعمى إلى يسوع، وحين ينتهره الجمع ليسكت، يصرخ أكثر.
+explain:
+  en: "Jesus turns greatness upside down: “The Son of man came not to be ministered unto, but to minister, and to give his life a ransom for many.” Bartimaeus calls him “Son of David”, a title for the promised King, and sees more clearly than the disciples."
+  ar: "يقلب يسوع مفهوم العظمة: «ابن الإنسان لم يأتِ ليُخدَم بل ليَخدِم وليبذل نفسه فدية عن كثيرين». ويدعوه برتيماوس «ابن داود»، وهو لقب الملك الموعود، فيرى بوضوح أكثر من التلاميذ."
+think:
+  en: Jesus asks, “What wilt thou that I should do unto thee?” What would you answer?
+  ar: "يسأل يسوع: «ماذا تريد أن أفعل بك؟» بماذا تجيب أنت؟"
+check:
+  question:
+    en: What did Bartimaeus do when Jesus called him?
+    ar: ماذا فعل برتيماوس حين دعاه يسوع؟
+  options:
+    - en: Threw off his garment and came
+      ar: طرح رداءه وقام وجاء
+    - en: Stayed sitting
+      ar: بقي جالسًا
+    - en: Ran away
+      ar: هرب
+  answer: 0
+  why:
+    en: He threw aside his cloak, perhaps all he owned, and came to Jesus (Mark 10:50).
+    ar: "طرح رداءه، وربما كان كل ما يملك، وجاء إلى يسوع (مرقس ١٠: ٥٠)."
+deeper:
+  - kind: place
+    id: jericho
+  - kind: verse
+    ref: ISA.53.10-12
+words:
+  - son-of-man
+sources: []
+review:
+  status: draft
+  origin: ai-generated

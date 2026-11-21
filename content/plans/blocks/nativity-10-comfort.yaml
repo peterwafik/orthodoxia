@@ -1,0 +1,42 @@
+id: nativity-10-comfort
+passages:
+  short: ISA.40.1-5
+  full: ISA.40.1-11
+  deep: ISA.40
+title:
+  en: “Comfort ye my people”
+  ar: «عزّوا عزّوا شعبي»
+hook:
+  en: "After forty chapters of warnings, Isaiah’s tone changes completely. The first words are tender: “Comfort ye, comfort ye my people.” Someone is coming, and a road must be made ready."
+  ar: "بعد أربعين أصحاحًا من الإنذارات، تتغير نبرة إشعياء تمامًا. والكلمات الأولى رقيقة: «عزّوا عزّوا شعبي». أحد ما آتٍ، ولا بد من إعداد الطريق."
+explain:
+  en: "A voice cries, “Prepare ye the way of the Lord.” The Gospels hear in it John the Baptist, who prepared the way for Christ. Then the picture of God himself: a shepherd who gathers the lambs in his arms. That is who is coming at Christmas."
+  ar: "صوت صارخ: «أعدّوا طريق الرب». وتسمع الأناجيل فيه يوحنا المعمدان الذي أعدّ الطريق للمسيح. ثم صورة الله نفسه: راعٍ يجمع الحملان بذراعه. هذا هو الآتي في الميلاد."
+think:
+  en: The fast is a time to “prepare the way”. What is one thing blocking the road between you and God?
+  ar: الصوم وقت «إعداد الطريق». ما الشيء الواحد الذي يسدّ الطريق بينك وبين الله؟
+check:
+  question:
+    en: What does the voice in the wilderness cry?
+    ar: بماذا يصرخ الصوت في البرية؟
+  options:
+    - en: Prepare the way of the Lord
+      ar: أعدّوا طريق الرب
+    - en: Flee from Babylon
+      ar: اهربوا من بابل
+    - en: Build the temple
+      ar: ابنوا الهيكل
+  answer: 0
+  why:
+    en: Isaiah 40:3, which all four Gospels apply to John the Baptist.
+    ar: "إشعياء ٤٠: ٣، وتطبقها الأناجيل الأربعة على يوحنا المعمدان."
+deeper:
+  - kind: verse
+    ref: MRK.1.2-4
+  - kind: person
+    key: John@Mat.3.1-Act
+words: []
+sources: []
+review:
+  status: draft
+  origin: ai-generated

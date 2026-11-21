@@ -3,7 +3,7 @@
  * The small line drawing at the top of each home-page card: one per card, in the same thin accent-coloured line as
  * the drawing beside the headline. Decorative only (the card's title is its label).
  */
-type Name = 'bible' | 'explore' | 'threads' | 'holyMass' | 'churchHistory' | 'faith' | 'about' | 'atlas';
+type Name = 'bible' | 'explore' | 'threads' | 'holyMass' | 'churchHistory' | 'faith' | 'about' | 'atlas' | 'bibleHistory';
 interface Props {
   name: Name;
 }
@@ -104,6 +104,22 @@ const threadTargets = [20, 34, 24, 52, 44];
         <circle cx="112" cy="36" r="2.8" stroke-width="1.3" />
         <circle cx="134" cy="22" r="3.4" stroke-width="1.6" />
         <path d="M40 70 C56 76 74 76 84 70" stroke-width="0.9" opacity="0.4" />
+      </>
+    )
+  }
+  {
+    name === 'bibleHistory' && (
+      <>
+        {/* Lifespans on a timeline, each hanging from its parent's. */}
+        <path d="M24 70 H176" stroke-width="1.1" opacity="0.5" />
+        {[40, 72, 104, 136, 168].map((x) => <path d={`M${x} 67 V73`} stroke-width="0.9" opacity="0.5" />)}
+        <path d="M30 18 H96" stroke-width="2.2" />
+        <path d="M62 32 H128" stroke-width="2.2" opacity="0.85" />
+        <path d="M84 46 H138" stroke-width="2.2" opacity="0.7" />
+        <path d="M118 58 H170" stroke-width="2.2" opacity="0.55" />
+        <path d="M62 18 V32 M84 32 V46 M118 46 V58" stroke-width="0.9" stroke-dasharray="2 2.5" opacity="0.7" />
+        <circle cx="30" cy="18" r="2.6" stroke-width="1.2" />
+        <circle cx="170" cy="58" r="2.6" stroke-width="1.2" />
       </>
     )
   }

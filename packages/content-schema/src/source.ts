@@ -68,6 +68,11 @@ export const ContentSource = z
     lastVerifiedAt: IsoDate,
     /** Whether deuterocanonical books are covered, for Bible texts and cross-references. */
     coversDeuterocanon: z.boolean().optional(),
+    /**
+     * The owner's own decision to import a source whose licence does not allow it (or is unknown), recorded as such
+     * rather than as a licence. The licence fields keep saying what the source itself says.
+     */
+    ownerDecision: z.object({ date: IsoDate, statement: z.string().min(1) }).optional(),
     notes: z.string().optional(),
     /** The same note in Arabic, for the Arabic Sources page; required wherever `notes` is given. */
     notesAr: z.string().optional(),
@@ -76,7 +81,7 @@ export const ContentSource = z
     if (source.notes !== undefined && source.notesAr === undefined) {
       ctx.addIssue({ code: 'custom', message: 'notes needs its Arabic in notesAr' });
     }
-    if (source.usage === 'import') {
+    if (source.usage === 'import' && source.ownerDecision === undefined) {
       if (!source.redistributionAllowed) {
         ctx.addIssue({ code: 'custom', message: 'usage "import" requires redistributionAllowed: true' });
       }

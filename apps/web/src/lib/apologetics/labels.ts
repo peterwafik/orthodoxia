@@ -11,7 +11,6 @@ import type {
   SourceKind,
   Standpoint,
   StartingPoint,
-  TimelineKind,
 } from '../../data/apologetics/types.ts';
 
 export const ASSESSMENT: Readonly<Record<Assessment, { label: Line; definition: Line }>> = {
@@ -133,13 +132,6 @@ export const STATE: Readonly<Record<PublicationState, Line>> = {
   in_review: { en: 'In review', ar: 'قيد المراجعة' },
   published: { en: 'Reviewed and published', ar: 'روجعت ونُشرت' },
   withdrawn: { en: 'Withdrawn', ar: 'سُحبت' },
-};
-
-/** Timeline kinds carry a symbol as well as a word, so they are not told apart by colour alone. */
-export const TIMELINE_KIND: Readonly<Record<TimelineKind, { label: Line; symbol: string }>> = {
-  event: { label: { en: 'Event', ar: 'حدث' }, symbol: '◆' },
-  composition: { label: { en: 'Composition of a text', ar: 'تأليف نص' }, symbol: '✎' },
-  witness: { label: { en: 'Surviving manuscript or object', ar: 'مخطوط أو قطعة باقية' }, symbol: '▤' },
 };
 
 export const START_NOTE: Readonly<Record<StartingPoint, Line>> = {

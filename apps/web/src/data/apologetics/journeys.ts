@@ -80,7 +80,6 @@ export const JOURNEYS: readonly Journey[] = [
     steps: [
       { title: { en: 'Methodology and the assessment labels', ar: 'المنهج وتصنيفات التقييم' }, target: 'methodology', note: { en: 'Definitions used on every page.', ar: 'التعريفات المستخدمة في كل صفحة.' } },
       { title: { en: 'The source catalogue', ar: 'فهرس المصادر' }, target: 'sources', note: { en: 'Every lead with its access state, review state and link check.', ar: 'كل مصدر مع حالة الوصول وحالة المراجعة وفحص الرابط.' } },
-      { title: { en: 'The timeline', ar: 'الخط الزمني' }, target: 'timeline', note: { en: 'Events, compositions and manuscript witnesses kept apart.', ar: 'الأحداث والتآليف والشواهد المخطوطة منفصلة.' } },
       { title: { en: 'What non-Christian sources establish', ar: 'ماذا تثبت المصادر غير المسيحية' }, target: 'non-christian-sources-establish', note: { en: 'A model for how an article uses sources.', ar: 'نموذج لكيفية استخدام المقالة للمصادر.' } },
       { title: { en: 'What the Dead Sea Scrolls show', ar: 'ماذا تُظهر مخطوطات البحر الميت' }, target: 'dead-sea-scrolls', note: { en: 'Manuscript witnesses and dating.', ar: 'الشواهد المخطوطة وتأريخها.' } },
     ],

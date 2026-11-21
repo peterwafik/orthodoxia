@@ -1,0 +1,25 @@
+id: coptic-io-katameros
+title: coptic.io — the Coptic calendar and Katameros readings
+author: Abanob Mikaeel
+url: https://github.com/abanobmikaeel/coptic.io
+languages: [en]
+contentType: liturgical-text
+license:
+  id: MIT
+  statement: "Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction"
+  verifiedUrl: https://github.com/abanobmikaeel/coptic.io/blob/main/LICENSE.md
+inUse: true
+usage: import
+redistributionAllowed: true
+attribution: "Katameros readings from coptic.io by Abanob Mikaeel (MIT licence)."
+commercialUse: allowed
+modification: allowed
+lastVerifiedAt: "2026-11-22"
+notes: >-
+  The references of the daily readings (data/katameros) and the rules for which readings a day takes, used by the Holy
+  Mass page to show each day's Pauline, Catholic Epistle, Acts, Psalm and Gospel in full from the site's own Bible
+  editions. One psalm reference was corrected from the Greek numbering (data/katameros/README.md).
+notesAr: >-
+  مراجع قراءات القطمارس اليومية (data/katameros) وقواعد اختيار قراءات كل يوم، تستخدمها صفحة القداس لعرض البولس
+  والكاثوليكون والإبركسيس والمزمور والإنجيل لكل يوم كاملة من نسخ الكتاب المقدس في الموقع. صُحح مرجع مزمور واحد من
+  الترقيم اليوناني.

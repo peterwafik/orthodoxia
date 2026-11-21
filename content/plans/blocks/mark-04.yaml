@@ -1,0 +1,43 @@
+id: mark-04
+passages:
+  short: MRK.4.1-9
+  full: MRK.4.1-20
+  deep: MRK.4
+title:
+  en: A story about seeds that is about you
+  ar: قصة عن بذار هي عنك أنت
+hook:
+  en: "A farmer throws seed everywhere: on the path, on rock, among thorns, on good soil. Jesus tells the story, then says, “He that hath ears to hear, let him hear.” Then a storm nearly sinks the boat."
+  ar: "زارع يلقي البذار في كل مكان: على الطريق، وعلى المكان المحجر، وبين الشوك، وفي الأرض الجيدة. يحكي يسوع القصة ثم يقول: «من له أذنان للسمع فليسمع». ثم تكاد عاصفة تُغرق السفينة."
+explain:
+  en: The seed is God’s word; the soils are the ways people receive it. Some hear and forget, some start well and give up, some are choked by worries and money. The good soil hears, accepts and bears fruit, at different rates.
+  ar: البذار هو كلمة الله، وأنواع الأرض هي الطرق التي يقبلها بها الناس. بعضهم يسمع وينسى، وبعضهم يبدأ جيدًا ثم يتراجع، وبعضهم تخنقه الهموم والمال. أما الأرض الجيدة فتسمع وتقبل وتثمر، بمقادير مختلفة.
+think:
+  en: Which soil sounds most like you this week, and why?
+  ar: أي أرض تشبهك أكثر هذا الأسبوع، ولماذا؟
+check:
+  question:
+    en: In the story, what is the seed?
+    ar: في المثل، ما هو البذار؟
+  options:
+    - en: Money
+      ar: المال
+    - en: The word
+      ar: الكلمة
+    - en: Good deeds
+      ar: الأعمال الصالحة
+  answer: 1
+  why:
+    en: “The sower soweth the word” (Mark 4:14).
+    ar: "«الزارع يزرع الكلمة» (مرقس ٤: ١٤)."
+deeper:
+  - kind: verse
+    ref: ISA.6.9-10
+  - kind: place
+    id: galilee
+words:
+  - parable
+sources: []
+review:
+  status: draft
+  origin: ai-generated

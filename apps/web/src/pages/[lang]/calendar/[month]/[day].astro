@@ -1,0 +1,403 @@
+---
+/**
+ * One day of the Coptic year: its date this year, its feasts and fasts, and the Synaxarium: the saints the Church
+ * commemorates, each with a short summary (where written) and the full story.
+ * (docs/superpowers/specs/2026-11-21-calendar-synaxarium-design.md)
+ */
+import Base from '../../../../layouts/Base.astro';
+import IconArt from '../../../../components/calendar/IconArt.astro';
+import { LOCALES, type Locale } from '../../../../i18n/index.ts';
+import { MONTHS, YEAR_DAYS, monthBySlug } from '../../../../lib/calendar/coptic.ts';
+import { FIXED_FEASTS } from '../../../../lib/calendar/feasts.ts';
+import { synaxariumDay } from '../../../../lib/calendar/synaxarium.ts';
+import { CAL_UI, calendarPath, dayPath } from '../../../../lib/calendar/ui.ts';
+
+export function getStaticPaths() {
+  return LOCALES.flatMap((lang) => YEAR_DAYS.map(({ month, day }) => ({ params: { lang, month: MONTHS[month - 1]!.slug, day: String(day) } })));
+}
+
+const locale = Astro.params.lang as Locale;
+const ui = CAL_UI[locale];
+const month = monthBySlug(Astro.params.month!)!.n;
+const day = Number(Astro.params.day);
+const num = new Intl.NumberFormat(locale === 'ar' ? 'ar-EG' : 'en-US');
+const label = `${num.format(day)} ${MONTHS[month - 1]![locale]}`;
+const syn = synaxariumDay(month, day, locale);
+const fixed = FIXED_FEASTS.filter((feast) => feast.month === month && feast.day === day);
+const at = YEAR_DAYS.findIndex((entry) => entry.month === month && entry.day === day);
+const prev = YEAR_DAYS[(at - 1 + YEAR_DAYS.length) % YEAR_DAYS.length]!;
+const next = YEAR_DAYS[(at + 1) % YEAR_DAYS.length]!;
+const name = (entry: { month: number; day: number }) => `${num.format(entry.day)} ${MONTHS[entry.month - 1]![locale]}`;
+/** Stories longer than this many paragraphs show their opening, then fold the rest under "Continue reading". */
+const OPENING = 3;
+const description = syn.items.length > 0 ? `${ui.synaxariumOf(label)}: ${syn.items.map((item) => item.title).join(' · ')}` : ui.description;
+---
+
+<Base locale={locale} title={`${ui.synaxariumOf(label)}`} description={description.slice(0, 300)}>
+  <article class="sd wrap" data-syn-day data-month={month} data-day={day}>
+    <p class="crumbs"><a href={calendarPath(locale)}>{ui.title}</a></p>
+
+    <header class="sd-head">
+      <IconArt size={104} />
+      <div>
+        <p class="eyebrow">{ui.synaxarium}</p>
+        <h1>{label}</h1>
+        <p class="civil" data-civil></p>
+      </div>
+    </header>
+
+    <section class="sd-marks" aria-label={ui.feastsFasts}>
+      <ul class="marks" data-marks>
+        {fixed.map((feast) => <li class={`mark ${feast.level}`}>{feast.name[locale]}</li>)}
+      </ul>
+      {month === 13 && day === 6 && <p class="note">{ui.nasieNote}</p>}
+    </section>
+
+    <section class="sd-list" aria-label={ui.synaxarium}>
+      {syn.draft && (
+        <details class="draft"><summary><span class="pill">{ui.draft}</span></summary><p>{ui.draftNote}</p></details>
+      )}
+      {syn.items.length > 1 && (
+        <nav class="contents" aria-label={ui.onThisDay}>
+          <p class="contents-head">{ui.onThisDay}</p>
+          <ol>
+            {syn.items.map((item, i) => (
+              <li><a href={`#s${i + 1}`}>{item.title}</a></li>
+            ))}
+          </ol>
+        </nav>
+      )}
+      {syn.items.length === 0 ? (
+        <p class="note">{ui.noEntries}</p>
+      ) : (
+        <ol class="saints">
+          {syn.items.map((item, i) => (
+            <li class="saint" id={`s${i + 1}`}>
+              <span class="n" aria-hidden="true">{num.format(i + 1)}</span>
+              <div class="saint-body">
+                <h2>{item.title}</h2>
+                {item.summary && (
+                  <p class="summary"><span class="brief">{ui.inBrief}</span> {item.summary}</p>
+                )}
+                {item.paragraphs.length > 0 && (
+                  <div class="story">
+                    {item.paragraphs.slice(0, item.paragraphs.length > OPENING + 1 ? OPENING : undefined).map((text) => <p>{text}</p>)}
+                    {item.paragraphs.length > OPENING + 1 && (
+                      <details class="more">
+                        <summary>{ui.continueReading}</summary>
+                        {item.paragraphs.slice(OPENING).map((text) => <p>{text}</p>)}
+                      </details>
+                    )}
+                  </div>
+                )}
+              </div>
+            </li>
+          ))}
+        </ol>
+      )}
+    </section>
+
+    <nav class="sd-nav" aria-label={ui.title}>
+      <a href={dayPath(locale, prev.month, prev.day)} rel="prev">‹ {name(prev)}</a>
+      <a href={calendarPath(locale)}>{ui.back}</a>
+      <a href={dayPath(locale, next.month, next.day)} rel="next">{name(next)} ›</a>
+    </nav>
+  </article>
+</Base>
+
+<script>
+  import { fromCoptic, toCoptic } from '../../../../lib/calendar/coptic.ts';
+  import { dayInfo } from '../../../../lib/calendar/feasts.ts';
+
+  const root = document.querySelector<HTMLElement>('[data-syn-day]');
+  if (root !== null) {
+    const ar = document.documentElement.lang === 'ar';
+    const locale = ar ? 'ar' : 'en';
+    const month = Number(root.dataset['month']);
+    const day = Number(root.dataset['day']);
+    // This Coptic day in the current Coptic year.
+    const year = toCoptic(new Date()).year;
+    const date = fromCoptic({ year, month, day });
+    const valid = toCoptic(date).month === month;
+    const civil = root.querySelector<HTMLElement>('[data-civil]')!;
+    if (valid) {
+      const format = new Intl.DateTimeFormat(ar ? 'ar-EG' : 'en-GB', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' });
+      const years = new Intl.NumberFormat(ar ? 'ar-EG' : 'en-US', { useGrouping: false }).format(year);
+      civil.textContent = `${format.format(date)}${ar ? "، " : " · "}${ar ? `السنة القبطية ${years}` : `Coptic year ${years}`}`;
+      const info = dayInfo(date);
+      const list = root.querySelector<HTMLElement>('[data-marks]')!;
+      const shown = new Set([...list.querySelectorAll('li')].map((item) => item.textContent));
+      for (const feast of info.feasts) {
+        const text = feast.name[locale];
+        if (shown.has(text)) continue;
+        const item = document.createElement('li');
+        item.className = `mark ${feast.level}`;
+        item.textContent = text;
+        list.append(item);
+      }
+      if (info.fast !== null) {
+        const item = document.createElement('li');
+        item.className = 'mark fast';
+        item.textContent = info.fast.name[locale];
+        list.append(item);
+      }
+    }
+  }
+</script>
+
+<style>
+  .sd {
+    display: grid;
+    gap: 1.1rem;
+    padding-block: 1.5rem 3rem;
+    max-inline-size: 48rem;
+  }
+
+  .crumbs {
+    margin: 0;
+    font-size: var(--step--1);
+  }
+
+  .sd-head {
+    display: flex;
+    align-items: center;
+    gap: 1.1rem;
+  }
+
+  .eyebrow {
+    margin: 0;
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--accent);
+  }
+
+  h1 {
+    font-size: var(--step-hero);
+    margin: 0;
+    line-height: 1.1;
+  }
+
+  .civil {
+    margin: 0.3rem 0 0;
+    color: var(--ink-muted);
+  }
+
+  .marks {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .marks:empty {
+    display: none;
+  }
+
+  .marks :global(.mark) {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    padding: 0.3rem 0.85rem;
+    border-radius: 99px;
+    border: 1px solid var(--line);
+    background: var(--surface-raised);
+    font-size: var(--step--1);
+  }
+
+  .marks :global(.mark)::before {
+    content: '';
+    inline-size: 0.6rem;
+    block-size: 0.6rem;
+    border-radius: 50%;
+    flex: none;
+  }
+
+  .marks :global(.mark.major)::before {
+    background: var(--gold);
+  }
+
+  .marks :global(.mark.minor)::before {
+    border: 2px solid var(--gold);
+  }
+
+  .marks :global(.mark.feast)::before {
+    background: var(--accent);
+    inline-size: 0.4rem;
+    block-size: 0.4rem;
+  }
+
+  .marks :global(.mark.fast)::before {
+    background: repeating-linear-gradient(45deg, var(--ink-muted) 0 2px, transparent 2px 4px);
+    border-radius: 2px;
+  }
+
+  .saints {
+    display: grid;
+    gap: 0.8rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .saint {
+    display: flex;
+    gap: 0.9rem;
+    padding: 1rem 1.1rem;
+    border: 1px solid var(--line);
+    border-radius: 1rem;
+    background: var(--surface-raised);
+  }
+
+  .n {
+    flex: none;
+    display: grid;
+    place-items: center;
+    inline-size: 2rem;
+    block-size: 2rem;
+    border-radius: 50%;
+    border: 1.6px solid var(--accent);
+    color: var(--accent);
+    font-weight: 700;
+    font-size: var(--step--1);
+  }
+
+  .saint-body {
+    display: grid;
+    gap: 0.45rem;
+  }
+
+  .saint h2 {
+    margin: 0;
+    font-size: var(--step-1);
+    line-height: 1.35;
+  }
+
+  .summary {
+    margin: 0;
+    font-family: var(--font-reading);
+    font-size: 1.08rem;
+    line-height: 1.65;
+  }
+
+  .brief {
+    font-family: var(--font-ui, inherit);
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--accent);
+  }
+
+  .summary {
+    padding: 0.6rem 0.8rem;
+    border-inline-start: 3px solid var(--gold);
+    border-radius: 0.4rem;
+    background: color-mix(in srgb, var(--gold) 8%, transparent);
+  }
+
+  .story {
+    display: grid;
+    gap: 0.75rem;
+    font-family: var(--font-reading);
+    font-size: 1.08rem;
+    line-height: 1.75;
+  }
+
+  .story > p {
+    margin: 0;
+  }
+
+  .more > p {
+    margin-block-start: 0.75rem;
+  }
+
+  .more summary {
+    cursor: pointer;
+    inline-size: fit-content;
+    font-family: var(--font-ui, inherit);
+    font-size: var(--step--1);
+    font-weight: 700;
+    color: var(--accent);
+  }
+
+  .more[open] summary {
+    margin-block-end: 0.25rem;
+  }
+
+  .contents {
+    padding: 0.9rem 1.1rem;
+    border: 1px dashed var(--line);
+    border-radius: 1rem;
+  }
+
+  .contents-head {
+    margin: 0 0 0.4rem;
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--accent);
+  }
+
+  :global([lang="ar"]) .contents ol {
+    list-style-type: arabic-indic;
+  }
+
+  .contents ol {
+    margin: 0;
+    padding-inline-start: 1.3rem;
+    display: grid;
+    gap: 0.2rem;
+  }
+
+  .saint {
+    scroll-margin-block-start: 5rem;
+  }
+
+  .note {
+    margin: 0;
+    color: var(--ink-muted);
+    font-size: var(--step--1);
+  }
+
+  .draft summary {
+    cursor: pointer;
+    list-style: none;
+  }
+
+  .draft p {
+    margin: 0.4rem 0 0;
+    color: var(--ink-muted);
+    font-size: var(--step--1);
+  }
+
+  .pill {
+    display: inline-block;
+    padding: 0.05rem 0.55rem;
+    border-radius: 99px;
+    border: 1px solid var(--line);
+    background: var(--surface-raised);
+    color: var(--accent);
+    font-weight: 700;
+    font-size: 0.75rem;
+  }
+
+  .sd-nav {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 0.5rem 1rem;
+    padding-block-start: 0.8rem;
+    border-block-start: 1px solid var(--line);
+    font-weight: 600;
+  }
+
+  .sd-list {
+    display: grid;
+    gap: 0.8rem;
+  }
+</style>

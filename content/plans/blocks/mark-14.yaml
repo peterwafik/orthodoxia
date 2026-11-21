@@ -1,0 +1,43 @@
+id: mark-14
+passages:
+  short: MRK.14.32-42
+  full: MRK.14.12-42
+  deep: MRK.14
+title:
+  en: Supper and the garden
+  ar: العشاء والبستان
+hook:
+  en: At the Passover meal Jesus takes bread and says, “This is my body.” Hours later, in a garden called Gethsemane, he falls to the ground and prays while his friends fall asleep.
+  ar: "في عشاء الفصح يأخذ يسوع خبزًا ويقول: «هذا هو جسدي». وبعد ساعات، في بستان اسمه جثسيماني، يخرّ على الأرض ويصلي بينما ينام أصدقاؤه."
+explain:
+  en: "Passover remembered God freeing Israel from Egypt. Jesus gives it a new centre: his body and his blood of the new covenant. The Church does what he did here at every Holy Mass. In the garden he calls God “Abba”, Father, and chooses the Father’s will."
+  ar: "كان الفصح تذكارًا لتحرير الله لإسرائيل من مصر. ويعطيه يسوع مركزًا جديدًا: جسده ودمه للعهد الجديد. وتصنع الكنيسة ما صنعه هنا في كل قداس. وفي البستان يدعو الله «أبا»، أي الآب، ويختار مشيئة الآب."
+think:
+  en: “Not what I will, but what thou wilt.” Is there something where you need to pray that?
+  ar: «ليكن لا ما أريد أنا بل ما تريد أنت». هل هناك أمر تحتاج أن تصلي فيه هكذا؟
+check:
+  question:
+    en: What did the disciples do while Jesus prayed?
+    ar: ماذا فعل التلاميذ بينما كان يسوع يصلي؟
+  options:
+    - en: They prayed with him
+      ar: صلّوا معه
+    - en: They slept
+      ar: ناموا
+    - en: They went home
+      ar: رجعوا إلى بيوتهم
+  answer: 1
+  why:
+    en: Three times he came back and found them asleep (Mark 14:37–41).
+    ar: "رجع ثلاث مرات فوجدهم نيامًا (مرقس ١٤: ٣٧–٤١)."
+deeper:
+  - kind: place
+    id: gethsemane
+  - kind: question
+    slug: early-baptism-and-eucharist
+words:
+  - passover
+sources: []
+review:
+  status: draft
+  origin: ai-generated

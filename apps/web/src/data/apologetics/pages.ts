@@ -68,10 +68,10 @@ export const METHODOLOGY: readonly Block[] = [
     heading: { en: 'Dates', ar: 'التواريخ' },
     body: {
       en: [
-        'The date a text was composed, the date of the manuscript that survives, and the date an object was found are three different dates, and the timeline keeps them apart. We give ranges with the basis for them, and we do not invent exact years.',
+        'The date a text was composed, the date of the manuscript that survives, and the date an object was found are three different dates, and we keep them apart. We give ranges with the basis for them, and we do not invent exact years.',
       ],
       ar: [
-        'تاريخ تأليف النص وتاريخ المخطوط الباقي وتاريخ العثور على قطعة أثرية ثلاثة تواريخ مختلفة، ويفصل الخط الزمني بينها. نذكر نطاقات مع أساسها، ولا نخترع سنوات دقيقة.',
+        'تاريخ تأليف النص وتاريخ المخطوط الباقي وتاريخ العثور على قطعة أثرية ثلاثة تواريخ مختلفة، ونحن نفصل بينها. نذكر نطاقات مع أساسها، ولا نخترع سنوات دقيقة.',
       ],
     },
   },

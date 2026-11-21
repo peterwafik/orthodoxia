@@ -245,7 +245,7 @@ export type StartingPoint = 'no-god' | 'god-not-religion' | 'other-religion' | '
 
 export interface JourneyStep {
   readonly title: Line;
-  /** A question id, or a page (`methodology`, `timeline`, `sources`). */
+  /** A question id, or a page (`methodology`, `sources`). */
   readonly target: string;
   readonly note: Line;
 }
@@ -259,16 +259,3 @@ export interface Journey {
   readonly steps: readonly JourneyStep[];
 }
 
-export type TimelineKind = 'event' | 'composition' | 'witness';
-
-export interface TimelineEntry {
-  readonly id: string;
-  readonly kind: TimelineKind;
-  /** Sort key: a year, negative for BC. Ranges use their start. */
-  readonly sort: number;
-  readonly when: Line;
-  readonly basis: Line;
-  readonly title: Line;
-  readonly note: Line;
-  readonly sources: readonly string[];
-}

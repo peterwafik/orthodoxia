@@ -1,0 +1,44 @@
+id: mark-15
+passages:
+  short: MRK.15.33-39
+  full: MRK.15.16-39
+  deep: MRK.15
+title:
+  en: The cross
+  ar: الصليب
+hook:
+  en: Through the whole of Mark, people have wondered who Jesus is. At the cross, the one who finally says it out loud is a Roman soldier.
+  ar: طوال إنجيل مرقس كان الناس يتساءلون من هو يسوع. وعند الصليب، الذي قالها أخيرًا بصوت عالٍ هو جندي روماني.
+explain:
+  en: "“Eloi, Eloi, lama sabachthani?” is the first line of Psalm 22, a psalm that begins in abandonment and ends in victory. As Jesus dies, the Temple veil that closed off the holiest place tears from top to bottom: the way to God is open."
+  ar: "«إلوي إلوي، لما شبقتني؟» هي أول آية في المزمور ٢٢، مزمور يبدأ بالترك وينتهي بالنصرة. وحين يموت يسوع ينشق حجاب الهيكل الذي كان يحجب قدس الأقداس من فوق إلى أسفل: صار الطريق إلى الله مفتوحًا."
+think:
+  en: Why do you think Mark wants the first person to call Jesus “the Son of God” at the cross to be a foreigner?
+  ar: لماذا تظن أن مرقس أراد أن يكون أول من يدعو يسوع «ابن الله» عند الصليب رجلًا غريبًا؟
+check:
+  question:
+    en: Who said, “Truly this man was the Son of God”?
+    ar: "من قال: «حقًا كان هذا الإنسان ابن الله»؟"
+  options:
+    - en: Peter
+      ar: بطرس
+    - en: The centurion
+      ar: قائد المئة
+    - en: Pilate
+      ar: بيلاطس
+  answer: 1
+  why:
+    en: The Roman centurion who watched him die (Mark 15:39).
+    ar: "قائد المئة الروماني الذي رآه يموت (مرقس ١٥: ٣٩)."
+deeper:
+  - kind: verse
+    ref: PSA.22.1
+  - kind: place
+    id: golgotha
+  - kind: question
+    slug: jesus-executed-under-pilate
+words: []
+sources: []
+review:
+  status: draft
+  origin: ai-generated

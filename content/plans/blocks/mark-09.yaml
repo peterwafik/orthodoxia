@@ -1,0 +1,43 @@
+id: mark-09
+passages:
+  short: MRK.9.2-8
+  full: MRK.9.2-29
+  deep: MRK.9
+title:
+  en: Light on the mountain, doubt in the valley
+  ar: نور على الجبل، وشك في الوادي
+hook:
+  en: On a mountain, three disciples see Jesus shine with light, with Moses and Elijah beside him. At the bottom, a desperate father says the most honest prayer in the Bible.
+  ar: على جبل، يرى ثلاثة تلاميذ يسوع يلمع بالنور، وموسى وإيليا معه. وفي أسفل الجبل، أب يائس يصلي أصدق صلاة في الكتاب المقدس.
+explain:
+  en: "Moses stands for the Law and Elijah for the Prophets: the whole Old Testament points to Jesus. The voice says, “Hear him.” Below, the father cries, “Lord, I believe; help thou mine unbelief,” and Jesus heals his son."
+  ar: "يمثل موسى الناموس ويمثل إيليا الأنبياء: العهد القديم كله يشير إلى يسوع. ويقول الصوت: «له اسمعوا». وفي الأسفل يصرخ الأب: «أومن يا سيد، فأعن عدم إيماني»، فيشفي يسوع ابنه."
+think:
+  en: “I believe; help my unbelief.” Can you pray that today, with your own doubts?
+  ar: «أومن، فأعن عدم إيماني». هل تستطيع أن تصلي هذه الصلاة اليوم بشكوكك أنت؟
+check:
+  question:
+    en: Who appeared with Jesus on the mountain?
+    ar: من ظهر مع يسوع على الجبل؟
+  options:
+    - en: Abraham and David
+      ar: إبراهيم وداود
+    - en: Moses and Elijah
+      ar: موسى وإيليا
+    - en: Two angels
+      ar: ملاكان
+  answer: 1
+  why:
+    en: Moses and Elijah (Mark 9:4; the old English calls him “Elias”).
+    ar: "موسى وإيليا (مرقس ٩: ٤)."
+deeper:
+  - kind: place
+    id: tabor
+  - kind: question
+    slug: is-doubt-sinful
+words:
+  - prophet
+sources: []
+review:
+  status: draft
+  origin: ai-generated

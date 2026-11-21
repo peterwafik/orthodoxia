@@ -1,0 +1,77 @@
+# The reading plans (docs/superpowers/specs/2026-11-21-reading-plans-design.md). A plan is live only after the owner
+# has read it through: `live: false` plans get no pages, are not on the shelf and are never chosen by the quiz.
+plans:
+  - id: meet-jesus
+    live: false
+    kind: sequence
+    name: { en: Meet Jesus, ar: تعرّف على يسوع }
+    who: { en: For first-timers, ar: لمن يبدأ لأول مرة }
+    description:
+      en: "The Gospel of Mark, a chapter a day. It is the shortest and fastest of the four Gospels, written by St Mark, who brought the faith to Egypt and founded our Church in Alexandria."
+      ar: "إنجيل مرقس، أصحاحًا كل يوم. هو أقصر الأناجيل الأربعة وأسرعها، كتبه القديس مرقس الذي حمل الإيمان إلى مصر وأسس كنيستنا في الإسكندرية."
+    interests: [start, story]
+    sections:
+      - { title: { en: Who is this man?, ar: من هو هذا؟ }, from: 0 }
+      - { title: { en: On the road, ar: في الطريق }, from: 7 }
+      - { title: { en: The last week, ar: الأسبوع الأخير }, from: 10 }
+    days: [mark-01, mark-02, mark-03, mark-04, mark-05, mark-06, mark-07, mark-08, mark-09, mark-10, mark-11, mark-12, mark-13, mark-14, mark-15, mark-16]
+
+  - id: church-year
+    live: false
+    kind: church-year
+    name: { en: With the Church Year, ar: مع السنة الكنسية }
+    who: { en: For readers who want to keep step with church, ar: لمن يريد أن يسير مع الكنيسة }
+    description:
+      en: "Read what fits the season the Church is living. This round covers the Nativity fast, from 25 November to the feast on 7 January."
+      ar: "اقرأ ما يناسب الزمن الذي تعيشه الكنيسة. تشمل هذه المرحلة صوم الميلاد، من ٢٥ نوفمبر حتى العيد في ٧ يناير."
+    interests: [church]
+
+  - id: heroes
+    live: false
+    kind: sequence
+    name: { en: Heroes and Flawed People, ar: أبطال وبشر ضعفاء }
+    who: { en: For people-watchers, ar: لمن يحب قصص الناس }
+    description:
+      en: "One person a day, from Joseph to Paul. Real people with real failures, and what God did with them."
+      ar: "شخص كل يوم، من يوسف إلى بولس. أناس حقيقيون بضعفات حقيقية، وما صنعه الله بهم."
+    interests: [people]
+
+  - id: walk-the-land
+    live: false
+    kind: sequence
+    name: { en: Walk the Land, ar: امشِ في الأرض }
+    who: { en: For visual and curious readers, ar: لمن يحب الخرائط والاستكشاف }
+    description:
+      en: "Follow the story on the map, from Ur to Egypt, Sinai, Jerusalem, Babylon, Galilee and finally Alexandria."
+      ar: "تتبّع القصة على الخريطة، من أور إلى مصر وسيناء وأورشليم وبابل والجليل، وأخيرًا الإسكندرية."
+    interests: [places]
+
+  - id: big-story
+    live: false
+    kind: sequence
+    name: { en: The Big Story, ar: القصة الكبرى }
+    who: { en: For story lovers, ar: لمحبي القصص }
+    description:
+      en: "From the garden to the Church in forty readings. Each day shows where you are in Bible history."
+      ar: "من الجنة إلى الكنيسة في أربعين قراءة. يُريك كل يوم أين أنت في تاريخ الكتاب المقدس."
+    interests: [story]
+
+  - id: big-questions
+    live: false
+    kind: sequence
+    name: { en: Big Questions, ar: أسئلة كبرى }
+    who: { en: For thinkers and doubters, ar: للمفكرين والمتسائلين }
+    description:
+      en: "Can I trust the Gospels? Why does God allow suffering? Who is Jesus? A passage each day, with the Church’s answer beside it."
+      ar: "هل أثق بالأناجيل؟ لماذا يسمح الله بالألم؟ من هو يسوع؟ نص كل يوم، وبجانبه جواب الكنيسة."
+    interests: [questions]
+
+  - id: real-life
+    live: false
+    kind: sequence
+    name: { en: Wisdom for Real Life, ar: حكمة للحياة اليومية }
+    who: { en: For practical readers, ar: لمن يريد كلامًا عمليًا }
+    description:
+      en: "Anxiety, friendship, anger, identity, purity and time. What the Bible actually says, in short readings."
+      ar: "القلق والصداقة والغضب والهوية والطهارة والوقت. ماذا يقول الكتاب المقدس حقًا، في قراءات قصيرة."
+    interests: [life]

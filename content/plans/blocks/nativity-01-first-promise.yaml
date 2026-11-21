@@ -1,0 +1,42 @@
+id: nativity-01-first-promise
+passages:
+  short: GEN.3.8-15
+  full: GEN.3.1-15
+  deep: GEN.3
+title:
+  en: The first promise
+  ar: الوعد الأول
+hook:
+  en: "The Nativity fast starts today: forty-three days of getting ready for Christmas. We begin where the need for Christmas began, in a garden, on the worst day in human history, with a promise hidden inside a curse."
+  ar: "يبدأ صوم الميلاد اليوم: ثلاثة وأربعون يومًا من الاستعداد لعيد الميلاد. ونبدأ من حيث بدأت الحاجة إلى الميلاد، في جنة، في أسوأ يوم في تاريخ البشر، بوعد مخفي داخل لعنة."
+explain:
+  en: "God tells the serpent that a descendant of the woman will crush its head, though he himself will be wounded. The Church Fathers called this verse the “first gospel”: the first announcement that a Saviour would be born of a woman."
+  ar: "يقول الله للحية إن نسل المرأة يسحق رأسها، وإن كان هو نفسه سيُجرح. وقد سمّى آباء الكنيسة هذه الآية «الإنجيل الأول»: أول إعلان أن مخلّصًا سيولد من امرأة."
+think:
+  en: "Adam and Eve hid from God. God came looking for them: “Where art thou?” Where are you hiding right now?"
+  ar: "اختبأ آدم وحواء من الله، فجاء الله يبحث عنهما: «أين أنت؟». أين تختبئ أنت الآن؟"
+check:
+  question:
+    en: Who will crush the serpent’s head?
+    ar: من يسحق رأس الحية؟
+  options:
+    - en: An angel
+      ar: ملاك
+    - en: The seed of the woman
+      ar: نسل المرأة
+    - en: Adam
+      ar: آدم
+  answer: 1
+  why:
+    en: "Genesis 3:15: the woman’s seed. The Church reads it as Christ, born of the Virgin."
+    ar: "التكوين ٣: ١٥: نسل المرأة. وتقرأه الكنيسة عن المسيح المولود من العذراء."
+deeper:
+  - kind: verse
+    ref: GAL.4.4-5
+  - kind: person
+    key: Eve@Gen.3.20-1Ti
+words: []
+sources: []
+review:
+  status: draft
+  origin: ai-generated

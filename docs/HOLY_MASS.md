@@ -132,3 +132,12 @@ These are in the master prompt and are the natural next steps:
 - A full-screen film mode.
 - Bookmarks of a prayer beyond the remembered place.
 - A generated flight from scene IV into scene V, and a generated dive for scene V (both were refused by the video filters).
+
+## The day's readings (Katameros)
+
+The five reading stops (the Pauline Epistle, the Catholic Epistle, Acts, the Psalm and the Gospel) show the day's
+reading in full. The page works out the day on the device (`apps/web/src/lib/katameros/cycle.ts`: Holy Week, feasts
+of the Lord, fixed feasts with readings of their own, the Fast of Nineveh, Great Lent, the Holy Fifty Days, the Sundays
+of each month, then the Coptic date) and loads that entry's texts from `/<lang>/holy-mass/readings/<entry>.json`, built
+from the references in `data/katameros` (coptic.io, MIT) and the site's Bible editions (KJV, Van Dyck). A date field
+on the Pauline stop shows any other day. Holy Week (the Pascha book) is not covered yet; the stops say so.

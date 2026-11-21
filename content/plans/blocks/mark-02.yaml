@@ -1,0 +1,44 @@
+id: mark-02
+passages:
+  short: MRK.2.1-12
+  full: MRK.2.1-17
+  deep: MRK.2
+title:
+  en: Through the roof
+  ar: من خلال السقف
+hook:
+  en: The house is packed. Four friends cannot get their paralysed friend to Jesus, so they climb up and dig a hole in the roof. What Jesus says next shocks everyone in the room.
+  ar: البيت مزدحم. لم يستطع أربعة أصدقاء أن يوصلوا صديقهم المفلوج إلى يسوع، فصعدوا ونقبوا السقف. وما قاله يسوع بعد ذلك صدم كل من في البيت.
+explain:
+  en: Jesus first says, “Your sins are forgiven.” The scribes are right that only God can forgive sins; that is exactly the point. Then he heals the man so they can see he has the authority. Afterwards he calls Levi, a tax collector everyone despised.
+  ar: "قال يسوع أولًا: «مغفورة لك خطاياك». وكان الكتبة على حق في أن الله وحده يغفر الخطايا، وهذا هو المقصود تمامًا. ثم شفى الرجل ليروا أن له السلطان. وبعدها دعا لاوي، العشار الذي كان الجميع يحتقرونه."
+think:
+  en: Who would carry you to Jesus if you could not get there yourself? Whom could you carry?
+  ar: من يحملك إلى يسوع إن لم تستطع أن تذهب وحدك؟ ومن تستطيع أنت أن تحمله؟
+check:
+  question:
+    en: What did Jesus say to the man before healing him?
+    ar: ماذا قال يسوع للرجل قبل أن يشفيه؟
+  options:
+    - en: Your faith has saved you
+      ar: إيمانك قد خلصك
+    - en: Your sins are forgiven
+      ar: مغفورة لك خطاياك
+    - en: Go and wash
+      ar: اذهب واغتسل
+  answer: 1
+  why:
+    en: Mark 2:5. Forgiving sins was a claim to do what God does.
+    ar: "مرقس ٢: ٥. غفران الخطايا ادعاءٌ بعمل ما يعمله الله."
+deeper:
+  - kind: place
+    id: capernaum
+  - kind: question
+    slug: did-jesus-claim-divine-authority
+words:
+  - scribes-pharisees
+  - son-of-man
+sources: []
+review:
+  status: draft
+  origin: ai-generated

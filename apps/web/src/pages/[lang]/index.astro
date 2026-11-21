@@ -11,6 +11,10 @@ import { VISIBLE_ARTICLES } from '../../lib/apologetics/index.ts';
 import { parsePassages } from '../../lib/topics/reference.ts';
 import { LOCALES, explorerPath, localePath, t, type Locale } from '../../i18n/index.ts';
 import explorerStats from '../../data/explorer-stats.json';
+import { CORE, EVIDENCE } from '../../data/bible-history/index.ts';
+import { DEFAULT_CHRONOLOGY } from '../../data/bible-history/primeval.ts';
+import { QUESTION_BY_ID } from '../../data/apologetics/questions.ts';
+import { placed } from '../../lib/bible-history/payload.ts';
 
 export function getStaticPaths() {
   return LOCALES.map((lang) => ({ params: { lang } }));
@@ -30,11 +34,12 @@ const cards = [
   { art: 'churchHistory' as const, ...strings.home.cards.churchHistory, href: localePath(locale, 'church-history'), x: 84, y: 31, z: 0 },
   { art: 'faith' as const, ...strings.home.cards.faith, href: localePath(locale, 'apologetics'), x: 50, y: 46, z: 80 },
   { art: 'atlas' as const, ...strings.home.cards.atlas, href: localePath(locale, 'bible-atlas'), x: 84, y: 57, z: 40 },
+  { art: 'bibleHistory' as const, ...strings.home.cards.bibleHistory, href: localePath(locale, 'bible-history'), x: 16, y: 56, z: 30 },
 ];
 
 // ---- The strings between the cards. Every number is counted from the site's own data when the site is built. ----
 // A string runs from the card that makes the references to the card they point into.
-type Key = 'bible' | 'explore' | 'threads' | 'holyMass' | 'churchHistory' | 'faith' | 'atlas';
+type Key = 'bible' | 'explore' | 'threads' | 'holyMass' | 'churchHistory' | 'faith' | 'atlas' | 'bibleHistory';
 const chapterKey = (code: string, chapter: number): string => `${code}.${chapter}`;
 
 // The Bible chapters each part cites (a range such as Job 1–2 counts every chapter it spans).
@@ -51,6 +56,21 @@ const atlasQuestions = new Set(ATLAS_PLACES.flatMap((place) => place.evidence ??
 const faithEvidence = VISIBLE_ARTICLES.flatMap((article) => article.evidence.flatMap((e) => (e.bible === undefined ? [] : [e.bible])));
 const faithChapters = new Set(faithEvidence.flatMap((b) => (bookBySlug(b.book) === undefined ? [] : [chapterKey(bookBySlug(b.book)!.code, b.chapter)])));
 const shared = (a: ReadonlySet<string>, b: ReadonlySet<string>): number => [...a].filter((key) => b.has(key)).length;
+const chaptersOf = (references: readonly string[]): Set<string> =>
+  new Set(
+    references.flatMap((reference) =>
+      parsePassages(reference).flatMap((range) => Array.from({ length: range.to.chapter - range.from.chapter + 1 }, (_, i) => chapterKey(range.book, range.from.chapter + i))),
+    ),
+  );
+
+// What the Bible history chart holds: every person the Bible names (placed on the chart), the chapters its hand-written
+// people are told in, and the Faith & Evidence questions its people and its evidence point to (only questions that exist).
+const historyPeople = placed(DEFAULT_CHRONOLOGY).length;
+const historyChapters = chaptersOf(CORE.map((person) => person.refs));
+const historyQuestions = new Set(
+  [...CORE.flatMap((person) => person.questions ?? []), ...EVIDENCE.flatMap((item) => (item.question === undefined ? [] : [item.question]))].filter((id) => QUESTION_BY_ID.has(id)),
+);
+const atlasChapters = chaptersOf([...atlasPassages]);
 
 // Which written pieces mention another part of the site's subject.
 // The Mass names the councils by their sees ("the Creed of Nicaea and Constantinople", "the 318 fathers of Nicaea").
@@ -98,6 +118,9 @@ const all: Edge[] = [
   { from: 'holyMass', to: 'faith', count: shared(massChapters, faithChapters), en: 'The Mass and Faith & Evidence both cite {n} of the same Bible chapters', ar: 'القداس والإيمان والأدلة يستشهدان معاً بـ {n} من الأصحاحات نفسها' },
   { from: 'churchHistory', to: 'faith', count: shared(churchChapters, faithChapters), en: 'Church history and Faith & Evidence both cite {n} of the same Bible chapters', ar: 'تاريخ الكنيسة والإيمان والأدلة يستشهدان معاً بـ {n} من الأصحاحات نفسها' },
   { from: 'churchHistory', to: 'holyMass', count: shared(churchChapters, massChapters), en: 'Church history and the Mass both cite {n} of the same Bible chapters', ar: 'تاريخ الكنيسة والقداس يستشهدان معاً بـ {n} من الأصحاحات نفسها' },
+  { from: 'bibleHistory', to: 'bible', count: historyPeople, en: 'Bible history sets {n} people on one timeline: everyone the Bible names, and the rulers around them', ar: 'تاريخ الكتاب المقدس يضع {n} شخصًا على خط زمني واحد: كل من يذكرهم الكتاب المقدس ومن حكموا حولهم' },
+  { from: 'bibleHistory', to: 'faith', count: historyQuestions.size, en: 'Bible history points to {n} Faith & Evidence questions about its people', ar: 'تاريخ الكتاب المقدس يشير إلى {n} من أسئلة الإيمان والأدلة عن شخصياته' },
+  { from: 'bibleHistory', to: 'atlas', count: shared(historyChapters, atlasChapters), en: 'Bible history and the Bible atlas both tell {n} of the same Bible chapters', ar: 'تاريخ الكتاب المقدس وأطلسه يرويان معاً {n} من الأصحاحات نفسها' },
 ];
 // A connection with nothing behind it is not drawn. Several strings may join the same two cards: they hang side by side.
 const present = all.filter((edge) => edge.count > 0);

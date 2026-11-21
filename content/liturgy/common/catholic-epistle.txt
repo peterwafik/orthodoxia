@@ -21,13 +21,21 @@ ar| وفي ختامه يقول.
 en| Do not love the world nor the things in the world. The world is passing away, and its lust; but he who does the will of God abides forever. Amen.
 ar| لا تحبوا العالم ولا الأشياء التي في العالم، العالم يزول وشهوته، وأما الذي يصنع إرادة الله يدوم إلى الأبد. آمين.
 
-@rubric
-en| If the Catho lic Epistle is read in English , the following introduction is said .
-ar| إذا قرأ الكاثوليكون عربيا، تقال مقدمته وهي هذه.
+@deacon
+en| The Catholic Epistle from the (first/second/third) epistle of our teacher (St. James/ St. Jude/ St. Peter/ St. John), may his blessings be with us. Amen.
+ar| الكاثوليكون من الرسالة (الاولي، الثانية، الثالثة) لمعلمنا (يعقوب، يهوذا، بطرس، يوحنا)، بركته علينا. آمين.
 
 @rubric
-en| The Catholic Epistle from the (first/second/third) epistle of our teacher (St . James/ St. Judah/ St. Peter/ St. John ), May his bl essings be with us. Amen. After the reading, the following conclusion is said. Do not love the world nor the things in the world. The world is passing away, and its lust; but he who does the will of God abides forever. Amen. During the reading of the Catholic Epistle, the fellow priest (or if there is no fellow priest, then the serving priest himself) says inaudibly the following prayer to the Father:
-ar| الكاثوليكون من الرسالة (الاولي، الثانية، الثالثة) لمعلمنا (يعقوب، يهوذا، بطرس، يوحنا)، بركته علينا. آمين. وفي ختامه يقول. لا تحبوا العالم ولا الأشياء التي في العالم، العالم يزول وشهوته، وأما الذي يصنع إرادة الله يدوم إلى الأبد. آمين. وفي أثناء قراءة الكاثوليكون، يقول الكاهن الشريك هذه الأوشية سرا للاب وإن لم يكن حاضرا كاهن معه فيقولها هو:
+en| After the reading, the following conclusion is said.
+ar| وفي ختامه يقول.
+
+@deacon
+en| Do not love the world nor the things in the world. The world is passing away, and its lust; but he who does the will of God abides forever. Amen.
+ar| لا تحبوا العالم ولا الأشياء التي في العالم، العالم يزول وشهوته، وأما الذي يصنع إرادة الله يدوم إلى الأبد. آمين.
+
+@rubric
+en| During the reading of the Catholic Epistle, the fellow priest (or if there is no fellow priest, then the serving priest himself) says inaudibly the following prayer to the Father:
+ar| وفي أثناء قراءة الكاثوليكون، يقول الكاهن الشريك هذه الأوشية سرا للاب وإن لم يكن حاضرا كاهن معه فيقولها هو:
 
 @deacon
 en| O Lord our God, who through Your holy apostles have revealed to us the mystery of the Gospel of the glory of Your Christ, and have given to them according to the great immeasurable gift of Your grace that they should proclaim among all nations the good news of the riches of Your mercy, we ask You, O our Master, make us worthy of their share and inheritance. Grant to us at all times to walk in their footsteps and to imitate their struggle, and to have communion with them in the sweat which they accepted for the sake of godliness. Watch over Your holy Church which You have founded through them, and bless the sheep of Your flock and make this vine to increase, which Your right hand has planted, in Christ Jesus our Lord. Through whom the glory, the honor, the dominion, and the worship are due unto You, with Him and the Holy Spirit, the Giver of Life, who is of one essence with You. Now and at all times and unto the ages of all ages. Amen.

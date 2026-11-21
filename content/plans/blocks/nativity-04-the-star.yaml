@@ -1,0 +1,40 @@
+id: nativity-04-the-star
+passages:
+  short: NUM.24.15-19
+  full: NUM.24.10-19
+  deep: NUM.24
+title:
+  en: A star out of Jacob
+  ar: كوكب من يعقوب
+hook:
+  en: "A foreign fortune-teller is paid to curse Israel. Every time he opens his mouth, a blessing comes out instead, and then a vision: a star rising, a ruler coming."
+  ar: "عرّاف غريب يُستأجر ليلعن إسرائيل. وكلما فتح فمه خرجت بركة بدل اللعنة، ثم رؤيا: كوكب يطلع، وملك يأتي."
+explain:
+  en: "Balaam was not even an Israelite, yet God put this prophecy in his mouth: “there shall come a Star out of Jacob, and a Sceptre shall rise out of Israel.” At Christ’s birth, wise men from the East followed a star to find the King."
+  ar: "لم يكن بلعام إسرائيليًا، ومع ذلك وضع الله هذه النبوة في فمه: «يبرز كوكب من يعقوب ويقوم قضيب من إسرائيل». وعند ميلاد المسيح تبع مجوس من المشرق نجمًا ليجدوا الملك."
+think:
+  en: God spoke through someone no one expected. Who in your life might God be speaking through?
+  ar: تكلّم الله بواسطة شخص لم يتوقعه أحد. بواسطة من قد يكلمك الله في حياتك؟
+check:
+  question:
+    en: What did Balaam see rising out of Jacob?
+    ar: ماذا رأى بلعام يبرز من يعقوب؟
+  options:
+    - en: A star
+      ar: كوكبًا
+    - en: A city
+      ar: مدينة
+    - en: A river
+      ar: نهرًا
+  answer: 0
+  why:
+    en: Numbers 24:17. The wise men later said, “we have seen his star in the east” (Matthew 2:2).
+    ar: "العدد ٢٤: ١٧. وقال المجوس لاحقًا: «رأينا نجمه في المشرق» (متى ٢: ٢)."
+deeper:
+  - kind: verse
+    ref: MAT.2.1-2
+words: []
+sources: []
+review:
+  status: draft
+  origin: ai-generated

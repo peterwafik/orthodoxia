@@ -1,0 +1,43 @@
+id: mark-13
+passages:
+  short: MRK.13.32-37
+  full: MRK.13.24-37
+  deep: MRK.13
+title:
+  en: Stay awake
+  ar: اسهروا
+hook:
+  en: A disciple admires the huge stones of the Temple. Jesus says not one will be left standing. About forty years later, in AD 70, the Romans destroyed it.
+  ar: يُعجب أحد التلاميذ بحجارة الهيكل الضخمة. فيقول يسوع إنه لن يبقى حجر على حجر. وبعد نحو أربعين سنة، في سنة ٧٠م، هدمه الرومان.
+explain:
+  en: "Jesus speaks both of the Temple’s fall and of his coming again at the end. He does not give a date: “of that day and that hour knoweth no man.” Instead of guessing, his followers are told to watch, like servants awake for their master."
+  ar: "يتكلم يسوع عن خراب الهيكل وعن مجيئه الثاني في النهاية معًا. ولا يحدد تاريخًا: «وأما ذلك اليوم وتلك الساعة فلا يعلم بهما أحد». وبدل التخمين، يوصي تلاميذه بالسهر، كعبيد ساهرين ينتظرون سيدهم."
+think:
+  en: What would “staying awake” for God look like in your normal day?
+  ar: كيف يبدو «السهر» لله في يومك العادي؟
+check:
+  question:
+    en: Who knows the day of Christ’s coming?
+    ar: من يعرف يوم مجيء المسيح؟
+  options:
+    - en: The angels
+      ar: الملائكة
+    - en: No man, only the Father
+      ar: لا أحد، إلا الآب
+    - en: The prophets
+      ar: الأنبياء
+  answer: 1
+  why:
+    en: Mark 13:32. That is why Jesus says “watch” rather than giving a date.
+    ar: "مرقس ١٣: ٣٢. ولهذا يقول يسوع «اسهروا» بدل أن يحدد تاريخًا."
+deeper:
+  - kind: question
+    slug: prophecy-written-after-events
+  - kind: place
+    id: jerusalem
+words:
+  - son-of-man
+sources: []
+review:
+  status: draft
+  origin: ai-generated

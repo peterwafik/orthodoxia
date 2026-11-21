@@ -1,0 +1,46 @@
+id: mark-11
+passages:
+  short: MRK.11.1-11
+  full: MRK.11.1-19
+  deep: MRK.11
+title:
+  en: A King on a borrowed donkey
+  ar: ملك على جحش مستعار
+hook:
+  en: Jesus enters Jerusalem the week of Passover. Crowds lay their coats on the road and shout. The next day he walks into the Temple and turns over the tables.
+  ar: يدخل يسوع أورشليم في أسبوع الفصح. يفرش الجموع ثيابهم في الطريق ويهتفون. وفي اليوم التالي يدخل الهيكل ويقلب الموائد.
+explain:
+  en: The prophet Zechariah had said Jerusalem’s King would come “lowly, and riding upon an ass”. Jesus acts it out on purpose. In the Temple he says God’s house should be “a house of prayer for all nations”. The Church remembers this day as Palm Sunday.
+  ar: قال زكريا النبي إن ملك أورشليم يأتي «وديعًا وراكبًا على حمار». ويتمم يسوع ذلك عن قصد. وفي الهيكل يقول إن بيت الله «بيت صلاة لجميع الأمم». وتذكر الكنيسة هذا اليوم في أحد الشعانين.
+think:
+  en: The crowd welcomed Jesus loudly, then turned on him days later. What makes faith last?
+  ar: رحّب الجمع بيسوع بصوت عالٍ ثم انقلبوا عليه بعد أيام. ما الذي يجعل الإيمان يدوم؟
+check:
+  question:
+    en: What did the crowd shout?
+    ar: بماذا هتف الجمع؟
+  options:
+    - en: Hosanna
+      ar: أوصنا
+    - en: Crucify him
+      ar: اصلبه
+    - en: Amen
+      ar: آمين
+  answer: 0
+  why:
+    en: “Hosanna; Blessed is he that cometh in the name of the Lord” (Mark 11:9).
+    ar: "«أوصنا! مبارك الآتي باسم الرب» (مرقس ١١: ٩)."
+deeper:
+  - kind: verse
+    ref: ZEC.9.9
+  - kind: place
+    id: jerusalem
+  - kind: place
+    id: bethany
+words:
+  - hosanna
+  - passover
+sources: []
+review:
+  status: draft
+  origin: ai-generated

@@ -1,0 +1,42 @@
+id: nativity-05-davids-house
+passages:
+  short: 2SA.7.12-16
+  full: 2SA.7.1-17
+  deep: 2SA.7
+title:
+  en: A house that lasts for ever
+  ar: بيت يدوم إلى الأبد
+hook:
+  en: "King David wants to build God a house. God says no, and instead promises to build David a “house”: a family line, with a King whose throne will last for ever."
+  ar: "أراد الملك داود أن يبني لله بيتًا. فقال الله لا، ووعد بدل ذلك أن يبني لداود «بيتًا»: نسلًا، فيه ملك يدوم كرسيه إلى الأبد."
+explain:
+  en: "David’s kings came and went, and the kingdom fell to Babylon. But the promise stood. When the angel Gabriel speaks to the Virgin Mary, he uses this very promise: “the Lord God shall give unto him the throne of his father David… and of his kingdom there shall be no end.”"
+  ar: "جاء ملوك من نسل داود وذهبوا، وسقطت المملكة في يد بابل. لكن الوعد ثبت. وحين كلّم الملاك جبرائيل العذراء مريم استعمل هذا الوعد نفسه: «ويعطيه الرب الإله كرسي داود أبيه… ولا يكون لملكه نهاية»."
+think:
+  en: David wanted to do something big for God, and God wanted to do something bigger for David. Do you let God give to you?
+  ar: أراد داود أن يصنع شيئًا كبيرًا لله، وأراد الله أن يصنع شيئًا أكبر لداود. هل تسمح لله أن يعطيك؟
+check:
+  question:
+    en: What did God promise to build for David?
+    ar: ماذا وعد الله أن يبني لداود؟
+  options:
+    - en: A palace of cedar
+      ar: قصرًا من الأرز
+    - en: "A house: a lasting family line"
+      ar: "بيتًا: نسلًا يدوم"
+    - en: A wall round Jerusalem
+      ar: سورًا حول أورشليم
+  answer: 1
+  why:
+    en: 2 Samuel 7:11–16. “House” here means a dynasty.
+    ar: "صموئيل الثاني ٧: ١١–١٦. و«البيت» هنا يعني النسل الملكي."
+deeper:
+  - kind: verse
+    ref: LUK.1.32-33
+  - kind: person
+    key: David@Rut.4.17-Rev
+words: []
+sources: []
+review:
+  status: draft
+  origin: ai-generated

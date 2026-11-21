@@ -1,0 +1,42 @@
+id: nativity-03-the-lamb
+passages:
+  short: GEN.22.6-14
+  full: GEN.22.1-14
+  deep: GEN.22.1-19
+title:
+  en: “God will provide himself a lamb”
+  ar: «الله يرى له الخروف»
+hook:
+  en: "A father and son climb a mountain. The son carries the wood. He asks the question that hangs over the whole Old Testament: “where is the lamb?”"
+  ar: "أب وابنه يصعدان جبلًا. الابن يحمل الحطب. ويسأل السؤال الذي يخيّم على العهد القديم كله: «أين الخروف؟»"
+explain:
+  en: "Isaac carrying the wood up the mountain has always reminded Christians of Christ carrying his cross. Abraham answers, “God will provide himself a lamb.” Centuries later John the Baptist points at Jesus: “Behold the Lamb of God.” Christmas is God providing the Lamb."
+  ar: "إسحاق حاملًا الحطب على الجبل ذكّر المسيحيين دائمًا بالمسيح حاملًا صليبه. ويجيب إبراهيم: «الله يرى له الخروف». وبعد قرون يشير يوحنا المعمدان إلى يسوع: «هوذا حمل الله». الميلاد هو أن الله يقدّم الحمل."
+think:
+  en: Abraham trusted God with what he loved most. What do you find hardest to put in God’s hands?
+  ar: وثق إبراهيم بالله في أغلى ما يحب. ما أصعب شيء عليك أن تضعه في يد الله؟
+check:
+  question:
+    en: What did Isaac carry up the mountain?
+    ar: ماذا حمل إسحاق على الجبل؟
+  options:
+    - en: A lamb
+      ar: خروفًا
+    - en: The wood
+      ar: الحطب
+    - en: Water
+      ar: ماءً
+  answer: 1
+  why:
+    en: Genesis 22:6. Abraham carried the fire and the knife.
+    ar: "التكوين ٢٢: ٦. وحمل إبراهيم النار والسكين."
+deeper:
+  - kind: verse
+    ref: JHN.1.29
+  - kind: verse
+    ref: HEB.11.17-19
+words: []
+sources: []
+review:
+  status: draft
+  origin: ai-generated

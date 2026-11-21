@@ -1,0 +1,38 @@
+---
+/**
+ * The line drawing at the top of a Synaxarium day: an icon frame with a haloed saint holding a cross, a lit lamp
+ * beside it, in the same single-weight line style as the Holy Mass drawings. Decorative.
+ */
+interface Props {
+  size?: number;
+}
+const { size = 120 } = Astro.props;
+---
+
+<svg class="icon-art" viewBox="0 0 120 120" width={size} height={size} aria-hidden="true">
+  <g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+    <!-- the icon's frame, arched -->
+    <path d="M28 108V40a32 32 0 0 1 64 0v68z" />
+    <path d="M33 104V41a27 27 0 0 1 54 0v63z" opacity="0.55" />
+    <!-- halo and head -->
+    <circle cx="60" cy="42" r="13" />
+    <circle cx="60" cy="43" r="7.5" />
+    <!-- shoulders and robe -->
+    <path d="M44 104c0-22 6-40 16-44c10 4 16 22 16 44" />
+    <path d="M52 66c3 3 13 3 16 0" />
+    <!-- the cross held in front -->
+    <path d="M60 70v26M54 78h12" />
+    <circle cx="60" cy="68.5" r="1.2" fill="currentColor" />
+    <!-- the lamp beside the icon -->
+    <path d="M100 108v-26M95 82h10" />
+    <path d="M100 82c-4-3-4-8 0-12c4 4 4 9 0 12z" />
+    <path d="M100 66v-3" />
+  </g>
+</svg>
+
+<style>
+  .icon-art {
+    color: var(--accent);
+    flex: none;
+  }
+</style>

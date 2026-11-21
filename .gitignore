@@ -25,6 +25,8 @@ data/commentary/malaty/html/
 .vercel
 .env*
 data/atlas/raw/
+data/bible-people/raw/
 data/agpeya/raw/
 
 .superpowers/
+data/synaxarium/raw/

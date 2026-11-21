@@ -1,0 +1,40 @@
+id: mark-05
+passages:
+  short: MRK.5.25-34
+  full: MRK.5.21-43
+  deep: MRK.5
+title:
+  en: Twelve years, and one interruption
+  ar: اثنتا عشرة سنة، ومقاطعة واحدة
+hook:
+  en: A synagogue leader begs Jesus to save his dying twelve-year-old daughter. On the way, a woman who has been bleeding for twelve years touches his clothes. Jesus stops. Every second counts, and he stops.
+  ar: يتوسل رئيس مجمع إلى يسوع أن ينقذ ابنته ذات الاثنتي عشرة سنة وهي تحتضر. وفي الطريق، تلمس ثيابه امرأة بها نزف دم منذ اثنتي عشرة سنة. فيتوقف يسوع. كل ثانية مهمة، وهو يتوقف.
+explain:
+  en: Her illness made her “unclean” under the Law, cut off from worship and from people. Jesus does not just heal her quietly; he calls her “Daughter” in front of everyone. Then he goes on, and raises Jairus’s daughter too.
+  ar: جعلها مرضها «نجسة» بحسب الناموس، معزولة عن العبادة وعن الناس. لم يشفها يسوع في الخفاء فقط، بل دعاها «يا ابنة» أمام الجميع. ثم أكمل طريقه وأقام ابنة يايرس أيضًا.
+think:
+  en: The woman thought she had to stay hidden. Is there something you keep hidden from God?
+  ar: ظنت المرأة أن عليها أن تبقى مختبئة. هل هناك شيء تخفيه عن الله؟
+check:
+  question:
+    en: How long had the woman been ill?
+    ar: كم سنة كانت المرأة مريضة؟
+  options:
+    - en: Two years
+      ar: سنتين
+    - en: Twelve years
+      ar: اثنتي عشرة سنة
+    - en: Forty years
+      ar: أربعين سنة
+  answer: 1
+  why:
+    en: Twelve years, as long as Jairus’s daughter had been alive (Mark 5:25, 42).
+    ar: "اثنتي عشرة سنة، بقدر عمر ابنة يايرس (مرقس ٥: ٢٥، ٤٢)."
+deeper:
+  - kind: person
+    key: Jairus@Mrk.5.22-Luk
+words: []
+sources: []
+review:
+  status: draft
+  origin: ai-generated

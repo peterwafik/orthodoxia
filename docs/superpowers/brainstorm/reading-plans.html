@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bible Study Plans Proposal</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap" rel="stylesheet">
+<style>
+/* Orthodoxia's own look (apps/web/src/styles/global.css): ivory and navy, gold accent, Source Serif for reading, Inter for UI.
+   Layout: one reading column; mockups and choices break out into grids. */
+:root {
+  --surface: #f5f1e6;
+  --raised: #fffdf8;
+  --ink: #1a2340;
+  --muted: #4b5567;
+  --accent: #7a5a12;
+  --gold: #d9b45a;
+  --gold-soft: #f5ecd2;
+  --line: #ddd5c3;
+  --navy: #0e1a33;
+  --on-navy: #f5f1e6;
+  --font-ui: 'Inter', system-ui, sans-serif;
+  --font-reading: 'Source Serif 4', Georgia, serif;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --surface: #0e1a33; --raised: #16244a; --ink: #ede7d8; --muted: #aeb6c6; --accent: #d9b45a;
+    --gold-soft: #2c2a22; --line: #2a3a60; --navy: #f5f1e6; --on-navy: #0e1a33; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --surface: #0e1a33; --raised: #16244a; --ink: #ede7d8; --muted: #aeb6c6; --accent: #d9b45a;
+  --gold-soft: #2c2a22; --line: #2a3a60; --navy: #f5f1e6; --on-navy: #0e1a33; color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--surface); color: var(--ink); font-family: var(--font-ui); line-height: 1.55; }
+.wrap { max-width: 1120px; margin: 0 auto; padding: 2.5rem clamp(1rem, 3vw, 2.5rem) 4rem; display: grid; gap: 3.25rem; }
+h1, h2, h3 { font-family: var(--font-reading); text-wrap: balance; line-height: 1.2; margin: 0; }
+h1 { font-size: clamp(2rem, 1.4rem + 2.6vw, 3rem); }
+h2 { font-size: 1.75rem; }
+h3 { font-size: 1.2rem; }
+p { margin: 0; }
+.lede { font-family: var(--font-reading); font-size: 1.2rem; color: var(--muted); max-width: 62ch; }
+.prose { max-width: 66ch; display: grid; gap: .6rem; color: var(--muted); }
+section { display: grid; gap: 1.25rem; }
+.step { font-size: .78rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--accent); }
+.head { display: grid; gap: .5rem; }
+.grid { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); }
+.card { background: var(--raised); border: 1px solid var(--line); border-radius: 14px; padding: 1.1rem 1.2rem; display: grid; gap: .55rem; align-content: start; }
+.card h3 { font-size: 1.1rem; }
+.who { font-size: .85rem; color: var(--accent); font-weight: 600; }
+.meta { font-size: .82rem; color: var(--muted); }
+.days { margin: 0; padding-left: 1.1rem; font-size: .9rem; display: grid; gap: .15rem; }
+.uses { display: flex; flex-wrap: wrap; gap: .35rem; }
+.chip { font-size: .74rem; padding: .12rem .55rem; border-radius: 99px; background: var(--gold-soft); border: 1px solid var(--line); color: var(--ink); white-space: nowrap; }
+.chip.later { background: transparent; border-style: dashed; color: var(--muted); }
+.pick { border: 2px solid var(--accent); }
+.badge { justify-self: start; font-size: .72rem; font-weight: 700; padding: .15rem .6rem; border-radius: 99px; background: var(--accent); color: var(--surface); }
+.pros { margin: 0; padding: 0; list-style: none; display: grid; gap: .25rem; font-size: .9rem; }
+.pros li::before { content: '+ '; color: var(--accent); font-weight: 700; }
+.pros li.con::before { content: '− '; color: var(--muted); }
+
+/* Style switcher + day mockup */
+.split { display: grid; gap: 1.5rem; grid-template-columns: minmax(0, 1fr) minmax(0, 380px); align-items: start; }
+@media (max-width: 820px) { .split { grid-template-columns: 1fr; } }
+.styles { display: grid; gap: .6rem; }
+.style-btn { text-align: left; font: inherit; color: var(--ink); background: var(--raised); border: 1px solid var(--line); border-radius: 12px; padding: .8rem 1rem; cursor: pointer; display: grid; gap: .15rem; }
+.style-btn b { font-size: 1rem; }
+.style-btn span { font-size: .87rem; color: var(--muted); }
+.style-btn[aria-pressed="true"] { border: 2px solid var(--accent); background: var(--gold-soft); }
+button:focus-visible, input:focus-visible, textarea:focus-visible, label:focus-within { outline: 3px solid var(--accent); outline-offset: 2px; }
+
+.phone { background: var(--raised); border: 1px solid var(--line); border-radius: 28px; padding: 1rem; box-shadow: 0 18px 40px -24px rgba(14, 26, 51, .45); display: grid; gap: .8rem; }
+.phone-top { display: flex; justify-content: space-between; align-items: center; font-size: .78rem; color: var(--muted); }
+.bar { height: 6px; border-radius: 99px; background: var(--line); overflow: hidden; }
+.bar i { display: block; height: 100%; background: var(--accent); }
+.bite { border-radius: 16px; padding: .9rem 1rem; display: grid; gap: .4rem; border: 1px solid var(--line); }
+.bite small { font-size: .7rem; font-weight: 700; letter-spacing: .07em; text-transform: uppercase; color: var(--accent); }
+.bite p { font-family: var(--font-reading); font-size: 1rem; }
+.bite.hook { background: var(--navy); color: var(--on-navy); border: 0; }
+.bite.hook small { color: var(--gold); }
+.extra { display: grid; gap: .4rem; }
+.opt { display: flex; flex-wrap: wrap; gap: .4rem; }
+.opt span { font-size: .85rem; border: 1px solid var(--line); border-radius: 99px; padding: .2rem .7rem; }
+textarea { width: 100%; min-height: 64px; font: inherit; font-size: .9rem; color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: .5rem .6rem; resize: vertical; }
+.linky { color: var(--accent); font-weight: 600; font-size: .9rem; }
+
+/* Design mockups */
+.mock { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: .8rem; min-height: 190px; display: grid; align-content: start; gap: .5rem; }
+.path { display: grid; gap: .35rem; }
+.path .stop { display: flex; align-items: center; gap: .5rem; font-size: .82rem; }
+.path .dot { width: 22px; height: 22px; border-radius: 50%; border: 2px solid var(--accent); display: grid; place-items: center; font-size: .7rem; font-weight: 700; flex: none; }
+.path .done .dot { background: var(--accent); color: var(--surface); }
+.path .now .dot { box-shadow: 0 0 0 4px var(--gold-soft); }
+.path .stop:nth-child(2) { margin-left: 1.4rem; } .path .stop:nth-child(3) { margin-left: 2.4rem; }
+.path .stop:nth-child(4) { margin-left: 1.4rem; } .path .stop:nth-child(6) { margin-left: 1.4rem; }
+.stack { position: relative; height: 170px; }
+.stack div { position: absolute; inset: 0; border-radius: 14px; border: 1px solid var(--line); background: var(--raised); padding: .8rem; font-family: var(--font-reading); font-size: .92rem; }
+.stack div:nth-child(1) { transform: translate(14px, 14px) rotate(3deg); opacity: .5; }
+.stack div:nth-child(2) { transform: translate(7px, 7px) rotate(1.5deg); opacity: .75; }
+.stack div:nth-child(3) { background: var(--navy); color: var(--on-navy); }
+.stack div:nth-child(3) small { display: block; color: var(--gold); font-family: var(--font-ui); font-size: .68rem; font-weight: 700; letter-spacing: .07em; text-transform: uppercase; margin-bottom: .3rem; }
+.dots { display: flex; gap: .3rem; justify-content: center; margin-top: .4rem; }
+.dots i { width: 7px; height: 7px; border-radius: 50%; background: var(--line); } .dots i:first-child { background: var(--accent); }
+.cal { display: grid; grid-template-columns: repeat(7, 1fr); gap: .25rem; font-size: .7rem; text-align: center; }
+.cal span { padding: .3rem 0; border-radius: 6px; border: 1px solid var(--line); font-variant-numeric: tabular-nums; }
+.cal .y { background: var(--accent); color: var(--surface); border-color: var(--accent); }
+.shelf { display: flex; gap: .35rem; flex-wrap: wrap; }
+.shelf span { font-size: .72rem; padding: .2rem .5rem; border-radius: 6px; background: var(--raised); border: 1px solid var(--line); }
+
+/* Quiz */
+.quiz { background: var(--raised); border: 1px solid var(--line); border-radius: 16px; padding: 1.3rem; display: grid; gap: 1.1rem; }
+fieldset { border: 0; padding: 0; margin: 0; display: grid; gap: .5rem; }
+legend { font-weight: 600; margin-bottom: .45rem; padding: 0; }
+.choices { display: flex; flex-wrap: wrap; gap: .45rem; }
+.choices label { cursor: pointer; border: 1px solid var(--line); border-radius: 99px; padding: .35rem .85rem; font-size: .9rem; background: var(--surface); }
+.choices input { position: absolute; opacity: 0; pointer-events: none; }
+.choices label:has(input:checked) { background: var(--accent); color: var(--surface); border-color: var(--accent); }
+.result { border-left: 5px solid var(--accent); background: var(--gold-soft); border-radius: 10px; padding: .9rem 1.1rem; display: grid; gap: .35rem; }
+.result h3 { font-size: 1.25rem; }
+
+/* Decision */
+.decide { display: grid; gap: 1.2rem; }
+.decide .choices label { border-radius: 10px; }
+.summary { background: var(--navy); color: var(--on-navy); border-radius: 14px; padding: 1.1rem 1.2rem; display: grid; gap: .7rem; }
+.summary pre { margin: 0; white-space: pre-wrap; font-family: var(--font-ui); font-size: .92rem; }
+.copy { justify-self: start; font: inherit; font-weight: 600; padding: .5rem 1rem; border-radius: 10px; border: 0; background: var(--gold); color: #0e1a33; cursor: pointer; }
+.note { font-size: .85rem; color: var(--muted); }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+</head>
+<body>
+<main class="wrap">
+
+<header class="head">
+  <span class="step">Orthodoxia · proposal for discussion</span>
+  <h1>Bible study plans for every kind of reader</h1>
+  <p class="lede">For a young person at home, reading alone, who doesn't catch everything the first time and needs a reason to stay interested. This page shows the plans I'd offer, how a plan adapts to the reader's personality, three ways the plan screens could look, and three ways to create the plans. Choose at the bottom, then copy your choices back to me.</p>
+</header>
+
+<section>
+  <div class="head">
+    <span class="step">1 · Plans by interest</span>
+    <h2>Eight ways in</h2>
+    <p class="prose">Each plan starts from something the reader already cares about and uses a part of the site that exists today. Solid chips are pages already built. Dashed chips are things still to build.</p>
+  </div>
+  <div class="grid" id="plans"></div>
+</section>
+
+<section>
+  <div class="head">
+    <span class="step">2 · Plans by personality</span>
+    <h2>Same passage, wrapped for the reader</h2>
+    <div class="prose">
+      <p>Personality changes <em>how</em> a day is served, not <em>what</em> is read. Every day has the same core: a hook, the passage, a short explanation, and one question. The reader's style adds one extra piece, and their pace sets how long the passage is (5, 15 or 30 minutes).</p>
+      <p>I'd use four plain reading styles rather than personality-test labels like MBTI. Readers recognise themselves in them straight away. Pick one to see Day 1 of <b>Meet Jesus</b> change.</p>
+    </div>
+  </div>
+  <div class="split">
+    <div class="styles" id="styles"></div>
+    <div class="phone" aria-live="polite">
+      <div class="phone-top"><span id="ph-plan">Meet Jesus · Day 1 of 16</span><span id="ph-time">≈ 5 min</span></div>
+      <div class="bar"><i style="width: 6%"></i></div>
+      <div class="bite hook"><small>Hook</small><p>Mark writes fast. In twenty verses: a wild prophet in the desert, a voice from heaven, forty days of testing, and four fishermen who drop everything. And Mark is the founder of our Church in Alexandria.</p></div>
+      <div class="bite"><small>Read</small><p><span class="linky">Mark 1:1–20</span>: opens in the Bible reader, with commentary one tap away.</p></div>
+      <div class="bite"><small>Understand</small><p>“Gospel” means good news. In Mark's day the word announced a king's victory. John the Baptist goes ahead like a herald, getting the road ready for the King.</p></div>
+      <div class="bite"><small>Think</small><p>Simon and Andrew left their nets “at once”. What would be hard for you to leave?</p></div>
+      <div class="bite extra" id="ph-extra"></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="head">
+    <span class="step">3 · How the plans look</span>
+    <h2>Three designs for the plan screens</h2>
+    <p class="prose">These sketches show the shape of each design, not the final look. All three would use the site's colours and both languages.</p>
+  </div>
+  <div class="grid" style="grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));">
+    <article class="card">
+      <h3>A · The path</h3>
+      <div class="mock">
+        <div class="path">
+          <div class="stop done"><span class="dot">1</span>Creation · Genesis 1–2</div>
+          <div class="stop done"><span class="dot">2</span>The fall · Genesis 3</div>
+          <div class="stop now"><span class="dot">3</span><b>Noah · Genesis 6–9</b></div>
+          <div class="stop"><span class="dot">4</span>The call of Abraham</div>
+          <div class="stop"><span class="dot">5</span>Isaac on the mountain</div>
+          <div class="stop"><span class="dot">6</span>Jacob's ladder</div>
+        </div>
+      </div>
+      <p class="meta">A winding road of daily stops, grouped into regions (“In the beginning”, “The fathers”…). Each day opens as one scrolling page, like the Holy Mass journey.</p>
+      <ul class="pros"><li>You always see where you are and how far you've come</li><li>Reuses the Holy Mass pattern readers already know</li><li class="con">Long plans make long roads</li><li class="con">Each day is still one long page</li></ul>
+    </article>
+    <article class="card pick">
+      <span class="badge">My pick</span>
+      <h3>B · Daily cards</h3>
+      <div class="mock">
+        <div class="stack">
+          <div></div><div></div>
+          <div><small>Card 1 of 5 · Hook</small>Mark writes fast. In twenty verses: a wild prophet, a voice from heaven, and four fishermen who drop everything.</div>
+        </div>
+        <div class="dots"><i></i><i></i><i></i><i></i><i></i></div>
+      </div>
+      <p class="meta">A day is 4–6 cards you swipe or tap through: Hook → Read → Understand → Think → (your style's extra) → Done. A small strip at the top shows the plan's progress.</p>
+      <ul class="pros"><li>Bite-sized: one idea per screen, made for short attention</li><li>Feels like the apps this age group already uses</li><li>A clear “done” moment every day</li><li class="con">The longer passage still opens in the full reader</li></ul>
+    </article>
+    <article class="card">
+      <h3>C · Plan library and calendar</h3>
+      <div class="mock">
+        <div class="shelf"><span>Big Story</span><span>Meet Jesus</span><span>People</span><span>Places</span><span>+4</span></div>
+        <div class="cal">
+          <span class="y">1</span><span class="y">2</span><span class="y">3</span><span>4</span><span>5</span><span>6</span><span>7</span>
+          <span>8</span><span>9</span><span>10</span><span>11</span><span>12</span><span>13</span><span>14</span>
+        </div>
+        <p class="meta">This week: Mark 4 · Mark 5 · Mark 6</p>
+      </div>
+      <p class="meta">A shelf of plans with filters, and a calendar with a tick for each day read. Each day is a checklist of passages.</p>
+      <ul class="pros"><li>Clear for planners who like to see the whole month</li><li>Simplest to build</li><li class="con">Feels like homework, which is what we're trying to avoid</li><li class="con">Missed days stand out as gaps</li></ul>
+    </article>
+  </div>
+</section>
+
+<section>
+  <div class="head">
+    <span class="step">4 · How the plans get made</span>
+    <h2>Three ways to create the plans</h2>
+    <p class="prose">This matters most for quality. A plan is only as good as its hooks and explanations, and those need writing.</p>
+  </div>
+  <div class="grid" style="grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));">
+    <article class="card">
+      <h3>1 · Written by hand, fixed</h3>
+      <p class="meta">Each plan is written day by day by a person and reviewed by a priest. Everyone on the same plan reads the same days.</p>
+      <ul class="pros"><li>Best quality and a single voice</li><li>Easy for a priest to approve as a whole</li><li class="con">Slow: eight plans of about 30 days is around 240 days to write</li><li class="con">Doesn't adapt to the reader</li></ul>
+    </article>
+    <article class="card">
+      <h3>2 · Assembled from the site's data</h3>
+      <p class="meta">Rules pick the passages from what the site already holds: people from the Bible history chart, places from the atlas, questions from Faith &amp; Evidence, psalms from the Agpeya. The explanation is taken from the commentary.</p>
+      <ul class="pros"><li>Fast: many plans at once</li><li>Always in step with the rest of the site</li><li class="con">No hooks, so it reads like a list of references</li><li class="con">The commentary is long and scholarly for this reader</li></ul>
+    </article>
+    <article class="card pick">
+      <span class="badge">My pick</span>
+      <h3>3 · Building blocks and a short quiz</h3>
+      <p class="meta">Write about 150 reusable “days” once. Each has a passage, hook, short explanation and question, tagged by interest, length and difficulty. A four-question quiz finds the reader's interest, pace, style and experience, then builds their plan from the blocks. Progress is kept on the reader's device, so there are no accounts.</p>
+      <ul class="pros"><li>Every reader gets a plan that fits, from one set of writing</li><li>A block can serve several plans (Joseph is in “Big Story” and “People”)</li><li>Each block is small enough for a priest to review</li><li class="con">More to build than option 1</li></ul>
+    </article>
+  </div>
+  <p class="prose">With option 3, I'd draft the blocks from the existing commentary, people, places and evidence data. Each would be marked <b>Draft</b>, as in the Holy Mass, until a person has reviewed it. Bible text is never rewritten. Only the short framing around it is written new, in Arabic and English.</p>
+</section>
+
+<section>
+  <div class="head">
+    <span class="step">5 · Try it</span>
+    <h2>The “Find your plan” quiz</h2>
+    <p class="prose">This is the quiz option 3 would put at the start. It works here, so you can feel how quick it is.</p>
+  </div>
+  <form class="quiz" id="quiz">
+    <fieldset><legend>What pulls you in most?</legend><div class="choices" data-q="interest"></div></fieldset>
+    <fieldset><legend>How much time on a normal day?</legend><div class="choices" data-q="pace"></div></fieldset>
+    <fieldset><legend>Which sounds most like you?</legend><div class="choices" data-q="style"></div></fieldset>
+    <fieldset><legend>Have you read the Bible before?</legend><div class="choices" data-q="exp"></div></fieldset>
+    <div class="result" id="result"></div>
+  </form>
+</section>
+
+<section>
+  <div class="head">
+    <span class="step">6 · Your choice</span>
+    <h2>Pick, then copy your choices to me</h2>
+  </div>
+  <form class="decide" id="decide">
+    <fieldset><legend>Design for the plan screens</legend><div class="choices" data-d="design"></div></fieldset>
+    <fieldset><legend>How the plans get made</legend><div class="choices" data-d="make"></div></fieldset>
+    <fieldset><legend>Progress and rewards</legend><div class="choices" data-d="reward"></div><p class="note">Whatever you choose here, I'd keep scores and streaks away from the Agpeya and the Holy Mass, because they are prayer.</p></fieldset>
+    <fieldset><legend>Plans to build first (pick any)</legend><div class="choices" data-d="first"></div></fieldset>
+    <div class="summary">
+      <pre id="summary"></pre>
+      <button type="button" class="copy" id="copy">Copy my choices</button>
+    </div>
+  </form>
+</section>
+
+</main>
+
+<script>
+const PLANS = [
+  { id: 'story', name: 'The Big Story', who: 'For story lovers', len: '40 days', hook: 'From the garden to the Church in forty readings. Each day shows where you are on the Bible history wheel.',
+    days: ['Creation · Genesis 1–2', 'The fall · Genesis 3', 'Noah · Genesis 6–9'], uses: ['Bible history chart', 'Bible reader'] },
+  { id: 'jesus', name: 'Meet Jesus', who: 'For first-timers', len: '16 days', hook: 'The Gospel of Mark, a chapter a day. It is the shortest and fastest Gospel, written by the founder of our Church.',
+    days: ['Mark 1 · four fishermen drop their nets', 'Mark 2 · a man lowered through a roof', 'Mark 3 · twelve are chosen'], uses: ['Bible reader', 'Commentary'] },
+  { id: 'people', name: 'Heroes and Flawed People', who: 'For people-watchers', len: '30 days', hook: 'One person a day: Joseph, Ruth, David, Jonah, Esther, Peter, Mary Magdalene, Paul. Real people with real failures.',
+    days: ['Joseph sold by his brothers · Genesis 37', 'Ruth stays · Ruth 1', 'David and Goliath · 1 Samuel 17'], uses: ['Bible history chart', 'Person panels'] },
+  { id: 'places', name: 'Walk the Land', who: 'For visual and curious readers', len: '21 days', hook: 'Follow the map: Ur, Egypt, Sinai, Jerusalem, Babylon, Nazareth, the Sea of Galilee, and finally Alexandria.',
+    days: ['Abraham leaves Ur · Genesis 11:31–12:9', 'Through the Red Sea · Exodus 14', 'Exile to Babylon · 2 Kings 25'], uses: ['Bible atlas', 'Bible reader'] },
+  { id: 'questions', name: 'Big Questions', who: 'For thinkers and doubters', len: '21 days', hook: 'Can I trust the Gospels? Why does God allow suffering? Who is Jesus? A passage each day, with the Church’s answer beside it.',
+    days: ['Can I trust it? · Luke 1:1–4', 'Why suffering? · Job 1–2', 'Who is Jesus? · John 1:1–18'], uses: ['Faith & Evidence', 'Bible reader'] },
+  { id: 'psalms', name: 'Pray with the Psalms', who: 'For quiet, reflective readers', len: '30 days', hook: 'The psalms the Church prays in the Agpeya, one a day, with when in the day it is prayed and why.',
+    days: ['Psalm 1 · two ways', 'Psalm 22 (23) · the shepherd', 'Psalm 50 (51) · have mercy on me'], uses: ['Agpeya', 'Bible reader'] },
+  { id: 'life', name: 'Wisdom for Real Life', who: 'For practical readers', len: '31 days', hook: 'Anxiety, friendship, anger, identity, purity, phones and time. What the Bible actually says, in short readings.',
+    days: ['Anxiety · Matthew 6:25–34', 'Friendship · Proverbs 17:17; 1 Samuel 18', 'Anger · James 1:19–27'], uses: ['Bible reader', 'Commentary'] },
+  { id: 'church', name: 'With the Church Year', who: 'For readers who want to keep step with church', len: 'Follows the season', hook: 'Read what the Church reads in each season: Great Lent, Holy Week, the Nativity fast, the feasts.',
+    days: ['Great Lent · the temptation, Matthew 4:1–11', 'Holy Week · day by day', 'The Nativity fast · Luke 1'], uses: ['Bible reader'], later: ['Daily readings (Katameros)'] },
+];
+
+const STYLES = [
+  { id: 'explorer', name: 'Explorer', desc: 'Curious. Follows one link to the next and wants to know what’s behind things.' },
+  { id: 'achiever', name: 'Achiever', desc: 'Likes a goal, seeing progress and finishing things.' },
+  { id: 'reflector', name: 'Reflector', desc: 'Quiet. Wants to sit with one thought and keep it.' },
+  { id: 'connector', name: 'Connector', desc: 'Does things with friends. Keeps going when someone else is too.' },
+];
+const EXTRA = {
+  explorer: '<small>Go deeper</small><p>Mark is quoting Isaiah 40:3. Read it. Where is the Jordan? Open it on the atlas. Every verse here has cross-references: follow one.</p>',
+  achiever: '<small>Your progress</small><p>Day 1 of 16 · Mark chapter 1 of 16 done after today.</p><p>Quick check: who baptised Jesus?</p><div class="opt"><span>Peter</span><span>John</span><span>Andrew</span></div>',
+  reflector: '<small>Keep one line</small><p>Write one sentence for yourself. It stays on this device only.</p><textarea id="jt" aria-label="Your line"></textarea>',
+  connector: '<small>Read together</small><p>Send this day to a friend. You’ll both be on Day 1 and can compare your answers to “Think”.</p><span class="linky">Send to a friend →</span>',
+};
+
+const plansEl = document.getElementById('plans');
+plansEl.innerHTML = PLANS.map(p => `
+  <article class="card">
+    <span class="who">${p.who}</span>
+    <h3>${p.name}</h3>
+    <p class="meta">${p.len}</p>
+    <p>${p.hook}</p>
+    <ol class="days">${p.days.map(d => `<li>${d}</li>`).join('')}</ol>
+    <div class="uses">${p.uses.map(u => `<span class="chip">${u}</span>`).join('')}${(p.later || []).map(u => `<span class="chip later">${u} · to build</span>`).join('')}</div>
+  </article>`).join('');
+
+const stylesEl = document.getElementById('styles');
+stylesEl.innerHTML = STYLES.map((s, i) => `<button type="button" class="style-btn" data-style="${s.id}" aria-pressed="${i === 0}"><b>${s.name}</b><span>${s.desc}</span></button>`).join('');
+const extraEl = document.getElementById('ph-extra');
+function showStyle(id) {
+  stylesEl.querySelectorAll('button').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.style === id)));
+  extraEl.innerHTML = EXTRA[id];
+}
+stylesEl.addEventListener('click', e => { const b = e.target.closest('button'); if (b) showStyle(b.dataset.style); });
+showStyle('explorer');
+
+function radios(container, name, items, multi) {
+  container.innerHTML = items.map(([v, l], i) => `<label><input type="${multi ? 'checkbox' : 'radio'}" name="${name}" value="${v}" id="${name}-${v}" ${(!multi && i === 0) || (multi && i < 2) ? 'checked' : ''}>${l}</label>`).join('');
+}
+
+// Quiz
+const Q = {
+  interest: [['story', 'Stories'], ['people', 'People'], ['places', 'Places and maps'], ['questions', 'Big questions'], ['psalms', 'Prayer'], ['life', 'Advice for life'], ['jesus', 'I just want to start']],
+  pace: [['5', '5 minutes'], ['15', '15 minutes'], ['30', '30 minutes']],
+  style: STYLES.map(s => [s.id, s.name + ': ' + s.desc.split('.')[0].toLowerCase()]),
+  exp: [['new', 'Never'], ['some', 'Bits of it'], ['lots', 'A lot']],
+};
+const quiz = document.getElementById('quiz');
+quiz.querySelectorAll('[data-q]').forEach(c => radios(c, 'q-' + c.dataset.q, Q[c.dataset.q]));
+function val(form, name) { const x = form.querySelector(`input[name="${name}"]:checked`); return x ? x.value : null; }
+function updateQuiz() {
+  let interest = val(quiz, 'q-interest');
+  const pace = val(quiz, 'q-pace'), style = val(quiz, 'q-style'), exp = val(quiz, 'q-exp');
+  if (exp === 'new' && interest === 'story') interest = 'jesus';
+  const plan = PLANS.find(p => p.id === interest);
+  const s = STYLES.find(x => x.id === style);
+  const size = { '5': 'a short passage (about 10 verses)', '15': 'a full chapter', '30': 'a chapter plus the commentary and one “go deeper” link' }[pace];
+  const level = { new: 'Every hard word is explained the first time it appears.', some: 'Hard words are explained when you tap them.', lots: 'Fewer explanations, more cross-references and commentary.' }[exp];
+  const extra = { explorer: 'a “Go deeper” card with links', achiever: 'a progress card and a one-question check', reflector: 'a private one-line journal', connector: 'a “Read together” card to send to a friend' }[style];
+  const note = exp === 'new' && val(quiz, 'q-interest') === 'story' ? '<p class="meta">You chose stories but you’re new, so you start with Mark: it’s the story of Jesus told fast. The Big Story comes next.</p>' : '';
+  document.getElementById('result').innerHTML = `<span class="step">Your plan</span><h3>${plan.name} · ${plan.len}</h3><p>Each day: ${size}, with ${extra}. ${level}</p><p class="meta">Starts with: ${plan.days[0]}</p>${note}`;
+}
+quiz.addEventListener('change', updateQuiz);
+updateQuiz();
+
+// Decision
+const D = {
+  design: [['B', 'B · Daily cards (my pick)'], ['A', 'A · The path'], ['C', 'C · Library and calendar'], ['AB', 'B inside A: cards for the day, path for the overview']],
+  make: [['3', '3 · Building blocks and quiz (my pick)'], ['1', '1 · Written by hand, fixed'], ['2', '2 · Assembled from data']],
+  reward: [['gentle', 'Gentle progress only (my pick)'], ['none', 'No progress tracking'], ['game', 'Streaks, badges and quizzes']],
+  first: PLANS.map(p => [p.id, p.name]),
+};
+const decide = document.getElementById('decide');
+decide.querySelectorAll('[data-d]').forEach(c => radios(c, 'd-' + c.dataset.d, D[c.dataset.d], c.dataset.d === 'first'));
+const label = (k, v) => (D[k].find(x => x[0] === v) || [, '—'])[1].replace(' (my pick)', '');
+function updateSummary() {
+  const first = [...decide.querySelectorAll('input[name="d-first"]:checked')].map(x => label('first', x.value));
+  document.getElementById('summary').textContent =
+    `Reading plans: my choices\n` +
+    `Design: ${label('design', val(decide, 'd-design'))}\n` +
+    `How plans are made: ${label('make', val(decide, 'd-make'))}\n` +
+    `Progress and rewards: ${label('reward', val(decide, 'd-reward'))}\n` +
+    `Build first: ${first.length ? first.join(', ') : 'none chosen'}`;
+}
+decide.addEventListener('change', updateSummary);
+updateSummary();
+document.getElementById('copy').addEventListener('click', async e => {
+  const btn = e.currentTarget;
+  try { await navigator.clipboard.writeText(document.getElementById('summary').textContent); btn.textContent = 'Copied. Paste it in the chat'; }
+  catch { btn.textContent = 'Select the text above and copy it'; }
+  setTimeout(() => { btn.textContent = 'Copy my choices'; }, 2500);
+});
+</script>
+</body>
+</html>

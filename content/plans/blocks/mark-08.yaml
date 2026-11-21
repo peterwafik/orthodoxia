@@ -1,0 +1,44 @@
+id: mark-08
+passages:
+  short: MRK.8.27-33
+  full: MRK.8.27-38
+  deep: MRK.8
+title:
+  en: “Who do you say I am?”
+  ar: «من تقولون إني أنا؟»
+hook:
+  en: This is the exact middle of Mark. Jesus asks the question the whole book is about. Peter gets the answer right, and a minute later gets everything wrong.
+  ar: هذا منتصف إنجيل مرقس تمامًا. يسأل يسوع السؤال الذي يدور حوله الكتاب كله. ويجيب بطرس الجواب الصحيح، وبعد دقيقة يخطئ في كل شيء.
+explain:
+  en: "“Thou art the Christ” means: you are the promised King. But Peter expects a King who wins by power. Jesus says the Son of Man must suffer, die and rise again, and those who follow him must take up their cross."
+  ar: "«أنت المسيح» تعني: أنت الملك الموعود. لكن بطرس كان ينتظر ملكًا ينتصر بالقوة. فقال يسوع إن ابن الإنسان ينبغي أن يتألم ويُقتل ويقوم، وإن من يتبعه يحمل صليبه."
+think:
+  en: If Jesus asked you today, “Who do you say I am?”, what would you honestly answer?
+  ar: "لو سألك يسوع اليوم: «من تقول إني أنا؟»، بماذا تجيب بصدق؟"
+check:
+  question:
+    en: What did Peter answer?
+    ar: بماذا أجاب بطرس؟
+  options:
+    - en: You are John the Baptist
+      ar: أنت يوحنا المعمدان
+    - en: You are Elijah
+      ar: أنت إيليا
+    - en: You are the Christ
+      ar: أنت المسيح
+  answer: 2
+  why:
+    en: Mark 8:29. Others guessed John, Elijah or a prophet.
+    ar: "مرقس ٨: ٢٩. وظن آخرون أنه يوحنا أو إيليا أو أحد الأنبياء."
+deeper:
+  - kind: place
+    id: caesarea-philippi
+  - kind: question
+    slug: did-jesus-claim-divine-authority
+words:
+  - christ
+  - son-of-man
+sources: []
+review:
+  status: draft
+  origin: ai-generated

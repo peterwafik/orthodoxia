@@ -1,0 +1,44 @@
+id: nativity-02-abraham
+passages:
+  short: GEN.12.1-3
+  full: GEN.12.1-9
+  deep: GEN.12
+title:
+  en: A blessing for every family
+  ar: بركة لكل العائلات
+hook:
+  en: "God asks a 75-year-old man to leave home for a country he has never seen. The promise that comes with it is bigger than one family: “in thee shall all families of the earth be blessed.”"
+  ar: "يطلب الله من رجل في الخامسة والسبعين أن يترك بيته إلى أرض لم يرها قط. والوعد الذي معه أكبر من عائلة واحدة: «وتتبارك فيك جميع قبائل الأرض»."
+explain:
+  en: "Abraham’s family will carry a blessing meant for the whole world. Matthew begins his account of Christ’s birth with exactly this name: “Jesus Christ, the son of David, the son of Abraham.” The promise travels through the generations to Bethlehem."
+  ar: "ستحمل عائلة إبراهيم بركة موجهة إلى العالم كله. ويبدأ متى روايته عن ميلاد المسيح بهذا الاسم تمامًا: «يسوع المسيح ابن داود ابن إبراهيم». والوعد يسافر عبر الأجيال حتى بيت لحم."
+think:
+  en: Abraham went “not knowing whither he went”. What step might God be asking you to take without seeing the whole road?
+  ar: خرج إبراهيم «وهو لا يعلم إلى أين يأتي». ما الخطوة التي قد يطلبها الله منك دون أن ترى الطريق كله؟
+check:
+  question:
+    en: Who would be blessed through Abraham?
+    ar: من يتبارك في إبراهيم؟
+  options:
+    - en: Only his children
+      ar: أولاده فقط
+    - en: All families of the earth
+      ar: جميع قبائل الأرض
+    - en: The kings of Egypt
+      ar: ملوك مصر
+  answer: 1
+  why:
+    en: Genesis 12:3. Paul calls this promise the gospel preached beforehand (Galatians 3:8).
+    ar: "التكوين ١٢: ٣. ويسمّي بولس هذا الوعد بشارة سبقت (غلاطية ٣: ٨)."
+deeper:
+  - kind: verse
+    ref: GAL.3.8
+  - kind: place
+    id: haran
+  - kind: person
+    key: Abraham@Gen.11.26-1Pe
+words: []
+sources: []
+review:
+  status: draft
+  origin: ai-generated

@@ -1,0 +1,44 @@
+id: nativity-07-unto-us
+passages:
+  short: ISA.9.6-7
+  full: ISA.9.1-7
+  deep: ISA.9
+title:
+  en: “Unto us a child is born”
+  ar: «لأنه يولد لنا ولد»
+hook:
+  en: People walking in darkness see a great light. The reason? Not an army, not a hero, but a baby. And his names are names no ordinary baby could carry.
+  ar: شعب سالك في الظلمة يرى نورًا عظيمًا. والسبب؟ ليس جيشًا ولا بطلًا، بل طفل. وأسماؤه أسماء لا يستطيع طفل عادي أن يحملها.
+explain:
+  en: "“Wonderful, Counsellor, The mighty God, The everlasting Father, The Prince of Peace.” Isaiah calls the child “mighty God”. The Church sees here the mystery of Christmas: the child born in Bethlehem is God the Word made man, without ceasing to be God."
+  ar: "«عجيبًا مشيرًا إلهًا قديرًا أبًا أبديًا رئيس السلام». يدعو إشعياء الطفل «إلهًا قديرًا». وترى الكنيسة هنا سر الميلاد: الطفل المولود في بيت لحم هو الله الكلمة المتجسد، دون أن يكف عن أن يكون الله."
+think:
+  en: Which of the child’s five names speaks most to you today, and why?
+  ar: أي اسم من أسماء الطفل الخمسة يكلمك أكثر اليوم، ولماذا؟
+check:
+  question:
+    en: Which of these is one of the child’s names in Isaiah 9:6?
+    ar: "أيّ هذه من أسماء الطفل في إشعياء ٩: ٦؟"
+  options:
+    - en: Prince of Peace
+      ar: رئيس السلام
+    - en: Son of Thunder
+      ar: ابن الرعد
+    - en: King of Babylon
+      ar: ملك بابل
+  answer: 0
+  why:
+    en: "Isaiah 9:6: Wonderful, Counsellor, the mighty God, the everlasting Father, the Prince of Peace."
+    ar: "إشعياء ٩: ٦: عجيبًا مشيرًا إلهًا قديرًا أبًا أبديًا رئيس السلام."
+deeper:
+  - kind: verse
+    ref: MAT.4.13-16
+  - kind: place
+    id: galilee
+  - kind: question
+    slug: divine-and-human-christ
+words: []
+sources: []
+review:
+  status: draft
+  origin: ai-generated

@@ -1,0 +1,20 @@
+# The Church Year plan: seasons and the blocks read on each day of them. Season dates are computed on the reader's
+# device (apps/web/src/lib/plans/computus.ts) and follow the registered source below. Days not yet written are left
+# out; the plan says how far it reaches.
+source: wikipedia-coptic-fasting
+seasons:
+  - id: nativity-fast
+    name:
+      en: the Nativity fast
+      ar: صوم الميلاد
+    days:
+      - nativity-01-first-promise
+      - nativity-02-abraham
+      - nativity-03-the-lamb
+      - nativity-04-the-star
+      - nativity-05-davids-house
+      - nativity-06-immanuel
+      - nativity-07-unto-us
+      - nativity-08-branch-of-jesse
+      - nativity-09-bethlehem
+      - nativity-10-comfort

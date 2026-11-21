@@ -2,6 +2,7 @@
 import CopticCross from './CopticCross.astro';
 import LineIcon from './LineIcon.astro';
 import { apoPath } from '../lib/apologetics/index.ts';
+import { LIVE_PLANS } from '../lib/plans/catalog.ts';
 import { explorerPath, localePath, otherLocale, t, type Locale } from '../i18n/index.ts';
 
 interface Props {
@@ -21,18 +22,21 @@ const faithBase = apoPath(locale);
 
 /** The pages in the bar that are links: Readings and Faith & Evidence are drop-downs, set between them. */
 const before = [
-  { href: localePath(locale, 'holy-mass'), label: strings.nav.holyMass },
   { href: localePath(locale, 'church-history'), label: strings.nav.churchHistory },
 ];
 const after = [
+  { href: localePath(locale, 'bible-history'), label: strings.nav.bibleHistory },
   { href: localePath(locale, 'bible-atlas'), label: strings.nav.atlas },
   { href: localePath(locale, 'about'), label: strings.nav.about },
 ];
 
-/** The reading pages, together: the Bible, the Agpeya and the cross-references. */
+/** The reading pages, together: the Bible, the Agpeya, the Holy Mass, the reading plans (once one is live) and the cross-references. */
 const readings = [
   { href: localePath(locale, 'bible'), icon: 'bible' as const, en: ['Bible', 'Arabic and English, with the deuterocanon'], ar: ['الكتاب المقدس', 'بالعربية والإنجليزية مع الأسفار القانونية الثانية'] },
   { href: localePath(locale, 'agpeya'), icon: 'clock' as const, en: ['Agpeya', 'The seven hours of prayer'], ar: ['الأجبية', 'صلوات الساعات السبع'] },
+  { href: localePath(locale, 'holy-mass'), icon: 'chalice' as const, en: ['Holy Mass', 'The Divine Liturgy step by step'], ar: ['القداس الإلهي', 'القداس خطوة خطوة'] },
+  { href: localePath(locale, 'calendar'), icon: 'clock' as const, en: ['Calendar & Synaxarium', 'Feasts, fasts and the saints of each day'], ar: ['التقويم والسنكسار', 'الأعياد والأصوام وقديسو كل يوم'] },
+  ...(LIVE_PLANS.length > 0 ? [{ href: localePath(locale, 'plans'), icon: 'compass' as const, en: ['Reading plans', 'A little each day, one idea at a time'], ar: ['خطط القراءة', 'قليل كل يوم، فكرة واحدة في كل مرة'] }] : []),
   { href: explorerPath(locale), icon: 'arcs' as const, en: ['Cross-references', 'Every verse and what it points to'], ar: ['الشواهد', 'كل آية وما تشير إليه'] },
   { href: explorerPath(locale, 'threads'), icon: 'branch' as const, en: ['Read with threads', 'A chapter and where its verses lead'], ar: ['اقرأ مع الخيوط', 'أصحاح وإلى أين تقود آياته'] },
 ];
@@ -41,7 +45,6 @@ const faith = [
   { href: faithBase, icon: 'question' as const, en: ['Questions', 'Ask, search and read the evidence'], ar: ['الأسئلة', 'اسأل وابحث واقرأ الأدلة'] },
   { href: apoPath(locale, 'journeys'), icon: 'compass' as const, en: ['Journeys', 'Guided, step by step'], ar: ['المسارات', 'مسارات موجَّهة خطوة بخطوة'] },
   { href: apoPath(locale, 'sources'), icon: 'scroll' as const, en: ['Sources', 'The catalogued works'], ar: ['المصادر', 'الأعمال المفهرسة'] },
-  { href: apoPath(locale, 'timeline'), icon: 'hourglass' as const, en: ['Timeline', 'Walk through history'], ar: ['الخط الزمني', 'امشِ عبر التاريخ'] },
   { href: apoPath(locale, 'glossary'), icon: 'book' as const, en: ['Glossary', 'Terms explained'], ar: ['المصطلحات', 'شرح المصطلحات'] },
   { href: apoPath(locale, 'methodology'), icon: 'scale' as const, en: ['Method', 'How evidence is weighed'], ar: ['المنهج', 'كيف تُوزن الأدلة'] },
   { href: apoPath(locale, 'saved'), icon: 'bookmark' as const, en: ['Saved', 'Kept on this device'], ar: ['المحفوظات', 'تبقى على هذا الجهاز'] },
@@ -50,8 +53,8 @@ const faith = [
 
 const site = [
   { href: localePath(locale), icon: 'home' as const, label: strings.nav.home },
-  { href: localePath(locale, 'holy-mass'), icon: 'chalice' as const, label: strings.nav.holyMass },
   { href: localePath(locale, 'church-history'), icon: 'branch' as const, label: strings.nav.churchHistory },
+  { href: localePath(locale, 'bible-history'), icon: 'hourglass' as const, label: strings.nav.bibleHistory },
   { href: localePath(locale, 'bible-atlas'), icon: 'globe' as const, label: strings.nav.atlas },
   { href: localePath(locale, 'about'), icon: 'info' as const, label: strings.nav.about },
 ];
@@ -69,7 +72,7 @@ const text = {
   quick: ar ? 'تنقل سريع' : 'Quick navigation',
 };
 const inFaith = current.startsWith(faithBase);
-const inReadings = [localePath(locale, 'bible'), localePath(locale, 'agpeya'), explorerPath(locale)].some((base) => current.startsWith(base));
+const inReadings = [localePath(locale, 'bible'), localePath(locale, 'agpeya'), localePath(locale, 'holy-mass'), localePath(locale, 'calendar'), localePath(locale, 'plans'), explorerPath(locale)].some((base) => current.startsWith(base));
 ---
 
 <header class="fh">

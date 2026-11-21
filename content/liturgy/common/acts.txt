@@ -21,13 +21,21 @@ ar| وفي ختامه يقول.
 en| The word of the Lord shall grow, multiply, be mighty, and be confirmed in the holy Church of God. Amen.
 ar| وكلمة الرب تنمو وتزداد وتعتز وتثبت في كنيسة الله المقدسة. آمين.
 
-@rubric
-en| If the Praxis is read in English , the following introduction is said .
-ar| إذا قرأ الابركسيس عربيا، تقال مقدمته وهي هذه.
+@deacon
+en| A reading from the Acts of our fathers the pure apostles, who were invested with the grace of the Holy Spirit. May their blessing be with us all. Amen.
+ar| فصل من أعمال آبائنا الرسل الأطهار، المشمولين بنعمة الروح القدس، بركتهم تكون معنا. آمين.
 
 @rubric
-en| A reading from the Acts of our fathers the pure apostles, who were invested with the grace of the Holy Spirit. May their blessing be with us all. Amen. After the reading, the following conclusion is said . The word of the Lord shall grow, multi ply, be mighty, and be confirmed in the holy Church of God. Amen. After completing the Litany of Oblations, and d uring the reading of the Acts, the priest makes a sign of the cross over the incense box, and says:
-ar| فصل من أعمال آبائنا الرسل الأطهار، المشمولين بنعمة الروح القدس، بركتهم تكون معنا. آمين. وفي ختامه يقول. لم تزل كلمة الرب تنمو وتزداد وتعتز وتثبت في كنيسة الله المقدسة. آمين. وبعد إتمام أوشية القرابين وفي أثناء تلاوة الإبركسيس، يرشم الكاهن درج البخور رشما واحداً وهو يقول:
+en| After the reading, the following conclusion is said.
+ar| وفي ختامه يقول.
+
+@deacon
+en| The word of the Lord shall grow, multiply, be mighty, and be confirmed in the holy Church of God. Amen.
+ar| لم تزل كلمة الرب تنمو وتزداد وتعتز وتثبت في كنيسة الله المقدسة. آمين.
+
+@rubric
+en| After completing the Litany of Oblations, and during the reading of the Acts, the priest makes a sign of the cross over the incense box, and says:
+ar| وبعد إتمام أوشية القرابين وفي أثناء تلاوة الإبركسيس، يرشم الكاهن درج البخور رشما واحداً وهو يقول:
 
 @priest
 en| Glory and honor, honor and glory to the All - holy Trinity, the Father and the Son and the Holy Spirit, now and at all times and unto the age of all ages. Amen.

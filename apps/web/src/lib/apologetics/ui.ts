@@ -78,7 +78,6 @@ const UI_LINES = {
   nav_home: { en: 'Overview', ar: 'نظرة عامة' },
   nav_sources: { en: 'Sources', ar: 'المصادر' },
   nav_journeys: { en: 'Journeys', ar: 'المسارات' },
-  nav_timeline: { en: 'Timeline', ar: 'الخط الزمني' },
   nav_glossary: { en: 'Glossary', ar: 'المصطلحات' },
   nav_method: { en: 'Methodology', ar: 'المنهج' },
   nav_about: { en: 'About', ar: 'عن القسم' },
@@ -166,9 +165,6 @@ const UI_LINES = {
   stepDraft: { en: 'Draft', ar: 'مسودة' },
   journeyStartFor: { en: 'For', ar: 'لمن' },
 
-  timelineTitle: { en: 'Timeline', ar: 'الخط الزمني' },
-  timelineIntro: { en: 'Three different things are kept apart: an event, the composition of a text, and a manuscript or object that survives. A date for one is not a date for the others.', ar: 'نفصل بين ثلاثة أشياء مختلفة: الحدث، وتأليف النص، والمخطوط أو القطعة الباقية. تاريخ أحدها ليس تاريخًا للآخرين.' },
-  timelineKey: { en: 'Key', ar: 'المفتاح' },
   dateBasis: { en: 'Basis for the date', ar: 'أساس التاريخ' },
 
   glossaryTitle: { en: 'Glossary', ar: 'قاموس المصطلحات' },

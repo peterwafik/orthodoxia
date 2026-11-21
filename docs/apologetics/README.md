@@ -11,7 +11,7 @@ validated by tests, built into Astro pages and a build-time search index. It add
 | Source catalogue (S01–S61 seeds, S62 site Bible reader) | `.../sources.ts` |
 | Topics and the question backlog (about 120) | `.../questions.ts` |
 | Articles (one file per question) | `.../articles/<question-id>.ts` |
-| Glossary, journeys, timeline, methodology/about text | `.../glossary.ts`, `journeys.ts`, `timeline.ts`, `pages.ts` |
+| Glossary, journeys, methodology/about text | `.../glossary.ts`, `journeys.ts`, `pages.ts` |
 | Link-check result | `.../link-report.json` (written by the script below) |
 | Pages | `apps/web/src/pages/[lang]/apologetics/` |
 | Labels, search, helpers | `apps/web/src/lib/apologetics/` |

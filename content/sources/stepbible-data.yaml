@@ -1,5 +1,5 @@
 id: stepbible-data
-title: STEPBible Data (TAHOT, TAGNT, lexicons, TVTMS versification)
+title: STEPBible Data (TIPNR proper names; TAHOT, TAGNT, lexicons, TVTMS versification)
 organization: Tyndale House, Cambridge (STEP Bible)
 url: https://github.com/STEPBible/STEPBible-Data
 languages: [he, grc, en]
@@ -8,12 +8,12 @@ license:
   id: CC-BY-4.0
   statement: "CC BY 4.0 ... Include any part of STEPBible-Data in any software or publications without requesting permission"
   verifiedUrl: https://github.com/STEPBible/STEPBible-Data/blob/master/README.md
-inUse: false
+inUse: true
 usage: import
 redistributionAllowed: true
-attribution: "STEP Bible (www.STEPBible.org), CC BY 4.0."
+attribution: "People of the Bible chart: names, families and verses from TIPNR (Translators Individualised Proper Names with all References), STEP Bible (www.STEPBible.org), Tyndale House Cambridge, CC BY 4.0. Modified: reduced to men and women, Septuagint-only references dropped, verse lists shortened; changes are listed in scripts/bible-people/build.ts."
 commercialUse: allowed
 modification: allowed
-lastVerifiedAt: "2026-10-11"
-notes: Planned. The README asks that changes to the data be recorded and made available. TVTMS is the candidate versification mapping (KJV, LXX, Arabic).
-notesAr: "مخطط له. يطلب ملف التعريف أن تُدوَّن أي تغييرات في البيانات وأن تُتاح. جدول TVTMS هو المرشّح لمطابقة ترقيم الآيات (الملك جيمس والسبعينية والعربية)."
+lastVerifiedAt: "2026-11-21"
+notes: TIPNR supplies every man and woman the Bible names, with family links, period and verses, for the Bible history chart (/bible-history); the dates, summaries and Arabic names there are the project's own. TAHOT, TAGNT and TVTMS are planned (TVTMS is the candidate versification mapping for KJV, LXX and Arabic). The README asks that changes to the data be recorded and made available.
+notesAr: "تقدّم بيانات «تِبْنَر» كل رجل وامرأة يذكرهم الكتاب المقدس، مع روابط العائلة والعصر والآيات، لمخطط تاريخ الكتاب المقدس؛ أما التواريخ والملخصات والأسماء العربية فيه فمن عمل المشروع. وبقية البيانات مخطط لها (وجدول TVTMS هو المرشّح لمطابقة ترقيم الآيات). ويطلب ملف التعريف أن تُدوَّن أي تغييرات في البيانات وأن تُتاح."

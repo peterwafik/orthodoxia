@@ -1,0 +1,411 @@
+---
+/**
+ * The start of the reading plans: four quick questions suggest a plan (interest, time, style, experience), and the
+ * shelf lists every live plan. Answers and progress stay in this browser (lib/plans/profile.ts).
+ */
+import Base from '../../../layouts/Base.astro';
+import { LOCALES, type Locale } from '../../../i18n/index.ts';
+import { LIVE_PLANS, planDays } from '../../../lib/plans/load.ts';
+import { PLAN_UI, dayPath, num, planPath } from '../../../lib/plans/ui.ts';
+import { EXPERIENCES, INTERESTS, PACES, STYLES } from '../../../lib/plans/profile.ts';
+
+export function getStaticPaths() {
+  return LOCALES.map((lang) => ({ params: { lang } }));
+}
+
+const locale = Astro.params.lang as Locale;
+const ui = PLAN_UI[locale];
+const n = (value: number) => num(locale, value);
+const plans = LIVE_PLANS.map((plan) => ({
+  plan,
+  total: planDays(plan).length,
+  first: dayPath(locale, plan.id, 0),
+}));
+const interests = INTERESTS.filter((interest) => LIVE_PLANS.some((plan) => plan.interests.includes(interest)) || interest === 'start');
+const clientPlans = JSON.stringify(
+  plans.map(({ plan, total }) => ({ id: plan.id, name: plan.name[locale], interests: plan.interests, total, href: planPath(locale, plan.id), dayBase: planPath(locale, plan.id) })),
+);
+const clientText = JSON.stringify({ eachDay: ui.eachDay, extras: ui.extras, levels: ui.levels, eachDayIs: ui.eachDayIs, start: ui.start, cleared: ui.cleared, continueTemplate: ui.continueDay('{plan}', '{n}') });
+---
+
+<Base locale={locale} title={ui.title} description={ui.description}>
+  <section class="ps wrap" data-plans-start data-plans={clientPlans} data-text={clientText}>
+    <h1>{ui.title}</h1>
+    <p class="lede">{ui.lede}</p>
+
+    <a class="continue" hidden data-continue href="#"></a>
+
+    {plans.length === 0 ? (
+      <p class="empty">{ui.none}</p>
+    ) : (
+      <>
+        <form class="quiz" data-quiz>
+          <h2>{ui.quizTitle}</h2>
+          <fieldset>
+            <legend>{ui.qInterest}</legend>
+            <div class="choices">
+              {interests.map((interest, i) => (
+                <label><input type="radio" name="interest" value={interest} checked={i === 0} />{ui.interests[interest]}</label>
+              ))}
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend>{ui.qPace}</legend>
+            <div class="choices">
+              {PACES.map((pace) => (
+                <label><input type="radio" name="pace" value={pace} checked={pace === 15} />{ui.paces[pace]}</label>
+              ))}
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend>{ui.qStyle}</legend>
+            <div class="choices styles">
+              {STYLES.map((style) => (
+                <label><input type="radio" name="style" value={style} checked={style === 'explorer'} /><b>{ui.styles[style][0]}</b><small>{ui.styles[style][1]}</small></label>
+              ))}
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend>{ui.qExperience}</legend>
+            <div class="choices">
+              {EXPERIENCES.map((experience) => (
+                <label><input type="radio" name="experience" value={experience} checked={experience === 'some'} />{ui.experiences[experience]}</label>
+              ))}
+            </div>
+          </fieldset>
+          <div class="result" data-result aria-live="polite"></div>
+          <noscript><p class="empty">{ui.noScript}</p></noscript>
+        </form>
+
+        <h2>{ui.allPlans}</h2>
+        <ul class="shelf">
+          {plans.map(({ plan, total }) => (
+            <li>
+              <a href={planPath(locale, plan.id)}>
+                <small>{plan.who[locale]}</small>
+                <b>{plan.name[locale]}</b>
+                <span>{plan.description[locale]}</span>
+                <small class="len">{plan.kind === 'church-year' ? ui.perSeason : ui.days(n(total))}</small>
+              </a>
+            </li>
+          ))}
+        </ul>
+
+        <p class="privacy">{ui.privacy} <button type="button" class="link" data-clear>{ui.clear}</button></p>
+      </>
+    )}
+  </section>
+</Base>
+
+<script>
+  import { JOURNAL_KEY, PLANS_KEY, nextDay, parseState, planFor, serializeState, type Experience, type Pace, type Profile, type Style } from '../../../lib/plans/profile.ts';
+  import type { PlanInterest } from '@orthodoxia/content-schema';
+
+  interface ClientPlan {
+    id: string;
+    name: string;
+    interests: PlanInterest[];
+    total: number;
+    href: string;
+    dayBase: string;
+  }
+  interface ClientText {
+    eachDay: Record<string, string>;
+    extras: Record<string, string>;
+    levels: Record<string, string>;
+    eachDayIs: string;
+    start: string;
+    cleared: string;
+    continueTemplate: string;
+  }
+
+  const root = document.querySelector<HTMLElement>('[data-plans-start]');
+  if (root !== null) {
+    const plans = JSON.parse(root.dataset['plans']!) as ClientPlan[];
+    const text = JSON.parse(root.dataset['text']!) as ClientText;
+    const numbers = new Intl.NumberFormat(document.documentElement.lang === 'ar' ? 'ar-EG' : 'en-US');
+    const load = (): string | null => {
+      try {
+        return localStorage.getItem(PLANS_KEY);
+      } catch {
+        return null;
+      }
+    };
+    let state = parseState(load());
+    const dayHref = (plan: ClientPlan, index: number) => `${plan.dayBase}day-${index + 1}/`;
+
+    // Continue where the reader left off.
+    const continueLink = root.querySelector<HTMLAnchorElement>('[data-continue]')!;
+    const active = plans.find((plan) => plan.id === state.progress.active);
+    if (active !== undefined && active.total > 0) {
+      const index = nextDay(state.progress, active.id, active.total);
+      continueLink.href = dayHref(active, index);
+      continueLink.textContent = text.continueTemplate.replace('{plan}', active.name).replace('{n}', numbers.format(index + 1));
+      continueLink.hidden = false;
+    }
+
+    const form = root.querySelector<HTMLFormElement>('[data-quiz]');
+    const result = root.querySelector<HTMLElement>('[data-result]');
+    if (form !== null && result !== null) {
+      if (state.profile !== null) {
+        for (const [name, value] of Object.entries(state.profile)) {
+          const input = form.querySelector<HTMLInputElement>(`input[name="${name}"][value="${String(value)}"]`);
+          if (input !== null) input.checked = true;
+        }
+      }
+      const read = (): Profile => {
+        const value = (name: string) => form.querySelector<HTMLInputElement>(`input[name="${name}"]:checked`)?.value ?? '';
+        return {
+          interest: value('interest') as PlanInterest,
+          pace: Number(value('pace')) as Pace,
+          style: value('style') as Style,
+          experience: value('experience') as Experience,
+        };
+      };
+      const render = (): void => {
+        const profile = read();
+        const id = planFor(profile, plans);
+        const plan = plans.find((candidate) => candidate.id === id);
+        result.replaceChildren();
+        if (plan === undefined) return;
+        const heading = document.createElement('h3');
+        heading.textContent = plan.name;
+        const each = document.createElement('p');
+        each.textContent = `${text.eachDayIs} ${text.eachDay[String(profile.pace)]}, ${text.extras[profile.style]}. ${text.levels[profile.experience]}`;
+        const start = document.createElement('a');
+        start.className = 'action';
+        start.textContent = text.start;
+        const index = state.progress.plans[plan.id] === undefined ? 0 : nextDay(state.progress, plan.id, plan.total);
+        start.href = plan.total > 0 ? dayHref(plan, index) : plan.href;
+        start.addEventListener('click', () => {
+          state = { ...state, profile, progress: { ...state.progress, active: plan.id } };
+          try {
+            localStorage.setItem(PLANS_KEY, serializeState(state));
+          } catch {
+            // Not remembered on this device; the plan still opens.
+          }
+        });
+        result.append(heading, each, start);
+      };
+      form.addEventListener('change', render);
+      form.addEventListener('submit', (event) => event.preventDefault());
+      render();
+    }
+
+    root.querySelector<HTMLButtonElement>('[data-clear]')?.addEventListener('click', (event) => {
+      try {
+        localStorage.removeItem(PLANS_KEY);
+        localStorage.removeItem(JOURNAL_KEY);
+      } catch {
+        // Nothing stored.
+      }
+      state = parseState(null);
+      continueLink.hidden = true;
+      (event.currentTarget as HTMLButtonElement).textContent = text.cleared;
+    });
+  }
+</script>
+
+<style>
+  .ps {
+    display: grid;
+    gap: 1rem;
+    padding-block: 1.75rem 3rem;
+    max-inline-size: 52rem;
+  }
+
+  h1 {
+    font-size: var(--step-hero);
+    margin: 0;
+  }
+
+  h2 {
+    font-size: var(--step-2);
+    margin: 0.5rem 0 0;
+  }
+
+  .lede {
+    font-family: var(--font-reading);
+    font-size: var(--step-1);
+    color: var(--ink-muted);
+    margin: 0;
+    max-inline-size: 42rem;
+  }
+
+  .continue {
+    justify-self: start;
+    padding: 0.8rem 1.1rem;
+    border-radius: 0.8rem;
+    background: var(--navy);
+    color: #f5f1e6;
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .continue[hidden] {
+    display: none;
+  }
+
+  .empty {
+    color: var(--ink-muted);
+  }
+
+  .quiz {
+    display: grid;
+    gap: 1.1rem;
+    padding: clamp(1rem, 3vw, 1.5rem);
+    border: 1px solid var(--line);
+    border-radius: 1.1rem;
+    background: var(--surface-raised);
+  }
+
+  fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+  }
+
+  legend {
+    font-weight: 600;
+    margin-block-end: 0.5rem;
+    padding: 0;
+  }
+
+  .choices {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45rem;
+  }
+
+  .choices label {
+    position: relative;
+    cursor: pointer;
+    padding: 0.4rem 0.9rem;
+    border: 1px solid var(--line);
+    border-radius: 99px;
+    background: var(--surface);
+  }
+
+  .choices.styles label {
+    display: grid;
+    border-radius: 0.8rem;
+    flex: 1 1 11rem;
+  }
+
+  .choices.styles small {
+    color: var(--ink-muted);
+  }
+
+  .choices input {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  .choices label:has(input:checked) {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: var(--surface);
+  }
+
+  .choices label:has(input:checked) small {
+    color: inherit;
+  }
+
+  .choices label:has(input:focus-visible) {
+    outline: 3px solid var(--focus);
+    outline-offset: 2px;
+  }
+
+  .result {
+    display: grid;
+    gap: 0.5rem;
+    padding: 1rem 1.1rem;
+    border-inline-start: 5px solid var(--accent);
+    border-radius: 0.7rem;
+    background: var(--surface);
+  }
+
+  .result:empty {
+    display: none;
+  }
+
+  .result :global(h3) {
+    margin: 0;
+    font-size: var(--step-2);
+  }
+
+  .result :global(p) {
+    margin: 0;
+  }
+
+  .result :global(.action) {
+    justify-self: start;
+    min-block-size: 44px;
+    display: inline-flex;
+    align-items: center;
+    padding-inline: 1.2rem;
+    border-radius: 0.7rem;
+    background: var(--accent);
+    color: var(--surface);
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .shelf {
+    display: grid;
+    gap: 0.8rem;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .shelf a {
+    display: grid;
+    gap: 0.35rem;
+    block-size: 100%;
+    align-content: start;
+    padding: 1rem 1.1rem;
+    border: 1px solid var(--line);
+    border-radius: 1rem;
+    background: var(--surface-raised);
+    color: var(--ink);
+    text-decoration: none;
+  }
+
+  .shelf small {
+    color: var(--accent);
+    font-weight: 600;
+  }
+
+  .shelf b {
+    font-family: var(--font-reading);
+    font-size: var(--step-1);
+  }
+
+  .shelf span {
+    color: var(--ink-muted);
+    font-size: var(--step--1);
+  }
+
+  .shelf .len {
+    color: var(--ink-muted);
+    font-weight: 400;
+  }
+
+  .privacy {
+    color: var(--ink-muted);
+    font-size: var(--step--1);
+  }
+
+  .link {
+    font: inherit;
+    color: var(--accent);
+    background: none;
+    border: 0;
+    padding: 0;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+</style>

@@ -61,13 +61,21 @@ ar| وبعد أية جملة من الجمل السابقة، يقول:
 en| May the clergy and all the people be safe in the Lord. Amen. So be it.
 ar| فليكن الإكليروس وكل الشعب معافين في الرب. آمين يكون.
 
-@rubric
-en| If the Pauline Epistle is read in English, the following introduction is said.
-ar| إذا قرأ البولس عربيا، تقال مقدمته وهي هذه.
+@deacon
+en| A chapter from the (first/second) epistle of our teacher St. Paul to …, may his blessings be with us. Amen.
+ar| فصل من رسالة معلمنا بولس الرسول (الأولى/الثانية) إلى ...، بركته المقدسة تكون معنا. آمين.
 
 @rubric
-en| A chapter from the (first/second) of our teacher St. Pau l to …, May his blessings be with us. Amen. After the reading, the following conclusion is said. The grace of God the Father be with you all. Amen. During the reading of the Pauline Epistle, the fellow priest (or if there is no fellow priest, then the serving priest himself) says inaudibly the following prayer to the Son:
-ar| فصل من رسالة معلمنا بولس الرسول (األولي/الثانية) إلي ...، بركته المقدس تكون معنا. آمين. وفي ختام البولس يقول. نعمة الله الآب تكون مع جميعكم. آمين. وفي أثناء قراءته، يقول الكاهن الشريك هذه الأوشية سرا للابن وإن لم يكن حاضرا كاهن معه فيقولها هو:
+en| After the reading, the following conclusion is said.
+ar| وفي ختامه يقول.
+
+@deacon
+en| The grace of God the Father be with you all. Amen.
+ar| نعمة الله الآب تكون مع جميعكم. آمين.
+
+@rubric
+en| During the reading of the Pauline Epistle, the fellow priest (or if there is no fellow priest, then the serving priest himself) says inaudibly the following prayer to the Son:
+ar| وفي أثناء قراءته، يقول الكاهن الشريك هذه الأوشية سرا للابن وإن لم يكن حاضرا كاهن معه فيقولها هو:
 
 @deacon
 en| O Lord of knowledge and provider of wisdom, who reveals the deep things out of darkness, and gives a word to those who preach with a great power; who of Your goodness has called upon Paul, who was for some time a persecutor, to be a chosen vessel; and in this You were pleased that he should be called to be an apostle and a preacher of the Gospel of Your kingdom, O Christ our God.

@@ -1,0 +1,794 @@
+---
+/**
+ * One day of a reading plan, as a row of cards the reader swipes or steps through: why it matters, the passage, what it
+ * means, one question, the extra card for the reader's style, and done. Every variant (three passage lengths, four
+ * styles, extra help for first-time readers) is in the page; the reader's saved answers choose which show. Without
+ * JavaScript the 15-minute passage and the Explorer's card show. (docs/superpowers/specs/2026-11-21-reading-plans-design.md)
+ */
+import Base from '../../../../layouts/Base.astro';
+import LineIcon from '../../../../components/LineIcon.astro';
+import { LOCALES, type Locale } from '../../../../i18n/index.ts';
+import { planById, planDays } from '../../../../lib/plans/load.ts';
+import { PLAN_UI, dayPath, dayPaths, dayView, num, planPath } from '../../../../lib/plans/ui.ts';
+
+export function getStaticPaths() {
+  return dayPaths(LOCALES);
+}
+
+const locale = Astro.params.lang as Locale;
+const ui = PLAN_UI[locale];
+const plan = planById(Astro.params.plan!)!;
+const days = planDays(plan);
+const index = Number(Astro.params.day!.replace('day-', '')) - 1;
+const view = dayView(plan, days[index]!, locale);
+const { block } = view;
+const n = (value: number) => num(locale, value);
+const total = n(view.total);
+const cardCount = 6;
+const dayUrl = new URL(dayPath(locale, plan.id, index), Astro.site).href;
+---
+
+<Base locale={locale} title={`${block.title[locale]} · ${plan.name[locale]}`} description={block.hook[locale]} noindex={view.draft} immersive>
+  <article
+    class="pd wrap"
+    data-plan-day
+    data-plan={plan.id}
+    data-day={index}
+    data-total={view.total}
+    data-block={block.id}
+    data-pace="15"
+    data-style="explorer"
+    data-exp="some"
+    data-size="medium"
+  >
+    <header class="pd-top">
+      <a class="pd-plan" href={planPath(locale, plan.id)}>{plan.name[locale]}</a>
+      <span class="pd-day">{ui.dayOf(n(index + 1), total)}</span>
+      {view.draft && <details class="pd-draft"><summary><span class="pill">{ui.draft}</span></summary><p>{ui.draftNote}</p></details>}
+      <span class="pd-size">
+        <button type="button" class="pd-icon" dir="ltr" data-size-step="-1" aria-label={ui.smaller} title={ui.smaller}>A−</button>
+        <button type="button" class="pd-icon" dir="ltr" data-size-step="1" aria-label={ui.larger} title={ui.larger}>A+</button>
+      </span>
+    </header>
+
+    <ol class="pd-strip" aria-hidden="true">
+      {days.map((day) => <li data-strip={day.index} class:list={[{ now: day.index === index }]}></li>)}
+    </ol>
+
+
+    <div class="pd-deck" data-deck tabindex="0" aria-label={block.title[locale]}>
+      <section class="card hook" data-card="0" aria-label={ui.hook}>
+        <small class="eyebrow">{ui.hook}</small>
+        <h1>{block.title[locale]}</h1>
+        <p class="big">{block.hook[locale]}</p>
+      </section>
+
+      <section class="card" data-card="1" aria-label={ui.read}>
+        <small class="eyebrow">{ui.read}</small>
+        <div class="paces" role="group" aria-label={ui.read}>
+          {view.passages.map((passage) => (
+            <button type="button" class="chip" data-set-pace={passage.pace}>{ui.passageFor[passage.pace]}</button>
+          ))}
+        </div>
+        {view.passages.map((passage) => (
+          <div class="passage" data-pace-only={passage.pace}>
+            <h2>{passage.label}</h2>
+            <p class="scripture" lang={locale}>
+              {passage.verses.map((verse) => (
+                <>
+                  <sup>{n(Number.parseInt(verse.n, 10))}</sup>{verse.text}{' '}
+                </>
+              ))}
+            </p>
+            <p class="links">
+              <a href={passage.href}>{ui.openReader}</a>
+              <a href={passage.href}>{ui.withCommentary}</a>
+            </p>
+          </div>
+        ))}
+      </section>
+
+      <section class="card" data-card="2" aria-label={ui.understand}>
+        <small class="eyebrow">{ui.understand}</small>
+        <p class="body">{block.explain[locale]}</p>
+        {block.explainNew && <p class="body new" data-exp-only="new">{block.explainNew[locale]}</p>}
+        {view.words.length > 0 && (
+          <div class="words">
+            <span class="words-label">{ui.words}</span>
+            {view.words.map((word) => (
+              <details class="word">
+                <summary>{word.term}</summary>
+                <p>{word.definition}</p>
+              </details>
+            ))}
+          </div>
+        )}
+        {view.malaty && (
+          <p class="credit"><a href={view.passages[1]!.href}>{ui.malaty}</a></p>
+        )}
+      </section>
+
+      <section class="card think" data-card="3" aria-label={ui.think}>
+        <small class="eyebrow">{ui.think}</small>
+        <p class="big">{block.think[locale]}</p>
+      </section>
+
+      <section class="card" data-card="4" aria-label={ui.deeper}>
+        <div data-style-only="explorer">
+          <small class="eyebrow">{ui.deeper}</small>
+          <ul class="deeper">
+            {view.deeper.map((link) => (
+              <li><a href={link.href}><span class="kind"><LineIcon name={link.kind === 'place' ? 'globe' : link.kind === 'person' ? 'hourglass' : link.kind === 'question' ? 'question' : 'bible'} /></span>{link.label}</a></li>
+            ))}
+          </ul>
+        </div>
+        <div data-style-only="achiever">
+          <small class="eyebrow">{ui.progress}</small>
+          <p class="body">{ui.dayOf(n(index + 1), total)}</p>
+          <div class="meter" aria-hidden="true"><i data-meter></i></div>
+          {block.check && (
+            <div class="check" data-check data-answer={block.check.answer}>
+              <p class="check-q"><b>{ui.check}:</b> {block.check.question[locale]}</p>
+              <div class="options">
+                {block.check.options.map((option, i) => (
+                  <button type="button" class="option" data-option={i}>{option[locale]}</button>
+                ))}
+              </div>
+              <p class="why" hidden data-why>{block.check.why[locale]}</p>
+            </div>
+          )}
+        </div>
+        <div data-style-only="reflector">
+          <small class="eyebrow">{ui.journal}</small>
+          <p class="body">{ui.journalNote}</p>
+          <label class="sr-only" for={`journal-${block.id}`}>{ui.journalLabel}</label>
+          <textarea id={`journal-${block.id}`} data-journal rows="3"></textarea>
+        </div>
+        <div data-style-only="connector">
+          <small class="eyebrow">{ui.together}</small>
+          <p class="body">{ui.togetherNote}</p>
+          <button type="button" class="action" data-share data-url={dayUrl} data-title={`${plan.name[locale]} · ${block.title[locale]}`} data-copied={ui.copied}>{ui.share}</button>
+        </div>
+      </section>
+
+      <section class="card done" data-card="5" aria-label={ui.done}>
+        <small class="eyebrow">{ui.done}</small>
+        <p class="big">{ui.dayOf(n(index + 1), total)}</p>
+        <button type="button" class="action" data-mark-done>{ui.markDone}</button>
+        <p class="body" hidden data-done-note>{view.next === undefined ? ui.finished : ui.markedDone}</p>
+        {view.next !== undefined && (
+          <p class="body"><span class="muted">{ui.tomorrow}</span> <a href={dayPath(locale, plan.id, view.next.index)}>{view.next.block.title[locale]}</a></p>
+        )}
+        <p class="body"><a href={planPath(locale, plan.id)}>{ui.toOverview}</a></p>
+      </section>
+    </div>
+
+    <nav class="pd-nav" aria-label={block.title[locale]}>
+      <button type="button" class="pd-step" data-step="-1">{ui.back}</button>
+      <span class="pd-count" aria-live="polite" data-count data-template={ui.cardOf('{n}', n(cardCount))}>{ui.cardOf(n(1), n(cardCount))}</span>
+      <button type="button" class="pd-step primary" data-step="1">{ui.next}</button>
+    </nav>
+  </article>
+</Base>
+
+<script>
+  import { JOURNAL_KEY, PLANS_KEY, PLANS_READING_KEY, defaultProfile, markDone, openDay, parseState, serializeState, type Pace, type PlansState } from '../../../../lib/plans/profile.ts';
+  import { parseReading, serializeReading, stepSize, type Reading } from '../../../../lib/holy-mass/reading.ts';
+
+  const root = document.querySelector<HTMLElement>('[data-plan-day]');
+  if (root !== null) {
+    const planId = root.dataset['plan']!;
+    const day = Number(root.dataset['day']);
+    const total = Number(root.dataset['total']);
+    const blockId = root.dataset['block']!;
+    const numbers = new Intl.NumberFormat(document.documentElement.lang === 'ar' ? 'ar-EG' : 'en-US');
+
+    const load = (key: string): string | null => {
+      try {
+        return localStorage.getItem(key);
+      } catch {
+        return null;
+      }
+    };
+    const save = (key: string, value: string): void => {
+      try {
+        localStorage.setItem(key, value);
+      } catch {
+        // Storage is unavailable or full: the page still works, it just does not remember.
+      }
+    };
+
+    let state: PlansState = parseState(load(PLANS_KEY));
+    const profile = state.profile ?? defaultProfile();
+    root.dataset['pace'] = String(profile.pace);
+    root.dataset['style'] = profile.style;
+    root.dataset['exp'] = profile.experience;
+    state = { ...state, progress: openDay(state.progress, planId, day) };
+    save(PLANS_KEY, serializeState(state));
+
+    const paint = (): void => {
+      const done = new Set(state.progress.plans[planId]?.done ?? []);
+      root.querySelectorAll<HTMLElement>('[data-strip]').forEach((item) => item.classList.toggle('done', done.has(Number(item.dataset['strip']))));
+      const meter = root.querySelector<HTMLElement>('[data-meter]');
+      if (meter !== null) meter.style.inlineSize = `${Math.round((done.size / Math.max(total, 1)) * 100)}%`;
+      if (done.has(day)) {
+        root.querySelector<HTMLElement>('[data-done-note]')?.removeAttribute('hidden');
+        root.querySelector<HTMLButtonElement>('[data-mark-done]')?.setAttribute('hidden', '');
+      }
+    };
+    paint();
+
+    // Passage length: the quiz's answer, changeable here.
+    root.querySelectorAll<HTMLButtonElement>('[data-set-pace]').forEach((button) => {
+      button.setAttribute('aria-pressed', String(button.dataset['setPace'] === root.dataset['pace']));
+      button.addEventListener('click', () => {
+        const pace = Number(button.dataset['setPace']) as Pace;
+        root.dataset['pace'] = String(pace);
+        root.querySelectorAll<HTMLButtonElement>('[data-set-pace]').forEach((other) => other.setAttribute('aria-pressed', String(other === button)));
+        if (state.profile !== null) {
+          state = { ...state, profile: { ...state.profile, pace } };
+          save(PLANS_KEY, serializeState(state));
+        }
+      });
+    });
+
+    // Text size, as on the Holy Mass.
+    let reading: Reading = parseReading(load(PLANS_READING_KEY));
+    const applySize = (): void => {
+      root.dataset['size'] = reading.size;
+    };
+    applySize();
+    root.querySelectorAll<HTMLButtonElement>('[data-size-step]').forEach((button) =>
+      button.addEventListener('click', () => {
+        reading = stepSize(reading, Number(button.dataset['sizeStep']) as -1 | 1);
+        applySize();
+        save(PLANS_READING_KEY, serializeReading(reading));
+      }),
+    );
+
+    // Cards: swipe (native scroll snapping), Back/Next, arrow keys mirrored for right-to-left pages.
+    const deck = root.querySelector<HTMLElement>('[data-deck]')!;
+    const cards = [...deck.querySelectorAll<HTMLElement>('[data-card]')];
+    const count = root.querySelector<HTMLElement>('[data-count]')!;
+    const template = count.dataset['template']!;
+    const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    let current = 0;
+    const show = (index: number): void => {
+      const target = Math.max(0, Math.min(cards.length - 1, index));
+      const card = cards[target]!;
+      card.scrollIntoView({ inline: 'start', block: 'nearest', behavior: reduce ? 'auto' : 'smooth' });
+    };
+    const update = (index: number): void => {
+      current = index;
+      count.textContent = template.replace('{n}', numbers.format(index + 1));
+      root.querySelector<HTMLButtonElement>('[data-step="-1"]')!.disabled = index === 0;
+      root.querySelector<HTMLButtonElement>('[data-step="1"]')!.disabled = index === cards.length - 1;
+    };
+    update(0);
+    const observer = new IntersectionObserver(
+      (entries) => {
+        for (const entry of entries) if (entry.isIntersecting) update(cards.indexOf(entry.target as HTMLElement));
+      },
+      { root: deck, threshold: 0.6 },
+    );
+    cards.forEach((card) => observer.observe(card));
+    root.querySelectorAll<HTMLButtonElement>('[data-step]').forEach((button) => button.addEventListener('click', () => show(current + Number(button.dataset['step']))));
+    const rtl = document.documentElement.dir === 'rtl';
+    deck.addEventListener('keydown', (event) => {
+      if (event.target instanceof HTMLTextAreaElement) return;
+      if (event.key === 'ArrowRight' || event.key === 'ArrowLeft') {
+        event.preventDefault();
+        const forward = (event.key === 'ArrowRight') !== rtl;
+        show(current + (forward ? 1 : -1));
+      }
+    });
+
+    // Achiever: a quick question. Nothing is kept or scored.
+    root.querySelectorAll<HTMLElement>('[data-check]').forEach((check) => {
+      const answer = Number(check.dataset['answer']);
+      check.querySelectorAll<HTMLButtonElement>('[data-option]').forEach((option) =>
+        option.addEventListener('click', () => {
+          check.querySelectorAll<HTMLButtonElement>('[data-option]').forEach((other) => {
+            other.classList.toggle('right', Number(other.dataset['option']) === answer);
+            other.classList.toggle('wrong', other === option && Number(option.dataset['option']) !== answer);
+          });
+          check.querySelector<HTMLElement>('[data-why]')?.removeAttribute('hidden');
+        }),
+      );
+    });
+
+    // Reflector: one line, kept on this device by block.
+    const journal = root.querySelector<HTMLTextAreaElement>('[data-journal]');
+    if (journal !== null) {
+      let lines: Record<string, string> = {};
+      try {
+        const parsed = JSON.parse(load(JOURNAL_KEY) ?? '{}') as unknown;
+        if (typeof parsed === 'object' && parsed !== null) lines = parsed as Record<string, string>;
+      } catch {
+        lines = {};
+      }
+      journal.value = typeof lines[blockId] === 'string' ? lines[blockId] : '';
+      journal.addEventListener('input', () => {
+        lines = { ...lines, [blockId]: journal.value };
+        save(JOURNAL_KEY, JSON.stringify(lines));
+      });
+    }
+
+    // Connector: the device's share sheet, or copy the link.
+    root.querySelector<HTMLButtonElement>('[data-share]')?.addEventListener('click', async (event) => {
+      const button = event.currentTarget as HTMLButtonElement;
+      const url = button.dataset['url']!;
+      try {
+        if (typeof navigator.share === 'function') {
+          await navigator.share({ title: button.dataset['title'] ?? document.title, url });
+          return;
+        }
+        await navigator.clipboard.writeText(url);
+        button.textContent = button.dataset['copied'] ?? button.textContent;
+      } catch {
+        // The reader closed the share sheet, or copying was refused: nothing to do.
+      }
+    });
+
+    root.querySelector<HTMLButtonElement>('[data-mark-done]')?.addEventListener('click', () => {
+      state = { ...state, progress: markDone(state.progress, planId, day) };
+      save(PLANS_KEY, serializeState(state));
+      paint();
+    });
+  }
+</script>
+
+<style>
+  .pd {
+    display: grid;
+    gap: 0.75rem;
+    padding-block: 0.75rem 1.25rem;
+    max-inline-size: 46rem;
+  }
+
+  .pd-top {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+  }
+
+  .pd-plan {
+    font-weight: 600;
+    color: var(--accent);
+    text-decoration: none;
+  }
+
+  .pd-day {
+    color: var(--ink-muted);
+    font-size: var(--step--1);
+  }
+
+  .pd-size {
+    margin-inline-start: auto;
+    display: flex;
+    gap: 0.3rem;
+  }
+
+  .pd-icon {
+    min-inline-size: 40px;
+    min-block-size: 36px;
+    font: inherit;
+    font-size: var(--step--1);
+    color: var(--ink);
+    background: var(--surface-raised);
+    border: 1px solid var(--line);
+    border-radius: 0.5rem;
+    cursor: pointer;
+  }
+
+  .pd-strip {
+    display: flex;
+    gap: 3px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .pd-strip li {
+    flex: 1;
+    block-size: 6px;
+    border-radius: 99px;
+    background: var(--line);
+  }
+
+  .pd-strip li.done {
+    background: var(--accent);
+  }
+
+  .pd-strip li.now {
+    outline: 2px solid var(--accent);
+    outline-offset: 1px;
+  }
+
+  .pd-top .pd-draft {
+    font-size: var(--step--1);
+    color: var(--ink-muted);
+  }
+
+  .pd-draft summary {
+    cursor: pointer;
+    list-style: none;
+  }
+
+  .pd-draft p {
+    margin: 0.4rem 0 0;
+  }
+
+  .pill {
+    display: inline-block;
+    padding: 0.05rem 0.55rem;
+    border-radius: 99px;
+    border: 1px solid var(--line);
+    background: var(--surface-raised);
+    color: var(--accent);
+    font-weight: 700;
+    font-size: 0.75rem;
+  }
+
+  .pd-deck {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 100%;
+    gap: 1rem;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    overscroll-behavior-x: contain;
+    scrollbar-width: none;
+    border-radius: 1.25rem;
+  }
+
+  .pd-deck::-webkit-scrollbar {
+    display: none;
+  }
+
+  .pd-deck:focus-visible {
+    outline: 3px solid var(--focus);
+    outline-offset: 3px;
+  }
+
+  .card {
+    scroll-snap-align: start;
+    display: grid;
+    align-content: start;
+    gap: 0.8rem;
+    min-block-size: min(30rem, calc(100dvh - 13.75rem));
+    max-block-size: calc(100dvh - 13.75rem);
+    overflow-y: auto;
+    padding: clamp(1.1rem, 4vw, 1.75rem);
+    border: 1px solid var(--line);
+    border-radius: 1.25rem;
+    background: var(--surface-raised);
+  }
+
+  .card.hook {
+    background: var(--navy);
+    color: #f5f1e6;
+    border-color: transparent;
+  }
+
+  .card.hook .eyebrow {
+    color: var(--gold);
+  }
+
+  .eyebrow {
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: var(--accent);
+  }
+
+  .card h1 {
+    font-size: clamp(1.6rem, 1.2rem + 2vw, 2.2rem);
+    margin: 0;
+    text-wrap: balance;
+  }
+
+  .card h2 {
+    font-size: var(--step-1);
+    margin: 0;
+  }
+
+  .big {
+    font-family: var(--font-reading);
+    font-size: clamp(1.2rem, 1rem + 1.2vw, 1.5625rem);
+    line-height: 1.45;
+    margin: 0;
+  }
+
+  .body {
+    font-family: var(--font-reading);
+    font-size: 1.125rem;
+    line-height: 1.65;
+    margin: 0;
+  }
+
+  .new {
+    padding-inline-start: 0.8rem;
+    border-inline-start: 3px solid var(--gold);
+  }
+
+  .scripture {
+    font-family: var(--font-reading);
+    font-size: 1.15rem;
+    line-height: 1.75;
+    margin: 0;
+  }
+
+  .scripture sup {
+    color: var(--accent);
+    font-size: 0.7em;
+    margin-inline-end: 0.15em;
+  }
+
+  .pd[data-size='small'] .scripture,
+  .pd[data-size='small'] .body {
+    font-size: 1rem;
+  }
+
+  .pd[data-size='large'] .scripture,
+  .pd[data-size='large'] .body {
+    font-size: 1.35rem;
+  }
+
+  .pd[data-size='large'] .big {
+    font-size: var(--step-3);
+  }
+
+  .links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem 1.25rem;
+    margin: 0;
+    font-size: var(--step--1);
+  }
+
+  .paces {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+  }
+
+  .chip {
+    font: inherit;
+    font-size: var(--step--1);
+    padding: 0.25rem 0.8rem;
+    border-radius: 99px;
+    border: 1px solid var(--line);
+    background: var(--surface);
+    color: var(--ink);
+    cursor: pointer;
+  }
+
+  .chip[aria-pressed='true'] {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: var(--surface);
+  }
+
+  /* Variants: only the reader's pace, style and experience show. */
+  .pd:not([data-pace='5']) [data-pace-only='5'],
+  .pd:not([data-pace='15']) [data-pace-only='15'],
+  .pd:not([data-pace='30']) [data-pace-only='30'],
+  .pd:not([data-style='explorer']) [data-style-only='explorer'],
+  .pd:not([data-style='achiever']) [data-style-only='achiever'],
+  .pd:not([data-style='reflector']) [data-style-only='reflector'],
+  .pd:not([data-style='connector']) [data-style-only='connector'],
+  .pd:not([data-exp='new']) [data-exp-only='new'] {
+    display: none;
+  }
+
+  [data-style-only],
+  .passage {
+    display: grid;
+    gap: 0.8rem;
+    align-content: start;
+  }
+
+  .words {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.4rem;
+  }
+
+  .words-label {
+    font-size: var(--step--1);
+    color: var(--ink-muted);
+  }
+
+  .word summary {
+    cursor: pointer;
+    list-style: none;
+    font-size: var(--step--1);
+    padding: 0.15rem 0.7rem;
+    border-radius: 99px;
+    border: 1px dashed var(--accent);
+    color: var(--ink);
+  }
+
+  .word[open] {
+    flex-basis: 100%;
+  }
+
+  .word p {
+    margin: 0.4rem 0 0;
+    font-size: var(--step--1);
+    color: var(--ink-muted);
+  }
+
+  .credit {
+    margin: 0;
+    font-size: var(--step--1);
+  }
+
+  .deeper {
+    display: grid;
+    gap: 0.5rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .deeper a {
+    display: flex;
+    gap: 0.6rem;
+    align-items: center;
+    padding: 0.65rem 0.8rem;
+    border: 1px solid var(--line);
+    border-radius: 0.8rem;
+    text-decoration: none;
+    color: var(--ink);
+    background: var(--surface);
+  }
+
+  .kind {
+    display: inline-grid;
+    color: var(--accent);
+    inline-size: 1.4rem;
+    block-size: 1.4rem;
+    flex: none;
+  }
+
+  .meter {
+    block-size: 8px;
+    border-radius: 99px;
+    background: var(--line);
+    overflow: hidden;
+  }
+
+  .meter i {
+    display: block;
+    block-size: 100%;
+    inline-size: 0;
+    background: var(--accent);
+  }
+
+  .check {
+    display: grid;
+    gap: 0.6rem;
+  }
+
+  .check-q {
+    margin: 0;
+  }
+
+  .options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+  }
+
+  .option {
+    font: inherit;
+    padding: 0.4rem 0.9rem;
+    border-radius: 0.6rem;
+    border: 1px solid var(--line);
+    background: var(--surface);
+    color: var(--ink);
+    cursor: pointer;
+  }
+
+  .option.right {
+    border-color: var(--accent);
+    background: var(--accent);
+    color: var(--surface);
+  }
+
+  .option.wrong {
+    text-decoration: line-through;
+    color: var(--ink-muted);
+  }
+
+  .why {
+    margin: 0;
+    color: var(--ink-muted);
+  }
+
+  textarea {
+    inline-size: 100%;
+    font: inherit;
+    font-family: var(--font-reading);
+    font-size: 1.05rem;
+    padding: 0.6rem 0.7rem;
+    border: 1px solid var(--line);
+    border-radius: 0.7rem;
+    background: var(--surface);
+    color: var(--ink);
+    resize: vertical;
+  }
+
+  .action {
+    justify-self: start;
+    font: inherit;
+    font-weight: 600;
+    min-block-size: 44px;
+    padding-inline: 1.1rem;
+    border-radius: 0.7rem;
+    border: 0;
+    background: var(--accent);
+    color: var(--surface);
+    cursor: pointer;
+  }
+
+  .muted {
+    color: var(--ink-muted);
+  }
+
+  .pd-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem;
+  }
+
+  .pd-count {
+    font-size: var(--step--1);
+    color: var(--ink-muted);
+  }
+
+  .pd-step {
+    font: inherit;
+    font-weight: 600;
+    min-block-size: 44px;
+    min-inline-size: 6.5rem;
+    border-radius: 0.7rem;
+    border: 1px solid var(--line);
+    background: var(--surface-raised);
+    color: var(--ink);
+    cursor: pointer;
+  }
+
+  .pd-step.primary {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: var(--surface);
+  }
+
+  .pd-step:disabled {
+    opacity: 0.4;
+    cursor: default;
+  }
+
+  .sr-only {
+    position: absolute;
+    inline-size: 1px;
+    block-size: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .pd-deck {
+      scroll-behavior: auto;
+    }
+  }
+</style>

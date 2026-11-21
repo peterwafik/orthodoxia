@@ -1,0 +1,266 @@
+---
+/**
+ * A reading plan's overview: what it is, its sections and every day, with the days done ticked and the next one
+ * highlighted (from this device's progress). The Church Year plan also says where today falls in the season.
+ */
+import Base from '../../../../layouts/Base.astro';
+import { LOCALES, type Locale } from '../../../../i18n/index.ts';
+import { CHURCH_YEAR, LIVE_PLANS, planDays } from '../../../../lib/plans/load.ts';
+import { refLabel } from '../../../../lib/plans/passage.ts';
+import { PLAN_UI, dayPath, num, plansPath } from '../../../../lib/plans/ui.ts';
+
+export function getStaticPaths() {
+  return LOCALES.flatMap((lang) => LIVE_PLANS.map((plan) => ({ params: { lang, plan: plan.id }, props: { plan } })));
+}
+
+const { plan } = Astro.props;
+const locale = Astro.params.lang as Locale;
+const ui = PLAN_UI[locale];
+const days = planDays(plan);
+const n = (value: number) => num(locale, value);
+const sectionAt = new Map(plan.sections.map((section) => [section.from, section.title[locale]]));
+const draft = days.some((day) => day.block.review.status !== 'published' && day.block.review.status !== 'reviewed');
+
+// For the Church Year: each season's first day in the plan and how many of its days are written.
+const seasons = plan.kind === 'church-year'
+  ? CHURCH_YEAR.seasons.map((season) => ({
+      id: season.id,
+      name: season.name[locale],
+      first: days.findIndex((day) => day.season === season.id),
+      written: days.filter((day) => day.season === season.id).length,
+    }))
+  : [];
+const seasonData = JSON.stringify({ seasons, dayBase: dayPath(locale, plan.id, 0).replace(/day-1\/$/, '') });
+---
+
+<Base locale={locale} title={plan.name[locale]} description={plan.description[locale]} noindex={draft}>
+  <section class="po wrap" data-plan-overview data-plan={plan.id} data-total={days.length}>
+    <p class="crumbs"><a href={plansPath(locale)}>{ui.title}</a></p>
+    <h1>{plan.name[locale]}</h1>
+    <p class="who">{plan.who[locale]}</p>
+    <p class="lede">{plan.description[locale]}</p>
+
+    {plan.kind === 'church-year' && (
+      <div class="season" data-season data-info={seasonData} data-locale={locale}>
+        <p data-season-text></p>
+        <a class="action" hidden data-season-link href="#">{ui.readToday}</a>
+      </div>
+    )}
+
+    {days.length > 0 && (
+      <p><a class="action" data-continue href={dayPath(locale, plan.id, 0)}>{ui.startDay(n(1))}</a></p>
+    )}
+
+    <ol class="days">
+      {days.map((day) => (
+        <>
+          {sectionAt.has(day.index) && <li class="section" aria-hidden="true">{sectionAt.get(day.index)}</li>}
+          <li class="day" data-day={day.index}>
+            <a href={dayPath(locale, plan.id, day.index)}>
+              <span class="n">{n(day.index + 1)}</span>
+              <span class="t"><b>{day.block.title[locale]}</b><small>{refLabel(day.block.passages.full, locale)}</small></span>
+              <span class="tick" aria-hidden="true">✓</span>
+            </a>
+          </li>
+        </>
+      ))}
+    </ol>
+  </section>
+</Base>
+
+<script>
+  import { PLANS_KEY, nextDay, parseState } from '../../../../lib/plans/profile.ts';
+  import { nextSeason, seasonOn } from '../../../../lib/plans/computus.ts';
+  import type { SeasonId } from '@orthodoxia/content-schema';
+
+  const root = document.querySelector<HTMLElement>('[data-plan-overview]');
+  if (root !== null) {
+    const planId = root.dataset['plan']!;
+    const total = Number(root.dataset['total']);
+    const ar = document.documentElement.lang === 'ar';
+    const numbers = new Intl.NumberFormat(ar ? 'ar-EG' : 'en-US');
+    let raw: string | null = null;
+    try {
+      raw = localStorage.getItem(PLANS_KEY);
+    } catch {
+      raw = null;
+    }
+    const { progress } = parseState(raw);
+    const done = new Set(progress.plans[planId]?.done ?? []);
+    const next = nextDay(progress, planId, total);
+    root.querySelectorAll<HTMLElement>('[data-day]').forEach((item) => {
+      const index = Number(item.dataset['day']);
+      item.classList.toggle('done', done.has(index));
+      item.classList.toggle('next', index === next && progress.plans[planId] !== undefined);
+    });
+    const button = root.querySelector<HTMLAnchorElement>('[data-continue]');
+    if (button !== null && progress.plans[planId] !== undefined) {
+      const link = root.querySelector<HTMLAnchorElement>(`[data-day="${next}"] a`);
+      if (link !== null) button.href = link.href;
+      button.textContent = `${ar ? 'تابع: اليوم' : 'Continue: Day'} ${numbers.format(next + 1)}`;
+    }
+
+    // The Church Year: where today falls.
+    const box = root.querySelector<HTMLElement>('[data-season]');
+    if (box !== null) {
+      const info = JSON.parse(box.dataset['info']!) as { seasons: { id: SeasonId; name: string; first: number; written: number }[]; dayBase: string };
+      const ids = info.seasons.map((season) => season.id);
+      const text = box.querySelector<HTMLElement>('[data-season-text]')!;
+      const link = box.querySelector<HTMLAnchorElement>('[data-season-link]')!;
+      const today = new Date();
+      const now = seasonOn(today, ids);
+      const dates = new Intl.DateTimeFormat(ar ? 'ar-EG' : 'en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
+      if (now !== null) {
+        const season = info.seasons.find((candidate) => candidate.id === now.id)!;
+        const position = numbers.format(now.day + 1);
+        text.textContent = ar ? `اليوم هو اليوم ${position} من ${season.name}.` : `Today is day ${position} of ${season.name}.`;
+        if (season.first >= 0 && now.day < season.written) {
+          link.href = `${info.dayBase}day-${season.first + now.day + 1}/`;
+          link.hidden = false;
+        } else {
+          const reach = numbers.format(season.written);
+          text.textContent += ar ? ` يوم اليوم لم يُكتب بعد؛ تصل الخطة حتى الآن إلى اليوم ${reach}.` : ` Today’s day is not written yet; the plan reaches day ${reach} so far.`;
+        }
+      } else {
+        const upcoming = nextSeason(today, ids);
+        const season = info.seasons.find((candidate) => candidate.id === upcoming?.id);
+        if (upcoming !== null && season !== undefined) {
+          const date = dates.format(upcoming.start);
+          text.textContent = ar ? `يبدأ ${season.name} في ${date}. وحتى ذلك الحين، جرّب خطة أخرى.` : `${season.name.charAt(0).toUpperCase()}${season.name.slice(1)} begins on ${date}. Until then, try another plan.`;
+        }
+      }
+    }
+  }
+</script>
+
+<style>
+  .po {
+    display: grid;
+    gap: 0.8rem;
+    padding-block: 1.5rem 3rem;
+    max-inline-size: 46rem;
+  }
+
+  .crumbs {
+    margin: 0;
+    font-size: var(--step--1);
+  }
+
+  h1 {
+    font-size: var(--step-hero);
+    margin: 0;
+  }
+
+  .who {
+    margin: 0;
+    color: var(--accent);
+    font-weight: 600;
+  }
+
+  .lede {
+    font-family: var(--font-reading);
+    font-size: var(--step-1);
+    color: var(--ink-muted);
+    margin: 0;
+  }
+
+  .season {
+    display: grid;
+    gap: 0.6rem;
+    padding: 1rem 1.2rem;
+    border-inline-start: 5px solid var(--accent);
+    border-radius: 0.7rem;
+    background: var(--surface-raised);
+  }
+
+  .season p {
+    margin: 0;
+  }
+
+  .action {
+    display: inline-flex;
+    align-items: center;
+    justify-self: start;
+    min-block-size: 44px;
+    padding-inline: 1.1rem;
+    border-radius: 0.7rem;
+    background: var(--accent);
+    color: var(--surface);
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .action[hidden] {
+    display: none;
+  }
+
+  .days {
+    display: grid;
+    gap: 0.4rem;
+    margin: 0.5rem 0 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .section {
+    margin-block-start: 0.8rem;
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: var(--accent);
+  }
+
+  .day a {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    padding: 0.7rem 0.9rem;
+    border: 1px solid var(--line);
+    border-radius: 0.8rem;
+    background: var(--surface-raised);
+    color: var(--ink);
+    text-decoration: none;
+  }
+
+  .n {
+    flex: none;
+    display: grid;
+    place-items: center;
+    inline-size: 2rem;
+    block-size: 2rem;
+    border-radius: 50%;
+    border: 2px solid var(--accent);
+    font-weight: 700;
+    font-size: var(--step--1);
+    font-variant-numeric: tabular-nums;
+  }
+
+  .t {
+    display: grid;
+    flex: 1;
+  }
+
+  .t small {
+    color: var(--ink-muted);
+  }
+
+  .tick {
+    visibility: hidden;
+    color: var(--accent);
+    font-weight: 700;
+  }
+
+  .day.done .tick {
+    visibility: visible;
+  }
+
+  .day.done .n {
+    background: var(--accent);
+    color: var(--surface);
+  }
+
+  .day.next a {
+    border: 2px solid var(--accent);
+  }
+</style>

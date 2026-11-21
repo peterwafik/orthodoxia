@@ -13,6 +13,7 @@ import Base from '../../../layouts/Base.astro';
 import Icon from '../../../components/holy-mass/Icon.astro';
 import { LOCALES, localePath, type Locale } from '../../../i18n/index.ts';
 import { CHAPTERS, LITURGIES, STOPS, stopHash } from '../../../data/holy-mass.ts';
+import { LITURGY_SLOTS } from '../../../lib/katameros/slots.ts';
 
 export function getStaticPaths() {
   return LOCALES.flatMap((lang) => LITURGIES.map((liturgy) => ({ params: { lang, liturgy: liturgy.id } })));
@@ -20,6 +21,15 @@ export function getStaticPaths() {
 
 const locale = Astro.params.lang as Locale;
 const liturgy = LITURGIES.find((candidate) => candidate.id === Astro.params.liturgy)!;
+
+/** The stops that carry one of the day's readings from the Katameros (lib/katameros). */
+const KAT_SLOTS = new Map<string, string[]>(LITURGY_SLOTS.map(({ slot, stop }) => [stop, [slot]]));
+// The Psalm is read inside the Gospel's stop too, after the deacon's "A psalm of David. Alleluia."
+KAT_SLOTS.set('holy-gospel', ['LPsalm', 'LGospel']);
+const kat = {
+  en: { today: 'The reading for', pick: 'Readings for another day:', loading: 'Finding the day’s reading…' },
+  ar: { today: 'قراءة يوم', pick: 'قراءات يوم آخر:', loading: 'جارٍ البحث عن قراءة اليوم…' },
+}[locale];
 
 const UI = {
   en: {
@@ -174,6 +184,29 @@ const clientStops = STOPS.map((stop) => ({ n: stop.n, hash: stopHash(stop), chap
                 <p class="lang-note" data-lang-note hidden>{ui.notInLanguage}</p>
                 <p class="pending-note">{ui.textPending}</p>
               </div>
+
+              {(KAT_SLOTS.get(stop.slug) ?? []).map((slot) => (
+                <section class="kat" data-kat={slot} data-base={localePath(locale, 'holy-mass/readings')} aria-live="polite">
+                  <p class="kat-head">
+                    <span class="kat-eyebrow">{kat.today}</span>
+                    <span class="kat-day" data-kat-day></span>
+                  </p>
+                  {stop.slug === 'pauline-epistle' && (
+                    <label class="kat-date">
+                      {kat.pick} <input type="date" data-kat-date />
+                    </label>
+                  )}
+                  <h3 class="kat-ref" data-kat-ref></h3>
+                  <div class="kat-text" data-kat-text><p class="kat-note">{kat.loading}</p></div>
+                </section>
+              ))}
+
+              {stop.slug === 'synaxarion' && (
+                <a class="synax-today" href={localePath(locale, 'calendar')} data-today-synaxarium data-base={localePath(locale, 'calendar')}>
+                  <span class="synax-icon" aria-hidden="true">✣</span>
+                  <span><b>{locale === 'ar' ? 'اقرأ سنكسار اليوم' : 'Read today’s Synaxarium'}</b><small>{locale === 'ar' ? 'القديسون الذين تذكرهم الكنيسة اليوم، دون أن تغادر الموقع' : 'The saints the Church commemorates today, without leaving the site'}</small></span>
+                </a>
+              )}
 
               <div class="asides">
                 <section class="aside aside-steps">
@@ -461,10 +494,34 @@ const clientStops = STOPS.map((stop) => ({ n: stop.n, hash: stopHash(stop), chap
     const slugOf = (stop: ClientStop) => stop.hash.replace(/^\d+-/, '');
     const roleIcon = (role: string) => layerButtons.find((button) => button.dataset['layerToggle'] === role)?.querySelector('svg') ?? null;
 
+    /**
+     * Put each reading card where the text says the reading is read: an epistle, Acts or the Gospel just before
+     * the last "After the reading, the following conclusion is said" (وفي ختامه), the Psalm right after the deacon's
+     * "A psalm of David. Alleluia." A card whose place the text does not give stays after the chat.
+     */
+    const AFTER_READING = /^(After the reading|وفي ختامه)/i;
+    const PSALM_INTRO = /^(A psalm of David|مزمور لداود)/i;
+    function placeReadings(box: HTMLElement, cards: HTMLElement[], items: readonly { role: string; text: string }[]) {
+      const elements = [...box.children] as HTMLElement[];
+      for (const card of cards) {
+        if (card.dataset['kat'] === 'LPsalm') {
+          const at = items.findIndex((item) => item.role !== 'rubric' && PSALM_INTRO.test(item.text.trim()));
+          if (at >= 0) elements[at]!.after(card);
+          continue;
+        }
+        // The last one: the introduction in the reader's own language comes after the one chanted in Coptic.
+        const at = items.findLastIndex((item) => item.role === 'rubric' && AFTER_READING.test(item.text.trim()));
+        if (at >= 0) elements[at]!.before(card);
+      }
+    }
+
     function renderScripts() {
       articles.forEach((article, index) => {
         const box = article.querySelector<HTMLElement>('[data-script]')!;
         const languageNote = article.querySelector<HTMLElement>('[data-lang-note]')!;
+        // The day's reading cards sit after the chat until the prayers are drawn, then move into them (placeReadings).
+        const readingCards = [...article.querySelectorAll<HTMLElement>('[data-kat]')];
+        article.querySelector('.chat')!.after(...readingCards);
         box.replaceChildren();
         const entry = scripts?.stops[slugOf(stops[index]!)];
         // Only the page's language is ever shown. A stop whose text is missing in it (or unusable)
@@ -499,6 +556,7 @@ const clientStops = STOPS.map((stop) => ({ n: stop.n, hash: stopHash(stop), chap
           }
           box.append(element);
         }
+        placeReadings(box, readingCards, items);
       });
       requestAnimationFrame(() => {
         measure();
@@ -586,7 +644,266 @@ const clientStops = STOPS.map((stop) => ({ n: stop.n, hash: stopHash(stop), chap
   }
 </script>
 
+<script>
+  import { MONTHS, toCoptic } from '../../../lib/calendar/coptic.ts';
+
+  // The Synaxarion stop: open today's Synaxarium, by the Coptic date on this device.
+  const today = toCoptic(new Date());
+  document.querySelectorAll<HTMLAnchorElement>('[data-today-synaxarium]').forEach((link) => {
+    link.href = `${link.dataset['base']}${MONTHS[today.month - 1]!.slug}/${today.day}/`;
+  });
+</script>
+
+<script>
+  import { cycleLabel, entryKey, readingCycle } from '../../../lib/katameros/cycle.ts';
+
+  // The readings stops: the day's reading from the Katameros, in full. The day is worked out on this device
+  // (lib/katameros/cycle.ts) and its texts are loaded from /<lang>/holy-mass/readings/<entry>.json.
+  interface Part {
+    label: string;
+    verses: { n: string; text: string }[];
+  }
+  type Entry = Partial<Record<string, { label: string; parts: Part[] }>>;
+
+  const sections = [...document.querySelectorAll<HTMLElement>('[data-kat]')];
+  if (sections.length > 0) {
+    const ar = document.documentElement.lang === 'ar';
+    const locale = ar ? 'ar' : 'en';
+    const T = ar
+      ? { more: 'أكمل القراءة', holyWeek: 'قراءات أسبوع الآلام في كتاب البصخة المقدسة، وليست في الموقع بعد.', failed: 'تعذّر تحميل القراءة.', none: 'لا توجد هذه القراءة في هذا اليوم.' }
+      : { more: 'Continue reading', holyWeek: 'The readings of Holy Week are in the book of the Holy Pascha, and are not on the site yet.', failed: 'The reading could not be loaded.', none: 'This reading is not read on this day.' };
+    const base = sections[0]!.dataset['base']!;
+    const format = new Intl.DateTimeFormat(ar ? 'ar-EG' : 'en-GB', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' });
+    const cache = new Map<string, Promise<Entry>>();
+    const load = (key: string): Promise<Entry> => {
+      let found = cache.get(key);
+      if (found === undefined) {
+        found = fetch(`${base}${key}.json`).then((response) => {
+          if (!response.ok) throw new Error(String(response.status));
+          return response.json() as Promise<Entry>;
+        });
+        cache.set(key, found);
+      }
+      return found;
+    };
+    /** Show the opening verses; fold the rest of a long reading under "Continue reading". */
+    const OPENING = 6;
+    const verseNode = (verse: { n: string; text: string }): DocumentFragment => {
+      const fragment = document.createDocumentFragment();
+      const n = document.createElement('sup');
+      n.textContent = verse.n;
+      fragment.append(n, `${verse.text} `);
+      return fragment;
+    };
+    const fill = (text: HTMLElement, parts: Part[]) => {
+      text.replaceChildren();
+      const total = parts.reduce((sum, part) => sum + part.verses.length, 0);
+      let shown = 0;
+      let more: HTMLDetailsElement | null = null;
+      for (const part of parts) {
+        if (parts.length > 1) {
+          const label = document.createElement('p');
+          label.className = 'kat-part';
+          label.textContent = part.label;
+          (more ?? text).append(label);
+        }
+        let paragraph = document.createElement('p');
+        (more ?? text).append(paragraph);
+        for (const verse of part.verses) {
+          if (more === null && total > OPENING + 2 && shown === OPENING) {
+            more = document.createElement('details');
+            more.className = 'kat-more';
+            const summary = document.createElement('summary');
+            summary.textContent = T.more;
+            more.append(summary);
+            text.append(more);
+            paragraph = document.createElement('p');
+            more.append(paragraph);
+          }
+          paragraph.append(verseNode(verse));
+          shown += 1;
+        }
+      }
+    };
+    const note = (text: HTMLElement, message: string) => {
+      const p = document.createElement('p');
+      p.className = 'kat-note';
+      p.textContent = message;
+      text.replaceChildren(p);
+    };
+
+    let request = 0;
+    const show = async (date: Date) => {
+      const mine = ++request;
+      const cycle = readingCycle(date);
+      const key = entryKey(cycle);
+      const day = `${format.format(date)}${ar ? '، ' : ' · '}${cycleLabel(cycle, date, locale)}`;
+      for (const section of sections) {
+        section.querySelector<HTMLElement>('[data-kat-day]')!.textContent = day;
+        section.querySelector<HTMLElement>('[data-kat-ref]')!.textContent = '';
+      }
+      if (key === null) {
+        for (const section of sections) note(section.querySelector<HTMLElement>('[data-kat-text]')!, T.holyWeek);
+        return;
+      }
+      let entry: Entry;
+      try {
+        entry = await load(key);
+      } catch {
+        for (const section of sections) note(section.querySelector<HTMLElement>('[data-kat-text]')!, T.failed);
+        return;
+      }
+      if (mine !== request) return;
+      for (const section of sections) {
+        const reading = entry[section.dataset['kat']!];
+        const text = section.querySelector<HTMLElement>('[data-kat-text]')!;
+        if (reading === undefined) {
+          note(text, T.none);
+          continue;
+        }
+        section.querySelector<HTMLElement>('[data-kat-ref]')!.textContent = reading.label;
+        fill(text, reading.parts);
+      }
+    };
+
+    const iso = (date: Date) => `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')}`;
+    const today = new Date();
+    document.querySelectorAll<HTMLInputElement>('[data-kat-date]').forEach((input) => {
+      input.value = iso(today);
+      input.addEventListener('change', () => {
+        const [y, m, d] = input.value.split('-').map(Number);
+        if (y && m && d) void show(new Date(y, m - 1, d));
+      });
+    });
+    void show(today);
+  }
+</script>
+
 <style>
+  .kat {
+    display: grid;
+    gap: 0.45rem;
+    margin-block: 0.4rem 0.8rem;
+    padding: 0.9rem 1.1rem 1rem;
+    border: 1px solid var(--line);
+    border-inline-start: 4px solid var(--gold);
+    border-radius: 0.8rem;
+    background: var(--surface-raised);
+    color: var(--ink);
+  }
+
+  .kat-head {
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.2rem 0.5rem;
+    align-items: baseline;
+    font-size: var(--step--1);
+    color: var(--ink-muted);
+  }
+
+  .kat-eyebrow {
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--accent);
+  }
+
+  .kat-date {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: var(--step--1);
+    color: var(--ink-muted);
+  }
+
+  .kat-date input {
+    font: inherit;
+    padding: 0.15rem 0.45rem;
+    border: 1px solid var(--line);
+    border-radius: 0.4rem;
+    background: var(--surface);
+    color: var(--ink);
+  }
+
+  .kat-ref {
+    margin: 0.15rem 0 0;
+    font-size: var(--step-1);
+    line-height: 1.3;
+  }
+
+  .kat-ref:empty {
+    display: none;
+  }
+
+  .kat-text :global(p) {
+    margin: 0 0 0.6rem;
+    font-family: var(--font-reading);
+    font-size: 1.05rem;
+    line-height: 1.75;
+  }
+
+  .kat-text :global(sup) {
+    margin-inline-end: 0.2rem;
+    font-family: var(--font-ui, inherit);
+    font-size: 0.68em;
+    font-weight: 700;
+    color: var(--accent);
+  }
+
+  .kat-text :global(.kat-part) {
+    margin-block: 0.4rem 0.2rem;
+    font-family: var(--font-ui, inherit);
+    font-size: var(--step--1);
+    font-weight: 700;
+    color: var(--ink-muted);
+  }
+
+  .kat-text :global(.kat-note) {
+    font-family: var(--font-ui, inherit);
+    font-size: var(--step--1);
+    color: var(--ink-muted);
+  }
+
+  .kat-text :global(.kat-more > summary) {
+    cursor: pointer;
+    inline-size: fit-content;
+    margin-block-end: 0.5rem;
+    font-size: var(--step--1);
+    font-weight: 700;
+    color: var(--accent);
+  }
+
+  .synax-today {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    margin-block: 0.4rem 0.8rem;
+    padding: 0.8rem 1rem;
+    border: 1px solid var(--line);
+    border-inline-start: 4px solid var(--accent);
+    border-radius: 0.8rem;
+    background: var(--surface-raised);
+    color: var(--ink);
+    text-decoration: none;
+  }
+
+  .synax-today span:last-child {
+    display: grid;
+    gap: 0.15rem;
+  }
+
+  .synax-today small {
+    color: var(--ink-muted);
+  }
+
+  .synax-icon {
+    color: var(--accent);
+    font-size: 1.4rem;
+  }
+
   .journey {
     --hm-header: var(--header-room);
     --bar: 3.9rem;
