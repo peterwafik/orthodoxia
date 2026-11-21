@@ -2,7 +2,7 @@
 # has read it through: `live: false` plans get no pages, are not on the shelf and are never chosen by the quiz.
 plans:
   - id: meet-jesus
-    live: false
+    live: true
     kind: sequence
     name: { en: Meet Jesus, ar: تعرّف على يسوع }
     who: { en: For first-timers, ar: لمن يبدأ لأول مرة }
@@ -17,7 +17,7 @@ plans:
     days: [mark-01, mark-02, mark-03, mark-04, mark-05, mark-06, mark-07, mark-08, mark-09, mark-10, mark-11, mark-12, mark-13, mark-14, mark-15, mark-16]
 
   - id: church-year
-    live: false
+    live: true
     kind: church-year
     name: { en: With the Church Year, ar: مع السنة الكنسية }
     who: { en: For readers who want to keep step with church, ar: لمن يريد أن يسير مع الكنيسة }
