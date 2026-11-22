@@ -61,3 +61,23 @@ export const readingLinks = (ref: string, locale: Locale): { l: string; h: strin
 
 /** The prayers said at every hour, printed once with Prime: what the other hours point back to. */
 export const sharedSections = (): Section[] => (hours()[0] as Hour).sections.filter((section) => section.shared === true);
+
+/**
+ * An hour as it is prayed: its own sections with the prayers of every hour printed in full where they are said. The
+ * opening prayers (introduction, Lord's Prayer, thanksgiving, Psalm 50) come first; the Gloria, Trisagion, Creed and Holy, Holy,
+ * Holy come before the hour's own absolution; the conclusion ends it. Prime's two absolutions are its own (they thank
+ * God for the daybreak), so the other hours keep their own absolution instead. Prime already prints everything.
+ */
+export function prayedSections(hour: Hour): Section[] {
+  if (hour.id === 'prime') return hour.sections;
+  const prime = (hours()[0] as Hour).sections;
+  const firstOwn = prime.findIndex((section) => section.shared !== true);
+  const opening = prime.slice(0, firstOwn).filter((section) => section.shared === true);
+  const rest = prime.slice(firstOwn).filter((section) => section.shared === true && section.kind !== 'absolution');
+  const conclusion = rest.filter((section) => section.id === 'conclusion');
+  const closing = rest.filter((section) => section.id !== 'conclusion');
+  const own = hour.sections;
+  const absolution = own.findIndex((section) => section.kind === 'absolution');
+  const cut = absolution === -1 ? own.length : absolution;
+  return [...opening, ...own.slice(0, cut), ...closing, ...own.slice(cut), ...conclusion];
+}

@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { HOUR_IDS, hours, psalmLink, readingLinks } from './load.ts';
+import { HOUR_IDS, hours, prayedSections, psalmLink, readingLinks } from './load.ts';
 
 const all = hours();
 const arabicLetters = /[ء-ي]/;
@@ -73,5 +73,29 @@ describe('Agpeya texts', () => {
       expect(hour, group.hour).toBeDefined();
       for (const item of group.items) expect(hour?.sections.some((section) => section.id === `psalm-${item.psalm}`), `${group.hour} psalm ${item.psalm}`).toBe(true);
     }
+  });
+
+  it('prints the prayers of every hour in full in each hour, around the hour’s own prayers', () => {
+    expect(prayedSections(all[0]!)).toEqual(all[0]!.sections);
+    for (const hour of all.slice(1)) {
+      const ids = prayedSections(hour).map((section) => section.id);
+      expect(new Set(ids).size, `${hour.id} section ids`).toBe(ids.length);
+      expect(ids.slice(0, 4), hour.id).toEqual(['introduction', 'lords-prayer', 'thanksgiving', 'psalm-50']);
+      expect(ids.at(-1), hour.id).toBe('conclusion');
+      for (const id of ['gloria', 'trisagion', 'creed-introduction', 'creed', 'holy-holy-holy']) expect(ids, `${hour.id} ${id}`).toContain(id);
+      expect(ids, hour.id).not.toContain('first-absolution');
+      expect(ids, hour.id).not.toContain('second-absolution');
+      for (const own of hour.sections) expect(ids, `${hour.id} keeps ${own.id}`).toContain(own.id);
+      const absolution = hour.sections.find((section) => section.kind === 'absolution');
+      if (absolution !== undefined) expect(ids.indexOf('holy-holy-holy'), hour.id).toBeLessThan(ids.indexOf(absolution.id));
+    }
+  });
+
+  it('keeps Prime’s own opening out of Psalm 50, which every hour prays', () => {
+    const psalm = all[0]!.sections.find((section) => section.id === 'psalm-50');
+    expect(psalm?.shared).toBe(true);
+    expect(psalm?.text.en.join(' ')).not.toMatch(/kneel down|The night has passed/);
+    expect(psalm?.text.ar.join(' ')).not.toMatch(/هلم نسجد|الليل عبر/);
+    expect(all[0]!.sections.find((section) => section.id === 'opening')?.shared).toBeUndefined();
   });
 });

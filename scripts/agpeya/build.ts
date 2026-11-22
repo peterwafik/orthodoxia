@@ -127,7 +127,8 @@ function classify(section: Section, hour: string, seen: Map<string, number>): Om
   const psalm = /^PSALMS?(\d{1,3})/i.exec(compact);
   if (psalm !== null) {
     const n = Number(psalm[1]);
-    return { id: `psalm-${n}`, kind: 'psalm', title: { en: `Psalm ${n}`, ar: `المزمور ${arabicOrdinal(n)}` }, psalm: n };
+    // Psalm 50 is prayed at every hour, after the thanksgiving; the book prints it once, with Prime.
+    return { id: `psalm-${n}`, kind: 'psalm', title: { en: `Psalm ${n}`, ar: `المزمور ${arabicOrdinal(n)}` }, psalm: n, ...(n === 50 && hour === 'prime' ? { shared: true as const } : {}) };
   }
   const k = key(raw);
   const match = Object.entries(PLAIN).find(([name]) => k === name || k.includes(name) || (name === 'THE ABSOLUTION OF THE PRIESTS' && /ABSOLUTION OF THE PRIESTS/.test(k)));
@@ -158,6 +159,25 @@ const VEIL_TABLE: NonNullable<Out['table']> = [
   { hour: 'vespers', items: [[120, 'I lifted up my eyes to the mountains', 'رفعت عيني'], [128, 'Many times they have warred against me', 'مرارا كثيرة']].map(([psalm, en, ar]) => ({ psalm: psalm as number, en: en as string, ar: ar as string })) },
   { hour: 'compline', items: [[129, 'Out of the depths I have cried to You', 'من الأعماق صرخت'], [130, 'O Lord, my heart was not exalted', 'يا رب لم يرتفع قلبي'], [131, 'Lord, remember David', 'اذكر يا رب داود'], [132, 'Behold! What is so good', 'هوذا ما أحسن'], [133, 'Behold, bless the Lord, O you servants', 'ها باركوا الرب'], [136, 'By the rivers of Babylon', 'على أنهار بابل'], [140, 'O Lord, I have cried to You', 'يا رب إليك صرخت'], [145, 'Praise the Lord, O my soul', 'سبحي يا نفسي الرب']].map(([psalm, en, ar]) => ({ psalm: psalm as number, en: en as string, ar: ar as string })) },
 ];
+
+/**
+ * Prime's own opening ("Come let us kneel down… The night has passed…") is printed straight after Psalm 50 with no
+ * heading, so it lands in the psalm. It is Prime's alone (it greets the morning): it becomes its own section, and Psalm
+ * 50, which every hour prays, holds only the psalm.
+ */
+function splitPrimeOpening(out: Out[]): void {
+  const at = out.findIndex((s) => s.id === 'psalm-50');
+  const psalm = out[at];
+  if (psalm === undefined) return;
+  const starts = { en: /^Come let us kneel down/, ar: /^هلم نسجد/, cop: /^Ⲁⲙⲱⲓⲛⲓ/ };
+  const opening: Out['text'] = { en: [], ar: [], cop: [] };
+  for (const lang of ['en', 'ar', 'cop'] as const) {
+    const from = psalm.text[lang].findIndex((p) => starts[lang].test(p));
+    if (from >= 0) opening[lang] = psalm.text[lang].splice(from);
+  }
+  if (opening.en.length + opening.ar.length + opening.cop.length === 0) return;
+  out.splice(at + 1, 0, { id: 'opening', kind: 'opening', title: { en: 'Opening of the hour', ar: 'مقدمة الساعة' }, text: opening });
+}
 
 function applyVeil(out: Out[]): void {
   const old = out.find((s) => s.id === 'veil-psalms');
@@ -222,6 +242,7 @@ for (const hour of hours) {
     }
   }
   if (hour === 'veil') applyVeil(out);
+  if (hour === 'prime') splitPrimeOpening(out);
   about.en = cleanEn(about.en);
   about.en = cleanEn(about.en);
   const file = { id: hour, order: meta.order, title: meta.title, time: meta.time, at: meta.at, about, sections: out };
